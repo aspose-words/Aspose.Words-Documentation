@@ -15,7 +15,7 @@ Tato stránka popisuje nejzajímavější nový Aspose.Words funkce zavedené v 
 
 Aspose.Words 24.1 zlepšuje zkušenosti s managementem barev zdvihu, zvyšuje OLE objekty a LINQ reporting, stejně jako představuje nový `Bibliography Sources` veřejný API.
 
-Aspose.Words 24,2 rozšířených grafů API, řízení stylu a možnosti LINQ. Tato verze Aspose.Words také představil schopnost určit SvgSaveOptions při vykreslování, pružnější ovládání zatížení Markdown soubory a práce s referenčním textem pro poznámky pod čarou a poznámky pod čarou.
+Aspose.Words 24.2 rozšířených grafů API, řízení stylu a možnosti LINQ. Tato verze Aspose.Words také představil schopnost určit SvgSaveOptions při vykreslování, pružnější ovládání zatížení Markdown soubory a práce s referenčním textem pro poznámky pod čarou a poznámky pod čarou.
 
 Aspose.Words 24.3 zavádí nový TIFF Reader/Writer a Emulaci binárních rastrových operací pro WMF metafily. Aspose.Words 24.3 i nadále rozšiřuje grafy API.
 
@@ -165,7 +165,7 @@ Aspose.Words 23.5 zvyšuje schopnost pracovat s daty ze série grafů a schopnos
 
 Aspose.Words 23.6 rozšiřuje možnosti renderování, přidává nový exportní formát, zlepšuje LINQ reporting a LowCode nářadí.
 
-Aspose.Words 23,7 zvyšuje možnosti podávání zpráv, přidává nový formát exportu a zavádí změny v práci s tabulkami a digitálními podpisy.
+Aspose.Words 23.7 zvyšuje možnosti podávání zpráv, přidává nový formát exportu a zavádí změny v práci s tabulkami a digitálními podpisy.
 
 Aspose.Words 23.8 rozšiřuje možnosti různých formátů, zlepšuje vykreslování a přidává nové možnosti pro práci s poli
 
@@ -242,7 +242,7 @@ Více informací o [Aspose.Words místo .NET 23.5 Poznámky k vydání](/words/n
 
 Více informací o [Aspose.Words místo .NET 23.6 Poznámky k vydání](/words/net/aspose-words-for-net-23-6-release-notes/).
 
-Více informací o [Aspose.Words místo .NET 23,7 Poznámky k vydání](/words/net/aspose-words-for-net-23-7-release-notes/).
+Více informací o [Aspose.Words místo .NET 23.7 Poznámky k vydání](/words/net/aspose-words-for-net-23-7-release-notes/).
 
 Více informací o [Aspose.Words místo .NET 23.8 Poznámky k vydání](/words/net/aspose-words-for-net-23-8-release-notes/).
 

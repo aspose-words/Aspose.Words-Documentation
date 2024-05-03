@@ -413,7 +413,7 @@ Das API wurde für eine flexiblere und bequemere Entwicklung erweitert.
 
 ### Rendern und Drucken
 
-#### Neue Druckgröße <sup>22,5</sup>
+#### Neue Druckgröße <sup>22.5</sup>
 
 Durch die Einführung eines neuen Werts in die [PaperSize](https://reference.aspose.com/words/python-net/aspose.words/papersize/)-Aufzählung wurde Unterstützung für die Druckseitengröße "Umschlag Nr. 10" hinzugefügt.
 

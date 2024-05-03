@@ -138,7 +138,7 @@ Tính năng nhận dạng siêu liên kết khi tải tài liệu TXT đã đư�
 
 ### Khác
 
-* Mô phỏng kết xuất siêu tệp để xác định kích thước rasterization đã được triển khai, đặc biệt cho chiều rộng bút WMF và chiều rộng bút mỹ phẩm EMF. Để đạt được điều này, thuộc tính **ScaleWmfFontsToMetafileSize** đã được thay thế bằng thuộc tính [EmulateRenderingToSizeOnPage](https://reference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpage/) và thuộc tính [EmulateRenderingToSizeOnPageResolution](https://reference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpageresolution/) đã được thêm vào. <sup>23,9</sup>
+* Mô phỏng kết xuất siêu tệp để xác định kích thước rasterization đã được triển khai, đặc biệt cho chiều rộng bút WMF và chiều rộng bút mỹ phẩm EMF. Để đạt được điều này, thuộc tính **ScaleWmfFontsToMetafileSize** đã được thay thế bằng thuộc tính [EmulateRenderingToSizeOnPage](https://reference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpage/) và thuộc tính [EmulateRenderingToSizeOnPageResolution](https://reference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpageresolution/) đã được thêm vào. <sup>23.9</sup>
 * Một phương pháp đơn giản để chèn một tài liệu vào một tài liệu khác ở vị trí con trỏ hiện tại đã được giới thiệu bằng phương pháp [InsertDocumentInline](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertdocumentinline/). <sup>23.10</sup>
 * Khả năng truy cập và sửa đổi các thuộc tính kiểu đã được thêm vào thông qua việc giới thiệu thuộc tính [Locked](https://reference.aspose.com/words/net/aspose.words/style/locked/) mới. <sup>23.10</sup>
 * Một tham số loại chung đã được thêm vào các phương thức của lớp [CompositeNode](https://reference.aspose.com/words/net/aspose.words/compositenode/). <sup>23.10</sup>
@@ -171,14 +171,14 @@ Aspose.Words 23.8 mở rộng khả năng của các định dạng khác nhau, 
 
 ### Các định dạng được hỗ trợ
 
-* Bắt đầu từ phiên bản 23.6, có thể lưu tài liệu ở định dạng XLSX. Bây giờ bạn có thể chuyển đổi tài liệu của mình sang định dạng Excel. <sup>23,6</sup>
-* Bắt đầu từ phiên bản 23.7, có thể lưu trang tài liệu hoặc hình dạng ở định dạng EPS. <sup>23,7</sup>
+* Bắt đầu từ phiên bản 23.6, có thể lưu tài liệu ở định dạng XLSX. Bây giờ bạn có thể chuyển đổi tài liệu của mình sang định dạng Excel. <sup>23.6</sup>
+* Bắt đầu từ phiên bản 23.7, có thể lưu trang tài liệu hoặc hình dạng ở định dạng EPS. <sup>23.7</sup>
 
 ### Tính năng định dạng mới
 
-* Chức năng tự động tạo Mục lục (TOC) cho tài liệu MOBI đã được giới thiệu. <sup>23,8</sup>
-* Hàm tạo [PdfEncryptionDetails](https://reference.aspose.com/words/net/aspose.words.saving/pdfencryptiondetails/pdfencryptiondetails/) đã được mở rộng với [PdfPermissions](https://reference.aspose.com/words/net/aspose.words.saving/pdfpermissions/). <sup>23,8</sup>
-* Việc định hình văn bản dọc cho siêu tệp EMF đã được triển khai. <sup>23,8</sup>
+* Chức năng tự động tạo Mục lục (TOC) cho tài liệu MOBI đã được giới thiệu. <sup>23.8</sup>
+* Hàm tạo [PdfEncryptionDetails](https://reference.aspose.com/words/net/aspose.words.saving/pdfencryptiondetails/pdfencryptiondetails/) đã được mở rộng với [PdfPermissions](https://reference.aspose.com/words/net/aspose.words.saving/pdfpermissions/). <sup>23.8</sup>
+* Việc định hình văn bản dọc cho siêu tệp EMF đã được triển khai. <sup>23.8</sup>
 
 ### Kết xuất và in ấn
 
@@ -229,12 +229,12 @@ Các phương pháp LowCode mới nhằm hợp nhất các loại tài liệu kh
 
 ### Khác
 
-* Hỗ trợ gói văn bản trong đầu trang/chân trang đã được triển khai. <sup>23,5</sup>
-* Khả năng xóa chữ ký số khỏi tài liệu ODT đã được thêm thông qua phương pháp [RemoveAllSignatures](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/). <sup>23,5</sup>
-* Thuộc tính công cộng [PhoneticGuide](https://reference.aspose.com/words/net/aspose.words/run/phoneticguide/) để lấy văn bản cơ sở và hồng ngọc của hướng dẫn ngữ âm [Run](https://reference.aspose.com/words/net/aspose.words/run/) đã được thêm vào. <sup>23,5</sup>
-* Khả năng truy xuất giá trị chữ ký số từ tài liệu được ký điện tử dưới dạng mảng byte đã được thêm bằng cách giới thiệu thuộc tính [SignatureValue](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/) mới. <sup>23,7</sup>
-* Các lớp [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) và [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) đã được mở rộng với các thành viên công cộng mới – [Row.NextRow](https://reference.aspose.com/words/net/aspose.words.tables/row/nextrow/), [Row.PreviousRow](https://reference.aspose.com/words/net/aspose.words.tables/row/previousrow/), [Cell.NextCell](https://reference.aspose.com/words/net/aspose.words.tables/cell/nextcell/) và [Cell.PreviousCell](https://reference.aspose.com/words/net/aspose.words.tables/cell/previouscell/). <sup>23,7</sup>
-* Hỗ trợ cho các trường CITATION và BIBLIOGRAPHY đã được thêm vào. <sup>23,8</sup>
+* Hỗ trợ gói văn bản trong đầu trang/chân trang đã được triển khai. <sup>23.5</sup>
+* Khả năng xóa chữ ký số khỏi tài liệu ODT đã được thêm thông qua phương pháp [RemoveAllSignatures](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/). <sup>23.5</sup>
+* Thuộc tính công cộng [PhoneticGuide](https://reference.aspose.com/words/net/aspose.words/run/phoneticguide/) để lấy văn bản cơ sở và hồng ngọc của hướng dẫn ngữ âm [Run](https://reference.aspose.com/words/net/aspose.words/run/) đã được thêm vào. <sup>23.5</sup>
+* Khả năng truy xuất giá trị chữ ký số từ tài liệu được ký điện tử dưới dạng mảng byte đã được thêm bằng cách giới thiệu thuộc tính [SignatureValue](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/) mới. <sup>23.7</sup>
+* Các lớp [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) và [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) đã được mở rộng với các thành viên công cộng mới – [Row.NextRow](https://reference.aspose.com/words/net/aspose.words.tables/row/nextrow/), [Row.PreviousRow](https://reference.aspose.com/words/net/aspose.words.tables/row/previousrow/), [Cell.NextCell](https://reference.aspose.com/words/net/aspose.words.tables/cell/nextcell/) và [Cell.PreviousCell](https://reference.aspose.com/words/net/aspose.words.tables/cell/previouscell/). <sup>23.7</sup>
+* Hỗ trợ cho các trường CITATION và BIBLIOGRAPHY đã được thêm vào. <sup>23.8</sup>
 
 {{% alert color="primary" %}}
 
@@ -390,8 +390,8 @@ Khả năng bỏ qua [StructuredDocumentTag](https://reference.aspose.com/words/
 
 ### Khác
 
-* Một tính năng mới để lấy FieldEQ làm OfficeMath đã được thêm vào. <sup>22,9</sup>
-* Cho phép tạo các thẻ tài liệu có cấu trúc thuộc loại Group ở cấp Hàng. <sup>22,9</sup>
+* Một tính năng mới để lấy FieldEQ làm OfficeMath đã được thêm vào. <sup>22.9</sup>
+* Cho phép tạo các thẻ tài liệu có cấu trúc thuộc loại Group ở cấp Hàng. <sup>22.9</sup>
 * Các đối tượng và điều khiển OLE hiện được coi là hình ảnh siêu tệp khi chuyển đổi tài liệu sang HTML. <sup>22.10</sup>
 * Một tính năng mới để kiểm tra xem danh sách cụ thể có được tạo từ cùng một mẫu với danh sách so sánh hay không đã được thêm bằng cách đưa phương thức [HasSameTemplate](https://reference.aspose.com/words/net/aspose.words.lists/list/hassametemplate/) mới vào lớp [List](https://reference.aspose.com/words/net/aspose.words.lists/list/). <sup>22.10</sup>
 * Đã thêm khả năng tạo thẻ tài liệu có cấu trúc mới thuộc loại [Citation](https://reference.aspose.com/words/net/aspose.words.markup/sdttype/). <sup>22.11</sup>
@@ -424,12 +424,12 @@ API được cải tiến để phát triển linh hoạt và thuận tiện hơ
 
 ### Các định dạng được hỗ trợ
 
-* Hỗ trợ tải tài liệu EPUB và XML đã được giới thiệu bằng cách thêm các giá trị mới vào bảng liệt kê [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/). Bắt đầu từ phiên bản 22.5, có thể tải tài liệu EPUB và XML vào mô hình tài liệu Aspose.Words và chuyển đổi chúng sang bất kỳ [định dạng được hỗ trợ](https://reference.aspose.com/words/net/aspose.words/saveformat/) nào. <sup>22,5</sup>
-* Bắt đầu từ phiên bản 22.8, có thể lưu tài liệu ở định dạng AZW3 – định dạng tệp sách điện tử độc quyền của Amazon Kindle (KF8 là tên gọi khác của định dạng). Giờ đây, bạn không chỉ có thể tải tài liệu AZW3 mà còn có thể xuất các tệp của mình sang định dạng AZW3, về cơ bản là một EPUB được biên dịch. <sup>22,8</sup>
+* Hỗ trợ tải tài liệu EPUB và XML đã được giới thiệu bằng cách thêm các giá trị mới vào bảng liệt kê [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/). Bắt đầu từ phiên bản 22.5, có thể tải tài liệu EPUB và XML vào mô hình tài liệu Aspose.Words và chuyển đổi chúng sang bất kỳ [định dạng được hỗ trợ](https://reference.aspose.com/words/net/aspose.words/saveformat/) nào. <sup>22.5</sup>
+* Bắt đầu từ phiên bản 22.8, có thể lưu tài liệu ở định dạng AZW3 – định dạng tệp sách điện tử độc quyền của Amazon Kindle (KF8 là tên gọi khác của định dạng). Giờ đây, bạn không chỉ có thể tải tài liệu AZW3 mà còn có thể xuất các tệp của mình sang định dạng AZW3, về cơ bản là một EPUB được biên dịch. <sup>22.8</sup>
 
 ### Kết xuất và in ấn
 
-#### Kích thước in mới <sup>22,5</sup>
+#### Kích thước in mới <sup>22.5</sup>
 
 Hỗ trợ cho kích thước trang in "Phong bì số 10" đã được thêm bằng cách giới thiệu một giá trị mới cho bảng liệt kê [PaperSize](https://reference.aspose.com/words/net/aspose.words/papersize/).
 
@@ -491,8 +491,8 @@ Nhưng cả hai yêu cầu đều không liên quan đến trường hợp chuy�
 
 ### Khác
 
-* Ngoại lệ kế thừa hiệu ứng điền văn bản đặc bắt chước hành vi của MS Word đã được triển khai. <sup>22,6</sup>
-* Hỗ trợ các trường `DATABASE` đã được thêm vào. Ví dụ: bằng cách sử dụng loại trường này, bạn có thể hiển thị kết quả của truy vấn cơ sở dữ liệu trong bảng Microsoft Word. <sup>22,7</sup>
+* Ngoại lệ kế thừa hiệu ứng điền văn bản đặc bắt chước hành vi của MS Word đã được triển khai. <sup>22.6</sup>
+* Hỗ trợ các trường `DATABASE` đã được thêm vào. Ví dụ: bằng cách sử dụng loại trường này, bạn có thể hiển thị kết quả của truy vấn cơ sở dữ liệu trong bảng Microsoft Word. <sup>22.7</sup>
 
 {{% alert color="primary" %}}
 

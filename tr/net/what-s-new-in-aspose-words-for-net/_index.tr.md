@@ -372,7 +372,7 @@ Google Noto yazı tipleri için önceden tanımlanmış yazı tipi geri dönüş
 
 ### Belgeleri Yükleme ve Kaydetme
 
-#### PDF Boyutunu Küçültmek için Üstbilgi veya Altbilgi Şekillerini Önbelleğe Alın <sup>22,9</sup>
+#### PDF Boyutunu Küçültmek için Üstbilgi veya Altbilgi Şekillerini Önbelleğe Alın <sup>22.9</sup>
 
 Çıktı PDF dosyasının boyutunu azaltmak için üstbilgi/altbilgi şekillerini önbelleğe alma yeteneği, yeni bir **CacheHeaderFooterShapes** özelliği eklenerek uygulanmıştır.
 
@@ -429,7 +429,7 @@ API, daha esnek ve kullanışlı geliştirme için geliştirilmiştir.
 
 ### İşleme ve Yazdırma
 
-#### Yeni Baskı Boyutu <sup>22,5</sup>
+#### Yeni Baskı Boyutu <sup>22.5</sup>
 
 [PaperSize](https://reference.aspose.com/words/tr/net/aspose.words/papersize/) numaralandırmasına yeni bir değer getirilerek "Zarf No. 10" yazdırma sayfası boyutu desteği eklendi.
 

@@ -11,13 +11,19 @@ url: /zh/java/what-s-new-in-aspose-words-for-java/
 
 此页面描述最有趣的新 Aspose.Words 近期发布时引入的特征。
 
-## Aspose.Words (单位:千美元) Java 24.1, 24.2, 24.3
+## Java 24.1、24.2、24.3、24.4 的 Aspose.Words
 
-Aspose.Words 24.1 改进管理中风颜色方面的经验,加强OLE对象和LINQ报告,并推出新的参考书目来源 API。 。 。 。
+Aspose.Words 24.1 改进管理中风颜色方面的经验,加强OLE对象和LINQ报告,并推出新的参考书目来源 API。
 
 Aspose.Words 24.2 扩大的图表 API, 样式管理,以及 LINQ 选项。 这个版本 Aspose.Words 还引入了在渲染时指定 Svg Save 选项的能力, 更灵活的控制加载 Markdown 文档,并使用脚注和尾注的参考文本。
 
-Aspose.Words 24.3 为WMF元文件引入了一个新的TIFF Reader/Writer和模拟二进制光栅操作. Aspose.Words 24.3 还继续扩大图表 API。 。 。 。
+Aspose.Words 24.3 为WMF元文件引入了一个新的TIFF Reader/Writer和模拟二进制光栅操作. Aspose.Words 24.3 还继续扩大图表 API。 
+
+Aspose.Words 24.4 增加了保存格式、某些渲染选项的功能，以及改进了与数字签名的处理。
+
+### 支持的格式 <sup>24.4</sup>
+
+Aspose.Words 现在支持现代 WebP 图像格式。 您现在可以读取 WebP 图像并将其插入到文档中，以及以 WebP 格式保存图像。
 
 ### 制作和印刷
 
@@ -25,9 +31,17 @@ Aspose.Words 24.3 为WMF元文件引入了一个新的TIFF Reader/Writer和模�
 
 那个 [Stroke](https://reference.aspose.com/words/java/com.aspose.words/stroke/) 类被扩展为一组与管理中风颜色相关的新公共属性: [ForeThemeColor](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getForeThemeColor) 和 [BackThemeColor](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getBackThemeColor), [ForeTintAndShade](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getForeTintAndShade) 和 [BackTintAndShade](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getBackTintAndShade)。 。 。 。
 
-#### 绘图ML 图表 API 延长 <sup>24.2 / 24.3</sup>
+#### 绘图ML 图表 API 延长 <sup>24.2 / 24.3 / 24.4</sup>
 
 那个 **DrawingML Charts API** 继续扩大。
+
+#### 嵌入在@font-face规则中声明的字体 <sup>24.4</sup>
+
+通过添加名为[SupportFontFaceRules](https://reference.aspose.com/words/java/com.aspose.words/htmlloadoptions/#getSupportFontFaceRules)的新属性，现在可以将在@font-face规则中声明的字体嵌入到生成的文档的字体定义中。
+
+#### 处理发光与反射格式 <sup>24.4</sup>
+
+实现了处理图形对象的发光与反射格式的功能。
 
 ### 装入和保存文档
 
@@ -52,14 +66,17 @@ Aspose.Words 24.3 为WMF元文件引入了一个新的TIFF Reader/Writer和模�
 * 《大会正式记录,第五十八届会议,补编第5号》(A/C.6/61/Rev.1)。 检索脚注和尾注实际参考标记文本的功能已随着 [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) 财产和财产 [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/) 方法。 <sup>24.2 国家</sup>
 * 与 `Word 2016` 图表 `LINQ Reporting Engine` 已启用。 <sup>24.2 国家</sup>
 * 对WMF元文件的二进制光栅操作进行了模拟。 <sup>24.3 联合国</sup>
+* 通过添加名为[DigitalSignatureDetails](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturedetails/)的新类，并为[OoxmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/)、[DocSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/) 和[OdtSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/)类添加新属性，启用了在**SaveOptions**中为文档定义签名选项的功能。 <sup>24.4</sup>
 
 {{% alert color="primary" %}}
 
-学习更多 [Aspose.Words (单位:千美元) Java 24.1 发布说明](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-1-release-notes/)。 。 。 。
+学习更多 [Aspose.Words (单位:千美元) Java 24.1 发布说明](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-1-release-notes/)
 
 学习更多 [Aspose.Words (单位:千美元) Java 24.2 发布说明。](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-2-release-notes/)
 
 学习更多 [Aspose.Words (单位:千美元) Java 24.3 发布说明。](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-3-release-notes/)
+
+学习更多 [Aspose.Words (单位:千美元) Java 24.4 发布说明。](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-4-release-notes/)
 
 {{% /alert %}}
 

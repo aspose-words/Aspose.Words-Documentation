@@ -11,7 +11,7 @@ url: /pt/java/what-s-new-in-aspose-words-for-java/
 
 Esta página descreve o novo mais interessante Aspose.Words recursos introduzidos em versões recentes.
 
-## Aspose.Words para Java 24.1, 24.2, 24.3
+## Aspose.Words para Java 24.1, 24.2, 24.3, 24.4
 
 Aspose.Words 24.1 melhora a experiência em torno da gestão de cores de curso, melhora objetos OLE e relatórios LINQ, bem como introduz um novo público Fontes de Bibliografia API.
 
@@ -19,15 +19,29 @@ Aspose.Words 24.2 gráficos expandidos API, gerenciamento de estilo e opções d
 
 Aspose.Words 24.3 introduz um novo TIFF Reader/Writer e Emulação de operações de raster binário para metafiles WMF. Aspose.Words 24.3 também continua a expandir os gráficos API.
 
+Aspose.Words 24.4 aprimora a formatação de salvamento, algumas opções de renderização, bem como melhora o trabalho com assinaturas digitais.
+
+### Formatos Suportados <sup>24.4</sup>
+
+O formato de imagem **WebP** moderno agora é suportado no Aspose.Words. Agora é possível ler e inserir imagens WebP em documentos, bem como salvar imagens no formato WebP.
+
 ### Renderização e impressão
 
 #### Controle de cor de Stroke <sup>24.1</sup>
 
 O [Stroke](https://reference.aspose.com/words/java/com.aspose.words/stroke/) classe foi estendida com um conjunto de novas propriedades públicas relacionadas à gestão de cores de curso: [ForeThemeColor](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getForeThemeColor) e [BackThemeColor](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getBackThemeColor), [ForeTintAndShade](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getForeTintAndShade) e [BackTintAndShade](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getBackTintAndShade).
 
-#### Gráficos de DrawingML API Extensão <sup>24.2 / 24.3</sup>
+#### Gráficos de DrawingML API Extensão <sup>24.2 / 24.3 / 24.4</sup>
 
 O **DrawingML Charts API** continua a ser expandido.
+
+#### Incorporar Fontes Declaradas em Regras @font-face <sup>24.4</sup>
+
+Foi adicionada a capacidade de incorporar fontes declaradas em regras @font-face nas definições de fontes do documento resultante, adicionando uma nova propriedade chamada [SupportFontFaceRules](https://reference.aspose.com/words/java/com.aspose.words/htmlloadoptions/#getSupportFontFaceRules).
+
+#### Trabalhar com Formatação de Brilho e Reflexo <sup>24.4</sup>
+
+A capacidade de trabalhar com formatação de brilho e reflexo para um objeto de desenho foi implementada.
 
 ### A carregar e salvar documentos
 
@@ -52,6 +66,7 @@ Um novo leitor/escritor TIFF para Aspose.Words para .NET Standard, .NET 6 e mais
 * A funcionalidade para recuperar o texto de marca de referência real para notas de rodapé e notas finais foi reforçada com o [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) propriedade e [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/) método. <sup>24.2</sup>
 * Compatibilidade com `Word 2016` gráficos para o `LINQ Reporting Engine` foi ativado. <sup>24.2</sup>
 * Emulação de operações de raster binário para metafiles WMF foi implementada. <sup>24.3</sup>
+* A capacidade de definir opções de assinatura para documentos dentro de **SaveOptions** foi ativada, adicionando uma nova classe chamada [DigitalSignatureDetails](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturedetails/) com novos membros públicos, bem como adicionando novas propriedades às classes [OoxmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/) e [OdtSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/). <sup>24.4</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,6 +75,8 @@ Saiba mais sobre [Aspose.Words para Java Notas de lançamento 24.1](https://rele
 Saiba mais sobre [Aspose.Words para Java Notas de lançamento 24.2.](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-2-release-notes/)
 
 Saiba mais sobre [Aspose.Words para Java 24.3 Notas de lançamento.](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-3-release-notes/)
+
+Saiba mais sobre [Aspose.Words para Java 24.4 Notas de lançamento.](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-4-release-notes/)
 
 {{% /alert %}}
 
@@ -139,7 +156,7 @@ Saiba mais sobre [Aspose.Words para Java 23.12 Notas de lançamento](https://rel
 
 {{% /alert %}}
 
-## Aspose.Words para Java 23.5, 23,6, 23,7, 23,8
+## Aspose.Words para Java 23.5, 23.6, 23.7, 23.8
 
 Aspose.Words 23.5 melhora a capacidade de trabalhar com dados da série de gráficos e a capacidade de trabalhar com documentos ODT, bem como melhorar cabeçalhos / pés e seu embrulho de texto.
 
@@ -263,7 +280,7 @@ Suporte de coeficiente R-squared em rótulos de linha de tendência gráfico DML
 
 #### Melhorias de renderização do gráfico <sup>23.2</sup>
 
-Desde 23,2 a renderização do gráfico foi significativamente melhorada.
+Desde 23.2 a renderização do gráfico foi significativamente melhorada.
 
 #### Controle de cor de fundo e primeiro plano <sup>23.3</sup>
 
@@ -391,7 +408,7 @@ Saiba mais sobre [Aspose.Words para Java 22.12 Notas de lançamento](/words/java
 
 {{% /alert %}}
 
-## Aspose.Words para Java 22.5, 22,6, 22,7, 22.8
+## Aspose.Words para Java 22.5, 22.6, 22.7, 22.8
 
 Aspose.Words 22.5 introduz suporte para novos formatos de carregamento e um novo tamanho de página de impressão, bem como melhora algumas opções de renderização.
 

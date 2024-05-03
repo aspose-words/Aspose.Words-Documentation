@@ -11,7 +11,7 @@ url: /es/java/what-s-new-in-aspose-words-for-java/
 
 Esta página describe el nuevo más interesante Aspose.Words características introducidas en versiones recientes.
 
-## Aspose.Words para Java 24.1, 24.2, 24.3
+## Aspose.Words para Java 24.1, 24.2, 24.3, 24.4
 
 Aspose.Words 24.1 mejora la experiencia en la gestión de los colores de trazo, mejora los objetos OLE y la presentación de informes LINQ, así como introduce una nueva bibliografía Fuentes públicas API.
 
@@ -19,15 +19,29 @@ Aspose.Words Cargos ampliados 24.2 API, gestión de estilo y opciones de LINQ. E
 
 Aspose.Words 24.3 presenta un nuevo TIFF Reader/Writer y Emulación de operaciones binarias de raster para metafiles WMF. Aspose.Words 24.3 continúa también ampliando los Gráficos API.
 
+Aspose.Words 24.4 mejora el guardado de formatos, algunas opciones de renderizado, así como mejora el trabajo con firmas digitales.
+
+### Formatos admitidos <sup>24.4</sup>
+
+El formato de imagen moderno **WebP** ahora es compatible con Aspose.Words. Ahora puede leer e insertar imágenes WebP en documentos, así como guardar imágenes en formato WebP.
+
 ### Rendering and Printing
 
 #### Control de Colores Stroke <sup>24.1</sup>
 
 El [Stroke](https://reference.aspose.com/words/java/com.aspose.words/stroke/) clase se ha extendido con un conjunto de nuevas propiedades públicas relacionadas con la gestión de los colores del trazo: [ForeThemeColor](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getForeThemeColor) y [BackThemeColor](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getBackThemeColor), [ForeTintAndShade](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getForeTintAndShade) y [BackTintAndShade](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getBackTintAndShade).
 
-#### Cartones de dibujo de MLS API Extensión <sup>24.2 / 24.3</sup>
+#### Cartones de dibujo de MLS API Extensión <sup>24.2 / 24.3 / 24.4</sup>
 
 El **DrawingML Charts API** sigue creciendo.
+
+#### Incluir fuentes declaradas en las reglas @font-face <sup>24.4</sup>
+
+Se ha agregado la capacidad de incluir fuentes declaradas en las reglas @font-face en las definiciones de fuentes del documento resultante mediante la adición de una nueva propiedad llamada [SupportFontFaceRules](https://reference.aspose.com/words/java/com.aspose.words/htmlloadoptions/#getSupportFontFaceRules).
+
+#### Trabajar con formatos de brillo y reflexión <sup>24.4</sup>
+
+Se ha implementado la capacidad de trabajar con formatos de brillo y reflexión para un objeto de dibujo.
 
 ### Documentos de carga y ahorro
 
@@ -52,6 +66,7 @@ Un nuevo lector/escritor TIFF Aspose.Words para .NET Standard, .NET 6 y más tar
 * Se ha mejorado la funcionalidad para recuperar el texto de referencia real para las notas de pie de página y las notas finales con el [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) propiedad y el [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/) método. <sup>24.2</sup>
 * Compatibilidad con `Word 2016` gráficos para los `LINQ Reporting Engine` ha sido habilitado. <sup>24.2</sup>
 * Emulación de operaciones binarias de raster para metafiles WMF se ha implementado. <sup>24.3</sup>
+* Se ha habilitado la posibilidad de definir opciones de firma para documentos dentro de SaveOptions mediante la adición de una nueva clase llamada [DigitalSignatureDetails](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturedetails/) con nuevos miembros públicos, así como la adición de nuevas propiedades a las clases [OoxmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/) y [OdtSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/). 24.4
 
 {{% alert color="primary" %}}
 
@@ -60,6 +75,8 @@ Aprender más acerca de [Aspose.Words para Java 24.1 Notas de lanzamiento](https
 Aprender más acerca de [Aspose.Words para Java 24.2 Notas de lanzamiento.](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-2-release-notes/)
 
 Aprender más acerca de [Aspose.Words para Java 24.3 Notas de lanzamiento.](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-3-release-notes/)
+
+Aprender más acerca de [Aspose.Words para Java 24.4 Notas de lanzamiento.](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-4-release-notes/)
 
 {{% /alert %}}
 
@@ -153,7 +170,7 @@ Aspose.Words 23.8 amplía las capacidades de diferentes formatos, mejora la rend
 
 * A partir de la versión 23.6, es posible guardar un documento en formato XLSX. Ahora puede convertir sus documentos en formato Excel. <sup>23.6</sup>
 
-* A partir de la versión 23.7, es posible guardar una página de documento o forma en formato EPS. <sup>23,7</sup>
+* A partir de la versión 23.7, es posible guardar una página de documento o forma en formato EPS. <sup>23.7</sup>
 
 * ## Nuevas características de formato
 
@@ -163,7 +180,7 @@ Aspose.Words 23.8 amplía las capacidades de diferentes formatos, mejora la rend
 
 ### Rendering
 
-#### Obtener y Modificar Datos de la serie de gráficos <sup>23,5</sup>
+#### Obtener y Modificar Datos de la serie de gráficos <sup>23.5</sup>
 
 La función para obtener y modificar los datos de la serie de gráficos se proporcionó añadiendo:
 
@@ -188,11 +205,11 @@ Se ha implementado la capacidad de configurar el formato de llenado, trazo y cal
 
 Se ha añadido una nueva forma de inserción HTML dinámica para LINQ Reporting Engine.
 
-#### Mustache Tags Apoyo <sup>23,7</sup>
+#### Mustache Tags Apoyo <sup>23.7</sup>
 
 Mustache las etiquetas ahora son compatibles en [MailMerge.GetRegionsHierarchy](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getRegionsHierarchy) y [MailMerge.GetFieldNamesForRegion](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getFieldNamesForRegion-java.lang.String) métodos.
 
-#### LINQ Reporting Engine Template sintaxis Actualizaciones <sup>23,7</sup>
+#### LINQ Reporting Engine Template sintaxis Actualizaciones <sup>23.7</sup>
 
 La sintaxis LINQ Reporting Engine ahora admite la `ElementAt` y ElementAtOrDefault extension methods.
 
@@ -210,11 +227,11 @@ Nuevo LowCode se han añadido métodos destinados a fusionar diferentes tipos de
 
 ### Otros
 
-- Se ha implementado el apoyo a la envoltura de texto en cabeceras/piezas. <sup>23,5</sup>
-- La capacidad de eliminar firmas digitales de documentos ODT se ha añadido a través de la [RemoveAllSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#removeAllSignatures-java.io.InputStream-java.io.OutputStream) método. <sup>23,5</sup>
-- La propiedad pública [PhoneticGuide](https://reference.aspose.com/words/java/com.aspose.words/run/#getPhoneticGuide) para obtener el texto base y rubí de la guía fonética [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) ha sido añadido. <sup>23,5</sup>
-- Se ha añadido la capacidad de recuperar un valor de firma digital de un documento firmado digitalmente como matriz de byte introduciendo un nuevo [SignatureValue](https://reference.aspose.com/words/java/com.aspose.words/digitalsignature/#getSignatureValue) propiedad. <sup>23,7</sup>
-- El [Row](https://reference.aspose.com/words/java/com.aspose.words/row/) y [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/) se han extendido clases con nuevos miembros públicos – [Row.NextRow](https://reference.aspose.com/words/java/com.aspose.words/row/#getNextRow), [Row.PreviousRow](https://reference.aspose.com/words/java/com.aspose.words/row/#getPreviousRow), [Cell.NextCell](https://reference.aspose.com/words/java/com.aspose.words/cell/#getNextCell), y [Cell.PreviousCell](https://reference.aspose.com/words/java/com.aspose.words/cell/#getPreviousCell). <sup>23,7</sup>
+- Se ha implementado el apoyo a la envoltura de texto en cabeceras/piezas. <sup>23.5</sup>
+- La capacidad de eliminar firmas digitales de documentos ODT se ha añadido a través de la [RemoveAllSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#removeAllSignatures-java.io.InputStream-java.io.OutputStream) método. <sup>23.5</sup>
+- La propiedad pública [PhoneticGuide](https://reference.aspose.com/words/java/com.aspose.words/run/#getPhoneticGuide) para obtener el texto base y rubí de la guía fonética [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) ha sido añadido. <sup>23.5</sup>
+- Se ha añadido la capacidad de recuperar un valor de firma digital de un documento firmado digitalmente como matriz de byte introduciendo un nuevo [SignatureValue](https://reference.aspose.com/words/java/com.aspose.words/digitalsignature/#getSignatureValue) propiedad. <sup>23.7</sup>
+- El [Row](https://reference.aspose.com/words/java/com.aspose.words/row/) y [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/) se han extendido clases con nuevos miembros públicos – [Row.NextRow](https://reference.aspose.com/words/java/com.aspose.words/row/#getNextRow), [Row.PreviousRow](https://reference.aspose.com/words/java/com.aspose.words/row/#getPreviousRow), [Cell.NextCell](https://reference.aspose.com/words/java/com.aspose.words/cell/#getNextCell), y [Cell.PreviousCell](https://reference.aspose.com/words/java/com.aspose.words/cell/#getPreviousCell). <sup>23.7</sup>
 - Se ha añadido apoyo a los campos de CITATION y BIBLIOGRAPHY. <sup>23.8</sup>
 
 {{% alert color="primary" %}}
@@ -263,7 +280,7 @@ Apoyo al coeficiente de R-cuadrado en las etiquetas de tendencia del gráfico DM
 
 #### Mejoras de la carga <sup>23.2</sup>
 
-Desde el 23,2 se ha mejorado significativamente la renderización del gráfico.
+Desde el 23.2 se ha mejorado significativamente la renderización del gráfico.
 
 #### Control de color de fondo y primer plano <sup>23.3</sup>
 

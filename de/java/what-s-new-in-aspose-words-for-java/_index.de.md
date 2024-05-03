@@ -11,7 +11,7 @@ url: /de/java/what-s-new-in-aspose-words-for-java/
 
 Diese Seite beschreibt das interessanteste Neues Aspose.Words Funktionen, die in den letzten Versionen eingeführt wurden.
 
-## Aspose.Words für Java 24.1, 24.2, 24.3
+## Aspose.Words für Java 24.1, 24.2, 24.3, 24.4
 
 Aspose.Words 24.1 verbessert die Erfahrung im Umgang mit Schlaganfallfarben, verbessert OLE-Objekte und LINQ-Berichterstattung sowie stellt eine neue Bibliographie Quellen öffentlich vor API.
 
@@ -19,15 +19,29 @@ Aspose.Words 24.2 erweiterte Diagramme API, Stilmanagement und LINQ Optionen. Di
 
 Aspose.Words 24.3 stellt einen neuen TIFF Reader/Writer und Emulation von binären Rasteroperationen für WMF-Metafiles vor. Aspose.Words 24.3 erweitert die Charts weiter API.
 
+Aspose.Words 24.4 verbessert das Speichern von Formaten, einige Rendering-Optionen sowie die Arbeit mit digitalen Signaturen.
+
+### Unterstützte Formate <sup>24.4</sup>
+
+Das moderne **WebP**-Bildformat wird jetzt in Aspose.Words. Sie können jetzt WebP-Bilder in Dokumente einlesen und einfügen sowie Bilder im WebP-Format speichern.
+
 ### Rendering und Printing
 
 #### Stroke Color Control <sup>ANHANG</sup>
 
 Die [Stroke](https://reference.aspose.com/words/java/com.aspose.words/stroke/) Klasse wurde mit einer Reihe von neuen öffentlichen Eigenschaften im Zusammenhang mit der Verwaltung von Schlaganfallfarben erweitert: [ForeThemeColor](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getForeThemeColor) und [BackThemeColor](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getBackThemeColor), [ForeTintAndShade](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getForeTintAndShade) und [BackTintAndShade](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getBackTintAndShade).
 
-#### Diagramme zeichnen API Erweiterung <sup>24.2 / 24.3</sup>
+#### Diagramme zeichnen API Erweiterung <sup>24.2 / 24.3 / 24.4</sup>
 
 Die **DrawingML Charts API** wird weiter ausgebaut.
+
+#### Einbetten von Schriften, die in @font-face-Regeln deklariert sind <sup>24.4</sup>
+
+Es wurde die Möglichkeit hinzugefügt, Schriften, die in @font-face-Regeln deklariert sind, in die Schriftdefinitionen des resultierenden Dokuments einzubetten, indem eine neue Eigenschaft namens [SupportFontFaceRules](https://reference.aspose.com/words/java/com.aspose.words/htmlloadoptions/#getSupportFontFaceRules) hinzugefügt wurde.
+
+#### Arbeiten mit Leucht- und Reflexionsformatierung <sup>24.4</sup>
+
+Die Möglichkeit, mit Leucht- und Reflexionsformatierung für ein Zeichenobjekt zu arbeiten, wurde implementiert.
 
 ### Laden und Speichern von Dokumenten
 
@@ -53,6 +67,8 @@ Ein neuer TIFF-Leser/Schreiber für Aspose.Words für .NET Standard, .NET 6 und 
 * Kompatibilität mit `Word 2016` Diagramme für die `LINQ Reporting Engine` wurde aktiviert. <sup>KAPITEL 2</sup>
 * Die Emulation binärer Rasteroperationen für WMF-Metafiles wurde implementiert. <sup>KAPITEL 3</sup>
 
+* Es wurde die Möglichkeit aktiviert, Signaturoptionen für Dokumente innerhalb von SaveOptions zu definieren, indem eine neue Klasse namens [DigitalSignatureDetails](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturedetails/) mit neuen öffentlichen Elementen hinzugefügt wurde, sowie neue Eigenschaften zu den Klassen [OoxmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/) und [OdtSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/) hinzugefügt wurden. <sup>24.4</sup>
+
 {{% alert color="primary" %}}
 
 Erfahren Sie mehr über [Aspose.Words für Java 24.1 freigeben](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-1-release-notes/).
@@ -60,6 +76,8 @@ Erfahren Sie mehr über [Aspose.Words für Java 24.1 freigeben](https://releases
 Erfahren Sie mehr über [Aspose.Words für Java 24.2 Release Notes.](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-2-release-notes/)
 
 Erfahren Sie mehr über [Aspose.Words für Java 24.3 Release Notes.](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-3-release-notes/)
+
+Erfahren Sie mehr über [Aspose.Words für Java 24.4 Release Notes.](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-4-release-notes/)
 
 {{% /alert %}}
 

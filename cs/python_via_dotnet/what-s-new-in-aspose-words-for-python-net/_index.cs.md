@@ -15,7 +15,7 @@ Tato stránka popisuje nejzajímavější nový Aspose.Words funkce zavedené v 
 
 Aspose.Words 24.1 zlepšuje zkušenosti s řízením barev zdvihu, zvyšuje OLE objekty a přináší nový `Bibliography Sources` veřejný API.
 
-Aspose.Words 24,2 rozšířených grafů API a řízení stylu. Tato verze Aspose.Words také představil schopnost určit SvgSaveOptions při vykreslování, pružnější ovládání zatížení Markdown soubory a práce s referenčním textem pro poznámky pod čarou a poznámky pod čarou.
+Aspose.Words 24.2 rozšířených grafů API a řízení stylu. Tato verze Aspose.Words také představil schopnost určit SvgSaveOptions při vykreslování, pružnější ovládání zatížení Markdown soubory a práce s referenčním textem pro poznámky pod čarou a poznámky pod čarou.
 
 Aspose.Words 24.3 zavádí nový TIFF Reader/Writer a Emulaci binárních rastrových operací pro WMF metafily. Aspose.Words 24.3 i nadále rozšiřuje grafy API.
 
@@ -162,7 +162,7 @@ Aspose.Words 23.5 zvyšuje schopnost pracovat s daty ze série grafů a schopnos
 
 Aspose.Words 23.6 rozšiřuje možnosti renderování, přidává nový exportní formát, zlepšuje LINQ reporting a LowCode nářadí.
 
-Aspose.Words 23,7 zvyšuje možnosti podávání zpráv, přidává nový formát exportu a zavádí změny v práci s tabulkami a digitálními podpisy.
+Aspose.Words 23.7 zvyšuje možnosti podávání zpráv, přidává nový formát exportu a zavádí změny v práci s tabulkami a digitálními podpisy.
 
 Aspose.Words 23.8 rozšiřuje možnosti různých formátů, zlepšuje vykreslování a přidává nové možnosti pro práci s poli
 
@@ -235,7 +235,7 @@ Více informací o [Aspose.Words místo Python via .NET 23.5 Poznámky k vydán�
 
 Více informací o [Aspose.Words místo Python via .NET 23.6 Poznámky k vydání](/words/python-net/aspose-words-for-python-via-dotnet-23-6-release-notes/).
 
-Více informací o [Aspose.Words místo Python via .NET 23,7 Poznámky k vydání](/words/python-net/aspose-words-for-python-via-dotnet-23-7-release-notes/).
+Více informací o [Aspose.Words místo Python via .NET 23.7 Poznámky k vydání](/words/python-net/aspose-words-for-python-via-dotnet-23-7-release-notes/).
 
 Více informací o [Aspose.Words místo Python via .NET 23.8 Poznámky k vydání](/words/python-net/aspose-words-for-python-via-dotnet-23-8-release-notes/).
 
@@ -494,7 +494,7 @@ Více informací o [Aspose.Words místo Python via .NET 22.8 Poznámky k vydán�
 
 Aspose.Words 22.3 rozšiřuje možnosti práce s formáty PDF a TXT a zlepšuje práci některých stávajících algoritmů a motorů.
 
-Aspose.Words 22,4 zvyšuje možnosti PDF nyní můžete uložit soubor ve formátu PDF/A-4 a získat řadu dalších vylepšení v výstupu PDF. Zároveň, Aspose.Words 22.4 poskytuje další schopnosti pracovat s DML grafy, číst metadata Photoshop a importovat HTML prvky na úrovni bloku.
+Aspose.Words 22.4 zvyšuje možnosti PDF nyní můžete uložit soubor ve formátu PDF/A-4 a získat řadu dalších vylepšení v výstupu PDF. Zároveň, Aspose.Words 22.4 poskytuje další schopnosti pracovat s DML grafy, číst metadata Photoshop a importovat HTML prvky na úrovni bloku.
 
 • API je posílen pro pružnější a pohodlnější rozvoj.
 

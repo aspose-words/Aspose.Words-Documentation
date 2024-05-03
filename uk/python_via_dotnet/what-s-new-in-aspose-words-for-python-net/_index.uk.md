@@ -21,7 +21,7 @@ Aspose.Words 24.3 представила новий TIFF Reader/Writer і Ему
 
 Aspose.Words 24.4 посилює збереження форматів, деякі параметри рендерингу, а також покращує роботу з цифровими підписами.
 
-### Підтримані формати <sup>24.4 км</sup>
+### Підтримані формати <sup>24.4</sup>
 
 Сучасний **WebP** Формат зображень тепер підтримується в Aspose.Words для .NET Framework 4.6.2 і вище. Тепер можна прочитати і вставити WebP зображення в документи, а також збереження зображень в WebP Формат.
 
@@ -29,7 +29,7 @@ Aspose.Words 24.4 посилює збереження форматів, деяк
 
 ### Рендеринг і друк
 
-#### Stroke Колір контроль <sup>24.1 км</sup>
+#### Stroke Колір контроль <sup>24.1</sup>
 
 Про нас [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) Клас був розширений з набором нових публічних властивостей, пов'язаних з управлінням колірами інсульту: [fore_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_theme_color/) і [back_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_theme_color/), [fore_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_tint_and_shade/) і [back_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_tint_and_shade/)й
 
@@ -37,36 +37,36 @@ Aspose.Words 24.4 посилює збереження форматів, деяк
 
 Про нас **DrawingML Charts API** продовжує розширюватися.
 
-#### Увімкніть шрифти, декларовані в @font-face <sup>24.4 км</sup>
+#### Увімкніть шрифти, декларовані в @font-face <sup>24.4</sup>
 
 Додано можливість складання шрифтів, заявлених у правилах шрифту @font-face у визначенні шрифту отриманого документа [support_font_face_rules](https://reference.aspose.com/words/python-net/aspose.words.loading/htmlloadoptions/support_font_face_rules/) майно.
 
-#### Робота з форматуванням Glow і відбиття <sup>24.4 км</sup>
+#### Робота з форматуванням Glow і відбиття <sup>24.4</sup>
 
 Впроваджено можливість роботи з форматуванням свічок та відбиття для об’єкта малювання.
 
 ### Завантаження та збереження документів
 
-#### Вказати SvgSaveOptions Під час Rendering <sup>24.2 км</sup>
+#### Вказати SvgSaveOptions Під час Rendering <sup>24.2</sup>
 
 Можливість вказати [SvgSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/svgsaveoptions/) при рендерингу додано за допомогою [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/)й[save](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/save/#bytesio_svgsaveoptions) і [OfficeMathRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/officemathrenderer/)й[save](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/save/#bytesio_svgsaveoptions) методи.
 
-#### Збереження Empty Lines при навантаженні Markdown Файли <sup>24.2 км</sup>
+#### Збереження Empty Lines при навантаженні Markdown Файли <sup>24.2</sup>
 
 Можливість збереження порожніх ліній при завантаженні Markdown додано файли.
 
-#### Новий TIFF Reader/Writer <sup>24.3 км</sup>
+#### Новий TIFF Reader/Writer <sup>24.3</sup>
 
 Новий TIFF зчитувач / автор для Aspose.Words Розроблено. Aspose.Words для .NET 24.3 додано підтримку для читання зображень TIFF з JPEG та Старими типами стиснення JPEG, а також значно покращило якість читання та запису операцій.
 
 ### Інше
 
-* Ім'я * Можливість змінити текст тексту `TextBox` ОЛЕ-контроль був представлений шляхом додавання нового **Text** нерухомість в новий **TextBoxControl** клас. <sup>24.1 км</sup>
-* Бібліографія Джерела API реалізовано через додавання нового простору імені [Aspose.Words.Bibliography](https://reference.aspose.com/words/python-net/aspose.words.bibliography/) з новими класами і ентумераціями, і шляхом додавання нового [bibliography](https://reference.aspose.com/words/python-net/aspose.words/document/bibliography/) майно до [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) клас. <sup>24.1 км</sup>
-* Нові публічні властивості [priority](https://reference.aspose.com/words/python-net/aspose.words/style/priority/), [unhide_when_used](https://reference.aspose.com/words/python-net/aspose.words/style/unhide_when_used/), і [semi_hidden](https://reference.aspose.com/words/python-net/aspose.words/style/semi_hidden/) для розширеного управління стилем додано [Style](https://reference.aspose.com/words/python-net/aspose.words/style/) клас. <sup>24.2 км</sup>
-* Ім'я * Функціональність для отримання фактичного текстового позначки для приміток та ендонот [actual_reference_mark](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/actual_reference_mark/) майно та [update_actual_reference_marks](https://reference.aspose.com/words/python-net/aspose.words/document/update_actual_reference_marks/#default) метод. <sup>24.2 км</sup>
-* Реалізовано емульацію бінарних растрових операцій для метафілів WMF. <sup>24.3 км</sup>
-* Ім'я * Можливість визначення варіантів підпису документів в межах **SaveOptions** Увімкнено додавання нового [DigitalSignatureDetails](https://reference.aspose.com/words/python-net/aspose.words.saving/digitalsignaturedetails/) клас з новими державними членами, а також додавання нових властивостей [OoxmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/docsaveoptions/) і [OdtSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/odtsaveoptions/) класи. <sup>24.4 км</sup>
+* Ім'я * Можливість змінити текст тексту `TextBox` ОЛЕ-контроль був представлений шляхом додавання нового **Text** нерухомість в новий **TextBoxControl** клас. <sup>24.1</sup>
+* Бібліографія Джерела API реалізовано через додавання нового простору імені [Aspose.Words.Bibliography](https://reference.aspose.com/words/python-net/aspose.words.bibliography/) з новими класами і ентумераціями, і шляхом додавання нового [bibliography](https://reference.aspose.com/words/python-net/aspose.words/document/bibliography/) майно до [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) клас. <sup>24.1</sup>
+* Нові публічні властивості [priority](https://reference.aspose.com/words/python-net/aspose.words/style/priority/), [unhide_when_used](https://reference.aspose.com/words/python-net/aspose.words/style/unhide_when_used/), і [semi_hidden](https://reference.aspose.com/words/python-net/aspose.words/style/semi_hidden/) для розширеного управління стилем додано [Style](https://reference.aspose.com/words/python-net/aspose.words/style/) клас. <sup>24.2</sup>
+* Ім'я * Функціональність для отримання фактичного текстового позначки для приміток та ендонот [actual_reference_mark](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/actual_reference_mark/) майно та [update_actual_reference_marks](https://reference.aspose.com/words/python-net/aspose.words/document/update_actual_reference_marks/#default) метод. <sup>24.2</sup>
+* Реалізовано емульацію бінарних растрових операцій для метафілів WMF. <sup>24.3</sup>
+* Ім'я * Можливість визначення варіантів підпису документів в межах **SaveOptions** Увімкнено додавання нового [DigitalSignatureDetails](https://reference.aspose.com/words/python-net/aspose.words.saving/digitalsignaturedetails/) клас з новими державними членами, а також додавання нових властивостей [OoxmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/docsaveoptions/) і [OdtSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/odtsaveoptions/) класи. <sup>24.4</sup>
 
 {{% alert color="primary" %}}
 
@@ -168,66 +168,66 @@ Aspose.Words 23.8 розширює можливості різних форма�
 
 ### Підтримані формати
 
-* Починаючи з версії 23.6, можна зберегти документ у форматі XLSX. Тепер ви можете конвертувати документи в формат Excel. <sup>23.6 км</sup>
+* Починаючи з версії 23.6, можна зберегти документ у форматі XLSX. Тепер ви можете конвертувати документи в формат Excel. <sup>23.6</sup>
 
-* Починаючи з версії 23.7, можна зберегти сторінку документа або форму в форматі EPS. <sup>23.7 км</sup>
+* Починаючи з версії 23.7, можна зберегти сторінку документа або форму в форматі EPS. <sup>23.7</sup>
 
 ### Нові можливості формату
 
-- Реалізовано функціонал для автоматичного створення таблиці змісту (TOC) для документів MOBI. <sup>23.8 км</sup>
-- У [PdfEncryptionDetails](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfencryptiondetails/__init__/#str_str_pdfpermissions) Конструктор розширився з [PdfPermissions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfencryptiondetails/__init__/#str_str_pdfpermissions)й <sup>23.8 км</sup>
-- Реалізовано формування вертикального тексту для метафілів EMF. <sup>23.8 км</sup>
+- Реалізовано функціонал для автоматичного створення таблиці змісту (TOC) для документів MOBI. <sup>23.8</sup>
+- У [PdfEncryptionDetails](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfencryptiondetails/__init__/#str_str_pdfpermissions) Конструктор розширився з [PdfPermissions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfencryptiondetails/__init__/#str_str_pdfpermissions)й <sup>23.8</sup>
+- Реалізовано формування вертикального тексту для метафілів EMF. <sup>23.8</sup>
 
 ### Рендеринг
 
-#### Отримати і модифікувати Дані серії діаграм <sup>23.5 км</sup>
+#### Отримати і модифікувати Дані серії діаграм <sup>23.5</sup>
 
 Для отримання та модифікації даних діаграми передбачено додаванням:
 
 - нові класи: [ChartXValue](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartxvalue/), [ChartYValue](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartyvalue/), [ChartXValueCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartyvaluecollection/), [BubbleSizeCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/bubblesizecollection/), [ChartMultilevelValue](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartmultilevelvalue/)
 - нові типи енму: [ChartXValueType](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartxvaluetype/), [ChartYValueType](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartyvaluetype/)
 
-#### Підтримка розширеної типографії <sup>23.6 км</sup>
+#### Підтримка розширеної типографії <sup>23.6</sup>
 
 Додано підтримку розширеної типографії в WMF, EMF та EMF+.
 
-#### Забарвлений вміст на сторінці <sup>23.6 км</sup>
+#### Забарвлений вміст на сторінці <sup>23.6</sup>
 
 Громадська нерухомість [PageInfo.colored](https://reference.aspose.com/words/python-net/aspose.words.rendering/pageinfo/colored/), вказуючи, чи додана сторінка кольорова або ні.
 
-#### Форматування етикеток даних діаграм <sup>23.6 км</sup>
+#### Форматування етикеток даних діаграм <sup>23.6</sup>
 
 Впроваджено можливість налаштовувати, інсульти та форматування макетів даних.
 
 ### Mail Merge та звітність
 
-#### Динамічне введення HTML для двигуна LINQ <sup>23.6 км</sup>
+#### Динамічне введення HTML для двигуна LINQ <sup>23.6</sup>
 
 Додано новий спосіб динамічної вставки HTML для двигуна LINQ.
 
-#### Mustache Підтримка <sup>23.7 км</sup>
+#### Mustache Підтримка <sup>23.7</sup>
 
 Mustache теги тепер підтримуються в [MailMerge.GetRegionsHierarchy](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmerge/get_regions_hierarchy/) і [MailMerge.GetFieldNamesForRegion](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmerge/get_field_names_for_region/) методи.
 
-#### Вказати розмір Rendered Зображення <sup>23.8 км</sup>
+#### Вказати розмір Rendered Зображення <sup>23.8</sup>
 
 Нове публічне майно [image_size](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/image_size/) для визначення розміру наданих зображень в пікселях.
 
-#### Збереження білих просторів для JSON String Values - LINQ <sup>23.8 км</sup>
+#### Збереження білих просторів для JSON String Values - LINQ <sup>23.8</sup>
 
 Опція була додана до двигуна LINQ, щоб зберегти білі простори для значень рядків JSON.
 
-### LowCode <sup>23.6 км</sup>
+### LowCode <sup>23.6</sup>
 
 Нові LowCode Додано методи, призначені для об'єднання різних типів документів в один вихідний документ.
 
 ### Інше
 
-- Реалізовано підтримку обгортання тексту в заголовках/футах. <sup>23.5 км</sup>
-- до Додана можливість видалення цифрових підписів з документів ODT [RemoveAllSignatures](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignatureutil/remove_all_signatures/#str_str) метод. <sup>23.5 км</sup>
-- до Громадська нерухомість [phonetic_guide](https://reference.aspose.com/words/python-net/aspose.words/run/phonetic_guide/) для отримання бази та рубати тексту фонетичного керівництва [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) Додано. <sup>23.5 км</sup>
-- до Уміння отримати цифрову вартість підпису з цифрово підписаного документа як байтовий масив додано шляхом введення нового [signature_value](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignature/signature_value/) майно. <sup>23.7 км</sup>
-- У [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) і [Cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/) Завершилися заняття з новими членами [Row.next_row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/next_row/), [Row.previous_row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/previous_row/), [Cell.next_cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/next_cell/), і [Cell.previous_cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/previous_cell/)й <sup>23.7 км</sup>
+- Реалізовано підтримку обгортання тексту в заголовках/футах. <sup>23.5</sup>
+- до Додана можливість видалення цифрових підписів з документів ODT [RemoveAllSignatures](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignatureutil/remove_all_signatures/#str_str) метод. <sup>23.5</sup>
+- до Громадська нерухомість [phonetic_guide](https://reference.aspose.com/words/python-net/aspose.words/run/phonetic_guide/) для отримання бази та рубати тексту фонетичного керівництва [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) Додано. <sup>23.5</sup>
+- до Уміння отримати цифрову вартість підпису з цифрово підписаного документа як байтовий масив додано шляхом введення нового [signature_value](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignature/signature_value/) майно. <sup>23.7</sup>
+- У [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) і [Cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/) Завершилися заняття з новими членами [Row.next_row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/next_row/), [Row.previous_row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/previous_row/), [Cell.next_cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/next_cell/), і [Cell.previous_cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/previous_cell/)й <sup>23.7</sup>
 
 {{% alert color="primary" %}}
 
@@ -253,69 +253,69 @@ Aspose.Words 23.4 покращує розрахунок деяких парам�
 
 ### Покращення продуктивності
 
-#### Емульація Растрових операцій <sup>23.1 км</sup>
+#### Емульація Растрових операцій <sup>23.1</sup>
 
 Вдосконалено продуктивність та якість емульсійних операцій з метафілами.
 
 ### Підтримані формати
 
-#### Експорт до MOBI <sup>23.2 км</sup>
+#### Експорт до MOBI <sup>23.2</sup>
 
 Починаючи з версії 23.2, можна зберегти документ у форматі MOBI (також називається PRC, AZW - Amazon Формат файлів електронних книг Kindle. Тепер ви можете не тільки завантажити документи MOBI, але і експортувати файли до формату MOBI.
 
 ### Рендеринг
 
-#### Робота з затінками темних кольорів <sup>23.1 км</sup>
+#### Робота з затінками темних кольорів <sup>23.1</sup>
 
 Реалізовано можливість роботи з затінками тематичних кольорів.
 
-#### Підтримка R-squared Коефіцієнт в діаграмах DML <sup>23.1 км</sup>
+#### Підтримка R-squared Коефіцієнт в діаграмах DML <sup>23.1</sup>
 
 Додано підтримку коефіцієнта R-squared в DML діаграмі трендових етикеток при рендерингу.
 
-#### Рендерингові вдосконалення <sup>23.2 км</sup>
+#### Рендерингові вдосконалення <sup>23.2</sup>
 
 З 23.2 рендеринг діаграми значно покращився.
 
-#### Підземний і передній колір контроль <sup>23.3 км</sup>
+#### Підземний і передній колір контроль <sup>23.3</sup>
 
 Про нас [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) Клас був розширений з набором нових публічних властивостей, пов'язаних з фоновими та передовими кольорами: [fore_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/fore_theme_color/) і [back_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/back_theme_color/), [fore_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/fore_tint_and_shade/) і [back_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/back_tint_and_shade/)й
 
-#### Радіальні градієнти з `SkiaSharp` Нативний шейдер <sup>23.3 км</sup>
+#### Радіальні градієнти з `SkiaSharp` Нативний шейдер <sup>23.3</sup>
 
 Рендеринг радіальних градієнтів з `SkiaSharp` рідний шейдер для .NET Standard Реалізовано.
 
-#### Відстань між таблицею та обурочним текстом <sup>23.4 км</sup>
+#### Відстань між таблицею та обурочним текстом <sup>23.4</sup>
 
 Уміння встановити відстань між таблицю і навколишнім текстом додано шляхом введення нових властивостей [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/) клас: [distance_left](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_left/), [distance_right](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_right/), [distance_top](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_top/), і [distance_bottom](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_bottom/)й
 
 ### Завантаження та збереження документів
 
-#### Генерація `TOC` AZW3 Документи <sup>23.1 км</sup>
+#### Генерація `TOC` AZW3 Документи <sup>23.1</sup>
 
 Можливість генерувати `TOC` (табл. змісту) для документів AZW3 додано за допомогою використання [epub_navigation_map_level](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/epub_navigation_map_level/) майно.
 
-#### Експортувати список товарів до Markdown <sup>23.1 км</sup>
+#### Експортувати список товарів до Markdown <sup>23.1</sup>
 
 Спосіб управління експортом товарів списку Markdown Формат було надано шляхом додавання [list_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/list_export_mode/) майно до [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) клас.
 
-#### Повідомлення про збереження документів <sup>23.3 км</sup>
+#### Повідомлення про збереження документів <sup>23.3</sup>
 
 Реалізовано сповіщення про конфіденційність форматів МОБ та АЗВ3.
 
-#### Налаштування та налаштування Word <sup>23.3 км</sup>
+#### Налаштування та налаштування Word <sup>23.3</sup>
 
 Уміння уточнити, чи автоматично корегувати вирок та розсипання слів при імпорті документів [adjust_sentence_and_word_spacing](https://reference.aspose.com/words/python-net/aspose.words/importformatoptions/adjust_sentence_and_word_spacing/) майно.
 
 ### Інше
 
-- до Уміння уточнити налаштування корекції символів документа додано через [justification_mode](https://reference.aspose.com/words/python-net/aspose.words/document/justification_mode/) Реалізація майна <sup>23.2 км</sup>
-- Шлях до інструкції Aspose.Words Чи можна включати текстові скриньки, примітки та кінцеві помилки у статистичній статистиці підрахунку слів, додавши додавання [include_textboxes_footnotes_endnotes_in_stat](https://reference.aspose.com/words/python-net/aspose.words/document/include_textboxes_footnotes_endnotes_in_stat/) Проживання <sup>23.2 км</sup>
-- Новий варіант для стилю документа, який дозволяє вказати, чи автоматично перевизнається стиль на основі відповідного значення, представлений за допомогою відповідного значення. [automatically_update](https://reference.aspose.com/words/python-net/aspose.words/style/automatically_update/) Проживання <sup>23.2 км</sup>
-- до Уміння визначити чи [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) є фонетичним гідом, який додано за допомогою [is_phonetic_guide](https://reference.aspose.com/words/python-net/aspose.words/run/is_phonetic_guide/) Проживання <sup>23.4 км</sup>
-- Простий спосіб роботи з серією та осями комбінованих діаграм реалізовано шляхом введення [ChartAxisCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxiscollection/) клас і додавання [Chart.axes](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chart/axes/) Проживання <sup>23.4 км</sup>
-- Додані нові публічні властивості, пов'язані з формою відносного позиціонування та зміщення [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) клас <sup>23.4 км</sup>
-- Удосконалено точність та продуктивність розрахунку яскравості кольору для автоматичного визначення кольору тексту відповідно до останніх версій Microsoft Word <sup>23.4 км</sup>
+- до Уміння уточнити налаштування корекції символів документа додано через [justification_mode](https://reference.aspose.com/words/python-net/aspose.words/document/justification_mode/) Реалізація майна <sup>23.2</sup>
+- Шлях до інструкції Aspose.Words Чи можна включати текстові скриньки, примітки та кінцеві помилки у статистичній статистиці підрахунку слів, додавши додавання [include_textboxes_footnotes_endnotes_in_stat](https://reference.aspose.com/words/python-net/aspose.words/document/include_textboxes_footnotes_endnotes_in_stat/) Проживання <sup>23.2</sup>
+- Новий варіант для стилю документа, який дозволяє вказати, чи автоматично перевизнається стиль на основі відповідного значення, представлений за допомогою відповідного значення. [automatically_update](https://reference.aspose.com/words/python-net/aspose.words/style/automatically_update/) Проживання <sup>23.2</sup>
+- до Уміння визначити чи [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) є фонетичним гідом, який додано за допомогою [is_phonetic_guide](https://reference.aspose.com/words/python-net/aspose.words/run/is_phonetic_guide/) Проживання <sup>23.4</sup>
+- Простий спосіб роботи з серією та осями комбінованих діаграм реалізовано шляхом введення [ChartAxisCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxiscollection/) клас і додавання [Chart.axes](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chart/axes/) Проживання <sup>23.4</sup>
+- Додані нові публічні властивості, пов'язані з формою відносного позиціонування та зміщення [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) клас <sup>23.4</sup>
+- Удосконалено точність та продуктивність розрахунку яскравості кольору для автоматичного визначення кольору тексту відповідно до останніх версій Microsoft Word <sup>23.4</sup>
 
 {{% alert color="primary" %}}
 
@@ -359,11 +359,11 @@ Aspose.Words 22.12 посилює можливості та вводить па�
 
 ### Завантаження та збереження документів
 
-#### Шашлик Header або Footer для зменшення розміру PDF <sup>22.9 км</sup>
+#### Шашлик Header або Footer для зменшення розміру PDF <sup>22.9</sup>
 
 Уміння кеш-пам'яти форм для зменшення розміру вихідного PDF-файлу реалізовано шляхом додавання нового **CacheHeaderFooterShapes** майно.
 
-#### Автоматичне видалення номера при завантаженні документів <sup>22.9 км</sup>
+#### Автоматичне видалення номера при завантаженні документів <sup>22.9</sup>
 
 Уміння вказати можливість [auto_numbering_detection](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/auto_numbering_detection/) об'єкт на текстове завантаження реалізовано через розширене [TxtLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/) клас.
 
@@ -377,8 +377,8 @@ Aspose.Words 22.12 посилює можливості та вводить па�
 
 ### Інше
 
-- Додано нову функцію для отримання FieldEQ як OfficeMath. <sup>22.9 км</sup>
-- до Створення структурованих тегів документів Group допускається тип на рівні руп. <sup>22.9 км</sup>
+- Додано нову функцію для отримання FieldEQ як OfficeMath. <sup>22.9</sup>
+- до Створення структурованих тегів документів Group допускається тип на рівні руп. <sup>22.9</sup>
 - OLE об'єкти та елементи керування тепер обробляються як зображення метафайлу при перетворенні документа в HTML. <sup>22.10 р.</sup>
 - Додана нова функція для перевірки певного списку з того ж шаблону, як список порівняння було додано шляхом введення нового **HasSameTemplate** метод в [List](https://reference.aspose.com/words/python-net/aspose.words.lists/list/) клас. <sup>22.10 р.</sup>
 - до Уміння створювати нові структуровані теги документів [Citation](https://reference.aspose.com/words/python-net/aspose.words.markup/sdttype/) додано тип. <sup>22.11 р.</sup>
@@ -396,7 +396,7 @@ Aspose.Words 22.12 посилює можливості та вводить па�
 
 {{% /alert %}}
 
-## Aspose.Words для Python via .NET 22,5, 22.6, 22.7, 22.8
+## Aspose.Words для Python via .NET 22.5, 22.6, 22.7, 22.8
 
 Aspose.Words 22.5 вводить підтримку нових форматів завантаження та нових розмірів сторінок друку, а також покращує деякі параметри рендерингу.
 
@@ -410,56 +410,56 @@ Aspose.Words 22.8 впроваджує новий формат експорту 
 
 ### Підтримані формати
 
-* Введено підтримку завантаження документів EPUB та XML, додаючи нові значення **LoadFormat** заохочення. Почати з версії 22,5 можна навантажити документи EPUB та XML у Aspose.Words модель документа і перетворення їх в будь-який [Підтримувані формати документів](/words/uk/python-net/supported-document-formats/)й <sup>22.5 км</sup>
-* Починаючи з версії 22.8, можна зберегти документ у форматі AZW3 – Amazon Формат файлів електронних книг Kindle (KF8 є ще однією назвою для формату). Тепер ви можете не тільки завантажувати документи AZW3, але й експортувати файли до формату AZW3, що істотно складається EPUB. <sup>22.8 км</sup>
+* Введено підтримку завантаження документів EPUB та XML, додаючи нові значення **LoadFormat** заохочення. Почати з версії 22.5 можна навантажити документи EPUB та XML у Aspose.Words модель документа і перетворення їх в будь-який [Підтримувані формати документів](/words/uk/python-net/supported-document-formats/)й <sup>22.5</sup>
+* Починаючи з версії 22.8, можна зберегти документ у форматі AZW3 – Amazon Формат файлів електронних книг Kindle (KF8 є ще однією назвою для формату). Тепер ви можете не тільки завантажувати документи AZW3, але й експортувати файли до формату AZW3, що істотно складається EPUB. <sup>22.8</sup>
 
 ### Рендеринг і друк
 
-#### Новий розмір друку <sup>22.5 км</sup>
+#### Новий розмір друку <sup>22.5</sup>
 
 Додана підтримка друку сторінок "Envelope No 10" шляхом введення нового значення до [PaperSize](https://reference.aspose.com/words/python-net/aspose.words/papersize/) заохочення.
 
-#### Rendering MathML формули <sup>22.5 км</sup>
+#### Rendering MathML формули <sup>22.5</sup>
 
 Удосконалено відтворення прикордонної коробки навколо формул MathML та виявлення шрифтів при наданні символів для таких формул.
 
-#### ДМЛ Поліпшення діаграм <sup>22.6 км</sup>
+#### ДМЛ Поліпшення діаграм <sup>22.6</sup>
 
 DrawingML діаграми громадськість API Подовжується підтримка градієнтів, текстури та заповнює шаблони.
 
-#### Glyph Оффлайни Парсінг для OpenType <sup>22.7 км</sup>
+#### Glyph Оффлайни Парсінг для OpenType <sup>22.7</sup>
 
 Aspose.Words власна glyph Реалізовано контури для шрифтів OpenType (CFF).
 
 Попередньо, glyph Для шрифтів OpenType (CFF) виконано через GDI+. Так тепер працює у випадках, коли GDI+ не доступний – Java, .NET Standard платформи, Linux, macOS та ін. Glyph визначає парсінг, необхідний в конкретних випадках, таких як WordArt, текстові ефекти, деякі функції Office Math та інші.
 
-#### Набір форм Shadow Форматування <sup>22.7 км</sup>
+#### Набір форм Shadow Форматування <sup>22.7</sup>
 
 Уміння встановити форматування тіні об'єкта форми, надана шляхом додавання нового [shadow_format](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/shadow_format/) майно.
 
-#### Підтримка стільникового спарингу в таблицях <sup>22.8 км</sup>
+#### Підтримка стільникового спарингу в таблицях <sup>22.8</sup>
 
 Двигун верстки тепер значно поліпшується: реалізовано дуже складний механізм збивання клітин в таблицях.
 
-#### Заміна шрифту для символів <sup>22.8 км</sup>
+#### Заміна шрифту для символів <sup>22.8</sup>
 
 Покращено зміну шрифту для символів.
 
-#### Графік Axis Етикетка Rotation Algorithm <sup>22.8 км</sup>
+#### Графік Axis Етикетка Rotation Algorithm <sup>22.8</sup>
 
 Удосконалено алгоритм обертання міток осі діаграми.
 
 ### Завантаження та збереження документів
 
-#### Перетворення та конвертація PDF у формат Фіксованої сторінки без моделі Layout <sup>22.6 км</sup>
+#### Перетворення та конвертація PDF у формат Фіксованої сторінки без моделі Layout <sup>22.6</sup>
 
 Реалізовано можливість завантаження та перетворення документів PDF на фіксовані формати сторінок з високою чіткістю та продуктивністю.
 
-#### Новий алгоритм імпорту HTML <sup>22.7 км</sup>
+#### Новий алгоритм імпорту HTML <sup>22.7</sup>
 
 Введено новий режим імпорту HTML для елементів блоків, додаючи нове значення [HtmlInsertOptions](https://reference.aspose.com/words/python-net/aspose.words/htmlinsertoptions/) заохочення.
 
-#### Перетворення в PDF/UA-1 сумісний з WCAG 2.0 <sup>22.7 км</sup>
+#### Перетворення в PDF/UA-1 сумісний з WCAG 2.0 <sup>22.7</sup>
 
 Додано підтримку перетворення документа в формат PDF/UA-1, сумісний з WCAG 2.0.
 
@@ -476,7 +476,7 @@ Aspose.Words власна glyph Реалізовано контури для ш�
 
 ### Інше
 
-Виняток успадкування твердого тексту заповнює ефект, який реалізується поведінка MS Word. <sup>22.6 км</sup>
+Виняток успадкування твердого тексту заповнює ефект, який реалізується поведінка MS Word. <sup>22.6</sup>
 
 {{% alert color="primary" %}}
 

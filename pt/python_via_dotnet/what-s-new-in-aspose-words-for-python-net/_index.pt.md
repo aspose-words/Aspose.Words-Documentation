@@ -136,7 +136,7 @@ O recurso de reconhecimento de hiperlinks ao carregar documentos TXT foi impleme
 
 ### Outro
 
-- Foi implementada emulação de renderização de metarquivo para determinar o tamanho da rasterização, especificamente para largura de caneta WMF e largura de caneta cosmética EMF. Para conseguir isso, a propriedade **ScaleWmfFontsToMetafileSize** foi substituída pela propriedade [emulate_rendering_to_size_on_page](https://reference.aspose.com/words/python-net/aspose.words.saving/metafilerenderingoptions/emulate_rendering_to_size_on_page/) e a propriedade [emulate_rendering_to_size_on_page_resolution](https://reference.aspose.com/words/python-net/aspose.words.saving/metafilerenderingoptions/emulate_rendering_to_size_on_page_resolution/) foi adicionada. <sup>23,9</sup>
+- Foi implementada emulação de renderização de metarquivo para determinar o tamanho da rasterização, especificamente para largura de caneta WMF e largura de caneta cosmética EMF. Para conseguir isso, a propriedade **ScaleWmfFontsToMetafileSize** foi substituída pela propriedade [emulate_rendering_to_size_on_page](https://reference.aspose.com/words/python-net/aspose.words.saving/metafilerenderingoptions/emulate_rendering_to_size_on_page/) e a propriedade [emulate_rendering_to_size_on_page_resolution](https://reference.aspose.com/words/python-net/aspose.words.saving/metafilerenderingoptions/emulate_rendering_to_size_on_page_resolution/) foi adicionada. <sup>23.9</sup>
 - Um método simplificado para inserir um documento em outro documento na posição atual do cursor foi introduzido usando o método [insert_document_inline](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_document_inline/#document_importformatmode_importformatoptions). <sup>23h10</sup>
 - A capacidade de acessar e modificar propriedades de estilo foi adicionada através da introdução da nova propriedade [locked](https://reference.aspose.com/words/python-net/aspose.words/style/locked/). <sup>23h10</sup>
 - Foi adicionado um parâmetro de tipo genérico aos métodos da classe [CompositeNode](https://reference.aspose.com/words/python-net/aspose.words/compositenode/). <sup>23h10</sup>
@@ -156,7 +156,7 @@ Saiba mais sobre [Aspose.Words para .NET 23.12 Notas de versão](https://release
 
 {{% /alert %}}
 
-## Aspose.Words para Python via .NET 23,5, 23,6, 23,7, 23,8
+## Aspose.Words para Python via .NET 23.5, 23.6, 23.7, 23.8
 
 Aspose.Words 23.5 aprimora a capacidade de trabalhar com dados de séries de gráficos e a capacidade de trabalhar com documentos ODT, bem como melhorar cabeçalhos/rodapés e sua quebra de texto.
 
@@ -168,15 +168,15 @@ Aspose.Words 23.8 expande os recursos de diferentes formatos, melhora a renderiz
 
 ### Formatos Suportados
 
-* A partir da versão 23.6 é possível salvar um documento no formato XLSX. Agora você pode converter seus documentos para o formato Excel. <sup>23,6</sup>
+* A partir da versão 23.6 é possível salvar um documento no formato XLSX. Agora você pode converter seus documentos para o formato Excel. <sup>23.6</sup>
 
-* A partir da versão 23.7, é possível salvar uma página ou forma de documento no formato EPS. <sup>23,7</sup>
+* A partir da versão 23.7, é possível salvar uma página ou forma de documento no formato EPS. <sup>23.7</sup>
 
 ### Novos recursos de formato
 
-- Foi introduzida a funcionalidade para gerar automaticamente o Índice (TOC) para documentos MOBI. <sup>23,8</sup>
-- O construtor [PdfEncryptionDetails](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfencryptiondetails/__init__/#str_str_pdfpermissions) foi expandido com [PdfPermissions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfencryptiondetails/__init__/#str_str_pdfpermissions). <sup>23,8</sup>
-- Foi implementada a modelagem de texto vertical para metarquivos EMF. <sup>23,8</sup>
+- Foi introduzida a funcionalidade para gerar automaticamente o Índice (TOC) para documentos MOBI. <sup>23.8</sup>
+- O construtor [PdfEncryptionDetails](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfencryptiondetails/__init__/#str_str_pdfpermissions) foi expandido com [PdfPermissions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfencryptiondetails/__init__/#str_str_pdfpermissions). <sup>23.8</sup>
+- Foi implementada a modelagem de texto vertical para metarquivos EMF. <sup>23.8</sup>
 
 ### Renderização
 
@@ -223,11 +223,11 @@ Foram adicionados novos métodos LowCode destinados a mesclar diferentes tipos d
 
 ### Outro
 
-- Foi implementado suporte para quebra automática de texto em cabeçalhos/rodapés. <sup>23,5</sup>
-- A capacidade de remover assinaturas digitais de documentos ODT foi adicionada através do método [RemoveAllSignatures](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignatureutil/remove_all_signatures/#str_str). <sup>23,5</sup>
-- Foi adicionada a propriedade pública [phonetic_guide](https://reference.aspose.com/words/python-net/aspose.words/run/phonetic_guide/) para obter o texto base e ruby do guia fonético [Run](https://reference.aspose.com/words/python-net/aspose.words/run/). <sup>23,5</sup>
-- A capacidade de recuperar um valor de assinatura digital de um documento assinado digitalmente como uma matriz de bytes foi adicionada com a introdução de uma nova propriedade [signature_value](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignature/signature_value/). <sup>23,7</sup>
-- As classes [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) e [Cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/) foram ampliadas com novos membros públicos – [Row.next_row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/next_row/), [Row.previous_row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/previous_row/), [Cell.next_cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/next_cell/) e [Cell.previous_cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/previous_cell/). <sup>23,7</sup>
+- Foi implementado suporte para quebra automática de texto em cabeçalhos/rodapés. <sup>23.5</sup>
+- A capacidade de remover assinaturas digitais de documentos ODT foi adicionada através do método [RemoveAllSignatures](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignatureutil/remove_all_signatures/#str_str). <sup>23.5</sup>
+- Foi adicionada a propriedade pública [phonetic_guide](https://reference.aspose.com/words/python-net/aspose.words/run/phonetic_guide/) para obter o texto base e ruby do guia fonético [Run](https://reference.aspose.com/words/python-net/aspose.words/run/). <sup>23.5</sup>
+- A capacidade de recuperar um valor de assinatura digital de um documento assinado digitalmente como uma matriz de bytes foi adicionada com a introdução de uma nova propriedade [signature_value](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignature/signature_value/). <sup>23.7</sup>
+- As classes [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) e [Cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/) foram ampliadas com novos membros públicos – [Row.next_row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/next_row/), [Row.previous_row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/previous_row/), [Cell.next_cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/next_cell/) e [Cell.previous_cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/previous_cell/). <sup>23.7</sup>
 
 {{% alert color="primary" %}}
 
@@ -359,7 +359,7 @@ As configurações de fonte substituta predefinidas para fontes Google Noto fora
 
 ### Carregando e salvando documentos
 
-#### Cache de formas de cabeçalho ou rodapé para reduzir o tamanho do PDF <sup>22,9</sup>
+#### Cache de formas de cabeçalho ou rodapé para reduzir o tamanho do PDF <sup>22.9</sup>
 
 A capacidade de armazenar em cache formas de cabeçalho/rodapé para reduzir o tamanho do arquivo PDF de saída foi implementada adicionando uma nova propriedade **CacheHeaderFooterShapes**.
 
@@ -377,8 +377,8 @@ A capacidade de ignorar [StructuredDocumentTag](https://reference.aspose.com/wor
 
 ### Outro
 
-- Foi adicionado um novo recurso para obter FieldEQ como OfficeMath. <sup>22,9</sup>
-- Foi permitida a criação de tags de documentos estruturados do tipo Group no nível da Linha. <sup>22,9</sup>
+- Foi adicionado um novo recurso para obter FieldEQ como OfficeMath. <sup>22.9</sup>
+- Foi permitida a criação de tags de documentos estruturados do tipo Group no nível da Linha. <sup>22.9</sup>
 - Objetos e controles OLE agora são tratados como imagens de metarquivo ao converter um documento em HTML. <sup>22h10</sup>
 - Um novo recurso para verificar se uma lista específica foi criada a partir do mesmo modelo da lista comparada foi adicionado, introduzindo um novo método **HasSameTemplate** na classe [List](https://reference.aspose.com/words/python-net/aspose.words.lists/list/). <sup>22h10</sup>
 - Foi adicionada a capacidade de criar novas tags de documentos estruturados do tipo [Citation](https://reference.aspose.com/words/python-net/aspose.words.markup/sdttype/). <sup>22.11</sup>
@@ -396,7 +396,7 @@ Saiba mais sobre [Aspose.Words para Python via .NET 22.12 Notas de versão](/wor
 
 {{% /alert %}}
 
-## Aspose.Words para Python via .NET 22,5, 22,6, 22,7, 22,8
+## Aspose.Words para Python via .NET 22.5, 22.6, 22.7, 22.8
 
 Aspose.Words 22.5 apresenta suporte para novos formatos de carregamento e um novo tamanho de página de impressão, além de melhorar algumas opções de renderização.
 
@@ -410,12 +410,12 @@ O API foi aprimorado para um desenvolvimento mais flexível e conveniente.
 
 ### Formatos Suportados
 
-* O suporte para carregamento de documentos EPUB e XML foi introduzido adicionando novos valores à enumeração **LoadFormat**. A partir da versão 22.5, é possível carregar documentos EPUB e XML no modelo de documento Aspose.Words e convertê-los para qualquer [Formatos de documentos suportados](/words/pt/python-net/supported-document-formats/). <sup>22,5</sup>
-* A partir da versão 22.8, é possível salvar um documento no formato AZW3 – formato de arquivo de e-book proprietário do Kindle Amazon (KF8 é outro nome para o formato). Agora você pode não apenas carregar documentos AZW3, mas também exportar seus arquivos para o formato AZW3, que é essencialmente um EPUB compilado. <sup>22,8</sup>
+* O suporte para carregamento de documentos EPUB e XML foi introduzido adicionando novos valores à enumeração **LoadFormat**. A partir da versão 22.5, é possível carregar documentos EPUB e XML no modelo de documento Aspose.Words e convertê-los para qualquer [Formatos de documentos suportados](/words/pt/python-net/supported-document-formats/). <sup>22.5</sup>
+* A partir da versão 22.8, é possível salvar um documento no formato AZW3 – formato de arquivo de e-book proprietário do Kindle Amazon (KF8 é outro nome para o formato). Agora você pode não apenas carregar documentos AZW3, mas também exportar seus arquivos para o formato AZW3, que é essencialmente um EPUB compilado. <sup>22.8</sup>
 
 ### Renderização e Impressão
 
-#### Novo tamanho de impressão <sup>22,5</sup>
+#### Novo tamanho de impressão <sup>22.5</sup>
 
 O suporte para o tamanho de página de impressão "Envelope nº 10" foi adicionado com a introdução de um novo valor na enumeração [PaperSize](https://reference.aspose.com/words/python-net/aspose.words/papersize/).
 

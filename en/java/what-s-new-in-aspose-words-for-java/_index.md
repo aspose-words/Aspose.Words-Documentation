@@ -23,9 +23,7 @@ Aspose.Words 24.4 enhances saving formats, some rendering options, as well as im
 
 ### Supported Formats <sup>24.4</sup>
 
-The modern **WebP** image format is now supported in Aspose.Words for .NET Framework 4.6.2 and higher. You can now read and insert WebP images into documents, as well as save images in WebP format.
-
-Please note that WebP is currently only available in .NET Standard and .NET Framework v4.6.2 and above.
+The modern **WebP** image format is now supported in Aspose.Words. You can now read and insert WebP images into documents, as well as save images in WebP format.
 
 ### Rendering and Printing
 

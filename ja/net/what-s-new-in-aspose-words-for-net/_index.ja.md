@@ -65,10 +65,10 @@ Aspose.Words for .NET Standard、.NET 6以降には、新しいTIFFリーダー/
 * 参考文献ソースのパブリック API は、新しいクラスと列挙を備えた新しい名前空間 [Aspose.Words.Bibliography](https://reference.aspose.com/words/net/aspose.words.bibliography/) を追加し、[Document](https://reference.aspose.com/words/net/aspose.words/document/) クラスに新しい [Bibliography](https://reference.aspose.com/words/net/aspose.words/document/bibliography/) プロパティを追加することによって実装されました。 <sup>24.1</sup>
 * LINQ Reporting Engine のテンプレート構文を使用して型メンバーへのアクセスを制限する API が提供されています。 <sup>24.1</sup>
 * スタイル管理を強化するための新しいパブリック プロパティ [Priority](https://reference.aspose.com/words/net/aspose.words/style/priority/)、[UnhideWhenUsed](https://reference.aspose.com/words/net/aspose.words/style/unhidewhenused/)、および [SemiHidden](https://reference.aspose.com/words/net/aspose.words/style/semihidden/) が [Style](https://reference.aspose.com/words/net/aspose.words/style/) クラスに追加されました。 <sup>24.2</sup>
-- 脚注と文末脚注の実際の参照マーク テキストを取得する機能が、[ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) プロパティと [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/) メソッドによって強化されました。 <sup>24.2</sup>
-- `LINQ Reporting Engine` の `Word 2016` グラフとの互換性が有効になりました。 <sup>24.2</sup>
-- WMFメタファイルのバイナリラスター操作のエミュレーションが実装されました。 <sup>24.3</sup>
-- [DigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/digitalsignaturedetails/)クラスを追加し、[OoxmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/)、[DocSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/)、[OdtSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/odtsaveoptions/)クラスに新しいパブリックメンバーを追加することで、**SaveOptions**内でドキュメントの署名オプションを定義する機能が有効になりました。 <sup>24.4</sup>
+* 脚注と文末脚注の実際の参照マーク テキストを取得する機能が、[ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) プロパティと [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/) メソッドによって強化されました。 <sup>24.2</sup>
+* `LINQ Reporting Engine` の `Word 2016` グラフとの互換性が有効になりました。 <sup>24.2</sup>
+* WMFメタファイルのバイナリラスター操作のエミュレーションが実装されました。 <sup>24.3</sup>
+* [DigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/digitalsignaturedetails/)クラスを追加し、[OoxmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/)、[DocSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/)、[OdtSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/odtsaveoptions/)クラスに新しいパブリックメンバーを追加することで、**SaveOptions**内でドキュメントの署名オプションを定義する機能が有効になりました。 <sup>24.4</sup>
 
 {{% alert color="primary" %}}
 

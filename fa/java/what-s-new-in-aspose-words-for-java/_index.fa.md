@@ -11,13 +11,19 @@ url: /fa/java/what-s-new-in-aspose-words-for-java/
 
 این صفحه جالب ترین جدید را توصیف می کند Aspose.Words ویژگی های معرفی شده در نسخه های اخیر
 
-## Aspose.Words برای Java 24.1، 24.3
+## Aspose.Words برای Java 24.1, 24.2, 24.3, 24.4
 
-Aspose.Words 24.1 بهبود تجربه در مورد مدیریت رنگ های سکته، افزایش اشیاء OLE و گزارش LINQ، و همچنین معرفی یک منبع جدید Bibliography عمومی API...
+Aspose.Words 24.1 بهبود تجربه در مورد مدیریت رنگ های سکته، افزایش اشیاء OLE و گزارش LINQ، و همچنین معرفی یک منبع جدید Bibliography عمومی API.
 
 Aspose.Words 24.2 نمودار گسترش یافته API, مدیریت سبک و گزینه های LINQ این نسخه Aspose.Words همچنین قابلیت مشخص کردن SvgSaveاختیاری در هنگام ارائه، بارگیری کنترل انعطاف پذیر تر Markdown فایل ها و کار با متن مرجع برای یادداشت های پا و پایان نامه.
 
-Aspose.Words 24.3 معرفی یک TIFF Reader/Writer و Emulation عملیات دودویی برای متافایل های WMF. Aspose.Words 24.3 همچنین به گسترش نمودارها ادامه می دهد API...
+Aspose.Words 24.3 معرفی یک TIFF Reader/Writer و Emulation عملیات دودویی برای متافایل های WMF. Aspose.Words 24.3 همچنین به گسترش نمودارها ادامه می دهد API.
+
+Aspose.Words 24.4 قابلیت‌های ذخیره‌سازی فرمت‌ها، برخی گزینه‌های رندرینگ و همچنین بهبود کار با امضاهای دیجیتال را بهبود می‌بخشد.
+
+### فرمت‌های پشتیبانی شده <sup>24.4</sup>
+
+فرمت تصویر مدرن **WebP** اکنون در Aspose.Words پشتیبانی می شود. اکنون می توانید تصاویر WebP را بخوانید و در اسناد وارد کنید و همچنین تصاویر را در قالب WebP ذخیره کنید.
 
 ### ارائه و چاپ
 
@@ -25,9 +31,17 @@ Aspose.Words 24.3 معرفی یک TIFF Reader/Writer و Emulation عملیات �
 
 The The The The The The [Stroke](https://reference.aspose.com/words/java/com.aspose.words/stroke/) کلاس با مجموعه ای از خواص عمومی جدید مربوط به مدیریت رنگ های سکته گسترش یافته است: [ForeThemeColor](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getForeThemeColor) و [BackThemeColor](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getBackThemeColor), [ForeTintAndShade](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getForeTintAndShade) و [BackTintAndShade](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getBackTintAndShade)...
 
-#### آرشیو برچسب ها API تمدید <sup>24.2 / 24.3</sup>
+#### آرشیو برچسب ها API تمدید <sup>24.2 / 24.3 / 24.4</sup>
 
 The The The The The The **DrawingML Charts API** همچنان گسترش می یابد.
+
+#### تعبیه فونت‌های اعلان شده در قوانین @font-face <sup>24.4</sup>
+
+قابلیت تعبیه فونت‌های اعلان شده در قوانین @font-face برای تعریف‌های فونت سند نتیجه به وسیله اضافه کردن یک خاصیت جدید به نام [SupportFontFaceRules](https://reference.aspose.com/words/java/com.aspose.words/htmlloadoptions/#getSupportFontFaceRules) معرفی شده است.
+
+#### کار با فرمت‌بندی درخشش و بازتاب <sup>24.4</sup>
+
+قابلیت کار با فرمت‌بندی درخشش و بازتاب برای یک شیء نقاشی پیاده‌سازی شده است.
 
 ### بارگیری و پس انداز اسناد
 
@@ -52,6 +66,7 @@ The The The The The The **DrawingML Charts API** همچنان گسترش می ی
 * عملکرد برای بازیابی متن علامت مرجع واقعی برای یادداشت های پا و یادداشت های نهایی با بهبود یافته است. [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) مالکیت و [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/) روش <sup>24.2</sup>
 * سازگاری با `Word 2016` نمودار برای `LINQ Reporting Engine` فعال شده است. <sup>24.2</sup>
 * تنظیم عملیات دودویی برای metafiles WMF اجرا شده است. <sup>24.3</sup>
+* با فعال شدن یک کلاس جدید با نام [DigitalSignatureDetails](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturedetails/) با اعضای عمومی جدید، و همچنین اضافه کردن خصوصیات جدید به کلاس‌های [OoxmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/) ، [DocSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/) و [OdtSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/)، امکان تعریف گزینه‌های امضا برای سند در داخل SaveOptions فراهم شده است. <sup>24.4</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,6 +75,8 @@ The The The The The The **DrawingML Charts API** همچنان گسترش می ی
 بیشتر بدانید [Aspose.Words برای Java 24.2 یادداشت آزادی](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-2-release-notes/)
 
 بیشتر بدانید [Aspose.Words برای Java 24.3 یادداشت آزاد](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-3-release-notes/)
+
+بیشتر بدانید [Aspose.Words برای Java 24.4 یادداشت آزاد](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-4-release-notes/)
 
 {{% /alert %}}
 

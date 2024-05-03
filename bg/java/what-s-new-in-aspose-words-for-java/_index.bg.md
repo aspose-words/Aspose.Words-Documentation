@@ -11,7 +11,7 @@ url: /bg/java/what-s-new-in-aspose-words-for-java/
 
 Тази страница описва най-интересното ново Aspose.Words функции, въведени в последните издания.
 
-## Aspose.Words вместо Java 24.1, 24.2, 24.3
+## Aspose.Words вместо Java 24.1, 24.2, 24.3, 24.4
 
 Aspose.Words 24.1 подобрява опита около управлението на цветовете на инсулта, подобрява обектите на OLE и LINQ репортажа, както и въвежда нова библиография Източници обществеността API.
 
@@ -19,15 +19,29 @@ Aspose.Words 24.2 разширени карти API, стил мениджмън
 
 Aspose.Words 24.3 въвежда нов TIFF Reader/Писач и Емулация на двоични операции на Raster за WMF metafiles. Aspose.Words 24.3 също продължава да разширява картите API.
 
+Aspose.Words 24.4 подобрява форматите за спестяване, някои опции за предаване, както и подобрява работата с цифрови подписи.
+
+### Поддържани формати <sup>24.4</sup>
+
+Модерният **WebP** форматът на изображението сега се поддържа в Aspose.Words. Вече можете да четете и вмъквате WebP изображения в документи, както и запис на изображения в WebP формат.
+
 ### Пренос и печат
 
 #### Контрол на цветовете <sup>24.1</sup>
 
 На [Stroke](https://reference.aspose.com/words/java/com.aspose.words/stroke/) класът е удължен с набор от нови обществени свойства, свързани с управлението на цветовете на инсулт: [ForeThemeColor](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getForeThemeColor) както и [BackThemeColor](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getBackThemeColor), [ForeTintAndShade](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getForeTintAndShade) както и [BackTintAndShade](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getBackTintAndShade).
 
-#### Чертежи на ML API Разширение <sup>24.2 / 24.3</sup>
+#### Чертежи на ML API Разширение <sup>24.2 / 24.3 / 24.4</sup>
 
 На **DrawingML Charts API** продължава да се разширява.
+
+#### Вграждане на шрифтове в @font-face Правила <sup>24.4</sup>
+
+Добавена е възможност за вграждане на шрифтове, декларирани в @font-face правила в получения документ. [SupportFontFaceRules](https://reference.aspose.com/words/java/com.aspose.words/htmlloadoptions/#getSupportFontFaceRules) собственост.
+
+#### Работа с форматиране на блясъка и отражението <sup>24.4</sup>
+
+Възможността да се работи със светещ и отразяващ формат за рисуващ обект е изпълнена.
 
 ### Зареждане и съхраняване на документи
 
@@ -52,6 +66,7 @@ Aspose.Words 24.3 въвежда нов TIFF Reader/Писач и Емулаци
 * Функционалността за извличане на текста на действителната референтна марка за бележките под линия и крайните бележки е подобрена с [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) собственост и [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/) метод. <sup>24.2</sup>
 * Съвместимост с `Word 2016` графики за `LINQ Reporting Engine` е включен. <sup>24.2</sup>
 * Емулацията на двоични растерни операции за WMF metafiles е въведена. <sup>24.3</sup>
+* Възможност за определяне на опциите за подписване на документи в рамките на **SaveOptions** е активиран чрез добавяне на нов [DigitalSignatureDetails](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturedetails/) клас с нови членове на обществото, както и добавяне на нови имоти към [OoxmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/) както и [OdtSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/) Класове. <sup>24.4</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,6 +75,8 @@ Aspose.Words 24.3 въвежда нов TIFF Reader/Писач и Емулаци
 Научете повече за [Aspose.Words вместо Java 24.2 Бележки за освобождаване.](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-2-release-notes/)
 
 Научете повече за [Aspose.Words вместо Java 24.3 Бележки за освобождаване.](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-3-release-notes/)
+
+Научете повече за [Aspose.Words вместо Java 24.4 Бележки за освобождаване.](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-4-release-notes/)
 
 {{% /alert %}}
 
