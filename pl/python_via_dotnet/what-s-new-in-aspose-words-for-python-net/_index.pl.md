@@ -80,7 +80,7 @@ Dowiedz się więcej o [Aspose.Words dla Python via .NET 24.4 Informacje o wydan
 
 {{% /alert %}}
 
-## Aspose.Words dla Python via .NET 23,9, 23,10, 23,11, 23,12
+## Aspose.Words dla Python via .NET 23.9, 23.10, 23.11, 23.12
 
 Aspose.Words 23.9 rozszerza opcje renderowania, emulację renderowania metaplików i opcje zapisywania markdown.
 
@@ -156,7 +156,7 @@ Dowiedz się więcej o [Aspose.Words dla .NET 23.12 Informacje o wydaniu](https:
 
 {{% /alert %}}
 
-## Aspose.Words dla Python via .NET 23,5, 23,6, 23,7, 23,8
+## Aspose.Words dla Python via .NET 23.5, 23.6, 23.7, 23.8
 
 Aspose.Words 23.5 zwiększa możliwości pracy z danymi serii wykresów i możliwość pracy z dokumentami ODT, a także poprawia nagłówki/stopki i zawijanie ich tekstu.
 
@@ -168,9 +168,9 @@ Aspose.Words 23.8 rozszerza możliwości różnych formatów, poprawia renderowa
 
 ### Obsługiwane formaty
 
-* Począwszy od wersji 23.6 możliwe jest zapisanie dokumentu w formacie XLSX. Teraz możesz konwertować swoje dokumenty do formatu Excel. <sup>23,6</sup>
+* Począwszy od wersji 23.6 możliwe jest zapisanie dokumentu w formacie XLSX. Teraz możesz konwertować swoje dokumenty do formatu Excel. <sup>23.6</sup>
 
-* Począwszy od wersji 23.7 możliwe jest zapisanie strony dokumentu lub kształtu w formacie EPS. <sup>23,7</sup>
+* Począwszy od wersji 23.7 możliwe jest zapisanie strony dokumentu lub kształtu w formacie EPS. <sup>23.7</sup>
 
 ### Nowe funkcje formatu
 
@@ -223,11 +223,11 @@ Dodano nowe metody LowCode przeznaczone do łączenia różnych typów dokument�
 
 ### Inny
 
-- Wprowadzono obsługę zawijania tekstu w nagłówkach/stopkach. <sup>23,5</sup>
-- Dodano możliwość usuwania podpisów cyfrowych z dokumentów ODT za pomocą metody [RemoveAllSignatures](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignatureutil/remove_all_signatures/#str_str). <sup>23,5</sup>
-- Dodano publiczną właściwość [phonetic_guide](https://reference.aspose.com/words/python-net/aspose.words/run/phonetic_guide/) umożliwiającą uzyskanie tekstu podstawowego i rubinowego przewodnika fonetycznego [Run](https://reference.aspose.com/words/python-net/aspose.words/run/). <sup>23,5</sup>
-- Dodano możliwość pobrania wartości podpisu cyfrowego z dokumentu podpisanego cyfrowo w postaci tablicy bajtów poprzez wprowadzenie nowej właściwości [signature_value](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignature/signature_value/). <sup>23,7</sup>
-- Klasy [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) i [Cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/) zostały rozszerzone o nowych członków publicznych – [Row.next_row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/next_row/), [Row.previous_row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/previous_row/), [Cell.next_cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/next_cell/) i [Cell.previous_cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/previous_cell/). <sup>23,7</sup>
+- Wprowadzono obsługę zawijania tekstu w nagłówkach/stopkach. <sup>23.5</sup>
+- Dodano możliwość usuwania podpisów cyfrowych z dokumentów ODT za pomocą metody [RemoveAllSignatures](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignatureutil/remove_all_signatures/#str_str). <sup>23.5</sup>
+- Dodano publiczną właściwość [phonetic_guide](https://reference.aspose.com/words/python-net/aspose.words/run/phonetic_guide/) umożliwiającą uzyskanie tekstu podstawowego i rubinowego przewodnika fonetycznego [Run](https://reference.aspose.com/words/python-net/aspose.words/run/). <sup>23.5</sup>
+- Dodano możliwość pobrania wartości podpisu cyfrowego z dokumentu podpisanego cyfrowo w postaci tablicy bajtów poprzez wprowadzenie nowej właściwości [signature_value](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignature/signature_value/). <sup>23.7</sup>
+- Klasy [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) i [Cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/) zostały rozszerzone o nowych członków publicznych – [Row.next_row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/next_row/), [Row.previous_row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/previous_row/), [Cell.next_cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/next_cell/) i [Cell.previous_cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/previous_cell/). <sup>23.7</sup>
 
 {{% alert color="primary" %}}
 
@@ -329,7 +329,7 @@ Dowiedz się więcej o [Aspose.Words dla Python via .NET 23.4 Informacje o wydan
 
 {{% /alert %}}
 
-## Aspose.Words dla Python via .NET 22,9, 22,10, 22,11, 22,12
+## Aspose.Words dla Python via .NET 22.9, 22.10, 22.11, 22.12
 
 Aspose.Words 22.9 rozszerza opcje ładowania i zapisywania dokumentów oraz poprawia interakcję z niektórymi innymi opcjami.
 
@@ -396,7 +396,7 @@ Dowiedz się więcej o [Aspose.Words dla Python via .NET 22.12 Informacje o wyda
 
 {{% /alert %}}
 
-## Aspose.Words dla Python via .NET 22,5, 22,6, 22,7, 22,8
+## Aspose.Words dla Python via .NET 22.5, 22.6, 22.7, 22.8
 
 Aspose.Words 22.5 wprowadza obsługę nowych formatów ładowania i nowy rozmiar strony wydruku, a także poprawia niektóre opcje renderowania.
 
@@ -410,12 +410,12 @@ API został ulepszony w celu zapewnienia bardziej elastycznego i wygodnego progr
 
 ### Obsługiwane formaty
 
-* Wprowadzono obsługę ładowania dokumentów EPUB i XML poprzez dodanie nowych wartości do wyliczenia **LoadFormat**. Począwszy od wersji 22.5 możliwe jest ładowanie dokumentów EPUB i XML do modelu dokumentu Aspose.Words i konwertowanie ich do dowolnego formatu [Obsługiwane formaty dokumentów](/words/pl/python-net/supported-document-formats/). <sup>22,5</sup>
+* Wprowadzono obsługę ładowania dokumentów EPUB i XML poprzez dodanie nowych wartości do wyliczenia **LoadFormat**. Począwszy od wersji 22.5 możliwe jest ładowanie dokumentów EPUB i XML do modelu dokumentu Aspose.Words i konwertowanie ich do dowolnego formatu [Obsługiwane formaty dokumentów](/words/pl/python-net/supported-document-formats/). <sup>22.5</sup>
 * Począwszy od wersji 22.8 możliwe jest zapisanie dokumentu w formacie AZW3 – zastrzeżonym formacie plików e-booków firmy Amazon Kindle (KF8 to inna nazwa tego formatu). Teraz możesz nie tylko ładować dokumenty AZW3, ale także eksportować swoje pliki do formatu AZW3, który w zasadzie jest skompilowanym EPUB. <sup>22.8</sup>
 
 ### Renderowanie i drukowanie
 
-#### Nowy rozmiar druku <sup>22,5</sup>
+#### Nowy rozmiar druku <sup>22.5</sup>
 
 Dodano obsługę rozmiaru strony wydruku "Koperta nr 10" poprzez wprowadzenie nowej wartości do wyliczenia [PaperSize](https://reference.aspose.com/words/python-net/aspose.words/papersize/).
 

@@ -11,7 +11,7 @@ url: /ar/java/what-s-new-in-aspose-words-for-java/
 
 هذه الصفحة تصف أكثر الأشياء إثارة للاهتمام Aspose.Words السمات التي أدخلت في الإطلاقات الأخيرة.
 
-## Aspose.Words for Java 24-1 و 24-2 و 24-3
+## Aspose.Words لـ Java 24.1, 24.2, 24.3, 24.4
 
 Aspose.Words 24-1 تحسين الخبرة المكتسبة في مجال إدارة ألوان السكتة الدماغية، وتعزيز الأجسام الموجودة على سطح الأرض والإبلاغ عن الشبكة، فضلاً عن استحداث مصادر جديدة في الببليوغرافية API.
 
@@ -19,15 +19,29 @@ Aspose.Words 24-2 توسيع نطاق الرسوم البيانية API, إدا�
 
 Aspose.Words 24-3 يُقدّم قراء/كاتباً جديداً لمؤسسة " تي إف "، ويُعدّ عمليات القاذورات الثنائية لمصفوفات WMF. Aspose.Words 24-3 وتواصل أيضاً توسيع نطاق الرسوم البيانية API.
 
+Aspose.Words 24.4 يعزز حفظ التنسيقات ، بعض خيارات العرض ، وكذلك يحسن العمل مع التواقيع الرقمية.
+
+### تنسيقات مدعومة  <sup>24.4</sup>
+
+أصبح تنسيق صورة WebP الحديث مدعومًا الآن في Aspose.Words. يمكنك الآن قراءة صور WebP وإدراجها في المستندات، بالإضافة إلى حفظ الصور بتنسيق WebP.
+
 ### التوجيه والطباعة
 
 #### Stroke Color Control <sup>24.1</sup>
 
 The [Stroke](https://reference.aspose.com/words/java/com.aspose.words/stroke/) تم توسيع الصف مع مجموعة من الممتلكات العامة الجديدة المتصلة بإدارة ألوان السكتة الدماغية: [ForeThemeColor](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getForeThemeColor) و [BackThemeColor](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getBackThemeColor), [ForeTintAndShade](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getForeTintAndShade) و [BackTintAndShade](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getBackTintAndShade).
 
-#### DrawingML Charts API التمديد <sup>24.2 / 24.3</sup>
+#### DrawingML Charts API التمديد <sup>24.2 / 24.3 / 24.4</sup>
 
 The **DrawingML Charts API** ولا يزال يجري توسيعه.
+
+#### تضمين الخطوط المعلن عنها في قواعد @font-face  <sup>24.4</sup>
+
+تمت إضافة القدرة على تضمين الخطوط المعلن عنها في قواعد @font-face في تعريفات الخطوط للمستند الناتج من خلال إضافة خاصية جديدة تسمى [SupportFontFaceRules](https://reference.aspose.com/words/java/com.aspose.words/htmlloadoptions/#getSupportFontFaceRules).
+
+#### العمل مع تنسيق اللمعان والانعكاس  <sup>24.4</sup>
+
+تم تنفيذ القدرة على العمل مع تنسيق اللمعان والانعكاس لكائن الرسم.
 
 ### وثائق الشحن والإنقاذ
 
@@ -52,14 +66,17 @@ The **DrawingML Charts API** ولا يزال يجري توسيعه.
 * ♪ تم تعزيز القدرة على استرجاع النص الفعلي للعلامات المرجعية للحواشي والمذكرات النهائية مع [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) الممتلكات والممتلكات [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/) طريقة <sup>24.2</sup>
 * التوافق مع `Word 2016` مخططات `LINQ Reporting Engine` تم تمكينه <sup>24.2</sup>
 * تم تنفيذ عمليات القاذورات الثنائية لمصفوفات الصندوق. <sup>24.3</sup>
+* تمكين تعريف خيارات التوقيع للمستندات ضمن خيارات الحفظ من خلال إضافة فئة جديدة تسمى [DigitalSignatureDetails](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturedetails/) بأعضاء عامة جديدة ، بالإضافة إلى إضافة خصائص جديدة إلى فئات [OoxmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/) و [DocSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/) و [OdtSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/).  <sup>24.4</sup>
 
 {{% alert color="primary" %}}
 
-تعلم المزيد [Aspose.Words for Java الممثل الدائم](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-1-release-notes/).
+تعلم المزيد [ملاحظات إصدار Aspose.Words لـ Java 24.1](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-1-release-notes/).
 
-تعلم المزيد [Aspose.Words for Java )](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-2-release-notes/)
+تعلم المزيد [ملاحظات إصدار Aspose.Words لـ Java 24.2](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-2-release-notes/)
 
-تعلم المزيد [Aspose.Words for Java )](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-3-release-notes/)
+تعلم المزيد [ملاحظات إصدار Aspose.Words لـ Java 24.3](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-3-release-notes/)
+
+تعلم المزيد [ملاحظات إصدار Aspose.Words لـ Java 24.4](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-4-release-notes/)
 
 {{% /alert %}}
 

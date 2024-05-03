@@ -229,9 +229,9 @@ Se han agregado nuevos métodos LowCode destinados a fusionar diferentes tipos d
 
 ### Otro
 
-* Se ha implementado soporte para ajuste de texto en encabezados/pies de página. <sup>23,5</sup>
-* Se agregó la capacidad de eliminar firmas digitales de documentos ODT mediante el método [RemoveAllSignatures](https://reference.aspose.com/words/es/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/). <sup>23,5</sup>
-*Se ha añadido la propiedad pública [PhoneticGuide](https://reference.aspose.com/words/es/net/aspose.words/run/phoneticguide/) para obtener el texto base y ruby de la guía fonética [Run](https://reference.aspose.com/words/es/net/aspose.words/run/). <sup>23,5</sup>
+* Se ha implementado soporte para ajuste de texto en encabezados/pies de página. <sup>23.5</sup>
+* Se agregó la capacidad de eliminar firmas digitales de documentos ODT mediante el método [RemoveAllSignatures](https://reference.aspose.com/words/es/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/). <sup>23.5</sup>
+*Se ha añadido la propiedad pública [PhoneticGuide](https://reference.aspose.com/words/es/net/aspose.words/run/phoneticguide/) para obtener el texto base y ruby de la guía fonética [Run](https://reference.aspose.com/words/es/net/aspose.words/run/). <sup>23.5</sup>
 * Se agregó la capacidad de recuperar un valor de firma digital de un documento firmado digitalmente como una matriz de bytes mediante la introducción de una nueva propiedad [SignatureValue](https://reference.aspose.com/words/es/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/). <sup>23.7</sup>
 * Las clases [Row](https://reference.aspose.com/words/es/net/aspose.words.tables/row/) y [Cell](https://reference.aspose.com/words/es/net/aspose.words.tables/cell/) se han ampliado con nuevos miembros públicos: [Row.NextRow](https://reference.aspose.com/words/es/net/aspose.words.tables/row/nextrow/), [Row.PreviousRow](https://reference.aspose.com/words/es/net/aspose.words.tables/row/previousrow/), [Cell.NextCell](https://reference.aspose.com/words/es/net/aspose.words.tables/cell/nextcell/) y [Cell.PreviousCell](https://reference.aspose.com/words/es/net/aspose.words.tables/cell/previouscell/). <sup>23.7</sup>
 * Se ha agregado soporte para los campos CITACIÓN y BIBLIOGRAFÍA. <sup>23.8</sup>
@@ -292,7 +292,7 @@ La clase [Fill](https://reference.aspose.com/words/es/net/aspose.words.drawing/f
 
 Se ha implementado la renderización de gradientes radiales con el sombreador nativo `SkiaSharp` para .NET Standard.
 
-#### Distancia entre la tabla y el texto circundante <sup>23,4</sup>
+#### Distancia entre la tabla y el texto circundante <sup>23.4</sup>
 
 Se agregó la capacidad de establecer la distancia entre la tabla y el texto circundante mediante la introducción de nuevas propiedades en la clase [Table](https://reference.aspose.com/words/es/net/aspose.words.tables/table/): [DistanceLeft](https://reference.aspose.com/words/es/net/aspose.words.tables/table/distanceleft/), [DistanceRight](https://reference.aspose.com/words/es/net/aspose.words.tables/table/distanceright/), [DistanceTop](https://reference.aspose.com/words/es/net/aspose.words.tables/table/distancetop/) y [DistanceBottom](https://reference.aspose.com/words/es/net/aspose.words.tables/table/distancebottom/).
 
@@ -424,12 +424,12 @@ El API se ha mejorado para un desarrollo más flexible y conveniente.
 
 ### Formatos admitidos
 
-* Se ha introducido soporte para cargar documentos EPUB y XML agregando nuevos valores a la enumeración [LoadFormat](https://reference.aspose.com/words/es/net/aspose.words/loadformat/). A partir de la versión 22.5, es posible cargar documentos EPUB y XML en el modelo de documento Aspose.Words y convertirlos a cualquier [formatos soportados](https://reference.aspose.com/words/es/net/aspose.words/saveformat/). <sup>22,5</sup>
+* Se ha introducido soporte para cargar documentos EPUB y XML agregando nuevos valores a la enumeración [LoadFormat](https://reference.aspose.com/words/es/net/aspose.words/loadformat/). A partir de la versión 22.5, es posible cargar documentos EPUB y XML en el modelo de documento Aspose.Words y convertirlos a cualquier [formatos soportados](https://reference.aspose.com/words/es/net/aspose.words/saveformat/). <sup>22.5</sup>
 * A partir de la versión 22.8, es posible guardar un documento en formato AZW3, el formato de archivo de libro electrónico patentado por Amazon Kindle (KF8 es otro nombre para el formato). Ahora no sólo puede cargar documentos AZW3, sino también exportar sus archivos al formato AZW3, que es esencialmente un EPUB compilado. <sup>22.8</sup>
 
 ### Representación e impresión
 
-#### Nuevo tamaño de impresión <sup>22,5</sup>
+#### Nuevo tamaño de impresión <sup>22.5</sup>
 
 Se agregó compatibilidad con el tamaño de página de impresión "Sobre No. 10" mediante la introducción de un nuevo valor en la enumeración [PaperSize](https://reference.aspose.com/words/es/net/aspose.words/papersize/).
 

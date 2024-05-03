@@ -223,9 +223,9 @@ Se han agregado nuevos métodos LowCode destinados a fusionar diferentes tipos d
 
 ### Otro
 
-- Se ha implementado soporte para ajuste de texto en encabezados/pies de página. <sup>23,5</sup>
-- Se agregó la capacidad de eliminar firmas digitales de documentos ODT mediante el método [RemoveAllSignatures](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignatureutil/remove_all_signatures/#str_str). <sup>23,5</sup>
-- Se ha añadido la propiedad pública [phonetic_guide](https://reference.aspose.com/words/python-net/aspose.words/run/phonetic_guide/) para obtener el texto base y ruby de la guía fonética [Run](https://reference.aspose.com/words/python-net/aspose.words/run/). <sup>23,5</sup>
+- Se ha implementado soporte para ajuste de texto en encabezados/pies de página. <sup>23.5</sup>
+- Se agregó la capacidad de eliminar firmas digitales de documentos ODT mediante el método [RemoveAllSignatures](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignatureutil/remove_all_signatures/#str_str). <sup>23.5</sup>
+- Se ha añadido la propiedad pública [phonetic_guide](https://reference.aspose.com/words/python-net/aspose.words/run/phonetic_guide/) para obtener el texto base y ruby de la guía fonética [Run](https://reference.aspose.com/words/python-net/aspose.words/run/). <sup>23.5</sup>
 - Se agregó la capacidad de recuperar un valor de firma digital de un documento firmado digitalmente como una matriz de bytes mediante la introducción de una nueva propiedad [signature_value](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignature/signature_value/). <sup>23.7</sup>
 - Las clases [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) y [Cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/) se han ampliado con nuevos miembros públicos: [Row.next_row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/next_row/), [Row.previous_row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/previous_row/), [Cell.next_cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/next_cell/) y [Cell.previous_cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/previous_cell/). <sup>23.7</sup>
 
@@ -285,7 +285,7 @@ La clase [Fill](https://reference.aspose.com/words/es/net/aspose.words.drawing/f
 
 Se ha implementado la renderización de gradientes radiales con el sombreador nativo `SkiaSharp` para .NET Standard.
 
-#### Distancia entre la tabla y el texto circundante <sup>23,4</sup>
+#### Distancia entre la tabla y el texto circundante <sup>23.4</sup>
 
 Se agregó la capacidad de establecer la distancia entre la tabla y el texto circundante mediante la introducción de nuevas propiedades en la clase [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/): [distance_left](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_left/), [distance_right](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_right/), [distance_top](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_top/) y [distance_bottom](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_bottom/).
 
@@ -415,7 +415,7 @@ El API se ha mejorado para un desarrollo más flexible y conveniente.
 
 ### Representación e impresión
 
-#### Nuevo tamaño de impresión <sup>22,5</sup>
+#### Nuevo tamaño de impresión <sup>22.5</sup>
 
 Se agregó compatibilidad con el tamaño de página de impresión "Sobre No. 10" mediante la introducción de un nuevo valor en la enumeración [PaperSize](https://reference.aspose.com/words/python-net/aspose.words/papersize/).
 

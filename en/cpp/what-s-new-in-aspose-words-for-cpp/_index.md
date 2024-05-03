@@ -11,7 +11,7 @@ url: /cpp/what-s-new-in-aspose-words-for-cpp/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for C++ 24.1, 24.2, 24.3
+## Aspose.Words for C++ 24.1, 24.2, 24.3, 24.4
 
 Aspose.Words 24.1 improves the experience around managing stroke colors, enhances OLE objects, as well as introduces a new Bibliography Sources public API.
 
@@ -19,15 +19,29 @@ Aspose.Words 24.2 expanded Charts API and style management. This version of Aspo
 
 Aspose.Words 24.3 introduces Emulation of binary raster operations for WMF metafiles and also continues to expand the Charts API.
 
+Aspose.Words 24.4 enhances saving formats, some rendering options, as well as improves work with digital signatures.
+
+### Supported Formats <sup>24.4</sup>
+
+The modern **WebP** image format is now supported in Aspose.Words. You can now read and insert WebP images into documents, as well as save images in WebP format.
+
 ### Rendering and Printing
 
 #### Stroke Color Control <sup>24.1</sup>
 
 The [Stroke](https://reference.aspose.com/words/cpp/aspose.words.drawing/stroke/) class has been extended with a set of new public properties related to managing stroke colors: [ForeThemeColor](https://reference.aspose.com/words/cpp/aspose.words.drawing/stroke/get_forethemecolor/) and [BackThemeColor](https://reference.aspose.com/words/cpp/aspose.words.drawing/stroke/get_backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/cpp/aspose.words.drawing/stroke/get_foretintandshade/) and [BackTintAndShade](https://reference.aspose.com/words/cpp/aspose.words.drawing/stroke/get_backtintandshade/).
 
-#### DrawingML Charts API Extension <sup>24.2 / 24.3</sup>
+#### DrawingML Charts API Extension <sup>24.2 / 24.3 / 24.4</sup>
 
 The **DrawingML Charts API** continues to be expanded.
+
+#### Embed Fonts Declared in @font-face Rules <sup>24.4</sup>
+
+Added an ability to embed fonts declared in @font-face rules into the resulting document’s font definitions has been introduced by adding a new **SupportFontFaceRules** property.
+
+#### Work with Glow and Reflection Formatting <sup>24.4</sup>
+
+The ability to work with glow and reflection formatting for a drawing object has been implemented.
 
 ### Loading and Saving Documents
 
@@ -46,6 +60,7 @@ The ability to preserve empty lines when loading Markdown files has been added.
 - New public properties **Priority**, **UnhideWhenUsed**, and **SemiHidden** for enhanced style management have been added to the [Style](https://reference.aspose.com/words/cpp/aspose.words/style/) class. <sup>24.2</sup>
 - The functionality to retrieve the actual reference mark text for footnotes and endnotes has been enhanced with the **ActualReferenceMark** property and the **UpdateActualReferenceMarks** method. <sup>24.2</sup>
 - Emulation of binary raster operations for WMF metafiles has been implemented. <sup>24.3</sup>
+- The capability to define signature options for documents within **SaveOptions** has been enabled by adding a new **DigitalSignatureDetails** class with new public members, as well as adding new properties to the [OoxmlSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/docsaveoptions/) and [OdtSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/odtsaveoptions/) classes. <sup>24.4</sup>
 
 {{% alert color="primary" %}}
 
@@ -54,6 +69,8 @@ Learn more about [Aspose.Words for C++ 24.1 Release Notes](https://releases.aspo
 Learn more about [Aspose.Words for C++ 24.2 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-2-release-notes/).
 
 Learn more about [Aspose.Words for C++ 24.3 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-3-release-notes/).
+
+Learn more about [Aspose.Words for C++ 24.4 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-4-release-notes/).
 
 {{% /alert %}}
 

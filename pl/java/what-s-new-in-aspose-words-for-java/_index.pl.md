@@ -11,7 +11,7 @@ url: /pl/java/what-s-new-in-aspose-words-for-java/
 
 Ta strona opisuje najbardziej interesujące nowe Aspose.Words funkcje wprowadzone w ostatnich wersjach.
 
-## Aspose.Words zamiast Java 24.1, 24.2; 24.3
+## Aspose.Words zamiast Java 24.1, 24.2; 24.3, 24.4
 
 Aspose.Words 24.1 Poprawia doświadczenie w zarządzaniu kolorami udaru, wzmacnia obiekty OLE i LINQ raportowanie, a także wprowadza nowe źródła bibliografii publicznie API.
 
@@ -19,15 +19,29 @@ Aspose.Words 24.2 Rozszerzone karty API, zarządzanie stylem i opcje LINQ. Ta we
 
 Aspose.Words 24.3 wprowadza nowy czytnik / pisarz TIFF oraz emulację operacji binarnych rastrowych dla metafilów WMF. Aspose.Words 24.3 również nadal rozwijać karty API.
 
+Aspose.Words 24.4 ulepsza zapisywanie formatów, niektóre opcje renderowania, a także poprawia pracę z podpisami cyfrowymi.
+
+### Obsługiwane formaty <sup>24.4</sup>
+
+Nowoczesny format obrazu **WebP** jest teraz obsługiwany w Aspose.Words. Możesz teraz odczytywać i wstawiać obrazy WebP do dokumentów, a także zapisywać obrazy w formacie WebP.
+
 ### Renderowanie i drukowanie
 
 #### Kontrola koloru uderzenia <sup>24.1</sup>
 
 W [Stroke](https://reference.aspose.com/words/java/com.aspose.words/stroke/) klasa została rozszerzona o zestaw nowych właściwości publicznych związanych z zarządzaniem kolorami udaru: [ForeThemeColor](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getForeThemeColor) oraz [BackThemeColor](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getBackThemeColor), [ForeTintAndShade](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getForeTintAndShade) oraz [BackTintAndShade](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getBackTintAndShade).
 
-#### Wykresy DrawingML API Rozszerzenie <sup>24.2 / 24.3</sup>
+#### Wykresy DrawingML API Rozszerzenie <sup>24.2 / 24.3 / 24.4</sup>
 
 W **DrawingML Charts API** nadal się rozwija.
+
+#### Osadzanie czcionek zdefiniowanych w regułach @font-face <sup>24.4</sup>
+
+Dodano możliwość osadzania czcionek zdefiniowanych w regułach @font-face w definicjach czcionek wynikowego dokumentu poprzez dodanie nowej właściwości o nazwie [SupportFontFaceRules](https://reference.aspose.com/words/java/com.aspose.words/htmlloadoptions/#getSupportFontFaceRules).
+
+#### Praca z formatowaniem efektu połysku i odbicia <sup>24.4</sup>
+
+Zaimplementowano możliwość pracy z formatowaniem efektu połysku i odbicia dla obiektu rysunkowego.
 
 ### Wczytywanie i zapisywanie dokumentów
 
@@ -52,6 +66,7 @@ Nowy czytnik / pisarz TIFF dla Aspose.Words zamiast .NET Standard, .NET Opracowa
 * Funkcjonalność odzyskania rzeczywistego tekstu znaku referencyjnego dla przypisów i notatek końcowych została wzmocniona z [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) nieruchomości i [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/) Metoda. <sup>24.2</sup>
 * Zgodność z `Word 2016` wykresy dla `LINQ Reporting Engine` został włączony. <sup>24.2</sup>
 * Emulacja operacji binarnych rastrowych dla metafilów WMF została wdrożona. <sup>24.3</sup>
+* Włączono możliwość definiowania opcji podpisu dla dokumentów w ramach **SaveOptions** poprzez dodanie nowej klasy o nazwie [DigitalSignatureDetails](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturedetails/) z nowymi publicznymi składnikami, a także dodanie nowych właściwości do klas [OoxmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/) i [OdtSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/). <sup>24.4</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,6 +75,9 @@ Dowiedz się więcej o [Aspose.Words zamiast Java 24.1 Uwagi do wydania](https:/
 Dowiedz się więcej o [Aspose.Words zamiast Java 24.2 Uwagi do wydania.](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-2-release-notes/)
 
 Dowiedz się więcej o [Aspose.Words zamiast Java 24.3 Uwagi do wydania.](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-3-release-notes/)
+
+Dowiedz się więcej o [Aspose.Words zamiast Java 24.4 Uwagi do wydania.](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-4-release-notes/)
+
 
 {{% /alert %}}
 
@@ -229,7 +247,7 @@ Dowiedz się więcej o [Aspose.Words zamiast Java 23.8 Uwagi do wydania](/words/
 
 {{% /alert %}}
 
-## Aspose.Words zamiast Java 23,1, 23,2, 23.3, 23.4
+## Aspose.Words zamiast Java 23.1, 23.2, 23.3, 23.4
 
 Aspose.Words 23.1 poprawia wydajność emulacji operacji rastrowych, a także zwiększa jakość eksportu dokumentów i renderowania.
 
@@ -405,16 +423,16 @@ W API jest bardziej elastyczny i wygodny rozwój.
 
 ### Obsługiwane formaty
 
-* Wsparcie dla wczytywania dokumentów EPUB i XML zostało wprowadzone poprzez dodanie nowych wartości do [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) wyliczenie. Począwszy od wersji 22.5, możliwe jest wczytanie dokumentów EPUB i XML do Aspose.Words model dokumentu i przekształcić je na dowolny [obseslugiwane formaty](https://reference.aspose.com/words/java/com.aspose.words/saveformat/). <sup>22,5</sup>
+* Wsparcie dla wczytywania dokumentów EPUB i XML zostało wprowadzone poprzez dodanie nowych wartości do [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) wyliczenie. Począwszy od wersji 22.5, możliwe jest wczytanie dokumentów EPUB i XML do Aspose.Words model dokumentu i przekształcić je na dowolny [obseslugiwane formaty](https://reference.aspose.com/words/java/com.aspose.words/saveformat/). <sup>22.5</sup>
 * Od wersji 22.8 można zapisać dokument w formacie AZW3 - Amazon Własny format pliku e- book Kindle (KF8 to inna nazwa dla formatu). Teraz można nie tylko załadować dokumenty AZW3, ale również eksportować pliki do formatu AZW3, który jest zasadniczo skompilowany EPUB. <sup>22.8</sup>
 
 ### Renderowanie i drukowanie
 
-#### Nowy rozmiar druku <sup>22,5</sup>
+#### Nowy rozmiar druku <sup>22.5</sup>
 
 Wsparcie dla "Koperty nr 10" rozmiar strony drukowanej został dodany poprzez wprowadzenie nowej wartości do [PaperSize](https://reference.aspose.com/words/java/com.aspose.words/papersize/) wyliczenie.
 
-#### Rendering MathML Formulas <sup>22,5</sup>
+#### Rendering MathML Formulas <sup>22.5</sup>
 
 Ulepszono renderowanie pola granicznego wokół wzorów MathML i wykrywanie czcionek przy renderowaniu znaków dla takich wzorów.
 
@@ -486,7 +504,7 @@ Dowiedz się więcej o [Aspose.Words zamiast Java 22.8 Uwagi do wydania](/words/
 
 {{% /alert %}}
 
-## Aspose.Words zamiast Java 22,1, 22,2, 22,3, 22.4
+## Aspose.Words zamiast Java 22.1, 22.2, 22.3, 22.4
 
 Aspose.Words 22.1 ulepsza opcje renderowania, jak również ładowanie i zapisywanie dokumentów.
 

@@ -11,7 +11,7 @@ url: /cs/java/what-s-new-in-aspose-words-for-java/
 
 Tato stránka popisuje nejzajímavější nové Aspose.Words funkce zavedené v nedávných vydáních.
 
-## Aspose.Words místo Java 24.1, 24.2, 24.3
+## Aspose.Words místo Java 24.1, 24.2, 24.3, 24.4
 
 Aspose.Words 24.1 zlepšuje zkušenosti s managementem barev tahů, zvyšuje OLE objekty a LINQ reporting, stejně jako představuje nové zdroje bibliografie veřejné API.
 
@@ -19,15 +19,29 @@ Aspose.Words 24.2 rozšířené grafy API, řízení stylu a možnosti LINQ. Tat
 
 Aspose.Words 24.3 zavádí nový TIFF Reader/Writer a Emulaci binárních rastrových operací pro WMF metafily. Aspose.Words 24.3 dále rozšiřuje grafy API.
 
+Aspose.Words 24.4 zvyšuje ukládání formátů, některé možnosti vykreslování a zlepšuje práci s digitálními podpisy.
+
+### Podporované formáty <sup>24.4</sup>
+
+Moderní **WebP** formát obrázku je nyní podporován v Aspose.Words. Nyní můžete číst a vkládat WebP obrázky do dokumentů, stejně jako uložit obrázky v WebP formát.
+
 ### Renderování a tisk
 
 #### Ovládání barev tahu <sup>24.1</sup>
 
 The [Stroke](https://reference.aspose.com/words/java/com.aspose.words/stroke/) třída byla rozšířena o soubor nových veřejných nemovitostí souvisejících s řízením barvy zdvihu: [ForeThemeColor](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getForeThemeColor) a [BackThemeColor](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getBackThemeColor), [ForeTintAndShade](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getForeTintAndShade) a [BackTintAndShade](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getBackTintAndShade).
 
-#### Grafy kresleníML API Rozšíření <sup>24.2 / 24.3</sup>
+#### Grafy kresleníML API Rozšíření <sup>24.2 / 24.3 / 24.4</sup>
 
 The **DrawingML Charts API** pokračuje v rozšiřování.
+
+#### Vložit písma Vyhlášení v@font-face Rules <sup>24.4</sup>
+
+Přidána možnost vložit písma deklarovaná v @font-face pravidla do výsledného dokumentu definice písma byla zavedena přidáním nového [SupportFontFaceRules](https://reference.aspose.com/words/java/com.aspose.words/htmlloadoptions/#getSupportFontFaceRules) majetek.
+
+#### Práce s formátováním záře a reflexe <sup>24.4</sup>
+
+Byla implementována schopnost pracovat s formátováním světla a odrazu pro kreslící objekt.
 
 ### Načítání a ukládání dokumentů
 
@@ -52,6 +66,7 @@ Nový TIFF čtečka / spisovatel pro Aspose.Words místo .NET Standard, .NET 6 a
 * Funkce pro získání skutečného textu referenční značky pro poznámky pod čarou a poznámky k ní byla posílena o [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) majetek a [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/) metoda. <sup>24.2</sup>
 * Slučitelnost s `Word 2016` grafy pro `LINQ Reporting Engine` bylo povoleno. <sup>24.2</sup>
 * Impulace binárních rastrových operací pro WMF metafily byla provedena. <sup>24.3</sup>
+* Schopnost definovat možnosti podpisu dokumentů v rámci **SaveOptions** byla povolena přidáním nového [DigitalSignatureDetails](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturedetails/) třída s novými veřejnými členy, stejně jako přidání nových nemovitostí do [OoxmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/) a [OdtSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/) třídy. <sup>24.4</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,6 +75,8 @@ Více informací o [Aspose.Words Místo Java 24.1 Poznámky k východu](https://
 Více informací o [Aspose.Words Místo Java 24.2 Poznámky k východu.](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-2-release-notes/)
 
 Více informací o [Aspose.Words Místo Java 24.3 Poznámky k východu.](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-3-release-notes/)
+
+Více informací o [Aspose.Words Místo Java 24.4 Poznámky k východu.](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-3-release-notes/)
 
 {{% /alert %}}
 
@@ -145,7 +162,7 @@ Aspose.Words 23.5 zvyšuje schopnost pracovat s daty řady grafů a schopnost pr
 
 Aspose.Words 23.6 rozšiřuje možnosti renderování, přidává nový exportní formát, zlepšuje LINQ reporting a LowCode nářadí.
 
-Aspose.Words 23,7 zvyšuje možnosti podávání zpráv, přidává nový exportní formát a zavádí změny v práci s tabulkami a digitálními podpisy.
+Aspose.Words 23.7 zvyšuje možnosti podávání zpráv, přidává nový exportní formát a zavádí změny v práci s tabulkami a digitálními podpisy.
 
 Aspose.Words 23.8 rozšiřuje možnosti různých formátů, zlepšuje vykreslování a přidává nové možnosti pro práci s poli
 
@@ -494,7 +511,7 @@ Aspose.Words 22.2 zavádí nový formát zatížení a nové možnosti pro expor
 
 Aspose.Words 22.3 rozšiřuje možnosti práce s formáty PDF a TXT a zlepšuje práci některých stávajících algoritmů a motorů.
 
-Aspose.Words 22,4 zvyšuje možnosti PDF a nyní můžete uložit soubor ve formátu PDF/A-4 a získat řadu dalších vylepšení v výstupu PDF. Zároveň, Aspose.Words 22.4 poskytuje další schopnosti pracovat s DML grafy, číst metadata Photoshopu a importovat prvky HTML úrovně bloku.
+Aspose.Words 22.4 zvyšuje možnosti PDF a nyní můžete uložit soubor ve formátu PDF/A-4 a získat řadu dalších vylepšení v výstupu PDF. Zároveň, Aspose.Words 22.4 poskytuje další schopnosti pracovat s DML grafy, číst metadata Photoshopu a importovat prvky HTML úrovně bloku.
 
 The API je posílena pro pružnější a pohodlnější rozvoj.
 

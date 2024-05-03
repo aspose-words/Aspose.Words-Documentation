@@ -11,7 +11,7 @@ url: /fr/java/what-s-new-in-aspose-words-for-java/
 
 Cette page décrit le nouveau plus intéressant Aspose.Words fonctionnalités introduites dans les récentes versions.
 
-## Aspose.Words pour Java 24.1, 24.2, 24.3
+## Aspose.Words pour Java 24.1, 24.2, 24.3, 24.4
 
 Aspose.Words 24.1 améliore l'expérience de gestion des couleurs de course, améliore les objets OLE et les rapports LINQ, et introduit un nouveau public Bibliographie Sources API.
 
@@ -19,27 +19,41 @@ Aspose.Words 24.2 graphiques élargis API, gestion de style, et options LINQ. Ce
 
 Aspose.Words 24.3 introduit un nouveau lecteur/écriture TIFF et l'émulation des opérations de raster binaire pour les métafiles WMF. Aspose.Words 24.3 continue également d'élargir les graphiques API.
 
+Aspose.Words 24.4 améliore l'enregistrement des formats, certaines options de rendu, ainsi que le travail avec les signatures numériques.
+
+### Formats pris en charge <sup>24.4</sup>
+
+Le format d'image moderne **WebP** est désormais pris en charge dans Aspose.Words. Vous pouvez désormais lire et insérer des images WebP dans des documents, ainsi que sauvegarder des images au format WebP. 
+
 ### Rendu et impression
 
 #### Contrôle de couleur des accidents <sup>24.1</sup>
 
 Les [Stroke](https://reference.aspose.com/words/java/com.aspose.words/stroke/) classe a été étendu avec un ensemble de nouvelles propriétés publiques liées à la gestion des couleurs de course: [ForeThemeColor](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getForeThemeColor) et [BackThemeColor](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getBackThemeColor), [ForeTintAndShade](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getForeTintAndShade) et [BackTintAndShade](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getBackTintAndShade).
 
-#### Dessin des graphiquesML API Prolongation <sup>24.2 / 24.3</sup>
+#### Dessin des graphiquesML API Prolongation <sup>24.2 / 24.3 / 24.4</sup>
 
 Les **DrawingML Charts API** continue d'être élargie.
 
+#### Incorporer les polices déclarées dans les règles @font-face <sup>24.4</sup>
+
+Il est désormais possible d'incorporer les polices déclarées dans les règles @font-face dans les définitions de polices du document résultant en ajoutant une nouvelle propriété appelée [SupportFontFaceRules](https://reference.aspose.com/words/java/com.aspose.words/htmlloadoptions/#getSupportFontFaceRules).
+
+#### Travailler avec la mise en forme des effets de lumière et de réflexion <sup>24.4</sup>
+
+La possibilité de travailler avec la mise en forme des effets de lumière et de réflexion pour un objet de dessin a été implémentée.
+
 ### Chargement et sauvegarde des documents
 
-#### Spécifiez SvgSaveOptions pendant le rendu <sup>24,2</sup>
+#### Spécifiez SvgSaveOptions pendant le rendu <sup>24.2</sup>
 
 La capacité de spécifier [SvgSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/svgsaveoptions/) pendant le rendu a été ajouté en utilisant le [ShapeRenderer](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/).[Save](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#save-java.io.OutputStream-com.aspose.words.SvgSaveOptions) et [OfficeMathRenderer](https://reference.aspose.com/words/java/com.aspose.words/officemathrenderer/).[Save](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#save-java.io.OutputStream-com.aspose.words.SvgSaveOptions) méthodes.
 
-#### Préserver les lignes vides lors du chargement Markdown fichiers <sup>24,2</sup>
+#### Préserver les lignes vides lors du chargement Markdown fichiers <sup>24.2</sup>
 
 La possibilité de préserver les lignes vides lors du chargement Markdown fichiers ont été ajoutés.
 
-#### Un nouveau lecteur/rédacteur TIFF <sup>24,3</sup>
+#### Un nouveau lecteur/rédacteur TIFF <sup>24.3</sup>
 
 Un nouveau lecteur/écrivain TIFF pour Aspose.Words pour .NET Standard, .NET 6 et plus tard a été développé. Aspose.Words pour .NET 24.3 a ajouté un support pour la lecture d'images TIFF avec des types de compression JPEG et Old JPEG, et a également amélioré significativement la qualité des opérations de lecture et d'écriture.
 
@@ -48,10 +62,11 @@ Un nouveau lecteur/écrivain TIFF pour Aspose.Words pour .NET Standard, .NET 6 e
 * La capacité de modifier le texte `TextBox` Le contrôle OLE a été introduit en ajoutant une nouvelle [Text](https://reference.aspose.com/words/java/com.aspose.words/textboxcontrol/#getText) propriété à la nouvelle [TextBoxControl](https://reference.aspose.com/words/java/com.aspose.words/textboxcontrol/) En cours. 24.1 <sup>24.1</sup>
 * La bibliographie Sources publiques API a été mis en œuvre en ajoutant quelques nouveaux [Bibliography](https://reference.aspose.com/words/java/com.aspose.words/bibliography/), [Source](https://reference.aspose.com/words/java/com.aspose.words/source/), [ContributorCollection](https://reference.aspose.com/words/java/com.aspose.words/contributorcollection/), [Contributor](https://reference.aspose.com/words/java/com.aspose.words/contributor/), [Corporate](https://reference.aspose.com/words/java/com.aspose.words/corporate/), [PersonCollection](https://reference.aspose.com/words/java/com.aspose.words/personcollection/) et [Person](https://reference.aspose.com/words/java/com.aspose.words/person/) cours et [SourceType](https://reference.aspose.com/words/java/com.aspose.words/sourcetype/) le recensement, ainsi qu'en ajoutant un nouveau [Bibliography](https://reference.aspose.com/words/java/com.aspose.words/document/#getBibliography) propriété de [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) En cours. <sup>24.1</sup>
 * Un API pour limiter l'accès aux membres de type en utilisant la syntaxe modèle pour le moteur de rapport LINQ a été fourni. <sup>24.1</sup>
-* Nouveaux biens publics [Priority](https://reference.aspose.com/words/net/aspose.words/style/priority/), [UnhideWhenUsed](https://reference.aspose.com/words/net/aspose.words/style/unhidewhenused/), et [SemiHidden](https://reference.aspose.com/words/net/aspose.words/style/semihidden/) pour améliorer la gestion du style [Style](https://reference.aspose.com/words/net/aspose.words/style/) En cours. <sup>24,2</sup>
-* La fonctionnalité permettant de récupérer le texte de la marque de référence pour les notes de bas de page et les notes de fin de page a été améliorée avec la [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) propriété et [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/) méthode. <sup>24,2</sup>
-* Compatibilité avec `Word 2016` pour les `LINQ Reporting Engine` a été activé. <sup>24,2</sup>
-* L'émulation des opérations de raster binaire pour les métafiles WMF a été implémentée. <sup>24,3</sup>
+* Nouveaux biens publics [Priority](https://reference.aspose.com/words/net/aspose.words/style/priority/), [UnhideWhenUsed](https://reference.aspose.com/words/net/aspose.words/style/unhidewhenused/), et [SemiHidden](https://reference.aspose.com/words/net/aspose.words/style/semihidden/) pour améliorer la gestion du style [Style](https://reference.aspose.com/words/net/aspose.words/style/) En cours. <sup>24.2</sup>
+* La fonctionnalité permettant de récupérer le texte de la marque de référence pour les notes de bas de page et les notes de fin de page a été améliorée avec la [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) propriété et [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/) méthode. <sup>24.2</sup>
+* Compatibilité avec `Word 2016` pour les `LINQ Reporting Engine` a été activé. <sup>24.2</sup>
+* L'émulation des opérations de raster binaire pour les métafiles WMF a été implémentée. <sup>24.3</sup>
+* La possibilité de définir des options de signature pour les documents dans SaveOptions a été activée en ajoutant une nouvelle classe appelée [DigitalSignatureDetails](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturedetails/) avec de nouveaux membres publics, ainsi qu'en ajoutant de nouvelles propriétés aux classes [OoxmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/) et [OdtSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/). <sup>24.4</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,6 +75,8 @@ En savoir plus sur [Aspose.Words pour Java 24.1 Notes de mise à jour](https://r
 En savoir plus sur [Aspose.Words pour Java 24.2 Notes de mise à jour.](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-2-release-notes/)
 
 En savoir plus sur [Aspose.Words pour Java 24.3 Notes de sortie.](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-3-release-notes/)
+
+En savoir plus sur [Aspose.Words pour Java 24.4 Notes de sortie.](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-4-release-notes/)
 
 {{% /alert %}}
 
@@ -151,7 +168,7 @@ Aspose.Words 23.8 élargit les capacités des différents formats, améliore le 
 
 ### Formats pris en charge
 
-* À partir de la version 23.6, il est possible de sauvegarder un document au format XLSX. Maintenant, vous pouvez convertir vos documents en format Excel. <sup>23,6</sup>
+* À partir de la version 23.6, il est possible de sauvegarder un document au format XLSX. Maintenant, vous pouvez convertir vos documents en format Excel. <sup>23.6</sup>
 
 * À partir de la version 23.7, il est possible de sauvegarder une page ou une forme de document au format EPS. <sup>23.7</sup>
 
@@ -163,28 +180,28 @@ Aspose.Words 23.8 élargit les capacités des différents formats, améliore le 
 
 ### Rendus
 
-#### Obtenez et modifiez Données de la série de graphiques <sup>23,5</sup>
+#### Obtenez et modifiez Données de la série de graphiques <sup>23.5</sup>
 
 La fonction pour obtenir et modifier les données des séries de cartes a été fournie en ajoutant:
 
 - nouvelles classes: [ChartXValue](https://reference.aspose.com/words/java/com.aspose.words/chartxvalue/), [ChartYValue](https://reference.aspose.com/words/java/com.aspose.words/chartyvalue/), [ChartXValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluecollection/), [BubbleSizeCollection](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/), [ChartMultilevelValue](https://reference.aspose.com/words/java/com.aspose.words/chartmultilevelvalue/)
 - nouveaux types d ' enum: [ChartXValueType](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluetype/), [ChartYValueType](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluetype/)
 
-#### Soutien à la typographie avancée <sup>23,6</sup>
+#### Soutien à la typographie avancée <sup>23.6</sup>
 
 La prise en charge de la typographie avancée dans le rendu WMF, EMF et EMF+ a été ajoutée.
 
-#### Contenu coloré sur la page <sup>23,6</sup>
+#### Contenu coloré sur la page <sup>23.6</sup>
 
 La propriété publique [PageInfo.Colored](https://reference.aspose.com/words/java/com.aspose.words/pageinfo/#getColored), indiquant si la page est colorée ou non, a été ajoutée.
 
-#### Formatage pour les étiquettes de données graphiques <sup>23,6</sup>
+#### Formatage pour les étiquettes de données graphiques <sup>23.6</sup>
 
 La capacité de définir le formatage de remplissage, de course et de callout pour les étiquettes de données graphiques a été mise en place.
 
 ### Mail Merge et rapports
 
-#### Insertion HTML dynamique pour le moteur de déclaration LINQ <sup>23,6</sup>
+#### Insertion HTML dynamique pour le moteur de déclaration LINQ <sup>23.6</sup>
 
 Une nouvelle façon d'insérer dynamique HTML pour LINQ Reporting Engine a été ajoutée.
 
@@ -204,15 +221,15 @@ Une nouvelle propriété publique **ImageSize** pour spécifier la taille des im
 
 Une option a été ajoutée au moteur de rapport LINQ pour préserver les espaces blancs pour les valeurs de chaînes JSON.
 
-### LowCode <sup>23,6</sup>
+### LowCode <sup>23.6</sup>
 
 Nouveau LowCode des méthodes destinées à fusionner différents types de documents en un seul document de sortie ont été ajoutées.
 
 ### Autres
 
-- La prise en charge de l'emballage du texte dans les en-têtes/pieds a été mise en œuvre. <sup>23,5</sup>
-- Oui. La possibilité de supprimer les signatures numériques des documents ODT a été ajoutée par le biais de [RemoveAllSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#removeAllSignatures-java.io.InputStream-java.io.OutputStream) méthode. <sup>23,5</sup>
-- Oui. La propriété publique [PhoneticGuide](https://reference.aspose.com/words/java/com.aspose.words/run/#getPhoneticGuide) pour obtenir le texte de base et rubis du guide phonétique [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) a été ajouté. <sup>23,5</sup>
+- La prise en charge de l'emballage du texte dans les en-têtes/pieds a été mise en œuvre. <sup>23.5</sup>
+- Oui. La possibilité de supprimer les signatures numériques des documents ODT a été ajoutée par le biais de [RemoveAllSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#removeAllSignatures-java.io.InputStream-java.io.OutputStream) méthode. <sup>23.5</sup>
+- Oui. La propriété publique [PhoneticGuide](https://reference.aspose.com/words/java/com.aspose.words/run/#getPhoneticGuide) pour obtenir le texte de base et rubis du guide phonétique [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) a été ajouté. <sup>23.5</sup>
 - Oui. La possibilité de récupérer une valeur de signature numérique à partir d'un document signé numériquement en tant que tableau d'octets a été ajoutée en introduisant une nouvelle [SignatureValue](https://reference.aspose.com/words/java/com.aspose.words/digitalsignature/#getSignatureValue) propriété. <sup>23.7</sup>
 - Les [Row](https://reference.aspose.com/words/java/com.aspose.words/row/) et [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/) les cours ont été prolongés avec de nouveaux membres publics – [Row.NextRow](https://reference.aspose.com/words/java/com.aspose.words/row/#getNextRow), [Row.PreviousRow](https://reference.aspose.com/words/java/com.aspose.words/row/#getPreviousRow), [Cell.NextCell](https://reference.aspose.com/words/java/com.aspose.words/cell/#getNextCell), et [Cell.PreviousCell](https://reference.aspose.com/words/java/com.aspose.words/cell/#getPreviousCell). <sup>23.7</sup>
 - Le soutien aux champs CITATION et BIBLIOGRAPHIE a été ajouté. <sup>23.8</sup>
@@ -247,7 +264,7 @@ La performance et la qualité de l'émulation des opérations de raster avec les
 
 ### Formats pris en charge
 
-#### Exportation vers le MOBI <sup>23,2</sup>
+#### Exportation vers le MOBI <sup>23.2</sup>
 
 À partir de la version 23.2, il est possible de sauvegarder un document en format MOBI (également appelé RPC, AZW – Amazon Le propre format de fichier de livre électronique de Kindle). Maintenant, vous pouvez non seulement charger des documents MOBI, mais aussi exporter vos fichiers au format MOBI.
 
@@ -261,19 +278,19 @@ La capacité de travailler avec des couleurs de thème ombrage a été implémen
 
 Prise en charge du coefficient carré R dans les étiquettes de tendance des cartes DML lorsque le rendu a été ajouté.
 
-#### Graphique Améliorations de la soumission <sup>23,2</sup>
+#### Graphique Améliorations de la soumission <sup>23.2</sup>
 
 Depuis le 23.2, le rendu des graphiques a été considérablement amélioré.
 
-#### Contrôle de la couleur du fond et du premier plan <sup>23,3</sup>
+#### Contrôle de la couleur du fond et du premier plan <sup>23.3</sup>
 
 Les [Fill](https://reference.aspose.com/words/java/com.aspose.words/fill/) classe a été étendu avec un ensemble de nouvelles propriétés publiques liées à l'arrière-plan et les couleurs de premier plan: **ForeThemeColor** et **BackThemeColor**, **ForeTintAndShade** et **BackTintAndShade**.
 
-#### Gradients radiaux avec `SkiaSharp` Shader autochtone <sup>23,3</sup>
+#### Gradients radiaux avec `SkiaSharp` Shader autochtone <sup>23.3</sup>
 
 Rendu des gradients radiaux avec `SkiaSharp` native shader pour .NET Standard a été mis en œuvre.
 
-#### Distance entre la table et le texte environnant <sup>23,4</sup>
+#### Distance entre la table et le texte environnant <sup>23.4</sup>
 
 La possibilité de définir la distance entre la table et le texte environnant a été ajoutée en introduisant de nouvelles propriétés à la [Table](https://reference.aspose.com/words/java/com.aspose.words/table/) classe: [DistanceLeft](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceLeft), [DistanceRight](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceRight), [DistanceTop](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceTop), et [DistanceBottom](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceBottom).
 
@@ -287,23 +304,23 @@ La capacité de générer `TOC` (table des matières) pour les documents AZW3 a 
 
 Un moyen de contrôler l'exportation des articles de la liste vers Markdown le format a été fourni en ajoutant [ListExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getListExportMode) propriété de [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) En cours.
 
-#### Enregistrement des déclarations d'étape <sup>23,3</sup>
+#### Enregistrement des déclarations d'étape <sup>23.3</sup>
 
 L'enregistrement des notifications d'avancement pour les formats MOBI et AZW3 a été mis en œuvre.
 
-#### Ajustement de la peine et de l'espacement des mots <sup>23,3</sup>
+#### Ajustement de la peine et de l'espacement des mots <sup>23.3</sup>
 
 La possibilité de spécifier s'il faut ajuster automatiquement la phrase et l'espacement des mots lors de l'importation du document a été ajoutée en introduisant la **AdjustSentenceAndWordSpacing** propriété.
 
 ### Autres
 
-- Oui. La possibilité de spécifier le réglage de l'espacement des caractères d'un document a été ajoutée par le biais [JustificationMode](https://reference.aspose.com/words/java/com.aspose.words/document/#getJustificationMode) Exécution des biens <sup>23,2</sup>
-- La façon d'instruire Aspose.Words la question de savoir s'il y a lieu d'inclure des boîtes à texte, des notes de bas de page et des notes de bas de page dans les statistiques du nombre de mots a été fournie en ajoutant les [IncludeTextboxesFootnotesEndnotesInStat](https://reference.aspose.com/words/java/com.aspose.words/document/#getIncludeTextboxesFootnotesEndnotesInStat) biens <sup>23,2</sup>
-- Une nouvelle option pour un style de document, qui permet de spécifier si le style est automatiquement redéfini en fonction de la valeur appropriée, a été introduite à travers le [AutomaticallyUpdate](https://reference.aspose.com/words/java/com.aspose.words/style/#getAutomaticallyUpdate) biens <sup>23,2</sup>
-- Oui. La capacité de déterminer si [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) est un guide phonétique a été ajouté en utilisant le **IsPhoneticGuide** biens <sup>23,4</sup>
-- Une façon simple de travailler avec des séries et des axes de cartes combo a été mise en œuvre en introduisant la **ChartAxisCollection** et ajouter la **Chart.Axes** biens <sup>23,4</sup>
-- De nouvelles propriétés publiques liées au positionnement relatif de la forme et au calibrage ont été ajoutées au [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) classe <sup>23,4</sup>
-- Précision et performance du calcul de luminosité de couleur pour la résolution automatique de couleur de texte a été amélioré conformément aux dernières versions de Microsoft Word <sup>23,4</sup>
+- Oui. La possibilité de spécifier le réglage de l'espacement des caractères d'un document a été ajoutée par le biais [JustificationMode](https://reference.aspose.com/words/java/com.aspose.words/document/#getJustificationMode) Exécution des biens <sup>23.2</sup>
+- La façon d'instruire Aspose.Words la question de savoir s'il y a lieu d'inclure des boîtes à texte, des notes de bas de page et des notes de bas de page dans les statistiques du nombre de mots a été fournie en ajoutant les [IncludeTextboxesFootnotesEndnotesInStat](https://reference.aspose.com/words/java/com.aspose.words/document/#getIncludeTextboxesFootnotesEndnotesInStat) biens <sup>23.2</sup>
+- Une nouvelle option pour un style de document, qui permet de spécifier si le style est automatiquement redéfini en fonction de la valeur appropriée, a été introduite à travers le [AutomaticallyUpdate](https://reference.aspose.com/words/java/com.aspose.words/style/#getAutomaticallyUpdate) biens <sup>23.2</sup>
+- Oui. La capacité de déterminer si [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) est un guide phonétique a été ajouté en utilisant le **IsPhoneticGuide** biens <sup>23.4</sup>
+- Une façon simple de travailler avec des séries et des axes de cartes combo a été mise en œuvre en introduisant la **ChartAxisCollection** et ajouter la **Chart.Axes** biens <sup>23.4</sup>
+- De nouvelles propriétés publiques liées au positionnement relatif de la forme et au calibrage ont été ajoutées au [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) classe <sup>23.4</sup>
+- Précision et performance du calcul de luminosité de couleur pour la résolution automatique de couleur de texte a été amélioré conformément aux dernières versions de Microsoft Word <sup>23.4</sup>
 
 {{% alert color="primary" %}}
 
@@ -353,11 +370,11 @@ Les paramètres prédéfinis de la police fallback pour Google Noto Les polices 
 
 ### Chargement et sauvegarde des documents
 
-#### En-tête de cache ou forme de pied de page pour réduire la taille PDF <sup>22,9</sup>
+#### En-tête de cache ou forme de pied de page pour réduire la taille PDF <sup>22.9</sup>
 
 La possibilité de cache des formes d'en-tête / pied de page pour réduire la taille du fichier PDF de sortie a été implémentée en ajoutant un nouveau [CacheHeaderFooterShapes](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) propriété.
 
-#### Détection de numérotation automatique lors du chargement d'un document <sup>22,9</sup>
+#### Détection de numérotation automatique lors du chargement d'un document <sup>22.9</sup>
 
 La capacité de spécifier [AutoNumberingDetection](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/#getAutoNumberingDetection) propriété au chargement de texte a été mis en œuvre par une extension du [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) En cours.
 
@@ -371,8 +388,8 @@ La capacité d'ignorer [StructuredDocumentTag](https://reference.aspose.com/word
 
 ### Autres
 
-- Une nouvelle fonctionnalité pour obtenir FieldEQ en tant que OfficeMath a été ajoutée. <sup>22,9</sup>
-- Oui. La création d'étiquettes de documents structurés Group le type au niveau de la rangée était autorisé. <sup>22,9</sup>
+- Une nouvelle fonctionnalité pour obtenir FieldEQ en tant que OfficeMath a été ajoutée. <sup>22.9</sup>
+- Oui. La création d'étiquettes de documents structurés Group le type au niveau de la rangée était autorisé. <sup>22.9</sup>
 - Les objets et les commandes OLE sont maintenant traités comme des images métafiles lors de la conversion d'un document en HTML. <sup>22.10</sup>
 - Une nouvelle fonctionnalité pour vérifier qu'une liste particulière a été créée à partir du même modèle que la liste comparée a été ajoutée en introduisant une nouvelle [HasSameTemplate](https://reference.aspose.com/words/java/com.aspose.words/list/#hasSameTemplate-com.aspose.words.List-) méthode dans la [List](https://reference.aspose.com/words/java/com.aspose.words/list/) En cours. <sup>22.10</sup>
 - Oui. La capacité de créer de nouvelles étiquettes de documents structurés [Citation](https://reference.aspose.com/words/java/com.aspose.words/sdttype/) type a été ajouté. <sup>22.11</sup>
@@ -405,30 +422,30 @@ Les API est amélioré pour un développement plus flexible et pratique.
 
 ### Formats pris en charge
 
-* La prise en charge du chargement des documents EPUB et XML a été introduite en ajoutant de nouvelles valeurs au [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) Énumération. À partir de la version 22.5, il est possible de charger des documents EPUB et XML Aspose.Words modèle de document et les convertir à n'importe quel [formats supportés](https://reference.aspose.com/words/java/com.aspose.words/saveformat/). <sup>22,5</sup>
+* La prise en charge du chargement des documents EPUB et XML a été introduite en ajoutant de nouvelles valeurs au [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) Énumération. À partir de la version 22.5, il est possible de charger des documents EPUB et XML Aspose.Words modèle de document et les convertir à n'importe quel [formats supportés](https://reference.aspose.com/words/java/com.aspose.words/saveformat/). <sup>22.5</sup>
 * À partir de la version 22.8, il est possible de sauvegarder un document au format AZW3 – Amazon Format de fichier de livre électronique propriétaire de Kindle (KF8 est un autre nom pour le format). Maintenant, vous pouvez non seulement charger des documents AZW3, mais aussi exporter vos fichiers au format AZW3, qui est essentiellement un EPUB compilé. <sup>22.8</sup>
 
 ### Rendu et impression
 
-#### Nouvelle taille d'impression <sup>22,5</sup>
+#### Nouvelle taille d'impression <sup>22.5</sup>
 
 La prise en charge de l'enveloppe n° 10 de l'impression a été ajoutée en introduisant une nouvelle valeur à la [PaperSize](https://reference.aspose.com/words/java/com.aspose.words/papersize/) Énumération.
 
-#### Rendu des formules MathML <sup>22,5</sup>
+#### Rendu des formules MathML <sup>22.5</sup>
 
 Le rendu d'une boîte de bordure autour des formules MathML et la détection de polices lors du rendu des caractères pour de telles formules a été amélioré.
 
-#### DML Améliorations du graphique <sup>22,6</sup>
+#### DML Améliorations du graphique <sup>22.6</sup>
 
 Dessins des cartes LM publiques API a été étendu pour supporter le gradient, la texture et les remplissages de motifs.
 
-#### Glyph Aperçus Parsing pour OpenType <sup>22,7</sup>
+#### Glyph Aperçus Parsing pour OpenType <sup>22.7</sup>
 
 Aspose.Words propres glyph l'analyse des contours des polices OpenType (CFF) a été implémentée.
 
 Précédemment, glyph L'analyse des polices OpenType (CFF) a été effectuée via GDI+. Donc maintenant il fonctionne dans les cas où GDI+ n'est pas disponible – Java, .NET Standard plates-formes, Linux Système d'exploitation, etc. Glyph l'analyse de contours est nécessaire dans des cas spécifiques comme WordArt, effets texte, certaines fonctionnalités Office Math, et d'autres.
 
-#### Définir le formatage de l'ombre de forme <sup>22,7</sup>
+#### Définir le formatage de l'ombre de forme <sup>22.7</sup>
 
 La possibilité de définir le formatage d'ombre de l'objet de forme a été fournie en ajoutant un nouveau [ShadowFormat](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getShadowFormat) propriété.
 
@@ -446,15 +463,15 @@ L'algorithme de rotation des étiquettes de l'axe des cartes a été amélioré.
 
 ### Chargement et sauvegarde des documents
 
-#### Charger et convertir PDF en format de page fixe sans modèle de mise en page <sup>22,6</sup>
+#### Charger et convertir PDF en format de page fixe sans modèle de mise en page <sup>22.6</sup>
 
 La possibilité de charger et de convertir des documents PDF en formats de pages fixes avec une grande fidélité et performance a été mise en œuvre.
 
-#### Nouveau mode d'importation HTML <sup>22,7</sup>
+#### Nouveau mode d'importation HTML <sup>22.7</sup>
 
 Un nouveau mode d'importation HTML pour les éléments de niveau bloc a été introduit en ajoutant une nouvelle valeur au [HtmlInsertOptions](https://reference.aspose.com/words/java/com.aspose.words/htmlinsertoptions/) Énumération.
 
-#### Convertir en PDF/UA-1 CSSompliant avec WCAG 2.0 <sup>22,7</sup>
+#### Convertir en PDF/UA-1 CSSompliant avec WCAG 2.0 <sup>22.7</sup>
 
 Un support pour convertir un document en format PDF/UA-1, conforme à WCAG 2.0, a été ajouté.
 
@@ -471,8 +488,8 @@ Mais les deux exigences ne sont pas pertinentes dans notre cas de conversion de 
 
 ### Autres
 
-* Exception d'hériter de l'effet de remplissage de texte solide qui imite le comportement MS Word a été implémenté. <sup>22,6</sup>
-* Appui à la `DATABASE` les champs ont été ajoutés. En utilisant ce type de champ, vous pouvez, par exemple, afficher les résultats d'une requête de base de données dans une Microsoft Word tableau. <sup>22,7</sup>
+* Exception d'hériter de l'effet de remplissage de texte solide qui imite le comportement MS Word a été implémenté. <sup>22.6</sup>
+* Appui à la `DATABASE` les champs ont été ajoutés. En utilisant ce type de champ, vous pouvez, par exemple, afficher les résultats d'une requête de base de données dans une Microsoft Word tableau. <sup>22.7</sup>
 
 {{% alert color="primary" %}}
 

@@ -170,13 +170,13 @@ Aspose.Words 23.8 étend les capacités de différents formats, améliore le ren
 
 * A partir de la version 23.6, il est possible d'enregistrer un document au format XLSX. Vous pouvez désormais convertir vos documents au format Excel. <sup>23.6</sup>
 
-* À partir de la version 23.7, il est possible d'enregistrer une page ou une forme de document au format EPS. <sup>23,7</sup>
+* À partir de la version 23.7, il est possible d'enregistrer une page ou une forme de document au format EPS. <sup>23.7</sup>
 
 ### Nouvelles fonctionnalités de format
 
-- La fonctionnalité permettant de générer automatiquement une table des matières (TOC) pour les documents MOBI a été introduite. <sup>23,8</sup>
-- Le constructeur [PdfEncryptionDetails](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfencryptiondetails/__init__/#str_str_pdfpermissions) a été étendu avec [PdfPermissions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfencryptiondetails/__init__/#str_str_pdfpermissions). <sup>23,8</sup>
-- La mise en forme du texte vertical pour les métafichiers EMF a été implémentée. <sup>23,8</sup>
+- La fonctionnalité permettant de générer automatiquement une table des matières (TOC) pour les documents MOBI a été introduite. <sup>23.8</sup>
+- Le constructeur [PdfEncryptionDetails](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfencryptiondetails/__init__/#str_str_pdfpermissions) a été étendu avec [PdfPermissions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfencryptiondetails/__init__/#str_str_pdfpermissions). <sup>23.8</sup>
+- La mise en forme du texte vertical pour les métafichiers EMF a été implémentée. <sup>23.8</sup>
 
 ### Le rendu
 
@@ -223,11 +223,11 @@ De nouvelles méthodes LowCode destinées à fusionner différents types de docu
 
 ### Autre
 
-- La prise en charge du retour à la ligne du texte dans les en-têtes/pieds de page a été implémentée. <sup>23,5</sup>
-- La possibilité de supprimer les signatures numériques des documents ODT a été ajoutée via la méthode [RemoveAllSignatures](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignatureutil/remove_all_signatures/#str_str). <sup>23,5</sup>
-- Le domaine public [phonetic_guide](https://reference.aspose.com/words/python-net/aspose.words/run/phonetic_guide/) pour obtenir le texte de base et rubis du guide phonétique [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) a été ajouté. <sup>23,5</sup>
-- La possibilité de récupérer une valeur de signature numérique à partir d'un document signé numériquement sous forme de tableau d'octets a été ajoutée en introduisant une nouvelle propriété [signature_value](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignature/signature_value/). <sup>23,7</sup>
-- Les classes [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) et [Cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/) ont été étendues avec de nouveaux membres publics: [Row.next_row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/next_row/), [Row.previous_row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/previous_row/), [Cell.next_cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/next_cell/) et [Cell.previous_cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/previous_cell/). <sup>23,7</sup>
+- La prise en charge du retour à la ligne du texte dans les en-têtes/pieds de page a été implémentée. <sup>23.5</sup>
+- La possibilité de supprimer les signatures numériques des documents ODT a été ajoutée via la méthode [RemoveAllSignatures](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignatureutil/remove_all_signatures/#str_str). <sup>23.5</sup>
+- Le domaine public [phonetic_guide](https://reference.aspose.com/words/python-net/aspose.words/run/phonetic_guide/) pour obtenir le texte de base et rubis du guide phonétique [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) a été ajouté. <sup>23.5</sup>
+- La possibilité de récupérer une valeur de signature numérique à partir d'un document signé numériquement sous forme de tableau d'octets a été ajoutée en introduisant une nouvelle propriété [signature_value](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignature/signature_value/). <sup>23.7</sup>
+- Les classes [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) et [Cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/) ont été étendues avec de nouveaux membres publics: [Row.next_row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/next_row/), [Row.previous_row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/previous_row/), [Cell.next_cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/next_cell/) et [Cell.previous_cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/previous_cell/). <sup>23.7</sup>
 
 {{% alert color="primary" %}}
 
@@ -377,8 +377,8 @@ La possibilité d'ignorer [StructuredDocumentTag](https://reference.aspose.com/w
 
 ### Autre
 
-- Une nouvelle fonctionnalité permettant d'obtenir FieldEQ en tant qu'OfficeMath a été ajoutée. <sup>22,9</sup>
-- La création de balises de documents structurés de type Group au niveau Row a été autorisée. <sup>22,9</sup>
+- Une nouvelle fonctionnalité permettant d'obtenir FieldEQ en tant qu'OfficeMath a été ajoutée. <sup>22.9</sup>
+- La création de balises de documents structurés de type Group au niveau Row a été autorisée. <sup>22.9</sup>
 - Les objets et contrôles OLE sont désormais traités comme des images métafichiers lors de la conversion d'un document en HTML. <sup>22h10</sup>
 - Une nouvelle fonctionnalité permettant de vérifier qu'une liste particulière a été créée à partir du même modèle que la liste comparée a été ajoutée en introduisant une nouvelle méthode **HasSameTemplate** dans la classe [List](https://reference.aspose.com/words/python-net/aspose.words.lists/list/). <sup>22h10</sup>
 - La possibilité de créer de nouvelles balises de documents structurés de type [Citation](https://reference.aspose.com/words/python-net/aspose.words.markup/sdttype/) a été ajoutée. <sup>22.11</sup>
@@ -410,12 +410,12 @@ Le API est amélioré pour un développement plus flexible et plus pratique.
 
 ### Formats pris en charge
 
-* La prise en charge du chargement de documents EPUB et XML a été introduite en ajoutant de nouvelles valeurs à l'énumération **LoadFormat**. À partir de la version 22.5, il est possible de charger des documents EPUB et XML dans un modèle de document Aspose.Words et de les convertir en n'importe quel [Formats de documents pris en charge](/words/fr/python-net/supported-document-formats/). <sup>22,5</sup>
-* À partir de la version 22.8, il est possible d'enregistrer un document au format AZW3 – le format de fichier de livre électronique propriétaire de Kindle Amazon (KF8 est un autre nom pour le format). Vous pouvez désormais non seulement charger des documents AZW3, mais également exporter vos fichiers au format AZW3, qui est essentiellement un EPUB compilé. <sup>22,8</sup>
+* La prise en charge du chargement de documents EPUB et XML a été introduite en ajoutant de nouvelles valeurs à l'énumération **LoadFormat**. À partir de la version 22.5, il est possible de charger des documents EPUB et XML dans un modèle de document Aspose.Words et de les convertir en n'importe quel [Formats de documents pris en charge](/words/fr/python-net/supported-document-formats/). <sup>22.5</sup>
+* À partir de la version 22.8, il est possible d'enregistrer un document au format AZW3 – le format de fichier de livre électronique propriétaire de Kindle Amazon (KF8 est un autre nom pour le format). Vous pouvez désormais non seulement charger des documents AZW3, mais également exporter vos fichiers au format AZW3, qui est essentiellement un EPUB compilé. <sup>22.8</sup>
 
 ### Rendu et impression
 
-#### Nouvelle taille d'impression <sup>22,5</sup>
+#### Nouvelle taille d'impression <sup>22.5</sup>
 
 La prise en charge de la taille de page d'impression "Enveloppe n° 10" a été ajoutée en introduisant une nouvelle valeur dans l'énumération [PaperSize](https://reference.aspose.com/words/python-net/aspose.words/papersize/).
 

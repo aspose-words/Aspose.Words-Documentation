@@ -11,7 +11,7 @@ url: /ko/java/what-s-new-in-aspose-words-for-java/
 
 이 페이지는 가장 흥미로운 새로운 설명 Aspose.Words 최근 출시된 기능.
 
-## Aspose.Words 제품정보 Java 24.1, 24.2, 24.3
+## Aspose.Words 제품정보 Java 24.1, 24.2, 24.3, 24.4
 
 Aspose.Words 24.1은 스트로크 색상을 관리하는 경험을 향상시키고 OLE 개체와 LINQ 보고를 향상시키고 새로운 Bibliography Sources 공개를 소개합니다. API·
 
@@ -19,15 +19,29 @@ Aspose.Words 24.2 확장 차트 API, 스타일 관리 및 LINQ 옵션. 이 버�
 
 Aspose.Words 24.3은 새로운 TIFF Reader/Writer와 WMF 메타파일에 대한 이진 래스터 작업의 에뮬레이션을 소개합니다. Aspose.Words 24.3 또한 계속 차트를 확장 API·
 
+Aspose.Words 24.4은 형식 저장, 일부 렌더링 옵션, 디지털 서명 작업을 개선합니다.
+
+### 지원되는 형식 <sup>24.4</sup>
+
+이제 Aspose.Words에서 최신 WebP 이미지 형식이 지원됩니다. 이제 **WebP** 이미지를 읽고 문서에 삽입할 수 있을 뿐만 아니라 WebP 형식으로 이미지를 저장할 수도 있습니다.
+
 ### 렌더링 및 인쇄
 
 #### 치기 색깔 통제 <sup>24.1의</sup>
 
 더 보기 [Stroke](https://reference.aspose.com/words/java/com.aspose.words/stroke/) 클래스는 스트로크 색상 관리와 관련된 새로운 공공 속성 세트로 확장되었습니다: [ForeThemeColor](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getForeThemeColor) · [BackThemeColor](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getBackThemeColor), [ForeTintAndShade](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getForeTintAndShade) · [BackTintAndShade](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getBackTintAndShade)·
 
-#### DrawingML 차트 API 제품 정보 <sup>24.2 / 24.3의</sup>
+#### DrawingML Charts API 확장 <sup>24.2 / 24.3 / 24.4</sup>
 
 더 보기 **DrawingML Charts API** 확장되고 있습니다.
+
+#### @font-face 규칙에 선언된 글꼴 포함 <sup>24.4</sup>
+
+새로운 [SupportFontFaceRules](https://reference.aspose.com/words/java/com.aspose.words/htmlloadoptions/#getSupportFontFaceRules) 속성을 추가하여 결과 문서의 글꼴 정의에 @font-face 규칙에 선언된 글꼴을 포함하는 기능이 추가되었습니다.
+
+#### 글로우 및 반사 형식과 작업 <sup>24.4</sup>
+
+도형 객체에 대한 글로우 및 반사 형식 작업 기능이 구현되었습니다.
 
 ### 로딩 및 저장 문서
 
@@ -52,6 +66,7 @@ Aspose.Words 24.3은 새로운 TIFF Reader/Writer와 WMF 메타파일에 대한 
 * 이름 Footnotes 및 endnotes의 실제 참조 마크 텍스트를 검색하는 기능은 강화되었습니다. [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) 시설 및 시설 [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/) 방법. <sup>24.2명</sup>
 * 겸용성 `Word 2016` 차트에 대한 `LINQ Reporting Engine` 지원하다 <sup>24.2명</sup>
 * WMF 메타파일에 대한 바이너리 래스터 작업의 에뮬레이션이 구현되었습니다. <sup>24.3명</sup>
+* 새로운 [DigitalSignatureDetails](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturedetails/) 클래스와 [OoxmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/), [OdtSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/) 클래스에 새로운 공용 멤버를 추가함으로써 **SaveOptions** 내에서 문서의 서명 옵션을 정의하는 기능이 활성화되었습니다. <sup>24.4</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,6 +75,8 @@ Aspose.Words 24.3은 새로운 TIFF Reader/Writer와 WMF 메타파일에 대한 
 더 알아보기 [Aspose.Words 제품정보 Java 24.2 릴리즈 노트.](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-2-release-notes/)
 
 더 알아보기 [Aspose.Words 제품정보 Java 24.3 릴리즈 노트.](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-3-release-notes/)
+
+더 알아보기 [Aspose.Words 제품정보 Java 24.4 릴리즈 노트.](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-4-release-notes/)
 
 {{% /alert %}}
 

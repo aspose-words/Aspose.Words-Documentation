@@ -444,7 +444,7 @@ Het gebruik van de `.notdef` glyph is verboden. De `.notdef` glyph zal verschijn
     <summary>De specificatie vertelt ons het volgende (breid uit om details te zien):</summary>
     <p></p>
     <p>Een conform document bevat geen verwijzing naar het glyph van een van de tekst tonen operators, ongeacht tekst rendering mode, in elke inhoud stroom.</p>
-    <p>ISO-19005-2, 6.2.11.8; ISO-14289-1, 7.21,8 (precies dezelfde citaten in twee specificaties)</p>
+    <p>ISO-19005-2, 6.2.11.8; ISO-14289-1, 7.21.8 (precies dezelfde citaten in twee specificaties)</p>
 </details>
 {{% /alert %}}
 

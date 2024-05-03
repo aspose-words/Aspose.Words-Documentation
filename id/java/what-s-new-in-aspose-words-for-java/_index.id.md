@@ -11,7 +11,7 @@ url: /id/java/what-s-new-in-aspose-words-for-java/
 
 Halaman ini menjelaskan yang paling menarik Aspose.Words fitur yang diperkenalkan dalam rilis terbaru.
 
-## Aspose.Words Sitemap Java 24.1, 24.2, 24.3
+## Aspose.Words Sitemap Java 24.1, 24.2, 24.3, 24.4
 
 Aspose.Words 24.1 meningkatkan pengalaman di sekitar mengelola warna stroke, meningkatkan objek OLE dan pelaporan LINQ, serta memperkenalkan sumber Bibliografi baru publik APISitemap
 
@@ -19,15 +19,29 @@ Aspose.Words 24.2 Grafik diperluas API, manajemen gaya, dan opsi LINQ. Versi ini
 
 Aspose.Words 24.3 memperkenalkan TIFF Reader / Writer baru dan Emulation operasi raster biner untuk metafile WMF. Aspose.Words 24.3 juga terus memperluas Charts APISitemap
 
+Aspose.Words 24.4 meningkatkan penyimpanan format, beberapa opsi rendering, serta meningkatkan kerja dengan tanda tangan digital.
+
+### Format yang Didukung <sup>24.4</sup>
+
+Format gambar WebP modern kini didukung di Aspose.Words. Anda sekarang dapat membaca dan menyisipkan gambar WebP ke dalam dokumen, serta menyimpan gambar dalam format WebP.
+
 ### Rendering dan Pencetakan
 
 #### Kontrol Warna Stroke <sup>3,1 g</sup>
 
 Login [Stroke](https://reference.aspose.com/words/java/com.aspose.words/stroke/) kelas telah diperpanjang dengan satu set properti publik baru yang berkaitan dengan mengelola warna stroke: [ForeThemeColor](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getForeThemeColor) Login [BackThemeColor](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getBackThemeColor), [ForeTintAndShade](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getForeTintAndShade) Login [BackTintAndShade](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getBackTintAndShade)Sitemap
 
-#### Login API Login <sup>24.2 / 24.3</sup>
+#### Login API Login <sup>24.2 / 24.3 / 24.4</sup>
 
 Login **DrawingML Charts API** terus diperluas.
+
+#### Menyematkan Font yang Dideklarasikan dalam Aturan @font-face <sup>24.4</sup>
+
+Ditambahkan kemampuan untuk menyematkan font yang dideklarasikan dalam aturan @font-face ke dalam definisi font dokumen yang dihasilkan dengan menambahkan properti baru bernama [SupportFontFaceRules](https://reference.aspose.com/words/java/com.aspose.words/htmlloadoptions/#getSupportFontFaceRules).
+
+#### Bekerja dengan Format Cahaya dan Pantulan <sup>24.4</sup>
+
+Kemampuan untuk bekerja dengan format cahaya dan pantulan untuk objek gambar telah diimplementasikan.
 
 ### Memuat dan Menyimpan Dokumen
 
@@ -52,6 +66,7 @@ Pembaca TIFF baru / penulis untuk Aspose.Words Sitemap .NET Standard, .NET 6 dan
 * Sitemap Fungsi untuk mengambil teks tanda referensi aktual untuk catatan kaki dan catatan akhir telah ditingkatkan dengan [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) properti dan [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/) Login <sup>24.2 g</sup>
 * Kompatibilitas dengan `Word 2016` grafik untuk `LINQ Reporting Engine` telah diaktifkan. <sup>24.2 g</sup>
 * Emulasi operasi raster biner untuk metafile WMF telah diterapkan. <sup>24.3 g</sup>
+* Kemampuan untuk menentukan opsi tanda tangan untuk dokumen dalam SaveOptions telah diaktifkan dengan menambahkan kelas baru bernama [DigitalSignatureDetails](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturedetails/) dengan anggota publik baru, serta menambahkan properti baru ke dalam kelas-kelas [OoxmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/), dan [OdtSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/). <sup>24.4</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,6 +75,8 @@ Pelajari lebih lanjut [Aspose.Words Sitemap Java 24.1 Login](https://releases.as
 Pelajari lebih lanjut [Aspose.Words Sitemap Java 24.2株式会社](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-2-release-notes/)
 
 Pelajari lebih lanjut [Aspose.Words Sitemap Java 24.3 Login](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-3-release-notes/)
+
+Pelajari lebih lanjut [Aspose.Words Sitemap Java 24.4 Login](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-4-release-notes/)
 
 {{% /alert %}}
 

@@ -11,7 +11,7 @@ url: /th/java/what-s-new-in-aspose-words-for-java/
 
 หน้านี้อธิบายสิ่งใหม่ที่น่าสนใจที่สุด Aspose.Words บทความที่นําเข้าเมื่อเร็ว ๆ นี้
 
-## Aspose.Words สําหรับ Java 24.1, 24.2, 24.3
+## Aspose.Words สําหรับ Java 24.1, 24.2, 24.3, 24.4
 
 Aspose.Words 24.1 ปรับปรุงประสบการณ์เกี่ยวกับการจัดการสีจังหวะ การเพิ่มวัตถุโอแอลและไลนคิว รายงานเช่นเดียวกับแนะนําแหล่งชีวประวัติใหม่สาธารณะ พ.ศ. API.
 
@@ -19,15 +19,29 @@ Aspose.Words 242 ที่มีการขยายแผนภูมิ API, 
 
 Aspose.Words 243 แนะนําการอ่านและเขียนใหม่ของ TIFF และจําลองปฏิบัติการ Raster สําหรับข้อมูลกํากับของ WMF Aspose.Words 243 ยังขยายชาร์ต API.
 
+Aspose.Words 24.4 ปรับปรุงการบันทึกรูปแบบ การตั้งค่าการแสดงผลบางอย่าง และปรับปรุงการทำงานกับลายเซ็นดิจิตอล
+
+### รูปแบบที่รองรับ <sup>24.4</sup>
+
+ขณะนี้ Aspose.Words รองรับรูปแบบรูปภาพ **WebP** สมัยใหม่แล้ว ตอนนี้คุณสามารถอ่านและแทรกรูปภาพ WebP ลงในเอกสาร รวมถึงบันทึกรูปภาพในรูปแบบ WebP ได้แล้ว
+
 ### การแสดงผลและการพิมพ์
 
 #### ควบคุมการไล่ระดับสี <sup>24.1</sup>
 
 เดอะ [Stroke](https://reference.aspose.com/words/java/com.aspose.words/stroke/) ห้องเรียนได้รับการขยายด้วยชุดของคุณสมบัติสาธารณะใหม่ที่เกี่ยวข้องกับการจัดการสีจังหวะ: [ForeThemeColor](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getForeThemeColor) ถึง [BackThemeColor](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getBackThemeColor), [ForeTintAndShade](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getForeTintAndShade) ถึง [BackTintAndShade](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getBackTintAndShade).
 
-#### สร้างแผนภูมิ K API ส่วนขยาย <sup>24.2 / 24.3</sup>
+#### สร้างแผนภูมิ K API ส่วนขยาย <sup>24.2 / 24.3 / 24.3</sup>
 
 เดอะ **DrawingML Charts API** ขยายตัวต่อไป
+
+#### ฟอนต์ที่ประกาศในกฎ @font-face <sup>24.4</sup>
+
+เพิ่มความสามารถในการฝังฟอนต์ที่ประกาศในกฎ @font-face เข้าในการกำหนดแบบอักษรของเอกสารผลลัพธ์โดยเพิ่มคุณสมบัติใหม่ที่ชื่อว่า [SupportFontFaceRules](https://reference.aspose.com/words/java/com.aspose.words/htmlloadoptions/#getSupportFontFaceRules) 
+
+#### การทำงานกับการจัดรูปแบบการเรียกแสงและการสะท้อน <sup>24.4</sup>
+
+ได้ทำการนำฟีเจอร์การจัดรูปแบบการเรียกแสงและการสะท้อนสำหรับวัตถุการวาดในการทำงาน
 
 ### กําลังโหลดและบันทึกเอกสาร
 
@@ -52,14 +66,17 @@ Aspose.Words 243 แนะนําการอ่านและเขียน
 * ความสามารถในการดึงข้อความอ้างอิงจริง ๆ สําหรับ หมายเหตุและท้ายโน้ตได้รับการเพิ่มเติมด้วย [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) ทรัพย์สินและ [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/) วิธี <sup>24.2</sup>
 *ความเข้ากันได้กับ `Word 2016` ตารางสําหรับ `LINQ Reporting Engine` ได้เปิดใช้งานแล้ว <sup>24.2</sup>
 * การ จําลอง การ ดําเนิน งาน ของ เฟรม เตอร์ แบบไบนารี สําหรับ WMF มี การ นํา มา ใช้. <sup>24.3</sup>
+* ได้เปิดใช้งานความสามารถในการกำหนดตัวเลือกการลงลายเซ็นสำหรับเอกสารภายใน **SaveOptions** โดยเพิ่มคลาสใหม่ที่ชื่อว่า [DigitalSignatureDetails](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturedetails/) พร้อมกับสมาชิกที่เป็นสาธารณะใหม่ และเพิ่มคุณสมบัติใหม่ในคลาส [OoxmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/) และ [OdtSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/) <sup>24.4</sup>
 
 {{% alert color="primary" %}}
 
-เรียน รู้ มาก ขึ้น เกี่ยว กับ [Aspose.Words สําหรับ Java 241 หมายเหตุเผยแพร่](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-1-release-notes/).
+เรียน รู้ มาก ขึ้น เกี่ยว กับ [Aspose.Words สําหรับ Java 24.1 หมายเหตุเผยแพร่](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-1-release-notes/).
 
-เรียน รู้ มาก ขึ้น เกี่ยว กับ [Aspose.Words สําหรับ Java 242 ออกบันทึก.](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-2-release-notes/)
+เรียน รู้ มาก ขึ้น เกี่ยว กับ [Aspose.Words สําหรับ Java 24.2 ออกบันทึก.](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-2-release-notes/)
 
-เรียน รู้ มาก ขึ้น เกี่ยว กับ [Aspose.Words สําหรับ Java 243 โน้ต ออกจําหน่าย พ.ศ.](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-3-release-notes/)
+เรียน รู้ มาก ขึ้น เกี่ยว กับ [Aspose.Words สําหรับ Java 24.3 โน้ต ออกจําหน่าย พ.ศ.](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-3-release-notes/)
+
+เรียน รู้ มาก ขึ้น เกี่ยว กับ [Aspose.Words สําหรับ Java 24.4 โน้ต ออกจําหน่าย พ.ศ.](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-4-release-notes/)
 
 {{% /alert %}}
 

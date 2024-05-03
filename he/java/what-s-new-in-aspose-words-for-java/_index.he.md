@@ -11,7 +11,7 @@ url: /he/java/what-s-new-in-aspose-words-for-java/
 
 דף זה מתאר את החדש המעניין ביותר Aspose.Words תכונות שהוצגו במהדורות האחרונות.
 
-## Aspose.Words עבור Java 24.1, 24.2, 24.3
+## Aspose.Words עבור Java 24.1, 24.2, 24.3, 24.4
 
 Aspose.Words 24.1 משפר את החוויה סביב ניהול צבעי שבץ, משפר את אובייקטים ודיווח LINQ, כמו גם מציג מקורות ביבליוגרפיה חדשים API.
 
@@ -19,15 +19,29 @@ Aspose.Words 24.2 טבלאות מורחבות API, ניהול סגנון ואפ�
 
 Aspose.Words 24.3 מציג חדש TIFF Reader/Writer ו Emulation של פעולות בינאריות עבור metafiles WMF. Aspose.Words 24.3 גם ממשיכה להרחיב את הטבלה API.
 
+Aspose.Words 24.4 משפר את פורמטי החיסכון, כמה אפשרויות עיבוד, כמו גם משפר את העבודה עם חתימות דיגיטליות.
+
+### פורמטים תומכים <sup>24.4</sup>
+
+פורמט התמונה המודרני של **WebP** נתמך כעת ב-Aspose.Words. כעת תוכל לקרוא ולהכניס תמונות WebP למסמכים, כמו גם לשמור תמונות בפורמט WebP.
+
 ### גילוח ומדפס
 
 #### בקרת צבע סטרייק <sup>24.1</sup>
 
 The The The [Stroke](https://reference.aspose.com/words/java/com.aspose.words/stroke/) שיעור הורחב עם קבוצה של נכסים ציבוריים חדשים הקשורים לניהול צבעי שבץ: [ForeThemeColor](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getForeThemeColor) ו [BackThemeColor](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getBackThemeColor), [ForeTintAndShade](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getForeTintAndShade) ו [BackTintAndShade](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getBackTintAndShade).
 
-#### עקבו אחרי API הרחבה <sup>24.2 / 24.3</sup>
+#### עקבו אחרי API הרחבה <sup>24.2 / 24.3 / 24.4</sup>
 
 The The The **DrawingML Charts API** ממשיכים להתרחב.
+
+#### Embed Fonts הוכרזו בחוקי פנים-פנים <sup>24.4</sup>
+
+נוסף על יכולת להטביע גופנים שהוכרזו בחוקי @font-face לתוך הגדרות הגופן של המסמך המתקבל על ידי הוספת חדש חדש [SupportFontFaceRules](https://reference.aspose.com/words/java/com.aspose.words/htmlloadoptions/#getSupportFontFaceRules) רכוש.
+
+#### עבודה עם Glow and Reflection Format <sup>24.4</sup>
+
+היכולת לעבוד עם עיצוב זוהר והשתקפות עבור אובייקט ציור כבר מיושם.
 
 ### לטעון ולחסוך מסמכים
 
@@ -52,6 +66,7 @@ The The The **DrawingML Charts API** ממשיכים להתרחב.
 * הפונקציונליות כדי להחזיר את הודעת ההתייחסות בפועל להערות שוליים והערות קצה השתפרה עם [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) רכוש ו [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/) שיטה. <sup>24.2</sup>
 * תאימות עם `Word 2016` תרשימים עבור `LINQ Reporting Engine` אפשר. <sup>24.2</sup>
 * קבלת פעולות של raster בינארי עבור metafiles WMF כבר מיושם. <sup>24.3</sup>
+* היכולת להגדיר אפשרויות חתימה למסמכים בתוך **SaveOptions** ניתן על ידי הוספת חדש [DigitalSignatureDetails](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturedetails/) שיעור עם חברי ציבור חדשים, כמו גם הוספת נכסים חדשים [OoxmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/) ו [OdtSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/) שיעורים. <sup>24.4</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,6 +75,8 @@ The The The **DrawingML Charts API** ממשיכים להתרחב.
 למד עוד על [Aspose.Words עבור Java 24.2 הערות.](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-2-release-notes/)
 
 למד עוד על [Aspose.Words עבור Java 24.3 הערות.](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-3-release-notes/)
+
+למד עוד על [Aspose.Words עבור Java 24.4 הערות.](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-4-release-notes/)
 
 {{% /alert %}}
 
