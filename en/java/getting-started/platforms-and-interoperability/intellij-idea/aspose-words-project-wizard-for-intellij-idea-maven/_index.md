@@ -17,7 +17,7 @@ In a 2010 **Infoworld** report, IntelliJ received the highest test center score 
 
 ## Aspose.Words for Java
 
-[Aspose.Words for Java ](https://products.aspose.com/words/java/)is an advanced class library for Java that enables you to perform a great range of document processing tasks directly within your Java applications.
+[Aspose.Words for Java](https://products.aspose.com/words/java/)is an advanced class library for Java that enables you to perform a great range of document processing tasks directly within your Java applications.
 
 [Aspose.Words for Java](https://products.aspose.com/words/java/) supports processing word (DOC, DOCX, OOXML, RTF) HTML, OpenDocument, PDF, EPUB, XPS, and all image formats. With Aspose.Words you can
 generate, modify, and convert documents without using Microsoft Word.

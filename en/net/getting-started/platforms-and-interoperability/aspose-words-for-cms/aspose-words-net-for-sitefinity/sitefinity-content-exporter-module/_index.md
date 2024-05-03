@@ -83,7 +83,7 @@ You can download Aspose .NET Content Exporter for Sitefinity module from one of 
 
 - [Github](https://github.com/asposemarketplace/Aspose_for_Sitefinity/releases)
 - [Sourceforge](https://sourceforge.net/projects/asposesitefinity/files/)
-- [Bitbucket  ](https://bitbucket.org/asposemarketplace/aspose-for-sitefinity/downloads/)
+- [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-sitefinity/downloads/)
 
 #### Installing
 
