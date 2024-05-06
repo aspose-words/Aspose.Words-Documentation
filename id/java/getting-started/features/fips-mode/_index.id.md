@@ -63,6 +63,6 @@ Pengecualian serupa dapat terjadi jika kunci panjang yang tidak pantas digunakan
 
 Keamanan yang tidak disetujui Kecuali: Anda tidak dapat menggunakan kunci dengan ukuran 1024 untuk RSA dalam mode FIPS.
 
-Untuk detail lebih lanjut tentang daftar algoritma yang disetujui, lihat [Login](https://downloads.bouncycastle.org/fips-java/BC-FJA-UserGuide-1.0.1.pdf), "Cipher Algorithms"
+Untuk detail lebih lanjut tentang daftar algoritma yang disetujui, lihat [Login](https://downloads.bouncycastle.org/fips-java/docs/BC-FJA-UserGuide-1.0.1.pdf), "Cipher Algorithms"
 
 

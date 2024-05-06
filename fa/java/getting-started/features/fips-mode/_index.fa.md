@@ -63,6 +63,6 @@ SecuritySettings.isInFipsMode();
 
 عملیات امنیتی تایید نشده استثنا: شما نمی توانید از یک کلید با اندازه 1024 برای RSA در حالت FIPS استفاده کنید.
 
-برای جزئیات بیشتر در لیست الگوریتم های تایید شده، ببینید [دانلود موسیقی متن بازی The Punch راهنمای بازی Punch Thunder Castle Guide](https://downloads.bouncycastle.org/fips-java/BC-FJA-UserGuide-1.0.1.pdf), الگوریتم های Cipher (Sdaptive)
+برای جزئیات بیشتر در لیست الگوریتم های تایید شده، ببینید [دانلود موسیقی متن بازی The Punch راهنمای بازی Punch Thunder Castle Guide](https://downloads.bouncycastle.org/fips-java/docs/BC-FJA-UserGuide-1.0.1.pdf), الگوریتم های Cipher (Sdaptive)
 
 

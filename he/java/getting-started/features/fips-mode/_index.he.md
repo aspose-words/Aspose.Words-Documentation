@@ -63,6 +63,6 @@ SecuritySettings.isInFipsMode();
 
 מבצע אבטחה לא מאושר תגית: אתה לא יכול להשתמש מפתח עם גודל 1024 עבור RSA במצב FIPS.
 
-לפרטים נוספים על רשימת האלגוריתמים המאושרת, ראה [המונחים: Castle User Guide](https://downloads.bouncycastle.org/fips-java/BC-FJA-UserGuide-1.0.1.pdf), "Cipher Algorithms"
+לפרטים נוספים על רשימת האלגוריתמים המאושרת, ראה [המונחים: Castle User Guide](https://downloads.bouncycastle.org/fips-java/docs/BC-FJA-UserGuide-1.0.1.pdf), "Cipher Algorithms"
 
 

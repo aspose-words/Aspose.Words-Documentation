@@ -63,6 +63,6 @@ Podobná výjimka může nastat, pokud jsou použity klíče nevhodné délky:
 
 Neschválená bezpečnostní operace Výjimka: Nemůžete použít klíč s velikostí 1024 pro RSA v režimu FIPS.
 
-Další podrobnosti na seznamu schválených algoritmů viz [Bouncy Uživatelská příručka pro hrad](https://downloads.bouncycastle.org/fips-java/BC-FJA-UserGuide-1.0.1.pdf), Algorithms (Symetric)
+Další podrobnosti na seznamu schválených algoritmů viz [Bouncy Uživatelská příručka pro hrad](https://downloads.bouncycastle.org/fips-java/docs/BC-FJA-UserGuide-1.0.1.pdf), Algorithms (Symetric)
 
 

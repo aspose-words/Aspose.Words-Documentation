@@ -29,9 +29,9 @@ In dit voorbeeld, maakt u een eenvoudige Hello World console applicatie die een 
 Om het Hello World programma te maken, volg onderstaande stappen:
 1. Eén keer Docker is geïnstalleerd, zorg ervoor dat het gebruikt Linux Containers (standaard). Selecteer indien nodig de Schakelaar naar Linux container optie van de Docker Bureaubladmenu.
 1. In Visual Studio, een .NET Core console toepassing.<br/>
-![net-console-application](/lh5.googleusercontent.com/PArWoC8_leOnhtaF-5BMb3b4jHwI3G03WoyMK3bXZpsQKN50YzvEQBwoRniyCWKIcdR0EZGuwn3S8Z0ZK6FQ4cjMSWgH3CwSqReW4bMt-3OjZjrdt9yuWbkMdhyNjwwaaYPC5Ylr)<br>
+![net-console-application](https://lh5.googleusercontent.com/PArWoC8_leOnhtaF-5BMb3b4jHwI3G03WoyMK3bXZpsQKN50YzvEQBwoRniyCWKIcdR0EZGuwn3S8Z0ZK6FQ4cjMSWgH3CwSqReW4bMt-3OjZjrdt9yuWbkMdhyNjwwaaYPC5Ylr)<br>
 1. Laatste installeren Aspose.Words versie van NuGet. Skia Sharp zal worden geïnstalleerd als een afhankelijkheid van Aspose.Words.<br/>
-![skiasharp-dependency](/lh3.googleusercontent.com/zWpvB5TLahC_OpJrHDML2131Vj_VK1vryTZBd_C3ZeOBdoUOc2vF_axEvwu9tytaL1maJv3qA2KoyP5fn7ae4_3cL23sXyoLoVysjgu8XEp6l0B2w5hgR9teh95_9mFd9X-4DGNN)<br>
+![skiasharp-dependency](https://lh3.googleusercontent.com/zWpvB5TLahC_OpJrHDML2131Vj_VK1vryTZBd_C3ZeOBdoUOc2vF_axEvwu9tytaL1maJv3qA2KoyP5fn7ae4_3cL23sXyoLoVysjgu8XEp6l0B2w5hgR9teh95_9mFd9X-4DGNN)<br>
 1. Aangezien de toepassing zal worden uitgevoerd op <span notrans="<span notrans=" Linux"=""></span>,"> de geschikte inheemse Linux activa moeten worden geïnstalleerd. Begin met de Debian basisafbeelding en installatie `SkiaSharp.NativeAssets`.Linux.
 1. Als alle vereiste afhankelijkheden worden toegevoegd, schrijf dan een eenvoudig programma dat een "Hallo World!" document maakt en het opslaat in alle ondersteunde opslagformaten:<br/>
 

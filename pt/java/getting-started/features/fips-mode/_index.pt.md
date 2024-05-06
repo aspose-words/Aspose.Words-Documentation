@@ -63,6 +63,6 @@ A exceção semelhante pode ocorrer se as chaves do comprimento inadequado forem
 
 Operação de Segurança não aprovada Exceção: Você não pode usar uma chave com o tamanho 1024 para RSA no modo FIPS.
 
-Para mais detalhes na lista de algoritmos aprovados, consulte [Guia do usuário do castelo](https://downloads.bouncycastle.org/fips-java/BC-FJA-UserGuide-1.0.1.pdf), "Cipher Algorithms (Symmetric)" (em inglês).
+Para mais detalhes na lista de algoritmos aprovados, consulte [Guia do usuário do castelo](https://downloads.bouncycastle.org/fips-java/docs/BC-FJA-UserGuide-1.0.1.pdf), "Cipher Algorithms (Symmetric)" (em inglês).
 
 

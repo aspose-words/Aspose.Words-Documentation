@@ -29,9 +29,9 @@ url: /bg/net/how-to-run-aspose-words-in-docker/
 За да създадете програма Hello World, следвайте стъпките по-долу:
 1. Веднъж Docker е инсталиран, уверете се, че той използва Linux Контейнери (по подразбиране). Ако е необходимо, изберете превключвателя Linux опция за контейнери от Docker Меню на работния плот.
 1. В Visual Studio, създаване на .NET Core конзолно приложение.<br/>
-![net-console-application](/lh5.googleusercontent.com/PArWoC8_leOnhtaF-5BMb3b4jHwI3G03WoyMK3bXZpsQKN50YzvEQBwoRniyCWKIcdR0EZGuwn3S8Z0ZK6FQ4cjMSWgH3CwSqReW4bMt-3OjZjrdt9yuWbkMdhyNjwwaaYPC5Ylr)<br>
+![net-console-application](https://lh5.googleusercontent.com/PArWoC8_leOnhtaF-5BMb3b4jHwI3G03WoyMK3bXZpsQKN50YzvEQBwoRniyCWKIcdR0EZGuwn3S8Z0ZK6FQ4cjMSWgH3CwSqReW4bMt-3OjZjrdt9yuWbkMdhyNjwwaaYPC5Ylr)<br>
 1. Инсталиране на последната Aspose.Words версия от NuGet. Скиа Sharp ще бъде инсталиран като зависимост от Aspose.Words.<br/>
-![skiasharp-dependency](/lh3.googleusercontent.com/zWpvB5TLahC_OpJrHDML2131Vj_VK1vryTZBd_C3ZeOBdoUOc2vF_axEvwu9tytaL1maJv3qA2KoyP5fn7ae4_3cL23sXyoLoVysjgu8XEp6l0B2w5hgR9teh95_9mFd9X-4DGNN)<br>
+![skiasharp-dependency](https://lh3.googleusercontent.com/zWpvB5TLahC_OpJrHDML2131Vj_VK1vryTZBd_C3ZeOBdoUOc2vF_axEvwu9tytaL1maJv3qA2KoyP5fn7ae4_3cL23sXyoLoVysjgu8XEp6l0B2w5hgR9teh95_9mFd9X-4DGNN)<br>
 1. Тъй като заявлението ще бъде изпълнено <span notrans="<span notrans=" Linux"=""></span>,"> подходящите местни Linux активите трябва да бъдат инсталирани. Започнете с Debian основен образ и монтаж `SkiaSharp.NativeAssets`.Linux.
 1. Когато се добавят всички необходими зависимости, напишете една проста програма, която създава голо World! това се записва във всички поддържани формати:<br/>
 

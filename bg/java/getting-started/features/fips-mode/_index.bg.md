@@ -63,6 +63,6 @@ SecuritySettings.isInFipsMode();
 
 Неодобрена операция за сигурност Изключение: Не можете да използвате ключ с размер 1024 за RSA в режим FIPS.
 
-За повече подробности в одобрения списък с алгоритми, вижте [Подскачане Ръководство за потребителя на замъка](https://downloads.bouncycastle.org/fips-java/BC-FJA-UserGuide-1.0.1.pdf),.
+За повече подробности в одобрения списък с алгоритми, вижте [Подскачане Ръководство за потребителя на замъка](https://downloads.bouncycastle.org/fips-java/docs/BC-FJA-UserGuide-1.0.1.pdf),.
 
 

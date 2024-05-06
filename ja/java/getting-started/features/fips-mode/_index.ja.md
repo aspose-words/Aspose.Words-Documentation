@@ -63,6 +63,6 @@ Unapprovedセキュリティオペレーション 例外: ブローフィッシ�
 
 非承認されたセキュリティ操作 例外: FIPS モードの RSA では 1024 のサイズのキーを使用できません。
 
-承認されたアルゴリズムリストの詳細は、 [バウンシー 城ユーザーガイド](https://downloads.bouncycastle.org/fips-java/BC-FJA-UserGuide-1.0.1.pdf), 「暗号アルゴリズム(Symmetric)」。
+承認されたアルゴリズムリストの詳細は、 [バウンシー 城ユーザーガイド](https://downloads.bouncycastle.org/fips-java/docs/BC-FJA-UserGuide-1.0.1.pdf), 「暗号アルゴリズム(Symmetric)」。
 
 

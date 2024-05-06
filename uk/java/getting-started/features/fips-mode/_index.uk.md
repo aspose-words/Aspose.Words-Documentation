@@ -63,6 +63,6 @@ SecuritySettings.isInFipsMode();
 
 НезатвердженоСекретністьОперація Видача: Ви не можете використовувати ключ з розміром 1024 для RSA в режимі FIPS.
 
-Більш детальну інформацію щодо переліку затверджених алгоритмів див. [Боунс Керівництво користувача](https://downloads.bouncycastle.org/fips-java/BC-FJA-UserGuide-1.0.1.pdf), "Cipher Algorithms (Symmetric)".
+Більш детальну інформацію щодо переліку затверджених алгоритмів див. [Боунс Керівництво користувача](https://downloads.bouncycastle.org/fips-java/docs/BC-FJA-UserGuide-1.0.1.pdf), "Cipher Algorithms (Symmetric)".
 
 

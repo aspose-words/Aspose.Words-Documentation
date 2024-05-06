@@ -63,6 +63,6 @@ SecuritySettings.isInFipsMode();
 
 การ ยืน ยัน อย่าง ไม่ มี เงื่อนไข ข้อยกเว้น: คุณไม่สามารถใช้กุญแจขนาด 1024 สําหรับ RSA ในโหมด FIPS ได้
 
-สําหรับรายละเอียดเพิ่มเติมเกี่ยวกับรายการอัลกอริทึมที่อนุมัติ ดู [เงินตรา คู่มือผู้ใช้ของคาสเซิล](https://downloads.bouncycastle.org/fips-java/BC-FJA-UserGuide-1.0.1.pdf), "Cifer Algorithams (Symtric)".
+สําหรับรายละเอียดเพิ่มเติมเกี่ยวกับรายการอัลกอริทึมที่อนุมัติ ดู [เงินตรา คู่มือผู้ใช้ของคาสเซิล](https://downloads.bouncycastle.org/fips-java/docs/BC-FJA-UserGuide-1.0.1.pdf), "Cifer Algorithams (Symtric)".
 
 

@@ -63,6 +63,6 @@ De soortgelijke uitzondering kan zich voordoen indien sleutels van ongeschikte l
 
 Niet-goedgekeurde beveiligingsoperatie Uitzondering: U kunt geen sleutel met grootte 1024 gebruiken voor RSA in FIPS-modus.
 
-Voor meer informatie over de goedgekeurde algoritmenlijst, zie [Bouncy Kasteel gebruikershandleiding](https://downloads.bouncycastle.org/fips-java/BC-FJA-UserGuide-1.0.1.pdf), Cipher Algorithms (Symmetrisch).
+Voor meer informatie over de goedgekeurde algoritmenlijst, zie [Bouncy Kasteel gebruikershandleiding](https://downloads.bouncycastle.org/fips-java/docs/BC-FJA-UserGuide-1.0.1.pdf), Cipher Algorithms (Symmetrisch).
 
 

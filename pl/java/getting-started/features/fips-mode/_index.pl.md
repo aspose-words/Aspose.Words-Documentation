@@ -63,6 +63,6 @@ Podobny wyjątek może wystąpić, jeżeli używane są klucze o niewłaściwej 
 
 Niezatwierdzona operacja SecurityOperation Wyjątek: Nie można używać klucza o rozmiarze 1024 dla RSA w trybie FIPS.
 
-Więcej informacji na temat zatwierdzonej listy algorytmów można znaleźć na stronie: [Bouncy Castle Przewodnik podatkowy](https://downloads.bouncycastle.org/fips-java/BC-FJA-UserGuide-1.0.1.pdf), "Cipher Algorithms (Symmetric)".
+Więcej informacji na temat zatwierdzonej listy algorytmów można znaleźć na stronie: [Bouncy Castle Przewodnik podatkowy](https://downloads.bouncycastle.org/fips-java/docs/BC-FJA-UserGuide-1.0.1.pdf), "Cipher Algorithms (Symmetric)".
 
 

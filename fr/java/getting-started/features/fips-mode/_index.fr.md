@@ -63,6 +63,6 @@ La même exception peut se produire si des touches de longueur inappropriée son
 
 Opération de sécurité non approuvée Exception: Vous ne pouvez pas utiliser une clé avec la taille 1024 pour RSA en mode FIPS.
 
-Pour plus de détails sur la liste des algorithmes approuvés, voir [Bénédiction Guide de l'utilisateur du Château](https://downloads.bouncycastle.org/fips-java/BC-FJA-UserGuide-1.0.1.pdf), (Symmétrique)
+Pour plus de détails sur la liste des algorithmes approuvés, voir [Bénédiction Guide de l'utilisateur du Château](https://downloads.bouncycastle.org/fips-java/docs/BC-FJA-UserGuide-1.0.1.pdf), (Symmétrique)
 
 
