@@ -29,9 +29,9 @@ url: /uk/net/how-to-run-aspose-words-in-docker/
 Щоб створити програму Hello World, слідуйте за кроками нижче:
 1,1 км Зареєструватися Docker встановлюється, переконайтеся, що він використовує Linux Контейнери (за замовчуванням). При необхідності виберіть перемикач Linux варіанти контейнерів від Docker Меню робочих місць.
 1,1 км У Visual Studio, створити .NET Core Додаток консолі.<br/>
-![net-console-application](/lh5.googleusercontent.com/PArWoC8_leOnhtaF-5BMb3b4jHwI3G03WoyMK3bXZpsQKN50YzvEQBwoRniyCWKIcdR0EZGuwn3S8Z0ZK6FQ4cjMSWgH3CwSqReW4bMt-3OjZjrdt9yuWbkMdhyNjwwaaYPC5Ylr)<br>
+![net-console-application](https://lh5.googleusercontent.com/PArWoC8_leOnhtaF-5BMb3b4jHwI3G03WoyMK3bXZpsQKN50YzvEQBwoRniyCWKIcdR0EZGuwn3S8Z0ZK6FQ4cjMSWgH3CwSqReW4bMt-3OjZjrdt9yuWbkMdhyNjwwaaYPC5Ylr)<br>
 1,1 км Встановити останні Aspose.Words версія з NuGetй Про нас Заточка буде встановлена в залежності від Aspose.Wordsй<br/>
-![skiasharp-dependency](/lh3.googleusercontent.com/zWpvB5TLahC_OpJrHDML2131Vj_VK1vryTZBd_C3ZeOBdoUOc2vF_axEvwu9tytaL1maJv3qA2KoyP5fn7ae4_3cL23sXyoLoVysjgu8XEp6l0B2w5hgR9teh95_9mFd9X-4DGNN)<br>
+![skiasharp-dependency](https://lh3.googleusercontent.com/zWpvB5TLahC_OpJrHDML2131Vj_VK1vryTZBd_C3ZeOBdoUOc2vF_axEvwu9tytaL1maJv3qA2KoyP5fn7ae4_3cL23sXyoLoVysjgu8XEp6l0B2w5hgR9teh95_9mFd9X-4DGNN)<br>
 1,1 км Оскільки додаток буде працювати на <span notrans="<span notrans=" Linux"=""></span>, > відповідні рідні Linux повинні бути встановлені активи. Почати з Debian базовий образ і установка `SkiaSharp.NativeAssets`йLinuxй
 1,1 км Коли всі необхідні залежності додаються, напишіть просту програму, яка створює документ "Hello World!" і зберігає її у всіх підтриманих форматах збереження:<br/>
 

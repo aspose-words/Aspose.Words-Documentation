@@ -11,6 +11,29 @@ url: /ar/python-net/what-s-new-in-aspose-words-for-python-net/
 
 تصف هذه الصفحة ميزات Aspose.Words الجديدة الأكثر إثارة للاهتمام والتي تم تقديمها في الإصدارات الأخيرة.
 
+## Aspose.Words لـ Python via .NET 24.5
+
+### التقديم والطباعة
+
+#### التغييرات في Charts وShapes وDrawingML <sup>24.5</sup>
+
+* تم تنفيذ عرض تأثيرات DrawingML لرسومات SVG، مما أدى إلى توسيع الوظائف السابقة التي تقتصر على الصور.
+* تم تقديم الدعم لإنشاء مخططات مجمعة وضبط الخصائص مثل عرض الفجوة والتداخل ومقياس الفقاعات ضمن مجموعات السلسلة عن طريق إضافة [ChartSeriesGroup](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriesgroup/) وفئات [ChartSeriesGroupCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriesgroupcollection/) وفئات [series_groups](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chart/series_groups/).
+* تم تنفيذ وظيفة معالجة تأثير SoftEdge للأشكال عن طريق إضافة فئة [SoftEdgeFormat](https://reference.aspose.com/words/python-net/aspose.words.drawing/softedgeformat/).
+* تم تنفيذ القدرة على تعديل قيم ضبط الأشكال عن طريق إضافة **AdjustmentCollection** و**Adjustment** الفئات العامة و[adjustments](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/adjustments/) ملكية.
+
+#### آخر
+
+* تم تنفيذ وظيفة إزالة الصفحات الفارغة من المستند عن طريق إضافة طريقة [remove_blank_pages](https://reference.aspose.com/words/python-net/aspose.words/document/remove_blank_pages/). <sup>24.5</sup>
+* تم توفير القدرة على التحقق من وجود وحدات ماكرو VBA دون تحميل مستند عن طريق إضافة خاصية [has_macros](https://reference.aspose.com/words/python-net/aspose.words/fileformatinfo/has_macros/). <sup>24.5</sup>
+* أصبح الحفاظ على ترقيم المصدر أثناء إدراج مستند باستخدام محرك التقارير LINQ مدعومًا الآن. <sup>24.5</sup>
+
+{{% alert color="primary" %}}
+
+تعرف على المزيد حول [Aspose.Words لـ Python عبر ملاحظات الإصدار .NET 24.5](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-5-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words لـ Python via .NET 24.1, 24.2, 24.3, 24.4
 
 يعمل Aspose.Words 24.1 على تحسين تجربة إدارة ألوان الحدود، ويعزز كائنات OLE، بالإضافة إلى تقديم مصادر المراجع الببليوغرافية الجديدة API العامة.
@@ -393,181 +416,6 @@ Aspose.Words 24.4 يعزز حفظ التنسيقات ، بعض خيارات ال
 تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ Python via .NET 22.11](/words/python-net/aspose-words-for-python-via-dotnet-22-11-release-notes/).
 
 تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ Python via .NET 22.12](/words/python-net/aspose-words-for-python-via-dotnet-22-12-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words لـ Python via .NET 22.5، 22.6، 22.7، 22.8
-
-يقدم Aspose.Words 22.5 دعمًا لتنسيقات التحميل الجديدة وحجم صفحة الطباعة الجديد، بالإضافة إلى تحسين بعض خيارات العرض.
-
-يعمل Aspose.Words 22.6 على توسيع إمكانيات تحويل PDF إلى تنسيقات أخرى، بالإضافة إلى تحسين العمل باستخدام DrawML وتأثير تعبئة النص الصلب.
-
-يعمل Aspose.Words 22.7 على تحسين إمكانيات العمل مع ميزات العرض، كما يضيف ميزات جديدة للعمل مع استيراد HTML وتصديره إلى PDF.
-
-يقدم Aspose.Words 22.8 تنسيق تصدير جديدًا ويحسن خوارزميات العرض المتنوعة.
-
-تم تحسين API من أجل تطوير أكثر مرونة وملاءمة.
-
-### التنسيقات المدعومة
-
-* تم تقديم الدعم لتحميل مستندات EPUB وXML عن طريق إضافة قيم جديدة إلى تعداد **LoadFormat**. بدءًا من الإصدار 22.5، من الممكن تحميل مستندات EPUB وXML في نموذج مستند Aspose.Words وتحويلها إلى أي [تنسيقات المستندات المدعومة](/words/ar/python-net/supported-document-formats/). <sup>22.5</sup>
-* بدءًا من الإصدار 22.8، من الممكن حفظ مستند بتنسيق AZW3 - تنسيق ملف الكتاب الإلكتروني الخاص بـ Amazon Kindle (KF8 هو اسم آخر للتنسيق). الآن لا يمكنك تحميل مستندات AZW3 فحسب، بل يمكنك أيضًا تصدير ملفاتك إلى تنسيق AZW3، وهو في الأساس ملف EPUB مترجم. <sup>22.8</sup>
-
-### التقديم والطباعة
-
-#### حجم الطباعة الجديد <sup>22.5</sup>
-
-تمت إضافة دعم لحجم صفحة الطباعة "Envelope No. 10" من خلال إدخال قيمة جديدة إلى تعداد [PaperSize](https://reference.aspose.com/words/python-net/aspose.words/papersize/).
-
-#### تقديم صيغ MathML <sup>22.5</sup>
-
-تم تحسين عرض مربع الحدود حول صيغ MathML واكتشاف الخطوط عند عرض الأحرف لهذه الصيغ.
-
-#### تحسينات مخطط DML <sup>22.6</sup>
-
-تم توسيع مخططات DrawML العامة API لدعم تعبئة التدرج والملمس والنمط.
-
-#### Glyph يحدد التحليل لـ OpenType <sup>22.7</sup>
-
-تم تنفيذ تحليل glyph الخاص بـ Aspose.Words لخطوط OpenType (CFF).
-
-في السابق، كان يتم إجراء تحليل glyph لخطوط OpenType (CFF) عبر GDI+. لذا فهو يعمل الآن في الحالات التي لا يتوفر فيها +GDI - Java، ومنصات .NET Standard، وLinux، وmacOS، وما إلى ذلك. مطلوب تحليل الخطوط العريضة لـ Glyph في حالات محددة مثل WordArt، وتأثيرات النص، وبعض ميزات Office Math، وغيرها.
-
-#### ضبط تنسيق ظل الشكل <sup>22.7</sup>
-
-تم توفير القدرة على ضبط تنسيق الظل لكائن الشكل عن طريق إضافة خاصية [shadow_format](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/shadow_format/) جديدة.
-
-#### دعم لتباعد الخلايا في الجداول <sup>22.8</sup>
-
-تم الآن تحسين محرك التخطيط بشكل ملحوظ: تم تنفيذ آلية معقدة للغاية لتباعد الخلايا في الجداول.
-
-#### استبدال الخط للرموز <sup>22.8</sup>
-
-تم تحسين استبدال الخط للرموز.
-
-#### خوارزمية تدوير تسمية محور الرسم البياني <sup>22.8</sup>
-
-تم تحسين خوارزمية التدوير لتسميات محاور المخطط.
-
-### تحميل وحفظ المستندات
-
-#### قم بتحميل وتحويل PDF إلى تنسيق صفحة ثابتة بدون Layout Model <sup>22.6</sup>
-
-تم تنفيذ القدرة على تحميل وتحويل مستندات PDF إلى تنسيقات صفحات ثابتة بدقة وأداء عاليين.
-
-#### وضع استيراد HTML الجديد <sup>22.7</sup>
-
-تم تقديم وضع استيراد HTML جديد للعناصر على مستوى الكتلة عن طريق إضافة قيمة جديدة إلى تعداد [HtmlInsertOptions](https://reference.aspose.com/words/python-net/aspose.words/htmlinsertoptions/).
-
-#### تحويل إلى PDF/UA-1 متوافق مع WCAG 2.0 <sup>22.7</sup>
-
-تمت إضافة دعم لتحويل مستند إلى تنسيق PDF/UA-1، متوافق مع WCAG 2.0.
-
-لذا، إذا كان لدى العميل مستند Word يمكن الوصول إليه وقام بتحويله إلى PDF/UA-1 عبر Aspose.Words مع ذكر تفاصيل التحويل، فسيكون الناتج متوافقًا مع WCAG 2.0.
-
-WCAG أو إرشادات الوصول إلى محتوى الويب هي مجموعة من الإرشادات التي طورتها W3C بالتعاون مع الأفراد والمنظمات في جميع أنحاء العالم. الآن باستخدام Aspose.Words، يمكنك تحويل مستندك إلى تنسيق PDF/UA-1 الناتج، وهو مناسب لإنشاء مستندات PDF متوافقة مع WCAG 2.0.
-
-تجدر الإشارة إلى أن WCAG 2.0 له متطلبان إضافيان غير محددين في مواصفات PDF/UA-1:
-
-- متطلبات التباين
-- متطلبات وضع العلامات على محتوى الوسائط المتعددة
-
-لكن كلا المتطلبين لا علاقة لهما بحالتنا الخاصة بالتحويل من Word إلى PDF.
-
-### آخر
-
-تم تنفيذ استثناء توريث تأثير تعبئة النص الصلب الذي يحاكي سلوك MS Word. <sup>22.6</sup>
-
-{{% alert color="primary" %}}
-
-تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ Python via .NET 22.5](/words/python-net/aspose-words-for-python-via-dotnet-22-5-release-notes/).
-
-تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ Python via .NET 22.6](/words/python-net/aspose-words-for-python-via-dotnet-22-6-release-notes/).
-
-تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ Python via .NET 22.7](/words/python-net/aspose-words-for-python-via-dotnet-22-7-release-notes/).
-
-تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ Python via .NET 22.8](/words/python-net/aspose-words-for-python-via-dotnet-22-8-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words لـ Python via .NET 22.3، 22.4
-
-يعمل Aspose.Words 22.3 على توسيع إمكانيات العمل مع تنسيقات PDF وTXT ويحسن عمل بعض الخوارزميات والمحركات الموجودة.
-
-يعمل Aspose.Words 22.4 على تحسين إمكانيات PDF – الآن يمكنك حفظ ملف بتنسيق PDF/A-4 والحصول على عدد من التحسينات الأخرى في إخراج PDF. وفي الوقت نفسه، يوفر Aspose.Words 22.4 إمكانات إضافية للعمل مع مخططات DML، وقراءة بيانات تعريف Photoshop، واستيراد عناصر مستوى كتلة HTML.
-
-تم تحسين API من أجل تطوير أكثر مرونة وملاءمة.
-
-### الميزات المدعومة
-
-بدءًا من Aspose.Words 22.4، تمت إضافة دعم Python 3.10.
-
-### تحسينات في الأداء
-
-تم تنفيذ تحميل ذاكرة التخزين المؤقت للبحث عن الخطوط المحفوظة مسبقًا لتسريع عملية تهيئة ذاكرة التخزين المؤقت للخط عند العرض. الآن ستعمل حلولك بشكل أسرع.
-
-### التنسيقات المدعومة
-
-تمت إضافة تحميل مستند بتنسيق AZW3 (KF8 هو اسم آخر للتنسيق). يمكنك الآن تحميل مستند AZW3 وتحويله إلى أي تنسيقات أخرى مدعومة.
-
-### استدعاء
-
-#### تقديم صيغ MathML
-
-تم تحسين عرض العوامل في صيغ MathML.
-
-#### تحسينات مخطط DML
-
-تم إجراء التحسينات التالية على مخططات DML:
-
-* تم تحسين خوارزمية قياس محور مخطط DML لتكون هي نفسها الموجودة في MS Word
-
-* تم توفير القدرة على التعامل مع إدخالات وسيلة إيضاح مخطط DrawML لجعل مخططنا API أكثر شمولاً
-* تم تنفيذ القدرة على تحديد اسم ملف xls/xlsx الذي يرتبط به مخطط DrawML
-
-#### التقديم إلى PDF مع التوافق مع PDF/A-4
-
-تمت إضافة العرض إلى PDF مع توافق PDF/A-4 عن طريق إضافة قيم جديدة إلى تعداد [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) - [PDF_A4](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/#pdf_a4). يفترض هذا الخيار مستويات مطابقة منقحة: مطابقة PDF/A-4 العادية تعادل مستوى التوافق U للإصدارات السابقة، وتتم إزالة مستوى التوافق A.
-
-#### قراءة دقة بيانات تعريف Photoshop بتنسيق JPEG
-
-تم تنفيذ قراءة دقة بيانات Photoshop التعريفية في صور JPEG لإصلاح مشكلة مثيرة للاهتمام تتعلق بالقياس غير الصحيح للصور عند العرض.
-
-#### السماح للنص اللاتيني بالالتفاف في منتصف الكلمة
-
-تم تنفيذ دعم ميزة "السماح للنص اللاتيني بالالتفاف في منتصف الكلمة" لجعل دعمنا اللاتيني أفضل عند العرض.
-
-### تحميل وحفظ المستندات
-
-#### التحكم في سلوك النمط عند تحميل مستند
-
-تم تقديم خيار [force_copy_styles](https://reference.aspose.com/words/python-net/aspose.words/importformatoptions/force_copy_styles/) جديد للتحكم في سلوك الأنماط المتعارضة عند استيراد المستند.
-
-#### تحويل الأشكال إلى SVG عند التصدير
-
-تم توفير القدرة على تحويل الأشكال إلى صور SVG عند التصدير إلى HTML أو MHTML أو EPUB عن طريق إضافة خاصية [export_shapes_as_svg](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/export_shapes_as_svg/).
-
-#### الحفظ في PDF 2.0 والتحسينات في إخراج PDF
-
-تم تقديم القدرة على حفظ مستند بتنسيق PDF 2.0 عن طريق إضافة قيمة جديدة إلى تعداد [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/)، بالإضافة إلى العديد من التحسينات الأخرى المطلوبة لمخرجات PDF.
-
-#### وضع استيراد HTML الجديد
-
-تم تنفيذ وضع استيراد جديد لعناصر مستوى كتلة HTML لتقليد سلوك Microsoft Word.
-
-### آخر
-
-* تم تقديم القدرة على الحصول على OOXML لعنصر تحكم المحتوى وحفظه في السلسلة.
-* تمت إضافة التعرف على الحواشي السفلية غير القياسية في مستندات PDF عند الاستيراد.
-* تمت إضافة القدرة على الحصول على بيانات الحقل المخصصة المرتبطة بالحقل.
-* تم تحسين خوارزمية مقارنة الجدول التي تعتمد على التحليل العميق لآلية مقارنة Microsoft Word.
-* تم توفير صيغة التعليقات في محرك تقارير LINQ.
-
-{{% alert color="primary" %}}
-
-تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ Python via .NET 22.3](/words/python-net/aspose-words-for-python-via-dotnet-22-3-release-notes/).
-
-تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ Python via .NET 22.4](/words/python-net/aspose-words-for-python-via-dotnet-22-4-release-notes/).
 
 {{% /alert %}}
 

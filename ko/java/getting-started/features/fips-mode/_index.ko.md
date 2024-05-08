@@ -63,6 +63,6 @@ UnapprovedSecurity운영 예외: Blowfish 알고리즘을 사용하는 ODT 파�
 
 UnapprovedSecurity운영 예외: FIPS 모드에서 RSA 크기 1024를 사용할 수 없습니다.
 
-승인 된 알고리즘 목록에 대한 자세한 내용은 여기를 참조하십시오. [팟캐스트 사용자 가이드](https://downloads.bouncycastle.org/fips-java/BC-FJA-UserGuide-1.0.1.pdf), "Cipher Algorithms (Symmetric)".
+승인 된 알고리즘 목록에 대한 자세한 내용은 여기를 참조하십시오. [팟캐스트 사용자 가이드](https://downloads.bouncycastle.org/fips-java/docs/BC-FJA-UserGuide-1.0.1.pdf), "Cipher Algorithms (Symmetric)".
 
 

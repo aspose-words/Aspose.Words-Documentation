@@ -19,11 +19,7 @@ Aspose.Words 24.2 expanded Charts API and style management. This version of Aspo
 
 Aspose.Words 24.3 introduces Emulation of binary raster operations for WMF metafiles and also continues to expand the Charts API.
 
-Aspose.Words 24.4 enhances saving formats, some rendering options, as well as improves work with digital signatures.
-
-### Supported Formats <sup>24.4</sup>
-
-The modern **WebP** image format is now supported in Aspose.Words. You can now read and insert WebP images into documents, as well as save images in WebP format.
+Aspose.Words 24.4 enhances some rendering options, as well as improves work with digital signatures.
 
 ### Rendering and Printing
 

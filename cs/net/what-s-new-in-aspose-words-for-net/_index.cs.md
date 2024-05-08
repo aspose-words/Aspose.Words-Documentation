@@ -11,6 +11,33 @@ url: /cs/net/what-s-new-in-aspose-words-for-net/
 
 Tato stránka popisuje nejzajímavější nový Aspose.Words funkce zavedené v nedávných vydáních.
 
+## Aspose.Words pro .NET 24.5
+
+### Platformy
+
+Sestavení .NET 7.0/8.0 byla zahrnuta do balíčku NuGet Aspose.Words.
+
+### Vykreslování a tisk
+
+#### Změny v Charts, Shapes a DrawingML <sup>24.5</sup>
+
+* Bylo implementováno vykreslování efektů DrawingML pro grafiku SVG, které rozšiřuje předchozí funkčnost omezenou na obrázky.
+* Přidáním tříd [ChartSeriesGroup](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriesgroup/) a [ChartSeriesGroupCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriesgroupcollection/) a vlastnosti [SeriesGroups](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/seriesgroups/) byla zavedena podpora pro vytváření kombinovaných grafů a úpravy vlastností, jako je šířka mezery, překrytí a měřítko bublin v rámci skupin řad.
+* Funkce pro manipulaci s efektem SoftEdge tvarů byla implementována přidáním třídy [SoftEdgeFormat](https://reference.aspose.com/words/net/aspose.words.drawing/softedgeformat/).
+* Možnost úpravy hodnot tvarů byla implementována přidáním [AdjustmentCollection](https://reference.aspose.com/words/net/aspose.words.drawing/adjustmentcollection/) a [Adjustment](https://reference.aspose.com/words/net/aspose.words.drawing/adjustment/) veřejné třídy a [Adjustments](https://reference.aspose.com/words/net/aspose.words.drawing/shape/adjustments/) vlastnictví.
+
+#### Jiný
+
+* Funkce odstranění prázdných stránek z dokumentu byla implementována přidáním metody [RemoveBlankPages](https://reference.aspose.com/words/net/aspose.words/document/removeblankpages/). <sup>24.5</sup>
+* Možnost kontrolovat přítomnost maker VBA bez načítání dokumentu byla poskytnuta přidáním vlastnosti [HasMacros](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/hasmacros/). <sup>24.5</sup>
+* Nyní je podporováno zachování číslování zdrojů při vkládání dokumentu pomocí LINQ Reporting Engine. <sup>24.5</sup>
+
+{{% alert color="primary" %}}
+
+Další informace o [Aspose.Words for .NET 24.5 Release Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-5-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words místo .NET 24.1, 24.2, 24.3, 24.4
 
 Aspose.Words 24.1 zlepšuje zkušenosti s managementem barev zdvihu, zvyšuje OLE objekty a LINQ reporting, stejně jako představuje nový `Bibliography Sources` veřejný API.
@@ -407,102 +434,6 @@ Více informací o [Aspose.Words místo .NET 22.10 Poznámky k vydání](/words/
 Více informací o [Aspose.Words místo .NET 22.11 Poznámky k vydání](/words/net/aspose-words-for-net-22-11-release-notes/).
 
 Více informací o [Aspose.Words místo .NET 22.12 Poznámky k vydání](/words/net/aspose-words-for-net-22-12-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words místo .NET 22.5, 22.6, 22.7, 22.8
-
-Aspose.Words 22.5 zavádí podporu pro nové formáty načítání a novou velikost tiskové stránky a zlepšuje některé možnosti vykreslování.
-
-Aspose.Words 22.6 rozšiřuje možnosti převodu PDF do jiných formátů, stejně jako zlepšuje práci s kreslenímML a solidní text vyplnit efekt.
-
-Aspose.Words 22.7 zvyšuje možnosti práce s funkcemi renderování a také přidává nové funkce pro práci s HTML importem a exportem do PDF.
-
-Aspose.Words 22.8 zavádí nový exportní formát a zlepšuje různé renderovací algoritmy.
-
-• API je posílen pro pružnější a pohodlnější rozvoj.
-
-### Podporované formáty
-
-* Podpora načítání dokumentů EPUB a XML byla zavedena přidáním nových hodnot do [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/) vyjmenování. Od verze 22.5 je možné načíst EPUB a XML dokumenty do Aspose.Words vzor dokumentu a převést je na jakýkoli [Podporované formáty](https://reference.aspose.com/words/net/aspose.words/saveformat/). <sup>22.5</sup>
-* Od verze 22.8 je možné uložit dokument ve formátu AZW3 Amazon Proprietární formát souboru Kindle e-book (KF8 je jiný název formátu). Nyní můžete nejen načíst AZW3 dokumenty, ale také exportovat své soubory do formátu AZW3, což je v podstatě kompilovaný EPUB. <sup>22.8</sup>
-
-### Renderování a tisk
-
-#### Nová velikost tisku <sup>22.5</sup>
-
-Podpora pro tiskovou stránku Envelope č. 10 [PaperSize](https://reference.aspose.com/words/net/aspose.words/papersize/) výčtu.
-
-#### Rendering MathML vzorce <sup>22.5</sup>
-
-Vykreslování pole kolem matematických vzorců a detekce fontů při vykreslování znaků pro tyto vzorce bylo vylepšeno.
-
-#### DML Zlepšení grafu <sup>22.6</sup>
-
-DrawingML grafy veřejné API byla rozšířena na podporu gradientu, textury a vzorových náplní.
-
-#### Glyph Outlines Parsing for OpenType <sup>22.7</sup>
-
-Aspose.Words vlastní glyph byly implementovány osnovy pro písma OpenType (CFF).
-
-V minulých dílech... glyph parsing pro písma OpenType (CFF) byl proveden prostřednictvím GDI+. Takže teď to funguje v případech, kdy GDI+ není k dispozici Java, .NET Standard nástupiště, Linux OS, atd. Glyph obrysy parsing je nutné v konkrétních případech, jako je WordArt, textové efekty, některé funkce Office Math, a další.
-
-#### Nastavit formát stínu <sup>22.7</sup>
-
-Schopnost nastavit stín formátování tvarového objektu byla poskytnuta přidáním nového [ShadowFormat](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/shadowformat/) majetek.
-
-#### Podpora buněčného rozložení v tabulkách <sup>22.8</sup>
-
-Nyní se výrazně zlepšuje uspořádání motoru: byl implementován velmi složitý mechanismus roztečení buněk v tabulkách.
-
-#### Substituce písma pro symboly <sup>22.8</sup>
-
-Byla zlepšena náhrada písem za symboly.
-
-#### Algoritmus rotace značky Chart Axis <sup>22.8</sup>
-
-Zlepšil se algoritmus otáčení štítků os grafu.
-
-### Načítání a ukládání dokumentů
-
-#### Načíst a převést PDF do pevné stránky Formát bez rozvržení modelu <sup>22.6</sup>
-
-Byla implementována schopnost načíst a převést PDF dokumenty na pevné formáty stránek s vysokou věrností a výkonem.
-
-#### Nový HTML importní režim <sup>22.7</sup>
-
-Nový HTML importní režim pro prvky na úrovni bloku byl zaveden přidáním nové hodnoty do [HtmlInsertOptions](https://reference.aspose.com/words/net/aspose.words/htmlinsertoptions/) výčtu.
-
-#### Převést na PDF/UA-1 CSompliant s WCAG 2.0 <sup>22.7</sup>
-
-Byla přidána podpora pro převod dokumentu do formátu PDF/UA-1 v souladu s WCAG 2.0,
-
-Takže, pokud zákazník má přístupný Word dokument a převádí jej na PDF / UA-1 prostřednictvím Aspose.Words uvedení konverzí specifika, pak výstup bude kompatibilní WCAG 2.0.
-
-WCAG nebo přístupnost webového obsahu Pokyny jsou souborem pokynů vypracovaných W3C ve spolupráci s jednotlivci a organizacemi po celém světě. Teď s Aspose.Words můžete svůj dokument převést na výstupní formát PDF/UA-1, který je vhodný pro sestavení dokumentů WCAG 2.0 vyhovujících PDF.
-
-Stojí za zmínku, že WCAG 2.0 má dva dodatečné požadavky, které nejsou uvedeny ve specifikaci PDF/UA-1:
-
-* kontrastní požadavky
-
-* požadavky na označování multimediálního obsahu
-
-Ale oba požadavky nejsou relevantní pro náš případ konverze z Word do PDF.
-
-### Ostatní
-
-* Výjimkou zdědění solidního textu vyplnit efekt, který napodobuje MS Word chování byla provedena. <sup>22.6</sup>
-* Podpora `DATABASE` Byla přidána pole. Použití tohoto typu pole, můžete například ukázat výsledky databázového dotazu v Microsoft Word stůl. <sup>22.7</sup>
-
-{{% alert color="primary" %}}
-
-Více informací o [Aspose.Words místo .NET 22.5 Poznámky k vydání](/words/net/aspose-words-for-net-22-5-release-notes/).
-
-Více informací o [Aspose.Words místo .NET 22.6 Poznámky k vydání](/words/net/aspose-words-for-net-22-6-release-notes/).
-
-Více informací o [Aspose.Words místo .NET 22.7 Poznámky k vydání](/words/net/aspose-words-for-net-22-7-release-notes/).
-
-Více informací o [Aspose.Words místo .NET 22.8 Poznámky k vydání](/words/net/aspose-words-for-net-22-8-release-notes/).
 
 {{% /alert %}}
 

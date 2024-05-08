@@ -63,6 +63,6 @@ SecuritySettings.isInFipsMode();
 
 غير الموافق عليه الاستثناء: لا يمكنك استخدام مفتاح مع حجم 1024 لوكالة الأمن القومي في وضعية FIPS.
 
-لمزيد من التفاصيل عن قائمة الخوارزميات المعتمدة، انظر [بونسي دليل استخدام القلعة](https://downloads.bouncycastle.org/fips-java/BC-FJA-UserGuide-1.0.1.pdf), " خوارزميات ".
+لمزيد من التفاصيل عن قائمة الخوارزميات المعتمدة، انظر [بونسي دليل استخدام القلعة](https://downloads.bouncycastle.org/fips-java/docs/BC-FJA-UserGuide-1.0.1.pdf), " خوارزميات ".
 
 

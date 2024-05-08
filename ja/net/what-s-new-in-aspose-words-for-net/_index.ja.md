@@ -11,6 +11,33 @@ url: /ja/net/what-s-new-in-aspose-words-for-net/
 
 このページでは、最近のリリースで導入された最も興味深い Aspose.Words の新機能について説明します。
 
+## Aspose.Words for .NET 24.5
+
+### プラットフォーム
+
+.NET 7.0/8.0 アセンブリは、Aspose.Words NuGet パッケージに含まれています。
+
+### レンダリングと印刷
+
+#### Charts、Shapes、DrawingML の変更 <sup>24.5</sup>
+
+* 画像に限定されていた以前の機能を拡張する、SVG グラフィックスの DrawingML エフェクト レンダリングが実装されました。
+* コンボ チャートの作成と、シリーズ グループ内のギャップ幅、オーバーラップ、バブル スケールなどのプロパティの調整のサポートは、[ChartSeriesGroup](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriesgroup/) クラスと [ChartSeriesGroupCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriesgroupcollection/) クラス、および [SeriesGroups](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/seriesgroups/) プロパティ。
+* シェイプの SoftEdge 効果を操作する機能は、[SoftEdgeFormat](https://reference.aspose.com/words/net/aspose.words.drawing/softedgeformat/) クラスを追加することで実装されました。
+* シェイプの調整値を変更する機能は、[AdjustmentCollection](https://reference.aspose.com/words/net/aspose.words.drawing/adjustmentcollection/) および [Adjustment](https://reference.aspose.com/words/net/aspose.words.drawing/adjustment/) パブリック クラスと [Adjustments](https://reference.aspose.com/words/net/aspose.words.drawing/shape/adjustments/) 財産。
+
+#### 他の
+
+* 文書から空ページを削除する機能は、[RemoveBlankPages](https://reference.aspose.com/words/net/aspose.words/document/removeblankpages/)メソッドを追加することで実装されました。 <sup>24.5</sup>
+* ドキュメントをロードせずに VBA マクロの存在をチェックする機能は、[HasMacros](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/hasmacros/) プロパティを追加することによって提供されます。 <sup>24.5</sup>
+* LINQ レポート エンジンを使用してドキュメントを挿入する際のソース番号の維持がサポートされるようになりました。 <sup>24.5</sup>
+
+{{% alert color="primary" %}}
+
+詳細については、[Aspose.Words for .NET 24.5 リリース ノート](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-5-release-notes) をご覧ください。
+
+{{% /alert %}}
+
 ## .NET 24.1、24.2、24.3、24.4 用の Aspose.Words
 
 Aspose.Words 24.1 では、ストローク カラーの管理に関するエクスペリエンスが向上し、OLE オブジェクトと LINQ レポートが強化され、さらに新しい参考文献ソースのパブリック API が導入されています。
@@ -407,102 +434,6 @@ Google Noto フォントの事前定義フォント フォールバック設定�
 [Aspose.Words for .NET 22.11 リリースノート](/words/net/aspose-words-for-net-22-11-release-notes/) について詳しくは、こちらをご覧ください。
 
 [Aspose.Words for .NET 22.12 リリースノート](/words/net/aspose-words-for-net-22-12-release-notes/) について詳しくは、こちらをご覧ください。
-
-{{% /alert %}}
-
-## .NET 22.5、22.6、22.7、22.8 の Aspose.Words
-
-Aspose.Words 22.5 では、新しい読み込み形式と新しい印刷ページ サイズのサポートが導入され、いくつかのレンダリング オプションが改善されています。
-
-Aspose.Words 22.6 は、PDF を他の形式に変換する可能性を拡張するだけでなく、DrawingML とソリッド テキストの塗りつぶし効果を使用した作業を改善します。
-
-Aspose.Words 22.7 では、レンダリング機能の操作の可能性が強化され、HTML のインポートおよび PDF へのエクスポートを操作するための新機能も追加されています。
-
-Aspose.Words 22.8 では、新しいエクスポート形式が導入され、さまざまなレンダリング アルゴリズムが改善されています。
-
-API は、より柔軟で便利な開発のために強化されました。
-
-### サポートされている形式
-
-* EPUB および XML ドキュメントのロードのサポートは、[LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/) 列挙に新しい値を追加することによって導入されました。バージョン 22.5 以降、EPUB および XML ドキュメントを Aspose.Words ドキュメント モデルにロードし、任意の [サポートされている形式](https://reference.aspose.com/words/net/aspose.words/saveformat/) に変換できるようになりました。 <sup>22.5</sup>
-* バージョン 22.8 以降、ドキュメントを AZW3 形式 (Amazon Kindle 独自の電子書籍ファイル形式) で保存できるようになりました (KF8 は形式の別名です)。 AZW3 ドキュメントをロードできるだけでなく、本質的にコンパイルされた EPUB である AZW3 形式にファイルをエクスポートできるようになりました。 <sup>22.8</sup>
-
-### レンダリングと印刷
-
-#### 新しい印刷サイズ<sup>22.5</sup>
-
-[PaperSize](https://reference.aspose.com/words/net/aspose.words/papersize/) 列挙に新しい値を導入することにより、「Envelope No. 10」印刷ページ サイズのサポートが追加されました。
-
-#### MathML 数式<sup>22.5</sup>のレンダリング
-
-MathML 数式の周囲の境界ボックスのレンダリングと、そのような数式の文字をレンダリングするときのフォント検出が改善されました。
-
-#### DML チャートの改善<sup>22.6</sup>
-
-DrawingML チャートのパブリック API は、グラデーション、テクスチャ、およびパターンの塗りつぶしをサポートするように拡張されました。
-
-#### OpenType <sup>22.7</sup>の Glyph アウトライン解析
-
-Aspose.Words 独自の OpenType (CFF) フォントの glyph アウトライン解析が実装されました。
-
-以前は、OpenType (CFF) フォントの glyph 解析は GDI+ 経由で実行されていました。そのため、Java、.NET Standard プラットフォーム、Linux OS など、GDI+ が利用できない場合でも機能するようになりました。Glyph アウトラインの解析は、ワードアート、テキスト効果、一部の Office Math 機能などの特定の場合に必要です。
-
-#### 図形の影の書式設定<sup>22.7</sup>
-
-新しい [ShadowFormat](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/shadowformat/) プロパティを追加することで、シェイプ オブジェクトの影の書式設定を設定する機能が提供されました。
-
-#### 表<sup>22.8</sup>のセル間隔のサポート
-
-レイアウト エンジンが大幅に改善され、テーブル内の非常に複雑なセル間隔メカニズムが実装されました。
-
-#### シンボルのフォント置換<sup>22.8</sup>
-
-シンボルのフォント置換が改善されました。
-
-#### チャート軸ラベル回転アルゴリズム<sup>22.8</sup>
-
-グラフの軸ラベルの回転アルゴリズムが改善されました。
-
-### ドキュメントのロードと保存
-
-#### レイアウト モデル<sup>22.6</sup>を使用せずに PDF をロードして固定ページ形式に変換する
-
-PDF ドキュメントをロードし、高い忠実度とパフォーマンスで固定ページ形式に変換する機能が実装されました。
-
-#### 新しい HTML インポート モード<sup>22.7</sup>
-
-[HtmlInsertOptions](https://reference.aspose.com/words/net/aspose.words/htmlinsertoptions/) 列挙に新しい値を追加することにより、ブロックレベル要素の新しい HTML インポート モードが導入されました。
-
-#### WCAG 2.0 <sup>22.7</sup>を使用した PDF/UA-1 CSompliant への変換
-
-WCAG 2.0 に準拠した PDF/UA-1 形式へのドキュメントの変換のサポートが追加されました。
-
-したがって、顧客がアクセス可能な Word 文書を持っており、変換の詳細を記載した Aspose.Words 経由で PDF/UA-1 に変換すると、出力は WCAG 2.0 と互換になります。
-
-WCAG または Web コンテンツ アクセシビリティ ガイドラインは、W3C が世界中の個人や組織と協力して開発した一連のガイドラインです。 Aspose.Words を使用すると、ドキュメントを出力 PDF/UA-1 形式に変換できるようになり、WCAG 2.0 準拠の PDF ドキュメントの作成に適しています。
-
-WCAG 2.0 には、PDF/UA-1 仕様で指定されていない 2 つの追加要件があることに注意してください。
-
-* コントラスト要件
-
-* マルチメディア コンテンツのタグ付けの要件
-
-ただし、両方の要件は Word から PDF に変換する場合には関係ありません。
-
-### 他の
-
-* MS Word の動作を模倣する塗りつぶし効果の継承の例外が実装されました。 <sup>22.6</sup>
-* `DATABASE` フィールドのサポートが追加されました。このタイプのフィールドを使用すると、たとえば、データベース クエリの結果を Microsoft Word テーブルに表示できます。 <sup>22.7</sup>
-
-{{% alert color="primary" %}}
-
-[Aspose.Words for .NET 22.5 リリースノート](/words/net/aspose-words-for-net-22-5-release-notes/) について詳しくは、こちらをご覧ください。
-
-[Aspose.Words for .NET 22.6 リリースノート](/words/net/aspose-words-for-net-22-6-release-notes/) について詳しくは、こちらをご覧ください。
-
-[Aspose.Words for .NET 22.7 リリースノート](/words/net/aspose-words-for-net-22-7-release-notes/) について詳しくは、こちらをご覧ください。
-
-[Aspose.Words for .NET 22.8 リリースノート](/words/net/aspose-words-for-net-22-8-release-notes/) について詳しくは、こちらをご覧ください。
 
 {{% /alert %}}
 

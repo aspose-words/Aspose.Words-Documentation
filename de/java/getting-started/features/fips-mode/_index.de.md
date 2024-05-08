@@ -63,6 +63,6 @@ Die ähnliche Ausnahme kann auftreten, wenn Tasten mit unangemessener Länge ver
 
 UngenehmigtSecurityOperation Ausnahme: Sie können im FIPS-Modus keinen Schlüssel mit der Größe 1024 für RSA verwenden.
 
-Für weitere Details zur freigegebenen Algorithmenliste siehe [Bouncy Benutzerhandbuch von Castle](https://downloads.bouncycastle.org/fips-java/BC-FJA-UserGuide-1.0.1.pdf), "Cipher Algorithmen (Symmetric)".
+Für weitere Details zur freigegebenen Algorithmenliste siehe [Bouncy Benutzerhandbuch von Castle](https://downloads.bouncycastle.org/fips-java/docs/BC-FJA-UserGuide-1.0.1.pdf), "Cipher Algorithmen (Symmetric)".
 
 

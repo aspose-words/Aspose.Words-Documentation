@@ -11,6 +11,29 @@ url: /nl/python-net/what-s-new-in-aspose-words-for-python-net/
 
 Deze pagina beschrijft de meest interessante nieuwe Aspose.Words features geïntroduceerd in recente releases.
 
+## Aspose.Words voor Python via .NET 24.5
+
+### Renderen en afdrukken
+
+#### Wijzigingen in Charts, Shapes en DrawingML <sup>24.5</sup>
+
+* Rendering van DrawingML-effecten voor SVG-afbeeldingen, waarmee de eerdere functionaliteit die beperkt was tot afbeeldingen, wordt uitgebreid.
+* Ondersteuning voor het maken van combinatiediagrammen en het aanpassen van eigenschappen zoals tussenruimte, overlap en bellenschaal binnen reeksgroepen is geïntroduceerd door de [ChartSeriesGroup](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriesgroup/) en [ChartSeriesGroupCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriesgroupcollection/) klassen en de [series_groups](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chart/series_groups/) eigenschap.
+* Functionaliteit om het SoftEdge-effect van vormen te manipuleren is geïmplementeerd door de klasse [SoftEdgeFormat](https://reference.aspose.com/words/python-net/aspose.words.drawing/softedgeformat/) toe te voegen.
+* De mogelijkheid om de waarden van vormen aan te passen is geïmplementeerd door het toevoegen van de **AdjustmentCollection** en **Adjustment** openbare klassen en [adjustments](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/adjustments/) eigendom.
+
+#### Ander
+
+* De functie om lege pagina's uit een document te verwijderen is geïmplementeerd door de methode [remove_blank_pages](https://reference.aspose.com/words/python-net/aspose.words/document/remove_blank_pages/) toe te voegen. <sup>24.5</sup>
+* De mogelijkheid om te controleren op de aanwezigheid van VBA-macro's zonder een document te laden is mogelijk gemaakt door de eigenschap [has_macros](https://reference.aspose.com/words/python-net/aspose.words/fileformatinfo/has_macros/) toe te voegen. <sup>24.5</sup>
+* Het behouden van bronnummering tijdens het invoegen van een document met behulp van de LINQ Reporting Engine wordt nu ondersteund. <sup>24.5</sup>
+
+{{% alert color="primary" %}}
+
+Meer informatie over [Aspose.Words voor Python via .NET 24.5 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-5-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words voor Python via .NET 24.1; 24.2, 24.3, 24.4
 
 Aspose.Words 24.1 verbetert de ervaring rond het beheren van slag kleuren, verbetert OLE objecten, evenals introduceert een nieuwe `Bibliography Sources` publiek API.
@@ -393,181 +416,6 @@ Meer informatie over [Aspose.Words voor Python via .NET 22.10 Release Notes](/wo
 Meer informatie over [Aspose.Words voor Python via .NET 22.11 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-22-11-release-notes/).
 
 Meer informatie over [Aspose.Words voor Python via .NET 22.12 Loslaten](/words/python-net/aspose-words-for-python-via-dotnet-22-12-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words voor Python via .NET 22.5; 22.6; 22.7; 22.8
-
-Aspose.Words 22.5 introduceert ondersteuning voor nieuwe laadformaten en een nieuwe afdrukpaginagrootte, en verbetert enkele renderingsopties.
-
-Aspose.Words 22.6 breidt de mogelijkheden uit om PDF naar andere formaten te converteren, en verbetert het werk met DrawingML en solide tekstvuleffect.
-
-Aspose.Words 22.7 vergroot de mogelijkheden om te werken met rendering functies, en voegt ook nieuwe functies voor het werken met HTML import en export naar PDF.
-
-Aspose.Words 22.8 introduceert een nieuw exportformaat en verbetert verschillende renderingalgoritmen.
-
-De API is verbeterd voor een flexibelere en gemakkelijkere ontwikkeling.
-
-### Ondersteunde formaten
-
-* Ondersteuning voor het laden van EPUB en XML documenten is ingevoerd door het toevoegen van nieuwe waarden aan de **LoadFormat** Lijst. Vanaf versie 22.5, is het mogelijk om EPUB en XML documenten te laden in Aspose.Words document model en converteren naar elke [Ondersteunde documentformaten](/words/nl/python-net/supported-document-formats/). <sup>22.5</sup>
-* Vanaf versie 22.8 is het mogelijk om een document op te slaan in het AZW3 formaat. Amazon Kindle's eigen e-book bestandsformaat (KF8 is een andere naam voor het formaat). Nu kunt u niet alleen AZW3 documenten laden, maar ook uw bestanden exporteren naar AZW3 formaat, dat is in wezen een samengesteld EPUB. <sup>22.8</sup>
-
-### Renderen en afdrukken
-
-#### Nieuwe afdrukgrootte <sup>22.5</sup>
-
-Ondersteuning voor de [PaperSize](https://reference.aspose.com/words/python-net/aspose.words/papersize/) Lijst.
-
-#### MathML-formules renderen <sup>22.5</sup>
-
-De weergave van een randvak rond MathML formules en lettertype detectie bij het renderen van tekens voor dergelijke formules is verbeterd.
-
-#### DML Grafiekverbeteringen <sup>22.6</sup>
-
-TekeningML grafieken openbaar API is uitgebreid om kleurverloop, textuur en patroonvullingen te ondersteunen.
-
-#### Glyph Uitlijning Ontleden voor OpenType <sup>27,7</sup>
-
-Aspose.Words eigen glyph schetsen voor OpenType (CFF) lettertypen is geïmplementeerd.
-
-Wat voorafging: glyph Het verwerken van OpenType (CFF) lettertypen werd uitgevoerd via GDI+. Dus nu werkt het in gevallen waarin GDI+ niet beschikbaar is Java, .NET Standard platforms, Linux, macOS, enz. Glyph schetst ontleden is vereist in specifieke gevallen zoals WordArt, tekst effecten, sommige Office Wiskunde functies, en anderen.
-
-#### Vormschaduwopmaak instellen <sup>27,7</sup>
-
-De mogelijkheid om de schaduwopmaak van het vormobject in te stellen is geboden door het toevoegen van een nieuwe [shadow_format](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/shadow_format/) eigendom.
-
-#### Ondersteuning voor celafstand in tabellen <sup>22.8</sup>
-
-De lay-out motor is nu aanzienlijk verbeterd: een zeer complex celafstandsmechanisme in tabellen is geïmplementeerd.
-
-#### Lettertypesubstitutie voor symbolen <sup>22.8</sup>
-
-Lettertypevervanging voor symbolen is verbeterd.
-
-#### Grafiek Axis Label Rotatie Algorithm <sup>22.8</sup>
-
-Het rotatiealgoritme van kaartaslabels is verbeterd.
-
-### Documenten laden en opslaan
-
-#### PDF laden en omzetten naar Fixed-page Format zonder Layout Model <sup>22.6</sup>
-
-De mogelijkheid om PDF-documenten te laden en converteren naar vaste paginaformaten met hoge trouw en prestaties is geïmplementeerd.
-
-#### Nieuwe HTML-importmodus <sup>27,7</sup>
-
-Een nieuwe HTML import mode voor blok-niveau elementen is ingevoerd door het toevoegen van een nieuwe waarde aan de [HtmlInsertOptions](https://reference.aspose.com/words/python-net/aspose.words/htmlinsertoptions/) Lijst.
-
-#### Converteren naar PDF/UA-1 Compliant met WCAG 2.0 <sup>27,7</sup>
-
-Ondersteuning voor het omzetten van een document naar PDF/UA-1 formaat, conform WCAG 2.0, is toegevoegd.
-
-Dus, als de klant een toegankelijk Word-document heeft en het converteert naar PDF/UA-1 via Aspose.Words met vermelding van de conversie-specificiën, dan zal de uitvoer WCAG 2.0 compatibel zijn.
-
-WCAG of Web Content Toegankelijkheid Richtlijnen is een reeks richtlijnen ontwikkeld door W3C in samenwerking met individuen en organisaties over de hele wereld. Nu met Aspose.Words U kunt uw document converteren naar het uitvoer PDF/UA-1 formaat, dat geschikt is om WCAG 2.0 conforme PDF documenten te bouwen.
-
-Er zij op gewezen dat WCAG 2.0 twee aanvullende eisen heeft die niet in de PDF/UA-1 specificatie zijn gespecificeerd:
-
-- eisen inzake contrast
-- voorschriften voor het merken van multimedia-inhoud
-
-Maar beide vereisten zijn niet relevant voor ons geval van het omzetten van Word naar PDF.
-
-### Andere
-
-Uitzondering van het erven van de solide tekst vullen effect dat MS Word gedrag nabootst is geïmplementeerd. <sup>22.6</sup>
-
-{{% alert color="primary" %}}
-
-Meer informatie over [Aspose.Words voor Python via .NET 22.5 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-22-5-release-notes/).
-
-Meer informatie over [Aspose.Words voor Python via .NET 22.6 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-22-6-release-notes/).
-
-Meer informatie over [Aspose.Words voor Python via .NET 22.7 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-22-7-release-notes/).
-
-Meer informatie over [Aspose.Words voor Python via .NET 22.8 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-22-8-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words voor Python via .NET 22.3; 22.4
-
-Aspose.Words 22.3 vergroot de mogelijkheden om te werken met PDF- en TXT-formaten en verbetert het werk van enkele bestaande algoritmen en motoren.
-
-Aspose.Words 22.4 verbetert PDF-mogelijkheden Nu kunt u een bestand opslaan in PDF/A-4 formaat en een aantal andere verbeteringen in PDF-uitvoer. Tegelijkertijd, Aspose.Words 22.4 biedt extra mogelijkheden om met DML-grafieken te werken, de Photoshop-metadata te lezen en HTML-blokelementen te importeren.
-
-De API is verbeterd voor een flexibelere en gemakkelijkere ontwikkeling.
-
-### Ondersteunde functies
-
-Beginnen met Aspose.Words 22.4, steun voor Python 3.10 is toegevoegd.
-
-### Prestatieverbeteringen
-
-Het laden van een eerder opgeslagen font search cache om het initialisatieproces van het lettertype cache te versnellen bij het renderen is geïmplementeerd. Nu zullen uw oplossingen nog sneller werken.
-
-### Ondersteunde formaten
-
-Het laden van een document in AZW3 formaat (KF8 is een andere naam voor het formaat) is toegevoegd. Nu kunt u een AZW3 document laden en converteren naar andere ondersteunde formaten.
-
-### Renderen
-
-#### MathML-formules renderen
-
-De weergave van operators in MathML formules is verbeterd.
-
-#### DML Grafiekverbeteringen
-
-De volgende verbeteringen zijn aangebracht in de DML-grafieken:
-
-* De DML kaart as schalen algoritme is verbeterd om hetzelfde als in MS Word
-
-* De mogelijkheid om te manipuleren met DrawingML grafiek legend items is verstrekt om onze grafiek te maken API meer en uitgebreider
-* De mogelijkheid om de naam van een xls/xlsx bestand op te geven waaraan de DrawingML grafiek is gekoppeld is geïmplementeerd
-
-#### Renderen naar PDF met PDF/A-4 Compliance
-
-Het renderen in PDF met PDF/A-4 compliance is toegevoegd door het toevoegen van nieuwe waarden aan de [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) Inkomens [PDF_A4](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/#pdf_a4). Deze optie gaat uit van herziene conformiteitsniveaus: regelmatige PDF/A-4 conformiteit is gelijk aan conformiteitsniveau U van eerdere versies, en niveau A conformiteit wordt verwijderd.
-
-#### Het lezen van Photoshop metadata resolutie in JPEG
-
-Het lezen van Photoshop metadata resolutie in JPEG-afbeeldingen is geïmplementeerd om een interessant probleem op te lossen met onjuiste schaal van afbeeldingen bij het renderen.
-
-#### Latijne tekst in het midden van een woord laten inpakken
-
-Ondersteuning voor de "Latijne tekst toestaan om in het midden van een woord te wrapen" functie is geïmplementeerd om onze Latijnse steun nog beter te maken bij het renderen.
-
-### Documenten laden en opslaan
-
-#### Stijlgedrag controleren Bij het laden van een document
-
-Een nieuwe optie [force_copy_styles](https://reference.aspose.com/words/python-net/aspose.words/importformatoptions/force_copy_styles/) is geïntroduceerd om het gedrag van tegenstrijdige stijlen controleren op document import.
-
-#### Vormen omzetten naar SVG Bij exporteren
-
-De mogelijkheid om vormen te converteren naar SVG beelden bij het exporteren naar HTML, MHTML, of EPUB is verstrekt door het toevoegen van de [export_shapes_as_svg](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/export_shapes_as_svg/) eigendom.
-
-#### Opslaan naar PDF 2.0 en verbeteringen in PDF-uitvoer
-
-De mogelijkheid om een document op te slaan als PDF 2.0 door een nieuwe waarde toe te voegen aan de [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) Er is een opsomming ingevoerd, evenals een aantal andere gevraagde verbeteringen van de PDF-output.
-
-#### Nieuwe HTML-importmodus
-
-Een nieuwe import mode voor HTML blok-niveau elementen is geïmplementeerd om na te bootsen Microsoft Word Gedrag.
-
-### Andere
-
-* De mogelijkheid om OOXML van een inhoudscontrole te krijgen en op te slaan in string is geïntroduceerd.
-* Erkenning van niet-standaard voetnoten in PDF-documenten bij invoer is toegevoegd.
-* Een mogelijkheid om aangepaste veldgegevens die is geassocieerd met het veld is toegevoegd.
-* De tabel vergelijken algoritme vertrouwen op diepe analyse van Microsoft Word Het vergelijkingsmechanisme is verbeterd.
-* De commentaar syntax in LINQ Reporting engine is verstrekt.
-
-{{% alert color="primary" %}}
-
-Meer informatie over [Aspose.Words voor Python via .NET 22.3 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-22-3-release-notes/).
-
-Meer informatie over [Aspose.Words voor Python via .NET 22.4 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-22-4-release-notes/).
 
 {{% /alert %}}
 

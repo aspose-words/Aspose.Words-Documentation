@@ -63,6 +63,6 @@ La excepción similar puede ocurrir si se utilizan llaves de longitud inapropiad
 
 No aprobadoSecurityOperation Excepción: No puede utilizar una llave con el tamaño 1024 para RSA en modo FIPS.
 
-Para más detalles sobre la lista de algoritmos aprobados, vea [Bouncy Castle User Guide](https://downloads.bouncycastle.org/fips-java/BC-FJA-UserGuide-1.0.1.pdf), "Cipher Algorithms (Simétrico)".
+Para más detalles sobre la lista de algoritmos aprobados, vea [Bouncy Castle User Guide](https://downloads.bouncycastle.org/fips-java/docs/BC-FJA-UserGuide-1.0.1.pdf), "Cipher Algorithms (Simétrico)".
 
 

@@ -11,6 +11,33 @@ url: /vi/net/what-s-new-in-aspose-words-for-net/
 
 Trang này mô tả các tính năng Aspose.Words mới thú vị nhất được giới thiệu trong các bản phát hành gần đây.
 
+## Aspose.Words cho .NET 24.5
+
+### Nền tảng
+
+Các tập hợp .NET 7.0/8.0 đã được bao gồm trong gói Aspose.Words NuGet.
+
+### Hiển thị và In
+
+#### Những thay đổi trong Charts, Shapes và DrawingML <sup>24.5</sup>
+
+* Việc kết xuất hiệu ứng DrawML cho đồ họa SVG, mở rộng chức năng trước đó chỉ giới hạn ở hình ảnh, đã được triển khai.
+* Hỗ trợ tạo biểu đồ kết hợp và điều chỉnh các thuộc tính như độ rộng khoảng cách, sự chồng chéo và tỷ lệ bong bóng trong các nhóm chuỗi đã được giới thiệu bằng cách thêm các lớp [ChartSeriesGroup](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriesgroup/) và [ChartSeriesGroupCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriesgroupcollection/) cũng như thuộc tính [SeriesGroups](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/seriesgroups/).
+* Chức năng thao tác hiệu ứng SoftEdge của các hình dạng đã được triển khai bằng cách thêm lớp [SoftEdgeFormat](https://reference.aspose.com/words/net/aspose.words.drawing/softedgeformat/).
+* Khả năng sửa đổi giá trị điều chỉnh của hình dạng đã được triển khai bằng cách thêm [AdjustmentCollection](https://reference.aspose.com/words/net/aspose.words.drawing/adjustmentcollection/) và [Adjustment](https://reference.aspose.com/words/net/aspose.words.drawing/adjustment/) các lớp công khai và [Adjustments](https://reference.aspose.com/words/net/aspose.words.drawing/shape/adjustments/) tài sản.
+
+#### Khác
+
+* Chức năng loại bỏ các trang trống khỏi tài liệu đã được triển khai bằng cách thêm phương thức [RemoveBlankPages](https://reference.aspose.com/words/net/aspose.words/document/removeblankpages/). <sup>24.5</sup>
+* Khả năng kiểm tra sự hiện diện của macro VBA mà không cần tải tài liệu đã được cung cấp bằng cách thêm thuộc tính [HasMacros](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/hasmacros/). <sup>24.5</sup>
+* Hiện đã hỗ trợ giữ nguyên đánh số nguồn trong khi chèn tài liệu bằng Công cụ Báo cáo LINQ. <sup>24.5</sup>
+
+{{% alert color="primary" %}}
+
+Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 24.5](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-5-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words cho .NET 24.1, 24.2, 24.3, 24.4
 
 Aspose.Words 24.1 cải thiện trải nghiệm xung quanh việc quản lý màu nét, nâng cao các đối tượng OLE và báo cáo LINQ, cũng như giới thiệu API công khai Nguồn thư mục mới.
@@ -407,102 +434,6 @@ Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 22.10](/words
 Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 22.11](/words/net/aspose-words-for-net-22-11-release-notes/).
 
 Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 22.12](/words/net/aspose-words-for-net-22-12-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words cho .NET 22.5, 22.6, 22.7, 22.8
-
-Aspose.Words 22.5 giới thiệu hỗ trợ cho các định dạng tải mới và kích thước trang in mới, cũng như cải thiện một số tùy chọn kết xuất.
-
-Aspose.Words 22.6 mở rộng khả năng chuyển đổi PDF sang các định dạng khác, cũng như cải thiện công việc với DrawML và hiệu ứng điền văn bản rắn.
-
-Aspose.Words 22.7 nâng cao khả năng làm việc với các tính năng kết xuất, đồng thời bổ sung thêm các tính năng mới để làm việc với việc nhập và xuất HTML sang PDF.
-
-Aspose.Words 22.8 giới thiệu định dạng xuất mới và cải thiện các thuật toán kết xuất khác nhau.
-
-API được cải tiến để phát triển linh hoạt và thuận tiện hơn.
-
-### Các định dạng được hỗ trợ
-
-* Hỗ trợ tải tài liệu EPUB và XML đã được giới thiệu bằng cách thêm các giá trị mới vào bảng liệt kê [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/). Bắt đầu từ phiên bản 22.5, có thể tải tài liệu EPUB và XML vào mô hình tài liệu Aspose.Words và chuyển đổi chúng sang bất kỳ [định dạng được hỗ trợ](https://reference.aspose.com/words/net/aspose.words/saveformat/) nào. <sup>22.5</sup>
-* Bắt đầu từ phiên bản 22.8, có thể lưu tài liệu ở định dạng AZW3 – định dạng tệp sách điện tử độc quyền của Amazon Kindle (KF8 là tên gọi khác của định dạng). Giờ đây, bạn không chỉ có thể tải tài liệu AZW3 mà còn có thể xuất các tệp của mình sang định dạng AZW3, về cơ bản là một EPUB được biên dịch. <sup>22.8</sup>
-
-### Kết xuất và in ấn
-
-#### Kích thước in mới <sup>22.5</sup>
-
-Hỗ trợ cho kích thước trang in "Phong bì số 10" đã được thêm bằng cách giới thiệu một giá trị mới cho bảng liệt kê [PaperSize](https://reference.aspose.com/words/net/aspose.words/papersize/).
-
-#### Hiển thị Công thức MathML <sup>22.5</sup>
-
-Việc hiển thị hộp viền xung quanh các công thức MathML và phát hiện phông chữ khi hiển thị các ký tự cho các công thức đó đã được cải thiện.
-
-#### Cải tiến biểu đồ DML <sup>22.6</sup>
-
-API công khai của biểu đồ DrawML đã được mở rộng để hỗ trợ tô màu gradient, kết cấu và mẫu.
-
-#### Glyph phác thảo phân tích cú pháp cho OpenType <sup>22.7</sup>
-
-Việc phân tích cú pháp phác thảo glyph của Aspose.Words cho các phông chữ OpenType (CFF) đã được triển khai.
-
-Trước đây, việc phân tích cú pháp glyph cho phông chữ OpenType (CFF) được thực hiện thông qua GDI+. Vì vậy, giờ đây nó hoạt động trong những trường hợp không có GDI+ – Java, nền tảng .NET Standard, Linux OS, v.v. Phân tích cú pháp phác thảo Glyph là bắt buộc trong các trường hợp cụ thể như WordArt, hiệu ứng văn bản, một số tính năng Office Math và các tính năng khác.
-
-#### Đặt định dạng bóng hình dạng <sup>22.7</sup>
-
-Khả năng thiết lập định dạng bóng của đối tượng hình dạng đã được cung cấp bằng cách thêm thuộc tính [ShadowFormat](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/shadowformat/) mới.
-
-#### Hỗ trợ khoảng cách ô trong bảng <sup>22.8</sup>
-
-Công cụ bố trí hiện đã được cải tiến đáng kể: cơ chế giãn cách ô rất phức tạp trong các bảng đã được triển khai.
-
-#### Thay thế phông chữ cho ký hiệu <sup>22.8</sup>
-
-Việc thay thế phông chữ cho các ký hiệu đã được cải thiện.
-
-#### Thuật toán xoay nhãn trục biểu đồ <sup>22.8</sup>
-
-Thuật toán xoay nhãn trục biểu đồ đã được cải thiện.
-
-### Tải và lưu tài liệu
-
-#### Tải và chuyển đổi PDF sang định dạng trang cố định mà không cần Layout Model <sup>22.6</sup>
-
-Khả năng tải và chuyển đổi tài liệu PDF sang các định dạng trang cố định với độ trung thực và hiệu suất cao đã được triển khai.
-
-#### Chế độ nhập HTML mới <sup>22.7</sup>
-
-Chế độ nhập HTML mới cho các phần tử cấp khối đã được giới thiệu bằng cách thêm một giá trị mới vào bảng liệt kê [HtmlInsertOptions](https://reference.aspose.com/words/net/aspose.words/htmlinsertoptions/).
-
-#### Chuyển đổi sang PDF/UA-1 CSompliant với WCAG 2.0 <sup>22.7</sup>
-
-Hỗ trợ chuyển đổi tài liệu sang định dạng PDF/UA-1, tương thích với WCAG 2.0, đã được thêm vào.
-
-Vì vậy, nếu khách hàng có tài liệu Word có thể truy cập và chuyển đổi nó thành PDF/UA-1 thông qua Aspose.Words có đề cập đến thông tin cụ thể về chuyển đổi thì đầu ra sẽ tương thích với WCAG 2.0.
-
-WCAG hay Nguyên tắc truy cập nội dung web là một bộ nguyên tắc được W3C phát triển với sự cộng tác của các cá nhân và tổ chức trên toàn thế giới. Giờ đây với Aspose.Words, bạn có thể chuyển đổi tài liệu của mình sang định dạng PDF/UA-1 đầu ra, phù hợp để xây dựng tài liệu PDF tuân thủ WCAG 2.0.
-
-Điều đáng chú ý là WCAG 2.0 có hai yêu cầu bổ sung không được chỉ định trong đặc tả PDF/UA-1:
-
-* yêu cầu về độ tương phản
-
-* yêu cầu gắn thẻ nội dung đa phương tiện
-
-Nhưng cả hai yêu cầu đều không liên quan đến trường hợp chuyển đổi từ Word sang PDF của chúng tôi.
-
-### Khác
-
-* Ngoại lệ kế thừa hiệu ứng điền văn bản đặc bắt chước hành vi của MS Word đã được triển khai. <sup>22.6</sup>
-* Hỗ trợ các trường `DATABASE` đã được thêm vào. Ví dụ: bằng cách sử dụng loại trường này, bạn có thể hiển thị kết quả của truy vấn cơ sở dữ liệu trong bảng Microsoft Word. <sup>22.7</sup>
-
-{{% alert color="primary" %}}
-
-Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 22.5](/words/net/aspose-words-for-net-22-5-release-notes/).
-
-Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 22.6](/words/net/aspose-words-for-net-22-6-release-notes/).
-
-Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 22.7](/words/net/aspose-words-for-net-22-7-release-notes/).
-
-Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 22.8](/words/net/aspose-words-for-net-22-8-release-notes/).
 
 {{% /alert %}}
 

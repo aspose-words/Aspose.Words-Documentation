@@ -63,6 +63,6 @@ SecuritySettings.isInFipsMode();
 
 未经核准的安保行动 例外: 在 FIPS 模式下,您不能使用大小为 1024 的 RSA 密钥 。
 
-关于已核准的算法清单的更多详情,见: [弹跳 城堡用户指南](https://downloads.bouncycastle.org/fips-java/BC-FJA-UserGuide-1.0.1.pdf), "密码算法(对称)"。
+关于已核准的算法清单的更多详情,见: [弹跳 城堡用户指南](https://downloads.bouncycastle.org/fips-java/docs/BC-FJA-UserGuide-1.0.1.pdf), "密码算法(对称)"。
 
 
