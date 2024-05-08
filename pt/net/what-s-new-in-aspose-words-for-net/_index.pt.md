@@ -11,6 +11,33 @@ url: /pt/net/what-s-new-in-aspose-words-for-net/
 
 Esta página descreve os novos recursos Aspose.Words mais interessantes introduzidos em versões recentes.
 
+## Aspose.Words para .NET 24.5
+
+### Plataformas
+
+Os assemblies .NET 7.0/8.0 foram incluídos no pacote Aspose.Words NuGet.
+
+### Renderização e impressão
+
+#### Mudanças em Charts, Shapes e DrawingML <sup>24.5</sup>
+
+* A renderização de efeitos DrawingML para gráficos SVG, estendendo a funcionalidade anterior limitada a imagens, foi implementada.
+* O suporte para criação de gráficos combinados e ajuste de propriedades como largura de intervalo, sobreposição e escala de bolha em grupos de séries foi introduzido com a adição das classes [ChartSeriesGroup](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriesgroup/) e [ChartSeriesGroupCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriesgroupcollection/) e da propriedade [SeriesGroups](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/seriesgroups/).
+* A funcionalidade para manipular o efeito SoftEdge de formas foi implementada adicionando a classe [SoftEdgeFormat](https://reference.aspose.com/words/net/aspose.words.drawing/softedgeformat/).
+* A capacidade de modificar valores de ajuste de formas foi implementada adicionando [AdjustmentCollection](https://reference.aspose.com/words/net/aspose.words.drawing/adjustmentcollection/) e [Adjustment](https://reference.aspose.com/words/net/aspose.words.drawing/adjustment/) classes públicas e [Adjustments](https://reference.aspose.com/words/net/aspose.words.drawing/shape/adjustments/) propriedade.
+
+#### Outro
+
+* A função para eliminar páginas vazias de um documento foi implementada adicionando o método [RemoveBlankPages](https://reference.aspose.com/words/net/aspose.words/document/removeblankpages/). <sup>24.5</sup>
+* A capacidade de verificar a presença de macros VBA sem carregar um documento foi fornecida adicionando a propriedade [HasMacros](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/hasmacros/). <sup>24.5</sup>
+* Agora há suporte para manter a numeração de origem ao inserir um documento usando o LINQ Reporting Engine. <sup>24.5</sup>
+
+{{% alert color="primary" %}}
+
+Saiba mais sobre [Notas de versão do Aspose.Words para .NET 24.5](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-5-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words para .NET 24.1, 24.2, 24.3, 24.4
 
 Aspose.Words 24.1 melhora a experiência de gerenciamento de cores de traços, aprimora objetos OLE e relatórios LINQ, além de introduzir um novo API público de fontes bibliográficas.
@@ -407,102 +434,6 @@ Saiba mais sobre [Aspose.Words para .NET 22.10 Notas de versão](/words/net/aspo
 Saiba mais sobre [Aspose.Words para .NET 22.11 Notas de versão](/words/net/aspose-words-for-net-22-11-release-notes/).
 
 Saiba mais sobre [Aspose.Words para .NET 22.12 Notas de versão](/words/net/aspose-words-for-net-22-12-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words para .NET 22.5, 22.6, 22.7, 22.8
-
-Aspose.Words 22.5 introduz suporte para novos formatos de carregamento e um novo tamanho de página de impressão, além de melhorar algumas opções de renderização.
-
-Aspose.Words 22.6 amplia as possibilidades de conversão de PDF para outros formatos, além de melhorar o trabalho com DrawingML e efeito de preenchimento de texto sólido.
-
-Aspose.Words 22.7 aprimora as possibilidades de trabalhar com recursos de renderização e também adiciona novos recursos para trabalhar com importação e exportação de HTML para PDF.
-
-Aspose.Words 22.8 introduz um novo formato de exportação e melhora vários algoritmos de renderização.
-
-O API foi aprimorado para um desenvolvimento mais flexível e conveniente.
-
-### Formatos Suportados
-
-* O suporte para carregamento de documentos EPUB e XML foi introduzido adicionando novos valores à enumeração [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/). A partir da versão 22.5, é possível carregar documentos EPUB e XML no modelo de documento Aspose.Words e convertê-los para qualquer [formatos suportados](https://reference.aspose.com/words/net/aspose.words/saveformat/). <sup>22.5</sup>
-* A partir da versão 22.8, é possível salvar um documento no formato AZW3 – formato de arquivo de e-book proprietário do Kindle Amazon (KF8 é outro nome para o formato). Agora você pode não apenas carregar documentos AZW3, mas também exportar seus arquivos para o formato AZW3, que é essencialmente um EPUB compilado. <sup>22.8</sup>
-
-### Renderização e Impressão
-
-#### Novo tamanho de impressão <sup>22.5</sup>
-
-O suporte para o tamanho de página de impressão "Envelope nº 10" foi adicionado com a introdução de um novo valor na enumeração [PaperSize](https://reference.aspose.com/words/net/aspose.words/papersize/).
-
-#### Renderizando fórmulas MathML <sup>22.5</sup>
-
-A renderização de uma caixa de borda em torno das fórmulas MathML e a detecção de fontes ao renderizar caracteres para tais fórmulas foram melhoradas.
-
-#### Melhorias no gráfico DML <sup>22.6</sup>
-
-Gráficos DrawingML API público foram estendidos para suportar preenchimentos de gradiente, textura e padrão.
-
-#### Glyph descreve análise para OpenType <sup>22.7</sup>
-
-A análise de contornos glyph do próprio Aspose.Words para fontes OpenType (CFF) foi implementada.
-
-Anteriormente, a análise glyph para fontes OpenType (CFF) era realizada via GDI+. Portanto, agora funciona nos casos em que GDI + não está disponível – plataformas Java, .NET Standard, Linux OS, etc. A análise de contornos Glyph é necessária em casos específicos como WordArt, efeitos de texto, alguns recursos do Office Math e outros.
-
-#### Definir formatação de sombra de forma <sup>22.7</sup>
-
-A capacidade de definir a formatação de sombra do objeto de forma foi fornecida pela adição de uma nova propriedade [ShadowFormat](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/shadowformat/).
-
-#### Suporte para espaçamento de células nas Tabelas <sup>22.8</sup>
-
-O mecanismo de layout foi significativamente melhorado: um mecanismo muito complexo de espaçamento de células em tabelas foi implementado.
-
-#### Substituição de fonte para símbolos <sup>22.8</sup>
-
-A substituição de fontes para símbolos foi melhorada.
-
-#### Algoritmo de rotação do rótulo do eixo do gráfico <sup>22.8</sup>
-
-O algoritmo de rotação dos rótulos dos eixos do gráfico foi aprimorado.
-
-### Carregando e salvando documentos
-
-#### Carregar e converter PDF em formato de página fixa sem modelo de layout <sup>22.6</sup>
-
-Foi implementada a capacidade de carregar e converter documentos PDF em formatos de página fixos com alta fidelidade e desempenho.
-
-#### Novo modo de importação de HTML <sup>22.7</sup>
-
-Um novo modo de importação HTML para elementos em nível de bloco foi introduzido adicionando um novo valor à enumeração [HtmlInsertOptions](https://reference.aspose.com/words/net/aspose.words/htmlinsertoptions/).
-
-#### Converter para PDF/UA-1 CSompliant com WCAG 2.0 <sup>22.7</sup>
-
-Foi adicionado suporte para conversão de um documento para o formato PDF/UA-1, compatível com WCAG 2.0.
-
-Portanto, se o cliente tiver um documento Word acessível e o converter para PDF/UA-1 via Aspose.Words mencionando os detalhes da conversão, a saída será compatível com WCAG 2.0.
-
-WCAG ou Diretrizes de Acessibilidade para Conteúdo da Web é um conjunto de diretrizes desenvolvido pelo W3C em colaboração com indivíduos e organizações em todo o mundo. Agora, com Aspose.Words você pode converter seu documento para o formato PDF/UA-1 de saída, que é adequado para criar documentos PDF compatíveis com WCAG 2.0.
-
-Vale a pena notar que WCAG 2.0 tem dois requisitos adicionais que não são especificados na especificação PDF/UA-1:
-
-* requisitos de contraste
-
-* requisitos para marcação de conteúdo multimídia
-
-Mas ambos os requisitos não são relevantes para o nosso caso de conversão de Word para PDF.
-
-### Outro
-
-* Foi implementada a exceção de herdar o efeito de preenchimento de texto sólido que imita o comportamento do MS Word. <sup>22.6</sup>
-* Foi adicionado suporte para campos `DATABASE`. Utilizando este tipo de campo você pode, por exemplo, mostrar os resultados de uma consulta ao banco de dados em uma tabela Microsoft Word. <sup>22.7</sup>
-
-{{% alert color="primary" %}}
-
-Saiba mais sobre [Notas de versão do Aspose.Words para .NET 22.5](/words/net/aspose-words-for-net-22-5-release-notes/).
-
-Saiba mais sobre [Notas de versão do Aspose.Words para .NET 22.6](/words/net/aspose-words-for-net-22-6-release-notes/).
-
-Saiba mais sobre [Notas de versão do Aspose.Words para .NET 22.7](/words/net/aspose-words-for-net-22-7-release-notes/).
-
-Saiba mais sobre [Notas de versão do Aspose.Words para .NET 22.8](/words/net/aspose-words-for-net-22-8-release-notes/).
 
 {{% /alert %}}
 

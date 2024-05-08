@@ -11,6 +11,33 @@ url: /ar/net/what-s-new-in-aspose-words-for-net/
 
 تصف هذه الصفحة ميزات Aspose.Words الجديدة الأكثر إثارة للاهتمام والتي تم تقديمها في الإصدارات الأخيرة.
 
+## Aspose.Words لـ .NET 24.5
+
+### المنصات
+
+تم تضمين مجموعات .NET 7.0/8.0 في حزمة Aspose.Words NuGet.
+
+### التقديم والطباعة
+
+#### التغييرات في Charts وShapes وDrawingML <sup>24.5</sup>
+
+* تم تنفيذ عرض تأثيرات DrawingML لرسومات SVG، مما أدى إلى توسيع الوظائف السابقة التي تقتصر على الصور.
+* تم تقديم الدعم لإنشاء مخططات مجمعة وضبط الخصائص مثل عرض الفجوة والتداخل ومقياس الفقاعات ضمن مجموعات السلسلة عن طريق إضافة [ChartSeriesGroup](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriesgroup/) وفئات [ChartSeriesGroupCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriesgroupcollection/) وفئات [SeriesGroups](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/seriesgroups/).
+* تم تنفيذ وظيفة معالجة تأثير SoftEdge للأشكال عن طريق إضافة فئة [SoftEdgeFormat](https://reference.aspose.com/words/net/aspose.words.drawing/softedgeformat/).
+* تم تنفيذ القدرة على تعديل قيم ضبط الأشكال عن طريق إضافة [AdjustmentCollection](https://reference.aspose.com/words/net/aspose.words.drawing/adjustmentcollection/) و[Adjustment](https://reference.aspose.com/words/net/aspose.words.drawing/adjustment/) الفئات العامة و[Adjustments](https://reference.aspose.com/words/net/aspose.words.drawing/shape/adjustments/) ملكية.
+
+#### آخر
+
+* تم تنفيذ وظيفة إزالة الصفحات الفارغة من المستند عن طريق إضافة طريقة [RemoveBlankPages](https://reference.aspose.com/words/net/aspose.words/document/removeblankpages/). <sup>24.5</sup>
+* تم توفير القدرة على التحقق من وجود وحدات ماكرو VBA دون تحميل مستند عن طريق إضافة خاصية [HasMacros](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/hasmacros/). <sup>24.5</sup>
+* أصبح الحفاظ على ترقيم المصدر أثناء إدراج مستند باستخدام محرك التقارير LINQ مدعومًا الآن. <sup>24.5</sup>
+
+{{% alert color="primary" %}}
+
+تعرف على المزيد حول [ملاحظات إصدار Aspose.Words for .NET 24.5](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-5-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words لـ .NET 24.1, 24.2, 24.3, 24.4
 
 يعمل Aspose.Words 24.1 على تحسين التجربة المتعلقة بإدارة ألوان الحدود، ويعزز كائنات OLE وتقارير LINQ، بالإضافة إلى تقديم مصادر المراجع الببليوغرافية الجديدة API العامة.

@@ -11,6 +11,29 @@ url: /he/python-net/what-s-new-in-aspose-words-for-python-net/
 
 דף זה מתאר את החדש המעניין ביותר Aspose.Words תכונות שהוצגו במהדורות האחרונות.
 
+## Aspose.Words עבור Python via .NET 24.5
+
+### עיבוד והדפסה
+
+#### שינויים ב Charts, Shapes, DrawingML <sup>24.5</sup>
+
+* עיבוד אפקטים של DrawingML עבור גרפיקת SVG, הרחבת פונקציונליות קודמת מוגבלת לתמונות, יושם.
+* תמיכה ביצירת תרשימים משולבים והתאמת מאפיינים כגון רוחב פערים, חפיפה וסולם בועות בתוך קבוצות סדרות הוצגה על ידי הוספת [ChartSeriesGroup](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriesgroup/) ו-[ChartSeriesGroupCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriesgroupcollection/) וכיתות [series_groups](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chart/series_groups/).
+* פונקציונליות לתמרן אפקט SoftEdge של צורות יושמה על ידי הוספת המחלקה [SoftEdgeFormat](https://reference.aspose.com/words/python-net/aspose.words.drawing/softedgeformat/).
+* היכולת לשנות ערכי התאמה של צורות יושמה על ידי הוספת **AdjustmentCollection** ו-**Adjustment** שיעורים ציבוריים ו-[adjustments](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/adjustments/) תכונה.
+
+#### אחר
+
+* הפונקציה להעלמת דפים ריקים ממסמך יושמה על ידי הוספת השיטה [remove_blank_pages](https://reference.aspose.com/words/python-net/aspose.words/document/remove_blank_pages/). <sup>24.5</sup>
+* היכולת לבדוק נוכחות של פקודות מאקרו VBA מבלי לטעון מסמך ניתנה על ידי הוספת המאפיין [has_macros](https://reference.aspose.com/words/python-net/aspose.words/fileformatinfo/has_macros/). <sup>24.5</sup>
+* שמירה על מספור המקור בזמן הכנסת מסמך באמצעות מנוע הדיווח LINQ נתמך כעת. <sup>24.5</sup>
+
+{{% alert color="primary" %}}
+
+למד עוד על [Aspose.Words עבור Python via .NET 24.5 הודעות](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-5-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words עבור Python via .NET 24.1, 24.2, 24.3, 24.4
 
 Aspose.Words 24.1 משפר את החוויה סביב ניהול צבעי שבץ, משפר את האובייקטים OLE, כמו גם מציג חדש `Bibliography Sources` הציבור API.

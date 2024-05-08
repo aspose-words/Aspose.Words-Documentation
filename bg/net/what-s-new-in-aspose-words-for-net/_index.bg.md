@@ -11,6 +11,33 @@ url: /bg/net/what-s-new-in-aspose-words-for-net/
 
 Тази страница описва най-интересното ново Aspose.Words функции, въведени в последните издания.
 
+## Aspose.Words за .NET 24.5
+
+### Платформи
+
+Сглобките .NET 7.0/8.0 са включени в пакета Aspose.Words NuGet.
+
+### Изобразяване и печат
+
+#### Промени в Charts, Shapes и DrawingML <sup>24.5</sup>
+
+* Рендиране на DrawingML ефекти за SVG графики, разширяване на предишната функционалност, ограничена до изображения, е внедрено.
+* Въведена е поддръжка за създаване на комбинирани диаграми и коригиране на свойства като ширина на празнина, припокриване и мащаб на балончета в рамките на групи серии чрез добавяне на [ChartSeriesGroup](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriesgroup/) и [ChartSeriesGroupCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriesgroupcollection/) класове и [SeriesGroups](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/seriesgroups/) собственост.
+* Функционалността за манипулиране на ефекта SoftEdge на фигурите е внедрена чрез добавяне на класа [SoftEdgeFormat](https://reference.aspose.com/words/net/aspose.words.drawing/softedgeformat/).
+* Възможността за промяна на коригиращите стойности на фигурите е въведена чрез добавяне на [AdjustmentCollection](https://reference.aspose.com/words/net/aspose.words.drawing/adjustmentcollection/) и [Adjustment](https://reference.aspose.com/words/net/aspose.words.drawing/adjustment/) публични класове и [Adjustments](https://reference.aspose.com/words/net/aspose.words.drawing/shape/adjustments/) Имот.
+
+#### Друго
+
+* Функцията за премахване на празни страници от документ е внедрена чрез добавяне на метода [RemoveBlankPages](https://reference.aspose.com/words/net/aspose.words/document/removeblankpages/). <sup>24.5</sup>
+* Възможността за проверка за наличие на макроси на VBA без зареждане на документ е предоставена чрез добавяне на свойството [HasMacros](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/hasmacros/). <sup>24.5</sup>
+* Вече се поддържа запазване на номерирането на източника при вмъкване на документ с помощта на LINQ Reporting Engine. <sup>24.5</sup>
+
+{{% alert color="primary" %}}
+
+Научете повече за [Бележки по изданието на Aspose.Words за .NET 24.5](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-5-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words вместо .NET 24.1, 24.2, 24.3, 24.4
 
 Aspose.Words 24.1 подобрява опита около управлението на цветовете на инсулта, подобрява обектите на OLE и LINQ отчитане, както и въвежда нов `Bibliography Sources` публично API.
@@ -407,102 +434,6 @@ Aspose.Words 22.12 подобрява възможностите за преда
 Научете повече за [Aspose.Words вместо .NET 22.11 Бележки за освобождаване](/words/net/aspose-words-for-net-22-11-release-notes/).
 
 Научете повече за [Aspose.Words вместо .NET 22.12 Бележки за освобождаване](/words/net/aspose-words-for-net-22-12-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words вместо .NET 22.5, 22.6, 22.7, 22.8
-
-Aspose.Words 22.5 въвежда поддръжка за нови формати за зареждане и нов размер на печатната страница, както и подобрява някои опции за рязане.
-
-Aspose.Words 22.6 разширява възможностите за преобразуване на PDF в други формати, както и подобрява работата с DrawML и ефекта на попълване на твърдия текст.
-
-Aspose.Words 22.7 подобрява възможностите за работа с рендиращи функции и добавя нови функции за работа с HTML внос и износ в PDF.
-
-Aspose.Words 22.8 въвежда нов формат за износ и подобрява различни алгоритми за превод.
-
-На API е подобрена за по-гъвкаво и удобно развитие.
-
-### Поддържани формати
-
-* Подкрепа за зареждане на EPUB и XML документи е въведена чрез добавяне на нови стойности към [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/) Изброяване. Започвайки от версия 22.5, е възможно да се заредят EPUB и XML документи в Aspose.Words документ модел и да ги конвертирате във всеки [поддържани формати](https://reference.aspose.com/words/net/aspose.words/saveformat/). <sup>22.5</sup>
-* Започвайки от версия 22.8, е възможно да се запази документ във формат AZW3. Amazon Формата на файловете на Kindle (KF8 е друго име за формат). Сега можете не само да заредите AZW3 документи, но и да експортирате файловете си във формат AZW3, който по същество е компилиран EPUB. <sup>22.8</sup>
-
-### Пренос и печат
-
-#### Нов размер на печат <sup>22.5</sup>
-
-Подкрепа за Envelope No. 10... [PaperSize](https://reference.aspose.com/words/net/aspose.words/papersize/) Изброяване.
-
-#### Rendering MathML формули <sup>22.5</sup>
-
-Предаването на гранична кутия около MathML формули и откриване на шрифта, когато се правят герои за такива формули е подобрена.
-
-#### DML Подобрения на графиката <sup>22.6</sup>
-
-ЧертежML карти обществено API е удължен до поддържане на градиента, текстурата и шаблоните.
-
-#### Glyph Outlines Parsing for OpenType <sup>22.7</sup>
-
-Aspose.Words Собствен glyph За шрифтовете OpenType (CFF) са въведени очертания.
-
-Досега, glyph парсинг за шрифтове OpenType (CFF) е извършен чрез GDI+. Сега работи в случаи, когато GDI+ не е на разположение. Java, .NET Standard платформи, Linux OS и др. Glyph В определени случаи се изисква анализ на очертанията като WordArt, текстови ефекти, някои функции по математика в офиса и други.
-
-#### Форматиране на формата на сянка <sup>22.7</sup>
-
-Възможността да се зададе формата на сянката на обекта с формата е предоставена чрез добавяне на нов [ShadowFormat](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/shadowformat/) собственост.
-
-#### Подкрепа за разделяне на клетки в таблици <sup>22.8</sup>
-
-Оформлението на двигателя сега е значително подобрено: много сложен клетъчен механизъм в таблиците е въведен.
-
-#### Заместване на шрифта за символи <sup>22.8</sup>
-
-Заместването на шрифта за символи е подобрено.
-
-#### Алгоритъм за въртене на оста на картата <sup>22.8</sup>
-
-Алгоритъмът за въртене на етикетите на осите на диаграмата е подобрен.
-
-### Зареждане и съхраняване на документи
-
-#### Зареждане и преобразуване на PDF в формат с фиксирана страница без модел на подреждане <sup>22.6</sup>
-
-Възможността за зареждане и конвертиране на PDF документи в фиксирани формати на страници с висока вярност и изпълнение е въведена.
-
-#### Нов HTML режим на импортиране <sup>22.7</sup>
-
-Въведен е нов HTML режим за внос на елементи на ниво блок чрез добавяне на нова стойност към [HtmlInsertOptions](https://reference.aspose.com/words/net/aspose.words/htmlinsertoptions/) Изброяване.
-
-#### Конвертиране на PDF/UA-1 CSompliant с WCAG 2.0 <sup>22.7</sup>
-
-Добавена е поддръжка за конвертиране на документ във формат PDF/UA-1 в съответствие с WCAG 2.0.
-
-Така че, ако клиентът има достъпен Word документ и го конвертира в PDF / UA-1 чрез Aspose.Words споменавайки конверсионните специфики, резултатът ще бъде WCAG 2.0 съвместим.
-
-Достъпност на WCAG или Web Content Насоки е набор от насоки, разработени от W3C в сътрудничество с физически лица и организации по целия свят. Сега с Aspose.Words Можете да конвертирате вашия документ във формат PDF/UA-1, който е подходящ за изграждане на WCAG 2.0 съвместими PDF документи.
-
-Струва си да се отбележи, че WCAG 2.0 има две допълнителни изисквания, които не са посочени в спецификацията PDF/UA-1:
-
-* изисквания за контраст
-
-* изисквания за маркиране мултимедийно съдържание
-
-Но и двете изисквания не са от значение за нашия случай на преобразуване от Word на PDF.
-
-### Други
-
-* Изключването на наследяването на твърдия текст запълва ефекта, който имитира поведението на MS Word. <sup>22.6</sup>
-* Подкрепа на `DATABASE` са добавени полета. Използване на този тип поле, можете, например, да покаже резултатите от справка база данни в Microsoft Word Маса. <sup>22.7</sup>
-
-{{% alert color="primary" %}}
-
-Научете повече за [Aspose.Words вместо .NET 22.5 Бележки за освобождаване](/words/net/aspose-words-for-net-22-5-release-notes/).
-
-Научете повече за [Aspose.Words вместо .NET 22.6 Бележки за освобождаване](/words/net/aspose-words-for-net-22-6-release-notes/).
-
-Научете повече за [Aspose.Words вместо .NET 22.7 Бележки за освобождаване](/words/net/aspose-words-for-net-22-7-release-notes/).
-
-Научете повече за [Aspose.Words вместо .NET 22.8 Бележки за освобождаване](/words/net/aspose-words-for-net-22-8-release-notes/).
 
 {{% /alert %}}
 

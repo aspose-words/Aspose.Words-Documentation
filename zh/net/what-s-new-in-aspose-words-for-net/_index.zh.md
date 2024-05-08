@@ -11,6 +11,33 @@ url: /zh/net/what-s-new-in-aspose-words-for-net/
 
 本页描述了最近版本中引入的最有趣的新 Aspose.Words 功能。
 
+## Aspose.Words for .NET 24.5
+
+### 平台
+
+.NET 7.0/8.0 程序集已包含在 Aspose.Words NuGet 包中。
+
+### 渲染和打印
+
+#### Charts、Shapes 和 DrawingML 的变化 <sup>24.5</sup>
+
+* 已实现 SVG 图形的 DrawingML 效果渲染，扩展了之前仅限于图像的功能。
+* 通过添加 [ChartSeriesGroup](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriesgroup/) 和 [ChartSeriesGroupCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriesgroupcollection/) 类以及 [SeriesGroups](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/seriesgroups/) 属性，引入了对创建组合图表和调整属性（例如系列组内的间隙宽度、重叠和气泡比例）的支持。
+* 通过添加 [SoftEdgeFormat](https://reference.aspose.com/words/net/aspose.words.drawing/softedgeformat/) 类，实现了操作形状 SoftEdge 效果的功能。
+* 通过添加 [AdjustmentCollection](https://reference.aspose.com/words/net/aspose.words.drawing/adjustmentcollection/) 和 [Adjustment](https://reference.aspose.com/words/net/aspose.words.drawing/adjustment/) 公共类和 [Adjustments](https://reference.aspose.com/words/net/aspose.words.drawing/shape/adjustments/) 财产。
+
+#### 其他
+
+* 通过添加[RemoveBlankPages](https://reference.aspose.com/words/net/aspose.words/document/removeblankpages/)方法实现了删除文档中的空白页的功能。 <sup>24.5</sup>
+* 通过添加 [HasMacros](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/hasmacros/) 属性，可以在不加载文档的情况下检查 VBA 宏是否存在。 <sup>24.5</sup>
+* 现在支持使用 LINQ 报告引擎插入文档时保留源编号。 <sup>24.5</sup>
+
+{{% alert color="primary" %}}
+
+了解有关 [Aspose.Words for .NET 24.5 发行说明](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-5-release-notes/) 的更多信息。
+
+{{% /alert %}}
+
 ## .NET 24.1、24.2、24.3、24.4 的 Aspose.Words
 
 Aspose.Words 24.1 改进了管理笔划颜色的体验，增强了 OLE 对象和 LINQ 报告，并引入了新的书目源公共 API。
@@ -407,102 +434,6 @@ Google Noto 字体的预定义字体后备设置已更新。
 了解有关 [Aspose.Words for .NET 22.11 发行说明](/words/net/aspose-words-for-net-22-11-release-notes/) 的更多信息。
 
 了解有关 [Aspose.Words for .NET 22.12 发行说明](/words/net/aspose-words-for-net-22-12-release-notes/) 的更多信息。
-
-{{% /alert %}}
-
-## 用于 .NET 22.5、22.6、22.7、22.8 的 Aspose.Words
-
-Aspose.Words 22.5 引入了对新加载格式和新打印页面大小的支持，并改进了一些渲染选项。
-
-Aspose.Words 22.6 扩展了将 PDF 转换为其他格式的可能性，并改进了 DrawingML 和纯文本填充效果的工作。
-
-Aspose.Words 22.7 增强了使用渲染功能的可能性，还添加了用于 HTML 导入和导出到 PDF 的新功能。
-
-Aspose.Words 22.8 引入了新的导出格式并改进了各种渲染算法。
-
-API 得到增强，开发更加灵活便捷。
-
-### 支持的格式
-
-* 通过向 [LoadFormat](https://reference.aspose.com/words/zh/net/aspose.words/loadformat/) 枚举添加新值，引入了对加载 EPUB 和 XML 文档的支持。从版本 22.5 开始，可以将 EPUB 和 XML 文档加载到 Aspose.Words 文档模型中，并将其转换为任何 [支持的格式](https://reference.aspose.com/words/zh/net/aspose.words/saveformat/)。 <sup>22.5</sup>
-* 从版本 22.8 开始，可以以 AZW3 格式保存文档 - Amazon Kindle 专有的电子书文件格式（KF8 是该格式的另一个名称）。现在您不仅可以加载 AZW3 文档，还可以将文件导出为 AZW3 格式，这本质上是编译后的 EPUB。 <sup>22.8</sup>
-
-### 渲染和打印
-
-#### 新印刷尺寸<sup>22.5</sup>
-
-通过向 [PaperSize](https://reference.aspose.com/words/zh/net/aspose.words/papersize/) 枚举引入新值，添加了对"10 号信封"打印页面尺寸的支持。
-
-#### 渲染 MathML 公式<sup>22.5</sup>
-
-MathML 公式周围边框的渲染以及渲染此类公式的字符时的字体检测均已得到改进。
-
-#### DML 图表改进<sup>22.6</sup>
-
-DrawingML 图表公共 API 已扩展为支持渐变、纹理和图案填充。
-
-#### Glyph 概述了 OpenType <sup>22.7</sup>的解析
-
-Aspose.Words 自己的 OpenType (CFF) 字体 glyph 轮廓解析已经实现。
-
-以前，OpenType (CFF) 字体的 glyph 解析是通过 GDI+ 执行的。因此，现在它可以在 GDI+ 不可用的情况下工作 - Java、.NET Standard 平台、Linux 操作系统等。在艺术字、文本效果、某些 Office 数学功能等特定情况下需要 Glyph 轮廓解析。
-
-#### 设置形状阴影格式<sup>22.7</sup>
-
-通过添加新的 [ShadowFormat](https://reference.aspose.com/words/zh/net/aspose.words.drawing/shapebase/shadowformat/) 属性，提供了设置形状对象的阴影格式的功能。
-
-#### 支持表<sup>22.8</sup>中的单元格间距
-
-布局引擎现在得到了显着改进：表格中非常复杂的单元格间距机制已经实现。
-
-#### 符号的字体替换<sup>22.8</sup>
-
-符号的字体替换已得到改进。
-
-#### 图表轴标签旋转算法<sup>22.8</sup>
-
-图表轴标签的旋转算法已得到改进。
-
-### 加载和保存文档
-
-#### 加载 PDF 并将其转换为固定页面格式，无需布局模型<sup>22.6</sup>
-
-已经实现了以高保真度和高性能加载 PDF 文档并将其转换为固定页面格式的功能。
-
-#### 新的 HTML 导入模式<sup>22.7</sup>
-
-通过向 [HtmlInsertOptions](https://reference.aspose.com/words/zh/net/aspose.words/htmlinsertoptions/) 枚举添加新值，引入了块级元素的新 HTML 导入模式。
-
-#### 使用 WCAG 2.0 <sup>22.7</sup>转换为 PDF/UA-1 CCompliant
-
-添加了对将文档转换为 PDF/UA-1 格式（符合 WCAG 2.0）的支持。
-
-因此，如果客户有一个可访问的 Word 文档，并通过 Aspose.Words 将其转换为 PDF/UA-1，并提及转换细节，则输出将与 WCAG 2.0 兼容。
-
-WCAG（Web 内容可访问性指南）是 W3C 与世界各地的个人和组织合作制定的一套指南。现在，使用 Aspose.Words，您可以将文档转换为输出 PDF/UA-1 格式，该格式适合构建符合 WCAG 2.0 的 PDF 文档。
-
-值得注意的是，WCAG 2.0 还有两个 PDF/UA-1 规范中未指定的附加要求：
-
-* 对比度要求
-
-* 标记多媒体内容的要求
-
-但这两个要求与我们从 Word 转换为 PDF 的情况无关。
-
-### 其他
-
-* 继承模仿 MS Word 行为的实体文本填充效果的例外情况已实现。 <sup>22.6</sup>
-* 添加了对 `DATABASE` 字段的支持。例如，使用这种类型的字段，您可以在 Microsoft Word 表中显示数据库查询的结果。 <sup>22.7</sup>
-
-{{% alert color="primary" %}}
-
-了解有关 [Aspose.Words for .NET 22.5 发行说明](/words/net/aspose-words-for-net-22-5-release-notes/) 的更多信息。
-
-了解有关 [Aspose.Words for .NET 22.6 发行说明](/words/net/aspose-words-for-net-22-6-release-notes/) 的更多信息。
-
-了解有关 [Aspose.Words for .NET 22.7 发行说明](/words/net/aspose-words-for-net-22-7-release-notes/) 的更多信息。
-
-了解有关 [Aspose.Words for .NET 22.8 发行说明](/words/net/aspose-words-for-net-22-8-release-notes/) 的更多信息。
 
 {{% /alert %}}
 

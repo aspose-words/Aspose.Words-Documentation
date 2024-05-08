@@ -11,6 +11,33 @@ url: /nl/net/what-s-new-in-aspose-words-for-net/
 
 Deze pagina beschrijft de meest interessante nieuwe Aspose.Words features geïntroduceerd in recente releases.
 
+## Aspose.Words voor .NET 24.5
+
+### Platformen
+
+.NET 7.0/8.0-assemblages zijn opgenomen in het Aspose.Words NuGet-pakket.
+
+### Renderen en afdrukken
+
+#### Wijzigingen in Charts, Shapes en DrawingML <sup>24.5</sup>
+
+* Rendering van DrawingML-effecten voor SVG-afbeeldingen, waarmee de eerdere functionaliteit die beperkt was tot afbeeldingen, wordt uitgebreid.
+* Ondersteuning voor het maken van combinatiediagrammen en het aanpassen van eigenschappen zoals tussenruimte, overlap en bellenschaal binnen reeksgroepen is geïntroduceerd door de [ChartSeriesGroup](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriesgroup/) en [ChartSeriesGroupCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriesgroupcollection/) klassen en de [SeriesGroups](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/seriesgroups/) eigenschap.
+* Functionaliteit om het SoftEdge-effect van vormen te manipuleren is geïmplementeerd door de klasse [SoftEdgeFormat](https://reference.aspose.com/words/net/aspose.words.drawing/softedgeformat/) toe te voegen.
+* De mogelijkheid om de waarden van vormen aan te passen is geïmplementeerd door het toevoegen van de [AdjustmentCollection](https://reference.aspose.com/words/net/aspose.words.drawing/adjustmentcollection/) en [Adjustment](https://reference.aspose.com/words/net/aspose.words.drawing/adjustment/) openbare klassen en [Adjustments](https://reference.aspose.com/words/net/aspose.words.drawing/shape/adjustments/) eigendom.
+
+#### Ander
+
+* De functie om lege pagina's uit een document te verwijderen is geïmplementeerd door de methode [RemoveBlankPages](https://reference.aspose.com/words/net/aspose.words/document/removeblankpages/) toe te voegen. <sup>24.5</sup>
+* De mogelijkheid om te controleren op de aanwezigheid van VBA-macro's zonder een document te laden is mogelijk gemaakt door de eigenschap [HasMacros](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/hasmacros/) toe te voegen. <sup>24.5</sup>
+* Het behouden van bronnummering tijdens het invoegen van een document met behulp van de LINQ Reporting Engine wordt nu ondersteund. <sup>24.5</sup>
+
+{{% alert color="primary" %}}
+
+Meer informatie over [Aspose.Words voor .NET 24.5 Release-opmerkingen](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-5-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words voor .NET 24.1; 24.2, 24.3, 24.4
 
 Aspose.Words 24.1 verbetert de ervaring rond het beheer van beroerte kleuren, verbetert OLE objecten en LINQ rapportage, en introduceert een nieuwe `Bibliography Sources` publiek API.
@@ -407,102 +434,6 @@ Meer informatie over [Aspose.Words voor .NET 22.10 Release Notes](/words/net/asp
 Meer informatie over [Aspose.Words voor .NET 22.11 Release Notes](/words/net/aspose-words-for-net-22-11-release-notes/).
 
 Meer informatie over [Aspose.Words voor .NET 22.12 Loslaten](/words/net/aspose-words-for-net-22-12-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words voor .NET 22.5; 22.6; 22.7; 22.8
-
-Aspose.Words 22.5 introduceert ondersteuning voor nieuwe laadformaten en een nieuwe afdrukpaginagrootte, en verbetert enkele renderingsopties.
-
-Aspose.Words 22.6 breidt de mogelijkheden uit om PDF naar andere formaten te converteren, en verbetert het werk met DrawingML en solide tekstvuleffect.
-
-Aspose.Words 22.7 vergroot de mogelijkheden om te werken met rendering functies, en voegt ook nieuwe functies voor het werken met HTML import en export naar PDF.
-
-Aspose.Words 22.8 introduceert een nieuw exportformaat en verbetert verschillende renderingalgoritmen.
-
-De API is verbeterd voor een flexibelere en gemakkelijkere ontwikkeling.
-
-### Ondersteunde formaten
-
-* Ondersteuning voor het laden van EPUB en XML documenten is ingevoerd door het toevoegen van nieuwe waarden aan de [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/) Lijst. Vanaf versie 22.5, is het mogelijk om EPUB en XML documenten te laden in Aspose.Words document model en converteren naar elke [ondersteunde formaten](https://reference.aspose.com/words/net/aspose.words/saveformat/). <sup>22.5</sup>
-* Vanaf versie 22.8 is het mogelijk om een document op te slaan in het AZW3 formaat. Amazon Kindle's eigen e-book bestandsformaat (KF8 is een andere naam voor het formaat). Nu kunt u niet alleen AZW3 documenten laden, maar ook uw bestanden exporteren naar AZW3 formaat, dat is in wezen een samengesteld EPUB. <sup>22.8</sup>
-
-### Renderen en afdrukken
-
-#### Nieuwe afdrukgrootte <sup>22.5</sup>
-
-Ondersteuning voor de [PaperSize](https://reference.aspose.com/words/net/aspose.words/papersize/) Lijst.
-
-#### MathML-formules renderen <sup>22.5</sup>
-
-De weergave van een randvak rond MathML formules en lettertype detectie bij het renderen van tekens voor dergelijke formules is verbeterd.
-
-#### DML Grafiekverbeteringen <sup>22.6</sup>
-
-TekeningML grafieken openbaar API is uitgebreid om kleurverloop, textuur en patroonvullingen te ondersteunen.
-
-#### Glyph Uitlijning Ontleden voor OpenType <sup>27,7</sup>
-
-Aspose.Words eigen glyph schetsen voor OpenType (CFF) lettertypen is geïmplementeerd.
-
-Wat voorafging: glyph Het verwerken van OpenType (CFF) lettertypen werd uitgevoerd via GDI+. Dus nu werkt het in gevallen waarin GDI+ niet beschikbaar is Java, .NET Standard platforms, Linux OS, enz. Glyph schetst ontleden is vereist in specifieke gevallen zoals WordArt, tekst effecten, sommige Office Wiskunde functies, en anderen.
-
-#### Vormschaduwopmaak instellen <sup>27,7</sup>
-
-De mogelijkheid om de schaduwopmaak van het vormobject in te stellen is geboden door het toevoegen van een nieuwe [ShadowFormat](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/shadowformat/) eigendom.
-
-#### Ondersteuning voor celafstand in tabellen <sup>22.8</sup>
-
-De lay-out motor is nu aanzienlijk verbeterd: een zeer complex celafstandsmechanisme in tabellen is geïmplementeerd.
-
-#### Lettertypesubstitutie voor symbolen <sup>22.8</sup>
-
-Lettertypevervanging voor symbolen is verbeterd.
-
-#### Grafiek Axis Label Rotatie Algorithm <sup>22.8</sup>
-
-Het rotatiealgoritme van kaartaslabels is verbeterd.
-
-### Documenten laden en opslaan
-
-#### PDF laden en omzetten naar Fixed-page Format zonder Layout Model <sup>22.6</sup>
-
-De mogelijkheid om PDF-documenten te laden en converteren naar vaste paginaformaten met hoge trouw en prestaties is geïmplementeerd.
-
-#### Nieuwe HTML-importmodus <sup>27,7</sup>
-
-Een nieuwe HTML import mode voor blok-niveau elementen is ingevoerd door het toevoegen van een nieuwe waarde aan de [HtmlInsertOptions](https://reference.aspose.com/words/net/aspose.words/htmlinsertoptions/) Lijst.
-
-#### Converteren naar PDF/UA-1 CSompliant met WCAG 2.0 <sup>27,7</sup>
-
-Ondersteuning voor het omzetten van een document naar PDF/UA-1 formaat, conform WCAG 2.0, is toegevoegd.
-
-Dus, als de klant een toegankelijk Word-document heeft en het converteert naar PDF/UA-1 via Aspose.Words met vermelding van de conversie-specificiën, dan zal de uitvoer WCAG 2.0 compatibel zijn.
-
-WCAG of Web Content Toegankelijkheid Richtlijnen is een reeks richtlijnen ontwikkeld door W3C in samenwerking met individuen en organisaties over de hele wereld. Nu met Aspose.Words U kunt uw document converteren naar het uitvoer PDF/UA-1 formaat, dat geschikt is om WCAG 2.0 conforme PDF documenten te bouwen.
-
-Er zij op gewezen dat WCAG 2.0 twee aanvullende eisen heeft die niet in de PDF/UA-1 specificatie zijn gespecificeerd:
-
-* contrast eisen
-
-* vereisten voor het merken van multimedia-inhoud
-
-Maar beide vereisten zijn niet relevant voor ons geval van het omzetten van Word naar PDF.
-
-### Andere
-
-* Uitzondering van het erven van de solide tekst vullen effect dat MS Word gedrag nabootst is geïmplementeerd. <sup>22.6</sup>
-* Ondersteuning van de `DATABASE` velden zijn toegevoegd. Met behulp van dit type veld kunt u bijvoorbeeld de resultaten van een database query tonen in a Microsoft Word tafel. <sup>27,7</sup>
-
-{{% alert color="primary" %}}
-
-Meer informatie over [Aspose.Words voor .NET 22.5 Release Notes](/words/net/aspose-words-for-net-22-5-release-notes/).
-
-Meer informatie over [Aspose.Words voor .NET 22.6 Release Notes](/words/net/aspose-words-for-net-22-6-release-notes/).
-
-Meer informatie over [Aspose.Words voor .NET 22.7 Release Notes](/words/net/aspose-words-for-net-22-7-release-notes/).
-
-Meer informatie over [Aspose.Words voor .NET 22.8 Release Notes](/words/net/aspose-words-for-net-22-8-release-notes/).
 
 {{% /alert %}}
 
