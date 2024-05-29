@@ -17,11 +17,11 @@ Sometimes you need to render reports programmatically instead of using the Repor
 
 ## Rendering via Reporting Services Web Service
 
-If you have a Report Server running with Aspose.Words for Reporting Services installed on it, you can render reports to Microsoft Word documents using the Reporting Service Web Service. Follow these steps to achieve that (assuming you use Reporting Services 2005):
+If you have a Report Server running with Aspose.Words for Reporting Services installed on it, you can render reports to Microsoft Word documents using the Reporting Service Web Service. Follow these steps to achieve that on .Net 6 or higher version (assuming you use Reporting Services 2022):
 
 ### Step 1. Add a reference to the ReportingService2005 Web service.
 
-Open your project in Visual Studio, right click on the **References** folder and select **Add Web Reference** . Enter the `URL` of the **ReportingService2005** Web service ( ReportService2005.asmx) or browse for it using the browser on the left. Once the service is found, enter “ReportingService2005” in the **Web reference name** textbox and click the **Add Reference** button.
+Open your project in Visual Studio, right click on the **Dependencies** folder and select **Manage Connected Services**. Then select "Add service reference" and use "WCF Web services" to add the reference. Enter the `URL` of the **ReportingService2005** Web service (http://<your server>/ReportServer/ReportService2005.asmx). Once the service is found, enter “ReportingService2005” in the **Namespace** textbox.
 
 **Adding a reference to the ReportingService2005 Web service in Visual Studio.**
 
@@ -29,117 +29,96 @@ Open your project in Visual Studio, right click on the **References** folder and
 
 ### Step 2. Add a reference to the ReportExecutionService Web service.
 
-Repeat Step 1 for the **ReportExecutionService** ( ReportExecution2005.asmx) Web service. Name it ReportExecutionService and click the **Add Reference** button.
+Repeat Step 1 for the **ReportExecutionService** (http://<your server>/ReportServer/ReportExecution2005.asmx) Web service. Once the service is found, enter “ReportExecution2005“ in the **Namespace** textbox.
 
 **Adding a reference to the ReportExecutionService Web service in Visual Studio.**
 
 ![todo:image_alt_text](rendering-reports-programmatically-2.png)
 
-### Step 3. Implement the rendering method.
+### Step 3. Add required packages.
 
-Implement the following method in your application:
+Install package System.ServiceModel.Primitives.
+
+Also may be required to update packages which were added with service references on steps 1 and 2 (by default packages may be with old versions).
+
+### Step 4. Implement creating SSRS client.
+
+Add the following class to your application:
 
 **C#**
 
 {{< highlight csharp >}}
-using System;
-using System.IO;
+using ReportExecution2005;
+using System.ServiceModel;
+using System.Security.Principal;
+
 /// <summary>
-/// Renders a report located on Report Server to a Microsoft Word document on disk.
+/// Implements SSRS client creation.
 /// </summary>
-/// <param name="reportName">The name of the report (including path) on Report Server.</param>
-/// <param name="fileName">The name of the resulting document (including path) on disk.</param>
-/// <param name="format">
-/// The export format, should be:
-/// "AWDOC" for DOC
-/// "AWDOCX" for DOCX
-/// "AWRTF" for RTF
-/// "AWWML" for WordML
-/// "AWHTML" for HTML
-/// "AWMHTML" for MHTML
-/// "AWODT" for ODT
-/// "AWTXT" for TXT
-/// "AWXPS" for XPS
-/// "AWEPUB" for EPUB
-/// </param>
-/// <param name="deviceInfo">
-/// The device info string as it would appear in rsreportserver.config, for example
-/// "<DeviceInfo><PageBreaksMode>OnEachPage</PageBreaksMode></DeviceInfo>". May be null.
-/// </param>
-private static void RenderReportToFile(
-    string reportName,
-    string fileName,
-    string format,
-    string deviceInfo)
+public static class ServiceClientUtils
 {
-    // Create Web service proxies.
-    ReportingService2005.ReportingService2005 rs = new ReportingService2005.ReportingService2005();
-    ReportExecutionService.ReportExecutionService rsExec = new ReportExecutionService.ReportExecutionService();
-    try
+    public static ReportExecutionServiceSoapClient CreateClient(this string executionEndPointUrl, string userName, string password)
     {
-        string encoding;
-        string mimeType;
-        string extension;
-        ReportExecutionService.Warning[] warnings;
-        string[] streamIDs;
+        var rsBinding = new BasicHttpBinding();
 
-        // Load the report.
-        ReportExecutionService.ExecutionInfo info = rsExec.LoadReport(reportName, null);
+        rsBinding.Security.Mode = BasicHttpSecurityMode.TransportCredentialOnly;
+        rsBinding.Security.Transport.ClientCredentialType = HttpClientCredentialType.Ntlm;
 
-        // Get if the report requires parameters set.
-        ReportingService2005.ReportParameter[] parameters = rs.GetReportParameters(
-            reportName,
-            null,
-            false,
-            null,
-            null);
+        rsBinding.MaxBufferSize = int.MaxValue;
+        rsBinding.MaxBufferPoolSize = int.MaxValue;
+        rsBinding.MaxReceivedMessageSize = int.MaxValue;
 
-        // Set report parameters if needed.
-        if (parameters.Length > 0)
-        {
-            ReportExecutionService.ParameterValue value = new ReportExecutionService.ParameterValue();
-            value.Label = "SalesOrderNumber";
-            value.Name = "SalesOrderNumber";
-            value.Value = "SO50750";
-            ReportExecutionService.ParameterValue[] values = new ReportExecutionService.ParameterValue[1];
-            values[0] = value;
-            rsExec.SetExecutionParameters(values, "en-us");
-        }
+        var rsEndpointAddress = new EndpointAddress(executionEndPointUrl);
+        var rsClient = new ReportExecutionServiceSoapClient(rsBinding, rsEndpointAddress);
 
-        // Render the report.
-        byte[] reportBytes = rsExec.Render(
-            format,
-            deviceInfo,
-            out extension,
-            out mimeType,
-            out encoding,
-            out warnings,
-            out streamIDs);
+        rsClient.ClientCredentials.Windows.ClientCredential.UserName = userName;
+        rsClient.ClientCredentials.Windows.ClientCredential.Password = password;
+        rsClient.ClientCredentials.Windows.AllowedImpersonationLevel = TokenImpersonationLevel.Impersonation;
 
-        // Write report bytes to a file.
-        using (FileStream stream = File.OpenWrite(fileName))
-            stream.Write(reportBytes, 0, reportBytes.Length);
-    }
-    catch (Exception ex)
-    {
-        // Exception handing code, such as
-        // Console.WriteLine(ex);
+        return rsClient;
     }
 }
 {{< /highlight >}}
 
-### Step 4. Call the `RenderReportToFile` method.
+### Step 5. Implement scenario logic.
 
-You can call the **RenderReportToFile** method from any point of your application. The call might look like the following:
+Add the following code to your application and fill required settings according to comments:
 
 **C#**
-
 {{< highlight csharp >}}
-RenderReportToFile(
-    @"/AdventureWorks Sample Reports/Sales Order Detail",
-    @"C:\Work\Sales Order Detail.doc",
-    "AWDOC",
-    null);
+using ReportExecution2005;
+using RenderingUsingWebService;
+
+// Settings
+
+const string relativeReportPath = "Secify relative path to a report."; // For example: "/Report1"
+
+const string userName = "Windows user login."; // For example: "Administrator".
+const string password = "Windows user password."; // For example: "123".
+
+const string renderingExtensionName = "AWDOCX"; // One of extension name as specified here: https://docs.aspose.com/words/reportingservices/installing-on-the-server-manually/#step-3-register-asposewords-for-reporting-services-as-a-rendering-extension
+const string ouputFilePath = "Path to ouput report file path."; // For example: "C:\Temp\out.docx"
+
+const string execution2005EndPointUrl = "Execution end point."; // For example: http://localhost/ReportServer/ReportExecution2005.asmx
+
+// Settings end.
+
+// 1. Create client.
+var client = execution2005EndPointUrl.CreateClient(userName, password);
+
+// 2. Load report.
+var trustedHeader = new TrustedUserHeader();
+var loadReponse = await client.LoadReportAsync(trustedHeader, relativeReportPath, null);
+
+// 3. Render report using specified extension.
+var renderRequest = new RenderRequest(loadReponse.ExecutionHeader, trustedHeader, renderingExtensionName, null);
+var renderResponse = await client.RenderAsync(renderRequest);
+
+// 4. Save received report document to the file.
+using var fileStream = File.OpenWrite(ouputFilePath);
+await fileStream.WriteAsync(renderResponse.Result, 0, renderResponse.Result.Length);
+
+Console.WriteLine($"Report saved to the file: \"{ouputFilePath}\".");
 {{< /highlight >}}
 
 ## Rendering via Report Viewer Working in Local Mode
