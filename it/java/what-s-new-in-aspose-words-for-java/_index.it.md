@@ -11,6 +11,29 @@ url: /it/java/what-s-new-in-aspose-words-for-java/
 
 Questa pagina descrive il nuovo più interessante Aspose.Words caratteristiche introdotte nelle versioni recenti.
 
+## Aspose.Words per Java 24.5
+
+### Rendering e stampa
+
+#### Modifiche a Charts, Shapes e DrawingML <sup>24.5</sup>
+
+- È stato implementato il rendering degli effetti DrawingML per la grafica SVG, estendendo le funzionalità precedenti limitate alle immagini.
+- È stato introdotto il supporto per la creazione di grafici combinati e la regolazione di proprietà come larghezza del gap, sovrapposizione e scala di bolle all'interno dei gruppi di serie aggiungendo [ChartSeriesGroup](https://reference.aspose.com/words/java/com.aspose. words/chartseriesgroup/) e le classi [ChartSeriesGroupCollection](https://reference.aspose.com/words/java/com.aspose.words/chartseriesgroupcollection/) e le classi [SeriesGroups](https://reference.aspose.com/ parole/java/com.aspose.words/chart/#getSeriesGroups).
+- La funzionalità per manipolare l'effetto SoftEdge delle forme è stata implementata aggiungendo la classe [SoftEdgeFormat](https://reference.aspose.com/words/java/com.aspose.words/softedgeformat/).
+- La possibilità di modificare i valori di regolazione delle forme è stata implementata aggiungendo [AdjustmentCollection](https://reference.aspose.com/words/java/com.aspose.words/adjustmentcollection/) e [Adjustment](https:/ /reference.aspose.com/words/java/com.aspose.words/adjustment/) classi pubbliche e [Adjustments](https://reference.aspose.com/words/java/com.aspose.words/shape/# getAdjustments) proprietà.
+
+#### Altro
+
+- È stata implementata la funzione per eliminare le pagine vuote da un documento aggiungendo il metodo [RemoveBlankPages](https://reference.aspose.com/words/java/com.aspose.words/document/#removeBlankPages). <sup>24:5</sup>
+- È stata fornita la possibilità di verificare la presenza di macro VBA senza caricare un documento aggiungendo [HasMacros](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasMacros) proprietà. <sup>24:5</sup>
+- Ora è supportato il mantenimento della numerazione della fonte durante l'inserimento di un documento utilizzando LINQ Reporting Engine. <sup>24:5</sup>
+
+{{% alert color="primary" %}}
+
+Ulteriori informazioni sulle [Note sulla versione di Aspose.Words per Java 24.5](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-5-release-notes/ ).
+
+{{% /alert %}}
+
 ## Aspose.Words per Java 24.1, 24.2, 24.3, 24.4
 
 Aspose.Words 24.1 migliora l'esperienza di gestione dei colori dei colpi, migliora gli oggetti OLE e il reporting LINQ, così come introduce una nuova Bibliografia Fonti pubbliche API.
@@ -405,257 +428,6 @@ Scopri di più su [Aspose.Words per Java 22.10 Note di rilascio](/words/java/asp
 Scopri di più su [Aspose.Words per Java 22.11 Nota di rilascio](/words/java/aspose-words-for-java-22-11-release-notes/).
 
 Scopri di più su [Aspose.Words per Java 22.12 Note di rilascio](/words/java/aspose-words-for-java-22-12-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words per Java 22.5, 22.6, 22.7, 22.8
-
-Aspose.Words 22.5 introduce il supporto per nuovi formati di carico e una nuova dimensione della pagina di stampa, oltre a migliorare alcune opzioni di rendering.
-
-Aspose.Words 22.6 amplia le possibilità di convertire PDF in altri formati, così come migliorare il lavoro con DrawingML e effetto di riempimento di testo solido.
-
-Aspose.Words 22.7 migliora le possibilità di lavorare con le funzionalità di rendering, e aggiunge anche nuove funzionalità per lavorare con l'importazione HTML e l'esportazione in PDF.
-
-Aspose.Words 22.8 introduce un nuovo formato di esportazione e migliora vari algoritmi di rendering.
-
-The API è potenziato per uno sviluppo più flessibile e conveniente.
-
-### Formati supportati
-
-* Il supporto per il caricamento dei documenti EPUB e XML è stato introdotto aggiungendo nuovi valori [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) enumerazione. A partire dalla versione 22.5, è possibile caricare documenti EPUB e XML in Aspose.Words modello di documento e convertirli in qualsiasi [i risultati](https://reference.aspose.com/words/java/com.aspose.words/saveformat/). <sup>2.</sup>
-* A partire dalla versione 22.8, è possibile salvare un documento in formato AZW3 – Amazon Il formato di file e-book proprietario di Kindle (KF8 è un altro nome per il formato). Ora è possibile non solo caricare i documenti AZW3, ma anche esportare i file in formato AZW3, che è essenzialmente un EPUB compilato. <sup>22.8</sup>
-
-### Rendering e stampa
-
-#### Nuova dimensione di stampa <sup>2.</sup>
-
-Il supporto per la dimensione della pagina di stampa "Envelope No. 10" è stato aggiunto introducendo un nuovo valore al [PaperSize](https://reference.aspose.com/words/java/com.aspose.words/papersize/) enumerazione.
-
-#### Rendering delle formule MathML <sup>2.</sup>
-
-Il rendering di una casella di confine intorno alle formule MathML e il rilevamento dei caratteri durante il rendering dei caratteri per tali formule è stato migliorato.
-
-#### DML Miglioramenti del grafico <sup>22.6</sup>
-
-DrawingML grafici pubblici API è stato esteso per supportare gradiente, texture e riempimenti di pattern.
-
-#### Glyph Outlines Parsing per OpenType <sup>2.</sup>
-
-Aspose.Words proprio glyph è stata implementata la parsing per i font OpenType (CFF).
-
-Negli episodi precedenti... glyph la parsing per i font OpenType (CFF) è stata eseguita tramite GDI+. Così ora funziona nei casi in cui GDI+ non è disponibile – Java, .NET Standard piattaforme, Linux OS, ecc. Glyph dettagli parsing è richiesto in casi specifici come WordArt, effetti di testo, alcune funzioni di Office Math e altri.
-
-#### Formattazione ombra forma Set <sup>2.</sup>
-
-La capacità di impostare la formattazione ombra dell'oggetto forma è stata fornita aggiungendo un nuovo [ShadowFormat](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getShadowFormat) proprieta'.
-
-#### Supporto per lo spazio cellulare nelle tabelle <sup>22.8</sup>
-
-Il motore di layout è ora notevolmente migliorato: è stato implementato un meccanismo di spaziatura cellulare molto complesso nelle tabelle.
-
-#### Sostituzione del carattere per i simboli <sup>22.8</sup>
-
-La sostituzione dei caratteri per i simboli è stata migliorata.
-
-#### Grafico Asse Etichetta Rotazione Algoritmo <sup>22.8</sup>
-
-L'algoritmo di rotazione delle etichette dell'asse grafico è stato migliorato.
-
-### Caricamento e salvataggio dei documenti
-
-#### Caricare e convertire PDF in Formato pagina fissa senza modello di layout <sup>22.6</sup>
-
-La capacità di caricare e convertire documenti PDF in formati pagina fissi con alta fedeltà e prestazioni è stata implementata.
-
-#### Nuova modalità di importazione HTML <sup>2.</sup>
-
-È stata introdotta una nuova modalità di importazione HTML per elementi a livello di blocco aggiungendo un nuovo valore al [HtmlInsertOptions](https://reference.aspose.com/words/java/com.aspose.words/htmlinsertoptions/) enumerazione.
-
-#### Converti in PDF/UA-1 CSSompliant con WCAG 2.0 <sup>2.</sup>
-
-È stato aggiunto il supporto per la conversione di un documento in formato PDF/UA-1, conforme a WCAG 2.0.
-
-Quindi, se il cliente ha un documento di Word accessibile e lo converte in PDF/UA-1 tramite Aspose.Words menzionando le specifiche di conversione, l'output sarà compatibile con WCAG 2.0.
-
-Accessibilità dei contenuti web Linee guida è una serie di linee guida sviluppate da W3C in collaborazione con individui e organizzazioni di tutto il mondo. Ora con Aspose.Words è possibile convertire il documento in uscita formato PDF/UA-1, che è adatto per costruire documenti PDF conformi WCAG 2.0.
-
-Vale la pena notare che WCAG 2.0 ha due requisiti aggiuntivi che non sono specificati nella specifica PDF/UA-1:
-
-- requisiti di contrasto
-- requisiti per la registrazione di contenuti multimediali
-
-Ma entrambi i requisiti non sono rilevanti per il nostro caso di conversione da Word a PDF.
-
-### Altri
-
-* Eccezione di ereditare l'effetto di riempimento di testo solido che imita il comportamento di MS Word è stato implementato. <sup>22.6</sup>
-* Supporto del `DATABASE` sono stati aggiunti i campi. Utilizzando questo tipo di campo, è possibile, ad esempio, mostrare i risultati di una query di database in una Microsoft Word tavolo. <sup>2.</sup>
-
-{{% alert color="primary" %}}
-
-Scopri di più su [Aspose.Words per Java 22.5 Nota di rilascio](/words/java/aspose-words-for-java-22-5-release-notes/).
-
-Scopri di più su [Aspose.Words per Java 22.6 Nota di rilascio](/words/java/aspose-words-for-java-22-6-release-notes/).
-
-Scopri di più su [Aspose.Words per Java 22.7 Nota di rilascio](/words/java/aspose-words-for-java-22-7-release-notes/).
-
-Scopri di più su [Aspose.Words per Java 22.8 Nota di rilascio](/words/java/aspose-words-for-java-22-8-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words per Java 22.1, 22.2, 22.3, 22.4
-
-Aspose.Words 22.1 migliora le opzioni di rendering, così come il caricamento e il salvataggio dei documenti.
-
-Aspose.Words 22.2 introduce un nuovo formato di carico e nuove opzioni per l'esportazione di documenti. Esso contiene anche un aggiornamento importante per le tabelle e alcune modifiche per lavorare con i campi.
-
-Aspose.Words 22.3 amplia le possibilità di lavorare con formati PDF e TXT e migliora il lavoro di alcuni algoritmi e motori esistenti.
-
-Aspose.Words 22.4 migliora le capacità PDF – ora è possibile salvare un file in formato PDF/A-4 e ottenere un certo numero di altri miglioramenti in uscita PDF. Allo stesso tempo, Aspose.Words 22.4 fornisce capacità aggiuntive per lavorare con i grafici DML, leggere i metadati di Photoshop e importare elementi di livello di blocco HTML.
-
-The API è potenziato per uno sviluppo più flessibile e conveniente.
-
-### Formati supportati
-
-Caricamento di un documento in formato AZW3 (KF8 è un altro nome per il formato) è stato aggiunto. Ora è possibile caricare un documento AZW3 e convertirlo in altri formati supportati.
-
-### Rendering
-
-#### Rendering in PDF con conformità PDF/UA-1
-
-Il rendering in PDF con la conformità PDF/UA-1 è stato implementato aggiungendo nuovi valori alla [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) enumerazione – **Traduzione:**. Questa opzione assume la conformità con i requisiti speciali per l'accessibilità dei documenti.
-
-#### Rendering delle formule MathML
-
-Il rendering degli operatori nelle formule MathML è stato migliorato.
-
-#### DML Miglioramenti del grafico
-
-I seguenti miglioramenti sono stati apportati ai grafici DML:
-
-- L'algoritmo di scalatura dell'asse grafico DML è stato migliorato per essere lo stesso di MS Word
-- La capacità di manipolare con le voci della leggenda del grafico DrawingML è stata fornita per rendere il nostro grafico API più e più complete
-- No. La capacità di specificare il nome di un file xls/xlsx il grafico DrawingML è stato implementato
-
-#### Rendering in PDF con conformità PDF/A-4
-
-Il rendering in PDF con la conformità PDF/A-4 è stato aggiunto aggiungendo nuovi valori alla [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) enumeration – PDF_A_4. Questa opzione assume livelli di conformità riveduti: la conformitÃ PDF/A-4 regolare Ã ̈ equivalente al livello di conformitÃ U delle versioni precedenti e la conformitÃ di livello A viene rimossa.
-
-#### Lettura della risoluzione dei metadati di Photoshop in JPEG
-
-La lettura della risoluzione dei metadati di Photoshop in immagini JPEG è stata implementata per risolvere un problema interessante con scaling errato delle immagini al momento del rendering.
-
-### Caricamento e salvataggio dei documenti
-
-#### Comportamento di stile di controllo Caricamento di un documento
-
-Una nuova opzione [ForceCopyStyles](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getForceCopyStyles) è stato introdotto per controllare il comportamento di stili contrastanti all'importazione di documento.
-
-#### Risparmio di documenti
-
-È stata aggiunta una capacità di ottenere notifiche sul progresso del salvataggio dei documenti attraverso il [ProgressCallback](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getProgressCallback) proprietà in 22.1.
-
-In 22.2, il salvataggio delle notifiche di progresso è stato esteso per i formati di flusso basati su HTML e XAML: HTML, MHTML, Epub, XamlFlow e XamlFlowPack.
-
-In 22.3, il salvataggio delle notifiche di avanzamento è stato esteso per il formato TXT.
-
-#### Convertire Forme in SVG Quando si esporta
-
-La capacità di convertire le forme in immagini SVG dopo l'esportazione in HTML, MHTML, o EPUB è stata fornita aggiungendo [ExportShapesAsSvg](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getExportShapesAsSvg) proprieta'.
-
-#### Esportazione dell'elenco Numerazione della struttura logica PDF
-
-È stata implementata l'elenco numerazione delle esportazioni alla struttura logica PDF.
-
-#### Risparmio a PDF 2.0 e miglioramenti in output PDF
-
-La capacità di salvare un documento come PDF 2.0 aggiungendo un nuovo valore al [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) l'enumerazione, così come diversi altri miglioramenti richiesti all'output PDF, sono stati introdotti.
-
-#### Nuova modalità di importazione HTML
-
-Una nuova modalità di importazione per elementi a livello di blocco HTML è stata implementata per simulare Microsoft Word comportamento.
-
-### Altri
-
-* # È stata aggiunta una capacità di ottenere dati di campo personalizzati associati al campo.
-* # L'ultima versione di Aspose.Words incluso anche un aggiornamento importante che gestisce le tabelle con i dati di larghezza della colonna non corretta o mancante nel documento di origine.
-* # La tabella che compara l'algoritmo basandosi su analisi profonde di Microsoft Word è stato migliorato il meccanismo di confronto.
-* # È stata fornita la sintassi dei commenti nel motore di Reporting LINQ.
-
-{{% alert color="primary" %}}
-
-Scopri di più su [Aspose.Words per Java 22.1 Note di rilascio](https://releases.aspose.com/words/java/release-notes/2022/aspose-words-for-java-22-1-release-notes/).
-
-Scopri di più su [Aspose.Words per Java 22.2 Nota di rilascio](https://releases.aspose.com/words/java/release-notes/2022/aspose-words-for-java-22-2-release-notes/).
-
-Scopri di più su [Aspose.Words per Java 22.3 Nota di rilascio](https://releases.aspose.com/words/java/release-notes/2022/aspose-words-for-java-22-3-release-notes/).
-
-Scopri di più su [Aspose.Words per Java 22.4 Nota di rilascio](https://releases.aspose.com/words/java/release-notes/2022/aspose-words-for-java-22-4-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words per Java 21.10, 21.11, 21.12
-
-Aspose.Words 21.9 espande il controllo di formattazione a livello di elenco.
-
-Aspose.Words 21.10 migliora le opzioni di rendering, migliora trovare e sostituire le opzioni, e si espande Mail Merge e struttura Documento Tag funzionalità.
-
-Aspose.Words 21.11 amplia le funzionalità di caricamento e risparmio, migliora l'opzione Trova e sostituisce e lavora con PDF.
-
-Aspose.Words 21.12 introduce opzioni aggiuntive per lavorare con testo latino e font per migliorare l'aspetto e le prestazioni, e amplia la capacità di lavorare con il controllo dei contenuti e le note a piè di pagina
-
-The API è potenziato per uno sviluppo più flessibile e conveniente.
-
-### Miglioramenti delle prestazioni
-
-Caricare una cache di ricerca del carattere precedentemente salvato per accelerare il processo di inizializzazione della cache del carattere al momento del rendering è stato implementato. Ora le vostre soluzioni funzioneranno ancora più velocemente.
-
-### Rendering
-
-#### Lavorare con gradienti riempimenti e soste di gradiente
-
-Nuovi metodi e proprietà pubbliche per lavorare con gradienti riempimenti e gradienti soste sono stati aggiunti per soddisfare le idee più luminose quando si sviluppano i documenti.
-
-#### Attaccamento Pane in uscita PDF Documenti
-
-Una nuova opzione [UseAttachments](https://reference.aspose.com/words/java/com.aspose.words/pdfpagemode/) è stato implementato per visualizzare il pannello di allegati nei documenti PDF in uscita.
-
-#### Consentire il testo latino a Wrap in mezzo a una parola
-
-Il supporto per la funzione "Allow Latin text to wrap in the middle of a word" è stato implementato per rendere il nostro supporto latino ancora meglio sul rendering.
-
-### Cerca e confronta
-
-* Una nuova opzione [IgnoreFootnotes](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreFootnotes) ignorare le note a piè di pagina durante l'operazione di ricerca e sostituzione è stato aggiunto.
-
-* Una nuova opzione [IgnoreFieldCodes](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreFieldCodes) ignorare i codici di campo durante l'operazione di ricerca e sostituzione è stato aggiunto.
-
-### Conversione
-
-Un modo semplice per salvare le immagini come stringa Base64 in Markdown il formato è stato fornito attraverso il [ExportImagesAsBase64](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getExportImagesAsBase64) proprieta'.
-
-### Mail Merge e Relazione
-
-La capacità di ottenere [ParentRegion](https://reference.aspose.com/words/java/com.aspose.words/mailmergeregioninfo/#getParentRegion) attraverso [MailMergeRegionInfo](https://reference.aspose.com/words/java/com.aspose.words/mailmergeregioninfo/), che ha reso il nostro motore MailMerge più stabile, è stato aggiunto.
-
-### Altri
-
-- No. Una capacità di ottenere il [CustomNumberStyleFormat](https://reference.aspose.com/words/java/com.aspose.words/listlevel/#getCustomNumberStyleFormat) proprietà della [ListLevel](https://reference.aspose.com/words/java/com.aspose.words/listlevel/) oggetto è stato aggiunto.
-- Una possibilità di ottenere la rappresentazione della stringa [ListLevel](https://reference.aspose.com/words/java/com.aspose.words/listlevel/) oggetto per un indice specificato utilizzando [GetEffectiveValue](https://reference.aspose.com/words/java/com.aspose.words/listlevel/#getEffectiveValue-int-int-java.lang.String) metodo è stato aggiunto.
-- No. È stata introdotta una capacità intuitiva per modificare l'aspetto dei tag di documento strutturati, che permettono di incorporare semantica definita dal cliente e il suo comportamento in un documento.
-- Una nuova classe [ChmLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/chmloadoptions/) è stato aggiunto per ottenere più controllo sul carico CHM.
-- No. La capacità di ottenere OOXML di un controllo dei contenuti e salvarlo in stringa è stata introdotta. Per fare questo, il **WordOpenXML** la proprietà è stata aggiunta alla [StructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttag/) e [StructuredDocumentTagRangeStart](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttagrangestart/) classi.
-- È stato aggiunto il riconoscimento delle note a piè di pagina non standard nei documenti PDF sull'importazione.
-
-{{% alert color="primary" %}}
-
-Scopri di più su [Aspose.Words per Java 21.9 Nota di rilascio](/words/java/aspose-words-for-java-21-9-release-notes/).
-
-Scopri di più su [Aspose.Words per Java 21.10 Note di rilascio](/words/java/aspose-words-for-java-21-10-release-notes/).
-
-Scopri di più su [Aspose.Words per Java 21.11 Nota di rilascio](/words/java/aspose-words-for-java-21-11-release-notes/).
-
-Scopri di più su [Aspose.Words per Java 21.12 Note di rilascio](/words/java/aspose-words-for-java-21-12-release-notes/).
 
 {{% /alert %}}
 

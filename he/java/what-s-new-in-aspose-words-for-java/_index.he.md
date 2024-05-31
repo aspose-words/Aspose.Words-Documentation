@@ -11,6 +11,29 @@ url: /he/java/what-s-new-in-aspose-words-for-java/
 
 דף זה מתאר את החדש המעניין ביותר Aspose.Words תכונות שהוצגו במהדורות האחרונות.
 
+## Aspose.Words עבור Java 24.5
+
+### עיבוד והדפסה
+
+#### שינויים ב Changes, Charts ו-DrawingML <sup>24.5</sup>
+
+- עיבוד אפקטים של DrawingML עבור גרפיקת SVG, הרחבת פונקציונליות קודמת מוגבלת לתמונות, יושם.
+- תמיכה ביצירת תרשימים משולבים והתאמת מאפיינים כגון רוחב פער, חפיפה וסולם בועות בתוך קבוצות סדרות הוצגה על ידי הוספת מחלקות [ChartSeriesGroup](https://reference.aspose.com/words/java/com.aspose. words/chartseriesgroup/) ו-[ChartSeriesGroupCollection](https://reference.aspose.com/words/java/com.aspose.words/chartseriesgroupcollection/) והמאפיין [SeriesGroups](https://reference.aspose.com/ words/java/com.aspose.words/chart/#getSeriesGroups).
+- פונקציונליות לתמרן אפקט SoftEdge של צורות יושמה על ידי הוספת המחלקה [SoftEdgeFormat](https://reference.aspose.com/words/java/com.aspose.words/softedgeformat/).
+- היכולת לשנות ערכי התאמה של צורות יושמה על ידי הוספת ה-[AdjustmentCollection](https://reference.aspose.com/words/java/com.aspose.words/adjustmentcollection/) ו-[Adjustment](https:/ /reference.aspose.com/words/java/com.aspose.words/adjustment/) שיעורים ציבוריים ו-[התאמות](https://reference.aspose.com/words/java/com.aspose.words/shape/# getAdjustments) מאפיין.
+
+#### אחר
+
+- הפונקציה להעלמת דפים ריקים ממסמך יושמה על ידי הוספת השיטה [RemoveBlankPages](https://reference.aspose.com/words/java/com.aspose.words/document/#removeBlankPages). <sup>24.5</sup>
+- היכולת לבדוק נוכחות של פקודות מאקרו VBA מבלי לטעון מסמך סופקה על ידי הוספת ה-[HasMacros](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasMacros) תכונה. <sup>24.5</sup>
+- שמירה על מספור המקור בזמן הכנסת מסמך באמצעות מנוע הדיווח LINQ נתמכת כעת. <sup>24.5</sup>
+
+{{% alert color="primary" %}}
+
+למידע נוסף על [Aspose.Words for Java 24.5 Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-5-release-notes/ ).
+
+{{% /alert %}}
+
 ## Aspose.Words עבור Java 24.1, 24.2, 24.3, 24.4
 
 Aspose.Words 24.1 משפר את החוויה סביב ניהול צבעי שבץ, משפר את אובייקטים ודיווח LINQ, כמו גם מציג מקורות ביבליוגרפיה חדשים API.
@@ -405,257 +428,6 @@ Aspose.Words 22.12 משפר את יכולת ביצוע ומציג אפשרויו
 למד עוד על [Aspose.Words עבור Java 22.11 פרסום הערות](/words/java/aspose-words-for-java-22-11-release-notes/).
 
 למד עוד על [Aspose.Words עבור Java 22.12 הודעות](/words/java/aspose-words-for-java-22-12-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words עבור Java 22.5, 22.6, 22.7, 22.8
-
-Aspose.Words 22.5 מציג תמיכה בתבניות טעינה חדשות וגודל דף חדש, כמו גם משפר כמה אפשרויות הגשה.
-
-Aspose.Words 22.6 מרחיב את האפשרויות של המרת PDF לפורמטים אחרים, כמו גם לשפר את העבודה עם DrawingML ואפקט מלא טקסט מוצק.
-
-Aspose.Words 22.7 משפר את האפשרויות של עבודה עם עריכת תכונות, וגם מוסיף תכונות חדשות לעבודה עם ייבוא HTML וייצוא ל- PDF.
-
-Aspose.Words 22.8 מציג פורמט יצוא חדש ומשפר אלגוריתמים שונים.
-
-The The The API הוא משופר לפיתוח גמיש ונוח יותר.
-
-### פורמטים תומכים
-
-* • תמיכה בטעינה EPUB ומסמכים XML הוצגה על ידי הוספת ערכים חדשים [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) אזהרה. החל מגרסה 22.5, ניתן לטעון מסמכי EPUB ו-XML לתוך Aspose.Words מודל מסמך וממיר אותם לכל [פורמטים נתמך](https://reference.aspose.com/words/java/com.aspose.words/saveformat/). <sup>22.5</sup>
-* החל מגרסה 22.8, ניתן לחסוך מסמך בפורמט AZW3 Amazon פורמט קובץ ה- e-book הקנייני של קינדל (KF8 הוא שם אחר לתבנית). עכשיו אתה לא יכול רק לטעון AZW3 מסמכים, אבל גם לייצא את הקבצים שלך בפורמט AZW3, שהוא למעשה EPUB מורכב. <sup>22.8</sup>
-
-### גילוח ומדפס
-
-#### גודל הדפסה חדש <sup>22.5</sup>
-
-התמיכה בגודל ההדפסה "Envelope No. 10" נוספה על ידי הצגת ערך חדש [PaperSize](https://reference.aspose.com/words/java/com.aspose.words/papersize/) אזהרה.
-
-#### המונחים: MathML Formulas <sup>22.5</sup>
-
-יצירת תיבת גבול סביב נוסחאות MathML וגילוי גופני בעת יצירת דמויות לנוסחאות כאלה השתפרה.
-
-#### DML שיפורים <sup>22.6</sup>
-
-המונחים: public API הורחב לתמיכה gradient, מרקם ותבניות.
-
-#### Glyph המונחים: OpenType <sup>22.7</sup>
-
-Aspose.Words משלה glyph מתווה parsing for OpenType (CFF) גפנים כבר מיושם.
-
-בעבר, glyph parsing for OpenType (CFF) בוצעה באמצעות GDI+. עכשיו זה עובד במקרים שבהם GDI+ אינו זמין. Java, .NET Standard פלטפורמות, Linux מערכת ההפעלה וכו'. Glyph קווי מתאר נדרשים במקרים ספציפיים כגון WordArt, אפקטים טקסט, כמה תכונות של Office מתי ואחרים.
-
-#### המונחים: shape Shadow Format <sup>22.7</sup>
-
-היכולת להגדיר את פורמט הצללים של האובייקט בצורת מסופק על ידי הוספת חדש [ShadowFormat](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getShadowFormat) רכוש.
-
-#### תמיכה ב- Cell Spacing in Tables <sup>22.8</sup>
-
-מנוע הפריסה השתפר כעת באופן משמעותי: מנגנון עיבוד תאים מורכב מאוד בטבלאות כבר מיושם.
-
-#### מיקום: Font Substitution for Symbols <sup>22.8</sup>
-
-החלפתם של סמלים השתפרה.
-
-#### המונחים: Rotation Algorithm <sup>22.8</sup>
-
-אלגוריתם הסיבוב של תוויות ציר תרשים השתפר.
-
-### לטעון ולחסוך מסמכים
-
-#### לטעון ולהמיר PDF לתבנית קבועה של דף ללא מודל Layout <sup>22.6</sup>
-
-היכולת לטעון ולהמיר מסמכי PDF כדי לתקן פורמטי דף עם נאמנות גבוהה וביצועים יושמו.
-
-#### HTML יבוא מצב <sup>22.7</sup>
-
-מצב ייבוא HTML חדש עבור אלמנטים ברמת בלוק הוצג על ידי הוספת ערך חדש ל [HtmlInsertOptions](https://reference.aspose.com/words/java/com.aspose.words/htmlinsertoptions/) אזהרה.
-
-#### המרת PDF/UA-1 CSSompliant עם WCAG 2.0 <sup>22.7</sup>
-
-תמיכה להמיר מסמך לפורמט PDF / UA-1, בשילוב עם WCAG 2.0.
-
-אם ללקוח יש מסמך Word נגיש וממיר אותו ל- PDF/UA-1 באמצעות Aspose.Words בהתייחסות ספציפיתי המרה, אזי הפלט יהיה תואם WCAG 2.0.
-
-WCAG או Web Content נגישות הנחיות הן מערך של הנחיות שפותחו על ידי W3C בשיתוף פעולה עם יחידים וארגונים ברחבי העולם. עכשיו עם Aspose.Words באפשרותך להמיר את המסמך שלך לתבנית PDF/UA-1, המתאימה לבניית מסמכי PDF של WCAG 2.0.
-
-ראוי לציין כי WCAG 2.0 יש שתי דרישות נוספות שאינן מוגדרות במפרט PDF/UA-1:
-
-- דרישות ניגוד
-- דרישות לתייג תוכן מולטימדיה
-
-אבל שתי הדרישות אינן רלוונטיות לענייננו, החל מ- Word ל- PDF.
-
-### אחרים
-
-* למעט יורשת הטקסט המוצק למלא אפקט המחקה התנהגות MS Word כבר מיושם. <sup>22.6</sup>
-* תמיכה של `DATABASE` נוספו שדות. באמצעות סוג זה של שדה, אתה יכול, למשל, להציג את התוצאות של שאילתה מסד נתונים במסד נתונים. Microsoft Word שולחן. <sup>22.7</sup>
-
-{{% alert color="primary" %}}
-
-למד עוד על [Aspose.Words עבור Java 22.5 הערות](/words/java/aspose-words-for-java-22-5-release-notes/).
-
-למד עוד על [Aspose.Words עבור Java 22.6 הערות](/words/java/aspose-words-for-java-22-6-release-notes/).
-
-למד עוד על [Aspose.Words עבור Java 22.7 הערות](/words/java/aspose-words-for-java-22-7-release-notes/).
-
-למד עוד על [Aspose.Words עבור Java 22.8 הערות](/words/java/aspose-words-for-java-22-8-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words עבור Java 22.1, 22.2, 22.3, 22.4
-
-Aspose.Words 22.1 משפר את האופציות, כמו גם טעינה ושמירת מסמכים.
-
-Aspose.Words 22.2 מציג פורמט עומס חדש ואפשרויות חדשות לייצא מסמכים. הוא מכיל גם עדכון גדול עבור טבלאות וכמה שינויים לעבודה עם שדות.
-
-Aspose.Words 22.3 מרחיב את האפשרויות של עבודה עם פורמטי PDF ו- TXT ומשפר את העבודה של כמה אלגוריתמים ומנועי קיימים.
-
-Aspose.Words 22.4 משפר את יכולות PDF - עכשיו אתה יכול לחסוך קובץ בפורמט PDF / A-4 ולקבל מספר שיפורים נוספים ב- PDF. במקביל, Aspose.Words 22.4 מספק יכולות נוספות לעבוד עם charts DML, לקרוא את metadata של Photoshop, לייבא אלמנטים ברמת חסימת HTML.
-
-The The The API הוא משופר לפיתוח גמיש ונוח יותר.
-
-### פורמטים תומכים
-
-הגשת מסמך בפורמט AZW3 (KF8 הוא שם אחר לתבנית) נוספה. עכשיו אתה יכול לטעון מסמך AZW3 ולהפוך אותו לכל פורמטים נתמך אחרים.
-
-### Rendering
-
-#### עקבו אחרי PDF/UA-1 Compliance
-
-החל מ- PDF עם תאימות PDF/UA-1 יושמה על ידי הוספת ערכים חדשים [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) המונחים: **PDF_UA_1**. אפשרות זו מניחה עמידה בדרישות מיוחדות עבור נגישות מסמכים.
-
-#### המונחים: MathML Formulas
-
-השימוש במפעילים בנוסחאות MathML השתפר.
-
-#### DML שיפורים
-
-השיפורים הבאים נעשו ל charts DML:
-
-- אלגוריתם הגרף של DML השתפר להיות זהה ב MS Word
-- היכולת לתמרן עם רשומות אגדה תרשים של DrawingML מסופקת כדי להפוך את התרשים שלנו API יותר ויותר מקיף
-- - היכולת לציין את השם של xls /xlsx קובץ תרשים DrawingML קשורה כבר מיושם
-
-#### עקבו אחרי PDF / A-4 Compliance
-
-החל מ- PDF עם תאימות PDF/A-4 נוספה על ידי הוספת ערכים חדשים [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) המונחים: PDF_A_4 אפשרות זו מניחה רמות התאמה מתוקנות: תקן PDF / A-4 קבוע שווה ערך לרמה תואמים U של גרסאות קודמות, ורמת A תואמת מוסרת.
-
-#### צילום: Photoshop metadata resolution in JPEG
-
-קריאה של רזולוציה של Photoshop metadata בתמונות JPEG יושמה כדי לתקן בעיה מעניינת עם סקאלה לא נכונה של תמונות על ידי ביצוע.
-
-### לטעון ולחסוך מסמכים
-
-#### ניהול סגנון התנהגות בעת טעינת מסמך
-
-אפשרות חדשה [ForceCopyStyles](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getForceCopyStyles) הוצג לשלוט בהתנהגות של סגנונות סותרים על יבוא מסמך.
-
-#### מסמך חיסכון בזיהוי
-
-היכולת לקבל הודעות על ההתקדמות של שמירת מסמכים נוספה דרך [ProgressCallback](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getProgressCallback) נכסים ב 22.1
-
-בשנת 22.2, שמירת הודעות התקדמות הורחבו עבור פורמטי זרימה מבוססי HTML ו- XAML: HTML, MHTML, Epub, XamlFlow ו- XamlFlowPack.
-
-בשנת 22.3, שמירת הודעות התקדמות הורחבו עבור פורמט TXT.
-
-#### המונחים: SVG מתי ייצוא
-
-היכולת להמיר צורות לתמונות SVG על יצוא ל- HTML, MHTML או EPUB מסופקת על ידי הוספת [ExportShapesAsSvg](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getExportShapesAsSvg) רכוש.
-
-#### מקור: PDF Logical Structure
-
-מספר היצוא למבנה הגיוני של PDF ייושם.
-
-#### חיסכון ל- PDF 2.0 ושיפורים ב- PDF Output
-
-היכולת לחסוך מסמך כ- PDF 2.0 על ידי הוספת ערך חדש [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) הערכה, כמו גם כמה שיפורים מבוקשים אחרים ל- PDF, הוצגו.
-
-#### HTML יבוא מצב
-
-מצב יבוא חדש לאלמנטים ברמת חסימת HTML יושם כדי לחקות Microsoft Word התנהגות.
-
-### אחרים
-
-* יכולת לקבל נתוני שדה מותאמים אישית הקשורים לתחום נוספה.
-* הגרסה האחרונה של Aspose.Words גם כלל עדכון גדול מטפל בטבלאות עם נתונים לא נכונים או חסרים רוחב עמודה במסמך המקור.
-* האלגוריתם המשווה את האלגוריתם תלוי בניתוח עמוק של Microsoft Word מנגנון ההשוואה השתפר.
-* ההערות syntax במנוע דוח LINQ מסופקות.
-
-{{% alert color="primary" %}}
-
-למד עוד על [Aspose.Words עבור Java 22.1 הודעות](https://releases.aspose.com/words/java/release-notes/2022/aspose-words-for-java-22-1-release-notes/).
-
-למד עוד על [Aspose.Words עבור Java 22.2 הערות](https://releases.aspose.com/words/java/release-notes/2022/aspose-words-for-java-22-2-release-notes/).
-
-למד עוד על [Aspose.Words עבור Java 22.3 הערות](https://releases.aspose.com/words/java/release-notes/2022/aspose-words-for-java-22-3-release-notes/).
-
-למד עוד על [Aspose.Words עבור Java 22.4 הודעות](https://releases.aspose.com/words/java/release-notes/2022/aspose-words-for-java-22-4-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words עבור Java 21.9, 21.10, 21.11, 21.12
-
-Aspose.Words 21.9 מרחיב את בקרת הפורמטים ברמת הרשימה.
-
-Aspose.Words 21.10 משפר את אפשרויות ההגשה, משפר את מציאתו ומחליף אפשרויות, ומרחיב את האפשרויות. Mail Merge Power Document Tag פונקציונליות
-
-Aspose.Words 21.11 מרחיבה טעינות והצלת פונקציונליות, משפרת את האפשרות ומחליפה לעבוד עם PDF.
-
-Aspose.Words 21.12 מציג אפשרויות נוספות לעבודה עם טקסט לטיני וגופנים לשיפור המראה והביצועים, ומרחיב את היכולת לעבוד עם בקרת תוכן והערות שוליים
-
-The The The API הוא משופר לפיתוח גמיש ונוח יותר.
-
-### שיפור ביצועים
-
-לטעון שפם חיפוש גופן שנשמר בעבר כדי להאיץ את תהליך הזיכיון הפונטני לאחר ביצוע. הפתרונות שלך יעבדו מהר יותר.
-
-### Rendering
-
-#### עבודה עם gradient ממלא ו- gradient מפסיק
-
-שיטות ציבוריות חדשות ונכסים לעבוד עם gradient מילויים ו עצירות נוספו כדי לספק את הרעיונות המבריקים ביותר בעת פיתוח המסמכים שלך.
-
-#### קישור ל-Output PDF Documents
-
-אפשרות חדשה [UseAttachments](https://reference.aspose.com/words/java/com.aspose.words/pdfpagemode/) הוא מיושם כדי להציג את הפנטה המצורפת במסמכים PDF.
-
-#### אפשר טקסט לטיני ל-Wrap באמצע מילה
-
-התמיכה ב"טקסט הלטיני לעטוף באמצע מילה" הטמיעה כדי להפוך את התמיכה הלטינית שלנו אפילו טוב יותר על ידי ביצוע.
-
-### חיפוש והשוואה
-
-* אפשרות חדשה [IgnoreFootnotes](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreFootnotes) להתעלם מהערות כף הרגל במהלך החיפוש והחלפת הפעולה נוספה.
-
-* אפשרות חדשה [IgnoreFieldCodes](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreFieldCodes) להתעלם מקודי שדה במהלך חיפוש והחלפת הפעולה נוספה.
-
-### הגייה
-
-דרך פשוטה לחסוך תמונות כמו Base64 מחרוזת לתוך Markdown פורמט ניתן באמצעות [ExportImagesAsBase64](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getExportImagesAsBase64) רכוש.
-
-### Mail Merge דיווח ו
-
-היכולת להשיג [ParentRegion](https://reference.aspose.com/words/java/com.aspose.words/mailmergeregioninfo/#getParentRegion) דרך [MailMergeRegionInfo](https://reference.aspose.com/words/java/com.aspose.words/mailmergeregioninfo/), מה שהפך את מנוע MailMerge שלנו לטונה יותר, הוסיף.
-
-### אחרים
-
-- - יכולת להשיג את [CustomNumberStyleFormat](https://reference.aspose.com/words/java/com.aspose.words/listlevel/#getCustomNumberStyleFormat) רכוש [ListLevel](https://reference.aspose.com/words/java/com.aspose.words/listlevel/) האובייקט נוסף.
-- אפשרות לקבל ייצוג מיתר של [ListLevel](https://reference.aspose.com/words/java/com.aspose.words/listlevel/) אובייקט לאינדקס שצוין באמצעות [GetEffectiveValue](https://reference.aspose.com/words/java/com.aspose.words/listlevel/#getEffectiveValue-int-int-java.lang.String) השיטה נוספה.
-- - יכולת אינטואיטיבית לשנות את המראה של תגי מסמך מובנים, המאפשרים למעשה להטמיע סממנטיקה מוגדרת של הלקוח, כמו גם את התנהגותו לתוך מסמך, הוצגה.
-- מחלקה חדשה [ChmLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/chmloadoptions/) נוספו כדי לקבל יותר שליטה על טעינת CHM.
-- - היכולת לקבל OOXML של בקרת תוכן ולהציל אותו למחרוזת הוצגה. לעשות את זה, **WordOpenXML** רכוש נוסף [StructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttag/) ו [StructuredDocumentTagRangeStart](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttagrangestart/) שיעורים.
-- ההכרה בהערות לא סטנדרטיות ב- PDF בייבוא נוספה.
-
-{{% alert color="primary" %}}
-
-למד עוד על [Aspose.Words עבור Java 21.9 הערות](/words/java/aspose-words-for-java-21-9-release-notes/).
-
-למד עוד על [Aspose.Words עבור Java 21.10 הערות](/words/java/aspose-words-for-java-21-10-release-notes/).
-
-למד עוד על [Aspose.Words עבור Java 21.11 פרסום הערות](/words/java/aspose-words-for-java-21-11-release-notes/).
-
-למד עוד על [Aspose.Words עבור Java 21.12 הודעות](/words/java/aspose-words-for-java-21-12-release-notes/).
 
 {{% /alert %}}
 

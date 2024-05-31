@@ -11,6 +11,29 @@ url: /id/java/what-s-new-in-aspose-words-for-java/
 
 Halaman ini menjelaskan yang paling menarik Aspose.Words fitur yang diperkenalkan dalam rilis terbaru.
 
+## Aspose.Words untuk Java 24.5
+
+### Rendering dan Pencetakan
+
+#### Perubahan Charts, Shapes, dan DrawingML <sup>24.5</sup>
+
+- Render efek DrawingML untuk grafik SVG, memperluas fungsionalitas sebelumnya yang terbatas pada gambar, telah diterapkan.
+- Dukungan untuk membuat bagan kombo dan menyesuaikan properti seperti lebar celah, tumpang tindih, dan skala gelembung dalam grup seri telah diperkenalkan dengan menambahkan [ChartSeriesGroup](https://reference.aspose.com/words/java/com.aspose. word/chartseriesgroup/) dan kelas [ChartSeriesGroupCollection](https://reference.aspose.com/words/java/com.aspose.words/chartseriesgroupcollection/) dan kelas [SeriesGroups](https://reference.aspose.com/ properti word/java/com.aspose.words/chart/#getSeriesGroups).
+- Fungsionalitas untuk memanipulasi efek SoftEdge bentuk telah diimplementasikan dengan menambahkan kelas [SoftEdgeFormat](https://reference.aspose.com/words/java/com.aspose.words/softedgeformat/).
+- Kemampuan untuk mengubah nilai penyesuaian bentuk telah diterapkan dengan menambahkan [AdjustmentCollection](https://reference.aspose.com/words/java/com.aspose.words/adjustmentcollection/) dan [Adjustment](https:/ /reference.aspose.com/words/java/com.aspose.words/adjustment/) kelas umum dan [Adjustments](https://reference.aspose.com/words/java/com.aspose.words/shape/# getAdjustments) properti.
+
+#### Lainnya
+
+- Fungsi untuk menghilangkan halaman kosong dari dokumen telah diterapkan dengan menambahkan metode [RemoveBlankPages](https://reference.aspose.com/words/java/com.aspose.words/document/#removeBlankPages). <sup>24,5</sup>
+- Kemampuan untuk memeriksa keberadaan makro VBA tanpa memuat dokumen telah disediakan dengan menambahkan [HasMacros](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasMacros) Properti. <sup>24,5</sup>
+- Menyimpan penomoran sumber saat memasukkan dokumen menggunakan Mesin Pelaporan LINQ kini didukung. <sup>24,5</sup>
+
+{{% alert color="primary" %}}
+
+Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Java 24.5](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-5-release-notes/ ).
+
+{{% /alert %}}
+
 ## Aspose.Words Sitemap Java 24.1, 24.2, 24.3, 24.4
 
 Aspose.Words 24.1 meningkatkan pengalaman di sekitar mengelola warna stroke, meningkatkan objek OLE dan pelaporan LINQ, serta memperkenalkan sumber Bibliografi baru publik APISitemap
@@ -405,257 +428,6 @@ Pelajari lebih lanjut [Aspose.Words Sitemap Java 22.10 Login](/words/java/aspose
 Pelajari lebih lanjut [Aspose.Words Sitemap Java 22.11. Login](/words/java/aspose-words-for-java-22-11-release-notes/)Sitemap
 
 Pelajari lebih lanjut [Aspose.Words Sitemap Java 22.12 Login](/words/java/aspose-words-for-java-22-12-release-notes/)Sitemap
-
-{{% /alert %}}
-
-## Aspose.Words Sitemap Java 22.5, 22.6, 22.7, 22.8
-
-Aspose.Words 22.5 memperkenalkan dukungan untuk format pemuatan baru dan ukuran halaman cetak baru, serta meningkatkan beberapa opsi rendering.
-
-Aspose.Words 22.6 memperluas kemungkinan mengonversi PDF ke format lain, serta meningkatkan pekerjaan dengan DrawingML dan efek pengisian teks padat.
-
-Aspose.Words 22.7 meningkatkan kemungkinan bekerja dengan fitur rendering, dan juga menambahkan fitur baru untuk bekerja dengan impor HTML dan ekspor ke PDF.
-
-Aspose.Words 22.8 memperkenalkan format ekspor baru dan meningkatkan berbagai algoritma rendering.
-
-Login API ditingkatkan untuk pengembangan yang lebih fleksibel dan nyaman.
-
-### Sitemap
-
-* Dukungan untuk memuat dokumen EPUB dan XML telah diperkenalkan dengan menambahkan nilai baru ke [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) Sitemap Mulai dari versi 22.5, dimungkinkan untuk memuat dokumen EPUB dan XML ke dalam Aspose.Words model dokumen dan mengubahnya ke [Login](https://reference.aspose.com/words/java/com.aspose.words/saveformat/)Sitemap <sup>22.5 g</sup>
-* Mulai dari versi 22.8, dimungkinkan untuk menyimpan dokumen dalam format AZW3 - Amazon Format file e-book milik Kindle (KF8 adalah nama lain untuk format). Sekarang Anda tidak hanya dapat memuat dokumen AZW3, tetapi juga mengekspor file Anda ke format AZW3, yang pada dasarnya adalah EPUB yang disusun. <sup>22.8 g</sup>
-
-### Rendering dan Pencetakan
-
-#### Ukuran Pencetakan Baru <sup>22.5 g</sup>
-
-Dukungan untuk ukuran halaman cetak "Envelope No. 10" telah ditambahkan dengan memperkenalkan nilai baru ke [PaperSize](https://reference.aspose.com/words/java/com.aspose.words/papersize/) Sitemap
-
-#### Rendering Formula MathML <sup>22.5 g</sup>
-
-Rendering kotak perbatasan di sekitar formula MathML dan deteksi font ketika rendering karakter untuk formula tersebut telah ditingkatkan.
-
-#### Login Peningkatan Chart <sup>22.6</sup>
-
-Grafik gambar publik API telah diperpanjang untuk mendukung gradien, tekstur, dan mengisi pola.
-
-#### Glyph Outlines Parsing untuk OpenType <sup>2,7 g</sup>
-
-Aspose.Words Login glyph garis besar parsing untuk OpenType (CFF) font telah diterapkan.
-
-Sitemap glyph parsing untuk OpenType (CFF) font dilakukan melalui GDI+. Jadi sekarang bekerja dalam kasus di mana GDI+ tidak tersedia - Java, .NET Standard platform, Linux OS, dll. Glyph outlines parsing diperlukan dalam kasus tertentu seperti WordArt, efek teks, beberapa fitur Matematika Kantor, dan lain-lain.
-
-#### Set Bentuk Shadow Formatting <sup>2,7 g</sup>
-
-Kemampuan untuk mengatur format bayangan dari objek bentuk telah disediakan dengan menambahkan yang baru [ShadowFormat](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getShadowFormat) Login
-
-#### Mendukung Spasi Sel di Tabel <sup>22.8 g</sup>
-
-Mesin tata letak sekarang meningkat secara signifikan: mekanisme jarak sel yang sangat kompleks di meja telah diterapkan.
-
-#### Substitusi Font untuk Simbol <sup>22.8 g</sup>
-
-Substitusi Font untuk simbol telah ditingkatkan.
-
-#### Label Axis Grafik Rotasi Algorithm <sup>22.8 g</sup>
-
-Algoritme rotasi label sumbu grafik telah ditingkatkan.
-
-### Memuat dan Menyimpan Dokumen
-
-#### Beban dan Konversi PDF ke Format Tetap tanpa Model Tata Letak <sup>22.6</sup>
-
-Kemampuan untuk memuat dan mengonversi dokumen PDF ke format halaman tetap dengan kesetiaan tinggi dan kinerja telah diterapkan.
-
-#### Mode Impor HTML Baru <sup>2,7 g</sup>
-
-Mode impor HTML baru untuk elemen tingkat blok telah diperkenalkan dengan menambahkan nilai baru ke [HtmlInsertOptions](https://reference.aspose.com/words/java/com.aspose.words/htmlinsertoptions/) Sitemap
-
-#### Konversi ke PDF / U-1 CSSompliant dengan WCAG 2.0 <sup>2,7 g</sup>
-
-Dukungan untuk mengkonversi dokumen ke format PDF/UA-1, sesuai dengan WCAG 2.0, telah ditambahkan.
-
-Jadi, jika pelanggan memiliki dokumen Word yang dapat diakses dan mengonversinya ke PDF/UA-1 melalui Aspose.Words menyebutkan spesifikasi konversi, maka output akan kompatibel WCAG 2.0.
-
-Aksesibilitas Konten WCAG atau Web Pedoman adalah satu set pedoman yang dikembangkan oleh W3C bekerja sama dengan individu dan organisasi di seluruh dunia. Sitemap Aspose.Words Anda dapat mengonversi dokumen Anda ke format PDF / U-1 output, yang cocok untuk membangun dokumen PDF sesuai WCAG 2.0.
-
-Perlu dicatat bahwa WCAG 2.0 memiliki dua persyaratan tambahan yang tidak ditentukan dalam spesifikasi PDF / U-1:
-
-- persyaratan kontras
-- persyaratan untuk menandai konten multimedia
-
-Tetapi kedua persyaratan tidak relevan dengan kasus konversi dari Word ke PDF.
-
-### Sitemap
-
-* Kecuali mengherankan efek pengisian teks padat yang meniru perilaku MS Word telah diterapkan. <sup>22.6</sup>
-* Dukungan `DATABASE` kolom telah ditambahkan. Menggunakan jenis bidang ini, Anda dapat, misalnya, menunjukkan hasil query database dalam Microsoft Word tabel. <sup>2,7 g</sup>
-
-{{% alert color="primary" %}}
-
-Pelajari lebih lanjut [Aspose.Words Sitemap Java 22.5 Login](/words/java/aspose-words-for-java-22-5-release-notes/)Sitemap
-
-Pelajari lebih lanjut [Aspose.Words Sitemap Java 22.6 Login](/words/java/aspose-words-for-java-22-6-release-notes/)Sitemap
-
-Pelajari lebih lanjut [Aspose.Words Sitemap Java 22.7 Login](/words/java/aspose-words-for-java-22-7-release-notes/)Sitemap
-
-Pelajari lebih lanjut [Aspose.Words Sitemap Java 22.8 g](/words/java/aspose-words-for-java-22-8-release-notes/)Sitemap
-
-{{% /alert %}}
-
-## Aspose.Words Sitemap Java 22.1, 22.2, 22.3, 22.4
-
-Aspose.Words 22.1 meningkatkan opsi rendering, serta memuat dan menyimpan dokumen.
-
-Aspose.Words 22.2 memperkenalkan format beban baru dan opsi baru untuk mengekspor dokumen. Ini juga berisi pembaruan utama untuk tabel dan beberapa perubahan untuk bekerja dengan bidang.
-
-Aspose.Words 22.3 memperluas kemungkinan bekerja dengan format PDF dan TXT dan meningkatkan kerja beberapa algoritma dan mesin yang ada.
-
-Aspose.Words 22.4 meningkatkan kemampuan PDF - sekarang Anda dapat menyimpan file dalam format PDF / A-4 dan mendapatkan sejumlah perbaikan lainnya dalam output PDF. Pada saat yang sama, Aspose.Words 22.4 menyediakan kemampuan tambahan untuk bekerja dengan grafik DML, membaca metadata Photoshop, dan mengimpor elemen level HTML.
-
-Login API ditingkatkan untuk pengembangan yang lebih fleksibel dan nyaman.
-
-### Sitemap
-
-Memuat dokumen dalam format AZW3 (KF8 adalah nama lain untuk format) telah ditambahkan. Sekarang Anda dapat memuat dokumen AZW3 dan mengubahnya ke format yang didukung lainnya.
-
-### Login
-
-#### PDF/UA-1 Datasheet
-
-Pengirim ke PDF dengan kepatuhan PDF/UA-1 telah dilaksanakan dengan menambahkan nilai baru ke [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) Sitemap **Login**Sitemap Opsi ini mengasumsikan kepatuhan terhadap persyaratan khusus untuk aksesibilitas dokumen.
-
-#### Rendering Formula MathML
-
-Penyediaan operator dalam formula MathML telah ditingkatkan.
-
-#### Login Peningkatan Chart
-
-Peningkatan berikut telah dilakukan pada grafik DML:
-
-- Algoritma scaling sumbu grafik DML telah ditingkatkan menjadi sama seperti di MS Word
-- Kemampuan untuk memanipulasi dengan entri legenda grafik DrawingML telah disediakan untuk membuat grafik kami API lebih komprehensif
-- Login Kemampuan untuk menentukan nama file xls / xlsx grafik DrawingML terkait telah diterapkan
-
-#### Rendering ke PDF dengan PDF / A-4 Kepatuhan
-
-Pengirim ke PDF dengan kepatuhan PDF/A-4 telah ditambahkan dengan menambahkan nilai baru ke [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) PDF_A_4. Pilihan ini mengasumsikan tingkat kesesuaian yang direvisi: kesesuaian PDF / A-4 biasa setara dengan tingkat kesesuaian U versi sebelumnya, dan tingkat Kesesuaian yang dihapus.
-
-#### Membaca resolusi metadata Photoshop di JPEG
-
-Membaca resolusi metadata Photoshop dalam gambar JPEG telah diterapkan untuk memperbaiki masalah yang menarik dengan penasaran gambar yang salah pada rendering.
-
-### Memuat dan Menyimpan Dokumen
-
-#### Gaya Kontrol Perilaku Saat Memuat Dokumen
-
-Opsi baru [ForceCopyStyles](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getForceCopyStyles) telah diperkenalkan untuk mengontrol perilaku gaya konflik atas impor dokumen.
-
-#### Dokumen Menyimpan Pemberitahuan Perkembangan
-
-Kemampuan untuk mendapatkan pemberitahuan tentang kemajuan tabungan dokumen telah ditambahkan melalui [ProgressCallback](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getProgressCallback) properti dalam 22.1.
-
-Dalam 22.2, menyimpan pemberitahuan kemajuan telah diperpanjang untuk format aliran berbasis HTML dan XAML: HTML, MHTML, Epub, XamlFlow, dan XamlFlowPack.
-
-Dalam 22.3, menyimpan pemberitahuan kemajuan telah diperpanjang untuk format TXT.
-
-#### Mengkonversi Bentuk ke SVG Saat mengekspor
-
-Kemampuan untuk mengubah bentuk ke gambar SVG pada mengekspor ke HTML, MHTML, atau EPUB telah disediakan dengan menambahkan [ExportShapesAsSvg](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getExportShapesAsSvg) Login
-
-#### Ekspor Nomor Daftar ke Struktur Logika PDF
-
-Daftar nomor ekspor ke struktur logis PDF telah diterapkan.
-
-#### Simpan ke PDF 2.0 dan Perbaikan dalam Output PDF
-
-Kemampuan untuk menyimpan dokumen sebagai PDF 2.0 dengan menambahkan nilai baru ke [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) enumerasi, serta beberapa perbaikan yang diminta lainnya ke output PDF, telah diperkenalkan.
-
-#### Mode Impor HTML Baru
-
-Mode impor baru untuk elemen tingkat blok HTML telah diterapkan untuk meniru Microsoft Word perilaku.
-
-### Sitemap
-
-* Sitemap Kemampuan untuk mendapatkan data bidang kustom yang terkait dengan bidang telah ditambahkan.
-* Sitemap Versi terbaru dari Aspose.Words juga menyertakan pembaruan utama yang menangani tabel dengan data lebar kolom yang salah atau hilang dalam dokumen sumber.
-* Sitemap Algoritme membandingkan tabel mengandalkan analisis mendalam Microsoft Word mekanisme perbandingan telah ditingkatkan.
-* Sitemap Komentar sintaks di mesin Pelaporan LINQ telah disediakan.
-
-{{% alert color="primary" %}}
-
-Pelajari lebih lanjut [Aspose.Words Sitemap Java 22.1 Login](https://releases.aspose.com/words/java/release-notes/2022/aspose-words-for-java-22-1-release-notes/)Sitemap
-
-Pelajari lebih lanjut [Aspose.Words Sitemap Java 22.2 Login](https://releases.aspose.com/words/java/release-notes/2022/aspose-words-for-java-22-2-release-notes/)Sitemap
-
-Pelajari lebih lanjut [Aspose.Words Sitemap Java 22.3 Login](https://releases.aspose.com/words/java/release-notes/2022/aspose-words-for-java-22-3-release-notes/)Sitemap
-
-Pelajari lebih lanjut [Aspose.Words Sitemap Java 22.4 Login](https://releases.aspose.com/words/java/release-notes/2022/aspose-words-for-java-22-4-release-notes/)Sitemap
-
-{{% /alert %}}
-
-## Aspose.Words Sitemap Java 21.9, 21.10, 21.11, 21.12
-
-Aspose.Words 21.9 memperluas kontrol format level list.
-
-Aspose.Words 21.10 meningkatkan opsi rendering, meningkatkan menemukan dan mengganti opsi, dan memperluas Mail Merge dan Fungsi Dokumen Struktur.
-
-Aspose.Words 21.11 memperluas fungsi pemuatan dan penghematan, meningkatkan menemukan dan mengganti opsi dan bekerja dengan PDF.
-
-Aspose.Words 21.12 memperkenalkan pilihan tambahan untuk bekerja dengan teks Latin dan font untuk meningkatkan penampilan dan kinerja, dan memperluas kemampuan untuk bekerja dengan kontrol konten dan catatan kaki
-
-Login API ditingkatkan untuk pengembangan yang lebih fleksibel dan nyaman.
-
-### Peningkatan Kinerja
-
-Memuat cache pencarian font yang sebelumnya disimpan untuk mempercepat proses awalisasi cache font setelah rendering telah diterapkan. Sekarang solusi Anda akan bekerja lebih cepat.
-
-### Login
-
-#### Bekerja dengan pengisian gradien dan perhentian gradien
-
-Metode publik baru dan properti untuk bekerja dengan pengisian gradien dan perhentian gradien telah ditambahkan untuk memenuhi ide paling terang ketika mengembangkan dokumen Anda.
-
-#### Lampiran Pane dalam Dokumen PDF Output
-
-Opsi baru [UseAttachments](https://reference.aspose.com/words/java/com.aspose.words/pdfpagemode/) telah diimplementasikan untuk menampilkan pane lampiran dalam dokumen PDF output.
-
-#### Memungkinkan Teks Latin untuk Bungkus di Tengah Firman
-
-Dukungan untuk fitur "Allow Latin teks untuk membungkus di tengah kata" telah diterapkan untuk membuat dukungan Latin kami bahkan lebih baik pada rendering.
-
-### Sitemap
-
-* Opsi baru [IgnoreFootnotes](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreFootnotes) untuk mengabaikan catatan kaki selama menemukan dan mengganti operasi telah ditambahkan.
-
-* Opsi baru [IgnoreFieldCodes](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreFieldCodes) untuk mengabaikan kode lapangan selama menemukan dan mengganti operasi telah ditambahkan.
-
-### Login
-
-Cara sederhana untuk menyimpan gambar sebagai string Base64 menjadi Markdown format telah disediakan melalui [ExportImagesAsBase64](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getExportImagesAsBase64) Login
-
-### Mail Merge Login
-
-Kemampuan untuk mendapatkan [ParentRegion](https://reference.aspose.com/words/java/com.aspose.words/mailmergeregioninfo/#getParentRegion) Sitemap [MailMergeRegionInfo](https://reference.aspose.com/words/java/com.aspose.words/mailmergeregioninfo/), yang membuat mesin MailMerge kami lebih tunable, telah ditambahkan.
-
-### Sitemap
-
-- Login Kemampuan untuk mendapatkan [CustomNumberStyleFormat](https://reference.aspose.com/words/java/com.aspose.words/listlevel/#getCustomNumberStyleFormat) properti [ListLevel](https://reference.aspose.com/words/java/com.aspose.words/listlevel/) objek telah ditambahkan.
-- Kemungkinan untuk mendapatkan representasi string dari [ListLevel](https://reference.aspose.com/words/java/com.aspose.words/listlevel/) objek untuk indeks tertentu menggunakan [GetEffectiveValue](https://reference.aspose.com/words/java/com.aspose.words/listlevel/#getEffectiveValue-int-int-java.lang.String) metode telah ditambahkan.
-- Login Kemampuan intuitif untuk mengubah tampilan tag dokumen terstruktur, yang sebenarnya memungkinkan timbul semantik yang ditentukan pelanggan serta perilakunya menjadi dokumen, telah diperkenalkan.
-- Kelas baru [ChmLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/chmloadoptions/) telah ditambahkan untuk mendapatkan lebih banyak kontrol atas pemuatan CHM.
-- Login Kemampuan untuk mendapatkan OOXML dari kontrol konten dan menyimpannya ke string telah diperkenalkan. Untuk melakukan ini, **WordOpenXML** properti telah ditambahkan ke [StructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttag/) Login [StructuredDocumentTagRangeStart](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttagrangestart/) kelas.
-- Pengenalan catatan kaki non-standar dalam dokumen PDF pada impor telah ditambahkan.
-
-{{% alert color="primary" %}}
-
-Pelajari lebih lanjut [Aspose.Words Sitemap Java 21.9 Login](/words/java/aspose-words-for-java-21-9-release-notes/)Sitemap
-
-Pelajari lebih lanjut [Aspose.Words Sitemap Java 1.10 Login](/words/java/aspose-words-for-java-21-10-release-notes/)Sitemap
-
-Pelajari lebih lanjut [Aspose.Words Sitemap Java 21.11 Login](/words/java/aspose-words-for-java-21-11-release-notes/)Sitemap
-
-Pelajari lebih lanjut [Aspose.Words Sitemap Java 12.12 Login](/words/java/aspose-words-for-java-21-12-release-notes/)Sitemap
 
 {{% /alert %}}
 

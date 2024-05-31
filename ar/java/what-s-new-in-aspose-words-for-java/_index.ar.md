@@ -11,6 +11,29 @@ url: /ar/java/what-s-new-in-aspose-words-for-java/
 
 هذه الصفحة تصف أكثر الأشياء إثارة للاهتمام Aspose.Words السمات التي أدخلت في الإطلاقات الأخيرة.
 
+## Aspose.Words لـ Java 24.5
+
+### التقديم والطباعة
+
+#### تغييرات في Charts وShapes وDrawingML <sup>24.5</sup>
+
+- تم تنفيذ عرض تأثيرات DrawML لرسومات SVG، مما أدى إلى توسيع الوظائف السابقة التي كانت مقتصرة على الصور.
+- تم تقديم الدعم لإنشاء مخططات مجمعة وضبط الخصائص مثل عرض الفجوة والتداخل ومقياس الفقاعات ضمن مجموعات السلسلة عن طريق إضافة [ChartSeriesGroup](https://reference.aspose.com/words/java/com.aspose. الكلمات/chartseriesgroup/) وفئات [ChartSeriesGroupCollection](https://reference.aspose.com/words/java/com.aspose.words/chartseriesgroupcollection/) وفئات [SeriesGroups](https://reference.aspose.com/ خاصية الكلمات/Java/com.aspose.words/chart/#getSeriesGroups).
+- تم تنفيذ وظيفة معالجة تأثير SoftEdge للأشكال عن طريق إضافة فئة [SoftEdgeFormat](https://reference.aspose.com/words/java/com.aspose.words/softedgeformat/).
+- تم تنفيذ القدرة على تعديل قيم ضبط الأشكال عن طريق إضافة [AdjustmentCollection](https://reference.aspose.com/words/java/com.aspose.words/adjustmentcollection/) و[Adjustment](https:/ /reference.aspose.com/words/java/com.aspose.words/adjustment/) الفئات العامة و[Adjustments](https://reference.aspose.com/words/java/com.aspose.words/shape/#getAdjustments) خاصية getAdjustments.
+
+#### آخر
+
+- تم تنفيذ وظيفة إزالة الصفحات الفارغة من المستند عن طريق إضافة طريقة [RemoveBlankPages](https://reference.aspose.com/words/java/com.aspose.words/document/#removeBlankPages). <sup>24.5</sup>
+- تم توفير القدرة على التحقق من وجود وحدات ماكرو VBA دون تحميل مستند عن طريق إضافة [HasMacros](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasMacros) ملكية. <sup>24.5</sup>
+- أصبح الحفاظ على ترقيم المصدر أثناء إدراج مستند باستخدام محرك التقارير LINQ مدعومًا الآن. <sup>24.5</sup>
+
+{{% alert color="primary" %}}
+
+تعرف على المزيد حول [ملاحظات إصدار Aspose.Words for Java 24.5](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-5-release-notes/ ).
+
+{{% /alert %}}
+
 ## Aspose.Words لـ Java 24.1, 24.2, 24.3, 24.4
 
 Aspose.Words 24-1 تحسين الخبرة المكتسبة في مجال إدارة ألوان السكتة الدماغية، وتعزيز الأجسام الموجودة على سطح الأرض والإبلاغ عن الشبكة، فضلاً عن استحداث مصادر جديدة في الببليوغرافية API.

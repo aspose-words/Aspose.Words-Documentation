@@ -1,4 +1,4 @@
-﻿---
+---
 title: Rendering Reports Programmatically
 second_title: Aspose.Words for Reporting Services
 articleTitle: Rendering Reports Programmatically
@@ -28,7 +28,7 @@ If you have a Report Server running with Aspose.Words for Reporting Services ins
 
 **Adding a reference to the ReportingService2005 Web service in Visual Studio:**
 
-![todo:image_alt_text](rendering-reports-programmatically-1.png)
+<img src="rendering-reports-programmatically-1.png" alt="ReportingService2005 Web service in Visual Studio" style="width:800px"/>
 
 ### Step 2. Add a reference to the ReportExecutionService Web service
 
@@ -37,7 +37,7 @@ If you have a Report Server running with Aspose.Words for Reporting Services ins
 
 **Adding a reference to the ReportExecutionService Web service in Visual Studio:**
 
-![todo:image_alt_text](rendering-reports-programmatically-2.png)
+<img src="rendering-reports-programmatically-2.png" alt="ReportingService2005 Web service in Visual Studio" style="width:800px"/>
 
 ### Step 3. Add required packages
 
@@ -71,18 +71,18 @@ public static class ServiceClientUtils
 
         rsBinding.Security.Mode = BasicHttpSecurityMode.TransportCredentialOnly;
         rsBinding.Security.Transport.ClientCredentialType = HttpClientCredentialType.Ntlm;
-
+    
         rsBinding.MaxBufferSize = int.MaxValue;
         rsBinding.MaxBufferPoolSize = int.MaxValue;
         rsBinding.MaxReceivedMessageSize = int.MaxValue;
-
+    
         var rsEndpointAddress = new EndpointAddress(executionEndPointUrl);
         var rsClient = new ReportExecutionServiceSoapClient(rsBinding, rsEndpointAddress);
-
+    
         rsClient.ClientCredentials.Windows.ClientCredential.UserName = userName;
         rsClient.ClientCredentials.Windows.ClientCredential.Password = password;
         rsClient.ClientCredentials.Windows.AllowedImpersonationLevel = TokenImpersonationLevel.Impersonation;
-
+    
         return rsClient;
     }
 }
@@ -196,14 +196,14 @@ private static void RenderReportToFile(
     report.ReportPath = reportName;
     report.EnableExternalImages = true;
     report.EnableHyperlinks = true;
-
+    
     // Get the information about report's parameters.
     ReportParameterInfoCollection parameterInfos = report.GetParameters();
     if (parameterInfos.Count > 0)
     {
         // If the report requires parameters set, add them as the following pattern shows:
         List<Microsoft.Reporting.WinForms.ReportParameter> parameters = new List<Microsoft.Reporting.WinForms.ReportParameter>();
-
+    
         // Repeat this until all parameters are set.
         Microsoft.Reporting.WinForms.ReportParameter parameter = new Microsoft.Reporting.WinForms.ReportParameter(
             "name",
@@ -211,20 +211,20 @@ private static void RenderReportToFile(
         parameters.Add(parameter);
         report.SetParameters(parameters);
     }
-
+    
     // We have to specify data sources for local report rendering. GetDataTables() returns a list of DataTable objects
     // populated with real report data.
     List<DataTable> tables = GetDataTables();
-
+    
     // Add the data sources.
     foreach (DataTable table in tables)
         report.DataSources.Add(new ReportDataSource(table.TableName, table));
-
+    
     // Render to appropriate format using Aspose extensions
     ReportViewerHelper asposeHelper = new ReportViewerHelper(reportViewer);
     asposeHelper.AddExtensions();
     byte[] reportBytes = asposeHelper.Render(format);
-
+    
     // Write document bytes to a file.
     using (FileStream stream = File.OpenWrite(documentName))
         stream.Write(reportBytes, 0, reportBytes.Length);
