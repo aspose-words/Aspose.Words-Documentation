@@ -11,6 +11,29 @@ url: /zh/java/what-s-new-in-aspose-words-for-java/
 
 此页面描述最有趣的新 Aspose.Words 近期发布时引入的特征。
 
+## Aspose.Words for Java 24.5
+
+### 渲染和打印
+
+#### Charts、Shapes 和 DrawingML 中的变化 <sup>24.5</sup>
+
+- 已实现 SVG 图形的 DrawingML 效果渲染，扩展了以前仅限于图像的功能。
+- 通过添加 [ChartSeriesGroup](https://reference.aspose.com/words/java/com.aspose.words/chartseriesgroup/) 和 [ChartSeriesGroupCollection](https://reference.aspose.com/words/java/com.aspose.words/chartseriesgroupcollection/) 类和 [SeriesGroups](https://reference.aspose.com/words/java/com.aspose.words/chart/#getSeriesGroups) 属性，引入了对创建组合图表和调整系列组内间隙宽度、重叠和气泡比例等属性的支持。
+- 通过添加 [SoftEdgeFormat](https://reference.aspose.com/words/java/com.aspose.words/softedgeformat/) 类，实现了操纵形状的 SoftEdge 效果的功能。
+- 通过添加 [AdjustmentCollection](https://reference.aspose.com/words/java/com.aspose.words/adjustmentcollection/) 和 [Adjustment](https://reference.aspose.com/words/java/com.aspose.words/adjustment/) 公共类和 [Adjustments](https://reference.aspose.com/words/java/com.aspose.words/shape/#getAdjustments) 属性，实现了修改形状调整值的功能。
+
+#### 其他
+
+- 通过添加 [RemoveBlankPages](https://reference.aspose.com/words/java/com.aspose.words/document/#removeBlankPages) 方法，实现了从文档中删除空白页的功能。 <sup>24.5</sup>
+- 通过添加 [HasMacros](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasMacros) 属性，无需加载文档即可检查 VBA 宏是否存在。 <sup>24.5</sup>
+- 现在支持在使用 LINQ 报告引擎插入文档时保留源编号。 <sup>24.5</sup>
+
+{{% alert color="primary" %}}
+
+了解有关 [Aspose.Words for Java 24.5 发行说明](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-5-release-notes/) 的更多信息。
+
+{{% /alert %}}
+
 ## Java 24.1、24.2、24.3、24.4 的 Aspose.Words
 
 Aspose.Words 24.1 改进管理中风颜色方面的经验,加强OLE对象和LINQ报告,并推出新的参考书目来源 API。
@@ -29,7 +52,7 @@ Aspose.Words 现在支持现代 WebP 图像格式。 您现在可以读取 WebP 
 
 #### 划线颜色控件 <sup>24.1 国家</sup>
 
-那个 [Stroke](https://reference.aspose.com/words/java/com.aspose.words/stroke/) 类被扩展为一组与管理中风颜色相关的新公共属性: [ForeThemeColor](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getForeThemeColor) 和 [BackThemeColor](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getBackThemeColor), [ForeTintAndShade](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getForeTintAndShade) 和 [BackTintAndShade](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getBackTintAndShade)。 。 。 。
+那个 [Stroke](https://reference.aspose.com/words/java/com.aspose.words/stroke/) 类被扩展为一组与管理中风颜色相关的新公共属性: [ForeThemeColor](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getForeThemeColor) 和 [BackThemeColor](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getBackThemeColor), [ForeTintAndShade](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getForeTintAndShade) 和 [BackTintAndShade](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getBackTintAndShade)。
 
 #### 绘图ML 图表 API 延长 <sup>24.2 / 24.3 / 24.4</sup>
 
@@ -47,7 +70,7 @@ Aspose.Words 现在支持现代 WebP 图像格式。 您现在可以读取 WebP 
 
 #### 在渲染时指定 Svg 保存选项 <sup>24.2 国家</sup>
 
-具体能力 [SvgSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/svgsaveoptions/) 使用 [ShapeRenderer](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/)。 。 。 。[Save](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#save-java.io.OutputStream-com.aspose.words.SvgSaveOptions) 和 [OfficeMathRenderer](https://reference.aspose.com/words/java/com.aspose.words/officemathrenderer/)。 。 。 。[Save](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#save-java.io.OutputStream-com.aspose.words.SvgSaveOptions) 方法。 方法。 。
+具体能力 [SvgSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/svgsaveoptions/) 使用 [ShapeRenderer](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/)。[Save](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#save-java.io.OutputStream-com.aspose.words.SvgSaveOptions) 和 [OfficeMathRenderer](https://reference.aspose.com/words/java/com.aspose.words/officemathrenderer/)。[Save](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#save-java.io.OutputStream-com.aspose.words.SvgSaveOptions) 方法。 方法。 
 
 #### 装入时保留空行 Markdown 文件 <sup>24.2 国家</sup>
 
@@ -146,13 +169,13 @@ Aspose.Words 23.12 为PDF文档工作引入了新的属性和点数,支持 WebP 
 
 {{% alert color="primary" %}}
 
-学习更多 [Aspose.Words (单位:千美元) Java 23.9 发行说明](/words/java/aspose-words-for-java-23-9-release-notes/)。 。 。 。
+学习更多 [Aspose.Words (单位:千美元) Java 23.9 发行说明](/words/java/aspose-words-for-java-23-9-release-notes/)。
 
-学习更多 [Aspose.Words (单位:千美元) Java 23.10 发行说明](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-10-release-notes/)。 。 。 。
+学习更多 [Aspose.Words (单位:千美元) Java 23.10 发行说明](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-10-release-notes/)。
 
-学习更多 [Aspose.Words (单位:千美元) Java 23.11 发行说明](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-11-release-notes/)。 。 。 。
+学习更多 [Aspose.Words (单位:千美元) Java 23.11 发行说明](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-11-release-notes/)。
 
-学习更多 [Aspose.Words (单位:千美元) Java 23.12 发布说明](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-12-release-notes/)。 。 。 。
+学习更多 [Aspose.Words (单位:千美元) Java 23.12 发布说明](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-12-release-notes/)。
 
 {{% /alert %}}
 
@@ -175,7 +198,7 @@ Aspose.Words 23.8 扩展不同格式的能力,改进渲染,并增加与字段合
 * 《大会正式记录,第五十八届会议,补编第5号》(A/C.6/61/Rev.1)。 QQ 新格式特性
 
   - 引入了为MOBI文件自动生成目录的功能。 <sup>23.8 联合国</sup>
-  - 那个 [PdfEncryptionDetails](https://reference.aspose.com/words/java/com.aspose.words/pdfencryptiondetails/#PdfEncryptionDetails-java.lang.String-java.lang.String) 已用 [PdfPermissions](https://reference.aspose.com/words/java/com.aspose.words/pdfpermissions/)。 。 。 。 <sup>23.8 联合国</sup>
+  - 那个 [PdfEncryptionDetails](https://reference.aspose.com/words/java/com.aspose.words/pdfencryptiondetails/#PdfEncryptionDetails-java.lang.String-java.lang.String) 已用 [PdfPermissions](https://reference.aspose.com/words/java/com.aspose.words/pdfpermissions/)。 <sup>23.8 联合国</sup>
   - 已实施EMF元文件的纵向文本配置。 <sup>23.8 联合国</sup>
 
 ### 渲染
@@ -236,13 +259,13 @@ LINQ 报告引擎模板语法现在支持 `ElementAt` 和 ElementAtOrDefault 扩
 
 {{% alert color="primary" %}}
 
-学习更多 [Aspose.Words (单位:千美元) Java 23.5 发布说明](/words/java/aspose-words-for-java-23-5-release-notes/)。 。 。 。
+学习更多 [Aspose.Words (单位:千美元) Java 23.5 发布说明](/words/java/aspose-words-for-java-23-5-release-notes/)。
 
-学习更多 [Aspose.Words (单位:千美元) Java 23.6 发布说明](/words/java/aspose-words-for-java-23-6-release-notes/)。 。 。 。
+学习更多 [Aspose.Words (单位:千美元) Java 23.6 发布说明](/words/java/aspose-words-for-java-23-6-release-notes/)。
 
-学习更多 [Aspose.Words (单位:千美元) Java 23.7 发布说明](/words/java/aspose-words-for-java-23-7-release-notes/)。 。 。 。
+学习更多 [Aspose.Words (单位:千美元) Java 23.7 发布说明](/words/java/aspose-words-for-java-23-7-release-notes/)。
 
-学习更多 [Aspose.Words (单位:千美元) Java 23.8 发布说明](/words/java/aspose-words-for-java-23-8-release-notes/)。 。 。 。
+学习更多 [Aspose.Words (单位:千美元) Java 23.8 发布说明](/words/java/aspose-words-for-java-23-8-release-notes/)。
 
 {{% /alert %}}
 
@@ -284,7 +307,7 @@ Aspose.Words 23.4 改进了一些参数的计算以及表格和周围文本的�
 
 #### 背景和前景颜色控制 <sup>23.3 联合国</sup>
 
-那个 [Fill](https://reference.aspose.com/words/java/com.aspose.words/fill/) 类被扩展为一组与背景和前景颜色相关的新公共属性: **ForeThemeColor** 和 **BackThemeColor**, **ForeTintAndShade** 和 **BackTintAndShade**。 。 。 。
+那个 [Fill](https://reference.aspose.com/words/java/com.aspose.words/fill/) 类被扩展为一组与背景和前景颜色相关的新公共属性: **ForeThemeColor** 和 **BackThemeColor**, **ForeTintAndShade** 和 **BackTintAndShade**。
 
 #### 带有 `SkiaSharp` 原始阴影 <sup>23.3 联合国</sup>
 
@@ -292,7 +315,7 @@ Aspose.Words 23.4 改进了一些参数的计算以及表格和周围文本的�
 
 #### 表格和周边文本之间的距离 <sup>23.4 国家</sup>
 
-通过在表格中引入新的属性,增加了设定表格和周围文本之间距离的能力。 [Table](https://reference.aspose.com/words/java/com.aspose.words/table/) 类: [DistanceLeft](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceLeft), [DistanceRight](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceRight), [DistanceTop](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceTop), 和 [DistanceBottom](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceBottom)。 。 。 。
+通过在表格中引入新的属性,增加了设定表格和周围文本之间距离的能力。 [Table](https://reference.aspose.com/words/java/com.aspose.words/table/) 类: [DistanceLeft](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceLeft), [DistanceRight](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceRight), [DistanceTop](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceTop), 和 [DistanceBottom](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceBottom)。 
 
 ### 装入和保存文档
 
@@ -324,13 +347,13 @@ MOBI和AZW3格式的保存进度通知已经执行。
 
 {{% alert color="primary" %}}
 
-学习更多 [Aspose.Words (单位:千美元) Java 23.1 发布说明](/words/java/aspose-words-for-java-23-1-release-notes/)。 。 。 。
+学习更多 [Aspose.Words (单位:千美元) Java 23.1 发布说明](/words/java/aspose-words-for-java-23-1-release-notes/)。
 
-学习更多 [Aspose.Words (单位:千美元) Java 23.2 发行说明](/words/java/aspose-words-for-java-23-2-release-notes/)。 。 。 。
+学习更多 [Aspose.Words (单位:千美元) Java 23.2 发行说明](/words/java/aspose-words-for-java-23-2-release-notes/)。
 
-学习更多 [Aspose.Words (单位:千美元) Java 23.3 发布说明](/words/java/aspose-words-for-java-23-3-release-notes/)。 。 。 。
+学习更多 [Aspose.Words (单位:千美元) Java 23.3 发布说明](/words/java/aspose-words-for-java-23-3-release-notes/)。
 
-学习更多 [Aspose.Words (单位:千美元) Java 23.4 发行说明](/words/java/aspose-words-for-java-23-4-release-notes/)。 。 。 。
+学习更多 [Aspose.Words (单位:千美元) Java 23.4 发行说明](/words/java/aspose-words-for-java-23-4-release-notes/)。
 
 {{% /alert %}}
 
@@ -398,264 +421,13 @@ Aspose.Words 22.12 增强渲染能力,并提出在装入/保存文件时在边�
 
 {{% alert color="primary" %}}
 
-学习更多 [Aspose.Words (单位:千美元) Java 22.9 发布说明](/words/java/aspose-words-for-java-22-9-release-notes/)。 。 。 。
+学习更多 [Aspose.Words (单位:千美元) Java 22.9 发布说明](/words/java/aspose-words-for-java-22-9-release-notes/)。
 
-学习更多 [Aspose.Words (单位:千美元) Java 22.10 发布说明](/words/java/aspose-words-for-java-22-10-release-notes/)。 。 。 。
+学习更多 [Aspose.Words (单位:千美元) Java 22.10 发布说明](/words/java/aspose-words-for-java-22-10-release-notes/)。
 
-学习更多 [Aspose.Words (单位:千美元) Java 22.11 发行说明](/words/java/aspose-words-for-java-22-11-release-notes/)。 。 。 。
+学习更多 [Aspose.Words (单位:千美元) Java 22.11 发行说明](/words/java/aspose-words-for-java-22-11-release-notes/)。
 
-学习更多 [Aspose.Words (单位:千美元) Java 22.12 发布说明](/words/java/aspose-words-for-java-22-12-release-notes/)。 。 。 。
-
-{{% /alert %}}
-
-## Aspose.Words (单位:千美元) Java 22.5, 22.6, 22.7, 22.8
-
-Aspose.Words 22.5 引入了对新加载格式和新打印页大小的支持,并改进了一些渲染选项.
-
-Aspose.Words 22.6 扩展了将PDF转换为其他格式的可能性,并改进了DragingML和固态文本填充效果的工作.
-
-Aspose.Words 22.7 增加了使用渲染特性工作的可能性,也增加了HTML导入和导出PDF工作的新特性.
-
-Aspose.Words 22.8引入了新的导出格式,并改进了各种渲染算法.
-
-那个 API 为了更灵活和方便的发展而得到加强。
-
-### 支持的格式
-
-* 已经通过在EPUB和XML文档中添加新的值,为加载这些文档提供了支持。 [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) 计数. 从22.5版本开始,可以将EPUB和XML文档装入 Aspose.Words 文档模式并转换为任意 [支持的格式](https://reference.aspose.com/words/java/com.aspose.words/saveformat/)。 。 。 。 <sup>22.5个</sup>
-* 从22.8版本开始,可以保存AZW3格式的文档- Amazon Kindle的专有电子书文件格式(KF8是格式的另一个名称). 现在您不仅可以加载 AZW3 文档,还可以将您的文件导出到 AZW3 格式,它本质上是一个编译的 EPUB. <sup>22.8 国家</sup>
-
-### 制作和印刷
-
-#### 新建打印大小 <sup>22.5个</sup>
-
-对"信封第10号"打印页大小的支持已经通过引入新的值而增加。 [PaperSize](https://reference.aspose.com/words/java/com.aspose.words/papersize/) 计数.
-
-#### 渲染数学ML公式 <sup>22.5个</sup>
-
-在为 MathML 公式渲染字符时,围绕 MathML 公式和字体检测的边框渲染得到了改进.
-
-#### 杜明尔 图表改进 <sup>22.6 国家</sup>
-
-公开绘图ML 图表 API 已扩展到支持梯度、纹理和图案填充。
-
-#### Glyph OpenType 大纲解析 <sup>22.7 国家</sup>
-
-Aspose.Words 拥有 glyph 对 OpenType (CFF) 字体的大纲解析已经执行。
-
-先前, glyph OpenType(CFF)字体的解析是通过GDI+进行的. 因此,它现在在GDI+不可用的情况下起作用。 Java, .NET Standard 平台, Linux 操作系统等。 Glyph 在诸如WordArt,文本效果,一些Office Math功能等特定情况下需要解析。
-
-#### 设置形状阴影格式 <sup>22.7 国家</sup>
-
-通过添加新的 [ShadowFormat](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getShadowFormat) 属性。
-
-#### 对表格中单元格间距的支持 <sup>22.8 国家</sup>
-
-排版引擎现在有了很大的改进:在表格中采用了非常复杂的单元格间隔机制.
-
-#### 符号的字体替换 <sup>22.8 国家</sup>
-
-符号的字体替代已经改进。
-
-#### 图表轴标签旋转算法 <sup>22.8 国家</sup>
-
-图表轴标签的旋转算法得到了改进.
-
-### 装入和保存文档
-
-#### 装入和转换 PDF 格式为固定页面格式,而不使用布局模式 <sup>22.6 国家</sup>
-
-已实施将PDF文件加载和转换为具有高度忠诚和性能的固定页面格式的能力。
-
-#### 新建 HTML 导入模式 <sup>22.7 国家</sup>
-
-通过为块级元素添加新值,引入了新的 HTML 导入模式 [HtmlInsertOptions](https://reference.aspose.com/words/java/com.aspose.words/htmlinsertoptions/) 计数.
-
-#### 以 WCAG 2.0 转换为 PDF/UA-1 CSSompliant <sup>22.7 国家</sup>
-
-已添加支持将一个文档转换为符合WCAG 2.0格式的PDF/UA-1格式。
-
-因此,如果客户有可访问的Word文档并将其转换为PDF/UA-1,通过 Aspose.Words 提及转换细节,然后输出为WCAG 2.0兼容.
-
-WCAG或网络内容无障碍 指导方针是世界3组织与世界各地个人和组织合作制定的一套指导方针。 现在用 Aspose.Words 您可以将文档转换为输出 PDF/UA-1 格式,该格式适用于构建 WCAG 2.0 兼容的 PDF 文档。
-
-值得注意的是,WCAG 2.0有两个附加要求,PDF/UA-1规格中没有具体说明:
-
-- 对比要求
-- 对多媒体内容进行标记的要求
-
-但这两项要求都与我们从Word转换为PDF的情况无关.
-
-### 其他人员
-
-* 已执行模仿MS Word行为的固态文本填充效果的继承除外. <sup>22.6 国家</sup>
-* 支持 `DATABASE` 字段已添加。 使用此类型字段,例如您可以在一个 Microsoft Word 表单。 <sup>22.7 国家</sup>
-
-{{% alert color="primary" %}}
-
-学习更多 [Aspose.Words (单位:千美元) Java 22.5 发行说明](/words/java/aspose-words-for-java-22-5-release-notes/)。 。 。 。
-
-学习更多 [Aspose.Words (单位:千美元) Java 22.6 发布说明](/words/java/aspose-words-for-java-22-6-release-notes/)。 。 。 。
-
-学习更多 [Aspose.Words (单位:千美元) Java 22.7 发布说明](/words/java/aspose-words-for-java-22-7-release-notes/)。 。 。 。
-
-学习更多 [Aspose.Words (单位:千美元) Java 22.8 发布说明](/words/java/aspose-words-for-java-22-8-release-notes/)。 。 。 。
-
-{{% /alert %}}
-
-## Aspose.Words (单位:千美元) Java 第22.1、22.2、22.3、22.4条
-
-Aspose.Words 22.1 改进渲染选项,以及加载和保存文件。
-
-Aspose.Words 22.2 采用新的载荷格式和新的出口文件选项。 它还载有表格的主要更新和与字段合作的一些变化。
-
-Aspose.Words 22.3 扩展了与PDF和TXT格式合作的可能性,并改进了一些现有算法和引擎的工作.
-
-Aspose.Words 22.4 增强PDF能力 – 现在你可以保存一个PDF/A-4格式的文件,并在PDF输出中获得一些其他改进. 同时, Aspose.Words 22.4 提供了与DML图表合作、阅读Photoshop元数据以及导入HTML块级元素的额外能力。
-
-那个 API 为了更灵活和方便的发展而得到加强。
-
-### 支持的格式
-
-已添加 AZW3 格式的文档( KF8 是格式的另一个名称) 。 现在您可以加载一个 AZW3 文档并将其转换为任何其他支持的格式.
-
-### 渲染
-
-#### 以PDF/UA-1格式制作到PDF
-
-将PDF/UA-1的合规性纳入PDF, 已经通过增加新的值实现。 [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) 计数 - **PDF_UA_1 (中文(简体) )**。 。 。 。 这一选项假定符合文件无障碍的特殊要求。
-
-#### 渲染数学ML公式
-
-MathML 公式中的运算符渲染得到了改进.
-
-#### 杜明尔 图表改进
-
-对DML图表作了以下改进:
-
-- DML图轴缩放算法已经改进,与MS Word相同
-- 提供了使用绘图ML图例条目操纵我们图表的能力 API 越来越全面
-- 怎么样? 指定一个 Xls/ xlsx 文件名称的能力已执行
-
-#### 以PDF/A-4格式制作到PDF
-
-将PDF/A-4合规性加入PDF中,办法是增加新的值 [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) 盘点 – PDF_A_4. 这一选项假定了订正的符合水平:普通PDF/A-4符合水平相当于以前版本的符合水平U,A级符合水平被删除。
-
-#### 在 JPEG 中读取 Photoshop 元数据解析
-
-在 JPEG 图像中读取 Photoshop 元数据分辨率, 是为了解决一个在渲染时图像缩放不正确的有趣问题。
-
-### 装入和保存文档
-
-#### 控制样式行为 装入文档时
-
-新选项 [ForceCopyStyles](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getForceCopyStyles) 用于控制文档导入时风格冲突的行为。
-
-#### 文档保存进度通知
-
-通过该程序增加了获取文件保存进展情况通知的能力。 [ProgressCallback](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getProgressCallback) 财产在22.1.
-
-在22.2中,对基于HTML和XAML的流程格式进行了保存进度通知的扩展:HTML,MHTML,Epub,XamlFlow,和XamlFlowPack.
-
-22.3 已延长TXT格式的保存进度通知。
-
-#### 将形状转换为 SVG 导出时
-
-导出到 HTML、 MHTML 或 EPUB 时将形状转换为 SVG 图像的能力已经通过添加 [ExportShapesAsSvg](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getExportShapesAsSvg) 属性。
-
-#### 导出列表编号到 PDF 逻辑结构
-
-已执行列表编号导出到 PDF 逻辑结构 。
-
-#### 保存到 PDF 2.0 和 PDF 输出改进
-
-通过添加新值将文档保存为 PDF 2.0 的能力 [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) 点数以及对PDF产出提出的若干其他改进已经提出。
-
-#### 新建 HTML 导入模式
-
-HTML 块级元素的新导入模式已经实施以模仿 Microsoft Word 行为
-
-### 其他人员
-
-* 《大会正式记录,第五十八届会议,补编第5号》(A/C.6/61/Rev.1)。 添加了获取与该字段相关的自定义字段数据的能力.
-* 《大会正式记录,第五十八届会议,补编第5号》(A/C.6/61/Rev.1)。 最新版本为: Aspose.Words 还包括处理源文档中不正确或缺漏的列宽数据表格的重大更新。
-* 《大会正式记录,第五十八届会议,补编第5号》(A/C.6/61/Rev.1)。 依据对 Microsoft Word 比较机制得到了改进。
-* 《大会正式记录,第五十八届会议,补编第5号》(A/C.6/61/Rev.1)。 已经提供了LINQ报告引擎中的评论语法.
-
-{{% alert color="primary" %}}
-
-学习更多 [Aspose.Words (单位:千美元) Java 22.1 发布说明](https://releases.aspose.com/words/java/release-notes/2022/aspose-words-for-java-22-1-release-notes/)。 。 。 。
-
-学习更多 [Aspose.Words (单位:千美元) Java 22.2 发行说明](https://releases.aspose.com/words/java/release-notes/2022/aspose-words-for-java-22-2-release-notes/)。 。 。 。
-
-学习更多 [Aspose.Words (单位:千美元) Java 22.3 发行说明](https://releases.aspose.com/words/java/release-notes/2022/aspose-words-for-java-22-3-release-notes/)。 。 。 。
-
-学习更多 [Aspose.Words (单位:千美元) Java 22.4 发布说明](https://releases.aspose.com/words/java/release-notes/2022/aspose-words-for-java-22-4-release-notes/)。 。 。 。
-
-{{% /alert %}}
-
-## Aspose.Words (单位:千美元) Java 21.9, 21.10, 21.11, 21.12
-
-Aspose.Words 21.9 扩展列表级格式化控制.
-
-Aspose.Words 21.10 加强渲染选项,改进查找和替换选项,并扩大 Mail Merge 和结构文档标记功能。
-
-Aspose.Words 21.11 扩展加载和保存功能,改进查找和替换选项,并与PDF合作.
-
-Aspose.Words 21.12 引入了与拉丁文本和字体合作的附加选项,以改善外观和性能,并扩展了与内容控制和脚注合作的能力
-
-那个 API 为了更灵活和方便的发展而得到加强。
-
-### 业绩改进
-
-已执行装入先前保存的字体搜索缓存,以便在渲染时加快字体缓存初始化进程。 现在你们的解决办法会更快地奏效。
-
-### 渲染
-
-#### 用梯度填充和梯度停止工作
-
-添加了新的公用方法和属性来配合梯度填充和梯度停止,以满足开发文档时最明亮的想法.
-
-#### 输出 PDF 文档中的附件窗格
-
-新选项 [UseAttachments](https://reference.aspose.com/words/java/com.aspose.words/pdfpagemode/) 已执行在输出 PDF 文件中显示附件窗格。
-
-#### 允许拉丁文字在字的中间环绕
-
-支持"Allow Latin text to plain in the biddle of a word"的特性,已经实施,在渲染时使我们的拉丁文支持更加完善.
-
-### 搜索和比较
-
-* 一个新的选项 [IgnoreFootnotes](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreFootnotes) 以忽略查找和替换操作中的脚注。
-
-* 一个新的选项 [IgnoreFieldCodes](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreFieldCodes) 在查找和替换操作时忽略字段代码。
-
-### 改划
-
-一个将图像保存为 Base64 字符串的简单方法 Markdown 格式已经通过 [ExportImagesAsBase64](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getExportImagesAsBase64) 属性。
-
-### Mail Merge 报告
-
-获得能力 [ParentRegion](https://reference.aspose.com/words/java/com.aspose.words/mailmergeregioninfo/#getParentRegion) 结束 [MailMergeRegionInfo](https://reference.aspose.com/words/java/com.aspose.words/mailmergeregioninfo/), 使得我们的邮箱引擎更易捕食,
-
-### 其他人员
-
-- 怎么样? 获得 [CustomNumberStyleFormat](https://reference.aspose.com/words/java/com.aspose.words/listlevel/#getCustomNumberStyleFormat) 财产和财产 [ListLevel](https://reference.aspose.com/words/java/com.aspose.words/listlevel/) 对象已被添加。
-- 获得弦状代表的可能性 [ListLevel](https://reference.aspose.com/words/java/com.aspose.words/listlevel/) 对象的指定索引 [GetEffectiveValue](https://reference.aspose.com/words/java/com.aspose.words/listlevel/#getEffectiveValue-int-int-java.lang.String) 添加了方法。
-- 怎么样? 已经引入了一种直观能力,可以改变结构化的文档标记的外观,实际上可以将客户定义的语义及其行为嵌入到文档中.
-- 一个新课 [ChmLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/chmloadoptions/) 添加了对 CHM 装载的更多控制。
-- 怎么样? 已经引入了获取内容控制的OOXML并将其保存到字符串的能力. 要做到这一点, **WordOpenXML** 属性已添加到 [StructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttag/) 和 [StructuredDocumentTagRangeStart](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttagrangestart/) 课程。
-- 在PDF文件中增加了关于进口的非标准脚注。
-
-{{% alert color="primary" %}}
-
-学习更多 [Aspose.Words (单位:千美元) Java 21.9 发行说明](/words/java/aspose-words-for-java-21-9-release-notes/)。 。 。 。
-
-学习更多 [Aspose.Words (单位:千美元) Java 21.10 发行说明](/words/java/aspose-words-for-java-21-10-release-notes/)。 。 。 。
-
-学习更多 [Aspose.Words (单位:千美元) Java 21.11 发布说明](/words/java/aspose-words-for-java-21-11-release-notes/)。 。 。 。
-
-学习更多 [Aspose.Words (单位:千美元) Java 21.12 发行说明](/words/java/aspose-words-for-java-21-12-release-notes/)。 。 。 。
+学习更多 [Aspose.Words (单位:千美元) Java 22.12 发布说明](/words/java/aspose-words-for-java-22-12-release-notes/)。
 
 {{% /alert %}}
 

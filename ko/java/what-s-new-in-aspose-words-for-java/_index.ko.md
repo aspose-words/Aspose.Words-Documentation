@@ -11,6 +11,29 @@ url: /ko/java/what-s-new-in-aspose-words-for-java/
 
 이 페이지는 가장 흥미로운 새로운 설명 Aspose.Words 최근 출시된 기능.
 
+## Aspose.Words 제품정보 Java 24.5
+
+### 렌더링 및 인쇄
+
+#### Charts, Shapes, DrawingML의 변경 사항 <sup>24.5</sup>
+
+- 이미지로 제한되었던 이전 기능을 확장하여 SVG 그래픽에 대한 DrawingML 효과 렌더링이 구현되었습니다.
+- [ChartSeriesGroup](https://reference.aspose.com/words/java/com.aspose. words/chartseriesgroup/) 및 [ChartSeriesGroupCollection](https://reference.aspose.com/words/java/com.aspose.words/chartseriesgroupcollection/) 클래스와 [SeriesGroups](https://reference.aspose.com/ words/java/com.aspose.words/chart/#getSeriesGroups) 속성입니다.
+- [SoftEdgeFormat](https://reference.aspose.com/words/java/com.aspose.words/softedgeformat/) 클래스를 추가하여 도형의 SoftEdge 효과를 조작하는 기능이 구현되었습니다.
+- [AdjustmentCollection](https://reference.aspose.com/words/java/com.aspose.words/adjustmentcollection/) 및 [Adjustment](https:/)를 추가하여 도형의 조정 값을 수정하는 기능이 구현되었습니다. /reference.aspose.com/words/java/com.aspose.words/adjustment/) 공개 클래스 및 [Adjustments](https://reference.aspose.com/words/java/com.aspose.words/shape/# getAdjustments) 속성입니다.
+
+#### 다른
+
+- [RemoveBlankPages](https://reference.aspose.com/words/java/com.aspose.words/document/#removeBlankPages) 메소드를 추가하여 문서에서 빈 페이지를 제거하는 기능이 구현되었습니다. <sup>24.5</sup>
+- [HasMacros](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasMacros)를 추가하여 문서를 로드하지 않고도 VBA 매크로 존재 여부를 확인할 수 있는 기능이 제공되었습니다. 재산. <sup>24.5</sup>
+- 이제 LINQ 보고 엔진을 사용하여 문서를 삽입하는 동안 소스 번호 매기기가 지원됩니다. <sup>24.5</sup>
+
+{{% alert color="primary" %}}
+
+[Aspose.Words for Java 24.5 릴리스 노트](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-5-release-notes/)에 대해 자세히 알아보세요. ).
+
+{{% /alert %}}
+
 ## Aspose.Words 제품정보 Java 24.1, 24.2, 24.3, 24.4
 
 Aspose.Words 24.1은 스트로크 색상을 관리하는 경험을 향상시키고 OLE 개체와 LINQ 보고를 향상시키고 새로운 Bibliography Sources 공개를 소개합니다. API·
@@ -405,257 +428,6 @@ DrawingML 차트에 대한 선형 트렌드 공식 렌더링이 구현되었습�
 더 알아보기 [Aspose.Words 제품정보 Java 22.11 릴리즈 노트](/words/java/aspose-words-for-java-22-11-release-notes/)·
 
 더 알아보기 [Aspose.Words 제품정보 Java 22.12 릴리즈 노트](/words/java/aspose-words-for-java-22-12-release-notes/)·
-
-{{% /alert %}}
-
-## Aspose.Words 제품정보 Java 22.5, 22.6, 22.7, 22.8
-
-Aspose.Words 22.5는 새로운 로딩 형식과 새로운 인쇄 페이지 크기뿐만 아니라 일부 렌더링 옵션을 향상시킵니다.
-
-Aspose.Words 22.6은 PDF를 다른 형식으로 변환하는 가능성뿐만 아니라 DrawingML 및 솔리드 텍스트 작성 효과로 작업을 개선합니다.
-
-Aspose.Words 22.7은 렌더링 기능으로 작업의 가능성을 향상시키고 HTML 가져 오기 및 PDF로 내보내기위한 새로운 기능을 추가합니다.
-
-Aspose.Words 22.8은 새로운 수출 형식을 도입하고 다양한 렌더링 알고리즘을 향상시킵니다.
-
-더 보기 API 더 유연하고 편리한 발달을 위해 강화됩니다.
-
-### 지원되는 체재
-
-* EPUB 및 XML 문서를 로딩하는 지원은 새로운 가치를 추가하여 도입되었습니다. [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) 관련 기사 버전 22.5부터 EPUB 및 XML 문서를 로딩할 수 있습니다. Aspose.Words 문서 모델 및 변환 [지원된 형식](https://reference.aspose.com/words/java/com.aspose.words/saveformat/)· <sup>22.5명</sup>
-* 버전 22.8부터 시작, AZW3 형식의 문서를 저장할 수 있습니다 – Amazon Kindle의 독점적 인 전자 책 파일 형식 (KF8은 형식의 다른 이름입니다). 이제 AZW3 문서를로드 할 수 없습니다. 또한 AZW3 형식에 파일을 내보낼뿐만 아니라 컴파일 된 EPUB입니다. <sup>12.8년</sup>
-
-### 렌더링 및 인쇄
-
-#### 새로운 인쇄 크기 <sup>22.5명</sup>
-
-"Envelope No. 10" 인쇄 페이지 크기는 새로운 가치를 소개함으로써 추가되었습니다. [PaperSize](https://reference.aspose.com/words/java/com.aspose.words/papersize/) 관련 기사
-
-#### MathML 공식 렌더링 <sup>22.5명</sup>
-
-MathML 공식 및 글꼴 탐지의 주위에 국경 상자의 렌더링은 그런 수식에 대한 문자를 렌더링 할 때 개선되었습니다.
-
-#### 사이트맵 차트 개선 <sup>22.6명</sup>
-
-DrawingML 차트 API gradient, 질감, 패턴 채우기 지원으로 확장되었습니다.
-
-#### Glyph OpenType의 파싱 <sup>12.7년</sup>
-
-Aspose.Words 이름 * glyph OpenType (CFF) 글꼴을 파싱하는 것은 구현되었습니다.
-
-이전, glyph OpenType (CFF) 글꼴을 파싱은 GDI +를 통해 수행되었습니다. 이제 GDI +가 사용할 수없는 경우에서 작동합니다. Java, .NET Standard 플랫폼, Linux OS 등 Glyph outlines parsing은 WordArt, text effect, 일부 Office Math 기능 및 기타와 같은 특정 경우에 필요합니다.
-
-#### 세트 모양 그림자 Formatting <sup>12.7년</sup>
-
-모양 객체의 그림자 형식을 설정하는 능력은 새로운 추가하여 제공되었습니다. [ShadowFormat](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getShadowFormat) 호텔 위치
-
-#### 테이블에 있는 Cell Spacing를 위한 지원 <sup>12.8년</sup>
-
-레이아웃 엔진은 이제 크게 개선되었습니다. 테이블의 매우 복잡한 셀 간격 메커니즘이 구현되었습니다.
-
-#### Symbols에 대한 글꼴 대체 <sup>12.8년</sup>
-
-기호에 대한 글꼴 대체가 개선되었습니다.
-
-#### 도표 축선 상표 교체 Algorithm <sup>12.8년</sup>
-
-차트 축 라벨의 회전 알고리즘이 개선되었습니다.
-
-### 로딩 및 저장 문서
-
-#### Load and Convert PDF to Fixed-page format without layout Model <sup>22.6명</sup>
-
-PDF 문서를 고의도와 성능으로 고정 페이지 형식으로 변환하는 능력이 구현되었습니다.
-
-#### 새로운 HTML 가져오기 모드 <sup>12.7년</sup>
-
-블록 레벨 엘리먼트의 새로운 HTML 가져오기 모드가 새로운 가치를 추가하여 도입되었습니다. [HtmlInsertOptions](https://reference.aspose.com/words/java/com.aspose.words/htmlinsertoptions/) 관련 기사
-
-#### PDF/UA-1 CSSompliant로 변환 <sup>12.7년</sup>
-
-WCAG 2.0을 준수하는 PDF/UA-1 형식으로 문서를 변환하는 지원이 추가되었습니다.
-
-그래서, 고객이 접근 가능한 Word 문서를 가지고 PDF/UA-1로 변환하면 Aspose.Words 변환 특성을 언급하면 출력은 WCAG 2.0이 호환됩니다.
-
-WCAG 또는 웹 콘텐츠 접근성 Guidelines는 전 세계 개인 및 단체와 협력하여 W3C에 의해 개발된 가이드라인입니다. 현재 위치 Aspose.Words WCAG 2.0 호환 PDF 문서를 만들 수 있는 출력 PDF/UA-1 형식으로 문서를 변환할 수 있습니다.
-
-WCAG 2.0이 PDF/UA-1 사양에 지정되지 않는 두 가지 추가 요구 사항을 가지고 있다는 것은 가치가 있습니다
-
-- 대조 필요조건
-- tagging 멀티미디어 콘텐츠 요구 사항
-
-그러나 두 가지 요구 사항은 Word에서 PDF로 변환 할 때 관련이 없습니다.
-
-### 이름 *
-
-* MS Word 행동이 구현 된 고체 텍스트 채우 효과를 상속하는 예외. <sup>22.6명</sup>
-* 지원 `DATABASE` 필드가 추가되었습니다. 이 유형의 필드를 사용하여, 예를 들어, 데이터베이스 쿼리의 결과를 표시 Microsoft Word 테이블. <sup>12.7년</sup>
-
-{{% alert color="primary" %}}
-
-더 알아보기 [Aspose.Words 제품정보 Java 22.5 릴리즈 노트](/words/java/aspose-words-for-java-22-5-release-notes/)·
-
-더 알아보기 [Aspose.Words 제품정보 Java 22.6 릴리즈 노트](/words/java/aspose-words-for-java-22-6-release-notes/)·
-
-더 알아보기 [Aspose.Words 제품정보 Java 22.7 릴리스 노트](/words/java/aspose-words-for-java-22-7-release-notes/)·
-
-더 알아보기 [Aspose.Words 제품정보 Java 22.8 릴리즈 노트](/words/java/aspose-words-for-java-22-8-release-notes/)·
-
-{{% /alert %}}
-
-## Aspose.Words 제품정보 Java 22.1, 22.2, 22.3, 22.4
-
-Aspose.Words 22.1은 렌더링 옵션뿐만 아니라 로딩 및 저장 문서를 향상시킵니다.
-
-Aspose.Words 22.2는 문서를 수출하기위한 새로운 부하 형식과 새로운 옵션을 소개합니다. 그것은 또한 테이블에 대 한 주요 업데이트 및 필드 작업에 대 한 몇 가지 변경.
-
-Aspose.Words 22.3은 PDF 및 TXT 형식의 작업 가능성을 확장하고 기존 알고리즘과 엔진의 작업을 향상시킵니다.
-
-Aspose.Words 22.4는 PDF 기능을 향상 - 이제 PDF / A-4 형식으로 파일을 저장할 수 있으며 PDF 출력의 다른 개선을 얻을 수 있습니다. 동시에, Aspose.Words 22.4는 DML 차트와 함께 작업 할 수있는 추가 능력을 제공하며 Photoshop metadata를 읽고 HTML 블록 레벨 요소를 가져옵니다.
-
-더 보기 API 더 유연하고 편리한 발달을 위해 강화됩니다.
-
-### 지원되는 체재
-
-AZW3 형식의 문서를 로딩 (KF8은 형식의 다른 이름입니다) 추가되었습니다. 이제 AZW3 문서를로드하고 다른 지원 형식으로 변환 할 수 있습니다.
-
-### 이름 *
-
-#### PDF/UA-1 준수와 PDF 렌더링
-
-PDF/UA-1 준수를 통한 PDF 렌더링은 새로운 가치를 추가하여 구현되었습니다. [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) 관련 제품 **PDF 파일**· 이 옵션은 문서 접근성에 대한 특별한 요구 사항을 준수합니다.
-
-#### MathML 공식 렌더링
-
-MathML 공식의 연산자의 렌더링이 개선되었습니다.
-
-#### 사이트맵 차트 개선
-
-다음 개선은 DML 차트로 작성되었습니다
-
-- DML 차트 축 스케일링 알고리즘은 MS Word와 동일하게 향상되었습니다
-- DrawingML 차트 전설 항목을 조작 할 수있는 능력은 차트를 만들기 위해 제공되었습니다. API 더 및 더 종합
-- - - xls/xlsx 파일의 이름을 지정할 수있는 능력은 DrawingML 차트가 구현되었습니다
-
-#### PDF/A-4 준수
-
-PDF/A-4 준수를 통한 PDF 렌더링 [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) PDF_A_4 의 확장 이 옵션은 개정된 준수 수준을 가정합니다: 일반 PDF / A-4 준수는 이전 버전의 준수 수준 U와 수준 A4 준수가 제거됩니다.
-
-#### JPEG의 Photoshop 메타 데이터 해상도 읽기
-
-JPEG 이미지의 Photoshop metadata 해상도의 읽기는 렌더링시 이미지의 잘못된 스케일링과 흥미로운 문제를 해결하기 위해 구현되었습니다.
-
-### 로딩 및 저장 문서
-
-#### 통제 작풍 Behavior 문서 로딩
-
-새로운 옵션 [ForceCopyStyles](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getForceCopyStyles) 문서 가져 오기에 충돌 스타일의 동작을 제어하기 위해 도입되었습니다.
-
-#### 문서 저장 진행 알림
-
-문서 저장의 진행에 대한 알림을 얻는 능력은 추가되었습니다. [ProgressCallback](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getProgressCallback) 22.1에 있는 재산.
-
-22.2에서는 HTML 및 XAML 기반 플로우 형식에 대한 진행 알림을 저장했습니다. HTML, MHTML, Epub, XamlFlow 및 XamlFlowPack.
-
-22.3에서, 저축 진도 통보는 TXT 체재를 위해 확장되었습니다.
-
-#### 모양을 SVG로 변환 수출 시
-
-HTML, MHTML, 또는 EPUB에 수출하는 SVG 이미지에 모양을 변환하는 능력은 추가해서 제공됩니다 [ExportShapesAsSvg](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getExportShapesAsSvg) 호텔 위치
-
-#### PDF Logical 구조에 대한 목록 번호 내보내기
-
-PDF 논리 구조로 번호 내보내기 목록이 구현되었습니다.
-
-#### PDF 2.0 및 PDF 출력 향상
-
-문서를 PDF 2.0으로 저장하는 능력은 새로운 가치를 추가하여 [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) enumeration뿐만 아니라 PDF 출력에 여러 가지 요청 된 개선이 도입되었습니다.
-
-#### 새로운 HTML 가져오기 모드
-
-HTML 블록 레벨 엘리먼트의 새로운 가져오기 모드가 mimic에 구현되었습니다. Microsoft Word 이름 *
-
-### 이름 *
-
-* 이름 필드와 관련된 사용자 정의 필드 데이터를 얻을 수있는 능력이 추가되었습니다.
-* 이름 최신 버전의 Aspose.Words 또한 소스 문서에 incorrect 또는 누락 된 열 폭 데이터를 처리하는 주요 업데이트가 포함되어 있습니다.
-* 이름 심층 분석에 의존하는 표 컴파일 알고리즘 Microsoft Word 비교 기계장치는 개량되었습니다.
-* 이름 LINQ Reporting 엔진의 의견 구문이 제공되었습니다.
-
-{{% alert color="primary" %}}
-
-더 알아보기 [Aspose.Words 제품정보 Java 22.1 릴리스 노트](https://releases.aspose.com/words/java/release-notes/2022/aspose-words-for-java-22-1-release-notes/)·
-
-더 알아보기 [Aspose.Words 제품정보 Java 22.2 릴리즈 노트](https://releases.aspose.com/words/java/release-notes/2022/aspose-words-for-java-22-2-release-notes/)·
-
-더 알아보기 [Aspose.Words 제품정보 Java 22.3 릴리스 노트](https://releases.aspose.com/words/java/release-notes/2022/aspose-words-for-java-22-3-release-notes/)·
-
-더 알아보기 [Aspose.Words 제품정보 Java 22.4 릴리즈 노트](https://releases.aspose.com/words/java/release-notes/2022/aspose-words-for-java-22-4-release-notes/)·
-
-{{% /alert %}}
-
-## Aspose.Words 제품정보 Java 21.9, 21.10, 21.11, 21.12
-
-Aspose.Words 21.9는 목록 수준 포맷 제어를 확장합니다.
-
-Aspose.Words 21.10는 렌더링 옵션을 향상시키고, 찾기를 개선하고 옵션 교체 및 확장 Mail Merge 및 구조 문서 태그 기능.
-
-Aspose.Words 21.11은 로딩 및 저장 기능을 확장하고, 찾기를 개선하고 PDF로 옵션을 교체합니다.
-
-Aspose.Words 21.12는 라틴어 텍스트 및 글꼴과 함께 작업하는 추가 옵션을 도입하여 외관과 성능을 향상시키고 콘텐츠 제어 및 발노트와 작업 할 수있는 능력을 확장합니다
-
-더 보기 API 더 유연하고 편리한 발달을 위해 강화됩니다.
-
-### 성능 향상
-
-이전에 저장된 글꼴 검색 캐시를 로딩하여 렌더링시 글꼴 캐시 초기화 프로세스를 가속화합니다. 지금 당신의 해결책은 더 빨리 작동할 것입니다.
-
-### 이름 *
-
-#### gradient 채우기와 gradient 정지 작업
-
-새로운 공공 방법 및 속성은 gradient 채우기와 함께 작동하고 기온이 정지는 문서를 개발 할 때 가장 밝은 아이디어를 만족시키기 위해 추가되었습니다.
-
-#### 산출 PDF 문서에 있는 부착 Pane
-
-새로운 옵션 [UseAttachments](https://reference.aspose.com/words/java/com.aspose.words/pdfpagemode/) 산출 PDF 문서에 있는 첨부 파일을 표시하기 위하여 실행되었습니다.
-
-#### 라틴어 텍스트는 단어의 중간에 포장 할 수
-
-"Allow Latin text to wrap in the Middle of the word"기능을 지원하여 라틴어 지원을 렌더링 할 수 있습니다.
-
-### 검색 및 비교
-
-* 새로운 옵션 [IgnoreFootnotes](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreFootnotes) 발견 중에 발주를 무시하고 작업이 추가되었습니다.
-
-* 새로운 옵션 [IgnoreFieldCodes](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreFieldCodes) 찾을 때 필드 코드를 무시하고 작업이 추가되었습니다.
-
-### 관련 기사
-
-Base64 문자열로 이미지를 저장하는 간단한 방법 Markdown 형식이 제공되었습니다. [ExportImagesAsBase64](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getExportImagesAsBase64) 호텔 위치
-
-### Mail Merge 및 보고
-
-얻을 수있는 능력 [ParentRegion](https://reference.aspose.com/words/java/com.aspose.words/mailmergeregioninfo/#getParentRegion) 제품정보 [MailMergeRegionInfo](https://reference.aspose.com/words/java/com.aspose.words/mailmergeregioninfo/), MailMerge 엔진을 더 다루고, 추가되었습니다.
-
-### 이름 *
-
-- - - 얻을 수있는 능력 [CustomNumberStyleFormat](https://reference.aspose.com/words/java/com.aspose.words/listlevel/#getCustomNumberStyleFormat) 호텔 위치 [ListLevel](https://reference.aspose.com/words/java/com.aspose.words/listlevel/) 객체가 추가되었습니다.
-- 문자열 표현을 얻을 수있는 가능성 [ListLevel](https://reference.aspose.com/words/java/com.aspose.words/listlevel/) 지정된 인덱스의 객체 [GetEffectiveValue](https://reference.aspose.com/words/java/com.aspose.words/listlevel/#getEffectiveValue-int-int-java.lang.String) 방법이 추가되었습니다.
-- - - 구조화 된 문서 태그의 외관을 변경하는 직관적 인 기능, 실제로 고객 정의 된 semantics뿐만 아니라 문서에 행동을 embedding 허용, 도입되었습니다.
-- 새로운 클래스 [ChmLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/chmloadoptions/) CHM 로딩에 더 많은 컨트롤을 추가했습니다.
-- - - 콘텐츠 제어의 OOXML을 얻을 수있는 능력과 문자열에 저장이 도입되었습니다. 이렇게하려면 **WordOpenXML** 재산에 추가되었습니다. [StructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttag/) · [StructuredDocumentTagRangeStart](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttagrangestart/) 수업.
-- 수입에 PDF 문서의 비표준 영상 인식이 추가되었습니다.
-
-{{% alert color="primary" %}}
-
-더 알아보기 [Aspose.Words 제품정보 Java 21.9 릴리즈 노트](/words/java/aspose-words-for-java-21-9-release-notes/)·
-
-더 알아보기 [Aspose.Words 제품정보 Java 21.10 릴리즈 노트](/words/java/aspose-words-for-java-21-10-release-notes/)·
-
-더 알아보기 [Aspose.Words 제품정보 Java 21.11 릴리즈 노트](/words/java/aspose-words-for-java-21-11-release-notes/)·
-
-더 알아보기 [Aspose.Words 제품정보 Java 21.12 릴리즈 노트](/words/java/aspose-words-for-java-21-12-release-notes/)·
 
 {{% /alert %}}
 
