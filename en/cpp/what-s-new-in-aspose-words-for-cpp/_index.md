@@ -11,6 +11,28 @@ url: /cpp/what-s-new-in-aspose-words-for-cpp/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
+## Aspose.Words for C++ 24.5
+
+### Rendering and Printing
+
+#### Changes in Charts, Shapes and DrawingML <sup>24.5</sup>
+
+- DrawingML effects rendering for SVG graphics, extending previous functionality limited to images, has been implemented.
+- Support for creating combo charts and adjusting properties such as gap width, overlap, and bubble scale within series groups has been introduced by adding the **ChartSeriesGroup** and **ChartSeriesGroupCollection** classes and the **SeriesGroups** property.
+- Functionality to manipulate the SoftEdge effect of shapes has been implemented by adding the **SoftEdgeFormat** class.
+- The ability to modify adjust values of shapes has been implemented by adding the **AdjustmentCollection** and **Adjustment** public classes and **Adjustments** property.
+
+#### Other
+
+- The function to eliminate empty pages from a document has been implemented by adding the [RemoveBlankPages](https://reference.aspose.com/words/cpp/aspose.words/document/removeblankpages/) method. <sup>24.5</sup>
+- The ability  to check for the presence of VBA macros without loading a document has been provided by adding the **HasMacros** property. <sup>24.5</sup>
+
+{{% alert color="primary" %}}
+
+Learn more about [Aspose.Words for C++ 24.5 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-5-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words for C++ 24.1, 24.2, 24.3, 24.4
 
 Aspose.Words 24.1 improves the experience around managing stroke colors, enhances OLE objects, as well as introduces a new Bibliography Sources public API.
@@ -33,7 +55,7 @@ The **DrawingML Charts API** continues to be expanded.
 
 #### Embed Fonts Declared in @font-face Rules <sup>24.4</sup>
 
-Added an ability to embed fonts declared in @font-face rules into the resulting document’s font definitions has been introduced by adding a new **SupportFontFaceRules** property.
+Added an ability to embed fonts declared in @font-face rules into the resulting document’s font definitions has been introduced by adding a new [SupportFontFaceRules](https://reference.aspose.com/words/cpp/aspose.words.loading/htmlloadoptions/get_supportfontfacerules/) property.
 
 #### Work with Glow and Reflection Formatting <sup>24.4</sup>
 
@@ -53,8 +75,8 @@ The ability to preserve empty lines when loading Markdown files has been added.
 
 - The capability to modify the text of the `TextBox` OLE control has been introduced by adding a new **Text** property to the new **TextBoxControl** class. <sup>24.1</sup>
 - The Bibliography Sources public API was implemented through the adding a new namespace [Aspose.Words.Bibliography](https://reference.aspose.com/words/cpp/aspose.words.bibliography/) with its new classes and enumerations, and through the adding a new [Bibliography](https://reference.aspose.com/words/cpp/aspose.words/document/get_bibliography/) property to the [Document](https://reference.aspose.com/words/cpp/aspose.words/document/) class. <sup>24.1</sup>
-- New public properties **Priority**, **UnhideWhenUsed**, and **SemiHidden** for enhanced style management have been added to the [Style](https://reference.aspose.com/words/cpp/aspose.words/style/) class. <sup>24.2</sup>
-- The functionality to retrieve the actual reference mark text for footnotes and endnotes has been enhanced with the **ActualReferenceMark** property and the **UpdateActualReferenceMarks** method. <sup>24.2</sup>
+- New public properties [Priority](https://reference.aspose.com/words/cpp/aspose.words/style/get_priority/), [UnhideWhenUsed](https://reference.aspose.com/words/cpp/aspose.words/style/get_unhidewhenused/), and [SemiHidden](https://reference.aspose.com/words/cpp/aspose.words/style/get_semihidden/) for enhanced style management have been added to the [Style](https://reference.aspose.com/words/cpp/aspose.words/style/) class. <sup>24.2</sup>
+- The functionality to retrieve the actual reference mark text for footnotes and endnotes has been enhanced with the [ActualReferenceMark](https://reference.aspose.com/words/cpp/aspose.words.notes/footnote/get_actualreferencemark/) property and the [UpdateActualReferenceMarks](https://reference.aspose.com/words/cpp/aspose.words/document/updateactualreferencemarks/) method. <sup>24.2</sup>
 - Emulation of binary raster operations for WMF metafiles has been implemented. <sup>24.3</sup>
 - The capability to define signature options for documents within **SaveOptions** has been enabled by adding a new **DigitalSignatureDetails** class with new public members, as well as adding new properties to the [OoxmlSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/docsaveoptions/) and [OdtSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/odtsaveoptions/) classes. <sup>24.4</sup>
 
@@ -386,255 +408,6 @@ Learn more about [Aspose.Words for С++ 22.10 Release Notes](/words/cpp/aspose-w
 Learn more about [Aspose.Words for С++ 22.11 Release Notes](/words/cpp/aspose-words-for-cpp-22-11-release-notes/).
 
 Learn more about [Aspose.Words for С++ 22.12 Release Notes](/words/cpp/aspose-words-for-cpp-22-12-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words for C++ 22.5, 22.6, 22.7, 22.8
-
-Aspose.Words 22.5 introduces support for new loading formats and a new print page size, as well as improves some rendering options.
-
-Aspose.Words 22.6 expands the possibilities of converting PDF to other formats, as well as improve work with DrawingML and solid text fill effect.
-
-Aspose.Words 22.7 enhances the possibilities of working with rendering features, and also adds new features for working with HTML import and export to PDF.
-
-Aspose.Words 22.8 introduces a new export format and improves various rendering algorithms.
-
-The API is enhanced for more flexible and convenient development.
-
-### Supported Formats
-
-* Support for loading EPUB and XML documents has been introduced by adding new values to the [LoadFormat](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) enumeration. Starting from version 22.5, it is possible to load EPUB and XML documents into Aspose.Words document model and convert them to any [supported formats](https://reference.aspose.com/words/cpp/aspose.words/saveformat/). <sup>22.5</sup>
-* Starting from version 22.8, it is possible to save a document in AZW3 format – Amazon Kindle's proprietary e-book file format (KF8 is another name for the format). Now you can not only load AZW3 documents, but also export your files to AZW3 format, which is essentially a compiled EPUB. <sup>22.8</sup>
-
-### Rendering and Printing
-
-#### New Printing Size <sup>22.5</sup>
-
-Support for the “Envelope No. 10” print page size has been added by introducing a new value to the [PaperSize](https://reference.aspose.com/words/cpp/aspose.words/papersize/) enumeration.
-
-#### Rendering MathML Formulas <sup>22.5</sup>
-
-The rendering of a border box around MathML formulas and font detection when rendering characters for such formulas has been improved.
-
-#### DML Chart Improvements <sup>22.6</sup>
-
-DrawingML charts public API has been extended to support gradient, texture, and pattern fills.
-
-#### Glyph outlines parsing for OpenType <sup>22.7</sup>
-
-Aspose.Words own glyph outlines parsing for OpenType (CFF) fonts has been implemented.
-
-Previously, glyph parsing for OpenType (CFF) fonts was performed via GDI+. So now it works in cases where GDI+ is not available – Java, .NET Standard platforms, Linux OS, etc. Glyph outlines parsing is required in specific cases like WordArt, text effects, some Office Math features, and others.
-
-#### Set shape shadow formatting <sup>22.7</sup>
-
-The ability to set the shadow formatting of the shape object has been provided by adding a new [ShadowFormat](https://reference.aspose.com/words/cpp/aspose.words.drawing/shapebase/get_shadowformat/) property.
-#### Support for Cell Spacing in Tables <sup>22.8</sup>
-
-The layout engine is now significantly improved: a very complex cell spacing mechanism in tables has been implemented.
-
-#### Font Substitution for Symbols <sup>22.8</sup>
-
-Font substitution for symbols has been improved.
-
-#### Chart Axis Label Rotation Algorithm <sup>22.8</sup>
-
-The rotation algorithm of chart axis labels has been improved.
-
-### Loading and saving documents
-
-#### Load and convert PDF to fixed-page format without layout model <sup>22.6</sup>
-
-The ability to load and convert PDF documents to fixed page formats with high fidelity and performance has been implemented.
-
-#### New HTML import mode <sup>22.7</sup>
-
-A new HTML import mode for block-level elements has been introduced by adding a new value to the [HtmlInsertOptions](https://reference.aspose.com/words/cpp/aspose.words/htmlinsertoptions/) enumeration.
-
-#### Convert to PDF/UA-1 compliant with WCAG 2.0 <sup>22.7</sup>
-
-Support for converting a document to PDF/UA-1 format, compliant with WCAG 2.0, has been added.
-
-So, if the customer has an accessible Word document and converts it to PDF/UA-1 via Aspose.Words mentioning the conversion specifics, then the output will be WCAG 2.0 compatible.
-
-WCAG or Web Content Accessibility Guidelines is a set of guidelines developed by W3C in collaboration with individuals and organizations all over the world. Now with Aspose.Words you can convert your document to the output PDF/UA-1 format, which is suitable to build WCAG 2.0 compliant PDF documents.
-
-It is worth noting that WCAG 2.0 has two additional requirements that are not specified in the PDF/UA-1 specification:
-
-- contrast requirements
-- requirements for tagging multimedia content
-
-But both requirements are not relevant to our case of converting from Word to PDF.
-
-### Other
-
-* Exception of inheriting the solid text fill effect that mimics MS Word behavior has been implemented. <sup>22.6</sup>
-* Support of the `DATABASE` fields has been added. Using this type of field, you can, for example, show the results of a database query in a Microsoft Word table. <sup>22.7</sup>
-
-{{% alert color="primary" %}}
-
-Learn more about [Aspose.Words for C++ 22.5 Release Notes](/words/cpp/aspose-words-for-cpp-22-5-release-notes/).
-
-Learn more about [Aspose.Words for C++ 22.6 Release Notes](/words/cpp/aspose-words-for-cpp-22-6-release-notes/).
-
-Learn more about [Aspose.Words for C++ 22.7 Release Notes](/words/cpp/aspose-words-for-cpp-22-7-release-notes/).
-
-Learn more about [Aspose.Words for C++ 22.8 Release Notes](/words/cpp/aspose-words-for-cpp-22-8-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words for C++ 22.1, 22.2, 22.3, 22.4
-
-Aspose.Words 22.1 improves rendering options, as well as loading and saving documents.
-
-Aspose.Words 22.2 introduces a new load format and new options for exporting documents. It also contains a major update for tables and some changes for working with fields.
-
-Aspose.Words 22.3 expands the possibilities of working with PDF and TXT formats and improves the work of some existing algorithms and engines.
-
-Aspose.Words 22.4 enhances PDF capabilities – now you can save a file in PDF/A-4 format and get a number of other improvements in PDF output. At the same time, Aspose.Words 22.4 provides additional abilities to work with DML charts, read the Photoshop metadata, and import HTML block-level elements.
-
-The API is enhanced for more flexible and convenient development.
-
-### Supported Formats
-
-Loading a document in AZW3 format (KF8 is another name for the format) has been added. Now you can load an AZW3 document and convert it to any other supported formats.
-
-### Rendering
-
-#### Rendering to PDF with PDF/UA-1 Compliance
-
-Rendering into PDF with PDF/UA-1 compliance has been implemented by adding new values to the [PdfCompliance](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfcompliance/) enumeration – **PdfUa1**. This option assumes compliance with special requirements for document accessibility.
-
-#### Rendering MathML Formulas
-
-The rendering of operators in MathML formulas has been improved.
-
-#### DML Chart Axis Scaling Algorithm Improvements
-
-The following improvements have been made to the DML charts:
-
-* The DML chart axis scaling algorithm has been improved to be the same as in MS Word
-
-- The ability to manipulate with DrawingML chart legend entries has been provided to make our chart API more and more comprehensive
-- The ability to specify the name of an xls/xlsx file the DrawingML chart is linked to has been implemented
-
-#### Rendering to PDF with PDF/A-4 Compliance
-
-Rendering into PDF with PDF/A-4 compliance has been added by adding new values to the [PdfCompliance](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfcompliance/) enumeration – PdfA4. This option assumes revised conformance levels: regular PDF/A-4 conformance is equivalent to conformance level U of previous versions, and the level A conformance is removed.
-
-#### Reading of Photoshop metadata resolution in JPEG
-
-Reading of Photoshop metadata resolution in JPEG images has been implemented to fix an interesting issue with incorrect scaling of images upon rendering.
-
-### Loading and Saving Documents
-
-#### Controlling Style Behavior When Loading a Document
-
-A new option [ForceCopyStyles](https://reference.aspose.com/words/cpp/aspose.words/importformatoptions/get_forcecopystyles/) has been introduced to control the behavior of conflicting styles upon document import.
-
-#### Document Saving Progress Notifications
-
-An ability to get notifications about the progress of document saving has been added through the [ProgressCallback](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/get_progresscallback/) property in 22.1.
-
-In 22.2, saving progress notifications have been extended for HTML and XAML based flow formats: HTML, MHTML, Epub, XamlFlow, and XamlFlowPack.
-
-In 22.3, saving progress notifications have been extended for TXT format.
-
-#### Convert Shapes to SVG When Exporting
-
-The ability to convert shapes to SVG images upon exporting to HTML, MHTML, or EPUB has been provided by adding the [ExportShapesAsSvg](https://reference.aspose.com/words/cpp/aspose.words.saving/htmlsaveoptions/get_exportshapesassvg/) property.
-
-#### Export of List Numbering to PDF Logical Structure
-
-List numbering export to PDF logical structure has been implemented.
-
-#### Saving to PDF 2.0 and Improvements in PDF Output
-
-The ability to save a document as PDF 2.0 by adding a new value to the [PdfCompliance](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfcompliance/) enumeration, as well as several other requested improvements to PDF output, have been introduced.
-
-#### New HTML Import Mode
-
-A new import mode for HTML block-level elements has been implemented to mimic Microsoft Word behavior.
-
-### Other
-
-* An ability to get custom field data that is associated with the field has been added.
-* The latest version of Aspose.Words also included a major update that handles tables with incorrect or missing column width data in the source document.
-* The table comparing algorithm relying on deep analysis of Microsoft Word comparison mechanism has been improved.
-
-{{% alert color="primary" %}}
-
-Learn more about [Aspose.Words for C++ 22.1 Release Notes](/words/cpp/aspose-words-for-cpp-22-1-release-notes/).
-
-Learn more about [Aspose.Words for C++ 22.2 Release Notes](/words/cpp/aspose-words-for-cpp-22-2-release-notes/).
-
-Learn more about [Aspose.Words for C++ 22.3 Release Notes](/words/cpp/aspose-words-for-cpp-22-3-release-notes/).
-
-Learn more about [Aspose.Words for C++ 22.4 Release Notes](/words/cpp/aspose-words-for-cpp-22-4-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words for C++ 21.9, 21.10, 21.11, 21.12
-
-Aspose.Words 21.9 expands the list-level formatting control.
-
-Aspose.Words 21.10 enhances rendering options, improves find and replace options, and expands Mail Merge and Structure Document Tag functionality.
-
-Aspose.Words 21.11 expands loadings and saving functionality, improves find and replace option and working with PDF. We also added the following feature to Aspose.Words for C ++: vcpkg registry with vcpkg package for Aspose.Words for C ++.
-
-Aspose.Words 21.12 introduces additional options for working with Latin text and fonts to improve appearance and performance, and expands the ability to work with content controls. 
-
-The API is enhanced for more flexible and convenient development.
-
-### Performance Improvements
-
-Loading a previously saved font search cache to speed up the font cache initialization process upon rendering has been implemented. Now your solutions will work even faster.
-
-### Rendering
-
-#### Working with gradient fills and gradient stops
-
-New public methods and properties to work with gradient fills and gradient stops have been added to satisfy the brightest ideas when developing your documents.
-
-#### Attachment Pane in Output PDF Documents
-
-A new option [UseAttachments](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfpagemode/) has been implemented to display the attachment pane in output PDF documents.
-
-#### Allow Latin Text to Wrap in the Middle of a Word
-
-Support for the "Allow Latin text to wrap in the middle of a word" feature has been implemented to make our Latin support even better upon rendering.
-
-### Search and Compare
-
-* A new option [IgnoreFootnotes](https://reference.aspose.com/words/cpp/aspose.words.replacing/findreplaceoptions/get_ignorefootnotes/) to ignore footnotes during the find and replace operation has been added.
-
-* A new option [IgnoreFieldCodes](https://reference.aspose.com/words/cpp/aspose.words.replacing/findreplaceoptions/get_ignorefieldcodes/) to ignore field codes during find and replace operation has been added.
-
-### Mail Merge and Reporting
-
-The ability to get [ParentRegion](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmergeregioninfo/get_parentregion/) through [MailMergeRegionInfo](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmergeregioninfo/), which made our MailMerge engine more tunable, has been added.
-
-### Conversion
-
-A simple way to save images as Base64 string into Markdown format has been provided through the [ExportImagesAsBase64](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_exportimagesasbase64/) property.
-
-### Other
-
-- An ability to get the [CustomNumberStyleFormat](https://reference.aspose.com/words/cpp/aspose.words.lists/listlevel/get_customnumberstyleformat/) property of the [ListLevel](https://reference.aspose.com/words/cpp/aspose.words.lists/listlevel/) object has been added.
-- A possibility to get the string representation of the [ListLevel](https://reference.aspose.com/words/cpp/aspose.words.lists/listlevel/) object for a specified index using the [GetEffectiveValue](https://reference.aspose.com/words/cpp/aspose.words.lists/listlevel/geteffectivevalue/) method has been added.
-- An intuitive capability to change the appearance of structured document tags, which actually allow embedding customer-defined semantics as well as its behavior into a document, has been introduced.
-- A new class [ChmLoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/chmloadoptions/) has been added to get more control over CHM loading.
-- The ability to get OOXML of a content control and save it to string has been introduced. To do this, the **WordOpenXML** property has been added to the [StructuredDocumentTag](https://reference.aspose.com/words/cpp/aspose.words.markup/structureddocumenttag/) and [StructuredDocumentTagRangeStart](https://reference.aspose.com/words/cpp/aspose.words.markup/structureddocumenttagrangestart/) classes.
-
-{{% alert color="primary" %}}
-
-Learn more about [Aspose.Words for C++ 21.9 Release Notes](/words/cpp/aspose-words-for-cpp-21-9-release-notes/).
-
-Learn more about [Aspose.Words for C++ 21.10 Release Notes](/words/cpp/aspose-words-for-cpp-21-10-release-notes/).
-
-Learn more about [Aspose.Words for C++ 21.11 Release Notes](/words/cpp/aspose-words-for-cpp-21-11-release-notes/).
-
-Learn more about [Aspose.Words for C++ 21.12 Release Notes](/words/cpp/aspose-words-for-cpp-21-12-release-notes/).
 
 {{% /alert %}}
 
