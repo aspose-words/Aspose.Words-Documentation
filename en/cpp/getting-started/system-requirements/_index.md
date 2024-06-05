@@ -16,23 +16,41 @@ Aspose.Words for C++ does not require any third party product such as Microsoft 
 Aspose.Words for C++ supports the following 64-bit or 32-bit operating system and platforms:
 
 <table>  
-	<tr>
-			<td style="font-weight: bold; width:400px">Operating System</td>
-			<td style="font-weight: bold; width:400px">Versions</td>
-		</tr>
-  <tr>
-			<td>Microsoft Windows</td>
-			<td><ul><li>Windows 2008 Server (x64, x86)</li><li>Windows 2012 Server (x64, x86)</li><li>Windows 2012 R2 Server (x64, x86)</li><li>Windows 2016 Server (x64, x86)</li><li>Windows 2019 Server (x64, x86)</li><li>Windows Vista (x64, x86)</li><li>Windows 7 (x64, x86)</li><li>Windows 8, 8.1 (x64, x86)</li><li>Windows 10 (x64, x86)</li></ul></td>
-		</tr>
-  <tr>
-			<td>Linux</td>
-			<td><ul><li>Ubuntu 18.04 or later</li><li>Fedora</li><li>OpenSUSE</li><li>CentOS</li><li>and others</li></ul></td>
-		</tr>
-
-  <tr>
-			<td>macOS</td>
-			<td><ul><li>A 64-bit Intel Mac with Monterey or later (12.0+)</li></ul></td>
-		</tr>
+   <tr>
+      <td style="font-weight: bold; width:400px">Operating System</td>
+      <td style="font-weight: bold; width:400px">Versions</td>
+   </tr>
+   <tr>
+      <td>Microsoft Windows</td>
+      <td><ul>
+         <li>Windows 2008 Server (x64, x86)</li>
+         <li>Windows 2012 Server (x64, x86)</li>
+         <li>Windows 2012 R2 Server (x64, x86)</li>
+         <li>Windows 2016 Server (x64, x86)</li>
+         <li>Windows 2019 Server (x64, x86)</li>
+         <li>Windows Vista (x64, x86)</li>
+         <li>Windows 7 (x64, x86)</li>
+         <li>Windows 8, 8.1 (x64, x86)</li>
+         <li>Windows 10 (x64, x86)</li>
+      </ul></td>
+   </tr>
+   <tr>
+      <td>Linux</td>
+      <td><ul>
+         <li>Ubuntu</li>
+         <li>Fedora</li>
+         <li>OpenSUSE</li>
+         <li>CentOS</li>
+         <li>and others</li>
+      </ul></td>
+   </tr>
+   <tr>
+      <td>macOS</td>
+      <td><ul>
+         <li>macOS-x86_64: 12.0 or later</li>
+         <li>macOS-arm64: 12.0 or later</li>
+      </ul></td>
+   </tr>
 </table>
 
 ## Development Environment
