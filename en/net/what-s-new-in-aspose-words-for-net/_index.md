@@ -11,7 +11,7 @@ url: /net/what-s-new-in-aspose-words-for-net/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for .NET 24.5
+## Aspose.Words for .NET 24.5, 24.6
 
 ### Platforms
 
@@ -26,15 +26,31 @@ This page describes the most interesting new Aspose.Words features introduced in
 * Functionality to manipulate the SoftEdge effect of shapes has been implemented by adding the [SoftEdgeFormat](https://reference.aspose.com/words/net/aspose.words.drawing/softedgeformat/) class.
 * The ability to modify adjust values of shapes has been implemented by adding the [AdjustmentCollection](https://reference.aspose.com/words/net/aspose.words.drawing/adjustmentcollection/) and [Adjustment](https://reference.aspose.com/words/net/aspose.words.drawing/adjustment/) public classes and [Adjustments](https://reference.aspose.com/words/net/aspose.words.drawing/shape/adjustments/) property.
 
-#### Other
+#### Changes in Charts, Shapes and Drawing <sup>24.6</sup>
+
+* Charting capabilities have been enhanced. You can now create a wider variety of charts, including *Treemaps*, *Sunbursts*, *Histograms*, *Pareto* charts, *Box & Whisker* charts, *Waterfalls*, and *Funnels*. This allows you to visualize your data in a more diverse and informative way.
+* Color control for shadow formatting has been improved. You can gain more precise control over the appearance of your documents by accessing shadow colors.
+* Performance boost for background rendering has been improved. You can significantly speed up the rendering of backgrounds containing small elements thanks to native tiling technology.
+* Realistic gradients for shapes have been added. You can now create DML shapes with non-linear gradients, mimicking the visual style of Microsoft Word for a more polished look.
+
+### Search and Compare
+
+#### Advanced Comparison Options <sup>24.6</sup>
+The ability to streamline data analysis workflows with improved comparison functionality has been added. This includes a new [IgnoreStoreItemId](https://reference.aspose.com/words/net/aspose.words.comparing/advancedcompareoptions/ignorestoreitemid/) option and a redesigned interface for advanced comparisons.
+
+### Other
 
 * The function to eliminate empty pages from a document has been implemented by adding the [RemoveBlankPages](https://reference.aspose.com/words/net/aspose.words/document/removeblankpages/) method. <sup>24.5</sup>
 * The ability  to check for the presence of VBA macros without loading a document has been provided by adding the [HasMacros](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/hasmacros/) property. <sup>24.5</sup>
 * Keeping source numbering while inserting a document using the LINQ Reporting Engine is now supported. <sup>24.5</sup>
+* A new [DateTimeUtc](https://reference.aspose.com/words/net/aspose.words/comment/datetimeutc/) property has been added – this provides a more precise timestamp for comments, improving organization and traceability. <sup>24.6</sup>
+* The LINQ Reporting Engine has been improved. Selective removal of empty paragraphs and definition of custom messages for missing object members have been made, leading to cleaner and more informative reports. <sup>24.6</sup>
 
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for .NET 24.5 Release Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-5-release-notes/).
+
+Learn more about [Aspose.Words for .NET 24.6 Release Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-6-release-notes/).
 
 {{% /alert %}}
 
