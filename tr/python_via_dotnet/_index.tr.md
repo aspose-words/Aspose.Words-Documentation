@@ -52,9 +52,8 @@ Python via .NET için Aspose.Words ile üçüncü taraf uygulamaları veya Offic
 						</ul>
 						<p>ÖĞRENMEK</p>
 						<ul>
-			  			 <li><a href="https://releases.aspose.com/words/python/release-notes/">Python via .NET Sürüm Notları için Aspose.Words</a>
-								<li><a href="/words/tr/python-net/how-to-run-the-examples/">Örnekler Nasıl Çalıştırılır</a></li>
-								/li&gt;
+			  				<li><a href="https://releases.aspose.com/words/python/release-notes/">Python via .NET Sürüm Notları için Aspose.Words</a></li>
+							<li><a href="/words/tr/python-net/how-to-run-the-examples/">Örnekler Nasıl Çalıştırılır</a></li>
 						</ul>
 		</div>
 		<div class="col-md-4">

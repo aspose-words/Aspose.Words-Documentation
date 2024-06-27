@@ -52,9 +52,8 @@ Aspose.Words for Python via .NET を使用すると、サードパーティの�
 						</ul>
 						<p>学ぶ</p>
 						<ul>
-			  			 <li><a href="https://releases.aspose.com/words/python/release-notes/">Aspose.Words for Python via .NET リリースノート</a>
-								<li><a href="/words/ja/python-net/how-to-run-the-examples/">サンプルの実行方法</a></li>
-								/li&gt;
+			  				<li><a href="https://releases.aspose.com/words/python/release-notes/">Aspose.Words for Python via .NET リリースノート</a></li>
+							<li><a href="/words/ja/python-net/how-to-run-the-examples/">サンプルの実行方法</a></li>
 						</ul>
 		</div>
 		<div class="col-md-4">

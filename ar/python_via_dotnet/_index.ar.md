@@ -52,9 +52,8 @@ Aspose.Words for Python via .NET هي مكتبة فئة تمكن تطبيقات�
 						</ul>
 						<p>يتعلم</p>
 						<ul>
-			  			 <li><a href="https://releases.aspose.com/words/python/release-notes/">Aspose.Words لملاحظات الإصدار Python via .NET</a>
-								<li><a href="/words/ar/python-net/how-to-run-the-examples/">كيفية تشغيل الأمثلة</a></li>
-								/ لى&gt;
+			  				<li><a href="https://releases.aspose.com/words/python/release-notes/">Aspose.Words لملاحظات الإصدار Python via .NET</a></li>
+							<li><a href="/words/ar/python-net/how-to-run-the-examples/">كيفية تشغيل الأمثلة</a></li>
 						</ul>
 		</div>
 		<div class="col-md-4">

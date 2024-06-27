@@ -52,9 +52,8 @@ S Aspose.Words místo Python via .NET, můžete vytvářet, upravovat, konvertov
 			</ul>
 			<p>NAUČTE se</p>
 			<ul>
-			  <li><a href="https://releases.aspose.com/words/python/release-notes/">Aspose.Words místo Python via .NET Poznámky k vydání</a><</li>
+				<li><a href="https://releases.aspose.com/words/python/release-notes/">Aspose.Words místo Python via .NET Poznámky k vydání</a></li>
 				<li><a href="/words/cs/python-net/how-to-run-the-examples/">Jak dělat příklady</a></li>
-				/li >
 			</ul>
 	</div>
 	<div class="col-md-4">

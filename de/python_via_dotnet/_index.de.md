@@ -52,9 +52,8 @@ Mit Aspose.Words für Python via .NET können Sie Dokumente ohne Drittanbieteran
 						</ul>
 						<p>LERNEN</p>
 						<ul>
-			  			 <li><a href="https://releases.aspose.com/words/python/release-notes/">Aspose.Words für Python via .NET-Versionshinweise</a>
-								<li><a href="/words/de/python-net/how-to-run-the-examples/">So führen Sie die Beispiele aus</a></li>
-								/li&gt;
+			  				<li><a href="https://releases.aspose.com/words/python/release-notes/">Aspose.Words für Python via .NET-Versionshinweise</a></li>
+							<li><a href="/words/de/python-net/how-to-run-the-examples/">So führen Sie die Beispiele aus</a></li>
 						</ul>
 		</div>
 		<div class="col-md-4">

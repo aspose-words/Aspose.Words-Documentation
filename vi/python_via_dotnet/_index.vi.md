@@ -52,9 +52,8 @@ Với Aspose.Words cho Python via .NET, bạn có thể tạo, sửa đổi, chu
 						</ul>
 						<p>HỌC HỎI</p>
 						<ul>
-			  			 <li><a href="https://releases.aspose.com/words/python/release-notes/">Ghi chú phát hành Aspose.Words cho Python via .NET</a>
-								<li><a href="/words/vi/python-net/how-to-run-the-examples/">Cách chạy các ví dụ</a></li>
-								/li&gt;
+			  				<li><a href="https://releases.aspose.com/words/python/release-notes/">Ghi chú phát hành Aspose.Words cho Python via .NET</a></li>
+							<li><a href="/words/vi/python-net/how-to-run-the-examples/">Cách chạy các ví dụ</a></li>
 						</ul>
 		</div>
 		<div class="col-md-4">
