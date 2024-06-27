@@ -52,9 +52,8 @@ Aspose.Words поддерживает большинство популярны�
 			</ul>
 			<p>Учиться</p>
 			<ul>
-			  <li><a href="https://releases.aspose.com/words/python/release-notes/">Aspose.Words для Python via .NET Скачать Notes</a><<</li>
+				<li><a href="https://releases.aspose.com/words/python/release-notes/">Aspose.Words для Python via .NET Скачать Notes</a></li>
 				<li><a href="/words/ru/python-net/how-to-run-the-examples/">Как запускать примеры</a></li>
-				/li>
 			</ul>
 	</div>
 	<div class="col-md-4">

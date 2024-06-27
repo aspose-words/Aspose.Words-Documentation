@@ -52,9 +52,8 @@ Aspose.Words 支持大多数流行的文档格式，例如 DOC、DOCX、RTF、HT
 						</ul>
 						<p>学习</p>
 						<ul>
-			  			 <li><a href="https://releases.aspose.com/words/python/release-notes/">Aspose.Words for Python via .NET 发行说明</a>
-								<li><a href="/words/zh/python-net/how-to-run-the-examples/">如何运行示例</a></li>
-								/里&gt;
+			  				<li><a href="https://releases.aspose.com/words/python/release-notes/">Aspose.Words for Python via .NET 发行说明</a></li>
+							<li><a href="/words/zh/python-net/how-to-run-the-examples/">如何运行示例</a></li>
 						</ul>
 		</div>
 		<div class="col-md-4">

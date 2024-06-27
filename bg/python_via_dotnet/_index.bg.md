@@ -52,9 +52,8 @@ Aspose.Words поддържа повечето от популярните фо�
 			</ul>
 			<p>НАУЧИ</p>
 			<ul>
-			  <li><a href="https://releases.aspose.com/words/python/release-notes/">Aspose.Words вместо Python via .NET Бележки за освобождаване</a><</li>
+				<li><a href="https://releases.aspose.com/words/python/release-notes/">Aspose.Words вместо Python via .NET Бележки за освобождаване</a></li>
 				<li><a href="/words/bg/python-net/how-to-run-the-examples/">Как да използваме примерите</a></li>
-				/li >
 			</ul>
 	</div>
 	<div class="col-md-4">

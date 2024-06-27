@@ -52,9 +52,8 @@ Con Aspose.Words per Python via .NET puoi generare, modificare, convertire ed es
 						</ul>
 						<p>IMPARARE</p>
 						<ul>
-			  			 <li><a href="https://releases.aspose.com/words/python/release-notes/">Aspose.Words per le note sulla versione Python via .NET</a>
-								<li><a href="/words/it/python-net/how-to-run-the-examples/">Come eseguire gli esempi</a></li>
-								/li&gt;
+			  				<li><a href="https://releases.aspose.com/words/python/release-notes/">Aspose.Words per le note sulla versione Python via .NET</a></li>
+							<li><a href="/words/it/python-net/how-to-run-the-examples/">Come eseguire gli esempi</a></li>
 						</ul>
 		</div>
 		<div class="col-md-4">

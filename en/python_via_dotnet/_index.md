@@ -53,9 +53,8 @@ With Aspose.Words for Python via .NET, you can generate, modify, convert, and re
 			</ul>
 			<p>LEARN</p>
 			<ul>
-			  <li><a href="https://releases.aspose.com/words/python/release-notes/">Aspose.Words for Python via .NET Release Notes</a><
+				<li><a href="https://releases.aspose.com/words/python/release-notes/">Aspose.Words for Python via .NET Release Notes</a></li>
 				<li><a href="https://docs.aspose.com/words/python-net/how-to-run-the-examples/">How to Run the Examples</a></li>
-				/li>
 			</ul>
 	</div>
 	<div class="col-md-4">

@@ -52,9 +52,8 @@ Aspose.Words תומך ברוב פורמטי המסמך הפופולריים כג
 			</ul>
 			<p>שנים</p>
 			<ul>
-			  <li><a href="https://releases.aspose.com/words/python/release-notes/">Aspose.Words עבור Python via .NET תגית: Notes</a>< <</li>
+				<li><a href="https://releases.aspose.com/words/python/release-notes/">Aspose.Words עבור Python via .NET תגית: Notes</a></li>
 				<li><a href="/words/he/python-net/how-to-run-the-examples/">כיצד לנהל את הדוגמאות</a></li>
-				המונחים:
 			</ul>
 	</div>
 	<div class="col-md-4">
