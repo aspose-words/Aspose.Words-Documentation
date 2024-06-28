@@ -11,7 +11,11 @@ url: /ar/java/what-s-new-in-aspose-words-for-java/
 
 هذه الصفحة تصف أكثر الأشياء إثارة للاهتمام Aspose.Words السمات التي أدخلت في الإطلاقات الأخيرة.
 
-## Aspose.Words لـ Java 24.5
+## Aspose.Words لـ Java 24.5, 24.6
+
+يقوم Aspose.Words 24.5 بتوسيع خيارات التجميعات وتحسين قدرات العرض وتوسيع بعض الخيارات الأخرى.
+
+يعمل Aspose.Words 24.6 على تحسين خيارات العرض، وتعزيز وظائف البحث والمقارنة، وتوسيع العديد من الميزات الأخرى.
 
 ### التقديم والطباعة
 
@@ -22,15 +26,31 @@ url: /ar/java/what-s-new-in-aspose-words-for-java/
 - تم تنفيذ وظيفة معالجة تأثير SoftEdge للأشكال عن طريق إضافة فئة [SoftEdgeFormat](https://reference.aspose.com/words/java/com.aspose.words/softedgeformat/).
 - تم تنفيذ القدرة على تعديل قيم ضبط الأشكال عن طريق إضافة [AdjustmentCollection](https://reference.aspose.com/words/java/com.aspose.words/adjustmentcollection/) و[Adjustment](https:/ /reference.aspose.com/words/java/com.aspose.words/adjustment/) الفئات العامة و[Adjustments](https://reference.aspose.com/words/java/com.aspose.words/shape/#getAdjustments) خاصية getAdjustments.
 
-#### آخر
+#### التغييرات في المخططات والأشكال والرسم <sup>24.6</sup>
 
-- تم تنفيذ وظيفة إزالة الصفحات الفارغة من المستند عن طريق إضافة طريقة [RemoveBlankPages](https://reference.aspose.com/words/java/com.aspose.words/document/#removeBlankPages). <sup>24.5</sup>
-- تم توفير القدرة على التحقق من وجود وحدات ماكرو VBA دون تحميل مستند عن طريق إضافة [HasMacros](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasMacros) ملكية. <sup>24.5</sup>
-- أصبح الحفاظ على ترقيم المصدر أثناء إدراج مستند باستخدام محرك التقارير LINQ مدعومًا الآن. <sup>24.5</sup>
+* تم تعزيز قدرات الرسم البياني. يمكنك الآن إنشاء مجموعة واسعة من المخططات، بما في ذلك *Treemaps*، و*Sunbursts*، و*Histograms*، و*Pareto*، و*Box & Whisker*، و*Waterfalls*، و*Funnels*. يتيح لك ذلك تصور بياناتك بطريقة أكثر تنوعًا وغنية بالمعلومات.
+* تم تحسين التحكم في الألوان لتنسيق الظل. يمكنك الحصول على تحكم أكثر دقة في مظهر مستنداتك عن طريق الوصول إلى ألوان الظل.
+* تم تحسين تعزيز الأداء لتقديم الخلفية. يمكنك تسريع عرض الخلفيات التي تحتوي على عناصر صغيرة بشكل كبير بفضل تقنية التبليط الأصلية.
+* تمت إضافة تدرجات واقعية للأشكال. يمكنك الآن إنشاء أشكال DML بتدرجات غير خطية، لمحاكاة النمط المرئي لبرنامج Microsoft Word للحصول على مظهر أكثر صقلًا.
+
+### بحث ومقارنة
+
+#### خيارات المقارنة المتقدمة <sup>24.6</sup>
+تمت إضافة القدرة على تبسيط سير عمل تحليل البيانات من خلال وظيفة المقارنة المحسنة. يتضمن ذلك خيار [IgnoreStoreItemId](https://reference.aspose.com/words/java/com.aspose.words/advancedcompareoptions/#getIgnoreStoreItemId) الجديد وواجهة مُعاد تصميمها لإجراء مقارنات متقدمة.
+
+### آخر
+
+* تم تنفيذ وظيفة إزالة الصفحات الفارغة من المستند عن طريق إضافة طريقة [RemoveBlankPages](https://reference.aspose.com/words/java/com.aspose.words/document/#removeBlankPages). <sup>24.5</sup>
+* تم توفير القدرة على التحقق من وجود وحدات ماكرو VBA دون تحميل مستند عن طريق إضافة [HasMacros](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasMacros) ملكية. <sup>24.5</sup>
+* أصبح الحفاظ على ترقيم المصدر أثناء إدراج مستند باستخدام محرك التقارير LINQ مدعومًا الآن. <sup>24.5</sup>
+* تمت إضافة خاصية [DateTimeUtc](https://reference.aspose.com/words/java/com.aspose.words/comment/#getDateTimeUtc) جديدة - وهذا يوفر طابعًا زمنيًا أكثر دقة للتعليقات، مما يؤدي إلى تحسين التنظيم وإمكانية التتبع. <sup>24.6</sup>
+* تم تحسين محرك تقارير LINQ. تم إجراء إزالة انتقائية للفقرات الفارغة وتعريف الرسائل المخصصة لأعضاء الكائنات المفقودة، مما يؤدي إلى تقارير أكثر وضوحًا وإفادة. <sup>24.6</sup>
 
 {{% alert color="primary" %}}
 
 تعرف على المزيد حول [ملاحظات إصدار Aspose.Words for Java 24.5](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-5-release-notes/ ).
+
+تعرف على المزيد حول [ملاحظات إصدار Aspose.Words for Java 24.6](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-6-release-notes/ ).
 
 {{% /alert %}}
 

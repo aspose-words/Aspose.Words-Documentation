@@ -11,7 +11,11 @@ url: /nl/net/what-s-new-in-aspose-words-for-net/
 
 Deze pagina beschrijft de meest interessante nieuwe Aspose.Words features geïntroduceerd in recente releases.
 
-## Aspose.Words voor .NET 24.5
+## Aspose.Words voor .NET 24.5, 24.6
+
+Aspose.Words 24.5 breidt de opties voor samenstellingen uit, verbetert de weergavemogelijkheden en breidt enkele andere opties uit.
+
+Aspose.Words 24.6 verbetert de weergaveopties, verbetert de zoek- en vergelijkfunctionaliteit en breidt verschillende andere functies uit.
 
 ### Platformen
 
@@ -26,15 +30,31 @@ Deze pagina beschrijft de meest interessante nieuwe Aspose.Words features geïnt
 * Functionaliteit om het SoftEdge-effect van vormen te manipuleren is geïmplementeerd door de klasse [SoftEdgeFormat](https://reference.aspose.com/words/net/aspose.words.drawing/softedgeformat/) toe te voegen.
 * De mogelijkheid om de waarden van vormen aan te passen is geïmplementeerd door het toevoegen van de [AdjustmentCollection](https://reference.aspose.com/words/net/aspose.words.drawing/adjustmentcollection/) en [Adjustment](https://reference.aspose.com/words/net/aspose.words.drawing/adjustment/) openbare klassen en [Adjustments](https://reference.aspose.com/words/net/aspose.words.drawing/shape/adjustments/) eigendom.
 
-#### Ander
+#### Wijzigingen in diagrammen, vormen en tekeningen <sup>24.6</sup>
+
+* Grafiekmogelijkheden zijn verbeterd. U kunt nu een grotere verscheidenheid aan diagrammen maken, waaronder *Boomkaarten*, *Zonnestralen*, *Histogrammen*, *Pareto*-diagrammen, *Box & Whisker*-diagrammen, *Watervallen* en *Trechters*. Hierdoor kunt u uw gegevens op een meer diverse en informatieve manier visualiseren.
+* Kleurcontrole voor schaduwopmaak is verbeterd. U kunt nauwkeurigere controle krijgen over het uiterlijk van uw documenten door gebruik te maken van schaduwkleuren.
+* Prestatieverbetering voor achtergrondweergave is verbeterd. Dankzij de native tegeltechnologie kunt u de weergave van achtergronden met kleine elementen aanzienlijk versnellen.
+* Realistische verlopen voor vormen zijn toegevoegd. U kunt nu DML-vormen maken met niet-lineaire verlopen, waarbij de visuele stijl van Microsoft Word wordt nagebootst voor een meer gepolijste uitstraling.
+
+### Zoek en vergelijk
+
+#### Geavanceerde vergelijkingsopties <sup>24.6</sup>
+De mogelijkheid om workflows voor gegevensanalyse te stroomlijnen met verbeterde vergelijkingsfunctionaliteit is toegevoegd. Dit omvat een nieuwe [IgnoreStoreItemId](https://reference.aspose.com/words/net/aspose.words.comparing/advancedcompareoptions/ignorestoreitemid/) optie en een opnieuw ontworpen interface voor geavanceerde vergelijkingen.
+
+### Ander
 
 * De functie om lege pagina's uit een document te verwijderen is geïmplementeerd door de methode [RemoveBlankPages](https://reference.aspose.com/words/net/aspose.words/document/removeblankpages/) toe te voegen. <sup>24.5</sup>
 * De mogelijkheid om te controleren op de aanwezigheid van VBA-macro's zonder een document te laden is mogelijk gemaakt door de eigenschap [HasMacros](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/hasmacros/) toe te voegen. <sup>24.5</sup>
 * Het behouden van bronnummering tijdens het invoegen van een document met behulp van de LINQ Reporting Engine wordt nu ondersteund. <sup>24.5</sup>
+* Er is een nieuwe eigenschap [DateTimeUtc](https://reference.aspose.com/words/net/aspose.words/comment/datetimeutc/) toegevoegd – dit biedt een nauwkeuriger tijdstempel voor opmerkingen, waardoor de organisatie en traceerbaarheid worden verbeterd. <sup>24.6</sup>
+* De LINQ Reporting Engine is verbeterd. Er zijn selectieve verwijdering van lege alinea's en definitie van aangepaste berichten voor ontbrekende objectleden doorgevoerd, wat leidt tot schonere en informatievere rapporten. <sup>24.6</sup>
 
 {{% alert color="primary" %}}
 
 Meer informatie over [Aspose.Words voor .NET 24.5 Release-opmerkingen](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-5-release-notes/).
+
+Meer informatie over [Aspose.Words voor .NET 24.6 Release-opmerkingen](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-6-release-notes/).
 
 {{% /alert %}}
 

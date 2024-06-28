@@ -11,7 +11,11 @@ url: /ja/java/what-s-new-in-aspose-words-for-java/
 
 このページでは、最も興味深い新しいものについて説明します Aspose.Words 最近のリリースで導入された機能。
 
-## Aspose.Words お問い合わせ Java 24.5
+## Aspose.Words お問い合わせ Java 24.5、24.6
+
+Aspose.Words 24.5 では、アセンブリのオプションが拡張され、レンダリング機能が向上し、その他のオプションも拡張されています。
+
+Aspose.Words 24.6 では、レンダリング オプションが向上し、検索および比較機能が強化され、その他の機能が拡張されています。
 
 ### レンダリングと印刷
 
@@ -22,15 +26,33 @@ url: /ja/java/what-s-new-in-aspose-words-for-java/
 - [SoftEdgeFormat](https://reference.aspose.com/words/java/com.aspose.words/softedgeformat/) クラスを追加することで、図形の SoftEdge 効果を操作する機能が実装されました。
 - [AdjustmentCollection](https://reference.aspose.com/words/java/com.aspose.words/adjustmentcollection/) および [Adjustment](https://reference.aspose.com/words/java/com.aspose.words/adjustment/) パブリック クラスと [Adjustments](https://reference.aspose.com/words/java/com.aspose.words/shape/#getAdjustments) プロパティを追加することで、図形の調整値を変更する機能が実装されました。
 
-#### その他
+#### グラフ、図形、描画の変更 <sup>24.6</sup>
 
-- [RemoveBlankPages](https://reference.aspose.com/words/java/com.aspose.words/document/#removeBlankPages) メソッドを追加することで、ドキュメントから空のページを削除する機能が実装されました。<sup>24.5</sup>
-- [HasMacros](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasMacros) プロパティを追加することで、ドキュメントをロードせずに VBA マクロの存在を確認する機能が提供されています。<sup>24.5</sup>
-- LINQ レポート エンジンを使用してドキュメントを挿入する際にソース番号を維持する機能がサポートされるようになりました。 <sup>24.5</sup>
+* グラフ作成機能が強化されました。*ツリーマップ*、*サンバースト*、*ヒストグラム*、*パレート* グラフ、*箱ひげ図*、*ウォーターフォール*、*ファネル* など、より多様なグラフを作成できるようになりました。これにより、データをより多様で有益な方法で視覚化できます。
+
+* 影の書式設定の色制御が強化されました。影の色にアクセスすることで、ドキュメントの外観をより正確に制御できます。
+
+* バックグラウンド レンダリングのパフォーマンスが向上しました。ネイティブのタイリング テクノロジにより、小さな要素を含む背景のレンダリングを大幅に高速化できます。
+* 図形のリアルなグラデーションが追加されました。非線形グラデーションの DML 図形を作成できるようになりました。これにより、Microsoft Word のビジュアル スタイルを模倣して、より洗練された外観を実現できます。
+
+### 検索と比較
+
+#### 高度な比較オプション <sup>24.6</sup>
+比較機能が向上し、データ分析ワークフローを効率化できるようになりました。これには、新しい [IgnoreStoreItemId](https://reference.aspose.com/words/java/com.aspose.words/advancedcompareoptions/#getIgnoreStoreItemId) オプションと、高度な比較用に再設計されたインターフェイスが含まれます。
+
+### その他
+
+* [RemoveBlankPages](https://reference.aspose.com/words/java/com.aspose.words/document/#removeBlankPages) メソッドを追加することで、ドキュメントから空のページを削除する機能が実装されました。<sup>24.5</sup>
+* [HasMacros](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasMacros) プロパティを追加することで、ドキュメントをロードせずに VBA マクロの存在を確認する機能が提供されています。<sup>24.5</sup>
+* LINQ レポート エンジンを使用してドキュメントを挿入する際にソース番号を維持する機能がサポートされるようになりました。 <sup>24.5</sup>
+* 新しい [DateTimeUtc](https://reference.aspose.com/words/java/com.aspose.words/comment/#getDateTimeUtc) プロパティが追加されました。これにより、コメントのタイムスタンプがより正確になり、整理と追跡可能性が向上します。 <sup>24.6</sup>
+* LINQ レポート エンジンが改良されました。空の段落を選択的に削除し、欠落しているオブジェクト メンバーのカスタム メッセージを定義することで、よりわかりやすく、より情報量の多いレポートを実現しました。<sup>24.6</sup>
 
 {{% alert color="primary" %}}
 
 [Aspose.Words for Java 24.5 リリース ノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-5-release-notes/) の詳細をご覧ください。
+
+[Aspose.Words for Java 24.6 リリース ノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-6-release-notes/) の詳細をご覧ください。
 
 {{% /alert %}}
 

@@ -11,7 +11,11 @@ url: /cs/net/what-s-new-in-aspose-words-for-net/
 
 Tato stránka popisuje nejzajímavější nový Aspose.Words funkce zavedené v nedávných vydáních.
 
-## Aspose.Words pro .NET 24.5
+## Aspose.Words pro .NET 24.5, 24.6
+
+Aspose.Words 24.5 rozšiřuje možnosti pro sestavy, zlepšuje možnosti vykreslování a rozšiřuje některé další možnosti.
+
+Aspose.Words 24.6 vylepšuje možnosti vykreslování, vylepšuje funkce vyhledávání a porovnávání a rozšiřuje několik dalších funkcí.
 
 ### Platformy
 
@@ -26,15 +30,31 @@ Sestavení .NET 7.0/8.0 byla zahrnuta do balíčku NuGet Aspose.Words.
 * Funkce pro manipulaci s efektem SoftEdge tvarů byla implementována přidáním třídy [SoftEdgeFormat](https://reference.aspose.com/words/net/aspose.words.drawing/softedgeformat/).
 * Možnost úpravy hodnot tvarů byla implementována přidáním [AdjustmentCollection](https://reference.aspose.com/words/net/aspose.words.drawing/adjustmentcollection/) a [Adjustment](https://reference.aspose.com/words/net/aspose.words.drawing/adjustment/) veřejné třídy a [Adjustments](https://reference.aspose.com/words/net/aspose.words.drawing/shape/adjustments/) vlastnictví.
 
-#### Jiný
+#### Změny v grafech, tvarech a kresbě <sup>24.6</sup>
+
+* Možnosti mapování byly vylepšeny. Nyní můžete vytvářet širší škálu grafů, včetně *Stromové mapy*, *Sunbursts*, *Histogramy*, *Pareto* grafy, *Box & Whisker* grafy, *Waterfalls* a *Funnels*. To vám umožní vizualizovat svá data rozmanitějším a informativním způsobem.
+* Bylo vylepšeno ovládání barev pro formátování stínů. Přesnější kontrolu nad vzhledem vašich dokumentů získáte přístupem k barvám stínů.
+* Zvýšení výkonu pro vykreslování na pozadí bylo vylepšeno. Vykreslování pozadí obsahujících drobné prvky můžete výrazně urychlit díky nativní technologii obkladů.
+* Byly přidány realistické přechody pro tvary. Nyní můžete vytvářet tvary DML s nelineárními přechody, napodobujícími vizuální styl aplikace Microsoft Word pro uhlazenější vzhled.
+
+### Hledat a porovnat
+
+#### Pokročilé možnosti porovnání <sup>24.6</sup>
+Byla přidána možnost zefektivnit pracovní postupy analýzy dat pomocí vylepšené funkce porovnání. To zahrnuje novou možnost [IgnoreStoreItemId](https://reference.aspose.com/words/net/aspose.words.comparing/advancedcompareoptions/ignorestoreitemid/) a přepracované rozhraní pro pokročilá porovnávání.
+
+### Jiný
 
 * Funkce odstranění prázdných stránek z dokumentu byla implementována přidáním metody [RemoveBlankPages](https://reference.aspose.com/words/net/aspose.words/document/removeblankpages/). <sup>24.5</sup>
 * Možnost kontrolovat přítomnost maker VBA bez načítání dokumentu byla poskytnuta přidáním vlastnosti [HasMacros](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/hasmacros/). <sup>24.5</sup>
 * Nyní je podporováno zachování číslování zdrojů při vkládání dokumentu pomocí LINQ Reporting Engine. <sup>24.5</sup>
+* Byla přidána nová vlastnost [DateTimeUtc](https://reference.aspose.com/words/net/aspose.words/comment/datetimeutc/) – poskytuje přesnější časové razítko pro komentáře, zlepšuje organizaci a sledovatelnost. <sup>24.6</sup>
+* LINQ Reporting Engine byl vylepšen. Bylo provedeno selektivní odstranění prázdných odstavců a definice vlastních zpráv pro chybějící členy objektu, což vedlo k čistším a informativnějším zprávám. <sup>24.6</sup>
 
 {{% alert color="primary" %}}
 
 Další informace o [Aspose.Words for .NET 24.5 Release Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-5-release-notes/).
+
+Další informace o [Aspose.Words for .NET 24.6 Release Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-6-release-notes/).
 
 {{% /alert %}}
 

@@ -11,7 +11,11 @@ url: /zh/java/what-s-new-in-aspose-words-for-java/
 
 此页面描述最有趣的新 Aspose.Words 近期发布时引入的特征。
 
-## Aspose.Words for Java 24.5
+## Aspose.Words for Java 24.5, 24.6
+
+Aspose.Words 24.5 扩展了组件选项，改进了渲染功能，并扩展了一些其他选项。
+
+Aspose.Words 24.6 改进了渲染选项，增强了搜索和比较功能，并扩展了其他几个功能。
 
 ### 渲染和打印
 
@@ -22,15 +26,31 @@ url: /zh/java/what-s-new-in-aspose-words-for-java/
 - 通过添加 [SoftEdgeFormat](https://reference.aspose.com/words/java/com.aspose.words/softedgeformat/) 类，实现了操纵形状的 SoftEdge 效果的功能。
 - 通过添加 [AdjustmentCollection](https://reference.aspose.com/words/java/com.aspose.words/adjustmentcollection/) 和 [Adjustment](https://reference.aspose.com/words/java/com.aspose.words/adjustment/) 公共类和 [Adjustments](https://reference.aspose.com/words/java/com.aspose.words/shape/#getAdjustments) 属性，实现了修改形状调整值的功能。
 
-#### 其他
+#### Charts、Shapes 和 DrawingML 中的变化 <sup>24.6</sup>
 
-- 通过添加 [RemoveBlankPages](https://reference.aspose.com/words/java/com.aspose.words/document/#removeBlankPages) 方法，实现了从文档中删除空白页的功能。 <sup>24.5</sup>
-- 通过添加 [HasMacros](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasMacros) 属性，无需加载文档即可检查 VBA 宏是否存在。 <sup>24.5</sup>
-- 现在支持在使用 LINQ 报告引擎插入文档时保留源编号。 <sup>24.5</sup>
+* 图表功能已得到增强。您现在可以创建更多种类的图表，包括 *Treemaps*、*Sunbursts*、*Histograms*、*Pareto* charts、*Box & Whisker* charts、*Waterfalls* 和 *Funnels*。这使您能够以更加多样化和信息丰富的方式可视化数据。
+* 阴影格式的颜色控制已得到改进。您可以通过访问阴影颜色来更精确地控制文档的外观。
+* 后台渲染的性能提升已得到改进。借助原生平铺技术，您可以显著加快包含小元素的背景渲染速度。
+* 添加了形状的逼真渐变。现在，您可以创建具有非线性渐变的 DML 形状，模仿 Microsoft Word 的视觉风格，以获得更精致的外观。
+
+### 搜索和比较
+
+#### 高级比较选项 <sup>24.6</sup>
+添加了通过改进的比较功能简化数据分析工作流程的功能。这包括一个新的 [IgnoreStoreItemId](https://reference.aspose.com/words/java/com.aspose.words/advancedcompareoptions/#getIgnoreStoreItemId) 选项和重新设计的高级比较界面。
+
+### 其他
+
+* 通过添加 [RemoveBlankPages](https://reference.aspose.com/words/java/com.aspose.words/document/#removeBlankPages) 方法，实现了从文档中删除空白页的功能。 <sup>24.5</sup>
+* 通过添加 [HasMacros](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasMacros) 属性，无需加载文档即可检查 VBA 宏是否存在。 <sup>24.5</sup>
+* 现在支持在使用 LINQ 报告引擎插入文档时保留源编号。 <sup>24.5</sup>
+* 添加了一个新的 [DateTimeUtc](https://reference.aspose.com/words/java/com.aspose.words/comment/#getDateTimeUtc) 属性 - 这为评论提供了更精确的时间戳，从而提高了组织性和可追溯性。 <sup>24.6</sup>
+* LINQ 报告引擎已得到改进。选择性删除了空段落，并为缺失的对象成员定义了自定义消息，从而生成了更清晰、更具信息量的报告。<sup>24.6</sup>
 
 {{% alert color="primary" %}}
 
 了解有关 [Aspose.Words for Java 24.5 发行说明](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-5-release-notes/) 的更多信息。
+
+了解有关 [Aspose.Words for Java 24.6 发行说明](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-6-release-notes/) 的更多信息。
 
 {{% /alert %}}
 

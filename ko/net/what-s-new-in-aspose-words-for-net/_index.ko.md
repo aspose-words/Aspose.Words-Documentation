@@ -11,7 +11,11 @@ url: /ko/net/what-s-new-in-aspose-words-for-net/
 
 이 페이지에서는 최근 릴리스에 도입된 가장 흥미로운 새 Aspose.Words 기능을 설명합니다.
 
-## .NET 24.5용 Aspose.Words
+## .NET 24.5, 24.6 용 Aspose.Words
+
+Aspose.Words 24.5는 어셈블리 옵션을 확장하고 렌더링 기능을 개선하며 기타 옵션을 확장합니다.
+
+Aspose.Words 24.6은 렌더링 옵션을 개선하고, 검색 및 비교 기능을 향상시키며, 기타 여러 기능을 확장합니다.
 
 ### 플랫폼
 
@@ -26,15 +30,31 @@ url: /ko/net/what-s-new-in-aspose-words-for-net/
 * [SoftEdgeFormat](https://reference.aspose.com/words/net/aspose.words.drawing/softedgeformat/) 클래스를 추가하여 도형의 SoftEdge 효과를 조작하는 기능이 구현되었습니다.
 * 도형의 조정 값을 수정하는 기능은 [AdjustmentCollection](https://reference.aspose.com/words/net/aspose.words.drawing/adjustmentcollection/) 및 [Adjustment](https://reference.aspose.com/words/net/aspose.words.drawing/adjustment/) 공개 클래스 및 [Adjustments](https://reference.aspose.com/words/net/aspose.words.drawing/shape/adjustments/) 재산.
 
-#### 다른
+#### 차트, 도형, 그림의 변경 <sup>24.6</sup>
+
+* 차트 기능이 향상되었습니다. 이제 *트리맵*, *선버스트*, *히스토그램*, *파레토* 차트, *상자 및 수염* 차트, *폭포*, *깔때기*를 포함하여 더욱 다양한 차트를 만들 수 있습니다. 이를 통해 데이터를 더욱 다양하고 유익한 방식으로 시각화할 수 있습니다.
+* 그림자 서식의 색상 제어가 개선되었습니다. 그림자 색상에 액세스하여 문서의 모양을 보다 정확하게 제어할 수 있습니다.
+* 배경 렌더링 성능 향상이 향상되었습니다. 기본 타일링 기술 덕분에 작은 요소가 포함된 배경의 렌더링 속도를 크게 높일 수 있습니다.
+* 모양에 사실적인 그라데이션이 추가되었습니다. 이제 비선형 그라데이션으로 DML 모양을 만들어 Microsoft Word의 시각적 스타일을 모방하여 더욱 세련된 모양을 만들 수 있습니다.
+
+### 검색 및 비교
+
+#### 고급 비교 옵션 <sup>24.6</sup>
+향상된 비교 기능으로 데이터 분석 워크플로우를 간소화하는 기능이 추가되었습니다. 여기에는 새로운 [IgnoreStoreItemId](https://reference.aspose.com/words/net/aspose.words.comparing/advancedcompareoptions/ignorestoreitemid/) 옵션과 고급 비교를 위해 재설계된 인터페이스가 포함됩니다.
+
+### 다른
 
 * [RemoveBlankPages](https://reference.aspose.com/words/net/aspose.words/document/removeblankpages/) 메소드를 추가하여 문서에서 빈 페이지를 제거하는 기능을 구현했습니다. <sup>24.5</sup>
 * [HasMacros](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/hasmacros/) 속성을 추가하여 문서를 로드하지 않고도 VBA 매크로 존재 여부를 확인할 수 있는 기능이 제공되었습니다. <sup>24.5</sup>
 * 이제 LINQ 보고 엔진을 사용하여 문서를 삽입하는 동안 소스 번호 매기기가 지원됩니다. <sup>24.5</sup>
+* 새로운 [DateTimeUtc](https://reference.aspose.com/words/net/aspose.words/comment/datetimeutc/) 속성이 추가되었습니다. 이는 댓글에 대한 보다 정확한 타임스탬프를 제공하여 구성 및 추적성을 향상시킵니다. <sup>24.6</sup>
+* LINQ 보고 엔진이 개선되었습니다. 빈 단락을 선택적으로 제거하고 누락된 개체 구성원에 대한 사용자 정의 메시지를 정의하여 더욱 깔끔하고 유익한 보고서를 제공합니다. <sup>24.6</sup>
 
 {{% alert color="primary" %}}
 
-[Aspose.Words for .NET 24.5 릴리스 노트](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-5-release-notes)에 대해 자세히 알아보세요. /).
+[.NET 24.5용 Aspose.Words 릴리스 노트](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-5-release-notes/)에 대해 자세히 알아보세요.
+
+[.NET 24.6용 Aspose.Words 릴리스 노트](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-6-release-notes/)에 대해 자세히 알아보세요.
 
 {{% /alert %}}
 

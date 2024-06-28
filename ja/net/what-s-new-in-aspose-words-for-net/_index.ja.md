@@ -11,7 +11,11 @@ url: /ja/net/what-s-new-in-aspose-words-for-net/
 
 このページでは、最近のリリースで導入された最も興味深い Aspose.Words の新機能について説明します。
 
-## Aspose.Words for .NET 24.5
+## Aspose.Words for .NET 24.5、24.6
+
+Aspose.Words 24.5 では、アセンブリのオプションが拡張され、レンダリング機能が向上し、その他のオプションも拡張されています。
+
+Aspose.Words 24.6 では、レンダリング オプションが向上し、検索および比較機能が強化され、その他の機能が拡張されています。
 
 ### プラットフォーム
 
@@ -26,15 +30,33 @@ url: /ja/net/what-s-new-in-aspose-words-for-net/
 * シェイプの SoftEdge 効果を操作する機能は、[SoftEdgeFormat](https://reference.aspose.com/words/net/aspose.words.drawing/softedgeformat/) クラスを追加することで実装されました。
 * シェイプの調整値を変更する機能は、[AdjustmentCollection](https://reference.aspose.com/words/net/aspose.words.drawing/adjustmentcollection/) および [Adjustment](https://reference.aspose.com/words/net/aspose.words.drawing/adjustment/) パブリック クラスと [Adjustments](https://reference.aspose.com/words/net/aspose.words.drawing/shape/adjustments/) 財産。
 
-#### 他の
+#### グラフ、図形、描画の変更 <sup>24.6</sup>
+
+* グラフ作成機能が強化されました。*ツリーマップ*、*サンバースト*、*ヒストグラム*、*パレート* グラフ、*箱ひげ図*、*ウォーターフォール*、*ファネル* など、より多様なグラフを作成できるようになりました。これにより、データをより多様で有益な方法で視覚化できます。
+
+* 影の書式設定の色制御が強化されました。影の色にアクセスすることで、ドキュメントの外観をより正確に制御できます。
+
+* バックグラウンド レンダリングのパフォーマンスが向上しました。ネイティブのタイリング テクノロジにより、小さな要素を含む背景のレンダリングを大幅に高速化できます。
+* 図形のリアルなグラデーションが追加されました。非線形グラデーションの DML 図形を作成できるようになりました。これにより、Microsoft Word のビジュアル スタイルを模倣して、より洗練された外観を実現できます。
+
+### 検索と比較
+
+#### 高度な比較オプション <sup>24.6</sup>
+比較機能が向上し、データ分析ワークフローを効率化できるようになりました。これには、新しい [IgnoreStoreItemId](https://reference.aspose.com/words/net/aspose.words.comparing/advancedcompareoptions/ignorestoreitemid/) オプションと、高度な比較用に再設計されたインターフェイスが含まれます。
+
+### 他の
 
 * 文書から空ページを削除する機能は、[RemoveBlankPages](https://reference.aspose.com/words/net/aspose.words/document/removeblankpages/)メソッドを追加することで実装されました。 <sup>24.5</sup>
 * ドキュメントをロードせずに VBA マクロの存在をチェックする機能は、[HasMacros](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/hasmacros/) プロパティを追加することによって提供されます。 <sup>24.5</sup>
 * LINQ レポート エンジンを使用してドキュメントを挿入する際のソース番号の維持がサポートされるようになりました。 <sup>24.5</sup>
+* 新しい [DateTimeUtc](https://reference.aspose.com/words/net/aspose.words/comment/datetimeutc/) プロパティが追加されました。これにより、コメントのタイムスタンプがより正確になり、整理と追跡可能性が向上します。 <sup>24.6</sup>
+* LINQ レポート エンジンが改良されました。空の段落を選択的に削除し、欠落しているオブジェクト メンバーのカスタム メッセージを定義することで、よりわかりやすく、より情報量の多いレポートを実現しました。<sup>24.6</sup>
 
 {{% alert color="primary" %}}
 
 詳細については、[Aspose.Words for .NET 24.5 リリース ノート](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-5-release-notes) をご覧ください。
+
+詳細については、[Aspose.Words for .NET 24.6 リリース ノート](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-6-release-notes) をご覧ください。
 
 {{% /alert %}}
 

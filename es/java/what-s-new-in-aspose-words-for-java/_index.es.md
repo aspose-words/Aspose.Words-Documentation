@@ -11,7 +11,11 @@ url: /es/java/what-s-new-in-aspose-words-for-java/
 
 Esta página describe el nuevo más interesante Aspose.Words características introducidas en versiones recientes.
 
-## Aspose.Words para Java 24.5
+## Aspose.Words para Java 24.5, 24.6
+
+Aspose.Words 24.5 amplía las opciones para ensamblajes, mejora las capacidades de renderizado y amplía algunas otras opciones.
+
+Aspose.Words 24.6 mejora las opciones de renderizado, mejora la funcionalidad de búsqueda y comparación y amplía varias otras funciones.
 
 ### Representación e impresión
 
@@ -20,17 +24,33 @@ Esta página describe el nuevo más interesante Aspose.Words características in
 - Se ha implementado la representación de efectos DrawingML para gráficos SVG, ampliando la funcionalidad anterior limitada a imágenes.
 - Se introdujo soporte para crear gráficos combinados y ajustar propiedades como ancho de espacio, superposición y escala de burbuja dentro de grupos de series mediante la adición de [ChartSeriesGroup](https://reference.aspose.com/words/java/com.aspose. palabras/chartseriesgroup/) y las clases [ChartSeriesGroupCollection](https://reference.aspose.com/words/java/com.aspose.words/chartseriesgroupcollection/) y las clases [SeriesGroups](https://reference.aspose.com/ palabras/java/com.aspose.words/chart/#getSeriesGroups).
 - La funcionalidad para manipular el efecto SoftEdge de las formas se implementó agregando la clase [SoftEdgeFormat](https://reference.aspose.com/words/java/com.aspose.words/softedgeformat/).
-- La capacidad de modificar los valores de ajuste de las formas se implementó agregando [AdjustmentCollection](https://reference.aspose.com/words/java/com.aspose.words/adjustmentcollection/) y [Adjustment](https:/ /reference.aspose.com/words/java/com.aspose.words/adjustment/) clases públicas y [Ajustes](https://reference.aspose.com/words/java/com.aspose.words/shape/# getAdjustments) propiedad.
+- La capacidad de modificar los valores de ajuste de las formas se implementó agregando [AdjustmentCollection](https://reference.aspose.com/words/java/com.aspose.words/adjustmentcollection/) y [Adjustment](https:/ /reference.aspose.com/words/java/com.aspose.words/adjustment/) clases públicas y [Ajustes](https://reference.aspose.com/words/java/com.aspose.words/shape/#getAdjustments) propiedad.
 
-#### Otro
+#### Cambios en gráficos, formas y dibujos <sup>24.6</sup>
 
-- Se ha implementado la función para eliminar páginas vacías de un documento agregando el método [RemoveBlankPages](https://reference.aspose.com/words/java/com.aspose.words/document/#removeBlankPages). <sup>24,5</sup>
-- La capacidad de comprobar la presencia de macros de VBA sin cargar un documento se ha proporcionado agregando [HasMacros](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasMacros) propiedad. <sup>24,5</sup>
-- Ahora se admite mantener la numeración de origen al insertar un documento utilizando LINQ Reporting Engine. <sup>24,5</sup>
+* Se han mejorado las capacidades de gráficos. Ahora puede crear una variedad más amplia de gráficos, incluidos *Mapas de árbol*, *Estallidos solares*, *Histogramas*, gráficos de *Pareto*, gráficos de *Caja y bigotes*, *Cascadas* y *Embudos*. Esto le permite visualizar sus datos de una manera más diversa e informativa.
+* Se ha mejorado el control de color para el formato de sombras. Puede obtener un control más preciso sobre la apariencia de sus documentos accediendo a los colores de las sombras.
+* Se ha mejorado el aumento de rendimiento para la renderización en segundo plano. Puede acelerar significativamente la renderización de fondos que contienen elementos pequeños gracias a la tecnología de mosaico nativa.
+* Se han agregado degradados realistas para las formas. Ahora puede crear formas DML con degradados no lineales, imitando el estilo visual de Microsoft Word para una apariencia más refinada.
+
+### Buscar y comparar
+
+#### Opciones de comparación avanzadas <sup>24.6</sup>
+Se ha agregado la capacidad de optimizar los flujos de trabajo de análisis de datos con una funcionalidad de comparación mejorada. Esto incluye una nueva opción [IgnoreStoreItemId](https://reference.aspose.com/words/java/com.aspose.words/advancedcompareoptions/#getIgnoreStoreItemId) y una interfaz rediseñada para comparaciones avanzadas.
+
+### Otro
+
+* Se ha implementado la función para eliminar páginas vacías de un documento agregando el método [RemoveBlankPages](https://reference.aspose.com/words/java/com.aspose.words/document/#removeBlankPages). <sup>24,5</sup>
+* La capacidad de comprobar la presencia de macros de VBA sin cargar un documento se ha proporcionado agregando [HasMacros](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasMacros) propiedad. <sup>24,5</sup>
+* Ahora se admite mantener la numeración de origen al insertar un documento utilizando LINQ Reporting Engine. <sup>24,5</sup>
+* Se agregó una nueva propiedad [DateTimeUtc](https://reference.aspose.com/words/java/com.aspose.words/comment/#getDateTimeUtc): esto proporciona una marca de tiempo más precisa para los comentarios, lo que mejora la organización y la trazabilidad. <sup>24.6</sup>
+* Se ha mejorado el motor de informes LINQ. Se han realizado la eliminación selectiva de párrafos vacíos y la definición de mensajes personalizados para los miembros de objetos faltantes, lo que genera informes más limpios e informativos. <sup>24.6</sup>
 
 {{% alert color="primary" %}}
 
-Obtenga más información sobre [Notas de la versión de Aspose.Words para Java 24.5](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-5-release-notes/ ).
+Obtenga más información sobre [Notas de la versión de Aspose.Words para Java 24.5](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-5-release-notes/).
+
+Obtenga más información sobre [Notas de la versión de Aspose.Words para Java 24.6](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-6-release-notes/).
 
 {{% /alert %}}
 

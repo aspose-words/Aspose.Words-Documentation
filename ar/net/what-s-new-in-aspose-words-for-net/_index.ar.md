@@ -11,7 +11,11 @@ url: /ar/net/what-s-new-in-aspose-words-for-net/
 
 تصف هذه الصفحة ميزات Aspose.Words الجديدة الأكثر إثارة للاهتمام والتي تم تقديمها في الإصدارات الأخيرة.
 
-## Aspose.Words لـ .NET 24.5
+## Aspose.Words لـ .NET 24.5, 24.6
+
+يقوم Aspose.Words 24.5 بتوسيع خيارات التجميعات وتحسين قدرات العرض وتوسيع بعض الخيارات الأخرى.
+
+يعمل Aspose.Words 24.6 على تحسين خيارات العرض، وتعزيز وظائف البحث والمقارنة، وتوسيع العديد من الميزات الأخرى.
 
 ### المنصات
 
@@ -26,15 +30,31 @@ url: /ar/net/what-s-new-in-aspose-words-for-net/
 * تم تنفيذ وظيفة معالجة تأثير SoftEdge للأشكال عن طريق إضافة فئة [SoftEdgeFormat](https://reference.aspose.com/words/net/aspose.words.drawing/softedgeformat/).
 * تم تنفيذ القدرة على تعديل قيم ضبط الأشكال عن طريق إضافة [AdjustmentCollection](https://reference.aspose.com/words/net/aspose.words.drawing/adjustmentcollection/) و[Adjustment](https://reference.aspose.com/words/net/aspose.words.drawing/adjustment/) الفئات العامة و[Adjustments](https://reference.aspose.com/words/net/aspose.words.drawing/shape/adjustments/) ملكية.
 
-#### آخر
+#### التغييرات في المخططات والأشكال والرسم <sup>24.6</sup>
+
+* تم تعزيز قدرات الرسم البياني. يمكنك الآن إنشاء مجموعة واسعة من المخططات، بما في ذلك *Treemaps*، و*Sunbursts*، و*Histograms*، و*Pareto*، و*Box & Whisker*، و*Waterfalls*، و*Funnels*. يتيح لك ذلك تصور بياناتك بطريقة أكثر تنوعًا وغنية بالمعلومات.
+* تم تحسين التحكم في الألوان لتنسيق الظل. يمكنك الحصول على تحكم أكثر دقة في مظهر مستنداتك عن طريق الوصول إلى ألوان الظل.
+* تم تحسين تعزيز الأداء لتقديم الخلفية. يمكنك تسريع عرض الخلفيات التي تحتوي على عناصر صغيرة بشكل كبير بفضل تقنية التبليط الأصلية.
+* تمت إضافة تدرجات واقعية للأشكال. يمكنك الآن إنشاء أشكال DML بتدرجات غير خطية، لمحاكاة النمط المرئي لبرنامج Microsoft Word للحصول على مظهر أكثر صقلًا.
+
+### بحث ومقارنة
+
+#### خيارات المقارنة المتقدمة <sup>24.6</sup>
+تمت إضافة القدرة على تبسيط سير عمل تحليل البيانات من خلال وظيفة المقارنة المحسنة. يتضمن ذلك خيار [IgnoreStoreItemId](https://reference.aspose.com/words/net/aspose.words.comparing/advancedcompareoptions/ignorestoreitemid/) الجديد وواجهة مُعاد تصميمها لإجراء مقارنات متقدمة.
+
+### آخر
 
 * تم تنفيذ وظيفة إزالة الصفحات الفارغة من المستند عن طريق إضافة طريقة [RemoveBlankPages](https://reference.aspose.com/words/net/aspose.words/document/removeblankpages/). <sup>24.5</sup>
 * تم توفير القدرة على التحقق من وجود وحدات ماكرو VBA دون تحميل مستند عن طريق إضافة خاصية [HasMacros](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/hasmacros/). <sup>24.5</sup>
 * أصبح الحفاظ على ترقيم المصدر أثناء إدراج مستند باستخدام محرك التقارير LINQ مدعومًا الآن. <sup>24.5</sup>
+* تمت إضافة خاصية [DateTimeUtc](https://reference.aspose.com/words/net/aspose.words/comment/datetimeutc/) جديدة - وهذا يوفر طابعًا زمنيًا أكثر دقة للتعليقات، مما يؤدي إلى تحسين التنظيم وإمكانية التتبع. <sup>24.6</sup>
+* تم تحسين محرك تقارير LINQ. تم إجراء إزالة انتقائية للفقرات الفارغة وتعريف الرسائل المخصصة لأعضاء الكائنات المفقودة، مما يؤدي إلى تقارير أكثر وضوحًا وإفادة. <sup>24.6</sup>
 
 {{% alert color="primary" %}}
 
 تعرف على المزيد حول [ملاحظات إصدار Aspose.Words for .NET 24.5](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-5-release-notes/).
+
+تعرف على المزيد حول [ملاحظات إصدار Aspose.Words for .NET 24.6](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-6-release-notes/).
 
 {{% /alert %}}
 
