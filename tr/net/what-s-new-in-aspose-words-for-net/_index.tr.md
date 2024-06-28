@@ -11,7 +11,11 @@ url: /tr/net/what-s-new-in-aspose-words-for-net/
 
 Bu sayfada son sürümlerde tanıtılan en ilginç yeni Aspose.Words özellikleri açıklanmaktadır.
 
-## .NET 24.5 için Aspose.Words
+## .NET 24.5, 24.6 için Aspose.Words
+
+Aspose.Words 24.5, derleme seçeneklerini genişletir, oluşturma yeteneklerini geliştirir ve diğer bazı seçenekleri genişletir.
+
+Aspose.Words 24.6, oluşturma seçeneklerini geliştirir, arama ve karşılaştırma işlevselliğini geliştirir ve diğer birçok özelliği genişletir.
 
 ### Platformlar
 
@@ -26,15 +30,31 @@ Bu sayfada son sürümlerde tanıtılan en ilginç yeni Aspose.Words özellikler
 * Şekillerin SoftEdge efektini değiştirme işlevi, [SoftEdgeFormat](https://reference.aspose.com/words/net/aspose.words.drawing/softedgeformat/) sınıfı eklenerek uygulanmıştır.
 * Şekillerin ayar değerlerini değiştirme özelliği, [AdjustmentCollection](https://reference.aspose.com/words/net/aspose.words.drawing/adjustmentcollection/) ve [Adjustment](https://reference.aspose.com/words/net/aspose.words.drawing/adjustment/) genel sınıflar ve [Adjustments](https://reference.aspose.com/words/net/aspose.words.drawing/shape/adjustments/) mülk.
 
-#### Diğer
+#### Grafikler, Şekiller ve Çizimdeki Değişiklikler <sup>24.6</sup>
+
+* Grafik yetenekleri geliştirildi. Artık *Ağaç Haritaları*, *Güneş Patlamaları*, *Histogramlar*, *Pareto* grafikleri, *Kutu ve Bıyık* grafikleri, *Şelaleler* ve *Huniler* dahil olmak üzere daha çeşitli grafikler oluşturabilirsiniz. Bu, verilerinizi daha çeşitli ve bilgilendirici bir şekilde görselleştirmenize olanak tanır.
+* Gölge biçimlendirmesi için renk kontrolü iyileştirildi. Gölge renklerine erişerek belgelerinizin görünümü üzerinde daha hassas kontrol elde edebilirsiniz.
+* Arka planda görüntüleme için performans artışı iyileştirildi. Yerel döşeme teknolojisi sayesinde, küçük öğeler içeren arka planların oluşturulmasını önemli ölçüde hızlandırabilirsiniz.
+* Şekiller için gerçekçi degradeler eklendi. Artık daha parlak bir görünüm için Microsoft Word'ün görsel stilini taklit eden, doğrusal olmayan degradelere sahip DML şekilleri oluşturabilirsiniz.
+
+### Ara ve Karşılaştır
+
+#### Gelişmiş Karşılaştırma Seçenekleri <sup>24.6</sup>
+Geliştirilmiş karşılaştırma işlevselliğiyle veri analizi iş akışlarını kolaylaştırma yeteneği eklendi. Buna yeni bir [IgnoreStoreItemId](https://reference.aspose.com/words/net/aspose.words.comparing/advancedcompareoptions/ignorestoreitemid/) seçeneği ve gelişmiş karşılaştırmalar için yeniden tasarlanmış bir arayüz dahildir.
+
+### Diğer
 
 * Bir belgedeki boş sayfaları ortadan kaldırma işlevi, [RemoveBlankPages](https://reference.aspose.com/words/net/aspose.words/document/removeblankpages/) yöntemi eklenerek uygulanmıştır. <sup>24.5</sup>
 * [HasMacros](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/hasmacros/) özelliği eklenerek belge yüklemeden VBA makrolarının varlığını kontrol etme yeteneği sağlandı. <sup>24.5</sup>
 * LINQ Raporlama Motorunu kullanarak belge eklerken kaynak numaralandırmasının tutulması artık desteklenmektedir. <sup>24.5</sup>
+* Yeni bir [DateTimeUtc](https://reference.aspose.com/words/net/aspose.words/comment/datetimeutc/) özelliği eklendi; bu, yorumlar için daha kesin bir zaman damgası sağlayarak organizasyonu ve izlenebilirliği artırır. <sup>24.6</sup>
+* LINQ Raporlama Motoru geliştirildi. Boş paragrafların seçici olarak kaldırılması ve eksik nesne üyeleri için özel mesajların tanımlanması yapılarak daha temiz ve daha bilgilendirici raporlar elde edildi. <sup>24.6</sup>
 
 {{% alert color="primary" %}}
 
 [.NET 24.5 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-5-release-notes/) hakkında daha fazla bilgi edinin.
+
+[.NET 24.6 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-6-release-notes/) hakkında daha fazla bilgi edinin.
 
 {{% /alert %}}
 

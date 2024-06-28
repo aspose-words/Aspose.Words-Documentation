@@ -13,6 +13,10 @@ This page describes the most interesting new Aspose.Words features introduced in
 
 ## Aspose.Words for Python via .NET 24.5, 24.6
 
+Aspose.Words 24.5 expands options for assemblies, improves rendering capabilities, and expands some other options.
+
+Aspose.Words 24.6 improves rendering options, enhances search and compare functionality, and expands several other features.
+
 ### Rendering and Printing
 
 #### Changes in Charts, Shapes and DrawingML <sup>24.5</sup>

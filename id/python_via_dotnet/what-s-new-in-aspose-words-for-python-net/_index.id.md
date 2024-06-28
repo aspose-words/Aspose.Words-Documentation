@@ -11,7 +11,11 @@ url: /id/python-net/what-s-new-in-aspose-words-for-python-net/
 
 Halaman ini menjelaskan fitur-fitur Aspose.Words baru yang paling menarik yang diperkenalkan dalam rilis terbaru.
 
-## Aspose.Words untuk Python via .NET 24.5
+## Aspose.Words untuk Python via .NET 24.5, 24.6
+
+Aspose.Words 24.5 memperluas opsi untuk rakitan, meningkatkan kemampuan rendering, dan memperluas beberapa opsi lainnya.
+
+Aspose.Words 24.6 meningkatkan opsi rendering, meningkatkan fungsionalitas pencarian dan perbandingan, dan memperluas beberapa fitur lainnya.
 
 ### Rendering dan Pencetakan
 
@@ -22,15 +26,31 @@ Halaman ini menjelaskan fitur-fitur Aspose.Words baru yang paling menarik yang d
 * Fungsionalitas untuk memanipulasi efek SoftEdge bentuk telah diterapkan dengan menambahkan kelas [SoftEdgeFormat](https://reference.aspose.com/words/python-net/aspose.words.drawing/softedgeformat/).
 * Kemampuan untuk mengubah nilai penyesuaian bentuk telah diterapkan dengan menambahkan **AdjustmentCollection** dan **Adjustment** kelas umum dan [adjustments](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/adjustments/) Properti.
 
-#### Lainnya
+#### Perubahan Bagan, Bentuk, dan Gambar <sup>24.6</sup>
+
+* Kemampuan pembuatan grafik telah ditingkatkan. Kini Anda dapat membuat lebih banyak variasi bagan, termasuk *Peta Pohon*, *Sunburst*, *Histogram*, bagan *Pareto*, bagan *Kotak & Kumis*, *Air Terjun*, dan *Corong*. Hal ini memungkinkan Anda memvisualisasikan data dengan cara yang lebih beragam dan informatif.
+* Kontrol warna untuk pemformatan bayangan telah ditingkatkan. Anda bisa mendapatkan kontrol yang lebih tepat atas tampilan dokumen Anda dengan mengakses warna bayangan.
+* Peningkatan kinerja untuk rendering latar belakang telah ditingkatkan. Anda dapat mempercepat rendering latar belakang yang berisi elemen kecil secara signifikan berkat teknologi ubin asli.
+* Gradien realistis untuk bentuk telah ditambahkan. Anda sekarang dapat membuat bentuk DML dengan gradien non-linier, meniru gaya visual Microsoft Word untuk tampilan yang lebih halus.
+
+### Cari dan Bandingkan
+
+#### Opsi Perbandingan Lanjutan <sup>24.6</sup>
+Kemampuan untuk menyederhanakan alur kerja analisis data dengan fungsionalitas perbandingan yang ditingkatkan telah ditambahkan. Ini mencakup opsi [ignore_store_item_id](https://reference.aspose.com/words/python-net/aspose.words.comparing/advancedcompareoptions/ignore_store_item_id/) baru dan antarmuka yang didesain ulang untuk perbandingan lanjutan.
+
+### Lainnya
 
 * Fungsi untuk menghilangkan halaman kosong dari dokumen telah diterapkan dengan menambahkan metode [remove_blank_pages](https://reference.aspose.com/words/python-net/aspose.words/document/remove_blank_pages/). <sup>24.5</sup>
 * Kemampuan untuk memeriksa keberadaan makro VBA tanpa memuat dokumen telah disediakan dengan menambahkan properti [has_macros](https://reference.aspose.com/words/python-net/aspose.words/fileformatinfo/has_macros/). <sup>24.5</sup>
 * Menyimpan penomoran sumber saat memasukkan dokumen menggunakan Mesin Pelaporan LINQ kini didukung. <sup>24.5</sup>
+* Properti [date_time_utc](https://reference.aspose.com/words/python-net/aspose.words/comment/date_time_utc/) baru telah ditambahkan – ini memberikan stempel waktu yang lebih tepat untuk komentar, meningkatkan pengorganisasian, dan ketertelusuran. <sup>24,6</sup>
+* Mesin Pelaporan LINQ telah ditingkatkan. Penghapusan selektif paragraf kosong dan definisi pesan khusus untuk anggota objek yang hilang telah dilakukan, menghasilkan laporan yang lebih bersih dan informatif. <sup>24,6</sup>
 
 {{% alert color="primary" %}}
 
 Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 24.5](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-5-release-notes/).
+
+Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 24.6](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-6-release-notes/).
 
 {{% /alert %}}
 

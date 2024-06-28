@@ -11,7 +11,11 @@ url: /fr/java/what-s-new-in-aspose-words-for-java/
 
 Cette page décrit le nouveau plus intéressant Aspose.Words fonctionnalités introduites dans les récentes versions.
 
-## Aspose.Words pour Java 24.5
+## Aspose.Words pour Java 24.5, 24.6
+
+Aspose.Words 24.5 étend les options pour les assemblages, améliore les capacités de rendu et étend d'autres options.
+
+Aspose.Words 24.6 améliore les options de rendu, améliore les fonctionnalités de recherche et de comparaison et étend plusieurs autres fonctionnalités.
 
 ### Rendu et impression
 
@@ -22,15 +26,31 @@ Cette page décrit le nouveau plus intéressant Aspose.Words fonctionnalités in
 - La fonctionnalité permettant de manipuler l'effet SoftEdge des formes a été implémentée en ajoutant la classe [SoftEdgeFormat](https://reference.aspose.com/words/java/com.aspose.words/softedgeformat/).
 - La possibilité de modifier les valeurs d'ajustement des formes a été implémentée en ajoutant [AdjustmentCollection](https://reference.aspose.com/words/java/com.aspose.words/adjustmentcollection/) et [Adjustment](https:/ /reference.aspose.com/words/java/com.aspose.words/adjustment/) classes publiques et [Ajustements](https://reference.aspose.com/words/java/com.aspose.words/shape/# getAdjustments).
 
-#### Autre
+#### Modifications des graphiques, des formes et des dessins <sup>24.6</sup>
 
-- La fonction permettant d'éliminer les pages vides d'un document a été implémentée en ajoutant la méthode [RemoveBlankPages](https://reference.aspose.com/words/java/com.aspose.words/document/#removeBlankPages). <sup>24,5</sup>
-- La possibilité de vérifier la présence de macros VBA sans charger de document a été fournie en ajoutant le [HasMacros](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasMacros) propriété. <sup>24,5</sup>
-- La conservation de la numérotation source lors de l'insertion d'un document à l'aide du moteur de reporting LINQ est désormais prise en charge. <sup>24,5</sup>
+* Les capacités de cartographie ont été améliorées. Vous pouvez désormais créer une plus grande variété de graphiques, notamment *Treemaps*, *Sunbursts*, *Histograms*, *Pareto*, *Box & Whisker*, *Waterfalls* et *Funnels*. Cela vous permet de visualiser vos données de manière plus diversifiée et informative.
+* Le contrôle des couleurs pour le formatage des ombres a été amélioré. Vous pouvez obtenir un contrôle plus précis sur l'apparence de vos documents en accédant aux couleurs des ombres.
+* L'amélioration des performances pour le rendu en arrière-plan a été améliorée. Vous pouvez accélérer considérablement le rendu des arrière-plans contenant de petits éléments grâce à la technologie de carrelage native.
+* Des dégradés réalistes pour les formes ont été ajoutés. Vous pouvez désormais créer des formes DML avec des dégradés non linéaires, imitant le style visuel de Microsoft Word pour un aspect plus soigné.
+
+### Rechercher et comparer
+
+#### Options de comparaison avancées <sup>24.6</sup>
+La possibilité de rationaliser les flux de travail d'analyse des données avec une fonctionnalité de comparaison améliorée a été ajoutée. Cela inclut une nouvelle option [IgnoreStoreItemId](https://reference.aspose.com/words/java/com.aspose.words/advancedcompareoptions/#getIgnoreStoreItemId) et une interface repensée pour les comparaisons avancées.
+
+### Autre
+
+* La fonction permettant d'éliminer les pages vides d'un document a été implémentée en ajoutant la méthode [RemoveBlankPages](https://reference.aspose.com/words/java/com.aspose.words/document/#removeBlankPages). <sup>24,5</sup>
+* La possibilité de vérifier la présence de macros VBA sans charger de document a été fournie en ajoutant le [HasMacros](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasMacros) propriété. <sup>24,5</sup>
+* La conservation de la numérotation source lors de l'insertion d'un document à l'aide du moteur de reporting LINQ est désormais prise en charge. <sup>24,5</sup>
+* Une nouvelle propriété [DateTimeUtc](https://reference.aspose.com/words/java/com.aspose.words/comment/#getDateTimeUtc) a été ajoutée – elle fournit un horodatage plus précis pour les commentaires, améliorant ainsi l'organisation et la traçabilité. <sup>24.6</sup>
+* Le moteur de reporting LINQ a été amélioré. La suppression sélective des paragraphes vides et la définition de messages personnalisés pour les membres d'objet manquants ont été effectuées, conduisant à des rapports plus propres et plus informatifs. <sup>24.6</sup>
 
 {{% alert color="primary" %}}
 
 En savoir plus sur les [Notes de version d'Aspose.Words pour Java 24.5](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-5-release-notes/ ).
+
+En savoir plus sur les [Notes de version d'Aspose.Words pour Java 24.6](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-6-release-notes/ ).
 
 {{% /alert %}}
 

@@ -11,7 +11,11 @@ url: /th/net/what-s-new-in-aspose-words-for-net/
 
 หน้านี้อธิบายคุณสมบัติ Aspose.Words ใหม่ที่น่าสนใจที่สุดที่เปิดตัวในรุ่นล่าสุด
 
-## Aspose.Words สำหรับ .NET 24.5
+## Aspose.Words สำหรับ .NET 24.5, 24.6
+
+Aspose.Words 24.5 ขยายตัวเลือกสำหรับแอสเซมบลี ปรับปรุงความสามารถในการเรนเดอร์ และขยายตัวเลือกอื่นๆ
+
+Aspose.Words 24.6 ปรับปรุงตัวเลือกการเรนเดอร์ ปรับปรุงการค้นหาและเปรียบเทียบฟังก์ชันการทำงาน และขยายคุณสมบัติอื่นๆ หลายประการ
 
 ### แพลตฟอร์ม
 
@@ -26,15 +30,31 @@ url: /th/net/what-s-new-in-aspose-words-for-net/
 * มีการนำฟังก์ชันการทำงานเพื่อจัดการเอฟเฟกต์ SoftEdge ของรูปร่างมาใช้โดยการเพิ่มคลาส [SoftEdgeFormat](https://reference.aspose.com/words/net/aspose.words.drawing/softedgeformat/)
 * ความสามารถในการแก้ไขการปรับค่าของรูปร่างได้ถูกนำมาใช้โดยการเพิ่ม [AdjustmentCollection](https://reference.aspose.com/words/net/aspose.words.drawing/adjustmentcollection/) และ [Adjustment](https://reference.aspose.com/words/net/aspose.words.drawing/adjustment/) คลาสสาธารณะและ [Adjustments](https://reference.aspose.com/words/net/aspose.words.drawing/shape/adjustments/) คุณสมบัติ.
 
-#### อื่น
+#### การเปลี่ยนแปลงในแผนภูมิ รูปร่าง และรูปวาด <sup>24.6</sup>
+
+* ความสามารถในการสร้างแผนภูมิได้รับการปรับปรุงแล้ว ตอนนี้คุณสามารถสร้างแผนภูมิได้หลากหลายมากขึ้น รวมถึงแผนภูมิ *ทรีแมป*, *ซันเบิร์สต์*, *ฮิสโตแกรม*, แผนภูมิ *พาเรโต*, แผนภูมิ *กล่องและหนวด*, *น้ำตก* และ *ช่องทาง* สิ่งนี้ช่วยให้คุณเห็นภาพข้อมูลของคุณในรูปแบบที่หลากหลายและให้ข้อมูลมากขึ้น
+* ปรับปรุงการควบคุมสีสำหรับการจัดรูปแบบเงาแล้ว คุณสามารถควบคุมลักษณะที่ปรากฏของเอกสารของคุณได้แม่นยำยิ่งขึ้นโดยการเข้าถึงสีเงา
+* การเพิ่มประสิทธิภาพสำหรับการเรนเดอร์พื้นหลังได้รับการปรับปรุงแล้ว คุณสามารถเพิ่มความเร็วในการเรนเดอร์พื้นหลังที่มีองค์ประกอบขนาดเล็กได้อย่างมาก ด้วยเทคโนโลยีการปูกระเบื้องแบบเนทิฟ
+* เพิ่มการไล่ระดับสีที่สมจริงสำหรับรูปร่างแล้ว ตอนนี้คุณสามารถสร้างรูปร่าง DML ที่มีการไล่ระดับสีแบบไม่เชิงเส้นได้ โดยเลียนแบบสไตล์ภาพของ Microsoft Word เพื่อให้ดูสวยงามยิ่งขึ้น
+
+### ค้นหาและเปรียบเทียบ
+
+#### ตัวเลือกการเปรียบเทียบขั้นสูง <sup>24.6</sup>
+เพิ่มความสามารถในการปรับปรุงเวิร์กโฟลว์การวิเคราะห์ข้อมูลด้วยฟังก์ชันการเปรียบเทียบที่ได้รับการปรับปรุงแล้ว ซึ่งรวมถึงตัวเลือก [IgnoreStoreItemId](https://reference.aspose.com/words/net/aspose.words.comparing/advancedcompareoptions/ignorestoreitemid/) ใหม่ และอินเทอร์เฟซที่ออกแบบใหม่สำหรับการเปรียบเทียบขั้นสูง
+
+### อื่น
 
 * ฟังก์ชั่นกำจัดหน้าว่างออกจากเอกสารได้ถูกนำมาใช้โดยการเพิ่มเมธอด [RemoveBlankPages](https://reference.aspose.com/words/net/aspose.words/document/removeblankpages/) <sup>24.5</sup>
 * ความสามารถในการตรวจสอบการมีอยู่ของมาโคร VBA โดยไม่ต้องโหลดเอกสารนั้นมีให้โดยการเพิ่มคุณสมบัติ [HasMacros](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/hasmacros/) <sup>24.5</sup>
 * ขณะนี้รองรับการรักษาหมายเลขแหล่งที่มาในขณะที่แทรกเอกสารโดยใช้ LINQ Reporting Engine แล้ว <sup>24.5</sup>
+* มีการเพิ่มคุณสมบัติ [DateTimeUtc](https://reference.aspose.com/words/net/aspose.words/comment/datetimeutc/) ใหม่ ซึ่งให้การประทับเวลาที่แม่นยำยิ่งขึ้นสำหรับความคิดเห็น ปรับปรุงการจัดระเบียบและการตรวจสอบย้อนกลับ <sup>24.6</sup>
+* เครื่องมือการรายงาน LINQ ได้รับการปรับปรุงแล้ว มีการลบย่อหน้าว่างและคำจำกัดความของข้อความแบบกำหนดเองสำหรับสมาชิกของออบเจ็กต์ที่ขาดหายไป ซึ่งนำไปสู่รายงานที่สะอาดตาและให้ข้อมูลมากขึ้น <sup>24.6</sup>
 
 {{% alert color="primary" %}}
 
 เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.Words สำหรับบันทึกประจำรุ่น .NET 24.5](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-5-release-notes/)
+
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.Words สำหรับบันทึกประจำรุ่น .NET 24.6](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-6-release-notes/)
 
 {{% /alert %}}
 

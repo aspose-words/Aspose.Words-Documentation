@@ -11,7 +11,11 @@ url: /de/java/what-s-new-in-aspose-words-for-java/
 
 Diese Seite beschreibt das interessanteste Neues Aspose.Words Funktionen, die in den letzten Versionen eingeführt wurden.
 
-## Aspose.Words für Java 24.5
+## Aspose.Words für Java 24.5, 24.6
+
+Aspose.Words 24.5 erweitert die Optionen für Baugruppen, verbessert die Rendering-Funktionen und erweitert einige andere Optionen.
+
+Aspose.Words 24.6 verbessert die Rendering-Optionen, verbessert die Such- und Vergleichsfunktion und erweitert mehrere andere Funktionen.
 
 ### Rendering und Drucken
 
@@ -20,18 +24,33 @@ Diese Seite beschreibt das interessanteste Neues Aspose.Words Funktionen, die in
 - DrawingML-Effekt-Rendering für SVG-Grafiken wurde implementiert und erweitert die bisherige, auf Bilder beschränkte Funktionalität.
 - Unterstützung für das Erstellen von Kombinationsdiagrammen und das Anpassen von Eigenschaften wie Lückenbreite, Überlappung und Blasenskala innerhalb von Seriengruppen wurde durch Hinzufügen der Klassen [ChartSeriesGroup](https://reference.aspose.com/words/java/com.aspose.words/chartseriesgroup/) und [ChartSeriesGroupCollection](https://reference.aspose.com/words/java/com.aspose.words/chartseriesgroupcollection/) und der Eigenschaft [SeriesGroups](https://reference.aspose.com/words/java/com.aspose.words/chart/#getSeriesGroups) eingeführt.
 - Die Funktionalität zum Manipulieren des SoftEdge-Effekts von Formen wurde durch Hinzufügen der Klasse [SoftEdgeFormat](https://reference.aspose.com/words/java/com.aspose.words/softedgeformat/) implementiert.
-
 - Die Möglichkeit zum Ändern der Anpassungswerte von Formen wurde durch Hinzufügen der öffentlichen Klassen [AdjustmentCollection](https://reference.aspose.com/words/java/com.aspose.words/adjustmentcollection/) und [Adjustment](https://reference.aspose.com/words/java/com.aspose.words/adjustment/) und der Eigenschaft [Adjustments](https://reference.aspose.com/words/java/com.aspose.words/shape/#getAdjustments) implementiert.
 
-#### Sonstiges
+#### Änderungen bei Diagrammen, Formen und Zeichnungen <sup>24.6</sup>
+
+* Die Diagrammfunktionen wurden verbessert. Sie können jetzt eine größere Vielfalt an Diagrammen erstellen, darunter *Treemaps*, *Sunbursts*, *Histogramme*, *Pareto*-Diagramme, *Box & Whisker*-Diagramme, *Wasserfälle* und *Trichter*. Dadurch können Sie Ihre Daten vielfältiger und informativer visualisieren.
+* Die Farbsteuerung für die Schattenformatierung wurde verbessert. Sie können das Erscheinungsbild Ihrer Dokumente genauer steuern, indem Sie auf Schattenfarben zugreifen.
+* Die Leistungssteigerung für das Hintergrund-Rendering wurde verbessert. Dank der nativen Kacheltechnologie können Sie das Rendern von Hintergründen mit kleinen Elementen erheblich beschleunigen.
+* Es wurden realistische Farbverläufe für Formen hinzugefügt. Sie können jetzt DML-Formen mit nichtlinearen Farbverläufen erstellen, die den visuellen Stil von Microsoft Word nachahmen und so ein eleganteres Erscheinungsbild erzielen.
+
+### Suchen und Vergleichen
+
+#### Erweiterte Vergleichsoptionen <sup>24.6</sup>
+Die Möglichkeit, Datenanalyse-Workflows mit verbesserten Vergleichsfunktionen zu optimieren, wurde hinzugefügt. Dazu gehören eine neue Option [IgnoreStoreItemId](https://reference.aspose.com/words/java/com.aspose.words/advancedcompareoptions/#getIgnoreStoreItemId) und eine neu gestaltete Benutzeroberfläche für erweiterte Vergleiche.
+
+### Sonstiges
 
 - Die Funktion zum Entfernen leerer Seiten aus einem Dokument wurde durch Hinzufügen der Methode [RemoveBlankPages](https://reference.aspose.com/words/java/com.aspose.words/document/#removeBlankPages) implementiert. <sup>24.5</sup>
 - Die Möglichkeit, das Vorhandensein von VBA-Makros zu prüfen, ohne ein Dokument zu laden, wurde durch Hinzufügen der Eigenschaft [HasMacros](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasMacros) bereitgestellt. <sup>24.5</sup>
 - Das Beibehalten der Quellnummerierung beim Einfügen eines Dokuments mithilfe der LINQ Reporting Engine wird jetzt unterstützt. <sup>24.5</sup>
+* Eine neue Eigenschaft [DateTimeUtc](https://reference.aspose.com/words/java/com.aspose.words/comment/#getDateTimeUtc) wurde hinzugefügt – diese bietet einen genaueren Zeitstempel für Kommentare und verbessert die Organisation und Nachverfolgbarkeit. <sup>24.6</sup>
+* Die LINQ Reporting Engine wurde verbessert. Es wurden selektiv leere Absätze entfernt und benutzerdefinierte Nachrichten für fehlende Objektmitglieder definiert, was zu übersichtlicheren und informativeren Berichten führt. <sup>24.6</sup>
 
 {{% alert color="primary" %}}
 
 Erfahren Sie mehr über [Versionshinweise zu Aspose.Words für Java 24.5](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-5-release-notes/).
+
+Erfahren Sie mehr über [Versionshinweise zu Aspose.Words für Java 24.6](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-6-release-notes/).
 
 {{% /alert %}}
 

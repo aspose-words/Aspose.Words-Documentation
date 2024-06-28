@@ -11,7 +11,11 @@ url: /id/java/what-s-new-in-aspose-words-for-java/
 
 Halaman ini menjelaskan yang paling menarik Aspose.Words fitur yang diperkenalkan dalam rilis terbaru.
 
-## Aspose.Words untuk Java 24.5
+## Aspose.Words untuk Java 24.5, 24.6
+
+Aspose.Words 24.5 memperluas opsi untuk rakitan, meningkatkan kemampuan rendering, dan memperluas beberapa opsi lainnya.
+
+Aspose.Words 24.6 meningkatkan opsi rendering, meningkatkan fungsionalitas pencarian dan perbandingan, dan memperluas beberapa fitur lainnya.
 
 ### Rendering dan Pencetakan
 
@@ -22,15 +26,31 @@ Halaman ini menjelaskan yang paling menarik Aspose.Words fitur yang diperkenalka
 - Fungsionalitas untuk memanipulasi efek SoftEdge bentuk telah diimplementasikan dengan menambahkan kelas [SoftEdgeFormat](https://reference.aspose.com/words/java/com.aspose.words/softedgeformat/).
 - Kemampuan untuk mengubah nilai penyesuaian bentuk telah diterapkan dengan menambahkan [AdjustmentCollection](https://reference.aspose.com/words/java/com.aspose.words/adjustmentcollection/) dan [Adjustment](https:/ /reference.aspose.com/words/java/com.aspose.words/adjustment/) kelas umum dan [Adjustments](https://reference.aspose.com/words/java/com.aspose.words/shape/# getAdjustments) properti.
 
-#### Lainnya
+#### Perubahan Bagan, Bentuk, dan Gambar <sup>24.6</sup>
 
-- Fungsi untuk menghilangkan halaman kosong dari dokumen telah diterapkan dengan menambahkan metode [RemoveBlankPages](https://reference.aspose.com/words/java/com.aspose.words/document/#removeBlankPages). <sup>24,5</sup>
-- Kemampuan untuk memeriksa keberadaan makro VBA tanpa memuat dokumen telah disediakan dengan menambahkan [HasMacros](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasMacros) Properti. <sup>24,5</sup>
-- Menyimpan penomoran sumber saat memasukkan dokumen menggunakan Mesin Pelaporan LINQ kini didukung. <sup>24,5</sup>
+* Kemampuan pembuatan grafik telah ditingkatkan. Kini Anda dapat membuat lebih banyak variasi bagan, termasuk *Peta Pohon*, *Sunburst*, *Histogram*, bagan *Pareto*, bagan *Kotak & Kumis*, *Air Terjun*, dan *Corong*. Hal ini memungkinkan Anda memvisualisasikan data dengan cara yang lebih beragam dan informatif.
+* Kontrol warna untuk pemformatan bayangan telah ditingkatkan. Anda bisa mendapatkan kontrol yang lebih tepat atas tampilan dokumen Anda dengan mengakses warna bayangan.
+* Peningkatan kinerja untuk rendering latar belakang telah ditingkatkan. Anda dapat mempercepat rendering latar belakang yang berisi elemen kecil secara signifikan berkat teknologi ubin asli.
+* Gradien realistis untuk bentuk telah ditambahkan. Anda sekarang dapat membuat bentuk DML dengan gradien non-linier, meniru gaya visual Microsoft Word untuk tampilan yang lebih halus.
+
+### Cari dan Bandingkan
+
+#### Opsi Perbandingan Lanjutan <sup>24.6</sup>
+Kemampuan untuk menyederhanakan alur kerja analisis data dengan fungsionalitas perbandingan yang ditingkatkan telah ditambahkan. Ini mencakup opsi [IgnoreStoreItemId](https://reference.aspose.com/words/java/com.aspose.words/advancedcompareoptions/#getIgnoreStoreItemId) baru dan antarmuka yang didesain ulang untuk perbandingan lanjutan.
+
+### Lainnya
+
+* Fungsi untuk menghilangkan halaman kosong dari dokumen telah diterapkan dengan menambahkan metode [RemoveBlankPages](https://reference.aspose.com/words/java/com.aspose.words/document/#removeBlankPages). <sup>24.5</sup>
+* Kemampuan untuk memeriksa keberadaan makro VBA tanpa memuat dokumen telah disediakan dengan menambahkan [HasMacros](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasMacros) Properti. <sup>24.5</sup>
+* Menyimpan penomoran sumber saat memasukkan dokumen menggunakan Mesin Pelaporan LINQ kini didukung. <sup>24.5</sup>
+* Properti [DateTimeUtc](https://reference.aspose.com/words/java/com.aspose.words/comment/#getDateTimeUtc) baru telah ditambahkan – ini memberikan stempel waktu yang lebih tepat untuk komentar, meningkatkan pengorganisasian, dan ketertelusuran. <sup>24.6</sup>
+* Mesin Pelaporan LINQ telah ditingkatkan. Penghapusan selektif paragraf kosong dan definisi pesan khusus untuk anggota objek yang hilang telah dilakukan, menghasilkan laporan yang lebih bersih dan informatif. <sup>24.6</sup>
 
 {{% alert color="primary" %}}
 
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Java 24.5](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-5-release-notes/ ).
+Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Java 24.5](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-5-release-notes/).
+
+Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Java 24.6](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-6-release-notes/).
 
 {{% /alert %}}
 

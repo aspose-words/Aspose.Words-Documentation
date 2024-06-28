@@ -11,7 +11,11 @@ url: /de/net/what-s-new-in-aspose-words-for-net/
 
 Auf dieser Seite werden die interessantesten neuen Aspose.Words-Funktionen beschrieben, die in den letzten Versionen eingeführt wurden.
 
-## Aspose.Words für .NET 24.5
+## Aspose.Words für .NET 24.5, 24.6
+
+Aspose.Words 24.5 erweitert die Optionen für Baugruppen, verbessert die Rendering-Funktionen und erweitert einige andere Optionen.
+
+Aspose.Words 24.6 verbessert die Rendering-Optionen, verbessert die Such- und Vergleichsfunktion und erweitert mehrere andere Funktionen.
 
 ### Plattformen
 
@@ -26,15 +30,31 @@ Auf dieser Seite werden die interessantesten neuen Aspose.Words-Funktionen besch
 * Die Funktionalität zur Manipulation des SoftEdge-Effekts von Formen wurde durch Hinzufügen der Klasse [SoftEdgeFormat](https://reference.aspose.com/words/net/aspose.words.drawing/softedgeformat/) implementiert.
 * Die Möglichkeit, Anpassungswerte von Formen zu ändern, wurde durch Hinzufügen von [AdjustmentCollection](https://reference.aspose.com/words/net/aspose.words.drawing/adjustmentcollection/) und [Adjustment](https://reference.aspose.com/words/net/aspose.words.drawing/adjustment/) öffentliche Klassen und [Adjustments](https://reference.aspose.com/words/net/aspose.words.drawing/shape/adjustments/) Eigentum.
 
-#### Andere
+#### Änderungen bei Diagrammen, Formen und Zeichnungen <sup>24.6</sup>
+
+* Die Diagrammfunktionen wurden verbessert. Sie können jetzt eine größere Vielfalt an Diagrammen erstellen, darunter *Treemaps*, *Sunbursts*, *Histogramme*, *Pareto*-Diagramme, *Box & Whisker*-Diagramme, *Wasserfälle* und *Trichter*. Dadurch können Sie Ihre Daten vielfältiger und informativer visualisieren.
+* Die Farbsteuerung für die Schattenformatierung wurde verbessert. Sie können das Erscheinungsbild Ihrer Dokumente genauer steuern, indem Sie auf Schattenfarben zugreifen.
+* Die Leistungssteigerung für das Hintergrund-Rendering wurde verbessert. Dank der nativen Kacheltechnologie können Sie das Rendern von Hintergründen mit kleinen Elementen erheblich beschleunigen.
+* Es wurden realistische Farbverläufe für Formen hinzugefügt. Sie können jetzt DML-Formen mit nichtlinearen Farbverläufen erstellen, die den visuellen Stil von Microsoft Word nachahmen und so ein eleganteres Erscheinungsbild erzielen.
+
+### Suchen und Vergleichen
+
+#### Erweiterte Vergleichsoptionen <sup>24.6</sup>
+Die Möglichkeit, Datenanalyse-Workflows mit verbesserten Vergleichsfunktionen zu optimieren, wurde hinzugefügt. Dazu gehören eine neue Option [IgnoreStoreItemId](https://reference.aspose.com/words/net/aspose.words.comparing/advancedcompareoptions/ignorestoreitemid/) und eine neu gestaltete Benutzeroberfläche für erweiterte Vergleiche.
+
+### Andere
 
 * Die Funktion zum Entfernen leerer Seiten aus einem Dokument wurde durch Hinzufügen der Methode [RemoveBlankPages](https://reference.aspose.com/words/net/aspose.words/document/removeblankpages/) implementiert. <sup>24.5</sup>
 * Die Möglichkeit, das Vorhandensein von VBA-Makros zu überprüfen, ohne ein Dokument zu laden, wurde durch Hinzufügen der Eigenschaft [HasMacros](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/hasmacros/) bereitgestellt. <sup>24.5</sup>
 * Das Beibehalten der Quellennummerierung beim Einfügen eines Dokuments mit der LINQ Reporting Engine wird jetzt unterstützt. <sup>24.5</sup>
+* Eine neue Eigenschaft [DateTimeUtc](https://reference.aspose.com/words/net/aspose.words/comment/datetimeutc/) wurde hinzugefügt – diese bietet einen genaueren Zeitstempel für Kommentare und verbessert die Organisation und Nachverfolgbarkeit. <sup>24.6</sup>
+* Die LINQ Reporting Engine wurde verbessert. Es wurden selektiv leere Absätze entfernt und benutzerdefinierte Nachrichten für fehlende Objektmitglieder definiert, was zu übersichtlicheren und informativeren Berichten führt. <sup>24.6</sup>
 
 {{% alert color="primary" %}}
 
 Erfahren Sie mehr über [Versionshinweise zu Aspose.Words für .NET 24.5](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-5-release-notes/).
+
+Erfahren Sie mehr über [Versionshinweise zu Aspose.Words für .NET 24.6](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-6-release-notes/).
 
 {{% /alert %}}
 

@@ -11,7 +11,11 @@ url: /zh/net/what-s-new-in-aspose-words-for-net/
 
 本页描述了最近版本中引入的最有趣的新 Aspose.Words 功能。
 
-## Aspose.Words for .NET 24.5
+## Aspose.Words for .NET 24.5, 24.6
+
+Aspose.Words 24.5 扩展了组件选项，改进了渲染功能，并扩展了一些其他选项。
+
+Aspose.Words 24.6 改进了渲染选项，增强了搜索和比较功能，并扩展了其他几个功能。
 
 ### 平台
 
@@ -26,15 +30,31 @@ url: /zh/net/what-s-new-in-aspose-words-for-net/
 * 通过添加 [SoftEdgeFormat](https://reference.aspose.com/words/net/aspose.words.drawing/softedgeformat/) 类，实现了操作形状 SoftEdge 效果的功能。
 * 通过添加 [AdjustmentCollection](https://reference.aspose.com/words/net/aspose.words.drawing/adjustmentcollection/) 和 [Adjustment](https://reference.aspose.com/words/net/aspose.words.drawing/adjustment/) 公共类和 [Adjustments](https://reference.aspose.com/words/net/aspose.words.drawing/shape/adjustments/) 财产。
 
-#### 其他
+#### Charts、Shapes 和 DrawingML 的变化 <sup>24.6</sup>
+
+* 图表功能已得到增强。您现在可以创建更多种类的图表，包括 *Treemaps*、*Sunbursts*、*Histograms*、*Pareto* charts、*Box & Whisker* charts、*Waterfalls* 和 *Funnels*。这使您能够以更加多样化和信息丰富的方式可视化数据。
+* 阴影格式的颜色控制已得到改进。您可以通过访问阴影颜色来更精确地控制文档的外观。
+* 后台渲染的性能提升已得到改进。借助原生平铺技术，您可以显著加快包含小元素的背景渲染速度。
+* 添加了形状的逼真渐变。现在，您可以创建具有非线性渐变的 DML 形状，模仿 Microsoft Word 的视觉风格，以获得更精致的外观。
+
+### 搜索和比较
+
+#### 高级比较选项 <sup>24.6</sup>
+添加了通过改进的比较功能简化数据分析工作流程的功能。这包括一个新的 [IgnoreStoreItemId](https://reference.aspose.com/words/net/aspose.words.comparing/advancedcompareoptions/ignorestoreitemid/) 选项和重新设计的高级比较界面。
+
+### 其他
 
 * 通过添加[RemoveBlankPages](https://reference.aspose.com/words/net/aspose.words/document/removeblankpages/)方法实现了删除文档中的空白页的功能。 <sup>24.5</sup>
 * 通过添加 [HasMacros](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/hasmacros/) 属性，可以在不加载文档的情况下检查 VBA 宏是否存在。 <sup>24.5</sup>
 * 现在支持使用 LINQ 报告引擎插入文档时保留源编号。 <sup>24.5</sup>
+* 添加了一个新的 [DateTimeUtc](https://reference.aspose.com/words/net/aspose.words/comment/datetimeutc/) 属性 - 这为评论提供了更精确的时间戳，从而提高了组织性和可追溯性。 <sup>24.6</sup>
+* LINQ 报告引擎已得到改进。选择性删除了空段落，并为缺失的对象成员定义了自定义消息，从而生成了更清晰、更具信息量的报告。<sup>24.6</sup>
 
 {{% alert color="primary" %}}
 
 了解有关 [Aspose.Words for .NET 24.5 发行说明](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-5-release-notes/) 的更多信息。
+
+了解有关 [Aspose.Words for .NET 24.6 发行说明](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-6-release-notes/) 的更多信息。
 
 {{% /alert %}}
 

@@ -11,7 +11,11 @@ url: /ru/java/what-s-new-in-aspose-words-for-java/
 
 На этой странице описаны самые интересные новые Aspose.Words Особенности, представленные в последних выпусках.
 
-## Aspose.Words для Java 24.5
+## Aspose.Words для Java 24.5, 24,6
+
+Aspose.Words 24.5 расширяет возможности сборок, улучшает возможности рендеринга и расширяет некоторые другие возможности.
+
+В Aspose.Words 24.6 улучшены параметры рендеринга, улучшены функции поиска и сравнения, а также расширено несколько других функций.
 
 ### Рендеринг и печать
 
@@ -22,15 +26,31 @@ url: /ru/java/what-s-new-in-aspose-words-for-java/
 - Функциональность для управления эффектом SoftEdge фигур реализована путем добавления класса [SoftEdgeFormat](https://reference.aspose.com/words/java/com.aspose.words/softedgeformat/).
 - Возможность изменять значения настройки фигур реализована путем добавления [AdjustmentCollection](https://reference.aspose.com/words/java/com.aspose.words/adjustmentcollection/) и [Adjustment](https:/ /reference.aspose.com/words/java/com.aspose.words/adjustment/) общедоступные классы и [Adjustments](https://reference.aspose.com/words/java/com.aspose.words/shape/# getAdjustments) свойство.
 
-#### Другой
+#### Изменения в диаграммах, фигурах и рисунках <sup>24.6</sup>
 
-- Реализована функция удаления пустых страниц из документа путем добавления метода [RemoveBlankPages](https://reference.aspose.com/words/java/com.aspose.words/document/#removeBlankPages). <sup>24,5</sup>
-- Возможность проверки наличия макросов VBA без загрузки документа предоставлена добавлением [HasMacros](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasMacros) свойство. <sup>24,5</sup>
-- Теперь поддерживается сохранение нумерации источников при вставке документа с помощью механизма отчетов LINQ. <sup>24,5</sup>
+* Возможности построения диаграмм были расширены. Теперь вы можете создавать более широкий спектр диаграмм, включая *Древовидные диаграммы*, *Солнечные лучи*, *Гистограммы*, *Диаграммы Парето*, *Ящики с усами*, *Водопады* и *Воронки*. Это позволяет визуализировать данные более разнообразно и информативно.
+* Улучшено управление цветом для форматирования теней. Вы можете получить более точный контроль над внешним видом ваших документов, получив доступ к теневым цветам.
+* Улучшено повышение производительности фонового рендеринга. Вы можете значительно ускорить рендеринг фонов, содержащих мелкие элементы, благодаря встроенной технологии тайлинга.
+* Добавлены реалистичные градиенты для фигур. Теперь вы можете создавать фигуры DML с нелинейными градиентами, имитируя визуальный стиль Microsoft Word для более изысканного вида.
+
+### Поиск и сравнение
+
+#### Расширенные параметры сравнения <sup>24.6</sup>
+Добавлена ​​возможность оптимизировать рабочие процессы анализа данных с помощью улучшенных функций сравнения. Сюда входит новая опция [IgnoreStoreItemId](https://reference.aspose.com/words/java/com.aspose.words/advancedcompareoptions/#getIgnoreStoreItemId) и переработанный интерфейс для расширенных сравнений.
+
+### Другой
+
+* Реализована функция удаления пустых страниц из документа путем добавления метода [RemoveBlankPages](https://reference.aspose.com/words/java/com.aspose.words/document/#removeBlankPages). <sup>24.5</sup>
+* Возможность проверки наличия макросов VBA без загрузки документа предоставлена добавлением [HasMacros](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasMacros) свойство. <sup>24.5</sup>
+* Теперь поддерживается сохранение нумерации источников при вставке документа с помощью механизма отчетов LINQ. <sup>24.5</sup>
+* Добавлено новое свойство [DateTimeUtc](https://reference.aspose.com/words/java/com.aspose.words/comment/#getDateTimeUtc) – оно обеспечивает более точную временную метку для комментариев, улучшая организацию и отслеживаемость. <sup>24.6</sup>
+* Механизм отчетов LINQ был улучшен. Было произведено выборочное удаление пустых абзацев и определение пользовательских сообщений для отсутствующих членов объекта, что привело к более чистым и информативным отчетам. <sup>24.6</sup>
 
 {{% alert color="primary" %}}
 
-Узнайте больше о [Примечаниях к выпуску Aspose.Words для Java 24.5](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-5-release-notes/ ).
+Узнайте больше о [Примечаниях к выпуску Aspose.Words для Java 24.5](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-5-release-notes/).
+
+Узнайте больше о [Примечаниях к выпуску Aspose.Words для Java 24.6](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-6-release-notes/).
 
 {{% /alert %}}
 

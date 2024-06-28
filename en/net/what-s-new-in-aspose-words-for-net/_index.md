@@ -13,7 +13,11 @@ This page describes the most interesting new Aspose.Words features introduced in
 
 ## Aspose.Words for .NET 24.5, 24.6
 
-### Platforms
+Aspose.Words 24.5 expands options for assemblies, improves rendering capabilities, and expands some other options.
+
+Aspose.Words 24.6 improves rendering options, enhances search and compare functionality, and expands several other features.
+
+### Platforms <sup>24.5</sup>
 
 .NET 7.0/8.0 assemblies have been included in the Aspose.Words NuGet package.
 

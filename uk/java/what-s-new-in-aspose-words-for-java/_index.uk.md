@@ -11,7 +11,11 @@ url: /uk/java/what-s-new-in-aspose-words-for-java/
 
 Ця сторінка описує найцікавіше Aspose.Words Особливості, введені в останні релізи.
 
-## Aspose.Words для Java 24.5
+## Aspose.Words для Java 24.5, 24.6
+
+Aspose.Words 24.5 розширює параметри збірок, покращує можливості візуалізації та розширює деякі інші параметри.
+
+Aspose.Words 24.6 покращує параметри візуалізації, розширює функції пошуку та порівняння та розширює кілька інших функцій.
 
 ### Візуалізація та друк
 
@@ -20,19 +24,33 @@ url: /uk/java/what-s-new-in-aspose-words-for-java/
 * Реалізовано рендеринг ефектів DrawingML для графіки SVG, що розширює попередні функції, обмежені зображеннями.
 * Додано підтримку створення комбінованих діаграм і налаштування таких властивостей, як ширина проміжків, перекриття та масштаб бульбашок у групах серій, додавши [ChartSeriesGroup](https://reference.aspose.com/words/java/com.aspose. words/chartseriesgroup/) і [ChartSeriesGroupCollection](https://reference.aspose.com/words/java/com.aspose.words/chartseriesgroupcollection/) класи та [SeriesGroups](https://reference.aspose.com/ words/java/com.aspose.words/chart/#getSeriesGroups).
 * Додано клас [SoftEdgeFormat](https://reference.aspose.com/words/java/com.aspose.words/softedgeformat/) для керування ефектом SoftEdge форм.
+* Можливість змінювати значення коригування фігур була реалізована шляхом додавання [AdjustmentCollection](https://reference.aspose.com/words/java/com.aspose.words/adjustmentcollection/) і [Adjustment](https:/ /reference.aspose.com/words/java/com.aspose.words/adjustment/) публічні класи та [Adjustments](https://reference.aspose.com/words/java/com.aspose.words/shape/# getAdjustments).
 
-- Можливість змінювати значення коригування фігур була реалізована шляхом додавання [AdjustmentCollection](https://reference.aspose.com/words/java/com.aspose.words/adjustmentcollection/) і [Adjustment](https:/ /reference.aspose.com/words/java/com.aspose.words/adjustment/) публічні класи та [Adjustments](https://reference.aspose.com/words/java/com.aspose.words/shape/# getAdjustments).
+#### Зміни в діаграмах, фігурах і малюнках <sup>24.6</sup>
 
-#### Інший
+* Розширено можливості створення діаграм. Тепер ви можете створювати більше різноманітних діаграм, зокрема *Деревоподібні карти*, *Сонячні промені*, *Гістограми*, *Діаграми Парето*, діаграми *Коробки та вуса*, *Водоспади* та *Воронки*. Це дозволяє візуалізувати ваші дані більш різноманітно та інформативно.
+* Покращено керування кольором для форматування тіні. Ви можете отримати більш точний контроль над зовнішнім виглядом ваших документів, отримавши доступ до кольорів тіні.
+* Підвищення продуктивності фонового рендерингу покращено. Ви можете значно пришвидшити рендеринг фону, що містить дрібні елементи, завдяки власній технології мозаїки.
+* Додано реалістичні градієнти для фігур. Тепер ви можете створювати форми DML із нелінійними градієнтами, імітуючи візуальний стиль Microsoft Word для більш вишуканого вигляду.
 
-* Функцію видалення порожніх сторінок із документа реалізовано шляхом додавання методу [RemoveBlankPages](https://reference.aspose.com/words/java/com.aspose.words/document/#removeBlankPages). <sup>24,5</sup>
+### Пошук і порівняння
 
-- Можливість перевіряти наявність макросів VBA без завантаження документа була надана шляхом додавання [HasMacros](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasMacros) власність. <sup>24,5</sup>
-- Тепер підтримується збереження вихідної нумерації під час вставлення документа за допомогою механізму звітування LINQ. <sup>24,5</sup>
+#### Розширені параметри порівняння <sup>24.6</sup>
+Додано можливість оптимізувати робочі процеси аналізу даних за допомогою покращеної функції порівняння. Це включає новий параметр [IgnoreStoreItemId](https://reference.aspose.com/words/java/com.aspose.words/advancedcompareoptions/#getIgnoreStoreItemId) та оновлений інтерфейс для розширених порівнянь.
+
+### Інший
+
+* Функцію видалення порожніх сторінок із документа реалізовано шляхом додавання методу [RemoveBlankPages](https://reference.aspose.com/words/java/com.aspose.words/document/#removeBlankPages). <sup>24.5</sup>
+* Можливість перевіряти наявність макросів VBA без завантаження документа була надана шляхом додавання [HasMacros](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasMacros) власність. <sup>24.5</sup>
+* Тепер підтримується збереження вихідної нумерації під час вставлення документа за допомогою механізму звітування LINQ. <sup>24.5</sup>
+* Додано нову властивість [DateTimeUtc](https://reference.aspose.com/words/java/com.aspose.words/comment/#getDateTimeUtc) – вона надає точнішу позначку часу для коментарів, покращує організацію та відстежуваність. <sup>24.6</sup>
+* Механізм звітування LINQ покращено. Зроблено вибіркове видалення порожніх абзаців і визначення користувацьких повідомлень для відсутніх членів об’єктів, що призвело до більш чітких і інформативних звітів. <sup>24.6</sup>
 
 {{% alert color="primary" %}}
 
-Дізнайтеся більше про [Примітки до випуску Aspose.Words для Java 24.5](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-5-release-notes/ ).
+Дізнайтеся більше про [Примітки до випуску Aspose.Words для Java 24.5](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-5-release-notes/).
+
+Дізнайтеся більше про [Примітки до випуску Aspose.Words для Java 24.6](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-6-release-notes/).
 
 {{% /alert %}}
 

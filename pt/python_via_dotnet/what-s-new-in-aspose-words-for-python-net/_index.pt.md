@@ -11,7 +11,11 @@ url: /pt/python-net/what-s-new-in-aspose-words-for-python-net/
 
 Esta página descreve os novos recursos Aspose.Words mais interessantes introduzidos em versões recentes.
 
-## Aspose.Words para Python via .NET 24.5
+## Aspose.Words para Python via .NET 24.5, 24,6
+
+O Aspose.Words 24.5 expande as opções para montagens, melhora as capacidades de renderização e expande algumas outras opções.
+
+O Aspose.Words 24.6 melhora as opções de renderização, melhora a funcionalidade de pesquisa e comparação e expande várias outras características.
 
 ### Renderização e impressão
 
@@ -22,15 +26,31 @@ Esta página descreve os novos recursos Aspose.Words mais interessantes introduz
 * A funcionalidade para manipular o efeito SoftEdge de formas foi implementada adicionando a classe [SoftEdgeFormat](https://reference.aspose.com/words/python-net/aspose.words.drawing/softedgeformat/).
 * A capacidade de modificar valores de ajuste de formas foi implementada adicionando **AdjustmentCollection** e **Adjustment** classes públicas e [adjustments](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/adjustments/) propriedade.
 
-#### Outro
+#### Alterações nos gráficos, formas e desenhos <sup>24.6</sup>
+
+* Os recursos de gráficos foram melhorados. Agora pode criar uma maior variedade de gráficos, incluindo *Treemaps*, *Sunbursts*, *Histogramas*, gráficos *Pareto*, gráficos *Box & Whisker*, *Waterfalls* e *Funnels*. Isto permite-lhe visualizar os seus dados de uma forma mais diversificada e informativa.
+* O controlo de cores para a formatação de sombras foi melhorado. Pode obter um controlo mais preciso sobre a aparência dos seus documentos, acedendo às cores das sombras.
+* O aumento de desempenho para renderização em segundo plano foi melhorado. Pode acelerar significativamente a renderização de fundos contendo pequenos elementos graças à tecnologia nativa de azulejos.
+* Foram adicionados gradientes realistas para formas. Agora pode criar formas DML com gradientes não lineares, imitando o estilo visual do Microsoft Word para um aspeto mais refinado.
+
+### Pesquise e compare
+
+#### Opções avançadas de comparação <sup>24,6</sup>
+Foi adicionada a capacidade de agilizar os fluxos de trabalho de análise de dados com uma funcionalidade de comparação melhorada. Isto inclui uma nova opção [ignore_store_item_id](https://reference.aspose.com/words/python-net/aspose.words.comparing/advancedcompareoptions/ignore_store_item_id/) e uma interface redesenhada para comparações avançadas.
+
+### Outro
 
 * A função para eliminar páginas vazias de um documento foi implementada adicionando o método [remove_blank_pages](https://reference.aspose.com/words/python-net/aspose.words/document/remove_blank_pages/). <sup>24.5</sup>
 * A capacidade de verificar a presença de macros VBA sem carregar um documento foi fornecida adicionando a propriedade [has_macros](https://reference.aspose.com/words/python-net/aspose.words/fileformatinfo/has_macros/). <sup>24.5</sup>
 * Agora há suporte para manter a numeração de origem ao inserir um documento usando o LINQ Reporting Engine. <sup>24.5</sup>
+* Foi adicionada uma nova propriedade [date_time_utc](https://reference.aspose.com/words/python-net/aspose.words/comment/date_time_utc/) – fornece um carimbo de data/hora mais preciso para comentários, melhorando a organização e a rastreabilidade. <sup>24.6</sup>
+* O motor de relatórios LINQ foi melhorado. Foi feita a remoção seletiva de parágrafos vazios e a definição de mensagens personalizadas para membros de objetos em falta, gerando relatórios mais limpos e informativos. <sup>24.6</sup>
 
 {{% alert color="primary" %}}
 
 Saiba mais sobre [Notas de versão do Aspose.Words para Python via .NET 24.5](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-5-release-notes/).
+
+Saiba mais sobre [Notas de versão do Aspose.Words para Python via .NET 24.6](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-6-release-notes/).
 
 {{% /alert %}}
 

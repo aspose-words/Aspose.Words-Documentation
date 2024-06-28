@@ -11,7 +11,11 @@ url: /vi/python-net/what-s-new-in-aspose-words-for-python-net/
 
 Trang này mô tả các tính năng Aspose.Words mới thú vị nhất được giới thiệu trong các bản phát hành gần đây.
 
-## Aspose.Words cho Python via .NET 24.5
+## Aspose.Words cho Python via .NET 24.5, 24.6
+
+Aspose.Words 24.5 mở rộng các tùy chọn cho các cụm, cải thiện khả năng kết xuất và mở rộng một số tùy chọn khác.
+
+Aspose.Words 24.6 cải thiện các tùy chọn hiển thị, nâng cao chức năng tìm kiếm và so sánh cũng như mở rộng một số tính năng khác.
 
 ### Hiển thị và In
 
@@ -22,15 +26,31 @@ Trang này mô tả các tính năng Aspose.Words mới thú vị nhất đượ
 * Chức năng thao tác hiệu ứng SoftEdge của các hình dạng đã được triển khai bằng cách thêm lớp [SoftEdgeFormat](https://reference.aspose.com/words/python-net/aspose.words.drawing/softedgeformat/).
 * Khả năng sửa đổi giá trị điều chỉnh của hình dạng đã được triển khai bằng cách thêm **AdjustmentCollection** và **Adjustment** các lớp công khai và [adjustments](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/adjustments/) tài sản.
 
+#### Những thay đổi về Biểu đồ, Hình dạng và Bản vẽ <sup>24.6</sup>
+
+* Khả năng biểu đồ đã được nâng cao. Giờ đây, bạn có thể tạo nhiều loại biểu đồ hơn, bao gồm *Bản đồ cây*, *Sunbursts*, *Biểu đồ*, biểu đồ *Pareto*, biểu đồ *Box & Whisker*, *Thác nước* và *Kênh*. Điều này cho phép bạn trực quan hóa dữ liệu của mình theo cách đa dạng và nhiều thông tin hơn.
+* Kiểm soát màu sắc cho định dạng bóng đã được cải thiện. Bạn có thể kiểm soát chính xác hơn hình thức của tài liệu bằng cách truy cập vào màu bóng.
+* Cải thiện hiệu suất hiển thị nền. Bạn có thể tăng tốc đáng kể việc hiển thị nền có chứa các phần tử nhỏ nhờ công nghệ ốp lát gốc.
+* Độ dốc thực tế cho hình dạng đã được thêm vào. Giờ đây, bạn có thể tạo các hình dạng DML với độ chuyển màu phi tuyến tính, bắt chước phong cách trực quan của Microsoft Word để có giao diện bóng bẩy hơn.
+
+### Tìm kiếm và so sánh
+
+#### Tùy chọn so sánh nâng cao <sup>24.6</sup>
+Khả năng hợp lý hóa quy trình phân tích dữ liệu với chức năng so sánh được cải thiện đã được thêm vào. Điều này bao gồm tùy chọn [ignore_store_item_id](https://reference.aspose.com/words/python-net/aspose.words.comparing/advancedcompareoptions/ignore_store_item_id/) mới và giao diện được thiết kế lại để so sánh nâng cao.
+
 #### Khác
 
 * Chức năng loại bỏ các trang trống khỏi tài liệu đã được triển khai bằng cách thêm phương thức [remove_blank_pages](https://reference.aspose.com/words/python-net/aspose.words/document/remove_blank_pages/). <sup>24.5</sup>
 * Khả năng kiểm tra sự hiện diện của macro VBA mà không cần tải tài liệu đã được cung cấp bằng cách thêm thuộc tính [has_macros](https://reference.aspose.com/words/python-net/aspose.words/fileformatinfo/has_macros/). <sup>24.5</sup>
 * Hiện đã hỗ trợ giữ nguyên đánh số nguồn trong khi chèn tài liệu bằng Công cụ Báo cáo LINQ. <sup>24.5</sup>
+* Thuộc tính [date_time_utc](https://reference.aspose.com/words/python-net/aspose.words/comment/date_time_utc/) mới đã được thêm vào – thuộc tính này cung cấp dấu thời gian chính xác hơn cho nhận xét, cải thiện khả năng tổ chức và truy xuất nguồn gốc. <sup>24.6</sup>
+* Công cụ báo cáo LINQ đã được cải tiến. Việc loại bỏ có chọn lọc các đoạn văn trống và định nghĩa các thông báo tùy chỉnh cho các thành phần đối tượng bị thiếu đã được thực hiện, dẫn đến các báo cáo rõ ràng hơn và nhiều thông tin hơn. <sup>24.6</sup>
 
 {{% alert color="primary" %}}
 
 Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho Python via .NET 24.5](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-5-release-notes/).
+
+Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho Python via .NET 24.6](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-6-release-notes/).
 
 {{% /alert %}}
 

@@ -11,7 +11,11 @@ url: /fa/java/what-s-new-in-aspose-words-for-java/
 
 این صفحه جالب ترین جدید را توصیف می کند Aspose.Words ویژگی های معرفی شده در نسخه های اخیر
 
-## Aspose.Words برای Java 24.5
+## Aspose.Words برای Java 24.5، 24.6
+
+Aspose.Words 24.5 گزینه‌های اسمبلی را گسترش می‌دهد، قابلیت‌های رندر را بهبود می‌بخشد و برخی گزینه‌های دیگر را گسترش می‌دهد.
+
+Aspose.Words 24.6 گزینه های رندر را بهبود می بخشد، عملکرد جستجو و مقایسه را بهبود می بخشد و چندین ویژگی دیگر را گسترش می دهد.
 
 ### رندر و چاپ
 
@@ -22,15 +26,31 @@ url: /fa/java/what-s-new-in-aspose-words-for-java/
 - قابلیت دستکاری افکت SoftEdge اشکال با افزودن کلاس [SoftEdgeFormat](https://reference.aspose.com/words/java/com.aspose.words/softedgeformat/) پیاده سازی شده است.
 - امکان تغییر مقادیر تنظیم اشکال با افزودن [AdjustmentCollection](https://reference.aspose.com/words/java/com.aspose.words/adjustmentcollection/) و [Adjustment](https://reference.aspose.com/words/java/com.aspose.words/adjustment/) کلاس های عمومی و [Adjustments](https://reference.aspose.com/words/java/com.aspose.words/shape/#getAdjustments) ویژگی.
 
-#### دیگر
+#### تغییرات در نمودارها، شکل ها و طراحی <sup>24.6</sup>
 
-- عملکرد حذف صفحات خالی از یک سند با افزودن روش [RemoveBlankPages](https://reference.aspose.com/words/java/com.aspose.words/document/#removeBlankPages) اجرا شده است. <sup>24.5</sup>
-- امکان بررسی وجود ماکروهای VBA بدون بارگیری سند با افزودن ویژگی [HasMacros](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasMacros) فراهم شده است. <sup>24.5</sup>
-- حفظ شماره گذاری منبع هنگام درج یک سند با استفاده از موتور گزارش LINQ اکنون پشتیبانی می شود. <sup>24.5</sup>
+* قابلیت های نمودار افزایش یافته است. اکنون می توانید نمودارهای متنوع تری ایجاد کنید، از جمله *Treemaps*، *Sunbursts*، *Histograms*، نمودار *Pareto*، نمودار *Box & Whisker*، *Waterfalls* و *Funnels*. این به شما امکان می دهد تا داده های خود را به روشی متنوع تر و آموزنده تر تجسم کنید.
+* کنترل رنگ برای قالب بندی سایه بهبود یافته است. با دسترسی به رنگ های سایه می توانید کنترل دقیق تری بر ظاهر اسناد خود داشته باشید.
+* افزایش عملکرد برای رندر پس زمینه بهبود یافته است. به لطف فناوری کاشی کاری بومی، می‌توانید رندر پس‌زمینه‌های حاوی عناصر کوچک را به میزان قابل توجهی افزایش دهید.
+* گرادیان های واقعی برای اشکال اضافه شده است. اکنون می‌توانید اشکال DML را با شیب‌های غیر خطی ایجاد کنید و از سبک بصری Microsoft Word تقلید کنید تا ظاهری زیباتر داشته باشید.
+
+### جستجو و مقایسه کنید
+
+#### گزینه های مقایسه پیشرفته <sup>24.6</sup>
+قابلیت ساده‌سازی گردش‌های کاری تجزیه و تحلیل داده‌ها با عملکرد مقایسه بهبودیافته اضافه شده است. این شامل یک گزینه جدید [IgnoreStoreItemId](https://reference.aspose.com/words/java/com.aspose.words/advancedcompareoptions/#getIgnoreStoreItemId) و یک رابط بازطراحی شده برای مقایسه های پیشرفته است.
+
+### دیگر
+
+* عملکرد حذف صفحات خالی از یک سند با افزودن روش [RemoveBlankPages](https://reference.aspose.com/words/java/com.aspose.words/document/#removeBlankPages) اجرا شده است. <sup>24.5</sup>
+* امکان بررسی وجود ماکروهای VBA بدون بارگیری سند با افزودن ویژگی [HasMacros](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasMacros) فراهم شده است. <sup>24.5</sup>
+* حفظ شماره گذاری منبع هنگام درج یک سند با استفاده از موتور گزارش LINQ اکنون پشتیبانی می شود. <sup>24.5</sup>
+* یک ویژگی جدید [DateTimeUtc] (https://reference.aspose.com/words/java/com.aspose.words/comment/#getDateTimeUtc) اضافه شده است - این یک مهر زمانی دقیق‌تر برای نظرات، بهبود سازماندهی و قابلیت ردیابی ارائه می‌دهد. <sup>24.6</sup>
+* موتور گزارش LINQ بهبود یافته است. حذف انتخابی پاراگراف‌های خالی و تعریف پیام‌های سفارشی برای اعضای شی از دست رفته انجام شده است که منجر به گزارش‌های تمیزتر و آموزنده‌تر می‌شود. <sup>24.6</sup>
 
 {{% alert color="primary" %}}
 
 بیشتر بدانید [Aspose.Words برای Java 24.5 انتشار یادداشت](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-5-release-notes/)
+
+بیشتر بدانید [Aspose.Words برای Java 24.6 انتشار یادداشت](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-6-release-notes/)
 
 {{% /alert %}}
 

@@ -11,7 +11,11 @@ url: /he/python-net/what-s-new-in-aspose-words-for-python-net/
 
 דף זה מתאר את החדש המעניין ביותר Aspose.Words תכונות שהוצגו במהדורות האחרונות.
 
-## Aspose.Words עבור Python via .NET 24.5
+## Aspose.Words עבור Python via .NET 24.5, 24.6
+
+Aspose.Words 24.5 מרחיב אפשרויות למכלולים, משפר את יכולות העיבוד ומרחיב כמה אפשרויות אחרות.
+
+Aspose.Words 24.6 משפר את אפשרויות העיבוד, משפר את פונקציונליות החיפוש וההשוואה ומרחיב מספר תכונות אחרות.
 
 ### עיבוד והדפסה
 
@@ -22,15 +26,31 @@ url: /he/python-net/what-s-new-in-aspose-words-for-python-net/
 * פונקציונליות לתמרן אפקט SoftEdge של צורות יושמה על ידי הוספת המחלקה [SoftEdgeFormat](https://reference.aspose.com/words/python-net/aspose.words.drawing/softedgeformat/).
 * היכולת לשנות ערכי התאמה של צורות יושמה על ידי הוספת **AdjustmentCollection** ו-**Adjustment** שיעורים ציבוריים ו-[adjustments](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/adjustments/) תכונה.
 
-#### אחר
+#### שינויים בתרשימים, בצורות ובציור <sup>24.6</sup>
+
+* יכולות התרשימים שופרו. כעת תוכל ליצור מגוון רחב יותר של תרשימים, כולל *מפות עצים*, *פרצי שמש*, *היסטוגרמות*, תרשימי *פארטו*, תרשימי *קופסה ושפם*, *מפלי מים* ו-*משפכים*. זה מאפשר לך לדמיין את הנתונים שלך בצורה מגוונת ואינפורמטיבית יותר.
+* בקרת הצבע עבור עיצוב הצללים שופרה. אתה יכול לקבל שליטה מדויקת יותר על מראה המסמכים שלך על ידי גישה לצבעי צל.
+* שיפור הביצועים לעיבוד רקע שופר. אתה יכול להאיץ משמעותית את העיבוד של רקעים המכילים אלמנטים קטנים הודות לטכנולוגיית ריצוף מקורית.
+* נוספו שיפועים מציאותיים לצורות. כעת תוכל ליצור צורות DML עם מעברי צבע לא ליניאריים, המחקה את הסגנון החזותי של Microsoft Word למראה מלוטש יותר.
+
+### חפש והשווה
+
+#### אפשרויות השוואה מתקדמות <sup>24.6</sup>
+נוספה היכולת לייעל את זרימות העבודה של ניתוח נתונים עם פונקציונליות משופרת של השוואה. זה כולל אפשרות חדשה [ignore_store_item_id](https://reference.aspose.com/words/python-net/aspose.words.comparing/advancedcompareoptions/ignore_store_item_id/) וממשק שעוצב מחדש להשוואות מתקדמות.
+
+### אחר
 
 * הפונקציה להעלמת דפים ריקים ממסמך יושמה על ידי הוספת השיטה [remove_blank_pages](https://reference.aspose.com/words/python-net/aspose.words/document/remove_blank_pages/). <sup>24.5</sup>
 * היכולת לבדוק נוכחות של פקודות מאקרו VBA מבלי לטעון מסמך ניתנה על ידי הוספת המאפיין [has_macros](https://reference.aspose.com/words/python-net/aspose.words/fileformatinfo/has_macros/). <sup>24.5</sup>
 * שמירה על מספור המקור בזמן הכנסת מסמך באמצעות מנוע הדיווח LINQ נתמך כעת. <sup>24.5</sup>
+* מאפיין חדש [date_time_utc](https://reference.aspose.com/words/python-net/aspose.words/comment/date_time_utc/) נוסף - זה מספק חותמת זמן מדויקת יותר להערות, שיפור הארגון והמעקב. <sup>24.6</sup>
+* מנוע הדיווח LINQ שופר. בוצעו הסרה סלקטיבית של פסקאות ריקות והגדרה של הודעות מותאמות אישית עבור חברי אובייקט חסרים, מה שהוביל לדוחות נקיים ואינפורמטיביים יותר. <sup>24.6</sup>
 
 {{% alert color="primary" %}}
 
 למד עוד על [Aspose.Words עבור Python via .NET 24.5 הודעות](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-5-release-notes/).
+
+למד עוד על [Aspose.Words עבור Python via .NET 24.6 הודעות](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-6-release-notes/).
 
 {{% /alert %}}
 
