@@ -52,9 +52,8 @@ Aspose.Words از اکثر فرمت های سند محبوب مانند DOC، DO
 						</ul>
 						<p>فرا گرفتن</p>
 						<ul>
-			  			 <li><a href="https://releases.aspose.com/words/python/release-notes/">Aspose.Words for Python via .NET Release Notes</a>
-								<li><a href="/words/fa/python-net/how-to-run-the-examples/">نحوه اجرای مثال ها</a></li>
-								/li&gt;
+			  				<li><a href="https://releases.aspose.com/words/python/release-notes/">Aspose.Words for Python via .NET Release Notes</a></li>
+							<li><a href="/words/fa/python-net/how-to-run-the-examples/">نحوه اجرای مثال ها</a></li>
 						</ul>
 		</div>
 		<div class="col-md-4">

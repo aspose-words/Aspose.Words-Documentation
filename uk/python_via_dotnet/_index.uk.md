@@ -52,9 +52,8 @@ Aspose.Words підтримує більшість популярних форм
 			</ul>
 			<p>ЗАМОВИТИ</p>
 			<ul>
-			  <li><a href="https://releases.aspose.com/words/python/release-notes/">Aspose.Words для Python via .NET Видаляє Примітки</a>Головна</li>
+				<li><a href="https://releases.aspose.com/words/python/release-notes/">Aspose.Words для Python via .NET Видаляє Примітки</a></li>
 				<li><a href="/words/uk/python-net/how-to-run-the-examples/">Як запустити приклади</a></li>
-				Українська
 			</ul>
 	</div>
 	<div class="col-md-4">

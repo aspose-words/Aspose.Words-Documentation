@@ -52,9 +52,8 @@ Met Aspose.Words voor Python via .NET, u documenten kunt genereren, wijzigen, co
 			</ul>
 			<p>LEREN</p>
 			<ul>
-			  <li><a href="https://releases.aspose.com/words/python/release-notes/">Aspose.Words voor Python via .NET Loslaten</a><</li>
+				<li><a href="https://releases.aspose.com/words/python/release-notes/">Aspose.Words voor Python via .NET Loslaten</a></li>
 				<li><a href="/words/nl/python-net/how-to-run-the-examples/">Hoe de Voorbeelden uitvoeren</a></li>
-				/li>
 			</ul>
 	</div>
 	<div class="col-md-4">
