@@ -34,7 +34,8 @@ Furthermore, the engine can be instructed to print a specific message instead of
 {{< highlight xml >}}
 ReportingEngine engine = new ReportingEngine();
 engine.setOptions(ReportBuildOptions.ALLOW_MISSING_MEMBERS);
-engine.setMissingMemberMessage("None");engine.buildReport(...);
+engine.setMissingMemberMessage("None");
+engine.buildReport(...);
 {{< /highlight >}}
 
 **Note –** The message can be printed only instead of a template expression that represents a plain reference to a missing member of an object like in the provided template example; for instance, the message is not used when printing the result of a binary operator, one of which operands references a missing object member.
