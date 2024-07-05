@@ -47,7 +47,13 @@ Tags consisting of opening and closing parts can be nested to each other. In cas
 
 While building a report, the engine checks matching of headers for corresponding opening and closing tags and indicates an error in case of a mismatch, for example, because of a wrong closing tags’ order.
 
-During runtime, after a template syntax tag is processed by the engine, it is typically removed. This can lead to a situation where a paragraph containing the tag becomes empty if it has no other content. If such a paragraph is unwanted, it can be optionally removed by the engine (see “Removing Paragraphs Containing Only Template Syntax Tags” for more information).
+During runtime, after a template syntax tag is processed by the engine, it is typically removed. This can lead to a situation where a paragraph containing the tag becomes empty if it has no other content. If such a paragraph is unwanted, it can be optionally removed by the engine. You can use one of the following ways to achieve this:
+
+* Remove all such paragraphs by applying the `ReportBuildOptions.REMOVE_EMPTY_PARAGRAPHS` option (see [Removing Paragraphs Containing Only Template Syntax Tags](/words/net/removing-paragraphs-containing-only-template-syntax-tags/) for more information).
+* Selectively remove some of such paragraphs by prepending every corresponding tag’s name with an exclamation mark as follows.
+  {{< highlight xml >}}
+  <<!tag_name ...>>
+  {{< /highlight >}}
 
 **This section includes the following topics:**
 
@@ -56,12 +62,14 @@ During runtime, after a template syntax tag is processed by the engine, it is ty
 - [Outputting Sequential Data](/words/java/outputting-sequential-data/)
 - [Using Conditional Blocks](/words/java/using-conditional-blocks/)
 - [Inserting Documents Dynamically](/words/java/inserting-documents-dynamically/)
+- [Inserting HTML Dynamically](/words/java/inserting-html-dynamically/)
 - [Inserting Images Dynamically](/words/java/inserting-images-dynamically/)
 - [Inserting Bookmarks Dynamically](/words/java/inserting-bookmarks-dynamically/)
 - [Inserting Hyperlinks Dynamically](/words/java/working-with-fields/)
+- [Working with Content Controls](/words/java/working-with-content-controls/)
+- [Setting Text Color Dynamically](/words/java/setting-text-color-dynamically/)
 - [Setting Background Color Dynamically](/words/java/setting-background-color-dynamically/)
 - [Merging Table Cells Dynamically](/words/java/merging-table-cells-dynamically/)
 - [Restarting List Numbering Dynamically](/words/java/restarting-list-numbering-dynamically/)
 - [Using Contextual Object Member Access](/words/java/using-contextual-object-member-access/)
 - [Using Variables](/words/java/using-variables/)
-- [Working with Content Controls](/words/java/working-with-content-controls/)
