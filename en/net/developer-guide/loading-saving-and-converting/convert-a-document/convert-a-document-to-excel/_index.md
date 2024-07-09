@@ -17,10 +17,7 @@ Converting a document to XLSX is a rather complicated process. To save your docu
 
 The following code example shows how to save PDF to XLSX:
 
-{{< highlight csharp >}}
-Document doc = new Document(MyDir + "Pdf Document.pdf");
-doc.Save(ArtifactsDir + "BaseConversions.PdfToXlsx.xlsx")
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "a50652f28531278511605e0fd778bbdf" "pdf-to-xlsx.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -34,21 +31,7 @@ Also using Aspose.Words, you can find a specific string or regular expression in
 
 The following code example shows how to perform find and replace operation and save result to XLSX:
 
-{{< highlight csharp >}}
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.Writeln("Ruby bought a ruby necklace.");
-
-// We can use a "FindReplaceOptions" object to modify the find-and-replace process.
-FindReplaceOptions options = new FindReplaceOptions();
-// Set the "MatchCase" flag to "true" to apply case sensitivity while finding strings to replace.
-// Set the "MatchCase" flag to "false" to ignore character case while searching for text to replace.
-options.MatchCase = true;
-
-doc.Range.Replace("Ruby", "Jade", options);
-doc.Save(ArtifactsDir + "BaseConversions.FindReplaceXlsx.xlsx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "a50652f28531278511605e0fd778bbdf" "find-replace-xlsx.cs" >}}
 
 ## Specify Compression Level When Saving to XLSX
 
@@ -56,14 +39,7 @@ You can also specify the compression level when saving using the [CompressionLev
 
 The following code example shows how to specify the compression level when saving to XLSX format:
 
-{{< highlight csharp >}}
-Document doc = new Document(MyDir + "Document.docx");
-
-XlsxSaveOptions saveOptions = new XlsxSaveOptions();
-saveOptions.CompressionLevel = CompressionLevel.Maximum;
-
-doc.Save(ArtifactsDir + "BaseConversions.CompressXlsx.xlsx", saveOptions);
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "a50652f28531278511605e0fd778bbdf" "compress-xlsx.cs" >}}
 
 ## See Also
 

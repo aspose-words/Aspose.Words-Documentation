@@ -13,7 +13,7 @@ When saving a document, you can set some advanced properties. Aspose.Words provi
 
 The following code example shows how to set the save options before saving the document into HTML:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-SpecifySaveOption-SpecifySaveOption.cs" >}}
+{{< gist "aspose-words-gists" "83e5c469d0e72b5114fb8a05a1d01977" "export-text-input-form-field-as-text.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -31,13 +31,13 @@ For example, when saving a document to DOC or DOT format, use the [Password](ht
 
 The following code example shows how to set a password to encrypt a document using the RC4 encryption method:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-WorkingWithDoc-EncryptDocumentWithPassword.cs" >}}
+{{< gist "aspose-words-gists" "af95c7a408187bb25cf9137465fe5ce6" "encrypt-document-with-password.cs" >}}
 
 When saving a document to Odt format, use the [Password](https://reference.aspose.com/words/net/aspose.words.saving/odtsaveoptions/password/) property of the [OdtSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/odtsaveoptions/) class.
 
 The following code example shows how to load and save OpenDocument encrypted with a password:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-Load_Options-LoadAndSaveEncryptedODT.cs" >}}
+{{< gist "aspose-words-gists" "af95c7a408187bb25cf9137465fe5ce6" "load-save-encrypted-document.cs" >}}
 
 Not all formats support encryption and the use of **Password** property.
 
@@ -53,7 +53,7 @@ Aspose.Words provides an ability to use the [CreatedTime](https://reference.aspo
 
 The following code example shows how to update the document creation time:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-Working with PdfSaveOptions-UpdateIfLastPrinted.cs" >}}
+{{< gist "aspose-words-gists" "83e5c469d0e72b5114fb8a05a1d01977" "update-last-printed.cs" >}}
 
 ## Update Last Saved Property
 
@@ -61,15 +61,11 @@ Aspose.Words provides an ability to use the [UpdateLastSavedTimeProperty](http
 
 The following code example shows how to set this property and save the document:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-WorkingWithOoxml-UpdateLastSavedTimeProperty.cs" >}}
+{{< gist "aspose-words-gists" "83e5c469d0e72b5114fb8a05a1d01977" "update-last-saved-time.cs" >}}
 
 ## Control External Resources When Saving a Document into HTML or SVG
 
 To convert HTML or SVG into PDF, simply invoke the [Save](https://reference.aspose.com/words/net/aspose.words/document/save/#save/) method and specify a file name with the “.PDF” extension. If you want to load images, CSS, etc. from external sources, you can use [IResourceSavingCallback](https://reference.aspose.com/words/net/aspose.words.saving/iresourcesavingcallback/).
-
-The following code example shows how to convert HTML to PDF and loads images from external sources:
-
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-ImageLoadingWithCredentialsHandler-ImageLoadingWithCredentialsHandler.cs" >}}
 
 ## Save Black and White Image with One Bit Per Pixel Format
 
@@ -77,4 +73,4 @@ To control image saving options, the **ImageSaveOptions** class is used. For exa
 
 The following code example shows how to save a black and white image with one bit per pixel format:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-ImageColorFilters-SaveImageToOnebitPerPixel.cs" >}}
+{{< gist "aspose-words-gists" "83e5c469d0e72b5114fb8a05a1d01977" "format1-bpp-indexed.cs" >}}

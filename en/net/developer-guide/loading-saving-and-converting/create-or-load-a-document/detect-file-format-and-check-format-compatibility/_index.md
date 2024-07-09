@@ -33,13 +33,13 @@ Since we are dealing with contents in a folder, the first thing we need to do is
 
 The following code example shows how to get a list of all the files in the folder:
 
-{{< gist "aspose-words-gists" "3b6a8e49d800948f7d6ef7975f233fb3" "get-files-in-folder.cs" >}}
+{{< gist "aspose-words-gists" "7fe3fc4004f081628a63608db70332b3" "get-files.cs" >}}
 
 When all the files are collected, the rest of the work is done by the **DetectFileFormat** method, which checks the file format.
 
 The following code example shows how to iterate over the collected list of files, check the format of each file, and moves each file to the appropriate folder:
 
-{{< gist "aspose-words-gists" "3b6a8e49d800948f7d6ef7975f233fb3" "check-format-compatibility.cs" >}}
+{{< gist "aspose-words-gists" "7fe3fc4004f081628a63608db70332b3" "check-format-compatibility.cs" >}}
 
 The files are moved into appropriate subfolders using the `Move` method of the `File` class, from the same `System.IO` namespace.
 

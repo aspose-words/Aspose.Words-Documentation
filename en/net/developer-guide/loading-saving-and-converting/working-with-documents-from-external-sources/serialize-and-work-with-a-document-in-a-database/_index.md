@@ -32,7 +32,7 @@ The selected save format is important to ensure the highest fidelity is retained
 
 The example below shows how to serialize a **Document** object to obtain a byte array, and then how to unserialize the byte array to obtain a **Document** object again:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-ConvertDocumentToByte-ConvertDocumentToByte.cs" >}}
+{{< gist "aspose-words-gists" "f8a622f8bc1cf3c2fa8a7a9be359faa2" "docx-to-byte.cs" >}}
 
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
 
@@ -42,7 +42,7 @@ This section shows how to save a document in a database and then load it back in
 
 The following code example shows how to set up a connection to a database and execute commands:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Loading-and-Saving-LoadAndSaveDocToDatabase-OpenDatabaseConnection.cs" >}}
+{{< gist "aspose-words-gists" "f8a622f8bc1cf3c2fa8a7a9be359faa2" "open-database-connection.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -52,7 +52,7 @@ In this example, we use the Microsoft Access .mdb database to store an Aspose.Wo
 
 The following code example shows how to save a document to the database, then read the same document again, and finally delete the record containing the document from the database:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Loading-and-Saving-LoadAndSaveDocToDatabase-OpenRetrieveAndDelete.cs" >}}
+{{< gist "aspose-words-gists" "f8a622f8bc1cf3c2fa8a7a9be359faa2" "open-retrieve-and-delete.cs" >}}
 
 ### Save a Document to a Database
 
@@ -60,7 +60,7 @@ To save a document in a database convert this document to an array of bytes, as 
 
 The following code example shows how to save a document to the specified database:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-LoadAndSaveDocToDatabase-StoreToDatabase.cs" >}}
+{{< gist "aspose-words-gists" "f8a622f8bc1cf3c2fa8a7a9be359faa2" "store-to-database.cs" >}}
 
 Specify commandString, which is an SQL expression that does all the work:
 
@@ -73,7 +73,7 @@ To retrieve a document from the database, select the record that contains the do
 
 The following code example shows how to retrieve and return a document from the specified database using the filename as a key to fetch this document:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-LoadAndSaveDocToDatabase-ReadFromDatabase.cs" >}}
+{{< gist "aspose-words-gists" "f8a622f8bc1cf3c2fa8a7a9be359faa2" "read-from-database.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -87,4 +87,4 @@ To delete a document from the database, use the appropriate SQL command without 
 
 The following code example shows how to delete a document from the database, using the file name to fetch the record:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-LoadAndSaveDocToDatabase-DeleteFromDatabase.cs" >}}
+{{< gist "aspose-words-gists" "f8a622f8bc1cf3c2fa8a7a9be359faa2" "delete-from-database.cs" >}}

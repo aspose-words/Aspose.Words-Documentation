@@ -21,14 +21,7 @@ The following example shows how to convert DOCX to HTML with specifying a save f
 
 **.NET**
 
-{{< highlight csharp >}}
-
-// Load the document from disk.
-Document doc = new Document(dataDir + "Test File.docx");
-
-// Save the document into HTML.
-doc.Save(dataDir + "Document", SaveFormat.Html);
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "c0df00d37081f41a7683339fd7ef66c1" "docx-to-html.cs" >}}
 
 To convert a document to MHTML or EPUB, use `SaveFormat.Mhtml` or `SaveFormat.Epub` respectively.
 
@@ -43,7 +36,7 @@ The default value is **true** for HTML and **false** for MHTML and EPUB:
 
 The following code example shows how to export round-trip information when converting a document from DOCX into HTML:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-ConvertDocumentToHtmlWithRoundtrip-ConvertDocumentToHtmlWithRoundtrip.cs" >}}
+{{< gist "aspose-words-gists" "c0df00d37081f41a7683339fd7ef66c1" "export-roundtrip-information.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -65,7 +58,7 @@ In this example, **ResourceFolder** specifies the relative path. This path ref
 
 The following code example shows how to work with these properties:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-ExportResourcesUsingHtmlSaveOptions-ExportResourcesUsingHtmlSaveOptions.cs" >}}
+{{< gist "aspose-words-gists" "c0df00d37081f41a7683339fd7ef66c1" "export-resources.cs" >}}
 
 Using the [ResourceFolderAlias](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/resourcefolderalias/) property, we can also specify the name of the folder used to construct URIs of all resources written into an HTML document. This is the simplest way to specify how URIs should be generated for all resource files. The same information can be specified for images and fonts separately via [ImagesFolderAlias](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/imagesfolderalias/) and [FontsFolderAlias](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/fontsfolderalias/) properties, respectively.
 
@@ -80,7 +73,7 @@ Aspose.Words provides an ability to specify whether font resources should be em
 
 The following code example shows how to export Base64-encoded fonts to HTML:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-ExportFontsAsBase64-ExportFontsAsBase64.cs" >}}
+{{< gist "aspose-words-gists" "c0df00d37081f41a7683339fd7ef66c1" "export-fonts-as-base64.cs" >}}
 
 ## Specify Save Options when Conversion to EPUB
 
@@ -88,7 +81,7 @@ Aspose.Words allows to convert a Word document into EPUB format using default or
 
 The following code example shows how to converts a Word document to EPUB with specifying some custom save options:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-ConvertDocumentToEPUB-ConvertDocumentToEPUB.cs" >}}
+{{< gist "aspose-words-gists" "c0df00d37081f41a7683339fd7ef66c1" "split-document-by-headings.cs" >}}
 
 {{% alert color="primary" %}}
 
