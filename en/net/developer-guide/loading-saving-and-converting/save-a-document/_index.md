@@ -19,7 +19,7 @@ Simply use the [Save](https://reference.aspose.com/words/net/aspose.words/docum
 
 The following code example shows how to load and save a document to a file:
 
-{{< gist "aspose-words-gists" "6b49e2482a4ca546ffd2b4f9fa642041" "load-save.cs" >}}
+{{< gist "aspose-words-gists" "7ee438947078cf070c5bc36a4e45a18c" "load-and-save.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -33,7 +33,7 @@ Pass a stream object to the [Save](https://reference.aspose.com/words/net/aspose
 
 The following code example shows how to load and save a document to a stream:
 
-{{< gist "aspose-words-gists" "6b49e2482a4ca546ffd2b4f9fa642041" "load-save-stream.cs" >}}
+{{< gist "aspose-words-gists" "7ee438947078cf070c5bc36a4e45a18c" "load-and-save-to-stream.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -47,7 +47,7 @@ In order to send a document to a client browser, use a special overload that tak
 
 The following code example shows how to send a document to the client browser from an ASP.NET code:
 
-{{< gist "aspose-words-gists" "6b49e2482a4ca546ffd2b4f9fa642041" "send-to-client-browser.cs" >}}
+{{< gist "aspose-words-gists" "7ee438947078cf070c5bc36a4e45a18c" "load-and-save.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -69,7 +69,7 @@ Aspose.Words supports saving a document into PCL (Printer Command Language). Asp
 
 The following code example shows how to save a document to PCL using save options:
 
-{{< gist "aspose-words-gists" "b5a3c7ccb6e79a15c8d9d65e050a881b" "docx-to-pcl.cs" >}}
+{{< gist "aspose-words-gists" "7ee438947078cf070c5bc36a4e45a18c" "rasterize-transformed-elements.cs" >}}
 
 ## See Also
 

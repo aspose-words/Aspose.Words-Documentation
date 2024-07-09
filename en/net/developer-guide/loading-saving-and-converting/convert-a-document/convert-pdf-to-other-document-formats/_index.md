@@ -23,7 +23,7 @@ The most popular conversion from PDF is conversion to Microsoft Word formats suc
 
 The following code example shows how to convert a document from PDF to DOCX:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Base conversions-PdfToDocx.cs" >}}
+{{< gist "aspose-words-gists" "a0d52b62c1643faa76a465a41537edfc" "pdf-to-docx.cs" >}}
 
 ## Specify Load Options when Importing PDF {#specify-load-options-when-importing-pdf}
 

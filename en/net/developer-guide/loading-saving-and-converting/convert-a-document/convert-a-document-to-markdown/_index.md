@@ -23,7 +23,7 @@ To convert a document to Markdown, you just need to load a document in any suppo
 The following code example shows how to convert DOCX to Markdown:
 
 **.NET**
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Loading-and-Saving-ConvertDocumentToMarkdown-SaveAsMD.cs" >}}
+{{< gist "aspose-words-gists" "51b4cb9c451832f23527892e19c7bca6" "docx-to-markdown.cs" >}}
 
 You can also specify the physical folder in which you want to save images when exporting a document to Markdown format. By default, Aspose.Words saves images in the same folder where the document file is saved, but you can override this behavior using the [ImagesFolder](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imagesfolder/) property.
 
@@ -34,7 +34,7 @@ If the specified **ImagesFolder** does not exist, it will be created automatical
 The following code example shows how to specify a folder for images when saving a document to a stream:
 
 **.NET**
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Loading-and-Saving-ConvertDocumentToMarkdown-SetImagesFolder.cs" >}}
+{{< gist "aspose-words-gists" "51b4cb9c451832f23527892e19c7bca6" "images-folder.cs" >}}
 
 ## Specify Save Options when Converting to Markdown
 
@@ -60,7 +60,7 @@ Aspose.Words currently supports the following Markdown features, which mostly fo
 The following example shows how to create a document with some styles and save it to Markdown:
 
 **.NET**
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Loading-and-Saving-ConvertDocumentToMarkdown-SupportedMarkdownFeatures.cs" >}}
+{{< gist "aspose-words-gists" "51b4cb9c451832f23527892e19c7bca6" "inline-code.cs" >}}
 
 The result of this code example is shown below.
 
