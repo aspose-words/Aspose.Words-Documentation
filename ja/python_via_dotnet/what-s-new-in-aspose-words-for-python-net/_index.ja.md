@@ -11,6 +11,51 @@ url: /ja/python-net/what-s-new-in-aspose-words-for-python-net/
 
 このページでは、最近のリリースで導入された最も興味深い新しい Aspose.Words 機能について説明します。
 
+## Python via .NET 24.5、24.6 の Aspose.Words
+
+Aspose.Words 24.5 では、アセンブリのオプションが拡張され、レンダリング機能が向上し、その他のオプションも拡張されています。
+
+Aspose.Words 24.6 では、レンダリング オプションが向上し、検索および比較機能が強化され、その他の機能が拡張されています。
+
+### レンダリングと印刷
+
+#### Charts、Shapes、DrawingML の変更 <sup>24.5</sup>
+
+* 画像に限定されていた以前の機能を拡張する、SVG グラフィックスの DrawingML エフェクト レンダリングが実装されました。
+* コンボ チャートの作成と、シリーズ グループ内のギャップ幅、オーバーラップ、バブル スケールなどのプロパティの調整のサポートは、[ChartSeriesGroup](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriesgroup/) クラスと [ChartSeriesGroupCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriesgroupcollection/) クラス、および [series_groups](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chart/series_groups/) プロパティ。
+* シェイプの SoftEdge 効果を操作する機能は、[SoftEdgeFormat](https://reference.aspose.com/words/python-net/aspose.words.drawing/softedgeformat/) クラスを追加することで実装されました。
+* シェイプの調整値を変更する機能は、**AdjustmentCollection** および **Adjustment** パブリック クラスと [Adjustment](https://reference.aspose.com/words/net/aspose.words.drawing/shape/adjustments/） 財産。
+
+#### グラフ、図形、描画の変更 <sup>24.6</sup>
+
+* グラフ作成機能が強化されました。*ツリーマップ*、*サンバースト*、*ヒストグラム*、*パレート* グラフ、*箱ひげ図*、*ウォーターフォール*、*ファネル* など、より多様なグラフを作成できるようになりました。これにより、データをより多様で有益な方法で視覚化できます。
+
+* 影の書式設定の色制御が強化されました。影の色にアクセスすることで、ドキュメントの外観をより正確に制御できます。
+
+* バックグラウンド レンダリングのパフォーマンスが向上しました。ネイティブのタイリング テクノロジにより、小さな要素を含む背景のレンダリングを大幅に高速化できます。
+* 図形のリアルなグラデーションが追加されました。非線形グラデーションの DML 図形を作成できるようになりました。これにより、Microsoft Word のビジュアル スタイルを模倣して、より洗練された外観を実現できます。
+
+### 検索と比較
+
+#### 高度な比較オプション <sup>24.6</sup>
+比較機能が向上し、データ分析ワークフローを効率化できるようになりました。これには、新しい [ignore_store_item_id](https://reference.aspose.com/words/python-net/aspose.words.comparing/advancedcompareoptions/ignore_store_item_id/) オプションと、高度な比較用に再設計されたインターフェイスが含まれます。
+
+### 他の
+
+* 文書から空ページを削除する機能は、[remove_blank_pages](https://reference.aspose.com/words/python-net/aspose.words/document/remove_blank_pages/)メソッドを追加することで実装されました。 <sup>24.5</sup>
+* ドキュメントをロードせずに VBA マクロの存在をチェックする機能は、[has_macros](https://reference.aspose.com/words/python-net/aspose.words/fileformatinfo/has_macros/) プロパティを追加することによって提供されます。 <sup>24.5</sup>
+* LINQ レポート エンジンを使用してドキュメントを挿入する際のソース番号の維持がサポートされるようになりました。 <sup>24.5</sup>
+* 新しい [date_time_utc](https://reference.aspose.com/words/python-net/aspose.words/comment/date_time_utc/) プロパティが追加されました。これにより、コメントのタイムスタンプがより正確になり、整理と追跡可能性が向上します。 <sup>24.6</sup>
+* LINQ レポート エンジンが改良されました。空の段落を選択的に削除し、欠落しているオブジェクト メンバーのカスタム メッセージを定義することで、よりわかりやすく、より情報量の多いレポートを実現しました。<sup>24.6</sup>
+
+{{% alert color="primary" %}}
+
+[Aspose.Words for Python via .NET 24.5 リリースノート](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-5-release-notes/) について詳しくは、こちらをご覧ください。
+
+[Aspose.Words for Python via .NET 24.6 リリースノート](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-6-release-notes/) について詳しくは、こちらをご覧ください。
+
+{{% /alert %}}
+
 ## Python via .NET 24.1、24.2、24.3、24.4 用の Aspose.Words
 
 Aspose.Words 24.1 では、ストローク カラーの管理に関するエクスペリエンスが向上し、OLE オブジェクトが強化され、さらに新しい参考文献ソースのパブリック API が導入されています。
@@ -394,181 +439,6 @@ Google Noto フォントの事前定義フォント フォールバック設定�
 [Aspose.Words for Python via .NET 22.11 リリースノート](/words/python-net/aspose-words-for-python-via-dotnet-22-11-release-notes/) について詳しくは、こちらをご覧ください。
 
 [Aspose.Words for Python via .NET 22.12 リリースノート](/words/python-net/aspose-words-for-python-via-dotnet-22-12-release-notes/) について詳しくは、こちらをご覧ください。
-
-{{% /alert %}}
-
-## Python via .NET 22.5、22.6、22.7、22.8 の Aspose.Words
-
-Aspose.Words 22.5 では、新しい読み込み形式と新しい印刷ページ サイズのサポートが導入され、いくつかのレンダリング オプションが改善されています。
-
-Aspose.Words 22.6 は、PDF を他の形式に変換する可能性を拡張するだけでなく、DrawingML とソリッド テキストの塗りつぶし効果を使用した作業を改善します。
-
-Aspose.Words 22.7 では、レンダリング機能の操作の可能性が強化され、HTML のインポートおよび PDF へのエクスポートを操作するための新機能も追加されています。
-
-Aspose.Words 22.8 では、新しいエクスポート形式が導入され、さまざまなレンダリング アルゴリズムが改善されています。
-
-API は、より柔軟で便利な開発のために強化されました。
-
-### サポートされている形式
-
-* EPUB および XML ドキュメントのロードのサポートは、**LoadFormat** 列挙に新しい値を追加することによって導入されました。バージョン 22.5 以降では、EPUB および XML ドキュメントを Aspose.Words ドキュメント モデルにロードし、任意の [サポートされているドキュメント形式](/words/ja/python-net/supported-document-formats/) に変換できるようになりました。 <sup>22.5</sup>
-* バージョン 22.8 以降、ドキュメントを AZW3 形式 (Amazon Kindle 独自の電子書籍ファイル形式) で保存できるようになりました (KF8 は形式の別名です)。 AZW3 ドキュメントをロードできるだけでなく、本質的にコンパイルされた EPUB である AZW3 形式にファイルをエクスポートできるようになりました。 <sup>22.8</sup>
-
-### レンダリングと印刷
-
-#### 新しい印刷サイズ<sup>22.5</sup>
-
-[PaperSize](https://reference.aspose.com/words/python-net/aspose.words/papersize/) 列挙に新しい値を導入することにより、「Envelope No. 10」印刷ページ サイズのサポートが追加されました。
-
-#### MathML 数式<sup>22.5</sup>のレンダリング
-
-MathML 数式の周囲の境界ボックスのレンダリングと、そのような数式の文字をレンダリングするときのフォント検出が改善されました。
-
-#### DML チャートの改善<sup>22.6</sup>
-
-DrawingML チャートのパブリック API は、グラデーション、テクスチャ、およびパターンの塗りつぶしをサポートするように拡張されました。
-
-#### OpenType <sup>22.7</sup>の Glyph アウトライン解析
-
-Aspose.Words 独自の OpenType (CFF) フォントの glyph アウトライン解析が実装されました。
-
-以前は、OpenType (CFF) フォントの glyph 解析は GDI+ 経由で実行されていました。そのため、Java、.NET Standard プラットフォーム、Linux、macOS など、GDI+ が利用できない場合でも機能するようになりました。Glyph アウトラインの解析は、ワードアート、テキスト効果、一部の Office Math 機能などの特定の場合に必要です。
-
-#### 図形の影の書式設定<sup>22.7</sup>
-
-新しい [shadow_format](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/shadow_format/) プロパティを追加することで、シェイプ オブジェクトの影の書式設定を設定する機能が提供されました。
-
-#### 表<sup>22.8</sup>のセル間隔のサポート
-
-レイアウト エンジンが大幅に改善され、テーブル内の非常に複雑なセル間隔メカニズムが実装されました。
-
-#### シンボルのフォント置換<sup>22.8</sup>
-
-シンボルのフォント置換が改善されました。
-
-#### チャート軸ラベル回転アルゴリズム<sup>22.8</sup>
-
-グラフの軸ラベルの回転アルゴリズムが改善されました。
-
-### ドキュメントのロードと保存
-
-#### レイアウト モデル<sup>22.6</sup>を使用せずに PDF をロードして固定ページ形式に変換する
-
-PDF ドキュメントをロードし、高い忠実度とパフォーマンスで固定ページ形式に変換する機能が実装されました。
-
-#### 新しい HTML インポート モード<sup>22.7</sup>
-
-[HtmlInsertOptions](https://reference.aspose.com/words/python-net/aspose.words/htmlinsertoptions/) 列挙に新しい値を追加することにより、ブロックレベル要素の新しい HTML インポート モードが導入されました。
-
-#### WCAG 2.0 <sup>22.7</sup>に準拠した PDF/UA-1 に変換
-
-WCAG 2.0 に準拠した PDF/UA-1 形式へのドキュメントの変換のサポートが追加されました。
-
-したがって、顧客がアクセス可能な Word 文書を持っており、変換の詳細を記載した Aspose.Words 経由で PDF/UA-1 に変換すると、出力は WCAG 2.0 と互換になります。
-
-WCAG または Web コンテンツ アクセシビリティ ガイドラインは、W3C が世界中の個人や組織と協力して開発した一連のガイドラインです。 Aspose.Words を使用すると、ドキュメントを出力 PDF/UA-1 形式に変換できるようになり、WCAG 2.0 準拠の PDF ドキュメントの作成に適しています。
-
-WCAG 2.0 には、PDF/UA-1 仕様に指定されていない 2 つの追加要件があることに注意してください。
-
-- コントラスト要件
-- マルチメディア コンテンツのタグ付けの要件
-
-ただし、両方の要件は Word から PDF に変換する場合には関係ありません。
-
-### 他の
-
-MS Word の動作を模倣する塗りつぶし効果の継承の例外が実装されました。 <sup>22.6</sup>
-
-{{% alert color="primary" %}}
-
-[Aspose.Words for Python via .NET 22.5 リリースノート](/words/python-net/aspose-words-for-python-via-dotnet-22-5-release-notes/) について詳しくは、こちらをご覧ください。
-
-[Aspose.Words for Python via .NET 22.6 リリースノート](/words/python-net/aspose-words-for-python-via-dotnet-22-6-release-notes/) について詳しくは、こちらをご覧ください。
-
-[Aspose.Words for Python via .NET 22.7 リリースノート](/words/python-net/aspose-words-for-python-via-dotnet-22-7-release-notes/) について詳しくは、こちらをご覧ください。
-
-[Aspose.Words for Python via .NET 22.8 リリースノート](/words/python-net/aspose-words-for-python-via-dotnet-22-8-release-notes/) について詳しくは、こちらをご覧ください。
-
-{{% /alert %}}
-
-## Python via .NET 22.3、22.4 用の Aspose.Words
-
-Aspose.Words 22.3 は、PDF および TXT 形式の操作の可能性を拡張し、一部の既存のアルゴリズムとエンジンの動作を改善します。
-
-Aspose.Words 22.4 は PDF 機能を強化し、ファイルを PDF/A-4 形式で保存できるようになり、PDF 出力におけるその他の多くの改善が得られます。同時に、Aspose.Words 22.4 は、DML チャートの操作、Photoshop メタデータの読み取り、HTML ブロックレベル要素のインポートを行う追加機能を提供します。
-
-API は、より柔軟で便利な開発のために強化されました。
-
-### サポートされている機能
-
-Aspose.Words 22.4 以降、Python 3.10 のサポートが追加されました。
-
-### パフォーマンスの向上
-
-レンダリング時のフォント キャッシュの初期化プロセスを高速化するために、以前に保存したフォント検索キャッシュをロードする機能が実装されました。ソリューションがさらに高速に機能するようになります。
-
-### サポートされている形式
-
-AZW3 形式 (KF8 は形式の別名) のドキュメントの読み込みが追加されました。これで、AZW3 ドキュメントをロードし、サポートされている他の形式に変換できるようになりました。
-
-### レンダリング
-
-#### MathML 数式のレンダリング
-
-MathML 式の演算子のレンダリングが改善されました。
-
-#### DML チャートの改善
-
-DML チャートに次の改善が加えられました。
-
-* DML チャートの軸スケーリング アルゴリズムが MS Word と同じになるように改善されました。
-
-* DrawingML チャートの凡例エントリを操作する機能は、チャート API をより包括的にするために提供されています。
-* DrawingML チャートがリンクされている xls/xlsx ファイルの名前を指定する機能が実装されました
-
-#### PDF/A-4 準拠の PDF へのレンダリング
-
-[PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) 列挙体 ([PDF_A4](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/#pdf_a4)) に新しい値を追加することにより、PDF/A-4 準拠の PDF へのレンダリングが追加されました。このオプションは、改訂された適合レベルを前提としています。通常の PDF/A-4 適合は、以前のバージョンの適合レベル U と同等であり、レベル A 適合は削除されます。
-
-#### JPEG での Photoshop メタデータ解像度の読み取り
-
-JPEG 画像の Photoshop メタデータ解像度の読み取りは、レンダリング時の画像の不正なスケーリングに関する興味深い問題を修正するために実装されました。
-
-#### ラテン語テキストを単語の途中で折り返すことを許可する
-
-「単語の途中でラテン語テキストを折り返せる」機能のサポートが実装され、レンダリング時のラテン語サポートがさらに向上しました。
-
-### ドキュメントのロードと保存
-
-#### ドキュメントのロード時のスタイルの動作の制御
-
-ドキュメントのインポート時に競合するスタイルの動作を制御するための新しいオプション [force_copy_styles](https://reference.aspose.com/words/python-net/aspose.words/importformatoptions/force_copy_styles/) が導入されました。
-
-#### エクスポート時に形状を SVG に変換する
-
-[export_shapes_as_svg](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/export_shapes_as_svg/) プロパティを追加することで、HTML、MHTML、または EPUB にエクスポートするときに図形を SVG イメージに変換する機能が提供されています。
-
-#### PDF 2.0 への保存と PDF 出力の改善
-
-[PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) 列挙に新しい値を追加することでドキュメントを PDF 2.0 として保存する機能や、PDF 出力に対するその他の要求された改善がいくつか導入されました。
-
-#### 新しい HTML インポート モード
-
-Microsoft Word の動作を模倣するために、HTML ブロックレベル要素の新しいインポート モードが実装されました。
-
-### 他の
-
-* コンテンツ コントロールの OOXML を取得して文字列に保存する機能が導入されました。
-* インポート時の PDF ドキュメント内の標準外の脚注の認識が追加されました。
-* フィールドに関連付けられたカスタムフィールドデータを取得する機能が追加されました。
-* Microsoft Word比較メカニズムの詳細な分析に基づくテーブル比較アルゴリズムが改善されました。
-* LINQ レポート エンジンのコメント構文が提供されています。
-
-{{% alert color="primary" %}}
-
-[Aspose.Words for Python via .NET 22.3 リリースノート](/words/python-net/aspose-words-for-python-via-dotnet-22-3-release-notes/) について詳しくは、こちらをご覧ください。
-
-[Aspose.Words for Python via .NET 22.4 リリースノート](/words/python-net/aspose-words-for-python-via-dotnet-22-4-release-notes/) について詳しくは、こちらをご覧ください。
 
 {{% /alert %}}
 

@@ -52,9 +52,8 @@ Python via .NET용 Aspose.Words를 사용하면 타사 애플리케이션이나 
 						</ul>
 						<p>배우다</p>
 						<ul>
-			  			 <li><a href="https://releases.aspose.com/words/python/release-notes/">Python via .NET용 Aspose.Words 릴리스 노트</a>
-								<li><a href="/words/ko/python-net/how-to-run-the-examples/">예제를 실행하는 방법</a></li>
-								/li&gt;
+			  				<li><a href="https://releases.aspose.com/words/python/release-notes/">Python via .NET용 Aspose.Words 릴리스 노트</a></li>
+							<li><a href="/words/ko/python-net/how-to-run-the-examples/">예제를 실행하는 방법</a></li>
 						</ul>
 		</div>
 		<div class="col-md-4">

@@ -52,9 +52,8 @@ Dengan Aspose.Words untuk Python via .NET, Anda dapat membuat, memodifikasi, men
 						</ul>
 						<p>MEMPELAJARI</p>
 						<ul>
-			  			 <li><a href="https://releases.aspose.com/words/python/release-notes/">Catatan Rilis Aspose.Words untuk Python via .NET</a>
-								<li><a href="/words/id/python-net/how-to-run-the-examples/">Cara Menjalankan Contoh</a></li>
-								/li&gt;
+			  				<li><a href="https://releases.aspose.com/words/python/release-notes/">Catatan Rilis Aspose.Words untuk Python via .NET</a></li>
+							<li><a href="/words/id/python-net/how-to-run-the-examples/">Cara Menjalankan Contoh</a></li>
 						</ul>
 		</div>
 		<div class="col-md-4">

@@ -11,6 +11,53 @@ url: /id/net/what-s-new-in-aspose-words-for-net/
 
 Halaman ini menjelaskan fitur-fitur Aspose.Words baru yang paling menarik yang diperkenalkan dalam rilis terbaru.
 
+## Aspose.Words untuk .NET 24.5, 24.6
+
+Aspose.Words 24.5 memperluas opsi untuk rakitan, meningkatkan kemampuan rendering, dan memperluas beberapa opsi lainnya.
+
+Aspose.Words 24.6 meningkatkan opsi rendering, meningkatkan fungsionalitas pencarian dan perbandingan, dan memperluas beberapa fitur lainnya.
+
+### Platform
+
+Rakitan .NET 7.0/8.0 telah disertakan dalam paket NuGet Aspose.Words.
+
+### Rendering dan Pencetakan
+
+#### Perubahan Charts, Shapes dan DrawingML <sup>24.5</sup>
+
+* Render efek DrawingML untuk grafik SVG, memperluas fungsionalitas sebelumnya yang terbatas pada gambar, telah diterapkan.
+* Dukungan untuk membuat bagan kombo dan menyesuaikan properti seperti lebar celah, tumpang tindih, dan skala gelembung dalam grup seri telah diperkenalkan dengan menambahkan kelas [ChartSeriesGroup](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriesgroup/) dan [ChartSeriesGroupCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriesgroupcollection/) serta properti [SeriesGroups](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/seriesgroups/).
+* Fungsionalitas untuk memanipulasi efek SoftEdge bentuk telah diterapkan dengan menambahkan kelas [SoftEdgeFormat](https://reference.aspose.com/words/net/aspose.words.drawing/softedgeformat/).
+* Kemampuan untuk mengubah nilai penyesuaian bentuk telah diterapkan dengan menambahkan [AdjustmentCollection](https://reference.aspose.com/words/net/aspose.words.drawing/adjustmentcollection/) dan [Adjustment](https://reference.aspose.com/words/net/aspose.words.drawing/adjustment/) kelas umum dan [Adjustments](https://reference.aspose.com/words/net/aspose.words.drawing/shape/adjustments/) Properti.
+
+#### Perubahan Bagan, Bentuk, dan Gambar <sup>24.6</sup>
+
+* Kemampuan pembuatan grafik telah ditingkatkan. Kini Anda dapat membuat lebih banyak variasi bagan, termasuk *Peta Pohon*, *Sunburst*, *Histogram*, bagan *Pareto*, bagan *Kotak & Kumis*, *Air Terjun*, dan *Corong*. Hal ini memungkinkan Anda memvisualisasikan data dengan cara yang lebih beragam dan informatif.
+* Kontrol warna untuk pemformatan bayangan telah ditingkatkan. Anda bisa mendapatkan kontrol yang lebih tepat atas tampilan dokumen Anda dengan mengakses warna bayangan.
+* Peningkatan kinerja untuk rendering latar belakang telah ditingkatkan. Anda dapat mempercepat rendering latar belakang yang berisi elemen kecil secara signifikan berkat teknologi ubin asli.
+* Gradien realistis untuk bentuk telah ditambahkan. Anda sekarang dapat membuat bentuk DML dengan gradien non-linier, meniru gaya visual Microsoft Word untuk tampilan yang lebih halus.
+
+### Cari dan Bandingkan
+
+#### Opsi Perbandingan Lanjutan <sup>24.6</sup>
+Kemampuan untuk menyederhanakan alur kerja analisis data dengan fungsionalitas perbandingan yang ditingkatkan telah ditambahkan. Ini mencakup opsi [IgnoreStoreItemId](https://reference.aspose.com/words/net/aspose.words.comparing/advancedcompareoptions/ignorestoreitemid/) baru dan antarmuka yang didesain ulang untuk perbandingan lanjutan.
+
+### Lainnya
+
+* Fungsi untuk menghilangkan halaman kosong dari dokumen telah diterapkan dengan menambahkan metode [RemoveBlankPages](https://reference.aspose.com/words/net/aspose.words/document/removeblankpages/). <sup>24.5</sup>
+* Kemampuan untuk memeriksa keberadaan makro VBA tanpa memuat dokumen telah disediakan dengan menambahkan properti [HasMacros](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/hasmacros/). <sup>24.5</sup>
+* Menyimpan penomoran sumber saat memasukkan dokumen menggunakan Mesin Pelaporan LINQ kini didukung. <sup>24.5</sup>
+* Properti [DateTimeUtc](https://reference.aspose.com/words/net/aspose.words/comment/datetimeutc/) baru telah ditambahkan – ini memberikan stempel waktu yang lebih tepat untuk komentar, meningkatkan pengorganisasian, dan ketertelusuran. <sup>24.6</sup>
+* Mesin Pelaporan LINQ telah ditingkatkan. Penghapusan selektif paragraf kosong dan definisi pesan khusus untuk anggota objek yang hilang telah dilakukan, menghasilkan laporan yang lebih bersih dan informatif. <sup>24.6</sup>
+
+{{% alert color="primary" %}}
+
+Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk .NET 24.5](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-5-release-notes/).
+
+Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk .NET 24.6](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-6-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words untuk .NET 24.1, 24.2, 24.3, 24.4
 
 Aspose.Words 24.1 meningkatkan pengalaman dalam mengelola warna guratan, menyempurnakan objek OLE dan pelaporan LINQ, serta memperkenalkan API publik Sumber Bibliografi baru.
@@ -65,10 +112,10 @@ Pembaca/pemutar TIFF baru telah dikembangkan untuk Aspose.Words untuk .NET Stand
 * API publik Sumber Bibliografi diimplementasikan melalui penambahan namespace [Aspose.Words.Bibliography](https://reference.aspose.com/words/net/aspose.words.bibliography/) baru dengan kelas dan enumerasi baru, dan melalui penambahan properti [Bibliography](https://reference.aspose.com/words/net/aspose.words/document/bibliography/) baru ke kelas [Document](https://reference.aspose.com/words/net/aspose.words/document/). <sup>24.1</sup>
 * API untuk membatasi akses ke anggota tipe menggunakan sintaks templat untuk Mesin Pelaporan LINQ telah disediakan. <sup>24.1</sup>
 * Properti publik baru [Priority](https://reference.aspose.com/words/net/aspose.words/style/priority/), [UnhideWhenUsed](https://reference.aspose.com/words/net/aspose.words/style/unhidewhenused/), dan [SemiHidden](https://reference.aspose.com/words/net/aspose.words/style/semihidden/) untuk manajemen gaya yang ditingkatkan telah ditambahkan ke kelas [Style](https://reference.aspose.com/words/net/aspose.words/style/). <sup>24.2</sup>
-- Fungsi untuk mengambil teks tanda referensi sebenarnya untuk catatan kaki dan catatan akhir telah ditingkatkan dengan properti [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) dan metode [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/). <sup>24.2</sup>
-- Kompatibilitas dengan grafik `Word 2016` untuk `LINQ Reporting Engine` telah diaktifkan. <sup>24.2</sup>
-- Emulasi operasi raster biner untuk metafile WMF telah diimplementasikan. <sup>24.3</sup>
-- Kemampuan untuk menentukan opsi tanda tangan untuk dokumen dalam SaveOptions telah diaktifkan dengan menambahkan kelas baru bernama [DigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/digitalsignaturedetails/) dengan anggota publik baru, serta menambahkan properti baru ke dalam kelas-kelas [OoxmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/), dan [OdtSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/odtsaveoptions/). <sup>24.4</sup>
+* Fungsi untuk mengambil teks tanda referensi sebenarnya untuk catatan kaki dan catatan akhir telah ditingkatkan dengan properti [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) dan metode [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/). <sup>24.2</sup>
+* Kompatibilitas dengan grafik `Word 2016` untuk `LINQ Reporting Engine` telah diaktifkan. <sup>24.2</sup>
+* Emulasi operasi raster biner untuk metafile WMF telah diimplementasikan. <sup>24.3</sup>
+* Kemampuan untuk menentukan opsi tanda tangan untuk dokumen dalam SaveOptions telah diaktifkan dengan menambahkan kelas baru bernama [DigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/digitalsignaturedetails/) dengan anggota publik baru, serta menambahkan properti baru ke dalam kelas-kelas [OoxmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/), dan [OdtSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/odtsaveoptions/). <sup>24.4</sup>
 
 {{% alert color="primary" %}}
 
@@ -407,102 +454,6 @@ Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk .NET 22.10](/wor
 Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk .NET 22.11](/words/net/aspose-words-for-net-22-11-release-notes/).
 
 Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk .NET 22.12](/words/net/aspose-words-for-net-22-12-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words untuk .NET 22.5, 22.6, 22.7, 22.8
-
-Aspose.Words 22.5 memperkenalkan dukungan untuk format pemuatan baru dan ukuran halaman cetak baru, serta meningkatkan beberapa opsi rendering.
-
-Aspose.Words 22.6 memperluas kemungkinan mengonversi PDF ke format lain, serta meningkatkan pekerjaan dengan DrawingML dan efek pengisian teks padat.
-
-Aspose.Words 22.7 meningkatkan kemungkinan bekerja dengan fitur rendering, dan juga menambahkan fitur baru untuk bekerja dengan impor dan ekspor HTML ke PDF.
-
-Aspose.Words 22.8 memperkenalkan format ekspor baru dan meningkatkan berbagai algoritma rendering.
-
-API ditingkatkan untuk pengembangan yang lebih fleksibel dan nyaman.
-
-### Format yang Didukung
-
-* Dukungan untuk memuat dokumen EPUB dan XML telah diperkenalkan dengan menambahkan nilai baru ke enumerasi [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/). Mulai dari versi 22.5, dimungkinkan untuk memuat dokumen EPUB dan XML ke dalam model dokumen Aspose.Words dan mengonversinya ke [format yang didukung](https://reference.aspose.com/words/net/aspose.words/saveformat/) apa pun. <sup>22.5</sup>
-* Mulai dari versi 22.8, dimungkinkan untuk menyimpan dokumen dalam format AZW3 – format file e-book milik Amazon Kindle (KF8 adalah nama lain untuk format tersebut). Sekarang Anda tidak hanya dapat memuat dokumen AZW3, tetapi juga mengekspor file Anda ke format AZW3, yang pada dasarnya adalah EPUB yang dikompilasi. <sup>22.8</sup>
-
-### Rendering dan Pencetakan
-
-#### Ukuran Cetak Baru <sup>22.5</sup>
-
-Dukungan untuk ukuran halaman cetak "Amplop No. 10" telah ditambahkan dengan memperkenalkan nilai baru pada enumerasi [PaperSize](https://reference.aspose.com/words/net/aspose.words/papersize/).
-
-#### Merender Rumus MathML <sup>22.5</sup>
-
-Rendering kotak pembatas di sekitar rumus MathML dan deteksi font saat merender karakter untuk rumus tersebut telah ditingkatkan.
-
-#### Peningkatan Grafik DML <sup>22.6</sup>
-
-Grafik DrawingML API publik telah diperluas untuk mendukung pengisian gradien, tekstur, dan pola.
-
-#### Glyph Menguraikan Parsing untuk OpenType <sup>22.7</sup>
-
-glyph Aspose.Words sendiri menguraikan penguraian untuk font OpenType (CFF) telah diterapkan.
-
-Sebelumnya, penguraian glyph untuk font OpenType (CFF) dilakukan melalui GDI+. Jadi sekarang ini berfungsi jika GDI+ tidak tersedia – Java, platform .NET Standard, Linux OS, dll. Penguraian kerangka Glyph diperlukan dalam kasus tertentu seperti WordArt, efek teks, beberapa fitur Office Math, dan lainnya.
-
-#### Mengatur Pemformatan Bentuk Bayangan <sup>22.7</sup>
-
-Kemampuan untuk mengatur format bayangan objek bentuk telah disediakan dengan menambahkan properti [ShadowFormat](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/shadowformat/) baru.
-
-#### Dukungan untuk Spasi Sel pada Tabel <sup>22.8</sup>
-
-Mesin tata letak kini ditingkatkan secara signifikan: mekanisme spasi sel yang sangat kompleks dalam tabel telah diterapkan.
-
-#### Penggantian Font untuk Simbol <sup>22.8</sup>
-
-Penggantian font untuk simbol telah ditingkatkan.
-
-#### Algoritma Rotasi Label Sumbu Bagan <sup>22.8</sup>
-
-Algoritme rotasi label sumbu bagan telah ditingkatkan.
-
-### Memuat dan Menyimpan Dokumen
-
-#### Memuat dan Mengonversi PDF ke Format Halaman Tetap tanpa Model Tata Letak <sup>22.6</sup>
-
-Kemampuan untuk memuat dan mengonversi dokumen PDF ke format halaman tetap dengan fidelitas dan kinerja tinggi telah diterapkan.
-
-#### Mode Impor HTML Baru <sup>22.7</sup>
-
-Mode impor HTML baru untuk elemen tingkat blok telah diperkenalkan dengan menambahkan nilai baru ke enumerasi [HtmlInsertOptions](https://reference.aspose.com/words/net/aspose.words/htmlinsertoptions/).
-
-#### Konversikan ke PDF/UA-1 CSompliant dengan WCAG 2.0 <sup>22.7</sup>
-
-Dukungan untuk mengonversi dokumen ke format PDF/UA-1, sesuai dengan WCAG 2.0, telah ditambahkan.
-
-Jadi, jika pelanggan memiliki dokumen Word yang dapat diakses dan mengonversinya ke PDF/UA-1 melalui Aspose.Words dengan menyebutkan spesifikasi konversi, maka hasilnya akan kompatibel dengan WCAG 2.0.
-
-WCAG atau Pedoman Aksesibilitas Konten Web adalah seperangkat pedoman yang dikembangkan oleh W3C bekerja sama dengan individu dan organisasi di seluruh dunia. Sekarang dengan Aspose.Words Anda dapat mengonversi dokumen Anda ke format keluaran PDF/UA-1, yang cocok untuk membuat dokumen PDF yang sesuai dengan WCAG 2.0.
-
-Perlu dicatat bahwa WCAG 2.0 memiliki dua persyaratan tambahan yang tidak ditentukan dalam spesifikasi PDF/UA-1:
-
-* persyaratan kontras
-
-* Persyaratan untuk menandai konten multimedia
-
-Namun kedua persyaratan tersebut tidak relevan dengan kasus kami mengonversi dari Word ke PDF.
-
-### Lainnya
-
-* Pengecualian untuk mewarisi efek pengisian teks padat yang meniru perilaku MS Word telah diterapkan. <sup>22.6</sup>
-* Dukungan bidang `DATABASE` telah ditambahkan. Dengan menggunakan jenis bidang ini, Anda bisa, misalnya, memperlihatkan hasil kueri database dalam tabel Microsoft Word. <sup>22.7</sup>
-
-{{% alert color="primary" %}}
-
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk .NET 22.5](/words/net/aspose-words-for-net-22-5-release-notes/).
-
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk .NET 22.6](/words/net/aspose-words-for-net-22-6-release-notes/).
-
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk .NET 22.7](/words/net/aspose-words-for-net-22-7-release-notes/).
-
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk .NET 22.8](/words/net/aspose-words-for-net-22-8-release-notes/).
 
 {{% /alert %}}
 

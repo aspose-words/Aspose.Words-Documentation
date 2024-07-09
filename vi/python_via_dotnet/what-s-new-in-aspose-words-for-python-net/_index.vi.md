@@ -11,6 +11,49 @@ url: /vi/python-net/what-s-new-in-aspose-words-for-python-net/
 
 Trang này mô tả các tính năng Aspose.Words mới thú vị nhất được giới thiệu trong các bản phát hành gần đây.
 
+## Aspose.Words cho Python via .NET 24.5, 24.6
+
+Aspose.Words 24.5 mở rộng các tùy chọn cho các cụm, cải thiện khả năng kết xuất và mở rộng một số tùy chọn khác.
+
+Aspose.Words 24.6 cải thiện các tùy chọn hiển thị, nâng cao chức năng tìm kiếm và so sánh cũng như mở rộng một số tính năng khác.
+
+### Hiển thị và In
+
+#### Những thay đổi trong Charts, Shapes và DrawingML <sup>24.5</sup>
+
+* Việc kết xuất hiệu ứng DrawML cho đồ họa SVG, mở rộng chức năng trước đó chỉ giới hạn ở hình ảnh, đã được triển khai.
+* Hỗ trợ tạo biểu đồ kết hợp và điều chỉnh các thuộc tính như độ rộng khoảng cách, sự chồng chéo và tỷ lệ bong bóng trong các nhóm chuỗi đã được giới thiệu bằng cách thêm các lớp [ChartSeriesGroup](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriesgroup/) và [ChartSeriesGroupCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriesgroupcollection/) cũng như thuộc tính [series_groups](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chart/series_groups/).
+* Chức năng thao tác hiệu ứng SoftEdge của các hình dạng đã được triển khai bằng cách thêm lớp [SoftEdgeFormat](https://reference.aspose.com/words/python-net/aspose.words.drawing/softedgeformat/).
+* Khả năng sửa đổi giá trị điều chỉnh của hình dạng đã được triển khai bằng cách thêm **AdjustmentCollection** và **Adjustment** các lớp công khai và [adjustments](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/adjustments/) tài sản.
+
+#### Những thay đổi về Biểu đồ, Hình dạng và Bản vẽ <sup>24.6</sup>
+
+* Khả năng biểu đồ đã được nâng cao. Giờ đây, bạn có thể tạo nhiều loại biểu đồ hơn, bao gồm *Bản đồ cây*, *Sunbursts*, *Biểu đồ*, biểu đồ *Pareto*, biểu đồ *Box & Whisker*, *Thác nước* và *Kênh*. Điều này cho phép bạn trực quan hóa dữ liệu của mình theo cách đa dạng và nhiều thông tin hơn.
+* Kiểm soát màu sắc cho định dạng bóng đã được cải thiện. Bạn có thể kiểm soát chính xác hơn hình thức của tài liệu bằng cách truy cập vào màu bóng.
+* Cải thiện hiệu suất hiển thị nền. Bạn có thể tăng tốc đáng kể việc hiển thị nền có chứa các phần tử nhỏ nhờ công nghệ ốp lát gốc.
+* Độ dốc thực tế cho hình dạng đã được thêm vào. Giờ đây, bạn có thể tạo các hình dạng DML với độ chuyển màu phi tuyến tính, bắt chước phong cách trực quan của Microsoft Word để có giao diện bóng bẩy hơn.
+
+### Tìm kiếm và so sánh
+
+#### Tùy chọn so sánh nâng cao <sup>24.6</sup>
+Khả năng hợp lý hóa quy trình phân tích dữ liệu với chức năng so sánh được cải thiện đã được thêm vào. Điều này bao gồm tùy chọn [ignore_store_item_id](https://reference.aspose.com/words/python-net/aspose.words.comparing/advancedcompareoptions/ignore_store_item_id/) mới và giao diện được thiết kế lại để so sánh nâng cao.
+
+#### Khác
+
+* Chức năng loại bỏ các trang trống khỏi tài liệu đã được triển khai bằng cách thêm phương thức [remove_blank_pages](https://reference.aspose.com/words/python-net/aspose.words/document/remove_blank_pages/). <sup>24.5</sup>
+* Khả năng kiểm tra sự hiện diện của macro VBA mà không cần tải tài liệu đã được cung cấp bằng cách thêm thuộc tính [has_macros](https://reference.aspose.com/words/python-net/aspose.words/fileformatinfo/has_macros/). <sup>24.5</sup>
+* Hiện đã hỗ trợ giữ nguyên đánh số nguồn trong khi chèn tài liệu bằng Công cụ Báo cáo LINQ. <sup>24.5</sup>
+* Thuộc tính [date_time_utc](https://reference.aspose.com/words/python-net/aspose.words/comment/date_time_utc/) mới đã được thêm vào – thuộc tính này cung cấp dấu thời gian chính xác hơn cho nhận xét, cải thiện khả năng tổ chức và truy xuất nguồn gốc. <sup>24.6</sup>
+* Công cụ báo cáo LINQ đã được cải tiến. Việc loại bỏ có chọn lọc các đoạn văn trống và định nghĩa các thông báo tùy chỉnh cho các thành phần đối tượng bị thiếu đã được thực hiện, dẫn đến các báo cáo rõ ràng hơn và nhiều thông tin hơn. <sup>24.6</sup>
+
+{{% alert color="primary" %}}
+
+Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho Python via .NET 24.5](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-5-release-notes/).
+
+Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho Python via .NET 24.6](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-6-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words cho Python via .NET 24.1, 24.2, 24.3, 24.4
 
 Aspose.Words 24.1 cải thiện trải nghiệm xung quanh việc quản lý màu nét, nâng cao các đối tượng OLE, cũng như giới thiệu API công khai Nguồn thư mục mới.
@@ -136,7 +179,7 @@ Tính năng nhận dạng siêu liên kết khi tải tài liệu TXT đã đư�
 
 ### Khác
 
-- Mô phỏng kết xuất siêu tệp để xác định kích thước rasterization đã được triển khai, đặc biệt cho chiều rộng bút WMF và chiều rộng bút mỹ phẩm EMF. Để đạt được điều này, thuộc tính **ScaleWmfFontsToMetafileSize** đã được thay thế bằng thuộc tính [emulate_rendering_to_size_on_page](https://reference.aspose.com/words/python-net/aspose.words.saving/metafilerenderingoptions/emulate_rendering_to_size_on_page/) và thuộc tính [emulate_rendering_to_size_on_page_resolution](https://reference.aspose.com/words/python-net/aspose.words.saving/metafilerenderingoptions/emulate_rendering_to_size_on_page_resolution/) đã được thêm vào. <sup>23,9</sup>
+- Mô phỏng kết xuất siêu tệp để xác định kích thước rasterization đã được triển khai, đặc biệt cho chiều rộng bút WMF và chiều rộng bút mỹ phẩm EMF. Để đạt được điều này, thuộc tính **ScaleWmfFontsToMetafileSize** đã được thay thế bằng thuộc tính [emulate_rendering_to_size_on_page](https://reference.aspose.com/words/python-net/aspose.words.saving/metafilerenderingoptions/emulate_rendering_to_size_on_page/) và thuộc tính [emulate_rendering_to_size_on_page_resolution](https://reference.aspose.com/words/python-net/aspose.words.saving/metafilerenderingoptions/emulate_rendering_to_size_on_page_resolution/) đã được thêm vào. <sup>23.9</sup>
 - Một phương pháp đơn giản để chèn một tài liệu vào một tài liệu khác tại vị trí con trỏ hiện tại đã được giới thiệu bằng phương pháp [insert_document_inline](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_document_inline/#document_importformatmode_importformatoptions). <sup>23.10</sup>
 - Khả năng truy cập và sửa đổi các thuộc tính kiểu đã được thêm vào thông qua việc giới thiệu thuộc tính [locked](https://reference.aspose.com/words/python-net/aspose.words/style/locked/) mới. <sup>23.10</sup>
 - Một tham số kiểu chung đã được thêm vào các phương thức của lớp [CompositeNode](https://reference.aspose.com/words/python-net/aspose.words/compositenode/). <sup>23.10</sup>
@@ -168,15 +211,15 @@ Aspose.Words 23.8 mở rộng khả năng của các định dạng khác nhau, 
 
 ### Các định dạng được hỗ trợ
 
-* Bắt đầu từ phiên bản 23.6, có thể lưu tài liệu ở định dạng XLSX. Bây giờ bạn có thể chuyển đổi tài liệu của mình sang định dạng Excel. <sup>23,6</sup>
+* Bắt đầu từ phiên bản 23.6, có thể lưu tài liệu ở định dạng XLSX. Bây giờ bạn có thể chuyển đổi tài liệu của mình sang định dạng Excel. <sup>23.6</sup>
 
-* Bắt đầu từ phiên bản 23.7, có thể lưu trang tài liệu hoặc hình dạng ở định dạng EPS. <sup>23,7</sup>
+* Bắt đầu từ phiên bản 23.7, có thể lưu trang tài liệu hoặc hình dạng ở định dạng EPS. <sup>23.7</sup>
 
 ### Tính năng định dạng mới
 
-- Đã giới thiệu chức năng tự động tạo Mục lục (TOC) cho tài liệu MOBI. <sup>23,8</sup>
-- Hàm tạo [PdfEncryptionDetails](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfencryptiondetails/__init__/#str_str_pdfpermissions) đã được mở rộng với [PdfPermissions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfencryptiondetails/__init__/#str_str_pdfpermissions). <sup>23,8</sup>
-- Việc định hình văn bản dọc cho siêu tệp EMF đã được triển khai. <sup>23,8</sup>
+- Đã giới thiệu chức năng tự động tạo Mục lục (TOC) cho tài liệu MOBI. <sup>23.8</sup>
+- Hàm tạo [PdfEncryptionDetails](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfencryptiondetails/__init__/#str_str_pdfpermissions) đã được mở rộng với [PdfPermissions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfencryptiondetails/__init__/#str_str_pdfpermissions). <sup>23.8</sup>
+- Việc định hình văn bản dọc cho siêu tệp EMF đã được triển khai. <sup>23.8</sup>
 
 ### Kết xuất
 
@@ -223,11 +266,11 @@ Các phương pháp LowCode mới nhằm hợp nhất các loại tài liệu kh
 
 ### Khác
 
-- Hỗ trợ gói văn bản trong đầu trang/chân trang đã được triển khai. <sup>23,5</sup>
-- Khả năng loại bỏ chữ ký số khỏi tài liệu ODT đã được bổ sung thông qua phương pháp [RemoveAllSignatures](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignatureutil/remove_all_signatures/#str_str). <sup>23,5</sup>
-- Thuộc tính công cộng [phonetic_guide](https://reference.aspose.com/words/python-net/aspose.words/run/phonetic_guide/) để lấy văn bản cơ sở và hồng ngọc của hướng dẫn ngữ âm [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) đã được thêm vào. <sup>23,5</sup>
-- Khả năng truy xuất giá trị chữ ký số từ tài liệu được ký điện tử dưới dạng mảng byte đã được thêm bằng cách giới thiệu thuộc tính [signature_value](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignature/signature_value/) mới. <sup>23,7</sup>
-- Các lớp [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) và [Cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/) đã được mở rộng với các thành viên công cộng mới – [Row.next_row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/next_row/), [Row.previous_row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/previous_row/), [Cell.next_cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/next_cell/) và [Cell.previous_cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/previous_cell/). <sup>23,7</sup>
+- Hỗ trợ gói văn bản trong đầu trang/chân trang đã được triển khai. <sup>23.5</sup>
+- Khả năng loại bỏ chữ ký số khỏi tài liệu ODT đã được bổ sung thông qua phương pháp [RemoveAllSignatures](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignatureutil/remove_all_signatures/#str_str). <sup>23.5</sup>
+- Thuộc tính công cộng [phonetic_guide](https://reference.aspose.com/words/python-net/aspose.words/run/phonetic_guide/) để lấy văn bản cơ sở và hồng ngọc của hướng dẫn ngữ âm [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) đã được thêm vào. <sup>23.5</sup>
+- Khả năng truy xuất giá trị chữ ký số từ tài liệu được ký điện tử dưới dạng mảng byte đã được thêm bằng cách giới thiệu thuộc tính [signature_value](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignature/signature_value/) mới. <sup>23.7</sup>
+- Các lớp [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) và [Cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/) đã được mở rộng với các thành viên công cộng mới – [Row.next_row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/next_row/), [Row.previous_row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/previous_row/), [Cell.next_cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/next_cell/) và [Cell.previous_cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/previous_cell/). <sup>23.7</sup>
 
 {{% alert color="primary" %}}
 
@@ -377,8 +420,8 @@ Khả năng bỏ qua [StructuredDocumentTag](https://reference.aspose.com/words/
 
 ### Khác
 
-- Một tính năng mới để lấy FieldEQ làm OfficeMath đã được thêm vào. <sup>22,9</sup>
-- Cho phép tạo các thẻ tài liệu có cấu trúc thuộc loại Group ở cấp Hàng. <sup>22,9</sup>
+- Một tính năng mới để lấy FieldEQ làm OfficeMath đã được thêm vào. <sup>22.9</sup>
+- Cho phép tạo các thẻ tài liệu có cấu trúc thuộc loại Group ở cấp Hàng. <sup>22.9</sup>
 - Các đối tượng và điều khiển OLE hiện được coi là hình ảnh siêu tệp khi chuyển đổi tài liệu sang HTML. <sup>22.10</sup>
 - Một tính năng mới để kiểm tra xem một danh sách cụ thể có được tạo từ cùng một mẫu với danh sách so sánh hay không đã được thêm vào bằng cách đưa phương thức **HasSameTemplate** mới vào lớp [List](https://reference.aspose.com/words/python-net/aspose.words.lists/list/). <sup>22.10</sup>
 - Khả năng tạo thẻ tài liệu có cấu trúc mới thuộc loại [Citation](https://reference.aspose.com/words/python-net/aspose.words.markup/sdttype/) đã được thêm vào. <sup>22.11</sup>
@@ -393,181 +436,6 @@ Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho Python via .NET 22
 Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho Python via .NET 22.11](/words/python-net/aspose-words-for-python-via-dotnet-22-11-release-notes/).
 
 Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho Python via .NET 22.12](/words/python-net/aspose-words-for-python-via-dotnet-22-12-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words cho Python via .NET 22.5, 22.6, 22.7, 22.8
-
-Aspose.Words 22.5 giới thiệu hỗ trợ cho các định dạng tải mới và kích thước trang in mới, cũng như cải thiện một số tùy chọn kết xuất.
-
-Aspose.Words 22.6 mở rộng khả năng chuyển đổi PDF sang các định dạng khác, cũng như cải thiện công việc với DrawML và hiệu ứng điền văn bản rắn.
-
-Aspose.Words 22.7 nâng cao khả năng làm việc với các tính năng kết xuất, đồng thời bổ sung thêm các tính năng mới để làm việc với việc nhập và xuất HTML sang PDF.
-
-Aspose.Words 22.8 giới thiệu định dạng xuất mới và cải thiện các thuật toán kết xuất khác nhau.
-
-API được cải tiến để phát triển linh hoạt và thuận tiện hơn.
-
-### Các định dạng được hỗ trợ
-
-* Hỗ trợ tải tài liệu EPUB và XML đã được giới thiệu bằng cách thêm các giá trị mới vào bảng liệt kê **LoadFormat**. Bắt đầu từ phiên bản 22.5, có thể tải tài liệu EPUB và XML vào mô hình tài liệu Aspose.Words và chuyển đổi chúng sang bất kỳ [Định dạng tài liệu được hỗ trợ](/words/vi/python-net/supported-document-formats/) nào. <sup>22,5</sup>
-* Bắt đầu từ phiên bản 22.8, có thể lưu tài liệu ở định dạng AZW3 – định dạng tệp sách điện tử độc quyền của Amazon Kindle (KF8 là tên gọi khác của định dạng). Giờ đây, bạn không chỉ có thể tải tài liệu AZW3 mà còn có thể xuất các tệp của mình sang định dạng AZW3, về cơ bản là một EPUB được biên dịch. <sup>22,8</sup>
-
-### Kết xuất và in ấn
-
-#### Kích thước in mới <sup>22,5</sup>
-
-Hỗ trợ cho kích thước trang in "Phong bì số 10" đã được thêm bằng cách giới thiệu một giá trị mới cho bảng liệt kê [PaperSize](https://reference.aspose.com/words/python-net/aspose.words/papersize/).
-
-#### Hiển thị Công thức MathML <sup>22.5</sup>
-
-Việc hiển thị hộp viền xung quanh các công thức MathML và phát hiện phông chữ khi hiển thị các ký tự cho các công thức đó đã được cải thiện.
-
-#### Cải tiến biểu đồ DML <sup>22.6</sup>
-
-API công khai của biểu đồ DrawML đã được mở rộng để hỗ trợ tô màu gradient, kết cấu và mẫu.
-
-#### Glyph phác thảo phân tích cú pháp cho OpenType <sup>22.7</sup>
-
-Việc phân tích cú pháp phác thảo glyph của Aspose.Words cho các phông chữ OpenType (CFF) đã được triển khai.
-
-Trước đây, việc phân tích cú pháp glyph cho phông chữ OpenType (CFF) được thực hiện thông qua GDI+. Vì vậy, giờ đây nó hoạt động trong những trường hợp không có GDI+ – Java, nền tảng .NET Standard, Linux, macOS, v.v. Phân tích cú pháp phác thảo Glyph là bắt buộc trong các trường hợp cụ thể như WordArt, hiệu ứng văn bản, một số tính năng Office Math và các tính năng khác.
-
-#### Đặt định dạng bóng hình dạng <sup>22.7</sup>
-
-Khả năng thiết lập định dạng bóng của đối tượng hình dạng đã được cung cấp bằng cách thêm thuộc tính [shadow_format](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/shadow_format/) mới.
-
-#### Hỗ trợ khoảng cách ô trong bảng <sup>22.8</sup>
-
-Công cụ bố trí hiện đã được cải tiến đáng kể: cơ chế giãn cách ô rất phức tạp trong các bảng đã được triển khai.
-
-#### Thay thế phông chữ cho ký hiệu <sup>22.8</sup>
-
-Việc thay thế phông chữ cho các ký hiệu đã được cải thiện.
-
-#### Thuật toán xoay nhãn trục biểu đồ <sup>22.8</sup>
-
-Thuật toán xoay nhãn trục biểu đồ đã được cải thiện.
-
-### Tải và lưu tài liệu
-
-#### Tải và chuyển đổi PDF sang định dạng trang cố định mà không cần Layout Model <sup>22.6</sup>
-
-Khả năng tải và chuyển đổi tài liệu PDF sang các định dạng trang cố định với độ trung thực và hiệu suất cao đã được triển khai.
-
-#### Chế độ nhập HTML mới <sup>22.7</sup>
-
-Chế độ nhập HTML mới cho các phần tử cấp khối đã được giới thiệu bằng cách thêm một giá trị mới vào bảng liệt kê [HtmlInsertOptions](https://reference.aspose.com/words/python-net/aspose.words/htmlinsertoptions/).
-
-#### Chuyển đổi sang PDF/UA-1 Tuân thủ WCAG 2.0 <sup>22.7</sup>
-
-Hỗ trợ chuyển đổi tài liệu sang định dạng PDF/UA-1, tương thích với WCAG 2.0, đã được thêm vào.
-
-Vì vậy, nếu khách hàng có tài liệu Word có thể truy cập và chuyển đổi nó thành PDF/UA-1 thông qua Aspose.Words có đề cập đến thông tin cụ thể về chuyển đổi thì đầu ra sẽ tương thích với WCAG 2.0.
-
-WCAG hay Nguyên tắc truy cập nội dung web là một bộ nguyên tắc được W3C phát triển với sự cộng tác của các cá nhân và tổ chức trên toàn thế giới. Giờ đây với Aspose.Words, bạn có thể chuyển đổi tài liệu của mình sang định dạng PDF/UA-1 đầu ra, phù hợp để xây dựng tài liệu PDF tuân thủ WCAG 2.0.
-
-Điều đáng chú ý là WCAG 2.0 có hai yêu cầu bổ sung không được chỉ định trong đặc tả PDF/UA-1:
-
-- yêu cầu về độ tương phản
-- yêu cầu gắn thẻ nội dung đa phương tiện
-
-Nhưng cả hai yêu cầu đều không liên quan đến trường hợp chuyển đổi từ Word sang PDF của chúng tôi.
-
-### Khác
-
-Ngoại lệ kế thừa hiệu ứng điền văn bản rắn bắt chước hành vi của MS Word đã được triển khai. <sup>22,6</sup>
-
-{{% alert color="primary" %}}
-
-Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho Python via .NET 22.5](/words/python-net/aspose-words-for-python-via-dotnet-22-5-release-notes/).
-
-Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho Python via .NET 22.6](/words/python-net/aspose-words-for-python-via-dotnet-22-6-release-notes/).
-
-Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho Python via .NET 22.7](/words/python-net/aspose-words-for-python-via-dotnet-22-7-release-notes/).
-
-Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho Python via .NET 22.8](/words/python-net/aspose-words-for-python-via-dotnet-22-8-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words cho Python via .NET 22.3, 22.4
-
-Aspose.Words 22.3 mở rộng khả năng làm việc với các định dạng PDF và TXT, đồng thời cải thiện hoạt động của một số thuật toán và công cụ hiện có.
-
-Aspose.Words 22.4 nâng cao khả năng của PDF – giờ đây bạn có thể lưu tệp ở định dạng PDF/A-4 và nhận được một số cải tiến khác về đầu ra PDF. Đồng thời, Aspose.Words 22.4 cung cấp các khả năng bổ sung để làm việc với biểu đồ DML, đọc siêu dữ liệu Photoshop và nhập các phần tử cấp khối HTML.
-
-API được cải tiến để phát triển linh hoạt và thuận tiện hơn.
-
-### Các tính năng được hỗ trợ
-
-Bắt đầu với Aspose.Words 22.4, hỗ trợ cho Python 3.10 đã được thêm vào.
-
-### Cải tiến hiệu suất
-
-Việc tải bộ đệm tìm kiếm phông chữ đã lưu trước đó để tăng tốc quá trình khởi tạo bộ đệm phông chữ khi kết xuất đã được triển khai. Bây giờ các giải pháp của bạn sẽ hoạt động nhanh hơn nữa.
-
-### Các định dạng được hỗ trợ
-
-Tải tài liệu ở định dạng AZW3 (KF8 là tên gọi khác của định dạng) đã được thêm vào. Bây giờ bạn có thể tải tài liệu AZW3 và chuyển đổi nó sang bất kỳ định dạng được hỗ trợ nào khác.
-
-### Kết xuất
-
-#### Hiển thị công thức MathML
-
-Việc hiển thị các toán tử trong công thức MathML đã được cải thiện.
-
-#### Cải tiến biểu đồ DML
-
-Những cải tiến sau đây đã được thực hiện đối với biểu đồ DML:
-
-* Thuật toán chia tỷ lệ trục biểu đồ DML đã được cải tiến giống như trong MS Word
-
-* Khả năng thao tác với các mục chú thích biểu đồ DrawML đã được cung cấp để làm cho biểu đồ API của chúng tôi ngày càng toàn diện hơn
-* Khả năng chỉ định tên của tệp xls/xlsx mà biểu đồ DrawML được liên kết tới đã được triển khai
-
-#### Hiển thị sang PDF tuân thủ PDF/A-4
-
-Việc hiển thị thành PDF tuân thủ PDF/A-4 đã được thêm bằng cách thêm các giá trị mới vào bảng liệt kê [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) – [PDF_A4](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/#pdf_a4). Tùy chọn này giả định mức độ tuân thủ đã được sửa đổi: mức độ tuân thủ PDF/A-4 thông thường tương đương với mức độ tuân thủ U của các phiên bản trước và mức độ tuân thủ mức A bị loại bỏ.
-
-#### Đọc độ phân giải siêu dữ liệu Photoshop ở dạng JPEG
-
-Việc đọc độ phân giải siêu dữ liệu Photoshop trong hình ảnh JPEG đã được triển khai để khắc phục sự cố thú vị với việc chia tỷ lệ hình ảnh không chính xác khi hiển thị.
-
-#### Cho phép văn bản Latinh được bọc ở giữa từ
-
-Hỗ trợ cho tính năng "Cho phép văn bản Latinh nằm giữa một từ" đã được triển khai để giúp hỗ trợ tiếng Latinh của chúng tôi thậm chí còn tốt hơn khi kết xuất.
-
-### Tải và lưu tài liệu
-
-#### Kiểm soát hành vi kiểu khi tải tài liệu
-
-Một tùy chọn mới [force_copy_styles](https://reference.aspose.com/words/python-net/aspose.words/importformatoptions/force_copy_styles/) đã được giới thiệu để kiểm soát hành vi của các kiểu xung đột khi nhập tài liệu.
-
-#### Chuyển đổi hình dạng sang SVG khi xuất
-
-Khả năng chuyển đổi hình dạng thành hình ảnh SVG khi xuất sang HTML, MHTML hoặc EPUB đã được cung cấp bằng cách thêm thuộc tính [export_shapes_as_svg](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/export_shapes_as_svg/).
-
-#### Lưu vào PDF 2.0 và cải tiến đầu ra PDF
-
-Khả năng lưu tài liệu dưới dạng PDF 2.0 bằng cách thêm giá trị mới vào bảng liệt kê [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/), cũng như một số cải tiến được yêu cầu khác đối với đầu ra PDF, đã được giới thiệu.
-
-#### Chế độ nhập HTML mới
-
-Chế độ nhập mới cho các phần tử cấp khối HTML đã được triển khai để bắt chước hành vi Microsoft Word.
-
-### Khác
-
-* Khả năng lấy OOXML của điều khiển nội dung và lưu nó vào chuỗi đã được giới thiệu.
-* Đã thêm tính năng nhận dạng chú thích cuối trang không chuẩn trong tài liệu PDF khi nhập.
-* Khả năng lấy dữ liệu trường tùy chỉnh được liên kết với trường đã được thêm.
-* Thuật toán so sánh bảng dựa trên phân tích sâu của cơ chế so sánh Microsoft Word đã được cải tiến.
-* Cú pháp nhận xét trong công cụ Báo cáo LINQ đã được cung cấp.
-
-{{% alert color="primary" %}}
-
-Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho Python via .NET 22.3](/words/python-net/aspose-words-for-python-via-dotnet-22-3-release-notes/).
-
-Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho Python via .NET 22.4](/words/python-net/aspose-words-for-python-via-dotnet-22-4-release-notes/).
 
 {{% /alert %}}
 

@@ -11,6 +11,49 @@ url: /pt/python-net/what-s-new-in-aspose-words-for-python-net/
 
 Esta página descreve os novos recursos Aspose.Words mais interessantes introduzidos em versões recentes.
 
+## Aspose.Words para Python via .NET 24.5, 24,6
+
+O Aspose.Words 24.5 expande as opções para montagens, melhora as capacidades de renderização e expande algumas outras opções.
+
+O Aspose.Words 24.6 melhora as opções de renderização, melhora a funcionalidade de pesquisa e comparação e expande várias outras características.
+
+### Renderização e impressão
+
+#### Mudanças em Charts, Shapes e DrawingML <sup>24.5</sup>
+
+* A renderização de efeitos DrawingML para gráficos SVG, estendendo a funcionalidade anterior limitada a imagens, foi implementada.
+* O suporte para criação de gráficos combinados e ajuste de propriedades como largura de intervalo, sobreposição e escala de bolha em grupos de séries foi introduzido com a adição das classes [ChartSeriesGroup](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriesgroup/) e [ChartSeriesGroupCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriesgroupcollection/) e da propriedade [series_groups](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chart/series_groups/).
+* A funcionalidade para manipular o efeito SoftEdge de formas foi implementada adicionando a classe [SoftEdgeFormat](https://reference.aspose.com/words/python-net/aspose.words.drawing/softedgeformat/).
+* A capacidade de modificar valores de ajuste de formas foi implementada adicionando **AdjustmentCollection** e **Adjustment** classes públicas e [adjustments](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/adjustments/) propriedade.
+
+#### Alterações nos gráficos, formas e desenhos <sup>24.6</sup>
+
+* Os recursos de gráficos foram melhorados. Agora pode criar uma maior variedade de gráficos, incluindo *Treemaps*, *Sunbursts*, *Histogramas*, gráficos *Pareto*, gráficos *Box & Whisker*, *Waterfalls* e *Funnels*. Isto permite-lhe visualizar os seus dados de uma forma mais diversificada e informativa.
+* O controlo de cores para a formatação de sombras foi melhorado. Pode obter um controlo mais preciso sobre a aparência dos seus documentos, acedendo às cores das sombras.
+* O aumento de desempenho para renderização em segundo plano foi melhorado. Pode acelerar significativamente a renderização de fundos contendo pequenos elementos graças à tecnologia nativa de azulejos.
+* Foram adicionados gradientes realistas para formas. Agora pode criar formas DML com gradientes não lineares, imitando o estilo visual do Microsoft Word para um aspeto mais refinado.
+
+### Pesquise e compare
+
+#### Opções avançadas de comparação <sup>24,6</sup>
+Foi adicionada a capacidade de agilizar os fluxos de trabalho de análise de dados com uma funcionalidade de comparação melhorada. Isto inclui uma nova opção [ignore_store_item_id](https://reference.aspose.com/words/python-net/aspose.words.comparing/advancedcompareoptions/ignore_store_item_id/) e uma interface redesenhada para comparações avançadas.
+
+### Outro
+
+* A função para eliminar páginas vazias de um documento foi implementada adicionando o método [remove_blank_pages](https://reference.aspose.com/words/python-net/aspose.words/document/remove_blank_pages/). <sup>24.5</sup>
+* A capacidade de verificar a presença de macros VBA sem carregar um documento foi fornecida adicionando a propriedade [has_macros](https://reference.aspose.com/words/python-net/aspose.words/fileformatinfo/has_macros/). <sup>24.5</sup>
+* Agora há suporte para manter a numeração de origem ao inserir um documento usando o LINQ Reporting Engine. <sup>24.5</sup>
+* Foi adicionada uma nova propriedade [date_time_utc](https://reference.aspose.com/words/python-net/aspose.words/comment/date_time_utc/) – fornece um carimbo de data/hora mais preciso para comentários, melhorando a organização e a rastreabilidade. <sup>24.6</sup>
+* O motor de relatórios LINQ foi melhorado. Foi feita a remoção seletiva de parágrafos vazios e a definição de mensagens personalizadas para membros de objetos em falta, gerando relatórios mais limpos e informativos. <sup>24.6</sup>
+
+{{% alert color="primary" %}}
+
+Saiba mais sobre [Notas de versão do Aspose.Words para Python via .NET 24.5](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-5-release-notes/).
+
+Saiba mais sobre [Notas de versão do Aspose.Words para Python via .NET 24.6](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-6-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words para Python via .NET 24.1, 24.2, 24.3, 24.4
 
 Aspose.Words 24.1 melhora a experiência de gerenciamento de cores de traços, aprimora objetos OLE e também introduz um novo API público de fontes bibliográficas.
@@ -136,7 +179,7 @@ O recurso de reconhecimento de hiperlinks ao carregar documentos TXT foi impleme
 
 ### Outro
 
-- Foi implementada emulação de renderização de metarquivo para determinar o tamanho da rasterização, especificamente para largura de caneta WMF e largura de caneta cosmética EMF. Para conseguir isso, a propriedade **ScaleWmfFontsToMetafileSize** foi substituída pela propriedade [emulate_rendering_to_size_on_page](https://reference.aspose.com/words/python-net/aspose.words.saving/metafilerenderingoptions/emulate_rendering_to_size_on_page/) e a propriedade [emulate_rendering_to_size_on_page_resolution](https://reference.aspose.com/words/python-net/aspose.words.saving/metafilerenderingoptions/emulate_rendering_to_size_on_page_resolution/) foi adicionada. <sup>23,9</sup>
+- Foi implementada emulação de renderização de metarquivo para determinar o tamanho da rasterização, especificamente para largura de caneta WMF e largura de caneta cosmética EMF. Para conseguir isso, a propriedade **ScaleWmfFontsToMetafileSize** foi substituída pela propriedade [emulate_rendering_to_size_on_page](https://reference.aspose.com/words/python-net/aspose.words.saving/metafilerenderingoptions/emulate_rendering_to_size_on_page/) e a propriedade [emulate_rendering_to_size_on_page_resolution](https://reference.aspose.com/words/python-net/aspose.words.saving/metafilerenderingoptions/emulate_rendering_to_size_on_page_resolution/) foi adicionada. <sup>23.9</sup>
 - Um método simplificado para inserir um documento em outro documento na posição atual do cursor foi introduzido usando o método [insert_document_inline](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_document_inline/#document_importformatmode_importformatoptions). <sup>23h10</sup>
 - A capacidade de acessar e modificar propriedades de estilo foi adicionada através da introdução da nova propriedade [locked](https://reference.aspose.com/words/python-net/aspose.words/style/locked/). <sup>23h10</sup>
 - Foi adicionado um parâmetro de tipo genérico aos métodos da classe [CompositeNode](https://reference.aspose.com/words/python-net/aspose.words/compositenode/). <sup>23h10</sup>
@@ -156,7 +199,7 @@ Saiba mais sobre [Aspose.Words para .NET 23.12 Notas de versão](https://release
 
 {{% /alert %}}
 
-## Aspose.Words para Python via .NET 23,5, 23,6, 23,7, 23,8
+## Aspose.Words para Python via .NET 23.5, 23.6, 23.7, 23.8
 
 Aspose.Words 23.5 aprimora a capacidade de trabalhar com dados de séries de gráficos e a capacidade de trabalhar com documentos ODT, bem como melhorar cabeçalhos/rodapés e sua quebra de texto.
 
@@ -168,15 +211,15 @@ Aspose.Words 23.8 expande os recursos de diferentes formatos, melhora a renderiz
 
 ### Formatos Suportados
 
-* A partir da versão 23.6 é possível salvar um documento no formato XLSX. Agora você pode converter seus documentos para o formato Excel. <sup>23,6</sup>
+* A partir da versão 23.6 é possível salvar um documento no formato XLSX. Agora você pode converter seus documentos para o formato Excel. <sup>23.6</sup>
 
-* A partir da versão 23.7, é possível salvar uma página ou forma de documento no formato EPS. <sup>23,7</sup>
+* A partir da versão 23.7, é possível salvar uma página ou forma de documento no formato EPS. <sup>23.7</sup>
 
 ### Novos recursos de formato
 
-- Foi introduzida a funcionalidade para gerar automaticamente o Índice (TOC) para documentos MOBI. <sup>23,8</sup>
-- O construtor [PdfEncryptionDetails](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfencryptiondetails/__init__/#str_str_pdfpermissions) foi expandido com [PdfPermissions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfencryptiondetails/__init__/#str_str_pdfpermissions). <sup>23,8</sup>
-- Foi implementada a modelagem de texto vertical para metarquivos EMF. <sup>23,8</sup>
+- Foi introduzida a funcionalidade para gerar automaticamente o Índice (TOC) para documentos MOBI. <sup>23.8</sup>
+- O construtor [PdfEncryptionDetails](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfencryptiondetails/__init__/#str_str_pdfpermissions) foi expandido com [PdfPermissions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfencryptiondetails/__init__/#str_str_pdfpermissions). <sup>23.8</sup>
+- Foi implementada a modelagem de texto vertical para metarquivos EMF. <sup>23.8</sup>
 
 ### Renderização
 
@@ -223,11 +266,11 @@ Foram adicionados novos métodos LowCode destinados a mesclar diferentes tipos d
 
 ### Outro
 
-- Foi implementado suporte para quebra automática de texto em cabeçalhos/rodapés. <sup>23,5</sup>
-- A capacidade de remover assinaturas digitais de documentos ODT foi adicionada através do método [RemoveAllSignatures](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignatureutil/remove_all_signatures/#str_str). <sup>23,5</sup>
-- Foi adicionada a propriedade pública [phonetic_guide](https://reference.aspose.com/words/python-net/aspose.words/run/phonetic_guide/) para obter o texto base e ruby do guia fonético [Run](https://reference.aspose.com/words/python-net/aspose.words/run/). <sup>23,5</sup>
-- A capacidade de recuperar um valor de assinatura digital de um documento assinado digitalmente como uma matriz de bytes foi adicionada com a introdução de uma nova propriedade [signature_value](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignature/signature_value/). <sup>23,7</sup>
-- As classes [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) e [Cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/) foram ampliadas com novos membros públicos – [Row.next_row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/next_row/), [Row.previous_row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/previous_row/), [Cell.next_cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/next_cell/) e [Cell.previous_cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/previous_cell/). <sup>23,7</sup>
+- Foi implementado suporte para quebra automática de texto em cabeçalhos/rodapés. <sup>23.5</sup>
+- A capacidade de remover assinaturas digitais de documentos ODT foi adicionada através do método [RemoveAllSignatures](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignatureutil/remove_all_signatures/#str_str). <sup>23.5</sup>
+- Foi adicionada a propriedade pública [phonetic_guide](https://reference.aspose.com/words/python-net/aspose.words/run/phonetic_guide/) para obter o texto base e ruby do guia fonético [Run](https://reference.aspose.com/words/python-net/aspose.words/run/). <sup>23.5</sup>
+- A capacidade de recuperar um valor de assinatura digital de um documento assinado digitalmente como uma matriz de bytes foi adicionada com a introdução de uma nova propriedade [signature_value](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignature/signature_value/). <sup>23.7</sup>
+- As classes [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) e [Cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/) foram ampliadas com novos membros públicos – [Row.next_row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/next_row/), [Row.previous_row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/previous_row/), [Cell.next_cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/next_cell/) e [Cell.previous_cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/previous_cell/). <sup>23.7</sup>
 
 {{% alert color="primary" %}}
 
@@ -359,7 +402,7 @@ As configurações de fonte substituta predefinidas para fontes Google Noto fora
 
 ### Carregando e salvando documentos
 
-#### Cache de formas de cabeçalho ou rodapé para reduzir o tamanho do PDF <sup>22,9</sup>
+#### Cache de formas de cabeçalho ou rodapé para reduzir o tamanho do PDF <sup>22.9</sup>
 
 A capacidade de armazenar em cache formas de cabeçalho/rodapé para reduzir o tamanho do arquivo PDF de saída foi implementada adicionando uma nova propriedade **CacheHeaderFooterShapes**.
 
@@ -377,8 +420,8 @@ A capacidade de ignorar [StructuredDocumentTag](https://reference.aspose.com/wor
 
 ### Outro
 
-- Foi adicionado um novo recurso para obter FieldEQ como OfficeMath. <sup>22,9</sup>
-- Foi permitida a criação de tags de documentos estruturados do tipo Group no nível da Linha. <sup>22,9</sup>
+- Foi adicionado um novo recurso para obter FieldEQ como OfficeMath. <sup>22.9</sup>
+- Foi permitida a criação de tags de documentos estruturados do tipo Group no nível da Linha. <sup>22.9</sup>
 - Objetos e controles OLE agora são tratados como imagens de metarquivo ao converter um documento em HTML. <sup>22h10</sup>
 - Um novo recurso para verificar se uma lista específica foi criada a partir do mesmo modelo da lista comparada foi adicionado, introduzindo um novo método **HasSameTemplate** na classe [List](https://reference.aspose.com/words/python-net/aspose.words.lists/list/). <sup>22h10</sup>
 - Foi adicionada a capacidade de criar novas tags de documentos estruturados do tipo [Citation](https://reference.aspose.com/words/python-net/aspose.words.markup/sdttype/). <sup>22.11</sup>
@@ -393,181 +436,6 @@ Saiba mais sobre [Aspose.Words para Python via .NET 22.10 Notas de versão](/wor
 Saiba mais sobre [Aspose.Words para Python via .NET 22.11 Notas de versão](/words/python-net/aspose-words-for-python-via-dotnet-22-11-release-notes/).
 
 Saiba mais sobre [Aspose.Words para Python via .NET 22.12 Notas de versão](/words/python-net/aspose-words-for-python-via-dotnet-22-12-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words para Python via .NET 22,5, 22,6, 22,7, 22,8
-
-Aspose.Words 22.5 apresenta suporte para novos formatos de carregamento e um novo tamanho de página de impressão, além de melhorar algumas opções de renderização.
-
-Aspose.Words 22.6 amplia as possibilidades de conversão de PDF para outros formatos, além de melhorar o trabalho com DrawingML e efeito de preenchimento de texto sólido.
-
-Aspose.Words 22.7 aprimora as possibilidades de trabalhar com recursos de renderização e também adiciona novos recursos para trabalhar com importação e exportação de HTML para PDF.
-
-Aspose.Words 22.8 introduz um novo formato de exportação e melhora vários algoritmos de renderização.
-
-O API foi aprimorado para um desenvolvimento mais flexível e conveniente.
-
-### Formatos Suportados
-
-* O suporte para carregamento de documentos EPUB e XML foi introduzido adicionando novos valores à enumeração **LoadFormat**. A partir da versão 22.5, é possível carregar documentos EPUB e XML no modelo de documento Aspose.Words e convertê-los para qualquer [Formatos de documentos suportados](/words/pt/python-net/supported-document-formats/). <sup>22,5</sup>
-* A partir da versão 22.8, é possível salvar um documento no formato AZW3 – formato de arquivo de e-book proprietário do Kindle Amazon (KF8 é outro nome para o formato). Agora você pode não apenas carregar documentos AZW3, mas também exportar seus arquivos para o formato AZW3, que é essencialmente um EPUB compilado. <sup>22,8</sup>
-
-### Renderização e Impressão
-
-#### Novo tamanho de impressão <sup>22,5</sup>
-
-O suporte para o tamanho de página de impressão "Envelope nº 10" foi adicionado com a introdução de um novo valor na enumeração [PaperSize](https://reference.aspose.com/words/python-net/aspose.words/papersize/).
-
-#### Renderizando fórmulas MathML <sup>22.5</sup>
-
-A renderização de uma caixa de borda em torno de fórmulas MathML e a detecção de fonte ao renderizar caracteres para tais fórmulas foram melhoradas.
-
-#### Melhorias no gráfico DML <sup>22.6</sup>
-
-Gráficos DrawingML API público foram estendidos para suportar preenchimentos de gradiente, textura e padrão.
-
-#### Glyph descreve análise para OpenType <sup>22.7</sup>
-
-A análise de contornos glyph do próprio Aspose.Words para fontes OpenType (CFF) foi implementada.
-
-Anteriormente, a análise glyph para fontes OpenType (CFF) era realizada via GDI+. Portanto, agora funciona nos casos em que GDI + não está disponível – plataformas Java, .NET Standard, Linux, macOS, etc. A análise de contornos Glyph é necessária em casos específicos como WordArt, efeitos de texto, alguns recursos do Office Math e outros.
-
-#### Definir formatação de sombra de forma <sup>22.7</sup>
-
-A capacidade de definir a formatação de sombra do objeto de forma foi fornecida pela adição de uma nova propriedade [shadow_format](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/shadow_format/).
-
-#### Suporte para espaçamento de células nas Tabelas <sup>22.8</sup>
-
-O mecanismo de layout foi significativamente melhorado: um mecanismo muito complexo de espaçamento de células em tabelas foi implementado.
-
-#### Substituição de fonte para símbolos <sup>22.8</sup>
-
-A substituição de fontes para símbolos foi melhorada.
-
-#### Algoritmo de rotação do rótulo do eixo do gráfico <sup>22.8</sup>
-
-O algoritmo de rotação dos rótulos dos eixos do gráfico foi aprimorado.
-
-### Carregando e salvando documentos
-
-#### Carregar e converter PDF em formato de página fixa sem modelo de layout <sup>22.6</sup>
-
-Foi implementada a capacidade de carregar e converter documentos PDF em formatos de página fixos com alta fidelidade e desempenho.
-
-#### Novo modo de importação de HTML <sup>22.7</sup>
-
-Um novo modo de importação HTML para elementos em nível de bloco foi introduzido adicionando um novo valor à enumeração [HtmlInsertOptions](https://reference.aspose.com/words/python-net/aspose.words/htmlinsertoptions/).
-
-#### Converter para PDF/UA-1 compatível com WCAG 2.0 <sup>22.7</sup>
-
-Foi adicionado suporte para conversão de um documento para o formato PDF/UA-1, compatível com WCAG 2.0.
-
-Portanto, se o cliente tiver um documento Word acessível e o converter para PDF/UA-1 via Aspose.Words mencionando os detalhes da conversão, a saída será compatível com WCAG 2.0.
-
-WCAG ou Diretrizes de Acessibilidade para Conteúdo da Web é um conjunto de diretrizes desenvolvido pelo W3C em colaboração com indivíduos e organizações em todo o mundo. Agora, com Aspose.Words você pode converter seu documento para o formato PDF/UA-1 de saída, que é adequado para criar documentos PDF compatíveis com WCAG 2.0.
-
-Vale a pena notar que WCAG 2.0 tem dois requisitos adicionais que não são especificados na especificação PDF/UA-1:
-
-- requisitos de contraste
-- requisitos para marcação de conteúdo multimídia
-
-Mas ambos os requisitos não são relevantes para o nosso caso de conversão de Word para PDF.
-
-### Outro
-
-Foi implementada a exceção de herdar o efeito de preenchimento de texto sólido que imita o comportamento do MS Word. <sup>22.6</sup>
-
-{{% alert color="primary" %}}
-
-Saiba mais sobre [Notas de versão do Aspose.Words para Python via .NET 22.5](/words/python-net/aspose-words-for-python-via-dotnet-22-5-release-notes/).
-
-Saiba mais sobre [Notas de versão do Aspose.Words para Python via .NET 22.6](/words/python-net/aspose-words-for-python-via-dotnet-22-6-release-notes/).
-
-Saiba mais sobre [Notas de versão do Aspose.Words para Python via .NET 22.7](/words/python-net/aspose-words-for-python-via-dotnet-22-7-release-notes/).
-
-Saiba mais sobre [Notas de versão do Aspose.Words para Python via .NET 22.8](/words/python-net/aspose-words-for-python-via-dotnet-22-8-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words para Python via .NET 22.3, 22.4
-
-Aspose.Words 22.3 amplia as possibilidades de trabalhar com formatos PDF e TXT e melhora o trabalho de alguns algoritmos e mecanismos existentes.
-
-Aspose.Words 22.4 aprimora os recursos de PDF – agora você pode salvar um arquivo no formato PDF/A-4 e obter uma série de outras melhorias na saída de PDF. Ao mesmo tempo, Aspose.Words 22.4 oferece recursos adicionais para trabalhar com gráficos DML, ler metadados do Photoshop e importar elementos HTML em nível de bloco.
-
-O API foi aprimorado para um desenvolvimento mais flexível e conveniente.
-
-### Recursos suportados
-
-A partir do Aspose.Words 22.4, foi adicionado suporte para Python 3.10.
-
-### Melhorias de desempenho
-
-Foi implementado o carregamento de um cache de pesquisa de fontes salvo anteriormente para acelerar o processo de inicialização do cache de fontes na renderização. Agora suas soluções funcionarão ainda mais rápido.
-
-### Formatos Suportados
-
-Foi adicionado o carregamento de um documento no formato AZW3 (KF8 é outro nome para o formato). Agora você pode carregar um documento AZW3 e convertê-lo para qualquer outro formato compatível.
-
-### Renderização
-
-#### Renderizando fórmulas MathML
-
-A renderização de operadores em fórmulas MathML foi melhorada.
-
-#### Melhorias no gráfico DML
-
-As seguintes melhorias foram feitas nos gráficos DML:
-
-* O algoritmo de escala do eixo do gráfico DML foi aprimorado para ser igual ao do MS Word
-
-* A capacidade de manipular entradas de legenda do gráfico DrawingML foi fornecida para tornar nosso gráfico API cada vez mais abrangente
-* Foi implementada a capacidade de especificar o nome de um arquivo xls/xlsx ao qual o gráfico DrawingML está vinculado
-
-#### Renderização para PDF com conformidade com PDF/A-4
-
-A renderização em PDF com conformidade com PDF/A-4 foi adicionada adicionando novos valores à enumeração [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) – [PDF_A4](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/#pdf_a4). Esta opção assume níveis de conformidade revisados: a conformidade regular do PDF/A-4 é equivalente ao nível de conformidade U das versões anteriores, e a conformidade do nível A é removida.
-
-#### Leitura da resolução de metadados do Photoshop em JPEG
-
-A leitura da resolução de metadados do Photoshop em imagens JPEG foi implementada para corrigir um problema interessante com o dimensionamento incorreto das imagens na renderização.
-
-#### Permitir que o texto latino seja agrupado no meio de uma palavra
-
-O suporte para o recurso "Permitir que o texto latino seja agrupado no meio de uma palavra" foi implementado para tornar nosso suporte ao latim ainda melhor na renderização.
-
-### Carregando e salvando documentos
-
-#### Controlando o comportamento do estilo ao carregar um documento
-
-Uma nova opção [force_copy_styles](https://reference.aspose.com/words/python-net/aspose.words/importformatoptions/force_copy_styles/) foi introduzida para controlar o comportamento de estilos conflitantes na importação de documentos.
-
-#### Converter formas em SVG ao exportar
-
-A capacidade de converter formas em imagens SVG ao exportar para HTML, MHTML ou EPUB foi fornecida pela adição da propriedade [export_shapes_as_svg](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/export_shapes_as_svg/).
-
-#### Salvando em PDF 2.0 e melhorias na saída de PDF
-
-A capacidade de salvar um documento como PDF 2.0 adicionando um novo valor à enumeração [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/), bem como diversas outras melhorias solicitadas na saída de PDF, foram introduzidas.
-
-#### Novo modo de importação de HTML
-
-Um novo modo de importação para elementos HTML em nível de bloco foi implementado para imitar o comportamento do Microsoft Word.
-
-### Outro
-
-* Foi introduzida a capacidade de obter OOXML de um controle de conteúdo e salvá-lo em string.
-* Foi adicionado o reconhecimento de notas de rodapé não padrão em documentos PDF importados.
-* Foi adicionada a capacidade de obter dados de campo personalizados associados ao campo.
-* O algoritmo de comparação de tabelas baseado na análise profunda do mecanismo de comparação Microsoft Word foi aprimorado.
-* A sintaxe de comentários no mecanismo LINQ Reporting foi fornecida.
-
-{{% alert color="primary" %}}
-
-Saiba mais sobre [Notas de versão do Aspose.Words para Python via .NET 22.3](/words/python-net/aspose-words-for-python-via-dotnet-22-3-release-notes/).
-
-Saiba mais sobre [Notas de versão do Aspose.Words para Python via .NET 22.4](/words/python-net/aspose-words-for-python-via-dotnet-22-4-release-notes/).
 
 {{% /alert %}}
 

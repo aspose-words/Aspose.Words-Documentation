@@ -11,6 +11,53 @@ url: /net/what-s-new-in-aspose-words-for-net/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
+## Aspose.Words for .NET 24.5, 24.6
+
+Aspose.Words 24.5 expands options for assemblies, improves rendering capabilities, and expands some other options.
+
+Aspose.Words 24.6 improves rendering options, enhances search and compare functionality, and expands several other features.
+
+### Platforms <sup>24.5</sup>
+
+.NET 7.0/8.0 assemblies have been included in the Aspose.Words NuGet package.
+
+### Rendering and Printing
+
+#### Changes in Charts, Shapes and DrawingML <sup>24.5</sup>
+
+* DrawingML effects rendering for SVG graphics, extending previous functionality limited to images, has been implemented.
+* Support for creating combo charts and adjusting properties such as gap width, overlap, and bubble scale within series groups has been introduced by adding the [ChartSeriesGroup](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriesgroup/) and [ChartSeriesGroupCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriesgroupcollection/) classes and the [SeriesGroups](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/seriesgroups/) property.
+* Functionality to manipulate the SoftEdge effect of shapes has been implemented by adding the [SoftEdgeFormat](https://reference.aspose.com/words/net/aspose.words.drawing/softedgeformat/) class.
+* The ability to modify adjust values of shapes has been implemented by adding the [AdjustmentCollection](https://reference.aspose.com/words/net/aspose.words.drawing/adjustmentcollection/) and [Adjustment](https://reference.aspose.com/words/net/aspose.words.drawing/adjustment/) public classes and [Adjustments](https://reference.aspose.com/words/net/aspose.words.drawing/shape/adjustments/) property.
+
+#### Changes in Charts, Shapes and Drawing <sup>24.6</sup>
+
+* Charting capabilities have been enhanced. You can now create a wider variety of charts, including *Treemaps*, *Sunbursts*, *Histograms*, *Pareto* charts, *Box & Whisker* charts, *Waterfalls*, and *Funnels*. This allows you to visualize your data in a more diverse and informative way.
+* Color control for shadow formatting has been improved. You can gain more precise control over the appearance of your documents by accessing shadow colors.
+* Performance boost for background rendering has been improved. You can significantly speed up the rendering of backgrounds containing small elements thanks to native tiling technology.
+* Realistic gradients for shapes have been added. You can now create DML shapes with non-linear gradients, mimicking the visual style of Microsoft Word for a more polished look.
+
+### Search and Compare
+
+#### Advanced Comparison Options <sup>24.6</sup>
+The ability to streamline data analysis workflows with improved comparison functionality has been added. This includes a new [IgnoreStoreItemId](https://reference.aspose.com/words/net/aspose.words.comparing/advancedcompareoptions/ignorestoreitemid/) option and a redesigned interface for advanced comparisons.
+
+### Other
+
+* The function to eliminate empty pages from a document has been implemented by adding the [RemoveBlankPages](https://reference.aspose.com/words/net/aspose.words/document/removeblankpages/) method. <sup>24.5</sup>
+* The ability  to check for the presence of VBA macros without loading a document has been provided by adding the [HasMacros](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/hasmacros/) property. <sup>24.5</sup>
+* Keeping source numbering while inserting a document using the LINQ Reporting Engine is now supported. <sup>24.5</sup>
+* A new [DateTimeUtc](https://reference.aspose.com/words/net/aspose.words/comment/datetimeutc/) property has been added – this provides a more precise timestamp for comments, improving organization and traceability. <sup>24.6</sup>
+* The LINQ Reporting Engine has been improved. Selective removal of empty paragraphs and definition of custom messages for missing object members have been made, leading to cleaner and more informative reports. <sup>24.6</sup>
+
+{{% alert color="primary" %}}
+
+Learn more about [Aspose.Words for .NET 24.5 Release Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-5-release-notes/).
+
+Learn more about [Aspose.Words for .NET 24.6 Release Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-6-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words for .NET 24.1, 24.2, 24.3, 24.4
 
 Aspose.Words 24.1 improves the experience around managing stroke colors, enhances OLE objects and LINQ reporting, as well as introduces a new `Bibliography Sources` public API.
@@ -410,106 +457,10 @@ Learn more about [Aspose.Words for .NET 22.12 Release Notes](/words/net/aspose-w
 
 {{% /alert %}}
 
-## Aspose.Words for .NET 22.5, 22.6, 22.7, 22.8
-
-Aspose.Words 22.5 introduces support for new loading formats and a new print page size, as well as improves some rendering options.
-
-Aspose.Words 22.6 expands the possibilities of converting PDF to other formats, as well as improve work with DrawingML and solid text fill effect.
-
-Aspose.Words 22.7 enhances the possibilities of working with rendering features, and also adds new features for working with HTML import and export to PDF.
-
-Aspose.Words 22.8 introduces a new export format and improves various rendering algorithms.
-
-The API is enhanced for more flexible and convenient development.
-
-### Supported Formats
-
-* Support for loading EPUB and XML documents has been introduced by adding new values to the [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/) enumeration. Starting from version 22.5, it is possible to load EPUB and XML documents into Aspose.Words document model and convert them to any [supported formats](https://reference.aspose.com/words/net/aspose.words/saveformat/). <sup>22.5</sup>
-* Starting from version 22.8, it is possible to save a document in AZW3 format – Amazon Kindle's proprietary e-book file format (KF8 is another name for the format). Now you can not only load AZW3 documents, but also export your files to AZW3 format, which is essentially a compiled EPUB. <sup>22.8</sup>
-
-### Rendering and Printing
-
-#### New Printing Size <sup>22.5</sup>
-
-Support for the “Envelope No. 10” print page size has been added by introducing a new value to the [PaperSize](https://reference.aspose.com/words/net/aspose.words/papersize/) enumeration.
-
-#### Rendering MathML Formulas <sup>22.5</sup>
-
-The rendering of a border box around MathML formulas and font detection when rendering characters for such formulas has been improved.
-
-#### DML Chart Improvements <sup>22.6</sup>
-
-DrawingML charts public API has been extended to support gradient, texture, and pattern fills.
-
-#### Glyph Outlines Parsing for OpenType <sup>22.7</sup>
-
-Aspose.Words own glyph outlines parsing for OpenType (CFF) fonts has been implemented.
-
-Previously, glyph parsing for OpenType (CFF) fonts was performed via GDI+. So now it works in cases where GDI+ is not available – Java, .NET Standard platforms, Linux OS, etc. Glyph outlines parsing is required in specific cases like WordArt, text effects, some Office Math features, and others.
-
-#### Set Shape Shadow Formatting <sup>22.7</sup>
-
-The ability to set the shadow formatting of the shape object has been provided by adding a new [ShadowFormat](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/shadowformat/) property.
-
-#### Support for Cell Spacing in Tables <sup>22.8</sup>
-
-The layout engine is now significantly improved: a very complex cell spacing mechanism in tables has been implemented.
-
-#### Font Substitution for Symbols <sup>22.8</sup>
-
-Font substitution for symbols has been improved.
-
-#### Chart Axis Label Rotation Algorithm <sup>22.8</sup>
-
-The rotation algorithm of chart axis labels has been improved.
-
-### Loading and Saving Documents
-
-#### Load and Convert PDF to Fixed-page Format without Layout Model <sup>22.6</sup>
-
-The ability to load and convert PDF documents to fixed page formats with high fidelity and performance has been implemented.
-
-#### New HTML Import Mode <sup>22.7</sup>
-
-A new HTML import mode for block-level elements has been introduced by adding a new value to the [HtmlInsertOptions](https://reference.aspose.com/words/net/aspose.words/htmlinsertoptions/) enumeration.
-
-#### Convert to PDF/UA-1 CSompliant with WCAG 2.0 <sup>22.7</sup>
-
-Support for converting a document to PDF/UA-1 format, compliant with WCAG 2.0, has been added.
-
-So, if the customer has an accessible Word document and converts it to PDF/UA-1 via Aspose.Words mentioning the conversion specifics, then the output will be WCAG 2.0 compatible.
-
-WCAG or Web Content Accessibility Guidelines is a set of guidelines developed by W3C in collaboration with individuals and organizations all over the world. Now with Aspose.Words you can convert your document to the output PDF/UA-1 format, which is suitable to build WCAG 2.0 compliant PDF documents.
-
-It is worth noting that WCAG 2.0 has two additional requirements that are not specified in the PDF/UA-1 specification:
-
-* contrast requirements
-
-* requirements for tagging multimedia content
-
-But both requirements are not relevant to our case of converting from Word to PDF.
-
-### Other
-
-* Exception of inheriting the solid text fill effect that mimics MS Word behavior has been implemented. <sup>22.6</sup>
-* Support of the `DATABASE` fields has been added. Using this type of field, you can, for example, show the results of a database query in a Microsoft Word table. <sup>22.7</sup>
-
-{{% alert color="primary" %}}
-
-Learn more about [Aspose.Words for .NET 22.5 Release Notes](/words/net/aspose-words-for-net-22-5-release-notes/).
-
-Learn more about [Aspose.Words for .NET 22.6 Release Notes](/words/net/aspose-words-for-net-22-6-release-notes/).
-
-Learn more about [Aspose.Words for .NET 22.7 Release Notes](/words/net/aspose-words-for-net-22-7-release-notes/).
-
-Learn more about [Aspose.Words for .NET 22.8 Release Notes](/words/net/aspose-words-for-net-22-8-release-notes/).
-
-{{% /alert %}}
-
 ## See Also
 
 {{% alert color="primary" %}}
 
-This page contains the latest release news for the past 2 years. For details on earlier releases, see the [Release Notes'](/words/net/release-notes/) pages in the relevant sections.
+This page contains the latest release news for the past 2 years. For details on earlier releases, see the [Release Notes'](https://releases.aspose.com/words/net/release-notes/) pages in the relevant sections.
 
 {{% /alert %}}

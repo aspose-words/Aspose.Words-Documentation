@@ -36,6 +36,12 @@ By default, while inserting content of an outer document, the engine applies cor
 <<doc [document_expression] -sourceStyles>>
 {{< /highlight >}}
 
+The engine exhibits similar behavior when dealing with list numbering. By default, numbered lists from a template document are continued when their identifiers match those from a document being inserted. However, if numbering for content being inserted should be separated and kept as is, this can be done by applying a `sourceNumbering` switch as follows.
+
+{{< highlight csharp >}}
+<<doc [document_expression] -sourceNumbering>>
+{{< /highlight >}}
+
 Also, you can trim the last paragraph break from a document being inserted by using an `inline` switch. In particular, this feature is useful for a single-paragraph document being inserted, when it is necessary to put the document’s content within the same paragraph that contains a corresponding `doc` tag in order to apply the paragraph’s formatting such as list numbering. The following snippet shows the template syntax for this.
 
 {{< highlight csharp >}}

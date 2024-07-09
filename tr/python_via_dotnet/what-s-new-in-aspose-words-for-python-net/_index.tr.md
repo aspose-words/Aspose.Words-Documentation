@@ -11,6 +11,49 @@ url: /tr/python-net/what-s-new-in-aspose-words-for-python-net/
 
 Bu sayfada son sürümlerde tanıtılan en ilginç yeni Aspose.Words özellikleri açıklanmaktadır.
 
+## Python via .NET 24.5, 24.6 için Aspose.Words
+
+Aspose.Words 24.5, derleme seçeneklerini genişletir, oluşturma yeteneklerini geliştirir ve diğer bazı seçenekleri genişletir.
+
+Aspose.Words 24.6, oluşturma seçeneklerini geliştirir, arama ve karşılaştırma işlevselliğini geliştirir ve diğer birçok özelliği genişletir.
+
+### İşleme ve Yazdırma
+
+#### Charts, Shapes ve DrawingML deki değişiklikler <sup>24.5</sup>
+
+* SVG grafikleri için, resimlerle sınırlı olan önceki işlevselliği genişleten DrawingML efekt oluşturma uygulandı.
+* [ChartSeriesGroup](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriesgroup/) ve [ChartSeriesGroupCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriesgroupcollection/) sınıfları ve [series_groups](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chart/series_groups/) özelliği eklenerek, birleşik grafikler oluşturma ve seri grupları içindeki boşluk genişliği, örtüşme ve kabarcık ölçeği gibi özellikleri ayarlama desteği sunulmuştur.
+* Şekillerin SoftEdge efektini değiştirme işlevi, [SoftEdgeFormat](https://reference.aspose.com/words/python-net/aspose.words.drawing/softedgeformat/) sınıfı eklenerek uygulanmıştır.
+* Şekillerin ayar değerlerini değiştirme özelliği, **AdjustmentCollection** ve **Adjustment** genel sınıflar ve [adjustments](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/adjustments/) mülk.
+
+#### Grafikler, Şekiller ve Çizimdeki Değişiklikler <sup>24.6</sup>
+
+* Grafik yetenekleri geliştirildi. Artık *Ağaç Haritaları*, *Güneş Patlamaları*, *Histogramlar*, *Pareto* grafikleri, *Kutu ve Bıyık* grafikleri, *Şelaleler* ve *Huniler* dahil olmak üzere daha çeşitli grafikler oluşturabilirsiniz. Bu, verilerinizi daha çeşitli ve bilgilendirici bir şekilde görselleştirmenize olanak tanır.
+* Gölge biçimlendirmesi için renk kontrolü iyileştirildi. Gölge renklerine erişerek belgelerinizin görünümü üzerinde daha hassas kontrol elde edebilirsiniz.
+* Arka planda görüntüleme için performans artışı iyileştirildi. Yerel döşeme teknolojisi sayesinde, küçük öğeler içeren arka planların oluşturulmasını önemli ölçüde hızlandırabilirsiniz.
+* Şekiller için gerçekçi degradeler eklendi. Artık daha parlak bir görünüm için Microsoft Word'ün görsel stilini taklit eden, doğrusal olmayan degradelere sahip DML şekilleri oluşturabilirsiniz.
+
+### Ara ve Karşılaştır
+
+#### Gelişmiş Karşılaştırma Seçenekleri <sup>24.6</sup>
+Geliştirilmiş karşılaştırma işlevselliğiyle veri analizi iş akışlarını kolaylaştırma yeteneği eklendi. Buna yeni bir [ignore_store_item_id](https://reference.aspose.com/words/python-net/aspose.words.comparing/advancedcompareoptions/ignore_store_item_id/) seçeneği ve gelişmiş karşılaştırmalar için yeniden tasarlanmış bir arayüz dahildir.
+
+### Diğer
+
+* Bir belgedeki boş sayfaları ortadan kaldırma işlevi, [remove_blank_pages](https://reference.aspose.com/words/python-net/aspose.words/document/remove_blank_pages/) yöntemi eklenerek uygulanmıştır. <sup>24.5</sup>
+* [has_macros](https://reference.aspose.com/words/python-net/aspose.words/fileformatinfo/has_macros/) özelliği eklenerek belge yüklemeden VBA makrolarının varlığını kontrol etme yeteneği sağlandı. <sup>24.5</sup>
+* LINQ Raporlama Motorunu kullanarak belge eklerken kaynak numaralandırmasının tutulması artık desteklenmektedir. <sup>24.5</sup>
+* Yeni bir [date_time_utc](https://reference.aspose.com/words/python-net/aspose.words/comment/date_time_utc/) özelliği eklendi; bu, yorumlar için daha kesin bir zaman damgası sağlayarak organizasyonu ve izlenebilirliği artırır. <sup>24.6</sup>
+* LINQ Raporlama Motoru geliştirildi. Boş paragrafların seçici olarak kaldırılması ve eksik nesne üyeleri için özel mesajların tanımlanması yapılarak daha temiz ve daha bilgilendirici raporlar elde edildi. <sup>24.6</sup>
+
+{{% alert color="primary" %}}
+
+[Python via .NET 24.5 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-5-release-notes/) hakkında daha fazla bilgi edinin.
+
+[Python via .NET 24.6 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-6-release-notes/) hakkında daha fazla bilgi edinin.
+
+{{% /alert %}}
+
 ## Python via .NET 24.1, 24.2, 24.3, 24.4 için Aspose.Words
 
 Aspose.Words 24.1, kontur renklerini yönetme deneyimini geliştirir, OLE nesnelerini geliştirir ve ayrıca yeni bir Bibliyografya Kaynakları genel API'sini sunar.
@@ -359,7 +402,7 @@ Google Noto yazı tipleri için önceden tanımlanmış yazı tipi geri dönüş
 
 ### Belgeleri Yükleme ve Kaydetme
 
-#### PDF boyutunu küçültmek için Üstbilgi veya Altbilgi Şekillerini Önbelleğe Alın <sup>22,9</sup>
+#### PDF boyutunu küçültmek için Üstbilgi veya Altbilgi Şekillerini Önbelleğe Alın <sup>22.9</sup>
 
 Çıktı PDF dosyasının boyutunu azaltmak için üstbilgi/altbilgi şekillerini önbelleğe alma yeteneği, yeni bir **CacheHeaderFooterShapes** özelliği eklenerek uygulanmıştır.
 
@@ -393,181 +436,6 @@ Bul ve değiştir seçeneklerinde [StructuredDocumentTag](https://reference.aspo
 [Python via .NET 22.11 Sürüm Notları için Aspose.Words](/words/python-net/aspose-words-for-python-via-dotnet-22-11-release-notes/) hakkında daha fazla bilgi edinin.
 
 [Python via .NET 22.12 Sürüm Notları için Aspose.Words](/words/python-net/aspose-words-for-python-via-dotnet-22-12-release-notes/) hakkında daha fazla bilgi edinin.
-
-{{% /alert %}}
-
-## Python via .NET 22.5, 22.6, 22.7, 22.8 için Aspose.Words
-
-Aspose.Words 22.5, yeni yükleme formatları ve yeni yazdırma sayfası boyutu için destek sunmanın yanı sıra bazı işleme seçeneklerini de geliştirir.
-
-Aspose.Words 22.6, PDF'yi diğer formatlara dönüştürme olanaklarını genişletmenin yanı sıra DrawingML ve düz metin dolgu efektiyle çalışmayı geliştirir.
-
-Aspose.Words 22.7, oluşturma özellikleriyle çalışma olanaklarını geliştirir ve ayrıca HTML içe aktarma ve PDF'ye dışa aktarmayla çalışmaya yönelik yeni özellikler ekler.
-
-Aspose.Words 22.8 yeni bir dışa aktarma formatı sunuyor ve çeşitli işleme algoritmalarını geliştiriyor.
-
-API, daha esnek ve kullanışlı geliştirme için geliştirilmiştir.
-
-### Desteklenen Formatlar
-
-* **LoadFormat** numaralandırmasına yeni değerler eklenerek EPUB ve XML belgelerini yükleme desteği getirildi. 22.5 sürümünden itibaren EPUB ve XML belgelerini Aspose.Words belge modeline yükleyip herhangi bir [Desteklenen Belge Formatları](/words/tr/python-net/supported-document-formats/)'e dönüştürmek mümkün. <sup>22.5</sup>
-* Sürüm 22.8'den başlayarak, bir belgeyi AZW3 formatında (Amazon Kindle'ın tescilli e-kitap dosyası formatı) (KF8, formatın diğer adıdır) kaydetmek mümkündür. Artık yalnızca AZW3 belgelerini yüklemekle kalmayıp aynı zamanda dosyalarınızı derlenmiş bir EPUB olan AZW3 formatına da aktarabilirsiniz. <sup>22.8</sup>
-
-### İşleme ve Yazdırma
-
-#### Yeni Baskı Boyutu <sup>22,5</sup>
-
-[PaperSize](https://reference.aspose.com/words/python-net/aspose.words/papersize/) numaralandırmasına yeni bir değer getirilerek "Zarf No. 10" yazdırma sayfası boyutu desteği eklendi.
-
-#### MathML Formüllerini Oluşturma <sup>22.5</sup>
-
-MathML formüllerinin etrafında bir kenarlık kutusunun oluşturulması ve bu tür formüller için karakterler oluşturulurken yazı tipi tespiti iyileştirildi.
-
-#### DML Grafiği İyileştirmeleri <sup>22.6</sup>
-
-DrawingML grafikleri genel API, degrade, doku ve desen dolgularını destekleyecek şekilde genişletildi.
-
-#### Glyph, OpenType <sup>22.7</sup> için Ayrıştırmanın Özetini Veriyor
-
-OpenType (CFF) yazı tipleri için Aspose.Words'in kendi glyph anahatlarının ayrıştırılması uygulandı.
-
-Daha önce OpenType (CFF) yazı tipleri için glyph ayrıştırması GDI+ aracılığıyla gerçekleştiriliyordu. Yani artık GDI+'ın mevcut olmadığı durumlarda (Java, .NET Standard platformları, Linux, macOS vb.) çalışıyor. Glyph, WordArt, metin efektleri, bazı Office Math özellikleri ve diğerleri gibi belirli durumlarda ayrıştırmanın gerekli olduğunu ana hatlarıyla belirtir.
-
-#### Şekil Gölge Formatını Ayarla <sup>22.7</sup>
-
-Yeni bir [shadow_format](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/shadow_format/) özelliği eklenerek şekil nesnesinin gölge formatını ayarlama yeteneği sağlandı.
-
-#### Tablo <sup>22.8'de</sup> Hücre Aralığı Desteği
-
-Düzenleme motoru artık önemli ölçüde iyileştirildi: tablolarda çok karmaşık bir hücre aralığı mekanizması uygulandı.
-
-#### Semboller için Yazı Tipi Değişikliği <sup>22.8</sup>
-
-Semboller için yazı tipi değişimi iyileştirildi.
-
-#### Grafik Ekseni Etiket Döndürme Algoritması <sup>22.8</sup>
-
-Grafik ekseni etiketlerinin döndürme algoritması iyileştirildi.
-
-### Belgeleri Yükleme ve Kaydetme
-
-#### PDF'yi Mizanpaj Modeli <sup>22.6</sup> Olmadan Sabit Sayfa Formatına Yükleme ve Dönüştürme
-
-PDF belgelerini yüksek doğruluk ve performansla sabit sayfa formatlarına yükleme ve dönüştürme yeteneği uygulanmıştır.
-
-#### Yeni HTML İçe Aktarma Modu <sup>22.7</sup>
-
-[HtmlInsertOptions](https://reference.aspose.com/words/python-net/aspose.words/htmlinsertoptions/) numaralandırmasına yeni bir değer eklenerek blok düzeyindeki öğeler için yeni bir HTML içe aktarma modu tanıtıldı.
-
-#### PDF/UA-1'e Dönüştür WCAG 2.0 <sup>22.7</sup> ile uyumlu
-
-Bir belgeyi WCAG 2.0 ile uyumlu PDF/UA-1 formatına dönüştürme desteği eklendi.
-
-Dolayısıyla, müşterinin erişilebilir bir Word belgesi varsa ve onu Aspose.Words aracılığıyla dönüştürme özelliklerini belirterek PDF/UA-1'e dönüştürürse, çıktı WCAG 2.0 uyumlu olacaktır.
-
-WCAG veya Web İçeriği Erişilebilirlik Yönergeleri, W3C tarafından dünyanın her yerindeki bireyler ve kuruluşlarla işbirliği içinde geliştirilen bir dizi yönergedir. Artık Aspose.Words ile belgenizi, WCAG 2.0 uyumlu PDF belgeleri oluşturmaya uygun çıktı PDF/UA-1 biçimine dönüştürebilirsiniz.
-
-WCAG 2.0'ın PDF/UA-1 spesifikasyonunda belirtilmeyen iki ek gereksinime sahip olduğunu belirtmekte fayda var:
-
-- kontrast gereksinimleri
-- multimedya içeriğini etiketleme gereksinimleri
-
-Ancak her iki gereksinim de bizim Word'den PDF'ye dönüştürme durumumuzla ilgili değildir.
-
-### Diğer
-
-MS Word davranışını taklit eden düz metin dolgusu efektini devralma istisnası uygulanmıştır. <sup>22.6</sup>
-
-{{% alert color="primary" %}}
-
-[Python via .NET 22.5 Sürüm Notları için Aspose.Words](/words/python-net/aspose-words-for-python-via-dotnet-22-5-release-notes/) hakkında daha fazla bilgi edinin.
-
-[Python via .NET 22.6 Sürüm Notları için Aspose.Words](/words/python-net/aspose-words-for-python-via-dotnet-22-6-release-notes/) hakkında daha fazla bilgi edinin.
-
-[Python via .NET 22.7 Sürüm Notları için Aspose.Words](/words/python-net/aspose-words-for-python-via-dotnet-22-7-release-notes/) hakkında daha fazla bilgi edinin.
-
-[Python via .NET 22.8 Sürüm Notları için Aspose.Words](/words/python-net/aspose-words-for-python-via-dotnet-22-8-release-notes/) hakkında daha fazla bilgi edinin.
-
-{{% /alert %}}
-
-## Python via .NET 22.3, 22.4 için Aspose.Words
-
-Aspose.Words 22.3, PDF ve TXT formatlarıyla çalışma olanaklarını genişletir ve mevcut bazı algoritmaların ve motorların çalışmasını geliştirir.
-
-Aspose.Words 22.4, PDF yeteneklerini geliştirir; artık bir dosyayı PDF/A-4 formatında kaydedebilir ve PDF çıktısında bir dizi başka iyileştirmeden yararlanabilirsiniz. Aspose.Words 22.4 aynı zamanda DML grafikleriyle çalışmak, Photoshop meta verilerini okumak ve HTML blok düzeyindeki öğeleri içe aktarmak için ek yetenekler sağlar.
-
-API, daha esnek ve kullanışlı geliştirme için geliştirilmiştir.
-
-### Desteklenen Özellikler
-
-Aspose.Words 22.4'ten itibaren Python 3.10 desteği eklenmiştir.
-
-### Performans geliştirmeleri
-
-Oluşturma sırasında yazı tipi önbelleği başlatma sürecini hızlandırmak için önceden kaydedilmiş bir yazı tipi arama önbelleğinin yüklenmesi uygulandı. Artık çözümleriniz daha da hızlı çalışacak.
-
-### Desteklenen Formatlar
-
-AZW3 formatında (KF8 formatın diğer adıdır) belge yükleme eklendi. Artık bir AZW3 belgesi yükleyebilir ve onu desteklenen diğer biçimlere dönüştürebilirsiniz.
-
-### İşleme
-
-#### MathML Formüllerini Oluşturma
-
-MathML formüllerindeki operatörlerin işlenmesi iyileştirildi.
-
-#### DML Grafiği İyileştirmeleri
-
-DML grafiklerinde aşağıdaki iyileştirmeler yapıldı:
-
-* DML grafik ekseni ölçeklendirme algoritması MS Word'dekiyle aynı olacak şekilde geliştirildi
-
-* Grafiğimiz API'i daha kapsamlı hale getirmek için DrawingML grafik açıklaması girişleriyle işlem yapma yeteneği sağlandı
-* DrawingML grafiğinin bağlı olduğu xls/xlsx dosyasının adını belirtme özelliği uygulandı
-
-#### PDF/A-4 Uyumluluğuyla PDF'ye Dönüştürme
-
-[PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) numaralandırmasına ([PDF_A4](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/#pdf_a4)) yeni değerler eklenerek PDF/A-4 uyumluluğuyla PDF'ye dönüştürme eklendi. Bu seçenek revize edilmiş uyumluluk düzeylerini varsayar: normal PDF/A-4 uyumu önceki sürümlerin U uyumluluk düzeyine eşdeğerdir ve A düzeyi uyumluluk kaldırılır.
-
-#### Photoshop meta veri çözünürlüğünün JPEG formatında okunması
-
-JPEG görüntülerde Photoshop meta veri çözünürlüğünün okunması, görüntülerin oluşturma sırasında yanlış ölçeklenmesiyle ilgili ilginç bir sorunu düzeltmek için uygulandı.
-
-#### Latince Metnin Bir Kelimenin Ortasına Sarılmasına İzin Ver
-
-Oluşturma sırasında Latince desteğimizi daha da iyi hale getirmek için "Latince metnin bir kelimenin ortasına sarılmasına izin ver" özelliği desteği uygulandı.
-
-### Belgeleri Yükleme ve Kaydetme
-
-#### Belge Yüklerken Stil Davranışını Kontrol Etme
-
-Belge içe aktarma sırasında çakışan stillerin davranışını kontrol etmek için yeni bir [force_copy_styles](https://reference.aspose.com/words/python-net/aspose.words/importformatoptions/force_copy_styles/) seçeneği tanıtıldı.
-
-#### Dışa Aktarırken Şekilleri SVG'ye Dönüştürme
-
-[export_shapes_as_svg](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/export_shapes_as_svg/) özelliği eklenerek, HTML, MHTML veya EPUB'a dışa aktarıldıktan sonra şekilleri SVG görüntülerine dönüştürme yeteneği sağlanmıştır.
-
-#### PDF 2.0'a Kaydetme ve PDF Çıktısında İyileştirmeler
-
-[PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) numaralandırmasına yeni bir değer ekleyerek bir belgeyi PDF 2.0 olarak kaydetme yeteneğinin yanı sıra PDF çıktısında istenen diğer bazı iyileştirmeler de tanıtıldı.
-
-#### Yeni HTML İçe Aktarma Modu
-
-Microsoft Word davranışını taklit etmek için HTML blok düzeyindeki öğeler için yeni bir içe aktarma modu uygulandı.
-
-### Diğer
-
-* Bir içerik kontrolünün OOXML'ini alma ve onu dizeye kaydetme yeteneği tanıtıldı.
-* PDF belgelerindeki standart dışı dipnotların içe aktarma sırasında tanınması eklendi.
-* Alanla ilişkili özel alan verilerini alma özelliği eklendi.
-* Microsoft Word karşılaştırma mekanizmasının derin analizine dayanan tablo karşılaştırma algoritması geliştirildi.
-* LINQ Raporlama motorundaki yorum sözdizimi sağlandı.
-
-{{% alert color="primary" %}}
-
-[Python via .NET 22.3 Sürüm Notları için Aspose.Words](/words/python-net/aspose-words-for-python-via-dotnet-22-3-release-notes/) hakkında daha fazla bilgi edinin.
-
-[Python via .NET 22.4 Sürüm Notları için Aspose.Words](/words/python-net/aspose-words-for-python-via-dotnet-22-4-release-notes/) hakkında daha fazla bilgi edinin.
 
 {{% /alert %}}
 

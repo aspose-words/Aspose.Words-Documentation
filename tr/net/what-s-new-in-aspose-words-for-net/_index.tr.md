@@ -11,6 +11,53 @@ url: /tr/net/what-s-new-in-aspose-words-for-net/
 
 Bu sayfada son sürümlerde tanıtılan en ilginç yeni Aspose.Words özellikleri açıklanmaktadır.
 
+## .NET 24.5, 24.6 için Aspose.Words
+
+Aspose.Words 24.5, derleme seçeneklerini genişletir, oluşturma yeteneklerini geliştirir ve diğer bazı seçenekleri genişletir.
+
+Aspose.Words 24.6, oluşturma seçeneklerini geliştirir, arama ve karşılaştırma işlevselliğini geliştirir ve diğer birçok özelliği genişletir.
+
+### Platformlar
+
+.NET 7.0/8.0 derlemeleri Aspose.Words NuGet paketine dahil edildi.
+
+### İşleme ve Yazdırma
+
+#### Charts, Shapes ve DrawingML deki değişiklikler <sup>24.5</sup>
+
+* SVG grafikleri için, resimlerle sınırlı olan önceki işlevselliği genişleten DrawingML efekt oluşturma uygulandı.
+* [ChartSeriesGroup](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriesgroup/) ve [ChartSeriesGroupCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriesgroupcollection/) sınıfları ve [SeriesGroups](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/seriesgroups/) özelliği eklenerek, birleşik grafikler oluşturma ve seri grupları içindeki boşluk genişliği, örtüşme ve kabarcık ölçeği gibi özellikleri ayarlama desteği sunulmuştur.
+* Şekillerin SoftEdge efektini değiştirme işlevi, [SoftEdgeFormat](https://reference.aspose.com/words/net/aspose.words.drawing/softedgeformat/) sınıfı eklenerek uygulanmıştır.
+* Şekillerin ayar değerlerini değiştirme özelliği, [AdjustmentCollection](https://reference.aspose.com/words/net/aspose.words.drawing/adjustmentcollection/) ve [Adjustment](https://reference.aspose.com/words/net/aspose.words.drawing/adjustment/) genel sınıflar ve [Adjustments](https://reference.aspose.com/words/net/aspose.words.drawing/shape/adjustments/) mülk.
+
+#### Grafikler, Şekiller ve Çizimdeki Değişiklikler <sup>24.6</sup>
+
+* Grafik yetenekleri geliştirildi. Artık *Ağaç Haritaları*, *Güneş Patlamaları*, *Histogramlar*, *Pareto* grafikleri, *Kutu ve Bıyık* grafikleri, *Şelaleler* ve *Huniler* dahil olmak üzere daha çeşitli grafikler oluşturabilirsiniz. Bu, verilerinizi daha çeşitli ve bilgilendirici bir şekilde görselleştirmenize olanak tanır.
+* Gölge biçimlendirmesi için renk kontrolü iyileştirildi. Gölge renklerine erişerek belgelerinizin görünümü üzerinde daha hassas kontrol elde edebilirsiniz.
+* Arka planda görüntüleme için performans artışı iyileştirildi. Yerel döşeme teknolojisi sayesinde, küçük öğeler içeren arka planların oluşturulmasını önemli ölçüde hızlandırabilirsiniz.
+* Şekiller için gerçekçi degradeler eklendi. Artık daha parlak bir görünüm için Microsoft Word'ün görsel stilini taklit eden, doğrusal olmayan degradelere sahip DML şekilleri oluşturabilirsiniz.
+
+### Ara ve Karşılaştır
+
+#### Gelişmiş Karşılaştırma Seçenekleri <sup>24.6</sup>
+Geliştirilmiş karşılaştırma işlevselliğiyle veri analizi iş akışlarını kolaylaştırma yeteneği eklendi. Buna yeni bir [IgnoreStoreItemId](https://reference.aspose.com/words/net/aspose.words.comparing/advancedcompareoptions/ignorestoreitemid/) seçeneği ve gelişmiş karşılaştırmalar için yeniden tasarlanmış bir arayüz dahildir.
+
+### Diğer
+
+* Bir belgedeki boş sayfaları ortadan kaldırma işlevi, [RemoveBlankPages](https://reference.aspose.com/words/net/aspose.words/document/removeblankpages/) yöntemi eklenerek uygulanmıştır. <sup>24.5</sup>
+* [HasMacros](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/hasmacros/) özelliği eklenerek belge yüklemeden VBA makrolarının varlığını kontrol etme yeteneği sağlandı. <sup>24.5</sup>
+* LINQ Raporlama Motorunu kullanarak belge eklerken kaynak numaralandırmasının tutulması artık desteklenmektedir. <sup>24.5</sup>
+* Yeni bir [DateTimeUtc](https://reference.aspose.com/words/net/aspose.words/comment/datetimeutc/) özelliği eklendi; bu, yorumlar için daha kesin bir zaman damgası sağlayarak organizasyonu ve izlenebilirliği artırır. <sup>24.6</sup>
+* LINQ Raporlama Motoru geliştirildi. Boş paragrafların seçici olarak kaldırılması ve eksik nesne üyeleri için özel mesajların tanımlanması yapılarak daha temiz ve daha bilgilendirici raporlar elde edildi. <sup>24.6</sup>
+
+{{% alert color="primary" %}}
+
+[.NET 24.5 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-5-release-notes/) hakkında daha fazla bilgi edinin.
+
+[.NET 24.6 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-6-release-notes/) hakkında daha fazla bilgi edinin.
+
+{{% /alert %}}
+
 ## .NET 24.1, 24.2, 24.3, 24.4 için Aspose.Words
 
 Aspose.Words 24.1, kontur renklerini yönetme deneyimini geliştirir, OLE nesnelerini ve LINQ raporlamasını geliştirir ve ayrıca yeni bir Bibliyografya Kaynakları genel API'sini sunar.
@@ -372,7 +419,7 @@ Google Noto yazı tipleri için önceden tanımlanmış yazı tipi geri dönüş
 
 ### Belgeleri Yükleme ve Kaydetme
 
-#### PDF Boyutunu Küçültmek için Üstbilgi veya Altbilgi Şekillerini Önbelleğe Alın <sup>22,9</sup>
+#### PDF Boyutunu Küçültmek için Üstbilgi veya Altbilgi Şekillerini Önbelleğe Alın <sup>22.9</sup>
 
 Çıktı PDF dosyasının boyutunu azaltmak için üstbilgi/altbilgi şekillerini önbelleğe alma yeteneği, yeni bir **CacheHeaderFooterShapes** özelliği eklenerek uygulanmıştır.
 
@@ -407,102 +454,6 @@ Bul ve değiştir seçeneklerinde [StructuredDocumentTag](https://reference.aspo
 [.NET 22.11 Sürüm Notları için Aspose.Words](/words/net/aspose-words-for-net-22-11-release-notes/) hakkında daha fazla bilgi edinin.
 
 [.NET 22.12 Sürüm Notları için Aspose.Words](/words/net/aspose-words-for-net-22-12-release-notes/) hakkında daha fazla bilgi edinin.
-
-{{% /alert %}}
-
-## .NET 22.5, 22.6, 22.7, 22.8 için Aspose.Words
-
-Aspose.Words 22.5, yeni yükleme formatları ve yeni yazdırma sayfası boyutu için destek sunmanın yanı sıra bazı işleme seçeneklerini de geliştirir.
-
-Aspose.Words 22.6, PDF'yi diğer formatlara dönüştürme olanaklarını genişletmenin yanı sıra DrawingML ve düz metin dolgu efektiyle çalışmayı geliştirir.
-
-Aspose.Words 22.7, oluşturma özellikleriyle çalışma olanaklarını geliştirir ve ayrıca HTML içe aktarma ve PDF'ye dışa aktarmayla çalışmaya yönelik yeni özellikler ekler.
-
-Aspose.Words 22.8 yeni bir dışa aktarma formatı sunuyor ve çeşitli işleme algoritmalarını geliştiriyor.
-
-API, daha esnek ve kullanışlı geliştirme için geliştirilmiştir.
-
-### Desteklenen Formatlar
-
-* [LoadFormat](https://reference.aspose.com/words/tr/net/aspose.words/loadformat/) numaralandırmasına yeni değerler eklenerek EPUB ve XML belgelerini yükleme desteği getirildi. 22.5 sürümünden itibaren EPUB ve XML belgelerini Aspose.Words belge modeline yükleyip herhangi bir [desteklenen formatlar](https://reference.aspose.com/words/tr/net/aspose.words/saveformat/)'e dönüştürmek mümkün. <sup>22.5</sup>
-* Sürüm 22.8'den başlayarak, bir belgeyi AZW3 formatında (Amazon Kindle'ın tescilli e-kitap dosyası formatı) (KF8, formatın diğer adıdır) kaydetmek mümkündür. Artık yalnızca AZW3 belgelerini yüklemekle kalmayıp aynı zamanda dosyalarınızı derlenmiş bir EPUB olan AZW3 formatına da aktarabilirsiniz. <sup>22.8</sup>
-
-### İşleme ve Yazdırma
-
-#### Yeni Baskı Boyutu <sup>22,5</sup>
-
-[PaperSize](https://reference.aspose.com/words/tr/net/aspose.words/papersize/) numaralandırmasına yeni bir değer getirilerek "Zarf No. 10" yazdırma sayfası boyutu desteği eklendi.
-
-#### MathML Formüllerini Oluşturma <sup>22.5</sup>
-
-MathML formüllerinin etrafında bir kenarlık kutusunun oluşturulması ve bu tür formüller için karakterler oluşturulurken yazı tipi tespiti iyileştirildi.
-
-#### DML Grafiği İyileştirmeleri <sup>22.6</sup>
-
-DrawingML grafikleri genel API, degrade, doku ve desen dolgularını destekleyecek şekilde genişletildi.
-
-#### Glyph, OpenType <sup>22.7</sup> için Ayrıştırmanın Özetini Veriyor
-
-OpenType (CFF) yazı tipleri için Aspose.Words'in kendi glyph anahatlarının ayrıştırılması uygulandı.
-
-Daha önce OpenType (CFF) yazı tipleri için glyph ayrıştırması GDI+ aracılığıyla gerçekleştiriliyordu. Yani artık GDI+'ın mevcut olmadığı durumlarda (Java, .NET Standard platformları, Linux OS vb.) çalışıyor. Glyph, WordArt, metin efektleri, bazı Office Math özellikleri ve diğerleri gibi belirli durumlarda ayrıştırmanın gerekli olduğunu ana hatlarıyla belirtiyor.
-
-#### Şekil Gölge Formatını Ayarla <sup>22.7</sup>
-
-Yeni bir [ShadowFormat](https://reference.aspose.com/words/tr/net/aspose.words.drawing/shapebase/shadowformat/) özelliği eklenerek şekil nesnesinin gölge formatını ayarlama yeteneği sağlandı.
-
-#### Tablo <sup>22.8'de</sup> Hücre Aralığı Desteği
-
-Düzenleme motoru artık önemli ölçüde iyileştirildi: tablolarda çok karmaşık bir hücre aralığı mekanizması uygulandı.
-
-#### Semboller için Yazı Tipi Değişikliği <sup>22.8</sup>
-
-Semboller için yazı tipi değişimi iyileştirildi.
-
-#### Grafik Ekseni Etiket Döndürme Algoritması <sup>22.8</sup>
-
-Grafik ekseni etiketlerinin döndürme algoritması iyileştirildi.
-
-### Belgeleri Yükleme ve Kaydetme
-
-#### PDF'yi Mizanpaj Modeli <sup>22.6</sup> Olmadan Sabit Sayfa Formatına Yükleme ve Dönüştürme
-
-PDF belgelerini yüksek doğruluk ve performansla sabit sayfa formatlarına yükleme ve dönüştürme yeteneği uygulanmıştır.
-
-#### Yeni HTML İçe Aktarma Modu <sup>22.7</sup>
-
-[HtmlInsertOptions](https://reference.aspose.com/words/tr/net/aspose.words/htmlinsertoptions/) numaralandırmasına yeni bir değer eklenerek blok düzeyindeki öğeler için yeni bir HTML içe aktarma modu tanıtıldı.
-
-#### PDF/UA-1'e Dönüştürme WCAG 2.0 <sup>22.7</sup> ile uyumlu
-
-Bir belgeyi WCAG 2.0 ile uyumlu PDF/UA-1 formatına dönüştürme desteği eklendi.
-
-Dolayısıyla, müşterinin erişilebilir bir Word belgesi varsa ve onu Aspose.Words aracılığıyla dönüştürme özelliklerini belirterek PDF/UA-1'e dönüştürürse çıktı WCAG 2.0 uyumlu olacaktır.
-
-WCAG veya Web İçeriği Erişilebilirlik Yönergeleri, W3C tarafından dünyanın her yerindeki bireyler ve kuruluşlarla işbirliği içinde geliştirilen bir dizi yönergedir. Artık Aspose.Words ile belgenizi, WCAG 2.0 uyumlu PDF belgeleri oluşturmaya uygun çıktı PDF/UA-1 biçimine dönüştürebilirsiniz.
-
-WCAG 2.0'ın PDF/UA-1 spesifikasyonunda belirtilmeyen iki ek gereksinime sahip olduğunu belirtmekte fayda var:
-
-* kontrast gereksinimleri
-
-* multimedya içeriğini etiketlemeye yönelik gereksinimler
-
-Ancak her iki gereksinim de bizim Word'den PDF'ye dönüştürme durumumuzla alakalı değil.
-
-### Diğer
-
-* MS Word davranışını taklit eden düz metin dolgu efektini devralma istisnası uygulandı. <sup>22.6</sup>
-* `DATABASE` alanlarının desteği eklendi. Bu alan türünü kullanarak örneğin bir veritabanı sorgusunun sonuçlarını bir Microsoft Word tablosunda gösterebilirsiniz. <sup>22.7</sup>
-
-{{% alert color="primary" %}}
-
-[.NET 22.5 Sürüm Notları için Aspose.Words](/words/net/aspose-words-for-net-22-5-release-notes/) hakkında daha fazla bilgi edinin.
-
-[.NET 22.6 Sürüm Notları için Aspose.Words](/words/net/aspose-words-for-net-22-6-release-notes/) hakkında daha fazla bilgi edinin.
-
-[.NET 22.7 Sürüm Notları için Aspose.Words](/words/net/aspose-words-for-net-22-7-release-notes/) hakkında daha fazla bilgi edinin.
-
-[.NET 22.8 Sürüm Notları için Aspose.Words](/words/net/aspose-words-for-net-22-8-release-notes/) hakkında daha fazla bilgi edinin.
 
 {{% /alert %}}
 

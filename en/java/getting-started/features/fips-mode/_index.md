@@ -63,6 +63,6 @@ The similar exception may occur if keys of inappropriate length are used:
 
 UnapprovedSecurityOperationException: You cannot use a key with size 1024 for RSA in FIPS mode.
 
-For more details on the approved algorithms list, see [BouncyCastle User Guide](https://downloads.bouncycastle.org/fips-java/BC-FJA-UserGuide-1.0.1.pdf), “Cipher Algorithms (Symmetric)”.
+For more details on the approved algorithms list, see [BouncyCastle User Guide](https://downloads.bouncycastle.org/fips-java/docs/BC-FJA-UserGuide-1.0.1.pdf), “Cipher Algorithms (Symmetric)”.
 
 

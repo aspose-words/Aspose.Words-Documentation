@@ -106,3 +106,14 @@ Jane Doe
 John Smith
 Suffix
 {{< /highlight >}}
+
+The same functionality can be applied to selective paragraphs only. To achieve this, you can prepend names of corresponding tags with exclamation marks as shown in the following template snippet instead of applying of the `ReportBuildOptions.RemoveEmptyParagraphs` option.
+
+{{< highlight xml >}}
+<<![...]>>
+<<!doc [...]>>
+<<!foreach [...]>>...<</foreach>>
+<<!if [...]>>...<<elseif [...]>>...<<else>>...<</if>>
+{{< /highlight >}}
+
+For a tag with its name prepended with an exclamation mark, the engine treats a corresponding paragraph or paragraphs as if `ReportBuildOptions.RemoveEmptyParagraphs` was applied. For the rest of tags, the engine behaves as if `ReportBuildOptions.RemoveEmptyParagraphs` was not applied.

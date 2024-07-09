@@ -11,6 +11,53 @@ url: /he/net/what-s-new-in-aspose-words-for-net/
 
 דף זה מתאר את החדש המעניין ביותר Aspose.Words תכונות שהוצגו במהדורות האחרונות.
 
+## Aspose.Words עבור .NET 24.5, 24.6
+
+Aspose.Words 24.5 מרחיב אפשרויות למכלולים, משפר את יכולות העיבוד ומרחיב כמה אפשרויות אחרות.
+
+Aspose.Words 24.6 משפר את אפשרויות העיבוד, משפר את פונקציונליות החיפוש וההשוואה ומרחיב מספר תכונות אחרות.
+
+### פלטפורמות
+
+מכלולי .NET 7.0/8.0 נכללו בחבילת Aspose.Words NuGet.
+
+### עיבוד והדפסה
+
+#### שינויים ב Charts, Shapes, DrawingML <sup>24.5</sup>
+
+* עיבוד אפקטים של DrawingML עבור גרפיקת SVG, הרחבת פונקציונליות קודמת מוגבלת לתמונות, יושם.
+* תמיכה ביצירת תרשימים משולבים והתאמת מאפיינים כגון רוחב פערים, חפיפה וסולם בועות בתוך קבוצות סדרות הוצגה על ידי הוספת [ChartSeriesGroup](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriesgroup/) ו-[ChartSeriesGroupCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriesgroupcollection/) וכיתות [SeriesGroups](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/seriesgroups/).
+* פונקציונליות לתמרן אפקט SoftEdge של צורות יושמה על ידי הוספת המחלקה [SoftEdgeFormat](https://reference.aspose.com/words/net/aspose.words.drawing/softedgeformat/).
+* היכולת לשנות ערכי התאמה של צורות יושמה על ידי הוספת [AdjustmentCollection](https://reference.aspose.com/words/net/aspose.words.drawing/adjustmentcollection/) ו-[Adjustment](https://reference.aspose.com/words/net/aspose.words.drawing/adjustment/) שיעורים ציבוריים ו-[Adjustments](https://reference.aspose.com/words/net/aspose.words.drawing/shape/adjustments/) תכונה.
+
+#### שינויים בתרשימים, בצורות ובציור <sup>24.6</sup>
+
+* יכולות התרשימים שופרו. כעת תוכל ליצור מגוון רחב יותר של תרשימים, כולל *מפות עצים*, *פרצי שמש*, *היסטוגרמות*, תרשימי *פארטו*, תרשימי *קופסה ושפם*, *מפלי מים* ו-*משפכים*. זה מאפשר לך לדמיין את הנתונים שלך בצורה מגוונת ואינפורמטיבית יותר.
+* בקרת הצבע עבור עיצוב הצללים שופרה. אתה יכול לקבל שליטה מדויקת יותר על מראה המסמכים שלך על ידי גישה לצבעי צל.
+* שיפור הביצועים לעיבוד רקע שופר. אתה יכול להאיץ משמעותית את העיבוד של רקעים המכילים אלמנטים קטנים הודות לטכנולוגיית ריצוף מקורית.
+* נוספו שיפועים מציאותיים לצורות. כעת תוכל ליצור צורות DML עם מעברי צבע לא ליניאריים, המחקה את הסגנון החזותי של Microsoft Word למראה מלוטש יותר.
+
+### חפש והשווה
+
+#### אפשרויות השוואה מתקדמות <sup>24.6</sup>
+נוספה היכולת לייעל את זרימות העבודה של ניתוח נתונים עם פונקציונליות משופרת של השוואה. זה כולל אפשרות חדשה [IgnoreStoreItemId](https://reference.aspose.com/words/net/aspose.words.comparing/advancedcompareoptions/ignorestoreitemid/) וממשק שעוצב מחדש להשוואות מתקדמות.
+
+### אחר
+
+* הפונקציה להעלמת דפים ריקים ממסמך יושמה על ידי הוספת השיטה [RemoveBlankPages](https://reference.aspose.com/words/net/aspose.words/document/removeblankpages/). <sup>24.5</sup>
+* היכולת לבדוק נוכחות של פקודות מאקרו VBA מבלי לטעון מסמך ניתנה על ידי הוספת המאפיין [HasMacros](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/hasmacros/). <sup>24.5</sup>
+* שמירה על מספור המקור בזמן הכנסת מסמך באמצעות מנוע הדיווח LINQ נתמך כעת. <sup>24.5</sup>
+* מאפיין חדש [DateTimeUtc](https://reference.aspose.com/words/net/aspose.words/comment/datetimeutc/) נוסף - זה מספק חותמת זמן מדויקת יותר להערות, שיפור הארגון והמעקב. <sup>24.6</sup>
+* מנוע הדיווח LINQ שופר. בוצעו הסרה סלקטיבית של פסקאות ריקות והגדרה של הודעות מותאמות אישית עבור חברי אובייקט חסרים, מה שהוביל לדוחות נקיים ואינפורמטיביים יותר. <sup>24.6</sup>
+
+{{% alert color="primary" %}}
+
+למידע נוסף על [Aspose.Words for .NET 24.5 Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-5-release-notes/).
+
+למידע נוסף על [Aspose.Words for .NET 24.6 Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-6-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words עבור .NET 24.1, 24.2, 24.3, 24.4
 
 Aspose.Words 24.1 משפר את החוויה סביב ניהול צבעי שבץ, משפר את אובייקטים OLE ודיווח LINQ, כמו גם מציג חדש `Bibliography Sources` הציבור API.
@@ -407,102 +454,6 @@ Aspose.Words 22.12 משפר את יכולת ביצוע ומציג אפשרויו
 למד עוד על [Aspose.Words עבור .NET 22.11 פרסום הערות](/words/net/aspose-words-for-net-22-11-release-notes/).
 
 למד עוד על [Aspose.Words עבור .NET 22.12 הודעות](/words/net/aspose-words-for-net-22-12-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words עבור .NET 22.5, 22.6, 22.7, 22.8
-
-Aspose.Words 22.5 מציג תמיכה בתבניות טעינה חדשות וגודל דף חדש, כמו גם משפר כמה אפשרויות הגשה.
-
-Aspose.Words 22.6 מרחיב את האפשרויות של המרת PDF לפורמטים אחרים, כמו גם לשפר את העבודה עם DrawingML ואפקט מלא טקסט מוצק.
-
-Aspose.Words 22.7 משפר את האפשרויות של עבודה עם עריכת תכונות, וגם מוסיף תכונות חדשות לעבודה עם ייבוא HTML וייצוא ל- PDF.
-
-Aspose.Words 22.8 מציג פורמט יצוא חדש ומשפר אלגוריתמים שונים.
-
-The The The API הוא משופר לפיתוח גמיש ונוח יותר.
-
-### פורמטים תומכים
-
-* • תמיכה בטעינה EPUB ומסמכים XML הוצגה על ידי הוספת ערכים חדשים [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/) אזהרה. החל מגירסה 22.5, ניתן לטעון מסמכי EPUB ו-XML לתוך Aspose.Words מודל מסמך וממיר אותם לכל [פורמטים נתמך](https://reference.aspose.com/words/net/aspose.words/saveformat/). <sup>22.5</sup>
-* החל מגרסה 22.8, ניתן לחסוך מסמך בפורמט AZW3 Amazon פורמט קובץ ה- e-book הקנייני של קינדל (KF8 הוא שם אחר לתבנית). עכשיו אתה לא יכול רק לטעון AZW3 מסמכים, אבל גם לייצא את הקבצים שלך בפורמט AZW3, שהוא למעשה EPUB מורכב. <sup>22.8</sup>
-
-### גילוח ומדפס
-
-#### גודל הדפסה חדש <sup>22.5</sup>
-
-התמיכה בגודל ההדפסה "Envelope No. 10" נוספה על ידי הצגת ערך חדש [PaperSize](https://reference.aspose.com/words/net/aspose.words/papersize/) אזהרה.
-
-#### המונחים: MathML Formulas <sup>22.5</sup>
-
-יצירת תיבת גבול סביב נוסחאות MathML וגילוי גופני בעת יצירת דמויות לנוסחאות כאלה השתפרה.
-
-#### DML שיפורים <sup>22.6</sup>
-
-המונחים: public API הורחב לתמיכה gradient, מרקם ותבניות.
-
-#### Glyph המונחים: OpenType <sup>22.7</sup>
-
-Aspose.Words משלה glyph מתווה parsing for OpenType (CFF) הואשמו.
-
-בעבר, glyph parsing for OpenType (CFF) בוצעה באמצעות GDI+. עכשיו זה עובד במקרים שבהם GDI+ אינו זמין. Java, .NET Standard פלטפורמות, Linux מערכת ההפעלה וכו'. Glyph קווי מתאר נדרשים במקרים ספציפיים כגון WordArt, אפקטים טקסט, כמה תכונות מתמטיקה של Office ואחרים.
-
-#### המונחים: shape Shadow Format <sup>22.7</sup>
-
-היכולת להגדיר את פורמט הצללים של האובייקט בצורת מסופק על ידי הוספת חדש [ShadowFormat](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/shadowformat/) רכוש.
-
-#### תמיכה ב- Cell Spacing in Tables <sup>22.8</sup>
-
-מנוע הפריסה השתפר כעת באופן משמעותי: מנגנון ספיגה מורכב מאוד של תאים בטבלאות כבר מיושם.
-
-#### מיקום: Font Substitution for Symbols <sup>22.8</sup>
-
-החלפתם של סמלים השתפרה.
-
-#### המונחים: Rotation Algorithm <sup>22.8</sup>
-
-אלגוריתם הסיבוב של תוויות ציר תרשים השתפר.
-
-### לטעון ולחסוך מסמכים
-
-#### לטעון ולהמיר PDF לתבנית קבועה של דף ללא מודל Layout <sup>22.6</sup>
-
-היכולת לטעון ולהמיר מסמכי PDF כדי לתקן פורמטי דף עם נאמנות גבוהה וביצועים יושמו.
-
-#### HTML יבוא מצב <sup>22.7</sup>
-
-מצב ייבוא HTML חדש עבור אלמנטים ברמת בלוק הוצג על ידי הוספת ערך חדש ל [HtmlInsertOptions](https://reference.aspose.com/words/net/aspose.words/htmlinsertoptions/) אזהרה.
-
-#### המרת PDF/UA-1 CSompliant עם WCAG 2.0 <sup>22.7</sup>
-
-תמיכה להמיר מסמך לתבנית PDF/UA-1, בשילוב עם WCAG 2.0.
-
-אם ללקוח יש מסמך Word נגיש וממיר אותו ל- PDF/UA-1 באמצעות Aspose.Words בהתייחסות ספציפיתי המרה, הפלט יהיה תואם WCAG 2.0.
-
-WCAG או Web Content נגישות הנחיות הן מערך של הנחיות שפותחו על ידי W3C בשיתוף פעולה עם יחידים וארגונים ברחבי העולם. עכשיו עם Aspose.Words אתה יכול להמיר את המסמך שלך לתבנית PDF / UA-1, אשר מתאים לבניית מסמכי PDF של WCAG 2.0.
-
-ראוי לציין כי WCAG 2.0 יש שתי דרישות נוספות שאינן מוגדרות במפרט PDF/UA-1:
-
-* דרישות ניגודיות
-
-* דרישות לתייג תוכן מולטימדיה
-
-אך שתי הדרישות אינן רלוונטיות לענייננו, החל מ- Word ל- PDF.
-
-### אחרים
-
-* למעט יורשת אפקט טקסט מוצק מלא כי לחקות התנהגות MS Word כבר מיושם. <sup>22.6</sup>
-* תמיכה של `DATABASE` נוספו שדות. באמצעות סוג זה של שדה, אתה יכול, למשל, להציג את התוצאות של שאילתה מסד נתונים במסד נתונים. Microsoft Word שולחן <sup>22.7</sup>
-
-{{% alert color="primary" %}}
-
-למד עוד על [Aspose.Words עבור .NET 22.5 הערות](/words/net/aspose-words-for-net-22-5-release-notes/).
-
-למד עוד על [Aspose.Words עבור .NET 22.6 הערות](/words/net/aspose-words-for-net-22-6-release-notes/).
-
-למד עוד על [Aspose.Words עבור .NET 22.7 הערות](/words/net/aspose-words-for-net-22-7-release-notes/).
-
-למד עוד על [Aspose.Words עבור .NET 22.8 הערות](/words/net/aspose-words-for-net-22-8-release-notes/).
 
 {{% /alert %}}
 

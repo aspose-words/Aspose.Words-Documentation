@@ -52,9 +52,8 @@ Aspose.Words รองรับรูปแบบเอกสารยอดน�
 						</ul>
 						<p>เรียนรู้</p>
 						<ul>
-			  			 <li><a href="https://releases.aspose.com/words/python/release-notes/">Aspose.Words สำหรับบันทึกประจำรุ่น Python via .NET</a>
-								<li><a href="/words/th/python-net/how-to-run-the-examples/">วิธีการเรียกใช้ตัวอย่าง</a></li>
-								/li&gt;
+			  				<li><a href="https://releases.aspose.com/words/python/release-notes/">Aspose.Words สำหรับบันทึกประจำรุ่น Python via .NET</a></li>
+							<li><a href="/words/th/python-net/how-to-run-the-examples/">วิธีการเรียกใช้ตัวอย่าง</a></li>
 						</ul>
 		</div>
 		<div class="col-md-4">

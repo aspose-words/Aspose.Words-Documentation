@@ -28,3 +28,14 @@ Consider the following example. Given that `r` is a `DataRow` instance that does
 {{< /highlight >}}
 
 However, if `ReportBuildOptions.AllowMissingMembers` is applied, the engine treats access to such a field as a null literal, so no exception is thrown and simply no value is written to the report then.
+
+Furthermore, the engine can be instructed to print a specific message instead of no value in such a case. The following code snippet shows how to achieve this.
+
+{{< highlight csharp >}}
+ReportingEngine engine = new ReportingEngine();
+engine.Options |= ReportBuildOptions.AllowMissingMembers;
+engine.MissingMemberMessage = "None";
+engine.BuildReport(...);
+{{< /highlight >}}
+
+**Note –** The message can be printed only instead of a template expression that represents a plain reference to a missing member of an object like in the provided template example; for instance, the message is not used when printing the result of a binary operator, one of which operands references a missing object member.

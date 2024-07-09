@@ -59,7 +59,7 @@ Generate documents or reports from scratch or by filling templates with data fro
 
 ### Platform Independence
 
-Aspose.Words for C++ covers most of the popular development environments and deployment platforms. Its API can be used to develop applications for a wide range of operating systems, such as Windows, Linux, and various platforms.
+Aspose.Words for C++ covers most of the popular development environments and deployment platforms. Its API can be used to develop applications for a wide range of operating systems, such as Windows, Linux, macOS and various platforms.
 
 ### Independence from Other Applications
 
