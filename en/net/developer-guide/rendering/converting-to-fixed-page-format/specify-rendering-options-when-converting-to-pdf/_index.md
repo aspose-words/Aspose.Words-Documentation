@@ -35,7 +35,7 @@ Note that in contrast to Microsoft Word, the PDF format has a limited number of 
 
 The code example below shows how to save a document as PDF with fillable forms with specified Jpeg compression and quality:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-Working with PdfSaveOptions-PdfImageCompression.cs" >}}
+{{< gist "aspose-words-gists" "6debb84fc15c7e5b8e35384d9c116215" "image-compression.cs" >}}
 
 ## Exporting Document Structure and Custom Properties
 
@@ -45,11 +45,11 @@ PDF logical structure facilities provide a mechanism for incorporating informati
 
 The following example demonstrates how to save a document to PDF format, preserving the document structure:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-WorkingWithPdfSaveOptions-ExportDocumentStructure.cs" >}}
+{{< gist "aspose-words-gists" "6debb84fc15c7e5b8e35384d9c116215" "export-document-structure.cs" >}}
 
 Aspose.Words also allows you to export document custom properties to PDF, which is demonstrated by the following example:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-WorkingWithPdfSaveOptions-CustomPropertiesExport.cs" >}}
+{{< gist "aspose-words-gists" "6debb84fc15c7e5b8e35384d9c116215" "custom-properties-export.cs" >}}
 
 ## Exporting Outlines from Bookmarks and Headings in Output PDF
 
@@ -57,7 +57,7 @@ If you want to export bookmarks as outlines in output PDF, you can use the [Def
 
 The code example below shows how to export bookmarks from the first header/footer of a section:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-WorkingWithPdfSaveOptions-ExportHeaderFooterBookmarks.cs" >}}
+{{< gist "aspose-words-gists" "6debb84fc15c7e5b8e35384d9c116215" "export-header-footer-bookmarks.cs" >}}
 
 The output PDF of this example is shown below:
 
@@ -69,7 +69,7 @@ You can also export headings in the output PDF, using the [HeadingsOutlineLeve
 
 The code example below shows how to export headings with three levels:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-WorkingWithPdfSaveOptions-SaveToPdfWithOutline.cs" >}}
+{{< gist "aspose-words-gists" "6debb84fc15c7e5b8e35384d9c116215" "outline-options.cs" >}}
 
 The output PDF of this example is depicted below:
 
@@ -89,7 +89,7 @@ Note that it is also possible to set a specific resolution in the [Resolution]
 
 The code example below displays how to change the resolution of images in an output PDF document:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-WorkingWithPdfSaveOptions-DownsamplingImages.cs" >}}
+{{< gist "aspose-words-gists" "6debb84fc15c7e5b8e35384d9c116215" "downsampling-images.cs" >}}
 
 Resolution is calculated according to the real image size on the page.
 
@@ -115,11 +115,11 @@ The [EmbedFullFonts](https://reference.aspose.com/words/net/aspose.words.saving
 
 The following example demonstrates how to embed full fonts in the output PDF document:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-EmbeddedFontsInPDF-EmbeddAllFonts.cs" >}}
+{{< gist "aspose-words-gists" "6debb84fc15c7e5b8e35384d9c116215" "embedded-all-fonts.cs" >}}
 
 The following example demonstrates how to set Aspose.Words to subset fonts in the output PDF:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-EmbeddedFontsInPDF-EmbeddSubsetFonts.cs" >}}
+{{< gist "aspose-words-gists" "6debb84fc15c7e5b8e35384d9c116215" "embedded-subset-fonts.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -149,7 +149,7 @@ These fonts are replaced with the corresponding core Type 1 fonts, which are pro
 
 The example provided below shows how to set Aspose.Words to avoid embedding core fonts and let the reader to substitute them with PDF Type 1 fonts:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-EmbeddingWindowsStandardFonts-AvoidEmbeddingCoreFonts.cs" >}}
+{{< gist "aspose-words-gists" "6debb84fc15c7e5b8e35384d9c116215" "avoid-embedding-core-fonts.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -171,7 +171,7 @@ This option can be enabled or disabled by using the [FontEmbeddingMode](https:/
 
 The example below shows how to set Aspose.Words to skip embedding Arial and Times New Roman fonts into a PDF document:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-EmbeddedFontsInPDF-SetFontEmbeddingMode.cs" >}}
+{{< gist "aspose-words-gists" "6debb84fc15c7e5b8e35384d9c116215" "disable-embed-windows-fonts.cs" >}}
 
 This mode is most useful when you wish to view your documents on the same platform, preserving the exact appearance of fonts in the output PDF.
 

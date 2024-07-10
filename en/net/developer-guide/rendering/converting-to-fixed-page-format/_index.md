@@ -84,4 +84,4 @@ After the page layout is built and the geometry of objects and their position on
 
 The example below demonstrates how to save a document to JPEG format using the `Save` method and rendering options:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-SaveDocumentToJPEG-SaveDocumentToJPEG.cs" >}}
+{{< gist "aspose-words-gists" "ebbb90d74ef57db456685052a18f8e86" "get-jpeg-page-range.cs" >}}
