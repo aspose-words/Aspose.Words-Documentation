@@ -258,29 +258,7 @@ Sometimes there is a problem that it is not possible to set alt text for autogen
 
 Follow the code example to update `TOC` fields using the Aspose.Words Document Object Model (DOM):
 
-{{< highlight csharp >}}
-Document doc = new Document(fileName);
-
-	var tocHyperLinks = doc.Range.Fields
-		.Where(f => f.Type == FieldType.FieldHyperlink)
-		.Cast<FieldHyperlink>()
-		.Where(f => f.HRef.StartsWith("#_Toc"));
-	
-	foreach (FieldHyperlink link in tocHyperLinks)
-		link.ScreenTip = link.DisplayResult;
-	
-	PdfSaveOptions opt = new PdfSaveOptions()
-	{
-		Compliance = PdfCompliance.PdfUa1,
-		DisplayDocTitle = true,
-		ExportDocumentStructure = true,
-	};
-	opt.OutlineOptions.HeadingsOutlineLevels = 3;
-	opt.OutlineOptions.CreateMissingOutlineLevels = true;
-	
-	var outFile = Path.ChangeExtension(fileName, "_aw.pdf");
-	doc.Save(outFile, opt);
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "8b0ab362f95040ada1255a0473acefe2" "update-screen-tip.cs" >}}
 
 ### Table Headers
 
