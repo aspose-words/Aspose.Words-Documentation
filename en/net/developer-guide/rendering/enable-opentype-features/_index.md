@@ -23,4 +23,4 @@ In a typical application single instance of a text shaper factory is shared amon
 
 The following code example shows you how to turn on support of OpenType features.
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-OpenType-OpenTypeFeatures-OpenTypeFeatures.cs" >}}
+{{< gist "aspose-words-gists" "7840fae2297fa05bba1ca0608cb81bf1" "open-type-features.cs" >}}

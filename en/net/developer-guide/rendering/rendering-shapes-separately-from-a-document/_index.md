@@ -51,11 +51,11 @@ The shape can be exported in any image format specified in the [SaveFormat](htt
 
 The code example below illustrates rendering a shape to an EMF image separately from document, and saving to disk:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-RenderShape-RenderShapeToDisk.cs" >}}
+{{< gist "aspose-words-gists" "7fc867ac8ef1b729b6f70580fbc5b3f9" "render-shape-as-emf.cs" >}}
 
 The code example below illustrates rendering a shape to a JPEG image separately from document, and saving to a stream:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-RenderShape-RenderShapeToStream.cs" >}}
+{{< gist "aspose-words-gists" "7fc867ac8ef1b729b6f70580fbc5b3f9" "render-shape-as-jpeg.cs" >}}
 
 The **ImageSaveOptions** class allows you to specify a variety of options that control how the image is rendered. The functionality described above can be applied in the same manner to the **GroupShape** and **Shape** nodes.
 
@@ -65,7 +65,7 @@ Rendering directly to a **Graphics** object allows you to define your own settin
 
 The example below shows how to render a shape to a .**NET Graphics** object separately from the document and apply rotation to the rendered image:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-RenderShape-RenderShapeToGraphics.cs" >}}
+{{< gist "aspose-words-gists" "7fc867ac8ef1b729b6f70580fbc5b3f9" "render-shape-to-graphics.cs" >}}
 
 Similarly, to the [RenderToSize](https://reference.aspose.com/words/net/aspose.words/document/rendertosize/) method, the [RenderToSize](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/rendertosize/)method inherited from the [NodeRendererBase](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/) is useful for creating thumbnails of a document content. The shape size is specified through the constructor. The **RenderToSize** method accepts the **Graphics** object, the X and Y coordinates of the image position, and the size of the image (width and height) that will be drawn onto the **Graphics** object.
 
@@ -77,7 +77,7 @@ The [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/)�
 
 The following example shows how to render a Shape image to a JPEG image separately from the document and save it to the disk:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-RenderShape-RenderShapeImage.cs" >}}
+{{< gist "aspose-words-gists" "7fc867ac8ef1b729b6f70580fbc5b3f9" "render-shape-image.cs" >}}
 
 ## Retrieving a Shape Size
 
@@ -85,7 +85,7 @@ The [ShapeRenderer](https://reference.aspose.com/words/net/aspose.words.renderin
 
 The below example shows how to create a new Bitmap and Graphics object with the width and height of the shape to be rendered:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-RenderShape-FindShapeSizes.cs" >}}
+{{< gist "aspose-words-gists" "7fc867ac8ef1b729b6f70580fbc5b3f9" "find-shape-sizes.cs" >}}
 
 When using the **RenderToSize** or **RenderToScale** methods, the rendered image size is also returned in the [SizeF](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/rendertoscale/) object. This can be assigned to a variable and used if necessary.
 

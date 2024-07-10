@@ -32,15 +32,15 @@ When Aspose.Words encounters a font in the document for the first time, it attem
 
 Since the procedure described above is time-consuming, it may negatively affect application performance at its first launch. However, each instance of **FontSettings** has its own cache, which could reduce the processing time of subsequent documents. For example, you can share an instance of the **FontSettings** class between different documents, which allows you to speed up the loading of the documents. The following example demonstrates this:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-WorkingWithFontSettings-FontSettingsWithLoadOption.cs" >}}
+{{< gist "aspose-words-gists" "a08698f540d47082b4e2dbb1cb67fc1b" "load-option-font-settings.cs" >}}
 
 In the case when **FontSettings** is not defined explicitly, Aspose.Words uses the default **FontSettings** instance. This instance is also automatically shared among documents, and can be extracted as follows:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-WorkingWithFontSettings-FontSettingsDefaultInstance.cs" >}}
+{{< gist "aspose-words-gists" "a08698f540d47082b4e2dbb1cb67fc1b" "font-settings-default-instance.cs" >}}
 
 If you are sure that all processing documents require the same font settings, then it is recommended to set up and utilize the default **FontSettings** instance. Suppose that you need to use the same font sources for all your documents. In this case, you can just amend the default instance as follows:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-WorkingWithFontSettings-FontSettingsFontSource.cs" >}}
+{{< gist "aspose-words-gists" "a08698f540d47082b4e2dbb1cb67fc1b" "font-settings-font-source.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -59,7 +59,7 @@ However, there are situations when the exact font cannot be found and Aspose.Wor
 1. If Aspose.Words is unable to locate the defined font, and **AltName** is not also defined, then the font substitution rules are applied one-by-one, as described below (when the appropriate replacement is found, the Font Substitution Process stops and the next step is not executed):
    1. First, Aspose.Words tries to process the font name to get the substitution, particularly it tries to remove suffixes with "-" and "," separators.<br>
       If this substitution rule takes place, a "Font '&lt;OriginalFont&gt;' has not been found. Using '&lt;SubstitutionFont&gt;' font instead. Reason: font name substitution." warning appears.<br>
-      {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-SetFontsFoldersSystemAndCustomFolder-GetSubstitutionWithoutSuffixes.cs" >}}
+{{< gist "aspose-words-gists" "a08698f540d47082b4e2dbb1cb67fc1b" "get-substitution-without-suffixes.cs" >}}
    1. Then Aspose.Words attempts to apply OS font settings, if they are available, by using the **FontConfig** utility. This Non-Windows feature must be used with a FontConfig-compatible OS. Almost any Unix-based OS already has a `FontConfig` library that is designed to provide system-wide font configuration, customization, and access to applications. Otherwise, this library can be easily installed by the user.
       Aspose.Words knows how to query data and interpret FontConfig results for its own purposes. By default, the `FontConfig` utility is disabled. You can enable it as follows:<br>
       **.NET**<br>
@@ -170,7 +170,7 @@ fontSettings.FallbackSettings.LoadNotoFallbackSettings();
 
 The following code example demonstrates how to load font fallback settings from an XML file:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-SetFontSettings-SetFontFallbackSettings.cs" >}}
+{{< gist "aspose-words-gists" "a08698f540d47082b4e2dbb1cb67fc1b" "font-fallback-settings.cs" >}}
 
 In the above code example, the following XML file is used:
 
@@ -197,7 +197,7 @@ In the above code example, the following XML file is used:
 
 Aspose.Words provides predefined font fallback settings for Google Noto fonts. These are free fonts licensed under SIL Open Font License, that can be downloaded from Google Noto Fonts. The **FontFallbackSettings** class provides a [LoadNotoFallbackSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/) method. It loads predefined fallback settings, which use Google Noto fonts as shown in the code example below:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-SetFontSettings-SetPredefinedFontFallbackSettings.cs" >}}
+{{< gist "aspose-words-gists" "a08698f540d47082b4e2dbb1cb67fc1b" "noto-fallback-settings.cs" >}}
 
 {{% alert color="primary" %}}
 

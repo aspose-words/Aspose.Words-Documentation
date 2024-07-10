@@ -51,7 +51,7 @@ While binary raster operations are not currently supported and the limited numbe
 
 The example shown below demonstrates how Aspose.Words renders a metafile to a bitmap when it is not possible to correctly render some of metafile records to vector graphics:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-Doc2Pdf-RenderMetafileToBitmap.cs" >}}
+{{< gist "aspose-words-gists" "f9c5250f94e595ea3590b3be679475ba" "pdf-render-warnings.cs" >}}
 
 ## Metafile Fallback Settings
 
