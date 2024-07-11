@@ -54,7 +54,7 @@ The data source contains all the information that is pulled during the mail merg
 
 The following code example shows how to load a data table as the data source for the mail merge operation:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-ExecuteWithRegionsDataTable-ExecuteWithRegionsDataTable.cs" >}}
+{{< gist "aspose-words-gists" "de5e13f5d5bb7d8cb88da900b4f9ed8b" "execute-with-regions-data-table.cs" >}}
 
 {{% alert color="primary" %}}
 

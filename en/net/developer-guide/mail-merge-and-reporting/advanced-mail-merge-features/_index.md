@@ -41,21 +41,7 @@ You can use either [NextIf](https://reference.aspose.com/words/net/aspose.words.
 
 The following code example shows how to compare two expressions with **NextIf** or **SkipIf**:
 
-**.NET**
-{{< highlight csharp >}}
-
-// Use NextIf field
-FieldNextIf fieldNextIf = (FieldNextIf)builder.InsertField(FieldType.FieldNextIf, true);
-
-// Or use SkipIf field
-FieldNextIf fieldSkipIf = (FieldNextIf)builder.InsertField(FieldType.FieldSkipIf, true);
-
-// Compare two expressions
-fieldNextIf.LeftExpression = "3";
-fieldNextIf.RightExpression = "1 + 2";
-fieldNextIf.ComparisonOperator = "=";
-
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "b4bab1bf22437a86d8062e91cf154494" "field-next.cs" >}}
 
 ## Obtain Information About Template Structure
 
@@ -67,22 +53,17 @@ You can come across a scenario where you will want to merge data with merge fiel
 
 The following code example shows how to get names of all merge fields in the template:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Fields-GetFieldNames-GetFieldNames.cs" >}}
+{{< gist "aspose-words-gists" "b4bab1bf22437a86d8062e91cf154494" "get-field-names.cs" >}}
 
 ### Get Information About Merge Regions
 
 You may have a scenario where you want to understand how your template is structured through the specified merge regions. You can use some methods to gather all necessary information about merge regions or to get the merge regions hierarchy in your template, such as the [GetRegionsHierarchy](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getregionshierarchy/) method. You can use the properties and methods of the [MailMergeRegionInfo](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmergeregioninfo/) class.The following code example shows how to get merge regions hierarchy:
 
-**.NET**
-{{< highlight csharp >}}
-
-MailMergeRegionInfo regionInfo = doc.MailMerge.GetRegionsHierarchy();
-
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "b4bab1bf22437a86d8062e91cf154494" "get-regions-hierarchy.cs" >}}
 
 The following code example shows how to get specific merge regions inside your template based on their names:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-MailMergeWithRegions-GetRegionsByName.cs" >}}
+{{< gist "aspose-words-gists" "b4bab1bf22437a86d8062e91cf154494" "get-regions-by-name.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -96,4 +77,4 @@ Aspose.Words allows you to automatically map names of fields in your data source
 
 The following code example shows how to add a mapped field using the [Add](https://reference.aspose.com/words/net/aspose.words.mailmerging/mappeddatafieldcollection/add/) method when a merge field in a template and a data field in a data source have different names:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Fields-GetFieldNames-MappedDataFields.cs" >}}
+{{< gist "aspose-words-gists" "b4bab1bf22437a86d8062e91cf154494" "mapped-data-fields.cs" >}}

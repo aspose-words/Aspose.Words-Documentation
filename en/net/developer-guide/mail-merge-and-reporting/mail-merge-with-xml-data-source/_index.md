@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge with XML Data Source in C#
 second_title: Aspose.Words for .NET
 articleTitle: Mail Merge with XML Data Source
@@ -50,7 +50,7 @@ The following XML contains the data that is needed to fill in a merge template:
 
 The following code example shows how to load XML data into DataSet and then use it as a data source:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-XMLMailMerge-XMLMailMerge.cs" >}}
+{{< gist "aspose-words-gists" "0441f68c5209fec25c47d1a0a203fbb0" "xml-mail-merge.cs" >}}
 
 {{% alert color="primary" %}}
 

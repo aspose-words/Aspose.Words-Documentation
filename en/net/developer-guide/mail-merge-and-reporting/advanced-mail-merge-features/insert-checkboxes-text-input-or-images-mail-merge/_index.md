@@ -37,9 +37,9 @@ Note that some fields were replaced with plain text, some fields were replaced w
 
 The following code example shows how to insert checkboxes and input text fields into a document during a mail merge:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7"  "Examples-CSharp-Mail-Merge-MailMergeFormFields-MailMergeFormFields.cs" >}}
+{{< gist "aspose-words-gists" "0a1baaa127443b485cc692c8d98ee353" "mail-merge-form-fields.cs" >}}
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7"  "Examples-CSharp-Mail-Merge-MailMergeFormFields-HandleMergeField.cs" >}}
+{{< gist "aspose-words-gists" "8a66b5cea0f9f8b862c092c9b93ccb3c" "handle-merge-field.cs" >}}
 
 ## Insert Images during Mail Merge
 
@@ -51,9 +51,9 @@ During a mail merge, when an image mail merge field is encountered in a document
 
 The following code example shows how to insert images stored in a database BLOB field into a report:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7"  "Examples-CSharp-Mail-Merge-MailMergeImageFromBlob-MailMergeImageFromBlob.cs" >}}
+{{< gist "aspose-words-gists" "8a66b5cea0f9f8b862c092c9b93ccb3c" "mail-merge-image-from-blob.cs" >}}
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7"  "Examples-CSharp-Mail-Merge-MailMergeImageFromBlob-HandleMergeImageFieldFromBlob.cs" >}}
+{{< gist "aspose-words-gists" "8a66b5cea0f9f8b862c092c9b93ccb3c" "handle-merge-image-field-from-blob.cs" >}}
 
 ### Set Image Properties during Mail Merge
 
@@ -63,8 +63,8 @@ Currently, using [ImageFieldMergingArgs](https://reference.aspose.com/words/net/
 
 The following code example shows how to set various image properties:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7"  "Examples-CSharp-Mail-Merge-MailMergeImageField-MailMergeImageField.cs" >}}
+{{< gist "aspose-words-gists" "8a66b5cea0f9f8b862c092c9b93ccb3c" "mail-merge-image-field.cs" >}}
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7"  "Examples-CSharp-Mail-Merge-MailMergeImageField-ImageFieldMergingHandler.cs" >}}
+{{< gist "aspose-words-gists" "8a66b5cea0f9f8b862c092c9b93ccb3c" "image-field-merging-handler.cs" >}}
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7"  "Examples-CSharp-Mail-Merge-MailMergeImageField-DataSourceRoot.cs" >}}
+{{< gist "aspose-words-gists" "8a66b5cea0f9f8b862c092c9b93ccb3c" "data-source-root.cs" >}}
