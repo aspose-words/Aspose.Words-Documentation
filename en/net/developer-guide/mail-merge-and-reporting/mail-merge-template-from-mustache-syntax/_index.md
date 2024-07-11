@@ -46,7 +46,7 @@ Mustache is represented as a logic-less order as it lacks any specific control f
 
 The following code example shows how to replace the Mustache tags with specific data:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-MailMergeUsingMustacheSyntax-MustacheSyntaxUsingDataTable.cs" >}}
+{{< gist "aspose-words-gists" "544788f602e697802e313a641cedb9b8" "mustache-syntax-using-data-table.cs" >}}
 
 You can notice the difference between the document before executing the mail merge with regions along with applying the **UseNonMergeFields** property:
 
@@ -80,7 +80,7 @@ For example, you can use `IF` fields if you need to insert “his”, “her”,
 
 The following code example shows how to perform a mail merge operation with Mustache tags and `IF` fields:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-MailMergeUsingMustacheSyntax-UseOfifelseMustacheSyntax.cs" >}}
+{{< gist "aspose-words-gists" "544788f602e697802e313a641cedb9b8" "use-if-else-mustache.cs" >}}
 
 You can notice the difference between the document before applying the **UseNonMergeFields** property:
 

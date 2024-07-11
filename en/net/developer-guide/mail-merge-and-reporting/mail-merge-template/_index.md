@@ -32,7 +32,7 @@ Use the [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/do
 
 The following code example shows how to create a mail merge template:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-MailMergeTemplate-CreateMailMergeTemplate.cs" >}}
+{{< gist "aspose-words-gists" "0a1baaa127443b485cc692c8d98ee353" "create-mail-merge-template.cs" >}}
 
 The picture below shows the created template:
 
@@ -48,7 +48,7 @@ You can specify the image properties using the [ImageFieldMergingArgs](https://r
 
 The following code example shows how to specify the image file name and image size:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-MailMergeFormFields-ImageFieldMerging.cs" >}}
+{{< gist "aspose-words-gists" "0a1baaa127443b485cc692c8d98ee353" "image-field-merging.cs" >}}
 
 ### Customize Text Properties
 
@@ -56,7 +56,7 @@ You can use the [Text](https://reference.aspose.com/words/net/aspose.words.mailm
 
 The following code example shows how to insert Check Boxes or HTML during mail merge operation:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-MailMergeFormFields-MailMergeFormFields.cs" >}}
+{{< gist "aspose-words-gists" "0a1baaa127443b485cc692c8d98ee353" "mail-merge-form-fields.cs" >}}
 
 {{% alert color="primary" %}}
 

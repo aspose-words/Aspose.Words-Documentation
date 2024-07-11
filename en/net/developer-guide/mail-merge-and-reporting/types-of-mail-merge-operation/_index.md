@@ -38,7 +38,7 @@ Once your template is ready, you can start performing the simple mail merge oper
 
 The following code example shows how to execute a simple mail merge operation using one of the [Execute](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/execute/) method:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-SimpleMailMerge-SimpleMailMergeExecuteArray.cs" >}}
+{{< gist "aspose-words-gists" "341b834e9b6a84ac6885e907e0ea4229" "execute-simple-mail-merge.cs" >}}
 
 You can notice the difference between the document before executing simple mail merge:
 
@@ -54,7 +54,7 @@ In Aspose.Words, the standard mail merge operation fills only a single document 
 
 The following code example shows how to generate multiple merged documents during a mail merge operation:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-ProduceMultipleDocuments-ProduceMultipleDocuments.cs" >}}
+{{< gist "aspose-words-gists" "341b834e9b6a84ac6885e907e0ea4229" "produce-multiple-documents.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -82,11 +82,11 @@ Aspose.Words allows you to execute mail merge with regions using different [Exec
 
 As a first step, we need to create the `DataSet` to pass it later as an input parameter to the `ExecuteWithRegions` method:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-MailMergeWithRegions-CreateDataSet.cs" >}}
+{{< gist "aspose-words-gists" "341b834e9b6a84ac6885e907e0ea4229" "create-data-set.cs" >}}
 
 The following code example shows how to execute mail merge with regions using the [ExecuteWithRegions(DataSet)](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/executewithregions/) method:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-MailMergeWithRegions-MailMergeWithRegions.cs" >}}
+{{< gist "aspose-words-gists" "341b834e9b6a84ac6885e907e0ea4229" "mail-merge-with-regions.cs" >}}
 
 You can notice the difference between the document before executing mail merge with regions:
 

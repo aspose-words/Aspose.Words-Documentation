@@ -47,7 +47,7 @@ As you can see from the output document, each order from the **Order** table is 
 
 The following code example shows how to generate an invoice using nested mail merge with regions:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-NestedMailMerge-NestedMailMerge.cs" >}}
+{{< gist "aspose-words-gists" "c68048adceb3bda6a1511c7d6f5ebf7b" "nested-mail-merge.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -69,7 +69,7 @@ A `DataSet` that has related data tables will use the **DataRelation** object to
 
 The following code example shows how to establish a `DataRelation` between a customer’s table and an order’s table by using a `DataRelation` object:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-ApplyCustomLogicToEmptyRegions-DisableForeignKeyConstraints.cs" >}}
+{{< gist "aspose-words-gists" "c68048adceb3bda6a1511c7d6f5ebf7b" "disable-foreign-key-constraints.cs" >}}
 
 ## How to Create Data Relations from a Custom Data Source
 
@@ -77,37 +77,4 @@ Implement the [IMailMergeDataSource](https://reference.aspose.com/words/net/aspo
 
 The following example shows how to create data relations using **GetChildDataSource**:
 
-**.NET**
-{{< highlight csharp >}}
-public IMailMergeDataSourceCore GetChildDataSource(string childTableName, bool isObjectAttr)
-        {
-            DataRow parentRow = GetCurrentDataRow();
-            DataTable parentTable = parentRow.Table;
-
-​        	DataSet dataSet = parentTable.DataSet;
-​       	 if (dataSet == null)
-​            	return null;
-
-​            DataRelation childRelation = FindRelation(dataSet, parentTable.TableName, childTableName);
-​            if (childRelation != null)
-​            {
-​                // Normally expected, found a relation to the child table, return a data source for it.
-​                return new MailMergeDataSourceDataRelation(mMailMerge, parentRow, childRelation);
-​            }
-
-​        	if (!isObjectAttr)
-​        	{
-​            	DataTable newTable = dataSet.Tables[childTableName];
-​            	if (newTable != null)
-​            	{
-​                	// No relation, but such a table exists in the dataset. It means an unrelated table.
-​                	// Return all rows of the table as per the interface specification.
-​                	return new MailMergeDataSourceDataTable(mMailMerge, newTable);
-​           	 }
-​        	}
-
-​        	// No relation and no table, means mismatch between the template document and the data set structure.
-​        	// Return null as per the interface specification.
-​       	return null;
-   	 }
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "c68048adceb3bda6a1511c7d6f5ebf7b" "get-child-data-source.cs" >}}
