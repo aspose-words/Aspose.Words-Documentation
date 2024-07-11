@@ -28,6 +28,7 @@ Aspose.Words for C++ supports the following 64-bit or 32-bit operating system an
          <li>Windows 2012 R2 Server (x64, x86)</li>
          <li>Windows 2016 Server (x64, x86)</li>
          <li>Windows 2019 Server (x64, x86)</li>
+         <li>Windows 2022 Server (x64, x86)</li>
          <li>Windows Vista (x64, x86)</li>
          <li>Windows 7 (x64, x86)</li>
          <li>Windows 8, 8.1 (x64, x86)</li>
@@ -66,7 +67,7 @@ Aspose.Words for C++ can be used to develop applications in any development envi
 			<td style="font-weight: bold; width:800px">Development environments</td>
 		</tr>
   <tr>
-			<td><ul><li>Microsoft Visual Studio 2019</li><li>Microsoft Visual Studio 2022</li></ul></td>
+			<td><ul><li>Microsoft Visual Studio 2022</li></ul></td>
 			</tr>
 </table>
 
