@@ -24,7 +24,7 @@ In order to integrate and use Aspose.Words for C++ library within a Qt Console 
 - Select the `QMake` option from the *Build System* dropdown
 
 - Select the appropriate kit and finish the wizard.
-- Copy *Aspose.Words.Cpp* and *CodePorting.Native.Cs2Cpp_vc14_20.3* folders from the extracted package of Aspose.Words for C++ into the root of the project
+- Copy *Aspose.Words.Cpp* and *CodePorting.Native.Cs2Cpp* folders from the extracted package of Aspose.Words for C++ into the root of the project
 
 - In order to add paths to lib and include folders, right-click on the project in the LHS panel and select *Add Library*
 
@@ -46,7 +46,7 @@ For developing a Qt application using Visual Studio, you require to install [Qt 
 
 - Download and install [CMake](https://github.com/Kitware/CMake/releases/download/v3.17.1/cmake-3.17.1-win64-x64.msi).
 - Download and unpack [Aspose.Words for C++](https://releases.aspose.com/words/cpp/).
-- Create a new folder for your project files and copy/paste *Aspose.Words.Cpp* and *CodePorting.Native.Cs2Cpp_vc14_20.4* folders from unpacked package.
+- Create a new folder for your project files and copy/paste *Aspose.Words.Cpp* and *CodePorting.Native.Cs2Cpp* folders from unpacked package.
 - Create a new file named *CMakeLists.txt* in the same folder.
 - Copy and paste the following content within the *CMakeLists.txt* file.
 
@@ -71,10 +71,10 @@ set_target_properties(Qt_AsposeWords_CMake PROPERTIES VS_DEBUGGER_ENVIRONMENT "P
 {{< /highlight >}}
 
 - Open *Command Prompt* and *cd* to the project folder.
-- Run the following command by replacing *<path-to-qt5>* with the path to *Qt5Config.cmake* file (i.e. C:\QT\5.14.2\msvc2017_64\lib\cmake\Qt5).
+- Run the following command by replacing *<path-to-qt5>* with the path to *Qt5Config.cmake* file.
 
 {{< highlight bash >}}
-cmake -G "Visual Studio 15 2017" -Thost=x64 -Ax64 -S . -B build -D"Qt5_DIR=<path-to-qt5>"
+cmake -G "Visual Studio 17 2022" -Thost=x64 -Ax64 -S . -B build -D"Qt5_DIR=<path-to-qt5>"
 {{< /highlight >}}
 
 - Once you have completed the above-mentioned steps, a Visual Studio solution will be created in the folder. You are now ready to use Aspose.Words for C++ features within the Qt application.
