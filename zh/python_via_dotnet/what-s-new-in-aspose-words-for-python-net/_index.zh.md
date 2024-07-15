@@ -11,11 +11,17 @@ url: /zh/python-net/what-s-new-in-aspose-words-for-python-net/
 
 本页描述了最近版本中引入的最有趣的新 Aspose.Words 功能。
 
-## Python via .NET 24.5、24.6 的 Aspose.Words
+## Python via .NET 24.5、24.6、24.7 的 Aspose.Words
 
 Aspose.Words 24.5 扩展了组件选项，改进了渲染功能，并扩展了一些其他选项。
 
 Aspose.Words 24.6 改进了渲染选项，增强了搜索和比较功能，并扩展了其他几个功能。
+
+Aspose.Words 24.7 改变了您使用 ActiveX 的方式，扩展了渲染功能，并支持导出为 Markdown 和 XLSX 格式。
+
+### 支持的格式
+
+从 24.7 版开始，支持导出为 PDF/UA-2，以确保残障用户的可访问性。
 
 ### 渲染和打印
 
@@ -33,6 +39,26 @@ Aspose.Words 24.6 改进了渲染选项，增强了搜索和比较功能，并�
 * 后台渲染的性能提升已得到改进。借助原生平铺技术，您可以显著加快包含小元素的背景渲染速度。
 * 添加了形状的逼真渐变。现在，您可以创建具有非线性渐变的 DML 形状，模仿 Microsoft Word 的视觉风格，以获得更精致的外观。
 
+#### 图表数据标签自定义 <sup>24.7</sup>
+
+添加了自定义图表数据标签（如 **Orientation** 和 **Rotation**）的功能。
+
+#### 列表级别的自定义数字样式 <sup>24.7</sup>
+
+添加了公共属性 [custom_number_style_format](https://reference.aspose.com/words/python-net/aspose.words.lists/listlevel/custom_number_style_format/) 的设置器。您现在可以为列表级别定义自定义数字样式。
+
+#### 使用 ActiveX 时的变化 <sup>24.7</sup>
+
+* 现在可以修改 ActiveX 对象的属性，让您可以更好地控制其行为。
+* 添加了修改单选按钮 ActiveX 控件的值以启用动态交互的功能。
+* 添加了将 ActiveX 复选框切换为“选中”或“未选中”的功能。
+
+### 加载和保存文档
+
+#### 将链接导出为 Markdown 格式 <sup>24.7</sup>
+
+通过实现 [link_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/link_export_mode/) 属性，添加了控制以 Markdown 格式导出链接的功能。
+
 ### 搜索和比较
 
 #### 高级比较选项 <sup>24.6</sup>
@@ -45,12 +71,16 @@ Aspose.Words 24.6 改进了渲染选项，增强了搜索和比较功能，并�
 * 现在支持使用 LINQ 报告引擎插入文档时保留源编号。 <sup>24.5</sup>
 * 添加了一个新的 [date_time_utc](https://reference.aspose.com/words/python-net/aspose.words/comment/date_time_utc/) 属性 - 这为评论提供了更精确的时间戳，从而提高了组织性和可追溯性。 <sup>24.6</sup>
 * LINQ 报告引擎已得到改进。选择性删除了空段落，并为缺失的对象成员定义了自定义消息，从而生成了更清晰、更具信息量的报告。<sup>24.6</sup>
+* 现在可以自动检测日期时间格式，以便无缝导出为 XLSX 格式。 <sup>24.7</sup>
+* 添加了公共属性 [is_protected](https://reference.aspose.com/words/python-net/aspose.words.vba/vbaproject/is_protected/)，可用于验证 VBA 项目是否受保护。<sup>24.7</sup>
 
 {{% alert color="primary" %}}
 
 了解有关 [Aspose.Words for Python via .NET 24.5 发行说明](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-5-release-notes/) 的更多信息。
 
 了解有关 [Aspose.Words for Python via .NET 24.6 发行说明](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-6-release-notes/) 的更多信息。
+
+了解有关 [Aspose.Words for Python via .NET 24.7 发行说明](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-7-release-notes/) 的更多信息。
 
 {{% /alert %}}
 

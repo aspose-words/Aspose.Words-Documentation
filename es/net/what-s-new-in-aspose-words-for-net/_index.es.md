@@ -11,11 +11,17 @@ url: /es/net/what-s-new-in-aspose-words-for-net/
 
 Esta página describe las nuevas funciones Aspose.Words más interesantes introducidas en versiones recientes.
 
-## Aspose.Words para .NET 24.5, 24.6
+## Aspose.Words para .NET 24.5, 24.6, 24.7
 
 Aspose.Words 24.5 amplía las opciones para ensamblajes, mejora las capacidades de renderizado y amplía algunas otras opciones.
 
 Aspose.Words 24.6 mejora las opciones de renderizado, mejora la funcionalidad de búsqueda y comparación y amplía varias otras funciones.
+
+Aspose.Words 24.7 cambia la forma de trabajar con ActiveX, amplía las capacidades de renderizado y exporta a formatos Markdown y XLSX.
+
+### Formatos admitidos
+
+A partir de la versión 24.7, se admite la exportación a PDF/UA-2 para garantizar la accesibilidad para usuarios con discapacidades.
 
 ### Plataformas
 
@@ -37,6 +43,26 @@ Los ensamblados .NET 7.0/8.0 se han incluido en el paquete Aspose.Words NuGet.
 * Se ha mejorado el aumento de rendimiento para la renderización en segundo plano. Puede acelerar significativamente la renderización de fondos que contienen elementos pequeños gracias a la tecnología de mosaico nativa.
 * Se han agregado degradados realistas para las formas. Ahora puede crear formas DML con degradados no lineales, imitando el estilo visual de Microsoft Word para una apariencia más refinada.
 
+#### Personalización de la etiqueta de datos del gráfico <sup>24.7</sup>
+
+Se ha agregado la capacidad de personalizar etiquetas de datos del gráfico como **Orientación** y **Rotación**.
+
+#### Estilo de números personalizado para niveles de lista <sup>24.7</sup>
+
+Se ha agregado un definidor para la propiedad pública [CustomNumberStyleFormat](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/customnumberstyleformat/). Ahora puede definir un estilo de número personalizado para los niveles de lista.
+
+#### Cambios al trabajar con ActiveX <sup>24.7</sup>
+
+* Las propiedades de los objetos ActiveX ahora se pueden modificar, brindándole más control sobre su comportamiento.
+* Se ha agregado la capacidad de modificar el valor del control ActiveX del botón de opción para habilitar la interacción dinámica.
+* Se ha agregado la capacidad de alternar una casilla de verificación ActiveX entre "marcada" o "desmarcada".
+
+### Cargar y guardar documentos
+
+#### Exportación de enlaces al formato Markdown <sup>24.7</sup>
+
+La capacidad de controlar la exportación de enlaces en formato Markdown se agregó mediante la implementación de la propiedad [LinkExportMode](https://reference.aspose.com/words/net/aspose.words.served/markdownsaveoptions/linkexportmode/).
+
 ### Buscar y comparar
 
 #### Opciones de comparación avanzadas <sup>24.6</sup>
@@ -49,12 +75,16 @@ Se ha agregado la capacidad de optimizar los flujos de trabajo de análisis de d
 * Ahora se admite mantener la numeración de origen al insertar un documento utilizando LINQ Reporting Engine. <sup>24.5</sup>
 * Se agregó una nueva propiedad [DateTimeUtc](https://reference.aspose.com/words/net/aspose.words/comment/datetimeutc/): esto proporciona una marca de tiempo más precisa para los comentarios, lo que mejora la organización y la trazabilidad. <sup>24.6</sup>
 * Se ha mejorado el motor de informes LINQ. Se han realizado la eliminación selectiva de párrafos vacíos y la definición de mensajes personalizados para los miembros de objetos faltantes, lo que genera informes más limpios e informativos. <sup>24.6</sup>
+* El formato de fecha y hora ahora se detecta automáticamente para una exportación perfecta al formato XLSX. <sup>24.7</sup>
+* Se ha agregado la propiedad pública [IsProtected](https://reference.aspose.com/words/net/aspose.words.vba/vbaproject/isprotected/), que le permite verificar si un proyecto VBA está protegido. <sup>24.7</sup>
 
 {{% alert color="primary" %}}
 
-Obtenga más información sobre [Notas de la versión de Aspose.Words para .NET 24.5] (https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-5-release-notes /).
+Obtenga más información sobre [Notas de la versión de Aspose.Words para .NET 24.5](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-5-release-notes/).
 
-Obtenga más información sobre [Notas de la versión de Aspose.Words para .NET 24.6] (https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-6-release-notes /).
+Obtenga más información sobre [Notas de la versión de Aspose.Words para .NET 24.6](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-6-release-notes/).
+
+Obtenga más información sobre [Notas de la versión de Aspose.Words para .NET 24.7](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-7-release-notes/).
 
 {{% /alert %}}
 

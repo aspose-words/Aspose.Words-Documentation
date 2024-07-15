@@ -11,11 +11,17 @@ url: /ja/python-net/what-s-new-in-aspose-words-for-python-net/
 
 このページでは、最近のリリースで導入された最も興味深い新しい Aspose.Words 機能について説明します。
 
-## Python via .NET 24.5、24.6 の Aspose.Words
+## Python via .NET 24.5、24.6、24.7 の Aspose.Words
 
 Aspose.Words 24.5 では、アセンブリのオプションが拡張され、レンダリング機能が向上し、その他のオプションも拡張されています。
 
 Aspose.Words 24.6 では、レンダリング オプションが向上し、検索および比較機能が強化され、その他の機能が拡張されています。
+
+Aspose.Words 24.7 では、ActiveX の操作方法が変更され、レンダリング機能が拡張され、Markdown および XLSX 形式へのエクスポートも可能になりました。
+
+### サポートされている形式
+
+バージョン 24.7 以降では、障害を持つユーザーのアクセシビリティを確保するために、PDF/UA-2 へのエクスポートがサポートされています。
 
 ### レンダリングと印刷
 
@@ -29,11 +35,31 @@ Aspose.Words 24.6 では、レンダリング オプションが向上し、検�
 #### グラフ、図形、描画の変更 <sup>24.6</sup>
 
 * グラフ作成機能が強化されました。*ツリーマップ*、*サンバースト*、*ヒストグラム*、*パレート* グラフ、*箱ひげ図*、*ウォーターフォール*、*ファネル* など、より多様なグラフを作成できるようになりました。これにより、データをより多様で有益な方法で視覚化できます。
-
 * 影の書式設定の色制御が強化されました。影の色にアクセスすることで、ドキュメントの外観をより正確に制御できます。
-
 * バックグラウンド レンダリングのパフォーマンスが向上しました。ネイティブのタイリング テクノロジにより、小さな要素を含む背景のレンダリングを大幅に高速化できます。
 * 図形のリアルなグラデーションが追加されました。非線形グラデーションの DML 図形を作成できるようになりました。これにより、Microsoft Word のビジュアル スタイルを模倣して、より洗練された外観を実現できます。
+
+#### グラフ データ ラベルのカスタマイズ <sup>24.7</sup>
+
+**Orientation** や **Rotation** などのグラフ データ ラベルをカスタマイズする機能が追加されました。
+
+#### リスト レベルのカスタム数値スタイル <sup>24.7</sup>
+
+パブリック プロパティ [custom_number_style_format](https://reference.aspose.com/words/python-net/aspose.words.lists/listlevel/custom_number_style_format/) のセッターが追加されました。リスト レベルのカスタム数値スタイルを定義できるようになりました。
+
+#### ActiveX の操作に関する変更 <sup>24.7</sup>
+
+* ActiveX オブジェクトのプロパティを変更できるようになり、その動作をより細かく制御できるようになりました。
+
+* ラジオ ボタン ActiveX コントロールの値を変更して動的な操作を有効にする機能が追加されました。
+
+* ActiveX チェックボックスを「オン」または「オフ」に切り替える機能が追加されました。
+
+### ドキュメントの読み込みと保存
+
+#### リンクを Markdown 形式にエクスポート <sup>24.7</sup>
+
+[link_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/link_export_mode/) プロパティの実装により、Markdown 形式でのリンクのエクスポートを制御する機能が追加されました。
 
 ### 検索と比較
 
@@ -47,12 +73,16 @@ Aspose.Words 24.6 では、レンダリング オプションが向上し、検�
 * LINQ レポート エンジンを使用してドキュメントを挿入する際のソース番号の維持がサポートされるようになりました。 <sup>24.5</sup>
 * 新しい [date_time_utc](https://reference.aspose.com/words/python-net/aspose.words/comment/date_time_utc/) プロパティが追加されました。これにより、コメントのタイムスタンプがより正確になり、整理と追跡可能性が向上します。 <sup>24.6</sup>
 * LINQ レポート エンジンが改良されました。空の段落を選択的に削除し、欠落しているオブジェクト メンバーのカスタム メッセージを定義することで、よりわかりやすく、より情報量の多いレポートを実現しました。<sup>24.6</sup>
+* XLSX 形式へのシームレスなエクスポートのために、日時形式が自動的に検出されるようになりました。 <sup>24.7</sup>
+* VBA プロジェクトが保護されているかどうかを確認できるパブリック プロパティ [is_protected](https://reference.aspose.com/words/python-net/aspose.words.vba/vbaproject/is_protected/) が追加されました。<sup>24.7</sup>
 
 {{% alert color="primary" %}}
 
 [Aspose.Words for Python via .NET 24.5 リリースノート](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-5-release-notes/) について詳しくは、こちらをご覧ください。
 
 [Aspose.Words for Python via .NET 24.6 リリースノート](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-6-release-notes/) について詳しくは、こちらをご覧ください。
+
+[Aspose.Words for Python via .NET 24.7 リリースノート](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-7-release-notes/) について詳しくは、こちらをご覧ください。
 
 {{% /alert %}}
 

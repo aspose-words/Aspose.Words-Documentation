@@ -11,13 +11,19 @@ url: /nl/net/what-s-new-in-aspose-words-for-net/
 
 Deze pagina beschrijft de meest interessante nieuwe Aspose.Words features geïntroduceerd in recente releases.
 
-## Aspose.Words voor .NET 24.5, 24.6
+## Aspose.Words voor .NET 24.5, 24.6, 24.7
 
 Aspose.Words 24.5 breidt de opties voor samenstellingen uit, verbetert de weergavemogelijkheden en breidt enkele andere opties uit.
 
 Aspose.Words 24.6 verbetert de weergaveopties, verbetert de zoek- en vergelijkfunctionaliteit en breidt verschillende andere functies uit.
 
-### Platformen
+Aspose.Words 24.7 verandert de manier waarop u met ActiveX werkt, breidt de weergavemogelijkheden uit en exporteert naar Markdown- en XLSX-formaten.
+
+### Ondersteunde formaten
+
+Vanaf versie 24.7 wordt export naar PDF/UA-2 ondersteund om de toegankelijkheid voor gebruikers met een beperking te garanderen.
+
+### Platformen <sup>24.5</sup>
 
 .NET 7.0/8.0-assemblages zijn opgenomen in het Aspose.Words NuGet-pakket.
 
@@ -37,6 +43,26 @@ Aspose.Words 24.6 verbetert de weergaveopties, verbetert de zoek- en vergelijkfu
 * Prestatieverbetering voor achtergrondweergave is verbeterd. Dankzij de native tegeltechnologie kunt u de weergave van achtergronden met kleine elementen aanzienlijk versnellen.
 * Realistische verlopen voor vormen zijn toegevoegd. U kunt nu DML-vormen maken met niet-lineaire verlopen, waarbij de visuele stijl van Microsoft Word wordt nagebootst voor een meer gepolijste uitstraling.
 
+#### Aanpassing van diagramgegevenslabels <sup>24.7</sup>
+
+De mogelijkheid om diagramgegevenslabels zoals **Orientation** en **Rotation** aan te passen is toegevoegd.
+
+#### Aangepaste nummerstijl voor lijstniveaus <sup>24.7</sup>
+
+Er is een setter voor de openbare eigenschap [CustomNumberStyleFormat](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/customnumberstyleformat/) toegevoegd. U kunt nu een aangepaste nummerstijl voor lijstniveaus definiëren.
+
+#### Veranderingen in het werken met ActiveX <sup>24.7</sup>
+
+* De eigenschappen van ActiveX-objecten kunnen nu worden gewijzigd, waardoor u meer controle krijgt over hun gedrag.
+* De mogelijkheid om de waarde van het ActiveX-besturingselement met keuzerondjes te wijzigen om dynamische interactie mogelijk te maken, is toegevoegd.
+* De mogelijkheid om een ​​ActiveX-selectievakje in of uit te schakelen is toegevoegd.
+
+### Documenten laden en opslaan
+
+#### Links exporteren naar Markdown-formaat <sup>24.7</sup>
+
+De mogelijkheid om de export van links in Markdown-indeling te beheren is toegevoegd door de implementatie van de eigenschap [LinkExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/linkexportmode/).
+
 ### Zoek en vergelijk
 
 #### Geavanceerde vergelijkingsopties <sup>24.6</sup>
@@ -49,12 +75,16 @@ De mogelijkheid om workflows voor gegevensanalyse te stroomlijnen met verbeterde
 * Het behouden van bronnummering tijdens het invoegen van een document met behulp van de LINQ Reporting Engine wordt nu ondersteund. <sup>24.5</sup>
 * Er is een nieuwe eigenschap [DateTimeUtc](https://reference.aspose.com/words/net/aspose.words/comment/datetimeutc/) toegevoegd – dit biedt een nauwkeuriger tijdstempel voor opmerkingen, waardoor de organisatie en traceerbaarheid worden verbeterd. <sup>24.6</sup>
 * De LINQ Reporting Engine is verbeterd. Er zijn selectieve verwijdering van lege alinea's en definitie van aangepaste berichten voor ontbrekende objectleden doorgevoerd, wat leidt tot schonere en informatievere rapporten. <sup>24.6</sup>
+* Het datetime-formaat wordt nu automatisch gedetecteerd voor naadloze export naar XLSX-formaat. <sup>24.7</sup>
+* De publieke eigenschap [IsProtected](https://reference.aspose.com/words/net/aspose.words.vba/vbaproject/isprotected/), waarmee u kunt verifiëren of een VBA-project beveiligd is, is toegevoegd. <sup>24.7</sup>
 
 {{% alert color="primary" %}}
 
 Meer informatie over [Aspose.Words voor .NET 24.5 Release-opmerkingen](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-5-release-notes/).
 
 Meer informatie over [Aspose.Words voor .NET 24.6 Release-opmerkingen](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-6-release-notes/).
+
+Meer informatie over [Aspose.Words voor .NET 24.7 Release-opmerkingen](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-7-release-notes/).
 
 {{% /alert %}}
 

@@ -11,11 +11,17 @@ url: /he/python-net/what-s-new-in-aspose-words-for-python-net/
 
 דף זה מתאר את החדש המעניין ביותר Aspose.Words תכונות שהוצגו במהדורות האחרונות.
 
-## Aspose.Words עבור Python via .NET 24.5, 24.6
+## Aspose.Words עבור Python via .NET 24.5, 24.6, 24.7
 
 Aspose.Words 24.5 מרחיב אפשרויות למכלולים, משפר את יכולות העיבוד ומרחיב כמה אפשרויות אחרות.
 
 Aspose.Words 24.6 משפר את אפשרויות העיבוד, משפר את פונקציונליות החיפוש וההשוואה ומרחיב מספר תכונות אחרות.
+
+Aspose.Words 24.7 משנה את אופן העבודה עם ActiveX, מרחיב את יכולות העיבוד, כמו גם ייצוא לפורמטים Markdown ו-XLSX.
+
+### פורמטים נתמכים
+
+החל מגרסה 24.7, ייצוא ל-PDF/UA-2 נתמך כדי להבטיח נגישות למשתמשים עם מוגבלויות.
 
 ### עיבוד והדפסה
 
@@ -33,6 +39,26 @@ Aspose.Words 24.6 משפר את אפשרויות העיבוד, משפר את פ�
 * שיפור הביצועים לעיבוד רקע שופר. אתה יכול להאיץ משמעותית את העיבוד של רקעים המכילים אלמנטים קטנים הודות לטכנולוגיית ריצוף מקורית.
 * נוספו שיפועים מציאותיים לצורות. כעת תוכל ליצור צורות DML עם מעברי צבע לא ליניאריים, המחקה את הסגנון החזותי של Microsoft Word למראה מלוטש יותר.
 
+#### התאמה אישית של תווית נתוני תרשים <sup>24.7</sup>
+
+נוספה היכולת להתאים אישית תוויות של נתוני תרשים כגון **Orientation** ו**Rotation**.
+
+#### עיצוב מספרים מותאם אישית עבור רמות רשימה <sup>24.7</sup>
+
+מגדיר עבור הנכס הציבורי [custom_number_style_format](https://reference.aspose.com/words/python-net/aspose.words.lists/listlevel/custom_number_style_format/) נוסף. כעת תוכל להגדיר סגנון מספר מותאם אישית עבור רמות הרשימה.
+
+#### שינויים בעבודה עם ActiveX <sup>24.7</sup>
+
+* כעת ניתן לשנות את המאפיינים של אובייקטי ActiveX, מה שנותן לך יותר שליטה על התנהגותם.
+* נוספה היכולת לשנות את הערך של כפתור הבחירה ActiveX כדי לאפשר אינטראקציה דינמית.
+* נוספה היכולת להעביר תיבת סימון של ActiveX ל"מסומנת" או "לא מסומנת".
+
+### טעינה ושמירה של מסמכים
+
+#### ייצוא קישורים לפורמט Markdown <sup>24.7</sup>
+
+היכולת לשלוט בייצוא של קישורים בפורמט Markdown נוספה באמצעות יישום המאפיין [link_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/link_export_mode/).
+
 ### חפש והשווה
 
 #### אפשרויות השוואה מתקדמות <sup>24.6</sup>
@@ -45,12 +71,16 @@ Aspose.Words 24.6 משפר את אפשרויות העיבוד, משפר את פ�
 * שמירה על מספור המקור בזמן הכנסת מסמך באמצעות מנוע הדיווח LINQ נתמך כעת. <sup>24.5</sup>
 * מאפיין חדש [date_time_utc](https://reference.aspose.com/words/python-net/aspose.words/comment/date_time_utc/) נוסף - זה מספק חותמת זמן מדויקת יותר להערות, שיפור הארגון והמעקב. <sup>24.6</sup>
 * מנוע הדיווח LINQ שופר. בוצעו הסרה סלקטיבית של פסקאות ריקות והגדרה של הודעות מותאמות אישית עבור חברי אובייקט חסרים, מה שהוביל לדוחות נקיים ואינפורמטיביים יותר. <sup>24.6</sup>
+* פורמט התאריך והשעה מזוהה כעת באופן אוטומטי לייצוא חלק לפורמט XLSX. <sup>24.7</sup>
+* הנכס הציבורי [is_protected](https://reference.aspose.com/words/python-net/aspose.words.vba/vbaproject/is_protected/), המאפשר לך לוודא אם פרויקט VBA מוגן, נוסף. <sup>24.7</sup>
 
 {{% alert color="primary" %}}
 
 למד עוד על [Aspose.Words עבור Python via .NET 24.5 הודעות](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-5-release-notes/).
 
 למד עוד על [Aspose.Words עבור Python via .NET 24.6 הודעות](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-6-release-notes/).
+
+למד עוד על [Aspose.Words עבור Python via .NET 24.7 הודעות](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-7-release-notes/).
 
 {{% /alert %}}
 

@@ -11,11 +11,17 @@ url: /pt/python-net/what-s-new-in-aspose-words-for-python-net/
 
 Esta página descreve os novos recursos Aspose.Words mais interessantes introduzidos em versões recentes.
 
-## Aspose.Words para Python via .NET 24.5, 24,6
+## Aspose.Words para Python via .NET 24.5, 24.6, 24.7
 
 O Aspose.Words 24.5 expande as opções para montagens, melhora as capacidades de renderização e expande algumas outras opções.
 
 O Aspose.Words 24.6 melhora as opções de renderização, melhora a funcionalidade de pesquisa e comparação e expande várias outras características.
+
+O Aspose.Words 24.7 altera a forma como trabalha com ActiveX, expande as capacidades de renderização e também exporta para os formatos Markdown e XLSX.
+
+### Formatos Suportados
+
+A partir da versão 24.7, a exportação para PDF/UA-2 é suportada para garantir a acessibilidade para utilizadores com deficiência.
 
 ### Renderização e impressão
 
@@ -33,6 +39,26 @@ O Aspose.Words 24.6 melhora as opções de renderização, melhora a funcionalid
 * O aumento de desempenho para renderização em segundo plano foi melhorado. Pode acelerar significativamente a renderização de fundos contendo pequenos elementos graças à tecnologia nativa de azulejos.
 * Foram adicionados gradientes realistas para formas. Agora pode criar formas DML com gradientes não lineares, imitando o estilo visual do Microsoft Word para um aspeto mais refinado.
 
+#### Personalização do rótulo de dados do gráfico <sup>24.7</sup>
+
+Foi adicionada a capacidade de personalizar as etiquetas de dados do gráfico, como **Orientation** e **Rotation**.
+
+#### Estilo de número personalizado para níveis de lista <sup>24.7</sup>
+
+Foi adicionado um setter para a propriedade pública [custom_number_style_format](https://reference.aspose.com/words/python-net/aspose.words.lists/listlevel/custom_number_style_format/). Agora pode definir um estilo de número personalizado para os níveis de lista.
+
+#### Alterações no trabalho com ActiveX <sup>24.7</sup>
+
+* As propriedades dos objetos ActiveX podem agora ser modificadas, proporcionando mais controlo sobre o seu comportamento.
+* Foi adicionada a capacidade de modificar o valor do controlo ActiveX do botão de opção para permitir a interação dinâmica.
+* Foi adicionada a capacidade de alternar uma caixa de selecção ActiveX para "marcada" ou "desmarcada".
+
+### Carregar e guardar documentos
+
+#### Exportar ligações para o formato Markdown <sup>24.7</sup>
+
+A capacidade de controlar a exportação de links no formato Markdown foi adicionada através da implementação da propriedade [link_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/link_export_mode/).
+
 ### Pesquise e compare
 
 #### Opções avançadas de comparação <sup>24,6</sup>
@@ -45,12 +71,16 @@ Foi adicionada a capacidade de agilizar os fluxos de trabalho de análise de dad
 * Agora há suporte para manter a numeração de origem ao inserir um documento usando o LINQ Reporting Engine. <sup>24.5</sup>
 * Foi adicionada uma nova propriedade [date_time_utc](https://reference.aspose.com/words/python-net/aspose.words/comment/date_time_utc/) – fornece um carimbo de data/hora mais preciso para comentários, melhorando a organização e a rastreabilidade. <sup>24.6</sup>
 * O motor de relatórios LINQ foi melhorado. Foi feita a remoção seletiva de parágrafos vazios e a definição de mensagens personalizadas para membros de objetos em falta, gerando relatórios mais limpos e informativos. <sup>24.6</sup>
+* O formato de data e hora é agora automaticamente detetado para exportação contínua para o formato XLSX. <sup>24.7</sup>
+* Foi adicionada a propriedade pública [is_protected](https://reference.aspose.com/words/python-net/aspose.words.vba/vbaproject/is_protected/), que permite verificar se um projeto VBA está protegido. <sup>24.7</sup>
 
 {{% alert color="primary" %}}
 
 Saiba mais sobre [Notas de versão do Aspose.Words para Python via .NET 24.5](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-5-release-notes/).
 
 Saiba mais sobre [Notas de versão do Aspose.Words para Python via .NET 24.6](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-6-release-notes/).
+
+Saiba mais sobre [Notas de versão do Aspose.Words para Python via .NET 24.7](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-7-release-notes/).
 
 {{% /alert %}}
 

@@ -11,13 +11,19 @@ url: /tr/net/what-s-new-in-aspose-words-for-net/
 
 Bu sayfada son sürümlerde tanıtılan en ilginç yeni Aspose.Words özellikleri açıklanmaktadır.
 
-## .NET 24.5, 24.6 için Aspose.Words
+## .NET 24.5, 24.6, 24.7 için Aspose.Words
 
 Aspose.Words 24.5, derleme seçeneklerini genişletir, oluşturma yeteneklerini geliştirir ve diğer bazı seçenekleri genişletir.
 
 Aspose.Words 24.6, oluşturma seçeneklerini geliştirir, arama ve karşılaştırma işlevselliğini geliştirir ve diğer birçok özelliği genişletir.
 
-### Platformlar
+Aspose.Words 24.7, ActiveX ile çalışma şeklinizi değiştirir, işleme yeteneklerini genişlettiği gibi Markdown ve XLSX formatlarına dışa aktarmayı da değiştirir.
+
+### Desteklenen Formatlar
+
+Sürüm 24.7'den başlayarak, engelli kullanıcıların erişilebilirliğini sağlamak amacıyla PDF/UA-2'ye dışa aktarma desteklenmektedir.
+
+### Platformlar <sup>24.5</sup>
 
 .NET 7.0/8.0 derlemeleri Aspose.Words NuGet paketine dahil edildi.
 
@@ -37,6 +43,26 @@ Aspose.Words 24.6, oluşturma seçeneklerini geliştirir, arama ve karşılaşt�
 * Arka planda görüntüleme için performans artışı iyileştirildi. Yerel döşeme teknolojisi sayesinde, küçük öğeler içeren arka planların oluşturulmasını önemli ölçüde hızlandırabilirsiniz.
 * Şekiller için gerçekçi degradeler eklendi. Artık daha parlak bir görünüm için Microsoft Word'ün görsel stilini taklit eden, doğrusal olmayan degradelere sahip DML şekilleri oluşturabilirsiniz.
 
+#### Grafik Veri Etiketi Özelleştirmesi <sup>24.7</sup>
+
+**Orientation** ve **Rotation** gibi grafik veri etiketlerini özelleştirme yeteneği eklendi.
+
+#### Liste Düzeyleri için Özel Numara Şekillendirme <sup>24.7</sup>
+
+[CustomNumberStyleFormat](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/customnumberstyleformat/) genel özelliği için bir ayarlayıcı eklendi. Artık liste düzeyleri için özel bir sayı stili tanımlayabilirsiniz.
+
+#### ActiveX <sup>24.7</sup> ile çalışmadaki değişiklikler
+
+* ActiveX nesnelerinin özellikleri artık değiştirilebilir, böylece davranışları üzerinde daha fazla kontrol sahibi olursunuz.
+* Dinamik etkileşimi etkinleştirmek için radyo düğmesi ActiveX kontrolünün değerini değiştirme yeteneği eklendi.
+* ActiveX onay kutusunu "işaretli" veya "işaretsiz" olarak değiştirme yeteneği eklendi.
+
+### Belgeleri Yükleme ve Kaydetme
+
+#### Bağlantıları Markdown Formatına Dışa Aktarma <sup>24.7</sup>
+
+[LinkExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/linkexportmode/) özelliğinin uygulanmasıyla bağlantıların Markdown biçiminde dışa aktarımını kontrol etme yeteneği eklendi.
+
 ### Ara ve Karşılaştır
 
 #### Gelişmiş Karşılaştırma Seçenekleri <sup>24.6</sup>
@@ -49,12 +75,16 @@ Geliştirilmiş karşılaştırma işlevselliğiyle veri analizi iş akışları
 * LINQ Raporlama Motorunu kullanarak belge eklerken kaynak numaralandırmasının tutulması artık desteklenmektedir. <sup>24.5</sup>
 * Yeni bir [DateTimeUtc](https://reference.aspose.com/words/net/aspose.words/comment/datetimeutc/) özelliği eklendi; bu, yorumlar için daha kesin bir zaman damgası sağlayarak organizasyonu ve izlenebilirliği artırır. <sup>24.6</sup>
 * LINQ Raporlama Motoru geliştirildi. Boş paragrafların seçici olarak kaldırılması ve eksik nesne üyeleri için özel mesajların tanımlanması yapılarak daha temiz ve daha bilgilendirici raporlar elde edildi. <sup>24.6</sup>
+* XLSX formatına sorunsuz aktarım için tarihsaat formatı artık otomatik olarak algılanıyor. <sup>24.7</sup>
+* Bir VBA projesinin korunup korunmadığını doğrulamanıza olanak tanıyan genel mülk [IsProtected](https://reference.aspose.com/words/net/aspose.words.vba/vbaproject/isprotected/) eklendi. <sup>24.7</sup>
 
 {{% alert color="primary" %}}
 
 [.NET 24.5 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-5-release-notes/) hakkında daha fazla bilgi edinin.
 
 [.NET 24.6 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-6-release-notes/) hakkında daha fazla bilgi edinin.
+
+[.NET 24.7 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-7-release-notes/) hakkında daha fazla bilgi edinin.
 
 {{% /alert %}}
 
