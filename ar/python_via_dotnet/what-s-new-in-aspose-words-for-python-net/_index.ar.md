@@ -11,11 +11,17 @@ url: /ar/python-net/what-s-new-in-aspose-words-for-python-net/
 
 تصف هذه الصفحة ميزات Aspose.Words الجديدة الأكثر إثارة للاهتمام والتي تم تقديمها في الإصدارات الأخيرة.
 
-## Aspose.Words لـ Python via .NET 24.5, 24.6
+## Aspose.Words لـ Python via .NET 24.5, 24.6, 24.7
 
 يقوم Aspose.Words 24.5 بتوسيع خيارات التجميعات وتحسين قدرات العرض وتوسيع بعض الخيارات الأخرى.
 
 يعمل Aspose.Words 24.6 على تحسين خيارات العرض، وتعزيز وظائف البحث والمقارنة، وتوسيع العديد من الميزات الأخرى.
+
+يقوم Aspose.Words 24.7 بتغيير طريقة العمل مع ActiveX، ويوسع إمكانيات العرض، بالإضافة إلى التصدير إلى تنسيقات Markdown وXLSX.
+
+### التنسيقات المدعومة
+
+بدءًا من الإصدار 24.7، يتم دعم التصدير إلى PDF/UA-2 لضمان إمكانية الوصول للمستخدمين ذوي الإعاقة.
 
 ### التقديم والطباعة
 
@@ -33,6 +39,26 @@ url: /ar/python-net/what-s-new-in-aspose-words-for-python-net/
 * تم تحسين تعزيز الأداء لتقديم الخلفية. يمكنك تسريع عرض الخلفيات التي تحتوي على عناصر صغيرة بشكل كبير بفضل تقنية التبليط الأصلية.
 * تمت إضافة تدرجات واقعية للأشكال. يمكنك الآن إنشاء أشكال DML بتدرجات غير خطية، لمحاكاة النمط المرئي لبرنامج Microsoft Word للحصول على مظهر أكثر صقلًا.
 
+#### تخصيص تسمية بيانات المخطط <sup>24.7</sup>
+
+تمت إضافة القدرة على تخصيص تسميات بيانات المخطط مثل **الاتجاه** و**التدوير**.
+
+#### تصميم أرقام مخصص لمستويات القائمة <sup>24.7</sup>
+
+تمت إضافة أداة ضبط للملكية العامة custom_number_style_format. يمكنك الآن تحديد نمط أرقام مخصص لمستويات القائمة.
+
+#### التغييرات في العمل مع ActiveX <sup>24.7</sup>
+
+* يمكن الآن تعديل خصائص كائنات ActiveX، مما يتيح لك المزيد من التحكم في سلوكها.
+* تمت إضافة القدرة على تعديل قيمة زر التحكم ActiveX لتمكين التفاعل الديناميكي.
+* تمت إضافة القدرة على تبديل خانة اختيار ActiveX إلى "محدد" أو "غير محدد".
+
+### تحميل وحفظ المستندات
+
+#### تصدير الروابط إلى تنسيق Markdown <sup>24.7</sup>
+
+تمت إضافة القدرة على التحكم في تصدير الروابط بتنسيق Markdown من خلال تطبيق خاصية [link_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/link_export_mode/).
+
 ### بحث ومقارنة
 
 #### خيارات المقارنة المتقدمة <sup>24.6</sup>
@@ -45,12 +71,16 @@ url: /ar/python-net/what-s-new-in-aspose-words-for-python-net/
 * أصبح الحفاظ على ترقيم المصدر أثناء إدراج مستند باستخدام محرك التقارير LINQ مدعومًا الآن. <sup>24.5</sup>
 * تمت إضافة خاصية [date_time_utc](https://reference.aspose.com/words/python-net/aspose.words/comment/date_time_utc/) جديدة - وهذا يوفر طابعًا زمنيًا أكثر دقة للتعليقات، مما يؤدي إلى تحسين التنظيم وإمكانية التتبع. <sup>24.6</sup>
 * تم تحسين محرك تقارير LINQ. تم إجراء إزالة انتقائية للفقرات الفارغة وتعريف الرسائل المخصصة لأعضاء الكائنات المفقودة، مما يؤدي إلى تقارير أكثر وضوحًا وإفادة. <sup>24.6</sup>
+* تم الآن اكتشاف تنسيق التاريخ والوقت تلقائيًا للتصدير السلس إلى تنسيق XLSX. <sup>24.7</sup>
+* تمت إضافة الخاصية العامة [is_protected](https://reference.aspose.com/words/python-net/aspose.words.vba/vbaproject/is_protected/)، والتي تسمح لك بالتحقق مما إذا كان مشروع VBA محميًا أم لا. <sup>24.7</sup>
 
 {{% alert color="primary" %}}
 
 تعرف على المزيد حول [Aspose.Words لـ Python عبر ملاحظات الإصدار .NET 24.5](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-5-release-notes/).
 
 تعرف على المزيد حول [Aspose.Words لـ Python عبر ملاحظات الإصدار .NET 24.6](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-6-release-notes/).
+
+تعرف على المزيد حول [Aspose.Words لـ Python عبر ملاحظات الإصدار .NET 24.7](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-7-release-notes/).
 
 {{% /alert %}}
 

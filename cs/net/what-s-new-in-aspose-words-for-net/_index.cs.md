@@ -11,13 +11,19 @@ url: /cs/net/what-s-new-in-aspose-words-for-net/
 
 Tato stránka popisuje nejzajímavější nový Aspose.Words funkce zavedené v nedávných vydáních.
 
-## Aspose.Words pro .NET 24.5, 24.6
+## Aspose.Words pro .NET 24.5, 24.6, 24.7
 
 Aspose.Words 24.5 rozšiřuje možnosti pro sestavy, zlepšuje možnosti vykreslování a rozšiřuje některé další možnosti.
 
 Aspose.Words 24.6 vylepšuje možnosti vykreslování, vylepšuje funkce vyhledávání a porovnávání a rozšiřuje několik dalších funkcí.
 
-### Platformy
+Aspose.Words 24.7 mění způsob práce s ActiveX, rozšiřuje možnosti vykreslování a také export do formátů Markdown a XLSX.
+
+### Podporované formáty
+
+Počínaje verzí 24.7 je podporován export do PDF/UA-2, aby byla zajištěna dostupnost pro uživatele se zdravotním postižením.
+
+### Platformy <sup>24.5</sup>
 
 Sestavení .NET 7.0/8.0 byla zahrnuta do balíčku NuGet Aspose.Words.
 
@@ -37,6 +43,26 @@ Sestavení .NET 7.0/8.0 byla zahrnuta do balíčku NuGet Aspose.Words.
 * Zvýšení výkonu pro vykreslování na pozadí bylo vylepšeno. Vykreslování pozadí obsahujících drobné prvky můžete výrazně urychlit díky nativní technologii obkladů.
 * Byly přidány realistické přechody pro tvary. Nyní můžete vytvářet tvary DML s nelineárními přechody, napodobujícími vizuální styl aplikace Microsoft Word pro uhlazenější vzhled.
 
+#### Přizpůsobení štítku dat grafu <sup>24.7</sup>
+
+Byla přidána možnost přizpůsobit štítky dat grafu, jako je **Orientace** a **Rotace**.
+
+#### Vlastní styl čísel pro úrovně seznamu <sup>24.7</sup>
+
+Byl přidán setter pro veřejnou vlastnost [CustomNumberStyleFormat](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/customnumberstyleformat/). Nyní můžete definovat vlastní styl čísel pro úrovně seznamu.
+
+#### Změny v práci s ActiveX <sup>24.7</sup>
+
+* Vlastnosti objektů ActiveX lze nyní upravovat, což vám dává větší kontrolu nad jejich chováním.
+* Byla přidána možnost upravit hodnotu přepínače ovládacího prvku ActiveX pro umožnění dynamické interakce.
+* Byla přidána možnost přepnout zaškrtávací políčko ActiveX na "zaškrtnuté" nebo "nezaškrtnuté".
+
+### Načítání a ukládání dokumentů
+
+#### Export odkazů do formátu Markdown <sup>24.7</sup>
+
+Schopnost řídit export odkazů ve formátu Markdown byla přidána prostřednictvím implementace vlastnosti [LinkExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/linkexportmode/).
+
 ### Hledat a porovnat
 
 #### Pokročilé možnosti porovnání <sup>24.6</sup>
@@ -49,12 +75,16 @@ Byla přidána možnost zefektivnit pracovní postupy analýzy dat pomocí vylep
 * Nyní je podporováno zachování číslování zdrojů při vkládání dokumentu pomocí LINQ Reporting Engine. <sup>24.5</sup>
 * Byla přidána nová vlastnost [DateTimeUtc](https://reference.aspose.com/words/net/aspose.words/comment/datetimeutc/) – poskytuje přesnější časové razítko pro komentáře, zlepšuje organizaci a sledovatelnost. <sup>24.6</sup>
 * LINQ Reporting Engine byl vylepšen. Bylo provedeno selektivní odstranění prázdných odstavců a definice vlastních zpráv pro chybějící členy objektu, což vedlo k čistším a informativnějším zprávám. <sup>24.6</sup>
+* Formát data a času je nyní automaticky detekován pro bezproblémový export do formátu XLSX. <sup>24.7</sup>
+* Byla přidána veřejná vlastnost [IsProtected] (https://reference.aspose.com/words/net/aspose.words.vba/vbaproject/isprotected/), která vám umožňuje ověřit, zda je projekt VBA chráněn. <sup>24.7</sup>
 
 {{% alert color="primary" %}}
 
 Další informace o [Aspose.Words for .NET 24.5 Release Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-5-release-notes/).
 
 Další informace o [Aspose.Words for .NET 24.6 Release Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-6-release-notes/).
+
+Další informace o [Aspose.Words for .NET 24.7 Release Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-7-release-notes/).
 
 {{% /alert %}}
 

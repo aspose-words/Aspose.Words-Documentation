@@ -11,13 +11,19 @@ url: /pt/net/what-s-new-in-aspose-words-for-net/
 
 Esta página descreve os novos recursos Aspose.Words mais interessantes introduzidos em versões recentes.
 
-## Aspose.Words para .NET 24.5, 24,6
+## Aspose.Words para .NET 24.5, 24,6, 24.7
 
 O Aspose.Words 24.5 expande as opções para montagens, melhora as capacidades de renderização e expande algumas outras opções.
 
 O Aspose.Words 24.6 melhora as opções de renderização, melhora a funcionalidade de pesquisa e comparação e expande várias outras características.
 
-### Plataformas
+O Aspose.Words 24.7 altera a forma como trabalha com ActiveX, expande as capacidades de renderização e também exporta para os formatos Markdown e XLSX.
+
+### Formatos Suportados
+
+A partir da versão 24.7, a exportação para PDF/UA-2 é suportada para garantir a acessibilidade para utilizadores com deficiência.
+
+### Plataformas <sup>24.5</sup>
 
 Os assemblies .NET 7.0/8.0 foram incluídos no pacote Aspose.Words NuGet.
 
@@ -37,9 +43,29 @@ Os assemblies .NET 7.0/8.0 foram incluídos no pacote Aspose.Words NuGet.
 * O aumento de desempenho para renderização em segundo plano foi melhorado. Pode acelerar significativamente a renderização de fundos contendo pequenos elementos graças à tecnologia nativa de azulejos.
 * Foram adicionados gradientes realistas para formas. Agora pode criar formas DML com gradientes não lineares, imitando o estilo visual do Microsoft Word para um aspeto mais refinado.
 
+#### Personalização do rótulo de dados do gráfico <sup>24.7</sup>
+
+Foi adicionada a capacidade de personalizar as etiquetas de dados do gráfico, como **Orientation** e **Rotation**.
+
+#### Estilo de número personalizado para níveis de lista <sup>24.7</sup>
+
+Foi adicionado um setter para a propriedade pública [CustomNumberStyleFormat](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/customnumberstyleformat/). Agora pode definir um estilo de número personalizado para os níveis de lista.
+
+#### Alterações no trabalho com ActiveX <sup>24.7</sup>
+
+* As propriedades dos objetos ActiveX podem agora ser modificadas, proporcionando mais controlo sobre o seu comportamento.
+* Foi adicionada a capacidade de modificar o valor do controlo ActiveX do botão de opção para permitir a interação dinâmica.
+* Foi adicionada a capacidade de alternar uma caixa de selecção ActiveX para "marcada" ou "desmarcada".
+
+### Carregar e guardar documentos
+
+#### Exportar ligações para o formato Markdown <sup>24.7</sup>
+
+A capacidade de controlar a exportação de links no formato Markdown foi adicionada através da implementação da propriedade [LinkExportMode](https://reference.aspose.com/words/net/aspose.words. saving/markdownsaveoptions/linkexportmode/).
+
 ### Pesquise e compare
 
-#### Opções avançadas de comparação <sup>24,6</sup>
+#### Opções avançadas de comparação <sup>24.6</sup>
 Foi adicionada a capacidade de agilizar os fluxos de trabalho de análise de dados com uma funcionalidade de comparação melhorada. Isto inclui uma nova opção [IgnoreStoreItemId](https://reference.aspose.com/words/net/aspose.words.comparing/advancedcompareoptions/ignorestoreitemid/) e uma interface redesenhada para comparações avançadas.
 
 ### Outro
@@ -49,12 +75,16 @@ Foi adicionada a capacidade de agilizar os fluxos de trabalho de análise de dad
 * Agora há suporte para manter a numeração de origem ao inserir um documento usando o LINQ Reporting Engine. <sup>24.5</sup>
 * Foi adicionada uma nova propriedade [DateTimeUtc](https://reference.aspose.com/words/net/aspose.words/comment/datetimeutc/) – fornece um carimbo de data/hora mais preciso para comentários, melhorando a organização e a rastreabilidade. <sup>24.6</sup>
 * O motor de relatórios LINQ foi melhorado. Foi feita a remoção seletiva de parágrafos vazios e a definição de mensagens personalizadas para membros de objetos em falta, gerando relatórios mais limpos e informativos. <sup>24.6</sup>
+* O formato de data e hora é agora automaticamente detetado para exportação contínua para o formato XLSX. <sup>24.7</sup>
+* Foi adicionada a propriedade pública [IsProtected](https://reference.aspose.com/words/net/aspose.words.vba/vbaproject/isprotected/), que permite verificar se um projeto VBA está protegido. <sup>24.7</sup>
 
 {{% alert color="primary" %}}
 
 Saiba mais sobre [Notas de versão do Aspose.Words para .NET 24.5](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-5-release-notes/).
 
 Saiba mais sobre [Notas de versão do Aspose.Words para .NET 24.6](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-6-release-notes/).
+
+Saiba mais sobre [Notas de versão do Aspose.Words para .NET 24.7](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-7-release-notes/).
 
 {{% /alert %}}
 

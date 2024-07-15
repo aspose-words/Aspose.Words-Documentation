@@ -11,37 +11,63 @@ url: /ar/net/what-s-new-in-aspose-words-for-net/
 
 تصف هذه الصفحة ميزات Aspose.Words الجديدة الأكثر إثارة للاهتمام والتي تم تقديمها في الإصدارات الأخيرة.
 
-## Aspose.Words لـ .NET 24.5, 24.6
+## Aspose.Words لـ .NET 24.5، 24.6، 24.7
 
 يقوم Aspose.Words 24.5 بتوسيع خيارات التجميعات وتحسين قدرات العرض وتوسيع بعض الخيارات الأخرى.
 
 يعمل Aspose.Words 24.6 على تحسين خيارات العرض، وتعزيز وظائف البحث والمقارنة، وتوسيع العديد من الميزات الأخرى.
 
-### المنصات
+يقوم Aspose.Words 24.7 بتغيير طريقة العمل مع ActiveX، ويوسع إمكانيات العرض، بالإضافة إلى التصدير إلى تنسيقات Markdown وXLSX.
+
+### التنسيقات المدعومة
+
+بدءًا من الإصدار 24.7، يتم دعم التصدير إلى PDF/UA-2 لضمان إمكانية الوصول للمستخدمين ذوي الإعاقة.
+
+### المنصات <sup>24.5</sup>
 
 تم تضمين مجموعات .NET 7.0/8.0 في حزمة Aspose.Words NuGet.
 
 ### التقديم والطباعة
 
-#### التغييرات في Charts وShapes وDrawingML <sup>24.5</sup>
+#### التغييرات في المخططات والأشكال والرسمML <sup>24.5</sup>
 
-* تم تنفيذ عرض تأثيرات DrawingML لرسومات SVG، مما أدى إلى توسيع الوظائف السابقة التي تقتصر على الصور.
+* تم تنفيذ عرض تأثيرات DrawML لرسومات SVG، مما أدى إلى توسيع الوظائف السابقة التي تقتصر على الصور.
 * تم تقديم الدعم لإنشاء مخططات مجمعة وضبط الخصائص مثل عرض الفجوة والتداخل ومقياس الفقاعات ضمن مجموعات السلسلة عن طريق إضافة [ChartSeriesGroup](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriesgroup/) وفئات [ChartSeriesGroupCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriesgroupcollection/) وفئات [SeriesGroups](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/seriesgroups/).
++* تم تنفيذ عرض تأثيرات DrawML لرسومات SVG، مما أدى إلى توسيع الوظائف السابقة التي تقتصر على الصور.
 * تم تنفيذ وظيفة معالجة تأثير SoftEdge للأشكال عن طريق إضافة فئة [SoftEdgeFormat](https://reference.aspose.com/words/net/aspose.words.drawing/softedgeformat/).
-* تم تنفيذ القدرة على تعديل قيم ضبط الأشكال عن طريق إضافة [AdjustmentCollection](https://reference.aspose.com/words/net/aspose.words.drawing/adjustmentcollection/) و[Adjustment](https://reference.aspose.com/words/net/aspose.words.drawing/adjustment/) الفئات العامة و[Adjustments](https://reference.aspose.com/words/net/aspose.words.drawing/shape/adjustments/) ملكية.
+* * تم تنفيذ القدرة على تعديل قيم ضبط الأشكال عن طريق إضافة [AdjustmentCollection](https://reference.aspose.com/words/net/aspose.words.drawing/adjustmentcollection/) و[Adjustment](https://reference.aspose.com/words/net/aspose.words.drawing/adjustment/) الفئات العامة و[Adjustments](https://reference.aspose.com/words/net/aspose.words.drawing/shape/adjustments/) ملكية.
 
 #### التغييرات في المخططات والأشكال والرسم <sup>24.6</sup>
 
 * تم تعزيز قدرات الرسم البياني. يمكنك الآن إنشاء مجموعة واسعة من المخططات، بما في ذلك *Treemaps*، و*Sunbursts*، و*Histograms*، و*Pareto*، و*Box & Whisker*، و*Waterfalls*، و*Funnels*. يتيح لك ذلك تصور بياناتك بطريقة أكثر تنوعًا وغنية بالمعلومات.
 * تم تحسين التحكم في الألوان لتنسيق الظل. يمكنك الحصول على تحكم أكثر دقة في مظهر مستنداتك عن طريق الوصول إلى ألوان الظل.
-* تم تحسين تعزيز الأداء لتقديم الخلفية. يمكنك تسريع عرض الخلفيات التي تحتوي على عناصر صغيرة بشكل كبير بفضل تقنية التبليط الأصلية.
+* تم تحسين تعزيز الأداء لعرض الخلفية. يمكنك تسريع عرض الخلفيات التي تحتوي على عناصر صغيرة بشكل كبير بفضل تقنية التبليط الأصلية.
 * تمت إضافة تدرجات واقعية للأشكال. يمكنك الآن إنشاء أشكال DML بتدرجات غير خطية، لمحاكاة النمط المرئي لبرنامج Microsoft Word للحصول على مظهر أكثر صقلًا.
+
+#### تخصيص تسمية بيانات المخطط <sup>24.7</sup>
+
+تمت إضافة القدرة على تخصيص تسميات بيانات المخطط مثل **الاتجاه** و**التدوير**.
+
+#### تصميم أرقام مخصص لمستويات القائمة <sup>24.7</sup>
+
+تمت إضافة أداة ضبط للملكية العامة [CustomNumberStyleFormat](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/customnumberstyleformat/). يمكنك الآن تحديد نمط أرقام مخصص لمستويات القائمة.
+
+#### التغييرات في العمل مع ActiveX <sup>24.7</sup>
+
+* يمكن الآن تعديل خصائص كائنات ActiveX، مما يتيح لك المزيد من التحكم في سلوكها.
+* تمت إضافة القدرة على تعديل قيمة زر التحكم ActiveX لتمكين التفاعل الديناميكي.
+* تمت إضافة القدرة على تبديل خانة اختيار ActiveX إلى "محدد" أو "غير محدد".
+
+### تحميل وحفظ المستندات
+
+#### تصدير الروابط إلى تنسيق Markdown <sup>24.7</sup>
+
+تمت إضافة القدرة على التحكم في تصدير الروابط بتنسيق Markdown من خلال تطبيق خاصية [LinkExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/linkexportmode/).
 
 ### بحث ومقارنة
 
 #### خيارات المقارنة المتقدمة <sup>24.6</sup>
 تمت إضافة القدرة على تبسيط سير عمل تحليل البيانات من خلال وظيفة المقارنة المحسنة. يتضمن ذلك خيار [IgnoreStoreItemId](https://reference.aspose.com/words/net/aspose.words.comparing/advancedcompareoptions/ignorestoreitemid/) الجديد وواجهة مُعاد تصميمها لإجراء مقارنات متقدمة.
-
 ### آخر
 
 * تم تنفيذ وظيفة إزالة الصفحات الفارغة من المستند عن طريق إضافة طريقة [RemoveBlankPages](https://reference.aspose.com/words/net/aspose.words/document/removeblankpages/). <sup>24.5</sup>
@@ -49,12 +75,16 @@ url: /ar/net/what-s-new-in-aspose-words-for-net/
 * أصبح الحفاظ على ترقيم المصدر أثناء إدراج مستند باستخدام محرك التقارير LINQ مدعومًا الآن. <sup>24.5</sup>
 * تمت إضافة خاصية [DateTimeUtc](https://reference.aspose.com/words/net/aspose.words/comment/datetimeutc/) جديدة - وهذا يوفر طابعًا زمنيًا أكثر دقة للتعليقات، مما يؤدي إلى تحسين التنظيم وإمكانية التتبع. <sup>24.6</sup>
 * تم تحسين محرك تقارير LINQ. تم إجراء إزالة انتقائية للفقرات الفارغة وتعريف الرسائل المخصصة لأعضاء الكائنات المفقودة، مما يؤدي إلى تقارير أكثر وضوحًا وإفادة. <sup>24.6</sup>
+* تم الآن اكتشاف تنسيق التاريخ والوقت تلقائيًا للتصدير السلس إلى تنسيق XLSX. <sup>24.7</sup>
+* تمت إضافة الخاصية العامة [IsProtected](https://reference.aspose.com/words/net/aspose.words.vba/vbaproject/isprotected/)، والتي تسمح لك بالتحقق مما إذا كان مشروع VBA محميًا أم لا. <sup>24.7</sup>
 
 {{% alert color="primary" %}}
 
 تعرف على المزيد حول [ملاحظات إصدار Aspose.Words for .NET 24.5](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-5-release-notes/).
 
 تعرف على المزيد حول [ملاحظات إصدار Aspose.Words for .NET 24.6](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-6-release-notes/).
+
+تعرف على المزيد حول [ملاحظات إصدار Aspose.Words for .NET 24.7](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-7-release-notes/).
 
 {{% /alert %}}
 
