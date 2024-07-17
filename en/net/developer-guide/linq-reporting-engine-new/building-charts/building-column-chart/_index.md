@@ -86,6 +86,7 @@ PYTHON via <em class="docs-vianet">net</em> API</a>
 ## See Also
 
 - [Building Charts]({{< ref "../../building-charts/" >}})
+- [Binding Collections]({{< ref "../../binding-data/binding-collections/" >}})
 - [LINQ Reporting Engine]({{< ref "../../../linq-reporting-engine-new/" >}})
 - [ReportingEngine Class](https://reference.aspose.com/words/net/aspose.words.reporting/reportingengine/)
 
