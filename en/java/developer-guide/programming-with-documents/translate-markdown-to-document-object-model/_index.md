@@ -71,15 +71,8 @@ The table below shows examples of using Markdown Leaf blocks in Aspose.Words:
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Heading.java" >}} |                                                              |
 | **Setext Heading**<br />`===` (if Heading level 1),<br />`---` (if Heading level 2) | `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, based on `“Heading N”` style.<br />If (N >= 2), then `“Heading 2”` will be used, otherwise `“Heading 1”`.<br />Any suffix is allowed, but Aspose.Words importer uses numbers “1” and “2” respectively. |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-SetextHeading.java" >}} |                                                              |
-| **Indented Code**                                            | `ParagraphFormat.StyleName = “IndentedCode[some suffix]”`    |
-| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-IndentedCode.java" >}} |                                                              |
-| **Fenced Code**<br />{{< highlight java >}}``` java
-if ()
-then
-else
-```{{< /highlight >}} | `ParagraphFormat.StyleName = “FencedCode[.][info string]”`<br />The `[.]` and `[info string]` are optional. |
-| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-FencedCode.java" >}}  |                                                              |
-
+| **Indented Code**<br>{{< highlight java >}}<br/>if ()<br/>then<br/>else<br/>```{{< /highlight >}} | `ParagraphFormat.StyleName = “IndentedCode[some suffix]”`    |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-FencedCode.java" >}} |                                                              |
 ### Complex Containers
 
 The table below shows examples of using Markdown Complex Containers in Aspose.Words:

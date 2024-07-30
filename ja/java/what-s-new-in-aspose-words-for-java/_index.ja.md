@@ -11,11 +11,17 @@ url: /ja/java/what-s-new-in-aspose-words-for-java/
 
 このページでは、最も興味深い新しいものについて説明します Aspose.Words 最近のリリースで導入された機能。
 
-## Aspose.Words お問い合わせ Java 24.5、24.6
+## Aspose.Words お問い合わせ Java 24.5、24.6、24.7
 
 Aspose.Words 24.5 では、アセンブリのオプションが拡張され、レンダリング機能が向上し、その他のオプションも拡張されています。
 
 Aspose.Words 24.6 では、レンダリング オプションが向上し、検索および比較機能が強化され、その他の機能が拡張されています。
+
+Aspose.Words 24.7 では、ActiveX の操作方法が変更され、レンダリング機能が拡張され、Markdown および XLSX 形式へのエクスポートも可能になりました。
+
+### サポートされている形式
+
+バージョン 24.7 以降では、障害を持つユーザーのアクセシビリティを確保するために、PDF/UA-2 へのエクスポートがサポートされています。
 
 ### レンダリングと印刷
 
@@ -35,6 +41,28 @@ Aspose.Words 24.6 では、レンダリング オプションが向上し、検�
 * バックグラウンド レンダリングのパフォーマンスが向上しました。ネイティブのタイリング テクノロジにより、小さな要素を含む背景のレンダリングを大幅に高速化できます。
 * 図形のリアルなグラデーションが追加されました。非線形グラデーションの DML 図形を作成できるようになりました。これにより、Microsoft Word のビジュアル スタイルを模倣して、より洗練された外観を実現できます。
 
+#### グラフ データ ラベルのカスタマイズ <sup>24.7</sup>
+
+**Orientation** や **Rotation** などのグラフ データ ラベルをカスタマイズする機能が追加されました。
+
+#### リスト レベルのカスタム数値スタイル <sup>24.7</sup>
+
+パブリック プロパティ [CustomNumberStyleFormat](https://reference.aspose.com/words/java/com.aspose.words/listlevel/#getCustomNumberStyleFormat) のセッターが追加されました。リスト レベルのカスタム数値スタイルを定義できるようになりました。
+
+#### ActiveX の操作に関する変更 <sup>24.7</sup>
+
+* ActiveX オブジェクトのプロパティを変更できるようになり、その動作をより細かく制御できるようになりました。
+
+* ラジオ ボタン ActiveX コントロールの値を変更して動的な操作を有効にする機能が追加されました。
+
+* ActiveX チェックボックスを「オン」または「オフ」に切り替える機能が追加されました。
+
+### ドキュメントの読み込みと保存
+
+#### リンクを Markdown 形式にエクスポート <sup>24.7</sup>
+
+[LinkExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getLinkExportMode) プロパティの実装により、Markdown 形式でのリンクのエクスポートを制御する機能が追加されました。
+
 ### 検索と比較
 
 #### 高度な比較オプション <sup>24.6</sup>
@@ -47,12 +75,16 @@ Aspose.Words 24.6 では、レンダリング オプションが向上し、検�
 * LINQ レポート エンジンを使用してドキュメントを挿入する際にソース番号を維持する機能がサポートされるようになりました。 <sup>24.5</sup>
 * 新しい [DateTimeUtc](https://reference.aspose.com/words/java/com.aspose.words/comment/#getDateTimeUtc) プロパティが追加されました。これにより、コメントのタイムスタンプがより正確になり、整理と追跡可能性が向上します。 <sup>24.6</sup>
 * LINQ レポート エンジンが改良されました。空の段落を選択的に削除し、欠落しているオブジェクト メンバーのカスタム メッセージを定義することで、よりわかりやすく、より情報量の多いレポートを実現しました。<sup>24.6</sup>
+* XLSX 形式へのシームレスなエクスポートのために、日時形式が自動的に検出されるようになりました。 <sup>24.7</sup>
+* VBA プロジェクトが保護されているかどうかを確認できるパブリック プロパティ [IsProtected](https://reference.aspose.com/words/java/com.aspose.words/vbaproject/#isProtected) が追加されました。<sup>24.7</sup>
 
 {{% alert color="primary" %}}
 
 [Aspose.Words for Java 24.5 リリース ノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-5-release-notes/) の詳細をご覧ください。
 
 [Aspose.Words for Java 24.6 リリース ノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-6-release-notes/) の詳細をご覧ください。
+
+[Aspose.Words for Java 24.7 リリース ノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-7-release-notes/) の詳細をご覧ください。
 
 {{% /alert %}}
 

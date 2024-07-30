@@ -11,11 +11,17 @@ url: /pl/java/what-s-new-in-aspose-words-for-java/
 
 Ta strona opisuje najbardziej interesujące nowe Aspose.Words funkcje wprowadzone w ostatnich wersjach.
 
-## Aspose.Words dla Java 24.5, 24.6
+## Aspose.Words dla Java 24.5, 24.6, 24.7
 
 Aspose.Words 24.5 rozszerza opcje złożeń, poprawia możliwości renderowania i rozszerza niektóre inne opcje.
 
 Aspose.Words 24.6 poprawia opcje renderowania, ulepsza funkcjonalność wyszukiwania i porównywania oraz rozszerza kilka innych funkcji.
+
+Aspose.Words 24.7 zmienia sposób pracy z ActiveX, rozszerza możliwości renderowania, a także eksportu do formatów Markdown i XLSX.
+
+### Obsługiwane formaty
+
+Począwszy od wersji 24.7 obsługiwany jest eksport do formatu PDF/UA-2, aby zapewnić dostępność dla użytkowników niepełnosprawnych.
 
 ### Renderowanie i drukowanie
 
@@ -33,6 +39,26 @@ Aspose.Words 24.6 poprawia opcje renderowania, ulepsza funkcjonalność wyszukiw
 * Poprawiono wydajność renderowania tła. Dzięki natywnej technologii kafelkowania możesz znacznie przyspieszyć renderowanie tła zawierającego małe elementy.
 * Dodano realistyczne gradienty kształtów. Możesz teraz tworzyć kształty DML z nieliniowymi gradientami, naśladując styl wizualny programu Microsoft Word, aby uzyskać bardziej dopracowany wygląd.
 
+#### Dostosowywanie etykiet danych wykresu <sup>24.7</sup>
+
+Dodano możliwość dostosowania etykiet danych wykresu, takich jak **Orientation** i **Rotation**.
+
+#### Niestandardowa stylizacja numerów dla poziomów list <sup>24,7</sup>
+
+Dodano moduł ustawiający właściwość publiczną [CustomNumberStyleFormat](https://reference.aspose.com/words/java/com.aspose.words/listlevel/#getCustomNumberStyleFormat). Można teraz zdefiniować niestandardową stylizację numerów dla poziomów list.
+
+#### Zmiany w pracy z ActiveX <sup>24.7</sup>
+
+* Można teraz modyfikować właściwości obiektów ActiveX, co daje większą kontrolę nad ich zachowaniem.
+* Dodano możliwość modyfikacji wartości przycisku opcji ActiveX w celu umożliwienia dynamicznej interakcji.
+* Dodano możliwość przełączania pola wyboru ActiveX na „zaznaczone” lub „niezaznaczone”.
+
+### Ładowanie i zapisywanie dokumentów
+
+#### Eksportowanie linków do formatu Markdown <sup>24.7</sup>
+
+Dodano możliwość kontroli eksportu linków w formacie Markdown poprzez implementację właściwości [LinkExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getLinkExportMode).
+
 ### Wyszukaj i porównaj
 
 #### Zaawansowane opcje porównania <sup>24.6</sup>
@@ -45,12 +71,16 @@ Dodano możliwość usprawnienia procesów analizy danych dzięki ulepszonej fun
 * Obsługiwane jest teraz zachowywanie numeracji źródłowej podczas wstawiania dokumentu przy użyciu silnika raportowania LINQ. <sup>24.5</sup>
 * Dodano nową właściwość [DateTimeUtc](https://reference.aspose.com/words/java/com.aspose.words/comment/#getDateTimeUtc) – zapewnia ona dokładniejszy znacznik czasu dla komentarzy, poprawiając organizację i identyfikowalność. <sup>24.6</sup>
 * Ulepszono silnik raportowania LINQ. Dokonano selektywnego usunięcia pustych akapitów i zdefiniowania niestandardowych komunikatów dla brakujących elementów obiektów, co doprowadziło do czystszych i bardziej informacyjnych raportów. <sup>24.6</sup>
+* Format daty i godziny jest teraz automatycznie wykrywany w celu bezproblemowego eksportu do formatu XLSX. <sup>24.7</sup>
+* Dodano właściwość publiczną [IsProtected](https://reference.aspose.com/words/java/com.aspose.words/vbaproject/#isProtected), która pozwala sprawdzić, czy projekt VBA jest chroniony. <sup>24.7</sup>
 
 {{% alert color="primary" %}}
 
 Dowiedz się więcej o [Aspose.Words for Java 24.5 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-5-release-notes/).
 
 Dowiedz się więcej o [Aspose.Words for Java 24.6 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-6-release-notes/).
+
+Dowiedz się więcej o [Aspose.Words for Java 24.7 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-7-release-notes/).
 
 {{% /alert %}}
 

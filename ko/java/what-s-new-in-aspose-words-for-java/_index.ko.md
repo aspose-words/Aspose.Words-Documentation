@@ -11,11 +11,17 @@ url: /ko/java/what-s-new-in-aspose-words-for-java/
 
 이 페이지는 가장 흥미로운 새로운 설명 Aspose.Words 최근 출시된 기능.
 
-## Aspose.Words 제품정보 Java 24.5, 24.6
+## Aspose.Words 제품정보 Java 24.5, 24.6, 24.7
 
 Aspose.Words 24.5는 어셈블리 옵션을 확장하고 렌더링 기능을 개선하며 기타 옵션을 확장합니다.
 
 Aspose.Words 24.6은 렌더링 옵션을 개선하고, 검색 및 비교 기능을 향상시키며, 기타 여러 기능을 확장합니다.
+
+Aspose.Words 24.7은 ActiveX 작업 방식을 변경하고 렌더링 기능을 확장하며 Markdown 및 XLSX 형식으로 내보내기도 합니다.
+
+### 지원되는 형식
+
+버전 24.7부터 장애가 있는 사용자의 접근성을 보장하기 위해 PDF/UA-2로 내보내기가 지원됩니다.
 
 ### 렌더링 및 인쇄
 
@@ -33,6 +39,26 @@ Aspose.Words 24.6은 렌더링 옵션을 개선하고, 검색 및 비교 기능�
 * 배경 렌더링 성능 향상이 향상되었습니다. 기본 타일링 기술 덕분에 작은 요소가 포함된 배경의 렌더링 속도를 크게 높일 수 있습니다.
 * 모양에 사실적인 그라데이션이 추가되었습니다. 이제 비선형 그라데이션으로 DML 모양을 만들어 Microsoft Word의 시각적 스타일을 모방하여 더욱 세련된 모양을 만들 수 있습니다.
 
+#### 차트 데이터 라벨 사용자 정의 <sup>24.7</sup>
+
+**방향** 및 **회전**과 같은 차트 데이터 라벨을 맞춤설정하는 기능이 추가되었습니다.
+
+#### 목록 수준에 대한 사용자 정의 숫자 스타일 <sup>24.7</sup>
+
+공용 속성 [CustomNumberStyleFormat](https://reference.aspose.com/words/java/com.aspose.words/listlevel/#getCustomNumberStyleFormat)에 대한 설정자가 추가되었습니다. 이제 목록 수준에 대한 사용자 정의 숫자 스타일을 정의할 수 있습니다.
+
+#### ActiveX 작업 시 변경 사항 <sup>24.7</sup>
+
+* 이제 ActiveX 개체의 속성을 수정하여 해당 동작을 더 효과적으로 제어할 수 있습니다.
+* 라디오 버튼 ActiveX 컨트롤의 값을 수정하여 동적 상호 작용을 가능하게 하는 기능이 추가되었습니다.
+* ActiveX 체크박스를 "선택" 또는 "선택 해제"로 전환하는 기능이 추가되었습니다.
+
+### 문서 로드 및 저장
+
+#### 마크다운 형식으로 링크 내보내기 <sup>24.7</sup>
+
+[LinkExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getLinkExportMode) 속성 구현을 통해 Markdown 형식의 링크 내보내기를 제어하는 ​​기능이 추가되었습니다.
+
 ### 검색 및 비교
 
 #### 고급 비교 옵션 <sup>24.6</sup>
@@ -45,12 +71,16 @@ Aspose.Words 24.6은 렌더링 옵션을 개선하고, 검색 및 비교 기능�
 * 이제 LINQ 보고 엔진을 사용하여 문서를 삽입하는 동안 소스 번호 매기기가 지원됩니다. <sup>24.5</sup>
 * 새로운 [date_time_utc](https://reference.aspose.com/words/python-net/aspose.words/comment/date_time_utc/) 속성이 추가되었습니다. 이는 댓글에 대한 보다 정확한 타임스탬프를 제공하여 구성 및 추적성을 향상시킵니다. <sup>24.6</sup>
 * LINQ 보고 엔진이 개선되었습니다. 빈 단락을 선택적으로 제거하고 누락된 개체 구성원에 대한 사용자 정의 메시지를 정의하여 더욱 깔끔하고 유익한 보고서를 제공합니다. <sup>24.6</sup>
+* 이제 XLSX 형식으로 원활하게 내보내기 위해 날짜/시간 형식이 자동으로 감지됩니다. <sup>24.7</sup>
+* VBA 프로젝트가 보호되는지 확인할 수 있는 공용 속성 [IsProtected](https://reference.aspose.com/words/java/com.aspose.words/vbaproject/#isProtected)가 추가되었습니다. <sup>24.7</sup>
 
 {{% alert color="primary" %}}
 
 [Aspose.Words for Java 24.5 릴리스 노트](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-5-release-notes/) 에 대해 자세히 알아보세요.
 
 [Aspose.Words for Java 24.6 릴리스 노트](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-6-release-notes/) 에 대해 자세히 알아보세요.
+
+[Aspose.Words for Java 24.7 릴리스 노트](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-7-release-notes/) 에 대해 자세히 알아보세요.
 
 {{% /alert %}}
 
