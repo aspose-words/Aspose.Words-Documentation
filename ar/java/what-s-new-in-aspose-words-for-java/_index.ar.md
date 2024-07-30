@@ -11,11 +11,17 @@ url: /ar/java/what-s-new-in-aspose-words-for-java/
 
 هذه الصفحة تصف أكثر الأشياء إثارة للاهتمام Aspose.Words السمات التي أدخلت في الإطلاقات الأخيرة.
 
-## Aspose.Words لـ Java 24.5, 24.6
+## Aspose.Words لـ Java 24.5, 24.6, 24.7
 
 يقوم Aspose.Words 24.5 بتوسيع خيارات التجميعات وتحسين قدرات العرض وتوسيع بعض الخيارات الأخرى.
 
 يعمل Aspose.Words 24.6 على تحسين خيارات العرض، وتعزيز وظائف البحث والمقارنة، وتوسيع العديد من الميزات الأخرى.
+
+يقوم Aspose.Words 24.7 بتغيير طريقة العمل مع ActiveX، ويوسع إمكانيات العرض، بالإضافة إلى التصدير إلى تنسيقات Markdown وXLSX.
+
+### التنسيقات المدعومة
+
+بدءًا من الإصدار 24.7، يتم دعم التصدير إلى PDF/UA-2 لضمان إمكانية الوصول للمستخدمين ذوي الإعاقة.
 
 ### التقديم والطباعة
 
@@ -33,6 +39,26 @@ url: /ar/java/what-s-new-in-aspose-words-for-java/
 * تم تحسين تعزيز الأداء لتقديم الخلفية. يمكنك تسريع عرض الخلفيات التي تحتوي على عناصر صغيرة بشكل كبير بفضل تقنية التبليط الأصلية.
 * تمت إضافة تدرجات واقعية للأشكال. يمكنك الآن إنشاء أشكال DML بتدرجات غير خطية، لمحاكاة النمط المرئي لبرنامج Microsoft Word للحصول على مظهر أكثر صقلًا.
 
+#### تخصيص تسمية بيانات المخطط <sup>24.7</sup>
+
+تمت إضافة القدرة على تخصيص تسميات بيانات المخطط مثل **الاتجاه** و**التدوير**.
+
+#### تصميم أرقام مخصص لمستويات القائمة <sup>24.7</sup>
+
+تمت إضافة أداة ضبط للملكية العامة [CustomNumberStyleFormat](https://reference.aspose.com/words/java/com.aspose.words/listlevel/#getCustomNumberStyleFormat). يمكنك الآن تحديد نمط أرقام مخصص لمستويات القائمة.
+
+#### التغييرات في العمل مع ActiveX <sup>24.7</sup>
+
+* يمكن الآن تعديل خصائص كائنات ActiveX، مما يتيح لك المزيد من التحكم في سلوكها.
+* تمت إضافة القدرة على تعديل قيمة زر التحكم ActiveX لتمكين التفاعل الديناميكي.
+* تمت إضافة القدرة على تبديل خانة اختيار ActiveX إلى "محدد" أو "غير محدد".
+
+### تحميل وحفظ المستندات
+
+#### تصدير الروابط إلى تنسيق Markdown <sup>24.7</sup>
+
+تمت إضافة القدرة على التحكم في تصدير الروابط بتنسيق Markdown من خلال تطبيق خاصية [LinkExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getLinkExportMode).
+
 ### بحث ومقارنة
 
 #### خيارات المقارنة المتقدمة <sup>24.6</sup>
@@ -45,12 +71,16 @@ url: /ar/java/what-s-new-in-aspose-words-for-java/
 * أصبح الحفاظ على ترقيم المصدر أثناء إدراج مستند باستخدام محرك التقارير LINQ مدعومًا الآن. <sup>24.5</sup>
 * تمت إضافة خاصية [DateTimeUtc](https://reference.aspose.com/words/java/com.aspose.words/comment/#getDateTimeUtc) جديدة - وهذا يوفر طابعًا زمنيًا أكثر دقة للتعليقات، مما يؤدي إلى تحسين التنظيم وإمكانية التتبع. <sup>24.6</sup>
 * تم تحسين محرك تقارير LINQ. تم إجراء إزالة انتقائية للفقرات الفارغة وتعريف الرسائل المخصصة لأعضاء الكائنات المفقودة، مما يؤدي إلى تقارير أكثر وضوحًا وإفادة. <sup>24.6</sup>
+* تم الآن اكتشاف تنسيق التاريخ والوقت تلقائيًا للتصدير السلس إلى تنسيق XLSX. <sup>24.7</sup>
+* تمت إضافة الخاصية العامة [IsProtected](https://reference.aspose.com/words/java/com.aspose.words/vbaproject/#isProtected)، والتي تسمح لك بالتحقق مما إذا كان مشروع VBA محميًا أم لا. <sup>24.7</sup>
 
 {{% alert color="primary" %}}
 
-تعرف على المزيد حول [ملاحظات إصدار Aspose.Words for Java 24.5](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-5-release-notes/ ).
+تعرف على المزيد حول [ملاحظات إصدار Aspose.Words for Java 24.5](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-5-release-notes/).
 
-تعرف على المزيد حول [ملاحظات إصدار Aspose.Words for Java 24.6](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-6-release-notes/ ).
+تعرف على المزيد حول [ملاحظات إصدار Aspose.Words for Java 24.6](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-6-release-notes/).
+
+تعرف على المزيد حول [ملاحظات إصدار Aspose.Words for Java 24.7](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-7-release-notes/).
 
 {{% /alert %}}
 

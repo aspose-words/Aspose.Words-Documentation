@@ -61,7 +61,7 @@ Ein Setter für die öffentliche Eigenschaft [CustomNumberStyleFormat](https://r
 
 #### Exportieren von Links in das Markdown-Format <sup>24.7</sup>
 
-Die Möglichkeit, den Export von Links im Markdown-Format zu steuern, wurde durch die Implementierung der Eigenschaft [LinkExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/linkexportmode/) hinzugefügt.
+Die Möglichkeit, den Export von Links im Markdown-Format zu steuern, wurde durch die Implementierung der Eigenschaft [LinkExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/linkexportmode/).hinzugefügt.
 
 ### Suchen und Vergleichen
 

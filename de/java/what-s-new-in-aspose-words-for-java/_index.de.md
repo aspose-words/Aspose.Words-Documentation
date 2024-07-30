@@ -11,11 +11,17 @@ url: /de/java/what-s-new-in-aspose-words-for-java/
 
 Diese Seite beschreibt das interessanteste Neues Aspose.Words Funktionen, die in den letzten Versionen eingeführt wurden.
 
-## Aspose.Words für Java 24.5, 24.6
+## Aspose.Words für Java 24.5, 24.6, 24.7
 
 Aspose.Words 24.5 erweitert die Optionen für Baugruppen, verbessert die Rendering-Funktionen und erweitert einige andere Optionen.
 
 Aspose.Words 24.6 verbessert die Rendering-Optionen, verbessert die Such- und Vergleichsfunktion und erweitert mehrere andere Funktionen.
+
+Aspose.Words 24.7 ändert die Art und Weise, wie Sie mit ActiveX arbeiten, erweitert die Rendering-Funktionen und ermöglicht den Export in die Formate Markdown und XLSX.
+
+### Unterstützte Formate
+
+Ab Version 24.7 wird der Export in PDF/UA-2 unterstützt, um die Zugänglichkeit für Benutzer mit Behinderungen zu gewährleisten.
 
 ### Rendering und Drucken
 
@@ -33,6 +39,26 @@ Aspose.Words 24.6 verbessert die Rendering-Optionen, verbessert die Such- und Ve
 * Die Leistungssteigerung für das Hintergrund-Rendering wurde verbessert. Dank der nativen Kacheltechnologie können Sie das Rendern von Hintergründen mit kleinen Elementen erheblich beschleunigen.
 * Es wurden realistische Farbverläufe für Formen hinzugefügt. Sie können jetzt DML-Formen mit nichtlinearen Farbverläufen erstellen, die den visuellen Stil von Microsoft Word nachahmen und so ein eleganteres Erscheinungsbild erzielen.
 
+#### Anpassung von Diagrammdatenbeschriftungen <sup>24.7</sup>
+
+Die Möglichkeit, Diagrammdatenbeschriftungen wie **Ausrichtung** und **Rotation** anzupassen, wurde hinzugefügt.
+
+#### Benutzerdefinierte Zahlenformatierung für Listenebenen <sup>24.7</sup>
+
+Ein Setter für die öffentliche Eigenschaft [CustomNumberStyleFormat](https://reference.aspose.com/words/java/com.aspose.words/listlevel/#getCustomNumberStyleFormat) wurde hinzugefügt. Sie können jetzt eine benutzerdefinierte Zahlenformatierung für Listenebenen definieren.
+
+#### Änderungen bei der Arbeit mit ActiveX <sup>24.7</sup>
+
+* Die Eigenschaften von ActiveX-Objekten können jetzt geändert werden, sodass Sie mehr Kontrolle über ihr Verhalten haben.
+* Die Möglichkeit, den Wert des ActiveX-Steuerelements mit Optionsfeld zu ändern, um dynamische Interaktion zu ermöglichen, wurde hinzugefügt.
+* Die Möglichkeit, ein ActiveX-Kontrollkästchen auf „aktiviert“ oder „deaktiviert“ umzuschalten, wurde hinzugefügt.
+
+### Laden und Speichern von Dokumenten
+
+#### Exportieren von Links in das Markdown-Format <sup>24.7</sup>
+
+Die Möglichkeit, den Export von Links im Markdown-Format zu steuern, wurde durch die Implementierung der Eigenschaft [LinkExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getLinkExportMode).
+
 ### Suchen und Vergleichen
 
 #### Erweiterte Vergleichsoptionen <sup>24.6</sup>
@@ -40,17 +66,21 @@ Die Möglichkeit, Datenanalyse-Workflows mit verbesserten Vergleichsfunktionen z
 
 ### Sonstiges
 
-- Die Funktion zum Entfernen leerer Seiten aus einem Dokument wurde durch Hinzufügen der Methode [RemoveBlankPages](https://reference.aspose.com/words/java/com.aspose.words/document/#removeBlankPages) implementiert. <sup>24.5</sup>
-- Die Möglichkeit, das Vorhandensein von VBA-Makros zu prüfen, ohne ein Dokument zu laden, wurde durch Hinzufügen der Eigenschaft [HasMacros](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasMacros) bereitgestellt. <sup>24.5</sup>
-- Das Beibehalten der Quellnummerierung beim Einfügen eines Dokuments mithilfe der LINQ Reporting Engine wird jetzt unterstützt. <sup>24.5</sup>
+* Die Funktion zum Entfernen leerer Seiten aus einem Dokument wurde durch Hinzufügen der Methode [RemoveBlankPages](https://reference.aspose.com/words/java/com.aspose.words/document/#removeBlankPages) implementiert. <sup>24.5</sup>
+* Die Möglichkeit, das Vorhandensein von VBA-Makros zu prüfen, ohne ein Dokument zu laden, wurde durch Hinzufügen der Eigenschaft [HasMacros](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasMacros) bereitgestellt. <sup>24.5</sup>
+* Das Beibehalten der Quellnummerierung beim Einfügen eines Dokuments mithilfe der LINQ Reporting Engine wird jetzt unterstützt. <sup>24.5</sup>
 * Eine neue Eigenschaft [DateTimeUtc](https://reference.aspose.com/words/java/com.aspose.words/comment/#getDateTimeUtc) wurde hinzugefügt – diese bietet einen genaueren Zeitstempel für Kommentare und verbessert die Organisation und Nachverfolgbarkeit. <sup>24.6</sup>
 * Die LINQ Reporting Engine wurde verbessert. Es wurden selektiv leere Absätze entfernt und benutzerdefinierte Nachrichten für fehlende Objektmitglieder definiert, was zu übersichtlicheren und informativeren Berichten führt. <sup>24.6</sup>
+* Das Datums-/Uhrzeitformat wird jetzt automatisch erkannt, um einen nahtlosen Export in das XLSX-Format zu ermöglichen. <sup>24.7</sup>
+* Die öffentliche Eigenschaft [IsProtected](https://reference.aspose.com/words/java/com.aspose.words/vbaproject/#isProtected), mit der Sie überprüfen können, ob ein VBA-Projekt geschützt ist, wurde hinzugefügt. <sup>24.7</sup>
 
 {{% alert color="primary" %}}
 
 Erfahren Sie mehr über [Versionshinweise zu Aspose.Words für Java 24.5](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-5-release-notes/).
 
 Erfahren Sie mehr über [Versionshinweise zu Aspose.Words für Java 24.6](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-6-release-notes/).
+
+Erfahren Sie mehr über [Versionshinweise zu Aspose.Words für Java 24.7](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-7-release-notes/).
 
 {{% /alert %}}
 

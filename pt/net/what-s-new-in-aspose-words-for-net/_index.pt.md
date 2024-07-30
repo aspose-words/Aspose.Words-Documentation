@@ -61,7 +61,7 @@ Foi adicionado um setter para a propriedade pública [CustomNumberStyleFormat](h
 
 #### Exportar ligações para o formato Markdown <sup>24.7</sup>
 
-A capacidade de controlar a exportação de links no formato Markdown foi adicionada através da implementação da propriedade [LinkExportMode](https://reference.aspose.com/words/net/aspose.words. saving/markdownsaveoptions/linkexportmode/).
+A capacidade de controlar a exportação de links no formato Markdown foi adicionada através da implementação da propriedade [LinkExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/linkexportmode/).
 
 ### Pesquise e compare
 
