@@ -11,13 +11,15 @@ url: /cs/net/what-s-new-in-aspose-words-for-net/
 
 Tato stránka popisuje nejzajímavější nový Aspose.Words funkce zavedené v nedávných vydáních.
 
-## Aspose.Words pro .NET 24.5, 24.6, 24.7
+## Aspose.Words pro .NET 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 rozšiřuje možnosti pro sestavy, zlepšuje možnosti vykreslování a rozšiřuje některé další možnosti.
 
 Aspose.Words 24.6 vylepšuje možnosti vykreslování, vylepšuje funkce vyhledávání a porovnávání a rozšiřuje několik dalších funkcí.
 
 Aspose.Words 24.7 mění způsob práce s ActiveX, rozšiřuje možnosti vykreslování a také export do formátů Markdown a XLSX.
+
+Aspose.Words 24.8 vylepšuje přizpůsobení grafu přesným ovládáním popisků os, rozšiřuje správu písem, zlepšuje manipulaci se strukturou dokumentů a přidává nové možnosti pro export HTML/XAML, funkčnost PDF, převod dokumentů a digitální podpisy.
 
 ### Podporované formáty
 
@@ -57,11 +59,27 @@ Byl přidán setter pro veřejnou vlastnost [CustomNumberStyleFormat](https://re
 * Byla přidána možnost upravit hodnotu přepínače ovládacího prvku ActiveX pro umožnění dynamické interakce.
 * Byla přidána možnost přepnout zaškrtávací políčko ActiveX na "zaškrtnuté" nebo "nezaškrtnuté".
 
-### Načítání a ukládání dokumentů
+#### Ovládání nad osou grafu Orientace a rotace štítků <sup>24.8</sup>
+
+Byla přidána přesná kontrola nad orientací a rotací štítků os grafu pro pohodlnější přizpůsobení grafu – [AxisTickLabels](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/) třída byla rozšířena o nové [Orientace](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/orientation/) a [Rotace](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/rotation/).
+
+#### Nahrazení zpětného lomítka znakem jen <sup>24.8</sup>
+
+Zpětně kompatibilní export HTML a XAML pro nahrazení znaku zpětného lomítka znakem Yen byl vylepšen. Aby toho bylo dosaženo, byla vlastnost **ReplaceBackslashWithYenSign** přidána do [HtmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/) a [XamlFlowSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xamlflowsaveoptions/).
+
+#### Použití značek SDT jako názvů polí formuláře při exportu do PDF <sup>24.8</sup>
+
+Export PDF s podporou použití značek SDT jako názvů polí formuláře byl vylepšen přidáním nové vlastnosti [UseSdtTagAsFormFieldName](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/usesdttagasformfieldname/) do třídy [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/).
+
+### Konverze, načítání a ukládání dokumentů
 
 #### Export odkazů do formátu Markdown <sup>24.7</sup>
 
 Schopnost řídit export odkazů ve formátu Markdown byla přidána prostřednictvím implementace vlastnosti [LinkExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/linkexportmode/).
+
+#### LowCode <sup>24.8</sup>
+
+Nová třída [LowCode.Converter](https://reference.aspose.com/words/net/aspose.words.lowcode/converter/), navržená tak, aby poskytovala sadu metod pro převod různých typů dokumentů pomocí jediného řádku kód, byl zaveden.
 
 ### Hledat a porovnat
 
@@ -77,6 +95,9 @@ Byla přidána možnost zefektivnit pracovní postupy analýzy dat pomocí vylep
 * LINQ Reporting Engine byl vylepšen. Bylo provedeno selektivní odstranění prázdných odstavců a definice vlastních zpráv pro chybějící členy objektu, což vedlo k čistším a informativnějším zprávám. <sup>24.6</sup>
 * Formát data a času je nyní automaticky detekován pro bezproblémový export do formátu XLSX. <sup>24.7</sup>
 * Byla přidána veřejná vlastnost [IsProtected] (https://reference.aspose.com/words/net/aspose.words.vba/vbaproject/isprotected/), která vám umožňuje ověřit, zda je projekt VBA chráněn. <sup>24.7</sup>
+* Informace o písmech byly rozšířeny o vlastnost EmbeddingLicensingRights přidanou do [FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/) a [PhysicalFontInfo](https://reference .aspose.com/words/net/aspose.words.fonts/physicalfontinfo/). <sup>24.8</sup>
+* Pro přesnější práci se strukturou dokumentu byl přidán způsob, jak efektivně vyčistit záhlaví a zápatí oddílů při zachování vodoznaků. Chcete-li vymazat záhlaví a zápatí sekcí, použijte novou veřejnou metodu [ClearHeadersFooters](https://reference.aspose.com/words/net/aspose.words/section/clearheadersfooters/). <sup>24.8</sup>
+* Bylo povoleno digitální podepisování dokumentů XPS pomocí [XpsSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xpssaveoptions/) – nová vlastnost [DigitalSignatureDetails](https://reference Pro tento účel byl přidán soubor .aspose.com/words/net/aspose.words.saving/xpssaveoptions/digitalsignaturedetails/). <sup>24.8</sup>
 
 {{% alert color="primary" %}}
 
@@ -85,6 +106,8 @@ Další informace o [Aspose.Words for .NET 24.5 Release Notes](https://releases.
 Další informace o [Aspose.Words for .NET 24.6 Release Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-6-release-notes/).
 
 Další informace o [Aspose.Words for .NET 24.7 Release Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-7-release-notes/).
+
+Další informace o [Aspose.Words for .NET 24.8 Release Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-8-release-notes/).
 
 {{% /alert %}}
 

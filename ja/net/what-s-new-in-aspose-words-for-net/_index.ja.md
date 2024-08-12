@@ -11,13 +11,15 @@ url: /ja/net/what-s-new-in-aspose-words-for-net/
 
 このページでは、最近のリリースで導入された最も興味深い Aspose.Words の新機能について説明します。
 
-## Aspose.Words for .NET 24.5、24.6、24.7
+## Aspose.Words for .NET 24.5、24.6、24.7、24.8
 
 Aspose.Words 24.5 では、アセンブリのオプションが拡張され、レンダリング機能が向上し、その他のオプションも拡張されています。
 
 Aspose.Words 24.6 では、レンダリング オプションが向上し、検索および比較機能が強化され、その他の機能が拡張されています。
 
 Aspose.Words 24.7 では、ActiveX の操作方法が変更され、レンダリング機能が拡張され、Markdown および XLSX 形式へのエクスポートも可能になりました。
+
+Aspose.Words 24.8 では、軸ラベルを正確に制御してグラフのカスタマイズを強化し、フォント管理を拡張し、ドキュメント構造の処理を改善し、HTML/XAML エクスポート、PDF 機能、ドキュメント変換、デジタル署名の新機能が追加されています。
 
 ### サポートされている形式
 
@@ -56,16 +58,30 @@ Aspose.Words 24.7 では、ActiveX の操作方法が変更され、レンダリ
 #### ActiveX の操作に関する変更 <sup>24.7</sup>
 
 * ActiveX オブジェクトのプロパティを変更できるようになり、その動作をより細かく制御できるようになりました。
-
 * ラジオ ボタン ActiveX コントロールの値を変更して動的な操作を有効にする機能が追加されました。
-
 * ActiveX チェックボックスを「オン」または「オフ」に切り替える機能が追加されました。
 
-### ドキュメントの読み込みと保存
+#### グラフ軸目盛りラベルの向きと回転の制御 <sup>24.8</sup>
+
+グラフ軸目盛りラベルの向きと回転を正確に制御できるようになり、グラフのカスタマイズがさらに便利になりました。[AxisTickLabels](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/) クラスが拡張され、新しい [Orientation](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/orientation/) プロパティと [Rotation](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/rotation/) プロパティが追加されました。
+
+#### バックスラッシュを円記号に置き換える <sup>24.8</sup>
+
+バックスラッシュ文字を円記号に置き換えるための下位互換性のある HTML および XAML エクスポートが改善されました。これを実現するために、[HtmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/) および [XamlFlowSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xamlflowsaveoptions/) クラスに **ReplaceBackslashWithYenSign** プロパティが追加されました。
+
+#### PDF へのエクスポート時に SDT タグをフォーム フィールド名として使用する <sup>24.8</sup>
+
+SDT タグをフォーム フィールド名として使用するサポートを備えた PDF エクスポートが強化され、[PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/usesdttagasformfieldname/) プロパティが [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) クラスに追加されました。
+
+### ドキュメントの変換、読み込み、保存
 
 #### リンクを Markdown 形式にエクスポート <sup>24.7</sup>
 
 [LinkExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/linkexportmode/) プロパティの実装により、Markdown 形式でのリンクのエクスポートを制御する機能が追加されました。
+
+#### LowCode <sup>24.8</sup>
+
+1 行のコードでさまざまなドキュメント タイプを変換するための一連のメソッドを提供するように設計された新しい [LowCode.Converter](https://reference.aspose.com/words/net/aspose.words.lowcode/converter/) クラスが導入されました。
 
 ### 検索と比較
 
@@ -81,6 +97,9 @@ Aspose.Words 24.7 では、ActiveX の操作方法が変更され、レンダリ
 * LINQ レポート エンジンが改良されました。空の段落を選択的に削除し、欠落しているオブジェクト メンバーのカスタム メッセージを定義することで、よりわかりやすく、より情報量の多いレポートを実現しました。<sup>24.6</sup>
 * XLSX 形式へのシームレスなエクスポートのために、日時形式が自動的に検出されるようになりました。 <sup>24.7</sup>
 * VBA プロジェクトが保護されているかどうかを確認できるパブリック プロパティ [IsProtected](https://reference.aspose.com/words/net/aspose.words.vba/vbaproject/isprotected/) が追加されました。<sup>24.7</sup>
+* フォント情報が拡張され、[FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/) クラスと [PhysicalFontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/physicalfontinfo/) クラスに EmbeddingLicensingRights プロパティが追加されました。 <sup>24.8</sup>
+* ドキュメント構造をより正確に操作するために、透かしを保持しながらセクション ヘッダーとフッターを効率的にクリアする方法が追加されました。セクション ヘッダーとフッターをクリアするには、新しいパブリック メソッド [ClearHeadersFooters](https://reference.aspose.com/words/net/aspose.words/section/clearheadersfooters/) を使用します。<sup>24.8</sup>
+* [XpsSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xpssaveoptions/) を使用した XPS ドキュメントのデジタル署名が有効になりました。この目的のために、新しいプロパティ [DigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/xpssaveoptions/digitalsignaturedetails/) が追加されました。<sup>24.8</sup>
 
 {{% alert color="primary" %}}
 
@@ -89,6 +108,8 @@ Aspose.Words 24.7 では、ActiveX の操作方法が変更され、レンダリ
 詳細については、[Aspose.Words for .NET 24.6 リリース ノート](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-6-release-notes) をご覧ください。
 
 詳細については、[Aspose.Words for .NET 24.7 リリース ノート](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-7-release-notes) をご覧ください。
+
+詳細については、[Aspose.Words for .NET 24.8 リリース ノート](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-8-release-notes) をご覧ください。
 
 {{% /alert %}}
 

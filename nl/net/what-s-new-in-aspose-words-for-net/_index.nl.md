@@ -11,13 +11,15 @@ url: /nl/net/what-s-new-in-aspose-words-for-net/
 
 Deze pagina beschrijft de meest interessante nieuwe Aspose.Words features geïntroduceerd in recente releases.
 
-## Aspose.Words voor .NET 24.5, 24.6, 24.7
+## Aspose.Words voor .NET 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 breidt de opties voor samenstellingen uit, verbetert de weergavemogelijkheden en breidt enkele andere opties uit.
 
 Aspose.Words 24.6 verbetert de weergaveopties, verbetert de zoek- en vergelijkfunctionaliteit en breidt verschillende andere functies uit.
 
 Aspose.Words 24.7 verandert de manier waarop u met ActiveX werkt, breidt de weergavemogelijkheden uit en exporteert naar Markdown- en XLSX-formaten.
+
+Aspose.Words 24.8 verbetert de aanpassing van grafieken met nauwkeurige controle over aslabels, breidt lettertypebeheer uit, verbetert de verwerking van documentstructuren en voegt nieuwe mogelijkheden toe voor HTML/XAML-export, PDF-functionaliteit, documentconversie en digitale handtekeningen.
 
 ### Ondersteunde formaten
 
@@ -57,11 +59,27 @@ Er is een setter voor de openbare eigenschap [CustomNumberStyleFormat](https://r
 * De mogelijkheid om de waarde van het ActiveX-besturingselement met keuzerondjes te wijzigen om dynamische interactie mogelijk te maken, is toegevoegd.
 * De mogelijkheid om een ​​ActiveX-selectievakje in of uit te schakelen is toegevoegd.
 
-### Documenten laden en opslaan
+#### Controle over de oriëntatie en rotatie van de vinklabels van de grafiekas <sup>24.8</sup>
+
+Nauwkeurige controle over de oriëntatie en rotatie van de vinklabels van de grafiekas is toegevoegd voor een handigere aanpassing van de grafiek: de klasse [AxisTickLabels](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/) is uitgebreid met nieuwe eigenschappen [Orientation](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/orientation/) en [Rotation](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/rotation/).
+
+#### Backslash vervangen door Yen-teken <sup>24.8</sup>
+
+De achterwaarts compatibele HTML- en XAML-export voor het vervangen van het backslash-teken door het Yen-teken is verbeterd. Om dit te bereiken, is de eigenschap **ReplaceBackslashWithYenSign** toegevoegd aan de klassen [HtmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/) en [XamlFlowSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xamlflowsaveoptions/).
+
+#### SDT-tags gebruiken als formulierveldnamen bij exporteren naar PDF <sup>24.8</sup>
+
+PDF-export met ondersteuning voor het gebruik van SDT-tags als formulierveldnamen is verbeterd door een nieuwe eigenschap [UseSdtTagAsFormFieldName](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/usesdttagasformfieldname/) toe te voegen aan de klasse [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/).
+
+### Documenten converteren, laden en opslaan
 
 #### Links exporteren naar Markdown-formaat <sup>24.7</sup>
 
 De mogelijkheid om de export van links in Markdown-indeling te beheren is toegevoegd door de implementatie van de eigenschap [LinkExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/linkexportmode/).
+
+#### LowCode <sup>24.8</sup>
+
+Er is een nieuwe klasse [LowCode.Converter](https://reference.aspose.com/words/net/aspose.words.lowcode/converter/) geïntroduceerd, die is ontworpen om een ​​set methoden te bieden voor het converteren van verschillende documenttypen met één regel code.
 
 ### Zoek en vergelijk
 
@@ -77,6 +95,9 @@ De mogelijkheid om workflows voor gegevensanalyse te stroomlijnen met verbeterde
 * De LINQ Reporting Engine is verbeterd. Er zijn selectieve verwijdering van lege alinea's en definitie van aangepaste berichten voor ontbrekende objectleden doorgevoerd, wat leidt tot schonere en informatievere rapporten. <sup>24.6</sup>
 * Het datetime-formaat wordt nu automatisch gedetecteerd voor naadloze export naar XLSX-formaat. <sup>24.7</sup>
 * De publieke eigenschap [IsProtected](https://reference.aspose.com/words/net/aspose.words.vba/vbaproject/isprotected/), waarmee u kunt verifiëren of een VBA-project beveiligd is, is toegevoegd. <sup>24.7</sup>
+* De lettertype-informatie is uitgebreid met de eigenschap EmbeddingLicensingRights die is toegevoegd aan de klassen [FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/) en [PhysicalFontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/physicalfontinfo/). <sup>24.8</sup>
+* Er is een manier toegevoegd om sectiekopteksten en -voetteksten efficiënt te wissen en tegelijkertijd watermerken te behouden, zodat er nauwkeuriger met de documentstructuur kan worden gewerkt. Gebruik de nieuwe openbare methode [ClearHeadersFooters](https://reference.aspose.com/words/net/aspose.words/section/clearheadersfooters/) om sectiekopteksten en -voetteksten te wissen. <sup>24.8</sup>
+* Digitale ondertekening van XPS-documenten met [XpsSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xpssaveoptions/) is ingeschakeld. Hiervoor is een nieuwe eigenschap [DigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/xpssaveoptions/digitalsignaturedetails/) toegevoegd. <sup>24.8</sup>
 
 {{% alert color="primary" %}}
 
@@ -85,6 +106,8 @@ Meer informatie over [Aspose.Words voor .NET 24.5 Release-opmerkingen](https://r
 Meer informatie over [Aspose.Words voor .NET 24.6 Release-opmerkingen](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-6-release-notes/).
 
 Meer informatie over [Aspose.Words voor .NET 24.7 Release-opmerkingen](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-7-release-notes/).
+
+Meer informatie over [Aspose.Words voor .NET 24.8 Release-opmerkingen](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-8-release-notes/).
 
 {{% /alert %}}
 

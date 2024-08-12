@@ -11,13 +11,15 @@ url: /ja/python-net/what-s-new-in-aspose-words-for-python-net/
 
 このページでは、最近のリリースで導入された最も興味深い新しい Aspose.Words 機能について説明します。
 
-## Python via .NET 24.5、24.6、24.7 の Aspose.Words
+## Aspose.Words for Python via .NET 24.5、24.6、24.7、24.8
 
 Aspose.Words 24.5 では、アセンブリのオプションが拡張され、レンダリング機能が向上し、その他のオプションも拡張されています。
 
 Aspose.Words 24.6 では、レンダリング オプションが向上し、検索および比較機能が強化され、その他の機能が拡張されています。
 
 Aspose.Words 24.7 では、ActiveX の操作方法が変更され、レンダリング機能が拡張され、Markdown および XLSX 形式へのエクスポートも可能になりました。
+
+Aspose.Words 24.8 では、軸ラベルを正確に制御してグラフのカスタマイズを強化し、フォント管理を拡張し、ドキュメント構造の処理を改善し、HTML/XAML エクスポート、PDF 機能、ドキュメント変換、デジタル署名の新しい機能を追加しました。
 
 ### サポートされている形式
 
@@ -55,11 +57,27 @@ Aspose.Words 24.7 では、ActiveX の操作方法が変更され、レンダリ
 
 * ActiveX チェックボックスを「オン」または「オフ」に切り替える機能が追加されました。
 
-### ドキュメントの読み込みと保存
+#### グラフ軸目盛りラベルの方向と回転の制御 <sup>24.8</sup>
+
+グラフ軸目盛りラベルの方向と回転を正確に制御できるようになり、グラフのカスタマイズがさらに便利になりました。AxisTickLabels クラスが新しい Orientation プロパティと Rotation プロパティで拡張されました。
+
+#### 円記号へのバックスラッシュの置き換え <sup>24.8</sup>
+
+バックスラッシュ文字を円記号に置き換えるための下位互換性のある HTML および XAML エクスポートが改善されました。これを実現するために、ReplaceBackslashWithYenSign プロパティが HtmlSaveOptions クラスと XamlFlowSaveOptions クラスに追加されました。
+
+#### PDF へのエクスポート時に SDT タグをフォーム フィールド名として使用する <sup>24.8</sup>
+
+SDT タグをフォーム フィールド名として使用するサポートを備えた PDF エクスポートが、PdfSaveOptions クラスに新しい UseSdtTagAsFormFieldName プロパティを追加することで強化されました。
+
+### ドキュメントの変換、読み込み、保存
 
 #### リンクを Markdown 形式にエクスポート <sup>24.7</sup>
 
 [link_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/link_export_mode/) プロパティの実装により、Markdown 形式でのリンクのエクスポートを制御する機能が追加されました。
+
+#### LowCode <sup>24.8</sup>
+
+1 行のコードでさまざまなドキュメント タイプを変換するための一連のメソッドを提供するように設計された新しい LowCode.Converter クラスが導入されました。
 
 ### 検索と比較
 
@@ -75,6 +93,9 @@ Aspose.Words 24.7 では、ActiveX の操作方法が変更され、レンダリ
 * LINQ レポート エンジンが改良されました。空の段落を選択的に削除し、欠落しているオブジェクト メンバーのカスタム メッセージを定義することで、よりわかりやすく、より情報量の多いレポートを実現しました。<sup>24.6</sup>
 * XLSX 形式へのシームレスなエクスポートのために、日時形式が自動的に検出されるようになりました。 <sup>24.7</sup>
 * VBA プロジェクトが保護されているかどうかを確認できるパブリック プロパティ [is_protected](https://reference.aspose.com/words/python-net/aspose.words.vba/vbaproject/is_protected/) が追加されました。<sup>24.7</sup>
+* フォント情報が拡張され、FontInfo クラスと PhysicalFontInfo クラスに EmbeddingLicensingRights プロパティが追加されました。 <sup>24.8</sup>
+* ドキュメント構造をより正確に処理するために、透かしを保持しながらセクション ヘッダーとフッターを効率的にクリアする方法が追加されました。セクション ヘッダーとフッターをクリアするには、新しいパブリック メソッド ClearHeadersFooters を使用します。 <sup>24.8</sup>
+* XpsSaveOptions を使用した XPS ドキュメントのデジタル署名が有効になりました。この目的のために、新しいプロパティ DigitalSignatureDetails が追加されました。<sup>24.8</sup>
 
 {{% alert color="primary" %}}
 
@@ -83,6 +104,8 @@ Aspose.Words 24.7 では、ActiveX の操作方法が変更され、レンダリ
 [Aspose.Words for Python via .NET 24.6 リリースノート](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-6-release-notes/) について詳しくは、こちらをご覧ください。
 
 [Aspose.Words for Python via .NET 24.7 リリースノート](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-7-release-notes/) について詳しくは、こちらをご覧ください。
+
+[Aspose.Words for Python via .NET 24.8 リリースノート](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-8-release-notes/) について詳しくは、こちらをご覧ください。
 
 {{% /alert %}}
 

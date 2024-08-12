@@ -11,13 +11,15 @@ url: /it/net/what-s-new-in-aspose-words-for-net/
 
 Questa pagina descrive le nuove funzionalità Aspose.Words più interessanti introdotte nelle versioni recenti.
 
-## Aspose.Words per .NET 24.5, 24.6, 24.7
+## Aspose.Words per .NET 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 espande le opzioni per gli assiemi, migliora le capacità di rendering ed espande alcune altre opzioni.
 
 Aspose.Words 24.6 migliora le opzioni di rendering, migliora le funzionalità di ricerca e confronto ed espande molte altre funzionalità.
 
 Aspose.Words 24.7 cambia il modo in cui lavori con ActiveX, espande le capacità di rendering e l'esportazione nei formati Markdown e XLSX.
+
+Aspose.Words 24.8 migliora la personalizzazione dei grafici con un controllo preciso sulle etichette degli assi, espande la gestione dei font, migliora la gestione della struttura dei documenti e aggiunge nuove funzionalità per l'esportazione HTML/XAML, funzionalità PDF, conversione dei documenti e firme digitali.
 
 ### Formati supportati
 
@@ -57,11 +59,27 @@ Gli assembly .NET 7.0/8.0 sono stati inclusi nel pacchetto Aspose.Words NuGet.
 * È stata aggiunta la possibilità di modificare il valore del controllo ActiveX del pulsante di opzione per abilitare l'interazione dinamica.
 * È stata aggiunta la possibilità di impostare una casella di controllo ActiveX su "selezionata" o "deselezionata".
 
-### Caricamento e salvataggio di documenti
+#### Controllo sull'orientamento e la rotazione delle etichette di spunta degli assi del grafico <sup>24.8</sup>
+
+È stato aggiunto un controllo preciso sull'orientamento e la rotazione delle etichette di spunta degli assi del grafico per una personalizzazione più comoda del grafico: la classe [AxisTickLabels](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/) è stata estesa con le nuove proprietà [Orientation](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/orientation/) e [Rotation](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/rotation/).
+
+#### Sostituzione della barra rovesciata con il simbolo dello yen <sup>24.8</sup>
+
+L'esportazione HTML e XAML retrocompatibile per la sostituzione del carattere barra rovesciata con il simbolo dello yen è stata migliorata. Per ottenere questo risultato, la proprietà **ReplaceBackslashWithYenSign** è stata aggiunta alle classi [HtmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/) e [XamlFlowSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xamlflowsaveoptions/).
+
+#### Utilizzo di tag SDT come nomi di campi modulo durante l'esportazione in PDF <sup>24.8</sup>
+
+L'esportazione PDF con supporto per l'utilizzo di tag SDT come nomi di campi modulo è stata migliorata aggiungendo una nuova proprietà [UseSdtTagAsFormFieldName](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/usesdttagasformfieldname/) alla classe [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/).
+
+### Conversione, caricamento e salvataggio di documenti
 
 #### Esportazione dei collegamenti nel formato Markdown <sup>24.7</sup>
 
 È stata aggiunta la possibilità di controllare l'esportazione dei collegamenti in formato Markdown tramite l'implementazione della proprietà [LinkExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/linkexportmode/).
+
+#### LowCode <sup>24.8</sup>
+
+È stata introdotta una nuova classe [LowCode.Converter](https://reference.aspose.com/words/net/aspose.words.lowcode/converter/), progettata per fornire un set di metodi per convertire vari tipi di documenti con una singola riga di codice.
 
 ### Cerca e confronta
 
@@ -77,6 +95,9 @@ Gli assembly .NET 7.0/8.0 sono stati inclusi nel pacchetto Aspose.Words NuGet.
 * Il motore di reporting LINQ è stato migliorato. Sono state effettuate la rimozione selettiva dei paragrafi vuoti e la definizione di messaggi personalizzati per i membri degli oggetti mancanti, portando a report più chiari e informativi. <sup>24.6</sup>
 * Il formato data/ora viene ora rilevato automaticamente per un'esportazione senza interruzioni nel formato XLSX. <sup>24.7</sup>
 * È stata aggiunta la proprietà pubblica [IsProtected](https://reference.aspose.com/words/net/aspose.words.vba/vbaproject/isprotected/), che consente di verificare se un progetto VBA è protetto. <sup>24.7</sup>
+* Le informazioni sui font sono state ampliate con la proprietà EmbeddingLicensingRights aggiunta alle classi [FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/) e [PhysicalFontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/physicalfontinfo/). <sup>24.8</sup>
+* È stato aggiunto un modo per cancellare in modo efficiente intestazioni e piè di pagina di sezione preservando le filigrane per lavorare in modo più accurato con la struttura del documento. Per cancellare le intestazioni e i piè di pagina delle sezioni, utilizzare il nuovo metodo pubblico [ClearHeadersFooters](https://reference.aspose.com/words/net/aspose.words/section/clearheadersfooters/). <sup>24.8</sup>
+* La firma digitale dei documenti XPS tramite [XpsSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xpssaveoptions/) è stata abilitata: è stata aggiunta una nuova proprietà [DigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/xpssaveoptions/digitalsignaturedetails/) a questo scopo. <sup>24.8</sup>
 
 {{% alert color="primary" %}}
 
@@ -85,6 +106,8 @@ Ulteriori informazioni su [Note sulla versione Aspose.Words per .NET 24.5](https
 Ulteriori informazioni su [Note sulla versione Aspose.Words per .NET 24.6](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-6-release-notes/).
 
 Ulteriori informazioni su [Note sulla versione Aspose.Words per .NET 24.7](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-7-release-notes/).
+
+Ulteriori informazioni su [Note sulla versione Aspose.Words per .NET 24.8](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-8-release-notes/).
 
 {{% /alert %}}
 

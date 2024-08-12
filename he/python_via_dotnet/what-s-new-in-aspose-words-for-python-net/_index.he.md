@@ -11,13 +11,15 @@ url: /he/python-net/what-s-new-in-aspose-words-for-python-net/
 
 דף זה מתאר את החדש המעניין ביותר Aspose.Words תכונות שהוצגו במהדורות האחרונות.
 
-## Aspose.Words עבור Python via .NET 24.5, 24.6, 24.7
+## Aspose.Words עבור Python via .NET 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 מרחיב אפשרויות למכלולים, משפר את יכולות העיבוד ומרחיב כמה אפשרויות אחרות.
 
 Aspose.Words 24.6 משפר את אפשרויות העיבוד, משפר את פונקציונליות החיפוש וההשוואה ומרחיב מספר תכונות אחרות.
 
 Aspose.Words 24.7 משנה את אופן העבודה עם ActiveX, מרחיב את יכולות העיבוד, כמו גם ייצוא לפורמטים Markdown ו-XLSX.
+
+Aspose.Words 24.8 משפר התאמה אישית של תרשים עם שליטה מדויקת על תוויות ציר, מרחיב את ניהול הגופנים, משפר את הטיפול במבנה המסמכים ומוסיף יכולות חדשות ליצוא HTML/XAML, פונקציונליות PDF, המרת מסמכים וחתימות דיגיטליות.
 
 ### פורמטים נתמכים
 
@@ -53,11 +55,27 @@ Aspose.Words 24.7 משנה את אופן העבודה עם ActiveX, מרחיב �
 * נוספה היכולת לשנות את הערך של כפתור הבחירה ActiveX כדי לאפשר אינטראקציה דינמית.
 * נוספה היכולת להעביר תיבת סימון של ActiveX ל"מסומנת" או "לא מסומנת".
 
-### טעינה ושמירה של מסמכים
+#### שליטה על ציר התרשים תוויות תווית כיוון וסיבוב <sup>24.8</sup>
+
+שליטה מדויקת על הכיוון והסיבוב של תוויות ציר תרשים נוספה להתאמה אישית נוחה יותר של תרשים - מחלקת AxisTickLabels הורחבה עם מאפייני כיוון וסיבוב חדשים.
+
+#### החלפת הנטוי האחורי בסימן הין <sup>24.8</sup>
+
+ייצוא HTML ו-XAML התואם לאחור להחלפת תו האחורי בסימן Yen שופר. כדי להשיג זאת, המאפיין ReplaceBackslashWithYenSign נוסף למחלקות HtmlSaveOptions ו-XamlFlowSaveOptions.
+
+#### שימוש בתגי SDT בתור שמות שדות טופס בעת ייצוא ל-PDF <sup>24.8</sup>
+
+ייצוא PDF עם תמיכה בשימוש בתגי SDT כשמות שדות טופס שופר על ידי הוספת מאפיין UseSdtTagAsFormFieldName חדש למחלקה PdfSaveOptions.
+
+### המרה, טעינה ושמירה של מסמכים
 
 #### ייצוא קישורים לפורמט Markdown <sup>24.7</sup>
 
 היכולת לשלוט בייצוא של קישורים בפורמט Markdown נוספה באמצעות יישום המאפיין [link_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/link_export_mode/).
+
+#### LowCode <sup>24.8</sup>
+
+הוצגה מחלקה חדשה LowCode.Converter, שנועדה לספק סט של שיטות להמרת סוגי מסמכים שונים באמצעות שורת קוד אחת.
 
 ### חפש והשווה
 
@@ -73,6 +91,9 @@ Aspose.Words 24.7 משנה את אופן העבודה עם ActiveX, מרחיב �
 * מנוע הדיווח LINQ שופר. בוצעו הסרה סלקטיבית של פסקאות ריקות והגדרה של הודעות מותאמות אישית עבור חברי אובייקט חסרים, מה שהוביל לדוחות נקיים ואינפורמטיביים יותר. <sup>24.6</sup>
 * פורמט התאריך והשעה מזוהה כעת באופן אוטומטי לייצוא חלק לפורמט XLSX. <sup>24.7</sup>
 * הנכס הציבורי [is_protected](https://reference.aspose.com/words/python-net/aspose.words.vba/vbaproject/is_protected/), המאפשר לך לוודא אם פרויקט VBA מוגן, נוסף. <sup>24.7</sup>
+* מידע הגופנים הורחב עם המאפיין EmbeddingLicensingRights שהתווסף למחלקות FontInfo ו-PhysicalFontInfo. <sup>24.8</sup>
+* דרך לנקות ביעילות כותרות עליונות ותחתונות של מקטעים תוך שמירה על סימני מים נוספה לעבודה מדויקת יותר עם מבנה המסמך. כדי לנקות כותרות עליונות ותחתונות של סעיפים, השתמש בשיטה הציבורית החדשה ClearHeadersFooters. <sup>24.8</sup>
+* הופעלה חתימה דיגיטלית של מסמכי XPS באמצעות XpsSaveOptions - מאפיין חדש DigitalSignatureDetails נוסף למטרה זו. <sup>24.8</sup>
 
 {{% alert color="primary" %}}
 
@@ -81,6 +102,8 @@ Aspose.Words 24.7 משנה את אופן העבודה עם ActiveX, מרחיב �
 למד עוד על [Aspose.Words עבור Python via .NET 24.6 הודעות](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-6-release-notes/).
 
 למד עוד על [Aspose.Words עבור Python via .NET 24.7 הודעות](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-7-release-notes/).
+
+למד עוד על [Aspose.Words עבור Python via .NET 24.8 הודעות](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-8-release-notes/).
 
 {{% /alert %}}
 

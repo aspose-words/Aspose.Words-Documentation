@@ -11,13 +11,15 @@ url: /nl/python-net/what-s-new-in-aspose-words-for-python-net/
 
 Deze pagina beschrijft de meest interessante nieuwe Aspose.Words features geïntroduceerd in recente releases.
 
-## Aspose.Words voor Python via .NET 24.5, 24.6, 24.7
+## Aspose.Words voor Python via .NET 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 breidt de opties voor samenstellingen uit, verbetert de weergavemogelijkheden en breidt enkele andere opties uit.
 
 Aspose.Words 24.6 verbetert de weergaveopties, verbetert de zoek- en vergelijkfunctionaliteit en breidt verschillende andere functies uit.
 
 Aspose.Words 24.7 verandert de manier waarop u met ActiveX werkt, breidt de weergavemogelijkheden uit en exporteert naar Markdown- en XLSX-formaten.
+
+Aspose.Words 24.8 verbetert de aanpassing van grafieken met nauwkeurige controle over aslabels, breidt lettertypebeheer uit, verbetert de verwerking van documentstructuren en voegt nieuwe mogelijkheden toe voor HTML/XAML-export, PDF-functionaliteit, documentconversie en digitale handtekeningen.
 
 ### Ondersteunde formaten
 
@@ -53,11 +55,27 @@ Er is een setter voor de openbare eigenschap [custom_number_style_format](https:
 * De mogelijkheid om de waarde van het ActiveX-besturingselement met keuzerondjes te wijzigen om dynamische interactie mogelijk te maken, is toegevoegd.
 * De mogelijkheid om een ​​ActiveX-selectievakje in of uit te schakelen is toegevoegd.
 
-### Documenten laden en opslaan
+#### Controle over de oriëntatie en rotatie van de vinklabels van de grafiekas <sup>24.8</sup>
+
+Nauwkeurige controle over de oriëntatie en rotatie van de vinklabels van de grafiekas is toegevoegd voor een gemakkelijkere aanpassing van de grafiek – de klasse AxisTickLabels is uitgebreid met nieuwe eigenschappen voor oriëntatie en rotatie.
+
+#### De backslash vervangen door het Yen-teken <sup>24.8</sup>
+
+De achterwaarts compatibele HTML- en XAML-export voor het vervangen van het backslash-teken door het Yen-teken is verbeterd. Om dit te bereiken is de eigenschap ReplaceBackslashWithYenSign toegevoegd aan de klassen HtmlSaveOptions en XamlFlowSaveOptions.
+
+#### SDT-tags gebruiken als formulierveldnamen bij exporteren naar PDF <sup>24.8</sup>
+
+PDF-export met ondersteuning voor het gebruik van SDT-tags als formulierveldnamen is verbeterd door een nieuwe eigenschap UseSdtTagAsFormFieldName toe te voegen aan de klasse PdfSaveOptions.
+
+### Documenten converteren, laden en opslaan
 
 #### Links exporteren naar Markdown-formaat <sup>24.7</sup>
 
 De mogelijkheid om de export van links in Markdown-indeling te beheren is toegevoegd door de implementatie van de eigenschap [link_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/link_export_mode/).
+
+#### LowCode <sup>24.8</sup>
+
+Er is een nieuwe klasse LowCode.Converter geïntroduceerd, die is ontworpen om een ​​set methoden te bieden voor het converteren van verschillende documenttypen met één regel code.
 
 ### Zoek en vergelijk
 
@@ -73,6 +91,9 @@ De mogelijkheid om workflows voor gegevensanalyse te stroomlijnen met verbeterde
 * De LINQ Reporting Engine is verbeterd. Er zijn selectieve verwijdering van lege alinea's en definitie van aangepaste berichten voor ontbrekende objectleden doorgevoerd, wat leidt tot schonere en informatievere rapporten. <sup>24.6</sup>
 * Het datetime-formaat wordt nu automatisch gedetecteerd voor naadloze export naar XLSX-formaat. <sup>24.7</sup>
 * De publieke eigenschap [is_protected](https://reference.aspose.com/words/python-net/aspose.words.vba/vbaproject/is_protected/), waarmee u kunt verifiëren of een VBA-project beveiligd is, is toegevoegd. <sup>24.7</sup>
+* Lettertype-informatie is uitgebreid met de eigenschap EmbeddingLicensingRights die is toegevoegd aan de klassen FontInfo en PhysicalFontInfo. <sup>24.8</sup>
+* Er is een manier toegevoegd om sectiekopteksten en -voetteksten efficiënt te wissen en tegelijkertijd watermerken te behouden, zodat er nauwkeuriger met de documentstructuur kan worden gewerkt. Om sectiekopteksten en -voetteksten te wissen, gebruikt u de nieuwe openbare methode ClearHeadersFooters. <sup>24.8</sup>
+* Digitaal ondertekenen van XPS-documenten met XpsSaveOptions is ingeschakeld – een nieuwe eigenschap DigitalSignatureDetails is voor dit doel toegevoegd. <sup>24.8</sup>
 
 {{% alert color="primary" %}}
 
@@ -81,6 +102,8 @@ Meer informatie over [Aspose.Words voor Python via .NET 24.5 Release Notes](http
 Meer informatie over [Aspose.Words voor Python via .NET 24.6 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-6-release-notes/).
 
 Meer informatie over [Aspose.Words voor Python via .NET 24.7 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-7-release-notes/).
+
+Meer informatie over [Aspose.Words voor Python via .NET 24.8 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-8-release-notes/).
 
 {{% /alert %}}
 

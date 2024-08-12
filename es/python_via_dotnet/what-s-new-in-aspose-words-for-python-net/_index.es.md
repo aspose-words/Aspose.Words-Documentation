@@ -11,13 +11,15 @@ url: /es/python-net/what-s-new-in-aspose-words-for-python-net/
 
 Esta página describe las nuevas funciones Aspose.Words más interesantes introducidas en versiones recientes.
 
-## Aspose.Words para Python via .NET 24.5, 24.6, 24.7
+## Aspose.Words para Python via .NET 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 amplía las opciones para ensamblajes, mejora las capacidades de renderizado y amplía algunas otras opciones.
 
 Aspose.Words 24.6 mejora las opciones de renderizado, mejora la funcionalidad de búsqueda y comparación y amplía varias otras funciones.
 
 Aspose.Words 24.7 cambia la forma de trabajar con ActiveX, amplía las capacidades de renderizado y exporta a formatos Markdown y XLSX.
+
+Aspose.Words 24.8 mejora la personalización de gráficos con un control preciso sobre las etiquetas de los ejes, amplía la gestión de fuentes, mejora el manejo de la estructura de los documentos y añade nuevas capacidades para la exportación HTML/XAML, la funcionalidad PDF, la conversión de documentos y las firmas digitales.
 
 ### Formatos admitidos
 
@@ -53,11 +55,27 @@ Se ha agregado un definidor para la propiedad pública [custom_number_style_form
 * Se ha agregado la capacidad de modificar el valor del control ActiveX del botón de opción para habilitar la interacción dinámica.
 * Se ha agregado la capacidad de alternar una casilla de verificación ActiveX entre "marcada" o "desmarcada".
 
-### Cargar y guardar documentos
+#### Control sobre la orientación y la rotación de las etiquetas de las marcas de los ejes de los gráficos <sup>24.8</sup>
+
+Se ha añadido un control preciso sobre la orientación y la rotación de las etiquetas de las marcas de los ejes de los gráficos para una personalización más cómoda de los gráficos: la clase AxisTickLabels se ha ampliado con nuevas propiedades de Orientación y Rotación.
+
+#### Reemplazo de la barra invertida por el signo del yen <sup>24.8</sup>
+
+Se ha mejorado la exportación HTML y XAML compatible con versiones anteriores para reemplazar el carácter de barra invertida por el signo del yen. Para lograrlo, se ha añadido la propiedad ReplaceBackslashWithYenSign a las clases HtmlSaveOptions y XamlFlowSaveOptions.
+
+#### Uso de etiquetas SDT como nombres de campos de formulario al exportar a PDF <sup>24.8</sup>
+
+La exportación a PDF con compatibilidad para el uso de etiquetas SDT como nombres de campos de formulario se ha mejorado agregando una nueva propiedad UseSdtTagAsFormFieldName a la clase PdfSaveOptions.
+
+### Conversión, carga y guardado de documentos
 
 #### Exportación de enlaces al formato Markdown <sup>24.7</sup>
 
 La capacidad de controlar la exportación de enlaces en formato Markdown se agregó mediante la implementación de la propiedad [link_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/link_export_mode/).
+
+#### LowCode <sup>24.8</sup>
+
+Se ha introducido una nueva clase LowCode.Converter, diseñada para proporcionar un conjunto de métodos para convertir varios tipos de documentos con una sola línea de código.
 
 ### Buscar y comparar
 
@@ -73,6 +91,9 @@ Se ha agregado la capacidad de optimizar los flujos de trabajo de análisis de d
 * Se ha mejorado el motor de informes LINQ. Se han realizado la eliminación selectiva de párrafos vacíos y la definición de mensajes personalizados para los miembros de objetos faltantes, lo que genera informes más limpios e informativos. <sup>24.6</sup>
 * El formato de fecha y hora ahora se detecta automáticamente para una exportación perfecta al formato XLSX. <sup>24.7</sup>
 * Se ha agregado la propiedad pública [is_protected](https://reference.aspose.com/words/python-net/aspose.words.vba/vbaproject/is_protected/), que le permite verificar si un proyecto VBA está protegido. <sup>24.7</sup>
+* La información de fuentes se ha ampliado con la propiedad EmbeddingLicensingRights agregada a las clases FontInfo y PhysicalFontInfo. <sup>24.8</sup>
+* Se ha agregado una forma de borrar de manera eficiente los encabezados y pies de página de las secciones mientras se conservan las marcas de agua para trabajar con mayor precisión con la estructura del documento. Para borrar los encabezados y pies de página de las secciones, utilice el nuevo método público ClearHeadersFooters. <sup>24.8</sup>
+* Se ha habilitado la firma digital de documentos XPS mediante XpsSaveOptions; se ha agregado una nueva propiedad DigitalSignatureDetails para este propósito. <sup>24.8</sup>
 
 {{% alert color="primary" %}}
 
@@ -81,6 +102,8 @@ Obtenga más información sobre [Notas de la versión Aspose.Words para Python v
 Obtenga más información sobre [Notas de la versión Aspose.Words para Python via .NET 24.6](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-6-release-notes/).
 
 Obtenga más información sobre [Notas de la versión Aspose.Words para Python via .NET 24.7](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-7-release-notes/).
+
+Obtenga más información sobre [Notas de la versión Aspose.Words para Python via .NET 24.8](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-8-release-notes/).
 
 {{% /alert %}}
 
