@@ -11,13 +11,15 @@ url: /he/net/what-s-new-in-aspose-words-for-net/
 
 דף זה מתאר את החדש המעניין ביותר Aspose.Words תכונות שהוצגו במהדורות האחרונות.
 
-## Aspose.Words עבור .NET 24.5, 24.6, 24.7
+## Aspose.Words עבור .NET 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 מרחיב אפשרויות למכלולים, משפר את יכולות העיבוד ומרחיב כמה אפשרויות אחרות.
 
 Aspose.Words 24.6 משפר את אפשרויות העיבוד, משפר את פונקציונליות החיפוש וההשוואה ומרחיב מספר תכונות אחרות.
 
 Aspose.Words 24.7 משנה את אופן העבודה עם ActiveX, מרחיב את יכולות העיבוד, כמו גם ייצוא לפורמטים Markdown ו-XLSX.
+
+Aspose.Words 24.8 משפר התאמה אישית של תרשים עם שליטה מדויקת על תוויות ציר, מרחיב את ניהול הגופנים, משפר את הטיפול במבנה המסמכים ומוסיף יכולות חדשות ליצוא HTML/XAML, פונקציונליות PDF, המרת מסמכים וחתימות דיגיטליות.
 
 ### פורמטים נתמכים
 
@@ -57,11 +59,27 @@ Aspose.Words 24.7 משנה את אופן העבודה עם ActiveX, מרחיב �
 * נוספה היכולת לשנות את הערך של כפתור הבחירה ActiveX כדי לאפשר אינטראקציה דינמית.
 * נוספה היכולת להעביר תיבת סימון של ActiveX ל"מסומנת" או "לא מסומנת".
 
-### טעינה ושמירה של מסמכים
+#### שליטה על ציר התרשים תוויות תווית כיוון וסיבוב <sup>24.8</sup>
+
+שליטה מדויקת על הכיוון והסיבוב של תוויות ציר תרשים נוספה להתאמה אישית נוחה יותר של תרשים - [AxisTickLabels](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/) הכיתה הוארכה עם [Orientation](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/orientation/) ו-[Rotation](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/rotation/).
+
+#### החלפת הנטוי האחורי בסימן הין <sup>24.8</sup>
+
+ייצוא HTML ו-XAML התואם לאחור להחלפת תו האחורי בסימן Yen שופר. כדי להשיג זאת, המאפיין **ReplaceBackslashWithYenSign** נוסף ל-[HtmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/) ו-[XamlFlowSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xamlflowsaveoptions/) מחלקות.
+
+#### שימוש בתגי SDT בתור שמות שדות טופס בעת ייצוא ל-PDF <sup>24.8</sup>
+
+ייצוא PDF עם תמיכה בשימוש בתגי SDT בתור שמות שדות טופס שופר על ידי הוספת מאפיין חדש [UseSdtTagAsFormFieldName](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/usesdttagasformfieldname/) אל המחלקה [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/).
+
+### המרה, טעינה ושמירה של מסמכים
 
 #### ייצוא קישורים לפורמט Markdown <sup>24.7</sup>
 
 היכולת לשלוט בייצוא של קישורים בפורמט Markdown נוספה באמצעות יישום המאפיין [LinkExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/linkexportmode/).
+
+#### LowCode <sup>24.8</sup>
+
+מחלקה חדשה [LowCode.Converter](https://reference.aspose.com/words/net/aspose.words.lowcode/converter/), שנועדה לספק קבוצה של שיטות להמרת סוגי מסמכים שונים עם שורה אחת של קוד, הוצג.
 
 ### חפש והשווה
 
@@ -77,6 +95,9 @@ Aspose.Words 24.7 משנה את אופן העבודה עם ActiveX, מרחיב �
 * מנוע הדיווח LINQ שופר. בוצעו הסרה סלקטיבית של פסקאות ריקות והגדרה של הודעות מותאמות אישית עבור חברי אובייקט חסרים, מה שהוביל לדוחות נקיים ואינפורמטיביים יותר. <sup>24.6</sup>
 * פורמט התאריך והשעה מזוהה כעת באופן אוטומטי לייצוא חלק לפורמט XLSX. <sup>24.7</sup>
 * הנכס הציבורי [IsProtected](https://reference.aspose.com/words/net/aspose.words.vba/vbaproject/isprotected/), המאפשר לך לוודא אם פרויקט VBA מוגן, נוסף. <sup>24.7</sup>
+* מידע הגופנים הורחב עם המאפיין **EmbeddingLicensingRights** שנוסף ל-[FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/) ו-[PhysicalFontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/physicalfontinfo/). <sup>24.8</sup>
+* דרך לנקות ביעילות כותרות עליונות ותחתונות של מקטעים תוך שמירה על סימני מים נוספה לעבודה מדויקת יותר עם מבנה המסמך. כדי לנקות כותרות עליונות ותחתונות של מקטעים, השתמש בשיטה הציבורית החדשה [ClearHeadersFooters](https://reference.aspose.com/words/net/aspose.words/section/clearheadersfooters/). <sup>24.8</sup>
+* חתימה דיגיטלית של מסמכי XPS באמצעות [XpsSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xpssaveoptions/) הופעלה - מאפיין חדש [DigitalSignatureDetails](https://reference .aspose.com/words/net/aspose.words.saving/xpssaveoptions/digitalsignaturedetails/) נוספה למטרה זו. <sup>24.8</sup>
 
 {{% alert color="primary" %}}
 
@@ -85,6 +106,8 @@ Aspose.Words 24.7 משנה את אופן העבודה עם ActiveX, מרחיב �
 למידע נוסף על [Aspose.Words for .NET 24.6 Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-6-release-notes/).
 
 למידע נוסף על [Aspose.Words for .NET 24.7 Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-7-release-notes/).
+
+למידע נוסף על [Aspose.Words for .NET 24.8 Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-8-release-notes/).
 
 {{% /alert %}}
 

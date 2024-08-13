@@ -11,13 +11,15 @@ url: /zh/python-net/what-s-new-in-aspose-words-for-python-net/
 
 本页描述了最近版本中引入的最有趣的新 Aspose.Words 功能。
 
-## Python via .NET 24.5、24.6、24.7 的 Aspose.Words
+## Python via .NET 24.5、24.6、24.7、24.8 的 Aspose.Words
 
 Aspose.Words 24.5 扩展了组件选项，改进了渲染功能，并扩展了一些其他选项。
 
 Aspose.Words 24.6 改进了渲染选项，增强了搜索和比较功能，并扩展了其他几个功能。
 
 Aspose.Words 24.7 改变了您使用 ActiveX 的方式，扩展了渲染功能，并支持导出为 Markdown 和 XLSX 格式。
+
+Aspose.Words 24.8 通过对轴标签的精确控制增强了图表自定义功能，扩展了字体管理，改进了文档结构处理，并增加了 HTML/XAML 导出、PDF 功能、文档转换和数字签名的新功能。
 
 ### 支持的格式
 
@@ -53,11 +55,27 @@ Aspose.Words 24.7 改变了您使用 ActiveX 的方式，扩展了渲染功能�
 * 添加了修改单选按钮 ActiveX 控件的值以启用动态交互的功能。
 * 添加了将 ActiveX 复选框切换为“选中”或“未选中”的功能。
 
-### 加载和保存文档
+#### 控制图表轴刻度标签方向和旋转 <sup>24.8</sup>
+
+已添加对图表轴刻度标签方向和旋转的精确控制，以便更方便地自定义图表 - [AxisTickLabels](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/) 类已扩展为新的 [orientation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/orientation/) 和 [rotation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/rotation/) 属性。
+
+#### 用日元符号替换反斜杠 <sup>24.8</sup>
+
+已改进向后兼容的 HTML 和 XAML 导出，用于用日元符号替换反斜杠字符。为此，已将 **replace_backslash_with_yen_sign** 属性添加到 [HtmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/) 和 [XamlFlowSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xamlflowsaveoptions/) 类。
+
+#### 导出为 PDF 时使用 SDT 标签作为表单字段名称 <sup>24.8</sup>
+
+通过向 [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) 类添加新的 [use_sdt_tag_as_form_field_name](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/use_sdt_tag_as_form_field_name/) 属性，增强了使用 SDT 标签作为表单字段名称的 PDF 导出功能。
+
+### 转换、加载和保存文档
 
 #### 将链接导出为 Markdown 格式 <sup>24.7</sup>
 
 通过实现 [link_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/link_export_mode/) 属性，添加了控制以 Markdown 格式导出链接的功能。
+
+#### LowCode <sup>24.8</sup>
+
+引入了新的 [LowCode.Converter](https://reference.aspose.com/words/python-net/aspose.words.lowcode/converter/) 类，旨在提供一组方法，通过一行代码即可转换各种文档类型。
 
 ### 搜索和比较
 
@@ -73,6 +91,9 @@ Aspose.Words 24.7 改变了您使用 ActiveX 的方式，扩展了渲染功能�
 * LINQ 报告引擎已得到改进。选择性删除了空段落，并为缺失的对象成员定义了自定义消息，从而生成了更清晰、更具信息量的报告。<sup>24.6</sup>
 * 现在可以自动检测日期时间格式，以便无缝导出为 XLSX 格式。 <sup>24.7</sup>
 * 添加了公共属性 [is_protected](https://reference.aspose.com/words/python-net/aspose.words.vba/vbaproject/is_protected/)，可用于验证 VBA 项目是否受保护。<sup>24.7</sup>
+* 扩展了字体信息，向 [FontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/) 和 [PhysicalFontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/physicalfontinfo/) 类添加了 **embedding_licensing_rights** 属性。<sup>24.8</sup>
+* 添加了一种有效清除节头和页脚同时保留水印的方法，以便更准确地处理文档结构。要清除节头和页脚，请使用新的公共方法 [clear_headers_footers](https://reference.aspose.com/words/python-net/aspose.words/section/clear_headers_footers/#default) <sup>24.8</sup>
+* 已启用使用 [XpsSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/) 对 XPS 文档进行数字签名的功能 - 为此添加了新属性 [digital_signature_details](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/digital_signature_details/)。<sup>24.8</sup>
 
 {{% alert color="primary" %}}
 
@@ -81,6 +102,8 @@ Aspose.Words 24.7 改变了您使用 ActiveX 的方式，扩展了渲染功能�
 了解有关 [Aspose.Words for Python via .NET 24.6 发行说明](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-6-release-notes/) 的更多信息。
 
 了解有关 [Aspose.Words for Python via .NET 24.7 发行说明](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-7-release-notes/) 的更多信息。
+
+了解有关 [Aspose.Words for Python via .NET 24.8 发行说明](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-8-release-notes/) 的更多信息。
 
 {{% /alert %}}
 

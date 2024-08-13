@@ -11,13 +11,15 @@ url: /ar/net/what-s-new-in-aspose-words-for-net/
 
 تصف هذه الصفحة ميزات Aspose.Words الجديدة الأكثر إثارة للاهتمام والتي تم تقديمها في الإصدارات الأخيرة.
 
-## Aspose.Words لـ .NET 24.5، 24.6، 24.7
+## Aspose.Words لـ .NET 24.5، 24.6، 24.7، 24.8
 
 يقوم Aspose.Words 24.5 بتوسيع خيارات التجميعات وتحسين قدرات العرض وتوسيع بعض الخيارات الأخرى.
 
 يعمل Aspose.Words 24.6 على تحسين خيارات العرض، وتعزيز وظائف البحث والمقارنة، وتوسيع العديد من الميزات الأخرى.
 
 يقوم Aspose.Words 24.7 بتغيير طريقة العمل مع ActiveX، ويوسع إمكانيات العرض، بالإضافة إلى التصدير إلى تنسيقات Markdown وXLSX.
+
+يعمل Aspose.Words 24.8 على تحسين تخصيص المخططات من خلال التحكم الدقيق في تسميات المحاور، وتوسيع إدارة الخطوط، وتحسين التعامل مع بنية المستندات، وإضافة إمكانيات جديدة لتصدير HTML/XAML، ووظائف PDF، وتحويل المستندات، والتوقيعات الرقمية.
 
 ### التنسيقات المدعومة
 
@@ -58,11 +60,27 @@ url: /ar/net/what-s-new-in-aspose-words-for-net/
 * تمت إضافة القدرة على تعديل قيمة زر التحكم ActiveX لتمكين التفاعل الديناميكي.
 * تمت إضافة القدرة على تبديل خانة اختيار ActiveX إلى "محدد" أو "غير محدد".
 
-### تحميل وحفظ المستندات
+#### التحكم في اتجاه وتدوير علامات محور الرسم البياني <sup>24.8</sup>
+
+تمت إضافة تحكم دقيق في اتجاه وتدوير علامات محور الرسم البياني لتسهيل تخصيص الرسم البياني بشكل أكثر ملاءمة - تم توسيع فئة [AxisTickLabels](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/) بخصائص [Orientation](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/orientation/) و[Rotation](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/rotation/) الجديدة.
+
+#### استبدال الشرطة المائلة للخلف بعلامة الين <sup>24.8</sup>
+
+تم تحسين التصدير المتوافق مع الإصدارات السابقة من HTML وXAML لاستبدال حرف الشرطة المائلة للخلف بعلامة الين. لتحقيق ذلك، تمت إضافة خاصية **ReplaceBackslashWithYenSign** إلى فئتي [HtmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/) و[XamlFlowSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xamlflowsaveoptions/).
+
+#### استخدام علامات SDT كأسماء لحقول النماذج عند التصدير إلى PDF <sup>24.8</sup>
+
+تم تحسين تصدير PDF مع دعم استخدام علامات SDT كأسماء لحقول النماذج من خلال إضافة خاصية جديدة [UseSdtTagAsFormFieldName](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/usesdttagasformfieldname/) إلى فئة [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/).
+
+### تحويل المستندات وتحميلها وحفظها
 
 #### تصدير الروابط إلى تنسيق Markdown <sup>24.7</sup>
 
 تمت إضافة القدرة على التحكم في تصدير الروابط بتنسيق Markdown من خلال تطبيق خاصية [LinkExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/linkexportmode/).
+
+#### LowCode <sup>24.8</sup>
+
+تم تقديم فئة جديدة [LowCode.Converter](https://reference.aspose.com/words/net/aspose.words.lowcode/converter/)، مصممة لتوفير مجموعة من الطرق لتحويل أنواع المستندات المختلفة بسطر واحد من التعليمات البرمجية.
 
 ### بحث ومقارنة
 
@@ -77,6 +95,9 @@ url: /ar/net/what-s-new-in-aspose-words-for-net/
 * تم تحسين محرك تقارير LINQ. تم إجراء إزالة انتقائية للفقرات الفارغة وتعريف الرسائل المخصصة لأعضاء الكائنات المفقودة، مما يؤدي إلى تقارير أكثر وضوحًا وإفادة. <sup>24.6</sup>
 * تم الآن اكتشاف تنسيق التاريخ والوقت تلقائيًا للتصدير السلس إلى تنسيق XLSX. <sup>24.7</sup>
 * تمت إضافة الخاصية العامة [IsProtected](https://reference.aspose.com/words/net/aspose.words.vba/vbaproject/isprotected/)، والتي تسمح لك بالتحقق مما إذا كان مشروع VBA محميًا أم لا. <sup>24.7</sup>
+* تم توسيع معلومات الخط بإضافة خاصية **EmbeddingLicensingRights** إلى فئتي [FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/) و[PhysicalFontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/physicalfontinfo/). <sup>24.8</sup>
+* تمت إضافة طريقة لمسح رؤوس وتذييلات الأقسام بكفاءة مع الحفاظ على العلامات المائية للعمل بشكل أكثر دقة مع بنية المستند. لمسح رؤوس وتذييلات الأقسام، استخدم الطريقة العامة الجديدة [ClearHeadersFooters](https://reference.aspose.com/words/net/aspose.words/section/clearheadersfooters/). <sup>24.8</sup>
+* تم تمكين التوقيع الرقمي لمستندات XPS باستخدام [XpsSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xpssaveoptions/) - تمت إضافة خاصية جديدة [DigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/xpssaveoptions/digitalsignaturedetails/) لهذا الغرض. <sup>24.8</sup>
 
 {{% alert color="primary" %}}
 
@@ -85,6 +106,8 @@ url: /ar/net/what-s-new-in-aspose-words-for-net/
 تعرف على المزيد حول [ملاحظات إصدار Aspose.Words for .NET 24.6](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-6-release-notes/).
 
 تعرف على المزيد حول [ملاحظات إصدار Aspose.Words for .NET 24.7](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-7-release-notes/).
+
+تعرف على المزيد حول [ملاحظات إصدار Aspose.Words for .NET 24.8](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-8-release-notes/).
 
 {{% /alert %}}
 

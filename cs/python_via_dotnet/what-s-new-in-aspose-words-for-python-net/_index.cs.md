@@ -11,13 +11,15 @@ url: /cs/python-net/what-s-new-in-aspose-words-for-python-net/
 
 Tato stránka popisuje nejzajímavější nový Aspose.Words funkce zavedené v nedávných vydáních.
 
-## Aspose.Words pro Python prostřednictvím .NET 24.5, 24.6, 24.7
+## Aspose.Words pro Python prostřednictvím .NET 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 rozšiřuje možnosti pro sestavy, zlepšuje možnosti vykreslování a rozšiřuje některé další možnosti.
 
 Aspose.Words 24.6 vylepšuje možnosti vykreslování, vylepšuje funkce vyhledávání a porovnávání a rozšiřuje několik dalších funkcí.
 
 Aspose.Words 24.7 mění způsob práce s ActiveX, rozšiřuje možnosti vykreslování a také export do formátů Markdown a XLSX.
+
+Aspose.Words 24.8 vylepšuje přizpůsobení grafu přesným ovládáním popisků os, rozšiřuje správu písem, zlepšuje manipulaci se strukturou dokumentů a přidává nové možnosti pro export HTML/XAML, funkčnost PDF, převod dokumentů a digitální podpisy.
 
 ### Podporované formáty
 
@@ -53,11 +55,27 @@ Byl přidán setter pro veřejnou vlastnost [custom_number_style_format](https:/
 * Byla přidána možnost upravit hodnotu přepínače ovládacího prvku ActiveX pro umožnění dynamické interakce.
 * Byla přidána možnost přepnout zaškrtávací políčko ActiveX na "zaškrtnuté" nebo "nezaškrtnuté".
 
-### Načítání a ukládání dokumentů
+#### Ovládání nad osou grafu Orientace a rotace štítků <sup>24.8</sup>
+
+Pro pohodlnější přizpůsobení grafu byla přidána přesná kontrola nad orientací a rotací štítků os grafu – třída [AxisTickLabels](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/) byla rozšířena o nové vlastnosti [orientation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/orientation/) a [rotation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/rotation/).
+
+#### Nahrazení zpětného lomítka znakem jen <sup>24.8</sup>
+
+Zpětně kompatibilní export HTML a XAML pro nahrazení znaku zpětného lomítka znakem Yen byl vylepšen. Aby toho bylo dosaženo, byla do tříd [HtmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/) a [XamlFlowSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xamlflowsaveoptions/) přidána vlastnost **replace_backslash_with_yen_sign**.
+
+#### Použití značek SDT jako názvů polí formuláře při exportu do PDF <sup>24.8</sup>
+
+Export PDF s podporou použití značek SDT jako názvů polí formuláře byl vylepšen přidáním nové vlastnosti [use_sdt_tag_as_form_field_name](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/use_sdt_tag_as_form_field_name/) do třídy [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/).
+
+### Konverze, načítání a ukládání dokumentů
 
 #### Export odkazů do formátu Markdown <sup>24.7</sup>
 
 Schopnost řídit export odkazů ve formátu Markdown byla přidána prostřednictvím implementace vlastnosti [link_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/link_export_mode/).
+
+#### LowCode <sup>24.8</sup>
+
+Byla představena nová třída [LowCode.Converter](https://reference.aspose.com/words/python-net/aspose.words.lowcode/converter/), která poskytuje sadu metod pro převod různých typů dokumentů pomocí jediného řádku kódu.
 
 ### Hledat a porovnat
 
@@ -73,6 +91,9 @@ Byla přidána možnost zefektivnit pracovní postupy analýzy dat pomocí vylep
 * LINQ Reporting Engine byl vylepšen. Bylo provedeno selektivní odstranění prázdných odstavců a definice vlastních zpráv pro chybějící členy objektu, což vedlo k čistším a informativnějším zprávám. <sup>24.6</sup>
 * Formát data a času je nyní automaticky detekován pro bezproblémový export do formátu XLSX. <sup>24.7</sup>
 * Byla přidána veřejná vlastnost [is_protected](https://reference.aspose.com/words/python-net/aspose.words.vba/vbaproject/is_protected/), která vám umožňuje ověřit, zda je projekt VBA chráněn. <sup>24.7</sup>
+* Informace o písmech byly rozšířeny o vlastnost **embedding_licensing_rights** přidanou do tříd [FontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/) a [PhysicalFontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/physicalfontinfo/). <sup>24.8</sup>
+* Pro přesnější práci se strukturou dokumentu byl přidán způsob, jak efektivně vyčistit záhlaví a zápatí oddílů při zachování vodoznaků. Chcete-li vymazat záhlaví a zápatí oddílů, použijte novou veřejnou metodu [clear_headers_footers](https://reference.aspose.com/words/python-net/aspose.words/section/clear_headers_footers/#default). <sup>24.8</sup>
+* Bylo povoleno digitální podepisování dokumentů XPS pomocí [XpsSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/) – pro tento účel byla přidána nová vlastnost [digital_signature_details](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/digital_signature_details/). <sup>24.8</sup>
 
 {{% alert color="primary" %}}
 
@@ -81,6 +102,8 @@ Další informace o [Aspose.Words pro Python prostřednictvím .NET 24.5 Release
 Další informace o [Aspose.Words pro Python prostřednictvím .NET 24.6 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-6-release-notes/).
 
 Další informace o [Aspose.Words pro Python prostřednictvím .NET 24.7 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-7-release-notes/).
+
+Další informace o [Aspose.Words pro Python prostřednictvím .NET 24.8 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-8-release-notes/).
 
 {{% /alert %}}
 

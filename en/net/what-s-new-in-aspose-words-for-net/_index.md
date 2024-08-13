@@ -11,13 +11,15 @@ url: /net/what-s-new-in-aspose-words-for-net/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for .NET 24.5, 24.6, 24.7
+## Aspose.Words for .NET 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 expands options for assemblies, improves rendering capabilities, and expands some other options.
 
 Aspose.Words 24.6 improves rendering options, enhances search and compare functionality, and expands several other features.
 
 Aspose.Words 24.7 changes how you work with ActiveX, expands rendering capabilities, as well as exporting to Markdown and XLSX formats.
+
+Aspose.Words 24.8 enhances chart customization with precise control over axis labels, expands font management, improves document structure handling, and adds new capabilities for HTML/XAML export, PDF functionality, document conversion, and digital signatures.
 
 ### Supported Formats
 
@@ -57,11 +59,27 @@ A setter for the public property [CustomNumberStyleFormat](https://reference.asp
 * The ability to modify the value of the radio button ActiveX control to enable dynamic interaction has been added.
 * The ability to toggle an ActiveX checkbox to "checked" or "unchecked" has been added.
 
-### Loading and Saving Documents
+#### Control Over the Chart Axis Tick Labels Orientation and Rotation <sup>24.8</sup>
+
+Precise control over the orientation and rotation of chart axis tick labels has been added for more convenient chart customization – the [AxisTickLabels](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/) class has been extended with new [Orientation](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/orientation/) and [Rotation](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/rotation/) properties.
+
+#### Replacing the Backslash with the Yen Sign <sup>24.8</sup>
+
+The backwards compatible HTML and XAML export for replacing the backslash character with the Yen sign has been improved. To achieve this, the **ReplaceBackslashWithYenSign** property has been added to the [HtmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/) and [XamlFlowSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xamlflowsaveoptions/) classes.
+
+#### Using SDT Tags as Form Field Names when Exporting to PDF <sup>24.8</sup>
+
+PDF export with support for using SDT tags as form field names has been enhanced by adding a new [UseSdtTagAsFormFieldName](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/usesdttagasformfieldname/) property to the [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) class.
+
+### Converting, Loading and Saving Documents
 
 #### Exporting Links to Markdown Format <sup>24.7</sup>
 
 The ability to control the export of links in Markdown format has been added through the implementation of the [LinkExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/linkexportmode/) property.
+
+#### LowCode 24.8 <sup>24.8</sup>
+
+A new [LowCode.Converter](https://reference.aspose.com/words/net/aspose.words.lowcode/converter/) class, designed to provide a set of methods for converting various document types with a single line of code, has been introduced.
 
 ### Search and Compare
 
@@ -77,6 +95,9 @@ The ability to streamline data analysis workflows with improved comparison funct
 * The LINQ Reporting Engine has been improved. Selective removal of empty paragraphs and definition of custom messages for missing object members have been made, leading to cleaner and more informative reports. <sup>24.6</sup>
 * The datetime format is now automatically detected for seamless export to XLSX format. <sup>24.7</sup>
 * The public property [IsProtected](https://reference.aspose.com/words/net/aspose.words.vba/vbaproject/isprotected/), which allows you to verify whether a VBA project is protected, has been added. <sup>24.7</sup>
+* Font information has been expanded with the **EmbeddingLicensingRights** property added to the [FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/) and [PhysicalFontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/physicalfontinfo/) classes. <sup>24.8</sup>
+* A way to efficiently clear section headers and footers while preserving watermarks has been added to more accurately work with document structure. To clear section headers and footers, use the new public method [ClearHeadersFooters](https://reference.aspose.com/words/net/aspose.words/section/clearheadersfooters/). <sup>24.8</sup>
+* Digital signing of XPS documents using [XpsSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xpssaveoptions/) has been enabled – a new property [DigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/xpssaveoptions/digitalsignaturedetails/) has been added for this purpose. <sup>24.8</sup>
 
 {{% alert color="primary" %}}
 
@@ -85,6 +106,8 @@ Learn more about [Aspose.Words for .NET 24.5 Release Notes](https://releases.asp
 Learn more about [Aspose.Words for .NET 24.6 Release Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-6-release-notes/).
 
 Learn more about [Aspose.Words for .NET 24.7 Release Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-7-release-notes/).
+
+Learn more about [Aspose.Words for .NET 24.8 Release Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-8-release-notes/).
 
 {{% /alert %}}
 

@@ -11,13 +11,15 @@ url: /tr/net/what-s-new-in-aspose-words-for-net/
 
 Bu sayfada son sürümlerde tanıtılan en ilginç yeni Aspose.Words özellikleri açıklanmaktadır.
 
-## .NET 24.5, 24.6, 24.7 için Aspose.Words
+## .NET 24.5, 24.6, 24.7, 24.8 için Aspose.Words
 
 Aspose.Words 24.5, derleme seçeneklerini genişletir, oluşturma yeteneklerini geliştirir ve diğer bazı seçenekleri genişletir.
 
 Aspose.Words 24.6, oluşturma seçeneklerini geliştirir, arama ve karşılaştırma işlevselliğini geliştirir ve diğer birçok özelliği genişletir.
 
 Aspose.Words 24.7, ActiveX ile çalışma şeklinizi değiştirir, işleme yeteneklerini genişlettiği gibi Markdown ve XLSX formatlarına dışa aktarmayı da değiştirir.
+
+Aspose.Words 24.8, eksen etiketleri üzerinde hassas kontrolle grafik özelleştirmesini geliştirir, yazı tipi yönetimini genişletir, belge yapısı işlemeyi iyileştirir ve HTML/XAML dışa aktarma, PDF işlevselliği, belge dönüştürme ve dijital imzalar için yeni özellikler ekler.
 
 ### Desteklenen Formatlar
 
@@ -57,11 +59,27 @@ Sürüm 24.7'den başlayarak, engelli kullanıcıların erişilebilirliğini sa�
 * Dinamik etkileşimi etkinleştirmek için radyo düğmesi ActiveX kontrolünün değerini değiştirme yeteneği eklendi.
 * ActiveX onay kutusunu "işaretli" veya "işaretsiz" olarak değiştirme yeteneği eklendi.
 
-### Belgeleri Yükleme ve Kaydetme
+#### Grafik Eksen İşaret Etiketleri Yönlendirme ve Döndürme Üzerinde Kontrol <sup>24.8</sup>
+
+Daha kolay grafik özelleştirmesi için grafik eksen işaret etiketlerinin yönlendirmesi ve döndürülmesi üzerinde hassas kontrol eklendi – [AxisTickLabels](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/) sınıfı yeni [Orientation](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/orientation/) ve [Rotation](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/rotation/) özellikleriyle genişletildi.
+
+#### Ters Eğik Çizgiyi Yen İşaretiyle Değiştirme <sup>24.8</sup>
+
+Ters eğik çizgi karakterini Yen işaretiyle değiştirmek için geriye dönük uyumlu HTML ve XAML dışa aktarma geliştirildi. Bunu başarmak için, [HtmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/) ve [XamlFlowSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xamlflowsaveoptions/) sınıflarına **ReplaceBackslashWithYenSign** özelliği eklendi.
+
+#### PDF'ye Aktarırken Form Alan Adları Olarak SDT Etiketlerinin Kullanılması <sup>24.8</sup>
+
+SDT etiketlerini form alan adları olarak kullanma desteğine sahip PDF aktarımı, [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/usesdttagasformfieldname/) sınıfına yeni bir [UseSdtTagAsFormFieldName](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) özelliği eklenerek geliştirildi.
+
+### Belgeleri Dönüştürme, Yükleme ve Kaydetme
 
 #### Bağlantıları Markdown Formatına Dışa Aktarma <sup>24.7</sup>
 
 [LinkExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/linkexportmode/) özelliğinin uygulanmasıyla bağlantıların Markdown biçiminde dışa aktarımını kontrol etme yeteneği eklendi.
+
+#### LowCode <sup>24.8</sup>
+
+Tek bir kod satırıyla çeşitli belge türlerini dönüştürmek için bir dizi yöntem sağlamak üzere tasarlanmış yeni bir [LowCode.Converter](https://reference.aspose.com/words/net/aspose.words.lowcode/converter/) sınıfı tanıtıldı.
 
 ### Ara ve Karşılaştır
 
@@ -77,6 +95,9 @@ Geliştirilmiş karşılaştırma işlevselliğiyle veri analizi iş akışları
 * LINQ Raporlama Motoru geliştirildi. Boş paragrafların seçici olarak kaldırılması ve eksik nesne üyeleri için özel mesajların tanımlanması yapılarak daha temiz ve daha bilgilendirici raporlar elde edildi. <sup>24.6</sup>
 * XLSX formatına sorunsuz aktarım için tarihsaat formatı artık otomatik olarak algılanıyor. <sup>24.7</sup>
 * Bir VBA projesinin korunup korunmadığını doğrulamanıza olanak tanıyan genel mülk [IsProtected](https://reference.aspose.com/words/net/aspose.words.vba/vbaproject/isprotected/) eklendi. <sup>24.7</sup>
+* Font bilgileri, [FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/) ve [PhysicalFontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/physicalfontinfo/) sınıflarına eklenen **EmbeddingLicensingRights** özelliğiyle genişletildi. <sup>24.8</sup>
+* Belge yapısıyla daha doğru bir şekilde çalışmak için filigranları korurken bölüm başlıklarını ve altbilgilerini etkili bir şekilde temizlemenin bir yolu eklendi. Bölüm başlıklarını ve altbilgilerini temizlemek için yeni genel yöntem [ClearHeadersFooters](https://reference.aspose.com/words/net/aspose.words/section/clearheadersfooters/)'ı kullanın. <sup>24.8</sup>
+* [XpsSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xpssaveoptions/) kullanılarak XPS belgelerinin dijital olarak imzalanması etkinleştirildi - bu amaçla yeni bir özellik [DigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/xpssaveoptions/digitalsignaturedetails/) eklendi. <sup>24.8</sup>
 
 {{% alert color="primary" %}}
 
@@ -85,6 +106,8 @@ Geliştirilmiş karşılaştırma işlevselliğiyle veri analizi iş akışları
 [.NET 24.6 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-6-release-notes/) hakkında daha fazla bilgi edinin.
 
 [.NET 24.7 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-7-release-notes/) hakkında daha fazla bilgi edinin.
+
+[.NET 24.8 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-8-release-notes/) hakkında daha fazla bilgi edinin.
 
 {{% /alert %}}
 

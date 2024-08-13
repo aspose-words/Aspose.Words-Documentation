@@ -11,13 +11,15 @@ url: /ko/python-net/what-s-new-in-aspose-words-for-python-net/
 
 이 페이지에서는 최근 릴리스에 도입된 가장 흥미로운 새로운 Aspose.Words 기능을 설명합니다.
 
-## Python via .NET 24.5, 24.6, 24.7 용 Aspose.Words
+## Python via .NET 24.5, 24.6, 24.7, 24.8 용 Aspose.Words
 
 Aspose.Words 24.5는 어셈블리 옵션을 확장하고 렌더링 기능을 개선하며 기타 옵션을 확장합니다.
 
 Aspose.Words 24.6은 렌더링 옵션을 개선하고, 검색 및 비교 기능을 향상시키며, 기타 여러 기능을 확장합니다.
 
 Aspose.Words 24.7은 ActiveX 작업 방식을 변경하고 렌더링 기능을 확장하며 Markdown 및 XLSX 형식으로 내보내기도 합니다.
+
+Aspose.Words 24.8은 축 레이블을 정확하게 제어하여 차트 사용자 지정을 강화하고, 글꼴 관리를 확장하고, 문서 구조 처리를 개선하고, HTML/XAML 내보내기, PDF 기능, 문서 변환 및 디지털 서명을 위한 새로운 기능을 추가합니다.
 
 ### 지원되는 형식
 
@@ -53,11 +55,27 @@ Aspose.Words 24.7은 ActiveX 작업 방식을 변경하고 렌더링 기능을 �
 * 라디오 버튼 ActiveX 컨트롤의 값을 수정하여 동적 상호 작용을 가능하게 하는 기능이 추가되었습니다.
 * ActiveX 체크박스를 "선택" 또는 "선택 해제"로 전환하는 기능이 추가되었습니다.
 
-### 문서 로드 및 저장
+#### 차트 축 눈금 레이블 방향 및 회전 제어 <sup>24.8</sup>
+
+차트 축 눈금 레이블의 방향 및 회전을 정확하게 제어하여 더욱 편리한 차트 사용자 지정이 가능해졌습니다. [AxisTickLabels](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/) 클래스가 새로운 [orientation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/orientation/) 및 [rotation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/rotation/) 속성으로 확장되었습니다.
+
+#### 백슬래시를 엔 기호로 바꾸기 <sup>24.8</sup>
+
+백슬래시 문자를 엔 기호로 바꾸기 위한 이전 버전과의 호환되는 HTML 및 XAML 내보내기가 개선되었습니다. 이를 달성하기 위해 [HtmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/) 및 [XamlFlowSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xamlflowsaveoptions/) 클래스에 **replace_backslash_with_yen_sign** 속성이 추가되었습니다.
+
+#### PDF로 내보낼 때 SDT 태그를 양식 필드 이름으로 사용 <sup>24.8</sup>
+
+SDT 태그를 양식 필드 이름으로 사용하는 기능이 포함된 PDF 내보내기가 [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) 클래스에 새로운 [use_sdt_tag_as_form_field_name](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/use_sdt_tag_as_form_field_name/) 속성을 추가하여 향상되었습니다.
+
+### 문서 변환, 로드 및 저장
 
 #### 마크다운 형식으로 링크 내보내기 <sup>24.7</sup>
 
 [link_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/link_export_mode/) 속성 구현을 통해 Markdown 형식의 링크 내보내기를 제어하는 ​​기능이 추가되었습니다.
+
+#### LowCode <sup>24.8</sup>
+
+한 줄의 코드로 다양한 문서 유형을 변환하는 메서드 집합을 제공하도록 설계된 새로운 [LowCode.Converter](https://reference.aspose.com/words/python-net/aspose.words.lowcode/converter/) 클래스가 도입되었습니다.
 
 ### 검색 및 비교
 
@@ -73,6 +91,9 @@ Aspose.Words 24.7은 ActiveX 작업 방식을 변경하고 렌더링 기능을 �
 * LINQ 보고 엔진이 개선되었습니다. 빈 단락을 선택적으로 제거하고 누락된 개체 구성원에 대한 사용자 정의 메시지를 정의하여 더욱 깔끔하고 유익한 보고서를 제공합니다. <sup>24.6</sup>
 * 이제 XLSX 형식으로 원활하게 내보내기 위해 날짜/시간 형식이 자동으로 감지됩니다. <sup>24.7</sup>
 * VBA 프로젝트가 보호되는지 확인할 수 있는 공용 속성 [is_protected](https://reference.aspose.com/words/python-net/aspose.words.vba/vbaproject/is_protected/) 가 추가되었습니다. <sup>24.7</sup>
+* [FontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/) 및 [PhysicalFontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/physicalfontinfo/) 클래스에 **embedding_licensing_rights** 속성이 추가되어 글꼴 정보가 확장되었습니다. <sup>24.8</sup>
+* 워터마크를 유지하면서 섹션 머리글과 바닥글을 효율적으로 지우는 방법이 추가되어 문서 구조에서 보다 정확하게 작업할 수 있습니다. 섹션 머리글과 바닥글을 지우려면 새로운 공개 메서드 [clear_headers_footers](https://reference.aspose.com/words/python-net/aspose.words/section/clear_headers_footers/#default) 사용합니다. <sup>24.8</sup>
+* [XpsSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/) 사용한 XPS 문서의 디지털 서명이 활성화되었습니다. 이 목적을 위해 새로운 속성 [digital_signature_details](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/digital_signature_details/) 추가되었습니다. <sup>24.8</sup>
 
 {{% alert color="primary" %}}
 
@@ -81,6 +102,8 @@ Aspose.Words 24.7은 ActiveX 작업 방식을 변경하고 렌더링 기능을 �
 [Python via .NET 24.6 용 Aspose.Words 릴리스 노트](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-6-release-notes/)에 대해 자세히 알아보세요.
 
 [Python via .NET 24.7 용 Aspose.Words 릴리스 노트](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-7-release-notes/)에 대해 자세히 알아보세요.
+
+[Python via .NET 24.8 용 Aspose.Words 릴리스 노트](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-8-release-notes/)에 대해 자세히 알아보세요.
 
 {{% /alert %}}
 

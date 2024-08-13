@@ -11,13 +11,15 @@ url: /pt/python-net/what-s-new-in-aspose-words-for-python-net/
 
 Esta página descreve os novos recursos Aspose.Words mais interessantes introduzidos em versões recentes.
 
-## Aspose.Words para Python via .NET 24.5, 24.6, 24.7
+## Aspose.Words para Python via .NET 24.5, 24.6, 24.7, 24.8
 
 O Aspose.Words 24.5 expande as opções para montagens, melhora as capacidades de renderização e expande algumas outras opções.
 
 O Aspose.Words 24.6 melhora as opções de renderização, melhora a funcionalidade de pesquisa e comparação e expande várias outras características.
 
 O Aspose.Words 24.7 altera a forma como trabalha com ActiveX, expande as capacidades de renderização e também exporta para os formatos Markdown e XLSX.
+
+O Aspose.Words 24.8 melhora a personalização de gráficos com um controlo preciso sobre as etiquetas dos eixos, expande a gestão de tipos de letra, melhora o manuseamento da estrutura de documentos e adiciona novas funcionalidades para a exportação de HTML/XAML, funcionalidade de PDF, conversão de documentos e assinaturas digitais.
 
 ### Formatos Suportados
 
@@ -53,11 +55,27 @@ Foi adicionado um setter para a propriedade pública [custom_number_style_format
 * Foi adicionada a capacidade de modificar o valor do controlo ActiveX do botão de opção para permitir a interação dinâmica.
 * Foi adicionada a capacidade de alternar uma caixa de selecção ActiveX para "marcada" ou "desmarcada".
 
-### Carregar e guardar documentos
+#### Controlo sobre a orientação e rotação dos rótulos de escala do eixo do gráfico <sup>24.8</sup>
+
+Foi adicionado um controlo preciso sobre a orientação e rotação dos rótulos dos eixos do gráfico para uma personalização mais conveniente do gráfico – a classe [AxisTickLabels](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/) foi alargada com novas propriedades de [orientation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/orientation/) e [rotation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/rotation/).
+
+#### Substituindo a barra invertida pelo sinal do iene <sup>24.8</sup>
+
+A exportação HTML e XAML compatível com versões anteriores para substituir o caractere de barra invertida pelo sinal do iene foi melhorada. Para o conseguir, foi adicionada a propriedade **replace_backslash_with_yen_sign** às classes [HtmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/) e [XamlFlowSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xamlflowsaveoptions/).
+
+#### Utilização de tags SDT como nomes de campos de formulário ao exportar para PDF <sup>24.8</sup>
+
+A exportação de PDF com suporte para utilizar etiquetas SDT como nomes de campos de formulário foi melhorada com a adição de uma nova propriedade [use_sdt_tag_as_form_field_name](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/use_sdt_tag_as_form_field_name/) à classe [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/).
+
+### Converter, carregar e guardar documentos
 
 #### Exportar ligações para o formato Markdown <sup>24.7</sup>
 
 A capacidade de controlar a exportação de links no formato Markdown foi adicionada através da implementação da propriedade [link_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/link_export_mode/).
+
+#### LowCode <sup>24.8</sup>
+
+Foi introduzida uma nova classe [LowCode.Converter](https://reference.aspose.com/words/python-net/aspose.words.lowcode/converter/), concebida para fornecer um conjunto de métodos para converter vários tipos de documentos com uma única linha de código.
 
 ### Pesquise e compare
 
@@ -73,6 +91,9 @@ Foi adicionada a capacidade de agilizar os fluxos de trabalho de análise de dad
 * O motor de relatórios LINQ foi melhorado. Foi feita a remoção seletiva de parágrafos vazios e a definição de mensagens personalizadas para membros de objetos em falta, gerando relatórios mais limpos e informativos. <sup>24.6</sup>
 * O formato de data e hora é agora automaticamente detetado para exportação contínua para o formato XLSX. <sup>24.7</sup>
 * Foi adicionada a propriedade pública [is_protected](https://reference.aspose.com/words/python-net/aspose.words.vba/vbaproject/is_protected/), que permite verificar se um projeto VBA está protegido. <sup>24.7</sup>
+* A informação da fonte foi expandida com a propriedade **embedding_licensing_rights** adicionada às classes [FontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/) e [PhysicalFontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/physicalfontinfo/). <sup>24.8</sup>
+* Foi adicionada uma forma de limpar os cabeçalhos e rodapés de secção de forma eficiente e, ao mesmo tempo, preservar as marcas de água para trabalhar com maior precisão com a estrutura do documento. Para limpar os cabeçalhos e rodapés de secção, utilize o novo método público [clear_headers_footers](https://reference.aspose.com/words/python-net/aspose.words/section/clear_headers_footers/#default). <sup>24.8</sup>
+* A assinatura digital de documentos XPS utilizando [XpsSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/) foi ativada – foi adicionada uma nova propriedade [digital_signature_details](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/digital_signature_details/) para este fim. <sup>24.8</sup>
 
 {{% alert color="primary" %}}
 
@@ -81,6 +102,8 @@ Saiba mais sobre [Notas de versão do Aspose.Words para Python via .NET 24.5](ht
 Saiba mais sobre [Notas de versão do Aspose.Words para Python via .NET 24.6](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-6-release-notes/).
 
 Saiba mais sobre [Notas de versão do Aspose.Words para Python via .NET 24.7](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-7-release-notes/).
+
+Saiba mais sobre [Notas de versão do Aspose.Words para Python via .NET 24.8](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-8-release-notes/).
 
 {{% /alert %}}
 
