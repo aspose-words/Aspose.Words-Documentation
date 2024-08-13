@@ -57,15 +57,15 @@ Công cụ thiết lập cho thuộc tính công khai [custom_number_style_forma
 
 #### Kiểm soát hướng và xoay nhãn đánh dấu trục biểu đồ <sup>24.8</sup>
 
-Khả năng kiểm soát chính xác hướng và xoay nhãn đánh dấu trục biểu đồ đã được thêm vào để tùy chỉnh biểu đồ thuận tiện hơn – lớp AxisTickLabels đã được mở rộng với các thuộc tính Định hướng và Xoay mới.
+Khả năng kiểm soát chính xác hướng và xoay nhãn đánh dấu trục biểu đồ đã được thêm vào để tùy chỉnh biểu đồ thuận tiện hơn – lớp [AxisTickLabels](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/) đã được mở rộng với các thuộc tính [orientation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/orientation/) hướng và [rotation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/rotation/) mới.
 
 #### Thay thế dấu gạch chéo ngược bằng dấu Yen <sup>24.8</sup>
 
-Khả năng xuất HTML và XAML tương thích ngược để thay thế ký tự gạch chéo ngược bằng dấu Yen đã được cải thiện. Để đạt được điều này, thuộc tính ReplaceBackslashWithYenSign đã được thêm vào các lớp HtmlSaveOptions và XamlFlowSaveOptions.
+Khả năng xuất HTML và XAML tương thích ngược để thay thế ký tự gạch chéo ngược bằng dấu Yen đã được cải thiện. Để đạt được điều này, thuộc tính **replace_backslash_with_yen_sign** đã được thêm vào các lớp [HtmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/) và [XamlFlowSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xamlflowsaveoptions/).
 
 #### Sử dụng Thẻ SDT làm Tên Trường Biểu mẫu khi Xuất sang PDF <sup>24.8</sup>
 
-Việc xuất PDF có hỗ trợ sử dụng thẻ SDT làm tên trường biểu mẫu đã được cải thiện bằng cách thêm thuộc tính UseSdtTagAsFormFieldName mới vào lớp PdfSaveOptions.
+Việc xuất PDF có hỗ trợ sử dụng thẻ SDT làm tên trường biểu mẫu đã được cải thiện bằng cách thêm thuộc tính [use_sdt_tag_as_form_field_name](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/use_sdt_tag_as_form_field_name/) mới vào lớp [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/).
 
 ### Chuyển đổi, Tải và Lưu Tài liệu
 
@@ -75,7 +75,7 @@ Khả năng kiểm soát việc xuất các liên kết ở định dạng Markd
 
 #### LowCode <sup>24.8</sup>
 
-Một lớp LowCode.Converter mới, được thiết kế để cung cấp một tập hợp các phương pháp chuyển đổi nhiều loại tài liệu khác nhau chỉ bằng một dòng mã, đã được giới thiệu.
+Một lớp [LowCode.Converter](https://reference.aspose.com/words/python-net/aspose.words.lowcode/converter/) mới, được thiết kế để cung cấp một tập hợp các phương pháp chuyển đổi nhiều loại tài liệu khác nhau chỉ bằng một dòng mã, đã được giới thiệu.
 
 ### Tìm kiếm và so sánh
 
@@ -91,9 +91,9 @@ Khả năng hợp lý hóa quy trình phân tích dữ liệu với chức năng
 * Công cụ báo cáo LINQ đã được cải tiến. Việc loại bỏ có chọn lọc các đoạn văn trống và định nghĩa các thông báo tùy chỉnh cho các thành phần đối tượng bị thiếu đã được thực hiện, dẫn đến các báo cáo rõ ràng hơn và nhiều thông tin hơn. <sup>24.6</sup>
 * Định dạng ngày giờ hiện được tự động phát hiện để xuất liền mạch sang định dạng XLSX. <sup>24.7</sup>
 * Thuộc tính công khai [is_protected](https://reference.aspose.com/words/python-net/aspose.words.vba/vbaproject/is_protected/), cho phép bạn xác minh xem dự án VBA có được bảo vệ hay không, đã được thêm vào. <sup>24.7</sup>
-* Thông tin phông chữ đã được mở rộng với thuộc tính EmbeddingLicensingRights được thêm vào các lớp FontInfo và PhysicalFontInfo. <sup>24.8</sup>
-* Một cách để xóa hiệu quả phần đầu trang và phần chân trang trong khi vẫn giữ nguyên hình mờ đã được thêm vào để làm việc chính xác hơn với cấu trúc tài liệu. Để xóa phần đầu trang và phần chân trang, hãy sử dụng phương thức công khai mới ClearHeadersFooters. <sup>24.8</sup>
-* Đã bật chức năng ký số cho các tài liệu XPS bằng XpsSaveOptions – một thuộc tính mới DigitalSignatureDetails đã được thêm vào cho mục đích này. <sup>24.8</sup>
+* Thông tin phông chữ đã được mở rộng với thuộc tính **embedding_licensing_rights** được thêm vào các lớp [FontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/) và [PhysicalFontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/physicalfontinfo/). <sup>24.8</sup>
+* Một cách để xóa hiệu quả phần đầu trang và phần chân trang trong khi vẫn giữ nguyên hình mờ đã được thêm vào để làm việc chính xác hơn với cấu trúc tài liệu. Để xóa phần đầu trang và phần chân trang, hãy sử dụng phương thức công khai mới [clear_headers_footers](https://reference.aspose.com/words/python-net/aspose.words/section/clear_headers_footers/#default). <sup>24.8</sup>
+* Đã bật chức năng ký số cho các tài liệu XPS bằng [XpsSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/) – một thuộc tính mới [digital_signature_details](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/digital_signature_details/) đã được thêm vào cho mục đích này. <sup>24.8</sup>
 
 {{% alert color="primary" %}}
 

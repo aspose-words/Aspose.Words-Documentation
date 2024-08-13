@@ -57,15 +57,15 @@ A partire dalla versione 24.7, è supportata l'esportazione in PDF/UA-2 per gara
 
 #### Controllo sull'orientamento e la rotazione delle etichette di spunta degli assi dei grafici <sup>24.8</sup>
 
-È stato aggiunto un controllo preciso sull'orientamento e la rotazione delle etichette di spunta degli assi dei grafici per una personalizzazione più comoda dei grafici: la classe AxisTickLabels è stata estesa con nuove proprietà Orientation e Rotation.
+È stato aggiunto un controllo preciso sull'orientamento e la rotazione delle etichette di spunta degli assi dei grafici per una personalizzazione più comoda dei grafici: la classe [AxisTickLabels](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/) è stata estesa con nuove proprietà [orientation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/orientation/) e [rotation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/rotation/).
 
 #### Sostituzione della barra rovesciata con il simbolo dello yen <sup>24.8</sup>
 
-L'esportazione HTML e XAML retrocompatibile per la sostituzione del carattere barra rovesciata con il simbolo dello yen è stata migliorata. Per ottenere ciò, la proprietà ReplaceBackslashWithYenSign è stata aggiunta alle classi HtmlSaveOptions e XamlFlowSaveOptions.
+L'esportazione HTML e XAML retrocompatibile per la sostituzione del carattere barra rovesciata con il simbolo dello yen è stata migliorata. Per ottenere ciò, la proprietà **replace_backslash_with_yen_sign** è stata aggiunta alle classi [HtmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/) e [XamlFlowSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xamlflowsaveoptions/).
 
 #### Utilizzo di tag SDT come nomi di campi modulo durante l'esportazione in PDF <sup>24.8</sup>
 
-L'esportazione PDF con supporto per l'utilizzo di tag SDT come nomi di campi modulo è stata migliorata aggiungendo una nuova proprietà UseSdtTagAsFormFieldName alla classe PdfSaveOptions.
+L'esportazione PDF con supporto per l'utilizzo di tag SDT come nomi di campi modulo è stata migliorata aggiungendo una nuova proprietà [use_sdt_tag_as_form_field_name](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/use_sdt_tag_as_form_field_name/) alla classe [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/).
 
 ### Conversione, caricamento e salvataggio di documenti
 
@@ -75,7 +75,7 @@ L'esportazione PDF con supporto per l'utilizzo di tag SDT come nomi di campi mod
 
 #### LowCode <sup>24.8</sup>
 
-È stata introdotta una nuova classe LowCode.Converter, progettata per fornire un set di metodi per convertire vari tipi di documenti con una singola riga di codice.
+È stata introdotta una nuova classe [LowCode.Converter](https://reference.aspose.com/words/python-net/aspose.words.lowcode/converter/), progettata per fornire un set di metodi per convertire vari tipi di documenti con una singola riga di codice.
 
 ### Cerca e confronta
 
@@ -91,9 +91,9 @@ L'esportazione PDF con supporto per l'utilizzo di tag SDT come nomi di campi mod
 * Il motore di reporting LINQ è stato migliorato. Sono state effettuate la rimozione selettiva dei paragrafi vuoti e la definizione di messaggi personalizzati per i membri degli oggetti mancanti, portando a report più chiari e informativi. <sup>24.6</sup>
 * Il formato data/ora viene ora rilevato automaticamente per un'esportazione senza interruzioni nel formato XLSX. <sup>24.7</sup>
 * È stata aggiunta la proprietà pubblica [is_protected](https://reference.aspose.com/words/python-net/aspose.words.vba/vbaproject/is_protected/), che consente di verificare se un progetto VBA è protetto. <sup>24.7</sup>
-* Le informazioni sui font sono state ampliate con la proprietà EmbeddingLicensingRights aggiunta alle classi FontInfo e PhysicalFontInfo. <sup>24.8</sup>
-* È stato aggiunto un modo per cancellare in modo efficiente intestazioni e piè di pagina di sezione preservando le filigrane per lavorare in modo più accurato con la struttura del documento. Per cancellare intestazioni e piè di pagina di sezione, utilizzare il nuovo metodo pubblico ClearHeadersFooters. <sup>24.8</sup>
-* È stata abilitata la firma digitale dei documenti XPS tramite XpsSaveOptions: è stata aggiunta una nuova proprietà DigitalSignatureDetails a questo scopo. <sup>24.8</sup>
+* Le informazioni sui font sono state ampliate con la proprietà **embedding_licensing_rights** aggiunta alle classi [FontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/) e [PhysicalFontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/physicalfontinfo/). <sup>24.8</sup>
+* È stato aggiunto un modo per cancellare in modo efficiente intestazioni e piè di pagina di sezione preservando le filigrane per lavorare in modo più accurato con la struttura del documento. Per cancellare intestazioni e piè di pagina di sezione, utilizzare il nuovo metodo pubblico [clear_headers_footers](https://reference.aspose.com/words/python-net/aspose.words/section/clear_headers_footers/#default). <sup>24.8</sup>
+* È stata abilitata la firma digitale dei documenti XPS tramite [XpsSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/): è stata aggiunta una nuova proprietà [digital_signature_details](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/digital_signature_details/) a questo scopo. <sup>24.8</sup>
 
 {{% alert color="primary" %}}
 

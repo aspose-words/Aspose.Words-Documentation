@@ -95,7 +95,7 @@ Aspose.Words 24.8 משפר התאמה אישית של תרשים עם שליטה
 * מנוע הדיווח LINQ שופר. בוצעו הסרה סלקטיבית של פסקאות ריקות והגדרה של הודעות מותאמות אישית עבור חברי אובייקט חסרים, מה שהוביל לדוחות נקיים ואינפורמטיביים יותר. <sup>24.6</sup>
 * פורמט התאריך והשעה מזוהה כעת באופן אוטומטי לייצוא חלק לפורמט XLSX. <sup>24.7</sup>
 * הנכס הציבורי [IsProtected](https://reference.aspose.com/words/net/aspose.words.vba/vbaproject/isprotected/), המאפשר לך לוודא אם פרויקט VBA מוגן, נוסף. <sup>24.7</sup>
-* מידע הגופנים הורחב עם המאפיין EmbeddingLicensingRights שנוסף ל-[FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/) ו-[PhysicalFontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/physicalfontinfo/). <sup>24.8</sup>
+* מידע הגופנים הורחב עם המאפיין **EmbeddingLicensingRights** שנוסף ל-[FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/) ו-[PhysicalFontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/physicalfontinfo/). <sup>24.8</sup>
 * דרך לנקות ביעילות כותרות עליונות ותחתונות של מקטעים תוך שמירה על סימני מים נוספה לעבודה מדויקת יותר עם מבנה המסמך. כדי לנקות כותרות עליונות ותחתונות של מקטעים, השתמש בשיטה הציבורית החדשה [ClearHeadersFooters](https://reference.aspose.com/words/net/aspose.words/section/clearheadersfooters/). <sup>24.8</sup>
 * חתימה דיגיטלית של מסמכי XPS באמצעות [XpsSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xpssaveoptions/) הופעלה - מאפיין חדש [DigitalSignatureDetails](https://reference .aspose.com/words/net/aspose.words.saving/xpssaveoptions/digitalsignaturedetails/) נוספה למטרה זו. <sup>24.8</sup>
 

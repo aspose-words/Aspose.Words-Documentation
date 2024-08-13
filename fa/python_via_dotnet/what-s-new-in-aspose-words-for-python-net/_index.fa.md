@@ -57,15 +57,15 @@ Aspose.Words 24.8 سفارشی‌سازی نمودار را با کنترل دق
 
 #### کنترل بر روی محور نمودار جهت و چرخش برچسب ها <sup>24.8</sup>
 
-کنترل دقیق جهت گیری و چرخش برچسب های تیک محور نمودار برای سفارشی سازی راحت تر نمودار اضافه شده است - کلاس AxisTickLabels با ویژگی های جهت گیری و چرخش جدید گسترش یافته است.
+کنترل دقیق جهت گیری و چرخش برچسب های تیک محور نمودار برای سفارشی سازی راحت تر نمودار اضافه شده است - کلاس [AxisTickLabels](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/) با ویژگی های جدید [orientation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/orientation/) و [rotation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/rotation/) گسترش یافته است.
 
 #### جایگزینی بک اسلش با علامت ین <sup>24.8</sup>
 
-صادرات HTML و XAML سازگار با عقب برای جایگزینی کاراکتر بک اسلش با علامت ین بهبود یافته است. برای رسیدن به این هدف، ویژگی ReplaceBackslashWithYenSign به کلاس های HtmlSaveOptions و XamlFlowSaveOptions اضافه شده است.
+صادرات HTML و XAML سازگار با عقب برای جایگزینی کاراکتر بک اسلش با علامت ین بهبود یافته است. برای رسیدن به این هدف، ویژگی **replace_backslash_with_yen_sign** به کلاس های [HtmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/) و [XamlFlowSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xamlflowsaveoptions/) اضافه شده است.
 
 #### استفاده از برچسب های SDT به عنوان نام فیلدهای فرم هنگام صادرات به PDF <sup>24.8</sup>
 
-صادرات PDF با پشتیبانی از استفاده از تگ های SDT به عنوان نام فیلدهای فرم، با افزودن ویژگی UseSdtTagAsFormFieldName جدید به کلاس PdfSaveOptions بهبود یافته است.
+صادرات PDF با پشتیبانی از استفاده از تگ های SDT به عنوان نام فیلدهای فرم، با افزودن ویژگی [use_sdt_tag_as_form_field_name](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/use_sdt_tag_as_form_field_name/) جدید به کلاس [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) بهبود یافته است.
 
 ### تبدیل، بارگیری و ذخیره اسناد
 
@@ -75,7 +75,7 @@ Aspose.Words 24.8 سفارشی‌سازی نمودار را با کنترل دق
 
 #### LowCode <sup>24.8</sup>
 
-یک کلاس LowCode.Converter جدید، طراحی شده برای ارائه مجموعه ای از روش ها برای تبدیل انواع سند با یک خط کد، معرفی شده است.
+یک کلاس [LowCode.Converter](https://reference.aspose.com/words/python-net/aspose.words.lowcode/converter/) جدید، طراحی شده برای ارائه مجموعه ای از روش ها برای تبدیل انواع سند با یک خط کد، معرفی شده است.
 
 ### جستجو و مقایسه کنید
 
@@ -91,9 +91,9 @@ Aspose.Words 24.8 سفارشی‌سازی نمودار را با کنترل دق
 * موتور گزارش LINQ بهبود یافته است. حذف انتخابی پاراگراف‌های خالی و تعریف پیام‌های سفارشی برای اعضای شی از دست رفته انجام شده است که منجر به گزارش‌های تمیزتر و آموزنده‌تر می‌شود. <sup>24.6</sup>
 * فرمت datetime اکنون به طور خودکار برای صادرات بدون درز به فرمت XLSX شناسایی می شود. <sup>24.7</sup>
 * دارایی عمومی [is_protected](https://reference.aspose.com/words/python-net/aspose.words.vba/vbaproject/is_protected/)، که به شما امکان می دهد تأیید کنید که پروژه VBA محافظت شده است، اضافه شده است. <sup>24.7</sup>
-* اطلاعات فونت با ویژگی EmbeddingLicensingRights اضافه شده به کلاس های FontInfo و PhysicalFontInfo گسترش یافته است. <sup>24.8</sup>
-* راهی برای پاک کردن کارآمد سرصفحه ها و پاورقی های بخش با حفظ واترمارک ها برای کار دقیق تر با ساختار سند اضافه شده است. برای پاک کردن سرصفحه و پاورقی بخش، از روش عمومی جدید ClearHeadersFooters استفاده کنید. <sup>24.8</sup>
-* امضای دیجیتال اسناد XPS با استفاده از XpsSaveOptions فعال شده است - ویژگی جدیدی DigitalSignatureDetails برای این منظور اضافه شده است. <sup>24.8</sup>
+* اطلاعات فونت با ویژگی **embedding_licensing_rights** اضافه شده به کلاس های [FontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/) و [PhysicalFontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/physicalfontinfo/) گسترش یافته است. <sup>24.8</sup>
+* راهی برای پاک کردن کارآمد سرصفحه ها و پاورقی های بخش با حفظ واترمارک ها برای کار دقیق تر با ساختار سند اضافه شده است. برای پاک کردن سرصفحه و پاورقی بخش، از روش عمومی جدید [clear_headers_footers](https://reference.aspose.com/words/python-net/aspose.words/section/clear_headers_footers/#default) استفاده کنید. <sup>24.8</sup>
+* امضای دیجیتال اسناد XPS با استفاده از [XpsSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/) فعال شده است - ویژگی جدیدی [digital_signature_details](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/digital_signature_details/) برای این منظور اضافه شده است. <sup>24.8</sup>
 
 {{% alert color="primary" %}}
 

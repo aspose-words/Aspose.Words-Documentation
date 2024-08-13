@@ -57,15 +57,15 @@ Er is een setter voor de openbare eigenschap [custom_number_style_format](https:
 
 #### Controle over de oriëntatie en rotatie van de vinklabels van de grafiekas <sup>24.8</sup>
 
-Nauwkeurige controle over de oriëntatie en rotatie van de vinklabels van de grafiekas is toegevoegd voor een gemakkelijkere aanpassing van de grafiek – de klasse AxisTickLabels is uitgebreid met nieuwe eigenschappen voor oriëntatie en rotatie.
+Nauwkeurige controle over de oriëntatie en rotatie van de vinklabels van de grafiekas is toegevoegd voor een gemakkelijkere aanpassing van de grafiek – de klasse [AxisTickLabels](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/) is uitgebreid met nieuwe eigenschappen voor [orientation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/orientation/) en [rotation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/rotation/).
 
 #### De backslash vervangen door het Yen-teken <sup>24.8</sup>
 
-De achterwaarts compatibele HTML- en XAML-export voor het vervangen van het backslash-teken door het Yen-teken is verbeterd. Om dit te bereiken is de eigenschap ReplaceBackslashWithYenSign toegevoegd aan de klassen HtmlSaveOptions en XamlFlowSaveOptions.
+De achterwaarts compatibele HTML- en XAML-export voor het vervangen van het backslash-teken door het Yen-teken is verbeterd. Om dit te bereiken is de eigenschap **replace_backslash_with_yen_sign** toegevoegd aan de klassen [HtmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/) en [XamlFlowSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xamlflowsaveoptions/).
 
 #### SDT-tags gebruiken als formulierveldnamen bij exporteren naar PDF <sup>24.8</sup>
 
-PDF-export met ondersteuning voor het gebruik van SDT-tags als formulierveldnamen is verbeterd door een nieuwe eigenschap UseSdtTagAsFormFieldName toe te voegen aan de klasse PdfSaveOptions.
+PDF-export met ondersteuning voor het gebruik van SDT-tags als formulierveldnamen is verbeterd door een nieuwe eigenschap [use_sdt_tag_as_form_field_name](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/use_sdt_tag_as_form_field_name/) toe te voegen aan de klasse [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/).
 
 ### Documenten converteren, laden en opslaan
 
@@ -75,7 +75,7 @@ De mogelijkheid om de export van links in Markdown-indeling te beheren is toegev
 
 #### LowCode <sup>24.8</sup>
 
-Er is een nieuwe klasse LowCode.Converter geïntroduceerd, die is ontworpen om een ​​set methoden te bieden voor het converteren van verschillende documenttypen met één regel code.
+Er is een nieuwe klasse [LowCode.Converter](https://reference.aspose.com/words/python-net/aspose.words.lowcode/converter/) geïntroduceerd, die is ontworpen om een ​​set methoden te bieden voor het converteren van verschillende documenttypen met één regel code.
 
 ### Zoek en vergelijk
 
@@ -91,9 +91,9 @@ De mogelijkheid om workflows voor gegevensanalyse te stroomlijnen met verbeterde
 * De LINQ Reporting Engine is verbeterd. Er zijn selectieve verwijdering van lege alinea's en definitie van aangepaste berichten voor ontbrekende objectleden doorgevoerd, wat leidt tot schonere en informatievere rapporten. <sup>24.6</sup>
 * Het datetime-formaat wordt nu automatisch gedetecteerd voor naadloze export naar XLSX-formaat. <sup>24.7</sup>
 * De publieke eigenschap [is_protected](https://reference.aspose.com/words/python-net/aspose.words.vba/vbaproject/is_protected/), waarmee u kunt verifiëren of een VBA-project beveiligd is, is toegevoegd. <sup>24.7</sup>
-* Lettertype-informatie is uitgebreid met de eigenschap EmbeddingLicensingRights die is toegevoegd aan de klassen FontInfo en PhysicalFontInfo. <sup>24.8</sup>
-* Er is een manier toegevoegd om sectiekopteksten en -voetteksten efficiënt te wissen en tegelijkertijd watermerken te behouden, zodat er nauwkeuriger met de documentstructuur kan worden gewerkt. Om sectiekopteksten en -voetteksten te wissen, gebruikt u de nieuwe openbare methode ClearHeadersFooters. <sup>24.8</sup>
-* Digitaal ondertekenen van XPS-documenten met XpsSaveOptions is ingeschakeld – een nieuwe eigenschap DigitalSignatureDetails is voor dit doel toegevoegd. <sup>24.8</sup>
+* Lettertype-informatie is uitgebreid met de eigenschap **embedding_licensing_rights** die is toegevoegd aan de klassen [FontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/) en [PhysicalFontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/physicalfontinfo/). <sup>24.8</sup>
+* Er is een manier toegevoegd om sectiekopteksten en -voetteksten efficiënt te wissen en tegelijkertijd watermerken te behouden, zodat er nauwkeuriger met de documentstructuur kan worden gewerkt. Om sectiekopteksten en -voetteksten te wissen, gebruikt u de nieuwe openbare methode [clear_headers_footers](https://reference.aspose.com/words/python-net/aspose.words/section/clear_headers_footers/#default). <sup>24.8</sup>
+* Digitaal ondertekenen van XPS-documenten met [XpsSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/) is ingeschakeld – een nieuwe eigenschap [digital_signature_details](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/digital_signature_details/) is voor dit doel toegevoegd. <sup>24.8</sup>
 
 {{% alert color="primary" %}}
 

@@ -57,15 +57,15 @@ Ein Setter für die öffentliche Eigenschaft [custom_number_style_format](https:
 
 #### Kontrolle über die Ausrichtung und Drehung der Achsenmarkierungsbeschriftungen des Diagramms <sup>24.8</sup>
 
-Für eine bequemere Diagrammanpassung wurde eine präzise Kontrolle über die Ausrichtung und Drehung der Achsenmarkierungsbeschriftungen des Diagramms hinzugefügt – die Klasse AxisTickLabels wurde um neue Eigenschaften für Ausrichtung und Drehung erweitert.
+Für eine bequemere Diagrammanpassung wurde eine präzise Kontrolle über die Ausrichtung und Drehung der Achsenmarkierungsbeschriftungen des Diagramms hinzugefügt – die Klasse [AxisTickLabels](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/) wurde um neue Eigenschaften für [orientation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/orientation/) und [rotation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/rotation/) erweitert.
 
 #### Ersetzen des Backslash durch das Yen-Zeichen <sup>24.8</sup>
 
-Der abwärtskompatible HTML- und XAML-Export zum Ersetzen des Backslash-Zeichens durch das Yen-Zeichen wurde verbessert. Um dies zu erreichen, wurde die Eigenschaft ReplaceBackslashWithYenSign den Klassen HtmlSaveOptions und XamlFlowSaveOptions hinzugefügt.
+Der abwärtskompatible HTML- und XAML-Export zum Ersetzen des Backslash-Zeichens durch das Yen-Zeichen wurde verbessert. Um dies zu erreichen, wurde die Eigenschaft **replace_backslash_with_yen_sign** den Klassen [HtmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/) und [XamlFlowSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xamlflowsaveoptions/) hinzugefügt.
 
 #### Verwenden von SDT-Tags als Formularfeldnamen beim Exportieren in PDF <sup>24.8</sup>
 
-Der PDF-Export mit Unterstützung für die Verwendung von SDT-Tags als Formularfeldnamen wurde durch Hinzufügen einer neuen Eigenschaft UseSdtTagAsFormFieldName zur Klasse PdfSaveOptions verbessert.
+Der PDF-Export mit Unterstützung für die Verwendung von SDT-Tags als Formularfeldnamen wurde durch Hinzufügen einer neuen Eigenschaft [use_sdt_tag_as_form_field_name](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/use_sdt_tag_as_form_field_name/) zur Klasse [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) verbessert.
 
 ### Konvertieren, Laden und Speichern von Dokumenten
 
@@ -75,7 +75,7 @@ Die Möglichkeit, den Export von Links im Markdown-Format zu steuern, wurde durc
 
 #### LowCode <sup>24.8</sup>
 
-Eine neue Klasse LowCode.Converter wurde eingeführt, die eine Reihe von Methoden zum Konvertieren verschiedener Dokumenttypen mit einer einzigen Codezeile bereitstellt.
+Eine neue Klasse [LowCode.Converter](https://reference.aspose.com/words/python-net/aspose.words.lowcode/converter/) wurde eingeführt, die eine Reihe von Methoden zum Konvertieren verschiedener Dokumenttypen mit einer einzigen Codezeile bereitstellt.
 
 ### Suchen und Vergleichen
 
@@ -91,9 +91,9 @@ Die Möglichkeit, Datenanalyse-Workflows mit verbesserten Vergleichsfunktionen z
 * Die LINQ Reporting Engine wurde verbessert. Es wurden selektiv leere Absätze entfernt und benutzerdefinierte Nachrichten für fehlende Objektmitglieder definiert, was zu übersichtlicheren und informativeren Berichten führt. <sup>24.6</sup>
 * Das Datums-/Uhrzeitformat wird jetzt automatisch erkannt, um einen nahtlosen Export in das XLSX-Format zu ermöglichen. <sup>24.7</sup>
 * Die öffentliche Eigenschaft [is_protected](https://reference.aspose.com/words/python-net/aspose.words.vba/vbaproject/is_protected/), mit der Sie überprüfen können, ob ein VBA-Projekt geschützt ist, wurde hinzugefügt. <sup>24.7</sup>
-* Die Schriftartinformationen wurden durch die Eigenschaft EmbeddingLicensingRights erweitert, die den Klassen FontInfo und PhysicalFontInfo hinzugefügt wurde. <sup>24.8</sup>
-* Eine Möglichkeit zum effizienten Löschen von Abschnittskopf- und -fußzeilen unter Beibehaltung von Wasserzeichen wurde hinzugefügt, um genauer mit der Dokumentstruktur arbeiten zu können. Verwenden Sie zum Löschen von Abschnittskopf- und -fußzeilen die neue öffentliche Methode ClearHeadersFooters. <sup>24.8</sup>
-* Die digitale Signatur von XPS-Dokumenten mit XpsSaveOptions wurde aktiviert – zu diesem Zweck wurde eine neue Eigenschaft DigitalSignatureDetails hinzugefügt. <sup>24.8</sup>
+* Die Schriftartinformationen wurden durch die Eigenschaft **embedding_licensing_rights** erweitert, die den Klassen [FontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/) und [PhysicalFontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/physicalfontinfo/) hinzugefügt wurde. <sup>24.8</sup>
+* Eine Möglichkeit zum effizienten Löschen von Abschnittskopf- und -fußzeilen unter Beibehaltung von Wasserzeichen wurde hinzugefügt, um genauer mit der Dokumentstruktur arbeiten zu können. Verwenden Sie zum Löschen von Abschnittskopf- und -fußzeilen die neue öffentliche Methode [clear_headers_footers](https://reference.aspose.com/words/python-net/aspose.words/section/clear_headers_footers/#default). <sup>24.8</sup>
+* Die digitale Signatur von XPS-Dokumenten mit [XpsSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/) wurde aktiviert – zu diesem Zweck wurde eine neue Eigenschaft [digital_signature_details](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/digital_signature_details/) hinzugefügt. <sup>24.8</sup>
 
 {{% alert color="primary" %}}
 

@@ -97,7 +97,7 @@ SDT タグをフォーム フィールド名として使用するサポートを
 * LINQ レポート エンジンが改良されました。空の段落を選択的に削除し、欠落しているオブジェクト メンバーのカスタム メッセージを定義することで、よりわかりやすく、より情報量の多いレポートを実現しました。<sup>24.6</sup>
 * XLSX 形式へのシームレスなエクスポートのために、日時形式が自動的に検出されるようになりました。 <sup>24.7</sup>
 * VBA プロジェクトが保護されているかどうかを確認できるパブリック プロパティ [IsProtected](https://reference.aspose.com/words/net/aspose.words.vba/vbaproject/isprotected/) が追加されました。<sup>24.7</sup>
-* フォント情報が拡張され、[FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/) クラスと [PhysicalFontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/physicalfontinfo/) クラスに EmbeddingLicensingRights プロパティが追加されました。 <sup>24.8</sup>
+* フォント情報が拡張され、[FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/) クラスと [PhysicalFontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/physicalfontinfo/) クラスに **EmbeddingLicensingRights** プロパティが追加されました。 <sup>24.8</sup>
 * ドキュメント構造をより正確に操作するために、透かしを保持しながらセクション ヘッダーとフッターを効率的にクリアする方法が追加されました。セクション ヘッダーとフッターをクリアするには、新しいパブリック メソッド [ClearHeadersFooters](https://reference.aspose.com/words/net/aspose.words/section/clearheadersfooters/) を使用します。<sup>24.8</sup>
 * [XpsSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xpssaveoptions/) を使用した XPS ドキュメントのデジタル署名が有効になりました。この目的のために、新しいプロパティ [DigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/xpssaveoptions/digitalsignaturedetails/) が追加されました。<sup>24.8</sup>
 

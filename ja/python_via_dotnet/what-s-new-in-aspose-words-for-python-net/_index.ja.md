@@ -59,15 +59,15 @@ Aspose.Words 24.8 では、軸ラベルを正確に制御してグラフのカ�
 
 #### グラフ軸目盛りラベルの方向と回転の制御 <sup>24.8</sup>
 
-グラフ軸目盛りラベルの方向と回転を正確に制御できるようになり、グラフのカスタマイズがさらに便利になりました。AxisTickLabels クラスが新しい Orientation プロパティと Rotation プロパティで拡張されました。
+グラフ軸目盛りラベルの方向と回転を正確に制御できるようになり、グラフのカスタマイズがさらに便利になりました。[AxisTickLabels](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/) クラスが新しい [orientation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/orientation/) プロパティと [rotation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/rotation/) プロパティで拡張されました。
 
 #### 円記号へのバックスラッシュの置き換え <sup>24.8</sup>
 
-バックスラッシュ文字を円記号に置き換えるための下位互換性のある HTML および XAML エクスポートが改善されました。これを実現するために、ReplaceBackslashWithYenSign プロパティが HtmlSaveOptions クラスと XamlFlowSaveOptions クラスに追加されました。
+バックスラッシュ文字を円記号に置き換えるための下位互換性のある HTML および XAML **replace_backslash_with_yen_sign** プロパティが [HtmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/) クラスと [XamlFlowSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xamlflowsaveoptions/) クラスに追加されました。
 
 #### PDF へのエクスポート時に SDT タグをフォーム フィールド名として使用する <sup>24.8</sup>
 
-SDT タグをフォーム フィールド名として使用するサポートを備えた PDF エクスポートが、PdfSaveOptions クラスに新しい UseSdtTagAsFormFieldName プロパティを追加することで強化されました。
+SDT タグをフォーム フィールド名として使用するサポートを備えた PDF [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) クラスに新しい [use_sdt_tag_as_form_field_name](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/use_sdt_tag_as_form_field_name/) プロパティを追加することで強化されました。
 
 ### ドキュメントの変換、読み込み、保存
 
@@ -77,7 +77,7 @@ SDT タグをフォーム フィールド名として使用するサポートを
 
 #### LowCode <sup>24.8</sup>
 
-1 行のコードでさまざまなドキュメント タイプを変換するための一連のメソッドを提供するように設計された新しい LowCode.Converter クラスが導入されました。
+1 行のコードでさまざまなドキュメント タイプを変換するための一連のメソッドを提供するように設計された新しい [LowCode.Converter](https://reference.aspose.com/words/python-net/aspose.words.lowcode/converter/) クラスが導入されました。
 
 ### 検索と比較
 
@@ -93,9 +93,9 @@ SDT タグをフォーム フィールド名として使用するサポートを
 * LINQ レポート エンジンが改良されました。空の段落を選択的に削除し、欠落しているオブジェクト メンバーのカスタム メッセージを定義することで、よりわかりやすく、より情報量の多いレポートを実現しました。<sup>24.6</sup>
 * XLSX 形式へのシームレスなエクスポートのために、日時形式が自動的に検出されるようになりました。 <sup>24.7</sup>
 * VBA プロジェクトが保護されているかどうかを確認できるパブリック プロパティ [is_protected](https://reference.aspose.com/words/python-net/aspose.words.vba/vbaproject/is_protected/) が追加されました。<sup>24.7</sup>
-* フォント情報が拡張され、FontInfo クラスと PhysicalFontInfo クラスに EmbeddingLicensingRights プロパティが追加されました。 <sup>24.8</sup>
-* ドキュメント構造をより正確に処理するために、透かしを保持しながらセクション ヘッダーとフッターを効率的にクリアする方法が追加されました。セクション ヘッダーとフッターをクリアするには、新しいパブリック メソッド ClearHeadersFooters を使用します。 <sup>24.8</sup>
-* XpsSaveOptions を使用した XPS ドキュメントのデジタル署名が有効になりました。この目的のために、新しいプロパティ DigitalSignatureDetails が追加されました。<sup>24.8</sup>
+* [FontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/) クラスと [PhysicalFontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/physicalfontinfo/) クラスに **embedding_licensing_rights** プロパティが追加されました。 <sup>24.8</sup>
+* ドキュメント構造をより正確に処理するために、透かしを保持しながらセクション ヘッダーとフッターを効率的にクリアする方法が追加されました。セクション ヘッダーとフッターをクリアするには、新しいパブリック メソッド [clear_headers_footers](https://reference.aspose.com/words/python-net/aspose.words/section/clear_headers_footers/#default) を使用します。 <sup>24.8</sup>
+* [XpsSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/) を使用した XPS ドキュメントのデジタル署名が有効になりました。この目的のために、新しいプロパティ [digital_signature_details](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/digital_signature_details/) が追加されました。<sup>24.8</sup>
 
 {{% alert color="primary" %}}
 

@@ -57,15 +57,15 @@ Penyetel untuk properti publik [custom_number_style_format](https://reference.as
 
 #### Kontrol Atas Orientasi dan Rotasi Label Centang Sumbu Bagan <sup>24.8</sup>
 
-Kontrol yang tepat atas orientasi dan rotasi label centang sumbu bagan telah ditambahkan untuk kustomisasi bagan yang lebih mudah – kelas AxisTickLabels telah diperluas dengan properti Orientasi dan Rotasi yang baru.
+Kontrol yang tepat atas orientasi dan rotasi label centang sumbu bagan telah ditambahkan untuk kustomisasi bagan yang lebih mudah – kelas [AxisTickLabels](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/) telah diperluas dengan properti [orientation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/orientation/) dan [rotation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/rotation/) yang baru.
 
 #### Mengganti Garis Miring Terbalik dengan Tanda Yen <sup>24.8</sup>
 
-Ekspor HTML dan XAML yang kompatibel dengan versi sebelumnya untuk mengganti karakter garis miring terbalik dengan tanda Yen telah ditingkatkan. Untuk mencapai hal ini, properti ReplaceBackslashWithYenSign telah ditambahkan ke kelas HtmlSaveOptions dan XamlFlowSaveOptions.
+Ekspor HTML dan XAML yang kompatibel dengan versi sebelumnya untuk mengganti karakter garis miring terbalik dengan tanda Yen telah ditingkatkan. Untuk mencapai hal ini, properti **replace_backslash_with_yen_sign** telah ditambahkan ke kelas [HtmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/) dan [XamlFlowSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xamlflowsaveoptions/).
 
 #### Menggunakan Tag SDT sebagai Nama Bidang Formulir saat Mengekspor ke PDF <sup>24.8</sup>
 
-Ekspor PDF dengan dukungan penggunaan tag SDT sebagai nama bidang formulir telah ditingkatkan dengan menambahkan properti UseSdtTagAsFormFieldName baru ke kelas PdfSaveOptions.
+Ekspor PDF dengan dukungan penggunaan tag SDT sebagai nama bidang formulir telah ditingkatkan dengan menambahkan properti [use_sdt_tag_as_form_field_name](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/use_sdt_tag_as_form_field_name/) baru ke kelas [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/).
 
 ### Mengonversi, Memuat, dan Menyimpan Dokumen
 
@@ -75,7 +75,7 @@ Kemampuan untuk mengontrol ekspor tautan dalam format Markdown telah ditambahkan
 
 #### LowCode <sup>24.8</sup>
 
-Kelas LowCode.Converter baru, yang dirancang untuk menyediakan serangkaian metode guna mengonversi berbagai jenis dokumen dengan satu baris kode, telah diperkenalkan.
+Kelas [LowCode.Converter](https://reference.aspose.com/words/python-net/aspose.words.lowcode/converter/) baru, yang dirancang untuk menyediakan serangkaian metode guna mengonversi berbagai jenis dokumen dengan satu baris kode, telah diperkenalkan.
 
 ### Cari dan Bandingkan
 
@@ -91,9 +91,9 @@ Kemampuan untuk menyederhanakan alur kerja analisis data dengan fungsionalitas p
 * Mesin Pelaporan LINQ telah ditingkatkan. Penghapusan selektif paragraf kosong dan definisi pesan khusus untuk anggota objek yang hilang telah dilakukan, menghasilkan laporan yang lebih bersih dan informatif. <sup>24.6</sup>
 * Format tanggalwaktu sekarang secara otomatis terdeteksi untuk ekspor tanpa batas ke format XLSX. <sup>24.7</sup>
 * Properti publik [is_protected](https://reference.aspose.com/words/python-net/aspose.words.vba/vbaproject/is_protected/), yang memungkinkan Anda memverifikasi apakah proyek VBA dilindungi, telah ditambahkan. <sup>24.7</sup>
-* Informasi font telah diperluas dengan properti EmbeddingLicensingRights yang ditambahkan ke kelas FontInfo dan PhysicalFontInfo. <sup>24.8</sup>
-* Cara untuk menghapus header dan footer bagian secara efisien sambil mempertahankan tanda air telah ditambahkan agar dapat bekerja dengan struktur dokumen secara lebih akurat. Untuk menghapus header dan footer bagian, gunakan metode publik baru ClearHeadersFooters. <sup>24.8</sup>
-* Penandatanganan digital dokumen XPS menggunakan XpsSaveOptions telah diaktifkan – properti baru DigitalSignatureDetails telah ditambahkan untuk tujuan ini. <sup>24.8</sup>
+* Informasi font telah diperluas dengan properti **embedding_licensing_rights** yang ditambahkan ke kelas [FontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/) dan [PhysicalFontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/physicalfontinfo/). <sup>24.8</sup>
+* Cara untuk menghapus header dan footer bagian secara efisien sambil mempertahankan tanda air telah ditambahkan agar dapat bekerja dengan struktur dokumen secara lebih akurat. Untuk menghapus header dan footer bagian, gunakan metode publik baru [clear_headers_footers](https://reference.aspose.com/words/python-net/aspose.words/section/clear_headers_footers/#default). <sup>24.8</sup>
+* Penandatanganan digital dokumen XPS menggunakan [XpsSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/) telah diaktifkan – properti baru [digital_signature_details](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/digital_signature_details/) telah ditambahkan untuk tujuan ini. <sup>24.8</sup>
 
 {{% alert color="primary" %}}
 

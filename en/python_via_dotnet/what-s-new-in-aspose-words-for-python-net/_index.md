@@ -57,15 +57,15 @@ A setter for the public property [custom_number_style_format](https://reference.
 
 #### Control Over the Chart Axis Tick Labels Orientation and Rotation <sup>24.8</sup>
 
-Precise control over the orientation and rotation of chart axis tick labels has been added for more convenient chart customization – the AxisTickLabels class has been extended with new Orientation and Rotation properties.
+Precise control over the orientation and rotation of chart axis tick labels has been added for more convenient chart customization – the [AxisTickLabels](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/) class has been extended with new [orientation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/orientation/) and [rotation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/rotation/) properties.
 
 #### Replacing the Backslash with the Yen Sign <sup>24.8</sup>
 
-The backwards compatible HTML and XAML export for replacing the backslash character with the Yen sign has been improved. To achieve this, the ReplaceBackslashWithYenSign property has been added to the HtmlSaveOptions and XamlFlowSaveOptions classes.
+The backwards compatible HTML and XAML export for replacing the backslash character with the Yen sign has been improved. To achieve this, the **replace_backslash_with_yen_sign** property has been added to the [HtmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/) and [XamlFlowSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xamlflowsaveoptions/) classes.
 
 #### Using SDT Tags as Form Field Names when Exporting to PDF <sup>24.8</sup>
 
-PDF export with support for using SDT tags as form field names has been enhanced by adding a new UseSdtTagAsFormFieldName property to the PdfSaveOptions class.
+PDF export with support for using SDT tags as form field names has been enhanced by adding a new [use_sdt_tag_as_form_field_name](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/use_sdt_tag_as_form_field_name/) property to the [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) class.
 
 ### Converting, Loading and Saving Documents
 
@@ -75,7 +75,7 @@ The ability to control the export of links in Markdown format has been added thr
 
 #### LowCode 24.8 <sup>24.8</sup>
 
-A new LowCode.Converter class, designed to provide a set of methods for converting various document types with a single line of code, has been introduced.
+A new [LowCode.Converter](https://reference.aspose.com/words/python-net/aspose.words.lowcode/converter/) class, designed to provide a set of methods for converting various document types with a single line of code, has been introduced.
 
 ### Search and Compare
 
@@ -91,9 +91,9 @@ The ability to streamline data analysis workflows with improved comparison funct
 * A new [date_time_utc](https://reference.aspose.com/words/python-net/aspose.words/comment/date_time_utc/) property has been added – this provides a more precise timestamp for comments, improving organization and traceability. <sup>24.6</sup>
 * The datetime format is now automatically detected for seamless export to XLSX format. <sup>24.7</sup>
 * The public property [is_protected](https://reference.aspose.com/words/python-net/aspose.words.vba/vbaproject/is_protected/), which allows you to verify whether a VBA project is protected, has been added. <sup>24.7</sup>
-* Font information has been expanded with the EmbeddingLicensingRights property added to the FontInfo and PhysicalFontInfo classes. <sup>24.8</sup>
-* A way to efficiently clear section headers and footers while preserving watermarks has been added to more accurately work with document structure. To clear section headers and footers, use the new public method ClearHeadersFooters. <sup>24.8</sup>
-* Digital signing of XPS documents using XpsSaveOptions has been enabled – a new property DigitalSignatureDetails has been added for this purpose. <sup>24.8</sup>
+* Font information has been expanded with the **embedding_licensing_rights** property added to the [FontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/) and [PhysicalFontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/physicalfontinfo/) classes. <sup>24.8</sup>
+* A way to efficiently clear section headers and footers while preserving watermarks has been added to more accurately work with document structure. To clear section headers and footers, use the new public method [clear_headers_footers](https://reference.aspose.com/words/python-net/aspose.words/section/clear_headers_footers/#default). <sup>24.8</sup>
+* Digital signing of XPS documents using [XpsSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/) has been enabled – a new property [digital_signature_details](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/digital_signature_details/) has been added for this purpose. <sup>24.8</sup>
 
 {{% alert color="primary" %}}
 

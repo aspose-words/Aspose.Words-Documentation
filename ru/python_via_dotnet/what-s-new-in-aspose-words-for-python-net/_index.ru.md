@@ -57,15 +57,15 @@ Aspose.Words 24.8 улучшает настройку диаграммы с по
 
 #### Управление ориентацией и поворотом меток делений осей диаграммы <sup>24.8</sup>
 
-Точный контроль над ориентацией и поворотом меток делений осей диаграммы был добавлен для более удобной настройки диаграммы — класс AxisTickLabels был расширен новыми свойствами ориентации и поворота.
+Точный контроль над ориентацией и поворотом меток делений осей диаграммы был добавлен для более удобной настройки диаграммы — класс [AxisTickLabels](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/) был расширен новыми свойствами [orientation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/orientation/) и [rotation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/rotation/).
 
 #### Замена обратной косой черты на знак йены <sup>24.8</sup>
 
-Улучшен обратно совместимый экспорт HTML и XAML для замены символа обратной косой черты на знак йены. Для этого в классы HtmlSaveOptions и XamlFlowSaveOptions добавлено свойство ReplaceBackslashWithYenSign.
+Улучшен обратно совместимый экспорт HTML и XAML для замены символа обратной косой черты на знак йены. Для этого в классы [HtmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/) и [XamlFlowSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xamlflowsaveoptions/) добавлено свойство **replace_backslash_with_yen_sign**.
 
 #### Использование тегов SDT в качестве имен полей формы при экспорте в PDF <sup>24.8</sup>
 
-Экспорт PDF с поддержкой использования тегов SDT в качестве имен полей формы был улучшен путем добавления нового свойства UseSdtTagAsFormFieldName в класс PdfSaveOptions.
+Экспорт PDF с поддержкой использования тегов SDT в качестве имен полей формы был улучшен путем добавления нового свойства [use_sdt_tag_as_form_field_name](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/use_sdt_tag_as_form_field_name/) в класс [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/).
 
 ### Преобразование, загрузка и сохранение документов
 
@@ -75,7 +75,7 @@ Aspose.Words 24.8 улучшает настройку диаграммы с по
 
 #### LowCode <sup>24.8</sup>
 
-Введен новый класс LowCode.Converter, предназначенный для предоставления набора методов для преобразования различных типов документов с помощью одной строки кода.
+Введен новый класс [LowCode.Converter](https://reference.aspose.com/words/python-net/aspose.words.lowcode/converter/), предназначенный для предоставления набора методов для преобразования различных типов документов с помощью одной строки кода.
 
 ### Поиск и сравнение
 
@@ -91,9 +91,9 @@ Aspose.Words 24.8 улучшает настройку диаграммы с по
 * Механизм отчетов LINQ был улучшен. Было произведено выборочное удаление пустых абзацев и определение пользовательских сообщений для отсутствующих членов объекта, что привело к более чистым и информативным отчетам. <sup>24.6</sup>
 * Формат даты и времени теперь автоматически определяется для беспрепятственного экспорта в формат XLSX. <sup>24.7</sup>
 * Добавлено общедоступное свойство [is_protected](https://reference.aspose.com/words/python-net/aspose.words.vba/vbaproject/is_protected/), которое позволяет проверить, защищен ли проект VBA. <sup>24.7</sup>
-* Информация о шрифтах была расширена с помощью свойства EmbeddingLicensingRights, добавленного в классы FontInfo и PhysicalFontInfo. <sup>24.8</sup>
-* Добавлен способ эффективной очистки верхних и нижних колонтитулов разделов с сохранением водяных знаков для более точной работы со структурой документа. Для очистки верхних и нижних колонтитулов разделов используйте новый публичный метод ClearHeadersFooters. <sup>24.8</sup>
-* Включено цифровое подписание документов XPS с помощью XpsSaveOptions — для этой цели добавлено новое свойство DigitalSignatureDetails. <sup>24.8</sup>
+* Информация о шрифтах была расширена с помощью свойства **embedding_licensing_rights**, добавленного в классы [FontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/) и [PhysicalFontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/physicalfontinfo/). <sup>24.8</sup>
+* Добавлен способ эффективной очистки верхних и нижних колонтитулов разделов с сохранением водяных знаков для более точной работы со структурой документа. Для очистки верхних и нижних колонтитулов разделов используйте новый публичный метод [clear_headers_footers](https://reference.aspose.com/words/python-net/aspose.words/section/clear_headers_footers/#default). <sup>24.8</sup>
+* Включено цифровое подписание документов XPS с помощью [XpsSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/) — для этой цели добавлено новое свойство [digital_signature_details](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/digital_signature_details/). <sup>24.8</sup>
 
 {{% alert color="primary" %}}
 

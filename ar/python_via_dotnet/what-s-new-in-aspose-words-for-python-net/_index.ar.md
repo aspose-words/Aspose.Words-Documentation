@@ -57,15 +57,15 @@ url: /ar/python-net/what-s-new-in-aspose-words-for-python-net/
 
 #### التحكم في اتجاه وتدوير تسميات علامات محور المخطط <sup>24.8</sup>
 
-تمت إضافة التحكم الدقيق في اتجاه وتدوير تسميات علامات محور المخطط لتخصيص المخطط بشكل أكثر ملاءمة - تم توسيع فئة AxisTickLabels بخصائص جديدة للتوجيه والتدوير.
+تمت إضافة التحكم الدقيق في اتجاه وتدوير علامات محور الرسم البياني لتسهيل تخصيص الرسم البياني بشكل أكثر ملاءمة - تم توسيع فئة [AxisTickLabels](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/) بخصائص [rotation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/rotation/) و[orientation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/orientation/) الجديدة.
 
 #### استبدال الشرطة المائلة للخلف بعلامة الين <sup>24.8</sup>
 
-تم تحسين التصدير المتوافق مع HTML وXAML للخلف لاستبدال حرف الشرطة المائلة للخلف بعلامة الين. لتحقيق ذلك، تمت إضافة الخاصية ReplaceBackslashWithYenSign إلى فئتي HtmlSaveOptions وXamlFlowSaveOptions.
+تم تحسين التصدير المتوافق مع HTML وXAML للخلف لاستبدال حرف الشرطة المائلة للخلف بعلامة الين. لتحقيق ذلك، تمت إضافة الخاصية **replace_backslash_with_yen_sign** إلى فئتي [HtmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/) [XamlFlowSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xamlflowsaveoptions/).
 
 #### استخدام علامات SDT كأسماء لحقول النماذج عند التصدير إلى PDF <sup>24.8</sup>
 
-تم تحسين تصدير PDF مع دعم استخدام علامات SDT كأسماء لحقول النماذج من خلال إضافة خاصية UseSdtTagAsFormFieldName جديدة إلى فئة PdfSaveOptions.
+تم تحسين تصدير PDF مع دعم استخدام علامات SDT كأسماء لحقول النماذج من خلال إضافة خاصية [use_sdt_tag_as_form_field_name](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/use_sdt_tag_as_form_field_name/) جديدة إلى فئة [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/).
 
 ### تحويل المستندات وتحميلها وحفظها
 
@@ -75,7 +75,7 @@ url: /ar/python-net/what-s-new-in-aspose-words-for-python-net/
 
 #### LowCode <sup>24.8</sup>
 
-تم تقديم فئة LowCode.Converter جديدة، مصممة لتوفير مجموعة من الطرق لتحويل أنواع المستندات المختلفة بسطر واحد من التعليمات البرمجية.
+تم تقديم فئة [LowCode.Converter](https://reference.aspose.com/words/python-net/aspose.words.lowcode/converter/) جديدة، مصممة لتوفير مجموعة من الطرق لتحويل أنواع المستندات المختلفة بسطر واحد من التعليمات البرمجية.
 
 ### بحث ومقارنة
 
@@ -91,9 +91,9 @@ url: /ar/python-net/what-s-new-in-aspose-words-for-python-net/
 * تم تحسين محرك تقارير LINQ. تم إجراء إزالة انتقائية للفقرات الفارغة وتعريف الرسائل المخصصة لأعضاء الكائنات المفقودة، مما يؤدي إلى تقارير أكثر وضوحًا وإفادة. <sup>24.6</sup>
 * تم الآن اكتشاف تنسيق التاريخ والوقت تلقائيًا للتصدير السلس إلى تنسيق XLSX. <sup>24.7</sup>
 * تمت إضافة الخاصية العامة [is_protected](https://reference.aspose.com/words/python-net/aspose.words.vba/vbaproject/is_protected/)، والتي تسمح لك بالتحقق مما إذا كان مشروع VBA محميًا أم لا. <sup>24.7</sup>
-* تم توسيع معلومات الخط بإضافة الخاصية EmbeddingLicensingRights إلى فئتي FontInfo وPhysicalFontInfo. <sup>24.8</sup>
-* تمت إضافة طريقة لمسح رؤوس وتذييلات الأقسام بكفاءة مع الحفاظ على العلامات المائية للعمل بشكل أكثر دقة مع بنية المستند. لمسح رؤوس وتذييلات الأقسام، استخدم الطريقة العامة الجديدة ClearHeadersFooters. <sup>24.8</sup>
-* تم تمكين التوقيع الرقمي لمستندات XPS باستخدام XpsSaveOptions - تمت إضافة خاصية جديدة DigitalSignatureDetails لهذا الغرض. <sup>24.8</sup>
+* تم توسيع معلومات الخط بإضافة الخاصية **embedding_licensing_rights** إلى فئتي [FontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/) [PhysicalFontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/physicalfontinfo/). <sup>24.8</sup>
+* تمت إضافة طريقة لمسح رؤوس وتذييلات الأقسام بكفاءة مع الحفاظ على العلامات المائية للعمل بشكل أكثر دقة مع بنية المستند. لمسح رؤوس وتذييلات الأقسام، استخدم الطريقة العامة الجديدة [clear_headers_footers](https://reference.aspose.com/words/python-net/aspose.words/section/clear_headers_footers/#default). <sup>24.8</sup>
+* تم تمكين التوقيع الرقمي لمستندات XPS باستخدام [XpsSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/) - تمت إضافة خاصية جديدة [digital_signature_details](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/digital_signature_details/) لهذا الغرض. <sup>24.8</sup>
 
 {{% alert color="primary" %}}
 

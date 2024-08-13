@@ -95,7 +95,7 @@ Aspose.Words 24.8 通过对轴标签的精确控制增强了图表定制功能�
 * LINQ 报告引擎已得到改进。选择性删除了空段落，并为缺失的对象成员定义了自定义消息，从而生成了更清晰、更具信息量的报告。<sup>24.6</sup>
 * 现在可以自动检测日期时间格式，以便无缝导出为 XLSX 格式。 <sup>24.7</sup>
 * 添加了公共属性 [IsProtected](https://reference.aspose.com/words/net/aspose.words.vba/vbaproject/isprotected/)，可用于验证 VBA 项目是否受保护。<sup>24.7</sup>
-* 字体信息已扩展，EmbeddingLicensingRights 属性已添加到 [FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/) 和 [PhysicalFontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/physicalfontinfo/) 类。<sup>24.8</sup>
+* 字体信息已扩展，**EmbeddingLicensingRights** 属性已添加到 [FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/) 和 [PhysicalFontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/physicalfontinfo/) 类。<sup>24.8</sup>
 * 已添加一种有效清除节页眉和页脚同时保留水印的方法，以便更准确地处理文档结构。要清除节页眉和页脚，请使用新的公共方法 [ClearHeadersFooters](https://reference.aspose.com/words/net/aspose.words/section/clearheadersfooters/)。 <sup>24.8</sup>
 * 已启用使用 [XpsSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xpssaveoptions/) 对 XPS 文档进行数字签名的功能 - 为此添加了一个新属性 [DigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/xpssaveoptions/digitalsignaturedetails/)。<sup>24.8</sup>
 

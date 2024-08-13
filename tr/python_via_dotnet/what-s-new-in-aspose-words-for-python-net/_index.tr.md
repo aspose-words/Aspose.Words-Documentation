@@ -57,15 +57,15 @@ Sürüm 24.7'den başlayarak, engelli kullanıcıların erişilebilirliğini sa�
 
 #### Grafik Eksen İşaret Etiketleri Yönlendirme ve Döndürme Üzerinde Kontrol <sup>24.8</sup>
 
-Daha rahat grafik özelleştirmesi için grafik eksen işaret etiketlerinin yönlendirmesi ve döndürmesi üzerinde hassas kontrol eklendi - AxisTickLabels sınıfı yeni Yönlendirme ve Döndürme özellikleriyle genişletildi.
+Daha rahat grafik özelleştirmesi için grafik eksen işaret etiketlerinin yönlendirmesi ve döndürmesi üzerinde hassas kontrol eklendi - [AxisTickLabels](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/) sınıfı yeni [orientation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/orientation/) ve [rotation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/rotation/) özellikleriyle genişletildi.
 
 #### Ters Eğik Çizgiyi Yen İşaretiyle Değiştirme <sup>24.8</sup>
 
-Ters eğik çizgi karakterini Yen işaretiyle değiştirmek için geriye dönük uyumlu HTML ve XAML dışa aktarma geliştirildi. Bunu başarmak için HtmlSaveOptions ve XamlFlowSaveOptions sınıflarına ReplaceBackslashWithYenSign özelliği eklendi.
+Ters eğik çizgi karakterini Yen işaretiyle değiştirmek için geriye dönük uyumlu HTML ve XAML dışa aktarma geliştirildi. Bunu başarmak için [HtmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/) ve [XamlFlowSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xamlflowsaveoptions/) sınıflarına **replace_backslash_with_yen_sign** özelliği eklendi.
 
 #### PDF'ye Aktarırken Form Alan Adları Olarak SDT Etiketlerinin Kullanılması <sup>24.8</sup>
 
-SDT etiketlerini form alan adları olarak kullanma desteğine sahip PDF dışa aktarma, PdfSaveOptions sınıfına yeni bir UseSdtTagAsFormFieldName özelliği eklenerek geliştirildi.
+SDT etiketlerini form alan adları olarak kullanma desteğine sahip PDF dışa aktarma, [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) sınıfına yeni bir [use_sdt_tag_as_form_field_name](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/use_sdt_tag_as_form_field_name/) özelliği eklenerek geliştirildi.
 
 ### Belgeleri Dönüştürme, Yükleme ve Kaydetme
 
@@ -75,7 +75,7 @@ SDT etiketlerini form alan adları olarak kullanma desteğine sahip PDF dışa a
 
 #### LowCode <sup>24.8</sup>
 
-Tek bir kod satırıyla çeşitli belge türlerini dönüştürmek için bir dizi yöntem sağlamak üzere tasarlanmış yeni bir LowCode.Converter sınıfı tanıtıldı.
+Tek bir kod satırıyla çeşitli belge türlerini dönüştürmek için bir dizi yöntem sağlamak üzere tasarlanmış yeni bir [LowCode.Converter](https://reference.aspose.com/words/python-net/aspose.words.lowcode/converter/) sınıfı tanıtıldı.
 
 ### Ara ve Karşılaştır
 
@@ -91,9 +91,9 @@ Geliştirilmiş karşılaştırma işlevselliğiyle veri analizi iş akışları
 * LINQ Raporlama Motoru geliştirildi. Boş paragrafların seçici olarak kaldırılması ve eksik nesne üyeleri için özel mesajların tanımlanması yapılarak daha temiz ve daha bilgilendirici raporlar elde edildi. <sup>24.6</sup>
 * XLSX formatına sorunsuz aktarım için tarihsaat formatı artık otomatik olarak algılanıyor. <sup>24.7</sup>
 * Bir VBA projesinin korunup korunmadığını doğrulamanıza olanak tanıyan genel mülk [is_protected](https://reference.aspose.com/words/python-net/aspose.words.vba/vbaproject/is_protected/) eklendi. <sup>24.7</sup>
-* FontInfo ve PhysicalFontInfo sınıflarına eklenen EmbeddingLicensingRights özelliğiyle yazı tipi bilgileri genişletildi. <sup>24.8</sup>
-* Belge yapısıyla daha doğru bir şekilde çalışmak için filigranları korurken bölüm başlıklarını ve altbilgilerini etkili bir şekilde temizlemenin bir yolu eklendi. Bölüm başlıklarını ve altbilgilerini temizlemek için yeni genel yöntem olan ClearHeadersFooters'ı kullanın. <sup>24.8</sup>
-* XPS belgelerinin XpsSaveOptions kullanılarak dijital olarak imzalanması etkinleştirildi – bu amaçla yeni bir özellik olan DigitalSignatureDetails eklendi. <sup>24.8</sup>
+* [FontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/) ve [PhysicalFontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/physicalfontinfo/) sınıflarına eklenen **embedding_licensing_rights** özelliğiyle yazı tipi bilgileri genişletildi. <sup>24.8</sup>
+* Belge yapısıyla daha doğru bir şekilde çalışmak için filigranları korurken bölüm başlıklarını ve altbilgilerini etkili bir şekilde temizlemenin bir yolu eklendi. Bölüm başlıklarını ve altbilgilerini temizlemek için yeni genel yöntem olan [clear_headers_footers](https://reference.aspose.com/words/python-net/aspose.words/section/clear_headers_footers/#default)'ı kullanın. <sup>24.8</sup>
+* XPS belgelerinin [XpsSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/) kullanılarak dijital olarak imzalanması etkinleştirildi – bu amaçla yeni bir özellik olan [digital_signature_details](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/digital_signature_details/) eklendi. <sup>24.8</sup>
 
 {{% alert color="primary" %}}
 

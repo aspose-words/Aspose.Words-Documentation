@@ -57,15 +57,15 @@ Aspose.Words 24.8은 축 레이블을 정확하게 제어하여 차트 사용자
 
 #### 차트 축 눈금 레이블 방향 및 회전 제어 <sup>24.8</sup>
 
-차트 축 눈금 레이블의 방향 및 회전을 정확하게 제어하여 더욱 편리한 차트 사용자 지정이 가능해졌습니다. AxisTickLabels 클래스가 새로운 Orientation 및 Rotation 속성으로 확장되었습니다.
+차트 축 눈금 레이블의 방향 및 회전을 정확하게 제어하여 더욱 편리한 차트 사용자 지정이 가능해졌습니다. [AxisTickLabels](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/) 클래스가 새로운 [orientation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/orientation/) 및 [rotation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/rotation/) 속성으로 확장되었습니다.
 
 #### 백슬래시를 엔 기호로 바꾸기 <sup>24.8</sup>
 
-백슬래시 문자를 엔 기호로 바꾸기 위한 이전 버전과의 호환되는 HTML 및 XAML 내보내기가 개선되었습니다. 이를 달성하기 위해 HtmlSaveOptions 및 XamlFlowSaveOptions 클래스에 ReplaceBackslashWithYenSign 속성이 추가되었습니다.
+백슬래시 문자를 엔 기호로 바꾸기 위한 이전 버전과의 호환되는 HTML 및 XAML 내보내기가 개선되었습니다. 이를 달성하기 위해 [HtmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/) 및 [XamlFlowSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xamlflowsaveoptions/) 클래스에 **replace_backslash_with_yen_sign** 속성이 추가되었습니다.
 
 #### PDF로 내보낼 때 SDT 태그를 양식 필드 이름으로 사용 <sup>24.8</sup>
 
-SDT 태그를 양식 필드 이름으로 사용하는 기능이 포함된 PDF 내보내기가 PdfSaveOptions 클래스에 새로운 UseSdtTagAsFormFieldName 속성을 추가하여 향상되었습니다.
+SDT 태그를 양식 필드 이름으로 사용하는 기능이 포함된 PDF 내보내기가 [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) 클래스에 새로운 [use_sdt_tag_as_form_field_name](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/use_sdt_tag_as_form_field_name/) 속성을 추가하여 향상되었습니다.
 
 ### 문서 변환, 로드 및 저장
 
@@ -75,7 +75,7 @@ SDT 태그를 양식 필드 이름으로 사용하는 기능이 포함된 PDF �
 
 #### LowCode <sup>24.8</sup>
 
-한 줄의 코드로 다양한 문서 유형을 변환하는 메서드 집합을 제공하도록 설계된 새로운 LowCode.Converter 클래스가 도입되었습니다.
+한 줄의 코드로 다양한 문서 유형을 변환하는 메서드 집합을 제공하도록 설계된 새로운 [LowCode.Converter](https://reference.aspose.com/words/python-net/aspose.words.lowcode/converter/) 클래스가 도입되었습니다.
 
 ### 검색 및 비교
 
@@ -91,9 +91,9 @@ SDT 태그를 양식 필드 이름으로 사용하는 기능이 포함된 PDF �
 * LINQ 보고 엔진이 개선되었습니다. 빈 단락을 선택적으로 제거하고 누락된 개체 구성원에 대한 사용자 정의 메시지를 정의하여 더욱 깔끔하고 유익한 보고서를 제공합니다. <sup>24.6</sup>
 * 이제 XLSX 형식으로 원활하게 내보내기 위해 날짜/시간 형식이 자동으로 감지됩니다. <sup>24.7</sup>
 * VBA 프로젝트가 보호되는지 확인할 수 있는 공용 속성 [is_protected](https://reference.aspose.com/words/python-net/aspose.words.vba/vbaproject/is_protected/) 가 추가되었습니다. <sup>24.7</sup>
-* FontInfo 및 PhysicalFontInfo 클래스에 EmbeddingLicensingRights 속성이 추가되어 글꼴 정보가 확장되었습니다. <sup>24.8</sup>
-* 워터마크를 유지하면서 섹션 머리글과 바닥글을 효율적으로 지우는 방법이 추가되어 문서 구조에서 보다 정확하게 작업할 수 있습니다. 섹션 머리글과 바닥글을 지우려면 새로운 공개 메서드 ClearHeadersFooters를 사용합니다. <sup>24.8</sup>
-* XpsSaveOptions를 사용한 XPS 문서의 디지털 서명이 활성화되었습니다. 이 목적을 위해 새로운 속성 DigitalSignatureDetails가 추가되었습니다. <sup>24.8</sup>
+* [FontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/) 및 [PhysicalFontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/physicalfontinfo/) 클래스에 **embedding_licensing_rights** 속성이 추가되어 글꼴 정보가 확장되었습니다. <sup>24.8</sup>
+* 워터마크를 유지하면서 섹션 머리글과 바닥글을 효율적으로 지우는 방법이 추가되어 문서 구조에서 보다 정확하게 작업할 수 있습니다. 섹션 머리글과 바닥글을 지우려면 새로운 공개 메서드 [clear_headers_footers](https://reference.aspose.com/words/python-net/aspose.words/section/clear_headers_footers/#default) 사용합니다. <sup>24.8</sup>
+* [XpsSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/) 사용한 XPS 문서의 디지털 서명이 활성화되었습니다. 이 목적을 위해 새로운 속성 [digital_signature_details](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/digital_signature_details/) 추가되었습니다. <sup>24.8</sup>
 
 {{% alert color="primary" %}}
 

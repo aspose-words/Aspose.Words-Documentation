@@ -57,15 +57,15 @@ Aspose.Words 24.8 משפר התאמה אישית של תרשים עם שליטה
 
 #### שליטה על ציר התרשים תוויות תווית כיוון וסיבוב <sup>24.8</sup>
 
-שליטה מדויקת על הכיוון והסיבוב של תוויות ציר תרשים נוספה להתאמה אישית נוחה יותר של תרשים - מחלקת AxisTickLabels הורחבה עם מאפייני כיוון וסיבוב חדשים.
+נוספה שליטה מדויקת על הכיוון והסיבוב של תוויות סימון ציר תרשים להתאמה אישית נוחה יותר – מחלקת [AxisTickLabels](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/) הורחבה עם מאפיינים חדשים של [orientation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/orientation/) ו[rotation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/rotation/).
 
 #### החלפת הנטוי האחורי בסימן הין <sup>24.8</sup>
 
-ייצוא HTML ו-XAML התואם לאחור להחלפת תו האחורי בסימן Yen שופר. כדי להשיג זאת, המאפיין ReplaceBackslashWithYenSign נוסף למחלקות HtmlSaveOptions ו-XamlFlowSaveOptions.
+ייצוא HTML ו-XAML התואם לאחור להחלפת תו האחורי בסימן Yen שופר. כדי להשיג זאת, המאפיין **replace_backslash_with_yen_sign** נוסף למחלקות [HtmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/) ו-[XamlFlowSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xamlflowsaveoptions/).
 
 #### שימוש בתגי SDT בתור שמות שדות טופס בעת ייצוא ל-PDF <sup>24.8</sup>
 
-ייצוא PDF עם תמיכה בשימוש בתגי SDT כשמות שדות טופס שופר על ידי הוספת מאפיין UseSdtTagAsFormFieldName חדש למחלקה PdfSaveOptions.
+ייצוא PDF עם תמיכה בשימוש בתגי SDT כשמות שדות טופס שופר על ידי הוספת מאפיין [use_sdt_tag_as_form_field_name](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/use_sdt_tag_as_form_field_name/) חדש למחלקה [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/).
 
 ### המרה, טעינה ושמירה של מסמכים
 
@@ -75,7 +75,7 @@ Aspose.Words 24.8 משפר התאמה אישית של תרשים עם שליטה
 
 #### LowCode <sup>24.8</sup>
 
-הוצגה מחלקה חדשה LowCode.Converter, שנועדה לספק סט של שיטות להמרת סוגי מסמכים שונים באמצעות שורת קוד אחת.
+הוצגה מחלקה חדשה [LowCode.Converter](https://reference.aspose.com/words/python-net/aspose.words.lowcode/converter/), שנועדה לספק סט של שיטות להמרת סוגי מסמכים שונים באמצעות שורת קוד אחת.
 
 ### חפש והשווה
 
@@ -91,9 +91,9 @@ Aspose.Words 24.8 משפר התאמה אישית של תרשים עם שליטה
 * מנוע הדיווח LINQ שופר. בוצעו הסרה סלקטיבית של פסקאות ריקות והגדרה של הודעות מותאמות אישית עבור חברי אובייקט חסרים, מה שהוביל לדוחות נקיים ואינפורמטיביים יותר. <sup>24.6</sup>
 * פורמט התאריך והשעה מזוהה כעת באופן אוטומטי לייצוא חלק לפורמט XLSX. <sup>24.7</sup>
 * הנכס הציבורי [is_protected](https://reference.aspose.com/words/python-net/aspose.words.vba/vbaproject/is_protected/), המאפשר לך לוודא אם פרויקט VBA מוגן, נוסף. <sup>24.7</sup>
-* מידע הגופנים הורחב עם המאפיין EmbeddingLicensingRights שהתווסף למחלקות FontInfo ו-PhysicalFontInfo. <sup>24.8</sup>
-* דרך לנקות ביעילות כותרות עליונות ותחתונות של מקטעים תוך שמירה על סימני מים נוספה לעבודה מדויקת יותר עם מבנה המסמך. כדי לנקות כותרות עליונות ותחתונות של סעיפים, השתמש בשיטה הציבורית החדשה ClearHeadersFooters. <sup>24.8</sup>
-* הופעלה חתימה דיגיטלית של מסמכי XPS באמצעות XpsSaveOptions - מאפיין חדש DigitalSignatureDetails נוסף למטרה זו. <sup>24.8</sup>
+* מידע הגופנים הורחב עם המאפיין **embedding_licensing_rights** שהתווסף למחלקות [FontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/) ו-[PhysicalFontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/physicalfontinfo/). <sup>24.8</sup>
+* דרך לנקות ביעילות כותרות עליונות ותחתונות של מקטעים תוך שמירה על סימני מים נוספה לעבודה מדויקת יותר עם מבנה המסמך. כדי לנקות כותרות עליונות ותחתונות של סעיפים, השתמש בשיטה הציבורית החדשה [clear_headers_footers](https://reference.aspose.com/words/python-net/aspose.words/section/clear_headers_footers/#default). <sup>24.8</sup>
+* הופעלה חתימה דיגיטלית של מסמכי XPS באמצעות [XpsSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/) - מאפיין חדש [digital_signature_details](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/digital_signature_details/) נוסף למטרה זו. <sup>24.8</sup>
 
 {{% alert color="primary" %}}
 

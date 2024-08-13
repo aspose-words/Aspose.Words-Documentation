@@ -95,7 +95,7 @@ url: /ar/net/what-s-new-in-aspose-words-for-net/
 * تم تحسين محرك تقارير LINQ. تم إجراء إزالة انتقائية للفقرات الفارغة وتعريف الرسائل المخصصة لأعضاء الكائنات المفقودة، مما يؤدي إلى تقارير أكثر وضوحًا وإفادة. <sup>24.6</sup>
 * تم الآن اكتشاف تنسيق التاريخ والوقت تلقائيًا للتصدير السلس إلى تنسيق XLSX. <sup>24.7</sup>
 * تمت إضافة الخاصية العامة [IsProtected](https://reference.aspose.com/words/net/aspose.words.vba/vbaproject/isprotected/)، والتي تسمح لك بالتحقق مما إذا كان مشروع VBA محميًا أم لا. <sup>24.7</sup>
-* تم توسيع معلومات الخط بإضافة خاصية EmbeddingLicensingRights إلى فئتي [FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/) و[PhysicalFontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/physicalfontinfo/). <sup>24.8</sup>
+* تم توسيع معلومات الخط بإضافة خاصية **EmbeddingLicensingRights** إلى فئتي [FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/) و[PhysicalFontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/physicalfontinfo/). <sup>24.8</sup>
 * تمت إضافة طريقة لمسح رؤوس وتذييلات الأقسام بكفاءة مع الحفاظ على العلامات المائية للعمل بشكل أكثر دقة مع بنية المستند. لمسح رؤوس وتذييلات الأقسام، استخدم الطريقة العامة الجديدة [ClearHeadersFooters](https://reference.aspose.com/words/net/aspose.words/section/clearheadersfooters/). <sup>24.8</sup>
 * تم تمكين التوقيع الرقمي لمستندات XPS باستخدام [XpsSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xpssaveoptions/) - تمت إضافة خاصية جديدة [DigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/xpssaveoptions/digitalsignaturedetails/) لهذا الغرض. <sup>24.8</sup>
 

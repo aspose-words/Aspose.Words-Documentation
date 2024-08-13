@@ -95,7 +95,7 @@ Aspose.Words 24.8 سفارشی‌سازی نمودار را با کنترل دق
 * موتور گزارش LINQ بهبود یافته است. حذف انتخابی پاراگراف‌های خالی و تعریف پیام‌های سفارشی برای اعضای شی از دست رفته انجام شده است که منجر به گزارش‌های تمیزتر و آموزنده‌تر می‌شود. <sup>24.6</sup>
 * فرمت datetime اکنون به طور خودکار برای صادرات بدون درز به فرمت XLSX شناسایی می شود. <sup>24.7</sup>
 * دارایی عمومی [IsProtected](https://reference.aspose.com/words/net/aspose.words.vba/vbaproject/isprotected/)، که به شما امکان می دهد تأیید کنید که پروژه VBA محافظت شده است، اضافه شده است. <sup>24.7</sup>
-* اطلاعات فونت با ویژگی EmbeddingLicensingRights اضافه شده به [FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/) و [PhysicalFontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/physicalfontinfo/). <sup>24.8</sup>
+* اطلاعات فونت با ویژگی **EmbeddingLicensingRights** اضافه شده به [FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/) و [PhysicalFontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/physicalfontinfo/). <sup>24.8</sup>
 * راهی برای پاک کردن کارآمد سرصفحه ها و پاورقی های بخش با حفظ واترمارک ها برای کار دقیق تر با ساختار سند اضافه شده است. برای پاک کردن سرصفحه و پاورقی بخش، از روش عمومی جدید [ClearHeadersFooters](https://reference.aspose.com/words/net/aspose.words/section/clearheadersfooters/) استفاده کنید. <sup>24.8</sup>
 * امضای دیجیتال اسناد XPS با استفاده از [XpsSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xpssaveoptions/) فعال شده است - یک ویژگی جدید [DigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/xpssaveoptions/digitalsignaturedetails/) اضافه شده است. <sup>24.8</sup>
 
