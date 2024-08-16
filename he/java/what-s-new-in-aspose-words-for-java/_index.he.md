@@ -11,13 +11,15 @@ url: /he/java/what-s-new-in-aspose-words-for-java/
 
 דף זה מתאר את החדש המעניין ביותר Aspose.Words תכונות שהוצגו במהדורות האחרונות.
 
-## Aspose.Words עבור Java 24.5, 24.6, 24.7
+## Aspose.Words עבור Java 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 מרחיב אפשרויות למכלולים, משפר את יכולות העיבוד ומרחיב כמה אפשרויות אחרות.
 
 Aspose.Words 24.6 משפר את אפשרויות העיבוד, משפר את פונקציונליות החיפוש וההשוואה ומרחיב מספר תכונות אחרות.
 
 Aspose.Words 24.7 משנה את אופן העבודה עם ActiveX, מרחיב את יכולות העיבוד, כמו גם ייצוא לפורמטים Markdown ו-XLSX.
+
+Aspose.Words 24.8 משפר התאמה אישית של תרשים עם שליטה מדויקת על תוויות ציר, מרחיב את ניהול הגופנים, משפר את הטיפול במבנה המסמכים ומוסיף יכולות חדשות ליצוא HTML/XAML, פונקציונליות PDF, המרת מסמכים וחתימות דיגיטליות.
 
 ### פורמטים נתמכים
 
@@ -53,11 +55,27 @@ Aspose.Words 24.7 משנה את אופן העבודה עם ActiveX, מרחיב �
 * נוספה היכולת לשנות את הערך של כפתור הבחירה ActiveX כדי לאפשר אינטראקציה דינמית.
 * נוספה היכולת להעביר תיבת סימון של ActiveX ל"מסומנת" או "לא מסומנת".
 
-### טעינה ושמירה של מסמכים
+#### שליטה על ציר התרשים תוויות תווית כיוון וסיבוב <sup>24.8</sup>
+
+נוספה שליטה מדויקת על הכיוון והסיבוב של תוויות סימון ציר תרשים להתאמה אישית נוחה יותר – מחלקת [AxisTickLabels](https://reference.aspose.com/words/java/com.aspose.words/axisticklabels/) הורחבה עם מאפיינים חדשים של **Orientation** ו **Rotation**.
+
+#### החלפת הנטוי האחורי בסימן הין <sup>24.8</sup>
+
+ייצוא HTML ו-XAML התואם לאחור להחלפת תו האחורי בסימן Yen שופר. כדי להשיג זאת, המאפיין **ReplaceBackslashWithYenSign** נוסף למחלקות [HtmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/) ו-[XamlFlowSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/).
+
+#### שימוש בתגי SDT בתור שמות שדות טופס בעת ייצוא ל-PDF <sup>24.8</sup>
+
+ייצוא PDF עם תמיכה בשימוש בתגי SDT כשמות שדות טופס שופר על ידי הוספת מאפיין **UseSdtTagAsFormFieldName** חדש למחלקה [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/).
+
+### המרה, טעינה ושמירה של מסמכים
 
 #### ייצוא קישורים לפורמט Markdown <sup>24.7</sup>
 
 היכולת לשלוט בייצוא של קישורים בפורמט Markdown נוספה באמצעות יישום המאפיין [LinkExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getLinkExportMode).
+
+#### LowCode <sup>24.8</sup>
+
+הוצגה מחלקה חדשה **LowCode.Converter**, שנועדה לספק סט של שיטות להמרת סוגי מסמכים שונים באמצעות שורת קוד אחת.
 
 ### חפש והשווה
 
@@ -73,6 +91,9 @@ Aspose.Words 24.7 משנה את אופן העבודה עם ActiveX, מרחיב �
 * מנוע הדיווח LINQ שופר. בוצעו הסרה סלקטיבית של פסקאות ריקות והגדרה של הודעות מותאמות אישית עבור חברי אובייקט חסרים, מה שהוביל לדוחות נקיים ואינפורמטיביים יותר. <sup>24.6</sup>
 * פורמט התאריך והשעה מזוהה כעת באופן אוטומטי לייצוא חלק לפורמט XLSX. <sup>24.7</sup>
 * הנכס הציבורי [IsProtected](https://reference.aspose.com/words/java/com.aspose.words/vbaproject/#isProtected), המאפשר לך לוודא אם פרויקט VBA מוגן, נוסף. <sup>24.7</sup>
+* מידע הגופנים הורחב עם המאפיין **EmbeddingLicensingRights** שהתווסף למחלקות [FontInfo](https://reference.aspose.com/words/java/com.aspose.words/fontinfo/) ו-[PhysicalFontInfo](https://reference.aspose.com/words/java/com.aspose.words/physicalfontinfo/). <sup>24.8</sup>
+* דרך לנקות ביעילות כותרות עליונות ותחתונות של מקטעים תוך שמירה על סימני מים נוספה לעבודה מדויקת יותר עם מבנה המסמך. כדי לנקות כותרות עליונות ותחתונות של סעיפים, השתמש בשיטה הציבורית החדשה **ClearHeadersFooters**. <sup>24.8</sup>
+* הופעלה חתימה דיגיטלית של מסמכי XPS באמצעות [XpsSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xpssaveoptions/) - מאפיין חדש **DigitalSignatureDetails** נוסף למטרה זו. <sup>24.8</sup>
 
 {{% alert color="primary" %}}
 
@@ -81,6 +102,8 @@ Aspose.Words 24.7 משנה את אופן העבודה עם ActiveX, מרחיב �
 למידע נוסף על [Aspose.Words for Java 24.6 Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-6-release-notes/).
 
 למידע נוסף על [Aspose.Words for Java 24.7 Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-7-release-notes/).
+
+למידע נוסף על [Aspose.Words for Java 24.8 Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-8-release-notes/).
 
 {{% /alert %}}
 

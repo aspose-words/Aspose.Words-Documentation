@@ -11,13 +11,15 @@ url: /de/java/what-s-new-in-aspose-words-for-java/
 
 Diese Seite beschreibt das interessanteste Neues Aspose.Words Funktionen, die in den letzten Versionen eingeführt wurden.
 
-## Aspose.Words für Java 24.5, 24.6, 24.7
+## Aspose.Words für Java 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 erweitert die Optionen für Baugruppen, verbessert die Rendering-Funktionen und erweitert einige andere Optionen.
 
 Aspose.Words 24.6 verbessert die Rendering-Optionen, verbessert die Such- und Vergleichsfunktion und erweitert mehrere andere Funktionen.
 
 Aspose.Words 24.7 ändert die Art und Weise, wie Sie mit ActiveX arbeiten, erweitert die Rendering-Funktionen und ermöglicht den Export in die Formate Markdown und XLSX.
+
+Aspose.Words 24.8 verbessert die Diagrammanpassung durch präzise Kontrolle über Achsenbeschriftungen, erweitert die Schriftartenverwaltung, verbessert die Handhabung der Dokumentstruktur und fügt neue Funktionen für HTML/XAML-Export, PDF-Funktionalität, Dokumentkonvertierung und digitale Signaturen hinzu.
 
 ### Unterstützte Formate
 
@@ -53,11 +55,27 @@ Ein Setter für die öffentliche Eigenschaft [CustomNumberStyleFormat](https://r
 * Die Möglichkeit, den Wert des ActiveX-Steuerelements mit Optionsfeld zu ändern, um dynamische Interaktion zu ermöglichen, wurde hinzugefügt.
 * Die Möglichkeit, ein ActiveX-Kontrollkästchen auf „aktiviert“ oder „deaktiviert“ umzuschalten, wurde hinzugefügt.
 
-### Laden und Speichern von Dokumenten
+#### Kontrolle über die Ausrichtung und Drehung der Achsenmarkierungsbeschriftungen des Diagramms <sup>24.8</sup>
+
+Für eine bequemere Diagrammanpassung wurde eine präzise Kontrolle über die Ausrichtung und Drehung der Achsenmarkierungsbeschriftungen des Diagramms hinzugefügt – die Klasse [AxisTickLabels](https://reference.aspose.com/words/java/com.aspose.words/axisticklabels/) wurde um neue Eigenschaften für **Orientation** und **Rotation** erweitert.
+
+#### Ersetzen des Backslash durch das Yen-Zeichen <sup>24.8</sup>
+
+Der abwärtskompatible HTML- und XAML-Export zum Ersetzen des Backslash-Zeichens durch das Yen-Zeichen wurde verbessert. Um dies zu erreichen, wurde die Eigenschaft **ReplaceBackslashWithYenSign** den Klassen [HtmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/) und [XamlFlowSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) hinzugefügt.
+
+#### Verwenden von SDT-Tags als Formularfeldnamen beim Exportieren in PDF <sup>24.8</sup>
+
+Der PDF-Export mit Unterstützung für die Verwendung von SDT-Tags als Formularfeldnamen wurde durch Hinzufügen einer neuen Eigenschaft **UseSdtTagAsFormFieldName** zur Klasse [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) verbessert.
+
+### Konvertieren, Laden und Speichern von Dokumenten
 
 #### Exportieren von Links in das Markdown-Format <sup>24.7</sup>
 
 Die Möglichkeit, den Export von Links im Markdown-Format zu steuern, wurde durch die Implementierung der Eigenschaft [LinkExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getLinkExportMode).
+
+#### LowCode <sup>24.8</sup>
+
+Eine neue Klasse **LowCode.Converter** wurde eingeführt, die eine Reihe von Methoden zum Konvertieren verschiedener Dokumenttypen mit einer einzigen Codezeile bereitstellt.
 
 ### Suchen und Vergleichen
 
@@ -73,6 +91,9 @@ Die Möglichkeit, Datenanalyse-Workflows mit verbesserten Vergleichsfunktionen z
 * Die LINQ Reporting Engine wurde verbessert. Es wurden selektiv leere Absätze entfernt und benutzerdefinierte Nachrichten für fehlende Objektmitglieder definiert, was zu übersichtlicheren und informativeren Berichten führt. <sup>24.6</sup>
 * Das Datums-/Uhrzeitformat wird jetzt automatisch erkannt, um einen nahtlosen Export in das XLSX-Format zu ermöglichen. <sup>24.7</sup>
 * Die öffentliche Eigenschaft [IsProtected](https://reference.aspose.com/words/java/com.aspose.words/vbaproject/#isProtected), mit der Sie überprüfen können, ob ein VBA-Projekt geschützt ist, wurde hinzugefügt. <sup>24.7</sup>
+* Die Schriftartinformationen wurden durch die Eigenschaft **EmbeddingLicensingRights** erweitert, die den Klassen [FontInfo](https://reference.aspose.com/words/java/com.aspose.words/fontinfo/) und [PhysicalFontInfo](https://reference.aspose.com/words/java/com.aspose.words/physicalfontinfo/) hinzugefügt wurde. <sup>24.8</sup>
+* Eine Möglichkeit zum effizienten Löschen von Abschnittskopf- und -fußzeilen unter Beibehaltung von Wasserzeichen wurde hinzugefügt, um genauer mit der Dokumentstruktur arbeiten zu können. Verwenden Sie zum Löschen von Abschnittskopf- und -fußzeilen die neue öffentliche Methode **ClearHeadersFooters**. <sup>24.8</sup>
+* Die digitale Signatur von XPS-Dokumenten mit [XpsSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xpssaveoptions/) wurde aktiviert – zu diesem Zweck wurde eine neue Eigenschaft **DigitalSignatureDetails** hinzugefügt. <sup>24.8</sup>
 
 {{% alert color="primary" %}}
 
@@ -81,6 +102,8 @@ Erfahren Sie mehr über [Versionshinweise zu Aspose.Words für Java 24.5](https:
 Erfahren Sie mehr über [Versionshinweise zu Aspose.Words für Java 24.6](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-6-release-notes/).
 
 Erfahren Sie mehr über [Versionshinweise zu Aspose.Words für Java 24.7](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-7-release-notes/).
+
+Erfahren Sie mehr über [Versionshinweise zu Aspose.Words für Java 24.8](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-8-release-notes/).
 
 {{% /alert %}}
 

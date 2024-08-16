@@ -11,13 +11,15 @@ url: /bg/java/what-s-new-in-aspose-words-for-java/
 
 Тази страница описва най-интересното ново Aspose.Words функции, въведени в последните издания.
 
-## Aspose.Words за Java 24.5, 24.6, 24.7
+## Aspose.Words за Java 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 разширява опциите за сглобки, подобрява възможностите за изобразяване и разширява някои други опции.
 
 Aspose.Words 24.6 подобрява опциите за изобразяване, подобрява функционалността за търсене и сравняване и разширява няколко други функции.
 
 Aspose.Words 24.7 променя начина, по който работите с ActiveX, разширява възможностите за изобразяване, както и експортиране във формати Markdown и XLSX.
+
+Aspose.Words 24.8 подобрява персонализирането на диаграмата с прецизен контрол върху етикетите на осите, разширява управлението на шрифтове, подобрява обработката на структурата на документа и добавя нови възможности за HTML/XAML експорт, PDF функционалност, конвертиране на документи и цифрови подписи.
 
 ### Поддържани формати
 
@@ -53,11 +55,27 @@ Aspose.Words 24.7 променя начина, по който работите 
 * Добавена е възможност за промяна на стойността на ActiveX контролата за радио бутон, за да се активира динамично взаимодействие.
 * Добавена е възможността за превключване на квадратчето за отметка на ActiveX на „отметнато“ или „неотметнато“.
 
-### Зареждане и запазване на документи
+#### Контрол върху ориентацията и завъртането на отметките на оста на диаграмата <sup>24.8</sup>
+
+Добавен е прецизен контрол върху ориентацията и въртенето на етикетите за отметки на оста на диаграмата за по-удобно персонализиране на диаграмата – класът [AxisTickLabels](https://reference.aspose.com/words/java/com.aspose.words/axisticklabels/) е разширен с нови свойства за **Orientation** и **Rotation**.
+
+#### Замяна на обратната наклонена черта със знака йена <sup>24.8</sup>
+
+Обратно съвместимият HTML и XAML експорт за замяна на обратната наклонена черта със знака йена е подобрен. За да се постигне това, свойството **ReplaceBackslashWithYenSign** е добавено към класовете [HtmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/) и [XamlFlowSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/).
+
+#### Използване на SDT етикети като имена на полета на формуляр при експортиране в PDF <sup>24.8</sup>
+
+Експортирането на PDF с поддръжка за използване на SDT тагове като имена на полета на формуляр е подобрено чрез добавяне на ново свойство **UseSdtTagAsFormFieldName** към класа [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/).
+
+### Конвертиране, зареждане и запазване на документи
 
 #### Експортиране на връзки във формат Markdown <sup>24.7</sup>
 
 Възможността за контролиране на експортирането на връзки във формат Markdown е добавена чрез внедряването на свойството [LinkExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getLinkExportMode).
+
+#### Нисък код <sup>24.8</sup>
+
+Въведен е нов клас **LowCode.Converter**, предназначен да предостави набор от методи за конвертиране на различни типове документи с един ред код.
 
 ### Търсете и сравнявайте
 
@@ -73,6 +91,9 @@ Aspose.Words 24.7 променя начина, по който работите 
 * LINQ Reporting Engine е подобрен. Направено е селективно премахване на празни абзаци и дефиниране на персонализирани съобщения за липсващи членове на обекти, което води до по-чисти и по-информативни отчети. <sup>24.6</sup>
 * Форматът за дата и час вече се разпознава автоматично за безпроблемно експортиране във формат XLSX. <sup>24.7</sup>
 * Добавено е публичното свойство [IsProtected](https://reference.aspose.com/words/java/com.aspose.words/vbaproject/#isProtected), което ви позволява да проверите дали VBA проект е защитен. <sup>24.7</sup>
+* Информацията за шрифта е разширена със свойството **EmbeddingLicensingRights**, добавено към класовете [FontInfo](https://reference.aspose.com/words/java/com.aspose.words/fontinfo/) и [PhysicalFontInfo](https://reference.aspose.com/words/java/com.aspose.words/physicalfontinfo/). <sup>24.8</sup>
+* Добавен е начин за ефективно изчистване на горни и долни колонтитули на секции, като същевременно се запазват водни знаци, за по-прецизна работа със структурата на документа. За да изчистите горните и долните колонтитули на секции, използвайте новия публичен метод **ClearHeadersFooters**. <sup>24.8</sup>
+* Цифровото подписване на XPS документи с помощта на [XpsSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xpssaveoptions/) е активирано – за тази цел е добавено ново свойство **DigitalSignatureDetails**. <sup>24.8</sup>
 
 {{% alert color="primary" %}}
 
@@ -81,6 +102,8 @@ Aspose.Words 24.7 променя начина, по който работите 
 Научете повече за [Бележки по изданието на Aspose.Words за Java 24.6](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-6-release-notes/).
 
 Научете повече за [Бележки по изданието на Aspose.Words за Java 24.7](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-7-release-notes/).
+
+Научете повече за [Бележки по изданието на Aspose.Words за Java 24.8](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-8-release-notes/).
 
 {{% /alert %}}
 

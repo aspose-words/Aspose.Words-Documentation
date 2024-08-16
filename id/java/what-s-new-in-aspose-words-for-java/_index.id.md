@@ -11,13 +11,15 @@ url: /id/java/what-s-new-in-aspose-words-for-java/
 
 Halaman ini menjelaskan yang paling menarik Aspose.Words fitur yang diperkenalkan dalam rilis terbaru.
 
-## Aspose.Words untuk Java 24.5, 24.6, 24.7
+## Aspose.Words untuk Java 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 memperluas opsi untuk rakitan, meningkatkan kemampuan rendering, dan memperluas beberapa opsi lainnya.
 
 Aspose.Words 24.6 meningkatkan opsi rendering, meningkatkan fungsionalitas pencarian dan perbandingan, dan memperluas beberapa fitur lainnya.
 
 Aspose.Words 24.7 mengubah cara Anda bekerja dengan ActiveX, memperluas kemampuan rendering, serta mengekspor ke format Markdown dan XLSX.
+
+Aspose.Words 24.8 menyempurnakan kustomisasi bagan dengan kontrol yang tepat atas label sumbu, memperluas manajemen font, meningkatkan penanganan struktur dokumen, dan menambahkan kapabilitas baru untuk ekspor HTML/XAML, fungsionalitas PDF, konversi dokumen, dan tanda tangan digital.
 
 ### Format yang Didukung
 
@@ -53,11 +55,27 @@ Penyetel untuk properti publik [CustomNumberStyleFormat](https://reference.aspos
 * Kemampuan untuk mengubah nilai tombol radio kontrol ActiveX untuk mengaktifkan interaksi dinamis telah ditambahkan.
 * Kemampuan untuk mengubah kotak centang ActiveX menjadi "dicentang" atau "tidak dicentang" telah ditambahkan.
 
-### Memuat dan Menyimpan Dokumen
+#### Kontrol Atas Orientasi dan Rotasi Label Centang Sumbu Bagan <sup>24.8</sup>
 
-#### Mengekspor Tautan ke Format Penurunan Harga <sup>24.7</sup>
+Kontrol yang tepat atas orientasi dan rotasi label centang sumbu bagan telah ditambahkan untuk kustomisasi bagan yang lebih mudah – kelas [AxisTickLabels](https://reference.aspose.com/words/java/com.aspose.words/axisticklabels/) telah diperluas dengan properti **Orientation** dan **Rotation** yang baru.
+
+#### Mengganti Garis Miring Terbalik dengan Tanda Yen <sup>24.8</sup>
+
+Ekspor HTML dan XAML yang kompatibel dengan versi sebelumnya untuk mengganti karakter garis miring terbalik dengan tanda Yen telah ditingkatkan. Untuk mencapai hal ini, properti **ReplaceBackslashWithYenSign** telah ditambahkan ke kelas [HtmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/) dan [XamlFlowSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/).
+
+#### Menggunakan Tag SDT sebagai Nama Bidang Formulir saat Mengekspor ke PDF <sup>24.8</sup>
+
+Ekspor PDF dengan dukungan penggunaan tag SDT sebagai nama bidang formulir telah ditingkatkan dengan menambahkan properti **UseSdtTagAsFormFieldName** baru ke kelas [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/).
+
+### Mengonversi, Memuat, dan Menyimpan Dokumen
+
+#### Mengekspor Tautan ke Format Markdown <sup>24.7</sup>
 
 Kemampuan untuk mengontrol ekspor tautan dalam format Markdown telah ditambahkan melalui penerapan properti [LinkExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getLinkExportMode).
+
+#### LowCode <sup>24.8</sup>
+
+Kelas **LowCode.Converter** baru, yang dirancang untuk menyediakan serangkaian metode guna mengonversi berbagai jenis dokumen dengan satu baris kode, telah diperkenalkan.
 
 ### Cari dan Bandingkan
 
@@ -73,6 +91,9 @@ Kemampuan untuk menyederhanakan alur kerja analisis data dengan fungsionalitas p
 * Mesin Pelaporan LINQ telah ditingkatkan. Penghapusan selektif paragraf kosong dan definisi pesan khusus untuk anggota objek yang hilang telah dilakukan, menghasilkan laporan yang lebih bersih dan informatif. <sup>24.6</sup>
 * Format tanggalwaktu sekarang secara otomatis terdeteksi untuk ekspor tanpa batas ke format XLSX. <sup>24.7</sup>
 * Properti publik [IsProtected](https://reference.aspose.com/words/java/com.aspose.words/vbaproject/#isProtected), yang memungkinkan Anda memverifikasi apakah proyek VBA dilindungi, telah ditambahkan. <sup>24.7</sup>
+* Informasi font telah diperluas dengan properti **EmbeddingLicensingRights** yang ditambahkan ke kelas [FontInfo](https://reference.aspose.com/words/java/com.aspose.words/fontinfo/) dan [PhysicalFontInfo](https://reference.aspose.com/words/java/com.aspose.words/physicalfontinfo/). <sup>24.8</sup>
+* Cara untuk menghapus header dan footer bagian secara efisien sambil mempertahankan tanda air telah ditambahkan agar dapat bekerja dengan struktur dokumen secara lebih akurat. Untuk menghapus header dan footer bagian, gunakan metode publik baru **ClearHeadersFooters**. <sup>24.8</sup>
+* Penandatanganan digital dokumen XPS menggunakan [XpsSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xpssaveoptions/) telah diaktifkan – properti baru **DigitalSignatureDetails** telah ditambahkan untuk tujuan ini. <sup>24.8</sup>
 
 {{% alert color="primary" %}}
 
@@ -81,6 +102,8 @@ Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Java 24.5](https
 Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Java 24.6](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-6-release-notes/).
 
 Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Java 24.7](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-7-release-notes/).
+
+Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Java 24.8](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-8-release-notes/).
 
 {{% /alert %}}
 
