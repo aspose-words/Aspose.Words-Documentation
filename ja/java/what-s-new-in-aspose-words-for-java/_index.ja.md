@@ -11,13 +11,15 @@ url: /ja/java/what-s-new-in-aspose-words-for-java/
 
 このページでは、最も興味深い新しいものについて説明します Aspose.Words 最近のリリースで導入された機能。
 
-## Aspose.Words お問い合わせ Java 24.5、24.6、24.7
+## Aspose.Words for Java 24.5、24.6、24.7、24.8
 
 Aspose.Words 24.5 では、アセンブリのオプションが拡張され、レンダリング機能が向上し、その他のオプションも拡張されています。
 
 Aspose.Words 24.6 では、レンダリング オプションが向上し、検索および比較機能が強化され、その他の機能が拡張されています。
 
 Aspose.Words 24.7 では、ActiveX の操作方法が変更され、レンダリング機能が拡張され、Markdown および XLSX 形式へのエクスポートも可能になりました。
+
+Aspose.Words 24.8 では、軸ラベルを正確に制御してグラフのカスタマイズを強化し、フォント管理を拡張し、ドキュメント構造の処理を改善し、HTML/XAML エクスポート、PDF 機能、ドキュメント変換、デジタル署名の新しい機能を追加しました。
 
 ### サポートされている形式
 
@@ -52,16 +54,30 @@ Aspose.Words 24.7 では、ActiveX の操作方法が変更され、レンダリ
 #### ActiveX の操作に関する変更 <sup>24.7</sup>
 
 * ActiveX オブジェクトのプロパティを変更できるようになり、その動作をより細かく制御できるようになりました。
-
 * ラジオ ボタン ActiveX コントロールの値を変更して動的な操作を有効にする機能が追加されました。
-
 * ActiveX チェックボックスを「オン」または「オフ」に切り替える機能が追加されました。
 
-### ドキュメントの読み込みと保存
+#### グラフ軸目盛りラベルの方向と回転の制御 <sup>24.8</sup>
+
+グラフ軸目盛りラベルの方向と回転を正確に制御できるようになり、グラフのカスタマイズがさらに便利になりました。[AxisTickLabels](https://reference.aspose.com/words/java/com.aspose.words/axisticklabels/) クラスが新しい **Orientation** プロパティと **Rotation** プロパティで拡張されました。
+
+#### 円記号へのバックスラッシュの置き換え <sup>24.8</sup>
+
+バックスラッシュ文字を円記号に置き換えるための下位互換性のある HTML および XAML エクスポートが改善されました。これを実現するために、**ReplaceBackslashWithYenSign** プロパティが [HtmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/) クラスと [XamlFlowSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) クラスに追加されました。
+
+#### PDF へのエクスポート時に SDT タグをフォーム フィールド名として使用する <sup>24.8</sup>
+
+SDT タグをフォーム フィールド名として使用するサポートを備えた PDF エクスポートが、 [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) クラスに新しい **UseSdtTagAsFormFieldName** プロパティを追加することで強化されました。
+
+### ドキュメントの変換、読み込み、保存
 
 #### リンクを Markdown 形式にエクスポート <sup>24.7</sup>
 
 [LinkExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getLinkExportMode) プロパティの実装により、Markdown 形式でのリンクのエクスポートを制御する機能が追加されました。
+
+#### LowCode <sup>24.8</sup>
+
+1 行のコードでさまざまなドキュメント タイプを変換するための一連のメソッドを提供するように設計された新しい **LowCode.Converter** クラスが導入されました。
 
 ### 検索と比較
 
@@ -77,6 +93,9 @@ Aspose.Words 24.7 では、ActiveX の操作方法が変更され、レンダリ
 * LINQ レポート エンジンが改良されました。空の段落を選択的に削除し、欠落しているオブジェクト メンバーのカスタム メッセージを定義することで、よりわかりやすく、より情報量の多いレポートを実現しました。<sup>24.6</sup>
 * XLSX 形式へのシームレスなエクスポートのために、日時形式が自動的に検出されるようになりました。 <sup>24.7</sup>
 * VBA プロジェクトが保護されているかどうかを確認できるパブリック プロパティ [IsProtected](https://reference.aspose.com/words/java/com.aspose.words/vbaproject/#isProtected) が追加されました。<sup>24.7</sup>
+* [FontInfo](https://reference.aspose.com/words/java/com.aspose.words/fontinfo/) クラスと [PhysicalFontInfo](https://reference.aspose.com/words/java/com.aspose.words/physicalfontinfo/) クラスに **EmbeddingLicensingRights** プロパティが追加されました。 <sup>24.8</sup>
+* ドキュメント構造をより正確に処理するために、透かしを保持しながらセクション ヘッダーとフッターを効率的にクリアする方法が追加されました。セクション ヘッダーとフッターをクリアするには、新しいパブリック メソッド **ClearHeadersFooters** を使用します。 <sup>24.8</sup>
+* [XpsSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xpssaveoptions/) を使用した XPS ドキュメントのデジタル署名が有効になりました。この目的のために、新しいプロパティ **DigitalSignatureDetails** が追加されました。<sup>24.8</sup>
 
 {{% alert color="primary" %}}
 
@@ -85,6 +104,8 @@ Aspose.Words 24.7 では、ActiveX の操作方法が変更され、レンダリ
 [Aspose.Words for Java 24.6 リリース ノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-6-release-notes/) の詳細をご覧ください。
 
 [Aspose.Words for Java 24.7 リリース ノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-7-release-notes/) の詳細をご覧ください。
+
+[Aspose.Words for Java 24.8 リリース ノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-8-release-notes/) の詳細をご覧ください。
 
 {{% /alert %}}
 

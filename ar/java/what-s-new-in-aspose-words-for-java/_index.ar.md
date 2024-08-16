@@ -11,13 +11,15 @@ url: /ar/java/what-s-new-in-aspose-words-for-java/
 
 هذه الصفحة تصف أكثر الأشياء إثارة للاهتمام Aspose.Words السمات التي أدخلت في الإطلاقات الأخيرة.
 
-## Aspose.Words لـ Java 24.5, 24.6, 24.7
+## Aspose.Words لـ Java 24.5, 24.6, 24.7, 24.8
 
 يقوم Aspose.Words 24.5 بتوسيع خيارات التجميعات وتحسين قدرات العرض وتوسيع بعض الخيارات الأخرى.
 
 يعمل Aspose.Words 24.6 على تحسين خيارات العرض، وتعزيز وظائف البحث والمقارنة، وتوسيع العديد من الميزات الأخرى.
 
 يقوم Aspose.Words 24.7 بتغيير طريقة العمل مع ActiveX، ويوسع إمكانيات العرض، بالإضافة إلى التصدير إلى تنسيقات Markdown وXLSX.
+
+يعمل Aspose.Words 24.8 على تحسين تخصيص المخططات من خلال التحكم الدقيق في تسميات المحاور، وتوسيع إدارة الخطوط، وتحسين التعامل مع بنية المستندات، وإضافة قدرات جديدة لتصدير HTML/XAML، ووظائف PDF، وتحويل المستندات، والتوقيعات الرقمية.
 
 ### التنسيقات المدعومة
 
@@ -53,11 +55,27 @@ url: /ar/java/what-s-new-in-aspose-words-for-java/
 * تمت إضافة القدرة على تعديل قيمة زر التحكم ActiveX لتمكين التفاعل الديناميكي.
 * تمت إضافة القدرة على تبديل خانة اختيار ActiveX إلى "محدد" أو "غير محدد".
 
-### تحميل وحفظ المستندات
+#### التحكم في اتجاه وتدوير تسميات علامات محور المخطط <sup>24.8</sup>
+
+تمت إضافة التحكم الدقيق في اتجاه وتدوير علامات محور الرسم البياني لتسهيل تخصيص الرسم البياني بشكل أكثر ملاءمة - تم توسيع فئة [AxisTickLabels](https://reference.aspose.com/words/java/com.aspose.words/axisticklabels/) بخصائص **Orientation** و **Rotation** الجديدة.
+
+#### استبدال الشرطة المائلة للخلف بعلامة الين <sup>24.8</sup>
+
+تم تحسين التصدير المتوافق مع HTML وXAML للخلف لاستبدال حرف الشرطة المائلة للخلف بعلامة الين. لتحقيق ذلك، تمت إضافة الخاصية **ReplaceBackslashWithYenSign** إلى فئتي [HtmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/) و [XamlFlowSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/).
+
+#### استخدام علامات SDT كأسماء لحقول النماذج عند التصدير إلى PDF <sup>24.8</sup>
+
+تم تحسين تصدير PDF مع دعم استخدام علامات SDT كأسماء لحقول النماذج من خلال إضافة خاصية **UseSdtTagAsFormFieldName** جديدة إلى فئة [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/).
+
+### تحويل المستندات وتحميلها وحفظها
 
 #### تصدير الروابط إلى تنسيق Markdown <sup>24.7</sup>
 
 تمت إضافة القدرة على التحكم في تصدير الروابط بتنسيق Markdown من خلال تطبيق خاصية [LinkExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getLinkExportMode).
+
+#### LowCode <sup>24.8</sup>
+
+تم تقديم فئة **LowCode.Converter** جديدة، مصممة لتوفير مجموعة من الطرق لتحويل أنواع المستندات المختلفة بسطر واحد من التعليمات البرمجية.
 
 ### بحث ومقارنة
 
@@ -73,6 +91,9 @@ url: /ar/java/what-s-new-in-aspose-words-for-java/
 * تم تحسين محرك تقارير LINQ. تم إجراء إزالة انتقائية للفقرات الفارغة وتعريف الرسائل المخصصة لأعضاء الكائنات المفقودة، مما يؤدي إلى تقارير أكثر وضوحًا وإفادة. <sup>24.6</sup>
 * تم الآن اكتشاف تنسيق التاريخ والوقت تلقائيًا للتصدير السلس إلى تنسيق XLSX. <sup>24.7</sup>
 * تمت إضافة الخاصية العامة [IsProtected](https://reference.aspose.com/words/java/com.aspose.words/vbaproject/#isProtected)، والتي تسمح لك بالتحقق مما إذا كان مشروع VBA محميًا أم لا. <sup>24.7</sup>
+* تم توسيع معلومات الخط بإضافة الخاصية **EmbeddingLicensingRights** إلى فئتي [FontInfo](https://reference.aspose.com/words/java/com.aspose.words/fontinfo/) [PhysicalFontInfo](https://reference.aspose.com/words/java/com.aspose.words/physicalfontinfo/). <sup>24.8</sup>
+* تمت إضافة طريقة لمسح رؤوس وتذييلات الأقسام بكفاءة مع الحفاظ على العلامات المائية للعمل بشكل أكثر دقة مع بنية المستند. لمسح رؤوس وتذييلات الأقسام، استخدم الطريقة العامة الجديدة **ClearHeadersFooters**. <sup>24.8</sup>
+* تم تمكين التوقيع الرقمي لمستندات XPS باستخدام [XpsSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xpssaveoptions/) - تمت إضافة خاصية جديدة **DigitalSignatureDetails** لهذا الغرض. <sup>24.8</sup>
 
 {{% alert color="primary" %}}
 
@@ -81,6 +102,8 @@ url: /ar/java/what-s-new-in-aspose-words-for-java/
 تعرف على المزيد حول [ملاحظات إصدار Aspose.Words for Java 24.6](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-6-release-notes/).
 
 تعرف على المزيد حول [ملاحظات إصدار Aspose.Words for Java 24.7](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-7-release-notes/).
+
+تعرف على المزيد حول [ملاحظات إصدار Aspose.Words for Java 24.8](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-8-release-notes/).
 
 {{% /alert %}}
 
