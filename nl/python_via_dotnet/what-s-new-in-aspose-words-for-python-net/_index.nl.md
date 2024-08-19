@@ -389,7 +389,7 @@ De mogelijkheid om de afstand tussen de tabel en de omliggende tekst in te stell
 
 #### Genereren `TOC` voor AZW3-documenten <sup>23.1</sup>
 
-Het vermogen om te genereren `TOC` (inhoudsopgave) voor AZW3-documenten is toegevoegd door het gebruik van de [epub_navigation_map_level](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/epub_navigation_map_level/) eigendom.
+Het vermogen om te genereren `TOC` (inhoudsopgave) voor AZW3-documenten is toegevoegd door het gebruik van de **epub_navigation_map_level** eigendom.
 
 #### Items van lijst exporteren naar Markdown <sup>23.1</sup>
 

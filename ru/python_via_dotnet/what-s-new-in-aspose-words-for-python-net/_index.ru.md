@@ -388,7 +388,7 @@ The [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) К
 
 #### Генерировать `TOC` AZW3 Документы <sup>23.1</sup>
 
-Способность генерировать `TOC` (таблица содержания) для документов AZW3 была добавлена посредством использования [epub_navigation_map_level](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/epub_navigation_map_level/) собственность.
+Способность генерировать `TOC` (таблица содержания) для документов AZW3 была добавлена посредством использования **epub_navigation_map_level** собственность.
 
 #### Перечень экспортных товаров на Markdown <sup>23.1</sup>
 

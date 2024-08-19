@@ -389,7 +389,7 @@ A capacidade de definir a distância entre a tabela e o texto ao redor foi adici
 
 #### Gerar `TOC` para documentos AZW3 <sup>23.1</sup>
 
-A capacidade de gerar `TOC` (índice) para documentos AZW3 foi adicionada através do uso da propriedade [epub_navigation_map_level](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/epub_navigation_map_level/).
+A capacidade de gerar `TOC` (índice) para documentos AZW3 foi adicionada através do uso da propriedade **epub_navigation_map_level**.
 
 #### Exportando itens de lista para Markdown <sup>23.1</sup>
 

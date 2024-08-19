@@ -389,7 +389,7 @@ Aspose.Words 23.4 подобрява изчисляването на някои 
 
 #### Генериране `TOC` за AZW3 документи <sup>23.1</sup>
 
-Способността за генериране `TOC` (таблица със съдържание) за AZW3 документите са добавени чрез използването на [epub_navigation_map_level](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/epub_navigation_map_level/) собственост.
+Способността за генериране `TOC` (таблица със съдържание) за AZW3 документите са добавени чрез използването на **epub_navigation_map_level** собственост.
 
 #### Експортиране на списък към Markdown <sup>23.1</sup>
 

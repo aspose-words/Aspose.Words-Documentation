@@ -389,7 +389,7 @@ Aspose.Words 24.4 يعزز حفظ التنسيقات ، بعض خيارات ال
 
 #### إنشاء `TOC` لمستندات AZW3 <sup>23.1</sup>
 
-تمت إضافة القدرة على إنشاء `TOC` (جدول المحتويات) لمستندات AZW3 من خلال استخدام خاصية [epub_navigation_map_level](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/epub_navigation_map_level/).
+تمت إضافة القدرة على إنشاء `TOC` (جدول المحتويات) لمستندات AZW3 من خلال استخدام خاصية **epub_navigation_map_level**.
 
 #### تصدير عناصر القائمة إلى Markdown <sup>23.1</sup>
 

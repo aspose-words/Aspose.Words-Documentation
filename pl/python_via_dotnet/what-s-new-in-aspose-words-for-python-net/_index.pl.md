@@ -389,7 +389,7 @@ Dodano możliwość ustawienia odległości tabeli od otaczającego tekstu poprz
 
 #### Generowanie `TOC` dla dokumentów AZW3 <sup>23.1</sup>
 
-Dodano możliwość generowania `TOC` (spisu treści) dla dokumentów AZW3 poprzez wykorzystanie właściwości [epub_navigation_map_level](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/epub_navigation_map_level/).
+Dodano możliwość generowania `TOC` (spisu treści) dla dokumentów AZW3 poprzez wykorzystanie właściwości **epub_navigation_map_level**.
 
 #### Eksportowanie elementów listy do formatu Markdown <sup>23.1</sup>
 

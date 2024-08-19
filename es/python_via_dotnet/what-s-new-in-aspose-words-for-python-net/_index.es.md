@@ -389,7 +389,7 @@ Se agregó la capacidad de establecer la distancia entre la tabla y el texto cir
 
 #### Generar `TOC` para documentos AZW3 <sup>23.1</sup>
 
-Se agregó la capacidad de generar `TOC` (tabla de contenido) para documentos AZW3 mediante el uso de la propiedad [epub_navigation_map_level](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/epub_navigation_map_level/).
+Se agregó la capacidad de generar `TOC` (tabla de contenido) para documentos AZW3 mediante el uso de la propiedad **epub_navigation_map_level**.
 
 #### Exportación de elementos de lista a Markdown <sup>23.1</sup>
 

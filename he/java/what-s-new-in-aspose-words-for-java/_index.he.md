@@ -30,7 +30,7 @@ Aspose.Words 24.8 משפר התאמה אישית של תרשים עם שליטה
 #### שינויים ב Changes, Charts ו-DrawingML <sup>24.5</sup>
 
 - עיבוד אפקטים של DrawingML עבור גרפיקת SVG, הרחבת פונקציונליות קודמת מוגבלת לתמונות, יושם.
-- תמיכה ביצירת תרשימים משולבים והתאמת מאפיינים כגון רוחב פער, חפיפה וסולם בועות בתוך קבוצות סדרות הוצגה על ידי הוספת מחלקות [ChartSeriesGroup](https://reference.aspose.com/words/java/com.aspose. words/chartseriesgroup/) ו-[ChartSeriesGroupCollection](https://reference.aspose.com/words/java/com.aspose.words/chartseriesgroupcollection/) והמאפיין [SeriesGroups](https://reference.aspose.com/ words/java/com.aspose.words/chart/#getSeriesGroups).
+- תמיכה ביצירת תרשימים משולבים והתאמת מאפיינים כגון רוחב פער, חפיפה וסולם בועות בתוך קבוצות סדרות הוצגה על ידי הוספת מחלקות [ChartSeriesGroup](https://reference.aspose.com/words/java/com.aspose.words/chartseriesgroup/) ו-[ChartSeriesGroupCollection](https://reference.aspose.com/words/java/com.aspose.words/chartseriesgroupcollection/) והמאפיין [SeriesGroups](https://reference.aspose.com/ words/java/com.aspose.words/chart/#getSeriesGroups).
 - פונקציונליות לתמרן אפקט SoftEdge של צורות יושמה על ידי הוספת המחלקה [SoftEdgeFormat](https://reference.aspose.com/words/java/com.aspose.words/softedgeformat/).
 - היכולת לשנות ערכי התאמה של צורות יושמה על ידי הוספת ה-[AdjustmentCollection](https://reference.aspose.com/words/java/com.aspose.words/adjustmentcollection/) ו-[Adjustment](https:/ /reference.aspose.com/words/java/com.aspose.words/adjustment/) שיעורים ציבוריים ו-[התאמות](https://reference.aspose.com/words/java/com.aspose.words/shape/# getAdjustments) מאפיין.
 

@@ -389,7 +389,7 @@ Kemampuan untuk mengatur jarak antara tabel dan teks di sekitarnya telah ditamba
 
 #### Hasilkan `TOC` untuk Dokumen AZW3 <sup>23.1</sup>
 
-Kemampuan untuk menghasilkan `TOC` (daftar isi) untuk dokumen AZW3 telah ditambahkan melalui penggunaan properti [epub_navigation_map_level](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/epub_navigation_map_level/).
+Kemampuan untuk menghasilkan `TOC` (daftar isi) untuk dokumen AZW3 telah ditambahkan melalui penggunaan properti **epub_navigation_map_level**.
 
 #### Mengekspor Item Daftar ke Markdown <sup>23.1</sup>
 

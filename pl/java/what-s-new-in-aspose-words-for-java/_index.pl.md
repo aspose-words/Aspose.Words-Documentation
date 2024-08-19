@@ -30,9 +30,9 @@ Począwszy od wersji 24.7 obsługiwany jest eksport do formatu PDF/UA-2, aby zap
 #### Zmiany w Charts, Shapes i DrawingML <sup>24.5</sup>
 
 - Zaimplementowano renderowanie efektów DrawingML dla grafiki SVG, rozszerzając poprzednią funkcjonalność ograniczoną do obrazów.
-- Wprowadzono obsługę tworzenia wykresów kombi i dostosowywania właściwości, takich jak szerokość przerwy, nakładanie się i skala bąbelków w grupach serii poprzez dodanie [ChartSeriesGroup](https://reference.aspose.com/words/java/com.aspose. words/chartseriesgroup/) i [ChartSeriesGroupCollection](https://reference.aspose.com/words/java/com.aspose.words/chartseriesgroupcollection/) oraz klasy [SeriesGroups](https://reference.aspose.com/ words/java/com.aspose.words/chart/#getSeriesGroups).
+- Wprowadzono obsługę tworzenia wykresów kombi i dostosowywania właściwości, takich jak szerokość przerwy, nakładanie się i skala bąbelków w grupach serii poprzez dodanie [ChartSeriesGroup](https://reference.aspose.com/words/java/com.aspose.words/chartseriesgroup/) i [ChartSeriesGroupCollection](https://reference.aspose.com/words/java/com.aspose.words/chartseriesgroupcollection/) oraz klasy [SeriesGroups](https://reference.aspose.com/ words/java/com.aspose.words/chart/#getSeriesGroups).
 - Zaimplementowano funkcję manipulowania efektem SoftEdge kształtów poprzez dodanie klasy [SoftEdgeFormat](https://reference.aspose.com/words/java/com.aspose.words/softedgeformat/).
-- Zaimplementowano możliwość modyfikowania wartości dopasowania kształtów poprzez dodanie [AdjustmentCollection](https://reference.aspose.com/words/java/com.aspose.words/justmentcollection/) i [Adjustment](https:/ /reference.aspose.com/words/java/com.aspose.words/justment/) klasy publiczne i [Adjustments](https://reference.aspose.com/words/java/com.aspose.words/shape/# getAdjustments).
+- Zaimplementowano możliwość modyfikowania wartości dopasowania kształtów poprzez dodanie [AdjustmentCollection](https://reference.aspose.com/words/java/com.aspose.words/adjustmentcollection/) i [Adjustment](https://reference.aspose.com/words/java/com.aspose.words/adjustment/) klasy publiczne i [Adjustments](https://reference.aspose.com/words/java/com.aspose.words/shape/#getAdjustments).
 
 #### Zmiany w wykresach, kształtach i rysunkach <sup>24.6</sup>
 

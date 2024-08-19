@@ -75,7 +75,7 @@ La exportación a PDF con compatibilidad para el uso de etiquetas SDT como nombr
 
 #### Exportación de enlaces al formato Markdown <sup>24.7</sup>
 
-La capacidad de controlar la exportación de enlaces en formato Markdown se agregó mediante la implementación de la propiedad [LinkExportMode](https://reference.aspose.com/words/net/aspose.words.served/markdownsaveoptions/linkexportmode/).
+La capacidad de controlar la exportación de enlaces en formato Markdown se agregó mediante la implementación de la propiedad [LinkExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/linkexportmode/).
 
 #### LowCode <sup>24.8</sup>
 

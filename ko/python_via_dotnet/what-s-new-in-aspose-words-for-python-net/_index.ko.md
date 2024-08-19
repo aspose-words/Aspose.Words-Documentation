@@ -389,7 +389,7 @@ Aspose.Words 23.4는 일부 매개변수의 계산과 테이블 및 주변 텍�
 
 #### AZW3 문서 <sup>23.1</sup> 용 `TOC` 생성
 
-[epub_navigation_map_level](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/epub_navigation_map_level/) 속성을 사용하여 AZW3 문서에 대한 `TOC`(목차)를 생성하는 기능이 추가되었습니다.
+**epub_navigation_map_level** 속성을 사용하여 AZW3 문서에 대한 `TOC`(목차)를 생성하는 기능이 추가되었습니다.
 
 #### 목록 항목을 Markdown <sup>23.1</sup> 로 내보내기
 

@@ -389,7 +389,7 @@ The The The [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/f
 
 #### ייצור `TOC` AZW3 Documents <sup>23.1</sup>
 
-היכולת לייצר `TOC` (שולחן התוכן) למסמכים AZW3 נוספה באמצעות השימוש [epub_navigation_map_level](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/epub_navigation_map_level/) רכוש.
+היכולת לייצר `TOC` (שולחן התוכן) למסמכים AZW3 נוספה באמצעות השימוש **epub_navigation_map_level** רכוש.
 
 #### ייצוא פריטים לרשימה Markdown <sup>23.1</sup>
 

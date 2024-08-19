@@ -389,7 +389,7 @@ Oluşturma sırasında DML grafik trend çizgisi etiketlerinde R-kare katsayıs�
 
 #### AZW3 Belgeleri için `TOC` Oluşturun <sup>23.1</sup>
 
-[epub_navigation_map_level](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/epub_navigation_map_level/) özelliği kullanılarak AZW3 belgeleri için `TOC` (içindekiler tablosu) oluşturma yeteneği eklendi.
+**epub_navigation_map_level** özelliği kullanılarak AZW3 belgeleri için `TOC` (içindekiler tablosu) oluşturma yeteneği eklendi.
 
 #### Liste Öğelerini Markdown <sup>23.1'e</sup> Aktarma
 
