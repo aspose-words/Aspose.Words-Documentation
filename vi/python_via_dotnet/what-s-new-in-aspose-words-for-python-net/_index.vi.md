@@ -389,7 +389,7 @@ Khả năng đặt khoảng cách giữa bảng và văn bản xung quanh đã �
 
 #### Tạo `TOC` cho tài liệu AZW3 <sup>23.1</sup>
 
-Khả năng tạo `TOC` (mục lục) cho tài liệu AZW3 đã được thêm thông qua việc sử dụng thuộc tính [epub_navigation_map_level](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/epub_navigation_map_level/).
+Khả năng tạo `TOC` (mục lục) cho tài liệu AZW3 đã được thêm thông qua việc sử dụng thuộc tính **epub_navigation_map_level**.
 
 #### Xuất các mục danh sách sang Markdown <sup>23.1</sup>
 

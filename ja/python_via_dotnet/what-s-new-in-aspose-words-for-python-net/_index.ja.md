@@ -392,7 +392,7 @@ Aspose.Words 23.4 では、いくつかのパラメータの計算と、表と�
 
 #### AZW3 ドキュメント<sup>23.1</sup>の `TOC` を生成
 
-[epub_navigation_map_level](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/epub_navigation_map_level/) プロパティを使用して、AZW3 ドキュメントの `TOC` (目次) を生成する機能が追加されました。
+**epub_navigation_map_level** プロパティを使用して、AZW3 ドキュメントの `TOC` (目次) を生成する機能が追加されました。
 
 #### リスト項目を Markdown <sup>23.1</sup>にエクスポートする
 

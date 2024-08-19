@@ -389,7 +389,7 @@ Schopnost nastavit vzdálenost mezi tabulkou a okolním textem byla přidána za
 
 #### Generovat `TOC` pro AZW3 Dokumenty <sup>23.1</sup>
 
-Schopnost generovat `TOC` (obsah) pro dokumenty AZW3 bylo přidáno pomocí [epub_navigation_map_level](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/epub_navigation_map_level/) majetek.
+Schopnost generovat `TOC` (obsah) pro dokumenty AZW3 bylo přidáno pomocí **epub_navigation_map_level** majetek.
 
 #### Exportovat položky seznamu do Markdown <sup>23.1</sup>
 

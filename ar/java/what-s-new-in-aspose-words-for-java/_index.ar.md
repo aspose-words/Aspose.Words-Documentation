@@ -30,7 +30,7 @@ url: /ar/java/what-s-new-in-aspose-words-for-java/
 #### تغييرات في Charts وShapes وDrawingML <sup>24.5</sup>
 
 - تم تنفيذ عرض تأثيرات DrawML لرسومات SVG، مما أدى إلى توسيع الوظائف السابقة التي كانت مقتصرة على الصور.
-- تم تقديم الدعم لإنشاء مخططات مجمعة وضبط الخصائص مثل عرض الفجوة والتداخل ومقياس الفقاعات ضمن مجموعات السلسلة عن طريق إضافة [ChartSeriesGroup](https://reference.aspose.com/words/java/com.aspose. الكلمات/chartseriesgroup/) وفئات [ChartSeriesGroupCollection](https://reference.aspose.com/words/java/com.aspose.words/chartseriesgroupcollection/) وفئات [SeriesGroups](https://reference.aspose.com/ خاصية الكلمات/Java/com.aspose.words/chart/#getSeriesGroups).
+- تم تقديم الدعم لإنشاء مخططات مجمعة وضبط الخصائص مثل عرض الفجوة والتداخل ومقياس الفقاعات ضمن مجموعات السلسلة عن طريق إضافة [ChartSeriesGroup](https://reference.aspose.com/words/java/com.aspose.الكلمات/chartseriesgroup/) وفئات [ChartSeriesGroupCollection](https://reference.aspose.com/words/java/com.aspose.words/chartseriesgroupcollection/) وفئات [SeriesGroups](https://reference.aspose.com/ خاصية الكلمات/Java/com.aspose.words/chart/#getSeriesGroups).
 - تم تنفيذ وظيفة معالجة تأثير SoftEdge للأشكال عن طريق إضافة فئة [SoftEdgeFormat](https://reference.aspose.com/words/java/com.aspose.words/softedgeformat/).
 - تم تنفيذ القدرة على تعديل قيم ضبط الأشكال عن طريق إضافة [AdjustmentCollection](https://reference.aspose.com/words/java/com.aspose.words/adjustmentcollection/) و[Adjustment](https:/ /reference.aspose.com/words/java/com.aspose.words/adjustment/) الفئات العامة و[Adjustments](https://reference.aspose.com/words/java/com.aspose.words/shape/#getAdjustments) خاصية getAdjustments.
 

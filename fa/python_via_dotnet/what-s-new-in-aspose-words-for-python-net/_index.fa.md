@@ -387,7 +387,7 @@ Aspose.Words 23.4 محاسبه برخی از پارامترها و موقعیت 
 
 #### تولید `TOC` برای اسناد AZW3 <sup>23.1</sup>
 
-توانایی تولید `TOC` (جدول مطالب) برای اسناد AZW3 با استفاده از ویژگی [epub_navigation_map_level](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/epub_navigation_map_level/) اضافه شده است.
+توانایی تولید `TOC` (جدول مطالب) برای اسناد AZW3 با استفاده از ویژگی **epub_navigation_map_level** اضافه شده است.
 
 #### صادر کردن موارد فهرست به Markdown <sup>23.1</sup>
 

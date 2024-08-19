@@ -387,7 +387,7 @@ Durch die Einführung neuer Eigenschaften in die [Table](https://reference.aspos
 
 #### `TOC` für AZW3-Dokumente generieren <sup>23.1</sup>
 
-Die Möglichkeit, `TOC` (Inhaltsverzeichnis) für AZW3-Dokumente zu generieren, wurde durch die Verwendung der [epub_navigation_map_level](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/epub_navigation_map_level/)-Eigenschaft hinzugefügt.
+Die Möglichkeit, `TOC` (Inhaltsverzeichnis) für AZW3-Dokumente zu generieren, wurde durch die Verwendung der **epub_navigation_map_level**-Eigenschaft hinzugefügt.
 
 #### Listenelemente nach Markdown <sup>23.1</sup> exportieren
 

@@ -30,7 +30,7 @@ Aspose.Words 24.8 покращує налаштування діаграм за 
 #### Зміни в Charts, Shapes і DrawingML <sup>24.5</sup>
 
 * Реалізовано рендеринг ефектів DrawingML для графіки SVG, що розширює попередні функції, обмежені зображеннями.
-* Додано підтримку створення комбінованих діаграм і налаштування таких властивостей, як ширина проміжків, перекриття та масштаб бульбашок у групах серій, додавши [ChartSeriesGroup](https://reference.aspose.com/words/java/com.aspose. words/chartseriesgroup/) і [ChartSeriesGroupCollection](https://reference.aspose.com/words/java/com.aspose.words/chartseriesgroupcollection/) класи та [SeriesGroups](https://reference.aspose.com/ words/java/com.aspose.words/chart/#getSeriesGroups).
+* Додано підтримку створення комбінованих діаграм і налаштування таких властивостей, як ширина проміжків, перекриття та масштаб бульбашок у групах серій, додавши [ChartSeriesGroup](https://reference.aspose.com/words/java/com.aspose.words/chartseriesgroup/) і [ChartSeriesGroupCollection](https://reference.aspose.com/words/java/com.aspose.words/chartseriesgroupcollection/) класи та [SeriesGroups](https://reference.aspose.com/ words/java/com.aspose.words/chart/#getSeriesGroups).
 * Додано клас [SoftEdgeFormat](https://reference.aspose.com/words/java/com.aspose.words/softedgeformat/) для керування ефектом SoftEdge форм.
 * Можливість змінювати значення коригування фігур була реалізована шляхом додавання [AdjustmentCollection](https://reference.aspose.com/words/java/com.aspose.words/adjustmentcollection/) і [Adjustment](https:/ /reference.aspose.com/words/java/com.aspose.words/adjustment/) публічні класи та [Adjustments](https://reference.aspose.com/words/java/com.aspose.words/shape/# getAdjustments).
 

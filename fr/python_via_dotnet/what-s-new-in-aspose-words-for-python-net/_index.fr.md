@@ -389,7 +389,7 @@ La possibilité de définir la distance entre le tableau et le texte environnant
 
 #### Générer `TOC` pour les documents AZW3 <sup>23.1</sup>
 
-La possibilité de générer des `TOC` (table des matières) pour les documents AZW3 a été ajoutée grâce à l'utilisation de la propriété [epub_navigation_map_level](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/epub_navigation_map_level/).
+La possibilité de générer des `TOC` (table des matières) pour les documents AZW3 a été ajoutée grâce à l'utilisation de la propriété **epub_navigation_map_level**.
 
 #### Exportation d'éléments de liste vers Markdown <sup>23.1</sup>
 

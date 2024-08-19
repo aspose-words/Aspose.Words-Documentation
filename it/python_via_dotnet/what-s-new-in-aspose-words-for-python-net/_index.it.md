@@ -389,7 +389,7 @@ La classe [Fill](https://reference.aspose.com/words/it/net/aspose.words.drawing/
 
 #### Genera `TOC` per documenti AZW3 <sup>23.1</sup>
 
-È stata aggiunta la possibilità di generare `TOC` (tabella dei contenuti) per i documenti AZW3 tramite l'uso della proprietà [epub_navigation_map_level](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/epub_navigation_map_level/).
+È stata aggiunta la possibilità di generare `TOC` (tabella dei contenuti) per i documenti AZW3 tramite l'uso della proprietà **epub_navigation_map_level**.
 
 #### Esportazione di voci di elenco in Markdown <sup>23.1</sup>
 

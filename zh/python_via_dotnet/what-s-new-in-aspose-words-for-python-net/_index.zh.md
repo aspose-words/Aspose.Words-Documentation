@@ -389,7 +389,7 @@ Aspose.Words 23.4 改进了一些参数的计算以及表格和周围文本的�
 
 #### 为 AZW3 文档生成 `TOC` <sup>23.1</sup>
 
-通过使用 [epub_navigation_map_level](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/epub_navigation_map_level/) 属性，添加了为 AZW3 文档生成 `TOC`（目录）的功能。
+通过使用 **epub_navigation_map_level** 属性，添加了为 AZW3 文档生成 `TOC`（目录）的功能。
 
 #### 将列表项导出到 Markdown <sup>23.1</sup>
 
