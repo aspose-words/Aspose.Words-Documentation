@@ -1,5 +1,5 @@
 ---
-title: Java ` içinde Barcode oluşturun
+title: Java içinde Barcode oluşturun
 second_title: Aspose.Words için Java
 articleTitle: Özel bir Barkod Görseli Oluşturun
 linktitle: Özel bir Barkod Görseli Oluşturun

@@ -1,6 +1,6 @@
 ---
 title: Cara Membuat Kode Baris
-second_title: `Aspose.Words untuk .NET`
+second_title: Aspose.Words untuk .NET
 articleTitle: Membuat sebuah Barcode kustom Gambar
 linktitle: Membuat sebuah Barcode kustom Gambar
 description: "Contoh bentuk kode batang yang dihasilkan menggunakan C#."

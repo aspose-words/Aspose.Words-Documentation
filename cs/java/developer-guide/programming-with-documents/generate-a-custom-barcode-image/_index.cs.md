@@ -1,6 +1,6 @@
 ---
 title: Vytvořit čárový kód v Java
-second_title: `Aspose.Words pro Java`
+second_title: Aspose.Words pro Java
 articleTitle: Generovat vlastní obrázek čárového kódu
 linktitle: Generovat vlastní obrázek čárového kódu
 description: "Příklad generování čárového kódu pomocí Java."
@@ -11,11 +11,11 @@ url: /cs/java/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/
 
 Čárový kód je vizuální reprezentace dat ve formě paralelních čar nebo vzorů. Čárové kódy se široce používají v různých odvětvích, jako jsou maloobchod, logistika, zdravotnictví, bankovnictví a mnoho dalších.
 
-"Microsoft Word uživatelům umožňuje vložit čárové kódy přímo do dokumentů pomocí políček. Uživatelé mohou vložit konkrétní typ čárového kódu, jako je například kód QR nebo lineární kód, pomocí pole [BARCODE](https://learn.microsoft.com/en-us/openspecs/office_standards/ms-oi29500/cbc893c0-9683-416d-84c6-407a92451c19)."
+Microsoft Word uživatelům umožňuje vložit čárové kódy přímo do dokumentů pomocí políček. Uživatelé mohou vložit konkrétní typ čárového kódu, jako je například kód QR nebo lineární kód, pomocí pole [BARCODE](https://learn.microsoft.com/en-us/openspecs/office_standards/ms-oi29500/cbc893c0-9683-416d-84c6-407a92451c19).
 
 V tomto článku se podíváme, jak je pole BARCODE implementováno v Aspose.Words a jak Aspose.Words umožňuje uživatelům pracovat s dokumenty Word, do kterých byl již přidán čárový kód.
 
-## "Typy čárových kódů podporované Aspose.Words"
+## Typy čárových kódů podporované Aspose.Words
 
 "Aspose.Words podporuje různé typy čárových kódů. Typ čárového kódu se předává jako řetězec v [BarcodeType](https://reference.aspose.com/words/java/com.aspose.words/barcodeparameters/#getBarcodeType) vlastnosti."
 
@@ -34,11 +34,11 @@ Při ukládání do jiných formátů, např. PDF, Aspose.Words deleguje vykresl
 Aspose.Words nabízí možnost:
 
 1. Programaticky vložit čárový kód do dokumentu pomocí [DisplayBarcode](https://support.microsoft.com/en-au/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3) a [MergeBarcode](https://support.microsoft.com/en-au/office/field-codes-mergebarcode-812fc43f-cb53-4782-8f9f-290ed08d34f3) kódu pole
-"2. nebo načíst dokument Word s již vloženými čárovými kódy pro další práci"
+2. nebo načíst dokument Word s již vloženými čárovými kódy pro další práci
 
 Aspose.Words má rozhraní pro generování vlastních čárových kódů, které usnadňuje používání [Aspose.Words](https://products.aspose.com/words/java/) a [Aspose.BarCode](https://products.aspose.com/barcode/java/) spolu k vykreslování obrázků čárových kódů v dokumentech výstupu. Například můžete vytvořit dokument DOC, OOXML nebo RTF a přidat pole DISPLAYBARCODE pomocí Aspose.Words. Nebo můžete načíst dokument DOC, OOXML nebo RTF s polem DISPLAYBARCODE již existujícím a poskytnout vlastní implementaci generátoru čárových kódů.
 
-"Typické pole DISPLAYBARCODE má následující syntaxi:"
+Typické pole DISPLAYBARCODE má následující syntaxi:
 
 `{ DISPLAYBARCODE "SomeData" QR \h 720 }`
 

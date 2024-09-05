@@ -1,6 +1,6 @@
 ---
-title: `如何创建条形码`
-second_title: `Aspose.Words为.NET`
+title: 如何创建条形码
+second_title: Aspose.Words为.NET
 articleTitle: 生成自定义条形码图像
 linktitle: 生成自定义条形码图像
 description: "使用 C# 的条形码形状生成示例。"
@@ -11,9 +11,9 @@ url: /zh/net/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/
 
 条形码是一种以平行线或图案的形式呈现的数据的视觉表现。在零售、物流、医疗保健、银行等各个行业广泛使用的条形码。
 
-"Microsoft Word 允许用户通过字段将条形码直接嵌入文档。用户可以通过"[BARCODE](https://learn.microsoft.com/en-us/openspecs/office_standards/ms-oi29500/cbc893c0-9683-416d-84c6-407a92451c19)"字段插入特定类型的条形码，例如QR码或线性条形码。"
+Microsoft Word 允许用户通过字段将条形码直接嵌入文档。用户可以通过[BARCODE](https://learn.microsoft.com/en-us/openspecs/office_standards/ms-oi29500/cbc893c0-9683-416d-84c6-407a92451c19)字段插入特定类型的条形码，例如QR码或线性条形码。
 
-"在这篇文章中，我们将探讨在 Aspose.Words 中如何实现 BARCODE 字段以及 Aspose.Words 如何允许用户与已经添加条形码的 Word 文档进行处理。"
+在这篇文章中，我们将探讨在 Aspose.Words 中如何实现 BARCODE 字段以及 Aspose.Words 如何允许用户与已经添加条形码的 Word 文档进行处理。
 
 ## 由"Aspose.Words"支持的条形码类型
 
@@ -25,20 +25,20 @@ Aspose.Words支持多种类型的条形码。条形码类型通过字符串值�
 
 {{% /alert %}}
 
-在为支持条形码的ワード格式保存文件时，你可以使用任意类型的条形码，如"[supported by Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3)"。如果传递了不正确类型的条形码，则Word会显示错误。
+在为支持条形码的ワード格式保存文件时，你可以使用任意类型的条形码，如[supported by Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3)。如果传递了不正确类型的条形码，则Word会显示错误。
 
-"当以其他格式（如PDF）保存，Aspose.Words将条形码渲染委托给用户代码，因此用户只能使用他们使用的实现或库的条形码类型。"
+当以其他格式（如PDF）保存，Aspose.Words将条形码渲染委托给用户代码，因此用户只能使用他们使用的实现或库的条形码类型。
 
 ## "将条形码插入文档或加载带有添加的条形码的文档"
 
 Aspose.Words 提供了以下功能：
 
-"1.用[DisplayBarcode](https://support.microsoft.com/en-au/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3)和[MergeBarcode](https://support.microsoft.com/en-au/office/field-codes-mergebarcode-812fc43f-cb53-4782-8f9f-290ed08d34f3)字段代码程序化地将条形码插入到文档中"
-"2. 或加载一个已经插入条形码的Word文档以进行进一步工作"
+1.用[DisplayBarcode](https://support.microsoft.com/en-au/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3)和[MergeBarcode](https://support.microsoft.com/en-au/office/field-codes-mergebarcode-812fc43f-cb53-4782-8f9f-290ed08d34f3)字段代码程序化地将条形码插入到文档中
+2. 或加载一个已经插入条形码的Word文档以进行进一步工作
 
 Aspose.Words有一个用于生成自定义条形码的接口，使其易于使用[Aspose.Words](https://products.aspose.com/words/net/)和[Aspose.BarCode](https://products.aspose.com/barcode/net/)一起在输出文档中呈现条形码图像。例如，您可以创建一个DOC、OOXML或RTF文档，并使用Aspose.Words添加DISPLAYBARCODE字段。或者，您可以加载带有DISPLAYBARCODE字段的DOC、OOXML或RTF文档，并提供您的自定义条形码生成器的实现。
 
-"一个典型的DISPLAYBARCODE字段具有以下语法："
+一个典型的DISPLAYBARCODE字段具有以下语法：
 
 `{ DISPLAYBARCODE "SomeData" QR \h 720 }`
 
