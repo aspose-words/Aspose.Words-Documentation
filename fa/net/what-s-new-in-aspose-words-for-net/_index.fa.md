@@ -43,7 +43,7 @@ Aspose.Words 24.9 درج شکل گروه و درج StructuredDocumentTag را ا
 
 درباره [Aspose.Words for .NET 24.9 Release Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-9-release-notes/) بیشتر بیاموزید.
 
-{{% /هشدار %}}
+{{% /alert %}}
 
 ## Aspose.Words برای .NET 24.5، 24.6، 24.7، 24.8
 
