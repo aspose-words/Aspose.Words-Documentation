@@ -11,6 +11,40 @@ url: /vi/net/what-s-new-in-aspose-words-for-net/
 
 Trang này mô tả các tính năng Aspose.Words mới thú vị nhất được giới thiệu trong các bản phát hành gần đây.
 
+## Aspose.Words cho .NET 24.9
+
+Aspose.Words 24.9 giới thiệu chèn hình dạng nhóm và chèn StructuredDocumentTag thông qua DocumentBuilder, cải thiện khả năng hiển thị biểu đồ hình tròn với các vạch chia độ, cải thiện chữ ký số với hỗ trợ XAdES-EPES, thêm nhận dạng gạch chân Markdown và cung cấp quyền truy cập vào các dấu phân cách chú thích cuối trang/chú thích cuối trang.
+
+### Hiển thị và in
+
+#### Vạch chia độ trên biểu đồ hình tròn
+
+Đã triển khai hiển thị vạch chia độ trên biểu đồ hình tròn.
+
+### Chuyển đổi, tải và lưu tài liệu
+
+#### Định dạng gạch chân khi tải tệp Markdown
+
+Tùy chọn nhận dạng định dạng gạch chân khi tải tài liệu Markdown đã được tích hợp bằng cách thêm thuộc tính công khai mới [ImportUnderlineFormatting](https://reference.aspose.com/words/net/aspose.words.loading/markdownloadoptions/importunderlineformatting/).
+
+### Chữ ký số
+
+#### Ký tài liệu bằng XAdES-EPES
+
+Khả năng ký tài liệu bằng chữ ký XML-DSig cấp XAdES-EPES đã được giới thiệu bằng cách thêm thuộc tính công khai mới [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions/xmldsiglevel/) và phép liệt kê công khai mới [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/xmldsiglevel/).
+
+### Khác
+
+* Một phương thức công khai mới [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/) đã được thêm vào nhóm hình dạng.
+* Một phương thức công khai mới [InsertStructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertstructureddocumenttag/) đã được thêm vào để chèn **StructuredDocumentTags** vào một tài liệu.
+* Quyền truy cập công khai vào các dấu phân cách chú thích cuối trang/chú thích cuối trang đã được cung cấp bằng cách thêm một số lớp và thuộc tính công khai.
+
+{{% alert color="primary" %}}
+
+Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 24.9](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-9-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words cho .NET 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 mở rộng các tùy chọn cho các cụm, cải thiện khả năng kết xuất và mở rộng một số tùy chọn khác.
@@ -433,80 +467,6 @@ Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 23.2](/words/
 Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 23.3](/words/net/aspose-words-for-net-23-3-release-notes/).
 
 Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 23.4](/words/net/aspose-words-for-net-23-4-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words cho .NET 22.9, 22.10, 22.11, 22.12
-
-Aspose.Words 22.9 mở rộng các tùy chọn tải và lưu tài liệu cũng như cải thiện khả năng tương tác với một số tùy chọn khác.
-
-Aspose.Words 22.10 cải thiện các tùy chọn tìm và thay thế, nâng cao các đối tượng OLE và mở rộng chức năng danh sách.
-
-Aspose.Words 22.11 mở rộng chức năng của nó với các tùy chọn mới để làm việc thuận tiện hơn với các đối tượng vốn đã quen thuộc: trường, in, OLE và thẻ tài liệu có cấu trúc.
-
-Aspose.Words 22.12 nâng cao khả năng hiển thị và giới thiệu các tùy chọn để làm việc với lề khi tải/lưu tài liệu.
-
-### Cải tiến hiệu suất <sup>22.12</sup>
-
-Một tính năng tối ưu hóa giúp giảm đáng kể độ sâu lồng ghép trạng thái đồ họa khi hiển thị sang PDF để duy trì việc tuân thủ thông số kỹ thuật đã được giới thiệu.
-
-### Kết xuất và in ấn
-
-#### In các trang không có màu trên máy in màu <sup>22.11</sup>
-
-Chế độ in màu/thang độ xám tùy chỉnh đã được triển khai bằng cách thêm giá trị **GrayscaleAuto** mới vào bảng liệt kê [ColorPrintMode](https://reference.aspose.com/words/net/aspose.words.rendering/colorprintmode/).
-
-Thuộc tính in mới cho phép người dùng kiểm soát cách in các trang không có màu nếu thiết bị hỗ trợ in màu. Tính năng này có thể hữu ích nếu người dùng muốn tự động in các trang không có màu chỉ bằng chế độ in thang độ xám.
-
-#### Thuộc tính kết xuất đường viền mới <sup>22.12</sup>
-
-Các thuộc tính công cộng mới [ThemeColor](https://reference.aspose.com/words/net/aspose.words/border/themecolor/) và [TintAndShade](https://reference.aspose.com/words/net/aspose.words/border/tintandshade/) đã được giới thiệu.
-
-#### Công thức đường xu hướng tuyến tính để kết xuất bản vẽML <sup>22.12</sup>
-
-Kết xuất công thức đường xu hướng tuyến tính cho biểu đồ DrawML đã được triển khai.
-
-#### Cài đặt dự phòng phông chữ cho phông chữ Google Noto <sup>22.12</sup>
-
-Cài đặt dự phòng phông chữ được xác định trước cho phông chữ Google Noto đã được cập nhật.
-
-### Tải và lưu tài liệu
-
-#### Hình dạng đầu trang hoặc chân trang trong bộ đệm để giảm kích thước PDF <sup>22.9</sup>
-
-Khả năng lưu hình dạng đầu trang/chân trang vào bộ đệm để giảm kích thước tệp PDF đầu ra đã được triển khai bằng cách thêm thuộc tính **CacheHeaderFooterShapes** mới.
-
-#### Tự động phát hiện đánh số khi tải tài liệu <sup>22.9</sup>
-
-Khả năng chỉ định thuộc tính [AutoNumberingDetection](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/autonumberingdetection/) khi tải văn bản đã được triển khai thông qua lớp [TxtLoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/) mở rộng.
-
-#### Chỉ định loại ký quỹ cụ thể <sup>22.12</sup>
-
-Khả năng chỉ định loại [Margin](https://reference.aspose.com/words/net/aspose.words/pagesetup/margins/) cụ thể cho phần nhất định đã được triển khai.
-
-### Tìm kiếm và so sánh <sup>22.10</sup>
-
-Khả năng bỏ qua [StructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words.markup/structureddocumenttag/) khi có các tùy chọn tìm và thay thế đã được triển khai bằng cách thêm thuộc tính [IgnoreStructuredDocumentTags](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/ignorestructureddocumenttags/) mới vào lớp [FindReplaceOptions](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/).
-
-### Khác
-
-* Một tính năng mới để lấy FieldEQ làm OfficeMath đã được thêm vào. <sup>22.9</sup>
-* Cho phép tạo các thẻ tài liệu có cấu trúc thuộc loại Group ở cấp Hàng. <sup>22.9</sup>
-* Các đối tượng và điều khiển OLE hiện được coi là hình ảnh siêu tệp khi chuyển đổi tài liệu sang HTML. <sup>22.10</sup>
-* Một tính năng mới để kiểm tra xem danh sách cụ thể có được tạo từ cùng một mẫu với danh sách so sánh hay không đã được thêm bằng cách đưa phương thức [HasSameTemplate](https://reference.aspose.com/words/net/aspose.words.lists/list/hassametemplate/) mới vào lớp [List](https://reference.aspose.com/words/net/aspose.words.lists/list/). <sup>22.10</sup>
-* Đã thêm khả năng tạo thẻ tài liệu có cấu trúc mới thuộc loại [Citation](https://reference.aspose.com/words/net/aspose.words.markup/sdttype/). <sup>22.11</sup>
-* Khả năng theo dõi tiến trình cập nhật hiện trường đã được cung cấp. <sup>22.11</sup>
-* Thuộc tính **EmbedAttachments** mới cho phép người dùng nhúng tệp đính kèm OLE từ tài liệu nguồn vào tài liệu PDF đầu ra đã được giới thiệu. <sup>22.11</sup>
-
-{{% alert color="primary" %}}
-
-Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 22.9](/words/net/aspose-words-for-net-22-9-release-notes/).
-
-Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 22.10](/words/net/aspose-words-for-net-22-10-release-notes/).
-
-Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 22.11](/words/net/aspose-words-for-net-22-11-release-notes/).
-
-Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 22.12](/words/net/aspose-words-for-net-22-12-release-notes/).
 
 {{% /alert %}}
 

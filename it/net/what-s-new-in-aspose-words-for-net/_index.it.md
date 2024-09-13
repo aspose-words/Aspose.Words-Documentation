@@ -11,6 +11,40 @@ url: /it/net/what-s-new-in-aspose-words-for-net/
 
 Questa pagina descrive le nuove funzionalità Aspose.Words più interessanti introdotte nelle versioni recenti.
 
+## Aspose.Words per .NET 24.9
+
+Aspose.Words 24.9 introduce l'inserimento di forme di gruppo e l'inserimento di StructuredDocumentTag tramite DocumentBuilder, migliora il rendering dei grafici radiali con graduazioni, migliora le firme digitali con il supporto XAdES-EPES, aggiunge il riconoscimento della sottolineatura Markdown e fornisce l'accesso ai separatori di note a piè di pagina/note di chiusura.
+
+### Rendering e stampa
+
+#### Graduazioni sui grafici radiali
+
+È stato implementato il rendering delle graduazioni sui grafici radiali.
+
+### Conversione, caricamento e salvataggio di documenti
+
+#### Formattazione sottolineata durante il caricamento di file Markdown
+
+L'opzione per riconoscere la formattazione sottolineata durante il caricamento di documenti Markdown è stata incorporata aggiungendo una nuova proprietà pubblica [ImportUnderlineFormatting](https://reference.aspose.com/words/net/aspose.words.loading/markdownloadoptions/importunderlineformatting/).
+
+### Firme digitali
+
+#### Firma documenti con XAdES-EPES
+
+La possibilità di firmare documenti con firme XML-DSig di livello XAdES-EPES è stata introdotta aggiungendo una nuova proprietà pubblica [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions/xmldsiglevel/) e una nuova enumerazione pubblica [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/xmldsiglevel/).
+
+### Altro
+
+* Un nuovo metodo pubblico [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/) è stato aggiunto alle forme di gruppo.
+* È stato aggiunto un nuovo metodo pubblico [InsertStructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertstructureddocumenttag/) per inserire **StructuredDocumentTag** in un documento.
+* L'accesso pubblico ai separatori di note a piè di pagina/note di chiusura è stato fornito aggiungendo alcune classi e proprietà pubbliche.
+
+{{% alert color="primary" %}}
+
+Ulteriori informazioni su [Note sulla versione Aspose.Words per .NET 24.9](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-9-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words per .NET 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 espande le opzioni per gli assiemi, migliora le capacità di rendering ed espande alcune altre opzioni.
@@ -433,80 +467,6 @@ Ulteriori informazioni su [Aspose.Words per .NET 23.2 Note sulla versione](/word
 Ulteriori informazioni su [Note sulla versione Aspose.Words per .NET 23.3](/words/net/aspose-words-for-net-23-3-release-notes/).
 
 Ulteriori informazioni su [Aspose.Words per .NET 23.4 Note sulla versione](/words/net/aspose-words-for-net-23-4-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words per .NET 22.9, 22.10, 22.11, 22.12
-
-Aspose.Words 22.9 espande le opzioni per caricare e salvare documenti e migliora l'interazione con alcune altre opzioni.
-
-Aspose.Words 22.10 migliora le opzioni di ricerca e sostituzione, potenzia gli oggetti OLE ed espande la funzionalità degli elenchi.
-
-Aspose.Words 22.11 espande le sue funzionalità con nuove opzioni per lavorare più comodamente con oggetti già familiari: campi, stampa, OLE e tag di documenti strutturati.
-
-Aspose.Words 22.12 migliora le capacità di rendering e introduce opzioni per lavorare con i margini durante il caricamento/salvataggio di un documento.
-
-### Miglioramenti delle prestazioni <sup>22.12</sup>
-
-È stata introdotta un'ottimizzazione che riduce significativamente la profondità dell'annidamento dello stato grafico durante il rendering in PDF per mantenere la conformità alle specifiche.
-
-### Rendering e stampa
-
-#### Stampa di pagine non colorate su una stampante a colori <sup>22.11</sup>
-
-È stata implementata una modalità di stampa personalizzata a colori/scala di grigi aggiungendo un nuovo valore **GrayscaleAuto** all'enumerazione [ColorPrintMode](https://reference.aspose.com/words/it/net/aspose.words.rendering/colorprintmode/).
-
-Una nuova proprietà di stampa consente agli utenti di controllare come vengono stampate le pagine non colorate se il dispositivo supporta la stampa a colori. Questa funzionalità può essere utile se gli utenti desiderano stampare automaticamente pagine non colorate utilizzando solo la modalità di stampa in scala di grigi.
-
-#### Nuove proprietà di rendering dei bordi <sup>22.12</sup>
-
-Sono state introdotte le nuove proprietà pubbliche [ThemeColor](https://reference.aspose.com/words/it/net/aspose.words/border/themecolor/) e [TintAndShade](https://reference.aspose.com/words/it/net/aspose.words/border/tintandshade/).
-
-#### Formula della linea di tendenza lineare per il rendering DrawingML <sup>22.12</sup>
-
-È stato implementato il rendering della formula della linea di tendenza lineare per i grafici DrawingML.
-
-#### Impostazioni di fallback dei caratteri per i caratteri Google Noto <sup>22.12</sup>
-
-Le impostazioni di fallback dei caratteri predefiniti per i caratteri Google Noto sono state aggiornate.
-
-### Caricamento e salvataggio di documenti
-
-#### Memorizzare nella cache le forme di intestazione o piè di pagina per ridurre le dimensioni del PDF <sup>22.9</sup>
-
-La possibilità di memorizzare nella cache le forme di intestazione/piè di pagina per ridurre la dimensione del file PDF di output è stata implementata aggiungendo una nuova proprietà **CacheHeaderFooterShapes**.
-
-#### Rilevamento automatico della numerazione durante il caricamento di un documento <sup>22.9</sup>
-
-La possibilità di specificare la proprietà [AutoNumberingDetection](https://reference.aspose.com/words/it/net/aspose.words.loading/txtloadoptions/autonumberingdetection/) al momento del caricamento del testo è stata implementata attraverso un'estensione della classe [TxtLoadOptions](https://reference.aspose.com/words/it/net/aspose.words.loading/txtloadoptions/).
-
-#### Specificare un particolare tipo di margine <sup>22.12</sup>
-
-È stata implementata la possibilità di specificare un particolare tipo [Margin](https://reference.aspose.com/words/it/net/aspose.words/pagesetup/margins/) per la sezione specificata.
-
-### Cerca e confronta <sup>22.10</sup>
-
-La possibilità di ignorare [StructuredDocumentTag](https://reference.aspose.com/words/it/net/aspose.words.markup/structureddocumenttag/) durante le opzioni di ricerca e sostituzione è stata implementata aggiungendo una nuova proprietà [IgnoreStructuredDocumentTags](https://reference.aspose.com/words/it/net/aspose.words.replacing/findreplaceoptions/ignorestructureddocumenttags/) alla classe [FindReplaceOptions](https://reference.aspose.com/words/it/net/aspose.words.replacing/findreplaceoptions/).
-
-### Altro
-
-* È stata aggiunta una nuova funzionalità per ottenere FieldEQ come OfficeMath. <sup>22.9</sup>
-* Era consentita la creazione di tag di documenti strutturati di tipo Group a livello di Riga. <sup>22.9</sup>
-* Gli oggetti e i controlli OLE vengono ora trattati come immagini metafile durante la conversione di un documento in HTML. <sup>22.10</sup>
-* È stata aggiunta una nuova funzionalità per verificare che un particolare elenco sia stato creato dallo stesso modello dell'elenco confrontato introducendo un nuovo metodo [HasSameTemplate](https://reference.aspose.com/words/it/net/aspose.words.lists/list/hassametemplate/) nella classe [List](https://reference.aspose.com/words/it/net/aspose.words.lists/list/). <sup>22.10</sup>
-* È stata aggiunta la possibilità di creare nuovi tag di documenti strutturati di tipo [Citation](https://reference.aspose.com/words/it/net/aspose.words.markup/sdttype/). <sup>22.11</sup>
-* È stata fornita la possibilità di monitorare l'avanzamento dell'aggiornamento sul campo. <sup>22.11</sup>
-* È stata introdotta una nuova proprietà **EmbedAttachments** che consente agli utenti di incorporare allegati OLE da un documento di origine nel documento PDF di output. <sup>22.11</sup>
-
-{{% alert color="primary" %}}
-
-Ulteriori informazioni su [Aspose.Words per le note sulla versione di .NET 22.9](/words/net/aspose-words-for-net-22-9-release-notes/).
-
-Ulteriori informazioni su [Aspose.Words per le note sulla versione di .NET 22.10](/words/net/aspose-words-for-net-22-10-release-notes/).
-
-Ulteriori informazioni su [Aspose.Words per le note sulla versione di .NET 22.11](/words/net/aspose-words-for-net-22-11-release-notes/).
-
-Ulteriori informazioni su [Note sulla versione Aspose.Words per .NET 22.12](/words/net/aspose-words-for-net-22-12-release-notes/).
 
 {{% /alert %}}
 
