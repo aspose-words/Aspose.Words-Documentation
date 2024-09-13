@@ -11,6 +11,40 @@ url: /nl/net/what-s-new-in-aspose-words-for-net/
 
 Deze pagina beschrijft de meest interessante nieuwe Aspose.Words features geïntroduceerd in recente releases.
 
+## Aspose.Words voor .NET 24.9
+
+Aspose.Words 24.9 introduceert groepsvorminvoeging en StructuredDocumentTag-invoeging via DocumentBuilder, verbetert radiale grafiekweergave met gradaties, verbetert digitale handtekeningen met XAdES-EPES-ondersteuning, voegt Markdown-onderstrepingsherkenning toe en biedt toegang tot voetnoot-/eindnootscheidingstekens.
+
+### Renderen en afdrukken
+
+#### Gradaties op radiale grafieken
+
+Rendering van gradaties op radiale grafieken is geïmplementeerd.
+
+### Documenten converteren, laden en opslaan
+
+#### Onderstrepingsopmaak bij het laden van Markdown-bestanden
+
+De optie om onderstrepingsopmaak te herkennen bij het laden van Markdown-documenten is opgenomen door een nieuwe openbare eigenschap toe te voegen [ImportUnderlineFormatting](https://reference.aspose.com/words/net/aspose.words.loading/markdownloadoptions/importunderlineformatting/).
+
+### Digitale handtekeningen
+
+#### Documenten ondertekenen met XAdES-EPES
+
+De mogelijkheid om documenten te ondertekenen met XAdES-EPES level XML-DSig handtekeningen is geïntroduceerd door het toevoegen van een nieuwe publieke eigenschap [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions/xmldsiglevel/) en een nieuwe publieke opsomming [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/xmldsiglevel/).
+
+### Anders
+
+* Een nieuwe publieke methode [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/) is toegevoegd aan groepsvormen.
+* Er is een nieuwe openbare methode [InsertStructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertstructureddocumenttag/) toegevoegd om **StructuredDocumentTags** in een document in te voegen.
+* Openbare toegang tot voetnoot-/eindnootscheidingstekens is geboden door een paar openbare klassen en eigenschappen toe te voegen.
+
+{{% alert color="primary" %}}
+
+Meer informatie over [Aspose.Words voor .NET 24.9 Release-opmerkingen](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-9-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words voor .NET 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 breidt de opties voor samenstellingen uit, verbetert de weergavemogelijkheden en breidt enkele andere opties uit.
@@ -433,80 +467,6 @@ Meer informatie over [Aspose.Words voor .NET 23.2 Release Notes](/words/net/aspo
 Meer informatie over [Aspose.Words voor .NET 23.3 Release Notes](/words/net/aspose-words-for-net-23-3-release-notes/).
 
 Meer informatie over [Aspose.Words voor .NET 23.4 Release Notes](/words/net/aspose-words-for-net-23-4-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words voor .NET 22.9, 22.10, 22.11, 22.12
-
-Aspose.Words 22.9 breidt opties uit voor het laden en opslaan van documenten en verbeterde interactie met enkele andere opties.
-
-Aspose.Words 22.10 verbetert het vinden en vervangen van opties, verbetert OLE objecten, en breidt lijst functionaliteit.
-
-Aspose.Words 22.11 breidt zijn functionaliteit uit met nieuwe opties voor handiger werken met reeds bekende objecten: velden, afdrukken, OLE en gestructureerde documenttags.
-
-Aspose.Words 22.12 vergroot de renderingsmogelijkheden en introduceert opties voor het werken met marges bij het laden/opslaan van een document.
-
-### Prestatieverbeteringen <sup>22.12</sup>
-
-Er is een optimalisatie ingevoerd die de diepte van graphics state nesting aanzienlijk vermindert bij het renderen naar PDF om de naleving van de specificaties te handhaven.
-
-### Renderen en afdrukken
-
-#### Afdrukken Niet-gekleurd Pagina's op een kleurenprinter <sup>22.11</sup>
-
-Een aangepaste kleur/grijswaarden afdrukmodus is geïmplementeerd door een nieuwe **GrayscaleAuto** waarde aan de [ColorPrintMode](https://reference.aspose.com/words/net/aspose.words.rendering/colorprintmode/) Lijst.
-
-Een nieuwe print eigenschap stelt gebruikers in staat om te controleren hoe niet-gekleurde pagina's worden afgedrukt als het apparaat ondersteunt kleur afdrukken. Deze functie kan nuttig zijn als gebruikers niet-gekleurde pagina's automatisch willen afdrukken met alleen grijswaarden afdrukmodus.
-
-#### Nieuwe Rand-renderingseigenschappen <sup>22.12</sup>
-
-Nieuwe openbare eigendommen [ThemeColor](https://reference.aspose.com/words/net/aspose.words/border/themecolor/) en [TintAndShade](https://reference.aspose.com/words/net/aspose.words/border/tintandshade/) zijn geïntroduceerd.
-
-#### Lineaire Trendline Formule voor TekeningML Rendering <sup>22.12</sup>
-
-Lineaire trendlijn formule rendering voor DrawingML grafieken is geïmplementeerd.
-
-#### Lettertype Terugvalinstellingen voor Google Noto Lettertypen <sup>22.12</sup>
-
-De vooraf gedefinieerde font-fallbackinstellingen voor Google Noto lettertypen zijn bijgewerkt.
-
-### Documenten laden en opslaan
-
-#### Cache Header of Footer Shapes om PDF te verminderen Grootte <sup>22.9</sup>
-
-De mogelijkheid om header/voeter vormen cache om de grootte van de output PDF-bestand te verminderen is geïmplementeerd door het toevoegen van een nieuwe **CacheHeaderFooterShapes** eigendom.
-
-#### Automatische nummerdetectie bij het laden van een document <sup>22.9</sup>
-
-Het vermogen om de [AutoNumberingDetection](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/autonumberingdetection/) eigendom na tekst laden is geïmplementeerd door een uitgebreide van de [TxtLoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/) Klasse.
-
-#### Bijzondere vermelding Margetype <sup>22.12</sup>
-
-De mogelijkheid om een bepaalde [Margin](https://reference.aspose.com/words/net/aspose.words/pagesetup/margins/) type voor de gegeven sectie is geïmplementeerd.
-
-### Zoeken en vergelijken <sup>22.10</sup>
-
-De mogelijkheid om te negeren [StructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words.markup/structureddocumenttag/) bij het vinden en vervangen van opties is geïmplementeerd door het toevoegen van een nieuwe [IgnoreStructuredDocumentTags](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/ignorestructureddocumenttags/) eigendom van de [FindReplaceOptions](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/) Klasse.
-
-### Andere
-
-* Een nieuwe functie voor FieldEQ als OfficeMath is toegevoegd. <sup>22.9</sup>
-* Het creëren van gestructureerde documenttags van Group type op rijniveau was toegestaan. <sup>22.9</sup>
-* OLE objecten en controles worden nu behandeld als metafile beelden bij het omzetten van een document naar HTML. <sup>22.10</sup>
-* Een nieuwe functie om te controleren of een bepaalde lijst is gemaakt uit dezelfde template als de vergeleken lijst is toegevoegd door de invoering van een nieuwe [HasSameTemplate](https://reference.aspose.com/words/net/aspose.words.lists/list/hassametemplate/) methode in de [List](https://reference.aspose.com/words/net/aspose.words.lists/list/) Klasse. <sup>22.10</sup>
-* De mogelijkheid om nieuwe gestructureerde document tags van de [Citation](https://reference.aspose.com/words/net/aspose.words.markup/sdttype/) type is toegevoegd. <sup>22.11</sup>
-* Er is voorzien in de mogelijkheid om de vooruitgang op het gebied van het bijwerken van het veld te volgen. <sup>22.11</sup>
-* A new **EmbedAttachments** eigenschap waarmee gebruikers OLE bijlagen kunnen insluiten vanuit een brondocument in het uitvoer PDF-document is geïntroduceerd. <sup>22.11</sup>
-
-{{% alert color="primary" %}}
-
-Meer informatie over [Aspose.Words voor .NET 22.9 Release Notes](/words/net/aspose-words-for-net-22-9-release-notes/).
-
-Meer informatie over [Aspose.Words voor .NET 22.10 Release Notes](/words/net/aspose-words-for-net-22-10-release-notes/).
-
-Meer informatie over [Aspose.Words voor .NET 22.11 Release Notes](/words/net/aspose-words-for-net-22-11-release-notes/).
-
-Meer informatie over [Aspose.Words voor .NET 22.12 Loslaten](/words/net/aspose-words-for-net-22-12-release-notes/).
 
 {{% /alert %}}
 

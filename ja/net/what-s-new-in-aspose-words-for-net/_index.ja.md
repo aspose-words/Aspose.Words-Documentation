@@ -11,6 +11,40 @@ url: /ja/net/what-s-new-in-aspose-words-for-net/
 
 このページでは、最近のリリースで導入された最も興味深い Aspose.Words の新機能について説明します。
 
+## Aspose.Words for .NET 24.9
+
+Aspose.Words 24.9 では、DocumentBuilder によるグループ シェイプの挿入と StructuredDocumentTag の挿入が導入され、目盛り付きの放射状グラフのレンダリングが強化され、XAdES-EPES サポートによるデジタル署名が改善され、Markdown の下線認識が追加され、脚注/文末脚注のセパレーターへのアクセスが提供されます。
+
+### レンダリングと印刷
+
+#### 放射状グラフの目盛り
+
+放射状グラフの目盛りのレンダリングが実装されました。
+
+### ドキュメントの変換、読み込み、および保存
+
+#### Markdown ファイルの読み込み時の下線書式設定
+
+Markdown ドキュメントの読み込み時に下線書式設定を認識するオプションが、新しいパブリック プロパティ [ImportUnderlineFormatting](https://reference.aspose.com/words/net/aspose.words.loading/markdownloadoptions/importunderlineformatting/) の追加によって組み込まれました。
+
+### デジタル署名
+
+#### XAdES-EPES でドキュメントに署名
+
+新しいパブリック プロパティ [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions/xmldsiglevel/) と新しいパブリック列挙 [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/xmldsiglevel/) を追加することで、XAdES-EPES レベルの XML-DSig 署名でドキュメントに署名する機能が導入されました。
+
+### その他
+
+* グループ シェイプに新しいパブリック メソッド [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/) が追加されました。
+* **StructuredDocumentTags** をドキュメントに挿入するための新しいパブリック メソッド [InsertStructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertstructureddocumenttag/) が追加されました。
+* いくつかのパブリック クラスとプロパティを追加することで、脚注/文末脚注セパレーターへのパブリック アクセスが提供されています。
+
+{{% alert color="primary" %}}
+
+詳細については、[Aspose.Words for .NET 24.9 リリース ノート](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-9-release-notes) をご覧ください。
+
+{{% /alert %}}
+
 ## Aspose.Words for .NET 24.5、24.6、24.7、24.8
 
 Aspose.Words 24.5 では、アセンブリのオプションが拡張され、レンダリング機能が向上し、その他のオプションも拡張されています。
@@ -435,80 +469,6 @@ MOBI および AZW3 形式の保存進捗通知が実装されました。
 [Aspose.Words for .NET 23.3 リリースノート](/words/net/aspose-words-for-net-23-3-release-notes/) について詳しくは、こちらをご覧ください。
 
 [Aspose.Words for .NET 23.4 リリースノート](/words/net/aspose-words-for-net-23-4-release-notes/) について詳しくは、こちらをご覧ください。
-
-{{% /alert %}}
-
-## .NET 22.9、22.10、22.11、22.12 の Aspose.Words
-
-Aspose.Words 22.9 では、ドキュメントのロードと保存のオプションが拡張され、他のいくつかのオプションとの相互作用が改善されました。
-
-Aspose.Words 22.10 では、検索と置換のオプションが改善され、OLE オブジェクトが強化され、リスト機能が拡張されています。
-
-Aspose.Words 22.11 では、フィールド、印刷、OLE、構造化文書タグなど、すでに使い慣れたオブジェクトをより便利に操作できるように、新しいオプションで機能が拡張されています。
-
-Aspose.Words 22.12 では、レンダリング機能が強化され、ドキュメントのロード/保存時にマージンを操作するためのオプションが導入されています。
-
-### パフォーマンスの改善<sup>22.12</sup>
-
-仕様への準拠を維持するために、PDF へのレンダリング時にグラフィックス状態のネストの深さを大幅に減らす最適化が導入されました。
-
-### レンダリングと印刷
-
-#### カラープリンタでの非カラーページの印刷<sup>22.11</sup>
-
-新しい **GrayscaleAuto** 値を [ColorPrintMode](https://reference.aspose.com/words/net/aspose.words.rendering/colorprintmode/) 列挙に追加することにより、カスタム カラー/グレースケール印刷モードが実装されました。
-
-新しい印刷プロパティにより、デバイスがカラー印刷をサポートしている場合に、ユーザーはカラー以外のページの印刷方法を制御できます。この機能は、ユーザーがグレースケール印刷モードのみを使用して非カラーページを自動的に印刷したい場合に役立ちます。
-
-#### 新しい境界線レンダリング プロパティ<sup>22.12</sup>
-
-新しいパブリック プロパティ [ThemeColor](https://reference.aspose.com/words/net/aspose.words/border/themecolor/) および [TintAndShade](https://reference.aspose.com/words/net/aspose.words/border/tintandshade/) が導入されました。
-
-#### DrawingML レンダリング用の線形近似曲線の式<sup>22.12</sup>
-
-DrawingML チャートの線形近似曲線数式レンダリングが実装されました。
-
-#### Google Noto フォント<sup>22.12</sup>のフォント フォールバック設定
-
-Google Noto フォントの事前定義フォント フォールバック設定が更新されました。
-
-### ドキュメントのロードと保存
-
-#### ヘッダーまたはフッターの形状をキャッシュして PDF サイズを削減<sup>22.9</sup>
-
-新しい **CacheHeaderFooterShapes** プロパティを追加することで、ヘッダー/フッターの形状をキャッシュして出力 PDF ファイルのサイズを削減する機能が実装されました。
-
-#### 文書ロード時の自動番号検出<sup>22.9</sup>
-
-テキストのロード時に [AutoNumberingDetection](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/autonumberingdetection/) プロパティを指定する機能は、[TxtLoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/) クラスの拡張によって実装されました。
-
-#### 特定の余白タイプの指定<sup>22.12</sup>
-
-特定のセクションに特定の [Margin](https://reference.aspose.com/words/net/aspose.words/pagesetup/margins/) タイプを指定する機能が実装されました。
-
-### 検索と比較<sup>22.10</sup>
-
-検索および置換オプションで [StructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words.markup/structureddocumenttag/) を無視する機能は、新しい [IgnoreStructuredDocumentTags](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/ignorestructureddocumenttags/) プロパティを [FindReplaceOptions](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/) クラスに追加することによって実装されました。
-
-### 他の
-
-* FieldEQ を OfficeMath として取得する新機能が追加されました。 <sup>22.9</sup>
-* Groupタイプの構造化文書タグをRowレベルで作成できるようにしました。 <sup>22.9</sup>
-* ドキュメントを HTML に変換するときに、OLE オブジェクトとコントロールがメタファイル イメージとして扱われるようになりました。 <sup>10月22日</sup>
-* 新しい [HasSameTemplate](https://reference.aspose.com/words/net/aspose.words.lists/list/hassametemplate/) メソッドを [List](https://reference.aspose.com/words/net/aspose.words.lists/list/) クラスに導入することにより、特定のリストが比較リストと同じテンプレートから作成されたことを確認する新しい機能が追加されました。 <sup>10月22日</sup>
-* [Citation](https://reference.aspose.com/words/net/aspose.words.markup/sdttype/) タイプの新しい構造化文書タグを作成する機能が追加されました。 <sup>11月22日</sup>
-* フィールド更新の進行状況を追跡する機能が提供されています。 <sup>11月22日</sup>
-* ユーザーがソース ドキュメントから出力 PDF ドキュメントに OLE 添付ファイルを埋め込むことができる新しい **EmbedAttachments** プロパティが導入されました。 <sup>11月22日</sup>
-
-{{% alert color="primary" %}}
-
-[Aspose.Words for .NET 22.9 リリースノート](/words/net/aspose-words-for-net-22-9-release-notes/) について詳しくは、こちらをご覧ください。
-
-[Aspose.Words for .NET 22.10 リリースノート](/words/net/aspose-words-for-net-22-10-release-notes/) について詳しくは、こちらをご覧ください。
-
-[Aspose.Words for .NET 22.11 リリースノート](/words/net/aspose-words-for-net-22-11-release-notes/) について詳しくは、こちらをご覧ください。
-
-[Aspose.Words for .NET 22.12 リリースノート](/words/net/aspose-words-for-net-22-12-release-notes/) について詳しくは、こちらをご覧ください。
 
 {{% /alert %}}
 
