@@ -29,7 +29,7 @@ Bảng bên dưới cho biết định dạng tập tin đầu vào và đầu r
 | [ `XLSX` ] ( https: // docs. fileformat. com / spreadsheet / xlsx / ) | Định dạng tệp dựa trên XML để biểu diễn bảng tính || ‹ <emoticons/tick >› ||
 | `FlatOpc` | Office Open XML WordprocessingML được lưu trữ trong một tập tin XML phẳng thay vì gói ZIP | {{< emoticons/tick >}} | {<emoticon/tick >}} ||
 | `FlatOpcMacroEnabled` | Tài liệu Office Open XML WordprocessingML Macro-Enabled được lưu trữ trong một tập tin XML phẳng thay vì gói ZIP | {{< emoticons/tick >}} | {{< emoticons/tick >}} ||
-| `FlatOpcTemplate` | Office Open XML WordprocessingML Template (không macro) lưu trữ trong một tập tin XML phẳng thay vì gói ZIP | <{{{ emoticons/tick >}}} | {{< cảm xúc: tick >}} ||
+| `FlatOpcTemplate` | Office Open XML WordprocessingML Template (không macro) lưu trữ trong một tập tin XML phẳng thay vì gói ZIP | <{{{ emoticons/tick >}}} | {{< emoticons/tick >}} ||
 | `FlatOpcTemplateMacroEnabled` | Office Open XML WordprocessingML Macro-Enabled Template được lưu trữ trong một tập tin XML phẳng thay vì gói ZIP | {{< emoticons/tick >}} | ={<emoticons/tick >}} ||
 | [XML] (https://docs.fileformat.com/web/xml/) | Tài liệu XML | {<emoticons/tick >}} |||
 | [`RTF`](https://docs.fileformat.com/word-processing/rtf/)" | Định dạng RTF | {<emoticons/tick >}} | {{< emoticons/tick >}} ||
