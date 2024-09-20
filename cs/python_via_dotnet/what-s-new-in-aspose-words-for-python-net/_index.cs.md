@@ -11,6 +11,40 @@ url: /cs/python-net/what-s-new-in-aspose-words-for-python-net/
 
 Tato stránka popisuje nejzajímavější nový Aspose.Words funkce zavedené v nedávných vydáních.
 
+## Aspose.Words pro Python přes .NET 24.9
+
+Aspose.Words 24.9 zavádí vkládání tvarů skupiny a vkládání StructuredDocumentTag prostřednictvím DocumentBuilderu, vylepšuje vykreslování radiálních grafů pomocí gradací, zlepšuje digitální podpisy s podporou XAdES-EPES, přidává rozpoznávání podtržení Markdown a poskytuje přístup k oddělovačům poznámek pod čarou/vysvětlivky.
+
+### Vykreslování a tisk
+
+#### Promoce na radiálních grafech
+
+Bylo implementováno vykreslování stupnice na radiálních mapách.
+
+### Konverze, načítání a ukládání dokumentů
+
+#### Při načítání souborů Markdown podtrhněte formátování
+
+Možnost rozpoznat podtržené formátování při načítání dokumentů Markdown byla začleněna přidáním nové veřejné vlastnosti [import_underline_formatting property](https://reference.aspose.com/words/python-net/aspose.words.loading/markdownloadoptions/import_underline_formatting/).
+
+### Digitální podpisy
+
+#### Podepisujte dokumenty pomocí XAdES-EPES
+
+Schopnost podepisovat dokumenty pomocí podpisů XML-DSig na úrovni XAdES-EPES byla zavedena přidáním nové veřejné vlastnosti [xml_dsig_level](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/signoptions/xml_dsig_level/) a nového veřejného výčtu [XmlDsigLevel](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/xmldsiglevel/).
+
+### Jiné
+
+* Ke skupinovým tvarům byla přidána nová veřejná metoda [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/).
+* Byla přidána nová veřejná metoda [insert_structured_document_tag](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_structured_document_tag/) pro vkládání **StructuredDocumentTags** do dokumentu.
+* Veřejný přístup k oddělovačům poznámek pod čarou/vysvětlivky byl poskytnut přidáním několika veřejných tříd a vlastností.
+
+{{% alert color="primary" %}}
+
+Další informace o [Aspose.Words pro Python prostřednictvím .NET 24.9 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-9-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words pro Python prostřednictvím .NET 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 rozšiřuje možnosti pro sestavy, zlepšuje možnosti vykreslování a rozšiřuje některé další možnosti.
@@ -422,73 +456,6 @@ Více informací o [Aspose.Words místo Python via .NET 23.2 Poznámky k vydán�
 Více informací o [Aspose.Words místo Python via .NET 23.3 Poznámky k vydání](/words/python-net/aspose-words-for-python-via-dotnet-23-3-release-notes/).
 
 Více informací o [Aspose.Words místo Python via .NET 23.4 Poznámky k vydání](/words/python-net/aspose-words-for-python-via-dotnet-23-4-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words místo Python via .NET 22.9, 22.10, 22.11, 22.12
-
-Aspose.Words 22.9 rozšiřuje možnosti načítání a ukládání dokumentů a zlepšení interakce s některými dalšími možnostmi.
-
-Aspose.Words 22.10 zlepšuje hledání a výměnu možností, zvyšuje OLE objekty a rozšiřuje funkci seznamu.
-
-Aspose.Words 22.11 rozšiřuje svou funkčnost o nové možnosti pro pohodlnější práci s již známými objekty: OLE a strukturované značky dokumentů.
-
-Aspose.Words 22.12 zvyšuje možnosti vykreslování a zavádí možnosti práce s okraji při načítání / ukládání dokumentu.
-
-### Zlepšení výkonnosti <sup>22.12</sup>
-
-Byla zavedena optimalizace, která výrazně snižuje hloubku grafického stavu hnízdění při zobrazování do PDF, aby byla zachována shoda specifikace.
-
-### Renderování a tisk
-
-#### Nové vlastnosti pro úpravu hranic <sup>22.12</sup>
-
-Nové veřejné vlastnictví [theme_color](https://reference.aspose.com/words/python-net/aspose.words/border/theme_color/) a [tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words/border/tint_and_shade/) byly představeny.
-
-#### Linear Trendline Formule pro kresleníML Rendering <sup>22.12</sup>
-
-Renderování lineárních trendů pro grafy kresleníML bylo implementováno.
-
-#### Nastavení Font Fallback pro Google Noto Písma <sup>22.12</sup>
-
-Předdefinované nastavení zálohování písma pro Google Noto byla aktualizována písma.
-
-### Načítání a ukládání dokumentů
-
-#### Cache hlavička nebo zápatí tvary ke snížení velikosti PDF <sup>22.9</sup>
-
-Schopnost cache hlavičky / tvary nohy ke snížení velikosti výstupního PDF souboru byla implementována přidáním nového **CacheHeaderFooterShapes** majetek.
-
-#### Automatická detekce čísel při načtení dokumentu <sup>22.9</sup>
-
-Schopnost určit [auto_numbering_detection](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/auto_numbering_detection/) majetek při načítání textu byl realizován prostřednictvím rozšíření [TxtLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/) třída.
-
-#### Upřesnění konkrétního Typ marže <sup>22.12</sup>
-
-Schopnost určit konkrétní **Margin** typ pro daný oddíl byl implementován.
-
-### Hledat a porovnat <sup>O tloušťce převyšující 0,2 mm</sup>
-
-Schopnost ignorovat [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) při hledání a nahrazení možností byla provedena přidáním nového [ignore_structured_document_tags](https://reference.aspose.com/words/python-net/aspose.words.replacing/findreplaceoptions/ignore_structured_document_tags/) majetek [FindReplaceOptions](https://reference.aspose.com/words/python-net/aspose.words.replacing/findreplaceoptions/) třída.
-
-### Ostatní
-
-- Byla přidána nová funkce pro získání FieldEQ jako OfficeMath. <sup>22.9</sup>
-- Vytvoření strukturovaných značek dokumentů Group typ na úrovni řádku byl povolen. <sup>22.9</sup>
-- OLE objekty a ovládací prvky jsou nyní považovány za metafilní obrázky při konverzi dokumentu na HTML. <sup>O tloušťce převyšující 0,2 mm</sup>
-- Nová funkce pro kontrolu, že konkrétní seznam byl vytvořen ze stejné šablony jako srovnávací seznam byl doplněn zavedením nového **HasSameTemplate** metoda do [List](https://reference.aspose.com/words/python-net/aspose.words.lists/list/) třída. <sup>O tloušťce převyšující 0,2 mm</sup>
-- Schopnost vytvořit nové strukturované značky dokumentů [Citation](https://reference.aspose.com/words/python-net/aspose.words.markup/sdttype/) typ byl přidán. <sup>22.11</sup>
-- Nový. **EmbedAttachments** byla zavedena vlastnost, která uživatelům umožňuje vložit OLE přílohy ze zdrojového dokumentu do výstupního PDF dokumentu. <sup>22.11</sup>
-
-{{% alert color="primary" %}}
-
-Více informací o [Aspose.Words místo Python via .NET 22.9 Poznámky k vydání](/words/python-net/aspose-words-for-python-via-dotnet-22-9-release-notes/).
-
-Více informací o [Aspose.Words místo Python via .NET 22.10 Poznámky k vydání](/words/python-net/aspose-words-for-python-via-dotnet-22-10-release-notes/).
-
-Více informací o [Aspose.Words místo Python via .NET 22.11 Poznámky k vydání](/words/python-net/aspose-words-for-python-via-dotnet-22-11-release-notes/).
-
-Více informací o [Aspose.Words místo Python via .NET 22.12 Poznámky k vydání](/words/python-net/aspose-words-for-python-via-dotnet-22-12-release-notes/).
 
 {{% /alert %}}
 

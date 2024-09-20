@@ -11,6 +11,40 @@ url: /he/java/what-s-new-in-aspose-words-for-java/
 
 דף זה מתאר את החדש המעניין ביותר Aspose.Words תכונות שהוצגו במהדורות האחרונות.
 
+## Aspose.Words עבור Java 24.9
+
+Aspose.Words 24.9 מציגה הכנסת צורות קבוצתיות והכנסת StructuredDocumentTag באמצעות DocumentBuilder, משפרת את עיבוד התרשים הרדיאלי עם דרגות, משפרת חתימות דיגיטליות עם תמיכה ב-XAdES-EPES, מוסיפה זיהוי קו תחתון של Markdown, ומספקת גישה למפרידי הערות שוליים/הערות סיום.
+
+### עיבוד והדפסה
+
+#### סיום לימודים בתרשימים רדיאליים
+
+עיבוד של סיום על תרשימים רדיאליים יושם.
+
+### המרה, טעינה ושמירה של מסמכים
+
+#### עיצוב קו תחתון בעת ​​טעינת קבצי Markdown
+
+האפשרות לזהות עיצוב קו תחתון בעת ​​טעינת מסמכי Markdown שולבה על ידי הוספת מאפיין ציבורי חדש [ImportUnderlineFormatting](https://reference.aspose.com/words/java/com.aspose.words/markdownloadoptions/#getImportUnderlineFormatting).
+
+### חתימות דיגיטליות
+
+#### חתום על מסמכים עם XAdES-EPES
+
+היכולת לחתום על מסמכים עם חתימות XML-DSig ברמת XAdES-EPES הוצגה על ידי הוספת מאפיין ציבורי חדש [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/signoptions/#getXmlDsigLevel) וספירה ציבורית חדשה [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/xmldsiglevel/)
+
+### אחר
+
+* שיטה ציבורית חדשה [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-com.aspose.words.Shape...) נוספה לצורות קבוצתיות.
+* שיטה ציבורית חדשה [InsertStructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertStructuredDocumentTag-int) נוספה כדי להוסיף **StructuredDocumentTags** למסמך.
+* גישה ציבורית למפרידי הערות שוליים/הערות סיום ניתנה על ידי הוספת כמה מחלקות ומאפיינים ציבוריים.
+
+{{% alert color="primary" %}}
+
+למידע נוסף על [Aspose.Words for Java 24.9 Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words עבור Java 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 מרחיב אפשרויות למכלולים, משפר את יכולות העיבוד ומרחיב כמה אפשרויות אחרות.
@@ -427,80 +461,6 @@ The The The [Fill](https://reference.aspose.com/words/java/com.aspose.words/fill
 למד עוד על [Aspose.Words עבור Java 23.3 הערות](/words/java/aspose-words-for-java-23-3-release-notes/).
 
 למד עוד על [Aspose.Words עבור Java 23.4 הערות](/words/java/aspose-words-for-java-23-4-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words עבור Java 22.9, 22.10, 22.11, 22.12
-
-Aspose.Words 22.9 מרחיב אפשרויות לטעינה ולהצלת מסמכים ושיפור אינטראקציה עם כמה אפשרויות אחרות.
-
-Aspose.Words 22.10 משפר את האפשרות והחלפת אפשרויות, משפר את האובייקטים של OLE ומרחיב את הפונקציונליות של הרשימה.
-
-Aspose.Words 22.11 מרחיבה את הפונקציונליות שלה עם אפשרויות חדשות לעבודה נוחה יותר עם אובייקטים מוכרים כבר: שדות, הדפסה, OLE ותגי מסמך מובנה.
-
-Aspose.Words 22.12 משפר את יכולת ביצוע ומציג אפשרויות לעבודה עם שולי כאשר טעינה / שמירה על מסמך.
-
-### שיפור ביצועים <sup>22.12</sup>
-
-אופטימיזציה אשר מפחיתה באופן משמעותי את העומק של מצב גרפיקה קינון בעת מתן PDF כדי לשמור על תאימות ספציפית הוכנס.
-
-### גילוח ומדפס
-
-#### הדפסה ללא צבע דפים על מדפסת צבעים <sup>22.11</sup>
-
-שיטת הדפסה צבעונית / קידוד מבוצעת על ידי הוספת חדש **GrayscaleAuto** ערך ל [ColorPrintMode](https://reference.aspose.com/words/java/com.aspose.words/colorprintmode/) אזהרה.
-
-נכס הדפסה חדש מאפשר למשתמשים לשלוט כיצד דפים שאינם צבעים מודפסים אם המכשיר תומך הדפסה צבע. תכונה זו יכולה להיות שימושית אם משתמשים רוצים להדפיס באופן אוטומטי דפים ללא צבע באמצעות רק מצב הדפסה אפור.
-
-#### New Border Rendering Properties <sup>22.12</sup>
-
-נכסים ציבוריים חדשים [ThemeColor](https://reference.aspose.com/words/java/com.aspose.words/border/#getThemeColor) ו [TintAndShade](https://reference.aspose.com/words/java/com.aspose.words/border/#getTintAndShade) הוצגו.
-
-#### המונחים: DrawingML Rendering <sup>22.12</sup>
-
-הנוסחה של Linear Trendline להפוך עבור charts DrawingML כבר מיושם.
-
-#### הגדרות Fallback Google Noto פונטים <sup>22.12</sup>
-
-הגדרות הנפילה של גופן מוגדרות מראש Google Noto גופנים מעודכנים.
-
-### לטעון ולחסוך מסמכים
-
-#### Cache Header או Footer Shapes כדי להפחית את גודל PDF <sup>22.9</sup>
-
-היכולת של cache Header/footer צורות כדי להפחית את גודל קובץ ה- PDF יישמה על ידי הוספת חדש [CacheHeaderFooterShapes](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) רכוש.
-
-#### זיהוי מספר אוטומטי בעת טעינת מסמך <sup>22.9</sup>
-
-היכולת לציין את [AutoNumberingDetection](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/#getAutoNumberingDetection) רכוש על טעינת טקסט יושם באמצעות הרחבה של [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) מעמד.
-
-#### תגית: a Particular Margin Type <sup>22.12</sup>
-
-היכולת לציין פרטים [Margin](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getMargins) סוג של סעיף זה יושם.
-
-### חיפוש והשוואה <sup>22.10</sup>
-
-היכולת להתעלם [StructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttag/) עם מציאת והחלפת אפשרויות יושמו על ידי הוספת חדש [IgnoreStructuredDocumentTags](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreStructuredDocumentTags--) רכוש [FindReplaceOptions](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/) מעמד.
-
-### אחרים
-
-- תכונה חדשה כדי לקבל את שדהEQ כ- OfficeMath נוספה. <sup>22.9</sup>
-- - יצירת תגי מסמך מובנים Group סוג ברמת רו מותר. <sup>22.9</sup>
-- אובייקטים ובקרות של OLE מטופלים כעת כתמונות metafile בעת המרת מסמך ל- HTML. <sup>22.10</sup>
-- תכונה חדשה לבדוק כי רשימה מסוימת נוצרה מאותה תבנית כמו הרשימה השווה נוספה על ידי הצגת רשימה חדשה [HasSameTemplate](https://reference.aspose.com/words/java/com.aspose.words/list/#hasSameTemplate-com.aspose.words.List-) שיטה לתוך [List](https://reference.aspose.com/words/java/com.aspose.words/list/) מעמד. <sup>22.10</sup>
-- - היכולת ליצור תגי מסמך מובנים חדשים של [Citation](https://reference.aspose.com/words/java/com.aspose.words/sdttype/) סוג נוסף. <sup>22.11</sup>
-- היכולת לעקוב אחר התקדמות עיבוד השדה מסופקת. <sup>22.11</sup>
-- חדש **EmbedAttachments** נכסים המאפשרים למשתמשים להטמיע קבצים מצורפים של OLE ממסמכים מקור במסמך הפלט PDF הוצגו. <sup>22.11</sup>
-
-{{% alert color="primary" %}}
-
-למד עוד על [Aspose.Words עבור Java 22.9 הודעות](/words/java/aspose-words-for-java-22-9-release-notes/).
-
-למד עוד על [Aspose.Words עבור Java 22.10 הודעות](/words/java/aspose-words-for-java-22-10-release-notes/).
-
-למד עוד על [Aspose.Words עבור Java 22.11 פרסום הערות](/words/java/aspose-words-for-java-22-11-release-notes/).
-
-למד עוד על [Aspose.Words עבור Java 22.12 הודעות](/words/java/aspose-words-for-java-22-12-release-notes/).
 
 {{% /alert %}}
 

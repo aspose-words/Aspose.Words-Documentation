@@ -11,6 +11,40 @@ url: /ar/python-net/what-s-new-in-aspose-words-for-python-net/
 
 تصف هذه الصفحة ميزات Aspose.Words الجديدة الأكثر إثارة للاهتمام والتي تم تقديمها في الإصدارات الأخيرة.
 
+## Aspose.Words for Python via .NET 24.9
+
+يقدم Aspose.Words 24.9 إدراج شكل المجموعة وإدراج StructuredDocumentTag عبر DocumentBuilder، ويعزز عرض المخطط الشعاعي باستخدام التدرجات، ويحسن التوقيعات الرقمية مع دعم XAdES-EPES، ويضيف التعرف على خط Markdown، ويوفر الوصول إلى فواصل الحواشي السفلية/الحواشي النهائية.
+
+### العرض والطباعة
+
+#### التدرجات على المخططات الشعاعية
+
+تم تنفيذ عرض التدرجات على المخططات الشعاعية.
+
+### تحويل المستندات وتحميلها وحفظها
+
+#### تنسيق التسطير عند تحميل ملفات Markdown
+
+تم دمج خيار التعرف على تنسيق التسطير عند تحميل مستندات Markdown من خلال إضافة خاصية عامة جديدة [import_underline_formatting property](https://reference.aspose.com/words/python-net/aspose.words.loading/markdownloadoptions/import_underline_formatting/).
+
+### التوقيعات الرقمية
+
+#### توقيع المستندات باستخدام XAdES-EPES
+
+تم تقديم القدرة على توقيع المستندات باستخدام توقيعات XML-DSig على مستوى XAdES-EPES من خلال إضافة خاصية عامة جديدة [xml_dsig_level](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/signoptions/xml_dsig_level/) وتعداد عام جديد [XmlDsigLevel](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/xmldsiglevel/).
+
+### أخرى
+
+* تمت إضافة طريقة عامة جديدة [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/) إلى أشكال المجموعة.
+* تمت إضافة طريقة عامة جديدة [insert_structured_document_tag](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_structured_document_tag/) لإدراج **علامات StructuredDocumentTag** في مستند.
+* تم توفير الوصول العام إلى فواصل الحواشي السفلية/الحواشي النهائية من خلال إضافة بعض الفئات والخصائص العامة.
+
+{{% alert color="primary" %}}
+
+تعرف على المزيد حول [Aspose.Words لـ Python عبر ملاحظات الإصدار .NET 24.9](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-9-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words لـ Python via .NET 24.5, 24.6, 24.7, 24.8
 
 يقوم Aspose.Words 24.5 بتوسيع خيارات التجميعات وتحسين قدرات العرض وتوسيع بعض الخيارات الأخرى.
@@ -422,73 +456,6 @@ Aspose.Words 24.4 يعزز حفظ التنسيقات ، بعض خيارات ال
 تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ Python via .NET 23.3](/words/python-net/aspose-words-for-python-via-dotnet-23-3-release-notes/).
 
 تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ Python via .NET 23.4](/words/python-net/aspose-words-for-python-via-dotnet-23-4-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words لـ Python via .NET 22.9، 22.10، 22.11، 22.12
-
-يعمل Aspose.Words 22.9 على توسيع خيارات تحميل المستندات وحفظها وتحسين التفاعل مع بعض الخيارات الأخرى.
-
-يعمل Aspose.Words 22.10 على تحسين خيارات البحث والاستبدال، وتعزيز كائنات OLE، وتوسيع وظائف القائمة.
-
-يعمل Aspose.Words 22.11 على توسيع وظائفه بخيارات جديدة للعمل بشكل أكثر ملاءمة مع الكائنات المألوفة بالفعل: OLE وعلامات المستندات المنظمة.
-
-يعمل Aspose.Words 22.12 على تحسين إمكانيات العرض ويقدم خيارات للعمل مع الهوامش عند تحميل/حفظ مستند.
-
-### تحسينات الأداء <sup>22.12</sup>
-
-تم تقديم تحسين يقلل بشكل كبير من عمق تداخل حالة الرسومات عند العرض إلى PDF للحفاظ على التوافق مع المواصفات.
-
-### التقديم والطباعة
-
-#### خصائص عرض الحدود الجديدة <sup>22.12</sup>
-
-تم تقديم خصائص عامة جديدة [theme_color](https://reference.aspose.com/words/python-net/aspose.words/border/theme_color/) و[tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words/border/tint_and_shade/).
-
-#### صيغة خط الاتجاه الخطي لعرض الرسم ML <sup>22.12</sup>
-
-تم تنفيذ عرض صيغة خط الاتجاه الخطي لمخططات DrawML.
-
-#### إعدادات الخط الاحتياطية لخطوط Google Noto <sup>22.12</sup>
-
-تم تحديث إعدادات الخط الاحتياطي المحددة مسبقًا لخطوط Google Noto.
-
-### تحميل وحفظ المستندات
-
-#### تخزين مؤقت لأشكال الرأس أو التذييل لتقليل حجم ملف PDF <sup>22.9</sup>
-
-تم تنفيذ القدرة على تخزين أشكال الرأس/التذييل مؤقتًا لتقليل حجم ملف PDF الناتج عن طريق إضافة خاصية **CacheHeaderFooterShapes** جديدة.
-
-#### كشف الترقيم التلقائي عند تحميل مستند <sup>22.9</sup>
-
-تم تنفيذ القدرة على تحديد خاصية [auto_numbering_detection](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/auto_numbering_detection/) عند تحميل النص من خلال فئة [TxtLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/) الممتدة.
-
-#### تحديد نوع هامش معين <sup>22.12</sup>
-
-تم تنفيذ القدرة على تحديد نوع **Margin** معين للقسم المحدد.
-
-### بحث ومقارنة <sup>22.10</sup>
-
-تم تنفيذ القدرة على تجاهل [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) عند خيارات البحث والاستبدال عن طريق إضافة خاصية [ignore_structured_document_tags](https://reference.aspose.com/words/python-net/aspose.words.replacing/findreplaceoptions/ignore_structured_document_tags/) جديدة إلى فئة [FindReplaceOptions](https://reference.aspose.com/words/python-net/aspose.words.replacing/findreplaceoptions/).
-
-### آخر
-
-- تمت إضافة ميزة جديدة للحصول على FieldEQ كـ OfficeMath. <sup>22.9</sup>
-- تم السماح بإنشاء علامات مستند منظمة من نوع Group على مستوى الصف. <sup>22.9</sup>
-- يتم الآن التعامل مع كائنات وعناصر تحكم OLE كصور ملف تعريف عند تحويل مستند إلى HTML. <sup>22.10</sup>
-- ميزة جديدة للتحقق من إنشاء قائمة معينة من نفس القالب حيث تمت إضافة القائمة المقارنة عن طريق إدخال طريقة **HasSameTemplate** جديدة في فئة [List](https://reference.aspose.com/words/python-net/aspose.words.lists/list/). <sup>22.10</sup>
-- تمت إضافة القدرة على إنشاء علامات مستند منظمة جديدة من نوع [Citation](https://reference.aspose.com/words/python-net/aspose.words.markup/sdttype/). <sup>22.11</sup>
-- تم تقديم خاصية **EmbedAttachments** جديدة تسمح للمستخدمين بتضمين مرفقات OLE من مستند مصدر في مستند PDF الناتج. <sup>22.11</sup>
-
-{{% alert color="primary" %}}
-
-تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ Python via .NET 22.9](/words/python-net/aspose-words-for-python-via-dotnet-22-9-release-notes/).
-
-تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ Python via .NET 22.10](/words/python-net/aspose-words-for-python-via-dotnet-22-10-release-notes/).
-
-تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ Python via .NET 22.11](/words/python-net/aspose-words-for-python-via-dotnet-22-11-release-notes/).
-
-تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ Python via .NET 22.12](/words/python-net/aspose-words-for-python-via-dotnet-22-12-release-notes/).
 
 {{% /alert %}}
 

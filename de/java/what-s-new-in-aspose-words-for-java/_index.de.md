@@ -11,6 +11,40 @@ url: /de/java/what-s-new-in-aspose-words-for-java/
 
 Diese Seite beschreibt das interessanteste Neues Aspose.Words Funktionen, die in den letzten Versionen eingeführt wurden.
 
+## Aspose.Words für Java 24.9
+
+Aspose.Words 24.9 führt das Einfügen von Gruppenformen und StructuredDocumentTags über DocumentBuilder ein, verbessert die Darstellung von Radialdiagrammen mit Abstufungen, verbessert digitale Signaturen mit XAdES-EPES-Unterstützung, fügt Markdown-Unterstreichungserkennung hinzu und bietet Zugriff auf Fußnoten-/Endnotentrennzeichen.
+
+### Darstellung und Drucken
+
+#### Abstufungen auf Radialdiagrammen
+
+Die Darstellung von Abstufungen auf Radialdiagrammen wurde implementiert.
+
+### Konvertieren, Laden und Speichern von Dokumenten
+
+#### Unterstreichungsformatierung beim Laden von Markdown-Dateien
+
+Die Option zur Erkennung von Unterstreichungsformatierungen beim Laden von Markdown-Dokumenten wurde durch Hinzufügen einer neuen öffentlichen Eigenschaft [ImportUnderlineFormatting](https://reference.aspose.com/words/java/com.aspose.words/markdownloadoptions/#getImportUnderlineFormatting) integriert.
+
+### Digitale Signaturen
+
+#### Dokumente mit XAdES-EPES signieren
+
+Die Möglichkeit, Dokumente mit XML-DSig-Signaturen auf XAdES-EPES-Ebene zu signieren, wurde durch Hinzufügen einer neuen öffentlichen Eigenschaft [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/signoptions/#getXmlDsigLevel) und einer neuen öffentlichen Aufzählung [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/xmldsiglevel/) eingeführt.
+
+### Sonstiges
+
+* Eine neue öffentliche Methode [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-com.aspose.words.Shape...) wurde hinzugefügt, um Formen zu gruppieren.
+* Eine neue öffentliche Methode [InsertStructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertStructuredDocumentTag-int) wurde hinzugefügt, um **StructuredDocumentTags** in ein Dokument einzufügen.
+* Öffentlicher Zugriff auf Fußnoten-/Endnotentrennzeichen wurde durch Hinzufügen einiger öffentlicher Klassen und Eigenschaften ermöglicht.
+
+{{% alert color="primary" %}}
+
+Erfahren Sie mehr über [Versionshinweise zu Aspose.Words für Java 24.9](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words für Java 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 erweitert die Optionen für Baugruppen, verbessert die Rendering-Funktionen und erweitert einige andere Optionen.
@@ -428,80 +462,6 @@ Erfahren Sie mehr über [Aspose.Words für Java 23.2 Release Notes](/words/java/
 Erfahren Sie mehr über [Aspose.Words für Java 23.3 Release Notes](/words/java/aspose-words-for-java-23-3-release-notes/).
 
 Erfahren Sie mehr über [Aspose.Words für Java 23.4 Release Notes](/words/java/aspose-words-for-java-23-4-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words für Java 22.9, 22.10, 22.11 und 22.12
-
-Aspose.Words 22.9 erweitert Optionen zum Laden und Speichern von Dokumenten und verbesserte Interaktion mit einigen anderen Optionen.
-
-Aspose.Words 22.10 verbessert das Finden und Ersetzen von Optionen, verbessert OLE-Objekte und erweitert Listenfunktionalität.
-
-Aspose.Words 22.11 erweitert seine Funktionalität mit neuen Optionen für eine komfortablere Arbeit mit bereits bekannten Objekten: Felder, Druck, OLE und strukturierte Dokument-Tags.
-
-Aspose.Words 22.12 verbessert die Rendering-Fähigkeiten und stellt Optionen für die Arbeit mit Margen beim Laden / Speichern eines Dokuments vor.
-
-### Leistungsverbesserungen <sup>ANHANG</sup>
-
-Eine Optimierung, die die Tiefe der Grafik-State Nisting bei der Wiedergabe auf PDF deutlich reduziert, um die Einhaltung der Spezifikation zu gewährleisten, wurde eingeführt.
-
-### Rendering und Printing
-
-#### Drucken Nichtfarbig Seiten auf einem Farbdrucker <sup>KAPITEL 11</sup>
-
-Ein benutzerdefinierter Farb-/Grafik-Druckmodus wurde durch Hinzufügen eines neuen **GrayscaleAuto** Wert auf die [ColorPrintMode](https://reference.aspose.com/words/java/com.aspose.words/colorprintmode/) Aufzählung.
-
-Eine neue Druckeigenschaft ermöglicht es Benutzern, zu kontrollieren, wie nichtfarbige Seiten gedruckt werden, wenn das Gerät den Farbdruck unterstützt. Diese Funktion kann nützlich sein, wenn Benutzer nichtfarbige Seiten automatisch mit nur grauem Druckmodus drucken möchten.
-
-#### Neue Bord-Rendering-Eigenschaften <sup>ANHANG</sup>
-
-Neue öffentliche Immobilien [ThemeColor](https://reference.aspose.com/words/java/com.aspose.words/border/#getThemeColor) und [TintAndShade](https://reference.aspose.com/words/java/com.aspose.words/border/#getTintAndShade) wurden eingeführt.
-
-#### Lineare Trendline-Formel für ZeichnungML Rendering <sup>ANHANG</sup>
-
-Lineare Trendline-Formel-Rendering für Zeichnungs-ML-Charts wurde implementiert.
-
-#### Font Fallback Einstellungen für Google Noto Schriften <sup>ANHANG</sup>
-
-Die vordefinierten Fontfallback Einstellungen für Google Noto Schriften wurden aktualisiert.
-
-### Laden und Speichern von Dokumenten
-
-#### Cache Header oder Footer Shapes, um PDF Größe zu reduzieren <sup>22.9</sup>
-
-Die Fähigkeit, Kopf- / Fuß-Formen zu speichern, um die Größe der Ausgabe PDF-Datei zu reduzieren, wurde durch das Hinzufügen einer neuen [CacheHeaderFooterShapes](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) Eigentum.
-
-#### Automatische Nummerierungserkennung beim Laden eines Dokumentes <sup>22.9</sup>
-
-Die Fähigkeit, die [AutoNumberingDetection](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/#getAutoNumberingDetection) das Eigentum bei der Textbeladung durch eine erweiterte [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) Klasse.
-
-#### Angabe eines Bestimmten Margintyp <sup>ANHANG</sup>
-
-Die Fähigkeit, eine bestimmte [Margin](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getMargins) Ein Typ für den gegebenen Abschnitt wurde implementiert.
-
-### Suchen und vergleichen <sup>ANHANG</sup>
-
-Die Fähigkeit zu ignorieren [StructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttag/) bei der Suche und dem Austausch von Optionen durch die Hinzufügung eines neuen [IgnoreStructuredDocumentTags](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreStructuredDocumentTags--) Eigentum an der [FindReplaceOptions](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/) Klasse.
-
-### Sonstige
-
-- Es wurde eine neue Funktion hinzugefügt, um FieldEQ als OfficeMath zu erhalten. <sup>22.9</sup>
-- Ja. Die Erstellung von strukturierten Dokumenten-Tags von Group Typ auf der Row Ebene wurde erlaubt. <sup>22.9</sup>
-- OLE-Objekte und -Kontrollen werden nun als Metadateibilder behandelt, wenn ein Dokument in HTML umgewandelt wird. <sup>ANHANG</sup>
-- Eine neue Funktion, um zu überprüfen, dass eine bestimmte Liste aus der gleichen Vorlage erstellt wurde wie die Vergleichsliste hinzugefügt wurde, indem eine neue [HasSameTemplate](https://reference.aspose.com/words/java/com.aspose.words/list/#hasSameTemplate-com.aspose.words.List-) Verfahren in die [List](https://reference.aspose.com/words/java/com.aspose.words/list/) Klasse. <sup>ANHANG</sup>
-- Ja. Die Fähigkeit, neue strukturierte Dokument-Tags der [Citation](https://reference.aspose.com/words/java/com.aspose.words/sdttype/) Typ wurde hinzugefügt. <sup>KAPITEL 11</sup>
-- Es wurde die Möglichkeit geschaffen, den Fortschritt der Feldaktualisierung zu verfolgen. <sup>KAPITEL 11</sup>
-- Ein neues **EmbedAttachments** eine Eigenschaft, die es Benutzern ermöglicht, OLE-Anhänge aus einem Quelldokument in das Ausgabe-PDF-Dokument einzufügen. <sup>KAPITEL 11</sup>
-
-{{% alert color="primary" %}}
-
-Erfahren Sie mehr über [Aspose.Words für Java 22.9 Release Notes](/words/java/aspose-words-for-java-22-9-release-notes/).
-
-Erfahren Sie mehr über [Aspose.Words für Java 22.10 freigeben](/words/java/aspose-words-for-java-22-10-release-notes/).
-
-Erfahren Sie mehr über [Aspose.Words für Java 22.11 Veröffentlichungen](/words/java/aspose-words-for-java-22-11-release-notes/).
-
-Erfahren Sie mehr über [Aspose.Words für Java 22.12 Veröffentlichungen](/words/java/aspose-words-for-java-22-12-release-notes/).
 
 {{% /alert %}}
 

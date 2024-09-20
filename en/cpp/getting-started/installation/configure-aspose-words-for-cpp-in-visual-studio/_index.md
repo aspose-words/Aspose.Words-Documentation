@@ -11,7 +11,7 @@ url: /cpp/configure-aspose-words-for-cpp-in-visual-studio/
 
 Aspose.Words for C++ API works with Visual Studio 2022 or later. To work with Visual Studio, you may need to install Visual C++ Redistributable available on [Microsoft official website](https://docs.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170).
 
-## Configure with MSBuild .targets files
+## Configure with MSBuild .targets Files
 
 Follow these steps to configure your project with [MSBuild .targets files](https://docs.microsoft.com/en-us/visualstudio/msbuild/msbuild-dot-targets-files):
 
@@ -27,7 +27,7 @@ Follow these steps to configure your project with [MSBuild .targets files](https
     </Project>
     {{< /highlight >}}
 
-## Configure manually
+## Configure Manually
 
 Follow these steps to manually configure Aspose.Words for C++ in Visual Studio:
 

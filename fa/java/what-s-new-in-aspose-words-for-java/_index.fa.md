@@ -11,6 +11,40 @@ url: /fa/java/what-s-new-in-aspose-words-for-java/
 
 این صفحه جالب ترین جدید را توصیف می کند Aspose.Words ویژگی های معرفی شده در نسخه های اخیر
 
+## Aspose.Words برای Java 24.9
+
+Aspose.Words 24.9 درج شکل گروه و درج StructuredDocumentTag را از طریق DocumentBuilder معرفی می‌کند، رندر نمودار شعاعی را با درجه‌بندی بهبود می‌بخشد، امضاهای دیجیتال را با پشتیبانی XAdES-EPES بهبود می‌بخشد، تشخیص زیر خط Markdown را اضافه می‌کند و دسترسی به جداکننده‌های پانوشت/پایان را فراهم می‌کند.
+
+### رندر و چاپ
+
+#### فارغ التحصیلی در نمودارهای شعاعی
+
+رندر فارغ التحصیلی بر روی نمودارهای شعاعی اجرا شده است.
+
+### تبدیل، بارگیری و ذخیره اسناد
+
+#### هنگام بارگیری فایل‌های Markdown، زیر قالب‌بندی خط بکشید
+
+گزینه تشخیص قالب بندی زیرخط هنگام بارگیری اسناد Markdown با افزودن یک ویژگی عمومی جدید [ImportUnderlineFormatting] () گنجانده شده است.
+
+### امضاهای دیجیتال
+
+#### اسناد را با XAdES-EPES امضا کنید
+
+توانایی امضای اسناد با امضاهای XML-DSig سطح XAdES-EPES با افزودن یک ویژگی عمومی جدید [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/signoptions/#getXmlDsigLevel) و یک شمارش عمومی جدید [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/xmldsiglevel/) معرفی شده است.
+
+### دیگر
+
+* یک روش عمومی جدید [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-com.aspose.words.Shape...) به اشکال گروه اضافه شده است.
+* یک روش عمومی جدید [InsertStructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertStructuredDocumentTag-int) برای درج **StructuredDocumentTags** در یک سند اضافه شده است.
+* دسترسی عمومی به جداکننده‌های پاورقی/پایان با افزودن چند کلاس و ویژگی عمومی فراهم شده است.
+
+{{% alert color="primary" %}}
+
+بیشتر بدانید [Aspose.Words برای Java 24.9 انتشار یادداشت](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/)
+
+{{% /alert %}}
+
 ## Aspose.Words برای Java 24.5، 24.6، 24.7، 24.8
 
 Aspose.Words 24.5 گزینه‌های اسمبلی را گسترش می‌دهد، قابلیت‌های رندر را بهبود می‌بخشد و برخی گزینه‌های دیگر را گسترش می‌دهد.
@@ -427,80 +461,6 @@ The The The The The The [Fill](https://reference.aspose.com/words/java/com.aspos
 بیشتر بدانید [Aspose.Words برای Java 23.3 یادداشت آزادی](/words/java/aspose-words-for-java-23-3-release-notes/)...
 
 بیشتر بدانید [Aspose.Words برای Java 23.4 انتشار یادداشت](/words/java/aspose-words-for-java-23-4-release-notes/)...
-
-{{% /alert %}}
-
-## Aspose.Words برای Java 22.9, 22.10, 22.11, 22.12
-
-Aspose.Words 22.9 گسترش گزینه برای بارگیری و صرفه جویی در اسناد و بهبود تعامل با برخی از گزینه های دیگر.
-
-Aspose.Words 22.10 بهبود یافتن و جایگزینی گزینه ها، افزایش اشیاء OLE و گسترش قابلیت های لیست.
-
-Aspose.Words 22.11 قابلیت های خود را با گزینه های جدید برای کار راحت تر با اشیاء آشنا گسترش می دهد: زمینه ها، چاپ، تگ های سند OLE و ساختار یافته.
-
-Aspose.Words 22.12 افزایش قابلیت های ارائه و معرفی گزینه های کار با حاشیه در هنگام بارگیری / صرفه جویی در یک سند.
-
-### بهبود عملکرد <sup>22.12</sup>
-
-بهینه سازی که به طور قابل توجهی عمق حالت گرافیکی را کاهش می دهد، هنگام ارائه به PDF برای حفظ انطباق مشخصات معرفی شده است.
-
-### ارائه و چاپ
-
-#### چاپ غیر رنگی صفحات روی یک پرینتر رنگی <sup>22.11</sup>
-
-یک حالت چاپ رنگی / خاکستری با اضافه کردن یک جدید **GrayscaleAuto** ارزش برای [ColorPrintMode](https://reference.aspose.com/words/java/com.aspose.words/colorprintmode/) تکرار
-
-یک ملک چاپ جدید به کاربران اجازه می دهد تا کنترل کنند که صفحات غیر رنگی چگونه چاپ می شوند اگر دستگاه از چاپ رنگی پشتیبانی کند. این ویژگی می تواند مفید باشد اگر کاربران بخواهند به طور خودکار صفحات غیر رنگی را با استفاده از حالت چاپ خاکستری چاپ کنند.
-
-#### New Borders <sup>22.12</sup>
-
-املاک عمومی جدید [ThemeColor](https://reference.aspose.com/words/java/com.aspose.words/border/#getThemeColor) و [TintAndShade](https://reference.aspose.com/words/java/com.aspose.words/border/#getTintAndShade) معرفی شده است.
-
-#### فرمول خطی Trendline برای ارائه <sup>22.12</sup>
-
-ارائه فرمول خطی روند خطی برای نمودارهای ترسیم شده است.
-
-#### دانلود بازی Font Fallback Settings Google Noto فونت ها <sup>22.12</sup>
-
-تنظیمات پیش تعریف شده فونت برای Google Noto فونت ها به روز شده اند.
-
-### بارگیری و پس انداز اسناد
-
-#### Cache Header یا Footer Shapes برای کاهش اندازه PDF <sup>22.9</sup>
-
-توانایی ذخیره سازی شکل های هدر / پا برای کاهش اندازه فایل PDF خروجی با اضافه کردن یک جدید اجرا شده است. [CacheHeaderFooterShapes](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) مالکیت
-
-#### تشخیص خودکار هنگام بارگذاری یک سند <sup>22.9</sup>
-
-توانایی مشخص کردن [AutoNumberingDetection](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/#getAutoNumberingDetection) اموال بر روی بارگذاری متن از طریق گسترش یافته است [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) کلاس
-
-#### آشنایی با a Particular نوع مارجین <sup>22.12</sup>
-
-توانایی مشخص کردن یک خاص [Margin](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getMargins) نوع بخش داده شده اجرا شده است.
-
-### جستجو و مقایسه <sup>22.10</sup>
-
-توانایی نادیده گرفتن [StructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttag/) پس از پیدا کردن و جایگزینی گزینه ها با اضافه کردن یک گزینه جدید اجرا شده است. [IgnoreStructuredDocumentTags](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreStructuredDocumentTags--) اموال به [FindReplaceOptions](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/) کلاس
-
-### دیگر
-
-- یک ویژگی جدید برای دریافت FieldEQ به عنوان یک OfficeMath اضافه شده است. <sup>22.9</sup>
-- ایجاد برچسب های سند ساختاری Group نوع در سطح Row مجاز بود. <sup>22.9</sup>
-- اشیاء و کنترل های OLE در حال حاضر به عنوان تصاویر متافایل در هنگام تبدیل یک سند به HTML درمان می شوند. <sup>22.10</sup>
-- یک ویژگی جدید برای بررسی اینکه یک لیست خاص از همان قالب ایجاد شده است، همانطور که لیست مقایسه با معرفی یک لیست جدید اضافه شده است. [HasSameTemplate](https://reference.aspose.com/words/java/com.aspose.words/list/#hasSameTemplate-com.aspose.words.List-) روش در [List](https://reference.aspose.com/words/java/com.aspose.words/list/) کلاس <sup>22.10</sup>
-- توانایی ایجاد برچسب های سند ساختاری جدید [Citation](https://reference.aspose.com/words/java/com.aspose.words/sdttype/) نوع اضافه شده است. <sup>22.11</sup>
-- توانایی پیگیری پیشرفت به روز رسانی زمینه ارائه شده است. <sup>22.11</sup>
-- A New **EmbedAttachments** ملک که به کاربران اجازه می دهد تا وابستگی های OLE را از یک سند منبع به سند PDF خروجی جاسازی کنند، معرفی شده است. <sup>22.11</sup>
-
-{{% alert color="primary" %}}
-
-بیشتر بدانید [Aspose.Words برای Java 22.9 یادداشت آزادی](/words/java/aspose-words-for-java-22-9-release-notes/)...
-
-بیشتر بدانید [Aspose.Words برای Java 22.10 انتشار یادداشت](/words/java/aspose-words-for-java-22-10-release-notes/)...
-
-بیشتر بدانید [Aspose.Words برای Java 22.11 انتشار یادداشت](/words/java/aspose-words-for-java-22-11-release-notes/)...
-
-بیشتر بدانید [Aspose.Words برای Java 22.12 انتشار یادداشت](/words/java/aspose-words-for-java-22-12-release-notes/)...
 
 {{% /alert %}}
 

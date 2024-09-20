@@ -11,6 +11,40 @@ url: /de/python-net/what-s-new-in-aspose-words-for-python-net/
 
 Auf dieser Seite werden die interessantesten neuen Aspose.Words-Funktionen beschrieben, die in den letzten Versionen eingeführt wurden.
 
+## Aspose.Words für Python via .NET 24.9
+
+Aspose.Words 24.9 führt das Einfügen von Gruppenformen und StructuredDocumentTags über DocumentBuilder ein, verbessert die Darstellung von Radialdiagrammen mit Abstufungen, verbessert digitale Signaturen mit XAdES-EPES-Unterstützung, fügt Markdown-Unterstreichungserkennung hinzu und bietet Zugriff auf Fußnoten-/Endnotentrennzeichen.
+
+### Darstellung und Drucken
+
+#### Abstufungen auf Radialdiagrammen
+
+Die Darstellung von Abstufungen auf Radialdiagrammen wurde implementiert.
+
+### Konvertieren, Laden und Speichern von Dokumenten
+
+#### Unterstreichungsformatierung beim Laden von Markdown-Dateien
+
+Die Option zur Erkennung von Unterstreichungsformatierungen beim Laden von Markdown-Dokumenten wurde durch Hinzufügen einer neuen öffentlichen Eigenschaft [import_underline_formatting property](https://reference.aspose.com/words/python-net/aspose.words.loading/markdownloadoptions/import_underline_formatting/) integriert.
+
+### Digitale Signaturen
+
+#### Dokumente mit XAdES-EPES signieren
+
+Die Möglichkeit, Dokumente mit XML-DSig-Signaturen auf XAdES-EPES-Ebene zu signieren, wurde durch Hinzufügen einer neuen öffentlichen Eigenschaft [xml_dsig_level](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/signoptions/xml_dsig_level/) und einer neuen öffentlichen Aufzählung [XmlDsigLevel](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/xmldsiglevel/) eingeführt.
+
+### Sonstiges
+
+* Eine neue öffentliche Methode [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/) wurde hinzugefügt, um Formen zu gruppieren.
+* Eine neue öffentliche Methode [insert_structured_document_tag](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_structured_document_tag/) wurde hinzugefügt, um **StructuredDocumentTags** in ein Dokument einzufügen.
+* Öffentlicher Zugriff auf Fußnoten-/Endnotentrennzeichen wurde durch Hinzufügen einiger öffentlicher Klassen und Eigenschaften ermöglicht.
+
+{{% alert color="primary" %}}
+
+Erfahren Sie mehr über [Aspose.Words für Python via .NET 24.9 Versionshinweise](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-9-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words für Python via .NET 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 erweitert die Optionen für Baugruppen, verbessert die Rendering-Funktionen und erweitert einige andere Optionen.
@@ -420,73 +454,6 @@ Erfahren Sie mehr über [Aspose.Words für Python via .NET 23.2 Versionshinweise
 Erfahren Sie mehr über [Aspose.Words für Python via .NET 23.3 Versionshinweise](/words/python-net/aspose-words-for-python-via-dotnet-23-3-release-notes/).
 
 Erfahren Sie mehr über [Aspose.Words für Python via .NET 23.4 Versionshinweise](/words/python-net/aspose-words-for-python-via-dotnet-23-4-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words für Python via .NET 22.9, 22.10, 22.11, 22.12
-
-Aspose.Words 22.9 erweitert die Optionen zum Laden und Speichern von Dokumenten und verbessert die Interaktion mit einigen anderen Optionen.
-
-Aspose.Words 22.10 verbessert die Such- und Ersetzungsoptionen, erweitert OLE-Objekte und erweitert die Listenfunktionalität.
-
-Aspose.Words 22.11 erweitert seine Funktionalität um neue Optionen für komfortableres Arbeiten mit bereits bekannten Objekten: OLE und strukturierte Dokument-Tags.
-
-Aspose.Words 22.12 verbessert die Rendering-Funktionen und führt Optionen für die Arbeit mit Rändern beim Laden/Speichern eines Dokuments ein.
-
-### Leistungsverbesserungen <sup>22.12</sup>
-
-Es wurde eine Optimierung eingeführt, die die Tiefe der Verschachtelung des Grafikstatus beim Rendern in PDF erheblich reduziert, um die Spezifikationskonformität aufrechtzuerhalten.
-
-### Rendern und Drucken
-
-#### Neue Eigenschaften für die Randdarstellung <sup>22.12</sup>
-
-Neue öffentliche Eigenschaften [theme_color](https://reference.aspose.com/words/python-net/aspose.words/border/theme_color/) und [tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words/border/tint_and_shade/) wurden eingeführt.
-
-#### Lineare Trendlinienformel für DrawingML-Rendering <sup>22.12</sup>
-
-Die Darstellung linearer Trendlinienformeln für DrawingML-Diagramme wurde implementiert.
-
-#### Schriftart-Fallback-Einstellungen für Google Noto-Schriftarten <sup>22.12</sup>
-
-Die vordefinierten Schriftart-Fallback-Einstellungen für Google Noto-Schriftarten wurden aktualisiert.
-
-### Dokumente laden und speichern
-
-#### Kopf- oder Fußzeilenformen zwischenspeichern, um die PDF-Größe zu reduzieren <sup>22.9</sup>
-
-Die Möglichkeit, Kopf-/Fußzeilenformen zwischenzuspeichern, um die Größe der ausgegebenen PDF-Datei zu reduzieren, wurde durch Hinzufügen einer neuen **CacheHeaderFooterShapes**-Eigenschaft implementiert.
-
-#### Automatische Nummerierungserkennung beim Laden eines Dokuments <sup>22.9</sup>
-
-Die Möglichkeit, die [auto_numbering_detection](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/auto_numbering_detection/)-Eigenschaft beim Laden von Text anzugeben, wurde durch eine Erweiterung der [TxtLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/)-Klasse implementiert.
-
-#### Angeben eines bestimmten Margin-Typs <sup>22.12</sup>
-
-Die Möglichkeit, einen bestimmten **Margin**-Typ für den angegebenen Abschnitt anzugeben, wurde implementiert.
-
-### Suchen und vergleichen <sup>22.10</sup>
-
-Die Möglichkeit, [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) bei Such- und Ersetzungsoptionen zu ignorieren, wurde durch das Hinzufügen einer neuen [ignore_structured_document_tags](https://reference.aspose.com/words/python-net/aspose.words.replacing/findreplaceoptions/ignore_structured_document_tags/)-Eigenschaft zur [FindReplaceOptions](https://reference.aspose.com/words/python-net/aspose.words.replacing/findreplaceoptions/)-Klasse implementiert.
-
-### Andere
-
-- Eine neue Funktion, um FieldEQ als OfficeMath zu erhalten, wurde hinzugefügt. <sup>22.9</sup>
-- Die Erstellung strukturierter Dokument-Tags vom Typ Group auf Zeilenebene war erlaubt. <sup>22.9</sup>
-– OLE-Objekte und -Steuerelemente werden jetzt beim Konvertieren eines Dokuments in HTML als Metadateibilder behandelt. <sup>22.10</sup>
-– Durch die Einführung einer neuen **HasSameTemplate**-Methode in die [List](https://reference.aspose.com/words/python-net/aspose.words.lists/list/)-Klasse wurde eine neue Funktion hinzugefügt, um zu überprüfen, ob eine bestimmte Liste aus derselben Vorlage wie die verglichene Liste erstellt wurde. <sup>22.10</sup>
-- Die Möglichkeit, neue strukturierte Dokument-Tags vom Typ [Citation](https://reference.aspose.com/words/python-net/aspose.words.markup/sdttype/) zu erstellen, wurde hinzugefügt. <sup>22.11</sup>
-– Es wurde eine neue **EmbedAttachments**-Eigenschaft eingeführt, die es Benutzern ermöglicht, OLE-Anhänge aus einem Quelldokument in das ausgegebene PDF-Dokument einzubetten. <sup>22.11</sup>
-
-{{% alert color="primary" %}}
-
-Erfahren Sie mehr über [Aspose.Words für Python via .NET 22.9 Versionshinweise](/words/python-net/aspose-words-for-python-via-dotnet-22-9-release-notes/).
-
-Erfahren Sie mehr über [Aspose.Words für Python via .NET 22.10 Versionshinweise](/words/python-net/aspose-words-for-python-via-dotnet-22-10-release-notes/).
-
-Erfahren Sie mehr über [Aspose.Words für Python via .NET 22.11 Versionshinweise](/words/python-net/aspose-words-for-python-via-dotnet-22-11-release-notes/).
-
-Erfahren Sie mehr über [Aspose.Words für Python via .NET 22.12 Versionshinweise](/words/python-net/aspose-words-for-python-via-dotnet-22-12-release-notes/).
 
 {{% /alert %}}
 

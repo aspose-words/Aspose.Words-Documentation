@@ -11,6 +11,40 @@ url: /id/java/what-s-new-in-aspose-words-for-java/
 
 Halaman ini menjelaskan yang paling menarik Aspose.Words fitur yang diperkenalkan dalam rilis terbaru.
 
+## Aspose.Words untuk Java 24.9
+
+Aspose.Words 24.9 memperkenalkan penyisipan bentuk grup dan penyisipan StructuredDocumentTag via DocumentBuilder, menyempurnakan perenderan bagan radial dengan gradasi, menyempurnakan tanda tangan digital dengan dukungan XAdES-EPES, menambahkan pengenalan garis bawah Markdown, dan menyediakan akses ke pemisah catatan kaki/catatan akhir.
+
+### Perenderan dan Pencetakan
+
+#### Graduasi pada Bagan Radial
+
+Perenderan gradasi pada bagan radial telah diimplementasikan.
+
+### Mengonversi, Memuat, dan Menyimpan Dokumen
+
+#### Pemformatan Garis Bawah saat Memuat File Markdown
+
+Opsi untuk mengenali pemformatan garis bawah saat memuat dokumen Markdown telah disertakan dengan menambahkan properti publik baru [ImportUnderlineFormatting](https://reference.aspose.com/words/java/com.aspose.words/markdownloadoptions/#getImportUnderlineFormatting).
+
+### Tanda Tangan Digital
+
+#### Menandatangani Dokumen dengan XAdES-EPES
+
+Kemampuan untuk menandatangani dokumen dengan tanda tangan XML-DSig level XAdES-EPES telah diperkenalkan dengan menambahkan properti publik baru [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/signoptions/#getXmlDsigLevel) dan enumerasi publik baru [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/xmldsiglevel/)
+
+### Lainnya
+
+* Metode publik baru [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-com.aspose.words.Shape...) telah ditambahkan untuk mengelompokkan bentuk.
+* Metode publik baru [InsertStructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertStructuredDocumentTag-int) telah ditambahkan untuk memasukkan **StructuredDocumentTags** ke dalam dokumen.
+* Akses publik ke pemisah catatan kaki/catatan akhir telah disediakan dengan menambahkan beberapa kelas dan properti publik.
+
+{{% alert color="primary" %}}
+
+Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Java 24.9](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words untuk Java 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 memperluas opsi untuk rakitan, meningkatkan kemampuan rendering, dan memperluas beberapa opsi lainnya.
@@ -427,80 +461,6 @@ Pelajari lebih lanjut [Aspose.Words Sitemap Java 23.2 Login](/words/java/aspose-
 Pelajari lebih lanjut [Aspose.Words Sitemap Java 23.3 Login](/words/java/aspose-words-for-java-23-3-release-notes/)Sitemap
 
 Pelajari lebih lanjut [Aspose.Words Sitemap Java 23.4 Login](/words/java/aspose-words-for-java-23-4-release-notes/)Sitemap
-
-{{% /alert %}}
-
-## Aspose.Words Sitemap Java 22.9, 22.10, 22.11, 22.12
-
-Aspose.Words 22.9 memperluas opsi untuk memuat dan menyimpan dokumen dan meningkatkan interaksi dengan beberapa opsi lain.
-
-Aspose.Words 22.10 meningkatkan menemukan dan mengganti pilihan, meningkatkan objek OLE, dan memperluas fungsi daftar.
-
-Aspose.Words 22.11 memperluas fungsinya dengan opsi baru untuk pekerjaan yang lebih nyaman dengan objek yang sudah akrab: bidang, percetakan, OLE dan tag dokumen terstruktur.
-
-Aspose.Words 22.12 meningkatkan kemampuan rendering dan memperkenalkan opsi untuk bekerja dengan margin ketika memuat/ menyimpan dokumen.
-
-### Peningkatan Kinerja <sup>12.12.12</sup>
-
-Optimasi yang secara signifikan mengurangi kedalaman nesting state grafis ketika rendering ke PDF untuk mempertahankan kepatuhan spesifikasi telah diperkenalkan.
-
-### Rendering dan Pencetakan
-
-#### Pencetakan Tidak berwarna Halaman pada Printer Warna <sup>22.11</sup>
-
-Mode cetak berwarna/abus kustom telah diterapkan dengan menambahkan mode cetak baru **GrayscaleAuto** Sitemap [ColorPrintMode](https://reference.aspose.com/words/java/com.aspose.words/colorprintmode/) Sitemap
-
-Properti cetak baru memungkinkan pengguna untuk mengontrol bagaimana halaman yang tidak berwarna dicetak jika perangkat mendukung pencetakan warna. Fitur ini dapat berguna jika pengguna ingin secara otomatis mencetak halaman non-warna hanya menggunakan mode pencetakan grayscale.
-
-#### Properti Pengirim Perbatasan Baru <sup>12.12.12</sup>
-
-Sifat publik baru [ThemeColor](https://reference.aspose.com/words/java/com.aspose.words/border/#getThemeColor) Login [TintAndShade](https://reference.aspose.com/words/java/com.aspose.words/border/#getTintAndShade) telah diperkenalkan.
-
-#### Formula Trenline Linear untuk Pengirim GambarML <sup>12.12.12</sup>
-
-Pembuatan formula trendline linier untuk grafik DrawingML telah diterapkan.
-
-#### Pengaturan Fallback Font untuk Google Noto Login <sup>12.12.12</sup>
-
-Pengaturan fallback font yang telah ditentukan untuk Google Noto font telah diperbarui.
-
-### Memuat dan Menyimpan Dokumen
-
-#### Cache Header atau Footer Bentuk untuk Mengurangi ukuran PDF <sup>22.5 g</sup>
-
-Kemampuan untuk bentuk header cache / footer untuk mengurangi ukuran file PDF output telah diterapkan dengan menambahkan yang baru [CacheHeaderFooterShapes](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) Login
-
-#### Deteksi Angka Otomatis saat Memuat Dokumen <sup>22.5 g</sup>
-
-Kemampuan untuk menentukan [AutoNumberingDetection](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/#getAutoNumberingDetection) properti setelah pemuatan teks telah diterapkan melalui perpanjangan [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) Sitemap
-
-#### Menentukan Particular Jenis Margin <sup>12.12.12</sup>
-
-Kemampuan untuk menentukan tertentu [Margin](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getMargins) jenis untuk bagian yang diberikan telah diterapkan.
-
-### Sitemap <sup>22.10 g</sup>
-
-Kemampuan untuk mengabaikan [StructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttag/) setelah menemukan dan mengganti pilihan telah diterapkan dengan menambahkan baru [IgnoreStructuredDocumentTags](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreStructuredDocumentTags--) harta [FindReplaceOptions](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/) Sitemap
-
-### Sitemap
-
-- Fitur baru untuk mendapatkan FieldEQ sebagai OfficeMath telah ditambahkan. <sup>22.5 g</sup>
-- Login Pembuatan tag dokumen terstruktur Group jenis di tingkat Row diperbolehkan. <sup>22.5 g</sup>
-- OLE objek dan kontrol sekarang diperlakukan sebagai gambar metafile ketika mengkonversi dokumen ke HTML. <sup>22.10 g</sup>
-- Fitur baru untuk memeriksa bahwa daftar tertentu dibuat dari template yang sama seperti daftar dibandingkan telah ditambahkan dengan memperkenalkan baru [HasSameTemplate](https://reference.aspose.com/words/java/com.aspose.words/list/#hasSameTemplate-com.aspose.words.List-) metode ke [List](https://reference.aspose.com/words/java/com.aspose.words/list/) Sitemap <sup>22.10 g</sup>
-- Login Kemampuan untuk membuat tag dokumen terstruktur baru dari [Citation](https://reference.aspose.com/words/java/com.aspose.words/sdttype/) jenis telah ditambahkan. <sup>22.11</sup>
-- Kemampuan untuk melacak kemajuan pemutakhiran lapangan telah disediakan. <sup>22.11</sup>
-- Sitemap **EmbedAttachments** properti yang memungkinkan pengguna untuk mengatur lampiran OLE dari dokumen sumber ke dalam dokumen PDF output telah diperkenalkan. <sup>22.11</sup>
-
-{{% alert color="primary" %}}
-
-Pelajari lebih lanjut [Aspose.Words Sitemap Java 22.9 Login](/words/java/aspose-words-for-java-22-9-release-notes/)Sitemap
-
-Pelajari lebih lanjut [Aspose.Words Sitemap Java 22.10 Login](/words/java/aspose-words-for-java-22-10-release-notes/)Sitemap
-
-Pelajari lebih lanjut [Aspose.Words Sitemap Java 22.11. Login](/words/java/aspose-words-for-java-22-11-release-notes/)Sitemap
-
-Pelajari lebih lanjut [Aspose.Words Sitemap Java 22.12 Login](/words/java/aspose-words-for-java-22-12-release-notes/)Sitemap
 
 {{% /alert %}}
 
