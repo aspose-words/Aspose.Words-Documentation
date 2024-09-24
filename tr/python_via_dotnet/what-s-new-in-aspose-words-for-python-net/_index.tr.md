@@ -11,6 +11,40 @@ url: /tr/python-net/what-s-new-in-aspose-words-for-python-net/
 
 Bu sayfada son sürümlerde tanıtılan en ilginç yeni Aspose.Words özellikleri açıklanmaktadır.
 
+## Python için Aspose.Words .NET 24.9 aracılığıyla
+
+Aspose.Words 24.9, DocumentBuilder aracılığıyla grup şekli ekleme ve StructuredDocumentTag eklemeyi sunar, derecelendirmelerle radyal grafik oluşturmayı geliştirir, XAdES-EPES desteğiyle dijital imzaları iyileştirir, Markdown alt çizgi tanıma özelliğini ekler ve dipnot/son not ayırıcılarına erişim sağlar.
+
+### Oluşturma ve Yazdırma
+
+#### Radyal Grafiklerde Derecelendirmeler
+
+Radyal grafiklerde derecelendirmelerin oluşturulması uygulandı.
+
+### Belgeleri Dönüştürme, Yükleme ve Kaydetme
+
+#### Markdown Dosyalarını Yüklerken Alt Çizgi Biçimlendirmesi
+
+Markdown belgelerini yüklerken alt çizgi biçimlendirmesini tanıma seçeneği, yeni bir genel özellik [import_underline_formatting property](https://reference.aspose.com/words/python-net/aspose.words.loading/markdownloadoptions/import_underline_formatting/) eklenerek dahil edildi.
+
+### Dijital İmzalar
+
+#### Belgeleri XAdES-EPES ile İmzala
+
+Belgeleri XAdES-EPES düzeyinde XML-DSig imzalarıyla imzalama yeteneği, yeni bir genel özellik [xml_dsig_level](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/signoptions/xml_dsig_level/) ve yeni bir genel numaralandırma [XmlDsigLevel](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/xmldsiglevel/) eklenerek tanıtıldı.
+
+### Diğer
+
+* Grup şekillerine yeni bir genel yöntem [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/) eklendi.
+* Bir belgeye **StructuredDocumentTags** eklemek için yeni bir genel yöntem [insert_structured_document_tag](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_structured_document_tag/) eklendi.
+* Birkaç genel sınıf ve özellik eklenerek dipnot/sonnot ayırıcılarına genel erişim sağlandı.
+
+{{% alert color="primary" %}}
+
+[Python via .NET 24.9 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-9-release-notes/) hakkında daha fazla bilgi edinin.
+
+{{% /alert %}}
+
 ## Python via .NET 24.5, 24.6, 24.7, 24.8 için Aspose.Words
 
 Aspose.Words 24.5, derleme seçeneklerini genişletir, oluşturma yeteneklerini geliştirir ve diğer bazı seçenekleri genişletir.
@@ -422,73 +456,6 @@ MOBI ve AZW3 formatları için ilerleme bildirimlerinin kaydedilmesi uygulandı.
 [Python via .NET 23.3 Sürüm Notları için Aspose.Words](/words/python-net/aspose-words-for-python-via-dotnet-23-3-release-notes/) hakkında daha fazla bilgi edinin.
 
 [Python via .NET 23.4 Sürüm Notları için Aspose.Words](/words/python-net/aspose-words-for-python-via-dotnet-23-4-release-notes/) hakkında daha fazla bilgi edinin.
-
-{{% /alert %}}
-
-## Python via .NET 22.9, 22.10, 22.11, 22.12 için Aspose.Words
-
-Aspose.Words 22.9, belgeleri yükleme ve kaydetme seçeneklerini genişletir ve diğer bazı seçeneklerle etkileşimi geliştirir.
-
-Aspose.Words 22.10, bulma ve değiştirme seçeneklerini geliştirir, OLE nesnelerini geliştirir ve liste işlevselliğini genişletir.
-
-Aspose.Words 22.11, zaten tanıdık olan nesnelerle daha rahat çalışmak için yeni seçeneklerle işlevselliğini genişletiyor: OLE ve yapılandırılmış belge etiketleri.
-
-Aspose.Words 22.12, oluşturma yeteneklerini geliştirir ve bir belgeyi yüklerken/kaydederken kenar boşluklarıyla çalışma seçenekleri sunar.
-
-### Performans İyileştirmeleri <sup>22.12</sup>
-
-Spesifikasyon uyumluluğunu korumak için PDF'ye dönüştürülürken grafik durumu iç içe yerleştirme derinliğini önemli ölçüde azaltan bir optimizasyon kullanıma sunuldu.
-
-### İşleme ve Yazdırma
-
-#### Yeni Kenar Oluşturma Özellikleri <sup>22.12</sup>
-
-Yeni kamu mülkleri [theme_color](https://reference.aspose.com/words/python-net/aspose.words/border/theme_color/) ve [tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words/border/tint_and_shade/) tanıtıldı.
-
-#### DrawingML Oluşturma <sup>22.12</sup> için Doğrusal Trend Çizgisi Formülü
-
-DrawingML grafikleri için doğrusal eğilim çizgisi formülü oluşturma uygulandı.
-
-#### Google Noto Yazı Tipleri <sup>22.12</sup> için Yazı Tipi Geri Dönüş Ayarları
-
-Google Noto yazı tipleri için önceden tanımlanmış yazı tipi geri dönüş ayarları güncellendi.
-
-### Belgeleri Yükleme ve Kaydetme
-
-#### PDF boyutunu küçültmek için Üstbilgi veya Altbilgi Şekillerini Önbelleğe Alın <sup>22.9</sup>
-
-Çıktı PDF dosyasının boyutunu azaltmak için üstbilgi/altbilgi şekillerini önbelleğe alma yeteneği, yeni bir **CacheHeaderFooterShapes** özelliği eklenerek uygulanmıştır.
-
-#### Belge Yüklerken Otomatik Numaralandırma Algılama <sup>22.9</sup>
-
-Metin yükleme sırasında [auto_numbering_detection](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/auto_numbering_detection/) özelliğini belirtme yeteneği, genişletilmiş [TxtLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/) sınıfı aracılığıyla uygulanmıştır.
-
-#### Belirli Bir Teminat Türünün Belirlenmesi <sup>22.12</sup>
-
-Verilen bölüm için belirli bir **Margin** türünü belirtme yeteneği uygulandı.
-
-### Ara ve Karşılaştır <sup>22.10</sup>
-
-Bul ve değiştir seçeneklerinde [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/)'i yok sayma özelliği, [FindReplaceOptions](https://reference.aspose.com/words/python-net/aspose.words.replacing/findreplaceoptions/) sınıfına yeni bir [ignore_structured_document_tags](https://reference.aspose.com/words/python-net/aspose.words.replacing/findreplaceoptions/ignore_structured_document_tags/) özelliği eklenerek uygulanmıştır.
-
-### Diğer
-
-- FieldEQ'yu OfficeMath olarak almaya yönelik yeni bir özellik eklendi. <sup>22.9</sup>
-- Group tipinde yapılandırılmış belge etiketlerinin Satır düzeyinde oluşturulmasına izin verildi. <sup>22.9</sup>
-- OLE nesneleri ve kontrolleri artık bir belge HTML'ye dönüştürülürken meta dosya görüntüleri olarak değerlendiriliyor. <sup>22.10</sup>
-- [List](https://reference.aspose.com/words/python-net/aspose.words.lists/list/) sınıfına yeni bir **HasSameTemplate** yöntemi getirilerek, belirli bir listenin karşılaştırılan listeyle aynı şablondan oluşturulduğunu kontrol etmeye yönelik yeni bir özellik eklendi. <sup>22.10</sup>
-- [Citation](https://reference.aspose.com/words/python-net/aspose.words.markup/sdttype/) türünde yeni yapılandırılmış belge etiketleri oluşturma yeteneği eklendi. <sup>22.11</sup>
-- Kullanıcıların kaynak belgedeki OLE eklerini çıktı PDF belgesine yerleştirmelerine olanak tanıyan yeni bir **EmbedAttachments** özelliği kullanıma sunuldu. <sup>22.11</sup>
-
-{{% alert color="primary" %}}
-
-[Python via .NET 22.9 Sürüm Notları için Aspose.Words](/words/python-net/aspose-words-for-python-via-dotnet-22-9-release-notes/) hakkında daha fazla bilgi edinin.
-
-[Python via .NET 22.10 Sürüm Notları için Aspose.Words](/words/python-net/aspose-words-for-python-via-dotnet-22-10-release-notes/) hakkında daha fazla bilgi edinin.
-
-[Python via .NET 22.11 Sürüm Notları için Aspose.Words](/words/python-net/aspose-words-for-python-via-dotnet-22-11-release-notes/) hakkında daha fazla bilgi edinin.
-
-[Python via .NET 22.12 Sürüm Notları için Aspose.Words](/words/python-net/aspose-words-for-python-via-dotnet-22-12-release-notes/) hakkında daha fazla bilgi edinin.
 
 {{% /alert %}}
 

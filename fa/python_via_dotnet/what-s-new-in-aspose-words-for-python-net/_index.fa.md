@@ -11,6 +11,40 @@ url: /fa/python-net/what-s-new-in-aspose-words-for-python-net/
 
 این صفحه جالب ترین ویژگی های جدید Aspose.Words معرفی شده در نسخه های اخیر را شرح می دهد.
 
+## Aspose.Words برای پایتون از طریق .NET 24.9
+
+Aspose.Words 24.9 درج شکل گروه و درج StructuredDocumentTag را از طریق DocumentBuilder معرفی می‌کند، رندر نمودار شعاعی را با درجه‌بندی بهبود می‌بخشد، امضاهای دیجیتال را با پشتیبانی XAdES-EPES بهبود می‌بخشد، تشخیص زیر خط Markdown را اضافه می‌کند و دسترسی به جداکننده‌های پانوشت/پایان را فراهم می‌کند.
+
+### رندر و چاپ
+
+#### فارغ التحصیلی در نمودارهای شعاعی
+
+رندر فارغ التحصیلی بر روی نمودارهای شعاعی اجرا شده است.
+
+### تبدیل، بارگیری و ذخیره اسناد
+
+#### هنگام بارگیری فایل‌های Markdown، زیر قالب‌بندی خط بکشید
+
+گزینه تشخیص قالب بندی زیرخط هنگام بارگیری اسناد Markdown با افزودن یک ویژگی عمومی جدید [ImportUnderlineFormatting] () گنجانده شده است.
+
+### امضاهای دیجیتال
+
+#### اسناد را با XAdES-EPES امضا کنید
+
+توانایی امضای اسناد با امضاهای XML-DSig سطح XAdES-EPES با افزودن یک ویژگی عمومی جدید [xml_dsig_level](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/signoptions/xml_dsig_level/) و یک شمارش عمومی جدید [XmlDsigLevel](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/xmldsiglevel/) معرفی شده است.
+
+### دیگر
+
+* یک روش عمومی جدید [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/) به اشکال گروه اضافه شده است.
+* یک روش عمومی جدید [insert_structured_document_tag](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_structured_document_tag/) برای درج **StructuredDocumentTags** در یک سند اضافه شده است.
+* دسترسی عمومی به جداکننده‌های پاورقی/پایان با افزودن چند کلاس و ویژگی عمومی فراهم شده است.
+
+{{% alert color="primary" %}}
+
+درباره [یادداشت‌های انتشار Aspose.Words برای Python via .NET 24.9](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-9-release-notes/) بیشتر بدانید.
+
+{{% /alert %}}
+
 ## Aspose.Words برای Python via .NET 24.5، 24.6، 24.7، 24.8
 
 Aspose.Words 24.5 گزینه‌های اسمبلی را گسترش می‌دهد، قابلیت‌های رندر را بهبود می‌بخشد و برخی گزینه‌های دیگر را گسترش می‌دهد.
@@ -420,73 +454,6 @@ Aspose.Words 23.4 محاسبه برخی از پارامترها و موقعیت 
 درباره [یادداشت‌های انتشار Aspose.Words برای Python via .NET 23.3](/words/python-net/aspose-words-for-python-via-dotnet-23-3-release-notes/) بیشتر بدانید.
 
 درباره [یادداشت‌های انتشار Aspose.Words برای Python via .NET 23.4](/words/python-net/aspose-words-for-python-via-dotnet-23-4-release-notes/) بیشتر بدانید.
-
-{{% /alert %}}
-
-## Aspose.Words برای Python via .NET 22.9، 22.10، 22.11، 22.12
-
-Aspose.Words 22.9 گزینه های بارگیری و ذخیره اسناد و تعامل بهبود یافته با برخی گزینه های دیگر را گسترش می دهد.
-
-Aspose.Words 22.10 گزینه های یافتن و جایگزینی را بهبود می بخشد، اشیاء OLE را بهبود می بخشد و عملکرد لیست را گسترش می دهد.
-
-Aspose.Words 22.11 عملکرد خود را با گزینه‌های جدید برای کار راحت‌تر با اشیاء آشنا گسترش می‌دهد: OLE و تگ‌های اسناد ساختاریافته.
-
-Aspose.Words 22.12 قابلیت‌های رندر را افزایش می‌دهد و گزینه‌هایی را برای کار با حاشیه‌ها هنگام بارگیری/ذخیره یک سند معرفی می‌کند.
-
-### بهبود عملکرد <sup>22.12</sup>
-
-بهینه سازی که به طور قابل توجهی عمق تودرتوی حالت گرافیکی را هنگام رندر کردن به PDF برای حفظ انطباق با مشخصات کاهش می دهد، معرفی شده است.
-
-### رندر و چاپ
-
-#### New Border Rendering Properties <sup>22.12</sup>
-
-ویژگی های عمومی جدید [theme_color](https://reference.aspose.com/words/python-net/aspose.words/border/theme_color/) و [tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words/border/tint_and_shade/) معرفی شده اند.
-
-#### فرمول خطی خط روند برای ترسیم رندر ML <sup>22.12</sup>
-
-رندر فرمول خط روند خطی برای نمودارهای DrawingML اجرا شده است.
-
-#### تنظیمات بازگشتی فونت برای فونت های Google Noto <sup>22.12</sup>
-
-تنظیمات بازگشتی فونت از پیش تعریف شده برای فونت های Google Noto به روز شده است.
-
-### بارگیری و ذخیره اسناد
-
-#### Cache Header یا Footer Shapes برای کاهش اندازه PDF <sup>22.9</sup>
-
-قابلیت کش کردن اشکال سرصفحه/پانویس برای کاهش اندازه فایل PDF خروجی با افزودن ویژگی **CacheHeaderFooterShapes** جدید پیاده سازی شده است.
-
-#### تشخیص شماره گذاری خودکار هنگام بارگیری یک سند <sup>22.9</sup>
-
-توانایی تعیین ویژگی [auto_numbering_detection](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/auto_numbering_detection/) هنگام بارگذاری متن از طریق یک کلاس توسعه یافته از [TxtLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/) پیاده سازی شده است.
-
-#### تعیین یک نوع حاشیه خاص <sup>22.12</sup>
-
-قابلیت تعیین یک نوع **Margin** خاص برای بخش داده شده پیاده سازی شده است.
-
-### جستجو و مقایسه <sup>22.10</sup>
-
-توانایی نادیده گرفتن [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) پس از یافتن و جایگزینی گزینه ها با افزودن یک ویژگی [ignore_structured_document_tags](https://reference.aspose.com/words/python-net/aspose.words.replacing/findreplaceoptions/ignore_structured_document_tags/) جدید به کلاس [FindReplaceOptions](https://reference.aspose.com/words/python-net/aspose.words.replacing/findreplaceoptions/) پیاده سازی شده است.
-
-### دیگر
-
-- یک ویژگی جدید برای دریافت FieldEQ به عنوان OfficeMath اضافه شده است. <sup>22.9</sup>
-- ایجاد تگ اسناد ساختاریافته از نوع Group در سطح Row مجاز بود. <sup>22.9</sup>
-- اشیاء و کنترل های OLE اکنون هنگام تبدیل یک سند به HTML به عنوان تصاویر متافایل در نظر گرفته می شوند. <sup>22.10</sup>
-- یک ویژگی جدید برای بررسی اینکه آیا یک لیست خاص از همان الگوی لیست مقایسه شده ایجاد شده است، با معرفی یک روش جدید **HasSameTemplate** در کلاس [List](https://reference.aspose.com/words/python-net/aspose.words.lists/list/) اضافه شده است. <sup>22.10</sup>
-- قابلیت ایجاد تگ های جدید اسناد ساختاریافته از نوع [Citation](https://reference.aspose.com/words/python-net/aspose.words.markup/sdttype/) اضافه شده است. <sup>22.11</sup>
-- یک ویژگی **EmbedAttachments** جدید که به کاربران اجازه می دهد پیوست های OLE را از یک سند منبع در سند PDF خروجی جاسازی کنند، معرفی شده است. <sup>22.11</sup>
-
-{{% alert color="primary" %}}
-
-درباره [یادداشت‌های انتشار Aspose.Words برای Python via .NET 22.9](/words/python-net/aspose-words-for-python-via-dotnet-22-9-release-notes/) بیشتر بدانید.
-
-درباره [یادداشت‌های انتشار Aspose.Words برای Python via .NET 22.10](/words/python-net/aspose-words-for-python-via-dotnet-22-10-release-notes/) بیشتر بدانید.
-
-درباره [یادداشت‌های انتشار Aspose.Words برای Python via .NET 22.11](/words/python-net/aspose-words-for-python-via-dotnet-22-11-release-notes/) بیشتر بدانید.
-
-درباره [یادداشت‌های انتشار Aspose.Words برای Python via .NET 22.12](/words/python-net/aspose-words-for-python-via-dotnet-22-12-release-notes/) بیشتر بدانید.
 
 {{% /alert %}}
 

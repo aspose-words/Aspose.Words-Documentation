@@ -1,11 +1,11 @@
 ---
 title: Producer Name in Outputs
 second_title: Aspose.Words for C++
-articleTitle: Generator or Producer Name Included in Output Documents
-linktitle: Generator or Producer Name Included in Output Documents
+articleTitle: Generator or Producer Name in Output Documents
+linktitle: Producer Name in Output Documents
 description: "Aspose.Words for C++ add to the document the generator name and version number that was used to create it. This data can be found in the document in ways that depend on the output file format."
 type: docs
-weight: 40
+weight: 90
 url: /cpp/generator-or-producer-name-included-in-output-documents/
 ---
 

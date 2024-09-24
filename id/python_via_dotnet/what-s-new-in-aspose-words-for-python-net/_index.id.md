@@ -11,6 +11,40 @@ url: /id/python-net/what-s-new-in-aspose-words-for-python-net/
 
 Halaman ini menjelaskan fitur-fitur Aspose.Words baru yang paling menarik yang diperkenalkan dalam rilis terbaru.
 
+## Aspose.Words untuk Python via .NET 24.9
+
+Aspose.Words 24.9 memperkenalkan penyisipan bentuk grup dan penyisipan StructuredDocumentTag via DocumentBuilder, menyempurnakan perenderan bagan radial dengan gradasi, menyempurnakan tanda tangan digital dengan dukungan XAdES-EPES, menambahkan pengenalan garis bawah Markdown, dan menyediakan akses ke pemisah catatan kaki/catatan akhir.
+
+### Perenderan dan Pencetakan
+
+#### Graduasi pada Bagan Radial
+
+Perenderan gradasi pada bagan radial telah diimplementasikan.
+
+### Mengonversi, Memuat, dan Menyimpan Dokumen
+
+#### Pemformatan Garis Bawah saat Memuat File Markdown
+
+Opsi untuk mengenali pemformatan garis bawah saat memuat dokumen Markdown telah disertakan dengan menambahkan properti publik baru [import_underline_formatting property](https://reference.aspose.com/words/python-net/aspose.words.loading/markdownloadoptions/import_underline_formatting/).
+
+### Tanda Tangan Digital
+
+#### Menandatangani Dokumen dengan XAdES-EPES
+
+Kemampuan untuk menandatangani dokumen dengan tanda tangan XML-DSig level XAdES-EPES telah diperkenalkan dengan menambahkan properti publik baru [xml_dsig_level](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/signoptions/xml_dsig_level/) dan enumerasi publik baru [XmlDsigLevel](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/xmldsiglevel/).
+
+### Lainnya
+
+* Metode publik baru [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/) telah ditambahkan untuk mengelompokkan bentuk.
+* Metode publik baru [insert_structured_document_tag](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_structured_document_tag/) telah ditambahkan untuk memasukkan **StructuredDocumentTags** ke dalam dokumen.
+* Akses publik ke pemisah catatan kaki/catatan akhir telah disediakan dengan menambahkan beberapa kelas dan properti publik.
+
+{{% alert color="primary" %}}
+
+Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 24.9](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-9-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words untuk Python via .NET 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 memperluas opsi untuk rakitan, meningkatkan kemampuan rendering, dan memperluas beberapa opsi lainnya.
@@ -422,73 +456,6 @@ Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 
 Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 23.3](/words/python-net/aspose-words-for-python-via-dotnet-23-3-release-notes/).
 
 Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 23.4](/words/python-net/aspose-words-for-python-via-dotnet-23-4-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words untuk Python via .NET 22.9, 22.10, 22.11, 22.12
-
-Aspose.Words 22.9 memperluas opsi untuk memuat dan menyimpan dokumen serta meningkatkan interaksi dengan beberapa opsi lainnya.
-
-Aspose.Words 22.10 meningkatkan opsi pencarian dan penggantian, menyempurnakan objek OLE, dan memperluas fungsionalitas daftar.
-
-Aspose.Words 22.11 memperluas fungsinya dengan opsi baru untuk pekerjaan yang lebih nyaman dengan objek yang sudah dikenal: OLE dan tag dokumen terstruktur.
-
-Aspose.Words 22.12 meningkatkan kemampuan rendering dan memperkenalkan opsi untuk bekerja dengan margin saat memuat/menyimpan dokumen.
-
-### Peningkatan Kinerja <sup>22.12</sup>
-
-Pengoptimalan yang secara signifikan mengurangi kedalaman sarang status grafis saat merender ke PDF untuk menjaga kepatuhan spesifikasi telah diperkenalkan.
-
-### Rendering dan Pencetakan
-
-#### Properti Rendering Perbatasan Baru <sup>22.12</sup>
-
-Properti publik baru [theme_color](https://reference.aspose.com/words/python-net/aspose.words/border/theme_color/) dan [tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words/border/tint_and_shade/) telah diperkenalkan.
-
-#### Rumus Garis Tren Linier untuk Rendering DrawingML <sup>22.12</sup>
-
-Render rumus garis tren linier untuk grafik DrawingML telah diterapkan.
-
-#### Pengaturan Penggantian Font untuk Font Google Noto <sup>22.12</sup>
-
-Pengaturan penggantian font yang telah ditentukan sebelumnya untuk font Google Noto telah diperbarui.
-
-### Memuat dan Menyimpan Dokumen
-
-#### Bentuk Header atau Footer Cache untuk Memperkecil Ukuran PDF <sup>22.9</sup>
-
-Kemampuan untuk menyimpan cache bentuk header/footer untuk mengurangi ukuran file PDF keluaran telah diterapkan dengan menambahkan properti **CacheHeaderFooterShapes** baru.
-
-#### Deteksi Penomoran Otomatis saat Memuat Dokumen <sup>22.9</sup>
-
-Kemampuan untuk menentukan properti [auto_numbering_detection](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/auto_numbering_detection/) saat memuat teks telah diterapkan melalui kelas [TxtLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/) yang diperluas.
-
-#### Menentukan Tipe Margin Tertentu <sup>22.12</sup>
-
-Kemampuan untuk menentukan tipe **Margin** tertentu untuk bagian tertentu telah diterapkan.
-
-### Cari dan Bandingkan <sup>22.10</sup>
-
-Kemampuan untuk mengabaikan [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) saat opsi temukan dan ganti telah diterapkan dengan menambahkan properti [ignore_structured_document_tags](https://reference.aspose.com/words/python-net/aspose.words.replacing/findreplaceoptions/ignore_structured_document_tags/) baru ke kelas [FindReplaceOptions](https://reference.aspose.com/words/python-net/aspose.words.replacing/findreplaceoptions/).
-
-### Lainnya
-
-- Fitur baru untuk mendapatkan FieldEQ sebagai OfficeMath telah ditambahkan. <sup>22.9</sup>
-- Pembuatan tag dokumen terstruktur tipe Group pada tingkat Baris diperbolehkan. <sup>22.9</sup>
-- Objek dan kontrol OLE sekarang diperlakukan sebagai gambar metafile saat mengonversi dokumen ke HTML. <sup>22.10</sup>
-- Fitur baru untuk memeriksa apakah daftar tertentu dibuat dari templat yang sama dengan daftar yang dibandingkan telah ditambahkan dengan memperkenalkan metode **HasSameTemplate** baru ke dalam kelas [List](https://reference.aspose.com/words/python-net/aspose.words.lists/list/). <sup>22.10</sup>
-- Kemampuan untuk membuat tag dokumen terstruktur baru dari jenis [Citation](https://reference.aspose.com/words/python-net/aspose.words.markup/sdttype/) telah ditambahkan. <sup>22.11</sup>
-- Properti **EmbedAttachments** baru yang memungkinkan pengguna untuk menyematkan lampiran OLE dari dokumen sumber ke dalam dokumen PDF keluaran telah diperkenalkan. <sup>22.11</sup>
-
-{{% alert color="primary" %}}
-
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 22.9](/words/python-net/aspose-words-for-python-via-dotnet-22-9-release-notes/).
-
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 22.10](/words/python-net/aspose-words-for-python-via-dotnet-22-10-release-notes/).
-
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 22.11](/words/python-net/aspose-words-for-python-via-dotnet-22-11-release-notes/).
-
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 22.12](/words/python-net/aspose-words-for-python-via-dotnet-22-12-release-notes/).
 
 {{% /alert %}}
 

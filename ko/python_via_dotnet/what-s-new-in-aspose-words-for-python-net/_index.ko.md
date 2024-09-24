@@ -11,6 +11,40 @@ url: /ko/python-net/what-s-new-in-aspose-words-for-python-net/
 
 이 페이지에서는 최근 릴리스에 도입된 가장 흥미로운 새로운 Aspose.Words 기능을 설명합니다.
 
+## .NET 24.9를 통한 Python용 Aspose.Words
+
+Aspose.Words 24.9는 DocumentBuilder를 통한 그룹 모양 삽입 및 StructuredDocumentTag 삽입을 도입하고, 그라데이션을 사용하여 방사형 차트 렌더링을 개선하고, XAdES-EPES 지원을 통해 디지털 서명을 개선하고, Markdown 밑줄 인식을 추가하고, 각주/미주 구분 기호에 대한 액세스를 제공합니다.
+
+### 렌더링 및 인쇄
+
+#### 방사형 차트의 그라데이션
+
+방사형 차트의 그라데이션 렌더링이 구현되었습니다.
+
+### 문서 변환, 로드 및 저장
+
+#### Markdown 파일을 로드할 때 밑줄 서식 지정
+
+Markdown 문서를 로드할 때 밑줄 서식을 인식하는 옵션은 새로운 공개 속성 [import_underline_formatting property](https://reference.aspose.com/words/python-net/aspose.words.loading/markdownloadoptions/import_underline_formatting/)을 추가하여 통합되었습니다.
+
+### 디지털 서명
+
+#### XAdES-EPES로 문서 서명
+
+XAdES-EPES 수준 XML-DSig 서명으로 문서에 서명하는 기능은 새로운 공개 속성 [xml_dsig_level](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/signoptions/xml_dsig_level/)과 새로운 공개 열거형 [XmlDsigLevel](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/xmldsiglevel/)을 추가하여 도입되었습니다.
+
+### 기타
+
+* 새로운 공개 메서드 [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/)가 셰이프를 그룹화하는 데 추가되었습니다.
+* 새로운 공개 메서드 [insert_structured_document_tag](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_structured_document_tag/)가 문서에 **StructuredDocumentTags**를 삽입하는 데 추가되었습니다.
+* 몇 가지 공개 클래스와 속성을 추가하여 각주/미주 구분 기호에 대한 공개 액세스가 제공되었습니다.
+
+{{% alert color="primary" %}}
+
+[Python via .NET 24.9 용 Aspose.Words 릴리스 노트](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-9-release-notes/)에 대해 자세히 알아보세요.
+
+{{% /alert %}}
+
 ## Python via .NET 24.5, 24.6, 24.7, 24.8 용 Aspose.Words
 
 Aspose.Words 24.5는 어셈블리 옵션을 확장하고 렌더링 기능을 개선하며 기타 옵션을 확장합니다.
@@ -422,73 +456,6 @@ MOBI 및 AZW3 형식에 대한 진행 알림 저장이 구현되었습니다.
 [Python via .NET 23.3용 Aspose.Words 릴리스 노트](/words/python-net/aspose-words-for-python-via-dotnet-23-3-release-notes/)에 대해 자세히 알아보세요.
 
 [Python via .NET 23.4용 Aspose.Words 릴리스 노트](/words/python-net/aspose-words-for-python-via-dotnet-23-4-release-notes/)에 대해 자세히 알아보세요.
-
-{{% /alert %}}
-
-## Python via .NET 22.9, 22.10, 22.11, 22.12용 Aspose.Words
-
-Aspose.Words 22.9는 문서 로드 및 저장 옵션을 확장하고 일부 다른 옵션과의 상호 작용을 개선했습니다.
-
-Aspose.Words 22.10은 찾기 및 바꾸기 옵션을 개선하고 OLE 개체를 향상시키며 목록 기능을 확장합니다.
-
-Aspose.Words 22.11은 이미 친숙한 개체인 OLE 및 구조화된 문서 태그를 사용하여 더욱 편리하게 작업할 수 있는 새로운 옵션으로 기능을 확장합니다.
-
-Aspose.Words 22.12는 렌더링 기능을 향상시키고 문서를 로드/저장할 때 여백 작업을 위한 옵션을 도입합니다.
-
-### 성능 개선 <sup>22.12</sup>
-
-사양 준수를 유지하기 위해 PDF로 렌더링할 때 그래픽 상태 중첩 깊이를 크게 줄이는 최적화가 도입되었습니다.
-
-### 렌더링 및 인쇄
-
-#### 새로운 테두리 렌더링 속성 <sup>22.12</sup>
-
-새로운 공공 자산 [theme_color](https://reference.aspose.com/words/python-net/aspose.words/border/theme_color/) 및 [tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words/border/tint_and_shade/)가 도입되었습니다.
-
-#### DrawingML 렌더링 <sup>22.12</sup> 의 선형 추세선 공식
-
-DrawingML 차트에 대한 선형 추세선 수식 렌더링이 구현되었습니다.
-
-#### Google Noto 글꼴 <sup>22.12</sup> 에 대한 글꼴 대체 설정
-
-Google Noto 글꼴에 대해 미리 정의된 글꼴 대체 설정이 업데이트되었습니다.
-
-### 문서 로드 및 저장
-
-#### PDF 크기를 줄이기 위한 캐시 머리글 또는 바닥글 모양 <sup>22.9</sup>
-
-새로운 **CacheHeaderFooterShapes** 속성을 추가하여 출력 PDF 파일의 크기를 줄이기 위해 머리글/바닥글 모양을 캐시하는 기능이 구현되었습니다.
-
-#### 문서 로드 시 자동 번호 매기기 감지 <sup>22.9</sup>
-
-텍스트 로딩 시 [auto_numbering_detection](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/auto_numbering_detection/) 속성을 지정하는 기능은 [TxtLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/) 클래스의 확장을 통해 구현되었습니다.
-
-#### 특정 여백 유형 지정 <sup>22.12</sup>
-
-특정 섹션에 대해 특정 **Margin** 유형을 지정하는 기능이 구현되었습니다.
-
-### 검색 및 비교 <sup>22.10</sup>
-
-찾기 및 바꾸기 옵션 시 [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/)를 무시하는 기능은 [FindReplaceOptions](https://reference.aspose.com/words/python-net/aspose.words.replacing/findreplaceoptions/) 클래스에 새 [ignore_structured_document_tags](https://reference.aspose.com/words/python-net/aspose.words.replacing/findreplaceoptions/ignore_structured_document_tags/) 속성을 추가하여 구현되었습니다.
-
-### 다른
-
-- FieldEQ를 OfficeMath로 가져오는 새로운 기능이 추가되었습니다. <sup>22.9</sup>
-- 행 수준에서 Group 유형의 구조화된 문서 태그 생성이 허용되었습니다. <sup>22.9</sup>
-- 이제 문서를 HTML로 변환할 때 OLE 개체 및 컨트롤이 메타파일 이미지로 처리됩니다. <sup>22.10</sup>
-- [List](https://reference.aspose.com/words/python-net/aspose.words.lists/list/) 클래스에 새로운 **HasSameTemplate** 메소드를 도입하여 비교 목록과 동일한 템플릿에서 특정 목록이 생성되었는지 확인하는 기능이 추가되었습니다. <sup>22.10</sup>
-- [Citation](https://reference.aspose.com/words/python-net/aspose.words.markup/sdttype/) 유형의 새로운 구조화된 문서 태그를 생성하는 기능이 추가되었습니다. <sup>11.22</sup>
-- 사용자가 소스 문서의 OLE 첨부 파일을 출력 PDF 문서에 포함할 수 있는 새로운 **EmbedAttachments** 속성이 도입되었습니다. <sup>11.22</sup>
-
-{{% alert color="primary" %}}
-
-[Python via .NET 22.9용 Aspose.Words 릴리스 노트](/words/python-net/aspose-words-for-python-via-dotnet-22-9-release-notes/)에 대해 자세히 알아보세요.
-
-[Python via .NET 22.10용 Aspose.Words 릴리스 노트](/words/python-net/aspose-words-for-python-via-dotnet-22-10-release-notes/)에 대해 자세히 알아보세요.
-
-[Python via .NET 22.11용 Aspose.Words 릴리스 노트](/words/python-net/aspose-words-for-python-via-dotnet-22-11-release-notes/)에 대해 자세히 알아보세요.
-
-[Python via .NET 22.12용 Aspose.Words 릴리스 노트](/words/python-net/aspose-words-for-python-via-dotnet-22-12-release-notes/)에 대해 자세히 알아보세요.
 
 {{% /alert %}}
 

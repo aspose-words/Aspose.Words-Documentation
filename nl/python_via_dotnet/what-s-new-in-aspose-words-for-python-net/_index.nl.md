@@ -11,6 +11,40 @@ url: /nl/python-net/what-s-new-in-aspose-words-for-python-net/
 
 Deze pagina beschrijft de meest interessante nieuwe Aspose.Words features geïntroduceerd in recente releases.
 
+## Aspose.Words voor Python via .NET 24.9
+
+Aspose.Words 24.9 introduceert groepsvorminvoeging en StructuredDocumentTag-invoeging via DocumentBuilder, verbetert radiale grafiekweergave met gradaties, verbetert digitale handtekeningen met XAdES-EPES-ondersteuning, voegt Markdown-onderstrepingsherkenning toe en biedt toegang tot voetnoot-/eindnootscheidingstekens.
+
+### Renderen en afdrukken
+
+#### Gradaties op radiale grafieken
+
+Rendering van gradaties op radiale grafieken is geïmplementeerd.
+
+### Documenten converteren, laden en opslaan
+
+#### Onderstrepingsopmaak bij het laden van Markdown-bestanden
+
+De optie om onderstrepingsopmaak te herkennen bij het laden van Markdown-documenten is opgenomen door een nieuwe openbare eigenschap toe te voegen [import_underline_formatting property](https://reference.aspose.com/words/python-net/aspose.words.loading/markdownloadoptions/import_underline_formatting/).
+
+### Digitale handtekeningen
+
+#### Documenten ondertekenen met XAdES-EPES
+
+De mogelijkheid om documenten te ondertekenen met XAdES-EPES level XML-DSig handtekeningen is geïntroduceerd door het toevoegen van een nieuwe publieke eigenschap [xml_dsig_level](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/signoptions/xml_dsig_level/) en een nieuwe publieke opsomming [XmlDsigLevel](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/xmldsiglevel/).
+
+### Anders
+
+* Een nieuwe publieke methode [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/) is toegevoegd om vormen te groeperen.
+* Een nieuwe publieke methode [insert_structured_document_tag](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_structured_document_tag/) is toegevoegd om **StructuredDocumentTags** in een document in te voegen.
+* Publieke toegang tot voetnoot-/eindnootscheidingstekens is geboden door het toevoegen van een paar publieke klassen en eigenschappen.
+
+{{% alert color="primary" %}}
+
+Meer informatie over [Aspose.Words voor Python via .NET 24.9 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-9-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words voor Python via .NET 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 breidt de opties voor samenstellingen uit, verbetert de weergavemogelijkheden en breidt enkele andere opties uit.
@@ -422,73 +456,6 @@ Meer informatie over [Aspose.Words voor Python via .NET 23.2 Release Notes](/wor
 Meer informatie over [Aspose.Words voor Python via .NET 23.3 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-23-3-release-notes/).
 
 Meer informatie over [Aspose.Words voor Python via .NET 23.4 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-23-4-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words voor Python via .NET 22.9, 22.10, 22.11, 22.12
-
-Aspose.Words 22.9 breidt opties uit voor het laden en opslaan van documenten en verbeterde interactie met enkele andere opties.
-
-Aspose.Words 22.10 verbetert het vinden en vervangen van opties, verbetert OLE objecten, en breidt lijst functionaliteit.
-
-Aspose.Words 22.11 breidt zijn functionaliteit uit met nieuwe opties voor handiger werken met reeds bekende objecten: OLE en gestructureerde documenttags.
-
-Aspose.Words 22.12 vergroot de renderingsmogelijkheden en introduceert opties voor het werken met marges bij het laden/opslaan van een document.
-
-### Prestatieverbeteringen <sup>22.12</sup>
-
-Er is een optimalisatie ingevoerd die de diepte van graphics state nesting aanzienlijk vermindert bij het renderen naar PDF om de naleving van de specificaties te handhaven.
-
-### Renderen en afdrukken
-
-#### Nieuwe Rand-renderingseigenschappen <sup>22.12</sup>
-
-Nieuwe openbare eigendommen [theme_color](https://reference.aspose.com/words/python-net/aspose.words/border/theme_color/) en [tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words/border/tint_and_shade/) zijn geïntroduceerd.
-
-#### Lineaire Trendline Formule voor TekeningML Rendering <sup>22.12</sup>
-
-Lineaire trendlijn formule rendering voor DrawingML grafieken is geïmplementeerd.
-
-#### Lettertype Terugvalinstellingen voor Google Noto Lettertypen <sup>22.12</sup>
-
-De vooraf gedefinieerde font-fallbackinstellingen voor Google Noto lettertypen zijn bijgewerkt.
-
-### Documenten laden en opslaan
-
-#### Cache Header of Footer Shapes om PDF-grootte te verkleinen <sup>22.9</sup>
-
-De mogelijkheid om header/voeter vormen cache om de grootte van de output PDF-bestand te verminderen is geïmplementeerd door het toevoegen van een nieuwe **CacheHeaderFooterShapes** eigendom.
-
-#### Automatische nummerdetectie bij het laden van een document <sup>22.9</sup>
-
-Het vermogen om de [auto_numbering_detection](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/auto_numbering_detection/) eigendom na tekst laden is geïmplementeerd door een uitgebreide van de [TxtLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/) Klasse.
-
-#### Bijzondere vermelding Margetype <sup>22.12</sup>
-
-De mogelijkheid om een bepaalde **Margin** type voor de gegeven sectie is geïmplementeerd.
-
-### Zoeken en vergelijken <sup>22.10</sup>
-
-De mogelijkheid om te negeren [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) bij het vinden en vervangen van opties is geïmplementeerd door het toevoegen van een nieuwe [ignore_structured_document_tags](https://reference.aspose.com/words/python-net/aspose.words.replacing/findreplaceoptions/ignore_structured_document_tags/) eigendom van de [FindReplaceOptions](https://reference.aspose.com/words/python-net/aspose.words.replacing/findreplaceoptions/) Klasse.
-
-### Andere
-
-- Een nieuwe functie om FieldEQ als OfficeMath te krijgen is toegevoegd. <sup>22.9</sup>
-- Het creëren van gestructureerde documenttags van Group type op rijniveau was toegestaan. <sup>22.9</sup>
-- OLE objecten en controles worden nu behandeld als metafile beelden bij het omzetten van een document naar HTML. <sup>22.10</sup>
-- Een nieuwe functie om te controleren of een bepaalde lijst is gemaakt uit hetzelfde sjabloon als de vergeleken lijst is toegevoegd door de invoering van een nieuwe **HasSameTemplate** methode in de [List](https://reference.aspose.com/words/python-net/aspose.words.lists/list/) Klasse. <sup>22.10</sup>
-- De mogelijkheid om nieuwe gestructureerde document tags van de [Citation](https://reference.aspose.com/words/python-net/aspose.words.markup/sdttype/) type is toegevoegd. <sup>22.11</sup>
-- Een nieuwe **EmbedAttachments** eigenschap waarmee gebruikers OLE bijlagen kunnen insluiten vanuit een brondocument in het uitvoer PDF-document is geïntroduceerd. <sup>22.11</sup>
-
-{{% alert color="primary" %}}
-
-Meer informatie over [Aspose.Words voor Python via .NET 22.9 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-22-9-release-notes/).
-
-Meer informatie over [Aspose.Words voor Python via .NET 22.10 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-22-10-release-notes/).
-
-Meer informatie over [Aspose.Words voor Python via .NET 22.11 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-22-11-release-notes/).
-
-Meer informatie over [Aspose.Words voor Python via .NET 22.12 Loslaten](/words/python-net/aspose-words-for-python-via-dotnet-22-12-release-notes/).
 
 {{% /alert %}}
 

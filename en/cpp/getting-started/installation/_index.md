@@ -1,5 +1,5 @@
 ---
-title: Installation
+title: How to install Aspose.Words for C++
 second_title: Aspose.Words for C++
 articleTitle: Installation
 linktitle: Installation

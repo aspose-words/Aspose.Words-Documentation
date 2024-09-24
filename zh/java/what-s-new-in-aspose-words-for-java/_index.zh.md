@@ -11,6 +11,40 @@ url: /zh/java/what-s-new-in-aspose-words-for-java/
 
 此页面描述最有趣的新 Aspose.Words 近期发布时引入的特征。
 
+## Aspose.Words for Java 24.9
+
+Aspose.Words 24.9 通过 DocumentBuilder 引入了组形状插入和 StructuredDocumentTag 插入，增强了带有刻度的径向图表渲染，通过 XAdES-EPES 支持改进了数字签名，添加了 Markdown 下划线识别，并提供了对脚注/尾注分隔符的访问。
+
+### 渲染和打印
+
+#### 径向图表上的刻度
+
+已实现径向图表上刻度的渲染。
+
+### 转换、加载和保存文档
+
+#### 加载 Markdown 文件时的下划线格式
+
+通过添加新的公共属性 [ImportUnderlineFormatting](https://reference.aspose.com/words/java/com.aspose.words/markdownloadoptions/#getImportUnderlineFormatting)，已纳入在加载 Markdown 文档时识别下划线格式的选项。
+
+### 数字签名
+
+#### 使用 XAdES-EPES 签署文档
+
+通过添加新的公共属性 [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/signoptions/#getXmlDsigLevel) 和新的公共枚举 [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/xmldsiglevel/)，引入了使用 XAdES-EPES 级别 XML-DSig 签名签署文档的功能。
+
+### 其他
+
+* 添加了新的公共方法 [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-com.aspose.words.Shape...) 来分组形状。
+* 添加了新的公共方法 [InsertStructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertStructuredDocumentTag-int)，用于将 **StructuredDocumentTags** 插入文档。
+* 通过添加一些公共类和属性，提供了对脚注/尾注分隔符的公共访问。
+
+{{% alert color="primary" %}}
+
+了解有关 [Aspose.Words for Java 24.9 发行说明](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/) 的更多信息。
+
+{{% /alert %}}
+
 ## Aspose.Words for Java 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 扩展了组件选项，改进了渲染功能，并扩展了一些其他选项。
@@ -427,80 +461,6 @@ MOBI和AZW3格式的保存进度通知已经执行。
 学习更多 [Aspose.Words (单位:千美元) Java 23.3 发布说明](/words/java/aspose-words-for-java-23-3-release-notes/)。
 
 学习更多 [Aspose.Words (单位:千美元) Java 23.4 发行说明](/words/java/aspose-words-for-java-23-4-release-notes/)。
-
-{{% /alert %}}
-
-## Aspose.Words (单位:千美元) Java 22.9, 22.10, 22.11, 22.12
-
-Aspose.Words 22.9 扩大装入和保存文档的选项,并改善与其他一些选项的互动。
-
-Aspose.Words 22.10 改进查找和替换选项,增强OLE对象,扩展列表功能.
-
-Aspose.Words 22.11 扩展其功能,为与已经熟悉的对象进行更方便的工作提供新的选项:字段,打印,OLE和结构化的文档标记.
-
-Aspose.Words 22.12 增强渲染能力,并提出在装入/保存文件时在边距内工作的各种选项。
-
-### 业绩改进 <sup>22.12 联合国</sup>
-
-在向 PDF 渲染以保持规格合规时,引入了大幅降低图形状态嵌入深度的优化.
-
-### 制作和印刷
-
-#### 打印无色 彩色打印机上的页面 <sup>22.11 联合国</sup>
-
-通过添加新内容, 采用了自定义的彩色/ 灰度打印模式 **GrayscaleAuto** 值为 [ColorPrintMode](https://reference.aspose.com/words/java/com.aspose.words/colorprintmode/) 计数.
-
-新打印属性允许用户控制非彩色页面的打印方式,如果设备支持彩色打印. 如果用户想要仅使用灰度打印模式自动打印非彩色页面,此功能可能有用.
-
-#### 新建边框渲染属性 <sup>22.12 联合国</sup>
-
-新的公共财产 [ThemeColor](https://reference.aspose.com/words/java/com.aspose.words/border/#getThemeColor) 和 [TintAndShade](https://reference.aspose.com/words/java/com.aspose.words/border/#getTintAndShade) 现已介绍。
-
-#### 绘图的线性流线公式 <sup>22.12 联合国</sup>
-
-绘制ML图的线性趋势线公式渲染已经实施。
-
-#### 字体折返设置 Google Noto 字体 <sup>22.12 联合国</sup>
-
-预定义字体倒置设置 Google Noto 字体已经更新。
-
-### 装入和保存文档
-
-#### 缓存页眉或页脚形状以减少 PDF 大小 <sup>22.9 联合国</sup>
-
-通过添加新内容,实现了缓存页眉/页脚形状以减少输出 PDF 文件大小的能力 [CacheHeaderFooterShapes](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) 属性。
-
-#### 装入文档时自动编号检测 <sup>22.9 联合国</sup>
-
-说明 [AutoNumberingDetection](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/#getAutoNumberingDetection) 文本加载时的属性已经通过扩展 [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) 课。
-
-#### 指定一个 边距类型 <sup>22.12 联合国</sup>
-
-是否有能力指定特定 [Margin](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getMargins) 类型已执行。
-
-### 搜索和比较 <sup>22.10 联合国</sup>
-
-忽视的能力 [StructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttag/) 在找到和替换选项时,增加了一个新的 [IgnoreStructuredDocumentTags](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreStructuredDocumentTags--) 属性 [FindReplaceOptions](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/) 课。
-
-### 其他人员
-
-- 增加了一个新功能,以获得外地电子数据作为OfficeMath。 <sup>22.9 联合国</sup>
-- 怎么样? 创建结构化文档标签 Group 类型。 <sup>22.9 联合国</sup>
-- OLE 对象和控件在将文档转换为 HTML 时被作为元文件图像处理。 <sup>22.10 联合国</sup>
-- 通过引入新的清单,增加了一个新的功能,以检查某一清单是从与比较清单相同的模板中创建的。 [HasSameTemplate](https://reference.aspose.com/words/java/com.aspose.words/list/#hasSameTemplate-com.aspose.words.List-) 方法输入 [List](https://reference.aspose.com/words/java/com.aspose.words/list/) 课。 <sup>22.10 联合国</sup>
-- 怎么样? 创建新结构化文档标记的能力 [Citation](https://reference.aspose.com/words/java/com.aspose.words/sdttype/) 类型已添加。 <sup>22.11 联合国</sup>
-- 已提供追踪外地最新情况的能力。 <sup>22.11 联合国</sup>
-- 一个新的 **EmbedAttachments** 属性,允许用户将 OLE 附件从源文档嵌入到输出 PDF 文档。 <sup>22.11 联合国</sup>
-
-{{% alert color="primary" %}}
-
-学习更多 [Aspose.Words (单位:千美元) Java 22.9 发布说明](/words/java/aspose-words-for-java-22-9-release-notes/)。
-
-学习更多 [Aspose.Words (单位:千美元) Java 22.10 发布说明](/words/java/aspose-words-for-java-22-10-release-notes/)。
-
-学习更多 [Aspose.Words (单位:千美元) Java 22.11 发行说明](/words/java/aspose-words-for-java-22-11-release-notes/)。
-
-学习更多 [Aspose.Words (单位:千美元) Java 22.12 发布说明](/words/java/aspose-words-for-java-22-12-release-notes/)。
 
 {{% /alert %}}
 

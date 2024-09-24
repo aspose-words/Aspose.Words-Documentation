@@ -11,6 +11,40 @@ url: /pl/java/what-s-new-in-aspose-words-for-java/
 
 Ta strona opisuje najbardziej interesujące nowe Aspose.Words funkcje wprowadzone w ostatnich wersjach.
 
+## Aspose.Words dla Java 24.9
+
+Aspose.Words 24.9 wprowadza wstawianie kształtów grupowych i wstawianie StructuredDocumentTag przez DocumentBuilder, ulepsza renderowanie wykresów promieniowych za pomocą podziałek, ulepsza podpisy cyfrowe dzięki obsłudze XAdES-EPES, dodaje rozpoznawanie podkreśleń Markdown i zapewnia dostęp do separatorów przypisów dolnych/końcowych.
+
+### Renderowanie i drukowanie
+
+#### Podziałki na wykresach promieniowych
+
+Zaimplementowano renderowanie podziałek na wykresach promieniowych.
+
+### Konwertowanie, ładowanie i zapisywanie dokumentów
+
+#### Formatowanie podkreślenia podczas ładowania plików Markdown
+
+Opcja rozpoznawania formatowania podkreślenia podczas ładowania dokumentów Markdown została włączona przez dodanie nowej właściwości publicznej [ImportUnderlineFormatting](https://reference.aspose.com/words/java/com.aspose.words/markdownloadoptions/#getImportUnderlineFormatting).
+
+### Podpisy cyfrowe
+
+#### Podpisywanie dokumentów za pomocą XAdES-EPES
+
+Możliwość podpisywania dokumentów za pomocą podpisów XML-DSig na poziomie XAdES-EPES została wprowadzona poprzez dodanie nowej publicznej właściwości [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/signoptions/#getXmlDsigLevel) i nowego publicznego wyliczenia [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/xmldsiglevel/)
+
+### Inne
+
+* Dodano nową publiczną metodę [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-com.aspose.words.Shape...) w celu grupowania kształtów.
+* Dodano nową publiczną metodę [InsertStructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertStructuredDocumentTag-int) w celu wstawiania **StructuredDocumentTags** do dokumentu.
+* Zapewniono publiczny dostęp do separatorów przypisów dolnych/końcowych poprzez dodanie kilku publicznych klas i właściwości.
+
+{{% alert color="primary" %}}
+
+Dowiedz się więcej o [Aspose.Words for Java 24.9 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words dla Java 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 rozszerza opcje złożeń, poprawia możliwości renderowania i rozszerza niektóre inne opcje.
@@ -428,80 +462,6 @@ Dowiedz się więcej o [Aspose.Words zamiast Java 23.2 Uwagi do wydania](/words/
 Dowiedz się więcej o [Aspose.Words zamiast Java 23.3 Uwagi do wydania](/words/java/aspose-words-for-java-23-3-release-notes/).
 
 Dowiedz się więcej o [Aspose.Words zamiast Java 23.4 Uwagi do wydania](/words/java/aspose-words-for-java-23-4-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words zamiast Java 22.9, 22.10, 22.11, 22.12
-
-Aspose.Words 22.9 rozszerza możliwości ładowania i zapisywania dokumentów oraz usprawnia interakcję z innymi opcjami.
-
-Aspose.Words 22.10 ulepsza opcje wyszukiwania i wymiany, wzmacnia obiekty OLE i rozszerza funkcjonalność listy.
-
-Aspose.Words 22.11 rozszerza swoją funkcjonalność o nowe opcje dla wygodniejszej pracy z już znanymi obiektami: polami, drukowaniem, OLE i usystematyzowanymi tagami dokumentów.
-
-Aspose.Words 22.12 zwiększa możliwości renderowania i wprowadza opcje pracy z marginesami podczas wczytywania / zapisywania dokumentu.
-
-### Poprawa wydajności <sup>22.12</sup>
-
-Wprowadzono optymalizację, która znacznie zmniejsza głębokość gniazda stanu graficznego podczas renderowania do PDF w celu utrzymania zgodności specyfikacji.
-
-### Renderowanie i drukowanie
-
-#### Drukowanie niekolorowe Strony na drukarce kolorowej <sup>22.11</sup>
-
-Niestandardowy kolorowy / szarości tryb drukowania został zaimplementowany przez dodanie nowego **GrayscaleAuto** wartość [ColorPrintMode](https://reference.aspose.com/words/java/com.aspose.words/colorprintmode/) wyliczenie.
-
-Nowa właściwość drukowania pozwala użytkownikom kontrolować sposób drukowania stron niekolorowych, jeśli urządzenie obsługuje drukowanie kolorów. Funkcja ta może być przydatna, jeśli użytkownicy chcą automatycznie drukować niekolorowe strony tylko za pomocą trybu druku w skali szarości.
-
-#### Nowe właściwości renderowania granic <sup>22.12</sup>
-
-Nowe nieruchomości publiczne [ThemeColor](https://reference.aspose.com/words/java/com.aspose.words/border/#getThemeColor) oraz [TintAndShade](https://reference.aspose.com/words/java/com.aspose.words/border/#getTintAndShade) zostały wprowadzone.
-
-#### Formuła trendów liniowych dla renderingu DrawingML <sup>22.12</sup>
-
-Liniowe renderowanie formuły trendline dla wykresów DrawingML zostało wdrożone.
-
-#### Ustawienia czcionek dla Google Noto Czcionki <sup>22.12</sup>
-
-Predefiniowane ustawienia awaryjne czcionki dla Google Noto czcionki zostały zaktualizowane.
-
-### Wczytywanie i zapisywanie dokumentów
-
-#### Nagłówek cache lub kształty footer do zmniejszenia rozmiaru PDF <sup>22.9</sup>
-
-Zdolność bufora nagłówka / stopki do zmniejszenia rozmiaru wyjścia pliku PDF została zaimplementowana przez dodanie nowego [CacheHeaderFooterShapes](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) nieruchomości.
-
-#### Automatyczne wykrywanie numerów podczas wczytywania dokumentu <sup>22.9</sup>
-
-Możliwość określenia [AutoNumberingDetection](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/#getAutoNumberingDetection) właściwość podczas wczytywania tekstu została wdrożona poprzez rozszerzenie [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) Klasa.
-
-#### Określanie szczegółowych Rodzaj marży <sup>22.12</sup>
-
-Możliwość określenia konkretnego [Margin](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getMargins) typ dla danej sekcji został wdrożony.
-
-### Szukaj i porównuj <sup>22.10</sup>
-
-Zdolność do ignorowania [StructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttag/) po znalezieniu i zastąpieniu opcji zostało wdrożone poprzez dodanie nowego [IgnoreStructuredDocumentTags](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreStructuredDocumentTags--) nieruchomości do [FindReplaceOptions](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/) Klasa.
-
-### Inne
-
-- Dodano nową funkcję, aby uzyskać FieldEQ jako OfficeMath. <sup>22.9</sup>
-- Tworzenie strukturyzowanych tagów dokumentów Group typ na poziomie wiersza był dozwolony. <sup>22.9</sup>
-- Obiekty i sterowniki OLE są teraz traktowane jako metafilowe obrazy podczas konwersji dokumentu na HTML. <sup>22.10</sup>
-- Nowa funkcja sprawdzająca, czy określona lista została utworzona z tego samego szablonu co lista porównawcza została dodana poprzez wprowadzenie nowego [HasSameTemplate](https://reference.aspose.com/words/java/com.aspose.words/list/#hasSameTemplate-com.aspose.words.List-) metoda do [List](https://reference.aspose.com/words/java/com.aspose.words/list/) Klasa. <sup>22.10</sup>
-- Zdolność do tworzenia nowych tagów ustrukturyzowanych dokumentów [Citation](https://reference.aspose.com/words/java/com.aspose.words/sdttype/) dodano typ. <sup>22.11</sup>
-- Zapewniono możliwość śledzenia postępów w aktualizacji pola. <sup>22.11</sup>
-- Nowy **EmbedAttachments** została wprowadzona właściwość, która umożliwia użytkownikom osadzanie załączników OLE z dokumentu źródłowego do dokumentu PDF. <sup>22.11</sup>
-
-{{% alert color="primary" %}}
-
-Dowiedz się więcej o [Aspose.Words zamiast Java 22.9 Uwagi do wydania](/words/java/aspose-words-for-java-22-9-release-notes/).
-
-Dowiedz się więcej o [Aspose.Words zamiast Java 22.10 Uwagi do wydania](/words/java/aspose-words-for-java-22-10-release-notes/).
-
-Dowiedz się więcej o [Aspose.Words zamiast Java 22.11 Uwagi do wydania](/words/java/aspose-words-for-java-22-11-release-notes/).
-
-Dowiedz się więcej o [Aspose.Words zamiast Java 22.12 Uwagi do wydania](/words/java/aspose-words-for-java-22-12-release-notes/).
 
 {{% /alert %}}
 

@@ -11,6 +11,40 @@ url: /cs/java/what-s-new-in-aspose-words-for-java/
 
 Tato stránka popisuje nejzajímavější nové Aspose.Words funkce zavedené v nedávných vydáních.
 
+## Aspose.Words pro Java 24.9
+
+Aspose.Words 24.9 zavádí vkládání tvarů skupiny a vkládání StructuredDocumentTag prostřednictvím DocumentBuilderu, vylepšuje vykreslování radiálních grafů pomocí gradací, zlepšuje digitální podpisy s podporou XAdES-EPES, přidává rozpoznávání podtržení Markdown a poskytuje přístup k oddělovačům poznámek pod čarou/vysvětlivky.
+
+### Vykreslování a tisk
+
+#### Promoce na radiálních grafech
+
+Bylo implementováno vykreslování stupnice na radiálních mapách.
+
+### Konverze, načítání a ukládání dokumentů
+
+#### Při načítání souborů Markdown podtrhněte formátování
+
+Možnost rozpoznat podtržené formátování při načítání dokumentů Markdown byla začleněna přidáním nové veřejné vlastnosti [ImportUnderlineFormatting](https://reference.aspose.com/words/java/com.aspose.words/markdownloadoptions/#getImportUnderlineFormatting).
+
+### Digitální podpisy
+
+#### Podepisujte dokumenty pomocí XAdES-EPES
+
+Schopnost podepisovat dokumenty pomocí podpisů XML-DSig na úrovni XAdES-EPES byla zavedena přidáním nové veřejné vlastnosti [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/signoptions/#getXmlDsigLevel) a nového veřejného výčtu [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/xmldsiglevel/)
+
+### Jiné
+
+* Ke skupinovým tvarům byla přidána nová veřejná metoda [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-com.aspose.words.Shape...).
+* Byla přidána nová veřejná metoda [InsertStructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertStructuredDocumentTag-int) pro vkládání **StructuredDocumentTags** do dokumentu.
+* Veřejný přístup k oddělovačům poznámek pod čarou/vysvětlivky byl poskytnut přidáním několika veřejných tříd a vlastností.
+
+{{% alert color="primary" %}}
+
+Další informace o [Aspose.Words for Java 24.9 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words for Java 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 rozšiřuje možnosti pro sestavy, zlepšuje možnosti vykreslování a rozšiřuje některé další možnosti.
@@ -427,80 +461,6 @@ Více informací o [Aspose.Words Místo Java 23.2 Poznámky k východu](/words/j
 Více informací o [Aspose.Words Místo Java 23.3 Poznámky k východu](/words/java/aspose-words-for-java-23-3-release-notes/).
 
 Více informací o [Aspose.Words Místo Java 23.4 Poznámky k východu](/words/java/aspose-words-for-java-23-4-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words místo Java 22.9, 22.10, 22.11, 22.12
-
-Aspose.Words 22.9 rozšiřuje možnosti načítání a ukládání dokumentů a zlepšení interakce s některými dalšími možnostmi.
-
-Aspose.Words 22.10 zlepšuje vyhledávání a výměnu možností, zvyšuje OLE objekty a rozšiřuje funkci seznamu.
-
-Aspose.Words 22.11 rozšiřuje svou funkčnost o nové možnosti pro pohodlnější práci s již známými objekty: poli, tisk, OLE a strukturované známky dokumentů.
-
-Aspose.Words 22.12 zvyšuje možnosti aranžování a zavádí možnosti práce s maržemi při načítání / ukládání dokumentu.
-
-### Zlepšení výkonnosti <sup>22.12</sup>
-
-Byla zavedena optimalizace, která výrazně snižuje hloubku grafického stavu hnízdění při zobrazování do PDF, aby byla zachována shoda specifikace.
-
-### Renderování a tisk
-
-#### Tisk nebarvený Stránky na tiskárně barev <sup>22.11</sup>
-
-Vlastní barevný/šedý tisk režim byl implementován přidáním nového **GrayscaleAuto** hodnota [ColorPrintMode](https://reference.aspose.com/words/java/com.aspose.words/colorprintmode/) výčtu.
-
-Nová vlastnost tisku umožňuje uživatelům kontrolovat, jak jsou vytištěny nebarevné stránky, pokud zařízení podporuje barevný tisk. Tato funkce může být užitečná, pokud uživatelé chtějí automaticky tisknout nebarevné stránky pouze pomocí šedého tiskového režimu.
-
-#### Nové vlastnosti pro úpravu hranic <sup>22.12</sup>
-
-Nové veřejné vlastnictví [ThemeColor](https://reference.aspose.com/words/java/com.aspose.words/border/#getThemeColor) a [TintAndShade](https://reference.aspose.com/words/java/com.aspose.words/border/#getTintAndShade) byly představeny.
-
-#### Linear Trendline Formule pro kresleníML Rendering <sup>22.12</sup>
-
-Bylo implementováno vykreslování lineárního trendového vzorce pro grafy DrawingML.
-
-#### Nastavení Font Fallback pro Google Noto Písma <sup>22.12</sup>
-
-Předdefinované nastavení zálohování písma pro Google Noto byla aktualizována písma.
-
-### Načítání a ukládání dokumentů
-
-#### Cache hlavička nebo zápatí tvary ke snížení velikosti PDF <sup>22.9</sup>
-
-Schopnost cache hlavičky / tvary nohy pro snížení velikosti výstupního PDF souboru byla provedena přidáním nového [CacheHeaderFooterShapes](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) majetek.
-
-#### Automatická detekce čísel při načtení dokumentu <sup>22.9</sup>
-
-Schopnost určit [AutoNumberingDetection](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/#getAutoNumberingDetection) majetek při načítání textu byl realizován prostřednictvím rozšíření [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) třída.
-
-#### Upřesnění konkrétního Typ marže <sup>22.12</sup>
-
-Schopnost určit konkrétní [Margin](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getMargins) typ pro daný oddíl byl implementován.
-
-### Hledat a porovnat <sup>O tloušťce převyšující 0,35 mm</sup>
-
-Schopnost ignorovat [StructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttag/) při hledání a nahrazení možností byla provedena přidáním nového [IgnoreStructuredDocumentTags](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreStructuredDocumentTags--) majetek [FindReplaceOptions](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/) třída.
-
-### Ostatní
-
-- Byla přidána nová funkce pro získání FieldEQ jako OfficeMath. <sup>22.9</sup>
-- Vytvoření strukturovaných značek dokumentů Group typ na úrovni řádku byl povolen. <sup>22.9</sup>
-- OLE objekty a ovládací prvky jsou nyní považovány za metafilní obrázky při konverzi dokumentu na HTML. <sup>O tloušťce převyšující 0,35 mm</sup>
-- Nová funkce pro kontrolu, že konkrétní seznam byl vytvořen ze stejné šablony jako srovnávací seznam byl doplněn zavedením nového [HasSameTemplate](https://reference.aspose.com/words/java/com.aspose.words/list/#hasSameTemplate-com.aspose.words.List-) metoda do [List](https://reference.aspose.com/words/java/com.aspose.words/list/) třída. <sup>O tloušťce převyšující 0,35 mm</sup>
-- Schopnost vytvářet nové strukturované značky dokumentů [Citation](https://reference.aspose.com/words/java/com.aspose.words/sdttype/) byl přidán typ. <sup>22.11</sup>
-- Byla poskytnuta schopnost sledovat průběh aktualizace pole. <sup>22.11</sup>
-- Nový. **EmbedAttachments** byla zavedena vlastnost, která umožňuje uživatelům vložit OLE přílohy ze zdrojového dokumentu do výstupního PDF dokumentu. <sup>22.11</sup>
-
-{{% alert color="primary" %}}
-
-Více informací o [Aspose.Words Místo Java 22.9 Poznámky k východu](/words/java/aspose-words-for-java-22-9-release-notes/).
-
-Více informací o [Aspose.Words Místo Java 22.10 Poznámky k východu](/words/java/aspose-words-for-java-22-10-release-notes/).
-
-Více informací o [Aspose.Words Místo Java 22.11 Poznámky k východu](/words/java/aspose-words-for-java-22-11-release-notes/).
-
-Více informací o [Aspose.Words Místo Java 22.12 Poznámky k východu](/words/java/aspose-words-for-java-22-12-release-notes/).
 
 {{% /alert %}}
 

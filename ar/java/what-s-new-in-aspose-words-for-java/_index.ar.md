@@ -11,6 +11,40 @@ url: /ar/java/what-s-new-in-aspose-words-for-java/
 
 هذه الصفحة تصف أكثر الأشياء إثارة للاهتمام Aspose.Words السمات التي أدخلت في الإطلاقات الأخيرة.
 
+## Aspose.Words for Java 24.9
+
+يقدم Aspose.Words 24.9 إدراج شكل المجموعة وإدراج StructuredDocumentTag عبر DocumentBuilder، ويعزز عرض المخطط الشعاعي باستخدام التدرجات، ويحسن التوقيعات الرقمية مع دعم XAdES-EPES، ويضيف التعرف على خط Markdown، ويوفر الوصول إلى فواصل الحواشي السفلية/الحواشي النهائية.
+
+### العرض والطباعة
+
+#### التدرجات على المخططات الشعاعية
+
+تم تنفيذ عرض التدرجات على المخططات الشعاعية.
+
+### تحويل المستندات وتحميلها وحفظها
+
+#### تنسيق التسطير عند تحميل ملفات Markdown
+
+تم دمج خيار التعرف على تنسيق التسطير عند تحميل مستندات Markdown من خلال إضافة خاصية عامة جديدة [ImportUnderlineFormatting](https://reference.aspose.com/words/java/com.aspose.words/markdownloadoptions/#getImportUnderlineFormatting).
+
+### التوقيعات الرقمية
+
+#### توقيع المستندات باستخدام XAdES-EPES
+
+تم تقديم القدرة على توقيع المستندات باستخدام توقيعات XML-DSig على مستوى XAdES-EPES من خلال إضافة خاصية عامة جديدة [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/signoptions/#getXmlDsigLevel) وتعداد عام جديد [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/xmldsiglevel/).
+
+### أخرى
+
+* تمت إضافة طريقة عامة جديدة [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-com.aspose.words.Shape...) إلى أشكال المجموعة.
+* تمت إضافة طريقة عامة جديدة [InsertStructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertStructuredDocumentTag-int) لإدراج **علامات StructuredDocumentTag** في مستند.
+* تم توفير الوصول العام إلى فواصل الحواشي السفلية/الحواشي النهائية من خلال إضافة بعض الفئات والخصائص العامة.
+
+{{% alert color="primary" %}}
+
+تعرف على المزيد حول [ملاحظات إصدار Aspose.Words for Java 24.9](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words لـ Java 24.5, 24.6, 24.7, 24.8
 
 يقوم Aspose.Words 24.5 بتوسيع خيارات التجميعات وتحسين قدرات العرض وتوسيع بعض الخيارات الأخرى.
@@ -427,331 +461,6 @@ A way to control the export of list items to Markdown تم توفير الشكل
 تعلم المزيد [Aspose.Words for Java 23-3 مرات](/words/java/aspose-words-for-java-23-3-release-notes/).
 
 تعلم المزيد [Aspose.Words for Java 23-4](/words/java/aspose-words-for-java-23-4-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words for Java 22-9، 22-10، 22-11، 22-12
-
-Aspose.Words 22-9 توسيع نطاق الخيارات المتاحة لتحميل الوثائق وحفظها وتحسين التفاعل مع بعض الخيارات الأخرى.
-
-Aspose.Words 22-10 تحسين العثور على الخيارات والاستعاضة عنها، وتعزيز الأجسام الموجودة على سطح الأرض، وتوسيع نطاق تشغيل القائمة.
-
-Aspose.Words 22-11 يوسع نطاق أدائها الوظيفي بخيارات جديدة للعمل الأكثر ملاءمة مع الأشياء المألوفة بالفعل: الحقول، والطباعة، والعلامات المستندية الشاملة والمنظمة.
-
-Aspose.Words 22-12 تعزيز قدرات تقديم الوثائق وإدخال خيارات للعمل مع الهوامش عند تحميلها/إنقاذها.
-
-### تحسين الأداء <sup>22-12</sup>
-
-وقد استُحدثت عملية تعظيمية تقلل إلى حد كبير من عمق استنباط الدولة للرسوم البيانية عند إصدارها إلى قوات الدفاع الشعبي للحفاظ على الامتثال للمواصفات.
-
-### التوجيه والطباعة
-
-#### الطباعة صفحات على كولور برينتر <sup>22-11</sup>
-
-نُفذ أسلوب طباعة ملوّن/كريمي بإضافة نظام جديد **GrayscaleAuto** القيمة [ColorPrintMode](https://reference.aspose.com/words/java/com.aspose.words/colorprintmode/) العد
-
-وتسمح الممتلكات المطبوعة الجديدة للمستعملين بالتحكم في كيفية طباعة الصفحات غير المجمعة إذا كان الجهاز يدعم طباعة الألوان. ويمكن أن تكون هذه السمة مفيدة إذا أراد المستعملون أن يطبعوا تلقائيا صفحات غير ملونة باستخدام أسلوب الطباعة الرمادي فقط.
-
-#### New Border Rendering Properties <sup>22-12</sup>
-
-الممتلكات العامة الجديدة [ThemeColor](https://reference.aspose.com/words/java/com.aspose.words/border/#getThemeColor) و [TintAndShade](https://reference.aspose.com/words/java/com.aspose.words/border/#getTintAndShade) تم إدخاله
-
-#### Linear Trendline Formula for DrawingML Rendering <sup>22-12</sup>
-
-وقد تم تنفيذ صيغة خطية للاتجاهات الاصطناعية لرسم الخرائط المتعلقة بالألغام.
-
-#### تشكيلات فولباك Google Noto Fonts <sup>22-12</sup>
-
-التراجع النابع المحدد مسبقاً Google Noto تم تحديث اللوحات
-
-### وثائق الشحن والإنقاذ
-
-#### Cache Header or Footer Shapes to Reduce PDF size <sup>22.9</sup>
-
-تم تنفيذ القدرة على تحديد شكل الرأس/القدم لتقليص حجم الناتج من ملف PDF بإضافة وظيفة جديدة [CacheHeaderFooterShapes](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) ملكية
-
-#### الكشف عن الأرقام الآلية عند وضع وثيقة <sup>22.9</sup>
-
-القدرة على تحديد [AutoNumberingDetection](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/#getAutoNumberingDetection) تم تنفيذ الممتلكات عند تحميل النصوص من خلال تمديد [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) الصف
-
-#### التحديد الخاص طراز Margin <sup>22-12</sup>
-
-القدرة على تحديد مكان معين [Margin](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getMargins) وقد نُفذ النوع الخاص بالقسم المعني.
-
-### البحث والمقارنة <sup>22-10</sup>
-
-القدرة على تجاهل [StructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttag/) عند العثور على الخيارات والاستعاضة عنها قد نُفذ بإضافة خيارات جديدة [IgnoreStructuredDocumentTags](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreStructuredDocumentTags--) الممتلكات إلى [FindReplaceOptions](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/) الصف
-
-### أخرى
-
-- أضيفت سمة جديدة لتحصل على (فيلد إيك) كمكتب للمهندسين. <sup>22.9</sup>
-- وضع بطاقات وثيقة منظمة Group نوع على مستوى الراو مسموح به <sup>22.9</sup>
-- تُعامَل الآن الأجسام والضوابط الشاملة على أنها صور مميتة عند تحويل وثيقة إلى HTML. <sup>22-10</sup>
-- أضيفت سمة جديدة للتحقق من أن قائمة معينة قد أنشئت من نفس النموذج الذي أضيفت إليه القائمة المقارنة عن طريق إدخال قائمة جديدة [HasSameTemplate](https://reference.aspose.com/words/java/com.aspose.words/list/#hasSameTemplate-com.aspose.words.List-) طريقة إلى [List](https://reference.aspose.com/words/java/com.aspose.words/list/) الصف <sup>22-10</sup>
--:: القدرة على وضع بطاقات وثيقة منظمة جديدة [Citation](https://reference.aspose.com/words/java/com.aspose.words/sdttype/) أُضيف نوع. <sup>22-11</sup>
-- تم توفير القدرة على تتبع التقدم المحرز في الميدان. <sup>22-11</sup>
--جديد **EmbedAttachments** وقد استُحدثت ممتلكات تسمح للمستعملين بضم ملحقات من مصادر من وثيقة المصدر إلى الناتج PDF. <sup>22-11</sup>
-
-{{% alert color="primary" %}}
-
-تعلم المزيد [Aspose.Words for Java 22-9](/words/java/aspose-words-for-java-22-9-release-notes/).
-
-تعلم المزيد [Aspose.Words for Java المعسكرات](/words/java/aspose-words-for-java-22-10-release-notes/).
-
-تعلم المزيد [Aspose.Words for Java الممثل الدائم](/words/java/aspose-words-for-java-22-11-release-notes/).
-
-تعلم المزيد [Aspose.Words for Java 22-12](/words/java/aspose-words-for-java-22-12-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words for Java 22.5, 22.6, 22.7, 22.8
-
-Aspose.Words 22-5 يقدم الدعم لأشكال التحميل الجديدة وحجم الصفحات المطبوعة الجديدة، ويحسن أيضا بعض الخيارات المتاحة.
-
-Aspose.Words 22-6 توسيع نطاق إمكانيات تحويل قوات الدفاع الشعبي إلى أشكال أخرى، فضلاً عن تحسين العمل مع شركة DrawingML وأثر ملء النصوص الصلبة.
-
-Aspose.Words 22-7 ويعزز إمكانيات العمل مع سمات الصنع، ويضيف أيضاً سمات جديدة للعمل مع استيراد وتصدير HTML إلى PDF.
-
-Aspose.Words 22-8 يستحدث شكلاً جديداً للصادرات ويحسِّن مختلف الخوارزميات الصنعية.
-
-The API ويجري تعزيزه من أجل تحقيق تنمية أكثر مرونة وملاءمة.
-
-### النماذج المدعومة
-
-* تم تقديم الدعم لتحميل الوثائق الخاصة بالبروتوكول الاختياري لاتفاقية حظر أو تقييد استعمال أسلحة تقليدية معينة يمكن اعتبارها مفرطة الضرر أو عشوائية الأثر بإضافة قيم جديدة إلى تلك الوثائق [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) العد ابتداء من النسخة 22-5، يمكن تحميل وثائق EPUB و XML إلى Aspose.Words نموذج الوثائق وتحويلها إلى أي [الأشكال المدعومة](https://reference.aspose.com/words/java/com.aspose.words/saveformat/). <sup>22.5</sup>
-* ابتداء من النص ٢٢-٨، يمكن توفير وثيقة في شكل AZW3 - Amazon شكل ملفات الكتاب الإلكتروني الخاص بـ(كيندل) هو اسم آخر للشكل الآن لا يمكنك فقط تحميل وثائق AZW3، ولكن أيضا تصدير ملفاتك إلى AZW3 الشكل، وهو أساسا تجميع EPUB. <sup>22-8</sup>
-
-### التوجيه والطباعة
-
-#### الحجم الجديد للطباعة <sup>22.5</sup>
-
-أضيف دعم لحجم الصفحة المطبوعة " Envelope No. 10 " بإدخال قيمة جديدة على الصفحة [PaperSize](https://reference.aspose.com/words/java/com.aspose.words/papersize/) العد
-
-#### Rendering MathML Formulas <sup>22.5</sup>
-
-وقد تم تحسين إصدار صندوق حدودي حول صيغ الرياضيات والكشف الخطي عند إصدار خصائص هذه الصيغ.
-
-#### DML تحسين الرسوم <sup>22-6</sup>
-
-الرسم البياني لدليل الإدارة العامة API وقد تم توسيع نطاقها لدعم التدرج والنسيج وملء النمط.
-
-#### Glyph الخطوط العريضة <sup>22.7</sup>
-
-Aspose.Words الخاصة glyph نُفذت مخططات لأجهزة " أوف تيب ".
-
-سابقاً glyph وأجريت عمليات فرز فونتات " أوف تيب " عن طريق " GDI+ ". لذا الآن يعمل في الحالات التي لا يكون فيها GDI+ متاحاً Java, .NET Standard منابر Linux OS, etc. Glyph والمطلوب هو فرز المواصفات في حالات محددة مثل " WordArt "، وآثار النصوص، وبعض خصائص الرياضيات المكتبية، وغيرها.
-
-#### وضع نظام شمب شادو <sup>22.7</sup>
-
-The ability to set the shadow formatting of the shape object has been provided by add a new [ShadowFormat](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getShadowFormat) ملكية
-
-#### دعم المباعدة بين الخلايا في الجداول <sup>22-8</sup>
-
-ويجري الآن تحسين محرك التصميم بشكل كبير: تم تنفيذ آلية معقدة جدا للمباعدة بين الخلايا في الجداول.
-
-#### Substitution for Symbols <sup>22-8</sup>
-
-وتم تحسين استبدال الرموز.
-
-#### Chart Axis Label Rotation Algorithm <sup>22-8</sup>
-
-وقد تم تحسين خوارزمية التناوب لعلامات المحور.
-
-### وثائق الشحن والإنقاذ
-
-#### Load and Convert PDF to Fixedpage Format without Layout Model <sup>22-6</sup>
-
-وقد نُفذت القدرة على تحميل وتحويل وثائق قوات الدفاع الشعبي إلى صيغ ثابتة للصفحات تتسم بقدر كبير من التميز والأداء.
-
-#### New HTML Import Mode <sup>22.7</sup>
-
-استُحدثت طريقة جديدة لاستيراد حامض السلفونيك البيرفلوروكتاني للعناصر على مستوى الكتل بإضافة قيمة جديدة إلى [HtmlInsertOptions](https://reference.aspose.com/words/java/com.aspose.words/htmlinsertoptions/) العد
-
-#### Convert to PDF/UA-1 CSSompliant with WCAG 2.0 <sup>22.7</sup>
-
-وأضيف دعم لتحويل وثيقة إلى استمارة PDF/UA-1، ممتثلة للمجموعة 2.0.
-
-لذا، إذا كان لدى الزبون وثيقة ورود يسهل الوصول إليها ويحولها إلى PDF/UA-1 عبر Aspose.Words وبالإشارة إلى تفاصيل التحويل، سيكون الناتج متوافقاً مع الهدف 2 من الأهداف الإنمائية للألفية.
-
-WCAG أو Web Content Accessibility والمبادئ التوجيهية هي مجموعة من المبادئ التوجيهية التي وضعتها لجنة التجارة العالمية بالتعاون مع الأفراد والمنظمات في جميع أنحاء العالم. الآن Aspose.Words ويمكنكم تحويل وثيقتكم إلى شكل الناتج PDF/UA-1، وهو مناسب لبناء وثائق مجلس إدارة الدفاع الشعبي الممتثلة 2.0.
-
-وتجدر الإشارة إلى أن لدى الفريق العامل المعني بالتنوع البيولوجي 2.0 احتياجات إضافية غير محددة في مواصفات PDF/UA-1:
-
-- متطلبات التناقض
-- متطلبات وضع علامات على المحتوى المتعدد الوسائط
-
-ولكن كلا الشرطين ليسا وثيقي الصلة بقضيتنا المتمثلة في التحول من الورد إلى PDF.
-
-### أخرى
-
-* باستثناء وراثة النص الصلب يملأ الأثر الذي أدى إلى تنفيذ سلوك ميميكس MS Word. <sup>22-6</sup>
-* دعم `DATABASE` أضيفت الحقول باستخدام هذا النوع من الحقل، يمكنك، على سبيل المثال، أن تظهر نتائج استفسار قاعدة البيانات في Microsoft Word طاولة <sup>22.7</sup>
-
-{{% alert color="primary" %}}
-
-تعلم المزيد [Aspose.Words for Java 22-5](/words/java/aspose-words-for-java-22-5-release-notes/).
-
-تعلم المزيد [Aspose.Words for Java 22-6 مرات](/words/java/aspose-words-for-java-22-6-release-notes/).
-
-تعلم المزيد [Aspose.Words for Java 22-7](/words/java/aspose-words-for-java-22-7-release-notes/).
-
-تعلم المزيد [Aspose.Words for Java المعسكرات](/words/java/aspose-words-for-java-22-8-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words for Java 22-1 و22-2 و22-3 و22-4
-
-Aspose.Words 22-1 تحسين الخيارات، وكذلك تحميل الوثائق وحفظها.
-
-Aspose.Words 22-2 استحداث شكل جديد من أشكال التحميل وخيارات جديدة لتصدير الوثائق. ويتضمن أيضا تحديثا رئيسيا للجداول وبعض التغييرات في العمل مع الحقول.
-
-Aspose.Words 22-3 توسيع إمكانيات العمل مع صيغتي PDF و TXT وتحسين عمل بعض الخوارزميات والمحركات القائمة.
-
-Aspose.Words 22-4 تعزيز قدرات قوات الدفاع الشعبي - الآن يمكنك توفير ملف في شكل PDF/A-4 والحصول على عدد من التحسينات الأخرى في ناتج قوات الدفاع الشعبي. في نفس الوقت Aspose.Words 22-4 توفير قدرات إضافية للعمل مع مخططات إدارة الشؤون الإدارية، وقراءة البيانات الفوقية الخاصة بفيلق الفوتوشوب، واستيراد عناصر على مستوى المبنى HTML.
-
-The API ويجري تعزيزه من أجل تحقيق تنمية أكثر مرونة وملاءمة.
-
-### النماذج المدعومة
-
-وقد أُضيفت وثيقة في شكل AZW3 (KF8 اسم آخر للشكل). الآن يمكنك تحميل وثيقة AZW3 وتحويلها إلى أي أشكال أخرى مدعومة.
-
-### Rendering
-
-#### Rendering to PDF with PDF/UA-1 Compliance
-
-نُفِّذت عملية الانتقال إلى قوات الدفاع الشعبي مع الامتثال من جانب قوات الدفاع الشعبي/الوحدة 1 بإضافة قيم جديدة إلى [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) العد - **PDF_UA_1**. This option assumes compliance with special requirements for document accessibility.
-
-#### Rendering MathML Formulas
-
-وقد تحسنت عملية تقديم المشغلين في صيغ الرياضيات.
-
-#### DML تحسين الرسوم
-
-وأُدخلت التحسينات التالية على مخططات إدارة الشؤون الإدارية:
-
-- تم تحسين محور رفع الخوارزمية ليصبح كما هو الحال في MS Word
-- لقد تم توفير القدرة على التلاعب بسجلات أسطورة رسم الخرائط API أكثر شمولا وأكثر
-- The ability to specify the name of an xls/x file the DrawingML chart is linked to has been implemented
-
-#### Rendering to PDF with PDF/A-4 Compliance
-
-أُضيفت عملية الانتقال إلى صندوق PDF مع امتثال PDF/A-4 بإضافة قيم جديدة إلى [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) العد - PDF_A_4. This option assumes revised conformance levels: regular PDF/A-4 conformance is equivalent to conformance level U of previous versions, and the level A conformance is removed.
-
-#### قراءــة قــرار فوتوشوب بشأن البيانات الوصفية في فريق الخبراء المشترك
-
-وقد نُفذ قراءــة مــادة فوتوشوب في صور فريق الرصد المشترك من أجل تحديد مسألة مثيرة للاهتمام مع التوسع غير الصحيح للصور عند إصدارها.
-
-### وثائق الشحن والإنقاذ
-
-#### Controlling Style Behavior عندما يُحب وثيقة
-
-خيار جديد [ForceCopyStyles](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getForceCopyStyles) أُدخل لمراقبة سلوك أساليب متضاربة عند استيراد الوثائق.
-
-#### الوثائق
-
-أضيفت القدرة على الحصول على إخطارات بشأن التقدم المحرز في توفير الوثائق من خلال [ProgressCallback](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getProgressCallback) الممتلكات في 22-1.
-
-وفي 22-2، تم توسيع نطاق الإخطارات المتعلقة بالتقدم المحرز فيما يتعلق بأشكال التدفق القائمة على نظام HTML و XAML: HTML, MHTML, Epub, XamlFlow, and XamlFlowPack.
-
-وفي 22-3، تم توسيع نطاق الإخطارات المتعلقة بالوفاء بالتقدم في شكل TXT.
-
-#### Convert Shapes to SVG عند التصدير
-
-The ability to convert shapes to SVG images upon exporting to HTML, MHTML, or EPUB has been provided by add the [ExportShapesAsSvg](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getExportShapesAsSvg) ملكية
-
-#### Export of List Numbering to PDF Logical Structure
-
-وتم تنفيذ عملية ترقيم الصادرات إلى الهيكل المنطقي لقوات الدفاع الشعبي.
-
-#### توفير 2.0 من قوات الدفاع الشعبي وتحسين ناتجها
-
-:: القدرة على توفير وثيقة في شكل ثنائي PDF 2.0 بإضافة قيمة جديدة إلى [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) واستُحدثت عدّة تحسينات أخرى مطلوبة لنواتج إدارة الدعم الميداني.
-
-#### New HTML Import Mode
-
-نُفذت طريقة جديدة لاستيراد العناصر ذات المستوى الحرفي من نظام HTML إلى الحد الأدنى Microsoft Word سلوك
-
-### أخرى
-
-* ♪ وقد أضيفت قدرة على الحصول على بيانات ميدانية حسب الطلب ترتبط بالميدان.
-* ♪ آخر نسخة Aspose.Words وشمل أيضاً تحديثاً رئيسياً يتناول الجداول التي تتضمن بيانات غير صحيحة أو ناقصة عن استخدام العمود في وثيقة المصدر.
-* ♪ الجدول الذي يقارن الخوارزمية يعتمد على التحليل العميق Microsoft Word وتم تحسين آلية المقارنة.
-* ♪ وقد قُدِّمت التعليقات على محرك الإبلاغ في الشبكة.
-
-{{% alert color="primary" %}}
-
-تعلم المزيد [Aspose.Words for Java 22-1](https://releases.aspose.com/words/java/release-notes/2022/aspose-words-for-java-22-1-release-notes/).
-
-تعلم المزيد [Aspose.Words for Java 22-2 النشرات](https://releases.aspose.com/words/java/release-notes/2022/aspose-words-for-java-22-2-release-notes/).
-
-تعلم المزيد [Aspose.Words for Java 22-3](https://releases.aspose.com/words/java/release-notes/2022/aspose-words-for-java-22-3-release-notes/).
-
-تعلم المزيد [Aspose.Words for Java 22-4](https://releases.aspose.com/words/java/release-notes/2022/aspose-words-for-java-22-4-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words for Java 21-9, 21.10, 21.11, 21.12
-
-Aspose.Words 21-9 توسيع نطاق الرقابة على شكل القائمة.
-
-Aspose.Words 21-10 تعزيز تقديم الخيارات، وتحسين إيجاد الخيارات واستبدالها، والتوسع Mail Merge (و) هيكل الوثيقة (تاغ)
-
-Aspose.Words 21-11 يوسع نطاق عمليات التحميل ويوفّر القدرات الوظيفية، ويحسّن من إيجاد الخيار ويحل محله، ويعمل مع إدارة الدعم الميداني.
-
-Aspose.Words 21-12 يستحدث خيارات إضافية للعمل مع النصوص والعناصر اللاتينية لتحسين المظهر والأداء، ويوسع من القدرة على العمل في مجال مراقبة المحتوى والحواشي
-
-The API ويجري تعزيزه من أجل تحقيق تنمية أكثر مرونة وملاءمة.
-
-### تحسين الأداء
-
-وقد نُفذ وضع مخبأ بحثي منقذ من قبل لتسريع عملية الاستهلال في المخبأ عند إصداره. الآن حلولك ستنجح بشكل أسرع
-
-### Rendering
-
-#### العمل بملء التدرج وتوقف التدرج
-
-وقد أضيفت أساليب وممتلكات عامة جديدة للعمل مع المبردات وتوقفات التدرج لإرضاء أكثر الأفكار إشراقا عند وضع وثائقك.
-
-#### Attachment Pane in Output PDF Documents
-
-خيار جديد [UseAttachments](https://reference.aspose.com/words/java/com.aspose.words/pdfpagemode/) وقد نُفِّذت لإبراز ملف الملحقات في وثائق إدارة الدعم الميداني.
-
-#### السماح للنص اللاتيني بالاغتصاب في وسط كلمة
-
-تم تقديم الدعم لسمّية "اللاتينية الشاملة للالتفاف في منتصف كلمة" لجعل دعمنا اللاتيني أفضل حتى عند إصداره.
-
-### البحث والمقارنة
-
-* خيار جديد [IgnoreFootnotes](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreFootnotes) وقد أضيفت حاشية لتجاهل الحواشي خلال عملية البحث والاستعاضة عنها.
-
-* خيار جديد [IgnoreFieldCodes](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreFieldCodes) ولتجاهل الرموز الميدانية أثناء العثور على العمليات والاستعاضة عنها بها أضيفت.
-
-### التحويل
-
-طريقة بسيطة لانقاذ الصور كسلسلة القاعدة 64 Markdown تم توفير الشكل من خلال [ExportImagesAsBase64](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getExportImagesAsBase64) ملكية
-
-### Mail Merge and Reporting
-
-القدرة على الحصول على [ParentRegion](https://reference.aspose.com/words/java/com.aspose.words/mailmergeregioninfo/#getParentRegion) من خلال [MailMergeRegionInfo](https://reference.aspose.com/words/java/com.aspose.words/mailmergeregioninfo/), الذي جعل محركنا البريدي أكثر توحدا، قد أضيف.
-
-### أخرى
-
-- القدرة على الحصول على [CustomNumberStyleFormat](https://reference.aspose.com/words/java/com.aspose.words/listlevel/#getCustomNumberStyleFormat) ممتلكات [ListLevel](https://reference.aspose.com/words/java/com.aspose.words/listlevel/) أضيفت الأشياء
-- إمكانية الحصول على تمثيل الخيط [ListLevel](https://reference.aspose.com/words/java/com.aspose.words/listlevel/) غرض لمؤشر محدد باستخدام [GetEffectiveValue](https://reference.aspose.com/words/java/com.aspose.words/listlevel/#getEffectiveValue-int-int-java.lang.String) أضيفت طريقة
-- وقد استُحدثت قدرة غير ملائمة على تغيير مظهر بطاقات الوثائق المنظمة، التي تسمح في الواقع بضم سمات محددة للزبائن وسلوكها إلى وثيقة.
--صف جديد [ChmLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/chmloadoptions/) أُضيفت للسيطرة على تحميل الميثان
-- The ability to get OOXML of a content control and save it to string has been introduced. لفعل هذا **WordOpenXML** أضيفت الممتلكات إلى [StructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttag/) و [StructuredDocumentTagRangeStart](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttagrangestart/) الصفوف
-- أضيف الاعتراف بالحواشي غير القياسية في وثائق PDF بشأن الاستيراد.
-
-{{% alert color="primary" %}}
-
-تعلم المزيد [Aspose.Words for Java المعسكرات](/words/java/aspose-words-for-java-21-9-release-notes/).
-
-تعلم المزيد [Aspose.Words for Java المعسكرات](/words/java/aspose-words-for-java-21-10-release-notes/).
-
-تعلم المزيد [Aspose.Words for Java المعسكرات](/words/java/aspose-words-for-java-21-11-release-notes/).
-
-تعلم المزيد [Aspose.Words for Java المعسكرات](/words/java/aspose-words-for-java-21-12-release-notes/).
 
 {{% /alert %}}
 
