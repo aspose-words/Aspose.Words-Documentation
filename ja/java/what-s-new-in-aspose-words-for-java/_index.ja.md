@@ -11,6 +11,40 @@ url: /ja/java/what-s-new-in-aspose-words-for-java/
 
 このページでは、最も興味深い新しいものについて説明します Aspose.Words 最近のリリースで導入された機能。
 
+## Aspose.Words for Java 24.9
+
+Aspose.Words 24.9 では、DocumentBuilder 経由のグループ シェイプの挿入と StructuredDocumentTag の挿入が導入され、目盛り付きの放射状グラフのレンダリングが強化され、XAdES-EPES サポートによるデジタル署名が改善され、Markdown の下線認識が追加され、脚注/文末脚注のセパレーターへのアクセスが提供されます。
+
+### レンダリングと印刷
+
+#### 放射状グラフの目盛り
+
+放射状グラフの目盛りのレンダリングが実装されました。
+
+### ドキュメントの変換、読み込み、および保存
+
+#### Markdown ファイルの読み込み時の下線書式設定
+
+Markdown ドキュメントの読み込み時に下線書式設定を認識するオプションが、新しいパブリック プロパティ [ImportUnderlineFormatting](https://reference.aspose.com/words/java/com.aspose.words/markdownloadoptions/#getImportUnderlineFormatting) の追加によって組み込まれました。
+
+### デジタル署名
+
+#### XAdES-EPES でドキュメントに署名
+
+新しいパブリック プロパティ [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/signoptions/#getXmlDsigLevel) と新しいパブリック列挙 [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/xmldsiglevel/) を追加することで、XAdES-EPES レベルの XML-DSig 署名でドキュメントに署名する機能が導入されました。
+
+### その他
+
+* 図形をグループ化するための新しいパブリック メソッド [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-com.aspose.words.Shape...) が追加されました。
+* **StructuredDocumentTags** をドキュメントに挿入するための新しいパブリック メソッド [InsertStructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertStructuredDocumentTag-int) が追加されました。
+* いくつかのパブリック クラスとプロパティを追加することで、脚注/文末脚注セパレーターへのパブリック アクセスが提供されています。
+
+{{% alert color="primary" %}}
+
+[Aspose.Words for Java 24.9 リリース ノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/) の詳細をご覧ください。
+
+{{% /alert %}}
+
 ## Aspose.Words for Java 24.5、24.6、24.7、24.8
 
 Aspose.Words 24.5 では、アセンブリのオプションが拡張され、レンダリング機能が向上し、その他のオプションも拡張されています。
@@ -429,80 +463,6 @@ MOBIおよびAZW3フォーマットの進捗通知を保存しました。
 詳しくはこちら [Aspose.Words お問い合わせ Java 23.3リリースノート](/words/java/aspose-words-for-java-23-3-release-notes/)お問い合わせ
 
 詳しくはこちら [Aspose.Words お問い合わせ Java 23.4 リリースノート](/words/java/aspose-words-for-java-23-4-release-notes/)お問い合わせ
-
-{{% /alert %}}
-
-## Aspose.Words お問い合わせ Java 22.9、22.10、22.11、22.12
-
-Aspose.Words 22.9は、文書の読み込みと保存のオプションを拡大し、他のオプションとの相互作用を改善しました。
-
-Aspose.Words 22.10 は、オプションの検索と置換を改善し、OLE オブジェクトを強化し、リストの機能を拡張します。
-
-Aspose.Words 22.11 は、フィールド、印刷、OLE、構造化されたドキュメントタグの、より便利な作業のための新しいオプションで機能を拡大します。
-
-Aspose.Words 22.12 はレンダリング機能を高め、文書の読み込み/保存時にマージンを扱うためのオプションを紹介します。
-
-### パフォーマンス改善 <sup>2018年12月22日</sup>
-
-仕様の遵守を維持するためにPDFにレンダリングするとき、グラフィックの状態のネスティングの深さを大幅に削減する最適化が導入されました。
-
-### レンダリングおよび印刷
-
-#### 印刷 非着色される カラープリンターのページ <sup>22.11</sup>
-
-新規追加することで、カスタムカラー/グレースケールプリントモードを実装 **GrayscaleAuto** 値へ [ColorPrintMode](https://reference.aspose.com/words/java/com.aspose.words/colorprintmode/) パンフレット
-
-新しいプリントプロパティにより、デバイスがカラー印刷をサポートしている場合は、非カラーページが印刷される方法を制御することができます。 この機能は、グレースケール印刷モードのみを使用して、非カラーページを自動的に印刷したい場合に便利です。
-
-#### 新しいボーダーレンダリングのプロパティ <sup>2018年12月22日</sup>
-
-新しい公共のプロパティ [ThemeColor](https://reference.aspose.com/words/java/com.aspose.words/border/#getThemeColor) そして、 [TintAndShade](https://reference.aspose.com/words/java/com.aspose.words/border/#getTintAndShade) 導入しました。
-
-#### 描画MLレンダリングのためのリニアトレンドラインフォーミュラ <sup>2018年12月22日</sup>
-
-描画ML チャートの線形トレンドライン式レンダリングが実装されました。
-
-#### フォントフォールバック設定 Google Noto フォント <sup>2018年12月22日</sup>
-
-定義済みのフォントフォールバックの設定 Google Noto フォントを更新しました。
-
-### 文書の読み込みと保存
-
-#### キャッシュヘッダまたはフッター形状でPDFサイズを削減 <sup>22.9 日元</sup>
-
-出力PDFファイルのサイズを縮小するヘッダー/フッター形状をキャッシュする機能が新たに追加することで実装されました [CacheHeaderFooterShapes](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) プロパティ.
-
-#### ドキュメントをロードするときの自動番号検出 <sup>22.9 日元</sup>
-
-特定する能力 [AutoNumberingDetection](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/#getAutoNumberingDetection) テキストの読み込み時のプロパティは、拡張機能で実装されています。 [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) クラス。
-
-#### 部分的な指定 マージンタイプ <sup>2018年12月22日</sup>
-
-特定の指定する能力 [Margin](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getMargins) 指定したセクションの型が実装されています。
-
-### 検索と比較 <sup>22.10</sup>
-
-無視する能力 [StructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttag/) 新規追加でオプションの検索と置換を実装 [IgnoreStructuredDocumentTags](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreStructuredDocumentTags--) プロパティへ [FindReplaceOptions](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/) クラス。
-
-### その他
-
-- OfficeMath として FieldEQ を取得する新しい機能が追加されました。 <sup>22.9 日元</sup>
-- - - 構造化された文書タグの作成 Group Row レベルでの型は許可されています。 <sup>22.9 日元</sup>
-- OLEオブジェクトとコントロールは、ドキュメントをHTMLに変換したときにメタファイル画像として処理されます。 <sup>22.10</sup>
-- 新規導入により、比較リストと同じテンプレートから特定のリストが作成されたことを確認するための新機能 [HasSameTemplate](https://reference.aspose.com/words/java/com.aspose.words/list/#hasSameTemplate-com.aspose.words.List-) メソッドを [List](https://reference.aspose.com/words/java/com.aspose.words/list/) クラス。 <sup>22.10</sup>
-- - - 新しい構造化された文書タグを作成する機能 [Citation](https://reference.aspose.com/words/java/com.aspose.words/sdttype/) タイプを追加しました。 <sup>22.11</sup>
-- フィールドの更新の進捗状況を追跡する機能が提供されます。 <sup>22.11</sup>
-- 新しい **EmbedAttachments** ソース文書から出力PDF文書にOLE添付ファイルを埋め込むことができるプロパティが導入されました。 <sup>22.11</sup>
-
-{{% alert color="primary" %}}
-
-詳しくはこちら [Aspose.Words お問い合わせ Java 22.9 リリースノート](/words/java/aspose-words-for-java-22-9-release-notes/)お問い合わせ
-
-詳しくはこちら [Aspose.Words お問い合わせ Java 22.10 リリースノート](/words/java/aspose-words-for-java-22-10-release-notes/)お問い合わせ
-
-詳しくはこちら [Aspose.Words お問い合わせ Java 22.11 リリースノート](/words/java/aspose-words-for-java-22-11-release-notes/)お問い合わせ
-
-詳しくはこちら [Aspose.Words お問い合わせ Java 22.12 リリースノート](/words/java/aspose-words-for-java-22-12-release-notes/)お問い合わせ
 
 {{% /alert %}}
 

@@ -11,6 +11,40 @@ url: /zh/net/what-s-new-in-aspose-words-for-net/
 
 本页描述了最近版本中引入的最有趣的新 Aspose.Words 功能。
 
+## Aspose.Words for .NET 24.9
+
+Aspose.Words 24.9 通过 DocumentBuilder 引入了组形状插入和 StructuredDocumentTag 插入，通过刻度增强了径向图表渲染，通过 XAdES-EPES 支持改进了数字签名，添加了 Markdown 下划线识别，并提供了对脚注/尾注分隔符的访问。
+
+### 渲染和打印
+
+#### 径向图表上的刻度
+
+已实现径向图表上刻度的渲染。
+
+### 转换、加载和保存文档
+
+#### 加载 Markdown 文件时的下划线格式
+
+通过添加新的公共属性 [ImportUnderlineFormatting](https://reference.aspose.com/words/net/aspose.words.loading/markdownloadoptions/importunderlineformatting/)，已纳入了加载 Markdown 文档时识别下划线格式的选项。
+
+### 数字签名
+
+#### 使用 XAdES-EPES 签署文档
+
+通过添加新的公共属性 [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions/xmldsiglevel/) 和新的公共枚举 [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/xmldsiglevel/)，引入了使用 XAdES-EPES 级别 XML-DSig 签名签署文档的功能。
+
+### 其他
+
+* 已向组形状添加新的公共方法 [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/)。
+* 添加了新的公共方法 [InsertStructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertstructureddocumenttag/)，用于将 **StructuredDocumentTags** 插入文档。
+* 通过添加一些公共类和属性，提供了对脚注/尾注分隔符的公共访问。
+
+{{% alert color="primary" %}}
+
+了解有关 [Aspose.Words for .NET 24.9 发行说明](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-9-release-notes/) 的更多信息。
+
+{{% /alert %}}
+
 ## Aspose.Words for .NET 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 扩展了组件选项，改进了渲染功能，并扩展了一些其他选项。
@@ -433,80 +467,6 @@ Aspose.Words 23.4 改进了一些参数的计算以及表格和周围文本的�
 了解有关 [Aspose.Words for .NET 23.3 发行说明](/words/net/aspose-words-for-net-23-3-release-notes/) 的更多信息。
 
 了解有关 [Aspose.Words for .NET 23.4 发行说明](/words/net/aspose-words-for-net-23-4-release-notes/) 的更多信息。
-
-{{% /alert %}}
-
-## 适用于 .NET 22.9、22.10、22.11、22.12 的 Aspose.Words
-
-Aspose.Words 22.9 扩展了加载和保存文档的选项，并改进了与其他一些选项的交互。
-
-Aspose.Words 22.10 改进了查找和替换选项、增强了 OLE 对象并扩展了列表功能。
-
-Aspose.Words 22.11 通过新选项扩展了其功能，以便更方便地处理已经熟悉的对象：字段、打印、OLE 和结构化文档标签。
-
-Aspose.Words 22.12 增强了渲染功能，并引入了在加载/保存文档时处理边距的选项。
-
-### 性能改进<sup>22.12</sup>
-
-引入了一种优化，可以在渲染为 PDF 时显着减少图形状态嵌套的深度，以保持规范合规性。
-
-### 渲染和打印
-
-#### 在彩色打印机上打印非彩色页面<sup>22.11</sup>
-
-通过向 [ColorPrintMode](https://reference.aspose.com/words/zh/net/aspose.words.rendering/colorprintmode/) 枚举添加新的 **GrayscaleAuto** 值，实现了自定义彩色/灰度打印模式。
-
-如果设备支持彩色打印，新的打印属性允许用户控制非彩色页面的打印方式。如果用户想要仅使用灰度打印模式自动打印非彩色页面，则此功能非常有用。
-
-#### 新边框渲染属性<sup>22.12</sup>
-
-引入了新的公共属性 [ThemeColor](https://reference.aspose.com/words/zh/net/aspose.words/border/themecolor/) 和 [TintAndShade](https://reference.aspose.com/words/zh/net/aspose.words/border/tintandshade/)。
-
-#### DrawingML 渲染的线性趋势线公式<sup>22.12</sup>
-
-已实现 DrawingML 图表的线性趋势线公式渲染。
-
-#### Google Noto 字体的字体回退设置<sup>22.12</sup>
-
-Google Noto 字体的预定义字体后备设置已更新。
-
-### 加载和保存文档
-
-#### 缓存页眉或页脚形状以减小 PDF 大小<sup>22.9</sup>
-
-通过添加新的 **CacheHeaderFooterShapes** 属性，实现了缓存页眉/页脚形状以减小输出 PDF 文件大小的功能。
-
-#### 加载文档时自动编号检测<sup>22.9</sup>
-
-在文本加载时指定 [AutoNumberingDetection](https://reference.aspose.com/words/zh/net/aspose.words.loading/txtloadoptions/autonumberingdetection/) 属性的功能已通过 [TxtLoadOptions](https://reference.aspose.com/words/zh/net/aspose.words.loading/txtloadoptions/) 类的扩展实现。
-
-#### 指定特定的保证金类型<sup>22.12</sup>
-
-已经实现了为给定部分指定特定 [Margin](https://reference.aspose.com/words/zh/net/aspose.words/pagesetup/margins/) 类型的功能。
-
-### 搜索和比较<sup>22.10</sup>
-
-通过向 [FindReplaceOptions](https://reference.aspose.com/words/zh/net/aspose.words.replacing/findreplaceoptions/) 类添加新的 [IgnoreStructuredDocumentTags](https://reference.aspose.com/words/zh/net/aspose.words.replacing/findreplaceoptions/ignorestructureddocumenttags/) 属性，可以实现在查找和替换选项时忽略 [StructuredDocumentTag](https://reference.aspose.com/words/zh/net/aspose.words.markup/structureddocumenttag/) 的功能。
-
-### 其他
-
-* 添加了将 FieldEQ 作为 OfficeMath 的新功能。 <sup>22.9</sup>
-* 允许在行级别创建 Group 类型的结构化文档标签。 <sup>22.9</sup>
-* 将文档转换为 HTML 时，OLE 对象和控件现在被视为图元文件图像。 <sup>22.10</sup>
-* 通过在 [List](https://reference.aspose.com/words/zh/net/aspose.words.lists/list/) 类中引入新的 [HasSameTemplate](https://reference.aspose.com/words/zh/net/aspose.words.lists/list/hassametemplate/) 方法，添加了一项新功能，用于检查特定列表是否是从与比较列表相同的模板创建的。 <sup>22.10</sup>
-* 添加了创建 [Citation](https://reference.aspose.com/words/zh/net/aspose.words.markup/sdttype/) 类型的新结构化文档标签的功能。 <sup>22.11</sup>
-* 提供了跟踪字段更新进度的功能。 <sup>22.11</sup>
-* 引入了新的 **EmbedAttachments** 属性，允许用户将源文档中的 OLE 附件嵌入到输出 PDF 文档中。 <sup>22.11</sup>
-
-{{% alert color="primary" %}}
-
-了解有关 [Aspose.Words for .NET 22.9 发行说明](/words/net/aspose-words-for-net-22-9-release-notes/) 的更多信息。
-
-了解有关 [Aspose.Words for .NET 22.10 发行说明](/words/net/aspose-words-for-net-22-10-release-notes/) 的更多信息。
-
-了解有关 [Aspose.Words for .NET 22.11 发行说明](/words/net/aspose-words-for-net-22-11-release-notes/) 的更多信息。
-
-了解有关 [Aspose.Words for .NET 22.12 发行说明](/words/net/aspose-words-for-net-22-12-release-notes/) 的更多信息。
 
 {{% /alert %}}
 

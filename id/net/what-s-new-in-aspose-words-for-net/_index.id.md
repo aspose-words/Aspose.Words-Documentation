@@ -11,6 +11,40 @@ url: /id/net/what-s-new-in-aspose-words-for-net/
 
 Halaman ini menjelaskan fitur-fitur Aspose.Words baru yang paling menarik yang diperkenalkan dalam rilis terbaru.
 
+## Aspose.Words untuk .NET 24.9
+
+Aspose.Words 24.9 memperkenalkan penyisipan bentuk grup dan penyisipan StructuredDocumentTag melalui DocumentBuilder, menyempurnakan perenderan bagan radial dengan gradasi, menyempurnakan tanda tangan digital dengan dukungan XAdES-EPES, menambahkan pengenalan garis bawah Markdown, dan menyediakan akses ke pemisah catatan kaki/catatan akhir.
+
+### Perenderan dan Pencetakan
+
+#### Graduasi pada Bagan Radial
+
+Perenderan gradasi pada bagan radial telah diimplementasikan.
+
+### Mengonversi, Memuat, dan Menyimpan Dokumen
+
+#### Pemformatan Garis Bawah saat Memuat File Markdown
+
+Opsi untuk mengenali pemformatan garis bawah saat memuat dokumen Markdown telah disertakan dengan menambahkan properti publik baru [ImportUnderlineFormatting](https://reference.aspose.com/words/net/aspose.words.loading/markdownloadoptions/importunderlineformatting/).
+
+### Tanda Tangan Digital
+
+#### Menandatangani Dokumen dengan XAdES-EPES
+
+Kemampuan untuk menandatangani dokumen dengan tanda tangan XML-DSig level XAdES-EPES telah diperkenalkan dengan menambahkan properti publik baru [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions/xmldsiglevel/) dan enumerasi publik baru [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/xmldsiglevel/).
+
+### Lainnya
+
+* Metode publik baru [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/) telah ditambahkan ke bentuk grup.
+* Metode publik baru [InsertStructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertstructureddocumenttag/) telah ditambahkan untuk menyisipkan **StructuredDocumentTags** ke dalam dokumen.
+* Akses publik ke pemisah catatan kaki/catatan akhir telah disediakan dengan menambahkan beberapa kelas dan properti publik.
+
+{{% alert color="primary" %}}
+
+Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk .NET 24.9](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-9-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words untuk .NET 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 memperluas opsi untuk rakitan, meningkatkan kemampuan rendering, dan memperluas beberapa opsi lainnya.
@@ -433,80 +467,6 @@ Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk .NET 23.2](/word
 Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk .NET 23.3](/words/net/aspose-words-for-net-23-3-release-notes/).
 
 Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk .NET 23.4](/words/net/aspose-words-for-net-23-4-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words untuk .NET 22.9, 22.10, 22.11, 22.12
-
-Aspose.Words 22.9 memperluas opsi untuk memuat dan menyimpan dokumen serta meningkatkan interaksi dengan beberapa opsi lainnya.
-
-Aspose.Words 22.10 meningkatkan opsi pencarian dan penggantian, menyempurnakan objek OLE, dan memperluas fungsionalitas daftar.
-
-Aspose.Words 22.11 memperluas fungsinya dengan opsi baru untuk pekerjaan yang lebih nyaman dengan objek yang sudah dikenal: bidang, pencetakan, OLE, dan tag dokumen terstruktur.
-
-Aspose.Words 22.12 meningkatkan kemampuan rendering dan memperkenalkan opsi untuk bekerja dengan margin saat memuat/menyimpan dokumen.
-
-### Peningkatan Kinerja <sup>22.12</sup>
-
-Pengoptimalan yang secara signifikan mengurangi kedalaman sarang status grafis saat merender ke PDF untuk menjaga kepatuhan spesifikasi telah diperkenalkan.
-
-### Rendering dan Pencetakan
-
-#### Mencetak Halaman Tidak Berwarna pada Printer Berwarna <sup>22.11</sup>
-
-Mode cetak berwarna/skala abu-abu khusus telah diterapkan dengan menambahkan nilai **GrayscaleAuto** baru ke enumerasi [ColorPrintMode](https://reference.aspose.com/words/net/aspose.words.rendering/colorprintmode/).
-
-Properti cetak baru memungkinkan pengguna mengontrol cara mencetak halaman tidak berwarna jika perangkat mendukung pencetakan berwarna. Fitur ini dapat berguna jika pengguna ingin mencetak halaman tidak berwarna secara otomatis hanya dengan menggunakan mode pencetakan skala abu-abu.
-
-#### Properti Rendering Perbatasan Baru <sup>22.12</sup>
-
-Properti publik baru [ThemeColor](https://reference.aspose.com/words/net/aspose.words/border/themecolor/) dan [TintAndShade](https://reference.aspose.com/words/net/aspose.words/border/tintandshade/) telah diperkenalkan.
-
-#### Rumus Garis Tren Linier untuk Rendering DrawingML <sup>22.12</sup>
-
-Render rumus garis tren linier untuk grafik DrawingML telah diterapkan.
-
-#### Pengaturan Penggantian Font untuk Font Google Noto <sup>22.12</sup>
-
-Pengaturan penggantian font yang telah ditentukan sebelumnya untuk font Google Noto telah diperbarui.
-
-### Memuat dan Menyimpan Dokumen
-
-#### Bentuk Header atau Footer Cache untuk Memperkecil Ukuran PDF <sup>22.9</sup>
-
-Kemampuan untuk menyimpan bentuk header/footer dalam cache untuk mengurangi ukuran file PDF keluaran telah diterapkan dengan menambahkan properti **CacheHeaderFooterShapes** baru.
-
-#### Deteksi Penomoran Otomatis saat Memuat Dokumen <sup>22.9</sup>
-
-Kemampuan untuk menentukan properti [AutoNumberingDetection](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/autonumberingdetection/) saat memuat teks telah diterapkan melalui kelas [TxtLoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/) yang diperluas.
-
-#### Menentukan Tipe Margin Tertentu <sup>22.12</sup>
-
-Kemampuan untuk menentukan jenis [Margin](https://reference.aspose.com/words/net/aspose.words/pagesetup/margins/) tertentu untuk bagian tertentu telah diterapkan.
-
-### Cari dan Bandingkan <sup>22.10</sup>
-
-Kemampuan untuk mengabaikan [StructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words.markup/structureddocumenttag/) saat opsi temukan dan ganti telah diterapkan dengan menambahkan properti [IgnoreStructuredDocumentTags](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/ignorestructureddocumenttags/) baru ke kelas [FindReplaceOptions](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/).
-
-### Lainnya
-
-* Fitur baru untuk mendapatkan FieldEQ sebagai OfficeMath telah ditambahkan. <sup>22.9</sup>
-* Pembuatan tag dokumen terstruktur tipe Group pada tingkat Baris diperbolehkan. <sup>22.9</sup>
-* Objek dan kontrol OLE sekarang diperlakukan sebagai gambar metafile saat mengonversi dokumen ke HTML. <sup>22.10</sup>
-* Fitur baru untuk memeriksa apakah daftar tertentu dibuat dari templat yang sama dengan daftar yang dibandingkan telah ditambahkan dengan memperkenalkan metode [HasSameTemplate](https://reference.aspose.com/words/net/aspose.words.lists/list/hassametemplate/) baru ke dalam kelas [List](https://reference.aspose.com/words/net/aspose.words.lists/list/). <sup>22.10</sup>
-* Kemampuan untuk membuat tag dokumen terstruktur baru bertipe [Citation](https://reference.aspose.com/words/net/aspose.words.markup/sdttype/) telah ditambahkan. <sup>22.11</sup>
-* Kemampuan untuk melacak kemajuan pembaruan lapangan telah disediakan. <sup>22.11</sup>
-* Properti **EmbedAttachments** baru yang memungkinkan pengguna untuk menyematkan lampiran OLE dari dokumen sumber ke dalam dokumen PDF keluaran telah diperkenalkan. <sup>22.11</sup>
-
-{{% alert color="primary" %}}
-
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk .NET 22.9](/words/net/aspose-words-for-net-22-9-release-notes/).
-
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk .NET 22.10](/words/net/aspose-words-for-net-22-10-release-notes/).
-
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk .NET 22.11](/words/net/aspose-words-for-net-22-11-release-notes/).
-
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk .NET 22.12](/words/net/aspose-words-for-net-22-12-release-notes/).
 
 {{% /alert %}}
 

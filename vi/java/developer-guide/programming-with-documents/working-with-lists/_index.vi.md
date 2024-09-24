@@ -1,6 +1,6 @@
 ---
 title: Làm việc với các danh sách trong Java
-second_title: ` Aspose.Words cho Java `
+second_title: Aspose.Words cho Java
 articleTitle: Làm việc với danh sách
 linktitle: Làm việc với danh sách
 description: "Giới thiệu về tính năng định dạng số trong Aspose.Words cho Java."

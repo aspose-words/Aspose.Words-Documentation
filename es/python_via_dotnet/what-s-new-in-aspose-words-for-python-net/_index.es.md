@@ -11,6 +11,40 @@ url: /es/python-net/what-s-new-in-aspose-words-for-python-net/
 
 Esta página describe las nuevas funciones Aspose.Words más interesantes introducidas en versiones recientes.
 
+## Aspose.Words para Python a través de .NET 24.9
+
+Aspose.Words 24.9 introduce la inserción de formas de grupo y la inserción de StructuredDocumentTag a través de DocumentBuilder, mejora la representación de gráficos radiales con graduaciones, mejora las firmas digitales con soporte XAdES-EPES, agrega reconocimiento de subrayado de Markdown y brinda acceso a separadores de notas al pie/notas al final.
+
+### Representación e impresión
+
+#### Graduaciones en gráficos radiales
+
+Se ha implementado la representación de graduaciones en gráficos radiales.
+
+### Conversión, carga y guardado de documentos
+
+#### Formato de subrayado al cargar archivos Markdown
+
+Se ha incorporado la opción de reconocer el formato de subrayado al cargar documentos Markdown agregando una nueva propiedad pública [import_underline_formatting property](https://reference.aspose.com/words/python-net/aspose.words.loading/markdownloadoptions/import_underline_formatting/).
+
+### Firmas digitales
+
+#### Firmar documentos con XAdES-EPES
+
+Se ha introducido la capacidad de firmar documentos con firmas XML-DSig de nivel XAdES-EPES agregando una nueva propiedad pública [xml_dsig_level](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/signoptions/xml_dsig_level/) y una nueva enumeración pública [XmlDsigLevel](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/xmldsiglevel/).
+
+### Otros
+
+* Se ha agregado un nuevo método público [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/) para agrupar formas.
+* Se ha agregado un nuevo método público [insert_structured_document_tag](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_structured_document_tag/) para insertar **StructuredDocumentTags** en un documento.
+* Se ha proporcionado acceso público a los separadores de notas al pie y notas al final agregando algunas clases y propiedades públicas.
+
+{{% alert color="primary" %}}
+
+Obtenga más información sobre [Notas de la versión Aspose.Words para Python via .NET 24.9](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-9-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words para Python via .NET 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 amplía las opciones para ensamblajes, mejora las capacidades de renderizado y amplía algunas otras opciones.
@@ -422,73 +456,6 @@ Obtenga más información sobre [Notas de la versión Aspose.Words para Python v
 Obtenga más información sobre [Notas de la versión Aspose.Words para Python via .NET 23.3](/words/python-net/aspose-words-for-python-via-dotnet-23-3-release-notes/).
 
 Obtenga más información sobre [Notas de la versión Aspose.Words para Python via .NET 23.4](/words/python-net/aspose-words-for-python-via-dotnet-23-4-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words para Python via .NET 22.9, 22.10, 22.11, 22.12
-
-Aspose.Words 22.9 amplía las opciones para cargar y guardar documentos y mejora la interacción con algunas otras opciones.
-
-Aspose.Words 22.10 mejora las opciones de búsqueda y reemplazo, mejora los objetos OLE y amplía la funcionalidad de listas.
-
-Aspose.Words 22.11 amplía su funcionalidad con nuevas opciones para trabajar más cómodamente con objetos ya familiares: OLE y etiquetas de documentos estructurados.
-
-Aspose.Words 22.12 mejora las capacidades de renderizado e introduce opciones para trabajar con márgenes al cargar/guardar un documento.
-
-### Mejoras de rendimiento <sup>22.12</sup>
-
-Se ha introducido una optimización que reduce significativamente la profundidad del anidamiento del estado de los gráficos al renderizar en PDF para mantener el cumplimiento de las especificaciones.
-
-### Representación e impresión
-
-#### Nuevas propiedades de renderizado de bordes <sup>22.12</sup>
-
-Se han introducido nuevas propiedades públicas [theme_color](https://reference.aspose.com/words/python-net/aspose.words/border/theme_color/) y [tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words/border/tint_and_shade/).
-
-#### Fórmula de línea de tendencia lineal para renderizado DrawingML <sup>22.12</sup>
-
-Se ha implementado la representación de fórmulas de líneas de tendencia lineales para gráficos DrawingML.
-
-#### Configuración de reserva de fuentes para fuentes Google Noto <sup>22.12</sup>
-
-Se han actualizado las configuraciones de reserva de fuentes predefinidas para las fuentes Google Noto.
-
-### Cargar y guardar documentos
-
-#### Caché de formas de encabezado o pie de página para reducir el tamaño del PDF <sup>22.9</sup>
-
-La capacidad de almacenar en caché las formas del encabezado/pie de página para reducir el tamaño del archivo PDF de salida se implementó agregando una nueva propiedad **CacheHeaderFooterShapes**.
-
-#### Detección automática de numeración al cargar un documento <sup>22.9</sup>
-
-La capacidad de especificar la propiedad [auto_numbering_detection](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/auto_numbering_detection/) al cargar texto se ha implementado mediante una extensión de la clase [TxtLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/).
-
-#### Especificación de un tipo de margen particular <sup>22.12</sup>
-
-Se ha implementado la capacidad de especificar un tipo **Margin** particular para la sección determinada.
-
-### Buscar y comparar <sup>22.10</sup>
-
-La capacidad de ignorar [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) al buscar y reemplazar opciones se implementó agregando una nueva propiedad [ignore_structured_document_tags](https://reference.aspose.com/words/python-net/aspose.words.replacing/findreplaceoptions/ignore_structured_document_tags/) a la clase [FindReplaceOptions](https://reference.aspose.com/words/python-net/aspose.words.replacing/findreplaceoptions/).
-
-### Otro
-
-- Se ha agregado una nueva característica para obtener FieldEQ como OfficeMath. <sup>22.9</sup>
-- Se permitió la creación de etiquetas de documentos estructurados de tipo Grupo a nivel de Fila. <sup>22.9</sup>
-- Los controles y objetos OLE ahora se tratan como imágenes de metarchivo al convertir un documento a HTML. <sup>22.10</sup>
-- Se agregó una nueva característica para verificar que una lista particular se creó a partir de la misma plantilla que la lista comparada mediante la introducción de un nuevo método **HasSameTemplate** en la clase [List](https://reference.aspose.com/words/python-net/aspose.words.lists/list/). <sup>22.10</sup>
-- Se ha agregado la capacidad de crear nuevas etiquetas de documentos estructurados del tipo [Citation](https://reference.aspose.com/words/python-net/aspose.words.markup/sdttype/). <sup>22.11</sup>
-- Se ha introducido una nueva propiedad **EmbedAttachments** que permite a los usuarios incrustar archivos adjuntos OLE de un documento fuente en el documento PDF de salida. <sup>22.11</sup>
-
-{{% alert color="primary" %}}
-
-Obtenga más información sobre [Notas de la versión Aspose.Words para Python via .NET 22.9](/words/python-net/aspose-words-for-python-via-dotnet-22-9-release-notes/).
-
-Obtenga más información sobre [Notas de la versión Aspose.Words para Python via .NET 22.10](/words/python-net/aspose-words-for-python-via-dotnet-22-10-release-notes/).
-
-Obtenga más información sobre [Notas de la versión Aspose.Words para Python via .NET 22.11](/words/python-net/aspose-words-for-python-via-dotnet-22-11-release-notes/).
-
-Obtenga más información sobre [Notas de la versión Aspose.Words para Python via .NET 22.12](/words/python-net/aspose-words-for-python-via-dotnet-22-12-release-notes/).
 
 {{% /alert %}}
 

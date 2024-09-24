@@ -11,6 +11,8 @@ url: /cpp/configure-aspose-words-for-cpp-in-cmake-project/
 
 Aspose.Words for C++ API works with CMake for any GNU/Linux operating system. It can be [downloaded from the official website](https://cmake.org/download/).
 
+## Given CMake Project
+
 Let's suppose you have the following CMake project:
 
 *CMakeLists.txt:*
@@ -27,6 +29,8 @@ int main()
     return 0;
 }
 {{< /highlight >}}
+
+## Configure Manually
 
 Follow the instructions below to manually configure Aspose.Words for C++ in your CMake:
 

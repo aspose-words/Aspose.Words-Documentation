@@ -11,6 +11,40 @@ url: /cs/net/what-s-new-in-aspose-words-for-net/
 
 Tato stránka popisuje nejzajímavější nový Aspose.Words funkce zavedené v nedávných vydáních.
 
+## Aspose.Words pro .NET 24.9
+
+Aspose.Words 24.9 zavádí vkládání tvarů skupiny a vkládání StructuredDocumentTag prostřednictvím DocumentBuilderu, vylepšuje vykreslování radiálních grafů pomocí gradací, zlepšuje digitální podpisy s podporou XAdES-EPES, přidává rozpoznávání podtržení Markdown a poskytuje přístup k oddělovačům poznámek pod čarou/vysvětlivky.
+
+### Vykreslování a tisk
+
+#### Promoce na radiálních grafech
+
+Bylo implementováno vykreslování stupnice na radiálních mapách.
+
+### Konverze, načítání a ukládání dokumentů
+
+#### Při načítání souborů Markdown podtrhněte formátování
+
+Možnost rozpoznat podtržené formátování při načítání dokumentů Markdown byla začleněna přidáním nové veřejné vlastnosti [ImportUnderlineFormatting](https://reference.aspose.com/words/net/aspose.words.loading/markdownloadoptions/importunderlineformatting/).
+
+### Digitální podpisy
+
+#### Podepisujte dokumenty pomocí XAdES-EPES
+
+Možnost podepisovat dokumenty pomocí podpisů XML-DSig na úrovni XAdES-EPES byla zavedena přidáním nové veřejné vlastnosti [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions/xmldsiglevel/) a nový veřejný výčet [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/xmldsiglevel/).
+
+### Jiné
+
+* Do skupinových tvarů byla přidána nová veřejná metoda [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/).
+* Byla přidána nová veřejná metoda [InsertStructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertstructureddocumenttag/) pro vkládání **StructuredDocumentTags** do dokumentu.
+* Veřejný přístup k oddělovačům poznámek pod čarou/vysvětlivky byl poskytnut přidáním několika veřejných tříd a vlastností.
+
+{{% alert color="primary" %}}
+
+Další informace o [Aspose.Words for .NET 24.9 Release Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-9-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words pro .NET 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 rozšiřuje možnosti pro sestavy, zlepšuje možnosti vykreslování a rozšiřuje některé další možnosti.
@@ -433,80 +467,6 @@ Více informací o [Aspose.Words místo .NET 23.2 Poznámky k vydání](/words/n
 Více informací o [Aspose.Words místo .NET 23.3 Poznámky k vydání](/words/net/aspose-words-for-net-23-3-release-notes/).
 
 Více informací o [Aspose.Words místo .NET 23.4 Poznámky k vydání](/words/net/aspose-words-for-net-23-4-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words místo .NET 22.9, 22.10, 22.11, 22.12
-
-Aspose.Words 22.9 rozšiřuje možnosti načítání a ukládání dokumentů a zlepšení interakce s některými dalšími možnostmi.
-
-Aspose.Words 22.10 zlepšuje hledání a výměnu možností, zvyšuje OLE objekty a rozšiřuje funkci seznamu.
-
-Aspose.Words 22.11 rozšiřuje svou funkčnost o nové možnosti pro pohodlnější práci s již známými objekty: poli, tisk, OLE a strukturované dokumentové značky.
-
-Aspose.Words 22.12 zvyšuje možnosti vykreslování a zavádí možnosti práce s okraji při načítání / ukládání dokumentu.
-
-### Zlepšení výkonnosti <sup>22.12</sup>
-
-Byla zavedena optimalizace, která výrazně snižuje hloubku grafického stavu hnízdění při zobrazování do PDF, aby byla zachována shoda specifikace.
-
-### Renderování a tisk
-
-#### Tisk nebarvený Stránky na barevné tiskárně <sup>22.11</sup>
-
-Vlastní barevný/šedý tisk režim byl implementován přidáním nového **GrayscaleAuto** hodnota pro [ColorPrintMode](https://reference.aspose.com/words/net/aspose.words.rendering/colorprintmode/) výčtu.
-
-Nová tisková vlastnost umožňuje uživatelům kontrolovat, jak jsou nebarevné stránky vytištěny, pokud zařízení podporuje barevný tisk. Tato funkce může být užitečná, pokud uživatelé chtějí automaticky tisknout nebarevné stránky pouze pomocí šedého tiskového režimu.
-
-#### Nové vlastnosti pro úpravu hranic <sup>22.12</sup>
-
-Nové veřejné vlastnictví [ThemeColor](https://reference.aspose.com/words/net/aspose.words/border/themecolor/) a [TintAndShade](https://reference.aspose.com/words/net/aspose.words/border/tintandshade/) byly představeny.
-
-#### Linear Trendline Formule pro kresleníML Rendering <sup>22.12</sup>
-
-Renderování lineárních trendů pro grafy kresleníML bylo implementováno.
-
-#### Nastavení Font Fallback pro Google Noto Písma <sup>22.12</sup>
-
-Předdefinované nastavení zálohování písma pro Google Noto byla aktualizována písma.
-
-### Načítání a ukládání dokumentů
-
-#### Cache hlavička nebo zápatí tvary ke snížení PDF Velikost <sup>22.9</sup>
-
-Schopnost cache hlavičky / tvary nohy ke snížení velikosti výstupního PDF souboru byla implementována přidáním nového **CacheHeaderFooterShapes** majetek.
-
-#### Automatická detekce čísel při načtení dokumentu <sup>22.9</sup>
-
-Schopnost určit [AutoNumberingDetection](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/autonumberingdetection/) majetek při načítání textu byl realizován prostřednictvím rozšíření [TxtLoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/) třída.
-
-#### Upřesnění konkrétního Typ marže <sup>22.12</sup>
-
-Schopnost určit konkrétní [Margin](https://reference.aspose.com/words/net/aspose.words/pagesetup/margins/) typ pro daný oddíl byl implementován.
-
-### Hledat a porovnat <sup>O tloušťce převyšující 0,2 mm</sup>
-
-Schopnost ignorovat [StructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words.markup/structureddocumenttag/) při hledání a nahrazení možností byla provedena přidáním nového [IgnoreStructuredDocumentTags](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/ignorestructureddocumenttags/) majetek [FindReplaceOptions](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/) třída.
-
-### Ostatní
-
-* Byla přidána nová funkce pro získání FieldEQ jako OfficeMath. <sup>22.9</sup>
-* Vytvoření strukturovaných značek dokumentů Group typ na úrovni řádku byl povolen. <sup>22.9</sup>
-* OLE objekty a ovládací prvky jsou nyní považovány za metafilní obrázky při konverzi dokumentu na HTML. <sup>O tloušťce převyšující 0,2 mm</sup>
-* Nová funkce zkontrolovat, že konkrétní seznam byl vytvořen ze stejné šablony jako srovnávací seznam byl přidán zavedením nového [HasSameTemplate](https://reference.aspose.com/words/net/aspose.words.lists/list/hassametemplate/) metoda do [List](https://reference.aspose.com/words/net/aspose.words.lists/list/) třída. <sup>O tloušťce převyšující 0,2 mm</sup>
-* Schopnost vytvořit nové strukturované značky dokumentů [Citation](https://reference.aspose.com/words/net/aspose.words.markup/sdttype/) typ byl přidán. <sup>22.11</sup>
-* Byla poskytnuta schopnost sledovat průběh aktualizace pole. <sup>22.11</sup>
-* Nový **EmbedAttachments** byla zavedena vlastnost, která uživatelům umožňuje vložit OLE přílohy ze zdrojového dokumentu do výstupního PDF dokumentu. <sup>22.11</sup>
-
-{{% alert color="primary" %}}
-
-Více informací o [Aspose.Words místo .NET 22.9 Poznámky k vydání](/words/net/aspose-words-for-net-22-9-release-notes/).
-
-Více informací o [Aspose.Words místo .NET 22.10 Poznámky k vydání](/words/net/aspose-words-for-net-22-10-release-notes/).
-
-Více informací o [Aspose.Words místo .NET 22.11 Poznámky k vydání](/words/net/aspose-words-for-net-22-11-release-notes/).
-
-Více informací o [Aspose.Words místo .NET 22.12 Poznámky k vydání](/words/net/aspose-words-for-net-22-12-release-notes/).
 
 {{% /alert %}}
 

@@ -11,6 +11,40 @@ url: /th/java/what-s-new-in-aspose-words-for-java/
 
 หน้านี้อธิบายสิ่งใหม่ที่น่าสนใจที่สุด Aspose.Words บทความที่นําเข้าเมื่อเร็ว ๆ นี้
 
+## Aspose.Words สําหรับ Java 24.9
+
+Aspose.Words 24.9 แนะนำการแทรกรูปร่างกลุ่มและการแทรก StructuredDocumentTag ผ่าน DocumentBuilder ปรับปรุงการเรนเดอร์แผนภูมิรัศมีด้วยการไล่ระดับ ปรับปรุงลายเซ็นดิจิทัลด้วยการรองรับ XAdES-EPES เพิ่มการจดจำเส้นใต้มาร์กดาวน์ และให้การเข้าถึงตัวคั่นเชิงอรรถ/ท้ายบท
+
+### การเรนเดอร์และการพิมพ์
+
+#### การไล่ระดับบนแผนภูมิรัศมี
+
+การเรนเดอร์การไล่ระดับบนแผนภูมิรัศมีได้รับการนำไปใช้แล้ว
+
+### การแปลง การโหลด และการบันทึกเอกสาร
+
+#### การจัดรูปแบบขีดเส้นใต้เมื่อโหลดไฟล์มาร์กดาวน์
+
+ตัวเลือกในการรับรู้การจัดรูปแบบขีดเส้นใต้เมื่อโหลดเอกสารมาร์กดาวน์ได้รับการรวมเข้าไว้ด้วยการเพิ่มคุณสมบัติสาธารณะใหม่ [ImportUnderlineFormatting](https://reference.aspose.com/words/java/com.aspose.words/markdownloadoptions/#getImportUnderlineFormatting)
+
+### ลายเซ็นดิจิทัล
+
+#### ลงนามในเอกสารด้วย XAdES-EPES
+
+ความสามารถในการลงนามในเอกสารด้วยลายเซ็น XML-DSig ระดับ XAdES-EPES ได้รับการแนะนำโดยการเพิ่มคุณสมบัติสาธารณะใหม่ [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/signoptions/#getXmlDsigLevel) และการแจงนับสาธารณะใหม่ [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/xmldsiglevel/)
+
+### อื่นๆ
+
+* มีการเพิ่มวิธีสาธารณะใหม่ [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-com.aspose.words.Shape...) ให้กับรูปร่างของกลุ่ม
+* มีการเพิ่มวิธีสาธารณะใหม่ [InsertStructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertStructuredDocumentTag-int) เพื่อแทรก **StructuredDocumentTags** ลงในเอกสาร
+* มีการให้สิทธิ์การเข้าถึงแบบสาธารณะสำหรับตัวคั่นเชิงอรรถ/ท้ายบทโดยการเพิ่มคลาสและคุณสมบัติสาธารณะบางส่วน
+
+{{% alert color="primary" %}}
+
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.Words สำหรับบันทึกประจำรุ่น Java 24.9](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/)
+
+{{% /alert %}}
+
 ## Aspose.Words สำหรับ Java 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 ขยายตัวเลือกสำหรับแอสเซมบลี ปรับปรุงความสามารถในการเรนเดอร์ และขยายตัวเลือกอื่นๆ

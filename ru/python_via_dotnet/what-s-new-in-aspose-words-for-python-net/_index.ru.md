@@ -11,6 +11,40 @@ url: /ru/python-net/what-s-new-in-aspose-words-for-python-net/
 
 На этой странице описаны самые интересные новые Aspose.Words Особенности, представленные в последних выпусках.
 
+## Aspose.Words для Python через .NET 24.9
+
+Aspose.Words 24.9 представляет вставку групповых фигур и вставку StructuredDocumentTag через DocumentBuilder, улучшает визуализацию радиальных диаграмм с помощью градуировок, улучшает цифровые подписи с поддержкой XAdES-EPES, добавляет распознавание подчеркивания Markdown и предоставляет доступ к разделителям сносок/концевых сносок.
+
+### Рендеринг и печать
+
+#### Градуировки на радиальных диаграммах
+
+Реализована визуализация градуировок на радиальных диаграммах.
+
+### Преобразование, загрузка и сохранение документов
+
+#### Подчеркивание форматирования при загрузке файлов Markdown
+
+Возможность распознавания подчеркивания форматирования при загрузке документов Markdown была включена путем добавления нового публичного свойства [import_underline_formatting property](https://reference.aspose.com/words/python-net/aspose.words.loading/markdownloadoptions/import_underline_formatting/).
+
+### Цифровые подписи
+
+#### Подписание документов с помощью XAdES-EPES
+
+Возможность подписывать документы с помощью подписей XML-DSig уровня XAdES-EPES была введена путем добавления нового публичного свойства [xml_dsig_level](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/signoptions/xml_dsig_level/) и нового публичного перечисления [XmlDsigLevel](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/xmldsiglevel/).
+
+### Другое
+
+* Добавлен новый публичный метод [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/) для групповых фигур.
+* Добавлен новый публичный метод [insert_structured_document_tag](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_structured_document_tag/) для вставки **StructuredDocumentTags** в документ.
+* Публичный доступ к разделителям сносок/концевых сносок был предоставлен путем добавления нескольких публичных классов и свойств.
+
+{{% alert color="primary" %}}
+
+Узнайте больше о [Aspose.Words для Python via .NET 24.9 Примечания к выпуску](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-9-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words для Python via .NET 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 расширяет возможности сборок, улучшает возможности рендеринга и расширяет некоторые другие возможности.
@@ -421,73 +455,6 @@ The [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) К
 Узнайте больше о [Aspose.Words для Python via .NET 23.3 Выпускные примечания](/words/python-net/aspose-words-for-python-via-dotnet-23-3-release-notes/).
 
 Узнайте больше о [Aspose.Words для Python via .NET 23.4 Выпуск заметок](/words/python-net/aspose-words-for-python-via-dotnet-23-4-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words для Python via .NET 22.9, 22.10, 22.11, 22.12
-
-Aspose.Words 22.9 расширяет возможности загрузки и сохранения документов и улучшает взаимодействие с некоторыми другими вариантами.
-
-Aspose.Words 22.10 улучшает поиск и замену опций, улучшает объекты OLE и расширяет функциональность списка.
-
-Aspose.Words 22.11 расширяет функционал новыми опциями для более удобной работы с уже знакомыми объектами: OLE и структурированные теги документов.
-
-Aspose.Words 22.12 расширяет возможности рендеринга и вводит опции работы с маржой при загрузке/сбережении документа.
-
-### Повышение производительности <sup>22.12.</sup>
-
-Введена оптимизация, которая значительно снижает глубину вложения графического состояния при рендеринге в PDF для поддержания соответствия спецификации.
-
-### Чтение и печать
-
-#### Новые пограничные свойства <sup>22.12.</sup>
-
-Новые общественные объекты [theme_color](https://reference.aspose.com/words/python-net/aspose.words/border/theme_color/) и [tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words/border/tint_and_shade/) были введены.
-
-#### Линейная формула тренда для рисования ML <sup>22.12.</sup>
-
-Реализован линейный рендеринг формул трендовой линии для диаграмм DrawingML.
-
-#### Скачать Fallback Settings для Google Noto Шрифты <sup>22.12.</sup>
-
-Предопределенные параметры резервного копирования шрифта для Google Noto шрифты были обновлены.
-
-### Погрузка и экономия документов
-
-#### Cache Header или Footer Shapes уменьшают размер PDF <sup>22.9</sup>
-
-Возможность кэширования форм заголовка / футера для уменьшения размера выходного файла PDF была реализована путем добавления нового файла. **CacheHeaderFooterShapes** собственность.
-
-#### Автоматическая нумерация при загрузке документа <sup>22.9</sup>
-
-Возможность конкретизировать [auto_numbering_detection](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/auto_numbering_detection/) свойство при загрузке текста было реализовано посредством расширения [TxtLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/) класс.
-
-#### Определение конкретного Тип маржи <sup>22.12.</sup>
-
-Способность конкретизировать конкретную **Margin** Тип для данного раздела реализован.
-
-### Поиск и сравнение <sup>22.10</sup>
-
-Способность игнорировать [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) После поиска и замены опционы были реализованы путем добавления новых [ignore_structured_document_tags](https://reference.aspose.com/words/python-net/aspose.words.replacing/findreplaceoptions/ignore_structured_document_tags/) собственности на [FindReplaceOptions](https://reference.aspose.com/words/python-net/aspose.words.replacing/findreplaceoptions/) класс.
-
-### Другой
-
-- Добавлена новая функция для получения FieldEQ в качестве OfficeMath. <sup>22.9</sup>
-- Создание структурированных тегов документов Group Тип на уровне Row был разрешен. <sup>22.9</sup>
-- Объекты и элементы управления OLE теперь рассматриваются как метафайлы при преобразовании документа в HTML. <sup>22.10</sup>
-- Новая функция для проверки того, что определенный список был создан из того же шаблона, что и сравниваемый список, была добавлена путем введения нового **HasSameTemplate** Способ вхождения в [List](https://reference.aspose.com/words/python-net/aspose.words.lists/list/) класс. <sup>22.10</sup>
-- Возможность создания новых структурированных тегов документов [Citation](https://reference.aspose.com/words/python-net/aspose.words.markup/sdttype/) Тип был добавлен. <sup>22.11.</sup>
-- Новый **EmbedAttachments** Введено свойство, позволяющее пользователям встраивать вложения OLE из исходного документа в выходной документ PDF. <sup>22.11.</sup>
-
-{{% alert color="primary" %}}
-
-Узнайте больше о [Aspose.Words для Python via .NET 22.9 Выпускные примечания](/words/python-net/aspose-words-for-python-via-dotnet-22-9-release-notes/).
-
-Узнайте больше о [Aspose.Words для Python via .NET 22.10 Релизные заметки](/words/python-net/aspose-words-for-python-via-dotnet-22-10-release-notes/).
-
-Узнайте больше о [Aspose.Words для Python via .NET 22.11 Выпуск заметок](/words/python-net/aspose-words-for-python-via-dotnet-22-11-release-notes/).
-
-Узнайте больше о [Aspose.Words для Python via .NET 22.12 Выпуск заметок](/words/python-net/aspose-words-for-python-via-dotnet-22-12-release-notes/).
 
 {{% /alert %}}
 

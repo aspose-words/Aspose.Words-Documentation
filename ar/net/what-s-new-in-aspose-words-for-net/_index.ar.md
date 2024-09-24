@@ -11,6 +11,40 @@ url: /ar/net/what-s-new-in-aspose-words-for-net/
 
 تصف هذه الصفحة ميزات Aspose.Words الجديدة الأكثر إثارة للاهتمام والتي تم تقديمها في الإصدارات الأخيرة.
 
+## Aspose.Words for .NET 24.9
+
+يقدم Aspose.Words 24.9 إدراج شكل المجموعة وإدراج StructuredDocumentTag عبر DocumentBuilder، ويعزز عرض المخططات الشعاعية باستخدام التدرجات، ويحسن التوقيعات الرقمية مع دعم XAdES-EPES، ويضيف التعرف على الخط السفلي Markdown، ويوفر الوصول إلى فواصل الحواشي السفلية/الحواشي النهائية.
+
+### العرض والطباعة
+
+#### التدرجات على المخططات الشعاعية
+
+تم تنفيذ عرض التدرجات على المخططات الشعاعية.
+
+### تحويل المستندات وتحميلها وحفظها
+
+#### تنسيق التسطير عند تحميل ملفات Markdown
+
+تم دمج خيار التعرف على تنسيق التسطير عند تحميل مستندات Markdown من خلال إضافة خاصية عامة جديدة [ImportUnderlineFormatting](https://reference.aspose.com/words/net/aspose.words.loading/markdownloadoptions/importunderlineformatting/).
+
+### التوقيعات الرقمية
+
+#### توقيع المستندات باستخدام XAdES-EPES
+
+تم تقديم القدرة على توقيع المستندات باستخدام توقيعات XML-DSig على مستوى XAdES-EPES من خلال إضافة خاصية عامة جديدة [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions/xmldsiglevel/) وتعداد عام جديد [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/xmldsiglevel/).
+
+### آخر
+
+* تمت إضافة طريقة عامة جديدة [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/) إلى أشكال المجموعة.
+* تمت إضافة طريقة عامة جديدة [InsertStructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertstructureddocumenttag/) لإدراج **StructuredDocumentTags** في مستند.
+* تم توفير الوصول العام إلى فواصل الحواشي السفلية/الحواشي النهائية من خلال إضافة بعض الفئات والخصائص العامة.
+
+{{% alert color="primary" %}}
+
+تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ .NET 24.9](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-9-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words لـ .NET 24.5، 24.6، 24.7، 24.8
 
 يقوم Aspose.Words 24.5 بتوسيع خيارات التجميعات وتحسين قدرات العرض وتوسيع بعض الخيارات الأخرى.
@@ -433,176 +467,6 @@ Aspose.Words 24.4 يعزز حفظ التنسيقات ، بعض خيارات ال
 تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ .NET 23.3](/words/net/aspose-words-for-net-23-3-release-notes/).
 
 تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ .NET 23.4](/words/net/aspose-words-for-net-23-4-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words لـ .NET 22.9، 22.10، 22.11، 22.12
-
-يعمل Aspose.Words 22.9 على توسيع خيارات تحميل المستندات وحفظها وتحسين التفاعل مع بعض الخيارات الأخرى.
-
-يعمل Aspose.Words 22.10 على تحسين خيارات البحث والاستبدال، وتعزيز كائنات OLE، وتوسيع وظائف القائمة.
-
-يعمل Aspose.Words 22.11 على توسيع وظائفه بخيارات جديدة للعمل بشكل أكثر ملاءمة مع الكائنات المألوفة بالفعل: الحقول والطباعة وOLE وعلامات المستندات المنظمة.
-
-يعمل Aspose.Words 22.12 على تحسين إمكانيات العرض ويقدم خيارات للعمل مع الهوامش عند تحميل/حفظ مستند.
-
-### تحسينات الأداء <sup>22.12</sup>
-
-تم تقديم تحسين يقلل بشكل كبير من عمق تداخل حالة الرسومات عند العرض إلى PDF للحفاظ على التوافق مع المواصفات.
-
-### التقديم والطباعة
-
-#### طباعة الصفحات غير الملونة على طابعة ملونة <sup>22.11</sup>
-
-تم تنفيذ وضع طباعة مخصص ملون/بتدرج الرمادي عن طريق إضافة قيمة **GrayscaleAuto** جديدة إلى تعداد [ColorPrintMode](https://reference.aspose.com/words/ar/net/aspose.words.rendering/colorprintmode/).
-
-تسمح خاصية الطباعة الجديدة للمستخدمين بالتحكم في كيفية طباعة الصفحات غير الملونة إذا كان الجهاز يدعم الطباعة الملونة. يمكن أن تكون هذه الميزة مفيدة إذا أراد المستخدمون طباعة الصفحات غير الملونة تلقائيًا باستخدام وضع الطباعة بتدرج الرمادي فقط.
-
-#### خصائص عرض الحدود الجديدة <sup>22.12</sup>
-
-تم تقديم خصائص عامة جديدة [ThemeColor](https://reference.aspose.com/words/ar/net/aspose.words/border/themecolor/) و[TintAndShade](https://reference.aspose.com/words/ar/net/aspose.words/border/tintandshade/).
-
-#### صيغة خط الاتجاه الخطي لعرض الرسم ML <sup>22.12</sup>
-
-تم تنفيذ عرض صيغة خط الاتجاه الخطي لمخططات DrawML.
-
-#### إعدادات الخط الاحتياطية لخطوط Google Noto <sup>22.12</sup>
-
-تم تحديث إعدادات الخط الاحتياطي المحددة مسبقًا لخطوط Google Noto.
-
-### تحميل وحفظ المستندات
-
-#### تخزين مؤقت لأشكال الرأس أو التذييل لتقليل حجم ملف PDF <sup>22.9</sup>
-
-تم تنفيذ القدرة على تخزين أشكال الرأس/التذييل مؤقتًا لتقليل حجم ملف PDF الناتج عن طريق إضافة خاصية **CacheHeaderFooterShapes** جديدة.
-
-#### كشف الترقيم التلقائي عند تحميل مستند <sup>22.9</sup>
-
-تم تنفيذ القدرة على تحديد خاصية [AutoNumberingDetection](https://reference.aspose.com/words/ar/net/aspose.words.loading/txtloadoptions/autonumberingdetection/) عند تحميل النص من خلال فئة [TxtLoadOptions](https://reference.aspose.com/words/ar/net/aspose.words.loading/txtloadoptions/) الممتدة.
-
-#### تحديد نوع هامش معين <sup>22.12</sup>
-
-تم تنفيذ القدرة على تحديد نوع [Margin](https://reference.aspose.com/words/ar/net/aspose.words/pagesetup/margins/) معين للقسم المحدد.
-
-### بحث ومقارنة <sup>22.10</sup>
-
-تم تنفيذ القدرة على تجاهل [StructuredDocumentTag](https://reference.aspose.com/words/ar/net/aspose.words.markup/structureddocumenttag/) عند خيارات البحث والاستبدال عن طريق إضافة خاصية [IgnoreStructuredDocumentTags](https://reference.aspose.com/words/ar/net/aspose.words.replacing/findreplaceoptions/ignorestructureddocumenttags/) جديدة إلى فئة [FindReplaceOptions](https://reference.aspose.com/words/ar/net/aspose.words.replacing/findreplaceoptions/).
-
-### آخر
-
-* تمت إضافة ميزة جديدة للحصول على FieldEQ كـ OfficeMath. <sup>22.9</sup>
-* تم السماح بإنشاء علامات مستند منظمة من نوع Group على مستوى الصف. <sup>22.9</sup>
-* يتم الآن التعامل مع كائنات وعناصر تحكم OLE كصور ملف تعريف عند تحويل مستند إلى HTML. <sup>22.10</sup>
-* ميزة جديدة للتحقق من إنشاء قائمة معينة من نفس القالب حيث تمت إضافة القائمة المقارنة عن طريق إدخال طريقة [HasSameTemplate](https://reference.aspose.com/words/ar/net/aspose.words.lists/list/hassametemplate/) جديدة في فئة [List](https://reference.aspose.com/words/ar/net/aspose.words.lists/list/). <sup>22.10</sup>
-* تمت إضافة القدرة على إنشاء علامات مستند منظمة جديدة من نوع [Citation](https://reference.aspose.com/words/ar/net/aspose.words.markup/sdttype/). <sup>22.11</sup>
-* تم توفير القدرة على تتبع تقدم التحديث الميداني. <sup>22.11</sup>
-* تم تقديم خاصية **EmbedAttachments** جديدة تسمح للمستخدمين بتضمين مرفقات OLE من مستند مصدر في مستند PDF الناتج. <sup>22.11</sup>
-
-{{% alert color="primary" %}}
-
-تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ .NET 22.9](/words/net/aspose-words-for-net-22-9-release-notes/).
-
-تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ .NET 22.10](/words/net/aspose-words-for-net-22-10-release-notes/).
-
-تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ .NET 22.11](/words/net/aspose-words-for-net-22-11-release-notes/).
-
-تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ .NET 22.12](/words/net/aspose-words-for-net-22-12-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words لـ .NET 22.5، 22.6، 22.7، 22.8
-
-يقدم Aspose.Words 22.5 دعمًا لتنسيقات التحميل الجديدة وحجم صفحة الطباعة الجديد، بالإضافة إلى تحسين بعض خيارات العرض.
-
-يعمل Aspose.Words 22.6 على توسيع إمكانيات تحويل PDF إلى تنسيقات أخرى، بالإضافة إلى تحسين العمل باستخدام DrawML وتأثير تعبئة النص الصلب.
-
-يعمل Aspose.Words 22.7 على تحسين إمكانيات العمل مع ميزات العرض، كما يضيف ميزات جديدة للعمل مع استيراد HTML وتصديره إلى PDF.
-
-يقدم Aspose.Words 22.8 تنسيق تصدير جديدًا ويحسن خوارزميات العرض المتنوعة.
-
-تم تحسين API من أجل تطوير أكثر مرونة وملاءمة.
-
-### التنسيقات المدعومة
-
-* تم تقديم الدعم لتحميل مستندات EPUB وXML عن طريق إضافة قيم جديدة إلى تعداد [LoadFormat](https://reference.aspose.com/words/ar/net/aspose.words/loadformat/). بدءًا من الإصدار 22.5، من الممكن تحميل مستندات EPUB وXML في نموذج مستند Aspose.Words وتحويلها إلى أي [التنسيقات المدعومة](https://reference.aspose.com/words/ar/net/aspose.words/saveformat/). <sup>22.5</sup>
-* بدءًا من الإصدار 22.8، من الممكن حفظ مستند بتنسيق AZW3 - تنسيق ملف الكتاب الإلكتروني الخاص بـ Amazon Kindle (KF8 هو اسم آخر للتنسيق). الآن لا يمكنك تحميل مستندات AZW3 فحسب، بل يمكنك أيضًا تصدير ملفاتك إلى تنسيق AZW3، وهو في الأساس ملف EPUB مترجم. <sup>22.8</sup>
-
-### التقديم والطباعة
-
-#### حجم الطباعة الجديد <sup>22.5</sup>
-
-تمت إضافة دعم لحجم صفحة الطباعة "Envelope No. 10" من خلال إدخال قيمة جديدة إلى تعداد [PaperSize](https://reference.aspose.com/words/ar/net/aspose.words/papersize/).
-
-#### تقديم صيغ MathML <sup>22.5</sup>
-
-تم تحسين عرض مربع الحدود حول صيغ MathML واكتشاف الخطوط عند عرض الأحرف لهذه الصيغ.
-
-#### تحسينات مخطط DML <sup>22.6</sup>
-
-تم توسيع مخططات DrawML العامة API لدعم تعبئة التدرج والملمس والنمط.
-
-#### Glyph يحدد التحليل لـ OpenType <sup>22.7</sup>
-
-تم تنفيذ تحليل glyph الخاص بـ Aspose.Words لخطوط OpenType (CFF).
-
-في السابق، كان يتم إجراء تحليل glyph لخطوط OpenType (CFF) عبر GDI+. لذا فهو يعمل الآن في الحالات التي لا يتوفر فيها +GDI - Java، ومنصات .NET Standard، وLinux OS، وما إلى ذلك. مطلوب تحليل الخطوط العريضة لـ Glyph في حالات محددة مثل WordArt، وتأثيرات النص، وبعض ميزات Office Math، وغيرها.
-
-#### ضبط تنسيق ظل الشكل <sup>22.7</sup>
-
-تم توفير القدرة على ضبط تنسيق الظل لكائن الشكل عن طريق إضافة خاصية [ShadowFormat](https://reference.aspose.com/words/ar/net/aspose.words.drawing/shapebase/shadowformat/) جديدة.
-
-#### دعم لتباعد الخلايا في الجداول <sup>22.8</sup>
-
-تم الآن تحسين محرك التخطيط بشكل ملحوظ: تم تنفيذ آلية معقدة للغاية لتباعد الخلايا في الجداول.
-
-#### استبدال الخط للرموز <sup>22.8</sup>
-
-تم تحسين استبدال الخط للرموز.
-
-#### خوارزمية تدوير تسمية محور الرسم البياني <sup>22.8</sup>
-
-تم تحسين خوارزمية التدوير لتسميات محاور المخطط.
-
-### تحميل وحفظ المستندات
-
-#### قم بتحميل وتحويل PDF إلى تنسيق صفحة ثابتة بدون Layout Model <sup>22.6</sup>
-
-تم تنفيذ القدرة على تحميل وتحويل مستندات PDF إلى تنسيقات صفحات ثابتة بدقة وأداء عاليين.
-
-#### وضع استيراد HTML الجديد <sup>22.7</sup>
-
-تم تقديم وضع استيراد HTML جديد للعناصر على مستوى الكتلة عن طريق إضافة قيمة جديدة إلى تعداد [HtmlInsertOptions](https://reference.aspose.com/words/ar/net/aspose.words/htmlinsertoptions/).
-
-#### تحويل إلى PDF/UA-1 CSمتوافق مع WCAG 2.0 <sup>22.7</sup>
-
-تمت إضافة دعم لتحويل مستند إلى تنسيق PDF/UA-1، متوافق مع WCAG 2.0.
-
-لذا، إذا كان لدى العميل مستند Word يمكن الوصول إليه وقام بتحويله إلى PDF/UA-1 عبر Aspose.Words مع ذكر تفاصيل التحويل، فسيكون الناتج متوافقًا مع WCAG 2.0.
-
-WCAG أو إرشادات الوصول إلى محتوى الويب هي مجموعة من الإرشادات التي طورتها W3C بالتعاون مع الأفراد والمنظمات في جميع أنحاء العالم. الآن باستخدام Aspose.Words، يمكنك تحويل مستندك إلى تنسيق PDF/UA-1 الناتج، وهو مناسب لإنشاء مستندات PDF متوافقة مع WCAG 2.0.
-
-تجدر الإشارة إلى أن WCAG 2.0 له متطلبان إضافيان غير محددين في مواصفات PDF/UA-1:
-
-* متطلبات التباين
-
-* متطلبات وضع علامات على محتوى الوسائط المتعددة
-
-لكن كلا المتطلبين لا علاقة لهما بحالتنا الخاصة بالتحويل من Word إلى PDF.
-
-### آخر
-
-* تم تنفيذ استثناء وراثة تأثير تعبئة النص الصلب الذي يحاكي سلوك MS Word. <sup>22.6</sup>
-* تمت إضافة دعم حقول `DATABASE`. باستخدام هذا النوع من الحقول، يمكنك، على سبيل المثال، عرض نتائج استعلام قاعدة البيانات في جدول Microsoft Word. <sup>22.7</sup>
-
-{{% alert color="primary" %}}
-
-تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ .NET 22.5](/words/net/aspose-words-for-net-22-5-release-notes/).
-
-تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ .NET 22.6](/words/net/aspose-words-for-net-22-6-release-notes/).
-
-تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ .NET 22.7](/words/net/aspose-words-for-net-22-7-release-notes/).
-
-تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ .NET 22.8](/words/net/aspose-words-for-net-22-8-release-notes/).
 
 {{% /alert %}}
 

@@ -11,6 +11,40 @@ url: /he/net/what-s-new-in-aspose-words-for-net/
 
 דף זה מתאר את החדש המעניין ביותר Aspose.Words תכונות שהוצגו במהדורות האחרונות.
 
+## Aspose.Words עבור .NET 24.9
+
+Aspose.Words 24.9 מציגה הכנסת צורות קבוצתיות והכנסת StructuredDocumentTag באמצעות DocumentBuilder, משפרת את עיבוד התרשים הרדיאלי עם דרגות, משפרת חתימות דיגיטליות עם תמיכה ב-XAdES-EPES, מוסיפה זיהוי קו תחתון של Markdown, ומספקת גישה למפרידי הערות שוליים/הערות סיום.
+
+### עיבוד והדפסה
+
+#### סיום לימודים בתרשימים רדיאליים
+
+עיבוד של סיום על תרשימים רדיאליים יושם.
+
+### המרה, טעינה ושמירה של מסמכים
+
+#### עיצוב קו תחתון בעת ​​טעינת קבצי Markdown
+
+האפשרות לזהות עיצוב קו תחתון בעת ​​טעינת מסמכי Markdown שולבה על ידי הוספת נכס ציבורי חדש [ImportUnderlineFormatting](https://reference.aspose.com/words/net/aspose.words.loading/markdownloadoptions/importunderlineformatting/).
+
+### חתימות דיגיטליות
+
+#### חתום על מסמכים עם XAdES-EPES
+
+היכולת לחתום על מסמכים עם חתימות XML-DSig ברמת XAdES-EPES הוצגה על ידי הוספת נכס ציבורי חדש [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions/xmldsiglevel/) וספירה ציבורית חדשה [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/xmldsiglevel/).
+
+### אחר
+
+* שיטה ציבורית חדשה [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/) נוספה לצורות קבוצתיות.
+* שיטה ציבורית חדשה [InsertStructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertstructureddocumenttag/) נוספה להכנסת **StructuredDocumentTags** למסמך.
+* גישה ציבורית למפרידי הערות שוליים/הערות סיום ניתנה על ידי הוספת כמה מחלקות ומאפיינים ציבוריים.
+
+{{% alert color="primary" %}}
+
+למידע נוסף על [Aspose.Words for .NET 24.9 Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-9-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words עבור .NET 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 מרחיב אפשרויות למכלולים, משפר את יכולות העיבוד ומרחיב כמה אפשרויות אחרות.
@@ -433,80 +467,6 @@ The The The [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/f
 למד עוד על [Aspose.Words עבור .NET 23.3 הערות](/words/net/aspose-words-for-net-23-3-release-notes/).
 
 למד עוד על [Aspose.Words עבור .NET 23.4 הערות](/words/net/aspose-words-for-net-23-4-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words עבור .NET 22.9, 22.10, 22.11, 22.12
-
-Aspose.Words 22.9 מרחיב אפשרויות לטעינה ולהצלת מסמכים ושיפור אינטראקציה עם כמה אפשרויות אחרות.
-
-Aspose.Words 22.10 משפר את האפשרות והחלפת אפשרויות, משפר את אובייקטים של OLE, ומרחיב את הפונקציונליות של הרשימה.
-
-Aspose.Words 22.11 מרחיבה את הפונקציונליות שלה עם אפשרויות חדשות לעבודה נוחה יותר עם אובייקטים מוכרים כבר: שדות, הדפסה, OLE ותגי מסמך מובנה.
-
-Aspose.Words 22.12 משפר את יכולת ביצוע ומציג אפשרויות לעבודה עם שולי כאשר טעינה / שמירה על מסמך.
-
-### שיפור ביצועים <sup>22.12</sup>
-
-אופטימיזציה אשר מפחיתה באופן משמעותי את העומק של מצב גרפיקה קינון בעת ביצוע ל- PDF כדי לשמור על תאימות ספציפית הוכנס.
-
-### גילוח ומדפס
-
-#### הדפסה ללא צבע דפים על מדפסת צבעים <sup>22.11</sup>
-
-שיטת הדפסה צבעונית / קידוד מבוצעת על ידי הוספת חדש **GrayscaleAuto** ערך ל [ColorPrintMode](https://reference.aspose.com/words/net/aspose.words.rendering/colorprintmode/) אזהרה.
-
-נכס הדפסה חדש מאפשר למשתמשים לשלוט כיצד דפים שאינם צבעים מודפסים אם המכשיר תומך הדפסה צבע. תכונה זו יכולה להיות שימושית אם משתמשים רוצים להדפיס באופן אוטומטי דפים ללא צבע באמצעות רק מצב הדפסה אפור.
-
-#### New Border Rendering Properties <sup>22.12</sup>
-
-נכסים ציבוריים חדשים [ThemeColor](https://reference.aspose.com/words/net/aspose.words/border/themecolor/) ו [TintAndShade](https://reference.aspose.com/words/net/aspose.words/border/tintandshade/) הוצגו.
-
-#### המונחים: DrawingML Rendering <sup>22.12</sup>
-
-הנוסחה של Linear Trendline להפוך עבור charts DrawingML כבר מיושם.
-
-#### הגדרות Fallback Google Noto פונטים <sup>22.12</sup>
-
-הגדרות הנפילה של גופן מוגדרות מראש Google Noto גופנים מעודכנים.
-
-### לטעון ולחסוך מסמכים
-
-#### Cache Header או Footer Shapes כדי להפחית PDF גודל <sup>22.9</sup>
-
-היכולת של cache Header / מ"ר צורות כדי להפחית את גודל קובץ ה- PDF יישמה על ידי הוספת חדש חדש **CacheHeaderFooterShapes** רכוש.
-
-#### זיהוי מספר אוטומטי בעת טעינת מסמך <sup>22.9</sup>
-
-היכולת לציין את [AutoNumberingDetection](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/autonumberingdetection/) רכוש על טעינת טקסט יושם באמצעות הרחבה של [TxtLoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/) מעמד.
-
-#### תגית: a Particular Margin Type <sup>22.12</sup>
-
-היכולת לציין פרטים [Margin](https://reference.aspose.com/words/net/aspose.words/pagesetup/margins/) סוג של סעיף זה יושם.
-
-### חיפוש והשוואה <sup>22.10</sup>
-
-היכולת להתעלם [StructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words.markup/structureddocumenttag/) עם מציאת והחלפת אפשרויות יושמו על ידי הוספת חדש [IgnoreStructuredDocumentTags](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/ignorestructureddocumenttags/) רכוש [FindReplaceOptions](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/) מעמד.
-
-### אחרים
-
-* תכונה חדשה כדי לקבל ccEQ כ- OfficeMath נוספה. <sup>22.9</sup>
-* יצירת תגי מסמך מובנים Group סוג ברמת רו מותר. <sup>22.9</sup>
-* אובייקטים ובקרות פשוטים מטופלים כעת כתמונות metafile בעת המרת מסמך ל- HTML. <sup>22.10</sup>
-* תכונה חדשה לבדוק כי רשימה מסוימת נוצרה מאותו תבנית כמו הרשימה השווה נוספה על ידי הצגת רשימה חדשה [HasSameTemplate](https://reference.aspose.com/words/net/aspose.words.lists/list/hassametemplate/) שיטה לתוך [List](https://reference.aspose.com/words/net/aspose.words.lists/list/) מעמד. <sup>22.10</sup>
-* היכולת ליצור תגי מסמך מובנים חדשים של [Citation](https://reference.aspose.com/words/net/aspose.words.markup/sdttype/) סוג נוסף. <sup>22.11</sup>
-* היכולת לעקוב אחר התקדמות עיבוד השדה מסופקת. <sup>22.11</sup>
-* חדש **EmbedAttachments** נכסים המאפשרים למשתמשים להטמיע קבצים מצורפים של OLE ממסמכים מקור במסמך הפלט PDF הוצגו. <sup>22.11</sup>
-
-{{% alert color="primary" %}}
-
-למד עוד על [Aspose.Words עבור .NET 22.9 הודעות](/words/net/aspose-words-for-net-22-9-release-notes/).
-
-למד עוד על [Aspose.Words עבור .NET 22.10 הערות](/words/net/aspose-words-for-net-22-10-release-notes/).
-
-למד עוד על [Aspose.Words עבור .NET 22.11 פרסום הערות](/words/net/aspose-words-for-net-22-11-release-notes/).
-
-למד עוד על [Aspose.Words עבור .NET 22.12 הודעות](/words/net/aspose-words-for-net-22-12-release-notes/).
 
 {{% /alert %}}
 

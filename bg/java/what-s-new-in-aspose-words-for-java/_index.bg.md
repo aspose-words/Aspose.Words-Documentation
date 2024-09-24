@@ -11,6 +11,40 @@ url: /bg/java/what-s-new-in-aspose-words-for-java/
 
 Тази страница описва най-интересното ново Aspose.Words функции, въведени в последните издания.
 
+## Aspose.Words за Java 24.9
+
+Aspose.Words 24.9 въвежда вмъкване на групова форма и вмъкване на StructuredDocumentTag чрез DocumentBuilder, подобрява изобразяването на радиална диаграма с градуировки, подобрява цифровите подписи с поддръжка на XAdES-EPES, добавя разпознаване на подчертаване на Markdown и осигурява достъп до разделители за бележки под линия/бележки в края.
+
+### Изобразяване и печат
+
+#### Градуации на радиални диаграми
+
+Изпълнено е изобразяване на градуировки върху радиални диаграми.
+
+### Конвертиране, зареждане и запазване на документи
+
+#### Подчертайте форматирането при зареждане на файлове с маркиране
+
+Опцията за разпознаване на подчертано форматиране при зареждане на документи на Markdown е включена чрез добавяне на ново публично свойство [ImportUnderlineFormatting](https://reference.aspose.com/words/java/com.aspose.words/markdownloadoptions/#getImportUnderlineFormatting).
+
+### Цифрови подписи
+
+#### Подписвайте документи с XAdES-EPES
+
+Възможността за подписване на документи с XML-DSig подписи на ниво XAdES-EPES беше въведена чрез добавяне на ново публично свойство [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/signoptions/#getXmlDsigLevel) и ново публично изброяване [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/xmldsiglevel/)
+
+### Друго
+
+* Нов публичен метод [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-com.aspose.words.Shape...) е добавен към формите на групата.
+* Добавен е нов публичен метод [InsertStructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertStructuredDocumentTag-int) за вмъкване на **StructuredDocumentTags** в документ.
+* Осигурен е публичен достъп до разделителите за бележки под линия/бележки в края чрез добавяне на няколко публични класа и свойства.
+
+{{% alert color="primary" %}}
+
+Научете повече за [Бележки по изданието на Aspose.Words за Java 24.9](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words за Java 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 разширява опциите за сглобки, подобрява възможностите за изобразяване и разширява някои други опции.
@@ -427,80 +461,6 @@ Aspose.Words 23.4 подобрява изчисляването на някои 
 Научете повече за [Aspose.Words вместо Java 23.3 Бележки за освобождаване](/words/java/aspose-words-for-java-23-3-release-notes/).
 
 Научете повече за [Aspose.Words вместо Java 23.4 Бележки за освобождаване](/words/java/aspose-words-for-java-23-4-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words вместо Java 22.9, 22.10, 22.11, 22.12
-
-Aspose.Words 22.9 разширява възможностите за зареждане и спасяване на документи и подобрява взаимодействието с някои други опции.
-
-Aspose.Words 22.10 подобрява намирането и замяната на опции, подобрява обектите на OLE и разширява функционалността на списъка.
-
-Aspose.Words 22.11 разширява функционалността си с нови опции за по-удобна работа с вече познати обекти: полета, печат, OLE и структурирани документи.
-
-Aspose.Words 22.12 подобрява възможностите за предаване и въвежда възможности за работа с маржове при зареждане/спестяване на документ.
-
-### Подобрения на ефективността <sup>22.12</sup>
-
-Въведена е оптимизация, която значително намалява дълбочината на гнезденето на графиката, когато се предава на PDF, за да се поддържа съответствие със спецификацията.
-
-### Пренос и печат
-
-#### Печат без цвят Страници на цветов принтер <sup>22.11</sup>
-
-Режимът на печат с цвят/грайскейл е приложен чрез добавяне на нов **GrayscaleAuto** стойност за [ColorPrintMode](https://reference.aspose.com/words/java/com.aspose.words/colorprintmode/) Изброяване.
-
-Ново свойство за печат позволява на потребителите да контролират как се печатат нецветни страници, ако устройството поддържа цветен печат. Тази функция може да бъде полезна, ако потребителите искат автоматично да печатат нецветни страници само чрез сив режим на печат.
-
-#### Свойства за ново подаване на границата <sup>22.12</sup>
-
-Нови публични имоти [ThemeColor](https://reference.aspose.com/words/java/com.aspose.words/border/#getThemeColor) както и [TintAndShade](https://reference.aspose.com/words/java/com.aspose.words/border/#getTintAndShade) бяха представени.
-
-#### Linear Trendline Formula for DrawML Rendering <sup>22.12</sup>
-
-Линейна трендлайн формула, която прави за DrawML диаграми е била въведена.
-
-#### Настройки за връщане на шрифта Google Noto Шрифтове <sup>22.12</sup>
-
-Предварителните настройки на шрифта Google Noto шрифтовете са актуализирани.
-
-### Зареждане и съхраняване на документи
-
-#### Chaper или Footer форма за намаляване на размера на PDF <sup>22.9</sup>
-
-Възможността за кеширане на заглавни/краки форми за намаляване на размера на изходния PDF файл е въведена чрез добавяне на нов [CacheHeaderFooterShapes](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) собственост.
-
-#### Автоматично откриване на номера при зареждане на документ <sup>22.9</sup>
-
-Способността за определяне на [AutoNumberingDetection](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/#getAutoNumberingDetection) Имуществото при зареждане на текст се осъществява чрез разширяване на обхвата на [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) Клас.
-
-#### Посочване на конкретен Вид марж <sup>22.12</sup>
-
-Способността да се определи конкретен [Margin](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getMargins) типът за съответния раздел е изпълнен.
-
-### Търсене и сравняване <sup>22.10</sup>
-
-Способността да се игнорира [StructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttag/) След намиране и замяна опциите са били изпълнени чрез добавяне на нов [IgnoreStructuredDocumentTags](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreStructuredDocumentTags--) собственост на [FindReplaceOptions](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/) Клас.
-
-### Други
-
-- Добавена е нова функция за FieldEQ като OfficeMath. <sup>22.9</sup>
-- Създаване на структурирани документи на Group е бил разрешен тип на ниво Ред. <sup>22.9</sup>
-- OLE обекти и контроли сега се третират като метафилни изображения при конвертиране на документ в HTML. <sup>22.0</sup>
-- Нова функция за проверка, че даден списък е създаден от същия шаблон като списъка в сравнение е добавен чрез въвеждане на нов [HasSameTemplate](https://reference.aspose.com/words/java/com.aspose.words/list/#hasSameTemplate-com.aspose.words.List-) метод в [List](https://reference.aspose.com/words/java/com.aspose.words/list/) Клас. <sup>22.10</sup>
-- Възможността за създаване на нови структурирани тагове на документа [Citation](https://reference.aspose.com/words/java/com.aspose.words/sdttype/) типът е добавен. <sup>22.11</sup>
-- Осигурява се възможност за проследяване на напредъка в актуализирането на полето. <sup>22.11</sup>
-- Нов. **EmbedAttachments** Въведен е имот, който позволява на потребителите да вграждат прикачени файлове OLE от изходния документ в изходния PDF документ. <sup>22.11</sup>
-
-{{% alert color="primary" %}}
-
-Научете повече за [Aspose.Words вместо Java 22.9 Бележки за освобождаване](/words/java/aspose-words-for-java-22-9-release-notes/).
-
-Научете повече за [Aspose.Words вместо Java 22.10 Бележки за освобождаване](/words/java/aspose-words-for-java-22-10-release-notes/).
-
-Научете повече за [Aspose.Words вместо Java 22.11 Бележки за освобождаване](/words/java/aspose-words-for-java-22-11-release-notes/).
-
-Научете повече за [Aspose.Words вместо Java 22.12 Бележки за освобождаване](/words/java/aspose-words-for-java-22-12-release-notes/).
 
 {{% /alert %}}
 
