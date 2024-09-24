@@ -25,18 +25,18 @@ Rendering of graduations on radial charts has been implemented.
 
 #### Underline Formatting when Loading Markdown Files
 
-The option to recognize underline formatting when loading Markdown documents has been incorporated by adding a new public property [import_underline_formatting property](https://reference.aspose.com/words/python-net/aspose.words.loading/markdownloadoptions/import_underline_formatting/).
+The option to recognize underline formatting when loading Markdown documents has been incorporated by adding a new public property [ImportUnderlineFormatting]().
 
 ### Digital Signatures
 
 #### Sign Documents with XAdES-EPES
 
-The ability to sign documents with XAdES-EPES level XML-DSig signatures has been introdused by adding a new public property [xml_dsig_level](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/signoptions/xml_dsig_level/) and a new public enumeration [XmlDsigLevel](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/xmldsiglevel/).
+The ability to sign documents with XAdES-EPES level XML-DSig signatures has been introdused by adding a new public property [XmlDsigLevel]() and a new public enumeration [XmlDsigLevel]().
 
 ### Other
 
 * A new public method [InsertGroupShape]() has been added to group shapes.
-* A new public method **insert_structured_document_tag** has been added to insert **StructuredDocumentTags** into a document.
+* A new public method [InsertStructuredDocumentTag]() has been added to insert **StructuredDocumentTags** into a document.
 * Public access to footnote/endnote separators has been provided by adding a few public classes and properties.
 
 {{% alert color="primary" %}}
