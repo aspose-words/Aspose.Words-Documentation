@@ -1,5 +1,5 @@
 ---
-title: `Lucrul cu forme în C#`
+title: Lucrul cu forme în C#
 second_title: Aspose.Words pentru .NET
 articleTitle: Lucrul cu forme
 linktitle: Lucrul cu forme
