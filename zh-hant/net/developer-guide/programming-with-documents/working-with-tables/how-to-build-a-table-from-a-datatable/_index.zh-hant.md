@@ -13,7 +13,7 @@ url: /zh-hant/net/how-to-build-a-table-from-a-datatable/
 
 {{% alert color="primary" %}}
 
-請注意，以 **DataTable** 資料插入至文書表格中首選的方式是使用 [Mail Merge with Regions](https://docs.aspose.com/words/net/types-of-mail-merge-operations/#mail-merge-with-regions) 。 本文所述的技術是僅在你無法事先建立適合合併資料的範本時才建議使用，也就是如果你需要一切都必須以程式方式發生。
+請注意，以 **DataTable** 資料插入至文書表格中首選的方式是使用 [Mail Merge with Regions](/words/net/types-of-mail-merge-operations/#mail-merge-with-regions) 。 本文所述的技術是僅在你無法事先建立適合合併資料的範本時才建議使用，也就是如果你需要一切都必須以程式方式發生。
 
 {{% /alert %}}
 

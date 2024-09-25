@@ -46,5 +46,5 @@ DOCX 'B' سند - اندازه 0.35 MB (فقط 1 صفحه) با تصویر PNG �
 ## همچنین ببینید
 
 * [ارائه دهنده](/words/fa/java/rendering/)
-* [Mail Merge گزارش](https://docs.aspose.com/words/java/mail-merge-and-reporting/)
+* [Mail Merge گزارش](/words/java/mail-merge-and-reporting/)
 * [کار با زمینه ها](/words/fa/java/working-with-fields/)

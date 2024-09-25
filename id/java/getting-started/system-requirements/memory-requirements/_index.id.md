@@ -46,5 +46,5 @@ Jika hasil profil Anda menunjukkan masalah memori yang mungkin dalam Aspose.Word
 ## Lihat Juga
 
 * [Login](/words/id/java/rendering/)
-* [Mail Merge Login](https://docs.aspose.com/words/java/mail-merge-and-reporting/)
+* [Mail Merge Login](/words/java/mail-merge-and-reporting/)
 * [Sitemap](/words/id/java/working-with-fields/)

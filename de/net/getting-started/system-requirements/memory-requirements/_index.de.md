@@ -47,5 +47,5 @@ Wenn Ihre Profilierungsergebnisse auf ein mögliches Speicherproblem in Aspose.W
 
 * [Messen Sie die Speichernutzung in Visual Studio (C#, Visual Basic, C++, F#)](https://learn.microsoft.com/en-us/visualstudio/profiling/memory-usage?view=vs-2022)
 * [Rendern](/words/de/net/rendering/)
-* [Mail Merge und Berichterstattung](https://docs.aspose.com/words/net/mail-merge-and-reporting/)
+* [Mail Merge und Berichterstattung](/words/net/mail-merge-and-reporting/)
 * [Arbeiten mit Feldern](/words/de/net/working-with-fields/)

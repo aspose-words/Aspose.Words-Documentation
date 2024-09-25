@@ -47,5 +47,5 @@ Aspose.Words มีคุณสมบัติมากมายในการ�
 
 * [วัดการใช้หน่วยความจำใน Visual Studio (C#, Visual Basic, C++, F#)](https://learn.microsoft.com/en-us/visualstudio/profiling/memory-usage?view=vs-2022)
 * [กำลังแสดงผล](/words/th/net/rendering/)
-* [Mail Merge และการรายงาน](https://docs.aspose.com/words/net/mail-merge-and-reporting/)
+* [Mail Merge และการรายงาน](/words/net/mail-merge-and-reporting/)
 * [การทำงานกับฟิลด์](/words/th/net/working-with-fields/)

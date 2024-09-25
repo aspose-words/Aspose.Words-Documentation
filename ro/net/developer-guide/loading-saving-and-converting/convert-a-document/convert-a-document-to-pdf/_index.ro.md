@@ -83,9 +83,9 @@ Folosirea proprietăţii **OptimizeOutput** poate afecta acurateţea afişării 
 - Articolul [Rendering](/words/net/rendering/) pentru mai multe informații despre formatul de pagină fix și flux
 "- Articolul [Converting to Fixed-page Format](/words/net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) pentru mai multe informații despre aspectul paginii"
 - Articolul [Specify Rendering Options When Converting to PDF](/words/net/specify-rendering-options-when-converting-to-pdf/) pentru mai multe informații despre utilizarea clasei `PdfSaveOptions`
-- Articolul [Learn Features of Conversion to PDF/A and PDF/UA](https://docs.aspose.com/words/net/learn-features-of-conversion-to-pdf-a-pdf-ua/) care descrie care standard PDF și relevantele ISO pentru standardele PDF suportă Aspose.Words
-- Articolul [Which PDF Standard Is Better to Choose](https://docs.aspose.com/words/net/which-pdf-standard-is-better-to-choose/) pentru a determina care standarde PDF au sens pentru care cazuri
+- Articolul [Learn Features of Conversion to PDF/A and PDF/UA](/words/net/learn-features-of-conversion-to-pdf-a-pdf-ua/) care descrie care standard PDF și relevantele ISO pentru standardele PDF suportă Aspose.Words
+- Articolul [Which PDF Standard Is Better to Choose](/words/net/which-pdf-standard-is-better-to-choose/) pentru a determina care standarde PDF au sens pentru care cazuri
 
-- Articolul [Working with PDF/A or PDF/UA](https://docs.aspose.com/words/net/working-with-pdfa-or-pdfua/) descrie cerințele pentru conținutul documentului în formatul PDF/A și PDF/UA – în principal cerințele pentru structură și fonturi
+- Articolul [Working with PDF/A or PDF/UA](/words/net/working-with-pdfa-or-pdfua/) descrie cerințele pentru conținutul documentului în formatul PDF/A și PDF/UA – în principal cerințele pentru structură și fonturi
 
-- Articolul [Accessibility Issue Warnings When Saving to PDF/A and PDF/UA](https://docs.aspose.com/words/net/warnings-when-saving-to-pdfa-and-pdfua/) descrie ce cerințe de accesibilitate a conținutului impun PDF/A și PDF/UA
+- Articolul [Accessibility Issue Warnings When Saving to PDF/A and PDF/UA](/words/net/warnings-when-saving-to-pdfa-and-pdfua/) descrie ce cerințe de accesibilitate a conținutului impun PDF/A și PDF/UA

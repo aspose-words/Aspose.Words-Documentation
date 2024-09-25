@@ -13,7 +13,7 @@ Vaše aplikace často vytáhne data z databáze a uloží je ve formě **DataTab
 
 {{% alert color="primary" %}}
 
-Všimněte si, že preferovaný způsob vložení dat z **DataTable** do tabulky dokumentů pomocí [Mail Merge s regiony](https://docs.aspose.com/words/net/types-of-mail-merge-operations/#mail-merge-with-regions). Technika uvedená v tomto článku je navržena pouze tehdy, pokud nejste schopni vytvořit vhodnou šablonu před rukou pro sloučení dat s, jinými slovy, pokud požadujete, aby se vše stalo programově.
+Všimněte si, že preferovaný způsob vložení dat z **DataTable** do tabulky dokumentů pomocí [Mail Merge s regiony](/words/net/types-of-mail-merge-operations/#mail-merge-with-regions). Technika uvedená v tomto článku je navržena pouze tehdy, pokud nejste schopni vytvořit vhodnou šablonu před rukou pro sloučení dat s, jinými slovy, pokud požadujete, aby se vše stalo programově.
 
 {{% /alert %}}
 

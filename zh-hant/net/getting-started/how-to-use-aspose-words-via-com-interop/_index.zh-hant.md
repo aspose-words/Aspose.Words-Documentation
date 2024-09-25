@@ -31,11 +31,11 @@ url: /zh-hant/net/how-to-use-aspose-words-via-com-interop/
 
 - 在你編程語言中使用 COM 個物件。 「參閱你的程式語言的文件以及此文件中的語言特定主題。」
 "- 使用 COM 個由 .NET COM Interop 所公開的物件。" 在MSDN中查看 [Interoperating With Unmanaged Code](https://learn.microsoft.com/en-us/dotnet/framework/interop/) 和 [Exposing .NET Framework Components to COM](https://learn.microsoft.com/en-us/dotnet/framework/interop/exposing-dotnet-components-to-com)。
-"- Aspose.Words 文檔物件模型。" 「請看 Aspose.Words、[Developer Guide](https://docs.aspose.com/words/net/developer-guide/) 和 [API Reference](https://reference.aspose.com/words/net/)。」
+"- Aspose.Words 文檔物件模型。" 「請看 Aspose.Words、[Developer Guide](/words/net/developer-guide/) 和 [API Reference](https://reference.aspose.com/words/net/)。」
 
 ## 「以 Aspose.Words 在 .NET 中註冊 COM Interop」
 
-「在 [installation Aspose.Words for .NET](https://docs.aspose.com/words/net/installation/) 之後，您需要使用 `regasm.exe` 工具為 Aspose.Words 註冊 COM Interop。」
+「在 [installation Aspose.Words for .NET](/words/net/installation/) 之後，您需要使用 `regasm.exe` 工具為 Aspose.Words 註冊 COM Interop。」
 
 「`regasm.exe`是一個包含在 .NET Framework SDK 的工具。」 .NET Framework SDK 工具都位於 `%windir%\Microsoft .NET\Framework\<FrameworkVersion>\` 目錄，例如 *C:\Windows\Microsoft.NET\Framework\v4.0.30319*。
 

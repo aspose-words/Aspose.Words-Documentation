@@ -62,8 +62,8 @@ Python via .NET용 Aspose.Words를 사용하면 타사 애플리케이션이나 
 						<ul>
 								<li><a href="/words/ko/python-net/loading-saving-and-converting/">로드, 저장 및 변환</a></li>
 								<li><a href="/words/ko/python-net/rendering/">표현</a></li>
-								<li><a href="https://docs.aspose.com/words/python-net/mail-merge-and-reporting/">Mail Merge 및 보고</a></li>
-								<li><a href="https://docs.aspose.com/words/python-net/linq-reporting-engine/">LINQ 보고 엔진</a></li>
+								<li><a href="/words/python-net/mail-merge-and-reporting/">Mail Merge 및 보고</a></li>
+								<li><a href="/words/python-net/linq-reporting-engine/">LINQ 보고 엔진</a></li>
 								<li><a href="/words/ko/python-net/programming-with-documents/">문서를 이용한 프로그래밍</a></li>
 						</ul>
 						<p>기술적 지원</p>

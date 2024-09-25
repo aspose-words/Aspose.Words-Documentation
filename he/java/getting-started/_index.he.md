@@ -17,9 +17,9 @@ url: /he/java/getting-started/
 - - [שלום, עולם!](/words/he/java/hello-world/) - מספק מידע על איך לבדוק שתוכנה שנועדה ליצור או להפעיל קוד מקור מותקנת כראוי
 - - [מסמך](/words/he/java/supported-document-formats/) מספק מידע על פורמטים נתמך
 - - [תכונות תמיכה](/words/he/java/features/) מספק מידע על אילו תכונות נתמכות בעת טעינה או שמירת מסמך בפורמטים שונים
-- - [פלטפורמות תמיכה](https://docs.aspose.com/words/java/platforms-and-interoperability/) מספק מידע על השימוש Aspose.Words בעת בניית יישומים לפלטפורמות אחרות
+- - [פלטפורמות תמיכה](/words/java/platforms-and-interoperability/) מספק מידע על השימוש Aspose.Words בעת בניית יישומים לפלטפורמות אחרות
 - - [רישוי ומנוי](/words/he/java/licensing/) - מספק מידע על יישום רישיון ושימוש במוצרים מרובים
-- - [למה למה למה למה Aspose.Words](https://docs.aspose.com/words/java/aspose-words-or-other-solutions/) מתאר את הסיבות מדוע רכיבים הם הרבה יותר טובים מאשר Microsoft Office Automation
+- - [למה למה למה למה Aspose.Words](/words/java/aspose-words-or-other-solutions/) מתאר את הסיבות מדוע רכיבים הם הרבה יותר טובים מאשר Microsoft Office Automation
 - - [דרישות מערכת](/words/he/java/system-requirements/) מספק מידע על דרישות מערכת ופיתוח
 - - [הערות אבטחה](/words/he/java/security/) - מתאר הערות וטיפים כיצד להימנע מבעיות אבטחה נפוצות
 - - [כיצד לנהל את הדוגמאות](/words/he/java/how-to-run-the-examples/) - מתאר כיצד להוריד ולהפעיל את הדוגמאות ואת אילו דרישות תוכנה יש למלא

@@ -47,5 +47,5 @@ Profil oluşturma sonuçlarınız Aspose.Words'te olası bir bellek sorununu gö
 
 * [Visual Studio'te (C#, Visual Basic, C++, F#) bellek kullanımını ölçün](https://learn.microsoft.com/en-us/visualstudio/profiling/memory-usage?view=vs-2022)
 * [İşleme](/words/tr/net/rendering/)
-* [Mail Merge ve Raporlama](https://docs.aspose.com/words/net/mail-merge-and-reporting/)
+* [Mail Merge ve Raporlama](/words/net/mail-merge-and-reporting/)
 * [Alanlarla Çalışmak](/words/tr/net/working-with-fields/)

@@ -366,13 +366,13 @@ Nuevo LowCode se han añadido métodos destinados a fusionar diferentes tipos de
 
 {{% alert color="primary" %}}
 
-Aprender más acerca de [Aspose.Words para Java 23.5 Notas de lanzamiento](/words/java/aspose-words-for-java-23-5-release-notes/).
+Aprender más acerca de [Aspose.Words para Java 23.5 Notas de lanzamiento](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-5-release-notes/).
 
 Aprender más acerca de [Aspose.Words para Java 23.6 Notas de lanzamiento](/words/java/aspose-words-for-java-23-6-release-notes/).
 
-Aprender más acerca de [Aspose.Words para Java 23.7 Notas de lanzamiento](/words/java/aspose-words-for-java-23-7-release-notes/).
+Aprender más acerca de [Aspose.Words para Java 23.7 Notas de lanzamiento](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-7-release-notes/).
 
-Aprender más acerca de [Aspose.Words para Java 23.8 Notas de lanzamiento](/words/java/aspose-words-for-java-23-8-release-notes/).
+Aprender más acerca de [Aspose.Words para Java 23.8 Notas de lanzamiento](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-8-release-notes/).
 
 {{% /alert %}}
 
@@ -454,11 +454,11 @@ Se ha añadido la capacidad de especificar si se ajusta automáticamente la fras
 
 {{% alert color="primary" %}}
 
-Aprender más acerca de [Aspose.Words para Java 23.1 Notas de lanzamiento](/words/java/aspose-words-for-java-23-1-release-notes/).
+Aprender más acerca de [Aspose.Words para Java 23.1 Notas de lanzamiento](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-1-release-notes/).
 
 Aprender más acerca de [Aspose.Words para Java 23.2 Notas de lanzamiento](/words/java/aspose-words-for-java-23-2-release-notes/).
 
-Aprender más acerca de [Aspose.Words para Java 23.3 Notas de lanzamiento](/words/java/aspose-words-for-java-23-3-release-notes/).
+Aprender más acerca de [Aspose.Words para Java 23.3 Notas de lanzamiento](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-3-release-notes/).
 
 Aprender más acerca de [Aspose.Words para Java 23.4 Notas de lanzamiento](/words/java/aspose-words-for-java-23-4-release-notes/).
 
@@ -468,6 +468,6 @@ Aprender más acerca de [Aspose.Words para Java 23.4 Notas de lanzamiento](/word
 
 {{% alert color="primary" %}}
 
-Esta página contiene las últimas noticias de lanzamiento de los últimos 2 años. Para más detalles sobre versiones anteriores, consulte [Notas de lanzamiento '](/words/java/release-notes/) páginas en las secciones pertinentes.
+Esta página contiene las últimas noticias de lanzamiento de los últimos 2 años. Para más detalles sobre versiones anteriores, consulte [Notas de lanzamiento '](https://releases.aspose.com/words/java/release-notes/) páginas en las secciones pertinentes.
 
 {{% /alert %}}

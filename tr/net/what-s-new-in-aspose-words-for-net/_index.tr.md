@@ -283,7 +283,7 @@ TXT belgelerini yüklerken köprüleri tanıma özelliği, yeni bir [DetectHyper
 
 {{% alert color="primary" %}}
 
-[.NET 23.9 Sürüm Notları için Aspose.Words](/words/net/aspose-words-for-net-23-9-release-notes/) hakkında daha fazla bilgi edinin.
+[.NET 23.9 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-9-release-notes/) hakkında daha fazla bilgi edinin.
 
 [.NET 23.10 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-10-release-notes/) hakkında daha fazla bilgi edinin.
 
@@ -376,7 +376,7 @@ Farklı türdeki belgeleri tek bir çıktı belgesinde birleştirmeyi amaçlayan
 
 [.NET 23.6 Sürüm Notları için Aspose.Words](/words/net/aspose-words-for-net-23-6-release-notes/) hakkında daha fazla bilgi edinin.
 
-[.NET 23.7 Sürüm Notları için Aspose.Words](/words/net/aspose-words-for-net-23-7-release-notes/) hakkında daha fazla bilgi edinin.
+[.NET 23.7 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/) hakkında daha fazla bilgi edinin.
 
 [.NET 23.8 Sürüm Notları için Aspose.Words](/words/net/aspose-words-for-net-23-8-release-notes/) hakkında daha fazla bilgi edinin.
 
@@ -462,11 +462,11 @@ MOBI ve AZW3 formatları için ilerleme bildirimlerinin kaydedilmesi uygulandı.
 
 [.NET 23.1 Sürüm Notları için Aspose.Words](/words/net/aspose-words-for-net-23-1-release-notes/) hakkında daha fazla bilgi edinin.
 
-[.NET 23.2 Sürüm Notları için Aspose.Words](/words/net/aspose-words-for-net-23-2-release-notes/) hakkında daha fazla bilgi edinin.
+[.NET 23.2 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-2-release-notes/) hakkında daha fazla bilgi edinin.
 
 [.NET 23.3 Sürüm Notları için Aspose.Words](/words/net/aspose-words-for-net-23-3-release-notes/) hakkında daha fazla bilgi edinin.
 
-[.NET 23.4 Sürüm Notları için Aspose.Words](/words/net/aspose-words-for-net-23-4-release-notes/) hakkında daha fazla bilgi edinin.
+[.NET 23.4 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-4-release-notes/) hakkında daha fazla bilgi edinin.
 
 {{% /alert %}}
 

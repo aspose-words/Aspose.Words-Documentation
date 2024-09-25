@@ -368,13 +368,13 @@ JSON 文字列の値の空白を保存するために、LINQ Reporting Engine �
 
 {{% alert color="primary" %}}
 
-詳しくはこちら [Aspose.Words お問い合わせ Java 23.5 リリースノート](/words/java/aspose-words-for-java-23-5-release-notes/)お問い合わせ
+詳しくはこちら [Aspose.Words お問い合わせ Java 23.5 リリースノート](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-5-release-notes/)お問い合わせ
 
 詳しくはこちら [Aspose.Words お問い合わせ Java 23.6リリースノート](/words/java/aspose-words-for-java-23-6-release-notes/)お問い合わせ
 
-詳しくはこちら [Aspose.Words お問い合わせ Java 23.7リリースノート](/words/java/aspose-words-for-java-23-7-release-notes/)お問い合わせ
+詳しくはこちら [Aspose.Words お問い合わせ Java 23.7リリースノート](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-7-release-notes/)お問い合わせ
 
-詳しくはこちら [Aspose.Words お問い合わせ Java 23.8 リリースノート](/words/java/aspose-words-for-java-23-8-release-notes/)お問い合わせ
+詳しくはこちら [Aspose.Words お問い合わせ Java 23.8 リリースノート](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-8-release-notes/)お問い合わせ
 
 {{% /alert %}}
 
@@ -456,11 +456,11 @@ MOBIおよびAZW3フォーマットの進捗通知を保存しました。
 
 {{% alert color="primary" %}}
 
-詳しくはこちら [Aspose.Words お問い合わせ Java 23.1リリースノート](/words/java/aspose-words-for-java-23-1-release-notes/)お問い合わせ
+詳しくはこちら [Aspose.Words お問い合わせ Java 23.1リリースノート](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-1-release-notes/)お問い合わせ
 
 詳しくはこちら [Aspose.Words お問い合わせ Java 23.2リリースノート](/words/java/aspose-words-for-java-23-2-release-notes/)お問い合わせ
 
-詳しくはこちら [Aspose.Words お問い合わせ Java 23.3リリースノート](/words/java/aspose-words-for-java-23-3-release-notes/)お問い合わせ
+詳しくはこちら [Aspose.Words お問い合わせ Java 23.3リリースノート](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-3-release-notes/)お問い合わせ
 
 詳しくはこちら [Aspose.Words お問い合わせ Java 23.4 リリースノート](/words/java/aspose-words-for-java-23-4-release-notes/)お問い合わせ
 
@@ -470,6 +470,6 @@ MOBIおよびAZW3フォーマットの進捗通知を保存しました。
 
 {{% alert color="primary" %}}
 
-このページには、過去2年間に最新のリリースニュースが掲載されています。 以前のリリースの詳細については、 [リリースノート お問い合わせ](/words/java/release-notes/) 関連するセクションのページ。
+このページには、過去2年間に最新のリリースニュースが掲載されています。 以前のリリースの詳細については、 [リリースノート お問い合わせ](https://releases.aspose.com/words/java/release-notes/) 関連するセクションのページ。
 
 {{% /alert %}}

@@ -283,7 +283,7 @@ Aspose.Words 24.4 يعزز حفظ التنسيقات ، بعض خيارات ال
 
 {{% alert color="primary" %}}
 
-تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ .NET 23.9](/words/net/aspose-words-for-net-23-9-release-notes/).
+تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ .NET 23.9](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-9-release-notes/).
 
 تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ .NET 23.10](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-10-release-notes/).
 
@@ -376,7 +376,7 @@ Aspose.Words 24.4 يعزز حفظ التنسيقات ، بعض خيارات ال
 
 تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ .NET 23.6](/words/net/aspose-words-for-net-23-6-release-notes/).
 
-تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ .NET 23.7](/words/net/aspose-words-for-net-23-7-release-notes/).
+تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ .NET 23.7](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/).
 
 تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ .NET 23.8](/words/net/aspose-words-for-net-23-8-release-notes/).
 
@@ -462,11 +462,11 @@ Aspose.Words 24.4 يعزز حفظ التنسيقات ، بعض خيارات ال
 
 تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ .NET 23.1](/words/net/aspose-words-for-net-23-1-release-notes/).
 
-تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ .NET 23.2](/words/net/aspose-words-for-net-23-2-release-notes/).
+تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ .NET 23.2](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-2-release-notes/).
 
 تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ .NET 23.3](/words/net/aspose-words-for-net-23-3-release-notes/).
 
-تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ .NET 23.4](/words/net/aspose-words-for-net-23-4-release-notes/).
+تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ .NET 23.4](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-4-release-notes/).
 
 {{% /alert %}}
 

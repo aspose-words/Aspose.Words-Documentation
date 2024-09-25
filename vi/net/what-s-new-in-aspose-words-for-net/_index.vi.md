@@ -283,7 +283,7 @@ Tính năng nhận dạng siêu liên kết khi tải tài liệu TXT đã đư�
 
 {{% alert color="primary" %}}
 
-Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 23.9](/words/net/aspose-words-for-net-23-9-release-notes/).
+Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 23.9](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-9-release-notes/).
 
 Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 23.10](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-10-release-notes/).
 
@@ -376,7 +376,7 @@ Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 23.5](/words/
 
 Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 23.6](/words/net/aspose-words-for-net-23-6-release-notes/).
 
-Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 23.7](/words/net/aspose-words-for-net-23-7-release-notes/).
+Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 23.7](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/).
 
 Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 23.8](/words/net/aspose-words-for-net-23-8-release-notes/).
 
@@ -462,11 +462,11 @@ Khả năng chỉ định xem có tự động điều chỉnh khoảng cách gi
 
 Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 23.1](/words/net/aspose-words-for-net-23-1-release-notes/).
 
-Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 23.2](/words/net/aspose-words-for-net-23-2-release-notes/).
+Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 23.2](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-2-release-notes/).
 
 Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 23.3](/words/net/aspose-words-for-net-23-3-release-notes/).
 
-Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 23.4](/words/net/aspose-words-for-net-23-4-release-notes/).
+Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 23.4](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-4-release-notes/).
 
 {{% /alert %}}
 

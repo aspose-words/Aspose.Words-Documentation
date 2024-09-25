@@ -26,13 +26,13 @@ With Aspose.Words for C++, you can generate, modify, convert, and render documen
 		<p><b>About Aspose.Words</b></p>
 			<hr><p>OVERVIEW</p></hr>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/cpp/what-s-new-in-aspose-words-for-cpp/">What's new in Aspose.Words for C++</a></li>
-				<li><a href="https://docs.aspose.com/words/cpp/product-overview/">Product Overview</a></li>
-				<li><a href="https://docs.aspose.com/words/cpp/licensing/">Licensing and Subscription</a></li>
+				<li><a href="/words/cpp/what-s-new-in-aspose-words-for-cpp/">What's new in Aspose.Words for C++</a></li>
+				<li><a href="/words/cpp/product-overview/">Product Overview</a></li>
+				<li><a href="/words/cpp/licensing/">Licensing and Subscription</a></li>
 			</ul>            
 			<p>GET STARTED</p>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/cpp/getting-started/">Getting Started</a></li>
+				<li><a href="/words/cpp/getting-started/">Getting Started</a></li>
 			</ul>
 			<p>USEFUL RESOURCES</p>
 			<ul>
@@ -45,26 +45,26 @@ With Aspose.Words for C++, you can generate, modify, convert, and render documen
 		<p><b>Get Started</b></p>
 			<hr><p>GETTING STARTED</p></hr>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/cpp/supported-document-formats/">Supported Document Formats</a></li>
-				<li><a href="https://docs.aspose.com/words/cpp/features/">Features</a></li>
-				<li><a href="https://docs.aspose.com/words/cpp/system-requirements/">System Requirements</a></li>
-				<li><a href="https://docs.aspose.com/words/cpp/installation/">Installation</a></li>
+				<li><a href="/words/cpp/supported-document-formats/">Supported Document Formats</a></li>
+				<li><a href="/words/cpp/features/">Features</a></li>
+				<li><a href="/words/cpp/system-requirements/">System Requirements</a></li>
+				<li><a href="/words/cpp/installation/">Installation</a></li>
 				<li><a href="https://www.nuget.org/packages/Aspose.Words.Cpp/">Install Aspose.Words for C++ NuGet Package</a></li>
 			</ul>
 			<p>LEARN</p>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/cpp/how-to-run-the-examples/">How to Run the Examples</a></li>
-				<li><a href="https://docs.aspose.com/words/cpp/security/">Security Notes</a></li>
+				<li><a href="/words/cpp/how-to-run-the-examples/">How to Run the Examples</a></li>
+				<li><a href="/words/cpp/security/">Security Notes</a></li>
 			</ul>
 	</div>
 	<div class="col-md-4">
 		<p><b>Develop Functions</b></p>
 			<hr><p>GUIDE</p></hr>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/cpp/loading-saving-and-converting/">Loading, Saving and Converting</a></li>
-				<li><a href="https://docs.aspose.com/words/cpp/rendering/">Rendering</a></li>
-				<li><a href="https://docs.aspose.com/words/cpp/mail-merge-and-reporting/">Mail Merge and Reporting</a></li>
-				<li><a href="https://docs.aspose.com/words/cpp/programming-with-documents/">Programming with Documents</a></li>
+				<li><a href="/words/cpp/loading-saving-and-converting/">Loading, Saving and Converting</a></li>
+				<li><a href="/words/cpp/rendering/">Rendering</a></li>
+				<li><a href="/words/cpp/mail-merge-and-reporting/">Mail Merge and Reporting</a></li>
+				<li><a href="/words/cpp/programming-with-documents/">Programming with Documents</a></li>
 				<li><a href="https://reference.aspose.com/words/cpp">Aspose.Words for C++ API Reference Guide</a></li>
 			</ul>
 			<p>LEARN</p>

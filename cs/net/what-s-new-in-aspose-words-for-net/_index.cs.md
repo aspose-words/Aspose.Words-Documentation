@@ -283,7 +283,7 @@ Funkce rozpoznat hypertextové odkazy při načítání TXT dokumentů byla impl
 
 {{% alert color="primary" %}}
 
-Více informací o [Aspose.Words místo .NET 23.9 Poznámky k vydání](/words/net/aspose-words-for-net-23-9-release-notes/).
+Více informací o [Aspose.Words místo .NET 23.9 Poznámky k vydání](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-9-release-notes/).
 
 Více informací o [Aspose.Words místo .NET 23.10 Poznámky k vydání](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-10-release-notes/).
 
@@ -376,7 +376,7 @@ Více informací o [Aspose.Words místo .NET 23.5 Poznámky k vydání](/words/n
 
 Více informací o [Aspose.Words místo .NET 23.6 Poznámky k vydání](/words/net/aspose-words-for-net-23-6-release-notes/).
 
-Více informací o [Aspose.Words místo .NET 23.7 Poznámky k vydání](/words/net/aspose-words-for-net-23-7-release-notes/).
+Více informací o [Aspose.Words místo .NET 23.7 Poznámky k vydání](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/).
 
 Více informací o [Aspose.Words místo .NET 23.8 Poznámky k vydání](/words/net/aspose-words-for-net-23-8-release-notes/).
 
@@ -462,11 +462,11 @@ Možnost určit, zda při importu dokumentu automaticky upravit věty a rozestup
 
 Více informací o [Aspose.Words místo .NET 23.1 Poznámky k vydání](/words/net/aspose-words-for-net-23-1-release-notes/).
 
-Více informací o [Aspose.Words místo .NET 23.2 Poznámky k vydání](/words/net/aspose-words-for-net-23-2-release-notes/).
+Více informací o [Aspose.Words místo .NET 23.2 Poznámky k vydání](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-2-release-notes/).
 
 Více informací o [Aspose.Words místo .NET 23.3 Poznámky k vydání](/words/net/aspose-words-for-net-23-3-release-notes/).
 
-Více informací o [Aspose.Words místo .NET 23.4 Poznámky k vydání](/words/net/aspose-words-for-net-23-4-release-notes/).
+Více informací o [Aspose.Words místo .NET 23.4 Poznámky k vydání](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-4-release-notes/).
 
 {{% /alert %}}
 

@@ -64,8 +64,8 @@ Aspose.Words, DOC, DOCX, RTF, HTML, Markdown, PDF, XPS, EPUB ve diğerleri gibi 
 						<ul>
 								<li><a href="/words/tr/net/loading-saving-and-converting/">Yükleme, Kaydetme ve Dönüştürme</a></li>
 								<li><a href="/words/tr/net/rendering/">İşleme</a></li>
-								<li><a href="https://docs.aspose.com/words/net/mail-merge-and-reporting/">Mail Merge ve Raporlama</a></li>
-								<li><a href="https://docs.aspose.com/words/net/linq-reporting-engine/">LINQ Raporlama Motoru</a></li>
+								<li><a href="/words/net/mail-merge-and-reporting/">Mail Merge ve Raporlama</a></li>
+								<li><a href="/words/net/linq-reporting-engine/">LINQ Raporlama Motoru</a></li>
 								<li><a href="/words/tr/net/print-a-document-programmatically-or-using-dialogs/">Bir Belgeyi Programlı Olarak Yazdırma veya İletişim Kutularını Kullanma</a></li>
 								<li><a href="/words/tr/net/programming-with-documents/">Belgelerle Programlama</a></li>
 								<li><a href="https://reference.aspose.com/words/net">.NET API Reference Kılavuzu için Aspose.Words</a></li>

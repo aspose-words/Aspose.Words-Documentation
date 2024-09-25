@@ -15,8 +15,8 @@ Untuk mempelajari lebih lanjut Aspose.Words Sitemap Java fitur yang dapat Anda p
 
 - Login [Login](/words/id/java/loading-saving-and-converting/) - memberikan informasi tentang cara yang berbeda untuk memuat atau menyimpan dokumen dan fitur-fitur khusus format yang berguna untuk mengkonversi dokumen dari satu format ke format lain.
 - Login [Login](/words/id/java/rendering/) - memberikan informasi tentang cara mendapatkan representasi yang disusun dari dokumen dalam format halaman yang mengalir.
-- Login [Mail Merge Login](https://docs.aspose.com/words/java/mail-merge-and-reporting/) - memberikan informasi tentang menghasilkan dokumen, seperti laporan, katalog, penemuan, dan faktur, dari template dengan mail merge Login
-- Login [Login](https://docs.aspose.com/words/java/linq-reporting-engine/) - memberikan informasi tentang laporan bangunan menggunakan fitur pelaporan yang diperluas.
+- Login [Mail Merge Login](/words/java/mail-merge-and-reporting/) - memberikan informasi tentang menghasilkan dokumen, seperti laporan, katalog, penemuan, dan faktur, dari template dengan mail merge Login
+- Login [Login](/words/java/linq-reporting-engine/) - memberikan informasi tentang laporan bangunan menggunakan fitur pelaporan yang diperluas.
 - Login [Login](/words/id/java/print-a-document-programmatically-or-using-dialogs/) - memberikan informasi tentang cara mencetak dokumen dengan berbagai cara dan menyempurnakan operasi cetak untuk menerapkan logika kustom Anda.
 - Login [Pemrograman dengan Dokumen](/words/id/java/programming-with-documents/) - memberikan informasi tentang cara membuat programmatically, memodifikasi, dan mengelola dokumen termasuk mengubah konten dan tampilan visual mereka.
 

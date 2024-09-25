@@ -63,8 +63,8 @@ S Aspose.Words místo Java, můžete vytvářet, upravovat, převádět, vykresl
 			<ul>
 				<li><a href="/words/cs/java/loading-saving-and-converting/">Načítání, ukládání a převod</a></li>
 				<li><a href="/words/cs/java/rendering/">Renderování</a></li>
-				<li><a href="https://docs.aspose.com/words/java/mail-merge-and-reporting/">Mail Merge a využití prostředků</a></li>
-				<li><a href="https://docs.aspose.com/words/java/linq-reporting-engine/">LINQ Vykazovací motor</a></li>
+				<li><a href="/words/java/mail-merge-and-reporting/">Mail Merge a využití prostředků</a></li>
+				<li><a href="/words/java/linq-reporting-engine/">LINQ Vykazovací motor</a></li>
 				<li><a href="/words/cs/java/print-a-document-programmatically-or-using-dialogs/">Tisk dokumentu Programově nebo pomocí dialogů</a></li>
 				<li><a href="/words/cs/java/programming-with-documents/">Programování s dokumenty</a></li>
 				<li><a href="https://reference.aspose.com/words/java">Aspose.Words Místo Java API Reference Průvodce</a></li>

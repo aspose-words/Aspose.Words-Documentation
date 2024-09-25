@@ -153,5 +153,5 @@ Contoh kode berikut menunjukkan cara mengubah properti halaman di semua bagian:
 
 ## Lihat juga
 
-- [Tingkat Logis Node dalam Dokumen](https://docs.aspose.com/words/python-net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
+- [Tingkat Logis Node dalam Dokumen](/words/python-net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
 - [Sisipkan dan Lampirkan Dokumen](/words/id/python-net/insert-and-append-documents/)

@@ -15,8 +15,8 @@ Per saperne di più sulle funzionalità di Aspose.Words, seleziona la sezione co
 
 - [Caricamento, salvataggio e conversione](/words/it/net/loading-saving-and-converting/): fornisce informazioni sui diversi modi per caricare o salvare documenti e funzionalità specifiche del formato utili per convertire un documento da un formato a un altro.
 - [Rendering](/words/it/net/rendering/): fornisce informazioni su come ottenere una rappresentazione impaginata da un documento in formato pagina con layout di flusso.
-- [Mail Merge e reporting](https://docs.aspose.com/words/net/mail-merge-and-reporting/): fornisce informazioni sulla generazione di documenti, come report, cataloghi, inventari e fatture, da modelli con campi mail merge.
-- [Motore di reporting LINQ](https://docs.aspose.com/words/net/linq-reporting-engine/): fornisce informazioni sulla creazione di report utilizzando una serie estesa di funzionalità di reporting.
+- [Mail Merge e reporting](/words/net/mail-merge-and-reporting/): fornisce informazioni sulla generazione di documenti, come report, cataloghi, inventari e fatture, da modelli con campi mail merge.
+- [Motore di reporting LINQ](/words/net/linq-reporting-engine/): fornisce informazioni sulla creazione di report utilizzando una serie estesa di funzionalità di reporting.
 - [Stampa di un documento a livello di codice o utilizzando le finestre di dialogo](/words/it/net/print-a-document-programmatically-or-using-dialogs/): fornisce informazioni su come stampare un documento in vari modi e ottimizzare l'operazione di stampa per implementare la logica personalizzata.
 - [Programmazione con documenti](/words/it/net/programming-with-documents/): fornisce informazioni su come creare, modificare e gestire i documenti a livello di codice, inclusa la modifica del contenuto e dell'aspetto visivo.
 

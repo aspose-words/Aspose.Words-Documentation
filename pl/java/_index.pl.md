@@ -63,8 +63,8 @@ Z Aspose.Words zamiast Java, można generować, modyfikować, konwertować, rend
 			<ul>
 				<li><a href="/words/pl/java/loading-saving-and-converting/">Ładowanie, zapasowanie i konwertowanie</a></li>
 				<li><a href="/words/pl/java/rendering/">Renderowanie</a></li>
-				<li><a href="https://docs.aspose.com/words/java/mail-merge-and-reporting/">Mail Merge i świętości</a></li>
-				<li><a href="https://docs.aspose.com/words/java/linq-reporting-engine/">LINQ Silnik sprawozłszy</a></li>
+				<li><a href="/words/java/mail-merge-and-reporting/">Mail Merge i świętości</a></li>
+				<li><a href="/words/java/linq-reporting-engine/">LINQ Silnik sprawozłszy</a></li>
 				<li><a href="/words/pl/java/print-a-document-programmatically-or-using-dialogs/">Drugi dokument Programy lub projekty dialogów</a></li>
 				<li><a href="/words/pl/java/programming-with-documents/">Program z dokumentami</a></li>
 				<li><a href="https://reference.aspose.com/words/java">Aspose.Words zamiast Java API Reference Przewodnik</a></li>

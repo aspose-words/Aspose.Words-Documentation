@@ -153,5 +153,5 @@ Het volgende code voorbeeld laat zien hoe de pagina eigenschappen in alle sectie
 
 ## Zie ook
 
-- [Logische Nodesniveaus in een document](https://docs.aspose.com/words/python-net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
+- [Logische Nodesniveaus in een document](/words/python-net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
 - [Documenten invoegen en toevoegen](/words/nl/python-net/insert-and-append-documents/)

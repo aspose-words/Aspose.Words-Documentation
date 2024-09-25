@@ -17,9 +17,9 @@ Aspose.Words hakkında daha fazla bilgi edinmek için uygun bölümü seçin:
 - [Selam Dünya!](/words/tr/net/hello-world/) – kaynak kodunu derlemesi veya çalıştırması amaçlanan yazılımın doğru şekilde kurulduğunun nasıl test edileceğine ilişkin bilgi sağlar
 - [Desteklenen Belge Formatları](/words/tr/net/supported-document-formats/) – desteklenen formatlar hakkında bilgi sağlar
 - [Desteklenen Özellikler](/words/tr/net/features/) – bir belgeyi çeşitli formatlarda yüklerken veya kaydederken hangi özelliklerin desteklendiği hakkında bilgi sağlar
-- [Desteklenen Platformlar](https://docs.aspose.com/words/net/platforms-and-interoperability/) – diğer platformlar için uygulamalar oluştururken Aspose.Words kullanımına ilişkin bilgi sağlar
+- [Desteklenen Platformlar](/words/net/platforms-and-interoperability/) – diğer platformlar için uygulamalar oluştururken Aspose.Words kullanımına ilişkin bilgi sağlar
 - [Lisanslama ve Abonelik](/words/tr/net/licensing/) – lisans başvurusu ve birden fazla Aspose ürününün kullanılması hakkında bilgi sağlar
-- [Neden Aspose.Words](https://docs.aspose.com/words/net/aspose-words-or-other-solutions/) – Microsoft Office Automation veya Open XML SDK gibi diğer ürünler yerine Aspose ürünlerini kullanmanın neden daha iyi olabileceğinin nedenlerini açıklar
+- [Neden Aspose.Words](/words/net/aspose-words-or-other-solutions/) – Microsoft Office Automation veya Open XML SDK gibi diğer ürünler yerine Aspose ürünlerini kullanmanın neden daha iyi olabileceğinin nedenlerini açıklar
 - [sistem gereksinimleri](/words/tr/net/system-requirements/) – sistem ve geliştirme ortamı gereksinimleri hakkında bilgi sağlar
 - [Güvenlik Notları](/words/tr/net/security/) – yaygın güvenlik sorunlarından nasıl kaçınılacağına ilişkin notları ve ipuçlarını açıklar
 - [Örnekler Nasıl Çalıştırılır](/words/tr/net/how-to-run-the-examples/) – örneklerin nasıl indirilip çalıştırılacağını ve hangi yazılım gereksinimlerinin karşılanması gerektiğini açıklar

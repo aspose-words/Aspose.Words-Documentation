@@ -63,8 +63,8 @@ Aspose.Words پشتیبانی از اکثر فرمت های سند محبوب م
 			<ul>
 				<li><a href="/words/fa/java/loading-saving-and-converting/">بارگذاری، پس انداز و تبدیل</a></li>
 				<li><a href="/words/fa/java/rendering/">ارائه دهنده</a></li>
-				<li><a href="https://docs.aspose.com/words/java/mail-merge-and-reporting/">Mail Merge گزارش</a></li>
-				<li><a href="https://docs.aspose.com/words/java/linq-reporting-engine/">دانلود موسیقی متن بازی The Punch بازی Punch Punch LINQAIL</a></li>
+				<li><a href="/words/java/mail-merge-and-reporting/">Mail Merge گزارش</a></li>
+				<li><a href="/words/java/linq-reporting-engine/">دانلود موسیقی متن بازی The Punch بازی Punch Punch LINQAIL</a></li>
 				<li><a href="/words/fa/java/print-a-document-programmatically-or-using-dialogs/">دانلود موسیقی متن بازی The Punch بازی Punch Dialogs</a></li>
 				<li><a href="/words/fa/java/programming-with-documents/">برنامه نویسی با اسناد</a></li>
 				<li><a href="https://reference.aspose.com/words/java">Aspose.Words برای Java API Reference راهنمای راهنما</a></li>

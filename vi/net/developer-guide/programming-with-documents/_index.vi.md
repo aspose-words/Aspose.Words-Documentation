@@ -57,6 +57,6 @@ Hình thức trực quan của tài liệu là một chủ đề quan trọng kh
 - [Làm việc với các ký tự điều khiển](/words/vi/net/working-with-control-characters/)
 - [Làm việc với Macro VBA](/words/vi/net/working-with-vba-macros/)
 - [Làm việc với các tính năng của Markdown](/words/vi/net/working-with-markdown-features/)
-- [Làm việc với tài liệu văn bản](/words/net/work-with-text-document/)
+- [Làm việc với tài liệu văn bản](/words/net/working-with-text-document/)
 
 Để biết mô tả chi tiết về các lớp, phương thức và thuộc tính, hãy tham khảo phần Aspose.Words cho .NET API Reference.

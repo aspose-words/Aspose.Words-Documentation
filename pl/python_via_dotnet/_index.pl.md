@@ -62,8 +62,8 @@ Dzięki Aspose.Words dla Python via .NET możesz generować, modyfikować, konwe
 						<ul>
 								<li><a href="/words/pl/python-net/loading-saving-and-converting/">Ładowanie, zapisywanie i konwertowanie</a></li>
 								<li><a href="/words/pl/python-net/rendering/">Wykonanie</a></li>
-								<li><a href="https://docs.aspose.com/words/python-net/mail-merge-and-reporting/">Mail Merge i raportowanie</a></li>
-								<li><a href="https://docs.aspose.com/words/python-net/linq-reporting-engine/">Silnik raportowania LINQ</a></li>
+								<li><a href="/words/python-net/mail-merge-and-reporting/">Mail Merge i raportowanie</a></li>
+								<li><a href="/words/python-net/linq-reporting-engine/">Silnik raportowania LINQ</a></li>
 								<li><a href="/words/pl/python-net/programming-with-documents/">Programowanie z dokumentami</a></li>
 						</ul>
 						<p>POMOC TECHNICZNA</p>

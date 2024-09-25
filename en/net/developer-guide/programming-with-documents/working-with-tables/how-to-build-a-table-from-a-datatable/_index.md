@@ -13,7 +13,7 @@ Often your application will pull data from a database and store it in the form o
 
 {{% alert color="primary" %}}
 
-Note that the preferred way of inserting data from a **DataTable** into a document table is by using [Mail Merge with Regions](https://docs.aspose.com/words/net/types-of-mail-merge-operations/#mail-merge-with-regions). The technique presented in this article is only suggested if you are unable to create a suitable template before hand to merge data with, in other words if you require everything to happen programmatically.
+Note that the preferred way of inserting data from a **DataTable** into a document table is by using [Mail Merge with Regions](/words/net/types-of-mail-merge-operations/#mail-merge-with-regions). The technique presented in this article is only suggested if you are unable to create a suitable template before hand to merge data with, in other words if you require everything to happen programmatically.
 
 {{% /alert %}}
 

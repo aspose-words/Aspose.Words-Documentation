@@ -17,9 +17,9 @@ Aspose.Words についてさらに詳しく知るには、適切なセクショ�
 - [こんにちは世界！](/words/ja/net/hello-world/) – ソース コードのコンパイルまたは実行を目的としたソフトウェアが正しくインストールされていることをテストする方法に関する情報を提供します。
 - [サポートされているドキュメント形式](/words/ja/net/supported-document-formats/) – サポートされている形式に関する情報を提供します
 - [サポートされている機能](/words/ja/net/features/) – ドキュメントをさまざまな形式でロードまたは保存するときにサポートされる機能に関する情報を提供します。
-- [サポートされているプラットフォーム](https://docs.aspose.com/words/net/platforms-and-interoperability/) – 他のプラットフォーム用のアプリケーションを構築する際の Aspose.Words の使用に関する情報を提供します。
+- [サポートされているプラットフォーム](/words/net/platforms-and-interoperability/) – 他のプラットフォーム用のアプリケーションを構築する際の Aspose.Words の使用に関する情報を提供します。
 - [ライセンスとサブスクリプション](/words/ja/net/licensing/) – ライセンスの適用と複数の Aspose 製品の使用に関する情報を提供します。
-- [なぜAspose.Wordsなのか](https://docs.aspose.com/words/net/aspose-words-or-other-solutions/) – 他の製品 (Microsoft Office Automation や Open XML SDK など) ではなく、Aspose 製品を使用する方がよい理由について説明します。
+- [なぜAspose.Wordsなのか](/words/net/aspose-words-or-other-solutions/) – 他の製品 (Microsoft Office Automation や Open XML SDK など) ではなく、Aspose 製品を使用する方がよい理由について説明します。
 - [システム要求](/words/ja/net/system-requirements/) – システムおよび開発環境の要件に関する情報を提供します。
 - [セキュリティに関する注意事項](/words/ja/net/security/) – 一般的なセキュリティ問題を回避する方法に関する注意事項とヒントについて説明します。
 - [サンプルの実行方法](/words/ja/net/how-to-run-the-examples/) – サンプルをダウンロードして実行する方法と、満たす必要のあるソフトウェア要件について説明します。

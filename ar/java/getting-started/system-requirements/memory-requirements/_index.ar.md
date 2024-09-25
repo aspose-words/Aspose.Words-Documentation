@@ -46,5 +46,5 @@ Aspose.Words وتوفر مجموعة واسعة من السمات للعمل م�
 ## انظر أيضا
 
 * [Rendering](/words/ar/java/rendering/)
-* [Mail Merge and Reporting](https://docs.aspose.com/words/java/mail-merge-and-reporting/)
+* [Mail Merge and Reporting](/words/java/mail-merge-and-reporting/)
 * [العمل مع الحقول](/words/ar/java/working-with-fields/)

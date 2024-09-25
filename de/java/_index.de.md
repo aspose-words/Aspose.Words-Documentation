@@ -63,8 +63,8 @@ Mit Aspose.Words für Java, Sie können Dokumente ohne Drittanbieter-Anwendungen
 			<ul>
 				<li><a href="/words/de/java/loading-saving-and-converting/">Laden, Sparen und Umrechnen</a></li>
 				<li><a href="/words/de/java/rendering/">Rendering</a></li>
-				<li><a href="https://docs.aspose.com/words/java/mail-merge-and-reporting/">Mail Merge und Reporting</a></li>
-				<li><a href="https://docs.aspose.com/words/java/linq-reporting-engine/">LINQ Reporting Engine</a></li>
+				<li><a href="/words/java/mail-merge-and-reporting/">Mail Merge und Reporting</a></li>
+				<li><a href="/words/java/linq-reporting-engine/">LINQ Reporting Engine</a></li>
 				<li><a href="/words/de/java/print-a-document-programmatically-or-using-dialogs/">Drucken eines der Dokumente Programmierung oder Verwendung von Dialogen</a></li>
 				<li><a href="/words/de/java/programming-with-documents/">Programmierung mit Dokumenten</a></li>
 				<li><a href="https://reference.aspose.com/words/java">Aspose.Words für Java API Reference Leitfaden</a></li>

@@ -249,7 +249,7 @@ Bibliography Sources *{public {3} } 透過新增一個新的命名空間{0}、�
 
 {{% alert color="primary" %}}
 
-了解更多關於 [Aspose.Words for .NET 23.9 Release Notes](/words/net/aspose-words-for-net-23-9-release-notes/) 的信息。
+了解更多關於 [Aspose.Words for .NET 23.9 Release Notes](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-9-release-notes/) 的信息。
 
 了解更多關於 [Aspose.Words for .NET 23.10 Release Notes](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-10-release-notes/) 的資訊。
 
@@ -342,7 +342,7 @@ Bibliography Sources *{public {3} } 透過新增一個新的命名空間{0}、�
 
 了解更多關於 [Aspose.Words for .NET 23.6 Release Notes](/words/net/aspose-words-for-net-23-6-release-notes/) 的訊息。
 
-了解更多關於 [Aspose.Words for .NET 23.7 Release Notes](/words/net/aspose-words-for-net-23-7-release-notes/) 的資訊。
+了解更多關於 [Aspose.Words for .NET 23.7 Release Notes](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/) 的資訊。
 
 了解更多關於 [Aspose.Words for .NET 23.8 Release Notes](/words/net/aspose-words-for-net-23-8-release-notes/) 的資訊。
 
@@ -428,11 +428,11 @@ Bibliography Sources *{public {3} } 透過新增一個新的命名空間{0}、�
 
 了解更多關於[Aspose.Words for .NET 23.1 Release Notes](/words/net/aspose-words-for-net-23-1-release-notes/)的資訊。
 
-了解更多關於 [Aspose.Words for .NET 23.2 Release Notes](/words/net/aspose-words-for-net-23-2-release-notes/) 的資訊。
+了解更多關於 [Aspose.Words for .NET 23.2 Release Notes](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-2-release-notes/) 的資訊。
 
 瞭解更多關於 [Aspose.Words for .NET 23.3 Release Notes](/words/net/aspose-words-for-net-23-3-release-notes/) 的資訊。
 
-了解更多關於 [Aspose.Words for .NET 23.4 Release Notes](/words/net/aspose-words-for-net-23-4-release-notes/) 的資訊。
+了解更多關於 [Aspose.Words for .NET 23.4 Release Notes](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-4-release-notes/) 的資訊。
 
 {{% /alert %}}
 

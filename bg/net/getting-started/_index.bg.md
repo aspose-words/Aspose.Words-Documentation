@@ -17,9 +17,9 @@ url: /bg/net/getting-started/
 - [Здравей, Света!](/words/bg/net/hello-world/) год
 - [Поддържани формати на документи](/words/bg/net/supported-document-formats/) год
 - [Поддържани функции](/words/bg/net/features/) при зареждане или запазване на документ в различни формати го предоставя информация за това какви функции се поддържат
-- [Поддържани платформи](https://docs.aspose.com/words/net/platforms-and-interoperability/). Aspose.Words при изграждане на приложения за други платформи
+- [Поддържани платформи](/words/net/platforms-and-interoperability/). Aspose.Words при изграждане на приложения за други платформи
 - [Лицензиране и записване](/words/bg/net/licensing/) год. предоставя информация за прилагане на лиценз и използване на множество Aspose продукти
-- [Защо? Aspose.Words](https://docs.aspose.com/words/net/aspose-words-or-other-solutions/) го описва причините, поради които може да бъде по-добре да се използват Aspose продукти, отколкото други продукти, например, Microsoft Office Automation или Open XML SDK
+- [Защо? Aspose.Words](/words/net/aspose-words-or-other-solutions/) го описва причините, поради които може да бъде по-добре да се използват Aspose продукти, отколкото други продукти, например, Microsoft Office Automation или Open XML SDK
 - [Системни изисквания](/words/bg/net/system-requirements/) год
 - [Бележки по сигурността](/words/bg/net/security/) Описва бележки и съвети за това как да се избегне обща сигурност въпроси
 - [Как да използваме примерите](/words/bg/net/how-to-run-the-examples/) Описва как да изтеглите и стартирате примерите и какви софтуерни изисквания трябва да бъдат изпълнени

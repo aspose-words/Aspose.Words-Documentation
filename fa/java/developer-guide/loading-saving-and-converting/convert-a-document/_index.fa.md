@@ -40,14 +40,14 @@ description: "به راحتی اسناد را از یک فرمت به فرمت �
 	<div class="col-md-6">
 		<h2>تبدیل کلمه به PDF</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">دانلود زیرنویس فارسی بازی کامپیوتر</a></li>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">دانلود بازی DOCX Bend PDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">دانلود زیرنویس فارسی بازی کامپیوتر</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">دانلود بازی DOCX Bend PDF</a></li>
 				<li>و دیگران</li>
 			</ul>
 		<h2>تبدیل تصویر به PDF</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">دانلود بازی Ricoh JPG Bend PDF</a></li>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">دانلود موسیقی متن بازی The Punch بازی Punch Punch TIFF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">دانلود بازی Ricoh JPG Bend PDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">دانلود موسیقی متن بازی The Punch بازی Punch Punch TIFF</a></li>
 				<li>و دیگران</li>
 			</ul>
 		<h2>تبدیل Web Formats به PDF</h2>
@@ -81,7 +81,7 @@ description: "به راحتی اسناد را از یک فرمت به فرمت �
 			</ul>
 		<h2>تبدیل یک سند به HTML</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">دانلود بازی Punch HTML</a></li>
+				<li><a href="/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">دانلود بازی Punch HTML</a></li>
 				<li>تبدیل تبدیل Markdown HTML</li>
 				<li>تبدیل Mobi به EPUB</li>
 				<li>و دیگران</li>

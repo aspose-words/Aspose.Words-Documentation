@@ -64,8 +64,8 @@ Com Aspose.Words para .NET, você pode gerar, modificar, converter, renderizar e
 						<ul>
 								<li><a href="/words/pt/net/loading-saving-and-converting/">Carregando, salvando e convertendo</a></li>
 								<li><a href="/words/pt/net/rendering/">Renderização</a></li>
-								<li><a href="https://docs.aspose.com/words/net/mail-merge-and-reporting/">Mail Merge e relatórios</a></li>
-								<li><a href="https://docs.aspose.com/words/net/linq-reporting-engine/">Mecanismo de relatórios LINQ</a></li>
+								<li><a href="/words/net/mail-merge-and-reporting/">Mail Merge e relatórios</a></li>
+								<li><a href="/words/net/linq-reporting-engine/">Mecanismo de relatórios LINQ</a></li>
 								<li><a href="/words/pt/net/print-a-document-programmatically-or-using-dialogs/">Imprimindo um documento programaticamente ou usando caixas de diálogo</a></li>
 								<li><a href="/words/pt/net/programming-with-documents/">Programando com Documentos</a></li>
 								<li><a href="https://reference.aspose.com/words/net">Guia API Reference Aspose.Words para .NET</a></li>

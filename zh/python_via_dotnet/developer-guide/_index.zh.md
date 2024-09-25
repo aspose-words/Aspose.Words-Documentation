@@ -15,8 +15,8 @@ url: /zh/python-net/developer-guide/
 
 - [加载、保存和转换](/words/zh/python-net/loading-saving-and-converting/) – 提供有关加载或保存文档的不同方式以及可将文档从一种格式转换为另一种格式的特定格式功能的信息。
 - [渲染](/words/zh/python-net/rendering/) – 提供有关如何从流程布局页面格式的文档中获取分页表示的信息。
-- [Mail Merge 和报告](https://docs.aspose.com/words/python-net/mail-merge-and-reporting/) – 提供有关从带有 mail merge 字段的模板生成文档（例如报告、目录、库存和发票）的信息。
-- [LINQ 报告引擎](https://docs.aspose.com/words/python-net/linq-reporting-engine/) – 提供有关使用扩展的报告功能集构建报告的信息。
+- [Mail Merge 和报告](/words/python-net/mail-merge-and-reporting/) – 提供有关从带有 mail merge 字段的模板生成文档（例如报告、目录、库存和发票）的信息。
+- [LINQ 报告引擎](/words/python-net/linq-reporting-engine/) – 提供有关使用扩展的报告功能集构建报告的信息。
 - [使用文档编程](/words/zh/python-net/programming-with-documents/) – 提供有关如何以编程方式创建、修改和管理文档（包括更改其内容和视觉外观）的信息。
 
 有关类、方法和属性的详细说明，请参阅 Python via .NET [API Reference](https://reference.aspose.com/words/python-net/) 的 Aspose.Words。

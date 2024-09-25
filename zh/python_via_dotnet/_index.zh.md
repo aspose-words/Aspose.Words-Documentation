@@ -62,8 +62,8 @@ Aspose.Words 支持大多数流行的文档格式，例如 DOC、DOCX、RTF、HT
 						<ul>
 								<li><a href="/words/zh/python-net/loading-saving-and-converting/">加载、保存和转换</a></li>
 								<li><a href="/words/zh/python-net/rendering/">渲染</a></li>
-								<li><a href="https://docs.aspose.com/words/python-net/mail-merge-and-reporting/">Mail Merge 和报告</a></li>
-								<li><a href="https://docs.aspose.com/words/python-net/linq-reporting-engine/">LINQ 报告引擎</a></li>
+								<li><a href="/words/python-net/mail-merge-and-reporting/">Mail Merge 和报告</a></li>
+								<li><a href="/words/python-net/linq-reporting-engine/">LINQ 报告引擎</a></li>
 								<li><a href="/words/zh/python-net/programming-with-documents/">使用文档编程</a></li>
 						</ul>
 						<p>技术支援</p>

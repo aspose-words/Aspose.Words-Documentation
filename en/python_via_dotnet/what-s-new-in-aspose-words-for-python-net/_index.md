@@ -276,7 +276,7 @@ The feature to recognize hyperlinks when loading TXT documents has been implemen
 
 {{% alert color="primary" %}}
 
-Learn more about [Aspose.Words for Python via .NET 23.9 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-23-9-release-notes/).
+Learn more about [Aspose.Words for Python via .NET 23.9 Release Notes](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-9-release-notes/).
 
 Learn more about [Aspose.Words for Python via .NET 23.10 Release Notes](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-10-release-notes/).
 
@@ -365,7 +365,7 @@ Learn more about [Aspose.Words for Python via .NET 23.5 Release Notes](/words/py
 
 Learn more about [Aspose.Words for Python via .NET 23.6 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-23-6-release-notes/).
 
-Learn more about [Aspose.Words for Python via .NET 23.7 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-23-7-release-notes/).
+Learn more about [Aspose.Words for Python via .NET 23.7 Release Notes](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/).
 
 Learn more about [Aspose.Words for Python via .NET 23.8 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-23-8-release-notes/).
 
@@ -453,7 +453,7 @@ Learn more about [Aspose.Words for Python via .NET 23.1 Release Notes](/words/py
 
 Learn more about [Aspose.Words for Python via .NET 23.2 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-23-2-release-notes/).
 
-Learn more about [Aspose.Words for Python via .NET 23.3 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-23-3-release-notes/).
+Learn more about [Aspose.Words for Python via .NET 23.3 Release Notes](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-3-release-notes/).
 
 Learn more about [Aspose.Words for Python via .NET 23.4 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-23-4-release-notes/).
 

@@ -366,13 +366,13 @@ Mustache Теги теперь поддерживаются в [MailMerge.GetReg
 
 {{% alert color="primary" %}}
 
-Узнайте больше о [Aspose.Words для Java 23.5 Заметки о выпуске](/words/java/aspose-words-for-java-23-5-release-notes/).
+Узнайте больше о [Aspose.Words для Java 23.5 Заметки о выпуске](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-5-release-notes/).
 
 Узнайте больше о [Aspose.Words для Java 23.6 Выпуск заметок](/words/java/aspose-words-for-java-23-6-release-notes/).
 
-Узнайте больше о [Aspose.Words для Java 23.7 Выпускные примечания](/words/java/aspose-words-for-java-23-7-release-notes/).
+Узнайте больше о [Aspose.Words для Java 23.7 Выпускные примечания](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-7-release-notes/).
 
-Узнайте больше о [Aspose.Words для Java 23.8 Выпускные примечания](/words/java/aspose-words-for-java-23-8-release-notes/).
+Узнайте больше о [Aspose.Words для Java 23.8 Выпускные примечания](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-8-release-notes/).
 
 {{% /alert %}}
 
@@ -454,11 +454,11 @@ The [Fill](https://reference.aspose.com/words/java/com.aspose.words/fill/) Кл�
 
 {{% alert color="primary" %}}
 
-Узнайте больше о [Aspose.Words для Java 23.1 Выпуск заметок](/words/java/aspose-words-for-java-23-1-release-notes/).
+Узнайте больше о [Aspose.Words для Java 23.1 Выпуск заметок](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-1-release-notes/).
 
 Узнайте больше о [Aspose.Words для Java 23.2 Выпускные примечания](/words/java/aspose-words-for-java-23-2-release-notes/).
 
-Узнайте больше о [Aspose.Words для Java 23.3 Выпускные примечания](/words/java/aspose-words-for-java-23-3-release-notes/).
+Узнайте больше о [Aspose.Words для Java 23.3 Выпускные примечания](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-3-release-notes/).
 
 Узнайте больше о [Aspose.Words для Java 23.4 Выпуск заметок](/words/java/aspose-words-for-java-23-4-release-notes/).
 
@@ -468,6 +468,6 @@ The [Fill](https://reference.aspose.com/words/java/com.aspose.words/fill/) Кл�
 
 {{% alert color="primary" %}}
 
-Эта страница содержит последние новости выпуска за последние 2 года. Подробнее о предыдущих выпусках см. [Скачать Notes "](/words/java/release-notes/) страниц в соответствующих разделах.
+Эта страница содержит последние новости выпуска за последние 2 года. Подробнее о предыдущих выпусках см. [Скачать Notes "](https://releases.aspose.com/words/java/release-notes/) страниц в соответствующих разделах.
 
 {{% /alert %}}

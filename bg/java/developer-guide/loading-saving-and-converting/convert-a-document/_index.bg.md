@@ -40,14 +40,14 @@ description: "Лесно конвертирайте документи от ед
 	<div class="col-md-6">
 		<h2>Преобразуване на дума в PDF</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Конвертиране на DOC в PDF</a></li>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Конвертация на DOCX в PDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Конвертиране на DOC в PDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Конвертация на DOCX в PDF</a></li>
 				<li>и други</li>
 			</ul>
 		<h2>Конвертиране на изображение в PDF</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Конвертиране на JPG в PDF</a></li>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Конвертиране на TIFF в PDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Конвертиране на JPG в PDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Конвертиране на TIFF в PDF</a></li>
 				<li>и други</li>
 			</ul>
 		<h2>Конвертиране на уеб форматите в PDF</h2>
@@ -81,7 +81,7 @@ description: "Лесно конвертирайте документи от ед
 			</ul>
 		<h2>Преобразуване на документ в HTML</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">Преобръщане на Дукмата в HTML</a></li>
+				<li><a href="/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">Преобръщане на Дукмата в HTML</a></li>
 				<li>Конвертиране Markdown до HTML</li>
 				<li>Конвертиране на Mobi в EPUB</li>
 				<li>и други</li>

@@ -63,8 +63,8 @@ Aspose.Words поддерживает большинство популярны�
 			<ul>
 				<li><a href="/words/ru/java/loading-saving-and-converting/">Погрузка, экономия и конвертация</a></li>
 				<li><a href="/words/ru/java/rendering/">Рендеринг</a></li>
-				<li><a href="https://docs.aspose.com/words/java/mail-merge-and-reporting/">Mail Merge и отчетность</a></li>
-				<li><a href="https://docs.aspose.com/words/java/linq-reporting-engine/">Линк Двигатель отчетов</a></li>
+				<li><a href="/words/java/mail-merge-and-reporting/">Mail Merge и отчетность</a></li>
+				<li><a href="/words/java/linq-reporting-engine/">Линк Двигатель отчетов</a></li>
 				<li><a href="/words/ru/java/print-a-document-programmatically-or-using-dialogs/">Печать документа Программно или с помощью диалогов</a></li>
 				<li><a href="/words/ru/java/programming-with-documents/">Программирование с документами</a></li>
 				<li><a href="https://reference.aspose.com/words/java">Aspose.Words для Java API Reference Руководство</a></li>

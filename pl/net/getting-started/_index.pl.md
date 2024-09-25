@@ -17,9 +17,9 @@ Aby dowiedzieć się więcej o Aspose.Words wybierz odpowiednią sekcję:
 - [Witaj świecie!](/words/pl/net/hello-world/) – zawiera informacje o tym, jak sprawdzić, czy oprogramowanie przeznaczone do kompilacji lub uruchamiania kodu źródłowego jest poprawnie zainstalowane
 - [Obsługiwane formaty dokumentów](/words/pl/net/supported-document-formats/) – zawiera informacje o obsługiwanych formatach
 - [Obsługiwane funkcje](/words/pl/net/features/) – zawiera informacje o tym, jakie funkcje są obsługiwane podczas ładowania lub zapisywania dokumentu w różnych formatach
-- [Obsługiwane platformy](https://docs.aspose.com/words/net/platforms-and-interoperability/) – dostarcza informacji na temat wykorzystania Aspose.Words przy budowaniu aplikacji na inne platformy
+- [Obsługiwane platformy](/words/net/platforms-and-interoperability/) – dostarcza informacji na temat wykorzystania Aspose.Words przy budowaniu aplikacji na inne platformy
 - [Licencjonowanie i subskrypcja](/words/pl/net/licensing/) – zawiera informacje dotyczące stosowania licencji i korzystania z wielu produktów Aspose
-- [Dlaczego Aspose.Words](https://docs.aspose.com/words/net/aspose-words-or-other-solutions/) – opisuje powody, dla których lepszym rozwiązaniem może być użycie produktów Aspose niż innych, na przykład Microsoft Office Automation lub Open XML SDK
+- [Dlaczego Aspose.Words](/words/net/aspose-words-or-other-solutions/) – opisuje powody, dla których lepszym rozwiązaniem może być użycie produktów Aspose niż innych, na przykład Microsoft Office Automation lub Open XML SDK
 - [wymagania systemowe](/words/pl/net/system-requirements/) – dostarcza informacji o wymaganiach systemowych i środowiska programistycznego
 - [Uwagi dotyczące bezpieczeństwa](/words/pl/net/security/) – opisuje uwagi i wskazówki, jak uniknąć typowych problemów związanych z bezpieczeństwem
 - [Jak uruchomić przykłady](/words/pl/net/how-to-run-the-examples/) – opisuje jak pobrać i uruchomić przykłady oraz jakie wymagania programowe należy spełnić

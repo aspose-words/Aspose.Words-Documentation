@@ -57,6 +57,6 @@ url: /he/net/programming-with-documents/
 - [עבודה עם דמויות שליטה](/words/he/net/working-with-control-characters/)
 - [עבודה עם VBA Macros](/words/he/net/working-with-vba-macros/)
 - [עבודה עם Markdown תכונות](/words/he/net/working-with-markdown-features/)
-- [עבודה עם מסמך טקסט](/words/net/work-with-text-document/)
+- [עבודה עם מסמך טקסט](/words/net/working-with-text-document/)
 
 לתיאור מפורט של שיעורים, שיטות ותכונות מתייחסות Aspose.Words עבור .NET API Reference סעיף.

@@ -57,6 +57,6 @@ url: /uk/net/programming-with-documents/
 - [Робота з символами управління](/words/uk/net/working-with-control-characters/)
 - [Робота з VBA Macros](/words/uk/net/working-with-vba-macros/)
 - [Робота з Markdown Особливості](/words/uk/net/working-with-markdown-features/)
-- [Робота з документами](/words/net/work-with-text-document/)
+- [Робота з документами](/words/net/working-with-text-document/)
 
 Для детального опису занять, методів і властивостей відносяться Aspose.Words для .NET API Reference секція.

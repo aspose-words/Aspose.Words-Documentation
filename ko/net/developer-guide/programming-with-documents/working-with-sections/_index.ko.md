@@ -153,6 +153,6 @@ Aspose.Words를 사용하면 [PageSetup](https://reference.aspose.com/words/net/
 
 ## 또한보십시오
 
-* [문서에 있는 노드의 논리적 수준](https://docs.aspose.com/words/net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
+* [문서에 있는 노드의 논리적 수준](/words/net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
 * [문서 삽입 및 추가](/words/ko/net/insert-and-append-documents/)
 

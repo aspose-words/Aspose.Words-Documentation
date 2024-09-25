@@ -64,8 +64,8 @@ Aspose.Words รองรับรูปแบบเอกสารยอดน�
 						<ul>
 								<li><a href="/words/th/net/loading-saving-and-converting/">กำลังโหลด บันทึก และการแปลง</a></li>
 								<li><a href="/words/th/net/rendering/">กำลังแสดงผล</a></li>
-								<li><a href="https://docs.aspose.com/words/net/mail-merge-and-reporting/">Mail Merge และการรายงาน</a></li>
-								<li><a href="https://docs.aspose.com/words/net/linq-reporting-engine/">เครื่องมือรายงาน LINQ</a></li>
+								<li><a href="/words/net/mail-merge-and-reporting/">Mail Merge และการรายงาน</a></li>
+								<li><a href="/words/net/linq-reporting-engine/">เครื่องมือรายงาน LINQ</a></li>
 								<li><a href="/words/th/net/print-a-document-programmatically-or-using-dialogs/">การพิมพ์เอกสารโดยทางโปรแกรมหรือใช้กล่องโต้ตอบ</a></li>
 								<li><a href="/words/th/net/programming-with-documents/">การเขียนโปรแกรมด้วยเอกสาร</a></li>
 								<li><a href="https://reference.aspose.com/words/net">คู่มือ Aspose.Words สำหรับ .NET API Reference</a></li>

@@ -153,6 +153,6 @@ The following code example shows how to modify the page properties in all sectio
 
 ## See Also
 
-* [Logical Levels of Nodes in a Document](https://docs.aspose.com/words/net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
-* [Insert and Append Documents](https://docs.aspose.com/words/net/insert-and-append-documents/)
+* [Logical Levels of Nodes in a Document](/words/net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
+* [Insert and Append Documents](/words/net/insert-and-append-documents/)
 

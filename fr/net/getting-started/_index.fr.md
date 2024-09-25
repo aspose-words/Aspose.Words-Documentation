@@ -17,9 +17,9 @@ Pour en savoir plus sur Aspose.Words, sélectionnez la section appropriée:
 - [Bonjour le monde!](/words/fr/net/hello-world/) – fournit des informations sur la façon de tester que le logiciel destiné à compiler ou exécuter le code source est correctement installé
 - [Formats de documents pris en charge](/words/fr/net/supported-document-formats/) – fournit des informations sur les formats pris en charge
 - [Fonctionnalités prises en charge](/words/fr/net/features/) – fournit des informations sur les fonctionnalités prises en charge lors du chargement ou de l'enregistrement d'un document dans différents formats
-- [Plateformes prises en charge](https://docs.aspose.com/words/net/platforms-and-interoperability/) – fournit des informations sur l'utilisation de Aspose.Words lors de la création d'applications pour d'autres plates-formes
+- [Plateformes prises en charge](/words/net/platforms-and-interoperability/) – fournit des informations sur l'utilisation de Aspose.Words lors de la création d'applications pour d'autres plates-formes
 - [Licence et abonnement](/words/fr/net/licensing/) - fournit des informations sur l'application d'une licence et l'utilisation de plusieurs produits Aspose
-- [Pourquoi Aspose.Words](https://docs.aspose.com/words/net/aspose-words-or-other-solutions/) – décrit les raisons pour lesquelles il pourrait être préférable d'utiliser les produits Aspose plutôt que d'autres produits, par exemple Microsoft Office Automation ou Open XML SDK
+- [Pourquoi Aspose.Words](/words/net/aspose-words-or-other-solutions/) – décrit les raisons pour lesquelles il pourrait être préférable d'utiliser les produits Aspose plutôt que d'autres produits, par exemple Microsoft Office Automation ou Open XML SDK
 - [Configuration requise](/words/fr/net/system-requirements/) – fournit des informations sur les exigences du système et de l'environnement de développement
 - [Notes de sécurité](/words/fr/net/security/) – décrit des notes et des conseils sur la façon d'éviter les problèmes de sécurité courants
 - [Comment exécuter les exemples](/words/fr/net/how-to-run-the-examples/) – décrit comment télécharger et exécuter les exemples et quelles exigences logicielles doivent être respectées

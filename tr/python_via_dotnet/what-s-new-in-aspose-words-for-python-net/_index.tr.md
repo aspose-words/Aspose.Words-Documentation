@@ -276,7 +276,7 @@ TXT belgelerini yüklerken köprüleri tanıma özelliği, yeni bir [detect_hype
 
 {{% alert color="primary" %}}
 
-[Python via .NET 23.9 Sürüm Notları için Aspose.Words](/words/python-net/aspose-words-for-python-via-dotnet-23-9-release-notes/) hakkında daha fazla bilgi edinin.
+[Python via .NET 23.9 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-9-release-notes/) hakkında daha fazla bilgi edinin.
 
 [Python via .NET 23.10 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-10-release-notes/) hakkında daha fazla bilgi edinin.
 
@@ -365,7 +365,7 @@ Farklı türdeki belgeleri tek bir çıktı belgesinde birleştirmeyi amaçlayan
 
 [Python via .NET 23.6 Sürüm Notları için Aspose.Words](/words/python-net/aspose-words-for-python-via-dotnet-23-6-release-notes/) hakkında daha fazla bilgi edinin.
 
-[Python via .NET 23.7 Sürüm Notları için Aspose.Words](/words/python-net/aspose-words-for-python-via-dotnet-23-7-release-notes/) hakkında daha fazla bilgi edinin.
+[Python via .NET 23.7 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/) hakkında daha fazla bilgi edinin.
 
 [Python via .NET 23.8 Sürüm Notları için Aspose.Words](/words/python-net/aspose-words-for-python-via-dotnet-23-8-release-notes/) hakkında daha fazla bilgi edinin.
 
@@ -453,7 +453,7 @@ MOBI ve AZW3 formatları için ilerleme bildirimlerinin kaydedilmesi uygulandı.
 
 [Python via .NET 23.2 Sürüm Notları için Aspose.Words](/words/python-net/aspose-words-for-python-via-dotnet-23-2-release-notes/) hakkında daha fazla bilgi edinin.
 
-[Python via .NET 23.3 Sürüm Notları için Aspose.Words](/words/python-net/aspose-words-for-python-via-dotnet-23-3-release-notes/) hakkında daha fazla bilgi edinin.
+[Python via .NET 23.3 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-3-release-notes/) hakkında daha fazla bilgi edinin.
 
 [Python via .NET 23.4 Sürüm Notları için Aspose.Words](/words/python-net/aspose-words-for-python-via-dotnet-23-4-release-notes/) hakkında daha fazla bilgi edinin.
 
@@ -463,6 +463,6 @@ MOBI ve AZW3 formatları için ilerleme bildirimlerinin kaydedilmesi uygulandı.
 
 {{% alert color="primary" %}}
 
-Bu sayfada son 2 yılın en son sürüm haberleri yer almaktadır. Önceki sürümlere ilişkin ayrıntılar için ilgili bölümlerdeki [Sürüm notları'](/words/python-net/release-notes/) sayfalarına bakın.
+Bu sayfada son 2 yılın en son sürüm haberleri yer almaktadır. Önceki sürümlere ilişkin ayrıntılar için ilgili bölümlerdeki [Sürüm notları'](https://releases.aspose.com/words/python/release-notes/) sayfalarına bakın.
 
 {{% /alert %}}

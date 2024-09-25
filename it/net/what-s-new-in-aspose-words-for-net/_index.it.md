@@ -283,7 +283,7 @@ La funzionalità per riconoscere i collegamenti ipertestuali durante il caricame
 
 {{% alert color="primary" %}}
 
-Ulteriori informazioni su [Aspose.Words per le note sulla versione di .NET 23.9](/words/net/aspose-words-for-net-23-9-release-notes/).
+Ulteriori informazioni su [Aspose.Words per le note sulla versione di .NET 23.9](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-9-release-notes/).
 
 Ulteriori informazioni su [Note sulla versione Aspose.Words per .NET 23.10](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-10-release-notes/).
 
@@ -376,7 +376,7 @@ Ulteriori informazioni su [Aspose.Words per le note sulla versione di .NET 23.5]
 
 Ulteriori informazioni su [Note sulla versione Aspose.Words per .NET 23.6](/words/net/aspose-words-for-net-23-6-release-notes/).
 
-Ulteriori informazioni su [Aspose.Words per .NET 23.7 Note sulla versione](/words/net/aspose-words-for-net-23-7-release-notes/).
+Ulteriori informazioni su [Aspose.Words per .NET 23.7 Note sulla versione](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/).
 
 Ulteriori informazioni su [Note sulla versione Aspose.Words per .NET 23.8](/words/net/aspose-words-for-net-23-8-release-notes/).
 
@@ -462,11 +462,11 @@ La classe [Fill](https://reference.aspose.com/words/it/net/aspose.words.drawing/
 
 Ulteriori informazioni su [Aspose.Words per .NET 23.1 Note sulla versione](/words/net/aspose-words-for-net-23-1-release-notes/).
 
-Ulteriori informazioni su [Aspose.Words per .NET 23.2 Note sulla versione](/words/net/aspose-words-for-net-23-2-release-notes/).
+Ulteriori informazioni su [Aspose.Words per .NET 23.2 Note sulla versione](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-2-release-notes/).
 
 Ulteriori informazioni su [Note sulla versione Aspose.Words per .NET 23.3](/words/net/aspose-words-for-net-23-3-release-notes/).
 
-Ulteriori informazioni su [Aspose.Words per .NET 23.4 Note sulla versione](/words/net/aspose-words-for-net-23-4-release-notes/).
+Ulteriori informazioni su [Aspose.Words per .NET 23.4 Note sulla versione](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-4-release-notes/).
 
 {{% /alert %}}
 

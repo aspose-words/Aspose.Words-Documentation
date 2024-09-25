@@ -153,6 +153,6 @@ Das folgende Codebeispiel zeigt, wie Sie die Seiteneigenschaften in allen Abschn
 
 ## Siehe auch
 
-* [Logische Ebenen von Knoten in einem Dokument](https://docs.aspose.com/words/net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
+* [Logische Ebenen von Knoten in einem Dokument](/words/net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
 * [Dokumente einfügen und anhängen](/words/de/net/insert-and-append-documents/)
 

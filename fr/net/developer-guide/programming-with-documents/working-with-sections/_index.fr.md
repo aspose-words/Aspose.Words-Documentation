@@ -153,6 +153,6 @@ L'exemple de code suivant montre comment modifier les propriétés de la page da
 
 ## Voir également
 
-* [Niveaux logiques des nœuds dans un document](https://docs.aspose.com/words/net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
+* [Niveaux logiques des nœuds dans un document](/words/net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
 * [Insérer et joindre des documents](/words/fr/net/insert-and-append-documents/)
 

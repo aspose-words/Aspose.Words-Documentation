@@ -17,9 +17,9 @@ url: /uk/java/getting-started/
 - до [Привіт, Світ!](/words/uk/java/hello-world/) – надає інформацію про те, як перевірити, що програмне забезпечення, призначене для компіляції або запуску коду джерела, встановлюється правильно
 - до [Формати документів](/words/uk/java/supported-document-formats/) – надає інформацію про підтримувані формати
 - до [Підтримувані функції](/words/uk/java/features/) – надає інформацію про те, які функції підтримуються при завантаженні або збереженні документа в різних форматах
-- до [Підтримувані платформи](https://docs.aspose.com/words/java/platforms-and-interoperability/) – надає інформацію про використання Aspose.Words при створенні додатків для інших платформ
+- до [Підтримувані платформи](/words/java/platforms-and-interoperability/) – надає інформацію про використання Aspose.Words при створенні додатків для інших платформ
 - до [Ліцензування та підписка](/words/uk/java/licensing/) – надає інформацію про застосування ліцензії та використання декількох продуктів Aspose
-- до [Чому Aspose.Words](https://docs.aspose.com/words/java/aspose-words-or-other-solutions/) – описує причини, чому компоненти Aspose набагато краще, ніж Microsoft Office Automation
+- до [Чому Aspose.Words](/words/java/aspose-words-or-other-solutions/) – описує причини, чому компоненти Aspose набагато краще, ніж Microsoft Office Automation
 - до [Вимоги до системи](/words/uk/java/system-requirements/) – надає інформацію про вимоги до системи та розвитку
 - до [Примітки безпеки](/words/uk/java/security/) – описує примітки та поради щодо запобігання поширених питань безпеки
 - до [Як запустити приклади](/words/uk/java/how-to-run-the-examples/) – описує, як завантажити та запустити приклади та які вимоги до програмного забезпечення повинні бути використані

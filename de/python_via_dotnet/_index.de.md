@@ -62,8 +62,8 @@ Mit Aspose.Words für Python via .NET können Sie Dokumente ohne Drittanbieteran
 						<ul>
 								<li><a href="/words/de/python-net/loading-saving-and-converting/">Laden, Speichern und Konvertieren</a></li>
 								<li><a href="/words/de/python-net/rendering/">Rendern</a></li>
-								<li><a href="https://docs.aspose.com/words/python-net/mail-merge-and-reporting/">Mail Merge und Berichterstattung</a></li>
-								<li><a href="https://docs.aspose.com/words/python-net/linq-reporting-engine/">LINQ-Reporting-Engine</a></li>
+								<li><a href="/words/python-net/mail-merge-and-reporting/">Mail Merge und Berichterstattung</a></li>
+								<li><a href="/words/python-net/linq-reporting-engine/">LINQ-Reporting-Engine</a></li>
 								<li><a href="/words/de/python-net/programming-with-documents/">Programmieren mit Dokumenten</a></li>
 						</ul>
 						<p>TECHNISCHE UNTERSTÜTZUNG</p>

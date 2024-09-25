@@ -105,7 +105,7 @@ const string relativeReportPath = "Secify relative path to a report."; // For ex
 const string userName = "Windows user login."; // For example: "Administrator".
 const string password = "Windows user password."; // For example: "123".
 
-const string renderingExtensionName = "AWDOCX"; // One of extension name as specified here: https://docs.aspose.com/words/reportingservices/installing-on-the-server-manually/#step-3-register-asposewords-for-reporting-services-as-a-rendering-extension
+const string renderingExtensionName = "AWDOCX"; // One of extension name as specified here: /words/reportingservices/installing-on-the-server-manually/#step-3-register-asposewords-for-reporting-services-as-a-rendering-extension
 const string ouputFilePath = "Path to ouput report file path."; // For example: "C:\Temp\out.docx"
 
 const string execution2005EndPointUrl = "Execution end point."; // For example: http://localhost/ReportServer/ReportExecution2005.asmx

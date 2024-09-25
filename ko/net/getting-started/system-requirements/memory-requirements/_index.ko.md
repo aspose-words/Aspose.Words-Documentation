@@ -47,5 +47,5 @@ Aspose.Words는 다양한 형식의 문서 작업에 필요한 다양한 기능�
 
 * [Visual Studio(C#, Visual Basic, C++, F#)에서 메모리 사용량 측정](https://learn.microsoft.com/en-us/visualstudio/profiling/memory-usage?view=vs-2022)
 * [표현](/words/ko/net/rendering/)
-* [Mail Merge 및 보고](https://docs.aspose.com/words/net/mail-merge-and-reporting/)
+* [Mail Merge 및 보고](/words/net/mail-merge-and-reporting/)
 * [필드 작업](/words/ko/net/working-with-fields/)

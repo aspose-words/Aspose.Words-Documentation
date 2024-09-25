@@ -17,9 +17,9 @@ Více informací o Aspose.Words, vyberte příslušnou část:
 - [Ahoj, Světe!](/words/cs/net/hello-world/) Informace o tom, jak testovat tento software určený k sestavení nebo spuštění zdrojového kódu je nainstalován správně
 - [Podporované formáty dokumentů](/words/cs/net/supported-document-formats/) Informace o podporovaných formátech
 - [Podporované funkce](/words/cs/net/features/) Informace o tom, jaké funkce jsou podporovány při načítání nebo ukládání dokumentu v různých formátech
-- [Podporované platformy](https://docs.aspose.com/words/net/platforms-and-interoperability/) Informace o použití Aspose.Words při stavebních aplikacích pro jiné platformy
+- [Podporované platformy](/words/net/platforms-and-interoperability/) Informace o použití Aspose.Words při stavebních aplikacích pro jiné platformy
 - [Licence a předplatné](/words/cs/net/licensing/) Informace o použití licence a použití více produktů Aspose
-- [Proč? Aspose.Words](https://docs.aspose.com/words/net/aspose-words-or-other-solutions/) Microsoft Office Automation nebo Otevřít XML SDK
+- [Proč? Aspose.Words](/words/net/aspose-words-or-other-solutions/) Microsoft Office Automation nebo Otevřít XML SDK
 - [Požadavky na systém](/words/cs/net/system-requirements/) Informace o požadavcích na systém a vývojové prostředí
 - [Bezpečnostní poznámky](/words/cs/net/security/) Popisuje poznámky a tipy, jak se vyhnout společným bezpečnostním otázkám
 - [Jak dělat příklady](/words/cs/net/how-to-run-the-examples/) Popisuje, jak stáhnout a spustit příklady a jaké softwarové požadavky musí být splněny

@@ -15,8 +15,8 @@ url: /fa/java/developer-guide/
 
 - [بارگذاری، پس انداز و تبدیل](/words/fa/java/loading-saving-and-converting/) - اطلاعات در مورد روش های مختلف برای بارگیری یا ذخیره اسناد و ویژگی های خاص فرمت برای تبدیل یک سند از یک فرمت به فرمت دیگر مفید است.
 - [ارائه دهنده](/words/fa/java/rendering/) - اطلاعات در مورد چگونگی به دست آوردن نمایندگی از یک سند در فرمت صفحه نمایش جریان را فراهم می کند.
-- [Mail Merge گزارش](https://docs.aspose.com/words/java/mail-merge-and-reporting/) - ارائه اطلاعات در مورد تولید اسناد، مانند گزارش ها، کاتالوگ ها، مخترعان و فاکتورها، از قالب ها با قالب ها با mail merge زمینه ها
-- [دانلود موسیقی متن بازی The Punch بازی Punch Punch LINQAIL](https://docs.aspose.com/words/java/linq-reporting-engine/) - ارائه اطلاعات در مورد گزارش ساختمان با استفاده از مجموعه گسترده ای از ویژگی های گزارش.
+- [Mail Merge گزارش](/words/java/mail-merge-and-reporting/) - ارائه اطلاعات در مورد تولید اسناد، مانند گزارش ها، کاتالوگ ها، مخترعان و فاکتورها، از قالب ها با قالب ها با mail merge زمینه ها
+- [دانلود موسیقی متن بازی The Punch بازی Punch Punch LINQAIL](/words/java/linq-reporting-engine/) - ارائه اطلاعات در مورد گزارش ساختمان با استفاده از مجموعه گسترده ای از ویژگی های گزارش.
 - [دانلود موسیقی متن بازی The Punch بازی Punch Dialogs](/words/fa/java/print-a-document-programmatically-or-using-dialogs/) - اطلاعات در مورد چگونگی چاپ یک سند را به روش های مختلف فراهم می کند و عملیات چاپ را برای اجرای منطق سفارشی شما تنظیم می کند.
 - [برنامه نویسی با اسناد](/words/fa/java/programming-with-documents/) - اطلاعات در مورد چگونگی ایجاد، اصلاح و مدیریت اسناد از جمله تغییر محتوای و ظاهر بصری خود را فراهم می کند.
 

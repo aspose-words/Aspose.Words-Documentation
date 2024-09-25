@@ -366,13 +366,13 @@ Mustache يتم الآن دعم البطاقات في [MailMerge.GetRegionsHiera
 
 {{% alert color="primary" %}}
 
-تعلم المزيد [Aspose.Words for Java 23-5](/words/java/aspose-words-for-java-23-5-release-notes/).
+تعلم المزيد [Aspose.Words for Java 23-5](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-5-release-notes/).
 
 تعلم المزيد [Aspose.Words for Java 23-6 مرات](/words/java/aspose-words-for-java-23-6-release-notes/).
 
-تعلم المزيد [Aspose.Words for Java 23-7](/words/java/aspose-words-for-java-23-7-release-notes/).
+تعلم المزيد [Aspose.Words for Java 23-7](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-7-release-notes/).
 
-تعلم المزيد [Aspose.Words for Java -](/words/java/aspose-words-for-java-23-8-release-notes/).
+تعلم المزيد [Aspose.Words for Java -](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-8-release-notes/).
 
 {{% /alert %}}
 
@@ -454,11 +454,11 @@ A way to control the export of list items to Markdown تم توفير الشكل
 
 {{% alert color="primary" %}}
 
-تعلم المزيد [Aspose.Words for Java 23-1](/words/java/aspose-words-for-java-23-1-release-notes/).
+تعلم المزيد [Aspose.Words for Java 23-1](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-1-release-notes/).
 
 تعلم المزيد [Aspose.Words for Java 23-2](/words/java/aspose-words-for-java-23-2-release-notes/).
 
-تعلم المزيد [Aspose.Words for Java 23-3 مرات](/words/java/aspose-words-for-java-23-3-release-notes/).
+تعلم المزيد [Aspose.Words for Java 23-3 مرات](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-3-release-notes/).
 
 تعلم المزيد [Aspose.Words for Java 23-4](/words/java/aspose-words-for-java-23-4-release-notes/).
 

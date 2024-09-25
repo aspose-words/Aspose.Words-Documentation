@@ -62,8 +62,8 @@ Python via .NET için Aspose.Words ile üçüncü taraf uygulamaları veya Offic
 						<ul>
 								<li><a href="/words/tr/python-net/loading-saving-and-converting/">Yükleme, Kaydetme ve Dönüştürme</a></li>
 								<li><a href="/words/tr/python-net/rendering/">İşleme</a></li>
-								<li><a href="https://docs.aspose.com/words/python-net/mail-merge-and-reporting/">Mail Merge ve Raporlama</a></li>
-								<li><a href="https://docs.aspose.com/words/python-net/linq-reporting-engine/">LINQ Raporlama Motoru</a></li>
+								<li><a href="/words/python-net/mail-merge-and-reporting/">Mail Merge ve Raporlama</a></li>
+								<li><a href="/words/python-net/linq-reporting-engine/">LINQ Raporlama Motoru</a></li>
 								<li><a href="/words/tr/python-net/programming-with-documents/">Belgelerle Programlama</a></li>
 						</ul>
 						<p>TEKNİK DESTEK</p>

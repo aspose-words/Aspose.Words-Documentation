@@ -153,5 +153,5 @@ Aspose.Words では、[PageSetup](https://reference.aspose.com/words/python-net/
 
 ## 関連項目
 
-- [ドキュメント内のノードの論理レベル](https://docs.aspose.com/words/python-net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
+- [ドキュメント内のノードの論理レベル](/words/python-net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
 - [ドキュメントの挿入と追加](/words/ja/python-net/insert-and-append-documents/)

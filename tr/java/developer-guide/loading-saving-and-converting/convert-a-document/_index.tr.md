@@ -40,14 +40,14 @@ Lütfen dikkat edin ki aşağıda en popüler dönüştürme kombinasyonları ye
 	<div class="col-md-6">
 				 <h2>Word'i PDF'ye Dönüştür</h2>
 						 <ul>
-								 <li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Convert DOC to PDF</a></li>
-								 <li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Convert DOCX to PDF</a></li>
+								 <li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Convert DOC to PDF</a></li>
+								 <li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Convert DOCX to PDF</a></li>
 				<li>ve diğerleri</li>
 						</ul>
 				<h2>Görüntüyü PDF'ye Dönüştür</h2>
 						 <ul>
-								 <li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Convert JPG to PDF</a></li>
-								 <li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Convert TIFF to PDF</a></li>
+								 <li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Convert JPG to PDF</a></li>
+								 <li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Convert TIFF to PDF</a></li>
 									<li>ve diğerleri</li>
 						</ul>
 					 <h2>Web Biçimlerini PDF'ye Dönüştür</h2>
@@ -69,30 +69,30 @@ Lütfen dikkat edin ki aşağıda en popüler dönüştürme kombinasyonları ye
 	< div class = \"col-md-6\" >
 			<h2>Bir Dokümanı Görüntüye Dönüştür</h2>
 						 <ul>
-								 <li><a href="https://docs.aspose.com/words/java/convert-a-document-to-an-image/">Convert DOCX to JPG</a></li>
+								 <li><a href="/words/java/convert-a-document-to-an-image/">Convert DOCX to JPG</a></li>
 								 <li>DOC'u PNG'ye dönüştür</li>
 				<li>ve diğerleri</li>
 						</ul>
 				<h2>Bir belgeri Markdown olarak dönüştür</h2>
 							<ul>
-								 <li><a href="https://docs.aspose.com/words/java/convert-a-document-to-markdown/">Convert a Document to Markdown</a></li>
+								 <li><a href="/words/java/convert-a-document-to-markdown/">Convert a Document to Markdown</a></li>
 									<li>HTML'yi Markdown'a dönüştür</li>
 					<li>ve diğerleri</li>
 						</ul>
 				 <h2>Bir Belgeyi HTML'ye Dönüştür</h2>
 						<ul>
-								 <li><a href="https://docs.aspose.com/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">Convert Word to HTML</a></li>
+								 <li><a href="/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">Convert Word to HTML</a></li>
 									<li>Markdown'i HTML olarak dönüştür</li>
 								 <li>Mobi'yi EPUB'ye dönüştür</li>
 					"<li>ve diğerleri</li>
 			<ul>
 			<h2>Bir Veritabanında Bir Dokümanı Çalıştırın</h2>
 						 <ul>
-								 <li><a href="https://docs.aspose.com/words/java/serialize-and-work-with-a-document-in-a-database/">Serialize and Work with a Document in a Database</a></li>
+								 <li><a href="/words/java/serialize-and-work-with-a-document-in-a-database/">Serialize and Work with a Document in a Database</a></li>
 						</ul>
 		<h2>Diğer Örnekler</h2>
 						 <ul>
-								 <li><a href="https://docs.aspose.com/words/java/convert-a-document-to-mhtml-and-send-it-by-email/">Convert a Document to MHTML and Send It by Email</a></li>
+								 <li><a href="/words/java/convert-a-document-to-mhtml-and-send-it-by-email/">Convert a Document to MHTML and Send It by Email</a></li>
 									<li>DOCX'i DOC'a dönüştür</li>
 								 <li>HTML'i Word'e dönüştür</li>
 					"<li>ve diğerleri</li>

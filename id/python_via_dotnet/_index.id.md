@@ -62,8 +62,8 @@ Dengan Aspose.Words untuk Python via .NET, Anda dapat membuat, memodifikasi, men
 						<ul>
 								<li><a href="/words/id/python-net/loading-saving-and-converting/">Memuat, Menyimpan, dan Mengonversi</a></li>
 								<li><a href="/words/id/python-net/rendering/">Render</a></li>
-								<li><a href="https://docs.aspose.com/words/python-net/mail-merge-and-reporting/">Mail Merge dan Pelaporan</a></li>
-								<li><a href="https://docs.aspose.com/words/python-net/linq-reporting-engine/">Mesin Pelaporan LINQ</a></li>
+								<li><a href="/words/python-net/mail-merge-and-reporting/">Mail Merge dan Pelaporan</a></li>
+								<li><a href="/words/python-net/linq-reporting-engine/">Mesin Pelaporan LINQ</a></li>
 								<li><a href="/words/id/python-net/programming-with-documents/">Pemrograman dengan Dokumen</a></li>
 						</ul>
 						<p>DUKUNGAN TEKNIS</p>

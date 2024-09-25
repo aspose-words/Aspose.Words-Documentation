@@ -276,7 +276,7 @@ The The The [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/
 
 {{% alert color="primary" %}}
 
-למד עוד על [Aspose.Words עבור Python via .NET 23.9 הערות](/words/python-net/aspose-words-for-python-via-dotnet-23-9-release-notes/).
+למד עוד על [Aspose.Words עבור Python via .NET 23.9 הערות](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-9-release-notes/).
 
 למד עוד על [Aspose.Words עבור Python via .NET 23.10 הערות](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-10-release-notes/).
 
@@ -365,7 +365,7 @@ Mustache תגים נתמכים כעת [MailMerge.GetRegionsHierarchy](https://re
 
 למד עוד על [Aspose.Words עבור Python via .NET 23.6 הודעות](/words/python-net/aspose-words-for-python-via-dotnet-23-6-release-notes/).
 
-למד עוד על [Aspose.Words עבור Python via .NET 23.7 הודעות](/words/python-net/aspose-words-for-python-via-dotnet-23-7-release-notes/).
+למד עוד על [Aspose.Words עבור Python via .NET 23.7 הודעות](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/).
 
 למד עוד על [Aspose.Words עבור Python via .NET 23.8 הערות](/words/python-net/aspose-words-for-python-via-dotnet-23-8-release-notes/).
 
@@ -453,7 +453,7 @@ The The The [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/f
 
 למד עוד על [Aspose.Words עבור Python via .NET 23.2 הודעות](/words/python-net/aspose-words-for-python-via-dotnet-23-2-release-notes/).
 
-למד עוד על [Aspose.Words עבור Python via .NET 23.3 הערות](/words/python-net/aspose-words-for-python-via-dotnet-23-3-release-notes/).
+למד עוד על [Aspose.Words עבור Python via .NET 23.3 הערות](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-3-release-notes/).
 
 למד עוד על [Aspose.Words עבור Python via .NET 23.4 הערות](/words/python-net/aspose-words-for-python-via-dotnet-23-4-release-notes/).
 
@@ -463,6 +463,6 @@ The The The [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/f
 
 {{% alert color="primary" %}}
 
-דף זה מכיל את החדשות העדכניות ביותר לשנתיים האחרונות. לפרטים על הודעות קודמות, ראה [תגית: Notes ""](/words/python-net/release-notes/) דפים בסעיפים הרלוונטיים.
+דף זה מכיל את החדשות העדכניות ביותר לשנתיים האחרונות. לפרטים על הודעות קודמות, ראה [תגית: Notes ""](https://releases.aspose.com/words/python/release-notes/) דפים בסעיפים הרלוונטיים.
 
 {{% /alert %}}

@@ -274,7 +274,7 @@ Die Funktion zur Erkennung von Hyperlinks beim Laden von TXT-Dokumenten wurde du
 
 {{% alert color="primary" %}}
 
-Erfahren Sie mehr über [Aspose.Words für Python via .NET 23.9 Versionshinweise](/words/python-net/aspose-words-for-python-via-dotnet-23-9-release-notes/).
+Erfahren Sie mehr über [Aspose.Words für Python via .NET 23.9 Versionshinweise](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-9-release-notes/).
 
 Erfahren Sie mehr über [Aspose.Words für Python via .NET 23.10 Versionshinweise](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-10-release-notes/).
 
@@ -363,7 +363,7 @@ Erfahren Sie mehr über [Aspose.Words für Python via .NET 23.5 Versionshinweise
 
 Erfahren Sie mehr über [Aspose.Words für Python via .NET 23.6 Versionshinweise](/words/python-net/aspose-words-for-python-via-dotnet-23-6-release-notes/).
 
-Erfahren Sie mehr über [Aspose.Words für Python via .NET 23.7 Versionshinweise](/words/python-net/aspose-words-for-python-via-dotnet-23-7-release-notes/).
+Erfahren Sie mehr über [Aspose.Words für Python via .NET 23.7 Versionshinweise](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/).
 
 Erfahren Sie mehr über [Aspose.Words für Python via .NET 23.8 Versionshinweise](/words/python-net/aspose-words-for-python-via-dotnet-23-8-release-notes/).
 
@@ -451,7 +451,7 @@ Erfahren Sie mehr über [Aspose.Words für Python via .NET 23.1 Versionshinweise
 
 Erfahren Sie mehr über [Aspose.Words für Python via .NET 23.2 Versionshinweise](/words/python-net/aspose-words-for-python-via-dotnet-23-2-release-notes/).
 
-Erfahren Sie mehr über [Aspose.Words für Python via .NET 23.3 Versionshinweise](/words/python-net/aspose-words-for-python-via-dotnet-23-3-release-notes/).
+Erfahren Sie mehr über [Aspose.Words für Python via .NET 23.3 Versionshinweise](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-3-release-notes/).
 
 Erfahren Sie mehr über [Aspose.Words für Python via .NET 23.4 Versionshinweise](/words/python-net/aspose-words-for-python-via-dotnet-23-4-release-notes/).
 
@@ -461,6 +461,6 @@ Erfahren Sie mehr über [Aspose.Words für Python via .NET 23.4 Versionshinweise
 
 {{% alert color="primary" %}}
 
-Diese Seite enthält die neuesten Veröffentlichungsnachrichten der letzten 2 Jahre. Einzelheiten zu früheren Versionen finden Sie auf den [Versionshinweise'](/words/python-net/release-notes/)-Seiten in den entsprechenden Abschnitten.
+Diese Seite enthält die neuesten Veröffentlichungsnachrichten der letzten 2 Jahre. Einzelheiten zu früheren Versionen finden Sie auf den [Versionshinweise'](https://releases.aspose.com/words/python/release-notes/)-Seiten in den entsprechenden Abschnitten.
 
 {{% /alert %}}

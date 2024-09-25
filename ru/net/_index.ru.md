@@ -64,8 +64,8 @@ Aspose.Words поддерживает большинство популярны�
 			<ul>
 				<li><a href="/words/ru/net/loading-saving-and-converting/">Погрузка, экономия и конвертация</a></li>
 				<li><a href="/words/ru/net/rendering/">Рендеринг</a></li>
-				<li><a href="https://docs.aspose.com/words/net/mail-merge-and-reporting/">Mail Merge и отчетность</a></li>
-				<li><a href="https://docs.aspose.com/words/net/linq-reporting-engine/">Линк Двигатель отчетности</a></li>
+				<li><a href="/words/net/mail-merge-and-reporting/">Mail Merge и отчетность</a></li>
+				<li><a href="/words/net/linq-reporting-engine/">Линк Двигатель отчетности</a></li>
 				<li><a href="/words/ru/net/print-a-document-programmatically-or-using-dialogs/">Печать документа Программно или с помощью диалогов</a></li>
 				<li><a href="/words/ru/net/programming-with-documents/">Программирование с документами</a></li>
 				<li><a href="https://reference.aspose.com/words/net">Aspose.Words для .NET API Reference Руководство</a></li>

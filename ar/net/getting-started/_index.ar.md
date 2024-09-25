@@ -17,9 +17,9 @@ url: /ar/net/getting-started/
 - [مرحبا بالعالم!](/words/ar/net/hello-world/) - يوفر معلومات حول كيفية اختبار تثبيت البرنامج المخصص لتجميع أو تشغيل التعليمات البرمجية المصدر بشكل صحيح
 - [تنسيقات المستندات المدعومة](/words/ar/net/supported-document-formats/) – يوفر معلومات حول التنسيقات المدعومة
 - [الميزات المدعومة](/words/ar/net/features/) - يوفر معلومات حول الميزات المدعومة عند تحميل مستند أو حفظه بتنسيقات مختلفة
-- [المنصات المدعومة](https://docs.aspose.com/words/net/platforms-and-interoperability/) - يوفر معلومات حول استخدام Aspose.Words عند إنشاء تطبيقات لمنصات أخرى
+- [المنصات المدعومة](/words/net/platforms-and-interoperability/) - يوفر معلومات حول استخدام Aspose.Words عند إنشاء تطبيقات لمنصات أخرى
 - [الترخيص والاشتراك](/words/ar/net/licensing/) - يوفر معلومات حول تطبيق الترخيص واستخدام منتجات Aspose المتعددة
-- [لماذا Aspose.Words](https://docs.aspose.com/words/net/aspose-words-or-other-solutions/) - يصف الأسباب التي قد تجعل من الأفضل استخدام منتجات Aspose بدلاً من المنتجات الأخرى، على سبيل المثال، Microsoft Office Automation أو Open XML SDK
+- [لماذا Aspose.Words](/words/net/aspose-words-or-other-solutions/) - يصف الأسباب التي قد تجعل من الأفضل استخدام منتجات Aspose بدلاً من المنتجات الأخرى، على سبيل المثال، Microsoft Office Automation أو Open XML SDK
 - [متطلبات النظام](/words/ar/net/system-requirements/) - يوفر معلومات حول متطلبات النظام وبيئة التطوير
 - [ملاحظات أمنية](/words/ar/net/security/) - يصف الملاحظات والنصائح حول كيفية تجنب المشكلات الأمنية الشائعة
 - [كيفية تشغيل الأمثلة](/words/ar/net/how-to-run-the-examples/) - يصف كيفية تنزيل الأمثلة وتشغيلها ومتطلبات البرامج التي يجب استيفاؤها

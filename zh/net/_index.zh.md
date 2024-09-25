@@ -64,8 +64,8 @@ Aspose.Words 支持大多数流行的文档格式，例如 DOC、DOCX、RTF、HT
 						<ul>
 								<li><a href="/words/zh/net/loading-saving-and-converting/">加载、保存和转换</a></li>
 								<li><a href="/words/zh/net/rendering/">渲染</a></li>
-								<li><a href="https://docs.aspose.com/words/net/mail-merge-and-reporting/">Mail Merge 和报告</a></li>
-								<li><a href="https://docs.aspose.com/words/net/linq-reporting-engine/">LINQ 报告引擎</a></li>
+								<li><a href="/words/net/mail-merge-and-reporting/">Mail Merge 和报告</a></li>
+								<li><a href="/words/net/linq-reporting-engine/">LINQ 报告引擎</a></li>
 								<li><a href="/words/zh/net/print-a-document-programmatically-or-using-dialogs/">以编程方式或使用对话框打印文档</a></li>
 								<li><a href="/words/zh/net/programming-with-documents/">使用文档编程</a></li>
 								<li><a href="https://reference.aspose.com/words/net">Aspose.Words for .NET API Reference 指南</a></li>

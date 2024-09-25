@@ -366,13 +366,13 @@ Login LowCode metode dimaksudkan untuk menggabungkan berbagai jenis dokumen ke d
 
 {{% alert color="primary" %}}
 
-Pelajari lebih lanjut [Aspose.Words Sitemap Java 23.5 Login](/words/java/aspose-words-for-java-23-5-release-notes/)Sitemap
+Pelajari lebih lanjut [Aspose.Words Sitemap Java 23.5 Login](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-5-release-notes/)Sitemap
 
 Pelajari lebih lanjut [Aspose.Words Sitemap Java 23.6 Login](/words/java/aspose-words-for-java-23-6-release-notes/)Sitemap
 
-Pelajari lebih lanjut [Aspose.Words Sitemap Java 23.7 Login](/words/java/aspose-words-for-java-23-7-release-notes/)Sitemap
+Pelajari lebih lanjut [Aspose.Words Sitemap Java 23.7 Login](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-7-release-notes/)Sitemap
 
-Pelajari lebih lanjut [Aspose.Words Sitemap Java 23.8 Login](/words/java/aspose-words-for-java-23-8-release-notes/)Sitemap
+Pelajari lebih lanjut [Aspose.Words Sitemap Java 23.8 Login](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-8-release-notes/)Sitemap
 
 {{% /alert %}}
 
@@ -454,11 +454,11 @@ Kemampuan untuk menentukan apakah untuk menyesuaikan kalimat dan kata jarak seca
 
 {{% alert color="primary" %}}
 
-Pelajari lebih lanjut [Aspose.Words Sitemap Java 23.1 Login](/words/java/aspose-words-for-java-23-1-release-notes/)Sitemap
+Pelajari lebih lanjut [Aspose.Words Sitemap Java 23.1 Login](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-1-release-notes/)Sitemap
 
 Pelajari lebih lanjut [Aspose.Words Sitemap Java 23.2 Login](/words/java/aspose-words-for-java-23-2-release-notes/)Sitemap
 
-Pelajari lebih lanjut [Aspose.Words Sitemap Java 23.3 Login](/words/java/aspose-words-for-java-23-3-release-notes/)Sitemap
+Pelajari lebih lanjut [Aspose.Words Sitemap Java 23.3 Login](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-3-release-notes/)Sitemap
 
 Pelajari lebih lanjut [Aspose.Words Sitemap Java 23.4 Login](/words/java/aspose-words-for-java-23-4-release-notes/)Sitemap
 
@@ -468,6 +468,6 @@ Pelajari lebih lanjut [Aspose.Words Sitemap Java 23.4 Login](/words/java/aspose-
 
 {{% alert color="primary" %}}
 
-Halaman ini berisi berita rilis terbaru selama 2 tahun terakhir. Untuk detail tentang rilis sebelumnya, lihat [Sitemap](/words/java/release-notes/) halaman di bagian yang relevan.
+Halaman ini berisi berita rilis terbaru selama 2 tahun terakhir. Untuk detail tentang rilis sebelumnya, lihat [Sitemap](https://releases.aspose.com/words/java/release-notes/) halaman di bagian yang relevan.
 
 {{% /alert %}}

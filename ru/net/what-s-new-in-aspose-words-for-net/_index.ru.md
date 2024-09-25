@@ -282,7 +282,7 @@ The [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.sa
 
 {{% alert color="primary" %}}
 
-Узнайте больше о [Aspose.Words для .NET 23.9 Выпуск заметок](/words/net/aspose-words-for-net-23-9-release-notes/).
+Узнайте больше о [Aspose.Words для .NET 23.9 Выпуск заметок](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-9-release-notes/).
 
 Узнайте больше о [Aspose.Words для .NET 23.10 Релизные заметки](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-10-release-notes/).
 
@@ -375,7 +375,7 @@ Mustache Теги теперь поддерживаются в [MailMerge.GetReg
 
 Узнайте больше о [Aspose.Words для .NET 23.6 Выпуск заметок](/words/net/aspose-words-for-net-23-6-release-notes/).
 
-Узнайте больше о [Aspose.Words для .NET 23.7 Выпускные примечания](/words/net/aspose-words-for-net-23-7-release-notes/).
+Узнайте больше о [Aspose.Words для .NET 23.7 Выпускные примечания](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/).
 
 Узнайте больше о [Aspose.Words для .NET 23.8 Выпускные примечания](/words/net/aspose-words-for-net-23-8-release-notes/).
 
@@ -461,11 +461,11 @@ The [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) К
 
 Узнайте больше о [Aspose.Words для .NET 23.1 Выпуск заметок](/words/net/aspose-words-for-net-23-1-release-notes/).
 
-Узнайте больше о [Aspose.Words для .NET 23.2 Выпускные примечания](/words/net/aspose-words-for-net-23-2-release-notes/).
+Узнайте больше о [Aspose.Words для .NET 23.2 Выпускные примечания](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-2-release-notes/).
 
 Узнайте больше о [Aspose.Words для .NET 23.3 Выпускные примечания](/words/net/aspose-words-for-net-23-3-release-notes/).
 
-Узнайте больше о [Aspose.Words для .NET 23.4 Выпуск заметок](/words/net/aspose-words-for-net-23-4-release-notes/).
+Узнайте больше о [Aspose.Words для .NET 23.4 Выпуск заметок](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-4-release-notes/).
 
 {{% /alert %}}
 

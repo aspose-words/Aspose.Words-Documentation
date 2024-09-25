@@ -47,5 +47,5 @@ Se i risultati della profilazione indicano un possibile problema di memoria in A
 
 * [Misura l'utilizzo della memoria in Visual Studio (C#, Visual Basic, C++, F#)](https://learn.microsoft.com/en-us/visualstudio/profiling/memory-usage?view=vs-2022)
 * [Rendering](/words/it/net/rendering/)
-* [Mail Merge e reporting](https://docs.aspose.com/words/net/mail-merge-and-reporting/)
+* [Mail Merge e reporting](/words/net/mail-merge-and-reporting/)
 * [Lavorare con i campi](/words/it/net/working-with-fields/)

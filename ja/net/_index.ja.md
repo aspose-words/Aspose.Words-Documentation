@@ -64,8 +64,8 @@ Aspose.Words for .NET を使用すると、サードパーティのアプリケ�
 						<ul>
 								<li><a href="/words/ja/net/loading-saving-and-converting/">ロード、保存、変換</a></li>
 								<li><a href="/words/ja/net/rendering/">レンダリング</a></li>
-								<li><a href="https://docs.aspose.com/words/net/mail-merge-and-reporting/">Mail Merge とレポート</a></li>
-								<li><a href="https://docs.aspose.com/words/net/linq-reporting-engine/">LINQ レポート エンジン</a></li>
+								<li><a href="/words/net/mail-merge-and-reporting/">Mail Merge とレポート</a></li>
+								<li><a href="/words/net/linq-reporting-engine/">LINQ レポート エンジン</a></li>
 								<li><a href="/words/ja/net/print-a-document-programmatically-or-using-dialogs/">プログラムまたはダイアログを使用してドキュメントを印刷する</a></li>
 								<li><a href="/words/ja/net/programming-with-documents/">ドキュメントを使用したプログラミング</a></li>
 								<li><a href="https://reference.aspose.com/words/net">Aspose.Words for .NET API Reference ガイド</a></li>

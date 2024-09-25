@@ -46,5 +46,5 @@ Aspose.Words надає широкий спектр можливостей дл�
 ## Дивитися ще
 
 * [Рендеринг](/words/uk/java/rendering/)
-* [Mail Merge та звітність](https://docs.aspose.com/words/java/mail-merge-and-reporting/)
+* [Mail Merge та звітність](/words/java/mail-merge-and-reporting/)
 * [Робота з полями](/words/uk/java/working-with-fields/)

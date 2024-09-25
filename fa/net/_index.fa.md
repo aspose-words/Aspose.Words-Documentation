@@ -64,8 +64,8 @@ Aspose.Words از اکثر فرمت های سند محبوب مانند DOC، DO
 						<ul>
 								<li><a href="/words/fa/net/loading-saving-and-converting/">بارگیری، ذخیره و تبدیل</a></li>
 								<li><a href="/words/fa/net/rendering/">تفسیر</a></li>
-								<li><a href="https://docs.aspose.com/words/net/mail-merge-and-reporting/">Mail Merge و گزارش</a></li>
-								<li><a href="https://docs.aspose.com/words/net/linq-reporting-engine/">موتور گزارش LINQ</a></li>
+								<li><a href="/words/net/mail-merge-and-reporting/">Mail Merge و گزارش</a></li>
+								<li><a href="/words/net/linq-reporting-engine/">موتور گزارش LINQ</a></li>
 								<li><a href="/words/fa/net/print-a-document-programmatically-or-using-dialogs/">چاپ یک سند به صورت برنامه ای یا با استفاده از دیالوگ ها</a></li>
 								<li><a href="/words/fa/net/programming-with-documents/">برنامه نویسی با اسناد</a></li>
 								<li><a href="https://reference.aspose.com/words/net">راهنمای Aspose.Words برای .NET API Reference</a></li>

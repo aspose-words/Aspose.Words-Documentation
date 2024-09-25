@@ -40,14 +40,14 @@ Houd er rekening mee dat hieronder de meest populaire conversie combinaties, en 
 	<div class="col-md-6">
 		<h2>Word omzetten naar PDF</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">DOC omzetten naar PDF</a></li>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">DOCX omzetten naar PDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">DOC omzetten naar PDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">DOCX omzetten naar PDF</a></li>
 				<li>en andere</li>
 			</ul>
 		<h2>Afbeelding omzetten naar PDF</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">JPG omzetten naar PDF</a></li>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">TIFF omzetten naar PDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">JPG omzetten naar PDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">TIFF omzetten naar PDF</a></li>
 				<li>en andere</li>
 			</ul>
 		<h2>Webformaten omzetten naar PDF</h2>
@@ -81,7 +81,7 @@ Houd er rekening mee dat hieronder de meest populaire conversie combinaties, en 
 			</ul>
 		<h2>Een document omzetten naar HTML</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">Word omzetten naar HTML</a></li>
+				<li><a href="/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">Word omzetten naar HTML</a></li>
 				<li>Omzetten Markdown naar HTML</li>
 				<li>Mobi omzetten naar EPUB</li>
 				<li>en andere</li>

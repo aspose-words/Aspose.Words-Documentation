@@ -41,10 +41,10 @@ Experiments with thousands of real documents shows that typically Aspose.Words r
 
 More complex operations like rendering (converting to fixed page formats), updating fields, splitting page, and others, for some documents require 20 times more resources than the memory allocated by the document loaded in Aspose.Words DOM.
 
-If your profiling results indicate a possible memory issue in Aspose.Words, please contact our [Support Team](https://docs.aspose.com/words/java/technical-support/) and include all the diagnostic information.
+If your profiling results indicate a possible memory issue in Aspose.Words, please contact our [Support Team](/words/java/technical-support/) and include all the diagnostic information.
 
 ## See Also
 
-* [Rendering](https://docs.aspose.com/words/java/rendering/)
-* [Mail Merge and Reporting](https://docs.aspose.com/words/java/mail-merge-and-reporting/)
-* [Working with Fields](https://docs.aspose.com/words/java/working-with-fields/)
+* [Rendering](/words/java/rendering/)
+* [Mail Merge and Reporting](/words/java/mail-merge-and-reporting/)
+* [Working with Fields](/words/java/working-with-fields/)

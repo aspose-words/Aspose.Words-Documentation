@@ -41,10 +41,10 @@ Binlerce gerçek belgeyle yapılan deneyimlerde tipik olarak Aspose.Words bellek
 
 Taramaya ( Sabit sayfa formatlarına dönüştürmeye ), alanları güncellemeye, sayfayı bölmeye ve diğer işlemleri gerçekleştirme gibi daha karmaşık işlemler, bazı belgeler için, yüklenen Aspose.Words DOM belgesinde ayrılan bellekten 20 kat daha fazla kaynak gerektirir.
 
-Profil sonuçlarınız bellek sorunu olası bir şekilde Aspose.Words'te olduğunu gösteriyorsa, lütfen bizim [Support Team](https://docs.aspose.com/words/java/technical-support/)'mıza ulaşın ve tüm tanılama bilgilerini dahil edin.
+Profil sonuçlarınız bellek sorunu olası bir şekilde Aspose.Words'te olduğunu gösteriyorsa, lütfen bizim [Support Team](/words/java/technical-support/)'mıza ulaşın ve tüm tanılama bilgilerini dahil edin.
 
 ## Ayrıca Bakın
 
-* [Rendering](https://docs.aspose.com/words/java/rendering/)
-* [Mail Merge and Reporting](https://docs.aspose.com/words/java/mail-merge-and-reporting/)
-* [Working with Fields](https://docs.aspose.com/words/java/working-with-fields/)
+* [Rendering](/words/java/rendering/)
+* [Mail Merge and Reporting](/words/java/mail-merge-and-reporting/)
+* [Working with Fields](/words/java/working-with-fields/)

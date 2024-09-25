@@ -62,8 +62,8 @@ Met Aspose.Words voor Python via .NET, u documenten kunt genereren, wijzigen, co
 			<ul>
 				<li><a href="/words/nl/python-net/loading-saving-and-converting/">Laden, opslaan en omzetten</a></li>
 				<li><a href="/words/nl/python-net/rendering/">Renderen</a></li>
-				<li><a href="https://docs.aspose.com/words/python-net/mail-merge-and-reporting/">Mail Merge en rapportage</a></li>
-				<li><a href="https://docs.aspose.com/words/python-net/linq-reporting-engine/">LINQ Rapportagemotor</a></li>
+				<li><a href="/words/python-net/mail-merge-and-reporting/">Mail Merge en rapportage</a></li>
+				<li><a href="/words/python-net/linq-reporting-engine/">LINQ Rapportagemotor</a></li>
 				<li><a href="/words/nl/python-net/programming-with-documents/">Programmering met documenten</a></li>
 			</ul>
 			<p>TECHNISCHE STEUN</p>

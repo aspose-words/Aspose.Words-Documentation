@@ -62,8 +62,8 @@ S Aspose.Words místo Python via .NET, můžete vytvářet, upravovat, konvertov
 			<ul>
 				<li><a href="/words/cs/python-net/loading-saving-and-converting/">Načítání, ukládání a převod</a></li>
 				<li><a href="/words/cs/python-net/rendering/">Renderování</a></li>
-				<li><a href="https://docs.aspose.com/words/python-net/mail-merge-and-reporting/">Mail Merge a podávání zpráv</a></li>
-				<li><a href="https://docs.aspose.com/words/python-net/linq-reporting-engine/">LINQ Vykazovací motor</a></li>
+				<li><a href="/words/python-net/mail-merge-and-reporting/">Mail Merge a podávání zpráv</a></li>
+				<li><a href="/words/python-net/linq-reporting-engine/">LINQ Vykazovací motor</a></li>
 				<li><a href="/words/cs/python-net/programming-with-documents/">Programování s dokumenty</a></li>
 			</ul>
 			<p>TECHNICKÁ PODPORA</p>

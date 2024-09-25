@@ -40,14 +40,14 @@ description: "1つのフォーマットから別のフォーマットに文書�
 	<div class="col-md-6">
 		<h2>WordをPDFに変換</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">PDFファイル</a></li>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">DOCXをPDFに変換</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">PDFファイル</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">DOCXをPDFに変換</a></li>
 				<li>その他</li>
 			</ul>
 		<h2>画像をPDFに変換</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">JPGをPDFに変換</a></li>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">PDFファイル</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">JPGをPDFに変換</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">PDFファイル</a></li>
 				<li>その他</li>
 			</ul>
 		<h2>Web形式をPDFに変換</h2>
@@ -81,7 +81,7 @@ description: "1つのフォーマットから別のフォーマットに文書�
 			</ul>
 		<h2>ドキュメントを HTML に変換</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">用語集</a></li>
+				<li><a href="/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">用語集</a></li>
 				<li>コンバーター Markdown HTMLから</li>
 				<li>MobiをEPUBに変換する</li>
 				<li>その他</li>

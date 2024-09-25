@@ -62,8 +62,8 @@ Aspose.Words for Python via .NET を使用すると、サードパーティの�
 						<ul>
 								<li><a href="/words/ja/python-net/loading-saving-and-converting/">ロード、保存、変換</a></li>
 								<li><a href="/words/ja/python-net/rendering/">レンダリング</a></li>
-								<li><a href="https://docs.aspose.com/words/python-net/mail-merge-and-reporting/">Mail Merge とレポート</a></li>
-								<li><a href="https://docs.aspose.com/words/python-net/linq-reporting-engine/">LINQ レポート エンジン</a></li>
+								<li><a href="/words/python-net/mail-merge-and-reporting/">Mail Merge とレポート</a></li>
+								<li><a href="/words/python-net/linq-reporting-engine/">LINQ レポート エンジン</a></li>
 								<li><a href="/words/ja/python-net/programming-with-documents/">ドキュメントを使用したプログラミング</a></li>
 						</ul>
 						<p>テクニカルサポート</p>

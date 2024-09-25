@@ -153,5 +153,5 @@ Aşağıdaki kod örneği, tüm bölümlerde sayfa özelliklerinin nasıl deği�
 
 ## Ayrıca bakınız
 
-- [Bir Belgedeki Düğümlerin Mantıksal Düzeyleri](https://docs.aspose.com/words/python-net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
+- [Bir Belgedeki Düğümlerin Mantıksal Düzeyleri](/words/python-net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
 - [Belge Ekleme ve Ekleme](/words/tr/python-net/insert-and-append-documents/)

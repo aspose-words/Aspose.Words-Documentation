@@ -276,7 +276,7 @@ Fitur untuk mengenali hyperlink saat memuat dokumen TXT telah diterapkan dengan 
 
 {{% alert color="primary" %}}
 
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 23.9](/words/python-net/aspose-words-for-python-via-dotnet-23-9-release-notes/).
+Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 23.9](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-9-release-notes/).
 
 Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 23.10](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-10-release-notes/).
 
@@ -365,7 +365,7 @@ Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 
 
 Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 23.6](/words/python-net/aspose-words-for-python-via-dotnet-23-6-release-notes/).
 
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 23.7](/words/python-net/aspose-words-for-python-via-dotnet-23-7-release-notes/).
+Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 23.7](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/).
 
 Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 23.8](/words/python-net/aspose-words-for-python-via-dotnet-23-8-release-notes/).
 
@@ -453,7 +453,7 @@ Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 
 
 Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 23.2](/words/python-net/aspose-words-for-python-via-dotnet-23-2-release-notes/).
 
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 23.3](/words/python-net/aspose-words-for-python-via-dotnet-23-3-release-notes/).
+Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 23.3](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-3-release-notes/).
 
 Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 23.4](/words/python-net/aspose-words-for-python-via-dotnet-23-4-release-notes/).
 
@@ -463,6 +463,6 @@ Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 
 
 {{% alert color="primary" %}}
 
-Halaman ini berisi berita rilis terbaru selama 2 tahun terakhir. Untuk rincian tentang rilis sebelumnya, lihat halaman [Catatan Rilis'](/words/python-net/release-notes/) di bagian yang relevan.
+Halaman ini berisi berita rilis terbaru selama 2 tahun terakhir. Untuk rincian tentang rilis sebelumnya, lihat halaman [Catatan Rilis'](https://releases.aspose.com/words/python/release-notes/) di bagian yang relevan.
 
 {{% /alert %}}

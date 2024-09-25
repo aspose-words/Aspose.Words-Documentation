@@ -63,8 +63,8 @@ Aspose.Words 支持大多数流行文档格式,如DOC,DOCX,RTF,HTML, Markdown, P
 			<ul>
 				<li><a href="/words/zh/java/loading-saving-and-converting/">装入、保存和转换</a></li>
 				<li><a href="/words/zh/java/rendering/">渲染</a></li>
-				<li><a href="https://docs.aspose.com/words/java/mail-merge-and-reporting/">Mail Merge 报告</a></li>
-				<li><a href="https://docs.aspose.com/words/java/linq-reporting-engine/">链接 报告引擎</a></li>
+				<li><a href="/words/java/mail-merge-and-reporting/">Mail Merge 报告</a></li>
+				<li><a href="/words/java/linq-reporting-engine/">链接 报告引擎</a></li>
 				<li><a href="/words/zh/java/print-a-document-programmatically-or-using-dialogs/">打印文档 程序或使用对话框</a></li>
 				<li><a href="/words/zh/java/programming-with-documents/">文件编程</a></li>
 				<li><a href="https://reference.aspose.com/words/java">Aspose.Words (单位:千美元) Java API Reference 指南</a></li>

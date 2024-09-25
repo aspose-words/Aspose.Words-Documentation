@@ -26,13 +26,13 @@ Cu Aspose.Words pentru .NET puteți genera, modifica, converti, afișa și impri
 		<p><b>Despre Aspose.Words</b></p>
 			<hr><p>INCAPERA</p></hr>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/net/what-s-new-in-aspose-words-for-net/">What's new in Aspose.Words for .NET</a></li>
-				<li><a href="https://docs.aspose.com/words/net/product-overview/">Product Overview</a></li>
-				<li><a href="https://docs.aspose.com/words/net/licensing/">Licensing and Subscription</a></li>
+				<li><a href="/words/net/what-s-new-in-aspose-words-for-net/">What's new in Aspose.Words for .NET</a></li>
+				<li><a href="/words/net/product-overview/">Product Overview</a></li>
+				<li><a href="/words/net/licensing/">Licensing and Subscription</a></li>
 			</ul>
 			<p>ÎNCEPE</p>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/net/getting-started/">Getting Started</a></li>
+				<li><a href="/words/net/getting-started/">Getting Started</a></li>
 			</ul>
 			<p>RESURSE UTILE</p>
 			<ul>
@@ -45,29 +45,29 @@ Cu Aspose.Words pentru .NET puteți genera, modifica, converti, afișa și impri
 		<p><b>Începeți</b></p>
 			<hr><p>ÎNCEPEM</p></hr>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/net/supported-document-formats/">Supported Document Formats</a></li>
-				<li><a href="https://docs.aspose.com/words/net/features/">Features</a></li>
-				<li><a href="https://docs.aspose.com/words/net/system-requirements/">System Requirements</a></li>
-				<li><a href="https://docs.aspose.com/words/net/installation/">Installation</a></li>
+				<li><a href="/words/net/supported-document-formats/">Supported Document Formats</a></li>
+				<li><a href="/words/net/features/">Features</a></li>
+				<li><a href="/words/net/system-requirements/">System Requirements</a></li>
+				<li><a href="/words/net/installation/">Installation</a></li>
 				<li><a href="https://www.nuget.org/packages/Aspose.Words/">Install Aspose.Words for .NET NuGet Package</a></li>
 			</ul>
 			<p>APRENDETE</p>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/net/how-to-run-the-examples/">How to Run the Examples</a></li>
-				<li><a href="https://docs.aspose.com/words/net/how-to-run-aspose-words-in-docker/">How to Run Aspose.Words in Docker</a></li>
-				<li><a href="https://docs.aspose.com/words/net/security/">Security Notes</a></li>
+				<li><a href="/words/net/how-to-run-the-examples/">How to Run the Examples</a></li>
+				<li><a href="/words/net/how-to-run-aspose-words-in-docker/">How to Run Aspose.Words in Docker</a></li>
+				<li><a href="/words/net/security/">Security Notes</a></li>
 			</ul>
 	</div>
 	<div class="col-md-4">
 		<p><b>Dezvoltă funcţii</b></p>
 			<hr><p>GUIE</p></hr>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/net/loading-saving-and-converting/">Loading, Saving and Converting</a></li>
-				<li><a href="https://docs.aspose.com/words/net/rendering/">Rendering</a></li>
-				<li><a href="https://docs.aspose.com/words/net/mail-merge-and-reporting/">Mail Merge and Reporting</a></li>
-				<li><a href="https://docs.aspose.com/words/net/linq-reporting-engine/">LINQ Reporting Engine</a></li>
-				<li><a href="https://docs.aspose.com/words/net/print-a-document-programmatically-or-using-dialogs/">Printing a Document</a></li>
-				<li><a href="https://docs.aspose.com/words/net/programming-with-documents/">Programming with Documents</a></li>
+				<li><a href="/words/net/loading-saving-and-converting/">Loading, Saving and Converting</a></li>
+				<li><a href="/words/net/rendering/">Rendering</a></li>
+				<li><a href="/words/net/mail-merge-and-reporting/">Mail Merge and Reporting</a></li>
+				<li><a href="/words/net/linq-reporting-engine/">LINQ Reporting Engine</a></li>
+				<li><a href="/words/net/print-a-document-programmatically-or-using-dialogs/">Printing a Document</a></li>
+				<li><a href="/words/net/programming-with-documents/">Programming with Documents</a></li>
 				<li><a href="https://reference.aspose.com/words/net">Aspose.Words for .NET API Reference Guide</a></li>
 			</ul>
 			<p>ÎNVAȚĂ</p>

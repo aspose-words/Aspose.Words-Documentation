@@ -46,5 +46,5 @@ Wenn Ihre Profilierungsergebnisse ein mögliches Speicherproblem angeben Aspose.
 ## Siehe auch
 
 * [Rendering](/words/de/java/rendering/)
-* [Mail Merge und Reporting](https://docs.aspose.com/words/java/mail-merge-and-reporting/)
+* [Mail Merge und Reporting](/words/java/mail-merge-and-reporting/)
 * [Arbeiten mit Feldern](/words/de/java/working-with-fields/)

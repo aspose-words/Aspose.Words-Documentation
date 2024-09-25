@@ -46,5 +46,5 @@ Als uw profilering resultaten wijzen op een mogelijk geheugen probleem in Aspose
 ## Zie ook
 
 * [Renderen](/words/nl/java/rendering/)
-* [Mail Merge en relatie](https://docs.aspose.com/words/java/mail-merge-and-reporting/)
+* [Mail Merge en relatie](/words/java/mail-merge-and-reporting/)
 * [Werken met Velden](/words/nl/java/working-with-fields/)

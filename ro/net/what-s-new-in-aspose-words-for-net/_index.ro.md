@@ -249,7 +249,7 @@ Funcția de recunoaștere a hyperlink-urilor la încărcarea fișierelor TXT a f
 
 {{% alert color="primary" %}}
 
-Învață mai multe despre [Aspose.Words for .NET 23.9 Release Notes](/words/net/aspose-words-for-net-23-9-release-notes/).
+Învață mai multe despre [Aspose.Words for .NET 23.9 Release Notes](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-9-release-notes/).
 
 Aflaţi mai multe despre [Aspose.Words for .NET 23.10 Release Notes](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-10-release-notes/).
 
@@ -342,7 +342,7 @@ Află mai multe despre [Aspose.Words for .NET 23.5 Release Notes](/words/net/asp
 
 Află mai multe despre [Aspose.Words for .NET 23.6 Release Notes](/words/net/aspose-words-for-net-23-6-release-notes/).
 
-Aflați mai multe despre [Aspose.Words for .NET 23.7 Release Notes](/words/net/aspose-words-for-net-23-7-release-notes/).
+Aflați mai multe despre [Aspose.Words for .NET 23.7 Release Notes](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/).
 
 Învaţă mai multe despre [Aspose.Words for .NET 23.8 Release Notes](/words/net/aspose-words-for-net-23-8-release-notes/).
 
@@ -428,11 +428,11 @@ Capacitatea de a specifica dacă se ajustează automat spațierea propozițiilor
 
 Aflaţi mai multe despre [Aspose.Words for .NET 23.1 Release Notes](/words/net/aspose-words-for-net-23-1-release-notes/).
 
-Află mai multe despre [Aspose.Words for .NET 23.2 Release Notes](/words/net/aspose-words-for-net-23-2-release-notes/).
+Află mai multe despre [Aspose.Words for .NET 23.2 Release Notes](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-2-release-notes/).
 
 Află mai multe despre [Aspose.Words for .NET 23.3 Release Notes](/words/net/aspose-words-for-net-23-3-release-notes/).
 
-Învaţă mai multe despre [Aspose.Words for .NET 23.4 Release Notes](/words/net/aspose-words-for-net-23-4-release-notes/).
+Învaţă mai multe despre [Aspose.Words for .NET 23.4 Release Notes](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-4-release-notes/).
 
 {{% /alert %}}
 

@@ -333,13 +333,13 @@ Başlıklar/ayaklıklar için metin sarma desteğinin uygulanması tamamlandı. 
 
 {{% alert color="primary" %}}
 
-[Aspose.Words for Java 23.5 Release Notes](/words/java/aspose-words-for-java-23-5-release-notes/) hakkında daha fazla bilgi edinin.
+[Aspose.Words for Java 23.5 Release Notes](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-5-release-notes/) hakkında daha fazla bilgi edinin.
 
 [Aspose.Words for Java 23.6 Release Notes](/words/java/aspose-words-for-java-23-6-release-notes/)' hakkında daha fazla bilgi edinin.
 
-Daha fazla [Aspose.Words for Java 23.7 Release Notes](/words/java/aspose-words-for-java-23-7-release-notes/) hakkında bilgi edinin.
+Daha fazla [Aspose.Words for Java 23.7 Release Notes](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-7-release-notes/) hakkında bilgi edinin.
 
-Daha fazla " [Aspose.Words for Java 23.8 Release Notes](/words/java/aspose-words-for-java-23-8-release-notes/) " hakkında öğrenin.
+Daha fazla " [Aspose.Words for Java 23.8 Release Notes](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-8-release-notes/) " hakkında öğrenin.
 
 {{% /alert %}}
 
@@ -421,11 +421,11 @@ Aspose.Words metin kutularını, alt notalarını ve son notalarını kelime say
 
 {{% alert color="primary" %}}
 
-[Aspose.Words for Java 23.1 Release Notes](/words/java/aspose-words-for-java-23-1-release-notes/) hakkında daha fazla bilgi edin.
+[Aspose.Words for Java 23.1 Release Notes](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-1-release-notes/) hakkında daha fazla bilgi edin.
 
 [Aspose.Words for Java 23.2 Release Notes](/words/java/aspose-words-for-java-23-2-release-notes/)'i öğrenmek için daha fazla bilgi edin.
 
-Daha fazlasını [Aspose.Words for Java 23.3 Release Notes](/words/java/aspose-words-for-java-23-3-release-notes/) hakkında öğrenin.
+Daha fazlasını [Aspose.Words for Java 23.3 Release Notes](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-3-release-notes/) hakkında öğrenin.
 
 [Aspose.Words for Java 23.4 Release Notes](/words/java/aspose-words-for-java-23-4-release-notes/) hakkında daha fazla bilgi öğrenin.
 
@@ -497,7 +497,7 @@ Yeni bir özellik, bir listenin karşılaştırılan listeyle aynı şablondan o
 
 Daha fazla [Aspose.Words for Java 22.9 Release Notes](/words/java/aspose-words-for-java-22-9-release-notes/) hakkında bilgi edinin.
 
-Daha fazla bilgi için [Aspose.Words for Java 22.10 Release Notes](/words/java/aspose-words-for-java-22-10-release-notes/) hakkında öğrenin.
+Daha fazla bilgi için [Aspose.Words for Java 22.10 Release Notes](https://releases.aspose.com/words/java/release-notes/2022/aspose-words-for-java-22-10-release-notes/) hakkında öğrenin.
 
 [Aspose.Words for Java 22.11 Release Notes](/words/java/aspose-words-for-java-22-11-release-notes/) hakkında daha fazla bilgi edinin.
 
@@ -509,6 +509,6 @@ Daha fazla [Aspose.Words for Java 22.12 Release Notes](/words/java/aspose-words-
 
 {{% alert color="primary" %}}
 
-Bu sayfada son 2 yıldaki en son yayın haberi var. Önceki sürümlerle ilgili ayrıntılar için ilgili bölümlerdeki [Release Notes'](/words/java/release-notes/) sayfalarına bakın.
+Bu sayfada son 2 yıldaki en son yayın haberi var. Önceki sürümlerle ilgili ayrıntılar için ilgili bölümlerdeki [Release Notes'](https://releases.aspose.com/words/java/release-notes/) sayfalarına bakın.
 
 {{% /alert %}}

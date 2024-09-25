@@ -57,6 +57,6 @@ url: /ar/net/programming-with-documents/
 - [العمل مع أحرف التحكم](/words/ar/net/working-with-control-characters/)
 - [العمل مع وحدات ماكرو VBA](/words/ar/net/working-with-vba-macros/)
 - [العمل مع ميزات Markdown](/words/ar/net/working-with-markdown-features/)
-- [العمل مع مستند نصي](/words/net/work-with-text-document/)
+- [العمل مع مستند نصي](/words/net/working-with-text-document/)
 
 للحصول على وصف تفصيلي للفئات والأساليب والخصائص، راجع قسم Aspose.Words لـ .NET API Reference.

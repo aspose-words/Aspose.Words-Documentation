@@ -43,6 +43,6 @@ Belgelerle programlama yaparken Aspose.Words özellikleri hakkında daha fazla b
 - [Kontrol Karakterleriyle Çalışmak](/words/tr/net/working-with-control-characters/)
 - [VBA Makrolarıyla Çalışmak](/words/tr/net/working-with-vba-macros/)
 - [Markdown Özellikleriyle Çalışmak](/words/tr/net/working-with-markdown-features/)
-- [Metin Belgesiyle Çalışmak](/words/net/work-with-text-document/)
+- [Metin Belgesiyle Çalışmak](/words/net/working-with-text-document/)
 
 Sınıfların, yöntemlerin ve özelliklerin ayrıntılı bir açıklaması için .NET API Reference için Aspose.Words bölümüne bakın.

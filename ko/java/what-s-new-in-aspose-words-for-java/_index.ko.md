@@ -366,13 +366,13 @@ LINQ Reporting Engine에 옵션이 추가되어 JSON 문자열 값에 whitespace
 
 {{% alert color="primary" %}}
 
-더 알아보기 [Aspose.Words 제품정보 Java 23.5 릴리즈 노트](/words/java/aspose-words-for-java-23-5-release-notes/)·
+더 알아보기 [Aspose.Words 제품정보 Java 23.5 릴리즈 노트](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-5-release-notes/)·
 
 더 알아보기 [Aspose.Words 제품정보 Java 23.6 릴리즈 노트](/words/java/aspose-words-for-java-23-6-release-notes/)·
 
-더 알아보기 [Aspose.Words 제품정보 Java 23.7 릴리즈 노트](/words/java/aspose-words-for-java-23-7-release-notes/)·
+더 알아보기 [Aspose.Words 제품정보 Java 23.7 릴리즈 노트](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-7-release-notes/)·
 
-더 알아보기 [Aspose.Words 제품정보 Java 23.8 릴리즈 노트](/words/java/aspose-words-for-java-23-8-release-notes/)·
+더 알아보기 [Aspose.Words 제품정보 Java 23.8 릴리즈 노트](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-8-release-notes/)·
 
 {{% /alert %}}
 
@@ -454,11 +454,11 @@ MOBI 및 AZW3 형식의 진행 알림을 저장합니다.
 
 {{% alert color="primary" %}}
 
-더 알아보기 [Aspose.Words 제품정보 Java 23.1 릴리즈 노트](/words/java/aspose-words-for-java-23-1-release-notes/)·
+더 알아보기 [Aspose.Words 제품정보 Java 23.1 릴리즈 노트](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-1-release-notes/)·
 
 더 알아보기 [Aspose.Words 제품정보 Java 23.2 릴리스 노트](/words/java/aspose-words-for-java-23-2-release-notes/)·
 
-더 알아보기 [Aspose.Words 제품정보 Java 23.3 릴리즈 노트](/words/java/aspose-words-for-java-23-3-release-notes/)·
+더 알아보기 [Aspose.Words 제품정보 Java 23.3 릴리즈 노트](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-3-release-notes/)·
 
 더 알아보기 [Aspose.Words 제품정보 Java 23.4 릴리스 노트](/words/java/aspose-words-for-java-23-4-release-notes/)·
 
@@ -468,6 +468,6 @@ MOBI 및 AZW3 형식의 진행 알림을 저장합니다.
 
 {{% alert color="primary" %}}
 
-이 페이지는 지난 2 년 동안 최신 릴리스 뉴스를 포함합니다. 이전 릴리스에 대한 세부 사항, 참조 [공지사항 이름 *](/words/java/release-notes/) 관련 섹션의 페이지.
+이 페이지는 지난 2 년 동안 최신 릴리스 뉴스를 포함합니다. 이전 릴리스에 대한 세부 사항, 참조 [공지사항 이름 *](https://releases.aspose.com/words/java/release-notes/) 관련 섹션의 페이지.
 
 {{% /alert %}}

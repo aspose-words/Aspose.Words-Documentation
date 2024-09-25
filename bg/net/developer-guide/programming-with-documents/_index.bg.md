@@ -57,6 +57,6 @@ url: /bg/net/programming-with-documents/
 - [Работа с контролни знаци](/words/bg/net/working-with-control-characters/)
 - [Работа с VBA Macros](/words/bg/net/working-with-vba-macros/)
 - [Работа с Markdown Характеристики](/words/bg/net/working-with-markdown-features/)
-- [Работа с текстов документ](/words/net/work-with-text-document/)
+- [Работа с текстов документ](/words/net/working-with-text-document/)
 
 За подробно описание на класове, методи и свойства се отнасят до Aspose.Words вместо .NET API Reference секция.

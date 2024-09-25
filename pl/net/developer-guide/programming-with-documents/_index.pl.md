@@ -57,6 +57,6 @@ Aby dowiedzieć się więcej o funkcjach Aspose.Words podczas programowania z do
 - [Praca ze znakami kontrolnymi](/words/pl/net/working-with-control-characters/)
 - [Praca z makrami VBA](/words/pl/net/working-with-vba-macros/)
 - [Praca z funkcjami Markdown](/words/pl/net/working-with-markdown-features/)
-- [Praca z dokumentem tekstowym](/words/net/work-with-text-document/)
+- [Praca z dokumentem tekstowym](/words/net/working-with-text-document/)
 
 Szczegółowy opis klas, metod i właściwości można znaleźć w sekcji Aspose.Words dla .NET API Reference.

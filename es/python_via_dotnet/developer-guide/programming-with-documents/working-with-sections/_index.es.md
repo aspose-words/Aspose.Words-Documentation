@@ -153,5 +153,5 @@ El siguiente ejemplo de código muestra cómo modificar las propiedades de la p�
 
 ## Ver también
 
-- ["Niveles lógicos de nodos en un documento"](https://docs.aspose.com/words/python-net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
+- ["Niveles lógicos de nodos en un documento"](/words/python-net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
 - [Insertar y adjuntar documentos](/words/es/python-net/insert-and-append-documents/)

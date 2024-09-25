@@ -57,6 +57,6 @@ Meer weten over Aspose.Words functies bij het programmeren met documenten, selec
 - [Werken met controletekens](/words/nl/net/working-with-control-characters/)
 - [Werken met VBA Macros](/words/nl/net/working-with-vba-macros/)
 - [Werken met Markdown Kenmerken](/words/nl/net/working-with-markdown-features/)
-- [Werken met tekstdocument](/words/net/work-with-text-document/)
+- [Werken met tekstdocument](/words/net/working-with-text-document/)
 
 Voor een gedetailleerde beschrijving van klassen, methoden en eigenschappen verwijzen naar de Aspose.Words voor .NET API Reference Section.

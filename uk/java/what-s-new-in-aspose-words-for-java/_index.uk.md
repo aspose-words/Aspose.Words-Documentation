@@ -367,13 +367,13 @@ Mustache теги тепер підтримуються в [MailMerge.GetRegions
 
 {{% alert color="primary" %}}
 
-Дізнатися більше [Aspose.Words для Java 23.5 Реліз Примітки](/words/java/aspose-words-for-java-23-5-release-notes/)й
+Дізнатися більше [Aspose.Words для Java 23.5 Реліз Примітки](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-5-release-notes/)й
 
 Дізнатися більше [Aspose.Words для Java 23.6 Реліз Примітки](/words/java/aspose-words-for-java-23-6-release-notes/)й
 
-Дізнатися більше [Aspose.Words Про нас Java 23.7 реліз](/words/java/aspose-words-for-java-23-7-release-notes/)й
+Дізнатися більше [Aspose.Words Про нас Java 23.7 реліз](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-7-release-notes/)й
 
-Дізнатися більше [Aspose.Words для Java 23.8 Випускають Примітки](/words/java/aspose-words-for-java-23-8-release-notes/)й
+Дізнатися більше [Aspose.Words для Java 23.8 Випускають Примітки](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-8-release-notes/)й
 
 {{% /alert %}}
 
@@ -455,11 +455,11 @@ Aspose.Words 23.4 покращує розрахунок деяких парам�
 
 {{% alert color="primary" %}}
 
-Дізнатися більше [Aspose.Words Про нас Java 23.1 реліз](/words/java/aspose-words-for-java-23-1-release-notes/).
+Дізнатися більше [Aspose.Words Про нас Java 23.1 реліз](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-1-release-notes/).
 
 Дізнатися більше [Aspose.Words Про нас Java 23.2 реліз](/words/java/aspose-words-for-java-23-2-release-notes/).
 
-Дізнатися більше [Aspose.Words для Java 23.3 Реліз Примітки](/words/java/aspose-words-for-java-23-3-release-notes/).
+Дізнатися більше [Aspose.Words для Java 23.3 Реліз Примітки](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-3-release-notes/).
 
 Дізнатися більше [Aspose.Words для Java 23.4 Випускають Примітки](/words/java/aspose-words-for-java-23-4-release-notes/).
 
@@ -469,6 +469,6 @@ Aspose.Words 23.4 покращує розрахунок деяких парам�
 
 {{% alert color="primary" %}}
 
-Ця сторінка містить останні новини релізу за останні 2 роки. Для деталей на попередніх релізах див. [Видаляє Примітки Р](/words/java/release-notes/) сторінки в відповідних розділах.
+Ця сторінка містить останні новини релізу за останні 2 роки. Для деталей на попередніх релізах див. [Видаляє Примітки Р](https://releases.aspose.com/words/java/release-notes/) сторінки в відповідних розділах.
 
 {{% /alert %}}

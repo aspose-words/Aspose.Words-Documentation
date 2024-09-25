@@ -40,14 +40,14 @@ description: "쉽게 하나의 형식으로 문서를 변환합니다. 당신은
 	<div class="col-md-6">
 		<h2>Word를 PDF로 변환</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">PDF로 변환</a></li>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">PDF로 변환</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">PDF로 변환</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">PDF로 변환</a></li>
 				<li>기타</li>
 			</ul>
 		<h2>이미지를 PDF로 변환</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">PDF로 변환</a></li>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">TIFF를 PDF로 변환</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">PDF로 변환</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">TIFF를 PDF로 변환</a></li>
 				<li>기타</li>
 			</ul>
 		<h2>웹 포맷을 PDF로 변환</h2>
@@ -81,7 +81,7 @@ description: "쉽게 하나의 형식으로 문서를 변환합니다. 당신은
 			</ul>
 		<h2>문서를 HTML로 변환</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">HTML로 변환</a></li>
+				<li><a href="/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">HTML로 변환</a></li>
 				<li>지원하다 Markdown HTML로</li>
 				<li>Mobi를 EPUB로 변환</li>
 				<li>기타</li>

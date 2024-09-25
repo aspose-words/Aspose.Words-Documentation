@@ -64,8 +64,8 @@ Aspose.Words for .NET هي مكتبة فئة تمكن تطبيقاتك من تن
 						<ul>
 								<li><a href="/words/ar/net/loading-saving-and-converting/">التحميل والحفظ والتحويل</a></li>
 								<li><a href="/words/ar/net/rendering/">استدعاء</a></li>
-								<li><a href="https://docs.aspose.com/words/net/mail-merge-and-reporting/">Mail Merge وإعداد التقارير</a></li>
-								<li><a href="https://docs.aspose.com/words/net/linq-reporting-engine/">محرك التقارير LINQ</a></li>
+								<li><a href="/words/net/mail-merge-and-reporting/">Mail Merge وإعداد التقارير</a></li>
+								<li><a href="/words/net/linq-reporting-engine/">محرك التقارير LINQ</a></li>
 								<li><a href="/words/ar/net/print-a-document-programmatically-or-using-dialogs/">طباعة مستند برمجياً أو باستخدام مربعات الحوار</a></li>
 								<li><a href="/words/ar/net/programming-with-documents/">البرمجة بالوثائق</a></li>
 								<li><a href="https://reference.aspose.com/words/net">Aspose.Words لدليل .NET API Reference</a></li>

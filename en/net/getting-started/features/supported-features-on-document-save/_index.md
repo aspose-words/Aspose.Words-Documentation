@@ -182,7 +182,7 @@ It is important to know that many save options are common to all supported forma
 For a complete list of functions, see the API reference:
 
 - [save options for all formats](https://reference.aspose.com/words/net/aspose.words.saving/)
-- [fixed page save options](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/) for [fixed-page formats](https://docs.aspose.com/words/net/converting-to-fixed-page-format/): PDF, XPS, images and others
+- [fixed page save options](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/) for [fixed-page formats](/words/net/converting-to-fixed-page-format/): PDF, XPS, images and others
 - [PDF save options](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) for PDF format
 - [OOXML save options](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/) for DOCX, DOCM, DOTX, DOTM, or FlatOpc formats
 - [DOC save options](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/) for DOC and DOT formats

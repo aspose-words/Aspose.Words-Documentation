@@ -62,8 +62,8 @@ Aspose.Words поддерживает большинство популярны�
 			<ul>
 				<li><a href="/words/ru/python-net/loading-saving-and-converting/">Погрузка, экономия и конвертация</a></li>
 				<li><a href="/words/ru/python-net/rendering/">Рендеринг</a></li>
-				<li><a href="https://docs.aspose.com/words/python-net/mail-merge-and-reporting/">Mail Merge и отчетность</a></li>
-				<li><a href="https://docs.aspose.com/words/python-net/linq-reporting-engine/">Линк Двигатель отчетности</a></li>
+				<li><a href="/words/python-net/mail-merge-and-reporting/">Mail Merge и отчетность</a></li>
+				<li><a href="/words/python-net/linq-reporting-engine/">Линк Двигатель отчетности</a></li>
 				<li><a href="/words/ru/python-net/programming-with-documents/">Программирование с документами</a></li>
 			</ul>
 			<p>Техническая поддержка</p>

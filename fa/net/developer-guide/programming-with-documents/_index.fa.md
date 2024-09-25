@@ -57,6 +57,6 @@ url: /fa/net/programming-with-documents/
 - [کار با کاراکترهای کنترلی](/words/fa/net/working-with-control-characters/)
 - [کار با ماکرو VBA](/words/fa/net/working-with-vba-macros/)
 - [کار با ویژگی های Markdown](/words/fa/net/working-with-markdown-features/)
-- [کار با سند متنی](/words/net/work-with-text-document/)
+- [کار با سند متنی](/words/net/working-with-text-document/)
 
 برای توضیح دقیق کلاس‌ها، روش‌ها و ویژگی‌ها به بخش Aspose.Words for .NET API Reference مراجعه کنید.

@@ -153,6 +153,6 @@ Aspose.Words дозволяє налаштовувати властивості 
 
 ## Дивитися ще
 
-* [Логічні рівні імен у документі](https://docs.aspose.com/words/net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
+* [Логічні рівні імен у документі](/words/net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
 * [Документи](/words/uk/net/insert-and-append-documents/)
 

@@ -41,10 +41,10 @@ Thí nghiệm với hàng ngàn tài liệu thực cho thấy thông thường A
 
 Các hoạt động phức tạp hơn như hiển thị (chuyển đổi sang định dạng trang cố định), cập nhật các trường, chia trang và những thứ khác đối với một số tài liệu yêu cầu 20 lần nhiều nguồn lực hơn bộ nhớ được cấp cho tài liệu được tải trong Aspose.Words DOM.
 
-Nếu kết quả phân tích của bạn cho thấy có thể có vấn đề bộ nhớ trong Aspose.Words, vui lòng liên hệ với [Đội ngũ hỗ trợ] (https://docs.aspose.com/words/java/technical-support/) và bao gồm tất cả thông tin chẩn đoán.
+Nếu kết quả phân tích của bạn cho thấy có thể có vấn đề bộ nhớ trong Aspose.Words, vui lòng liên hệ với [Đội ngũ hỗ trợ] (/words/java/technical-support/) và bao gồm tất cả thông tin chẩn đoán.
 
 ## Xem thêm
 
-* [Render] (https://docs.aspose.com/words/java/render/)
-* [Mail Merge và Báo cáo](https://docs.aspose.com/words/java/mail-merge-and-reporting/)
-* [Làm việc với trường](https://docs.aspose.com/words/java/working-with-fields/)
+* [Render](/words/java/rendering/)
+* [Mail Merge và Báo cáo](/words/java/mail-merge-and-reporting/)
+* [Làm việc với trường](/words/java/working-with-fields/)

@@ -46,5 +46,5 @@ Se i risultati della profilazione indicano un possibile problema di memoria Aspo
 ## Vedi anche
 
 * [Rendering](/words/it/java/rendering/)
-* [Mail Merge e Relazione](https://docs.aspose.com/words/java/mail-merge-and-reporting/)
+* [Mail Merge e Relazione](/words/java/mail-merge-and-reporting/)
 * [Lavorare con i campi](/words/it/java/working-with-fields/)

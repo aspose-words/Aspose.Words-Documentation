@@ -40,14 +40,14 @@ description: "להמיר בקלות מסמכים מתבנית אחת לאחרת.
 	<div class="col-md-6">
 		<h2>המרת Word ל- PDF</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">תגית: PDF</a></li>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">תגית: PDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">תגית: PDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">תגית: PDF</a></li>
 				<li>ואחרים</li>
 			</ul>
 		<h2>צילום: PDF</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">תגית: PDF</a></li>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">המונחים: TIFFTRA- PDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">תגית: PDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">המונחים: TIFFTRA- PDF</a></li>
 				<li>ואחרים</li>
 			</ul>
 		<h2>המרת פורמטי אינטרנט ל- PDF</h2>
@@ -81,7 +81,7 @@ description: "להמיר בקלות מסמכים מתבנית אחת לאחרת.
 			</ul>
 		<h2>המרת מסמך ל-HTML</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">המונחים: Word HTML</a></li>
+				<li><a href="/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">המונחים: Word HTML</a></li>
 				<li>להמיר Markdown HTML</li>
 				<li>עקבו אחרי Mobi to EPUB</li>
 				<li>ואחרים</li>

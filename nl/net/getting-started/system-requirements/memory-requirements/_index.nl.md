@@ -47,5 +47,5 @@ Als uw profilering resultaten wijzen op een mogelijk geheugen probleem in Aspose
 
 * [Het geheugengebruik meten in Visual Studio (C#, Visual Basic, C++, F#)](https://learn.microsoft.com/en-us/visualstudio/profiling/memory-usage?view=vs-2022)
 * [Renderen](/words/nl/net/rendering/)
-* [Mail Merge en rapportage](https://docs.aspose.com/words/net/mail-merge-and-reporting/)
+* [Mail Merge en rapportage](/words/net/mail-merge-and-reporting/)
 * [Werken met velden](/words/nl/net/working-with-fields/)

@@ -47,5 +47,5 @@ Aspose.Words طیف گسترده ای از ویژگی ها را برای کار 
 
 * [اندازه گیری میزان مصرف حافظه در Visual Studio (C#، Visual Basic، C++، F#)](https://learn.microsoft.com/en-us/visualstudio/profiling/memory-usage?view=vs-2022)
 * [تفسیر](/words/fa/net/rendering/)
-* [Mail Merge و گزارش](https://docs.aspose.com/words/net/mail-merge-and-reporting/)
+* [Mail Merge و گزارش](/words/net/mail-merge-and-reporting/)
 * [کار با فیلدها](/words/fa/net/working-with-fields/)

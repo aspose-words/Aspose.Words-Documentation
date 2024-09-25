@@ -153,6 +153,6 @@ Následující příklad kódu ukazuje, jak upravit vlastnosti stránky ve všec
 
 ## Viz také
 
-* [Logické úrovně uzlů v dokumentu](https://docs.aspose.com/words/net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
+* [Logické úrovně uzlů v dokumentu](/words/net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
 * [Vložit a doplnit dokumenty](/words/cs/net/insert-and-append-documents/)
 

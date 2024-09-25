@@ -40,14 +40,14 @@ Należy pamiętać, że poniżej są najbardziej popularne kombinacje konwersji,
 	<div class="col-md-6">
 		<h2>Przelicz Słowo do PDF</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Przelicznik DOC do PDF</a></li>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Przelicznik DOCX do PDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Przelicznik DOC do PDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Przelicznik DOCX do PDF</a></li>
 				<li>i inne</li>
 			</ul>
 		<h2>Konwertuj obrazek do PDF</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Przelicznik JPG do PDF</a></li>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Przelicznik TIFF do PDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Przelicznik JPG do PDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Przelicznik TIFF do PDF</a></li>
 				<li>i inne</li>
 			</ul>
 		<h2>Przelicz formaty internetowe do PDF</h2>
@@ -81,7 +81,7 @@ Należy pamiętać, że poniżej są najbardziej popularne kombinacje konwersji,
 			</ul>
 		<h2>Konwertuj dokument do HTML</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">Przelicznik Słowo do HTML</a></li>
+				<li><a href="/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">Przelicznik Słowo do HTML</a></li>
 				<li>Przelicz Markdown do HTML</li>
 				<li>Przelicz Mobi do EPUB</li>
 				<li>i inne</li>

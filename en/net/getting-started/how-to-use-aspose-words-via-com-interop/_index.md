@@ -31,11 +31,11 @@ Here are the topics that you will eventually need to master:
 
 - Using COM objects in your programming language. See your programming language documentation and the language-specific topics further in this documentation.
 - Working with COM objects exposed by .NET COM Interop. See [Interoperating With Unmanaged Code](https://learn.microsoft.com/en-us/dotnet/framework/interop/) and [Exposing .NET Framework Components to COM](https://learn.microsoft.com/en-us/dotnet/framework/interop/exposing-dotnet-components-to-com) in MSDN.
-- Aspose.Words document object model. See Aspose.Words [Developer Guide](https://docs.aspose.com/words/net/developer-guide/) and [API Reference](https://reference.aspose.com/words/net/).
+- Aspose.Words document object model. See Aspose.Words [Developer Guide](/words/net/developer-guide/) and [API Reference](https://reference.aspose.com/words/net/).
 
 ## Register Aspose.Words for .NET with COM Interop
 
-After [installation Aspose.Words for .NET](https://docs.aspose.com/words/net/installation/), you need to register Aspose.Words for COM Interop using the  `regasm.exe` utility.
+After [installation Aspose.Words for .NET](/words/net/installation/), you need to register Aspose.Words for COM Interop using the  `regasm.exe` utility.
 
 `regasm.exe` is a tool included in .NET Framework SDK. All the .NET Framework SDK tools are located in the `%windir%\Microsoft .NET\Framework\<FrameworkVersion>\` directory, for example *C:\Windows\Microsoft .NET\Framework\v4.0.30319*.
 

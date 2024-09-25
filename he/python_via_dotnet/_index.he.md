@@ -62,8 +62,8 @@ Aspose.Words תומך ברוב פורמטי המסמך הפופולריים כג
 			<ul>
 				<li><a href="/words/he/python-net/loading-saving-and-converting/">טעינה, לחסוך ולהמיר</a></li>
 				<li><a href="/words/he/python-net/rendering/">Rendering</a></li>
-				<li><a href="https://docs.aspose.com/words/python-net/mail-merge-and-reporting/">Mail Merge דיווח ו</a></li>
-				<li><a href="https://docs.aspose.com/words/python-net/linq-reporting-engine/">LINQ דיווח על מנוע</a></li>
+				<li><a href="/words/python-net/mail-merge-and-reporting/">Mail Merge דיווח ו</a></li>
+				<li><a href="/words/python-net/linq-reporting-engine/">LINQ דיווח על מנוע</a></li>
 				<li><a href="/words/he/python-net/programming-with-documents/">תכנות עם מסמכים</a></li>
 			</ul>
 			<p>TechNICAL SUPPORT</p>

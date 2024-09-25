@@ -26,13 +26,13 @@ Aspose.Words ile birlikte Java, üçüncü taraf uygulamalara veya Office Automa
 		<p><b>Aspose.Words hakkında</b></p>
 						 <hr><p>ÖZETLE</p></hr>
 						 <ul>
-								 <li><a href="https://docs.aspose.com/words/java/what-s-new-in-aspose-words-for-java/">What's new in Aspose.Words for Java</a></li>
-								 <li><a href="https://docs.aspose.com/words/java/product-overview/">Product Overview</a></li>
-								 <li><a href="https://docs.aspose.com/words/java/licensing/">Licensing and Subscription</a></li>
+								 <li><a href="/words/java/what-s-new-in-aspose-words-for-java/">What's new in Aspose.Words for Java</a></li>
+								 <li><a href="/words/java/product-overview/">Product Overview</a></li>
+								 <li><a href="/words/java/licensing/">Licensing and Subscription</a></li>
 						</ul>
 						 <p>BAŞLADIK</p>
 						 <ul>
-								<li><a href="https://docs.aspose.com/words/java/getting-started/">Getting Started</a></li>
+								<li><a href="/words/java/getting-started/">Getting Started</a></li>
 						</ul>
 				<p>İŞE YARAR KAYNAKLAR</p>
 						 <ul>
@@ -45,28 +45,28 @@ Aspose.Words ile birlikte Java, üçüncü taraf uygulamalara veya Office Automa
 			<p><b>Başlarken</b></p>
 						 <hr><p>BAŞLAMAK</p></hr>
 						 <ul>
-								 <li><a href="https://docs.aspose.com/words/java/supported-document-formats/">Supported Document Formats</a></li>
-								 <li><a href="https://docs.aspose.com/words/java/features/">Features</a></li>
-								 <li><a href="https://docs.aspose.com/words/java/system-requirements/">System Requirements</a></li>
-								 <li><a href="https://docs.aspose.com/words/java/installation/">Installation</a></li>
+								 <li><a href="/words/java/supported-document-formats/">Supported Document Formats</a></li>
+								 <li><a href="/words/java/features/">Features</a></li>
+								 <li><a href="/words/java/system-requirements/">System Requirements</a></li>
+								 <li><a href="/words/java/installation/">Installation</a></li>
 								<li><a href="https://repository.aspose.com/words/">Install Aspose.Words for Java from Maven Repository</a></li>
 						</ul>
 						 <p>ÖĞREN</p>
 						 <ul>
-								 <li><a href="https://docs.aspose.com/words/java/how-to-run-the-examples/">How to Run the Examples</a></li>
-									<li><a href="https://docs.aspose.com/words/java/security/">Security Notes</a></li>
+								 <li><a href="/words/java/how-to-run-the-examples/">How to Run the Examples</a></li>
+									<li><a href="/words/java/security/">Security Notes</a></li>
 						</ul>
 		</div>
 	<div class="col-md-4">
 					<p><b>Geliştirici Fonksiyonları</b></p>
 						 <hr><p>KILAVUZ</p></hr>
 						 <ul>
-								 <li><a href="https://docs.aspose.com/words/java/loading-saving-and-converting/">Loading, Saving and Converting</a></li>
-								 <li><a href="https://docs.aspose.com/words/java/rendering/">Rendering</a></li>
-								 <li><a href="https://docs.aspose.com/words/java/mail-merge-and-reporting/">Mail Merge and Reporting</a></li>
-								 <li><a href="https://docs.aspose.com/words/java/linq-reporting-engine/">LINQ Reporting Engine</a></li>
-								 <li><a href="https://docs.aspose.com/words/java/print-a-document-programmatically-or-using-dialogs/">Printing a Document</a></li>
-								 <li><a href="https://docs.aspose.com/words/java/programming-with-documents/">Programming with Documents</a></li>
+								 <li><a href="/words/java/loading-saving-and-converting/">Loading, Saving and Converting</a></li>
+								 <li><a href="/words/java/rendering/">Rendering</a></li>
+								 <li><a href="/words/java/mail-merge-and-reporting/">Mail Merge and Reporting</a></li>
+								 <li><a href="/words/java/linq-reporting-engine/">LINQ Reporting Engine</a></li>
+								 <li><a href="/words/java/print-a-document-programmatically-or-using-dialogs/">Printing a Document</a></li>
+								 <li><a href="/words/java/programming-with-documents/">Programming with Documents</a></li>
 								 <li><a href="https://reference.aspose.com/words/java">Aspose.Words for Java API Reference Guide</a></li>
 						</ul>
 							<p>ÖĞRENME</p>

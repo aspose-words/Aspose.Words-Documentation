@@ -47,5 +47,5 @@ Aspose.Words Предоставляет широкий спектр возмож
 
 * [Использование памяти в измерении Visual Studio ()C#, Visual Basic, C++, F#)](https://learn.microsoft.com/en-us/visualstudio/profiling/memory-usage?view=vs-2022)
 * [Рендеринг](/words/ru/net/rendering/)
-* [Mail Merge и отчетность](https://docs.aspose.com/words/net/mail-merge-and-reporting/)
+* [Mail Merge и отчетность](/words/net/mail-merge-and-reporting/)
 * [Работа с полями](/words/ru/net/working-with-fields/)

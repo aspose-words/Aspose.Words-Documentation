@@ -276,7 +276,7 @@ TXT 문서 로딩 시 하이퍼링크를 인식하는 기능이 새로운 [detec
 
 {{% alert color="primary" %}}
 
-[Python via .NET 23.9용 Aspose.Words 릴리스 노트](/words/python-net/aspose-words-for-python-via-dotnet-23-9-release-notes/)에 대해 자세히 알아보세요.
+[Python via .NET 23.9용 Aspose.Words 릴리스 노트](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-9-release-notes/)에 대해 자세히 알아보세요.
 
 [Python via .NET 23.10용 Aspose.Words 릴리스 노트](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-10-release-notes/)에 대해 자세히 알아보세요.
 
@@ -365,7 +365,7 @@ JSON 문자열 값의 공백을 보존하기 위해 LINQ 보고 엔진에 옵션
 
 [Python via .NET 23.6용 Aspose.Words 릴리스 노트](/words/python-net/aspose-words-for-python-via-dotnet-23-6-release-notes/)에 대해 자세히 알아보세요.
 
-[Python via .NET 23.7용 Aspose.Words 릴리스 노트](/words/python-net/aspose-words-for-python-via-dotnet-23-7-release-notes/)에 대해 자세히 알아보세요.
+[Python via .NET 23.7용 Aspose.Words 릴리스 노트](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/)에 대해 자세히 알아보세요.
 
 [Python via .NET 23.8용 Aspose.Words 릴리스 노트](/words/python-net/aspose-words-for-python-via-dotnet-23-8-release-notes/)에 대해 자세히 알아보세요.
 
@@ -453,7 +453,7 @@ MOBI 및 AZW3 형식에 대한 진행 알림 저장이 구현되었습니다.
 
 [Python via .NET 23.2용 Aspose.Words 릴리스 노트](/words/python-net/aspose-words-for-python-via-dotnet-23-2-release-notes/)에 대해 자세히 알아보세요.
 
-[Python via .NET 23.3용 Aspose.Words 릴리스 노트](/words/python-net/aspose-words-for-python-via-dotnet-23-3-release-notes/)에 대해 자세히 알아보세요.
+[Python via .NET 23.3용 Aspose.Words 릴리스 노트](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-3-release-notes/)에 대해 자세히 알아보세요.
 
 [Python via .NET 23.4용 Aspose.Words 릴리스 노트](/words/python-net/aspose-words-for-python-via-dotnet-23-4-release-notes/)에 대해 자세히 알아보세요.
 
@@ -463,6 +463,6 @@ MOBI 및 AZW3 형식에 대한 진행 알림 저장이 구현되었습니다.
 
 {{% alert color="primary" %}}
 
-이 페이지에는 지난 2년간의 최신 출시 소식이 포함되어 있습니다. 이전 릴리스에 대한 자세한 내용은 관련 섹션의 [릴리즈 노트'](/words/python-net/release-notes/) 페이지를 참조하세요.
+이 페이지에는 지난 2년간의 최신 출시 소식이 포함되어 있습니다. 이전 릴리스에 대한 자세한 내용은 관련 섹션의 [릴리즈 노트'](https://releases.aspose.com/words/python/release-notes/) 페이지를 참조하세요.
 
 {{% /alert %}}

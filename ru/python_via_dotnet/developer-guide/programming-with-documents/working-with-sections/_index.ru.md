@@ -153,5 +153,5 @@ Aspose.Words позволяет настраивать свойства стра
 
 ## Смотрите также
 
-- [Логические уровни узлов в документе](https://docs.aspose.com/words/python-net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
+- [Логические уровни узлов в документе](/words/python-net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
 - [Включить и добавить документы](/words/ru/python-net/insert-and-append-documents/)

@@ -13,7 +13,7 @@ url: /he/net/how-to-build-a-table-from-a-datatable/
 
 {{% alert color="primary" %}}
 
-שים לב כי הדרך המועדפת להכניס נתונים מ **DataTable** לתוך שולחן מסמך הוא באמצעות [Mail Merge עם אזורים](https://docs.aspose.com/words/net/types-of-mail-merge-operations/#mail-merge-with-regions). הטכניקה המוצגת במאמר זה מוצעת רק אם אתה לא יכול ליצור תבנית מתאימה לפני יד כדי למזג נתונים עם, במילים אחרות אם אתה צריך הכל כדי לקרות באופן מתודולוגי.
+שים לב כי הדרך המועדפת להכניס נתונים מ **DataTable** לתוך שולחן מסמך הוא באמצעות [Mail Merge עם אזורים](/words/net/types-of-mail-merge-operations/#mail-merge-with-regions). הטכניקה המוצגת במאמר זה מוצעת רק אם אתה לא יכול ליצור תבנית מתאימה לפני יד כדי למזג נתונים עם, במילים אחרות אם אתה צריך הכל כדי לקרות באופן מתודולוגי.
 
 {{% /alert %}}
 

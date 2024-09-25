@@ -46,5 +46,5 @@ Si los resultados de su perfil indican un posible problema de memoria en Aspose.
 ## Vea también
 
 * [Rendering](/words/es/java/rendering/)
-* [Mail Merge and Reporting](https://docs.aspose.com/words/java/mail-merge-and-reporting/)
+* [Mail Merge and Reporting](/words/java/mail-merge-and-reporting/)
 * [Working with Fields](/words/es/java/working-with-fields/)

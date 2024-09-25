@@ -64,8 +64,8 @@ Aspose.Words는 DOC, DOCX, RTF, HTML, Markdown, PDF, XPS, EPUB 등과 같은 널
 						<ul>
 								<li><a href="/words/ko/net/loading-saving-and-converting/">로드, 저장 및 변환</a></li>
 								<li><a href="/words/ko/net/rendering/">표현</a></li>
-								<li><a href="https://docs.aspose.com/words/net/mail-merge-and-reporting/">Mail Merge 및 보고</a></li>
-								<li><a href="https://docs.aspose.com/words/net/linq-reporting-engine/">LINQ 보고 엔진</a></li>
+								<li><a href="/words/net/mail-merge-and-reporting/">Mail Merge 및 보고</a></li>
+								<li><a href="/words/net/linq-reporting-engine/">LINQ 보고 엔진</a></li>
 								<li><a href="/words/ko/net/print-a-document-programmatically-or-using-dialogs/">프로그래밍 방식으로 또는 대화 상자를 사용하여 문서 인쇄</a></li>
 								<li><a href="/words/ko/net/programming-with-documents/">문서를 이용한 프로그래밍</a></li>
 								<li><a href="https://reference.aspose.com/words/net">.NET API Reference 가이드용 Aspose.Words</a></li>

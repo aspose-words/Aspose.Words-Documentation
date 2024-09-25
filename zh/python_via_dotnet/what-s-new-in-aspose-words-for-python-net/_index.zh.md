@@ -276,7 +276,7 @@ Aspose.Words 23.12 引入了用于处理 PDF 和 OOXML 文档的新属性和枚�
 
 {{% alert color="primary" %}}
 
-了解有关 [Aspose.Words for Python via .NET 23.9 发行说明](/words/python-net/aspose-words-for-python-via-dotnet-23-9-release-notes/) 的更多信息。
+了解有关 [Aspose.Words for Python via .NET 23.9 发行说明](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-9-release-notes/) 的更多信息。
 
 了解有关 [Aspose.Words for Python via .NET 23.10 发行说明](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-10-release-notes/) 的更多信息。
 
@@ -365,7 +365,7 @@ LINQ 报告引擎中添加了一个选项，用于保留 JSON 字符串值的空
 
 了解有关 [Aspose.Words for Python via .NET 23.6 发行说明](/words/python-net/aspose-words-for-python-via-dotnet-23-6-release-notes/) 的更多信息。
 
-了解有关 [Aspose.Words for Python via .NET 23.7 发行说明](/words/python-net/aspose-words-for-python-via-dotnet-23-7-release-notes/) 的更多信息。
+了解有关 [Aspose.Words for Python via .NET 23.7 发行说明](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/) 的更多信息。
 
 了解有关 [Aspose.Words for Python via .NET 23.8 发行说明](/words/python-net/aspose-words-for-python-via-dotnet-23-8-release-notes/) 的更多信息。
 
@@ -453,7 +453,7 @@ Aspose.Words 23.4 改进了一些参数的计算以及表格和周围文本的�
 
 了解有关 [Aspose.Words for Python via .NET 23.2 发行说明](/words/python-net/aspose-words-for-python-via-dotnet-23-2-release-notes/) 的更多信息。
 
-了解有关 [Aspose.Words for Python via .NET 23.3 发行说明](/words/python-net/aspose-words-for-python-via-dotnet-23-3-release-notes/) 的更多信息。
+了解有关 [Aspose.Words for Python via .NET 23.3 发行说明](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-3-release-notes/) 的更多信息。
 
 了解有关 [Aspose.Words for Python via .NET 23.4 发行说明](/words/python-net/aspose-words-for-python-via-dotnet-23-4-release-notes/) 的更多信息。
 
@@ -463,6 +463,6 @@ Aspose.Words 23.4 改进了一些参数的计算以及表格和周围文本的�
 
 {{% alert color="primary" %}}
 
-此页面包含过去 2 年的最新发布消息。有关早期版本的详细信息，请参阅相关部分中的 [发行说明'](/words/python-net/release-notes/) 页面。
+此页面包含过去 2 年的最新发布消息。有关早期版本的详细信息，请参阅相关部分中的 [发行说明'](https://releases.aspose.com/words/python/release-notes/) 页面。
 
 {{% /alert %}}

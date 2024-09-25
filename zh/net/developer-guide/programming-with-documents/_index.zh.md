@@ -57,6 +57,6 @@ url: /zh/net/programming-with-documents/
 - [使用控制字符](/words/zh/net/working-with-control-characters/)
 - [使用 VBA 宏](/words/zh/net/working-with-vba-macros/)
 - [使用 Markdown 功能](/words/zh/net/working-with-markdown-features/)
-- [处理文本文档](/words/net/work-with-text-document/)
+- [处理文本文档](/words/net/working-with-text-document/)
 
 有关类、方法和属性的详细说明，请参阅 Aspose.Words for .NET API Reference 部分。

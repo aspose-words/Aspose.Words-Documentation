@@ -13,7 +13,7 @@ url: /ja/net/how-to-build-a-table-from-a-datatable/
 
 {{% alert color="primary" %}}
 
-**DataTable** からドキュメント テーブルにデータを挿入する推奨される方法は、[Mail Merge とリージョン](https://docs.aspose.com/words/net/types-of-mail-merge-operations/#mail-merge-with-regions) を使用することです。この記事で紹介する手法は、データを結合するための適切なテンプレートを事前に作成できない場合、つまり、すべてをプログラムで実行する必要がある場合にのみ推奨されます。
+**DataTable** からドキュメント テーブルにデータを挿入する推奨される方法は、[Mail Merge とリージョン](/words/net/types-of-mail-merge-operations/#mail-merge-with-regions) を使用することです。この記事で紹介する手法は、データを結合するための適切なテンプレートを事前に作成できない場合、つまり、すべてをプログラムで実行する必要がある場合にのみ推奨されます。
 
 {{% /alert %}}
 

@@ -153,5 +153,5 @@ Aspose.Words מאפשר לך להתאים אישית דף ותכונות סעי�
 
 ## ראה גם
 
-- [רמות לוגיות של נקודות במסמך](https://docs.aspose.com/words/python-net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
+- [רמות לוגיות של נקודות במסמך](/words/python-net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
 - [הכנס ונספח מסמכים](/words/he/python-net/insert-and-append-documents/)

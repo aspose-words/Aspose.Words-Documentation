@@ -153,6 +153,6 @@ Aspose.Words מאפשר לך להתאים אישית דף ותכונות סעי�
 
 ## ראה גם
 
-* [רמות לוגיות של נקודות במסמך](https://docs.aspose.com/words/net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
+* [רמות לוגיות של נקודות במסמך](/words/net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
 * [הכנס ונספח מסמכים](/words/he/net/insert-and-append-documents/)
 

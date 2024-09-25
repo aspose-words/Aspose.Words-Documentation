@@ -57,6 +57,6 @@ Per saperne di più sulle funzionalità di Aspose.Words durante la programmazion
 - [Lavorare con i caratteri di controllo](/words/it/net/working-with-control-characters/)
 - [Lavorare con le macro VBA](/words/it/net/working-with-vba-macros/)
 - [Lavorare con le funzionalità Markdown](/words/it/net/working-with-markdown-features/)
-- [Lavorare con documenti di testo](/words/net/work-with-text-document/)
+- [Lavorare con documenti di testo](/words/net/working-with-text-document/)
 
 Per una descrizione dettagliata di classi, metodi e proprietà fare riferimento alla sezione Aspose.Words per .NET API Reference.

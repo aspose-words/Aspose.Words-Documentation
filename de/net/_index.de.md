@@ -64,8 +64,8 @@ Mit Aspose.Words für .NET können Sie Dokumente ohne Drittanbieteranwendungen o
 						<ul>
 								<li><a href="/words/de/net/loading-saving-and-converting/">Laden, Speichern und Konvertieren</a></li>
 								<li><a href="/words/de/net/rendering/">Rendern</a></li>
-								<li><a href="https://docs.aspose.com/words/net/mail-merge-and-reporting/">Mail Merge und Berichterstattung</a></li>
-								<li><a href="https://docs.aspose.com/words/net/linq-reporting-engine/">LINQ-Reporting-Engine</a></li>
+								<li><a href="/words/net/mail-merge-and-reporting/">Mail Merge und Berichterstattung</a></li>
+								<li><a href="/words/net/linq-reporting-engine/">LINQ-Reporting-Engine</a></li>
 								<li><a href="/words/de/net/print-a-document-programmatically-or-using-dialogs/">Drucken eines Dokuments programmgesteuert oder mithilfe von Dialogen</a></li>
 								<li><a href="/words/de/net/programming-with-documents/">Programmieren mit Dokumenten</a></li>
 								<li><a href="https://reference.aspose.com/words/net">Aspose.Words für .NET API Reference-Leitfaden</a></li>

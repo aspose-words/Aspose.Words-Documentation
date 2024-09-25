@@ -13,7 +13,7 @@ Seringkali aplikasi Anda mengambil data dari database dan menyimpannya dalam ben
 
 {{% alert color="primary" %}}
 
-Perhatikan bahwa cara yang lebih disukai untuk memasukkan data dari **DataTable** ke dalam tabel dokumen adalah dengan menggunakan [Mail Merge dengan Wilayah](https://docs.aspose.com/words/net/types-of-mail-merge-operations/#mail-merge-with-regions). Teknik yang disajikan dalam artikel ini hanya disarankan jika Anda tidak dapat membuat template yang sesuai sebelumnya untuk menggabungkan data, dengan kata lain jika Anda memerlukan semuanya terjadi secara terprogram.
+Perhatikan bahwa cara yang lebih disukai untuk memasukkan data dari **DataTable** ke dalam tabel dokumen adalah dengan menggunakan [Mail Merge dengan Wilayah](/words/net/types-of-mail-merge-operations/#mail-merge-with-regions). Teknik yang disajikan dalam artikel ini hanya disarankan jika Anda tidak dapat membuat template yang sesuai sebelumnya untuk menggabungkan data, dengan kata lain jika Anda memerlukan semuanya terjadi secara terprogram.
 
 {{% /alert %}}
 

@@ -153,6 +153,6 @@ Aspose.Words به شما اجازه می دهد تا با استفاده از ک
 
 ## همچنین ببینید
 
-* [سطوح منطقی گره ها در یک سند](https://docs.aspose.com/words/net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
+* [سطوح منطقی گره ها در یک سند](/words/net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
 * [درج و الحاق اسناد](/words/fa/net/insert-and-append-documents/)
 

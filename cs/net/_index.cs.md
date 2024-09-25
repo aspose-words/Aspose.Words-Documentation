@@ -64,8 +64,8 @@ S Aspose.Words místo .NET, můžete vytvářet, upravovat, převádět, vykresl
 			<ul>
 				<li><a href="/words/cs/net/loading-saving-and-converting/">Načítání, ukládání a převod</a></li>
 				<li><a href="/words/cs/net/rendering/">Renderování</a></li>
-				<li><a href="https://docs.aspose.com/words/net/mail-merge-and-reporting/">Mail Merge a podávání zpráv</a></li>
-				<li><a href="https://docs.aspose.com/words/net/linq-reporting-engine/">LINQ Vykazovací motor</a></li>
+				<li><a href="/words/net/mail-merge-and-reporting/">Mail Merge a podávání zpráv</a></li>
+				<li><a href="/words/net/linq-reporting-engine/">LINQ Vykazovací motor</a></li>
 				<li><a href="/words/cs/net/print-a-document-programmatically-or-using-dialogs/">Tisk dokumentu Programově nebo pomocí dialogů</a></li>
 				<li><a href="/words/cs/net/programming-with-documents/">Programování s dokumenty</a></li>
 				<li><a href="https://reference.aspose.com/words/net">Aspose.Words místo .NET API Reference Příručka</a></li>

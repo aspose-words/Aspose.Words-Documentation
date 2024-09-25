@@ -276,7 +276,7 @@ Aspose.Words 23.12 въвежда нови свойства и изброява�
 
 {{% alert color="primary" %}}
 
-Научете повече за [Aspose.Words вместо Python via .NET 23.9 Бележки за освобождаване](/words/python-net/aspose-words-for-python-via-dotnet-23-9-release-notes/).
+Научете повече за [Aspose.Words вместо Python via .NET 23.9 Бележки за освобождаване](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-9-release-notes/).
 
 Научете повече за [Aspose.Words вместо Python via .NET 23.10 Бележки за освобождаване](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-10-release-notes/).
 
@@ -365,7 +365,7 @@ Mustache Етикетите сега се поддържат в [MailMerge.GetRe
 
 Научете повече за [Aspose.Words вместо Python via .NET 23.6 Бележки за освобождаване](/words/python-net/aspose-words-for-python-via-dotnet-23-6-release-notes/).
 
-Научете повече за [Aspose.Words вместо Python via .NET 23.7 Бележки за освобождаване](/words/python-net/aspose-words-for-python-via-dotnet-23-7-release-notes/).
+Научете повече за [Aspose.Words вместо Python via .NET 23.7 Бележки за освобождаване](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/).
 
 Научете повече за [Aspose.Words вместо Python via .NET 23.8 Бележки за освобождаване](/words/python-net/aspose-words-for-python-via-dotnet-23-8-release-notes/).
 
@@ -453,7 +453,7 @@ Aspose.Words 23.4 подобрява изчисляването на някои 
 
 Научете повече за [Aspose.Words вместо Python via .NET 23.2 Бележки за освобождаване](/words/python-net/aspose-words-for-python-via-dotnet-23-2-release-notes/).
 
-Научете повече за [Aspose.Words вместо Python via .NET 23.3 Бележки за освобождаване](/words/python-net/aspose-words-for-python-via-dotnet-23-3-release-notes/).
+Научете повече за [Aspose.Words вместо Python via .NET 23.3 Бележки за освобождаване](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-3-release-notes/).
 
 Научете повече за [Aspose.Words вместо Python via .NET 23.4 Бележки за освобождаване](/words/python-net/aspose-words-for-python-via-dotnet-23-4-release-notes/).
 
@@ -463,6 +463,6 @@ Aspose.Words 23.4 подобрява изчисляването на някои 
 
 {{% alert color="primary" %}}
 
-Тази страница съдържа последните новини за последните 2 години. За подробности относно по- ранните издания вижте [Бележки за освобождаване '](/words/python-net/release-notes/) страници в съответните раздели.
+Тази страница съдържа последните новини за последните 2 години. За подробности относно по- ранните издания вижте [Бележки за освобождаване '](https://releases.aspose.com/words/python/release-notes/) страници в съответните раздели.
 
 {{% /alert %}}

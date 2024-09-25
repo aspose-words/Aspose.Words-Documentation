@@ -15,8 +15,8 @@ Mehr erfahren über Aspose.Words für Java Funktionen können Sie den entspreche
 
 - Ja. [Laden, Sparen und Umrechnen](/words/de/java/loading-saving-and-converting/) – bietet Informationen über verschiedene Möglichkeiten, Dokumente und formatspezifische Funktionen zu laden oder zu speichern, die für die Umwandlung eines Dokuments von einem Format in ein anderes nützlich sind.
 - Ja. [Rendering](/words/de/java/rendering/) – gibt Informationen darüber, wie man eine paginierte Darstellung aus einem Dokument im Flow-layout-Seitenformat erhält.
-- Ja. [Mail Merge und Reporting](https://docs.aspose.com/words/java/mail-merge-and-reporting/) – informiert über die Erstellung von Dokumenten, wie Berichte, Kataloge, Erfinder und Rechnungen, von Vorlagen mit mail merge Felder.
-- Ja. [LINQ Reporting Engine](https://docs.aspose.com/words/java/linq-reporting-engine/) – informiert über Bauberichte mit erweiterten Berichtsfunktionen.
+- Ja. [Mail Merge und Reporting](/words/java/mail-merge-and-reporting/) – informiert über die Erstellung von Dokumenten, wie Berichte, Kataloge, Erfinder und Rechnungen, von Vorlagen mit mail merge Felder.
+- Ja. [LINQ Reporting Engine](/words/java/linq-reporting-engine/) – informiert über Bauberichte mit erweiterten Berichtsfunktionen.
 - Ja. [Drucken eines der Dokumente Programmierung oder Verwendung von Dialogen](/words/de/java/print-a-document-programmatically-or-using-dialogs/) – gibt Informationen darüber, wie Sie ein Dokument auf verschiedene Weise drucken können und den Druckvorgang optimieren, um Ihre eigene Logik umzusetzen.
 - Ja. [Programmierung mit Dokumenten](/words/de/java/programming-with-documents/) – bietet Informationen darüber, wie Sie Dokumente programmtechnisch erstellen, modifizieren und verwalten können, einschließlich der Änderung ihrer Inhalte und ihres visuellen Aussehens.
 

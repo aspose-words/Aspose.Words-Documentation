@@ -17,9 +17,9 @@ url: /he/net/getting-started/
 - - [שלום, עולם!](/words/he/net/hello-world/) - מספק מידע על איך לבדוק שתוכנה שנועדה ליצור או להפעיל קוד מקור מותקנת כראוי
 - - [תגיות Document Formats](/words/he/net/supported-document-formats/) מספק מידע על פורמטים נתמך
 - - [תכונות תמיכה](/words/he/net/features/) מספק מידע על אילו תכונות נתמכות בעת טעינה או שמירת מסמך בפורמטים שונים
-- - [פלטפורמות תמיכה](https://docs.aspose.com/words/net/platforms-and-interoperability/) מספק מידע על השימוש Aspose.Words בעת בניית יישומים לפלטפורמות אחרות
+- - [פלטפורמות תמיכה](/words/net/platforms-and-interoperability/) מספק מידע על השימוש Aspose.Words בעת בניית יישומים לפלטפורמות אחרות
 - - [רישוי ומנוי](/words/he/net/licensing/) - מספק מידע על יישום רישיון ושימוש במוצרים מרובים
-- - [למה למה למה למה Aspose.Words](https://docs.aspose.com/words/net/aspose-words-or-other-solutions/) - מתאר את הסיבות למה כדאי להשתמש במוצרים מאשר מוצרים אחרים, למשל. Microsoft Office Automation Open XML SDK
+- - [למה למה למה למה Aspose.Words](/words/net/aspose-words-or-other-solutions/) - מתאר את הסיבות למה כדאי להשתמש במוצרים מאשר מוצרים אחרים, למשל. Microsoft Office Automation Open XML SDK
 - - [דרישות מערכת](/words/he/net/system-requirements/) מספק מידע על דרישות מערכת ופיתוח
 - - [הערות אבטחה](/words/he/net/security/) מתאר הערות וטיפים כיצד להימנע מבעיות אבטחה נפוצות
 - - [כיצד לנהל את הדוגמאות](/words/he/net/how-to-run-the-examples/) - מתאר כיצד להוריד ולהפעיל את הדוגמאות ואת אילו דרישות תוכנה יש למלא

@@ -153,5 +153,5 @@ O exemplo de código a seguir mostra como modificar as propriedades da página e
 
 ## Veja também
 
-- [Níveis lógicos de nós em um documento](https://docs.aspose.com/words/python-net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
+- [Níveis lógicos de nós em um documento](/words/python-net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
 - [Inserir e anexar documentos](/words/pt/python-net/insert-and-append-documents/)

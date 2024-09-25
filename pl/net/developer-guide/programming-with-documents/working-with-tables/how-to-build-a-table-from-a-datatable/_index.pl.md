@@ -13,7 +13,7 @@ Często Twoja aplikacja będzie pobierać dane z bazy danych i przechowywać je 
 
 {{% alert color="primary" %}}
 
-Należy pamiętać, że preferowanym sposobem wstawiania danych z **DataTable** do tabeli dokumentów jest użycie [Mail Merge z regionami](https://docs.aspose.com/words/net/types-of-mail-merge-operations/#mail-merge-with-regions). Technika przedstawiona w tym artykule jest sugerowana tylko wtedy, gdy nie możesz wcześniej utworzyć odpowiedniego szablonu do scalania danych, innymi słowy, jeśli chcesz, aby wszystko działo się programowo.
+Należy pamiętać, że preferowanym sposobem wstawiania danych z **DataTable** do tabeli dokumentów jest użycie [Mail Merge z regionami](/words/net/types-of-mail-merge-operations/#mail-merge-with-regions). Technika przedstawiona w tym artykule jest sugerowana tylko wtedy, gdy nie możesz wcześniej utworzyć odpowiedniego szablonu do scalania danych, innymi słowy, jeśli chcesz, aby wszystko działo się programowo.
 
 {{% /alert %}}
 

@@ -57,6 +57,6 @@ url: /ja/net/programming-with-documents/
 - [制御文字の使用](/words/ja/net/working-with-control-characters/)
 - [VBA マクロの操作](/words/ja/net/working-with-vba-macros/)
 - [Markdown 機能の使用](/words/ja/net/working-with-markdown-features/)
-- [テキストドキュメントの操作](/words/net/work-with-text-document/)
+- [テキストドキュメントの操作](/words/net/working-with-text-document/)
 
 クラス、メソッド、プロパティの詳細については、「Aspose.Words for .NET API Reference」セクションを参照してください。

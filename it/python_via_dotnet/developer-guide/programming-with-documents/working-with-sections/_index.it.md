@@ -153,5 +153,5 @@ L'esempio di codice seguente mostra come modificare le proprietà della pagina i
 
 ## Guarda anche
 
-- [Livelli logici dei nodi in un documento](https://docs.aspose.com/words/python-net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
+- [Livelli logici dei nodi in un documento](/words/python-net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
 - [Inserisci e aggiungi documenti](/words/it/python-net/insert-and-append-documents/)

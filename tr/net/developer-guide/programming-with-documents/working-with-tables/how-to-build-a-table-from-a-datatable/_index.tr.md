@@ -13,7 +13,7 @@ Genellikle uygulamanız verileri bir veritabanından çeker ve bunu **DataTable*
 
 {{% alert color="primary" %}}
 
-**DataTable**'ten belge tablosuna veri eklemenin tercih edilen yolunun [Bölgelerle Mail Merge](https://docs.aspose.com/words/net/types-of-mail-merge-operations/#mail-merge-with-regions) kullanmak olduğunu unutmayın. Bu makalede sunulan teknik yalnızca verileri birleştirmek için önceden uygun bir şablon oluşturamıyorsanız, diğer bir deyişle her şeyin programlı olarak gerçekleşmesini istiyorsanız önerilir.
+**DataTable**'ten belge tablosuna veri eklemenin tercih edilen yolunun [Bölgelerle Mail Merge](/words/net/types-of-mail-merge-operations/#mail-merge-with-regions) kullanmak olduğunu unutmayın. Bu makalede sunulan teknik yalnızca verileri birleştirmek için önceden uygun bir şablon oluşturamıyorsanız, diğer bir deyişle her şeyin programlı olarak gerçekleşmesini istiyorsanız önerilir.
 
 {{% /alert %}}
 

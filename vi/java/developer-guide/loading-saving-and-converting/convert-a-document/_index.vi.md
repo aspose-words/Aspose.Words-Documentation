@@ -40,14 +40,14 @@ Xin lưu ý rằng dưới đây là các kết hợp chuyển đổi phổ bi�
 	<div class="col-md-6">
 		<h2>Chuyển đổi từ Word sang PDF</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Convert DOC to PDF</a></li>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Convert DOCX to PDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Convert DOC to PDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Convert DOCX to PDF</a></li>
 				<li>và những người khác</li>
 			< /ul>
 		<h2>Chuyển đổi ảnh sang PDF</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Convert JPG to PDF</a></li>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Convert TIFF to PDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Convert JPG to PDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Convert TIFF to PDF</a></li>
 				<li>và những người khác</li>
 			</ul>
 		<h2>Chuyển đổi Định Dạng Web sang PDF</h2>
@@ -69,30 +69,30 @@ Xin lưu ý rằng dưới đây là các kết hợp chuyển đổi phổ bi�
 	<div class="col-md-6">
 		<h2>Chuyển đổi một Tài liệu thành Hình ảnh</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-an-image/">Convert DOCX to JPG</a></li>
+				<li><a href="/words/java/convert-a-document-to-an-image/">Convert DOCX to JPG</a></li>
 				<li>Chuyển đổi DOC sang PNG</li>
 				<li>và những người khác</li>
 			</ul>
 		<h2>Chuyển đổi tài liệu thành Markdown</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-markdown/">Convert a Document to Markdown</a></li>
+				<li><a href="/words/java/convert-a-document-to-markdown/">Convert a Document to Markdown</a></li>
 				<li>Chuyển đổi HTML thành Markdown</li>
 				<li>và những người khác</li>
 			< / ul >
 		<h2>Chuyển đổi Tài liệu thành HTML</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">Convert Word to HTML</a></li>
+				<li><a href="/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">Convert Word to HTML</a></li>
 				<li>Chuyển đổi Markdown sang HTML</li>
 				<li>Chuyển đổi Mobi sang EPUB</li>
 				<li>và những người khác</li>
 			<ul>
 		<h2>Làm việc với một Tài liệu trong một Cơ sở dữ liệu</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/serialize-and-work-with-a-document-in-a-database/">Serialize and Work with a Document in a Database</a></li>
+				<li><a href="/words/java/serialize-and-work-with-a-document-in-a-database/">Serialize and Work with a Document in a Database</a></li>
 			</ul>
 		<h2>Các ví dụ khác</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-mhtml-and-send-it-by-email/">Convert a Document to MHTML and Send It by Email</a></li>
+				<li><a href="/words/java/convert-a-document-to-mhtml-and-send-it-by-email/">Convert a Document to MHTML and Send It by Email</a></li>
 				<li>Chuyển đổi DOCX sang DOC</li>
 				<li>Chuyển HTML thành Word</li>
 				<li>và những người khác</li>

@@ -46,5 +46,5 @@ Aspose.Words מספק מגוון רחב של תכונות לעבוד עם מסמ
 ## ראה גם
 
 * [Rendering](/words/he/java/rendering/)
-* [Mail Merge דיווח ו](https://docs.aspose.com/words/java/mail-merge-and-reporting/)
+* [Mail Merge דיווח ו](/words/java/mail-merge-and-reporting/)
 * [עבודה עם שדות](/words/he/java/working-with-fields/)

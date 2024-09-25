@@ -96,6 +96,6 @@ public static Hyperlink createHyperlink(MainDocumentPart mdp, String url) {
 
 {{% alert color="primary" %}}
 
-For more details, visit [How to Replace or Modify Hyperlinks](/words/java/how-to-replace-or-modify-hyperlinks-and-replace-fields-with-static-text/).
+For more details, visit [How to Replace or Modify Hyperlinks](/words/java/replace-fields/).
 
 {{% /alert %}}

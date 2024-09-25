@@ -62,8 +62,8 @@ Aspose.Words از اکثر فرمت های سند محبوب مانند DOC، DO
 						<ul>
 								<li><a href="/words/fa/python-net/loading-saving-and-converting/">بارگیری، ذخیره و تبدیل</a></li>
 								<li><a href="/words/fa/python-net/rendering/">تفسیر</a></li>
-								<li><a href="https://docs.aspose.com/words/python-net/mail-merge-and-reporting/">Mail Merge و گزارش</a></li>
-								<li><a href="https://docs.aspose.com/words/python-net/linq-reporting-engine/">موتور گزارش LINQ</a></li>
+								<li><a href="/words/python-net/mail-merge-and-reporting/">Mail Merge و گزارش</a></li>
+								<li><a href="/words/python-net/linq-reporting-engine/">موتور گزارش LINQ</a></li>
 								<li><a href="/words/fa/python-net/programming-with-documents/">برنامه نویسی با اسناد</a></li>
 						</ul>
 						<p>پشتیبانی فنی</p>

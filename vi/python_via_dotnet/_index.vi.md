@@ -62,8 +62,8 @@ Với Aspose.Words cho Python via .NET, bạn có thể tạo, sửa đổi, chu
 						<ul>
 								<li><a href="/words/vi/python-net/loading-saving-and-converting/">Đang tải, lưu và chuyển đổi</a></li>
 								<li><a href="/words/vi/python-net/rendering/">Kết xuất</a></li>
-								<li><a href="https://docs.aspose.com/words/python-net/mail-merge-and-reporting/">Mail Merge và báo cáo</a></li>
-								<li><a href="https://docs.aspose.com/words/python-net/linq-reporting-engine/">Công cụ báo cáo LINQ</a></li>
+								<li><a href="/words/python-net/mail-merge-and-reporting/">Mail Merge và báo cáo</a></li>
+								<li><a href="/words/python-net/linq-reporting-engine/">Công cụ báo cáo LINQ</a></li>
 								<li><a href="/words/vi/python-net/programming-with-documents/">Lập trình với tài liệu</a></li>
 						</ul>
 						<p>HỖ TRỢ KỸ THUẬT</p>

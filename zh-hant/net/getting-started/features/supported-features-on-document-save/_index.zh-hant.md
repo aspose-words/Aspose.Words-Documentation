@@ -20,7 +20,7 @@ url: /zh-hant/net/supported-features-on-document-save/
 完整的功能清單請見 API reference:。
 
 - [save options for all formats](https://reference.aspose.com/words/net/aspose.words.saving/)
-- [fixed page save options](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/)為[fixed-page formats](https://docs.aspose.com/words/net/converting-to-fixed-page-format/)：PDF，XPS，圖像和其他
+- [fixed page save options](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/)為[fixed-page formats](/words/net/converting-to-fixed-page-format/)：PDF，XPS，圖像和其他
 「- [PDF save options](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) PDF 格式」
 - [OOXML save options](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/) For DOCX、DOCM、DOTX、DOTM 或 FlatOpc格式
 - [DOC save options](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/) 和 DOT 格式的檔案

@@ -62,8 +62,8 @@ Aspose.Words for Python via .NET هي مكتبة فئة تمكن تطبيقات�
 						<ul>
 								<li><a href="/words/ar/python-net/loading-saving-and-converting/">التحميل والحفظ والتحويل</a></li>
 								<li><a href="/words/ar/python-net/rendering/">استدعاء</a></li>
-								<li><a href="https://docs.aspose.com/words/python-net/mail-merge-and-reporting/">Mail Merge وإعداد التقارير</a></li>
-								<li><a href="https://docs.aspose.com/words/python-net/linq-reporting-engine/">محرك التقارير LINQ</a></li>
+								<li><a href="/words/python-net/mail-merge-and-reporting/">Mail Merge وإعداد التقارير</a></li>
+								<li><a href="/words/python-net/linq-reporting-engine/">محرك التقارير LINQ</a></li>
 								<li><a href="/words/ar/python-net/programming-with-documents/">البرمجة بالوثائق</a></li>
 						</ul>
 						<p>دعم فني</p>

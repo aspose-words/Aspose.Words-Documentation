@@ -283,7 +283,7 @@ Aspose.Words 23.12 впроваджує нові властивості та з�
 
 {{% alert color="primary" %}}
 
-Дізнатися більше [Aspose.Words для .NET 23.9 Реліз Примітки](/words/net/aspose-words-for-net-23-9-release-notes/)
+Дізнатися більше [Aspose.Words для .NET 23.9 Реліз Примітки](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-9-release-notes/)
 
 Дізнатися більше [Aspose.Words для .NET 23.10 Реліз Примітки](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-10-release-notes/)
 
@@ -376,7 +376,7 @@ Mustache теги тепер підтримуються в [MailMerge.GetRegions
 
 Дізнатися більше [Aspose.Words для .NET 23.6 Release Примітки](/words/net/aspose-words-for-net-23-6-release-notes/)
 
-Дізнатися більше [Aspose.Words для .NET 23.7 Release Примітки](/words/net/aspose-words-for-net-23-7-release-notes/)
+Дізнатися більше [Aspose.Words для .NET 23.7 Release Примітки](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/)
 
 Дізнатися більше [Aspose.Words для .NET 23.8 Release Примітки](/words/net/aspose-words-for-net-23-8-release-notes/)
 
@@ -462,11 +462,11 @@ Aspose.Words 23.4 покращує розрахунок деяких парам�
 
 Дізнатися більше [Aspose.Words для .NET 23.1 Release Примітки](/words/net/aspose-words-for-net-23-1-release-notes/)
 
-Дізнатися більше [Aspose.Words для .NET 23.2 Release Примітки](/words/net/aspose-words-for-net-23-2-release-notes/)
+Дізнатися більше [Aspose.Words для .NET 23.2 Release Примітки](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-2-release-notes/)
 
 Дізнатися більше [Aspose.Words для .NET 23.3 Release Примітки](/words/net/aspose-words-for-net-23-3-release-notes/)
 
-Дізнатися більше [Aspose.Words для .NET 23.4 Випускають Примітки](/words/net/aspose-words-for-net-23-4-release-notes/)
+Дізнатися більше [Aspose.Words для .NET 23.4 Випускають Примітки](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-4-release-notes/)
 
 {{% /alert %}}
 

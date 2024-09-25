@@ -13,7 +13,7 @@ url: /zh/net/how-to-build-a-table-from-a-datatable/
 
 {{% alert color="primary" %}}
 
-请注意，将 **DataTable** 中的数据插入到文档表中的首选方法是使用 [Mail Merge 与区域](https://docs.aspose.com/words/net/types-of-mail-merge-operations/#mail-merge-with-regions)。仅当您无法事先创建合适的模板来合并数据时，换句话说，如果您需要一切以编程方式进行时，才建议使用本文中介绍的技术。
+请注意，将 **DataTable** 中的数据插入到文档表中的首选方法是使用 [Mail Merge 与区域](/words/net/types-of-mail-merge-operations/#mail-merge-with-regions)。仅当您无法事先创建合适的模板来合并数据时，换句话说，如果您需要一切以编程方式进行时，才建议使用本文中介绍的技术。
 
 {{% /alert %}}
 

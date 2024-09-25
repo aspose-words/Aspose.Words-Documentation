@@ -17,9 +17,9 @@ Per saperne di più su Aspose.Words seleziona la sezione apposita:
 - [Ciao mondo!](/words/it/net/hello-world/): fornisce informazioni su come verificare che il software destinato alla compilazione o all'esecuzione del codice sorgente sia installato correttamente
 - [Formati di documenti supportati](/words/it/net/supported-document-formats/): fornisce informazioni sui formati supportati
 - [Funzionalità supportate](/words/it/net/features/): fornisce informazioni su quali funzionalità sono supportate durante il caricamento o il salvataggio di un documento in vari formati
-- [Piattaforme supportate](https://docs.aspose.com/words/net/platforms-and-interoperability/): fornisce informazioni sull'utilizzo di Aspose.Words durante la creazione di applicazioni per altre piattaforme
+- [Piattaforme supportate](/words/net/platforms-and-interoperability/): fornisce informazioni sull'utilizzo di Aspose.Words durante la creazione di applicazioni per altre piattaforme
 - [Licenza e abbonamento](/words/it/net/licensing/): fornisce informazioni sull'applicazione di una licenza e sull'utilizzo di più prodotti Aspose
-- [Perché Aspose.Words](https://docs.aspose.com/words/net/aspose-words-or-other-solutions/) – descrive i motivi per cui potrebbe essere meglio utilizzare i prodotti Aspose piuttosto che altri prodotti, ad esempio Microsoft Office Automation o Open XML SDK
+- [Perché Aspose.Words](/words/net/aspose-words-or-other-solutions/) – descrive i motivi per cui potrebbe essere meglio utilizzare i prodotti Aspose piuttosto che altri prodotti, ad esempio Microsoft Office Automation o Open XML SDK
 - [Requisiti di sistema](/words/it/net/system-requirements/): fornisce informazioni sui requisiti del sistema e dell'ambiente di sviluppo
 - [Note sulla sicurezza](/words/it/net/security/): descrive note e suggerimenti su come evitare problemi di sicurezza comuni
 - [Come eseguire gli esempi](/words/it/net/how-to-run-the-examples/): descrive come scaricare ed eseguire gli esempi e quali requisiti software devono essere soddisfatti

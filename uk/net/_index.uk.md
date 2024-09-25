@@ -64,8 +64,8 @@ Aspose.Words підтримує більшість популярних форм
 			<ul>
 				<li><a href="/words/uk/net/loading-saving-and-converting/">Завантаження, збереження та перетворення</a></li>
 				<li><a href="/words/uk/net/rendering/">Рендеринг</a></li>
-				<li><a href="https://docs.aspose.com/words/net/mail-merge-and-reporting/">Mail Merge та звітність</a></li>
-				<li><a href="https://docs.aspose.com/words/net/linq-reporting-engine/">ЛІНК Звітний двигун</a></li>
+				<li><a href="/words/net/mail-merge-and-reporting/">Mail Merge та звітність</a></li>
+				<li><a href="/words/net/linq-reporting-engine/">ЛІНК Звітний двигун</a></li>
 				<li><a href="/words/uk/net/print-a-document-programmatically-or-using-dialogs/">Друк документів Програматично або за допомогою ділогів</a></li>
 				<li><a href="/words/uk/net/programming-with-documents/">Програмування документів</a></li>
 				<li><a href="https://reference.aspose.com/words/net">Aspose.Words для .NET API Reference Керівництво</a></li>

@@ -17,9 +17,9 @@ url: /th/java/getting-started/
 - [สวัสดี, โลก!](/words/th/java/hello-world/) – ให้ข้อมูลเกี่ยวกับวิธีทดสอบโปรแกรมที่ตั้งใจจะคอมไพล์หรือประมวลผลรหัสต้นทางได้อย่างถูกต้อง
 - [รูปแบบเอกสารที่รองรับ](/words/th/java/supported-document-formats/) - ให้ข้อมูลเกี่ยวกับรูปแบบที่รองรับ
 - [คุณสมบัติ ที่ ได้ รับ การ สนับสนุน](/words/th/java/features/) – ให้ข้อมูลเกี่ยวกับคุณสมบัติที่รองรับ เมื่อมีการโหลดหรือบันทึกเอกสารในรูปแบบต่าง ๆ
-- [แพลตฟอร์มที่รองรับ](https://docs.aspose.com/words/java/platforms-and-interoperability/) - ให้ข้อมูลการใช้ Aspose.Words เมื่อสร้างโปรแกรมสําหรับแพลตฟอร์มอื่น ๆ
+- [แพลตฟอร์มที่รองรับ](/words/java/platforms-and-interoperability/) - ให้ข้อมูลการใช้ Aspose.Words เมื่อสร้างโปรแกรมสําหรับแพลตฟอร์มอื่น ๆ
 - [การ บอก รับ และ การ บอก รับ](/words/th/java/licensing/) – ให้ข้อมูลเกี่ยวกับการใช้ใบอนุญาติและใช้ผลิตภัณฑ์หลายแบบ
-- [ทําไม Aspose.Words](https://docs.aspose.com/words/java/aspose-words-or-other-solutions/) - จงอธิบายเหตุผลว่า ทําไมส่วนประกอบ Aspostive จึงดีกว่า Microsoft Office Automation
+- [ทําไม Aspose.Words](/words/java/aspose-words-or-other-solutions/) - จงอธิบายเหตุผลว่า ทําไมส่วนประกอบ Aspostive จึงดีกว่า Microsoft Office Automation
 - [เงื่อนไขของระบบ](/words/th/java/system-requirements/) - ให้ข้อมูลเกี่ยวกับสภาพแวดล้อมของระบบและระบบพัฒนา
 - [บันทึกช่วยจํานิรภัย](/words/th/java/security/) - จง อธิบาย ข้อ สังเกต และ ข้อ แนะ เกี่ยว กับ วิธี หลีก เลี่ยง ปัญหา ด้าน ความ ปลอด ภัย ทั่ว ไป
 - [วิธี ทํา ตาม แบบ อย่าง](/words/th/java/how-to-run-the-examples/) - อธิบายวิธีการดาวน์โหลดและดําเนินการตัวอย่าง และสิ่งที่ต้องปฏิบัติตามความต้องการซอฟต์แวร์

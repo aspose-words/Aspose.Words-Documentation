@@ -47,5 +47,5 @@ Pokud výsledky profilování naznačují možný problém paměti v Aspose.Word
 
 * [Měření využití paměti v Visual Studio (C#, Visual Basic, C++, F#)](https://learn.microsoft.com/en-us/visualstudio/profiling/memory-usage?view=vs-2022)
 * [Renderování](/words/cs/net/rendering/)
-* [Mail Merge a podávání zpráv](https://docs.aspose.com/words/net/mail-merge-and-reporting/)
+* [Mail Merge a podávání zpráv](/words/net/mail-merge-and-reporting/)
 * [Práce s poli](/words/cs/net/working-with-fields/)

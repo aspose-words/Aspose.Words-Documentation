@@ -283,7 +283,7 @@ The feature to recognize hyperlinks when loading TXT documents has been implemen
 
 {{% alert color="primary" %}}
 
-Learn more about [Aspose.Words for .NET 23.9 Release Notes](/words/net/aspose-words-for-net-23-9-release-notes/).
+Learn more about [Aspose.Words for .NET 23.9 Release Notes](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-9-release-notes/).
 
 Learn more about [Aspose.Words for .NET 23.10 Release Notes](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-10-release-notes/).
 
@@ -376,7 +376,7 @@ Learn more about [Aspose.Words for .NET 23.5 Release Notes](/words/net/aspose-wo
 
 Learn more about [Aspose.Words for .NET 23.6 Release Notes](/words/net/aspose-words-for-net-23-6-release-notes/).
 
-Learn more about [Aspose.Words for .NET 23.7 Release Notes](/words/net/aspose-words-for-net-23-7-release-notes/).
+Learn more about [Aspose.Words for .NET 23.7 Release Notes](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/).
 
 Learn more about [Aspose.Words for .NET 23.8 Release Notes](/words/net/aspose-words-for-net-23-8-release-notes/).
 
@@ -462,11 +462,11 @@ The ability to specify whether to adjust sentence and word spacing automatically
 
 Learn more about [Aspose.Words for .NET 23.1 Release Notes](/words/net/aspose-words-for-net-23-1-release-notes/).
 
-Learn more about [Aspose.Words for .NET 23.2 Release Notes](/words/net/aspose-words-for-net-23-2-release-notes/).
+Learn more about [Aspose.Words for .NET 23.2 Release Notes](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-2-release-notes/).
 
 Learn more about [Aspose.Words for .NET 23.3 Release Notes](/words/net/aspose-words-for-net-23-3-release-notes/).
 
-Learn more about [Aspose.Words for .NET 23.4 Release Notes](/words/net/aspose-words-for-net-23-4-release-notes/).
+Learn more about [Aspose.Words for .NET 23.4 Release Notes](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-4-release-notes/).
 
 {{% /alert %}}
 

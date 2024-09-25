@@ -62,8 +62,8 @@ Aspose.Words поддържа повечето от популярните фо�
 			<ul>
 				<li><a href="/words/bg/python-net/loading-saving-and-converting/">Зареждане, спестяване и преобразуване</a></li>
 				<li><a href="/words/bg/python-net/rendering/">Внасяне</a></li>
-				<li><a href="https://docs.aspose.com/words/python-net/mail-merge-and-reporting/">Mail Merge и докладване</a></li>
-				<li><a href="https://docs.aspose.com/words/python-net/linq-reporting-engine/">LINQ Докладващ двигател</a></li>
+				<li><a href="/words/python-net/mail-merge-and-reporting/">Mail Merge и докладване</a></li>
+				<li><a href="/words/python-net/linq-reporting-engine/">LINQ Докладващ двигател</a></li>
 				<li><a href="/words/bg/python-net/programming-with-documents/">Програмиране с документи</a></li>
 			</ul>
 			<p>ТЕХНИЧЕСКИ ПОДКРЕПА</p>

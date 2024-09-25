@@ -15,8 +15,8 @@ Voor meer informatie over Aspose.Words voor Java functies kunt u de bijbehorende
 
 - [Laden, opslaan en omzetten](/words/nl/java/loading-saving-and-converting/) Het biedt informatie over verschillende manieren om documenten en format-specifieke functies die nuttig zijn voor het omzetten van een document van het ene formaat naar het andere te laden of op te slaan.
 - [Renderen](/words/nl/java/rendering/)
-- [Mail Merge en relatie](https://docs.aspose.com/words/java/mail-merge-and-reporting/) De informatie over het genereren van documenten, zoals rapporten, catalogi, inventarissen en facturen, van templates met mail merge Velden.
-- [LINQ Rapportagemotor](https://docs.aspose.com/words/java/linq-reporting-engine/) Het biedt informatie over bouwverslagen met een uitgebreide reeks rapportagefuncties.
+- [Mail Merge en relatie](/words/java/mail-merge-and-reporting/) De informatie over het genereren van documenten, zoals rapporten, catalogi, inventarissen en facturen, van templates met mail merge Velden.
+- [LINQ Rapportagemotor](/words/java/linq-reporting-engine/) Het biedt informatie over bouwverslagen met een uitgebreide reeks rapportagefuncties.
 - [Een document afdrukken Programmatisch of dialoogvensters gebruiken](/words/nl/java/print-a-document-programmatically-or-using-dialogs/) U vindt informatie over hoe u een document op verschillende manieren kunt afdrukken en de afdrukbewerking kunt verfijnen om uw aangepaste logica te implementeren.
 - [Programmering met documenten](/words/nl/java/programming-with-documents/) Het biedt informatie over hoe je programmatisch documenten kunt maken, wijzigen en beheren, inclusief het veranderen van zowel hun inhoud als visuele verschijning.
 

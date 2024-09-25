@@ -13,7 +13,7 @@ url: /ar/net/how-to-build-a-table-from-a-datatable/
 
 {{% alert color="primary" %}}
 
-لاحظ أن الطريقة المفضلة لإدراج البيانات من **DataTable** إلى جدول المستندات هي باستخدام [Mail Merge مع المناطق](https://docs.aspose.com/words/net/types-of-mail-merge-operations/#mail-merge-with-regions). يتم اقتراح التقنية المعروضة في هذه المقالة فقط إذا كنت غير قادر على إنشاء قالب مناسب مسبقًا لدمج البيانات معه، وبعبارة أخرى، إذا كنت تريد أن يحدث كل شيء برمجيًا.
+لاحظ أن الطريقة المفضلة لإدراج البيانات من **DataTable** إلى جدول المستندات هي باستخدام [Mail Merge مع المناطق](/words/net/types-of-mail-merge-operations/#mail-merge-with-regions). يتم اقتراح التقنية المعروضة في هذه المقالة فقط إذا كنت غير قادر على إنشاء قالب مناسب مسبقًا لدمج البيانات معه، وبعبارة أخرى، إذا كنت تريد أن يحدث كل شيء برمجيًا.
 
 {{% /alert %}}
 

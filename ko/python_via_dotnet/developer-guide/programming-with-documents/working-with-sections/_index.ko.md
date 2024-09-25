@@ -153,5 +153,5 @@ Aspose.Words를 사용하면 [PageSetup](https://reference.aspose.com/words/pyth
 
 ## 또한보십시오
 
-- [문서에 있는 노드의 논리적 수준](https://docs.aspose.com/words/python-net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
+- [문서에 있는 노드의 논리적 수준](/words/python-net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
 - [문서 삽입 및 추가](/words/ko/python-net/insert-and-append-documents/)

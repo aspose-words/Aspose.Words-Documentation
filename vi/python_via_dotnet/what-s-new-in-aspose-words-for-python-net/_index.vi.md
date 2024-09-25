@@ -276,7 +276,7 @@ Tính năng nhận dạng siêu liên kết khi tải tài liệu TXT đã đư�
 
 {{% alert color="primary" %}}
 
-Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho Python via .NET 23.9](/words/python-net/aspose-words-for-python-via-dotnet-23-9-release-notes/).
+Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho Python via .NET 23.9](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-9-release-notes/).
 
 Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho Python via .NET 23.10](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-10-release-notes/).
 
@@ -365,7 +365,7 @@ Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho Python via .NET 23
 
 Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho Python via .NET 23.6](/words/python-net/aspose-words-for-python-via-dotnet-23-6-release-notes/).
 
-Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho Python via .NET 23.7](/words/python-net/aspose-words-for-python-via-dotnet-23-7-release-notes/).
+Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho Python via .NET 23.7](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/).
 
 Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho Python via .NET 23.8](/words/python-net/aspose-words-for-python-via-dotnet-23-8-release-notes/).
 
@@ -453,7 +453,7 @@ Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho Python via .NET 23
 
 Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho Python via .NET 23.2](/words/python-net/aspose-words-for-python-via-dotnet-23-2-release-notes/).
 
-Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho Python via .NET 23.3](/words/python-net/aspose-words-for-python-via-dotnet-23-3-release-notes/).
+Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho Python via .NET 23.3](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-3-release-notes/).
 
 Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho Python via .NET 23.4](/words/python-net/aspose-words-for-python-via-dotnet-23-4-release-notes/).
 
@@ -463,6 +463,6 @@ Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho Python via .NET 23
 
 {{% alert color="primary" %}}
 
-Trang này chứa các tin tức phát hành mới nhất trong 2 năm qua. Để biết chi tiết về các bản phát hành trước đó, hãy xem trang [Ghi chú phát hành'](/words/python-net/release-notes/) trong các phần liên quan.
+Trang này chứa các tin tức phát hành mới nhất trong 2 năm qua. Để biết chi tiết về các bản phát hành trước đó, hãy xem trang [Ghi chú phát hành'](https://releases.aspose.com/words/python/release-notes/) trong các phần liên quan.
 
 {{% /alert %}}

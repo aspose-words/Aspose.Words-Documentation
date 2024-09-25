@@ -13,7 +13,7 @@ Oftmals ruft Ihre Anwendung Daten aus einer Datenbank ab und speichert sie in Fo
 
 {{% alert color="primary" %}}
 
-Beachten Sie, dass die bevorzugte Methode zum Einfügen von Daten aus einem **DataTable** in eine Dokumenttabelle die Verwendung von [Mail Merge mit Regionen](https://docs.aspose.com/words/net/types-of-mail-merge-operations/#mail-merge-with-regions) ist. Die in diesem Artikel vorgestellte Technik wird nur empfohlen, wenn Sie nicht in der Lage sind, vorab eine geeignete Vorlage zum Zusammenführen von Daten zu erstellen, mit anderen Worten, wenn alles programmgesteuert erfolgen soll.
+Beachten Sie, dass die bevorzugte Methode zum Einfügen von Daten aus einem **DataTable** in eine Dokumenttabelle die Verwendung von [Mail Merge mit Regionen](/words/net/types-of-mail-merge-operations/#mail-merge-with-regions) ist. Die in diesem Artikel vorgestellte Technik wird nur empfohlen, wenn Sie nicht in der Lage sind, vorab eine geeignete Vorlage zum Zusammenführen von Daten zu erstellen, mit anderen Worten, wenn alles programmgesteuert erfolgen soll.
 
 {{% /alert %}}
 

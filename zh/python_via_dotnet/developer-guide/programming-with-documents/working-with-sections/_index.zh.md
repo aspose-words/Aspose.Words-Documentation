@@ -153,5 +153,5 @@ Aspose.Words 允许您使用 [PageSetup](https://reference.aspose.com/words/pyth
 
 ## 也可以看看
 
-- [文档中节点的逻辑级别](https://docs.aspose.com/words/python-net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
+- [文档中节点的逻辑级别](/words/python-net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
 - [插入和附加文档](/words/zh/python-net/insert-and-append-documents/)

@@ -41,14 +41,14 @@ Please note that below are the most popular conversion combinations, and not eve
 	<div class="col-md-6">
 		<h2>Convert Word to PDF</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Convert DOC to PDF</a></li>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Convert DOCX to PDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Convert DOC to PDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Convert DOCX to PDF</a></li>
 				<li>and others</li>
 			</ul>
 		<h2>Convert Image to PDF</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Convert JPG to PDF</a></li>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Convert TIFF to PDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Convert JPG to PDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Convert TIFF to PDF</a></li>
 				<li>and others</li>
 			</ul>
 		<h2>Convert Web Formats to PDF</h2>
@@ -70,30 +70,30 @@ Please note that below are the most popular conversion combinations, and not eve
 	<div class="col-md-6">
 		<h2>Convert a Document to an Image</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-an-image/">Convert DOCX to JPG</a></li>
+				<li><a href="/words/java/convert-a-document-to-an-image/">Convert DOCX to JPG</a></li>
 				<li>Convert DOC to PNG</li>
 				<li>and others</li>
 			</ul>
 		<h2>Convert a Document to Markdown</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-markdown/">Convert a Document to Markdown</a></li>
+				<li><a href="/words/java/convert-a-document-to-markdown/">Convert a Document to Markdown</a></li>
 				<li>Convert HTML to Markdown</li>
 				<li>and others</li>
 			</ul>
 		<h2>Convert a Document to HTML</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">Convert Word to HTML</a></li>
+				<li><a href="/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">Convert Word to HTML</a></li>
 				<li>Convert Markdown to HTML</li>
 				<li>Convert Mobi to EPUB</li>
 				<li>and others</li>
 			</ul>
 		<h2>Work a Document in a Database</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/serialize-and-work-with-a-document-in-a-database/">Serialize and Work with a Document in a Database</a></li>
+				<li><a href="/words/java/serialize-and-work-with-a-document-in-a-database/">Serialize and Work with a Document in a Database</a></li>
 			</ul>
 		<h2>Other Examples</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-mhtml-and-send-it-by-email/">Convert a Document to MHTML and Send It by Email</a></li>
+				<li><a href="/words/java/convert-a-document-to-mhtml-and-send-it-by-email/">Convert a Document to MHTML and Send It by Email</a></li>
 				<li>Convert DOCX to DOC</li>
 				<li>Convert HTML to Word</li>
 				<li>and others</li>

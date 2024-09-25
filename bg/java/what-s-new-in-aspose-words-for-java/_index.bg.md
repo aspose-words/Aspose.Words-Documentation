@@ -366,13 +366,13 @@ Mustache тагове сега се поддържат в [MailMerge.GetRegionsH
 
 {{% alert color="primary" %}}
 
-Научете повече за [Aspose.Words вместо Java 23.5 Бележки за освобождаване](/words/java/aspose-words-for-java-23-5-release-notes/).
+Научете повече за [Aspose.Words вместо Java 23.5 Бележки за освобождаване](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-5-release-notes/).
 
 Научете повече за [Aspose.Words вместо Java 23.6 Бележки за освобождаване](/words/java/aspose-words-for-java-23-6-release-notes/).
 
-Научете повече за [Aspose.Words вместо Java 23.7 Бележки за освобождаване](/words/java/aspose-words-for-java-23-7-release-notes/).
+Научете повече за [Aspose.Words вместо Java 23.7 Бележки за освобождаване](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-7-release-notes/).
 
-Научете повече за [Aspose.Words вместо Java 23.8 Бележки за освобождаване](/words/java/aspose-words-for-java-23-8-release-notes/).
+Научете повече за [Aspose.Words вместо Java 23.8 Бележки за освобождаване](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-8-release-notes/).
 
 {{% /alert %}}
 
@@ -454,11 +454,11 @@ Aspose.Words 23.4 подобрява изчисляването на някои 
 
 {{% alert color="primary" %}}
 
-Научете повече за [Aspose.Words вместо Java 23.1 Бележки за освобождаване](/words/java/aspose-words-for-java-23-1-release-notes/).
+Научете повече за [Aspose.Words вместо Java 23.1 Бележки за освобождаване](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-1-release-notes/).
 
 Научете повече за [Aspose.Words вместо Java 23.2 Бележки за освобождаване](/words/java/aspose-words-for-java-23-2-release-notes/).
 
-Научете повече за [Aspose.Words вместо Java 23.3 Бележки за освобождаване](/words/java/aspose-words-for-java-23-3-release-notes/).
+Научете повече за [Aspose.Words вместо Java 23.3 Бележки за освобождаване](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-3-release-notes/).
 
 Научете повече за [Aspose.Words вместо Java 23.4 Бележки за освобождаване](/words/java/aspose-words-for-java-23-4-release-notes/).
 

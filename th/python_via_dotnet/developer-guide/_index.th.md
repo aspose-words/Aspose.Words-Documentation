@@ -15,8 +15,8 @@ url: /th/python-net/developer-guide/
 
 - [กำลังโหลด บันทึก และการแปลง](/words/th/python-net/loading-saving-and-converting/) – ให้ข้อมูลเกี่ยวกับวิธีต่างๆ ในการโหลดหรือบันทึกเอกสารและคุณลักษณะเฉพาะรูปแบบที่เป็นประโยชน์สำหรับการแปลงเอกสารจากรูปแบบหนึ่งไปเป็นอีกรูปแบบหนึ่ง
 - [กำลังแสดงผล](/words/th/python-net/rendering/) – ให้ข้อมูลเกี่ยวกับวิธีการรับการแสดงเลขหน้าจากเอกสารในรูปแบบหน้าเค้าโครงโฟลว์
-- [Mail Merge และการรายงาน](https://docs.aspose.com/words/python-net/mail-merge-and-reporting/) – ให้ข้อมูลเกี่ยวกับการสร้างเอกสาร เช่น รายงาน แค็ตตาล็อก สินค้าคงคลัง และใบแจ้งหนี้ จากเทมเพลตที่มีฟิลด์ mail merge
-- [เครื่องมือรายงาน LINQ](https://docs.aspose.com/words/python-net/linq-reporting-engine/) – ให้ข้อมูลเกี่ยวกับการสร้างรายงานโดยใช้ชุดคุณลักษณะการรายงานเพิ่มเติม
+- [Mail Merge และการรายงาน](/words/python-net/mail-merge-and-reporting/) – ให้ข้อมูลเกี่ยวกับการสร้างเอกสาร เช่น รายงาน แค็ตตาล็อก สินค้าคงคลัง และใบแจ้งหนี้ จากเทมเพลตที่มีฟิลด์ mail merge
+- [เครื่องมือรายงาน LINQ](/words/python-net/linq-reporting-engine/) – ให้ข้อมูลเกี่ยวกับการสร้างรายงานโดยใช้ชุดคุณลักษณะการรายงานเพิ่มเติม
 - [การเขียนโปรแกรมด้วยเอกสาร](/words/th/python-net/programming-with-documents/) – ให้ข้อมูลเกี่ยวกับวิธีการสร้าง แก้ไข และจัดการเอกสารโดยทางโปรแกรม รวมถึงการเปลี่ยนแปลงทั้งเนื้อหาและรูปลักษณ์
 
 สำหรับคำอธิบายโดยละเอียดของคลาส วิธีการ และคุณสมบัติ โปรดดูที่ Aspose.Words สำหรับ Python via .NET [API Reference](https://reference.aspose.com/words/python-net/)

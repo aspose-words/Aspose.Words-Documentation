@@ -153,6 +153,6 @@ Poniższy przykład kodu pokazuje, jak modyfikować właściwości strony we wsz
 
 ## Zobacz też
 
-* [Poziomy logiczne węzłów w dokumencie](https://docs.aspose.com/words/net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
+* [Poziomy logiczne węzłów w dokumencie](/words/net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
 * [Wstaw i dołącz dokumenty](/words/pl/net/insert-and-append-documents/)
 

@@ -28,7 +28,7 @@ url: /zh-hant/net/fields-overview/
 
 ![fields-aspose-words](fields-overview-1.png)
 
-「構成場碼的內容，儲存在 [Run](https://reference.aspose.com/words/net/aspose.words/run/) 個節點中，它們介在 [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/) 和 [FieldSeparator](https://reference.aspose.com/words/net/aspose.words.fields/fieldseparator/) 之間。」 「字段結果儲存在 **FieldSeparator** 和 [FieldEnd](https://reference.aspose.com/words/net/aspose.words.fields/fieldend/) 節點之間，它可以由各種不同的內容組成。」 「一般來說，字段結果僅包含由 **Run** 個節點組成的文字，然而有可能 **FieldEnd** 節點位于不同的段落中，因此字段結果包含 [block level nodes](https://docs.aspose.com/words/net/logical-levels-of-nodes-in-a-document/) 等如 **Table** 和 **Paragraph** 節點。」
+「構成場碼的內容，儲存在 [Run](https://reference.aspose.com/words/net/aspose.words/run/) 個節點中，它們介在 [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/) 和 [FieldSeparator](https://reference.aspose.com/words/net/aspose.words.fields/fieldseparator/) 之間。」 「字段結果儲存在 **FieldSeparator** 和 [FieldEnd](https://reference.aspose.com/words/net/aspose.words.fields/fieldend/) 節點之間，它可以由各種不同的內容組成。」 「一般來說，字段結果僅包含由 **Run** 個節點組成的文字，然而有可能 **FieldEnd** 節點位于不同的段落中，因此字段結果包含 [block level nodes](/words/net/logical-levels-of-nodes-in-a-document/) 等如 **Table** 和 **Paragraph** 節點。」
 
 這裡是如何透過使用「*DocumentExplorer」*範例儲存一個欄位於Aspose.Words的方式，這個範例可以在[Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Examples/DocsExamples/DocumentExplorer)中找到。
 

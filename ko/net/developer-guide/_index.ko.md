@@ -15,8 +15,8 @@ Aspose.Words 기능에 대해 자세히 알아보려면 해당 섹션을 선택�
 
 - [로드, 저장 및 변환](/words/ko/net/loading-saving-and-converting/) – 문서를 로드하거나 저장하는 다양한 방법과 문서를 한 형식에서 다른 형식으로 변환하는 데 유용한 형식별 기능에 대한 정보를 제공합니다.
 - [표현](/words/ko/net/rendering/) – 흐름 레이아웃 페이지 형식의 문서에서 페이지 매김 표현을 얻는 방법에 대한 정보를 제공합니다.
-- [Mail Merge 및 보고](https://docs.aspose.com/words/net/mail-merge-and-reporting/) – mail merge 필드가 있는 템플릿에서 보고서, 카탈로그, 재고, 송장 등의 문서 생성에 대한 정보를 제공합니다.
-- [LINQ 보고 엔진](https://docs.aspose.com/words/net/linq-reporting-engine/) – 확장된 보고 기능 세트를 사용하여 보고서 작성에 대한 정보를 제공합니다.
+- [Mail Merge 및 보고](/words/net/mail-merge-and-reporting/) – mail merge 필드가 있는 템플릿에서 보고서, 카탈로그, 재고, 송장 등의 문서 생성에 대한 정보를 제공합니다.
+- [LINQ 보고 엔진](/words/net/linq-reporting-engine/) – 확장된 보고 기능 세트를 사용하여 보고서 작성에 대한 정보를 제공합니다.
 - [프로그래밍 방식으로 또는 대화 상자를 사용하여 문서 인쇄](/words/ko/net/print-a-document-programmatically-or-using-dialogs/) – 다양한 방법으로 문서를 인쇄하는 방법과 인쇄 작업을 미세 조정하여 사용자 정의 논리를 구현하는 방법에 대한 정보를 제공합니다.
 - [문서를 이용한 프로그래밍](/words/ko/net/programming-with-documents/) – 내용과 시각적 모양 변경을 포함하여 문서를 프로그래밍 방식으로 생성, 수정 및 관리하는 방법에 대한 정보를 제공합니다.
 

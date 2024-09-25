@@ -63,8 +63,8 @@ Con Aspose.Words para Java, puede generar, modificar, convertir, renderizar e im
 			<ul>
 				<li><a href="/words/es/java/loading-saving-and-converting/">Cargando, Ahorro y Conversión</a></li>
 				<li><a href="/words/es/java/rendering/">Rendering</a></li>
-				<li><a href="https://docs.aspose.com/words/java/mail-merge-and-reporting/">Mail Merge and Reporting</a></li>
-				<li><a href="https://docs.aspose.com/words/java/linq-reporting-engine/">LINQ Reporting Engine</a></li>
+				<li><a href="/words/java/mail-merge-and-reporting/">Mail Merge and Reporting</a></li>
+				<li><a href="/words/java/linq-reporting-engine/">LINQ Reporting Engine</a></li>
 				<li><a href="/words/es/java/print-a-document-programmatically-or-using-dialogs/">Imprimir un documento Programmatically or Using Dialogs</a></li>
 				<li><a href="/words/es/java/programming-with-documents/">Programación con documentos</a></li>
 				<li><a href="https://reference.aspose.com/words/java">Aspose.Words para Java API Reference Guía</a></li>

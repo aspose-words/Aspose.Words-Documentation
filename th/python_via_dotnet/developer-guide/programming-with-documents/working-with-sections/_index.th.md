@@ -153,5 +153,5 @@ Aspose.Words ช่วยให้คุณปรับแต่งคุณส�
 
 ## ดูสิ่งนี้ด้วย
 
-- [ระดับลอจิคัลของโหนดในเอกสาร](https://docs.aspose.com/words/python-net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
+- [ระดับลอจิคัลของโหนดในเอกสาร](/words/python-net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
 - [แทรกและผนวกเอกสาร](/words/th/python-net/insert-and-append-documents/)

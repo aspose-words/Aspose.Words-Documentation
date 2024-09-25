@@ -46,5 +46,5 @@ Aspose.Words 提供多种特点,与不同格式的文件合作。 必须指出,�
 ## 另见
 
 * [渲染](/words/zh/java/rendering/)
-* [Mail Merge 报告](https://docs.aspose.com/words/java/mail-merge-and-reporting/)
+* [Mail Merge 报告](/words/java/mail-merge-and-reporting/)
 * [与外地合作](/words/zh/java/working-with-fields/)

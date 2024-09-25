@@ -15,8 +15,8 @@ Aspose.Words özellikleri hakkında daha fazla bilgi edinmek için ilgili bölü
 
 - [Yükleme, Kaydetme ve Dönüştürme](/words/tr/net/loading-saving-and-converting/) – belgeleri yüklemenin veya kaydetmenin farklı yolları ve bir belgeyi bir biçimden diğerine dönüştürmek için yararlı olan biçime özgü özellikler hakkında bilgi sağlar.
 - [İşleme](/words/tr/net/rendering/) – akış düzeni sayfa formatındaki bir belgeden sayfalandırılmış bir gösterimin nasıl alınacağı hakkında bilgi sağlar.
-- [Mail Merge ve Raporlama](https://docs.aspose.com/words/net/mail-merge-and-reporting/) – mail merge alanlarına sahip şablonlardan raporlar, kataloglar, envanterler ve faturalar gibi belgelerin oluşturulması hakkında bilgi sağlar.
-- [LINQ Raporlama Motoru](https://docs.aspose.com/words/net/linq-reporting-engine/) – genişletilmiş raporlama özellikleri kümesini kullanarak rapor oluşturma hakkında bilgi sağlar.
+- [Mail Merge ve Raporlama](/words/net/mail-merge-and-reporting/) – mail merge alanlarına sahip şablonlardan raporlar, kataloglar, envanterler ve faturalar gibi belgelerin oluşturulması hakkında bilgi sağlar.
+- [LINQ Raporlama Motoru](/words/net/linq-reporting-engine/) – genişletilmiş raporlama özellikleri kümesini kullanarak rapor oluşturma hakkında bilgi sağlar.
 - [Bir Belgeyi Programlı Olarak Yazdırma veya İletişim Kutularını Kullanma](/words/tr/net/print-a-document-programmatically-or-using-dialogs/) – bir belgenin çeşitli yollarla nasıl yazdırılacağı ve özel mantığınızı uygulamak için yazdırma işleminde ince ayar yapılması hakkında bilgi sağlar.
 - [Belgelerle Programlama](/words/tr/net/programming-with-documents/) – hem içeriklerini hem de görsel görünümlerini değiştirmek de dahil olmak üzere belgelerin programlı olarak nasıl oluşturulacağı, değiştirileceği ve yönetileceği hakkında bilgi sağlar.
 

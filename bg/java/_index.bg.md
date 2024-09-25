@@ -63,8 +63,8 @@ Aspose.Words поддържа повечето от популярните фо�
 			<ul>
 				<li><a href="/words/bg/java/loading-saving-and-converting/">Зареждане, спестяване и преобразуване</a></li>
 				<li><a href="/words/bg/java/rendering/">Нанасяне</a></li>
-				<li><a href="https://docs.aspose.com/words/java/mail-merge-and-reporting/">Mail Merge и докладване</a></li>
-				<li><a href="https://docs.aspose.com/words/java/linq-reporting-engine/">ЛИНК ДОКАДВАРИТЕЛ</a></li>
+				<li><a href="/words/java/mail-merge-and-reporting/">Mail Merge и докладване</a></li>
+				<li><a href="/words/java/linq-reporting-engine/">ЛИНК ДОКАДВАРИТЕЛ</a></li>
 				<li><a href="/words/bg/java/print-a-document-programmatically-or-using-dialogs/">Печат на документ Програмиране или използване на диалогови файлове</a></li>
 				<li><a href="/words/bg/java/programming-with-documents/">Програмиране с документи</a></li>
 				<li><a href="https://reference.aspose.com/words/java">Aspose.Words вместо Java API Reference Ръководство</a></li>

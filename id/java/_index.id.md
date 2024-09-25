@@ -63,8 +63,8 @@ Sitemap Aspose.Words Sitemap Java, Anda dapat menghasilkan, memodifikasi, mengon
 			<ul>
 				<li><a href="/words/id/java/loading-saving-and-converting/">Login</a></li>
 				<li><a href="/words/id/java/rendering/">Login</a></li>
-				<li><a href="https://docs.aspose.com/words/java/mail-merge-and-reporting/">Mail Merge Login</a></li>
-				<li><a href="https://docs.aspose.com/words/java/linq-reporting-engine/">Login</a></li>
+				<li><a href="/words/java/mail-merge-and-reporting/">Mail Merge Login</a></li>
+				<li><a href="/words/java/linq-reporting-engine/">Login</a></li>
 				<li><a href="/words/id/java/print-a-document-programmatically-or-using-dialogs/">Login</a></li>
 				<li><a href="/words/id/java/programming-with-documents/">Pemrograman dengan Dokumen</a></li>
 				<li><a href="https://reference.aspose.com/words/java">Aspose.Words Sitemap Java API Reference Login</a></li>

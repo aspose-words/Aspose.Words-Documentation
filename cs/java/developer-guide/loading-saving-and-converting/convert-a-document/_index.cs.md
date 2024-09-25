@@ -40,14 +40,14 @@ Vezměte prosím na vědomí, že níže jsou nejpopulárnější kombinace konv
 	<div class="col-md-6">
 		<h2>Převést slovo na PDF</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Převést DOC do PDF</a></li>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Převést DOCX do PDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Převést DOC do PDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Převést DOCX do PDF</a></li>
 				<li>a další</li>
 			</ul>
 		<h2>Převést obrázek do PDF</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Převést JPG do PDF</a></li>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Převést TIFF do PDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Převést JPG do PDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Převést TIFF do PDF</a></li>
 				<li>a další</li>
 			</ul>
 		<h2>Převést webové formáty do PDF</h2>
@@ -81,7 +81,7 @@ Vezměte prosím na vědomí, že níže jsou nejpopulárnější kombinace konv
 			</ul>
 		<h2>Převést dokument do HTML</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">Převést slovo na HTML</a></li>
+				<li><a href="/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">Převést slovo na HTML</a></li>
 				<li>Převést Markdown do HTML</li>
 				<li>Převést Mobi na EPUB</li>
 				<li>a další</li>

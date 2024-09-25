@@ -24,7 +24,7 @@ The following are the links to some useful resources you may need to accomplish 
 - [Aspose.Words for Java Online Documentation](/words/java/) (Aspose.Words for Android via Java is very similar to Aspose.Words for Java. So, you can use the same documentation)
 - [Aspose.Words for Android via Java Features](/words/java/aspose-words-for-android-via-java-features/)
 - [Aspose.Words for Android via Java Limitations and API Differences](/words/java/aspose-words-for-android-via-java-limitations-and-api-differences/)
-- [Aspose.Words for Android via Java Release Notes](/words/java/aspose-words-for-android-via-java/)
+- [Aspose.Words for Android via Java Release Notes](https://releases.aspose.com/words/androidjava/release-notes/)
 - [Aspose.Words for Android via Java Product Page](https://products.aspose.com/words/android-java/)
 - [Download Aspose.Words for Android via Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words)
 - [Install Aspose.Words for Android via Java from Maven](/words/java/install-aspose-words-for-android-via-java/#install-asposewords-for-android-via-java-from-maven-repository)

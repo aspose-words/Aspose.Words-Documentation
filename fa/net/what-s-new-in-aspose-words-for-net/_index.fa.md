@@ -283,7 +283,7 @@ Aspose.Words 23.12 ویژگی ها و شمارش های جدیدی را برای
 
 {{% alert color="primary" %}}
 
-درباره [یادداشت‌های انتشار Aspose.Words برای .NET 23.9](/words/net/aspose-words-for-net-23-9-release-notes/) بیشتر بدانید.
+درباره [یادداشت‌های انتشار Aspose.Words برای .NET 23.9](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-9-release-notes/) بیشتر بدانید.
 
 درباره [یادداشت‌های انتشار Aspose.Words برای .NET 23.10](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-10-release-notes/) بیشتر بدانید.
 
@@ -376,7 +376,7 @@ Aspose.Words 23.8 قابلیت های فرمت های مختلف را گسترش
 
 درباره [یادداشت‌های انتشار Aspose.Words برای .NET 23.6](/words/net/aspose-words-for-net-23-6-release-notes/) بیشتر بدانید.
 
-درباره [یادداشت‌های انتشار Aspose.Words برای .NET 23.7](/words/net/aspose-words-for-net-23-7-release-notes/) بیشتر بدانید.
+درباره [یادداشت‌های انتشار Aspose.Words برای .NET 23.7](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/) بیشتر بدانید.
 
 درباره [یادداشت‌های انتشار Aspose.Words برای .NET 23.8](/words/net/aspose-words-for-net-23-8-release-notes/) بیشتر بدانید.
 
@@ -462,11 +462,11 @@ Aspose.Words 23.4 محاسبه برخی از پارامترها و موقعیت 
 
 درباره [یادداشت‌های انتشار Aspose.Words برای .NET 23.1](/words/net/aspose-words-for-net-23-1-release-notes/) بیشتر بدانید.
 
-درباره [یادداشت‌های انتشار Aspose.Words برای .NET 23.2](/words/net/aspose-words-for-net-23-2-release-notes/) بیشتر بدانید.
+درباره [یادداشت‌های انتشار Aspose.Words برای .NET 23.2](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-2-release-notes/) بیشتر بدانید.
 
 درباره [یادداشت‌های انتشار Aspose.Words برای .NET 23.3](/words/net/aspose-words-for-net-23-3-release-notes/) بیشتر بدانید.
 
-درباره [یادداشت‌های انتشار Aspose.Words برای .NET 23.4](/words/net/aspose-words-for-net-23-4-release-notes/) بیشتر بدانید.
+درباره [یادداشت‌های انتشار Aspose.Words برای .NET 23.4](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-4-release-notes/) بیشتر بدانید.
 
 {{% /alert %}}
 

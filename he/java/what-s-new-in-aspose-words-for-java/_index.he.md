@@ -366,13 +366,13 @@ LINQ Reporting Engine syntax תומך כעת `ElementAt` שיטות הרחבה �
 
 {{% alert color="primary" %}}
 
-למד עוד על [Aspose.Words עבור Java 23.5 הודעות](/words/java/aspose-words-for-java-23-5-release-notes/).
+למד עוד על [Aspose.Words עבור Java 23.5 הודעות](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-5-release-notes/).
 
 למד עוד על [Aspose.Words עבור Java 23.6 הודעות](/words/java/aspose-words-for-java-23-6-release-notes/).
 
-למד עוד על [Aspose.Words עבור Java 23.7 הודעות](/words/java/aspose-words-for-java-23-7-release-notes/).
+למד עוד על [Aspose.Words עבור Java 23.7 הודעות](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-7-release-notes/).
 
-למד עוד על [Aspose.Words עבור Java 23.8 הערות](/words/java/aspose-words-for-java-23-8-release-notes/).
+למד עוד על [Aspose.Words עבור Java 23.8 הערות](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-8-release-notes/).
 
 {{% /alert %}}
 
@@ -454,11 +454,11 @@ The The The [Fill](https://reference.aspose.com/words/java/com.aspose.words/fill
 
 {{% alert color="primary" %}}
 
-למד עוד על [Aspose.Words עבור Java 23.1 הערות](/words/java/aspose-words-for-java-23-1-release-notes/).
+למד עוד על [Aspose.Words עבור Java 23.1 הערות](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-1-release-notes/).
 
 למד עוד על [Aspose.Words עבור Java 23.2 הודעות](/words/java/aspose-words-for-java-23-2-release-notes/).
 
-למד עוד על [Aspose.Words עבור Java 23.3 הערות](/words/java/aspose-words-for-java-23-3-release-notes/).
+למד עוד על [Aspose.Words עבור Java 23.3 הערות](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-3-release-notes/).
 
 למד עוד על [Aspose.Words עבור Java 23.4 הערות](/words/java/aspose-words-for-java-23-4-release-notes/).
 
@@ -468,6 +468,6 @@ The The The [Fill](https://reference.aspose.com/words/java/com.aspose.words/fill
 
 {{% alert color="primary" %}}
 
-דף זה מכיל את החדשות העדכניות ביותר לשנתיים האחרונות. לפרטים על הודעות קודמות, ראה [תגית: Notes](/words/java/release-notes/) דפים בסעיפים הרלוונטיים
+דף זה מכיל את החדשות העדכניות ביותר לשנתיים האחרונות. לפרטים על הודעות קודמות, ראה [תגית: Notes](https://releases.aspose.com/words/java/release-notes/) דפים בסעיפים הרלוונטיים
 
 {{% /alert %}}

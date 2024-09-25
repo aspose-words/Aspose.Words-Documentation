@@ -63,8 +63,8 @@ Aspose.Words DOC, DOCX, RTF, HTML과 같은 가장 인기있는 문서 형식을
 			<ul>
 				<li><a href="/words/ko/java/loading-saving-and-converting/">적재, 저축 및 변환</a></li>
 				<li><a href="/words/ko/java/rendering/">이름 *</a></li>
-				<li><a href="https://docs.aspose.com/words/java/mail-merge-and-reporting/">Mail Merge 및 보고</a></li>
-				<li><a href="https://docs.aspose.com/words/java/linq-reporting-engine/">프로젝트 엔진 보고</a></li>
+				<li><a href="/words/java/mail-merge-and-reporting/">Mail Merge 및 보고</a></li>
+				<li><a href="/words/java/linq-reporting-engine/">프로젝트 엔진 보고</a></li>
 				<li><a href="/words/ko/java/print-a-document-programmatically-or-using-dialogs/">사용자 정의</a></li>
 				<li><a href="/words/ko/java/programming-with-documents/">문서와 프로그래밍</a></li>
 				<li><a href="https://reference.aspose.com/words/java">Aspose.Words 제품정보 Java API Reference - 연혁</a></li>

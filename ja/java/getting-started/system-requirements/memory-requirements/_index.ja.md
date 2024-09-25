@@ -46,5 +46,5 @@ Aspose.Words さまざまなフォーマットで文書を扱う機能の広い�
 ## お問い合わせ
 
 * [レンダリング](/words/ja/java/rendering/)
-* [Mail Merge そして報告](https://docs.aspose.com/words/java/mail-merge-and-reporting/)
+* [Mail Merge そして報告](/words/java/mail-merge-and-reporting/)
 * [フィールドを扱う](/words/ja/java/working-with-fields/)

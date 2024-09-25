@@ -17,9 +17,9 @@ url: /fa/net/getting-started/
 - [سلام دنیا!](/words/fa/net/hello-world/) - اطلاعاتی در مورد نحوه آزمایش اینکه نرم افزاری که برای کامپایل یا اجرای کد منبع به درستی نصب شده است را ارائه می دهد
 - [فرمت های سند پشتیبانی شده](/words/fa/net/supported-document-formats/) - اطلاعاتی در مورد فرمت های پشتیبانی شده ارائه می دهد
 - [ویژگی های پشتیبانی شده](/words/fa/net/features/) - اطلاعاتی در مورد ویژگی هایی که هنگام بارگیری یا ذخیره یک سند در فرمت های مختلف پشتیبانی می شوند، ارائه می دهد
-- [پلتفرم های پشتیبانی شده](https://docs.aspose.com/words/net/platforms-and-interoperability/) - اطلاعاتی در مورد استفاده از Aspose.Words هنگام ساخت برنامه های کاربردی برای سایر سیستم عامل ها ارائه می دهد
+- [پلتفرم های پشتیبانی شده](/words/net/platforms-and-interoperability/) - اطلاعاتی در مورد استفاده از Aspose.Words هنگام ساخت برنامه های کاربردی برای سایر سیستم عامل ها ارائه می دهد
 - [مجوز و اشتراک](/words/fa/net/licensing/) - اطلاعاتی را در مورد درخواست مجوز و استفاده از چندین محصول Aspose ارائه می دهد
-- [چرا Aspose.Words](https://docs.aspose.com/words/net/aspose-words-or-other-solutions/) - دلایلی را توضیح می دهد که چرا بهتر است از محصولات Aspose به جای محصولات دیگر استفاده کنید، به عنوان مثال، Microsoft Office Automation یا Open XML SDK
+- [چرا Aspose.Words](/words/net/aspose-words-or-other-solutions/) - دلایلی را توضیح می دهد که چرا بهتر است از محصولات Aspose به جای محصولات دیگر استفاده کنید، به عنوان مثال، Microsoft Office Automation یا Open XML SDK
 - [سیستم مورد نیاز](/words/fa/net/system-requirements/) - اطلاعاتی در مورد سیستم و نیازهای محیط توسعه ارائه می دهد
 - [نکات امنیتی](/words/fa/net/security/) - یادداشت ها و نکاتی را در مورد نحوه جلوگیری از مشکلات امنیتی رایج توضیح می دهد
 - [نحوه اجرای مثال ها](/words/fa/net/how-to-run-the-examples/) - نحوه دانلود و اجرای نمونه ها و الزامات نرم افزاری را توضیح می دهد

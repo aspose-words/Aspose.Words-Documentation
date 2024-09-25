@@ -46,5 +46,5 @@ Aspose.Words มี หลาย ลักษณะ ที่ จะ ทํา �
 ## ดูด้วย
 
 * [การแสดงผล](/words/th/java/rendering/)
-* [Mail Merge และรายงาน](https://docs.aspose.com/words/java/mail-merge-and-reporting/)
+* [Mail Merge และรายงาน](/words/java/mail-merge-and-reporting/)
 * [การ ทํา งาน กับ สนาม](/words/th/java/working-with-fields/)

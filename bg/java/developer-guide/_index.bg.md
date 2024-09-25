@@ -15,8 +15,8 @@ url: /bg/java/developer-guide/
 
 - [Зареждане, спестяване и преобразуване](/words/bg/java/loading-saving-and-converting/) год. предоставя информация за различни начини за зареждане или записване на документи и специфични за формата функции, полезни за конвертиране на документ от един формат в друг.
 - [Нанасяне](/words/bg/java/rendering/). .. .. .. .. ..
-- [Mail Merge и докладване](https://docs.aspose.com/words/java/mail-merge-and-reporting/) год. mail merge полета.
-- [ЛИНК ДОКАДВАРИТЕЛ](https://docs.aspose.com/words/java/linq-reporting-engine/) год.
+- [Mail Merge и докладване](/words/java/mail-merge-and-reporting/) год. mail merge полета.
+- [ЛИНК ДОКАДВАРИТЕЛ](/words/java/linq-reporting-engine/) год.
 - [Печат на документ Програмиране или използване на диалогови файлове](/words/bg/java/print-a-document-programmatically-or-using-dialogs/) принтирайте документ по различни начини и изтънчете операцията за печат, за да приложите вашата обичайна логика.
 - [Програмиране с документи](/words/bg/java/programming-with-documents/) год. предоставя информация за това как да се програмирате, модифицирате и управлявате документи, включително промяна на тяхното съдържание и визуалния външен вид.
 

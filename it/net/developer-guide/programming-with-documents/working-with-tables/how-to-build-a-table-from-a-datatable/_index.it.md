@@ -13,7 +13,7 @@ Spesso la tua applicazione estrarrà i dati da un database e li memorizzerà sot
 
 {{% alert color="primary" %}}
 
-Tieni presente che il modo preferito per inserire dati da un **DataTable** in una tabella di documenti è utilizzare [Mail Merge con le Regioni](https://docs.aspose.com/words/net/types-of-mail-merge-operations/#mail-merge-with-regions). La tecnica presentata in questo articolo è suggerita solo se non si riesce a creare in anticipo un modello adatto con cui unire i dati, in altre parole se si richiede che tutto avvenga a livello di programmazione.
+Tieni presente che il modo preferito per inserire dati da un **DataTable** in una tabella di documenti è utilizzare [Mail Merge con le Regioni](/words/net/types-of-mail-merge-operations/#mail-merge-with-regions). La tecnica presentata in questo articolo è suggerita solo se non si riesce a creare in anticipo un modello adatto con cui unire i dati, in altre parole se si richiede che tutto avvenga a livello di programmazione.
 
 {{% /alert %}}
 

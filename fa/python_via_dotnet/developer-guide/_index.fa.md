@@ -15,8 +15,8 @@ url: /fa/python-net/developer-guide/
 
 - [بارگیری، ذخیره و تبدیل](/words/fa/python-net/loading-saving-and-converting/) - اطلاعاتی را در مورد راه های مختلف بارگیری یا ذخیره اسناد و ویژگی های خاص قالب مفید برای تبدیل یک سند از یک فرمت به فرمت دیگر ارائه می دهد.
 - [تفسیر](/words/fa/python-net/rendering/) - اطلاعاتی را در مورد نحوه دریافت نمایش صفحه بندی شده از یک سند در قالب صفحه نمایش جریان ارائه می دهد.
-- [Mail Merge و گزارش](https://docs.aspose.com/words/python-net/mail-merge-and-reporting/) - اطلاعات مربوط به تولید اسناد، مانند گزارش ها، کاتالوگ ها، موجودی ها و فاکتورها را از الگوهای دارای فیلدهای mail merge ارائه می دهد.
-- [موتور گزارش LINQ](https://docs.aspose.com/words/python-net/linq-reporting-engine/) - با استفاده از مجموعه گسترده ای از ویژگی های گزارش، اطلاعاتی در مورد گزارش های ساختمان ارائه می دهد.
+- [Mail Merge و گزارش](/words/python-net/mail-merge-and-reporting/) - اطلاعات مربوط به تولید اسناد، مانند گزارش ها، کاتالوگ ها، موجودی ها و فاکتورها را از الگوهای دارای فیلدهای mail merge ارائه می دهد.
+- [موتور گزارش LINQ](/words/python-net/linq-reporting-engine/) - با استفاده از مجموعه گسترده ای از ویژگی های گزارش، اطلاعاتی در مورد گزارش های ساختمان ارائه می دهد.
 - [برنامه نویسی با اسناد](/words/fa/python-net/programming-with-documents/) - اطلاعاتی در مورد نحوه ایجاد، اصلاح و مدیریت اسناد از جمله تغییر محتوا و ظاهر بصری آنها به صورت برنامه‌ریزی شده ارائه می‌کند.
 
 برای توصیف دقیق کلاس‌ها، روش‌ها و ویژگی‌ها به Aspose.Words برای Python via .NET [API Reference](https://reference.aspose.com/words/python-net/) مراجعه کنید.

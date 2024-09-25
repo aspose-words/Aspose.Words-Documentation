@@ -153,5 +153,5 @@ Aspose.Words позволява да персонализирате свойст
 
 ## Вижте също
 
-- [Логически нива на възли в документ](https://docs.aspose.com/words/python-net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
+- [Логически нива на възли в документ](/words/python-net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
 - [Вмъкване и добавяне на документи](/words/bg/python-net/insert-and-append-documents/)

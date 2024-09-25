@@ -40,14 +40,14 @@ Bitte beachten Sie, dass unten die beliebtesten Conversion-Kombinationen sind un
 	<div class="col-md-6">
 		<h2>Word in PDF konvertieren</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">DOC nach PDF umrechnen</a></li>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">DOCX nach PDF umrechnen</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">DOC nach PDF umrechnen</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">DOCX nach PDF umrechnen</a></li>
 				<li>und andere</li>
 			</ul>
 		<h2>Bild in PDF umwandeln</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">JPG nach PDF umrechnen</a></li>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">TIFF in PDF umrechnen</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">JPG nach PDF umrechnen</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">TIFF in PDF umrechnen</a></li>
 				<li>und andere</li>
 			</ul>
 		<h2>Web Formate in PDF konvertieren</h2>
@@ -81,7 +81,7 @@ Bitte beachten Sie, dass unten die beliebtesten Conversion-Kombinationen sind un
 			</ul>
 		<h2>Dokument nach HTML umrechnen</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">Wort in HTML umrechnen</a></li>
+				<li><a href="/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">Wort in HTML umrechnen</a></li>
 				<li>Umrechnen Markdown in HTML</li>
 				<li>Mobi nach EPUB umrechnen</li>
 				<li>und andere</li>

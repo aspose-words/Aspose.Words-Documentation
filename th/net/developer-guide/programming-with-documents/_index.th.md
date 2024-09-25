@@ -57,6 +57,6 @@ url: /th/net/programming-with-documents/
 - [การทำงานกับอักขระควบคุม](/words/th/net/working-with-control-characters/)
 - [การทำงานกับมาโคร VBA](/words/th/net/working-with-vba-macros/)
 - [การทำงานกับคุณสมบัติ Markdown](/words/th/net/working-with-markdown-features/)
-- [การทำงานกับเอกสารข้อความ](/words/net/work-with-text-document/)
+- [การทำงานกับเอกสารข้อความ](/words/net/working-with-text-document/)
 
 สำหรับคำอธิบายโดยละเอียดของคลาส วิธีการ และคุณสมบัติ โปรดดูส่วน Aspose.Words สำหรับ .NET API Reference

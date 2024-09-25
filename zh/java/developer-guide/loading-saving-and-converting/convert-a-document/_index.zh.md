@@ -40,14 +40,14 @@ description: "方便地将文档从一种格式转换到另一种格式。 你�
 	<div class="col-md-6">
 		<h2>将单词转换为 PDF</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">国防司</a></li>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">70. 64 DOCX PDF -154</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">国防司</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">70. 64 DOCX PDF -154</a></li>
 				<li>和其他事项</li>
 			</ul>
 		<h2>将图像转换为 PDF</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">70. 64 JPG + PDF ***</a></li>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">TIFF PDF( Q( 32) )</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">70. 64 JPG + PDF ***</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">TIFF PDF( Q( 32) )</a></li>
 				<li>和其他事项</li>
 			</ul>
 		<h2>将 Web 格式转换为 PDF</h2>
@@ -81,7 +81,7 @@ description: "方便地将文档从一种格式转换到另一种格式。 你�
 			</ul>
 		<h2>将文档转换为 HTML</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">QQ HTML 游戏</a></li>
+				<li><a href="/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">QQ HTML 游戏</a></li>
 				<li>转换 Markdown 转到 HTML</li>
 				<li>将 Mobi 转换为 EPUB</li>
 				<li>和其他事项</li>

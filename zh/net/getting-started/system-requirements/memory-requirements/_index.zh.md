@@ -47,5 +47,5 @@ Aspose.Words 提供了广泛的功能来处理各种格式的文档。需要注�
 
 * [测量 Visual Studio（C#、Visual Basic、C++、F#）中的内存使用情况](https://learn.microsoft.com/en-us/visualstudio/profiling/memory-usage?view=vs-2022)
 * [渲染](/words/zh/net/rendering/)
-* [Mail Merge 和报告](https://docs.aspose.com/words/net/mail-merge-and-reporting/)
+* [Mail Merge 和报告](/words/net/mail-merge-and-reporting/)
 * [使用字段](/words/zh/net/working-with-fields/)

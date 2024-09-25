@@ -15,8 +15,8 @@ url: /he/python-net/developer-guide/
 
 - - [טעינה, לחסוך ולהמיר](/words/he/python-net/loading-saving-and-converting/) - מספק מידע על דרכים שונות לטעון או לחסוך מסמכים ותכונות ספציפיות פורמט שימושי כדי להמיר מסמך מפורמט אחד למשנהו.
 - - [Rendering](/words/he/python-net/rendering/) - מספק מידע על איך לקבל ייצוג מדמיינת של מסמך בפורמט דף זרימה.
-- - [Mail Merge דיווח ו](https://docs.aspose.com/words/python-net/mail-merge-and-reporting/) - מספק מידע על יצירת מסמכים, כגון דוחות, קטלוגים, ממציאים וחשבונות, מתבניות עם mail merge שדות
-- - [LINQ דיווח על מנוע](https://docs.aspose.com/words/python-net/linq-reporting-engine/) מספק מידע על בניית דוחות באמצעות מערך מורחב של תכונות דיווח.
+- - [Mail Merge דיווח ו](/words/python-net/mail-merge-and-reporting/) - מספק מידע על יצירת מסמכים, כגון דוחות, קטלוגים, ממציאים וחשבונות, מתבניות עם mail merge שדות
+- - [LINQ דיווח על מנוע](/words/python-net/linq-reporting-engine/) מספק מידע על בניית דוחות באמצעות מערך מורחב של תכונות דיווח.
 - - [תכנות עם מסמכים](/words/he/python-net/programming-with-documents/) - מספק מידע על איך ליצור, לשנות ולנהל מסמכים כולל שינוי התוכן שלהם ואת המראה החזותי.
 
 לתיאור מפורט של שיעורים, שיטות ותכונות מתייחסות Aspose.Words עבור Python via .NET [API Reference](https://reference.aspose.com/words/python-net/).

@@ -13,7 +13,7 @@ Freqüentemente, seu aplicativo extrai dados de um banco de dados e os armazena 
 
 {{% alert color="primary" %}}
 
-Observe que a forma preferida de inserir dados de um **DataTable** em uma tabela de documentos é usando [Mail Merge com regiões](https://docs.aspose.com/words/net/types-of-mail-merge-operations/#mail-merge-with-regions). A técnica apresentada neste artigo só é sugerida se você não conseguir criar previamente um modelo adequado para mesclar os dados, ou seja, se você precisar que tudo aconteça de forma programática.
+Observe que a forma preferida de inserir dados de um **DataTable** em uma tabela de documentos é usando [Mail Merge com regiões](/words/net/types-of-mail-merge-operations/#mail-merge-with-regions). A técnica apresentada neste artigo só é sugerida se você não conseguir criar previamente um modelo adequado para mesclar os dados, ou seja, se você precisar que tudo aconteça de forma programática.
 
 {{% /alert %}}
 

@@ -285,7 +285,7 @@ TXT ドキュメントのロード時にハイパーリンクを認識する機�
 
 {{% alert color="primary" %}}
 
-[Aspose.Words for .NET 23.9 リリースノート](/words/net/aspose-words-for-net-23-9-release-notes/) について詳しくは、こちらをご覧ください。
+[Aspose.Words for .NET 23.9 リリースノート](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-9-release-notes/) について詳しくは、こちらをご覧ください。
 
 [Aspose.Words for .NET 23.10 リリースノート](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-10-release-notes/) について詳しくは、こちらをご覧ください。
 
@@ -378,7 +378,7 @@ JSON 文字列値の空白を保持するオプションが LINQ レポート �
 
 [Aspose.Words for .NET 23.6 リリースノート](/words/net/aspose-words-for-net-23-6-release-notes/) について詳しくは、こちらをご覧ください。
 
-[Aspose.Words for .NET 23.7 リリースノート](/words/net/aspose-words-for-net-23-7-release-notes/) について詳しくは、こちらをご覧ください。
+[Aspose.Words for .NET 23.7 リリースノート](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/) について詳しくは、こちらをご覧ください。
 
 [Aspose.Words for .NET 23.8 リリースノート](/words/net/aspose-words-for-net-23-8-release-notes/) について詳しくは、こちらをご覧ください。
 
@@ -464,11 +464,11 @@ MOBI および AZW3 形式の保存進捗通知が実装されました。
 
 [Aspose.Words for .NET 23.1 リリースノート](/words/net/aspose-words-for-net-23-1-release-notes/) について詳しくは、こちらをご覧ください。
 
-[Aspose.Words for .NET 23.2 リリースノート](/words/net/aspose-words-for-net-23-2-release-notes/) について詳しくは、こちらをご覧ください。
+[Aspose.Words for .NET 23.2 リリースノート](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-2-release-notes/) について詳しくは、こちらをご覧ください。
 
 [Aspose.Words for .NET 23.3 リリースノート](/words/net/aspose-words-for-net-23-3-release-notes/) について詳しくは、こちらをご覧ください。
 
-[Aspose.Words for .NET 23.4 リリースノート](/words/net/aspose-words-for-net-23-4-release-notes/) について詳しくは、こちらをご覧ください。
+[Aspose.Words for .NET 23.4 リリースノート](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-4-release-notes/) について詳しくは、こちらをご覧ください。
 
 {{% /alert %}}
 

@@ -14,7 +14,7 @@ There are several different ways to insert fields into a document:
 
 - using [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/)
 - using [FieldBuilder](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldbuilder/)
-- using [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/python-net/aspose-words-document-object-model/)
+- using [Aspose.Words Document Object Model (DOM)](/words/python-net/aspose-words-document-object-model/)
 
 In this article, we will look at each way in more detail and analyze how to insert certain fields using these options.
 

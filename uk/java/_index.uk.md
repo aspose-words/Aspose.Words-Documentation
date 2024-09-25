@@ -63,8 +63,8 @@ Aspose.Words підтримує більшість популярних форм
 			<ul>
 				<li><a href="/words/uk/java/loading-saving-and-converting/">Завантаження, збереження та перетворення</a></li>
 				<li><a href="/words/uk/java/rendering/">Рендеринг</a></li>
-				<li><a href="https://docs.aspose.com/words/java/mail-merge-and-reporting/">Mail Merge та звітність</a></li>
-				<li><a href="https://docs.aspose.com/words/java/linq-reporting-engine/">ЛІНК Звітний двигун</a></li>
+				<li><a href="/words/java/mail-merge-and-reporting/">Mail Merge та звітність</a></li>
+				<li><a href="/words/java/linq-reporting-engine/">ЛІНК Звітний двигун</a></li>
 				<li><a href="/words/uk/java/print-a-document-programmatically-or-using-dialogs/">Друк документів Програматично або за допомогою ділогів</a></li>
 				<li><a href="/words/uk/java/programming-with-documents/">Програмування документів</a></li>
 				<li><a href="https://reference.aspose.com/words/java">Aspose.Words для Java API Reference Керівництво</a></li>

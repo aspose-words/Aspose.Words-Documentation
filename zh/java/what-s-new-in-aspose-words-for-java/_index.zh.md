@@ -366,13 +366,13 @@ LINQ 报告引擎模板语法现在支持 `ElementAt` 和 ElementAtOrDefault 扩
 
 {{% alert color="primary" %}}
 
-学习更多 [Aspose.Words (单位:千美元) Java 23.5 发布说明](/words/java/aspose-words-for-java-23-5-release-notes/)。
+学习更多 [Aspose.Words (单位:千美元) Java 23.5 发布说明](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-5-release-notes/)。
 
 学习更多 [Aspose.Words (单位:千美元) Java 23.6 发布说明](/words/java/aspose-words-for-java-23-6-release-notes/)。
 
-学习更多 [Aspose.Words (单位:千美元) Java 23.7 发布说明](/words/java/aspose-words-for-java-23-7-release-notes/)。
+学习更多 [Aspose.Words (单位:千美元) Java 23.7 发布说明](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-7-release-notes/)。
 
-学习更多 [Aspose.Words (单位:千美元) Java 23.8 发布说明](/words/java/aspose-words-for-java-23-8-release-notes/)。
+学习更多 [Aspose.Words (单位:千美元) Java 23.8 发布说明](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-8-release-notes/)。
 
 {{% /alert %}}
 
@@ -454,11 +454,11 @@ MOBI和AZW3格式的保存进度通知已经执行。
 
 {{% alert color="primary" %}}
 
-学习更多 [Aspose.Words (单位:千美元) Java 23.1 发布说明](/words/java/aspose-words-for-java-23-1-release-notes/)。
+学习更多 [Aspose.Words (单位:千美元) Java 23.1 发布说明](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-1-release-notes/)。
 
 学习更多 [Aspose.Words (单位:千美元) Java 23.2 发行说明](/words/java/aspose-words-for-java-23-2-release-notes/)。
 
-学习更多 [Aspose.Words (单位:千美元) Java 23.3 发布说明](/words/java/aspose-words-for-java-23-3-release-notes/)。
+学习更多 [Aspose.Words (单位:千美元) Java 23.3 发布说明](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-3-release-notes/)。
 
 学习更多 [Aspose.Words (单位:千美元) Java 23.4 发行说明](/words/java/aspose-words-for-java-23-4-release-notes/)。
 
@@ -468,6 +468,6 @@ MOBI和AZW3格式的保存进度通知已经执行。
 
 {{% alert color="primary" %}}
 
-本页面收录了过去两年最新发布的新闻. 有关先前释放的详情,请参见: [发布注释 '](/words/java/release-notes/) 有关章节中各页。
+本页面收录了过去两年最新发布的新闻. 有关先前释放的详情,请参见: [发布注释 '](https://releases.aspose.com/words/java/release-notes/) 有关章节中各页。
 
 {{% /alert %}}

@@ -276,7 +276,7 @@ Funkce rozpoznat hypertextové odkazy při načítání TXT dokumentů byla impl
 
 {{% alert color="primary" %}}
 
-Více informací o [Aspose.Words místo Python via .NET 23.9 Poznámky k vydání](/words/python-net/aspose-words-for-python-via-dotnet-23-9-release-notes/).
+Více informací o [Aspose.Words místo Python via .NET 23.9 Poznámky k vydání](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-9-release-notes/).
 
 Více informací o [Aspose.Words místo Python via .NET 23.10 Poznámky k vydání](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-10-release-notes/).
 
@@ -365,7 +365,7 @@ Více informací o [Aspose.Words místo Python via .NET 23.5 Poznámky k vydán�
 
 Více informací o [Aspose.Words místo Python via .NET 23.6 Poznámky k vydání](/words/python-net/aspose-words-for-python-via-dotnet-23-6-release-notes/).
 
-Více informací o [Aspose.Words místo Python via .NET 23.7 Poznámky k vydání](/words/python-net/aspose-words-for-python-via-dotnet-23-7-release-notes/).
+Více informací o [Aspose.Words místo Python via .NET 23.7 Poznámky k vydání](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/).
 
 Více informací o [Aspose.Words místo Python via .NET 23.8 Poznámky k vydání](/words/python-net/aspose-words-for-python-via-dotnet-23-8-release-notes/).
 
@@ -453,7 +453,7 @@ Více informací o [Aspose.Words místo Python via .NET 23.1 Poznámky k vydán�
 
 Více informací o [Aspose.Words místo Python via .NET 23.2 Poznámky k vydání](/words/python-net/aspose-words-for-python-via-dotnet-23-2-release-notes/).
 
-Více informací o [Aspose.Words místo Python via .NET 23.3 Poznámky k vydání](/words/python-net/aspose-words-for-python-via-dotnet-23-3-release-notes/).
+Více informací o [Aspose.Words místo Python via .NET 23.3 Poznámky k vydání](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-3-release-notes/).
 
 Více informací o [Aspose.Words místo Python via .NET 23.4 Poznámky k vydání](/words/python-net/aspose-words-for-python-via-dotnet-23-4-release-notes/).
 
@@ -463,6 +463,6 @@ Více informací o [Aspose.Words místo Python via .NET 23.4 Poznámky k vydán�
 
 {{% alert color="primary" %}}
 
-Tato stránka obsahuje nejnovější zprávy o vydání za poslední 2 roky. Podrobnosti o dřívějších vydáních viz [Poznámky k vydání '](/words/python-net/release-notes/) stránky v příslušných oddílech.
+Tato stránka obsahuje nejnovější zprávy o vydání za poslední 2 roky. Podrobnosti o dřívějších vydáních viz [Poznámky k vydání '](https://releases.aspose.com/words/python/release-notes/) stránky v příslušných oddílech.
 
 {{% /alert %}}

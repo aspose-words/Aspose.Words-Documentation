@@ -63,8 +63,8 @@ Aspose.Words תומך ברוב פורמטי המסמך הפופולריים כג
 			<ul>
 				<li><a href="/words/he/java/loading-saving-and-converting/">לטעון, לחסוך ולהמיר</a></li>
 				<li><a href="/words/he/java/rendering/">Rendering</a></li>
-				<li><a href="https://docs.aspose.com/words/java/mail-merge-and-reporting/">Mail Merge דיווח ו</a></li>
-				<li><a href="https://docs.aspose.com/words/java/linq-reporting-engine/">תגית:LINQ</a></li>
+				<li><a href="/words/java/mail-merge-and-reporting/">Mail Merge דיווח ו</a></li>
+				<li><a href="/words/java/linq-reporting-engine/">תגית:LINQ</a></li>
 				<li><a href="/words/he/java/print-a-document-programmatically-or-using-dialogs/">הדפסה מסמך מתודולוגיה או שימוש באבחון</a></li>
 				<li><a href="/words/he/java/programming-with-documents/">תכנות עם מסמכים</a></li>
 				<li><a href="https://reference.aspose.com/words/java">Aspose.Words עבור Java API Reference מדריך</a></li>

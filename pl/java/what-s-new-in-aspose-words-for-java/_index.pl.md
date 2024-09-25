@@ -367,13 +367,13 @@ Nowy LowCode dodano metody mające na celu połączenie różnych typów dokumen
 
 {{% alert color="primary" %}}
 
-Dowiedz się więcej o [Aspose.Words zamiast Java 23.5 Uwagi do wydania](/words/java/aspose-words-for-java-23-5-release-notes/).
+Dowiedz się więcej o [Aspose.Words zamiast Java 23.5 Uwagi do wydania](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-5-release-notes/).
 
 Dowiedz się więcej o [Aspose.Words zamiast Java 23.6 Uwagi do wydania](/words/java/aspose-words-for-java-23-6-release-notes/).
 
-Dowiedz się więcej o [Aspose.Words zamiast Java 23.7 Uwagi do wydania](/words/java/aspose-words-for-java-23-7-release-notes/).
+Dowiedz się więcej o [Aspose.Words zamiast Java 23.7 Uwagi do wydania](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-7-release-notes/).
 
-Dowiedz się więcej o [Aspose.Words zamiast Java 23.8 Uwagi do wydania](/words/java/aspose-words-for-java-23-8-release-notes/).
+Dowiedz się więcej o [Aspose.Words zamiast Java 23.8 Uwagi do wydania](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-8-release-notes/).
 
 {{% /alert %}}
 
@@ -455,11 +455,11 @@ Możliwość określenia, czy dostosować zdanie i słowo odstępy automatycznie
 
 {{% alert color="primary" %}}
 
-Dowiedz się więcej o [Aspose.Words zamiast Java 23.1 Uwagi do wydania](/words/java/aspose-words-for-java-23-1-release-notes/).
+Dowiedz się więcej o [Aspose.Words zamiast Java 23.1 Uwagi do wydania](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-1-release-notes/).
 
 Dowiedz się więcej o [Aspose.Words zamiast Java 23.2 Uwagi do wydania](/words/java/aspose-words-for-java-23-2-release-notes/).
 
-Dowiedz się więcej o [Aspose.Words zamiast Java 23.3 Uwagi do wydania](/words/java/aspose-words-for-java-23-3-release-notes/).
+Dowiedz się więcej o [Aspose.Words zamiast Java 23.3 Uwagi do wydania](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-3-release-notes/).
 
 Dowiedz się więcej o [Aspose.Words zamiast Java 23.4 Uwagi do wydania](/words/java/aspose-words-for-java-23-4-release-notes/).
 
@@ -469,6 +469,6 @@ Dowiedz się więcej o [Aspose.Words zamiast Java 23.4 Uwagi do wydania](/words/
 
 {{% alert color="primary" %}}
 
-Ta strona zawiera najnowsze wiadomości z ostatnich 2 lat. Szczegółowe informacje na temat wcześniejszych wydań, patrz [Uwagi do wydania '](/words/java/release-notes/) strony w odpowiednich sekcjach.
+Ta strona zawiera najnowsze wiadomości z ostatnich 2 lat. Szczegółowe informacje na temat wcześniejszych wydań, patrz [Uwagi do wydania '](https://releases.aspose.com/words/java/release-notes/) strony w odpowiednich sekcjach.
 
 {{% /alert %}}

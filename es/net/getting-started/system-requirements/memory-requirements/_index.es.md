@@ -47,5 +47,5 @@ Si los resultados de su perfil indican un posible problema de memoria en Aspose.
 
 * [Medir el uso de memoria en Visual Studio (C#, Visual Basic, C++, F#)](https://learn.microsoft.com/en-us/visualstudio/profiling/memory-usage?view=vs-2022)
 * [Representación](/words/es/net/rendering/)
-* [Mail Merge e informes](https://docs.aspose.com/words/net/mail-merge-and-reporting/)
+* [Mail Merge e informes](/words/net/mail-merge-and-reporting/)
 * [trabajar con campos](/words/es/net/working-with-fields/)

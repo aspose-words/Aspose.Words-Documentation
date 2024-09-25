@@ -153,5 +153,5 @@ Ví dụ mã sau đây cho thấy cách sửa đổi thuộc tính trang trong t
 
 ## Xem thêm
 
-- [Mức độ logic của các nút trong tài liệu](https://docs.aspose.com/words/python-net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
+- [Mức độ logic của các nút trong tài liệu](/words/python-net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
 - [Chèn và nối tài liệu](/words/vi/python-net/insert-and-append-documents/)

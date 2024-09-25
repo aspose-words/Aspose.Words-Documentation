@@ -64,8 +64,8 @@ Aspose.Words поддържа повечето от популярните фо�
 			<ul>
 				<li><a href="/words/bg/net/loading-saving-and-converting/">Зареждане, спестяване и преобразуване</a></li>
 				<li><a href="/words/bg/net/rendering/">Внасяне</a></li>
-				<li><a href="https://docs.aspose.com/words/net/mail-merge-and-reporting/">Mail Merge и докладване</a></li>
-				<li><a href="https://docs.aspose.com/words/net/linq-reporting-engine/">LINQ Докладващ двигател</a></li>
+				<li><a href="/words/net/mail-merge-and-reporting/">Mail Merge и докладване</a></li>
+				<li><a href="/words/net/linq-reporting-engine/">LINQ Докладващ двигател</a></li>
 				<li><a href="/words/bg/net/print-a-document-programmatically-or-using-dialogs/">Печат на документ Програмиране или използване на диалогови файлове</a></li>
 				<li><a href="/words/bg/net/programming-with-documents/">Програмиране с документи</a></li>
 				<li><a href="https://reference.aspose.com/words/net">Aspose.Words вместо .NET API Reference Ръководство</a></li>

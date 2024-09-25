@@ -13,7 +13,7 @@ De multe ori aplicația ta va extrage date dintr-o bază de date și le va stoca
 
 {{% alert color="primary" %}}
 
-Rețineți că modalitatea preferată de introducere a datelor dintr-un **DataTable** într-o masă de documente este prin utilizarea [Mail Merge with Regions](https://docs.aspose.com/words/net/types-of-mail-merge-operations/#mail-merge-with-regions). Tehnica prezentată în acest articol este doar sugerată dacă nu sunteți capabili să creați un șablon potrivit înainte de mână pentru a combina datele cu, în alte cuvinte dacă aveți nevoie ca totul să se întâmple programatic.
+Rețineți că modalitatea preferată de introducere a datelor dintr-un **DataTable** într-o masă de documente este prin utilizarea [Mail Merge with Regions](/words/net/types-of-mail-merge-operations/#mail-merge-with-regions). Tehnica prezentată în acest articol este doar sugerată dacă nu sunteți capabili să creați un șablon potrivit înainte de mână pentru a combina datele cu, în alte cuvinte dacă aveți nevoie ca totul să se întâmple programatic.
 
 {{% /alert %}}
 

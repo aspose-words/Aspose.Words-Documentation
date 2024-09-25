@@ -64,8 +64,8 @@ Dengan Aspose.Words untuk .NET, Anda dapat membuat, memodifikasi, mengonversi, m
 						<ul>
 								<li><a href="/words/id/net/loading-saving-and-converting/">Memuat, Menyimpan, dan Mengonversi</a></li>
 								<li><a href="/words/id/net/rendering/">Render</a></li>
-								<li><a href="https://docs.aspose.com/words/net/mail-merge-and-reporting/">Mail Merge dan Pelaporan</a></li>
-								<li><a href="https://docs.aspose.com/words/net/linq-reporting-engine/">Mesin Pelaporan LINQ</a></li>
+								<li><a href="/words/net/mail-merge-and-reporting/">Mail Merge dan Pelaporan</a></li>
+								<li><a href="/words/net/linq-reporting-engine/">Mesin Pelaporan LINQ</a></li>
 								<li><a href="/words/id/net/print-a-document-programmatically-or-using-dialogs/">Mencetak Dokumen Secara Terprogram atau Menggunakan Dialog</a></li>
 								<li><a href="/words/id/net/programming-with-documents/">Pemrograman dengan Dokumen</a></li>
 								<li><a href="https://reference.aspose.com/words/net">Panduan API Reference Aspose.Words untuk .NET</a></li>

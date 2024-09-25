@@ -283,7 +283,7 @@ TXT 문서 로딩 시 하이퍼링크를 인식하는 기능이 새로운 [Detec
 
 {{% alert color="primary" %}}
 
-[.NET 23.9용 Aspose.Words 릴리스 노트](/words/net/aspose-words-for-net-23-9-release-notes/)에 대해 자세히 알아보세요.
+[.NET 23.9용 Aspose.Words 릴리스 노트](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-9-release-notes/)에 대해 자세히 알아보세요.
 
 [.NET 23.10용 Aspose.Words 릴리스 노트](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-10-release-notes/)에 대해 자세히 알아보세요.
 
@@ -376,7 +376,7 @@ JSON 문자열 값의 공백을 보존하기 위해 LINQ 보고 엔진에 옵션
 
 [.NET 23.6용 Aspose.Words 릴리스 노트](/words/net/aspose-words-for-net-23-6-release-notes/)에 대해 자세히 알아보세요.
 
-[.NET 23.7용 Aspose.Words 릴리스 노트](/words/net/aspose-words-for-net-23-7-release-notes/)에 대해 자세히 알아보세요.
+[.NET 23.7용 Aspose.Words 릴리스 노트](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/)에 대해 자세히 알아보세요.
 
 [.NET 23.8용 Aspose.Words 릴리스 노트](/words/net/aspose-words-for-net-23-8-release-notes/)에 대해 자세히 알아보세요.
 
@@ -462,11 +462,11 @@ MOBI 및 AZW3 형식에 대한 진행 알림 저장이 구현되었습니다.
 
 [.NET 23.1용 Aspose.Words 릴리스 노트](/words/net/aspose-words-for-net-23-1-release-notes/)에 대해 자세히 알아보세요.
 
-[.NET 23.2용 Aspose.Words 릴리스 노트](/words/net/aspose-words-for-net-23-2-release-notes/)에 대해 자세히 알아보세요.
+[.NET 23.2용 Aspose.Words 릴리스 노트](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-2-release-notes/)에 대해 자세히 알아보세요.
 
 [.NET 23.3용 Aspose.Words 릴리스 노트](/words/net/aspose-words-for-net-23-3-release-notes/)에 대해 자세히 알아보세요.
 
-[.NET 23.4용 Aspose.Words 릴리스 노트](/words/net/aspose-words-for-net-23-4-release-notes/)에 대해 자세히 알아보세요.
+[.NET 23.4용 Aspose.Words 릴리스 노트](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-4-release-notes/)에 대해 자세히 알아보세요.
 
 {{% /alert %}}
 

@@ -41,11 +41,11 @@ Experimentele cu mii de documente reale arată că în mod tipic Aspose.Words ne
 
 "Operații mai complexe, cum ar fi redarea (convertirea în format de pagină fixă), actualizarea câmpurilor, împărțirea paginii și altele, pentru unele documente necesită 20 de ori mai multe resurse decât memoria alocată documentului încărcat în Aspose.Words DOM".
 
-Dacă rezultatele profilării indică o problemă de memorie posibilă în Aspose.Words, vă rugăm să contactați [Support Team](https://docs.aspose.com/words/net/technical-support/) nostru și includeți toate informațiile de diagnosticare.
+Dacă rezultatele profilării indică o problemă de memorie posibilă în Aspose.Words, vă rugăm să contactați [Support Team](/words/net/technical-support/) nostru și includeți toate informațiile de diagnosticare.
 
 ## Vezi și
 
 * [Measure memory usage in Visual Studio (C#, Visual Basic, C++, F#)](https://learn.microsoft.com/en-us/visualstudio/profiling/memory-usage?view=vs-2022)
-* [Rendering](https://docs.aspose.com/words/net/rendering/)
-* [Mail Merge and Reporting](https://docs.aspose.com/words/net/mail-merge-and-reporting/)
-* [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/)
+* [Rendering](/words/net/rendering/)
+* [Mail Merge and Reporting](/words/net/mail-merge-and-reporting/)
+* [Working with Fields](/words/net/working-with-fields/)

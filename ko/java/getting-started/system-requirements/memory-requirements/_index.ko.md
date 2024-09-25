@@ -46,5 +46,5 @@ Aspose.Words 다양한 형식의 문서로 작업할 수 있는 다양한 기능
 ## 더 보기
 
 * [이름 *](/words/ko/java/rendering/)
-* [Mail Merge 및 보고](https://docs.aspose.com/words/java/mail-merge-and-reporting/)
+* [Mail Merge 및 보고](/words/java/mail-merge-and-reporting/)
 * [현장 작업](/words/ko/java/working-with-fields/)

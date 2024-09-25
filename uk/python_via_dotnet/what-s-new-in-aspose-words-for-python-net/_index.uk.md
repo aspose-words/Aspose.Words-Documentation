@@ -276,7 +276,7 @@ Aspose.Words 23.12 впроваджує нові властивості та з�
 
 {{% alert color="primary" %}}
 
-Дізнатися більше [Aspose.Words для Python via .NET 23.9 Реліз Примітки](/words/python-net/aspose-words-for-python-via-dotnet-23-9-release-notes/)
+Дізнатися більше [Aspose.Words для Python via .NET 23.9 Реліз Примітки](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-9-release-notes/)
 
 Дізнатися більше [Aspose.Words для Python via .NET 23.10 Реліз Примітки](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-10-release-notes/)
 
@@ -365,7 +365,7 @@ Mustache теги тепер підтримуються в [MailMerge.GetRegions
 
 Дізнатися більше [Aspose.Words для Python via .NET 23.6 Release Примітки](/words/python-net/aspose-words-for-python-via-dotnet-23-6-release-notes/)
 
-Дізнатися більше [Aspose.Words для Python via .NET 23.7 Release Примітки](/words/python-net/aspose-words-for-python-via-dotnet-23-7-release-notes/)
+Дізнатися більше [Aspose.Words для Python via .NET 23.7 Release Примітки](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/)
 
 Дізнатися більше [Aspose.Words для Python via .NET 23.8 Release Примітки](/words/python-net/aspose-words-for-python-via-dotnet-23-8-release-notes/)
 
@@ -453,7 +453,7 @@ Aspose.Words 23.4 покращує розрахунок деяких парам�
 
 Дізнатися більше [Aspose.Words для Python via .NET 23.2 Release Примітки](/words/python-net/aspose-words-for-python-via-dotnet-23-2-release-notes/)
 
-Дізнатися більше [Aspose.Words для Python via .NET 23.3 Release Примітки](/words/python-net/aspose-words-for-python-via-dotnet-23-3-release-notes/)
+Дізнатися більше [Aspose.Words для Python via .NET 23.3 Release Примітки](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-3-release-notes/)
 
 Дізнатися більше [Aspose.Words для Python via .NET 23.4 Випускають Примітки](/words/python-net/aspose-words-for-python-via-dotnet-23-4-release-notes/)
 
@@ -463,6 +463,6 @@ Aspose.Words 23.4 покращує розрахунок деяких парам�
 
 {{% alert color="primary" %}}
 
-Ця сторінка містить останні новини релізу за останні 2 роки. Для деталей на попередніх релізах див. [Видаляє Примітки Р](/words/python-net/release-notes/) сторінки в відповідних розділах.
+Ця сторінка містить останні новини релізу за останні 2 роки. Для деталей на попередніх релізах див. [Видаляє Примітки Р](https://releases.aspose.com/words/python/release-notes/) сторінки в відповідних розділах.
 
 {{% /alert %}}

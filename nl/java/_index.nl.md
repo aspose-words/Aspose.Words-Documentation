@@ -63,8 +63,8 @@ Met Aspose.Words voor Java, u documenten kunt genereren, wijzigen, converteren, 
 			<ul>
 				<li><a href="/words/nl/java/loading-saving-and-converting/">Laden, opslaan en omzetten</a></li>
 				<li><a href="/words/nl/java/rendering/">Renderen</a></li>
-				<li><a href="https://docs.aspose.com/words/java/mail-merge-and-reporting/">Mail Merge en relatie</a></li>
-				<li><a href="https://docs.aspose.com/words/java/linq-reporting-engine/">LINQ Rapportagemotor</a></li>
+				<li><a href="/words/java/mail-merge-and-reporting/">Mail Merge en relatie</a></li>
+				<li><a href="/words/java/linq-reporting-engine/">LINQ Rapportagemotor</a></li>
 				<li><a href="/words/nl/java/print-a-document-programmatically-or-using-dialogs/">Een document afdrukken Programmatisch of dialoogvensters gebruiken</a></li>
 				<li><a href="/words/nl/java/programming-with-documents/">Programmering met documenten</a></li>
 				<li><a href="https://reference.aspose.com/words/java">Aspose.Words voor Java API Reference Gidsen</a></li>

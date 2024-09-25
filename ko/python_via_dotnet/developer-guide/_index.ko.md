@@ -15,8 +15,8 @@ Aspose.Words 기능에 대해 자세히 알아보려면 해당 섹션을 선택�
 
 - [로드, 저장 및 변환](/words/ko/python-net/loading-saving-and-converting/) – 문서를 로드하거나 저장하는 다양한 방법과 문서를 한 형식에서 다른 형식으로 변환하는 데 유용한 형식별 기능에 대한 정보를 제공합니다.
 - [표현](/words/ko/python-net/rendering/) – 흐름 레이아웃 페이지 형식의 문서에서 페이지 매김 표현을 얻는 방법에 대한 정보를 제공합니다.
-- [Mail Merge 및 보고](https://docs.aspose.com/words/python-net/mail-merge-and-reporting/) – mail merge 필드가 있는 템플릿에서 보고서, 카탈로그, 재고, 송장 등의 문서 생성에 대한 정보를 제공합니다.
-- [LINQ 보고 엔진](https://docs.aspose.com/words/python-net/linq-reporting-engine/) – 확장된 보고 기능 세트를 사용하여 보고서 작성에 대한 정보를 제공합니다.
+- [Mail Merge 및 보고](/words/python-net/mail-merge-and-reporting/) – mail merge 필드가 있는 템플릿에서 보고서, 카탈로그, 재고, 송장 등의 문서 생성에 대한 정보를 제공합니다.
+- [LINQ 보고 엔진](/words/python-net/linq-reporting-engine/) – 확장된 보고 기능 세트를 사용하여 보고서 작성에 대한 정보를 제공합니다.
 - [문서를 이용한 프로그래밍](/words/ko/python-net/programming-with-documents/) – 내용과 시각적 모양 변경을 포함하여 문서를 프로그래밍 방식으로 생성, 수정 및 관리하는 방법에 대한 정보를 제공합니다.
 
 클래스, 메서드 및 속성에 대한 자세한 설명은 Python via .NET [API Reference](https://reference.aspose.com/words/python-net/)용 Aspose.Words를 참조하세요.

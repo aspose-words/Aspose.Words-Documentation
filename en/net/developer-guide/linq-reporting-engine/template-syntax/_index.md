@@ -49,7 +49,7 @@ While building a report, the engine checks matching of headers for corresponding
 
 During runtime, after a template syntax tag is processed by the engine, it is typically removed. This can lead to a situation where a paragraph containing the tag becomes empty if it has no other content. If such a paragraph is unwanted, it can be optionally removed by the engine. You can use one of the following ways to achieve this:
 
-* Remove all such paragraphs by applying the `ReportBuildOptions.RemoveEmptyParagraphs` option (see [Removing Paragraphs Containing Only Template Syntax Tags](https://docs.aspose.com/words/net/removing-paragraphs-containing-only-template-syntax-tags/) for more information).
+* Remove all such paragraphs by applying the `ReportBuildOptions.RemoveEmptyParagraphs` option (see [Removing Paragraphs Containing Only Template Syntax Tags](/words/net/removing-paragraphs-containing-only-template-syntax-tags/) for more information).
 * Selectively remove some of such paragraphs by prepending every corresponding tag’s name with an exclamation mark as follows.
   {{< highlight xml >}}
   <<!tag_name ...>>

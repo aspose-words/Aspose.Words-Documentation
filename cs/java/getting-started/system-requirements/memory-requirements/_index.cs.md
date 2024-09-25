@@ -46,5 +46,5 @@ Pokud vaše výsledky profilování indikují možný problém paměti v Aspose.
 ## Viz také
 
 * [Renderování](/words/cs/java/rendering/)
-* [Mail Merge a využití prostředků](https://docs.aspose.com/words/java/mail-merge-and-reporting/)
+* [Mail Merge a využití prostředků](/words/java/mail-merge-and-reporting/)
 * [Práce s poli](/words/cs/java/working-with-fields/)

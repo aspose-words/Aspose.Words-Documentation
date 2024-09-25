@@ -40,14 +40,14 @@ Tenga en cuenta que a continuaci√≥n se encuentran las combinaciones de conversi√
 	<div class="col-md-6">
 		<h2>Convertir Word en PDF</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Convertir DOC en PDF</a></li>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Convertir DOCX en PDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Convertir DOC en PDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Convertir DOCX en PDF</a></li>
 				<li>y otros</li>
 			</ul>
 		<h2>Convertir Imagen en PDF</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Convertir JPG en PDF</a></li>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Convertir TIFF en PDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Convertir JPG en PDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Convertir TIFF en PDF</a></li>
 				<li>y otros</li>
 			</ul>
 		<h2>Convertir Formatos Web en PDF</h2>
@@ -81,7 +81,7 @@ Tenga en cuenta que a continuaci√≥n se encuentran las combinaciones de conversi√
 			</ul>
 		<h2>Convertir un documento en HTML</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">Convertir Word en HTML</a></li>
+				<li><a href="/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">Convertir Word en HTML</a></li>
 				<li>Convertir Markdown a HTML</li>
 				<li>Convertir Mobi en EPUB</li>
 				<li>y otros</li>

@@ -13,7 +13,7 @@ Thông thường, ứng dụng của bạn sẽ lấy dữ liệu từ cơ sở 
 
 {{% alert color="primary" %}}
 
-Lưu ý rằng cách chèn dữ liệu từ **DataTable** vào bảng tài liệu ưa thích là sử dụng [Mail Merge với các khu vực](https://docs.aspose.com/words/net/types-of-mail-merge-operations/#mail-merge-with-regions). Kỹ thuật được trình bày trong bài viết này chỉ được đề xuất nếu bạn không thể tạo trước một mẫu phù hợp để hợp nhất dữ liệu, nói cách khác nếu bạn yêu cầu mọi thứ diễn ra theo chương trình.
+Lưu ý rằng cách chèn dữ liệu từ **DataTable** vào bảng tài liệu ưa thích là sử dụng [Mail Merge với các khu vực](/words/net/types-of-mail-merge-operations/#mail-merge-with-regions). Kỹ thuật được trình bày trong bài viết này chỉ được đề xuất nếu bạn không thể tạo trước một mẫu phù hợp để hợp nhất dữ liệu, nói cách khác nếu bạn yêu cầu mọi thứ diễn ra theo chương trình.
 
 {{% /alert %}}
 

@@ -283,7 +283,7 @@ The The The [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.
 
 {{% alert color="primary" %}}
 
-למד עוד על [Aspose.Words עבור .NET 23.9 הערות](/words/net/aspose-words-for-net-23-9-release-notes/).
+למד עוד על [Aspose.Words עבור .NET 23.9 הערות](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-9-release-notes/).
 
 למד עוד על [Aspose.Words עבור .NET 23.10 הערות](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-10-release-notes/).
 
@@ -376,7 +376,7 @@ LINQ Reporting Engine syntax תומך כעת `ElementAt` שיטות הרחבה �
 
 למד עוד על [Aspose.Words עבור .NET 23.6 הודעות](/words/net/aspose-words-for-net-23-6-release-notes/).
 
-למד עוד על [Aspose.Words עבור .NET 23.7 הודעות](/words/net/aspose-words-for-net-23-7-release-notes/).
+למד עוד על [Aspose.Words עבור .NET 23.7 הודעות](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/).
 
 למד עוד על [Aspose.Words עבור .NET 23.8 הערות](/words/net/aspose-words-for-net-23-8-release-notes/).
 
@@ -462,11 +462,11 @@ The The The [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/f
 
 למד עוד על [Aspose.Words עבור .NET 23.1 הערות](/words/net/aspose-words-for-net-23-1-release-notes/).
 
-למד עוד על [Aspose.Words עבור .NET 23.2 הודעות](/words/net/aspose-words-for-net-23-2-release-notes/).
+למד עוד על [Aspose.Words עבור .NET 23.2 הודעות](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-2-release-notes/).
 
 למד עוד על [Aspose.Words עבור .NET 23.3 הערות](/words/net/aspose-words-for-net-23-3-release-notes/).
 
-למד עוד על [Aspose.Words עבור .NET 23.4 הערות](/words/net/aspose-words-for-net-23-4-release-notes/).
+למד עוד על [Aspose.Words עבור .NET 23.4 הערות](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-4-release-notes/).
 
 {{% /alert %}}
 

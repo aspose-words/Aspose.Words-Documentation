@@ -62,8 +62,8 @@ Aspose.Words підтримує більшість популярних форм
 			<ul>
 				<li><a href="/words/uk/python-net/loading-saving-and-converting/">Завантаження, збереження та перетворення</a></li>
 				<li><a href="/words/uk/python-net/rendering/">Рендеринг</a></li>
-				<li><a href="https://docs.aspose.com/words/python-net/mail-merge-and-reporting/">Mail Merge та звітність</a></li>
-				<li><a href="https://docs.aspose.com/words/python-net/linq-reporting-engine/">ЛІНК Звітний двигун</a></li>
+				<li><a href="/words/python-net/mail-merge-and-reporting/">Mail Merge та звітність</a></li>
+				<li><a href="/words/python-net/linq-reporting-engine/">ЛІНК Звітний двигун</a></li>
 				<li><a href="/words/uk/python-net/programming-with-documents/">Програмування документів</a></li>
 			</ul>
 			<p>Технічна підтримка</p>

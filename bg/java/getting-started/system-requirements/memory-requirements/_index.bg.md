@@ -46,5 +46,5 @@ Aspose.Words осигурява широка гама от функции за �
 ## Вижте също
 
 * [Нанасяне](/words/bg/java/rendering/)
-* [Mail Merge и докладване](https://docs.aspose.com/words/java/mail-merge-and-reporting/)
+* [Mail Merge и докладване](/words/java/mail-merge-and-reporting/)
 * [Работа със полета](/words/bg/java/working-with-fields/)

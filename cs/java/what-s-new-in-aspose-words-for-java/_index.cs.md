@@ -366,13 +366,13 @@ Nový LowCode byly přidány metody pro sloučení různých typů dokumentů do
 
 {{% alert color="primary" %}}
 
-Více informací o [Aspose.Words Místo Java 23.5 Poznámky k východu](/words/java/aspose-words-for-java-23-5-release-notes/).
+Více informací o [Aspose.Words Místo Java 23.5 Poznámky k východu](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-5-release-notes/).
 
 Více informací o [Aspose.Words Místo Java 23.6 Poznámky k východu](/words/java/aspose-words-for-java-23-6-release-notes/).
 
-Více informací o [Aspose.Words Místo Java 23.7 Poznámky k východu](/words/java/aspose-words-for-java-23-7-release-notes/).
+Více informací o [Aspose.Words Místo Java 23.7 Poznámky k východu](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-7-release-notes/).
 
-Více informací o [Aspose.Words Místo Java 23.8 Poznámky k východu](/words/java/aspose-words-for-java-23-8-release-notes/).
+Více informací o [Aspose.Words Místo Java 23.8 Poznámky k východu](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-8-release-notes/).
 
 {{% /alert %}}
 
@@ -454,11 +454,11 @@ Možnost určit, zda je při importu dokumentu automaticky upravena věta a slov
 
 {{% alert color="primary" %}}
 
-Více informací o [Aspose.Words Místo Java 23.1 Poznámky k východu](/words/java/aspose-words-for-java-23-1-release-notes/).
+Více informací o [Aspose.Words Místo Java 23.1 Poznámky k východu](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-1-release-notes/).
 
 Více informací o [Aspose.Words Místo Java 23.2 Poznámky k východu](/words/java/aspose-words-for-java-23-2-release-notes/).
 
-Více informací o [Aspose.Words Místo Java 23.3 Poznámky k východu](/words/java/aspose-words-for-java-23-3-release-notes/).
+Více informací o [Aspose.Words Místo Java 23.3 Poznámky k východu](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-3-release-notes/).
 
 Více informací o [Aspose.Words Místo Java 23.4 Poznámky k východu](/words/java/aspose-words-for-java-23-4-release-notes/).
 
@@ -468,6 +468,6 @@ Více informací o [Aspose.Words Místo Java 23.4 Poznámky k východu](/words/j
 
 {{% alert color="primary" %}}
 
-Tato stránka obsahuje nejnovější zprávy za poslední 2 roky. Podrobnosti o dřívějších verzích viz [Poznámky k vyvedení '](/words/java/release-notes/) stránky v příslušných oddílech.
+Tato stránka obsahuje nejnovější zprávy za poslední 2 roky. Podrobnosti o dřívějších verzích viz [Poznámky k vyvedení '](https://releases.aspose.com/words/java/release-notes/) stránky v příslušných oddílech.
 
 {{% /alert %}}

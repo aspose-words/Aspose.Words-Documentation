@@ -13,7 +13,7 @@ url: /ko/net/how-to-build-a-table-from-a-datatable/
 
 {{% alert color="primary" %}}
 
-**DataTable**의 데이터를 문서 테이블에 삽입하는 기본 방법은 [지역이 포함된 Mail Merge](https://docs.aspose.com/words/net/types-of-mail-merge-operations/#mail-merge-with-regions)를 사용하는 것입니다. 이 문서에 제시된 기술은 데이터를 병합하기 위해 적절한 템플릿을 미리 만들 수 없는 경우, 즉 모든 작업이 프로그래밍 방식으로 수행되어야 하는 경우에만 제안됩니다.
+**DataTable**의 데이터를 문서 테이블에 삽입하는 기본 방법은 [지역이 포함된 Mail Merge](/words/net/types-of-mail-merge-operations/#mail-merge-with-regions)를 사용하는 것입니다. 이 문서에 제시된 기술은 데이터를 병합하기 위해 적절한 템플릿을 미리 만들 수 없는 경우, 즉 모든 작업이 프로그래밍 방식으로 수행되어야 하는 경우에만 제안됩니다.
 
 {{% /alert %}}
 

@@ -62,8 +62,8 @@ Aspose.Words รองรับรูปแบบเอกสารยอดน�
 						<ul>
 								<li><a href="/words/th/python-net/loading-saving-and-converting/">กำลังโหลด บันทึก และการแปลง</a></li>
 								<li><a href="/words/th/python-net/rendering/">กำลังแสดงผล</a></li>
-								<li><a href="https://docs.aspose.com/words/python-net/mail-merge-and-reporting/">Mail Merge และการรายงาน</a></li>
-								<li><a href="https://docs.aspose.com/words/python-net/linq-reporting-engine/">เครื่องมือรายงาน LINQ</a></li>
+								<li><a href="/words/python-net/mail-merge-and-reporting/">Mail Merge และการรายงาน</a></li>
+								<li><a href="/words/python-net/linq-reporting-engine/">เครื่องมือรายงาน LINQ</a></li>
 								<li><a href="/words/th/python-net/programming-with-documents/">การเขียนโปรแกรมด้วยเอกสาร</a></li>
 						</ul>
 						<p>การสนับสนุนทางเทคนิค</p>

@@ -64,8 +64,8 @@ Với Aspose.Words cho .NET, bạn có thể tạo, sửa đổi, chuyển đổ
 						<ul>
 								<li><a href="/words/vi/net/loading-saving-and-converting/">Đang tải, lưu và chuyển đổi</a></li>
 								<li><a href="/words/vi/net/rendering/">Kết xuất</a></li>
-								<li><a href="https://docs.aspose.com/words/net/mail-merge-and-reporting/">Mail Merge và báo cáo</a></li>
-								<li><a href="https://docs.aspose.com/words/net/linq-reporting-engine/">Công cụ báo cáo LINQ</a></li>
+								<li><a href="/words/net/mail-merge-and-reporting/">Mail Merge và báo cáo</a></li>
+								<li><a href="/words/net/linq-reporting-engine/">Công cụ báo cáo LINQ</a></li>
 								<li><a href="/words/vi/net/print-a-document-programmatically-or-using-dialogs/">In tài liệu theo chương trình hoặc sử dụng hộp thoại</a></li>
 								<li><a href="/words/vi/net/programming-with-documents/">Lập trình với tài liệu</a></li>
 								<li><a href="https://reference.aspose.com/words/net">Hướng dẫn API Reference Aspose.Words cho .NET</a></li>

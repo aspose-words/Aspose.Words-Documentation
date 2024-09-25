@@ -276,7 +276,7 @@ De functie om hyperlinks te herkennen bij het laden van TXT documenten is geïmp
 
 {{% alert color="primary" %}}
 
-Meer informatie over [Aspose.Words voor Python via .NET 23.9 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-23-9-release-notes/).
+Meer informatie over [Aspose.Words voor Python via .NET 23.9 Release Notes](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-9-release-notes/).
 
 Meer informatie over [Aspose.Words voor Python via .NET 23.10 Release Notes](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-10-release-notes/).
 
@@ -365,7 +365,7 @@ Meer informatie over [Aspose.Words voor Python via .NET 23.5 Release Notes](/wor
 
 Meer informatie over [Aspose.Words voor Python via .NET 23.6 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-23-6-release-notes/).
 
-Meer informatie over [Aspose.Words voor Python via .NET 23.7 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-23-7-release-notes/).
+Meer informatie over [Aspose.Words voor Python via .NET 23.7 Release Notes](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/).
 
 Meer informatie over [Aspose.Words voor Python via .NET 23.8 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-23-8-release-notes/).
 
@@ -453,7 +453,7 @@ Meer informatie over [Aspose.Words voor Python via .NET 23.1 Release Notes](/wor
 
 Meer informatie over [Aspose.Words voor Python via .NET 23.2 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-23-2-release-notes/).
 
-Meer informatie over [Aspose.Words voor Python via .NET 23.3 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-23-3-release-notes/).
+Meer informatie over [Aspose.Words voor Python via .NET 23.3 Release Notes](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-3-release-notes/).
 
 Meer informatie over [Aspose.Words voor Python via .NET 23.4 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-23-4-release-notes/).
 
@@ -463,6 +463,6 @@ Meer informatie over [Aspose.Words voor Python via .NET 23.4 Release Notes](/wor
 
 {{% alert color="primary" %}}
 
-Deze pagina bevat het laatste nieuws van de afgelopen 2 jaar. Voor meer informatie over eerdere releases, zie de [Loslaten '](/words/python-net/release-notes/) pagina's in de desbetreffende secties.
+Deze pagina bevat het laatste nieuws van de afgelopen 2 jaar. Voor meer informatie over eerdere releases, zie de [Loslaten '](https://releases.aspose.com/words/python/release-notes/) pagina's in de desbetreffende secties.
 
 {{% /alert %}}

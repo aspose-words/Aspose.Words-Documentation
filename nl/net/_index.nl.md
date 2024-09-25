@@ -64,8 +64,8 @@ Met Aspose.Words voor .NET, u documenten kunt genereren, wijzigen, converteren, 
 			<ul>
 				<li><a href="/words/nl/net/loading-saving-and-converting/">Laden, opslaan en omzetten</a></li>
 				<li><a href="/words/nl/net/rendering/">Renderen</a></li>
-				<li><a href="https://docs.aspose.com/words/net/mail-merge-and-reporting/">Mail Merge en rapportage</a></li>
-				<li><a href="https://docs.aspose.com/words/net/linq-reporting-engine/">LINQ Rapportagemotor</a></li>
+				<li><a href="/words/net/mail-merge-and-reporting/">Mail Merge en rapportage</a></li>
+				<li><a href="/words/net/linq-reporting-engine/">LINQ Rapportagemotor</a></li>
 				<li><a href="/words/nl/net/print-a-document-programmatically-or-using-dialogs/">Een document afdrukken Programmatisch of dialoogvensters gebruiken</a></li>
 				<li><a href="/words/nl/net/programming-with-documents/">Programmering met documenten</a></li>
 				<li><a href="https://reference.aspose.com/words/net">Aspose.Words voor .NET API Reference Gids</a></li>

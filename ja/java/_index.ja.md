@@ -63,8 +63,8 @@ Aspose.Words DOC、DOCX、RTF、HTMLなどの一般的な文書フォーマッ�
 			<ul>
 				<li><a href="/words/ja/java/loading-saving-and-converting/">ローディング、保存および変換</a></li>
 				<li><a href="/words/ja/java/rendering/">レンダリング</a></li>
-				<li><a href="https://docs.aspose.com/words/java/mail-merge-and-reporting/">Mail Merge そして報告</a></li>
-				<li><a href="https://docs.aspose.com/words/java/linq-reporting-engine/">リンク レポートエンジン</a></li>
+				<li><a href="/words/java/mail-merge-and-reporting/">Mail Merge そして報告</a></li>
+				<li><a href="/words/java/linq-reporting-engine/">リンク レポートエンジン</a></li>
 				<li><a href="/words/ja/java/print-a-document-programmatically-or-using-dialogs/">ドキュメント 外部 ライブラリ</a></li>
 				<li><a href="/words/ja/java/programming-with-documents/">ドキュメントのプログラミング</a></li>
 				<li><a href="https://reference.aspose.com/words/java">Aspose.Words お問い合わせ Java API Reference ガイド</a></li>

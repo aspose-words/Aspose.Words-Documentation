@@ -46,5 +46,5 @@ Se seus resultados de profiling indicarem um possível problema de memória em A
 ## Ver também
 
 * [Renderização](/words/pt/java/rendering/)
-* [Mail Merge e Relatórios](https://docs.aspose.com/words/java/mail-merge-and-reporting/)
+* [Mail Merge e Relatórios](/words/java/mail-merge-and-reporting/)
 * [Trabalhando com Campos](/words/pt/java/working-with-fields/)

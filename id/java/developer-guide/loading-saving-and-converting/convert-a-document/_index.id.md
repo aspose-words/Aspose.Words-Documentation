@@ -40,14 +40,14 @@ Harap dicatat bahwa di bawah ini adalah kombinasi konversi yang paling populer, 
 	<div class="col-md-6">
 		<h2>Konversi Word ke PDF</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Login</a></li>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Login</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Login</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Login</a></li>
 				<li>dan lain-lain</li>
 			</ul>
 		<h2>Konversi Gambar ke PDF</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">JPG PNG BMP GIF 3 MB</a></li>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Login</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">JPG PNG BMP GIF 3 MB</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Login</a></li>
 				<li>dan lain-lain</li>
 			</ul>
 		<h2>Konversi Format Web ke PDF</h2>
@@ -81,7 +81,7 @@ Harap dicatat bahwa di bawah ini adalah kombinasi konversi yang paling populer, 
 			</ul>
 		<h2>Mengkonversi Dokumen ke HTML</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">Login</a></li>
+				<li><a href="/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">Login</a></li>
 				<li>Login Markdown Login</li>
 				<li>Konversi Mobi ke EPUB</li>
 				<li>dan lain-lain</li>

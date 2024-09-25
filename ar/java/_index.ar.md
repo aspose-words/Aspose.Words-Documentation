@@ -63,8 +63,8 @@ Aspose.Words 1 - يدعم معظم أشكال الوثائق الشعبية مث
 			<ul>
 				<li><a href="/words/ar/java/loading-saving-and-converting/">النقل والإنقاذ والتحويل</a></li>
 				<li><a href="/words/ar/java/rendering/">Rendering</a></li>
-				<li><a href="https://docs.aspose.com/words/java/mail-merge-and-reporting/">Mail Merge and Reporting</a></li>
-				<li><a href="https://docs.aspose.com/words/java/linq-reporting-engine/">LINQ FOR</a></li>
+				<li><a href="/words/java/mail-merge-and-reporting/">Mail Merge and Reporting</a></li>
+				<li><a href="/words/java/linq-reporting-engine/">LINQ FOR</a></li>
 				<li><a href="/words/ar/java/print-a-document-programmatically-or-using-dialogs/">طبع وثيقة برمجياً أو استخدام ديالوغز</a></li>
 				<li><a href="/words/ar/java/programming-with-documents/">برمجة الوثائق</a></li>
 				<li><a href="https://reference.aspose.com/words/java">Aspose.Words for Java API Reference -</a></li>

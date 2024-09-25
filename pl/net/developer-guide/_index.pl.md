@@ -15,8 +15,8 @@ Aby dowiedzieć się więcej o funkcjach Aspose.Words, wybierz odpowiednią sekc
 
 - [Ładowanie, zapisywanie i konwertowanie](/words/pl/net/loading-saving-and-converting/) – zawiera informacje o różnych sposobach ładowania i zapisywania dokumentów oraz o funkcjach specyficznych dla formatu, przydatnych do konwersji dokumentu z jednego formatu na inny.
 - [Wykonanie](/words/pl/net/rendering/) – zawiera informacje o tym, jak uzyskać paginowaną reprezentację dokumentu w formacie strony z układem przepływu.
-- [Mail Merge i raportowanie](https://docs.aspose.com/words/net/mail-merge-and-reporting/) – dostarcza informacji o generowaniu dokumentów, takich jak raporty, katalogi, inwentarze, faktury, z szablonów z polami mail merge.
-- [Silnik raportowania LINQ](https://docs.aspose.com/words/net/linq-reporting-engine/) – dostarcza informacji o budowaniu raportów przy wykorzystaniu rozbudowanego zestawu funkcji raportowania.
+- [Mail Merge i raportowanie](/words/net/mail-merge-and-reporting/) – dostarcza informacji o generowaniu dokumentów, takich jak raporty, katalogi, inwentarze, faktury, z szablonów z polami mail merge.
+- [Silnik raportowania LINQ](/words/net/linq-reporting-engine/) – dostarcza informacji o budowaniu raportów przy wykorzystaniu rozbudowanego zestawu funkcji raportowania.
 - [Drukowanie dokumentu programowo lub przy użyciu okien dialogowych](/words/pl/net/print-a-document-programmatically-or-using-dialogs/) – zawiera informacje na temat drukowania dokumentu na różne sposoby i dostosowywania operacji drukowania w celu wdrożenia niestandardowej logiki.
 - [Programowanie z dokumentami](/words/pl/net/programming-with-documents/) – zawiera informacje na temat programowego tworzenia, modyfikowania i zarządzania dokumentami, w tym zmiany zarówno ich zawartości, jak i wyglądu.
 

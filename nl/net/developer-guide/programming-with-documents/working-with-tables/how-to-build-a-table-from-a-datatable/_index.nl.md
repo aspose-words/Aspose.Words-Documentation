@@ -13,7 +13,7 @@ Vaak zal uw toepassing halen gegevens uit een database en opslaan in de vorm van
 
 {{% alert color="primary" %}}
 
-Merk op dat de voorkeur manier om gegevens van een **DataTable** in een documenttabel wordt gebruikt [Mail Merge met regio's](https://docs.aspose.com/words/net/types-of-mail-merge-operations/#mail-merge-with-regions). De techniek in dit artikel wordt alleen voorgesteld als je niet in staat bent om een geschikt sjabloon voor de hand om gegevens te mergen met, met andere woorden als je alles nodig hebt om programmatisch te gebeuren.
+Merk op dat de voorkeur manier om gegevens van een **DataTable** in een documenttabel wordt gebruikt [Mail Merge met regio's](/words/net/types-of-mail-merge-operations/#mail-merge-with-regions). De techniek in dit artikel wordt alleen voorgesteld als je niet in staat bent om een geschikt sjabloon voor de hand om gegevens te mergen met, met andere woorden als je alles nodig hebt om programmatisch te gebeuren.
 
 {{% /alert %}}
 

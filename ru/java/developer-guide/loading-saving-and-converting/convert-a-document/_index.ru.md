@@ -40,14 +40,14 @@ description: "Легко конвертировать документы из о
 	<div class="col-md-6">
 		<h2>Преобразование Word в PDF</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Преобразование DOC в PDF</a></li>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Преобразование DOCX в PDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Преобразование DOC в PDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Преобразование DOCX в PDF</a></li>
 				<li>и другие</li>
 			</ul>
 		<h2>Преобразование изображения в PDF</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Преобразование JPG в PDF</a></li>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Преобразование TIFF в PDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Преобразование JPG в PDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Преобразование TIFF в PDF</a></li>
 				<li>и другие</li>
 			</ul>
 		<h2>Преобразование веб-форматов в PDF</h2>
@@ -81,7 +81,7 @@ description: "Легко конвертировать документы из о
 			</ul>
 		<h2>Преобразовать документ в HTML</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">Преобразование Word в HTML</a></li>
+				<li><a href="/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">Преобразование Word в HTML</a></li>
 				<li>преобразовать Markdown в HTML</li>
 				<li>Преобразование Mobi в EPUB</li>
 				<li>и другие</li>

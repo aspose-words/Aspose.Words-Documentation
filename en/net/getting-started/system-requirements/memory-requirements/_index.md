@@ -41,11 +41,11 @@ Experiments with thousands of real documents shows that typically Aspose.Words r
 
 More complex operations like rendering (converting to fixed page formats), updating fields, splitting page, and others, for some documents require 20 times more resources than the memory allocated by the document loaded in Aspose.Words DOM.
 
-If your profiling results indicate a possible memory issue in Aspose.Words, please contact our [Support Team](https://docs.aspose.com/words/net/technical-support/) and include all the diagnostic information.
+If your profiling results indicate a possible memory issue in Aspose.Words, please contact our [Support Team](/words/net/technical-support/) and include all the diagnostic information.
 
 ## See Also
 
 * [Measure memory usage in Visual Studio (C#, Visual Basic, C++, F#)](https://learn.microsoft.com/en-us/visualstudio/profiling/memory-usage?view=vs-2022)
-* [Rendering](https://docs.aspose.com/words/net/rendering/)
-* [Mail Merge and Reporting](https://docs.aspose.com/words/net/mail-merge-and-reporting/)
-* [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/)
+* [Rendering](/words/net/rendering/)
+* [Mail Merge and Reporting](/words/net/mail-merge-and-reporting/)
+* [Working with Fields](/words/net/working-with-fields/)

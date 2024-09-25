@@ -47,5 +47,5 @@ url: /ar/net/memory-requirements/
 
 * [قياس استخدام الذاكرة في Visual Studio (C#، Visual Basic، C++، F#)](https://learn.microsoft.com/en-us/visualstudio/profiling/memory-usage?view=vs-2022)
 * [استدعاء](/words/ar/net/rendering/)
-* [Mail Merge وإعداد التقارير](https://docs.aspose.com/words/net/mail-merge-and-reporting/)
+* [Mail Merge وإعداد التقارير](/words/net/mail-merge-and-reporting/)
 * [العمل مع الحقول](/words/ar/net/working-with-fields/)

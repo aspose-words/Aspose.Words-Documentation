@@ -15,8 +15,8 @@ Aspose.Words özellikleri hakkında daha fazla bilgi edinmek için ilgili bölü
 
 - [Yükleme, Kaydetme ve Dönüştürme](/words/tr/python-net/loading-saving-and-converting/) – belgeleri yüklemenin veya kaydetmenin farklı yolları ve bir belgeyi bir biçimden diğerine dönüştürmek için yararlı olan biçime özgü özellikler hakkında bilgi sağlar.
 - [İşleme](/words/tr/python-net/rendering/) – akış düzeni sayfa formatındaki bir belgeden sayfalandırılmış bir gösterimin nasıl alınacağı hakkında bilgi sağlar.
-- [Mail Merge ve Raporlama](https://docs.aspose.com/words/python-net/mail-merge-and-reporting/) – mail merge alanlarına sahip şablonlardan raporlar, kataloglar, envanterler ve faturalar gibi belgelerin oluşturulması hakkında bilgi sağlar.
-- [LINQ Raporlama Motoru](https://docs.aspose.com/words/python-net/linq-reporting-engine/) – genişletilmiş raporlama özellikleri kümesini kullanarak rapor oluşturma hakkında bilgi sağlar.
+- [Mail Merge ve Raporlama](/words/python-net/mail-merge-and-reporting/) – mail merge alanlarına sahip şablonlardan raporlar, kataloglar, envanterler ve faturalar gibi belgelerin oluşturulması hakkında bilgi sağlar.
+- [LINQ Raporlama Motoru](/words/python-net/linq-reporting-engine/) – genişletilmiş raporlama özellikleri kümesini kullanarak rapor oluşturma hakkında bilgi sağlar.
 - [Belgelerle Programlama](/words/tr/python-net/programming-with-documents/) – hem içeriklerini hem de görsel görünümlerini değiştirmek de dahil olmak üzere belgelerin programlı olarak nasıl oluşturulacağı, değiştirileceği ve yönetileceği hakkında bilgi sağlar.
 
 Sınıfların, yöntemlerin ve özelliklerin ayrıntılı bir açıklaması için Python via .NET [API Reference](https://reference.aspose.com/words/python-net/) için Aspose.Words'e bakın.

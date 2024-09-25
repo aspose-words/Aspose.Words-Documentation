@@ -283,7 +283,7 @@ De functie om hyperlinks te herkennen bij het laden van TXT documenten is geïmp
 
 {{% alert color="primary" %}}
 
-Meer informatie over [Aspose.Words voor .NET 23.9 Release Notes](/words/net/aspose-words-for-net-23-9-release-notes/).
+Meer informatie over [Aspose.Words voor .NET 23.9 Release Notes](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-9-release-notes/).
 
 Meer informatie over [Aspose.Words voor .NET 23.10 Release Notes](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-10-release-notes/).
 
@@ -376,7 +376,7 @@ Meer informatie over [Aspose.Words voor .NET 23.5 Release Notes](/words/net/aspo
 
 Meer informatie over [Aspose.Words voor .NET 23.6 Release Notes](/words/net/aspose-words-for-net-23-6-release-notes/).
 
-Meer informatie over [Aspose.Words voor .NET 23.7 Release Notes](/words/net/aspose-words-for-net-23-7-release-notes/).
+Meer informatie over [Aspose.Words voor .NET 23.7 Release Notes](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/).
 
 Meer informatie over [Aspose.Words voor .NET 23.8 Release Notes](/words/net/aspose-words-for-net-23-8-release-notes/).
 
@@ -462,11 +462,11 @@ De mogelijkheid om te specificeren of zin en woordafstand automatisch kunnen wor
 
 Meer informatie over [Aspose.Words voor .NET 23.1 Release Notes](/words/net/aspose-words-for-net-23-1-release-notes/).
 
-Meer informatie over [Aspose.Words voor .NET 23.2 Release Notes](/words/net/aspose-words-for-net-23-2-release-notes/).
+Meer informatie over [Aspose.Words voor .NET 23.2 Release Notes](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-2-release-notes/).
 
 Meer informatie over [Aspose.Words voor .NET 23.3 Release Notes](/words/net/aspose-words-for-net-23-3-release-notes/).
 
-Meer informatie over [Aspose.Words voor .NET 23.4 Release Notes](/words/net/aspose-words-for-net-23-4-release-notes/).
+Meer informatie over [Aspose.Words voor .NET 23.4 Release Notes](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-4-release-notes/).
 
 {{% /alert %}}
 

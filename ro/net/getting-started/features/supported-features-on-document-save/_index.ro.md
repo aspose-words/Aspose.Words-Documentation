@@ -20,7 +20,7 @@ Este important să știi că multe opțiuni de salvare sunt comune tuturor forma
 Pentru o listă completă a funcțiilor, vezi API reference:
 
 - [save options for all formats](https://reference.aspose.com/words/net/aspose.words.saving/)
-- [fixed page save options](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/) pentru [fixed-page formats](https://docs.aspose.com/words/net/converting-to-fixed-page-format/): PDF, XPS, imagini și altele
+- [fixed page save options](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/) pentru [fixed-page formats](/words/net/converting-to-fixed-page-format/): PDF, XPS, imagini și altele
 - [PDF save options](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) pentru formatul PDF
 - [OOXML save options](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/) pentru formatul DOCX, DOCM, DOTX, DOTM sau FlatOpc
 "- [DOC save options](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/) pentru Doc și DOT formate"

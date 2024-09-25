@@ -15,8 +15,8 @@ url: /he/net/developer-guide/
 
 - - [טעינה, לחסוך ולהמיר](/words/he/net/loading-saving-and-converting/) - מספק מידע על דרכים שונות לטעון או לחסוך מסמכים ותכונות ספציפיות פורמט שימושי כדי להמיר מסמך מפורמט אחד למשנהו.
 - - [Rendering](/words/he/net/rendering/) - מספק מידע על איך לקבל ייצוג מדמיינת של מסמך בפורמט דף זרימה.
-- - [Mail Merge דיווח ו](https://docs.aspose.com/words/net/mail-merge-and-reporting/) - מספק מידע על יצירת מסמכים, כגון דוחות, קטלוגים, ממציאים וחשבונות, מתבניות עם mail merge שדות
-- - [LINQ דיווח על מנוע](https://docs.aspose.com/words/net/linq-reporting-engine/) מספק מידע על בניית דוחות באמצעות מערך מורחב של תכונות דיווח.
+- - [Mail Merge דיווח ו](/words/net/mail-merge-and-reporting/) - מספק מידע על יצירת מסמכים, כגון דוחות, קטלוגים, ממציאים וחשבונות, מתבניות עם mail merge שדות
+- - [LINQ דיווח על מנוע](/words/net/linq-reporting-engine/) מספק מידע על בניית דוחות באמצעות מערך מורחב של תכונות דיווח.
 - - [הדפסה מסמך מתודולוגיה או שימוש באבחון](/words/he/net/print-a-document-programmatically-or-using-dialogs/) - מספק מידע על איך להדפיס מסמך בדרכים שונות ולנקות את פעולת ההדפסה כדי ליישם את ההיגיון המותאם שלך.
 - - [תכנות עם מסמכים](/words/he/net/programming-with-documents/) - מספק מידע על איך ליצור, לשנות ולנהל מסמכים כולל שינוי התוכן שלהם ואת המראה החזותי.
 

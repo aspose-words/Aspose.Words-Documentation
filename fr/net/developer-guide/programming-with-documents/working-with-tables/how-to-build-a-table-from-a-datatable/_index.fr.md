@@ -13,7 +13,7 @@ Souvent, votre application extraira des données d'une base de données et les s
 
 {{% alert color="primary" %}}
 
-Notez que la méthode préférée pour insérer des données d'un **DataTable** dans une table de document consiste à utiliser [Mail Merge avec régions](https://docs.aspose.com/words/net/types-of-mail-merge-operations/#mail-merge-with-regions). La technique présentée dans cet article n'est suggérée que si vous ne parvenez pas à créer au préalable un modèle approprié avec lequel fusionner les données, en d'autres termes si vous souhaitez que tout se déroule par programme.
+Notez que la méthode préférée pour insérer des données d'un **DataTable** dans une table de document consiste à utiliser [Mail Merge avec régions](/words/net/types-of-mail-merge-operations/#mail-merge-with-regions). La technique présentée dans cet article n'est suggérée que si vous ne parvenez pas à créer au préalable un modèle approprié avec lequel fusionner les données, en d'autres termes si vous souhaitez que tout se déroule par programme.
 
 {{% /alert %}}
 

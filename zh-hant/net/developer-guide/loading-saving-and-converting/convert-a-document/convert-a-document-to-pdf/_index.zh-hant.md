@@ -83,9 +83,9 @@ url: /zh-hant/net/convert-a-document-to-pdf/
 "- 文章 [Rendering](/words/net/rendering/) 提供更多關於固定頁面和流式排版格式的資訊"
 "-該文章 [Converting to Fixed-page Format](/words/net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) 提供關於頁面布局的更多資訊"
 "- 該文章 [Specify Rendering Options When Converting to PDF](/words/net/specify-rendering-options-when-converting-to-pdf/) 提供有關使用 `PdfSaveOptions` 的更多資訊。"
--該文章[Learn Features of Conversion to PDF/A and PDF/UA](https://docs.aspose.com/words/net/learn-features-of-conversion-to-pdf-a-pdf-ua/)描述哪個PDF標準以及與PDF標準相關的ISO以支援Aspose.Words
-"-該文章 [Which PDF Standard Is Better to Choose](https://docs.aspose.com/words/net/which-pdf-standard-is-better-to-choose/) 來決定哪些 PDF 標準對哪些案例有意義。"
+-該文章[Learn Features of Conversion to PDF/A and PDF/UA](/words/net/learn-features-of-conversion-to-pdf-a-pdf-ua/)描述哪個PDF標準以及與PDF標準相關的ISO以支援Aspose.Words
+"-該文章 [Which PDF Standard Is Better to Choose](/words/net/which-pdf-standard-is-better-to-choose/) 來決定哪些 PDF 標準對哪些案例有意義。"
 
-- 文章 [Working with PDF/A or PDF/UA](https://docs.aspose.com/words/net/working-with-pdfa-or-pdfua/) 描述 PDF/A 和 PDF/UA 格式的文件內容要求 - 主要為結構和字體的要求"。
+- 文章 [Working with PDF/A or PDF/UA](/words/net/working-with-pdfa-or-pdfua/) 描述 PDF/A 和 PDF/UA 格式的文件內容要求 - 主要為結構和字體的要求"。
 
-「-文章 [Accessibility Issue Warnings When Saving to PDF/A and PDF/UA](https://docs.aspose.com/words/net/warnings-when-saving-to-pdfa-and-pdfua/) 描述了 PDF/A 和 PDF/UA 的內容存取要求」
+「-文章 [Accessibility Issue Warnings When Saving to PDF/A and PDF/UA](/words/net/warnings-when-saving-to-pdfa-and-pdfua/) 描述了 PDF/A 和 PDF/UA 的內容存取要求」

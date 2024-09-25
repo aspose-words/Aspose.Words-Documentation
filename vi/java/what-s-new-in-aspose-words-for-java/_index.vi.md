@@ -333,13 +333,13 @@ Các phương pháp mới LowCode có ý định hợp nhất các loại tài l
 
 {{% alert color="primary" %}}
 
-Học thêm về [Aspose.Words for Java 23.5 Release Notes](/words/java/aspose-words-for-java-23-5-release-notes/).
+Học thêm về [Aspose.Words for Java 23.5 Release Notes](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-5-release-notes/).
 
 Học thêm về [Aspose.Words for Java 23.6 Release Notes](/words/java/aspose-words-for-java-23-6-release-notes/).
 
-Học thêm về "[Aspose.Words for Java 23.7 Release Notes](/words/java/aspose-words-for-java-23-7-release-notes/)".
+Học thêm về "[Aspose.Words for Java 23.7 Release Notes](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-7-release-notes/)".
 
-Học thêm về [Aspose.Words for Java 23.8 Release Notes](/words/java/aspose-words-for-java-23-8-release-notes/).
+Học thêm về [Aspose.Words for Java 23.8 Release Notes](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-8-release-notes/).
 
 {{% /alert %}}
 
@@ -421,11 +421,11 @@ Một cách đơn giản để làm việc với các chuỗi và trục của b
 
 {{% alert color="primary" %}}
 
-Tìm hiểu thêm về [Aspose.Words for Java 23.1 Release Notes](/words/java/aspose-words-for-java-23-1-release-notes/).
+Tìm hiểu thêm về [Aspose.Words for Java 23.1 Release Notes](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-1-release-notes/).
 
 Học thêm về [Aspose.Words for Java 23.2 Release Notes](/words/java/aspose-words-for-java-23-2-release-notes/).
 
-Học thêm về [Aspose.Words for Java 23.3 Release Notes](/words/java/aspose-words-for-java-23-3-release-notes/).
+Học thêm về [Aspose.Words for Java 23.3 Release Notes](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-3-release-notes/).
 
 Học thêm về [Aspose.Words for Java 23.4 Release Notes](/words/java/aspose-words-for-java-23-4-release-notes/).
 
@@ -497,7 +497,7 @@ Tùy chọn khả năng bỏ qua [StructuredDocumentTag](https://reference.aspos
 
 Học thêm về [Aspose.Words for Java 22.9 Release Notes](/words/java/aspose-words-for-java-22-9-release-notes/).
 
-Học thêm về [Aspose.Words for Java 22.10 Release Notes](/words/java/aspose-words-for-java-22-10-release-notes/).
+Học thêm về [Aspose.Words for Java 22.10 Release Notes](https://releases.aspose.com/words/java/release-notes/2022/aspose-words-for-java-22-10-release-notes/).
 
 Học thêm về [Aspose.Words for Java 22.11 Release Notes](/words/java/aspose-words-for-java-22-11-release-notes/).
 
@@ -509,6 +509,6 @@ Học thêm về [Aspose.Words for Java 22.12 Release Notes](/words/java/aspose-
 
 {{% alert color="primary" %}}
 
-Trang này chứa tin tức mới nhất về bản phát hành trong 2 năm qua. Để chi tiết về các lần phát hành trước đó, hãy xem [Release Notes'](/words/java/release-notes/) trang trong các phần liên quan.
+Trang này chứa tin tức mới nhất về bản phát hành trong 2 năm qua. Để chi tiết về các lần phát hành trước đó, hãy xem [Release Notes'](https://releases.aspose.com/words/java/release-notes/) trang trong các phần liên quan.
 
 {{% /alert %}}

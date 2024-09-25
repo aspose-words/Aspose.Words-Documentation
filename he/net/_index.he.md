@@ -64,8 +64,8 @@ Aspose.Words תומך ברוב פורמטי המסמך הפופולריים כג
 			<ul>
 				<li><a href="/words/he/net/loading-saving-and-converting/">טעינה, לחסוך ולהמיר</a></li>
 				<li><a href="/words/he/net/rendering/">Rendering</a></li>
-				<li><a href="https://docs.aspose.com/words/net/mail-merge-and-reporting/">Mail Merge דיווח ו</a></li>
-				<li><a href="https://docs.aspose.com/words/net/linq-reporting-engine/">LINQ דיווח על מנוע</a></li>
+				<li><a href="/words/net/mail-merge-and-reporting/">Mail Merge דיווח ו</a></li>
+				<li><a href="/words/net/linq-reporting-engine/">LINQ דיווח על מנוע</a></li>
 				<li><a href="/words/he/net/print-a-document-programmatically-or-using-dialogs/">הדפסה מסמך מתודולוגיה או שימוש באבחון</a></li>
 				<li><a href="/words/he/net/programming-with-documents/">תכנות עם מסמכים</a></li>
 				<li><a href="https://reference.aspose.com/words/net">Aspose.Words עבור .NET API Reference מדריך</a></li>

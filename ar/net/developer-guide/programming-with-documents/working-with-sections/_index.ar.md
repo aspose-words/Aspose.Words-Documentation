@@ -153,6 +153,6 @@ url: /ar/net/working-with-sections/
 
 ## أنظر أيضا
 
-* [المستويات المنطقية للعقد في المستند](https://docs.aspose.com/words/net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
+* [المستويات المنطقية للعقد في المستند](/words/net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
 * [إدراج وإلحاق المستندات](/words/ar/net/insert-and-append-documents/)
 
