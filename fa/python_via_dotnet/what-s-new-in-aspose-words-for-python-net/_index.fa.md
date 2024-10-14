@@ -11,37 +11,60 @@ url: /fa/python-net/what-s-new-in-aspose-words-for-python-net/
 
 این صفحه جالب ترین ویژگی های جدید Aspose.Words معرفی شده در نسخه های اخیر را شرح می دهد.
 
-## Aspose.Words برای پایتون از طریق .NET 24.9
+## Aspose.Words برای پایتون از طریق .NET 24.9, 24.10
 
 Aspose.Words 24.9 درج شکل گروه و درج StructuredDocumentTag را از طریق DocumentBuilder معرفی می‌کند، رندر نمودار شعاعی را با درجه‌بندی بهبود می‌بخشد، امضاهای دیجیتال را با پشتیبانی XAdES-EPES بهبود می‌بخشد، تشخیص زیر خط Markdown را اضافه می‌کند و دسترسی به جداکننده‌های پانوشت/پایان را فراهم می‌کند.
 
+Aspose.Words 24.10 پشتیبانی از کنترل فعال ActiveX را با ایجاد CommandButton، کنترل دید شکل جدید، توانایی گروه بندی اشکال، صادرات Markdown بهبود یافته برای جداول، قالب بندی نمودار برای نمودارهای Pie و Donut، مدیریت بهتر کدگذاری Big5 و پشتیبانی از فونت های قدیمی تایوانی را معرفی می کند.
+
 ### رندر و چاپ
 
-#### فارغ التحصیلی در نمودارهای شعاعی
+#### فارغ التحصیلی در نمودارهای شعاعی <sup>24.9</sup>
 
 رندر فارغ التحصیلی بر روی نمودارهای شعاعی اجرا شده است.
 
+#### CommandButton ActiveX Controls <sup>24.10</sup>
+
+توانایی ایجاد کنترل‌های CommandButton ActiveX با افزودن یک متد عمومی جدید [insert_forms_2_ole_control](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_forms_2_ole_control/) و یک کلاس عمومی جدید [Forms2OleControl](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/) معرفی شده است.
+
+#### کنترل شکل مشاهده <sup>24.10</sup>
+
+یک ویژگی عمومی جدید [hidden](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/hidden/) برای کنترل نمایان بودن اشکال اضافه شده است.
+
+#### تغییرات در نمودارهای پای و دونات <sup>24.10</sup>
+
+چندین ویژگی عمومی جدید برای قالب بندی نمودارهای Pie و Donut اضافه شده است.
+
 ### تبدیل، بارگیری و ذخیره اسناد
 
-#### هنگام بارگیری فایل‌های Markdown، زیر قالب‌بندی خط بکشید
+#### هنگام بارگیری فایل‌های Markdown، زیر قالب‌بندی خط بکشید <sup>24.9</sup>
 
-گزینه تشخیص قالب بندی زیرخط هنگام بارگیری اسناد Markdown با افزودن یک ویژگی عمومی جدید [ImportUnderlineFormatting] () گنجانده شده است.
+گزینه تشخیص قالب بندی زیرخط هنگام بارگیری اسناد Markdown با افزودن یک ویژگی عمومی جدید [ImportUnderlineFormatting]() گنجانده شده است.
+
+#### صادر کردن جداول به صورت HTML هنگام ذخیره در Markdown <sup>24.10</sup>
+
+با افزودن یک ویژگی عمومی جدید [export_as_html](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/export_as_html/) و یک شمارش [MarkdownExportAsHtml](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownexportashtml/) گزینه ای برای صادر کردن جداول به عنوان HTML هنگام ذخیره اسناد به فرمت Markdown اجرا شده است.
 
 ### امضاهای دیجیتال
 
-#### اسناد را با XAdES-EPES امضا کنید
+#### اسناد را با XAdES-EPES امضا کنید <sup>24.9</sup>
 
 توانایی امضای اسناد با امضاهای XML-DSig سطح XAdES-EPES با افزودن یک ویژگی عمومی جدید [xml_dsig_level](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/signoptions/xml_dsig_level/) و یک شمارش عمومی جدید [XmlDsigLevel](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/xmldsiglevel/) معرفی شده است.
 
 ### دیگر
 
-* یک روش عمومی جدید [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/) به اشکال گروه اضافه شده است.
-* یک روش عمومی جدید [insert_structured_document_tag](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_structured_document_tag/) برای درج **StructuredDocumentTags** در یک سند اضافه شده است.
-* دسترسی عمومی به جداکننده‌های پاورقی/پایان با افزودن چند کلاس و ویژگی عمومی فراهم شده است.
+* یک روش عمومی جدید [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/) به اشکال گروه اضافه شده است. <sup>24.9</sup>
+* یک روش عمومی جدید [insert_structured_document_tag](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_structured_document_tag/) برای درج **StructuredDocumentTags** در یک سند اضافه شده است. <sup>24.9</sup>
+* دسترسی عمومی به جداکننده‌های پاورقی/پایان با افزودن چند کلاس و ویژگی عمومی فراهم شده است. <sup>24.9</sup>
+* امکان گروه بندی اشکال فردی، گروه بندی اشکال با هم و گروه بندی مستقیم هر دو شکل و اشکال گروهی با افزودن متد [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/#float_float_float_float_shapebaselist) معرفی شده است. <sup>24.10</sup>
+* مدیریت رمزگذاری Big5 برای جداول cmap TrueType بهبود یافته است. <sup>24.10</sup>
+* پشتیبانی از فونت های قدیمی تایوانی افزایش یافته است. <sup>24.10</sup>
 
 {{% alert color="primary" %}}
 
 درباره [یادداشت‌های انتشار Aspose.Words برای Python via .NET 24.9](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-9-release-notes/) بیشتر بدانید.
+
+درباره [یادداشت‌های انتشار Aspose.Words برای Python via .NET 24.10](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-10-release-notes/) بیشتر بدانید.
 
 {{% /alert %}}
 

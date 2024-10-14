@@ -11,37 +11,60 @@ url: /it/java/what-s-new-in-aspose-words-for-java/
 
 Questa pagina descrive il nuovo più interessante Aspose.Words caratteristiche introdotte nelle versioni recenti.
 
-## Aspose.Words per Java 24.9
+## Aspose.Words per Java 24.9, 24.10
 
 Aspose.Words 24.9 introduce l'inserimento di forme di gruppo e l'inserimento di StructuredDocumentTag tramite DocumentBuilder, migliora il rendering dei grafici radiali con graduazioni, migliora le firme digitali con il supporto XAdES-EPES, aggiunge il riconoscimento della sottolineatura Markdown e fornisce l'accesso ai separatori di note a piè di pagina/note di chiusura.
 
+Aspose.Words 24.10 introduce un supporto avanzato per i controlli ActiveX con la creazione di CommandButton, un nuovo controllo della visibilità delle forme, la possibilità di raggruppare le forme, un'esportazione Markdown migliorata per le tabelle, la formattazione dei grafici per i grafici a torta e ad anello, una migliore gestione della codifica Big5 e il supporto per i font taiwanesi obsoleti.
+
 ### Rendering e stampa
 
-#### Graduazioni sui grafici radiali
+#### Graduazioni sui grafici radiali <sup>24.9</sup>
 
 È stato implementato il rendering delle graduazioni sui grafici radiali.
 
+#### Controlli ActiveX CommandButton <sup>24.10</sup>
+
+La possibilità di creare controlli ActiveX CommandButton è stata introdotta aggiungendo un nuovo metodo pubblico [InsertForms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertForms2OleControl-com.aspose.words.Forms2OleControl) e una nuova classe pubblica [Forms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/).
+
+#### Visibilità delle forme di controllo <sup>24.10</sup>
+
+È stata aggiunta una nuova proprietà pubblica [Hidden](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getHidden) per controllare la visibilità delle forme.
+
+#### Modifiche nei grafici a torta e ad anello <sup>24.10</sup>
+
+Sono state aggiunte diverse nuove proprietà pubbliche per formattare i grafici a torta e ad anello.
+
 ### Conversione, caricamento e salvataggio di documenti
 
-#### Formattazione sottolineata durante il caricamento di file Markdown
+#### Formattazione sottolineata durante il caricamento di file Markdown <sup>24.9</sup>
 
 L'opzione per riconoscere la formattazione sottolineata durante il caricamento di documenti Markdown è stata incorporata aggiungendo una nuova proprietà pubblica [ImportUnderlineFormatting](https://reference.aspose.com/words/java/com.aspose.words/markdownloadoptions/#getImportUnderlineFormatting).
 
+#### Esportazione delle tabelle come HTML durante il salvataggio in Markdown <sup>24.10</sup>
+
+È stata implementata un'opzione per esportare le tabelle come HTML durante il salvataggio dei documenti in formato Markdown aggiungendo una nuova proprietà pubblica [ExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getExportAsHtml) e un'enumerazione [MarkdownExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownexportashtml/).
+
 ### Firme digitali
 
-#### Firma documenti con XAdES-EPES
+#### Firma documenti con XAdES-EPES <sup>24.9</sup>
 
 La possibilità di firmare documenti con firme XML-DSig di livello XAdES-EPES è stata introdotta aggiungendo una nuova proprietà pubblica [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/signoptions/#getXmlDsigLevel) e una nuova enumerazione pubblica [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/xmldsiglevel/)
 
 ### Altro
 
-* Un nuovo metodo pubblico [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-com.aspose.words.Shape...) è stato aggiunto alle forme di gruppo.
-* Un nuovo metodo pubblico [InsertStructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertStructuredDocumentTag-int) è stato aggiunto per inserire **StructuredDocumentTags** in un documento.
-* L'accesso pubblico ai separatori di note a piè di pagina/note di chiusura è stato fornito aggiungendo alcune classi e proprietà pubbliche.
+* Un nuovo metodo pubblico [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-com.aspose.words.Shape...) è stato aggiunto alle forme di gruppo. <sup>24.9</sup>
+* Un nuovo metodo pubblico [InsertStructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertStructuredDocumentTag-int) è stato aggiunto per inserire **StructuredDocumentTags** in un documento. <sup>24.9</sup>
+* L'accesso pubblico ai separatori di note a piè di pagina/note di chiusura è stato fornito aggiungendo alcune classi e proprietà pubbliche. <sup>24.9</sup>
+* È stata introdotta la possibilità di raggruppare singole forme, raggruppare forme insieme e raggruppare direttamente sia forme che gruppi di forme aggiungendo il metodo [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-double-double-double-double-com.aspose.words.ShapeBase...). <sup>24.10</sup>
+* È stata migliorata la gestione della codifica Big5 per le tabelle cmap TrueType. <sup>24.10</sup>
+* È stato migliorato il supporto per i font taiwanesi obsoleti. <sup>24.10</sup>
 
 {{% alert color="primary" %}}
 
 Ulteriori informazioni sulle [Note sulla versione di Aspose.Words per Java 24.9](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/).
+
+Ulteriori informazioni sulle [Note sulla versione di Aspose.Words per Java 24.10](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-10-release-notes/).
 
 {{% /alert %}}
 

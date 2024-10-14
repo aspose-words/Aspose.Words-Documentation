@@ -11,37 +11,60 @@ url: /ko/java/what-s-new-in-aspose-words-for-java/
 
 이 페이지는 가장 흥미로운 새로운 설명 Aspose.Words 최근 출시된 기능.
 
-## Aspose.Words 제품정보 Java 24.9
+## Aspose.Words 제품정보 Java 24.9, 24.10
 
 Aspose.Words 24.9는 DocumentBuilder를 통한 그룹 모양 삽입 및 StructuredDocumentTag 삽입을 도입하고, 그라데이션을 사용하여 방사형 차트 렌더링을 개선하고, XAdES-EPES 지원을 통해 디지털 서명을 개선하고, Markdown 밑줄 인식을 추가하고, 각주/미주 구분 기호에 대한 액세스를 제공합니다.
 
+Aspose.Words 24.10에서는 CommandButton 생성, 새로운 모양 가시성 제어, 모양 그룹화 기능, 표에 대한 개선된 Markdown 내보내기, 파이 및 도넛 차트에 대한 차트 서식 지정, 더 나은 Big5 인코딩 처리, 오래된 대만어 글꼴 지원과 같은 향상된 ActiveX 컨트롤 지원이 도입되었습니다.
+
 ### 렌더링 및 인쇄
 
-#### 방사형 차트의 그라데이션
+#### 방사형 차트의 그라데이션 <sup>24.9</sup>
 
 방사형 차트의 그라데이션 렌더링이 구현되었습니다.
 
+#### CommandButton ActiveX 컨트롤 <sup>24.10</sup>
+
+새로운 공개 메서드 [InsertForms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertForms2OleControl-com.aspose.words.Forms2OleControl)과 새로운 공개 클래스 [Forms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/)를 추가하여 CommandButton ActiveX 컨트롤을 만드는 기능이 도입되었습니다.
+
+#### 컨트롤 모양 가시성 <sup>24.10</sup>
+
+모양의 가시성을 제어하기 위해 새로운 공개 속성 [Hidden](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getHidden)이 추가되었습니다.
+
+#### 파이 및 도넛 차트의 변경 사항 <sup>24.10</sup>
+
+파이 및 도넛 차트를 포맷하기 위해 여러 개의 새로운 공개 속성이 추가되었습니다.
+
 ### 문서 변환, 로드 및 저장
 
-#### Markdown 파일을 로드할 때 밑줄 서식 지정
+#### Markdown 파일을 로드할 때 밑줄 서식 지정 <sup>24.9</sup>
 
 Markdown 문서를 로드할 때 밑줄 서식을 인식하는 옵션은 새로운 공개 속성 [ImportUnderlineFormatting](https://reference.aspose.com/words/java/com.aspose.words/markdownloadoptions/#getImportUnderlineFormatting)을 추가하여 통합되었습니다.
 
+#### 마크다운으로 저장할 때 HTML로 테이블 내보내기 <sup>24.10</sup>
+
+문서를 마크다운 포맷으로 저장할 때 HTML로 테이블을 내보내는 옵션은 새로운 공개 속성 [ExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getExportAsHtml)과 열거형 [MarkdownExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownexportashtml/)을 추가하여 구현되었습니다.
+
 ### 디지털 서명
 
-#### XAdES-EPES로 문서 서명
+#### XAdES-EPES로 문서 서명 <sup>24.9</sup>
 
 XAdES-EPES 수준 XML-DSig 서명으로 문서에 서명하는 기능은 새로운 공개 속성 [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/signoptions/#getXmlDsigLevel)과 새로운 공개 열거형 [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/xmldsiglevel/)을 추가하여 도입되었습니다.
 
 ### 기타
 
-* 새로운 공개 메서드 [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-com.aspose.words.Shape...)가 셰이프를 그룹화하는 데 추가되었습니다.
-* 새로운 공개 메서드 [InsertStructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertStructuredDocumentTag-int)가 문서에 **StructuredDocumentTags**를 삽입하는 데 추가되었습니다.
-* 몇 가지 공개 클래스와 속성을 추가하여 각주/미주 구분 기호에 대한 공개 액세스가 제공되었습니다.
+* 새로운 공개 메서드 [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-com.aspose.words.Shape...)가 셰이프를 그룹화하는 데 추가되었습니다. <sup>24.9</sup>
+* 새로운 공개 메서드 [InsertStructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertStructuredDocumentTag-int)가 문서에 **StructuredDocumentTags**를 삽입하는 데 추가되었습니다. <sup>24.9</sup>
+* 몇 가지 공개 클래스와 속성을 추가하여 각주/미주 구분 기호에 대한 공개 액세스가 제공되었습니다. <sup>24.9</sup>
+* 개별 도형을 그룹화하고, 도형을 함께 그룹화하고, 도형과 도형을 모두 직접 그룹화하는 기능은 [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-double-double-double-double-com.aspose.words.ShapeBase...) 메서드를 추가하여 도입되었습니다. <sup>24.10</sup>
+* TrueType cmap 테이블에 대한 Big5 인코딩 처리가 개선되었습니다. <sup>24.10</sup>
+* 오래된 대만어 글꼴에 대한 지원이 향상되었습니다. <sup>24.10</sup>
 
 {{% alert color="primary" %}}
 
 [Aspose.Words for Java 24.9 릴리스 노트](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/) 에 대해 자세히 알아보세요.
+
+[Aspose.Words for Java 24.10 릴리스 노트](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-10-release-notes/) 에 대해 자세히 알아보세요.
 
 {{% /alert %}}
 

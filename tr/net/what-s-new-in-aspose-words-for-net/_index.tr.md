@@ -11,37 +11,60 @@ url: /tr/net/what-s-new-in-aspose-words-for-net/
 
 Bu sayfada son sürümlerde tanıtılan en ilginç yeni Aspose.Words özellikleri açıklanmaktadır.
 
-## Aspose.Words for .NET 24.9
+## Aspose.Words for .NET 24.9, 24.10
 
 Aspose.Words 24.9, DocumentBuilder aracılığıyla grup şekli ekleme ve StructuredDocumentTag eklemeyi sunar, derecelendirmelerle radyal grafik oluşturmayı geliştirir, XAdES-EPES desteğiyle dijital imzaları iyileştirir, Markdown alt çizgi tanıma ekler ve dipnot/sonnot ayırıcılarına erişim sağlar.
 
+Aspose.Words 24.10, CommandButton oluşturma, yeni şekil görünürlük denetimi, şekilleri gruplama yeteneği, tablolar için geliştirilmiş Markdown dışa aktarma, Pasta ve Çörek grafikleri için grafik biçimlendirme, daha iyi Big5 kodlama işleme ve güncel olmayan Tayvan yazı tipleri için destek ile gelişmiş ActiveX denetim desteği sunar.
+
 ### Oluşturma ve Yazdırma
 
-#### Radyal Grafiklerde Derecelendirmeler
+#### Radyal Grafiklerde Derecelendirmeler <sup>24.9</sup>
 
 Radyal grafiklerde derecelendirmelerin oluşturulması uygulandı.
 
+#### CommandButton ActiveX Denetimleri <sup>24.10</sup>
+
+CommandButton ActiveX denetimleri oluşturma yeteneği, yeni bir genel yöntem [InsertForms2OleControl](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertforms2olecontrol/) ve yeni bir genel sınıf [Forms2OleControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/forms2olecontrol/) eklenerek tanıtıldı.
+
+#### Şekil Görünürlüğünü Kontrol Et <sup>24.10</sup>
+
+Şekillerin görünürlüğünü kontrol etmek için yeni bir genel özellik [Hidden](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/hidden/) eklendi.
+
+#### Pasta ve Halka Grafiklerindeki Değişiklikler <sup>24.10</sup>
+
+Pasta ve Halka grafiklerini biçimlendirmek için birkaç yeni genel özellik eklendi.
+
 ### Belgeleri Dönüştürme, Yükleme ve Kaydetme
 
-#### Markdown Dosyaları Yüklenirken Alt Çizgi Biçimlendirme
+#### Markdown Dosyaları Yüklenirken Alt Çizgi Biçimlendirme <sup>24.9</sup>
 
 Markdown belgeleri yüklenirken alt çizgi biçimlendirmesini tanıma seçeneği, yeni bir genel özellik [ImportUnderlineFormatting](https://reference.aspose.com/words/net/aspose.words.loading/markdownloadoptions/importunderlineformatting/) eklenerek dahil edildi.
 
+#### Markdown'a kaydederken tabloları HTML olarak dışa aktarma <sup>24.10</sup>
+
+Belgeleri Markdown biçimine kaydederken tabloları HTML olarak dışa aktarma seçeneği, yeni bir genel özellik [ExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/exportashtml/) ve bir numaralandırma [MarkdownExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownexportashtml/) eklenerek uygulandı.
+
 ### Dijital İmzalar
 
-#### Belgeleri XAdES-EPES ile İmzala
+#### Belgeleri XAdES-EPES ile İmzala <sup>24.9</sup>
 
 Belgeleri XAdES-EPES düzeyinde XML-DSig imzalarıyla imzalama yeteneği, yeni bir genel özellik [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions/xmldsiglevel/) ve yeni bir genel numaralandırma [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/xmldsiglevel/) eklenerek tanıtıldı.
 
 ### Diğer
 
-* Grup şekillerine yeni bir genel yöntem [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/) eklendi.
-* Bir belgeye **StructuredDocumentTags** eklemek için yeni bir genel yöntem [InsertStructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertstructureddocumenttag/) eklendi.
-* Birkaç genel sınıf ve özellik eklenerek dipnot/sonnot ayırıcılarına genel erişim sağlandı.
+* Grup şekillerine yeni bir genel yöntem [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/) eklendi. <sup>24.9</sup>
+* Bir belgeye **StructuredDocumentTags** eklemek için yeni bir genel yöntem [InsertStructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertstructureddocumenttag/) eklendi. <sup>24.9</sup>
+* Birkaç genel sınıf ve özellik eklenerek dipnot/sonnot ayırıcılarına genel erişim sağlandı. <sup>24.9</sup>
+* Tek tek şekilleri gruplama, şekilleri birlikte gruplama ve her iki şekli ve grup şekillerini doğrudan gruplama yeteneği, [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/#insertgroupshape_1) yönteminin eklenmesiyle tanıtıldı. <sup>24.10</sup>
+* TrueType cmap tabloları için Big5 kodlama işleme geliştirildi. <sup>24.10</sup>
+* Güncel olmayan Tayvan yazı tipleri için destek geliştirildi. <sup>24.10</sup>
 
 {{% alert color="primary" %}}
 
 [.NET 24.9 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-9-release-notes/) hakkında daha fazla bilgi edinin.
+
+[.NET 24.10 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-10-release-notes/) hakkında daha fazla bilgi edinin.
 
 {{% /alert %}}
 
@@ -87,7 +110,7 @@ Sürüm 24.7'den başlayarak, engelli kullanıcıların erişilebilirliğini sa�
 
 [CustomNumberStyleFormat](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/customnumberstyleformat/) genel özelliği için bir ayarlayıcı eklendi. Artık liste düzeyleri için özel bir sayı stili tanımlayabilirsiniz.
 
-#### ActiveX <sup>24.7</sup> ile çalışmadaki değişiklikler
+#### ActiveX ile çalışmadaki değişiklikler <sup>24.7</sup>
 
 * ActiveX nesnelerinin özellikleri artık değiştirilebilir, böylece davranışları üzerinde daha fazla kontrol sahibi olursunuz.
 * Dinamik etkileşimi etkinleştirmek için radyo düğmesi ActiveX kontrolünün değerini değiştirme yeteneği eklendi.

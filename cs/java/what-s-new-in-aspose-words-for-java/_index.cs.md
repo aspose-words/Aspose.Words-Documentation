@@ -11,37 +11,60 @@ url: /cs/java/what-s-new-in-aspose-words-for-java/
 
 Tato stránka popisuje nejzajímavější nové Aspose.Words funkce zavedené v nedávných vydáních.
 
-## Aspose.Words pro Java 24.9
+## Aspose.Words pro Java 24.9, 24.10
 
 Aspose.Words 24.9 zavádí vkládání tvarů skupiny a vkládání StructuredDocumentTag prostřednictvím DocumentBuilderu, vylepšuje vykreslování radiálních grafů pomocí gradací, zlepšuje digitální podpisy s podporou XAdES-EPES, přidává rozpoznávání podtržení Markdown a poskytuje přístup k oddělovačům poznámek pod čarou/vysvětlivky.
 
+Aspose.Words 24.10 zavádí vylepšenou podporu ovládacích prvků ActiveX s vytvářením CommandButton, nové ovládání viditelnosti tvarů, možnost seskupovat tvary, vylepšený export Markdown pro tabulky, formátování grafů pro koláčové a prstencové grafy, lepší manipulaci s kódováním Big5 a podporu zastaralých tchajwanských písem.
+
 ### Vykreslování a tisk
 
-#### Promoce na radiálních grafech
+#### Promoce na radiálních grafech <sup>24.9</sup>
 
 Bylo implementováno vykreslování stupnice na radiálních mapách.
 
+#### Ovládací prvky ActiveX CommandButton <sup>24.10</sup>
+
+Schopnost vytvářet ovládací prvky ActiveX CommandButton byla zavedena přidáním nové veřejné metody [InsertForms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertForms2OleControl-com.aspose.words.Forms2OleControl) a nové veřejné třídy [Forms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/).
+
+#### Kontrola viditelnosti tvaru <sup>24.10</sup>
+
+Byla přidána nová veřejná vlastnost [Hidden](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getHidden) pro ovládání viditelnosti tvarů.
+
+#### Změny v koláčových a prstencových grafech <sup>24.10</sup>
+
+K formátování výsečových a prstencových grafů bylo přidáno několik nových veřejných vlastností.
+
 ### Konverze, načítání a ukládání dokumentů
 
-#### Při načítání souborů Markdown podtrhněte formátování
+#### Při načítání souborů Markdown podtrhněte formátování <sup>24.9</sup>
 
 Možnost rozpoznat podtržené formátování při načítání dokumentů Markdown byla začleněna přidáním nové veřejné vlastnosti [ImportUnderlineFormatting](https://reference.aspose.com/words/java/com.aspose.words/markdownloadoptions/#getImportUnderlineFormatting).
 
+#### Export tabulek jako HTML při ukládání do Markdown <sup>24.10</sup>
+
+Možnost exportovat tabulky jako HTML při ukládání dokumentů do formátu Markdown byla implementována přidáním nové veřejné vlastnosti [ExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getExportAsHtml) a výčtu [MarkdownExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownexportashtml/).
+
 ### Digitální podpisy
 
-#### Podepisujte dokumenty pomocí XAdES-EPES
+#### Podepisujte dokumenty pomocí XAdES-EPES <sup>24.9</sup>
 
 Schopnost podepisovat dokumenty pomocí podpisů XML-DSig na úrovni XAdES-EPES byla zavedena přidáním nové veřejné vlastnosti [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/signoptions/#getXmlDsigLevel) a nového veřejného výčtu [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/xmldsiglevel/)
 
 ### Jiné
 
-* Ke skupinovým tvarům byla přidána nová veřejná metoda [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-com.aspose.words.Shape...).
-* Byla přidána nová veřejná metoda [InsertStructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertStructuredDocumentTag-int) pro vkládání **StructuredDocumentTags** do dokumentu.
-* Veřejný přístup k oddělovačům poznámek pod čarou/vysvětlivky byl poskytnut přidáním několika veřejných tříd a vlastností.
+* Ke skupinovým tvarům byla přidána nová veřejná metoda [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-com.aspose.words.Shape...). <sup>24.9</sup>
+* Byla přidána nová veřejná metoda [InsertStructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertStructuredDocumentTag-int) pro vkládání **StructuredDocumentTags** do dokumentu. <sup>24.9</sup>
+* Veřejný přístup k oddělovačům poznámek pod čarou/vysvětlivky byl poskytnut přidáním několika veřejných tříd a vlastností. <sup>24.9</sup>
+* Přidáním metody [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-double-double-double-double-com.aspose.words.ShapeBase...) byla zavedena možnost seskupovat jednotlivé tvary, seskupovat tvary a přímo seskupovat tvary i tvary skupin. <sup>24.10</sup>
+* Bylo vylepšeno zpracování kódování Big5 pro tabulky cmap TrueType. <sup>24.10</sup>
+* Byla vylepšena podpora zastaralých tchajwanských písem. <sup>24.10</sup>
 
 {{% alert color="primary" %}}
 
 Další informace o [Aspose.Words for Java 24.9 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/).
+
+Další informace o [Aspose.Words for Java 24.10 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-10-release-notes/)
 
 {{% /alert %}}
 

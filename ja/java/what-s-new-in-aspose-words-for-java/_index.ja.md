@@ -11,37 +11,60 @@ url: /ja/java/what-s-new-in-aspose-words-for-java/
 
 このページでは、最も興味深い新しいものについて説明します Aspose.Words 最近のリリースで導入された機能。
 
-## Aspose.Words for Java 24.9
+## Aspose.Words for Java 24.9、24.10
 
 Aspose.Words 24.9 では、DocumentBuilder 経由のグループ シェイプの挿入と StructuredDocumentTag の挿入が導入され、目盛り付きの放射状グラフのレンダリングが強化され、XAdES-EPES サポートによるデジタル署名が改善され、Markdown の下線認識が追加され、脚注/文末脚注のセパレーターへのアクセスが提供されます。
 
+Aspose.Words 24.10 では、コマンド ボタンの作成、新しい図形の表示コントロール、図形のグループ化機能、表の Markdown エクスポートの改善、円グラフとドーナツ グラフのグラフ書式設定、Big5 エンコード処理の改善、古い台湾フォントのサポートなど、ActiveX コントロールのサポートが強化されています。
+
 ### レンダリングと印刷
 
-#### 放射状グラフの目盛り
+#### 放射状グラフの目盛り <sup>24.9</sup>
 
 放射状グラフの目盛りのレンダリングが実装されました。
 
+#### コマンド ボタン ActiveX コントロール <sup>24.10</sup>
+
+新しいパブリック メソッド [InsertForms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertForms2OleControl-com.aspose.words.Forms2OleControl) と新しいパブリック クラス [Forms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/) を追加することで、コマンド ボタン ActiveX コントロールを作成する機能が導入されました。
+
+#### 図形の表示のコントロール <sup>24.10</sup>
+
+図形の表示を制御するための新しいパブリック プロパティ [Hidden](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getHidden) が追加されました。
+
+#### 円グラフとドーナツ グラフの変更 <sup>24.10</sup>
+
+円グラフとドーナツ グラフの書式設定のために、いくつかの新しいパブリック プロパティが追加されました。
+
 ### ドキュメントの変換、読み込み、および保存
 
-#### Markdown ファイルの読み込み時の下線書式設定
+#### Markdown ファイルの読み込み時の下線書式設定 <sup>24.9</sup>
 
 Markdown ドキュメントの読み込み時に下線書式設定を認識するオプションが、新しいパブリック プロパティ [ImportUnderlineFormatting](https://reference.aspose.com/words/java/com.aspose.words/markdownloadoptions/#getImportUnderlineFormatting) の追加によって組み込まれました。
 
+#### Markdown に保存するときにテーブルを HTML としてエクスポートする <sup>24.10</sup>
+
+ドキュメントを Markdown 形式で保存するときにテーブルを HTML としてエクスポートするオプションが、新しいパブリック プロパティ [ExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getExportAsHtml) と列挙 [MarkdownExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownexportashtml/) を追加することで実装されました。
+
 ### デジタル署名
 
-#### XAdES-EPES でドキュメントに署名
+#### XAdES-EPES でドキュメントに署名 <sup>24.9</sup>
 
 新しいパブリック プロパティ [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/signoptions/#getXmlDsigLevel) と新しいパブリック列挙 [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/xmldsiglevel/) を追加することで、XAdES-EPES レベルの XML-DSig 署名でドキュメントに署名する機能が導入されました。
 
 ### その他
 
-* 図形をグループ化するための新しいパブリック メソッド [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-com.aspose.words.Shape...) が追加されました。
-* **StructuredDocumentTags** をドキュメントに挿入するための新しいパブリック メソッド [InsertStructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertStructuredDocumentTag-int) が追加されました。
-* いくつかのパブリック クラスとプロパティを追加することで、脚注/文末脚注セパレーターへのパブリック アクセスが提供されています。
+* 図形をグループ化するための新しいパブリック メソッド [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-com.aspose.words.Shape...) が追加されました。 <sup>24.9</sup>
+* **StructuredDocumentTags** をドキュメントに挿入するための新しいパブリック メソッド [InsertStructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertStructuredDocumentTag-int) が追加されました。 <sup>24.9</sup>
+* いくつかのパブリック クラスとプロパティを追加することで、脚注/文末脚注セパレーターへのパブリック アクセスが提供されています。 <sup>24.9</sup>
+* [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-double-double-double-double-com.aspose.words.ShapeBase...) メソッドを追加することで、個々の図形をグループ化する機能、図形をまとめてグループ化する機能、図形の両方を直接グループ化する機能、図形をグループ化する機能が導入されました。 <sup>24.10</sup>
+* TrueType cmap テーブルの Big5 エンコーディング処理が改善されました。 <sup>24.10</sup>
+* 古い台湾語フォントのサポートが強化されました。 <sup>24.10</sup>
 
 {{% alert color="primary" %}}
 
 [Aspose.Words for Java 24.9 リリース ノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/) の詳細をご覧ください。
+
+[Aspose.Words for Java 24.10 リリース ノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-10-release-notes/) の詳細をご覧ください。
 
 {{% /alert %}}
 

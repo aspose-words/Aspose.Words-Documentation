@@ -11,37 +11,60 @@ url: /ja/python-net/what-s-new-in-aspose-words-for-python-net/
 
 このページでは、最近のリリースで導入された最も興味深い新しい Aspose.Words 機能について説明します。
 
-## .NET 24.9 経由の Aspose.Words for Python
+## .NET 24.9、24.10 経由の Aspose.Words for Python
 
 Aspose.Words 24.9 では、DocumentBuilder 経由のグループ シェイプの挿入と StructuredDocumentTag の挿入が導入され、目盛り付きの放射状グラフのレンダリングが強化され、XAdES-EPES サポートによるデジタル署名が改善され、Markdown の下線認識が追加され、脚注/文末脚注のセパレーターへのアクセスが提供されます。
 
+Aspose.Words 24.10 では、コマンド ボタンの作成、新しい図形の表示コントロール、図形のグループ化機能、表の Markdown エクスポートの改善、円グラフとドーナツ グラフのグラフ書式設定、Big5 エンコード処理の改善、古い台湾フォントのサポートなど、ActiveX コントロールのサポートが強化されています。
+
 ### レンダリングと印刷
 
-#### 放射状グラフの目盛り
+#### 放射状グラフの目盛り <sup>24.9</sup>
 
 放射状グラフの目盛りのレンダリングが実装されました。
 
+#### コマンド ボタン ActiveX コントロール <sup>24.10</sup>
+
+新しいパブリック メソッド [insert_forms_2_ole_control](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_forms_2_ole_control/) と新しいパブリック クラス [Forms2OleControl](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/) を追加することで、コマンド ボタン ActiveX コントロールを作成する機能が導入されました。
+
+#### 図形の表示のコントロール <sup>24.10</sup>
+
+図形の表示を制御するための新しいパブリック プロパティ [hidden](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/hidden/) が追加されました。
+
+#### 円グラフとドーナツ グラフの変更 <sup>24.10</sup>
+
+円グラフとドーナツ グラフの書式設定のために、いくつかの新しいパブリック プロパティが追加されました。
+
 ### ドキュメントの変換、読み込み、および保存
 
-#### Markdown ファイルの読み込み時の下線書式設定
+#### Markdown ファイルの読み込み時の下線書式設定 <sup>24.9</sup>
 
 Markdown ドキュメントの読み込み時に下線書式設定を認識するオプションが、新しいパブリック プロパティ [import_underline_formatting property](https://reference.aspose.com/words/python-net/aspose.words.loading/markdownloadoptions/import_underline_formatting/) の追加によって組み込まれました。
 
+#### Markdown に保存するときにテーブルを HTML としてエクスポートする <sup>24.10</sup>
+
+ドキュメントを Markdown 形式で保存するときにテーブルを HTML としてエクスポートするオプションが、新しいパブリック プロパティ [export_as_html](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/export_as_html/) と列挙 [MarkdownExportAsHtml](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownexportashtml/) を追加することで実装されました。
+
 ### デジタル署名
 
-#### XAdES-EPES でドキュメントに署名
+#### XAdES-EPES でドキュメントに署名 <sup>24.9</sup>
 
 新しいパブリック プロパティ [xml_dsig_level](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/signoptions/xml_dsig_level/) と新しいパブリック列挙 [XmlDsigLevel](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/xmldsiglevel/) を追加することで、XAdES-EPES レベルの XML-DSig 署名でドキュメントに署名する機能が導入されました。
 
 ### その他
 
-* 図形をグループ化するための新しいパブリック メソッド [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/) が追加されました。
-* **StructuredDocumentTags** をドキュメントに挿入するための新しいパブリック メソッド [insert_structured_document_tag](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_structured_document_tag/) が追加されました。
-* いくつかのパブリック クラスとプロパティを追加することで、脚注/文末脚注セパレーターへのパブリック アクセスが提供されています。
+* 図形をグループ化するための新しいパブリック メソッド [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/) が追加されました。 <sup>24.9</sup>
+* **StructuredDocumentTags** をドキュメントに挿入するための新しいパブリック メソッド [insert_structured_document_tag](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_structured_document_tag/) が追加されました。 <sup>24.9</sup>
+* いくつかのパブリック クラスとプロパティを追加することで、脚注/文末脚注セパレーターへのパブリック アクセスが提供されています。 <sup>24.9</sup>
+* [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/#float_float_float_float_shapebaselist) メソッドを追加することで、個々の図形をグループ化する機能、図形をまとめてグループ化する機能、図形の両方を直接グループ化する機能、図形をグループ化する機能が導入されました。 <sup>24.10</sup>
+* TrueType cmap テーブルの Big5 エンコーディング処理が改善されました。 <sup>24.10</sup>
+* 古い台湾語フォントのサポートが強化されました。 <sup>24.10</sup>
 
 {{% alert color="primary" %}}
 
 [Aspose.Words for Python via .NET 24.9 リリースノート](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-9-release-notes/) について詳しくは、こちらをご覧ください。
+
+[Aspose.Words for Python via .NET 24.10 リリースノート](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-10-release-notes/) について詳しくは、こちらをご覧ください。
 
 {{% /alert %}}
 

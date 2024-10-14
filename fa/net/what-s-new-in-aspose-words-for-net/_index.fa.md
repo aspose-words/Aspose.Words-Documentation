@@ -11,37 +11,60 @@ url: /fa/net/what-s-new-in-aspose-words-for-net/
 
 این صفحه جالب ترین ویژگی های جدید Aspose.Words معرفی شده در نسخه های اخیر را شرح می دهد.
 
-## Aspose.Words برای .NET 24.9
+## Aspose.Words برای .NET 24.9, 24.10
 
 Aspose.Words 24.9 درج شکل گروه و درج StructuredDocumentTag را از طریق DocumentBuilder معرفی می‌کند، رندر نمودار شعاعی را با درجه‌بندی بهبود می‌بخشد، امضاهای دیجیتال را با پشتیبانی XAdES-EPES بهبود می‌بخشد، تشخیص زیر خط Markdown را اضافه می‌کند و دسترسی به جداکننده‌های پانوشت/پایان را فراهم می‌کند.
 
+Aspose.Words 24.10 پشتیبانی از کنترل فعال ActiveX را با ایجاد CommandButton، کنترل دید شکل جدید، توانایی گروه بندی اشکال، صادرات Markdown بهبود یافته برای جداول، قالب بندی نمودار برای نمودارهای Pie و Donut، مدیریت بهتر کدگذاری Big5 و پشتیبانی از فونت های قدیمی تایوانی را معرفی می کند.
+
 ### رندر و چاپ
 
-#### فارغ التحصیلی در نمودارهای شعاعی
+#### فارغ التحصیلی در نمودارهای شعاعی <sup>24.9</sup>
 
 رندر فارغ التحصیلی بر روی نمودارهای شعاعی اجرا شده است.
 
+#### CommandButton ActiveX Controls <sup>24.10</sup>
+
+توانایی ایجاد کنترل‌های CommandButton ActiveX با افزودن یک روش عمومی جدید [InsertForms2OleControl](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertforms2olecontrol/) و یک کلاس عمومی جدید [Forms2OleControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/forms2olecontrol/) معرفی شده است.
+
+#### کنترل شکل مشاهده <sup>24.10</sup>
+
+یک ویژگی عمومی جدید [Hidden](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/hidden/) برای کنترل نمایان بودن اشکال اضافه شده است.
+
+#### تغییرات در نمودارهای پای و دونات <sup>24.10</sup>
+
+چندین ویژگی عمومی جدید برای قالب بندی نمودارهای Pie و Donut اضافه شده است.
+
 ### تبدیل، بارگیری و ذخیره اسناد
 
-#### هنگام بارگیری فایل‌های Markdown، زیر قالب‌بندی خط بکشید
+#### هنگام بارگیری فایل‌های Markdown، زیر قالب‌بندی خط بکشید <sup>24.9</sup>
 
-گزینه تشخیص قالب‌بندی زیرخط هنگام بارگیری اسناد Markdown با افزودن یک ویژگی عمومی جدید [ImportUnderlineFormatting] (https://reference.aspose.com/words/net/aspose.words.loading/markdownloadoptions/importunderlineformatting/) گنجانده شده است.
+گزینه تشخیص قالب‌بندی زیرخط هنگام بارگیری اسناد Markdown با افزودن یک ویژگی عمومی جدید [ImportUnderlineFormatting](https://reference.aspose.com/words/net/aspose.words.loading/markdownloadoptions/importunderlineformatting/) گنجانده شده است.
+
+#### صادر کردن جداول به صورت HTML هنگام ذخیره در Markdown <sup>24.10</sup>
+
+با افزودن یک ویژگی عمومی جدید [ExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/exportashtml/) گزینه ای برای صادر کردن جداول به عنوان HTML هنگام ذخیره اسناد به فرمت Markdown اجرا شده است.  و یک شمارش [MarkdownExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownexportashtml/).
 
 ### امضاهای دیجیتال
 
-#### اسناد را با XAdES-EPES امضا کنید
+#### اسناد را با XAdES-EPES امضا کنید <sup>24.9</sup>
 
 قابلیت امضای اسناد با امضاهای XML-DSig سطح XAdES-EPES با افزودن یک ویژگی عمومی جدید [XmlDsigLevel] (https://reference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions/xmldsiglevel/) معرفی شده است.  و یک شمارش عمومی جدید [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/xmldsiglevel/).
 
 ### دیگر
 
-* یک روش عمومی جدید [InsertGroupShape] (https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/) به اشکال گروه اضافه شده است.
-* یک روش عمومی جدید [InsertStructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertstructureddocumenttag/) برای درج **StructuredDocumentTags** در یک سند اضافه شده است.
-* دسترسی عمومی به جداکننده‌های پانوشت/پایان با افزودن چند کلاس و ویژگی عمومی فراهم شده است.
+* یک روش عمومی جدید [InsertGroupShape] (https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/) به اشکال گروه اضافه شده است. <sup>24.9</sup>
+* یک روش عمومی جدید [InsertStructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertstructureddocumenttag/) برای درج **StructuredDocumentTags** در یک سند اضافه شده است. <sup>24.9</sup>
+* دسترسی عمومی به جداکننده‌های پانوشت/پایان با افزودن چند کلاس و ویژگی عمومی فراهم شده است. <sup>24.9</sup>
+* با افزودن [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/#insertgroupshape_1) امکان گروه‌بندی اشکال فردی، گروه‌بندی اشکال با هم و گروه‌بندی مستقیم شکل‌ها و شکل‌های گروهی ارائه شده است. روش . <sup>24.10</sup>
+* مدیریت رمزگذاری Big5 برای جداول cmap TrueType بهبود یافته است. <sup>24.10</sup>
+* پشتیبانی از فونت های قدیمی تایوانی افزایش یافته است. <sup>24.10</sup>
 
 {{% alert color="primary" %}}
 
 درباره [Aspose.Words for .NET 24.9 Release Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-9-release-notes/) بیشتر بیاموزید.
+
+درباره [Aspose.Words for .NET 24.10 Release Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-10-release-notes/) بیشتر بیاموزید.
 
 {{% /alert %}}
 

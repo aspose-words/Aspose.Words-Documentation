@@ -11,37 +11,60 @@ url: /nl/python-net/what-s-new-in-aspose-words-for-python-net/
 
 Deze pagina beschrijft de meest interessante nieuwe Aspose.Words features geïntroduceerd in recente releases.
 
-## Aspose.Words voor Python via .NET 24.9
+## Aspose.Words voor Python via .NET 24.9, 24.10
 
 Aspose.Words 24.9 introduceert groepsvorminvoeging en StructuredDocumentTag-invoeging via DocumentBuilder, verbetert radiale grafiekweergave met gradaties, verbetert digitale handtekeningen met XAdES-EPES-ondersteuning, voegt Markdown-onderstrepingsherkenning toe en biedt toegang tot voetnoot-/eindnootscheidingstekens.
 
+Aspose.Words 24.10 introduceert verbeterde ActiveX-besturingselementondersteuning met CommandButton-creatie, nieuwe vormzichtbaarheidsbesturing, de mogelijkheid om vormen te groeperen, verbeterde Markdown-export voor tabellen, grafiekopmaak voor cirkel- en donutdiagrammen, betere Big5-coderingsverwerking en ondersteuning voor verouderde Taiwanese lettertypen.
+
 ### Renderen en afdrukken
 
-#### Gradaties op radiale grafieken
+#### Gradaties op radiale grafieken <sup>24.9/sup>
 
 Rendering van gradaties op radiale grafieken is geïmplementeerd.
 
+#### CommandButton ActiveX-besturingselementen <sup>24.10</sup>
+
+De mogelijkheid om CommandButton ActiveX-besturingselementen te maken is geïntroduceerd door een nieuwe openbare methode [insert_forms_2_ole_control](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_forms_2_ole_control/) en een nieuwe openbare klasse [Forms2OleControl](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/) toe te voegen.
+
+#### Vormzichtbaarheid beheren <sup>24.10</sup>
+
+Er is een nieuwe openbare eigenschap [hidden](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/hidden/) toegevoegd om de zichtbaarheid van vormen te beheren.
+
+#### Wijzigingen in cirkel- en ringdiagrammen <sup>24.10</sup>
+
+Er zijn verschillende nieuwe openbare eigenschappen toegevoegd om cirkel- en ringdiagrammen te formatteren.
+
 ### Documenten converteren, laden en opslaan
 
-#### Onderstrepingsopmaak bij het laden van Markdown-bestanden
+#### Onderstrepingsopmaak bij het laden van Markdown-bestanden <sup>24.9/sup>
 
 De optie om onderstrepingsopmaak te herkennen bij het laden van Markdown-documenten is opgenomen door een nieuwe openbare eigenschap toe te voegen [import_underline_formatting property](https://reference.aspose.com/words/python-net/aspose.words.loading/markdownloadoptions/import_underline_formatting/).
 
+#### Tabellen exporteren als HTML bij opslaan in Markdown <sup>24.10</sup>
+
+Een optie om tabellen te exporteren als HTML bij het opslaan van documenten in Markdown-formaat is geïmplementeerd door een nieuwe openbare eigenschap [export_as_html](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/export_as_html/) en een opsomming [MarkdownExportAsHtml](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownexportashtml/) toe te voegen.
+
 ### Digitale handtekeningen
 
-#### Documenten ondertekenen met XAdES-EPES
+#### Documenten ondertekenen met XAdES-EPES <sup>24.9/sup>
 
 De mogelijkheid om documenten te ondertekenen met XAdES-EPES level XML-DSig handtekeningen is geïntroduceerd door het toevoegen van een nieuwe publieke eigenschap [xml_dsig_level](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/signoptions/xml_dsig_level/) en een nieuwe publieke opsomming [XmlDsigLevel](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/xmldsiglevel/).
 
 ### Anders
 
-* Een nieuwe publieke methode [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/) is toegevoegd om vormen te groeperen.
-* Een nieuwe publieke methode [insert_structured_document_tag](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_structured_document_tag/) is toegevoegd om **StructuredDocumentTags** in een document in te voegen.
-* Publieke toegang tot voetnoot-/eindnootscheidingstekens is geboden door het toevoegen van een paar publieke klassen en eigenschappen.
+* Een nieuwe publieke methode [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/) is toegevoegd om vormen te groeperen. <sup>24.9/sup>
+* Een nieuwe publieke methode [insert_structured_document_tag](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_structured_document_tag/) is toegevoegd om **StructuredDocumentTags** in een document in te voegen. <sup>24.9/sup>
+* Publieke toegang tot voetnoot-/eindnootscheidingstekens is geboden door het toevoegen van een paar publieke klassen en eigenschappen. <sup>24.9/sup>
+* De mogelijkheid om afzonderlijke vormen te groeperen, vormen samen te groeperen en vormen rechtstreeks te groeperen en vormen te groeperen is geïntroduceerd door de methode [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/#float_float_float_float_shapebaselist) toe te voegen. <sup>24.10</sup>
+* Big5-coderingsverwerking voor TrueType cmap-tabellen is verbeterd. <sup>24.10</sup>
+* Ondersteuning voor verouderde Taiwanese lettertypen is verbeterd. <sup>24.10</sup>
 
 {{% alert color="primary" %}}
 
 Meer informatie over [Aspose.Words voor Python via .NET 24.9 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-9-release-notes/).
+
+Meer informatie over [Aspose.Words voor Python via .NET 24.10 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-10-release-notes/).
 
 {{% /alert %}}
 

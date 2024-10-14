@@ -11,6 +11,63 @@ url: /ro/net/what-s-new-in-aspose-words-for-net/
 
 Această pagină descrie cele mai interesante noi caracteristici Aspose.Words introduse în versiunile recente.
 
+## Aspose.Words pentru .NET 24.9, 24.10
+
+Aspose.Words 24.9 introduce inserarea formelor de grup și inserarea StructuredDocumentTag prin DocumentBuilder, îmbunătățește redarea diagramelor radiale cu gradări, îmbunătățește semnăturile digitale cu suport XAdES-EPES, adaugă recunoașterea sublinierii Markdown și oferă acces la separatoarele note de subsol/note de final.
+
+Aspose.Words 24.10 introduce suport îmbunătățit de control ActiveX cu crearea CommandButton, nou control al vizibilității formelor, capacitatea de grupare a formelor, export îmbunătățit Markdown pentru tabele, formatare diagramă pentru diagrame Pie și Donut, gestionare mai bună a codificării Big5 și suport pentru fonturile taiwaneze învechite.
+
+### Redare și imprimare
+
+#### Agradări pe diagramele radiale <sup>24.9</sup>
+
+A fost implementată redarea gradațiilor pe diagrame radiale.
+
+#### CommandButton ActiveX controlează <sup>24.10</sup>
+
+Abilitatea de a crea controale CommandButton ActiveX a fost introdusă prin adăugarea unei noi metode publice [InsertForms2OleControl](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertforms2olecontrol/) și a unei noi clase publice [Forms2OleControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/forms2olecontrol/).
+
+#### Controlați vizibilitatea formei <sup>24.10</sup>
+
+O nouă proprietate publică [Hidden](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/hidden/) a fost adăugată pentru a controla vizibilitatea formelor.
+
+#### Modificări în diagramele piese și gogoși <sup>24.10</sup>
+
+Au fost adăugate mai multe proprietăți publice noi pentru a forma diagramele Pie și Donut.
+
+### Conversia, încărcarea și salvarea documentelor
+
+#### Formatarea sublinierii la încărcarea fișierelor Markdown <sup>24.9</sup>
+
+Opțiunea de a recunoaște formatarea sublinierii la încărcarea documentelor Markdown a fost încorporată prin adăugarea unei noi proprietăți publice [ImportUnderlineFormatting](https://reference.aspose.com/words/net/aspose.words.loading/markdownloadoptions/importunderlineformatting/).
+
+#### Exportarea tabelelor ca HTML la salvarea în Markdown <sup>24.10</sup>
+
+O opțiune de exportare a tabelelor ca HTML la salvarea documentelor în format Markdown a fost implementată prin adăugarea unei noi proprietăți publice [ExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/exportashtml/) și o enumerare [MarkdownExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownexportashtml/).
+
+### Semnături digitale
+
+#### Semnați documente cu XAdES-EPES <sup>24.9</sup>
+
+Abilitatea de a semna documente cu semnături XML-DSig la nivel XAdES-EPES a fost introdusă prin adăugarea unei noi proprietăți publice [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions/xmldsiglevel/) și o nouă enumerare publică [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/xmldsiglevel/).
+
+### Altele
+
+* O nouă metodă publică [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/) a fost adăugată formelor de grup. <sup>24.9</sup>
+* O nouă metodă publică [InsertStructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertstructureddocumenttag/) a fost adăugată pentru a insera **StructuredDocumentTags** într-un document. <sup>24.9</sup>
+* Accesul public la separatoarele de note de subsol/note de final a fost oferit prin adăugarea câtorva clase și proprietăți publice. <sup>24.9</sup>
+* Capacitatea de a grupa forme individuale, de a grupa forme și de a grupa direct ambele forme și forme de grup a fost introdusă prin adăugarea [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/#insertgroupshape_1). <sup>24.10</sup>
+* Gestionarea codificării Big5 pentru tabelele cmap TrueType a fost îmbunătățită. <sup>24.10</sup>
+* Suportul pentru fonturile taiwaneze învechite a fost îmbunătățit. <sup>24.10</sup>
+
+{{% alert color="primary" %}}
+
+Învaţă mai multe despre [Aspose.Words for .NET 24.9 Release Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-9-release-notes/).
+
+Învaţă mai multe despre [Aspose.Words for .NET 24.10 Release Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-10-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words pentru .NET 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 extinde opțiunile pentru asamblări, îmbunătățește capacitățile de redare și extinde alte câteva opțiuni.

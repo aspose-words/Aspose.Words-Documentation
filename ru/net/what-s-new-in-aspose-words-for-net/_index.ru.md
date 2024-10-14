@@ -11,37 +11,60 @@ url: /ru/net/what-s-new-in-aspose-words-for-net/
 
 На этой странице описаны самые интересные новые Aspose.Words Особенности, представленные в последних выпусках.
 
-## Aspose.Words для .NET 24.9
+## Aspose.Words для .NET 24.9, 24.10
 
 Aspose.Words 24.9 представляет вставку групповых фигур и вставку StructuredDocumentTag через DocumentBuilder, улучшает визуализацию радиальных диаграмм с помощью градуировок, улучшает цифровые подписи с поддержкой XAdES-EPES, добавляет распознавание подчеркивания Markdown и предоставляет доступ к разделителям сносок/концевых сносок.
 
+Aspose.Words 24.10 представляет улучшенную поддержку элементов управления ActiveX с созданием CommandButton, новый элемент управления видимостью фигур, возможность группировать фигуры, улучшенный экспорт Markdown для таблиц, форматирование диаграмм для круговых и кольцевых диаграмм, улучшенную обработку кодировки Big5 и поддержку устаревших тайваньских шрифтов.
+
 ### Рендеринг и печать
 
-#### Градуировки на радиальных диаграммах
+#### Градуировки на радиальных диаграммах <sup>24.9</sup>
 
 Реализована визуализация градуировок на радиальных диаграммах.
 
+#### Элементы управления ActiveX CommandButton <sup>24.10</sup>
+
+Возможность создания элементов управления ActiveX CommandButton была введена путем добавления нового открытого метода [InsertForms2OleControl](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertforms2olecontrol/) и нового открытого класса [Forms2OleControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/forms2olecontrol/).
+
+#### Управление видимостью фигур <sup>24.10</sup>
+
+Добавлено новое публичное свойство [Hidden](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/hidden/) для управления видимостью фигур.
+
+#### Изменения в круговых и кольцевых диаграммах <sup>24.10</sup>
+
+Добавлено несколько новых публичных свойств для форматирования круговых и кольцевых диаграмм.
+
 ### Конвертация, загрузка и сохранение документов
 
-#### Подчеркивание форматирования при загрузке файлов Markdown
+#### Подчеркивание форматирования при загрузке файлов Markdown <sup>24.9</sup>
 
 Возможность распознавания подчеркивания форматирования при загрузке документов Markdown была включена путем добавления нового публичного свойства [ImportUnderlineFormatting](https://reference.aspose.com/words/net/aspose.words.loading/markdownloadoptions/importunderlineformatting/).
 
+#### Экспорт таблиц в формате HTML при сохранении в Markdown <sup>24.10</sup>
+
+Возможность экспорта таблиц в формате HTML при сохранении документов в формате Markdown была реализована путем добавления нового публичного свойства [ExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/exportashtml/) и перечисления [MarkdownExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownexportashtml/).
+
 ### Цифровые подписи
 
-#### Подписание документов с помощью XAdES-EPES
+#### Подписание документов с помощью XAdES-EPES <sup>24.9</sup>
 
 Возможность подписывать документы с помощью подписей XML-DSig уровня XAdES-EPES была введена путем добавления нового публичного свойства [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions/xmldsiglevel/) и нового публичного перечисления [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/xmldsiglevel/).
 
 ### Другое
 
-* Новый публичный метод [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/) был добавлен в групповые фигуры.
-* Добавлен новый публичный метод [InsertStructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertstructureddocumenttag/) для вставки **StructuredDocumentTags** в документ.
-* Публичный доступ к разделителям сносок/концевых сносок был предоставлен путем добавления нескольких публичных классов и свойств.
+* Новый публичный метод [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/) был добавлен в групповые фигуры. <sup>24.9</sup>
+* Добавлен новый публичный метод [InsertStructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertstructureddocumenttag/) для вставки **StructuredDocumentTags** в документ. <sup>24.9</sup>
+* Публичный доступ к разделителям сносок/концевых сносок был предоставлен путем добавления нескольких публичных классов и свойств. <sup>24.9</sup>
+* Возможность группировать отдельные фигуры, группировать фигуры вместе и напрямую группировать фигуры и группы фигур была введена путем добавления метода [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/#insertgroupshape_1). <sup>24.10</sup>
+* Улучшена обработка кодировки Big5 для таблиц TrueType cmap. <sup>24.10</sup>
+* Улучшена поддержка устаревших тайваньских шрифтов. <sup>24.10</sup>
 
 {{% alert color="primary" %}}
 
 Узнайте больше о [Примечаниях к выпуску Aspose.Words для .NET 24.9](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-9-release-notes/).
+
+Узнайте больше о [Примечаниях к выпуску Aspose.Words для .NET 24.10](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-10-release-notes/).
 
 {{% /alert %}}
 

@@ -11,37 +11,60 @@ url: /nl/java/what-s-new-in-aspose-words-for-java/
 
 Deze pagina beschrijft de meest interessante nieuwe Aspose.Words features geïntroduceerd in recente releases.
 
-## Aspose.Words voor Java 24.9
+## Aspose.Words voor Java 24.9, 24.10
 
 Aspose.Words 24.9 introduceert groepsvorminvoeging en StructuredDocumentTag-invoeging via DocumentBuilder, verbetert radiale grafiekweergave met gradaties, verbetert digitale handtekeningen met XAdES-EPES-ondersteuning, voegt Markdown-onderstrepingsherkenning toe en biedt toegang tot voetnoot-/eindnootscheidingstekens.
 
+Aspose.Words 24.10 introduceert verbeterde ActiveX-besturingselementondersteuning met CommandButton-creatie, nieuwe vormzichtbaarheidsbesturing, de mogelijkheid om vormen te groeperen, verbeterde Markdown-export voor tabellen, grafiekopmaak voor cirkel- en donutdiagrammen, betere Big5-coderingsverwerking en ondersteuning voor verouderde Taiwanese lettertypen.
+
 ### Renderen en afdrukken
 
-#### Gradaties op radiale grafieken
+#### Gradaties op radiale grafieken <sup>24.9/sup>
 
 Rendering van gradaties op radiale grafieken is geïmplementeerd.
 
+#### CommandButton ActiveX-besturingselementen <sup>24.10</sup>
+
+De mogelijkheid om CommandButton ActiveX-besturingselementen te maken is geïntroduceerd door een nieuwe openbare methode [InsertForms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertForms2OleControl-com.aspose.words.Forms2OleControl) en een nieuwe openbare klasse [Forms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/) toe te voegen.
+
+#### Vormzichtbaarheid beheren <sup>24.10</sup>
+
+Er is een nieuwe openbare eigenschap [Hidden](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getHidden) toegevoegd om de zichtbaarheid van vormen te beheren.
+
+#### Wijzigingen in cirkel- en ringdiagrammen <sup>24.10</sup>
+
+Er zijn verschillende nieuwe openbare eigenschappen toegevoegd om cirkel- en ringdiagrammen te formatteren.
+
 ### Documenten converteren, laden en opslaan
 
-#### Onderstrepingsopmaak bij het laden van Markdown-bestanden
+#### Onderstrepingsopmaak bij het laden van Markdown-bestanden <sup>24.9/sup>
 
 De optie om onderstrepingsopmaak te herkennen bij het laden van Markdown-documenten is opgenomen door een nieuwe openbare eigenschap toe te voegen [ImportUnderlineFormatting](https://reference.aspose.com/words/java/com.aspose.words/markdownloadoptions/#getImportUnderlineFormatting).
 
+#### Tabellen exporteren als HTML bij opslaan in Markdown <sup>24.10</sup>
+
+Een optie om tabellen te exporteren als HTML bij het opslaan van documenten in Markdown-formaat is geïmplementeerd door een nieuwe openbare eigenschap [ExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getExportAsHtml) en een opsomming [MarkdownExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownexportashtml/) toe te voegen.
+
 ### Digitale handtekeningen
 
-#### Documenten ondertekenen met XAdES-EPES
+#### Documenten ondertekenen met XAdES-EPES <sup>24.9/sup>
 
 De mogelijkheid om documenten te ondertekenen met XAdES-EPES level XML-DSig handtekeningen is geïntroduceerd door het toevoegen van een nieuwe publieke eigenschap [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/signoptions/#getXmlDsigLevel) en een nieuwe publieke opsomming [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/xmldsiglevel/)
 
 ### Anders
 
-* Een nieuwe publieke methode [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-com.aspose.words.Shape...) is toegevoegd om vormen te groeperen.
-* Een nieuwe publieke methode [InsertStructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertStructuredDocumentTag-int) is toegevoegd om **StructuredDocumentTags** in een document in te voegen.
-* Publieke toegang tot voetnoot-/eindnootscheidingstekens is geboden door het toevoegen van een paar publieke klassen en eigenschappen.
+* Een nieuwe publieke methode [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-com.aspose.words.Shape...) is toegevoegd om vormen te groeperen. <sup>24.9/sup>
+* Een nieuwe publieke methode [InsertStructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertStructuredDocumentTag-int) is toegevoegd om **StructuredDocumentTags** in een document in te voegen. <sup>24.9/sup>
+* Publieke toegang tot voetnoot-/eindnootscheidingstekens is geboden door het toevoegen van een paar publieke klassen en eigenschappen. <sup>24.9/sup>
+* De mogelijkheid om afzonderlijke vormen te groeperen, vormen samen te groeperen en vormen rechtstreeks te groeperen en vormen te groeperen is geïntroduceerd door de methode [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-double-double-double-double-com.aspose.words.ShapeBase...) toe te voegen. <sup>24.10</sup>
+* Big5-coderingsverwerking voor TrueType cmap-tabellen is verbeterd. <sup>24.10</sup>
+* Ondersteuning voor verouderde Taiwanese lettertypen is verbeterd. <sup>24.10</sup>
 
 {{% alert color="primary" %}}
 
 Meer informatie over [Aspose.Words voor Java 24.9 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/).
+
+Meer informatie over [Aspose.Words voor Java 24.10 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-10-release-notes/).
 
 {{% /alert %}}
 

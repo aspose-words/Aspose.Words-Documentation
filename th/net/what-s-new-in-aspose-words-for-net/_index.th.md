@@ -11,37 +11,60 @@ url: /th/net/what-s-new-in-aspose-words-for-net/
 
 หน้านี้อธิบายคุณสมบัติ Aspose.Words ใหม่ที่น่าสนใจที่สุดที่เปิดตัวในรุ่นล่าสุด
 
-## Aspose.Words สำหรับ .NET 24.9
+## Aspose.Words สำหรับ .NET 24.9, 24.10
 
 Aspose.Words 24.9 แนะนำการแทรกรูปร่างกลุ่มและการแทรก StructuredDocumentTag ผ่าน DocumentBuilder ปรับปรุงการเรนเดอร์แผนภูมิรัศมีด้วยการไล่ระดับ ปรับปรุงลายเซ็นดิจิทัลด้วยการรองรับ XAdES-EPES เพิ่มการจดจำเส้นใต้มาร์กดาวน์ และให้การเข้าถึงตัวคั่นเชิงอรรถ/ท้ายบท
 
+Aspose.Words 24.10 นำเสนอการสนับสนุนการควบคุม ActiveX ที่ได้รับการปรับปรุงด้วยการสร้าง CommandButton การควบคุมการมองเห็นรูปร่างใหม่ ความสามารถในการจัดกลุ่มรูปร่าง การส่งออก Markdown ที่ปรับปรุงใหม่สำหรับตาราง การจัดรูปแบบแผนภูมิสำหรับแผนภูมิวงกลมและโดนัท การจัดการการเข้ารหัส Big5 ที่ดีขึ้น และการรองรับแบบอักษรไต้หวันที่ล้าสมัย
+
 ### การเรนเดอร์และการพิมพ์
 
-#### การไล่ระดับบนแผนภูมิรัศมี
+#### การไล่ระดับบนแผนภูมิรัศมี <sup>24.9</sup>
 
 ได้นำการเรนเดอร์การไล่ระดับบนแผนภูมิรัศมีมาใช้แล้ว
 
+#### การควบคุม ActiveX ของ CommandButton <sup>24.10</sup>
+
+ความสามารถในการสร้างการควบคุม ActiveX ของ CommandButton ได้รับการแนะนำโดยการเพิ่มวิธีการสาธารณะใหม่ [InsertForms2OleControl](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertforms2olecontrol/) และคลาสสาธารณะใหม่ [Forms2OleControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/forms2olecontrol/)
+
+#### ควบคุมการมองเห็นรูปร่าง <sup>24.10</sup>
+
+มีการเพิ่มคุณสมบัติสาธารณะใหม่ [Hodden](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/hidden/) เพื่อควบคุมการมองเห็นรูปร่าง
+
+#### การเปลี่ยนแปลงในแผนภูมิวงกลมและโดนัท <sup>24.10</sup>
+
+มีการเพิ่มคุณสมบัติสาธารณะใหม่หลายรายการเพื่อจัดรูปแบบแผนภูมิวงกลมและโดนัท
+
 ### การแปลง การโหลด และการบันทึกเอกสาร
 
-#### การจัดรูปแบบขีดเส้นใต้เมื่อโหลดไฟล์มาร์กดาวน์
+#### การจัดรูปแบบขีดเส้นใต้เมื่อโหลดไฟล์มาร์กดาวน์ <sup>24.9</sup>
 
 ตัวเลือกในการรับรู้การจัดรูปแบบขีดเส้นใต้เมื่อโหลดเอกสารมาร์กดาวน์ได้รับการรวมเข้าไว้ด้วยการเพิ่มคุณสมบัติสาธารณะใหม่ [ImportUnderlineFormatting](https://reference.aspose.com/words/net/aspose.words.loading/markdownloadoptions/importunderlineformatting/)
 
+#### การส่งออกตารางเป็น HTML เมื่อบันทึกเป็น Markdown <sup>24.10</sup>
+
+ได้มีการนำตัวเลือกในการส่งออกตารางเป็น HTML เมื่อบันทึกเอกสารเป็นรูปแบบ Markdown มาใช้โดยการเพิ่มคุณสมบัติสาธารณะใหม่ [ExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/exportashtml/) และการแจงนับ [MarkdownExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownexportashtml/)
+
 ### ลายเซ็นดิจิทัล
 
-#### ลงนามในเอกสารด้วย XAdES-EPES
+#### ลงนามในเอกสารด้วย XAdES-EPES <sup>24.9</sup>
 
 ความสามารถในการลงนามในเอกสารด้วยลายเซ็น XML-DSig ระดับ XAdES-EPES ได้รับการแนะนำโดยการเพิ่มคุณสมบัติสาธารณะใหม่ [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions/xmldsiglevel/) และการแจงนับสาธารณะใหม่ [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/xmldsiglevel/)
 
 ### อื่นๆ
 
-* มีการเพิ่มวิธีสาธารณะใหม่ [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/) ให้กับรูปร่างกลุ่ม
-* เพิ่มวิธีสาธารณะใหม่ [InsertStructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertstructureddocumenttag/) เพื่อแทรก **StructuredDocumentTags** ลงในเอกสาร
-* เปิดให้สาธารณชนเข้าถึงตัวคั่นเชิงอรรถ/ท้ายเรื่องได้โดยการเพิ่มคลาสและคุณสมบัติสาธารณะบางส่วน
+* มีการเพิ่มวิธีสาธารณะใหม่ [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/) ให้กับรูปร่างกลุ่ม <sup>24.9</sup>
+* เพิ่มวิธีสาธารณะใหม่ [InsertStructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertstructureddocumenttag/) เพื่อแทรก **StructuredDocumentTags** ลงในเอกสาร <sup>24.9</sup>
+* เปิดให้สาธารณชนเข้าถึงตัวคั่นเชิงอรรถ/ท้ายเรื่องได้โดยการเพิ่มคลาสและคุณสมบัติสาธารณะบางส่วน <sup>24.9</sup>
+* ได้มีการนำความสามารถในการจัดกลุ่มรูปร่างแต่ละรูปร่าง จัดกลุ่มรูปร่างเข้าด้วยกัน และจัดกลุ่มทั้งรูปร่างและจัดกลุ่มรูปร่างโดยตรงเข้ามาด้วยการเพิ่มวิธีการ [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/#insertgroupshape_1) <sup>24.10</sup>
+* ปรับปรุงการจัดการการเข้ารหัส Big5 สำหรับตาราง cmap TrueType แล้ว <sup>24.10</sup>
+* ปรับปรุงการรองรับฟอนต์ไต้หวันที่ล้าสมัยแล้ว <sup>24.10</sup>
 
 {{% alert color="primary" %}}
 
 เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.Words สำหรับบันทึกประจำรุ่น .NET 24.9](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-9-release-notes/)
+
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.Words สำหรับบันทึกประจำรุ่น .NET 24.10](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-10-release-notes/)
 
 {{% /alert %}}
 
