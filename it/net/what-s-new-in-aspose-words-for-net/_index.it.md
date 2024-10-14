@@ -11,37 +11,60 @@ url: /it/net/what-s-new-in-aspose-words-for-net/
 
 Questa pagina descrive le nuove funzionalità Aspose.Words più interessanti introdotte nelle versioni recenti.
 
-## Aspose.Words per .NET 24.9
+## Aspose.Words per .NET 24.9, 24.10
 
 Aspose.Words 24.9 introduce l'inserimento di forme di gruppo e l'inserimento di StructuredDocumentTag tramite DocumentBuilder, migliora il rendering dei grafici radiali con graduazioni, migliora le firme digitali con il supporto XAdES-EPES, aggiunge il riconoscimento della sottolineatura Markdown e fornisce l'accesso ai separatori di note a piè di pagina/note di chiusura.
 
+Aspose.Words 24.10 introduce un supporto avanzato per i controlli ActiveX con la creazione di CommandButton, un nuovo controllo di visibilità delle forme, la possibilità di raggruppare le forme, un'esportazione Markdown migliorata per le tabelle, la formattazione dei grafici per i grafici a torta e ad anello, una migliore gestione della codifica Big5 e il supporto per i font taiwanesi obsoleti.
+
 ### Rendering e stampa
 
-#### Graduazioni sui grafici radiali
+#### Graduazioni sui grafici radiali <sup>24.9</sup>
 
 È stato implementato il rendering delle graduazioni sui grafici radiali.
 
+#### Controlli ActiveX CommandButton <sup>24.10</sup>
+
+La possibilità di creare controlli ActiveX CommandButton è stata introdotta aggiungendo un nuovo metodo pubblico [InsertForms2OleControl](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertforms2olecontrol/) e una nuova classe pubblica [Forms2OleControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/forms2olecontrol/).
+
+#### Visibilità delle forme di controllo <sup>24.10</sup>
+
+È stata aggiunta una nuova proprietà pubblica [Nascosto](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/hidden/) per controllare la visibilità delle forme.
+
+#### Modifiche nei grafici a torta e ad anello <sup>24.10</sup>
+
+Sono state aggiunte diverse nuove proprietà pubbliche per formattare i grafici a torta e ad anello.
+
 ### Conversione, caricamento e salvataggio di documenti
 
-#### Formattazione sottolineata durante il caricamento di file Markdown
+#### Formattazione sottolineata durante il caricamento di file Markdown <sup>24.9</sup>
 
 L'opzione per riconoscere la formattazione sottolineata durante il caricamento di documenti Markdown è stata incorporata aggiungendo una nuova proprietà pubblica [ImportUnderlineFormatting](https://reference.aspose.com/words/net/aspose.words.loading/markdownloadoptions/importunderlineformatting/).
 
+#### Esportazione di tabelle come HTML durante il salvataggio in Markdown <sup>24.10</sup>
+
+È stata implementata un'opzione per esportare le tabelle come HTML durante il salvataggio di documenti in formato Markdown aggiungendo una nuova proprietà pubblica [ExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/exportashtml/) e un'enumerazione [MarkdownExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownexportashtml/).
+
 ### Firme digitali
 
-#### Firma documenti con XAdES-EPES
+#### Firma documenti con XAdES-EPES <sup>24.9</sup>
 
 La possibilità di firmare documenti con firme XML-DSig di livello XAdES-EPES è stata introdotta aggiungendo una nuova proprietà pubblica [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions/xmldsiglevel/) e una nuova enumerazione pubblica [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/xmldsiglevel/).
 
 ### Altro
 
-* Un nuovo metodo pubblico [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/) è stato aggiunto alle forme di gruppo.
-* È stato aggiunto un nuovo metodo pubblico [InsertStructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertstructureddocumenttag/) per inserire **StructuredDocumentTag** in un documento.
-* L'accesso pubblico ai separatori di note a piè di pagina/note di chiusura è stato fornito aggiungendo alcune classi e proprietà pubbliche.
+* Un nuovo metodo pubblico [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/) è stato aggiunto alle forme di gruppo. <sup>24.9</sup>
+* È stato aggiunto un nuovo metodo pubblico [InsertStructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertstructureddocumenttag/) per inserire **StructuredDocumentTag** in un documento. <sup>24.9</sup>
+* L'accesso pubblico ai separatori di note a piè di pagina/note di chiusura è stato fornito aggiungendo alcune classi e proprietà pubbliche. <sup>24.9</sup>
+* La possibilità di raggruppare singole forme, raggruppare forme insieme e raggruppare direttamente sia forme che gruppi di forme è stata introdotta aggiungendo il metodo [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/#insertgroupshape_1). <sup>24.10</sup>
+* La gestione della codifica Big5 per le tabelle cmap TrueType è stata migliorata. <sup>24.10</sup>
+* Il supporto per i font taiwanesi obsoleti è stato migliorato. <sup>24.10</sup>
 
 {{% alert color="primary" %}}
 
 Ulteriori informazioni su [Note sulla versione Aspose.Words per .NET 24.9](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-9-release-notes/).
+
+Ulteriori informazioni su [Note sulla versione Aspose.Words per .NET 24.10](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-10-release-notes/).
 
 {{% /alert %}}
 

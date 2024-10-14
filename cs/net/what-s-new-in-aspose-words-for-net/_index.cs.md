@@ -11,37 +11,60 @@ url: /cs/net/what-s-new-in-aspose-words-for-net/
 
 Tato stránka popisuje nejzajímavější nový Aspose.Words funkce zavedené v nedávných vydáních.
 
-## Aspose.Words pro .NET 24.9
+## Aspose.Words pro .NET 24.9, 24.10
 
 Aspose.Words 24.9 zavádí vkládání tvarů skupiny a vkládání StructuredDocumentTag prostřednictvím DocumentBuilderu, vylepšuje vykreslování radiálních grafů pomocí gradací, zlepšuje digitální podpisy s podporou XAdES-EPES, přidává rozpoznávání podtržení Markdown a poskytuje přístup k oddělovačům poznámek pod čarou/vysvětlivky.
 
+Aspose.Words 24.10 zavádí vylepšenou podporu ovládacích prvků ActiveX s vytvářením CommandButton, nové ovládání viditelnosti tvarů, možnost seskupovat tvary, vylepšený export Markdown pro tabulky, formátování grafů pro koláčové a prstencové grafy, lepší manipulaci s kódováním Big5 a podporu zastaralých tchajwanských písem.
+
 ### Vykreslování a tisk
 
-#### Promoce na radiálních grafech
+#### Promoce na radiálních grafech <sup>24.9</sup>
 
 Bylo implementováno vykreslování stupnice na radiálních mapách.
 
+#### Ovládací prvky ActiveX CommandButton <sup>24.10</sup>
+
+Schopnost vytvářet ovládací prvky CommandButton ActiveX byla zavedena přidáním nové veřejné metody [InsertForms2OleControl](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertforms2olecontrol/) a nové veřejné třídy [Forms2OleControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/forms2olecontrol/).
+
+#### Kontrola viditelnosti tvaru <sup>24.10</sup>
+
+Byla přidána nová veřejná vlastnost [Skrytá](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/hidden/), která řídí viditelnost tvarů.
+
+#### Změny v koláčových a prstencových grafech <sup>24.10</sup>
+
+K formátování výsečových a prstencových grafů bylo přidáno několik nových veřejných vlastností.
+
 ### Konverze, načítání a ukládání dokumentů
 
-#### Při načítání souborů Markdown podtrhněte formátování
+#### Při načítání souborů Markdown podtrhněte formátování <sup>24.9</sup>
 
 Možnost rozpoznat podtržené formátování při načítání dokumentů Markdown byla začleněna přidáním nové veřejné vlastnosti [ImportUnderlineFormatting](https://reference.aspose.com/words/net/aspose.words.loading/markdownloadoptions/importunderlineformatting/).
 
+#### Export tabulek jako HTML při ukládání do Markdown <sup>24.10</sup>
+
+Možnost exportovat tabulky jako HTML při ukládání dokumentů do formátu Markdown byla implementována přidáním nové veřejné vlastnosti [ExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/exportashtml/) a výčet [MarkdownExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownexportashtml/).
+
 ### Digitální podpisy
 
-#### Podepisujte dokumenty pomocí XAdES-EPES
+#### Podepisujte dokumenty pomocí XAdES-EPES <sup>24.9</sup>
 
 Možnost podepisovat dokumenty pomocí podpisů XML-DSig na úrovni XAdES-EPES byla zavedena přidáním nové veřejné vlastnosti [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions/xmldsiglevel/) a nový veřejný výčet [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/xmldsiglevel/).
 
 ### Jiné
 
-* Do skupinových tvarů byla přidána nová veřejná metoda [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/).
-* Byla přidána nová veřejná metoda [InsertStructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertstructureddocumenttag/) pro vkládání **StructuredDocumentTags** do dokumentu.
-* Veřejný přístup k oddělovačům poznámek pod čarou/vysvětlivky byl poskytnut přidáním několika veřejných tříd a vlastností.
+* Do skupinových tvarů byla přidána nová veřejná metoda [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/). <sup>24.9</sup>
+* Byla přidána nová veřejná metoda [InsertStructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertstructureddocumenttag/) pro vkládání **StructuredDocumentTags** do dokumentu. <sup>24.9</sup>
+* Veřejný přístup k oddělovačům poznámek pod čarou/vysvětlivky byl poskytnut přidáním několika veřejných tříd a vlastností. <sup>24.9</sup>
+* Možnost seskupovat jednotlivé tvary, seskupovat tvary dohromady a přímo seskupovat tvary i tvary skupin byla zavedena přidáním [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/#insertgroupshape_1). <sup>24.10</sup>
+* Bylo vylepšeno zpracování kódování Big5 pro tabulky cmap TrueType. <sup>24.10</sup>
+* Byla vylepšena podpora zastaralých tchajwanských písem. <sup>24.10</sup>
 
 {{% alert color="primary" %}}
 
 Další informace o [Aspose.Words for .NET 24.9 Release Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-9-release-notes/).
+
+Další informace o [Aspose.Words for .NET 24.10 Release Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-10-release-notes/).
 
 {{% /alert %}}
 

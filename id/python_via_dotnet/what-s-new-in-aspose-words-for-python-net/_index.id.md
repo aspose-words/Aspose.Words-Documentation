@@ -11,37 +11,60 @@ url: /id/python-net/what-s-new-in-aspose-words-for-python-net/
 
 Halaman ini menjelaskan fitur-fitur Aspose.Words baru yang paling menarik yang diperkenalkan dalam rilis terbaru.
 
-## Aspose.Words untuk Python via .NET 24.9
+## Aspose.Words untuk Python via .NET 24.9, 24.10
 
 Aspose.Words 24.9 memperkenalkan penyisipan bentuk grup dan penyisipan StructuredDocumentTag via DocumentBuilder, menyempurnakan perenderan bagan radial dengan gradasi, menyempurnakan tanda tangan digital dengan dukungan XAdES-EPES, menambahkan pengenalan garis bawah Markdown, dan menyediakan akses ke pemisah catatan kaki/catatan akhir.
 
+Aspose.Words 24.10 memperkenalkan dukungan kontrol ActiveX yang disempurnakan dengan pembuatan CommandButton, kontrol visibilitas bentuk baru, kemampuan untuk mengelompokkan bentuk, peningkatan ekspor Markdown untuk tabel, pemformatan bagan untuk bagan Pie dan Donat, penanganan pengodean Big5 yang lebih baik, dan dukungan untuk font Taiwan yang sudah ketinggalan zaman.
+
 ### Perenderan dan Pencetakan
 
-#### Graduasi pada Bagan Radial
+#### Graduasi pada Bagan Radial <sup>24.9</sup>
 
 Perenderan gradasi pada bagan radial telah diimplementasikan.
 
+#### Kontrol ActiveX CommandButton <sup>24.10</sup>
+
+Kemampuan untuk membuat kontrol ActiveX CommandButton telah diperkenalkan dengan menambahkan metode publik baru [insert_forms_2_ole_control](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_forms_2_ole_control/) dan kelas publik baru [Forms2OleControl](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/).
+
+#### Kontrol Visibilitas Bentuk <sup>24.10</sup>
+
+Properti publik baru [hidden](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/hidden/) telah ditambahkan untuk mengontrol visibilitas bentuk.
+
+#### Perubahan pada Bagan Pai dan Donat <sup>24.10</sup>
+
+Beberapa properti publik baru telah ditambahkan untuk memformat bagan Pai dan Donat.
+
 ### Mengonversi, Memuat, dan Menyimpan Dokumen
 
-#### Pemformatan Garis Bawah saat Memuat File Markdown
+#### Pemformatan Garis Bawah saat Memuat File Markdown <sup>24.9</sup>
 
 Opsi untuk mengenali pemformatan garis bawah saat memuat dokumen Markdown telah disertakan dengan menambahkan properti publik baru [import_underline_formatting property](https://reference.aspose.com/words/python-net/aspose.words.loading/markdownloadoptions/import_underline_formatting/).
 
+#### Mengekspor tabel sebagai HTML saat menyimpan ke Markdown <sup>24.10</sup>
+
+Opsi untuk mengekspor tabel sebagai HTML saat menyimpan dokumen ke format Markdown telah diimplementasikan dengan menambahkan properti publik baru [export_as_html](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/export_as_html/) dan enumerasi [MarkdownExportAsHtml](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownexportashtml/).
+
 ### Tanda Tangan Digital
 
-#### Menandatangani Dokumen dengan XAdES-EPES
+#### Menandatangani Dokumen dengan XAdES-EPES <sup>24.9</sup>
 
 Kemampuan untuk menandatangani dokumen dengan tanda tangan XML-DSig level XAdES-EPES telah diperkenalkan dengan menambahkan properti publik baru [xml_dsig_level](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/signoptions/xml_dsig_level/) dan enumerasi publik baru [XmlDsigLevel](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/xmldsiglevel/).
 
 ### Lainnya
 
-* Metode publik baru [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/) telah ditambahkan untuk mengelompokkan bentuk.
-* Metode publik baru [insert_structured_document_tag](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_structured_document_tag/) telah ditambahkan untuk memasukkan **StructuredDocumentTags** ke dalam dokumen.
-* Akses publik ke pemisah catatan kaki/catatan akhir telah disediakan dengan menambahkan beberapa kelas dan properti publik.
+* Metode publik baru [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/) telah ditambahkan untuk mengelompokkan bentuk. <sup>24.9</sup>
+* Metode publik baru [insert_structured_document_tag](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_structured_document_tag/) telah ditambahkan untuk memasukkan **StructuredDocumentTags** ke dalam dokumen. <sup>24.9</sup>
+* Akses publik ke pemisah catatan kaki/catatan akhir telah disediakan dengan menambahkan beberapa kelas dan properti publik. <sup>24.9</sup>
+* Kemampuan untuk mengelompokkan bentuk individual, mengelompokkan bentuk bersama-sama, dan langsung mengelompokkan kedua bentuk dan mengelompokkan bentuk telah diperkenalkan dengan menambahkan metode [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/#float_float_float_float_shapebaselist). <sup>24.10</sup>
+* Penanganan pengodean Big5 untuk tabel cmap TrueType telah ditingkatkan. <sup>24.10</sup>
+* Dukungan untuk font Taiwan yang sudah ketinggalan zaman telah ditingkatkan. <sup>24.10</sup>
 
 {{% alert color="primary" %}}
 
 Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 24.9](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-9-release-notes/).
+
+Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 24.10](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-10-release-notes/).
 
 {{% /alert %}}
 

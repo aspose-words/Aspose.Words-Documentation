@@ -11,37 +11,60 @@ url: /tr/python-net/what-s-new-in-aspose-words-for-python-net/
 
 Bu sayfada son sürümlerde tanıtılan en ilginç yeni Aspose.Words özellikleri açıklanmaktadır.
 
-## Python için Aspose.Words .NET 24.9 aracılığıyla
+## Python için Aspose.Words .NET 24.9, 24.10 aracılığıyla
 
 Aspose.Words 24.9, DocumentBuilder aracılığıyla grup şekli ekleme ve StructuredDocumentTag eklemeyi sunar, derecelendirmelerle radyal grafik oluşturmayı geliştirir, XAdES-EPES desteğiyle dijital imzaları iyileştirir, Markdown alt çizgi tanıma özelliğini ekler ve dipnot/son not ayırıcılarına erişim sağlar.
 
+Aspose.Words 24.10, CommandButton oluşturma, yeni şekil görünürlüğü denetimi, şekilleri gruplama yeteneği, tablolar için geliştirilmiş Markdown dışa aktarma, Pasta ve Çörek grafikleri için grafik biçimlendirme, daha iyi Big5 kodlama işleme ve güncel olmayan Tayvan yazı tipleri için destek ile gelişmiş ActiveX denetim desteği sunar.
+
 ### Oluşturma ve Yazdırma
 
-#### Radyal Grafiklerde Derecelendirmeler
+#### Radyal Grafiklerde Derecelendirmeler <sup>24.9</sup>
 
 Radyal grafiklerde derecelendirmelerin oluşturulması uygulandı.
 
+#### CommandButton ActiveX Denetimleri <sup>24.10</sup>
+
+CommandButton ActiveX denetimleri oluşturma yeteneği, yeni bir genel yöntem [insert_forms_2_ole_control](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_forms_2_ole_control/) ve yeni bir genel sınıf [Forms2OleControl](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/) eklenerek tanıtıldı.
+
+#### Şekil Görünürlüğünü Denetle <sup>24.10</sup>
+
+Şekillerin görünürlüğünü denetlemek için yeni bir genel özellik [hidden](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/hidden/) eklendi.
+
+#### Pasta ve Halka Grafiklerindeki Değişiklikler <sup>24.10</sup>
+
+Pasta ve Halka grafiklerini biçimlendirmek için birkaç yeni genel özellik eklendi.
+
 ### Belgeleri Dönüştürme, Yükleme ve Kaydetme
 
-#### Markdown Dosyalarını Yüklerken Alt Çizgi Biçimlendirmesi
+#### Markdown Dosyalarını Yüklerken Alt Çizgi Biçimlendirmesi <sup>24.9</sup>
 
 Markdown belgelerini yüklerken alt çizgi biçimlendirmesini tanıma seçeneği, yeni bir genel özellik [import_underline_formatting property](https://reference.aspose.com/words/python-net/aspose.words.loading/markdownloadoptions/import_underline_formatting/) eklenerek dahil edildi.
 
+#### Markdown'a kaydederken tabloları HTML olarak dışa aktarma <sup>24.10</sup>
+
+Belgeleri Markdown biçimine kaydederken tabloları HTML olarak dışa aktarma seçeneği, yeni bir genel özellik [export_as_html](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/export_as_html/) ve bir numaralandırma [MarkdownExportAsHtml](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownexportashtml/) eklenerek uygulandı.
+
 ### Dijital İmzalar
 
-#### Belgeleri XAdES-EPES ile İmzala
+#### Belgeleri XAdES-EPES ile İmzala <sup>24.9</sup>
 
 Belgeleri XAdES-EPES düzeyinde XML-DSig imzalarıyla imzalama yeteneği, yeni bir genel özellik [xml_dsig_level](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/signoptions/xml_dsig_level/) ve yeni bir genel numaralandırma [XmlDsigLevel](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/xmldsiglevel/) eklenerek tanıtıldı.
 
 ### Diğer
 
-* Grup şekillerine yeni bir genel yöntem [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/) eklendi.
-* Bir belgeye **StructuredDocumentTags** eklemek için yeni bir genel yöntem [insert_structured_document_tag](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_structured_document_tag/) eklendi.
-* Birkaç genel sınıf ve özellik eklenerek dipnot/sonnot ayırıcılarına genel erişim sağlandı.
+* Grup şekillerine yeni bir genel yöntem [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/) eklendi. <sup>24.9</sup>
+* Bir belgeye **StructuredDocumentTags** eklemek için yeni bir genel yöntem [insert_structured_document_tag](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_structured_document_tag/) eklendi. <sup>24.9</sup>
+* Birkaç genel sınıf ve özellik eklenerek dipnot/sonnot ayırıcılarına genel erişim sağlandı. <sup>24.9</sup>
+* Tek tek şekilleri gruplama, şekilleri birlikte gruplama ve hem şekilleri hem de grup şekillerini doğrudan gruplama yeteneği, [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/#float_float_float_float_shapebaselist) yöntemi eklenerek tanıtıldı. <sup>24.10</sup>
+* TrueType cmap tabloları için Big5 kodlama işleme iyileştirildi. <sup>24.10</sup>
+* Güncel olmayan Tayvan yazı tipleri için destek geliştirildi. <sup>24.10</sup>
 
 {{% alert color="primary" %}}
 
 [Python via .NET 24.9 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-9-release-notes/) hakkında daha fazla bilgi edinin.
+
+[Python via .NET 24.10 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-10-release-notes/) hakkında daha fazla bilgi edinin.
 
 {{% /alert %}}
 
@@ -83,7 +106,7 @@ Sürüm 24.7'den başlayarak, engelli kullanıcıların erişilebilirliğini sa�
 
 [custom_number_style_format](https://reference.aspose.com/words/python-net/aspose.words.lists/listlevel/custom_number_style_format/) genel özelliği için bir ayarlayıcı eklendi. Artık liste düzeyleri için özel bir sayı stili tanımlayabilirsiniz.
 
-#### ActiveX <sup>24.7</sup> ile çalışmadaki değişiklikler
+#### ActiveX ile çalışmadaki değişiklikler <sup>24.7</sup>
 
 * ActiveX nesnelerinin özellikleri artık değiştirilebilir, böylece davranışları üzerinde daha fazla kontrol sahibi olursunuz.
 * Dinamik etkileşimi etkinleştirmek için radyo düğmesi ActiveX kontrolünün değerini değiştirme yeteneği eklendi.

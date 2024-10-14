@@ -11,6 +11,63 @@ url: /tr/java/what-s-new-in-aspose-words-for-java/
 
 Bu sayfada, son zamanlarda yapılan sürümlerde tanıtılan en ilginç yeni Aspose.Words özelliklerine ilişkin açıklamalar bulunmaktadır.
 
+## Java 24.9, 24.10 için Aspose.Words
+
+Aspose.Words 24.9, DocumentBuilder aracılığıyla grup şekli ekleme ve StructuredDocumentTag eklemeyi sunar, derecelendirmelerle radyal grafik oluşturmayı geliştirir, XAdES-EPES desteğiyle dijital imzaları iyileştirir, Markdown alt çizgi tanıma ekler ve dipnot/sonnot ayırıcılarına erişim sağlar.
+
+Aspose.Words 24.10, CommandButton oluşturma, yeni şekil görünürlük denetimi, şekilleri gruplama yeteneği, tablolar için geliştirilmiş Markdown dışa aktarma, Pasta ve Halka grafikleri için grafik biçimlendirme, daha iyi Big5 kodlama işleme ve güncel olmayan Tayvan yazı tipleri için destek ile gelişmiş ActiveX denetim desteği sunar.
+
+### İşleme ve Yazdırma
+
+#### Radyal Grafiklerde Derecelendirmeler <sup>24.9</sup>
+
+Radyal grafiklerde derecelendirmelerin işlenmesi uygulandı.
+
+#### CommandButton ActiveX Denetimleri <sup>24.10</sup>
+
+CommandButton ActiveX denetimleri oluşturma yeteneği, yeni bir genel yöntem [InsertForms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertForms2OleControl-com.aspose.words.Forms2OleControl) ve yeni bir genel sınıf [Forms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/) eklenerek tanıtıldı.
+
+#### Şekil Görünürlüğünü Kontrol Et <sup>24.10</sup>
+
+Şekillerin görünürlüğünü kontrol etmek için yeni bir genel özellik [Hidden](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getHidden) eklendi.
+
+#### Pasta ve Halka Grafiklerindeki Değişiklikler <sup>24.10</sup>
+
+Pasta ve Halka grafiklerini biçimlendirmek için birkaç yeni genel özellik eklendi.
+
+### Belgeleri Dönüştürme, Yükleme ve Kaydetme
+
+#### Markdown Dosyaları Yüklenirken Alt Çizgi Biçimlendirmesi <sup>24.9</sup>
+
+Markdown belgeleri yüklenirken alt çizgi biçimlendirmesini tanıma seçeneği, yeni bir genel özellik [ImportUnderlineFormatting](https://reference.aspose.com/words/java/com.aspose.words/markdownloadoptions/#getImportUnderlineFormatting) eklenerek dahil edildi.
+
+#### Markdown'a kaydederken tabloları HTML olarak dışa aktarma <sup>24.10</sup>
+
+Belgeleri Markdown biçimine kaydederken tabloları HTML olarak dışa aktarma seçeneği, yeni bir genel özellik [ExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getExportAsHtml) ve bir numaralandırma [MarkdownExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownexportashtml/) eklenerek uygulandı.
+
+### Dijital İmzalar
+
+#### Belgeleri XAdES-EPES ile İmzalayın <sup>24.9</sup>
+
+Belgeleri XAdES-EPES düzeyinde XML-DSig imzalarıyla imzalama yeteneği, yeni bir genel özellik [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/signoptions/#getXmlDsigLevel) ve yeni bir genel numaralandırma [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/xmldsiglevel/) eklenerek tanıtıldı
+
+### Diğer
+
+* Yeni bir genel yöntem [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-com.aspose.words.Shape...) eklendi Grup şekillerine eklendi. <sup>24.9</sup>
+* Bir belgeye **StructuredDocumentTags** eklemek için yeni bir genel yöntem [InsertStructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertStructuredDocumentTag-int) eklendi. <sup>24.9</sup>
+* Birkaç genel sınıf ve özellik eklenerek dipnot/sonnot ayırıcılarına genel erişim sağlandı. <sup>24.9</sup>
+* Tek tek şekilleri gruplama, şekilleri birlikte gruplama ve hem şekilleri hem de grup şekillerini doğrudan gruplama yeteneği [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-double-double-double-double-com.aspose.words.ShapeBase...) yöntemi eklenerek tanıtıldı. <sup>24.10</sup>
+* TrueType cmap tabloları için Big5 kodlama işleme iyileştirildi. <sup>24.10</sup>
+* Güncel olmayan Tayvan yazı tipleri için destek geliştirildi. <sup>24.10</sup>
+
+{{% alert color="primary" %}}
+
+Daha fazla bilgi için [Aspose.Words for Java 24.9 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/) hakkında öğrenin.
+
+Daha fazla bilgi için [Aspose.Words for Java 24.10 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-10-release-notes/) hakkında öğrenin.
+
+{{% /alert %}}
+
 ## Aspose.Words için Java 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 montajlar için seçenekleri genişletir, renderleme yeteneklerini geliştirir ve bazı diğer seçenekleri genişletir.

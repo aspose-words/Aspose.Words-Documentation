@@ -11,37 +11,60 @@ url: /zh/python-net/what-s-new-in-aspose-words-for-python-net/
 
 本页描述了最近版本中引入的最有趣的新 Aspose.Words 功能。
 
-## 通过 .NET 24.9 为 Python 提供 Aspose.Words
+## 通过 .NET 24.9、24.10 为 Python 提供 Aspose.Words
 
 Aspose.Words 24.9 通过 DocumentBuilder 引入了组形状插入和 StructuredDocumentTag 插入，增强了带有刻度的径向图表渲染，通过 XAdES-EPES 支持改进了数字签名，添加了 Markdown 下划线识别，并提供了对脚注/尾注分隔符的访问。
 
+Aspose.Words 24.10 引入了增强的 ActiveX 控件支持，包括 CommandButton 创建、新的形状可见性控制、对形状进行分组的能力、改进的表格 Markdown 导出、饼图和环形图的图表格式、更好的 Big5 编码处理以及对过时的台湾字体的支持。
+
 ### 渲染和打印
 
-#### 径向图表上的刻度
+#### 径向图表上的刻度 <sup>24.9</sup>
 
 已实现径向图表上刻度的渲染。
 
+#### CommandButton ActiveX 控件 <sup>24.10</sup>
+
+通过添加新的公共方法 [insert_forms_2_ole_control](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_forms_2_ole_control/) 和新的公共类 [Forms2OleControl](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/)，引入了创建 CommandButton ActiveX 控件的能力。
+
+#### 控制形状可见性 <sup>24.10</sup>
+
+添加了新的公共属性 [hidden](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/hidden/) 来控制形状的可见性。
+
+#### 饼图和环形图中的变化 <sup>24.10</sup>
+
+添加了几个新的公共属性来格式化饼图和环形图。
+
 ### 转换、加载和保存文档
 
-#### 加载 Markdown 文件时的下划线格式
+#### 加载 Markdown 文件时的下划线格式 <sup>24.9</sup>
 
 通过添加新的公共属性 [import_underline_formatting property](https://reference.aspose.com/words/python-net/aspose.words.loading/markdownloadoptions/import_underline_formatting/)，已纳入在加载 Markdown 文档时识别下划线格式的选项。
 
+#### 保存为 Markdown 时将表格导出为 HTML <sup>24.10</sup>
+
+通过添加新的公共属性 [export_as_html](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/export_as_html/) 和枚举 [MarkdownExportAsHtml](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownexportashtml/)，实现了将文档保存为 Markdown 格式时将表格导出为 HTML 的选项。
+
 ### 数字签名
 
-#### 使用 XAdES-EPES 签署文档
+#### 使用 XAdES-EPES 签署文档 <sup>24.9</sup>
 
 通过添加新的公共属性 [xml_dsig_level](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/signoptions/xml_dsig_level/) 和新的公共枚举 [XmlDsigLevel](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/xmldsiglevel/)，引入了使用 XAdES-EPES 级别 XML-DSig 签名签署文档的功能。
 
 ### 其他
 
-* 添加了新的公共方法 [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/) 来分组形状。
-* 添加了新的公共方法 [insert_structured_document_tag](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_structured_document_tag/)，用于将 **StructuredDocumentTags** 插入文档。
-* 通过添加一些公共类和属性，提供了对脚注/尾注分隔符的公共访问。
+* 添加了新的公共方法 [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/) 来分组形状。 <sup>24.9</sup>
+* 添加了新的公共方法 [insert_structured_document_tag](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_structured_document_tag/)，用于将 **StructuredDocumentTags** 插入文档。 <sup>24.9</sup>
+* 通过添加一些公共类和属性，提供了对脚注/尾注分隔符的公共访问。 <sup>24.9</sup>
+* 通过添加 [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/#float_float_float_float_shapebaselist) 方法，引入了对单个形状进行分组、将形状组合在一起以及直接对形状和组合形状进行分组的功能。<sup>24.10</sup>
+* 改进了 TrueType cmap 表的 Big5 编码处理。<sup>24.10</sup>
+* 增强了对过时的台湾字体的支持。<sup>24.10</sup>
 
 {{% alert color="primary" %}}
 
 了解有关 [Aspose.Words for Python via .NET 24.9 发行说明](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-9-release-notes/) 的更多信息。
+
+了解有关 [Aspose.Words for Python via .NET 24.10 发行说明](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-10-release-notes/) 的更多信息。
 
 {{% /alert %}}
 

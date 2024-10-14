@@ -11,37 +11,60 @@ url: /id/java/what-s-new-in-aspose-words-for-java/
 
 Halaman ini menjelaskan yang paling menarik Aspose.Words fitur yang diperkenalkan dalam rilis terbaru.
 
-## Aspose.Words untuk Java 24.9
+## Aspose.Words untuk Java 24.9, 24.10
 
 Aspose.Words 24.9 memperkenalkan penyisipan bentuk grup dan penyisipan StructuredDocumentTag via DocumentBuilder, menyempurnakan perenderan bagan radial dengan gradasi, menyempurnakan tanda tangan digital dengan dukungan XAdES-EPES, menambahkan pengenalan garis bawah Markdown, dan menyediakan akses ke pemisah catatan kaki/catatan akhir.
 
+Aspose.Words 24.10 memperkenalkan dukungan kontrol ActiveX yang disempurnakan dengan pembuatan CommandButton, kontrol visibilitas bentuk baru, kemampuan untuk mengelompokkan bentuk, peningkatan ekspor Markdown untuk tabel, pemformatan bagan untuk bagan Pie dan Donat, penanganan pengodean Big5 yang lebih baik, dan dukungan untuk font Taiwan yang sudah ketinggalan zaman.
+
 ### Perenderan dan Pencetakan
 
-#### Graduasi pada Bagan Radial
+#### Graduasi pada Bagan Radial <sup>24.9</sup>
 
 Perenderan gradasi pada bagan radial telah diimplementasikan.
 
+#### Kontrol ActiveX CommandButton <sup>24.10</sup>
+
+Kemampuan untuk membuat kontrol ActiveX CommandButton telah diperkenalkan dengan menambahkan metode publik baru [InsertForms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertForms2OleControl-com.aspose.words.Forms2OleControl) dan kelas publik baru [Forms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/).
+
+#### Kontrol Visibilitas Bentuk <sup>24.10</sup>
+
+Properti publik baru [Hidden](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getHidden) telah ditambahkan untuk mengontrol visibilitas bentuk.
+
+#### Perubahan pada Bagan Pai dan Donat <sup>24.10</sup>
+
+Beberapa properti publik baru telah ditambahkan untuk memformat bagan Pai dan Donat.
+
 ### Mengonversi, Memuat, dan Menyimpan Dokumen
 
-#### Pemformatan Garis Bawah saat Memuat File Markdown
+#### Pemformatan Garis Bawah saat Memuat File Markdown <sup>24.9</sup>
 
 Opsi untuk mengenali pemformatan garis bawah saat memuat dokumen Markdown telah disertakan dengan menambahkan properti publik baru [ImportUnderlineFormatting](https://reference.aspose.com/words/java/com.aspose.words/markdownloadoptions/#getImportUnderlineFormatting).
 
+#### Mengekspor tabel sebagai HTML saat menyimpan ke Markdown <sup>24.10</sup>
+
+Opsi untuk mengekspor tabel sebagai HTML saat menyimpan dokumen ke format Markdown telah diimplementasikan dengan menambahkan properti publik baru [ExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getExportAsHtml) dan enumerasi [MarkdownExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownexportashtml/).
+
 ### Tanda Tangan Digital
 
-#### Menandatangani Dokumen dengan XAdES-EPES
+#### Menandatangani Dokumen dengan XAdES-EPES <sup>24.9</sup>
 
 Kemampuan untuk menandatangani dokumen dengan tanda tangan XML-DSig level XAdES-EPES telah diperkenalkan dengan menambahkan properti publik baru [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/signoptions/#getXmlDsigLevel) dan enumerasi publik baru [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/xmldsiglevel/)
 
 ### Lainnya
 
-* Metode publik baru [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-com.aspose.words.Shape...) telah ditambahkan untuk mengelompokkan bentuk.
-* Metode publik baru [InsertStructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertStructuredDocumentTag-int) telah ditambahkan untuk memasukkan **StructuredDocumentTags** ke dalam dokumen.
-* Akses publik ke pemisah catatan kaki/catatan akhir telah disediakan dengan menambahkan beberapa kelas dan properti publik.
+* Metode publik baru [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-com.aspose.words.Shape...) telah ditambahkan untuk mengelompokkan bentuk. <sup>24.9</sup>
+* Metode publik baru [InsertStructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertStructuredDocumentTag-int) telah ditambahkan untuk memasukkan **StructuredDocumentTags** ke dalam dokumen. <sup>24.9</sup>
+* Akses publik ke pemisah catatan kaki/catatan akhir telah disediakan dengan menambahkan beberapa kelas dan properti publik. <sup>24.9</sup>
+* Kemampuan untuk mengelompokkan bentuk individual, mengelompokkan bentuk bersama-sama, dan langsung mengelompokkan kedua bentuk dan mengelompokkan bentuk telah diperkenalkan dengan menambahkan metode [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-double-double-double-double-com.aspose.words.ShapeBase...). <sup>24.10</sup>
+* Penanganan pengodean Big5 untuk tabel cmap TrueType telah ditingkatkan. <sup>24.10</sup>
+* Dukungan untuk font Taiwan yang sudah ketinggalan zaman telah ditingkatkan. <sup>24.10</sup>
 
 {{% alert color="primary" %}}
 
 Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Java 24.9](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/).
+
+Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Java 24.10](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-10-release-notes/).
 
 {{% /alert %}}
 

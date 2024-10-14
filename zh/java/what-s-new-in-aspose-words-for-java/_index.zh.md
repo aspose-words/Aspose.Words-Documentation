@@ -11,37 +11,60 @@ url: /zh/java/what-s-new-in-aspose-words-for-java/
 
 此页面描述最有趣的新 Aspose.Words 近期发布时引入的特征。
 
-## Aspose.Words for Java 24.9
+## Aspose.Words for Java 24.9、24.10
 
 Aspose.Words 24.9 通过 DocumentBuilder 引入了组形状插入和 StructuredDocumentTag 插入，增强了带有刻度的径向图表渲染，通过 XAdES-EPES 支持改进了数字签名，添加了 Markdown 下划线识别，并提供了对脚注/尾注分隔符的访问。
 
+Aspose.Words 24.10 引入了增强的 ActiveX 控件支持，包括 CommandButton 创建、新的形状可见性控制、对形状进行分组的能力、改进的表格 Markdown 导出、饼图和环形图的图表格式、更好的 Big5 编码处理以及对过时的台湾字体的支持。
+
 ### 渲染和打印
 
-#### 径向图表上的刻度
+#### 径向图表上的刻度 <sup>24.9</sup>
 
 已实现径向图表上刻度的渲染。
 
+#### CommandButton ActiveX 控件 <sup>24.10</sup>
+
+通过添加新的公共方法 [InsertForms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertForms2OleControl-com.aspose.words.Forms2OleControl) 和新的公共类 [Forms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/)，引入了创建 CommandButton ActiveX 控件的能力。
+
+#### 控制形状可见性 <sup>24.10</sup>
+
+添加了新的公共属性 [Hidden](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getHidden) 来控制形状的可见性。
+
+#### 饼图和环形图中的变化 <sup>24.10</sup>
+
+添加了几个新的公共属性来格式化饼图和环形图。
+
 ### 转换、加载和保存文档
 
-#### 加载 Markdown 文件时的下划线格式
+#### 加载 Markdown 文件时的下划线格式 <sup>24.9</sup>
 
 通过添加新的公共属性 [ImportUnderlineFormatting](https://reference.aspose.com/words/java/com.aspose.words/markdownloadoptions/#getImportUnderlineFormatting)，已纳入在加载 Markdown 文档时识别下划线格式的选项。
 
+#### 保存为 Markdown 时将表格导出为 HTML <sup>24.10</sup>
+
+通过添加新的公共属性 [ExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getExportAsHtml) 和枚举 [MarkdownExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownexportashtml/)，实现了将文档保存为 Markdown 格式时将表格导出为 HTML 的选项。
+
 ### 数字签名
 
-#### 使用 XAdES-EPES 签署文档
+#### 使用 XAdES-EPES 签署文档 <sup>24.9</sup>
 
 通过添加新的公共属性 [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/signoptions/#getXmlDsigLevel) 和新的公共枚举 [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/xmldsiglevel/)，引入了使用 XAdES-EPES 级别 XML-DSig 签名签署文档的功能。
 
 ### 其他
 
-* 添加了新的公共方法 [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-com.aspose.words.Shape...) 来分组形状。
-* 添加了新的公共方法 [InsertStructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertStructuredDocumentTag-int)，用于将 **StructuredDocumentTags** 插入文档。
-* 通过添加一些公共类和属性，提供了对脚注/尾注分隔符的公共访问。
+* 添加了新的公共方法 [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-com.aspose.words.Shape...) 来分组形状。 <sup>24.9</sup>
+* 添加了新的公共方法 [InsertStructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertStructuredDocumentTag-int)，用于将 **StructuredDocumentTags** 插入文档。 <sup>24.9</sup>
+* 通过添加一些公共类和属性，提供了对脚注/尾注分隔符的公共访问。 <sup>24.9</sup>
+* 通过添加 [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-double-double-double-double-com.aspose.words.ShapeBase...) 方法，引入了对单个形状进行分组、将形状组合在一起以及直接对形状和组合形状进行分组的功能。<sup>24.10</sup>
+* 改进了 TrueType cmap 表的 Big5 编码处理。<sup>24.10</sup>
+* 增强了对过时的台湾字体的支持。<sup>24.10</sup>
 
 {{% alert color="primary" %}}
 
 了解有关 [Aspose.Words for Java 24.9 发行说明](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/) 的更多信息。
+
+了解有关 [Aspose.Words for Java 24.10 发行说明](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-10-release-notes/) 的更多信息。
 
 {{% /alert %}}
 

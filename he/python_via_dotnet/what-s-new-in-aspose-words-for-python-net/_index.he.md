@@ -11,37 +11,60 @@ url: /he/python-net/what-s-new-in-aspose-words-for-python-net/
 
 דף זה מתאר את החדש המעניין ביותר Aspose.Words תכונות שהוצגו במהדורות האחרונות.
 
-## Aspose.Words עבור Python דרך .NET 24.9
+## Aspose.Words עבור Python דרך .NET 24.9, 24.10
 
 Aspose.Words 24.9 מציגה הכנסת צורות קבוצתיות והכנסת StructuredDocumentTag באמצעות DocumentBuilder, משפרת את עיבוד התרשים הרדיאלי עם דרגות, משפרת חתימות דיגיטליות עם תמיכה ב-XAdES-EPES, מוסיפה זיהוי קו תחתון של Markdown, ומספקת גישה למפרידי הערות שוליים/הערות סיום.
 
+Aspose.Words 24.10 מציג תמיכה משופרת בבקרת ActiveX עם יצירת CommandButton, בקרת נראות חדשה של צורות, יכולת לקבץ צורות, ייצוא Markdown משופר לטבלאות, עיצוב תרשימים עבור תרשימי עוגה וסופגנייה, טיפול טוב יותר בקידוד Big5 ותמיכה בגופנים טייוואנים מיושנים.
+
 ### עיבוד והדפסה
 
-#### סיום לימודים בתרשימים רדיאליים
+#### סיום לימודים בתרשימים רדיאליים <sup>24.9</sup>
 
 עיבוד של סיום על תרשימים רדיאליים יושם.
 
+#### פקדי ActiveX CommandButton <sup>24.10</sup>
+
+היכולת ליצור פקדי CommandButton ActiveX הוצגה על ידי הוספת שיטה ציבורית חדשה [insert_forms_2_ole_control](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_forms_2_ole_control/) ומחלקה ציבורית חדשה [Forms2OleControl](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/).
+
+#### שליטה בצורת נראות <sup>24.10</sup>
+
+מאפיין ציבורי חדש [hidden](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/hidden/) נוסף כדי לשלוט בנראות של צורות.
+
+#### שינויים בתרשימים של עוגה וסופגניות <sup>24.10</sup>
+
+מספר נכסים ציבוריים חדשים נוספו לפורמט תרשימי עוגה וסופגנייה.
+
 ### המרה, טעינה ושמירה של מסמכים
 
-#### עיצוב קו תחתון בעת ​​טעינת קבצי Markdown
+#### עיצוב קו תחתון בעת ​​טעינת קבצי Markdown <sup>24.9</sup>
 
 האפשרות לזהות עיצוב קו תחתון בעת ​​טעינת מסמכי Markdown שולבה על ידי הוספת מאפיין ציבורי חדש [import_underline_formatting property](https://reference.aspose.com/words/python-net/aspose.words.loading/markdownloadoptions/import_underline_formatting/).
 
+#### ייצוא טבלאות כ-HTML בעת שמירה ב-Markdown <sup>24.10</sup>
+
+אפשרות לייצא טבלאות כ-HTML בעת שמירת מסמכים בפורמט Markdown יושמה על ידי הוספת מאפיין ציבורי חדש [export_as_html](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/export_as_html/) וספירה [MarkdownExportAsHtml](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownexportashtml/).
+
 ### חתימות דיגיטליות
 
-#### חתום על מסמכים עם XAdES-EPES
+#### חתום על מסמכים עם XAdES-EPES <sup>24.9</sup>
 
 היכולת לחתום על מסמכים עם חתימות XML-DSig ברמת XAdES-EPES הוצגה על ידי הוספת מאפיין ציבורי חדש [xml_dsig_level](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/signoptions/xml_dsig_level/) וספירה ציבורית חדשה [XmlDsigLevel](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/xmldsiglevel/).
 
 ### אחר
 
-* שיטה ציבורית חדשה [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/) נוספה לצורות קבוצתיות.
-* שיטה ציבורית חדשה [insert_structured_document_tag](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_structured_document_tag/) נוספה כדי להוסיף **StructuredDocumentTags** למסמך.
-* גישה ציבורית למפרידי הערות שוליים/הערות סיום ניתנה על ידי הוספת כמה מחלקות ומאפיינים ציבוריים.
+* שיטה ציבורית חדשה [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/) נוספה לצורות קבוצתיות. <sup>24.9</sup>
+* שיטה ציבורית חדשה [insert_structured_document_tag](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_structured_document_tag/) נוספה כדי להוסיף **StructuredDocumentTags** למסמך. <sup>24.9</sup>
+* גישה ציבורית למפרידי הערות שוליים/הערות סיום ניתנה על ידי הוספת כמה מחלקות ומאפיינים ציבוריים. <sup>24.9</sup>
+* היכולת לקבץ צורות בודדות, לקבץ צורות יחד ולקבץ ישירות גם צורות וגם צורות קבוצתיות הוצגה על ידי הוספת השיטה [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/#float_float_float_float_shapebaselist). <sup>24.10</sup>
+* טיפול בקידוד Big5 עבור טבלאות cmap TrueType שופר. <sup>24.10</sup>
+* התמיכה בגופנים טייוואנים מיושנים שופרה. <sup>24.10</sup>
 
 {{% alert color="primary" %}}
 
 למד עוד על [Aspose.Words עבור Python via .NET 24.9 הודעות](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-9-release-notes/).
+
+למד עוד על [Aspose.Words עבור Python via .NET 24.10 הודעות](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-10-release-notes/).
 
 {{% /alert %}}
 

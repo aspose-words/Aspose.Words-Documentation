@@ -11,37 +11,59 @@ url: /th/java/what-s-new-in-aspose-words-for-java/
 
 หน้านี้อธิบายสิ่งใหม่ที่น่าสนใจที่สุด Aspose.Words บทความที่นําเข้าเมื่อเร็ว ๆ นี้
 
-## Aspose.Words สําหรับ Java 24.9
+## Aspose.Words สําหรับ Java 24.9, 24.10
 
 Aspose.Words 24.9 แนะนำการแทรกรูปร่างกลุ่มและการแทรก StructuredDocumentTag ผ่าน DocumentBuilder ปรับปรุงการเรนเดอร์แผนภูมิรัศมีด้วยการไล่ระดับ ปรับปรุงลายเซ็นดิจิทัลด้วยการรองรับ XAdES-EPES เพิ่มการจดจำเส้นใต้มาร์กดาวน์ และให้การเข้าถึงตัวคั่นเชิงอรรถ/ท้ายบท
 
+Aspose.Words 24.10 นำเสนอการสนับสนุนการควบคุม ActiveX ที่ได้รับการปรับปรุงด้วยการสร้าง CommandButton การควบคุมการมองเห็นรูปร่างใหม่ ความสามารถในการจัดกลุ่มรูปร่าง การส่งออก Markdown ที่ปรับปรุงใหม่สำหรับตาราง การจัดรูปแบบแผนภูมิสำหรับแผนภูมิวงกลมและโดนัท การจัดการการเข้ารหัส Big5 ที่ดีขึ้น และการรองรับแบบอักษรไต้หวันที่ล้าสมัย
+
 ### การเรนเดอร์และการพิมพ์
 
-#### การไล่ระดับบนแผนภูมิรัศมี
+#### การไล่ระดับบนแผนภูมิรัศมี <sup>24.9</sup>
 
 การเรนเดอร์การไล่ระดับบนแผนภูมิรัศมีได้รับการนำไปใช้แล้ว
 
+#### การควบคุม ActiveX ของ CommandButton <sup>24.10</sup>
+
+ความสามารถในการสร้างตัวควบคุม ActiveX ของ CommandButton ได้รับการแนะนำโดยการเพิ่มวิธีการสาธารณะใหม่ [InsertForms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertForms2OleControl-com.aspose.words.Forms2OleControl) และคลาสสาธารณะใหม่ [Forms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/)
+
+#### การมองเห็นรูปร่างของตัวควบคุม <sup>24.10</sup>
+
+คุณสมบัติสาธารณะใหม่ [Hidden](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getHidden) ได้รับการเพิ่มเข้ามาเพื่อควบคุมการมองเห็นรูปร่าง
+#### การเปลี่ยนแปลงในแผนภูมิวงกลมและโดนัท <sup>24.10</sup>
+
+มีการเพิ่มคุณสมบัติสาธารณะใหม่หลายรายการให้กับรูปแบบแผนภูมิวงกลมและโดนัท
+
 ### การแปลง การโหลด และการบันทึกเอกสาร
 
-#### การจัดรูปแบบขีดเส้นใต้เมื่อโหลดไฟล์มาร์กดาวน์
+#### การจัดรูปแบบขีดเส้นใต้เมื่อโหลดไฟล์มาร์กดาวน์ <sup>24.9</sup>
 
 ตัวเลือกในการรับรู้การจัดรูปแบบขีดเส้นใต้เมื่อโหลดเอกสารมาร์กดาวน์ได้รับการรวมเข้าไว้ด้วยการเพิ่มคุณสมบัติสาธารณะใหม่ [ImportUnderlineFormatting](https://reference.aspose.com/words/java/com.aspose.words/markdownloadoptions/#getImportUnderlineFormatting)
 
+#### การส่งออกตารางเป็น HTML เมื่อบันทึกเป็นมาร์กดาวน์ <sup>24.10</sup>
+
+มีการนำตัวเลือกในการส่งออกตารางเป็น HTML เมื่อบันทึกเอกสารเป็นรูปแบบมาร์กดาวน์มาใช้โดยการเพิ่มคุณสมบัติสาธารณะใหม่ [ExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getExportAsHtml) และการแจงนับ [MarkdownExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownexportashtml/)
+
 ### ลายเซ็นดิจิทัล
 
-#### ลงนามในเอกสารด้วย XAdES-EPES
+#### ลงนามในเอกสารด้วย XAdES-EPES <sup>24.9</sup>
 
 ความสามารถในการลงนามในเอกสารด้วยลายเซ็น XML-DSig ระดับ XAdES-EPES ได้รับการแนะนำโดยการเพิ่มคุณสมบัติสาธารณะใหม่ [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/signoptions/#getXmlDsigLevel) และการแจงนับสาธารณะใหม่ [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/xmldsiglevel/)
 
 ### อื่นๆ
 
-* มีการเพิ่มวิธีสาธารณะใหม่ [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-com.aspose.words.Shape...) ให้กับรูปร่างของกลุ่ม
-* มีการเพิ่มวิธีสาธารณะใหม่ [InsertStructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertStructuredDocumentTag-int) เพื่อแทรก **StructuredDocumentTags** ลงในเอกสาร
-* มีการให้สิทธิ์การเข้าถึงแบบสาธารณะสำหรับตัวคั่นเชิงอรรถ/ท้ายบทโดยการเพิ่มคลาสและคุณสมบัติสาธารณะบางส่วน
+* มีการเพิ่มวิธีสาธารณะใหม่ [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-com.aspose.words.Shape...) ให้กับรูปร่างของกลุ่ม <sup>24.9</sup>
+* มีการเพิ่มวิธีสาธารณะใหม่ [InsertStructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertStructuredDocumentTag-int) เพื่อแทรก **StructuredDocumentTags** ลงในเอกสาร <sup>24.9</sup>
+* มีการให้สิทธิ์การเข้าถึงแบบสาธารณะสำหรับตัวคั่นเชิงอรรถ/ท้ายบทโดยการเพิ่มคลาสและคุณสมบัติสาธารณะบางส่วน <sup>24.9</sup>
+* มีการนำความสามารถในการจัดกลุ่มรูปร่างแต่ละรูปร่าง จัดกลุ่มรูปร่างเข้าด้วยกัน และจัดกลุ่มทั้งรูปร่างและกลุ่มรูปร่างโดยตรงมาใช้ โดยการเพิ่มวิธีการ [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-double-double-double-double-com.aspose.words.ShapeBase...) <sup>24.10</sup>
+* ปรับปรุงการจัดการการเข้ารหัส Big5 สำหรับตาราง cmap แบบ TrueType แล้ว <sup>24.10</sup>
+* ปรับปรุงการรองรับฟอนต์ไต้หวันที่ล้าสมัยแล้ว <sup>24.10</sup>
 
 {{% alert color="primary" %}}
 
 เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.Words สำหรับบันทึกประจำรุ่น Java 24.9](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/)
+
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.Words สำหรับบันทึกประจำรุ่น Java 24.10](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-10-release-notes/)
 
 {{% /alert %}}
 

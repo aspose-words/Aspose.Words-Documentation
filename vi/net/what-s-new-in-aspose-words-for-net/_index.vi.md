@@ -11,37 +11,60 @@ url: /vi/net/what-s-new-in-aspose-words-for-net/
 
 Trang này mô tả các tính năng Aspose.Words mới thú vị nhất được giới thiệu trong các bản phát hành gần đây.
 
-## Aspose.Words cho .NET 24.9
+## Aspose.Words cho .NET 24.9, 24.10
 
 Aspose.Words 24.9 giới thiệu chèn hình dạng nhóm và chèn StructuredDocumentTag thông qua DocumentBuilder, cải thiện khả năng hiển thị biểu đồ hình tròn với các vạch chia độ, cải thiện chữ ký số với hỗ trợ XAdES-EPES, thêm nhận dạng gạch chân Markdown và cung cấp quyền truy cập vào các dấu phân cách chú thích cuối trang/chú thích cuối trang.
 
+Aspose.Words 24.10 giới thiệu hỗ trợ điều khiển ActiveX nâng cao với tính năng tạo CommandButton, điều khiển khả năng hiển thị hình dạng mới, khả năng nhóm hình dạng, cải thiện khả năng xuất Markdown cho bảng, định dạng biểu đồ cho biểu đồ Pie và Doughnut, xử lý mã hóa Big5 tốt hơn và hỗ trợ phông chữ Đài Loan lỗi thời.
+
 ### Hiển thị và in
 
-#### Vạch chia độ trên biểu đồ hình tròn
+#### Vạch chia độ trên biểu đồ hình tròn <sup>24.9</sup>
 
 Đã triển khai hiển thị vạch chia độ trên biểu đồ hình tròn.
 
+#### CommandButton ActiveX Controls <sup>24.10</sup>
+
+Khả năng tạo điều khiển CommandButton ActiveX đã được giới thiệu bằng cách thêm phương thức công khai mới [InsertForms2OleControl](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertforms2olecontrol/) và lớp công khai mới [Forms2OleControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/forms2olecontrol/).
+
+#### Kiểm soát khả năng hiển thị hình dạng <sup>24.10</sup>
+
+Một thuộc tính công khai mới [Hidden](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/hidden/) đã được thêm vào để kiểm soát khả năng hiển thị của hình dạng.
+
+#### Thay đổi trong Biểu đồ hình tròn và hình bánh rán <sup>24.10</sup>
+
+Một số thuộc tính công khai mới đã được thêm vào để định dạng biểu đồ hình tròn và hình bánh rán.
+
 ### Chuyển đổi, tải và lưu tài liệu
 
-#### Định dạng gạch chân khi tải tệp Markdown
+#### Định dạng gạch chân khi tải tệp Markdown <sup>24.9</sup>
 
 Tùy chọn nhận dạng định dạng gạch chân khi tải tài liệu Markdown đã được tích hợp bằng cách thêm thuộc tính công khai mới [ImportUnderlineFormatting](https://reference.aspose.com/words/net/aspose.words.loading/markdownloadoptions/importunderlineformatting/).
 
+#### Xuất bảng dưới dạng HTML khi lưu vào Markdown <sup>24.10</sup>
+
+Một tùy chọn để xuất bảng dưới dạng HTML khi lưu tài liệu vào định dạng Markdown đã được triển khai bằng cách thêm thuộc tính công khai mới [ExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/exportashtml/) và phép liệt kê [MarkdownExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownexportashtml/).
+
 ### Chữ ký số
 
-#### Ký tài liệu bằng XAdES-EPES
+#### Ký tài liệu bằng XAdES-EPES <sup>24.9</sup>
 
 Khả năng ký tài liệu bằng chữ ký XML-DSig cấp XAdES-EPES đã được giới thiệu bằng cách thêm thuộc tính công khai mới [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions/xmldsiglevel/) và phép liệt kê công khai mới [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/xmldsiglevel/).
 
 ### Khác
 
-* Một phương thức công khai mới [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/) đã được thêm vào nhóm hình dạng.
-* Một phương thức công khai mới [InsertStructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertstructureddocumenttag/) đã được thêm vào để chèn **StructuredDocumentTags** vào một tài liệu.
-* Quyền truy cập công khai vào các dấu phân cách chú thích cuối trang/chú thích cuối trang đã được cung cấp bằng cách thêm một số lớp và thuộc tính công khai.
+* Một phương thức công khai mới [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/) đã được thêm vào nhóm hình dạng. <sup>24.9</sup>
+* Một phương thức công khai mới [InsertStructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertstructureddocumenttag/) đã được thêm vào để chèn **StructuredDocumentTags** vào một tài liệu. <sup>24.9</sup>
+* Quyền truy cập công khai vào các dấu phân cách chú thích cuối trang/chú thích cuối trang đã được cung cấp bằng cách thêm một số lớp và thuộc tính công khai. <sup>24.9</sup>
+* Khả năng nhóm các hình dạng riêng lẻ, nhóm các hình dạng lại với nhau và nhóm trực tiếp cả hai hình dạng và nhóm các hình dạng đã được giới thiệu bằng cách thêm phương thức [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/#insertgroupshape_1). <sup>24.10</sup>
+* Xử lý mã hóa Big5 cho bảng cmap TrueType đã được cải thiện. <sup>24.10</sup>
+* Hỗ trợ cho các phông chữ Đài Loan lỗi thời đã được cải thiện. <sup>24.10</sup>
 
 {{% alert color="primary" %}}
 
 Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 24.9](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-9-release-notes/).
+
+Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 24.10](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-10-release-notes/).
 
 {{% /alert %}}
 

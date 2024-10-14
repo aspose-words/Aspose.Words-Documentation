@@ -11,11 +11,68 @@ url: /vi/java/what-s-new-in-aspose-words-for-java/
 
 Trang này mô tả các tính năng mới thú vị nhất Aspose.Words được đưa vào trong các bản phát hành gần đây.
 
-## " Aspose.Words cho Java 24.5, 24.6, 24.7, 24.8"
+## Aspose.Words cho Java 24.9, 24.10
+
+Aspose.Words 24.9 giới thiệu tính năng chèn hình dạng nhóm và chèn StructuredDocumentTag thông qua DocumentBuilder, cải thiện khả năng hiển thị biểu đồ hình tròn với các vạch chia độ, cải thiện chữ ký số với hỗ trợ XAdES-EPES, thêm tính năng nhận dạng gạch chân Markdown và cung cấp quyền truy cập vào các dấu phân cách chú thích cuối trang/chú thích cuối trang.
+
+Aspose.Words 24.10 giới thiệu hỗ trợ điều khiển ActiveX nâng cao với tính năng tạo CommandButton, điều khiển khả năng hiển thị hình dạng mới, khả năng nhóm hình dạng, cải thiện khả năng xuất Markdown cho bảng, định dạng biểu đồ cho biểu đồ Pie và Doughnut, xử lý mã hóa Big5 tốt hơn và hỗ trợ phông chữ Đài Loan lỗi thời.
+
+### Hiển thị và in
+
+#### Vạch chia độ trên biểu đồ hình tròn <sup>24.9</sup>
+
+Đã triển khai khả năng hiển thị vạch chia độ trên biểu đồ hình tròn.
+
+#### CommandButton ActiveX Controls <sup>24.10</sup>
+
+Khả năng tạo các điều khiển CommandButton ActiveX đã được giới thiệu bằng cách thêm một phương thức công khai mới [InsertForms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertForms2OleControl-com.aspose.words.Forms2OleControl) và một lớp công khai mới [Forms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/).
+
+#### Kiểm soát khả năng hiển thị hình dạng <sup>24.10</sup>
+
+Một thuộc tính công khai mới [Hidden](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getHidden) đã được thêm vào để kiểm soát khả năng hiển thị của hình dạng.
+
+#### Thay đổi trong Biểu đồ hình tròn và hình bánh rán <sup>24.10</sup>
+
+Một số thuộc tính công khai mới đã được thêm vào để định dạng biểu đồ hình tròn và hình bánh rán.
+
+### Chuyển đổi, Tải và Lưu Tài liệu
+
+#### Định dạng Gạch chân khi Tải Tệp Markdown <sup>24.9</sup>
+
+Tùy chọn nhận dạng định dạng gạch chân khi tải tài liệu Markdown đã được tích hợp bằng cách thêm thuộc tính công khai mới [ImportUnderlineFormatting](https://reference.aspose.com/words/java/com.aspose.words/markdownloadoptions/#getImportUnderlineFormatting).
+
+#### Xuất bảng dưới dạng HTML khi lưu vào Markdown <sup>24.10</sup>
+
+Tùy chọn xuất bảng dưới dạng HTML khi lưu tài liệu vào định dạng Markdown đã được triển khai bằng cách thêm thuộc tính công khai mới [ExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getExportAsHtml) và phép liệt kê [MarkdownExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownexportashtml/).
+
+### Chữ ký số
+
+#### Ký tài liệu bằng XAdES-EPES <sup>24.9</sup>
+
+Khả năng ký tài liệu bằng chữ ký XML-DSig cấp XAdES-EPES đã được giới thiệu bằng cách thêm thuộc tính công khai mới [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/signoptions/#getXmlDsigLevel) và phép liệt kê công khai mới [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/xmldsiglevel/)
+
+### Khác
+
+* Một phương thức công khai mới [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-com.aspose.words.Shape...) đã được thêm vào nhóm hình dạng. <sup>24.9</sup>
+* Một phương thức công khai mới [InsertStructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertStructuredDocumentTag-int) đã được thêm vào để chèn **StructuredDocumentTags** vào tài liệu. <sup>24.9</sup>
+* Quyền truy cập công khai vào các dấu phân cách chú thích cuối trang/chú thích cuối trang đã được cung cấp bằng cách thêm một số lớp và thuộc tính công khai. <sup>24.9</sup>
+* Khả năng nhóm các hình dạng riêng lẻ, nhóm các hình dạng lại với nhau và nhóm trực tiếp cả hai hình dạng và nhóm các hình dạng đã được giới thiệu bằng cách thêm phương thức [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-double-double-double-double-com.aspose.words.ShapeBase...). <sup>24.10</sup>
+* Xử lý mã hóa Big5 cho các bảng cmap TrueType đã được cải thiện. <sup>24.10</sup>
+* Hỗ trợ cho các phông chữ Đài Loan lỗi thời đã được cải thiện. <sup>24.10</sup>
+
+{{% alert color="primary" %}}
+
+Học thêm về [Aspose.Words for Java 24.9 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/).
+
+Học thêm về [Aspose.Words for Java 24.10 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-10-release-notes/).
+
+{{% /alert %}}
+
+## Aspose.Words cho Java 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 mở rộng các tùy chọn cho việc lắp ráp, cải thiện khả năng hiển thị và mở rộng một số tùy chọn khác.
 
-"Aspose.Words 24.6 cải thiện các tùy chọn hiển thị, tăng cường chức năng tìm kiếm và so sánh, và mở rộng một số tính năng khác."
+Aspose.Words 24.6 cải thiện các tùy chọn hiển thị, tăng cường chức năng tìm kiếm và so sánh, và mở rộng một số tính năng khác.
 
 Aspose.Words 24.7 thay đổi cách bạn làm việc với ActiveX, mở rộng khả năng hiển thị cũng như xuất sang các định dạng Markdown và XLSX.
 

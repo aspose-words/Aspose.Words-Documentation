@@ -11,37 +11,60 @@ url: /he/net/what-s-new-in-aspose-words-for-net/
 
 דף זה מתאר את החדש המעניין ביותר Aspose.Words תכונות שהוצגו במהדורות האחרונות.
 
-## Aspose.Words עבור .NET 24.9
+## Aspose.Words עבור .NET 24.9, 24.10
 
 Aspose.Words 24.9 מציגה הכנסת צורות קבוצתיות והכנסת StructuredDocumentTag באמצעות DocumentBuilder, משפרת את עיבוד התרשים הרדיאלי עם דרגות, משפרת חתימות דיגיטליות עם תמיכה ב-XAdES-EPES, מוסיפה זיהוי קו תחתון של Markdown, ומספקת גישה למפרידי הערות שוליים/הערות סיום.
 
+Aspose.Words 24.10 מציג תמיכה משופרת בבקרת ActiveX עם יצירת CommandButton, בקרת נראות חדשה של צורות, יכולת לקבץ צורות, ייצוא Markdown משופר לטבלאות, עיצוב תרשימים עבור תרשימי עוגה וסופגנייה, טיפול טוב יותר בקידוד Big5 ותמיכה בגופנים טייוואנים מיושנים.
+
 ### עיבוד והדפסה
 
-#### סיום לימודים בתרשימים רדיאליים
+#### סיום לימודים בתרשימים רדיאליים <sup>24.9</sup>
 
 עיבוד של סיום על תרשימים רדיאליים יושם.
 
+#### פקדי ActiveX CommandButton <sup>24.10</sup>
+
+היכולת ליצור פקדי CommandButton ActiveX הוצגה על ידי הוספת שיטה ציבורית חדשה [InsertForms2OleControl](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertforms2olecontrol/) ומחלקה ציבורית חדשה [Forms2OleControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/forms2olecontrol/).
+
+#### שליטה בצורת נראות <sup>24.10</sup>
+
+נכס ציבורי חדש [Hidden](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/hidden/) נוסף כדי לשלוט בנראות של צורות.
+
+#### שינויים בתרשימים של עוגה וסופגניות <sup>24.10</sup>
+
+מספר נכסים ציבוריים חדשים נוספו לפורמט תרשימי עוגה וסופגנייה.
+
 ### המרה, טעינה ושמירה של מסמכים
 
-#### עיצוב קו תחתון בעת ​​טעינת קבצי Markdown
+#### עיצוב קו תחתון בעת ​​טעינת קבצי Markdown <sup>24.9</sup>
 
 האפשרות לזהות עיצוב קו תחתון בעת ​​טעינת מסמכי Markdown שולבה על ידי הוספת נכס ציבורי חדש [ImportUnderlineFormatting](https://reference.aspose.com/words/net/aspose.words.loading/markdownloadoptions/importunderlineformatting/).
 
+#### ייצוא טבלאות כ-HTML בעת שמירה ב-Markdown <sup>24.10</sup>
+
+אפשרות לייצא טבלאות כ-HTML בעת שמירת מסמכים בפורמט Markdown יושמה על ידי הוספת נכס ציבורי חדש [ExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/exportashtml/) וספירה [MarkdownExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownexportashtml/).
+
 ### חתימות דיגיטליות
 
-#### חתום על מסמכים עם XAdES-EPES
+#### חתום על מסמכים עם XAdES-EPES <sup>24.9</sup>
 
 היכולת לחתום על מסמכים עם חתימות XML-DSig ברמת XAdES-EPES הוצגה על ידי הוספת נכס ציבורי חדש [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions/xmldsiglevel/) וספירה ציבורית חדשה [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/xmldsiglevel/).
 
 ### אחר
 
-* שיטה ציבורית חדשה [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/) נוספה לצורות קבוצתיות.
-* שיטה ציבורית חדשה [InsertStructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertstructureddocumenttag/) נוספה להכנסת **StructuredDocumentTags** למסמך.
-* גישה ציבורית למפרידי הערות שוליים/הערות סיום ניתנה על ידי הוספת כמה מחלקות ומאפיינים ציבוריים.
+* שיטה ציבורית חדשה [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/) נוספה לצורות קבוצתיות. <sup>24.9</sup>
+* שיטה ציבורית חדשה [InsertStructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertstructureddocumenttag/) נוספה להכנסת **StructuredDocumentTags** למסמך. <sup>24.9</sup>
+* גישה ציבורית למפרידי הערות שוליים/הערות סיום ניתנה על ידי הוספת כמה מחלקות ומאפיינים ציבוריים. <sup>24.9</sup>
+* היכולת לקבץ צורות בודדות, לקבץ צורות יחד ולקבץ ישירות גם צורות וגם צורות קבוצתיות הוצגה על ידי הוספת ה-[InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/#insertgroupshape_1). <sup>24.10</sup>
+* טיפול בקידוד Big5 עבור טבלאות cmap TrueType שופר. <sup>24.10</sup>
+* התמיכה בגופנים טייוואנים מיושנים שופרה. <sup>24.10</sup>
 
 {{% alert color="primary" %}}
 
 למידע נוסף על [Aspose.Words for .NET 24.9 Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-9-release-notes/).
+
+למידע נוסף על [Aspose.Words for .NET 24.10 Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-10-release-notes/).
 
 {{% /alert %}}
 

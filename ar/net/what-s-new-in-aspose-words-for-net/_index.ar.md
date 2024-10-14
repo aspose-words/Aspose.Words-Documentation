@@ -11,37 +11,60 @@ url: /ar/net/what-s-new-in-aspose-words-for-net/
 
 تصف هذه الصفحة ميزات Aspose.Words الجديدة الأكثر إثارة للاهتمام والتي تم تقديمها في الإصدارات الأخيرة.
 
-## Aspose.Words for .NET 24.9
+## Aspose.Words for .NET 24.9, 24.10
 
 يقدم Aspose.Words 24.9 إدراج شكل المجموعة وإدراج StructuredDocumentTag عبر DocumentBuilder، ويعزز عرض المخططات الشعاعية باستخدام التدرجات، ويحسن التوقيعات الرقمية مع دعم XAdES-EPES، ويضيف التعرف على الخط السفلي Markdown، ويوفر الوصول إلى فواصل الحواشي السفلية/الحواشي النهائية.
 
+يقدم Aspose.Words 24.10 دعمًا محسّنًا لعناصر التحكم ActiveX مع إنشاء CommandButton، والتحكم الجديد في رؤية الشكل، والقدرة على تجميع الأشكال، وتحسين تصدير Markdown للجداول، وتنسيق المخططات للمخططات الدائرية والدائرية، ومعالجة أفضل لترميز Big5، ودعم الخطوط التايوانية القديمة.
+
 ### العرض والطباعة
 
-#### التدرجات على المخططات الشعاعية
+#### التدرجات على المخططات الشعاعية <sup>24.9</sup>
 
 تم تنفيذ عرض التدرجات على المخططات الشعاعية.
 
+#### عناصر التحكم ActiveX CommandButton <sup>24.10</sup>
+
+تم تقديم القدرة على إنشاء عناصر التحكم ActiveX CommandButton من خلال إضافة طريقة عامة جديدة [InsertForms2OleControl](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertforms2olecontrol/) وفئة عامة جديدة [Forms2OleControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/forms2olecontrol/).
+
+#### التحكم في رؤية الشكل <sup>24.10</sup>
+
+تمت إضافة خاصية عامة جديدة [Hidden](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/hidden/) للتحكم في رؤية الأشكال.
+
+#### التغييرات في المخططات الدائرية والمخططات الدائرية <sup>24.10</sup>
+
+تمت إضافة العديد من الخصائص العامة الجديدة لتنسيق المخططات الدائرية والمخططات الدائرية.
+
 ### تحويل المستندات وتحميلها وحفظها
 
-#### تنسيق التسطير عند تحميل ملفات Markdown
+#### تنسيق التسطير عند تحميل ملفات Markdown <sup>24.9</sup>
 
 تم دمج خيار التعرف على تنسيق التسطير عند تحميل مستندات Markdown من خلال إضافة خاصية عامة جديدة [ImportUnderlineFormatting](https://reference.aspose.com/words/net/aspose.words.loading/markdownloadoptions/importunderlineformatting/).
 
+#### تصدير الجداول بتنسيق HTML عند الحفظ بتنسيق Markdown <sup>24.10</sup>
+
+تم تنفيذ خيار تصدير الجداول بتنسيق HTML عند حفظ المستندات بتنسيق Markdown من خلال إضافة خاصية عامة جديدة [ExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/exportashtml/) وطريقة تعداد [MarkdownExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownexportashtml/).
+
 ### التوقيعات الرقمية
 
-#### توقيع المستندات باستخدام XAdES-EPES
+#### توقيع المستندات باستخدام XAdES-EPES <sup>24.9</sup>
 
 تم تقديم القدرة على توقيع المستندات باستخدام توقيعات XML-DSig على مستوى XAdES-EPES من خلال إضافة خاصية عامة جديدة [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions/xmldsiglevel/) وتعداد عام جديد [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/xmldsiglevel/).
 
 ### آخر
 
-* تمت إضافة طريقة عامة جديدة [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/) إلى أشكال المجموعة.
-* تمت إضافة طريقة عامة جديدة [InsertStructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertstructureddocumenttag/) لإدراج **StructuredDocumentTags** في مستند.
-* تم توفير الوصول العام إلى فواصل الحواشي السفلية/الحواشي النهائية من خلال إضافة بعض الفئات والخصائص العامة.
+* تمت إضافة طريقة عامة جديدة [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/) إلى أشكال المجموعة. <sup>24.9</sup>
+* تمت إضافة طريقة عامة جديدة [InsertStructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertstructureddocumenttag/) لإدراج **StructuredDocumentTags** في مستند. <sup>24.9</sup>
+* تم توفير الوصول العام إلى فواصل الحواشي السفلية/الحواشي النهائية من خلال إضافة بعض الفئات والخصائص العامة. <sup>24.9</sup>
+* تم تقديم القدرة على تجميع الأشكال الفردية وتجميع الأشكال معًا وتجميع كل من الأشكال وتجميع الأشكال مباشرةً من خلال إضافة طريقة [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/#insertgroupshape_1). <sup>24.10</sup>
+* تم تحسين معالجة ترميز Big5 لجداول cmap TrueType. <sup>24.10</sup>
+* تم تحسين دعم الخطوط التايوانية القديمة. <sup>24.10</sup>
 
 {{% alert color="primary" %}}
 
 تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ .NET 24.9](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-9-release-notes/).
+
+تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ .NET 24.10](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-10-release-notes/).
 
 {{% /alert %}}
 

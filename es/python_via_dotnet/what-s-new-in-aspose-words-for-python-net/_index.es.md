@@ -11,37 +11,60 @@ url: /es/python-net/what-s-new-in-aspose-words-for-python-net/
 
 Esta página describe las nuevas funciones Aspose.Words más interesantes introducidas en versiones recientes.
 
-## Aspose.Words para Python a través de .NET 24.9
+## Aspose.Words para Python a través de .NET 24.9, 24.10
 
 Aspose.Words 24.9 introduce la inserción de formas de grupo y la inserción de StructuredDocumentTag a través de DocumentBuilder, mejora la representación de gráficos radiales con graduaciones, mejora las firmas digitales con soporte XAdES-EPES, agrega reconocimiento de subrayado de Markdown y brinda acceso a separadores de notas al pie/notas al final.
 
+Aspose.Words 24.10 presenta un soporte mejorado para controles ActiveX con creación de CommandButton, nuevo control de visibilidad de formas, la capacidad de agrupar formas, exportación de Markdown mejorada para tablas, formato de gráficos para gráficos circulares y de anillos, mejor manejo de la codificación Big5 y soporte para fuentes taiwanesas obsoletas.
+
 ### Representación e impresión
 
-#### Graduaciones en gráficos radiales
+#### Graduaciones en gráficos radiales <sup>24.9</sup>
 
 Se ha implementado la representación de graduaciones en gráficos radiales.
 
+#### Controles ActiveX CommandButton <sup>24.10</sup>
+
+Se ha introducido la capacidad de crear controles ActiveX CommandButton agregando un nuevo método público [insert_forms_2_ole_control](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_forms_2_ole_control/) y una nueva clase pública [Forms2OleControl](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/).
+
+#### Visibilidad de formas de control <sup>24.10</sup>
+
+Se ha agregado una nueva propiedad pública [hidden](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/hidden/) para controlar la visibilidad de las formas.
+
+#### Cambios en los gráficos circulares y de anillos <sup>24.10</sup>
+
+Se han añadido varias propiedades públicas nuevas para dar formato a los gráficos circulares y de anillos.
+
 ### Conversión, carga y guardado de documentos
 
-#### Formato de subrayado al cargar archivos Markdown
+#### Formato de subrayado al cargar archivos Markdown <sup>24.9</sup>
 
 Se ha incorporado la opción de reconocer el formato de subrayado al cargar documentos Markdown agregando una nueva propiedad pública [import_underline_formatting property](https://reference.aspose.com/words/python-net/aspose.words.loading/markdownloadoptions/import_underline_formatting/).
 
+#### Exportación de tablas como HTML al guardar en Markdown <sup>24.10</sup>
+
+Se ha implementado una opción para exportar tablas como HTML al guardar documentos en formato Markdown añadiendo una nueva propiedad pública [export_as_html](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/export_as_html/) y una enumeración [MarkdownExportAsHtml](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownexportashtml/).
+
 ### Firmas digitales
 
-#### Firmar documentos con XAdES-EPES
+#### Firmar documentos con XAdES-EPES <sup>24.9</sup>
 
 Se ha introducido la capacidad de firmar documentos con firmas XML-DSig de nivel XAdES-EPES agregando una nueva propiedad pública [xml_dsig_level](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/signoptions/xml_dsig_level/) y una nueva enumeración pública [XmlDsigLevel](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/xmldsiglevel/).
 
 ### Otros
 
-* Se ha agregado un nuevo método público [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/) para agrupar formas.
-* Se ha agregado un nuevo método público [insert_structured_document_tag](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_structured_document_tag/) para insertar **StructuredDocumentTags** en un documento.
-* Se ha proporcionado acceso público a los separadores de notas al pie y notas al final agregando algunas clases y propiedades públicas.
+* Se ha agregado un nuevo método público [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/) para agrupar formas. <sup>24.9</sup>
+* Se ha agregado un nuevo método público [insert_structured_document_tag](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_structured_document_tag/) para insertar **StructuredDocumentTags** en un documento. <sup>24.9</sup>
+* Se ha proporcionado acceso público a los separadores de notas al pie y notas al final agregando algunas clases y propiedades públicas. <sup>24.9</sup>
+* Se ha introducido la capacidad de agrupar formas individuales, agrupar formas juntas y agrupar directamente formas y agrupar formas mediante la incorporación del método [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/#float_float_float_float_shapebaselist). <sup>24.10</sup>
+* Se ha mejorado el manejo de la codificación Big5 para las tablas cmap TrueType. <sup>24.10</sup>
+* Se ha mejorado la compatibilidad con fuentes taiwanesas obsoletas. <sup>24.10</sup>
 
 {{% alert color="primary" %}}
 
 Obtenga más información sobre [Notas de la versión Aspose.Words para Python via .NET 24.9](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-9-release-notes/).
+
+Obtenga más información sobre [Notas de la versión Aspose.Words para Python via .NET 24.10](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-10-release-notes/).
 
 {{% /alert %}}
 

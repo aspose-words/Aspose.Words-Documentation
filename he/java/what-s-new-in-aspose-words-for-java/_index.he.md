@@ -11,37 +11,60 @@ url: /he/java/what-s-new-in-aspose-words-for-java/
 
 דף זה מתאר את החדש המעניין ביותר Aspose.Words תכונות שהוצגו במהדורות האחרונות.
 
-## Aspose.Words עבור Java 24.9
+## Aspose.Words עבור Java 24.9, 24.10
 
 Aspose.Words 24.9 מציגה הכנסת צורות קבוצתיות והכנסת StructuredDocumentTag באמצעות DocumentBuilder, משפרת את עיבוד התרשים הרדיאלי עם דרגות, משפרת חתימות דיגיטליות עם תמיכה ב-XAdES-EPES, מוסיפה זיהוי קו תחתון של Markdown, ומספקת גישה למפרידי הערות שוליים/הערות סיום.
 
+Aspose.Words 24.10 מציג תמיכה משופרת בבקרת ActiveX עם יצירת CommandButton, בקרת נראות חדשה של צורות, יכולת לקבץ צורות, ייצוא Markdown משופר לטבלאות, עיצוב תרשימים עבור תרשימי עוגה וסופגנייה, טיפול טוב יותר בקידוד Big5 ותמיכה בגופנים טייוואנים מיושנים.
+
 ### עיבוד והדפסה
 
-#### סיום לימודים בתרשימים רדיאליים
+#### סיום לימודים בתרשימים רדיאליים <sup>24.9</sup>
 
 עיבוד של סיום על תרשימים רדיאליים יושם.
 
+#### פקדי ActiveX CommandButton <sup>24.10</sup>
+
+היכולת ליצור פקדי CommandButton ActiveX הוצגה על ידי הוספת שיטה ציבורית חדשה [InsertForms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertForms2OleControl-com.aspose.words.Forms2OleControl) ומחלקה ציבורית חדשה [Forms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/).
+
+#### שליטה בצורת נראות <sup>24.10</sup>
+
+מאפיין ציבורי חדש [Hidden](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getHidden) נוסף כדי לשלוט בנראות של צורות.
+
+#### שינויים בתרשימים של עוגה וסופגניות <sup>24.10</sup>
+
+מספר נכסים ציבוריים חדשים נוספו לפורמט תרשימי עוגה וסופגנייה.
+
 ### המרה, טעינה ושמירה של מסמכים
 
-#### עיצוב קו תחתון בעת ​​טעינת קבצי Markdown
+#### עיצוב קו תחתון בעת ​​טעינת קבצי Markdown <sup>24.9</sup>
 
 האפשרות לזהות עיצוב קו תחתון בעת ​​טעינת מסמכי Markdown שולבה על ידי הוספת מאפיין ציבורי חדש [ImportUnderlineFormatting](https://reference.aspose.com/words/java/com.aspose.words/markdownloadoptions/#getImportUnderlineFormatting).
 
+#### ייצוא טבלאות כ-HTML בעת שמירה ב-Markdown <sup>24.10</sup>
+
+אפשרות לייצא טבלאות כ-HTML בעת שמירת מסמכים בפורמט Markdown יושמה על ידי הוספת מאפיין ציבורי חדש [ExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getExportAsHtml) וספירה [MarkdownExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownexportashtml/).
+
 ### חתימות דיגיטליות
 
-#### חתום על מסמכים עם XAdES-EPES
+#### חתום על מסמכים עם XAdES-EPES <sup>24.9</sup>
 
 היכולת לחתום על מסמכים עם חתימות XML-DSig ברמת XAdES-EPES הוצגה על ידי הוספת מאפיין ציבורי חדש [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/signoptions/#getXmlDsigLevel) וספירה ציבורית חדשה [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/xmldsiglevel/)
 
 ### אחר
 
-* שיטה ציבורית חדשה [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-com.aspose.words.Shape...) נוספה לצורות קבוצתיות.
-* שיטה ציבורית חדשה [InsertStructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertStructuredDocumentTag-int) נוספה כדי להוסיף **StructuredDocumentTags** למסמך.
-* גישה ציבורית למפרידי הערות שוליים/הערות סיום ניתנה על ידי הוספת כמה מחלקות ומאפיינים ציבוריים.
+* שיטה ציבורית חדשה [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-com.aspose.words.Shape...) נוספה לצורות קבוצתיות. <sup>24.9</sup>
+* שיטה ציבורית חדשה [InsertStructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertStructuredDocumentTag-int) נוספה כדי להוסיף **StructuredDocumentTags** למסמך. <sup>24.9</sup>
+* גישה ציבורית למפרידי הערות שוליים/הערות סיום ניתנה על ידי הוספת כמה מחלקות ומאפיינים ציבוריים. <sup>24.9</sup>
+* היכולת לקבץ צורות בודדות, לקבץ צורות יחד ולקבץ ישירות גם צורות וגם צורות קבוצתיות הוצגה על ידי הוספת השיטה [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-double-double-double-double-com.aspose.words.ShapeBase...). <sup>24.10</sup>
+* טיפול בקידוד Big5 עבור טבלאות cmap TrueType שופר. <sup>24.10</sup>
+* התמיכה בגופנים טייוואנים מיושנים שופרה. <sup>24.10</sup>
 
 {{% alert color="primary" %}}
 
 למידע נוסף על [Aspose.Words for Java 24.9 Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/).
+
+למידע נוסף על [Aspose.Words for Java 24.10 Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-10-release-notes/).
 
 {{% /alert %}}
 

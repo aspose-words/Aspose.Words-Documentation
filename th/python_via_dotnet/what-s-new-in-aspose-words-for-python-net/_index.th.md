@@ -11,37 +11,59 @@ url: /th/python-net/what-s-new-in-aspose-words-for-python-net/
 
 หน้านี้อธิบายคุณสมบัติ Aspose.Words ใหม่ที่น่าสนใจที่สุดที่เปิดตัวในรุ่นล่าสุด
 
-## Aspose.Words สำหรับ Python ผ่าน .NET 24.9
+## Aspose.Words สำหรับ Python ผ่าน .NET 24.9, 24.10
 
 Aspose.Words 24.9 แนะนำการแทรกรูปร่างกลุ่มและการแทรก StructuredDocumentTag ผ่าน DocumentBuilder ปรับปรุงการเรนเดอร์แผนภูมิรัศมีด้วยการไล่ระดับ ปรับปรุงลายเซ็นดิจิทัลด้วยการรองรับ XAdES-EPES เพิ่มการจดจำเส้นใต้มาร์กดาวน์ และให้การเข้าถึงตัวคั่นเชิงอรรถ/ท้ายบท
 
+Aspose.Words 24.10 นำเสนอการสนับสนุนการควบคุม ActiveX ที่ได้รับการปรับปรุงด้วยการสร้าง CommandButton การควบคุมการมองเห็นรูปร่างใหม่ ความสามารถในการจัดกลุ่มรูปร่าง การส่งออก Markdown ที่ปรับปรุงใหม่สำหรับตาราง การจัดรูปแบบแผนภูมิสำหรับแผนภูมิวงกลมและโดนัท การจัดการการเข้ารหัส Big5 ที่ดีขึ้น และการรองรับแบบอักษรไต้หวันที่ล้าสมัย
+
 ### การเรนเดอร์และการพิมพ์
 
-#### การไล่ระดับบนแผนภูมิรัศมี
+#### การไล่ระดับบนแผนภูมิรัศมี <sup>24.9</sup>
 
 การเรนเดอร์การไล่ระดับบนแผนภูมิรัศมีได้รับการนำไปใช้แล้ว
 
+#### การควบคุม ActiveX ของ CommandButton <sup>24.10</sup>
+
+ความสามารถในการสร้างตัวควบคุม ActiveX ของ CommandButton ได้รับการแนะนำโดยการเพิ่มวิธีการสาธารณะใหม่ [insert_forms_2_ole_control](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_forms_2_ole_control/) และคลาสสาธารณะใหม่ [Forms2OleControl](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/)
+
+#### การมองเห็นรูปร่างของตัวควบคุม <sup>24.10</sup>
+
+คุณสมบัติสาธารณะใหม่ [hidden](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/hidden/) ได้รับการเพิ่มเข้ามาเพื่อควบคุมการมองเห็นรูปร่าง
+#### การเปลี่ยนแปลงในแผนภูมิวงกลมและโดนัท <sup>24.10</sup>
+
+มีการเพิ่มคุณสมบัติสาธารณะใหม่หลายรายการให้กับรูปแบบแผนภูมิวงกลมและโดนัท
+
 ### การแปลง การโหลด และการบันทึกเอกสาร
 
-#### การจัดรูปแบบขีดเส้นใต้เมื่อโหลดไฟล์มาร์กดาวน์
+#### การจัดรูปแบบขีดเส้นใต้เมื่อโหลดไฟล์มาร์กดาวน์ <sup>24.9</sup>
 
 ตัวเลือกในการรับรู้การจัดรูปแบบขีดเส้นใต้เมื่อโหลดเอกสารมาร์กดาวน์ได้รับการรวมเข้าไว้ด้วยการเพิ่มคุณสมบัติสาธารณะใหม่ [import_underline_formatting property](https://reference.aspose.com/words/python-net/aspose.words.loading/markdownloadoptions/import_underline_formatting/)
 
+#### การส่งออกตารางเป็น HTML เมื่อบันทึกเป็นมาร์กดาวน์ <sup>24.10</sup>
+
+มีการนำตัวเลือกในการส่งออกตารางเป็น HTML เมื่อบันทึกเอกสารเป็นรูปแบบมาร์กดาวน์มาใช้โดยการเพิ่มคุณสมบัติสาธารณะใหม่ [export_as_html](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/export_as_html/) และการแจงนับ [MarkdownExportAsHtml](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownexportashtml/)
+
 ### ลายเซ็นดิจิทัล
 
-#### ลงนามในเอกสารด้วย XAdES-EPES
+#### ลงนามในเอกสารด้วย XAdES-EPES <sup>24.9</sup>
 
 ความสามารถในการลงนามในเอกสารด้วยลายเซ็น XML-DSig ระดับ XAdES-EPES ได้รับการแนะนำโดยการเพิ่มคุณสมบัติสาธารณะใหม่ [xml_dsig_level](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/signoptions/xml_dsig_level/) และการแจงนับสาธารณะใหม่ [XmlDsigLevel](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/xmldsiglevel/)
 
 ### อื่นๆ
 
-* มีการเพิ่มวิธีสาธารณะใหม่ [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/) ให้กับรูปร่างของกลุ่ม
-* มีการเพิ่มวิธีสาธารณะใหม่ [insert_structured_document_tag](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_structured_document_tag/) เพื่อแทรก **StructuredDocumentTags** ลงในเอกสาร
-* มีการให้สิทธิ์การเข้าถึงแบบสาธารณะสำหรับตัวคั่นเชิงอรรถ/ท้ายบทโดยการเพิ่มคลาสและคุณสมบัติสาธารณะบางส่วน
+* มีการเพิ่มวิธีสาธารณะใหม่ [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/) ให้กับรูปร่างของกลุ่ม <sup>24.9</sup>
+* มีการเพิ่มวิธีสาธารณะใหม่ [insert_structured_document_tag](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_structured_document_tag/) เพื่อแทรก **StructuredDocumentTags** ลงในเอกสาร <sup>24.9</sup>
+* มีการให้สิทธิ์การเข้าถึงแบบสาธารณะสำหรับตัวคั่นเชิงอรรถ/ท้ายบทโดยการเพิ่มคลาสและคุณสมบัติสาธารณะบางส่วน <sup>24.9</sup>
+* มีการนำความสามารถในการจัดกลุ่มรูปร่างแต่ละรูปร่าง จัดกลุ่มรูปร่างเข้าด้วยกัน และจัดกลุ่มทั้งรูปร่างและกลุ่มรูปร่างโดยตรงมาใช้ โดยการเพิ่มวิธีการ [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/#float_float_float_float_shapebaselist) <sup>24.10</sup>
+* ปรับปรุงการจัดการการเข้ารหัส Big5 สำหรับตาราง cmap แบบ TrueType แล้ว <sup>24.10</sup>
+* ปรับปรุงการรองรับฟอนต์ไต้หวันที่ล้าสมัยแล้ว <sup>24.10</sup>
 
 {{% alert color="primary" %}}
 
 เรียนรู้เพิ่มเติมเกี่ยวกับ [บันทึกย่อประจำรุ่น Aspose.Words สำหรับ Python via .NET 24.9](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-9-release-notes/)
+
+เรียนรู้เพิ่มเติมเกี่ยวกับ [บันทึกย่อประจำรุ่น Aspose.Words สำหรับ Python via .NET 24.10](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-10-release-notes/)
 
 {{% /alert %}}
 
