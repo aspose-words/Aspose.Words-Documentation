@@ -18,6 +18,23 @@ data using LINQ Reporting Engine in C#.\
   alt="Creating a chart report using LINQ Reporting Engine in C#."
   style="width:906px"/>
 
+The process of building a chart incorporates the following steps:
+
+1. Preparing data for the chart in one of [supported formats]({{< ref "../binding-data/" >}})
+
+2. Creating a chart template in Microsoft Word
+
+3. Running C# code invoking [LINQ Reporting Engine
+APIs](https://reference.aspose.com/words/net/aspose.words.reporting/reportingengine/)
+
+{{% alert %}}
+
+A typical chart template represents a regular Microsoft Word chart with special tags added to its title and series names:
+A `foreach` tag binding the chart to a data collection, and `x` and `y` tags binding series data with values calculated
+upon an item of the collection.
+
+{{% /alert %}}
+
 To learn more on how to make a chart of a particular type with LINQ Reporting Engine in C# and use advanced features of
 chart building, please refer to the following sections:
 
