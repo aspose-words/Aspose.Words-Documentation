@@ -38,7 +38,7 @@ Mã ví dụ sau cho thấy cách xuất thông tin đi lại khi chuyển đổ
 
 {{% alert color="primary" %}}
 
-Bạn có thể tải xuống template của ví dụ này từ [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/resources/com/aspose/words/examples/loading_saving/ConvertDocumentToHtmlWithRoundtrip/Test%20File%20\(doc\).doc).
+Bạn có thể tải xuống template của ví dụ này từ [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Rendering.docx).
 
 {{% /alert %}}
 

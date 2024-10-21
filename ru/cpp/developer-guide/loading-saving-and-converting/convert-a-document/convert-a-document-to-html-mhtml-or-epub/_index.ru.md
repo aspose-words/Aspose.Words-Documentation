@@ -38,7 +38,7 @@ EPUB (сокращение от "Электронная публикация") -
 
 {{% alert color="primary" %}}
 
-Вы можете скачать файл шаблона для этого примера с [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Examples).doc).
+Вы можете скачать файл шаблона для этого примера с [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Examples).
 
 {{% /alert %}}
 

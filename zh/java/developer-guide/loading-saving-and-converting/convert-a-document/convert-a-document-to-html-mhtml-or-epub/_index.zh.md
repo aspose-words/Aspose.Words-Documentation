@@ -38,7 +38,7 @@ HTML 格式不支持许多 Microsoft Word 特性,如果我们需要恢复一个�
 
 {{% alert color="primary" %}}
 
-您可以下载此示例的模板文件 [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/resources/com/aspose/words/examples/loading_saving/ConvertDocumentToHtmlWithRoundtrip/Test%20File%20\(doc\).doc) (中文(简体) ).
+您可以下载此示例的模板文件 [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Rendering.docx) (中文(简体) ).
 
 {{% /alert %}}
 

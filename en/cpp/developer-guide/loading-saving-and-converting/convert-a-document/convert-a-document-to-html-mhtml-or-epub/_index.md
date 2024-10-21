@@ -38,7 +38,7 @@ The following code example shows how to export round-trip information when conve
 
 {{% alert color="primary" %}}
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Examples).doc).
+You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Examples).
 
 {{% /alert %}}
 
