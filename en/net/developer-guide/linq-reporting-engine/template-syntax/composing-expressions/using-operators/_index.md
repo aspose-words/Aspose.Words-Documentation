@@ -23,7 +23,7 @@ The following table contains predefined and user-defined operators that LINQ Rep
 		</tr>
 		<tr>
 			<td>Binary</td>
-			<td>*  /  %  +  -  <<  >>  <  >  <=  >=  ==  !=  &amp;  ^  |  &amp;&amp;  ||  ??</td>
+			<td>*  /  %  +  -  <<  >>  <  >  <=  >=  ==  !=  &amp;  ^  |  &amp;&amp;  |  |  ??</td>
 		</tr>
 		<tr>
 			<td>Ternary</td>

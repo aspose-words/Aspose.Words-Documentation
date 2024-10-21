@@ -26,11 +26,11 @@ Aspose.Words attempts to find TrueType fonts on the file system automatically.
 
 There are some differences in the processing of font formats in Aspose.Words and Microsoft Word as shown in the table below:
 
-| |Microsoft Word|Aspose.Words|
+|  | Microsoft Word | Aspose.Words |
 | :- | :- | :- |
-|TrueType fonts and OpenType fonts with TrueType outlines|Supported.|Supported.|
-|OpenType fonts with PostScript outlines|Supported for most scenarios. Embedding to fixed-page formats such as PDF and XPS are not supported. The text is replaced with bitmap images.|Supported for most scenarios, including embedding to fixed-page formats.|
-|OpenType Font Variations|Only named instances are supported. Continuous variations not supported.|Supported for the only default instance. Named instances and continuous variations are not supported.|
-|Type1 fonts|Supported on Windows versions prior to 2013 and on MacOS versions. Support is dropped on Windows versions starting from 2013.|Not supported.|
+| TrueType fonts and OpenType fonts with TrueType outlines | Supported. | Supported. |
+| OpenType fonts with PostScript outlines | Supported for most scenarios. Embedding to fixed-page formats such as PDF and XPS are not supported. The text is replaced with bitmap images. | Supported for most scenarios, including embedding to fixed-page formats. |
+| OpenType Font Variations | Only named instances are supported. Continuous variations not supported. | Supported for the only default instance. Named instances and continuous variations are not supported. |
+| Type1 fonts | Supported on Windows versions prior to 2013 and on MacOS versions. Support is dropped on Windows versions starting from 2013. | Not supported. |
 
 

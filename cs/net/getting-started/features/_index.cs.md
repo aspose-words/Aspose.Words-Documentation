@@ -91,7 +91,7 @@ Aspose.Words poskytuje bohatý objekt model, který se skládá z více než 100
 | Zachovat nebo odstranit VBA makra z dokumentu. Zachovat VBA makros digitální podpis. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Detekovat a ověřit digitální podpisy v dokumentech. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Vložit HTML text. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Extrakt VBA Makra z Word Document. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | | | |
+| Extrakt VBA Makra z Word Document. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  | |  |
 
 ## Funkce formátování dokumentu
 

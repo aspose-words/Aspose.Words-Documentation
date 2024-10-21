@@ -290,9 +290,9 @@ Aspose.Words dùng thứ tự sau đây để tính chiều rộng của các ô
 
 | Đơn hàng | Tính chất | Mô tả |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-|1| [AllowAutoFit](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowAutoFit) được xác định | Nếu **AutoFit** được bật: <br>- bàn có thể phát triển vượt quá chiều rộng ưa thích để chứa nội dung - nó thường không thu nhỏ dưới chiều rộng ưa thích <br>- bất kỳ thay đổi nào đối với giá trị **CellFormat.Width** bị bỏ qua và ô sẽ vừa với nội dung của nó thay vì |
-|2| [PreferredWidthType](https://reference.aspose.com/words/java/com.aspose.words/preferredwidthtype/) có giá trị là **Points** hoặc **Percent** | **CellFormat.Width** được bỏ qua |
-|3| [PreferredWidthType](https://reference.aspose.com/words/java/com.aspose.words/preferredwidthtype/) với giá trị là **Auto** | Giá trị từ **CellFormat.Width** được sao chép và trở thành độ rộng ưa thích của ô (tính bằng điểm) |
+| 1 | [AllowAutoFit](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowAutoFit) được xác định | Nếu **AutoFit** được bật: <br>- bàn có thể phát triển vượt quá chiều rộng ưa thích để chứa nội dung - nó thường không thu nhỏ dưới chiều rộng ưa thích <br>- bất kỳ thay đổi nào đối với giá trị **CellFormat.Width** bị bỏ qua và ô sẽ vừa với nội dung của nó thay vì |
+| 2 | [PreferredWidthType](https://reference.aspose.com/words/java/com.aspose.words/preferredwidthtype/) có giá trị là **Points** hoặc **Percent** | **CellFormat.Width** được bỏ qua |
+| 3 | [PreferredWidthType](https://reference.aspose.com/words/java/com.aspose.words/preferredwidthtype/) với giá trị là **Auto** | Giá trị từ **CellFormat.Width** được sao chép và trở thành độ rộng ưa thích của ô (tính bằng điểm) |
 
 {{% alert color="primary" %}}
 

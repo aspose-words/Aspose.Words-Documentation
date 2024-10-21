@@ -30,7 +30,7 @@ def remove_page_breaks(doc)
             para.getParagraphFormat().setPageBreakBefore(false)
         end
         runs = para.getRuns().toArray()
-        runs.each do |run|
+        runs.each do | run |
             control_char = Rjb::import("com.aspose.words.ControlChar")
             p run.getText().contains(control_char.PAGE_BREAK)
             abort()

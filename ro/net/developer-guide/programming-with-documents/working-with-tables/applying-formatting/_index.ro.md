@@ -326,9 +326,9 @@ Aspose.Words folosește următoarea ordine pentru calcularea lățimilor de celu
 
 | Comandă | Proprietate | Descrierea |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-|1| [AllowAutoFit](https://reference.aspose.com/words/net/aspose.words.tables/table/allowautofit/)" e determinat | Dacă este activat **AutoFit**: <br>- tabelul poate crește dincolo de lățimea preferată pentru a acomoda conținutul – de obicei nu se reduce sub lățimea preferată <br>- orice modificare a valorii **CellFormat.Width** este ignorată și celula va se potrivi conținutului său în schimb |
-|2| [PreferredWidthType](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidthtype/) cu o valoare de **Points** sau **Percent** | **CellFormat.Width** este ignorat |
-|3| [PreferredWidthType](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidthtype/) cu o valoare de **Auto** | Valoarea din **CellFormat.Width** este copiată și devine lățimea preferată a celulei (în puncte) |
+| 1 | [AllowAutoFit](https://reference.aspose.com/words/net/aspose.words.tables/table/allowautofit/)" e determinat | Dacă este activat **AutoFit**: <br>- tabelul poate crește dincolo de lățimea preferată pentru a acomoda conținutul – de obicei nu se reduce sub lățimea preferată <br>- orice modificare a valorii **CellFormat.Width** este ignorată și celula va se potrivi conținutului său în schimb |
+| 2 | [PreferredWidthType](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidthtype/) cu o valoare de **Points** sau **Percent** | **CellFormat.Width** este ignorat |
+| 3 | [PreferredWidthType](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidthtype/) cu o valoare de **Auto** | Valoarea din **CellFormat.Width** este copiată și devine lățimea preferată a celulei (în puncte) |
 
 {{% alert color="primary" %}}
 

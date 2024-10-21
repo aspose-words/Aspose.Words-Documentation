@@ -36,29 +36,29 @@ url: /he/net/translate-markdown-to-document-object-model/
 |  Markdown תכונה |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |
 |  **Bold**<br/>`{1}` |  `Font.Bold = true`  |
-|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BoldText.cs" >}}  ||
+|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BoldText.cs" >}}  |  |
 |  **Italic**<br/>`*italic text*` |  `Font.Italic = true`  |
-|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}}  ||
+|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}}  |  |
 |  **Strikethrough**<br/>`~Strikethrough text~` |  `Font.StrikeThrough = true`  |
 |  {{< highlight csharp >}}// Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
 builder.Font.Strikethrough = true;
-builder.Writeln("This text will be Strikethrough");{{< /highlight >}} ||
+builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
 
 אנו משתמשים בסגנון אופי עם שם שמתחיל מהמילה <span notrans="<span notrans=" `InlineCode`"=""></span>" עקבו אחרי אופציונלי `(.)` מספר חזרות ```(`)``` עבור `InlineCode` תכונה. אם מספר חזרות מפספס, אז טיפול אחד ישמש כברירת מחדל.
 
 |  Markdown תכונה |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |
 |  **InlineCode**<br/>`{1}` |  `Font.StyleName = “InlineCode[.][N]”`  |
-|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-InlineCode.cs" >}}  ||
+|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-InlineCode.cs" >}}  |  |
 |  **Autolink**<br/>`<scheme://domain.com>`<br/>`<email@domain.com>` |  The The The [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/) מעמד |
-|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Autolink.cs" >}}  ||
+|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Autolink.cs" >}}  |  |
 |  **Link**<br/>`{1}`<br/>`{2}`<br/>`{3}`<br/>`{4})` |  The The The [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/) מעמד |
-|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Link.cs" >}}  ||
+|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Link.cs" >}}  |  |
 |  **Image**<br/>`{1}`<br/>`{2}`<br/>`{3}`<br/>`{4})` |  The The The [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) מעמד |
-|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Image.cs" >}}  ||
+|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Image.cs" >}}  |  |
 
 ## תגית: Blocks
 
@@ -155,7 +155,7 @@ Aspose.Words מאפשר לתרגם טבלאות DOM, כפי שמוצג להלן:
 
 |  Markdown תכונה |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
-|  `Table`<br/>"a | B`<br />`- - | - -`<br />`c | d " |  [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) ו [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) שיעורים |
+|  `Table`<br/>"a|B`<br />`- - | - -`<br />`c|d " |  [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) ו [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) שיעורים |
 |  {{< highlight csharp >}}// Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 

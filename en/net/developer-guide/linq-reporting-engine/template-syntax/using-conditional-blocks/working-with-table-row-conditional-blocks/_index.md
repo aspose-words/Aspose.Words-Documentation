@@ -251,6 +251,6 @@ In this case, the engine produces a report as follows.
 
 | Header |
 | :- |
-|**Footer**|
+| **Footer** |
 
 **Note** – In the previous examples, tag `<<if [false]>>` is used for the sake of simplicity; you can use any other Boolean expression instead of just `false`.

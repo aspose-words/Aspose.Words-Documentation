@@ -91,7 +91,7 @@ Aspose.Words は、100 を超えるパブリック クラスで構成される�
 | ドキュメントから VBA マクロを保存または削除します。 VBA マクロのデジタル署名を保持します。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | ドキュメント内のデジタル署名を検出して検証します。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | HTML テキストを挿入します。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Word 文書から VBA マクロを抽出します。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | | | |
+| Word 文書から VBA マクロを抽出します。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  | |  |
 
 ## ドキュメントの書式設定機能
 

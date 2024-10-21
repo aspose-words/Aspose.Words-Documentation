@@ -91,7 +91,7 @@ Aspose.Words zapewnia bogaty model obiektowy składający się z ponad 100 klas 
 | Zachowaj lub usuń makra VBA z dokumentu. Zachowaj podpis cyfrowy makr VBA. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Wykrywaj i weryfikuj podpisy cyfrowe w dokumentach. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Wstaw tekst HTML. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Wyodrębnij makra VBA z dokumentu Word. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | | | |
+| Wyodrębnij makra VBA z dokumentu Word. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  | |  |
 
 ## Funkcje formatowania dokumentów
 

@@ -48,20 +48,20 @@ url: /zh-hant/net/detect-file-format-and-check-format-compatibility/
 | 「Group 個檔案」 | 輸入文件 | 類型 |
 | :- | :- | :- |
 | 「支援的檔案格式」 | 測試檔案（Doc）.doc | 「Microsoft Word 95/6.0 或 Microsoft Word 97 - 2003 文檔。」 |
-|| 「測試檔案 (`Dot`)。dot」 | 「Microsoft Word 95/6.0 或 Microsoft Word 97 - 2003 模板。」 |
-|| 「測試檔案 (Docx).docx」 | 「Office Open XML WordprocessingML 文檔，不包含巨集。」 |
-|| 「測試檔案（Docm）.docm」 | 「包含 macro 的 Office Open XML WordprocessingML 文檔。」 |
-|| 「測試檔案（Dotx）े.dotx」 | 「Office Open XML WordprocessingML模板。」 |
-|| 「測試檔案 (Dotm).dotm」 | 「具有內嵌巨集功能的 Office Open XML WordprocessingML 範本。」 |
-|| 「測試檔案 (XML) 。xml」 | 「FlatOPC OOXML 文檔」。 |
-|| 「測試檔案 (RTF)。rtf」 | 「 Rich Text Format 文檔。」 |
-|| 測試檔案 (WordML).xml | 「Microsoft Word 2003 WordprocessingML 文檔。」 |
-|| 「測試檔案 (HTML).html」 | 「HTML 文檔」。 |
-|| 「測試檔案 (MHTML) 。mhtml」 | MHTML (網頁檔案) 文檔。 |
-|| 「測試檔案 (Odt). odt」 | OpenDocument 文本 (OpenOffice Writer)。 |
-|| 「測試檔案 (Ott).ott」 | OpenDocument 文檔範本。 |
-|| Test File (DocPreWord60).doc | 「Microsoft Word v2.0 文檔。」 |
+|  | 「測試檔案 (`Dot`)。dot」 | 「Microsoft Word 95/6.0 或 Microsoft Word 97 - 2003 模板。」 |
+|  | 「測試檔案 (Docx).docx」 | 「Office Open XML WordprocessingML 文檔，不包含巨集。」 |
+|  | 「測試檔案（Docm）.docm」 | 「包含 macro 的 Office Open XML WordprocessingML 文檔。」 |
+|  | 「測試檔案（Dotx）े.dotx」 | 「Office Open XML WordprocessingML模板。」 |
+|  | 「測試檔案 (Dotm).dotm」 | 「具有內嵌巨集功能的 Office Open XML WordprocessingML 範本。」 |
+|  | 「測試檔案 (XML) 。xml」 | 「FlatOPC OOXML 文檔」。 |
+|  | 「測試檔案 (RTF)。rtf」 | 「 Rich Text Format 文檔。」 |
+|  | 測試檔案 (WordML).xml | 「Microsoft Word 2003 WordprocessingML 文檔。」 |
+|  | 「測試檔案 (HTML).html」 | 「HTML 文檔」。 |
+|  | 「測試檔案 (MHTML) 。mhtml」 | MHTML (網頁檔案) 文檔。 |
+|  | 「測試檔案 (Odt). odt」 | OpenDocument 文本 (OpenOffice Writer)。 |
+|  | 「測試檔案 (Ott).ott」 | OpenDocument 文檔範本。 |
+|  | Test File (DocPreWord60).doc | 「Microsoft Word v2.0 文檔。」 |
 | 「加密文件」 | 「測試檔案 (加密).doc」 | 加密的 Microsoft Word 95/6.0 或 Microsoft Word 97 – 2003 文檔。 |
-|| 測試檔案（加密）.docx | 「加密的 Office Open XML WordprocessingML 文檔。」 |
+|  | 測試檔案（加密）.docx | 「加密的 Office Open XML WordprocessingML 文檔。」 |
 | 未支援的檔案格式 | 「測試檔案 (JPG).jpg」 | JPEG 圖像檔案。 |
 

@@ -68,44 +68,44 @@ The most common use case of a table-row data band is the building of a document 
 
 In this case, the engine produces a report as follows.
 
-| Client |Manager|Contract Price|
+| Client | Manager | Contract Price |
 | :- | :- | :- |
-|**A Company**|**John Smith**|**1200000**|
-|**B Ltd.**|**John Smith**|**750000**|
-|**C & D**|**John Smith**|**350000**|
-|**E Corp.**|**Tony Anderson**|**650000**|
-|**F & Partners**|**Tony Anderson**|**550000**|
-|**G & Co.**|**July James**|**350000**|
-|**H Group**|**July James**|**250000**|
-|**I & Sons**|**July James**|**100000**|
-|**J Ent.**|**July James**|**100000**|
-|**Total:**||**4300000**|
+| **A Company** | **John Smith** | **1200000** |
+| **B Ltd.** | **John Smith** | **750000** |
+| **C & D** | **John Smith** | **350000** |
+| **E Corp.** | **Tony Anderson** | **650000** |
+| **F & Partners** | **Tony Anderson** | **550000** |
+| **G & Co.** | **July James** | **350000** |
+| **H Group** | **July James** | **250000** |
+| **I & Sons** | **July James** | **100000** |
+| **J Ent.** | **July James** | **100000** |
+| **Total:** |  |**4300000** |
 
 To populate a document table with a master-detail data, you can use nested table-row data bands like in the following template.
 
-|Manager/Client|Contract Price|
+| Manager/Client | Contract Price |
 | :- | :- |
-|&lt;&lt;foreach [m in ds.Managers]&gt;&gt;&lt;&lt;[m.Name]&gt;&gt;|&lt;&lt;[m.Contracts.sum(c => c.Price)]&gt;&gt;|
-|&lt;&lt;foreach [c in m.Contracts]&gt;&gt;  &lt;&lt;[c.Clients.Name]&gt;&gt;|&lt;&lt;[c.Price]&gt;&gt;&lt;&lt;/foreach&gt;&gt;&lt;&lt;/foreach&gt;&gt;|
-|**Total:**|&lt;&lt;[ds.Contracts.sum(c =>c.Price)]&gt;&gt;|
+| &lt;&lt;foreach [m in ds.Managers]&gt;&gt;&lt;&lt;[m.Name]&gt;&gt; | &lt;&lt;[m.Contracts.sum(c => c.Price)]&gt;&gt; |
+| &lt;&lt;foreach [c in m.Contracts]&gt;&gt;  &lt;&lt;[c.Clients.Name]&gt;&gt; | &lt;&lt;[c.Price]&gt;&gt;&lt;&lt;/foreach&gt;&gt;&lt;&lt;/foreach&gt;&gt; |
+| **Total:** | &lt;&lt;[ds.Contracts.sum(c =>c.Price)]&gt;&gt; |
 
 In this case, the engine produces a report as follows.
 
-|Manager/Client|Contract Price|
+| Manager/Client | Contract Price |
 | :- | :- |
-|**John Smith**|**2300000**|
-|**A Company**|**1200000**|
-|**B Ltd.**|**750000**|
-|**C & D**|**350000**|
-|**Tony Anderson**|**1200000**|
-|**E Corp.**|**650000**|
-|**F & Partners**|**550000**|
-|**July James**|**800000**|
-|**G & Co.**|**350000**|
-|**H Group**|**250000**|
-|**I & Sons**|**100000**|
-|**J Ent.**|**100000**|
-|**Total:**|**4300000**|
+| **John Smith** | **2300000** |
+| **A Company** | **1200000** |
+| **B Ltd.** | **750000** |
+| **C & D** | **350000** |
+| **Tony Anderson** | **1200000** |
+| **E Corp.** | **650000** |
+| **F & Partners** | **550000** |
+| **July James** | **800000** |
+| **G & Co.** | **350000** |
+| **H Group** | **250000** |
+| **I & Sons** | **100000** |
+| **J Ent.** | **100000** |
+| **Total:** | **4300000** |
 
 You can normally use common data bands nested to table-row data bands as well like in the following template.
 
@@ -124,11 +124,11 @@ You can normally use common data bands nested to table-row data bands as well li
 
 In this case, the engine produces a report as follows.
 
-| Manager |Clients|
+| Manager | Clients |
 | :- | :- |
-|**John Smith**|<p>A Company</p><p>B Ltd.</p><p>C & D</p><p></p>|
-|**Tony Anderson**|<p>E Corp.</p><p>F & Partners</p><p></p>|
-|**July James**|<p>G & Co.</p><p>H Group</p><p>I & Sons</p><p>J Ent.</p><p></p>|
+| **John Smith** | <p>A Company</p><p>B Ltd.</p><p>C & D</p><p></p> |
+| **Tony Anderson** | <p>E Corp.</p><p>F & Partners</p><p></p> |
+| **July James** | <p>G & Co.</p><p>H Group</p><p>I & Sons</p><p>J Ent.</p><p></p> |
 
 **Note** – Table-column data bands can also be nested to table-row data bands (see “Working with Cross (Pivot) Tables” for details), but not conversely: Nesting of table-row data bands into table-column data bands is forbidden.
 
@@ -136,26 +136,26 @@ A special case is a data band inside a single-column table row. In such a case, 
 
 | Managers |
 | :- |
-|&lt;&lt;foreach [m in ds.Managers]&gt;&gt;&lt;&lt;[m.Name]&gt;&gt;  &lt;&lt;/foreach&gt;&gt;|
+| &lt;&lt;foreach [m in ds.Managers]&gt;&gt;&lt;&lt;[m.Name]&gt;&gt;  &lt;&lt;/foreach&gt;&gt; |
 
 In this case, the engine produces a report as follows.
 
 | Managers |
 | :- |
-|**John Smith  Tony Anderson  July James**  |
+| **John Smith  Tony Anderson  July James**  |
 
 However, if needed, you can override this behavior making the engine to treat such a data band as a table-row one by specifying a `greedy` switch like in the following template.
 
 | Managers |
 | :- |
-|&lt;&lt;foreach [m in ds.Managers]&gt;&gt;&lt;&lt;[m.Name]&gt;&gt;&lt;&lt;/foreach -greedy&gt;&gt;|
+| &lt;&lt;foreach [m in ds.Managers]&gt;&gt;&lt;&lt;[m.Name]&gt;&gt;&lt;&lt;/foreach -greedy&gt;&gt; |
 
 In this case, the engine produces a report as follows.
 
 | Managers |
 | :- |
-|**John Smith**|
-|**Tony Anderson**|
-|**July James**|
+| **John Smith** |
+| **Tony Anderson** |
+| **July James** |
 
 For more examples of templates for typical scenarios involving table-row data bands, see “Appendix C. Typical Templates”.

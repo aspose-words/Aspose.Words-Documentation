@@ -38,16 +38,16 @@ To format a numeric or date-time expression result, you can specify a format str
 
 LINQ Reporting Engine provides several additional number formats that can not be specified using format strings because these formats are missing in standard .NET libraries. The following table describes these formats.
 
-|Number Format| Description |
+| Number Format | Description |
 | :- | :- |
-|**alphabetic**|Formats an integer number as an upper-case letter (A, B, C, ...)|
-|**roman**|Formats an integer number as an upper-case Roman numeral (I, II, III, ...)|
-|**ordinal**|Appends an ordinal suffix to an integer number (1st, 2nd, 3rd, ...)|
-|**ordinalText**|Converts an integer number to its ordinal text representation (First, Second, Third, ...)|
-|**cardinal**|Converts an integer number to its text representation (One, Two, Three, ...)|
-|**hex**|Formats an integer number as hexadecimal (8, 9, A, B, C, D, E, F, 10, 11, ...)|
-|**arabicDash**|Encloses an integer number with dashes (- 1 -, - 2 -, - 3 -, ...)|
-|**dollarText**|Converts a numeric value to its text representation with its fraction as Arabic numerators over 100 (for example, one thousand two hundred thirty-four and 56/100)|
+| **alphabetic** | Formats an integer number as an upper-case letter (A, B, C, ...) |
+| **roman** | Formats an integer number as an upper-case Roman numeral (I, II, III, ...) |
+| **ordinal** | Appends an ordinal suffix to an integer number (1st, 2nd, 3rd, ...) |
+| **ordinalText** | Converts an integer number to its ordinal text representation (First, Second, Third, ...) |
+| **cardinal** | Converts an integer number to its text representation (One, Two, Three, ...) |
+| **hex** | Formats an integer number as hexadecimal (8, 9, A, B, C, D, E, F, 10, 11, ...) |
+| **arabicDash** | Encloses an integer number with dashes (- 1 -, - 2 -, - 3 -, ...) |
+| **dollarText** | Converts a numeric value to its text representation with its fraction as Arabic numerators over 100 (for example, one thousand two hundred thirty-four and 56/100) |
 
 You can specify one of these additional number formats instead of a format string like in the following example. Given that `i` is an integer number, you can format the number as an upper-case letter using the following template.
 
@@ -57,12 +57,12 @@ You can specify one of these additional number formats instead of a format strin
 
 LINQ Reporting Engine provides several additional string formats that can not be specified using format strings because these formats are missing in standard .NET libraries. The following table describes these formats.
 
-|String Format| Description |
+| String Format | Description |
 | :- | :- |
-|**lower**|Converts a string to lower case ("the string")|
-|**upper**|Converts a string to upper case ("THE STRING")|
-|**caps**|Capitalizes a first letter of every word in a string ("The String")|
-|**firstCap**|Capitalizes the first letter of the first word in a string ("The string")|
+| **lower** | Converts a string to lower case ("the string") |
+| **upper** | Converts a string to upper case ("THE STRING") |
+| **caps** | Capitalizes a first letter of every word in a string ("The String") |
+| **firstCap** | Capitalizes the first letter of the first word in a string ("The string") |
 
 You can specify one of these additional string formats instead of a format string like in the following example. Given that `s` is a string, you can capitalize a first letter of every word in the string using the following template.
 

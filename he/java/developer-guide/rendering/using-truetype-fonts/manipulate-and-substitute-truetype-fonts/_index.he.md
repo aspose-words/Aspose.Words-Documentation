@@ -224,7 +224,7 @@ Aspose.Words ניסיונות למצוא גופנים אמיתיים במערכ�
 
 ישנם כמה הבדלים בעיבוד של פורמטים גופניים ב Aspose.Words ו Microsoft Word כפי שמוצג בטבלה למטה:
 
-| | Microsoft Word | Aspose.Words |
+|  | Microsoft Word | Aspose.Words |
 |  :-  |  :-  |  :-  |
 | TrueType fonts and OpenType fonts with TrueType מתווה | נתמך. | נתמך. |
 | OpenType fonts with PostScript מתווה | תומך ברוב התרחישים. Embedding לפורמטי דפי קבוע כגון PDF ו XPS הם לא תומכים. הטקסט הוחלף בתמונות bitmap. | נתמך עבור רוב התרחישים, כולל הטמעת פורמטים קבועים. |

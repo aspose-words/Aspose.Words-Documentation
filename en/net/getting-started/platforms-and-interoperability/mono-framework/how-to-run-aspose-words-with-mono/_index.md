@@ -34,10 +34,10 @@ However Aspose.Words for .NET is a big product that relies on some .NET features
 
 The table below lists known issues and features that are not available in Aspose.Words for .NET when working on Mono. 
 
-| Issue |Description | Planned |
+| Issue | Description | Planned |
 | :- | :- | :- |
-|Rendering of document pages or shapes to images can produce poor results. |Aspose.Words uses GDI+ to render document pages to images. While this is available on Mono, it seems to work differently with coordinate transformations and the output is often garbled. |N/A |
-|Printing is unavailable. |Aspose.Words for .NET implements printing via the .NET printing infrastructure, which is not available on Mono. |N/A |
+| Rendering of document pages or shapes to images can produce poor results. | Aspose.Words uses GDI+ to render document pages to images. While this is available on Mono, it seems to work differently with coordinate transformations and the output is often garbled. | N/A |
+| Printing is unavailable. | Aspose.Words for .NET implements printing via the .NET printing infrastructure, which is not available on Mono. | N/A |
 
 #### Install the mono-locale-extras Package
 

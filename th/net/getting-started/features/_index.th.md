@@ -91,7 +91,7 @@ Aspose.Words มีโมเดล Rich Object ที่ประกอบด้
 | เก็บรักษาหรือลบแมโคร VBA ออกจากเอกสาร รักษาลายเซ็นดิจิทัลของแมโคร VBA | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | ตรวจจับและตรวจสอบลายเซ็นดิจิทัลในเอกสาร | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | แทรกข้อความ HTML | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| แยกแมโคร VBA ออกจากเอกสาร Word | {{< emoticons/tick >}} | {{< emoticons/tick >}} | | | |
+| แยกแมโคร VBA ออกจากเอกสาร Word | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  | |  |
 
 ## คุณสมบัติการจัดรูปแบบเอกสาร
 

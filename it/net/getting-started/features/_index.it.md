@@ -21,7 +21,7 @@ Le tabelle seguenti riepilogano e confrontano la disponibilità delle funzionali
 
 Le piattaforme con cui è possibile utilizzare Aspose.Words for .NET sono elencate di seguito. Se hai bisogno di supporto per più piattaforme, cerca il prodotto "fratello gemello" Aspose.Words per Java.
 
-|  Caratteristica | Descrizione |
+|  Caratteristica|Descrizione |
 |  :-  |  :-  |
 | [.NET Framework](/words/net/supported-platforms/#net-framework) | Utilizza Aspose.Words per .NET per creare ASP.NET, servizi Web, WinForms o qualsiasi altro tipo di applicazione per qualsiasi versione .NET Framework 2.0 o successiva, comprese le versioni del profilo cliente. Supporto completo per 32 bit e 64 bit. |
 | [.NET Standard 2.0](/words/net/supported-platforms/#net-standard-20) | Le cartelle "netstandard2.0" e "netstandard2.0_AuthenticodeSigned" contengono assembly da utilizzare con framework che implementano .NET Standard 2.0 come .NET Core 2.0/2.1/2.2/3.0/3.1. L'ultima versione di Aspose.Words API supporta anche .NET 5.0 e .NET 6.0. |
@@ -36,7 +36,7 @@ Le piattaforme con cui è possibile utilizzare Aspose.Words for .NET sono elenca
 
 Molti clienti in tutto il mondo si affidano alle funzionalità complete di importazione ed esportazione di documenti fornite da Aspose.Words.
 
-|  Caratteristica | Descrizione | .NET | .NET Standard 2.0 | Xamarin.Android | Xamarin.iOS | Xamarin.Mac |
+|  Caratteristica|Descrizione | .NET | .NET Standard 2.0 | Xamarin.Android | Xamarin.iOS | Xamarin.Mac |
 |  :-  |  :-  |  :-  |  :-  |  :-  |  :-  |  :-  |
 | [Formati di file e conversioni](/words/it/net/file-formats-and-conversions/) | L'implementazione del formato DOC più veloce e completa che puoi trovare. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | [Formati di file e conversioni](/words/it/net/file-formats-and-conversions/) | Aspose.Words fornisce un supporto completo OOXML, Flat OPC e anche Word 2003 XML. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
@@ -91,7 +91,7 @@ Aspose.Words fornisce un ricco modello di oggetti composto da oltre 100 classi p
 | Conserva o rimuovi le macro VBA dal documento. Conserva la firma digitale delle macro VBA. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Rileva e verifica le firme digitali nei documenti. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Inserisci testo HTML. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Estrai macro VBA da un documento Word. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | | | |
+| Estrai macro VBA da un documento Word. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  | |  |
 
 ## Funzionalità di formattazione dei documenti
 

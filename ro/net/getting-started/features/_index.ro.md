@@ -91,7 +91,7 @@ Aspose.Words oferă un model de obiect bogat care constă în peste 100 de clase
 | Păstrează sau elimină macrocomenzile VBA din document. Preservă semnătura digitală a macro-urilor VBA. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Detectează şi verifică semnături digitale în documente. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Înserare text HTML. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Extrage macro-uri VBA din documentul Word. | {{< emoticons/tick >}} | {{< emoticons/tick >}} ||||
+| Extrage macro-uri VBA din documentul Word. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  | |  |
 
 ## Funcționalități de formatare a documentelor
 

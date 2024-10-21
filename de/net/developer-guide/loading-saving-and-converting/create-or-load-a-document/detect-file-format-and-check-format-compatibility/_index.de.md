@@ -47,21 +47,21 @@ Die folgenden Dateien werden im obigen Beispiel verwendet. Der Dateiname steht l
 
 | Group von Dateien | Eingabedokument | Typ |
 |  :-  |  :-  |  :-  |
-| Unterstützte Dateiformate | Testdatei (Doc).doc | Dokument Microsoft Word 95/6.0 oder Microsoft Word 97 – 2003. |
-| | Testdatei (`Dot`).dot | Vorlage Microsoft Word 95/6.0 oder Microsoft Word 97 – 2003. |
-| | Testdatei (Docx).docx | Office Open XML WordprocessingML-Dokument ohne Makros. |
-| | Testdatei (Docm).docm | Office Open XML WordprocessingML-Dokument mit Makros. |
-| | Testdatei (Dotx).dotx | Office Open XML WordprocessingML-Vorlage. |
-| | Testdatei (Dotm).dotm | Office Open XML WordprocessingML-Vorlage mit Makros. |
-| | Testdatei (XML).xml | FlatOPC OOXML-Dokument. |
-| | Testdatei (RTF).rtf | Dokument im Rich-Text-Format. |
-| | Testdatei (WordML).xml | Microsoft Word 2003 WordprocessingML-Dokument. |
-| | Testdatei (HTML).html | HTML-Dokument. |
-| | Testdatei (MHTML).mhtml | MHTML-Dokument (Webarchiv). |
-| | Testdatei (Odt).odt | OpenDocument-Text (OpenOffice Writer). |
-| | Testdatei (Ott).ott | OpenDocument-Dokumentvorlage. |
-| | Testdatei (DocPreWord60).doc | Microsoft Word 2.0-Dokument. |
+| Unterstützte Dateiformate | Testdatei (Doc).doc|Dokument Microsoft Word 95/6.0 oder Microsoft Word 97 – 2003. |
+|  | Testdatei (`Dot`).dot | Vorlage Microsoft Word 95/6.0 oder Microsoft Word 97 – 2003. |
+|  | Testdatei (Docx).docx | Office Open XML WordprocessingML-Dokument ohne Makros. |
+|  | Testdatei (Docm).docm | Office Open XML WordprocessingML-Dokument mit Makros. |
+|  | Testdatei (Dotx).dotx | Office Open XML WordprocessingML-Vorlage. |
+|  | Testdatei (Dotm).dotm | Office Open XML WordprocessingML-Vorlage mit Makros. |
+|  | Testdatei (XML).xml | FlatOPC OOXML-Dokument. |
+|  | Testdatei (RTF).rtf | Dokument im Rich-Text-Format. |
+|  | Testdatei (WordML).xml | Microsoft Word 2003 WordprocessingML-Dokument. |
+|  | Testdatei (HTML).html | HTML-Dokument. |
+|  | Testdatei (MHTML).mhtml | MHTML-Dokument (Webarchiv). |
+|  | Testdatei (Odt).odt | OpenDocument-Text (OpenOffice Writer). |
+|  | Testdatei (Ott).ott | OpenDocument-Dokumentvorlage. |
+|  | Testdatei (DocPreWord60).doc | Microsoft Word 2.0-Dokument. |
 | Verschlüsselte Dokumente | Testdatei (Enc).doc | Verschlüsseltes Microsoft Word 95/6.0- oder Microsoft Word 97 – 2003-Dokument. |
-| | Testdatei (Enc).docx | Verschlüsseltes Office Open XML WordprocessingML-Dokument. |
+|  | Testdatei (Enc).docx | Verschlüsseltes Office Open XML WordprocessingML-Dokument. |
 | Nicht unterstützte Dateiformate | Testdatei (JPG).jpg | JPEG-Bilddatei. |
 

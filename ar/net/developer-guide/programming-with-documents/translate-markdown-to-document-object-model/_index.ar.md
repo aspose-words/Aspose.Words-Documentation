@@ -36,29 +36,29 @@ url: /ar/net/translate-markdown-to-document-object-model/
 |  ميزة Markdown |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |
 |  **Bold**<br /> `{1}` |  `Font.Bold = true`  |
-|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BoldText.cs" >}}  ||
+|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BoldText.cs" >}}  |  |
 |  **Italic**<br /> `*italic text*` |  `Font.Italic = true`  |
-|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}}  ||
+|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}}  |  |
 |  **Strikethrough**<br /> `~Strikethrough text~` |  `Font.StrikeThrough = true`  |
 |  {{< highlight csharp >}}// Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
 builder.Font.Strikethrough = true;
-builder.Writeln("This text will be Strikethrough");{{< /highlight >}} ||
+builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
 
 نحن نستخدم نمط أحرف باسم يبدأ من كلمة `InlineCode`، متبوعًا بنقطة اختيارية `(.)` وعدد من علامات التحديد الخلفية ```(`)``` لميزة `InlineCode`. إذا تم تفويت عدد من العلامات الخلفية، فسيتم استخدام علامة خلفية واحدة بشكل افتراضي.
 
 |  ميزة Markdown |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |
 |  **InlineCode**<br /> `{1}` |  `Font.StyleName = “InlineCode[.][N]”`  |
-|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-InlineCode.cs" >}}  ||
+|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-InlineCode.cs" >}}  |  |
 |  **Autolink**<br /> `<scheme://domain.com>`<br /> `<email@domain.com>` |  فئة [FieldHyperlink](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldhyperlink/) |
-|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Autolink.cs" >}}  ||
+|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Autolink.cs" >}}  |  |
 |  **Link**<br /> `{1}`<br /> `{2}`<br /> `{3}`<br /> `{4})` |  فئة [FieldHyperlink](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldhyperlink/) |
-|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Link.cs" >}}  ||
+|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Link.cs" >}}  |  |
 |  **Image**<br /> `{1}`<br /> `{2}`<br /> `{3}`<br /> `{4})` |  فئة [Shape](https://reference.aspose.com/words/ar/net/aspose.words.drawing/shape/) |
-|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Image.cs" >}}  ||
+|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Image.cs" >}}  |  |
 
 ## كتل الحاويات
 
@@ -155,7 +155,7 @@ builder.Writeln("Item 2b");{{< /highlight >}} |                                 
 
 |  ميزة Markdown |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
-|  `Table`<br /> `أ | ب`<br />`- | -`<br />`c | د` |  فئات [Table](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/) و[Row](https://reference.aspose.com/words/ar/net/aspose.words.tables/row/) و[Cell](https://reference.aspose.com/words/ar/net/aspose.words.tables/cell/) |
+|  `Table`<br /> `أ | ب`<br />`-|-`<br />`c | د` |  فئات [Table](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/) و[Row](https://reference.aspose.com/words/ar/net/aspose.words.tables/row/) و[Cell](https://reference.aspose.com/words/ar/net/aspose.words.tables/cell/) |
 |  {{< highlight csharp >}}// Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 

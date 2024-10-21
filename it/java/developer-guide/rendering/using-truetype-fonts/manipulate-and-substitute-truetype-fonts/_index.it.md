@@ -224,7 +224,7 @@ Aspose.Words tenta di trovare i font TrueType sul file system automaticamente. D
 
 Ci sono alcune differenze nel trattamento dei formati di carattere in Aspose.Words e Microsoft Word come mostrato nella tabella sottostante:
 
-| | Microsoft Word | Aspose.Words |
+|  | Microsoft Word | Aspose.Words |
 |  :-  |  :-  |  :-  |
 | I font TrueType e i font OpenType con i contorni TrueType | Sostenuto. | Sostenuto. |
 | OpenType fonts con profilo PostScript | Supportato per la maggior parte degli scenari. Incorporare a formati di pagina fissa come PDF e XPS non sono supportati. Il testo viene sostituito con immagini bitmap. | Supportato per la maggior parte degli scenari, incluso l'inserimento in formati di pagina fissa. |

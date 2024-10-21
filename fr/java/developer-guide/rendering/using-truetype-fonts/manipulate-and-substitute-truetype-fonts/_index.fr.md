@@ -224,7 +224,7 @@ Aspose.Words tente de trouver automatiquement les polices TrueType sur le systè
 
 Il existe certaines différences dans le traitement des formats de police Aspose.Words et Microsoft Word comme indiqué dans le tableau ci-dessous:
 
-| | Microsoft Word | Aspose.Words |
+|  | Microsoft Word | Aspose.Words |
 |  :-  |  :-  |  :-  |
 | Polices TrueType et polices OpenType avec contours TrueType | Soutenu. | Soutenu. |
 | Polices OpenType avec contours PostScript | Prise en charge pour la plupart des scénarios. Intégration aux formats de pages fixes tels que PDF et XPS ne sont pas supportés. Le texte est remplacé par des images bitmap. | Prise en charge pour la plupart des scénarios, y compris l'intégration aux formats de page fixe. |

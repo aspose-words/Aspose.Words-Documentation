@@ -177,8 +177,8 @@ Ngôn ngữ văn bản được xác định trong Microsoft Word tài liệu. A
 
 | Tiêu chuẩn PDF trong phạm vi Aspose.Words | Yêu cầu hiện diện |
 | -------------------------------------------------- | ----------------------- |
-| PDF/A-1a ||
-| PDF/A-2a ||
+| PDF/A-1a |  |
+| PDF/A-2a |  |
 | PDF/UA-1 | {{< emoticons/tick >}} |
 
 Microsoft Word tài liệu cho phép người dùng thêm chú thích hình ảnh
@@ -244,8 +244,8 @@ Microsoft Word tài liệu cho phép người dùng thêm văn bản thay thế 
 
 | Các mức tuân thủ PDF trong Aspose.Words | Yêu cầu hiện diện |
 | -------------------------------------------------- | ----------------------- |
-| PDF/A-1a ||
-| PDF/A-2a ||
+| PDF/A-1a |  |
+| PDF/A-2a |  |
 | PDF/UA-1 | {{< emoticons/tick >}} |
 
 Ngoài điểm trước, các Microsoft Word tài liệu cũng cho phép người dùng thêm văn bản thay thế cho các liên kết. Aspose.Words xuất văn bản đó ra trong tập tin PDF.
@@ -289,8 +289,8 @@ doc.save(outFile, opt);
 
 | Mức tuân thủ PDF trong Aspose.Words | Yêu cầu hiện diện |
 | -------------------------------------------------- | ----------------------- |
-| PDF/A-1a ||
-| PDF/A-2a ||
+| PDF/A-1a |  |
+| PDF/A-2a |  |
 | PDF/UA-1 | {{< emoticons/tick >}} |
 
 Các bảng trong tài liệu PDF/UA-1 phải có các tiêu đề – cột, hàng hoặc cả hai. PDF/A chỉ yêu cầu tiêu chuẩn đánh dấu bảng, không có những hạn chế bổ sung nào. Lời chú ý rằng Aspose.Words tạo ra mã đánh dấu bảng tiêu chuẩn tự động.
@@ -325,7 +325,7 @@ Các bảng trong tài liệu PDF/UA-1 phải có các tiêu đề – cột, h�
 | -------------------------------------------------- | ----------------------- |
 | PDF/A-1a | {{< emoticons/tick >}} |
 | PDF/A-2a | {{< emoticons/tick >}} |
-| PDF/UA-1 ||
+| PDF/UA-1 |  |
 
 {{% alert color="secondary" %}}
 <chi tiết>
@@ -347,7 +347,7 @@ Microsoft Word tài liệu không cho phép người dùng đặt văn bản tha
 | -------------------------------------------------- | ----------------------- |
 | PDF/A-1a | {{< emoticons/tick >}} |
 | PDF/A-2a | {{< emoticons/tick >}} |
-| PDF/UA-1 ||
+| PDF/UA-1 |  |
 
 {{% alert color="secondary" %}}
 <chi tiết>
@@ -366,9 +366,9 @@ Bất kỳ tài liệu Microsoft Word nào cũng không cho phép người dùng
 
 | Các mức tuân thủ tiêu chuẩn PDF trong Aspose.Words | Yêu cầu hiện diện |
 | -------------------------------------------------- | ------------------------------------------------------------ |
-| PDF/A-1a ||
-| PDF/A-2a ||
-| PDF/A-4 ||
+| PDF/A-1a |  |
+| PDF/A-2a |  |
+| PDF/A-4 |  |
 | PDF/UA-1 | {{< emoticons/tick >}} <br /> Tài liệu trong PDF/UA-1 nên có tiêu đề. |
 
 {{% alert color="secondary" %}}
@@ -433,8 +433,8 @@ Aspose.Words không kiểm tra các hạn chế pháp lý của phông chữ đ�
 
 | Các mức tuân thủ PDF trong Aspose.Words | Yêu cầu hiện diện |
 | -------------------------------------------------- | ----------------------- |
-| PDF/A-1a ||
-| PDF/A-1b ||
+| PDF/A-1a |  |
+| PDF/A-1b |  |
 | PDF/A-2a | {{< emoticons/tick >}} |
 | PDF/A-2b | {{< emoticons/tick >}} |
 | PDF/A-4 | {{< emoticons/tick >}} |
@@ -466,12 +466,12 @@ Việc sử dụng `.notdef` glyph bị cấm. Biểu tượng `.notdef` glyph s
 
 | Mức tuân thủ tiêu chuẩn PDF trong Aspose.Words | Yêu cầu hiện diện |
 | -------------------------------------------------- | ----------------------- |
-| PDF/A-1a ||
-| PDF/A-1b ||
+| PDF/A-1a |  |
+| PDF/A-1b |  |
 | PDF/A-2a | {{< emoticons/tick >}} |
 | PDF/A-2b | {{< emoticons/tick >}} |
 | PDF/A-4 | {{< emoticons/tick >}} |
-| PDF/UA-1 ||
+| PDF/UA-1 |  |
 
 Ký tự khu vực sử dụng riêng (PUA) xuất hiện chủ yếu đối với Windows phông chữ tượng trưng như "Symbol", "Wingdings", "Webdings" và các loại khác. Microsoft Word định dạng không cung cấp tùy chọn để lưu trữ văn bản thực tế cho ký tự.
 

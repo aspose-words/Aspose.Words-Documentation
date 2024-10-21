@@ -177,8 +177,8 @@ Limba text este specificată în Microsoft Word documente. Aspose.Words exportă
 
 | Niveluri de conformitate PDF standard în cadrul Aspose.Words | Prezența cerinței |
 | -------------------------------------------------- | ----------------------- |
-| PDF/A-1a ||
-| PDF/A-2a ||
+| PDF/A-1a |  |
+| PDF/A-2a |  |
 | PDF/UA-1 | {{< emoticons/tick >}} |
 
 Microsoft Word documente permite utilizatorilor să adauge legendă de figură
@@ -244,8 +244,8 @@ Microsoft Word documente permit utilizatorilor să adauge text alternativ la ima
 
 | Niveluri de conformitate PDF standard în interiorul Aspose.Words | Prezența cerinței |
 | -------------------------------------------------- | ----------------------- |
-| PDF/A-1a ||
-| PDF/A-2a ||
+| PDF/A-1a |  |
+| PDF/A-2a |  |
 | PDF/UA-1 | {{< emoticons/tick >}} |
 
 În plus față de punctul anterior, Microsoft Word documente permit utilizatorilor să adauge text alternativ pentru linkuri. Aspose.Words exportă un astfel de text alternativ în fișierul PDF rezultat.
@@ -264,8 +264,8 @@ Urmează exemplul de cod pentru a actualiza `TOC` câmpuri utilizând Aspose.Wor
 
 | Nivelurile de conformitate cu standardele PDF în interiorul Aspose.Words | Prezența cerinței |
 | -------------------------------------------------- | ----------------------- |
-| PDF/A-1a ||
-| PDF/A-2a ||
+| PDF/A-1a |  |
+| PDF/A-2a |  |
 | PDF/UA-1 | {{< emoticons/tick >}} |
 
 Tabelurile din documentele PDF/UA-1 trebuie să aibă anteturi – coloană, rând sau ambele. PDF/A necesită doar marcarea tabelului standard, care nu are restricții suplimentare. Observați că Aspose.Words generează automat marcajul tabelului standard.
@@ -300,7 +300,7 @@ Tabelurile din documentele PDF/UA-1 trebuie să aibă anteturi – coloană, râ
 | -------------------------------------------------- | ----------------------- |
 | PDF/A-1a | {{< emoticons/tick >}} |
 | PDF/A-2a | {{< emoticons/tick >}} |
-| PDF/UA-1 ||
+| PDF/UA-1 |  |
 
 {{% alert color="secondary" %}}
 <details>
@@ -322,7 +322,7 @@ Documentul Microsoft Word nu permite utilizatorilor să introducă text de înlo
 | -------------------------------------------------- | ----------------------- |
 | PDF/A-1a | {{< emoticons/tick >}} |
 | PDF/A-2a | {{< emoticons/tick >}} |
-| PDF/UA-1 ||
+| PDF/UA-1 |  |
 
 {{% alert color="secondary" %}}
 <details>
@@ -341,9 +341,9 @@ Documentul Microsoft Word nu permite utilizatorilor să stabilească expansiuni 
 
 | Niveluri de conformitate cu PDF standard în Aspose.Words | Prezența cerinței |
 | -------------------------------------------------- | ------------------------------------------------------------ |
-| PDF/A-1a ||
-| PDF/A-2a ||
-| PDF/A-4 ||
+| PDF/A-1a |  |
+| PDF/A-2a |  |
+| PDF/A-4 |  |
 | PDF/UA-1 | {{< emoticons/tick >}} <br /> Documentele în PDF/UA-1 ar trebui să aibă un titlu. |
 
 {{% alert color="secondary" %}}
@@ -408,8 +408,8 @@ Aspose.Words nu verifică restricțiile legale ale fonturilor utilizate – este
 
 | Niveluri de conformitate cu standardul PDF în cadrul Aspose.Words | Prezența cerințelor |
 | -------------------------------------------------- | ----------------------- |
-| PDF/A-1a ||
-| PDF/A-1b ||
+| PDF/A-1a |  |
+| PDF/A-1b |  |
 | PDF/A-2a | {{< emoticons/tick >}} |
 | PDF/A-2u | {{< emoticons/tick >}} |
 | PDF/A-4 | {{< emoticons/tick >}} |
@@ -441,12 +441,12 @@ Utilizarea `.notdef` glyph este interzisă. The `.notdef` glyph va apărea dacă
 
 | Nivelurile de conformitate PDF în cadrul Aspose.Words | Prezența cerinței |
 | -------------------------------------------------- | ----------------------- |
-| PDF/A-1a ||
-| PDF/A-1b ||
+| PDF/A-1a |  |
+| PDF/A-1b |  |
 | PDF/A-2a | {{< emoticons/tick >}} |
 | PDF/A-2u | {{< emoticons/tick >}} |
 | PDF/A-4 | {{< emoticons/tick >}} |
-| PDF/UA-1 ||
+| PDF/UA-1 |  |
 
 Caracterele Private Use Area (PUA) apar în general pentru Windows fonturi simbolice precum "Symbol", "Wingdings", "Webdings" și altele. Microsoft Word formate nu oferă o opțiune de a stoca textul real pentru caractere.
 

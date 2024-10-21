@@ -35,17 +35,17 @@ Aşağıdaki tablo tam ve kısmen desteklenen düzenleri listeler:
 | ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | `List` | <ul><li>Temel Blok Listesi</li><li>Değiştirgen Altıgenler</li><li>Dikey Nokta Listesi</li><li>Dikey Kutular Listesi</li><li>Değişken Genişlik Listesi</li><li>Yatay Nokta Listesi</li><li>Grouped Listesi</li><li>Dikey Blok Listesi</li><li>Dikey Omuz Listesi</li><li>Dikey Ok Listesi</li><li>Trapezoid Listesi</li><li>Tablo Listesi</li><li>Piramit Listesi</li><li>Hedef Listesi</li></ul> | <ul><li>Sıralı Liste</li><li>Dikey Parantez Listesi</li><li>Sekme Listesi</li><li>Yığınlı Liste</li><li>Dikey Vurgu Listesi</li><li>Dikey Çember Listesi</li></ul> |
 | `Process` | <ul><li>Temel Süreç</li><li>Vurgu Süreci</li><li>Sürekli Blok Süreci</li><li>Artan Ok Süreci</li><li>Yakınsak Metin</li><li>Temel Zaman Çizelgesi</li><li>Temel Köşe Süreci</li><li>Köşe Vurgusu Süreci</li><li>Kapalı Köşe Süreci</li><li>Köşe Listesi</li><li>Dikey Süreç</li><li>Sıkıştırılmış Süreç</li><li>Süreç Listesi</li><li>Temel Bükme Süreci</li><li>Tekrarlayan Bükme Süreci</li><li>Ayrıntılı Süreç</li><li>Yükseliş Okları</li><li>Düşüş Süreci</li><li>Dairenim Bükme Süreci</li></ul> | <ul><li>Adım Yükseltme Süreci</li><li>Adım İndirme Süreci</li><li>Değişik Akış</li><li>Artan Çember Süreci</li><li>Piye Süreci</li><li>Birleşmiş Blok Süreci</li><li>Süreç Okları</li><li>Çember Vurgulu Zaman Çizelgesi</li><li>Çember Süreci</li><li>Alt Adım Süreci</li><li>Fazalı Süreç</li><li>Rastgele Sonuç Süreci</li><li>Çember Ok Süreci</li></ul> |
-| `Cycle` |–| <ul><li>Segmented Cycle</li><li>Hexagonal Radial</li></ul> |
-| `Hierarchy` |–| <ul><li>Tablo Hiyerarşisi</li> <li>Mimari Düzen</li></ul> |
+| `Cycle` | – | <ul><li>Segmented Cycle</li><li>Hexagonal Radial</li></ul> |
+| `Hierarchy` | – | <ul><li>Tablo Hiyerarşisi</li> <li>Mimari Düzen</li></ul> |
 | `Relationship` | <ul><li>Denge</li><li>Havane Boru</li><li>Piyasa</li><li>Plus Ve Minus</li><li>Ok Şeridi</li><li>Karşılaştırma Okları</li><li>Karşıt Oklar</li><li>İç içe hedef</li><li>Temel hedef</li><li>Temel pasta</li><li>Temel Venn</li><li>Yığılmış Venn</li><li>Bağlantılı yüzük</li></ul> | <ul><li>Çember İlişki</li> <li>Karşıt Fikirler</li> <li>Denklem</li> <li>Dikey Denklem</li> <li>Doğrusal Venn</li></ul> |
-| `Matrix` | <ul><li>Temel Matris</li><li>Başlık matris</li><li>Grid Matris</li><li>Döngü Matris</li></ul> |–|
-| `Pyramid` |–| <ul><li>Segmentli Piramit</li></ul> |
+| `Matrix` | <ul><li>Temel Matris</li><li>Başlık matris</li><li>Grid Matris</li><li>Döngü Matris</li></ul> | – |
+| `Pyramid` | – | <ul><li>Segmentli Piramit</li></ul> |
 
 ## SmartArt Renderlamasının Aspose.Words ve Microsoft karşılaştırması
 
 Aşağıdaki tablo, bazı standart düzenlere karşılaştırılan Aspose.Words soğuk sunumunun örnek resimlerini göstermektedir Microsoft Word çıktı olarak:
 
-|| **Aspose.Words** | **Microsoft Word** |
+|  | **Aspose.Words** | **Microsoft Word** |
 | ----------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Basic Process** | <img src="basic-process-aspose.png" alt="basic_process_aspose"/> | <img src="basic-process-word.png" alt="basic_process_word"/> |
 | **Circular Bending Process** | <img src="circular-bending-process-aspose.png" alt="circular_bending_process_aspose"/> | <img src="circular-bending-process-word.png" alt="circular_bending_process_word"/> |

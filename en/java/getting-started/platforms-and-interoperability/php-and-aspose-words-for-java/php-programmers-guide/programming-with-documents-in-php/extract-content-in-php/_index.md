@@ -256,7 +256,7 @@ while ($isExtracting)
 // Clone the current node and its children to obtain a copy.
 $cloneNode = $currNode->deepClone(true);
 $isEndingNode = $currNode->equals(java_values($endNode));
-if(java_values($isStartingNode) || java_values($isEndingNode))
+if(java_values($isStartingNode) |  | java_values($isEndingNode))
 {
 // We need to process each marker separately so pass it off to a separate method instead.
 if (java_values($isStartingNode))
@@ -311,7 +311,7 @@ throw new Exception("End node cannot be null");
 if (! java_values($startNode->getDocument()->equals($endNode->getDocument())))
 throw new Exception("Start node and end node must belong to the same document");
 $nodeType = Java("com.aspose.words.NodeType");
-if ( java_values($startNode->getAncestor($nodeType->BODY)) == null || java_values($endNode->getAncestor($nodeType->BODY)) == null)
+if ( java_values($startNode->getAncestor($nodeType->BODY)) == null |  | java_values($endNode->getAncestor($nodeType->BODY)) == null)
 throw new Exception("Start node and end node must be a child or descendant of a body");
 
 // Check the end node is after the start node in the DOM tree
@@ -371,7 +371,7 @@ if (java_values($node->getNodeType()) == java_values($nodeType->FIELD_START))
 // If the marker is a start node and is not be included then skip to the end of the field.
 
 // If the marker is an end node and it is to be included then move to the end field so the field will not be removed.
-if (($isStartMarker && !$isInclusive) || (!$isStartMarker && $isInclusive))
+if (($isStartMarker && !$isInclusive) |  | (!$isStartMarker && $isInclusive))
 {
 while (java_values($node->getNextSibling()) != null && java_values($node->getNodeType()) != java_values($nodeType->FIELD_END))
 $node = $node->getNextSibling();
@@ -440,7 +440,7 @@ $nodes->add($cloneNode);
 public static function isInline($node) {
 // Test if the node is descendant of a Paragraph or Table node and also is not a paragraph or a table a paragraph inside a comment class which is descendant of a paragraph is possible.
 $nodeType = Java("com.aspose.words.NodeType");
-return ((java_values($node->getAncestor($nodeType->PARAGRAPH)) != null || java_values($node->getAncestor($nodeType->TABLE)) != null) && !(java_values($node->getNodeType()) == (java_values($nodeType->PARAGRAPH) || java_values($node->getNodeType()) == java_values($nodeType->TABLE))));
+return ((java_values($node->getAncestor($nodeType->PARAGRAPH)) != null |  | java_values($node->getAncestor($nodeType->TABLE)) != null) && !(java_values($node->getNodeType()) == (java_values($nodeType->PARAGRAPH) |  | java_values($node->getNodeType()) == java_values($nodeType->TABLE))));
 }
 public static function paragraphsByStyleName($doc, $styleName) {
 // Create an array to collect paragraphs of the specified style.

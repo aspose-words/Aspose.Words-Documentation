@@ -91,7 +91,7 @@ Aspose.Words, yüklü belgeleri programlı bir şekilde oluşturmanıza, birleş
 | VBA makrolarını belgeden koruyun veya kaldırın. VBA makrolarının dijital imzasını koruyun. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Belgelerdeki dijital imzaları tespit edin ve doğrulayın. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | HTML metni ekleyin. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| VBA Makrolarını Word Belgesinden çıkarın. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | | | |
+| VBA Makrolarını Word Belgesinden çıkarın. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  | |  |
 
 ## Belge Biçimlendirme Özellikleri
 

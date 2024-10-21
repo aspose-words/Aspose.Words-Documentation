@@ -47,21 +47,21 @@ Les fichiers suivants sont utilisés dans l'exemple ci-dessus. Le nom du fichier
 
 | Group de fichiers | Document d'entrée | Taper |
 |  :-  |  :-  |  :-  |
-| Formats de fichiers pris en charge | Fichier de test (Doc).doc | Document Microsoft Word 95/6.0 ou Microsoft Word 97 – 2003. |
-| | Fichier de test (`Dot`).dot | Modèle Microsoft Word 95/6.0 ou Microsoft Word 97 – 2003. |
-| | Fichier de test (Docx).docx | Document Office Open XML WordprocessingML sans macros. |
-| | Fichier de test (Docm).docm | Document Office Open XML WordprocessingML avec macros. |
-| | Fichier de test (Dotx).dotx | Modèle Office Open XML WordprocessingML. |
-| | Fichier de test (Dotm).dotm | Modèle Office Open XML WordprocessingML avec macros. |
-| | Fichier de test (XML).xml | Document FlatOPC OOXML. |
-| | Fichier de test (RTF).rtf | Document au format texte enrichi. |
-| | Fichier de test (WordML).xml | Document WordprocessingML Microsoft Word 2003. |
-| | Fichier de test (HTML).html | Document HTML. |
-| | Fichier de test (MHTML).mhtml | Document MHTML (archive Web). |
-| | Fichier de test (Odt).odt | Texte OpenDocument (OpenOffice Writer). |
-| | Fichier de test (Ott).ott | Modèle de document OpenDocument. |
-| | Fichier de test (DocPreWord60).doc | Document Microsoft Word 2.0. |
-| Documents cryptés | Fichier de test (Enc).doc | Document crypté Microsoft Word 95/6.0 ou Microsoft Word 97 – 2003. |
-| | Fichier de test (Enc).docx | Document Office Open XML WordprocessingML crypté. |
+| Formats de fichiers pris en charge | Fichier de test (Doc).doc|Document Microsoft Word 95/6.0 ou Microsoft Word 97 – 2003. |
+|  | Fichier de test (`Dot`).dot | Modèle Microsoft Word 95/6.0 ou Microsoft Word 97 – 2003. |
+|  | Fichier de test (Docx).docx | Document Office Open XML WordprocessingML sans macros. |
+|  | Fichier de test (Docm).docm | Document Office Open XML WordprocessingML avec macros. |
+|  | Fichier de test (Dotx).dotx | Modèle Office Open XML WordprocessingML. |
+|  | Fichier de test (Dotm).dotm | Modèle Office Open XML WordprocessingML avec macros. |
+|  | Fichier de test (XML).xml | Document FlatOPC OOXML. |
+|  | Fichier de test (RTF).rtf | Document au format texte enrichi. |
+|  | Fichier de test (WordML).xml | Document WordprocessingML Microsoft Word 2003. |
+|  | Fichier de test (HTML).html | Document HTML. |
+|  | Fichier de test (MHTML).mhtml | Document MHTML (archive Web). |
+|  | Fichier de test (Odt).odt | Texte OpenDocument (OpenOffice Writer). |
+|  | Fichier de test (Ott).ott | Modèle de document OpenDocument. |
+|  | Fichier de test (DocPreWord60).doc|Document Microsoft Word 2.0. |
+| Documents cryptés | Fichier de test (Enc).doc|Document crypté Microsoft Word 95/6.0 ou Microsoft Word 97 – 2003. |
+|  | Fichier de test (Enc).docx | Document Office Open XML WordprocessingML crypté. |
 | Formats de fichiers non pris en charge | Fichier de test (JPG).jpg | Fichier image JPEG. |
 

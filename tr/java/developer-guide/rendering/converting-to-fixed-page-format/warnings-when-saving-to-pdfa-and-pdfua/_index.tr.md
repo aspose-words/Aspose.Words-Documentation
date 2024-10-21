@@ -17,11 +17,11 @@ Tüm uyarılar [WarningType](https://reference.aspose.com/words/java/com.aspose.
 
 | Tanım uyarısı değeri | PDF/A | PDF/UA |
 | ------------------------------------------------------------ | ---------------------- | ---------------------- |
-| "Document unvanı eksik. Bu uyum gereksinimlerini ihlal ediyor. Çıktı belgesi tam olarak uyumlu olmayacaktır." || {{< emoticons/tick >}} |
-| "The document contains goings which levels are not outside. Bu uyumluluk gereksinimlerini ihlal ediyor. Çıktı belgesi tam uyumlu olmayacak." || {{< emoticons/tick >}} |
+| "Document unvanı eksik. Bu uyum gereksinimlerini ihlal ediyor. Çıktı belgesi tam olarak uyumlu olmayacaktır." |  | {{< emoticons/tick >}} |
+| "The document contains goings which levels are not outside. Bu uyumluluk gereksinimlerini ihlal ediyor. Çıktı belgesi tam uyumlu olmayacak." |  | {{< emoticons/tick >}} |
 | " Belgede alt metin olmadan şekil var. Bu uyumluluk gereksinimlerini ihlal ediyor. Çıktı belgesi tam olarak uyumlu olmayacak." | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Bileşikte, "alt metni olmayan tablolar var. Bu uyumluluk gereksinimlerini ihlal eder. Çıkış belgesi tamamen uyumlu olmayacak." | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Belgede alt metin olmadan hiperlinkler var. Bu uyum gereksinimlerini ihlal ediyor. Çıktı belgesi tamamen uyumlu olmayacak." || {{< emoticons/tick >}} |
-| “Ölçücü sıra/column olmadan masalar var. Bu uyum gereksinimlerini ihlal eder. Çıktı belgesi tamamen uyumlu olmayacak." || {{< emoticons/tick >}} |
-| "The document contains Unicode PUA karakterleri. Bu uyum gereksinimlerini ihlal eder. Çıktı belgesi tam uyumlu olmayacak." | {{< emoticons/tick >}} ||
+| Belgede alt metin olmadan hiperlinkler var. Bu uyum gereksinimlerini ihlal ediyor. Çıktı belgesi tamamen uyumlu olmayacak." |  | {{< emoticons/tick >}} |
+| “Ölçücü sıra/column olmadan masalar var. Bu uyum gereksinimlerini ihlal eder. Çıktı belgesi tamamen uyumlu olmayacak." |  | {{< emoticons/tick >}} |
+| "The document contains Unicode PUA karakterleri. Bu uyum gereksinimlerini ihlal eder. Çıktı belgesi tam uyumlu olmayacak." | {{< emoticons/tick >}} |  |
 | "The document contains .notdef glyphs. Bu uyumlu olma gereksinimlerini ihlal ediyor. Çıktı belgesi tam uyum sağlaymayacak." | {{< emoticons/tick >}} | {{< emoticons/tick >}} |

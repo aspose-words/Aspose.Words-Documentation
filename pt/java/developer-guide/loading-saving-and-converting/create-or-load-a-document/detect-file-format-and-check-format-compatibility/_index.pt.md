@@ -48,20 +48,20 @@ Os seguintes arquivos são usados no exemplo acima. O nome do arquivo está à e
 | Group de Arquivos | Documento de entrada | Tipo |
 |  :-  |  :-  |  :-  |
 | Formatos de arquivo suportados | Test File (Doc).doc | Microsoft Word 95/6.0 ou Microsoft Word 97 - 2003 documento. |
-| | Test File (Dot).dot | Microsoft Word 95/6.0 ou Microsoft Word 97 – 2003 modelo. |
-| | Test File (Docx).docx | Office Open XML Wordprocessing ML documento sem macros. |
-| | Test File (Docm).docm | Office Open XML Wordprocessing Documento ML com macros. |
-| | Test File (Dotx).dotx | Office Open XML Wordprocessing Modelo ML. |
-| | Test File (Dotm).dotm | Office Open XML Wordprocessing Modelo ML com macros. |
-| | Test File (XML).xml | FlatOPC OOXML Document. |
-| | Test File (RTF).rtf | Rich Text Format documento. |
-| | Test File (WordML).xml | Microsoft Word Processamento do Word 2003 Documento ML. |
-| | Test File (HTML).html | Documento HTML. |
-| | Test File (MHTML).mhtml | MHTML (arquivo Web) documento. |
-| | Test File (Odt).odt | OpenDocument Text (OpenOffice Writer). |
-| | Test File (Ott).ott | Modelo de documento OpenDocument. |
-| | Test File (DocPreWord60).doc | Microsoft Word Documento 2.0. |
+|  | Test File (Dot).dot | Microsoft Word 95/6.0 ou Microsoft Word 97 – 2003 modelo. |
+|  | Test File (Docx).docx | Office Open XML Wordprocessing ML documento sem macros. |
+|  | Test File (Docm).docm | Office Open XML Wordprocessing Documento ML com macros. |
+|  | Test File (Dotx).dotx | Office Open XML Wordprocessing Modelo ML. |
+|  | Test File (Dotm).dotm | Office Open XML Wordprocessing Modelo ML com macros. |
+|  | Test File (XML).xml | FlatOPC OOXML Document. |
+|  | Test File (RTF).rtf | Rich Text Format documento. |
+|  | Test File (WordML).xml | Microsoft Word Processamento do Word 2003 Documento ML. |
+|  | Test File (HTML).html | Documento HTML. |
+|  | Test File (MHTML).mhtml | MHTML (arquivo Web) documento. |
+|  | Test File (Odt).odt | OpenDocument Text (OpenOffice Writer). |
+|  | Test File (Ott).ott | Modelo de documento OpenDocument. |
+|  | Test File (DocPreWord60).doc | Microsoft Word Documento 2.0. |
 | Documentos criptografados | Test File (Enc).doc | Criptografado Microsoft Word 95/6.0 ou Microsoft Word 97 - 2003 documento. |
-| | Test File (Enc).docx | Encrypted Office Open XML Wordprocessing Documento ML. |
+|  | Test File (Enc).docx | Encrypted Office Open XML Wordprocessing Documento ML. |
 | Formatos de arquivo não suportados | Test File (JPG). O que foi? | Arquivo de imagem JPEG. |
 

@@ -13,7 +13,7 @@ While building a report, some paragraphs containing only template syntax tags ca
 
 {{< highlight csharp >}}
 ReportingEngine engine = new ReportingEngine();
-engine.Options |= ReportBuildOptions.RemoveEmptyParagraphs;
+engine.Options | = ReportBuildOptions.RemoveEmptyParagraphs;
 engine.BuildReport(...);
 {{< /highlight >}}
 

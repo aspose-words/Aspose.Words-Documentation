@@ -91,7 +91,7 @@ Aspose.Words는 로드된 문서를 프로그래밍 방식으로 생성, 결합,
 | 문서에서 VBA 매크로를 유지하거나 제거합니다. VBA 매크로 디지털 서명을 유지합니다. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | 문서의 디지털 서명을 감지하고 확인합니다. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | HTML 텍스트를 삽입합니다. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Word 문서에서 VBA 매크로를 추출합니다. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | | | |
+| Word 문서에서 VBA 매크로를 추출합니다. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  | |  |
 
 ## 문서 서식 기능
 

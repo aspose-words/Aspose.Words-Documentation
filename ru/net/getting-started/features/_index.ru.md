@@ -91,7 +91,7 @@ Aspose.Words Предоставляет богатую объектную мод
 | Сохранить или удалить макросы VBA из документа. Сохранение цифровой подписи VBA. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Обнаружение и проверка цифровых подписей в документах. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Вставьте HTML текст. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Экстракт VBA Макрос из Word Document. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | | | |
+| Экстракт VBA Макрос из Word Document. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  | |  |
 
 ## Особенности форматирования документов
 

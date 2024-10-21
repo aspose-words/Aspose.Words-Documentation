@@ -91,7 +91,7 @@ Aspose.Words забезпечує багату модель об'єкта, як�
 | Збереження або видалення макросів ВБА з документа. Збереження цифрового підпису VBA. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Виявлення та перевірка цифрових підписів у документах. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Вставте текст HTML. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Екстракт ВБА Macros з документа Word. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | | | |
+| Екстракт ВБА Macros з документа Word. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  | |  |
 
 ## Особливості форматування документів
 

@@ -25,7 +25,7 @@ The following code example shows how to find some text and replace it:
 doc.getRange().replace("sad", "bad", false, true);
 
 // Replaces all 'sad' and 'mad' occurrences with 'bad'
-doc.getRange().replace(Pattern.compile("[s|m]ad"), "bad");
+doc.getRange().replace(Pattern.compile("[s | m]ad"), "bad");
 {{< /highlight >}}
 
 See also:

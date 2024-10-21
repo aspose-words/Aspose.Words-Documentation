@@ -91,7 +91,7 @@ Aspose.Words מספק מודל אובייקט עשיר הכולל מעל 100 כ�
 | שמור או להסיר מאקרו VBA מן המסמך. שמור על חתימה דיגיטלית VBA. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Detect ולוודא חתימות דיגיטליות במסמכים. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | הכנס טקסט HTML | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| הפקה VBA Macros from Word Document | {{< emoticons/tick >}} | {{< emoticons/tick >}} | | | |
+| הפקה VBA Macros from Word Document | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  | |  |
 
 ## תכונות Document Format
 

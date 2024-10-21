@@ -66,19 +66,19 @@ url: /ru/cpp/translate-markdown-to-document-object-model/
 | Markdown особенность | Aspose.Words |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **HorizontalRule**<br />`-----` | Это простой абзац с соответствующей формой HorizontalRule:<br />`DocumentBuilder::InsertHorizontalRule()` |
-| {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-HorizontalRule.h" >}} ||
+| {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-HorizontalRule.h" >}} |  |
 | **ATX Heading**<br />`# H1, ## H2, ### H3…` | `get_ParagraphFormat()->set_StyleName(u"Heading N")`, где (1<= N <= 9).<br />Это переводится во встроенный стиль и должно точно соответствовать указанному шаблону (суффиксы и префиксы не допускаются).<br />В противном случае это будет просто обычный абзац с соответствующим стилем. |
-| {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Heading.h" >}} ||
+| {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Heading.h" >}} |  |
 | **Setext Heading**<br />`===` (if Heading level 1),<br />`---` (if Heading level 2) | `get_ParagraphFormat->set_StyleName(u"SetextHeading[some suffix]")`, основанный на стиле `"Heading N"`.<br />Если (N >= 2), то будет использовано `"Heading 2"`, в противном случае `"Heading 1"`.<br />Допускается использование любого суффикса, но импортер Aspose.Words использует цифры "1" и "2" соответственно. |
-| {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-SetextHeading.h" >}} ||
+| {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-SetextHeading.h" >}} |  |
 | **Indented Code** | `get_ParagraphFormat->set_StyleName(u"IndentedCode[some suffix]")` |
-| {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-IndentedCode.h" >}} ||
+| {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-IndentedCode.h" >}} |  |
 | **Fenced Code**<br />{{< highlight csharp >}} c#
 if ()
 then
 else
 {{< /highlight >}} | `get_ParagraphFormat()->set_StyleName(u"FencedCode[.][info string]")`<br /> Значения `[.]` и `[info string]` являются необязательными. |
-| {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-FencedCode.h" >}} ||
+| {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-FencedCode.h" >}} |  |
 
 ### Сложные контейнеры
 
@@ -87,11 +87,11 @@ else
 | Markdown особенность | Aspose.Words |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Quote**<br />`> quote,`<br />`>> nested quote` | `get_ParagraphFormat()->set_StyleName(u"Quote[some suffix]")`<br /> Суффикс в названии стиля необязателен, но Aspose.Words импортер использует упорядоченные номера 1, 2, 3, .... в случае вложенных кавычек.<br />Вложенность определяется с помощью унаследованных стилей. |
-| {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Quote.h" >}} ||
+| {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Quote.h" >}} |  |
 | **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | Маркированные списки представлены с использованием нумерации абзацев:<br />`get_ListFormat()->ApplyBulletDefault()`<br />Маркированных списков может быть 3 типов. Они различаются только в формате нумерации самого первого уровня. Это: `‘-’`, `‘+’` или `‘*’` соответственно. |
-| {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-BulletedList.h" >}} ||
+| {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-BulletedList.h" >}} |  |
 | **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Упорядоченные списки представлены с использованием нумерации абзацев:<br />`get_ListFormat()->ApplyNumberDefault()`<br /> Могут быть маркеры числового формата 2: ‘.’ и ‘)’. По умолчанию используется маркер ‘.’. |
-| {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-OrderedList.h" >}} ||
+| {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-OrderedList.h" >}} |  |
 
 ### Таблицы
 
@@ -100,7 +100,7 @@ Aspose.Words также позволяет переводить таблицы �
 | Markdown особенность | Aspose.Words |
 | ---------------------------------------- | ------------------------------------------------------------ |
 | `Table`<br />`a|b`<br />`-|-`<br />`c|d` | классы [Table](https://reference.aspose.com/words/cpp/aspose.words.tables/table/), [Row](https://reference.aspose.com/words/cpp/aspose.words.tables/row/) и [Cell](https://reference.aspose.com/words/cpp/aspose.words.tables/cell/). |
-| {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Table.h" >}} ||
+| {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Table.h" >}} |  |
 
 ## Смотрите также
 

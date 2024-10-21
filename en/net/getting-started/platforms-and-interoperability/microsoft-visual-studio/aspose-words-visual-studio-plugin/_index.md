@@ -81,9 +81,9 @@ Once installed you can easy launch and use the interactive plugin as described b
 
 **4.** New Examples projects as per project type selection of **C#** or **VB.NET** in Visual Studio.
 
-|C# Examples |VB.NET Examples |
+| C# Examples | VB.NET Examples |
 | :- | :- |
-|![todo:image_alt_text](aspose-words-visual-studio-plugin_6)|![todo:image_alt_text](aspose-words-visual-studio-plugin_7)|
+| ![todo:image_alt_text](aspose-words-visual-studio-plugin_6) | ![todo:image_alt_text](aspose-words-visual-studio-plugin_7) |
 
 ## Video Demo
 

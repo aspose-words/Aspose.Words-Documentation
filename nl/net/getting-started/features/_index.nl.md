@@ -91,7 +91,7 @@ Aspose.Words biedt een rijk object model dat bestaat uit meer dan 100 openbare k
 | VBA macro's uit het document bewaren of verwijderen. Bewaar VBA macro's digitale handtekening. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Detecteer en verifieer digitale handtekeningen in documenten. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | HTML tekst invoegen. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| VBA uitpakken Macro's van Word Document. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | | | |
+| VBA uitpakken Macro's van Word Document. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  | |  |
 
 ## Documentopmaakfuncties
 

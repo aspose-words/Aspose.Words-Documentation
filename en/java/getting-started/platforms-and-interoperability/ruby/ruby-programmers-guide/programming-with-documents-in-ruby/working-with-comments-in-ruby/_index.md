@@ -47,7 +47,7 @@ def extract_comments(doc)
     node_type = Rjb::import('com.aspose.words.NodeType')
     comments = doc.getChildNodes(node_type.COMMENT, true).toArray()
     save_format = Rjb::import('com.aspose.words.SaveFormat')
-    comments.each do |comment|
+    comments.each do | comment |
         author = comment.getAuthor()
         date_time = comment.getDateTime()
         format = comment.toString(save_format.TEXT)

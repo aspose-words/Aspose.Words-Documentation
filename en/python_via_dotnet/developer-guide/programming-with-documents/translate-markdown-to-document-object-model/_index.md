@@ -44,7 +44,7 @@ builder = aw.DocumentBuilder()
 builder.font.bold = True
 builder.writeln("This text will be Bold")
 
-builder.document.save(docs_base.artifacts_dir + "WorkingWithMarkdown.bold_text_example.md"){{< /highlight >}} ||
+builder.document.save(docs_base.artifacts_dir + "WorkingWithMarkdown.bold_text_example.md"){{< /highlight >}} |  |
 | **Italic**<br />`*italic text*` | `Font.italic = True` |
 | {{< highlight python >}}# Use a document builder to add content to the document.
 builder = aw.DocumentBuilder()
@@ -53,7 +53,7 @@ builder = aw.DocumentBuilder()
 builder.font.italic = True
 builder.writeln("This text will be Italic")
 
-builder.document.save(docs_base.artifacts_dir + "WorkingWithMarkdown.italic_text_example.md"){{< /highlight >}} ||
+builder.document.save(docs_base.artifacts_dir + "WorkingWithMarkdown.italic_text_example.md"){{< /highlight >}} |  |
 | **Strikethrough**<br />`~Strikethrough text~` | `Font.strike_through = True` |
 | {{< highlight python >}}# Use a document builder to add content to the document.
 builder = aw.DocumentBuilder()
@@ -62,7 +62,7 @@ builder = aw.DocumentBuilder()
 builder.font.strike_through = True
 builder.writeln("This text will be Strikethrough")
 
-builder.document.save(docs_base.artifacts_dir + "WorkingWithMarkdown.strikethrough_text_example.md"){{< /highlight >}} ||
+builder.document.save(docs_base.artifacts_dir + "WorkingWithMarkdown.strikethrough_text_example.md"){{< /highlight >}} |  |
 
 We use a character style with a name that starts from the word `InlineCode`, followed by an optional dot `(.)` and a number of backticks ```(`)``` for the `InlineCode` feature. If a number of backticks is missed, then one backtick will be used by default.
 
@@ -82,7 +82,7 @@ inlineCode3BackTicks = builder.document.styles.add(aw.StyleType.CHARACTER, "Inli
 builder.font.style = inlineCode3BackTicks
 builder.writeln("Text with InlineCode style with 3 backtick")
 
-builder.document.save(docs_base.artifacts_dir + "WorkingWithMarkdown.inline_code_example.md"){{< /highlight >}} ||
+builder.document.save(docs_base.artifacts_dir + "WorkingWithMarkdown.inline_code_example.md"){{< /highlight >}} |  |
 | **Autolink**<br />`<scheme://domain.com>`<br />`<email@domain.com>` | The [FieldHyperlink](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldhyperlink/) class. |
 | {{< highlight python >}}# Use a document builder to add content to the document.
 builder = aw.DocumentBuilder()
@@ -91,7 +91,7 @@ builder = aw.DocumentBuilder()
 builder.insert_hyperlink("https://www.aspose.com", "https://www.aspose.com", False);
 builder.insert_hyperlink("email@aspose.com", "mailto:email@aspose.com", False);
 
-builder.document.save(docs_base.artifacts_dir + "WorkingWithMarkdown.autolink_example.md"){{< /highlight >}} ||
+builder.document.save(docs_base.artifacts_dir + "WorkingWithMarkdown.autolink_example.md"){{< /highlight >}} |  |
 | **Link**<br />`[link text](url)`<br />`[link text](<url> "title")`<br />`[link text](url 'title')`<br />`[link text](url (title))` | The [FieldHyperlink](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldhyperlink/) |
 | {{< highlight python >}}# Use a document builder to add content to the document.
 builder = aw.DocumentBuilder()
@@ -99,7 +99,7 @@ builder = aw.DocumentBuilder()
 # Insert hyperlink.
 builder.insert_hyperlink("Aspose", "https://www.aspose.com", False)
 
-builder.document.save(docs_base.artifacts_dir + "WorkingWithMarkdown.link_example.md"){{< /highlight >}} ||
+builder.document.save(docs_base.artifacts_dir + "WorkingWithMarkdown.link_example.md"){{< /highlight >}} |  |
 | **Image**<br />`![](url)`<br />`![alt text](<url> “title”)`<br />`![alt text](url ‘title’)`<br />`![alt text](url (title))` | The [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) class. |
 | {{< highlight python >}}# Use a document builder to add content to the document.
 builder = aw.DocumentBuilder()
@@ -111,7 +111,7 @@ shape.image_data.source_full_name = "/attachment/1456/pic001.png"
 shape.image_data.title = "title"
 builder.insert_node(shape)
 
-builder.document.save(docs_base.artifacts_dir + "WorkingWithMarkdown.image_example.md"){{< /highlight >}} ||
+builder.document.save(docs_base.artifacts_dir + "WorkingWithMarkdown.image_example.md"){{< /highlight >}} |  |
 
 ## Container Blocks
 
@@ -246,7 +246,7 @@ Aspose.Words also allows to translate tables into DOM, as shown below:
 
 | Markdown feature                                             | Aspose.Words                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| `Table` <br />`a\|b`<br />`-\|-`<br />`c\|d`                 | [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/), [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) and [Cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/) classes. |
+| `Table` <br />`a\ | b`<br />`-\ | -`<br />`c\ | d`                 | [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/), [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) and [Cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/) classes. |
 | {{< highlight python >}}# Use a document builder to add content to the document.
 builder = aw.DocumentBuilder()
 

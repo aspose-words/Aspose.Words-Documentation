@@ -224,7 +224,7 @@ Aspose.Words versucht TrueType Schriftarten auf dem Dateisystem automatisch zu f
 
 Es gibt einige Unterschiede in der Verarbeitung von Schriftformaten in Aspose.Words und Microsoft Word wie in der nachstehenden Tabelle dargestellt:
 
-| | Microsoft Word | Aspose.Words |
+|  | Microsoft Word | Aspose.Words |
 |  :-  |  :-  |  :-  |
 | TrueType Schriftarten und OpenType Schriftarten mit TrueType Umrisse | Unterstützt. | Unterstützt. |
 | OpenType Schriftarten mit PostScript Umrisse | Unterstützt für die meisten Szenarien. Einbettung auf Festseitenformate wie PDF und XPS werden nicht unterstützt. Der Text wird durch Bitmap-Bilder ersetzt. | Unterstützt für die meisten Szenarien, einschließlich Einbettung auf Festseitenformate. |
