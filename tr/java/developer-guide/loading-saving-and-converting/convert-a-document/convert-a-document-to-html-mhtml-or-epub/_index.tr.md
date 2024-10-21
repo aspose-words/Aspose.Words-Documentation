@@ -38,7 +38,7 @@ Aşağıdaki kod örneği bir belgeyi DOCX'ten HTML'ye dönüştürürken gidiş
 
 {{% alert color="primary" %}}
 
-Örnek dosyanın şablon dosyasını [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/resources/com/aspose/words/examples/loading_saving/ConvertDocumentToHtmlWithRoundtrip/Test%20File%20\(doc\).doc 'dan indirebilirsiniz.'
+Örnek dosyanın şablon dosyasını [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Rendering.docx) 'dan indirebilirsiniz.'
 
 {{% /alert %}}
 
