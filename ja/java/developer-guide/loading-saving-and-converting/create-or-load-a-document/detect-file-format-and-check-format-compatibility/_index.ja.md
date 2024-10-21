@@ -48,20 +48,20 @@ Aspose.Words ファイルの実際の内容がわからない場合は例外を�
 | Group ファイルの | 入力文書 | タイプ: |
 |  :-  |  :-  |  :-  |
 | サポートされているファイル形式 | テストファイル(Doc).doc | Microsoft Word 95/6.0 または Microsoft Word 97 – 2003 ドキュメント。 |
-| | 試験ファイル(ドット).dot | Microsoft Word 95/6.0 または Microsoft Word 97 – 2003 テンプレート。 |
-| | テストファイル(Docx).docx | オフィスオープンXML Wordの処理 マクロのないML文書。 |
-| | テストファイル(Docm).docm | オフィスオープンXML Wordの処理 マクロのML文書。 |
-| | ファイルをテストして下さい(Dotx).dotx | オフィスオープンXML Wordの処理 MLテンプレート。 |
-| | ファイルをテストして下さい(Dotm).dotm | オフィスオープンXML Wordの処理 マクロの ML テンプレート。 |
-| | ファイルをテストして下さい(XML).xml | FlatOPC OOXML文書。 |
-| | ファイルをテストして下さい(RTF).rtf | 豊富なテキストフォーマット文書。 |
-| | テストファイル(WordML).xml | Microsoft Word 2003 単語処理 ML文書。 |
-| | テストファイル(HTML).html | HTMLドキュメント。 |
-| | テストファイル(MHTML).mhtml | MHTML(Webアーカイブ)ドキュメント。 |
-| | ファイルをテストして下さい(Odt).odt | OpenDocument テキスト(OpenOffice Writer) |
-| | テストファイル(Ott).ott | OpenDocument文書テンプレート。 |
-| | テストファイル (DocPreWord60).doc | Microsoft Word 2.0ドキュメント。 |
+|  | 試験ファイル(ドット).dot | Microsoft Word 95/6.0 または Microsoft Word 97 – 2003 テンプレート。 |
+|  | テストファイル(Docx).docx | オフィスオープンXML Wordの処理 マクロのないML文書。 |
+|  | テストファイル(Docm).docm | オフィスオープンXML Wordの処理 マクロのML文書。 |
+|  | ファイルをテストして下さい(Dotx).dotx | オフィスオープンXML Wordの処理 MLテンプレート。 |
+|  | ファイルをテストして下さい(Dotm).dotm | オフィスオープンXML Wordの処理 マクロの ML テンプレート。 |
+|  | ファイルをテストして下さい(XML).xml | FlatOPC OOXML文書。 |
+|  | ファイルをテストして下さい(RTF).rtf | 豊富なテキストフォーマット文書。 |
+|  | テストファイル(WordML).xml | Microsoft Word 2003 単語処理 ML文書。 |
+|  | テストファイル(HTML).html | HTMLドキュメント。 |
+|  | テストファイル(MHTML).mhtml | MHTML(Webアーカイブ)ドキュメント。 |
+|  | ファイルをテストして下さい(Odt).odt | OpenDocument テキスト(OpenOffice Writer) |
+|  | テストファイル(Ott).ott | OpenDocument文書テンプレート。 |
+|  | テストファイル (DocPreWord60).doc | Microsoft Word 2.0ドキュメント。 |
 | 暗号化された文書 | 試験ファイル(Enc).doc | 暗号化された Microsoft Word 95/6.0 または Microsoft Word 97 – 2003 ドキュメント。 |
-| | 試験ファイル(Enc).docx | 暗号化されたオフィスの開いたXML Wordの処理 ML文書。 |
+|  | 試験ファイル(Enc).docx | 暗号化されたオフィスの開いたXML Wordの処理 ML文書。 |
 | サポートされていないファイル形式 | ファイル(JPG)をテストして下さい。 トピックス | JPEGイメージファイル。 |
 

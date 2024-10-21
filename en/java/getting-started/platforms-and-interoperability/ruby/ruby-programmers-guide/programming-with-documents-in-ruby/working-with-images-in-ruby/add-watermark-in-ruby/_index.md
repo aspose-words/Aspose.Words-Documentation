@@ -58,7 +58,7 @@ def insert_watermark_text(doc, watermark_text)
     sects = doc.getSections().toArray()
 
     # Insert the watermark into all headers of each document section.
-    sects.each do |sect|
+    sects.each do | sect |
         headerFooterType = Rjb::import("com.aspose.words.HeaderFooterType")
 
         # There could be up to three different headers in each section, since we want

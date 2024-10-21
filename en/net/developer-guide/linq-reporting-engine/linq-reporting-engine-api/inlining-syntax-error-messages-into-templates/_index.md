@@ -33,7 +33,7 @@ When `ReportBuildOptions.InlineErrorMessages` is applied, a `Boolean` value retu
 
 {{< highlight csharp >}}
 ReportingEngine engine = new ReportingEngine();
-engine.Options |= ReportBuildOptions.InlineErrorMessages;
+engine.Options | = ReportBuildOptions.InlineErrorMessages;
 if (engine.BuildReport(...))
 {
 	// Do something with a successfully built report.

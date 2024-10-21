@@ -47,21 +47,21 @@ File berikut digunakan dalam contoh di atas. Nama file di sebelah kiri dan deskr
 
 | Group File | Dokumen Masukan | Jenis |
 |  :-  |  :-  |  :-  |
-| Format file yang didukung | File Uji (Dok).doc | Dokumen Microsoft Word 95/6.0 atau Microsoft Word 97 – 2003. |
-| | File Uji (`Dot`).dot | Templat Microsoft Word 95/6.0 atau Microsoft Word 97 – 2003. |
-| | File Uji (Docx).docx | Dokumen Office Open XML WordprocessingML tanpa makro. |
-| | File Uji (Docm).docm | Dokumen Office Open XML WordprocessingML dengan makro. |
-| | File Uji (Dotx).dotx | Templat Office Open XML WordprocessingML. |
-| | File Uji (Dotm).dotm | Templat Office Open XML WordprocessingML dengan makro. |
-| | File Uji (XML).xml | Dokumen FlatOPC OOXML. |
-| | File Uji (RTF).rtf | Dokumen Format Teks Kaya. |
-| | File Uji (WordML).xml | Dokumen Microsoft Word 2003 WordprocessingML. |
-| | File Uji (HTML).html | dokumen HTML. |
-| | File Uji (MHTML).mhtml | Dokumen MHTML (arsip Web). |
-| | File Uji (Aneh).odt | Teks OpenDocument (Penulis OpenOffice). |
-| | File Uji (Ott).ott | Templat Dokumen OpenDocument. |
-| | File Uji (DocPreWord60).doc | dokumen Microsoft Word 2.0. |
-| Dokumen terenkripsi | File Uji (Enc).doc | Dokumen Microsoft Word 95/6.0 atau Microsoft Word 97 – 2003 terenkripsi. |
-| | File Uji (Enc).docx | Dokumen Office Open XML WordprocessingML terenkripsi. |
+| Format file yang didukung | File Uji (Dok).doc|Dokumen Microsoft Word 95/6.0 atau Microsoft Word 97 – 2003. |
+|  | File Uji (`Dot`).dot | Templat Microsoft Word 95/6.0 atau Microsoft Word 97 – 2003. |
+|  | File Uji (Docx).docx | Dokumen Office Open XML WordprocessingML tanpa makro. |
+|  | File Uji (Docm).docm | Dokumen Office Open XML WordprocessingML dengan makro. |
+|  | File Uji (Dotx).dotx | Templat Office Open XML WordprocessingML. |
+|  | File Uji (Dotm).dotm | Templat Office Open XML WordprocessingML dengan makro. |
+|  | File Uji (XML).xml | Dokumen FlatOPC OOXML. |
+|  | File Uji (RTF).rtf | Dokumen Format Teks Kaya. |
+|  | File Uji (WordML).xml | Dokumen Microsoft Word 2003 WordprocessingML. |
+|  | File Uji (HTML).html | dokumen HTML. |
+|  | File Uji (MHTML).mhtml | Dokumen MHTML (arsip Web). |
+|  | File Uji (Aneh).odt | Teks OpenDocument (Penulis OpenOffice). |
+|  | File Uji (Ott).ott | Templat Dokumen OpenDocument. |
+|  | File Uji (DocPreWord60).doc|dokumen Microsoft Word 2.0. |
+| Dokumen terenkripsi | File Uji (Enc).doc|Dokumen Microsoft Word 95/6.0 atau Microsoft Word 97 – 2003 terenkripsi. |
+|  | File Uji (Enc).docx | Dokumen Office Open XML WordprocessingML terenkripsi. |
 | Format file tidak didukung | File Uji (JPG).jpg | File gambar JPEG. |
 

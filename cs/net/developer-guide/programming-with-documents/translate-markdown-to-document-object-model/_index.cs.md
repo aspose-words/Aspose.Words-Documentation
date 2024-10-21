@@ -36,29 +36,29 @@ Používáme [Font](https://reference.aspose.com/words/net/aspose.words/font/) f
 |  Markdown funkce |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |
 |  **Bold**<br/>`{1}` |  `Font.Bold = true`  |
-|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BoldText.cs" >}}  ||
+|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BoldText.cs" >}}  |  |
 |  **Italic**<br/>`*italic text*` |  `Font.Italic = true`  |
-|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}}  ||
+|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}}  |  |
 |  **Strikethrough**<br/>`~Strikethrough text~` |  `Font.StrikeThrough = true`  |
 |  {{< highlight csharp >}}// Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
 builder.Font.Strikethrough = true;
-builder.Writeln("This text will be Strikethrough");{{< /highlight >}} ||
+builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
 
 Používáme charakterový styl se jménem, který začíná slovem <span notrans="<span notrans=" `InlineCode`"=""></span>,? následuje volitelná tečka `(.)` a řada odplat ```(`)``` pro `InlineCode` bonus. Je-li chybět několik backticks, pak jeden backtick bude použit ve výchozím nastavení.
 
 |  Markdown funkce |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |
 |  **InlineCode**<br/>`{1}` |  `Font.StyleName = “InlineCode[.][N]”`  |
-|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-InlineCode.cs" >}}  ||
+|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-InlineCode.cs" >}}  |  |
 |  **Autolink**<br/>`<scheme://domain.com>`<br/>`<email@domain.com>` |  • [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/) třída |
-|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Autolink.cs" >}}  ||
+|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Autolink.cs" >}}  |  |
 |  **Link**<br/>`{1}`<br/>`{2}`<br/>`{3}`<br/>`{4})` |  • [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/) třída |
-|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Link.cs" >}}  ||
+|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Link.cs" >}}  |  |
 |  **Image**<br/>`{1}`<br/>`{2}`<br/>`{3}`<br/>`{4})` |  • [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) třída |
-|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Image.cs" >}}  ||
+|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Image.cs" >}}  |  |
 
 ## Bloky kontejnerů
 
@@ -155,7 +155,7 @@ Aspose.Words také umožňuje přeložit tabulky do DOM, jak je uvedeno níže:
 
 |  Markdown funkce |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
-|  `Table`<br/>a | b`<br />`- | -`<br />`c | d - Co? |  [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) a [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) třídy |
+|  `Table`<br/>a|b`<br />`-|-`<br />`c|d - Co? |  [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) a [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) třídy |
 |  {{< highlight csharp >}}// Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 

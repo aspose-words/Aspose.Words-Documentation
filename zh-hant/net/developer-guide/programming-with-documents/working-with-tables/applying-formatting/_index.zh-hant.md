@@ -326,9 +326,9 @@ Aspose.Words 提供一個豐富的 API 來檢索和應用格式設定於一個�
 
 | 訂單 | 「財產」 | 描述 |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-|1| 「[AllowAutoFit](https://reference.aspose.com/words/net/aspose.words.tables/table/allowautofit/)」是決定的 | 「如果 **AutoFit** 啟用：<br>- 表格可能會超過首選寬度來容納內容 – 它通常不會縮小至低于首選寬度 <br>- 对 **CellFormat.Width** 值的任何更改都将被忽略，而細胞將與其內容相適應」 |
-|2| 「[PreferredWidthType](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidthtype/) 的值為 **Points** 或 **Percent**」 | 「**CellFormat.Width** 被忽略」 |
-|3| 「以 [PreferredWidthType](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidthtype/) 為值」的 **Auto** | 「從 **CellFormat.Width** 的值被複製並成為該單元格的首選寬度（以點為單位）」。 |
+| 1 | 「[AllowAutoFit](https://reference.aspose.com/words/net/aspose.words.tables/table/allowautofit/)」是決定的 | 「如果 **AutoFit** 啟用：<br>- 表格可能會超過首選寬度來容納內容 – 它通常不會縮小至低于首選寬度 <br>- 对 **CellFormat.Width** 值的任何更改都将被忽略，而細胞將與其內容相適應」 |
+| 2 | 「[PreferredWidthType](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidthtype/) 的值為 **Points** 或 **Percent**」 | 「**CellFormat.Width** 被忽略」 |
+| 3 | 「以 [PreferredWidthType](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidthtype/) 為值」的 **Auto** | 「從 **CellFormat.Width** 的值被複製並成為該單元格的首選寬度（以點為單位）」。 |
 
 {{% alert color="primary" %}}
 

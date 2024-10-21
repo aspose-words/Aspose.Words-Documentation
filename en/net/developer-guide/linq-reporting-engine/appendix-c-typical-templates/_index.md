@@ -55,12 +55,12 @@ public class Client
 
 ### Template Example
 
-|<img src="single-row-template-example2.png" alt="Single_Row_Template_Example-aspose-words-net" style="width:150px"/> | Name: &lt;&lt;[manager.Name]&gt;&gt; <br> Age: &lt;&lt;[manager.Age]&gt;&gt; |
+| <img src="single-row-template-example2.png" alt="Single_Row_Template_Example-aspose-words-net" style="width:150px"/> | Name: &lt;&lt;[manager.Name]&gt;&gt; <br> Age: &lt;&lt;[manager.Age]&gt;&gt; |
 | :- | :- |
 
 ### Report Example
 
-|<img src="single-row-report-example1.png" alt="Single_Row_Report_Example-aspose-words-net" style="width:150px"/>|Name: John Smith <br> Age: 37 |
+| <img src="single-row-report-example1.png" alt="Single_Row_Report_Example-aspose-words-net" style="width:150px"/> | Name: John Smith <br> Age: 37 |
 | :- | :- |
 
 ## In-Paragraph List Template
@@ -154,26 +154,26 @@ We provide support for the following clients:
 
 ### Template Example
 
-|&lt;&lt;foreach [in managers]&gt;&gt; <br> <img src="common-list-template-example2.png" alt="Common_List_Template_Example2-aspose-words-net" style="width:150px"/> <br> &lt;&lt;[Name()]&gt;&gt; <br> &lt;&lt;/foreach&gt;&gt;|
+| &lt;&lt;foreach [in managers]&gt;&gt; <br> <img src="common-list-template-example2.png" alt="Common_List_Template_Example2-aspose-words-net" style="width:150px"/> <br> &lt;&lt;[Name()]&gt;&gt; <br> &lt;&lt;/foreach&gt;&gt; |
 | :- |
 
 ### Report Example
 
-|<img src="single-row-report-example1.png" alt="Single_Row_Report_Example1-aspose-words-net" style="width:150px"/> <br> John Smith <br> <img src="single-row-report-example1.png" alt="Single_Row_Report_Example-aspose-words-net" style="width:150px"/> <br> Tony Anderson <br> <img src="single-row-report-example1.png" alt="Single_Row_Report_Example-aspose-words-net" style="width:150px"/> <br> July James|
+| <img src="single-row-report-example1.png" alt="Single_Row_Report_Example1-aspose-words-net" style="width:150px"/> <br> John Smith <br> <img src="single-row-report-example1.png" alt="Single_Row_Report_Example-aspose-words-net" style="width:150px"/> <br> Tony Anderson <br> <img src="single-row-report-example1.png" alt="Single_Row_Report_Example-aspose-words-net" style="width:150px"/> <br> July James |
 | :- |
 
 ## In-Table List Template
 
 ### Template Example
 
-| Manager |Contract Price|
+| Manager | Contract Price |
 | :- | :- |
-|{{< highlight csharp >}} <<foreach [in managers]>><<[Name()]>> {{< /highlight >}} | {{< highlight csharp >}} <<[Contracts().sum(c => c.Price())]>><</foreach>> {{< /highlight >}} |
-|{{< highlight csharp >}} Total: {{< /highlight >}} | {{< highlight csharp >}} <<[sum(m => m.Contracts().sum(c => c.Price()))]>> {{< /highlight >}} |
+| {{< highlight csharp >}} <<foreach [in managers]>><<[Name()]>> {{< /highlight >}} | {{< highlight csharp >}} <<[Contracts().sum(c => c.Price())]>><</foreach>> {{< /highlight >}} |
+| {{< highlight csharp >}} Total: {{< /highlight >}} | {{< highlight csharp >}} <<[sum(m => m.Contracts().sum(c => c.Price()))]>> {{< /highlight >}} |
 
 ### Report Example
 
-| Manager |Contract Price|
+| Manager | Contract Price |
 | :- | :- |
 | John Smith | 2300000 |
 | Tony Anderson | 1200000 |
@@ -201,7 +201,7 @@ We provide support for the following clients:
 
 ### Report Example
 
-| Manager |John Smith|Tony Anderson|July James|Total:|
+| Manager | John Smith | Tony Anderson | July James | Total: |
 | :- | :- | -- | -- | -- |
 | **Contract Price** | 2300000 | 1200000 | 800000 | 4300000 |
 
@@ -227,17 +227,17 @@ We provide support for the following clients:
 
 ### Report Example
 
-| Client |Total Contract Price|
+| Client | Total Contract Price |
 | :- | :- |
-|**A Company**|1200000|
-|**B Ltd.**|1950000|
-|**C & D**|2300000|
-|**E Corp.**|2950000|
-|**F & Partners**|3500000|
-|**G & Co.**|3850000|
-|**H Group**|4100000|
-|**I & Sons**|4200000|
-|**J Ent.**|4300000|
+| **A Company** | 1200000 |
+| **B Ltd.** | 1950000 |
+| **C & D** | 2300000 |
+| **E Corp.** | 2950000 |
+| **F & Partners** | 3500000 |
+| **G & Co.** | 3850000 |
+| **H Group** | 4100000 |
+| **I & Sons** | 4200000 |
+| **J Ent.** | 4300000 |
 
 ## In-Table List Template with Highlighted Rows
 
@@ -397,18 +397,18 @@ We provide support for the following clients:
 
 ### Report Example 2
 
-| Client |Contract Price|
+| Client | Contract Price |
 | :- | :- |
-|**A Company**|1200000|
-|**B Ltd.**|750000|
-|**C & D**|350000|
-|**E Corp.**|650000|
-|**F & Partners**|550000|
-|**G & Co.**|350000|
-|**H Group**|250000|
-|**I & Sons**|100000|
-|**J Ent.**|100000|
-|**Total:**|4300000|
+| **A Company** | 1200000 |
+| **B Ltd.** | 750000 |
+| **C & D** | 350000 |
+| **E Corp.** | 650000 |
+| **F & Partners** | 550000 |
+| **G & Co.** | 350000 |
+| **H Group** | 250000 |
+| **I & Sons** | 100000 |
+| **J Ent.** | 100000 |
+| **Total:** | 4300000 |
 
 ## In-Table List Template (Horizontal) with Alternate Content
 
@@ -454,23 +454,23 @@ We provide support for the following clients:
 
 ### Template Example
 
-|&lt;&lt;foreach [in managers]&gt;&gt; <br> <img src="common-list-template-example2.png" alt="Common_List_Template_Example2-aspose-words-net" style="width:150px"/> <br> &lt;&lt;[Name()]&gt;&gt; <br> Clients: &lt;&lt;foreach [in Contracts() ]&gt;&gt;&lt;&lt;[indexOf() != 0 ? ", " : ""]&gt;&gt;&lt;&lt;[Client().Name()]&gt;&gt;&lt;&lt;/foreach&gt;&gt; <br> &lt;&lt;/foreach&gt;&gt;|
+| &lt;&lt;foreach [in managers]&gt;&gt; <br> <img src="common-list-template-example2.png" alt="Common_List_Template_Example2-aspose-words-net" style="width:150px"/> <br> &lt;&lt;[Name()]&gt;&gt; <br> Clients: &lt;&lt;foreach [in Contracts() ]&gt;&gt;&lt;&lt;[indexOf() != 0 ? ", " : ""]&gt;&gt;&lt;&lt;[Client().Name()]&gt;&gt;&lt;&lt;/foreach&gt;&gt; <br> &lt;&lt;/foreach&gt;&gt; |
 | :- |
 
 ### Report Example
 
-|<img src="single-row-report-example1.png" alt="Single_Row_Report_Example1-aspose-words-net" style="width:150px"/> <br> John Smith <br> Clients: A Company, B Ltd., C & D <br> <img src="single-row-report-example1.png" alt="Single_Row_Report_Example1-aspose-words-net" style="width:150px"/> <br> Tony Anderson <br> Clients: E Corp., F & Partners <br> <img src="single-row-report-example1.png" alt="Single_Row_Report_Example1-aspose-words-net" style="width:150px"/> <br> July James <br> Clients: G & Co., H Group, I & Sons, J Ent.|
+| <img src="single-row-report-example1.png" alt="Single_Row_Report_Example1-aspose-words-net" style="width:150px"/> <br> John Smith <br> Clients: A Company, B Ltd., C & D <br> <img src="single-row-report-example1.png" alt="Single_Row_Report_Example1-aspose-words-net" style="width:150px"/> <br> Tony Anderson <br> Clients: E Corp., F & Partners <br> <img src="single-row-report-example1.png" alt="Single_Row_Report_Example1-aspose-words-net" style="width:150px"/> <br> July James <br> Clients: G & Co., H Group, I & Sons, J Ent. |
 | :- |
 
 ## In-Table Master-Detail Template
 
 ### Template Example
 
-|Manager/Client|Contract Price|
+| Manager/Client | Contract Price |
 | :- | :- |
-|{{< highlight csharp >}} <<foreach [in managers]>><<[Name()]>> {{< /highlight >}} | {{< highlight csharp >}} <<[Contracts().sum(c => c.Price())]>> {{< /highlight >}}|
-|{{< highlight csharp >}} <<foreach [in Contracts()]>> <<[Client().Name()]>> {{< /highlight >}} | {{< highlight csharp >}} <<[Price()]>><</foreach>><</foreach>> {{< /highlight >}}|
-|{{< highlight csharp >}} Total: {{< /highlight >}} | {{< highlight csharp >}} <<[Sum(m => m.Contracts().Sum(c => c.Price()))]>> {{< /highlight >}} |
+| {{< highlight csharp >}} <<foreach [in managers]>><<[Name()]>> {{< /highlight >}} | {{< highlight csharp >}} <<[Contracts().sum(c => c.Price())]>> {{< /highlight >}} |
+| {{< highlight csharp >}} <<foreach [in Contracts()]>> <<[Client().Name()]>> {{< /highlight >}} | {{< highlight csharp >}} <<[Price()]>><</foreach>><</foreach>> {{< /highlight >}} |
+| {{< highlight csharp >}} Total: {{< /highlight >}} | {{< highlight csharp >}} <<[Sum(m => m.Contracts().Sum(c => c.Price()))]>> {{< /highlight >}} |
 
 ### Report Example
 
@@ -582,11 +582,11 @@ We provide support for the following clients:
 
 **Report Example**
 
-| Manager |Contract Price|
+| Manager | Contract Price |
 | :- | :- |
-|**John Smith**|2300000|
-|**July James**|800000|
-|**Tony Anderson**|1200000|
+| **John Smith** | 2300000 |
+| **July James** | 800000 |
+| **Tony Anderson** | 1200000 |
 
 ## Chart Template with Filtering, Grouping, and Ordering
 

@@ -48,20 +48,20 @@ Aspose.Words 提供了获取文件类型信息的能力,以避免在无法确定
 | Group 文档 | 输入文档 | 类型 |
 |  :-  |  :-  |  :-  |
 | 支持的文件格式 | 测试文件 (Doc).doc | Microsoft Word 95/6.0,或 Microsoft Word 97 - 2003年文件。 |
-| | 测试文件 (Dot).dot | Microsoft Word 95/6.0,或 Microsoft Word 97 - 2003 模板. |
-| | 测试文件 (Docx).docx | 办公室打开 XML 文字处理 没有宏的 ML 文档 。 |
-| | 测试文件 (Docm).docm | 办公室打开 XML 文字处理 带有宏的 ML 文档 。 |
-| | 测试文件 (Dotx).dotx | 办公室打开 XML 文字处理 ML模板. |
-| | 测试文件 (Dotm).dotm | 办公室打开 XML 文字处理 带有宏的ML模板. |
-| | 测试文件 (XML). xml | 平面OPC OOXML文档. |
-| | 测试文件 (RTF). trtf | 丰富的文本格式文档。 |
-| | 测试文件 (WordML).xml | Microsoft Word 2003. 文字处理 ML文档. |
-| | 测试文件 (HTML).html | HTML 文档. |
-| | 测试文件 (MHTML).mhtml | MHTML(Web存档)文档. |
-| | 测试文件 (Odt).odt | OpenDocument 文本( OpenOffice Writer). 存档副本. |
-| | 测试文件 (Ott).ott | 打开文档文档模板 。 |
-| | 测试文件 (DocPreWord60).doc | Microsoft Word 2.0文档. |
+|  | 测试文件 (Dot).dot | Microsoft Word 95/6.0,或 Microsoft Word 97 - 2003 模板. |
+|  | 测试文件 (Docx).docx | 办公室打开 XML 文字处理 没有宏的 ML 文档 。 |
+|  | 测试文件 (Docm).docm | 办公室打开 XML 文字处理 带有宏的 ML 文档 。 |
+|  | 测试文件 (Dotx).dotx | 办公室打开 XML 文字处理 ML模板. |
+|  | 测试文件 (Dotm).dotm | 办公室打开 XML 文字处理 带有宏的ML模板. |
+|  | 测试文件 (XML). xml | 平面OPC OOXML文档. |
+|  | 测试文件 (RTF). trtf | 丰富的文本格式文档。 |
+|  | 测试文件 (WordML).xml | Microsoft Word 2003. 文字处理 ML文档. |
+|  | 测试文件 (HTML).html | HTML 文档. |
+|  | 测试文件 (MHTML).mhtml | MHTML(Web存档)文档. |
+|  | 测试文件 (Odt).odt | OpenDocument 文本( OpenOffice Writer). 存档副本. |
+|  | 测试文件 (Ott).ott | 打开文档文档模板 。 |
+|  | 测试文件 (DocPreWord60).doc | Microsoft Word 2.0文档. |
 | 加密文档 | 测试文件 (Enc).doc | 已加密 Microsoft Word 95/6.0,或 Microsoft Word 97 - 2003年文件。 |
-| | 测试文件 (Enc).docx | 加密办公室打开 XML 文字处理 ML文档. |
+|  | 测试文件 (Enc).docx | 加密办公室打开 XML 文字处理 ML文档. |
 | 不支持的文件格式 | 测试文件 (JPG). 页:1 | JPEG 图像文件 。 |
 

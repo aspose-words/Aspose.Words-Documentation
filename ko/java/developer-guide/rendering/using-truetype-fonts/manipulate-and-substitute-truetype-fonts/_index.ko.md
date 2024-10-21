@@ -224,7 +224,7 @@ Aspose.Words 파일 시스템에 TrueType 글꼴을 자동으로 찾을 수 있�
 
 글꼴 형식의 처리에 약간의 차이가 있습니다. Aspose.Words · Microsoft Word 아래 표에서 보이는 것과 같이:
 
-| | Microsoft Word | Aspose.Words |
+|  | Microsoft Word | Aspose.Words |
 |  :-  |  :-  |  :-  |
 | TrueType 글꼴 및 OpenType 글꼴과 TrueType 개요 | 지원되는. | 지원되는. |
 | PostScript outlines와 OpenType 글꼴 | 대부분의 시나리오에 대한 지원. PDF와 같은 고정 페이지 형식에 삽입 XPS 지원되지 않습니다. 텍스트는 비트 맵 이미지로 대체됩니다. | 고정 페이지 형식에 embedding을 포함하여 대부분의 시나리오에 지원. |

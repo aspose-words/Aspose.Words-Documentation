@@ -36,9 +36,9 @@ Aspose.Words is a class library designed for server-side processing of Microsoft
 
 Fields in Microsoft Word documents are complex. There are over 50 field types (each needs its own result calculation procedure), formulas and expressions, bookmarks and references, functions and various switches. Fields can also be nested. Normally when a document is opened, the field result (the value of the field) is shown for all fields in the document. You can toggle the display of field result or field codes in Microsoft Word for all fields by pressing **ALT+F9**.
 
-|Field Code|Field Result|
+| Field Code | Field Result |
 | :- | :- |
-|![field-code-result-aspose-words](fields-overview-3.png)|![todo:image_alt_text](fields-overview-4.png)|
+| ![field-code-result-aspose-words](fields-overview-3.png) | ![todo:image_alt_text](fields-overview-4.png) |
 
 ### Inserting Fields in Microsoft Word
 

@@ -48,20 +48,20 @@ Ve výše uvedeném příkladu jsou použity následující soubory. Jméno soub
 | Group souborů | Vstupní dokument | Typ |
 |  :-  |  :-  |  :-  |
 | Podporované formáty souborů | Testovací soubor (Doc).doc | Microsoft Word 95, 0 nebo Microsoft Word 97 Dokument 2003/2003. |
-| | Testovat soubor (dot).dot | Microsoft Word 95, 0 nebo Microsoft Word 97; IAS 39 odst. |
-| | Testovací soubor (Docx).docx | Otevřít XML zpracování slov ML dokument bez makros. |
-| | Testovací soubor (Docm).docm | Otevřít XML zpracování slov Dokument ML s makrami. |
-| | Testovat soubor (Dotx).dotx | Otevřít XML zpracování slov ML šablona. |
-| | Testovat soubor (dotm).dotm | Otevřít XML zpracování slov šablona ML s makrami. |
-| | Testovací soubor (XML).xml | FlatOPC OOXML dokument. |
-| | Testovací soubor (RTF).rtf | Rich Text Format dokument. |
-| | Testovací soubor (WordML).xml | Microsoft Word 2003 Zpracování slov Dokument ML. |
-| | Testovací soubor (HTML).html | HTML dokument. |
-| | Testovací soubor (MHTML).mhtml | MHTML (Web archiv) dokument. |
-| | Testovat soubor (Odt).odt | OpenDocument Text (OpenOffice Writer). |
-| | Testovat soubor (Ott).ott | Otevřít šablonu dokumentu. |
-| | Testovací soubor (DocPreWord60).doc | Microsoft Word 2.0 dokument. |
+|  | Testovat soubor (dot).dot | Microsoft Word 95, 0 nebo Microsoft Word 97; IAS 39 odst. |
+|  | Testovací soubor (Docx).docx | Otevřít XML zpracování slov ML dokument bez makros. |
+|  | Testovací soubor (Docm).docm | Otevřít XML zpracování slov Dokument ML s makrami. |
+|  | Testovat soubor (Dotx).dotx | Otevřít XML zpracování slov ML šablona. |
+|  | Testovat soubor (dotm).dotm | Otevřít XML zpracování slov šablona ML s makrami. |
+|  | Testovací soubor (XML).xml | FlatOPC OOXML dokument. |
+|  | Testovací soubor (RTF).rtf | Rich Text Format dokument. |
+|  | Testovací soubor (WordML).xml | Microsoft Word 2003 Zpracování slov Dokument ML. |
+|  | Testovací soubor (HTML).html | HTML dokument. |
+|  | Testovací soubor (MHTML).mhtml | MHTML (Web archiv) dokument. |
+|  | Testovat soubor (Odt).odt | OpenDocument Text (OpenOffice Writer). |
+|  | Testovat soubor (Ott).ott | Otevřít šablonu dokumentu. |
+|  | Testovací soubor (DocPreWord60).doc | Microsoft Word 2.0 dokument. |
 | Zašifrované dokumenty | Testovat soubor (Enc).doc | Zašifrováno Microsoft Word 95, 0 nebo Microsoft Word 97 Dokument 2003/2003. |
-| | Testovat soubor (Enc).docx | Zašifrovaný Office Open XML Word processing Dokument ML. |
+|  | Testovat soubor (Enc).docx | Zašifrovaný Office Open XML Word processing Dokument ML. |
 | Nepodporované formáty souborů | Testovací soubor (JPG). jpg | Obrazový soubor JPEG. |
 

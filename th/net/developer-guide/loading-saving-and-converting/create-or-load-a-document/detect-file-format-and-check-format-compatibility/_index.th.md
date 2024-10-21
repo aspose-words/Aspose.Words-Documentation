@@ -48,20 +48,20 @@ DetectFileFormat จะตรวจสอบเฉพาะรูปแบบไ
 | Group ของไฟล์ | เอกสารเข้า | พิมพ์ |
 |  :-  |  :-  |  :-  |
 | รูปแบบไฟล์ที่รองรับ | ไฟล์ทดสอบ (Doc).doc | เอกสาร Microsoft Word 95/6.0 หรือ Microsoft Word 97 – 2003 |
-| | ไฟล์ทดสอบ (`Dot`).dot | เทมเพลต Microsoft Word 95/6.0 หรือ Microsoft Word 97 – 2003 |
-| | ไฟล์ทดสอบ (Docx).docx | เอกสาร Office Open XML WordprocessingML ที่ไม่มีมาโคร |
-| | ไฟล์ทดสอบ (Docm).docm | เอกสาร Office Open XML WordprocessingML พร้อมมาโคร |
-| | ไฟล์ทดสอบ (Dotx).dotx | เทมเพลต Office Open XML WordprocessingML |
-| | ไฟล์ทดสอบ (Dotm).dotm | เทมเพลต Office Open XML WordprocessingML พร้อมมาโคร |
-| | ไฟล์ทดสอบ (XML).xml | เอกสาร FlatOPC OOXML |
-| | ไฟล์ทดสอบ (RTF).rtf | เอกสารรูปแบบ Rich Text |
-| | ไฟล์ทดสอบ (WordML).xml | เอกสาร Microsoft Word 2003 WordprocessingML |
-| | ไฟล์ทดสอบ (HTML).html | เอกสาร HTML |
-| | ไฟล์ทดสอบ (MHTML).mhtml | เอกสาร MHTML (เว็บเก็บถาวร) |
-| | ไฟล์ทดสอบ (Odt).odt | ข้อความ OpenDocument (นักเขียน OpenOffice) |
-| | ไฟล์ทดสอบ (Ott).ott | เทมเพลตเอกสาร OpenDocument |
-| | ไฟล์ทดสอบ (DocPreWord60).doc | เอกสาร Microsoft Word 2.0 |
+|  | ไฟล์ทดสอบ (`Dot`).dot | เทมเพลต Microsoft Word 95/6.0 หรือ Microsoft Word 97 – 2003 |
+|  | ไฟล์ทดสอบ (Docx).docx | เอกสาร Office Open XML WordprocessingML ที่ไม่มีมาโคร |
+|  | ไฟล์ทดสอบ (Docm).docm | เอกสาร Office Open XML WordprocessingML พร้อมมาโคร |
+|  | ไฟล์ทดสอบ (Dotx).dotx | เทมเพลต Office Open XML WordprocessingML |
+|  | ไฟล์ทดสอบ (Dotm).dotm | เทมเพลต Office Open XML WordprocessingML พร้อมมาโคร |
+|  | ไฟล์ทดสอบ (XML).xml | เอกสาร FlatOPC OOXML |
+|  | ไฟล์ทดสอบ (RTF).rtf | เอกสารรูปแบบ Rich Text |
+|  | ไฟล์ทดสอบ (WordML).xml | เอกสาร Microsoft Word 2003 WordprocessingML |
+|  | ไฟล์ทดสอบ (HTML).html | เอกสาร HTML |
+|  | ไฟล์ทดสอบ (MHTML).mhtml | เอกสาร MHTML (เว็บเก็บถาวร) |
+|  | ไฟล์ทดสอบ (Odt).odt | ข้อความ OpenDocument (นักเขียน OpenOffice) |
+|  | ไฟล์ทดสอบ (Ott).ott | เทมเพลตเอกสาร OpenDocument |
+|  | ไฟล์ทดสอบ (DocPreWord60).doc | เอกสาร Microsoft Word 2.0 |
 | เอกสารที่เข้ารหัส | ไฟล์ทดสอบ (Enc).doc | เอกสาร Microsoft Word 95/6.0 หรือ Microsoft Word 97 – 2003 ที่เข้ารหัส |
-| | ไฟล์ทดสอบ (Enc).docx | เอกสาร Office Open XML WordprocessingML ที่เข้ารหัส |
+|  | ไฟล์ทดสอบ (Enc).docx | เอกสาร Office Open XML WordprocessingML ที่เข้ารหัส |
 | รูปแบบไฟล์ที่ไม่รองรับ | ไฟล์ทดสอบ (JPG).jpg | ไฟล์ภาพ JPEG |
 

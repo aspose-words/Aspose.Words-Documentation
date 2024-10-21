@@ -91,7 +91,7 @@ Aspose.Words 現在可提供高品質的文書頁面渲染。
 | 「從文件中保留或移除 VBA 巨集。」 「保留 VBA 巨集數位簽名。」 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | 在文件中偵測及驗證數位簽名。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | 插入HTML文字。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| 從 Word 文檔中提取 VBA 巨集。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} ||||
+| 從 Word 文檔中提取 VBA 巨集。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  | |  |
 
 ## 文檔格式化特徵
 

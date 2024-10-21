@@ -91,7 +91,7 @@ Aspose.Words menyediakan model objek kaya yang terdiri dari lebih dari 100 kelas
 | Pertahankan atau hapus makro VBA dari dokumen. Pertahankan tanda tangan digital makro VBA. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Deteksi dan verifikasi tanda tangan digital dalam dokumen. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Sisipkan teks HTML. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Ekstrak Makro VBA dari Dokumen Word. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | | | |
+| Ekstrak Makro VBA dari Dokumen Word. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  | |  |
 
 ## Fitur Pemformatan Dokumen
 

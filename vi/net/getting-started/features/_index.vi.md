@@ -91,7 +91,7 @@ Aspose.Words cung cấp một mô hình đối tượng phong phú bao gồm hơ
 | Giữ nguyên hoặc xóa macro VBA khỏi tài liệu. Bảo tồn chữ ký số macro VBA. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Phát hiện và xác minh chữ ký số trong tài liệu. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Chèn văn bản HTML. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Trích xuất Macro VBA từ Tài liệu Word. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | | | |
+| Trích xuất Macro VBA từ Tài liệu Word. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  | |  |
 
 ## Tính năng định dạng tài liệu
 

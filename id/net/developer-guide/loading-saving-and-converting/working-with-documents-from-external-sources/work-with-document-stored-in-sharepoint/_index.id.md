@@ -140,7 +140,7 @@ namespace SPOnlineExample
             var response = await client.PostAsync(authUrl, formContent);
             var responseData = await response.Content.ReadFromJsonAsync<AuthRespose>();
     
-            if (!response.IsSuccessStatusCode || responseData == null)
+            if (!response.IsSuccessStatusCode |  | responseData == null)
                 throw new AuthenticationException(responseData?.Description);
     
             token = responseData.Token;

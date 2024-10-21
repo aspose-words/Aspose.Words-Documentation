@@ -48,20 +48,20 @@ DetectFileFormat 仅检查文件格式，但不验证文件格式。即使 **Det
 | 文件的 Group | 输入文件 | 类型 |
 |  :-  |  :-  |  :-  |
 | 支持的文件格式 | 测试文件（Doc）.doc | Microsoft Word 95/6.0 或 Microsoft Word 97 – 2003 文档。 |
-| | 测试文件 (`Dot`).dot | Microsoft Word 95/6.0 或 Microsoft Word 97 – 2003 模板。 |
-| | 测试文件 (Docx).docx | 不带宏的 Office Open XML WordprocessingML 文档。 |
-| | 测试文件（Docm）.docm | 带有宏的 Office Open XML WordprocessingML 文档。 |
-| | 测试文件 (Dotx).dotx | Office Open XML WordprocessingML 模板。 |
-| | 测试文件 (Dotm).dotm | 带有宏的 Office Open XML WordprocessingML 模板。 |
-| | 测试文件 (XML).xml | FlatOPC OOXML 文档。 |
-| | 测试文件 (RTF).rtf | 富文本格式文档。 |
-| | 测试文件 (WordML).xml | Microsoft Word 2003 WordprocessingML 文档。 |
-| | 测试文件 (HTML).html | HTML 文档。 |
-| | 测试文件 (MHTML).mhtml | MHTML（网络存档）文档。 |
-| | 测试文件 (Odt).odt | OpenDocument 文本（OpenOffice Writer）。 |
-| | 测试文件 (Ott).ott | OpenDocument 文档模板。 |
-| | 测试文件 (DocPreWord60).doc | Microsoft Word 2.0 文档。 |
+|  | 测试文件 (`Dot`).dot | Microsoft Word 95/6.0 或 Microsoft Word 97 – 2003 模板。 |
+|  | 测试文件 (Docx).docx | 不带宏的 Office Open XML WordprocessingML 文档。 |
+|  | 测试文件（Docm）.docm | 带有宏的 Office Open XML WordprocessingML 文档。 |
+|  | 测试文件 (Dotx).dotx | Office Open XML WordprocessingML 模板。 |
+|  | 测试文件 (Dotm).dotm | 带有宏的 Office Open XML WordprocessingML 模板。 |
+|  | 测试文件 (XML).xml | FlatOPC OOXML 文档。 |
+|  | 测试文件 (RTF).rtf | 富文本格式文档。 |
+|  | 测试文件 (WordML).xml | Microsoft Word 2003 WordprocessingML 文档。 |
+|  | 测试文件 (HTML).html | HTML 文档。 |
+|  | 测试文件 (MHTML).mhtml | MHTML（网络存档）文档。 |
+|  | 测试文件 (Odt).odt | OpenDocument 文本（OpenOffice Writer）。 |
+|  | 测试文件 (Ott).ott | OpenDocument 文档模板。 |
+|  | 测试文件 (DocPreWord60).doc | Microsoft Word 2.0 文档。 |
 | 加密文件 | 测试文件（Enc）.doc | 加密的 Microsoft Word 95/6.0 或 Microsoft Word 97 – 2003 文档。 |
-| | 测试文件 (Enc).docx | 加密的 Office Open XML WordprocessingML 文档。 |
+|  | 测试文件 (Enc).docx | 加密的 Office Open XML WordprocessingML 文档。 |
 | 不支持的文件格式 | 测试文件 (JPG).jpg | JPEG 图像文件。 |
 

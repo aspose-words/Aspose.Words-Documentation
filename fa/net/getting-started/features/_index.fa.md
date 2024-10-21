@@ -91,7 +91,7 @@ Aspose.Words یک مدل شی غنی را ارائه می دهد که از بی�
 | ماکروهای VBA را از سند حفظ یا حذف کنید. امضای دیجیتال ماکروهای VBA را حفظ کنید. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | شناسایی و تأیید امضای دیجیتال در اسناد. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | درج متن HTML | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| ماکروهای VBA را از سند Word استخراج کنید. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | | | |
+| ماکروهای VBA را از سند Word استخراج کنید. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  | |  |
 
 ## ویژگی های قالب بندی سند
 

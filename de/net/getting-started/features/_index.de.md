@@ -91,7 +91,7 @@ Aspose.Words bietet ein umfangreiches Objektmodell, das aus über 100 öffentlic
 | Behalten oder entfernen Sie VBA-Makros aus dem Dokument. Behalten Sie die digitale Signatur von VBA-Makros bei. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Erkennen und überprüfen Sie digitale Signaturen in Dokumenten. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Fügen Sie HTML-Text ein. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Extrahieren Sie VBA-Makros aus einem Word-Dokument. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | | | |
+| Extrahieren Sie VBA-Makros aus einem Word-Dokument. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  | |  |
 
 ## Funktionen zur Dokumentformatierung
 

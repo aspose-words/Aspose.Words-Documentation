@@ -17,11 +17,11 @@ Tất cả các cảnh báo là của [WarningType](https://reference.aspose.com
 
 | Mô tả giá trị cảnh báo | PDF/A | PDF/UA |
 | ------------------------------------------------------------ | ---------------------- | ---------------------- |
-| Tiêu đề tài liệu bị thiếu". Điều này vi phạm các yêu cầu tuân thủ. Tệp đầu ra sẽ không tuân thủ đầy đủ." || {{< emoticons/tick >}} |
-|  Điều này vi phạm các yêu cầu tuân thủ. Tệp đầu ra sẽ không tuân thủ hoàn toàn." || {{< emoticons/tick >}} |
+| Tiêu đề tài liệu bị thiếu". Điều này vi phạm các yêu cầu tuân thủ. Tệp đầu ra sẽ không tuân thủ đầy đủ." |  | {{< emoticons/tick >}} |
+|  Điều này vi phạm các yêu cầu tuân thủ. Tệp đầu ra sẽ không tuân thủ hoàn toàn." |  | {{< emoticons/tick >}} |
 |  Điều này vi phạm các yêu cầu tuân thủ.  | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 |  Điều này vi phạm các yêu cầu tuân thủ. Tệp đầu ra sẽ không tuân thủ hoàn toàn." | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-|  Điều này vi phạm các yêu cầu tuân thủ. Tệp đầu ra sẽ không tuân thủ hoàn toàn." || {{< emoticons/tick >}} |
-|  Điều này vi phạm các yêu cầu tuân thủ. Tệp đầu ra sẽ không hoàn toàn tuân thủ." || {{< emoticons/tick >}} |
-|  Điều này vi phạm các yêu cầu tuân thủ. Tệp đầu ra sẽ không hoàn toàn tuân thủ." | {{< emoticons/tick >}} ||
+|  Điều này vi phạm các yêu cầu tuân thủ. Tệp đầu ra sẽ không tuân thủ hoàn toàn." |  | {{< emoticons/tick >}} |
+|  Điều này vi phạm các yêu cầu tuân thủ. Tệp đầu ra sẽ không hoàn toàn tuân thủ." |  | {{< emoticons/tick >}} |
+|  Điều này vi phạm các yêu cầu tuân thủ. Tệp đầu ra sẽ không hoàn toàn tuân thủ." | {{< emoticons/tick >}} |  |
 |  Điều này vi phạm các yêu cầu tuân thủ. Tệp đầu ra sẽ không hoàn toàn tương thích." | {{< emoticons/tick >}} | {{< emoticons/tick >}} |

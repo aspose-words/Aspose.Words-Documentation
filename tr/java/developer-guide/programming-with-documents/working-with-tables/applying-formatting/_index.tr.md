@@ -290,9 +290,9 @@ Aspose.Words aşağıdaki sırayı hücre genişliklerini hesaplamak için kulla
 
 | Sipariş | Mülkiyet | Tanım |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-|1| [AllowAutoFit](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowAutoFit) belirlenir | Eğer **AutoFit** etkinleştirilirse: <br>- tablo, içeriği barındırmak için tercih edilen genişliği aşabilir - genellikle tercih edilen genişlikten daha küçük bir boyuta küçülmez <br>- **CellFormat.Width** değerindeki herhangi bir değişiklik göz ardı edilir ve hücre içeriğine göre uyum sağlar |
-|2| [PreferredWidthType](https://reference.aspose.com/words/java/com.aspose.words/preferredwidthtype/) bir değerle, **Points** ya da **Percent** | **CellFormat.Width** yoksayılır |
-|3| [PreferredWidthType](https://reference.aspose.com/words/java/com.aspose.words/preferredwidthtype/) ile bir değer **Auto** | Bu değer, **CellFormat.Width** 'dan kopyalanır ve hücre'nin tercih edilen genişliği (noktalarda) haline gelir |
+| 1 | [AllowAutoFit](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowAutoFit) belirlenir | Eğer **AutoFit** etkinleştirilirse: <br>- tablo, içeriği barındırmak için tercih edilen genişliği aşabilir - genellikle tercih edilen genişlikten daha küçük bir boyuta küçülmez <br>- **CellFormat.Width** değerindeki herhangi bir değişiklik göz ardı edilir ve hücre içeriğine göre uyum sağlar |
+| 2 | [PreferredWidthType](https://reference.aspose.com/words/java/com.aspose.words/preferredwidthtype/) bir değerle, **Points** ya da **Percent** | **CellFormat.Width** yoksayılır |
+| 3 | [PreferredWidthType](https://reference.aspose.com/words/java/com.aspose.words/preferredwidthtype/) ile bir değer **Auto** | Bu değer, **CellFormat.Width** 'dan kopyalanır ve hücre'nin tercih edilen genişliği (noktalarda) haline gelir |
 
 {{% alert color="primary" %}}
 

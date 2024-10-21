@@ -91,7 +91,7 @@ url: /ar/net/features/
 | الاحتفاظ بوحدات ماكرو VBA أو إزالتها من المستند. الحفاظ على التوقيع الرقمي لوحدات ماكرو VBA. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | كشف والتحقق من التوقيعات الرقمية في المستندات. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | أدخل نص HTML. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| استخراج وحدات ماكرو VBA من مستند Word. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | | | |
+| استخراج وحدات ماكرو VBA من مستند Word. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  | |  |
 
 ## ميزات تنسيق المستندات
 

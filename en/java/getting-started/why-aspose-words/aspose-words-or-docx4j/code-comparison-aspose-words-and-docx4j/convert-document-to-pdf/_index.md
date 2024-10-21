@@ -59,11 +59,11 @@ public static void main(String[] args)
 	
 	// Windows:
 	// String
-	// regex=".*(calibri|camb|cour|arial|symb|times|Times|zapf).*";
-	//regex=".*(calibri|camb|cour|arial|times|comic|georgia|impact|LSANS|pala|tahoma|trebuc|verdana|symbol|webdings|wingding).*";
+	// regex=".*(calibri | camb | cour | arial | symb | times | Times | zapf).*";
+	//regex=".*(calibri | camb | cour | arial | times | comic | georgia | impact | LSANS | pala | tahoma | trebuc | verdana | symbol | webdings | wingding).*";
 	// Mac
 	// String
-	// regex=".*(Courier New|Arial|Times New Roman|Comic Sans|Georgia|Impact|Lucida Console|Lucida Sans Unicode|Palatino Linotype|Tahoma|Trebuchet|Verdana|Symbol|Webdings|Wingdings|MS Sans Serif|MS Serif).*";
+	// regex=".*(Courier New | Arial | Times New Roman | Comic Sans | Georgia | Impact | Lucida Console | Lucida Sans Unicode | Palatino Linotype | Tahoma | Trebuchet | Verdana | Symbol | Webdings | Wingdings | MS Sans Serif | MS Serif).*";
 	PhysicalFonts.setRegex(regex);
 	
 	// Document loading (required)

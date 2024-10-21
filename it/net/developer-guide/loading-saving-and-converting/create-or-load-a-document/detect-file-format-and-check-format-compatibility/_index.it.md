@@ -47,21 +47,21 @@ Nell'esempio precedente vengono utilizzati i seguenti file. Il nome del file è 
 
 | Group di file | Documento di input | Tipo |
 |  :-  |  :-  |  :-  |
-| Formati di file supportati | File di prova (Doc).doc | Documento Microsoft Word 95/6.0 o Microsoft Word 97 – 2003. |
-| | File di prova (`Dot`).dot | Modello Microsoft Word 95/6.0 o Microsoft Word 97 – 2003. |
-| | File di prova (Docx).docx | Documento Office Open XML WordprocessingML senza macro. |
-| | File di prova (Docm).docm | Documento Office Open XML WordprocessingML con macro. |
-| | File di prova (Dotx).dotx | Modello Office Open XML WordprocessingML. |
-| | File di prova (Dotm).dotm | Modello Office Open XML WordprocessingML con macro. |
-| | File di prova (XML).xml | Documento OOXML FlatOPC. |
-| | File di prova (RTF).rtf | Documento in formato Rich Text. |
-| | File di prova (WordML).xml | Documento Microsoft Word 2003 WordprocessingML. |
-| | File di prova (HTML).html | Documento HTML. |
-| | File di prova (MHTML).mhtml | Documento MHTML (archivio Web). |
-| | File di prova (Odt).odt | Testo OpenDocument (OpenOffice Writer). |
-| | File di prova (Ott).ott | Modello di documento OpenDocument. |
-| | File di prova (DocPreWord60).doc | Documento Microsoft Word 2.0. |
-| Documenti crittografati | File di prova (Enc).doc | Documento crittografato Microsoft Word 95/6.0 o Microsoft Word 97 – 2003. |
-| | File di prova (Enc).docx | Documento Office Open XML WordprocessingML crittografato. |
+| Formati di file supportati | File di prova (Doc).doc|Documento Microsoft Word 95/6.0 o Microsoft Word 97 – 2003. |
+|  | File di prova (`Dot`).dot | Modello Microsoft Word 95/6.0 o Microsoft Word 97 – 2003. |
+|  | File di prova (Docx).docx | Documento Office Open XML WordprocessingML senza macro. |
+|  | File di prova (Docm).docm | Documento Office Open XML WordprocessingML con macro. |
+|  | File di prova (Dotx).dotx | Modello Office Open XML WordprocessingML. |
+|  | File di prova (Dotm).dotm | Modello Office Open XML WordprocessingML con macro. |
+|  | File di prova (XML).xml | Documento OOXML FlatOPC. |
+|  | File di prova (RTF).rtf | Documento in formato Rich Text. |
+|  | File di prova (WordML).xml | Documento Microsoft Word 2003 WordprocessingML. |
+|  | File di prova (HTML).html | Documento HTML. |
+|  | File di prova (MHTML).mhtml | Documento MHTML (archivio Web). |
+|  | File di prova (Odt).odt | Testo OpenDocument (OpenOffice Writer). |
+|  | File di prova (Ott).ott | Modello di documento OpenDocument. |
+|  | File di prova (DocPreWord60).doc|Documento Microsoft Word 2.0. |
+| Documenti crittografati | File di prova (Enc).doc|Documento crittografato Microsoft Word 95/6.0 o Microsoft Word 97 – 2003. |
+|  | File di prova (Enc).docx | Documento Office Open XML WordprocessingML crittografato. |
 | Formati di file non supportati | File di prova (JPG).jpg | File immagine JPEG. |
 

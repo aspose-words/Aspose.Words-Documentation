@@ -35,11 +35,11 @@ Biểu mẫu dưới đây liệt kê các bố cục được hỗ trợ đầy
 | ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | `List` | <ul><li>Danh sách khối cơ bản</li><li>Hàng chữ lục giác thay đổi</li><li>Danh sách dấu đầu dòng dọc</li><li>Danh sách hộp dọc</li><li>Danh sách chiều rộng thay đổi</li><li>Danh sách dấu đầu dòng ngang</li><li>Grouped List</li><li>Danh sách khối dọc</li><li>Danh sách mũi tên dọc</li><li>Danh sách mũi tên dọc</li><li>Danh sách hình nón</li><li>Danh sách bảng</li><li>Danh sách kim tự tháp</li><li>Danh sách mục tiêu</li></ul> | <ul><li>Danh sách hàng</li> <li>Danh sách thanh dọc</li> <li>Danh sách dấu tab</li> <li>Danh sách chồng lên nhau</li> <li>Danh sách dấu ngoặc thẳng đứng</li> <li>Danh sách vòng tròn thẳng đứng</li></ul> |
 | `Process` | <ul><li>Quy trình cơ bản</li><li>Quy trình nhấn mạnh</li><li>Quy trình khối liên tục</li><li>Quy trình mũi tên tăng dần</li><li>Quy trình văn bản hội tụ</li><li>Quy trình đường thời gian cơ bản</li><li>Quy trình cheveron cơ bản</li><li>Quy trình cheveron nhấn mạnh</li><li>Quy trình cheveron đóng</li><li>Quy trình danh sách cheveron</li><li>Quy trình thẳng đứng</li><li>Quy trình sắp xếp xen kẽ</li><li>Quy trình danh sách</li><li>Quy trình uốn cong cơ bản</li><li>Quy trình uốn cong lặp lại</li><li>Quy trình chi tiết</li><li>Mũi tên lên</li><li>Quy trình xuống</li><li>Quy trình uốn cong tròn</li></ul> | <ul><li>Quy trình bước lên</li><li>Quy trình bước xuống</li><li>Dòng thay đổi</li><li>Quy trình vòng tròn tăng dần</li><li>Quy trình bánh pie</li><li>Quy trình khối liên kết</li><li>mũi tên quy trình</li><li>Mũi tên thời gian nhấn mạnh hình tròn</li><li>Quy trình hình tròn</li><li>Quy trình bước phụ</li><li>Quy trình giai đoạn</li><li>Quy trình ngẫu nhiên đến kết quả</li><li>Quy trình mũi tên hình tròn</li></ul> |
-| `Cycle` |–| <ul><li>Chu kỳ phân đoạn</li> <li>Chu kỳ lục giác</li></ul> |
-| `Hierarchy` |–| <ul><li>Phân cấp bảng</li> <li>Kế hoạch Kiến trúc</li></ul> |
+| `Cycle` | – | <ul><li>Chu kỳ phân đoạn</li> <li>Chu kỳ lục giác</li></ul> |
+| `Hierarchy` | – | <ul><li>Phân cấp bảng</li> <li>Kế hoạch Kiến trúc</li></ul> |
 | `Relationship` | <ul><li>Đoàn kết</li><li>Thùng lọc</li><li>Lưỡi lê</li><li>Plus và Minus</li><li>Dây mũi tên</li><li>Mũi tên cân bằng</li><li>Mũi tên đối lập</li><li>Mục tiêu lồng nhau</li><li>Mục tiêu cơ bản</li><li>Pie cơ bản</li><li>Venn cơ bản</li><li>Venn chồng chéo</li><li>Dây nhẫn liên kết</li></ul> | <ul><li>Mối quan hệ tròn</li> <li>Ý tưởng đối lập</li> <li>Phương trình</li> <li>Phương trình thẳng đứng</li> <li>Venn tuyến tính</li></ul> |
-| `Matrix` | <ul><li>Ma trận cơ bản</li><li>Ma trận tiêu đề</li><li>Ma trận lưới</li><li>Ma trận chu kỳ</li></ul> |–|
-| `Pyramid` |–| <ul><li>Piramid phân đoạn</li></ul> |
+| `Matrix` | <ul><li>Ma trận cơ bản</li><li>Ma trận tiêu đề</li><li>Ma trận lưới</li><li>Ma trận chu kỳ</li></ul> | – |
+| `Pyramid` | – | <ul><li>Piramid phân đoạn</li></ul> |
 
 ## So sánh của SmartArt Rendering trong Aspose.Words và Microsoft
 

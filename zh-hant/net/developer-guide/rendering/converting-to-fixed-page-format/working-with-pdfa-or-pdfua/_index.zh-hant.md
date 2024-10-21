@@ -177,8 +177,8 @@ PDF 文件是由標頭、段落、表格和其他要素組成的序列。 這些
 
 | 符合 PDF 標準的等級 Aspose.Words | 存在要求。 |
 | -------------------------------------------------- | ----------------------- |
-| PDF/A-1a ||
-| PDF/A-2a ||
+| PDF/A-1a |  |
+| PDF/A-2a |  |
 | PDF/UA-1 | {{< emoticons/tick >}} |
 
 「Microsoft Word 文檔允許使用者添加圖像說明。」
@@ -244,8 +244,8 @@ Microsoft Word 文檔讓使用者可以將替代文字加入圖像、圖形和�
 
 | 「PDF 標準符合度在 Aspose.Words」 | 「要求的存在」 |
 | -------------------------------------------------- | ----------------------- |
-| PDF/A-1a ||
-| PDF/A-2a ||
+| PDF/A-1a |  |
+| PDF/A-2a |  |
 | PDF/UA-1 | {{< emoticons/tick >}} |
 
 在之前一點的基礎上，Microsoft Word 文檔也允許使用者為超連結增加替代文字。Aspose.Words 會將此替代文字輸出到輸出 PDF。
@@ -264,8 +264,8 @@ Microsoft Word 文檔讓使用者可以將替代文字加入圖像、圖形和�
 
 | PDF 標準符合度在 Aspose.Words 內 | 存在要求 |
 | -------------------------------------------------- | ----------------------- |
-| PDF/A-1a ||
-| PDF/A-2a ||
+| PDF/A-1a |  |
+| PDF/A-2a |  |
 | PDF/UA-1 | {{< emoticons/tick >}} |
 
 PDF/UA-1 文檔中的表格必須有標題 - 列、行或兩者兼備。 「PDF/A僅需要標準表格標記，且沒有額外限制。」 請注意 Aspose.Words 自動產生標準表格標記。
@@ -300,7 +300,7 @@ PDF/UA-1 文檔中的表格必須有標題 - 列、行或兩者兼備。 「PDF/
 | -------------------------------------------------- | ----------------------- |
 | PDF/A-1a | {{< emoticons/tick >}} |
 | PDF/A-2a | {{< emoticons/tick >}} |
-| PDF/UA-1 ||
+| PDF/UA-1 |  |
 
 {{% alert color="secondary" %}}
 <details>
@@ -322,7 +322,7 @@ PDF/UA-1 文檔中的表格必須有標題 - 列、行或兩者兼備。 「PDF/
 | -------------------------------------------------- | ----------------------- |
 | PDF/A-1a | {{< emoticons/tick >}} |
 | PDF/A-2a | {{< emoticons/tick >}} |
-| PDF/UA-1 ||
+| PDF/UA-1 |  |
 
 {{% alert color="secondary" %}}
 <details>
@@ -341,9 +341,9 @@ Microsoft Word 文檔不容許使用者設定縮略字和縮約詞的擴張。 �
 
 | 「 PDF 標準符合度等級在 Aspose.Words」 | 存在要求 |
 | -------------------------------------------------- | ------------------------------------------------------------ |
-| PDF/A-1a ||
-| PDF/A-2a ||
-| PDF/A-4 ||
+| PDF/A-1a |  |
+| PDF/A-2a |  |
+| PDF/A-4 |  |
 | PDF/UA-1 | 「{{< emoticons/tick >}}」<br />「PDF/UA-1 的文件應該有標題。」 |
 
 {{% alert color="secondary" %}}
@@ -408,8 +408,8 @@ Microsoft Word 文檔不容許使用者設定縮略字和縮約詞的擴張。 �
 
 | 「PDF標凖符合度等級在 Aspose.Words」 | 存在要求 |
 | -------------------------------------------------- | ----------------------- |
-| PDF/A-1a ||
-| PDF/A-1b ||
+| PDF/A-1a |  |
+| PDF/A-1b |  |
 | PDF/A-2a | {{< emoticons/tick >}} |
 | PDF/A-2u | {{< emoticons/tick >}} |
 | PDF/A-4 | {{< emoticons/tick >}} |
@@ -441,12 +441,12 @@ Microsoft Word 文檔不容許使用者設定縮略字和縮約詞的擴張。 �
 
 | 在 Aspose.Words 內符合 PDF 標準的等級 | 存在要求 |
 | -------------------------------------------------- | ----------------------- |
-| PDF/A-1a ||
-| PDF/A-1b ||
+| PDF/A-1a |  |
+| PDF/A-1b |  |
 | PDF/A-2a | {{< emoticons/tick >}} |
 | PDF/A-2u | {{< emoticons/tick >}} |
 | PDF/A-4 | {{< emoticons/tick >}} |
-| PDF/UA-1 ||
+| PDF/UA-1 |  |
 
 私人使用區 (PUA) 字元主要出現在 Windows 具象徵意義的書體，如 "Symbol"、"Wingdings" 和 "Webdings" 等。 Microsoft Word 格式不提供儲存實際文字的選項給字元。
 

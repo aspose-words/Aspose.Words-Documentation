@@ -36,29 +36,29 @@ We use [Font](https://reference.aspose.com/words/net/aspose.words/font/) formatt
 | Markdown feature              | Aspose.Words       |
 | ----------------------------- | ------------------ |
 | **Bold**<br />`**bold text**` | `Font.Bold = true` |
-| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BoldText.cs" >}} ||
+| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BoldText.cs" >}} |  |
 | **Italic**<br />`*italic text*` | `Font.Italic = true` |
-| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}} ||
+| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}} |  |
 | **Strikethrough**<br />`~Strikethrough text~` | `Font.StrikeThrough = true` |
 | {{< highlight csharp >}}// Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
 builder.Font.Strikethrough = true;
-builder.Writeln("This text will be Strikethrough");{{< /highlight >}} ||
+builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
 
 We use a character style with a name that starts from the word `InlineCode`, followed by an optional dot `(.)` and a number of backticks ```(`)``` for the `InlineCode` feature. If a number of backticks is missed, then one backtick will be used by default.
 
 | Markdown feature              | Aspose.Words       |
 | ----------------------------- | ------------------ |
 | **InlineCode**<br />`**inline code**` | `Font.StyleName = “InlineCode[.][N]”` |
-| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-InlineCode.cs" >}} ||
+| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-InlineCode.cs" >}} |  |
 | **Autolink**<br />`<scheme://domain.com>`<br />`<email@domain.com>` | The [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/) class. |
-| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Autolink.cs" >}} ||
+| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Autolink.cs" >}} |  |
 | **Link**<br />`[link text](url)`<br />`[link text](<url> "title")`<br />`[link text](url 'title')`<br />`[link text](url (title))` | The [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/) class. |
-| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Link.cs" >}} ||
+| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Link.cs" >}} |  |
 | **Image**<br />`![](url)`<br />`![alt text](<url> “title”)`<br />`![alt text](url ‘title’)`<br />`![alt text](url (title))` | The [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) class. |
-| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Image.cs" >}} ||
+| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Image.cs" >}} |  |
 
 ## Container Blocks
 

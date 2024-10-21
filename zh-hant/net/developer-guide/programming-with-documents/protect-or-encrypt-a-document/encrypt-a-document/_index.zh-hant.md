@@ -36,7 +36,7 @@ url: /zh-hant/net/encrypt-a-document/
 | DOC， DOT | XOR 加密40 位 RC4 加密CryptoAPI RC4 加密 | RC4加密 (40 位) |
 | DOCX、DOTX、DOCM、DOTM、FlatOPC、FlatOpcTemplate、FlatOpcMacroEnabled、FlatOpcTemplateMacroEnabled。 | ECMA-376標準加密ECMA-376敏捷加密 | ECMA-376 標準加密 (AES128 + SHA1) |
 | ODT，OTT | ODF 加密 (Blowfish/AES) | ODF 加密 (AES256 + SHA256) |
-| PDF |-| RC4 加密 (40/128 位) |
+| PDF | - | RC4 加密 (40/128 位) |
 
 以下範例展示了如何用密碼來加密檔案：
 

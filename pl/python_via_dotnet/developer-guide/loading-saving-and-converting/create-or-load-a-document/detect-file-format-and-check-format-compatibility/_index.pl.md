@@ -47,21 +47,21 @@ W powyższym przykładzie użyto następujących plików. Nazwa pliku znajduje s
 
 | Group plików | Dokument wejściowy | Typ |
 |  :-  |  :-  |  :-  |
-| Obsługiwane formaty plików | Plik testowy (Doc).doc | Dokument Microsoft Word 95/6.0 lub Microsoft Word 97 – 2003. |
-| | Plik testowy (`Dot`).dot | Szablon Microsoft Word 95/6.0 lub Microsoft Word 97 – 2003. |
-| | Plik testowy (Docx).docx | Dokument Office Open XML WordprocessingML bez makr. |
-| | Plik testowy (Docm).docm | Dokument Office Open XML WordprocessingML z makrami. |
-| | Plik testowy (Dotx).dotx | Szablon Office Open XML WordprocessingML. |
-| | Plik testowy (Dotm).dotm | Szablon Office Open XML WordprocessingML z makrami. |
-| | Plik testowy (XML).xml | Dokument OOXML FlatOPC. |
-| | Plik testowy (RTF).rtf | Dokument w formacie Rich Text. |
-| | Plik testowy (WordML).xml | Dokument Microsoft Word 2003 WordprocessingML. |
-| | Plik testowy (HTML).html | Dokument HTML. |
-| | Plik testowy (MHTML).mhtml | Dokument MHTML (archiwum internetowe). |
-| | Plik testowy (Odt).odt | Tekst OpenDocument (OpenOffice Writer). |
-| | Plik testowy (Ott).ott | Szablon dokumentu OpenDocument. |
-| | Plik testowy (DocPreWord60).doc | Dokument Microsoft Word 2.0. |
+| Obsługiwane formaty plików | Plik testowy (Doc).doc|Dokument Microsoft Word 95/6.0 lub Microsoft Word 97 – 2003. |
+|  | Plik testowy (`Dot`).dot | Szablon Microsoft Word 95/6.0 lub Microsoft Word 97 – 2003. |
+|  | Plik testowy (Docx).docx | Dokument Office Open XML WordprocessingML bez makr. |
+|  | Plik testowy (Docm).docm | Dokument Office Open XML WordprocessingML z makrami. |
+|  | Plik testowy (Dotx).dotx | Szablon Office Open XML WordprocessingML. |
+|  | Plik testowy (Dotm).dotm | Szablon Office Open XML WordprocessingML z makrami. |
+|  | Plik testowy (XML).xml | Dokument OOXML FlatOPC. |
+|  | Plik testowy (RTF).rtf | Dokument w formacie Rich Text. |
+|  | Plik testowy (WordML).xml | Dokument Microsoft Word 2003 WordprocessingML. |
+|  | Plik testowy (HTML).html | Dokument HTML. |
+|  | Plik testowy (MHTML).mhtml | Dokument MHTML (archiwum internetowe). |
+|  | Plik testowy (Odt).odt | Tekst OpenDocument (OpenOffice Writer). |
+|  | Plik testowy (Ott).ott | Szablon dokumentu OpenDocument. |
+|  | Plik testowy (DocPreWord60).doc|Dokument Microsoft Word 2.0. |
 | Zaszyfrowane dokumenty | Plik testowy (Enc).doc | Zaszyfrowany dokument Microsoft Word 95/6.0 lub Microsoft Word 97 – 2003. |
-| | Plik testowy (Enc).docx | Zaszyfrowany dokument Office Open XML WordprocessingML. |
+|  | Plik testowy (Enc).docx | Zaszyfrowany dokument Office Open XML WordprocessingML. |
 | Nieobsługiwane formaty plików | Plik testowy (JPG).jpg | Plik obrazu JPEG. |
 

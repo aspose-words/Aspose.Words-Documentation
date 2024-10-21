@@ -48,20 +48,20 @@ Aspose.Words предоставя възможност за получаване
 | Group на файлове | Входен документ | Тип |
 |  :-  |  :-  |  :-  |
 | Поддържани файлови формати | Тестов файл (doc).doc | Microsoft Word 95/ 6. 0 или Microsoft Word 97 - 2003 г. документ. |
-| | Тестов файл (`Dot`). точка | Microsoft Word 95/ 6. 0 или Microsoft Word 97 за 2003. |
-| | Тестов файл (Docx).docx | Office Open XML Wordprocessing Документ на ML без макроси. |
-| | Тестов файл (Doccm).docm | Office Open XML Wordprocessing ML документ с макроси. |
-| | Тестов файл (Dotx). dotx | Office Open XML Wordprocessing Образец ML. |
-| | Тестов файл (Dotm). точка | Office Open XML Wordprocessing Образец ML с макроси. |
-| | Тестов файл (XML). xml | FlatOPC OOXML документ. |
-| | Тестов файл (RTF). rtf | Документ с богат текстов формат. |
-| | Тестов файл (WordML). xml | Microsoft Word 2003 Обработка на думи Документ на ML. |
-| | Тестов файл (HTML).html | HTML документ. |
-| | Тестов файл (MHTML). mhtml | MHTML (Уеб архив) документ. |
-| | Тестов файл (Odt).odt | Open Document Text (OpenOffice Writer). |
-| | Тестов файл (Ott).ott | Шаблон с отворен документ. |
-| | Тестов файл (docPreWord60).doc | Microsoft Word 2.0 документа. |
+|  | Тестов файл (`Dot`). точка | Microsoft Word 95/ 6. 0 или Microsoft Word 97 за 2003. |
+|  | Тестов файл (Docx).docx | Office Open XML Wordprocessing Документ на ML без макроси. |
+|  | Тестов файл (Doccm).docm | Office Open XML Wordprocessing ML документ с макроси. |
+|  | Тестов файл (Dotx). dotx | Office Open XML Wordprocessing Образец ML. |
+|  | Тестов файл (Dotm). точка | Office Open XML Wordprocessing Образец ML с макроси. |
+|  | Тестов файл (XML). xml | FlatOPC OOXML документ. |
+|  | Тестов файл (RTF). rtf | Документ с богат текстов формат. |
+|  | Тестов файл (WordML). xml | Microsoft Word 2003 Обработка на думи Документ на ML. |
+|  | Тестов файл (HTML).html | HTML документ. |
+|  | Тестов файл (MHTML). mhtml | MHTML (Уеб архив) документ. |
+|  | Тестов файл (Odt).odt | Open Document Text (OpenOffice Writer). |
+|  | Тестов файл (Ott).ott | Шаблон с отворен документ. |
+|  | Тестов файл (docPreWord60).doc | Microsoft Word 2.0 документа. |
 | Кодирани документи | Тестов файл (Enc).doc | Шифрована Microsoft Word 95/ 6. 0 или Microsoft Word 97 - 2003 г. документ. |
-| | Тестов файл (Enc).docx | Шифрована Office Open XML обработка на думи Документ на ML. |
+|  | Тестов файл (Enc).docx | Шифрована Office Open XML обработка на думи Документ на ML. |
 | Неподдържани файлови формати | Тестов файл (JPG). jpg | Файл с изображения JPEG. |
 

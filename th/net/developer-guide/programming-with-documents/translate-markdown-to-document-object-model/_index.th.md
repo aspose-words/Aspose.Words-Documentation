@@ -36,29 +36,29 @@ url: /th/net/translate-markdown-to-document-object-model/
 |  คุณสมบัติ Markdown |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |
 |  **Bold**<br /> `{1}` |  `Font.Bold = true`  |
-|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BoldText.cs" >}}  ||
+|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BoldText.cs" >}}  |  |
 |  **Italic**<br /> `*italic text*` |  `Font.Italic = true`  |
-|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}}  ||
+|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}}  |  |
 |  **Strikethrough**<br /> `~Strikethrough text~` |  `Font.StrikeThrough = true`  |
 |  {{< highlight csharp >}}// Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
 builder.Font.Strikethrough = true;
-builder.Writeln("This text will be Strikethrough");{{< /highlight >}} ||
+builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
 
 เราใช้ลักษณะอักขระที่มีชื่อที่ขึ้นต้นด้วยคำว่า `InlineCode` ตามด้วย dot `(.)` ที่เป็นตัวเลือก และ backticks ```(`)``` จำนวนหนึ่งสำหรับฟีเจอร์ `InlineCode` หากพลาด backtick ไปจำนวนหนึ่ง ระบบจะใช้ backtick หนึ่งอันเป็นค่าเริ่มต้น
 
 |  คุณสมบัติ Markdown |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |
 |  **InlineCode**<br /> `{1}` |  `Font.StyleName = “InlineCode[.][N]”`  |
-|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-InlineCode.cs" >}}  ||
+|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-InlineCode.cs" >}}  |  |
 |  **Autolink**<br /> `<scheme://domain.com>`<br /> `<email@domain.com>` |  คลาส [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/) |
-|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Autolink.cs" >}}  ||
+|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Autolink.cs" >}}  |  |
 |  **Link**<br /> `{1}`<br /> `{2}`<br /> `{3}`<br /> `{4})` |  คลาส [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/) |
-|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Link.cs" >}}  ||
+|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Link.cs" >}}  |  |
 |  **Image**<br /> `{1}`<br /> `{2}`<br /> `{3}`<br /> `{4})` |  คลาส [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) |
-|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Image.cs" >}}  ||
+|   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Image.cs" >}}  |  |
 
 ## บล็อกคอนเทนเนอร์
 
@@ -155,7 +155,7 @@ Aspose.Words ยังอนุญาตให้แปลตารางเป�
 
 |  คุณสมบัติ Markdown |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
-|  `Table`<br /> `ก | b`<br />`- | -`<br />`c | ด` |  คลาส [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) และ [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) |
+|  `Table`<br /> `ก | b`<br />`-|-`<br />`c | ด` |  คลาส [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) และ [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) |
 |  {{< highlight csharp >}}// Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 

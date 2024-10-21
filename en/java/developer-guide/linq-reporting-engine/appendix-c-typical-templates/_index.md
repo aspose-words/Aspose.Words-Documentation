@@ -55,12 +55,12 @@ public class Client
 
 ### Template Example
 
-|<img src="single-row-template-example1.png" alt="Single_Row_Template_Example-aspose-words-net" style="width:150px"/>) | Name: &lt;&lt;[manager.getName()]&gt;&gt; <br> Age: &lt;&lt;[manager.getAge()]&gt;&gt; |
+| <img src="single-row-template-example1.png" alt="Single_Row_Template_Example-aspose-words-net" style="width:150px"/>) | Name: &lt;&lt;[manager.getName()]&gt;&gt; <br> Age: &lt;&lt;[manager.getAge()]&gt;&gt; |
 | :- | :- |
 
 ### Report Example
 
-|<img src="single-row-report-example1.png" alt="Single_Row_Report_Example-aspose-words-net" style="width:150px"/>|Name: John Smith <br> Age: 37 |
+| <img src="single-row-report-example1.png" alt="Single_Row_Report_Example-aspose-words-net" style="width:150px"/> | Name: John Smith <br> Age: 37 |
 | :- | :- |
 
 ## In-Paragraph List Template
@@ -166,26 +166,26 @@ We provide support for the following clients:
 
 ### Template Example
 
-|&lt;&lt;foreach [in managers]&gt;&gt; <br> <img src="common-list-template-example.png" alt="Common_List_Template_Example2-aspose-words-net" style="width:150px"/>) <br> &lt;&lt;[getName()]&gt;&gt; <br> &lt;&lt;/foreach&gt;&gt;|
+| &lt;&lt;foreach [in managers]&gt;&gt; <br> <img src="common-list-template-example.png" alt="Common_List_Template_Example2-aspose-words-net" style="width:150px"/>) <br> &lt;&lt;[getName()]&gt;&gt; <br> &lt;&lt;/foreach&gt;&gt; |
 | :- |
 
 ### Report Example
 
-|<img src="single-row-report-example1.png" alt="Single_Row_Report_Example-aspose-words-net" style="width:150px"/> <br> John Smith <br> <img src="single-row-report-example1.png" alt="Single_Row_Report_Example-aspose-words-net" style="width:150px"/> <br> Tony Anderson <br> <img src="single-row-report-example1.png" alt="Single_Row_Report_Example-aspose-words-net" style="width:150px"/> <br> July James|
+| <img src="single-row-report-example1.png" alt="Single_Row_Report_Example-aspose-words-net" style="width:150px"/> <br> John Smith <br> <img src="single-row-report-example1.png" alt="Single_Row_Report_Example-aspose-words-net" style="width:150px"/> <br> Tony Anderson <br> <img src="single-row-report-example1.png" alt="Single_Row_Report_Example-aspose-words-net" style="width:150px"/> <br> July James |
 | :- |
 
 ## In-Table List Template
 
 ### Template Example
 
-| Manager |Contract Price|
+| Manager | Contract Price |
 | :- | :- |
-|{{< highlight csharp >}} <<foreach [in managers]>><<[getName()]>> {{< /highlight >}} | {{< highlight csharp >}} <<[getContracts().sum(c => c.getPrice())]>><</foreach>> {{< /highlight >}} |
-|{{< highlight csharp >}} Total: {{< /highlight >}} | {{< highlight csharp >}} <<[sum(m => m.getContracts().sum(c => c.getPrice()))]>> {{< /highlight >}} |
+| {{< highlight csharp >}} <<foreach [in managers]>><<[getName()]>> {{< /highlight >}} | {{< highlight csharp >}} <<[getContracts().sum(c => c.getPrice())]>><</foreach>> {{< /highlight >}} |
+| {{< highlight csharp >}} Total: {{< /highlight >}} | {{< highlight csharp >}} <<[sum(m => m.getContracts().sum(c => c.getPrice()))]>> {{< /highlight >}} |
 
 ### Report Example
 
-| Manager |Contract Price|
+| Manager | Contract Price |
 | :- | :- |
 | John Smith | 2300000 |
 | Tony Anderson | 1200000 |
@@ -239,17 +239,17 @@ We provide support for the following clients:
 
 **Report Example**
 
-| Client |Total Contract Price|
+| Client | Total Contract Price |
 | :- | :- |
-|**A Company**|1200000|
-|**B Ltd.**|1950000|
-|**C & D**|2300000|
-|**E Corp.**|2950000|
-|**F & Partners**|3500000|
-|**G & Co.**|3850000|
-|**H Group**|4100000|
-|**I & Sons**|4200000|
-|**J Ent.**|4300000|
+| **A Company** | 1200000 |
+| **B Ltd.** | 1950000 |
+| **C & D** | 2300000 |
+| **E Corp.** | 2950000 |
+| **F & Partners** | 3500000 |
+| **G & Co.** | 3850000 |
+| **H Group** | 4100000 |
+| **I & Sons** | 4200000 |
+| **J Ent.** | 4300000 |
 
 ## In-Table List Template with Highlighted Rows
 
@@ -410,18 +410,18 @@ We provide support for the following clients:
 
 ### Report Example 2
 
-| Client |Contract Price|
+| Client | Contract Price |
 | :- | :- |
-|**A Company**|1200000|
-|**B Ltd.**|750000|
-|**C & D**|350000|
-|**E Corp.**|650000|
-|**F & Partners**|550000|
-|**G & Co.**|350000|
-|**H Group**|250000|
-|**I & Sons**|100000|
-|**J Ent.**|100000|
-|**Total:**|4300000|
+| **A Company** | 1200000 |
+| **B Ltd.** | 750000 |
+| **C & D** | 350000 |
+| **E Corp.** | 650000 |
+| **F & Partners** | 550000 |
+| **G & Co.** | 350000 |
+| **H Group** | 250000 |
+| **I & Sons** | 100000 |
+| **J Ent.** | 100000 |
+| **Total:** | 4300000 |
 
 ## In-Table List Template (Horizontal) with Alternate Content
 
@@ -467,23 +467,23 @@ We provide support for the following clients:
 
 ### Template Example
 
-|&lt;&lt;foreach [in managers]&gt;&gt; <br><img src="common-list-template-example.png" alt="Common_List_Template_Example2-aspose-words-net" style="width:150px"/> <br> &lt;&lt;[getName()]&gt;&gt; <br> Clients: &lt;&lt;foreach [in getContracts() ]&gt;&gt;&lt;&lt;[indexOf() != 0 ? ", " : ""]&gt;&gt;&lt;&lt;[getClient().getName()]&gt;&gt;&lt;&lt;/foreach&gt;&gt; <br> &lt;&lt;/foreach&gt;&gt;|
+| &lt;&lt;foreach [in managers]&gt;&gt; <br><img src="common-list-template-example.png" alt="Common_List_Template_Example2-aspose-words-net" style="width:150px"/> <br> &lt;&lt;[getName()]&gt;&gt; <br> Clients: &lt;&lt;foreach [in getContracts() ]&gt;&gt;&lt;&lt;[indexOf() != 0 ? ", " : ""]&gt;&gt;&lt;&lt;[getClient().getName()]&gt;&gt;&lt;&lt;/foreach&gt;&gt; <br> &lt;&lt;/foreach&gt;&gt; |
 | :- |
 
 ### Report Example
 
-|<img src="single-row-report-example1.png" alt="Single_Row_Report_Example-aspose-words-net" style="width:150px"/> <br> John Smith <br> Clients: A Company, B Ltd., C & D <br> <img src="single-row-report-example1.png" alt="Single_Row_Report_Example-aspose-words-net" style="width:150px"/> <br> Tony Anderson <br> Clients: E Corp., F & Partners <br> <img src="single-row-report-example1.png" alt="Single_Row_Report_Example-aspose-words-net" style="width:150px"/> <br> July James <br> Clients: G & Co., H Group, I & Sons, J Ent.|
+| <img src="single-row-report-example1.png" alt="Single_Row_Report_Example-aspose-words-net" style="width:150px"/> <br> John Smith <br> Clients: A Company, B Ltd., C & D <br> <img src="single-row-report-example1.png" alt="Single_Row_Report_Example-aspose-words-net" style="width:150px"/> <br> Tony Anderson <br> Clients: E Corp., F & Partners <br> <img src="single-row-report-example1.png" alt="Single_Row_Report_Example-aspose-words-net" style="width:150px"/> <br> July James <br> Clients: G & Co., H Group, I & Sons, J Ent. |
 | :- |
 
 ## In-Table Master-Detail Template
 
 ### Template Example
 
-|Manager/Client|Contract Price|
+| Manager/Client | Contract Price |
 | :- | :- |
-|{{< highlight csharp >}} <<foreach [in managers]>><<[getName()]>> {{< /highlight >}} | {{< highlight csharp >}} <<[getContracts().sum(c => c.getPrice())]>> {{< /highlight >}}|
-|{{< highlight csharp >}} <<foreach [in getContracts()]>> <<[getClient().getName()]>> {{< /highlight >}} | {{< highlight csharp >}} <<[getPrice()]>><</foreach>><</foreach>> {{< /highlight >}}|
-|{{< highlight csharp >}} Total: {{< /highlight >}} | {{< highlight csharp >}} <<[sum(m => m.getContracts().sum(c => c.getPrice()))]>> {{< /highlight >}}|
+| {{< highlight csharp >}} <<foreach [in managers]>><<[getName()]>> {{< /highlight >}} | {{< highlight csharp >}} <<[getContracts().sum(c => c.getPrice())]>> {{< /highlight >}} |
+| {{< highlight csharp >}} <<foreach [in getContracts()]>> <<[getClient().getName()]>> {{< /highlight >}} | {{< highlight csharp >}} <<[getPrice()]>><</foreach>><</foreach>> {{< /highlight >}} |
+| {{< highlight csharp >}} Total: {{< /highlight >}} | {{< highlight csharp >}} <<[sum(m => m.getContracts().sum(c => c.getPrice()))]>> {{< /highlight >}} |
 
 ### Report Example
 
@@ -594,11 +594,11 @@ We provide support for the following clients:
 
 **Report Example**
 
-| Manager |Contract Price|
+| Manager | Contract Price |
 | :- | :- |
-|**John Smith**|2300000|
-|**July James**|800000|
-|**Tony Anderson**|1200000|
+| **John Smith** | 2300000 |
+| **July James** | 800000 |
+| **Tony Anderson** | 1200000 |
 
 ## Chart Template with Filtering, Grouping, and Ordering
 

@@ -48,20 +48,20 @@ Aspose.Words 파일의 실제 내용이 무엇인지 확실하지 않다면 예�
 | Group 의 파일 | 입력 문서 | 제품정보 |
 |  :-  |  :-  |  :-  |
 | 지원된 파일 형식 | 테스트 파일 (Doc).doc | Microsoft Word 95/6.0 또는 Microsoft Word 97 - 2003 문서. |
-| | 테스트 파일 (Dot).dot | Microsoft Word 95/6.0 또는 Microsoft Word 97 - 2003 템플릿. |
-| | 테스트 파일 (Docx).docx | 오피스 오픈 XML Wordprocessing 매크로없이 ML 문서. |
-| | 테스트 파일 (Docm).docm | 오피스 오픈 XML Wordprocessing 매크로가있는 ML 문서. |
-| | 테스트 파일 (Dotx).dotx | 오피스 오픈 XML Wordprocessing ML 템플릿. |
-| | 테스트 파일 (Dotm).dotm | 오피스 오픈 XML Wordprocessing 매크로가있는 ML 템플릿. |
-| | 테스트 파일 (XML).xml | FlatOPC OOXML 문서. |
-| | 테스트 파일 (RTF).rtf | 풍부한 텍스트 형식 문서. |
-| | 테스트 파일 (WordML).xml | Microsoft Word 2003 단어 처리 ML 문서. |
-| | 테스트 파일 (HTML).html | HTML 문서. |
-| | 테스트 파일 (MHTML).mhtml | MHTML (웹 아카이브) 문서. |
-| | 테스트 파일 (Odt).odt | OpenDocument 텍스트 (OpenOffice Writer). |
-| | 테스트 파일 (Ott).ott | OpenDocument 문서 템플릿. |
-| | 테스트 파일 (DocPreWord60).doc | Microsoft Word 2.0 문서. |
+|  | 테스트 파일 (Dot).dot | Microsoft Word 95/6.0 또는 Microsoft Word 97 - 2003 템플릿. |
+|  | 테스트 파일 (Docx).docx | 오피스 오픈 XML Wordprocessing 매크로없이 ML 문서. |
+|  | 테스트 파일 (Docm).docm | 오피스 오픈 XML Wordprocessing 매크로가있는 ML 문서. |
+|  | 테스트 파일 (Dotx).dotx | 오피스 오픈 XML Wordprocessing ML 템플릿. |
+|  | 테스트 파일 (Dotm).dotm | 오피스 오픈 XML Wordprocessing 매크로가있는 ML 템플릿. |
+|  | 테스트 파일 (XML).xml | FlatOPC OOXML 문서. |
+|  | 테스트 파일 (RTF).rtf | 풍부한 텍스트 형식 문서. |
+|  | 테스트 파일 (WordML).xml | Microsoft Word 2003 단어 처리 ML 문서. |
+|  | 테스트 파일 (HTML).html | HTML 문서. |
+|  | 테스트 파일 (MHTML).mhtml | MHTML (웹 아카이브) 문서. |
+|  | 테스트 파일 (Odt).odt | OpenDocument 텍스트 (OpenOffice Writer). |
+|  | 테스트 파일 (Ott).ott | OpenDocument 문서 템플릿. |
+|  | 테스트 파일 (DocPreWord60).doc | Microsoft Word 2.0 문서. |
 | 암호화된 문서 | 테스트 파일 (Enc).doc | 암호화 된 Microsoft Word 95/6.0 또는 Microsoft Word 97 - 2003 문서. |
-| | 테스트 파일 (Enc).docx | 암호화된 오피스 오픈 XML Wordprocessing ML 문서. |
+|  | 테스트 파일 (Enc).docx | 암호화된 오피스 오픈 XML Wordprocessing ML 문서. |
 | 지원된 파일 형식 | 테스트 파일 (JPG). 사이트맵 | JPEG 이미지 파일. |
 

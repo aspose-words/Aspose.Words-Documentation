@@ -27,7 +27,7 @@ La mayoría de las capturas de pantalla en esta sección muestran los documentos
 
 Las plataformas Aspose.Words para Java se puede utilizar con se enumeran a continuación. Si necesita apoyo para más plataformas, busque el producto "hermano nulo" Aspose.Words para .NET.
 
-|  Característica | Descripción |
+|  Característica|Descripción |
 |  :-  |  :-  |
 | [Java](/words/java/supported-platforms/) | Aspose.Words para Java disponible para Java 1.6, 1.7 y 1.8 y correrá en cualquier lugar donde Java está instalado. |
 
@@ -39,7 +39,7 @@ Muchos clientes de todo el mundo confían en las características de importació
 
 {{% /alert %}}
 
-|  Característica | Descripción |
+|  Característica|Descripción |
 |  :-  |  :-  |
 | Microsoft Word (DOC) ([carga](/words/java/load-in-ms-word-97-2003-formats/) y [Guardar](/words/java/save-in-ms-word-97-2003-formats/)) | La implementación de formato DOC más rápida y completa que puedes encontrar. |
 | WordprocessingML (DOCX, XML) ([carga](/words/java/load-in-the-open-office-xml-2007-and-2010-formats/) y [Guardar](/words/java/save-in-the-open-office-xml-docx-dotx-docm-dotm-format/)) | Aspose.Words Proporciona soporte exhaustivo OOXML, OPC plano y también XML Word 2003. |

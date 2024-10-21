@@ -20,11 +20,11 @@ Classes of the LINQ Reporting Engine are located within the [aspose.words.report
 
 To build a report from a template, you can use one of the [ReportingEngine.build_report](https://reference.aspose.com/words/python-net/aspose.words.reporting/reportingengine/build_report/) overloads. The following table describes the parameters of these overloads.
 
-| Parameter |Description|
+| Parameter | Description |
 | :- | :- |
-| `document` |A template document. At runtime, this document instance is populated with a data from the specified source and becomes a ready report.|
-| `data_source` |An object providing a data to populate the specified template. The object must be of one of the following types:<br>- An [XmlDataSource](https://reference.aspose.com/words/python-net/aspose.words.reporting/xmldatasource/) instance (see “Accessing XML Data” for more information)<br>- A [JsonDataSource](https://reference.aspose.com/words/python-net/aspose.words.reporting/jsondatasource/) instance (see “Accessing JSON Data” for more information)<br>- A [CsvDataSource](https://reference.aspose.com/words/python-net/aspose.words.reporting/csvdatasource/) instance (see “Accessing CSV Data” for more information)|
-| `data_source_name` |The identifier of the specified data source object within the specified template. You can omit this identifier, if the template uses the contextual object member access (see “ `REF` contextual Using Contextual Object Member Access” for more information) when dealing with the data source.|
+| `document` | A template document. At runtime, this document instance is populated with a data from the specified source and becomes a ready report. |
+| `data_source` | An object providing a data to populate the specified template. The object must be of one of the following types:<br>- An [XmlDataSource](https://reference.aspose.com/words/python-net/aspose.words.reporting/xmldatasource/) instance (see “Accessing XML Data” for more information)<br>- A [JsonDataSource](https://reference.aspose.com/words/python-net/aspose.words.reporting/jsondatasource/) instance (see “Accessing JSON Data” for more information)<br>- A [CsvDataSource](https://reference.aspose.com/words/python-net/aspose.words.reporting/csvdatasource/) instance (see “Accessing CSV Data” for more information) |
+| `data_source_name` | The identifier of the specified data source object within the specified template. You can omit this identifier, if the template uses the contextual object member access (see “ `REF` contextual Using Contextual Object Member Access” for more information) when dealing with the data source. |
 
 ## Accessing XML Data
 
@@ -700,7 +700,7 @@ While building a report, some paragraphs containing only template syntax tags ca
 
 {{< highlight python >}}
 engine = aw.reporting.ReportingEngine()
-engine.options |= aw.reporting.ReportBuildOptions.REMOVE_EMPTY_PARAGRAPHS
+engine.options | = aw.reporting.ReportBuildOptions.REMOVE_EMPTY_PARAGRAPHS
 engine.build_report(...)
 {{< /highlight >}}
 
@@ -804,7 +804,7 @@ To support such scenarios, the engine provides an option to treat missing member
 
 {{< highlight python >}}
 engine = aw.reporting.ReportingEngine()
-engine.options |= aw.reporting.ReportBuildOptions.ALLOW_MISSING_MEMBERS
+engine.options | = aw.reporting.ReportBuildOptions.ALLOW_MISSING_MEMBERS
 engine.build_report(...)
 {{< /highlight >}}
 
@@ -842,7 +842,7 @@ When [ReportBuildOptions.INLINE_ERROR_MESSAGES](https://reference.aspose.com/wor
 
 {{< highlight python >}}
 engine = aw.reporting.ReportingEngine()
-engine.options |= aw.reporting.ReportBuildOptions.INLINE_ERROR_MESSAGES
+engine.options | = aw.reporting.ReportBuildOptions.INLINE_ERROR_MESSAGES
 if (engine.build_report(...)) :
 	# Do something with a successfully built report.
 else :

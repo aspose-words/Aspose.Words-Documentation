@@ -48,20 +48,20 @@ Os arquivos a seguir são usados no exemplo acima. O nome do arquivo está à es
 | Group de arquivos | Documento de entrada | Tipo |
 |  :-  |  :-  |  :-  |
 | Formatos de arquivo suportados | Arquivo de teste (Doc.doc) | Documento Microsoft Word 95/6.0 ou Microsoft Word 97 – 2003. |
-| | Arquivo de teste (`Dot`).dot | Modelo Microsoft Word 95/6.0 ou Microsoft Word 97 – 2003. |
-| | Arquivo de teste (Docx).docx | Documento Office Open XML WordprocessingML sem macros. |
-| | Arquivo de teste (Docm).docm | Documento Office Open XML WordprocessingML com macros. |
-| | Arquivo de teste (Dotx).dotx | Modelo Office Open XML WordprocessingML. |
-| | Arquivo de teste (Dotm).dotm | Modelo Office Open XML WordprocessingML com macros. |
-| | Arquivo de teste (XML).xml | Documento FlatOPC OOXML. |
-| | Arquivo de teste (RTF).rtf | Documento em formato Rich Text. |
-| | Arquivo de teste (WordML).xml | Documento Microsoft Word 2003 WordprocessingML. |
-| | Arquivo de teste (HTML).html | Documento HTML. |
-| | Arquivo de teste (MHTML).mhtml | Documento MHTML (arquivo da Web). |
-| | Arquivo de teste (Odt).odt | Texto OpenDocument (OpenOffice Writer). |
-| | Arquivo de teste (Ott).ott | Modelo de documento OpenDocument. |
-| | Arquivo de teste (DocPreWord60).doc | Documento Microsoft Word 2.0. |
-| Documentos criptografados | Arquivo de teste (Enc).doc | Documento criptografado Microsoft Word 95/6.0 ou Microsoft Word 97 – 2003. |
-| | Arquivo de teste (Enc).docx | Documento criptografado do Office Open XML WordprocessingML. |
+|  | Arquivo de teste (`Dot`).dot | Modelo Microsoft Word 95/6.0 ou Microsoft Word 97 – 2003. |
+|  | Arquivo de teste (Docx).docx | Documento Office Open XML WordprocessingML sem macros. |
+|  | Arquivo de teste (Docm).docm | Documento Office Open XML WordprocessingML com macros. |
+|  | Arquivo de teste (Dotx).dotx | Modelo Office Open XML WordprocessingML. |
+|  | Arquivo de teste (Dotm).dotm | Modelo Office Open XML WordprocessingML com macros. |
+|  | Arquivo de teste (XML).xml | Documento FlatOPC OOXML. |
+|  | Arquivo de teste (RTF).rtf | Documento em formato Rich Text. |
+|  | Arquivo de teste (WordML).xml | Documento Microsoft Word 2003 WordprocessingML. |
+|  | Arquivo de teste (HTML).html | Documento HTML. |
+|  | Arquivo de teste (MHTML).mhtml | Documento MHTML (arquivo da Web). |
+|  | Arquivo de teste (Odt).odt | Texto OpenDocument (OpenOffice Writer). |
+|  | Arquivo de teste (Ott).ott | Modelo de documento OpenDocument. |
+|  | Arquivo de teste (DocPreWord60).doc|Documento Microsoft Word 2.0. |
+| Documentos criptografados | Arquivo de teste (Enc).doc|Documento criptografado Microsoft Word 95/6.0 ou Microsoft Word 97 – 2003. |
+|  | Arquivo de teste (Enc).docx | Documento criptografado do Office Open XML WordprocessingML. |
 | Formatos de arquivo não suportados | Arquivo de teste (JPG).jpg | Arquivo de imagem JPEG. |
 

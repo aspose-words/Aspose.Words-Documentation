@@ -272,11 +272,11 @@ It is important to know that the **CellFormat.Width** property works differently
 
 Aspose.Words uses the following order for calculating cell widths:
 
-| Order |Property| Description |
+| Order | Property | Description |
 | :- | :- | :- |
-|1|[AllowAutoFit](https://reference.aspose.com/words/cpp/aspose.words.tables/table/get_allowautofit/) is determined|If **AutoFit** is enabled:<br/>- the table may grow past the preferred width to accommodate the content – it usually does not shrink below the preferred width<br/>- any change to the **CellFormat.Width** value is ignored and the cell will fit to its contents instead|
-|2|[PreferredWidthType](https://reference.aspose.com/words/cpp/aspose.words.tables/preferredwidth/get_type/) with a value of **Points** or **Percent**|**CellFormat.Width** is ignored|
-|3|[PreferredWidthType](https://reference.aspose.com/words/cpp/aspose.words.tables/preferredwidth/get_type/) with a value of **Auto**|The value from **CellFormat.Width** is copied and becomes the cell's preferred width (in points)|
+| 1 | [AllowAutoFit](https://reference.aspose.com/words/cpp/aspose.words.tables/table/get_allowautofit/) is determined | If **AutoFit** is enabled:<br/>- the table may grow past the preferred width to accommodate the content – it usually does not shrink below the preferred width<br/>- any change to the **CellFormat.Width** value is ignored and the cell will fit to its contents instead |
+| 2 | [PreferredWidthType](https://reference.aspose.com/words/cpp/aspose.words.tables/preferredwidth/get_type/) with a value of **Points** or **Percent** | **CellFormat.Width** is ignored |
+| 3 | [PreferredWidthType](https://reference.aspose.com/words/cpp/aspose.words.tables/preferredwidth/get_type/) with a value of **Auto** | The value from **CellFormat.Width** is copied and becomes the cell's preferred width (in points) |
 
 {{% alert color="primary" %}}
 

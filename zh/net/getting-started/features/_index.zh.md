@@ -91,7 +91,7 @@ Aspose.Words 提供了丰富的对象模型，由 100 多个公共类组成，�
 | 从文档中保留或删除 VBA 宏。保留 VBA 宏数字签名。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | 检测并验证文档中的数字签名。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | 插入 HTML 文本。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| 从 Word 文档中提取 VBA 宏。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | | | |
+| 从 Word 文档中提取 VBA 宏。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  | |  |
 
 ## 文档格式化功能
 

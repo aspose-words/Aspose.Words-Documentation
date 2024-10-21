@@ -36,24 +36,24 @@ Bulleted 및 주문 목록은 컨테이너 블록입니다. Markdown 한국어 �
 |  Markdown 제품 정보 |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |
 |  **Bold**<br/>`{1}` |  `Font.Bold = true`  |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-BoldText.java" >}}  ||
+|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-BoldText.java" >}}  |  |
 |  **Italic**<br/>`*italic text*` |  `Font.Italic = true`  |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-ItalicText.java" >}}  ||
+|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-ItalicText.java" >}}  |  |
 |  **Strikethrough**<br/>`~Strikethrough text~` |  `Font.StrikeThrough = true`  |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Strikethrough.java" >}}  ||
+|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Strikethrough.java" >}}  |  |
 
 우리는 단어에서 시작하는 이름으로 문자 스타일을 사용합니다. <span notrans="<span notrans=" `InlineCode`"=""></span>· 선택된 점에 의해 뒤로 `(.)` 백틱스의 수 ```(`)``` 제품정보 `InlineCode` 이름 * backticks의 수가 놓인 경우, 한 backtick은 기본적으로 사용됩니다.
 
 |  Markdown 제품 정보 |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |
 |  **InlineCode**<br/>`{1}` |  `Font.StyleName = “InlineCode[.][N]”`  |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-InlineCode.java" >}}  ||
+|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-InlineCode.java" >}}  |  |
 |  **Autolink**<br/>`<scheme://domain.com>`<br/>`<email@domain.com>` |  더 보기 [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/) 수업 |
-|     {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Autolink.java" >}}  ||
+|     {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Autolink.java" >}}  |  |
 |  **Link**<br/>`{1}`<br/>`{2}`<br/>`{3}`<br/>`{4})` |  더 보기 [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/) 수업 |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Link.java" >}}  ||
+|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Link.java" >}}  |  |
 |  **Image**<br/>`{1}`<br/>`{2}`<br/>`{3}`<br/>`{4})` |  더 보기 [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) 수업 |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Image.java" >}}  ||
+|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Image.java" >}}  |  |
 
 ## 컨테이너 블록
 

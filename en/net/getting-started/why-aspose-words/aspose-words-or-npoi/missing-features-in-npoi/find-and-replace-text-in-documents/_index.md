@@ -27,7 +27,7 @@ Document doc = new Document("../../data/document.doc");
 doc.Range.Replace("document", "document replaced", false, true);
 
 // Replaces all 'sad' and 'mad' occurrences with 'bad'.
-doc.Range.Replace(new Regex("[s|m]ad"), "bad");
+doc.Range.Replace(new Regex("[s | m]ad"), "bad");
 doc.Save("replacedDocument.doc");
 {{< /highlight >}}
 

@@ -36,7 +36,7 @@ Aşağıdaki tablo Aspose.Words tarafından desteklenen formatları ve şifrelem
 | DOC, DOT | XOR şifreleme40-bit RC4 ŞifrelemeCrypto API RC4 Şifreleme | RC4 Şifreleme (40-bit) |
 | DOCX, DOTX, DOCM, DOTM, FlatOPC, FlatOpcTemplate, FlatOpcMacroEnabled, FlatOpcTemplateMacroEnabled | ECMA-376 Standart ŞifrelemeECMA-376 Esnek Şifreleme | ECMA-376 Standart Şifreleme (AES128 + SHA1) |
 | ODT, OTT | ODF Şifreleme (Blowfish/AES) | ODF Şifreleme (AES256 + SHA256) |
-| PDF |-| RC4 Şifreleme (40/128 Bit) |
+| PDF | - | RC4 Şifreleme (40/128 Bit) |
 
 Aşağıdaki kod örneği bir parolayla bir belgeyi şifrelemeyi nasıl gösterir:
 

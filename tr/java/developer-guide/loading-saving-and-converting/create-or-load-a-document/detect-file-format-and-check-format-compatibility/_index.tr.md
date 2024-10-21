@@ -48,20 +48,20 @@ Dosyalar uygun alt klasörlere `Move` yöntemini kullanarak `File` sınıfından
 | Group Dosyalar | Giriş belgesi | Tür |
 |  :-  |  :-  |  :-  |
 | Desteklenen dosya biçimleri | Test Dosyası (Doc).doc | Microsoft Word 95/6.0 veya Microsoft Word 97 - 2003 belgesi. |
-| | Test Dosyası (Nokta). dot | Microsoft Word 95/6.0 veya Microsoft Word 97 -2003 şablonu. |
-| | Test Dosyası (Docx). docx | Ofis Open XML, makro içermeyen bir WordprocessingML belgesi. |
-| | Test Dosyası (Docm) docm | Ofis Açık XML WordprocessingML belgesi makrolarla. |
-| | Test Dosyası (Dotx).dotx | WordprocessingML şablonu. |
-| | Test Dosyası (Dotm). dotm | Ofis Open XML WordprocessingML şablonu makrolarla. |
-| | Test Dosyası (XML).xml | FlatOPC OOXML Dokümanı. |
-| | Test Dosyası (RTF).rtf | Zengin Metin Biçimlendirme belgesi. |
-| | Test Dosyası (WordML).xml | Microsoft Word 2003 WordprocessingML belgesi. |
-| | Test Dosyası (HTML).html | HTML belgesi. |
-| | Test Dosyası (MHTML).mhtml | MHTML (Web arşivleri) belgesi. |
-| | Test Dosyası (Odt). odt | Açık Belge Metni (Açık Ofis Yazıcısı). |
-| | Test Dosyası (Ott).ott | Açık Belge Şablonu. |
-| | Test Dosyası (DocPreWord60).doc | Microsoft Word 2.0 belgesi. |
+|  | Test Dosyası (Nokta). dot | Microsoft Word 95/6.0 veya Microsoft Word 97 -2003 şablonu. |
+|  | Test Dosyası (Docx). docx | Ofis Open XML, makro içermeyen bir WordprocessingML belgesi. |
+|  | Test Dosyası (Docm) docm | Ofis Açık XML WordprocessingML belgesi makrolarla. |
+|  | Test Dosyası (Dotx).dotx | WordprocessingML şablonu. |
+|  | Test Dosyası (Dotm). dotm | Ofis Open XML WordprocessingML şablonu makrolarla. |
+|  | Test Dosyası (XML).xml | FlatOPC OOXML Dokümanı. |
+|  | Test Dosyası (RTF).rtf | Zengin Metin Biçimlendirme belgesi. |
+|  | Test Dosyası (WordML).xml | Microsoft Word 2003 WordprocessingML belgesi. |
+|  | Test Dosyası (HTML).html | HTML belgesi. |
+|  | Test Dosyası (MHTML).mhtml | MHTML (Web arşivleri) belgesi. |
+|  | Test Dosyası (Odt). odt | Açık Belge Metni (Açık Ofis Yazıcısı). |
+|  | Test Dosyası (Ott).ott | Açık Belge Şablonu. |
+|  | Test Dosyası (DocPreWord60).doc | Microsoft Word 2.0 belgesi. |
 | Şifreli belgeler | Test Dosyası (Eng).doc | Şifreli Microsoft Word 95/6.0 veya Microsoft Word 97 – 2003 belge. |
-| | Test Dosyası (Eng).docx | Şifreli Office Açık XML İşleme ML belgesi. |
+|  | Test Dosyası (Eng).docx | Şifreli Office Açık XML İşleme ML belgesi. |
 | Desteklenmeyen dosya biçimleri | Test Dosyası (JPG).jpg | JPEG görüntü dosyası. |
 
