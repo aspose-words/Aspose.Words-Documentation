@@ -213,7 +213,7 @@ Aspose.Words mencoba menemukan font TrueType pada sistem file secara otomatis. B
 
 Terdapat beberapa perbedaan pengolahan format font di Aspose.Words dan Microsoft Word seperti terlihat pada tabel di bawah ini:
 
-|| Microsoft Word | Aspose.Words |
+|  | Microsoft Word | Aspose.Words |
 |  :-  |  :-  |  :-  |
 | Font TrueType dan font OpenType dengan kerangka TrueType | Didukung. | Didukung. |
 | Font OpenType dengan kerangka PostScript | Didukung untuk sebagian besar skenario. Penyematan ke format halaman tetap seperti PDF dan XPS tidak didukung. Teks diganti dengan gambar bitmap. | Didukung untuk sebagian besar skenario, termasuk penyematan ke format halaman tetap. |

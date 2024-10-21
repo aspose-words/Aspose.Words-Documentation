@@ -185,7 +185,7 @@ Aspose.Words probeert TrueType lettertypen automatisch op het bestandssysteem te
 
 Er zijn enkele verschillen in de verwerking van lettertype formaten in Aspose.Words en Microsoft Word zoals aangegeven in onderstaande tabel:
 
-|| Microsoft Word | Aspose.Words |
+|  | Microsoft Word | Aspose.Words |
 |  :-  |  :-  |  :-  |
 | TrueType lettertypen en OpenType lettertypen met TrueType contouren | Ondersteund. | Ondersteund. |
 | OpenType lettertypen met PostScript contouren | Voor de meeste scenario's ondersteund. Inbedding naar vaste pagina formaten zoals PDF en XPS worden niet ondersteund. Tekst wordt vervangen door bitmap afbeeldingen. | Ondersteund voor de meeste scenario's, inclusief inbedding naar fixed-page formats. |

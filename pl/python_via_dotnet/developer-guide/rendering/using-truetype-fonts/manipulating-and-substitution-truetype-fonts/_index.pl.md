@@ -185,7 +185,7 @@ Aspose.Words próbuje automatycznie znaleźć czcionki TrueType w systemie plik�
 
 Istnieją pewne różnice w przetwarzaniu formatów czcionek w Aspose.Words i Microsoft Word, jak pokazano w poniższej tabeli:
 
-|| Microsoft Word | Aspose.Words |
+|  | Microsoft Word | Aspose.Words |
 |  :-  |  :-  |  :-  |
 | Czcionki TrueType i czcionki OpenType z konturami TrueType | Utrzymany. | Utrzymany. |
 | Czcionki OpenType z konturami PostScript | Obsługiwane w większości scenariuszy. Osadzanie w formatach o stałej stronie, takich jak PDF i XPS, nie jest obsługiwane. Tekst zostaje zastąpiony obrazami bitmapowymi. | Obsługiwane w większości scenariuszy, w tym osadzaniu w formatach o stałej stronie. |

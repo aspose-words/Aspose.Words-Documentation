@@ -213,7 +213,7 @@ Aspose.Words tenta encontrar fontes TrueType no sistema de arquivos automaticame
 
 Existem algumas diferenças no processamento de formatos de fonte em Aspose.Words e Microsoft Word conforme mostrado na tabela abaixo:
 
-|| Microsoft Word | Aspose.Words |
+|  | Microsoft Word | Aspose.Words |
 |  :-  |  :-  |  :-  |
 | Fontes TrueType e fontes OpenType com contornos TrueType | Suportado. | Suportado. |
 | Fontes OpenType com contornos PostScript | Compatível com a maioria dos cenários. A incorporação em formatos de página fixa, como PDF e XPS, não é suportada. O texto é substituído por imagens bitmap. | Compatível com a maioria dos cenários, incluindo incorporação em formatos de página fixa. |

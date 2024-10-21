@@ -185,7 +185,7 @@ fontSettings.fallback_settings.load_noto_fallback_settings()
 
 توجد بعض الاختلافات في معالجة تنسيقات الخطوط في Aspose.Words وMicrosoft Word كما هو موضح في الجدول أدناه:
 
-|| Microsoft Word | Aspose.Words |
+|  | Microsoft Word | Aspose.Words |
 |  :-  |  :-  |  :-  |
 | خطوط TrueType وخطوط OpenType مع مخططات TrueType | أيد. | أيد. |
 | خطوط OpenType مع مخططات PostScript | مدعومة لمعظم السيناريوهات. التضمين في تنسيقات الصفحات الثابتة مثل PDF وXPS غير مدعوم. يتم استبدال النص بصور نقطية. | مدعوم لمعظم السيناريوهات، بما في ذلك التضمين في تنسيقات الصفحات الثابتة. |

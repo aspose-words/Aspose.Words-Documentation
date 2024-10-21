@@ -48,20 +48,20 @@ Aspose.Words предоставляет возможность получени�
 | Группа файлов | Входной документ | Тип |
 | :- | :- | :- |
 | Поддерживаемые форматы файлов | Test File (DOC).doc | Документ Microsoft Word 95/6.0 или Microsoft Word 97 – 2003. |
-|| Test File (DOT).dot | Шаблон Microsoft Word 95/6.0 или Microsoft Word 97 – 2003. |
-|| Test File (DOCX).docx | Office открывает XML-документ WordprocessingML без макросов. |
-|| Test File (DOCM).docm | Office открывает XML-документ WordprocessingML с макросами. |
-|| Test File (DOTX).dotx | Шаблон Office Open XML WordprocessingML. |
-|| Test File (DOTM).dotm | Office открывает XML-шаблон WordprocessingML с макросами. |
-|| Test File (XML).xml | Документ FlatOPC OOXML. |
-|| Test File (RTF).rtf | Документ в формате Rich Text. |
-|| Test File (WordML).xml | Документ Microsoft Word 2003 WordprocessingML. |
-|| Test File (HTML).html | HTML-документ. |
-|| Test File (MHTML).mhtml | Документ в формате MHTML (веб-архив). |
-|| Test File (ODT).odt | Текст открытого документа (OpenOffice Writer). |
-|| Test File (OTT).ott | Шаблон документа OpenDocument. |
-|| Test File (DocPreWord60).doc | Документ Microsoft Word 2.0. |
+|  | Test File (DOT).dot | Шаблон Microsoft Word 95/6.0 или Microsoft Word 97 – 2003. |
+|  | Test File (DOCX).docx | Office открывает XML-документ WordprocessingML без макросов. |
+|  | Test File (DOCM).docm | Office открывает XML-документ WordprocessingML с макросами. |
+|  | Test File (DOTX).dotx | Шаблон Office Open XML WordprocessingML. |
+|  | Test File (DOTM).dotm | Office открывает XML-шаблон WordprocessingML с макросами. |
+|  | Test File (XML).xml | Документ FlatOPC OOXML. |
+|  | Test File (RTF).rtf | Документ в формате Rich Text. |
+|  | Test File (WordML).xml | Документ Microsoft Word 2003 WordprocessingML. |
+|  | Test File (HTML).html | HTML-документ. |
+|  | Test File (MHTML).mhtml | Документ в формате MHTML (веб-архив). |
+|  | Test File (ODT).odt | Текст открытого документа (OpenOffice Writer). |
+|  | Test File (OTT).ott | Шаблон документа OpenDocument. |
+|  | Test File (DocPreWord60).doc | Документ Microsoft Word 2.0. |
 | Зашифрованные документы | Test File (Enc).doc | Зашифрованный документ Microsoft Word 95/6.0 или Microsoft Word 97 – 2003. |
-|| Test File (Enc).docx | Зашифрованный офисный открытый XML-документ WordprocessingML. |
+|  | Test File (Enc).docx | Зашифрованный офисный открытый XML-документ WordprocessingML. |
 | Неподдерживаемые форматы файлов | Test File (JPG).jpg | Файл изображения в формате JPEG. |
 

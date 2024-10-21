@@ -47,7 +47,7 @@ Tabelul de mai jos enumeră aspectele complet și parțial acceptate:
 
 Tabelul de mai jos prezintă exemple de imagini Aspose.Words Cold Rendering ale unor layout-uri standard comparate cu Microsoft Word ieșire:
 
-|| **Aspose.Words** | **Microsoft Word** |
+|  | **Aspose.Words** | **Microsoft Word** |
 | ----------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Basic Process** | <img src="basic-process-aspose.png" alt="basic_process_aspose"/> | <img src="basic-process-word.png" alt="basic_process_word"/> |
 | **Circular Bending Process** | <img src="circular-bending-process-aspose.png" alt="circular_bending_process_aspose"/> | <img src="circular-bending-process-word.png" alt="circular_bending_process_word"/> |

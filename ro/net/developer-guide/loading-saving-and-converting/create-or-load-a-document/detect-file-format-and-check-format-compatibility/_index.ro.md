@@ -48,20 +48,20 @@ Următoarele fișiere sunt folosite în exemplul de mai sus. Numele fișierului 
 | Group din fișiere | Document de intrare | Tip |
 | :- | :- | :- |
 | Formatelor de fișiere suportate | Test File (Doc).doc | Microsoft Word 95/6.0 sau Microsoft Word 97 - 2003 document. |
-|| Test File (`Dot`).dot | Microsoft Word 95/6.0 sau Microsoft Word 97-2003 șablon. |
-|| Test File (Docx).docx | Office Open XML WordprocessingML document fără macro comenzi. |
-|| Test File (Docm)".docm | Document de procesare a textului Office Open XML cu macro-uri. |
-|| Test File (Dotx).dotx | Office Open XML WordprocessingML șablon. |
-|| Test File (Dotm).dotm | Office Open XML WordprocessingML șablon cu macro-uri. |
-|| Test File (XML).xml | Document FlatOPC OOXML. |
-|| Test File (RTF) | Documente în format RichText. |
-|| Test File (WordML).xml | Microsoft Word 2003 WordprocessingML document. |
-|| Test File (HTML).html | Document HTML. |
-|| Test File (MHTML).mhtml | Document de arhivă web. |
-|| Test File (Odt)".odt | OpenDocument Text (OpenOffice Writer). |
-|| Test fișier (Ott). ott | OpenDocument Template. |
-|| Fișier Test (DocPreWord60). doc | Microsoft Word 2.0 document. |
+|  | Test File (`Dot`).dot | Microsoft Word 95/6.0 sau Microsoft Word 97-2003 șablon. |
+|  | Test File (Docx).docx | Office Open XML WordprocessingML document fără macro comenzi. |
+|  | Test File (Docm)".docm | Document de procesare a textului Office Open XML cu macro-uri. |
+|  | Test File (Dotx).dotx | Office Open XML WordprocessingML șablon. |
+|  | Test File (Dotm).dotm | Office Open XML WordprocessingML șablon cu macro-uri. |
+|  | Test File (XML).xml | Document FlatOPC OOXML. |
+|  | Test File (RTF) | Documente în format RichText. |
+|  | Test File (WordML).xml | Microsoft Word 2003 WordprocessingML document. |
+|  | Test File (HTML).html | Document HTML. |
+|  | Test File (MHTML).mhtml | Document de arhivă web. |
+|  | Test File (Odt)".odt | OpenDocument Text (OpenOffice Writer). |
+|  | Test fișier (Ott). ott | OpenDocument Template. |
+|  | Fișier Test (DocPreWord60). doc | Microsoft Word 2.0 document. |
 | Documente criptate | Test File (Enc). doc | Encryptat Microsoft Word 95/6.0 sau Microsoft Word 97 – 2003 document. |
-|| Test File (Enc).docx | Document Microsoft Office Open XML criptat WordprocessingML. |
+|  | Test File (Enc).docx | Document Microsoft Office Open XML criptat WordprocessingML. |
 | Formate de fişier neacceptate | Test File (JPG).jpg | Fișier imagine JPEG. |
 

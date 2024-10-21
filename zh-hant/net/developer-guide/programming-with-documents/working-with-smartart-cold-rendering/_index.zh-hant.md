@@ -47,7 +47,7 @@ SmartArt 圖形用於快速、輕鬆地建立資訊的視覺化。 「您可以�
 
 「下面的表格示範了 Aspose.Words 冷渲染一些標準 bố置的範例圖片，與 Microsoft Word 的輸出比較：」
 
-|| **Aspose.Words** | **Microsoft Word** |
+|  | **Aspose.Words** | **Microsoft Word** |
 | ----------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Basic Process** | <img src="basic-process-aspose.png" alt="basic_process_aspose"/> | <img src="basic-process-word.png" alt="basic_process_word"/> |
 | **Circular Bending Process** | <img src="circular-bending-process-aspose.png" alt="circular_bending_process_aspose"/> | <img src="circular-bending-process-word.png" alt="circular_bending_process_word"/> |

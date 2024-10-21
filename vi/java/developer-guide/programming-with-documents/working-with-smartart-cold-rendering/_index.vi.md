@@ -45,7 +45,7 @@ Biểu mẫu dưới đây liệt kê các bố cục được hỗ trợ đầy
 
 Bảng dưới đây cho thấy hình ảnh ví dụ của Aspose.Words Render lạnh của một số bố cục tiêu chuẩn so với Microsoft Word đầu ra:
 
-|| **Aspose.Words** | **Microsoft Word** |
+|  | **Aspose.Words** | **Microsoft Word** |
 | ----------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Basic Process** | <img src="basic-process-aspose.png" alt="basic_process_aspose"/> | <img src="basic-process-word.png" alt="basic_process_word"/> |
 | **Circular Bending Process** | <img src="circular-bending-process-aspose.png" alt="circular_bending_process_aspose"/> | <img src="circular-bending-process-word.png" alt="circular_bending_process_word"/> |

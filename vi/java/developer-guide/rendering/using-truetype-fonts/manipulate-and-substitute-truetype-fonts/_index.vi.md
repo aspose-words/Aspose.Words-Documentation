@@ -224,7 +224,7 @@ Aspose.Words thử tìm các phông chữ truetype trong hệ thống tập tin 
 
 Có một số sự khác biệt trong việc xử lý các định dạng phông chữ giữa Aspose.Words và Microsoft Word như thể hiện trong bảng dưới đây:
 
-|| Microsoft Word | Aspose.Words |
+|  | Microsoft Word | Aspose.Words |
 | :- | :- | :- |
 | Phông chữ TrueType và phông chữ OpenType với đường viền TrueType | Được hỗ trợ. | Được hỗ trợ. |
 | Phông chữ OpenType với đường viền PostScript | Hỗ trợ cho hầu hết các tình huống. Nhúng vào định dạng trang cố định như PDF và XPS không được hỗ trợ. Văn bản được thay thế bằng hình ảnh bitmap. | Được hỗ trợ cho hầu hết các tình huống, bao gồm nhúng vào định dạng trang cố định. |
