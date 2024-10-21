@@ -1,4 +1,4 @@
-﻿---
+---
 title: Преобразуйте документ в HTML, MHTML или EPUB
 second_title: Aspose.Words для C++
 articleTitle: Преобразуйте документ в HTML, MHTML или EPUB
