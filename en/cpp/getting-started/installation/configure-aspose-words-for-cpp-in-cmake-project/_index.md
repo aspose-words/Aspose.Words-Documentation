@@ -36,7 +36,7 @@ Follow the instructions below to manually configure Aspose.Words for C++ in your
 
 1. [Download the latest Aspose.Words for C++ package](https://releases.aspose.com/words/cpp/)
 
-2. Copy Aspose.Words.Cpp and `CodePorting.Native`.Cs2Cpp_api_*.* folders where you have CMakeLists.txt
+2. Copy Aspose.Words.Cpp and `CodePorting.Native.Cs2Cpp_api_*.*` folders where you have CMakeLists.txt
 
 3. Add the following lines to you CMakeLists.txt:
 	{{< highlight cpp >}}

@@ -34,17 +34,17 @@ Where &lt;Instance&gt; is the subdirectory name that corresponds to the Microsof
 
 ## Licensing Application Development
 
-Add a reference to Aspose.Words for Reporting Services to your project and Aspose.Words.ReportingServices.dll will be automatically copied to the Bin (binary output) folder of your application.
+Add a reference to Aspose.Words for Reporting Services to your project and `Aspose.Words.ReportingServices.dll` will be automatically copied to the Bin (binary output) folder of your application.
 
 The license can be loaded from a file, stream or an embedded resource. Aspose.Words for Reporting Services will try to find the license in the following locations:
 
 - Explicit path.
-- The folder that contains Aspose.Words.ReportingServices.dll.
-- The folder that contains the assembly that called Aspose.Words.ReportingServices.dll.
+- The folder that contains `Aspose.Words.ReportingServices.dll`.
+- The folder that contains the assembly that called `Aspose.Words.ReportingServices.dll`.
 - The folder that contains the entry assembly (your .exe).
-- An embedded resource in the assembly that called Aspose.Words.ReportingServices.dll.
+- An embedded resource in the assembly that called `Aspose.Words.ReportingServices.dll`.
 
-Use the License.SetLicense method to license the component. The easiest way to set a license is to put the license file in the same folder as the Aspose.Words.ReportingServices.dll and specify just the file name without a path as shown in the following example:
+Use the License.SetLicense method to license the component. The easiest way to set a license is to put the license file in the same folder as the `Aspose.Words.ReportingServices.dll` and specify just the file name without a path as shown in the following example:
 
 **C#**
 
@@ -78,7 +78,7 @@ license.SetLicense(myStream)
 
 ### Deploying a License with Your Application
 
-Distribute the license file in the same folder as Aspose.Words.ReportingServices.dll.
+Distribute the license file in the same folder as `Aspose.Words.ReportingServices.dll`.
 
 ### Licensing Generation of Reports at Design Time
 
@@ -88,7 +88,7 @@ Download the license file and copy it to C:\Program Files\Microsoft Visual Studi
 
 To test that a license has been installed correctly, export any report as a Microsoft Word document. If the document contains no watermark at the top, the license was activated successfully.
 
-**When a valid Aspose.Words.ReportingServices.lic is present in the ReportServer\bin folder, no evaluation watermark is added to the file**
+**When a valid Aspose.Words.ReportingServices.lic is present in the `ReportServer\bin` folder, no evaluation watermark is added to the file**
 
 ![todo:image_alt_text](license-aspose-words-for-reporting-services-1.png)
 

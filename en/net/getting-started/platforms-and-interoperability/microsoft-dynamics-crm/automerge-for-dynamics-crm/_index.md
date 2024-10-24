@@ -62,8 +62,8 @@ You can download the latest solution for Microsoft Dynamics CRM 2015 at:
 
 It is simple to install Aspose .NET AutoMerge. Please follow below Instructions:
 
-- Install Aspose.Words.dll in GAC on the CRM server. 
-  - Open Visual studio command Prompt as administrator and browse to the location of Aspose.words.dll and Write the following command to install the library in GAC. “gacutil -i aspose.words.dll”. 
+- Install `Aspose.Words.dll` in GAC on the CRM server. 
+  - Open Visual studio command Prompt as administrator and browse to the location of `Aspose.Words.dll` and Write the following command to install the library in GAC. “gacutil -i `Aspose.Words.dll`”. 
 
 ![todo:image_alt_text](automerge-for-dynamics-crm_1)
 

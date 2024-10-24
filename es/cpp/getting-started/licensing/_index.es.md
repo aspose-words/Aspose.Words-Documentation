@@ -101,12 +101,12 @@ Una forma ordenada de empaquetar una licencia con su aplicación y asegurarse de
 Supongamos que ha agregado la licencia como recurso, como se muestra a continuación.
 
 ```
-recurso.h
-# definir IDR_ASPOSE_WORDS_LIC 101
+resource.h
+#define IDR_ASPOSE_WORDS_LIC            101
 ```
 
 ```
-recurso.rc
+resource.rc
 IDR_ASPOSE_WORDS_LIC RCDATA "Aspose.Words.Cpp.lic"
 ```
 

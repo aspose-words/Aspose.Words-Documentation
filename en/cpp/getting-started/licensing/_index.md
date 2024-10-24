@@ -59,12 +59,12 @@ After purchasing a license, you need to carefully read the information on page [
 Licenses can be applied from various locations:
 
 * Explicit path
-* The folder containing the `Aspose.Words_`\*.dll  file
-* The folder containing the assembly that called `Aspose.Words_`\*.dll
-* The folder containing the entry assembly (your *.exe*)
-* An embedded resource in the assembly is called `Aspose.Words_`\*.dll
+* The folder containing the `Aspose.Words_\*.dll`  file
+* The folder containing the assembly that called `Aspose.Words_\*.dll`
+* The folder containing the entry assembly (your `.exe`)
+* An embedded resource in the assembly is called `Aspose.Words_\*.dll`
 
-Often the easiest way to set a license is to place the license file in the same folder as `Aspose.Words_`\*.dll and specify just the filename without the path.
+Often the easiest way to set a license is to place the license file in the same folder as `Aspose.Words_\*.dll` and specify just the filename without the path.
 
 {{% alert color="primary" %}}
 

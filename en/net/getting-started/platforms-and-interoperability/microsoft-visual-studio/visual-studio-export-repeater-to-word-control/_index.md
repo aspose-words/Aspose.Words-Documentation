@@ -133,7 +133,7 @@ Common questions and issues you might face while using this Control
 | # | `Question` | Answer |
 | :- | :- | :- |
 | 1 | I cannot see ExportRepeaterToWord control in Toolbox | <p>**Visual Studio 2010 and higher** </p><p>1. Make sure that you have installed this control using VSIX extension file found in downloaded package. To verify go to Tools -> Extension and Updates. Unders Installed you should see 'Aspose Export RepeaterTo Word Control'. If don't see it please try re-installing it</p><p>2. Make sure your web application is running in .NET framework 4.0 or higher, for lower versions of .NET framework please check the above alternate method. <br>   **Older Versions of Visual Studio**</p><p>3. Make sure that you have manually added this control to your Toolbox as per above instructions.</p> |
-| 2 | I am getting 'Access is denied' error when running the application | <p>1. If you are experiencing this problem on production then make sure that you copy both Aspose.Words.dll and Aspose.Words.RepeaterExport.dll to your bin folder.</p><p>2. If you are using Visual Studio make sure to run it as Administrator even if you are already logged-in as administrator.</p> |
+| 2 | I am getting 'Access is denied' error when running the application | <p>1. If you are experiencing this problem on production then make sure that you copy both `Aspose.Words.dll` and Aspose.Words.RepeaterExport.dll to your bin folder.</p><p>2. If you are using Visual Studio make sure to run it as Administrator even if you are already logged-in as administrator.</p> |
 
 ### Aspose .NET Export Repeater To Word Control Properties
 

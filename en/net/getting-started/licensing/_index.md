@@ -60,13 +60,13 @@ After purchasing a license, you need to carefully read the information on page [
 Licenses can be applied from various locations:
 
 * Explicit path
-* The folder containing the *Aspose.Words.dll* file
-* The folder containing the assembly that called *Aspose.Words.dll*
-* The folder containing the entry assembly (your *.exe*)
-* An embedded resource in the assembly is called *Aspose.Words.dll*
+* The folder containing the `Aspose.Words.dll` file
+* The folder containing the assembly that called `Aspose.Words.dll`
+* The folder containing the entry assembly (your `.exe`)
+* An embedded resource in the assembly is called `Aspose.Words.dll`
 * As a Metered License – a new licensing mechanism
 
-When you reference *Aspose.Words.dll* in the application, the library is copied to your output directory (unless *Copy Local* in the properties for that entry is set to false). Often the easiest way to set a license is to place the license file in the same folder as *Aspose.Words.dll* and specify just the filename without the path.
+When you reference `Aspose.Words.dll` in the application, the library is copied to your output directory (unless *Copy Local* in the properties for that entry is set to false). Often the easiest way to set a license is to place the license file in the same folder as `Aspose.Words.dll` and specify just the filename without the path.
 
 {{% alert color="primary" %}}
 
