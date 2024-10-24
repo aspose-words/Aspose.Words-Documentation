@@ -56,7 +56,7 @@ Different Linux distributions may store fonts in different folders. Aspose.Words
 
 #### Where Aspose.Words Looks for TrueType Fonts on Mac OS X
 
-Aspose.Words looks for fonts in the */Library/Fonts* folder, which is the standard location for TrueType fonts on Mac OS X. While this setting will work for you most of the time, you may need to specify your own fonts folders in the case when you need to.
+Aspose.Words looks for fonts in the `/Library/Fonts` folder, which is the standard location for TrueType fonts on Mac OS X. While this setting will work for you most of the time, you may need to specify your own fonts folders in the case when you need to.
 
 ## Loading Fonts from Folder
 
