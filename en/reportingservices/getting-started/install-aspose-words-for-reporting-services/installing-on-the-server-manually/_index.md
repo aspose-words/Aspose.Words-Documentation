@@ -32,15 +32,15 @@ The root directory for Microsoft SQL Server is usually C:\Program Files\Microsof
 - **Microsoft SQL Server 2017** - Report Server is installed in the C:\Program Files\Microsoft SQL Server Reporting Services. directory.
 - **Microsoft SQL Server 2019** - Report Server is installed in the C:\Program Files\Microsoft SQL Server Reporting Services. directory.
 
-## Step 2. Copy Aspose.Words.ReportingServices.dll to the Report Server directory.
+## Step 2. Copy `Aspose.Words.ReportingServices.dll` to the Report Server directory.
 
-Aspose.Words.ReportingServices.zip download contains Bin\SSRS2005, Bin\SSRS2008, Bin\SSRS2012, Bin\SSRS2014, Bin\SSRS2016, Bin\SSRS2017 and Bin\SSRS2019 directories with Aspose.Words.ReportingServices.dll for the corresponding Microsoft SQL Server versions.
+Aspose.Words.ReportingServices.zip download contains Bin\SSRS2005, Bin\SSRS2008, Bin\SSRS2012, Bin\SSRS2014, Bin\SSRS2016, Bin\SSRS2017 and Bin\SSRS2019 directories with `Aspose.Words.ReportingServices.dll` for the corresponding Microsoft SQL Server versions.
 
-Select the appropriate Aspose.Words.ReportingServices.dll and copy it to C:\Program Files\Microsoft SQL Server&#92;&lt;Instance&gt;\Reporting Services\ReportServer\bin folder.
+Select the appropriate `Aspose.Words.ReportingServices.dll` and copy it to C:\Program Files\Microsoft SQL Server&#92;&lt;Instance&gt;\Reporting Services\ReportServer\bin folder.
 
-Note: In some cases, when you copy the DLL to the ReportServer\bin directory, it might be copied together with explicit NTFS file permissions assigned to it. The NTFS permissions might be such that Microsoft SQL Server Reporting Services will be denied access when loading Aspose.Words.ReportingServices.dll and the new export formats will not be available.
+Note: In some cases, when you copy the DLL to the `ReportServer\bin` directory, it might be copied together with explicit NTFS file permissions assigned to it. The NTFS permissions might be such that Microsoft SQL Server Reporting Services will be denied access when loading `Aspose.Words.ReportingServices.dll` and the new export formats will not be available.
 
-To make sure NTFS permissions are correct, right click on Aspose.Words.ReportingServices.dll, click Properties and select the Security tab. Remove any explicitly assigned NTFS permissions and leave only inherited permissions.
+To make sure NTFS permissions are correct, right click on `Aspose.Words.ReportingServices.dll`, click Properties and select the Security tab. Remove any explicitly assigned NTFS permissions and leave only inherited permissions.
 
 ## Step 3. Register Aspose.Words for Reporting Services as a rendering extension.
 

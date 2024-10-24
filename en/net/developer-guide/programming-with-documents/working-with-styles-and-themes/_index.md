@@ -36,7 +36,7 @@ In this sample document, the text formatted with the ‘Heading 1’ paragraph s
 
 ### The Code
 
-The implementation of a style-based query is quite simple in the Aspose.Words document object model, as it simply uses tools that are already in place.Two class methods are implemented for this solution:# **ParagraphsByStyleName** – This method retrieves an array of those paragraphs in the document that have a specific style name.# **RunsByStyleName** – This method retrieves an array of those runs in the document that have a specific style name.Both these methods are very similar, the only differences being the node types and the representation of the style information within the paragraph and run nodes.Here is an implementation of ParagraphsByStyleName : Below example find all paragraphs formatted with the specified style.
+The implementation of a style-based query is quite simple in the Aspose.Words document object model, as it simply uses tools that are already in place.Two class methods are implemented for this solution: **ParagraphsByStyleName** – This method retrieves an array of those paragraphs in the document that have a specific style name. **RunsByStyleName** – This method retrieves an array of those runs in the document that have a specific style name.Both these methods are very similar, the only differences being the node types and the representation of the style information within the paragraph and run nodes.Here is an implementation of ParagraphsByStyleName : Below example find all paragraphs formatted with the specified style.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Styles-ExtractContentBasedOnStyles-ParagraphsByStyleName.cs" >}}
 

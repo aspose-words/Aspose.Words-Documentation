@@ -22,7 +22,7 @@ class ApplyLicense:
     def __init__(self):
         dataDir = Settings.dataDir + 'quickstart/'
 
-        # This line attempts to set a license from several locations relative to the executable and Aspose.Words.dll.
+        # This line attempts to set a license from several locations relative to the executable and `Aspose.Words.dll`.
         # You can also use the additional overload to load a license from a stream, this is useful for instance when the
         # license is stored as an embedded resource
         try:

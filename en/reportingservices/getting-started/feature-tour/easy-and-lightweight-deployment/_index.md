@@ -34,6 +34,6 @@ The MSI installer and the ZIP download include several versions of Aspose.Words 
 
 {{% /alert %}}
 
-**The MSI installer copies Aspose.Words.ReportingServices.dll to the ReportServer\bin directory and registers it in relevant configuration files.**
+**The MSI installer copies `Aspose.Words.ReportingServices.dll` to the `ReportServer\bin` directory and registers it in relevant configuration files.**
 
 ![todo:image_alt_text](easy-and-lightweight-deployment-1.png)

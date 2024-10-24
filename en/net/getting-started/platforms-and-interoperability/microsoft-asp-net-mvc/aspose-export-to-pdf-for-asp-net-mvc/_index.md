@@ -52,13 +52,13 @@ You can download the latest solution for Microsoft Visual Studio at:
 
 ### Test a running demonstration
 
-- Step 1 – Download `Aspose.MVC`.ExportToPDF Project.
-- Step 2 – Open `Aspose.MVC`.ExportToPDF Project
+- Step 1 – Download `Aspose.MVC.ExportToPDF` Project.
+- Step 2 – Open `Aspose.MVC.ExportToPDF` Project
 - Step 3 – Resolve “References” and run the project
 
 ### Embed “Export to PDF” to an Existing Project
 
-- Step 1 – Download `Aspose.MVC`.ExportToPDF Project.
+- Step 1 – Download `Aspose.MVC.ExportToPDF` Project.
 - Step 2 – Open your existing ASP.NET MVC Solution / Project.
 - Step 3 – Copy “Controllers/AsposeExporterController.cs” to your projects “Controllers” folder.
 - Step 4 - Copy “Views/Shared/AsposeWordsExportTypes.cshtml” to your projects “Views/Shared” folder.

@@ -17,7 +17,7 @@ url: /reportingservices/integrating-manually-with-visual-studio-report-designer/
 
 This section describes how to install Aspose.Words for Reporting Services on a computer with Business Intelligence Development Studio. This will enable you to export reports to Microsoft Word documents at design time from the Microsoft Visual Studio 2008, 2010, 2012, 2015, 2017, or 2019 Report Designer.
 
-## Step 1. Copy Aspose.Words.ReportingServices.dll to the Visual Studio directory.
+## Step 1. Copy `Aspose.Words.ReportingServices.dll` to the Visual Studio directory.
 
 - To integrate with Visual Studio 2005 Report Designer, copy `Bin\SSRS2005\Aspose.Words.ReportingServices.dll` to the `C:\Program Files\Microsoft Visual Studio 8\Common7\IDE\PrivateAssemblies` directory.
 - To integrate with Visual Studio 2008 Report Designer, copy `Bin\SSRS2008\Aspose.Words.ReportingServices.dll` to the `C:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies` directory.

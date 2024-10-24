@@ -49,7 +49,7 @@ You can download Aspose .NET Document Generator for CRM from one of the followin
 
 ### How to Install
 
-- Copy Aspose.Words.dll into CRM installation directory under the CRMWeb/Bin folder.
+- Copy `Aspose.Words.dll` into CRM installation directory under the CRMWeb/Bin folder.
 - Download the Solution and place it on your hard disk.
 - Open CRM and go to Import Solution. 
 

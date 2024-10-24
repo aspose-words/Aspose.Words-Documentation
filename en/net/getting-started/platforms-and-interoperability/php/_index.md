@@ -39,8 +39,8 @@ Download required libraries mentioned below. These are the required for executin
 
 - [Download Aspose.Words for .NET (DLL or MSI) files from download section](https://www.aspose.com/community/files/51/.net-components/aspose.words-for-.net/category1188.aspx)
 
-If you download msi version, you will find Aspose.Words.dll in installed location which is C:\Program Files (x86)\Aspose\Aspose.Words for .NET\Bin\net2.0 folder by default.
-However in case you have downloaded DLL version you can extract it and then copy Aspose.Words.dll from .NET 2.0 folder to your c:\temp folder for ease of use.
+If you download msi version, you will find `Aspose.Words.dll` in installed location which is C:\Program Files (x86)\Aspose\Aspose.Words for .NET\Bin\net2.0 folder by default.
+However in case you have downloaded DLL version you can extract it and then copy `Aspose.Words.dll` from .NET 2.0 folder to your c:\temp folder for ease of use.
 
 ### Download Examples from Social Coding Sites
 
@@ -51,10 +51,10 @@ Following releases of running examples are available to download on below mentio
 
 Please follow these simple steps in order to open and extend the source code while using:
 
-1. Register dll files e.g. Aspose.Words.dll.
+1. Register dll files e.g. `Aspose.Words.dll`.
 
 {{< highlight csharp >}}
-Register dll files e.g. Aspose.Words.dll.
+Register dll files e.g. `Aspose.Words.dll`.
 C:\Windows\Microsoft.NET\Framework\v2.0.50727>regasm c:\words\Aspose.Words.dll /codebase
 Microsoft (R) .NET Framework Assembly Registration Utility 2.0.50727.7905
 Copyright (C) Microsoft Corporation 1998-2004. All rights reserved.

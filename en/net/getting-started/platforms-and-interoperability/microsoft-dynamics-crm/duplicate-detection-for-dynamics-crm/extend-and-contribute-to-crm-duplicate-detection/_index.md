@@ -13,7 +13,7 @@ You can download the latest source code at:
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Dynamics%20CRM/Aspose.DuplicateDocument)
 
-In this scenario we have used Aspose.Words.dll to generate document from a template. We have defined a custom workflow assembly that can be used with Workflows and Dialogs in CRM.
+In this scenario we have used `Aspose.Words.dll` to generate document from a template. We have defined a custom workflow assembly that can be used with Workflows and Dialogs in CRM.
 
 {{< highlight csharp >}}
 Document Result = new Document();
