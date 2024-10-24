@@ -101,13 +101,13 @@ Une bonne façon d'emballer une licence avec votre application et de vous assure
 Supposons que vous ayez ajouté la licence en tant que ressource comme indiqué ci-dessous.
 
 ```
-ressource.h
-# définir IDR_ASPOSE_WORDS_LIC 101
+resource.h
+#define IDR_ASPOSE_WORDS_LIC            101
 ```
 
 ```
-ressource.rc
-IDR_ASPOSE_MOTS_LIC RCDONNÉES " Aspose.Words.Cpp.sic"
+resource.rc
+IDR_ASPOSE_WORDS_LIC RCDATA "Aspose.Words.Cpp.lic"
 ```
 
 {{% alert color="primary" %}}

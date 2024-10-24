@@ -101,12 +101,12 @@ Aspose.Words - это невероятное программное обеспе
 Предположим, вы добавили лицензию в качестве ресурса, как показано ниже.
 
 ```
-ресурс.h
-#определить IDR_ASPOSE_WORDS_LIC 101
+resource.h
+#define IDR_ASPOSE_WORDS_LIC            101
 ```
 
 ```
-ресурс.rc
+resource.rc
 IDR_ASPOSE_WORDS_LIC RCDATA "Aspose.Words.Cpp.lic"
 ```
 
