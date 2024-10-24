@@ -43,22 +43,22 @@ Phụ thuộc vào định dạng tệp đầu ra, bảng sau liệt kê các c�
 | `HtmlFixed` | `<meta name="generator" content="Aspose.Words cho Java Y.M.N" /> `<br />`Ví dụ:<br />`meta name="generator" content="Aspose.Words cho Java 24.1.0" />` | Tập tin HTML chứa thẻ này. Anh có thể mở nó trong Notepad để xem. |
 | `OpenXps` | <!-- Sinh ra bởi Aspose.Words cho Java YY.M.N --> <br /> Ví dụ, <br /> <!-- Sinh ra bởi Aspose.Words cho Java 24.1.0 --> | Đổi tên tệp thành .zip. Chiết xuất ZIP. Trong OpenXps, nhận xét này có thể được tìm thấy trong ~/Documents/1/Pages/1.epage |
 | `Ps` | Tạo bởi Aspose.Words cho Java.YY.M.N"<br />Ví dụ," "<br />"Tạo bởi Aspose.Words cho Java 24.1.0" | .ps file chứa bình luận này Bạn mở nó trong Notepad để xem chú thích này. |
-| `Pcl` |–|–|
+| `Pcl` | – | – |
 | `Html` | <meta name="generator" content="Aspose.Words cho Java Y.Y.M" /> <br /> Ví dụ như, <br /> "meta name="generator" content="Aspose.Words cho Java 24.1.0" /> | Tập tin HTML chứa thẻ này. Bạn có thể mở nó trong Notepad để xem. |
 | `Mhtml` | <meta name="generator" content="Aspose.Words cho JavaYY.M.N"/>'" <br /> "Ví dụ:<br />" meta name="generator" content="Aspose.Words cho Java 24.1.0"/> | Tập tin MHTML chứa thẻ này. Bạn có thể mở nó trong Notepad để xem. |
 | `Epub` | <meta name="generator" content="Aspose.Words cho JavaYY.M.N" /> <br /> Ví dụ như <br />" meta name="generator" content="Aspose.Words cho Java 24.1.0" /> | Đổi tên tập tin thành .zip Chiết xuất thành ZIP.  |
 | `Odt` | <!-- Sinh ra bởi Aspose.Words cho Java YY.M.N --> "<br />"Ví dụ, '<br />'<!-- Sinh ra bởi Aspose.Words cho Java 24.1.0 --> | Đổi tên tệp thành .zip. Chiết xuất ZIP. Kiểm tra nó trong ~/content.xml |
 | `Ott` | <!-- Sinh ra bởi Aspose.Words cho Java YY.M.N -->" <br /> "Ví dụ," "<br />"<!-- Sinh ra bởi Aspose.Words cho Java 24.1.0 --> | "Đổi tên tập tin thành .zip." Giải nén tệp ZIP. Kiểm tra nó trong ~/content.xml |
-| `Text` |–|–|
+| `Text` | – | – |
 | `XamlFlow` | <!-- Sinh ra bởi Aspose.Words cho Java YY.M.N --> <br />Ví dụ, <br /><!-- Sinh ra bởi Aspose.Words cho Java 24.1.0 --> | .xml file chứa chú thích này. Bạn có thể mở nó trong Notepad để thấy nhận xét này. |
 | `XamlFlowPack` | <!-- Sinh ra bởi Aspose.Words cho Java YY.M.N --> <br />Ví dụ, <br /> <!-- Sinh ra bởi Aspose.Words cho Java 24.1.0 --> | .xml file chứa chú thích này. Bạn có thể mở nó trong Notepad để thấy chú thích này. |
-| `Markdown` |–|–|
-| `Tiff` |–|–|
-| `Png` |–|–|
-| `Bmp` |–|–|
-| `Emf` |–|–|
-| `Jpeg` |–|–|
-| `Gif` |–|–|
+| `Markdown` | – | – |
+| `Tiff` | – | – |
+| `Png` | – | – |
+| `Bmp` | – | – |
+| `Emf` | – | – |
+| `Jpeg` | – | – |
+| `Gif` | – | – |
 
 {{% alert color="primary" %}}
 

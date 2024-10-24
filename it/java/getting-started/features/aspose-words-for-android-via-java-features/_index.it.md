@@ -15,7 +15,7 @@ Questa sezione fornisce un confronto di disponibilità di caratteristiche tra As
 
 ### Formati di file e conversioni
 
-|  Caratteristica | Designazione | Aspose.Words per Java | Aspose.Words per Android via Java |
+|  Caratteristica|Designazione | Aspose.Words per Java | Aspose.Words per Android via Java |
 |  :-  |  :-  |  :-  |  :-  |
 | Conversioni ad alta qualità | Rapidamente e in modo affidabile, convertire tra diversi formati di documenti popolari. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Microsoft Word (DOC) | La più veloce e completa applicazione del formato DOC è possibile trovare. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |

@@ -213,7 +213,7 @@ Aspose.Words は、ファイル システム上で TrueType フォントを自�
 
 以下の表に示すように、Aspose.Words と Microsoft Word ではフォント形式の処理にいくつかの違いがあります。
 
-|| Microsoft Word | Aspose.Words |
+|  | Microsoft Word | Aspose.Words |
 |  :-  |  :-  |  :-  |
 | TrueType フォントおよび TrueType アウトラインを備えた OpenType フォント | サポートされています。 | サポートされています。 |
 | PostScript アウトラインを備えた OpenType フォント | ほとんどのシナリオでサポートされています。 PDF や XPS などの固定ページ形式への埋め込みはサポートされていません。テキストはビットマップ画像に置き換えられます。 | 固定ページ形式への埋め込みなど、ほとんどのシナリオでサポートされています。 |

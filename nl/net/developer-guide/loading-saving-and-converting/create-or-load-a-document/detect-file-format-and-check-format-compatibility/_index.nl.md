@@ -48,20 +48,20 @@ De volgende bestanden worden gebruikt in het voorbeeld hierboven. De bestandsnaa
 | Group van bestanden | Invoerdocument | Type |
 |  :-  |  :-  |  :-  |
 | Ondersteunde bestandsformaten | Testbestand (doc.doc) | Microsoft Word 95/6 of Microsoft Word 97 Document 2003. |
-| | Testbestand (`Dot`).dot | Microsoft Word 95/6 of Microsoft Word 97 Model 2003. |
-| | Testbestand (Docx).docx | Office Open XML Wordprocessing ML-document zonder macros. |
-| | Testbestand (Docm).docm | Office Open XML Wordprocessing ML-document met macros. |
-| | Testbestand (Dotx).dotx | Office Open XML Wordprocessing ML template. |
-| | Testbestand (Dotm).dotm | Office Open XML Wordprocessing ML template met macro's. |
-| | Testbestand (XML).xml | FlatOPC OOXML Document. |
-| | Testbestand (RTF).rtf | Rich Text Format document. |
-| | Testbestand (WordML).xml | Microsoft Word 2003 tekstverwerking ML document. |
-| | Testbestand (HTML).html | HTML-document. |
-| | Testbestand (MHTML).mhtml | MHTML (Webarchief) document. |
-| | Testbestand (Odt).odt | OpenDocument Tekst (OpenOffice Writer). |
-| | Testbestand (Ott).ott | OpenDocument Document Sjabloon. |
-| | Testbestand (DocPreWord60).doc | Microsoft Word 2.0 document. |
+|  | Testbestand (`Dot`).dot | Microsoft Word 95/6 of Microsoft Word 97 Model 2003. |
+|  | Testbestand (Docx).docx | Office Open XML Wordprocessing ML-document zonder macros. |
+|  | Testbestand (Docm).docm | Office Open XML Wordprocessing ML-document met macros. |
+|  | Testbestand (Dotx).dotx | Office Open XML Wordprocessing ML template. |
+|  | Testbestand (Dotm).dotm | Office Open XML Wordprocessing ML template met macro's. |
+|  | Testbestand (XML).xml | FlatOPC OOXML Document. |
+|  | Testbestand (RTF).rtf | Rich Text Format document. |
+|  | Testbestand (WordML).xml | Microsoft Word 2003 tekstverwerking ML document. |
+|  | Testbestand (HTML).html | HTML-document. |
+|  | Testbestand (MHTML).mhtml | MHTML (Webarchief) document. |
+|  | Testbestand (Odt).odt | OpenDocument Tekst (OpenOffice Writer). |
+|  | Testbestand (Ott).ott | OpenDocument Document Sjabloon. |
+|  | Testbestand (DocPreWord60).doc | Microsoft Word 2.0 document. |
 | Versleutelde documenten | Testbestand (Enc).doc | Versleuteld Microsoft Word 95/6 of Microsoft Word 97 Document 2003. |
-| | Testbestand (Enc).docx | Versleuteld kantoor Open XML Wordprocessing ML document. |
+|  | Testbestand (Enc).docx | Versleuteld kantoor Open XML Wordprocessing ML document. |
 | Niet ondersteunde bestandsformaten | Testbestand (JPG). jpg | JPEG-imagebestand. |
 

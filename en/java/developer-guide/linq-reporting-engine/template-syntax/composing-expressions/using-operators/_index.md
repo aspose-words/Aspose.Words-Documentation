@@ -23,7 +23,7 @@ The following table contains predefined operators that LINQ Reporting Engine ena
 		</tr>
 		<tr>
 			<td>Binary</td>
-			<td>*  /  %  +  -  <<  >>  <  >  <=  >=  ==  !=  &amp;  ^  |  &amp;&amp;  ||  ??</td>
+			<td>*  /  %  +  -  <<  >>  <  >  <=  >=  ==  !=  &amp;  ^  |  &amp;&amp;  |  |  ??</td>
 		</tr>
 		<tr>
 			<td>Ternary</td>

@@ -11,24 +11,24 @@ url: /sharepoint/installing-aspose-words-for-sharepoint/
 
 Aspose.Words for SharePoint is downloadable as Aspose.Words.SharePoint.zip archive. This archive contains the following files:
 
-| File |Description|
+| File | Description |
 | :- | :- |
-|Aspose.Words.SharePoint.2007.wsp|SharePoint 2007/3.0 solution file. Aspose.Words for SharePoint is packaged as a SharePoint solution to facilitate deployment/retraction and feature activation/deactivation across the server farm.|
-|Aspose.Words.SharePoint.2010.wsp|A solution file for SharePoint 2010. The setup program automatically detects the installed SharePoint version and uses an appropriate solution file.|
-|Aspose.Words.SharePoint.2013.wsp|A solution file for SharePoint 2013|
-|Aspose.Words.SharePoint.2016.wsp|A solution file for SharePoint Server 2016|
-|End User License Agreement.html|End user license agreement|
-|Aspose.Words for SharePoint API Reference.chm|User documentation and API reference in the hypertext format|
-|setup.2007.exe|Setup program for SharePoint 2007/3.0|
-|setup.2007.exe.config|Setup configuration file for SharePoint 2007/3.0|
-|setup.2010.exe|Setup program for SharePoint 2010|
-|setup.2010.exe.config|Setup configuration file for SharePoint 2010|
-|setup.2013.exe|Setup program for SharePoint 2013|
-|setup.2013.exe.config|Setup configuration file for SharePoint 2013|
-|setup.2016.exe|Setup program for SharePoint Server 2016|
-|setup.2016.exe.config|Setup configuration file for SharePoint Server 2016|
-|Report.xsd|Report definition schema file|
-|DataSource.xsd|Data source definition schema file|
+| Aspose.Words.SharePoint.2007.wsp | SharePoint 2007/3.0 solution file. Aspose.Words for SharePoint is packaged as a SharePoint solution to facilitate deployment/retraction and feature activation/deactivation across the server farm. |
+| Aspose.Words.SharePoint.2010.wsp | A solution file for SharePoint 2010. The setup program automatically detects the installed SharePoint version and uses an appropriate solution file. |
+| Aspose.Words.SharePoint.2013.wsp | A solution file for SharePoint 2013 |
+| Aspose.Words.SharePoint.2016.wsp | A solution file for SharePoint Server 2016 |
+| End User License Agreement.html | End user license agreement |
+| Aspose.Words for SharePoint API Reference.chm | User documentation and API reference in the hypertext format |
+| setup.2007.exe | Setup program for SharePoint 2007/3.0 |
+| setup.2007.exe.config | Setup configuration file for SharePoint 2007/3.0 |
+| setup.2010.exe | Setup program for SharePoint 2010 |
+| setup.2010.exe.config | Setup configuration file for SharePoint 2010 |
+| setup.2013.exe | Setup program for SharePoint 2013 |
+| setup.2013.exe.config | Setup configuration file for SharePoint 2013 |
+| setup.2016.exe | Setup program for SharePoint Server 2016 |
+| setup.2016.exe.config | Setup configuration file for SharePoint Server 2016 |
+| Report.xsd | Report definition schema file |
+| DataSource.xsd | Data source definition schema file |
 
 ## Installation Process
 

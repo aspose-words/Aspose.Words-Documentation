@@ -45,23 +45,23 @@ The files are moved into appropriate subfolders using the `Move` method of the `
 
 The following files are used in the example above. The file name is on the left and its description is on the right:
 
-|Group of Files|Input Document|Type|
+| Group of Files | Input Document | Type |
 | :- | :- | :- |
-|Supported file formats|Test File (DOC).doc|Microsoft Word 95/6.0 or Microsoft Word 97 – 2003 document.|
-| |Test File (DOT).dot|Microsoft Word 95/6.0 or Microsoft Word 97 – 2003 template.|
-| |Test File (DOCX).docx|Office Open XML WordprocessingML document without macros.|
-| |Test File (DOCM).docm|Office Open XML WordprocessingML document with macros.|
-| |Test File (DOTX).dotx|Office Open XML WordprocessingML template.|
-| |Test File (DOTM).dotm|Office Open XML WordprocessingML template with macros.|
-| |Test File (XML).xml|FlatOPC OOXML Document.|
-| |Test File (RTF).rtf|Rich Text Format document.|
-| |Test File (WordML).xml|Microsoft Word 2003 WordprocessingML document.|
-| |Test File (HTML).html|HTML document.|
-| |Test File (MHTML).mhtml|MHTML (Web archive) document.|
-| |Test File (ODT).odt|OpenDocument Text (OpenOffice Writer).|
-| |Test File (OTT).ott|OpenDocument Document Template.|
-| |Test File (DocPreWord60).doc|Microsoft Word 2.0 document.|
-|Encrypted documents|Test File (Enc).doc|Encrypted Microsoft Word 95/6.0 or Microsoft Word 97 – 2003 document.|
-| |Test File (Enc).docx|Encrypted Office Open XML WordprocessingML document.|
-|Unsupported file formats|Test File (JPG).jpg|JPEG image file.|
+| Supported file formats | Test File (DOC).doc | Microsoft Word 95/6.0 or Microsoft Word 97 – 2003 document. |
+|  | Test File (DOT).dot | Microsoft Word 95/6.0 or Microsoft Word 97 – 2003 template. |
+|  | Test File (DOCX).docx | Office Open XML WordprocessingML document without macros. |
+|  | Test File (DOCM).docm | Office Open XML WordprocessingML document with macros. |
+|  | Test File (DOTX).dotx | Office Open XML WordprocessingML template. |
+|  | Test File (DOTM).dotm | Office Open XML WordprocessingML template with macros. |
+|  | Test File (XML).xml | FlatOPC OOXML Document. |
+|  | Test File (RTF).rtf | Rich Text Format document. |
+|  | Test File (WordML).xml | Microsoft Word 2003 WordprocessingML document. |
+|  | Test File (HTML).html | HTML document. |
+|  | Test File (MHTML).mhtml | MHTML (Web archive) document. |
+|  | Test File (ODT).odt | OpenDocument Text (OpenOffice Writer). |
+|  | Test File (OTT).ott | OpenDocument Document Template. |
+|  | Test File (DocPreWord60).doc | Microsoft Word 2.0 document. |
+| Encrypted documents | Test File (Enc).doc | Encrypted Microsoft Word 95/6.0 or Microsoft Word 97 – 2003 document. |
+|  | Test File (Enc).docx | Encrypted Office Open XML WordprocessingML document. |
+| Unsupported file formats | Test File (JPG).jpg | JPEG image file. |
 

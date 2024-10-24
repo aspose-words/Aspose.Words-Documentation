@@ -48,20 +48,20 @@ url: /ar/python-net/detect-file-format-and-check-format-compatibility/
 | Group للملفات | مستند الإدخال | يكتب |
 |  :-  |  :-  |  :-  |
 | تنسيقات الملفات المدعومة | ملف الاختبار (Doc).doc | مستند Microsoft Word 95/6.0 أو Microsoft Word 97 – 2003. |
-| | ملف الاختبار (`Dot`).dot | قالب Microsoft Word 95/6.0 أو Microsoft Word 97 – 2003. |
-| | ملف الاختبار (Docx).docx | مستند Office Open XML WordprocessingML بدون وحدات ماكرو. |
-| | ملف الاختبار (Docm).docm | مستند Office Open XML WordprocessingML مع وحدات الماكرو. |
-| | ملف الاختبار (دوتكس).dotx | قالب Office Open XML لمعالجة النصوص ML. |
-| | ملف الاختبار (Dotm).dotm | قالب Office Open XML WordprocessingML مع وحدات الماكرو. |
-| | ملف الاختبار (XML).xml | مستند FlatOPC OOXML. |
-| | ملف الاختبار (RTF).rtf | مستند بتنسيق نص منسق. |
-| | ملف الاختبار (WordML).xml | مستند Microsoft Word 2003 لمعالجة الكلمات ML. |
-| | ملف الاختبار (HTML).html | وثيقة HTML. |
-| | ملف الاختبار (MHTML).mhtml | وثيقة MHTML (أرشيف الويب). |
-| | ملف الاختبار (Odt).odt | نص OpenDocument (كاتب OpenOffice). |
-| | ملف الاختبار (أوت).ott | قالب مستند OpenDocument. |
-| | ملف الاختبار (DocPreWord60).doc | Microsoft Word مستند 2.0. |
+|  | ملف الاختبار (`Dot`).dot | قالب Microsoft Word 95/6.0 أو Microsoft Word 97 – 2003. |
+|  | ملف الاختبار (Docx).docx | مستند Office Open XML WordprocessingML بدون وحدات ماكرو. |
+|  | ملف الاختبار (Docm).docm | مستند Office Open XML WordprocessingML مع وحدات الماكرو. |
+|  | ملف الاختبار (دوتكس).dotx | قالب Office Open XML لمعالجة النصوص ML. |
+|  | ملف الاختبار (Dotm).dotm | قالب Office Open XML WordprocessingML مع وحدات الماكرو. |
+|  | ملف الاختبار (XML).xml | مستند FlatOPC OOXML. |
+|  | ملف الاختبار (RTF).rtf | مستند بتنسيق نص منسق. |
+|  | ملف الاختبار (WordML).xml | مستند Microsoft Word 2003 لمعالجة الكلمات ML. |
+|  | ملف الاختبار (HTML).html | وثيقة HTML. |
+|  | ملف الاختبار (MHTML).mhtml | وثيقة MHTML (أرشيف الويب). |
+|  | ملف الاختبار (Odt).odt | نص OpenDocument (كاتب OpenOffice). |
+|  | ملف الاختبار (أوت).ott | قالب مستند OpenDocument. |
+|  | ملف الاختبار (DocPreWord60).doc | Microsoft Word مستند 2.0. |
 | المستندات المشفرة | ملف الاختبار (Enc).doc | مستند Microsoft Word 95/6.0 أو Microsoft Word 97 – 2003 مشفر. |
-| | ملف الاختبار (Enc).docx | مستند مشفر لـ Office Open XML WordprocessingML. |
+|  | ملف الاختبار (Enc).docx | مستند مشفر لـ Office Open XML WordprocessingML. |
 | تنسيقات الملفات غير المدعومة | ملف الاختبار (JPG).jpg | ملف صورة JPEG. |
 

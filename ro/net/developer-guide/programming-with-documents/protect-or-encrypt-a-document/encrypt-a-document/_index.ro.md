@@ -36,7 +36,7 @@ Tabelul de mai jos prezintă formatul și algoritmii de criptare acceptați de A
 | DOC, DOT | XOR criptare40-bit RC4 CriptareCryptoAPI RC4 Criptare | RC4 Cryptare (40-biți) |
 | DOCX, DOTX, DOCM, DOTM, FlatOPC, FlatOpcTemplate, FlatOpcMacroEnabled, FlatOpcTemplateMacroEnabled | ECMA-376 Standard CriptareECMA-376 Criptare Agilă | Standardul de criptare ECMA-376 (AES128 + SHA1) |
 | ODT, OTH | ODF Encryption (Blowfish/AES) | ODF Criptare (AES256 + SHA256) |
-| PDF |-| RC4 criptare (40/128 biți) |
+| PDF | - | RC4 criptare (40/128 biți) |
 
 Exemplul de cod următor arată cum se criptează un document cu o parolă:
 

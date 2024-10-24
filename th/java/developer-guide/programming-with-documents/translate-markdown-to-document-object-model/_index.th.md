@@ -36,24 +36,24 @@ url: /th/java/translate-markdown-to-document-object-model/
 |  Markdown คุณสมบัติ |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |
 |  **Bold**<br/>`{1}` |  `Font.Bold = true`  |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-BoldText.java" >}}  ||
+|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-BoldText.java" >}}  |  |
 |  **Italic**<br/>`*italic text*` |  `Font.Italic = true`  |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-ItalicText.java" >}}  ||
+|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-ItalicText.java" >}}  |  |
 |  **Strikethrough**<br/>`~Strikethrough text~` |  `Font.StrikeThrough = true`  |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Strikethrough.java" >}}  ||
+|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Strikethrough.java" >}}  |  |
 
 We use a mode play with a name that start from the word We use language we use a languages with a names from the word <span notrans="<span notrans=" `InlineCode`"=""></span>'"> ตามด้วยจุดทางเลือก `(.)` และเป็นกลุ่มชนจํานวนน้อย ```(`)``` สําหรับ `InlineCode` โดดเด่น หากไม่มีการใช้งานแบ็คติกอยู่จํานวนหนึ่ง จะเป็นการโดยปริยายแทน
 
 |  Markdown คุณสมบัติ |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |
 |  **InlineCode**<br/>`{1}` |  `Font.StyleName = “InlineCode[.][N]”`  |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-InlineCode.java" >}}  ||
+|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-InlineCode.java" >}}  |  |
 |  **Autolink**<br/>`<scheme://domain.com>`<br/>`<email@domain.com>` |  เดอะ [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/) ชั้นเรียน |
-|     {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Autolink.java" >}}  ||
+|     {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Autolink.java" >}}  |  |
 |  **Link**<br/>`{1}`<br/>`{2}`<br/>`{3}`<br/>`{4})` |  เดอะ [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/) ชั้นเรียน |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Link.java" >}}  ||
+|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Link.java" >}}  |  |
 |  **Image**<br/>`{1}`<br/>`{2}`<br/>`{3}`<br/>`{4})` |  เดอะ [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) ชั้นเรียน |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Image.java" >}}  ||
+|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Image.java" >}}  |  |
 
 ## ตัวบรรจุบล็อก
 
@@ -99,7 +99,7 @@ Aspose.Words ยังอนุญาตให้แปลตารางเป�
 
 |  Markdown คุณสมบัติ |   Aspose.Words                                                  |
 |  ----------------------------------------  |  ------------------------------------------------------------  |
-|  `Table`<br/>อะ | b`<br />`- | -`<br />`c | _ ' |  [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [Row](https://reference.aspose.com/words/java/com.aspose.words/row/) ถึง [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/) ชั้นเรียน |
+|  `Table`<br/>อะ | b`<br />`-|-`<br />`c | _ ' |  [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [Row](https://reference.aspose.com/words/java/com.aspose.words/row/) ถึง [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/) ชั้นเรียน |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Table.java" >}}  |                                                                |
 
 ## ดูด้วย

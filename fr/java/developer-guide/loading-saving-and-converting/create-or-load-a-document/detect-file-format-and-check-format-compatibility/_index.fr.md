@@ -48,20 +48,20 @@ Les fichiers suivants sont utilisés dans l'exemple ci-dessus. Le nom du fichier
 | Group des fichiers | Document d'entrée | Type |
 |  :-  |  :-  |  :-  |
 | Formats de fichiers pris en charge | Dossier d'essai (Doc.doc) | Microsoft Word 95/6.0 ou Microsoft Word 97 – Document de 2003. |
-| | Fichier de test (Dot).dot | Microsoft Word 95/6.0 ou Microsoft Word Modèle 97 – 2003. |
-| | Fichier d'essai (Docx).docx | Bureau Open XML Traitement de texte Document ML sans macros. |
-| | Dossier d'essai (docm).docm | Bureau Open XML Traitement de texte Document ML avec macros. |
-| | Fichier de test (Dotx).dotx | Bureau Open XML Traitement de texte Modèle ML. |
-| | Fichier de test (Dotm).dotm | Bureau Open XML Traitement de texte Modèle ML avec macros. |
-| | Fichier de test (XML).xml | Document FlatOPC OOXML. |
-| | Fichier d'essai (RTF).rtf | Document en format texte riche. |
-| | Fichier d'essai (WordML).xml | Microsoft Word Traitement de texte 2003 Document ML. |
-| | Fichier d'essai (HTML).html | Document HTML. |
-| | Fichier de test (HTML).mhtml | Document MHTML (archive Web). |
-| | Fichier d'essai (Odt).odt | OpenDocument Text (OpenOffice Writer). |
-| | Fichier de test (Ott).ott | Modèle de document OpenDocument. |
-| | Dossier d'essai (DocPreWord60).doc | Microsoft Word 2.0 document. |
+|  | Fichier de test (Dot).dot | Microsoft Word 95/6.0 ou Microsoft Word Modèle 97 – 2003. |
+|  | Fichier d'essai (Docx).docx | Bureau Open XML Traitement de texte Document ML sans macros. |
+|  | Dossier d'essai (docm).docm | Bureau Open XML Traitement de texte Document ML avec macros. |
+|  | Fichier de test (Dotx).dotx | Bureau Open XML Traitement de texte Modèle ML. |
+|  | Fichier de test (Dotm).dotm | Bureau Open XML Traitement de texte Modèle ML avec macros. |
+|  | Fichier de test (XML).xml | Document FlatOPC OOXML. |
+|  | Fichier d'essai (RTF).rtf | Document en format texte riche. |
+|  | Fichier d'essai (WordML).xml | Microsoft Word Traitement de texte 2003 Document ML. |
+|  | Fichier d'essai (HTML).html | Document HTML. |
+|  | Fichier de test (HTML).mhtml | Document MHTML (archive Web). |
+|  | Fichier d'essai (Odt).odt | OpenDocument Text (OpenOffice Writer). |
+|  | Fichier de test (Ott).ott | Modèle de document OpenDocument. |
+|  | Dossier d'essai (DocPreWord60).doc | Microsoft Word 2.0 document. |
 | Documents chiffrés | Fichier d'essai (Enc.doc) | Chiffres Microsoft Word 95/6.0 ou Microsoft Word 97 – Document de 2003. |
-| | Fichier d'essai (Enc).docx | Bureau chiffré Open XML Word Processing Document ML. |
+|  | Fichier d'essai (Enc).docx | Bureau chiffré Open XML Word Processing Document ML. |
 | Formats de fichiers non pris en charge | Fichier d'essai (JPG). Jpg | Fichier image JPEG. |
 

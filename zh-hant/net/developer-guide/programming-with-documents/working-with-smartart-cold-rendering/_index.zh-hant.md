@@ -37,17 +37,17 @@ SmartArt 圖形用於快速、輕鬆地建立資訊的視覺化。 「您可以�
 | ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | `List` | <ul><li>基本塊清單</li> <li>交替六邊形</li> <li>垂直標記清單</li> <li>垂直方塊清單</li> <li>變化寬度清單</li> <li>水平標記清單</li> <li>分组清单</li> <li>垂直块清单</li> <li>垂直 Chevron 清单</li> <li>垂直箭头清单</li> <li>梯形清单</li> <li>表格清单</li> <li>金字塔清单</li> <li>目标清单"</li></ul> | <ul><li>有序列表</li> <li>垂直括號列表</li> <li>標籤列表</li> <li>堆疊列表</li> <li>垂直強調列表</li> <li>垂直圓圈列表</li></ul> |
 | `Process` | <ul><li>基本過程</li> <li>強調過程</li> <li>連續塊過程</li> <li>增量箭號過程</li> <li>收斂文字</li> <li>基本時間軸</li> <li>基本契點過程</li> <li>契點強調過程</li> <li>閉合契點過程</li> <li>契點清單</li> <li>垂直過程</li> <li>錯序過程</li> <li>過程清單</li> <li>基本彎曲過程</li> <li>重複彎曲過程</li> <li>詳細過程</li> <li>向上箭號</li> <li>向下過程</li> <li>圓角彎曲過程</li></ul> | <ul><li>步驟上升過程</li> <li>步驟下降過程</li> <li>交互式流</li> <li>漸進式圓環過程</li> <li>披薩過程</li> <li>相互連接塊體過程</li> <li>流程箭頭</li> <li>圓圈重點時間軸</li> <li>圓圈過程</li> <li>子步驟過程</li> <li>分階段過程</li> <li>隨機結果過程</li> <li>圓圈箭頭過程</li></ul> |
-| `Cycle` |–| <ul><li>分段循環</li> <li>六角形線條</li></ul> |
-| `Hierarchy` |–| <ul><li>表格階層</li><li>架構布局</li></ul> |
+| `Cycle` | – | <ul><li>分段循環</li> <li>六角形線條</li></ul> |
+| `Hierarchy` | – | <ul><li>表格階層</li><li>架構布局</li></ul> |
 | `Relationship` | <ul><li>平衡</li><li>漏斗</li><li>齿轮</li><li>加減</li><li>箭形卷轴</li><li>平衡箭頭</li><li>對立箭頭</li><li>嵌套目標</li><li>基本目標</li><li>基本比薩</li><li>基本文森</li><li>堆疊式文森</li><li>相互環形</li></ul> | <ul><li>圓圈關係</li> <li>對立想法</li> <li>方程式</li> <li>垂直方程式</li> <li>線式 Venn</li></ul> |
-| `Matrix` | <ul><li>基本矩陣</li><li>標題矩陣</li><li>網格矩陣</li><li>循環矩陣</li></ul> |–|
-| `Pyramid` |–| <ul><li>分段金字塔</li></ul> |
+| `Matrix` | <ul><li>基本矩陣</li><li>標題矩陣</li><li>網格矩陣</li><li>循環矩陣</li></ul> | – |
+| `Pyramid` | – | <ul><li>分段金字塔</li></ul> |
 
 ## 《SmartArt 渲染的比較：Aspose.Words 和 Microsoft》
 
 「下面的表格示範了 Aspose.Words 冷渲染一些標準 bố置的範例圖片，與 Microsoft Word 的輸出比較：」
 
-|| **Aspose.Words** | **Microsoft Word** |
+|  | **Aspose.Words** | **Microsoft Word** |
 | ----------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Basic Process** | <img src="basic-process-aspose.png" alt="basic_process_aspose"/> | <img src="basic-process-word.png" alt="basic_process_word"/> |
 | **Circular Bending Process** | <img src="circular-bending-process-aspose.png" alt="circular_bending_process_aspose"/> | <img src="circular-bending-process-word.png" alt="circular_bending_process_word"/> |

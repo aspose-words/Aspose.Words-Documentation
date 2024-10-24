@@ -68,18 +68,18 @@ The most common use case of a table-row data band is the building of a document 
 
 In this case, the engine produces a report as follows.
 
-| Client |Manager|Contract Price|
+| Client | Manager | Contract Price |
 | :- | :- | :- |
-|**A Company**|**John Smith**|**1200000**|
-|**B Ltd.**|**John Smith**|**750000**|
-|**C & D**|**John Smith**|**350000**|
-|**E Corp.**|**Tony Anderson**|**650000**|
-|**F & Partners**|**Tony Anderson**|**550000**|
-|**G & Co.**|**July James**|**350000**|
-|**H Group**|**July James**|**250000**|
-|**I & Sons**|**July James**|**100000**|
-|**J Ent.**|**July James**|**100000**|
-|**Total:**||**4300000**|
+| **A Company** | **John Smith** | **1200000** |
+| **B Ltd.** | **John Smith** | **750000** |
+| **C & D** | **John Smith** | **350000** |
+| **E Corp.** | **Tony Anderson** | **650000** |
+| **F & Partners** | **Tony Anderson** | **550000** |
+| **G & Co.** | **July James** | **350000** |
+| **H Group** | **July James** | **250000** |
+| **I & Sons** | **July James** | **100000** |
+| **J Ent.** | **July James** | **100000** |
+| **Total:** |  |**4300000** |
 
 To populate a document table with a master-detail data, you can use nested table-row data bands like in the following template.
 
@@ -106,21 +106,21 @@ To populate a document table with a master-detail data, you can use nested table
 
 In this case, the engine produces a report as follows.
 
-|Manager/Client|Contract Price|
+| Manager/Client | Contract Price |
 | :- | :- |
-|**John Smith**|**2300000**|
-|**A Company**|**1200000**|
-|**B Ltd.**|**750000**|
-|**C & D**|**350000**|
-|**Tony Anderson**|**1200000**|
-|**E Corp.**|**650000**|
-|**F & Partners**|**550000**|
-|**July James**|**800000**|
-|**G & Co.**|**350000**|
-|**H Group**|**250000**|
-|**I & Sons**|**100000**|
-|**J Ent.**|**100000**|
-|**Total:**|**4300000**|
+| **John Smith** | **2300000** |
+| **A Company** | **1200000** |
+| **B Ltd.** | **750000** |
+| **C & D** | **350000** |
+| **Tony Anderson** | **1200000** |
+| **E Corp.** | **650000** |
+| **F & Partners** | **550000** |
+| **July James** | **800000** |
+| **G & Co.** | **350000** |
+| **H Group** | **250000** |
+| **I & Sons** | **100000** |
+| **J Ent.** | **100000** |
+| **Total:** | **4300000** |
 
 You can normally use common data bands nested to table-row data bands as well like in the following template.
 
@@ -179,7 +179,7 @@ In this case, the engine produces a report as follows.
 
 | Managers |
 | :- |
-|**John Smith  Tony Anderson  July James**  |
+| **John Smith  Tony Anderson  July James**  |
 
 However, if needed, you can override this behavior making the engine to treat such a data band as a table-row one by specifying a `greedy` switch like in the following template.
 
@@ -198,9 +198,9 @@ In this case, the engine produces a report as follows.
 
 | Managers |
 | :- |
-|**John Smith**|
-|**Tony Anderson**|
-|**July James**|
+| **John Smith** |
+| **Tony Anderson** |
+| **July James** |
 
 {{% alert color="primary" %}}
 

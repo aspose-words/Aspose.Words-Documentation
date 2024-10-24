@@ -224,7 +224,7 @@ Aspose.Words se snaží automaticky najít písma TrueType v souborovém systém
 
 Existují některé rozdíly ve zpracování formátů písma v Aspose.Words a Microsoft Word jak je uvedeno v následující tabulce:
 
-| | Microsoft Word | Aspose.Words |
+|  | Microsoft Word | Aspose.Words |
 |  :-  |  :-  |  :-  |
 | Písmo TrueType a písma OpenType s obrysy TrueType | Podporoval. | Podporoval. |
 | OpenType písma s obrysy PostScript | Podporovaný pro většinu scénářů. Vkládání do formátů pevných stránek, jako je PDF a XPS nejsou podporovány. Text se nahrazuje obrázky bitmap. | Podporované pro většinu scénářů, včetně začlenění do formátů pevných stránek. |

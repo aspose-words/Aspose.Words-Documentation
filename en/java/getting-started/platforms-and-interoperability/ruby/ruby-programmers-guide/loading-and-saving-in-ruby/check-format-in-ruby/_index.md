@@ -19,7 +19,7 @@ To check file format using Aspose.Words Java in Ruby, simply invoke the check_fo
 def check_format(file)
     files_list  = file.listFiles()
     load_format = Rjb::import('com.aspose.words.LoadFormat')
-    files_list.each do |file|
+    files_list.each do | file |
         if(file.isDirectory()) then
             next
         end

@@ -31,7 +31,7 @@ Se hai bisogno di supporto per più piattaforme, cerca i prodotti "fratello geme
 
 Molti clienti in tutto il mondo si affidano alle funzionalità complete di importazione ed esportazione di documenti fornite da Aspose.Words.
 
-|  Caratteristica | Descrizione | Python via .NET |
+|  Caratteristica|Descrizione | Python via .NET |
 |  :-  |  :-  |  :-  |
 | `Microsoft Word - DOC` | L'implementazione del formato DOC più veloce e completa che puoi trovare. | {{< emoticons/tick >}} |
 | `WordprocessingML - DOCX and XML` | Aspose.Words fornisce un supporto completo OOXML, Flat OPC e anche Word 2003 XML. | {{< emoticons/tick >}} |

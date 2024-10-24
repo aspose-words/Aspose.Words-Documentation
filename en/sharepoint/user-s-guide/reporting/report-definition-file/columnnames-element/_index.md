@@ -11,6 +11,6 @@ url: /sharepoint/columnnames-element/
 
 The ColumnNames element contains information about columns names in a table relation description.
 
-| Name |Cardinality|Has Children| Description |
+| Name | Cardinality | Has Children | Description |
 | :- | :- | :- | :- |
-| `ColumnName` | `1-N` | No |Column name in a table specified by a [ParentColumns](/words/sharepoint/parentcolumns-element/) or [ChildColumns](/words/sharepoint/childcolumns-element/) element.|
+| `ColumnName` | `1-N` | No | Column name in a table specified by a [ParentColumns](/words/sharepoint/parentcolumns-element/) or [ChildColumns](/words/sharepoint/childcolumns-element/) element. |

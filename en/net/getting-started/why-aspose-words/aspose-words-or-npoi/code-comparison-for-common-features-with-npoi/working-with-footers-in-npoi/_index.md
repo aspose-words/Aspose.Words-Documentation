@@ -20,7 +20,7 @@ Below is the code to demonstrate how to insert footer in word document:
  HeaderFooterCollection footers = wordDocument.FirstSection.HeadersFooters;
  foreach (HeaderFooter footer in footers)
  {
-    if (footer.HeaderFooterType == HeaderFooterType.FooterFirst || footer.HeaderFooterType == HeaderFooterType.FooterPrimary || footer.HeaderFooterType ==
+    if (footer.HeaderFooterType == HeaderFooterType.FooterFirst |  | footer.HeaderFooterType == HeaderFooterType.FooterPrimary |  | footer.HeaderFooterType ==
     HeaderFooterType.FooterEven)
     Console.WriteLine(footer.GetText());
  }

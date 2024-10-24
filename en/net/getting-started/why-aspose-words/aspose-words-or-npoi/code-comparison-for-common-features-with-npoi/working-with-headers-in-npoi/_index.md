@@ -20,7 +20,7 @@ The following sample code demonstrates how to create headers/footers using Docum
  HeaderFooterCollection headers = wordDocument.FirstSection.HeadersFooters;
  foreach (HeaderFooter header in headers)
  {
-   if (header.HeaderFooterType == HeaderFooterType.HeaderFirst || header.HeaderFooterType == HeaderFooterType.HeaderPrimary || header.HeaderFooterType ==
+   if (header.HeaderFooterType == HeaderFooterType.HeaderFirst |  | header.HeaderFooterType == HeaderFooterType.HeaderPrimary |  | header.HeaderFooterType ==
        HeaderFooterType.HeaderEven)
    Console.WriteLine(header.GetText());
  }

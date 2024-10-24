@@ -48,20 +48,20 @@ Aspose.Words는 파일의 실제 내용이 무엇인지 확실하지 않은 경�
 | 파일의 Group | 입력 문서 | 유형 |
 |  :-  |  :-  |  :-  |
 | 지원되는 파일 형식 | 테스트 파일(문서).doc | Microsoft Word 95/6.0 또는 Microsoft Word 97 – 2003 문서. |
-| | 테스트 파일(`Dot`).dot | Microsoft Word 95/6.0 또는 Microsoft Word 97 – 2003 템플릿. |
-| | 테스트 파일(Docx).docx | 매크로가 없는 Office Open XML WordprocessingML 문서입니다. |
-| | 테스트 파일(Docm).docm | 매크로가 포함된 Office Open XML WordprocessingML 문서입니다. |
-| | 테스트 파일(Dotx).dotx | Office Open XML WordprocessingML 템플릿입니다. |
-| | 테스트 파일(Dotm).dotm | 매크로가 포함된 Office Open XML WordprocessingML 템플릿입니다. |
-| | 테스트 파일(XML).xml | FlatOPC OOXML 문서. |
-| | 테스트 파일(RTF).rtf | 리치 텍스트 형식 문서. |
-| | 테스트 파일(WordML).xml | Microsoft Word 2003 WordprocessingML 문서. |
-| | 테스트 파일(HTML).html | HTML 문서. |
-| | 테스트 파일(MHTML).mhtml | MHTML(웹 아카이브) 문서. |
-| | 테스트 파일(Odt).odt | OpenDocument 텍스트(OpenOffice Writer). |
-| | 테스트 파일(Ott).ott | OpenDocument 문서 템플릿. |
-| | 테스트 파일(DocPreWord60).doc | Microsoft Word 2.0 문서. |
+|  | 테스트 파일(`Dot`).dot | Microsoft Word 95/6.0 또는 Microsoft Word 97 – 2003 템플릿. |
+|  | 테스트 파일(Docx).docx | 매크로가 없는 Office Open XML WordprocessingML 문서입니다. |
+|  | 테스트 파일(Docm).docm | 매크로가 포함된 Office Open XML WordprocessingML 문서입니다. |
+|  | 테스트 파일(Dotx).dotx | Office Open XML WordprocessingML 템플릿입니다. |
+|  | 테스트 파일(Dotm).dotm | 매크로가 포함된 Office Open XML WordprocessingML 템플릿입니다. |
+|  | 테스트 파일(XML).xml | FlatOPC OOXML 문서. |
+|  | 테스트 파일(RTF).rtf | 리치 텍스트 형식 문서. |
+|  | 테스트 파일(WordML).xml | Microsoft Word 2003 WordprocessingML 문서. |
+|  | 테스트 파일(HTML).html | HTML 문서. |
+|  | 테스트 파일(MHTML).mhtml | MHTML(웹 아카이브) 문서. |
+|  | 테스트 파일(Odt).odt | OpenDocument 텍스트(OpenOffice Writer). |
+|  | 테스트 파일(Ott).ott | OpenDocument 문서 템플릿. |
+|  | 테스트 파일(DocPreWord60).doc | Microsoft Word 2.0 문서. |
 | 암호화된 문서 | 테스트 파일(Enc).doc | 암호화된 Microsoft Word 95/6.0 또는 Microsoft Word 97 – 2003 문서. |
-| | 테스트 파일(Enc).docx | 암호화된 Office Open XML WordprocessingML 문서. |
+|  | 테스트 파일(Enc).docx | 암호화된 Office Open XML WordprocessingML 문서. |
 | 지원되지 않는 파일 형식 | 테스트 파일(JPG).jpg | JPEG 이미지 파일. |
 

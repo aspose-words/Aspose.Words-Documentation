@@ -177,8 +177,8 @@ Metin dili belirtilen Microsoft Word belgede yer alır. Aspose.Words belirtilen 
 
 | PDF standart uyum düzeyleri içinde Aspose.Words | Gereksinimin varlığı |
 | -------------------------------------------------- | ----------------------- |
-| PDF/A-1a ||
-| PDF/A-2a ||
+| PDF/A-1a |  |
+| PDF/A-2a |  |
 | PDF/UA-1 | {{< emoticons/tick >}} |
 
 Microsoft Word belgeleri kullanıcıların bir figür başlığı eklemesine imkan tanır.
@@ -244,8 +244,8 @@ Microsoft Word belgeleri kullanıcıların alternatif metinleri resimlere, şeki
 
 | PDF standart uyum düzeyleri içinde Aspose.Words | İsteğin varlığı |
 | -------------------------------------------------- | ----------------------- |
-| PDF/A-1a ||
-| PDF/A-2a ||
+| PDF/A-1a |  |
+| PDF/A-2a |  |
 | PDF/UA-1 | {{< emoticons/tick >}} |
 
 Önceki noktaya ek olarak Microsoft Word belgeleri kullanıcıların alternatif metni bağlantıya eklemesine izin verir. Aspose.Words böyle bir alternatif metni çıktı PDF'ine dışarı aktarır.
@@ -289,8 +289,8 @@ doc.save(outFile, opt);
 
 | PDF standart uyum seviyeleri içinde Aspose.Words | Gereksinim varlığı |
 | -------------------------------------------------- | ----------------------- |
-| PDF/A-1a ||
-| PDF/A-2a ||
+| PDF/A-1a |  |
+| PDF/A-2a |  |
 | PDF/UA-1 | {{< emoticons/tick >}} |
 
 PDF/UA-1 belgelerindeki tabloların başlıkları olmalı - sütun, satır veya her ikisi. PDF/A sadece standart tablo işaretlemesini gerektirir ki bu ek kısıtlamalar içermez. Not edin ki Aspose.Words standart tablo işaretlemesi otomatik olarak oluşturur.
@@ -325,7 +325,7 @@ PDF/UA-1 belgelerindeki tabloların başlıkları olmalı - sütun, satır veya 
 | -------------------------------------------------- | ----------------------- |
 | PDF/A-1a | {{< emoticons/tick >}} |
 | PDF/A-2a | {{< emoticons/tick >}} |
-| PDF/UA-1 ||
+| PDF/UA-1 |  |
 
 {{% alert color="secondary" %}}
 <details>
@@ -347,7 +347,7 @@ Microsoft Word belgesi kullanıcıları yedekleme metni ayarlamasına izin verme
 | -------------------------------------------------- | ----------------------- |
 | PDF/A-1a | {{< emoticons/tick >}} |
 | PDF/A-2a | {{< emoticons/tick >}} |
-| PDF/UA-1 ||
+| PDF/UA-1 |  |
 
 {{% alert color="secondary" %}}
 <details>
@@ -366,9 +366,9 @@ Microsoft Word belgesi kullanıcıların kısaltma ve akronim genişlemeleri aya
 
 | PDF standart uyum düzeyleri içinde Aspose.Words | İsteğin varlığı |
 | -------------------------------------------------- | ------------------------------------------------------------ |
-| PDF/A-1a ||
-| PDF/A-2a ||
-| PDF/A-4 ||
+| PDF/A-1a |  |
+| PDF/A-2a |  |
+| PDF/A-4 |  |
 | PDF/UA-1 | {{< emoticons/tick >}} <br /> Belge PDF/UA-1 bir başlık içermelidir. |
 
 {{% alert color="secondary" %}}
@@ -433,8 +433,8 @@ Aspose.Words kullanılan yazı tiplerinin yasal kısıtlamalarını doğrulamaz 
 
 | PDF standart uyum düzeyleri içinde Aspose.Words | Gereksinim varlığı |
 | -------------------------------------------------- | ----------------------- |
-| PDF/A-1a ||
-| PDF/A-1b ||
+| PDF/A-1a |  |
+| PDF/A-1b |  |
 | PDF/A-2a | {{< emoticons/tick >}} |
 | PDF/A-2b | {{< emoticons/tick >}} |
 | PDF/A-4 | {{< emoticons/tick >}} |
@@ -466,12 +466,12 @@ Kullanımın `.notdef` glyph'i yasaklanmıştır. The `.notdef` glyph's will app
 
 | PDF standart uyum düzeyleri içinde Aspose.Words | İhtiyaç varlığı |
 | -------------------------------------------------- | ----------------------- |
-| PDF/A-1a ||
-| PDF/A-1b ||
+| PDF/A-1a |  |
+| PDF/A-1b |  |
 | PDF/A-2a | {{< emoticons/tick >}} |
 | PDF/A-2b | {{< emoticons/tick >}} |
 | PDF/A-4 | {{< emoticons/tick >}} |
-| PDF/UA-1 ||
+| PDF/UA-1 |  |
 
 Özel Kullanım Alanı (PUA) karakterleri çoğunlukla Windows sembolik yazı tipleri için görünür, örneğin "Sembol", "Kanat Çıkartmaları", "Webdings" ve diğerleri. Microsoft Word formatları karakterlerin gerçek metni depolamak için bir seçenek sağlamaz.
 

@@ -213,7 +213,7 @@ Aspose.Words 尝试自动在文件系统上查找 TrueType 字体。通常，您
 
 Aspose.Words 和 Microsoft Word 对字体格式的处理存在一些差异，如下表所示：
 
-|| Microsoft Word | Aspose.Words |
+|  | Microsoft Word | Aspose.Words |
 |  :-  |  :-  |  :-  |
 | TrueType 字体和带有 TrueType 轮廓的 OpenType 字体 | 支持的。 | 支持的。 |
 | 具有 PostScript 轮廓的 OpenType 字体 | 支持大多数场景。不支持嵌入固定页面格式，例如 PDF 和 XPS。文本被位图图像替换。 | 支持大多数场景，包括嵌入到固定页面格式。 |

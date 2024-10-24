@@ -17,11 +17,11 @@ Toate avertismentele sunt de [WarningType](https://reference.aspose.com/words/ne
 
 | Valoare de avertizare a descrierii | PDF/A | PDF/UA |
 | ------------------------------------------------------------ | ---------------------- | ---------------------- |
-| "Dosarul lipseşte. Aceasta încalcă cerințele de conformitate. Documentele de ieșire nu vor fi complet conforme." || {{< emoticons/tick >}} |
-| "Documentul conține rubrici care nu sunt consecutive. Aceasta încalcă cerințele de conformitate. Documentele de ieșire nu vor fi complet conforme." || {{< emoticons/tick >}} |
+| "Dosarul lipseşte. Aceasta încalcă cerințele de conformitate. Documentele de ieșire nu vor fi complet conforme." |  | {{< emoticons/tick >}} |
+| "Documentul conține rubrici care nu sunt consecutive. Aceasta încalcă cerințele de conformitate. Documentele de ieșire nu vor fi complet conforme." |  | {{< emoticons/tick >}} |
 | "Există forme fără alt text în document. Acest lucru încalcă cerințele de conformare. Documentul rezultat nu va fi conform în totalitate." | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | "Există tabele fără alt text în document. Această încălcă cerințele de conformitate. Documentul de ieșire nu va fi conform pe deplin." | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| "Există hyperlink-uri fără alt text în document. Aceasta încalcă cerințele de conformitate. Documentele de ieșire nu vor fi pe deplin conforme." || {{< emoticons/tick >}} |
-| "Există tabele fără antet rând/coloană în document. Aceasta încalcă cerinţele de conformitate. Documentul de ieșire nu va fi în totalitate conform." || {{< emoticons/tick >}} |
-| "Documentul conține caractere Unicode PUA. Acest lucru încalcă cerințele de conformare. Documentul rezultat nu va fi în totalitate conform." | {{< emoticons/tick >}} ||
+| "Există hyperlink-uri fără alt text în document. Aceasta încalcă cerințele de conformitate. Documentele de ieșire nu vor fi pe deplin conforme." |  | {{< emoticons/tick >}} |
+| "Există tabele fără antet rând/coloană în document. Aceasta încalcă cerinţele de conformitate. Documentul de ieșire nu va fi în totalitate conform." |  | {{< emoticons/tick >}} |
+| "Documentul conține caractere Unicode PUA. Acest lucru încalcă cerințele de conformare. Documentul rezultat nu va fi în totalitate conform." | {{< emoticons/tick >}} |  |
 | Documentul conține glife ".notdef. Aceasta încalcă cerințele de conformitate. Documentul de ieșire nu va fi complet conform." | {{< emoticons/tick >}} | {{< emoticons/tick >}} |

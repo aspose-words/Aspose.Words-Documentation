@@ -92,7 +92,7 @@ public static void removeHFFromFile(File f) throws Exception {
 	List<Relationship> hfRels = new ArrayList<Relationship>();
 	for (Relationship rel : mdp.getRelationshipsPart().getRelationships().getRelationship() ) {
 		if (rel.getType().equals(Namespaces.HEADER)
-				|| rel.getType().equals(Namespaces.FOOTER)) {
+				|  | rel.getType().equals(Namespaces.FOOTER)) {
 			hfRels.add(rel);
 		}
 	}

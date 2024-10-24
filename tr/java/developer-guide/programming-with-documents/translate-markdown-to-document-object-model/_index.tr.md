@@ -36,24 +36,24 @@ Bu, çevirirken [Font](https://reference.aspose.com/words/java/com.aspose.words/
 | Markdown özelliğini | Aspose.Words |
 | ----------------------------- | ------------------ |
 | **Bold** <br /> `{1}` | `Font.Bold = true` |
-| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-BoldText.java" >}} ||
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-BoldText.java" >}} |  |
 | **Italic** <br /> `*italic text*` | `Font.Italic = true` |
-| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-ItalicText.java" >}} ||
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-ItalicText.java" >}} |  |
 | **Strikethrough** <br /> `~Strikethrough text~` | `Font.StrikeThrough = true` |
-| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Strikethrough.java" >}} ||
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Strikethrough.java" >}} |  |
 
 Bir karakter stilimiz var, adı `InlineCode` kelimesiyle başlar, ardından isteğe bağlı bir nokta `(.)` ve birkaç ters tırnak ```(`)``` ile birlikte kullanılır `InlineCode` özelliği. Ters tırnak sayısı eksikse varsayılan olarak tek bir ters tırnak kullanılır.
 
 | Markdown özelliği | Aspose.Words |
 | ----------------------------- | ------------------ |
 | **InlineCode** <br /> `{1}` | `Font.StyleName = “InlineCode[.][N]”` |
-| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-InlineCode.java" >}} ||
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-InlineCode.java" >}} |  |
 | **Autolink** <br /> `<scheme://domain.com>` <br /> `<email@domain.com>` | The [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/) sınıfı. |
-| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Autolink.java" >}} ||
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Autolink.java" >}} |  |
 | **Link** <br /> `{1}` <br /> `{2}` <br /> `{3}` <br /> `{4})` | [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/) sınıfı. |
-| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Link.java" >}} ||
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Link.java" >}} |  |
 | **Image** <br /> `{1}` <br /> `{2}` <br /> `{3}` <br /> `{4})` | [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) sınıfı. |
-| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Image.java" >}} ||
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Image.java" >}} |  |
 
 ## Konteyner Blokları
 
@@ -66,13 +66,13 @@ Aşağıdaki tablo Aspose.Words 'da kullanılan Markdown Leaf bloklarının örn
 | Markdown özelliği | Aspose.Words |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **HorizontalRule** <br /> `-----` | Bu, karşılık gelen bir HorizontalRule şekline sahip basit bir paragraftır:<br />`DocumentBuilder.InsertHorizontalRule()`'' |
-| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-HorizontalRule.java" >}} ||
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-HorizontalRule.java" >}} |  |
 | **ATX Heading**< br / > `# H1, ## H2, ### H3…` | `ParagraphFormat.StyleName = “Heading N”`, burada (1<= N <= 9). <br />Bu yerleşik bir stil ile çevrilir ve kesinlikle belirtilen kalıba uymalıdır (son ekleri veya öneki izin verilmez). <br /> aksi takdirde, sadece normal bir paragrafla eşleşen bir stile sahip olacaktır. |
-| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Heading.java" >}} ||
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Heading.java" >}} |  |
 | **Setext Heading** <br /> `===` (eğer Başlık Düzeyi 1), <br /> `---` (eğer Başlık Düzeyi 2) | `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, `“Heading N”`'e dayalı stil.<br />Eğer (N >= 2), o zaman `“Heading 2”` kullanılacak, aksi takdirde `“Heading 1”`.<br />Herhangi bir sonek izin verilir fakat Aspose.Words içeri aktarıcı sırasıyla "1" ve "2" sayılarını kullanır. |
-| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-SetextHeading.java" >}} ||
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-SetextHeading.java" >}} |  |
 | **Indented Code**<br>{{< highlight java >}}<br/>if ()<br/>then<br/>else<br/>```{{< /highlight >}} | `ParagraphFormat.StyleName = “IndentedCode[some suffix]”` |
-| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-FencedCode.java" >}} ||
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-FencedCode.java" >}} |  |
 ### Karma Kapsayıcılar
 
 Aşağıdaki tabloda, Markdown Karma Kapsayıcıların Aspose.Words'da kullanımının örnekleri gösterilmektedir:
@@ -80,11 +80,11 @@ Aşağıdaki tabloda, Markdown Karma Kapsayıcıların Aspose.Words'da kullanım
 | Markdown özelliği | Aspose.Words |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 0**Quote**<br />1`> quote,`<br />2`>> nested quote` | `ParagraphFormat.StyleName = “Quote[some suffix]”`<br />Stilin adı için sonek isteğe bağlıdır, ancak Aspose.Words iç içe geçmiş alıntılar durumunda düzgün numaralar 1, 2, 3, …. kullanır. <br />İç içe geçme, miras alınan stiller aracılığıyla tanımlanır. |
-| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Quote.java" >}} ||
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Quote.java" >}} |  |
 | **BulletedList**<br /> `- Item 1`<br /> `- Item 2`<br /> `   - Item 2a`<br /> `   - Item 2b` | Puanlı listeler paragraf numaralandırma kullanılarak temsil edilir:<br /> `ListFormat.ApplyBulletDefault()`<br />There can be 3 types of bulleted lists. They are only diff in a numbering format of the very first level. These are: `‘-’`, `‘+’` or `‘*’` respectively. |
-| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-BulletedList.java" >}} ||
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-BulletedList.java" >}} |  |
 | **OrderedList** <br /> `1. Item 1` <br /> `2. Item 2` <br /> `1) Item 2a` <br /> `2) Item 2b` | Numaralı sıralı listeler paragraf numaralandırması ile gösterilir:<br />`ListFormat.ApplyNumberDefault()`<br />İki numara biçimi işareti kullanılabilir: ‘.’ ve ‘)’. Varsayılan işaret ‘.’dir. |
-| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-OrderedList.java" >}} ||
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-OrderedList.java" >}} |  |
 
 ### Masalar
 
@@ -92,8 +92,8 @@ Aspose.Words ayrıca aşağıda gösterildiği gibi tabloları DOM'e çevirmeniz
 
 | Markdown özellik | Aspose.Words |
 | ---------------------------------------- | ------------------------------------------------------------ |
-| `Table` <br /> `a | b`<br />`- | -`<br />`c | d ` | [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [Row](https://reference.aspose.com/words/java/com.aspose.words/row/) ve [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/) sınıfları. |
-| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Table.java" >}} ||
+| `Table` <br /> `a|b`<br />`-|-`<br />`c|d ` | [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [Row](https://reference.aspose.com/words/java/com.aspose.words/row/) ve [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/) sınıfları. |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Table.java" >}} |  |
 
 ## Ayrıca bakınız
 

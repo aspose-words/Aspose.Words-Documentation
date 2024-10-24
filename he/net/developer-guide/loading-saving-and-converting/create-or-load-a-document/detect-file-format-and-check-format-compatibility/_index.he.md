@@ -48,20 +48,20 @@ DetectFile פורמט רק בודק את תבנית הקובץ אך אינו מ�
 | Group קבצים | Input Document | סוג |
 |  :-  |  :-  |  :-  |
 | פורמטים קובץ | מבחן (Doc)doc | Microsoft Word 95/6.0 Microsoft Word 97 - 2003 מסמך |
-| | File (`Dot`(Dot) | Microsoft Word 95/6.0 Microsoft Word 97 - 2003 תבנית |
-| | File File (Docx)docx | Office Open XML Wordprocessing מסמך ML ללא מאקרו |
-| | File File (DoCM) | Office Open XML Wordprocessing ML מסמך עם מאקרו |
-| | תגית: dotx | Office Open XML Wordprocessing תבנית ML |
-| | תגית: Dotm | Office Open XML Wordprocessing תבנית ML עם מאקרו |
-| | תגית: XML | מסמך FlatOPC OOXML |
-| | תגית:RTF | מסמך פורמט טקסט עשיר |
-| | שם הסרטון:WordML | Microsoft Word 2003 Wordprocessing מסמך ML |
-| | File File (HTML)html | מסמך HTML |
-| | מבחן (MHTML)mhtml | מסמך MHTML (ארכיון אינטרנט) |
-| | מבחן (Odt) | OpenDocument Text (OpenOffice Writer) |
-| | מבחן (Ot) | קוד פתוח |
-| | מבחן (DocPreWord60).doc | Microsoft Word 2.0 מסמך |
+|  | File (`Dot`(Dot) | Microsoft Word 95/6.0 Microsoft Word 97 - 2003 תבנית |
+|  | File File (Docx)docx | Office Open XML Wordprocessing מסמך ML ללא מאקרו |
+|  | File File (DoCM) | Office Open XML Wordprocessing ML מסמך עם מאקרו |
+|  | תגית: dotx | Office Open XML Wordprocessing תבנית ML |
+|  | תגית: Dotm | Office Open XML Wordprocessing תבנית ML עם מאקרו |
+|  | תגית: XML | מסמך FlatOPC OOXML |
+|  | תגית:RTF | מסמך פורמט טקסט עשיר |
+|  | שם הסרטון:WordML | Microsoft Word 2003 Wordprocessing מסמך ML |
+|  | File File (HTML)html | מסמך HTML |
+|  | מבחן (MHTML)mhtml | מסמך MHTML (ארכיון אינטרנט) |
+|  | מבחן (Odt) | OpenDocument Text (OpenOffice Writer) |
+|  | מבחן (Ot) | קוד פתוח |
+|  | מבחן (DocPreWord60).doc | Microsoft Word 2.0 מסמך |
 | מסמכים מוצפנים | מבחן (Enc)doc | הצפנה Microsoft Word 95/6.0 Microsoft Word 97 - 2003 מסמך |
-| | מבחן (Enc)docx | Office Open XML Wordprocessing מסמך ML |
+|  | מבחן (Enc)docx | Office Open XML Wordprocessing מסמך ML |
 | פורמטים קובץ לא נתמך | תגית: JPG jpg | קובץ JPEG |
 

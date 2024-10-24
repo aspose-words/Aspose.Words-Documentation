@@ -70,7 +70,7 @@ public void RemoveHeaderFooterFeature()
 	{
 		var mainDocumentPart = doc.MainDocumentPart;
 		// Count the header and footer parts and continue if there are any.
-		if (mainDocumentPart.HeaderParts.Any() || mainDocumentPart.FooterParts.Any())
+		if (mainDocumentPart.HeaderParts.Any() |  | mainDocumentPart.FooterParts.Any())
 		{
 			// Remove the header and footer parts.
 			mainDocumentPart.DeleteParts(mainDocumentPart.HeaderParts);

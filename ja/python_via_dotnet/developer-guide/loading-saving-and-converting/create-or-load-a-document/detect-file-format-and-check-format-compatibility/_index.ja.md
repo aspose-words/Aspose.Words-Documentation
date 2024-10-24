@@ -48,20 +48,20 @@ Aspose.Words は、ファイルの実際の内容が不明な場合に例外を�
 | ファイルのGroup | 入力ドキュメント | タイプ |
 |  :-  |  :-  |  :-  |
 | サポートされているファイル形式 | テスト ファイル (ドキュメント).doc | Microsoft Word 95/6.0 または Microsoft Word 97 – 2003 ドキュメント。 |
-| | テストファイル(`Dot`).dot | Microsoft Word 95/6.0 または Microsoft Word 97 – 2003 テンプレート。 |
-| | テスト ファイル (Docx).docx | Office Open XML WordprocessingML ドキュメント (マクロなし)。 |
-| | テスト ファイル (Docm).docm | Office Open XML WordprocessingML ドキュメントとマクロ。 |
-| | テスト ファイル (Dotx).dotx | Office Open XML WordprocessingML テンプレート。 |
-| | テストファイル (Dotm).dotm | マクロを備えた Office Open XML WordprocessingML テンプレート。 |
-| | テストファイル(XML).xml | FlatOPC OOXML ドキュメント。 |
-| | テストファイル(RTF).rtf | リッチテキスト形式のドキュメント。 |
-| | テストファイル(WordML).xml | Microsoft Word 2003 WordprocessingML ドキュメント。 |
-| | テストファイル(HTML).html | HTMLドキュメント。 |
-| | テストファイル(MHTML).mhtml | MHTML (Web アーカイブ) ドキュメント。 |
-| | テストファイル(Odt).odt | OpenDocument テキスト (OpenOffice Writer)。 |
-| | テストファイル(オット).ott | OpenDocument ドキュメント テンプレート。 |
-| | テスト ファイル (DocPreWord60).doc | Microsoft Word 2.0 ドキュメント。 |
+|  | テストファイル(`Dot`).dot | Microsoft Word 95/6.0 または Microsoft Word 97 – 2003 テンプレート。 |
+|  | テスト ファイル (Docx).docx | Office Open XML WordprocessingML ドキュメント (マクロなし)。 |
+|  | テスト ファイル (Docm).docm | Office Open XML WordprocessingML ドキュメントとマクロ。 |
+|  | テスト ファイル (Dotx).dotx | Office Open XML WordprocessingML テンプレート。 |
+|  | テストファイル (Dotm).dotm | マクロを備えた Office Open XML WordprocessingML テンプレート。 |
+|  | テストファイル(XML).xml | FlatOPC OOXML ドキュメント。 |
+|  | テストファイル(RTF).rtf | リッチテキスト形式のドキュメント。 |
+|  | テストファイル(WordML).xml | Microsoft Word 2003 WordprocessingML ドキュメント。 |
+|  | テストファイル(HTML).html | HTMLドキュメント。 |
+|  | テストファイル(MHTML).mhtml | MHTML (Web アーカイブ) ドキュメント。 |
+|  | テストファイル(Odt).odt | OpenDocument テキスト (OpenOffice Writer)。 |
+|  | テストファイル(オット).ott | OpenDocument ドキュメント テンプレート。 |
+|  | テスト ファイル (DocPreWord60).doc | Microsoft Word 2.0 ドキュメント。 |
 | 暗号化された文書 | テスト ファイル (Enc).doc | 暗号化された Microsoft Word 95/6.0 または Microsoft Word 97 – 2003 ドキュメント。 |
-| | テストファイル(Enc).docx | 暗号化された Office Open XML WordprocessingML ドキュメント。 |
+|  | テストファイル(Enc).docx | 暗号化された Office Open XML WordprocessingML ドキュメント。 |
 | サポートされていないファイル形式 | テストファイル(JPG).jpg | JPEG画像ファイル。 |
 

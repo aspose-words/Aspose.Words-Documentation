@@ -17,7 +17,7 @@ To support such scenarios, the engine provides an option to treat missing member
 
 {{< highlight csharp >}}
 ReportingEngine engine = new ReportingEngine();
-engine.Options |= ReportBuildOptions.AllowMissingMembers;
+engine.Options | = ReportBuildOptions.AllowMissingMembers;
 engine.BuildReport(...);
 {{< /highlight >}}
 
@@ -33,7 +33,7 @@ Furthermore, the engine can be instructed to print a specific message instead of
 
 {{< highlight csharp >}}
 ReportingEngine engine = new ReportingEngine();
-engine.Options |= ReportBuildOptions.AllowMissingMembers;
+engine.Options | = ReportBuildOptions.AllowMissingMembers;
 engine.MissingMemberMessage = "None";
 engine.BuildReport(...);
 {{< /highlight >}}

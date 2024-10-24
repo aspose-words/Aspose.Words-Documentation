@@ -48,20 +48,20 @@ Los siguientes archivos se utilizan en el ejemplo anterior. El nombre del archiv
 | Group de Archivos | Documento de entrada | Tipo |
 |  :-  |  :-  |  :-  |
 | Formatos de archivo compatibles | Archivo de prueba (Doc).doc | Microsoft Word 95/6.0 o Microsoft Word Documento 97-2003. |
-| | Archivo de prueba (Dot).dot | Microsoft Word 95/6.0 o Microsoft Word Plantilla 97-2003. |
-| | Archivo de prueba (Docx).docx | Procesamiento de Word XML de Office Open ML documento sin macros. |
-| | Archivo de prueba (Docm).docm | Procesamiento de Word XML de Office Open Documento ML con macros. |
-| | Archivo de prueba (Dotx).dotx | Procesamiento de Word XML de Office Open Plantilla ML. |
-| | Archivo de prueba (Dotm).dotm | Procesamiento de Word XML de Office Open Plantilla ML con macros. |
-| | Archivo de prueba (XML).xml | FlatOPC OOXML Document. |
-| | Archivo de prueba (RTF).rtf | Documento de formato de texto rico. |
-| | Archivo de prueba (WordML).xml | Microsoft Word 2003 Wordprocessing ML document. |
-| | Archivo de prueba (HTML).html | Documento HTML. |
-| | Archivo de prueba (MHTML).mhtml | MHTML (archivo web) documento. |
-| | Archivo de prueba (Odt).odt | Texto OpenDocument (OpenOffice Writer). |
-| | Archivo de prueba (Ott).ott | Plantilla de documentos OpenDocument. |
-| | Archivo de prueba (DocPreWord60).doc | Microsoft Word Documento 2.0. |
+|  | Archivo de prueba (Dot).dot | Microsoft Word 95/6.0 o Microsoft Word Plantilla 97-2003. |
+|  | Archivo de prueba (Docx).docx | Procesamiento de Word XML de Office Open ML documento sin macros. |
+|  | Archivo de prueba (Docm).docm | Procesamiento de Word XML de Office Open Documento ML con macros. |
+|  | Archivo de prueba (Dotx).dotx | Procesamiento de Word XML de Office Open Plantilla ML. |
+|  | Archivo de prueba (Dotm).dotm | Procesamiento de Word XML de Office Open Plantilla ML con macros. |
+|  | Archivo de prueba (XML).xml | FlatOPC OOXML Document. |
+|  | Archivo de prueba (RTF).rtf | Documento de formato de texto rico. |
+|  | Archivo de prueba (WordML).xml | Microsoft Word 2003 Wordprocessing ML document. |
+|  | Archivo de prueba (HTML).html | Documento HTML. |
+|  | Archivo de prueba (MHTML).mhtml | MHTML (archivo web) documento. |
+|  | Archivo de prueba (Odt).odt | Texto OpenDocument (OpenOffice Writer). |
+|  | Archivo de prueba (Ott).ott | Plantilla de documentos OpenDocument. |
+|  | Archivo de prueba (DocPreWord60).doc | Microsoft Word Documento 2.0. |
 | Documentos cifrados | Archivo de prueba (Enc).doc | Encriptado Microsoft Word 95/6.0 o Microsoft Word Documento 97-2003. |
-| | Archivo de prueba (Enc).docx | Procesamiento de Word XML encriptado ML document. |
+|  | Archivo de prueba (Enc).docx | Procesamiento de Word XML encriptado ML document. |
 | Formatos de archivo no compatibles | Archivo de prueba (JPG). jpg | Archivo de imagen JPEG. |
 

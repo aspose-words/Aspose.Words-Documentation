@@ -11,12 +11,12 @@ url: /net/using-lexical-tokens/
 
 The following table describes lexical tokens that you can use in template expressions and restrictions on these tokens’ usage comparing with C# Language Specification 5.0.
 
-| Token |Restrictions|
+| Token | Restrictions |
 | :- | :- |
-|**Keyword**|Only the following tokens are reserved as keywords: `true`, `false`, `null`, `new`, and `in`.|
-|**Identifier**|- The feature of keyword escaping through the “@” character is not supported.<br>- Unicode character escapes are not permitted in identifiers.|
-|**Literal**|None.|
-|**Operator**|See “Using Operators.”|
+| **Keyword** | Only the following tokens are reserved as keywords: `true`, `false`, `null`, `new`, and `in`. |
+| **Identifier** | - The feature of keyword escaping through the “@” character is not supported.<br>- Unicode character escapes are not permitted in identifiers. |
+| **Literal** | None. |
+| **Operator** | See “Using Operators.” |
 
 You can use the following identifiers that are not preceded by a member access operator in template expressions:
 

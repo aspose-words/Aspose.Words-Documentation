@@ -91,7 +91,7 @@ Aspose.Words fournit un modèle objet riche composé de plus de 100 classes publ
 | Conservez ou supprimez les macros VBA du document. Préserver la signature numérique des macros VBA. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Détectez et vérifiez les signatures numériques dans les documents. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Insérez du texte HTML. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Extrayez les macros VBA d'un document Word. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | | | |
+| Extrayez les macros VBA d'un document Word. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  | |  |
 
 ## Fonctionnalités de formatage des documents
 

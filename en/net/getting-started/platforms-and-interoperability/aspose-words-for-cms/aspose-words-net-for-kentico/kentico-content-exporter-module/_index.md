@@ -123,7 +123,7 @@ After you have installed the Aspose .NET Word Processing and PDF Document Export
 
 Please check [Using and configuring web parts](https://docs.xperience.io/k8/developing-websites/developing-websites-using-the-portal-engine/using-and-configuring-web-parts) for more details. 
 
-|![kentico-content-exporter-module_1](kentico-content-exporter-module_1)|![kentico-content-exporter-module_2](kentico-content-exporter-module_2)|![kentico-content-exporter-module_3](kentico-content-exporter-module_3)|
+| ![kentico-content-exporter-module_1](kentico-content-exporter-module_1) | ![kentico-content-exporter-module_2](kentico-content-exporter-module_2) | ![kentico-content-exporter-module_3](kentico-content-exporter-module_3) |
 | :- | :- | :- |
 
 You have successfully added Aspose .NET Word Processing and PDF Document Exporter for Kentico web part to your page. Two buttons, **Export to Word** and **Export to Pdf** will now appear on the page. Anyone can simply click on either of these buttons and export the content of the page into a Word Processing or PDF document.

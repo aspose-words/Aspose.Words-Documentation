@@ -34,7 +34,7 @@ def initialize()
     puts "Paragraphs with #{para_style} styles #{para_size}"
     paragraphs = paragraphs.toArray()
     save_format = Rjb::import("com.aspose.words.SaveFormat")
-    paragraphs.each do |paragraph|
+    paragraphs.each do | paragraph |
         puts paragraph.toString(save_format.TEXT)
     end
     
@@ -44,7 +44,7 @@ def initialize()
     runs_size = runs.size()
     puts "Runs with #{run_style} styles #{runs_size}"
     runs = runs.toArray()
-    runs.each do |run|
+    runs.each do | run |
         puts run.getRange().getText()
     end   
 end
@@ -59,7 +59,7 @@ def paragraphs_by_style_name(doc, para_style)
     paragraphs = paragraphs.toArray()
 
     # Look through all paragraphs to find those with the specified style.
-    paragraphs.each do |paragraph|
+    paragraphs.each do | paragraph |
         para_name = paragraph.getParagraphFormat().getStyle().getName()
         if (para_name == para_style) then
             paragraphsWithStyle.add(paragraph)
@@ -78,7 +78,7 @@ def runs_by_style_name(doc, run_style)
 
     # Look through all runs to find those with the specified style.
     runs = runs.toArray()
-    runs.each do |run|
+    runs.each do | run |
         if (run.getFont().getStyle().getName() == run_style) then
             runsWithStyle.add(run)
         end    

@@ -36,7 +36,7 @@ Bảng dưới đây liệt kê các định dạng và thuật toán mã hóa �
 | DOC, DOT | Xor mã hóa40 bit mã hóa RC4 Crypto API RC4 Mã hóa | RC4 Mã hóa (40 bit) |
 | DOCX, DOTX, DOCM, DOTM, FlatOPC, FlatOpcTemplate, FlatOpcMacroEnabled, FlatOpcTemplateMacroEnabled | Mã hóa ECMA-376ECMA-376 Mã hóa nhanh | Mã hóa tiêu chuẩn ECMA-376 (AES128 + SHA1) |
 | ODT, OTT | Mã hóa ODF (Blowfish/AES) | Mã hóa ODF (AES256 + SHA256) |
-| PDF |-| Độ mã hóa RC4 (40/128 bit) |
+| PDF | - | Độ mã hóa RC4 (40/128 bit) |
 
 Mã ví dụ sau cho thấy cách mã hóa tài liệu bằng mật khẩu:
 

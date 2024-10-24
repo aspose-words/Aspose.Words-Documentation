@@ -48,20 +48,20 @@ Các tập tin sau được sử dụng trong ví dụ trên. Tên tệp ở bê
 | Group của tập tin | Tài liệu đầu vào | Kiểu |
 |  :-  |  :-  |  :-  |
 | Các định dạng tập tin được hỗ trợ | Tệp thử nghiệm (Doc).doc | Tài liệu Microsoft Word 95/6.0 hoặc Microsoft Word 97 – 2003. |
-| | Tệp thử nghiệm (`Dot`).dot | Mẫu Microsoft Word 95/6.0 hoặc Microsoft Word 97 – 2003. |
-| | Tệp thử nghiệm (Docx).docx | Tài liệu Office Open XML WordprocessingML không có macro. |
-| | Tệp thử nghiệm (Docm).docm | Office Open XML Tài liệu WordprocessingML có macro. |
-| | Tệp thử nghiệm (Dotx).dotx | Mẫu XML WordprocessingML của Office Open. |
-| | Tệp kiểm tra (Dotm).dotm | Mẫu Office Open XML WordprocessingML có macro. |
-| | Tệp kiểm tra (XML).xml | Tài liệu OOXML FlatOPC. |
-| | Tệp kiểm tra (RTF).rtf | Tài liệu định dạng văn bản phong phú. |
-| | Tệp thử nghiệm (WordML).xml | Tài liệu WordprocessingML Microsoft Word 2003. |
-| | Tệp thử nghiệm (HTML).html | Tài liệu HTML. |
-| | Tệp thử nghiệm (MHTML).mhtml | Tài liệu MHTML (Web archive). |
-| | Tệp kiểm tra (Odt).odt | Văn bản OpenDocument (OpenOffice Writer). |
-| | Tệp thử nghiệm (Ott).ott | Mẫu tài liệu OpenDocument. |
-| | Tệp thử nghiệm (DocPreWord60).doc | Tài liệu Microsoft Word 2.0. |
+|  | Tệp thử nghiệm (`Dot`).dot | Mẫu Microsoft Word 95/6.0 hoặc Microsoft Word 97 – 2003. |
+|  | Tệp thử nghiệm (Docx).docx | Tài liệu Office Open XML WordprocessingML không có macro. |
+|  | Tệp thử nghiệm (Docm).docm | Office Open XML Tài liệu WordprocessingML có macro. |
+|  | Tệp thử nghiệm (Dotx).dotx | Mẫu XML WordprocessingML của Office Open. |
+|  | Tệp kiểm tra (Dotm).dotm | Mẫu Office Open XML WordprocessingML có macro. |
+|  | Tệp kiểm tra (XML).xml | Tài liệu OOXML FlatOPC. |
+|  | Tệp kiểm tra (RTF).rtf | Tài liệu định dạng văn bản phong phú. |
+|  | Tệp thử nghiệm (WordML).xml | Tài liệu WordprocessingML Microsoft Word 2003. |
+|  | Tệp thử nghiệm (HTML).html | Tài liệu HTML. |
+|  | Tệp thử nghiệm (MHTML).mhtml | Tài liệu MHTML (Web archive). |
+|  | Tệp kiểm tra (Odt).odt | Văn bản OpenDocument (OpenOffice Writer). |
+|  | Tệp thử nghiệm (Ott).ott | Mẫu tài liệu OpenDocument. |
+|  | Tệp thử nghiệm (DocPreWord60).doc | Tài liệu Microsoft Word 2.0. |
 | Tài liệu được mã hóa | Tệp thử nghiệm (Enc).doc | Tài liệu Microsoft Word 95/6.0 hoặc Microsoft Word 97 – 2003 được mã hóa. |
-| | Tệp thử nghiệm (Enc).docx | Văn phòng được mã hóa Tài liệu XML WordprocessingML mở. |
+|  | Tệp thử nghiệm (Enc).docx | Văn phòng được mã hóa Tài liệu XML WordprocessingML mở. |
 | Định dạng tệp không được hỗ trợ | Tệp thử nghiệm (JPG).jpg | tập tin hình ảnh JPEG. |
 

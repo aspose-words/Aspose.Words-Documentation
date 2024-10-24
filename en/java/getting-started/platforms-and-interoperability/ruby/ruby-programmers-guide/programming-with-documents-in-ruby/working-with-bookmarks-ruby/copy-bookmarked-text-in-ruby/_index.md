@@ -42,7 +42,7 @@ def append_bookmark_text()
 
     # This is the paragraph that contains the end of the bookmark.
     end_para = src_bookmark.getBookmarkEnd().getParentNode()
-    if (start_para == "" || end_para == "") then
+    if (start_para == "" |  | end_para == "") then
         raise "Parent of the bookmark start or end is not a paragraph, cannot handle this scenario yet."
     end
     util = Rjb::import("java.io.InputStream")

@@ -48,20 +48,20 @@ Aspose.Words امکان به دست آوردن اطلاعات در مورد نو
 | Group از فایل ها | سند ورودی | تایپ کنید |
 |  :-  |  :-  |  :-  |
 | فرمت های فایل پشتیبانی شده | فایل تست (Doc).doc | سند Microsoft Word 95/6.0 یا Microsoft Word 97 – 2003. |
-| | فایل تست (`Dot`).dot | الگوی Microsoft Word 95/6.0 یا Microsoft Word 97 – 2003. |
-| | فایل تست (Docx).docx | Office Open XML WordprocessingML سند بدون ماکرو. |
-| | فایل تست (Docm).docm | Office سند XML WordprocessingML را با ماکروها باز کنید. |
-| | فایل تست (Dotx).dotx | قالب Office Open XML WordprocessingML. |
-| | فایل تست (Dotm).dotm | Office Open XML WordprocessingML قالب با ماکرو. |
-| | فایل تست (XML).xml | سند FlatOPC OOXML. |
-| | فایل تست (RTF).rtf | سند با فرمت متن غنی |
-| | فایل تست (WordML).xml | سند WordprocessingML Microsoft Word 2003. |
-| | فایل تست (HTML).html | سند HTML |
-| | فایل تست (MHTML).mhtml | سند MHTML (بایگانی وب). |
-| | فایل تست (Odt).odt | متن OpenDocument (OpenOffice Writer). |
-| | فایل تست (Ott).ott | قالب سند OpenDocument. |
-| | فایل آزمایشی (DocPreWord60).doc | سند Microsoft Word 2.0. |
+|  | فایل تست (`Dot`).dot | الگوی Microsoft Word 95/6.0 یا Microsoft Word 97 – 2003. |
+|  | فایل تست (Docx).docx | Office Open XML WordprocessingML سند بدون ماکرو. |
+|  | فایل تست (Docm).docm | Office سند XML WordprocessingML را با ماکروها باز کنید. |
+|  | فایل تست (Dotx).dotx | قالب Office Open XML WordprocessingML. |
+|  | فایل تست (Dotm).dotm | Office Open XML WordprocessingML قالب با ماکرو. |
+|  | فایل تست (XML).xml | سند FlatOPC OOXML. |
+|  | فایل تست (RTF).rtf | سند با فرمت متن غنی |
+|  | فایل تست (WordML).xml | سند WordprocessingML Microsoft Word 2003. |
+|  | فایل تست (HTML).html | سند HTML |
+|  | فایل تست (MHTML).mhtml | سند MHTML (بایگانی وب). |
+|  | فایل تست (Odt).odt | متن OpenDocument (OpenOffice Writer). |
+|  | فایل تست (Ott).ott | قالب سند OpenDocument. |
+|  | فایل آزمایشی (DocPreWord60).doc | سند Microsoft Word 2.0. |
 | اسناد رمزگذاری شده | فایل تست (Enc).doc | سند رمزگذاری شده Microsoft Word 95/6.0 یا Microsoft Word 97 – 2003. |
-| | فایل تست (Enc).docx | سند رمزگذاری شده Office Open XML WordprocessingML. |
+|  | فایل تست (Enc).docx | سند رمزگذاری شده Office Open XML WordprocessingML. |
 | فرمت های فایل پشتیبانی نشده | فایل تست (JPG).jpg | فایل تصویری JPEG |
 

@@ -36,29 +36,29 @@ url: /zh-hant/net/translate-markdown-to-document-object-model/
 | 「Markdown功能」 | Aspose.Words |
 | ----------------------------- | ------------------ |
 | **Bold**<br /> `{1}` | `Font.Bold = true` |
-| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BoldText.cs" >}} ||
+| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BoldText.cs" >}} |  |
 | 「**Italic**<br /> `*italic text*`」 | `Font.Italic = true` |
-| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}} ||
+| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}} |  |
 | 「**Strikethrough**<br />`~Strikethrough text~`」 | `Font.StrikeThrough = true` |
 | {{< highlight csharp >}}// Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
 builder.Font.Strikethrough = true;
-builder.Writeln("This text will be Strikethrough");{{< /highlight >}} ||
+builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
 
 「我們使用一個以字元 `InlineCode` 開始，並接著可選點 `(.)` 和任意數量的反引號 ```(`)``` 來命名之字元風格，用於 `InlineCode` 特徵。」 「如果遺漏了幾個反引號，則一個反引號將默認使用。」
 
 | 「Markdown 功能」 | Aspose.Words |
 | ----------------------------- | ------------------ |
 | 「**InlineCode** <br /> `{1}`」 | `Font.StyleName = “InlineCode[.][N]”` |
-| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-InlineCode.cs" >}} ||
+| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-InlineCode.cs" >}} |  |
 | 「**Autolink**<br />`<scheme://domain.com>`<br />`<email@domain.com>`」 | 「 [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/) 類別。」 |
-| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Autolink.cs" >}} ||
+| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Autolink.cs" >}} |  |
 | **Link**<br /> `{1}`<br /> `{2}`<br /> `{3}`<br /> `{4})` | 「[FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/) 類別。」 |
-| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Link.cs" >}} ||
+| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Link.cs" >}} |  |
 | 「**Image**<br /> `{1}`<br /> `{2}`<br /> `{3}`<br /> `{4})`」 | 「[Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) 類別。」 |
-| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Image.cs" >}} ||
+| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Image.cs" >}} |  |
 
 ## 容器塊
 
@@ -71,9 +71,9 @@ builder.Writeln("This text will be Strikethrough");{{< /highlight >}} ||
 | 「Markdown功能」 | Aspose.Words |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **HorizontalRule**<br />`-----` | 「這是個簡單的段落，其對應的HorizontalRule形狀：<br /> `DocumentBuilder.InsertHorizontalRule()`」 |
-| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-HorizontalRule.cs" >}} ||
+| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-HorizontalRule.cs" >}} |  |
 | **ATX Heading**<br />`# H1, ## H2, ### H3…` | 「`ParagraphFormat.StyleName = “Heading N”`，其中 1 <= N <= 9」。<br />這被翻譯成內建样式，且應完全符合指定模式（不允許有後綴或前綴）。<br />否則，它只是一個普通段落，具有相應的样式。 |
-| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}} ||
+| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}} |  |
 | 「**Setext Heading**<br />`===`（若為第1級標題），<br />`---`（若為第2級標題）」 | 「`ParagraphFormat.StyleName = “SetextHeading[some suffix]”`，以 `“Heading N”` 樣式為基礎。<br />若 (N >= 2)，則使用 `“Heading 2”`，否則使用 `“Heading 1”`。<br />允許任何尾數，但 Aspose.Words 進口器分別使用數字"1"和"2"。」 |
 | {{< highlight csharp >}}// Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
@@ -104,13 +104,13 @@ builder.Document.Styles["SetextHeading2"].BaseStyleName = "Heading 3";
 // Setex heading level will be reset to 2 if the base paragraph has a Heading level greater than 2.
 builder.Writeln("Setext Heading level 2");{{< /highlight >}} |
 | **Indented Code** | `ParagraphFormat.StyleName = “IndentedCode[some suffix]”` |
-| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-IndentedCode.cs" >}} ||
+| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-IndentedCode.cs" >}} |  |
 | 「**Fenced Code** <br /> {{< highlight csharp >}}``` c#
 if ()
 then
 else
 ```{{< /highlight >}}」 | 「`ParagraphFormat.StyleName = “FencedCode[.][info string]”` <br /> `[.]` 和 `[info string]` 是可選的。」 |
-| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-FencedCode.cs" >}} ||
+| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-FencedCode.cs" >}} |  |
 
 ### 「複雜容器」
 
@@ -132,7 +132,7 @@ builder.ParagraphFormat.Style = quoteLevel2;
 builder.Document.Styles["Quote1"].BaseStyleName = "Quote";
 builder.Writeln("1. Nested blockquote");{{< /highlight >}} |
 | 「**BulletedList** <br /> `- Item 1` <br /> `- Item 2` <br /> `   - Item 2a` <br /> `   - Item 2b`」 | 「無序清單是以段落計數的方式來表示：<br /> `ListFormat.ApplyBulletDefault()`<br /> 無序清單有 3 種类型。」 「他們只是在第一層的數字格式上有所不同。」 這些是：`‘-’`、`‘+’` 或 `‘*’`。 |
-| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BulletedList.cs" >}} ||
+| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BulletedList.cs" >}} |  |
 | 「**OrderedList** <br /> `1. Item 1` <br /> `2. Item 2` <br /> `1) Item 2a` <br /> `2) Item 2b`」 | 「有序清單是使用段落計數來表示：<br />`ListFormat.ApplyNumberDefault()`<br />可有 2 個數字格式記號：`.` 和 `)'。」 預設的標記是「.」 |
 | {{< highlight csharp >}}Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -147,7 +147,7 @@ builder.Writeln("Item 2");
 builder.ListFormat.ListIndent();
 
 builder.Writeln("Item 2a");
-builder.Writeln("Item 2b");{{< /highlight >}} ||
+builder.Writeln("Item 2b");{{< /highlight >}} |  |
 
 ### 「表」
 
@@ -155,7 +155,7 @@ builder.Writeln("Item 2b");{{< /highlight >}} ||
 
 | Markdown 功能 | Aspose.Words |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| `Table`<br />`a | b`<br />`- | -`<br />`c | d' | 「[Table](https://reference.aspose.com/words/net/aspose.words.tables/table/)、[Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) 和 [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) 課程。」 |
+| `Table`<br />`a|b`<br />`-|-`<br />`c|d' | 「[Table](https://reference.aspose.com/words/net/aspose.words.tables/table/)、[Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) 和 [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) 課程。」 |
 | {{< highlight csharp >}}// Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
@@ -169,7 +169,7 @@ builder.Writeln("b");
 builder.InsertCell();
 builder.Writeln("c");
 builder.InsertCell();
-builder.Writeln("d");{{< /highlight >}} ||
+builder.Writeln("d");{{< /highlight >}} |  |
 
 ## 另見：
 

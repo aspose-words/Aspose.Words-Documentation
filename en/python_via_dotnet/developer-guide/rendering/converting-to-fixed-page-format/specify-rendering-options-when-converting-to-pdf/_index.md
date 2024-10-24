@@ -102,10 +102,10 @@ Aspose.Words also enables you to control how fonts are embedded into the resulti
 
 There is a way to specify an option for Aspose.Words to embed full fonts. Further details, along with some advantages and disadvantages of each setting are described in the table below.
 
-|Embed Fonts Mode| Advantages |Disadvantages|
+| Embed Fonts Mode | Advantages | Disadvantages |
 | :- | :- | :- |
-| `Full` |Useful when you want to edit the resulting PDF later by adding or modifying the text. All fonts are included, hence all glyphs are present.|Since some fonts are large (several megabytes), embedding them without subsetting can result in large output files.|
-| `Subset` |Subsetting is useful if you want to keep the output file size smaller.|<p>The user cannot fully add or edit text using the subsetted font in the output PDF document. This is because not all glyphs of the font are present.</p><p>If multiple PDFs are saved with subsetted fonts and assembled together, then the combined PDF document may have a font containing many unnecessary subsets.</p>|
+| `Full` | Useful when you want to edit the resulting PDF later by adding or modifying the text. All fonts are included, hence all glyphs are present. | Since some fonts are large (several megabytes), embedding them without subsetting can result in large output files. |
+| `Subset` | Subsetting is useful if you want to keep the output file size smaller. | <p>The user cannot fully add or edit text using the subsetted font in the output PDF document. This is because not all glyphs of the font are present.</p><p>If multiple PDFs are saved with subsetted fonts and assembled together, then the combined PDF document may have a font containing many unnecessary subsets.</p> |
 
 ### Embedding Full Fonts in PDF
 

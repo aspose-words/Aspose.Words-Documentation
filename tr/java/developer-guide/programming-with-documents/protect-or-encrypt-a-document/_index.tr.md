@@ -23,7 +23,7 @@ Aspose.Words şu anda, aşağıdaki tabloda listelenen belge özelliklerini sağ
 | ------------------------------- | ------------------------------ | ------------------------------------------------------------ |
 | Yalnız Okunur | Bir belgeyi yalnızca okuma olarak aç | Her Zaman Açık Okunur (Dosya → Bilgi → Belgeyi Koruma) <br />Alternatif özellik: "Değiştirici Parola" (Farklı Olarak Kaydet → Araçlar → Genel Seçenekler → Parola) |
 | Bir Belgeyi Şifrele | Bir Belgeyi Şifrele | Şifreleme Şifresi (Dosya → Bilgi → Belgeyi Koru) <br />Alternatif özellik: "Açmak için şifre" (Farklı Kaydet → Araçlar → Genel Seçenekler → Şifre) |
-| Düzenlemeyi Kısıtlama | Belge Düzenlemeyi Kısıtla | Düzenlemeyi Sınırla (Dosya – Bilgi – Belgeyi Koru)<br />"Alternatif özellik:" "Düzenlemeyi Sınırla" (İnceleme → Koru → Düzenlemeyi Sınırla) |
+| Düzenlemeyi Kısıtlama|Belge Düzenlemeyi Kısıtla|Düzenlemeyi Sınırla (Dosya – Bilgi – Belgeyi Koru)<br />"Alternatif özellik:" "Düzenlemeyi Sınırla" (İnceleme → Koru → Düzenlemeyi Sınırla) |
 | Dijital İmzalar | Dijital İmzalarla Çalışın | Dijital İmza Ekle (Dosya → Bilgi → Belgeyi Koru) |
 
 {{% alert color="primary" %}}

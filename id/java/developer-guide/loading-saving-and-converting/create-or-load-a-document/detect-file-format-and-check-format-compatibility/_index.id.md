@@ -48,20 +48,20 @@ File berikut digunakan dalam contoh di atas. Nama file berada di sebelah kiri da
 | Group Login | Dokumen Masuk | Login |
 |  :-  |  :-  |  :-  |
 | Format file yang didukung | File Uji (Doc).doc | Microsoft Word 95/6.0 atau Microsoft Word 97 – 2003 dokumen. |
-| | Uji File (Dot).dot | Microsoft Word 95/6.0 atau Microsoft Word 97 – 2003 template. |
-| | File Uji (Docx).docx | Office Open XML API Dokumen ML tanpa makro. |
-| | Uji File (Docm).docm | Office Open XML API Dokumen ML dengan makro. |
-| | Uji File (Dotx).dotx | Office Open XML API Template ML. |
-| | Uji File (Dotm).dotm | Office Open XML API Template ML dengan makro. |
-| | API documentation | Sitemap |
-| | Uji File (RTF).rtf | Dokumen Format Teks yang kaya. |
-| | Test File (WordML).xml | Microsoft Word 2003 Wordprocessing Dokumen ML. |
-| | API documentation | Database |
-| | File Folder (MHTML).mhtml | MHTML (Web arsip) dokumen. |
-| | Uji File (Odt).odt | OpenOffice Writer |
-| | Uji File (Ott).ott | Template Dokumen OpenDocument. |
-| | File Uji (DocPreWord60).doc | Microsoft Word 2.0 dokumen. |
+|  | Uji File (Dot).dot | Microsoft Word 95/6.0 atau Microsoft Word 97 – 2003 template. |
+|  | File Uji (Docx).docx | Office Open XML API Dokumen ML tanpa makro. |
+|  | Uji File (Docm).docm | Office Open XML API Dokumen ML dengan makro. |
+|  | Uji File (Dotx).dotx | Office Open XML API Template ML. |
+|  | Uji File (Dotm).dotm | Office Open XML API Template ML dengan makro. |
+|  | API documentation | Sitemap |
+|  | Uji File (RTF).rtf | Dokumen Format Teks yang kaya. |
+|  | Test File (WordML).xml | Microsoft Word 2003 Wordprocessing Dokumen ML. |
+|  | API documentation | Database |
+|  | File Folder (MHTML).mhtml | MHTML (Web arsip) dokumen. |
+|  | Uji File (Odt).odt | OpenOffice Writer |
+|  | Uji File (Ott).ott | Template Dokumen OpenDocument. |
+|  | File Uji (DocPreWord60).doc | Microsoft Word 2.0 dokumen. |
 | Dokumen yang dienkripsi | Datasheet (Enc).doc | Sitemap Microsoft Word 95/6.0 atau Microsoft Word 97 – 2003 dokumen. |
-| | Datasheet (Enc).docx | Enkripsi Office Open XML Wordprocessing Dokumen ML. |
+|  | Datasheet (Enc).docx | Enkripsi Office Open XML Wordprocessing Dokumen ML. |
 | Unsupported format file | Uji File (JPG). Login | File gambar JPEG. |
 

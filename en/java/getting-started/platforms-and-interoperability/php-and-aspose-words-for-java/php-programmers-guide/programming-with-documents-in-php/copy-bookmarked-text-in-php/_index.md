@@ -59,7 +59,7 @@ $startPara = $srcBookmark->getBookmarkStart()->getParentNode();
 
 // This is the paragraph that contains the end of the bookmark.
 $endPara = $srcBookmark->getBookmarkEnd()->getParentNode();
-if ((java_values($startPara) == null) || (java_values($endPara) == null))
+if ((java_values($startPara) == null) |  | (java_values($endPara) == null))
 throw new Exception("Parent of the bookmark start or end is not a paragraph, cannot handle this scenario yet.");
 
 // Limit ourselves to a reasonably simple scenario.

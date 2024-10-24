@@ -48,20 +48,20 @@ Aspose.Words فراهم می کند توانایی به دست آوردن اطل
 | Group فایل ها | سند ورودی | نوع |
 |  :-  |  :-  |  :-  |
 | پشتیبانی از فرمت های فایل | تست فایل (دکتر) | Microsoft Word 95/6.0 یا Microsoft Word 97 - 2003 سند |
-| | تست فایل (Dot) | Microsoft Word 95/6.0 یا Microsoft Word 97 - 2003 قالب |
-| | تست فایل (Docx) | Open XML Word Processing اسناد ML بدون ماکرو |
-| | تست فایل (Docm)docm | Open XML Word Processing ML با ماکروها |
-| | تست فایل (Dotx) | Open XML Word Processing قالب ML |
-| | تست فایل (Dotm) | Open XML Word Processing قالب ML با ماکروها |
-| | تست فایل (XML) XML | BedOPC OOXML Document |
-| | تست فایل (RTF) | Rich text Format document |
-| | تست فایل (WordML) | Microsoft Word ۲۰۰۳ Word Processing اسناد ML |
-| | تست File (HTML) | سند HTML |
-| | تست فایل (MHTML) | MHTML (Web Archive) سند |
-| | تست فایل (Odt) | OpenDocument Text (OpenOffice Writer) |
-| | تست فایل (Ott) | OpenDocument Document |
-| | تست فایل (DocpreWord60) | Microsoft Word 2 سند |
+|  | تست فایل (Dot) | Microsoft Word 95/6.0 یا Microsoft Word 97 - 2003 قالب |
+|  | تست فایل (Docx) | Open XML Word Processing اسناد ML بدون ماکرو |
+|  | تست فایل (Docm)docm | Open XML Word Processing ML با ماکروها |
+|  | تست فایل (Dotx) | Open XML Word Processing قالب ML |
+|  | تست فایل (Dotm) | Open XML Word Processing قالب ML با ماکروها |
+|  | تست فایل (XML) XML | BedOPC OOXML Document |
+|  | تست فایل (RTF) | Rich text Format document |
+|  | تست فایل (WordML) | Microsoft Word ۲۰۰۳ Word Processing اسناد ML |
+|  | تست File (HTML) | سند HTML |
+|  | تست فایل (MHTML) | MHTML (Web Archive) سند |
+|  | تست فایل (Odt) | OpenDocument Text (OpenOffice Writer) |
+|  | تست فایل (Ott) | OpenDocument Document |
+|  | تست فایل (DocpreWord60) | Microsoft Word 2 سند |
 | اسناد رمزگذاری شده | تست فایل (Enc) | رمزگذاری شده Microsoft Word 95/6.0 یا Microsoft Word 97 - 2003 سند |
-| | تست فایل (Enc) | رمزگذاری شده Office Open XML Word Processing اسناد ML |
+|  | تست فایل (Enc) | رمزگذاری شده Office Open XML Word Processing اسناد ML |
 | فرمت های فایل پشتیبانی نشده | تست فایل (JPG) jpg | فایل تصویر JPEG |
 

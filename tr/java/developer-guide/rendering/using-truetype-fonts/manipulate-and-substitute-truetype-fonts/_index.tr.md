@@ -224,7 +224,7 @@ Aspose.Words dosya sisteminde otomatik olarak TrueType yazı tiplerini bulmaya �
 
 Aşağıdaki tabloda gösterildiği gibi, yazı tipleri formatlarının işlenmesi Aspose.Words ve Microsoft Word arasında bazı farklılıklar vardır:
 
-|| Microsoft Word | Aspose.Words |
+|  | Microsoft Word | Aspose.Words |
 | :- | :- | :- |
 | TrueType yazı tipleri ve TrueType çizgileri olan OpenType yazı tipleri | Desteklendi. | Destekli. |
 | Postscript çizgileri olan OpenType yazı tipleri | Çoğu senaryo için desteklenir. Sabit sayfa formatlarına gömme ve örneğin PDF ve XPS'a destek verilmiyor. Metin bitmap görüntüleriyle değiştirilir. | Çoğu senaryo için desteklenir, sabit sayfa formatlarına gömme dahil. |

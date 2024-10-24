@@ -21,12 +21,12 @@ To use Aspose.Words for JasperReports from your application, you should copy a s
 
 Starting from release **1.9.0** there are several versions of jar library (necessary for better support of older versions of JasperReports):
 
-|For<br>JasperServer|For<br>JasperReports|Use the following JAR library|
+| For<br>JasperServer | For<br>JasperReports | Use the following JAR library |
 | :- | :- | :- |
-|7.8.0 ... 8.0.0|6.12.0... 6.20.0|**aspose.words.jasperreports-xx.x.x-7.8.0-8.0.0.jar**|
-|7.1.0 ... 7.5.0|6.5.0 ... 6.11.0|**aspose.words.jasperreports-xx.x.x-7.1.0-7.5.0.jar**|
-|6.4.2 ... 6.4.3|6.4.2 ... 6.4.21|**aspose.words.jasperreports-xx.x.x-6.4.2-6.4.3.jar**|
-|6.3.0 ... 6.4.0|6.3.0 ... 6.4.1|**aspose.words.jasperreports-xx.x.x-6.3.0-6.4.0.jar**|
+| 7.8.0 ... 8.0.0 | 6.12.0... 6.20.0 | **aspose.words.jasperreports-xx.x.x-7.8.0-8.0.0.jar** |
+| 7.1.0 ... 7.5.0 | 6.5.0 ... 6.11.0 | **aspose.words.jasperreports-xx.x.x-7.1.0-7.5.0.jar** |
+| 6.4.2 ... 6.4.3 | 6.4.2 ... 6.4.21 | **aspose.words.jasperreports-xx.x.x-6.4.2-6.4.3.jar** |
+| 6.3.0 ... 6.4.0 | 6.3.0 ... 6.4.1 | **aspose.words.jasperreports-xx.x.x-6.3.0-6.4.0.jar** |
 
 Please copy **ONLY ONE** jar library according to the version of installed JasperReports.
 

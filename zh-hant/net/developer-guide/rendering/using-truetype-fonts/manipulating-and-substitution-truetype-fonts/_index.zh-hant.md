@@ -213,7 +213,7 @@ fontSettings.FallbackSettings.LoadNotoFallbackSettings();
 
 「在 Aspose.Words 和 Microsoft Word 的字體格式處理上有些差異，如下表所示：」
 
-|| Microsoft Word | Aspose.Words |
+|  | Microsoft Word | Aspose.Words |
 | :- | :- | :- |
 | 「 TrueType 字型和具有 TrueType 輪廓的 OpenType 字型」 | 「支援。 | 「受支援。」 |
 | 「具有PostScript線條的OpenType字型」 | 支援大多數情境。 嵌入到固定頁格式，例如PDF和XPS，不受支援。 文字用位圖圖像取代。 | 「支援大多數場景，包括將嵌入到固定頁面格式。」 |

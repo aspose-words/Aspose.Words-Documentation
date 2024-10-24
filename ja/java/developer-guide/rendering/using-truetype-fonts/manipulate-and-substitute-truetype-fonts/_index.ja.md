@@ -224,7 +224,7 @@ Aspose.Words ファイルシステムに TrueType フォントを自動的に検
 
 フォントフォーマットの処理に若干の違いがあります Aspose.Words そして、 Microsoft Word 以下の表に示すように:
 
-| | Microsoft Word | Aspose.Words |
+|  | Microsoft Word | Aspose.Words |
 |  :-  |  :-  |  :-  |
 | TrueType フォントと OpenType フォントを TrueType のアウトラインで指定 | サポート | サポート |
 | PostScript のアウトラインを持つ OpenType フォント | ほとんどのシナリオに対応 PDFなどの固定ページフォーマットに埋め込む XPS 対応していません。 テキストはビットマップ画像に置き換えられます。 | 固定ページフォーマットへの埋め込みを含むほとんどのシナリオに対応しました。 |

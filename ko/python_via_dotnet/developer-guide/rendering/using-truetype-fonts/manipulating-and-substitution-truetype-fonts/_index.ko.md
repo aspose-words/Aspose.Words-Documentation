@@ -185,7 +185,7 @@ Aspose.Words는 파일 시스템에서 자동으로 트루타입 글꼴을 찾�
 
 아래 표에 표시된 것처럼 Aspose.Words 및 Microsoft Word의 글꼴 형식 처리에는 몇 가지 차이점이 있습니다
 
-|| Microsoft Word | Aspose.Words |
+|  | Microsoft Word | Aspose.Words |
 |  :-  |  :-  |  :-  |
 | 트루타입 윤곽선이 있는 트루타입 글꼴 및 오픈타입 글꼴 | 지원됩니다. | 지원됩니다. |
 | PostScript 윤곽선이 있는 OpenType 글꼴 | 대부분의 시나리오에서 지원됩니다. PDF 및 XPS와 같은 고정 페이지 형식에 포함하는 것은 지원되지 않습니다. 텍스트가 비트맵 이미지로 대체됩니다. | 고정 페이지 형식에 포함하는 것을 포함하여 대부분의 시나리오에서 지원됩니다. |
