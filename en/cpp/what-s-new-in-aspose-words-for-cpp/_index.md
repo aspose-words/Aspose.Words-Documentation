@@ -11,37 +11,60 @@ url: /cpp/what-s-new-in-aspose-words-for-cpp/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for C++ 24.9
+## Aspose.Words for C++ 24.9, 24.10
 
 Aspose.Words 24.9 introduces group shape insertion and StructuredDocumentTag insertion via DocumentBuilder, enhances radial chart rendering with graduations, improves digital signatures with XAdES-EPES support, adds Markdown underline recognition, and provides access to footnote/endnote separators.
 
+Aspose.Words 24.10 introduces enhanced ActiveX control support with CommandButton creation, new shape visibility control, the ability to group shapes, improved Markdown export for tables, chart formatting for Pie and Doughnut charts, better Big5 encoding handling, and support for outdated Taiwanese fonts.
+
 ### Rendering and Printing
 
-#### Graduations on Radial Charts
+#### Graduations on Radial Charts <sup>24.9</sup>
 
 Rendering of graduations on radial charts has been implemented.
 
+#### CommandButton ActiveX Controls <sup>24.10</sup>
+
+The ability to create CommandButton ActiveX controls has been introduced by adding a new public method [InsertForms2OleControl]() and a new public class [Forms2OleControl]().
+
+#### Control Shape Visibility <sup>24.10</sup>
+
+A new public property [Hidden]() has been added to control the visibility of shapes.
+
+#### Changes in Pie and Doughnut Charts <sup>24.10</sup>
+
+Several new public properties have been added to format Pie and Doughnut charts.
+
 ### Converting, Loading and Saving Documents
 
-#### Underline Formatting when Loading Markdown Files
+#### Underline Formatting when Loading Markdown Files <sup>24.9</sup>
 
 The option to recognize underline formatting when loading Markdown documents has been incorporated by adding a new public property [ImportUnderlineFormatting]().
 
+#### Exporting tables as HTML when saving to Markdown <sup>24.10</sup>
+
+An option to export tables as HTML when saving documents to Markdown format has been implemented by adding a new public property [ExportAsHtml]() and an enumeration [MarkdownExportAsHtml]().
+
 ### Digital Signatures
 
-#### Sign Documents with XAdES-EPES
+#### Sign Documents with XAdES-EPES <sup>24.9</sup>
 
 The ability to sign documents with XAdES-EPES level XML-DSig signatures has been introdused by adding a new public property [XmlDsigLevel]() and a new public enumeration [XmlDsigLevel]().
 
 ### Other
 
-* A new public method [InsertGroupShape]() has been added to group shapes.
-* A new public method [InsertStructuredDocumentTag]() has been added to insert **StructuredDocumentTags** into a document.
-* Public access to footnote/endnote separators has been provided by adding a few public classes and properties.
+* A new public method [InsertGroupShape]() has been added to group shapes. <sup>24.9</sup>
+* A new public method [InsertStructuredDocumentTag]() has been added to insert **StructuredDocumentTags** into a document. <sup>24.9</sup>
+* Public access to footnote/endnote separators has been provided by adding a few public classes and properties. <sup>24.9</sup>
+* The ability to group individual shapes, group shapes together, and directly group both shapes and group shapes has been introduced by adding the [InsertGroupShape]() method. <sup>24.10</sup>
+* Big5 encoding handling for TrueType cmap tables has been improved. <sup>24.10</sup>
+* Support for outdated Taiwanese fonts has been enhanced. <sup>24.10</sup>
 
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for C++ 24.9 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-9-release-notes/).
+
+Learn more about [Aspose.Words for C++ 24.10 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-10-release-notes/).
 
 {{% /alert %}}
 
