@@ -56,11 +56,11 @@ Since the font metrics of Windows and non-Windows OS are different, Aspose.Words
 
 #### Where Aspose.Words Looks for TrueType Fonts on Linux
 
-Different Linux distributions may store fonts in different folders. Aspose.Words looks for fonts in several locations. By default, Aspose.Words looks for the fonts in all of the following locations: * /usr/share/fonts* /usr/local/share/fonts* /usr/X11R6/lib/X11/fontsThis default behavior will work for most Linux distributions, but it is not guaranteed to work all of the time, in which case you might need to specify the location of true type fonts explicitly. To do this, you need to know where TrueType fonts are installed on your Linux distribution.
+Different Linux distributions may store fonts in different folders. Aspose.Words looks for fonts in several locations. By default, Aspose.Words looks for the fonts in all of the following locations: `/usr/share/fonts`, `/usr/local/share/fonts`, `/usr/X11R6/lib/X11/fonts`. This default behavior will work for most Linux distributions, but it is not guaranteed to work all of the time, in which case you might need to specify the location of true type fonts explicitly. To do this, you need to know where TrueType fonts are installed on your Linux distribution.
 
 #### Where Aspose.Words Looks for TrueType Fonts on Mac OS X
 
-Aspose.Words looks for fonts in the /Library/Fonts folder, which is the standard location for TrueType fonts on Mac OS X. While this setting will work for you most of the time, you may need to specify your own fonts folders in the case when you need to.
+Aspose.Words looks for fonts in the `/Library/Fonts` folder, which is the standard location for TrueType fonts on Mac OS X. While this setting will work for you most of the time, you may need to specify your own fonts folders in the case when you need to.
 
 ## Load Fonts from Folder {#loading-fonts-from-folder}
 
