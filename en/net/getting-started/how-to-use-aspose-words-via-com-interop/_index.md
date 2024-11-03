@@ -60,7 +60,7 @@ The ProgIDs consist of the library name ("Aspose.Words") and the class name.
 
 During installation, the Aspose.Words.tlb (COM type library) is copied to your computer to:
 
-- For .NET Framework 4.0 to **<installdir>\lib\net40-client**
+- For .NET Framework 4.0 to `<installdir>\lib\net40-client`
 
 If your programming language (for example Visual Basic or Delphi) allows you to reference a `COM` type library, then add a reference to **Aspose.Words.tlb** and you will be able to see all Aspose.Words classes, methods, properties and enumerations in your Object Browser.
 

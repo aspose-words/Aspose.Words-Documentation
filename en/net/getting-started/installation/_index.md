@@ -55,7 +55,7 @@ You must be logged in to download the installer. If you are not registered yet, 
 
 To Install Aspose.Words for .NET, follow these steps:
 
-1. Download `Aspose.Words_`{LatestVersion}.msi from the [downloads section](https://releases.aspose.com/words/)
+1. Download `Aspose.Words_{LatestVersion}.msi` from the [downloads section](https://releases.aspose.com/words/)
 2. Doble-click the downloaded file, thereby starting the setup wizard, follow the setup wizard instructions<br>
    <img src="aspose-words-setup-1.png" alt="aspose-words-setup-1" style="width:500px"/>
 3. When the setup wizard completes the installation, the required files will be available in the folder at the provided folder path<br>
