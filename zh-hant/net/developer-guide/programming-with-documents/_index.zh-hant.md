@@ -1,19 +1,19 @@
 ---
 title: 在C#中使用文件進行編程
-second_title: 「Aspose.Words for .NET」
-articleTitle: 「與文件一起編程」
-linktitle: 「與文件一起編程」
+second_title: Aspose.Words for .NET
+articleTitle: 與文件一起編程
+linktitle: 與文件一起編程
 type: docs
 description: "透過使用 Aspose.Words Document Object Model 類別，以 C# 在 .NET 中以程式方式建立、修改及管理文件。 透過管理顏色、形狀、字體和其他圖形，工作於文件的屬性、設定和內容，以及其樣式。"
 weight: 60
 url: /zh-hant/net/programming-with-documents/
 ---
 
-「本節提供有關如何以程式方式建立、修改及管理使用 Aspose.Words Document Object Model 類別的文件之資訊。」 「本節的文章描述了一系列檔案操作任務，讓您可以工作於檔案的屬性、設定、內容及其元素。」
+本節提供有關如何以程式方式建立、修改及管理使用 Aspose.Words Document Object Model 類別的文件之資訊。 本節的文章描述了一系列檔案操作任務，讓您可以工作於檔案的屬性、設定、內容及其元素。
 
-「文件的視覺呈現」是此區段涵蓋的重要主題，它包含有關如何使用顏色、形狀、字體以及其他圖形元素的文章。
+文件的視覺呈現是此區段涵蓋的重要主題，它包含有關如何使用顏色、形狀、字體以及其他圖形元素的文章。
 
-「若要了解更多關於 Aspose.Words 的程式設計功能，請選擇相應的文章或文章集：」
+若要了解更多關於 Aspose.Words 的程式設計功能，請選擇相應的文章或文章集：
 
 - [Aspose.Words Document Object Model](/words/net/aspose-words-document-object-model/)
 - [Translate Markdown to Document Object Model (DOM)](/words/net/translate-markdown-to-document-object-model/)
@@ -59,4 +59,4 @@ url: /zh-hant/net/programming-with-documents/
 - [Working with Markdown Features](/words/net/working-with-markdown-features/)
 - [Working with Text Document](/words/net/working-with-text-document/)
 
-「詳細的類別、方法和屬性描述請參閱 Aspose.Words 中的 .NET API Reference 部分。」
+詳細的類別、方法和屬性描述請參閱 Aspose.Words 中的 .NET API Reference 部分。

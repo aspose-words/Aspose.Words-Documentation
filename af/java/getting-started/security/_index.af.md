@@ -1,0 +1,14 @@
+﻿---
+title: Sekuriteit Notas
+second_title: Aspose.Words vir Java
+articleTitle: Sekuriteit Notas
+linktitle: Sekuriteit Notas
+type: docs
+description: "Aspose.Words vir Java erken en voldoen aan gemeenskaplike sekuriteitstandaarde om'n hoë vlak van data sekuriteit te verseker. Kyk na moontlike veiligheidskwessies en aanbevelings oor hoe om dit te vermy."
+weight: 120
+url: /af/java/security/
+---
+
+Sekuriteit help om data te beskerm teen ongemagtigde toegang, sowel as kwaadwillige of toevallige veranderinge. Aspose.Words is uiters oplettend vir die sekuriteit van kliëntedata, daarom erken en voldoen dit aan die gemeenskaplike sekuriteitstandaarde.
+
+In hierdie afdeling kyk ons na sommige van die moontlike sekuriteitskwessies en gee aanbevelings oor hoe om dit te vermy wanneer u met Aspose.Words werk.

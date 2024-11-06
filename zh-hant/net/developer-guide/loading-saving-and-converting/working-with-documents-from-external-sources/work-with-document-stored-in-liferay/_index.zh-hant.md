@@ -1,6 +1,6 @@
 ---
 title: 與儲存在 Liferay 的文件一起工作
-second_title: 「Aspose.Words for .NET」
+second_title: Aspose.Words for .NET
 articleTitle: 與儲存在 Liferay 的文件一起工作
 linktitle: 與儲存在 Liferay 的文件一起工作
 description: "透過 C# 比較在 Liferay 分享的 Word 文檔。 與儲存在 Liferay 的文件工作 - 各種輸入格式，包括 Word、OpenOffice、Image 和電子書。"
@@ -9,9 +9,9 @@ weight: 20
 url: /zh-hant/net/work-with-document-stored-in-liferay/
 ---
 
-「Liferay Portal 是一個開放原始碼的企業入口網站軟體平台，旨在開發網路入口網站和網站。 Liferay 在其入口網站平台中提供文件管理系統，讓使用者能夠以合作和有效的方式建立、組織、儲存及管理文件。」 常常被稱為「Liferay 文檔圖書館」的文檔管理功能。
+Liferay Portal 是一個開放原始碼的企業入口網站軟體平台，旨在開發網路入口網站和網站。 Liferay 在其入口網站平台中提供文件管理系統，讓使用者能夠以合作和有效的方式建立、組織、儲存及管理文件。 常常被稱為Liferay 文檔圖書館的文檔管理功能。
 
-在這篇文章中，我們將涵蓋比較「文件與媒體」圖書館中上傳的文件以及上傳結果文件的常見情境。
+在這篇文章中，我們將涵蓋比較文件與媒體圖書館中上傳的文件以及上傳結果文件的常見情境。
 
 ## 預設值
 
@@ -22,7 +22,7 @@ url: /zh-hant/net/work-with-document-stored-in-liferay/
    {{< /highlight >}}
 
    如果你沒有 Docker，先做 [install it](https://docs.docker.com/desktop/)。
-   「您可以使用 [Liferay Portal docker](https://hub.docker.com/r/liferay/portal) 的另一版本。」
+   您可以使用 [Liferay Portal docker](https://hub.docker.com/r/liferay/portal) 的另一版本。
 
 2。 登入 [Liferay](http://localhost:8080) 使用電子郵件地址 `test@liferay.com` 和密碼 `test`。
 3。 當被提示時，更改密碼。
@@ -31,45 +31,45 @@ url: /zh-hant/net/work-with-document-stored-in-liferay/
 
 {{% alert color="primary" %}}
 
-「請注意，如果你已經有一個Liferay的入口，那就跳過1-3步。」
+請注意，如果你已經有一個Liferay的入口，那就跳過1-3步。
 
 {{% /alert %}}
 
-## 創建「控制台應用程式」
+## 創建控制台應用程式
 
-要評估 .NET 的「Aspose.Words」如何與「Liferay 文檔和媒體」圖書館一起使用，您需要建立一個具有正確設定值的主控台應用程式，並實作將文檔上傳至文檔和媒體圖書館根目錄、下載這些文檔、處理該文檔，然後再將結果上傳回文檔和媒體圖書館根目錄的邏輯。 「要做到這點，請按照本節所述的指示進行。」
+要評估 .NET 的Aspose.Words如何與Liferay 文檔和媒體圖書館一起使用，您需要建立一個具有正確設定值的主控台應用程式，並實作將文檔上傳至文檔和媒體圖書館根目錄、下載這些文檔、處理該文檔，然後再將結果上傳回文檔和媒體圖書館根目錄的邏輯。 要做到這點，請按照本節所述的指示進行。
 
-「要執行這些指令，您必須找到並修正以下變數的值，而這些變數在完成『預設』部分中的步驟後會可用到：」
+要執行這些指令，您必須找到並修正以下變數的值，而這些變數在完成『預設』部分中的步驟後會可用到：
 
 "- 網站識別碼"
-「- 使用者登入」
+- 使用者登入
 "- 用戶密碼"
 - 基本入口網址
 - Aspose.Words 許可證檔案的路徑
 
 {{% alert color="primary" %}}
 
-*login* 和 *password* 應在「預設」部分的步驟 2-3 中取得，而 *網站識別符* 則應在「預設」部分的步驟 4 中取得。
+*login* 和 *password* 應在預設部分的步驟 2-3 中取得，而 *網站識別符* 則應在預設部分的步驟 4 中取得。
 
 {{% /alert %}}
 
 ### 建立新的控制台應用程式專案
 
-「要建立新的 konsol 應用程式專案，請按照以下步驟動作：」
+要建立新的 konsol 應用程式專案，請按照以下步驟動作：
 
 1. 在 Visual Studio 中，為 *C#* 語言和 Target Framework *.NET 6* 建立名為 "LiferayExample" 的新的控制台應用程式專案。
-2. 「加入以下套件：」
+2. 加入以下套件：
       - `Newtonsoft.Json`
    "- IdentityModel"
       - Aspose.Words
 
-### 「將文件加入比較」
+### 將文件加入比較
 
-在專案中建立一個「Doc」的資料夹並添加檔案「DocumentA.docx」和「DocumentA.docx」。
+在專案中建立一個Doc的資料夹並添加檔案DocumentA.docx和DocumentA.docx。
 
 ### 為 REST API 處理添加 JSON 模型類
 
-在專案中建立「JsonModel」的文件夹。 在專案中建立一個名為「DownloadResponse.cs」的檔案，並將其內容填寫如下：
+在專案中建立JsonModel的文件夹。 在專案中建立一個名為DownloadResponse.cs的檔案，並將其內容填寫如下：
 
 **`.NET`**
 {{< highlight csharp >}}
@@ -112,7 +112,7 @@ namespace LiferayExample.JsonModel
 }
 {{< /highlight >}}
 
-在專案中建立一個名為「UploadResponse.cs」的檔案，並用以下內容填寫：
+在專案中建立一個名為UploadResponse.cs的檔案，並用以下內容填寫：
 
 **'.NET'**
 {{< highlight csharp >}}
@@ -144,7 +144,7 @@ namespace LiferayExample.JsonModel
 
 ### 加入 Liferay REST API 用戶端
 
-在專案中建立一個名為「SecurityContext.cs」的檔案，並以以下內容填寫：
+在專案中建立一個名為SecurityContext.cs的檔案，並以以下內容填寫：
 
 **".NET"**
 {{< highlight csharp >}}
@@ -154,7 +154,7 @@ namespace LiferayExample
 }
 {{< /highlight >}}
 
-在專案中建立名為「DocumentClient.cs」的檔案，並用以下內容填寫：
+在專案中建立名為DocumentClient.cs的檔案，並用以下內容填寫：
 
 **.Net**
 {{< highlight csharp >}}
@@ -298,7 +298,7 @@ namespace LiferayExample
 
 ### 將情境邏輯加入程式中
 
-「將以下內容移動到」Program.cs「檔案內：」
+將以下內容移動到Program.cs檔案內：
 
 **".NET"**
 {{< highlight csharp >}}
@@ -367,14 +367,14 @@ static async Task RunCodeExample()
 }
 {{< /highlight >}}
 
-## 「執行創建範例並檢查結果」
+## 執行創建範例並檢查結果
 
-「最後，請執行創建的範例並檢查獲得結果：」
+最後，請執行創建的範例並檢查獲得結果：
 
 1. 編譯這個專案
 2. 執行控制台應用程式。
 
-「因此，」DocumentCompared.docx「這個檔案應該放到文档和媒體圖書館的根目錄下。」
+因此，DocumentCompared.docx這個檔案應該放到文档和媒體圖書館的根目錄下。
 
 ## 此外參閱
 

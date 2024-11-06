@@ -1,6 +1,6 @@
 ---
 title: 在C#中啟用OpenType功能
-second_title: 「 Aspose.Words for .NET」
+second_title:  Aspose.Words for .NET
 articleTitle: 啟用 OpenType 功能
 linktitle: 啟用 OpenType 功能
 description: "使用 C# 進行進階排版功能。"
@@ -9,13 +9,13 @@ weight: 25
 url: /zh-hant/net/enable-opentype-features/
 ---
 
-「OpenType」是一種字體格式，相對於 PostScript 和 TrueType，旨在提供更好的支援國際語言和書寫系統。 「OpenType的排版特性通常稱為 OpenType功能。Aspose.Words。 Shaping 。 HarfBuzz」包提供使用 Aspose.Words 的 HarfBuzz 文字排版引擎對 OpenType功能的支持。」
+OpenType是一種字體格式，相對於 PostScript 和 TrueType，旨在提供更好的支援國際語言和書寫系統。 OpenType的排版特性通常稱為 OpenType功能。Aspose.Words。 Shaping 。 HarfBuzz包提供使用 Aspose.Words 的 HarfBuzz 文字排版引擎對 OpenType功能的支持。
 
-「Aspose.Words 能使用外部提供的文本形狀物件。」 「字型格式化器代表一個字體，並為文字計算格式化資訊。」 文件通常會指稱多個字體，所以需要一個文字格式工廠。 「此封包包含由 Aspose.Words.Layout.LayoutOptions.TextShaperFactory 屬性使用的文字塑形工廠的實作。」
+Aspose.Words 能使用外部提供的文本形狀物件。 字型格式化器代表一個字體，並為文字計算格式化資訊。 文件通常會指稱多個字體，所以需要一個文字格式工廠。 此封包包含由 Aspose.Words.Layout.LayoutOptions.TextShaperFactory 屬性使用的文字塑形工廠的實作。
 
 {{% alert color="primary" %}}
 
-「文字格式化僅在以PDF或 XPS 格式輸出時進行。」
+文字格式化僅在以PDF或 XPS 格式輸出時進行。
 
 {{% /alert %}}
 

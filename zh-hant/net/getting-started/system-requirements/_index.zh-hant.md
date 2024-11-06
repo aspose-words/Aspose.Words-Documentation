@@ -1,6 +1,6 @@
 ---
 title: 系統需求
-second_title: 「Aspose.Words for .NET」
+second_title: Aspose.Words for .NET
 articleTitle: 系統需求
 linktitle: 系統需求
 description: "在開始使用 Aspose.Words for .NET 之前，請確保您已滿足作業系統、平台、框架和環境要求，以便可正常使用 C# 來計算您的裝置上的活動。"
@@ -9,11 +9,11 @@ weight: 70
 url: /zh-hant/net/system-requirements/
 ---
 
-「為 .NET 的 Aspose.Words 不需要任何第三方產品，例如 Microsoft Word 來安裝。 Aspose.Words 本身是一個引擎，用於建立、修改、轉換及在各種格式的文件中呈现文件，包括 Microsoft Word 文檔。」
+為 .NET 的 Aspose.Words 不需要任何第三方產品，例如 Microsoft Word 來安裝。 Aspose.Words 本身是一個引擎，用於建立、修改、轉換及在各種格式的文件中呈现文件，包括 Microsoft Word 文檔。
 
 ## 支援的作業系統
 
-「 Aspose.Words for .NET 支援任何有安裝 .NET Framework、 Mono 或 .NET Core 的 64 位元或 32 位元作業系統，包括但不限於以下表格中所列的版本。
+ Aspose.Words for .NET 支援任何有安裝 .NET Framework、 Mono 或 .NET Core 的 64 位元或 32 位元作業系統，包括但不限於以下表格中所列的版本。
 
 <table>
 	<tr>
@@ -38,9 +38,9 @@ url: /zh-hant/net/system-requirements/
 		</tr>
 </table>
 
-## 「支援的雲端平台」
+## 支援的雲端平台
 
-「Aspose.Words for .NET」也支援雲端平台，包括但並非局限於下表所列的解決方案。
+Aspose.Words for .NET也支援雲端平台，包括但並非局限於下表所列的解決方案。
 
 <table>
 	<tr>
@@ -53,7 +53,7 @@ url: /zh-hant/net/system-requirements/
 
 {{% alert color="primary" %}}
 
-「請留意，上面列出的清單可以加上其他雲端解決方案，前提是這些解決方案都受到 .NET Core 或 .NET Framework 的支援。」
+請留意，上面列出的清單可以加上其他雲端解決方案，前提是這些解決方案都受到 .NET Core 或 .NET Framework 的支援。
 
 {{% /alert %}}
 
@@ -71,7 +71,7 @@ Aspose.Words for .NET 支援以下表格中列出的 .NET 和 Mono 框架。
 		</tr>
 </table>
 
-「Aspose.Words for .NET」也支援「.NET Standard 2.0」規格及其實作列於下表。
+Aspose.Words for .NET也支援.NET Standard 2.0規格及其實作列於下表。
 
 <table>
 	<tr>
@@ -84,7 +84,7 @@ Aspose.Words for .NET 支援以下表格中列出的 .NET 和 Mono 框架。
 			</tr>
 </table>
 
-## 「開發環境」
+## 開發環境
 
 Aspose.Words for .NET 可用於在任何以 .NET 平台為目標的開發環境中開發應用程式，但下列表格列出的環境是明文支援的：
 

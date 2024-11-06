@@ -4,17 +4,17 @@ second_title: Aspose.Words for .NET
 articleTitle: 開始使用
 linktitle: 開始使用
 type: docs
-description: "「請使用此介紹給 Aspose.Words 的 .NET 基礎，以開始體會 Aspose.Words 對您的事業的價值。」"
+description: "請使用此介紹給 Aspose.Words 的 .NET 基礎，以開始體會 Aspose.Words 對您的事業的價值。"
 weight: 20
 url: /zh-hant/net/getting-started/
 ---
 
-這《開始使用》提供了對 Aspose.Words 基礎的介紹。 「對新使用 Aspose.Words 的使用者來說，這是學習基本要求與功能的最快方式。」
+這《開始使用》提供了對 Aspose.Words 基礎的介紹。 對新使用 Aspose.Words 的使用者來說，這是學習基本要求與功能的最快方式。
 
 欲了解更多關於 Aspose.Words 的資訊，請選擇相應的選項：
 
-「 - [Installation](/words/net/installation/) – 提供如何安裝 Aspose.Words 的資訊。」
-「- [Hello World](/words/net/hello-world/) – 提供測試指示，以確認是否已正確安裝旨在編譯或運行原始碼的軟體。」
+ - [Installation](/words/net/installation/) – 提供如何安裝 Aspose.Words 的資訊。
+- [Hello World](/words/net/hello-world/) – 提供測試指示，以確認是否已正確安裝旨在編譯或運行原始碼的軟體。
 - [Supported Document Formats](/words/net/supported-document-formats/) – 提供支援格式的資訊
 "- [Supported Features](/words/net/features/) – 提供有關在各種格式中載入或儲存文件時支援哪些功能的資訊"
 - [Supported Platforms](/words/net/platforms-and-interoperability/) – 提供使用 Aspose.Words 的資訊，當你建立其他平台的應用程式時
