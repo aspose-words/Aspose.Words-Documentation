@@ -1,7 +1,7 @@
 ---
 title: Aspose.Words Familia de Produs
-linktitle: EN - Aspose.Words Familia de produse
-description: "`Aspose.Words este o bibliotecă de clasă care poate fi folosită de dezvoltatori pentru diverse platforme, pentru o varietate de sarcini de prelucrare a documentelor.`"
+linktitle: RO - Aspose.Words Familia de produse
+description: "Aspose.Words este o bibliotecă de clasă care poate fi folosită de dezvoltatori pentru diverse platforme, pentru o varietate de sarcini de prelucrare a documentelor."
 type: docs
 weight: 10
 url: /ro/

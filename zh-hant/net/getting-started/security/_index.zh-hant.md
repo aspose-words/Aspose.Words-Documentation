@@ -1,10 +1,10 @@
 ---
 title: 安全公告
-second_title: 「Aspose.Words for .NET」
+second_title: Aspose.Words for .NET
 articleTitle: 安全公告
 linktitle: 安全公告
 type: docs
-description: "`.NET 的` Aspose.Words` 能辨識並遵守常見的安全標凖，以確保高層次的資料安全。 「觀察可能的安全問題和使用C#避免它們的建議。」"
+description: "`.NET 的` Aspose.Words` 能辨識並遵守常見的安全標凖，以確保高層次的資料安全。 觀察可能的安全問題和使用C#避免它們的建議。"
 weight: 100
 url: /zh-hant/net/security/
 ---

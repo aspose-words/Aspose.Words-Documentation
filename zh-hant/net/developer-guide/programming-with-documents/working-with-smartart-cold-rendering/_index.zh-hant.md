@@ -1,8 +1,8 @@
 ---
-title: 「使用SmartArt Cold Rendering在C#中工作」
+title: 使用SmartArt Cold Rendering在C#中工作
 second_title: Aspose.Words for .NET
-articleTitle: 「使用 SmartArt Cold Rendering」
-linktitle: 「使用 SmartArt Cold Rendering」
+articleTitle: 使用 SmartArt Cold Rendering
+linktitle: 使用 SmartArt Cold Rendering
 description: "C# 中使用 SmartArt 圖形之介紹。"
 type: docs
 description: "Aspose.Words for .NET 在 SmartArt 上执行智能艺术冷呈现，即在预呈现的智能艺术绘图丢失或不正确时使用 C# 布局和呈现 SmartArt 对象。"
@@ -10,17 +10,17 @@ weight: 330
 url: /zh-hant/net/working-with-smartart-cold-rendering/
 ---
 
-SmartArt 圖形用於快速、輕鬆地建立資訊的視覺化。 「您可以從許多適合您状況的布局中進行選擇。」 「這麼容易使用，使得SmartArt圖像在某些目的上很受歡迎。」
+SmartArt 圖形用於快速、輕鬆地建立資訊的視覺化。 您可以從許多適合您状況的布局中進行選擇。 這麼容易使用，使得SmartArt圖像在某些目的上很受歡迎。
 
-「Microsoft Word會產生並儲存預先渲染的繪圖，與`SmartArt`物件同時存在。」 在大多數情況下，預先渲染的繪圖很好地由 Aspose.Words 渲染，不需要其他動作。 「不過，如果用其他應用程式儲存文件，預先渲染的SmartArt圖形就可能不見或不正確。」 「在這個情況下，`SmartArt`物件本身應該透過 Aspose.Words 進行排版與渲染。」 我們稱此過程為「`SmartArt` 寒冷渲染」。
+Microsoft Word會產生並儲存預先渲染的繪圖，與`SmartArt`物件同時存在。 在大多數情況下，預先渲染的繪圖很好地由 Aspose.Words 渲染，不需要其他動作。 不過，如果用其他應用程式儲存文件，預先渲染的SmartArt圖形就可能不見或不正確。 在這個情況下，`SmartArt`物件本身應該透過 Aspose.Words 進行排版與渲染。 我們稱此過程為`SmartArt` 寒冷渲染。
 
 ## 使用SmartArt冷渲染
 
-「Aspose.Words 允許您使用預渲繪圖或執行冷渲繪製：」
+Aspose.Words 允許您使用預渲繪圖或執行冷渲繪製：
 
 * 如果可預先渲染的圖形可用，則Aspose.Words使用它來渲染`SmartArt`物件。
 * 如果預先渲染的圖形缺失，Aspose.Words 隱含地執行冷渲染來渲染 `SmartArt` 圖形。
-「*如果預先渲染的圖形存在但錯誤，必須透過呼叫[UpdateSmartArtDrawing](https://reference.aspose.com/words/net/aspose.words.drawing/shape/updatesmartartdrawing/)方法來明確地進行SmartArt冷渲染。」
+*如果預先渲染的圖形存在但錯誤，必須透過呼叫[UpdateSmartArtDrawing](https://reference.aspose.com/words/net/aspose.words.drawing/shape/updatesmartartdrawing/)方法來明確地進行SmartArt冷渲染。
 
 接下來的程式碼範例說明如何更新文件中所有圖形的繪圖：
 
@@ -29,7 +29,7 @@ SmartArt 圖形用於快速、輕鬆地建立資訊的視覺化。 「您可以�
 
 ## 標準SmartArt布局支援
 
-「目前只有有限數量的標準 Microsoft Word SmartArt 布局被支援。」 「此外，這些布局有些是部分支援的，也就是說，圖形的重要節點和形狀是渲染的，但 Microsoft Word 和 Aspose.Words 圖形布局的不同之處可能存在。」
+目前只有有限數量的標準 Microsoft Word SmartArt 布局被支援。 此外，這些布局有些是部分支援的，也就是說，圖形的重要節點和形狀是渲染的，但 Microsoft Word 和 Aspose.Words 圖形布局的不同之處可能存在。
 
 以下表格列出所有支援的布局及部分支援的布局：
 
@@ -45,7 +45,7 @@ SmartArt 圖形用於快速、輕鬆地建立資訊的視覺化。 「您可以�
 
 ## 《SmartArt 渲染的比較：Aspose.Words 和 Microsoft》
 
-「下面的表格示範了 Aspose.Words 冷渲染一些標準 bố置的範例圖片，與 Microsoft Word 的輸出比較：」
+下面的表格示範了 Aspose.Words 冷渲染一些標準 bố置的範例圖片，與 Microsoft Word 的輸出比較：
 
 |  | **Aspose.Words** | **Microsoft Word** |
 | ----------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |

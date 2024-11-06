@@ -1,17 +1,17 @@
 ---
 title: 在C#中與圖表一起工作
-second_title: 「Aspose.Words for .NET」
-articleTitle: 「在圖表上工作」
-linktitle: 「在圖表上工作」
-description: "「圖表功能簡介，如何使用C#來建立及操作圖表。」"
+second_title: Aspose.Words for .NET
+articleTitle: 在圖表上工作
+linktitle: 在圖表上工作
+description: "圖表功能簡介，如何使用C#來建立及操作圖表。"
 type: docs
 weight: 310
 url: /zh-hant/net/working-with-charts/
 ---
 
-「新 [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) 方法被加入到 [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) 類別中。」 所以，讓我們看看如何透過 [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) 方法將簡單的柱狀圖插入到文件中。
+新 [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) 方法被加入到 [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) 類別中。 所以，讓我們看看如何透過 [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) 方法將簡單的柱狀圖插入到文件中。
 
-## 「如何插入圖表」
+## 如何插入圖表
 
 在本節中，我們將學習如何將一張圖表插入到文件中。
 
@@ -21,12 +21,12 @@ url: /zh-hant/net/working-with-charts/
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-CreateColumnChart-InsertSimpleColumnChart.cs" >}}
 
-「程式碼會產生以下結果：」
+程式碼會產生以下結果：
 
 ![create-column-chart-aspose-words-net](working-with-charts-1.png)
 
 
-「Add 圖表的方法有四個不同的過載，被公開以涵蓋所有可能資料來源的各種圖表類型：」
+Add 圖表的方法有四個不同的過載，被公開以涵蓋所有可能資料來源的各種圖表類型：
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-CreateColumnChart-InsertColumnChart.cs" >}}
 
@@ -40,7 +40,7 @@ url: /zh-hant/net/working-with-charts/
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-InsertScatterChart-InsertScatterChart.cs" >}}
 
-「程式碼會產生以下結果：」
+程式碼會產生以下結果：
 
 ![scatter-chart-aspose-words-net](working-with-charts-3.png)
 
@@ -56,17 +56,17 @@ url: /zh-hant/net/working-with-charts/
 
 ### 插入氣泡圖表
 
-「下面的程式碼範例示範了如何插入一個氣泡圖表：」
+下面的程式碼範例示範了如何插入一個氣泡圖表：
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-InsertBubbleChart-InsertBubbleChart.cs" >}}
 
-「程式碼會產生以下結果：」
+程式碼會產生以下結果：
 
 ![bubble-chart-aspose-words-net](working-with-charts-5.png)
 
 ## 透過 `Shape.Chart` 物件使用圖表
 
-「一旦圖表插入並填入資料，您就可以改變它的外觀。`Shape.Chart`屬性包含所有可透過公開的API選用的圖表相關選項。」
+一旦圖表插入並填入資料，您就可以改變它的外觀。`Shape.Chart`屬性包含所有可透過公開的API選用的圖表相關選項。
 
 例如，讓我們改變圖表標題或圖例行為：
 
@@ -76,26 +76,26 @@ url: /zh-hant/net/working-with-charts/
 
 ![line-chart-aspose-words-net](working-with-charts-6.png)
 
-## 「如何在圖表中操作 ChartSeriesCollection」
+## 如何在圖表中操作 ChartSeriesCollection
 
-「讓我們看一下 [ChartSeries](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseries/) 的收藏。」 「所有圖表系列都透過[chart.Series](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/series/)集合可用，是**IEnumerable**:」
+讓我們看一下 [ChartSeries](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseries/) 的收藏。 所有圖表系列都透過[chart.Series](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/series/)集合可用，是**IEnumerable**:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-CreateColumnChart-ChartSeriesCollection.cs" >}}
 
-「您可以逐一移除第一系列，或清除全部，以及如果需要的話，再增加新的。」 「新插入的圖表新增了一些預設的系列到此集合中。」 要移除它們你需要呼叫 **chart.Series.Clear()** 這個方法。
+您可以逐一移除第一系列，或清除全部，以及如果需要的話，再增加新的。 新插入的圖表新增了一些預設的系列到此集合中。 要移除它們你需要呼叫 **chart.Series.Clear()** 這個方法。
 
-## 「使用 Single ChartSeries 類別」
+## 使用 Single ChartSeries 類別
 
-「以下是如何與特定系列一起工作的方式：」
+以下是如何與特定系列一起工作的方式：
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithSingleChartSeries-WorkWithSingleChartSeries.cs" >}}
 
-「請見下面的結果：」
+請見下面的結果：
 
 ![line-chart-chartseries-aspose-words-net](working-with-charts-7.png)
 
 
-「所有單項 [ChartSeries](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseries/) 都有預設 [ChartDataPoint](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatapoint/) 選項，請試著使用以下程式碼來改變它們：」
+所有單項 [ChartSeries](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseries/) 都有預設 [ChartDataPoint](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatapoint/) 選項，請試著使用以下程式碼來改變它們：
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithSingleChartSeries-ChartDataPoint.cs" >}}
 
@@ -103,9 +103,9 @@ url: /zh-hant/net/working-with-charts/
 
 ![line-chart-chartdatapoint-aspose-words-net](working-with-charts-8.png)
 
-## 「如何使用 `ChartSeries` 的單個 ChartDataPoint」
+## 如何使用 `ChartSeries` 的單個 ChartDataPoint
 
-「使用 [ChartDataPoint](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatapoint/)，您可以自訂圖表系列中的單一數據點格式：」
+使用 [ChartDataPoint](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatapoint/)，您可以自訂圖表系列中的單一數據點格式：
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithSingleChartDataPoint-WorkWithSingleChartDataPoint.cs" >}}
 
@@ -113,9 +113,9 @@ url: /zh-hant/net/working-with-charts/
 
 ![line-chart-datapoint-aspose-words-net](working-with-charts-9.png)
 
-## 「如何使用圖表數據標籤來處理單一圖表系列」
+## 如何使用圖表數據標籤來處理單一圖表系列
 
-「使用 [ChartDataLabel](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabel/)，您可以指定圖列中單個資料標籤的格式，例如顯示/隱藏LegendKey、CategoryName、SeriesName、Value 等。」
+使用 [ChartDataLabel](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabel/)，您可以指定圖列中單個資料標籤的格式，例如顯示/隱藏LegendKey、CategoryName、SeriesName、Value 等。
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithChartDataLabels-WorkWithChartDataLabel.cs" >}}
 
@@ -133,15 +133,15 @@ url: /zh-hant/net/working-with-charts/
 
 ![pie-chart-aspose-words-net](working-with-charts-11.png)
 
-## 「如何格式化圖表資料標籤」
+## 如何格式化圖表資料標籤
 
-「使用 [NumberFormat](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabel/numberformat/) 您可以指定圖表中單一資料標籤的格式。」
+使用 [NumberFormat](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabel/numberformat/) 您可以指定圖表中單一資料標籤的格式。
 
 以下範例程式碼示範了如何格式化資料標籤上的數值：
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-ChartNumberFormat-FormatNumberofDataLabel.cs" >}}
 
-## 「如何設定圖表軸屬性」
+## 如何設定圖表軸屬性
 
 如果您要工作於圖表軸，尺度和顯示單位為值軸，請使用 [ChartAxis](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis/)、[AxisDisplayUnit](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisdisplayunit/) 和 [AxisScaling](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisscaling/) 類別。
 
@@ -149,7 +149,7 @@ url: /zh-hant/net/working-with-charts/
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkingWithChartAxis-DefineXYAxisProperties.cs" >}}
 
-### 「如何設定軸的 Date 秒數值」
+### 如何設定軸的 Date 秒數值
 
 以下範例顯示如何將日期/時間值設定為軸屬性：
 
@@ -163,13 +163,13 @@ url: /zh-hant/net/working-with-charts/
 
 ### 如何設定軸的範圍
 
-「`AxisBound`」類別代表了軸值最小或最大界限。 「Bound」可以指定為數值、日期時間或特殊之「auto」值。
+`AxisBound`類別代表了軸值最小或最大界限。 Bound可以指定為數值、日期時間或特殊之auto值。
 
 以下程式碼示例範示了如何設定軸的範圍：
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkingWithChartAxis-SetboundsOfAxis.cs" >}}
 
-### 「如何設定標籤之間的間隔單位」
+### 如何設定標籤之間的間隔單位
 
 接下來這段程式碼範例示範了如何在軸上設定標籤之間的間隔單位：
 
@@ -193,7 +193,7 @@ url: /zh-hant/net/working-with-charts/
 
 {{% alert color="primary" %}}
 
-「Microsoft Word 預設會將圖表標籤對齊到中心。」
+Microsoft Word 預設會將圖表標籤對齊到中心。
 
 {{% /alert %}}
 

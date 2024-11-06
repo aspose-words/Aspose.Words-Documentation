@@ -1,13 +1,13 @@
 ---
-title: 「Aspose.Words 產品家族」
-linktitle: EN - Aspose.Words 產品系列
-description: "「Aspose.Words是一個能被開發者用於各種平台上不同任務的類別圖書館。」"
+title: Aspose.Words 產品家族
+linktitle: ZH-HANT - Aspose.Words 產品系列
+description: "Aspose.Words是一個能被開發者用於各種平台上不同任務的類別圖書館。"
 type: docs
 weight: 10
 url: /zh-hant/
 ---
 
-Aspose.Words 是一個在最受歡迎的平台上用的類別圖書館，它讓你的應用程式能夠執行廣泛的文件處理工作。 「您可以建立、編輯、輸出、列印您的文件，以及將它轉換成幾乎任何格式，例如 DOC、DOCX、RTF、HTML、Markdown、PDF、XPS、EPUB 等。」 「而所有這些都沒有使用額外的程式庫和應用程式。」
+Aspose.Words 是一個在最受歡迎的平台上用的類別圖書館，它讓你的應用程式能夠執行廣泛的文件處理工作。 您可以建立、編輯、輸出、列印您的文件，以及將它轉換成幾乎任何格式，例如 DOC、DOCX、RTF、HTML、Markdown、PDF、XPS、EPUB 等。 而所有這些都沒有使用額外的程式庫和應用程式。
 
 {{< tabs tabTotal="8" tabID="1" tabName1="Aspose.Words for .NET" tabName2="Aspose.Words for Java" tabName3="Aspose.Words for C++" tabName4="Aspose.Words for Python via .NET" tabName5="Aspose.Words for JasperReports" tabName6="Aspose.Words for SharePoint" tabName7="Aspose.Words for Reporting Services" tabName8="Aspose.Words for Android via Java" >}}
 {{< tab tabNum="1" >}}
@@ -37,7 +37,7 @@ Aspose.Words 是一個在最受歡迎的平台上用的類別圖書館，它讓�
 <div class="row">
     <div class="col-md-6">
                 <img src="home_2" alt="Aspose.Words for Java Product Logo" style="width:50px"/>
-        <p>"Aspose.Words為Java是一個類別圖書館，它使你的應用程式能夠執行各種文書處理工作。Aspose.Words支援DOC、DOCX、RTF、HTML、OpenDocument、PDF,XPS、EPUB以及其他格式。」 透過 Aspose.Words，您可生成、修改、轉換、渲染和列印文件，而無需使用 Microsoft Word。</p>
+        <p>"Aspose.Words為Java是一個類別圖書館，它使你的應用程式能夠執行各種文書處理工作。Aspose.Words支援DOC、DOCX、RTF、HTML、OpenDocument、PDF,XPS、EPUB以及其他格式。 透過 Aspose.Words，您可生成、修改、轉換、渲染和列印文件，而無需使用 Microsoft Word。</p>
         <p>以下是快速連結到一些可能對您有用的資源，以開始使用 Aspose.Words 的 Java：</p>
         <ul>
             <li><a href="https://products.aspose.com/words/java/">Aspose.Words for Java product page</a></li>
@@ -59,7 +59,7 @@ Aspose.Words 是一個在最受歡迎的平台上用的類別圖書館，它讓�
 <div class="row">
     <div class="col-md-6">
                 <img src="home_3" alt="Aspose.Words for C++ Product Logo" style="width:50px"/>
-        C++的<p>for Aspose.Words是一個類別圖書館，讓你的應用程式能夠處理大量文件處理任務。Aspose.Words支援DOC、DOCX、RTF、HTML、OpenDocument、PDF、XPS、EPUB和其他格式。」 透過 Aspose.Words，您可生成、修改、轉換、輸出、列印文件，而无需使用 Microsoft Word。</p>
+        C++的<p>for Aspose.Words是一個類別圖書館，讓你的應用程式能夠處理大量文件處理任務。Aspose.Words支援DOC、DOCX、RTF、HTML、OpenDocument、PDF、XPS、EPUB和其他格式。 透過 Aspose.Words，您可生成、修改、轉換、輸出、列印文件，而无需使用 Microsoft Word。</p>
         <p>以下是您可能需要用 Aspose.Words 開始的 C++ 的一些有用資源的快速連結 :</p>
         <ul>
             <li><a href="https://products.aspose.com/words/cpp/">Aspose.Words for C++ product page</a></li>
@@ -102,7 +102,7 @@ Aspose.Words 是一個在最受歡迎的平台上用的類別圖書館，它讓�
 <div class="row">
     <div class="col-md-6">
                 <img src="home_6" alt="Aspose.Words for JasperReports Product Logo" style="width:50px"/>
-        「<p>Aspose.Words for JasperReports 是市場上唯一知名的解決方案，可將從 JasperReports 和 JasperServer 的出口報告輸出至 Microsoft Word 文檔格式。」 所有報告功能都轉換到 Microsoft Word 文件的高度精確度 。
+        <p>Aspose.Words for JasperReports 是市場上唯一知名的解決方案，可將從 JasperReports 和 JasperServer 的出口報告輸出至 Microsoft Word 文檔格式。 所有報告功能都轉換到 Microsoft Word 文件的高度精確度 。
         <p>以下是一些您可能需要使用的資源的快速連結，以開始使用 Aspose.Words 進行 JasperReports：</p>
         <ul>
             <li><a href="https://products.aspose.com/words/jasperreports/">Aspose.Words for JasperReports product page</a></li>

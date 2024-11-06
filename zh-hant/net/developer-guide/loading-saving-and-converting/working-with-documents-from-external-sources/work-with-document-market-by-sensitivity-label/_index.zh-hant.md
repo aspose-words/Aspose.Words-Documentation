@@ -1,69 +1,69 @@
 ---
-title: 「與受敏感標籤標記的文件一起工作」
-second_title: 「Aspose.Words for .NET」
-articleTitle: 「與受敏感標籤標記的文件一起工作」
-linktitle: 「與受敏感標籤標記的文件一起工作」
-description: "用 C#將帶有適用敏感標籤的 Word 轉換為 PDF。 「與附有敏感標籤的文件一起工作–各種輸入格式，包括Word、OpenOffice、圖片和電子書。」"
+title: 與受敏感標籤標記的文件一起工作
+second_title: Aspose.Words for .NET
+articleTitle: 與受敏感標籤標記的文件一起工作
+linktitle: 與受敏感標籤標記的文件一起工作
+description: "用 C#將帶有適用敏感標籤的 Word 轉換為 PDF。 與附有敏感標籤的文件一起工作–各種輸入格式，包括Word、OpenOffice、圖片和電子書。"
 type: docs
 weight: 30
 url: /zh-hant/net/work-with-document-market-by-sensitivity-label/
 ---
 
-「從 Microsoft 資料保護入口網站獲得的敏感標籤讓您能夠分類並保護組織的資料，同時確保使用者生产力和他們協作的能力不受影響。」 當敏感標籤套用到文件上時，該標籤的任何配置保護設定都將施加到內容上。
+從 Microsoft 資料保護入口網站獲得的敏感標籤讓您能夠分類並保護組織的資料，同時確保使用者生产力和他們協作的能力不受影響。 當敏感標籤套用到文件上時，該標籤的任何配置保護設定都將施加到內容上。
 
 您可以設定敏感性標籤以:
 
-1. 「加密文件以防止未經授權的人可以訪問這些資料」
+1. 加密文件以防止未經授權的人可以訪問這些資料
 2。 在使用 Office 應用程式時，透過將水印、標題或页脚新增到有應用標籤的文件中來標記內容。
-3。 「將標籤自動套用到文件上」
+3。 將標籤自動套用到文件上
 
-「在本篇文章中，我們將涵蓋將文件轉換並修改以標記敏感性標籤的常見情節。」
+在本篇文章中，我們將涵蓋將文件轉換並修改以標記敏感性標籤的常見情節。
 
 ## 先備條件
 
-1. 「加入 [Microsoft 365 Developer Program](https://developer.microsoft.com/en-us/microsoft-365/dev-program)。」
+1. 加入 [Microsoft 365 Developer Program](https://developer.microsoft.com/en-us/microsoft-365/dev-program)。
 2。 按照 [video tutorial](https://www.youtube.com/watch?v=ojQcS9ZQmes) 的設定方式來建立一個即時沙盒。
-3。 「根據 [tutorial](https://learn.microsoft.com/en-us/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files?view=o365-worldwide#use-the-microsoft-purview-compliance-portal-to-enable-support-for-sensitivity-labels) 啟用預設敏感性標籤。」
+3。 根據 [tutorial](https://learn.microsoft.com/en-us/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files?view=o365-worldwide#use-the-microsoft-purview-compliance-portal-to-enable-support-for-sensitivity-labels) 啟用預設敏感性標籤。
     {{% alert color="primary" %}}
-  「如果你已經完成第1步與第2步，你可以看一下 [list of labels](https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade)」。
+  如果你已經完成第1步與第2步，你可以看一下 [list of labels](https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade)。
     {{% /alert %}}
 4。 根據第 [tutorial](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app#register-a-new-application-using-the-azure-portal) 點，在 Azure Active Directory 中註冊一個客戶端應用程式。
     {{% alert color="primary" %}}
   已註冊用戶可查看 [application list](https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade)。
     {{% /alert %}}
-	- 支援的帳戶類型 – 選取「此組織目錄內的帳戶」
-	「- 設定重定向 URI 的步驟可能跳過。」
-	「- 可以跳過加證書。」 「使用客戶秘密來存取。」
-	「- 如果您不想要加入Federated Credential，請跳過此步。」
+	- 支援的帳戶類型 – 選取此組織目錄內的帳戶
+	- 設定重定向 URI 的步驟可能跳過。
+	- 可以跳過加證書。 使用客戶秘密來存取。
+	- 如果您不想要加入Federated Credential，請跳過此步。
 	"-為應用程式設定權限。</br>"
-	選擇「 API 權限」 ─ 「 新增權限」 ─ 「介面API Microsoft 」 ─ 「 權限管理服務 」 ─ 「 App 權限」 , 并加入「 Content. Super User」 、 「 Content 」 。 作家權限 。
+	選擇 API 權限 ─  新增權限 ─ 介面API Microsoft  ─  權限管理服務  ─  App 權限 , 并加入 Content. Super User 、  Content  。 作家權限 。
 	選取 API 權限" → "新增權限" → "API 我的組織使用" → 找到 "Microsoft 資訊保護同步服務" → "應用程式權限" → "UnifiedPolicy.Tenant.Read.
 	"- 返回到"API權限"頁面，並點擊"授權管理員同意(租戶名稱)"按鈕。"
-5. 「打開 Microsoft Office 365 主頁，然後在瀏覽器中打開 Word 應用程式。」
-6. 「以一些內容建立新的 DOCX 文檔。」
-7. 工 作 在「Word」應用程式中，在「首頁」標籤上選擇「敏感性」→「機密」→「所有員工」。 這份文件將以敏感標籤標記並加密。
-8。 「選取『OneDrive』應用程式，並將已建立的檔案儲存到您的本地機上。」 在 Microsoft Word 桌面應用程式中退出您的帳戶。 檢查下載的文件無法開啟。 「它將是應用程式的輸入檔。」
+5. 打開 Microsoft Office 365 主頁，然後在瀏覽器中打開 Word 應用程式。
+6. 以一些內容建立新的 DOCX 文檔。
+7. 工 作 在Word應用程式中，在首頁標籤上選擇敏感性→機密→所有員工。 這份文件將以敏感標籤標記並加密。
+8。 選取『OneDrive』應用程式，並將已建立的檔案儲存到您的本地機上。 在 Microsoft Word 桌面應用程式中退出您的帳戶。 檢查下載的文件無法開啟。 它將是應用程式的輸入檔。
 
 {{% alert color="primary" %}}
 
-「請注意，如果你已經擁有一個 Microsoft 365 開發者帳號，那麼就跳過第1-2步。」
+請注意，如果你已經擁有一個 Microsoft 365 開發者帳號，那麼就跳過第1-2步。
 
 {{% /alert %}}
 
 ## 創建控制台應用程式
 
-要評估 .NET 中的 Aspose.Words 在有標籤的文件中運作的方式，你需要建立一個適當設定下的控制台應用程式，並實作移除敏感性標籤、處理文件以及將標籤套到輸出文件等邏輯。 「要做到這點，請按照本節所述的指示。」
+要評估 .NET 中的 Aspose.Words 在有標籤的文件中運作的方式，你需要建立一個適當設定下的控制台應用程式，並實作移除敏感性標籤、處理文件以及將標籤套到輸出文件等邏輯。 要做到這點，請按照本節所述的指示。
 
-要執行指令，您必須找到並修正以下參數的值，這些參數會在完成「先決條件」部分中的步驟後可供使用：
+要執行指令，您必須找到並修正以下參數的值，這些參數會在完成先決條件部分中的步驟後可供使用：
 
 - 租戶網址
 "- 客戶端應用程式名稱"
-「- 客戶端應用程式識別符」
+- 客戶端應用程式識別符
 - 客戶端應用程式秘密鍵
 
 {{% alert color="primary" %}}
 
-注意，`client application secret`、`client application identifier` 和 `client application name` 應該在「先決條件」部分第 4 步生成。
+注意，`client application secret`、`client application identifier` 和 `client application name` 應該在先決條件部分第 4 步生成。
 
 {{% /alert %}}
 
@@ -79,7 +79,7 @@ url: /zh-hant/net/work-with-document-market-by-sensitivity-label/
 
 ### 加入具有設定檔的檔案
 
-「若要加入設定檔，請按照以下步驟操作：」
+若要加入設定檔，請按照以下步驟操作：
 
 1. 新增 AzureApp 常量.cs 檔案至專案中
 2。 將以下內容加入檔案中。
@@ -98,11 +98,11 @@ url: /zh-hant/net/work-with-document-market-by-sensitivity-label/
   }
   {{< /highlight >}}
 
-3. 「用您的自定義值完成這些欄位。」
+3. 用您的自定義值完成這些欄位。
 
 ### 實作同意代表
 
-在專案中建立「ConsentDelegate.cs」這個檔案，並使用下列內容填寫它：
+在專案中建立ConsentDelegate.cs這個檔案，並使用下列內容填寫它：
 
 {{< highlight csharp >}}
 using Microsoft.InformationProtection;
@@ -199,7 +199,7 @@ namespace SensitivityLabelsExample
 
 ### 實作敏感度標籤管理員
 
-在專案中建立一個名為「SenstivityLabelsManager.cs」的檔案，並用以下內容填寫：
+在專案中建立一個名為SenstivityLabelsManager.cs的檔案，並用以下內容填寫：
 
 {{< highlight csharp >}}
 using Microsoft.InformationProtection;
@@ -407,14 +407,14 @@ Console.WriteLine("App completed!");
 
 {{< /highlight >}}
 
-## 執行「創建範例」並檢視結果。
+## 執行創建範例並檢視結果。
 
 最後，運行建立的範例並檢查你獲得的結果：
 
 1. 編譯這個專案。
-2。 「執行控制台應用程式」
+2。 執行控制台應用程式
 
-「因此，輸出檔應該以『機密。所有員工』來建立。」 「登入 Microsoft 365 帳號，確保文件可以打開且包含更改。」
+因此，輸出檔應該以『機密。所有員工』來建立。 登入 Microsoft 365 帳號，確保文件可以打開且包含更改。
 
 ## 另見
 
