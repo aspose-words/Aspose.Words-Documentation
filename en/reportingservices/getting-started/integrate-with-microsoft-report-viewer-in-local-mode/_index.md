@@ -31,7 +31,7 @@ Open your project in Visual Studio, right click on the **References** folder and
 - If using Microsoft Report Viewer 2012 – browse to `<InstallDir>/Bin/ReportViewer2012/Aspose.Words.ReportingServices.dll`
 - If using Microsoft Report Viewer 2015 – browse to `<InstallDir>/Bin/ReportViewer2015/Aspose.Words.ReportingServices.dll`
 - If using Microsoft.ReportingServices.ReportViewerControl.Winforms or Microsoft.ReportingServices.ReportViewerControl.WebForms of version 140.X.X – browse to `<InstallDir>/Bin/ReportViewer2017/Aspose.Words.ReportingServices.dll`
-- If using Microsoft.ReportingServices.ReportViewerControl.Winforms or Microsoft.ReportingServices.ReportViewerControl.WebForms of version 150.X.X – browse to `<InstallDir>/Bin/ReportViewer2019/Aspose.Words.ReportingServices.dll`
+- If using Microsoft.ReportingServices.ReportViewerControl.Winforms or Microsoft.ReportingServices.ReportViewerControl.WebForms of version 150.X.X – browse to `<InstallDir>/Bin/ReportViewer2019/Aspose.Words.ReportingServices.dll` or `<InstallDir>/Bin/ReportViewer2022/Aspose.Words.ReportingServices.dll`
 
 where `<InstallDir>` is the directory, where you installed or unpacked Aspose.Words for Reporting Services.
 
@@ -68,7 +68,7 @@ Public Class Form1
 
 	Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 		ReportViewerHelper.AddAsposeExtensions(ReportViewer1)
-	
+
 		'Other form load code
 		Me.ReportViewer1.RefreshReport()
 	End Sub
@@ -99,7 +99,7 @@ private void Form1_Load(object sender, EventArgs eventArgs)
 	asposeHelper.AddExtension("AWXPS", "XPS � XML Paper Specification via Aspose.Words", typeof(Aspose.Words.ReportingServices.XpsRenderer));
 	asposeHelper.AddExtension("AWEPUB", "EPUB � Electronic Publications via Aspose.Words", typeof(Aspose.Words.ReportingServices.EpubRenderer));
 	asposeHelper.UpdateHandlers();
-	
+
 	// Other form load code
 	this.reportViewer1.RefreshReport();
 }
@@ -114,7 +114,7 @@ Public Class Form1
 
 	Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 		Dim asposeHelper As ReportViewerHelper = New ReportViewerHelper(ReportViewer1)
-	
+
 		asposeHelper.AddExtension("AWDOCX", "DOCX - Office Open XML via Aspose.Words", GetType(Aspose.Words.ReportingServices.DocxRenderer))
 		asposeHelper.AddExtension("AWRTF", "RTF - Rich Text Format via Aspose.Words", GetType(Aspose.Words.ReportingServices.RtfRenderer))
 		asposeHelper.AddExtension("AWWML", "XML - WordprocessingML via Aspose.Words", GetType(Aspose.Words.ReportingServices.WordMLRenderer))
@@ -125,7 +125,7 @@ Public Class Form1
 		asposeHelper.AddExtension("AWXPS", "XPS - XML Paper Specification via Aspose.Words", GetType(Aspose.Words.ReportingServices.XpsRenderer))
 		asposeHelper.AddExtension("AWEPUB", "EPUB - Electronic Publications via Aspose.Words", GetType(Aspose.Words.ReportingServices.EpubRenderer))
 		asposeHelper.UpdateHandlers()
-	
+
 		' Other form load code
 		Me.ReportViewer1.RefreshReport()
 	End Sub

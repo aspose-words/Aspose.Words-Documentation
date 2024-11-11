@@ -19,15 +19,12 @@ It is also easy to deploy Aspose.Wordsfor Reporting Services manually or as a pa
 
 The MSI installer and the ZIP download include several versions of Aspose.Words for Reporting Services:
 
-- **Bin\SSRS2005\Aspose.Words.ReportingServices.dll** – built for Microsoft SQL Server 2005 and .NET Framework 2.0 (use for both x86 and x64) and Microsoft Visual Studio 2005 Report Designer.
-- **Bin\SSRS2008\Aspose.Words.ReportingServices.dll** – built for Microsoft SQL Server 2008 (and 2008 R2) and .NET Framework 2.0 (use for both x86 and x64) and Microsoft Visual Studio 2008/2010 Report Designer.
-- **Bin\SSRS2012\Aspose.Words.ReportingServices.dll** – built for Microsoft SQL Server 2012 and .NET Framework 3.5 (use for both x86 and x64) and Microsoft Visual Studio 2012 Report Designer.
-- **Bin\SSRS2014\Aspose.Words.ReportingServices.dll** – built for Microsoft SQL Server 2014 and .NET Framework 3.5 (use for both x86 and x64) and Microsoft Visual Studio 2013 Report Designer.
-- **Bin\SSRS2016\Aspose.Words.ReportingServices.dll** – built for Microsoft SQL Server 2016 and .NET Framework 3.5 (use for x64) and Microsoft Visual Studio 2015 Report Designer.
-- **Bin\SSRS2017\Aspose.Words.ReportingServices.dll** – built for Microsoft SQL Server 2017 and .NET Framework 3.5 (use for x64) and Microsoft Visual Studio 2015 Report Designer.
-- **Bin\SSRS2019\Aspose.Words.ReportingServices.dll** – built for Microsoft SQL Server 2019 and .NET Framework 3.5 (use for x64) and Microsoft Visual Studio 2015 Report Designer.
-- **Bin\ReportViewer2005\Aspose.Words.ReportingServices.dll** – built for use with Microsoft Report Viewer 2005.
-- **Bin\ReportViewer2008\Aspose.Words.ReportingServices.dll** – built for use with Microsoft Report Viewer 2008.
+- **Bin\SSRS2012\Aspose.Words.ReportingServices.dll** – built for Microsoft SQL Server 2012 (use for both x86 and x64) and Microsoft Visual Studio 2012 Report Designer.
+- **Bin\SSRS2014\Aspose.Words.ReportingServices.dll** – built for Microsoft SQL Server 2014 (use for both x86 and x64) and Microsoft Visual Studio 2013 Report Designer.
+- **Bin\SSRS2016\Aspose.Words.ReportingServices.dll** – built for Microsoft SQL Server 2016 (use for x64) and Microsoft Visual Studio 2015 Report Designer.
+- **Bin\SSRS2017\Aspose.Words.ReportingServices.dll** – built for Microsoft SQL Server 2017 (use for x64) and Microsoft Visual Studio 2017 Report Designer.
+- **Bin\SSRS2019\Aspose.Words.ReportingServices.dll** – built for Microsoft SQL Server 2019 (use for x64) and Microsoft Visual Studio 2019 Report Designer.
+- **Bin\SSRS2022Local\Aspose.Words.ReportingServices.dll** – built for Microsoft SQL Server 2022 (use for x64) and Microsoft Visual Studio 2022 Report Designer.
 - **Bin\ReportViewer2010\Aspose.Words.ReportingServices.dll** – built for use with Microsoft Report Viewer 2010.
 - **Bin\ReportViewer2012\Aspose.Words.ReportingServices.dll** – built for use with Microsoft Report Viewer 2012.
 - **Bin\ReportViewer2015\Aspose.Words.ReportingServices.dll** – built for use with Microsoft Report Viewer 2015.
