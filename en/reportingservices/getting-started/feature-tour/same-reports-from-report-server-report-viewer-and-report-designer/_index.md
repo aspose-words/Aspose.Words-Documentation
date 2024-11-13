@@ -27,20 +27,18 @@ After the simple installation of Aspose.Words for Reporting Services onto a serv
 
 Aspose.Words for Reporting Services supports the following SQL Server versions:
 
-- Microsoft SQL Server 2005 Reporting Services (32-bit and 64-bit)
-- Microsoft SQL Server 2008 Reporting Services (32-bit and 64-bit)
-- Microsoft SQL Server 2008 R2 Reporting Services (32-bit and 64-bit)
 - Microsoft SQL Server 2012 Reporting Services (32-bit and 64-bit)
 - Microsoft SQL Server 2014 Reporting Services (32-bit and 64-bit)
 - Microsoft SQL Server 2016 Reporting Services (64-bit)
 - Microsoft SQL Server 2017 Reporting Services (64-bit)
 - Microsoft SQL Server 2019 Reporting Services (64-bit)
+- Microsoft SQL Server 2022 Reporting Services (64-bit)
 
 ## Microsoft Report Viewer
 
 When you are developing a .NET application that uses Microsoft Report Viewer, you can enable the new report formats by referencing Aspose.Words for Reporting Services and deploying it with your application.
 
-Aspose.Words for Reporting Services supports Microsoft Report Viewer 2005/ 2008/ 2010/ 2012/ 2015 versions (local and remote modes).
+Aspose.Words for Reporting Services supports Microsoft Report Viewer 2010/2012/2015 versions (local and remote modes).
 
 Microsoft Report Viewer can generate reports independently using a built-in engine (local mode), or it can display reports that are generated on a Microsoft SQL Server Reporting Services Report Server (remote mode).
 
@@ -50,7 +48,7 @@ When you add and deploy Aspose.Words for Reporting Services with your applicatio
 
 If you are designing reports in Microsoft Visual Studio Report Designer, the ability to run reports at design time without connecting to a server is a very useful feature. Aspose.Words for Reporting Services integrates with Microsoft Visual Studio and provides you access to the new report formats at design time.
 
-Aspose.Words for Reporting Services supports Microsoft Visual Studio 2005/ 2008/ 2010/ 2012/ 2013/ 2015 Report Designer versions.
+Aspose.Words for Reporting Services supports Microsoft Visual Studio 2012/2013/2015/2017/2019/2022 Report Designer versions.
 
 **New export formats are available in Microsoft SQL Server Reporting Services.**
 

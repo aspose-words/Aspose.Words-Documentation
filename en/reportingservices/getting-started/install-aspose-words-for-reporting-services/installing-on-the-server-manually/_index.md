@@ -1,4 +1,4 @@
-﻿---
+---
 title: Installing on the Server Manually
 second_title: Aspose.Words for Reporting Services
 articleTitle: Installing on the Server Manually
@@ -15,6 +15,12 @@ url: /reportingservices/installing-on-the-server-manually/
 
 {{% /alert %}}
 
+{{% alert color="primary" %}}
+
+Integration with Power BI Report Server supports only paginated reports (rdl).
+
+{{% /alert %}}
+
 This section describes how to install Aspose.Words for Reporting Services on a server running Microsoft SQL Server Reporting Services.
 
 In the following steps, you will need to copy and modify files in the directory where a Microsoft SQL Server Reporting Services instance is installed.
@@ -23,20 +29,19 @@ In the following steps, you will need to copy and modify files in the directory 
 
 The root directory for Microsoft SQL Server is usually C:\Program Files\Microsoft SQL Server. From there the Report Server directory can be found as follows:
 
-- **Microsoft SQL Server 2005** - There could be several instances of Microsoft SQL Server configured on the machine and they will occupy different MSSQL.x subdirectories such as MSSQL.1, MSSQL.2 and so on. You need to find the correct C:\Program Files\Microsoft SQL Server\MSSQL.x\Reporting Services\ReportServer directory before you proceed with the following steps.
-- **Microsoft SQL Server 2008** - Report Server is installed in the `C:\Program Files\Microsoft SQL Server\MSRS10.MSSQLSERVER\ Reporting Services\ReportServer` directory.
-- **Microsoft SQL Server 2008 R2** - Report Server is installed in the `C:\Program Files\Microsoft SQL Server\MSRS10_50.MSSQLSERVER\ Reporting Services\ReportServer` directory.
 - **Microsoft SQL Server 2012** - Report Server is installed in the `C:\Program Files\Microsoft SQL Server\MSRS11.MSSQLSERVER\ Reporting Services\ReportServer` directory.
 - **Microsoft SQL Server 2014** - Report Server is installed in the `C:\Program Files\Microsoft SQL Server\MSRS12.MSSQLSERVER\ Reporting Services\ReportServer` directory.
 - **Microsoft SQL Server 2016** - Report Server is installed in the `C:\Program Files\Microsoft SQL Server\MSRS13.MSSQLSERVER\ Reporting Services\ReportServer` directory.
-- **Microsoft SQL Server 2017** - Report Server is installed in the C:\Program Files\Microsoft SQL Server Reporting Services. directory.
-- **Microsoft SQL Server 2019** - Report Server is installed in the C:\Program Files\Microsoft SQL Server Reporting Services. directory.
+- **Microsoft SQL Server 2017** - Report Server is installed in the `C:\Program Files\Microsoft SQL Server Reporting Services` directory.
+- **Microsoft SQL Server 2019** - Report Server is installed in the `C:\Program Files\Microsoft SQL Server Reporting Services` directory.
+- **Microsoft SQL Server 2022** - Report Server is installed in the `C:\Program Files\Microsoft SQL Server Reporting Services` directory.
+- **Power BI Report Server** - Report Server is installed in the `C:\Program Files\Microsoft Power BI Report Server` directory.
 
 ## Step 2. Copy `Aspose.Words.ReportingServices.dll` to the Report Server directory.
 
-Aspose.Words.ReportingServices.zip download contains Bin\SSRS2005, Bin\SSRS2008, Bin\SSRS2012, Bin\SSRS2014, Bin\SSRS2016, Bin\SSRS2017 and Bin\SSRS2019 directories with `Aspose.Words.ReportingServices.dll` for the corresponding Microsoft SQL Server versions.
+Aspose.Words.ReportingServices.zip download contains Bin\SSRS2012, Bin\SSRS2014, Bin\SSRS2016, Bin\SSRS2017, Bin\SSRS2019 and Bin\SSRS2022 directories with `Aspose.Words.ReportingServices.dll` for the corresponding Microsoft SQL Server versions.
 
-Select the appropriate `Aspose.Words.ReportingServices.dll` and copy it to C:\Program Files\Microsoft SQL Server&#92;&lt;Instance&gt;\Reporting Services\ReportServer\bin folder.
+Select the appropriate `Aspose.Words.ReportingServices.dll` and copy it to C:\Program Files\Microsoft SQL Server&#92;&lt;Instance&gt;\Reporting Services\ReportServer\bin folder. In the case of Power BI Report Server use the following path: C:\Program Files\Microsoft Power BI Report Server\PBIRS\ReportServer\bin
 
 Note: In some cases, when you copy the DLL to the `ReportServer\bin` directory, it might be copied together with explicit NTFS file permissions assigned to it. The NTFS permissions might be such that Microsoft SQL Server Reporting Services will be denied access when loading `Aspose.Words.ReportingServices.dll` and the new export formats will not be available.
 
@@ -44,7 +49,7 @@ To make sure NTFS permissions are correct, right click on `Aspose.Words.Reportin
 
 ## Step 3. Register Aspose.Words for Reporting Services as a rendering extension.
 
-Open *C:\Program Files\Microsoft SQL Server&#92;&lt;Instance&gt;\Reporting Services\ReportServer\rsreportserver.config* and add the following lines into the *&lt;Render&gt;* element:
+Open *C:\Program Files\Microsoft SQL Server&#92;&lt;Instance&gt;\Reporting Services\ReportServer\rsreportserver.config* or *C:\Program Files\Microsoft Power BI Report Server\PBIRS\ReportServer\rsreportserver.config* (in the case of Power BI Report Server) and add the following lines into the *&lt;Render&gt;* element:
 
 {{< highlight csharp >}}
 <Render>
@@ -63,9 +68,11 @@ Open *C:\Program Files\Microsoft SQL Server&#92;&lt;Instance&gt;\Reporting Servi
 </Render>
 {{< /highlight >}}
 
+Note:
+
 ## Step 4. Give Aspose.Words for Reporting Services permissions to execute.
 
-Open *C:\Program Files\Microsoft SQL Server&#92;&lt;Instance&gt;\Reporting Services\ReportServer\rssrvpolicy.config* and add the following as the last item in the second to outer *&lt;CodeGroup&gt;* element (which should be *&lt;CodeGroup class="FirstMatchCodeGroup" version="1" PermissionSetName="Execution" Description="This code group grants MyComputer code Execution permission. "&gt;*):
+Open *C:\Program Files\Microsoft SQL Server&#92;&lt;Instance&gt;\Reporting Services\ReportServer\rssrvpolicy.config* or *C:\Program Files\Microsoft Power BI Report Server\PBIRS\ReportServer\rssrvpolicy.config* (in the case of Power BI Report Server) and add the following as the last item in the second to outer *&lt;CodeGroup&gt;* element (which should be *&lt;CodeGroup class="FirstMatchCodeGroup" version="1" PermissionSetName="Execution" Description="This code group grants MyComputer code Execution permission. "&gt;*):
 
 {{< highlight csharp >}}
 <CodeGroup>
@@ -101,8 +108,20 @@ Congratulations, you’ve successfully installed Aspose.Words for Reporting Serv
 
 **Aspose.Words for Reporting Services installed successfully and new export formats are available.**
 
+SSRS
+
 ![todo:image_alt_text](installing-on-the-server-manually-1.png)
+
+Power BI Report Server
+
+![todo:image_alt_text](installing-on-the-bi-server-manually-1.png)
 
 **A DOC report generated by Aspose.Words for Reporting Services.**
 
+SSRS
+
 ![todo:image_alt_text](installing-on-the-server-manually-2.png)
+
+Power BI Report Server
+
+![todo:image_alt_text](installing-on-the-bi-server-manually-2.png)
