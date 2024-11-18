@@ -11,11 +11,17 @@ url: /ar/python-net/what-s-new-in-aspose-words-for-python-net/
 
 تصف هذه الصفحة ميزات Aspose.Words الجديدة الأكثر إثارة للاهتمام والتي تم تقديمها في الإصدارات الأخيرة.
 
-## Aspose.Words for Python via .NET 24.9, 24.10
+## Aspose.Words for Python via .NET 24.9, 24.10, 24.11
 
 يقدم Aspose.Words 24.9 إدراج شكل المجموعة وإدراج StructuredDocumentTag عبر DocumentBuilder، ويعزز عرض المخطط الشعاعي باستخدام التدرجات، ويحسن التوقيعات الرقمية مع دعم XAdES-EPES، ويضيف التعرف على خط Markdown، ويوفر الوصول إلى فواصل الحواشي السفلية/الحواشي النهائية.
 
 يقدم Aspose.Words 24.10 دعمًا محسّنًا لعناصر التحكم ActiveX مع إنشاء CommandButton، والتحكم الجديد في رؤية الشكل، والقدرة على تجميع الأشكال، وتحسين تصدير Markdown للجداول، وتنسيق المخططات للمخططات الدائرية والدائرية، ومعالجة أفضل لترميز Big5، ودعم الخطوط التايوانية القديمة.
+
+Aspose.Words 24.11 يقدم AI - تلخيص المستند بالطاقة، وخيارات العرض المحسنة، وتحسين الوصول إلى خصائص المستند والتعليقات التوضيحية للتحكم في اكتف.
+
+### AI - ميزات تعمل بالطاقة <sup>24.11</sup>
+
+تم دمج دعم تلخيص المستندات باستخدام نماذج اللغة التوليدية **OpenAI** و **Google** عن طريق إضافة مساحة الاسم [Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/) مع أعضائها العامين.
 
 ### العرض والطباعة
 
@@ -35,6 +41,18 @@ url: /ar/python-net/what-s-new-in-aspose-words-for-python-net/
 
 تمت إضافة العديد من الخصائص العامة الجديدة لتنسيق المخططات الدائرية والمخططات الدائرية.
 
+#### التحكم في عرض PDF اختيار حدود حقل النموذج <sup>24.11</sup>
+
+تم تنفيذ خيار جديد للتحكم في عرض حدود حقل نموذج الاختيار PDF عن طريق إضافة خيار عام جديد [render_choice_form_field_border](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/render_choice_form_field_border/).
+
+#### الحصول على وتعيين رموز التنسيق لبيانات الرسم البياني <sup>24.11</sup>
+
+تمت إضافة القدرة على الحصول على رموز التنسيق وتعيينها لبيانات المخطط من خلال تنفيذ خاصية [format_code](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartxvaluecollection/format_code/) في فئات [ChartXValueCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartxvaluecollection/) و [ChartYValueCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartyvaluecollection/) و [BubbleSizeCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/bubblesizecollection/).
+
+#### تقديم الرسوم البيانية الرسم البياني مع صناديق والعلامات <sup>24.11</sup>
+
+تم تحسين الرسم البياني الرسم البياني التقديم من خلال السماح لعدد محدد من صناديق والتسميات.
+
 ### تحويل المستندات وتحميلها وحفظها
 
 #### تنسيق التسطير عند تحميل ملفات Markdown <sup>24.9</sup>
@@ -44,6 +62,10 @@ url: /ar/python-net/what-s-new-in-aspose-words-for-python-net/
 #### تصدير الجداول بتنسيق HTML عند الحفظ بتنسيق Markdown <sup>24.10</sup>
 
 تم تنفيذ خيار تصدير الجداول بتنسيق HTML عند حفظ المستندات بتنسيق Markdown من خلال إضافة خاصية عامة جديدة [export_as_html](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/export_as_html/) وطريقة تعداد [MarkdownExportAsHtml](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownexportashtml/).
+
+#### تصدير PDF مع بنية منطقية محدثة <sup>24.11</sup>
+
+PDF تم تحسين التصدير من خلال تضمين خصائص عنوان الجدول كـ PDF عناوين عنصر الهيكل المنطقي.
 
 ### التوقيعات الرقمية
 
@@ -59,12 +81,16 @@ url: /ar/python-net/what-s-new-in-aspose-words-for-python-net/
 * تم تقديم القدرة على تجميع الأشكال الفردية وتجميع الأشكال معًا وتجميع كل من الأشكال وتجميع الأشكال مباشرةً من خلال إضافة طريقة [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/#float_float_float_float_shapebaselist). <sup>24.10</sup>
 * تم تحسين معالجة ترميز Big5 لجداول cmap TrueType. <sup>24.10</sup>
 * تم تحسين دعم الخطوط التايوانية القديمة. <sup>24.10</sup>
+* للوصول إلى خصائص المستند الموسعة، تمت إضافة خصائص للقراءة فقط إلى فئة [BuiltInDocumentProperties](https://reference.aspose.com/words/python-net/aspose.words.properties/builtindocumentproperties/). <sup>24.11</sup>
+* تم تمكين وضع التسميات التوضيحية لعناصر تحكم أكتيفكس عن طريق إضافة أداة ضبط عامة جديدة إلى [Forms2OleControl.caption](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/caption/) خاصية. <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 تعرف على المزيد حول [Aspose.Words لـ Python عبر ملاحظات الإصدار .NET 24.9](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-9-release-notes/).
 
 تعرف على المزيد حول [Aspose.Words لـ Python عبر ملاحظات الإصدار .NET 24.10](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-10-release-notes/).
+
+تعرف على المزيد حول [Aspose.Words لـ Python عبر ملاحظات الإصدار .NET 24.11](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-11-release-notes/).
 
 {{% /alert %}}
 

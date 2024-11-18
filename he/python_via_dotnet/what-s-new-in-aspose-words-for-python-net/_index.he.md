@@ -11,11 +11,17 @@ url: /he/python-net/what-s-new-in-aspose-words-for-python-net/
 
 דף זה מתאר את החדש המעניין ביותר Aspose.Words תכונות שהוצגו במהדורות האחרונות.
 
-## Aspose.Words עבור Python דרך .NET 24.9, 24.10
+## Aspose.Words עבור Python דרך .NET 24.9, 24.10, 24.11
 
 Aspose.Words 24.9 מציגה הכנסת צורות קבוצתיות והכנסת StructuredDocumentTag באמצעות DocumentBuilder, משפרת את עיבוד התרשים הרדיאלי עם דרגות, משפרת חתימות דיגיטליות עם תמיכה ב-XAdES-EPES, מוסיפה זיהוי קו תחתון של Markdown, ומספקת גישה למפרידי הערות שוליים/הערות סיום.
 
 Aspose.Words 24.10 מציג תמיכה משופרת בבקרת ActiveX עם יצירת CommandButton, בקרת נראות חדשה של צורות, יכולת לקבץ צורות, ייצוא Markdown משופר לטבלאות, עיצוב תרשימים עבור תרשימי עוגה וסופגנייה, טיפול טוב יותר בקידוד Big5 ותמיכה בגופנים טייוואנים מיושנים.
+
+Aspose.Words 24.11 מציג סיכום מסמכים המופעל על AI, אפשרויות עיבוד משופרות, גישה משופרת למאפייני המסמך וכיתוב בקרת אקטיבקס.
+
+### AI - מופעל תכונות <sup>24.11</sup>
+
+תמיכה בסיכום מסמכים באמצעות מודלים של שפות גנרטיביות **OpenAI** ו - **Google** הושלבה על ידי הוספת מרחב השמות [Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/) עם חבריו הציבוריים.
 
 ### עיבוד והדפסה
 
@@ -35,6 +41,18 @@ Aspose.Words 24.10 מציג תמיכה משופרת בבקרת ActiveX עם יצ
 
 מספר נכסים ציבוריים חדשים נוספו לפורמט תרשימי עוגה וסופגנייה.
 
+#### שלוט בעיבוד של PDF גבולות שדה טופס בחירה <sup>24.11</sup>
+
+אפשרות חדשה לשליטה בעיבוד של PDF גבולות שדה טופס בחירה יושמה על ידי הוספת אפשרות ציבורית חדשה [render_choice_form_field_border](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/render_choice_form_field_border/).
+
+#### קבל והגדר קודי פורמט לנתוני תרשים <sup>24.11</sup>
+
+היכולת לקבל ולהגדיר קודי פורמט לנתוני תרשים נוספה על ידי יישום המאפיין [format_code](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartxvaluecollection/format_code/) בכיתות [ChartXValueCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartyvaluecollection/) ו - [BubbleSizeCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/bubblesizecollection/).
+
+#### עיבוד תרשימי היסטוגרמה עם פחים ותוויות <sup>24.11</sup>
+
+עיבוד תרשים היסטוגרמה שופר על ידי מתן אפשרות למספר מוגדר של פחים ותוויות.
+
 ### המרה, טעינה ושמירה של מסמכים
 
 #### עיצוב קו תחתון בעת ​​טעינת קבצי Markdown <sup>24.9</sup>
@@ -44,6 +62,10 @@ Aspose.Words 24.10 מציג תמיכה משופרת בבקרת ActiveX עם יצ
 #### ייצוא טבלאות כ-HTML בעת שמירה ב-Markdown <sup>24.10</sup>
 
 אפשרות לייצא טבלאות כ-HTML בעת שמירת מסמכים בפורמט Markdown יושמה על ידי הוספת מאפיין ציבורי חדש [export_as_html](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/export_as_html/) וספירה [MarkdownExportAsHtml](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownexportashtml/).
+
+#### ייצוא PDF עם מבנה לוגי מעודכן <sup>24.11</sup>
+
+PDF הייצוא שופר על ידי הכללת מאפייני כותרת הטבלה כ PDF כותרות אלמנטים של מבנה לוגי.
 
 ### חתימות דיגיטליות
 
@@ -59,12 +81,16 @@ Aspose.Words 24.10 מציג תמיכה משופרת בבקרת ActiveX עם יצ
 * היכולת לקבץ צורות בודדות, לקבץ צורות יחד ולקבץ ישירות גם צורות וגם צורות קבוצתיות הוצגה על ידי הוספת השיטה [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/#float_float_float_float_shapebaselist). <sup>24.10</sup>
 * טיפול בקידוד Big5 עבור טבלאות cmap TrueType שופר. <sup>24.10</sup>
 * התמיכה בגופנים טייוואנים מיושנים שופרה. <sup>24.10</sup>
+* כדי לגשת למאפייני מסמך מורחבים, נוספו מאפיינים לקריאה בלבד לכיתה [BuiltInDocumentProperties](https://reference.aspose.com/words/python-net/aspose.words.properties/builtindocumentproperties/). <sup>24.11</sup>
+* הגדרת כיתובים עבור פקדי אקטיבקס הופעלה על ידי הוספת מגדיר ציבורי חדש למאפיין [Forms2OleControl.caption](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/caption/). <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 למד עוד על [Aspose.Words עבור Python via .NET 24.9 הודעות](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-9-release-notes/).
 
 למד עוד על [Aspose.Words עבור Python via .NET 24.10 הודעות](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-10-release-notes/).
+
+למד עוד על [Aspose.Words עבור Python via .NET 24.11 הודעות](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-11-release-notes/).
 
 {{% /alert %}}
 

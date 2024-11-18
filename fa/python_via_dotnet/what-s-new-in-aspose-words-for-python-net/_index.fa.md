@@ -11,11 +11,17 @@ url: /fa/python-net/what-s-new-in-aspose-words-for-python-net/
 
 این صفحه جالب ترین ویژگی های جدید Aspose.Words معرفی شده در نسخه های اخیر را شرح می دهد.
 
-## Aspose.Words برای پایتون از طریق .NET 24.9, 24.10
+## Aspose.Words برای پایتون از طریق .NET 24.9, 24.10, 24.11
 
 Aspose.Words 24.9 درج شکل گروه و درج StructuredDocumentTag را از طریق DocumentBuilder معرفی می‌کند، رندر نمودار شعاعی را با درجه‌بندی بهبود می‌بخشد، امضاهای دیجیتال را با پشتیبانی XAdES-EPES بهبود می‌بخشد، تشخیص زیر خط Markdown را اضافه می‌کند و دسترسی به جداکننده‌های پانوشت/پایان را فراهم می‌کند.
 
 Aspose.Words 24.10 پشتیبانی از کنترل فعال ActiveX را با ایجاد CommandButton، کنترل دید شکل جدید، توانایی گروه بندی اشکال، صادرات Markdown بهبود یافته برای جداول، قالب بندی نمودار برای نمودارهای Pie و Donut، مدیریت بهتر کدگذاری Big5 و پشتیبانی از فونت های قدیمی تایوانی را معرفی می کند.
+
+Aspose.Words 24.11 خلاصه سازی سند با قدرت AI، گزینه های رندر پیشرفته، دسترسی بهتر به ویژگی های سند و زیرنویس کنترل ActiveX را معرفی می کند.
+
+### AI-ویژگی های قدرت <sup>24.11</sup>
+
+پشتیبانی از خلاصه سازی اسناد با استفاده از مدل های زبان مولد **OpenAI** و **Google** با اضافه کردن فضای نام [Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/) با اعضای عمومی آن ادغام شده است.
 
 ### رندر و چاپ
 
@@ -35,6 +41,18 @@ Aspose.Words 24.10 پشتیبانی از کنترل فعال ActiveX را با �
 
 چندین ویژگی عمومی جدید برای قالب بندی نمودارهای Pie و Donut اضافه شده است.
 
+#### کنترل رندر PDF فرم انتخاب مرزهای میدان <sup>24.11</sup>
+
+یک گزینه جدید برای کنترل ارائه PDF انتخاب فرم مرزهای میدان با اضافه کردن یک گزینه عمومی جدید [render_choice_form_field_border](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/render_choice_form_field_border/) اجرا شده است.
+
+#### دریافت و تنظیم کدهای فرمت برای داده های نمودار <sup>24.11</sup>
+
+امکان دریافت و تنظیم کدهای فرمت برای داده های نمودار با اجرای ویژگی [format_code](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartxvaluecollection/format_code/) در کلاس های [ChartXValueCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartxvaluecollection/)، [ChartYValueCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartyvaluecollection/) و [BubbleSizeCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/bubblesizecollection/) اضافه شده است.
+
+#### نمودارهای هیستوگرام را با سطل ها و برچسب ها رندر کنید <sup>24.11</sup>
+
+رندر نمودار هیستوگرام با اجازه دادن به تعداد مشخصی از سطل ها و برچسب ها بهبود یافته است.
+
 ### تبدیل، بارگیری و ذخیره اسناد
 
 #### هنگام بارگیری فایل‌های Markdown، زیر قالب‌بندی خط بکشید <sup>24.9</sup>
@@ -44,6 +62,10 @@ Aspose.Words 24.10 پشتیبانی از کنترل فعال ActiveX را با �
 #### صادر کردن جداول به صورت HTML هنگام ذخیره در Markdown <sup>24.10</sup>
 
 با افزودن یک ویژگی عمومی جدید [export_as_html](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/export_as_html/) و یک شمارش [MarkdownExportAsHtml](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownexportashtml/) گزینه ای برای صادر کردن جداول به عنوان HTML هنگام ذخیره اسناد به فرمت Markdown اجرا شده است.
+
+#### صادرات PDF با ساختار منطقی به روز شده <sup>24.11</sup>
+
+PDF صادرات با شامل کردن ویژگی های عنوان جدول به عنوان PDF عناوین عنصر ساختار منطقی افزایش یافته است.
 
 ### امضاهای دیجیتال
 
@@ -59,12 +81,16 @@ Aspose.Words 24.10 پشتیبانی از کنترل فعال ActiveX را با �
 * امکان گروه بندی اشکال فردی، گروه بندی اشکال با هم و گروه بندی مستقیم هر دو شکل و اشکال گروهی با افزودن متد [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/#float_float_float_float_shapebaselist) معرفی شده است. <sup>24.10</sup>
 * مدیریت رمزگذاری Big5 برای جداول cmap TrueType بهبود یافته است. <sup>24.10</sup>
 * پشتیبانی از فونت های قدیمی تایوانی افزایش یافته است. <sup>24.10</sup>
+* برای دسترسی به ویژگی های سند گسترده، ویژگی های فقط برای خواندن به کلاس [BuiltInDocumentProperties](https://reference.aspose.com/words/python-net/aspose.words.properties/builtindocumentproperties/) اضافه شده است. <sup>24.11</sup>
+* تنظیم زیرنویس برای کنترل های ActiveX با اضافه کردن یک تنظیم کننده عمومی جدید به ویژگی [Forms2OleControl.caption](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/caption/) فعال شده است. <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 درباره [یادداشت‌های انتشار Aspose.Words برای Python via .NET 24.9](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-9-release-notes/) بیشتر بدانید.
 
 درباره [یادداشت‌های انتشار Aspose.Words برای Python via .NET 24.10](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-10-release-notes/) بیشتر بدانید.
+
+درباره [یادداشت‌های انتشار Aspose.Words برای Python via .NET 24.11](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-11-release-notes/) بیشتر بدانید.
 
 {{% /alert %}}
 

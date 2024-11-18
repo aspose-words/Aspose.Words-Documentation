@@ -11,11 +11,17 @@ url: /af/python-net/what-s-new-in-aspose-words-for-python-net/
 
 Hierdie bladsy beskryf die interessantste nuwe Aspose.Words funksies wat in onlangse vrystellings bekendgestel is.
 
-## Aspose.Words vir Python via .NET 24.9, 24.10
+## Aspose.Words vir Python via .NET 24.9, 24.10, 24.11
 
 Aspose.Words 24.9 stel group shape invoeging en StructuredDocumentTag invoeging via DocumentBuilder bekend, verbeter radiale kaartweergawe met grade, verbeter digitale handtekeninge met XAdES-EPES ondersteuning, voeg Markdown onderstreepherkenning by en bied toegang tot voetnoot/eindnoot skeiers.
 
 Aspose.Words 24.10 stel verbeterde ActiveX beheer ondersteuning met CommandButton skepping, nuwe vorm sigbaarheid beheer, die vermoë om group shapes, verbeterde Markdown uitvoer vir tabelle, grafiek formatering vir Pie en Doughnut kaarte, beter Big5 kodering hantering, en ondersteuning vir verouderde Taiwanese lettertipes.
+
+Aspose.Words 24.11 stel AI-aangedrewe dokumentopsomming, verbeterde weergawe opsies, verbeterde toegang tot dokument eienskappe en ActiveX beheer onderskrifte.
+
+### AI - aangedrewe Funksies <sup>24.11</sup>
+
+Ondersteuning vir dokumentopsomming met behulp van **OpenAI** en **Google** generatiewe taalmodelle is geïntegreer deur die [Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/) naamruimte by sy openbare lede te voeg.
 
 ### Rendering En Drukwerk
 
@@ -35,6 +41,18 @@ Die vermoë om CommandButton ActiveX kontroles te skep is bekendgestel deur die 
 
 Verskeie nuwe openbare eiendomme is bygevoeg om Pie en Doughnut kaarte te formateer.
 
+#### Beheer Die Weergawe van PDF Keuse Vorm Veld Grense <sup>24.11</sup>
+
+'n nuwe opsie om die weergawe van PDF keuse vorm veld grense te beheer is geïmplementeer deur die toevoeging van'n nuwe openbare opsie [render_choice_form_field_border](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/render_choice_form_field_border/).
+
+#### Kry En Stel Formaatkodes Vir Grafiekdata In <sup>24.11</sup>
+
+Die vermoë om formaat kodes vir grafiek data te kry en te stel is bygevoeg deur die implementering van die [format_code](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartxvaluecollection/format_code/) eienskap in die [ChartXValueCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartyvaluecollection/), en [BubbleSizeCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/bubblesizecollection/) klasse.
+
+#### Gee Histogramkaarte met Bakkies en Etikette <sup>24.11</sup>
+
+Histogramkaartvertoning is verbeter deur'n spesifieke aantal bakkies en etikette toe te laat.
+
 ### Omskakeling, Laai En Stoor Van Dokumente
 
 #### Onderstreep Formatering wanneer Markdown Lêers Gelaai Word <sup>24.9</sup>
@@ -44,6 +62,10 @@ Die opsie om onderstreepte opmaak te herken wanneer Markdown dokumente gelaai wo
 #### Uitvoer tabelle as HTML wanneer stoor na Markdown <sup>24.10</sup>
 
 'n opsie om tabelle as HTML uit te voer wanneer dokumente in Markdown formaat gestoor word, is geïmplementeer deur'n nuwe openbare eiendom [export_as_html](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/export_as_html/) en'n opsomming [MarkdownExportAsHtml](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownexportashtml/) by te voeg.
+
+#### Uitvoer PDF met Opgedateerde Logiese Struktuur <sup>24.11</sup>
+
+PDF uitvoer is verbeter deur die insluiting van tabel titel eienskappe as PDF logiese struktuur element titels.
 
 ### Digitale Handtekeninge
 
@@ -59,12 +81,16 @@ Die vermoë om dokumente met XAdES-EPES vlak XML-DSig handtekeninge te onderteke
 * Die vermoë om individuele vorms, group shapes saam te groepeer en beide vorms en group shapes direk te groepeer, is ingestel deur die [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/#float_float_float_float_shapebaselist) metode by te voeg. <sup>24.10</sup>
 * Big5 kodering hantering vir TrueType cmap tabelle is verbeter. <sup>24.10</sup>
 * Ondersteuning vir verouderde Taiwanese lettertipes is verbeter. <sup>24.10</sup>
+* Om toegang tot uitgebreide dokument eienskappe, lees-alleen eienskappe is bygevoeg om die [BuiltInDocumentProperties](https://reference.aspose.com/words/python-net/aspose.words.properties/builtindocumentproperties/) klas. <sup>24.11</sup>
+* Die opstel van onderskrifte vir ActiveX-beheer is geaktiveer deur'n nuwe openbare setter by die [Forms2OleControl.caption](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/caption/) eienskap te voeg. <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 Leer meer oor [Aspose.Words vir Python via .NET 24.9 Vrystelling Notas](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-9-release-notes/).
 
 Leer meer oor [Aspose.Words vir Python via .NET 24.10 Vrystelling Notas](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-10-release-notes/).
+
+Leer meer oor [Aspose.Words vir Python via .NET 24.11 Vrystelling Notas](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-11-release-notes/).
 
 {{% /alert %}}
 

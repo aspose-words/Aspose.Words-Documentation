@@ -11,11 +11,17 @@ url: /uk/python-net/what-s-new-in-aspose-words-for-python-net/
 
 Ця сторінка описує найцікавіше Aspose.Words Особливості, введені в останні релізи.
 
-## Aspose.Words для Python через .NET 24.9, 24.10
+## Aspose.Words для Python через .NET 24.9, 24.10, 24.11
 
 У Aspose.Words 24.9 представлено вставку групової форми та вставку StructuredDocumentTag через DocumentBuilder, покращено візуалізацію радіальної діаграми з градаціями, покращено цифрові підписи за допомогою підтримки XAdES-EPES, додано розпізнавання підкреслення Markdown і надано доступ до розділювачів виносок і кінцевих виносок.
 
 Aspose.Words 24.10 представляє розширену підтримку елементів керування ActiveX із створенням CommandButton, новим контролем видимості фігур, можливістю групувати фігури, покращеним експортом Markdown для таблиць, форматуванням діаграм для секторних і круглих діаграм, кращою обробкою кодування Big5 і підтримкою застарілих тайванських шрифтів.
+
+Aspose.Words 24.11 реалізована функція Узагальнення документів на основі AI, розширені можливості візуалізації, поліпшений доступ до властивостей документа і субтитрів елементів управління ActiveX.
+
+### AI - функціональні можливості <sup>24.11</sup>
+
+Підтримка Узагальнення документів за допомогою моделей генеративної мови **OpenAI** та **Google** була інтегрована шляхом додавання простору імен [Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/) з його загальнодоступними членами.
 
 ### Візуалізація та друк
 
@@ -35,6 +41,18 @@ Aspose.Words 24.10 представляє розширену підтримку 
 
 Було додано кілька нових загальнодоступних властивостей для форматування кругових і кругових діаграм.
 
+#### Керувати відображенням меж поля форми вибору PDF <sup>24.11</sup>
+
+Нова опція для управління відображенням меж полів форми вибору PDF була реалізована шляхом додавання нової загальнодоступної опції [render_choice_form_field_border](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/render_choice_form_field_border/).
+
+#### Отримання та встановлення кодів формату для даних діаграми <sup>24.11</sup>
+
+Можливість отримання та встановлення кодів формату для даних діаграми була додана шляхом реалізації властивості [format_code](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartxvaluecollection/format_code/) у класах [ChartXValueCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartyvaluecollection/) та [BubbleSizeCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/bubblesizecollection/).
+
+#### Візуалізація гістограмних графіків з осередками і написами <sup>24.11</sup>
+
+Покращено рендеринг гістограмних діаграм за рахунок використання заданої кількості осередків і міток.
+
 ### Перетворення, завантаження та збереження документів
 
 #### Підкреслити форматування під час завантаження файлів розмітки <sup>24.9</sup>
@@ -44,6 +62,10 @@ Aspose.Words 24.10 представляє розширену підтримку 
 #### Експорт таблиць як HTML під час збереження в Markdown <sup>24.10</sup>
 
 Додано нову загальнодоступну властивість [export_as_html](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/export_as_html/) і перерахування [MarkdownExportAsHtml](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownexportashtml/).
+
+#### Експорт PDF з оновленою логічною структурою <sup>24.11</sup>
+
+PDF експорт було покращено, включивши властивості заголовка таблиці як заголовки елементів логічної структури PDF.
 
 ### Цифрові підписи
 
@@ -59,12 +81,16 @@ Aspose.Words 24.10 представляє розширену підтримку 
 * Додано метод [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/#float_float_float_float_shapebaselist). <sup>24.10</sup>
 * Покращено обробку кодування Big5 для таблиць cmap TrueType. <sup>24.10</sup>
 * Покращено підтримку застарілих тайванських шрифтів. <sup>24.10</sup>
+* Для доступу до розширених властивостей документа в клас [BuiltInDocumentProperties](https://reference.aspose.com/words/python-net/aspose.words.properties/builtindocumentproperties/) були додані властивості, доступні тільки для читання. <sup>24.11</sup>
+* Налаштування підписів для елементів керування ActiveX було ввімкнено шляхом додавання нового загальнодоступного параметра Налаштування до властивості [Forms2OleControl.caption](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/caption/). <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 Дізнатися більше [Aspose.Words для Python via .NET 24.9 Release Примітки](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-9-release-notes/)
 
 Дізнатися більше [Aspose.Words для Python via .NET 24.10 Release Примітки](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-10-release-notes/)
+
+Дізнатися більше [Aspose.Words для Python via .NET 24.11 Release Примітки](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-11-release-notes/)
 
 {{% /alert %}}
 
