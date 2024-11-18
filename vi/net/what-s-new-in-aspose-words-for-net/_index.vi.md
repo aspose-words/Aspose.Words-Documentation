@@ -11,11 +11,17 @@ url: /vi/net/what-s-new-in-aspose-words-for-net/
 
 Trang này mô tả các tính năng Aspose.Words mới thú vị nhất được giới thiệu trong các bản phát hành gần đây.
 
-## Aspose.Words cho .NET 24.9, 24.10
+## Aspose.Words cho .NET 24.9, 24.10, 24.11
 
 Aspose.Words 24.9 giới thiệu chèn hình dạng nhóm và chèn StructuredDocumentTag thông qua DocumentBuilder, cải thiện khả năng hiển thị biểu đồ hình tròn với các vạch chia độ, cải thiện chữ ký số với hỗ trợ XAdES-EPES, thêm nhận dạng gạch chân Markdown và cung cấp quyền truy cập vào các dấu phân cách chú thích cuối trang/chú thích cuối trang.
 
 Aspose.Words 24.10 giới thiệu hỗ trợ điều khiển ActiveX nâng cao với tính năng tạo CommandButton, điều khiển khả năng hiển thị hình dạng mới, khả năng nhóm hình dạng, cải thiện khả năng xuất Markdown cho bảng, định dạng biểu đồ cho biểu đồ Pie và Doughnut, xử lý mã hóa Big5 tốt hơn và hỗ trợ phông chữ Đài Loan lỗi thời.
+
+Aspose.Words 24.11 giới thiệu AI-tóm tắt tài liệu được hỗ trợ, các tùy chọn kết xuất nâng cao, cải thiện quyền truy cập vào thuộc tính tài liệu và Phụ đề Điều khiển ActiveX.
+
+### AI-các Tính năng được hỗ trợ <sup>24.11</sup>
+
+Hỗ trợ tóm tắt tài liệu bằng cách sử dụng các mô hình ngôn ngữ tạo **OpenAI** và **Google** đã được tích hợp bằng cách thêm không gian tên [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) với các thành viên công cộng của nó.
 
 ### Hiển thị và in
 
@@ -35,6 +41,18 @@ Một thuộc tính công khai mới [Hidden](https://reference.aspose.com/words
 
 Một số thuộc tính công khai mới đã được thêm vào để định dạng biểu đồ hình tròn và hình bánh rán.
 
+#### Kiểm soát Kết xuất Của PDF Biên Giới Trường Biểu mẫu Lựa chọn <sup>24.11</sup>
+
+Một tùy chọn mới để kiểm soát kết xuất các đường viền trường biểu mẫu lựa chọn PDF đã được triển khai bằng cách thêm một tùy chọn công khai mới [RenderChoiceFormFieldBorder](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/renderchoiceformfieldborder/).
+
+#### Nhận Và Đặt Mã Định dạng Cho Dữ liệu Biểu đồ <sup>24.11</sup>
+
+Khả năng lấy và đặt mã định dạng cho dữ liệu biểu đồ đã được thêm vào bằng cách triển khai thuộc tính [FormatCode](https://reference.aspose.com/words/net/aspose.words.drawing.charts/bubblesizecollection/formatcode/) trong các lớp [ChartXValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvaluecollection/) và [BubbleSizeCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/bubblesizecollection/).
+
+#### Hiển thị Biểu đồ Biểu đồ với Thùng và Nhãn <sup>24.11</sup>
+
+Hiển thị biểu đồ biểu đồ đã được cải thiện bằng cách cho phép một số lượng thùng và nhãn được chỉ định.
+
 ### Chuyển đổi, tải và lưu tài liệu
 
 #### Định dạng gạch chân khi tải tệp Markdown <sup>24.9</sup>
@@ -44,6 +62,10 @@ Tùy chọn nhận dạng định dạng gạch chân khi tải tài liệu Mark
 #### Xuất bảng dưới dạng HTML khi lưu vào Markdown <sup>24.10</sup>
 
 Một tùy chọn để xuất bảng dưới dạng HTML khi lưu tài liệu vào định dạng Markdown đã được triển khai bằng cách thêm thuộc tính công khai mới [ExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/exportashtml/) và phép liệt kê [MarkdownExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownexportashtml/).
+
+#### Xuất PDF Với Cấu Trúc Logic Được Cập Nhật <sup>24.11</sup>
+
+PDF xuất khẩu đã được tăng cường bằng cách bao gồm các thuộc tính tiêu đề bảng như PDF tiêu đề phần tử cấu trúc logic.
 
 ### Chữ ký số
 
@@ -59,12 +81,16 @@ Khả năng ký tài liệu bằng chữ ký XML-DSig cấp XAdES-EPES đã đư
 * Khả năng nhóm các hình dạng riêng lẻ, nhóm các hình dạng lại với nhau và nhóm trực tiếp cả hai hình dạng và nhóm các hình dạng đã được giới thiệu bằng cách thêm phương thức [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/#insertgroupshape_1). <sup>24.10</sup>
 * Xử lý mã hóa Big5 cho bảng cmap TrueType đã được cải thiện. <sup>24.10</sup>
 * Hỗ trợ cho các phông chữ Đài Loan lỗi thời đã được cải thiện. <sup>24.10</sup>
+* Để truy cập các thuộc tính tài liệu mở rộng, các thuộc tính chỉ đọc đã được thêm vào lớp [BuiltInDocumentProperties](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/). <sup>24.11</sup>
+* Cài đặt chú thích Cho Điều khiển ActiveX đã được bật bằng cách thêm trình thiết lập công khai mới vào thuộc tính [Forms2OleControl.Caption](https://reference.aspose.com/words/net/aspose.words.drawing.ole/forms2olecontrol/caption/). <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 24.9](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-9-release-notes/).
 
 Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 24.10](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-10-release-notes/).
+
+Tìm hiểu thêm về [Aspose.Words Cho .NET 24.11 Ghi Chú Phát hành](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-11-release-notes/).
 
 {{% /alert %}}
 

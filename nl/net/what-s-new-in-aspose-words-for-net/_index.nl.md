@@ -11,11 +11,17 @@ url: /nl/net/what-s-new-in-aspose-words-for-net/
 
 Deze pagina beschrijft de meest interessante nieuwe Aspose.Words features geïntroduceerd in recente releases.
 
-## Aspose.Words voor .NET 24.9, 24.10
+## Aspose.Words voor .NET 24.9, 24.10, 24.11
 
 Aspose.Words 24.9 introduceert groepsvorminvoeging en StructuredDocumentTag-invoeging via DocumentBuilder, verbetert radiale grafiekweergave met gradaties, verbetert digitale handtekeningen met XAdES-EPES-ondersteuning, voegt Markdown-onderstrepingsherkenning toe en biedt toegang tot voetnoot-/eindnootscheidingstekens.
 
 Aspose.Words 24.10 introduceert verbeterde ActiveX-besturingselementondersteuning met CommandButton-creatie, nieuwe vormzichtbaarheidsbesturing, de mogelijkheid om vormen te groeperen, verbeterde Markdown-export voor tabellen, grafiekopmaak voor cirkel- en donutdiagrammen, betere Big5-coderingsverwerking en ondersteuning voor verouderde Taiwanese lettertypen.
+
+Aspose.Words 24.11 introduceert AI-aangedreven document samenvatting, verbeterde rendering opties, verbeterde toegang tot document eigenschappen en ActiveX control Ondertiteling.
+
+### AI - aangedreven functies <sup>24.11</sup>
+
+Ondersteuning voor documentsamenvatting met behulp van **OpenAI** en **Google** generatieve taalmodellen is geïntegreerd door de [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) naamruimte toe te voegen aan zijn openbare leden.
 
 ### Renderen en afdrukken
 
@@ -35,6 +41,18 @@ Er is een nieuwe openbare eigenschap [Hidden](https://reference.aspose.com/words
 
 Er zijn verschillende nieuwe openbare eigenschappen toegevoegd om cirkel- en ringdiagrammen te formatteren.
 
+#### De weergave van PDF Keuzeveldranden bepalen <sup>24.11</sup>
+
+Er is een nieuwe optie geïmplementeerd om de weergave van PDF keuzeveldranden voor formuliervelden te beheren door een nieuwe openbare optie [RenderChoiceFormFieldBorder](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/renderchoiceformfieldborder/) toe te voegen.
+
+#### Formaatcodes voor Grafiekgegevens ophalen en instellen <sup>24.11</sup>
+
+De mogelijkheid om formaatcodes voor grafiekgegevens te verkrijgen en in te stellen is toegevoegd door de eigenschap [FormatCode](https://reference.aspose.com/words/net/aspose.words.drawing.charts/bubblesizecollection/formatcode/) in de klassen [ChartXValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvaluecollection/) en [BubbleSizeCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/bubblesizecollection/) te implementeren.
+
+#### Histogramdiagrammen weergeven met bakken en Labels <sup>24.11</sup>
+
+De weergave van histogrammen is verbeterd door een bepaald aantal bakken en labels toe te staan.
+
 ### Documenten converteren, laden en opslaan
 
 #### Onderstrepingsopmaak bij het laden van Markdown-bestanden <sup>24.9/sup>
@@ -44,6 +62,10 @@ De optie om onderstrepingsopmaak te herkennen bij het laden van Markdown-documen
 #### Tabellen exporteren als HTML bij opslaan in Markdown <sup>24.10</sup>
 
 Een optie om tabellen te exporteren als HTML bij het opslaan van documenten in Markdown-formaat is geïmplementeerd door een nieuwe openbare eigenschap [ExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/exportashtml/) en een opsomming [MarkdownExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownexportashtml/) toe te voegen.
+
+#### PDF exporteren met bijgewerkte logische structuur <sup>24.11</sup>
+
+De export van PDF is verbeterd door eigenschappen van tabeltitels op te nemen als titels van logische structuurelementen van PDF.
 
 ### Digitale handtekeningen
 
@@ -59,12 +81,16 @@ De mogelijkheid om documenten te ondertekenen met XAdES-EPES level XML-DSig hand
 * De mogelijkheid om afzonderlijke vormen te groeperen, vormen samen te groeperen en vormen rechtstreeks te groeperen en vormen te groeperen is geïntroduceerd door de methode [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/#insertgroupshape_1) toe te voegen. <sup>24.10</sup>
 * Big5-coderingsverwerking voor TrueType cmap-tabellen is verbeterd. <sup>24.10</sup>
 * Ondersteuning voor verouderde Taiwanese lettertypen is verbeterd. <sup>24.10</sup>
+* Voor toegang tot uitgebreide Documenteigenschappen zijn alleen-lezen eigenschappen toegevoegd aan de klasse [BuiltInDocumentProperties](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/). <sup>24.11</sup>
+* Bijschriften instellen voor ActiveX-besturingselementen is ingeschakeld door een nieuwe openbare setter toe te voegen aan de eigenschap [Forms2OleControl.Caption](https://reference.aspose.com/words/net/aspose.words.drawing.ole/forms2olecontrol/caption/). <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 Meer informatie over [Aspose.Words voor .NET 24.9 Release-opmerkingen](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-9-release-notes/).
 
 Meer informatie over [Aspose.Words voor .NET 24.10 Release-opmerkingen](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-10-release-notes/).
+
+Lees meer over [Aspose.Words voor .NET 24.11 Release Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-11-release-notes/).
 
 {{% /alert %}}
 

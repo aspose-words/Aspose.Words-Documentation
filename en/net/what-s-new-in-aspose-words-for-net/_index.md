@@ -21,7 +21,7 @@ Aspose.Words 24.11 introduces AI-powered document summarization, enhanced render
 
 ### AI-powered Features <sup>24.11</sup>
 
-Support for **document summarization using OpenAI and Google** generative language models has been integrated by adding the [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) namespace with its public members.
+Support for document summarization using **OpenAI** and **Google** generative language models has been integrated by adding the [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) namespace with its public members.
 
 ### Rendering and Printing
 

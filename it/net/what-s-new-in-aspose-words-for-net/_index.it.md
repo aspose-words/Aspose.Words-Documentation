@@ -11,11 +11,17 @@ url: /it/net/what-s-new-in-aspose-words-for-net/
 
 Questa pagina descrive le nuove funzionalità Aspose.Words più interessanti introdotte nelle versioni recenti.
 
-## Aspose.Words per .NET 24.9, 24.10
+## Aspose.Wordsper .NET 24.9, 24.10, 24.11
 
 Aspose.Words 24.9 introduce l'inserimento di forme di gruppo e l'inserimento di StructuredDocumentTag tramite DocumentBuilder, migliora il rendering dei grafici radiali con graduazioni, migliora le firme digitali con il supporto XAdES-EPES, aggiunge il riconoscimento della sottolineatura Markdown e fornisce l'accesso ai separatori di note a piè di pagina/note di chiusura.
 
 Aspose.Words 24.10 introduce un supporto avanzato per i controlli ActiveX con la creazione di CommandButton, un nuovo controllo di visibilità delle forme, la possibilità di raggruppare le forme, un'esportazione Markdown migliorata per le tabelle, la formattazione dei grafici per i grafici a torta e ad anello, una migliore gestione della codifica Big5 e il supporto per i font taiwanesi obsoleti.
+
+Aspose.Words 24.11 introduce il riepilogo del documento basato su AI, opzioni di rendering avanzate, accesso migliorato alle proprietà del documento e sottotitoli del controllo ActiveX.
+
+### AI - Funzioni alimentate <sup>24.11</sup>
+
+Il supporto per il riepilogo dei documenti utilizzando i modelli di linguaggio generativo **OpenAI** e **Google** è stato integrato aggiungendo lo spazio dei nomi [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) con i suoi membri pubblici.
 
 ### Rendering e stampa
 
@@ -35,6 +41,18 @@ La possibilità di creare controlli ActiveX CommandButton è stata introdotta ag
 
 Sono state aggiunte diverse nuove proprietà pubbliche per formattare i grafici a torta e ad anello.
 
+#### Controllare il rendering dei bordi del campo del modulo di scelta PDF <sup>24.11</sup>
+
+Una nuova opzione per controllare il rendering dei bordi del campo del modulo di scelta PDF è stata implementata aggiungendo una nuova opzione pubblica [RenderChoiceFormFieldBorder](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/renderchoiceformfieldborder/).
+
+#### Ottenere e impostare i codici di formato per i dati del grafico <sup>24.11</sup>
+
+La possibilità di ottenere e impostare i codici di formato per i dati del grafico è stata aggiunta implementando la proprietà [FormatCode](https://reference.aspose.com/words/net/aspose.words.drawing.charts/bubblesizecollection/formatcode/) nelle classi [ChartXValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvaluecollection/) e [BubbleSizeCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/bubblesizecollection/).
+
+#### Rendering di grafici istografici con contenitori ed etichette <sup>24.11</sup>
+
+Il rendering del grafico istogramma è stato migliorato consentendo un numero specificato di contenitori ed etichette.
+
 ### Conversione, caricamento e salvataggio di documenti
 
 #### Formattazione sottolineata durante il caricamento di file Markdown <sup>24.9</sup>
@@ -44,6 +62,10 @@ L'opzione per riconoscere la formattazione sottolineata durante il caricamento d
 #### Esportazione di tabelle come HTML durante il salvataggio in Markdown <sup>24.10</sup>
 
 È stata implementata un'opzione per esportare le tabelle come HTML durante il salvataggio di documenti in formato Markdown aggiungendo una nuova proprietà pubblica [ExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/exportashtml/) e un'enumerazione [MarkdownExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownexportashtml/).
+
+#### Esporta PDF con struttura logica aggiornata <sup>24.11</sup>
+
+L'esportazione PDF è stata migliorata includendo le proprietà del titolo della tabella come titoli degli elementi della struttura logica PDF.
 
 ### Firme digitali
 
@@ -59,12 +81,16 @@ La possibilità di firmare documenti con firme XML-DSig di livello XAdES-EPES è
 * La possibilità di raggruppare singole forme, raggruppare forme insieme e raggruppare direttamente sia forme che gruppi di forme è stata introdotta aggiungendo il metodo [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/#insertgroupshape_1). <sup>24.10</sup>
 * La gestione della codifica Big5 per le tabelle cmap TrueType è stata migliorata. <sup>24.10</sup>
 * Il supporto per i font taiwanesi obsoleti è stato migliorato. <sup>24.10</sup>
+* Per accedere alle proprietà estese del documento, alla classe [BuiltInDocumentProperties](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/) sono state aggiunte proprietà di sola lettura. <sup>24.11</sup>
+* L'impostazione dei sottotitoli per i controlli ActiveX è stata abilitata aggiungendo un nuovo setter pubblico alla proprietà [Forms2OleControl.Caption](https://reference.aspose.com/words/net/aspose.words.drawing.ole/forms2olecontrol/caption/). <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 Ulteriori informazioni su [Note sulla versione Aspose.Words per .NET 24.9](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-9-release-notes/).
 
 Ulteriori informazioni su [Note sulla versione Aspose.Words per .NET 24.10](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-10-release-notes/).
+
+Scopri di più su [Aspose.Words per .NET 24.11 Note di rilascio](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-11-release-notes/).
 
 {{% /alert %}}
 

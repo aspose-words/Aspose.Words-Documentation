@@ -11,11 +11,17 @@ url: /ko/net/what-s-new-in-aspose-words-for-net/
 
 이 페이지에서는 최근 릴리스에 도입된 가장 흥미로운 새 Aspose.Words 기능을 설명합니다.
 
-## .NET 24.9, 24.10 용 Aspose.Words
+## Aspose.Words(으)로 .NET 24.9, 24.10, 24.11
 
 Aspose.Words 24.9는 DocumentBuilder를 통해 그룹 모양 삽입 및 StructuredDocumentTag 삽입을 도입하고, 그라데이션을 사용하여 방사형 차트 렌더링을 개선하고, XAdES-EPES 지원을 통해 디지털 서명을 개선하고, Markdown 밑줄 인식을 추가하고, 각주/미주 구분 기호에 대한 액세스를 제공합니다.
 
 Aspose.Words 24.10에서는 CommandButton 생성, 새로운 모양 가시성 제어, 모양 그룹화 기능, 표에 대한 개선된 Markdown 내보내기, 파이 및 도넛 차트에 대한 차트 서식 지정, 더 나은 Big5 인코딩 처리, 오래된 대만어 글꼴 지원 등의 향상된 ActiveX 컨트롤 지원이 도입되었습니다.
+
+Aspose.Words24.11AI전원 문서 요약,향상된 렌더링 옵션,문서 속성 및 액티브엑스 제어 캡션에 대한 향상된 액세스를 소개합니다.
+
+### AI-전원 기능 <sup>24.11</sup>
+
+**OpenAI**및**Google**생성 언어 모델을 사용하는 문서 요약 지원은[Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/)네임스페이스를 공용 멤버와 추가하여 통합되었습니다.
 
 ### 렌더링 및 인쇄
 
@@ -35,6 +41,18 @@ CommandButton ActiveX 컨트롤을 생성하는 기능은 새로운 공개 메�
 
 원형 및 도넛 차트의 서식을 지정하기 위해 여러 개의 새로운 공개 속성이 추가되었습니다.
 
+#### PDF선택 양식 필드 테두리의 렌더링 제어 <sup>24.11</sup>
+
+PDF선택 양식 필드 테두리의 렌더링을 제어하는 새로운 옵션이 새로운 공개 옵션[RenderChoiceFormFieldBorder](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/renderchoiceformfieldborder/)을 추가하여 구현되었습니다.
+
+#### 차트 데이터에 대한 형식 코드 가져오기 및 설정 <sup>24.11</sup>
+
+[ChartXValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvaluecollection/),[ChartYValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvaluecollection/)및[BubbleSizeCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/bubblesizecollection/)클래스에[FormatCode](https://reference.aspose.com/words/net/aspose.words.drawing.charts/bubblesizecollection/formatcode/)속성을 구현하여 차트 데이터에 대한 형식 코드를 가져오고 설정할 수 있는 기능이 추가되었습니다.
+
+#### 빈 및 레이블이 있는 히스토그램 차트 렌더링 <sup>24.11</sup>
+
+지정된 수의 빈과 레이블을 허용하여 히스토그램 차트 렌더링이 개선되었습니다.
+
 ### 문서 변환, 로드 및 저장
 
 #### Markdown 파일을 로드할 때 밑줄 서식 지정 <sup>24.9</sup>
@@ -44,6 +62,10 @@ Markdown 문서를 로드할 때 밑줄 서식을 인식하는 옵션은 새로�
 #### 마크다운으로 저장할 때 표를 HTML로 내보내기 <sup>24.10</sup>
 
 문서를 마크다운 형식으로 저장할 때 표를 HTML로 내보내는 옵션은 새로운 공개 속성 [ExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/exportashtml/)과 열거형 [MarkdownExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownexportashtml/)을 추가하여 구현되었습니다.
+
+#### 업데이트된 논리 구조로PDF내보내기 <sup>24.11</sup>
+
+PDF내보내기는 테이블 제목 속성을PDF논리 구조 요소 제목으로 포함하여 향상되었습니다.
 
 ### 디지털 서명
 
@@ -59,12 +81,16 @@ XAdES-EPES 레벨 XML-DSig 서명으로 문서에 서명하는 기능은 새로�
 * 개별 도형을 그룹화하고, 도형을 함께 그룹화하고, 도형과 도형을 직접 그룹화하는 기능은 [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/#insertgroupshape_1) 메서드를 추가하여 도입되었습니다. <sup>24.10</sup>
 * TrueType cmap 테이블에 대한 Big5 인코딩 처리가 개선되었습니다. <sup>24.10</sup>
 * 오래된 대만어 글꼴에 대한 지원이 향상되었습니다. <sup>24.10</sup>
+* 확장 문서 속성에 액세스하려면 읽기 전용 속성이[BuiltInDocumentProperties](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/)클래스에 추가되었습니다. <sup>24.11</sup>
+* [Forms2OleControl.Caption](https://reference.aspose.com/words/net/aspose.words.drawing.ole/forms2olecontrol/caption/)속성에 새 공용 세터를 추가하여 액티브 컨트롤에 대한 캡션 설정을 사용할 수 있습니다. <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 [.NET 24.9용 Aspose.Words 릴리스 노트](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-9-release-notes/)에 대해 자세히 알아보세요.
 
 [.NET 24.10용 Aspose.Words 릴리스 노트](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-10-release-notes/)에 대해 자세히 알아보세요.
+
+에 대해 자세히 알아보기 [Aspose.Words.NET 24.11릴리스 노트](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-11-release-notes/).
 
 {{% /alert %}}
 

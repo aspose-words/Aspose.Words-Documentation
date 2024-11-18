@@ -11,11 +11,17 @@ url: /pl/net/what-s-new-in-aspose-words-for-net/
 
 Na tej stronie opisano najciekawsze nowe funkcje Aspose.Words wprowadzone w ostatnich wydaniach.
 
-## Aspose.Words dla .NET 24.9, 24.10
+## Aspose.Words dla .NET 24.9, 24.10, 24.11
 
 Aspose.Words 24.9 wprowadza wstawianie kształtów grupowych i wstawianie StructuredDocumentTag za pośrednictwem DocumentBuilder, ulepsza renderowanie wykresów promieniowych za pomocą podziałek, ulepsza podpisy cyfrowe dzięki obsłudze XAdES-EPES, dodaje rozpoznawanie podkreśleń Markdown i zapewnia dostęp do separatorów przypisów dolnych/końcowych.
 
 Aspose.Words 24.10 wprowadza ulepszoną obsługę kontrolek ActiveX z tworzeniem CommandButton, nową kontrolę widoczności kształtów, możliwość grupowania kształtów, ulepszony eksport Markdown dla tabel, formatowanie wykresów kołowych i pierścieniowych, lepszą obsługę kodowania Big5 i obsługę przestarzałych czcionek tajwańskich.
+
+Aspose.Words 24.11 wprowadza AI-powered podsumowania dokumentu, ulepszone opcje renderowania, lepszy dostęp do Właściwości dokumentu i ActiveX napisów kontrolnych.
+
+### AI - Funkcje zasilane <sup>24.11</sup>
+
+Obsługa podsumowania dokumentów przy użyciu generatywnych modeli językowych **OpenAI** i **Google** została zintegrowana poprzez dodanie przestrzeni nazw [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) wraz z jej publicznymi członkami.
 
 ### Renderowanie i drukowanie
 
@@ -35,6 +41,18 @@ Dodano nową właściwość publiczną [Hidden](https://reference.aspose.com/wor
 
 Dodano kilka nowych właściwości publicznych w celu sformatowania wykresów kołowych i pierścieniowych.
 
+#### Kontroluj renderowanie granic pól formularza wyboru PDF <sup>24.11</sup>
+
+Nowa opcja kontrolowania renderowania granic pól formularza wyboru PDF została zaimplementowana przez dodanie nowej opcji publicznej [RenderChoiceFormFieldBorder](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/renderchoiceformfieldborder/).
+
+#### Pobierz i ustaw kody formatu dla danych wykresu <sup>24.11</sup>
+
+Możliwość pobierania i ustawiania kodów formatu dla danych wykresu została dodana poprzez implementację właściwości [FormatCode](https://reference.aspose.com/words/net/aspose.words.drawing.charts/bubblesizecollection/formatcode/) w klasach [ChartXValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvaluecollection/) i [BubbleSizeCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/bubblesizecollection/).
+
+#### Renderuj wykresy histogramu z pojemnikami i etykietami <sup>24.11</sup>
+
+Renderowanie wykresu histogramu zostało ulepszone, umożliwiając określoną liczbę pojemników i etykiet.
+
 ### Konwertowanie, ładowanie i zapisywanie dokumentów
 
 #### Formatowanie podkreślenia podczas ładowania plików Markdown <sup>24.9</sup>
@@ -44,6 +62,10 @@ Opcja rozpoznawania formatowania podkreślenia podczas ładowania dokumentów Ma
 #### Eksportowanie tabel jako HTML podczas zapisywania do Markdown <sup>24.10</sup>
 
 Opcja eksportowania tabel jako HTML podczas zapisywania dokumentów do formatu Markdown została zaimplementowana poprzez dodanie nowej publicznej właściwości [ExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/exportashtml/) i wyliczenia [MarkdownExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownexportashtml/).
+
+#### Eksportuj PDF ze zaktualizowaną strukturą logiczną <sup>24.11</sup>
+
+PDF eksport został wzmocniony przez włączenie właściwości tytułu tabeli jako PDF tytułów elementów struktury logicznej.
 
 ### Podpisy cyfrowe
 
@@ -59,12 +81,16 @@ Możliwość podpisywania dokumentów za pomocą podpisów XML-DSig na poziomie 
 * Możliwość grupowania pojedynczych kształtów, grupowania kształtów razem i bezpośredniego grupowania kształtów i grupowania kształtów została wprowadzona poprzez dodanie metody [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/#insertgroupshape_1). <sup>24.10</sup>
 * Ulepszono obsługę kodowania Big5 dla tabel TrueType cmap. <sup>24.10</sup>
 * Ulepszono obsługę przestarzałych czcionek tajwańskich. <sup>24.10</sup>
+* Aby uzyskać dostęp do rozszerzonych właściwości dokumentu, właściwości tylko do odczytu zostały dodane do klasy [BuiltInDocumentProperties](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/). <sup>24.11</sup>
+* Ustawianie napisów dla formantów ActiveX zostało włączone przez dodanie nowego publicznego setera do właściwości [Forms2OleControl.Caption](https://reference.aspose.com/words/net/aspose.words.drawing.ole/forms2olecontrol/caption/). <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 Dowiedz się więcej o [Aspose.Words dla .NET 24.9 Informacje o wersji](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-9-release-notes/).
 
 Dowiedz się więcej o [Aspose.Words dla .NET 24.10 Informacje o wersji](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-10-release-notes/).
+
+Dowiedz się więcej o [Aspose.Words dla .NET 24.11 informacje o wydaniu](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-11-release-notes/).
 
 {{% /alert %}}
 
@@ -114,7 +140,7 @@ Dodano moduł ustawiający właściwość publiczną [CustomNumberStyleFormat](h
 
 * Można teraz modyfikować właściwości obiektów ActiveX, co daje większą kontrolę nad ich zachowaniem.
 * Dodano możliwość modyfikacji wartości przycisku opcji ActiveX w celu umożliwienia dynamicznej interakcji.
-* Dodano możliwość przełączania pola wyboru ActiveX na „zaznaczone” lub „niezaznaczone”.
+* Dodano możliwość przełączania pola wyboru ActiveX na „zaznaczone" lub „niezaznaczone".
 
 #### Kontrola nad orientacją i obrotem etykiet znaczników osi wykresu <sup>24.8</sup>
 

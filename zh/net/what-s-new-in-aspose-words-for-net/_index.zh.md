@@ -11,11 +11,17 @@ url: /zh/net/what-s-new-in-aspose-words-for-net/
 
 本页描述了最近版本中引入的最有趣的新 Aspose.Words 功能。
 
-## Aspose.Words for .NET 24.9、24.10
+## Aspose.Words为.NET 24.9, 24.10, 24.11
 
 Aspose.Words 24.9 通过 DocumentBuilder 引入了组形状插入和 StructuredDocumentTag 插入，通过刻度增强了径向图表渲染，通过 XAdES-EPES 支持改进了数字签名，添加了 Markdown 下划线识别，并提供了对脚注/尾注分隔符的访问。
 
 Aspose.Words 24.10 引入了增强的 ActiveX 控件支持，包括 CommandButton 创建、新的形状可见性控制、分组形状的能力、改进的表格 Markdown 导出、饼图和环形图的图表格式、更好的 Big5 编码处理以及对过时的台湾字体的支持。
+
+Aspose.Words24.11引入了AI支持的文档摘要、增强的呈现选项、改进的文档属性访问和ActiveX控件字幕。
+
+### AI功能 <sup>24.11</sup>
+
+通过添加[Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/)命名空间及其公共成员，集成了对使用**OpenAI**和**Google**生成语言模型的文档摘要的支持。
 
 ### 渲染和打印
 
@@ -35,6 +41,18 @@ Aspose.Words 24.10 引入了增强的 ActiveX 控件支持，包括 CommandButto
 
 添加了几个新的公共属性来格式化饼图和圆环图。
 
+#### 控制PDF选择表单字段边框的呈现 <sup>24.11</sup>
+
+通过添加新的公共选项[RenderChoiceFormFieldBorder](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/renderchoiceformfieldborder/)，实现了控制PDF选择表单字段边框呈现的新选项。
+
+#### 获取和设置图表数据的格式代码 <sup>24.11</sup>
+
+通过在[ChartXValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvaluecollection/)、[ChartYValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvaluecollection/)和[BubbleSizeCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/bubblesizecollection/)类中实现[FormatCode](https://reference.aspose.com/words/net/aspose.words.drawing.charts/bubblesizecollection/formatcode/)属性，添加了获取和设置图表数据格式代码的功能。
+
+#### 使用箱和标签渲染直方图图表 <sup>24.11</sup>
+
+通过允许指定数量的容器和标签，直方图图表的呈现得到了改进。
+
 ### 转换、加载和保存文档
 
 #### 加载 Markdown 文件时的下划线格式 <sup>24.9</sup>
@@ -44,6 +62,10 @@ Aspose.Words 24.10 引入了增强的 ActiveX 控件支持，包括 CommandButto
 #### 保存为 Markdown 时将表格导出为 HTML <sup>24.10</sup>
 
 通过添加新的公共属性 [ExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/exportashtml/) 和枚举 [MarkdownExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownexportashtml/)，实现了将文档保存为 Markdown 格式时将表格导出为 HTML 的选项。
+
+#### 使用更新的逻辑结构导出PDF <sup>24.11</sup>
+
+通过将表标题属性包含为PDF逻辑结构元素标题，已增强了PDF导出。
 
 ### 数字签名
 
@@ -59,12 +81,16 @@ Aspose.Words 24.10 引入了增强的 ActiveX 控件支持，包括 CommandButto
 * 通过添加 [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/#insertgroupshape_1) 方法，引入了对单个形状进行分组、将形状组合在一起以及直接对形状和组合形状进行分组的功能。 <sup>24.10</sup>
 * TrueType cmap 表的 Big5 编码处理已得到改进。<sup>24.10</sup>
 * 对过时的台湾字体的支持已得到增强。<sup>24.10</sup>
+* 要访问扩展文档属性，已将只读属性添加到[BuiltInDocumentProperties](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/)类。 <sup>24.11</sup>
+* 通过向[Forms2OleControl.Caption](https://reference.aspose.com/words/net/aspose.words.drawing.ole/forms2olecontrol/caption/)属性添加新的公共setter，已启用ActiveX控件的设置标题。 <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 了解有关 [Aspose.Words for .NET 24.9 发行说明](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-9-release-notes/) 的更多信息。
 
 了解有关 [Aspose.Words for .NET 24.10 发行说明](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-10-release-notes/) 的更多信息。
+
+了解更多关于 [Aspose.Words为.NET 24.11发行说明](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-11-release-notes/).
 
 {{% /alert %}}
 
@@ -114,7 +140,7 @@ Aspose.Words 24.8 通过对轴标签的精确控制增强了图表定制功能�
 
 * 现在可以修改 ActiveX 对象的属性，让您可以更好地控制其行为。
 * 添加了修改单选按钮 ActiveX 控件的值以启用动态交互的功能。
-* 添加了将 ActiveX 复选框切换为“选中”或“未选中”的功能。
+* 添加了将 ActiveX 复选框切换为"选中"或"未选中"的功能。
 
 #### 控制图表轴刻度标签方向和旋转 <sup>24.8</sup>
 
