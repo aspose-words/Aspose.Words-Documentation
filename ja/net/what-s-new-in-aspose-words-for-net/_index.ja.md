@@ -1,504 +1,528 @@
----
+﻿---
 title: 新着情報
-second_title: .NET用Aspose.Words
-articleTitle: .NET の Aspose.Words の新機能
-linktitle: .NET の Aspose.Words の新機能
+second_title: Aspose.Wordsのための.NET
+articleTitle: What's new inAspose.Wordsのための.NET
+linktitle: What's new inAspose.Wordsのための.NET
 type: docs
-description: ".NET 用 Aspose.Words は日々拡張および機能強化されています。このページでは、製品の巨大で最も興味深い機能について学ぶことができます。"
+description: "Aspose.Wordsは.NETのために毎日拡大し、強化します。 このページでは、製品の巨大で最も興味深い機能について学ぶことができます。"
 weight: 10
 url: /ja/net/what-s-new-in-aspose-words-for-net/
 ---
 
-このページでは、最近のリリースで導入された最も興味深い Aspose.Words の新機能について説明します。
+このページでは、最近のリリースで導入された最も興味深い新しいAspose.Words機能について説明します。
 
-## Aspose.Words for .NET 24.9、24.10
+## Aspose.Wordsのための.NET 24.9, 24.10, 24.11
 
-Aspose.Words 24.9 では、DocumentBuilder によるグループ シェイプの挿入と StructuredDocumentTag の挿入が導入され、目盛り付きの放射状グラフのレンダリングが強化され、XAdES-EPES サポートによるデジタル署名が改善され、Markdown の下線認識が追加され、脚注/文末脚注のセパレーターへのアクセスが提供されます。
+Aspose.Words24.9はDocumentBuilderを介してgroup shape挿入とStructuredDocumentTag挿入を導入し、目盛りによる放射状チャートレンダリングを強化し、XAdES-EPESサポートによるデジタル署名を改善し、Markdown下線認識を追加し、脚注/文末脚注セパレータへのアクセスを提供します。
 
-Aspose.Words 24.10 では、コマンド ボタンの作成、新しい図形の表示コントロール、図形のグループ化機能、表のマークダウン エクスポートの改善、円グラフとドーナツ グラフのグラフ書式設定、Big5 エンコード処理の改善、古い台湾フォントのサポートなど、ActiveX コントロールのサポートが強化されています。
+Aspose.Words24.10は、CommandButtonの作成、新しい形状の可視性コントロール、group shapesへの機能、テーブルの改善されたMarkdownエクスポート、PieとDoughnutチャートのチャートフォーマット、より良いBig5エンコーディング処理、古い台湾のフォントのサポートにより、ActiveXコントロールのサポートが強化されています。
+
+Aspose.Words24.11では、AIを使用したドキュメントの要約、強化されたレンダリングオプション、ドキュメントプロパティへのアクセスの改善、ActiveXコントロー
+
+### AI搭載の機能 <sup>24.11</sup>
+
+**OpenAI**および**Google**生成言語モデルを使用した文書要約のサポートは、[Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/)名前空間とそのパブリックメンバーを追加することによって統合されています。
 
 ### レンダリングと印刷
 
-#### 放射状グラフの目盛り <sup>24.9</sup>
+#### ラジアルチャート上の目盛り <sup>24.9</sup>
 
-放射状グラフの目盛りのレンダリングが実装されました。
+放射状チャート上の目盛りのレンダリングが実装されています。
 
-#### コマンド ボタン ActiveX コントロール <sup>24.10</sup>
+#### CommandButtonActiveXコントロール <sup>24.10</sup>
 
-コマンド ボタン ActiveX コントロールを作成する機能は、新しいパブリック メソッド [InsertForms2OleControl](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertforms2olecontrol/) と新しいパブリック クラス [Forms2OleControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/forms2olecontrol/) を追加することで導入されました。
+新しいパブリックメソッド[InsertForms2OleControl](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertforms2olecontrol/)と新しいパブリッククラス[Forms2OleControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/forms2olecontrol/)を追加することにより、CommandButtonActiveXコントロールを作成する機能が導入されました。
 
-#### 図形の表示の制御 <sup>24.10</sup>
+#### 形状の可視性を制御する <sup>24.10</sup>
 
-図形の表示を制御するための新しいパブリック プロパティ [Hidden](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/hidden/) が追加されました。
+図形の可視性を制御するために、新しいパブリックプロパティ[Hidden](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/hidden/)が追加されました。
 
-#### 円グラフとドーナツ グラフの変更 <sup>24.10</sup>
+#### PieチャートとDoughnutチャートの変更点 <sup>24.10</sup>
 
-円グラフとドーナツ グラフの書式設定用に、いくつかの新しいパブリック プロパティが追加されました。
+書式PieおよびDoughnutチャートにいくつかの新しいパブリックプロパティが追加されました。
 
-### ドキュメントの変換、読み込み、および保存
+#### PDF選択フォームフィールドの境界線のレンダリングを制御します <sup>24.11</sup>
 
-#### Markdown ファイルの読み込み時の下線書式設定 <sup>24.9</sup>
+新しいパブリックオプション[RenderChoiceFormFieldBorder](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/renderchoiceformfieldborder/)を追加することにより、PDF選択フォームフィールド境界のレンダリングを制御する新しいオプションが実装されました。
 
-Markdown ドキュメントの読み込み時に下線書式設定を認識するオプションが、新しいパブリック プロパティ [ImportUnderlineFormatting](https://reference.aspose.com/words/net/aspose.words.loading/markdownloadoptions/importunderlineformatting/) の追加によって組み込まれました。
+#### グラフデータの書式コードの取得と設定 <sup>24.11</sup>
 
-#### Markdown に保存するときにテーブルを HTML としてエクスポート <sup>24.10</sup>
+チャートデータの書式コードを取得および設定する機能は、[ChartXValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvaluecollection/)、[ChartYValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvaluecollection/)、および[BubbleSizeCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/bubblesizecollection/)クラスに[FormatCode](https://reference.aspose.com/words/net/aspose.words.drawing.charts/bubblesizecollection/formatcode/)プロパティを実装することによって追加されました。
 
-ドキュメントを Markdown 形式で保存するときにテーブルを HTML としてエクスポートするオプションが、新しいパブリック プロパティ [ExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/exportashtml/) と列挙 [MarkdownExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownexportashtml/) を追加することで実装されました。
+#### ビンとラベルを使用したヒストグラムチャートのレンダリング <sup>24.11</sup>
+
+ヒストグラムチャートレンダリングは、指定された数のビンとラベルを使用できるようにすることで改善されました。
+
+### 文書の変換、読み込み、保存
+
+#### Markdownファイルを読み込むときの書式設定に下線を引きます <sup>24.9</sup>
+
+新しいパブリックプロパティ[ImportUnderlineFormatting](https://reference.aspose.com/words/net/aspose.words.loading/markdownloadoptions/importunderlineformatting/)を追加することにより、Markdown文書を読み込むときに下線の書式を認識するオプションが組み込まれました。
+
+#### Markdownに保存するときにテーブルをHTMLとしてエクスポートする <sup>24.10</sup>
+
+文書をMarkdown形式で保存するときにテーブルをHTMLとしてエクスポートするオプションは、新しいパブリックプロパティ[ExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/exportashtml/)と列挙[MarkdownExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownexportashtml/)を追加することによ
+
+#### 更新された論理構造を使用してPDFをエクスポートする <sup>24.11</sup>
+
+PDFエクスポートは、テーブルタイトルプロパティをPDF論理構造要素のタイトルとして含めることで拡張されました。
 
 ### デジタル署名
 
-#### XAdES-EPES でドキュメントに署名 <sup>24.9</sup>
+#### XAdES-EPESで文書に署名する <sup>24.9</sup>
 
-新しいパブリック プロパティ [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions/xmldsiglevel/) と新しいパブリック列挙 [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/xmldsiglevel/) を追加することで、XAdES-EPES レベルの XML-DSig 署名でドキュメントに署名する機能が導入されました。
+新しいパブリックプロパティ[XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions/xmldsiglevel/)と新しいパブリック列挙[XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/xmldsiglevel/)を追加することにより、XAdES-EPESレベルXML-DSig署名で文書に署名する機能が導入されました。
 
 ### その他
 
-* グループ シェイプに新しいパブリック メソッド [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/) が追加されました。 <sup>24.9</sup>
-* **StructuredDocumentTags** をドキュメントに挿入するための新しいパブリック メソッド [InsertStructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertstructureddocumenttag/) が追加されました。 <sup>24.9</sup>
-* いくつかのパブリック クラスとプロパティを追加することで、脚注/文末脚注セパレーターへのパブリック アクセスが提供されています。 <sup>24.9</sup>
-* [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/#insertgroupshape_1) メソッドを追加することで、個々の図形をグループ化する機能、図形をまとめてグループ化する機能、図形の両方を直接グループ化して図形をグループ化する機能が導入されました。 <sup>24.10</sup>
-* TrueType cmap テーブルの Big5 エンコーディング処理が改善されました。<sup>24.10</sup>
-* 古い台湾語フォントのサポートが強化されました。<sup>24.10</sup>
+* 新しいパブリックメソッド[InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/)がgroup shapesに追加されました。 <sup>24.9</sup>
+* ドキュメントに**StructuredDocumentTags**を挿入するための新しいパブリックメソッド[InsertStructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertstructureddocumenttag/)が追加されました。 <sup>24.9</sup>
+* 脚注/文末脚注の区切り文字へのパブリックアクセスは、いくつかのパブリッククラスとプロパティを追加することによって提供されています。 <sup>24.9</sup>
+* [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/#insertgroupshape_1)メソッドを追加することにより、個々の図形group shapesをグループ化し、図形とgroup shapesの両方を直接グループ化する機能が導入されました。 <sup>24.10</sup>
+* TrueTypecmapテーブルのbig5エンコード処理が改善されました。 <sup>24.10</sup>
+* 古い台湾語フォントのサポートが強化されました。 <sup>24.10</sup>
+* 拡張ドキュメントプロパティにアクセスするために、読み取り専用プロパティが[BuiltInDocumentProperties](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/)クラスに追加されました。 <sup>24.11</sup>
+* ActiveXコントロールのキャプションの設定は、[Forms2OleControl.Caption](https://reference.aspose.com/words/net/aspose.words.drawing.ole/forms2olecontrol/caption/)プロパティに新しいパブリックセッターを追加することで有効になりました。 <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
-詳細については、[Aspose.Words for .NET 24.9 リリース ノート](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-9-release-notes) をご覧ください。
+詳細については、こちらをご覧ください [Aspose.WordsFor.NET 24.9リリースノート](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-9-release-notes/).
 
-詳細については、[Aspose.Words for .NET 24.10 リリース ノート](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-10-release-notes) をご覧ください。
+詳細については、こちらをご覧ください [Aspose.WordsFor.NET 24.10リリースノート](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-10-release-notes/).
+
+詳細については、こちらをご覧ください [Aspose.WordsFor.NET 24.11リリースノート](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-11-release-notes/).
 
 {{% /alert %}}
 
-## Aspose.Words for .NET 24.5、24.6、24.7、24.8
+## Aspose.Wordsは.NET 24.5, 24.6, 24.7, 24.8に対してAspose.Wordsを意味します。
 
-Aspose.Words 24.5 では、アセンブリのオプションが拡張され、レンダリング機能が向上し、その他のオプションも拡張されています。
+Aspose.Words24.5アセンブリのオプションを展開し、レンダリング機能を向上させ、その他のオプションを展開します。
 
-Aspose.Words 24.6 では、レンダリング オプションが向上し、検索および比較機能が強化され、その他の機能が拡張されています。
+Aspose.Words24.6レンダリングオプションが改善され、検索と比較機能が強化され、他のいくつかの機能が拡張されました。
 
-Aspose.Words 24.7 では、ActiveX の操作方法が変更され、レンダリング機能が拡張され、Markdown および XLSX 形式へのエクスポートも可能になりました。
+Aspose.Words24.7ActiveXの操作方法を変更し、レンダリング機能を拡張し、Markdown形式とXLSX形式にエクスポートします。
 
-Aspose.Words 24.8 では、軸ラベルを正確に制御してグラフのカスタマイズを強化し、フォント管理を拡張し、ドキュメント構造の処理を改善し、HTML/XAML エクスポート、PDF 機能、ドキュメント変換、デジタル署名の新機能が追加されています。
+Aspose.Words24.8軸ラベルを正確に制御してグラフのカスタマイズを強化し、フォント管理を拡張し、文書構造の処理を改善し、HTML/XAMLエクスポート、PDF機能、文書変換、デジタ
 
 ### サポートされている形式
 
-バージョン 24.7 以降では、障害を持つユーザーのアクセシビリティを確保するために、PDF/UA-2 へのエクスポートがサポートされています。
+バージョン24.7からは、障害を持つユーザーのアクセシビリティを確保するためにPDF/UA-2へのエクスポートがサポートされています。
 
 ### プラットフォーム <sup>24.5</sup>
 
-.NET 7.0/8.0 アセンブリは、Aspose.Words NuGet パッケージに含まれています。
+.NET 7.0/8.0アセンブリはAspose.WordsNuGetパッケージに含まれています。
 
 ### レンダリングと印刷
 
-#### Charts、Shapes、DrawingML の変更 <sup>24.5</sup>
+#### チャート、図形、およびDrawingMLの変更 <sup>24.5</sup>
 
-* 画像に限定されていた以前の機能を拡張する、SVG グラフィックスの DrawingML エフェクト レンダリングが実装されました。
-* コンボ チャートの作成と、シリーズ グループ内のギャップ幅、オーバーラップ、バブル スケールなどのプロパティの調整のサポートは、[ChartSeriesGroup](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriesgroup/) クラスと [ChartSeriesGroupCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriesgroupcollection/) クラス、および [SeriesGroups](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/seriesgroups/) プロパティ。
-* シェイプの SoftEdge 効果を操作する機能は、[SoftEdgeFormat](https://reference.aspose.com/words/net/aspose.words.drawing/softedgeformat/) クラスを追加することで実装されました。
-* シェイプの調整値を変更する機能は、[AdjustmentCollection](https://reference.aspose.com/words/net/aspose.words.drawing/adjustmentcollection/) および [Adjustment](https://reference.aspose.com/words/net/aspose.words.drawing/adjustment/) パブリック クラスと [Adjustments](https://reference.aspose.com/words/net/aspose.words.drawing/shape/adjustments/) 財産。
+* DrawingMLエフェクトSVGグラフィックスのレンダリングが実装されており、これまでの機能は画像に限定されていました。
+* コンボチャートを作成し、系列グループ内のギャップ幅、オーバーラップ、バブルスケールなどのプロパティを調整するためのサポートは、[ChartSeriesGroup](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriesgroup/)クラスと[ChartSeriesGroupCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriesgroupcollection/)クラスと[SeriesGroups](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/seriesgroups/)
+* 図形のSoftEdge効果を操作する機能は、[SoftEdgeFormat](https://reference.aspose.com/words/net/aspose.words.drawing/softedgeformat/)クラスを追加することによって実装されています。
+* 図形の調整値を変更する機能は、[AdjustmentCollection](https://reference.aspose.com/words/net/aspose.words.drawing/adjustmentcollection/)と[Adjustment](https://reference.aspose.com/words/net/aspose.words.drawing/adjustment/)パブリッククラスと[Adjustments](https://reference.aspose.com/words/net/aspose.words.drawing/shape/adjustments/)プロパティを追加することによって実装されています。
 
-#### グラフ、図形、描画の変更 <sup>24.6</sup>
+#### チャート、図形、図面の変更 <sup>24.6</sup>
 
-* グラフ作成機能が強化されました。*ツリーマップ*、*サンバースト*、*ヒストグラム*、*パレート* グラフ、*箱ひげ図*、*ウォーターフォール*、*ファネル* など、より多様なグラフを作成できるようになりました。これにより、データをより多様で有益な方法で視覚化できます。
+* グラフ作成機能が強化されました。 これで、次のようなさまざまなグラフを作成できます*Treemaps*, *Sunbursts*, *Histograms*, *Pareto* チャート、*Box & Whisker*チャート、*Waterfalls*、および*Funnels*。 これにより、より多様で有益な方法でデータを視覚化することができます。
+* 影の書式設定のカラーコントロールが改善されました。 影の色にアクセスすることで、ドキュメントの外観をより正確に制御できます。
+* バックグラウンドレンダリングのパフォーマンス向上が改善されました。 ネイティブのタイル技術のおかげで、小さな要素を含む背景のレンダリングを大幅に高速化できます。
+* 形状のための現実的なグラデーションが追加されました。 非線形グラデーションを持つDML図形を作成し、Microsoft Wordの視覚スタイルを模倣して、より洗練された外観にすることができます。
 
-* 影の書式設定の色制御が強化されました。影の色にアクセスすることで、ドキュメントの外観をより正確に制御できます。
+#### チャートデータラベルのカスタマイズ <sup>24.7</sup>
 
-* バックグラウンド レンダリングのパフォーマンスが向上しました。ネイティブのタイリング テクノロジにより、小さな要素を含む背景のレンダリングを大幅に高速化できます。
-* 図形のリアルなグラデーションが追加されました。非線形グラデーションの DML 図形を作成できるようになりました。これにより、Microsoft Word のビジュアル スタイルを模倣して、より洗練された外観を実現できます。
+**Orientation**や**Rotation**などのチャートデータラベルをカスタマイズする機能が追加されました。
 
-#### グラフ データ ラベルのカスタマイズ <sup>24.7</sup>
+#### リストレベルのカスタム番号スタイル <sup>24.7</sup>
 
-**Orientation** や **Rotation** などのグラフ データ ラベルをカスタマイズする機能が追加されました。
+パブリックプロパティ[CustomNumberStyleFormat](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/customnumberstyleformat/)のセッターが追加されました。 リストレベルのカスタム番号スタイルを定義できるようになりました。
 
-#### リスト レベルのカスタム数値スタイル <sup>24.7</sup>
+#### ActiveXでの作業の変更点 <sup>24.7</sup>
 
-パブリック プロパティ [CustomNumberStyleFormat](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/customnumberstyleformat/) のセッターが追加されました。リスト レベルのカスタム数値スタイルを定義できるようになりました。
+* ActiveXオブジェクトのプロパティを変更できるようになり、その動作をより詳細に制御できるようになりました。
+* 動的相互作用を有効にするために、ラジオボタンのActiveXコントロールの値を変更する機能が追加されました。
+* ActiveXcheckboxを"checked"または"unchecked"に切り替える機能が追加されました。
 
-#### ActiveX の操作に関する変更 <sup>24.7</sup>
+#### チャート軸の目盛りラベルの向きと回転の制御 <sup>24.8</sup>
 
-* ActiveX オブジェクトのプロパティを変更できるようになり、その動作をより細かく制御できるようになりました。
-* ラジオ ボタン ActiveX コントロールの値を変更して動的な操作を有効にする機能が追加されました。
-* ActiveX チェックボックスを「オン」または「オフ」に切り替える機能が追加されました。
+グラフのカスタマイズをより便利にするために、グラフ軸の目盛りラベルの向きと回転を正確に制御できるようになりました。[AxisTickLabels](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/)クラスは新しい[Orientation](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/orientation/)と[Rotation](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/rotation/)プロパティで拡張されました。
 
-#### グラフ軸目盛りラベルの向きと回転の制御 <sup>24.8</sup>
+#### 円記号を円記号に置き換える <sup>24.8</sup>
 
-グラフ軸目盛りラベルの向きと回転を正確に制御できるようになり、グラフのカスタマイズがさらに便利になりました。[AxisTickLabels](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/) クラスが拡張され、新しい [Orientation](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/orientation/) プロパティと [Rotation](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/rotation/) プロパティが追加されました。
+バックスラッシュ文字を円記号に置き換えるための後方互換性のあるHTMLとXAMLエクスポートが改善されました。 これを実現するために、**ReplaceBackslashWithYenSign**プロパティが[HtmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/)クラスと[XamlFlowSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xamlflowsaveoptions/)クラスに追加されました。
 
-#### バックスラッシュを円記号に置き換える <sup>24.8</sup>
+#### PDFにエクスポートするときにSDTタグをフォームフィールド名として使用する <sup>24.8</sup>
 
-バックスラッシュ文字を円記号に置き換えるための下位互換性のある HTML および XAML エクスポートが改善されました。これを実現するために、[HtmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/) および [XamlFlowSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xamlflowsaveoptions/) クラスに **ReplaceBackslashWithYenSign** プロパティが追加されました。
+[PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/)クラスに新しい[UseSdtTagAsFormFieldName](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/usesdttagasformfieldname/)プロパティを追加することで、SDTタグをフォームフィールド名として使用することをサポートしたPDFエクスポートが強化されました。[PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/)クラスに新しい[UseSdtTagAsFormFieldName](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/usesdttagasformfieldname/)プロパティを追加しました。
 
-#### PDF へのエクスポート時に SDT タグをフォーム フィールド名として使用する <sup>24.8</sup>
+### 文書の変換、読み込み、保存
 
-SDT タグをフォーム フィールド名として使用するサポートを備えた PDF エクスポートが強化され、[PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/usesdttagasformfieldname/) プロパティが [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) クラスに追加されました。
+#### Markdown形式へのリンクのエクスポート <sup>24.7</sup>
 
-### ドキュメントの変換、読み込み、保存
+[LinkExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/linkexportmode/)プロパティの実装により、Markdown形式のリンクのエクスポートを制御する機能が追加されました。
 
-#### リンクを Markdown 形式にエクスポート <sup>24.7</sup>
+#### LowCode 24.8 <sup>24.8</sup>
 
-[LinkExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/linkexportmode/) プロパティの実装により、Markdown 形式でのリンクのエクスポートを制御する機能が追加されました。
-
-#### LowCode <sup>24.8</sup>
-
-1 行のコードでさまざまなドキュメント タイプを変換するための一連のメソッドを提供するように設計された新しい [LowCode.Converter](https://reference.aspose.com/words/net/aspose.words.lowcode/converter/) クラスが導入されました。
+さまざまなドキュメントタイプを1行のコードで変換するための一連のメソッドを提供するように設計された新しい[LowCode.Converter](https://reference.aspose.com/words/net/aspose.words.lowcode/converter/)クラスが導入されました。
 
 ### 検索と比較
 
 #### 高度な比較オプション <sup>24.6</sup>
-比較機能が向上し、データ分析ワークフローを効率化できるようになりました。これには、新しい [IgnoreStoreItemId](https://reference.aspose.com/words/net/aspose.words.comparing/advancedcompareoptions/ignorestoreitemid/) オプションと、高度な比較用に再設計されたインターフェイスが含まれます。
+改善された比較機能を備えたデータ分析ワークフローを合理化する機能が追加されました。 これには、新しい[IgnoreStoreItemId](https://reference.aspose.com/words/net/aspose.words.comparing/advancedcompareoptions/ignorestoreitemid/)オプションと、高度な比較のための再設計されたインターフェイスが含まれます。
 
-### 他の
+### その他
 
-* 文書から空ページを削除する機能は、[RemoveBlankPages](https://reference.aspose.com/words/net/aspose.words/document/removeblankpages/)メソッドを追加することで実装されました。 <sup>24.5</sup>
-* ドキュメントをロードせずに VBA マクロの存在をチェックする機能は、[HasMacros](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/hasmacros/) プロパティを追加することによって提供されます。 <sup>24.5</sup>
-* LINQ レポート エンジンを使用してドキュメントを挿入する際のソース番号の維持がサポートされるようになりました。 <sup>24.5</sup>
-* 新しい [DateTimeUtc](https://reference.aspose.com/words/net/aspose.words/comment/datetimeutc/) プロパティが追加されました。これにより、コメントのタイムスタンプがより正確になり、整理と追跡可能性が向上します。 <sup>24.6</sup>
-* LINQ レポート エンジンが改良されました。空の段落を選択的に削除し、欠落しているオブジェクト メンバーのカスタム メッセージを定義することで、よりわかりやすく、より情報量の多いレポートを実現しました。<sup>24.6</sup>
-* XLSX 形式へのシームレスなエクスポートのために、日時形式が自動的に検出されるようになりました。 <sup>24.7</sup>
-* VBA プロジェクトが保護されているかどうかを確認できるパブリック プロパティ [IsProtected](https://reference.aspose.com/words/net/aspose.words.vba/vbaproject/isprotected/) が追加されました。<sup>24.7</sup>
-* フォント情報が拡張され、[FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/) クラスと [PhysicalFontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/physicalfontinfo/) クラスに **EmbeddingLicensingRights** プロパティが追加されました。 <sup>24.8</sup>
-* ドキュメント構造をより正確に操作するために、透かしを保持しながらセクション ヘッダーとフッターを効率的にクリアする方法が追加されました。セクション ヘッダーとフッターをクリアするには、新しいパブリック メソッド [ClearHeadersFooters](https://reference.aspose.com/words/net/aspose.words/section/clearheadersfooters/) を使用します。<sup>24.8</sup>
-* [XpsSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xpssaveoptions/) を使用した XPS ドキュメントのデジタル署名が有効になりました。この目的のために、新しいプロパティ [DigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/xpssaveoptions/digitalsignaturedetails/) が追加されました。<sup>24.8</sup>
+* ドキュメントから空のページを削除する関数は、[RemoveBlankPages](https://reference.aspose.com/words/net/aspose.words/document/removeblankpages/)メソッドを追加することによって実装されています。 <sup>24.5</sup>
+* ドキュメントをロードせずにVBAマクロの存在をチェックする機能は、[HasMacros](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/hasmacros/)プロパティを追加することによって提供されています。 <sup>24.5</sup>
+* LINQレポートエンジンを使用して文書を挿入する際にソース番号を保持することがサポートされるようになりました。 <sup>24.5</sup>
+* 新しい[DateTimeUtc](https://reference.aspose.com/words/net/aspose.words/comment/datetimeutc/)プロパティが追加されました–これにより、コメントのより正確なタイムスタンプが提供され、組織とトレーサビ <sup>24.6</sup>
+* LINQレポートエンジンが改善されました。 空の段落を選択的に削除し、欠落しているオブジェクトメンバーのカスタムメッセージを定義することで、よりクリーンで有益なレポートが作成されました。 <sup>24.6</sup>
+* XLSX形式へのシームレスなエクスポートのために、datetime形式が自動的に検出されるようになりました。 <sup>24.7</sup>
+* VBAプロジェクトが保護されているかどうかを確認できるパブリックプロパティ[IsProtected](https://reference.aspose.com/words/net/aspose.words.vba/vbaproject/isprotected/)が追加されました。 <sup>24.7</sup>
+* フォント情報は、[FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/)クラスと[PhysicalFontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/physicalfontinfo/)クラスに**EmbeddingLicensingRights**プロパティが追加されて拡張されました。 <sup>24.8</sup>
+* 透かしを保持しながら、効率的にセクションのヘッダーとフッターをクリアする方法は、より正確に文書構造を操作するために追加されました。 セクションヘッダーとフッターをクリアするには、新しいpublicメソッド[ClearHeadersFooters](https://reference.aspose.com/words/net/aspose.words/section/clearheadersfooters/)を使用します。 <sup>24.8</sup>
+* [XpsSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xpssaveoptions/)を使用したXPS文書のデジタル署名が有効になりました–この目的のために新しいプロパティ[DigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/xpssaveoptions/digitalsignaturedetails/)が追加されました。 <sup>24.8</sup>
 
 {{% alert color="primary" %}}
 
-詳細については、[Aspose.Words for .NET 24.5 リリース ノート](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-5-release-notes) をご覧ください。
+詳細については、こちらをご覧ください [Aspose.WordsFor.NET 24.5リリースノート](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-5-release-notes/).
 
-詳細については、[Aspose.Words for .NET 24.6 リリース ノート](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-6-release-notes) をご覧ください。
+詳細については、こちらをご覧ください [Aspose.WordsFor.NET 24.6リリースノート](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-6-release-notes/).
 
-詳細については、[Aspose.Words for .NET 24.7 リリース ノート](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-7-release-notes) をご覧ください。
+詳細については、こちらをご覧ください [Aspose.WordsFor.NET 24.7リリースノート](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-7-release-notes/).
 
-詳細については、[Aspose.Words for .NET 24.8 リリース ノート](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-8-release-notes) をご覧ください。
+詳細については、こちらをご覧ください [Aspose.WordsFor.NET 24.8リリースノート](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-8-release-notes/).
 
 {{% /alert %}}
 
-## .NET 24.1、24.2、24.3、24.4 用の Aspose.Words
+## Aspose.Wordsは.NET 24.1, 24.2, 24.3, 24.4に対してAspose.Wordsを意味します。
 
-Aspose.Words 24.1 では、ストローク カラーの管理に関するエクスペリエンスが向上し、OLE オブジェクトと LINQ レポートが強化され、さらに新しい参考文献ソースのパブリック API が導入されています。
+Aspose.Words24.1ストロークカラーの管理に関する経験が向上し、OLEオブジェクトとLINQレポートが強化され、新しい`Bibliography Sources`パブリックAPIが導入されました。
 
-Aspose.Words 24.2 では、Charts API、スタイル管理、LINQ オプションが拡張されました。 Aspose.Words のこのバージョンでは、レンダリング中に SvgSaveOptions を指定する機能、Markdown ファイルの読み込みをより柔軟に制御する機能、および脚注と文末脚注の参照テキストを操作する機能も導入されました。
+Aspose.Words24.2展開されたグラフAPI、スタイル管理、およびLINQオプション。 このバージョンのAspose.Wordsでは、レンダリング中にSvgSaveOptionsを指定する機能、Markdownファイルを読み込む柔軟な制御、脚注と文末脚注の参照テキストを操作する機能も導入されました。
 
-Aspose.Words 24.3は、新しいTIFFリーダー/ライターとWMFメタファイルのバイナリラスター操作のエミュレーションを導入します。 Aspose.Words 24.3は、さらにCharts APIの拡張も続けています。
+Aspose.Words24.3は新しいTIFFリーダー/ライターを導入し、WMFメタファイルのバイナリラスタ演算のエミュレーションを導入しました。 Aspose.Words24.3もチャートAPIを拡大し続けます。
 
-Aspose.Words 24.4は、保存形式、一部のレンダリングオプション、デジタル署名の処理を改善します。
+Aspose.Words24.4保存形式、いくつかのレンダリングオプションを強化し、デジタル署名の作業を改善します。
 
-### サポートされる形式 <sup>24.4</sup>
+### サポートされている形式 <sup>24.4</sup>
 
-モダンな**WebP**画像形式は、Aspose.Words for .NET Framework 4.6.2以降でサポートされています。WebP画像を文書に読み込み、挿入し、WebP形式で保存することができます。
+最新の**WebP**画像形式がAspose.Wordsで.NET Framework 4.6.2以降でサポートされるようになりました。 WebP画像を読み込んでドキュメントに挿入したり、WebP形式で画像を保存したりできるようになりました。
 
- なお、WebPは現在、.NET Standardおよび.NET Framework v4.6.2以上でのみ利用可能です。
+WebPは現在.NET Standardと.NET Frameworkv4.6.2以上でのみ利用可能です。
 
 ### レンダリングと印刷
 
 #### ストロークカラーコントロール <sup>24.1</sup>
 
-[Stroke](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/) クラスは、ストローク カラーの管理に関連する一連の新しいパブリック プロパティ ([ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/forethemecolor/)、[BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backthemecolor/)、[ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/foretintandshade/)、[BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backtintandshade/)) で拡張されました。
+[Stroke](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/)クラスは、ストロークの色の管理に関連する一連の新しいパブリックプロパティ[ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/forethemecolor/)と[BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backthemecolor/)、[ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/foretintandshade/)と[BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backtintandshade/)で拡張されました。
 
-#### DrawingML チャート API 拡張機能 <sup>24.2 / 24.3 / 24.4</sup>
+#### DrawingMLチャートAPI拡張 <sup>24.2 / 24.3 / 24.4</sup>
 
-**DrawingML Charts API** は引き続き拡張されています。
+**DrawingML Charts API**は引き続き展開されます。
 
-#### @font-faceルールで宣言されたフォントの埋め込み <sup>24.4</sup>
+#### @font-faceルールで宣言された埋め込みフォント <sup>24.4</sup>
 
-新しい[SupportFontFaceRules](https://reference.aspose.com/words/net/aspose.words.loading/htmlloadoptions/supportfontfacerules/)プロパティを追加することで、生成されるドキュメントのフォント定義に@font-faceルールで宣言されたフォントを埋め込む機能が追加されました。
+新しい[SupportFontFaceRules](https://reference.aspose.com/words/net/aspose.words.loading/htmlloadoptions/supportfontfacerules/)プロパティを追加することで、@font-faceルールで宣言されたフォントを結果のドキュメントのフォント定義に埋め込む機能が導入されました。
 
-#### グローおよび反射の書式設定の操作 <sup>24.4</sup>
+#### グローとリフレクションの書式設定を使用する <sup>24.4</sup>
 
-描画オブジェクトのグローおよび反射の書式設定を操作する機能が実装されました。
+描画オブジェクトのグローとリフレクションの書式設定を操作する機能が実装されました。
 
-### ドキュメントのロードと保存
+### 文書の読み込みと保存
 
-#### レンダリング中に SvgSaveOptions を指定する <sup>24.2</sup>
+#### レンダリング中にSvgSaveOptionsを指定します <sup>24.2</sup>
 
-[ShapeRenderer](https://reference.aspose.com/words/net/aspose.words.rendering/shaperenderer/).[Save](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/save/) メソッドと [OfficeMathRenderer](https://reference.aspose.com/words/net/aspose.words.rendering/officemathrenderer/).[Save](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/save/) メソッドを使用して、レンダリング中に [SvgSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/) を指定する機能が追加されました。
+レンダリング中に[SvgSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/)を指定する機能が[ShapeRenderer](https://reference.aspose.com/words/net/aspose.words.rendering/shaperenderer/)を使用して追加されました。[Save](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/save/)と[OfficeMathRenderer](https://reference.aspose.com/words/net/aspose.words.rendering/officemathrenderer/)。[Save](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/save/)メソッド。
 
-#### Markdown ファイルのロード時に空行を保持する <sup>24.2</sup>
+#### Markdownファイルの読み込み時に空の行を保持する <sup>24.2</sup>
 
-Markdown ファイルをロードするときに空行を保持する機能が追加されました。
+Markdownファイルの読み込み時に空行を保持する機能が追加されました。
 
 #### 新しいTIFFリーダー/ライター <sup>24.3</sup>
 
-Aspose.Words for .NET Standard、.NET 6以降には、新しいTIFFリーダー/ライターが開発されました。 Aspose.Words for .NET 24.3は、JPEGおよび古いJPEG圧縮タイプを持つTIFFイメージの読み取りをサポートし、読み取りおよび書き込み操作の品質を大幅に向上させました。
+.NET Standard、.NET6以降のAspose.Words用の新しいTIFFリーダ/ライタが開発されました。 Aspose.Wordsfor.NET 24.3は、JPEGおよび古いJPEG圧縮タイプのTIFFイメージの読み取りのサポートを追加し、読み取りおよび書き込み操作の品質も大幅に改善しました。
 
-### 他の
+### その他
 
-* `TextBox` OLE コントロールのテキストを変更する機能は、新しい [Text](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/text/) プロパティを新しい [TextBoxControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/) クラスに追加することによって導入されました。 <sup>24.1</sup>
-* 参考文献ソースのパブリック API は、新しいクラスと列挙を備えた新しい名前空間 [Aspose.Words.Bibliography](https://reference.aspose.com/words/net/aspose.words.bibliography/) を追加し、[Document](https://reference.aspose.com/words/net/aspose.words/document/) クラスに新しい [Bibliography](https://reference.aspose.com/words/net/aspose.words/document/bibliography/) プロパティを追加することによって実装されました。 <sup>24.1</sup>
-* LINQ Reporting Engine のテンプレート構文を使用して型メンバーへのアクセスを制限する API が提供されています。 <sup>24.1</sup>
-* スタイル管理を強化するための新しいパブリック プロパティ [Priority](https://reference.aspose.com/words/net/aspose.words/style/priority/)、[UnhideWhenUsed](https://reference.aspose.com/words/net/aspose.words/style/unhidewhenused/)、および [SemiHidden](https://reference.aspose.com/words/net/aspose.words/style/semihidden/) が [Style](https://reference.aspose.com/words/net/aspose.words/style/) クラスに追加されました。 <sup>24.2</sup>
-* 脚注と文末脚注の実際の参照マーク テキストを取得する機能が、[ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) プロパティと [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/) メソッドによって強化されました。 <sup>24.2</sup>
-* `LINQ Reporting Engine` の `Word 2016` グラフとの互換性が有効になりました。 <sup>24.2</sup>
-* WMFメタファイルのバイナリラスター操作のエミュレーションが実装されました。 <sup>24.3</sup>
-* [DigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/digitalsignaturedetails/)クラスを追加し、[OoxmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/)、[DocSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/)、[OdtSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/odtsaveoptions/)クラスに新しいパブリックメンバーを追加することで、**SaveOptions**内でドキュメントの署名オプションを定義する機能が有効になりました。 <sup>24.4</sup>
+* `TextBox`OLEコントロールのテキストを変更する機能は、新しい[Text](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/text/)プロパティを新しい[TextBoxControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/)クラスに追加することによって導入されました。 <sup>24.1</sup>
+* 参考文献ソースpublicAPIは、新しいクラスと列挙を含む新しい名前空間[Aspose.Words.Bibliography](https://reference.aspose.com/words/net/aspose.words.bibliography/)の追加と、新しい[Bibliography](https://reference.aspose.com/words/net/aspose.words/document/bibliography/)プロパティを[Document](https://reference.aspose.com/words/net/aspose.words/document/)クラスに追加することによって実装されました。 <sup>24.1</sup>
+* `LINQ Reporting Engine`のテンプレート構文を使用して型メンバーへのアクセスを制限するAPIが提供されています。 <sup>24.1</sup>
+* スタイル管理を強化するための新しいパブリックプロパティ[Priority](https://reference.aspose.com/words/net/aspose.words/style/priority/)、[UnhideWhenUsed](https://reference.aspose.com/words/net/aspose.words/style/unhidewhenused/)、[SemiHidden](https://reference.aspose.com/words/net/aspose.words/style/semihidden/)が[Style](https://reference.aspose.com/words/net/aspose.words/style/)クラスに追加されました。 <sup>24.2</sup>
+* 脚注と文末脚注の実際の参照マークテキストを取得する機能は、[ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/)プロパティと[UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/)メソッドで強化されました。 <sup>24.2</sup>
+* `LINQ Reporting Engine`の`Word 2016`チャートとの互換性が有効になりました。 <sup>24.2</sup>
+* WMFメタファイルのバイナリラスタ演算のエミュレーションが実装されました。 <sup>24.3</sup>
+* **SaveOptions**内の文書の署名オプションを定義する機能は、新しいパブリックメンバーを持つ新しい[DigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/digitalsignaturedetails/)クラスを追加することと、[OoxmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/)、[DocSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/)、[OdtSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/odtsaveoptions/)クラスに新しいプロパテ <sup>24.4</sup>
 
 {{% alert color="primary" %}}
 
-[Aspose.Words for .NET 24.1 リリースノート](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-1-release-notes/) について詳しくは、こちらをご覧ください。
+詳細については、こちらをご覧ください [Aspose.WordsFor.NET 24.1リリースノート](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-1-release-notes/).
 
-[Aspose.Words for .NET 24.2 リリースノート](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-2-release-notes/) について詳しくは、こちらをご覧ください。
+詳細については、こちらをご覧ください [Aspose.WordsFor.NET 24.2リリースノート](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-2-release-notes/).
 
-[Aspose.Words for .NET 24.3 リリースノート](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-3-release-notes/) について詳しくは、こちらをご覧ください。
+詳細については、こちらをご覧ください [Aspose.WordsFor.NET 24.3リリースノート](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-3-release-notes/).
 
-[Aspose.Words for .NET 24.4 リリースノート](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-4-release-notes/) について詳しくは、こちらをご覧ください。
+詳細については、こちらをご覧ください [Aspose.WordsFor.NET 24.4リリースノート](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-4-release-notes/).
 
 {{% /alert %}}
 
-## .NET 23.9、23.10、23.11、23.12 の Aspose.Words
+## Aspose.Wordsのための.NET 23.9, 23.10, 23.11, 23.12
 
-Aspose.Words 23.9 では、レンダリング オプション、メタファイル レンダリング エミュレーション、markdown 保存オプションが拡張されています。
+Aspose.Words23.9レンダリングオプション、メタファイルレンダリングエミュレーション、およびmarkdown保存オプションを展開します。
 
-Aspose.Words 23.10 では、レンダリングが改善され、ドキュメントのロードと保存のオプションが拡張され、ユーザーが新しい方法でドキュメントを結合できるようになります。
+Aspose.Words23.10レンダリングが改善され、文書の読み込みと保存のオプションが拡張され、ユーザーが新しい方法で文書をマージできるようになりました。Aspose.Words23.10
 
-Aspose.Words 23.11 では、追加のオプションにより、リビジョン、XLSX 形式、グラフ凡例のフォントに関する作業が強化されています。
+Aspose.Words23.11は、追加オプションを使用して、チャート凡例のリビジョン、XLSX形式、フォントを使用して作業を強化します。
 
-Aspose.Words 23.12 では、PDF および OOXML ドキュメントを操作するための新しいプロパティと列挙、および WebP 画像のサポートが導入されています。
+Aspose.Words23.12は、PDFおよびOOXMLドキュメントを操作するための新しいプロパティと列挙、およびWebPイメージのサポートを導入します。
 
 ### レンダリングと印刷
 
-#### DrawingML チャート<sup>23.9</sup>での軸タイトルのカスタマイズ
+#### DrawingMLチャートでの座標軸タイトルのカスタマイズ <sup>23.9</sup>
 
-DrawingML チャートの軸タイトルをカスタマイズする機能は、新しいパブリック クラスの [ChartAxisTitle](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxistitle/) および [Title](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis/title/) プロパティの実装によって導入されました。
+DrawingMLチャートの軸タイトルをカスタマイズする機能は、新しいパブリッククラス[ChartAxisTitle](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxistitle/)および[Title](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis/title/)プロパティの実装によって導入されました。
 
-#### 段落内のフォントの垂直位置の決定<sup>23.9</sup>
+#### 段落内のフォントの垂直位置の決定 <sup>23.9</sup>
 
-新しいパブリック [BaselineAlignment](https://reference.aspose.com/words/net/aspose.words/paragraphformat/baselinealignment/) プロパティと新しい [BaselineAlignment](https://reference.aspose.com/words/net/aspose.words/baselinealignment/) 列挙を使用して、段落内のフォントの垂直位置を定義できるようになりました。
+新しいpublic[BaselineAlignment](https://reference.aspose.com/words/net/aspose.words/paragraphformat/baselinealignment/)プロパティと新しい[BaselineAlignment](https://reference.aspose.com/words/net/aspose.words/baselinealignment/)列挙体を使用して、段落内のフォントの垂直位置を定義できるようになりました。
 
-#### 前景色のカラーコントロール<sup>23.10</sup>
+#### 前景色制御 <sup>23.10</sup>
 
-**BaseForeColor** プロパティを介して、修飾子なしで前景色を取得する機能が [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) クラスと [Stroke](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/) クラスに追加されました。
+修飾子なしで前景色を取得する機能が**BaseForeColor**プロパティを介して[Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/)クラスと[Stroke](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/)クラスに追加されました。
 
-#### チャートの機能の拡張<sup>23.10</sup>
+#### チャートの機能を拡張する <sup>23.10</sup>
 
-[ChartDataPointCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatapointcollection/)、[ChartSeries](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseries/)、および [ChartFormat](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartformat/) クラスの機能が、新しいメソッドとプロパティによって拡張されました。
+[ChartDataPointCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatapointcollection/)、[ChartSeries](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseries/)、[ChartFormat](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartformat/)クラスの機能は、新しいメソッドとプロパティで拡張されました。
 
-#### 画像を自動的に調整して形状に合わせる<sup>23.10</sup>
+#### 画像を自動的に調整して図形に合わせる <sup>23.10</sup>
 
-新しい [FitImageToShape](https://reference.aspose.com/words/net/aspose.words.drawing/imagedata/fitimagetoshape/) メソッドにより、画像を自動的に調整して特定の形状に合わせる簡単な方法が提供されています。
+新しい[FitImageToShape](https://reference.aspose.com/words/net/aspose.words.drawing/imagedata/fitimagetoshape/)メソッドを使用して、画像を特定の形状に自動的に調整して合わせる簡単な方法が提供されています。
 
-#### DrawingML チャートの凡例エントリのデフォルトのフォント書式設定<sup>23.11</sup>
+#### DrawingMLグラフの凡例エントリの既定のフォント書式設定 <sup>23.11</sup>
 
-DrawingML チャートの凡例エントリのデフォルトのフォント書式設定を指定する機能が、[Font](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartlegend/font/) プロパティを介して追加されました。この機能により、グラフ要素の外観がより合理化され、一貫したものになり、ドキュメント全体の美しさが向上します。
+DrawingMLチャートの凡例エントリのデフォルトのフォント書式を指定する機能が[Font](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartlegend/font/)プロパティを介して追加されました。 この機能により、グラフ要素のより合理化された一貫した外観が容易になり、文書全体の美しさが向上します。
 
-#### Reader <sup>23.12</sup>で PDF を開くときにページ レイアウトを指定する
+#### ReaderでPDFを開くときのページレイアウトの指定 <sup>23.12</sup>
 
-PDF リーダーでドキュメントを開くときに使用するページ レイアウトを指定する機能は、[PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) クラスへの新しい [PageLayout](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/pagelayout/) プロパティの導入と新しい [PdfPageLayout](https://reference.aspose.com/words/net/aspose.words.saving/pdfpagelayout/) 列挙の導入によって追加されました。
+PDFリーダーで文書を開くときに使用するページレイアウトを指定する機能は、[PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/)クラスに新しい[PageLayout](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/pagelayout/)プロパティを導入し、新しい[PdfPageLayout](https://reference.aspose.com/words/net/aspose.words.saving/pdfpagelayout/)列挙体を導入することによ
 
-### ドキュメントのロードと保存
+### 文書の読み込みと保存
 
-#### Markdown <sup>23.9</sup>でイメージ URI を構築するためのフォルダー名を指定する
+#### イメージURIsをMarkdownに構築するフォルダ名の指定 <sup>23.9</sup>
 
-[MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) クラスは [ImagesFolderAlias](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imagesfolderalias/) プロパティを含めることによって拡張され、Markdown ドキュメントに書き込まれる画像 URI の構築に使用されるフォルダーの名前を指定できるようになりました。
+[MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/)クラスは[ImagesFolderAlias](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imagesfolderalias/)プロパティを含めることで拡張され、Markdown文書に書き込まれたイメージURIsを構築するために使用されるフォルダの名前を指定できます。
 
-#### PDF 出力サイズの縮小<sup>23.10</sup>
+#### PDF出力サイズを減らす <sup>23.10</sup>
 
-[OptimizeOutput](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/) 設定を使用するときに出力サイズを削減するためのさまざまな PDF レンダリングの最適化が実装されました。
+[OptimizeOutput](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/)設定を使用するときに出力サイズを小さくするためのさまざまなPDFレンダリング最適化が実装されています。
 
-#### TXT ドキュメントのロード時にハイパーリンクを認識する<sup>23.10</sup>
+#### TXT文書を読み込むときにハイパーリンクを認識する <sup>23.10</sup>
 
-TXT ドキュメントのロード時にハイパーリンクを認識する機能は、新しい [DetectHyperlinks](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/detecthyperlinks/) プロパティを追加することで実装されました。
+TXT文書の読み込み時にハイパーリンクを認識する機能は、新しい[DetectHyperlinks](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/detecthyperlinks/)プロパティを追加することによって実装されています。
 
-### 他の
+### その他
 
-* 特に WMF ペン幅と EMF コスメティック ペン幅に対して、ラスタライズ サイズを決定するメタファイル レンダリング エミュレーションが実装されました。これを実現するために、**ScaleWmfFontsToMetafileSize** プロパティが [EmulateRenderingToSizeOnPage](https://reference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpage/) プロパティに置き換えられ、[EmulateRenderingToSizeOnPageResolution](https://reference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpageresolution/) プロパティが追加されました。 <sup>23.9</sup>
-* [InsertDocumentInline](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertdocumentinline/) メソッドを使用して、現在のカーソル位置にあるドキュメントを別のドキュメントに挿入する簡略化された方法が導入されました。 <sup>10月23日</sup>
-* 新しい [Locked](https://reference.aspose.com/words/net/aspose.words/style/locked/) プロパティの導入により、スタイル プロパティにアクセスして変更する機能が追加されました。 <sup>10月23日</sup>
-* [CompositeNode](https://reference.aspose.com/words/net/aspose.words/compositenode/) クラスのメソッドにジェネリック型パラメータが追加されました。 <sup>10月23日</sup>
-* 特定のリビジョンを承認/拒否するかどうかを制御する方法は、[Accept](https://reference.aspose.com/words/net/aspose.words/revisioncollection/accept/) および [Reject](https://reference.aspose.com/words/net/aspose.words/revisioncollection/reject/) メソッドを使用して実装されました。この機能強化により、ユーザーは改訂プロセスをより細かく制御できるようになります。 <sup>11月23日</sup>
-* ドキュメントのすべてのセクションを同じ XLSX ワークシートに書き込む機能は、新しい [XlsxSectionMode](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsectionmode/) 列挙型と新しい [SectionMode](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsaveoptions/sectionmode/) プロパティによって提供されています。 <sup>11月23日</sup>
-* OOXML ドキュメントに ZIP64 形式拡張子を使用する方法を制御する方法が、`OoxmlSaveOptions` クラスの新しい Zip64Mode プロパティと新しい Zip64Mode 列挙を通じて実装されました。 <sup>12月23日</sup>
-* WebP 画像のサポートが導入されました。この機能は .NetStandart および .NET6+ バージョンでのみ利用可能であることに注意してください。 <sup>12月23日</sup>
+* ラスタライズサイズを決定するためのメタファイルレンダリングエミュレーションが実装されました,特にWMFペン幅とEMF化粧ペン幅のために. これを実現するために、**ScaleWmfFontsToMetafileSize**プロパティは[EmulateRenderingToSizeOnPage](https://reference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpage/)プロパティに置き換えられ、[EmulateRenderingToSizeOnPageResolution](https://reference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpageresolution/)プロパティが追加されました。 <sup>23.9</sup>
+* 現在のカーソル位置にある文書を別の文書に挿入するための簡略化された方法が[InsertDocumentInline](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertdocumentinline/)メソッドを使用して導入されました。 <sup>23.10</sup>
+* 新しい[Locked](https://reference.aspose.com/words/net/aspose.words/style/locked/)プロパティの導入により、スタイルプロパティにアクセスして変更する機能が追加されました。 <sup>23.10</sup>
+* ジェネリック型パラメーターが[CompositeNode](https://reference.aspose.com/words/net/aspose.words/compositenode/)クラスのメソッドに追加されました。 <sup>23.10</sup>
+* 特定のリビジョンを受け入れる/拒否するかどうかを制御する方法は、[Accept](https://reference.aspose.com/words/net/aspose.words/revisioncollection/accept/)メソッドと[Reject](https://reference.aspose.com/words/net/aspose.words/revisioncollection/reject/)メソッドを使用して実装されています。 この機能強化により、ユーザーは改訂プロセスをより細かく制御できます。 <sup>23.11</sup>
+* ドキュメントのすべてのセクションを同じXLSXワークシートに書き込む機能は、新しい[XlsxSectionMode](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsectionmode/)列挙型と新しい[SectionMode](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsaveoptions/sectionmode/)プロパティによって提供されています。 <sup>23.11</sup>
+* ZIP64書式拡張がOOXML文書にどのように使用されるかを制御する方法は、`OoxmlSaveOptions`クラスの新しいZip64Modeプロパティと新しいZip64Mode列挙体を介して実装されています。 <sup>23.12</sup>
+* WebPイメージのサポートが導入されました。 この機能は以下のためにのみ利用可能ですのでご注意ください。NetStandartおよび.NET6+バージョン。 <sup>23.12</sup>
 
 {{% alert color="primary" %}}
 
-[Aspose.Words for .NET 23.9 リリースノート](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-9-release-notes/) について詳しくは、こちらをご覧ください。
+詳細については、こちらをご覧ください [Aspose.WordsFor.NET 23.9リリースノート](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-9-release-notes/).
 
-[Aspose.Words for .NET 23.10 リリースノート](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-10-release-notes/) について詳しくは、こちらをご覧ください。
+詳細については、こちらをご覧ください [Aspose.WordsFor.NET 23.10リリースノート](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-10-release-notes/).
 
-[Aspose.Words for .NET 23.11 リリースノート](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-11-release-notes/) について詳しくは、こちらをご覧ください。
+詳細については、こちらをご覧ください [Aspose.WordsFor.NET 23.11リリースノート](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-11-release-notes/).
 
-[Aspose.Words for .NET 23.12 リリースノート](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-12-release-notes/) について詳しくは、こちらをご覧ください。
+詳細については、こちらをご覧ください [Aspose.WordsFor.NET 23.12リリースノート](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-12-release-notes/).
 
 {{% /alert %}}
 
-## .NET 23.5、23.6、23.7、23.8 の Aspose.Words
+## Aspose.Wordsは.NET 23.5, 23.6, 23.7, 23.8に対してAspose.Wordsを意味します。
 
-Aspose.Words 23.5 では、チャート シリーズ データを操作する機能と ODT ドキュメントを操作する機能が強化され、ヘッダー/フッターとそのテキストの折り返しも改善されています。
+Aspose.Words23.5は、グラフ系列データを操作する機能とODTドキュメントを操作する機能を強化し、ヘッダー/フッターとそのテキストの折り返しを改善します。Aspose.Words23.5は、グラフ系列データを操作する機能とODTドキュメントを操作する機能を強化します。
 
-Aspose.Words 23.6 では、レンダリング オプションが拡張され、新しいエクスポート形式が追加され、LINQ レポートと LowCode ツールが改善されています。
+Aspose.Words23.6レンダリングオプションを展開し、新しいエクスポート形式を追加し、LINQレポートとLowCodeツールを改善します。
 
-Aspose.Words 23.7 では、レポート機能が強化され、新しいエクスポート形式が追加され、テーブルとデジタル署名の操作に変更が加えられています。
+Aspose.Words23.7レポート機能が強化され、新しいエクスポート形式が追加され、テーブルとデジタル署名の操作に変更が加えられました。
 
-Aspose.Words 23.8 は、さまざまな形式の機能を拡張し、レンダリングを改善し、フィールドを操作するための新しいオプションを追加します。
+Aspose.Words23.8は、さまざまな形式の機能を拡張し、レンダリングを改善し、フィールドを操作するための新しいオプションを追加します。
 
 ### サポートされている形式
 
-※バージョン23.6よりXLSX形式で保存できるようになりました。これで、ドキュメントを Excel 形式に変換できるようになりました。 <sup>23.6</sup>
-※バージョン23.7より、ドキュメントのページや図形をEPS形式で保存できるようになりました。 <sup>23.7</sup>
+* バージョン23.6以降では、文書をXLSX形式で保存することができます。 今、あなたはExcel形式に文書を変換することができます。 <sup>23.6</sup>
+* バージョン23.7以降では、文書ページまたは図形をEPS形式で保存することができます。 <sup>23.7</sup>
 
 ### 新しいフォーマット機能
 
-※MOBI文書の目次（TOC）を自動生成する機能が導入されました。 <sup>23.8</sup>
-* [PdfEncryptionDetails](https://reference.aspose.com/words/net/aspose.words.saving/pdfencryptiondetails/pdfencryptiondetails/) コンストラクターは [PdfPermissions](https://reference.aspose.com/words/net/aspose.words.saving/pdfpermissions/) で拡張されました。 <sup>23.8</sup>
-* EMF メタファイルの縦書きテキストの整形が実装されました。 <sup>23.8</sup>
+* MOBI文書の目次(TOC)を自動的に生成する機能が導入されました。 <sup>23.8</sup>
+* [PdfEncryptionDetails](https://reference.aspose.com/words/net/aspose.words.saving/pdfencryptiondetails/pdfencryptiondetails/)コンストラクタは[PdfPermissions](https://reference.aspose.com/words/net/aspose.words.saving/pdfpermissions/)で展開されています。 <sup>23.8</sup>
+* EMFメタファイルの垂直テキストの整形が実装されました。 <sup>23.8</sup>
 
 ### レンダリングと印刷
 
-#### チャート系列データの取得と変更<sup>23.5</sup>
+#### グラフ系列データの取得と変更 <sup>23.5</sup>
 
-グラフ シリーズ データを取得および変更する機能は、以下を追加することで提供されました。
+グラフ系列データを取得および変更する機能は、以下を追加することによって提供されました:
 
-* 新しいクラス: [ChartXValue](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvalue/)、[ChartYValue](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvalue/)、[ChartXValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvaluecollection/)、[ChartYValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvaluecollection/)、[BubbleSizeCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/bubblesizecollection/)、[ChartMultilevelValue](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartmultilevelvalue/)
-* 新しい列挙型: [ChartXValueType](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvaluetype/)、[ChartYValueType](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvaluetype/)
+* 新しいクラス: [ChartXValue](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvalue/), [ChartYValue](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvalue/), [ChartXValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvaluecollection/), [BubbleSizeCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/bubblesizecollection/), [ChartMultilevelValue](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartmultilevelvalue/)
+* 新しい列挙型:[ChartXValueType](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvaluetype/),[ChartYValueType](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvaluetype/)
 
-#### 高度なタイポグラフィ<sup>23.6</sup>のサポート
+#### 高度なタイポグラフィのサポート <sup>23.6</sup>
 
-WMF、EMF、EMF+ レンダリングでの高度なタイポグラフィーのサポートが追加されました。
+WMF、EMF、EMF+レンダリングにおける高度なタイポグラフィのサポートが追加されました。
 
-#### ページ上の色付きコンテンツ<sup>23.6</sup>
+#### ページ上の色付きのコンテンツ <sup>23.6</sup>
 
-ページに色が付いているかどうかを示すパブリック プロパティ [PageInfo.Colored](https://reference.aspose.com/words/net/aspose.words.rendering/pageinfo/colored/) が追加されました。
+ページが色付けされているかどうかを示すパブリックプロパティ[PageInfo.Colored](https://reference.aspose.com/words/net/aspose.words.rendering/pageinfo/colored/)が追加されました。
 
-#### チャートデータラベルの書式設定<sup>23.6</sup>
+#### チャートデータラベルの書式設定 <sup>23.6</sup>
 
-グラフ データ ラベルの塗りつぶし、ストローク、吹き出しの書式設定を設定する機能が実装されました。
+チャートデータラベルの塗りつぶし、ストローク、および吹き出しの書式設定を設定する機能が実装されました。
 
-### Mail Merge とレポート
+### Mail Mergeと報告
 
-#### LINQ レポート エンジン<sup>23.6</sup>の動的 HTML 挿入
+#### LINQレポートエンジンの動的HTML挿入 <sup>23.6</sup>
 
-LINQ レポート エンジンに動的 HTML を挿入する新しい方法が追加されました。
+LINQReporting Engineの動的HTML挿入の新しい方法が追加されました。
 
-#### Mustache タグのサポート<sup>23.7</sup>
+#### Mustacheタグのサポート <sup>23.7</sup>
 
-Mustache タグが [MailMerge.GetRegionsHierarchy](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getregionshierarchy/) メソッドと [MailMerge.GetFieldNamesForRegion](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getfieldnamesforregion/#getfieldnamesforregion) メソッドでサポートされるようになりました。
+Mustacheタグは[MailMerge.GetRegionsHierarchy](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getregionshierarchy/)メソッドと[MailMerge.GetFieldNamesForRegion](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getfieldnamesforregion/#getfieldnamesforregion)メソッドでサポートされるようになりました。
 
-#### LINQ レポート エンジン テンプレート構文の更新<sup>23.7</sup>
+#### LINQレポートエンジンテンプレート構文の更新 <sup>23.7</sup>
 
-LINQ Reporting Engine テンプレート構文は、`ElementAt` および ElementAtOrDefault 拡張メソッドをサポートするようになりました。
+LINQReporting Engineテンプレート構文で、`ElementAt`およびElementAtOrDefault拡張メソッドがサポートされるようになりました。
 
-#### レンダリング画像のサイズを指定する<sup>23.8</sup>
+#### レンダリングされた画像のサイズの指定 <sup>23.8</sup>
 
-レンダリングされたイメージのサイズをピクセル単位で指定するための新しいパブリック プロパティ [ImageSize](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/imagesize/) が導入されました。
+レンダリングされた画像のサイズをピクセル単位で指定するための新しいパブリックプロパティ[ImageSize](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/imagesize/)が導入されました。
 
-#### JSON 文字列値の空白を保持する – LINQ <sup>23.8</sup>
+#### JSON文字列値の空白を保持する-LINQ <sup>23.8</sup>
 
-JSON 文字列値の空白を保持するオプションが LINQ レポート エンジンに追加されました。
+LINQレポートエンジンに、JSON文字列値の空白を保持するオプションが追加されました。
 
-### <sup>LowCode23.6</sup>
+### LowCode <sup>23.6</sup>
 
-さまざまな種類のドキュメントを 1 つの出力ドキュメントにマージすることを目的とした新しい LowCode メソッドが追加されました。
+異なる種類の文書を単一の出力文書にマージするための新しいLowCodeメソッドが追加されました。
 
-### 他の
+### その他
 
-* ヘッダー/フッターでのテキストの折り返しのサポートが実装されました。 <sup>23.5</sup>
-* [RemoveAllSignatures](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/) メソッドを通じて ODT ドキュメントからデジタル署名を削除する機能が追加されました。 <sup>23.5</sup>
-※ふりがな[Run](https://reference.aspose.com/words/net/aspose.words/run/)の親文字とルビ文字を取得するための公開プロパティ[PhoneticGuide](https://reference.aspose.com/words/net/aspose.words/run/phoneticguide/)を追加しました。 <sup>23.5</sup>
-* 新しい [SignatureValue](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/) プロパティの導入により、デジタル署名されたドキュメントからデジタル署名値をバイト配列として取得する機能が追加されました。 <sup>23.7</sup>
-* [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) クラスと [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) クラスは、新しいパブリック メンバー ([Row.NextRow](https://reference.aspose.com/words/net/aspose.words.tables/row/nextrow/)、[Row.PreviousRow](https://reference.aspose.com/words/net/aspose.words.tables/row/previousrow/)、[Cell.NextCell](https://reference.aspose.com/words/net/aspose.words.tables/cell/nextcell/)、[Cell.PreviousCell](https://reference.aspose.com/words/net/aspose.words.tables/cell/previouscell/)) で拡張されました。 <sup>23.7</sup>
-* CITATION フィールドと BIBLIOGRAPHY フィールドのサポートが追加されました。 <sup>23.8</sup>
+* ヘッダー/フッターでのテキスト折り返しのサポートが実装されました。 <sup>23.5</sup>
+* ODT文書からデジタル署名を削除する機能が[RemoveAllSignatures](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/)メソッドによって追加されました。 <sup>23.5</sup>
+* 音声ガイド[Run](https://reference.aspose.com/words/net/aspose.words/run/)のベーステキストとルビテキストを取得するためのパブリックプロパティ[PhoneticGuide](https://reference.aspose.com/words/net/aspose.words/run/phoneticguide/)が追加されました。 <sup>23.5</sup>
+* 新しい[SignatureValue](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/)プロパティを導入することで、デジタル署名された文書からデジタル署名値をバイト配列として取得する機能が追加されました。 <sup>23.7</sup>
+* [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/)クラスと[Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/)クラスは新しいパブリックメンバーで拡張されました– [Row.NextRow](https://reference.aspose.com/words/net/aspose.words.tables/row/nextrow/), [Row.PreviousRow](https://reference.aspose.com/words/net/aspose.words.tables/row/previousrow/), [Cell.NextCell](https://reference.aspose.com/words/net/aspose.words.tables/cell/nextcell/), と[Cell.PreviousCell](https://reference.aspose.com/words/net/aspose.words.tables/cell/previouscell/)。 <sup>23.7</sup>
+* CITATIONフィールドとBIBLIOGRAPHYフィールドのサポートが追加されました。 <sup>23.8</sup>
 
 {{% alert color="primary" %}}
 
-[Aspose.Words for .NET 23.5 リリースノート](/words/net/aspose-words-for-net-23-5-release-notes/) について詳しくは、こちらをご覧ください。
+詳細については、こちらをご覧ください [Aspose.WordsFor.NET 23.5リリースノート](/words/net/aspose-words-for-net-23-5-release-notes/).
 
-[Aspose.Words for .NET 23.6 リリースノート](/words/net/aspose-words-for-net-23-6-release-notes/) について詳しくは、こちらをご覧ください。
+詳細については、こちらをご覧ください [Aspose.WordsFor.NET 23.6リリースノート](/words/net/aspose-words-for-net-23-6-release-notes/).
 
-[Aspose.Words for .NET 23.7 リリースノート](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/) について詳しくは、こちらをご覧ください。
+詳細については、こちらをご覧ください [Aspose.WordsFor.NET 23.7リリースノート](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/).
 
-[Aspose.Words for .NET 23.8 リリースノート](/words/net/aspose-words-for-net-23-8-release-notes/) について詳しくは、こちらをご覧ください。
+詳細については、こちらをご覧ください [Aspose.WordsFor.NET 23.8リリースノート](/words/net/aspose-words-for-net-23-8-release-notes/).
 
 {{% /alert %}}
 
-## .NET 23.1、23.2、23.3、23.4 の Aspose.Words
+## Aspose.Wordsは.NET 23.1, 23.2, 23.3, 23.4に対してAspose.Wordsを意味します。
 
-Aspose.Words 23.1 は、ラスター操作エミュレーションのパフォーマンスを向上させるだけでなく、ドキュメントのエクスポートとレンダリングの品質も向上します。
+Aspose.Words23.1ラスタ操作エミュレーションのパフォーマンスが向上し、ドキュメントのエクスポートとレンダリングの品質が向上します。
 
-Aspose.Words 23.2 では、MOBI 形式でのドキュメントの保存が導入され、グラフのレンダリングが改善され、ドキュメントの外観の詳細に顕著な変更が加えられています。
+Aspose.Words23.2は、MOBI形式で文書を保存することを導入し、チャートレンダリングを改善し、文書の外観の詳細に顕著な変更を加えます。
 
-Aspose.Words 23.3 では、新しいプロパティを使用してドキュメントのインポートと保存が強化され、背景色、前景色、放射状グラデーションによる作業の品質も向上します。
+Aspose.Words23.3新しいプロパティでドキュメントのインポートと保存が強化され、背景色と前景色と放射状のグラデーションでの作業の品質も向上します。Aspose.Words23.3
 
-Aspose.Words 23.4 では、いくつかのパラメータの計算と、表と周囲のテキストの位置が改善されています。
+Aspose.Words23.4は、いくつかのパラメータの計算と、テーブルと周囲のテキストの位置を改善します。
 
 ### パフォーマンスの向上
 
-#### ラスター操作のエミュレーション<sup>23.1</sup>
+#### ラスター操作のエミュレーション <sup>23.1</sup>
 
-メタファイルを使用したラスター操作のエミュレーションのパフォーマンスと品質が大幅に向上しました。
+メタファイルを使用したラスタ操作のエミュレーションのパフォーマンスと品質が大幅に改善されました。
 
 ### サポートされている形式
 
-#### MOBI <sup>23.2</sup>へのエクスポート
+#### MOBIにエクスポート <sup>23.2</sup>
 
-バージョン 23.2 以降、MOBI 形式 (PRC、AZW とも呼ばれる – Amazon Kindle 独自の電子書籍ファイル形式) でドキュメントを保存できるようになりました。 MOBI ドキュメントをロードするだけでなく、ファイルを MOBI 形式にエクスポートできるようになりました。
+バージョン23.2以降では、文書をMOBI形式で保存することができます(別名:PRC, AZW – Amazon Kindle独自の電子書籍ファイル形式）。 これで、MOBIドキュメントを読み込むだけでなく、ファイルをMOBI形式にエクスポートすることもできます。
 
 ### レンダリング
 
-#### シェーディングテーマカラーの操作<sup>23.1</sup>
+#### シェーディングテーマの色を使用する <sup>23.1</sup>
 
-シェーディングテーマカラーを操作する機能が実装されました。
+シェーディングテーマの色で作業する機能が実装されています。
 
-#### DML チャート<sup>23.1</sup>での R 二乗係数のサポート
+#### DMLチャートでのR二乗係数のサポート <sup>23.1</sup>
 
-レンダリング時の DML チャートの傾向線ラベルの R 二乗係数のサポートが追加されました。
+レンダリングが追加されたときのDMLチャートトレンドラインラベルのR二乗係数のサポート。
 
-#### チャートのレンダリングの改善<sup>23.2</sup>
+#### チャートレンダリングの改善 <sup>23.2</sup>
 
-23.2 以降、チャートのレンダリングが大幅に改善されました。
+23.2以降、チャートレンダリングが大幅に改善されました。
 
-#### 背景と前景色のカラー コントロール<sup>23.3</sup>
+#### 背景色と前景色のコントロール <sup>23.3</sup>
 
-[Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) クラスは、背景色と前景色に関連する一連の新しいパブリック プロパティ ([ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/fill/forethemecolor/)、[BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/fill/backthemecolor/)、[ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/fill/foretintandshade/)、[BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/fill/backtintandshade/)) で拡張されました。
+[Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/)クラスは、背景色と前景色に関連する一連の新しいパブリックプロパティ[ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/fill/forethemecolor/)と[BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/fill/backthemecolor/)、[ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/fill/foretintandshade/)と[BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/fill/backtintandshade/)で拡張されました。
 
-#### `SkiaSharp` Native Shader <sup>23.3</sup>による放射状グラデーション
+#### `SkiaSharp`ネイティブシェーダーを使用したラジアルグラディエント <sup>23.3</sup>
 
-.NET Standard の `SkiaSharp` ネイティブ シェーダーを使用した放射状グラデーションのレンダリングが実装されました。
+.NET Standardの`SkiaSharp`ネイティブシェーダーを使用した放射状グラデーションのレンダリングが実装されています。
 
-#### 表と周囲の文字との距離<sup>23.4</sup>
+#### 表と周囲のテキスト間の距離 <sup>23.4</sup>
 
-[Table](https://reference.aspose.com/words/net/aspose.words.tables/table/) クラスに新しいプロパティ ([DistanceLeft](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceleft/)、[DistanceRight](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceright/)、[DistanceTop](https://reference.aspose.com/words/net/aspose.words.tables/table/distancetop/)、[DistanceBottom](https://reference.aspose.com/words/net/aspose.words.tables/table/distancebottom/)) を導入することにより、テーブルと周囲のテキストの間の距離を設定する機能が追加されました。
+[Table](https://reference.aspose.com/words/net/aspose.words.tables/table/)クラスに新しいプロパティを導入することで、テーブルと周囲のテキスト間の距離を設定する機能が追加されました: [DistanceLeft](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceleft/), [DistanceRight](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceright/), [DistanceTop](https://reference.aspose.com/words/net/aspose.words.tables/table/distancetop/), と[DistanceBottom](https://reference.aspose.com/words/net/aspose.words.tables/table/distancebottom/)。
 
-### ドキュメントのロードと保存
+### 文書の読み込みと保存
 
-#### AZW3 ドキュメント<sup>23.1</sup>の `TOC` を生成
+#### AZW3文書に対して`TOC`を生成する <sup>23.1</sup>
 
-[NavigationMapLevel](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/navigationmaplevel/) プロパティを使用して、AZW3 ドキュメントの `TOC` (目次) を生成する機能が追加されました。
+[NavigationMapLevel](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/navigationmaplevel/)プロパティを使用して、AZW3文書の`TOC`(目次)を生成する機能が追加されました。[NavigationMapLevel](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/navigationmaplevel/)プロパティを使用して、AZW3文書の`TOC`(目次)を生成する機能が追加されました。
 
-#### リスト項目を Markdown <sup>23.1</sup>にエクスポートする
+#### リスト項目をMarkdownにエクスポートする <sup>23.1</sup>
 
-[ListExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/listexportmode/) プロパティを [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) クラスに追加することで、リスト項目の Markdown 形式へのエクスポートを制御する方法が提供されています。
+リスト項目のMarkdown形式へのエクスポートを制御する方法は、[ListExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/listexportmode/)プロパティを[MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/)クラスに追加することによって提供されています。
 
-#### ドキュメント保存の進行状況の通知<sup>23.3</sup>
+#### 文書保存の進行状況通知 <sup>23.3</sup>
 
-MOBI および AZW3 形式の保存進捗通知が実装されました。
+MOBIおよびAZW3形式の進行状況通知の保存が実装されました。
 
-#### 文と単語の間隔の調整<sup>23.3</sup>
+#### 文と単語の間隔の調整 <sup>23.3</sup>
 
-[AdjustSentenceAndWordSpacing](https://reference.aspose.com/words/net/aspose.words/importformatoptions/adjustsentenceandwordspacing/) プロパティの導入により、ドキュメントのインポート時に文と単語の間隔を自動的に調整するかどうかを指定する機能が追加されました。
+[AdjustSentenceAndWordSpacing](https://reference.aspose.com/words/net/aspose.words/importformatoptions/adjustsentenceandwordspacing/)プロパティを導入することにより、文書のインポート時に文と単語の間隔を自動的に調整するかどうかを指定する機能が追加されました。
 
-### 他の
+### その他
 
-* ドキュメントの文字間隔調整を指定する機能は、[JustificationMode](https://reference.aspose.com/words/net/aspose.words/document/justificationmode/) プロパティ実装<sup>23.2</sup>によって追加されました。
-* 単語数統計にテキストボックス、脚注、文末脚注を含めるかどうかを Aspose.Words に指示する方法は、[IncludeTextboxesFootnotesEndnotesInStat](https://reference.aspose.com/words/net/aspose.words/document/includetextboxesfootnotesendnotesinstat/) プロパティ<sup>23.2</sup>を追加することで提供されています。
-* ドキュメント スタイルの新しいオプションが、[AutomaticallyUpdate](https://reference.aspose.com/words/net/aspose.words/style/automaticallyupdate/) プロパティ<sup>23.2</sup>を通じて導入されました。これにより、適切な値に基づいてスタイルが自動的に再定義されるかどうかを指定できます。
-* [IsPhoneticGuide](https://reference.aspose.com/words/net/aspose.words/run/isphoneticguide/) プロパティ<sup>23.4</sup>を使用して、[Run](https://reference.aspose.com/words/net/aspose.words/run/) が発音ガイドの実行であるかどうかを判断する機能が追加されました。
-* [ChartAxisCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxiscollection/) クラスを導入し、[Chart.Axes](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/axes/) プロパティを追加することで、コンボ チャートのシリーズと軸を操作する簡単な方法が実装されました<sup>23.4</sup>
-* シェイプの相対位置とサイズ設定に関連する新しいパブリック プロパティが [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) クラス<sup>23.4</sup>に追加されました。
-* 自動文字色解像度の色の明るさ計算の精度とパフォーマンスが、Microsoft Word <sup>23.4</sup>の最新バージョンに従って改善されました。
+* ドキュメントの文字間隔の調整を指定する機能は、[JustificationMode](https://reference.aspose.com/words/net/aspose.words/document/justificationmode/)プロパティの実装によって追加されました <sup>23.2</sup>
+* 単語数統計にテキストボックス、脚注、文末脚注を含めるかどうかをAspose.Wordsに指示する方法は、[IncludeTextboxesFootnotesEndnotesInStat](https://reference.aspose.com/words/net/aspose.words/document/includetextboxesfootnotesendnotesinstat/)プロパティを追加することによって提供されています <sup>23.2</sup>
+* 適切な値に基づいてスタイルを自動的に再定義するかどうかを指定できるドキュメントスタイルの新しいオプションが、[AutomaticallyUpdate](https://reference.aspose.com/words/net/aspose.words/style/automaticallyupdate/)プロパティを介して導入 <sup>23.2</sup>
+* [Run](https://reference.aspose.com/words/net/aspose.words/run/)が音声ガイド実行であるかどうかを判断する機能が[IsPhoneticGuide](https://reference.aspose.com/words/net/aspose.words/run/isphoneticguide/)プロパティを使用して追加されました <sup>23.4</sup>
+* コンボチャートの系列と軸を操作する簡単な方法は、[ChartAxisCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxiscollection/)クラスを導入し、[Chart.Axes](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/axes/)プロパティを追加することによって実装されています <sup>23.4</sup>
+* Shape relative positioningとsizingに接続された新しいパブリックプロパティが[Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/)クラスに追加されました <sup>23.4</sup>
+* 自動テキストの色の解像度のための色の明るさの計算の正確さとパフォーマンスは、Microsoft Wordの最新バージョンに応じて改善されました <sup>23.4</sup>
 
 {{% alert color="primary" %}}
 
-[Aspose.Words for .NET 23.1 リリースノート](/words/net/aspose-words-for-net-23-1-release-notes/) について詳しくは、こちらをご覧ください。
+詳細については、こちらをご覧ください [Aspose.WordsFor.NET 23.1リリースノート](/words/net/aspose-words-for-net-23-1-release-notes/).
 
-[Aspose.Words for .NET 23.2 リリースノート](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-2-release-notes/) について詳しくは、こちらをご覧ください。
+詳細については、こちらをご覧ください [Aspose.WordsFor.NET 23.2リリースノート](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-2-release-notes/).
 
-[Aspose.Words for .NET 23.3 リリースノート](/words/net/aspose-words-for-net-23-3-release-notes/) について詳しくは、こちらをご覧ください。
+詳細については、こちらをご覧ください [Aspose.WordsFor.NET 23.3リリースノート](/words/net/aspose-words-for-net-23-3-release-notes/).
 
-[Aspose.Words for .NET 23.4 リリースノート](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-4-release-notes/) について詳しくは、こちらをご覧ください。
+詳細については、こちらをご覧ください [Aspose.WordsFor.NET 23.4リリースノート](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-4-release-notes/).
 
 {{% /alert %}}
 
-## 関連項目
+## また見て下さい
 
 {{% alert color="primary" %}}
 
-このページには過去 2 年間の最新リリース ニュースが含まれています。以前のリリースの詳細については、[リリースノート'](/words/net/release-notes/) ページの関連セクションを参照してください。
+このページには、過去2年間の最新リリースニュースが含まれています。 以前のリリースの詳細については、以下を参照してください [リリースノート'](https://releases.aspose.com/words/net/release-notes/) 関連するセクションのページ。
 
 {{% /alert %}}

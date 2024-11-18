@@ -11,11 +11,17 @@ url: /ro/python-net/what-s-new-in-aspose-words-for-python-net/
 
 Această pagină descrie cele mai interesante caracteristici noi Aspose.Words introduse în versiunile recente.
 
-## Aspose.Words pentru Python via .NET 24.9, 24.10
+## Aspose.Words pentru Python via .NET 24.9, 24.10, 24.11
 
 Aspose.Words 24.9 introduce group shape Inserare și StructuredDocumentTag Inserare prin DocumentBuilder, îmbunătățește randarea diagramelor radiale cu gradații, îmbunătățește semnăturile digitale cu suport XAdES-EPES, adaugă Markdown recunoașterea sublinierii și oferă acces la separatoarele de notă de subsol/notă finală.
 
 Aspose.Words 24.10 introduce suport îmbunătățit pentru controlul ActiveX cu crearea CommandButton, Controlul vizibilității formei noi, capacitatea de a group shapes, exportul Markdown îmbunătățit pentru tabele, formatarea diagramelor pentru graficele Pie și Doughnut, o mai bună manipulare a codificării Big5 și suport pentru fonturile taiwaneze învechite.
+
+Aspose.Words 24.11 introduce rezumatul documentelor alimentat de AI, opțiuni de redare îmbunătățite, acces îmbunătățit la proprietățile documentului și subtitrarea ActiveX control.
+
+### AI - funcții alimentate <sup>24.11</sup>
+
+Suportul pentru rezumarea documentelor folosind **OpenAI** și **Google** modele de limbaj generativ a fost integrat prin adăugarea spațiului de nume [Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/) cu membrii săi publici.
 
 ### Redare și imprimare
 
@@ -35,6 +41,18 @@ O nouă proprietate publică [hidden](https://reference.aspose.com/words/python-
 
 Mai multe proprietăți publice noi au fost adăugate la graficele format Pie și Doughnut.
 
+#### Controlați redarea PDF frontiere câmp formular alegere <sup>24.11</sup>
+
+O nouă opțiune pentru a controla redarea PDF choice form field borders a fost implementată prin adăugarea unei noi opțiuni publice [render_choice_form_field_border](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/render_choice_form_field_border/).
+
+#### Obțineți și setați codurile de Format pentru datele grafice <sup>24.11</sup>
+
+Abilitatea de a obține și seta coduri de format pentru datele grafice a fost adăugată prin implementarea proprietății [format_code](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartxvaluecollection/format_code/) în clasele [ChartXValueCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartyvaluecollection/) și [BubbleSizeCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/bubblesizecollection/).
+
+#### Render diagrame histograma cu pubele și etichete <sup>24.11</sup>
+
+Histograma diagramă De redare a fost îmbunătățită prin a permite un anumit număr de containere și etichete.
+
 ### Conversia, încărcarea și salvarea documentelor
 
 #### Subliniați formatarea la încărcarea fișierelor Markdown <sup>24.9</sup>
@@ -44,6 +62,10 @@ Opțiunea de a recunoaște formatarea sublinierii la încărcarea documentelor M
 #### Exportarea tabelelor ca HTML la salvarea în Markdown <sup>24.10</sup>
 
 O opțiune de a exporta tabele ca HTML la salvarea documentelor în format Markdown a fost implementată prin adăugarea unei noi proprietăți publice [export_as_html](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/export_as_html/) și a unei enumerări [MarkdownExportAsHtml](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownexportashtml/).
+
+#### Export PDF cu structură logică actualizată <sup>24.11</sup>
+
+PDF exportul a fost îmbunătățit prin includerea proprietăților titlului tabelului ca PDF titluri de elemente de structură logică.
 
 ### Semnături Digitale
 
@@ -59,12 +81,16 @@ Abilitatea de a semna documente cu XAdES-EPES Nivel XML-DSig semnături a fost i
 * Capacitatea de a grupa forme individuale, group shapes împreună și de a grupa direct ambele forme și group shapes a fost introdusă prin adăugarea metodei [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/#float_float_float_float_shapebaselist). <sup>24.10</sup>
 * Manipularea codificării Big5 pentru TrueType tabele cmap a fost îmbunătățită. <sup>24.10</sup>
 * Suportul pentru fonturile taiwaneze învechite a fost îmbunătățit. <sup>24.10</sup>
+* Pentru a accesa proprietățile extinse ale documentului, proprietățile numai în citire au fost adăugate la clasa [BuiltInDocumentProperties](https://reference.aspose.com/words/python-net/aspose.words.properties/builtindocumentproperties/). <sup>24.11</sup>
+* Setarea subtitrărilor pentru controalele ActiveX a fost activată prin adăugarea unui nou setter public la proprietatea [Forms2OleControl.caption](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/caption/). <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 Aflați mai multe despre [Aspose.Words pentru Python via .NET 24.9 Note De Lansare](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-9-release-notes/).
 
 Aflați mai multe despre [Aspose.Words pentru Python via .NET 24.10 Note De Lansare](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-10-release-notes/).
+
+Aflați mai multe despre [Aspose.Words pentru Python via .NET 24.11 Note De Lansare](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-11-release-notes/).
 
 {{% /alert %}}
 

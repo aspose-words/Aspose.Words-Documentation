@@ -11,11 +11,17 @@ url: /tr/net/what-s-new-in-aspose-words-for-net/
 
 Bu sayfada son sürümlerde tanıtılan en ilginç yeni Aspose.Words özellikleri açıklanmaktadır.
 
-## Aspose.Words for .NET 24.9, 24.10
+## Aspose.Words için .NET 24.9, 24.10, 24.11
 
 Aspose.Words 24.9, DocumentBuilder aracılığıyla grup şekli ekleme ve StructuredDocumentTag eklemeyi sunar, derecelendirmelerle radyal grafik oluşturmayı geliştirir, XAdES-EPES desteğiyle dijital imzaları iyileştirir, Markdown alt çizgi tanıma ekler ve dipnot/sonnot ayırıcılarına erişim sağlar.
 
 Aspose.Words 24.10, CommandButton oluşturma, yeni şekil görünürlük denetimi, şekilleri gruplama yeteneği, tablolar için geliştirilmiş Markdown dışa aktarma, Pasta ve Çörek grafikleri için grafik biçimlendirme, daha iyi Big5 kodlama işleme ve güncel olmayan Tayvan yazı tipleri için destek ile gelişmiş ActiveX denetim desteği sunar.
+
+Aspose.Words 24.11, AI destekli belge özetleme, gelişmiş oluşturma seçenekleri, belge özelliklerine geliştirilmiş erişim ve ActiveX denetimi altyazısını sunar.
+
+### AI-güçlendirilmiş Özellikler <sup>24.11</sup>
+
+**OpenAI** ve **Google** üretici dil modellerini kullanarak belge özetleme desteği, genel üyeleriyle [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) ad alanı eklenerek entegre edilmiştir.
 
 ### Oluşturma ve Yazdırma
 
@@ -35,6 +41,18 @@ CommandButton ActiveX denetimleri oluşturma yeteneği, yeni bir genel yöntem [
 
 Pasta ve Halka grafiklerini biçimlendirmek için birkaç yeni genel özellik eklendi.
 
+#### PDF Seçim Formu Alanı Kenarlıklarının Oluşturulmasını Denetleme <sup>24.11</sup>
+
+PDF seçim formu alanı kenarlıklarının oluşturulmasını denetlemek için yeni bir genel seçenek [RenderChoiceFormFieldBorder](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/renderchoiceformfieldborder/) eklenerek yeni bir seçenek uygulandı.
+
+#### Grafik Verileri için Biçim Kodlarını Alın ve Ayarlayın <sup>24.11</sup>
+
+Grafik verileri için biçim kodları alma ve ayarlama yeteneği, [ChartXValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvaluecollection/) ve [BubbleSizeCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/bubblesizecollection/) sınıflarında [FormatCode](https://reference.aspose.com/words/net/aspose.words.drawing.charts/bubblesizecollection/formatcode/) özelliği uygulanarak eklenmiştir.
+
+#### Histogram Grafiklerini Kutular ve Etiketlerle Oluşturma <sup>24.11</sup>
+
+Histogram grafik oluşturma, belirli sayıda kutu ve etikete izin verilerek geliştirilmiştir.
+
 ### Belgeleri Dönüştürme, Yükleme ve Kaydetme
 
 #### Markdown Dosyaları Yüklenirken Alt Çizgi Biçimlendirme <sup>24.9</sup>
@@ -44,6 +62,10 @@ Markdown belgeleri yüklenirken alt çizgi biçimlendirmesini tanıma seçeneği
 #### Markdown'a kaydederken tabloları HTML olarak dışa aktarma <sup>24.10</sup>
 
 Belgeleri Markdown biçimine kaydederken tabloları HTML olarak dışa aktarma seçeneği, yeni bir genel özellik [ExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/exportashtml/) ve bir numaralandırma [MarkdownExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownexportashtml/) eklenerek uygulandı.
+
+#### Güncellenmiş Mantıksal Yapı <sup>24.11 ile PDF dışa Aktar</sup>
+
+PDF dışa aktarma, tablo başlığı özelliklerini PDF mantıksal yapı öğesi başlıkları olarak ekleyerek geliştirilmiştir.
 
 ### Dijital İmzalar
 
@@ -59,12 +81,16 @@ Belgeleri XAdES-EPES düzeyinde XML-DSig imzalarıyla imzalama yeteneği, yeni b
 * Tek tek şekilleri gruplama, şekilleri birlikte gruplama ve her iki şekli ve grup şekillerini doğrudan gruplama yeteneği, [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/#insertgroupshape_1) yönteminin eklenmesiyle tanıtıldı. <sup>24.10</sup>
 * TrueType cmap tabloları için Big5 kodlama işleme geliştirildi. <sup>24.10</sup>
 * Güncel olmayan Tayvan yazı tipleri için destek geliştirildi. <sup>24.10</sup>
+* Genişletilmiş belge özelliklerine erişmek için [BuiltInDocumentProperties](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/) sınıfına salt okunur özellikler eklenmiştir. <sup>24.11</sup>
+* ActiveX denetimleri için resim yazıları ayarlamak, [Forms2OleControl.Caption](https://reference.aspose.com/words/net/aspose.words.drawing.ole/forms2olecontrol/caption/) özelliğine yeni bir genel ayarlayıcı eklenerek etkinleştirildi. <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 [.NET 24.9 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-9-release-notes/) hakkında daha fazla bilgi edinin.
 
 [.NET 24.10 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-10-release-notes/) hakkında daha fazla bilgi edinin.
+
+Hakkında daha fazla bilgi edinin [Aspose.Words .NET 24.11 Sürüm Notları için](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-11-release-notes/).
 
 {{% /alert %}}
 

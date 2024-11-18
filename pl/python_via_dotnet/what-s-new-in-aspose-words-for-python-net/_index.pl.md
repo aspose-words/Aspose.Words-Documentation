@@ -11,11 +11,17 @@ url: /pl/python-net/what-s-new-in-aspose-words-for-python-net/
 
 Na tej stronie opisano najciekawsze nowe funkcje Aspose.Words wprowadzone w ostatnich wydaniach.
 
-## Aspose.Words dla Pythona przez .NET 24.9, 24.10
+## Aspose.Words dla Pythona przez .NET 24.9, 24.10, 24.11
 
 Aspose.Words 24.9 wprowadza wstawianie kształtów grupowych i wstawianie StructuredDocumentTag przez DocumentBuilder, ulepsza renderowanie wykresów promieniowych za pomocą podziałek, ulepsza podpisy cyfrowe dzięki obsłudze XAdES-EPES, dodaje rozpoznawanie podkreśleń Markdown i zapewnia dostęp do separatorów przypisów dolnych/końcowych.
 
 Aspose.Words 24.10 wprowadza ulepszoną obsługę kontrolek ActiveX z tworzeniem CommandButton, nową kontrolę widoczności kształtów, możliwość grupowania kształtów, ulepszony eksport Markdown dla tabel, formatowanie wykresów kołowych i pierścieniowych, lepszą obsługę kodowania Big5 i obsługę przestarzałych czcionek tajwańskich.
+
+Aspose.Words 24.11 wprowadza AI-powered podsumowania dokumentu, ulepszone opcje renderowania, lepszy dostęp do Właściwości dokumentu i ActiveX napisów kontrolnych.
+
+### AI - Funkcje zasilane <sup>24.11</sup>
+
+Obsługa podsumowania dokumentów przy użyciu generatywnych modeli językowych **OpenAI** i **Google** została zintegrowana poprzez dodanie przestrzeni nazw [Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/) wraz z jej publicznymi członkami.
 
 ### Renderowanie i drukowanie
 
@@ -35,6 +41,18 @@ Dodano nową publiczną właściwość [hidden](https://reference.aspose.com/wor
 
 Dodano kilka nowych właściwości publicznych w celu sformatowania wykresów kołowych i pierścieniowych.
 
+#### Kontroluj renderowanie granic pól formularza wyboru PDF <sup>24.11</sup>
+
+Nowa opcja kontrolowania renderowania granic pól formularza wyboru PDF została zaimplementowana przez dodanie nowej opcji publicznej [render_choice_form_field_border](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/render_choice_form_field_border/).
+
+#### Pobierz i ustaw kody formatu dla danych wykresu <sup>24.11</sup>
+
+Możliwość pobierania i ustawiania kodów formatu dla danych wykresu została dodana poprzez implementację właściwości [format_code](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartxvaluecollection/format_code/) w klasach [ChartXValueCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartyvaluecollection/) i [BubbleSizeCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/bubblesizecollection/).
+
+#### Renderuj wykresy histogramu z pojemnikami i etykietami <sup>24.11</sup>
+
+Renderowanie wykresu histogramu zostało ulepszone, umożliwiając określoną liczbę pojemników i etykiet.
+
 ### Konwertowanie, ładowanie i zapisywanie dokumentów
 
 #### Formatowanie podkreślenia podczas ładowania plików Markdown <sup>24.9</sup>
@@ -44,6 +62,10 @@ Opcja rozpoznawania formatowania podkreślenia podczas ładowania dokumentów Ma
 #### Eksportowanie tabel jako HTML podczas zapisywania do Markdown <sup>24.10</sup>
 
 Opcja eksportowania tabel jako HTML podczas zapisywania dokumentów w formacie Markdown została zaimplementowana poprzez dodanie nowej właściwości publicznej [export_as_html](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/export_as_html/) i wyliczenia [MarkdownExportAsHtml](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownexportashtml/).
+
+#### Eksportuj PDF ze zaktualizowaną strukturą logiczną <sup>24.11</sup>
+
+PDF eksport został wzmocniony przez włączenie właściwości tytułu tabeli jako PDF tytułów elementów struktury logicznej.
 
 ### Podpisy cyfrowe
 
@@ -59,12 +81,16 @@ Możliwość podpisywania dokumentów za pomocą podpisów XML-DSig na poziomie 
 * Możliwość grupowania pojedynczych kształtów, grupowania kształtów razem oraz bezpośredniego grupowania kształtów i grupowania kształtów została wprowadzona poprzez dodanie metody [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/#float_float_float_float_shapebaselist). <sup>24.10</sup>
 * Ulepszono obsługę kodowania Big5 dla tabel TrueType cmap. <sup>24.10</sup>
 * Ulepszono obsługę przestarzałych czcionek tajwańskich. 24.10
+* Aby uzyskać dostęp do rozszerzonych właściwości dokumentu, właściwości tylko do odczytu zostały dodane do klasy [BuiltInDocumentProperties](https://reference.aspose.com/words/python-net/aspose.words.properties/builtindocumentproperties/). <sup>24.11</sup>
+* Ustawianie napisów dla formantów ActiveX zostało włączone przez dodanie nowego publicznego setera do właściwości [Forms2OleControl.caption](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/caption/). <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 Dowiedz się więcej o [Aspose.Words dla Python via .NET 24.9 Informacje o wydaniu](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-9-release-notes/).
 
 Dowiedz się więcej o [Aspose.Words dla Python via .NET 24.10 Informacje o wydaniu](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-10-release-notes/).
+
+Dowiedz się więcej o [Aspose.Words dla Python via .NET 24.11 Informacje o wydaniu](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-11-release-notes/).
 
 {{% /alert %}}
 

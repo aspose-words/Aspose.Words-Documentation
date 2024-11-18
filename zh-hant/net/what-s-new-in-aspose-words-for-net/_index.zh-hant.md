@@ -17,6 +17,12 @@ Aspose.Words 24.9 透過DocumentBuilder 引入了群組形狀插入和Structured
 
 Aspose.Words 24.10 引入了增強的ActiveX 控制項支持，包括CommandButton 創建、新的形狀可見性控制、形狀分組功能、改進的表格Markdown 導出、餅圖和圓環圖的圖表格式、更好的Big5 編碼處理以及對過時的台灣字體的支援。
 
+Aspose.Words 24.11 引入了人工智慧驅動的文件摘要、增強的渲染選項、改進的文件屬性存取和 ActiveX 控制項標題。
+
+### AI 驅動的功能<sup>24.11</sup>
+
+透過新增 [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) 命名空間及其公共成員，整合了對使用 OpenAI 和 Google 生成語言模型的文件摘要的支援。
+
 ### 渲染與列印
 
 #### 徑向圖表上的刻度 <sup>24.9</sup>
@@ -35,6 +41,18 @@ Aspose.Words 24.10 引入了增強的ActiveX 控制項支持，包括CommandButt
 
 新增了幾個新的公共屬性來格式化餅圖和圓環圖。
 
+#### 控制 PDF 選擇表單欄位邊框的呈現 <sup>24.11</sup>
+
+透過新增新的公共選項 [RenderChoiceFormFieldBorder](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/renderchoiceformfieldborder/)，實現了控制 PDF 選擇表單欄位邊框渲染的新選項。
+
+#### 取得並設定圖表資料的格式代碼<sup>24.11</sup>
+
+透過在 [ChartXValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvaluecollection/)、[ChartYValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvaluecollection/) 和 [BubbleSizeCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/bubblesizecollection/) 類別中實作 [FormatCode](https://reference.aspose.com/words/net/aspose.words.drawing.charts/bubblesizecollection/formatcode/) 屬性，新增了取得和設定圖表資料格式程式碼的功能。
+
+#### 使用 bin 和標籤渲染直方圖 <sup>24.11</sup>
+
+透過允許指定數量的容器和標籤，直方圖渲染得到了改進。
+
 ### 轉換、載入和儲存文檔
 
 #### 載入 Markdown 檔案時的底線格式 <sup>24.9</sup>
@@ -44,6 +62,10 @@ Aspose.Words 24.10 引入了增強的ActiveX 控制項支持，包括CommandButt
 #### 儲存到 Markdown 時將表格匯出為 HTML <sup>24.10</sup>
 
 透過新增新的公共屬性[ExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/exportashtml/) ，實現了將文件儲存為Markdown 格式時將表格匯出為HTML的選項 和枚舉 [MarkdownExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownexportashtml/)。
+
+#### 匯出具有更新邏輯結構的 PDF <sup>24.11</sup>
+
+透過將表格標題屬性包含為 PDF 邏輯結構元素標題，PDF 匯出得到了增強。
 
 ### 數位簽名
 
@@ -59,12 +81,16 @@ Aspose.Words 24.10 引入了增強的ActiveX 控制項支持，包括CommandButt
 * 透過新增 [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/#insertgroupshape_1) 引入了對單一形狀進行分組、將形狀分組以及直接對形狀和群組形狀進行分組的功能 方法。 <sup>24.10</sup>
 * TrueType cmap 表的 Big5 編碼處理已改進。 <sup>24.10</sup>
 * 增強了對過時台灣字體的支援。 <sup>24.10</sup>
+* 為了存取擴展文件屬性，已將唯讀屬性新增至 [BuiltInDocumentProperties](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/) 類別中。 <sup>24.11</sup>
+* 透過在 [Forms2OleControl.Caption](https://reference.aspose.com/words/net/aspose.words.drawing.ole/forms2olecontrol/caption/) 屬性中新增新的公共設定器，可以設定 ActiveX 控制項的標題。 <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 更多了解[Aspose.Words for .NET 24.9 Release Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-9-release-notes/)。
 
 更多了解[Aspose.Words for .NET 24.10 Release Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-10-release-notes/)。
+
+更多了解[Aspose.Words for .NET 24.11 Release Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-11-release-notes/)。
 
 {{% /alert %}}
 

@@ -11,11 +11,17 @@ url: /ja/python-net/what-s-new-in-aspose-words-for-python-net/
 
 このページでは、最近のリリースで導入された最も興味深い新しい Aspose.Words 機能について説明します。
 
-## .NET 24.9、24.10 経由の Aspose.Words for Python
+## .NET 24.9、24.10、24.11 経由の Aspose.Words for Python
 
 Aspose.Words 24.9 では、DocumentBuilder 経由のグループ シェイプの挿入と StructuredDocumentTag の挿入が導入され、目盛り付きの放射状グラフのレンダリングが強化され、XAdES-EPES サポートによるデジタル署名が改善され、Markdown の下線認識が追加され、脚注/文末脚注のセパレーターへのアクセスが提供されます。
 
 Aspose.Words 24.10 では、コマンド ボタンの作成、新しい図形の表示コントロール、図形のグループ化機能、表の Markdown エクスポートの改善、円グラフとドーナツ グラフのグラフ書式設定、Big5 エンコード処理の改善、古い台湾フォントのサポートなど、ActiveX コントロールのサポートが強化されています。
+
+Aspose.Words24.11では、AIを使用したドキュメントの要約、強化されたレンダリングオプション、ドキュメントプロパティへのアクセスの改善、ActiveXコントロー
+
+### AI搭載の機能 <sup>24.11</sup>
+
+**OpenAI**および**Google**生成言語モデルを使用した文書要約のサポートは、[Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/)名前空間とそのパブリックメンバーを追加することによって統合されています。
 
 ### レンダリングと印刷
 
@@ -35,6 +41,18 @@ Aspose.Words 24.10 では、コマンド ボタンの作成、新しい図形の
 
 円グラフとドーナツ グラフの書式設定のために、いくつかの新しいパブリック プロパティが追加されました。
 
+#### PDF選択フォームフィールドの境界線のレンダリングを制御します <sup>24.11</sup>
+
+新しいパブリックオプション[render_choice_form_field_border](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/render_choice_form_field_border/)を追加することにより、PDF選択フォームフィールド境界のレンダリングを制御する新しいオプションが実装されました。
+
+#### グラフデータの書式コードの取得と設定 <sup>24.11</sup>
+
+チャートデータの書式コードを取得および設定する機能は、[ChartXValueCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartxvaluecollection/)、[ChartYValueCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartyvaluecollection/)、および[BubbleSizeCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/bubblesizecollection/)クラスに[format_code](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartxvaluecollection/format_code/)プロパティを実装することによって追加されました。
+
+#### ビンとラベルを使用したヒストグラムチャートのレンダリング <sup>24.11</sup>
+
+ヒストグラムチャートレンダリングは、指定された数のビンとラベルを使用できるようにすることで改善されました。
+
 ### ドキュメントの変換、読み込み、および保存
 
 #### Markdown ファイルの読み込み時の下線書式設定 <sup>24.9</sup>
@@ -44,6 +62,10 @@ Markdown ドキュメントの読み込み時に下線書式設定を認識す�
 #### Markdown に保存するときにテーブルを HTML としてエクスポートする <sup>24.10</sup>
 
 ドキュメントを Markdown 形式で保存するときにテーブルを HTML としてエクスポートするオプションが、新しいパブリック プロパティ [export_as_html](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/export_as_html/) と列挙 [MarkdownExportAsHtml](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownexportashtml/) を追加することで実装されました。
+
+#### 更新された論理構造を使用してPDFをエクスポートする <sup>24.11</sup>
+
+PDFエクスポートは、テーブルタイトルプロパティをPDF論理構造要素のタイトルとして含めることで拡張されました。
 
 ### デジタル署名
 
@@ -59,12 +81,16 @@ Markdown ドキュメントの読み込み時に下線書式設定を認識す�
 * [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/#float_float_float_float_shapebaselist) メソッドを追加することで、個々の図形をグループ化する機能、図形をまとめてグループ化する機能、図形の両方を直接グループ化する機能、図形をグループ化する機能が導入されました。 <sup>24.10</sup>
 * TrueType cmap テーブルの Big5 エンコーディング処理が改善されました。 <sup>24.10</sup>
 * 古い台湾語フォントのサポートが強化されました。 <sup>24.10</sup>
+* 拡張ドキュメントプロパティにアクセスするために、読み取り専用プロパティが[BuiltInDocumentProperties](https://reference.aspose.com/words/python-net/aspose.words.properties/builtindocumentproperties/)クラスに追加されました。 <sup>24.11</sup>
+* ActiveXコントロールのキャプションの設定は、[Forms2OleControl.caption](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/caption/)プロパティに新しいパブリックセッターを追加することで有効になりました。 <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 [Aspose.Words for Python via .NET 24.9 リリースノート](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-9-release-notes/) について詳しくは、こちらをご覧ください。
 
 [Aspose.Words for Python via .NET 24.10 リリースノート](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-10-release-notes/) について詳しくは、こちらをご覧ください。
+
+[Aspose.Words for Python via .NET 24.11 リリースノート](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-11-release-notes/) について詳しくは、こちらをご覧ください。
 
 {{% /alert %}}
 

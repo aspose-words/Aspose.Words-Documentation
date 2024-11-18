@@ -4,18 +4,24 @@ second_title: Aspose.Words vir .NET
 articleTitle: Wat is nuut in Aspose.Words vir .NET
 linktitle: Wat is nuut in Aspose.Words vir .NET
 type: docs
-description: "Aspose.Words vir .NET brei en verbeter daagliks. Op hierdie bladsy kan jy leer oor die groot en interessantste kenmerke van die produk."
+description: "Aspose.Words vir .NET brei uit en verbeter daagliks. Op hierdie bladsy kan jy leer oor die groot en interessantste kenmerke van die produk."
 weight: 10
 url: /af/net/what-s-new-in-aspose-words-for-net/
 ---
 
 Hierdie bladsy beskryf die interessantste nuwe Aspose.Words funksies wat in onlangse vrystellings bekendgestel is.
 
-## Aspose.Words vir .NET 24.9, 24.10
+## Aspose.Words vir .NET 24.9, 24.10, 24.11
 
 Aspose.Words 24.9 stel group shape invoeging en StructuredDocumentTag invoeging via DocumentBuilder bekend, verbeter radiale kaartweergawe met grade, verbeter digitale handtekeninge met XAdES-EPES ondersteuning, voeg Markdown onderstreepherkenning by en bied toegang tot voetnoot/eindnoot skeiers.
 
 Aspose.Words 24.10 stel verbeterde ActiveX beheer ondersteuning met CommandButton skepping, nuwe vorm sigbaarheid beheer, die vermoë om group shapes, verbeterde Markdown uitvoer vir tabelle, grafiek formatering vir Pie en Doughnut kaarte, beter Big5 kodering hantering, en ondersteuning vir verouderde Taiwanese lettertipes.
+
+Aspose.Words 24.11 stel AI-aangedrewe dokumentopsomming, verbeterde weergawe opsies, verbeterde toegang tot dokument eienskappe en ActiveX beheer onderskrifte.
+
+### AI - aangedrewe Funksies <sup>24.11</sup>
+
+Ondersteuning vir dokumentopsomming met behulp van **OpenAI** en **Google** generatiewe taalmodelle is geïntegreer deur die [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) naamruimte by sy openbare lede te voeg.
 
 ### Rendering En Drukwerk
 
@@ -35,6 +41,18 @@ Die vermoë om CommandButton ActiveX kontroles te skep is bekendgestel deur die 
 
 Verskeie nuwe openbare eiendomme is bygevoeg om Pie en Doughnut kaarte te formateer.
 
+#### Beheer Die Weergawe van PDF Keuse Vorm Veld Grense <sup>24.11</sup>
+
+'n nuwe opsie om die weergawe van PDF keuse vorm veld grense te beheer is geïmplementeer deur die toevoeging van'n nuwe openbare opsie [RenderChoiceFormFieldBorder](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/renderchoiceformfieldborder/).
+
+#### Kry En Stel Formaatkodes Vir Grafiekdata In <sup>24.11</sup>
+
+Die vermoë om formaat kodes vir grafiek data te kry en te stel is bygevoeg deur die implementering van die [FormatCode](https://reference.aspose.com/words/net/aspose.words.drawing.charts/bubblesizecollection/formatcode/) eienskap in die [ChartXValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvaluecollection/), en [BubbleSizeCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/bubblesizecollection/) klasse.
+
+#### Gee Histogramkaarte met Bakkies en Etikette <sup>24.11</sup>
+
+Histogramkaartvertoning is verbeter deur'n spesifieke aantal bakkies en etikette toe te laat.
+
 ### Omskakeling, Laai En Stoor Van Dokumente
 
 #### Onderstreep Formatering wanneer Markdown Lêers Gelaai Word <sup>24.9</sup>
@@ -45,11 +63,15 @@ Die opsie om onderstreepte opmaak te herken wanneer Markdown dokumente gelaai wo
 
 'n opsie om tabelle as HTML uit te voer wanneer dokumente in Markdown formaat gestoor word, is geïmplementeer deur'n nuwe openbare eiendom [ExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/exportashtml/) en'n opsomming [MarkdownExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownexportashtml/) by te voeg.
 
+#### Uitvoer PDF met Opgedateerde Logiese Struktuur <sup>24.11</sup>
+
+PDF uitvoer is verbeter deur die insluiting van tabel titel eienskappe as PDF logiese struktuur element titels.
+
 ### Digitale Handtekeninge
 
-#### Teken Dokumente met XAdES - EPES <sup>24.9</sup>
+#### Teken Dokumente met XAdES-EPES <sup>24.9</sup>
 
-Die vermoë om dokumente met XAdES-EPES vlak XML-DSig handtekeninge te onderteken, is gebruik deur'n nuwe openbare eiendom [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions/xmldsiglevel/) en'n nuwe openbare opsomming [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/xmldsiglevel/) by te voeg.
+Die vermoë om dokumente met XAdES-EPES vlak XML-DSig handtekeninge te onderteken is gebruik deur'n nuwe openbare eiendom [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions/xmldsiglevel/) en'n nuwe openbare opsomming [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/xmldsiglevel/) by te voeg.
 
 ### Ander
 
@@ -59,12 +81,16 @@ Die vermoë om dokumente met XAdES-EPES vlak XML-DSig handtekeninge te onderteke
 * Die vermoë om individuele vorms, group shapes saam te groepeer en beide vorms en group shapes direk te groepeer, is ingestel deur die [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/#insertgroupshape_1) metode by te voeg. <sup>24.10</sup>
 * Big5 kodering hantering vir TrueType cmap tabelle is verbeter. <sup>24.10</sup>
 * Ondersteuning vir verouderde Taiwanese lettertipes is verbeter. <sup>24.10</sup>
+* Om toegang tot uitgebreide dokument eienskappe, lees-alleen eienskappe is bygevoeg om die [BuiltInDocumentProperties](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/) klas. <sup>24.11</sup>
+* Die opstel van onderskrifte vir ActiveX-beheer is geaktiveer deur'n nuwe openbare setter by die [Forms2OleControl.Caption](https://reference.aspose.com/words/net/aspose.words.drawing.ole/forms2olecontrol/caption/) eienskap te voeg. <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
-Kom meer te wete oor[ Aspose.Words vir .NET 24.9 Vrystellingnotas](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-9-release-notes/).
+Leer meer oor [Aspose.Words vir .NET 24.9 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-9-release-notes/).
 
-Kom meer te wete oor[ Aspose.Words vir .NET 24.10 Vrystellingnotas](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-10-release-notes/).
+Leer meer oor [Aspose.Words Vir .NET 24.10 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-10-release-notes/).
+
+Leer meer oor [Aspose.Words Vir .NET 24.11 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-11-release-notes/).
 
 {{% /alert %}}
 
@@ -158,19 +184,19 @@ Die vermoë om data-analise werkstrome te stroomlyn met verbeterde vergelyking f
 
 {{% alert color="primary" %}}
 
-Kom meer te wete oor[ Aspose.Words vir .NET 24.5 Vrystellingnotas](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-5-release-notes/).
+Leer meer oor [Aspose.Words vir .NET 24.5 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-5-release-notes/).
 
-Kom meer te wete oor[ Aspose.Words vir .NET 24.6 Vrystellingnotas](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-6-release-notes/).
+Leer meer oor [Aspose.Words vir .NET 24.6 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-6-release-notes/).
 
-Kom meer te wete oor[ Aspose.Words vir .NET 24.7 Vrystellingnotas](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-7-release-notes/).
+Leer meer oor [Aspose.Words vir .NET 24.7 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-7-release-notes/).
 
-Kom meer te wete oor[ Aspose.Words vir .NET 24.8 Vrystellingnotas](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-8-release-notes/).
+Leer meer oor [Aspose.Words vir .NET 24.8 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-8-release-notes/).
 
 {{% /alert %}}
 
 ## Aspose.Words vir .NET 24.1, 24.2, 24.3, 24.4
 
-Aspose.Words 24.1 verbeter die ervaring rondom die bestuur van stroke kleure, verbeter OLE voorwerpe en LINQ verslagdoening, sowel as'n nuwe `Bibliography Sources` openbare API bekend te stel.
+Aspose.Words 24.1 verbeter die ervaring rondom die bestuur van stroke kleure, verbeter OLE voorwerpe en LINQ verslagdoening, sowel as stel'n nuwe `Bibliography Sources` openbare API.
 
 Aspose.Words 24.2 uitgebreide Kaarte API, stylbestuur en LINQ opsies. Hierdie weergawe van Aspose.Words het ook die vermoë om SvgSaveOptions tydens weergawe te spesifiseer, meer buigsame beheer laai Markdown lêers, en werk met verwysing teks vir voetnotas en eindnotas.
 
@@ -180,7 +206,7 @@ Aspose.Words 24.4 verbeter stoorformate, sommige weergawes, sowel as verbeter we
 
 ### Ondersteunde Formate <sup>24.4</sup>
 
-Die moderne **WebP**-prentformaat word nou ondersteun in Aspose.Words vir .NET Raamwerk 4.6.2 en hoër. Jy kan nou WebP prente in dokumente lees en invoeg, asook prente in WebP-formaat stoor.
+Die moderne **WebP** beeldformaat word nou ondersteun in Aspose.Words vir .NET Framework 4.6.2 en hoër. Jy kan nou WebP beelde in dokumente lees en invoeg, asook beelde in WebP formaat stoor.
 
 Let asseblief daarop dat WebP tans slegs beskikbaar is in .NET Standard en .NET Framework v4.6.2 en hoër.
 
@@ -214,7 +240,7 @@ Die vermoë om leë lyne te bewaar wanneer Markdown lêers gelaai word, is bygev
 
 #### 'n Nuwe TIFF Leser / Skrywer <sup>24.3</sup>
 
-'n Nuwe TIFF leser/skrywer vir Aspose.Words vir .NET Standaard, .NET 6 en later is ontwikkel. Aspose.Words vir .NET 24.3 het ondersteuning bygevoeg vir die lees van TIFF beelde met JPEG en Ou JPEG kompressietipes, en het ook die kwaliteit van lees- en skryfbewerkings aansienlik verbeter.
+'n nuwe TIFF leser/skrywer vir Aspose.Words vir .NET Standard, .NET 6 en later is ontwikkel. Aspose.Words vir .NET 24.3 bygevoeg ondersteuning vir die lees van TIFF beelde met JPEG en Ou JPEG kompressie tipes, en ook aansienlik verbeter die gehalte van lees en skryf bedrywighede.
 
 ### Ander
 
@@ -229,13 +255,13 @@ Die vermoë om leë lyne te bewaar wanneer Markdown lêers gelaai word, is bygev
 
 {{% alert color="primary" %}}
 
-Kom meer te wete oor[ Aspose.Words vir .NET 24.1 Vrystellingnotas](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-1-release-notes/).
+Leer meer oor [Aspose.Words Vir .NET 24.1 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-1-release-notes/).
 
-Kom meer te wete oor[ Aspose.Words vir .NET 24.2 Vrystellingnotas](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-2-release-notes/).
+Leer meer oor [Aspose.Words vir .NET 24.2 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-2-release-notes/).
 
-Kom meer te wete oor[ Aspose.Words vir .NET 24.3 Vrystellingnotas](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-3-release-notes/).
+Leer meer oor [Aspose.Words Vir .NET 24.3 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-3-release-notes/).
 
-Kom meer te wete oor[ Aspose.Words vir .NET 24.4 Vrystellingnotas](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-4-release-notes/).
+Leer meer oor [Aspose.Words vir .NET 24.4 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-4-release-notes/).
 
 {{% /alert %}}
 
@@ -302,17 +328,17 @@ Die funksie om hiperskakels te herken wanneer TXT dokumente gelaai word, is geï
 * 'n manier om te beheer wanneer'n sekere hersiening aanvaar/verwerp moet word of nie, is geïmplementeer deur die [Accept](https://reference.aspose.com/words/net/aspose.words/revisioncollection/accept/) en [Reject](https://reference.aspose.com/words/net/aspose.words/revisioncollection/reject/) metodes te gebruik. Hierdie verbetering gee gebruikers fyner beheer oor die hersiening proses. <sup>23.11</sup>
 * Die vermoë om alle afdelings van'n dokument op dieselfde XLSX werkblad te skryf is verskaf deur die nuwe [XlsxSectionMode](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsectionmode/) opsomming tipe en die nuwe [SectionMode](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsaveoptions/sectionmode/) eienskap. <sup>23.11</sup>
 * 'n manier om te beheer hoe ZIP64 formaat uitbreidings gebruik sal word vir OOXML dokumente is geïmplementeer deur die nuwe Zip64Mode eienskap van die `OoxmlSaveOptions` klas en die nuwe Zip64Mode opsomming. <sup>23.12</sup>
-* Ondersteuning vir WebP beeld is ingestel. Let asseblief daarop dat hierdie funksie slegs beskikbaar is vir.NetStandart en .NET6 + weergawes. <sup>23.12</sup>
+* Ondersteuning vir WebP beeld is ingestel. Let asseblief daarop dat hierdie funksie slegs beskikbaar is vir.NetStandart en .NET6+ weergawes. <sup>23.12</sup>
 
 {{% alert color="primary" %}}
 
-Kom meer te wete oor[ Aspose.Words vir .NET 23.9 Vrystellingnotas](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-9-release-notes/).
+Leer meer oor [Aspose.Words vir .NET 23.9 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-9-release-notes/).
 
-Kom meer te wete oor[ Aspose.Words vir .NET 23.10 Vrystellingnotas](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-10-release-notes/).
+Leer meer oor [Aspose.Words Vir .NET 23.10 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-10-release-notes/).
 
-Kom meer te wete oor[ Aspose.Words vir .NET 23.11 Vrystellingnotas](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-11-release-notes/).
+Leer meer oor [Aspose.Words Vir .NET 23.11 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-11-release-notes/).
 
-Kom meer te wete oor[ Aspose.Words vir .NET 23.12 Vrystellingnotas](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-12-release-notes/).
+Leer meer oor [Aspose.Words Vir .NET 23.12 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-12-release-notes/).
 
 {{% /alert %}}
 
@@ -395,13 +421,13 @@ Nuwe LowCode metodes wat bedoel is om verskillende tipes dokumente saam te smelt
 
 {{% alert color="primary" %}}
 
-Kom meer te wete oor[ Aspose.Words vir .NET 23.5 Vrystellingnotas](/words/net/aspose-words-for-net-23-5-release-notes/).
+Leer meer oor [Aspose.Words vir .NET 23.5 Vrystelling Notas](/words/net/aspose-words-for-net-23-5-release-notes/).
 
-Kom meer te wete oor[ Aspose.Words vir .NET 23.6 Vrystellingnotas](/words/net/aspose-words-for-net-23-6-release-notes/).
+Leer meer oor [Aspose.Words vir .NET 23.6 Vrystelling Notas](/words/net/aspose-words-for-net-23-6-release-notes/).
 
-Kom meer te wete oor[ Aspose.Words vir .NET 23.7 Vrystellingnotas](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/).
+Leer meer oor [Aspose.Words vir .NET 23.7 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/).
 
-Kom meer te wete oor[ Aspose.Words vir .NET 23.8 Vrystellingnotas](/words/net/aspose-words-for-net-23-8-release-notes/).
+Leer meer oor [Aspose.Words vir .NET 23.8 Vrystelling Notas](/words/net/aspose-words-for-net-23-8-release-notes/).
 
 {{% /alert %}}
 
@@ -483,13 +509,13 @@ Die vermoë om te spesifiseer of om sin en woord spasiëring outomaties aan te p
 
 {{% alert color="primary" %}}
 
-Kom meer te wete oor[ Aspose.Words vir .NET 23.1 Vrystellingnotas](/words/net/aspose-words-for-net-23-1-release-notes/).
+Leer meer oor [Aspose.Words vir .NET 23.1 Vrystelling Notas](/words/net/aspose-words-for-net-23-1-release-notes/).
 
-Kom meer te wete oor[ Aspose.Words vir .NET 23.2 Vrystellingnotas](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-2-release-notes/).
+Leer meer oor [Aspose.Words vir .NET 23.2 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-2-release-notes/).
 
-Kom meer te wete oor[ Aspose.Words vir .NET 23.3 Vrystellingnotas](/words/net/aspose-words-for-net-23-3-release-notes/).
+Leer meer oor [Aspose.Words vir .NET 23.3 Vrystelling Notas](/words/net/aspose-words-for-net-23-3-release-notes/).
 
-Kom meer te wete oor[ Aspose.Words vir .NET 23.4 Vrystellingnotas](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-4-release-notes/).
+Leer meer oor [Aspose.Words Vir .NET 23.4 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-4-release-notes/).
 
 {{% /alert %}}
 
