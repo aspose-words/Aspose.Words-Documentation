@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++でのSmartArtコールドレンダリングの操作
 second_title: C++の場合Aspose.Words
 articleTitle: SmartArtコールドレンダリングの操作
@@ -7,6 +7,7 @@ type: docs
 description: "C++の場合Aspose.Words つまり、事前にレンダリングされたSmartArt図面が欠落しているか正しくない場合にSmartArtオブジェクトをレイアウトしてレンダリングします。"
 weight: 330
 url: /ja/cpp/working-with-smartart-cold-rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 SmartArtグラフィックスは、情報の視覚的表現を迅速かつ簡単に作成するために使用されます。 あなたは、単に最高のあなたの状況に合ったレイアウトの数が多いから選択します。 この使いやすさにより、SmartArtグラフィックはいくつかの目的で非常に人気があります。

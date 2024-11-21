@@ -8,6 +8,7 @@ type: docs
 weight: 50
 url: /net/convert-a-word-processing-document-from-docm-to-docx/
 aliases: [/net/convert-a-word-processing-document-from-the-docm-to-the-docx-file-format/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 On this page we will look at how to convert a document that contains VBA code and has a .docm extension to a .docx document. With this conversion, macros and vbaProject parts stored in a document in DOCM format will not be written to the DOCX.

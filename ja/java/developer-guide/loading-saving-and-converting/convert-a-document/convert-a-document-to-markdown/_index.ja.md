@@ -8,6 +8,7 @@ description: "サポートされているロードフォーマットでドキュ
 keywords: how to convert a document to markdown Java, save as MD, DOCX to MD
 weight: 33
 url: /ja/java/convert-a-document-to-markdown/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Markdown テキストをマークアップするために使用される一般的なフォーマットであり、HTML、PDF、DOCX、または他のフォーマットにさらに変換されます。 多くの開発者は、ドキュメントを書くためのこの形式を選択し、ブログの出版物の準備、プロジェクトの説明などを選択します。

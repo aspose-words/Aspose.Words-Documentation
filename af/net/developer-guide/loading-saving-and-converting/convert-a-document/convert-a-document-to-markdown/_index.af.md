@@ -1,4 +1,4 @@
-﻿---
+---
 title: Skakel'n Dokument om na Markdown in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Skakel'n Dokument om na Markdown
@@ -8,6 +8,7 @@ description: "Skakel'n dokument in enige ondersteun vrag formaat na Markdown en 
 keywords: how to convert a document to markdown c#
 weight: 40
 url: /af/net/convert-a-document-to-markdown/
+timestamp: 2024-07-10-08-10-45
 ---
 
 Markdown is'n gewilde formaat wat gebruik word om teks op te merk en dit verder om te skakel na HTML, PDF, DOCX, of ander formate. Baie ontwikkelaars kies hierdie formaat vir die skryf van dokumentasie, die voorbereiding van artikels vir publikasie op blogs, die beskrywing van projekte, ensovoorts.

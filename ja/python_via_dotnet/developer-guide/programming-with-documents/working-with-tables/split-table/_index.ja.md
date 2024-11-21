@@ -7,6 +7,7 @@ description: "Python での分割テーブル。 1 つのテーブルを 2 つ�
 type: docs
 weight: 100
 url: /ja/python-net/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words Document Object Model で表されるテーブルは独立した行とセルで構成されているため、テーブルを簡単に分割できます。

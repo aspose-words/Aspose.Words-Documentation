@@ -7,6 +7,7 @@ description: "C# 程式設計語言的條形碼形狀生成範例。"
 type: docs
 weight: 350
 url: /zh-hant/net/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/
+timestamp: 2024-09-05-11-07-10
 ---
 
 條碼是透過平行線或圖案的方式，以視覺方式呈現資料。 條碼在許多行業中廣泛使用，包括零售業、物流業、醫療保健業、銀行業等等。

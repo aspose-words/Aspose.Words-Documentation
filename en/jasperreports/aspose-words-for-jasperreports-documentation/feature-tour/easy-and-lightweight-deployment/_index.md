@@ -1,4 +1,4 @@
-﻿---
+---
 title: Easy and Lightweight Deployment
 second_title: Aspose.Words for JasperReports
 articleTitle: Easy and Lightweight Deployment
@@ -7,6 +7,7 @@ description: "Aspose.Words for JasperReports is provided as a single JAR file th
 type: docs
 weight: 40
 url: /jasperreports/easy-and-lightweight-deployment/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

@@ -7,6 +7,7 @@ description: "強化された Microsoft Word 機能のフォーマット、ス�
 type: docs
 weight: 110
 url: /ja/java/working-with-styles-and-themes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ザ・オブ・ザ・ [StyleCollection](https://reference.aspose.com/words/java/com.aspose.words/stylecollection/) クラスは組み込みの管理とユーザー定義の設定をスタイルに適用するために使われます。

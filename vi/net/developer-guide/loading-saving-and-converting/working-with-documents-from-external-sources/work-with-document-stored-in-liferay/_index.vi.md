@@ -7,6 +7,7 @@ description: "So sánh các tài liệu Word được chia sẻ trong Liferay b�
 type: docs
 weight: 20
 url: /vi/net/work-with-document-stored-in-liferay/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Cổng thông tin Liferay là một nền tảng phần mềm cổng thông tin doanh nghiệp nguồn mở được thiết kế để phát triển các cổng thông tin và trang web. Liferay cung cấp hệ thống quản lý tài liệu như một phần của nền tảng cổng thông tin, cho phép người dùng tạo, sắp xếp, lưu trữ và quản lý tài liệu theo cách cộng tác và hiệu quả. Chức năng quản lý tài liệu này thường được gọi là Thư viện tài liệu Liferay.

@@ -7,6 +7,7 @@ description: "Împărți tabel în C#. Cum să împărți o masă într-una dou�
 type: docs
 weight: 100
 url: /ro/net/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 O masă, reprezentată în Aspose.Words Document Object Model, este alcătuită din rânduri și celule independente, făcând ușor de împărțit o masă.

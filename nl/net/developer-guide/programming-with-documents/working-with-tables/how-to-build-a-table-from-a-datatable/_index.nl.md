@@ -7,6 +7,7 @@ description: "Voorbeeld van het invullen van documenttabel uit externe database 
 type: docs
 weight: 120
 url: /nl/net/how-to-build-a-table-from-a-datatable/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Vaak zal uw toepassing halen gegevens uit een database en opslaan in de vorm van een **DataTable**. U kunt deze gegevens eenvoudig als nieuwe tabel in uw document invoegen en snel formatteren toepassen op de hele tabel.

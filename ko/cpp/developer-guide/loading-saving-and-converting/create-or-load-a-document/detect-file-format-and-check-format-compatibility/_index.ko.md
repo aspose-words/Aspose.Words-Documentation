@@ -1,4 +1,4 @@
-﻿---
+---
 title: 파일 형식 감지 및 형식 호환성 확인
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 파일 형식 감지 및 형식 호환성 확인
@@ -7,6 +7,7 @@ description: "파일 형식 결정 C++ 당신은 파일의 실제 내용이 무�
 type: docs
 weight: 20
 url: /ko/cpp/detect-file-format-and-check-format-compatibility/
+timestamp: 2024-10-21-11-17-44
 ---
 
 파일 확장자가 파일의 내용이 적절하다는 것을 보장하지 않기 때문에 열기 전에 문서의 형식을 결정해야 하는 경우가 있습니다. 예를 들어,크리스탈 보고서는 종종 문서를 RTF 형식,하지만 그들에게 제공.문서 확장.

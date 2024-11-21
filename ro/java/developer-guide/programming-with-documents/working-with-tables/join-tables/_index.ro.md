@@ -1,4 +1,4 @@
-﻿---
+---
 title: Alăturați-vă tabelelor în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Alăturați-Vă Tabelelor
@@ -7,6 +7,7 @@ description: "Alăturați-vă tabelelor în Java. Manipulări avansate de masă,
 type: docs
 weight: 90
 url: /ro/java/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un tabel, reprezentat în modelul de obiect Document Aspose.Words, este alcătuit din rânduri și celule independente, facilitând unirea tabelelor.

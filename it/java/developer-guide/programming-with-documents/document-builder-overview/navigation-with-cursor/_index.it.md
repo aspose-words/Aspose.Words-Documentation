@@ -7,6 +7,7 @@ description: "Navigare tra diversi nodi all'interno di un documento, come un par
 type: docs
 weight: 5
 url: /it/java/navigation-with-cursor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Mentre si lavora con un documento, anche se è breve o lungo, è necessario navigare attraverso il documento. La navigazione con un cursore virtuale rappresenta la possibilità di navigare tra diversi nodi in un documento.

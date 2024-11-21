@@ -7,6 +7,7 @@ description: "Converteste un document la PDF cu opțiuni avansate folosind C#. C
 type: docs
 weight: 20
 url: /ro/net/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Formatul PDF este un format cu pagini fixe, foarte popular printre utilizatori și larg acceptat de diverse aplicații, deoarece un document PDF arată același pe orice dispozitiv. Din acest motiv, convertirea în PDF este o caracteristică importantă a Aspose.Words.

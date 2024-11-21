@@ -1,4 +1,4 @@
-﻿---
+---
 title: 产出中的生产者名称
 second_title: Aspose.Words为C++
 articleTitle: 输出文档中的生成器或生产者名称
@@ -7,6 +7,7 @@ description: "Aspose.Words为C++ 在文档中添加用于创建生成器的生�
 type: docs
 weight: 90
 url: /zh/cpp/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 你可以很容易地知道一个文档是否是通过使用 Aspose.Words为C++. 您还可以找到的版本号 Aspose.Words为C++ 这是用来创建一个特定的输出文档。 Aspose.Words直接将这些信息写入生成的文档中。

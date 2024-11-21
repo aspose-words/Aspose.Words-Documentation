@@ -1,4 +1,4 @@
-﻿---
+---
 title: Check Format in Ruby
 second_title: Aspose.Words for Java
 articleTitle: Check Format in Ruby
@@ -7,6 +7,7 @@ description: "Check file format using Ruby."
 type: docs
 weight: 10
 url: /java/check-format-in-ruby/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Aspose.Words - Check Format

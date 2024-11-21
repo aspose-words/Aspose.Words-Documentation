@@ -7,6 +7,7 @@ description: "Aspose.Words cho Java thực hiện người chơi Windows của r
 type: docs
 weight: 30
 url: /vi/java/handling-windows-metafiles/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Windows Metafile Format là định dạng tập tin hình ảnh có thể chứa cả đồ họa vector và raster. Định dạng này được dùng để lưu trữ dữ liệu đồ họa trong bộ nhớ hoặc trên các tập tin đĩa. Một tập tin siêu đề lưu trữ một danh sách các cuộc gọi chức năng trong Giao diện thiết bị đồ họa (GDI) Windows cần phải được thực hiện để hiển thị hình ảnh trên màn hình. Hệ thống giải thích và thực thi các lệnh trong bối cảnh hiển thị.

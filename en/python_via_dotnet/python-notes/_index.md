@@ -8,6 +8,7 @@ type: docs
 weight: 15
 url: /python-net/python-notes/
 aliases: [/python/python-notes/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words for Python via .NET is a wrapper of Aspose.Words for .NET, that is why the two products have almost the same set of features. Nevertheless, there are some nuances of work and differences in features and API, which are described on this page.

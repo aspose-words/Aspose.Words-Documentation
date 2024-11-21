@@ -7,6 +7,7 @@ description: "PDF を Excel に、XML を Excel に、DOCX を Excel C# に変�
 type: docs
 weight: 15
 url: /ja/net/convert-a-document-to-excel/
+timestamp: 2024-07-09-19-00-42
 ---
 
 ドキュメントをある形式から別の形式に変換することは、Aspose.Words の主力機能です。利用可能な [ロードフォーマット](https://reference.aspose.com/words/net/aspose.words/loadformat/) のドキュメントを XLSX 形式に変換することもできます。

@@ -7,6 +7,7 @@ description: "C# を使用したドキュメントの透かし操作。"
 type: docs
 weight: 340
 url: /ja/net/working-with-watermark/
+timestamp: 2024-05-02-11-51-44
 ---
 
 このトピックでは、Aspose.Words を使用してプログラムでウォーターマークを操作する方法について説明します。透かしは、文書内のテキストの背後に表示される背景画像です。ウォーターマークには、[Watermark](https://reference.aspose.com/words/net/aspose.words/watermark/) クラスで表されるテキストまたはイメージを含めることができます。

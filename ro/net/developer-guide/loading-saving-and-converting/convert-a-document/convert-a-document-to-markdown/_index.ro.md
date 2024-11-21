@@ -8,6 +8,7 @@ description: "Converti un document în orice format acceptat la Markdown și vic
 keywords: how to convert a document to markdown c#
 weight: 40
 url: /ro/net/convert-a-document-to-markdown/
+timestamp: 2024-07-10-08-10-45
 ---
 
 Markdown este un format popular utilizat pentru marcarea textului și transformarea ulterioară în HTML, PDF, DOCX sau alte formate. Mulți dezvoltatori aleg acest format pentru scrierea documentației, pregătirea articolelor de publicat pe bloguri, descrierea proiectelor și așa mai departe.

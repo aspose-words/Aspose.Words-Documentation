@@ -1,4 +1,4 @@
-﻿---
+---
 title: Spacing Factor and Scaling Factor
 second_title: Aspose.Words for Reporting Services
 articleTitle: Spacing Factor and Scaling Factor
@@ -7,6 +7,7 @@ description: "Spacing Factor and Scaling Factor settings of the Aspose.Words for
 type: docs
 weight: 40
 url: /reportingservices/spacing-factor-and-scaling-factor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

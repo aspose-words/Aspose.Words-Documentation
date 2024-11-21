@@ -7,6 +7,7 @@ description: "Seguimiento de cambios en el contenido y el formato hecho por uste
 type: docs
 weight: 270
 url: /es/java/track-changes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 La funcionalidad de los cambios de pista, también conocido como revisión, permite realizar un seguimiento de los cambios en el contenido y el formato realizados por usted u otros usuarios. Esta función de cambios de pista con Aspose.Words soporta cambios de pista Microsoft Word. Con esta funcionalidad, puede acceder a revisiones individuales en su documento y aplicar diferentes propiedades a ellos.

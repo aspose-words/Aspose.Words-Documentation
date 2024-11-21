@@ -7,6 +7,7 @@ description: "Python kullanarak metnin daha derli toplu düzenlenmesi için tire
 type: docs
 weight: 220
 url: /tr/python-net/working-with-hyphenation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bazen bir belgedeki metnin daha kompakt bir şekilde düzenlenmesi için tirelemenin kullanılması gerekebilir. Aynı zamanda, kelime tirelemenin özelliklerinin her dil için farklı olabileceğini anlamak önemlidir.

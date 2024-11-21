@@ -7,6 +7,7 @@ description: "Erstellen und Ändern der OLE-Einbettung in Ihrem Dokument mithilf
 type: docs
 weight: 360
 url: /de/java/working-with-ole-objects/
+timestamp: 2024-01-27-14-07-04
 ---
 
 OLE steht für "Object Linking and Embedding". Dies ist die Technologie, mit der Benutzer mit Dokumenten arbeiten können, die "Objekte" enthalten, die von Drittanbieter-Anwendungen erstellt oder bearbeitet werden. Das heißt, OLE erlaubt eine Anwendung, diese "Objekte" in eine andere Anwendung für die Bearbeitung zu exportieren und dann wieder mit einigen zusätzlichen Inhalten zu importieren.

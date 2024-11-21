@@ -7,6 +7,7 @@ description: "替换表格中的案文 Java。 。 。 。 从表格或单元格
 type: docs
 weight: 60
 url: /zh/java/extract-text-from-and-replace-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 如前几篇文章所述,一个表格通常包含纯文本,尽管其他内容如图像甚至其他表格可以放在表格单元格中.

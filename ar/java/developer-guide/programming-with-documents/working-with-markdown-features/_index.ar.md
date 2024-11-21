@@ -7,6 +7,7 @@ description: "كيفية التنفيذ Markdown المعالم Java. وتُمث
 type: docs
 weight: 420
 url: /ar/java/working-with-markdown-features/
+timestamp: 2024-01-31-14-23-37
 ---
 
 يناقش هذا الموضوع كيفية تنفيذ Markdown المعالم Aspose.Words. Markdown هي طريقة بسيطة لتشكيل نص سهل يمكن تحويله بسهولة إلى HTML. Aspose.Words تؤيد ما يلي: Markdown السمات:

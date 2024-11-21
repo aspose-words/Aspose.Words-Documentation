@@ -7,6 +7,7 @@ type: docs
 description: "مدیریت محتوای پیشرفته سند، چگونه برای ایجاد و دستکاری کنترل محتوا (Structured Document tags) با استفاده از برچسب ها Java..."
 weight: 390
 url: /fa/java/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
 In In In Microsoft Word, شما می توانید یک فرم را با شروع یک قالب ایجاد کنید و کنترل محتوا، از جمله چک باکس ها، جعبه های متنی، انتخاب کنندگان تاریخ و لیست های کشویی را اضافه کنید. In In In <span notrans="<span notrans=" Aspose.Words"=""></span>"> یک Tag سند ساختاری یا کنترل محتوا از هر سند بارگذاری شده در هر سند Aspose.Words به عنوان یک گره StructuredDocumentTag وارد می شود. برچسب های سند ساختاری (SDT یا کنترل محتوا) اجازه می دهد تا معانی تعریف شده مشتری و همچنین رفتار و ظاهر آن را در یک سند جاسازی کند.

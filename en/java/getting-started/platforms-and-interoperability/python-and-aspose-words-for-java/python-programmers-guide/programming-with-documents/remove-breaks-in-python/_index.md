@@ -1,4 +1,4 @@
-﻿---
+---
 title: Remove Breaks in Python
 second_title: Aspose.Words for Java
 articleTitle: Remove Breaks in Python
@@ -7,6 +7,7 @@ description: "Remove Breaks using Python."
 type: docs
 weight: 40
 url: /java/remove-breaks-in-python/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Remove Breaks

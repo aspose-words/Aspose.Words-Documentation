@@ -1,4 +1,4 @@
-﻿---
+---
 title: Manipularea fontului și probleme de performanță în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Manipularea fontului și probleme de performanță
@@ -7,6 +7,7 @@ description: "Aspose.Words pentru C++ folosește numele complet al fontului, num
 type: docs
 weight: 11
 url: /ro/cpp/font-manipulation-and-performance-issues/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Toate mecanismele de manipulare a fontului disponibile sunt conținute în clasa [FontSettings](https://reference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings). Această clasă este responsabilă pentru preluarea fonturilor în sursele de fonturi definite, precum și pentru procesul de substituire a fontului, așa cum este descris mai jos.

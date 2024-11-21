@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hiển Thị Hình Dạng Riêng biệt Với Tài liệu
 second_title: Aspose.Words cho C++
 articleTitle: Hiển Thị Hình Dạng Riêng biệt Với Tài liệu
@@ -7,6 +7,7 @@ description: "Trích xuất các đối tượng đồ họa khác nhau, chẳng
 type: docs
 weight: 40
 url: /vi/cpp/rendering-shapes-separately-from-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Khi xử lý tài liệu, một nhiệm vụ phổ biến là trích xuất tất cả các hình ảnh được tìm thấy trong tài liệu và xuất chúng ra vị trí bên ngoài. Nhiệm vụ này trở nên đơn giản với Aspose.Words API, đã cung cấp chức năng trích xuất và lưu dữ liệu hình ảnh. Tuy nhiên, đôi khi bạn có thể muốn trích xuất tương tự các loại nội dung đồ họa khác được thể hiện bằng một loại đối tượng vẽ khác, ví dụ: hộp văn bản chứa các đoạn văn, hình mũi tên và hình ảnh nhỏ. Không có cách đơn giản nào để hiển thị đối tượng này vì nó là sự kết hợp của các yếu tố nội dung riêng lẻ. Bạn cũng có thể gặp một trường hợp khi nội dung đã được nhóm lại với nhau thành đối tượng trông giống như một hình ảnh duy nhất.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Nâng cao Mail Merge Các tính năng trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Nâng cao Mail Merge Tính năng
@@ -8,6 +8,7 @@ description: "Aspose.Words cho C++ cung cấp một số nâng cao mail merge c�
 keywords: "use advanced mail merge features c++"
 weight: 50
 url: /vi/cpp/advanced-mail-merge-features/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words cung cấp một số bổ sung mail merge thuộc tính và phương pháp cho phép bạn thực hiện tùy biến hơn nữa của mail merge quá trình hoặc đơn giản mail merge hoặc mail merge với các khu vực.

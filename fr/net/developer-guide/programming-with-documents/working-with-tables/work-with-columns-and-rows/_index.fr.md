@@ -7,6 +7,7 @@ description: "Travailler avec des parties d'un tableau - lignes, colonnes et cel
 type: docs
 weight: 30
 url: /fr/net/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Pour mieux contrôler le fonctionnement des tableaux, découvrez comment manipuler les colonnes et les lignes.

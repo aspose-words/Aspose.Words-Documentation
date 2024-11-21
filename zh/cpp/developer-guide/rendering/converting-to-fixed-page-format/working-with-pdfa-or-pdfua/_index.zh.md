@@ -1,4 +1,4 @@
-﻿---
+---
 title: 使用PDF/A或PDF/UA
 second_title: Aspose.Words对于C++
 articleTitle: 使用PDF/A或PDF/UA
@@ -7,6 +7,7 @@ description: "转换为PDF/A-1, PDF/A-2, PDF/A-4 和PDF/UA使用C++。 转换为
 type: docs
 weight: 38
 url: /zh/cpp/working-with-pdfa-or-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 PDF/A和PDF/UA格式规定了与文档内容相关的几个要求，这些要求在从Word格式的文档自动转换为PDF期间无法满足。 这些要求应在转换前在Word文档中或转换后在PDF文档中进行验证和更正，以便生成完全符合PDF/A和PDF/UA的文档。

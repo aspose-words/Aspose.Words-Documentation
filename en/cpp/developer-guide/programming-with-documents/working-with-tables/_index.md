@@ -7,6 +7,7 @@ description: "How to work with tables in C++. Introducing to work with tables an
 type: docs
 weight: 190
 url: /cpp/working-with-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A **table** in a document is a great way to structure similar data. That is why tables are a common content formatting element and are supported by most formats in one form or another.

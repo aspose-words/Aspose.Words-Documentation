@@ -7,6 +7,7 @@ description: "Aspose.Words pentru .NET oferă planuri diferite de achiziție sau
 type: docs
 weight: 55
 url: /ro/net/licensing/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Uneori, pentru a studia sistemul mai bine, vrei să te scufunzi în cod cât mai repede posibil. Pentru a face acest lucru mai ușor Aspose.Words oferă diferite planuri pentru achiziție sau oferă o încercare gratuită și o licență temporară de 30 de zile pentru evaluare.

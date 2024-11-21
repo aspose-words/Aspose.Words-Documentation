@@ -7,6 +7,7 @@ type: docs
 description: "توفر فئة `Document` خصائص وأساليب متنوعة للمستندات باستخدام Python. يمكنك استخدام فئة `Document` كنقطة بداية لكل ما تريد تنفيذه باستخدام Aspose.Words لـ Python. يمكن حفظ كائن `Document` في ملف أو دفق وإرساله أيضًا إلى المتصفح."
 weight: 40
 url: /ar/python-net/working-with-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 تعتبر فئة [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) مركزية في Aspose.Words. وهو يمثل مستندًا ويوفر خصائص وأساليب متنوعة للمستند، مثل حفظ المستند أو حمايته. يمكنك استخدام فئة [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) كنقطة بداية لأي شيء تريد تنفيذه باستخدام Aspose.Words: قم بإنشاء مستند جديد من البداية، أو افتح قالبًا لـ mail merge، أو احصل على أجزاء مختلفة من المستند.

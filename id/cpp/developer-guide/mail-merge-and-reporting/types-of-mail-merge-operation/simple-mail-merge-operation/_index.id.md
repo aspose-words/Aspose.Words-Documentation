@@ -1,4 +1,4 @@
-﻿---
+---
 title: Operasi Mail Merge sederhana dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Operasi Mail Merge Sederhana
@@ -8,6 +8,7 @@ description: "Mail merge sederhana digunakan untuk mengisi kolom mail merge di d
 keywords: "how to execute mail merge c++"
 weight: 10
 url: /id/cpp/simple-mail-merge-operation/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Mail merge sederhana digunakan untuk mengisi kolom mail merge di dalam templat Anda dengan data yang diperlukan dari sumber data Anda (representasi tabel tunggal). Jadi ini mirip dengan mail merge klasik di Microsoft Word.

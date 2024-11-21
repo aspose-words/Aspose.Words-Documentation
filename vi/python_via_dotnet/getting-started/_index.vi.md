@@ -7,6 +7,7 @@ type: docs
 description: "Sử dụng phần giới thiệu này về các nguyên tắc cơ bản về Aspose.Words cho Python via .NET để bắt đầu nhận ra giá trị của Aspose.Words đối với doanh nghiệp của bạn."
 weight: 20
 url: /vi/python-net/getting-started/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Phần Bắt đầu này cung cấp phần giới thiệu về các nguyên tắc cơ bản của Aspose.Words. Đối với người dùng mới làm quen với Aspose.Words, đây là cách nhanh nhất để tìm hiểu các yêu cầu và khả năng cơ bản.

@@ -7,6 +7,7 @@ description: "제품 정보 Aspose.Words 제품정보 Java Word 또는 다른 �
 type: docs
 weight: 20
 url: /ko/java/convert-a-document-to-html-mhtml-or-epub/
+timestamp: 2024-10-21-08-52-03
 ---
 
 HTML 및 MHTML 플로우 레이아웃 형식의 문서도 매우 인기가 있으며 웹 플랫폼에서 사용할 수 있습니다. 그 이유를 들어, 문서를 HTML로 변환하고 MHTML은 중요한 기능입니다 Aspose.Words·

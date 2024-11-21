@@ -7,6 +7,7 @@ type: docs
 description: "Utilisez les classes Aspose.Words Document Object Model pour créer, modifier et gérer par programme des documents avec .NET à l'aide de C#. Travaillez avec les propriétés, les paramètres et le contenu des documents, ainsi qu'avec leur apparence grâce à la gestion des couleurs, des formes, des polices et d'autres graphiques."
 weight: 60
 url: /fr/net/programming-with-documents/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Cette section fournit des informations sur la façon de créer, modifier et gérer par programme des documents avec les classes Aspose.Words Document Object Model. Les articles de cette section décrivent un large éventail de tâches de manipulation de documents vous permettant de travailler avec les propriétés, les paramètres, le contenu et ses éléments du document.

@@ -7,6 +7,7 @@ description: "使用 Python 访问和管理文档中的样式和主题。"
 type: docs
 weight: 110
 url: /zh/python-net/working-with-styles-and-themes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [StyleCollection](https://reference.aspose.com/words/python-net/aspose.words/stylecollection/) 类用于管理内置样式并将用户定义的设置应用于样式。

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Chỉ Định Tùy chọn Lưu trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Chỉ Định Tùy Chọn Lưu
@@ -7,6 +7,7 @@ description: "Kiểm soát chính xác hơn quá trình lưu."
 type: docs
 weight: 10
 url: /vi/cpp/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Khi lưu tài liệu, bạn có thể đặt một số thuộc tính nâng cao. Aspose.Words cung cấp cho bạn lớp [SaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/), cho phép kiểm soát chính xác hơn quá trình lưu. Có quá tải của phương thức **Save** chấp nhận một đối tượng **SaveOptions** – nó phải là một đối tượng của một lớp có nguồn gốc từ lớp **SaveOptions**. Mỗi định dạng lưu có một lớp tương ứng chứa các tùy chọn lưu cho định dạng lưu này, ví dụ: có [PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/) để lưu sang định dạng PDF, [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions) để lưu sang định dạng Markdown hoặc [ImageSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/imagesaveoptions/) để lưu vào hình ảnh. Bài viết này cung cấp các ví dụ về làm việc với một số lớp tùy chọn có nguồn gốc từ **SaveOptions**.

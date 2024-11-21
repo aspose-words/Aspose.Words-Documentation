@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working With Styles in Jython
 second_title: Aspose.Words for Java
 articleTitle: Working With Styles in Jython
@@ -7,6 +7,7 @@ description: "Working With Styles in Documents using Jython."
 type: docs
 weight: 60
 url: /java/working-with-styles-in-jython/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Working With Styles

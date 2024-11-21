@@ -7,6 +7,7 @@ description: "チャート機能の紹介、チャートの作成と操作方法
 type: docs
 weight: 310
 url: /ja/java/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 新着記事 [insertChart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertChart-int-double-double) メソッドを追加 [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) クラス。 なので、簡単な列チャートをドキュメントに貼り付ける方法を見てみましょう。 **インサート チャート** メソッド。

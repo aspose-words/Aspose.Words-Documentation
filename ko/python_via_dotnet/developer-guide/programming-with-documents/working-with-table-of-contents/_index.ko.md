@@ -7,6 +7,7 @@ description: "Python를 이용하여 문서에 '목차'를 삽입하고 관리�
 type: docs
 weight: 170
 url: /ko/python-net/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 목차(TOC)가 포함된 문서로 작업하는 경우가 많습니다. Aspose.Words를 사용하면 자신만의 목차를 삽입하거나 단 몇 줄의 코드만으로 문서의 기존 목차를 완전히 다시 작성할 수 있습니다. 이 문서에서는 목차 필드를 사용하는 방법을 간략하게 설명하고 다음을 보여줍니다

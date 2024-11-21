@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hoe Om Voorbeelde Uit Te voer
 second_title: Aspose.Words vir Java
 articleTitle: Hoe Om Voorbeelde Uit Te voer
@@ -7,6 +7,7 @@ type: docs
 description: "Aflaai Aspose.Words vir Java voorbeelde van ons GitHub bewaarplek en leer hoe om hulle uit te voer om meer vertroud te raak met die Aspose.Words moontlikhede en funksies."
 weight: 130
 url: /af/java/how-to-run-the-examples/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aflaai van GitHub

@@ -7,6 +7,7 @@ description: "理解书签概念以及如何使用书签用于您的程序 Java�
 type: docs
 weight: 180
 url: /zh/java/working-with-bookmarks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 书签标识在 a Microsoft Word 记录您命名和识别的地址或碎片,供今后参考。 例如,您可能使用书签来识别您想要稍后修改的文本 。 与其在文档中滚动以定位文本,不如使用书签对话框来查看.

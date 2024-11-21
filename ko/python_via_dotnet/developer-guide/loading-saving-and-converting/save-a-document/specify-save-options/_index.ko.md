@@ -7,6 +7,7 @@ description: "Python를 사용하여 저장 프로세스를 보다 정확하게 
 type: docs
 weight: 10
 url: /ko/python-net/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 문서를 저장할 때 일부 고급 속성을 설정할 수 있습니다. Aspose.Words는 저장 프로세스를 보다 정밀하게 제어할 수 있는 [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) 클래스를 제공합니다. [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) 개체를 허용하는 [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) 메서드의 오버로드가 있습니다. 이는 [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) 클래스에서 파생된 클래스의 개체여야 합니다. 각 저장 형식에는 이 저장 형식에 대한 저장 옵션을 보유하는 해당 클래스가 있습니다. 예를 들어 PDF 형식으로 저장하기 위한 [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) 또는 이미지 저장을 위한 [ImageSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/)이 있습니다. 이 문서에서는 [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/)에서 파생된 일부 옵션 클래스를 사용하는 예를 제공합니다.

@@ -7,6 +7,7 @@ description: "Більш точно контролювати процес зав
 type: docs
 weight: 10
 url: /uk/net/specify-load-options/
+timestamp: 2024-07-09-19-00-42
 ---
 
 При завантаженні документа ви можете встановити додаткові властивості. Aspose.Words Ви з [LoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/) клас, який дозволяє більш точно контролювати процес завантаження. Деякі формати навантаження мають відповідний клас, який зберігає параметри навантаження для цього формату навантаження, наприклад, є [PdfLoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/pdfloadoptions/) для завантаження у формат PDF або [TxtLoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/) для завантаження до TXT. У статті наведено приклади роботи з опціями роботи **LoadOptions** клас.

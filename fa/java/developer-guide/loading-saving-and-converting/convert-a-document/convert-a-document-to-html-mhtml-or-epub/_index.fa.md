@@ -7,6 +7,7 @@ description: "استفاده از Aspose.Words برای Java تبدیل اسنا
 type: docs
 weight: 20
 url: /fa/java/convert-a-document-to-html-mhtml-or-epub/
+timestamp: 2024-10-21-08-52-03
 ---
 
 اسناد در فرمت های HTML و MHTML Flow-layout نیز بسیار محبوب هستند و می توانند در هر پلتفرم وب مورد استفاده قرار گیرند. به همین دلیل، تبدیل اسناد به HTML و MHTML یکی از ویژگی های مهم HTML است. Aspose.Words...

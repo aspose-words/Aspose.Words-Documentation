@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tổng quan về các trường trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Tổng Quan Về Lĩnh Vực
@@ -7,6 +7,7 @@ description: "Các trường tính năng chi tiết, mã trường và kết qu�
 type: docs
 weight: 10
 url: /vi/cpp/fields-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words là một thư viện lớp được thiết kế để xử lý phía máy chủ các tài liệu Microsoft Word và hỗ trợ các trường theo các cách sau:

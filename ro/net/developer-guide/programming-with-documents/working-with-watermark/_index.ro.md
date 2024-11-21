@@ -7,6 +7,7 @@ description: "Manipularea apei de document folosind C#."
 type: docs
 weight: 340
 url: /ro/net/working-with-watermark/
+timestamp: 2024-05-02-11-51-44
 ---
 
 Acest subiect discută despre cum să lucrezi programatic cu filigran folosind Aspose.Words. O filă de apă este o imagine de fundal care se afișează în spatele textului într-un document. Un filigran poate conține un text sau o imagine reprezentat de clasa [Watermark](https://reference.aspose.com/words/net/aspose.words/watermark/).

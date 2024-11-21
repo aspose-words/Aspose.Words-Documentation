@@ -7,6 +7,7 @@ description: "Головна Microsoft Word форматування функц�
 type: docs
 weight: 110
 url: /uk/net/working-with-styles-and-themes/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Про нас [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) клас використовується для управління вбудованими та застосувати користувацькі налаштування до стилів.

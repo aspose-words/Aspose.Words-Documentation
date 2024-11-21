@@ -1,4 +1,4 @@
-﻿---
+---
 title: 페이지 레이아웃 만들기 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 페이지 레이아웃 만들기
@@ -7,6 +7,7 @@ description: "페이지 레이아웃을 만드는 것은 비용이 많이 드는
 type: docs
 weight: 10
 url: /ko/cpp/creating-a-page-layout/
+timestamp: 2024-09-24-14-35-44
 ---
 
 페이지 레이아웃을 만드는 것은 속도와 메모리 측면에서 모두 비용이 많이 드는 절차가 될 수 있습니다. 이것은 여러 가지 이유 때문 입니다.:

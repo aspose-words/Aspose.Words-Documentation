@@ -7,6 +7,7 @@ description: "Aspose.Words お問い合わせ Java Office Add-ins と連携す�
 type: docs
 weight: 50
 url: /ja/java/work-with-office-add-ins/
+timestamp: 2024-01-27-14-07-04
 ---
 
 場合によっては、コードを実行して文書を変更するためのインタフェースコントロールへのアクセス権を与える場合があります。 Aspose.Words API 提供して下さい `WebExtensions` namespace は、Office Add-ins を表すために、XML 語彙を拡張する要素と属性をカスタマイズするために、さまざまなクラスを付与します。

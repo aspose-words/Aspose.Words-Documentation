@@ -7,6 +7,7 @@ description: "リンクされたテキストボックスの機能の紹介 Aspos
 type: docs
 weight: 250
 url: /ja/java/working-with-linked-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 インスタグラム Aspose.Words, お問い合わせ [TextBox](https://reference.aspose.com/words/java/com.aspose.words/textbox/) クラスは、図形の中にテキストの表示方法を指定するために使用されます。 親として名付けられたパブリックプロパティで、テキストボックスの親の形を取得して、顧客がリンクを見つけることを可能にします [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) リンクから **TextBox**お問い合わせ

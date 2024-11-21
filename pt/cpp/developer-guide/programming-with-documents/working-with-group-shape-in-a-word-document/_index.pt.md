@@ -1,4 +1,4 @@
-﻿---
+---
 title: Como adicionar Group Shape a um documento do Word
 second_title: Aspose.Words para C++
 articleTitle: Trabalhar com Group Shapes em documentos do Word
@@ -7,6 +7,7 @@ description: "Agrupando e desagrupando formas usando C++."
 type: docs
 weight: 290
 url: /pt/cpp/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Às vezes, você precisa adicionar um group shape em um documento do Word. Tal group shape consiste em múltiplas formas.

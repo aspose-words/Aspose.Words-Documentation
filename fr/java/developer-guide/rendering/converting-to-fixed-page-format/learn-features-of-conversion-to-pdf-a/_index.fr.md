@@ -7,6 +7,7 @@ description: "Convertir en PDF/A-1, PDF/A-2, PDF/A-4 et PDF/UA en utilisant Java
 type: docs
 weight: 25
 url: /fr/java/learn-features-of-conversion-to-pdf-a-pdf-ua/
+timestamp: 2024-01-31-14-23-37
 ---
 
 PDF est un format de page fixe qui est très populaire parmi les utilisateurs et est largement pris en charge par diverses applications, car un document PDF ressemble à n'importe quel appareil. Pour cette raison, la conversion en PDF est une caractéristique importante de Aspose.Words.

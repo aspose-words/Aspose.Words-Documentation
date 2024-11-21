@@ -1,4 +1,4 @@
-﻿---
+---
 title: Travailler avec des colonnes et des lignes en C++
 second_title: Aspose.Words pour C++
 articleTitle: Travailler avec des Colonnes et des Lignes
@@ -7,6 +7,7 @@ description: "Travailler avec des parties d'un tableau – lignes, colonnes et c
 type: docs
 weight: 30
 url: /fr/cpp/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Pour mieux contrôler le fonctionnement des tableaux, apprenez à manipuler les colonnes et les lignes.

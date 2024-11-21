@@ -7,6 +7,7 @@ description: "Naučte se, jak nahradit pole textem Java. Nahradit pole statický
 type: docs
 weight: 37
 url: /cs/java/replace-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Výměna polí je často nutná, pokud chcete uložit svůj dokument jako statickou kopii. Například při zasílání jako příloha v e-mailu. Převodní pole jako například `DATE` nebo `TIME` ke statickému textu umožní dokument zobrazit stejné datum, jako když byl odeslán. Také, v některých situacích, můžete potřebovat odstranit podmíněné `IF` pole z vašeho dokumentu a místo toho je nahradit nejnovějším textovým výsledkem. Například, převést výsledek `IF` pole statického textu, takže již nebude dynamicky měnit svou hodnotu při aktualizaci polí v dokumentu.

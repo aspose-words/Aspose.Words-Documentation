@@ -7,6 +7,7 @@ description: "Divisez un document en plusieurs fichiers à l'aide de Python. Uti
 type: docs
 weight: 90
 url: /fr/python-net/split-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 *Splitting* ou *diviser un document* est le processus consistant à diviser un document volumineux en un plus grand nombre de fichiers plus petits. Il existe plusieurs raisons de diviser un fichier. Par exemple, vous n’avez besoin que de quelques pages d’un document spécifique et non de la totalité. Ou, pour des raisons de confidentialité, vous souhaitez partager uniquement certaines parties d'un document avec d'autres. Avec la fonction de fractionnement, vous pouvez obtenir uniquement les parties requises du document et effectuer les actions nécessaires avec elles, par exemple annoter, enregistrer ou envoyer.

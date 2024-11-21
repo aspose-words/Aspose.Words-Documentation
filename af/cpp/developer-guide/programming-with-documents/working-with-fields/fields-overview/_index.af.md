@@ -1,4 +1,4 @@
-﻿---
+---
 title: Velde Oorsig in C++
 second_title: Aspose.Words vir C++
 articleTitle: Velde Oorsig
@@ -7,6 +7,7 @@ description: "Velde kenmerk in besonderhede, veldkodes en veldresultate verduide
 type: docs
 weight: 10
 url: /af/cpp/fields-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words is'n klas biblioteek ontwerp vir bediener-kant verwerking van Microsoft Word dokumente en ondersteun velde in die volgende maniere:

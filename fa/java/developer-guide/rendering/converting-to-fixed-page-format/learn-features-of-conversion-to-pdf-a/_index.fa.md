@@ -7,6 +7,7 @@ description: "تبدیل به PDF / A-1، PDF / A-2، PDF / A-4 و PDF /UA با 
 type: docs
 weight: 25
 url: /fa/java/learn-features-of-conversion-to-pdf-a-pdf-ua/
+timestamp: 2024-01-31-14-23-37
 ---
 
 PDF یک فرمت صفحه ثابت است که در میان کاربران بسیار محبوب است و به طور گسترده توسط برنامه های مختلف پشتیبانی می شود، زیرا یک سند PDF در هر دستگاه مشابه به نظر می رسد. به همین دلیل، تبدیل به PDF یک ویژگی مهم است. Aspose.Words...

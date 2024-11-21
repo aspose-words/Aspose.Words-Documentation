@@ -7,6 +7,7 @@ description: "Crittografa il tuo documento utilizzando algoritmi di crittografia
 type: docs
 weight: 20
 url: /it/net/encrypt-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 La crittografia è il processo che traduce il testo leggibile in sequenze di byte prive di significato in modo che possa essere letto solo dalla persona che possiede la chiave di decrittazione o il codice segreto. Questo processo svolge un ruolo importante nella protezione dei tuoi contenuti. Aiuta a codificare il contenuto, verificare l'origine di un documento, dimostrare che il contenuto non è stato modificato dopo l'invio e garantire che i dati del documento siano al sicuro.

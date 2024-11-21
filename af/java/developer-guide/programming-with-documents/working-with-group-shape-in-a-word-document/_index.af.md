@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hoe om Group Shape By'n Word-Dokument Te Voeg
 second_title: Aspose.Words vir Java
 articleTitle: Werk met Group Shapes in Word-Dokumente
@@ -7,6 +7,7 @@ description: "Groepering en ongroepering vorms met behulp van Java."
 type: docs
 weight: 290
 url: /af/java/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Soms moet jy'n group shape by'n Word-dokument voeg. So'n group shape bestaan uit verskeie vorms.

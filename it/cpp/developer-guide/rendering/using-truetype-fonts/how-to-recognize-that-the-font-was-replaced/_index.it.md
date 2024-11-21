@@ -1,4 +1,4 @@
-﻿---
+---
 title: Come riconoscere che il font è stato sostituito in C++
 second_title: Aspose.Words per C++
 articleTitle: Come riconoscere che il font è stato sostituito
@@ -7,6 +7,7 @@ description: "Se non sei sicuro del motivo per cui il layout di un documento è 
 type: docs
 weight: 13
 url: /it/cpp/how-to-recognize-that-the-font-was-replaced/
+timestamp: 2024-09-24-14-35-44
 ---
 
 A volte, potrebbe non essere chiaro il motivo per cui il layout del documento è cambiato o perché alcuni font non sembrano come previsto. In questi casi, i messaggi di avviso di sostituzione dei caratteri implementati dall'interfaccia IWarningCallback vengono in soccorso. Hanno il tipo di avviso [FontSubstitution](https://reference.aspose.com/words/cpp/aspose.words/warningtype/) e il formato di testo di descrizione standard, " Font '<OriginalFont>' non è stato trovato. Servendosi '<SubstitutionFont>' carattere invece. Motivo: <Reason>", con i seguenti motivi:

@@ -7,6 +7,7 @@ description: "ทำงานกับช่วงในเอกสารโด
 type: docs
 weight: 130
 url: /th/python-net/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

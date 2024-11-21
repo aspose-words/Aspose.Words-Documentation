@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu OfficeMath în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Lucrul cu OfficeMath
@@ -7,6 +7,7 @@ type: docs
 description: "Introducere în funcția Office Math în Aspose.Words pentru C++."
 weight: 320
 url: /ro/cpp/working-with-officemath/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Acum este și mai convenabil să lucrați cu obiecte de tip OfficeMath. În Aspose.Words, Clientul poate justifica cu ușurință și poate gestiona, de asemenea, dacă o ecuație este afișată în linie sau într-o linie separată. Mai mult, cu disponibilitatea **MathObjectType**; controale utile pot fi implementate prin utilizarea acestui obiect matricial.

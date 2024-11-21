@@ -7,6 +7,7 @@ description: "Convierta a PDF/A-1, PDF/A-2, PDF/A-4 y PDF/UA usando C#. Elija el
 type: docs
 weight: 25
 url: /es/net/learn-features-of-conversion-to-pdf-a-pdf-ua/
+timestamp: 2024-01-31-14-23-37
 ---
 
 PDF es un formato de página fija que es muy popular entre los usuarios y es ampliamente compatible con varias aplicaciones, ya que un documento PDF tiene el mismo aspecto en cualquier dispositivo. Por este motivo, la conversión a PDF es una característica importante de Aspose.Words.

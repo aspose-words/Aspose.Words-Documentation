@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Digitale Handtekeninge
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Werk Met Digitale Handtekeninge
@@ -7,6 +7,7 @@ description: "Teken dokumente digitaal en ontdek, tel, verifieer en verwyder bes
 type: docs
 weight: 40
 url: /af/python-net/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 'n digitale handtekening word gebruik om'n dokument te verifieer om vas te stel dat die sender van die dokument is wie hulle sê hulle is en dat die inhoud van die dokument nie gemanipuleer is nie.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cómo Encontrar Propiedades de Campo
 second_title: Aspose.Words para C++
 articleTitle: Buscar Propiedades de Campo
@@ -7,6 +7,7 @@ description: "Cómo encontrar algunas propiedades de campo como el código de ca
 type: docs
 weight: 25
 url: /es/cpp/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un campo que se inserta usando [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertfield/) devuelve un objeto [Field](https://reference.aspose.com/words/cpp/aspose.words.fields/field/). Esta es una clase de fachada que proporciona métodos útiles para encontrar rápidamente algunas propiedades de un campo.

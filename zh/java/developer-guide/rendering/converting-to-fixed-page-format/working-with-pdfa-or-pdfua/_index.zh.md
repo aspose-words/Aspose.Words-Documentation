@@ -7,6 +7,7 @@ description: "使用PDF/A-1、PDF/A-2、PDF/A-4和PDF/UA转换 Java。 。 。 �
 type: docs
 weight: 28
 url: /zh/java/working-with-pdfa-or-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 PDF/A和PDF/UA格式规定了与文件内容有关的若干要求,这些要求在从Word格式的文档自动转换为PDF时无法满足. 应在转换前在Word文件中或在转换后在PDF文件中核实和纠正这些要求,以便产生完全符合PDF/A和PDF/UA要求的文件。

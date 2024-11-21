@@ -7,6 +7,7 @@ type: docs
 description: "Document Object Model (DOM) เป็นการแสดงในความทรงจํา ของเอกสารคํา อ่าน, จัดการ, และแก้ไขเนื้อหาและรูปแบบเอกสารคําโดยใช้ Java."
 weight: 10
 url: /th/java/aspose-words-document-object-model/
+timestamp: 2024-01-27-14-07-04
 ---
 
 เดอะ Aspose.Words Document Object Model (DOM) เป็นการแสดงในความทรงจํา ของเอกสารคํา เดอะ Aspose.Words DOM เปิด โอกาส ให้ คุณ อ่าน, จัด การ, และ ปรับ เนื้อหา และ ปรับ ปรุง เอกสาร คํา.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: High Fidelity to the Report Design
 second_title: Aspose.Words for Reporting Services
 articleTitle: High Fidelity to the Report Design
@@ -7,6 +7,7 @@ description: "This page demonstrates high quality of the output documents produc
 type: docs
 weight: 50
 url: /reportingservices/high-fidelity-to-the-report-design/
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

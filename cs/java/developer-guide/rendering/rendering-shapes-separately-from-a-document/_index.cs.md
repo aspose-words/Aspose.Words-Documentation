@@ -7,6 +7,7 @@ description: "Extrahovat různé grafické objekty, jako jsou obrázky, textové
 type: docs
 weight: 40
 url: /cs/java/rendering-shapes-separately-from-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Při zpracování dokumentů je společným úkolem extrahovat všechny obrázky nalezené v dokumentu a exportovat je na vnější místo. Tento úkol se stává jednoduchý s Aspose.Words API, která již poskytuje funkci pro získávání a ukládání obrazových dat. Někdy však můžete chtít podobně extrahovat jiné typy grafického obsahu, které jsou reprezentovány jiným typem kreslícího objektu, například textový rámeček obsahující odstavce, tvary šipek a malý obraz. Neexistuje jednoduchý způsob vykreslování tohoto objektu, protože se jedná o kombinaci jednotlivých prvků obsahu. Můžete se také setkat s případem, kdy obsah byl seskupen do objektu, který vypadá jako jeden obrázek.

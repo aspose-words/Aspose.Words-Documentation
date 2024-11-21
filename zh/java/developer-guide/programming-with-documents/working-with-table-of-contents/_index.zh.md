@@ -7,6 +7,7 @@ description: "详细内容栏表. 如何创建和修改 `TOC` 使用 Java。 。
 type: docs
 weight: 170
 url: /zh/java/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 您通常会使用包含目录(TOC)的文件。 使用 Aspose.Words 您可以插入自己的目录,或者仅使用几行代码完全重建文档中现有的目录。

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lavorare con intestazioni e piè di pagina in C++
 second_title: Aspose.Words per C++
 articleTitle: Lavorare con intestazioni e piè di pagina
@@ -7,6 +7,7 @@ description: "Come manipolare intestazioni e piè di pagina usando C++."
 type: docs
 weight: 150
 url: /it/cpp/working-with-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words consente agli utenti di lavorare con intestazioni e piè di pagina in un documento. Un'intestazione è un testo posizionato nella parte superiore di una pagina e un piè di pagina è testo nella parte inferiore di una pagina. In genere, queste aree vengono utilizzate per inserire informazioni che devono essere ripetute su tutte o alcune pagine del documento, ad esempio numeri di pagina, data di creazione, informazioni sulla società e così via.

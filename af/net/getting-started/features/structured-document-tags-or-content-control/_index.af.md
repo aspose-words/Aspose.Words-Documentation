@@ -1,4 +1,4 @@
-﻿---
+---
 title: Gestruktureerde Dokument Etikette of Inhoud Beheer
 second_title: Aspose.Words vir .NET
 articleTitle: Gestruktureerde Dokument Etikette of Inhoud Beheer
@@ -7,6 +7,7 @@ description: "Werk Met Gestruktureerde Dokument Etikette of Inhoud Kontroles met
 type: docs
 weight: 50
 url: /af/net/structured-document-tags-or-content-control/
+timestamp: 2024-01-31-14-23-37
 ---
 
 

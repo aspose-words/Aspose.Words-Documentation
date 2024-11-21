@@ -7,6 +7,7 @@ type: docs
 description: "Clone un documento per ottenere la sua copia identica. Quando si crea una copia, i nodi e le proprietà del documento originale vengono clonati utilizzando Java."
 weight: 70
 url: /it/java/clone-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 La chiusura di un documento è il processo di creazione di una copia identica di un documento originale, che può migliorare le prestazioni e salvare da potenziali perdite di memoria.

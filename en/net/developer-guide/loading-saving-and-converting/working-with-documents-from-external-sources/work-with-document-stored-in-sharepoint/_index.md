@@ -7,6 +7,7 @@ description: "Convert Word shared in SharePoint to PDF using C#. Work with docum
 type: docs
 weight: 20
 url: /net/work-with-document-stored-in-sharepoint/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Microsoft SharePoint Online is a collection of web-based technologies that make it easy for organizations to store, share, and manage digital information. You can work with documents stored in the "Shared Documents" folder in SharePoint using our powerful Aspose.Words for .NET.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tabloya Genel Bakış
 second_title: Aspose.Words için C++
 articleTitle: Tabloya Genel Bakış
@@ -7,6 +7,7 @@ description: "Tablolarla ve bunların içindeki hücreler, satırlar, sütunlar 
 type: docs
 weight: 10
 url: /tr/cpp/table-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words, çeşitli biçimlerde (PDF, HTML, farklı Microsoft Word biçimler ve diğerleri) belgelerin sunucu tarafında işlenmesi için tasarlanmış bir sınıf kitaplığıdır ve tabloları aşağıdaki şekillerde destekler:

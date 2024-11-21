@@ -1,4 +1,4 @@
-﻿---
+---
 title: Convertire un documento in C++
 second_title: Aspose.Words per C++
 articleTitle: Convertire un documento
@@ -8,6 +8,7 @@ description: "Convertire facilmente i documenti da un formato all'altro utilizza
 keywords: "convert a document c++, convert documents from one format to another c++, convert to markdown c++, convert pdf to docx C++, convert docx to pdf C++, convert doc to pdf C++, convert a document Aspose for C++"
 weight: 30
 url: /it/cpp/convert-a-document/
+timestamp: 2024-09-25-11-08-55
 ---
 
 La capacità di convertire facilmente e in modo affidabile i documenti da un formato all'altro è una delle principali aree di funzionalità di Aspose.Words. Tale conversione non è altro che una combinazione di operazioni di caricamento e salvataggio.

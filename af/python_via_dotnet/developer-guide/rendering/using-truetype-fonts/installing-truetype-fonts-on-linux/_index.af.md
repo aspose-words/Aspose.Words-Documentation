@@ -1,4 +1,4 @@
-﻿---
+---
 title: Installeer TrueType Lettertipes op Linux
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Installeer TrueType Lettertipes op Linux
@@ -7,6 +7,7 @@ description: "Aspose.Words vir Python laat'n dokument wat met Microsoft Word op'
 type: docs
 weight: 20
 url: /af/python-net/installing-truetype-fonts-on-linux/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Dikwels sal jy Aspose.Words gebruik om DOC of DOCX dokumente om te skakel na PDF formaat. As jy dit op'n Linux masjien moet doen, sal hierdie onderwerp jou help om te leer hoe om te verseker dat Aspose.Words jou dokumente met die beste akkuraatheid weergee.

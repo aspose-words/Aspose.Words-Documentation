@@ -7,6 +7,7 @@ description: "บันทึกเอกสารของคุณเป็น
 type: docs
 weight: 30
 url: /th/python-net/supported-features-on-document-save/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words มีการรองรับการแปลงขั้นสูงที่สุดของรูปแบบการประมวลผลคำทั่วไป

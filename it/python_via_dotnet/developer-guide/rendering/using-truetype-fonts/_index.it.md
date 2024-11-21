@@ -7,6 +7,7 @@ description: "Aspose.Words per Python via .NET può trovare il carattere giusto 
 type: docs
 weight: 20
 url: /it/python-net/using-truetype-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Quando si lavora con i documenti, spesso è necessario utilizzare caratteri, stili e dimensioni diversi. I documenti possono contenere un numero qualsiasi di caratteri, che non sono necessariamente limitati ai caratteri installati nel sistema operativo. I font possono essere completamente diversi, come ad esempio font presi da altri sistemi operativi, acquistati o creati dagli utenti stessi.

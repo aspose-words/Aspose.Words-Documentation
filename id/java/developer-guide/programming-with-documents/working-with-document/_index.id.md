@@ -7,6 +7,7 @@ type: docs
 description: "Login `Document` kelas menyediakan berbagai sifat dokumen dan metode. Anda menggunakan `Document` kelas sebagai titik awal untuk apa pun yang ingin Anda lakukan dengan Aspose.Words Sitemap JavaSitemap Login `Document` objek dapat disimpan ke file atau aliran dan juga dikirim ke browser."
 weight: 40
 url: /id/java/working-with-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Login [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) kelas tengah Aspose.WordsSitemap Ini mewakili dokumen dan menyediakan berbagai sifat dokumen dan metode, seperti menyimpan atau melindungi dokumen. Anda menggunakan **Document** kelas sebagai titik awal untuk apa pun yang ingin Anda lakukan dengan Aspose.Words: buat dokumen baru dari awal, buka template untuk mail merge, atau mendapatkan bagian yang berbeda dari dokumen.

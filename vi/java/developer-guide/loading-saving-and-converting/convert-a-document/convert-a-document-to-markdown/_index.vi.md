@@ -8,6 +8,7 @@ description: "Chuyển đổi một tài liệu ở định dạng nào được
 keywords: how to convert a document to markdown Java, save as MD, DOCX to MD
 weight: 33
 url: /vi/java/convert-a-document-to-markdown/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Markdown là một định dạng phổ biến được sử dụng để đánh dấu văn bản và nó được chuyển đổi tiếp theo thành HTML, PDF, DOCX hoặc các định dạng khác. Nhiều nhà phát triển chọn định dạng này cho việc viết tài liệu, chuẩn bị bài viết để xuất bản trên blog, mô tả dự án,... và nhiều hơn nữa.

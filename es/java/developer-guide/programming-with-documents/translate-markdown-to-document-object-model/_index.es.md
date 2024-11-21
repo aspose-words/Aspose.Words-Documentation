@@ -7,6 +7,7 @@ type: docs
 description: "Tarnslate a Markdown documento a Document Object Model y atrás. Así que puede trabajar con complejo existente Markdown y programáticamente crear un Markdown documento desde cero usando Java."
 weight: 20
 url: /es/java/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Para leer, manipular y modificar programáticamente el contenido y formato de un documento, necesita traducirlo al documento Aspose.Words Document Object Model (G)DOM).

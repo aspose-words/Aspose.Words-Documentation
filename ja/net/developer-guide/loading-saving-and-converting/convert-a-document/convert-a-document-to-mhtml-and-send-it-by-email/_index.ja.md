@@ -7,6 +7,7 @@ description: "C# を使用して、ほぼすべての形式のドキュメント
 type: docs
 weight: 30
 url: /ja/net/convert-a-document-to-mhtml-and-send-it-by-email/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Aspose.Words は、あらゆるドキュメントを MHTML (Web Archive) 形式に変換できます。これにより、Aspose.Words と `Aspose.Email` を一緒に使用すると便利になります。 DOC、OOXML、RTF などのサポートされている形式で事前定義されたドキュメントを Aspose.Words にロードし、データを入力して、結果のドキュメントを MHTML として保存し、`Aspose.Email` を使用して電子メールで送信できます。

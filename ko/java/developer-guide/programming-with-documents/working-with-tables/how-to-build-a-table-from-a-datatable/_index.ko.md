@@ -7,6 +7,7 @@ description: "외부 데이터베이스에서 채우는 문서 테이블의 예 
 type: docs
 weight: 130
 url: /ko/java/how-to-build-a-table-from-a-datatable/
+timestamp: 2024-01-27-14-07-04
 ---
 
 귀하의 응용 프로그램은 데이터베이스에서 데이터를 끌어 놓고 데이터베이스 형태로 저장합니다. **DataTable**· 이 데이터를 새 테이블으로 삽입하고 전체 테이블에 빠르게 포맷 할 수 있습니다.

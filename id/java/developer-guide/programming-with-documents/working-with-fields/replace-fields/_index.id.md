@@ -7,6 +7,7 @@ description: "Pelajari cara mengganti kolom dengan teks dalam JavaSitemap Mengub
 type: docs
 weight: 37
 url: /id/java/replace-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bidang pengisian sering diperlukan ketika Anda ingin menyimpan dokumen Anda sebagai salinan statis. Sebagai contoh, ketika pengiriman sebagai lampiran dalam e-mail. Mengkonversi bidang seperti `DATE` Sitemap `TIME` untuk teks statis akan memungkinkan dokumen untuk menampilkan tanggal yang sama ketika dikirim. Juga, dalam beberapa situasi, Anda mungkin perlu menghapus kondisional `IF` kolom dari dokumen Anda dan gantinya dengan hasil teks terbaru. Misalnya, mengubah hasil dari `IF` kolom untuk teks statis sehingga tidak akan lagi secara dinamis mengubah nilainya ketika bidang dalam dokumen diperbarui.

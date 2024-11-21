@@ -7,6 +7,7 @@ description: "Udělejte si dokument pouze pro čtení tak, aby obsah mohl být k
 type: docs
 weight: 10
 url: /cs/net/open-a-document-read-only/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Někdy můžete mít dokument, který potřebuje recenzi, ale nechcete, aby recenzenti náhodně upravit svůj obsah. Aspose.Words umožňuje vám povolit pouze čtení vašeho dokumentu tak, aby obsah mohl být kopírován nebo čten, ale nebyl upraven. To zabrání odstranění nebo přidání obsahu do Vašeho dokumentu.

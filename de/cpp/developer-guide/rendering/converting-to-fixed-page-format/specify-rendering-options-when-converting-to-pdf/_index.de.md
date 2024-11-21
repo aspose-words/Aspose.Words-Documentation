@@ -1,4 +1,4 @@
-﻿---
+---
 title: Geben Sie die Renderoptionen beim Konvertieren in PDF an
 second_title: Aspose.Words für C++
 articleTitle: Geben Sie die Renderoptionen beim Konvertieren in PDF an
@@ -7,6 +7,7 @@ description: "Konvertieren Sie ein Dokument mit C++ in PDF mit erweiterten Optio
 type: docs
 weight: 30
 url: /de/cpp/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Das PDF -Format ist ein Festseitenformat, das bei Benutzern sehr beliebt ist und von verschiedenen Anwendungen weitgehend unterstützt wird, da ein PDF -Dokument auf jedem Gerät gleich aussieht. Aus diesem Grund ist die Konvertierung in PDF ein wichtiges Merkmal von Aspose.Words.

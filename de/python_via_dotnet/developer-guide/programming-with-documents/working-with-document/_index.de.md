@@ -7,6 +7,7 @@ type: docs
 description: "Die `Document`-Klasse stellt mithilfe von Python verschiedene Dokumenteigenschaften und -methoden bereit. Sie verwenden die `Document`-Klasse als Ausgangspunkt für alles, was Sie mit Aspose.Words für Python ausführen möchten. Das `Document`-Objekt kann in einer Datei oder einem Stream gespeichert und auch an einen Browser gesendet werden."
 weight: 40
 url: /de/python-net/working-with-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Die [Document](https://reference.aspose.com/words/python-net/aspose.words/document/)-Klasse ist zentral in Aspose.Words. Es stellt ein Dokument dar und stellt verschiedene Dokumenteigenschaften und -methoden bereit, beispielsweise das Speichern oder Schützen des Dokuments. Sie verwenden die [Document](https://reference.aspose.com/words/python-net/aspose.words/document/)-Klasse als Ausgangspunkt für alles, was Sie mit Aspose.Words tun möchten: ein neues Dokument von Grund auf erstellen, eine Vorlage für ein mail merge öffnen oder verschiedene Teile aus einem Dokument abrufen.

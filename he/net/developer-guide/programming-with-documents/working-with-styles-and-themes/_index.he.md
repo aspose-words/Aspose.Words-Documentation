@@ -7,6 +7,7 @@ description: "מתקדם Microsoft Word עיצוב תכונות, עבודה עם
 type: docs
 weight: 110
 url: /he/net/working-with-styles-and-themes/
+timestamp: 2024-10-24-11-44-28
 ---
 
 The The The [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) הכיתה משמשת לניהול הגדרות בנויות וליישם הגדרות מוגדרות למשתמש לסגנונות.

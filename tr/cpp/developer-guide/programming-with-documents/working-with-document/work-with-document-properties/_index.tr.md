@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içindeki Belge Özellikleriyle Çalışma
 second_title: Aspose.Words için C++
 articleTitle: Belge Özellikleriyle Çalışma
@@ -7,6 +7,7 @@ description: "Aspose.Words için C++ API ve Sürüm Numarası veya Yetkilendiril
 type: docs
 weight: 10
 url: /tr/cpp/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Belge özellikleri, belgenizle ilgili bazı yararlı bilgilerin depolanmasına izin verir. Bu özellikler iki gruba ayrılabilir:

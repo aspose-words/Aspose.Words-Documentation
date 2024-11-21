@@ -1,4 +1,4 @@
-﻿---
+---
 title: ทำงานกับสำนักงานเสริมในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: ทำงานกับสำนักงานเสริม
@@ -7,6 +7,7 @@ description: "Aspose.WordsสำหรับC++ ให้ชั้นเรี�
 type: docs
 weight: 50
 url: /th/cpp/work-with-office-add-ins/
+timestamp: 2024-01-27-14-07-04
 ---
 
 บางครั้งคุณอาจต้องการให้การเข้าถึงตัวควบคุมอินเทอร์เฟซที่รันโค้ดเพื่อแก้ไขเอกสาร Aspose.WordsAPIให้เนมสเปซ`WebExtensions`ซึ่งให้ชั้นเรียนต่างๆเพื่อปรับแต่งองค์ประกอบและแอตทริบิวต์ที่ขยายคำศัพท์XMLสำ.

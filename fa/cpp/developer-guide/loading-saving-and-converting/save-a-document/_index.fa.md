@@ -1,4 +1,4 @@
-﻿---
+---
 title: ذخیره یک سند در C++
 second_title: Aspose.Words برای C++
 articleTitle: ذخیره یک سند
@@ -8,6 +8,7 @@ description: "یک سند را در هر فرمت پشتیبانی شده با �
 keywords: "save a document c++, save a document to file c++, save a document to stream c++, save a document Aspose C++, save formats supported by Aspose.Words C++"
 weight: 20
 url: /fa/cpp/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 بیشتر کارهایی که باید با Aspose.Words انجام دهید شامل ذخیره یک سند است. برای ذخیره یک سند Aspose.Words روش [Save](https://reference.aspose.com/words/cpp/aspose.words/document/save/) کلاس [Document](https://reference.aspose.com/words/cpp/aspose.words/document/) را فراهم می کند. این سند را می توان در هر فرمت ذخیره ای که توسط Aspose.Words پشتیبانی می شود ذخیره کرد. برای لیست تمام فرمت های ذخیره شده پشتیبانی شده، به [SaveFormat](https://reference.aspose.com/words/cpp/aspose.words/saveformat/) enumeration مراجعه کنید.

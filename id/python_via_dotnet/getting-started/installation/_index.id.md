@@ -7,6 +7,7 @@ description: "Instal Aspose.Words untuk Python menggunakan alat Visual Studio se
 type: docs
 weight: 10
 url: /id/python-net/installation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Pastikan mesin Anda memenuhi [Persyaratan sistem](/words/id/python-net/system-requirements/) sebelum Anda mulai.

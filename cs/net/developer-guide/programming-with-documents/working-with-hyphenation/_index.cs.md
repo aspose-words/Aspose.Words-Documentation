@@ -7,6 +7,7 @@ description: "Použití pomlčky pro kompaktnější uspořádání textu pomoc�
 type: docs
 weight: 220
 url: /cs/net/working-with-hyphenation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Někdy je nutné použít pomlčku pro kompaktnější uspořádání textu v dokumentu. Zároveň je důležité pochopit, že specifika slovní pomlčky se mohou pro každý jazyk lišit.

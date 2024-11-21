@@ -7,6 +7,7 @@ type: docs
 description: "Convierta un documento a formato de imagen (JPG, PNG, etc.). Cree una vista previa del documento o cree un escaneo de documento para enviar una factura usando C#."
 weight: 43
 url: /es/net/convert-a-document-to-an-image/
+timestamp: 2024-07-09-19-00-42
 ---
 
 A veces es necesario obtener una imagen en lugar de documentos en otros formatos, como DOCX o PDF. Por ejemplo, necesita agregar una vista previa de cualquier página de documento a su sitio web o aplicación, o crear un "escaneo" de un documento para enviar una factura. Aquí es cuando es posible que necesites convertir un documento en cualquier [formato de carga soportado](https://reference.aspose.com/words/es/net/aspose.words/loadformat/) a una imagen, nuevamente, en cualquier [formato de guardado admitido](https://reference.aspose.com/words/es/net/aspose.words/saveformat/).

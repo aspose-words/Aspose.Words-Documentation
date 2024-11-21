@@ -1,4 +1,4 @@
-﻿---
+---
 title: 문서 편집 제한 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 문서 편집 제한
@@ -7,6 +7,7 @@ description: "다음을 사용하여 제한 유형을 설정하여 문서 편집
 type: docs
 weight: 30
 url: /ko/cpp/restrict-document-editing/
+timestamp: 2024-01-27-14-07-04
 ---
 
 때로는 문서를 편집 할 수있는 기능을 제한하고 특정 작업 만 허용해야 할 수도 있습니다. 이 기능은 다른 사람이 문서의 민감한 기밀 정보를 편집하지 못하도록 하는 데 유용할 수 있습니다.

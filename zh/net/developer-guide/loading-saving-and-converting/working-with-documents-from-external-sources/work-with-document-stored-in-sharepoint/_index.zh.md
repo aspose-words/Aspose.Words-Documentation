@@ -7,6 +7,7 @@ description: "使用 C# 将 SharePoint 中共享的 Word 转换为 PDF。处理�
 type: docs
 weight: 20
 url: /zh/net/work-with-document-stored-in-sharepoint/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Microsoft SharePoint Online 是基于 Web 的技术的集合，使组织可以轻松存储、共享和管理数字信息。您可以使用我们强大的 .NET Aspose.Words 来处理 SharePoint 中"共享文档"文件夹中存储的文档。

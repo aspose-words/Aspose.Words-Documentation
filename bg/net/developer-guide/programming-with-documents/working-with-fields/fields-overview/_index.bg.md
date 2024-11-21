@@ -7,6 +7,7 @@ description: "Полета в подробности, полеви кодове 
 type: docs
 weight: 10
 url: /bg/net/fields-overview/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words е библиотека клас, предназначена за обработка от страна на сървъра на Microsoft Word документи и поддържа полета по следните начини:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Menerapkan Pemformatan Khusus ke Bidang di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Menerapkan Pemformatan Khusus ke Bidang
@@ -7,6 +7,7 @@ description: "Format dan evaluasi hasil bidang menggunakan C++."
 type: docs
 weight: 40
 url: /id/cpp/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Terkadang pengguna perlu menerapkan pemformatan khusus ke bidang. Pada artikel ini, kita akan melihat beberapa contoh bagaimana hal ini dapat dilakukan.

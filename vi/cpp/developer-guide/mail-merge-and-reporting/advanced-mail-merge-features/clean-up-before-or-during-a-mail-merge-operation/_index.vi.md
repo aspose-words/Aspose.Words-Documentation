@@ -1,4 +1,4 @@
-﻿---
+---
 title: Dọn Dẹp Trước hoặc Trong một Mail Merge Hoạt động
 second_title: Aspose.Words cho C++
 articleTitle: Dọn Dẹp Trước hoặc Trong một Mail Merge Hoạt động
@@ -8,6 +8,7 @@ description: "Áp dụng các tùy chọn làm sạch và xóa khác nhau chẳn
 keywords: "cleanup options mail merge c#"
 weight: 10
 url: /vi/cpp/clean-up-before-or-during-mail-merge/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words cho phép bạn áp dụng các tùy chọn làm sạch và xóa khác nhau chẳng hạn như xóa các trường hợp nhất trước khi thực hiện mail merge hoạt động hoặc loại bỏ các khu vực không sử dụng trong một mail merge hoạt động. Phần này sẽ giải thích cách xóa các trường đã hợp nhất và cách thiết lập tùy chọn xóa.

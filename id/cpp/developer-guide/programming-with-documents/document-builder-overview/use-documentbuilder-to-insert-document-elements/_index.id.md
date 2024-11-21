@@ -1,4 +1,4 @@
-﻿---
+---
 title: Gunakan `DocumentBuilder` untuk Menyisipkan Elemen Dokumen
 second_title: Aspose.Words untuk C++
 articleTitle: Gunakan `DocumentBuilder` untuk Menyisipkan Elemen Dokumen
@@ -7,6 +7,7 @@ type: docs
 description: "Sisipkan elemen dokumen menggunakan pembuat dokumen di C++."
 weight: 80
 url: /id/cpp/use-documentbuilder-to-insert-document-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 `DocumentBuilder` digunakan untuk memodifikasi dokumen. Artikel ini menjelaskan dan menjelaskan cara melakukan sejumlah tugas:

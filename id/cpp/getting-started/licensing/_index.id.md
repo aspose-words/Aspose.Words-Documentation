@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lisensi dan Langganan
 second_title: Aspose.Words untuk C++
 articleTitle: Lisensi dan Langganan
@@ -7,6 +7,7 @@ description: "Aspose.Words for С++ menyediakan paket berbeda untuk pembelian at
 type: docs
 weight: 60
 url: /id/cpp/licensing/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Terkadang, untuk mempelajari sistem dengan lebih baik, Anda ingin mempelajari kodenya secepat mungkin. Untuk mempermudah ini, Aspose.Words menyediakan paket berbeda untuk pembelian atau menawarkan Uji Coba Gratis dan Lisensi Sementara 30 hari untuk evaluasi.

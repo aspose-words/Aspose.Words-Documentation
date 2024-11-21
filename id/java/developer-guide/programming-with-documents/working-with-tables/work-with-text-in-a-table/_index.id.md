@@ -7,6 +7,7 @@ description: "Ganti teks dalam tabel JavaSitemap Ekstrak Teks Biasa dari Tabel a
 type: docs
 weight: 60
 url: /id/java/extract-text-from-and-replace-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Seperti yang disebutkan dalam artikel sebelumnya, tabel biasanya mengandung teks biasa, meskipun konten lain seperti gambar atau bahkan tabel lain dapat ditempatkan dalam sel tabel.

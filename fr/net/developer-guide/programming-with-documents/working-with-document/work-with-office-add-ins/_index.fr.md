@@ -7,6 +7,7 @@ description: "Aspose.Words pour .NET propose diverses classes pour travailler av
 type: docs
 weight: 50
 url: /fr/net/work-with-office-add-ins/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Parfois, vous souhaiterez peut-être accorder l’accès aux contrôles d’interface qui exécutent du code pour modifier des documents. Aspose.Words API fournit l'espace de noms `WebExtensions`, qui accorde diverses classes pour personnaliser les éléments et les attributs étendant le vocabulaire XML pour représenter les compléments Office.

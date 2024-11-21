@@ -7,6 +7,7 @@ description: "How to use Aspose.Words for Java from Ruby."
 type: docs
 weight: 60
 url: /java/aspose-words-java-for-ruby/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Rjb - Ruby Java Bridge

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Membagi Dokumen dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Membagi Dokumen
@@ -7,6 +7,7 @@ description: "Membagi dokumen menjadi beberapa file menggunakan C++. Gunakan fit
 type: docs
 weight: 90
 url: /id/cpp/split-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 *Splitting* atau *split a document* adalah proses memecah dokumen besar menjadi lebih banyak file yang lebih kecil. Ada berbagai alasan untuk membagi file. Misalnya, Anda hanya memerlukan beberapa halaman dari dokumen tertentu dan bukan keseluruhan. Atau karena alasan privasi, Anda hanya ingin membagikan beberapa bagian dokumen dengan orang lain. Dengan fitur pemisahan, Anda hanya bisa mendapatkan bagian dokumen yang diperlukan dan melakukan tindakan yang diperlukan dengannya, misalnya, untuk menandai, menyimpan, atau mengirim.

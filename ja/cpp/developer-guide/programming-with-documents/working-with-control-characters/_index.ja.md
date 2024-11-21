@@ -1,4 +1,4 @@
-﻿---
+---
 title: 制御文字の操作
 second_title: C++の場合Aspose.Words
 articleTitle: 制御文字の操作
@@ -7,6 +7,7 @@ description: "での制御文字の操作の概要 C++の場合Aspose.Words."
 type: docs
 weight: 400
 url: /ja/cpp/working-with-control-characters/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word文書には、特別な意味を持つさまざまな文字を含めることができます。 通常、これらは書式設定の目的で使用され、通常モードでは描画されません。 標準ツールバーにある書式マークの表示/非表示ボタンをクリックすると、それらを表示することができます。

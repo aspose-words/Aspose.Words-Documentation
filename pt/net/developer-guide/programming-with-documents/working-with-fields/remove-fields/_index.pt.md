@@ -7,6 +7,7 @@ description: "Aprenda como remover campos em C#. Remova campos programaticamente
 type: docs
 weight: 35
 url: /pt/net/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Às vezes é necessário remover um campo de um documento. Isto pode ocorrer quando for necessário substituí-lo por um tipo de campo diferente ou quando o campo não for mais necessário no documento. Por exemplo, o campo `TOC` ao salvar em HTML.

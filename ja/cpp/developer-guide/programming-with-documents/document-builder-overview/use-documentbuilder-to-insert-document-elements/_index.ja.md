@@ -1,4 +1,4 @@
-﻿---
+---
 title: DocumentBuilder を使用して文書要素を挿入します
 second_title: C++の場合Aspose.Words
 articleTitle: DocumentBuilder を使用して文書要素を挿入します
@@ -7,6 +7,7 @@ type: docs
 description: "C++のドキュメントビルダーを使用してドキュメント要素を挿入します。"
 weight: 80
 url: /ja/cpp/use-documentbuilder-to-insert-document-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 `DocumentBuilder`は文書を変更するために使用されます。 この記事では、いくつかのタスクを実行する方法について説明します:

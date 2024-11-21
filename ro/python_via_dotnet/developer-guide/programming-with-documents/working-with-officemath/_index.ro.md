@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu OfficeMath în Python
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Lucrul cu OfficeMath
@@ -7,6 +7,7 @@ description: "Creați și gestionați OfficeMath tastați obiecte într-un docum
 type: docs
 weight: 320
 url: /ro/python-net/working-with-officemath/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Acum este și mai convenabil să lucrați cu obiecte de tip OfficeMath. În Aspose.Words, Clientul poate justifica cu ușurință și poate gestiona, de asemenea, dacă o ecuație este afișată în linie sau într-o linie separată. Mai mult, cu disponibilitatea [MathObjectType](https://reference.aspose.com/words/python-net/aspose.words.math/mathobjecttype/); controale utile pot fi implementate prin utilizarea acestui obiect matricial.

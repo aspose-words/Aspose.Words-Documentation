@@ -1,4 +1,4 @@
-﻿---
+---
 title: Erste Schritte
 second_title: Aspose.Words für C++
 articleTitle: Erste Schritte
@@ -7,6 +7,7 @@ type: docs
 description: "Verwenden Sie diese Einführung, um Aspose.Words für C++ grundlagen, um den Wert von Aspose.Words für Ihr Unternehmen zu erkennen."
 weight: 10
 url: /de/cpp/getting-started/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Diese Erste Schritte bieten eine Einführung in die Grundlagen von Aspose.Words. Für Benutzer, die neu bei Aspose.Words sind, ist dies der schnellste Weg, um die grundlegenden Anforderungen und Fähigkeiten zu erlernen.

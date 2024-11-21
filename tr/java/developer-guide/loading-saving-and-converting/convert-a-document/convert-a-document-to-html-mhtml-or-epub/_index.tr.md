@@ -7,6 +7,7 @@ description: "Aspose.Words için Java belgeleri Word veya desteklenen diğer bi�
 type: docs
 weight: 20
 url: /tr/java/convert-a-document-to-html-mhtml-or-epub/
+timestamp: 2024-10-21-08-52-03
 ---
 
 HTML ve MHTML akış düzenleri formatlarında belgeler de çok popülerdir ve herhangi bir web platformunda kullanılabilirler. Bu nedenle, belgeleri HTML ve MHTML'ye dönüştürmek Aspose.Words'ın önemli bir özelliğidir.

@@ -7,6 +7,7 @@ description: "Tạo và sửa đổi các loại biểu đồ khác nhau trong t
 type: docs
 weight: 310
 url: /vi/python-net/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Phương thức [insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/) mới đã được thêm vào lớp [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/). Vì vậy, hãy xem cách chèn biểu đồ cột đơn giản vào tài liệu bằng phương thức [DocumentBuilder.insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/):

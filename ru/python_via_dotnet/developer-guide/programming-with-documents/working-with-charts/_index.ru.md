@@ -7,6 +7,7 @@ description: "Создание и изменение диаграмм разли
 type: docs
 weight: 310
 url: /ru/python-net/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Новый [insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/) Метод был добавлен в [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) класс. Итак, давайте посмотрим, как вставить простую таблицу столбцов в документ с помощью [DocumentBuilder.insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/) метод:

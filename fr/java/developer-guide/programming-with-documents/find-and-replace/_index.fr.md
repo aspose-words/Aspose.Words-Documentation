@@ -7,6 +7,7 @@ type: docs
 description: "Trouvez une chaîne ou un motif d'expression régulière dans votre document et remplacez-le par le texte que vous voulez utiliser Java."
 weight: 100
 url: /fr/java/find-and-replace/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Vous pouvez facilement naviguer dans votre document à l'aide d'un clavier et d'une souris, mais si vous avez beaucoup de pages à défiler, il faudra un certain temps pour trouver un texte spécifique dans un document long. Il vous faudra plus de temps pour remplacer certains caractères ou mots que vous avez utilisés dans votre document. La fonctionnalité "Trouver et remplacer" vous permet de trouver une séquence de caractères dans un document et de le remplacer par une autre séquence de caractères.

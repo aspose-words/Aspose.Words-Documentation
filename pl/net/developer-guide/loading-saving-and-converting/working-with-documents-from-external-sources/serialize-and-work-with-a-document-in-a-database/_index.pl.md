@@ -7,6 +7,7 @@ description: "Konwertuj dokument na tablicę bajtów do pracy z tym dokumentem w
 type: docs
 weight: 10
 url: /pl/net/serialize-and-work-with-a-document-in-a-database/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Jednym z zadań, które możesz wykonać podczas pracy z dokumentami, jest przechowywanie i pobieranie obiektów **Document** do i z bazy danych. Na przykład byłoby to konieczne, jeśli wdrażasz dowolny rodzaj systemu zarządzania treścią. Wszystkie poprzednie wersje dokumentów muszą być przechowywane w systemie bazodanowym. Możliwość przechowywania dokumentów w bazie danych jest również niezwykle przydatna, gdy Twoja aplikacja udostępnia usługę internetową.

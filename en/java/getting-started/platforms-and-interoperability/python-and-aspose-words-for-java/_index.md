@@ -9,6 +9,7 @@ weight: 50
 url: /java/python-and-aspose-words-for-java/
 aliases:
   - /java/aspose-words-java-for-python/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Prerequisites

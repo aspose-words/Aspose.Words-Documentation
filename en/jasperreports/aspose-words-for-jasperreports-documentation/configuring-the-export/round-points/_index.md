@@ -1,4 +1,4 @@
-﻿---
+---
 title: Round Points
 second_title: Aspose.Words for JasperReports
 articleTitle: Round Points
@@ -7,6 +7,7 @@ description: "Aspose Words for JasperReports can try to round all the coordinate
 type: docs
 weight: 120
 url: /jasperreports/round-points/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

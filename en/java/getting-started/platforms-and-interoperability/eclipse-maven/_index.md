@@ -7,6 +7,7 @@ description: "Aspose.Words Java for Eclipse."
 type: docs
 weight: 100
 url: /java/aspose-words-java-for-eclipse-maven/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Eclipse IDE

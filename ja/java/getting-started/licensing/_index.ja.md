@@ -7,6 +7,7 @@ description: "Aspose.Words お問い合わせ Java ライセンスおよびサ�
 type: docs
 weight: 60
 url: /ja/java/licensing/
+timestamp: 2024-01-31-14-23-37
 ---
 
 時々、システムをより良く勉強するために、できるだけ速くコードに飛び込みたい。 これを簡単にするために、 Aspose.Words 購入または無料トライアルと30日間の暫定ライセンスを付与するためのさまざまなプランを提供しています。

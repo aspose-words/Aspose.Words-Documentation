@@ -7,6 +7,7 @@ description: "Recursos avançados de formatação Microsoft Word, trabalhando co
 type: docs
 weight: 110
 url: /pt/net/working-with-styles-and-themes/
+timestamp: 2024-10-24-11-44-28
 ---
 
 A classe [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) é usada para gerenciar configurações integradas e aplicar configurações definidas pelo usuário a estilos.

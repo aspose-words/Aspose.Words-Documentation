@@ -7,6 +7,7 @@ type: docs
 description: "Použijte tento úvod k Aspose.Words místo .NET základy pro zahájení realizace hodnoty Aspose.Words pro vaše podnikání."
 weight: 20
 url: /cs/net/getting-started/
+timestamp: 2024-09-25-11-08-55
 ---
 
 To začíná poskytuje úvod do Aspose.Words Základy. Pro uživatele nové Aspose.Words, To je nejrychlejší způsob, jak se naučit základní požadavky a schopnosti.

@@ -7,6 +7,7 @@ description: "Impostare le proprietà avanzate quando si carica un documento uti
 type: docs
 weight: 10
 url: /it/java/specify-load-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Quando si carica un documento, è possibile impostare alcune proprietà avanzate. Aspose.Words fornisce con il [LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/) classe, che consente un controllo più preciso del processo di carico. Alcuni formati di carico hanno una classe corrispondente che contiene opzioni di carico per questo formato di carico, ad esempio, c'è [PdfLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/) per il caricamento in formato PDF o [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) per il caricamento a TXT. Questo articolo fornisce esempi di lavoro con opzioni di **LoadOptions** classe.

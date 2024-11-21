@@ -7,6 +7,7 @@ description: "Learn how to enable inline syntax error message into the template 
 type: docs
 weight: 80
 url: /net/inlining-syntax-error-messages-into-templates/
+timestamp: 2024-10-21-11-17-44
 ---
 
 By default, LINQ Reporting Engine throws an exception when encounters a template syntax error. Such an exception provides information on a reason of the error and specifies a tag or expression part where the error is encountered. In most cases, this information is enough to find a place in a template causing the error and fix it.

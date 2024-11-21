@@ -7,6 +7,7 @@ description: "Продвинутый Microsoft Word Функции формат�
 type: docs
 weight: 110
 url: /ru/net/working-with-styles-and-themes/
+timestamp: 2024-10-24-11-44-28
 ---
 
 The [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) Класс используется для управления встроенными и применения пользовательских настроек к стилям.

@@ -7,6 +7,7 @@ description: "ویژگی های مختلف حقیقت واقعی منابع فو
 type: docs
 weight: 30
 url: /fa/java/specify-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 این موضوع رفتار پیش فرض را توصیف می کند Aspose.Words هنگامی که به دنبال فونت های TrueType، از جمله تفاوت های سیستم عامل، و نشان می دهد که چگونه برای مشخص کردن منابع فونت کاربر.

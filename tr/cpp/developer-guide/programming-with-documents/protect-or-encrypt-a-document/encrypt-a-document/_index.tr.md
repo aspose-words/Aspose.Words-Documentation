@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bir Belgeyi C++ içinde Şifreleyin
 second_title: Aspose.Words için C++
 articleTitle: Bir Belgeyi Şifrele
@@ -7,6 +7,7 @@ description: "Belirli belge biçimleri için uygun şifreleme algoritmalarını 
 type: docs
 weight: 20
 url: /tr/cpp/encrypt-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Şifreleme, okunabilir metni anlamsız bayt dizilerine çeviren işlemdir, böylece yalnızca şifre çözme anahtarı veya gizli kodu olan kişi tarafından okunabilir. Bu süreç, içeriğinizin güvenliğini sağlamada önemli bir rol oynar. İçeriği kodlamaya, belgenin kaynağını doğrulamaya, içeriğin gönderildikten sonra değiştirilmediğini kanıtlamaya ve belgedeki verilerin güvende olduğundan emin olmaya yardımcı olur.

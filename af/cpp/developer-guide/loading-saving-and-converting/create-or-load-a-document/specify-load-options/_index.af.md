@@ -1,4 +1,4 @@
-﻿---
+---
 title: Spesifiseer Laadkeuses in C++
 second_title: Aspose.Words vir C++
 articleTitle: Spesifiseer Laai Opsies
@@ -7,6 +7,7 @@ description: "Beheer die lasproses meer akkuraat."
 type: docs
 weight: 10
 url: /af/cpp/specify-load-options/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Wanneer jy'n dokument laai, kan jy'n paar gevorderde eienskappe stel. Aspose.Words bied u die [LoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/loadoptions/) klas, wat meer presiese beheer van die lasproses moontlik maak. Sommige laai formate het'n ooreenstemmende klas wat laai opsies vir hierdie laai formaat hou, byvoorbeeld, daar is [PdfLoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/pdfloadoptions/) vir laai na PDF formaat of [TxtLoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/txtloadoptions/) vir laai na TXT. Hierdie artikel bied voorbeelde van die werk met opsies van die **LoadOptions** klas.

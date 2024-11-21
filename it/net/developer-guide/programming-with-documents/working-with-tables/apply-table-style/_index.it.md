@@ -7,6 +7,7 @@ description: "Formattazione avanzata delle tabelle C#. Crea uno stile di tabella
 type: docs
 weight: 80
 url: /it/net/working-with-tablestyle/
+timestamp: 2024-02-02-12-07-36
 ---
 
 Uno stile di tabella definisce un insieme di formattazione che può essere facilmente applicato a una tabella. La formattazione come i bordi, l'ombreggiatura, l'allineamento e il carattere possono essere impostati in uno stile di tabella e applicati a molte tabelle per un aspetto coerente.

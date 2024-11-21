@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk met OfficeMath in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Werk met OfficeMath
@@ -7,6 +7,7 @@ description: "Inleiding Tot Kantoor Wiskunde funksie in Aspose.Words vir .NET."
 type: docs
 weight: 320
 url: /af/net/working-with-officemath/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Nou is dit selfs meer gerieflik om te werk met OfficeMath Tipe Voorwerpe. In Aspose.Words kan die kliënt maklik Regverdig en kan ook bestuur of'n vergelyking inlyn of in'n aparte lyn vertoon word. Meer so, met die beskikbaarheid van **MathObjectType**; nuttige kontroles kan geïmplementeer word deur hierdie matriks voorwerp te gebruik.

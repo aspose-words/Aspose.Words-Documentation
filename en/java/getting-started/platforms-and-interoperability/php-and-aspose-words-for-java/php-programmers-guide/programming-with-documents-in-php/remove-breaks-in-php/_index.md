@@ -1,4 +1,4 @@
-﻿---
+---
 title: Remove Breaks in PHP
 second_title: Aspose.Words for Java
 articleTitle: Remove Breaks in PHP
@@ -7,6 +7,7 @@ description: "Remove Breaks using PHP."
 type: docs
 weight: 35
 url: /java/remove-breaks-in-php/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Remove Breaks

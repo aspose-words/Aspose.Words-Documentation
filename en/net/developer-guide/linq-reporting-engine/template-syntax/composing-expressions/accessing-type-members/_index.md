@@ -7,6 +7,7 @@ description: "Access public (static and instance) members of accessible types in
 type: docs
 weight: 30
 url: /net/accessing-type-members-linq/
+timestamp: 2024-02-16-10-54-23
 ---
 
 LINQ Reporting Engine enables you to access the following public (static and instance) members of accessible types (see “Working with Types” for more information) in template expressions:

@@ -7,6 +7,7 @@ description: "Insérez des notes de fond ou des notes de fin dans un document et
 type: docs
 weight: 160
 url: /fr/python-net/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words fournit également des classes, méthodes et propriétés pour travailler avec des notes de bas de page et des notes de fin.

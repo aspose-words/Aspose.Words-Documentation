@@ -8,6 +8,7 @@ description: "Use a variety of data sources when performing a mail merge operati
 keywords: "mail merge xml data source c#"
 weight: 30
 url: /net/mail-merge-with-xml-data-source/
+timestamp: 2024-07-11-08-07-06
 ---
 
 You can use a variety of data sources when performing a mail merge operation, including an XML file. The main advantage of using XML is the ability to define a hierarchy right in the document and then simply pass it to Aspose.Words.

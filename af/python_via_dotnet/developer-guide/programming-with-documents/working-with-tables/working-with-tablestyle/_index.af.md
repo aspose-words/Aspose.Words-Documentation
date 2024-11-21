@@ -1,4 +1,4 @@
-﻿---
+---
 title: Verander Tabel Styl in Python
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Pas Tabelstyl Toe
@@ -7,6 +7,7 @@ description: "Gevorderde tabel formatering C#. Skep'n tabelstyl met Python. Pas 
 type: docs
 weight: 80
 url: /af/python-net/working-with-tablestyle/
+timestamp: 2024-01-27-14-07-04
 ---
 
 'n tabel styl definieer'n stel van formatering wat maklik toegepas kan word om'n tabel. Formatering soos grense, skadu, uitlijning en lettertipe kan in'n tabelstyl gestel word en op baie tabelle toegepas word vir'n konsekwente voorkoms.

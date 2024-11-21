@@ -7,6 +7,7 @@ description: "Confronta due documenti in qualsiasi formato supportato e mostra l
 type: docs
 weight: 60
 url: /it/python-net/compare-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Il confronto dei documenti è un processo che identifica le modifiche tra due documenti e contiene le modifiche come revisioni. Questo processo confronta due documenti qualsiasi, comprese le versioni di un documento specifico, quindi le modifiche tra entrambi i documenti verranno visualizzate come revisioni nel primo documento.

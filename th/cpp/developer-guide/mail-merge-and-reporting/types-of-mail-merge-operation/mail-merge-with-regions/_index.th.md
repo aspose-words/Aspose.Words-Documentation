@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge กับภูมิภาคใน C++
 second_title: Aspose.Words สำหรับ C++
 articleTitle: Mail Merge กับภูมิภาค
@@ -8,6 +8,7 @@ description: "สร้างภูมิภาคต่างๆในเทม
 keywords: "how to execute mail merge c++"
 weight: 20
 url: /th/cpp/mail-merge-with-regions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 คุณสามารถสร้างภูมิภาคต่างๆในเทมเพลตของคุณเพื่อให้มีพื้นที่พิเศษที่คุณสามารถกรอกข้อมู ใช้ mail merge ด้วยพื้นที่หากคุณต้องการแทรกตารางแถวที่มีข้อมูลซ้ำเพื่อให้เอกสารของคุณเติบโตแบบได.

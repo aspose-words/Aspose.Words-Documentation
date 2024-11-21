@@ -7,6 +7,7 @@ description: "Aspose.Words für Java ermöglicht die Speicherung einiger nützli
 type: docs
 weight: 10
 url: /de/java/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Dokumenteneigenschaften ermöglichen es, einige nützliche Informationen über Ihr Dokument zu speichern. Diese Eigenschaften können in zwei Gruppen unterteilt werden:

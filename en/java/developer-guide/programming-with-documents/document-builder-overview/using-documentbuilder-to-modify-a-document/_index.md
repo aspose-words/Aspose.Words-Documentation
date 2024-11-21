@@ -7,6 +7,7 @@ type: docs
 description: "Use the document builder to modify a document easily in Java."
 weight: 20
 url: /java/using-documentbuilder-to-modify-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Specifying Formatting

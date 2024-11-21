@@ -1,4 +1,4 @@
-﻿---
+---
 title: Prezentare generală a câmpurilor în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Prezentare Generală A Câmpurilor
@@ -7,6 +7,7 @@ description: "Câmpurile sunt prezentate în detalii, coduri de câmp și rezult
 type: docs
 weight: 10
 url: /ro/cpp/fields-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words este o bibliotecă de clase concepută pentru procesarea pe partea de server a documentelor Microsoft Word și acceptă câmpuri în următoarele moduri:

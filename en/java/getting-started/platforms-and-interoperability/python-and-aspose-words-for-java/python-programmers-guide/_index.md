@@ -10,6 +10,7 @@ url: /java/python-programmers-guide/
 aliases: 
 - /java/mail-merge-and-reporting-in-python/
 - /java/loading-and-saving-in-python/
+timestamp: 2024-01-27-14-07-04
 ---
 
 This section shows different examples of Aspose.Words Java Apis in Python using JPype.

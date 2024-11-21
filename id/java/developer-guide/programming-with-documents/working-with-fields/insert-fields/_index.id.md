@@ -7,6 +7,7 @@ description: "Cara yang berbeda untuk memasukkan kolom ke dalam dokumen Anda men
 type: docs
 weight: 20
 url: /id/java/insert-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ada beberapa cara yang berbeda untuk memasukkan kolom ke dalam dokumen:

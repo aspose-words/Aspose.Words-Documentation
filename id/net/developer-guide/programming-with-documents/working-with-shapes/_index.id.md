@@ -7,6 +7,7 @@ description: "Pengenalan bahasa markup bentuk, membuat berbagai jenis bentuk men
 type: docs
 weight: 280
 url: /id/net/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Topik ini membahas cara bekerja secara terprogram dengan bentuk menggunakan Aspose.Words.

@@ -7,6 +7,7 @@ description: "Learn how to set up external types using LINQ in C#."
 type: docs
 weight: 50
 url: /net/setting-up-known-external-types/
+timestamp: 2024-01-27-14-07-04
 ---
 
 LINQ Reporting Engine must be aware of custom external types that you reference in your template before the engine processes the template. You can set up external types known by the engine through the `ReportingEngine.KnownTypes` property. The property represents an unordered set (that is, a collection of unique items) of [Type](https://docs.microsoft.com/en-us/dotnet/api/system.type?view=net-6.0) objects. Every type in the set must meet requirements declared at “Working with Types”.

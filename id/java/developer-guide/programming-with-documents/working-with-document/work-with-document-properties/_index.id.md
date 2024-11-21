@@ -7,6 +7,7 @@ description: "Aspose.Words Sitemap Java memungkinkan menyimpan beberapa informas
 type: docs
 weight: 10
 url: /id/java/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Sifat dokumen memungkinkan menyimpan beberapa informasi yang berguna tentang dokumen Anda. Sifat-sifat ini dapat dibagi menjadi dua kelompok:

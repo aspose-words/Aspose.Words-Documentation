@@ -7,6 +7,7 @@ description: "نسق الجدول بالتفاصيل استخدام Java لتش�
 type: docs
 weight: 70
 url: /ar/java/applying-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ويمكن تطبيق كل عنصر من عناصر الجدول بصيغة مختلفة. For example, table formatting will be applied to the entire table, row formatting to only particular rows, cell formatting to only certain cells.

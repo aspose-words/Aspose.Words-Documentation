@@ -1,4 +1,4 @@
-﻿---
+---
 title: 필드 제거 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 필드 제거
@@ -7,6 +7,7 @@ description: "필드 제거 방법 알아보기 C++. 다음을 사용하여 프�
 type: docs
 weight: 35
 url: /ko/cpp/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 때때로 문서에서 필드를 제거해야 합니다. 다른 필드 유형으로 대체해야 하거나 문서에서 필드가 더 이상 필요하지 않을 때 이 문제가 발생할 수 있습니다. 예를 들어 `TOC` 에 저장할 때 필드 HTML.

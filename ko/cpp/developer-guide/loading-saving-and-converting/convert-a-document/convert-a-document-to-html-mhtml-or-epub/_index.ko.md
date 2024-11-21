@@ -1,4 +1,4 @@
-﻿---
+---
 title: 문서를 다음으로 변환 HTML, MHTML 또는 EPUB
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 문서를 다음으로 변환 HTML, MHTML 또는 EPUB
@@ -7,6 +7,7 @@ description: "에 거의 모든 형식에서 문서를 변환 HTML 또는 MHTML,
 type: docs
 weight: 20
 url: /ko/cpp/convert-a-document-to-html-mhtml-or-epub/
+timestamp: 2024-10-21-08-52-03
 ---
 
 문서 HTML 그리고 MHTML 흐름 레이아웃 형식도 매우 인기가 있으며 모든 웹 플랫폼에서 사용할 수 있습니다. 이러한 이유로 문서를 HTML 그리고 MHTML 의 중요한 기능입니다 Aspose.Words.

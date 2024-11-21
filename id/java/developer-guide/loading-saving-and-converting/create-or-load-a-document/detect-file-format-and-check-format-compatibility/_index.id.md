@@ -7,6 +7,7 @@ description: "Mempertahankan informasi tentang format dokumen sebelum membukanya
 type: docs
 weight: 20
 url: /id/java/detect-file-format-and-check-format-compatibility/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Kadang-kadang perlu menentukan format dokumen sebelum membuka karena ekstensi file tidak menjamin bahwa isi file yang sesuai. Misalnya, diketahui bahwa Laporan Kristal sering output dokumen dalam format RTF, tetapi memberi mereka ekstensi .doc.

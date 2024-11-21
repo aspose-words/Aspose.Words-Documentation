@@ -7,6 +7,7 @@ description: "Kies de beste PDF standaard om het resultaat van uw programmerings
 type: docs
 weight: 27
 url: /nl/python-net/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Voor sommige taken passen bepaalde PDF-normen beter of vice versa slechter. In dit artikel zullen we proberen te bepalen voor welke PDF-normen het zinvol is om te kiezen.

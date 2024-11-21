@@ -7,6 +7,7 @@ description: "Более точно контролировать процесс 
 type: docs
 weight: 10
 url: /ru/python-net/specify-load-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 При загрузке документа вы можете установить некоторые расширенные свойства. Aspose.Words Предоставляет вам [LoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/) класс, что позволяет более точно контролировать процесс нагрузки. Некоторые форматы нагрузки имеют соответствующий класс, который содержит параметры нагрузки для этого формата нагрузки, например, есть [PdfLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/pdfloadoptions/) для загрузки в формат PDF или [TxtLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/) для загрузки в TXT. В этой статье приведены примеры работы с вариантами [LoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/) класс.

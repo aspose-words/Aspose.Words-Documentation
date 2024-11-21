@@ -7,6 +7,7 @@ description: "Gunakan hyphenation untuk pengaturan teks yang lebih kompak. Ini m
 type: docs
 weight: 220
 url: /id/java/working-with-hyphenation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Terkadang perlu menggunakan hyphenation untuk pengaturan teks yang lebih kompak dalam dokumen. Pada saat yang sama, penting untuk memahami bahwa spesifik penghilang kata mungkin berbeda untuk setiap bahasa.

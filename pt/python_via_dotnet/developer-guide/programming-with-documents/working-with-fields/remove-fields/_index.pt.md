@@ -7,6 +7,7 @@ description: "Aprenda como remover campos em Python. Remova campos programaticam
 type: docs
 weight: 35
 url: /pt/python-net/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Às vezes é necessário remover um campo do documento. Isso pode ocorrer quando ele for substituído por um tipo de campo diferente ou quando o campo não for mais necessário no documento. Por exemplo, um campo `TOC` ao salvar em HTML.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Delete Row By Bookmark in Jython
 second_title: Aspose.Words for Java
 articleTitle: Delete Row By Bookmark in Jython
@@ -7,6 +7,7 @@ description: "Delete Row By Bookmark using Jython."
 type: docs
 weight: 15
 url: /java/delete-row-by-bookmark-in-jython/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Delete Row By Bookmark

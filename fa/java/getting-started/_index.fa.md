@@ -7,6 +7,7 @@ type: docs
 description: "استفاده از این مقدمه برای Aspose.Words برای Java اصول برای شروع درک ارزش Aspose.Words برای کسب و کار شما"
 weight: 10
 url: /fa/java/getting-started/
+timestamp: 2024-09-25-11-08-55
 ---
 
 این شروع یک مقدمه برای Aspose.Words اصول برای کاربران جدید Aspose.Wordsاین سریعترین راه برای یادگیری الزامات و قابلیت های اساسی است.

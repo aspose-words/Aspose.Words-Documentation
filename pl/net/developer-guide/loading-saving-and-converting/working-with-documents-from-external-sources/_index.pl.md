@@ -7,6 +7,7 @@ description: "Jak załadować dokumenty ze źródeł zewnętrznych do C#. Załad
 type: docs
 weight: 40
 url: /pl/net/working-with-documents-from-external-sources/
+timestamp: 2024-01-27-14-07-04
 ---
 
 W tej sekcji znajdują się informacje dotyczące ładowania dokumentów ze źródeł zewnętrznych, takich jak magazyn dokumentów SharePoint lub bazy danych. Po otrzymaniu takiego dokumentu możesz nie tylko dokonać w nim wszystkich niezbędnych zmian, dostępnych dzięki rozbudowanej funkcjonalności Aspose.Words, ale także załadować ten dokument z powrotem do źródła danych.

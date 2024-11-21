@@ -7,6 +7,7 @@ description: "Różne sposoby tworzenia tabel w dokumencie za pomocą Java."
 type: docs
 weight: 20
 url: /pl/java/create-a-table/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words pozwala użytkownikom na tworzenie tabel w dokumencie od podstaw i zapewnia kilka różnych metod w tym celu. Ten artykuł przedstawia szczegóły dotyczące dodawania sformatowanych tabel do dokumentu przy użyciu każdej metody, jak również porównanie każdej metody na końcu artykułu.

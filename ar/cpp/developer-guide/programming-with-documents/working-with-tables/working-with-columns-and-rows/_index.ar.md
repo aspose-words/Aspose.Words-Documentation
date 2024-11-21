@@ -1,4 +1,4 @@
-﻿---
+---
 title: العمل مع الأعمدة والصفوف في C++
 second_title: Aspose.Words ل C++
 articleTitle: العمل مع الأعمدة والصفوف
@@ -7,6 +7,7 @@ description: "العمل مع أجزاء من جدول-الصفوف والأعم
 type: docs
 weight: 30
 url: /ar/cpp/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 لمزيد من التحكم في كيفية عمل الجداول، تعرف على كيفية معالجة الأعمدة والصفوف.

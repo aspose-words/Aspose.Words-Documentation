@@ -7,6 +7,7 @@ type: docs
 description: "ドキュメントビルダーを使用して文書を簡単に変更できます Javaお問い合わせ"
 weight: 20
 url: /ja/java/using-documentbuilder-to-modify-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## フォーマットの指定

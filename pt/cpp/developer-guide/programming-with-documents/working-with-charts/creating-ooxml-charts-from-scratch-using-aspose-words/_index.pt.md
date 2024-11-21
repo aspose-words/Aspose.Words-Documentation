@@ -1,4 +1,4 @@
-﻿---
+---
 title: Criando OOXML gráficos do zero
 second_title: Aspose.Words para C++
 articleTitle: Criando OOXML gráficos do zero
@@ -7,6 +7,7 @@ description: "Como criar gráficos diferentes em seu documento usando C++."
 type: docs
 weight: 10
 url: /pt/cpp/creating-ooxml-charts-from-scratch-using-aspose-words/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Criando OOXML Gráficos do zero usando Aspose.Words

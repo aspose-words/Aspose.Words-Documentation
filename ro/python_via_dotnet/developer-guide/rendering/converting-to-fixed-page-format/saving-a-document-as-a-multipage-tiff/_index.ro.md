@@ -1,4 +1,4 @@
-﻿---
+---
 title: Salvarea unui Document ca pagină multiplă TIFF
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Salvarea unui Document ca pagină multiplă TIFF
@@ -7,6 +7,7 @@ description: "Convertiți un document într-o pagină multiplă TIFF Folosind Py
 type: docs
 weight: 30
 url: /ro/python-net/saving-a-document-as-a-multipage-tiff/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Când lucrați cu documente, de multe ori trebuie să vă convertiți documentul într-un fișier(E) imagine raster. Acest lucru este relevant mai ales dacă trebuie să vă prezentați documentul într-un format lizibil și imprimabil, dar nu editabil. De exemplu, puteți utiliza o imagine raster a primei pagini a documentului dvs. ca previzualizare. Acest articol descrie modul de conversie a unui document într – o imagine raster folosind exemplul formatului TIFF - unul dintre cele mai populare formate de imagine.

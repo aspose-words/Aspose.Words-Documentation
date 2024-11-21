@@ -7,6 +7,7 @@ description: "กําลังติดตั้ง Aspose.Words สําห�
 type: docs
 weight: 20
 url: /th/java/install-aspose-words-for-android-via-java/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu diagrame în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Lucrul cu diagrame
@@ -7,6 +7,7 @@ description: "Introducere în caracteristica diagramă, cum să creați și să 
 type: docs
 weight: 170
 url: /ro/cpp/how-to-set-fill-and-stroke-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Formatarea umplerii și a cursei poate fi setată pentru serii de diagrame, puncte de date și markeri. Pentru a face acest lucru, trebuie să utilizați proprietățile tipului **ChartFormat** în clasele **ChartSeries**, **ChartDataPoint** și **ChartMarker**, precum și aliasuri pentru unele proprietăți, cum ar fi ForeColor, BackColor, vizibil și transparență în clasa `Stroke`.

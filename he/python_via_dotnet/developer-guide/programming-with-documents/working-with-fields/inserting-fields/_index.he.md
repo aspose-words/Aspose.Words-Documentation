@@ -7,6 +7,7 @@ description: "הכניסו שדות למסמך Python בדרכים שונות: �
 type: docs
 weight: 20
 url: /he/python-net/inserting-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 ישנן מספר דרכים שונות להכניס שדות למסמך:

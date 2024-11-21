@@ -7,6 +7,7 @@ description: "Aspose.Words 제품정보 Java 자체 구현 Windows Metafile 플�
 type: docs
 weight: 30
 url: /ko/java/handling-windows-metafiles/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Windows Metafile 형식은 벡터와 래스터 그래픽을 포함 할 수있는 이미지 파일 형식입니다. 이 형식은 메모리 또는 on-disk 파일에서 그래픽 데이터를 저장하는 데 사용됩니다. metafile은 함수 호출 목록을 저장합니다. Windows 그래픽 장치 인터페이스 (GDI)는 화면에 이미지를 표시하기 위해 실행되어야한다. 시스템은 해석하고 디스플레이 컨텍스트에서 이러한 명령을 실행합니다.

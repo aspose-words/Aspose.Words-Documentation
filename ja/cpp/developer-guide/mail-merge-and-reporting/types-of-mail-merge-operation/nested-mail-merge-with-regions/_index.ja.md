@@ -1,4 +1,4 @@
-﻿---
+---
 title: ネストされたMail MergeとC++の領域
 second_title: Aspose.WordsのためのC++
 articleTitle: 領域を持つネストされたMail Merge
@@ -8,6 +8,7 @@ description: "C++を使用してネストされた領域でmail merge操作を�
 keywords: "mail merge with nested regions c++"
 weight: 30
 url: /ja/cpp/nested-mail-merge-with-regions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 一部のシナリオでは、入れ子になったmail mergeをリージョンで使用する必要がある場合があります。 ネストされたマージは、データソースの階層データをマージテンプレートにマージして、ドキュメントに簡単に入力できる機能です。 基本的に、階層データは一連のデータ項目として表され、階層関係はデータ項目が互いにどのように関連しているかを記述します（データの1つの項目は別の

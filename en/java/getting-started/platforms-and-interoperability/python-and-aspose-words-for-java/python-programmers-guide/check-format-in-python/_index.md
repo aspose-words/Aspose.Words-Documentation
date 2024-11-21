@@ -7,6 +7,7 @@ description: "Check Document Format using Python."
 type: docs
 weight: 40
 url: /java/check-format-in-python/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Check Format

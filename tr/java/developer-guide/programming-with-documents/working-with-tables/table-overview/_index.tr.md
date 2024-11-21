@@ -7,6 +7,7 @@ description: "Tablo ve onların bileşenleri gibi hücreler, satırlar ve sütun
 type: docs
 weight: 10
 url: /tr/java/table-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words çeşitli formatlarda sunucu tarafı belgeleri işlemek için tasarlanmış bir sınıf kütüphanesidir - PDF, HTML, farklı Microsoft Word formatları ve diğerleri - ve tabloları şu yollarla destekler:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 문서를 다중 페이지로 저장 TIFF 그 안에 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 문서를 다중 페이지로 저장 TIFF
@@ -7,6 +7,7 @@ description: "문서를 여러 페이지로 변환 TIFF 사용 C++. 이미지에
 type: docs
 weight: 40
 url: /ko/cpp/saving-a-document-as-a-multipage-tiff/
+timestamp: 2024-01-27-14-07-04
 ---
 
 문서 작업을 할 때 문서를 래스터 이미지 파일로 변환해야 하는 경우가 많습니다. 이것은 특히 문서를 읽을 수 있고 인쇄할 수 있지만 편집할 수 없는 형식으로 제시해야 하는 경우에 적합합니다. 예를 들어 문서의 첫 페이지의 래스터 이미지를 미리 보기로 사용할 수 있습니다. 이 문서에서는 다음 예제를 사용하여 문서를 래스터 이미지로 변환하는 방법을 설명합니다 TIFF 형식-더 인기있는 이미지 형식 중 하나입니다.

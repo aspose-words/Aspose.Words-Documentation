@@ -7,6 +7,7 @@ description: "Geavanceerde eigenschappen instellen bij het opslaan van een docum
 type: docs
 weight: 20
 url: /nl/java/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bij het opslaan van een document kunt u een aantal geavanceerde eigenschappen instellen. Aspose.Words geeft u de [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/) klasse, waardoor nauwkeuriger controle over het opslaan proces mogelijk is. Er zijn overbelastingen van de **Save** methode die een **SaveOptions** object Het moet een object van een klasse afgeleid van de **SaveOptions** Klasse. Elke opslaan formaat heeft een overeenkomstige klasse die opslaan opties voor dit opslaan formaat bevat, bijvoorbeeld, er is [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) voor het opslaan naar PDF-formaat, [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) voor opslaan aan Markdown formaat, of [ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/) voor het opslaan naar een afbeelding. Dit artikel biedt voorbeelden van werken met een aantal opties klassen afgeleid van **SaveOptions**.

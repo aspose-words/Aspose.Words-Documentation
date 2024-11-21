@@ -1,4 +1,4 @@
-﻿---
+---
 title: Load And Save To Disk in Python
 second_title: Aspose.Words for Java
 articleTitle: Load And Save To Disk in Python
@@ -7,6 +7,7 @@ description: "Load And Save Document To Disk using Python."
 type: docs
 weight: 50
 url: /java/load-and-save-to-disk-in-python/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Load And Save To Disk

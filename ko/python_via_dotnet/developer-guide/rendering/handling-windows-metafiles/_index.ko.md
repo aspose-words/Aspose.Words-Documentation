@@ -7,6 +7,7 @@ description: "Python via .NET용 Aspose.Words는 자체 Windows 메타파일 플
 type: docs
 weight: 30
 url: /ko/python-net/handling-windows-metafiles/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Windows 메타파일 형식은 벡터 그래픽과 래스터 그래픽을 모두 포함할 수 있는 이미지 파일 형식입니다. 이 형식은 그래픽 데이터를 메모리나 디스크 파일에 저장하는 데 사용됩니다. 메타파일은 화면에 이미지를 표시하기 위해 실행해야 하는 Windows GDI(그래픽 장치 인터페이스)에 함수 호출 목록을 저장합니다. 시스템은 디스플레이 컨텍스트에서 이러한 명령을 해석하고 실행합니다.

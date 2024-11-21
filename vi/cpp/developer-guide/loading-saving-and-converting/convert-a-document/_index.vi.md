@@ -1,4 +1,4 @@
-﻿---
+---
 title: Chuyển Đổi Một Tài liệu trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Chuyển đổi Tài liệu
@@ -8,6 +8,7 @@ description: "Dễ dàng chuyển đổi tài liệu từ định dạng này sa
 keywords: "convert a document c++, convert documents from one format to another c++, convert to markdown c++, convert pdf to docx C++, convert docx to pdf C++, convert doc to pdf C++, convert a document Aspose for C++"
 weight: 30
 url: /vi/cpp/convert-a-document/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Khả năng chuyển đổi tài liệu từ định dạng này sang định dạng khác một cách dễ dàng và đáng tin cậy là một trong những lĩnh vực tính năng chính của Aspose.Words. Một chuyển đổi như vậy không gì khác hơn là sự kết hợp của các hoạt động tải và lưu.

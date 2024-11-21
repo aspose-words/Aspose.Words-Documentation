@@ -7,6 +7,7 @@ description: "Contoh bentuk kode batang yang dihasilkan menggunakan C#."
 type: docs
 weight: 350
 url: /id/net/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/
+timestamp: 2024-09-05-11-07-10
 ---
 
 Kode batang adalah representasi visual dari data dalam bentuk garis sejajar atau pola. Kode batang digunakan luas di berbagai industri seperti ritel, logistik, kesehatan, perbankan dan lainnya.

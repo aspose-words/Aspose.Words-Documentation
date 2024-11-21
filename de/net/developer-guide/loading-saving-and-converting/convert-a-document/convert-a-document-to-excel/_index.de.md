@@ -7,6 +7,7 @@ description: "Konvertieren Sie PDF in Excel, XML in Excel, DOCX in Excel C#. Spe
 type: docs
 weight: 15
 url: /de/net/convert-a-document-to-excel/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Das Konvertieren von Dokumenten von einem Format in ein anderes ist die Hauptfunktion von Aspose.Words. Sie können Dokumente in jedem verfügbaren [Format laden](https://reference.aspose.com/words/de/net/aspose.words/loadformat/)-Format auch in das XLSX-Format konvertieren.

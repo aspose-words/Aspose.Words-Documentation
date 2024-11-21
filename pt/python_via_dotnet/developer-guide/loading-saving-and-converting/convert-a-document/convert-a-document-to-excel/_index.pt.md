@@ -7,6 +7,7 @@ description: "Converta PDF para Excel, XML para Excel, DOCX para Excel Python. S
 type: docs
 weight: 15
 url: /pt/python-net/convert-a-document-to-excel/
+timestamp: 2024-01-31-14-23-37
 ---
 
 A conversão de documentos de um formato para outro é o principal recurso do Aspose.Words. Você pode converter documentos em qualquer formato [carregar formato](https://reference.aspose.com/words/python-net/aspose.words/loadformat/) disponível também para o formato XLSX.

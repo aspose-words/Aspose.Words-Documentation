@@ -7,6 +7,7 @@ description: "Grouping 및 ungrouping 모양 사용 Java·"
 type: docs
 weight: 290
 url: /ko/java/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 때로는 추가해야합니다. group shape Word 문서로. 한국어 group shape 다수 모양으로 이루어져 있습니다

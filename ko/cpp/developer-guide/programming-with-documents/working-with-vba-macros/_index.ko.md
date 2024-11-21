@@ -1,4 +1,4 @@
-﻿---
+---
 title: 함께 작업 VBA 매크로 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 함께 작업 VBA 매크로
@@ -7,6 +7,7 @@ description: "문서 작업 VBA 사용하는 프로젝트 C++."
 type: docs
 weight: 410
 url: /ko/cpp/working-with-vba-macros/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Visual Basic 응용 프로그램(VBA)를 위해 Microsoft Word 간단하지만 강력한 프로그래밍 언어입니다.기능을 확장하는 데 사용할 수 있습니다. Aspose.Words API 에 액세스 할 수있는 세 가지 클래스를 제공합니다 VBA 프로젝트 소스 코드:

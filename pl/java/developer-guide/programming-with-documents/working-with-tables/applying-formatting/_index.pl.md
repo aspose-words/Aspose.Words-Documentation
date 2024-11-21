@@ -7,6 +7,7 @@ description: "Stół formatuje w szczegółach. Stosowanie Java do formatowania 
 type: docs
 weight: 70
 url: /pl/java/applying-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Każdy element tabeli może być zastosowany z innym formatowaniem. Na przykład, formatowanie tabeli będzie stosowane do całej tabeli, wiersz formatowanie tylko do poszczególnych wierszy, formatowanie komórek do tylko niektórych komórek.

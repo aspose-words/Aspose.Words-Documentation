@@ -1,4 +1,4 @@
-﻿---
+---
 title: Travailler avec des commentaires en C++
 second_title: Aspose.Words pour C++
 articleTitle: Travailler avec des commentaires
@@ -7,6 +7,7 @@ description: "Travailler avec des commentaires en utilisant C++."
 type: docs
 weight: 260
 url: /fr/cpp/working-with-comments/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

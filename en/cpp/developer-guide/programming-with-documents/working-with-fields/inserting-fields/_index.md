@@ -7,6 +7,7 @@ description: "Different ways to insert fields into your document using C++."
 type: docs
 weight: 20
 url: /cpp/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 There are several different ways to insert fields into a document:

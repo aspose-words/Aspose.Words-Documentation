@@ -8,6 +8,7 @@ description: "Перетворення документа в будь-якому
 keywords: how to convert a document to markdown Java, save as MD, DOCX to MD
 weight: 33
 url: /uk/java/convert-a-document-to-markdown/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Markdown є популярним форматом, який використовується для розмітки тексту і він далі перетворюється в HTML, PDF, DOCX або інші формати. Багато розробників вибирають цей формат для написання документації, підготовка статей до публікації на блогах, опис проектів, тощо.

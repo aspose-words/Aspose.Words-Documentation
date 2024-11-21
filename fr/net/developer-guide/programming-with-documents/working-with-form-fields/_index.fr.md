@@ -7,6 +7,7 @@ description: "Comprendre la fonctionnalité des champs de formulaire et travaill
 type: docs
 weight: 380
 url: /fr/net/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un document contenant des espaces à remplir (champs) est appelé formulaire. Par exemple, vous pouvez créer un formulaire d'inscription dans Microsoft Word qui utilise des listes déroulantes dans lesquelles les utilisateurs peuvent sélectionner des entrées. Le champ `Form` est un emplacement où un type particulier de données, tel qu'un nom ou une adresse, est stocké. Les champs de formulaire dans Microsoft Word incluent la saisie de texte, la zone de liste déroulante et la case à cocher.

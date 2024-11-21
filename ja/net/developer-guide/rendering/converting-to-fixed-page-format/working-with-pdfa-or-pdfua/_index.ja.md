@@ -7,6 +7,7 @@ description: "C# を使用して PDF/A-1、PDF/A-2、PDF/A-4、PDF/UA に変換�
 type: docs
 weight: 28
 url: /ja/net/working-with-pdfa-or-pdfua/
+timestamp: 2024-07-10-14-38-57
 ---
 
 PDF/A および PDF/UA 形式では、Word 形式のドキュメントから PDF への自動変換中に満たすことができない、ドキュメントのコンテンツに関連するいくつかの要件が課されます。 PDF/A および PDF/UA に完全に準拠したドキュメントを作成するには、変換前の Word ドキュメントまたは変換後の PDF ドキュメントでこれらの要件を確認および修正する必要があります。

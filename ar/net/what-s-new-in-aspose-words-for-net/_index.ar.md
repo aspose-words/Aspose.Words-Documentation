@@ -1,4 +1,4 @@
-﻿---
+---
 title: ما الجديد
 second_title: Aspose.Words ل .NET
 articleTitle: ما هو الجديد في Aspose.Words ل .NET
@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words ل .NET يوسع ويعزز يوميا. في هذه الصفحة، يمكنك التعرف على الميزات الضخمة والأكثر إثارة للاهتمام للمنتج."
 weight: 10
 url: /ar/net/what-s-new-in-aspose-words-for-net/
+timestamp: 2024-11-18-12-56-02
 ---
 
 تصف هذه الصفحة الميزات الجديدة الأكثر إثارة للاهتمام Aspose.Words التي تم تقديمها في الإصدارات الأخيرة.

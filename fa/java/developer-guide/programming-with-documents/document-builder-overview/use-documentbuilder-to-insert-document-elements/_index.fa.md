@@ -7,6 +7,7 @@ type: docs
 description: "عناصر سند را با استفاده از سازنده سند در Java..."
 weight: 10
 url: /fa/java/use-documentbuilder-to-insert-document-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 The The The The The The [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) برای اصلاح اسناد استفاده می شود. این مقاله توضیح می دهد و توضیح می دهد که چگونه تعدادی از وظایف را انجام دهید.

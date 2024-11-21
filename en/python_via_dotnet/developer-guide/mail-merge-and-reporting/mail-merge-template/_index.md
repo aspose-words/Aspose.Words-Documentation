@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge Template in Python
 second_title: Aspose.Words for Python via .NET
 articleTitle: Mail Merge Template
@@ -9,6 +9,7 @@ keywords: "create mail merge template python"
 weight: 10
 url: /python-net/mail-merge-template/
 aliases: [/python/mail-merge-template/]
+timestamp: 2024-01-31-14-23-37
 ---
 
 It is common to use a merge template as the base document for a mail merge operation either if it is a simple mail merge or mail merge with regions. Mail merge with regions is more powerful and popular than the simple mail merge. Simple mail merge is considered as a particular case of mail merge with regions where the region is the entire document. All is explained in the next article “Types of Mail Merge Operation” in more detail.

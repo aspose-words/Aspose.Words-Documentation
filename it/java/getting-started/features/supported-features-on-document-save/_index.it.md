@@ -7,6 +7,7 @@ description: "Salvare un documento nella maggior parte dei formati popolari e su
 type: docs
 weight: 30
 url: /it/java/supported-features-on-document-save/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words consente agli utenti di lavorare con documenti in vari formati e fornisce una vasta gamma di funzionalità per questo. Ad esempio, gli utenti possono creare un documento da zero o caricarlo, fare alcune modifiche, e quindi salvare quelle modifiche nel file di output in qualsiasi [Formati di documento supportati](/words/it/java/supported-document-formats/). Durante il salvataggio del documento nel formato selezionato, l'utente può applicare varie opzioni di salvataggio.

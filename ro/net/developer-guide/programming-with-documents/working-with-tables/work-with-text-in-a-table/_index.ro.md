@@ -7,6 +7,7 @@ description: "Înlocuiește text într-o tabelă în C#. Extrage text simplu din
 type: docs
 weight: 60
 url: /ro/net/work-with-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 După cum am menționat în articolele anterioare, o masă conține de obicei text simplu, deși alte conținuturi, cum ar fi imagini sau chiar alte tabele pot fi amplasate în celulele sale.

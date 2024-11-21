@@ -7,6 +7,7 @@ description: "Робота з азіатською типографією Python
 type: docs
 weight: 240
 url: /uk/python-net/working-with-asian-typography/
+timestamp: 2024-02-01-16-17-05
 ---
 
 Азій Тайпографія - це набір варіантів для текстових абзаців у документах, написаних на мовах азіатських мов.

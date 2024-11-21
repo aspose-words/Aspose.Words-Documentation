@@ -7,6 +7,7 @@ description: "שימוש בשימוש Aspose.Words עבור Java להמיר מס
 type: docs
 weight: 20
 url: /he/java/convert-a-document-to-html-mhtml-or-epub/
+timestamp: 2024-10-21-08-52-03
 ---
 
 מסמכים ב- HTML ו- MHTML Flow-layout הם גם מאוד פופולריים וניתן להשתמש בהם בכל פלטפורמה באינטרנט. מסיבה זו, המרת מסמכים ל- HTML ו- MHTML היא תכונה חשובה. Aspose.Words.

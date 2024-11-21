@@ -1,4 +1,4 @@
-﻿---
+---
 title: Caratteristica
 second_title: Aspose.Words per C++
 articleTitle: Caratteristiche supportate
@@ -7,6 +7,7 @@ description: "Aspose.Words per C++ fornisce agli utenti una vasta gamma di funzi
 type: docs
 weight: 40
 url: /it/cpp/features/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words fornisce agli utenti un'ampia gamma di funzionalità. Gli utenti possono eseguire un'enorme quantità di attività relative ai documenti, dalla semplice conversione di documenti da un formato supportato a un altro e la modifica di tali documenti durante il processo di conversione in attività aziendali, come la creazione di documenti strutturati e visivamente accattivanti o l'automazione dei rapporti.

@@ -7,6 +7,7 @@ description: "Aspose.Words pour Java utilise plusieurs algorithmes de cryptograp
 type: docs
 weight: 80
 url: /fr/java/fips-mode/
+timestamp: 2024-05-08-10-19-58
 ---
 
 Aspose.Words utilise plusieurs algorithmes de cryptographie et de hachage lors du traitement des documents et cet article décrit comment il est lié aux normes FIPS.

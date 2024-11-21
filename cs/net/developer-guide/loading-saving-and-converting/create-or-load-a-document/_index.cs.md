@@ -8,6 +8,7 @@ url: /cs/net/create-or-load-a-document/
 description: "Vytvořit prázdný dokument nebo jej načíst ze souboru nebo streamu pomocí C#."
 keywords: "create a document c#, load a document c#, create a blank document c#, load a document from file c#, load a document from stream c#, create a document Aspose .NET, load a document Aspose .NET, load formats supported by Aspose.Words .NET"
 weight: 10
+timestamp: 2024-07-09-19-00-42
 ---
 
 Téměř jakýkoli úkol, který chcete vykonávat s Aspose.Words zahrnuje načtení dokumentu. • `Document` třída představuje dokument naložený do paměti. Dokument má několik přetížených konstruktérů, které vám umožní vytvořit prázdný dokument nebo jej načíst ze souboru nebo streamu. Dokument lze načíst v jakémkoli formátu zatížení podporovaném Aspose.Words. Seznam všech podporovaných formátů zatížení viz [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/) výčtu.

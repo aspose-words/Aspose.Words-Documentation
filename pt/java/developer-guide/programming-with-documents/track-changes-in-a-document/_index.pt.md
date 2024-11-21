@@ -7,6 +7,7 @@ description: "Rastrear mudanças no conteúdo e formatação feitas por você ou
 type: docs
 weight: 270
 url: /pt/java/track-changes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A funcionalidade de mudanças de faixa, também conhecida como revisão, permite que você rastreie mudanças no conteúdo e formatação feitas por você ou outros usuários. Este recurso de alterações de faixa com Aspose.Words suporta mudanças de faixa em Microsoft Word. Com essa funcionalidade, você pode acessar revisões individuais em seu documento e aplicar diferentes propriedades a elas.

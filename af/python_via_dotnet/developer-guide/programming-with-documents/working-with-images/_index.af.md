@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Beelde in Python
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Werk Met Beelde
@@ -7,6 +7,7 @@ description: "Skep en bestuur beelde van verskillende formate in'n dokument met 
 type: docs
 weight: 300
 url: /af/python-net/working-with-images/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words laat gebruikers toe om op'n baie buigsame manier met beelde te werk. In hierdie artikel kan jy slegs sommige van die moontlikhede van werk met beelde verken.

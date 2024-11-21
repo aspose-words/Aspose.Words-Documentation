@@ -7,6 +7,7 @@ description: "Convierta un documento de casi cualquier formato al formato MHTML 
 type: docs
 weight: 30
 url: /es/net/convert-a-document-to-mhtml-and-send-it-by-email/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Aspose.Words puede convertir cualquier documento al formato MHTML (Web Archive). Esto hace que sea conveniente utilizar Aspose.Words y `Aspose.Email` juntos. Puede cargar un documento predefinido en cualquier formato compatible, como DOC, OOXML o RTF, en Aspose.Words, llenarlo con datos, guardar el documento resultante como MHTML y luego enviarlo por correo electrónico usando `Aspose.Email`.

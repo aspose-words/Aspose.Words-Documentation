@@ -7,6 +7,7 @@ description: "Compara dos documentos en cualquier formato compatible y muestra l
 type: docs
 weight: 60
 url: /es/net/compare-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Comparar documentos es un proceso que identifica cambios entre dos documentos y contiene los cambios como revisiones. Este proceso compara dos documentos cualesquiera, incluidas las versiones de un documento específico, luego los cambios entre ambos documentos se mostrarán como revisiones en el primer documento.

@@ -7,6 +7,7 @@ type: docs
 description: "Wyciąganie zawartości dokumentu w różnych zastosowaniach Java."
 weight: 140
 url: /pl/java/extract-selected-content-between-nodes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Podczas pracy z dokumentami ważne jest, aby móc łatwo wyodrębnić zawartość z określonego zakresu w ramach dokumentu. Treść może jednak składać się ze złożonych elementów, takich jak akapity, tabele, obrazy itp.

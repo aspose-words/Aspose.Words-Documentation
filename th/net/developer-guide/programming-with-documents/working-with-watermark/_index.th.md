@@ -7,6 +7,7 @@ description: "การจัดการลายน้ำเอกสารโ
 type: docs
 weight: 340
 url: /th/net/working-with-watermark/
+timestamp: 2024-05-02-11-51-44
 ---
 
 หัวข้อนี้อธิบายวิธีการทำงานโดยทางโปรแกรมด้วยลายน้ำโดยใช้ Aspose.Words ลายน้ำคือภาพพื้นหลังที่แสดงอยู่ด้านหลังข้อความในเอกสาร ลายน้ำอาจมีข้อความหรือรูปภาพที่แสดงโดยคลาส [Watermark](https://reference.aspose.com/words/net/aspose.words/watermark/)

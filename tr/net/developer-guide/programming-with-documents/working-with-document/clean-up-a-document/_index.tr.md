@@ -7,6 +7,7 @@ description: "C# kullanarak çıktı boyutunu ve işlem süresini azaltmak için
 type: docs
 weight: 30
 url: /tr/net/clean-up-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bazen çıktı belgesinin boyutunu ve işlem süresini azaltmak için kullanılmayan veya kopyalanan bilgileri kaldırmanız gerekebilir.

@@ -7,6 +7,7 @@ description: "Aspose.Words para Python via .NET puede ayudarle a convertir entre
 type: docs
 weight: 20
 url: /es/python-net/convert-between-measurement-units/
+timestamp: 2024-01-27-14-07-04
 ---
 
 La mayoría de las propiedades de los objetos proporcionadas en el Aspose.Words API que representan alguna medida, como ancho o alto, márgenes y varias distancias, aceptan valores en puntos, donde 1 pulgada equivale a 72 puntos. A veces esto no es conveniente y es necesario convertir los puntos a otras unidades.

@@ -7,6 +7,7 @@ description: "Aspose.Words為 .NET 需要多少記憶體才能與文件一起工
 type: docs
 weight: 10
 url: /zh-hant/net/memory-requirements/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words 提供各種格式的文件進行處理的廣大功能。 很重要的一點是，沒有限制 Aspose.Words 可以處理或顯示的檔案最大尺寸。 唯一的限制是你那一邊可用量的 RAM (記憶體)。

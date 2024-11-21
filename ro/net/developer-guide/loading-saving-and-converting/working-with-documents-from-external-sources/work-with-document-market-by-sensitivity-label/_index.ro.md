@@ -7,6 +7,7 @@ description: "Convertaţi un fișier Word cu etichete de sensibilitate aplicate 
 type: docs
 weight: 30
 url: /ro/net/work-with-document-market-by-sensitivity-label/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Sensibilitate etichetă de la Microsoft Protecția informațiilor Purview vă permite să clasificați și să protejați datele organizației dvs., asigurându-vă că productivitatea utilizatorului și capacitatea lor de a colabora nu este afectată. După ce i se aplică o etichetă de sensibilitate la un document, orice setări de protecție configurate pentru această etichetă sunt impuse conținutului.

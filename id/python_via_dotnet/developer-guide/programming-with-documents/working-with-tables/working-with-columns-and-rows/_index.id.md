@@ -7,6 +7,7 @@ description: "Bekerja dengan bagian tabel – baris, kolom, dan sel menggunakan 
 type: docs
 weight: 30
 url: /id/python-net/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Untuk kontrol lebih besar terhadap cara kerja tabel, pelajari cara memanipulasi kolom dan baris.

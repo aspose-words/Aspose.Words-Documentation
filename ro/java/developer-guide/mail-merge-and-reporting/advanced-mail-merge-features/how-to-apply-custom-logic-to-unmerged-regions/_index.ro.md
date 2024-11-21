@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cum se aplică logica personalizată Regiunilor Nemergate
 second_title: Aspose.Words pentru Java
 articleTitle: Cum se aplică logica personalizată Regiunilor Nemergate
@@ -7,6 +7,7 @@ type: docs
 description: "Aplicați logica personalizată regiunilor nemergate în timpul unei operații mail merge folosind Java."
 weight: 70
 url: /ro/java/how-to-apply-custom-logic-to-unmerged-regions/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Există unele situații în care eliminarea completă a regiunilor nemergate din document în timpul mail merge nu este dorită sau rezultă în documentul care pare incomplet. Acest lucru poate apărea atunci când absența datelor de intrare ar trebui să fie afișată utilizatorului sub forma unui mesaj în loc ca regiunea să fie complet eliminată.

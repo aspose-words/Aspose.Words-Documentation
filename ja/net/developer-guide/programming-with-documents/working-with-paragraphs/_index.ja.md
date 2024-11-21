@@ -7,6 +7,7 @@ description: "ドキュメント C# に段落を挿入します。 C# で段落�
 type: docs
 weight: 210
 url: /ja/net/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 段落は、論理ブロックに結合された一連の文字であり、特殊文字 (*段落区切り*) で終わります。 Aspose.Words では、段落は [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/) クラスによって表されます。

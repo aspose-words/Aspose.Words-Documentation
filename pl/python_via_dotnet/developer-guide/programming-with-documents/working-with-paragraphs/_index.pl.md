@@ -7,6 +7,7 @@ description: "Wstaw akapit i określ jego formatowanie w dokumencie za pomocą P
 type: docs
 weight: 210
 url: /pl/python-net/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Akapit to zbiór znaków połączonych w logiczny blok i zakończony znakiem specjalnym – *podziałem akapitu*. W Aspose.Words akapit jest reprezentowany przez klasę [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/).

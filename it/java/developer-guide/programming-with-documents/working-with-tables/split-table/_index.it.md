@@ -7,6 +7,7 @@ description: "Tavolo diviso in Java. Come dividere un tavolo in due tavoli separ
 type: docs
 weight: 100
 url: /it/java/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Una tavola, rappresentata nella Aspose.Words Document Object Model, è costituito da righe e celle indipendenti, rendendo facile dividere una tabella.

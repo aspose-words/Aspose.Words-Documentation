@@ -1,4 +1,4 @@
-﻿---
+---
 title: Installasie
 second_title: Aspose.Words vir .NET
 articleTitle: Installasie
@@ -7,6 +7,7 @@ description: "Installeer Aspose.Words vir .NET gebruik Visual Studio gereedskap 
 type: docs
 weight: 10
 url: /af/net/installation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Maak seker dat jou masjien voldoen aan die [stelselvereistes](/words/net/system-requirements/) voordat jy begin.

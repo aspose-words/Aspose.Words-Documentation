@@ -1,4 +1,4 @@
-﻿---
+---
 title: Redarea formelor separat de un Document
 second_title: Aspose.Words pentru Java
 articleTitle: Redarea formelor separat de un Document
@@ -7,6 +7,7 @@ description: "Extrageți diverse obiecte grafice, cum ar fi imagini, casetă de 
 type: docs
 weight: 40
 url: /ro/java/rendering-shapes-separately-from-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 La procesarea documentelor, o sarcină comună este de a extrage toate imaginile găsite în document și de a le exporta într-o locație externă. Această sarcină devine simplă cu Aspose.Words API, care oferă deja funcționalitatea pentru extragerea și salvarea datelor de imagine. Cu toate acestea, uneori poate doriți să extrageți în mod similar alte tipuri de conținut grafic care sunt reprezentate de un alt tip de obiect de desen, de exemplu, o casetă de text care conține paragrafe, forme de săgeți și o imagine mică. Nu există o modalitate simplă de redare a acestui obiect, deoarece este o combinație de elemente de conținut individuale. De asemenea, este posibil să întâlniți un caz în care conținutul a fost grupat împreună în obiectul care arată ca o singură imagine.

@@ -7,6 +7,7 @@ description: "Maak uw document alleen-lezen zodat de inhoud kan worden gekopieer
 type: docs
 weight: 10
 url: /nl/net/open-a-document-read-only/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Soms heb je een document dat een review nodig heeft, maar je wilt niet dat beoordelaars willekeurig je inhoud wijzigen. Aspose.Words kunt u de toestemming van uw document alleen-lezen, zodat de inhoud kan worden gekopieerd of gelezen, maar niet gewijzigd. Dit voorkomt dat inhoud wordt verwijderd of toegevoegd aan uw document.

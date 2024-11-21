@@ -7,6 +7,7 @@ description: "يقوم Aspose.Words for .NET بتطبيق مشغل Windows Metaf
 type: docs
 weight: 30
 url: /ar/net/handling-windows-metafiles/
+timestamp: 2024-07-10-14-38-57
 ---
 
 تنسيق Windows Metafile هو تنسيق ملف صورة يمكن أن يحتوي على رسومات متجهة ونقطية. يُستخدم هذا التنسيق لتخزين بيانات الرسومات في الذاكرة أو الملفات الموجودة على القرص. يخزن ملف التعريف قائمة باستدعاءات الوظائف في Windows Graphics Device Interface (GDI) التي يجب تنفيذها لعرض الصورة على الشاشة. يقوم النظام بتفسير وتنفيذ هذه الأوامر في سياق العرض.

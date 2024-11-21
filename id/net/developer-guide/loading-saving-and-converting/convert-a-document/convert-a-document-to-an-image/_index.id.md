@@ -7,6 +7,7 @@ type: docs
 description: "Konversikan dokumen ke format gambar (JPG, PNG, dll). Buat pratinjau dokumen atau buat pemindaian dokumen untuk mengirim faktur menggunakan C#."
 weight: 43
 url: /id/net/convert-a-document-to-an-image/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Terkadang diperlukan untuk mendapatkan gambar daripada dokumen dalam format lain, seperti DOCX atau PDF. Misalnya, Anda perlu menambahkan pratinjau halaman dokumen apa pun ke situs web atau aplikasi Anda, atau membuat "pindaian" dokumen untuk mengirim faktur. Ini adalah saat Anda mungkin perlu mengonversi dokumen dalam [format pemuatan yang didukung](https://reference.aspose.com/words/net/aspose.words/loadformat/) apa pun menjadi gambar, sekali lagi, dalam [format penyimpanan yang didukung](https://reference.aspose.com/words/net/aspose.words/saveformat/) apa pun.

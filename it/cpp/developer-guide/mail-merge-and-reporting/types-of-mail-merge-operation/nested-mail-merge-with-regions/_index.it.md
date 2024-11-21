@@ -1,4 +1,4 @@
-﻿---
+---
 title: Annidato Mail Merge con regioni in C++
 second_title: Aspose.Words per C++
 articleTitle: Annidato Mail Merge con regioni
@@ -8,6 +8,7 @@ description: "Eseguire un'operazione mail merge con regioni nidificate utilizzan
 keywords: "mail merge with nested regions c++"
 weight: 30
 url: /it/cpp/nested-mail-merge-with-regions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 In alcuni scenari, potrebbe essere necessario utilizzare nidificato mail merge con le regioni. L'unione nidificata è una funzionalità che consente di unire i dati gerarchici dall'origine dati al modello di unione per popolare facilmente il documento. Fondamentalmente, i dati gerarchici sono rappresentati come un insieme di elementi di dati e le relazioni gerarchiche descrivono come gli elementi di dati sono correlati tra loro (un elemento di dati è il genitore di un altro).

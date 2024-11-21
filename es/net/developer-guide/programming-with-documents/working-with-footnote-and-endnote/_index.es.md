@@ -7,6 +7,7 @@ description: "Cómo manipular notas al pie y notas al final usando C#."
 type: docs
 weight: 160
 url: /es/net/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words también proporciona algunas clases, métodos y propiedades para trabajar con notas al pie y notas al final.

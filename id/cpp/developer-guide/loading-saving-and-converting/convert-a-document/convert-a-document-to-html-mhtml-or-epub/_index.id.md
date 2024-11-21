@@ -1,4 +1,4 @@
-﻿---
+---
 title: Konversikan Dokumen menjadi HTML, MHTML, atau EPUB
 second_title: Aspose.Words untuk C++
 articleTitle: Konversikan Dokumen menjadi HTML, MHTML, atau EPUB
@@ -7,6 +7,7 @@ description: "Konversikan dokumen dari hampir semua format ke HTML atau MHTML, s
 type: docs
 weight: 20
 url: /id/cpp/convert-a-document-to-html-mhtml-or-epub/
+timestamp: 2024-10-21-08-52-03
 ---
 
 Dokumen dalam format tata letak alur HTML dan MHTML juga sangat populer dan dapat digunakan di platform web apa pun. Oleh karena itu, mengonversi dokumen menjadi HTML dan MHTML merupakan fitur penting dari Aspose.Words.

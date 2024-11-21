@@ -1,4 +1,4 @@
-﻿---
+---
 title: Programmering Met Dokumente
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Programmering Met Dokumente
@@ -7,6 +7,7 @@ type: docs
 description: "Gebruik Die Aspose met behulp van `Python.Words` Dokument Voorwerp Model klasse programmaties te skep, te verander, en dokumente te bestuur met python-net. Werk met dokumenteienskappe, instellings en inhoud, sowel as met dokumentvoorkoms deur die bestuur van kleure, vorms, lettertipes en ander grafika."
 weight: 60
 url: /af/python-net/programming-with-documents/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Hierdie afdeling bied inligting oor hoe om programmaties te skep, te verander, en te bestuur dokumente met die Aspose.Words Document Object Model klasse. Artikels in hierdie afdeling beskryf'n wye verskeidenheid van dokument manipulasie take wat jou in staat stel om te werk met dokument eienskappe, instellings, inhoud, en sy elemente.

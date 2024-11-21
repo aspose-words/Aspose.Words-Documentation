@@ -7,6 +7,7 @@ description: "Especifique la posición de la tabla en Python. Obtenga una alinea
 type: docs
 weight: 50
 url: /es/python-net/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Hay tablas flotantes y tablas en línea:

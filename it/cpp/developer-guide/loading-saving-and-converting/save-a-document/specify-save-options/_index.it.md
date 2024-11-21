@@ -1,4 +1,4 @@
-﻿---
+---
 title: Specificare le opzioni di salvataggio in C++
 second_title: Aspose.Words per C++
 articleTitle: Specificare le opzioni di salvataggio
@@ -7,6 +7,7 @@ description: "Controllare più accuratamente il processo di salvataggio."
 type: docs
 weight: 10
 url: /it/cpp/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Quando si salva un documento, è possibile impostare alcune proprietà avanzate. Aspose.Words fornisce la classe [SaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/), che consente un controllo più preciso del processo di salvataggio. Ci sono sovraccarichi del metodo **Save** che accettano un oggetto **SaveOptions** – dovrebbe essere un oggetto di una classe derivata dalla classe **SaveOptions**. Ogni formato di salvataggio ha una classe corrispondente che contiene le opzioni di salvataggio per questo formato di salvataggio, ad esempio, c'è [PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/) per il salvataggio in formato PDF, [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions) per il salvataggio in formato Markdown o [ImageSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/imagesaveoptions/) per il salvataggio in un'immagine. Questo articolo fornisce esempi di utilizzo di alcune classi di opzioni derivate da **SaveOptions**.

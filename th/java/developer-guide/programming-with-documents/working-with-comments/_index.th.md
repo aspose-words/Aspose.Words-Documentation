@@ -7,6 +7,7 @@ description: "ทํางานกับความคิดเห็นโด
 type: docs
 weight: 260
 url: /th/java/working-with-comments/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

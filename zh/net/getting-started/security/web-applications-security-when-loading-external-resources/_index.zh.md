@@ -7,6 +7,7 @@ type: docs
 description: "加载远程资源，这可能是安全风险的一个原因。使用 C# 查看常见安全问题及其解决方案。"
 weight: 100
 url: /zh/net/web-applications-security-when-loading-external-resources/
+timestamp: 2024-01-27-14-07-04
 ---
 
 默认情况下，当使用 DocumentBuilder 导入文档或插入图像时，Aspose.Words for .NET 可以加载远程资源，例如图像、CSS 样式或外部 HTML 文档。此行为允许您详细处理文档，但如果该库是 Web 应用程序的一部分，则可能会导致一些安全风险。

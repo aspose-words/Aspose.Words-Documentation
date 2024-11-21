@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tạo Hoặc Tải Một Tài liệu trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Tạo Hoặc Tải Tài liệu
@@ -8,6 +8,7 @@ description: "Tạo một tài liệu trống hoặc để tải nó từ một 
 keywords: "create a document c++, load a document c++, create a blank document c++, load a document from file c++, load a document from stream c++, create a document Aspose C++, load a document Aspose C++, load formats supported by Aspose.Words C++"
 weight: 10
 url: /vi/cpp/create-or-load-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Hầu như bất kỳ tác vụ nào bạn muốn thực hiện với Aspose.Words đều liên quan đến việc tải tài liệu. Lớp `Document` đại diện cho một tài liệu được tải vào bộ nhớ. Tài liệu có một số hàm tạo quá tải cho phép bạn tạo một tài liệu trống hoặc tải nó từ một tệp hoặc luồng. Tài liệu có thể được tải ở bất kỳ định dạng tải nào được hỗ trợ bởi Aspose.Words. Để biết danh sách tất cả các định dạng tải được hỗ trợ, hãy xem liệt kê [LoadFormat](https://reference.aspose.com/words/cpp/aspose.words/loadformat/).

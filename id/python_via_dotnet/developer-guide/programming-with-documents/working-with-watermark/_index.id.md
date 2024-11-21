@@ -7,6 +7,7 @@ description: "Buat dan kelola tanda air dalam dokumen menggunakan Python."
 type: docs
 weight: 340
 url: /id/python-net/working-with-watermark/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Topik ini membahas cara bekerja secara terprogram dengan watermark menggunakan Aspose.Words. Tanda air adalah gambar latar belakang yang ditampilkan di belakang teks dalam dokumen. Tanda air dapat berisi teks atau gambar yang diwakili oleh kelas [Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/).

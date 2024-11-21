@@ -7,6 +7,7 @@ description: "Extraire divers objets graphiques, tels que des images, une boîte
 type: docs
 weight: 40
 url: /fr/java/rendering-shapes-separately-from-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Lors du traitement des documents, une tâche courante consiste à extraire toutes les images trouvées dans le document et à les exporter vers un emplacement externe. Cette tâche devient simple avec la Aspose.Words API, qui fournit déjà la fonctionnalité pour extraire et enregistrer des données d'image. Cependant, parfois, vous pouvez vouloir extraire de la même façon d'autres types de contenu graphique qui sont représentés par un autre type d'objet de dessin, par exemple, une boîte de texte contenant des paragraphes, des formes de flèche et une petite image. Il n'y a pas de façon simple de rendre cet objet puisqu'il s'agit d'une combinaison d'éléments de contenu individuels. Vous pouvez également rencontrer un cas lorsque le contenu a été groupé dans l'objet qui ressemble à une seule image.

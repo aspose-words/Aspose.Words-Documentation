@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trabalhando com rótulo de dados de gráfico em C++
 second_title: Aspose.Words para C++
 articleTitle: Trabalhando com rótulo de dados do Gráfico
@@ -7,6 +7,7 @@ description: "Ajuste do rótulo dos dados do gráfico usando C++."
 type: docs
 weight: 30
 url: /pt/cpp/working-with-chart-data-label/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words permite que os usuários trabalhem com ChartDataLabel de várias maneiras.

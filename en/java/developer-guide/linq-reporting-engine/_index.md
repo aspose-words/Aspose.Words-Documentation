@@ -13,6 +13,7 @@ url: /java/linq-reporting-engine/
 aliases:
  - /java/linq-reporting-engine-programmers-guide/
  - /java/about-this-guide/
+timestamp: 2024-09-25-11-08-55
 ---
 
 This section provides the information you need to create reports from template documents using the LINQ Reporting Engine. The information is divided into the following sections:

@@ -7,6 +7,7 @@ type: docs
 description: "Desteklenen herhangi bir biçimde bir belgeyi Java'i kullanarak kaydedin."
 weight: 20
 url: /tr/java/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words ile gerçekleştirmek zorunda olduğunuz görevlerin çoğu bir belge kaydetmeyi içerir. Bir belge kaydetmek için Aspose.Words ' [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) sınıfının [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save(java.lang.String) yöntemini sağlar. Belge herhangi bir kaydedilebilir biçimde kaydedilebilir Aspose.Words. Desteklenen tüm kaydedilebilir biçimlerin listesi için " [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) numaralandırmasına bakın.

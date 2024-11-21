@@ -7,6 +7,7 @@ description: "Aspose.Words お問い合わせ Java 正しい TrueType フォン�
 type: docs
 weight: 10
 url: /ja/java/manipulate-and-substitute-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words True が必要です 文書を固定ページ形式にレンダリングするなど、さまざまなタスクのフォントを入力します。 XPSお問い合わせ いつか Aspose.Words ドキュメントをレンダリングし、TrueType フォントの埋め込みとサブセットの埋め込みを結果文書に実行する必要があります。これは、一般的な PDF や XPS フォーマット。 これにより、ドキュメントがビューアと同じものになるようにします。 さらに、 XPS 指定は文書に常に埋め込まれる壷を要求します。

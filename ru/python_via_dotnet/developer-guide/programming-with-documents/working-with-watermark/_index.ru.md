@@ -7,6 +7,7 @@ description: "Создание и управление водяными знак
 type: docs
 weight: 340
 url: /ru/python-net/working-with-watermark/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Эта тема обсуждает, как программно работать с водяным знаком с помощью Aspose.Words. Водяной знак - это фоновое изображение, которое отображается за текстом в документе. Водяной знак может содержать текст или изображение, представленное [Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/) класс.

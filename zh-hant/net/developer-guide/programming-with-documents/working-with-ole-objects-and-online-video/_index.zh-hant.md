@@ -7,6 +7,7 @@ description: "透過 C# 在文件中建立並修改 OLE 嵌入。"
 type: docs
 weight: 360
 url: /zh-hant/net/working-with-ole-objects/
+timestamp: 2024-01-27-14-07-04
 ---
 
 OLE（物件聯結與嵌入）是一種技術，讓使用者可以作業於由第三方應用程式所建立的或編輯的物件所包含的文件。 也就是說，ole允許編輯應用程式將這些物件輸出到另一個編輯應用程式並再輸入它們，並附帶額外的內容。

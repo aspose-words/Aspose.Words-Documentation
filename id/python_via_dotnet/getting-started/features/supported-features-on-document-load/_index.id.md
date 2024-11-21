@@ -7,6 +7,7 @@ description: "Muat dokumen Anda dalam format apa pun yang didukung menggunakan P
 type: docs
 weight: 20
 url: /id/python-net/supported-features-on-document-load/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words berupaya mendukung semua fitur untuk semua format yang didukung. Hampir semua fitur dokumen Microsoft Word didukung dan dipertahankan dengan setia selama konversi. Dengan menggunakan Aspose.Words Anda dapat memuat dan mengonversi dokumen dengan ukuran berapa pun dan dapat dengan mudah menangani konversi dokumen yang terdiri dari ribuan halaman dalam hitungan detik. Satu-satunya batasan adalah jumlah memori kerja yang tersedia pada mesin.

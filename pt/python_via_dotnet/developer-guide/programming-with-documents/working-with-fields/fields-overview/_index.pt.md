@@ -7,6 +7,7 @@ description: "Você pode acessar a modificação de campo usando Python. Os camp
 type: docs
 weight: 10
 url: /pt/python-net/fields-overview/
+timestamp: 2024-10-21-11-17-44
 ---
 
 

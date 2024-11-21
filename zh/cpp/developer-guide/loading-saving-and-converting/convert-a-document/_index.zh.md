@@ -1,4 +1,4 @@
-﻿---
+---
 title: 用C++转换文档
 second_title: Aspose.Words对于C++
 articleTitle: 转换文档
@@ -8,6 +8,7 @@ description: "使用C++轻松地将文档从一种格式转换为另一种格式
 keywords: "convert a document c++, convert documents from one format to another c++, convert to markdown c++, convert pdf to docx C++, convert docx to pdf C++, convert doc to pdf C++, convert a document Aspose for C++"
 weight: 30
 url: /zh/cpp/convert-a-document/
+timestamp: 2024-09-25-11-08-55
 ---
 
 能够轻松可靠地将文档从一种格式转换为另一种格式是Aspose.Words的主要特征领域之一。 这样的转换只不过是加载和保存操作的组合。

@@ -7,6 +7,7 @@ description: "وضع خصائص متقدمة عند توفير وثيقة باس
 type: docs
 weight: 20
 url: /ar/java/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 عندما تنقذ وثيقة، يمكنك وضع بعض الممتلكات المتقدمة. Aspose.Words يزودك بـ [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/) الطبقة التي تسمح بمراقبة أكثر دقة لعملية الإنقاذ هناك تحميلات زائدة **Save** طريقة تقبل **SaveOptions** الجسم - ينبغي أن يكون هدفا لفئة مستمدة من **SaveOptions** صف لكل شكل من أشكال الادخار طبقة مناظرة تحتفظ بخيارات لشكل الادخار هذا، على سبيل المثال، هناك [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) للادخار في شكل PDF، [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) للادخار Markdown الشكل أو [ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/) لإنقاذ صورة تقدم هذه المادة أمثلة على العمل مع بعض فئات الخيارات المستمدة من **SaveOptions**.

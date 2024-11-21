@@ -1,4 +1,4 @@
-﻿---
+---
 title: Travailler avec Content Control SDT
 second_title: Aspose.Words pour C++
 articleTitle: Travailler avec Content Control SDT
@@ -7,6 +7,7 @@ type: docs
 description: "Gestion avancée du contenu des documents, comment créer et manipuler des contrôles de contenu (Balises de document structurées) à l'aide de C++."
 weight: 390
 url: /fr/cpp/structured-document-tags-or-content-control/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Dans Microsoft Word, vous pouvez créer un formulaire en commençant par un modèle et en ajoutant des contrôles de contenu, notamment des cases à cocher, des zones de texte, des sélecteurs de date et des listes déroulantes. Dans Aspose.Words, une balise de document structuré ou un contrôle de contenu de tout document chargé dans Aspose.Words est importé en tant que nœud StructuredDocumentTag. Les balises de document structurées (SDT ou content control) permettent d'intégrer la sémantique définie par le client ainsi que son comportement et son apparence dans un document. StructuredDocumentTag peut apparaître dans un document aux endroits suivants:

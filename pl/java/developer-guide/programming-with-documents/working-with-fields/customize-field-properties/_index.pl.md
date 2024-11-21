@@ -7,6 +7,7 @@ description: "Dowiedz się, jak dostosować właściwości pola w Java. Zmień n
 type: docs
 weight: 27
 url: /pl/java/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words zapewnia możliwość programowania interakcji z różnymi właściwościami pola. W tym artykule przyjrzymy się kilku przykładom, aby zrozumieć podstawową zasadę pracy z właściwościami pola. Możesz zobaczyć pełną listę właściwości dla każdego typu pola w odpowiedniej klasie.

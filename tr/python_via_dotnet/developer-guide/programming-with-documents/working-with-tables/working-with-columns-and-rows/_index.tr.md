@@ -7,6 +7,7 @@ description: "Python kullanarak bir tablonun satırları, sütunları ve hücrel
 type: docs
 weight: 30
 url: /tr/python-net/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Tabloların nasıl çalıştığı üzerinde daha fazla kontrol sahibi olmak için sütunları ve satırları nasıl değiştireceğinizi öğrenin.

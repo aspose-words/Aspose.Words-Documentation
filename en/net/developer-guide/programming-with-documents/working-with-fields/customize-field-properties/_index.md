@@ -7,6 +7,7 @@ description: "Learn how to customize field properties in C#. Rename merge fields
 type: docs
 weight: 27
 url: /net/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words provides the ability to programmatically interact with various field properties. In this article, we will look at a couple of examples so that you understand the basic principle of working with field properties. You can see the full list of properties for each field type in the corresponding class in the [Fields namespace](https://reference.aspose.com/words/net/aspose.words.fields/).

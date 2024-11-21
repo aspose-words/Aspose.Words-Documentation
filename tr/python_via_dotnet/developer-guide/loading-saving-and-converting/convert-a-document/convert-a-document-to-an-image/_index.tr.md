@@ -7,6 +7,7 @@ type: docs
 description: "Bir belgeyi resim formatına (JPG, PNG, vb.) dönüştürün. Python kullanarak fatura göndermek için bir belge önizlemesi oluşturun veya belge taraması oluşturun."
 weight: 43
 url: /tr/python-net/convert-a-document-to-an-image/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bazen DOCX veya PDF gibi diğer formatlardaki belgeler yerine resim almak gerekebilir. Örneğin, web sitenize veya uygulamanıza herhangi bir belge sayfasının önizlemesini eklemeniz veya fatura göndermek için bir belgenin "taranmasını" oluşturmanız gerekir. Bu, herhangi bir [desteklenen yükleme biçimi](https://reference.aspose.com/words/python-net/aspose.words/loadformat/)'deki bir belgeyi yine herhangi bir [desteklenen kaydetme biçimi](https://reference.aspose.com/words/python-net/aspose.words/saveformat/)'deki bir görüntüye dönüştürmeniz gerekebileceği zamandır.

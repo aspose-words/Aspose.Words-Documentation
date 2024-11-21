@@ -7,6 +7,7 @@ description: "Buat dan kelola gambar berbagai format dalam dokumen menggunakan P
 type: docs
 weight: 300
 url: /id/python-net/working-with-images/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words memungkinkan pengguna bekerja dengan gambar dengan cara yang sangat fleksibel. Pada artikel ini, Anda hanya dapat menjelajahi beberapa kemungkinan bekerja dengan gambar.

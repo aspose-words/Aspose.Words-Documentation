@@ -7,6 +7,7 @@ description: "Drukuj dokument używając Java przez Ustawienia, Podgląd wydruku
 type: docs
 weight: 55
 url: /pl/java/print-a-document-programmatically-or-using-dialogs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ten artykuł opisuje sposób drukowania dokumentu przetwarzającego słowo Aspose.Words API. Pokazuje również metody drukowania dokumentu z ustawieniami, podglądem wydruku i dialogami postępu drukowania.

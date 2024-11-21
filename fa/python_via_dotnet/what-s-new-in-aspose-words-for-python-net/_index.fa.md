@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words برای Python via .NET روزانه گسترش می یابد و بهبود می یابد. در این صفحه می توانید با ویژگی های عظیم و جالب این محصول آشنا شوید."
 weight: 10
 url: /fa/python-net/what-s-new-in-aspose-words-for-python-net/
+timestamp: 2024-11-18-12-56-02
 ---
 
 این صفحه جالب ترین ویژگی های جدید Aspose.Words معرفی شده در نسخه های اخیر را شرح می دهد.

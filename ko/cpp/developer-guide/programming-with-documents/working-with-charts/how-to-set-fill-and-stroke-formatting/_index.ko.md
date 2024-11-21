@@ -1,4 +1,4 @@
-﻿---
+---
 title: 차트 작업 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 차트 작업
@@ -7,6 +7,7 @@ description: "차트 기능 소개,다음을 사용하여 차트를 만들고 �
 type: docs
 weight: 170
 url: /ko/cpp/how-to-set-fill-and-stroke-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 차트 계열,데이터 요소 및 마커에 대해 채우기 및 획 서식을 설정할 수 있습니다. 이렇게하려면,당신은의 속성을 사용해야합니다 **ChartFormat** 입력 **ChartSeries**, **ChartDataPoint**,그리고 **ChartMarker** 클래스뿐만 아니라 다음과 같은 일부 속성에 대한 별칭 ForeColor, BackColor,눈에 보이는,그리고 투명성 `Stroke` 수업

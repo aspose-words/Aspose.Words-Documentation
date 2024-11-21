@@ -1,4 +1,4 @@
-﻿---
+---
 title: Làm Việc Với Hình ảnh trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Làm Việc Với Hình Ảnh
@@ -7,6 +7,7 @@ type: docs
 description: "Giới thiệu Về Tính năng Hình ảnh, cách tạo và thao tác hình ảnh bằng C++."
 weight: 300
 url: /vi/cpp/working-with-images/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words cho phép người dùng làm việc với hình ảnh một cách rất linh hoạt. Trong bài viết này, bạn chỉ có thể khám phá một số khả năng làm việc với hình ảnh.

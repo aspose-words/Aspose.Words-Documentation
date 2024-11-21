@@ -8,6 +8,7 @@ description: "Zapisz dokument w dowolnym obsługiwanym formacie za pomocą Pytho
 keywords: "save a document python, save a document to file python, save a document to stream python, save a document Aspose python, save formats supported by Aspose.Words python"
 weight: 20
 url: /pl/python-net/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Większość zadań, które należy wykonać w Aspose.Words, obejmuje zapisanie dokumentu. Do zapisania dokumentu Aspose.Words udostępnia metodę [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) klasy [Document](https://reference.aspose.com/words/python-net/aspose.words/document/). Istnieją przeciążenia, które umożliwiają zapisanie dokumentu do pliku lub strumienia. Dokument można zapisać w dowolnym formacie zapisu obsługiwanym przez Aspose.Words. Aby zapoznać się z listą wszystkich obsługiwanych formatów zapisu, zobacz wyliczenie [SaveFormat](https://reference.aspose.com/words/python-net/aspose.words/saveformat/).

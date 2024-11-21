@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bir Belgeyi C++'de PDF'a Dönüştürün
 second_title: Aspose.Words için C++
 articleTitle: Bir Belgeyi PDF konumuna Dönüştürme
@@ -7,6 +7,7 @@ description: "Bir belgeyi C++ kullanarak PDF'ye dönüştürün. Word, OpenOffic
 type: docs
 weight: 10
 url: /tr/cpp/convert-a-document-to-pdf/
+timestamp: 2024-10-21-08-52-03
 ---
 
 Belgeleri bir formattan diğerine kolayca ve güvenilir bir şekilde dönüştürme yeteneği Aspose.Words 'ın önemli bir özelliğidir. Dönüştürmek için en popüler biçimlerden biri PDF 'dir – bir belgenin çeşitli platformlarda oluşturulması sırasında orijinal görünümünü koruyan sabit mizanpaj biçimidir. "Oluşturma" terimi, bir belgeyi sayfalandırılan veya sayfa kavramına sahip bir dosya biçimine dönüştürme işlemini tanımlamak için Aspose.Words 'da kullanılır.

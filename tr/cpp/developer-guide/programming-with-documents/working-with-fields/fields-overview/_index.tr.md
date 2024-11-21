@@ -1,4 +1,4 @@
-﻿---
+---
 title: Alanlara Genel Bakış C++
 second_title: Aspose.Words için C++
 articleTitle: Alanlara Genel Bakış
@@ -7,6 +7,7 @@ description: "Alanlar ayrıntılarda, alan kodlarında ve açıklanan alan sonu�
 type: docs
 weight: 10
 url: /tr/cpp/fields-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words, Microsoft Word belgelerin sunucu tarafında işlenmesi için tasarlanmış bir sınıf kitaplığıdır ve alanları aşağıdaki şekillerde destekler:

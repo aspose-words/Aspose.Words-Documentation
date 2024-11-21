@@ -7,6 +7,7 @@ description: "За допомогою python ви можете зібрати і
 type: docs
 weight: 390
 url: /uk/python-net/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
 У Microsoft Word, Ви можете створити форму, починаючи з шаблону і додаючи контроль вмісту, включаючи прапорці, текстові коробки, дати пікселики і випадаючі списки. У <span notrans="<span notrans=" Aspose.Words"=""></span>, > Конструктивний тег документа або контроль вмісту з будь-якого документа, завантаженого в Aspose.Words імпортується як [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) вузол. Структуровані теги документів (SDT або контроль вмісту) дозволяють вбудовувати індивідуальну семантику, а також її поведінку та зовнішній вигляд у документ. [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) може виникнути в документі в наступних місцях:

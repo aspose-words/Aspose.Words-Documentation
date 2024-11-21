@@ -1,4 +1,4 @@
-﻿---
+---
 title: MFontความพร้อมใช้งานและการทดแทนในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: ความพร้อมใช้งานแบบอักษรและการทดแทน
@@ -7,6 +7,7 @@ description: "เมื่อไม่พบแบบอักษรทดแท
 type: docs
 weight: 12
 url: /th/cpp/font-availability-and-substitution/
+timestamp: 2024-09-24-14-35-44
 ---
 
 บทความเกี่ยวกับคอมพิวเตอร์ที่ยังไม่สมบูรณ์ เมื่อAspose.Wordsแสดงผลเอกสารจะพยายามเลือกแบบอักษรที่ระบุในเอกสาร.

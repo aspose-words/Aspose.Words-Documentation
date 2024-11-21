@@ -7,6 +7,7 @@ description: "Manual installation of the Aspose.Words for Reporting Services."
 type: docs
 weight: 30
 url: /reportingservices/installing-on-the-server-manually/
+timestamp: 2024-11-13-12-00-30
 ---
 
 {{% alert color="primary" %}}

@@ -7,6 +7,7 @@ description: "Kiểm soát chính xác hơn quá trình lưu bằng Python."
 type: docs
 weight: 10
 url: /vi/python-net/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Khi lưu tài liệu, bạn có thể đặt một số thuộc tính nâng cao. Aspose.Words cung cấp cho bạn lớp [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/), cho phép kiểm soát quá trình lưu chính xác hơn. Có quá nhiều phương thức [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) chấp nhận đối tượng [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) – nó phải là đối tượng của một lớp dẫn xuất từ lớp [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/). Mỗi định dạng lưu có một lớp tương ứng chứa các tùy chọn lưu cho định dạng lưu này, ví dụ: có [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) để lưu thành định dạng PDF hoặc [ImageSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/) để lưu vào hình ảnh. Bài viết này cung cấp các ví dụ về cách làm việc với một số lớp tùy chọn bắt nguồn từ [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/).

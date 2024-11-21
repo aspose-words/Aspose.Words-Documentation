@@ -7,6 +7,7 @@ description: "以 C# 將文件從幾乎任何格式轉換為 HTML 或 MHTML，�
 type: docs
 weight: 20
 url: /zh-hant/net/convert-a-document-to-html-mhtml-or-epub/
+timestamp: 2024-07-09-19-00-42
 ---
 
 在 HTML 和 MHTML 流式格式的文件也是非常受歡迎的，并且可以在任何网络平台中使用。 因此，將文件轉換為 HTML 和 MHTML 是 Aspose.Words 的一個重要功能。

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cloner un document en C++
 second_title: Aspose.Words pour C++
 articleTitle: Cloner un Document
@@ -7,6 +7,7 @@ type: docs
 description: "Cloner un document pour obtenir sa copie identique en utilisant C++. Lors de la création d'une copie, les nœuds et les propriétés du document d'origine sont clonés."
 weight: 70
 url: /fr/cpp/clone-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Le clonage d'un document est le processus de création d'une copie identique d'un document original, ce qui peut améliorer les performances et vous éviter d'éventuelles fuites de mémoire.

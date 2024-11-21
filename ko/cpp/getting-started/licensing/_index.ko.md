@@ -1,4 +1,4 @@
-﻿---
+---
 title: 라이선스 및 구독
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 라이선스 및 구독
@@ -7,6 +7,7 @@ description: "Aspose.Words 구입을위한 다른 계획을 제공하거나 라�
 type: docs
 weight: 60
 url: /ko/cpp/licensing/
+timestamp: 2024-10-24-11-44-28
 ---
 
 때로는 시스템을 더 잘 연구하기 위해 가능한 한 빨리 코드에 뛰어 들기를 원합니다. 이 작업을 더 쉽게 수행하려면, Aspose.Words 구매에 대한 다른 계획을 제공하거나 무료 평가판 및 평가를위한 30 일 임시 라이센스를 제공합니다.

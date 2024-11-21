@@ -7,6 +7,7 @@ description: "Einführung in Chart-Funktion, wie Sie Diagramme erstellen und man
 type: docs
 weight: 310
 url: /de/java/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Der neue [insertChart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertChart-int-double-double) Methode wurde in die [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) Klasse. So, mal sehen, wie man ein einfaches Spaltendiagramm in das Dokument einfügen kann **Einsatzbereich Diagramm** Methode.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Inserting Hyperlinks Dynamically in Java
 second_title: Aspose.Words for Java
 articleTitle: Inserting Hyperlinks Dynamically
@@ -7,6 +7,7 @@ description: "Insert hyperlinks into your document dynamically when building a r
 type: docs
 weight: 80
 url: /java/inserting-hyperlinks-dynamically/
+timestamp: 2024-01-27-14-07-04
 ---
 
 You can insert hyperlinks to your reports dynamically using `link` tags. Syntax of a `link` tag is defined as follows.

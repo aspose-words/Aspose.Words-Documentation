@@ -1,4 +1,4 @@
-﻿---
+---
 title: Menyimpan Dokumen sebagai Multipage TIFF di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Menyimpan Dokumen sebagai Multipage TIFF
@@ -7,6 +7,7 @@ description: "Konversikan dokumen menjadi multi-halaman TIFF menggunakan C++. Un
 type: docs
 weight: 40
 url: /id/cpp/saving-a-document-as-a-multipage-tiff/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Saat bekerja dengan dokumen, Anda sering kali perlu mengonversi dokumen Anda menjadi file gambar raster. Ini sangat relevan jika Anda harus menyajikan dokumen Anda dalam format yang dapat dibaca dan dicetak, tetapi tidak dapat diedit. Misalnya, Anda dapat menggunakan gambar raster dari halaman pertama dokumen Anda sebagai pratinjau. Artikel ini menjelaskan cara mengonversi dokumen menjadi gambar raster menggunakan contoh format TIFF - salah satu format gambar yang lebih populer.

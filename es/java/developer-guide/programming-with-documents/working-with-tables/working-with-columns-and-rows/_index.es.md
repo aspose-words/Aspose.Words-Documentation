@@ -7,6 +7,7 @@ description: "Trabajando con partes de una tabla – filas, columnas y células 
 type: docs
 weight: 30
 url: /es/java/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Para más control sobre cómo funcionan las tablas, aprenda a manipular columnas y filas.

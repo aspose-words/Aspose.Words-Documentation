@@ -1,4 +1,4 @@
-﻿---
+---
 title: Programare cu documente
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Programare cu documente
@@ -7,6 +7,7 @@ type: docs
 description: "Utilizați Aspose folosind `Python.Words` clase de model de obiect Document pentru a crea, modifica și gestiona programatic documente cu python-net. Lucrați cu proprietățile, setările și conținutul documentului, precum și cu aspectul documentului prin gestionarea culorilor, formelor, fonturilor și a altor elemente grafice."
 weight: 60
 url: /ro/python-net/programming-with-documents/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Această secțiune oferă informații despre modul de Creare, Modificare și gestionare programatică a documentelor cu clasele Aspose.Words Document Object Model. Articolele din această secțiune descriu o gamă largă de activități de manipulare a documentelor care vă permit să lucrați cu proprietățile documentului, setările, conținutul și elementele acestuia.

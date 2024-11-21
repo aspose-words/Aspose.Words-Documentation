@@ -7,6 +7,7 @@ description: "เพิ่มขนาด Microsoft Word คุณสมบั�
 type: docs
 weight: 110
 url: /th/java/working-with-styles-and-themes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 เดอะ [StyleCollection](https://reference.aspose.com/words/java/com.aspose.words/stylecollection/) คลาสถูกใช้เพื่อจัดการการตั้งค่าที่ผู้ใช้กําหนดมาสําหรับรูปแบบต่าง ๆ

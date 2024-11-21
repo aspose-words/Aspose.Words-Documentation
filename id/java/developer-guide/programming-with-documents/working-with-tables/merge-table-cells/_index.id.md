@@ -7,6 +7,7 @@ description: "Bagaimana cara menggabungkan sel tabel di JavaSitemap Periksa apak
 type: docs
 weight: 40
 url: /id/java/working-with-merged-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Kadang-kadang baris tertentu dalam tabel memerlukan judul atau blok teks besar yang mengambil lebar penuh dari tabel. Untuk desain meja yang tepat, pengguna dapat menggabungkan beberapa sel meja menjadi satu. Aspose.Words mendukung sel yang digabungkan saat bekerja dengan semua format input, termasuk mengimpor konten HTML.

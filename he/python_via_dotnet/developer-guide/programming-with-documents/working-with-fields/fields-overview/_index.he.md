@@ -7,6 +7,7 @@ description: "אתה יכול לגשת שדה שינוי באמצעות Python. 
 type: docs
 weight: 10
 url: /he/python-net/fields-overview/
+timestamp: 2024-10-21-11-17-44
 ---
 
 

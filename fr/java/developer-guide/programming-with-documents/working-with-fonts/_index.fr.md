@@ -7,6 +7,7 @@ description: "Formatage des polices dans les détails en utilisant Java."
 type: docs
 weight: 230
 url: /fr/java/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Une police est un ensemble de caractères avec une certaine taille, couleur et design. Aspose.Words vous permet de travailler avec des polices en utilisant différentes classes de police, y compris le [Font](https://reference.aspose.com/words/java/com.aspose.words/font/) En cours.

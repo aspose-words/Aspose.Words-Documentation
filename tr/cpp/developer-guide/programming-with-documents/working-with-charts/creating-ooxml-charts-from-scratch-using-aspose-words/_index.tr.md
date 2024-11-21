@@ -1,4 +1,4 @@
-﻿---
+---
 title: Sıfırdan OOXML Grafikler Oluşturma
 second_title: Aspose.Words için C++
 articleTitle: Sıfırdan OOXML Grafikler Oluşturma
@@ -7,6 +7,7 @@ description: "C++ kullanarak belgenizde farklı grafikler nasıl oluşturulur."
 type: docs
 weight: 10
 url: /tr/cpp/creating-ooxml-charts-from-scratch-using-aspose-words/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words kullanarak Sıfırdan OOXML Grafikler Oluşturma

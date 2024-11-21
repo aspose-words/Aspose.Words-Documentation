@@ -7,6 +7,7 @@ description: "רישוי Aspose.Words עבור Android באמצעות Java."
 type: docs
 weight: 60
 url: /he/java/licensing-android/
+timestamp: 2024-02-02-12-07-36
 ---
 
 לפעמים, כדי ללמוד את המערכת בצורה טובה יותר, אתה רוצה לצלול לתוך הקוד מהר ככל האפשר. כדי להקל על זה, Aspose.Words מספק תוכניות שונות לרכישת או מציע משפט חינם ורישיון זמני של 30 יום להערכה.

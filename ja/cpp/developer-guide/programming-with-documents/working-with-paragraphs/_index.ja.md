@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++での段落の操作
 second_title: C++の場合Aspose.Words
 articleTitle: 段落の操作
@@ -7,6 +7,7 @@ description: "段落ノードの操作は、C++を使用して実践していま
 type: docs
 weight: 210
 url: /ja/cpp/working-with-paragraphs/
+timestamp: 2024-01-30-16-22-34
 ---
 
 段落は、論理ブロックに結合され、特殊文字で終わる文字のセットです–a*paragraph break*。 Aspose.Wordsでは、段落は[Paragraph](https://reference.aspose.com/words/cpp/aspose.words/paragraph/)クラスで表されます。

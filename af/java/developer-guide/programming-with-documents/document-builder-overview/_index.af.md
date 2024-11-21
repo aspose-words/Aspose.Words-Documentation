@@ -1,4 +1,4 @@
-﻿---
+---
 title: Dokumentbouer Oorsig in Java
 second_title: Aspose.Words vir Java
 articleTitle: Dokumentbouer Oorsig
@@ -7,6 +7,7 @@ type: docs
 description: "DocumentBuilder laat jou toe om dinamiese dokumente van nuuts af te bou of nuwe elemente by bestaande te voeg. DocumentBuilder bied metodes om teks, checkboxes, tabelle, beelde en ander inhoud elemente in Java in te voeg."
 weight: 30
 url: /af/java/document-builder-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) is'n kragtige klas wat met [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) assosieer en jou in staat stel om dinamiese dokumente van nuuts af te bou of nuwe elemente by'n bestaande een te voeg.

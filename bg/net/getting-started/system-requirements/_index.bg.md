@@ -7,6 +7,7 @@ description: "Преди да започнете да работите с Aspose
 type: docs
 weight: 70
 url: /bg/net/system-requirements/
+timestamp: 2024-02-01-16-17-05
 ---
 
 Aspose.Words вместо .NET не изисква продукт на трета страна като Microsoft Word да бъде инсталиран. Aspose.Words сам по себе си е двигател за създаване, промяна, преобразуване и предаване на документи в различни формати, включително Microsoft Word формат на документите.

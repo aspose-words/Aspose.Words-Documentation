@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içindeki Office Eklentileriyle Çalışma
 second_title: Aspose.Words için C++
 articleTitle: Office Eklentileriyle Çalışma
@@ -7,6 +7,7 @@ description: "Aspose.Words için C++ Office Eklentileriyle çalışmak için çe
 type: docs
 weight: 50
 url: /tr/cpp/work-with-office-add-ins/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bazen belgeleri değiştirmek için kod çalıştıran arabirim denetimlerine erişim vermek isteyebilirsiniz. Aspose.Words API, Office Eklentilerini temsil etmek için XML kelime dağarcığını genişleten öğeleri ve öznitelikleri özelleştirmek için çeşitli sınıflar veren `WebExtensions` ad alanını sağlar.

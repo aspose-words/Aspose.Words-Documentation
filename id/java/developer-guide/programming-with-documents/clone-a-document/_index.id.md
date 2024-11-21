@@ -7,6 +7,7 @@ type: docs
 description: "Klon dokumen untuk mendapatkan salinannya yang identik. Saat membuat salinan, node dan sifat dokumen asli dikloning menggunakan JavaSitemap"
 weight: 70
 url: /id/java/clone-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Menutup dokumen adalah proses pembuatan salinan dokumen asli yang identik, yang dapat meningkatkan kinerja dan menyimpan Anda dari kebocoran memori potensial.

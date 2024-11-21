@@ -7,6 +7,7 @@ description: "Tabel kolom Konten dalam rincian. Cara membuat dan memodifikasi `T
 type: docs
 weight: 170
 url: /id/java/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Seringkali Anda akan bekerja dengan dokumen yang mengandung tabel konten (TOC). Sitemap Aspose.Words Anda dapat memasukkan tabel konten Anda sendiri atau sepenuhnya membangun kembali tabel konten yang ada dalam dokumen hanya menggunakan beberapa baris kode.

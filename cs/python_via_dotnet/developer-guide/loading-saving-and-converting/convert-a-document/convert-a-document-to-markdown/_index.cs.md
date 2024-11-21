@@ -8,6 +8,7 @@ description: "Převést dokument v jakémkoli podporovaném formátu zatížení
 keywords: how to convert a document to markdown python
 weight: 40
 url: /cs/python-net/convert-a-document-to-markdown/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Markdown je populární formát používaný k připsání textu a jeho další konverzi na HTML, PDF, DOCX nebo jiné formáty. Mnoho vývojářů si tento formát vybere pro psaní dokumentace, přípravu článků pro publikaci na blogech, popis projektů a tak dále.

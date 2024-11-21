@@ -7,6 +7,7 @@ description: "Dış veritabanından belge tablosunu doldurmanın bir örneği Ja
 type: docs
 weight: 130
 url: /tr/java/how-to-build-a-table-from-a-datatable/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Çok sık, uygulamanız veritabanından veri çekecek ve onu bir **DataTable** biçiminde depolayacak. Bu veriyi belgenize yeni bir tablo olarak kolayca eklemek ve tüm tabloya hızlıca bir biçimlendirme uygulamak isteyebilirsiniz.

@@ -7,6 +7,7 @@ description: "Koppeling gebruiken voor een compactere bewerking van tekst met be
 type: docs
 weight: 220
 url: /nl/net/working-with-hyphenation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Soms is het nodig om koppeltekening te gebruiken voor een compactere opstelling van tekst in een document. Tegelijkertijd is het belangrijk om te begrijpen dat de specifieke eigenschappen van woordafschrift kunnen verschillen voor elke taal.

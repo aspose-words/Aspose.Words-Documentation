@@ -8,6 +8,7 @@ description: "บันทึกเอกสารในรูปแบบที
 keywords: "save a document python, save a document to file python, save a document to stream python, save a document Aspose python, save formats supported by Aspose.Words python"
 weight: 20
 url: /th/python-net/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 งานส่วนใหญ่ที่คุณต้องดำเนินการกับ Aspose.Words คือการบันทึกเอกสาร ในการบันทึกเอกสาร Aspose.Words ให้วิธีการ [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) ของคลาส [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) มีการโอเวอร์โหลดที่ทำให้สามารถบันทึกเอกสารลงในไฟล์หรือสตรีมได้ สามารถบันทึกเอกสารในรูปแบบบันทึกใดก็ได้ที่ Aspose.Words รองรับ สำหรับรายการรูปแบบการบันทึกที่รองรับทั้งหมด โปรดดูการแจงนับ [SaveFormat](https://reference.aspose.com/words/python-net/aspose.words/saveformat/)

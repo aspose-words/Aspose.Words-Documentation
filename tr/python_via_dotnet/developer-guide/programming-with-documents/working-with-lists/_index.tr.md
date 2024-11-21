@@ -7,6 +7,7 @@ description: "Python kullanarak bir belgede listeler oluşturun, biçimlendirmey
 type: docs
 weight: 200
 url: /tr/python-net/working-with-lists/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word belgesindeki liste, bir dizi liste biçimlendirme özelliğidir. Listeler, metni biçimlendirmek, düzenlemek ve vurgulamak için belgelerinizde kullanılabilir. Listeler, belgelerdeki verileri düzenlemenin harika bir yoludur ve okuyucuların önemli noktaları anlamasını kolaylaştırır

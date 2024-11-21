@@ -7,6 +7,7 @@ description: "Combinați documentele în una: inserați sau atașați un documen
 type: docs
 weight: 80
 url: /ro/net/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uneori este necesar să combinați mai multe documente într-unul singur. Poţi să faci asta manual sau poţi folosi caracteristica Aspose.Words inserare sau apendere.

@@ -7,6 +7,7 @@ type: docs
 description: "Konversi dokumen ke format gambar (JPG, PNG, dll). Buat pratinjau dokumen atau buat pemindaian dokumen untuk mengirim faktur menggunakan JavaSitemap"
 weight: 35
 url: /id/java/convert-a-document-to-an-image/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Terkadang diperlukan untuk mendapatkan gambar bukan dokumen dalam format lain, seperti DOCX atau PDF. Misalnya, Anda perlu menambahkan pratinjau dari setiap halaman dokumen ke situs web atau aplikasi Anda atau membuat "scan" dokumen untuk mengirim faktur. Ini adalah ketika Anda mungkin perlu mengonversi dokumen di setiap Meme it [Sitemap](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) ke gambar, lagi, di mana pun [Login](https://reference.aspose.com/words/java/com.aspose.words/saveformat/)Sitemap

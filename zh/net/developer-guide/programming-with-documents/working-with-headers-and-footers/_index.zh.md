@@ -7,6 +7,7 @@ description: "如何使用 C# 操作页眉和页脚。创建页眉和页脚 C#�
 type: docs
 weight: 150
 url: /zh/net/working-with-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words 允许用户在文档中使用页眉和页脚。页眉是放置在页面顶部的文本，页脚是放置在页面底部的文本。通常，这些区域用于插入应在文档的所有页面或某些页面上重复的信息，例如页码、创建日期、公司信息等。

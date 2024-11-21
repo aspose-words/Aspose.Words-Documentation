@@ -7,6 +7,7 @@ description: "فیلدها را به روش های مختلف در یک سند �
 type: docs
 weight: 20
 url: /fa/python-net/inserting-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 چندین روش مختلف برای درج فیلدها در یک سند وجود دارد:

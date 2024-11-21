@@ -7,6 +7,7 @@ type: docs
 description: "DocumentBuilder umožňuje vytvářet dynamické dokumenty od nuly nebo přidávat nové prvky k existujícím pomocí C#. DokumentBuilder poskytuje metody pro vložení textu, zaškrtávacích boxů, tabulek, obrázků a dalších prvků obsahu v .NET."
 weight: 30
 url: /cs/net/document-builder-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) je mocná třída, která spolupracuje s [Document](https://reference.aspose.com/words/net/aspose.words/document/) a umožňuje vytvářet dynamické dokumenty od nuly nebo přidávat nové prvky k existujícímu.

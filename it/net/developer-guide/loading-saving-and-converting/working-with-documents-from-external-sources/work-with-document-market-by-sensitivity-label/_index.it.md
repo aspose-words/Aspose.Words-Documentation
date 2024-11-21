@@ -7,6 +7,7 @@ description: "Converti Word con etichetta di riservatezza applicata in PDF utili
 type: docs
 weight: 30
 url: /it/net/work-with-document-market-by-sensitivity-label/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Le etichette di riservatezza di Microsoft Purview Information Protection ti consentono di classificare e proteggere i dati della tua organizzazione, assicurando al contempo che la produttività degli utenti e la loro capacità di collaborare non siano ostacolate. Dopo aver applicato un'etichetta di riservatezza a un documento, tutte le impostazioni di protezione configurate per tale etichetta vengono applicate al contenuto.

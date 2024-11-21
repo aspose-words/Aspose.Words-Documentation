@@ -7,6 +7,7 @@ description: "Travaillez avec des balises de documents structur√©s ou des contr√
 type: docs
 weight: 50
 url: /fr/net/structured-document-tags-or-content-control/
+timestamp: 2024-01-31-14-23-37
 ---
 
 

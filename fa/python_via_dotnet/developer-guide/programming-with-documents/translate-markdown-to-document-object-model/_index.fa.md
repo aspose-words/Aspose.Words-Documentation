@@ -7,6 +7,7 @@ type: docs
 description: "یک سند Markdown را به Document Object Model تبدیل کنید و با استفاده از Python برگردانید. بنابراین می توانید با Markdown موجود پیچیده کار کنید و به صورت برنامه ریزی شده یک سند Markdown را از ابتدا ایجاد کنید."
 weight: 20
 url: /fa/python-net/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 برای خواندن، دستکاری و اصلاح محتوا و قالب بندی یک سند، باید آن را به Aspose.Words Document Object Model (DOM) ترجمه کنید.

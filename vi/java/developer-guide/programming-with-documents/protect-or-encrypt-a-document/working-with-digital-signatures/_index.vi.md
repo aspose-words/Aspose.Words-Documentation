@@ -7,6 +7,7 @@ description: "Đánh dấu chữ ký số trên các tài liệu và phát hiệ
 type: docs
 weight: 30
 url: /vi/java/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Một chữ ký số là một thực hiện công nghệ của chữ ký điện tử để ký các tài liệu và xác thực người ký để đảm bảo rằng một tài liệu đã không được sửa đổi kể từ khi ký. Mỗi chữ ký số là duy nhất cho mỗi người ký vì tuân theo giao thức PKI để tạo ra cả khóa công khai và khóa riêng tư. Ký số vào một tài liệu bằng kỹ thuật số có nghĩa là tạo ra chữ ký sử dụng khóa riêng của người ký nơi mà một thuật toán toán học được sử dụng để mã hóa giá trị băm được tạo.

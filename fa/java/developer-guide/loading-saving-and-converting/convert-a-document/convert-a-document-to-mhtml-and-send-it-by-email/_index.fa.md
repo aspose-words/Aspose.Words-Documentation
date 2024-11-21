@@ -7,6 +7,7 @@ description: "تبدیل هر سند به فرمت MHTML و سپس ارسال آ
 type: docs
 weight: 30
 url: /fa/java/convert-a-document-to-mhtml-and-send-it-by-email/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words می تواند هر سند را به فرمت MHTML (Web Archive) تبدیل کند. این باعث می شود که استفاده از آن راحت باشد. Aspose.Words و `Aspose.Email` با هم شما می توانید یک سند پیش تعریف شده را در هر فرمت پشتیبانی مانند DOC، OOXML یا RTF بارگیری کنید. Aspose.Wordsآن را با داده ها پر کنید، سند حاصله را به عنوان MHTML ذخیره کنید و سپس آن را با استفاده از ایمیل ارسال کنید. `Aspose.Email`...

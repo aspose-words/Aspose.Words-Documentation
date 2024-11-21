@@ -1,4 +1,4 @@
-﻿---
+---
 title: 지정 TrueType 글꼴 위치 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 지정 TrueType 글꼴 위치
@@ -7,6 +7,7 @@ description: "다양한 지정 TrueType 글꼴 소스:시스템 폴더,사용자
 type: docs
 weight: 30
 url: /ko/cpp/specify-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 이 항목에서는 기본 동작에 대해 설명합니다 Aspose.Words 그것을 찾을 때 TrueType 운영 체제별 차이점을 포함한 글꼴 및 사용자 글꼴 소스를 지정하는 방법을 보여 줍니다.

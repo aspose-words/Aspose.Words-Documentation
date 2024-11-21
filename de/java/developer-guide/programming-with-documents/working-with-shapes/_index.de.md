@@ -7,6 +7,7 @@ type: docs
 description: "Einführung in die Form von Markup-Sprache, Erstellen von Formen verschiedener Typen mit Java."
 weight: 280
 url: /de/java/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Dieses Thema diskutiert, wie man mit Formen programmmatisch arbeitet Aspose.Words.

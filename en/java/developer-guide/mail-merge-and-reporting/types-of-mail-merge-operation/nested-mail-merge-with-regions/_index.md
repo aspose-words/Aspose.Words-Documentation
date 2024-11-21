@@ -1,4 +1,4 @@
-﻿---
+---
 title: Nested Mail Merge with Regions in Java
 second_title: Aspose.Words for Java
 articleTitle: Nested Mail Merge with Regions
@@ -11,6 +11,7 @@ description: "Perform a mail merge operation with nested regions. Nested merge i
 keywords: "mail merge with nested regions Java, Nested Mail Merge Regions"
 weight: 10
 url: /java/nested-mail-merge-with-regions/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In some scenarios, you may need to use nested mail merge with regions. Nested merge is a feature that enables you to merge hierarchical data from your data source into your merge template to easily populate your document. Basically, the hierarchical data is represented as a set of data items, and hierarchical relationships describe how the data items are related to each other (one item of data is the parent of another one).

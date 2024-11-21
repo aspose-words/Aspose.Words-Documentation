@@ -7,6 +7,7 @@ description: "Используя python, вы можете встроить се
 type: docs
 weight: 390
 url: /ru/python-net/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
 В Microsoft Word, Вы можете создать форму, начав с шаблона и добавив элементы управления контентом, включая галочки, текстовые поля, датчики и выпадающие списки. в <p notrans="<p notrans=" Aspose.Words"=""></p>"> Тег структурированного документа или управление контентом из любого документа, загруженного в Aspose.Words импортируется как [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) Узел. Теги структурированных документов (SDT или контент-контроль) позволяют встраивать в документ определенную клиентом семантику, а также ее поведение и внешний вид. [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) может происходить в документе в следующих местах:

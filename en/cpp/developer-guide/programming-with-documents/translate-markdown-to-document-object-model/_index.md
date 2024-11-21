@@ -7,6 +7,7 @@ type: docs
 description: "Tarnslate a Markdown document to Document Object Model and back using C++. So you can work with complex existing Markdown and programmatically create a Markdown document from scratch."
 weight: 20
 url: /cpp/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 To programmatically read, manipulate, and modify the content and formatting of a document, you need to translate it to the Aspose.Words Document Object Model (DOM).

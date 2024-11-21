@@ -7,6 +7,7 @@ description: "Utilisez la fonction de rendu Aspose.Words pour .NET pour formater
 type: docs
 weight: 20
 url: /fr/net/rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Nous utilisons le terme "rendu" dans Aspose.Words pour décrire le processus de conversion d'un document dans un format de fichier ou un support paginé ou ayant le concept de pages. Nous parlons du rendu d'un document en pages. Le diagramme suivant montre ce qu'est le rendu dans Aspose.Words.

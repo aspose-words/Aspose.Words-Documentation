@@ -7,6 +7,7 @@ description: "Create a new document easily and fast instead of using Apache POI.
 type: docs
 weight: 35
 url: /java/create-new-document-in-apache-poi-and-aspose-words/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Create New Document

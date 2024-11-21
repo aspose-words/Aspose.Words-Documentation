@@ -7,6 +7,7 @@ description: "ドキュメントVBAプロジェクトと連携 Javaお問い合�
 type: docs
 weight: 410
 url: /ja/java/working-with-vba-macros/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Visual Basic アプリケーション(VBA)用 Microsoft Word 機能性を拡張するために使用できるシンプルで強力なプログラミング言語です。 Aspose.Words API VBAプロジェクトソースコードにアクセスするための3つのクラスを提供しています。

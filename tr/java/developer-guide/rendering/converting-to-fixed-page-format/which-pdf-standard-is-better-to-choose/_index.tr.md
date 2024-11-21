@@ -7,6 +7,7 @@ description: "Programlama görevinizden elde ettiğiniz sonucu dışarı aktarma
 type: docs
 weight: 27
 url: /tr/java/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bazı görevler için bazı PDF standartları daha iyi uyacak ya da tersi daha kötü olacak. Bu makalede hangi PDF standartlarının hangi durumlarda seçilmesi gerektiği belirlemeye çalışacağız.

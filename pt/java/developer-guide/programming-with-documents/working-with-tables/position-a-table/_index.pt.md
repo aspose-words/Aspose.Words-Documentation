@@ -7,6 +7,7 @@ description: "Especifique a posição da tabela em Java. Obter um alinhamento de
 type: docs
 weight: 50
 url: /pt/java/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Há mesas flutuantes e tabelas inline:

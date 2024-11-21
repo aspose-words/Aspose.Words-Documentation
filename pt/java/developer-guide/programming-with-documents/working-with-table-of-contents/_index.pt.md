@@ -7,6 +7,7 @@ description: "Tabela do campo Conteúdo em detalhes. Como criar e modificar `TOC
 type: docs
 weight: 170
 url: /pt/java/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Muitas vezes você vai trabalhar com documentos contendo um índice (TOC). Usando Aspose.Words você pode inserir sua própria tabela de conteúdos ou reconstruir completamente a tabela existente de conteúdos no documento usando apenas algumas linhas de código.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: کار با محدوده در C++
 second_title: Aspose.Words برای C++
 articleTitle: کار با محدوده ها
@@ -7,6 +7,7 @@ description: "معرفی ویژگی Range در Aspose.Words برای C++."
 type: docs
 weight: 130
 url: /fa/cpp/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

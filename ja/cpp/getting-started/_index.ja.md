@@ -1,4 +1,4 @@
-﻿---
+---
 title: はじめに
 second_title: C++の場合Aspose.Words
 articleTitle: はじめに
@@ -7,6 +7,7 @@ type: docs
 description: "この導入を使用して C++の場合Aspose.Words あなたのビジネスのためのAspose.Wordsの価値の実現を開始するための基礎。"
 weight: 10
 url: /ja/cpp/getting-started/
+timestamp: 2024-09-25-11-08-55
 ---
 
 この入門書では、Aspose.Wordsの基礎について紹介します。 Aspose.Wordsを初めて使用するユーザーにとって、これは基本的な要件と機能を学ぶための最速の方法です。

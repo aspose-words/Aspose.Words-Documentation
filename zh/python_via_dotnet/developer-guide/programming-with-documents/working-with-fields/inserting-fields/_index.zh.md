@@ -7,6 +7,7 @@ description: "以不同的方式将字段插入到 Python 文档中：使用 `Do
 type: docs
 weight: 20
 url: /zh/python-net/inserting-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 有几种不同的方法可以将字段插入到文档中：

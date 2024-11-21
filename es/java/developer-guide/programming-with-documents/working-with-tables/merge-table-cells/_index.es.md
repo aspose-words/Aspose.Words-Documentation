@@ -7,6 +7,7 @@ description: "Cómo combinar las células de mesa en Java. Compruebe si las cél
 type: docs
 weight: 40
 url: /es/java/working-with-merged-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Algunas veces ciertas filas en una tabla requieren una partida o grandes bloques de texto que toman el ancho completo de la tabla. Para el diseño adecuado de la tabla, el usuario puede combinar varias celdas de mesa en una. Aspose.Words soporta células fusionadas al trabajar con todos los formatos de entrada, incluyendo la importación de contenido HTML.

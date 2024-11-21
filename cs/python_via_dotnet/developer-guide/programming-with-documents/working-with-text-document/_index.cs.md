@@ -7,6 +7,7 @@ description: "Práce s textovým dokumentem a úprava jeho objektů pomocí Pyth
 type: docs
 weight: 430
 url: /cs/python-net/working-with-text-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 V tomto článku se dozvíme, jaké možnosti mohou být užitečné pro práci s textovým dokumentem prostřednictvím Aspose.Words. Vezměte prosím na vědomí, že to není úplný seznam dostupných možností, ale jen příklad spolupráce s některými z nich.

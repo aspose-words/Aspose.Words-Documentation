@@ -7,6 +7,7 @@ description: "Jak wstawić pola do dokumentu za pomocą C# – poznaj różne sp
 type: docs
 weight: 20
 url: /pl/net/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Istnieje kilka różnych sposobów wstawiania pól do dokumentu:

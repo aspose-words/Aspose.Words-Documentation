@@ -7,6 +7,7 @@ description: "C# を使用した詳細なフォントの書式設定。 C#の強
 type: docs
 weight: 230
 url: /ja/net/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 フォントとは、特定のサイズ、色、デザインを持つ文字のセットです。 Aspose.Words では、[Fonts](https://reference.aspose.com/words/net/aspose.words.fonts/) 名前空間と [Font](https://reference.aspose.com/words/net/aspose.words/font/) クラスを使用してフォントを操作できます。

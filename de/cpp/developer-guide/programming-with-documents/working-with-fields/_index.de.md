@@ -1,4 +1,4 @@
-﻿---
+---
 title: Arbeiten mit Feldern in C++
 second_title: Aspose.Words für C++
 articleTitle: Arbeiten mit Feldern
@@ -7,6 +7,7 @@ description: "Einführung in die Feldfunktion in Aspose.Words für C++."
 type: docs
 weight: 370
 url: /de/cpp/working-with-fields/
+timestamp: 2024-01-30-16-22-34
 ---
 
 **Datenfelder**

@@ -7,6 +7,7 @@ type: docs
 weight: 10
 url: /ja/java/create-or-load-a-document/
 description: "Aspose.Words 空白の文書を作成するか、ファイルから読み込むか、または使用するストリーム Javaお問い合わせ"
+timestamp: 2024-01-27-14-07-04
 ---
 
 あなたが実行したいほとんどすべてのタスク Aspose.Words 文書の読み込みを伴う。 ザ・オブ・ザ・ `Document` クラスはメモリに読み込まれたドキュメントを表します。 ドキュメントには複数のオーバーロードコンストラクタがあり、空白のドキュメントを作成したり、ファイルやストリームからロードしたりすることができます。 ドキュメントは、サポートされている任意のロード形式にロードすることができます Aspose.Wordsお問い合わせ すべてのサポートされているロードフォーマットのリストについては、 [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) パンフレット

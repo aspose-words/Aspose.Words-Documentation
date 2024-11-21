@@ -7,6 +7,7 @@ description: "Créez, gérez et supprimez des en-têtes et des pieds de page dan
 type: docs
 weight: 150
 url: /fr/python-net/working-with-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words permet aux utilisateurs de travailler avec les en-têtes et les pieds de page d'un document. Un en-tête est un texte placé en haut d'une page et un pied de page est un texte placé en bas d'une page. Généralement, ces zones sont utilisées pour insérer des informations qui doivent être répétées sur toutes ou certaines pages du document, telles que les numéros de page, la date de création, les informations sur l'entreprise, etc.

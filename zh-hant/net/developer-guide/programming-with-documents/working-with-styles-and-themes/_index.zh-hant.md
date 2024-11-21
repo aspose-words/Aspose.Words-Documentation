@@ -7,6 +7,7 @@ description: " gelişmiş Microsoft Word biçimlendirme özellikleri, C# kullana
 type: docs
 weight: 110
 url: /zh-hant/net/working-with-styles-and-themes/
+timestamp: 2024-10-24-11-44-28
 ---
 
 [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/)類別用於管理內建設定和使用者定義的風格。

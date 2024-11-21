@@ -1,4 +1,4 @@
-﻿---
+---
 title: Saamvlans Tabel Selle in in Java
 second_title: Aspose.Words vir Java
 articleTitle: Saamvlans Tabel Selle
@@ -7,6 +7,7 @@ description: "Hoe om tabel selle saam te voeg in Java. Kyk of selle in'n tabel s
 type: docs
 weight: 40
 url: /af/java/working-with-merged-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Soms vereis sekere rye in'n tabel'n kop of groot blokke teks wat die volle breedte van die tabel beslaan. Vir behoorlike ontwerp van die tabel, kan die gebruiker verskeie tabel selle saamvoeg in een. Aspose.Words ondersteun saamgesmelte selle wanneer jy met alle invoerformate werk, insluitend die invoer van HTML inhoud.

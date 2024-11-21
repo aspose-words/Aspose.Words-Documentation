@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Velde in Java
 second_title: Aspose.Words vir Java
 articleTitle: Werk Met Velde
@@ -7,6 +7,7 @@ description: "Inleiding tot veldfunksie in Aspose.Words vir Java."
 type: docs
 weight: 370
 url: /af/java/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 **Velde**

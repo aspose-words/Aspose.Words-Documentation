@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içindeki Grafiklerle Çalışma
 second_title: Aspose.Words için C++
 articleTitle: Grafiklerle Çalışma
@@ -7,6 +7,7 @@ description: "Grafik özelliğine giriş, C++ kullanarak grafiklerin nasıl olu�
 type: docs
 weight: 310
 url: /tr/cpp/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/) sınıfına yeni [InsertChart](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertchart/) yöntemi eklendi. Öyleyse, [InsertChart](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertchart/) yöntemini kullanarak belgeye basit bir sütun grafiğinin nasıl ekleneceğini görelim.

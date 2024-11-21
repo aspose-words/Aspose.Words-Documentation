@@ -1,4 +1,4 @@
-﻿---
+---
 title: Dokumente in C++ einfügen und anhängen
 second_title: Aspose.Words für C++
 articleTitle: Dokumente einfügen und anhängen
@@ -7,6 +7,7 @@ description: "Kombinieren Sie Dokumente zu einem Dokument: Fügen Sie ein Dokume
 type: docs
 weight: 80
 url: /de/cpp/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Manchmal ist es erforderlich, mehrere Dokumente zu einem zu kombinieren. Sie können dies manuell tun oder die Aspose.Words Einfüge- oder Anhängefunktion verwenden.

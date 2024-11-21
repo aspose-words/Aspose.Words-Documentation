@@ -9,6 +9,7 @@ aliases: [/net/creating-or-loading-a-document/]
 description: "Create a blank document or to load it from a file or stream using C#."
 keywords: "create a document c#, load a document c#, create a blank document c#, load a document from file c#, load a document from stream c#, create a document Aspose .NET, load a document Aspose .NET, load formats supported by Aspose.Words .NET"
 weight: 10
+timestamp: 2024-07-09-19-00-42
 ---
 
 Almost any task that you want to perform with Aspose.Words involves loading a document. The `Document` class represents a document loaded into memory. The document has several overloaded constructors allowing you to create a blank document or to load it from a file or stream. The document can be loaded in any load format supported by Aspose.Words. For the list of all supported load formats, see the [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/) enumeration.

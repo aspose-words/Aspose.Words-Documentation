@@ -1,4 +1,4 @@
-﻿---
+---
 title: 커서가 있는 탐색 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 커서 탐색
@@ -7,6 +7,7 @@ description: "다음을 사용하여 단락,책갈피 또는 특정 문자와 �
 type: docs
 weight: 10
 url: /ko/cpp/navigation-with-cursor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 문서를 사용하는 동안 짧거나 긴 문서일지라도 문서를 탐색해야 합니다. 가상 커서를 사용한 탐색은 문서의 다른 노드 사이를 탐색하는 기능을 나타냅니다.

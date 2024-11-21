@@ -7,6 +7,7 @@ type: docs
 description: "透過 C# 克隆文件以取得其複製版本。 當建立一份複本時，原始文件的節點和屬性會複製出來。"
 weight: 70
 url: /zh-hant/net/clone-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 複製文件是建立原始文件的完全副本的過程，它可以改善效能並避免潛在的記憶體洩漏。

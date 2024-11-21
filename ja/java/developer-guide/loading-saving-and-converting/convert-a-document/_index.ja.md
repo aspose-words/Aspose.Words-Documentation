@@ -7,6 +7,7 @@ type: docs
 weight: 30
 url: /ja/java/convert-a-document/
 description: "1つのフォーマットから別のフォーマットに文書を簡単に変換できます。 最も人気のあるフォーマットをすべて使用できます Microsoft Word DOCX や DOC などのフォーマット, ODT や OTT などの OpenDocument フォーマット, HTML や XHTML などの Web フォーマット, MarkDown や TXT などのテキスト フォーマット, などの他の使用 Javaお問い合わせ"
+timestamp: 2024-09-25-11-08-55
 ---
 
 1つのフォーマットから別のフォーマットへの文書を容易にそして確実に変える能力は主要な特徴区域の1つです Aspose.Wordsお問い合わせ このような変換は、ローディングと節約の操作の組み合わせよりも何もありません。

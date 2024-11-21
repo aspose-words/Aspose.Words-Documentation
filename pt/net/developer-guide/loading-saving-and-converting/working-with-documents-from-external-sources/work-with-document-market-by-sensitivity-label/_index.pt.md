@@ -7,6 +7,7 @@ description: "Converta Word com etiqueta de sensibilidade aplicada em PDF usando
 type: docs
 weight: 30
 url: /pt/net/work-with-document-market-by-sensitivity-label/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Os rótulos de confidencialidade do Microsoft Purview Information Protection permitem classificar e proteger os dados da sua organização, garantindo ao mesmo tempo que a produtividade do usuário e sua capacidade de colaboração não sejam prejudicadas. Depois que um rótulo de confidencialidade é aplicado a um documento, todas as configurações de proteção definidas para esse rótulo são aplicadas ao conteúdo.

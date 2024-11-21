@@ -7,6 +7,7 @@ description: "Integreer klant-gedefinieerde semantiek en zijn gedrag en verschij
 type: docs
 weight: 50
 url: /nl/python-net/structured-document-tags-or-content-control/
+timestamp: 2024-01-31-14-23-37
 ---
 
 

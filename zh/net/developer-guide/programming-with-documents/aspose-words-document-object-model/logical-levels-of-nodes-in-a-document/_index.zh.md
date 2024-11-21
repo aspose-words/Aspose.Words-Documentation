@@ -7,6 +7,7 @@ type: docs
 description: "在 Aspose.Words for .NET 文档中提到了节点的逻辑级别 - 使用 C# 的块级别、内联级别或行级别。节点级别用于描述该节点在文档树中通常出现的位置。"
 weight: 10
 url: /zh/net/logical-levels-of-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 本文档有时将一组节点类称为属于文档中的"级别"，例如"块级"、"内联级"（也称为"内联"）或"行级"节点。文档中的这些级别纯粹是逻辑上区分的，并没有通过继承或其他 Aspose.Words DOM 方式明确表达。节点级别用于描述文档树中节点通常出现的位置。

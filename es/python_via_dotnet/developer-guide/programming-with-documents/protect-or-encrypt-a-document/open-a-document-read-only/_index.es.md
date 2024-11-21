@@ -7,6 +7,7 @@ description: "Haga que su documento sea de solo lectura para que el contenido pu
 type: docs
 weight: 10
 url: /es/python-net/open-a-document-read-only/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A veces, es posible que tenga un documento que necesite una revisión, pero no desee que los revisores modifiquen su contenido al azar. Aspose.Words le permite hacer que el permiso de su documento sea de solo lectura para que el contenido pueda copiarse o leerse, pero no modificarse. Esto evitará que se elimine o agregue contenido a su documento.

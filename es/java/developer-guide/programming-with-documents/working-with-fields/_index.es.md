@@ -7,6 +7,7 @@ description: "Introducción a la función de campo Aspose.Words para Java."
 type: docs
 weight: 370
 url: /es/java/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 **Fields** en un documento son como marcadores de posición donde se pueden insertar datos útiles. Por ejemplo, un campo puede ser una referencia de página, fórmula o un mail merge campo.

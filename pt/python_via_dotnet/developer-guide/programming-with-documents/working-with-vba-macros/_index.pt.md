@@ -7,6 +7,7 @@ description: "Crie, leia, grave, clone e gerencie macros VBA em um documento usa
 type: docs
 weight: 410
 url: /pt/python-net/working-with-vba-macros/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Visual Basic for Applications (VBA) para Microsoft Word é uma linguagem de programação simples, mas poderosa, que pode ser usada para estender a funcionalidade. Aspose.Words API fornece três classes para obter acesso ao código-fonte do projeto VBA:

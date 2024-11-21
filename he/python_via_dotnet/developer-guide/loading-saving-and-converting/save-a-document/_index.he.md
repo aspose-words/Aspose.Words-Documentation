@@ -8,6 +8,7 @@ description: "שמור מסמך בכל פורמט נתמך באמצעות Python
 keywords: "save a document python, save a document to file python, save a document to stream python, save a document Aspose python, save formats supported by Aspose.Words python"
 weight: 20
 url: /he/python-net/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 רוב המשימות שאתה צריך לבצע Aspose.Words כרוך בהצלת מסמך. להציל מסמך Aspose.Words מספק [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) שיטת [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) מעמד. יש עומסים המאפשרים שמירת מסמך לקובץ או לזרם. ניתן לשמור את המסמך בכל פורמט הצלה נתמך על ידי Aspose.Words. לרשימה של כל הפורמטים הנתמכות, ראה את [SaveFormat](https://reference.aspose.com/words/python-net/aspose.words/saveformat/) אזהרה.

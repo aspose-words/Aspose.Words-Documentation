@@ -1,4 +1,4 @@
-﻿---
+---
 title: So Sánh Tài liệu trong C++
 second_title: Aspose.Words cho C++
 articleTitle: So Sánh Tài Liệu
@@ -7,6 +7,7 @@ type: docs
 description: "So sánh hai tài liệu ở bất kỳ định dạng được hỗ trợ nào và hiển thị các thay đổi nội dung bằng C++. Bạn có thể áp dụng các tùy chọn nâng cao khi so sánh."
 weight: 60
 url: /vi/cpp/compare-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 So sánh tài liệu là một quá trình xác định các thay đổi giữa hai tài liệu và chứa các thay đổi dưới dạng sửa đổi. Quá trình này so sánh hai tài liệu bất kỳ, bao gồm các phiên bản của một tài liệu cụ thể, sau đó những thay đổi giữa cả hai tài liệu sẽ được hiển thị dưới dạng sửa đổi trong tài liệu đầu tiên.

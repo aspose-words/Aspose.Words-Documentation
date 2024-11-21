@@ -8,6 +8,7 @@ description: "`Python.Words` を使用して、PDF を DOCX、DOC などの Word
 keywords: convert pdf to other formats python
 weight: 45
 url: /ja/python-net/convert-pdf-to-other-document-formats/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words は PDF のような複雑な形式でも読み込むことができます。これにより、新たな機会が開かれます。PDF を Word またはその他の形式に変換することが可能になり、ユーザーは多くの応用問題の解決においてはるかに先を行くことができます。

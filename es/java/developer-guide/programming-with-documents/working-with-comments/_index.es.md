@@ -7,6 +7,7 @@ description: "Trabajar con comentarios utilizando Java."
 type: docs
 weight: 260
 url: /es/java/working-with-comments/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge Modèle en C++
 second_title: Aspose.Words pour C++
 articleTitle: Mail Merge Modèle
@@ -8,6 +8,7 @@ description: "Créez un modèle mail merge pour définir un contenu fixe dans le
 keywords: "create mail merge template с++"
 weight: 10
 url: /fr/cpp/mail-merge-template/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Il est courant d'utiliser un modèle de fusion comme document de base pour une opération mail merge, qu'il s'agisse d'un simple mail merge ou mail merge avec des régions. Mail merge avec des régions est plus puissant et populaire que le simple mail merge. Simple mail merge est considéré comme un cas particulier de mail merge avec des régions où la région est le document entier. Tout est expliqué dans le prochain article "Types d'opération Mail Merge" plus en détail.

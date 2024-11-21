@@ -7,6 +7,7 @@ description: "Feldergebnisse mit Python formatieren und auswerten."
 type: docs
 weight: 40
 url: /de/python-net/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Manchmal müssen Benutzer benutzerdefinierte Formatierungen auf Felder anwenden. In diesem Artikel sehen wir uns einige Beispiele an, wie dies bewerkstelligt werden kann.

@@ -7,6 +7,7 @@ description: "Leer hoe velden in verwijderen Java. Velden programmatisch verwijd
 type: docs
 weight: 35
 url: /nl/java/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Soms is het nodig om een veld uit het document te verwijderen. Dit kan voorkomen wanneer het wordt vervangen door een ander veldtype of wanneer het veld niet langer nodig is in het document. Bijvoorbeeld a `TOC` veld bij opslaan naar HTML.

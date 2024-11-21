@@ -1,4 +1,4 @@
-﻿---
+---
 title: Spécifier les options d'enregistrement en C++
 second_title: Aspose.Words pour C++
 articleTitle: Spécifier Les Options D'Enregistrement
@@ -7,6 +7,7 @@ description: "Contrôlez plus précisément le processus de sauvegarde."
 type: docs
 weight: 10
 url: /fr/cpp/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Lors de l'enregistrement d'un document, vous pouvez définir certaines propriétés avancées. Aspose.Words vous fournit la classe [SaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/), qui permet un contrôle plus précis du processus de sauvegarde. Il existe des surcharges de la méthode **Save** qui acceptent un objet **SaveOptions** – il doit s'agir d'un objet d'une classe dérivée de la classe **SaveOptions**. Chaque format de sauvegarde a une classe correspondante qui contient des options de sauvegarde pour ce format de sauvegarde, par exemple, il y a [PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/) pour enregistrer au format PDF, [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions) pour enregistrer au format Markdown ou [ImageSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/imagesaveoptions/) pour enregistrer dans une image. Cet article fournit des exemples d'utilisation de certaines classes d'options dérivées de **SaveOptions**.

@@ -7,6 +7,7 @@ description: "Aspose.Words místo Java poskytuje různé plány na nákup nebo n
 type: docs
 weight: 60
 url: /cs/java/licensing/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Někdy, abyste mohli lépe studovat systém, chcete se co nejrychleji ponořit do kódu. Aby to bylo jednodušší, Aspose.Words poskytuje různé plány na nákup nebo nabízí Free Trial a 30-denní dočasnou licenci na hodnocení.

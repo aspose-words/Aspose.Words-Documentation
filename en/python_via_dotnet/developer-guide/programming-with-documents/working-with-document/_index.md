@@ -8,6 +8,7 @@ description: "The `Document` class provides various document properties and meth
 weight: 40
 url: /python-net/working-with-document/
 aliases: [/python/working-with-document/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 The [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) class is central in Aspose.Words. It represents a document and provides various document properties and methods, such as saving or protecting the document. You use the [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) class as the starting point for whatever you want to perform with Aspose.Words: create a new document from scratch, open a template for a mail merge, or get different parts from a document.

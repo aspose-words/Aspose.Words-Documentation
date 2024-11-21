@@ -7,6 +7,7 @@ description: "Introduzione alle caselle di testo collegate Aspose.Words per Java
 type: docs
 weight: 250
 url: /it/java/working-with-linked-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In Aspose.Words, il [TextBox](https://reference.aspose.com/words/java/com.aspose.words/textbox/) classe viene utilizzata per specificare come viene visualizzato un testo all'interno di una forma. Fornisce una proprietà pubblica chiamata Parent per ottenere la forma del genitore per la casella di testo per consentire al cliente di trovare collegato [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) da collegato **TextBox**.

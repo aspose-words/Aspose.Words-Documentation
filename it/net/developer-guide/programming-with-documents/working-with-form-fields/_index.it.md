@@ -7,6 +7,7 @@ description: "Comprendere la funzionalità dei campi modulo, lavorare con i camp
 type: docs
 weight: 380
 url: /it/net/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un documento che contiene spazi vuoti (campi) è noto come modulo. Ad esempio, puoi creare un modulo di registrazione in Microsoft Word che utilizza elenchi a discesa da cui gli utenti possono selezionare le voci. Il campo `Form` è una posizione in cui viene archiviato un particolare tipo di dati, come un nome o un indirizzo. I campi del modulo in Microsoft Word includono input di testo, casella combinata e casella di controllo.

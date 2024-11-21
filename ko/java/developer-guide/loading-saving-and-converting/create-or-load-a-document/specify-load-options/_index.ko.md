@@ -7,6 +7,7 @@ description: "문서 로딩 시 고급 속성 설정 Java 공정의 더 정확�
 type: docs
 weight: 10
 url: /ko/java/specify-load-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 문서를 로딩하면 고급 속성을 설정할 수 있습니다. Aspose.Words 너와 함께 [LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/) Load Process의 정확한 제어를 허용하는 클래스. 몇몇 짐 체재에는 이 짐 체재를 위한 짐 선택권을 붙드는 대응 종류가 있습니다, 예를 들면, 거기 있습니다 [PdfLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/) PDF 형식 또는 [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) TXT에 선적을 위해. 이 문서는의 옵션과 작업의 예를 제공합니다 **LoadOptions** 수업.

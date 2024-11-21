@@ -7,6 +7,7 @@ description: "Aspose.Words Sitemap Java memungkinkan rendering dokumen yang dibu
 type: docs
 weight: 20
 url: /id/java/install-truetype-fonts-on-linux/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Paling sering, Anda akan menggunakan Aspose.Words untuk mengonversi dokumen DOC atau DOCX ke format PDF. Jika Anda perlu melakukan ini pada Meme it Linux mesin, topik ini akan membantu Anda untuk mempelajari cara memastikan Aspose.Words membuat dokumen Anda dengan akurasi terbaik.

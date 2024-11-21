@@ -7,6 +7,7 @@ description: "Cách thao tác chú thích cuối trang và chú thích cuối b�
 type: docs
 weight: 160
 url: /vi/net/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words cũng cung cấp một số lớp, phương thức và thuộc tính để làm việc với chú thích cuối trang và chú thích cuối trang.

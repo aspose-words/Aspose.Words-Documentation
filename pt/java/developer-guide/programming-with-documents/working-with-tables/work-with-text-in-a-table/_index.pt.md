@@ -7,6 +7,7 @@ description: "Substituir texto em uma tabela Java. Extrair texto simples da tabe
 type: docs
 weight: 60
 url: /pt/java/extract-text-from-and-replace-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Como mencionado em artigos anteriores, uma tabela geralmente contém texto simples, embora outros conteúdos como imagens ou até outras tabelas possam ser colocados em células de tabela.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Supporto tecnico
 second_title: Aspose.Words per C++
 articleTitle: Supporto tecnico
@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words per C++ fornisce supporto tecnico gratuito a disposizione di tutti gli utenti. Si prega di segnalare la tua domanda, problema, o richiesta di funzionalità utilizzando Aspose Forum di supporto gratuito."
 weight: 80
 url: /it/cpp/technical-support/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose fornisce supporto tecnico gratuito illimitato per tutti i suoi prodotti. Il supporto è disponibile per tutti gli utenti, inclusa la valutazione. La principale via di supporto è [Aspose.Forum](https://forum.aspose.com/c/words/8).

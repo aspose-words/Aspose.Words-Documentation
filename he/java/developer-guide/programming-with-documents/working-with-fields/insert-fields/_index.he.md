@@ -7,6 +7,7 @@ description: "דרכים שונות להכניס שדות לתוך המסמך ש
 type: docs
 weight: 20
 url: /he/java/insert-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ישנן מספר דרכים שונות להכניס שדות למסמך:

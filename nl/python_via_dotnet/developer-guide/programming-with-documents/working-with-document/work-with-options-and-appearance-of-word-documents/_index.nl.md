@@ -7,6 +7,7 @@ description: "Controleer het uiterlijk van Word-documenten rekening houdend met 
 type: docs
 weight: 40
 url: /nl/python-net/work-with-word-document-options-and-appearance/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Soms moet je het uiterlijk van een document veranderen, bijvoorbeeld taalvoorkeuren instellen of het aantal regels per pagina.Aspose.Words biedt de mogelijkheid om te controleren hoe het document zal worden weergegeven, evenals een aantal extra opties. Dit artikel beschrijft dergelijke mogelijkheden.

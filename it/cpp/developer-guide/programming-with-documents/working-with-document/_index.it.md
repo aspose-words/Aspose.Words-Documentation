@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lavorare con il documento in C++
 second_title: Aspose.Words per C++
 articleTitle: Lavorare con il documento
@@ -7,6 +7,7 @@ type: docs
 description: "La classe `Document` fornisce varie proprietà e metodi del documento che utilizzano C++. Si utilizza la classe `Document` come punto di partenza per tutto ciò che si desidera eseguire con Aspose.Words per C++. L'oggetto `Document` può essere salvato in un file o flusso e anche inviato a un browser."
 weight: 40
 url: /it/cpp/working-with-document/
+timestamp: 2024-01-30-16-22-34
 ---
 
 La classe [Document](https://reference.aspose.com/words/cpp/aspose.words/document/) è centrale in Aspose.Words. Rappresenta un documento e fornisce varie proprietà e metodi del documento, come il salvataggio o la protezione del documento. Si utilizza la classe **Document** come punto di partenza per tutto ciò che si desidera eseguire con Aspose.Words: creare un nuovo documento da zero, aprire un modello per un mail merge o ottenere parti diverse da un documento.

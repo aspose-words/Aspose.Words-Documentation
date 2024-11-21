@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu comentarii în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Lucrul cu comentarii
@@ -7,6 +7,7 @@ description: "Lucrul cu comentarii folosind C++."
 type: docs
 weight: 260
 url: /ro/cpp/working-with-comments/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

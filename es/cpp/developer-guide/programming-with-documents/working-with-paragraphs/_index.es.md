@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trabajar con párrafos en C++
 second_title: Aspose.Words para C++
 articleTitle: Trabajar con Párrafos
@@ -7,6 +7,7 @@ description: "Prácticas de manipulación de nodos de párrafo usando C++."
 type: docs
 weight: 210
 url: /es/cpp/working-with-paragraphs/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Un párrafo es un conjunto de caracteres combinados en un bloque lógico y terminando con un carácter especial: un *paragraph break*. En Aspose.Words, un párrafo está representado por la clase [Paragraph](https://reference.aspose.com/words/cpp/aspose.words/paragraph/).

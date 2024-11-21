@@ -7,6 +7,7 @@ description: "Bu belgeyi veritabanında çalışmak için bir bayt dizisi haline
 type: docs
 weight: 40
 url: /tr/java/serialize-and-work-with-a-document-in-a-database/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bir belge üzerinde çalışırken yapmanız gereken görevlerden biri, bir veritabanına ve geri alma işlemine **Document** nesneyi kaydetmek ve almak olabilir. Örneğin, bu, herhangi bir tür içerik yönetim sistemi uyguladığınızda gerekli olacaktır. Önceki tüm belge sürümleri veritabanı sisteminde depolanmalıdır. Uygulamanın web tabanlı bir hizmet sunduğu durumlarda belgeleri veritabanında depolama yeteneği de son derece kullanışlıdır.

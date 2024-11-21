@@ -7,6 +7,7 @@ description: "Come trovare alcune proprietà del campo come il codice di campo e
 type: docs
 weight: 25
 url: /it/net/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un campo inserito utilizzando [DocumentBuilder](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/insertfield/) restituisce un oggetto [Field](https://reference.aspose.com/words/it/net/aspose.words.fields/field/). Questa è una classe di facciata che fornisce metodi utili per trovare rapidamente alcune proprietà di un campo.

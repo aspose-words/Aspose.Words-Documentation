@@ -7,6 +7,7 @@ description: "Aspose.Words cho .NET cung cấp các gói mua khác nhau hoặc c
 type: docs
 weight: 55
 url: /vi/net/licensing/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Đôi khi, để nghiên cứu hệ thống tốt hơn, bạn muốn đi sâu vào mã càng nhanh càng tốt. Để thực hiện việc này dễ dàng hơn, Aspose.Words cung cấp các gói mua khác nhau hoặc cung cấp Bản dùng thử miễn phí và Giấy phép tạm thời 30 ngày để đánh giá.

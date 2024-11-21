@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trabajar con objetos OLE en C++
 second_title: Aspose.Words para C++
 articleTitle: Trabajar con Objetos OLE
@@ -7,6 +7,7 @@ description: "Cree y modifique incrustaciones OLE en su documento usando C++."
 type: docs
 weight: 360
 url: /es/cpp/working-with-ole-objects/
+timestamp: 2024-01-27-14-07-04
 ---
 
 OLE (Vinculación e incrustación de objetos) es una tecnología mediante la cual los usuarios pueden trabajar con documentos que contienen "objetos" creados o editados por aplicaciones de terceros. Es decir, OLE permite que una aplicación de edición exporte estos "objetos" a otra aplicación de edición y luego los importe con contenido adicional.

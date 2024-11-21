@@ -7,6 +7,7 @@ description: "Champ Table des matières en détails. Comment créer et modifier 
 type: docs
 weight: 170
 url: /fr/net/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Souvent, vous travaillerez avec des documents contenant une table des matières (TOC). En utilisant Aspose.Words, vous pouvez insérer votre propre table des matières ou reconstruire complètement la table des matières existante dans le document en utilisant seulement quelques lignes de code. Cet article explique comment utiliser le champ de table des matières et démontre:

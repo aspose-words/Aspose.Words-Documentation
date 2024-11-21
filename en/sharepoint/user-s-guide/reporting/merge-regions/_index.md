@@ -1,4 +1,4 @@
-﻿---
+---
 title: Merge Regions
 second_title: Aspose.Words for SharePoint
 articleTitle: Merge Regions
@@ -7,6 +7,7 @@ description: "Merge regions feature details of the Aspose.Words for SharePoint."
 type: docs
 weight: 30
 url: /sharepoint/merge-regions/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Every merge field in a report template must belong to a *region*. A region corresponds to a table in the report data source. A region also marks the part of the template, which is repeated for every data row in that table.

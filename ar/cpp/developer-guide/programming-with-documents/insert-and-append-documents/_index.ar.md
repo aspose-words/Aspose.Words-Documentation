@@ -1,4 +1,4 @@
-﻿---
+---
 title: إدراج وإلحاق المستندات في C++
 second_title: Aspose.Words ل C++
 articleTitle: إدراج المستندات وإلحاقها
@@ -7,6 +7,7 @@ description: "دمج المستندات في مستند واحد: أدخل أو 
 type: docs
 weight: 80
 url: /ar/cpp/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 في بعض الأحيان يكون مطلوبا دمج عدة مستندات في مستند واحد. يمكنك القيام بذلك يدويا أو يمكنك استخدام Aspose.Words إدراج أو إلحاق الميزة.

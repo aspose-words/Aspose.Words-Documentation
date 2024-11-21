@@ -1,4 +1,4 @@
-﻿---
+---
 title: Başlarken
 second_title: Aspose.Words için C++
 articleTitle: Başlarken
@@ -7,6 +7,7 @@ type: docs
 description: "Bu girişi aşağıdakiler için kullanın Aspose.Words için C++ işletmeniz için Aspose.Words değerinin farkına varmaya başlamanın temelleri."
 weight: 10
 url: /tr/cpp/getting-started/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Bu Başlangıç, Aspose.Words temellerine bir giriş sağlar. Aspose.Words 'a yeni başlayan kullanıcılar için bu, temel gereksinimleri ve yetenekleri öğrenmenin en hızlı yoludur.

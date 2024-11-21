@@ -7,6 +7,7 @@ type: docs
 description: "Vergleichen Sie zwei Dokumente in allen unterstützten Formaten und zeigt Inhaltsänderungen an. Sie können erweiterte Optionen beim Vergleich mit Java."
 weight: 60
 url: /de/java/compare-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Dokumente vergleichen ist ein Prozess, der Änderungen zwischen zwei Dokumenten identifiziert und die Änderungen als Revisionen enthält. Dieser Prozess vergleicht alle zwei Dokumente, einschließlich Versionen eines bestimmten Dokuments, dann werden die Änderungen zwischen beiden Dokumenten als Revisionen im ersten Dokument angezeigt.

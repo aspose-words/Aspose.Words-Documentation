@@ -1,4 +1,4 @@
-﻿---
+---
 title: Python și .NET diferențe de versiune
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Python și .NET diferențe de versiune
@@ -7,6 +7,7 @@ description: "Aspose.Words pentru Python via .NET este un înveliș de Aspose.Wo
 type: docs
 weight: 15
 url: /ro/python-net/python-notes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words pentru Python via .NET este un înveliș de Aspose.Words pentru .NET, de aceea cele două produse au aproape același set de caracteristici. Cu toate acestea, există unele nuanțe de lucru și diferențe în caracteristici și API, care sunt descrise pe această pagină.

@@ -7,6 +7,7 @@ description: "Tabla dividida en C#. Cómo dividir una tabla en dos tablas C# sep
 type: docs
 weight: 100
 url: /es/net/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Una tabla, representada en el modelo de objetos de documento Aspose.Words, se compone de filas y celdas independientes, lo que facilita la división de una tabla.

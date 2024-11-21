@@ -7,6 +7,7 @@ description: "Convertir un document en image raster, qui est discuté sur l'exem
 type: docs
 weight: 30
 url: /fr/java/saving-a-document-as-a-multipage-tiff/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Lorsque vous travaillez avec des documents, vous devez souvent convertir votre document en fichier d'image raster. Ceci est particulièrement pertinent si vous devez présenter votre document dans un format lisible et imprimable, mais non modifiable. Par exemple, vous pouvez utiliser une image raster de la première page de votre document comme un aperçu. Cet article décrit comment convertir un document en image raster en utilisant l'exemple du format TIFF – l'un des formats d'image les plus populaires.

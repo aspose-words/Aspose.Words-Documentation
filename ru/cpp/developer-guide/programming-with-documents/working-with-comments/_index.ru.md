@@ -1,4 +1,4 @@
-﻿---
+---
 title: Работа с комментариями в C++
 second_title: Aspose.Words для C++
 articleTitle: Работа с комментариями
@@ -7,6 +7,7 @@ description: "Работа с комментариями с использова
 type: docs
 weight: 260
 url: /ru/cpp/working-with-comments/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

@@ -7,6 +7,7 @@ type: docs
 description: "اسناد منبع ویرایش در بسیاری از فرمت های محبوب، و همچنین آزادانه تبدیل فایل ها از یک فرمت به دیگری با استفاده از یک فرمت به فرمت دیگر Java..."
 weight: 30
 url: /fa/java/supported-document-formats/
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

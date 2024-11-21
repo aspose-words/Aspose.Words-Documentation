@@ -7,6 +7,7 @@ type: docs
 description: "Tarn Slate một Markdown tài liệu để Document Object Model và trở lại. Như vậy bạn có thể làm việc với các tập tin hiện hữu phức tạp Markdown và lập trình để tạo một Markdown tài liệu từ đầu bằng cách sử dụng Java."
 weight: 20
 url: /vi/java/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Để đọc, thao tác và sửa đổi nội dung và định dạng của một tài liệu theo lập trình, bạn cần dịch nó thành "Aspose.Words Document Object Model (DOM)".

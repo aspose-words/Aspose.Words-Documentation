@@ -7,6 +7,7 @@ description: "C#를 사용하여 시스템 폴더, 사용자 소스, 스트림�
 type: docs
 weight: 30
 url: /ko/net/specifying-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 이 항목에서는 운영 체제별 차이점을 포함하여 트루타입 글꼴을 찾을 때 Aspose.Words의 기본 동작을 설명하고 사용자 글꼴 소스를 지정하는 방법을 보여줍니다.

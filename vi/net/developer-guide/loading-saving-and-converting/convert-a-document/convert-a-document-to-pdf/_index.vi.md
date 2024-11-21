@@ -7,6 +7,7 @@ description: "Chuyển đổi tài liệu sang PDF bằng C#. Chuyển đổi DO
 type: docs
 weight: 10
 url: /vi/net/convert-a-document-to-pdf/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Khả năng chuyển đổi tài liệu từ định dạng này sang định dạng khác một cách dễ dàng và đáng tin cậy là tính năng chính của Aspose.Words. Một trong những định dạng phổ biến nhất để chuyển đổi là PDF – định dạng bố cục cố định, giúp giữ nguyên hình thức ban đầu của tài liệu trong quá trình hiển thị trên nhiều nền tảng khác nhau. Thuật ngữ "kết xuất" được sử dụng trong Aspose.Words để mô tả quá trình chuyển đổi tài liệu sang định dạng tệp được phân trang hoặc có khái niệm về trang.

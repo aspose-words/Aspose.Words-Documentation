@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++でのフィールドの概要
 second_title: C++の場合Aspose.Words
 articleTitle: フィールドの概要
@@ -7,6 +7,7 @@ description: "詳細、フィールドコード、およびフィールド結果
 type: docs
 weight: 10
 url: /ja/cpp/fields-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Wordsは、Microsoft Wordドキュメントのサーバー側処理用に設計されたクラスライブラリで、次の方法でフィールドをサポートします:

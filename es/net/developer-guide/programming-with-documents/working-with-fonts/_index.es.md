@@ -7,6 +7,7 @@ description: "Formato de fuente en detalle usando C#. Marca de énfasis en C#. O
 type: docs
 weight: 230
 url: /es/net/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Una fuente es un conjunto de caracteres con un tamaño, color y diseño determinado. Aspose.Words le permite trabajar con fuentes utilizando el espacio de nombres [Fonts](https://reference.aspose.com/words/es/net/aspose.words.fonts/) y la clase [Font](https://reference.aspose.com/words/es/net/aspose.words/font/).

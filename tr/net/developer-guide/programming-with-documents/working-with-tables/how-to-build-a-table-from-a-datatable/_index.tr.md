@@ -7,6 +7,7 @@ description: "C# kullanarak harici veritabanından belge tablosunu doldurma örn
 type: docs
 weight: 120
 url: /tr/net/how-to-build-a-table-from-a-datatable/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Genellikle uygulamanız verileri bir veritabanından çeker ve bunu **DataTable** biçiminde saklar. Bu verileri belgenize yeni bir tablo olarak kolayca ekleyebilir ve formatlamayı tablonun tamamına hızlı bir şekilde uygulayabilirsiniz.

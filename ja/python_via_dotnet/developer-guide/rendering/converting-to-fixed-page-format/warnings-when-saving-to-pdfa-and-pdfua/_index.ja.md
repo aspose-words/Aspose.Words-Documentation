@@ -7,6 +7,7 @@ description: "PDF/A および PDF/UA は、ドキュメントのコンテンツ�
 type: docs
 weight: 29
 url: /ja/python-net/warnings-when-saving-to-pdfa-and-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 PDF/A および PDF/UA 形式には、Word から PDF への自動変換中に満たすことができない、ドキュメントのコンテンツに関連する多くのアクセシビリティ要件が課されます。これらの要件については、前の記事 *「PDF/A または PDF/UA の使用」* で説明されています。現在、これらの問題の一部に対して警告が発行されます。

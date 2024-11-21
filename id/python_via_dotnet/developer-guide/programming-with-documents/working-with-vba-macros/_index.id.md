@@ -7,6 +7,7 @@ description: "Membuat, membaca, menulis, mengkloning, dan mengelola makro VBA da
 type: docs
 weight: 410
 url: /id/python-net/working-with-vba-macros/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Visual Basic for Applications (VBA) untuk Microsoft Word adalah bahasa pemrograman sederhana namun kuat yang dapat digunakan untuk memperluas fungsionalitas. Aspose.Words API menyediakan tiga kelas untuk mendapatkan akses ke kode sumber proyek VBA:

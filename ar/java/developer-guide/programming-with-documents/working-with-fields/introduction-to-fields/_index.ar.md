@@ -7,6 +7,7 @@ description: "المجالات المميزة في التفاصيل، والمد
 type: docs
 weight: 10
 url: /ar/java/introduction-to-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words هي مكتبة صنف مصممة لتجهيز جانب الخادم Microsoft Word الوثائق ودعم الميادين بالطرق التالية:

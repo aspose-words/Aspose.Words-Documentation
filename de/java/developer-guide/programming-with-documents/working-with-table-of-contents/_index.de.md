@@ -7,6 +7,7 @@ description: "Inhaltsverzeichnis in Details. Wie zu erstellen und zu ändern `TO
 type: docs
 weight: 170
 url: /de/java/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Oft arbeiten Sie mit Dokumenten, die eine Inhaltstabelle enthalten (TOC). Verwendung Aspose.Words Sie können Ihre eigene Inhaltstabelle einfügen oder die vorhandene Inhaltstabelle in das Dokument mit nur wenigen Codezeilen komplett neu erstellen.

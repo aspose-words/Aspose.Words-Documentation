@@ -7,6 +7,7 @@ description: "Sử dụng dấu gạch nối cho sự sắp xếp chặt chẽ h
 type: docs
 weight: 220
 url: /vi/java/working-with-hyphenation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Đôi khi việc sử dụng dấu gạch nối là cần thiết để sắp xếp văn bản chặt chẽ hơn trong một tài liệu. Vào cùng lúc, nó là quan trọng để hiểu rằng các đặc tính của từ nối lại có thể khác nhau cho mỗi ngôn ngữ.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++でのスタイルの操作
 second_title: C++の場合Aspose.Words
 articleTitle: スタイルの操作
@@ -7,6 +7,7 @@ description: "C++を使用してスタイルとテーマを操作するMicrosoft
 type: docs
 weight: 110
 url: /ja/cpp/working-with-styles-and-themes/
+timestamp: 2024-01-30-16-22-34
 ---
 
 [StyleCollection](https://reference.aspose.com/words/cpp/aspose.words/stylecollection/)クラスは、組み込みを管理し、ユーザー定義の設定をスタイルに適用するために使用されます。

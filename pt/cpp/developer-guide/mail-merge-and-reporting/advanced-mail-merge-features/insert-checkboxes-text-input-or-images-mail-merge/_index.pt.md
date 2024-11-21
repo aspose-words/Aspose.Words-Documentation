@@ -1,4 +1,4 @@
-﻿---
+---
 title: Inserir Checkboxes, entrada de texto ou imagens durante Mail Merge
 second_title: Aspose.Words para C++
 articleTitle: Inserir Checkboxes, entrada de texto ou imagens
@@ -7,6 +7,7 @@ description: "Inserir caixas de seleção ou campos de entrada de texto durante 
 type: docs
 weight: 40
 url: /pt/cpp/insert-checkboxes-text-input-or-images-mail-merge/
+timestamp: 2024-01-27-14-07-04
 ---
 
 O mecanismo de mesclagem pega um documento como entrada, procura `MERGEFIELD` e substitui - os pelos dados obtidos a partir da fonte de dados. Normalmente, texto simples e HTML são inseridos, mas Aspose.Words os usuários também podem gerar um documento que lida com cenários mais incomuns para mail merge fields.

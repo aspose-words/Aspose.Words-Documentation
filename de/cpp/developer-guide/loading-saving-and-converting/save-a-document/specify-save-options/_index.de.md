@@ -1,4 +1,4 @@
-﻿---
+---
 title: Geben Sie die Speicheroptionen in C++ an
 second_title: Aspose.Words für C++
 articleTitle: Speicheroptionen angeben
@@ -7,6 +7,7 @@ description: "Steuern Sie den Speichervorgang genauer."
 type: docs
 weight: 10
 url: /de/cpp/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Beim Speichern eines Dokuments können Sie einige erweiterte Eigenschaften festlegen. Aspose.Words stellt Ihnen die Klasse [SaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/) zur Verfügung, die eine genauere Steuerung des Speichervorgangs ermöglicht. Es gibt Überladungen der **Save** -Methode, die ein **SaveOptions** –Objekt akzeptieren - es sollte ein Objekt einer Klasse sein, die von der **SaveOptions** -Klasse abgeleitet ist. Jedes Speicherformat hat eine entsprechende Klasse, die Speicheroptionen für dieses Speicherformat enthält, z. B. gibt es [PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/) zum Speichern im PDF -Format, [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions) zum Speichern im Markdown -Format oder [ImageSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/imagesaveoptions/) zum Speichern in ein Bild. Dieser Artikel enthält Beispiele für die Arbeit mit einigen von **SaveOptions** abgeleiteten Optionsklassen.

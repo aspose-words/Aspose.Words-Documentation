@@ -7,6 +7,7 @@ description: "Увійти Aspose.Words для Python використання V
 type: docs
 weight: 10
 url: /uk/python-net/installation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Переконайтеся, що ваша машина відповідає [Вимоги до системи](/words/uk/python-net/system-requirements/) перед початком.

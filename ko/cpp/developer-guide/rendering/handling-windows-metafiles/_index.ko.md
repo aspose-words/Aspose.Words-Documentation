@@ -1,4 +1,4 @@
-﻿---
+---
 title: 취급 Windows 메타파일 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 취급 Windows 메타파일
@@ -7,6 +7,7 @@ description: "Aspose.Words 에 대한 C++ 자체 구현 Windows 메타 파일 �
 type: docs
 weight: 30
 url: /ko/cpp/handling-windows-metafiles/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Windows 메타 파일 형식은 벡터 및 래스터 그래픽을 모두 포함할 수 있는 이미지 파일 형식입니다. 이 형식은 그래픽 데이터를 메모리 또는 디스크 파일에 저장하는 데 사용됩니다. 메타파일은 함수 호출 목록을 저장합니다. Windows 그래픽 장치 인터페이스(GDI)를 실행하여 화면에 이미지를 표시해야 합니다. 시스템은 디스플레이 컨텍스트에서 이러한 명령을 해석하고 실행합니다.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Tabelle in Python
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Werk Met Tafels
@@ -7,6 +7,7 @@ description: "Werk met tabelle in'n dokument met Python. Inleiding tot werk met 
 type: docs
 weight: 190
 url: /af/python-net/working-with-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A **table** in'n dokument is'n goeie manier om soortgelyke data te struktureer. Daarom is tabelle'n algemene inhoud formatering element en word ondersteun deur die meeste formate in die een of ander vorm.

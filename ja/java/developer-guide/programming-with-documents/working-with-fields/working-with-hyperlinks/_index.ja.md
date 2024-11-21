@@ -7,6 +7,7 @@ description: "ドキュメントにハイパーリンクを追加する方法 Ja
 type: docs
 weight: 50
 url: /ja/java/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ハイパーリンク Microsoft Word ドキュメントは `HYPERLINK` フィールド。 インスタグラム Aspose.Words, ハイパーリンクの実装 [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/) クラス。

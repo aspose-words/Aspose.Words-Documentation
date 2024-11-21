@@ -7,6 +7,7 @@ description: "C# 中的 Aspose.Words .NET 可以協助您如何在測量單位�
 type: docs
 weight: 20
 url: /zh-hant/net/convert-between-measurement-units/
+timestamp: 2024-01-27-14-07-04
 ---
 
 大多數在 Aspose.Words API 中提供的物件屬性，代表各種的測量值，例如寬度或高度、邊距與各種距離等，都接受以點數為單位的值，而 1 英寸等於 72 點。 有時這並不方便，因此需要將點數轉換到其他單位。

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tabla dividida en C++
 second_title: Aspose.Words para C++
 articleTitle: Mesa Dividida
@@ -7,6 +7,7 @@ description: "Tabla dividida en C++. Cómo dividir una tabla en dos tablas separ
 type: docs
 weight: 100
 url: /es/cpp/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Una tabla, representada en el Modelo de Objetos de documento Aspose.Words, está formada por filas y celdas independientes, lo que facilita la división de una tabla.

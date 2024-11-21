@@ -7,6 +7,7 @@ type: docs
 description: "Document Object Model ()DOM) является представлением в памяти документа Word. Чтение, манипулирование и изменение содержания и форматирования документа Word с использованием Java."
 weight: 10
 url: /ru/java/aspose-words-document-object-model/
+timestamp: 2024-01-27-14-07-04
 ---
 
 The Aspose.Words Document Object Model ()DOM) является представлением в памяти документа Word. The Aspose.Words DOM Это позволяет программно читать, манипулировать и изменять содержание и форматирование документа Word.

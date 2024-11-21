@@ -7,6 +7,7 @@ description: "Создавать, читать, писать, клонирова
 type: docs
 weight: 410
 url: /ru/python-net/working-with-vba-macros/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Visual Basic Приложения (VBA) для Microsoft Word Это простой, но мощный язык программирования, который можно использовать для расширения функциональности. Aspose.Words API Предоставляет три класса для доступа к исходному коду проекта VBA:

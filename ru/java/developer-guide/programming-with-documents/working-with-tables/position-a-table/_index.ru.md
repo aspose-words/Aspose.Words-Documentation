@@ -7,6 +7,7 @@ description: "Укажите положение таблицы в Java. Полу
 type: docs
 weight: 50
 url: /ru/java/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Есть плавающие таблицы и встроенные таблицы:

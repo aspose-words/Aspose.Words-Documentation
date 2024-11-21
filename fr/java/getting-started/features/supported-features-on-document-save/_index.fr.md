@@ -7,6 +7,7 @@ description: "Enregistrer un document dans la plupart des formats populaires et 
 type: docs
 weight: 30
 url: /fr/java/supported-features-on-document-save/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words permet aux utilisateurs de travailler avec des documents dans différents formats et fournit un large éventail de fonctionnalités pour cela. Par exemple, les utilisateurs peuvent créer un document à partir de zéro ou le charger, faire quelques modifications, puis enregistrer ces modifications dans le fichier de sortie dans n'importe quel [Formats de documents pris en charge](/words/fr/java/supported-document-formats/). Tout en enregistrant le document dans le format sélectionné, l'utilisateur peut appliquer différentes options de sauvegarde.

@@ -7,6 +7,7 @@ description: "Aspose.Words cho .NET cung cấp nhiều lớp khác nhau để l�
 type: docs
 weight: 50
 url: /vi/net/work-with-office-add-ins/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Đôi khi bạn có thể muốn cấp quyền truy cập vào các điều khiển giao diện chạy mã để sửa đổi tài liệu. Aspose.Words API cung cấp không gian tên `WebExtensions`, cấp nhiều lớp khác nhau để tùy chỉnh các thành phần và thuộc tính mở rộng từ vựng XML để biểu diễn các Phần bổ trợ dành cho Office.

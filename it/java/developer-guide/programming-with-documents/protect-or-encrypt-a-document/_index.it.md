@@ -7,6 +7,7 @@ description: "Crittografare un documento, limitare la modifica, utilizzare firme
 type: docs
 weight: 50
 url: /it/java/protect-or-encrypt-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Il motivo principale per proteggere o crittografare un documento è quello di applicare più controllo su chi può accedere al documento o chi può modificarlo. Applicando protezione ai tuoi documenti, eviti rischi comuni come copiare o modificare documenti senza autorizzazione, così come perdita di dati.

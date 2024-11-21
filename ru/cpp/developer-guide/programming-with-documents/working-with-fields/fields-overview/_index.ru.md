@@ -1,4 +1,4 @@
-﻿---
+---
 title: Обзор полей в C++
 second_title: Aspose.Words для C++
 articleTitle: Обзор полей
@@ -7,6 +7,7 @@ description: "Подробная информация о полях, кодах 
 type: docs
 weight: 10
 url: /ru/cpp/fields-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words - это библиотека классов, предназначенная для обработки документов Microsoft Word на стороне сервера и поддерживающая поля следующими способами:

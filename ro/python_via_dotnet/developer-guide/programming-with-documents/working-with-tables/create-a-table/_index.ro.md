@@ -1,4 +1,4 @@
-﻿---
+---
 title: Introducere și crearea tabelelor
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Introducere și crearea tabelelor
@@ -7,6 +7,7 @@ description: "Creați și gestionați tabele într-un document folosind Python."
 type: docs
 weight: 10
 url: /ro/python-net/create-a-table/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words permite utilizatorilor să creeze tabele într-un document de la zero și oferă mai multe metode diferite pentru a face acest lucru. Acest articol prezintă detalii despre cum să adăugați tabele formatate la documentul dvs. utilizând Fiecare metodă, precum și o comparație a fiecărei metode la sfârșitul articolului.

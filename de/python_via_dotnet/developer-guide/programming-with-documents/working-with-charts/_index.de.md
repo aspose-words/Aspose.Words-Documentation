@@ -7,6 +7,7 @@ description: "Erstellen und ändern Sie Diagramme verschiedener Typen in einem D
 type: docs
 weight: 310
 url: /de/python-net/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Der [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/)-Klasse wurde eine neue [insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/)-Methode hinzugefügt. Sehen wir uns also an, wie man mithilfe der [DocumentBuilder.insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/)-Methode ein einfaches Säulendiagramm in das Dokument einfügt:

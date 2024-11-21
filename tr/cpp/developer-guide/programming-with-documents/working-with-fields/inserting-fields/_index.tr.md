@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içine Alan Ekle
 second_title: Aspose.Words için C++
 articleTitle: Alanları Ekle
@@ -7,6 +7,7 @@ description: "C++ kullanarak belgenize alan eklemenin farklı yolları."
 type: docs
 weight: 20
 url: /tr/cpp/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bir belgeye alan eklemenin birkaç farklı yolu vardır:

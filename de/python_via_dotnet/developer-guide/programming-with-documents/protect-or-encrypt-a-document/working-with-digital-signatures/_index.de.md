@@ -7,6 +7,7 @@ description: "Signieren Sie Dokumente digital und erkennen, zählen, überprüfe
 type: docs
 weight: 40
 url: /de/python-net/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Mithilfe einer digitalen Signatur wird ein Dokument authentifiziert, um sicherzustellen, dass der Absender des Dokuments derjenige ist, für den er sich ausgibt, und dass der Inhalt des Dokuments nicht manipuliert wurde.

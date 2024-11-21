@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Hiperskakels in Java
 second_title: Aspose.Words vir Java
 articleTitle: Voeg By Of Verander Hiperskakels
@@ -7,6 +7,7 @@ description: "Hoe om'n hiperskakel by jou dokument te voeg met Java."
 type: docs
 weight: 50
 url: /af/java/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 'n hiperskakel in Microsoft Word dokumente is die `HYPERLINK` veld. In Aspose.Words word hiperskakels geïmplementeer deur die [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/) klas.

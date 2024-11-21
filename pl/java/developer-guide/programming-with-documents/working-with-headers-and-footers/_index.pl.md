@@ -7,6 +7,7 @@ description: "Jak manipulować nagłówkami i stopkami za pomocą Java."
 type: docs
 weight: 150
 url: /pl/java/working-with-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words pozwala użytkownikom pracować z nagłówkami i stopkami w dokumencie. Nagłówek to tekst umieszczony na górze strony, a stopka to tekst na dole strony. Zazwyczaj obszary te są wykorzystywane do umieszczania informacji, które powinny być powtórzone na wszystkich lub niektórych stronach dokumentu, takich jak numery stron, data utworzenia, informacje o firmie itp.

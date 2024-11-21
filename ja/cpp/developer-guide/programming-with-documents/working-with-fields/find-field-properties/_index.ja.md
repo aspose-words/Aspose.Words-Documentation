@@ -1,4 +1,4 @@
-﻿---
+---
 title: フィールドのプロパティを見つける方法
 second_title: C++の場合Aspose.Words
 articleTitle: フィールドプロパティの検索
@@ -7,6 +7,7 @@ description: "C++でフィールドコードやフィールド結果などのい
 type: docs
 weight: 25
 url: /ja/cpp/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/)を使用して挿入されるフィールド。[InsertField](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertfield/)は[Field](https://reference.aspose.com/words/cpp/aspose.words.fields/field/)オブジェクトを返します。 これは、フィールドのいくつかのプロパティをすばやく見つけるための便利なメソッドを提供するファサードクラスです。

@@ -7,6 +7,7 @@ description: "Инсталиране Aspose.Words вместо .NET прилож
 type: docs
 weight: 10
 url: /bg/net/installation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Уверете се, че машината ви отговаря на [Системни изисквания](/words/bg/net/system-requirements/) Преди да започнете.

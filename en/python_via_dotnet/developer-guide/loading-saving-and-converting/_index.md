@@ -8,6 +8,7 @@ type: docs
 weight: 10
 url: /python-net/loading-saving-and-converting/
 aliases: [/python/loading-saving-and-converting/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 This section provides information about the features when loading and saving a document, as well as data about the possibilities when converting a document from one format to another.

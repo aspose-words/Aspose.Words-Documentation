@@ -7,6 +7,7 @@ description: "Lấy ra các đồ họa khác nhau như hình ảnh, khung văn 
 type: docs
 weight: 40
 url: /vi/java/rendering-shapes-separately-from-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Khi xử lý tài liệu, một nhiệm vụ phổ biến là trích xuất tất cả các hình ảnh được tìm thấy trong tài liệu và xuất chúng đến một vị trí bên ngoài. Nhiệm vụ này trở nên đơn giản với Aspose.Words API, mà đã cung cấp chức năng để trích xuất và lưu dữ liệu hình ảnh. Tuy nhiên, đôi khi bạn có thể muốn trích xuất các loại nội dung đồ họa khác nhau được đại diện bằng một đối tượng vẽ khác nhau, ví dụ, một hộp văn bản chứa các đoạn văn, hình mũi tên và một hình ảnh nhỏ. Không có cách nào đơn giản để biểu diễn đối tượng này vì nó là sự kết hợp của các phần tử nội dung riêng lẻ. Bạn cũng có thể gặp một trường hợp mà nội dung đã được nhóm vào một đối tượng trông giống như một hình ảnh duy nhất.

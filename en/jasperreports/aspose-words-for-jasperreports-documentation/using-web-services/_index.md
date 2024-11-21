@@ -1,4 +1,4 @@
-﻿---
+---
 title: Using Web Services
 second_title: Aspose.Words for JasperReports
 articleTitle: Using Web Services
@@ -7,6 +7,7 @@ description: "Aspose.Words for JasperReports (from v 2.0.0) can be used with Jas
 type: docs
 weight: 130
 url: /jasperreports/using-web-services/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

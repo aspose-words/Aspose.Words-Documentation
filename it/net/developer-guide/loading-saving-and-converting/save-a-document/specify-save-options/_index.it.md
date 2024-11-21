@@ -7,6 +7,7 @@ description: "Controlla in modo più accurato il processo di salvataggio utilizz
 type: docs
 weight: 10
 url: /it/net/specify-save-options/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Quando salvi un documento, puoi impostare alcune proprietà avanzate. Aspose.Words fornisce la classe [SaveOptions](https://reference.aspose.com/words/it/net/aspose.words.saving/saveoptions/), che consente un controllo più preciso del processo di salvataggio. Esistono sovraccarichi del metodo **Save** che accettano un oggetto **SaveOptions**: dovrebbe essere un oggetto di una classe derivata dalla classe **SaveOptions**. Ogni formato di salvataggio ha una classe corrispondente che contiene le opzioni di salvataggio per questo formato di salvataggio, ad esempio c'è [PdfSaveOptions](https://reference.aspose.com/words/it/net/aspose.words.saving/pdfsaveoptions/) per il salvataggio in formato PDF, [MarkdownSaveOptions](https://reference.aspose.com/words/it/net/aspose.words.saving/markdownsaveoptions/) per il salvataggio in formato Markdown o [ImageSaveOptions](https://reference.aspose.com/words/it/net/aspose.words.saving/imagesaveoptions/) per il salvataggio in un'immagine. Questo articolo fornisce esempi di utilizzo di alcune classi di opzioni derivate da **SaveOptions**.

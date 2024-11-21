@@ -7,6 +7,7 @@ description: "Formattare e valutare i risultati dei campi utilizzando Java."
 type: docs
 weight: 40
 url: /it/java/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A volte gli utenti devono applicare la formattazione personalizzata ai campi. In questo articolo, vedremo un paio di esempi di come questo può essere fatto.

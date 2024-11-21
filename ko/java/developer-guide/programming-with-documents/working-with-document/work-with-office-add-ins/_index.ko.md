@@ -7,6 +7,7 @@ description: "Aspose.Words 제품정보 Java Office Add-ins와 함께 일하는 
 type: docs
 weight: 50
 url: /ko/java/work-with-office-add-ins/
+timestamp: 2024-01-27-14-07-04
 ---
 
 때로는 문서를 수정하기 위해 코드를 실행하는 인터페이스 제어에 액세스 할 수 있습니다. Aspose.Words API 제품정보 `WebExtensions` namespace, 다양한 클래스를 부여하는 요소와 속성을 확장하는 XML vocabulary for 대표 Office Add-ins.

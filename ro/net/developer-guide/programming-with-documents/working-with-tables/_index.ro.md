@@ -7,6 +7,7 @@ description: "Cum să lucrezi cu tabele în C#. Introducere la lucrul cu tabele 
 type: docs
 weight: 190
 url: /ro/net/working-with-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A **masă** în cadrul unui document este un mod grozav de a structura date similare. De aceea tabelele sunt un element comun de formatare a conținutului, și sunt acceptate de majoritatea formatelor în una sau alta formă.

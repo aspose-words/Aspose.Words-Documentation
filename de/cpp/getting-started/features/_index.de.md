@@ -1,4 +1,4 @@
-﻿---
+---
 title: Ausstattung
 second_title: Aspose.Words für C++
 articleTitle: Unterstützte Funktionen
@@ -7,6 +7,7 @@ description: "Aspose.Words für C++ bietet Benutzern eine Vielzahl von Funktione
 type: docs
 weight: 40
 url: /de/cpp/features/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words bietet Benutzern eine Vielzahl von Funktionen. Benutzer können eine Vielzahl von dokumentbezogenen Aufgaben ausführen - von der einfachen Konvertierung von Dokumenten von einem unterstützten Format in ein anderes und der Änderung dieser Dokumente während des Konvertierungsprozesses bis hin zu Geschäftsaufgaben wie der Erstellung strukturierter und optisch ansprechender Dokumente oder der Automatisierung von Berichten.

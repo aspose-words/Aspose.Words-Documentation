@@ -7,6 +7,7 @@ description: "Introduction à la fonctionnalité de champ dans Aspose.Words pour
 type: docs
 weight: 370
 url: /fr/net/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Les **Fields** dans un document sont comme des espaces réservés dans lesquels des données utiles peuvent être insérées. Par exemple, un champ peut être une référence de page, une formule ou un champ mail merge.

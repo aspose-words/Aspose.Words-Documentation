@@ -1,4 +1,4 @@
-﻿---
+---
 title: Membersihkan Dokumen dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Bersihkan Dokumen
@@ -7,6 +7,7 @@ description: "Hapus informasi yang tidak digunakan atau duplikat untuk mengurang
 type: docs
 weight: 30
 url: /id/cpp/clean-up-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Terkadang Anda mungkin perlu menghapus informasi yang tidak digunakan atau duplikat untuk mengurangi ukuran dokumen keluaran dan waktu pemrosesan.

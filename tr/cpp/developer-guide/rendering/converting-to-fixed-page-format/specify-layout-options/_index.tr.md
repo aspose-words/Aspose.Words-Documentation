@@ -1,4 +1,4 @@
-﻿---
+---
 title: Düzen Seçeneklerini C++ içinde Belirtin
 second_title: Aspose.Words için C++
 articleTitle: Düzen Seçeneklerini Belirtin
@@ -7,6 +7,7 @@ description: "Çeşitli belge düzenleri için Düzen Seçeneklerini belirleyin.
 type: docs
 weight: 20
 url: /tr/cpp/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words, **Document** öğesinin [LayoutOptions](https://reference.aspose.com/words/cpp/class/aspose.words.layout.layout_options) özelliğinde belirtilen parametrelere bağlı olarak çeşitli mizanpajlara sahip çıktı belgeleri oluşturmanıza olanak tanır. Bu özellik, bu makalede açıklanan Microsoft Word kullanıcı arabirimi menü seçeneklerinden bazılarına benzer.

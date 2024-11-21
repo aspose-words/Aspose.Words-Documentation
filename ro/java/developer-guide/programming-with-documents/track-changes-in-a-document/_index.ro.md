@@ -1,4 +1,4 @@
-﻿---
+---
 title: Urmăriți modificările dintr-un Document în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Urmăriți modificările dintr-un Document
@@ -7,6 +7,7 @@ description: "Urmăriți modificările aduse conținutului și formatării făcu
 type: docs
 weight: 270
 url: /ro/java/track-changes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Funcționalitatea urmăriți modificările, cunoscută și sub numele de revizuire, vă permite să urmăriți modificările aduse conținutului și formatării făcute de dvs. sau de alți utilizatori. Această funcție de modificare a piesei cu Aspose.Words acceptă modificări ale piesei în Microsoft Word. Cu această funcționalitate, puteți accesa revizuiri individuale în documentul dvs. și le puteți aplica proprietăți diferite.

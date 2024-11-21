@@ -7,6 +7,7 @@ description: "Chèn các đối tượng ole hoặc vodeo trực tuyến vào t�
 type: docs
 weight: 360
 url: /vi/python-net/working-with-ole-objects/
+timestamp: 2024-01-27-14-07-04
 ---
 
 OLE (Liên kết và nhúng đối tượng) là công nghệ giúp người dùng có thể làm việc với các tài liệu có chứa "đối tượng" được tạo hoặc chỉnh sửa bởi các ứng dụng của bên thứ ba. Nghĩa là, OLE cho phép một ứng dụng chỉnh sửa xuất những "đối tượng" này sang một ứng dụng chỉnh sửa khác và sau đó nhập chúng cùng với nội dung bổ sung.

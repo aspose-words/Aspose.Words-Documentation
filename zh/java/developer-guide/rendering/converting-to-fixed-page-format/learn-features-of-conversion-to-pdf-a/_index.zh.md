@@ -7,6 +7,7 @@ description: "使用PDF/A-1、PDF/A-2、PDF/A-4和PDF/UA转换 Java。 。 。 �
 type: docs
 weight: 25
 url: /zh/java/learn-features-of-conversion-to-pdf-a-pdf-ua/
+timestamp: 2024-01-31-14-23-37
 ---
 
 PDF是一种固定的页面格式,在用户中很受欢迎,并受到各种应用程序的广泛支持,因为PDF文档在任何设备上看起来都是一样的. 为此,转换为PDF是: Aspose.Words。 。 。 。

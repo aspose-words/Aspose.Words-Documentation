@@ -1,4 +1,4 @@
-﻿---
+---
 title: 책갈피 작업 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 북마크 작업
@@ -7,6 +7,7 @@ description: "책갈피 개념 이해 및 책갈피를 사용하여 프로그램
 type: docs
 weight: 180
 url: /ko/cpp/working-with-bookmarks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 북마크는 Microsoft Word 나중에 참조할 수 있도록 이름을 지정하고 식별하는 위치 또는 조각을 문서화합니다. 예를 들어 책갈피를 사용하여 나중에 수정할 텍스트를 식별할 수 있습니다. 문서를 스크롤하여 텍스트를 찾는 대신 책갈피 대화 상자를 사용하여 해당 텍스트로 이동할 수 있습니다.

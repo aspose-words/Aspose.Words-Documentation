@@ -7,6 +7,7 @@ description: "Aspose.Words Sitemap Java menyediakan Anda dengan cara yang efisie
 type: docs
 weight: 90
 url: /id/java/split-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 *Splitting* atau * pasang dokumen * adalah proses memecah dokumen besar menjadi sejumlah besar file yang lebih kecil. Ada berbagai alasan untuk membagi file. Misalnya, Anda hanya perlu beberapa halaman dari dokumen tertentu dan bukan keseluruhannya. Atau untuk alasan privasi, Anda ingin berbagi hanya beberapa bagian dokumen dengan orang lain. Dengan fitur splitting, Anda hanya bisa mendapatkan bagian yang diperlukan dari dokumen dan melakukan tindakan yang diperlukan dengan mereka, misalnya, untuk menandai, menyimpan, atau mengirim.

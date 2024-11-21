@@ -1,4 +1,4 @@
-﻿---
+---
 title: Autofit Setting to Tables
 second_title: Aspose.Words for .NET
 articleTitle: Autofit Setting to Tables
@@ -7,6 +7,7 @@ description: "Autofit settings to tables. NPOI does not provide an opportunity t
 type: docs
 weight: 100
 url: /net/autofit-setting-to-tables/
+timestamp: 2024-01-31-14-23-37
 ---
 
 {{% alert color="primary" %}}

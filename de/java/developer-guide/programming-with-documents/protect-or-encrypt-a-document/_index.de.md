@@ -7,6 +7,7 @@ description: "Verschlüsseln Sie ein Dokument, beschränken Sie die Bearbeitung,
 type: docs
 weight: 50
 url: /de/java/protect-or-encrypt-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Der Hauptgrund, ein Dokument zu schützen oder zu verschlüsseln, besteht darin, mehr Kontrolle darüber anzuwenden, wer auf das Dokument zugreifen kann oder wer es bearbeiten kann. Schutz auf Ihre Dokumente anwenden, vermeiden Sie gemeinsame Risiken wie Kopieren oder Ändern von Dokumenten ohne Erlaubnis, sowie Datenleckage.

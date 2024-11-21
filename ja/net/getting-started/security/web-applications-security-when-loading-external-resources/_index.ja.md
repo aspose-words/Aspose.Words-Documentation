@@ -7,6 +7,7 @@ type: docs
 description: "リモート リソースをロードします。これはセキュリティ リスクの原因となる可能性があります。一般的なセキュリティ問題と、C# を使用したその解決策を見てみましょう。"
 weight: 100
 url: /ja/net/web-applications-security-when-loading-external-resources/
+timestamp: 2024-01-27-14-07-04
 ---
 
 デフォルトでは、Aspose.Words for .NET は、DocumentBuilder を使用してドキュメントをインポートしたり画像を挿入したりするときに、画像、CSS スタイル、外部 HTML ドキュメントなどのリモート リソースをロードできます。この動作により、ドキュメントを詳細に処理できますが、ライブラリが Web アプリケーションの一部である場合、セキュリティ リスクが生じる原因となる可能性があります。

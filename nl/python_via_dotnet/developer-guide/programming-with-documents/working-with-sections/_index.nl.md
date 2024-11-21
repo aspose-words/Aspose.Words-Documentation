@@ -7,6 +7,7 @@ description: "Sections en sectiepauzes aanmaken en beheren in een document met b
 type: docs
 weight: 120
 url: /nl/python-net/working-with-sections/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Soms wil je een document dat niet dezelfde opmaak heeft op alle pagina's. Bijvoorbeeld, je kan nodig hebben om paginanummer formaten te wijzigen, hebben verschillende pagina grootte en oriëntatie, of hebben de eerste document pagina als een cover pagina zonder nummering. Je kunt dat bereiken met secties.

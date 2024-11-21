@@ -7,6 +7,7 @@ description: "Trabajar con rangos en un documento usando Python."
 type: docs
 weight: 130
 url: /es/python-net/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

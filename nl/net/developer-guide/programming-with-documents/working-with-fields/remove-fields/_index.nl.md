@@ -7,6 +7,7 @@ description: "Leren hoe velden in verwijderen C#. Velden programmatisch verwijde
 type: docs
 weight: 35
 url: /nl/net/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Soms is het noodzakelijk om een veld uit een document te verwijderen. Dit kan gebeuren wanneer het moet worden vervangen door een ander veldtype of wanneer het veld niet meer nodig is in het document. Zo is het `TOC` veld bij opslaan naar HTML.

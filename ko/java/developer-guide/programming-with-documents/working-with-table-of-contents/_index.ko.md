@@ -7,6 +7,7 @@ description: "세부사항에 있는 내용 분야의 테이블. 생성 및 수�
 type: docs
 weight: 170
 url: /ko/java/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 당신은 내용 (TOC)의 테이블을 포함하는 문서와 함께 작동합니다. 사용 방법 Aspose.Words 몇 줄의 코드를 사용하여 문서의 기존 테이블을 완전히 재구성 할 수 있습니다.

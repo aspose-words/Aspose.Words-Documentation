@@ -1,4 +1,4 @@
-﻿---
+---
 title: تمیز کردن قبل یا در طول عملیات Mail Merge
 second_title: Aspose.Words برای C++
 articleTitle: تمیز کردن قبل یا در طول عملیات Mail Merge
@@ -8,6 +8,7 @@ description: "قبل از انجام عملیات mail merge یا حذف منا�
 keywords: "cleanup options mail merge c#"
 weight: 10
 url: /fa/cpp/clean-up-before-or-during-mail-merge/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words به شما اجازه می دهد تا گزینه های مختلف تمیز کردن و حذف مانند حذف فیلد های ادغام را قبل از انجام عملیات mail merge یا حذف مناطق استفاده نشده در طول عملیات mail merge اعمال کنید. در این بخش نحوه حذف فیلدهای ادغام شده و نحوه تنظیم گزینه حذف توضیح داده می شود.

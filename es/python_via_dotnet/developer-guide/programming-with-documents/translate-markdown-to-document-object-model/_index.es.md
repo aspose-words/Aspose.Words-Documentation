@@ -7,6 +7,7 @@ type: docs
 description: "Transfiera un documento Markdown al modelo de objetos de documento y viceversa usando Python. Por lo tanto, puede trabajar con Markdown complejos existentes y crear mediante programación un documento Markdown desde cero."
 weight: 20
 url: /es/python-net/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Para leer, manipular y modificar mediante programación el contenido y el formato de un documento, debe traducirlo al modelo de objetos de documento (DOM) Aspose.Words.

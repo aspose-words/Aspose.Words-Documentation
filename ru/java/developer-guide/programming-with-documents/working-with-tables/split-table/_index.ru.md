@@ -7,6 +7,7 @@ description: "Разделенный стол в Java. Как разделить
 type: docs
 weight: 100
 url: /ru/java/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Таблица, представленная в Aspose.Words Document Object Model, Он состоит из независимых рядов и ячеек, что позволяет легко разделить стол.

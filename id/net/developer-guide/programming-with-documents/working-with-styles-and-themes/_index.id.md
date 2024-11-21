@@ -7,6 +7,7 @@ description: "Fitur pemformatan Microsoft Word tingkat lanjut, bekerja dengan ga
 type: docs
 weight: 110
 url: /id/net/working-with-styles-and-themes/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Kelas [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) digunakan untuk mengelola bawaan dan menerapkan pengaturan yang ditentukan pengguna ke gaya.

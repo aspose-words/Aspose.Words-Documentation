@@ -1,4 +1,4 @@
-﻿---
+---
 title: 문서의 변경 내용 추적 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 문서의 변경 내용 추적
@@ -7,6 +7,7 @@ description: "다음을 사용하여 귀하 또는 다른 사람이 만든 콘�
 type: docs
 weight: 270
 url: /ko/cpp/track-changes-in-a-document/
+timestamp: 2024-01-30-16-22-34
 ---
 
 검토라고도 하는 변경 내용 추적 기능을 사용하면 사용자 또는 다른 사용자가 만든 콘텐츠 및 서식 변경 내용을 추적할 수 있습니다. 이 트랙은 다음과 같은 기능을 변경합니다 Aspose.Words 지원 트랙 변경 Microsoft Word. 이 기능을 사용하면 문서의 개별 개정판에 액세스하고 다른 속성을 적용할 수 있습니다.

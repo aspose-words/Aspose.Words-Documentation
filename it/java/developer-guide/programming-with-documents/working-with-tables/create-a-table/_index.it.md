@@ -7,6 +7,7 @@ description: "Diversi modi per creare tabelle nel documento utilizzando Java."
 type: docs
 weight: 20
 url: /it/java/create-a-table/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words consente agli utenti di creare tabelle in un documento da zero e fornisce diversi metodi per farlo. Questo articolo presenta dettagli su come aggiungere tabelle formattate al documento utilizzando ogni metodo, così come un confronto di ogni metodo alla fine dell'articolo.

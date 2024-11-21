@@ -7,6 +7,7 @@ description: "Câmpurile din detalii, coduri de câmp și rezultate ale câmpuri
 type: docs
 weight: 10
 url: /ro/net/fields-overview/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words este o bibliotecă de clasă concepută pentru procesarea pe server-side a documentelor Microsoft Word și suportă câmpuri în următoarele moduri:

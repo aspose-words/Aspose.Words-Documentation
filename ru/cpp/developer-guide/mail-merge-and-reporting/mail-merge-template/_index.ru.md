@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge Шаблон на C++
 second_title: Aspose.Words для C++
 articleTitle: Mail Merge Шаблон
@@ -8,6 +8,7 @@ description: "Создайте шаблон mail merge для определен
 keywords: "create mail merge template с++"
 weight: 10
 url: /ru/cpp/mail-merge-template/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Обычно в качестве базового документа для операции mail merge используется шаблон слияния, будь то простой mail merge или mail merge с регионами. Mail merge с регионами является более эффективным и популярным способом, чем простой mail merge. Простой mail merge рассматривается как частный случай mail merge с регионами, где регион представляет собой весь документ целиком. Более подробно все объясняется в следующей статье "Типы операций Mail Merge".

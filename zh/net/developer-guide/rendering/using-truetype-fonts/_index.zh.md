@@ -7,6 +7,7 @@ description: "Aspose.Words for .NET 可以找到正确的字体或其合适的�
 type: docs
 weight: 20
 url: /zh/net/using-truetype-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 处理文档时，您经常必须使用不同的字体、样式和大小。文档可以包含任意数量的字体，不一定限于操作系统中安装的字体。字体可以完全不同，例如从其他操作系统获取的字体、购买的字体或用户自己创建的字体。

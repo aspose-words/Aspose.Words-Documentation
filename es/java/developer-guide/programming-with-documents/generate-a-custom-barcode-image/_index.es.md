@@ -7,6 +7,7 @@ description: "Ejemplo de generación de forma de código de barras usando Java."
 type: docs
 weight: 350
 url: /es/java/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/
+timestamp: 2024-09-05-11-07-10
 ---
 
 Un código de barras es una representación visual de datos en forma de líneas paralelas o patrones. Los códigos de barras se utilizan ampliamente en diferentes industrias como el comercio minorista, la logística, la atención médica, la banca y muchas otras.

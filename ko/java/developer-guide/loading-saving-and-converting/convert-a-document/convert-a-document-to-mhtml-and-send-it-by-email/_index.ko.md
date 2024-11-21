@@ -7,6 +7,7 @@ description: "모든 문서를 MHTML 형식으로 변환하고 다음 하나의 
 type: docs
 weight: 30
 url: /ko/java/convert-a-document-to-mhtml-and-send-it-by-email/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words MHTML (Web Archive) 형식으로 문서를 변환 할 수 있습니다. 이것은 사용하기 편합니다 Aspose.Words · `Aspose.Email` 한국어 지원되는 형식의 사전 정의 문서를 DOC, OOXML, 또는 RTF와 같은 지원되는 형식으로로드 할 수 있습니다. Aspose.Words, 데이터를 입력하고, 결과 문서를 MHTML로 저장하고, 다음을 사용하여 전자 메일로 보냅니다 `Aspose.Email`·

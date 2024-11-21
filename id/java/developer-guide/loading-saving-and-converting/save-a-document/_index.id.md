@@ -7,6 +7,7 @@ type: docs
 description: "Simpan dokumen dalam format yang didukung menggunakan JavaSitemap"
 weight: 20
 url: /id/java/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Sebagian besar tugas yang perlu Anda lakukan dengan Meme it Aspose.Words melibatkan menyimpan dokumen. Untuk menyimpan dokumen Aspose.Words Sitemap [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save(java.lang.String)) metode [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) Sitemap Dokumen dapat disimpan dalam format simpan yang didukung oleh Aspose.WordsSitemap Untuk daftar semua format simpan yang didukung, lihat [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) Sitemap

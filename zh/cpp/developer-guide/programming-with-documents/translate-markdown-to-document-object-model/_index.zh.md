@@ -1,4 +1,4 @@
-﻿---
+---
 title: 将Markdown转换为文档对象模型(DOM)
 second_title: Aspose.Words对于C++
 articleTitle: 将Markdown转换为文档对象模型(DOM)
@@ -7,6 +7,7 @@ type: docs
 description: "将Markdown文档转换为文档对象模型，然后使用C++返回。 因此，您可以使用复杂的现有Markdown，并以编程方式从头开始创建Markdown文档。"
 weight: 20
 url: /zh/cpp/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 要以编程方式读取、操作和修改文档的内容和格式，您需要将其转换为Aspose.Words文档对象模型(DOM)。

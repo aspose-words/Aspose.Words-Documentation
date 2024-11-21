@@ -7,6 +7,7 @@ description: "Aspose.Words 제품정보 Java 문서에 대한 유용한 정보�
 type: docs
 weight: 10
 url: /ko/java/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
 문서 속성은 문서에 대한 유용한 정보를 저장 할 수 있습니다. 이 재산은 2개 그룹으로 분할될 수 있습니다:

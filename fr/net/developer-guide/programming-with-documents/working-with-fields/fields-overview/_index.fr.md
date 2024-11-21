@@ -7,6 +7,7 @@ description: "Les champs présentent des détails, des codes de champ et des ré
 type: docs
 weight: 10
 url: /fr/net/fields-overview/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words est une bibliothèque de classes conçue pour le traitement côté serveur des documents Microsoft Word et prend en charge les champs des manières suivantes:

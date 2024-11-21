@@ -7,6 +7,7 @@ description: "Différentes façons d'insérer des champs dans votre document en 
 type: docs
 weight: 20
 url: /fr/java/insert-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Il existe plusieurs façons d'insérer des champs dans un document:

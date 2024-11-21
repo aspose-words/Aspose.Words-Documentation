@@ -7,6 +7,7 @@ description: "Converti un documento in PDF con opzioni avanzate utilizzando C#. 
 type: docs
 weight: 20
 url: /it/net/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Il formato PDF è un formato a pagina fissa molto popolare tra gli utenti e ampiamente supportato da varie applicazioni, perché un documento PDF ha lo stesso aspetto su qualsiasi dispositivo. Per questo motivo, la conversione in PDF è una caratteristica importante di Aspose.Words.

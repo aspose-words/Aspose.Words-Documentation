@@ -7,6 +7,7 @@ type: docs
 description: "Finden Sie einen String oder ein regelmäßiges Ausdrucksmuster in Ihrem Dokument und ersetzen Sie ihn durch den gewünschten Text Java."
 weight: 100
 url: /de/java/find-and-replace/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Sie können leicht in Ihrem Dokument mit einer Tastatur und Maus navigieren, aber wenn Sie viele Seiten haben, um durchzublättern, wird es eine Weile dauern, um einen bestimmten Text in einem langen Dokument zu finden. Es wird zeitaufwendiger, wenn Sie bestimmte Zeichen oder Wörter ersetzen möchten, die Sie in Ihrem Dokument verwendet haben. Mit der Funktionalität "Find and remove" können Sie eine Zeichenfolge in einem Dokument finden und durch eine andere Zeichenfolge ersetzen.

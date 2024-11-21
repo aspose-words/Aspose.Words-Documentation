@@ -7,6 +7,7 @@ description: "كيفية العثور على بعض الممتلكات المي�
 type: docs
 weight: 25
 url: /ar/java/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 حقل أضيف باستخدام [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean) العودة(أ) [Field](https://reference.aspose.com/words/java/com.aspose.words/field/) هدف هذا هو صف الواجهة التي توفر أساليب مفيدة لإيجاد هذه الممتلكات في الميدان بسرعة.

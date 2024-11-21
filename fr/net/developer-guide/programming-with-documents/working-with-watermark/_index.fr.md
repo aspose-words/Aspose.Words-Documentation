@@ -7,6 +7,7 @@ description: "Manipulation du filigrane de document à l'aide de C#."
 type: docs
 weight: 340
 url: /fr/net/working-with-watermark/
+timestamp: 2024-05-02-11-51-44
 ---
 
 Cette rubrique explique comment utiliser par programmation un filigrane à l'aide de Aspose.Words. Un filigrane est une image d'arrière-plan qui s'affiche derrière le texte d'un document. Un filigrane peut contenir un texte ou une image représentée par la classe [Watermark](https://reference.aspose.com/words/fr/net/aspose.words/watermark/).

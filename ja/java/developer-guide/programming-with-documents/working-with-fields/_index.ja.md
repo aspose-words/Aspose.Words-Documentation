@@ -7,6 +7,7 @@ description: "フィールド機能の紹介 Aspose.Words お問い合わせ Jav
 type: docs
 weight: 370
 url: /ja/java/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 **Fields** ドキュメントでは、有用なデータが入力できるプレースホルダーのようなものです。 たとえば、フィールドはページ参照、式、またはページ参照 mail merge フィールド。

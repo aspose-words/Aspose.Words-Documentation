@@ -7,6 +7,7 @@ type: docs
 description: "Сохранить документ в любом поддерживаемом формате с помощью Java."
 weight: 20
 url: /ru/java/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Большинство задач, которые вам нужно выполнить Aspose.Words Сохранить документ. Чтобы сохранить документ Aspose.Words обеспечивает [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save(java.lang.String)) метод [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) класс. Документ может быть сохранен в любом формате сохранения, поддерживаемом Aspose.Words. Для списка всех поддерживаемых форматов сохранения см. [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) перечисление.

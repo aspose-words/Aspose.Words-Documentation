@@ -7,6 +7,7 @@ description: "Sie können mit Python auf die Feldänderung zugreifen. Felder des
 type: docs
 weight: 10
 url: /de/python-net/fields-overview/
+timestamp: 2024-10-21-11-17-44
 ---
 
 

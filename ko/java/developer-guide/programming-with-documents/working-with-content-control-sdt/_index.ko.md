@@ -7,6 +7,7 @@ type: docs
 description: "고급 문서 콘텐츠 관리, 컨텐츠 제어를 생성하고 조작하는 방법 (Structured Document tags) 사용 Java·"
 weight: 390
 url: /ko/java/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
 내 계정 Microsoft Word, 템플릿을 시작으로 양식을 작성하고 체크 박스, 텍스트 박스, 날짜 선택기 및 드롭다운 목록을 포함하여 콘텐츠 제어를 추가 할 수 있습니다. 내 계정 <span notrans="<span notrans=" Aspose.Words"=""></span>· Structured Document Tag or content control from any document loaded as a Aspose.Words StructuredDocumentTag 노드로 가져올 수 있습니다. Structured 문서 태그 (SDT 또는 content control)는 고객 정의 된 semantics뿐만 아니라 문서에 대한 행동과 외관을 구현합니다.

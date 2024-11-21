@@ -7,6 +7,7 @@ type: docs
 description: "Markup 언어에 대한 소개, 다른 유형의 모양 만들기 Java·"
 weight: 280
 url: /ko/java/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 이 항목에 대해 논의하는 방법 programmatically 와 모양 사용 Aspose.Words·

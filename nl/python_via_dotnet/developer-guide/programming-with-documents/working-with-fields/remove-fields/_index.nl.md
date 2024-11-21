@@ -7,6 +7,7 @@ description: "Leren hoe velden in verwijderen Python. Velden programmatisch verw
 type: docs
 weight: 35
 url: /nl/python-net/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Soms is het noodzakelijk om een veld uit het document te verwijderen. Dit kan gebeuren wanneer het wordt vervangen door een ander veldtype of wanneer het veld niet meer nodig is in het document. Bijvoorbeeld a `TOC` veld bij opslaan naar HTML.

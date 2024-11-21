@@ -7,6 +7,7 @@ description: "Setzen Sie erweiterte Eigenschaften bei der Speicherung eines Doku
 type: docs
 weight: 20
 url: /de/java/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Wenn Sie ein Dokument speichern, können Sie einige erweiterte Eigenschaften festlegen. Aspose.Words bietet Ihnen die [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/) Klasse, die eine genauere Kontrolle des Speichervorgangs ermöglicht. Es gibt Überlastungen der **Save** Methode, die eine **SaveOptions** Objekt – es sollte ein Objekt einer von der **SaveOptions** Klasse. Jedes Speicherformat hat eine entsprechende Klasse, die Speicheroptionen für dieses Speicherformat hält, zum Beispiel gibt es [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) zum Speichern in PDF-Format, [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) um zu sparen Markdown Format oder [ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/) zum Speichern auf ein Bild. Dieser Artikel bietet Beispiele für die Arbeit mit einigen Optionen Klassen von **SaveOptions**.

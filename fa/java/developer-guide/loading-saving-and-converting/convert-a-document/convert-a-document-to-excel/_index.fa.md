@@ -7,6 +7,7 @@ description: "تبدیل PDF به اکسل، XML به اکسل، DOCX به اک�
 type: docs
 weight: 15
 url: /fa/java/convert-a-document-to-excel/
+timestamp: 2024-01-31-14-23-37
 ---
 
 تبدیل اسناد از یک فرمت به فرمت دیگر، ویژگی پرچم دار است Aspose.Words... شما می توانید اسناد را در هر موجود تبدیل کنید [Load Format](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) همچنین فرمت XLSX

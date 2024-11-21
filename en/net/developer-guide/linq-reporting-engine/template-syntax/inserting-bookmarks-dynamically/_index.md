@@ -1,4 +1,4 @@
-﻿---
+---
 title: Inserting Bookmarks Dynamically in C#
 second_title: Aspose.Words for .NET
 articleTitle: Inserting Bookmarks Dynamically
@@ -8,6 +8,7 @@ type: docs
 weight: 70
 url: /net/inserting-bookmarks-dynamically/
 aliases: [/net/template-syntax/#inserting-bookmarks-dynamically]
+timestamp: 2024-01-27-14-07-04
 ---
 
 You can insert bookmarks to your reports dynamically using `bookmark` tags. Syntax of a `bookmark` tag is defined as follows.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Appliquer une mise en forme personnalisée aux champs en C++
 second_title: Aspose.Words pour C++
 articleTitle: Appliquer une mise en forme personnalisée aux champs
@@ -7,6 +7,7 @@ description: "Formatez et évaluez le résultat des champs en utilisant C++."
 type: docs
 weight: 40
 url: /fr/cpp/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Parfois, les utilisateurs doivent appliquer une mise en forme personnalisée aux champs. Dans cet article, nous examinerons quelques exemples de la façon dont cela peut être fait.

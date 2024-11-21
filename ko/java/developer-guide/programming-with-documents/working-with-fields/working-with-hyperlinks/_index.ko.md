@@ -7,6 +7,7 @@ description: "문서에 하이퍼링크 추가 방법 Java·"
 type: docs
 weight: 50
 url: /ko/java/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 하이퍼링크 Microsoft Word 문서는 `HYPERLINK` 이름 * 내 계정 Aspose.Words, 하이퍼링크는 구현 [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/) 수업.

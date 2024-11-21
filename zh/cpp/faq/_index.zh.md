@@ -1,4 +1,4 @@
-﻿---
+---
 title: FAQ
 second_title: Aspose.Words为C++
 articleTitle: FAQ
@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words为C++ 回答最常见的问题。 学习此页面，快速解决您的一般问题或特定主题的问题。"
 weight: 75
 url: /zh/cpp/faq/
+timestamp: 2024-01-31-14-23-37
 ---
 
 本页包含最常见问题的答案。 请了解当前页面-也许这可以让您快速解决问题。

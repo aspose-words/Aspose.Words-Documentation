@@ -7,6 +7,7 @@ description: "Aspose.Words für .NET implementiert seinen eigenen Windows-Metada
 type: docs
 weight: 30
 url: /de/net/handling-windows-metafiles/
+timestamp: 2024-07-10-14-38-57
 ---
 
 Das Windows-Metadateiformat ist ein Bilddateiformat, das sowohl Vektor- als auch Rastergrafiken enthalten kann. Dieses Format wird zum Speichern von Grafikdaten im Speicher oder in Dateien auf der Festplatte verwendet. Eine Metadatei speichert eine Liste von Funktionsaufrufen im Windows Graphics Device Interface (GDI), die ausgeführt werden müssen, um das Bild auf dem Bildschirm anzuzeigen. Das System interpretiert und führt diese Befehle im Anzeigekontext aus.

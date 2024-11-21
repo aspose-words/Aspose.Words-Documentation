@@ -7,6 +7,7 @@ description: "以C#載入並轉換大多數流行的格式，並支援許多Micr
 type: docs
 weight: 20
 url: /zh-hant/net/supported-features-on-document-load/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words 讓使用者能以各種格式來處理文件，並為這些工作提供許多選項。 例如，使用者可以在任何 [supported import format](/words/net/supported-document-formats/) 中從頭開始建立或載入一個檔案，對該檔案進行一些變更，然後保存結果。 當從選定的格式中導入文件時，使用者可以應用各種加載選項。

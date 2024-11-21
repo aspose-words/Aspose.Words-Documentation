@@ -7,6 +7,7 @@ description: "문서에 지정된 매개 변수에 따라 다양한 레이아웃
 type: docs
 weight: 10
 url: /ko/java/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words 지정된 매개 변수에 따라 다양한 레이아웃으로 출력 문서를 만들 수 있습니다. [LayoutOptions](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/) 호텔 위치 **Document**· 이 재산은 몇몇을 닮았습니다 Microsoft Word 이 문서에 설명된 사용자 인터페이스 메뉴 옵션.

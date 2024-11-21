@@ -7,6 +7,7 @@ description: "Přizpůsobit nastavení písma pomocí Python."
 type: docs
 weight: 230
 url: /cs/python-net/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Písmo je soubor znaků s určitou velikostí, barvou a designem. Aspose.Words umožňuje pracovat s písmy pomocí [fonts](https://reference.aspose.com/words/python-net/aspose.words.fonts/) modul a [Font](https://reference.aspose.com/words/python-net/aspose.words/font/) třída.

@@ -7,6 +7,7 @@ description: "PDF/A and PDF/UA impose accessibility requirements related to docu
 type: docs
 weight: 29
 url: /ar/java/warnings-when-saving-to-pdfa-and-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 PDF/A and PDF/UA formats impose a number of accessibility requirements related to document content that cannot be met during automatic conversion from Word to PDF. ويرد وصف لهذه المتطلبات في المادة السابقة*. والآن تصدر تحذيرات لبعض هذه المشاكل.

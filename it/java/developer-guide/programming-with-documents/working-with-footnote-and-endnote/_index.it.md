@@ -7,6 +7,7 @@ description: "Come manipolare le note a piè di pagina e le note finali usando J
 type: docs
 weight: 160
 url: /it/java/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words fornisce anche alcune classi, metodi e proprietà per lavorare con note a piè di pagina e note finali.

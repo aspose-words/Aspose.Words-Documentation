@@ -7,6 +7,7 @@ description: "Signieren Sie Dokumente digital und erkennen, zählen, überprüfe
 type: docs
 weight: 40
 url: /de/net/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Eine digitale Signatur ist eine technologische Implementierung elektronischer Signaturen zum Signieren von Dokumenten und zum Authentifizieren des Unterzeichners, um sicherzustellen, dass ein Dokument seit seiner Signatur nicht verändert wurde. Jede digitale Signatur ist für jeden Unterzeichner einzigartig, da das PKI-Protokoll zur Generierung sowohl öffentlicher als auch privater Schlüssel befolgt wird. Das digitale Signieren eines Dokuments bedeutet, dass eine Signatur mithilfe des privaten Schlüssels des Unterzeichners erstellt wird, wobei ein mathematischer Algorithmus zum Verschlüsseln des generierten Hashs verwendet wird.

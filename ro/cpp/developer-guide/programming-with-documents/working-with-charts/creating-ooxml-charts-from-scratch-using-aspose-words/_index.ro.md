@@ -1,4 +1,4 @@
-﻿---
+---
 title: Crearea graficelor OOXML de la zero
 second_title: Aspose.Words pentru C++
 articleTitle: Crearea graficelor OOXML de la zero
@@ -7,6 +7,7 @@ description: "Cum să creați diferite diagrame în documentul dvs. folosind C++
 type: docs
 weight: 10
 url: /ro/cpp/creating-ooxml-charts-from-scratch-using-aspose-words/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Crearea graficelor OOXML de la zero folosind Aspose.Words

@@ -7,6 +7,7 @@ description: "Python를 사용하여 지원되는 형식으로 문서를 로드�
 type: docs
 weight: 20
 url: /ko/python-net/supported-features-on-document-load/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words는 지원되는 모든 형식에 대한 모든 기능을 지원하기 위해 노력하고 있습니다. Microsoft Word 문서의 거의 모든 기능이 지원되며 변환 중에도 충실하게 유지됩니다. Aspose.Words를 사용하면 모든 크기의 문서를 로드하고 변환할 수 있으며 수천 페이지로 구성된 문서의 변환을 몇 초 내에 쉽게 처리할 수 있습니다. 유일한 제한은 머신에서 사용 가능한 작업 메모리의 양입니다.

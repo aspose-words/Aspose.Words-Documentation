@@ -7,6 +7,7 @@ description: "Aspose.Words für .NET kann die richtigen TrueType-Schriftarten in
 type: docs
 weight: 10
 url: /de/net/manipulating-and-substitution-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words erfordert TrueType-Schriftarten für eine Vielzahl von Aufgaben, einschließlich der Darstellung von Dokumenten in feste Seitenformate, beispielsweise PDF oder XPS. Wenn Aspose.Words ein Dokument rendert, muss es die Einbettung und Teileinbettung von TrueType-Schriftarten in das resultierende Dokument durchführen, was bei der Dokumentgenerierung üblich ist, einschließlich gängiger PDF- oder XPS-Formate. Dadurch wird sichergestellt, dass das Dokument für jeden Betrachter gleich aussieht. Darüber hinaus verlangt die XPS-Spezifikation, dass Schriftarten immer in das Dokument eingebettet sind.

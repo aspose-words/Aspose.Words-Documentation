@@ -7,6 +7,7 @@ description: "Verwenden Sie Bindestrich für eine kompaktere Textanordnung. Es b
 type: docs
 weight: 220
 url: /de/java/working-with-hyphenation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Manchmal ist es notwendig, die Bindestriche für eine kompaktere Anordnung von Texten in einem Dokument zu verwenden. Gleichzeitig ist es wichtig zu verstehen, dass die Spezifik der Worthyphenation für jede Sprache unterschiedlich sein kann.

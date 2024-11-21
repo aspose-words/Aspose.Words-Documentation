@@ -7,6 +7,7 @@ description: "Fields feature in details, field codes and field results explained
 type: docs
 weight: 10
 url: /cpp/fields-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words is a class library designed for server-side processing of Microsoft Word documents and supports fields in the following ways:

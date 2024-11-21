@@ -7,6 +7,7 @@ description: "VBA projeleri ile çalışmak Java kullanarak."
 type: docs
 weight: 410
 url: /tr/java/working-with-vba-macros/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uygulamalar için (VBA) Visual Basic Microsoft Word için basit ama güçlü bir programlama dili, işlevselliği genişletmek için kullanılabilir. Aspose.Words API, VBA projesi kaynak koduna erişmek için üç sınıf sağlar:

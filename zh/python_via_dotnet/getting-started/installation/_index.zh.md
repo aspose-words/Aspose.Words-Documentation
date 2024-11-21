@@ -7,6 +7,7 @@ description: "使用 Manage NuGet Packages 或 Package Manager Console 等 Visua
 type: docs
 weight: 10
 url: /zh/python-net/installation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 在开始之前，请确保您的机器符合 [系统要求](/words/zh/python-net/system-requirements/)。

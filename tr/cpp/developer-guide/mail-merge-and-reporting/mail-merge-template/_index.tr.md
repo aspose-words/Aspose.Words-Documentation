@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge Şablon içinde C++
 second_title: Aspose.Words için C++
 articleTitle: Mail Merge Şablon
@@ -8,6 +8,7 @@ description: "Oluştur mail merge çıktı belgelerindeki sabit içeriği tanım
 keywords: "create mail merge template с++"
 weight: 10
 url: /tr/cpp/mail-merge-template/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Birleştirme şablonunu temel belge olarak kullanmak yaygındır. mail merge işlem basitse de mail merge veya mail merge bölgelerle. Mail merge bölgelerle basitten daha güçlü ve popüler mail merge. Basit mail merge özel bir durum olarak kabul edilir mail merge bölgenin tüm belge olduğu bölgelerle. Her şey bir sonraki makalede açıklanmıştır "Türleri Mail Merge Operasyon" daha ayrıntılı olarak.

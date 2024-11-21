@@ -7,6 +7,7 @@ description: "Dokumentuj manipulację znakiem wodnym za pomocą C#."
 type: docs
 weight: 340
 url: /pl/net/working-with-watermark/
+timestamp: 2024-05-02-11-51-44
 ---
 
 W tym temacie omówiono sposób programowej pracy ze znakiem wodnym przy użyciu formatu Aspose.Words. Znak wodny to obraz tła wyświetlany za tekstem w dokumencie. Znak wodny może zawierać tekst lub obraz reprezentowany przez klasę [Watermark](https://reference.aspose.com/words/net/aspose.words/watermark/).

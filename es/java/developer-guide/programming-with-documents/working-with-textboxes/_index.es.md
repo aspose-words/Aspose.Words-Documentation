@@ -7,6 +7,7 @@ description: "Introducción a los cuadros de texto enlazados Aspose.Words para J
 type: docs
 weight: 250
 url: /es/java/working-with-linked-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In Aspose.Words, el [TextBox](https://reference.aspose.com/words/java/com.aspose.words/textbox/) clase se utiliza para especificar cómo se muestra un texto dentro de una forma. Proporciona una propiedad pública llamada Parent para obtener la forma padre para el cuadro de texto para permitir que el cliente encuentre vinculado [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) de enlace **TextBox**.

@@ -7,6 +7,7 @@ type: docs
 description: "Use esta introdução aos fundamentos do Aspose.Words para .NET para começar a perceber o valor do Aspose.Words para o seu negócio."
 weight: 20
 url: /pt/net/getting-started/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Este guia de introdução fornece uma introdução aos fundamentos do Aspose.Words. Para usuários novos no Aspose.Words, esta é a maneira mais rápida de aprender os requisitos e recursos básicos.

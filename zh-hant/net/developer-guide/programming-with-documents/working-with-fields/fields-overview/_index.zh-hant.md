@@ -7,6 +7,7 @@ description: "欄位功能在細節中，欄位代碼和欄位結果解釋在 As
 type: docs
 weight: 10
 url: /zh-hant/net/fields-overview/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words 是一個設計用來處理 Microsoft Word 文檔的類別庫，並支援以下欄位：

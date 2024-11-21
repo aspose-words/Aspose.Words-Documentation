@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lavorare con la filigrana in C++
 second_title: Aspose.Words per C++
 articleTitle: Lavorare con Watermark
@@ -7,6 +7,7 @@ type: docs
 description: "Manipolazione filigrana documento utilizzando C++."
 weight: 340
 url: /it/cpp/working-with-watermark/
+timestamp: 2024-01-30-16-22-34
 ---
 
 In questo argomento viene illustrato come lavorare a livello di programmazione con la filigrana utilizzando Aspose.Words. Una filigrana è un'immagine di sfondo che viene visualizzata dietro il testo di un documento. Una filigrana può contenere un testo o un'immagine rappresentata dalla classe [Watermark](https://reference.aspose.com/words/cpp/aspose.words/watermark/).

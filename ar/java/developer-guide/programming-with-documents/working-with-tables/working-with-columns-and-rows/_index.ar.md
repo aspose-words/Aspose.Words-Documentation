@@ -7,6 +7,7 @@ description: "العمل مع أجزاء من الجدول - الصفوف وال
 type: docs
 weight: 30
 url: /ar/java/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 للمزيد من التحكم في كيفية عمل الجداول، تعلم كيفية التلاعب بالأعمدة والأصفاد.

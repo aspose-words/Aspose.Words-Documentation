@@ -7,6 +7,7 @@ type: docs
 description: "Quản lý nội dung tài liệu nâng cao, cách tạo và thao tác với các điều khiển nội dung (Thẻ Tài liệu Cấu trúc) bằng Java."
 weight: 390
 url: /vi/java/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Trong Microsoft Word bạn có thể tạo một mẫu đơn bằng cách bắt đầu với một mẫu và thêm các điều khiển nội dung, bao gồm hộp kiểm, hộp văn bản, bộ chọn ngày và danh sách thả xuống. Trong Aspose.Words một thẻ tài liệu có cấu trúc hoặc điều khiển nội dung từ bất kỳ tài liệu nào được tải vào Aspose.Words là nhập như một nút StructuredDocumentTag. Các thẻ tài liệu có cấu trúc (SDT hoặc kiểm soát nội dung) cho phép nhúng ngữ nghĩa được định nghĩa bởi khách hàng cũng như hành vi và giao diện của nó vào một tài liệu.

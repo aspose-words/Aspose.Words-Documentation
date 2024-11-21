@@ -7,6 +7,7 @@ description: "Aspose.Words pour Python via .NET peut trouver la bonne police ou 
 type: docs
 weight: 20
 url: /fr/python-net/using-truetype-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Lorsque vous travaillez avec des documents, vous devez souvent utiliser des polices, des styles et des tailles différents. Les documents peuvent contenir un nombre illimité de polices, qui ne sont pas nécessairement limitées aux polices installées dans le système d'exploitation. Les polices peuvent être complètement différentes, par exemple des polices provenant d'autres systèmes d'exploitation, achetées ou créées par les utilisateurs eux-mêmes.

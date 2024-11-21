@@ -1,4 +1,4 @@
-﻿---
+---
 title: Rendu des formes Séparément d'un document
 second_title: Aspose.Words pour C++
 articleTitle: Rendu des formes Séparément d'un document
@@ -7,6 +7,7 @@ description: "Extrayez divers objets graphiques, tels que des images, une zone d
 type: docs
 weight: 40
 url: /fr/cpp/rendering-shapes-separately-from-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Lors du traitement des documents, une tâche courante consiste à extraire toutes les images trouvées dans le document et à les exporter vers un emplacement externe. Cette tâche devient simple avec l'API Aspose.Words, qui fournit déjà la fonctionnalité d'extraction et d'enregistrement des données d'image. Cependant, vous souhaiterez parfois extraire de la même manière d'autres types de contenu graphique représentés par un autre type d'objet de dessin, par exemple une zone de texte contenant des paragraphes, des formes de flèche et une petite image. Il n'y a pas de moyen simple de rendre cet objet car il s'agit d'une combinaison d'éléments de contenu individuels. Vous pouvez également rencontrer un cas où le contenu a été regroupé dans l'objet qui ressemble à une seule image.

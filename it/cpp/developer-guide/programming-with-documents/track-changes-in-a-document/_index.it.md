@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tenere traccia delle modifiche in un documento in C++
 second_title: Aspose.Words per C++
 articleTitle: Tenere traccia delle modifiche in un documento
@@ -7,6 +7,7 @@ description: "Tieni traccia delle modifiche apportate al contenuto e alla format
 type: docs
 weight: 270
 url: /it/cpp/track-changes-in-a-document/
+timestamp: 2024-01-30-16-22-34
 ---
 
 La funzionalità di tenere traccia delle modifiche, nota anche come revisione, consente di tenere traccia delle modifiche al contenuto e alla formattazione apportate dall'utente o da altri utenti. Questa funzione traccia modifiche con Aspose.Words supporta traccia modifiche in Microsoft Word. Con questa funzionalità, è possibile accedere a singole revisioni nel documento e applicarvi proprietà diverse.

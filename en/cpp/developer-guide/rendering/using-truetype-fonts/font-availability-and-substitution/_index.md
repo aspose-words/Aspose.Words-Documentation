@@ -7,6 +7,7 @@ description: "When the exact substitution font cannot be found, Aspose.Words mus
 type: docs
 weight: 12
 url: /cpp/font-availability-and-substitution/
+timestamp: 2024-09-24-14-35-44
 ---
 
 A text in a document can be formatted with various fonts, such as Arial, Times New Roman, Verdana, and others. When Aspose.Words renders a document, it attempts to select the fonts that are specified in the document.

@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words お問い合わせ Java スマートを実行 Art Cold Rendering(アート・コールド・レンダリング)は、あらかじめレンダリングされた SmartArt の描画が欠落しているか、誤って SmartArt オブジェクトをレイアウトし、レンダリングすることを意味します。"
 weight: 330
 url: /ja/java/working-with-smartart-cold-rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 SmartArt グラフィックスは、情報の表示を迅速かつ簡単に作成するために使用されています。 あなただけのあなたの状況に合ったレイアウトの数から選ぶ. この使いやすさは、SmartArtのグラフィックは、いくつかの目的のために非常に人気になります。

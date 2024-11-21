@@ -7,6 +7,7 @@ description: "Aspose.Words pentru .NET poate insera fonturile corecte TrueType �
 type: docs
 weight: 10
 url: /ro/net/manipulating-and-substitution-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words necesită fonturi TrueType pentru o varietate de sarcini, inclusiv redarea documentelor la format fix pagină, de exemplu, PDF sau XPS. Când Aspose.Words redă un document, acesta trebuie să efectueze inserarea și inserarea subconjuctelor de fonturi TrueType în documentul rezultat, care este o practică obișnuită în timpul generării unui document, inclusiv în formate populare PDF sau XPS. Aceasta asigură ca documentul să apară la fel pentru orice vizualizator. În plus, specificația XPS impune ca fonturile să fie întotdeauna încorporate în document.

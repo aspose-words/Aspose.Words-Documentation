@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bekerja dengan Tanda Tangan Digital di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Bekerja dengan Tanda Tangan Digital
@@ -7,6 +7,7 @@ description: "Tanda tangani dokumen secara digital dan deteksi, hitung, verifika
 type: docs
 weight: 160
 url: /id/cpp/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Tanda tangan digital adalah penerapan teknologi tanda tangan elektronik untuk menandatangani dokumen dan mengotentikasi penandatangan untuk menjamin bahwa suatu dokumen belum diubah sejak ditandatangani. Setiap tanda tangan digital unik untuk setiap penandatangan karena mengikuti protokol PKI untuk menghasilkan kunci publik dan pribadi. Menandatangani dokumen secara digital berarti membuat tanda tangan menggunakan kunci pribadi penandatangan di mana algoritma matematika digunakan untuk mengenkripsi hash yang dihasilkan.

@@ -7,6 +7,7 @@ description: "พิมพ์เอกสารโดยใช้ Java ผ่า
 type: docs
 weight: 55
 url: /th/java/print-a-document-programmatically-or-using-dialogs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 บทความ นี้ อธิบาย วิธี พิมพ์ เอกสาร การประมวลผล คํา โดย ใช้ Aspose.Words API. บทความ อื่น ๆ ใน ฉบับ นี้:

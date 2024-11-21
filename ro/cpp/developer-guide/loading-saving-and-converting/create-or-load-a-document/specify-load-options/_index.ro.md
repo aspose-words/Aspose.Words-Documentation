@@ -1,4 +1,4 @@
-﻿---
+---
 title: Specificați opțiunile de încărcare în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Specificați Opțiunile De Încărcare
@@ -7,6 +7,7 @@ description: "Controlați mai precis procesul de încărcare."
 type: docs
 weight: 10
 url: /ro/cpp/specify-load-options/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Când încărcați un document, puteți seta câteva proprietăți avansate. Aspose.Words vă oferă clasa [LoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/loadoptions/), care permite un control mai precis al procesului de încărcare. Unele formate de încărcare au o clasă corespunzătoare care conține opțiuni de încărcare pentru acest format de încărcare, de exemplu, există [PdfLoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/pdfloadoptions/) pentru încărcare în format PDF sau [TxtLoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/txtloadoptions/) pentru încărcare în TXT. Acest articol oferă exemple de lucru cu opțiunile clasei **LoadOptions**.

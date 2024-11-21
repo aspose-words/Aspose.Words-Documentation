@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words Sitemap Java mengakui dan mematuhi standar keamanan umum untuk memastikan tingkat keamanan data yang tinggi. Lihat kemungkinan masalah keamanan dan rekomendasi tentang cara menghindarinya."
 weight: 120
 url: /id/java/security/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Keamanan membantu melindungi data dari akses yang tidak sah, serta perubahan berbahaya atau tidak disengaja. Aspose.Words sangat memperhatikan keamanan data pelanggan, oleh karena itu, mengenali dan mematuhi standar keamanan umum.

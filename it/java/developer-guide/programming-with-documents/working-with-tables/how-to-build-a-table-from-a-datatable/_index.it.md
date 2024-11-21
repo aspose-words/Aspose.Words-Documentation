@@ -7,6 +7,7 @@ description: "Esempio di tabella dei documenti di riempimento da database estern
 type: docs
 weight: 130
 url: /it/java/how-to-build-a-table-from-a-datatable/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Spesso la tua applicazione tirerà i dati da un database e lo memorizza sotto forma di un **DataTable**. Si può desiderare di inserire facilmente questi dati nel documento come una nuova tabella e applicare rapidamente la formattazione all'intera tabella.

@@ -7,6 +7,7 @@ description: "Enkripsi dokumen Anda menggunakan algoritma enkripsi yang sesuai u
 type: docs
 weight: 20
 url: /id/java/encrypt-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Enkripsi adalah proses yang menerjemahkan teks yang dapat dibaca untuk urutan tak bermakna dari byte sehingga hanya dapat dibaca oleh orang yang memiliki kunci dekripsi atau kode rahasia. Proses ini memainkan peran penting dalam mengamankan konten Anda. Ini membantu untuk mengkodekan konten, memverifikasi asal dokumen, membuktikan bahwa konten tidak dimodifikasi setelah dikirim, dan memastikan bahwa data dari dokumen aman.

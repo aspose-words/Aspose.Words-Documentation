@@ -7,6 +7,7 @@ description: "PDF/A-1, PDF/A-2, PDF/A-4 및 PDF/UA로 변환 Java· PDF 표준�
 type: docs
 weight: 25
 url: /ko/java/learn-features-of-conversion-to-pdf-a-pdf-ua/
+timestamp: 2024-01-31-14-23-37
 ---
 
 PDF는 사용자 중 매우 인기있는 고정 페이지 형식이며 PDF 문서와 같은 다양한 응용 프로그램에 의해 널리 지원됩니다. 이 이유를 들어, PDF로 변환하는 것은 중요한 기능입니다 Aspose.Words·

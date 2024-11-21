@@ -7,6 +7,7 @@ description: "Как бегать Aspose.Words для Android через Java П
 type: docs
 weight: 70
 url: /ru/java/how-to-use-the-examples/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Во-первых, убедитесь, что у вас установлен пакет ADT и что вы загрузили и извлекли последнюю версию. [Aspose.Words для Android через Java](https://releases.aspose.com/words/androidjava/).

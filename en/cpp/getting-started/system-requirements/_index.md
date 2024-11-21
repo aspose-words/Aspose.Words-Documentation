@@ -7,6 +7,7 @@ description: "Before you start working with Aspose.Words for C++, ensure that yo
 type: docs
 weight: 70
 url: /cpp/system-requirements/
+timestamp: 2024-07-11-16-13-28
 ---
 
 Aspose.Words for C++ does not require any third party product such as Microsoft Word to be installed. Aspose.Words itself is an engine for creating, modifying, converting, and rendering of documents in various formats, including Microsoft Word document formats.

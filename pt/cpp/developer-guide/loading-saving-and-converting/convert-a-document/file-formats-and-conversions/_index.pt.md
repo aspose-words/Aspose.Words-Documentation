@@ -1,4 +1,4 @@
-﻿---
+---
 title: Formatos de ficheiros e conversões
 second_title: Aspose.Words para C++
 articleTitle: Por que a conversão é o principal recurso de Aspose.Words?
@@ -7,6 +7,7 @@ description: "Converta documentos de qualquer carga suportada para salvar o form
 type: docs
 weight: 50
 url: /pt/cpp/file-formats-and-conversions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 {{% alert color="primary" %}}

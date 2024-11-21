@@ -7,6 +7,7 @@ type: docs
 description: "Použijte Aspose.Words Document Object Model třídy programově vytvářet, upravovat a spravovat dokumenty s Java. Práce s vlastnostmi dokumentů, nastavením a obsahem, stejně jako s vzhledem dokumentu prostřednictvím správy barev, tvarů, písem a jiné grafiky."
 weight: 340
 url: /cs/java/programming-with-documents/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Tato sekce poskytuje informace o tom, jak programově vytvářet, upravovat a spravovat dokumenty s Aspose.Words Document Object Model třídy. Články v této sekci popisují širokou škálu úkolů manipulace s dokumenty, které vám umožní pracovat s vlastnostmi dokumentů, nastavením, obsahem a jeho prvky.

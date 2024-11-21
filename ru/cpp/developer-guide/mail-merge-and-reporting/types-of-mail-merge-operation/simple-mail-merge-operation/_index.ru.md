@@ -1,4 +1,4 @@
-﻿---
+---
 title: Простая операция Mail Merge в C++
 second_title: Aspose.Words для C++
 articleTitle: Простое управление Mail Merge
@@ -8,6 +8,7 @@ description: "Простое mail merge используется для запо
 keywords: "how to execute mail merge c++"
 weight: 10
 url: /ru/cpp/simple-mail-merge-operation/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Простое значение mail merge используется для заполнения полей mail merge внутри вашего шаблона необходимыми данными из вашего источника данных (представление в виде одной таблицы). Таким образом, оно аналогично классическому значению mail merge в Microsoft Word.

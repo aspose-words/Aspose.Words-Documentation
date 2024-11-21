@@ -7,6 +7,7 @@ description: "Jak zaimplementować funkcje Markdown przy użyciu C#. Wszystkie f
 type: docs
 weight: 420
 url: /pl/net/working-with-markdown-features/
+timestamp: 2024-01-31-14-23-37
 ---
 
 W tym temacie omówiono sposób implementowania funkcji Markdown przy użyciu formatu Aspose.Words. Markdown to prosty sposób formatowania zwykłego tekstu, który można łatwo przekonwertować na format HTML. Aspose.Words obsługuje następujące funkcje Markdown:

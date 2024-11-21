@@ -7,6 +7,7 @@ description: "Desteklenen herhangi bir formattaki iki belgeyi karşılaştırın
 type: docs
 weight: 60
 url: /tr/python-net/compare-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Dokümanların karşılaştırılması, iki doküman arasındaki değişiklikleri tespit eden ve değişiklikleri revizyon olarak içeren bir işlemdir. Bu işlem, belirli bir belgenin sürümleri de dahil olmak üzere herhangi iki belgeyi karşılaştırır ve ardından her iki belge arasındaki değişiklikler, ilk belgede revizyonlar olarak gösterilir.

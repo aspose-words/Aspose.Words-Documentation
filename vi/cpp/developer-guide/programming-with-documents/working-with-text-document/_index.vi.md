@@ -1,4 +1,4 @@
-﻿---
+---
 title: Làm Việc Với Tài liệu Văn bản trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Làm việc Với Tài Liệu Văn Bản
@@ -7,6 +7,7 @@ description: "Nâng cao TXT xử lý tài liệu, danh sách, BiDi, tiêu đề/
 type: docs
 weight: 430
 url: /vi/cpp/working-with-text-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Trong bài viết này, chúng ta sẽ tìm hiểu những tùy chọn nào có thể hữu ích để làm việc với tài liệu văn bản thông qua Aspose.Words. Xin lưu ý rằng đây không phải là danh sách đầy đủ các tùy chọn có sẵn, mà chỉ là một ví dụ về cách làm việc với một số trong số chúng.

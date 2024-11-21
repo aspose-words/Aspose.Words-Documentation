@@ -1,4 +1,4 @@
-﻿---
+---
 title: Sokmak Checkboxes, Metin Girişi veya Görüntüler sırasında Mail Merge
 second_title: Aspose.Words için C++
 articleTitle: Sokmak Checkboxes, Metin Girişi veya Resimler
@@ -7,6 +7,7 @@ description: "Sırasında onay kutuları veya metin giriş alanları ekleyin Mai
 type: docs
 weight: 40
 url: /tr/cpp/insert-checkboxes-text-input-or-images-mail-merge/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Birleştirme motoru bir belgeyi girdi olarak alır, arar `MERGEFIELD` içindeki alanları ve bunları veri kaynağından elde edilen verilerle değiştirir. Genellikle düz metin ve HTML eklenir, ancak Aspose.Words kullanıcılar ayrıca aşağıdakiler için daha sıra dışı senaryoları işleyen bir belge oluşturabilir mail merge alanlar.

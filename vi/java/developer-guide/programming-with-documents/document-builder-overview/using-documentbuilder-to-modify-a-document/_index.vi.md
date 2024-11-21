@@ -7,6 +7,7 @@ type: docs
 description: "Sử dụng trình xây dựng tài liệu để sửa đổi một tài liệu dễ dàng trong Java."
 weight: 20
 url: /vi/java/using-documentbuilder-to-modify-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Định dạng cụ thể

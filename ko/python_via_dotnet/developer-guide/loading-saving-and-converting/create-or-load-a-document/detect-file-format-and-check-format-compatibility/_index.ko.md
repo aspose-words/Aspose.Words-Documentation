@@ -7,6 +7,7 @@ description: "파일의 실제 내용이 무엇인지 확실하지 않거나 형
 type: docs
 weight: 20
 url: /ko/python-net/detect-file-format-and-check-format-compatibility/
+timestamp: 2024-10-21-11-17-44
 ---
 
 파일 확장자가 파일 내용의 적합성을 보장하지 않기 때문에 문서를 열기 전에 문서의 형식을 결정해야 하는 경우가 있습니다. 예를 들어 Crystal Reports는 종종 RTF 형식으로 문서를 출력하지만 .doc 확장자를 제공하는 것으로 알려져 있습니다.

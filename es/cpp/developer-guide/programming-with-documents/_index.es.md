@@ -1,4 +1,4 @@
-﻿---
+---
 title: Programación con documentos en C++
 second_title: Aspose.Words para C++
 articleTitle: Programación con Documentos
@@ -7,6 +7,7 @@ type: docs
 description: "Utilice las clases del Modelo de objetos de documento Aspose.Words para crear, modificar y administrar documentos mediante programación con C++. Trabaje con las propiedades, la configuración y el contenido del documento, así como con la apariencia del documento mediante la administración de colores, formas, fuentes y otros gráficos."
 weight: 50
 url: /es/cpp/programming-with-documents/
+timestamp: 2024-09-25-11-08-55
 ---
 
 En esta sección se proporciona información sobre cómo crear, modificar y administrar documentos mediante programación con las clases del Modelo de Objetos de documento Aspose.Words. Los artículos de esta sección describen una amplia gama de tareas de manipulación de documentos que le permiten trabajar con las propiedades, la configuración, el contenido y sus elementos del documento.

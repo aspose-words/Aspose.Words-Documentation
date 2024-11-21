@@ -7,6 +7,7 @@ description: "Tabellenformatierung in Details. Verwendung Java um jeden Teil der
 type: docs
 weight: 70
 url: /de/java/applying-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Jedes Element einer Tabelle kann mit unterschiedlicher Formatierung aufgebracht werden. Beispielsweise wird die Tabellenformatierung auf die gesamte Tabelle, Zeilenformatierung auf nur bestimmte Zeilen, Zellformatierung auf nur bestimmte Zellen angewendet.

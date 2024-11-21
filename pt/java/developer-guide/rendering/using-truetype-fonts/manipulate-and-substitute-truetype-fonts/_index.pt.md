@@ -7,6 +7,7 @@ description: "Aspose.Words para Java pode incorporar as fontes TrueType corretas
 type: docs
 weight: 10
 url: /pt/java/manipulate-and-substitute-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words Exigência Digite fontes para uma variedade de tarefas, incluindo renderizar documentos para formatos de página fixa, por exemplo, PDF ou XPS. Quando Aspose.Words renderiza um documento, ele precisa executar incorporação e subconjunto de fontes TrueType no documento resultante, que é uma prática normal durante uma geração de documentos, incluindo PDF popular ou XPS formatos. Isso garante que o documento aparecerá o mesmo a qualquer espectador. Além disso, XPS especificação requer fontes para ser sempre incorporado no documento.

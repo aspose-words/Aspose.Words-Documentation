@@ -7,6 +7,7 @@ description: "필드 코드와 필드 결과와 같은 일부 필드 속성을 �
 type: docs
 weight: 25
 url: /ko/java/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 삽입 된 필드 [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)·[InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean) 계정 만들기 [Field](https://reference.aspose.com/words/java/com.aspose.words/field/) 이름 * 이 필드의 속성을 빠르게 찾을 수있는 유용한 방법을 제공하는 정면 클래스입니다.

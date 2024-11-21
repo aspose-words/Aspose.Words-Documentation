@@ -7,6 +7,7 @@ description: "Tính năng trường trong chi tiết, mã trường và kết qu
 type: docs
 weight: 10
 url: /vi/java/introduction-to-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words là một thư viện lớp được thiết kế cho xử lý phía máy chủ của các tài liệu Microsoft Word và hỗ trợ trường theo những cách sau:

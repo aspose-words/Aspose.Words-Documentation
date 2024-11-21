@@ -7,6 +7,7 @@ description: "Aspose.Words für Java bietet verschiedene Klassen für die Zusamm
 type: docs
 weight: 50
 url: /de/java/work-with-office-add-ins/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Manchmal möchten Sie möglicherweise Zugriff auf Schnittstellenkontrollen, die Code ausführen, um Dokumente zu ändern. Aspose.Words API bietet `WebExtensions` namespace, der verschiedene Klassen zur Anpassung von Elementen und Attributen gewährt, die das XML-Vokabular für die Darstellung von Office Add-Ins erweitern.

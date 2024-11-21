@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu anteturi și subsoluri în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Lucrul cu anteturi și subsoluri
@@ -7,6 +7,7 @@ description: "Cum se manipulează anteturile și subsolurile folosind C++."
 type: docs
 weight: 150
 url: /ro/cpp/working-with-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words permite utilizatorilor să lucreze cu anteturi și subsoluri într-un document. Un antet este text care este plasat în partea de sus a unei pagini, iar un subsol este text în partea de jos a unei pagini. De obicei, aceste zone sunt utilizate pentru a insera informații care ar trebui repetate pe toate sau pe unele pagini ale documentului, cum ar fi numerele paginilor, data creării, informațiile companiei și așa mai departe.

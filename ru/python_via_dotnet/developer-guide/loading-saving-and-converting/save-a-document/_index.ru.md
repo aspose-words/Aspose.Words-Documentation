@@ -8,6 +8,7 @@ description: "Сохранить документ в любом поддержи
 keywords: "save a document python, save a document to file python, save a document to stream python, save a document Aspose python, save formats supported by Aspose.Words python"
 weight: 20
 url: /ru/python-net/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Большинство задач, которые вам нужно выполнить Aspose.Words Сохранить документ. Чтобы сохранить документ Aspose.Words обеспечивает [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) Методика [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) класс. Есть перегрузки, которые позволяют сохранить документ в файл или поток. Документ может быть сохранен в любом формате сохранения, поддерживаемом Aspose.Words. Для списка всех поддерживаемых форматов сохранения см. [SaveFormat](https://reference.aspose.com/words/python-net/aspose.words/saveformat/) перечисление.

@@ -7,6 +7,7 @@ description: "Convertire un documento in PDF con opzioni avanzate. Utilizzare Pd
 type: docs
 weight: 20
 url: /it/java/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Il formato PDF è un formato di pagina fissa che è molto popolare tra gli utenti e ampiamente supportato da varie applicazioni perché un documento PDF guarda lo stesso su qualsiasi dispositivo. Per questo motivo, convertire in PDF è una caratteristica importante di Aspose.Words.

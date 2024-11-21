@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge Vorlage in C++
 second_title: Aspose.Words für C++
 articleTitle: Mail Merge Vorlage
@@ -8,6 +8,7 @@ description: "Erstellen Sie eine mail merge-Vorlage, um festen Inhalt in Ausgabe
 keywords: "create mail merge template с++"
 weight: 10
 url: /de/cpp/mail-merge-template/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Es ist üblich, eine Zusammenführungsvorlage als Basisdokument für eine mail merge-Operation zu verwenden, entweder wenn es sich um eine einfache mail merge oder mail merge mit Regionen handelt. Mail merge mit Regionen ist leistungsfähiger und beliebter als das einfache mail merge. Einfaches mail merge wird als ein besonderer Fall von mail merge mit Regionen betrachtet, in denen die Region das gesamte Dokument ist. Alles wird im nächsten Artikel "Arten von Mail Merge Operationen" ausführlicher erläutert.

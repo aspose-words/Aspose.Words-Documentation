@@ -7,6 +7,7 @@ type: docs
 weight: 30
 url: /ko/java/convert-a-document/
 description: "쉽게 하나의 형식으로 문서를 변환합니다. 당신은 같은 모든 가장 인기있는 형식으로 작업 할 수 있습니다 Microsoft Word DOCX 또는 DOC와 같은 형식, ODT 또는 OTT와 같은 OpenDocument 형식, HTML 또는 XHTML과 같은 웹 형식, MarkDown 또는 TXT와 같은 텍스트 형식, 다른 사람 사용 Java·"
+timestamp: 2024-09-25-11-08-55
 ---
 
 쉽게 변환 할 수있는 능력은 하나의 형식에서 다른 문서는 주요 특징 영역 중 하나입니다 Aspose.Words· 이러한 변환은 로딩 및 저장 작업의 조합보다 더 이상 없습니다.

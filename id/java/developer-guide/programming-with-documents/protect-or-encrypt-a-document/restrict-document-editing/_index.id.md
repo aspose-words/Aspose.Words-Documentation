@@ -7,6 +7,7 @@ description: "Mengedit dokumen dengan mengatur jenis pembatasan. Anda juga dapat
 type: docs
 weight: 30
 url: /id/java/restrict-document-editing/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Kadang-kadang Anda mungkin perlu membatasi kemampuan untuk mengedit dokumen dan hanya memungkinkan tindakan tertentu dengan itu. Hal ini dapat berguna untuk mencegah orang lain dari mengedit informasi sensitif dan rahasia dalam dokumen Anda.

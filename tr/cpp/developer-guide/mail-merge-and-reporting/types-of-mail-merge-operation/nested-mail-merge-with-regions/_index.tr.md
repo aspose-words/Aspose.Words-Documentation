@@ -1,4 +1,4 @@
-﻿---
+---
 title: İç içe geçmiş Mail Merge bölgelerle birlikte C++
 second_title: Aspose.Words için C++
 articleTitle: İç içe geçmiş Mail Merge bölgelerle
@@ -8,6 +8,7 @@ description: "Gerçekleştirmek mail merge kullanarak iç içe geçmiş bölgele
 keywords: "mail merge with nested regions c++"
 weight: 30
 url: /tr/cpp/nested-mail-merge-with-regions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Bazı senaryolarda, iç içe kullanmanız gerekebilir mail merge bölgelerle. İç içe birleştirme, belgenizi kolayca doldurmak için veri kaynağınızdaki hiyerarşik verileri birleştirme şablonunuzda birleştirmenize olanak tanıyan bir özelliktir. Temel olarak, hiyerarşik veriler bir dizi veri öğesi olarak temsil edilir ve hiyerarşik ilişkiler, veri öğelerinin birbirleriyle nasıl ilişkili olduğunu açıklar (bir veri öğesi diğerinin üst öğesidir).

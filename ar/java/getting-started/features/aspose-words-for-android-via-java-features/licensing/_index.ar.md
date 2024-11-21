@@ -7,6 +7,7 @@ description: "التراخيص Aspose.Words for Android عبر Java."
 type: docs
 weight: 60
 url: /ar/java/licensing-android/
+timestamp: 2024-02-02-12-07-36
 ---
 
 في بعض الأحيان، من أجل دراسة النظام بشكل أفضل، كنت ترغب في الغوص إلى الرمز في أسرع وقت ممكن. لجعل هذا أسهل، Aspose.Words وتوفر خططا مختلفة للشراء أو تقدم محاكمة حرة ورخصة مؤقتة لمدة 30 يوما للتقييم.

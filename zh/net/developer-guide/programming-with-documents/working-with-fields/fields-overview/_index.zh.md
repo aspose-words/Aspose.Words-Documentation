@@ -7,6 +7,7 @@ description: "字段的详细信息、字段代码和字段结果在 Aspose.Word
 type: docs
 weight: 10
 url: /zh/net/fields-overview/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words是一个为Microsoft Word文档的服务器端处理而设计的类库，支持以下方式的字段：

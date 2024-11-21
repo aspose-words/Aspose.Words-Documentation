@@ -1,4 +1,4 @@
-﻿---
+---
 title: Sekuriteit Notas
 second_title: Aspose.Words vir .NET
 articleTitle: Sekuriteit Notas
@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words vir .NET erken en voldoen aan gemeenskaplike sekuriteitstandaarde om'n hoë vlak van data sekuriteit te verseker. Kyk na moontlike sekuriteitskwessies en aanbevelings oor hoe om dit te vermy deur C# te gebruik."
 weight: 100
 url: /af/net/security/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Sekuriteit help om data te beskerm teen ongemagtigde toegang, sowel as kwaadwillige of toevallige veranderinge. Aspose.Words is uiters oplettend vir die sekuriteit van kliëntedata, daarom erken en voldoen dit aan die gemeenskaplike sekuriteitstandaarde.

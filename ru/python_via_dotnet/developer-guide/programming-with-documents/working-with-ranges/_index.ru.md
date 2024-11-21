@@ -7,6 +7,7 @@ description: "Работа с диапазонами в документе с и
 type: docs
 weight: 130
 url: /ru/python-net/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

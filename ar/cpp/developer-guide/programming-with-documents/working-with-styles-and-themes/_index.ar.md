@@ -1,4 +1,4 @@
-﻿---
+---
 title: العمل مع الأنماط في C++
 second_title: Aspose.Words ل C++
 articleTitle: العمل مع الأنماط
@@ -7,6 +7,7 @@ description: "ميزات التنسيق المحسنة Microsoft Word، والع
 type: docs
 weight: 110
 url: /ar/cpp/working-with-styles-and-themes/
+timestamp: 2024-01-30-16-22-34
 ---
 
 يتم استخدام فئة [StyleCollection](https://reference.aspose.com/words/cpp/aspose.words/stylecollection/) لإدارة الإعدادات المضمنة وتطبيق الإعدادات المعرفة من قبل المستخدم على الأنماط.

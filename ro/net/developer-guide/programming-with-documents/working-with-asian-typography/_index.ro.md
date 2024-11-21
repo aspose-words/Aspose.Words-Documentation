@@ -7,6 +7,7 @@ description: "Lucrez cu tipografia asiatică folosind C#. Ajustarea spațiului �
 type: docs
 weight: 240
 url: /ro/net/working-with-asian-typography/
+timestamp: 2024-02-01-16-17-05
 ---
 
 Tipografia asiatică este o serie de opțiuni pentru paragrafe de text în documente scrise în limbi asiatice.

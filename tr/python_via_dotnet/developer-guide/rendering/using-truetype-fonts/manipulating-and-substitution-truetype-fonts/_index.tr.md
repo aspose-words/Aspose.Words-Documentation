@@ -7,6 +7,7 @@ description: "Python via .NET için Aspose.Words, doğru görüntülendiğinden 
 type: docs
 weight: 10
 url: /tr/python-net/manipulating-and-substitution-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words, belgeleri PDF veya XPS gibi sabit sayfa formatlarına dönüştürmek de dahil olmak üzere çeşitli görevler için TrueType yazı tiplerini gerektirir. Aspose.Words bir belgeyi oluşturduğunda, ortaya çıkan belgeye TrueType yazı tiplerinin gömme ve alt küme gömme işlemini gerçekleştirmesi gerekir; bu, popüler PDF veya XPS formatları da dahil olmak üzere belge oluşturma sırasında normal bir uygulamadır. Bu, belgenin her izleyiciye aynı görünmesini sağlar. Ayrıca, XPS spesifikasyonu yazı tiplerinin her zaman belgeye gömülmesini gerektirir.

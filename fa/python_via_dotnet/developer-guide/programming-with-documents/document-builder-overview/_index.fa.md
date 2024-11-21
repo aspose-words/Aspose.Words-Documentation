@@ -7,6 +7,7 @@ type: docs
 description: "DocumentBuilder به شما امکان می دهد اسناد پویا را از ابتدا بسازید یا عناصر جدیدی را با استفاده از Python به موارد موجود اضافه کنید. DocumentBuilder روش هایی را برای درج متن، چک باکس ها، جداول، تصاویر و سایر عناصر محتوا در Python فراهم می کند."
 weight: 30
 url: /fa/python-net/document-builder-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) یک کلاس قدرتمند است که با [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) مرتبط است و به شما امکان می دهد اسناد پویا را از ابتدا بسازید یا عناصر جدیدی را به یک موجود اضافه کنید.

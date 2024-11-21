@@ -7,6 +7,7 @@ description: "Aspose.Words for .NET為使用者提供了一系列功能，從將
 type: docs
 weight: 40
 url: /zh-hant/net/features/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words為用戶提供了一系列功能。 使用者可以執行大量與文件相關的任務 – 從將文件從一種支援的格式轉換為另一種，並會在轉換過程時修改這些文件到商業任務，例如建立結構化且具有视觉吸引力的文件或自動化報告。

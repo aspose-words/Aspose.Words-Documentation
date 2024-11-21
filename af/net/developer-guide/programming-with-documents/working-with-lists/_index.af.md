@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Lyste in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Werk met Lyste
@@ -7,6 +7,7 @@ description: "Inleiding tot nommering formatering funksie in Aspose.Words vir .N
 type: docs
 weight: 200
 url: /af/net/working-with-lists/
+timestamp: 2024-01-27-14-07-04
 ---
 
 'n lys in'n Microsoft Word dokument is'n stel paragraaf formatering eienskappe. Lyste kan in dokumente gebruik word om teks te struktureer, te rangskik en te beklemtoon. Lyste is'n goeie manier om data in dokumente te organiseer op'n manier wat dit vir lesers maklik maak om sleutelpunte te absorbeer en te verstaan.

@@ -7,6 +7,7 @@ type: docs
 description: "Tarnslát a Markdown doklad k Document Object Model a zpětné použití Python. Takže můžete pracovat se složitými existujícími Markdown a programově vytvořit Markdown Dokument od začátku."
 weight: 20
 url: /cs/python-net/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Chcete-li programově číst, manipulovat a upravovat obsah a formátování dokumentu, musíte jej přeložit do Aspose.Words Document Object Model (DOM).

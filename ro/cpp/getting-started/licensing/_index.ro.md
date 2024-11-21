@@ -1,4 +1,4 @@
-﻿---
+---
 title: Licențiere și abonament
 second_title: Aspose.Words pentru C++
 articleTitle: Licențiere și abonament
@@ -7,6 +7,7 @@ description: "Aspose.Words pentru Client oferă diferite planuri de cumpărare s
 type: docs
 weight: 60
 url: /ro/cpp/licensing/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Uneori, pentru a studia mai bine sistemul, doriți să vă scufundați în cod cât mai repede posibil. Pentru a face acest lucru mai ușor, Aspose.Words oferă diferite planuri de cumpărare sau oferă o încercare gratuită și o licență temporară de 30 pentru evaluare.

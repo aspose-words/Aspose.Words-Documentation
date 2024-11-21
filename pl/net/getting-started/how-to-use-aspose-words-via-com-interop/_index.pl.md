@@ -7,6 +7,7 @@ type: docs
 description: "Używaj Aspose.Words dla .NET poprzez COM Interop w Python, PHP, VBScript, JScript i innych językach programowania."
 weight: 130
 url: /pl/net/how-to-use-aspose-words-via-com-interop/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Informacje zawarte w tym temacie dotyczą scenariuszy, w których chcesz używać Aspose.Words dla .NET za pośrednictwem COM Interop w dowolnym z następujących języków programowania:

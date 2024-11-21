@@ -7,6 +7,7 @@ description: "Než začnete pracovat s Aspose.Words místo Python via .NET, zaji
 type: docs
 weight: 50
 url: /cs/python-net/system-requirements/
+timestamp: 2024-04-27-18-03-32
 ---
 
 Aspose.Words místo Python via .NET nevyžaduje žádný produkt třetí strany, jako je Microsoft Word k instalaci. Aspose.Words sám o sobě je motorem pro tvorbu, úpravu, konverzi a vydávání dokumentů v různých formátech, včetně Microsoft Word formáty dokumentů.

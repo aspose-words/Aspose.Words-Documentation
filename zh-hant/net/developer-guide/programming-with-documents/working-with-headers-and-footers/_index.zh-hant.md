@@ -7,6 +7,7 @@ description: "如何透過C#操作標頭和腳列。 建立標頭和腳線C#. �
 type: docs
 weight: 150
 url: /zh-hant/net/working-with-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words 讓使用者可以在文件中處理標題和页脚。 標頭是放在頁面頂部的文字，尾腳是放到頁面的底部的文字。 這些區域通常用於插入在文件中所有或某些頁面都應該重複的資訊，例如頁碼、建立日期、公司資訊等。

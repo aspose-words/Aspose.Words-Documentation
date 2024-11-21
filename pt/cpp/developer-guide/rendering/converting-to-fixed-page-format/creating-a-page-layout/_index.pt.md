@@ -1,4 +1,4 @@
-﻿---
+---
 title: Criando um Layout de Página Em C++
 second_title: Aspose.Words para C++
 articleTitle: Criando um Layout de página
@@ -7,6 +7,7 @@ description: "Criar um layout de página pode ser um procedimento caro. Aspose.W
 type: docs
 weight: 10
 url: /pt/cpp/creating-a-page-layout/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Criar um layout de página pode ser um procedimento dispendioso, tanto em termos de velocidade como de memória. Isto é devido a várias razões:

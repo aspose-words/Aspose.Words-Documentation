@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在C++中使用图表
 second_title: Aspose.Words对于C++
 articleTitle: 使用图表
@@ -7,6 +7,7 @@ description: "图表特性介绍,如何使用C++创建和操作图表."
 type: docs
 weight: 170
 url: /zh/cpp/how-to-set-fill-and-stroke-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 可以为图表系列、数据点和标记设置填充和笔画格式。 为此，您需要在**ChartSeries**，**ChartDataPoint**和**ChartMarker**类中使用**ChartFormat**类型的属性，以及某些属性的别名，例如ForeColor，BackColor，可见和`Stroke`类中的透明度。

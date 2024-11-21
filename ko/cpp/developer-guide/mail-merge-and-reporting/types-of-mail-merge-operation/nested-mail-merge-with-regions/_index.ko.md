@@ -1,4 +1,4 @@
-﻿---
+---
 title: 둥글게 Mail Merge 지역과 함께 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 둥글게 Mail Merge 지역
@@ -8,6 +8,7 @@ description: "수행 mail merge 다음을 사용하여 중첩 된 영역을 사�
 keywords: "mail merge with nested regions c++"
 weight: 30
 url: /ko/cpp/nested-mail-merge-with-regions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 일부 시나리오에서는 중첩을 사용해야 할 수도 있습니다 mail merge 지역과 함께 중첩 병합은 데이터 원본의 계층적 데이터를 병합 템플릿으로 병합하여 문서를 쉽게 채울 수 있는 기능입니다. 기본적으로 계층적 데이터는 데이터 항목의 집합으로 표현되며 계층적 관계는 데이터 항목이 서로 어떻게 관련되어 있는지 설명합니다(한 데이터 항목은 다른 항목의 부모입니다).

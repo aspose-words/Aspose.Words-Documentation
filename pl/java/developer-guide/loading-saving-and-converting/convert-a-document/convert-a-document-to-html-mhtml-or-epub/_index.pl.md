@@ -7,6 +7,7 @@ description: "Stosowanie Aspose.Words zamiast Java do konwersji dokumentów z Wo
 type: docs
 weight: 20
 url: /pl/java/convert-a-document-to-html-mhtml-or-epub/
+timestamp: 2024-10-21-08-52-03
 ---
 
 Dokumenty w formatach HTML i MHTML flow- układ są również bardzo popularne i mogą być używane na każdej platformie internetowej. Z tego powodu konwersji dokumentów do HTML i MHTML jest ważną cechą Aspose.Words.

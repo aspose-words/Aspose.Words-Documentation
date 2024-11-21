@@ -8,6 +8,7 @@ url: /zh-hant/net/create-or-load-a-document/
 description: "透過 C# 建立一個空白的文件或從檔案或串流中載入它。"
 keywords: "create a document c#, load a document c#, create a blank document c#, load a document from file c#, load a document from stream c#, create a document Aspose .NET, load a document Aspose .NET, load formats supported by Aspose.Words .NET"
 weight: 10
+timestamp: 2024-07-09-19-00-42
 ---
 
 幾乎任何你想要使用 Aspose.Words 完成的工作都涉及到加載一份文件。 The `Document` class表示載入記憶體中的文件。 這個文件有多個超載的构造函数，讓您可以創造一個空白的文件或從檔案或串流中載入它。 這份文件可以用 Aspose.Words 支援的任何載入格式載入。 支援的所有載入格式清單，請參閱 [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/) 枚舉。

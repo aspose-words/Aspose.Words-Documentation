@@ -1,4 +1,4 @@
-﻿---
+---
 title: Voeg Velde in Java
 second_title: Aspose.Words vir Java
 articleTitle: Voeg By Velde
@@ -7,6 +7,7 @@ description: "Verskillende maniere om velde in u dokument in te voeg met Java."
 type: docs
 weight: 20
 url: /af/java/insert-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Daar is verskeie verskillende maniere om velde in'n dokument in te voeg:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içindeki Stillerle Çalışma
 second_title: Aspose.Words için C++
 articleTitle: Stillerle Çalışma
@@ -7,6 +7,7 @@ description: "Geliştirilmiş Microsoft Word biçimlendirme özellikleri, C++ ku
 type: docs
 weight: 110
 url: /tr/cpp/working-with-styles-and-themes/
+timestamp: 2024-01-30-16-22-34
 ---
 
 [StyleCollection](https://reference.aspose.com/words/cpp/aspose.words/stylecollection/) sınıfı, yerleşik ayarları yönetmek ve stillere kullanıcı tanımlı ayarları uygulamak için kullanılır.

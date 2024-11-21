@@ -7,6 +7,7 @@ description: "Het opslaan met behulp van nauwkeurigere controle Python."
 type: docs
 weight: 10
 url: /nl/python-net/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bij het opslaan van een document kunt u een aantal geavanceerde eigenschappen instellen. Aspose.Words geeft u de [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) klasse, die meer nauwkeurige controle van het opslaan proces mogelijk maakt. Er zijn overbelastingen van de [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) methode die een [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) object Het moet een object van een klasse afgeleid van de [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) Klasse. Elke opslag formaat heeft een overeenkomstige klasse die opslaan opties voor dit opslaan formaat bevat, bijvoorbeeld, er is [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) voor het opslaan naar PDF-formaat of [ImageSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/) voor het opslaan naar een afbeelding. Dit artikel geeft voorbeelden van werken met een aantal opties klassen afgeleid van [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/).

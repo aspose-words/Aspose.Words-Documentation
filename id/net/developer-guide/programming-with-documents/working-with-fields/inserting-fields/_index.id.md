@@ -7,6 +7,7 @@ description: "Cara memasukkan kolom ke dalam dokumen menggunakan C# – pelajari
 type: docs
 weight: 20
 url: /id/net/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ada beberapa cara berbeda untuk menyisipkan kolom ke dalam dokumen:

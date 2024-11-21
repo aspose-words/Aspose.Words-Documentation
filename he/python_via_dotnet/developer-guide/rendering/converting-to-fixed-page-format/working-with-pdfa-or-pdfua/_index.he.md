@@ -7,6 +7,7 @@ description: "המרת PDF/A-1, PDF/A-2, PDF/A-4 ו- PDF/UA באמצעות Pytho
 type: docs
 weight: 28
 url: /he/python-net/working-with-pdfa-or-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 פורמט PDF/A ו- PDF/UA מחייב מספר דרישות הקשורות לתוכן המסמך שלא ניתן להשלים במהלך המרה אוטומטית של מסמך בפורמט Word ל- PDF. דרישות אלה יש לאמת ולתקן במסמך Word לפני המרה או במסמך PDF לאחר המרה על מנת לייצר מסמך PDF/A ו- PDF/UA.

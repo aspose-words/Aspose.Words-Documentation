@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hoe Om Persoonlike Logika Toe Te Pas Op Ongemengde Streke
 second_title: Aspose.Words vir Java
 articleTitle: Hoe Om Persoonlike Logika Toe Te Pas Op Ongemengde Streke
@@ -7,6 +7,7 @@ type: docs
 description: "Pas persoonlike logika toe op ongemengde streke tydens'n mail merge operasie met behulp van Java."
 weight: 70
 url: /af/java/how-to-apply-custom-logic-to-unmerged-regions/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Daar is'n paar situasies waar die volledige verwydering van ongemengde streke uit die dokument gedurende mail merge nie gewens word nie of die dokument onvolledig lyk. Dit kan voorkom wanneer die afwesigheid van insette data moet vertoon word aan die gebruiker in die vorm van'n boodskap in plaas van die streek heeltemal verwyder.

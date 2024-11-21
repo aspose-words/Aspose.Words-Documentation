@@ -7,6 +7,7 @@ description: "ドキュメントをロードするときに高度なプロパテ
 type: docs
 weight: 10
 url: /ja/java/specify-load-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ドキュメントをロードすると、高度なプロパティを設定できます。 Aspose.Words あなたに提供する [LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/) 負荷プロセスのより精密な制御を可能にするクラス。 いくつかのロードフォーマットには、このロードフォーマットのロードオプションを保持する対応するクラスがあります。例えば、 [PdfLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/) PDF形式への読み込みまたは [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) TXTへのローディングのため。 この記事では、オプションの動作例を提供しています **LoadOptions** クラス。

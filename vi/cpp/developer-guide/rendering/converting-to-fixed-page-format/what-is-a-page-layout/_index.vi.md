@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bố Cục Trang trong C++là gì
 second_title: Aspose.Words cho C++
 articleTitle: Bố Cục Trang Là gì
@@ -7,6 +7,7 @@ description: "Hãy tìm hiểu bố cục trang là gì. Bố cục trang mô t�
 type: docs
 weight: 5
 url: /vi/cpp/what-is-a-page-layout/
+timestamp: 2024-09-24-14-35-44
 ---
 
 A **document page layout** là một cấu trúc dữ liệu, mô tả nơi một đối tượng cụ thể nằm trên các trang cho tất cả các đối tượng tài liệu. Ngoài ra, vì các đối tượng có các thuộc tính ảnh hưởng đến giao diện của chúng, chẳng hạn như kích thước phông chữ, hiệu ứng tô bóng hoặc vẽ, bạn không chỉ cần biết đối tượng ở đâu mà còn phải biết (các) khu vực của trang mà nó chiếm và liệu nó có áp dụng cho nhiều trang hay không để các.

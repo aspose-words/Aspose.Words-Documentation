@@ -1,4 +1,4 @@
-﻿---
+---
 title: Append Documents in Ruby
 second_title: Aspose.Words for Java
 articleTitle: Append Documents in Ruby
@@ -7,6 +7,7 @@ description: "Append an MS Word document to other one using Ruby."
 type: docs
 weight: 10
 url: /java/append-documents-in-ruby/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Append Documents

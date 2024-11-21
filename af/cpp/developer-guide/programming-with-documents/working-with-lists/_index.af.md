@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Lyste in C++
 second_title: Aspose.Words vir C++
 articleTitle: Werk Met Lyste
@@ -7,6 +7,7 @@ description: "Inleiding tot nommering formatering funksie in Aspose.Words vir C+
 type: docs
 weight: 200
 url: /af/cpp/working-with-lists/
+timestamp: 2024-01-30-16-22-34
 ---
 
 'n lys in'n Microsoft Word dokument is'n stel lys formatering eienskappe. Lyste kan in u dokumente gebruik word om teks te formateer, te rangskik en te beklemtoon. Lyste is'n goeie manier om data in dokumente te organiseer, en dit maak dit makliker vir lesers om sleutelpunte te verstaan.

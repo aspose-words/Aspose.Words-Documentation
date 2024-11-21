@@ -1,4 +1,4 @@
-﻿---
+---
 title: Prezentare generală a câmpurilor în Python
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Prezentare Generală A Câmpurilor
@@ -7,6 +7,7 @@ description: "Puteți accesa modificarea câmpului folosind Python. Câmpurile d
 type: docs
 weight: 10
 url: /ro/python-net/fields-overview/
+timestamp: 2024-10-21-11-17-44
 ---
 
 

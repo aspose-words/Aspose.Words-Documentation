@@ -7,6 +7,7 @@ type: docs
 description: "In Aspose.Words voor Python via .NET documentatie vermeld logische niveaus van knooppunten blok niveau, inline niveau, of rij niveau. Het knooppuntniveau wordt gebruikt om de locatie in de documentboom te beschrijven waar het knooppunt meestal voorkomt."
 weight: 10
 url: /nl/python-net/logical-levels-of-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Deze documentatie verwijst soms naar een groep knooppuntklassen die behoren tot een "niveau" in een document, zoals "block-level," "inline-level" (ook bekend als "inline"), of "row-level knooppunten." Deze niveaus in een document worden louter logisch gedifferentieerde en niet expliciet uitgedrukt door erfrecht of andere Aspose.Words DOM betekent. Het knooppuntniveau wordt gebruikt om de plaats in de documentboom te beschrijven waar het knooppunt meestal zou voorkomen.

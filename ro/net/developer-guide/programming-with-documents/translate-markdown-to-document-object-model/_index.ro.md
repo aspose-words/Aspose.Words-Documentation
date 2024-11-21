@@ -7,6 +7,7 @@ type: docs
 description: "Traduceti un Markdown document in Document Object Model si apoi inapoi folosind C#. Astfel, puteți lucra cu documente existente complexe Markdown și programatic crea un Markdown document de la zero."
 weight: 20
 url: /ro/net/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Pentru a citi programatic, manipula și modifica conținutul și formatarea unui document, ai nevoie să-l traduci în Aspose.Words Document Object Model ( DOM ).

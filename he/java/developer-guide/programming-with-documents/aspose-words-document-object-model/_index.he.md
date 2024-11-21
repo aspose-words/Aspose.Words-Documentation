@@ -7,6 +7,7 @@ type: docs
 description: "Document Object Model ()DOM) הוא ייצוג פנימי של מסמך Word. קרא, מניפולציות ולשנות את התוכן והפורמט של מסמך Word באמצעות שימוש Java."
 weight: 10
 url: /he/java/aspose-words-document-object-model/
+timestamp: 2024-01-27-14-07-04
 ---
 
 The The The Aspose.Words Document Object Model ()DOM) הוא ייצוג פנימי של מסמך Word. The The The Aspose.Words DOM מאפשר לך לקרוא, לתמרן ולשנות את התוכן והפורמט של מסמך Word.

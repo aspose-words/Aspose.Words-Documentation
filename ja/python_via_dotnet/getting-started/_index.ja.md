@@ -7,6 +7,7 @@ type: docs
 description: "この Aspose.Words for Python via .NET の基礎の概要を使用して、ビジネスにとっての Aspose.Words の価値を認識し始めてください。"
 weight: 20
 url: /ja/python-net/getting-started/
+timestamp: 2024-09-25-11-08-55
 ---
 
 この「はじめに」では、Aspose.Words の基礎について説明します。 Aspose.Words を初めて使用するユーザーにとって、これは基本的な要件と機能を学ぶための最も早い方法です。

@@ -7,6 +7,7 @@ description: "Python kullanarak bir belgedeki aralıklarla çalışın."
 type: docs
 weight: 130
 url: /tr/python-net/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

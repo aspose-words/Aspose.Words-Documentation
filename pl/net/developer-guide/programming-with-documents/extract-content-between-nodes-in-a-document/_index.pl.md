@@ -7,6 +7,7 @@ description: "Wyodrębnianie zawartości dokumentu w różnych formatach za pomo
 type: docs
 weight: 140
 url: /pl/net/how-to-extract-selected-content-between-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Podczas pracy z dokumentami ważna jest możliwość łatwego wyodrębnienia treści z określonego zakresu w dokumencie. Treść może jednak składać się ze skomplikowanych elementów, takich jak akapity, tabele, obrazy itp.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trabalhar com texto numa tabela
 second_title: Aspose.Words para C++
 articleTitle: Trabalhar com texto numa tabela
@@ -7,6 +7,7 @@ description: "Substituir texto em uma tabela em C++. Extraia texto simples da ta
 type: docs
 weight: 60
 url: /pt/cpp/work-with-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Como mencionado em artigos anteriores, uma tabela geralmente contém texto simples, embora outros conteúdos, como imagens ou mesmo outras tabelas, possam ser colocados em células de tabela.

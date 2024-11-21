@@ -7,6 +7,7 @@ description: "Comprensión de conceptos de sección de documentos y prácticas d
 type: docs
 weight: 120
 url: /es/java/working-with-sections/
+timestamp: 2024-01-31-14-23-37
 ---
 
 A veces quieres un documento que no tenga el mismo formato en todas las páginas. Por ejemplo, es posible que necesite modificar los formatos de número de página, tener diferentes tamaños de página y orientación, o tener la primera página de documento como una página de portada sin numeración. Puedes lograrlo con secciones.

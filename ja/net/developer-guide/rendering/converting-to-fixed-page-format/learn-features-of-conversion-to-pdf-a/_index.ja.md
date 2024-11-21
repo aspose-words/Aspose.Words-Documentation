@@ -7,6 +7,7 @@ description: "C# を使用して PDF/A-1、PDF/A-2、PDF/A-4、PDF/UA に変換�
 type: docs
 weight: 25
 url: /ja/net/learn-features-of-conversion-to-pdf-a-pdf-ua/
+timestamp: 2024-01-31-14-23-37
 ---
 
 PDF は固定ページ形式であり、ユーザーの間で非常に人気があり、PDF ドキュメントはどのデバイスでも同じように見えるため、さまざまなアプリケーションで広くサポートされています。このため、PDF への変換は Aspose.Words の重要な機能です。

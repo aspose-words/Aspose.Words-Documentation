@@ -7,6 +7,7 @@ description: "Tìm hiểu cách cập nhật các trường trong C#. Cập nh�
 type: docs
 weight: 30
 url: /vi/net/update-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Thông thường, trường được chèn vào Microsoft Word đã chứa giá trị cập nhật. Ví dụ: nếu trường là công thức hoặc số trang, nó sẽ chứa giá trị được tính toán chính xác cho phiên bản đã cho của tài liệu. Nhưng nếu bạn có một ứng dụng tạo hoặc sửa đổi tài liệu với các trường như hợp nhất hai tài liệu hoặc điền dữ liệu vào đó, thì lý tưởng nhất là tất cả các trường phải được cập nhật để tài liệu trở nên hữu ích.

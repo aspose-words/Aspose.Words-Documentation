@@ -7,6 +7,7 @@ type: docs
 description: "Pengantar fitur Matematika Kantor di Aspose.Words Sitemap JavaSitemap"
 weight: 320
 url: /id/java/working-with-officemath/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Sekarang lebih nyaman untuk bekerja dengan Objek Jenis OfficeMath. Sitemap Aspose.Words, pelanggan dapat dengan mudah Membenarkan dan juga dapat mengelola apakah persamaan ditampilkan inline atau dalam garis terpisah. Lebih dari itu, dengan ketersediaan **MathObjectType**; kontrol yang berguna dapat diterapkan dengan menggunakan objek matriks ini.

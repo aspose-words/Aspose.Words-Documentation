@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words 제품정보 Java Smart 수행 Art Cold Rendering은 SmartArt 도면이 누락되거나 잘못된 경우 SmartArt 개체를 제거하고 렌더링한다는 것을 의미합니다."
 weight: 330
 url: /ko/java/working-with-smartart-cold-rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 SmartArt 그래픽은 빠르고 쉽게 정보를 표현하는 데 사용됩니다. 당신은 단순히 당신의 상황에 맞는 많은 레이아웃에서 선택합니다. 이 사용의 용이는 SmartArt 그래픽을 일부 목적으로 매우 인기가 있습니다.

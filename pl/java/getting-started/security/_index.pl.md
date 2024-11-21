@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words zamiast Java uznaje i przestrzega wspólnych standardów bezpieczeństwa w celu zapewnienia wysokiego poziomu bezpieczeństwa danych. Przyjrzyj się możliwym kwestiom bezpieczeństwa i zaleceniom dotyczącym ich unikania."
 weight: 120
 url: /pl/java/security/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bezpieczeństwo pomaga chronić dane przed nieautoryzowanym dostępem, jak również złośliwe lub przypadkowe zmiany. Aspose.Words jest niezwykle uważny na bezpieczeństwo danych klientów, dlatego uznaje i przestrzega wspólnych standardów bezpieczeństwa.

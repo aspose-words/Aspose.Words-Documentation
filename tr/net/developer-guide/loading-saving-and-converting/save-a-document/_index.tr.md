@@ -8,6 +8,7 @@ description: "C#'i kullanarak bir belgeyi desteklenen herhangi bir formatta kayd
 keywords: "save a document c#, save a document to file c#, save a document to stream c#, save a document Aspose .NET, save formats supported by Aspose.Words .NET"
 weight: 20
 url: /tr/net/save-a-document/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Aspose.Words ile gerçekleştirmeniz gereken görevlerin çoğu bir belgenin kaydedilmesini içerir. Bir belgeyi kaydetmek için Aspose.Words, [Document](https://reference.aspose.com/words/tr/net/aspose.words/document/) sınıfının [Save](https://reference.aspose.com/words/tr/net/aspose.words/document/save/) yöntemini sağlar. Bir belgenin istemci tarayıcısına gönderilmek üzere bir dosyaya, akışa veya ASP.NET HttpResponse nesnesine kaydedilmesine olanak tanıyan aşırı yüklemeler vardır. Belge, Aspose.Words tarafından desteklenen herhangi bir kaydetme biçiminde kaydedilebilir. Desteklenen tüm kaydetme biçimlerinin listesi için [SaveFormat](https://reference.aspose.com/words/tr/net/aspose.words/saveformat/) numaralandırmasına bakın.

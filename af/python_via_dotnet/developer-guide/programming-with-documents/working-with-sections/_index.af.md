@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Afdelings in Python
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Werk Met Afdelings
@@ -7,6 +7,7 @@ description: "Skep en bestuur afdelings en afdelingsbreuke in'n dokument met beh
 type: docs
 weight: 120
 url: /af/python-net/working-with-sections/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Soms wil jy'n dokument hê wat nie dieselfde formatering oor alle bladsye het nie. Byvoorbeeld, jy sal dalk bladsynommerformate moet verander, verskillende bladsygrootte en oriëntasie moet hê, of die eerste dokumentbladsy as voorblad moet hê sonder enige nommering. Jy kan dit met afdelings bereik.

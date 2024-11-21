@@ -7,6 +7,7 @@ description: "Налаштування параметрів шрифту за д
 type: docs
 weight: 230
 url: /uk/python-net/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Шрифт є набором символів з певним розміром, кольором та дизайном. Aspose.Words дозволяє працювати з шрифтами за допомогою [fonts](https://reference.aspose.com/words/python-net/aspose.words.fonts/) модуль і [Font](https://reference.aspose.com/words/python-net/aspose.words/font/) клас.

@@ -7,6 +7,7 @@ description: "Aspose.Words per Java implementa il proprio motore di layout di pa
 type: docs
 weight: 10
 url: /it/java/converting-to-fixed-page-format/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words implementa il proprio motore di layout pagina. Prima di approfondire le sue specifiche, vale la pena prima discutere di documento ad alto livello. Quando si pensa a un documento, gli utenti tipicamente immaginano un certo numero di fogli di carta contenenti parole, immagini, tabelle e grafici. I documenti possono essere di vari tipi, come testo, fogli di calcolo, diapositive, disegni CAD, schede di flusso, e, quindi, possono avere layout essenzialmente diversi. La maggior parte delle applicazioni permettono di inviare documenti a una stampante; questo è quando un utente può effettivamente visualizzare l'aspetto finale del documento.

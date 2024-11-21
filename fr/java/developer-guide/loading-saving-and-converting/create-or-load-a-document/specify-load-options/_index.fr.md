@@ -7,6 +7,7 @@ description: "Définir les propriétés avancées lors du chargement d'un docume
 type: docs
 weight: 10
 url: /fr/java/specify-load-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Lors du chargement d'un document, vous pouvez définir certaines propriétés avancées. Aspose.Words vous fournit le [LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/) classe, qui permet un contrôle plus précis du processus de charge. Certains formats de chargement ont une classe correspondante qui contient des options de chargement pour ce format de chargement, par exemple, il y a [PdfLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/) pour le chargement au format PDF ou [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) pour le chargement en TXT. Cet article fournit des exemples de travail avec les options de **LoadOptions** En cours.

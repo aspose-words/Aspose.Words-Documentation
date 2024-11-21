@@ -7,6 +7,7 @@ description: "ほとんどの一般的なフォーマットでドキュメント
 type: docs
 weight: 30
 url: /ja/java/supported-features-on-document-save/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words さまざまなフォーマットで文書を操作し、さまざまな機能を提供できます。 たとえば、ユーザーはスクラッチからドキュメントを作成したり、それをロードしたり、いくつかの変更を加えたり、出力ファイル内の変更を保存したりすることができます。 [サポートされているドキュメントフォーマット](/words/ja/java/supported-document-formats/)お問い合わせ 選択した形式で文書を保存している間、ユーザーはさまざまな保存オプションを適用できます。

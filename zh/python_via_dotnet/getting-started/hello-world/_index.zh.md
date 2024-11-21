@@ -7,6 +7,7 @@ description: "使用 Aspose.Words for Python via .NET 以任何支持的格式�
 type: docs
 weight: 20
 url: /zh/python-net/hello-world/
+timestamp: 2024-01-27-14-07-04
 ---
 
 一首《你好，世界！》代码通常是编写uisng"Aspose.Words for Python via .NET"的第一个简单示例，它也可以用作健全性测试，以确保正确安装旨在编译或运行源代码的软件。

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Navigare cu cursorul în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Navigare cu Cursor
@@ -7,6 +7,7 @@ description: "Navigați între diferite noduri dintr-un document, cum ar fi un p
 type: docs
 weight: 10
 url: /ro/cpp/navigation-with-cursor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 În timp ce lucrați cu un document, chiar dacă este unul scurt sau lung, va trebui să navigați prin documentul dvs. Navigarea cu un cursor virtual reprezintă capacitatea de a naviga între diferite noduri dintr-un document.

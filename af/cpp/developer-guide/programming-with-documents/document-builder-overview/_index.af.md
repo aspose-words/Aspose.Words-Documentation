@@ -1,4 +1,4 @@
-﻿---
+---
 title: Dokumentbouer Oorsig in C++
 second_title: Aspose.Words vir C++
 articleTitle: Dokumentbouer Oorsig
@@ -7,6 +7,7 @@ type: docs
 description: "DocumentBuilder laat jou toe om dinamiese dokumente van nuuts af te bou of nuwe elemente by bestaande te voeg met behulp van C++. DocumentBuilder bied metodes om teks, regmerkies, tabelle, beelde en ander inhoudelemente in C++ in te voeg."
 weight: 30
 url: /af/cpp/document-builder-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/) is'n kragtige klas wat met [Document](https://reference.aspose.com/words/cpp/aspose.words/document/) assosieer en jou in staat stel om dinamiese dokumente van nuuts af te bou of nuwe elemente by'n bestaande een te voeg.

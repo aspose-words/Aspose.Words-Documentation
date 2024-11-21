@@ -9,6 +9,7 @@ aliases:
 type: docs
 weight: 110
 url: /cpp/working-with-styles-and-themes/
+timestamp: 2024-01-30-16-22-34
 ---
 
 The [StyleCollection](https://reference.aspose.com/words/cpp/aspose.words/stylecollection/) class is used to manage built-in and apply user-defined settings to styles.

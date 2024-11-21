@@ -1,4 +1,4 @@
-﻿---
+---
 title: 시작 하기
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 시작 하기
@@ -7,6 +7,7 @@ type: docs
 description: "이 소개를 사용하여 Aspose.Words 에 대한 C++ 의 가치를 실현하기 시작하는 기본 Aspose.Words 당신의 사업을 위해."
 weight: 10
 url: /ko/cpp/getting-started/
+timestamp: 2024-09-25-11-08-55
 ---
 
 이 시작을 통해 다음을 소개할 수 있습니다 Aspose.Words 기본. 새로운 사용자를 위해 Aspose.Words,이것은 기본 요구 사항과 기능을 배우는 가장 빠른 방법입니다.

@@ -8,6 +8,7 @@ description: "Konwertuj pliki PDF na formaty Word, takie jak DOCX, DOC, formaty 
 keywords: convert pdf to other formats c#
 weight: 45
 url: /pl/net/convert-pdf-to-other-document-formats/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Aspose.Words może załadować nawet tak złożony format jak PDF. Otwiera to nowe możliwości: możliwa jest konwersja plików PDF do programu Word lub innych formatów, które zapewniają użytkownikom daleko idącą przewagę w rozwiązywaniu wielu stosowanych problemów.

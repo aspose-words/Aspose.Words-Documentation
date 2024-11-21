@@ -7,6 +7,7 @@ description: "Xóa thông tin không sử dụng hoặc trùng lặp để giả
 type: docs
 weight: 30
 url: /vi/python-net/clean-up-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Đôi khi bạn có thể cần loại bỏ những thông tin không sử dụng hoặc trùng lặp để giảm kích thước của tài liệu đầu ra và thời gian xử lý.

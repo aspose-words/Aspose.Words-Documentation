@@ -7,6 +7,7 @@ description: "Преобразование документа практичес
 type: docs
 weight: 20
 url: /ru/net/convert-a-document-to-html-mhtml-or-epub/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Документы в форматах HTML и MHTML также очень популярны и могут использоваться на любой веб-платформе. По этой причине преобразование документов в HTML и MHTML является важной особенностью. Aspose.Words.

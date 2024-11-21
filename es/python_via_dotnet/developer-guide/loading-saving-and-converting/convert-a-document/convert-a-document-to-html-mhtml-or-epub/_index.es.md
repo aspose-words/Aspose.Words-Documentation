@@ -7,6 +7,7 @@ description: "Convierta un documento desde casi cualquier formato a HTML o MHTML
 type: docs
 weight: 20
 url: /es/python-net/convert-a-document-to-html-mhtml-or-epub/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Los documentos en formatos de diseño de flujo HTML y MHTML también son muy populares y se pueden utilizar en cualquier plataforma web. Por ese motivo, convertir documentos a HTML y MHTML es una característica importante de Aspose.Words.

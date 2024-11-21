@@ -1,4 +1,4 @@
-﻿---
+---
 title: Используйте `DocumentBuilder` для вставки элементов документа
 second_title: Aspose.Words для C++
 articleTitle: Используйте `DocumentBuilder` для вставки элементов документа
@@ -7,6 +7,7 @@ type: docs
 description: "Вставляйте элементы документа с помощью конструктора документов на C++."
 weight: 80
 url: /ru/cpp/use-documentbuilder-to-insert-document-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 `DocumentBuilder` используется для изменения документов. В этой статье объясняется и описывается, как выполнять ряд задач:

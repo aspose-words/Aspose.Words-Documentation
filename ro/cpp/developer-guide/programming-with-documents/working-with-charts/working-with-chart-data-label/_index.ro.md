@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu eticheta de date grafice în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Lucrul cu eticheta de date grafice
@@ -7,6 +7,7 @@ description: "Reglarea etichetelor de date grafice folosind C++."
 type: docs
 weight: 30
 url: /ro/cpp/working-with-chart-data-label/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words permite utilizatorilor să lucreze cu ChartDataLabel O diferite moduri.

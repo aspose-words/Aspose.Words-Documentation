@@ -7,6 +7,7 @@ type: docs
 description: "Introduzione alla forma del linguaggio di markup, creando forme di diversi tipi utilizzando Java."
 weight: 280
 url: /it/java/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Questo argomento parla di come lavorare programmaticamente con le forme utilizzando Aspose.Words.

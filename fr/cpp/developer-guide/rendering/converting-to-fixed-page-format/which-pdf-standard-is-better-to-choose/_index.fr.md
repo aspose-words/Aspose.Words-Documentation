@@ -1,4 +1,4 @@
-﻿---
+---
 title: Quelle Norme PDF Est Préférable de Choisir
 second_title: Aspose.Words pour C++
 articleTitle: Quelle Norme PDF Est Préférable de Choisir
@@ -7,6 +7,7 @@ description: "Choisissez la meilleure norme PDF pour exporter le résultat de vo
 type: docs
 weight: 37
 url: /fr/cpp/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Pour certaines tâches, certaines normes PDF conviendront mieux ou vice versa moins bien. Dans cet article, nous allons essayer de déterminer quelles PDF normes pour quels cas il est judicieux de choisir.

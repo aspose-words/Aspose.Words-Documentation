@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++中的文档生成器概述
 second_title: Aspose.Words对于C++
 articleTitle: 文档生成器概述
@@ -7,6 +7,7 @@ type: docs
 description: "DocumentBuilder允许您从头开始构建动态文档或使用C++向现有文档添加新元素。 DocumentBuilder提供了在C++中插入文本、复选框、表、图像和其他内容元素的方法。"
 weight: 30
 url: /zh/cpp/document-builder-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/)是一个功能强大的类，它与[Document](https://reference.aspose.com/words/cpp/aspose.words/document/)相关联，使您能够从头开始构建动态文档或向现有文档添加新元素。

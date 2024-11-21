@@ -1,4 +1,4 @@
-﻿---
+---
 title: Dosya Biçimini Algıla ve Biçim Uyumluluğunu Kontrol Et
 second_title: Aspose.Words için C++
 articleTitle: Dosya Biçimini Algıla ve Biçim Uyumluluğunu Kontrol Et
@@ -7,6 +7,7 @@ description: "Dosyanın gerçek içeriğinin ne olduğundan emin değilseniz vey
 type: docs
 weight: 20
 url: /tr/cpp/detect-file-format-and-check-format-compatibility/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Bazen açmadan önce bir belgenin formatını belirlemek gerekir, çünkü dosya uzantısı dosyanın içeriğinin uygun olduğunu garanti etmez. Örneğin, Crystal Reports'un belgeleri genellikle RTF biçiminde çıkardığı, ancak bunları verdiği bilinmektedir.doküman uzantısı.

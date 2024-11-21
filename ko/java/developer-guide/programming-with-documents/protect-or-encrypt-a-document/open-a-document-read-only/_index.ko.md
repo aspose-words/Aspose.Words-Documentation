@@ -7,6 +7,7 @@ description: "문서 읽기 전용 만들기 그래서 컨텐츠를 복사하거
 type: docs
 weight: 10
 url: /ko/java/open-a-document-read-only/
+timestamp: 2024-01-27-14-07-04
 ---
 
 때로는 리뷰가 필요한 문서가있을 수 있지만, 리뷰가 무작위로 콘텐츠를 수정할 수 없습니다. Aspose.Words 문서 읽기 전용의 권한을 만들 수 있도록 콘텐츠를 복사하거나 읽을 수 있지만 수정되지 않습니다. 이 문서에 삭제되거나 추가된 내용이 방지됩니다.

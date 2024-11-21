@@ -7,6 +7,7 @@ description: "Export members from your Umbraco CMS to a Word Document using Aspo
 type: docs
 weight: 40
 url: /net/umbraco-export-members-to-word/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Export Members to Word is an Add-on for Umbraco which allows you to export members from your Umbraco CMS to a Word Document, OpenDocument, PDF and Image formats using [Aspose.Words](https://releases.aspose.com/words/net/). A new node titled **Export Members To Word** appears under Members tree in Umbraco backend after installation where you can simply select members to export and output format to get members in selected output document format.

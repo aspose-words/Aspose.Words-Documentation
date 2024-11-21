@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trabalhando com hiperlinks em C++
 second_title: Aspose.Words para C++
 articleTitle: Adicionar ou modificar hiperligações
@@ -7,6 +7,7 @@ description: "Como adicionar um hiperlink ao seu documento usando Aspose.Words p
 type: docs
 weight: 180
 url: /pt/cpp/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Um hiperlink em Microsoft Word documentos é o campo `HYPERLINK`. Em Aspose.Words, os hiperlinks são implementados através da classe [FieldHyperlink](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldhyperlink/).

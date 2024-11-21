@@ -1,4 +1,4 @@
-﻿---
+---
 title: PDF/A ve PDF/UA 'a Kaydederken Uyarılar
 second_title: Aspose.Words için C++
 articleTitle: Erişilebilirlik PDF/A ve PDF/UA olarak Kaydedilirken Uyarı Verir
@@ -7,6 +7,7 @@ description: "PDF/A ve PDF/UA belge içeriğiyle ilgili erişilebilirlik gereksi
 type: docs
 weight: 39
 url: /tr/cpp/warnings-when-saving-to-pdfa-and-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 PDF/A ve PDF/UA biçimleri, Word'den PDF biçimine otomatik dönüştürme sırasında yerine getirilemeyen belge içeriğiyle ilgili bir dizi erişilebilirlik gereksinimi getirir. Bu gereksinimler önceki makalede açıklanmıştır *"Working with PDF/A or PDF/UA"*. Şimdi bu sorunlardan bazıları için uyarılar yayınlanmaktadır.

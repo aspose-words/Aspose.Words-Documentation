@@ -7,6 +7,7 @@ description: "Wprowadzenie do funkcji połączonych skrzynek tekstowych w Aspose
 type: docs
 weight: 250
 url: /pl/java/working-with-linked-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 W Aspose.Words, do [TextBox](https://reference.aspose.com/words/java/com.aspose.words/textbox/) klasa służy do określenia, w jaki sposób tekst jest wyświetlany wewnątrz kształtu. Zapewnia on własność publiczną o nazwie Rodzic, aby uzyskać kształt rodzica dla pola tekstowego, aby umożliwić klientowi znaleźć powiązane [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) od powiązanego **TextBox**.

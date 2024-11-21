@@ -7,6 +7,7 @@ description: "Chi tiết về trường Mục lục. Cách tạo và sửa đổ
 type: docs
 weight: 170
 url: /vi/net/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Thông thường bạn sẽ làm việc với các tài liệu có chứa mục lục (TOC). Sử dụng Aspose.Words, bạn có thể chèn mục lục của riêng mình hoặc xây dựng lại hoàn toàn mục lục hiện có trong tài liệu chỉ bằng một vài dòng mã. Bài viết này phác thảo cách làm việc với trường mục lục và trình bày:

@@ -7,6 +7,7 @@ description: "Pracuj z tabelami i ich komponentami, takimi jak komórki, wiersze
 type: docs
 weight: 10
 url: /pl/python-net/table-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words to biblioteka klas przeznaczona do przetwarzania po stronie serwera dokumentów w różnych formatach – PDF, HTML, różnych formatach Microsoft Word i innych – i obsługuje tabele w następujący sposób:

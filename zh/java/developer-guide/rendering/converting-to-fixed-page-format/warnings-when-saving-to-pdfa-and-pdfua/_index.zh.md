@@ -7,6 +7,7 @@ description: "PDF/A和PDF/UA对文件内容规定了无障碍要求。 当保存
 type: docs
 weight: 29
 url: /zh/java/warnings-when-saving-to-pdfa-and-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 PDF/A和PDF/UA格式对文件内容规定了一些在从Word自动转换到PDF时无法满足的无障碍要求. 这些要求在上条*"与PDF/A或PDF/UA合作"中描述. 现在对其中一些问题发出警告。

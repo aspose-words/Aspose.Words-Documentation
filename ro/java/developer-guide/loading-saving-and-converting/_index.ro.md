@@ -1,4 +1,4 @@
-﻿---
+---
 title: Încărcarea, salvarea și conversia în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Încărcarea, salvarea și conversia
@@ -7,6 +7,7 @@ description: "Aflați mai multe despre Aspose.Words pentru Java caracteristici l
 type: docs
 weight: 20
 url: /ro/java/loading-saving-and-converting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Această secțiune oferă informații despre caracteristicile la încărcarea și salvarea unui document, precum și date despre posibilitățile la conversia unui document dintr-un format în altul.

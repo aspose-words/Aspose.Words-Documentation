@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lavorare con i font in C++
 second_title: Aspose.Words per C++
 articleTitle: Lavorare con i font
@@ -7,6 +7,7 @@ description: "Formattazione del carattere nei dettagli utilizzando C++."
 type: docs
 weight: 230
 url: /it/cpp/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un font è un insieme di caratteri con una certa dimensione, colore e design. Aspose.Words consente di lavorare con i font utilizzando lo spazio dei nomi [Fonts](https://reference.aspose.com/words/cpp/aspose.words.fonts/) e la classe [Font](https://reference.aspose.com/words/cpp/aspose.words/font/).

@@ -1,4 +1,4 @@
-﻿---
+---
 title: نحوه تنظیم ویژگی های محور نمودار در C++
 second_title: Aspose.Words برای C++
 articleTitle: نحوه تنظیم ویژگی های محور نمودار
@@ -7,6 +7,7 @@ description: "تنظیم محور نمودار با استفاده از C++."
 type: docs
 weight: 20
 url: /fa/cpp/how-to-set-chart-axis-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 اگر می خواهید با محور نمودار، مقیاس بندی و واحدهای نمایش برای محور ارزش کار کنید، لطفا از کلاس های [ChartAxis](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.chart_axis)، [AxisDisplayUnit](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.axis_display_unit) و [AxisScaling](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.axis_scaling) استفاده کنید.

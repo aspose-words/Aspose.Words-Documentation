@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trabalhando com nota de rodapé e nota de fim Em C++
 second_title: Aspose.Words para C++
 articleTitle: Trabalhar com nota de rodapé e nota de fim
@@ -7,6 +7,7 @@ description: "Como manipular notas de rodapé e notas de fim usando C++."
 type: docs
 weight: 160
 url: /pt/cpp/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words também fornece algumas classes, métodos e propriedades para trabalhar com notas de rodapé e notas de fim.

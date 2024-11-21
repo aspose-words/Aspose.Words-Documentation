@@ -7,6 +7,7 @@ description: "Použití Aspose.Words místo .NET funkce zobrazování pro formá
 type: docs
 weight: 20
 url: /cs/net/rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Používáme termín "rendering" v Aspose.Words popis procesu přeměny dokumentu na formát souboru nebo médium, které je paginováno nebo má koncept stránek. Hovoříme o tom, že se dokument vykreslí na stránky. Následující schéma ukazuje, co vykreslování je v Aspose.Words.

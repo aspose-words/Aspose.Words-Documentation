@@ -7,6 +7,7 @@ description: "In PDF/A-1, PDF/A-2, PDF/A-4 und PDF/UA umrechnen Java. Wählen Si
 type: docs
 weight: 25
 url: /de/java/learn-features-of-conversion-to-pdf-a-pdf-ua/
+timestamp: 2024-01-31-14-23-37
 ---
 
 PDF ist ein festes Seitenformat, das bei den Benutzern sehr beliebt ist und von verschiedenen Anwendungen weit unterstützt wird, da ein PDF-Dokument auf jedem Gerät gleich aussieht. Aus diesem Grund ist die Umwandlung in PDF ein wichtiges Merkmal von Aspose.Words.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Conversia unui Document în PDF în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Conversia unui Document în PDF
@@ -7,6 +7,7 @@ description: "Convertiți un document în PDF folosind C++. Sunt acceptate difer
 type: docs
 weight: 10
 url: /ro/cpp/convert-a-document-to-pdf/
+timestamp: 2024-10-21-08-52-03
 ---
 
 Capacitatea de a converti ușor și fiabil documente dintr-un format în altul este o caracteristică cheie a Aspose.Words. Unul dintre cele mai populare formate pentru conversie este PDF – un format cu aspect fix, care păstrează aspectul original al unui document în timpul redării sale pe diferite platforme. Termenul" rendering " este folosit în Aspose.Words pentru a descrie procesul de conversie a unui document într-un format de fișier care este paginat sau are conceptul de pagini.

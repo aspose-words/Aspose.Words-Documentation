@@ -7,6 +7,7 @@ description: "Como manipular notas de rodapé e notas finais usando Java."
 type: docs
 weight: 160
 url: /pt/java/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words também fornece algumas classes, métodos e propriedades para trabalhar com notas de rodapé e notas finais.

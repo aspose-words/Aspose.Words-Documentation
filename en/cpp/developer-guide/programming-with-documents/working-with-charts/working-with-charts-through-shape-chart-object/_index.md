@@ -7,6 +7,7 @@ description: "Charts in details, how chart linked with Shape node in Aspose.Word
 type: docs
 weight: 10
 url: /cpp/working-with-charts-through-shape-chart-object/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Once the chart was inserted and filled with data, you are able to change its appearance. `Shape.Chart` property contains all chart related options available through the public API.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trabajar con marcadores en C++
 second_title: Aspose.Words para C++
 articleTitle: Trabajar con Marcadores
@@ -7,6 +7,7 @@ description: "Comprender los conceptos de marcadores y cómo se pueden usar los 
 type: docs
 weight: 180
 url: /es/cpp/working-with-bookmarks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Los marcadores identifican en un documento de Microsoft Word las ubicaciones o fragmentos que nombra e identifica para referencia futura. Por ejemplo, puede usar un marcador para identificar el texto que desea revisar más adelante. En lugar de desplazarse por el documento para localizar el texto, puede acceder a él utilizando el cuadro de diálogo Marcador.

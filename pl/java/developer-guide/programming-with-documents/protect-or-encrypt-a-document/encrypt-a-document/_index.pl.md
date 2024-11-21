@@ -7,6 +7,7 @@ description: "Szyfrowanie dokumentu przy użyciu odpowiednich algorytmów szyfro
 type: docs
 weight: 20
 url: /pl/java/encrypt-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Szyfrowanie to proces, który przekłada czytelny tekst na bezsensowne sekwencje bajtów, więc może być odczytywane tylko przez osobę, która posiada klucz deszyfrujący lub kod tajny. Proces ten odgrywa ważną rolę w zabezpieczaniu treści. Pomaga kodować zawartość, weryfikuje pochodzenie dokumentu, udowadnia, że zawartość nie została zmieniona po wysłaniu i zapewnia bezpieczeństwo danych z dokumentu.

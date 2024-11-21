@@ -7,6 +7,7 @@ type: docs
 weight: 10
 url: /de/java/create-or-load-a-document/
 description: "Aspose.Words Sie können ein leeres Dokument erstellen oder aus einer Datei oder einem Stream laden Java."
+timestamp: 2024-01-27-14-07-04
 ---
 
 Fast jede Aufgabe, die Sie mit Aspose.Words beinhaltet das Laden eines Dokuments. Die `Document` Klasse stellt ein in den Speicher geladenes Dokument dar. Das Dokument verfügt über mehrere überlastete Konstrukteure, mit denen Sie ein leeres Dokument erstellen oder aus einer Datei oder einem Stream laden können. Das Dokument kann in jedem von Aspose.Words. Für die Liste aller unterstützten Lastformate siehe [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) Aufzählung.

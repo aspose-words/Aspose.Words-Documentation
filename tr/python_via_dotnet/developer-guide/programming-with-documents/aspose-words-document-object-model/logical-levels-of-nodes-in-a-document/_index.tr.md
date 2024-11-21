@@ -7,6 +7,7 @@ type: docs
 description: "Python via .NET için Aspose.Words belgelerinde, düğümlerin mantıksal düzeyleri (blok düzeyi, satır içi düzeyi veya satır düzeyi) belirtilmiştir. Düğüm düzeyi, belge ağacında düğümün genellikle oluştuğu konumu tanımlamak için kullanılır."
 weight: 10
 url: /tr/python-net/logical-levels-of-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bu belgede bazen bir belgedeki "blok düzeyi", "satır içi düzey" ("satır içi" olarak da bilinir) veya "satır düzeyi" düğümleri gibi bir "düzey"e ait olan bir grup düğüm sınıfına atıfta bulunulur.. Bir belgedeki bu düzeyler tamamen mantıksal olarak ayrılır ve kalıtımla veya diğer Aspose.Words DOM araçlarıyla açıkça ifade edilmez. Düğüm düzeyi, belge ağacında düğümün genellikle oluşacağı yeri tanımlamak için kullanılır.

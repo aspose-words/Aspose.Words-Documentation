@@ -7,6 +7,7 @@ description: "Cyfrowo podpisuj dokumenty oraz wykrywaj, licz, weryfikuj i usuwaj
 type: docs
 weight: 40
 url: /pl/python-net/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Podpis cyfrowy służy do uwierzytelnienia dokumentu w celu ustalenia, że nadawca dokumentu jest tym, za kogo się podaje, a treść dokumentu nie została naruszona.

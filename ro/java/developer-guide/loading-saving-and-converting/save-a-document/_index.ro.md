@@ -1,4 +1,4 @@
-﻿---
+---
 title: Salvarea unui Document în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Salvarea unui Document
@@ -7,6 +7,7 @@ type: docs
 description: "Salvați un document în orice format acceptat folosind Java."
 weight: 20
 url: /ro/java/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Majoritatea sarcinilor pe care trebuie să le efectuați cu Aspose.Words implică salvarea unui document. Pentru a salva un document, Aspose.Words furnizează metoda [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save(java.lang.String)) a clasei [Document](https://reference.aspose.com/words/java/com.aspose.words/document/). Documentul poate fi salvat în orice format de salvare acceptat de Aspose.Words. Pentru lista tuturor formatelor de salvare acceptate, consultați enumerarea [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/).

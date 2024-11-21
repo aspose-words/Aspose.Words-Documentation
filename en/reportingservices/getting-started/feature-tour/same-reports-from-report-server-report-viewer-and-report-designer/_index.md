@@ -7,6 +7,7 @@ description: "Technologies which may be used to export reports using the Aspose.
 type: docs
 weight: 30
 url: /reportingservices/same-reports-from-report-server-report-viewer-and-report-designer/
+timestamp: 2024-11-13-12-00-30
 ---
 
 {{% alert color="primary" %}}

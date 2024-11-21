@@ -7,6 +7,7 @@ description: "Wzmocnione Microsoft Word formatowanie funkcji, praca ze stylami i
 type: docs
 weight: 110
 url: /pl/java/working-with-styles-and-themes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 W [StyleCollection](https://reference.aspose.com/words/java/com.aspose.words/stylecollection/) klasa jest używana do zarządzania built- in i stosowania ustawień zdefiniowanych przez użytkownika do stylów.

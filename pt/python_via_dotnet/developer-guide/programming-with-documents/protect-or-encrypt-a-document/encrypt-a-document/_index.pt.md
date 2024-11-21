@@ -7,6 +7,7 @@ description: "Criptografe seu documento usando algoritmos de criptografia apropr
 type: docs
 weight: 20
 url: /pt/python-net/encrypt-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 A criptografia é o processo que traduz texto legível em sequências de bytes sem sentido, de forma que só possa ser lido pela pessoa que possui a chave de descriptografia ou o código secreto. Este processo desempenha um papel importante na segurança do seu conteúdo. Ajuda a codificar o conteúdo, verificar a origem de um documento, provar que o conteúdo não foi modificado após o envio e garantir que os dados do documento estão seguros.

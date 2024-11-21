@@ -7,6 +7,7 @@ description: "Groupشکل های غیر گروهی با استفاده از Java
 type: docs
 weight: 290
 url: /fa/java/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 گاهی اوقات باید اضافه کنید group shape در یک سند Word چنین group shape شامل چندین شکل است

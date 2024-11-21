@@ -7,6 +7,7 @@ description: "Verschiedene Möglichkeiten, Felder in Ihr Dokument einzufügen Ja
 type: docs
 weight: 20
 url: /de/java/insert-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Es gibt verschiedene Möglichkeiten, Felder in ein Dokument einzufügen:

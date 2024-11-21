@@ -7,6 +7,7 @@ description: "Aspose.Words 제품정보 Java Licensing 및 구독 정책을 사�
 type: docs
 weight: 60
 url: /ko/java/licensing/
+timestamp: 2024-01-31-14-23-37
 ---
 
 때로는 더 나은 시스템을 연구하기 위해 가능한 한 빨리 코드로 다이빙하고 싶습니다. 더 쉽게 만들려면, Aspose.Words 구매에 대한 다른 계획을 제공하거나 무료 평가판과 30 일 임시 라이센스를 제공합니다.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 表概述
 second_title: Aspose.Words对于C++
 articleTitle: 表概述
@@ -7,6 +7,7 @@ description: "使用表格及其组件，例如单元格、行、列Aspose.Words
 type: docs
 weight: 10
 url: /zh/cpp/table-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words是一个类库，设计用于服务器端处理各种格式的文档–PDF，HTML，不同的Microsoft Word格式和其他格式–并通过以下方式支持表:

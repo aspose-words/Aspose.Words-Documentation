@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Paragrawe in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Werk Met Paragrawe
@@ -7,6 +7,7 @@ description: "Voeg'n paragraaf in'n dokument C#. Stel paragraafstyle in C#. Werk
 type: docs
 weight: 210
 url: /af/net/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 'n paragraaf is'n stel karakters wat in'n logiese blok gekombineer word en eindig met'n spesiale karakter – a *paragraph break*. In Aspose.Words word'n paragraaf verteenwoordig deur die [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/) klas.

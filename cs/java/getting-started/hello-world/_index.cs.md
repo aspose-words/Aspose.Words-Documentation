@@ -7,6 +7,7 @@ description: "Vytvořit, upravit a uložit svůj první dokument v jakémkoli po
 type: docs
 weight: 20
 url: /cs/java/hello-world/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A "Ahoj, světe!" kód je často prvním jednoduchým příkladem psaní uisng "Aspose.Words místo Java"a lze jej také použít jako test příčetnosti k zajištění správné instalace softwaru určeného k sestavení nebo spuštění zdrojového kódu.

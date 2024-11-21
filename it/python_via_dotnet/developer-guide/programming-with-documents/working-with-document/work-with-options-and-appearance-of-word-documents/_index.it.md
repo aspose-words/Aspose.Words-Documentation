@@ -7,6 +7,7 @@ description: "Controlla l'aspetto dei documenti Word tenendo conto della differe
 type: docs
 weight: 40
 url: /it/python-net/work-with-word-document-options-and-appearance/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A volte potrebbe essere necessario modificare l'aspetto di un documento, ad esempio impostare le preferenze della lingua o il numero di righe per pagina. Aspose.Words offre la possibilità di controllare come verrà visualizzato il documento, oltre ad alcune opzioni aggiuntive. Questo articolo descrive tali possibilità.

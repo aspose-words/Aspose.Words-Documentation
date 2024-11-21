@@ -8,6 +8,7 @@ description: "Een document omzetten in een ondersteund laadformaat naar Markdown
 keywords: how to convert a document to markdown c#
 weight: 40
 url: /nl/net/convert-a-document-to-markdown/
+timestamp: 2024-07-10-08-10-45
 ---
 
 Markdown is een populair formaat gebruikt om tekst op te merken en de verdere conversie naar HTML, PDF, DOCX, of andere formaten. Veel ontwikkelaars kiezen dit formaat voor het schrijven van documentatie, het voorbereiden van artikelen voor publicatie op blogs, het beschrijven van projecten, enzovoort.

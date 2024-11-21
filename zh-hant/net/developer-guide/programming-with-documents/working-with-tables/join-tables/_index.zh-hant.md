@@ -7,6 +7,7 @@ description: "在 C# 中結合資料表。 如何將兩個表格合併成一個C
 type: docs
 weight: 90
 url: /zh-hant/net/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 由 Aspose.Words Document Object Model 所表示的表格，是由獨立的列與細胞組成的，讓 bảng dễ與別的 bảng結合。

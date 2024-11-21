@@ -7,6 +7,7 @@ description: "Aspose.Words for .NET 中的链接文本框功能简介。"
 type: docs
 weight: 250
 url: /zh/net/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 在 Aspose.Words 中，[TextBox](https://reference.aspose.com/words/zh/net/aspose.words.drawing/textbox/) 类用于指定文本在形状内的显示方式。它公开一个名为 **Parent** 的公共属性来获取文本框的父形状，以便客户可以从关联的 **TextBox** 中找到链接的 [Shape](https://reference.aspose.com/words/zh/net/aspose.words.drawing/shape/)。

@@ -7,6 +7,7 @@ description: "Bir belgenin Java kullanarak kaydedilirken gelişmiş özellikleri
 type: docs
 weight: 20
 url: /tr/java/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bir belgeyi kaydetirken bazı gelişmiş özellikleri ayarlayabilirsiniz. Aspose.Words size daha hassas bir şekilde kaydetme işlemini kontrol etmenizi sağlayan [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/) sınıfını sağlar. **Save** yöntemine kabul edilen bir **SaveOptions** nesnesi olan aşırı yüklemeler vardır – bu nesne **SaveOptions** sınıfından türeyen bir sınıfın nesnesi olmalıdır. Her kayıt biçimi için karşılık gelen bir sınıf, örneğin, PDF biçiminde kaydetmek için [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/), Markdown biçiminde kaydetmek için [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) veya görüntü kaydetmek için [ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/) olmak üzere kayıt seçeneklerini tutar. Bu makale **SaveOptions** 'den türeyen bazı seçenek sınıflarıyla çalışmanın örneklerini sağlar.

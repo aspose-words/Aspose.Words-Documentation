@@ -7,6 +7,7 @@ description: "Konversi dokumen ke gambar raster, yang dibahas pada contoh format
 type: docs
 weight: 30
 url: /id/java/saving-a-document-as-a-multipage-tiff/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ketika bekerja dengan dokumen, Anda sering perlu mengonversi dokumen Anda ke file gambar raster). Ini sangat relevan jika Anda harus menyajikan dokumen Anda dalam format yang dapat dibaca dan dapat dicetak, tetapi tidak dapat diedit. Misalnya, Anda dapat menggunakan gambar raster dari halaman pertama dokumen Anda sebagai pratinjau. Artikel ini menjelaskan bagaimana mengkonversi dokumen ke gambar raster menggunakan contoh format TIFF - salah satu format gambar yang lebih populer.

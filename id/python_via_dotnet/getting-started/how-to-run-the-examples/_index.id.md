@@ -7,6 +7,7 @@ description: "Unduh contoh Aspose.Words untuk Python via .NET dari repositori Gi
 type: docs
 weight: 110
 url: /id/python-net/how-to-run-the-examples/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Untuk lebih memahami kemungkinan dan fitur Aspose.Words, kami memberikan contoh yang dapat diunduh dari repositori GitHub kami, dijalankan, dan dipelajari secara detail.

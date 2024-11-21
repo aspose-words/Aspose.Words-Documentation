@@ -7,6 +7,7 @@ description: "Travaillez avec des plages dans un document à l'aide de Python."
 type: docs
 weight: 130
 url: /fr/python-net/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

@@ -7,6 +7,7 @@ description: "テーブルの位置を指定する Javaお問い合わせ テー
 type: docs
 weight: 50
 url: /ja/java/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 フローティングテーブルとインラインテーブルがあります。

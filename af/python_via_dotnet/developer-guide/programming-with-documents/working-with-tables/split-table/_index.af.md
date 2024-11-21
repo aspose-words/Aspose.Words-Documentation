@@ -1,4 +1,4 @@
-﻿---
+---
 title: Verdeel Tabel in Python
 second_title: Aspose.Words vir Python
 articleTitle: Verdeel Tabel
@@ -7,6 +7,7 @@ description: "Verdeel tabel in Python. Hoe om een tabel in twee afsonderlike tab
 type: docs
 weight: 100
 url: /af/python-net/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 'n tabel, verteenwoordig in die Aspose.Words Document Object Model, bestaan uit onafhanklike rye en selle, wat dit maklik maak om'n tabel te verdeel.

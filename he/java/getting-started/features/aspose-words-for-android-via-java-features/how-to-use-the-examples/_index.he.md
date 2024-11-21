@@ -7,6 +7,7 @@ description: "איך לרוץ Aspose.Words עבור Android באמצעות Java 
 type: docs
 weight: 70
 url: /he/java/how-to-use-the-examples/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ראשית, ודא כי יש לך את החבילה ADT מותקן וכי אתה הורדת והוציא את הגרסה העדכנית ביותר של הגרסה האחרונה של [Aspose.Words עבור Android באמצעות Java](https://releases.aspose.com/words/androidjava/).

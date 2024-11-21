@@ -1,4 +1,4 @@
-﻿---
+---
 title: التحويل إلى PDF/A و PDF/UA
 second_title: Aspose.Words ل C++
 articleTitle: تعرف على ميزات التحويل إلى PDF/A و PDF/UA
@@ -7,6 +7,7 @@ description: "تحويل إلى PDF/A-1, PDF/A-2, PDF/A-4 و PDF/UA باستخد
 type: docs
 weight: 35
 url: /ar/cpp/learn-features-of-conversion-to-pdf-a-pdf-ua/
+timestamp: 2024-01-31-14-23-37
 ---
 
 PDF هو تنسيق صفحة ثابت يحظى بشعبية كبيرة بين المستخدمين ويدعمه على نطاق واسع العديد من التطبيقات، حيث يبدو مستند PDF كما هو على أي جهاز. لهذا السبب، يعد التحويل إلى PDF ميزة مهمة في Aspose.Words.

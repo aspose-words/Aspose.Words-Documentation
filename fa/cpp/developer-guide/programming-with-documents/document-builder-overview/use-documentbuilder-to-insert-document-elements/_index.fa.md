@@ -1,4 +1,4 @@
-﻿---
+---
 title: برای وارد کردن عناصر سند از `DocumentBuilder` استفاده کنید
 second_title: Aspose.Words برای C++
 articleTitle: برای وارد کردن عناصر سند از `DocumentBuilder` استفاده کنید
@@ -7,6 +7,7 @@ type: docs
 description: "عناصر سند را با استفاده از سازنده سند در C++ وارد کنید."
 weight: 80
 url: /fa/cpp/use-documentbuilder-to-insert-document-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 `DocumentBuilder` برای تغییر اسناد استفاده می شود. این مقاله نحوه انجام تعدادی از وظایف را توضیح می دهد و توضیح می دهد:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words Features Missing in Open XML SDK
 second_title: Aspose.Words for .NET
 articleTitle: Aspose.Words Features Missing in Open XML SDK
@@ -33,6 +33,7 @@ aliases:
   - /net/save-document-as-mutipage-tiff/
   - /net/save-document-as-png/
   - /net/splitting-tables/
+timestamp: 2024-01-31-14-23-37
 ---
 
 As already described in previous articles, there are operations with documents that are faster and more conveniently to perform using Aspose.Words than Open XML SDK. But there are also operations that are not provided by OpenXML. You can try to achieve the desired result using auxiliary tools and options, but even if successful, it will be quite expensive.

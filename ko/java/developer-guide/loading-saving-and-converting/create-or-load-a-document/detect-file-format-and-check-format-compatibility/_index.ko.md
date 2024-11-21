@@ -7,6 +7,7 @@ description: "문서 형식에 대한 정보를 얻기 전에 파일을 실제 �
 type: docs
 weight: 20
 url: /ko/java/detect-file-format-and-check-format-compatibility/
+timestamp: 2024-10-21-11-17-44
 ---
 
 파일 확장자가 적절하다는 것을 보장하지 않기 때문에 파일을 열 전에 문서의 형식을 결정하는 데 필요한 것입니다. 예를 들어 Crystal Reports는 종종 RTF 형식의 문서를 출력하지만 .doc 확장을 제공합니다.

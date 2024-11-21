@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在C++中使用脚注和尾注
 second_title: Aspose.Words对于C++
 articleTitle: 使用脚注和尾注
@@ -7,6 +7,7 @@ description: "如何使用C++操作脚注和尾注。"
 type: docs
 weight: 160
 url: /zh/cpp/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words还提供了一些用于处理脚注和尾注的类、方法和属性。

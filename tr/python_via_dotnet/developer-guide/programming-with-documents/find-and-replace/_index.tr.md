@@ -7,6 +7,7 @@ type: docs
 description: "Belgenizde bir dize veya normal ifade modeli bulun ve Python'i kullanarak bunu istediğiniz metinle değiştirin."
 weight: 100
 url: /tr/python-net/find-and-replace/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Klavye ve fareyi kullanarak belgenizde kolayca gezinebilirsiniz, ancak kaydırılacak çok sayıda sayfanız varsa, uzun bir belgede belirli bir metni bulmak oldukça zaman alacaktır. Belgenizde kullandığınız belirli karakterleri veya kelimeleri değiştirmek istediğinizde daha fazla zaman harcayacaksınız. "Bul ve değiştir" işlevi, bir belgedeki bir karakter dizisini bulmanızı ve bunu başka bir karakter dizisiyle değiştirmenizi sağlar.

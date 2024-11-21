@@ -1,4 +1,4 @@
-﻿---
+---
 title: Wat is nuut
 second_title: Aspose.Words vir Java
 articleTitle: Wat is nuut in Aspose.Words vir Java
@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words vir Java brei en verbeter daagliks. Op hierdie bladsy kan jy leer oor die groot en interessantste kenmerke van die produk."
 weight: 2
 url: /af/java/what-s-new-in-aspose-words-for-java/
+timestamp: 2024-10-14-12-53-06
 ---
 
 Hierdie bladsy beskryf die interessantste nuwe Aspose.Words funksies wat in onlangse vrystellings bekendgestel is.

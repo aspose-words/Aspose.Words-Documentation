@@ -1,4 +1,4 @@
-﻿---
+---
 title: Remove Empty Regions in Ruby
 second_title: Aspose.Words for Java
 articleTitle: Remove Empty Regions in Ruby
@@ -7,6 +7,7 @@ description: "Remove empty regions from word document using Ruby."
 type: docs
 weight: 10
 url: /java/remove-empty-regions-in-ruby/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Remove Empty Regions

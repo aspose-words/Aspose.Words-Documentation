@@ -7,6 +7,7 @@ description: "Çoğu popüler biçimde bir belgeyi kaydet ve çok sayıda Micros
 type: docs
 weight: 30
 url: /tr/java/supported-features-on-document-save/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words kullanıcıların çeşitli biçimlerde belgelerle çalışmasına olanak tanır ve bunları yapmak için geniş bir dizi özellik sağlar. Örneğin kullanıcılar herhangi bir [supported export format](/words/java/supported-document-formats/) kullanarak bir belgeyi sıfırdan oluşturabilir veya onu yükleyebilir, değişiklik yapabilir ve daha sonra bu değişikliği çıktı dosyasına kaydedebilir. Belgeyi seçilen formatta kaydederken kullanıcı çeşitli kaydetme seçeneklerini uygulayabilir.

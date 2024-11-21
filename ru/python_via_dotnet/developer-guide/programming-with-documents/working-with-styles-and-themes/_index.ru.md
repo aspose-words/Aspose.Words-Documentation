@@ -7,6 +7,7 @@ description: "Доступ и управление стилями и темам�
 type: docs
 weight: 110
 url: /ru/python-net/working-with-styles-and-themes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 The [StyleCollection](https://reference.aspose.com/words/python-net/aspose.words/stylecollection/) Класс используется для управления встроенными и применения пользовательских настроек к стилям.

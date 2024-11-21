@@ -1,4 +1,4 @@
-﻿---
+---
 title: Simpan Dokumen dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Simpan Dokumen
@@ -8,6 +8,7 @@ description: "Simpan dokumen dalam format apa pun yang didukung menggunakan C++.
 keywords: "save a document c++, save a document to file c++, save a document to stream c++, save a document Aspose C++, save formats supported by Aspose.Words C++"
 weight: 20
 url: /id/cpp/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Sebagian besar tugas yang perlu Anda lakukan dengan Aspose.Words melibatkan penyimpanan dokumen. Untuk menyimpan dokumen, Aspose.Words menyediakan metode [Save](https://reference.aspose.com/words/cpp/aspose.words/document/save/) dari kelas [Document](https://reference.aspose.com/words/cpp/aspose.words/document/). Dokumen dapat disimpan dalam format penyimpanan apa pun yang didukung oleh Aspose.Words. Untuk daftar semua format penyimpanan yang didukung, lihat pencacahan [SaveFormat](https://reference.aspose.com/words/cpp/aspose.words/saveformat/).

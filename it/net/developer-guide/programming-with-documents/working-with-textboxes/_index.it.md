@@ -7,6 +7,7 @@ description: "Introduzione alla funzionalità delle caselle di testo collegate i
 type: docs
 weight: 250
 url: /it/net/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In Aspose.Words, la classe [TextBox](https://reference.aspose.com/words/it/net/aspose.words.drawing/textbox/) viene utilizzata per specificare come viene visualizzato il testo all'interno di una forma. Espone una proprietà pubblica denominata **Parent** per ottenere la forma padre per la casella di testo in modo che il cliente possa trovare il [Shape](https://reference.aspose.com/words/it/net/aspose.words.drawing/shape/) collegato dal **TextBox** associato.

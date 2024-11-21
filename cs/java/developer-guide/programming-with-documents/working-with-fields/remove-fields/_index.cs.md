@@ -7,6 +7,7 @@ description: "Naučte se, jak odstranit pole Java. Odstranit pole programově po
 type: docs
 weight: 35
 url: /cs/java/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Někdy je nutné z dokumentu odstranit pole. K tomu může dojít, pokud má být nahrazen jiným typem pole nebo pokud již není pole v dokumentu potřebné. Například `TOC` pole při ukládání do HTML.

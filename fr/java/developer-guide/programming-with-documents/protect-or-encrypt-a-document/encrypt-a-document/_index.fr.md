@@ -7,6 +7,7 @@ description: "Chiffrez votre document en utilisant des algorithmes de chiffremen
 type: docs
 weight: 20
 url: /fr/java/encrypt-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Le chiffrement est le processus qui traduit le texte lisible en séquences d'octets sans signification, de sorte qu'il ne peut être lu que par la personne qui a la clé de déchiffrement ou le code secret. Ce processus joue un rôle important dans la sécurisation de votre contenu. Il permet d'encoder le contenu, de vérifier l'origine d'un document, de prouver que le contenu n'a pas été modifié après son envoi et de s'assurer que les données du document sont sûres.

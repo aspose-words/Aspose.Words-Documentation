@@ -7,6 +7,7 @@ description: "Aspose.Words per Python via .NET implementa il proprio lettore di 
 type: docs
 weight: 30
 url: /it/python-net/handling-windows-metafiles/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Il formato Windows Metafile è un formato di file immagine che può contenere sia grafica vettoriale che raster. Questo formato viene utilizzato per archiviare dati grafici in memoria o file su disco. Un metafile memorizza un elenco di chiamate di funzione nella Windows Graphics Device Interface (GDI) che devono essere eseguite per visualizzare l'immagine sullo schermo. Il sistema interpreta ed esegue questi comandi nel contesto di visualizzazione.

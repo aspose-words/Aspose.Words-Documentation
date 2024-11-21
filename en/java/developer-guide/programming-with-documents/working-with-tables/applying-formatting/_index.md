@@ -8,6 +8,7 @@ type: docs
 weight: 70
 url: /java/applying-formatting/
 aliases: [/java/applying-formatting-to-table-row-and-cell/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 Each element of a table can be applied with different formatting. For example, table formatting will be applied to the entire table, row formatting to only particular rows, cell formatting to only certain cells.

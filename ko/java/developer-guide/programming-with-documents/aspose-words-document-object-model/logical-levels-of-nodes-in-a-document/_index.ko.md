@@ -7,6 +7,7 @@ type: docs
 description: "내 계정 Aspose.Words 제품정보 Java 노드의 논리적 수준의 문서 – 블록 레벨, 인라인 레벨, 또는 행 레벨. 노드 레벨은 노드가 일반적으로 발생되는 문서 트리의 위치를 설명하는 데 사용됩니다."
 weight: 10
 url: /ko/java/logical-levels-of-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 이 문서는 "block-level", "inline-level"과 같은 문서에서 "level"에 속하는 노드 클래스의 그룹을 나타냅니다 (또한 "inline") 또는 "row-level" 노드. 문서의 이러한 수준은 순수하게 통용되며 상속 또는 기타로 표현되지 않습니다. Aspose.Words DOM 이름 * 노드 레벨은 노드가 일반적으로 발생할 수 있는 문서 트리에 장소를 설명하는 데 사용됩니다.

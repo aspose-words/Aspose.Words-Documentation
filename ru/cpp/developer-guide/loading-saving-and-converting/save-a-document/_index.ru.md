@@ -1,4 +1,4 @@
-﻿---
+---
 title: Сохранение документа на C++
 second_title: Aspose.Words для C++
 articleTitle: Сохранение документа
@@ -8,6 +8,7 @@ description: "Сохраните документ в любом поддержи
 keywords: "save a document c++, save a document to file c++, save a document to stream c++, save a document Aspose C++, save formats supported by Aspose.Words C++"
 weight: 20
 url: /ru/cpp/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Большинство задач, которые необходимо выполнить с помощью Aspose.Words, связаны с сохранением документа. Для сохранения документа в Aspose.Words предусмотрен метод [Save](https://reference.aspose.com/words/cpp/aspose.words/document/save/) класса [Document](https://reference.aspose.com/words/cpp/aspose.words/document/). Документ может быть сохранен в любом формате сохранения, поддерживаемом Aspose.Words. Список всех поддерживаемых форматов сохранения приведен в списке [SaveFormat](https://reference.aspose.com/words/cpp/aspose.words/saveformat/).

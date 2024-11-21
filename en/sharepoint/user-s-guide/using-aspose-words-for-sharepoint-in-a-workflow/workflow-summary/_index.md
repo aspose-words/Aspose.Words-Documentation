@@ -7,6 +7,7 @@ description: "Available workflow basic scenarios with the Aspose.Words for Share
 type: docs
 weight: 10
 url: /sharepoint/workflow-summary/
+timestamp: 2024-01-27-14-07-04
 ---
 
 You can use Aspose.Words for SharePoint in SharePoint workflows. After installation there are three new options available in the SharePoint Designer:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Semplice operazione Mail Merge in C++
 second_title: Aspose.Words per C++
 articleTitle: Semplice operazione Mail Merge
@@ -8,6 +8,7 @@ description: "Un semplice mail merge viene utilizzato per riempire i campi mail 
 keywords: "how to execute mail merge c++"
 weight: 10
 url: /it/cpp/simple-mail-merge-operation/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Un semplice mail merge viene utilizzato per riempire i campi mail merge all'interno del modello con i dati richiesti dall'origine dati (rappresentazione di tabella singola). Quindi è simile al classico mail merge in Microsoft Word.

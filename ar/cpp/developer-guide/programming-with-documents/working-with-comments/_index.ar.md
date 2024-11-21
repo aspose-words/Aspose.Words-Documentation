@@ -1,4 +1,4 @@
-﻿---
+---
 title: العمل مع التعليقات في C++
 second_title: Aspose.Words ل C++
 articleTitle: العمل مع التعليقات
@@ -7,6 +7,7 @@ description: "العمل مع التعليقات باستخدام C++."
 type: docs
 weight: 260
 url: /ar/cpp/working-with-comments/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

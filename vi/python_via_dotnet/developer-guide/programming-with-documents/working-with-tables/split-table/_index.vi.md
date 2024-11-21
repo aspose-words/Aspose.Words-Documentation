@@ -7,6 +7,7 @@ description: "Chia bảng trong Python. Cách chia một bảng thành hai bản
 type: docs
 weight: 100
 url: /vi/python-net/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Một bảng, được thể hiện trong Aspose.Words Document Object Model, được tạo thành từ các hàng và ô độc lập, giúp việc chia bảng trở nên dễ dàng.

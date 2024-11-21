@@ -7,6 +7,7 @@ type: docs
 description: "Inleiding tot het vormgeven van markup taal, het creëren van vormen van verschillende soorten met behulp van Java."
 weight: 280
 url: /nl/java/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Dit onderwerp bespreekt hoe je programmatisch te werken met vormen met behulp van Aspose.Words.

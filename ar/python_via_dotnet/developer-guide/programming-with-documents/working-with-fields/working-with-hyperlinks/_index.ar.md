@@ -7,6 +7,7 @@ description: "إضافة ارتباط تشعبي أو استبداله أو تع
 type: docs
 weight: 50
 url: /ar/python-net/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 الارتباط التشعبي في مستندات Microsoft Word هو حقل `HYPERLINK`. في Aspose.Words، يتم تنفيذ الارتباطات التشعبية من خلال فئة [FieldHyperlink](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldhyperlink/).

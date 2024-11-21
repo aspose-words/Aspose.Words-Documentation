@@ -7,6 +7,7 @@ description: "Erstellen Sie Ausgabedokumente mit verschiedenen Layouts, abhängi
 type: docs
 weight: 10
 url: /de/java/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words Sie können Ausgabedokumente mit verschiedenen Layouts erstellen, abhängig von den in den [LayoutOptions](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/) Eigentum der **Document**. Diese Eigenschaft ähnelt einigen der Microsoft Word Benutzeroberfläche Menüoptionen in diesem Artikel beschrieben.

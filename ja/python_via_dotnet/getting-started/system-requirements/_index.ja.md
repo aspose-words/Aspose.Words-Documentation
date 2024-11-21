@@ -7,6 +7,7 @@ description: "Aspose.Words for Python via .NET の使用を開始する前に、
 type: docs
 weight: 50
 url: /ja/python-net/system-requirements/
+timestamp: 2024-04-27-18-03-32
 ---
 
 Aspose.Words for Python via .NET では、Microsoft Word などのサードパーティ製品をインストールする必要はありません。 Aspose.Words 自体は、Microsoft Word ドキュメント形式を含むさまざまな形式のドキュメントを作成、変更、変換、レンダリングするためのエンジンです。

@@ -7,6 +7,7 @@ description: "مقدمة إلى ميزة الرسم البياني، وكيفي�
 type: docs
 weight: 310
 url: /ar/net/working-with-charts/
+timestamp: 2024-02-05-15-07-18
 ---
 
 تمت إضافة طريقة [InsertChart](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/insertchart/) جديدة إلى فئة [DocumentBuilder](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/). لذلك، دعونا نرى كيفية إدراج مخطط عمودي بسيط في المستند باستخدام طريقة [InsertChart](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/insertchart/).

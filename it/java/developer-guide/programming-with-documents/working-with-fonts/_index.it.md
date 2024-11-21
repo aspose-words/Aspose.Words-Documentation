@@ -7,6 +7,7 @@ description: "Formattazione del carattere nei dettagli utilizzando Java."
 type: docs
 weight: 230
 url: /it/java/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un carattere è un insieme di caratteri con una certa dimensione, colore e design. Aspose.Words consente di lavorare con i font utilizzando varie classi relative ai caratteri, incluso il [Font](https://reference.aspose.com/words/java/com.aspose.words/font/) classe.

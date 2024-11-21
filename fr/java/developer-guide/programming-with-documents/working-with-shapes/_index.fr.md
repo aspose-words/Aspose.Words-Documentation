@@ -7,6 +7,7 @@ type: docs
 description: "Introduction au langage de balisage de forme, créant des formes de différents types en utilisant Java."
 weight: 280
 url: /fr/java/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ce thème traite de la façon de travailler programmatiquement avec les formes en utilisant Aspose.Words.

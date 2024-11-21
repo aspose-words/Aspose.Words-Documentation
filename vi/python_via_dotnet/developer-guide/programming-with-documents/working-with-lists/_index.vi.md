@@ -7,6 +7,7 @@ description: "Tạo, chỉ định định dạng và khởi động lại danh 
 type: docs
 weight: 200
 url: /vi/python-net/working-with-lists/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Danh sách trong tài liệu Microsoft Word là tập hợp các thuộc tính định dạng danh sách. Danh sách có thể được sử dụng trong tài liệu của bạn để định dạng, sắp xếp và nhấn mạnh văn bản. Danh sách là một cách tuyệt vời để sắp xếp dữ liệu trong tài liệu và giúp người đọc hiểu các điểm chính dễ dàng hơn

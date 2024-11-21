@@ -7,6 +7,7 @@ description: "Aspose.Words for Python اجازه می دهد تا برخی از 
 type: docs
 weight: 10
 url: /fa/python-net/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
 ویژگی های سند اجازه می دهد تا برخی از اطلاعات مفید در مورد سند شما ذخیره شود. این خواص را می توان به دو گروه تقسیم کرد:

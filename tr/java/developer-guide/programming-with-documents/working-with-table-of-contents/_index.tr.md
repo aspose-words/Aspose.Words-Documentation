@@ -7,6 +7,7 @@ description: "Ayrıntılar arasındaki `İçindekiler tablosu` alanı. `TOC` ala
 type: docs
 weight: 170
 url: /tr/java/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Sıklıkla bir tablo içeriği (TOC) içeren belgelerle çalışacaksınız. Aspose.Words kullanarak kendi tablo içeriğinizi ekleyebilir ya da mevcut tablo içeriğini belgeninizde sadece birkaç kod satırı kullanarak tamamen yeniden oluşturabilirsiniz.

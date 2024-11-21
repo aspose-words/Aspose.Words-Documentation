@@ -7,6 +7,7 @@ description: "Learn how to remove fields in Java. Remove fields programmatically
 type: docs
 weight: 35
 url: /java/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Sometimes it is necessary to remove a field from the document. This may occur when it is to be replaced with a different field type or when the field is no longer needed in the document. For example a `TOC` field when saving to HTML.

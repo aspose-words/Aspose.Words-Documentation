@@ -1,4 +1,4 @@
-﻿---
+---
 title: Plantilla Mail Merge en C++
 second_title: Aspose.Words para C++
 articleTitle: Mail Merge Plantilla
@@ -8,6 +8,7 @@ description: "Cree una plantilla mail merge para definir contenido fijo en los d
 keywords: "create mail merge template с++"
 weight: 10
 url: /es/cpp/mail-merge-template/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Es común usar una plantilla de combinación como documento base para una operación mail merge, ya sea si es un mail merge simple o mail merge con regiones. Mail merge con regiones es más poderoso y popular que el simple mail merge. Simple mail merge se considera como un caso particular de mail merge con regiones donde la región es todo el documento. Todo se explica en el siguiente artículo "Tipos de Mail Merge Operaciones" con más detalle.

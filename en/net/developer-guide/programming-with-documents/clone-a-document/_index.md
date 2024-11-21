@@ -7,6 +7,7 @@ type: docs
 description: "Clone a document to get its identical copy using C#. When creating a copy, nodes and properties of the original document are cloned."
 weight: 70
 url: /net/clone-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Cloning a document is the process of creating an identical copy of an original document, which can improve performance and save you from potential memory leaks.

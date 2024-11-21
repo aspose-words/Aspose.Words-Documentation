@@ -7,6 +7,7 @@ description: "Firme digitalmente documentos y detectar, contar, verificar y elim
 type: docs
 weight: 30
 url: /es/java/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Una firma digital es una implementación tecnológica de firmas electrónicas para firmar documentos y autenticar al firmante para garantizar que un documento no ha sido modificado desde su firma. Cada firma digital es única para cada firmante debido a seguir el protocolo PKI para generar tanto claves públicas como privadas. Firmar un documento digital significa crear una firma usando la clave privada del firmante donde se utiliza un algoritmo matemático para cifrar el hash generado.

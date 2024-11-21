@@ -7,6 +7,7 @@ description: "C#의 테이블에 있는 텍스트를 바꿉니다. C#를 사용�
 type: docs
 weight: 60
 url: /ko/net/work-with-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 이전 기사에서 언급했듯이 표에는 일반적으로 일반 텍스트가 포함되어 있지만 이미지나 다른 표와 같은 다른 콘텐츠도 표 셀에 배치될 수 있습니다.

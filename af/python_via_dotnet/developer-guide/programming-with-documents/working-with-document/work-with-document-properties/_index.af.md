@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Dokumenteienskappe
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Werk Met Dokumenteienskappe
@@ -7,6 +7,7 @@ description: "Aspose.Words vir Python laat die stoor van'n paar nuttige inligtin
 type: docs
 weight: 10
 url: /af/python-net/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Dokument eienskappe toelaat stoor'n paar nuttige inligting oor jou dokument. Hierdie eienskappe kan in twee groepe verdeel word:

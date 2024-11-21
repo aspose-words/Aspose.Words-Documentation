@@ -7,6 +7,7 @@ description: "Python'i kullanarak bir belgeyi çok sayfalı TIFF'e dönüştür�
 type: docs
 weight: 30
 url: /tr/python-net/saving-a-document-as-a-multipage-tiff/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Belgelerle çalışırken, genellikle belgenizi taramalı görüntü dosyalarına dönüştürmeniz gerekir. Bu, özellikle belgenizi okunabilir ve yazdırılabilir ancak düzenlenemeyen bir biçimde sunmanız gerekiyorsa geçerlidir. Örneğin, belgenizin ilk sayfasının taramalı görüntüsünü önizleme olarak kullanabilirsiniz. Bu makalede, en popüler görüntü formatlarından biri olan TIFF biçimi örneğini kullanarak bir belgenin taramalı görüntüye nasıl dönüştürüleceği açıklanmaktadır.

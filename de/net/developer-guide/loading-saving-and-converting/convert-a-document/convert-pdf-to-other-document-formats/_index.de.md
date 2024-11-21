@@ -8,6 +8,7 @@ description: "Konvertieren Sie PDF-Dateien mithilfe von C# in Word-Formate wie D
 keywords: convert pdf to other formats c#
 weight: 45
 url: /de/net/convert-pdf-to-other-document-formats/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Aspose.Words kann sogar ein so komplexes Format wie PDF laden. Dies eröffnet neue Möglichkeiten: Es ist möglich, PDF in Word oder andere Formate zu konvertieren, die den Anwendern bei der Lösung vieler Anwendungsprobleme einen großen Vorsprung verschaffen.

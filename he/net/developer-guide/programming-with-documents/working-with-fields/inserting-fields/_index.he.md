@@ -7,6 +7,7 @@ description: "כיצד להכניס שדות למסמך באמצעות C# למד
 type: docs
 weight: 20
 url: /he/net/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ישנן מספר דרכים שונות להכניס שדות למסמך:

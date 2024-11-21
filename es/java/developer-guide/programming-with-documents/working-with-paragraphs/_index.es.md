@@ -7,6 +7,7 @@ description: "Prácticas de manipulación de los nodos del párrafo Java."
 type: docs
 weight: 210
 url: /es/java/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un párrafo es un conjunto de caracteres combinados en un bloque lógico y terminando con un carácter especial – un *interrupción*. In Aspose.Words, a párrafo está representado por [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) clase.

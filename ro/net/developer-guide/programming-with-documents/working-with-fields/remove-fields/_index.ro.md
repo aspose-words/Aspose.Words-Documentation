@@ -7,6 +7,7 @@ description: "Învață cum să elimini câmpuri în C#. Elimină câmpurile pro
 type: docs
 weight: 35
 url: /ro/net/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uneori este necesar să îndepărtaţi un câmp dintr-un document. Acest lucru poate apărea atunci când trebuie să fie înlocuit cu un tip de câmp diferit sau când câmpul nu mai este necesar în document. De exemplu câmpul `TOC` când salvezi la HTML.

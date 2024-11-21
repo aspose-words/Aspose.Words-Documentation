@@ -1,4 +1,4 @@
-﻿---
+---
 title: ترجمه Markdown به مستند سازی مدل شی (DOM)
 second_title: Aspose.Words برای C++
 articleTitle: ترجمه Markdown به مستند سازی مدل شی (DOM)
@@ -7,6 +7,7 @@ type: docs
 description: "Tarnslate a Markdown document to Document Object Model and back با استفاده از C++. بنابراین شما می توانید با پیچیده موجود Markdown کار کنید و به صورت برنامه ریزی شده یک سند Markdown از ابتدا ایجاد کنید."
 weight: 20
 url: /fa/cpp/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 برای خواندن، دستکاری و تغییر برنامه ریزی محتوا و قالب بندی یک سند، باید آن را به مدل شیء سند Aspose.Words (DOM) ترجمه کنید.

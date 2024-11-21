@@ -1,4 +1,4 @@
-﻿---
+---
 title: รูปแบบไฟล์และการแปลง
 second_title: Aspose.WordsสำหรับC++
 articleTitle: เหตุใดการแปลงคุณลักษณะเรือธงของAspose.Wordsจึงเป็น?
@@ -7,6 +7,7 @@ description: "แปลงเอกสารจากโหลดที่สน
 type: docs
 weight: 50
 url: /th/cpp/file-formats-and-conversions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 {{% alert color="primary" %}}

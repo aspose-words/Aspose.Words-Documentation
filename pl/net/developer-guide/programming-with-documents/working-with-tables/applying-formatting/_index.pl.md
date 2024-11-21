@@ -7,6 +7,7 @@ description: "Szczegóły formatowania tabeli przy użyciu C#. Użyj C#, aby sfo
 type: docs
 weight: 70
 url: /pl/net/applying-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Do każdego elementu tabeli można zastosować inne formatowanie. Na przykład formatowanie tabeli zostanie zastosowane do całej tabeli, formatowanie wierszy tylko do określonych wierszy, a formatowanie komórek tylko do wybranych komórek.

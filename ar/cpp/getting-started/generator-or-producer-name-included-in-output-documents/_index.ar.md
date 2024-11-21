@@ -1,4 +1,4 @@
-﻿---
+---
 title: اسم المنتج في المخرجات
 second_title: Aspose.Words ل C++
 articleTitle: اسم المولد أو المنتج في مستندات الإخراج
@@ -7,6 +7,7 @@ description: "Aspose.Words ل C++ أضف إلى المستند اسم المول
 type: docs
 weight: 90
 url: /ar/cpp/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 يمكنك بسهولة معرفة ما إذا كان يتم إنتاج مستند باستخدام Aspose.Words ل C++. يمكنك أيضا العثور على رقم إصدار Aspose.Words ل C++ تم استخدام ذلك لإنشاء مستند إخراج معين. Aspose.Words يكتب هذه المعلومات مباشرة في المستند الذي تم إنشاؤه.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Spesifiseer Vertoonopsies Wanneer U na PDFOmskakel
 second_title: Aspose.Words vir C++
 articleTitle: Spesifiseer Vertoonopsies Wanneer U na PDFOmskakel
@@ -7,6 +7,7 @@ description: "Skakel'n dokument om na PDF met gevorderde opsies met C++. Gebruik
 type: docs
 weight: 30
 url: /af/cpp/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Die PDF-formaat is'n vaste bladsy-formaat wat baie gewild is onder gebruikers en wyd ondersteun word deur verskeie toepassings omdat'n PDF - dokument op enige toestel dieselfde lyk. Om daardie rede is omskakeling na PDF 'n belangrike kenmerk van Aspose.Words.

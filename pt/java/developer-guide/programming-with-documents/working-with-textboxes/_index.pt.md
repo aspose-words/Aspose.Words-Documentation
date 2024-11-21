@@ -7,6 +7,7 @@ description: "Introdução às caixas de texto vinculadas Aspose.Words para Java
 type: docs
 weight: 250
 url: /pt/java/working-with-linked-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Em Aspose.Words, o [TextBox](https://reference.aspose.com/words/java/com.aspose.words/textbox/) classe é usada para especificar como um texto é exibido dentro de uma forma. Ele fornece uma propriedade pública nomeada como Pai para obter a forma pai para a caixa de texto para permitir que o cliente encontre vinculado [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) de ligado **TextBox**.

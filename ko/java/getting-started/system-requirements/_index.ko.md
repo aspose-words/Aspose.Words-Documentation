@@ -7,6 +7,7 @@ description: "함께 일하기 전에 Aspose.Words 제품정보 Java, 운영 체
 type: docs
 weight: 80
 url: /ko/java/system-requirements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words 제품정보 Java 같은 제3자 제품을 요구하지 않습니다. Microsoft Word 설치하기 Aspose.Words 자체는 다양한 형식의 문서 작성, 수정, 변환 및 렌더링을위한 엔진입니다. Microsoft Word 문서 형식.

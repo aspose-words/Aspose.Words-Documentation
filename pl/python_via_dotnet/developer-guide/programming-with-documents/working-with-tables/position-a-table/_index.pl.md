@@ -7,6 +7,7 @@ description: "Określ pozycję tabeli w Python. Uzyskaj wyrównanie stołu, uzys
 type: docs
 weight: 50
 url: /pl/python-net/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Istnieją tabele pływające i tabele wbudowane:

@@ -7,6 +7,7 @@ description: "Estrarre vari oggetti grafici, come immagini, casella di testo con
 type: docs
 weight: 40
 url: /it/java/rendering-shapes-separately-from-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Quando si elaborano i documenti, un compito comune è quello di estrarre tutte le immagini presenti nel documento e esportarle in una posizione esterna. Questo compito diventa semplice con Aspose.Words API, che già fornisce la funzionalità per estrarre e salvare i dati delle immagini. Tuttavia, a volte si può desiderare di estrarre simili altri tipi di contenuto grafico che sono rappresentati da un diverso tipo di oggetto di disegno, per esempio, una casella di testo contenente paragrafi, forme di freccia e una piccola immagine. Non esiste un modo semplice di rendere questo oggetto poiché è una combinazione di singoli elementi di contenuto. Si può anche incontrare un caso quando i contenuti sono stati raggruppati insieme nell'oggetto che sembra una singola immagine.

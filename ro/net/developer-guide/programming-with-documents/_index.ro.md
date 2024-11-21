@@ -7,6 +7,7 @@ type: docs
 description: "Folosiți clasele Aspose.Words și Document Object Model pentru a crea programatic, modifica și gestiona documente cu .NET folosind C#. `Lucrați cu proprietățile documentului, setările și conținutul, precum și cu aspectul documentului prin gestionarea culorilor, formele, fonturile și alte elemente grafice.`"
 weight: 60
 url: /ro/net/programming-with-documents/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Această secţiune oferă informaţii despre modul de creare programatică, modificare şi gestionare a documentelor cu clasele Aspose.Words Document Object Model. Articolele din această secțiune descriu o gamă largă de sarcini de manipulare a documentelor care vă permit să lucrați cu proprietățile documentului, setările, conținutul și elementele sale.

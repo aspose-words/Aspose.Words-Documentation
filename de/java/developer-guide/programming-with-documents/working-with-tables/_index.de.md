@@ -7,6 +7,7 @@ description: "Wie man mit Tischen arbeitet Java. Einführung in Tabellenknotenko
 type: docs
 weight: 190
 url: /de/java/working-with-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A **Tabelle** in einem Dokument ist eine großartige Möglichkeit, ähnliche Daten zu strukturieren. Deshalb sind Tabellen ein gemeinsames Content-Formatierungselement und werden von den meisten Formaten in einer oder einer anderen Form unterstützt.

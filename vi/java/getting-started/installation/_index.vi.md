@@ -7,6 +7,7 @@ description: "Cài đặt Aspose.Words cho Java từ kho Maven. Định nghĩa A
 type: docs
 weight: 10
 url: /vi/java/installation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Đảm bảo máy tính của bạn đáp ứng các [yêu cầu hệ thống]/words/java/system-requirements/) trước khi bắt đầu.

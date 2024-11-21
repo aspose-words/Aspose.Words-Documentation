@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bir Belgeyi HTML, MHTML veya EPUB'ye Dönüştürme
 second_title: Aspose.Words için C++
 articleTitle: Bir Belgeyi HTML, MHTML veya EPUB'ye Dönüştürme
@@ -7,6 +7,7 @@ description: "Bir belgeyi hemen hemen her formattan HTML veya MHTML biçimine ve
 type: docs
 weight: 20
 url: /tr/cpp/convert-a-document-to-html-mhtml-or-epub/
+timestamp: 2024-10-21-08-52-03
 ---
 
 HTML ve MHTML akış düzeni biçimlerindeki belgeler de çok popülerdir ve herhangi bir web platformunda kullanılabilir. Bu nedenle belgeleri HTML ve MHTML'e dönüştürmek Aspose.Words'ın önemli bir özelliğidir.

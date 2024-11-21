@@ -7,6 +7,7 @@ description: "Въведение в функцията Chart, как да съз
 type: docs
 weight: 310
 url: /bg/net/working-with-charts/
+timestamp: 2024-02-05-15-07-18
 ---
 
 Нов [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) метод е добавен в [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) Клас. И така, нека видим как да вкараме проста колона в документа с помощта на [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) метод.

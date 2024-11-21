@@ -7,6 +7,7 @@ description: "Въведение в функцията Chart, как да съз
 type: docs
 weight: 310
 url: /bg/java/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Новият [insertChart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertChart-int-double-double) метод е добавен в [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) Клас. И така, нека видим как да вкараме проста колона в документа, използвайки **вмъкване Графика** метод.

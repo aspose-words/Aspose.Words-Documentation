@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrați cu proprietățile documentului în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Lucrați cu proprietățile documentului
@@ -7,6 +7,7 @@ description: "Aspose.Words pentru Java permite stocarea unor informații utile d
 type: docs
 weight: 10
 url: /ro/java/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Proprietățile documentului permit stocarea unor informații utile despre documentul dvs. Aceste proprietăți pot fi împărțite în două grupe:

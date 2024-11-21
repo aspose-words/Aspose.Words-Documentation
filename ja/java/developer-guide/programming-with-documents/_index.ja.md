@@ -7,6 +7,7 @@ type: docs
 description: "利用する Aspose.Words Document Object Model 文書をプログラム的に作成、変更、管理するためのクラス Javaお問い合わせ 文書のプロパティ、設定、コンテンツ、および色、形状、フォント、その他のグラフィックの管理による文書の外観で動作します。"
 weight: 340
 url: /ja/java/programming-with-documents/
+timestamp: 2024-09-25-11-08-55
 ---
 
 このセクションでは、文書をプログラム的に作成、変更、管理する方法に関する情報を提供します。 Aspose.Words Document Object Model クラス。 このセクションの記事では、ドキュメントのプロパティ、設定、コンテンツ、およびその要素を扱うことができるドキュメント操作タスクの広い範囲について説明します。

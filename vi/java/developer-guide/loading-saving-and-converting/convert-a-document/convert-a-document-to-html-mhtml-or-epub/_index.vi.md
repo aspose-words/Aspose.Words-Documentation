@@ -7,6 +7,7 @@ description: "Sử dụng Aspose.Words cho Java để chuyển đổi các văn 
 type: docs
 weight: 20
 url: /vi/java/convert-a-document-to-html-mhtml-or-epub/
+timestamp: 2024-10-21-08-52-03
 ---
 
 Các tài liệu ở định dạng HTML và MHTML flow-layout cũng rất phổ biến và có thể được sử dụng trên bất kỳ nền tảng web nào. Vì vậy việc chuyển đổi tài liệu sang HTML và MHTML là một tính năng quan trọng của Aspose.Words.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 什么是C++中的页面布局
 second_title: Aspose.Words对于C++
 articleTitle: 什么是页面布局
@@ -7,6 +7,7 @@ description: "让我们弄清楚页面布局是什么。 页面布局描述文�
 type: docs
 weight: 5
 url: /zh/cpp/what-is-a-page-layout/
+timestamp: 2024-09-24-14-35-44
 ---
 
 **document page layout**是一个数据结构，描述特定对象在所有文档对象的页面上的位置。 此外，由于对象具有影响其外观的属性，例如字体大小，阴影或绘图效果，因此您不仅需要知道对象在哪里，还需要知道它占据页面的哪个区域，以及它是否

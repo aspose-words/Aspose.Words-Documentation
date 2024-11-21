@@ -1,4 +1,4 @@
-﻿---
+---
 title: Работа с диапазонами в C++
 second_title: Aspose.Words для C++
 articleTitle: Работа с диапазонами
@@ -7,6 +7,7 @@ description: "Введение в функцию диапазона в Aspose.Wo
 type: docs
 weight: 130
 url: /ru/cpp/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 글꼴 작업 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 글꼴 작업
@@ -7,6 +7,7 @@ description: "사용하여 세부 글꼴 서식 C++."
 type: docs
 weight: 230
 url: /ko/cpp/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 글꼴은 특정 크기,색상 및 디자인의 문자 집합입니다. Aspose.Words 를 사용하여 글꼴로 작업 할 수 있습니다 [Fonts](https://reference.aspose.com/words/cpp/aspose.words.fonts/) 네임스페이스와 [Font](https://reference.aspose.com/words/cpp/aspose.words/font/) 수업

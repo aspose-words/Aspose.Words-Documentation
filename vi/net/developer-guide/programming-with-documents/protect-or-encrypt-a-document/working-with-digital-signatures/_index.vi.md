@@ -7,6 +7,7 @@ description: "Ký điện tử các tài liệu và phát hiện, đếm, xác m
 type: docs
 weight: 40
 url: /vi/net/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Chữ ký số là việc triển khai công nghệ chữ ký điện tử để ký các tài liệu và xác thực người ký để đảm bảo rằng tài liệu không bị sửa đổi kể từ khi được ký. Mỗi chữ ký số là duy nhất cho mỗi người ký vì tuân theo giao thức PKI để tạo cả khóa chung và khóa riêng. Ký một tài liệu kỹ thuật số có nghĩa là tạo chữ ký bằng khóa riêng của người ký trong đó thuật toán toán học được sử dụng để mã hóa hàm băm được tạo.

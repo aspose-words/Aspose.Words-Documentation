@@ -7,6 +7,7 @@ description: "Cách triển khai các tính năng Markdown bằng C#. Tất cả
 type: docs
 weight: 420
 url: /vi/net/working-with-markdown-features/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Chủ đề này thảo luận cách triển khai các tính năng Markdown bằng Aspose.Words. Markdown là một cách đơn giản để định dạng văn bản thuần túy có thể dễ dàng chuyển đổi sang HTML. Aspose.Words hỗ trợ các tính năng Markdown sau:

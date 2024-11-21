@@ -7,6 +7,7 @@ description: ".NET용 Aspose.Words를 사용하면 API, 버전 번호 또는 승
 type: docs
 weight: 10
 url: /ko/net/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
 문서 속성을 사용하면 문서에 대한 유용한 정보를 저장할 수 있습니다. 이러한 속성은 두 그룹으로 나눌 수 있습니다

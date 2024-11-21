@@ -7,6 +7,7 @@ description: "Çoğu popüler formatta bir belge yükleyin ve dönüştürün ve
 type: docs
 weight: 20
 url: /tr/java/supported-features-on-document-load/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words kullanıcıların çeşitli formatlarda belgelerle çalışmasına olanak verir ve bunu yapmak için bir dizi seçenek sunar. Örneğin, kullanıcılar sıfırdan bir belge oluşturabilir veya herhangi bir [supported import format](/words/java/supported-document-formats/) mevcut dosyayı yükleyebilir, bu belgeye bazı değişiklikler yapabilir ve sonra sonucu kaydedebilir. Seçilen biçimde bir belge içeri aktarırken kullanıcı çeşitli yükleme seçeneklerini uygulayabilir.

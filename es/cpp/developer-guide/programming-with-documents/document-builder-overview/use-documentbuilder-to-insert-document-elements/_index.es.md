@@ -1,4 +1,4 @@
-﻿---
+---
 title: Utilice `DocumentBuilder` para Insertar Elementos de Documento
 second_title: Aspose.Words para C++
 articleTitle: Utilice `DocumentBuilder` para Insertar Elementos de Documento
@@ -7,6 +7,7 @@ type: docs
 description: "Inserte elementos de documento utilizando el generador de documentos en C++."
 weight: 80
 url: /es/cpp/use-documentbuilder-to-insert-document-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 El `DocumentBuilder` se usa para modificar documentos. Este artículo explica y describe cómo realizar una serie de tareas:

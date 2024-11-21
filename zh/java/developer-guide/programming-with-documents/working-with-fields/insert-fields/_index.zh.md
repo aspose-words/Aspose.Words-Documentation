@@ -7,6 +7,7 @@ description: "使用不同方式在文档中插入字段 Java。 。 。 。"
 type: docs
 weight: 20
 url: /zh/java/insert-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 在文档中插入字段有几种不同的方式:

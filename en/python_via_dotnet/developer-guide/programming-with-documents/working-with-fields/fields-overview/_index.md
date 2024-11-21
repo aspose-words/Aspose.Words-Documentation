@@ -8,6 +8,7 @@ type: docs
 weight: 10
 url: /python-net/fields-overview/
 aliases: [/python/fields-overview/]
+timestamp: 2024-10-21-11-17-44
 ---
 
 

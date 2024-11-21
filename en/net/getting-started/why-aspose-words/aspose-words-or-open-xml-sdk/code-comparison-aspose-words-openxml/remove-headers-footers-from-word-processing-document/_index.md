@@ -8,6 +8,7 @@ type: docs
 weight: 70
 url: /net/remove-headers-footers-from-word-processing-document/
 aliases: [/net/remove-the-headers-and-footers-from-a-word-processing-document/]
+timestamp: 2024-10-21-11-17-44
 ---
 
 On this page we will look at how to remove headers or footers from a Word processing document using Aspose.Words or Open XML SDK.

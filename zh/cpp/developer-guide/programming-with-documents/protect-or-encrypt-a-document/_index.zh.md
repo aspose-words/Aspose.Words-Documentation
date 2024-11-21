@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在C++中保护或加密文档
 second_title: Aspose.Words对于C++
 articleTitle: 保护或加密文档
@@ -7,6 +7,7 @@ description: "Aspose.Words对于C++ 提供只读、加密文档、限制编辑�
 type: docs
 weight: 50
 url: /zh/cpp/protect-or-encrypt-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 保护或加密文档的主要原因是对谁可以访问文档或谁可以编辑文档进行更多控制。 对您的文档应用保护，您可以避免常见的风险，如未经许可复制或修改文档，以及数据泄漏。

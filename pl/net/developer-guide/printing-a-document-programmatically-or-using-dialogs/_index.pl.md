@@ -7,6 +7,7 @@ description: "Wydrukuj dokument w formacie Server przy użyciu niezarządzanego 
 type: docs
 weight: 55
 url: /pl/net/print-a-document-programmatically-or-using-dialogs/
+timestamp: 2024-01-31-14-23-37
 ---
 
 W tym artykule opisano sposób drukowania dokumentu edytora tekstu z aplikacji usługi ASP.NET lub Windows przy użyciu formatów Aspose.Words i `XpsPrint` API. Pokazuje także metody drukowania dokumentu w oknach dialogowych Ustawienia, Podgląd wydruku i Postęp drukowania oraz wyjaśnia, jak skrócić czas pierwszego wywołania w celu wydrukowania dokumentu.

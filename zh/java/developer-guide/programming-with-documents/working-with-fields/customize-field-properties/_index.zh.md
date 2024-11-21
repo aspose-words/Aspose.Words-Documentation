@@ -7,6 +7,7 @@ description: "学习如何自定义字段属性 Java。 。 。 重命名合并�
 type: docs
 weight: 27
 url: /zh/java/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words 提供与各种外地属性进行方案互动的能力。 在本篇文章中,我们将研究几个例子,以便你理解与实地属性合作的基本原则. 您可以在相应的类中看到每个字段类型的全部属性列表。

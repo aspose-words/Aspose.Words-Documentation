@@ -7,6 +7,7 @@ description: "footnotes와 endnotes를 조작하는 방법 Java·"
 type: docs
 weight: 160
 url: /ko/java/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words 또한 일부 클래스, 방법 및 속성을 제공합니다. footnotes 및 endnotes.

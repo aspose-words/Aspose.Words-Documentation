@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mengonversi ke Format halaman Tetap di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Mengonversi ke Format halaman Tetap
@@ -7,6 +7,7 @@ description: "Simpan dokumen ke PDF, XPS, HTML, XAML, PostScript, dan format PCL
 type: docs
 weight: 10
 url: /id/cpp/converting-to-fixed-page-format/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Aspose.Words mengimplementasikan mesin tata letak halamannya sendiri. Sebelum mempelajari spesifikasinya, ada baiknya untuk terlebih dahulu membahas dokumen pada tingkat tinggi.

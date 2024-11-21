@@ -7,6 +7,7 @@ description: "تحويل أي وثيقة إلى استمارة MHTML ثم إرس
 type: docs
 weight: 30
 url: /ar/java/convert-a-document-to-mhtml-and-send-it-by-email/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words ويمكن تحويل أي وثيقة إلى استمارة MHTML (محفوظات الشبكة العالمية). هذا يجعل من المناسب استخدامها Aspose.Words و `Aspose.Email` معاً يمكنك تحميل وثيقة محددة مسبقا في أي شكل من أشكال الدعم، مثل DOC، OOXML، أو RTF، إلى Aspose.Wordsاملأها بالبيانات، واحتفظ بالوثيقة الناتجة عن ذلك باعتبارها MHTML، ثم أرسلها بالبريد الإلكتروني باستخدام `Aspose.Email`.

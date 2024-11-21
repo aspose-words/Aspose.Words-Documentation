@@ -1,4 +1,4 @@
-﻿---
+---
 title: Önce veya Sırasında Temizleyin Mail Merge Operasyon
 second_title: Aspose.Words için C++
 articleTitle: Önce veya Sırasında Temizleyin Mail Merge Operasyon
@@ -8,6 +8,7 @@ description: "Birleştirme alanlarını gerçekleştirmeden önce silme gibi far
 keywords: "cleanup options mail merge c#"
 weight: 10
 url: /tr/cpp/clean-up-before-or-during-mail-merge/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words birleştirme alanlarını silme gibi farklı temizleme ve kaldırma seçeneklerini uygulamadan önce uygulamanıza olanak tanır. mail merge bir işlem sırasında kullanılmayan bölgelerin çalıştırılması veya çıkarılması mail merge operasyon. Bu bölümde birleştirilmiş alanların nasıl silineceği ve bir kaldırma seçeneğinin nasıl kurulacağı açıklanacaktır.

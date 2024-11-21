@@ -7,6 +7,7 @@ description: "Use extension methods for iteration variables of any type when bui
 type: docs
 weight: 60
 url: /net/using-extension-methods-of-iteration-variables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 LINQ Reporting Engine provides special extension methods for iteration variables of any type. You can normally use these extension methods in template expressions. The following list describes the extension methods.

@@ -7,6 +7,7 @@ description: "Giới thiệu cách làm việc với các ký tự điều khi�
 type: docs
 weight: 400
 url: /vi/net/working-with-control-characters/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Tài liệu Microsoft Word có thể chứa nhiều ký tự khác nhau có ý nghĩa đặc biệt. Thông thường chúng được sử dụng cho mục đích định dạng và không được vẽ ở chế độ thông thường. Bạn có thể làm cho chúng hiển thị nếu bạn nhấp vào nút Hiển thị/Ẩn Dấu định dạng nằm trên thanh công cụ Chuẩn.

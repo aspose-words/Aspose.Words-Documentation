@@ -7,6 +7,7 @@ description: "将 PDF 转换为 Excel、将 XML 转换为 Excel、将 DOCX 转�
 type: docs
 weight: 15
 url: /zh/python-net/convert-a-document-to-excel/
+timestamp: 2024-01-31-14-23-37
 ---
 
 将文档从一种格式转换为另一种格式是 Aspose.Words 的旗舰功能。您可以将任何可用的 [加载格式](https://reference.aspose.com/words/python-net/aspose.words/loadformat/) 文档转换为 XLSX 格式。

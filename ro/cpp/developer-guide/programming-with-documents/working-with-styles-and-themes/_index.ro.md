@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu stiluri în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Lucrul cu stiluri
@@ -7,6 +7,7 @@ description: "Caracteristici îmbunătățite de formatare Microsoft Word, lucru
 type: docs
 weight: 110
 url: /ro/cpp/working-with-styles-and-themes/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Clasa [StyleCollection](https://reference.aspose.com/words/cpp/aspose.words/stylecollection/) este utilizată pentru a gestiona setările încorporate și pentru a aplica setările definite de utilizator stilurilor.

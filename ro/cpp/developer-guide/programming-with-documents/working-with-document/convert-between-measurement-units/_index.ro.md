@@ -1,4 +1,4 @@
-﻿---
+---
 title: Conversia între unitățile de măsură în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Conversia Între Unitățile De Măsură
@@ -7,6 +7,7 @@ description: "Aspose.Words pentru C++ vă poate ajuta cu modul de a converti în
 type: docs
 weight: 20
 url: /ro/cpp/convert-between-measurement-units/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Majoritatea proprietăților obiectului furnizate în Aspose.Words API care reprezintă unele măsurători, cum ar fi lățimea sau înălțimea, marginile și diferite distanțe, acceptă valori în puncte, unde 1 inch este egal cu 72 puncte. Uneori acest lucru nu este convenabil și punctele trebuie convertite în alte unități.

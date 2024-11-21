@@ -1,4 +1,4 @@
-﻿---
+---
 title: 단순 Mail Merge 운영 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 단순 Mail Merge 운영
@@ -8,6 +8,7 @@ description: "간단한 mail merge 채우기 위하여 이용됩니다 mail merg
 keywords: "how to execute mail merge c++"
 weight: 10
 url: /ko/cpp/simple-mail-merge-operation/
+timestamp: 2024-09-24-14-35-44
 ---
 
 간단한 mail merge 채우기 위하여 이용됩니다 mail merge 데이터 원본의 필수 데이터가있는 템플릿 내부의 필드(단일 테이블 표현). 그래서 그것은 고전과 비슷합니다 mail merge 그 안에 Microsoft Word.

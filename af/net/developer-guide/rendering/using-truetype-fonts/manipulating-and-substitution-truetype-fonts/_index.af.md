@@ -1,4 +1,4 @@
-﻿---
+---
 title: Manipuleer En Vervang TrueType Lettertipes in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Manipuleer En Vervang TrueType Lettertipes
@@ -7,6 +7,7 @@ description: "Aspose.Words vir .NET kan die korrekte TrueType lettertipes in die
 type: docs
 weight: 10
 url: /af/net/manipulating-and-substitution-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words vereis TrueType lettertipes vir'n verskeidenheid take, insluitend die weergawe van dokumente na vaste bladsy formate, byvoorbeeld, PDF of XPS. Wanneer Aspose.Words 'n dokument weergee, moet dit die inbed en subset inbed van TrueType lettertipes in die gevolglike dokument uitvoer, wat'n normale praktyk is tydens'n dokumentgenerering, insluitend gewilde PDF of XPS formate. Dit verseker dat die dokument vir enige kyker dieselfde sal lyk. Daarbenewens vereis die XPS spesifikasie dat lettertipes altyd in die dokument ingebed moet word.

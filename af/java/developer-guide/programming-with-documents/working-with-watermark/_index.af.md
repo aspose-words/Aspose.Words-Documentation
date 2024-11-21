@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Watermerk in Java
 second_title: Aspose.Words vir Java
 articleTitle: Werk Met Watermerk
@@ -7,6 +7,7 @@ type: docs
 description: "Dokument watermerk manipulasie met behulp van Java."
 weight: 70
 url: /af/java/working-with-watermark/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Hierdie onderwerp bespreek hoe om programmaties te werk met'n watermerk met behulp van Aspose.Words. 'n watermerk is'n agtergrondbeeld wat agter die teks in'n dokument vertoon word. 'n watermerk kan'n teks of'n beeld bevat wat deur die [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) klas verteenwoordig word.

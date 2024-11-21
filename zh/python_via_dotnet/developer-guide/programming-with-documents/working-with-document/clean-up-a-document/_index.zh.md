@@ -7,6 +7,7 @@ description: "使用 Python 删除未使用或重复的信息以减少输出大�
 type: docs
 weight: 30
 url: /zh/python-net/clean-up-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有时您可能需要删除未使用或重复的信息，以减少输出文档的大小和处理时间。

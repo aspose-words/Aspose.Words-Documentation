@@ -7,6 +7,7 @@ description: "使用 Aspose.Words (单位:千美元) Java 将文档从 Word 或�
 type: docs
 weight: 20
 url: /zh/java/convert-a-document-to-html-mhtml-or-epub/
+timestamp: 2024-10-21-08-52-03
 ---
 
 HTML和MHTML流放格式的文档也很受欢迎,可以在任何网络平台上使用. 因此,将文档转换为HTML和MHTML是其中的一个重要特征。 Aspose.Words。 。 。 。

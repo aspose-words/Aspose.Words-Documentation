@@ -7,6 +7,7 @@ description: "Как вставить поля в документ с помощ
 type: docs
 weight: 20
 url: /ru/net/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Существует несколько способов вставить поля в документ:

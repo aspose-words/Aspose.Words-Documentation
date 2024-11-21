@@ -7,6 +7,7 @@ description: "Расширенные типографские функции с 
 type: docs
 weight: 25
 url: /ru/net/enable-opentype-features/
+timestamp: 2024-07-10-14-38-57
 ---
 
 OpenType - это формат шрифта, который обеспечивает лучшую поддержку международных языков и систем письма по сравнению с PostScript и TrueType. Особенности компоновки OpenType широко известны как функции OpenType. Aspose.WordsФормирование.HarfBuzz Пакет обеспечивает поддержку функций OpenType в Aspose.Words использовать HarfBuzz Движок формирования текста.

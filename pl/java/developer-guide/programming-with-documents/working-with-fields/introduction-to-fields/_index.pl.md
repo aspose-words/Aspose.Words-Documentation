@@ -7,6 +7,7 @@ description: "Pola w szczegółach, kody pól i wyniki pola wyjaśnione w Aspose
 type: docs
 weight: 10
 url: /pl/java/introduction-to-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words jest biblioteką klasy przeznaczoną do przetwarzania po stronie serwera Microsoft Word dokumenty i wspiera pola w następujący sposób:

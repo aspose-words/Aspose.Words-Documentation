@@ -7,6 +7,7 @@ description: "Введение в функцию Chart, как создават�
 type: docs
 weight: 310
 url: /ru/net/working-with-charts/
+timestamp: 2024-02-05-15-07-18
 ---
 
 Новый [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) Метод был добавлен в [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) класс. Итак, давайте посмотрим, как вставить простую таблицу столбцов в документ, используя [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) метод.

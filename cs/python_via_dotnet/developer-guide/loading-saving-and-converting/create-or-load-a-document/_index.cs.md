@@ -8,6 +8,7 @@ url: /cs/python-net/create-or-load-a-document/
 description: "Vytvořit prázdný dokument nebo jej načíst ze souboru nebo streamu pomocí Python."
 keywords: "create a document python, load a document python, create a blank document python, load a document from file python, load a document from stream python, create a document Aspose python, load a document Aspose python, load formats supported by Aspose.Words python"
 weight: 10
+timestamp: 2024-01-27-14-07-04
 ---
 
 Téměř jakýkoli úkol, který chcete vykonávat s Aspose.Words zahrnuje načtení dokumentu. • [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) třída představuje dokument naložený do paměti. Dokument má několik přetížených konstruktérů, které vám umožní vytvořit prázdný dokument nebo jej načíst ze souboru nebo streamu. Dokument lze načíst v jakémkoli formátu zatížení podporovaném Aspose.Words. Seznam všech podporovaných formátů zatížení viz [LoadFormat](https://reference.aspose.com/words/python-net/aspose.words/loadformat/) výčtu.

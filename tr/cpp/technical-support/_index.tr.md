@@ -1,4 +1,4 @@
-﻿---
+---
 title: Teknik Destek
 second_title: Aspose.Words için C++
 articleTitle: Teknik Destek
@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words için C++ tüm kullanıcılara ücretsiz teknik destek sağlar. Lütfen sorunuzu, sorununuzu veya özellik isteğinizi Aspose Ücretsiz Destek Forumu'nu kullanarak bildirin."
 weight: 80
 url: /tr/cpp/technical-support/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose, tüm ürünleri için sınırsız ücretsiz teknik destek sağlar. Değerlendirme dahil tüm kullanıcılar için destek mevcuttur. Ana destek caddesi [Aspose.Forumlar](https://forum.aspose.com/c/words/8).

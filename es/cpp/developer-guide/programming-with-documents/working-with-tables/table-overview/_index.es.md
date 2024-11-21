@@ -1,4 +1,4 @@
-﻿---
+---
 title: Resumen de la Tabla
 second_title: Aspose.Words para C++
 articleTitle: Resumen de la Tabla
@@ -7,6 +7,7 @@ description: "Trabaje con tablas y sus componentes, como celdas, filas, columnas
 type: docs
 weight: 10
 url: /es/cpp/table-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words es una biblioteca de clases diseñada para el procesamiento del lado del servidor de documentos en varios formatos (PDF, HTML, diferentes formatos de Microsoft Word y otros) y admite tablas de las siguientes maneras:

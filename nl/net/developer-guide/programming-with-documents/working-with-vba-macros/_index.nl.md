@@ -7,6 +7,7 @@ description: "Werken met VBA-projecten van document C#."
 type: docs
 weight: 410
 url: /nl/net/working-with-vba-macros/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Visual Basic voor aanvragen (VBA) voor Microsoft Word is een eenvoudige maar krachtige programmeertaal die gebruikt kan worden om de functionaliteit uit te breiden. Aspose.Words API biedt drie klassen om toegang te krijgen tot de VBA project broncode:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Basit Mail Merge Operasyon C++
 second_title: Aspose.Words için C++
 articleTitle: Basit Mail Merge Operasyon
@@ -8,6 +8,7 @@ description: "Basit bir mail merge doldurmak için kullanılır mail merge şabl
 keywords: "how to execute mail merge c++"
 weight: 10
 url: /tr/cpp/simple-mail-merge-operation/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Basit bir mail merge doldurmak için kullanılır mail merge şablonunuzun içindeki veri kaynağınızdan gerekli verileri içeren alanlar (tek tablo gösterimi). Bu yüzden klasiğe benzer mail merge içinde Microsoft Word.

@@ -7,6 +7,7 @@ description: "Uitvoerdocumenten maken met verschillende lay-outs, afhankelijk va
 type: docs
 weight: 10
 url: /nl/java/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words kunt u uitvoerdocumenten met verschillende lay-outs, afhankelijk van de parameters die in de [LayoutOptions](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/) eigendom van de **Document**. Deze eigenschap lijkt op een aantal van de Microsoft Word user interface menu opties beschreven in dit artikel.

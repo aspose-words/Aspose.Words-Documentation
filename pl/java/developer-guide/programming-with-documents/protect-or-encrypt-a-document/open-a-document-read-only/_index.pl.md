@@ -7,6 +7,7 @@ description: "Czyń swój dokument read- tylko tak, aby zawartość mogła być 
 type: docs
 weight: 10
 url: /pl/java/open-a-document-read-only/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Czasami możesz mieć dokument, który wymaga przeglądu, ale nie chcesz, aby recenzenci losowo modyfikowali zawartość. Aspose.Words pozwala na odczytanie zgody dokumentu tylko po to, aby zawartość mogła być kopiowana lub odczytana, ale nie modyfikowana. Uniemożliwi to usunięcie lub dodanie treści do dokumentu.

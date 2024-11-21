@@ -1,4 +1,4 @@
-﻿---
+---
 title: Vervang Velde Python
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Vervang Velde Met Statiese Teks
@@ -7,6 +7,7 @@ description: "Leer hoe om velde te vervang met teks in Python. Vervang velde met
 type: docs
 weight: 37
 url: /af/python-net/replace-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Vervanging van velde word dikwels vereis wanneer jy jou dokument as'n statiese kopie wil stoor. Byvoorbeeld, wanneer jy as'n aanhangsel in'n e-pos stuur. Deur velde soos `DATE` of `TIME` na statiese teks om te skakel, kan die dokument dieselfde datum vertoon as toe dit gestuur is. In sommige situasies moet u moontlik ook die voorwaardelike `IF` - velde uit u dokument verwyder en dit vervang met die mees onlangse teksresultaat. Byvoorbeeld, die omskakeling van die resultaat van die `IF` veld na statiese teks sodat dit nie meer dinamies sy waarde sal verander wanneer velde in die dokument opgedateer word nie.

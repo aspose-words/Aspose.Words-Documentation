@@ -1,4 +1,4 @@
-﻿---
+---
 title: Kenmerke
 second_title: Aspose.Words vir .NET
 articleTitle: Ondersteunde Funksies
@@ -7,6 +7,7 @@ description: "Aspose.Words vir .NET bied gebruikers'n wye verskeidenheid funksie
 type: docs
 weight: 40
 url: /af/net/features/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words bied gebruikers'n wye verskeidenheid funksies. Gebruikers kan'n groot hoeveelheid dokumentverwante take uitvoer-van bloot die omskakeling van dokumente van een ondersteunde formaat na'n ander en die wysiging van daardie dokumente tydens die omskakelingsproses na besigheidstake, soos die skep van gestruktureerde en visueel aantreklike dokumente of die outomatisering van verslagdoening.

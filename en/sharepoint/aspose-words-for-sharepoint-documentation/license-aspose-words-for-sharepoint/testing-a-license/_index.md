@@ -1,4 +1,4 @@
-﻿---
+---
 title: Testing a License
 second_title: Aspose.Words for SharePoint
 articleTitle: Testing a License
@@ -7,6 +7,7 @@ description: "How to check Aspose.Words for SharePoint license."
 type: docs
 weight: 20
 url: /sharepoint/testing-a-license/
+timestamp: 2024-01-27-14-07-04
 ---
 
 To test that a license has been installed correctly, convert any document into desired format. If the document contains no watermark at the top, the license was activated successfully.

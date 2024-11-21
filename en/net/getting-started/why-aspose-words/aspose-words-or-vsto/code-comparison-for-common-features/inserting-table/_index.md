@@ -7,6 +7,7 @@ description: "Insert a table into a document and modify it easily and fast inste
 type: docs
 weight: 80
 url: /net/inserting-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## VSTO

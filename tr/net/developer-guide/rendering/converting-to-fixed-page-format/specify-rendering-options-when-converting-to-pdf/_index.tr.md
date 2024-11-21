@@ -7,6 +7,7 @@ description: "C#'yi kullanarak gelişmiş seçeneklerle bir belgeyi PDF'ye dön�
 type: docs
 weight: 20
 url: /tr/net/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
 PDF formatı, kullanıcılar arasında çok popüler olan ve çeşitli uygulamalar tarafından yaygın olarak desteklenen sabit sayfalı bir formattır, çünkü PDF belgesi her cihazda aynı görünür. Bu nedenle PDF'ye dönüştürmek Aspose.Words'in önemli bir özelliğidir.

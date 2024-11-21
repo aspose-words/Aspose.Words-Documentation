@@ -1,4 +1,4 @@
-﻿---
+---
 title: Font FallBack Instellings van XML in C++
 second_title: Aspose.Words vir C++
 articleTitle: Font FallBack Instellings van XML
@@ -7,6 +7,7 @@ description: "Die Lettertipe terugval meganisme word gebruik wanneer die lettert
 type: docs
 weight: 14
 url: /af/cpp/font-fallback-settings-from-xml/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Daar is twee verskillende meganismes wat gebruik word in Aspose.Words - Lettertipe vervanging en Lettertipe terugval. Lettertipe vervanging word gebruik wanneer die lettertipe wat in die dokument gespesifiseer is nie onder die lettertipe bronne gevind kon word soos dit in die bogenoemde afdelings beskryf is nie. Die Lettertipe terugval meganisme word gebruik wanneer die lettertipe opgelos word, maar dit bevat nie'n spesifieke karakter nie. In hierdie geval, Aspose.Words probeer om een van die terugval lettertipes vir die karakter te gebruik.

@@ -8,6 +8,7 @@ description: "C# を使用して、サポートされているロード形式の
 keywords: how to convert a document to markdown c#
 weight: 40
 url: /ja/net/convert-a-document-to-markdown/
+timestamp: 2024-07-10-08-10-45
 ---
 
 Markdown は、テキストをマークアップし、さらに HTML、PDF、DOCX、またはその他の形式に変換するために使用される一般的な形式です。多くの開発者は、ドキュメントの作成、ブログで公開する記事の準備、プロジェクトの説明などにこの形式を選択します。

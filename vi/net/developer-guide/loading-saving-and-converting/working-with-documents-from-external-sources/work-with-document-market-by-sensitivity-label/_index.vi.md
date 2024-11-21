@@ -7,6 +7,7 @@ description: "Chuyển đổi Word có nhãn nhạy cảm được áp dụng sa
 type: docs
 weight: 30
 url: /vi/net/work-with-document-market-by-sensitivity-label/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Nhãn nhạy cảm từ Microsoft Purview Information Protection cho phép bạn phân loại và bảo vệ dữ liệu của tổ chức mình, đồng thời đảm bảo rằng năng suất của người dùng và khả năng cộng tác của họ không bị cản trở. Sau khi nhãn nhạy cảm được áp dụng cho tài liệu, mọi cài đặt bảo vệ được định cấu hình cho nhãn đó sẽ được thực thi trên nội dung.

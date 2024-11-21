@@ -7,6 +7,7 @@ type: docs
 description: "Încarcă resursele de la distanță care pot fi o cauză pentru riscuri de securitate. Aruncă o privire asupra problemelor de securitate comun și soluții lor folosind C#."
 weight: 100
 url: /ro/net/web-applications-security-when-loading-external-resources/
+timestamp: 2024-01-27-14-07-04
 ---
 
 În mod implicit, Aspose.Words pentru .NET poate încărca resurse externe, cum ar fi imagini, stiluri CSS sau documente HTML externe atunci când importă documente sau inserează imagini folosind DocumentBuilder. Acest comportament îți permite să procesezi documentele în toate detaliile dar poate fi o cauză de unele riscuri de securitate dacă biblioteca face parte dintr-o aplicație web.

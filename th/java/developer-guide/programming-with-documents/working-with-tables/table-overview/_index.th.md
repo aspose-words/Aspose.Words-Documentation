@@ -7,6 +7,7 @@ description: "ทํางานกับตารางและส่วนป
 type: docs
 weight: 10
 url: /th/java/table-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words เป็นไลบรารีคลาสที่ออกแบบสําหรับการประมวลผลเอกสารในรูปแบบต่าง ๆ – PDF, HTML, ที่แตกต่างกัน Microsoft Word รูปแบบและอื่น ๆ - และรองรับตารางในรูปแบบต่อไปนี้:

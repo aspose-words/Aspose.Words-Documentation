@@ -7,6 +7,7 @@ description: "Batasi pengeditan dokumen dengan mengatur jenis pembatasan menggun
 type: docs
 weight: 30
 url: /id/python-net/restrict-document-editing/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Terkadang Anda mungkin perlu membatasi kemampuan untuk mengedit dokumen dan hanya mengizinkan tindakan tertentu dengannya. Hal ini berguna untuk mencegah orang lain mengedit informasi sensitif dan rahasia di dokumen Anda.

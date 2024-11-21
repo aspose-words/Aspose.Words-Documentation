@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Dokument Eienskappe in Java
 second_title: Aspose.Words vir Java
 articleTitle: Werk Met Dokumenteienskappe
@@ -7,6 +7,7 @@ description: "Aspose.Words vir Java laat die stoor van'n paar nuttige inligting 
 type: docs
 weight: 10
 url: /af/java/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Dokument eienskappe toelaat stoor'n paar nuttige inligting oor jou dokument. Hierdie eienskappe kan in twee groepe verdeel word:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: کار با استایل ها در C++
 second_title: Aspose.Words برای C++
 articleTitle: کار با استایل ها
@@ -7,6 +7,7 @@ description: "ویژگی های قالب بندی پیشرفته Microsoft Word�
 type: docs
 weight: 110
 url: /fa/cpp/working-with-styles-and-themes/
+timestamp: 2024-01-30-16-22-34
 ---
 
 کلاس [StyleCollection](https://reference.aspose.com/words/cpp/aspose.words/stylecollection/) برای مدیریت تنظیمات داخلی و اعمال تنظیمات تعریف شده توسط کاربر به سبک ها استفاده می شود.

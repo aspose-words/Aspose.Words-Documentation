@@ -7,6 +7,7 @@ description: "Aspose.Words 'daki Aralık özelliğine Giriş` için ` Java '."
 type: docs
 weight: 130
 url: /tr/java/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

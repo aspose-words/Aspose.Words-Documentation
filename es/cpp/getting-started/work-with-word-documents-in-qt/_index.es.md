@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trabajar con Documentos de Word en Qt
 second_title: Aspose.Words para C++
 articleTitle: Trabajar con Documentos de Word en Qt
@@ -8,6 +8,7 @@ description: "Aspose.Words para C++ se puede integrar dentro de Qt para crear y 
 keywords: "create a document Qt Creator, load a document Qt Creator, use Aspose C++ with Qt creator, load a document Aspose C++, load formats supported by Aspose.Words C++"
 weight: 120
 url: /es/cpp/work-with-word-documents-in-qt/
+timestamp: 2024-07-11-16-13-28
 ---
 
 Qt es un marco de desarrollo de aplicaciones multiplataforma basado en C++ que se usa ampliamente para desarrollar una variedad de aplicaciones de escritorio, móviles y de sistemas integrados. Aspose.Words para C++ se puede integrar dentro de Qt para crear y manipular documentos de Word en sus aplicaciones Qt.

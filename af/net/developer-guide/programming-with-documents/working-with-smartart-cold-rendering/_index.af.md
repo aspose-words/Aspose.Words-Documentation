@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk met SmartArt Koue Weergawe in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Werk met SmartArt Koue Weergawe
@@ -8,6 +8,7 @@ type: docs
 description: "Aspose.Words vir .NET voer SmartArt Koue Weergawe uit, wat beteken dat dit SmartArt voorwerpe uitlê en weergee as die vooraf gerenderde SmartArt tekening ontbreek of verkeerd is met behulp van C#."
 weight: 330
 url: /af/net/working-with-smartart-cold-rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 SmartArt grafika word gebruik om vinnig en maklik'n visuele voorstelling van inligting te skep. U kies eenvoudig uit'n groot aantal uitlegte wat die beste by u situasie pas. Hierdie gebruiksgemak maak SmartArt grafika baie gewild vir sommige doeleindes.

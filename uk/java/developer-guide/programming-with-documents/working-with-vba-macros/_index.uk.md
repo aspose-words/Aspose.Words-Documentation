@@ -7,6 +7,7 @@ description: "Робота з документами VBA Javaй"
 type: docs
 weight: 410
 url: /uk/java/working-with-vba-macros/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Visual Basic для додатків (VBA) Microsoft Word - проста, але потужна мова програмування, яка може бути використана для розширення функціональності. Aspose.Words API надає три класи для доступу до коду VBA:

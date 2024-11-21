@@ -7,6 +7,7 @@ description: "Cara menambahkan hyperlink ke dokumen Anda di C# menggunakan Aspos
 type: docs
 weight: 50
 url: /id/net/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Hyperlink dalam dokumen Microsoft Word adalah bidang `HYPERLINK`. Dalam Aspose.Words, hyperlink diimplementasikan melalui kelas [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/).

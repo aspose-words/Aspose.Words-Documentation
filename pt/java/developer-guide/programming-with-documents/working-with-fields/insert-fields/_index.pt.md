@@ -7,6 +7,7 @@ description: "Diferentes maneiras de inserir campos em seu documento usando Java
 type: docs
 weight: 20
 url: /pt/java/insert-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Existem várias maneiras diferentes de inserir campos em um documento:

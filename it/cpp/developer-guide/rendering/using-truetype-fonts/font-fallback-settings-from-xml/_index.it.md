@@ -1,4 +1,4 @@
-﻿---
+---
 title: Impostazioni carattere FallBack da XML in C++
 second_title: Aspose.Words per C++
 articleTitle: Impostazioni carattere FallBack da XML
@@ -7,6 +7,7 @@ description: "Il meccanismo di fallback del font viene utilizzato quando il font
 type: docs
 weight: 14
 url: /it/cpp/font-fallback-settings-from-xml/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Esistono due diversi meccanismi utilizzati in Aspose.Words: la sostituzione del font e il fallback del font. La sostituzione del font viene utilizzata quando il font specificato nel documento non è stato trovato tra le fonti del font come descritto nelle sezioni precedenti. Il meccanismo di fallback del font viene utilizzato quando il font viene risolto, ma non contiene un carattere specifico. In questo caso, Aspose.Words tenta di utilizzare uno dei font di riserva per il carattere.

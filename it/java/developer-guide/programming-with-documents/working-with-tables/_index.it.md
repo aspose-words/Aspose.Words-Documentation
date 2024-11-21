@@ -7,6 +7,7 @@ description: "Come lavorare con i tavoli in Java. Introduzione ai concetti dei n
 type: docs
 weight: 190
 url: /it/java/working-with-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A **tavolo** in un documento è un ottimo modo per strutturare dati simili. Ecco perché le tabelle sono un elemento di formattazione dei contenuti comune e sono supportate dalla maggior parte dei formati in una forma o nell'altra.

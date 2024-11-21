@@ -7,6 +7,7 @@ description: "Contrôlez plus précisément le processus de chargement à l'aide
 type: docs
 weight: 10
 url: /fr/net/specify-load-options/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Lors du chargement d'un document, vous pouvez définir certaines propriétés avancées. Aspose.Words vous fournit la classe [LoadOptions](https://reference.aspose.com/words/fr/net/aspose.words.loading/loadoptions/), qui permet un contrôle plus précis du processus de chargement. Certains formats de chargement ont une classe correspondante qui contient les options de chargement pour ce format de chargement, par exemple, il existe [PdfLoadOptions](https://reference.aspose.com/words/fr/net/aspose.words.loading/pdfloadoptions/) pour le chargement au format PDF ou [TxtLoadOptions](https://reference.aspose.com/words/fr/net/aspose.words.loading/txtloadoptions/) pour le chargement au format TXT. Cet article fournit des exemples d'utilisation des options de la classe **LoadOptions**.

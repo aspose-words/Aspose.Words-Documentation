@@ -7,6 +7,7 @@ description: "Увійти Aspose.Words для .NET використання Vis
 type: docs
 weight: 10
 url: /uk/net/installation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Переконайтеся, що ваша машина відповідає [Вимоги до системи](/words/uk/net/system-requirements/) перед початком.

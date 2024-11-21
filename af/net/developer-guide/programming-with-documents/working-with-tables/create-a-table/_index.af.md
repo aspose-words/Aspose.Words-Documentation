@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hoe Om'n Tabel in C#Te Skep
 second_title: Aspose.Words vir .NET
 articleTitle: Skep'n Tabel
@@ -7,6 +7,7 @@ description: "'n gids oor hoe om'n tabel in C# op verskillende maniere te maak. 
 type: docs
 weight: 20
 url: /af/net/create-a-table/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words laat gebruikers toe om tabelle in'n dokument van nuuts af te skep en bied verskeie verskillende metodes om dit te doen. Hierdie artikel bied besonderhede oor hoe om geformateerde tabelle by u dokument te voeg deur elke metode te gebruik, asook'n vergelyking van elke metode aan die einde van die artikel.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Skakel'n Dokument om na'n Prent in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Skakel'n Dokument om Na'n Beeldlêer
@@ -7,6 +7,7 @@ type: docs
 description: "Skakel'n dokument om na beeldformaat (JPG, PNG, ens.). Skep'n dokumentvoorskou of skep'n dokumentskandering om'n faktuur te stuur met C#."
 weight: 43
 url: /af/net/convert-a-document-to-an-image/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Soms is dit nodig om'n beeld te kry in plaas van dokumente in ander formate, soos DOCX of PDF. Byvoorbeeld, jy moet'n voorskou van enige dokumentbladsy by jou webwerf of toepassing voeg, of'n "skandering" van'n dokument skep om'n faktuur te stuur. Dit is wanneer jy dalk'n dokument in enige [supported load format](https://reference.aspose.com/words/net/aspose.words/loadformat/) moet omskep in'n prent, weer, in enige [supported save format](https://reference.aspose.com/words/net/aspose.words/saveformat/).

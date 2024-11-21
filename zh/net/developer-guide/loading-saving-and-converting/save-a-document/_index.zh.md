@@ -8,6 +8,7 @@ description: "使用 C# 以任何支持的格式保存文档。"
 keywords: "save a document c#, save a document to file c#, save a document to stream c#, save a document Aspose .NET, save formats supported by Aspose.Words .NET"
 weight: 20
 url: /zh/net/save-a-document/
+timestamp: 2024-07-09-19-00-42
 ---
 
 您需要使用 Aspose.Words 执行的大多数任务都涉及保存文档。 Aspose.Words提供了[Document](https://reference.aspose.com/words/zh/net/aspose.words/document/)类的[Save](https://reference.aspose.com/words/zh/net/aspose.words/document/save/)方法来保存文档。有一些重载允许将文档保存到文件、流或 ASP.NET HttpResponse 对象以发送到客户端浏览器。文档可以保存为 Aspose.Words 支持的任何保存格式。有关所有支持的保存格式的列表，请参阅 [SaveFormat](https://reference.aspose.com/words/zh/net/aspose.words/saveformat/) 枚举。

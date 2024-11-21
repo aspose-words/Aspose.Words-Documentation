@@ -1,4 +1,4 @@
-﻿---
+---
 title: ปรับแต่งผลิตภัณฑ์ในโครงการCMake
 second_title: Aspose.WordsสำหรับC++
 articleTitle: กำหนดค่า Aspose.WordsสำหรับC++ ในCMakeโครงการ
@@ -7,6 +7,7 @@ description: "กำหนดค่า Aspose.WordsสำหรับC++ ในC
 type: docs
 weight: 90
 url: /th/cpp/configure-aspose-words-for-cpp-in-cmake-project/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Aspose.WordsสำหรับC++ APIทำงานร่วมกับCMakeสำหรับระบบปฏิบัติการใดๆGNU/Linux มันสามารถ [ดาวน์โหลดจากเว็บไซต์อย่างเป็นทางการ](https://cmake.org/download/).

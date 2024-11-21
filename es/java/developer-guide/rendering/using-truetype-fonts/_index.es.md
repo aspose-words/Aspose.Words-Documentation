@@ -7,6 +7,7 @@ description: "Cómo encontrar la fuente correcta o su reemplazo adecuado, si no 
 type: docs
 weight: 20
 url: /es/java/using-truetype-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Al trabajar con documentos, a menudo tiene que utilizar diferentes fuentes, estilos y tamaños. Los documentos pueden contener cualquier número de fuentes, que no se limitan necesariamente a las fuentes que se instalan en el sistema operativo. Las fuentes pueden ser completamente diferentes, como las fuentes tomadas de otros sistemas operativos, adquiridas o creadas por los propios usuarios.

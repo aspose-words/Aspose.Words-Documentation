@@ -1,4 +1,4 @@
-﻿---
+---
 title: Extend and Contribute to CRM Duplicate Detection
 second_title: Aspose.Words for .NET
 articleTitle: Extend and Contribute to CRM Duplicate Detection
@@ -7,6 +7,7 @@ description: "How to defined a custom workflow using Aspose.Words to detect dupl
 type: docs
 weight: 10
 url: /net/extend-and-contribute-to-crm-duplicate-detection/
+timestamp: 2024-10-24-11-44-28
 ---
 
 You can download the latest source code at:

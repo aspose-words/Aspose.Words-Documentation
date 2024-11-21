@@ -7,6 +7,7 @@ description: "以 C# 的進階選項將文件轉換為 PDF。 將 DOCX 表單轉
 type: docs
 weight: 20
 url: /zh-hant/net/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
 PDF 格式是一個固定頁面的格式，在使用者之間非常流行，且各種應用程式也廣泛支援它，因為 PDF 文檔在各設備上看起來都是一樣的。 為此，將檔案轉換為PDF檔是Aspose.Words的重要功能。

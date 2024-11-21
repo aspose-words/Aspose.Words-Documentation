@@ -7,6 +7,7 @@ description: "Sitemap Microsoft Word fitur format, bekerja dengan gaya dan tema 
 type: docs
 weight: 110
 url: /id/java/working-with-styles-and-themes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Login [StyleCollection](https://reference.aspose.com/words/java/com.aspose.words/stylecollection/) kelas digunakan untuk mengelola pengaturan yang telah ditentukan pengguna untuk gaya.

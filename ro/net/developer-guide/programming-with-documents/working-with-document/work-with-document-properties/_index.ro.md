@@ -7,6 +7,7 @@ description: "Aspose.Words pentru .NET permite stocarea unor informații utile d
 type: docs
 weight: 10
 url: /ro/net/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Proprietățile documentului permit stocarea unor informații utile despre documentul dumneavoastră. Aceste proprietăți pot fi împărțite în două grupuri:

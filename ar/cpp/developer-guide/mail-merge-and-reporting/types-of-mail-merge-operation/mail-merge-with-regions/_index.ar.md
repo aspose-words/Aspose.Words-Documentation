@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge مع المناطق في C++
 second_title: Aspose.Words ل C++
 articleTitle: Mail Merge مع المناطق
@@ -8,6 +8,7 @@ description: "قم بإنشاء مناطق مختلفة في القالب الخ
 keywords: "how to execute mail merge c++"
 weight: 20
 url: /ar/cpp/mail-merge-with-regions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 يمكنك إنشاء مناطق مختلفة في القالب الخاص بك للحصول على مناطق خاصة يمكنك ببساطة ملؤها ببياناتك. استخدام mail merge مع المناطق إذا كنت ترغب في إدراج الجداول والصفوف مع تكرار البيانات لجعل المستندات الخاصة بك تنمو بشكل حيوي عن طريق تحديد تلك المناطق داخل القالب.

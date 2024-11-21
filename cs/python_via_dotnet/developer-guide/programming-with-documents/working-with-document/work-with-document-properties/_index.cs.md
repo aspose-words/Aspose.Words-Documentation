@@ -7,6 +7,7 @@ description: "Aspose.Words místo Python umožňuje ukládat některé užitečn
 type: docs
 weight: 10
 url: /cs/python-net/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Vlastnosti dokumentu umožňují uložení některých užitečných informací o vašem dokumentu. Tyto vlastnosti lze rozdělit do dvou skupin:

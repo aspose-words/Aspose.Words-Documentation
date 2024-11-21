@@ -7,6 +7,7 @@ description: "Làm việc với các phần của bảng – hàng, cột và ô
 type: docs
 weight: 30
 url: /vi/net/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Để kiểm soát nhiều hơn cách hoạt động của bảng, hãy tìm hiểu cách thao tác với cột và hàng.

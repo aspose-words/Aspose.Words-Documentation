@@ -7,6 +7,7 @@ type: docs
 description: "Integrasikan fungsionalitas Aspose.Words ke dalam aplikasi Anda menggunakan Docker, apa pun teknologi yang ada dalam tumpukan pengembangan Anda. Pelajari cara menggunakan Aspose .Words dalam kontainer Docker dalam C#."
 weight: 120
 url: /id/net/how-to-run-aspose-words-in-docker/
+timestamp: 2024-08-19-11-05-36
 ---
 
 Layanan mikro, bersama dengan containerisasi, memungkinkan penggabungan teknologi dengan mudah. Docker memungkinkan Anda dengan mudah mengintegrasikan fungsionalitas Aspose.Words ke dalam aplikasi Anda, apa pun teknologi yang ada dalam tumpukan pengembangan Anda.

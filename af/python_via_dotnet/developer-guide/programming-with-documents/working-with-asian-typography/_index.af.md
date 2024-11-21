@@ -1,4 +1,4 @@
-﻿---
+---
 title: Asiatiese Tipografie in Python
 second_title: Aspose.Words vir Python
 articleTitle: Werk Met Asiatiese Tipografie
@@ -7,6 +7,7 @@ description: "Werk Met Asiatiese tipografie met Python. Pas Spasie tussen Asiati
 type: docs
 weight: 240
 url: /af/python-net/working-with-asian-typography/
+timestamp: 2024-02-01-16-17-05
 ---
 
 Asiatiese Tipografie is'n stel opsies vir teks paragrawe in dokumente geskryf in Asiatiese tale.

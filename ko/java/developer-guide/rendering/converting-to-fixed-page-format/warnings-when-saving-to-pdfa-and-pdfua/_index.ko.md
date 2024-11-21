@@ -7,6 +7,7 @@ description: "PDF/A 및 PDF/UA는 문서 내용과 관련된 접근성을 부과
 type: docs
 weight: 29
 url: /ko/java/warnings-when-saving-to-pdfa-and-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 PDF/A 및 PDF/UA 형식은 Word에서 PDF로 자동 변환 중에 수행 할 수없는 문서 내용과 관련된 액세스 가능성 요구 사항을 부과합니다. 이 요구 사항은 이전 문서에서 설명됩니다 *"PDF/A 또는 PDF/UA"* 작업. 이제 경고는 이러한 문제의 일부를 위해 발행됩니다.

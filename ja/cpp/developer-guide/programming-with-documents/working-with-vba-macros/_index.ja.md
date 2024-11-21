@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++でのVBAマクロの操作
 second_title: C++の場合Aspose.Words
 articleTitle: VBAマクロの操作
@@ -7,6 +7,7 @@ description: "C++を使用したドキュメントVBAプロジェクトの操作
 type: docs
 weight: 410
 url: /ja/cpp/working-with-vba-macros/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Visual Basic For Applications(VBA)forMicrosoft Wordは、機能を拡張するために使用できるシンプルで強力なプログラミング言語です。 Aspose.WordsAPIには、VBAプロジェクトのソースコードにアクセスするための3つのクラスが用意されています:

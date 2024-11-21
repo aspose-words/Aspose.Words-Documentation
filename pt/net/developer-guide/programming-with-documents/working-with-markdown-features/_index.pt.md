@@ -7,6 +7,7 @@ description: "Como implementar recursos Markdown usando C#. Todos os recursos s�
 type: docs
 weight: 420
 url: /pt/net/working-with-markdown-features/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Este tópico discute como implementar recursos Markdown usando Aspose.Words. Markdown é uma maneira simples de formatar texto simples que pode ser facilmente convertido em HTML. Aspose.Words oferece suporte aos seguintes recursos Markdown:

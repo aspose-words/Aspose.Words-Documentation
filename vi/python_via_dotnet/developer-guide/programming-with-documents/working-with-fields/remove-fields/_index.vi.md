@@ -7,6 +7,7 @@ description: "Tìm hiểu cách xóa các trường trong Python. Xóa các trư
 type: docs
 weight: 35
 url: /vi/python-net/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Đôi khi cần phải xóa một trường khỏi tài liệu. Điều này có thể xảy ra khi nó được thay thế bằng một loại trường khác hoặc khi trường này không còn cần thiết trong tài liệu nữa. Ví dụ: trường `TOC` khi lưu vào HTML.

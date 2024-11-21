@@ -7,6 +7,7 @@ type: docs
 description: "Compare two documents in any supported formats and shows content changes. يمكنك تطبيق خيارات متطورة عند مقارنة استخدام Java."
 weight: 60
 url: /ar/java/compare-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ومقارنة الوثائق عملية تحدد التغييرات بين وثيقتين وتتضمن التغييرات كتنقيحات. وتقارن هذه العملية أي وثيقتين، بما في ذلك نسخ من وثيقة واحدة محددة، ثم تظهر التغييرات بين الوثيقتين على أنها تنقيحات في الوثيقة الأولى.

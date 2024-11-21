@@ -7,6 +7,7 @@ type: docs
 weight: 10
 url: /zh/java/create-or-load-a-document/
 description: "Aspose.Words 允许您创建空白文档,或者使用 Java。 。 。 。"
+timestamp: 2024-01-27-14-07-04
 ---
 
 几乎任何您想要完成的任务 Aspose.Words 涉及装入文档。 那个 `Document` 类代表装入内存的文档。 文档有多个超载的构造器允许您创建空白文档或者从文件或流中加载. 文档可以任意加载格式加载 Aspose.Words。 。 。 。 所有支持的负载格式列表见 [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) 计数.

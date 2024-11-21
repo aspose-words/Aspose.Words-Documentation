@@ -7,6 +7,7 @@ description: "Введение в функцию Chart, как создават�
 type: docs
 weight: 310
 url: /ru/java/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Новый [insertChart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertChart-int-double-double) Метод был добавлен в [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) класс. Итак, давайте посмотрим, как вставить простую таблицу столбцов в документ с помощью **вставить Чарт** метод.

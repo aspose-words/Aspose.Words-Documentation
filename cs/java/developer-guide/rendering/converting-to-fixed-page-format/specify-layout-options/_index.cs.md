@@ -7,6 +7,7 @@ description: "Vytvořit výstupní dokumenty s různými rozloženími v závisl
 type: docs
 weight: 10
 url: /cs/java/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words umožňuje vytvářet výstupní dokumenty s různými rozvrženími, v závislosti na parametrech uvedených v [LayoutOptions](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/) majetek **Document**. Tato vlastnost připomíná některé z Microsoft Word možnosti uživatelského rozhraní popsané v tomto článku.

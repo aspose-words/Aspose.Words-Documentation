@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words or Docx4j
 second_title: Aspose.Words for Java
 articleTitle: Aspose.Words or Docx4j
@@ -7,6 +7,7 @@ description: "Perform a large number of tasks with documents faster and more con
 type: docs
 weight: 25
 url: /java/aspose-words-java-for-docx4j/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Sometimes we get the following question: why should we use Aspose products rather than the docx4j? This question is easy to answer: features and functionality.

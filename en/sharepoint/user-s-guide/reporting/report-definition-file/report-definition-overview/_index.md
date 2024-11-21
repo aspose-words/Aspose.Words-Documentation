@@ -1,4 +1,4 @@
-﻿---
+---
 title: Report Definition Overview
 second_title: Aspose.Words for SharePoint
 articleTitle: Report Definition Overview
@@ -7,6 +7,7 @@ description: "Report definition file meaning, it's structure and how to work wit
 type: docs
 weight: 10
 url: /sharepoint/report-definition-overview/
+timestamp: 2024-09-25-11-08-55
 ---
 
 The report definition file is an XML file that describes details about the report that the report template does not cover: it defines everything except the visual report layout. This includes:

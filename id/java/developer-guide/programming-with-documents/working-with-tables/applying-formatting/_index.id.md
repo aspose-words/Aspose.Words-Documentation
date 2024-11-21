@@ -7,6 +7,7 @@ description: "Tabel format dalam rincian. Sitemap Java untuk memformat setiap ba
 type: docs
 weight: 70
 url: /id/java/applying-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Setiap elemen tabel dapat diterapkan dengan format yang berbeda. Misalnya, format tabel akan diterapkan pada seluruh tabel, format baris untuk hanya baris tertentu, format sel hanya untuk sel-sel tertentu.

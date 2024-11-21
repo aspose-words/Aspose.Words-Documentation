@@ -1,4 +1,4 @@
-﻿---
+---
 title: Làm việc với TextBoxes trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Làm việc với TextBoxes
@@ -7,6 +7,7 @@ description: "Giới thiệu về tính năng hộp văn bản được liên k�
 type: docs
 weight: 250
 url: /vi/cpp/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Trong Aspose.Words, lớp [TextBox](https://reference.aspose.com/words/cpp/aspose.words.drawing/textbox/) được sử dụng để chỉ định cách văn bản được hiển thị bên trong một hình dạng. Nó hiển thị một thuộc tính công khai có tên **Parent** để có được hình dạng cha mẹ cho hộp văn bản để khách hàng có thể tìm thấy [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/) được liên kết từ **TextBox** được liên kết.

@@ -7,6 +7,7 @@ description: "Criar e modificar a incorporação OLE em seu documento usando Jav
 type: docs
 weight: 360
 url: /pt/java/working-with-ole-objects/
+timestamp: 2024-01-27-14-07-04
 ---
 
 OLE significa "Object Linking and Embedding". Esta é a tecnologia pela qual os usuários podem trabalhar com documentos contendo "objetos" criados ou editados por aplicativos de terceiros. Ou seja, a OLE permite que um aplicativo exporte esses "objetos" para outro aplicativo para edição e, em seguida, importá-los de volta com algum conteúdo adicional.

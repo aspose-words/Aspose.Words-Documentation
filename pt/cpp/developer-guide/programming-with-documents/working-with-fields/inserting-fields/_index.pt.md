@@ -1,4 +1,4 @@
-﻿---
+---
 title: Inserir Campos em C++
 second_title: Aspose.Words para C++
 articleTitle: Inserir Campos
@@ -7,6 +7,7 @@ description: "Diferentes maneiras de inserir campos em seu documento usando C++.
 type: docs
 weight: 20
 url: /pt/cpp/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Existem várias maneiras diferentes de inserir campos em um documento:

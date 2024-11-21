@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge 지역과 함께 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: Mail Merge 지역
@@ -8,6 +8,7 @@ description: "템플릿에 다른 영역을 만들어 데이터로 간단히 채
 keywords: "how to execute mail merge c++"
 weight: 20
 url: /ko/cpp/mail-merge-with-regions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 템플릿에서 다른 영역을 만들어 데이터로 간단히 채울 수 있는 특수 영역을 만들 수 있습니다. 사용 mail merge 영역 사용 테이블,반복 데이터가 있는 행을 삽입하여 템플릿 내에서 해당 영역을 지정하여 문서를 동적으로 확장할 수 있습니다.

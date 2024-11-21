@@ -7,6 +7,7 @@ description: "Creare documenti di output con vari layout, a seconda dei parametr
 type: docs
 weight: 10
 url: /it/java/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words consente di creare documenti di uscita con vari layout, a seconda dei parametri specificati nel [LayoutOptions](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/) proprietà della **Document**. Questa proprietà assomiglia ad alcuni dei Microsoft Word opzioni di menu di interfaccia utente descritte in questo articolo.

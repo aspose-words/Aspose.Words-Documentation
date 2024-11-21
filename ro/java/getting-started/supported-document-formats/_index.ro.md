@@ -1,4 +1,4 @@
-﻿---
+---
 title: Formate De Documente Acceptate
 second_title: Aspose.Words pentru Java
 articleTitle: Formate De Documente Acceptate
@@ -7,6 +7,7 @@ type: docs
 description: "Editați documentele sursă în multe formate populare, precum și convertiți liber fișiere dintr-un format în altul folosind Java."
 weight: 30
 url: /ro/java/supported-document-formats/
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

@@ -7,6 +7,7 @@ description: "使用 Python 在文档中创建和管理 OfficeMath 类型对象�
 type: docs
 weight: 320
 url: /zh/python-net/working-with-officemath/
+timestamp: 2024-01-27-14-07-04
 ---
 
 现在使用 OfficeMath 类型对象更加方便。在 Aspose.Words 中，客户可以轻松地进行 Justify，还可以管理方程是内联显示还是单独行显示。更重要的是，随着 [MathObjectType](https://reference.aspose.com/words/python-net/aspose.words.math/mathobjecttype/) 的可用性；可以通过使用此矩阵对象来实现有用的控件。

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Introducerea câmpurilor în Python
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Introduceți Câmpuri
@@ -7,6 +7,7 @@ description: "Introduceți câmpuri într-un document în Python în moduri dife
 type: docs
 weight: 20
 url: /ro/python-net/inserting-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Există mai multe moduri diferite de a insera câmpuri într-un document:

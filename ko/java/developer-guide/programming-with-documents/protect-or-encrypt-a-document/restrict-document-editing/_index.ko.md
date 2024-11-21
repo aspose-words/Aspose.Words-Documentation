@@ -7,6 +7,7 @@ description: "제한 유형 설정으로 문서를 편집합니다. 당신은 �
 type: docs
 weight: 30
 url: /ko/java/restrict-document-editing/
+timestamp: 2024-01-27-14-07-04
 ---
 
 때로는 문서를 편집 할 수있는 능력을 제한 할 수 있으며 특정 작업을 할 수 있습니다. 이 문서의 민감한 정보와 기밀 정보를 편집하여 다른 사람들을 막을 수 있습니다.

@@ -7,6 +7,7 @@ description: "ניהול תוכן מתקדם מסמך, כיצד ליצור ול�
 type: docs
 weight: 390
 url: /he/net/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
 In In In Microsoft Word, אתה יכול ליצור טופס על ידי החל עם תבנית והוספת בקרת תוכן, כולל Checkboxes, תיבות טקסט, בוחרים תאריך ורשימות ירידה. In In In <span notrans="<span notrans=" Aspose.Words"=""></span>" מסמך מובנה או בקרת תוכן מכל מסמך טעון לתוך Aspose.Words הוא מיובא כצומת מובנה. תגי מסמך ממובנים (SDT או בקרת תוכן) מאפשרים להטמיע סמנטיקה מוגדרת של הלקוח, כמו גם התנהגותו והופעתו במסמך.

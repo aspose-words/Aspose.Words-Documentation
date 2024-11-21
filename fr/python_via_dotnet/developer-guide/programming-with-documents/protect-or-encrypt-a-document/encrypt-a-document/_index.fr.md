@@ -7,6 +7,7 @@ description: "Chiffrez votre document à l'aide d'algorithmes de chiffrement app
 type: docs
 weight: 20
 url: /fr/python-net/encrypt-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Le cryptage est le processus qui traduit un texte lisible en séquences d'octets dénuées de sens afin qu'il ne puisse être lu que par la personne qui possède la clé de déchiffrement ou le code secret. Ce processus joue un rôle important dans la sécurisation de votre contenu. Il permet d'encoder le contenu, de vérifier l'origine d'un document, de prouver que le contenu n'a pas été modifié après son envoi et de garantir la sécurité des données du document.

@@ -7,6 +7,7 @@ description: "Jak pracovat s poli v dokumentech používajících Python."
 type: docs
 weight: 370
 url: /cs/python-net/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 **Fields** v dokumentu jsou jako majitelé místa, kde lze vkládat užitečné údaje. Například pole může být odkaz na stránku, vzorec nebo mail merge pole.

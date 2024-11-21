@@ -7,6 +7,7 @@ description: "Formatez et évaluez le résultat des champs à l’aide de Python
 type: docs
 weight: 40
 url: /fr/python-net/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Parfois, les utilisateurs doivent appliquer une mise en forme personnalisée aux champs. Dans cet article, nous examinerons quelques exemples de la manière dont cela peut être réalisé.

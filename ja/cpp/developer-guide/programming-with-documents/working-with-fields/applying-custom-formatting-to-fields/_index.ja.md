@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++のフィールドにカスタム書式を適用する
 second_title: C++の場合Aspose.Words
 articleTitle: カスタム書式設定をフィールドに適用する
@@ -7,6 +7,7 @@ description: "C++を使用してフィールドの結果を書式設定し、評
 type: docs
 weight: 40
 url: /ja/cpp/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ユーザーがフィールドにカスタム書式を適用する必要がある場合があります。 この記事では、これをどのように行うことができるかの例をいくつか見ていきます。

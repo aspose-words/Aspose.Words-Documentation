@@ -1,4 +1,4 @@
-﻿---
+---
 title: 스타일 작업 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 스타일 작업
@@ -7,6 +7,7 @@ description: "향상된 Microsoft Word 서식 지정 기능,스타일 및 테마
 type: docs
 weight: 110
 url: /ko/cpp/working-with-styles-and-themes/
+timestamp: 2024-01-30-16-22-34
 ---
 
 그 [StyleCollection](https://reference.aspose.com/words/cpp/aspose.words/stylecollection/) 클래스는 기본 제공 관리 및 스타일에 사용자 정의 설정을 적용하는 데 사용됩니다.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Conversión a Formato de página fija en C++
 second_title: Aspose.Words para C++
 articleTitle: Conversión a Formato de página fija
@@ -7,6 +7,7 @@ description: "Guarde documentos en formatos PDF, XPS, HTML, XAML, PostScript y P
 type: docs
 weight: 10
 url: /es/cpp/converting-to-fixed-page-format/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Aspose.Words implementa su propio motor de diseño de página. Antes de profundizar en sus especificaciones, vale la pena discutir primero el documento a un alto nivel.

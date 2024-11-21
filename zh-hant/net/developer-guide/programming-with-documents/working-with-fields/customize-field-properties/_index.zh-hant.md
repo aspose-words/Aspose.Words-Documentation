@@ -7,6 +7,7 @@ description: "學會如何在 C# 中自訂欄位屬性。 重命名合併欄位�
 type: docs
 weight: 27
 url: /zh-hant/net/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words提供程式化與各種欄位屬性互動的能力。 在本文中，我們將看一些例子，讓您了解在與欄位屬性工作的基本原則。 你可以在 [Fields namespace](https://reference.aspose.com/words/net/aspose.words.fields/) 中的對應類別中找到每個欄位型的完整屬性清單。

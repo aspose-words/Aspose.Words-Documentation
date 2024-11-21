@@ -7,6 +7,7 @@ description: "Saiba como atualizar campos em Java. Atualizar campos programatica
 type: docs
 weight: 30
 url: /pt/java/update-field/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Tipicamente, um campo inserido Microsoft Word já contém um valor atualizado. Por exemplo, se o campo for uma fórmula ou um número de página, ele conterá o valor calculado correto para a versão dada do documento. Mas se você tem um aplicativo que gera ou modifica um documento com campos como a fusão de dois documentos ou a população com dados, então idealmente todos os campos devem ser atualizados para que o documento seja útil.

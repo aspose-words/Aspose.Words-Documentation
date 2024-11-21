@@ -7,6 +7,7 @@ type: docs
 description: ".NET 기본 사항에 대한 Aspose.Words 소개를 사용하여 비즈니스를 위한 Aspose.Words의 가치를 실현해 보세요."
 weight: 20
 url: /ko/net/getting-started/
+timestamp: 2024-09-25-11-08-55
 ---
 
 이 시작하기에서는 Aspose.Words 기본 사항을 소개합니다. Aspose.Words를 처음 접하는 사용자의 경우 이는 기본 요구 사항과 기능을 배울 수 있는 가장 빠른 방법입니다.

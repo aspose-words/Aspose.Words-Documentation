@@ -1,4 +1,4 @@
-﻿---
+---
 title: Quick Start in Jython
 second_title: Aspose.Words for Java
 articleTitle: Quick Start in Jython
@@ -7,6 +7,7 @@ description: "Jython: Quick Start Aspose.Words for Java."
 type: docs
 weight: 30
 url: /java/quick-start-in-jython/
+timestamp: 2024-01-27-14-07-04
 ---
 
 This section includes the following topics:

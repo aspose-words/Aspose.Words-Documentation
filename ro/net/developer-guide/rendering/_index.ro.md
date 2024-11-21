@@ -7,6 +7,7 @@ description: "Utilizați Aspose.Words pentru caracteristica de redare .NET pentr
 type: docs
 weight: 20
 url: /ro/net/rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Noi folosim termenul "redare" în Aspose.Words pentru a descrie procesul de transformare a unui document într-un format de fișier sau un mediu care este paginat sau are ideea de pagini. "Noi vorbim despre redarea unui document în pagini." Diagrama următoare arată ce redare este în Aspose.Words.

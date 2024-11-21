@@ -7,6 +7,7 @@ description: "고급 문서 콘텐츠 관리, C#를 사용하여 콘텐츠 컨�
 type: docs
 weight: 390
 url: /ko/net/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Microsoft Word에서는 템플릿으로 시작하고 확인란, 텍스트 상자, 날짜 선택기 및 드롭다운 목록을 포함한 콘텐츠 컨트롤을 추가하여 양식을 만들 수 있습니다. Aspose.Words에서는 Aspose.Words에 로드된 모든 문서의 구조화된 문서 태그 또는 콘텐츠 컨트롤을 StructuredDocumentTag 노드로 가져옵니다. 구조화된 문서 태그(SDT 또는 콘텐츠 제어)를 사용하면 고객이 정의한 의미뿐만 아니라 해당 동작 및 모양을 문서에 포함할 수 있습니다.

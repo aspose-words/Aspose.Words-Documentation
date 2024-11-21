@@ -7,6 +7,7 @@ description: "Python'i kullanarak bir belgede filigranlar oluşturun ve yönetin
 type: docs
 weight: 340
 url: /tr/python-net/working-with-watermark/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bu konu, Aspose.Words kullanarak filigranla programlı olarak nasıl çalışılacağını açıklamaktadır. Filigran, bir belgedeki metnin arkasında görüntülenen bir arka plan resmidir. Filigran, [Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/) sınıfı tarafından temsil edilen bir metin veya resim içerebilir.

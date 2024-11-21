@@ -7,6 +7,7 @@ type: docs
 description: "Encontrar un patrón de cadena o expresión regular en su documento y reemplazarlo con el texto que desea utilizar Java."
 weight: 100
 url: /es/java/find-and-replace/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Puede navegar fácilmente dentro de su documento usando un teclado y un ratón, pero si tiene muchas páginas para desplazarse, tardará bastante tiempo en encontrar texto específico en un documento largo. Será más tiempo consumir cuando desee reemplazar ciertos caracteres o palabras que haya usado en su documento. La funcionalidad "Encontrar y reemplazar" le permite encontrar una secuencia de caracteres en un documento y reemplazarlo con otra secuencia de caracteres.

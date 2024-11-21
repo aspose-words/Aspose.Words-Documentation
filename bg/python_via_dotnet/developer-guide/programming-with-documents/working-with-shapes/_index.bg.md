@@ -7,6 +7,7 @@ description: "Създаване и управление на форми, оле
 type: docs
 weight: 280
 url: /bg/python-net/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Тази тема обсъжда как да се работи програмно с форми, използвайки Aspose.Words.

@@ -7,6 +7,7 @@ type: docs
 description: "Clona unui document pentru a obține o copie identică folosind C#. `Când creezi o copie, nodurile și proprietățile documentului original sunt clonate.`"
 weight: 70
 url: /ro/net/clone-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Clonarea unui document este procesul de creare a unei copii identice a unui document original, ceea ce poate îmbunătăți performanța și vă poate salva de la potențiale scurgeri de memorie.

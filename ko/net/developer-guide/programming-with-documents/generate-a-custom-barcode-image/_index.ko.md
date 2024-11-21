@@ -7,6 +7,7 @@ description: "다음은 C#을 이용한 바코드 모양 생성 예시입니다.
 type: docs
 weight: 350
 url: /ko/net/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/
+timestamp: 2024-09-05-11-07-10
 ---
 
 바코드는 데이터의 시각적 표현으로 병렬선이나 패턴 형태로 되어 있습니다. 바코드는 소매업, 물류, 의료, 은행업 등 다양한 산업 분야에서 널리 사용됩니다.

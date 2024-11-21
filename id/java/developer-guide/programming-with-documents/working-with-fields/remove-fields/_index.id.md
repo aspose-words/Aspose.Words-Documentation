@@ -7,6 +7,7 @@ description: "Pelajari cara menghapus kolom di JavaSitemap Hapus kolom secara pr
 type: docs
 weight: 35
 url: /id/java/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Terkadang perlu menghapus bidang dokumen. Ini mungkin terjadi ketika harus diganti dengan jenis lapangan yang berbeda atau ketika bidang tidak diperlukan lagi dalam dokumen. Contohnya `TOC` field saat menyimpan ke HTML.

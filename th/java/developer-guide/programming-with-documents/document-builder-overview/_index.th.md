@@ -7,6 +7,7 @@ type: docs
 description: "ตัวสร้างเอกสารอนุญาตให้คุณสร้างเอกสารแบบไม่ตายตัวจากรอยขีดข่วน หรือเพิ่มองค์ประกอบใหม่ไปยังเอกสารที่มีอยู่แล้ว ผู้สร้างเอกสารมีวิธีการในการแทรกข้อความ, Checkboxs, ตาราง, รูปภาพ, และองค์ประกอบเนื้อหาอื่น ๆ ใน Java."
 weight: 30
 url: /th/java/document-builder-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) เป็นชนชั้นที่มีอํานาจมาก [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) และทําให้คุณสามารถสร้างเอกสารไดนามิกจากรอยขีดข่วน หรือเพิ่มองค์ประกอบใหม่ไปยังเอกสารที่มีอยู่แล้ว

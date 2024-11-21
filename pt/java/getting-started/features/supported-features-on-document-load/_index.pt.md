@@ -7,6 +7,7 @@ description: "Carregar e converter um documento na maioria dos formatos populare
 type: docs
 weight: 20
 url: /pt/java/supported-features-on-document-load/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words permite aos usuários trabalhar com documentos em vários formatos e fornece uma ampla gama de opções para isso. Por exemplo, os usuários podem criar um documento do zero ou carregar um arquivo existente em qualquer [Formatos de suporte](/words/pt/java/supported-document-formats/), fazer algumas alterações nesse documento e, em seguida, salvar o resultado. Ao importar um documento no formato selecionado, o usuário pode aplicar várias opções de carga.

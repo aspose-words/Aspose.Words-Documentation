@@ -7,6 +7,7 @@ description: "Cara memuat dokumen dari sumber eksternal di C#. Muat PDF, DOCX, D
 type: docs
 weight: 40
 url: /id/net/working-with-documents-from-external-sources/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bagian ini memberikan informasi tentang cara memuat dokumen dari sumber eksternal seperti penyimpanan dokumen atau database SharePoint. Setelah menerima dokumen semacam itu, Anda tidak hanya dapat membuat semua perubahan yang diperlukan yang tersedia menggunakan fungsionalitas Aspose.Words yang canggih, tetapi juga memuat dokumen ini kembali ke sumber data.

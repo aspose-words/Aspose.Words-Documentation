@@ -1,4 +1,4 @@
-﻿---
+---
 title: 리소스를로드 할 때 웹 앱 보안
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 외부 리소스를로드 할 때 웹 응용 프로그램 보안
@@ -7,6 +7,7 @@ type: docs
 description: "보안 위험의 원인이 될 수 있는 원격 리소스를 로드합니다. 일반적인 보안 문제와 그 해결 방법을 살펴보십시오. C++."
 weight: 50
 url: /ko/cpp/web-applications-security-when-loading-external-resources/
+timestamp: 2024-01-30-16-22-34
 ---
 
 기본적으로, Aspose.Words 에 대한 C++ 이미지와 같은 원격 리소스를 로드할 수 있음, CSS 스타일 또는 외부 HTML 문서를 가져 오거나 사용하여 이미지를 삽입 할 때 문서 DocumentBuilder. 이 동작을 사용하면 문서를 자세히 처리할 수 있지만 라이브러리가 웹 응용 프로그램의 일부인 경우 일부 보안 위험이 발생할 수 있습니다.

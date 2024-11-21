@@ -7,6 +7,7 @@ type: docs
 description: "استخدام هذه مقدمة Aspose.Words for Java الأساسيات للبدء في تحقيق قيمة Aspose.Words من أجل عملك"
 weight: 10
 url: /ar/java/getting-started/
+timestamp: 2024-09-25-11-08-55
 ---
 
 هذه البداية تقدم مقدمة Aspose.Words أساسيات للمستعملين الجدد Aspose.Wordsهذه أسرع طريقة لتعلم المتطلبات والقدرات الأساسية.

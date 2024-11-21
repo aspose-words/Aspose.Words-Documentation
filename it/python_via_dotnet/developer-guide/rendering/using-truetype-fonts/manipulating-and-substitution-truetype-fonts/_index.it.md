@@ -7,6 +7,7 @@ description: "Aspose.Words per Python via .NET può incorporare i caratteri True
 type: docs
 weight: 10
 url: /it/python-net/manipulating-and-substitution-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words richiede caratteri TrueType per una varietà di attività, incluso il rendering di documenti in formati a pagina fissa, ad esempio PDF o XPS. Quando Aspose.Words esegue il rendering di un documento, deve eseguire l'incorporamento e l'incorporamento di sottoinsiemi di caratteri TrueType nel documento risultante, che è una pratica normale durante la generazione di un documento, inclusi i formati PDF o XPS più diffusi. Ciò garantisce che il documento apparirà uguale a qualsiasi visualizzatore. Inoltre, la specifica XPS richiede che i caratteri siano sempre incorporati nel documento.

@@ -7,6 +7,7 @@ description: "Verständnis der Konzepte und Bearbeitungspraktiken von Dokumentab
 type: docs
 weight: 120
 url: /de/net/working-with-sections/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Manchmal möchten Sie ein Dokument, das nicht auf allen Seiten die gleiche Formatierung aufweist. Beispielsweise müssen Sie möglicherweise die Seitenzahlformate ändern, eine andere Seitengröße und -ausrichtung verwenden oder die erste Dokumentseite als Deckblatt ohne Nummerierung verwenden. Das können Sie mit Abschnitten erreichen.

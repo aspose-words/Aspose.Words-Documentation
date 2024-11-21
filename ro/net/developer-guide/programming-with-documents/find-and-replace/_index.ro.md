@@ -7,6 +7,7 @@ type: docs
 description: "Găsiți o șir sau un model de expresie regulată în documentul dvs. și înlocuiți-l cu textul pe care doriți să-l utilizați folosind C#."
 weight: 100
 url: /ro/net/find-and-replace/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Te poţi deplasa cu uşurinţă în cadrul unui document folosind o tastatură şi un mouse, dar dacă ai de parcurs multe pagini să se deruleze, va dura destul de mult timp pentru a găsi un anumit text într-un document lung. "Va fi mai consumator de timp atunci când doriți să înlocuiți anumite caractere sau cuvinte pe care le-ați folosit în documentul dumneavoastră." Funcționalitatea "Găsiți și înlocuiți" vă permite să găsiți o secvență de caractere într-un document și să o înlocuiți cu altă secvență de caractere.

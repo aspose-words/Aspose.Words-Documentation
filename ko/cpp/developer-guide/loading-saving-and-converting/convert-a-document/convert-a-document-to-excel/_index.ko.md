@@ -1,4 +1,4 @@
-﻿---
+---
 title: 에 엑셀 단어 변환 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 엑셀 문서 변환
@@ -7,6 +7,7 @@ description: "변환 PDF 엑셀, XML 엑셀, DOCX 엑셀 C++. 에 다양한 형�
 type: docs
 weight: 15
 url: /ko/cpp/convert-a-document-to-excel/
+timestamp: 2024-01-31-14-23-37
 ---
 
 한 형식에서 다른 형식으로 문서를 변환하는 것은 Aspose.Words. 사용 가능한 모든 문서를 변환 할 수 있습니다 [load format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) 또한 XLSX 형식

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 어떤 PDF 표준을 선택하는 것이 좋습니다
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 어떤 PDF 표준을 선택하는 것이 좋습니다
@@ -7,6 +7,7 @@ description: "최고의 선택 PDF 프로그래밍 작업의 결과를 내보내
 type: docs
 weight: 37
 url: /ko/cpp/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 일부 작업의 경우 특정 PDF 표준은 더 잘 맞거나 그 반대의 경우도 마찬가지입니다. 이 기사에서 우리는 어떤 것을 결정하려고 노력할 것입니다 PDF 어떤 경우에 대한 기준을 선택하는 것이 합리적입니다.

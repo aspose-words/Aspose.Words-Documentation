@@ -7,6 +7,7 @@ description: "Fitur bidang secara detail, kode bidang, dan hasil bidang dijelask
 type: docs
 weight: 10
 url: /id/net/fields-overview/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words adalah perpustakaan kelas yang dirancang untuk pemrosesan dokumen Microsoft Word di sisi server dan mendukung bidang dengan cara berikut:

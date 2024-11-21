@@ -7,6 +7,7 @@ description: "Başlamadan önce Aspose.Words için Java ile çalışırken işle
 type: docs
 weight: 80
 url: /tr/java/system-requirements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words için Java yüklenmesine üçüncü taraf ürünler Microsoft Word'e ihtiyaç yoktur. Aspose.Words kendisi çeşitli formatlarda, Microsoft Word belgelerinin formatları da dahil olmak üzere, belgelerin oluşturulması, değiştirilmesi, dönüştürülmesi ve oluşturulması için bir motor ve render motorudur.

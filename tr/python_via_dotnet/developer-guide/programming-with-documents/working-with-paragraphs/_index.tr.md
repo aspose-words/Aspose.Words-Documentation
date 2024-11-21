@@ -7,6 +7,7 @@ description: "Python'i kullanarak bir belgede paragraf ekleyin ve biçimlendirme
 type: docs
 weight: 210
 url: /tr/python-net/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Paragraf, mantıksal bir blok halinde birleştirilen ve özel bir karakterle (*paragraf sonu*) biten bir karakter kümesidir. Aspose.Words'te bir paragraf [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/) sınıfı tarafından temsil edilir.

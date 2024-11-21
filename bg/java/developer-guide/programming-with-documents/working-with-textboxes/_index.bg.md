@@ -7,6 +7,7 @@ description: "Въведение в свързани текстови кутии
 type: docs
 weight: 250
 url: /bg/java/working-with-linked-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 В Aspose.Words, на [TextBox](https://reference.aspose.com/words/java/com.aspose.words/textbox/) Класът се използва, за да се уточни как текст се показва във форма. Тя осигурява публичен имот, наречен Родител, за да получите формата на родител за текстовата кутия, за да може клиентът да намери свързани [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) от свързани **TextBox**.

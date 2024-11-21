@@ -7,6 +7,7 @@ description: "C#'teki alanların nasıl kaldırılacağını öğrenin. Alanlar�
 type: docs
 weight: 35
 url: /tr/net/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bazen bir alanı belgeden kaldırmak gerekebilir. Bu, farklı bir alan türüyle değiştirilmesi gerektiğinde veya alana artık belgede ihtiyaç duyulmadığında ortaya çıkabilir. Örneğin HTML'ye kaydederken `TOC` alanı.

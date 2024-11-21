@@ -7,6 +7,7 @@ description: "用 Aspose.Words 的 .NET 渲染功能將流式布局文件格式�
 type: docs
 weight: 20
 url: /zh-hant/net/rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 我們在 Aspose.Words 中使用渲染這個詞來描述將一篇文章轉換成具有頁面或頁面概念的檔案格式或媒介的過程。 我們在討論的是將一份文件分成頁面的呈現。 圖示是說明在 Aspose.Words 中的 rendering。

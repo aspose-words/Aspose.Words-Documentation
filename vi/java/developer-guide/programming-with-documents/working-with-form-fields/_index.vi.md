@@ -7,6 +7,7 @@ description: "Hiểu về tính năng Form Fields, làm việc với Form Fields
 type: docs
 weight: 380
 url: /vi/java/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Một tài liệu chứa chỗ trống (cánh) để điền là biết đến như một biểu mẫu. Ví dụ, bạn có thể tạo ra một biểu mẫu đăng ký trong Microsoft Word mà sử dụng danh sách thả xuống từ đó người dùng có thể chọn các mục nhập. Trường `Form` là một địa điểm mà một loại dữ liệu cụ thể, chẳng hạn như tên hoặc địa chỉ, được lưu trữ. Trường của Form trong Microsoft Word bao gồm trường văn bản, combobox và checkbox.

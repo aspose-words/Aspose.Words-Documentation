@@ -7,6 +7,7 @@ description: "Python를 사용하여 세부적으로 테이블 형식을 지정�
 type: docs
 weight: 70
 url: /ko/python-net/applying-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 표의 각 요소는 서로 다른 서식을 적용할 수 있습니다. 예를 들어, 표 서식은 표 전체에 적용되고, 행 서식은 특정 행에만 적용되며, 셀 서식은 특정 셀에만 적용됩니다.

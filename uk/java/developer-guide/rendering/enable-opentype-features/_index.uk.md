@@ -7,6 +7,7 @@ description: "Розширені функції друку в Aspose.Words дл�
 type: docs
 weight: 25
 url: /uk/java/enable-opentype-features/
+timestamp: 2024-01-27-14-07-04
 ---
 
 

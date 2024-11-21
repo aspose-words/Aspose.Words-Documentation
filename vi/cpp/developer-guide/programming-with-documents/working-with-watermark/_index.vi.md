@@ -1,4 +1,4 @@
-﻿---
+---
 title: Làm Việc với Watermark trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Làm việc Với Watermark
@@ -7,6 +7,7 @@ type: docs
 description: "Thao tác hình mờ tài liệu bằng C++."
 weight: 340
 url: /vi/cpp/working-with-watermark/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Chủ đề này thảo luận về cách làm việc theo chương trình với watermark bằng Aspose.Words. Hình mờ là hình nền hiển thị phía sau văn bản trong tài liệu. Hình mờ có thể chứa văn bản hoặc hình ảnh được biểu thị bằng lớp [Watermark](https://reference.aspose.com/words/cpp/aspose.words/watermark/).

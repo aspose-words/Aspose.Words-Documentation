@@ -7,6 +7,7 @@ description: "チャート機能の概要、C# を使用してチャートを作
 type: docs
 weight: 310
 url: /ja/net/working-with-charts/
+timestamp: 2024-02-05-15-07-18
 ---
 
 新しい [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) メソッドが [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) クラスに追加されました。それでは、[InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) メソッドを使用して文書に単純な縦棒グラフを挿入する方法を見てみましょう。

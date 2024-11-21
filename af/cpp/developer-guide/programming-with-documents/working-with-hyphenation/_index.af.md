@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk met Koppelteken in C++
 second_title: Aspose.Words vir C++
 articleTitle: Werk met Koppeling
@@ -7,6 +7,7 @@ description: "Gebruik koppelteken vir'n meer kompakte rangskikking van teks met 
 type: docs
 weight: 220
 url: /af/cpp/working-with-hyphenation/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Soms is dit nodig om koppelteken te gebruik vir'n meer kompakte rangskikking van teks in'n dokument. Terselfdertyd is dit belangrik om te verstaan dat die besonderhede van woordverbinding vir elke taal kan verskil.

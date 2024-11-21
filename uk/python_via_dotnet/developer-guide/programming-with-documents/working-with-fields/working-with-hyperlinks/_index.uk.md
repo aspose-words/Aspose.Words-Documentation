@@ -7,6 +7,7 @@ description: "Додати, замінити або змінити гіперп�
 type: docs
 weight: 50
 url: /uk/python-net/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Гіперпосилання в Microsoft Word Документи `HYPERLINK` поле. У Aspose.Words, гіперпосилання реалізуються через [FieldHyperlink](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldhyperlink/) клас.

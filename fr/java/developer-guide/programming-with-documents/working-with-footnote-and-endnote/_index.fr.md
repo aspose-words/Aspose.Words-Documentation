@@ -7,6 +7,7 @@ description: "Comment manipuler les notes et notes de bas de page en utilisant J
 type: docs
 weight: 160
 url: /fr/java/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words fournit également certaines classes, méthodes et propriétés pour travailler avec des notes de bas de page et des notes.

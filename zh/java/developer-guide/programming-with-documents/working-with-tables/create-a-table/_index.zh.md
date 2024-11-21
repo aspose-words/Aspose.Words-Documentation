@@ -7,6 +7,7 @@ description: "使用不同方式创建文档中的表格 Java。 。 。 。"
 type: docs
 weight: 20
 url: /zh/java/create-a-table/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words 允许用户从零开始在文档中创建表格,并提供几种不同的方法来做到这一点. 本文详细介绍了如何使用每种方法在文档中添加格式表格,以及文章结尾处对每种方法的比较.

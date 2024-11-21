@@ -7,6 +7,7 @@ description: "Specificaţi poziţia tabelelor în C#. Obțineți alinierea tabel
 type: docs
 weight: 50
 url: /ro/net/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Există tabele plutitoare și în linie:

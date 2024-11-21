@@ -7,6 +7,7 @@ description: "Konwersja dokumentu do tablicy bajtów do pracy z tym dokumentem w
 type: docs
 weight: 40
 url: /pl/java/serialize-and-work-with-a-document-in-a-database/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Jednym z zadań, które należy wykonać podczas pracy z dokumentami jest przechowywanie i pobieranie **Document** obiektów do i z bazy danych. Na przykład, byłoby to konieczne, gdyby wdrażano jakikolwiek rodzaj systemu zarządzania treścią. Wszystkie poprzednie wersje dokumentów muszą być przechowywane w systemie baz danych. Możliwość przechowywania dokumentów w bazie danych jest również niezwykle przydatna, gdy aplikacja świadczy usługi oparte na sieci.

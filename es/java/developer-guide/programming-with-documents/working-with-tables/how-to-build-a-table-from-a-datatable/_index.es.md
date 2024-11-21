@@ -7,6 +7,7 @@ description: "Ejemplo de la tabla de documentos de llenado de bases de datos ext
 type: docs
 weight: 130
 url: /es/java/how-to-build-a-table-from-a-datatable/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A menudo su aplicación extraerá datos de una base de datos y la almacenará en forma de una **DataTable**. Es posible que desee insertar fácilmente estos datos en su documento como una nueva tabla y aplicar rápidamente formato a toda la tabla.

@@ -7,6 +7,7 @@ description: "قالب بندی فونت در جزئیات Java..."
 type: docs
 weight: 230
 url: /fa/java/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 یک فونت مجموعه ای از شخصیت ها با اندازه، رنگ و طراحی خاص است. Aspose.Words اجازه می دهد تا شما با فونت ها با استفاده از کلاس های مختلف مربوط به فونت، از جمله [Font](https://reference.aspose.com/words/java/com.aspose.words/font/) کلاس

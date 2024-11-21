@@ -7,6 +7,7 @@ description: "Aspose.Words for Python via .NET 可以帮助您了解如何在测
 type: docs
 weight: 20
 url: /zh/python-net/convert-between-measurement-units/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words API 中提供的大多数表示某种测量值的对象属性（例如宽度或高度、边距和各种距离）都接受以点为单位的值，其中 1 英寸等于 72 点。有时这并不方便，需要将点转换为其他单位。

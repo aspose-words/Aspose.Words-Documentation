@@ -7,6 +7,7 @@ type: docs
 description: "DocumentBuilder는 스크래치에서 동적 문서를 만들거나 기존의 것들에 새로운 요소를 추가 할 수 있습니다. DocumentBuilder는 텍스트, 체크 박스, 테이블, 이미지 및 기타 콘텐츠 요소를 삽입하는 방법을 제공합니다. Java·"
 weight: 30
 url: /ko/java/document-builder-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) 함께하는 강력한 클래스 [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) 스크래치에서 동적 문서를 구축하거나 기존에 새로운 요소를 추가 할 수 있습니다.

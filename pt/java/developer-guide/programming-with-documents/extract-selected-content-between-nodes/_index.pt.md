@@ -7,6 +7,7 @@ type: docs
 description: "Extrair conteúdo de documentos em diferentes usos Java."
 weight: 140
 url: /pt/java/extract-selected-content-between-nodes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ao trabalhar com documentos, é importante ser capaz de extrair facilmente conteúdo de um intervalo específico dentro de um documento. No entanto, o conteúdo pode consistir em elementos complexos, como parágrafos, tabelas, imagens, etc.

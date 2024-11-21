@@ -7,6 +7,7 @@ description: "วิธีเพิ่มไฮเปอร์ลิงก์เ
 type: docs
 weight: 50
 url: /th/java/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ไฮเปอร์ลิงก์ใน Microsoft Word เอกสารคือ `HYPERLINK` สนาม ใน Aspose.Words, ไฮเปอร์ลิงก์ถูกนําไปใช้ผ่าน [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/) ชั้นเรียน.

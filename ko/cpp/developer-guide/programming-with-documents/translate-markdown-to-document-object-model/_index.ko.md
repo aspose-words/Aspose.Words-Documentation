@@ -1,4 +1,4 @@
-﻿---
+---
 title: 번역 Markdown 객체 모델을 문서화하려면(DOM)
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 번역 Markdown 객체 모델을 문서화하려면(DOM)
@@ -7,6 +7,7 @@ type: docs
 description: "타너슬레이트 Markdown 문서 대 문서 개체 모델 및 뒤로 사용 C++. 그래서 당신은 복잡한 기존 작업 할 수 있습니다 Markdown 그리고 프로그래밍 방식으로 Markdown 처음부터 문서."
 weight: 20
 url: /ko/cpp/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 문서의 내용과 서식을 프로그래밍 방식으로 읽고,조작하고,수정하려면 문서의 내용을 다음과 같이 번역해야 합니다. Aspose.Words 문서 개체 모델(DOM).

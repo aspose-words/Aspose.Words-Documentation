@@ -7,6 +7,7 @@ description: "เข้าถึงและจัดการสไตล์แ
 type: docs
 weight: 110
 url: /th/python-net/working-with-styles-and-themes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 คลาส [StyleCollection](https://reference.aspose.com/words/python-net/aspose.words/stylecollection/) ใช้เพื่อจัดการในตัวและใช้การตั้งค่าที่ผู้ใช้กำหนดกับสไตล์

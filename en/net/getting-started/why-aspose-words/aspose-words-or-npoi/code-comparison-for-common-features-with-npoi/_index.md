@@ -1,4 +1,4 @@
-﻿---
+---
 title: Code Comparison for common features with NPOI
 second_title: Aspose.Words for .NET
 articleTitle: Code Comparison for common features with NPOI
@@ -12,6 +12,7 @@ aliases:
   - /net/working-with-images-aspose-vs-npoi/
   - /net/working-with-headers-and-footers-aspose-vs-npoi/
   - /net/working-with-documents-aspose-vs-npoi/
+timestamp: 2024-01-27-14-07-04
 ---
 
 This section has the following topics:

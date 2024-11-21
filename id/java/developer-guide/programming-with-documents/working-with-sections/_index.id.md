@@ -7,6 +7,7 @@ description: "Memahami konsep bagian dokumen dan praktik manipulasi menggunakan 
 type: docs
 weight: 120
 url: /id/java/working-with-sections/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Kadang-kadang Anda ingin dokumen yang tidak memiliki format yang sama di semua halaman. Misalnya, Anda mungkin perlu memodifikasi format nomor halaman, memiliki ukuran halaman yang berbeda dan orientasi, atau memiliki halaman dokumen pertama sebagai halaman sampul tanpa nomor. Anda dapat mencapai itu dengan bagian.

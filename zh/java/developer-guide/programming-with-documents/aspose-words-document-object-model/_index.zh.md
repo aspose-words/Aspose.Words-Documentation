@@ -7,6 +7,7 @@ type: docs
 description: "Document Object Model (单位:千美元)DOM)是Word文档的内在代表. 使用 Java。 。 。 。"
 weight: 10
 url: /zh/java/aspose-words-document-object-model/
+timestamp: 2024-01-27-14-07-04
 ---
 
 那个 Aspose.Words Document Object Model (单位:千美元)DOM)是Word文档的内在代表. 那个 Aspose.Words DOM 允许您在程序上读取、操作和修改Word文档的内容和格式。

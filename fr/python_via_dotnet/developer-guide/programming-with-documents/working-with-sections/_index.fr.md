@@ -7,6 +7,7 @@ description: "Créez et gérez des sections et des sauts de section dans un docu
 type: docs
 weight: 120
 url: /fr/python-net/working-with-sections/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Parfois, vous souhaitez un document qui n'a pas le même formatage sur toutes les pages. Par exemple, vous devrez peut-être modifier les formats de numéro de page, avoir une taille et une orientation de page différentes, ou avoir la première page du document comme page de couverture sans aucune numérotation. Vous pouvez y parvenir avec des sections.

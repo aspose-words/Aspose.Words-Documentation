@@ -7,6 +7,7 @@ description: "Compare two documents in any supported formats and shows content c
 type: docs
 weight: 60
 url: /net/compare-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Comparing documents is a process that identifies changes between two documents and contains the changes as revisions. This process compares any two documents, including versions of one specific document, then the changes between both documents will be shown as revisions in the first document.

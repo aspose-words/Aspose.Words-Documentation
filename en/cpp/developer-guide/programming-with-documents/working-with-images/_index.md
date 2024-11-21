@@ -7,6 +7,7 @@ type: docs
 description: "Introduction to Image feature, how to create and manipulate image using C++."
 weight: 300
 url: /cpp/working-with-images/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words allows users to work with images in a very flexible way. In this article, you can explore only some of the possibilities of working with images.

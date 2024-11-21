@@ -7,6 +7,7 @@ description: "フィールドをドキュメントに差し込むさまざまな
 type: docs
 weight: 20
 url: /ja/java/insert-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 フィールドをドキュメントにインサートする方法はいくつかあります。

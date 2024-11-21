@@ -1,4 +1,4 @@
-﻿---
+---
 title: تكوين المنتج في Visual Studio
 second_title: Aspose.Words ل C++
 articleTitle: تكوين Aspose.Words ل C++ في Visual Studio
@@ -7,6 +7,7 @@ description: "تكوين يدويا Aspose.Words ل C++ في Visual Studio."
 type: docs
 weight: 90
 url: /ar/cpp/configure-aspose-words-for-cpp-in-visual-studio/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Aspose.Words ل C++ API يعمل مع Visual Studio 2022 أو في وقت لاحق. للعمل مع Visual Studio، قد تحتاج إلى تثبيت Visual C++ Redistributable متوفر على [Microsoft الموقع الرسمي](https://docs.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170).

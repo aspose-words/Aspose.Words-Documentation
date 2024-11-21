@@ -7,6 +7,7 @@ description: "PDF / A i PDF / UA nakładają wymogi dostępności związane z tr
 type: docs
 weight: 29
 url: /pl/java/warnings-when-saving-to-pdfa-and-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Formaty PDF / A i PDF / UA nakładają szereg wymogów dostępności związanych z treścią dokumentu, których nie można spełnić podczas automatycznej konwersji Word na PDF. Wymagania te zostały opisane w poprzednim artykule * "Working with PDF / A or PDF / UA" *. Na niektóre z tych problemów wydawane są ostrzeżenia.

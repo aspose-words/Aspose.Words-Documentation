@@ -1,4 +1,4 @@
-﻿---
+---
 title: การทำงานกับOfficeMathในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: การทำงานกับOfficeMath
@@ -7,6 +7,7 @@ type: docs
 description: "รู้เบื้องต้นเกี่ยวกับคุณลักษณะทางคณิตศาสตร์ในสำนักงาน Aspose.WordsสำหรับC++."
 weight: 320
 url: /th/cpp/working-with-officemath/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ตอนนี้ก็ยิ่งสะดวกในการทำงานกับOfficeMathวัตถุชนิด ในAspose.Wordsลูกค้าสามารถปรับได้อย่างง่ายดายและยังสามารถจัดการว่าสมการจะแสดงแบบอินไลน์หรือในบรรทัดที่แยกต่างหาก มพร้อมของ**MathObjectType**;การควบคุมที่มีประโยชน์สามารถนำมาใช้โดยใช้อ็อบเจ็กต์เมทริกซ์นี้.

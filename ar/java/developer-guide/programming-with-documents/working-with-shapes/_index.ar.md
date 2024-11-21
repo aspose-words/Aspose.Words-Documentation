@@ -7,6 +7,7 @@ type: docs
 description: "مقدمة لتشكيل لغة الإشارة، وخلق أشكال من الأنواع المختلفة باستخدام Java."
 weight: 280
 url: /ar/java/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 يناقش هذا الموضوع كيفية العمل على نحو برنامجي مع الأشكال المستخدمة Aspose.Words.

@@ -7,6 +7,7 @@ description: "Rendere il documento in sola lettura in modo che il contenuto poss
 type: docs
 weight: 10
 url: /it/java/open-a-document-read-only/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A volte, si può avere un documento che ha bisogno di una recensione, ma non si desidera che i recensori modifichino casualmente i contenuti. Aspose.Words consente di rendere il permesso del documento di sola lettura in modo che il contenuto possa essere copiato o letto, ma non modificato. Ciò impedirà che il contenuto venga rimosso o aggiunto al documento.

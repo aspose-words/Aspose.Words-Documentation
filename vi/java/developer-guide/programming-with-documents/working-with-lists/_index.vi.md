@@ -7,6 +7,7 @@ description: "Giới thiệu về tính năng định dạng số trong Aspose.W
 type: docs
 weight: 200
 url: /vi/java/working-with-lists/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Một danh sách trong một Microsoft Word văn bản là tập hợp các thuộc tính định dạng danh sách. Danh sách có thể được sử dụng trong các tài liệu để định dạng, sắp xếp và nhấn mạnh văn bản. Danh sách là cách tuyệt vời để tổ chức dữ liệu trong tài liệu, và chúng làm cho người đọc dễ hiểu hơn các điểm chính.

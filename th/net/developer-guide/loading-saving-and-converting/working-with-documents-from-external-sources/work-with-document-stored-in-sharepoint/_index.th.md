@@ -7,6 +7,7 @@ description: "แปลง Word ที่แชร์ใน SharePoint เป็
 type: docs
 weight: 20
 url: /th/net/work-with-document-stored-in-sharepoint/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Microsoft SharePoint Online คือชุดของเทคโนโลยีบนเว็บที่ช่วยให้องค์กรจัดเก็บ แบ่งปัน และจัดการข้อมูลดิจิทัลได้อย่างง่ายดาย คุณสามารถทำงานกับเอกสารที่จัดเก็บไว้ในโฟลเดอร์ "เอกสารที่ใช้ร่วมกัน" ใน SharePoint โดยใช้ Aspose.Words อันทรงพลังสำหรับ .NET ของเรา

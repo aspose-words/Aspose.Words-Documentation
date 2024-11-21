@@ -7,6 +7,7 @@ type: docs
 description: "DocumentBuilder 讓您使用 C# 从头开始构建动态文档或向现有文档添加新元素。 DocumentBuilder 提供方法在 .NET 中插入文字、驗選方塊、表格、圖片和其他內容元素。"
 weight: 30
 url: /zh-hant/net/document-builder-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) 是功能強大的一類，它與 [Document](https://reference.aspose.com/words/net/aspose.words/document/) 聯繫在一起，使你能夠從頭開始建立動態文件或向現有的文件中加入新元素。

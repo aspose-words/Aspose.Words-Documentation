@@ -7,6 +7,7 @@ type: docs
 description: "문서 작성기를 사용하여 문서를 쉽게 수정하십시오. Java·"
 weight: 20
 url: /ko/java/using-documentbuilder-to-modify-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## 형식 지정

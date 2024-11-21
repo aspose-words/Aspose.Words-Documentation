@@ -7,6 +7,7 @@ description: "Kết hợp tài liệu thành một: chèn hoặc nối thêm m�
 type: docs
 weight: 80
 url: /vi/java/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Đôi khi cần kết hợp vài tài liệu thành một. Bạn có thể thực hiện việc này một cách thủ công hoặc bạn có thể sử dụng tính năng Aspose.Words chèn hoặc nối đuôi.

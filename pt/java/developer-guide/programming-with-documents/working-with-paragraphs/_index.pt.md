@@ -7,6 +7,7 @@ description: "Parágrafo práticas de manipulação de nó usando Java."
 type: docs
 weight: 210
 url: /pt/java/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Um parágrafo é um conjunto de caracteres combinados em um bloco lógico e terminando com um personagem especial – um *paragraph break*. Em Aspose.Words, um parágrafo é representado pelo [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) classe.

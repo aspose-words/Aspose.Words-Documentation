@@ -1,4 +1,4 @@
-﻿---
+---
 title: گزینه های ذخیره را در C++مشخص کنید
 second_title: Aspose.Words برای C++
 articleTitle: گزینه های ذخیره را مشخص کنید
@@ -7,6 +7,7 @@ description: "با دقت بیشتری فرآیند ذخیره را کنترل �
 type: docs
 weight: 10
 url: /fa/cpp/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 هنگام ذخیره یک سند، می توانید برخی از ویژگی های پیشرفته را تنظیم کنید. Aspose.Words کلاس [SaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/) را برای شما فراهم می کند که اجازه کنترل دقیق تر فرآیند ذخیره را می دهد. اضافه بار روش **Save** وجود دارد که یک شی **SaveOptions** را قبول می کند – باید یک شی از یک کلاس باشد که از کلاس **SaveOptions** مشتق شده است. هر فرمت ذخیره دارای یک کلاس مربوطه است که گزینه های ذخیره را برای این فرمت ذخیره نگه می دارد، به عنوان مثال، [PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/) برای ذخیره به PDF فرمت، [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions) برای ذخیره به Markdown فرمت، یا [ImageSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/imagesaveoptions/) برای ذخیره به یک تصویر وجود دارد. این مقاله نمونه هایی از کار با برخی از کلاس های گزینه های مشتق شده از **SaveOptions** را ارائه می دهد.

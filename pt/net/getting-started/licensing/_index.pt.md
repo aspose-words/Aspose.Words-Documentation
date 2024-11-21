@@ -7,6 +7,7 @@ description: "Aspose.Words for .NET oferece diferentes planos de compra ou ofere
 type: docs
 weight: 55
 url: /pt/net/licensing/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Às vezes, para estudar melhor o sistema, você deseja mergulhar no código o mais rápido possível. Para facilitar isso, o Aspose.Words oferece diversos planos de compra ou oferece uma avaliação gratuita e uma licença temporária de 30 dias para avaliação.

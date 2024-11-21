@@ -7,6 +7,7 @@ description: "قبل البدء في العمل مع Aspose.Words for Python via
 type: docs
 weight: 50
 url: /ar/python-net/system-requirements/
+timestamp: 2024-04-27-18-03-32
 ---
 
 لا يتطلب Aspose.Words for Python via .NET تثبيت أي منتج تابع لجهة خارجية مثل Microsoft Word. يعد Aspose.Words بحد ذاته محركًا لإنشاء المستندات وتعديلها وتحويلها وعرضها بتنسيقات مختلفة، بما في ذلك تنسيقات مستندات Microsoft Word.

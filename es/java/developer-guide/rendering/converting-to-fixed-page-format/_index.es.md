@@ -7,6 +7,7 @@ description: "Aspose.Words para Java implementa su propio motor de diseño de p�
 type: docs
 weight: 10
 url: /es/java/converting-to-fixed-page-format/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words implementa su propio motor de diseño de página. Antes de profundizar en sus especificaciones, vale la pena discutir primero el documento a un alto nivel. Al pensar en un documento, los usuarios suelen imaginar una serie de hojas de papel que contienen palabras, imágenes, tablas y gráficos. Los documentos pueden ser de varios tipos, como texto, hojas de cálculo, diapositivas, dibujos CAD, diagramas de flujo y, por lo tanto, pueden tener diseños esencialmente diferentes. La mayoría de las aplicaciones permiten enviar documentos a una impresora; esto es cuando un usuario realmente puede ver la apariencia final del documento.

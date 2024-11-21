@@ -7,6 +7,7 @@ description: "Konvertieren Sie Dokumente aus jedem unterstützten Ladeformat in 
 type: docs
 weight: 40
 url: /de/net/file-formats-and-conversions/
+timestamp: 2024-01-31-14-23-37
 ---
 
 {{% alert color="primary" %}}

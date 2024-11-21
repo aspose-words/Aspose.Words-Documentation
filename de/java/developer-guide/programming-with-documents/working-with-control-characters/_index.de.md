@@ -7,6 +7,7 @@ description: "Einführung in die Arbeit mit Kontrollzeichen in Aspose.Words für
 type: docs
 weight: 400
 url: /de/java/working-with-control-characters/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word Dokumente können verschiedene Zeichen enthalten, die eine besondere Bedeutung haben. Normalerweise werden sie für Formatierungszwecke verwendet und werden nicht im normalen Modus gezeichnet. Sie können sie sichtbar machen, wenn Sie auf der Standard Symbolleiste auf die Schaltfläche Markierungen anzeigen/herstellen klicken.

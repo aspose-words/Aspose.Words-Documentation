@@ -7,6 +7,7 @@ description: "التعريف بملامح الرسم البياني، وكيفي
 type: docs
 weight: 310
 url: /ar/java/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 الجديد [insertChart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertChart-int-double-double) أضيفت طريقة إلى [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) صف لذا، دعونا نرى كيف ندخل مخطط عمودي بسيط في الوثيقة باستخدام **يدرج ما يلي: Chart** طريقة

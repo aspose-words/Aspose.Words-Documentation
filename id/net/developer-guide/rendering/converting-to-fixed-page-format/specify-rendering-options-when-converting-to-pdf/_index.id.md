@@ -7,6 +7,7 @@ description: "Konversikan dokumen ke PDF dengan opsi lanjutan menggunakan C#. Ko
 type: docs
 weight: 20
 url: /id/net/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Format PDF merupakan format halaman tetap yang sangat populer di kalangan pengguna dan banyak didukung oleh berbagai aplikasi, karena dokumen PDF terlihat sama di perangkat apa pun. Oleh karena itu, mengonversi ke PDF adalah fitur penting Aspose.Words.

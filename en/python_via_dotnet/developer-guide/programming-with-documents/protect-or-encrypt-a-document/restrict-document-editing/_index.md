@@ -1,4 +1,4 @@
-﻿---
+---
 title: Restrict Document Editing in Python
 second_title: Aspose.Words for Python via .NET
 articleTitle: Restrict Document Editing
@@ -8,6 +8,7 @@ type: docs
 weight: 30
 url: /python-net/restrict-document-editing/
 aliases: [/python/restrict-document-editing/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 Sometimes you may need to limit the ability to edit a document and only allow certain actions with it. This can be useful to prevent other people from editing sensitive and confidential information in your document.

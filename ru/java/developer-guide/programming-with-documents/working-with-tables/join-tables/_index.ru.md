@@ -7,6 +7,7 @@ description: "Присоединяйтесь к таблицам в Java. Про
 type: docs
 weight: 90
 url: /ru/java/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Таблица, представленная в Aspose.Words Document Object Model, Он состоит из независимых рядов и ячеек, что облегчает соединение столов.

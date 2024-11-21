@@ -8,6 +8,7 @@ description: "احفظ مستندًا بأي تنسيق مدعوم باستخد�
 keywords: "save a document c#, save a document to file c#, save a document to stream c#, save a document Aspose .NET, save formats supported by Aspose.Words .NET"
 weight: 20
 url: /ar/net/save-a-document/
+timestamp: 2024-07-09-19-00-42
 ---
 
 تتضمن معظم المهام التي تحتاج إلى تنفيذها باستخدام Aspose.Words حفظ مستند. لحفظ مستند، يوفر Aspose.Words طريقة [Save](https://reference.aspose.com/words/ar/net/aspose.words/document/save/) لفئة [Document](https://reference.aspose.com/words/ar/net/aspose.words/document/). هناك حمولات زائدة تسمح بحفظ مستند في ملف أو دفق أو كائن ASP.NET HttpResponse لإرساله إلى متصفح العميل. يمكن حفظ المستند بأي تنسيق حفظ يدعمه Aspose.Words. للحصول على قائمة بجميع تنسيقات الحفظ المدعومة، راجع تعداد [SaveFormat](https://reference.aspose.com/words/ar/net/aspose.words/saveformat/).

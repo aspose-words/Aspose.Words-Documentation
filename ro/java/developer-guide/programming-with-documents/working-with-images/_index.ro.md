@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu imagini în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Lucrul cu imagini
@@ -7,6 +7,7 @@ type: docs
 description: "Forme de imagine în detalii și caracteristici avansate oferite de Aspose.Words pentru Java."
 weight: 300
 url: /ro/java/working-with-images/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words permite utilizatorilor să lucreze cu imagini într-un mod foarte flexibil. În acest articol, puteți explora doar câteva dintre posibilitățile de lucru cu imagini.

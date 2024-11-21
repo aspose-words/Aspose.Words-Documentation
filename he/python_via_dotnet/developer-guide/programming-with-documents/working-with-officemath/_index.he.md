@@ -7,6 +7,7 @@ description: "יצירת וניהול אובייקטים מסוג OfficeMath Typ
 type: docs
 weight: 320
 url: /he/python-net/working-with-officemath/
+timestamp: 2024-01-27-14-07-04
 ---
 
 עכשיו זה אפילו יותר נוח לעבוד עם אובייקטים מסוג OfficeMath. In In In Aspose.Words, הלקוח יכול בקלות לתקן ויכול גם לנהל אם משוואה מוצגת בקו או בקו נפרד. יותר מכך, עם זמינות [MathObjectType](https://reference.aspose.com/words/python-net/aspose.words.math/mathobjecttype/); ניתן ליישם בקרה שימושית על ידי שימוש באובייקט ממטריקס זה.

@@ -7,6 +7,7 @@ description: "Verschillende opgeven Waar Type lettertypebronnen: systeemmap, geb
 type: docs
 weight: 30
 url: /nl/java/specify-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Dit onderwerp beschrijft het standaardgedrag van Aspose.Words wanneer het op zoek is naar TrueType lettertypen, waaronder specifieke verschillen in besturingssysteem, en laat zien hoe u gebruikerslettertypebronnen kunt specificeren.

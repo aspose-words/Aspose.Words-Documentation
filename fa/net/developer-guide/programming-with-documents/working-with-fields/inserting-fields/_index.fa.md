@@ -7,6 +7,7 @@ description: "نحوه درج فیلدها در یک سند با استفاده 
 type: docs
 weight: 20
 url: /fa/net/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 چندین روش مختلف برای درج فیلدها در یک سند وجود دارد:

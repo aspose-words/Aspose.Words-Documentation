@@ -1,4 +1,4 @@
-﻿---
+---
 title: Chuyển Đổi Tài liệu Thành Hình ảnh trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Chuyển Đổi Tài liệu Thành Hình Ảnh
@@ -7,6 +7,7 @@ type: docs
 description: "Chuyển đổi tài liệu sang định dạng hình ảnh (JPG, PNG, v. v.). Tạo bản xem trước tài liệu hoặc tạo bản quét tài liệu để gửi hóa đơn."
 weight: 43
 url: /vi/cpp/convert-a-document-to-an-image/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Đôi khi cần phải có hình ảnh thay vì tài liệu ở các định dạng khác, chẳng hạn như DOCX hoặc PDF. Ví dụ: bạn cần thêm bản xem trước của bất kỳ trang tài liệu nào vào trang web hoặc ứng dụng của mình hoặc tạo "quét" tài liệu để gửi hóa đơn. Đây là khi bạn có thể cần chuyển đổi một tài liệu trong bất kỳ [supported load format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) thành hình ảnh, một lần nữa, trong bất kỳ [supported save format](https://reference.aspose.com/words/cpp/aspose.words/saveformat/) nào.

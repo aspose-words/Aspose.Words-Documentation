@@ -7,6 +7,7 @@ description: "حدد خيارات التخطيط لتخطيطات المستند
 type: docs
 weight: 10
 url: /ar/python-net/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 يمكّنك Aspose.Words من إنشاء مستندات مخرجات بتخطيطات مختلفة، اعتمادًا على المعلمات المحددة في خصائص فئة [LayoutOptions](https://reference.aspose.com/words/python-net/aspose.words.layout/layoutoptions/). تشبه بعض هذه الخصائص بعض خيارات قائمة واجهة مستخدم Microsoft Word - والتي سيتم وصفها في هذه المقالة.

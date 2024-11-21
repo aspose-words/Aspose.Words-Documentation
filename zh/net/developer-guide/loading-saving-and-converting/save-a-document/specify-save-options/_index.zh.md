@@ -7,6 +7,7 @@ description: "使用 C# 更准确地控制保存过程。"
 type: docs
 weight: 10
 url: /zh/net/specify-save-options/
+timestamp: 2024-07-09-19-00-42
 ---
 
 保存文档时，您可以设置一些高级属性。 Aspose.Words 为您提供了 [SaveOptions](https://reference.aspose.com/words/zh/net/aspose.words.saving/saveoptions/) 类，可以更精确地控制保存过程。存在接受 **SaveOptions** 对象的 **Save** 方法的重载 - 它应该是从 **SaveOptions** 类派生的类的对象。每种保存格式都有一个相应的类，用于保存该保存格式的保存选项，例如，用于保存为 PDF 格式的 [PdfSaveOptions](https://reference.aspose.com/words/zh/net/aspose.words.saving/pdfsaveoptions/)、用于保存为 Markdown 格式的 [MarkdownSaveOptions](https://reference.aspose.com/words/zh/net/aspose.words.saving/markdownsaveoptions/) 或用于保存为图像的 [ImageSaveOptions](https://reference.aspose.com/words/zh/net/aspose.words.saving/imagesaveoptions/)。本文提供了使用从 **SaveOptions** 派生的一些选项类的示例。

@@ -7,6 +7,7 @@ description: "Twórz i zarządzaj znakami wodnymi w dokumencie za pomocą Python
 type: docs
 weight: 340
 url: /pl/python-net/working-with-watermark/
+timestamp: 2024-01-27-14-07-04
 ---
 
 W tym temacie omówiono sposób programowej pracy ze znakiem wodnym przy użyciu formatu Aspose.Words. Znak wodny to obraz tła wyświetlany za tekstem w dokumencie. Znak wodny może zawierać tekst lub obraz reprezentowany przez klasę [Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/).

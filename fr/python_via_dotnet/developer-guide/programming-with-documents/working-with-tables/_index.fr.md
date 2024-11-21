@@ -7,6 +7,7 @@ description: "Travaillez avec des tableaux dans un document à l'aide de Python.
 type: docs
 weight: 190
 url: /fr/python-net/working-with-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un **tableau** dans un document est un excellent moyen de structurer des données similaires. C'est pourquoi les tableaux sont un élément de formatage de contenu courant et sont pris en charge par la plupart des formats sous une forme ou une autre.

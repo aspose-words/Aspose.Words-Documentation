@@ -7,6 +7,7 @@ description: "Aspose.Words for Python via .NET 实现了自己的 Windows 图元
 type: docs
 weight: 30
 url: /zh/python-net/handling-windows-metafiles/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Windows 图元文件格式是一种图像文件格式，可以包含矢量和光栅图形。此格式用于将图形数据存储在内存或磁盘文件中。图元文件存储 Windows 图形设备接口 (GDI) 中的函数调用列表，必须执行这些函数调用才能在屏幕上显示图像。系统在显示上下文中解释并执行这些命令。

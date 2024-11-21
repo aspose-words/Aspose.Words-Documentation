@@ -1,4 +1,4 @@
-﻿---
+---
 title: Velde Oorsig in Python
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Velde Oorsig
@@ -7,6 +7,7 @@ description: "Jy kan toegang tot veld wysiging met behulp van Python. Velde van 
 type: docs
 weight: 10
 url: /af/python-net/fields-overview/
+timestamp: 2024-10-21-11-17-44
 ---
 
 

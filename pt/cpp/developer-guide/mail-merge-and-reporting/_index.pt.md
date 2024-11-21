@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge e relatórios em C++
 second_title: Aspose.Words para C++
 articleTitle: Mail Merge e relatórios
@@ -8,6 +8,7 @@ description: "Mail Merge é um recurso popular para criar documentos rapidamente
 keywords: "how to use mail merge c++"
 weight: 30
 url: /pt/cpp/mail-merge-and-reporting/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Mail Merge é um recurso popular para criar documentos de forma rápida e fácil, como cartas, etiquetas e envelopes. Aspose.Words permite gerar documentos a partir de modelos com mail merge fields.

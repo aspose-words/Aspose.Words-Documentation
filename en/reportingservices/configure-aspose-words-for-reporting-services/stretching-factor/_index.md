@@ -1,4 +1,4 @@
-﻿---
+---
 title: Stretching Factor
 second_title: Aspose.Words for Reporting Services
 articleTitle: Stretching Factor
@@ -7,6 +7,7 @@ description: "Stretching Factor setting of the Aspose.Words for Reporting Servic
 type: docs
 weight: 140
 url: /reportingservices/stretching-factor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

@@ -7,6 +7,7 @@ description: "Aspose.Words Sitemap Java dapat membantu Anda dengan cara mengkonv
 type: docs
 weight: 20
 url: /id/java/convert-between-measurement-units/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Sebagian besar sifat objek yang diberikan dalam Aspose.Words API yang mewakili beberapa pengukuran, seperti lebar atau tinggi, margin, dan berbagai jarak, menerima nilai dalam poin, di mana 1 inci sama 72 poin. Kadang-kadang ini tidak nyaman dan poin perlu dikonversi ke unit lain.

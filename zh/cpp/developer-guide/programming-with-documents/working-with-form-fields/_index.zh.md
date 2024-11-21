@@ -1,4 +1,4 @@
-﻿---
+---
 title: 使用C++中的表单字段
 second_title: Aspose.Words对于C++
 articleTitle: 使用表单字段
@@ -7,6 +7,7 @@ description: "了解表单字段功能,使用C++处理表单字段."
 type: docs
 weight: 380
 url: /zh/cpp/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 包含填空（字段）的文档称为表单。 例如，您可以在Microsoft Word中创建一个注册表单，该注册表单使用用户可以从中选择条目的下拉列表。 表单字段是存储特定类型数据（如名称或地址）的位置。 Microsoft Word中的表单字段包括文本输入，组合框和复选框。

@@ -7,6 +7,7 @@ description: "Poradnik jak zrobić tabelę w C# na różne sposoby. Utwórz tabe
 type: docs
 weight: 20
 url: /pl/net/create-a-table/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words umożliwia użytkownikom tworzenie tabel w dokumencie od podstaw i udostępnia kilka różnych metod, aby to zrobić. W tym artykule przedstawiono szczegółowe informacje na temat dodawania sformatowanych tabel do dokumentu przy użyciu każdej metody, a także porównanie każdej metody na końcu artykułu.

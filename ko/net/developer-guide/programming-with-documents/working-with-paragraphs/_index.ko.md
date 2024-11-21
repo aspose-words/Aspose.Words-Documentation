@@ -7,6 +7,7 @@ description: "문서 C#에 단락을 삽입합니다. C#에서 단락 스타일�
 type: docs
 weight: 210
 url: /ko/net/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 단락은 논리 블록으로 결합되고 특수 문자(*단락 구분*)로 끝나는 문자 집합입니다. Aspose.Words에서 단락은 [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/) 클래스로 표현됩니다.

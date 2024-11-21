@@ -7,6 +7,7 @@ description: "Çeşitli TrueType yazı tipi kaynaklarını belirtin: sistem klas
 type: docs
 weight: 30
 url: /tr/java/specify-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Bu konu, Aspose.Words'in TrueType yazı tiplerini ararken varsayılan davranışını açıklar, işletim sistemi spesifik farklılıkları içerir ve kullanıcı yazı tipi kaynaklarını nasıl belirteceğinizi gösterir.

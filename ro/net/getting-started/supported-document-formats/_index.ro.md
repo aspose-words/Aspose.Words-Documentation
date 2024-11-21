@@ -7,6 +7,7 @@ type: docs
 description: "Editează documente sursă în multe formate populare și convertește liber fișierele dintr-un format în altul folosind C#."
 weight: 20
 url: /ro/net/supported-document-formats/
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

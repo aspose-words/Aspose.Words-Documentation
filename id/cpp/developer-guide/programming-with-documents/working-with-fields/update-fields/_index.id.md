@@ -1,4 +1,4 @@
-﻿---
+---
 title: Perbarui Bidang dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Perbarui Bidang
@@ -7,6 +7,7 @@ description: "Pelajari cara memperbarui bidang di C++. Perbarui bidang secara te
 type: docs
 weight: 30
 url: /id/cpp/update-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Biasanya, bidang yang disisipkan ke Microsoft Word sudah berisi nilai terbaru. Misalnya, jika bidangnya adalah rumus atau nomor halaman, bidang tersebut akan berisi nilai terhitung yang benar untuk versi dokumen yang diberikan. Tetapi jika Anda memiliki aplikasi yang membuat atau memodifikasi dokumen dengan bidang seperti menggabungkan dua dokumen atau mengisinya dengan data, maka idealnya semua bidang harus diperbarui agar dokumen tersebut berguna.

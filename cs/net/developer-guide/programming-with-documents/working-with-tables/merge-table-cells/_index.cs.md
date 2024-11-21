@@ -7,6 +7,7 @@ description: "Jak sloučit buňky tabulky v C#. Zkontrolujte, zda jsou buňky v 
 type: docs
 weight: 40
 url: /cs/net/working-with-merged-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Někdy některé řádky v tabulce vyžadují nadpis nebo velké bloky textu, které zabírají celou šířku tabulky. Pro řádný návrh tabulky může uživatel sloučit několik stolních buněk do jedné. Aspose.Words podporuje sloučené buňky při práci se všemi vstupními formáty, včetně importu HTML obsahu.

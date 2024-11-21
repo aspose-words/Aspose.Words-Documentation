@@ -8,6 +8,7 @@ type: docs
 weight: 170
 url: /java/working-with-table-of-contents/
 aliases: [/java/how-to-insert-and-work-with-the-table-of-contents-field/]
+timestamp: 2024-10-21-11-17-44
 ---
 
 Often you will work with documents containing a table of contents (TOC). Using Aspose.Words you can insert your own table of contents or completely rebuild the existing table of contents in the document using just a few lines of code.

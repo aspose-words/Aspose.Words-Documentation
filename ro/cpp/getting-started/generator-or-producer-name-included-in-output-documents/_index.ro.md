@@ -1,4 +1,4 @@
-﻿---
+---
 title: Numele producătorului în rezultate
 second_title: Aspose.Words pentru C++
 articleTitle: Numele generatorului sau al producătorului în documentele de ieșire
@@ -7,6 +7,7 @@ description: "Aspose.Words pentru C++ adăugați la document numele generatorulu
 type: docs
 weight: 90
 url: /ro/cpp/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Puteți ști cu ușurință dacă un document este produs utilizând Aspose.Words pentru C++. De asemenea, puteți găsi numărul versiunii Aspose.Words pentru C++ care a fost folosit pentru a crea un anumit document de ieșire. Aspose.Words scrie direct aceste informații în documentul generat.

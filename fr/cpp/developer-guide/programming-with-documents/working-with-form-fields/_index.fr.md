@@ -1,4 +1,4 @@
-﻿---
+---
 title: Utilisation des champs de formulaire en C++
 second_title: Aspose.Words pour C++
 articleTitle: Utilisation des champs de formulaire
@@ -7,6 +7,7 @@ description: "Comprendre la fonctionnalité Champs de formulaire, travailler ave
 type: docs
 weight: 380
 url: /fr/cpp/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un document qui contient des blancs à remplir (champs) est appelé formulaire. Par exemple, vous pouvez créer un formulaire d'inscription dans Microsoft Word qui utilise des listes déroulantes à partir desquelles les utilisateurs peuvent sélectionner des entrées. Un champ de formulaire est un emplacement où un type particulier de données, tel qu'un nom ou une adresse, est stocké. Les champs de formulaire dans Microsoft Word incluent la saisie de texte, la zone de liste déroulante et la case à cocher.

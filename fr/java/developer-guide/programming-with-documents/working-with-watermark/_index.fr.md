@@ -7,6 +7,7 @@ type: docs
 description: "Documenter la manipulation du filigrane en utilisant Java."
 weight: 70
 url: /fr/java/working-with-watermark/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ce sujet traite de la façon de travailler programmatiquement avec un filigrane utilisant Aspose.Words. Un filigrane est une image de fond qui s'affiche derrière le texte d'un document. Un filigrane peut contenir un texte ou une image [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) En cours.

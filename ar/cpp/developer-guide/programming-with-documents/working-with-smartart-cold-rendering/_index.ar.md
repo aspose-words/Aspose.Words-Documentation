@@ -1,4 +1,4 @@
-﻿---
+---
 title: العمل مع SmartArt التقديم البارد في C++
 second_title: Aspose.Words ل C++
 articleTitle: العمل مع SmartArt التقديم البارد
@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words ل C++ ينفذ SmartArt التقديم البارد، مما يعني أنه يضع ويعرض SmartArt كائنات إذا كان الرسم SmartArt المعروض مسبقا مفقودا أو غير صحيح."
 weight: 330
 url: /ar/cpp/working-with-smartart-cold-rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 تستخدم SmartArt الرسومات لإنشاء تمثيل مرئي للمعلومات بسرعة وسهولة. يمكنك ببساطة الاختيار من بين عدد كبير من التخطيطات التي تناسب وضعك. سهولة الاستخدام هذه تجعل SmartArt رسومات شائعة جدا لبعض الأغراض.

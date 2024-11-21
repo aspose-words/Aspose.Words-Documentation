@@ -7,6 +7,7 @@ type: docs
 description: "Konvertieren Sie ein Dokument in ein Bildformat (JPG, PNG usw.). Erstellen Sie eine Dokumentenvorschau oder erstellen Sie einen Dokumentenscan, um eine Rechnung mit Python zu versenden."
 weight: 43
 url: /de/python-net/convert-a-document-to-an-image/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Manchmal ist es erforderlich, ein Bild anstelle von Dokumenten in anderen Formaten wie DOCX oder PDF zu erhalten. Beispielsweise müssen Sie Ihrer Website oder Anwendung eine Vorschau einer beliebigen Dokumentseite hinzufügen oder einen "Scan" eines Dokuments erstellen, um eine Rechnung zu senden. In diesem Fall müssen Sie möglicherweise ein Dokument in einem beliebigen [unterstütztes Ladeformat](https://reference.aspose.com/words/python-net/aspose.words/loadformat/)-Format in ein Bild, wiederum in einem beliebigen [unterstütztes Speicherformat](https://reference.aspose.com/words/python-net/aspose.words/saveformat/)-Format, konvertieren.

@@ -7,6 +7,7 @@ description: "Login Aspose.Words Sitemap Android Sitemap JavaSitemap"
 type: docs
 weight: 30
 url: /id/java/your-first-application/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Artikel ini memberi Anda ide untuk memulai dengan Aspose.Words Sitemap Android Sitemap JavaSitemap Ini akan menunjukkan cara mengatur baru Android proyek dari awal, tambahkan referensi ke Aspose.Words JAR dan membuat dokumen baru yang disimpan untuk disk dalam format DOCX. Contoh ini menggunakan [Android Login](https://developer.android.com/studio/index.html) untuk pengembangan dan aplikasi dijalankan pada Android Login Untuk memulai Aspose.Words Sitemap Android Sitemap Java, ikuti tutorial langkah demi langkah ini untuk membuat aplikasi yang menggunakan Aspose.Words Sitemap Android Sitemap JavaSitemap

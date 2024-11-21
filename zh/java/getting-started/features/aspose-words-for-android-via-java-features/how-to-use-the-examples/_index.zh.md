@@ -7,6 +7,7 @@ description: "如何运行 Aspose.Words (单位:千美元) Android 通过 Java �
 type: docs
 weight: 70
 url: /zh/java/how-to-use-the-examples/
+timestamp: 2024-01-27-14-07-04
 ---
 
 首先要确保您安装了 ADT 捆绑,并且您已经下载并提取了最新版本的 [Aspose.Words (单位:千美元) Android 通过 Java](https://releases.aspose.com/words/androidjava/)。 。 。 。

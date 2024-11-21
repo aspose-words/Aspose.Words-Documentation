@@ -7,6 +7,7 @@ description: "Uložit dokument ve většině populárních formátů a podporuje
 type: docs
 weight: 30
 url: /cs/net/supported-features-on-document-save/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words umožňuje uživatelům pracovat s dokumenty v různých formátech a poskytuje k tomu širokou škálu funkcí. Například uživatelé mohou vytvořit dokument od nuly nebo jej načíst, provést nějaké změny a pak uložit změny ve výstupním souboru v libovolném [Podporované formáty dokumentů](/words/cs/net/supported-document-formats/). Při ukládání dokumentu ve zvoleném formátu může uživatel použít různé možnosti uložení.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: کار با ستون ها و ردیف ها در C++
 second_title: Aspose.Words برای C++
 articleTitle: کار با ستون ها و ردیف ها
@@ -7,6 +7,7 @@ description: "کار با بخش هایی از یک جدول – ردیف ها،
 type: docs
 weight: 30
 url: /fa/cpp/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 برای کنترل بیشتر بر نحوه کار جداول، یاد بگیرید که چگونه ستون ها و ردیف ها را دستکاری کنید.

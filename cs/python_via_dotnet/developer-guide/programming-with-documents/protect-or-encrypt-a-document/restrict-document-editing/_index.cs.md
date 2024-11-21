@@ -7,6 +7,7 @@ description: "Omezit úpravu dokumentu nastavením typu omezení pomocí Python.
 type: docs
 weight: 30
 url: /cs/python-net/restrict-document-editing/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Někdy budete muset omezit schopnost editovat dokument a povolit pouze určité akce s ním. To může být užitečné, aby se zabránilo ostatním lidem v editaci citlivých a důvěrných informací ve vašem dokumentu.

@@ -7,6 +7,7 @@ description: "การจัดการโหนดย่อหน้าโด
 type: docs
 weight: 210
 url: /th/java/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 วรรคเป็นชุดของตัวละครรวมกันเป็นบล็อกตรรกะและสิ้นสุดด้วยตัวละครพิเศษ - * ความหมาย * ใน Aspose.Words, วรรคนี้แสดงโดย [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) ชั้นเรียน.

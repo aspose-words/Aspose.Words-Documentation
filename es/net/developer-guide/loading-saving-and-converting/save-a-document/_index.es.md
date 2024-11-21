@@ -8,6 +8,7 @@ description: "Guarde un documento en cualquier formato compatible usando C#."
 keywords: "save a document c#, save a document to file c#, save a document to stream c#, save a document Aspose .NET, save formats supported by Aspose.Words .NET"
 weight: 20
 url: /es/net/save-a-document/
+timestamp: 2024-07-09-19-00-42
 ---
 
 La mayoría de las tareas que necesita realizar con Aspose.Words implican guardar un documento. Para guardar un documento Aspose.Words proporciona el método [Save](https://reference.aspose.com/words/es/net/aspose.words/document/save/) de la clase [Document](https://reference.aspose.com/words/es/net/aspose.words/document/). Hay sobrecargas que permiten guardar un documento en un archivo, secuencia u objeto ASP.NET HttpResponse para enviarlo a un navegador cliente. El documento se puede guardar en cualquier formato compatible con Aspose.Words. Para obtener la lista de todos los formatos de guardado admitidos, consulte la enumeración [SaveFormat](https://reference.aspose.com/words/es/net/aspose.words/saveformat/).

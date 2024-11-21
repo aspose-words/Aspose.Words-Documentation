@@ -1,4 +1,4 @@
-﻿---
+---
 title: การทำงานกับแผนภูมิในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: การทำงานกับแผนภูมิ
@@ -7,6 +7,7 @@ description: "บทนำเกี่ยวกับคุณลักษณะ
 type: docs
 weight: 170
 url: /th/cpp/how-to-set-fill-and-stroke-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 กรอกข้อมูลและการจัดรูปแบบจังหวะสามารถตั้งค่าสำหรับชุดแผนภูมิจุดข้อมูลและเครื่องห ในการทำเช่นนี้คุณต้องใช้คุณสมบัติของ**ChartFormat**ชนิดในชั้นเรียน**ChartSeries**,**ChartDataPoint**และ**ChartMarker**รวมทั้งนามแฝงสำหรับคุณสมบัติบางอย่างเช่นForeColor,BackColor,ที่มองเห็นได้และความโปร่งใสในชั้นเรียน`Stroke`.

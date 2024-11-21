@@ -7,6 +7,7 @@ description: "Pochopení konceptů záložky a jak lze použít záložku ve va�
 type: docs
 weight: 180
 url: /cs/java/working-with-bookmarks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Záložky identifikovat v Microsoft Word dokumentovat místa nebo fragmenty, které jmenujete a identifikovat pro budoucí odkaz. Například můžete použít záložku k identifikaci textu, který chcete později revidovat. Místo procházení dokumentem k nalezení textu můžete přejít k němu pomocí dialogového okna Záložka.

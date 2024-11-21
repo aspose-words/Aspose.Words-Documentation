@@ -7,6 +7,7 @@ description: "Únete a Tablas en Java. Manipulaciones de mesa avanzadas, unirse 
 type: docs
 weight: 90
 url: /es/java/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Una tabla, representada en el Aspose.Words Document Object Model, está formado por filas y células independientes, lo que hace fácil unir tablas.

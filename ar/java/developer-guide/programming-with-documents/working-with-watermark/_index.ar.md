@@ -7,6 +7,7 @@ type: docs
 description: "التلاعب بالعلامات المائية باستخدام Java."
 weight: 70
 url: /ar/java/working-with-watermark/
+timestamp: 2024-01-27-14-07-04
 ---
 
 يناقش هذا الموضوع كيفية العمل على نحو برنامجي باستخدام علامة الماء Aspose.Words. A watermark is a background image that displays behind the text in a document. يمكن لعلامة الماء أن تحتوي على نص أو صورة يمثلها [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) الصف

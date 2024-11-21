@@ -7,6 +7,7 @@ description: "使用 Python 通过高级选项将文档转换为 PDF。使用 Pd
 type: docs
 weight: 20
 url: /zh/python-net/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
 PDF格式是一种固定页面格式，在用户中非常流行，并受到各种应用程序的广泛支持，因为PDF文档在任何设备上看起来都是一样的。因此，转换为 PDF 是 Aspose.Words 的一个重要功能。

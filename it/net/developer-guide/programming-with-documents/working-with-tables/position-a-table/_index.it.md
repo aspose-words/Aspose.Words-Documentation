@@ -7,6 +7,7 @@ description: "Specificare la posizione della tabella in C#. Ottieni un allineame
 type: docs
 weight: 50
 url: /it/net/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Esistono tabelle mobili e tabelle in linea:

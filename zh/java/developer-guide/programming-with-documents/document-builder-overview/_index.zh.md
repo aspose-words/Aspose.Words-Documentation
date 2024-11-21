@@ -7,6 +7,7 @@ type: docs
 description: "文档构建器允许您从零开始构建动态文档,或者在现有文档中添加新的元素。 文档构建器提供了插入文本、复选框、表格、图像和其他内容元素的方法 Java。 。 。 。"
 weight: 30
 url: /zh/java/document-builder-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) 是一个强大的阶级,与 [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) ,并允许您从零开始构建动态文档,或者在已有文档中添加新的元素。

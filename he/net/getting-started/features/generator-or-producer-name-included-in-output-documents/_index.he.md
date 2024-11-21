@@ -7,6 +7,7 @@ description: "Aspose.Words עבור .NET הוסף את המסמך שם הגנר�
 type: docs
 weight: 60
 url: /he/net/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 אתה יכול בקלות לדעת אם מסמך מיוצר על ידי שימוש Aspose.Words עבור .NET. ניתן גם למצוא את מספר הגירסה של Aspose.Words עבור .NET זה שימש ליצירת מסמך פלט מסוים. Aspose.Words כותב ישירות את המידע הזה במסמך שנוצר.

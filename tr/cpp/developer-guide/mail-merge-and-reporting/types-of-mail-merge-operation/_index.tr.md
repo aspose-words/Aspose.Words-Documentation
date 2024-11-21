@@ -1,4 +1,4 @@
-﻿---
+---
 title: Türleri Mail Merge Operasyon C++
 second_title: Aspose.Words için C++
 articleTitle: Türleri Mail Merge Operasyon
@@ -8,6 +8,7 @@ description: "İki farklı tür gerçekleştirin mail merge işlemler: basit mai
 keywords: "how to execute mail merge c++"
 weight: 20
 url: /tr/cpp/types-of-mail-merge-operations/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Ana fikri mail merge şablonunuza ve veri kaynağınızdan alınan verilere dayalı olarak otomatik olarak bir belge veya birkaç belge oluşturmaktır. Aspose.Words iki farklı tür gerçekleştirmenizi sağlar mail merge işlemler: basit mail merge ve mail merge bölgelerle.

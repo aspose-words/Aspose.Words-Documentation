@@ -7,6 +7,7 @@ description: "How to get free Support or Contribute to Aspose.Words for Ruby."
 type: docs
 weight: 30
 url: /java/support-extend-and-contribute-to-aspose-words-in-ruby/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Support

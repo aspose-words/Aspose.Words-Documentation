@@ -1,4 +1,4 @@
-﻿---
+---
 title: 범위 작업 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 범위 작업
@@ -7,6 +7,7 @@ description: "범위 기능 소개 Aspose.Words 에 대한 C++."
 type: docs
 weight: 130
 url: /ko/cpp/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

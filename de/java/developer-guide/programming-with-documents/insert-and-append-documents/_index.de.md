@@ -7,6 +7,7 @@ description: "Kombinieren Sie Dokumente in eins: Einfügen oder Anfügen eines D
 type: docs
 weight: 80
 url: /de/java/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Manchmal ist es erforderlich, mehrere Dokumente zu einem zu kombinieren. Sie können dies manuell tun oder Sie können Aspose.Words einfügen oder anhängen Funktion.

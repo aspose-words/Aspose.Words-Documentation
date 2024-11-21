@@ -1,4 +1,4 @@
-﻿---
+---
 title: Composing Expressions in Java
 second_title: Aspose.Words for Java
 articleTitle: Composing Expressions
@@ -7,6 +7,7 @@ description: "Compose expressions when building a report in Java. The complexity
 type: docs
 weight: 10
 url: /java/composing-expressions/
+timestamp: 2024-01-27-14-07-04
 ---
 
 *Expression* is a central concept of the template syntax. Every tag is bound with an expression that is evaluated during runtime, and its result is used by LINQ Reporting Engine according to the tag's role.

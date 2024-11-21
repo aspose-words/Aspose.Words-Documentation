@@ -1,4 +1,4 @@
-﻿---
+---
 title: Détecter le Format de Fichier et vérifier la compatibilité des Formats
 second_title: Aspose.Words pour C++
 articleTitle: Détecter le Format de Fichier et vérifier la compatibilité des Formats
@@ -7,6 +7,7 @@ description: "Déterminez le format de fichier en C++ si vous n'êtes pas sûr d
 type: docs
 weight: 20
 url: /fr/cpp/detect-file-format-and-check-format-compatibility/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Parfois, il est nécessaire de déterminer le format d'un document avant de l'ouvrir car l'extension de fichier ne garantit pas que le contenu du fichier est approprié. Par exemple, il est connu que Crystal Reports produit souvent des documents au format RTF, mais leur donne le .extension de document.

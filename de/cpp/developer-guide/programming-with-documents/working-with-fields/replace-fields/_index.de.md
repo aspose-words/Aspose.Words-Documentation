@@ -1,4 +1,4 @@
-﻿---
+---
 title: Felder ersetzen C++
 second_title: Aspose.Words für C++
 articleTitle: Felder durch statischen Text ersetzen
@@ -7,6 +7,7 @@ description: "Erfahren Sie, wie Sie Felder in C++ durch Text ersetzen. Ersetzen 
 type: docs
 weight: 37
 url: /de/cpp/replace-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Das Ersetzen von Feldern ist häufig erforderlich, wenn Sie Ihr Dokument als statische Kopie speichern möchten. Zum Beispiel beim Senden als Anhang in einer E-Mail. Wenn Sie Felder wie `DATE` oder `TIME` in statischen Text konvertieren, wird im Dokument dasselbe Datum angezeigt, an dem es gesendet wurde. In einigen Situationen müssen Sie möglicherweise auch die bedingten `IF` -Felder aus Ihrem Dokument entfernen und stattdessen durch das neueste Textergebnis ersetzen. Konvertieren Sie beispielsweise das Ergebnis des Felds `IF` in statischen Text, damit es seinen Wert nicht mehr dynamisch ändert, wenn Felder im Dokument aktualisiert werden.

@@ -7,6 +7,7 @@ description: "Buat dan kelola Objek Tipe OfficeMath dalam dokumen menggunakan Py
 type: docs
 weight: 320
 url: /id/python-net/working-with-officemath/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Sekarang bekerja dengan Objek Tipe OfficeMath menjadi lebih nyaman. Di Aspose.Words, pelanggan dapat dengan mudah melakukan Justify dan juga dapat mengatur apakah suatu persamaan ditampilkan sebaris atau dalam baris terpisah. Terlebih lagi, dengan tersedianya [MathObjectType](https://reference.aspose.com/words/python-net/aspose.words.math/mathobjecttype/); kontrol yang berguna dapat diimplementasikan dengan menggunakan objek matriks ini.

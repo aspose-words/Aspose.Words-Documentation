@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trabajar con gráficos en C++
 second_title: Aspose.Words para C++
 articleTitle: Trabajar con Gráficos
@@ -7,6 +7,7 @@ description: "Introducción a la función de gráficos, cómo crear y manipular 
 type: docs
 weight: 170
 url: /es/cpp/how-to-set-fill-and-stroke-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 El formato de relleno y trazo se puede configurar para series de gráficos, puntos de datos y marcadores. Para hacer esto, debe usar las propiedades del tipo **ChartFormat** en las clases **ChartSeries**, **ChartDataPoint** y **ChartMarker**, así como alias para algunas propiedades, como ForeColor, BackColor, Visible y Transparencia en la clase `Stroke`.

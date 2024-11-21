@@ -7,6 +7,7 @@ description: "Exemplu de completare a unei tabele de documente din baza externă
 type: docs
 weight: 120
 url: /ro/net/how-to-build-a-table-from-a-datatable/
+timestamp: 2024-09-25-11-08-55
 ---
 
 De multe ori aplicația ta va extrage date dintr-o bază de date și le va stoca sub forma unei **DataTable**. Puteți introduce cu ușurință aceste date în documentul dvs. ca o nouă tabelă și puteți aplica rapid formatarea pentru întreaga tabelă.

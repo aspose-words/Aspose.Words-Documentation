@@ -1,4 +1,4 @@
-﻿---
+---
 title: Page Margins
 second_title: Aspose.Words for JasperReports
 articleTitle: Page Margins
@@ -7,6 +7,7 @@ description: "JasperReports print model does not allow exporters to detect the p
 type: docs
 weight: 40
 url: /jasperreports/page-margins/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

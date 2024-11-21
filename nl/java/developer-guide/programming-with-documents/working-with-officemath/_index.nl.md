@@ -7,6 +7,7 @@ type: docs
 description: "Inleiding tot Office Math functie in Aspose.Words voor Java."
 weight: 320
 url: /nl/java/working-with-officemath/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Nu is het nog handiger om te werken met OfficeMath Type Objects. In Aspose.Words, de klant kan eenvoudig Justificeren en ook beheren of een vergelijking inline of in een aparte regel wordt weergegeven. Meer zo, met de beschikbaarheid van **MathObjectType**; nuttige controles kunnen worden uitgevoerd door gebruik te maken van dit matrix object.

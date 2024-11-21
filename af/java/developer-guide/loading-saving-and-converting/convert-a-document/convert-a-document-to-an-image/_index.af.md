@@ -1,4 +1,4 @@
-﻿---
+---
 title: Skakel'n Dokument om na'n Prent in Java
 second_title: Aspose.Words vir Java
 articleTitle: Skakel'n Dokument om Na'n Beeldlêer
@@ -7,6 +7,7 @@ type: docs
 description: "Skakel'n dokument om na beeldformaat (JPG, PNG, ens.). Skep'n dokumentvoorskou of skep'n dokumentskandering om'n faktuur te stuur met Java."
 weight: 35
 url: /af/java/convert-a-document-to-an-image/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Soms is dit nodig om'n beeld te kry in plaas van dokumente in ander formate, soos DOCX of PDF. Byvoorbeeld, jy moet'n voorskou van enige dokumentbladsy by jou webwerf of toepassing voeg of'n "skandering" van'n dokument skep om'n faktuur te stuur. Dit is wanneer jy dalk'n dokument in enige [supported load format](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) moet omskep in'n prent, weer, in enige [supported save format](https://reference.aspose.com/words/java/com.aspose.words/saveformat/).

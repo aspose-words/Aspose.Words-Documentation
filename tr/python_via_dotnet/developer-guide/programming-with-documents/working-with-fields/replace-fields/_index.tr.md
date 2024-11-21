@@ -7,6 +7,7 @@ description: "Python'te alanları metinle nasıl değiştireceğinizi öğrenin.
 type: docs
 weight: 37
 url: /tr/python-net/replace-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Belgenizi statik bir kopya olarak kaydetmek istediğinizde genellikle alanların değiştirilmesi gerekir. Örneğin, bir e-postaya ek olarak gönderirken. `DATE` veya `TIME` gibi alanların statik metne dönüştürülmesi, belgenin gönderildiği tarihle aynı tarihi görüntülemesine olanak tanır. Ayrıca bazı durumlarda koşullu `IF` alanlarını belgenizden kaldırmanız ve bunların yerine en yeni metin sonucuyla değiştirmeniz gerekebilir. Örneğin, `IF` alanının sonucunu statik metne dönüştürmek, böylece belgedeki alanlar güncellendiğinde değerinin artık dinamik olarak değişmemesini sağlamak.

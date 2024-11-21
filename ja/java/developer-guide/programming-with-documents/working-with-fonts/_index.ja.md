@@ -7,6 +7,7 @@ description: "詳細はフォントのフォーマット Javaお問い合わせ"
 type: docs
 weight: 230
 url: /ja/java/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 フォントは、特定のサイズ、色、設計の文字のセットです。 Aspose.Words さまざまなフォント関連のクラスを使用してフォントを扱うことができます。 [Font](https://reference.aspose.com/words/java/com.aspose.words/font/) クラス。

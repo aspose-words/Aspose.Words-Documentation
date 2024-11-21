@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++のMail Merge操作のタイプ
 second_title: Aspose.WordsのためのC++
 articleTitle: Mail Merge操作のタイプ
@@ -8,6 +8,7 @@ description: "2つの異なるタイプのmail merge操作を実行します:単
 keywords: "how to execute mail merge c++"
 weight: 20
 url: /ja/cpp/types-of-mail-merge-operations/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Mail mergeの主なアイデアは、テンプレートとデータソースから取得したデータに基づいて、ドキュメントまたは複数のドキュメントを自動的に作成するこ Aspose.Wordsを使用すると、2つの異なるタイプのmail merge操作を実行できます:単純なmail mergeとmail mergeリージョンを使用します。

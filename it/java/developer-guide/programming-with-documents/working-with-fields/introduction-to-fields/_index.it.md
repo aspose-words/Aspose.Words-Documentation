@@ -7,6 +7,7 @@ description: "I campi sono caratterizzati da dettagli, codici di campo e risulta
 type: docs
 weight: 10
 url: /it/java/introduction-to-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words è una libreria di classe progettata per l'elaborazione lato server di Microsoft Word documenti e supporti campi nei seguenti modi:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu hyperlink-uri
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Adăugați sau modificați hyperlink-uri
@@ -7,6 +7,7 @@ description: "Adăugați, înlocuiți sau modificați un hyperlink într-un docu
 type: docs
 weight: 50
 url: /ro/python-net/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un hyperlink în documentele Microsoft Word este câmpul `HYPERLINK`. În Aspose.Words, hyperlink-urile sunt implementate prin clasa [FieldHyperlink](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldhyperlink/).

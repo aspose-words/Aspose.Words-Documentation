@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk met PDF/A of PDF/UA
 second_title: Aspose.Words vir .NET
 articleTitle: Werk met PDF/A of PDF/UA
@@ -7,6 +7,7 @@ description: "Skakel om na PDF/A-1, PDF/A-2, PDF/A-4 en PDF/UA met behulp van C#
 type: docs
 weight: 28
 url: /af/net/working-with-pdfa-or-pdfua/
+timestamp: 2024-07-10-14-38-57
 ---
 
 PDF/A en PDF/UA formaat stel verskeie vereistes wat verband hou met die dokumentinhoud wat nie tydens outomatiese omskakeling van'n dokument in Word-formaat na PDF vervul kan word nie. Hierdie vereistes moet geverifieer en reggestel word in'n Word-dokument voor omskakeling of in'n PDF - dokument na omskakeling om'n volledig PDF/A en PDF/UA - versoenbare dokument te produseer.

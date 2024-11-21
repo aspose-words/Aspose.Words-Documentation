@@ -10,6 +10,7 @@ description: "Create different regions in your template to have special areas th
 keywords: "how to execute mail merge c++"
 weight: 20
 url: /cpp/mail-merge-with-regions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 You can create different regions in your template to have special areas that you can simply fill with your data. Use the mail merge with regions if you want to insert tables, rows with repeating data to make your documents dynamically grow by specifying those regions within your template.

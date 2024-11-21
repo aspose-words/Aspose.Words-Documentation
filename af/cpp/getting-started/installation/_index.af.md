@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hoe om te installeer Aspose.Words vir C++
 second_title: Aspose.Words vir C++
 articleTitle: Installasie
@@ -7,6 +7,7 @@ description: "Installeer Aspose.Words vir C++ Gebruik Bestuur NuGet Pakkette of 
 type: docs
 weight: 10
 url: /af/cpp/installation/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Maak seker dat jou masjien voldoen aan die [stelselvereistes](/words/cpp/system-requirements/) voordat jy begin.

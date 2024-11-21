@@ -1,4 +1,4 @@
-﻿---
+---
 title: 글꼴 조작 및 성능 문제 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 글꼴 조작 및 성능 문제
@@ -7,6 +7,7 @@ description: "Aspose.Words 에 대한 C++ 필요한 글꼴 데이터 또는 요�
 type: docs
 weight: 11
 url: /ko/cpp/font-manipulation-and-performance-issues/
+timestamp: 2024-09-24-14-35-44
 ---
 
 사용 가능한 모든 글꼴 조작 메커니즘은 [FontSettings](https://reference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings) 수업 이 클래스는 정의 된 글꼴 소스 내에서 글꼴을 가져 오기뿐만 아니라 아래에 설명 된대로 글꼴 대체 프로세스에 대한 책임이 있습니다.

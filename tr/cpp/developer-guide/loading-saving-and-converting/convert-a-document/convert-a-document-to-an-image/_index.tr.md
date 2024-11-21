@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bir Belgeyi C++ içindeki Bir Görüntüye Dönüştürme
 second_title: Aspose.Words için C++
 articleTitle: Belgeyi Görüntüye Dönüştürme
@@ -7,6 +7,7 @@ type: docs
 description: "Bir belgeyi görüntü biçimine dönüştürün (JPG, PNG, vb.). Fatura göndermek için belge önizlemesi oluşturun veya belge taraması oluşturun."
 weight: 43
 url: /tr/cpp/convert-a-document-to-an-image/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Bazen DOCX veya PDF gibi diğer formatlardaki belgeler yerine bir görüntü elde etmek gerekir. Örneğin, web sitenize veya uygulamanıza herhangi bir belge sayfasının önizlemesini eklemeniz veya fatura göndermek için bir belgenin "taramasını" oluşturmanız gerekir. Bu, herhangi bir [supported load format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) içindeki bir belgeyi yine herhangi bir [supported save format](https://reference.aspose.com/words/cpp/aspose.words/saveformat/) içindeki bir görüntüye dönüştürmeniz gerekebileceği zamandır.

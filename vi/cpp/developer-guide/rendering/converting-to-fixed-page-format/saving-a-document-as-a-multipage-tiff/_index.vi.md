@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lưu Tài liệu Dưới Dạng Nhiều trang TIFF trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Lưu Tài liệu Dưới Dạng Nhiều trang TIFF
@@ -7,6 +7,7 @@ description: "Chuyển đổi tài liệu thành nhiều trang TIFF bằng C++. 
 type: docs
 weight: 40
 url: /vi/cpp/saving-a-document-as-a-multipage-tiff/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Khi làm việc với tài liệu, bạn thường cần chuyển đổi tài liệu của mình thành(các) tệp hình ảnh raster. Điều này đặc biệt phù hợp nếu bạn phải trình bày tài liệu của mình ở định dạng có thể đọc và in, nhưng không thể chỉnh sửa. Ví dụ: bạn có thể sử dụng hình ảnh raster của trang đầu tiên của tài liệu làm bản xem trước. Bài viết này mô tả cách chuyển đổi tài liệu sang hình ảnh raster bằng ví dụ về định dạng TIFF – một trong những định dạng hình ảnh phổ biến hơn.

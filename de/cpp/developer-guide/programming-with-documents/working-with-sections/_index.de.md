@@ -1,4 +1,4 @@
-﻿---
+---
 title: Arbeiten mit Abschnitten in C++
 second_title: Aspose.Words für C++
 articleTitle: Arbeiten mit Abschnitten
@@ -7,6 +7,7 @@ description: "Verständnis von Dokumentabschnittskonzepten und Manipulationsprak
 type: docs
 weight: 120
 url: /de/cpp/working-with-sections/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Manchmal möchten Sie ein Dokument, das nicht auf allen Seiten die gleiche Formatierung aufweist. Beispielsweise müssen Sie möglicherweise Seitenzahlenformate ändern, eine andere Seitengröße und -ausrichtung haben oder die erste Dokumentseite als Deckblatt ohne Nummerierung verwenden. Das können Sie mit Abschnitten erreichen.

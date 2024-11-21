@@ -7,6 +7,7 @@ description: "U kunt het veld wijzigen met behulp van Python. Velden van het doc
 type: docs
 weight: 10
 url: /nl/python-net/fields-overview/
+timestamp: 2024-10-21-11-17-44
 ---
 
 

@@ -7,6 +7,7 @@ description: "使用 Python 将 group shape 添加到文档中。"
 type: docs
 weight: 290
 url: /zh/python-net/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有时您需要将 group shape 添加到 Word 文档中。这样的 group shape 由多种形状组成。

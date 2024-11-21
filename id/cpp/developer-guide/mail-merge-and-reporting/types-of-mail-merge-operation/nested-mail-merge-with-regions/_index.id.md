@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bersarang Mail Merge dengan Wilayah dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Bersarang Mail Merge dengan Wilayah
@@ -8,6 +8,7 @@ description: "Lakukan operasi mail merge dengan wilayah bersarang menggunakan C+
 keywords: "mail merge with nested regions c++"
 weight: 30
 url: /id/cpp/nested-mail-merge-with-regions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Dalam beberapa skenario, Anda mungkin perlu menggunakan mail merge bersarang dengan wilayah. Penggabungan bersarang adalah fitur yang memungkinkan Anda menggabungkan data hierarki dari sumber data ke dalam templat penggabungan untuk mengisi dokumen Anda dengan mudah. Pada dasarnya, data hierarkis direpresentasikan sebagai sekumpulan item data, dan hubungan hierarkis menggambarkan bagaimana item data terkait satu sama lain (satu item data adalah induk dari item lainnya).

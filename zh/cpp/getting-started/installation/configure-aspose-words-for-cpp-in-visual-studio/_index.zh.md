@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在Visual Studio中配置产品
 second_title: Aspose.Words为C++
 articleTitle: 配置 Aspose.Words为C++ 在Visual Studio
@@ -7,6 +7,7 @@ description: "手动配置 Aspose.Words为C++ 在Visual Studio。"
 type: docs
 weight: 90
 url: /zh/cpp/configure-aspose-words-for-cpp-in-visual-studio/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Aspose.Words 对应 C++ API 适用于 Visual Studio 2022 或更高版本。要使用 Visual Studio，您可能需要安装 Visual C++ Redistributable[ Microsoft 官方网站](https://docs.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170)。

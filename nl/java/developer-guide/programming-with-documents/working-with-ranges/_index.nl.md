@@ -7,6 +7,7 @@ description: "Inleiding tot bereik functie in Aspose.Words voor Java."
 type: docs
 weight: 130
 url: /nl/java/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

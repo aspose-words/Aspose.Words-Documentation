@@ -8,6 +8,7 @@ description: "Use this introduction to Aspose.Words for Python via .NET fundamen
 weight: 20
 url: /python-net/getting-started/
 aliases: [/python/getting-started/]
+timestamp: 2024-09-25-11-08-55
 ---
 
 This Getting Started provides an introduction to Aspose.Words fundamentals. For users new to Aspose.Words, this is the fastest way to learn the basic requirements and capabilities.

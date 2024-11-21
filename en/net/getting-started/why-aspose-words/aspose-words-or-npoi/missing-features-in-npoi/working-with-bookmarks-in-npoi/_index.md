@@ -7,6 +7,7 @@ description: "Add a bookmark into a document. NPOI does not provide an opportuni
 type: docs
 weight: 80
 url: /net/working-with-bookmarks-in-npoi/
+timestamp: 2024-01-31-14-23-37
 ---
 
 {{% alert color="primary" %}}

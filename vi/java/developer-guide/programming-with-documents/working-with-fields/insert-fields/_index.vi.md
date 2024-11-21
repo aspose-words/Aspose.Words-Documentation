@@ -7,6 +7,7 @@ description: "Các cách khác nhau để chèn các trường vào tài liệu 
 type: docs
 weight: 20
 url: /vi/java/insert-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Có nhiều cách khác nhau để chèn các trường vào một tài liệu:

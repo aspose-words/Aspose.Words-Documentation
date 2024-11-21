@@ -1,4 +1,4 @@
-﻿---
+---
 title: Chỉ định vị trí Phông chữ TrueType Trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Chỉ Định Vị Trí Phông Chữ TrueType
@@ -7,6 +7,7 @@ description: "Chỉ định các nguồn phông chữ TrueType khác nhau: thư 
 type: docs
 weight: 30
 url: /vi/cpp/specify-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Chủ đề này mô tả hành vi mặc định của Aspose.Words khi tìm kiếm phông chữ TrueType, bao gồm sự khác biệt cụ thể của hệ điều hành và trình bày cách chỉ định nguồn phông chữ của người dùng.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Pulire un documento in C++
 second_title: Aspose.Words per C++
 articleTitle: Pulire un documento
@@ -7,6 +7,7 @@ description: "Rimuovere le informazioni inutilizzate o duplicate per ridurre le 
 type: docs
 weight: 30
 url: /it/cpp/clean-up-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A volte potrebbe essere necessario rimuovere le informazioni inutilizzate o duplicate per ridurre le dimensioni del documento di output e il tempo di elaborazione.

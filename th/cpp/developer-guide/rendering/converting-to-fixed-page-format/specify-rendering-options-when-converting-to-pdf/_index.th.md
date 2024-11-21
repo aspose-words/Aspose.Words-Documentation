@@ -1,4 +1,4 @@
-﻿---
+---
 title: ระบุตัวเลือกการแสดงผลเมื่อแปลงเป็นPDF
 second_title: Aspose.WordsสำหรับC++
 articleTitle: ระบุตัวเลือกการแสดงผลเมื่อแปลงเป็นPDF
@@ -7,6 +7,7 @@ description: "แปลงเอกสารเป็นPDFด้วยตัว
 type: docs
 weight: 30
 url: /th/cpp/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
 รูปแบบPDFเป็นรูปแบบหน้าถาวรที่เป็นที่นิยมมากในหมู่ผู้ใช้และได้รับการสนับสนุนอย่างกว้างขว ด้วยเหตุนี้การแปลงเป็นPDFเป็นคุณลักษณะสำคัญของAspose.Words.

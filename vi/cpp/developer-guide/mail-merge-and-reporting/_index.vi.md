@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge Và Báo cáo trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Mail Merge và Báo cáo
@@ -8,6 +8,7 @@ description: "Mail Merge là một tính năng phổ biến để nhanh chóng t
 keywords: "how to use mail merge c++"
 weight: 30
 url: /vi/cpp/mail-merge-and-reporting/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Mail Merge là một tính năng phổ biến để nhanh chóng và dễ dàng tạo các tài liệu như chữ cái, nhãn và phong bì. Aspose.Words cho phép bạn tạo tài liệu từ các mẫu với mail merge lĩnh vực.

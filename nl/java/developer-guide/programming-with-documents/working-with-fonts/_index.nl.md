@@ -7,6 +7,7 @@ description: "Lettertypeopmaak in details met behulp van Java."
 type: docs
 weight: 230
 url: /nl/java/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Een lettertype is een verzameling tekens met een bepaalde grootte, kleur en ontwerp. Aspose.Words kunt u werken met lettertypen met behulp van verschillende lettertype-gerelateerde klassen, waaronder de [Font](https://reference.aspose.com/words/java/com.aspose.words/font/) Klasse.

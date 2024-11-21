@@ -1,4 +1,4 @@
-﻿---
+---
 title: FAQ
 second_title: Aspose.Words vir .NET
 articleTitle: FAQ – Aspose.Words vir .NET
@@ -9,6 +9,7 @@ type: docs
 description: "Aspose.Words vir .NET beantwoord die mees algemene vrae. Leer hierdie bladsy om u probleem oor algemene vrae of spesifieke onderwerpe vinnig op te los."
 weight: 75
 url: /af/net/faq/
+timestamp: 2024-11-18-12-56-02
 ---
 
 Hierdie bladsy bevat antwoorde op die vrae wat die meeste gevra word. Leer asseblief die huidige bladsy-miskien sal dit jou toelaat om jou probleem vinnig op te los.

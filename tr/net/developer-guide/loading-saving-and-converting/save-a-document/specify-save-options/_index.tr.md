@@ -7,6 +7,7 @@ description: "C#'i kullanarak kaydetme işlemini daha doğru bir şekilde kontro
 type: docs
 weight: 10
 url: /tr/net/specify-save-options/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Bir belgeyi kaydederken bazı gelişmiş özellikleri ayarlayabilirsiniz. Aspose.Words size kaydetme sürecinin daha hassas kontrolüne olanak tanıyan [SaveOptions](https://reference.aspose.com/words/tr/net/aspose.words.saving/saveoptions/) sınıfını sağlar. Bir **SaveOptions** nesnesini kabul eden **Save** yönteminde aşırı yüklemeler vardır; bu, **SaveOptions** sınıfından türetilmiş bir sınıfın nesnesi olmalıdır. Her kaydetme biçiminin, bu kaydetme biçimi için kaydetme seçeneklerini içeren karşılık gelen bir sınıfı vardır; örneğin, PDF biçiminde kaydetmek için [PdfSaveOptions](https://reference.aspose.com/words/tr/net/aspose.words.saving/pdfsaveoptions/), Markdown biçiminde kaydetmek için [MarkdownSaveOptions](https://reference.aspose.com/words/tr/net/aspose.words.saving/markdownsaveoptions/) veya bir görüntüye kaydetmek için [ImageSaveOptions](https://reference.aspose.com/words/tr/net/aspose.words.saving/imagesaveoptions/) vardır. Bu makalede, **SaveOptions**'ten türetilen bazı seçenek sınıflarıyla çalışma örnekleri verilmektedir.

@@ -7,6 +7,7 @@ description: "Maak, bewerk en sla uw eerste document op in elk ondersteund forma
 type: docs
 weight: 20
 url: /nl/java/hello-world/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Een "Hallo, World!" code is vaak het eerste eenvoudige voorbeeld om te schrijven uisng "Aspose.Words voor Java", en het kan ook worden gebruikt als een gezonde test om ervoor te zorgen dat de software bedoeld om te compileren of draaien broncode correct is geïnstalleerd.

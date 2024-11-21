@@ -7,6 +7,7 @@ description: "最高のPDF標準を選択して、プログラミングタスク
 type: docs
 weight: 27
 url: /ja/java/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 一部のタスクでは、特定のPDF規格がより良く、またはその逆に悪化します。 この記事では、どのPDF規格を選択するかを判断します。

@@ -7,6 +7,7 @@ description: "PDF/A und PDF/UA verhängen Zugänglichkeitsanforderungen im Zusam
 type: docs
 weight: 29
 url: /de/java/warnings-when-saving-to-pdfa-and-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 PDF/A- und PDF/UA-Formate stellen eine Reihe von Barrierefreiheitsanforderungen im Zusammenhang mit Dokumenteninhalten vor, die bei der automatischen Umwandlung von Word in PDF nicht erfüllt werden können. Diese Anforderungen werden im vorherigen Artikel *"Working with PDF/A oder PDF/UA"* beschrieben. Jetzt werden Warnungen für einige dieser Probleme ausgegeben.

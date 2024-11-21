@@ -1,4 +1,4 @@
-﻿---
+---
 title: Ondersteunde Kenmerke Op Dokument Stoor
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Ondersteunde Kenmerke Op Dokument Stoor
@@ -7,6 +7,7 @@ description: "Stoor u dokument in enige ondersteunde formaat met Python. Omskep 
 type: docs
 weight: 30
 url: /af/python-net/supported-features-on-document-save/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words het van die mees gevorderde omskakelingsondersteuning van die algemene woordverwerkingsformate.

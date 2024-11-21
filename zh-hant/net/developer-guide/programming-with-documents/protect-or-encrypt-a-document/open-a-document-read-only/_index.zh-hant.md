@@ -7,6 +7,7 @@ description: "讓你的檔案僅供讀取，以便可以複製或閱讀其內容
 type: docs
 weight: 10
 url: /zh-hant/net/open-a-document-read-only/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有時，你可能會有一份需要審查的文件，但是你不想讓審查人員隨意修改你的內容。透過 Aspose.Words ，您可以設定您的文件權限為只讀，這樣就可以讓内容被複製或閱讀，但不能被修改。 這將防止您的檔案中內容被移除或加入。

@@ -7,6 +7,7 @@ description: "סעיף זה מספק השוואה של זמינות של תכו�
 type: docs
 weight: 90
 url: /he/java/aspose-words-for-android-via-java-features/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Aspose.Words עבור Android באמצעות Java תכונות סקירה

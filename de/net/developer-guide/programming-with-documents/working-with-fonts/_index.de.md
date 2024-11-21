@@ -7,6 +7,7 @@ description: "Einzelheiten zur Schriftartformatierung mit C#. Hervorhebungszeich
 type: docs
 weight: 230
 url: /de/net/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Eine Schriftart ist eine Reihe von Zeichen mit einer bestimmten Größe, Farbe und einem bestimmten Design. Mit Aspose.Words können Sie mit Schriftarten arbeiten, indem Sie den [Fonts](https://reference.aspose.com/words/de/net/aspose.words.fonts/)-Namespace und die [Font](https://reference.aspose.com/words/de/net/aspose.words/font/)-Klasse verwenden.

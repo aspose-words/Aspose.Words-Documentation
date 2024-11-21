@@ -1,4 +1,4 @@
-﻿---
+---
 title: 제품 개요
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 제품 개요
@@ -7,6 +7,7 @@ description: "Aspose.Words 에 대한 C++ 다른 소프트웨어에 의존하지
 type: docs
 weight: 5
 url: /ko/cpp/product-overview/
+timestamp: 2024-06-05-14-43-57
 ---
 
 <img src="product-overview_1" alt="aspose-words-product_cpp" align="left" style="width:64px; margin: 0 30px 30px 0"/>

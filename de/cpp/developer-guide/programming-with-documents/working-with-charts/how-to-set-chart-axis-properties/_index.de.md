@@ -1,4 +1,4 @@
-﻿---
+---
 title: So legen Sie die Eigenschaften der Diagrammachse in C++ fest
 second_title: Aspose.Words für C++
 articleTitle: So legen Sie die Eigenschaften der Diagrammachse fest
@@ -7,6 +7,7 @@ description: "Optimierung der Diagrammachse mit C++."
 type: docs
 weight: 20
 url: /de/cpp/how-to-set-chart-axis-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Wenn Sie mit Diagrammachse, Skalierung und Anzeigeeinheiten für die Wertachse arbeiten möchten, verwenden Sie bitte die Klassen [ChartAxis](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.chart_axis), [AxisDisplayUnit](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.axis_display_unit) und [AxisScaling](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.axis_scaling).

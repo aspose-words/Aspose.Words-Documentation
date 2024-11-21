@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içindeki Markdown Özelliklerle Çalışma
 second_title: Aspose.Words için C++
 articleTitle: Markdown Özellikleriyle Çalışma
@@ -7,6 +7,7 @@ description: "C++ kullanarak Markdown özellikleri nasıl uygulanır. Tüm özel
 type: docs
 weight: 420
 url: /tr/cpp/working-with-markdown-features/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Bu konuda, Aspose.Words kullanarak Markdown özelliklerinin nasıl uygulanacağı anlatılmaktadır. Markdown, kolayca HTML 'ye dönüştürülebilen düz metni biçimlendirmenin basit bir yoludur. Aspose.Words aşağıdaki Markdown özellikleri destekler:

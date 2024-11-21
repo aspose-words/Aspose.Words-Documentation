@@ -7,6 +7,7 @@ description: "Aspose.Words için Java yardımcı olabilir nasıl birim dönüşt
 type: docs
 weight: 20
 url: /tr/java/convert-between-measurement-units/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Many of the object properties in the Aspose.Words API that represent measurements such as width or height, margin, and various distances, accept values in points, where 1 inch equals 72 points. Bu noktalar bazen uygun değildir ve diğer birimlere dönüştürülmesi gerekir.

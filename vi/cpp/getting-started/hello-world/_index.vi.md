@@ -1,4 +1,4 @@
-﻿---
+---
 title: Xin Chào, Thế Giới!
 second_title: Ví dụ đơn giản cách sử dụng Aspose.Words cho C++
 articleTitle: Xin Chào, Thế Giới!
@@ -7,6 +7,7 @@ description: "Tạo, chỉnh sửa và lưu tài liệu đầu tiên của bạn
 type: docs
 weight: 15
 url: /vi/cpp/hello-world/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A " Xin Chào, Thế Giới!"mã thường là ví dụ đơn giản đầu tiên để viết uisng "Aspose.Words cho C++", và nó cũng có thể được sử dụng như một bài kiểm tra tỉnh táo để đảm bảo phần mềm nhằm biên dịch hoặc chạy mã nguồn được cài đặt chính xác.

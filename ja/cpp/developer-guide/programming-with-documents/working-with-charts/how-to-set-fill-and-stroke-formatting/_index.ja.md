@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++でのチャートの操作
 second_title: C++の場合Aspose.Words
 articleTitle: チャートの操作
@@ -7,6 +7,7 @@ description: "チャート機能の紹介、c++を使用してチャートを作
 type: docs
 weight: 170
 url: /ja/cpp/how-to-set-fill-and-stroke-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 塗りつぶしと線の書式設定は、グラフシリーズ、データポイント、およびマーカーに設定できます。 これを行うには、**ChartSeries**、**ChartDataPoint**、**ChartMarker**クラスの**ChartFormat**型のプロパティと、`Stroke`クラスのForeColor、BackColor、Visible、Transparencyなどの一部のプロパティのエイリアスを使用する必要があります。

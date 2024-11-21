@@ -8,6 +8,7 @@ description: "以 C# 將任何支援的載入格式轉換為 Markdown 並反向�
 keywords: how to convert a document to markdown c#
 weight: 40
 url: /zh-hant/net/convert-a-document-to-markdown/
+timestamp: 2024-07-10-08-10-45
 ---
 
 Markdown是一種用來標記文本並將其轉換為 HTML、PDF、DOCX 等格式的流行格式。 許多開發人員選擇此格式來撰寫文件，準備在部落格上發表的文章、描述專案等等。

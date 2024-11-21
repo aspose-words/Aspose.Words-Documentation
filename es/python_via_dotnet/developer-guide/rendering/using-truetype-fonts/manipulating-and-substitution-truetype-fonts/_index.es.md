@@ -7,6 +7,7 @@ description: "Aspose.Words para Python via .NET puede incrustar las fuentes True
 type: docs
 weight: 10
 url: /es/python-net/manipulating-and-substitution-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words requiere fuentes TrueType para una variedad de tareas, incluida la representación de documentos en formatos de página fija, por ejemplo, PDF o XPS. Cuando Aspose.Words procesa un documento, necesita realizar la incrustación y la incrustación de subconjuntos de fuentes TrueType en el documento resultante, lo cual es una práctica normal durante la generación de un documento, incluidos los formatos populares PDF o XPS. Esto garantiza que el documento aparecerá igual para cualquier espectador. Además, la especificación XPS requiere que las fuentes estén siempre incrustadas en el documento.

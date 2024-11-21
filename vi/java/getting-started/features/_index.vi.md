@@ -7,6 +7,7 @@ description: "Aspose.Words cho Java cung cấp người dùng một loạt các 
 type: docs
 weight: 40
 url: /vi/java/features/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words cung cấp người dùng một loạt các tính năng. "Người dùng có thể thực hiện một lượng lớn công việc liên quan đến tài liệu – từ việc chuyển đổi đơn giản các tài liệu từ một định dạng được hỗ trợ sang một định dạng khác và sửa đổi những tài liệu đó trong quá trình chuyển đổi, lên tới các nhiệm vụ kinh doanh như tạo ra các tài liệu có cấu trúc và đẹp mắt hoặc tự động hóa việc báo cáo."

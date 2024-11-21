@@ -7,6 +7,7 @@ description: "إدراج فقرة في مستند C#. قم بتعيين أنما
 type: docs
 weight: 210
 url: /ar/net/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 الفقرة عبارة عن مجموعة من الأحرف المدمجة في كتلة منطقية وتنتهي بحرف خاص - *فاصل الفقرة*. في Aspose.Words، يتم تمثيل الفقرة بواسطة فئة [Paragraph](https://reference.aspose.com/words/ar/net/aspose.words/paragraph/).

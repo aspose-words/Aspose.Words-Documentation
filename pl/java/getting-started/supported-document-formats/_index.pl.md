@@ -7,6 +7,7 @@ type: docs
 description: "Edytuj dokumenty źródłowe w wielu popularnych formatach, jak również dowolnie konwertuj pliki z jednego formatu do drugiego za pomocą Java."
 weight: 30
 url: /pl/java/supported-document-formats/
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

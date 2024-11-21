@@ -7,6 +7,7 @@ type: docs
 description: "Documentinhoud uitpakken in verschillende toepassingen Java."
 weight: 140
 url: /nl/java/extract-selected-content-between-nodes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bij het werken met documenten is het belangrijk om inhoud binnen een document gemakkelijk uit een specifiek bereik te halen. De inhoud kan echter bestaan uit complexe elementen zoals paragrafen, tabellen, afbeeldingen, enz.

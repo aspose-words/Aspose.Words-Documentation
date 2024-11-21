@@ -1,4 +1,4 @@
-﻿---
+---
 title: Typographie asiatique en C++
 second_title: Aspose.Words pour C++
 articleTitle: Travailler avec la Typographie Asiatique
@@ -7,6 +7,7 @@ description: "Travaillez avec la typographie asiatique en utilisant C++. Ajustez
 type: docs
 weight: 240
 url: /fr/cpp/working-with-asian-typography/
+timestamp: 2024-02-01-16-17-05
 ---
 
 La typographie asiatique est un ensemble d'options pour les paragraphes de texte dans les documents écrits en langues asiatiques.

@@ -7,6 +7,7 @@ description: "Pengolahan dokumen TXT canggih, daftar, BiDi, header / footer, men
 type: docs
 weight: 430
 url: /id/java/working-with-text-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Dalam artikel ini, kami akan mempelajari opsi apa yang dapat berguna untuk bekerja dengan dokumen teks melalui Aspose.WordsSitemap Harap dicatat bahwa ini bukan daftar lengkap pilihan yang tersedia, tetapi hanya contoh bekerja dengan beberapa dari mereka.

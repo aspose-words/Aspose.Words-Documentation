@@ -7,6 +7,7 @@ description: "Giới thiệu về tính năng biểu đồ, cách tạo và thao
 type: docs
 weight: 310
 url: /vi/java/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Phương pháp mới [insertChart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertChart-int-double-double) đã được thêm vào lớp [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/). Vậy chúng ta sẽ xem cách chèn biểu đồ cột đơn giản vào tài liệu bằng phương pháp **chèn biểu đồ**.

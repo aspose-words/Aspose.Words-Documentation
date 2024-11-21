@@ -7,6 +7,7 @@ description: "Java'ı kullanarak belgenize bir bağlantı nasıl eklenir."
 type: docs
 weight: 50
 url: /tr/java/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bir Microsoft Word belgesi içindeki bir hypertext bağlantısı, `HYPERLINK` alanıdır. Aspose.Words'de, bağlantılar [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/) sınıfını kullanarak uygulanır.

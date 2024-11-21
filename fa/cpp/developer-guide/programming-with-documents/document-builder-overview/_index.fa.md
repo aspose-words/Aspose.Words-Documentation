@@ -1,4 +1,4 @@
-﻿---
+---
 title: نمای کلی سازنده اسناد در C++
 second_title: Aspose.Words برای C++
 articleTitle: نمای کلی سازنده اسناد
@@ -7,6 +7,7 @@ type: docs
 description: "DocumentBuilder به شما اجازه می دهد تا اسناد پویا را از ابتدا بسازید یا عناصر جدید را به عناصر موجود با استفاده از C++ اضافه کنید. DocumentBuilder روش هایی برای وارد کردن متن، جعبه های چک، جداول، تصاویر و سایر عناصر محتوا در C++ فراهم می کند."
 weight: 30
 url: /fa/cpp/document-builder-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/) یک کلاس قدرتمند است که با [Document](https://reference.aspose.com/words/cpp/aspose.words/document/) ارتباط دارد و شما را قادر می سازد تا اسناد پویا را از ابتدا ایجاد کنید یا عناصر جدید را به یک موجود اضافه کنید.

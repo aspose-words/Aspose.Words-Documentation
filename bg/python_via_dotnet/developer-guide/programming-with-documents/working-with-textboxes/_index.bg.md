@@ -7,6 +7,7 @@ description: "Работа с текстови кутии в документ, �
 type: docs
 weight: 250
 url: /bg/python-net/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 В Aspose.Words, [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) Класът се използва, за да се уточни как текст се показва във форма. Той предоставя публична собственост, наречена [parent](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/parent/) за да получите формата на родителя за текстовата кутия, за да може клиентът да намери връзка [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) от свързани [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/).

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Word'ü C++ içinde Excel'e dönüştürme
 second_title: Aspose.Words için C++
 articleTitle: Bir Belgeyi Excel'e Dönüştürme
@@ -7,6 +7,7 @@ description: "PDF 'yi Excel'e, XML'ü Excel'e, DOCX'ı Excel C++'e dönüştür�
 type: docs
 weight: 15
 url: /tr/cpp/convert-a-document-to-excel/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Belgeleri bir formattan diğerine dönüştürmek Aspose.Words 'in en önemli özelliğidir. Belgeleri mevcut herhangi bir [load format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) formatta da XLSX formatına dönüştürebilirsiniz.

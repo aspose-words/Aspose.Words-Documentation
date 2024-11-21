@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge șablon din Mustache sintaxă
 second_title: Aspose.Words pentru Java
 articleTitle: Mail Merge șablon din Mustache sintaxă
@@ -8,6 +8,7 @@ description: "Creați șabloane cu Mustache sintaxă. Mustache sintaxa este sing
 keywords: "mail merge template mustache syntax java, mail merge java, mustache syntax java"
 weight: 40
 url: /ro/java/mail-merge-template-from-mustache-syntax/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words vă permite să creați șabloane cu mustache sintaxă în plus față de șabloanele familiare. A Mustache este o variantă alternativă a sintaxei șablonului care constă din nume de etichete închise de și este susținută de un obiect model care conține datele pentru șablon.

@@ -7,6 +7,7 @@ description: "Nahradit text v tabulce v Python. Extrahovat prostý text z tabulk
 type: docs
 weight: 60
 url: /cs/python-net/work-with-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Jak je uvedeno v předchozích článcích, tabulka obvykle obsahuje prostý text, i když jiný obsah, jako jsou obrázky nebo dokonce jiné tabulky mohou být umístěny v tabulkách.

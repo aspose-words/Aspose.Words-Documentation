@@ -7,6 +7,7 @@ description: "테이블 위치 지정 Java· 테이블 정렬을 얻고 부동 �
 type: docs
 weight: 50
 url: /ko/java/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 부동 테이블과 인라인 테이블이 있습니다:

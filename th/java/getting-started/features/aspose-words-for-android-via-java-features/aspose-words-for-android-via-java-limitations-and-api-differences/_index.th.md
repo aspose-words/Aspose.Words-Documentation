@@ -7,6 +7,7 @@ description: "Aspose.Words สําหรับ Android ผ่าน Java ค�
 type: docs
 weight: 50
 url: /th/java/aspose-words-for-android-via-java-limitations-and-api-differences/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## ข้อจํากัดของ Aspose.Words สําหรับ Android ผ่าน Java API เทียบกับ Aspose.Words สําหรับ Java API

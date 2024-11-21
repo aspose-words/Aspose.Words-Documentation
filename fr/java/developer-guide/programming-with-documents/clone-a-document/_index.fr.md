@@ -7,6 +7,7 @@ type: docs
 description: "Clone un document pour obtenir sa copie identique. Lors de la création d'une copie, les nœuds et les propriétés du document original sont clonés en utilisant Java."
 weight: 70
 url: /fr/java/clone-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Cloner un document est le processus de création d'une copie identique d'un document original, qui peut améliorer les performances et vous sauver des fuites de mémoire potentielles.

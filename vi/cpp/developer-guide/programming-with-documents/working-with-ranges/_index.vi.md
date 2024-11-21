@@ -1,4 +1,4 @@
-﻿---
+---
 title: Làm Việc Với Phạm vi trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Làm việc Với Phạm vi
@@ -7,6 +7,7 @@ description: "Giới thiệu Về Tính năng Phạm vi trong Aspose.Words cho C
 type: docs
 weight: 130
 url: /vi/cpp/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

@@ -7,6 +7,7 @@ description: "Mit Python ein Formularfeld in ein Dokument einfügen, abrufen ode
 type: docs
 weight: 380
 url: /de/python-net/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ein Dokument, das ausgefüllte Lücken (Felder) enthält, wird als Formular bezeichnet. Beispielsweise können Sie in Microsoft Word ein Registrierungsformular erstellen, das Dropdown-Listen verwendet, aus denen Benutzer Einträge auswählen können. Das `Form`-Feld ist ein Ort, an dem eine bestimmte Art von Daten, beispielsweise ein Name oder eine Adresse, gespeichert wird. Zu den Formularfeldern in Microsoft Word gehören Texteingabe, Combobox und Kontrollkästchen.

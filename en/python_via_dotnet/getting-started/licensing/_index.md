@@ -8,6 +8,7 @@ type: docs
 weight: 40
 url: /python-net/licensing/
 aliases: [/python/licensing/]
+timestamp: 2024-01-31-14-23-37
 ---
 
 Sometimes, in order to study the system better, you want to dive into the code as fast as possible. To make this easier, Aspose.Words provides different plans for purchase or offers a Free Trial and a 30-day Temporary License for evaluation.

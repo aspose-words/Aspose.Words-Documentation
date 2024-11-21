@@ -7,6 +7,7 @@ description: "Dowiedz się, jak aktualizować pola w Java. Aktualizuj pola progr
 type: docs
 weight: 30
 url: /pl/java/update-field/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Zazwyczaj, pole umieszczone w Microsoft Word zawiera zaktualizowaną wartość. Na przykład, jeśli pole jest wzorem lub numerem strony, będzie zawierać poprawną wartość obliczoną dla danej wersji dokumentu. Ale jeśli masz aplikację, która generuje lub modyfikuje dokument z polami takimi jak łączenie dwóch dokumentów lub populacja go z danymi, to najlepiej wszystkie pola muszą być aktualizowane, aby dokument był przydatny.

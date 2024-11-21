@@ -7,6 +7,7 @@ description: "Crea e gestisci sezioni e interruzioni di sezione in un documento 
 type: docs
 weight: 120
 url: /it/python-net/working-with-sections/
+timestamp: 2024-09-25-11-08-55
 ---
 
 A volte desideri un documento che non abbia la stessa formattazione su tutte le pagine. Ad esempio, potrebbe essere necessario modificare i formati dei numeri di pagina, avere dimensioni e orientamento della pagina diversi oppure avere la prima pagina del documento come copertina senza numerazione. Puoi ottenerlo con le sezioni.

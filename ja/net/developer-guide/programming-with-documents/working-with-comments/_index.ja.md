@@ -7,6 +7,7 @@ description: "C# を使用してコメントを操作します。"
 type: docs
 weight: 260
 url: /ja/net/working-with-comments/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

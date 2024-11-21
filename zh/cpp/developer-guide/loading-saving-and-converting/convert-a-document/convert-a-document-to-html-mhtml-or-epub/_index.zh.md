@@ -1,4 +1,4 @@
-﻿---
+---
 title: 将文档转换为HTML、MHTML或EPUB
 second_title: Aspose.Words对于C++
 articleTitle: 将文档转换为HTML、MHTML或EPUB
@@ -7,6 +7,7 @@ description: "使用C++将文档从几乎任何格式转换为HTML或MHTML以及
 type: docs
 weight: 20
 url: /zh/cpp/convert-a-document-to-html-mhtml-or-epub/
+timestamp: 2024-10-21-08-52-03
 ---
 
 HTML和MHTML流布局格式的文档也非常流行，可以在任何web平台上使用。 因此，将文档转换为HTML和MHTML是Aspose.Words的一个重要功能。

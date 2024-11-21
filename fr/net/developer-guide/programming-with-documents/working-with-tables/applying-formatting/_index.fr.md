@@ -7,6 +7,7 @@ description: "Formatage du tableau en détails à l'aide de C#. Utilisez C# pour
 type: docs
 weight: 70
 url: /fr/net/applying-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Chaque élément d'un tableau peut être appliqué avec un formatage différent. Par exemple, le formatage du tableau sera appliqué à l'ensemble du tableau, le formatage des lignes à des lignes particulières uniquement, le formatage des cellules à certaines cellules uniquement.

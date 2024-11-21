@@ -1,4 +1,4 @@
-﻿---
+---
 title: Conversia în format de pagină fixă în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Conversia în format de pagină fixă
@@ -7,6 +7,7 @@ description: "Salvați documentele în PDF, XPS, HTML, XAML, PostScript, și PCL
 type: docs
 weight: 10
 url: /ro/cpp/converting-to-fixed-page-format/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Aspose.Words implementează propriul motor de aspect al paginii. Înainte de a intra în specificațiile sale, merită să discutați mai întâi documentul la un nivel înalt.

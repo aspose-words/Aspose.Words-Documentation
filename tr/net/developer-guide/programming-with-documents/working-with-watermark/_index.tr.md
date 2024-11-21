@@ -7,6 +7,7 @@ description: "C# kullanarak filigran manipülasyonunu belgeleyin."
 type: docs
 weight: 340
 url: /tr/net/working-with-watermark/
+timestamp: 2024-05-02-11-51-44
 ---
 
 Bu konu, Aspose.Words kullanarak filigranla programlı olarak nasıl çalışılacağını açıklamaktadır. Filigran, bir belgedeki metnin arkasında görüntülenen bir arka plan resmidir. Filigran, [Watermark](https://reference.aspose.com/words/tr/net/aspose.words/watermark/) sınıfı tarafından temsil edilen bir metin veya resim içerebilir.

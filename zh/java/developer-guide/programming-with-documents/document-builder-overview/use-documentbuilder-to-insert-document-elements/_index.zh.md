@@ -7,6 +7,7 @@ type: docs
 description: "使用文档构建器插入文档元素 Java。 。 。 。"
 weight: 10
 url: /zh/java/use-documentbuilder-to-insert-document-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 那个 [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) 用于修改文档。 本条解释并描述了如何完成一些任务.

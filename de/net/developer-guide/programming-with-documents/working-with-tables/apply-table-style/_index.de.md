@@ -7,6 +7,7 @@ description: "Erweiterte Tabellenformatierung C#. Erstellen Sie einen Tabellenst
 type: docs
 weight: 80
 url: /de/net/working-with-tablestyle/
+timestamp: 2024-02-02-12-07-36
 ---
 
 Ein Tabellenstil definiert eine Reihe von Formatierungen, die einfach auf eine Tabelle angewendet werden können. Formatierungen wie Rahmen, Schattierung, Ausrichtung und Schriftart können in einem Tabellenstil festgelegt und für ein einheitliches Erscheinungsbild auf viele Tabellen angewendet werden.

@@ -7,6 +7,7 @@ description: "التحكم بشكل أكثر دقة في عملية الحفظ �
 type: docs
 weight: 10
 url: /ar/net/specify-save-options/
+timestamp: 2024-07-09-19-00-42
 ---
 
 عند حفظ مستند، يمكنك تعيين بعض الخصائص المتقدمة. يوفر لك Aspose.Words فئة [SaveOptions](https://reference.aspose.com/words/ar/net/aspose.words.saving/saveoptions/)، والتي تتيح تحكمًا أكثر دقة في عملية الحفظ. توجد عمليات تحميل زائدة لأسلوب **Save** تقبل كائن **SaveOptions** - يجب أن يكون كائنًا من فئة مشتقة من فئة **SaveOptions**. يحتوي كل تنسيق حفظ على فئة مقابلة تحتوي على خيارات الحفظ لتنسيق الحفظ هذا، على سبيل المثال، يوجد [PdfSaveOptions](https://reference.aspose.com/words/ar/net/aspose.words.saving/pdfsaveoptions/) للحفظ بتنسيق PDF، أو [MarkdownSaveOptions](https://reference.aspose.com/words/ar/net/aspose.words.saving/markdownsaveoptions/) للحفظ بتنسيق Markdown، أو [ImageSaveOptions](https://reference.aspose.com/words/ar/net/aspose.words.saving/imagesaveoptions/) للحفظ في صورة. توفر هذه المقالة أمثلة على العمل مع بعض فئات الخيارات المشتقة من **SaveOptions**.

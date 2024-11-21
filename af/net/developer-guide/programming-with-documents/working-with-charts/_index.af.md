@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Kaarte in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Werk Met Kaarte
@@ -7,6 +7,7 @@ description: "Inleiding Tot Grafiek funksie, hoe om kaarte te skep en te manipul
 type: docs
 weight: 310
 url: /af/net/working-with-charts/
+timestamp: 2024-02-05-15-07-18
 ---
 
 Nuwe [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) metode is bygevoeg in die [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) klas. So, kom ons kyk hoe om'n eenvoudige kolomgrafiek in die dokument in te voeg met behulp van die [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) metode.

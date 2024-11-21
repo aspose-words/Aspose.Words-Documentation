@@ -1,4 +1,4 @@
-﻿---
+---
 title: Navigazione con cursore in C++
 second_title: Aspose.Words per C++
 articleTitle: Navigazione con cursore
@@ -7,6 +7,7 @@ description: "Spostarsi tra diversi nodi all'interno di un documento, ad esempio
 type: docs
 weight: 10
 url: /it/cpp/navigation-with-cursor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Mentre lavori con un documento, anche se è breve o lungo, dovrai navigare nel documento. La navigazione con un cursore virtuale rappresenta la possibilità di navigare tra diversi nodi in un documento.

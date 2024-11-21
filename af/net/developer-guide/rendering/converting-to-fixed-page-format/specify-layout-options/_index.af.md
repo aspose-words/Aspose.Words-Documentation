@@ -1,4 +1,4 @@
-﻿---
+---
 title: Spesifiseer Uitlegkeuses in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Spesifiseer Uitleg Opsies
@@ -7,6 +7,7 @@ description: "Spesifiseer Uitlegopsies vir verskeie dokumentuitlegte met behulp 
 type: docs
 weight: 10
 url: /af/net/specify-layout-options/
+timestamp: 2024-07-10-08-10-45
 ---
 
 Aspose.Words stel u in staat om uitsetdokumente met verskillende uitlegte te skep, afhangende van die parameters wat in eienskappe van die [LayoutOptions](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/) - klas gespesifiseer word. Sommige van hierdie eienskappe lyk soos sommige van die Microsoft Word gebruikerskoppelvlak menu opsies – hulle sal in hierdie artikel beskryf word.

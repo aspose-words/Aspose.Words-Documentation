@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++でのMarkdown機能の使用
 second_title: C++の場合Aspose.Words
 articleTitle: Markdown機能の操作
@@ -7,6 +7,7 @@ description: "C++を使用してMarkdown機能を実装する方法。 すべて
 type: docs
 weight: 420
 url: /ja/cpp/working-with-markdown-features/
+timestamp: 2024-01-31-14-23-37
 ---
 
 このトピックでは、Aspose.Wordsを使用してMarkdown機能を実装する方法について説明します。 Markdownは、HTMLに簡単に変換できるプレーンテキストを書式設定する簡単な方法です。 Aspose.Wordsは次のMarkdown機能をサポートします:

@@ -7,6 +7,7 @@ description: "Získat informace o formátu dokumentu před jeho otevřením, aby
 type: docs
 weight: 20
 url: /cs/java/detect-file-format-and-check-format-compatibility/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Někdy je nutné určit formát dokumentu před otevřením, protože přípona souboru nezaručuje, že obsah souboru je vhodný. Například je známo, že Crystal Reports často vytiskne dokumenty ve formátu RTF, ale dává jim .doc rozšíření.

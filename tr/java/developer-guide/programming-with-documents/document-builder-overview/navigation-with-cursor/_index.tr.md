@@ -7,6 +7,7 @@ description: "Bir paragraf, bir işaretleyici veya belirli bir karakter gibi bir
 type: docs
 weight: 5
 url: /tr/java/navigation-with-cursor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bir belge üzerinde çalışırken, kısa veya uzun olsun, belgenin içinden geçmeniz gerekecektir. Sanal imleç ile gezinme farklı noktalar arasında bir belgeyi gezme yeteneğini temsil eder.

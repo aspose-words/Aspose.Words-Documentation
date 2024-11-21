@@ -8,6 +8,7 @@ url: /ko/python-net/create-or-load-a-document/
 description: "빈 문서를 만들거나 Python를 사용하여 파일이나 스트림에서 로드합니다."
 keywords: "create a document python, load a document python, create a blank document python, load a document from file python, load a document from stream python, create a document Aspose python, load a document Aspose python, load formats supported by Aspose.Words python"
 weight: 10
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words로 수행하려는 거의 모든 작업에는 문서 로드가 포함됩니다. [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) 클래스는 메모리에 로드된 문서를 나타냅니다. 문서에는 빈 문서를 만들거나 파일이나 스트림에서 로드할 수 있는 여러 오버로드된 생성자가 있습니다. 문서는 Aspose.Words에서 지원하는 모든 로드 형식으로 로드할 수 있습니다. 지원되는 모든 로드 형식 목록은 [LoadFormat](https://reference.aspose.com/words/python-net/aspose.words/loadformat/) 열거를 참조하세요.

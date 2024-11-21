@@ -1,4 +1,4 @@
-﻿---
+---
 title: Poziția tabelului în Python
 second_title: Aspose.Words pentru Python
 articleTitle: Poziționați o masă
@@ -7,6 +7,7 @@ description: "Specificați poziția tabelului în Python. Obțineți o aliniere 
 type: docs
 weight: 50
 url: /ro/python-net/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Există mese plutitoare și mese inline:

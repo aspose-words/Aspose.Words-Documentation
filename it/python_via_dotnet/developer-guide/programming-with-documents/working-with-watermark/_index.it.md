@@ -7,6 +7,7 @@ description: "Crea e gestisci filigrane in un documento utilizzando Python."
 type: docs
 weight: 340
 url: /it/python-net/working-with-watermark/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In questo argomento viene illustrato come lavorare a livello di codice con la filigrana utilizzando Aspose.Words. Una filigrana è un'immagine di sfondo visualizzata dietro il testo in un documento. Una filigrana può contenere un testo o un'immagine rappresentata dalla classe [Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/).

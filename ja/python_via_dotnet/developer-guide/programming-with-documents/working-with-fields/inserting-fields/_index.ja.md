@@ -7,6 +7,7 @@ description: "`DocumentBuilder` または DOM (Document Object Model) を使用�
 type: docs
 weight: 20
 url: /ja/python-net/inserting-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 ドキュメントにフィールドを挿入するには、いくつかの方法があります。

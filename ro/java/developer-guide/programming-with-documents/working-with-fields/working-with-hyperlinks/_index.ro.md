@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu hyperlink-uri în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Adăugați sau modificați hyperlink-uri
@@ -7,6 +7,7 @@ description: "Cum să adăugați un hyperlink în documentul dvs. folosind Java.
 type: docs
 weight: 50
 url: /ro/java/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un hyperlink în documentele Microsoft Word este câmpul `HYPERLINK`. În Aspose.Words, hyperlink-urile sunt implementate prin clasa [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/).

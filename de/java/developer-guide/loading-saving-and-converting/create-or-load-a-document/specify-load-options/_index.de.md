@@ -7,6 +7,7 @@ description: "Legen Sie erweiterte Eigenschaften beim Laden eines Dokuments mit 
 type: docs
 weight: 10
 url: /de/java/specify-load-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Beim Laden eines Dokuments können Sie einige erweiterte Eigenschaften festlegen. Aspose.Words bietet Ihnen die [LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/) Klasse, die eine genauere Steuerung des Lastprozesses ermöglicht. Einige Lastformate haben eine entsprechende Klasse, die Ladeoptionen für dieses Lastformat hält, beispielsweise gibt es [PdfLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/) zum Laden in PDF-Format oder [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) zum Laden auf TXT. Dieser Artikel bietet Beispiele für die Arbeit mit Optionen der **LoadOptions** Klasse.

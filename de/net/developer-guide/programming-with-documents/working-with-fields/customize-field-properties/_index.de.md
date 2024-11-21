@@ -7,6 +7,7 @@ description: "Erfahren Sie, wie Sie Feldeigenschaften in C# anpassen. Benennen S
 type: docs
 weight: 27
 url: /de/net/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words bietet die Möglichkeit, programmgesteuert mit verschiedenen Feldeigenschaften zu interagieren. In diesem Artikel schauen wir uns einige Beispiele an, damit Sie das Grundprinzip der Arbeit mit Feldeigenschaften verstehen. Sie können die vollständige Liste der Eigenschaften für jeden Feldtyp in der entsprechenden Klasse im [Feld-Namespace](https://reference.aspose.com/words/de/net/aspose.words.fields/) sehen.

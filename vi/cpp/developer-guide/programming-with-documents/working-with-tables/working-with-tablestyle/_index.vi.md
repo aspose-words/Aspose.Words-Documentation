@@ -1,4 +1,4 @@
-﻿---
+---
 title: Thay Đổi Kiểu Bảng Trong Tài liệu Word
 second_title: Aspose.Words cho C++
 articleTitle: Áp Dụng Kiểu Bảng
@@ -7,6 +7,7 @@ description: "Định dạng bảng nâng cao C++. Tạo kiểu bảng bằng C+
 type: docs
 weight: 80
 url: /vi/cpp/working-with-tablestyle/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Kiểu bảng xác định một tập hợp định dạng có thể dễ dàng áp dụng cho bảng. Định dạng như đường viền, bóng, căn chỉnh và phông chữ có thể được đặt theo kiểu bảng và áp dụng cho nhiều bảng để có giao diện nhất quán.

@@ -7,6 +7,7 @@ description: "在开始使用 Aspose.Words for Python via .NET 之前，请确�
 type: docs
 weight: 50
 url: /zh/python-net/system-requirements/
+timestamp: 2024-04-27-18-03-32
 ---
 
 Aspose.Words for Python via .NET 不需要安装任何第三方产品（例如 Microsoft Word）。 Aspose.Words 本身是一个用于创建、修改、转换和呈现各种格式（包括 Microsoft Word 文档格式）文档的引擎。

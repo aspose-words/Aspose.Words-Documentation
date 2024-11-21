@@ -1,4 +1,4 @@
-﻿---
+---
 title: 문서 보호 또는 암호화 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 문서 보호 또는 암호화
@@ -7,6 +7,7 @@ description: "Aspose.Words 에 대한 C++ 읽기 전용,문서 암호화,편집 
 type: docs
 weight: 50
 url: /ko/cpp/protect-or-encrypt-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 문서를 보호하거나 암호화하는 주된 이유는 문서에 액세스할 수 있는 사람 또는 문서를 편집할 수 있는 사람에 대한 더 많은 제어를 적용하기 위한 것입니다. 문서에 보호를 적용,당신은 복사 또는 허가없이 문서를 수정뿐만 아니라 데이터 유출과 같은 일반적인 위험을 방지 할 수 있습니다.

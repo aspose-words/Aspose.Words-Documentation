@@ -7,6 +7,7 @@ description: "How to defined a custom workflow using Aspose.Words to convert HTM
 type: docs
 weight: 10
 url: /net/extend-and-contribute-to-crm-quote-generator/
+timestamp: 2024-01-30-16-22-34
 ---
 
 You can download the latest source code at:

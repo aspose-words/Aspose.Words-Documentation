@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk met VBA Makros in Python
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Werk met VBA Makros
@@ -7,6 +7,7 @@ description: "Skep, lees, skryf, kloon en bestuur VBA makros in'n dokument met b
 type: docs
 weight: 410
 url: /af/python-net/working-with-vba-macros/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Visual Basic vir Toepassings (VBA) vir Microsoft Word is'n eenvoudige maar kragtige programmeertaal wat gebruik kan word om die funksionaliteit uit te brei. Aspose.Words API bied drie klasse om toegang tot die VBA projek bronkode te kry:

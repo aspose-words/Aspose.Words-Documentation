@@ -7,6 +7,7 @@ description: "Tabella dei contenuti nei dettagli. Come creare e modificare `TOC`
 type: docs
 weight: 170
 url: /it/java/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Spesso lavorerai con documenti contenenti una tabella di contenuti (TOC). Utilizzo Aspose.Words è possibile inserire la propria tabella di contenuti o ricostruire completamente la tabella di contenuti esistente nel documento utilizzando solo poche righe di codice.

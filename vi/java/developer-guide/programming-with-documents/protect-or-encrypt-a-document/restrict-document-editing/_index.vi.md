@@ -7,6 +7,7 @@ description: "Hạn chế chỉnh sửa một tài liệu bằng cách đặt lo
 type: docs
 weight: 30
 url: /vi/java/restrict-document-editing/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Đôi khi bạn có thể cần hạn chế khả năng chỉnh sửa một tài liệu và chỉ cho phép thực hiện một số hành động với nó. Điều này có thể hữu ích để ngăn người khác chỉnh sửa thông tin nhạy cảm và bí mật trong tài liệu của bạn.

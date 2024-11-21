@@ -7,6 +7,7 @@ description: "Aspose.Words for Android عبر Java هو `Java` مكتبة الص
 type: docs
 weight: 10
 url: /ar/java/android-product-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

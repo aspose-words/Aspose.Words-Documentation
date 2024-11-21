@@ -7,6 +7,7 @@ description: "Steuern Sie den Speichervorgang mithilfe von Python genauer."
 type: docs
 weight: 10
 url: /de/python-net/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Beim Speichern eines Dokuments können Sie einige erweiterte Eigenschaften festlegen. Aspose.Words stellt Ihnen die [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/)-Klasse zur Verfügung, die eine genauere Steuerung des Speichervorgangs ermöglicht. Es gibt Überladungen der [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/)-Methode, die ein [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/)-Objekt akzeptieren – es sollte ein Objekt einer von der [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/)-Klasse abgeleiteten Klasse sein. Jedes Speicherformat verfügt über eine entsprechende Klasse, die Speicheroptionen für dieses Speicherformat enthält. Es gibt beispielsweise [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) zum Speichern im PDF-Format oder [ImageSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/) zum Speichern als Bild. Dieser Artikel enthält Beispiele für die Arbeit mit einigen von [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) abgeleiteten Optionsklassen.

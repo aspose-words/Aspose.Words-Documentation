@@ -7,6 +7,7 @@ type: docs
 description: "DocumentBuilder, sıfırdan dinamik belgeler oluşturmanıza veya C# kullanarak mevcut belgelere yeni öğeler eklemenize olanak tanır. DocumentBuilder, .NET'ye metin, onay kutuları, tablolar, resimler ve diğer içerik öğelerini eklemek için yöntemler sağlar."
 weight: 30
 url: /tr/net/document-builder-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/), [Document](https://reference.aspose.com/words/tr/net/aspose.words/document/) ile ilişkilendirilen güçlü bir sınıftır ve sıfırdan dinamik belgeler oluşturmanıza veya mevcut belgelere yeni öğeler eklemenize olanak tanır.

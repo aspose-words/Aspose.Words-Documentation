@@ -7,6 +7,7 @@ type: docs
 description: "Pomocí stavitele dokumentů lze dokument snadno upravit v Java."
 weight: 20
 url: /cs/java/using-documentbuilder-to-modify-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Upřesňování formátování

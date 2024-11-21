@@ -1,4 +1,4 @@
-﻿---
+---
 title: Anidado Mail Merge con regiones en C++
 second_title: Aspose.Words para C++
 articleTitle: Anidado Mail Merge con regiones
@@ -8,6 +8,7 @@ description: "Realice una operación mail merge con regiones anidadas usando C++
 keywords: "mail merge with nested regions c++"
 weight: 30
 url: /es/cpp/nested-mail-merge-with-regions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 En algunos escenarios, es posible que deba usar mail merge anidado con regiones. La combinación anidada es una función que le permite combinar datos jerárquicos de su fuente de datos en su plantilla de combinación para completar fácilmente su documento. Básicamente, los datos jerárquicos se representan como un conjunto de elementos de datos, y las relaciones jerárquicas describen cómo se relacionan los elementos de datos entre sí (un elemento de datos es el padre de otro).

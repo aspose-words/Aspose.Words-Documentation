@@ -1,4 +1,4 @@
-﻿---
+---
 title: Visual Studioで製品を構成する
 second_title: C++の場合Aspose.Words
 articleTitle: 設定 C++の場合Aspose.Words でVisual Studio
@@ -7,6 +7,7 @@ description: "手動で構成する C++の場合Aspose.Words Visual Studioで。
 type: docs
 weight: 90
 url: /ja/cpp/configure-aspose-words-for-cpp-in-visual-studio/
+timestamp: 2024-09-24-14-35-44
 ---
 
 C++の場合Aspose.Words APIはVisual Studio 2022以降で動作します。 Visual Studioを使用するには、次の場所にVisual C++ Redistributableをインストールする必要があります [Microsoft公式サイト](https://docs.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170).

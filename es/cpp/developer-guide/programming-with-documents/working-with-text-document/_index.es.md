@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trabajar con Documentos de Texto en C++
 second_title: Aspose.Words para C++
 articleTitle: Trabajar con Documento de Texto
@@ -7,6 +7,7 @@ description: "Procesamiento avanzado de documentos TXT, listas, BiDi, encabezado
 type: docs
 weight: 430
 url: /es/cpp/working-with-text-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 En este artículo, aprenderemos qué opciones pueden ser útiles para trabajar con un documento de texto a través de Aspose.Words. Tenga en cuenta que esta no es una lista completa de las opciones disponibles, sino solo un ejemplo de cómo trabajar con algunas de ellas.

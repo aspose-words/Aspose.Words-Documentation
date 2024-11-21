@@ -1,4 +1,4 @@
-﻿---
+---
 title: Arbeiten mit Steuerzeichen
 second_title: Aspose.Words für C++
 articleTitle: Arbeiten mit Steuerzeichen
@@ -7,6 +7,7 @@ description: "Einführung in die Arbeit mit Steuerzeichen in Aspose.Words für C
 type: docs
 weight: 400
 url: /de/cpp/working-with-control-characters/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word Dokumente können verschiedene Zeichen enthalten, die eine besondere Bedeutung haben. Normalerweise werden sie zu Formatierungszwecken verwendet und nicht im normalen Modus gezeichnet. Sie können sie sichtbar machen, wenn Sie auf die Schaltfläche Formatierungsmarken ein- /ausblenden in der Standardsymbolleiste klicken.

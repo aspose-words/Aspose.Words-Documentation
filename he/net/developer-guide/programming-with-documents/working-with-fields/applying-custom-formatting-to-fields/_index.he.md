@@ -7,6 +7,7 @@ description: "פורמט והערכה שדות תוצאה C#."
 type: docs
 weight: 40
 url: /he/net/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 לפעמים משתמשים צריכים ליישם פורמט מותאם אישית לתחומים. במאמר זה נבחן כמה דוגמאות כיצד ניתן לעשות זאת.

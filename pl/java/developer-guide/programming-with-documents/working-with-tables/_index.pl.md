@@ -7,6 +7,7 @@ description: "Jak pracować z tabelami w Java. Wprowadzenie do koncepcji węzła
 type: docs
 weight: 190
 url: /pl/java/working-with-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A **tabela** w dokumencie jest doskonałym sposobem na budowę podobnych danych. Dlatego tabele są wspólnym elementem formatującym zawartość i są obsługiwane przez większość formatów w takiej lub innej formie.

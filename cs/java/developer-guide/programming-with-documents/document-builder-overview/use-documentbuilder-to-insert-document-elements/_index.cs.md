@@ -7,6 +7,7 @@ type: docs
 description: "Vložit prvky dokumentu pomocí stavitele dokumentů do Java."
 weight: 10
 url: /cs/java/use-documentbuilder-to-insert-document-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 The [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) se používá k úpravě dokumentů. Tento článek vysvětluje a popisuje, jak vykonávat řadu úkolů.

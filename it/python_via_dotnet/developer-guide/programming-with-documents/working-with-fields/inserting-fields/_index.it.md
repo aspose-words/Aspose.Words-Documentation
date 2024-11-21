@@ -7,6 +7,7 @@ description: "Inserisci i campi in un documento in Python in diversi modi: utili
 type: docs
 weight: 20
 url: /it/python-net/inserting-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Esistono diversi modi per inserire campi in un documento:

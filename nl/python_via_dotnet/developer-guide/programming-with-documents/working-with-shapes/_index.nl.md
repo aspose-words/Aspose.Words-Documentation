@@ -7,6 +7,7 @@ description: "Vormen aanmaken en beheren, ole objecten in een document gebruiken
 type: docs
 weight: 280
 url: /nl/python-net/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Dit onderwerp bespreekt hoe je programmatisch te werken met vormen met behulp van Aspose.Words.

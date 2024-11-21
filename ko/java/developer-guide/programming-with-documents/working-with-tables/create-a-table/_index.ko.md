@@ -7,6 +7,7 @@ description: "문서에서 테이블을 만드는 다른 방법 Java·"
 type: docs
 weight: 20
 url: /ko/java/create-a-table/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words 스크래치에서 문서에 테이블을 만들 수 있으며 여러 가지 방법을 제공합니다. 이 문서는 각 방법을 사용하여 문서에 포맷 된 테이블을 추가하는 방법에 대한 세부 사항뿐만 아니라 기사의 끝에서 각 방법의 비교를 제공합니다.

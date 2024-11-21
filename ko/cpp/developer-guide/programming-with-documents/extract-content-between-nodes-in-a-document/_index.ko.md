@@ -1,4 +1,4 @@
-﻿---
+---
 title: 문서 노드 간에 콘텐츠를 추출하는 방법
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 문서의 노드 간 콘텐츠 추출
@@ -7,6 +7,7 @@ type: docs
 description: "다른 사용하여 문서 내용 추출 C++."
 weight: 140
 url: /ko/cpp/how-to-extract-selected-content-between-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 문서 작업을 할 때는 문서 내의 특정 범위에서 콘텐츠를 쉽게 추출할 수 있어야 합니다. 그러나 내용은 단락,표,이미지 등과 같은 복잡한 요소로 구성 될 수 있습니다.

@@ -7,6 +7,7 @@ description: "Aspose.Words voor .NET voeg aan het document de naam van de genera
 type: docs
 weight: 60
 url: /nl/net/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 U kunt gemakkelijk weten of een document wordt gemaakt met behulp van Aspose.Words voor .NET. U kunt ook het versienummer van Aspose.Words voor .NET dat werd gebruikt om een bepaald uitvoerdocument aan te maken. Aspose.Words schrijft deze informatie rechtstreeks in het gegenereerde document.

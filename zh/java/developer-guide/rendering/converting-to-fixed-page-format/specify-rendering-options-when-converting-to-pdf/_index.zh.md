@@ -7,6 +7,7 @@ description: "将带有高级选项的文档转换为 PDF 。 使用 PdfSave 选
 type: docs
 weight: 20
 url: /zh/java/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
 PDF格式是一种固定的页面格式,在用户中非常流行,并得到广泛各种应用程序的支持,因为PDF文档在任何设备上看起来都是一样的. 为此原因,转换为PDF是: Aspose.Words。 。 。 。

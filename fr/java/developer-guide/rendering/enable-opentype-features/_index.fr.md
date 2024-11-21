@@ -7,6 +7,7 @@ description: "Caractéristiques typographiques avancées dans Aspose.Words pour 
 type: docs
 weight: 25
 url: /fr/java/enable-opentype-features/
+timestamp: 2024-01-27-14-07-04
 ---
 
 

@@ -7,6 +7,7 @@ description: "ליצור ולשנות תרשימים של סוגים שונים 
 type: docs
 weight: 310
 url: /he/python-net/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 חדש חדש חדש [insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/) השיטה נוספה [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) מעמד. אז בואו נראה כיצד להכניס תרשים טור פשוט לתוך המסמך באמצעות [DocumentBuilder.insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/) שיטה:

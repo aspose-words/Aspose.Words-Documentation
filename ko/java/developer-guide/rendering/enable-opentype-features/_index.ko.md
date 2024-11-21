@@ -7,6 +7,7 @@ description: "고급 타이그래피 기능 Aspose.Words 제품정보 Java·"
 type: docs
 weight: 25
 url: /ko/java/enable-opentype-features/
+timestamp: 2024-01-27-14-07-04
 ---
 
 

@@ -8,6 +8,7 @@ type: docs
 weight: 140
 url: /python-net/how-to-extract-selected-content-between-nodes-in-a-document/
 aliases: [/python/how-to-extract-selected-content-between-nodes-in-a-document/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 When working with documents, it is important to be able to easily extract content from a specific range within a document. However, the content may consist of complex elements such as paragraphs, tables, images, etc.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Kaydetme Seçeneklerini C++ olarak belirtin
 second_title: Aspose.Words için C++
 articleTitle: Kaydetme Seçeneklerini Belirtin
@@ -7,6 +7,7 @@ description: "Kaydetme işlemini daha doğru bir şekilde kontrol edin."
 type: docs
 weight: 10
 url: /tr/cpp/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bir belgeyi kaydederken bazı gelişmiş özellikler ayarlayabilirsiniz. Aspose.Words size kaydetme işleminin daha hassas kontrolünü sağlayan [SaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/) sınıfını sağlar. Bir **SaveOptions** nesnesini kabul eden **Save** yönteminin aşırı yükleri vardır – bu, **SaveOptions** sınıfından türetilen bir sınıfın nesnesi olmalıdır. Her kaydetme biçiminin, bu kaydetme biçimi için kaydetme seçeneklerini tutan karşılık gelen bir sınıfı vardır; örneğin, PDF biçimine kaydetmek için [PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/), Markdown biçimine kaydetmek için [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions) veya bir görüntüye kaydetmek için [ImageSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/imagesaveoptions/) vardır. Bu makalede, **SaveOptions** türetilen bazı seçenekler sınıfları ile çalışma örnekleri verilmektedir.

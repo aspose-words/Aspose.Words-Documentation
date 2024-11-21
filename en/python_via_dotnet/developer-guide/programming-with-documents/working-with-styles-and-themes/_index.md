@@ -8,6 +8,7 @@ type: docs
 weight: 110
 url: /python-net/working-with-styles-and-themes/
 aliases: [/python/working-with-styles-and-themes/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 The [StyleCollection](https://reference.aspose.com/words/python-net/aspose.words/stylecollection/) class is used to manage built-in and apply user-defined settings to styles.

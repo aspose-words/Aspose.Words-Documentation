@@ -7,6 +7,7 @@ type: docs
 description: "Geavanceerd document-contentbeheer, hoe contentbeheer te maken en te manipuleren (Gestructureerde documenttags) met behulp van Java."
 weight: 390
 url: /nl/java/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
 In Microsoft Word, U kunt een formulier aanmaken door te beginnen met een sjabloon en inhoudsopties toe te voegen, waaronder selectievakjes, tekstvakjes, datumkiezers en drop-downlijsten. In <span notrans="<span notrans=" Aspose.Words"=""></span>,"> a Gestructureerd document Tag of inhoudscontrole van een document dat geladen is in Aspose.Words wordt geïmporteerd als een StructuredDocumentTag knooppunt. Gestructureerde documenttags (SDT of content control) maken het mogelijk om door de klant gedefinieerde semantiek en zijn gedrag en uiterlijk in een document in te bouwen.

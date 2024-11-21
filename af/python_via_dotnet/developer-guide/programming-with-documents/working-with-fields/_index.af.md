@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Velde in Python
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Werk Met Velde
@@ -7,6 +7,7 @@ description: "Hoe om te werk met velde in'n dokumente met behulp van Python."
 type: docs
 weight: 370
 url: /af/python-net/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 **Velde**

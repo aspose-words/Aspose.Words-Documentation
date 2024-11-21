@@ -7,6 +7,7 @@ description: "Chuyển đổi tài liệu từ bất kỳ tải được hỗ tr
 type: docs
 weight: 40
 url: /vi/net/file-formats-and-conversions/
+timestamp: 2024-01-31-14-23-37
 ---
 
 {{% alert color="primary" %}}

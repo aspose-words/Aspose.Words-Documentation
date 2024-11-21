@@ -1,4 +1,4 @@
-﻿---
+---
 title: Niveles Lógicos de Nodos en un Documento en C++
 second_title: Aspose.Words para C++
 articleTitle: Niveles Lógicos de Nodos en un Documento
@@ -7,6 +7,7 @@ type: docs
 description: "En Aspose.Words para C++ la documentación mencionaba niveles lógicos de nodos: nivel de bloque, nivel en línea o nivel de fila. El nivel de nodo se usa para describir la ubicación en el árbol de documentos donde normalmente se encuentra el nodo."
 weight: 10
 url: /es/cpp/logical-levels-of-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Esta documentación a veces se refiere a un grupo de clases de nodos como pertenecientes a un "nivel" en un documento, como nodos de "nivel de bloque", "nivel en línea" (también conocido como "en línea") o "nivel de fila". Estos niveles en un documento se diferencian de forma puramente lógica y no se expresan explícitamente por herencia u otros medios DOM Aspose.Words. El nivel de nodo se usa para describir el lugar en el árbol de documentos donde normalmente se produciría el nodo.

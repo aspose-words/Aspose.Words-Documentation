@@ -7,6 +7,7 @@ type: docs
 weight: 40
 url: /ru/python-net/
 is_root: true
+timestamp: 2024-09-25-11-08-55
 ---
 
 <img src="/words/python-net/home_1" alt="Aspose.Words для Python via .NET Логотип продукта" align="left" style="width:110px; margin: 0 30px 30px 0"/>

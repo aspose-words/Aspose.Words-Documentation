@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++でのレンダリング
 second_title: C++の場合Aspose.Words
 articleTitle: レンダリング
@@ -7,6 +7,7 @@ description: "使用 C++の場合Aspose.Words フローレイアウト文書を�
 type: docs
 weight: 20
 url: /ja/cpp/rendering/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Aspose.Wordsで"レンダリング"という用語を使用して、文書をファイル形式またはページ分割された媒体またはページの概念を持つ媒体に変換するプロセスを説明し ドキュメントをページにレンダリングすることについて話しています。 次の図は、Aspose.Wordsでのレンダリングを示しています。

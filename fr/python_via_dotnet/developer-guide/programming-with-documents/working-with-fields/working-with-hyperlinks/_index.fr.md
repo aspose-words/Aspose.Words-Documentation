@@ -7,6 +7,7 @@ description: "Ajoutez, remplacez ou modifiez un lien hypertexte dans un document
 type: docs
 weight: 50
 url: /fr/python-net/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un lien hypertexte dans les documents Microsoft Word est le champ `HYPERLINK`. En Aspose.Words, les hyperliens sont implémentés via la classe [FieldHyperlink](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldhyperlink/).

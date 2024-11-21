@@ -7,6 +7,7 @@ description: "Combine documentos em um: insira ou anexe um documento a um docume
 type: docs
 weight: 80
 url: /pt/net/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Às vezes é necessário combinar vários documentos em um. Você pode fazer isso manualmente ou usar o recurso de inserção ou acréscimo de Aspose.Words.

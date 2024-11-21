@@ -7,6 +7,7 @@ type: docs
 description: "Załaduj zdalne zasoby, to może być powodem ryzyka bezpieczeństwa. Spójrz na wspólne kwestie bezpieczeństwa i ich rozwiązania w Java."
 weight: 120
 url: /pl/java/web-applications-security-when-loading-external-resources/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Domyślnie, Aspose.Words zamiast Java może ładować zdalne zasoby, takie jak obrazy, style CSS lub zewnętrzne dokumenty HTML podczas importowania dokumentów lub wprowadzania obrazów za pomocą DocumentBuilder. To zachowanie pozwala na przetwarzanie dokumentów w pełnym szczególe, ale może być powodem niektórych zagrożeń bezpieczeństwa, jeśli biblioteka jest częścią aplikacji internetowej.

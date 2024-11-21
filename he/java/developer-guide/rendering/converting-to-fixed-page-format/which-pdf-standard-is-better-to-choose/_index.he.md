@@ -7,6 +7,7 @@ description: "בחר את תקן PDF הטוב ביותר לייצא את התו�
 type: docs
 weight: 27
 url: /he/java/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 עבור משימות מסוימות, תקני PDF מסוימים יהיו טובים יותר או להיפך גרוע יותר. במאמר זה ננסה לקבוע אילו סטנדרטים של PDF עבור מקרים זה הגיוני לבחור.

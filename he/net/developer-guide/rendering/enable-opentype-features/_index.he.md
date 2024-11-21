@@ -7,6 +7,7 @@ description: "תכונות הצפנה מתקדמות באמצעות C#."
 type: docs
 weight: 25
 url: /he/net/enable-opentype-features/
+timestamp: 2024-07-10-14-38-57
 ---
 
 OpenType הוא פורמט גופן, שהוצג כדי לספק תמיכה טובה יותר עבור שפות בינלאומיות ומערכות כתיבה בהשוואה ל- PostScript ו- TrueType. תכונות הפריסה של OpenType ידועות בדרך כלל כתכונות OpenType. Aspose.Words.HarfBuzz החבילה מספקת תמיכה בתכונות OpenType Aspose.Words באמצעות שימוש HarfBuzz עיצוב טקסט

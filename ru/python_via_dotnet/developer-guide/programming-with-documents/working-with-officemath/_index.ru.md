@@ -7,6 +7,7 @@ description: "Создание и управление объектами тип
 type: docs
 weight: 320
 url: /ru/python-net/working-with-officemath/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Теперь еще удобнее работать с объектами типа OfficeMath. в Aspose.Words, Клиент может легко обосновывать и управлять тем, отображается ли уравнение в строке или в отдельной строке. Более того, с доступностью [MathObjectType](https://reference.aspose.com/words/python-net/aspose.words.math/mathobjecttype/)Полезные элементы управления могут быть реализованы с помощью этого объекта матрицы.

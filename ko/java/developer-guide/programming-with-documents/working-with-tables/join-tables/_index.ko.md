@@ -7,6 +7,7 @@ description: "테이블에 가입 Java· 고급 테이블 조작, 가입 및 분
 type: docs
 weight: 90
 url: /ko/java/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 테이블, 대표 Aspose.Words Document Object Model, 독립적 인 행과 세포로 구성되며 테이블에 쉽게 결합 할 수 있습니다.

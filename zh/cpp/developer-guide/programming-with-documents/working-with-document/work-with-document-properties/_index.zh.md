@@ -1,4 +1,4 @@
-﻿---
+---
 title: 使用C++中的文档属性
 second_title: Aspose.Words对于C++
 articleTitle: 使用文档属性
@@ -7,6 +7,7 @@ description: "Aspose.Words对于C++ 允许在内置或自定义文档属性中�
 type: docs
 weight: 10
 url: /zh/cpp/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
 文档属性允许存储有关文档的一些有用信息。 这些属性可以分为两组:

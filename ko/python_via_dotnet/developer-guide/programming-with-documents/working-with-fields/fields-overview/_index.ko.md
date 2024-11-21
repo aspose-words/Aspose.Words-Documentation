@@ -7,6 +7,7 @@ description: "Python를 사용하여 필드 수정에 액세스할 수 있습니
 type: docs
 weight: 10
 url: /ko/python-net/fields-overview/
+timestamp: 2024-10-21-11-17-44
 ---
 
 

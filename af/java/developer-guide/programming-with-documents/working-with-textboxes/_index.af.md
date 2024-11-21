@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk met Gekoppelde TextBoxes in Java
 second_title: Aspose.Words vir Java
 articleTitle: Werk Met Gekoppelde TextBoxes
@@ -7,6 +7,7 @@ description: "Inleiding tot gekoppelde teksbokse funksie in Aspose.Words vir Jav
 type: docs
 weight: 250
 url: /af/java/working-with-linked-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In Aspose.Words word die [TextBox](https://reference.aspose.com/words/java/com.aspose.words/textbox/) klas gebruik om te spesifiseer hoe'n teks binne'n vorm vertoon word. Dit bied'n openbare eiendom met die naam As Ouer om die ouer vorm vir die teks boks te kry om die kliënt in staat stel om gekoppelde [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) van gekoppelde **TextBox** te vind.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Stelselvereistes
 second_title: Aspose.Words vir Java
 articleTitle: Stelselvereistes
@@ -7,6 +7,7 @@ description: "Voordat jy begin werk Aspose.Words vir Java, verseker dat u aan di
 type: docs
 weight: 80
 url: /af/java/system-requirements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words vir Java vereis nie dat derdeparty-produkte soos Microsoft Word geïnstalleer moet word nie. Aspose.Words self is'n enjin vir die skep, wysiging, omskakeling en weergawe van dokumente in verskillende formate, insluitend Microsoft Word dokumentformate.

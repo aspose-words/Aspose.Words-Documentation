@@ -7,6 +7,7 @@ description: "منضدة الانقسام Java. كيفية تقسيم جدول �
 type: docs
 weight: 100
 url: /ar/java/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A table, represented in the Aspose.Words Document Object Model, تتكون من صفات وخلايا مستقلة، مما يجعل من السهل تقسيم طاولة.

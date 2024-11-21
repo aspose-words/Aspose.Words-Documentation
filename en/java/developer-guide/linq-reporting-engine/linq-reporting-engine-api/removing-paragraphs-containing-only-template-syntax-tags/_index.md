@@ -7,6 +7,7 @@ description: "Learn how remove paragraphs containing only template tags using LI
 type: docs
 weight: 60
 url: /java/removing-paragraphs-containing-only-template-syntax-tags/
+timestamp: 2024-07-02-05-47-58
 ---
 
 While building a report, some paragraphs containing only template syntax tags can become empty after the tags are removed or replaced with empty values. To remove such paragraphs from the report, you can apply the `ReportBuildOptions.REMOVE_EMPTY_PARAGRAPHS` option as shown in the following example.

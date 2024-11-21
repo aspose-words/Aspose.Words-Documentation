@@ -7,6 +7,7 @@ description: "להמיר PDF ל- Excel, XML ל- Excel, DOCX ל- Excel Java. שמ
 type: docs
 weight: 15
 url: /he/java/convert-a-document-to-excel/
+timestamp: 2024-01-31-14-23-37
 ---
 
 המרת מסמכים מפורמט אחד למשנהו היא תכונה הדגל של Aspose.Words. ניתן להמיר מסמכים בכל זמין [המונחים](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) גם בפורמט XLSX.

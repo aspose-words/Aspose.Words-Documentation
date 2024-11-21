@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++中光标导航
 second_title: Aspose.Words对于C++
 articleTitle: 光标导航
@@ -7,6 +7,7 @@ description: "使用C++在文档中的不同节点之间导航，例如段落、
 type: docs
 weight: 10
 url: /zh/cpp/navigation-with-cursor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 在处理文档时，即使是短文档或长文档，您也需要浏览文档。 使用虚拟光标导航表示在文档中的不同节点之间导航的能力。

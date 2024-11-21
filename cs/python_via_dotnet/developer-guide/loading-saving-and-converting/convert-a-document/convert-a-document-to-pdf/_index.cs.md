@@ -7,6 +7,7 @@ description: "Převést dokument do PDF pomocí Python. Jsou podporovány různ�
 type: docs
 weight: 10
 url: /cs/python-net/convert-a-document-to-pdf/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Schopnost snadno a spolehlivě převést dokumenty z jednoho formátu do druhého je klíčovým rysem Aspose.Words. Jedním z nejpopulárnějších formátů pro konverzi je formát PDF a formát fixed-layout, který zachovává původní vzhled dokumentu během jeho renderování na různých platformách. Výraz "rendering" se používá v Aspose.Words popis procesu přeměny dokumentu na formát souboru, který je paginován nebo má koncept stránek.

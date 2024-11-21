@@ -7,6 +7,7 @@ description: "تنظیم خواص پیشرفته هنگام صرفه جویی د
 type: docs
 weight: 20
 url: /fa/java/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 هنگام صرفه جویی در یک سند، می توانید برخی از خواص پیشرفته را تنظیم کنید. Aspose.Words شما را با [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/) کلاس، که اجازه می دهد کنترل دقیق تر فرآیند نجات. فراوانی از **Save** روش هایی که یک **SaveOptions** موضوع - باید یک شی از یک کلاس باشد که از آن مشتق شده است **SaveOptions** کلاس هر فرمت ذخیره سازی دارای یک کلاس متناظر است که گزینه های ذخیره سازی را برای این فرمت ذخیره می کند، به عنوان مثال، وجود دارد. [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) برای صرفه جویی در فرمت PDF، [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) پس انداز برای Markdown قالب، یا [ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/) برای صرفه جویی در یک تصویر این مقاله نمونه هایی از کار با برخی از کلاس های گزینه های مشتق شده از **SaveOptions**...

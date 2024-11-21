@@ -1,4 +1,4 @@
-﻿---
+---
 title: Overlapping Items
 second_title: Aspose.Words for Reporting Services
 articleTitle: Overlapping Items
@@ -7,6 +7,7 @@ description: "Overlapping Items setting of the Aspose.Words for Reporting Servic
 type: docs
 weight: 50
 url: /reportingservices/overlapping-items/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

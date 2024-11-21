@@ -7,6 +7,7 @@ description: "למד כיצד להתאים אישית תכונות שדה C#. Re
 type: docs
 weight: 27
 url: /he/net/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words מספק את היכולת לאינטראקציה עם תכונות שדה שונות. במאמר זה, נבחן כמה דוגמאות כדי להבין את העיקרון הבסיסי של עבודה עם תכונות שדה. אתה יכול לראות את הרשימה המלאה של נכסים עבור כל סוג שדה בכיתה המקבילה בכיתה [שדות שם](https://reference.aspose.com/words/net/aspose.words.fields/).

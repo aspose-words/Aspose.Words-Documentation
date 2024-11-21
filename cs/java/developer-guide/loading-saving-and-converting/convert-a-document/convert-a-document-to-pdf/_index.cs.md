@@ -7,6 +7,7 @@ description: "Převést dokument ve Wordu nebo jiném podporovaném formátu do 
 type: docs
 weight: 10
 url: /cs/java/convert-a-document-to-pdf/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Schopnost snadno a spolehlivě převést dokumenty z jednoho formátu do druhého je klíčovým rysem Aspose.Words. Jedním z nejpopulárnějších formátů pro převod je formát PDF díry, který zachovává původní vzhled dokumentu během jeho renderování na různých platformách. Výraz "rendering" se používá v Aspose.Words popis procesu přeměny dokumentu na formát souboru, který je paginován nebo má koncept stránek.

@@ -7,6 +7,7 @@ description: "בקרה מדויקת יותר על תהליך החיסכון בא
 type: docs
 weight: 10
 url: /he/net/specify-save-options/
+timestamp: 2024-07-09-19-00-42
 ---
 
 בעת שמירת מסמך, באפשרותך להגדיר כמה תכונות מתקדמות. Aspose.Words מספק לך את [SaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/) מעמד, המאפשר שליטה מדויקת יותר של תהליך החיסכון. יש עומסים של **Save** שיטה שמקבלת **SaveOptions** אובייקט - זה צריך להיות אובייקט של מעמד נגזר מן **SaveOptions** מעמד. לכל פורמט שמור יש מעמד מתאים המחזיק אפשרויות לתבנית זו, לדוגמה, יש. [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) כדי לחסוך בפורמט PDF, [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) כדי להציל Markdown פורמט, או [ImageSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/) להציל תמונה מאמר זה מספק דוגמאות של עבודה עם כמה אפשרויות כיתות נגזרות **SaveOptions**.

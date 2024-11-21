@@ -1,4 +1,4 @@
-﻿---
+---
 title: ColumnNames Element
 second_title: Aspose.Words for SharePoint
 articleTitle: ColumnNames Element
@@ -7,6 +7,7 @@ description: "ColumnNames element meaning and structure which may be used while 
 type: docs
 weight: 190
 url: /sharepoint/columnnames-element/
+timestamp: 2024-10-21-11-17-44
 ---
 
 The ColumnNames element contains information about columns names in a table relation description.

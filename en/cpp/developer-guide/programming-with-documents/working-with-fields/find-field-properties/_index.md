@@ -7,6 +7,7 @@ description: "How to find some field properties like field code and field result
 type: docs
 weight: 25
 url: /cpp/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A field that is inserted using [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertfield/) returns a [Field](https://reference.aspose.com/words/cpp/aspose.words.fields/field/) object. This is a faсade class that provides useful methods to quickly find some properties of a field.

@@ -7,6 +7,7 @@ description: "Einführung in die Feldfunktion in Aspose.Words für Java."
 type: docs
 weight: 370
 url: /de/java/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 **Fields** in einem Dokument sind wie Platzhalter, wo nützliche Daten eingefügt werden können. Beispielsweise kann ein Feld eine Seitenreferenz, Formel oder eine mail merge Feld.

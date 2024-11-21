@@ -7,6 +7,7 @@ description: "Group• het gebruik van bepaalde vormen Java."
 type: docs
 weight: 290
 url: /nl/java/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Soms moet je een group shape in een Word-document. Zo'n group shape bestaat uit meerdere vormen

@@ -1,4 +1,4 @@
-﻿---
+---
 title: الطباعة الآسيوية في C++
 second_title: Aspose.Words ل C++
 articleTitle: العمل مع الطباعة الآسيوية
@@ -7,6 +7,7 @@ description: "العمل مع الطباعة الآسيوية باستخدام C
 type: docs
 weight: 240
 url: /ar/cpp/working-with-asian-typography/
+timestamp: 2024-02-01-16-17-05
 ---
 
 الطباعة الآسيوية هي مجموعة من الخيارات للفقرات النصية في المستندات المكتوبة باللغات الآسيوية.

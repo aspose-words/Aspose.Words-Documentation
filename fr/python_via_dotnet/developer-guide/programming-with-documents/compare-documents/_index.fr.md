@@ -7,6 +7,7 @@ description: "Comparez deux documents dans tous les formats pris en charge et af
 type: docs
 weight: 60
 url: /fr/python-net/compare-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 La comparaison de documents est un processus qui identifie les modifications entre deux documents et contient les modifications sous forme de révisions. Ce processus compare deux documents, y compris les versions d'un document spécifique, puis les modifications entre les deux documents seront affichées sous forme de révisions dans le premier document.

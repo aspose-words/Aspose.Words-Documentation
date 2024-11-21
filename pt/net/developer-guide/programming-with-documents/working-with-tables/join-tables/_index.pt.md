@@ -7,6 +7,7 @@ description: "Junte tabelas em C#. Como mesclar duas tabelas em um C#."
 type: docs
 weight: 90
 url: /pt/net/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uma tabela, representada no Aspose.Words Document Object Model, é composta por linhas e células independentes, facilitando a união de tabelas.

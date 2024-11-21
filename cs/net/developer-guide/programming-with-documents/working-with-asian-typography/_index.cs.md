@@ -7,6 +7,7 @@ description: "Práce s asijskou typografií pomocí C#. Nastavte prostor mezi as
 type: docs
 weight: 240
 url: /cs/net/working-with-asian-typography/
+timestamp: 2024-02-01-16-17-05
 ---
 
 Asijská typografie je soubor možností pro textové odstavce v dokumentech napsaných v asijských jazycích.

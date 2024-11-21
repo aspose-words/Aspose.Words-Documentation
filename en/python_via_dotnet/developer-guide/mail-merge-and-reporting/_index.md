@@ -11,6 +11,7 @@ description: "Mail Merge is a popular feature for quickly creating documents usi
 keywords: "how to use mail merge python"
 weight: 30
 url: /python-net/mail-merge-and-reporting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Mail Merge is a popular feature for quickly and easily creating documents such as letters, labels, and envelopes. Aspose.Words enables you to generate documents from templates with mail merge fields.

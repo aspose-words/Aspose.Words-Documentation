@@ -7,6 +7,7 @@ description: "Arbeiten Sie mit asiatischer Typografie mit C#. Passen Sie den Abs
 type: docs
 weight: 240
 url: /de/net/working-with-asian-typography/
+timestamp: 2024-02-01-16-17-05
 ---
 
 Bei der asiatischen Typografie handelt es sich um eine Reihe von Optionen für Textabsätze in Dokumenten, die in asiatischen Sprachen verfasst sind.

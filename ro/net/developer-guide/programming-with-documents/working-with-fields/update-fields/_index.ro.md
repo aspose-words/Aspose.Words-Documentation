@@ -7,6 +7,7 @@ description: "Învață cum să actualizezi câmpuri în C#. Actualizați câmpu
 type: docs
 weight: 30
 url: /ro/net/update-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Tipic, un câmp introdus în Microsoft Word conține deja o valoare actualizată. Spre exemplu, dacă câmpul este o formulă sau un număr de pagină, acesta va conține valoarea corect calculată pentru versiunea dată a documentului. Dar dacă ai o aplicație care generează sau modifică un document cu câmpuri ca fuzionarea a două documente sau completarea acestuia cu date, atunci ideal ar fi să se actualizeze toate câmpurile pentru ca documentul să fie util.

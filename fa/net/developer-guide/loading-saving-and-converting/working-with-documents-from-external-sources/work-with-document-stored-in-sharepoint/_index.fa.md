@@ -7,6 +7,7 @@ description: "تبدیل Word به اشتراک گذاشته شده در SharePo
 type: docs
 weight: 20
 url: /fa/net/work-with-document-stored-in-sharepoint/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Microsoft SharePoint Online مجموعه ای از فناوری های مبتنی بر وب است که ذخیره، اشتراک گذاری و مدیریت اطلاعات دیجیتال را برای سازمان ها آسان می کند. می توانید با استفاده از Aspose.Words قدرتمند ما برای .NET با اسناد ذخیره شده در پوشه "Shared Documents" در SharePoint کار کنید.

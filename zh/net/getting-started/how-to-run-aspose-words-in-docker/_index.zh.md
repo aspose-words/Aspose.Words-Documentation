@@ -7,6 +7,7 @@ type: docs
 description: "使用 Docker 将 Aspose.Words 功能集成到您的应用程序中，无论您的开发堆栈中采用什么技术。了解如何在 C# 格式的 Docker 容器中使用 Aspose .Words。"
 weight: 120
 url: /zh/net/how-to-run-aspose-words-in-docker/
+timestamp: 2024-08-19-11-05-36
 ---
 
 微服务与容器化相结合使得轻松组合技术成为可能。 Docker 允许您轻松地将 Aspose.Words 功能集成到您的应用程序中，无论您的开发堆栈中采用什么技术。

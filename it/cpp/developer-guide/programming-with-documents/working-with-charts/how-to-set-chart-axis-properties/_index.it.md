@@ -1,4 +1,4 @@
-﻿---
+---
 title: Come impostare le proprietà degli assi del grafico in C++
 second_title: Aspose.Words per C++
 articleTitle: Come impostare le proprietà dell'asse grafico
@@ -7,6 +7,7 @@ description: "Asse grafico tuning utilizzando C++."
 type: docs
 weight: 20
 url: /it/cpp/how-to-set-chart-axis-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Se si desidera lavorare con l'asse grafico, il ridimensionamento e le unità di visualizzazione per l'asse dei valori, utilizzare le classi [ChartAxis](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.chart_axis), [AxisDisplayUnit](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.axis_display_unit) e [AxisScaling](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.axis_scaling).

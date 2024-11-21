@@ -1,4 +1,4 @@
-﻿---
+---
 title: Sử dụng `DocumentBuilder` Để Sửa Đổi Tài liệu Một Cách Dễ Dàng
 second_title: Aspose.Words cho C++
 articleTitle: Sử dụng `DocumentBuilder` Để Sửa Đổi Tài liệu Một Cách Dễ Dàng
@@ -7,6 +7,7 @@ type: docs
 description: "Sử dụng trình tạo tài liệu để sửa đổi tài liệu một cách dễ dàng trong C++."
 weight: 190
 url: /vi/cpp/using-documentbuilder-to-modify-a-document-easily/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Chỉ Định Định Dạng

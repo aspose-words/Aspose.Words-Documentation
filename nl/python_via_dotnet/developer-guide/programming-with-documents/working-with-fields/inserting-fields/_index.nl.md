@@ -7,6 +7,7 @@ description: "Velden in een document invoegen Python op verschillende manieren: 
 type: docs
 weight: 20
 url: /nl/python-net/inserting-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Er zijn verschillende manieren om velden in een document in te voegen:

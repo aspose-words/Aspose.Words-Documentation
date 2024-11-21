@@ -8,6 +8,7 @@ type: docs
 weight: 10
 url: /net/open-a-document-read-only/
 aliases: [/net/document-protection/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 Sometimes, you may have a document that needs a review, but you do not want reviewers to randomly modify your content. Aspose.Words allows you to make the permission of your document read-only so that the content can be copied or read, but not modified. This will prevent content from being removed or added to your document.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Especifique las Opciones de representación Al Convertir a PDF
 second_title: Aspose.Words para C++
 articleTitle: Especifique las Opciones de representación Al Convertir a PDF
@@ -7,6 +7,7 @@ description: "Convierta un documento a PDF con opciones avanzadas usando C++. Ut
 type: docs
 weight: 30
 url: /es/cpp/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
 El formato PDF es un formato de página fija que es muy popular entre los usuarios y ampliamente compatible con varias aplicaciones porque un documento PDF tiene el mismo aspecto en cualquier dispositivo. Por esa razón, convertir a PDF es una característica importante de Aspose.Words.

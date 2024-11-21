@@ -7,6 +7,7 @@ description: "Recursos avançados de tipografia usando C#."
 type: docs
 weight: 25
 url: /pt/net/enable-opentype-features/
+timestamp: 2024-07-10-14-38-57
 ---
 
 OpenType é um formato de fonte introduzido para fornecer melhor suporte para idiomas e sistemas de escrita internacionais em comparação com PostScript e TrueType. Os recursos de layout do OpenType são comumente conhecidos como recursos OpenType. O pacote Aspose.Words.Shaping.HarfBuzz fornece suporte para recursos OpenType em Aspose.Words usando mecanismo de modelagem de texto HarfBuzz.

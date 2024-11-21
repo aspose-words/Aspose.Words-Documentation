@@ -7,6 +7,7 @@ type: docs
 weight: 10
 url: /ar/java/create-or-load-a-document/
 description: "Aspose.Words يُمكّنُك أَنْ تَخْلقَ a مستند فارغ أَو تحميله مِنْ a ملف أَو تيار باستخدام Java."
+timestamp: 2024-01-27-14-07-04
 ---
 
 تقريباً أي مهمة تريد أن تؤديها Aspose.Words يتضمن تحميل وثيقة. The `Document` الطبقة تمثل وثيقة محملة بالذاكرة الوثيقة لديها العديد من البنايات المزدحمة التي تسمح لك بصنع وثيقة فارغة أو تحميلها من ملف أو تيار. ويمكن تحميل الوثيقة في أي شكل من أشكال الحمولة تدعمه Aspose.Words. وللاطلاع على قائمة جميع أشكال الحمولة المدعومة، انظر [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) العد

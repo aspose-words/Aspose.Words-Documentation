@@ -7,6 +7,7 @@ description: "Crea e gestisci immagini di vari formati in un documento utilizzan
 type: docs
 weight: 300
 url: /it/python-net/working-with-images/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words consente agli utenti di lavorare con le immagini in modo molto flessibile. In questo articolo puoi esplorare solo alcune delle possibilità di lavorare con le immagini.

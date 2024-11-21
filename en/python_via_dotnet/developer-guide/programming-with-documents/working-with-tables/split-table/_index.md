@@ -7,6 +7,7 @@ description: "Split table in Python. How to split one table into two separate ta
 type: docs
 weight: 100
 url: /python-net/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A table, represented in the Aspose.Words Document Object Model, is made up of independent rows and cells, making it easy to split a table.

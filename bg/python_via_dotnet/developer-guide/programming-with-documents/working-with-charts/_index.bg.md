@@ -7,6 +7,7 @@ description: "Създаване и промяна на графики от ра
 type: docs
 weight: 310
 url: /bg/python-net/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Нов [insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/) метод е добавен в [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) Клас. И така, нека видим как да вмъкнем проста колона в документа, използвайки [DocumentBuilder.insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/) метод:

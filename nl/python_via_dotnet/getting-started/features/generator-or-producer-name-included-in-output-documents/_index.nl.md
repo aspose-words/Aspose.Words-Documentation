@@ -7,6 +7,7 @@ description: "Aspose.Words voor Python via .NET voeg aan het document de naam va
 type: docs
 weight: 60
 url: /nl/python-net/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 U kunt gemakkelijk weten of een document wordt gemaakt met behulp van Aspose.Words voor Python via .NET. U kunt ook het versienummer van Aspose.Words voor Python via .NET dat werd gebruikt om een bepaald uitvoerdocument aan te maken. Aspose.Words schrijft deze informatie rechtstreeks in het gegenereerde document.

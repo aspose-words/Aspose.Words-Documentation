@@ -9,6 +9,7 @@ keywords: "mail merge template mustache syntax python"
 weight: 40
 url: /python-net/mail-merge-template-from-mustache-syntax/
 aliases: [/python/mail-merge-template-from-mustache-syntax/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words allows you to create templates with mustache syntax in addition to the familiar templates. A Mustache is an alternative variant of template syntax that consists of tag names enclosed by `{{ }}` and is backed by a model object that contains the data for the template.

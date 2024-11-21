@@ -7,6 +7,7 @@ description: "Python kullanarak bir belgedeki tabloları birleştirin. Python'te
 type: docs
 weight: 90
 url: /tr/python-net/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words Document Object Model'de temsil edilen bir tablo, bağımsız satırlardan ve hücrelerden oluşur, bu da tabloların birleştirilmesini kolaylaştırır.

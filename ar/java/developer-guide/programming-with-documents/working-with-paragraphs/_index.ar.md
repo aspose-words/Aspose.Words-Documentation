@@ -7,6 +7,7 @@ description: "ممارسات التلاعب في الفقرة المعينة ب�
 type: docs
 weight: 210
 url: /ar/java/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 فالفقرة عبارة عن مجموعة من الشخصيات مجتمعة في كتلة منطقية وتنتهي بطابع خاص - وهو " استراحة فقرة ". In Aspose.Words, a paragraph is represented by the [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) الصف

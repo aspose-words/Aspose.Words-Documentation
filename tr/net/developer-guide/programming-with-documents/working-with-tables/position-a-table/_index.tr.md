@@ -7,6 +7,7 @@ description: "C#'te tablo konumunu belirtin. C#'i kullanarak bir tablo hizalamas
 type: docs
 weight: 50
 url: /tr/net/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Kayan tablolar ve satır içi tablolar vardır:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Logische Ebenen von Knoten in einem Dokument in C++
 second_title: Aspose.Words für C++
 articleTitle: Logische Ebenen von Knoten in einem Dokument
@@ -7,6 +7,7 @@ type: docs
 description: "In Aspose.Words für C++ in der Dokumentation wurden logische Ebenen von Knoten erwähnt - Blockebene, Inline-Ebene oder Zeilenebene. Die Knotenebene wird verwendet, um die Position im Dokumentbaum zu beschreiben, an der der Knoten typischerweise auftritt."
 weight: 10
 url: /de/cpp/logical-levels-of-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Diese Dokumentation bezieht sich manchmal auf eine Gruppe von Knotenklassen, die zu einer "Ebene" in einem Dokument gehören, z. B. "Blockebene", "Inline-Ebene" (auch als "inline" bezeichnet) oder "Zeilenebene" Knoten. Diese Ebenen in einem Dokument werden rein logisch unterschieden und nicht explizit durch Vererbung oder andere Aspose.Words DOM Mittel ausgedrückt. Die Knotenebene wird verwendet, um die Stelle im Dokumentbaum zu beschreiben, an der der Knoten typischerweise auftreten würde.

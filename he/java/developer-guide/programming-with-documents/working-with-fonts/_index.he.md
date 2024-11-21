@@ -7,6 +7,7 @@ description: "עיצוב עיניים בפרטים באמצעות Java."
 type: docs
 weight: 230
 url: /he/java/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 גופן הוא קבוצה של דמויות עם גודל מסוים, צבע ועיצוב. Aspose.Words מאפשר לך לעבוד עם גופנים באמצעות כיתות הקשורות לגפן שונים, כולל את [Font](https://reference.aspose.com/words/java/com.aspose.words/font/) מעמד.

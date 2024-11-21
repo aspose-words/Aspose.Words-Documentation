@@ -7,6 +7,7 @@ type: docs
 description: "Úvod do tvaru značkovacího jazyka, vytváření tvarů různých typů pomocí Java."
 weight: 280
 url: /cs/java/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Toto téma pojednává o tom, jak pracovat programově s tvary pomocí Aspose.Words.

@@ -7,6 +7,7 @@ description: "Aspose.Words for С++ provides different plans for purchase or off
 type: docs
 weight: 60
 url: /cpp/licensing/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Sometimes, in order to study the system better, you want to dive into the code as fast as possible. To make this easier, Aspose.Words provides different plans for purchase or offers a Free Trial and a 30-day Temporary License for evaluation.

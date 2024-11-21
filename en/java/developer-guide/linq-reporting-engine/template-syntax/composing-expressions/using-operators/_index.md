@@ -1,4 +1,4 @@
-﻿---
+---
 title: Using Operators in Java
 second_title: Aspose.Words for Java
 articleTitle: Using Operators
@@ -7,6 +7,7 @@ description: "Use predefined operators in template expressions when building a r
 type: docs
 weight: 50
 url: /java/using-operators/
+timestamp: 2024-10-21-11-17-44
 ---
 
 The following table contains predefined operators that LINQ Reporting Engine enables you to use in template expressions.

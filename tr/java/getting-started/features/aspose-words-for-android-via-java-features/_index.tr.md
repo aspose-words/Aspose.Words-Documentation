@@ -7,6 +7,7 @@ description: "Bu bölüm Aspose.Words için Java ve Aspose.Words için Android a
 type: docs
 weight: 90
 url: /tr/java/aspose-words-for-android-via-java-features/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Aspose.Words için Android üzerinden Java Özellikler Genel Bakış

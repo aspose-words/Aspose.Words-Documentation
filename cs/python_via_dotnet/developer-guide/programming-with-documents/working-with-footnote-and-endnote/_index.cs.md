@@ -7,6 +7,7 @@ description: "Vložte ffotnotes nebo endotes do dokumentu a zadejte jeho možnos
 type: docs
 weight: 160
 url: /cs/python-net/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words rovněž poskytuje některé třídy, metody a vlastnosti pro práci s poznámkami pod čarou a poznámkami pod čarou.

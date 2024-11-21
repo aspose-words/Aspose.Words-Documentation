@@ -7,6 +7,7 @@ description: "Schriftformatierung in Details mit Java."
 type: docs
 weight: 230
 url: /de/java/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Eine Schriftart ist eine Reihe von Zeichen mit einer bestimmten Größe, Farbe und Design. Aspose.Words Sie können mit Schriftarten mit verschiedenen schriftartenbezogenen Klassen arbeiten, einschließlich der [Font](https://reference.aspose.com/words/java/com.aspose.words/font/) Klasse.

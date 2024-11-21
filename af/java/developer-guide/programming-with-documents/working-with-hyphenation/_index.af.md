@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk met Koppelteken in Java
 second_title: Aspose.Words vir Java
 articleTitle: Werk met Koppeling
@@ -7,6 +7,7 @@ description: "Gebruik koppelteken vir'n meer kompakte rangskikking van teks. Dit
 type: docs
 weight: 220
 url: /af/java/working-with-hyphenation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Soms is dit nodig om koppelteken te gebruik vir'n meer kompakte rangskikking van teks in'n dokument. Terselfdertyd is dit belangrik om te verstaan dat die besonderhede van woordverbinding vir elke taal kan verskil.

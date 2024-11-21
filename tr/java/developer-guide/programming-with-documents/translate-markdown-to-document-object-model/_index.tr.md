@@ -7,6 +7,7 @@ type: docs
 description: "Tarnslate belgesiyle oynayın Markdown bir belgeye ve geri Document Object Model. Bu şekilde, karmaşık mevcut Markdown ile çalışabilirsiniz ve Java'yi kullanarak programatik olarak sıfırdan bir Markdown belgesi oluşturabilirsiniz."
 weight: 20
 url: /tr/java/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Belgenin içeriğini ve biçimlendirmesini programlı olarak okumak, değiştirmek ve değiştirmek için, bunu Aspose.Words Document Object Model ( DOM ) 'e çevirmek gerekir.

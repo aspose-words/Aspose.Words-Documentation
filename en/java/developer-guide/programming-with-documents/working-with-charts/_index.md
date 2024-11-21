@@ -7,6 +7,7 @@ description: "Introduction to Chart feature, how to create and manipulate charts
 type: docs
 weight: 310
 url: /java/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 The new [insertChart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertChart-int-double-double) method was added into the [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) class. So, let's see how to insert a simple column chart into the document using **insertChart** method.

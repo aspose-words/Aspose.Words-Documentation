@@ -7,6 +7,7 @@ description: "Tabellenformatierung im Detail mit Python. Verwenden Sie Python, u
 type: docs
 weight: 70
 url: /de/python-net/applying-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Jedes Element einer Tabelle kann mit unterschiedlichen Formatierungen versehen werden. Beispielsweise wird die Tabellenformatierung auf die gesamte Tabelle angewendet, die Zeilenformatierung nur auf bestimmte Zeilen und die Zellenformatierung nur auf bestimmte Zellen.

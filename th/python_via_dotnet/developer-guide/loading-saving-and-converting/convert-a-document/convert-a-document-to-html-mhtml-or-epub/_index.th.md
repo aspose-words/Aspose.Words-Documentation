@@ -7,6 +7,7 @@ description: "แปลงเอกสารจากเกือบทุกร
 type: docs
 weight: 20
 url: /th/python-net/convert-a-document-to-html-mhtml-or-epub/
+timestamp: 2024-01-27-14-07-04
 ---
 
 เอกสารในรูปแบบเค้าโครงโฟลว์ HTML และ MHTML ก็ได้รับความนิยมอย่างมากเช่นกัน และสามารถใช้กับแพลตฟอร์มเว็บใดก็ได้ ด้วยเหตุนี้ การแปลงเอกสารเป็น HTML และ MHTML จึงเป็นคุณสมบัติที่สำคัญของ Aspose.Words

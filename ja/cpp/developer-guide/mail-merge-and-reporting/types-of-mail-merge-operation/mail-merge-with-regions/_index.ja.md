@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail MergeとC++の領域
 second_title: Aspose.WordsのためのC++
 articleTitle: Mail Merge地域を指定します
@@ -8,6 +8,7 @@ description: "テンプレートに異なる領域を作成して、データを
 keywords: "how to execute mail merge c++"
 weight: 20
 url: /ja/cpp/mail-merge-with-regions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 テンプレートにさまざまなリージョンを作成して、データを入力するだけの特別な領域を作成できます。 テンプレート内でこれらの領域を指定してドキュメントを動的に拡張するために、繰り返しデータを含むテーブル、行を挿入する場合は、mail mergewith regionsを使用し

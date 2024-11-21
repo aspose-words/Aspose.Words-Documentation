@@ -7,6 +7,7 @@ description: "Вбудувати клієнт-визначену семанти�
 type: docs
 weight: 50
 url: /uk/python-net/structured-document-tags-or-content-control/
+timestamp: 2024-01-31-14-23-37
 ---
 
 

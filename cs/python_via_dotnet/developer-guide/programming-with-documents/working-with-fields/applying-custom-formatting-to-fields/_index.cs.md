@@ -7,6 +7,7 @@ description: "Formátovat a vyhodnocovat výsledek polí pomocí Python."
 type: docs
 weight: 40
 url: /cs/python-net/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Někdy musí uživatelé aplikovat vlastní formátování na pole. V tomto článku se podíváme na několik příkladů, jak se to dá dělat.

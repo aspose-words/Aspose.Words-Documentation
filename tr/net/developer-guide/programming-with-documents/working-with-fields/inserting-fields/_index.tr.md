@@ -7,6 +7,7 @@ description: "C# kullanarak bir belgeye alanlar nasıl eklenir – kod örnekler
 type: docs
 weight: 20
 url: /tr/net/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bir belgeye alan eklemenin birkaç farklı yolu vardır:

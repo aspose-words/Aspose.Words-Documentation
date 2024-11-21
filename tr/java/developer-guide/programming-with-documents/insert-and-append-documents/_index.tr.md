@@ -7,6 +7,7 @@ description: "Birleştir belgeler bir tanesine: yeni veya mevcut bir belgeye bel
 type: docs
 weight: 80
 url: /tr/java/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bazen birkaç belgeyi tek bir belgeden birleştirmeniz gerekir. Bunu elle yapabilir ya da Aspose.Words ekle veya ilave et özelliğini kullanabilirsiniz.

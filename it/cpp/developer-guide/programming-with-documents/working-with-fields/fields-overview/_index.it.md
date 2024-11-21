@@ -1,4 +1,4 @@
-﻿---
+---
 title: Panoramica dei campi in C++
 second_title: Aspose.Words per C++
 articleTitle: Panoramica dei campi
@@ -7,6 +7,7 @@ description: "I campi presentano dettagli, codici di campo e risultati di campo 
 type: docs
 weight: 10
 url: /it/cpp/fields-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words è una libreria di classi progettata per l'elaborazione lato server di documenti Microsoft Word e supporta i campi nei seguenti modi:

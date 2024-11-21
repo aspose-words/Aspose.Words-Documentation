@@ -7,6 +7,7 @@ description: "Chỉ định Tùy chọn bố cục cho các bố cục tài li�
 type: docs
 weight: 10
 url: /vi/python-net/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words cho phép bạn tạo tài liệu đầu ra với nhiều bố cục khác nhau, tùy thuộc vào các tham số được chỉ định trong thuộc tính của lớp [LayoutOptions](https://reference.aspose.com/words/python-net/aspose.words.layout/layoutoptions/). Một số thuộc tính này giống với một số tùy chọn menu giao diện người dùng Microsoft Word – chúng sẽ được mô tả trong bài viết này.

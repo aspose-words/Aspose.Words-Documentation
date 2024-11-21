@@ -7,6 +7,7 @@ description: "Aspose.Words für .NET fügt dem Dokument den Generatornamen und d
 type: docs
 weight: 60
 url: /de/net/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Mithilfe von Aspose.Words für .NET können Sie leicht erkennen, ob ein Dokument erstellt wurde. Sie können auch die Versionsnummer von Aspose.Words für .NET finden, die zum Erstellen eines bestimmten Ausgabedokuments verwendet wurde. Aspose.Words schreibt diese Informationen direkt in das generierte Dokument.

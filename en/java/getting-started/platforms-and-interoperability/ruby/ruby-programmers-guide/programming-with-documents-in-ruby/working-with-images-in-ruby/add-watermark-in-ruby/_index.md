@@ -1,4 +1,4 @@
-﻿---
+---
 title: Add Watermark in Ruby
 second_title: Aspose.Words for Java
 articleTitle: Add Watermark in Ruby
@@ -7,6 +7,7 @@ description: "Add watermark to MS Word documents using Ruby."
 type: docs
 weight: 10
 url: /java/add-watermark-in-ruby/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Aspose.Words - Add Watermark

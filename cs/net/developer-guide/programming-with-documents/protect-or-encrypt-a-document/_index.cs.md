@@ -7,6 +7,7 @@ description: "Aspose.Words místo .NET poskytuje pouze pro čtení, šifrování
 type: docs
 weight: 50
 url: /cs/net/protect-or-encrypt-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Hlavním důvodem ochrany nebo šifrování dokumentu je větší kontrola nad tím, kdo může přístup k dokumentu nebo kdo jej může editovat. Při uplatňování ochrany na vaše dokumenty se vyhnete běžným rizikům, jako je kopírování nebo úprava dokumentů bez povolení, jakož i úniku dat.

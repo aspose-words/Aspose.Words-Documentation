@@ -7,6 +7,7 @@ description: "Open a document for read-only easily and fast instead of using Ope
 type: docs
 weight: 30
 url: /net/open-a-word-processing-document-for-read-only-access/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Sometimes you want to open a document to inspect or retrieve some information, and you want to do so in such a way that the document remains unchanged. In these instances, you want to open the document as read-only.

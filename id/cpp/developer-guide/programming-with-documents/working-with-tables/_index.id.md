@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bekerja dengan Tabel di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Bekerja dengan Tabel
@@ -7,6 +7,7 @@ description: "Cara bekerja dengan tabel di C++. Memperkenalkan untuk bekerja den
 type: docs
 weight: 190
 url: /id/cpp/working-with-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 **table** dalam dokumen adalah cara yang bagus untuk menyusun data serupa. Itulah sebabnya tabel adalah elemen pemformatan konten yang umum dan didukung oleh sebagian besar format dalam satu atau lain bentuk.

@@ -7,6 +7,7 @@ description: "Tableau divisé en Java. Comment diviser une table en deux tables 
 type: docs
 weight: 100
 url: /fr/java/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un tableau, représenté dans Aspose.Words Document Object Model, est composé de rangées et de cellules indépendantes, ce qui facilite la division d'une table.

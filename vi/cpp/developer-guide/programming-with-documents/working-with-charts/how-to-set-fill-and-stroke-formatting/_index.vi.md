@@ -1,4 +1,4 @@
-﻿---
+---
 title: Làm việc với Biểu đồ trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Làm việc với Biểu Đồ
@@ -7,6 +7,7 @@ description: "Giới thiệu về tính năng Biểu đồ, cách tạo và thao
 type: docs
 weight: 170
 url: /vi/cpp/how-to-set-fill-and-stroke-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Định dạng tô và nét có thể được đặt cho chuỗi biểu đồ, điểm dữ liệu và điểm đánh dấu. Để làm điều này, bạn cần sử dụng các thuộc tính của loại **ChartFormat** trong các lớp **ChartSeries**, **ChartDataPoint** và **ChartMarker**, cũng như bí danh cho một số thuộc tính, chẳng hạn như ForeColor, BackColor, Hiển thị và Trong suốt trong lớp `Stroke`.

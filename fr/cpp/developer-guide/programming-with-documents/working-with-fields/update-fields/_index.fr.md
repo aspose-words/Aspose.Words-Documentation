@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mettre à jour les champs en C++
 second_title: Aspose.Words pour C++
 articleTitle: Mettre à Jour les Champs
@@ -7,6 +7,7 @@ description: "Apprenez à mettre à jour les champs en C++. Mettez à jour les c
 type: docs
 weight: 30
 url: /fr/cpp/update-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 En règle générale, un champ inséré dans Microsoft Word contient déjà une valeur à jour. Par exemple, si le champ est une formule ou un numéro de page, il contiendra la valeur calculée correcte pour la version donnée du document. Mais si vous avez une application qui génère ou modifie un document avec des champs tels que la fusion de deux documents ou le remplissage de données, idéalement, tous les champs doivent être mis à jour pour que le document soit utile.

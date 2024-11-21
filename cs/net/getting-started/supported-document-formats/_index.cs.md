@@ -7,6 +7,7 @@ type: docs
 description: "Upravit zdrojové dokumenty v mnoha populárních formátech, stejně jako volně převést soubory z jednoho formátu do druhého pomocí C#."
 weight: 20
 url: /cs/net/supported-document-formats/
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

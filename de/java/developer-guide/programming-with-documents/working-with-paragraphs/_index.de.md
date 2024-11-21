@@ -7,6 +7,7 @@ description: "Verfahren zur Manipulation von Knotenpunkten mit Java."
 type: docs
 weight: 210
 url: /de/java/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ein Absatz ist eine Reihe von Zeichen kombiniert zu einem logischen Block und endet mit einem besonderen Charakter – eine *paragraph Pause*. In Aspose.Words, ein Absatz von [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) Klasse.

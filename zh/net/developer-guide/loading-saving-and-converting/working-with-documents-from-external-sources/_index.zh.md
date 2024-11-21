@@ -7,6 +7,7 @@ description: "如何从外部源加载 C# 文档。从 SharePoint 或数据库�
 type: docs
 weight: 40
 url: /zh/net/working-with-documents-from-external-sources/
+timestamp: 2024-01-27-14-07-04
 ---
 
 本节提供有关如何从外部源（例如 SharePoint 文档存储或数据库）加载文档的信息。收到这样的文档后，您不仅可以使用 Aspose.Words 的强大功能对其进行所有必要的更改，还可以将此文档加载回数据源。

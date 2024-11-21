@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words or Open XML SDK
 second_title: Aspose.Words for .NET
 articleTitle: Aspose.Words or Open XML SDK
@@ -8,6 +8,7 @@ type: docs
 weight: 20
 url: /net/aspose-words-or-open-xml-sdk/
 aliases: [/net/why-not-open-xml-sdk/]
+timestamp: 2024-01-31-14-23-37
 ---
 
 Sometimes we get the following question: why should we use Aspose products rather than the free Open XML SDK? This question is easy to answer: features and functionality.

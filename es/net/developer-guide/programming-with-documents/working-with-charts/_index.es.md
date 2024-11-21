@@ -7,6 +7,7 @@ description: "Introducción a la función de gráficos, cómo crear y manipular 
 type: docs
 weight: 310
 url: /es/net/working-with-charts/
+timestamp: 2024-02-05-15-07-18
 ---
 
 Se agregó un nuevo método [InsertChart](https://reference.aspose.com/words/es/net/aspose.words/documentbuilder/insertchart/) a la clase [DocumentBuilder](https://reference.aspose.com/words/es/net/aspose.words/documentbuilder/). Entonces, veamos cómo insertar un gráfico de columnas simple en el documento usando el método [InsertChart](https://reference.aspose.com/words/es/net/aspose.words/documentbuilder/insertchart/).

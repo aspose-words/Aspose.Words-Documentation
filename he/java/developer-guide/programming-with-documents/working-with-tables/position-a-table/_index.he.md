@@ -7,6 +7,7 @@ description: "מיקום שולחן ספציפי Java. קבל היערכות ש�
 type: docs
 weight: 50
 url: /he/java/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 יש שולחנות צפים וטבלאות Inline:

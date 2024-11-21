@@ -1,4 +1,4 @@
-﻿---
+---
 title: Clonează un Document în Python
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Clonează un Document
@@ -7,6 +7,7 @@ type: docs
 description: "Clonați un document pentru a obține copia identică folosind Python. La crearea unei copii, nodurile și proprietățile documentului original sunt clonate."
 weight: 70
 url: /ro/python-net/clone-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Clonarea unui document este procesul de creare a unei copii identice a unui document original, care poate îmbunătăți performanța și vă poate salva de eventualele scurgeri de memorie.

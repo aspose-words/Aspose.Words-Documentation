@@ -1,4 +1,4 @@
-﻿---
+---
 title: Care PDF Standard este mai bine să alegeți
 second_title: Aspose.Words pentru Python
 articleTitle: Care PDF Standard este mai bine să alegeți
@@ -7,6 +7,7 @@ description: "Alegeți cel mai bun standard PDF pentru a exporta rezultatul sarc
 type: docs
 weight: 27
 url: /ro/python-net/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Pentru unele sarcini, anumite standarde PDF se vor potrivi mai bine sau invers mai rău. În acest articol, vom încerca să determinăm ce standarde PDF pentru ce cazuri are sens să alegeți.

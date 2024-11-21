@@ -7,6 +7,7 @@ description: "Как добавить гиперссылку в документ
 type: docs
 weight: 50
 url: /ru/java/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Гиперссылка в Microsoft Word Документы являются `HYPERLINK` поле. в Aspose.Words, гиперссылки реализуются через [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/) класс.

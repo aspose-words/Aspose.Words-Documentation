@@ -1,4 +1,4 @@
-﻿---
+---
 title: Installeer TrueType Lettertipes op Linux in C++
 second_title: Aspose.Words vir C++
 articleTitle: Installeer TrueType Lettertipes op Linux
@@ -7,6 +7,7 @@ description: "Aspose.Words vir C++ laat'n dokument wat met Microsoft Word op'n L
 type: docs
 weight: 20
 url: /af/cpp/install-truetype-fonts-on-linux/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Dikwels sal jy Aspose.Words gebruik om DOC of DOCX dokumente om te skakel na PDF formaat. As jy dit op'n Linux masjien moet doen, sal hierdie onderwerp jou help om te leer hoe om te verseker dat Aspose.Words jou dokumente met die beste akkuraatheid weergee.

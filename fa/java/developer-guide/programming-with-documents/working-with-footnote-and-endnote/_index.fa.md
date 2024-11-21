@@ -7,6 +7,7 @@ description: "چگونه به دستکاری یادداشت ها و یادداش
 type: docs
 weight: 160
 url: /fa/java/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words همچنین برخی از کلاس ها، روش ها و خواص را برای کار با یادداشت های پا و پایان نامه ها فراهم می کند.

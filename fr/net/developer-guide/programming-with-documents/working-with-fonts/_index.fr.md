@@ -7,6 +7,7 @@ description: "Formatage des polices en détails à l'aide de C#. Marque d'accent
 type: docs
 weight: 230
 url: /fr/net/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Une police est un ensemble de caractères ayant une certaine taille, couleur et design. Aspose.Words vous permet de travailler avec des polices en utilisant l'espace de noms [Fonts](https://reference.aspose.com/words/fr/net/aspose.words.fonts/) et la classe [Font](https://reference.aspose.com/words/fr/net/aspose.words/font/).

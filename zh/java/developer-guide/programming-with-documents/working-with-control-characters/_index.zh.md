@@ -7,6 +7,7 @@ description: "操作控制字符的介绍 Aspose.Words (单位:千美元) Java�
 type: docs
 weight: 400
 url: /zh/java/working-with-control-characters/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word 文档可能包含具有特殊含义的各种字符。 通常它们用于格式化目的,不以正常模式绘制. 您可以单击标准工具栏上的显示/隐藏格式标记按钮,使其可见。

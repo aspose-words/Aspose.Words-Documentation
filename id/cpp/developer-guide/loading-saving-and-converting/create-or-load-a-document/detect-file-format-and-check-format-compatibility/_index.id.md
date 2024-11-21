@@ -1,4 +1,4 @@
-﻿---
+---
 title: Deteksi Format File dan Periksa Kompatibilitas Format
 second_title: Aspose.Words untuk C++
 articleTitle: Deteksi Format File dan Periksa Kompatibilitas Format
@@ -7,6 +7,7 @@ description: "Tentukan format file dalam C++ jika Anda tidak yakin apa isi seben
 type: docs
 weight: 20
 url: /id/cpp/detect-file-format-and-check-format-compatibility/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Terkadang perlu untuk menentukan format dokumen sebelum dibuka karena ekstensi file tidak menjamin bahwa isi file tersebut sesuai. Misalnya, diketahui bahwa Crystal Reports sering kali mengeluarkan dokumen dalam format RTF, tetapi memberikannya.ekstensi dokumen.

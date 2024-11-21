@@ -7,6 +7,7 @@ description: "Create reports from template documents using the LINQ Reporting En
 type: docs
 weight: 50
 url: /net/linq-reporting-engine/
+timestamp: 2024-09-25-11-08-55
 ---
 
 This section provides the information you need to create reports from template documents using the LINQ Reporting Engine. The information is divided into the following sections:

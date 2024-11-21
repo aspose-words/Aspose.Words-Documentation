@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在C++中转换为固定页面格式
 second_title: Aspose.Words对于C++
 articleTitle: 转换为固定页格式
@@ -7,6 +7,7 @@ description: "将文档保存到PDF, XPS, HTML, XAML, PostScript, 和PCL格式�
 type: docs
 weight: 10
 url: /zh/cpp/converting-to-fixed-page-format/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Aspose.Words实现自己的页面布局引擎。 在深入研究其规范之前，首先在高层次上讨论文档是值得的。

@@ -1,4 +1,4 @@
-﻿---
+---
 title: LINQ Reporting Engine API in Python
 second_title: Aspose.Words for Python via .NET
 articleTitle: LINQ Reporting Engine API
@@ -8,6 +8,7 @@ type: docs
 weight: 40
 url: /python-net/linq-reporting-engine-api/
 aliases: [/python/linq-reporting-engine-api/]
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

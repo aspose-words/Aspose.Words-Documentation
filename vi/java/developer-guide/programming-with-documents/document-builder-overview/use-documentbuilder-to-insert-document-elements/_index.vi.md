@@ -7,6 +7,7 @@ type: docs
 description: "Chèn các thành phần tài liệu bằng trình tạo tài liệu trong Java."
 weight: 10
 url: /vi/java/use-documentbuilder-to-insert-document-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)" dùng để sửa đổi tài liệu. Bài viết này giải thích và miêu tả cách thực hiện một số nhiệm vụ.

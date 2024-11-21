@@ -7,6 +7,7 @@ description: "This article shows you how to create a workflow for inserting a te
 type: docs
 weight: 40
 url: /sharepoint/inserting-a-watermark-via-workflow-activity/
+timestamp: 2024-01-27-14-07-04
 ---
 
 This article shows you how to create a workflow for inserting a text or image watermark into a document. The steps and screenshots are for SharePoint Designer 2010.

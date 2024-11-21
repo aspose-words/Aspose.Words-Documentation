@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hoe Om Pasmaak Toe te Pas tydens Mail Merge
 second_title: Aspose.Words vir Java
 articleTitle: Hoe Om Pasmaak Toe te Pas tydens Mail Merge
@@ -7,6 +7,7 @@ type: docs
 description: "Pas pasgemaakte opmaak toe tydens'n mail merge - bewerking met Java."
 weight: 60
 url: /af/java/how-to-apply-custom-formatting-during-mail-merge/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Die [MailMerge](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/) klas bied twee gebeure wat baie nuttig kan wees in die uitbreiding van mail merge vermoëns. Die [setFieldMergingCallback(IFieldMergingCallback)](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#FieldMergingCallback) eienskap aanvaar'n klas wat die metodes [fieldMerging(FieldMergingArgs)](https://reference.aspose.com/words/java/com.aspose.words/ifieldmergingcallback/#fieldMerging-com.aspose.words.FieldMergingArgs) en [imageFieldMerging(ImageFieldMergingArgs)](https://reference.aspose.com/words/java/com.aspose.words/ifieldmergingcallback/#imageFieldMerging-com.aspose.words.ImageFieldMergingArgs) implementeer. Dit kan gebruik word om persoonlike beheer oor die mail merge proses te implementeer.

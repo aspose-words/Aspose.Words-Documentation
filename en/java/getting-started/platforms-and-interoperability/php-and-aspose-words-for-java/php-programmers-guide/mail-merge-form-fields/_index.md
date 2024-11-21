@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge Form Fields
 second_title: Aspose.Words for Java
 articleTitle: Mail Merge Form Fields
@@ -7,6 +7,7 @@ description: "Mail Merge Form Fields using PHP."
 type: docs
 weight: 10
 url: /java/mail-merge-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Mail Merge Form Fields

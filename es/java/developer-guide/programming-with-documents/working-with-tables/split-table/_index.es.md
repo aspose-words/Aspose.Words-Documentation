@@ -7,6 +7,7 @@ description: "Mesa dividida en Java. Cómo dividir una tabla en dos tablas separ
 type: docs
 weight: 100
 url: /es/java/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Una tabla, representada en el Aspose.Words Document Object Model, está formado por filas y células independientes, lo que hace fácil dividir una mesa.

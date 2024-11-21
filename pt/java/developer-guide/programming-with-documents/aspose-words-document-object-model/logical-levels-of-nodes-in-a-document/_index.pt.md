@@ -7,6 +7,7 @@ type: docs
 description: "Em Aspose.Words para Java documentação mencionou níveis lógicos de nós – nível de bloco, nível inline, ou nível de linha. O nível de nó é usado para descrever a localização na árvore de documentos onde o nó é tipicamente ocorrer."
 weight: 10
 url: /pt/java/logical-levels-of-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Esta documentação, por vezes, refere-se a um grupo de classes de nó como pertencentes a um "nível" em um documento, como "nível de bloqueio", "nível de linha" (também conhecido como "inline"), ou "nível de linha" nós. Estes níveis em um documento são diferenciados puramente logicamente e não são explicitamente expressos por herança ou outros Aspose.Words DOM significa. O nível de nó é usado para descrever o lugar na árvore do documento onde o nó normalmente ocorreria.

@@ -7,6 +7,7 @@ description: "Aspose.Words cho máy Java sẽ giúp hiển thị tài liệu đ�
 type: docs
 weight: 20
 url: /vi/java/install-truetype-fonts-on-linux/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Hầu hết các lần bạn sẽ dùng Aspose.Words để chuyển đổi các tài liệu DOC hay DOCX sang định dạng PDF. Nếu bạn cần thực hiện điều này trên một Linux máy, chủ đề này sẽ giúp bạn học cách đảm bảo Aspose.Words in các tài liệu của bạn với độ chính xác tốt nhất.

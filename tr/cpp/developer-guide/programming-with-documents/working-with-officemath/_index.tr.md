@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içinde OfficeMath ile çalışmak
 second_title: Aspose.Words için C++
 articleTitle: OfficeMath ile çalışmak
@@ -7,6 +7,7 @@ type: docs
 description: "Ofis Matematiğine Giriş özelliği Aspose.Words için C++."
 weight: 320
 url: /tr/cpp/working-with-officemath/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Şimdi OfficeMath Tipi Nesnelerle çalışmak daha da uygun. Aspose.Words 'de müşteri, bir denklemin satır içi mi yoksa ayrı bir satırda mı görüntülendiğini kolayca Doğrulayabilir ve yönetebilir. Dahası, **MathObjectType** kullanılabilirliği ile; Bu matris nesnesi kullanılarak kullanışlı kontroller uygulanabilir.

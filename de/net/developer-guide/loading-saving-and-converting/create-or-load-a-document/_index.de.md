@@ -8,6 +8,7 @@ url: /de/net/create-or-load-a-document/
 description: "Erstellen Sie ein leeres Dokument oder laden Sie es mithilfe von C# aus einer Datei oder einem Stream."
 keywords: "create a document c#, load a document c#, create a blank document c#, load a document from file c#, load a document from stream c#, create a document Aspose .NET, load a document Aspose .NET, load formats supported by Aspose.Words .NET"
 weight: 10
+timestamp: 2024-07-09-19-00-42
 ---
 
 Fast jede Aufgabe, die Sie mit Aspose.Words ausführen möchten, umfasst das Laden eines Dokuments. Die `Document`-Klasse stellt ein in den Speicher geladenes Dokument dar. Das Dokument verfügt über mehrere überladene Konstruktoren, mit denen Sie ein leeres Dokument erstellen oder es aus einer Datei oder einem Stream laden können. Das Dokument kann in jedem von Aspose.Words unterstützten Ladeformat geladen werden. Die Liste aller unterstützten Ladeformate finden Sie in der [LoadFormat](https://reference.aspose.com/words/de/net/aspose.words/loadformat/)-Aufzählung.

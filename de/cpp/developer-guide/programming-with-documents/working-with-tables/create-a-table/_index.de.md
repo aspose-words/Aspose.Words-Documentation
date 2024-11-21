@@ -1,4 +1,4 @@
-﻿---
+---
 title: So erstellen Sie eine Tabelle in C++
 second_title: Aspose.Words für C++
 articleTitle: Erstellen Sie eine Tabelle
@@ -7,6 +7,7 @@ description: "Verschiedene Möglichkeiten zum Erstellen von Tabellen mit C++. Er
 type: docs
 weight: 20
 url: /de/cpp/create-a-table/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words ermöglicht es Benutzern, Tabellen in einem Dokument von Grund auf neu zu erstellen, und bietet dafür verschiedene Methoden. Dieser Artikel enthält Details zum Hinzufügen formatierter Tabellen zu Ihrem Dokument mit jeder Methode sowie einen Vergleich der einzelnen Methoden am Ende des Artikels.

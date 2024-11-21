@@ -8,6 +8,7 @@ description: "قم بتحويل تنسيقات PDF إلى Word مثل DOCX أو 
 keywords: convert pdf to other formats python
 weight: 45
 url: /ar/python-net/convert-pdf-to-other-document-formats/
+timestamp: 2024-01-27-14-07-04
 ---
 
 يمكن لـ Aspose.Words تحميل تنسيق معقد مثل PDF. يفتح هذا فرصًا جديدة: من الممكن تحويل PDF إلى Word أو تنسيقات أخرى تجلب المستخدمين إلى الأمام في حل العديد من المشكلات التطبيقية.

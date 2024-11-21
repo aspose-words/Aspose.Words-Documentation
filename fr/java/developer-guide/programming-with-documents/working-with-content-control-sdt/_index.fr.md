@@ -7,6 +7,7 @@ type: docs
 description: "Gestion avancée du contenu des documents, comment créer et manipuler les contrôles de contenu (étiquettes de document structuré) en utilisant Java."
 weight: 390
 url: /fr/java/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
 En Microsoft Word, Vous pouvez créer un formulaire en commençant par un modèle et en ajoutant des contrôles de contenu, y compris les cases à cocher, les cases de texte, les sélectionneurs de dates et les listes déroulantes. En <span notrans="<span notrans=" Aspose.Words"=""></span>""> une étiquette de document structuré ou un contrôle de contenu de tout document chargé dans Aspose.Words est importé en tant que noeud structuredDocumentTag. Les balises de document structurées (SDT ou contrôle de contenu) permettent d'intégrer la sémantique définie par le client ainsi que son comportement et son apparence dans un document.

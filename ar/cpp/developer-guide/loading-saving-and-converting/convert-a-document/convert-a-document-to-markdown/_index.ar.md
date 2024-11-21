@@ -1,4 +1,4 @@
-﻿---
+---
 title: تحويل مستند إلى Markdown في C++
 second_title: Aspose.Words ل C++
 articleTitle: تحويل مستند إلى Markdown
@@ -8,6 +8,7 @@ description: "تحويل مستند بأي تنسيق تحميل مدعوم إل
 keywords: how to convert a document to markdown c++, Convert doc to MD C++, convert DOCX to Markdown C++
 weight: 40
 url: /ar/cpp/convert-a-document-to-markdown/
+timestamp: 2024-10-21-08-52-03
 ---
 
 Markdown هو تنسيق شائع يستخدم لترميز النص وتحويله إلى مزيد من HTML, PDF, DOCX, أو تنسيقات أخرى. يختار العديد من المطورين هذا التنسيق لكتابة الوثائق وإعداد المقالات للنشر على المدونات ووصف المشاريع وما إلى ذلك.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Introducere în câmpuri în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Introducere în câmpuri
@@ -7,6 +7,7 @@ description: "Câmpurile sunt prezentate în detalii, coduri de câmp și rezult
 type: docs
 weight: 10
 url: /ro/java/introduction-to-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words este o bibliotecă de clase concepută pentru procesarea pe partea de server a documentelor Microsoft Word și acceptă câmpuri în următoarele moduri:

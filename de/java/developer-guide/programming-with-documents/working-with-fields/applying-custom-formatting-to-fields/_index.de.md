@@ -7,6 +7,7 @@ description: "Felder ausgeben und auswerten Java."
 type: docs
 weight: 40
 url: /de/java/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Manchmal müssen Benutzer benutzerdefinierte Formatierung auf Felder anwenden. In diesem Artikel werden wir uns einige Beispiele ansehen, wie dies geschehen kann.

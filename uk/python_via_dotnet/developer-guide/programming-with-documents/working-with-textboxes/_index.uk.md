@@ -7,6 +7,7 @@ description: "Робота з текстовими скриньками в до�
 type: docs
 weight: 250
 url: /uk/python-net/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 У Aspose.Words, [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) клас використовується для уточнення тексту у формі. До послуг гостей: [parent](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/parent/) щоб отримати батьківську форму для текстової коробки, щоб дозволити клієнту знайти пов'язаний [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) від пов'язаних [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/)й

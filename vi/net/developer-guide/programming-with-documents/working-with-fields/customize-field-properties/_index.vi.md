@@ -7,6 +7,7 @@ description: "Tìm hiểu cách tùy chỉnh thuộc tính trường trong C#. �
 type: docs
 weight: 27
 url: /vi/net/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words cung cấp khả năng tương tác theo chương trình với các thuộc tính trường khác nhau. Trong bài viết này, chúng ta sẽ xem xét một vài ví dụ để bạn hiểu nguyên tắc cơ bản khi làm việc với các thuộc tính trường. Bạn có thể xem danh sách đầy đủ các thuộc tính cho từng loại trường trong lớp tương ứng trong [Không gian tên trường](https://reference.aspose.com/words/net/aspose.words.fields/).

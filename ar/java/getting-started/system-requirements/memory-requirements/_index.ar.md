@@ -7,6 +7,7 @@ description: "كم تذكرة Aspose.Words for Java تحتاج إلى العمل
 type: docs
 weight: 10
 url: /ar/java/memory-requirements/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words وتوفر مجموعة واسعة من السمات للعمل مع الوثائق بأشكال مختلفة. ومن المهم ملاحظة أنه لا يوجد حد أقصى للملف المستندي Aspose.Words يُمْكِنُ أَنْ يُعالجَ أَو يَصْرفُ. القيد الوحيد هو كمية الـ "رام" المتاحة على جانبك

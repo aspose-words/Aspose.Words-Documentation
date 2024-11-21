@@ -7,6 +7,7 @@ description: "다양한 한국어 유형 글꼴 소스: 시스템 폴더, 사용
 type: docs
 weight: 30
 url: /ko/java/specify-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 이 항목은 기본 행동을 설명합니다. Aspose.Words TrueType 글꼴을 볼 때, 운영 체제 특정 차이를 포함하여, 사용자 글꼴 소스를 지정하는 방법을 보여줍니다.

@@ -7,6 +7,7 @@ description: "قالب بندی فونت در جزئیات با استفاده �
 type: docs
 weight: 230
 url: /fa/net/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 فونت مجموعه ای از کاراکترها با اندازه، رنگ و طرح معین است. Aspose.Words به شما امکان می دهد با استفاده از فضای نام [Fonts](https://reference.aspose.com/words/net/aspose.words.fonts/) و کلاس [Font](https://reference.aspose.com/words/net/aspose.words/font/) با فونت ها کار کنید.

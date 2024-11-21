@@ -7,6 +7,7 @@ description: "Sử dụng tính năng hiển thị Aspose.Words cho Python via .
 type: docs
 weight: 20
 url: /vi/python-net/rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Chúng tôi sử dụng thuật ngữ "kết xuất" trong Aspose.Words để mô tả quá trình chuyển đổi tài liệu thành định dạng tệp hoặc phương tiện được phân trang hoặc có khái niệm về trang. Chúng ta đang nói về việc hiển thị một tài liệu thành các trang. Sơ đồ sau đây cho biết kết xuất trong Aspose.Words là gì.

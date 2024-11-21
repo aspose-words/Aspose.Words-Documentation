@@ -1,4 +1,4 @@
-﻿---
+---
 title: 필드 업데이트 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 필드 업데이트
@@ -7,6 +7,7 @@ description: "필드 업데이트 방법 알아보기 C++. 프로그래밍 방�
 type: docs
 weight: 30
 url: /ko/cpp/update-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 일반적으로,필드는 Microsoft Word 이미 최신 값이 포함되어 있습니다. 예를 들어 필드가 수식 또는 페이지 번호인 경우 지정된 문서 버전에 대한 올바른 계산 값이 포함됩니다. 그러나 두 문서를 병합하거나 데이터로 채우는 것과 같은 필드로 문서를 생성하거나 수정하는 응용 프로그램이 있는 경우 문서가 유용하도록 모든 필드를 업데이트해야 합니다.

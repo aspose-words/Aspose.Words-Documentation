@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu Markdown caracteristici în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Lucrul cu Markdown caracteristici
@@ -7,6 +7,7 @@ description: "Cum se implementează Markdown caracteristici folosind Java. Toate
 type: docs
 weight: 420
 url: /ro/java/working-with-markdown-features/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Acest subiect discută despre modul de implementare a Markdown Caracteristici folosind Aspose.Words. Markdown este o modalitate simplă de a formata text simplu care poate fi ușor convertit în HTML. Aspose.Words acceptă următoarele Markdown Caracteristici:

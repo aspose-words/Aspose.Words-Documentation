@@ -7,6 +7,7 @@ description: "Aspose.Words for .NET 中的范围功能简介。"
 type: docs
 weight: 130
 url: /zh/net/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

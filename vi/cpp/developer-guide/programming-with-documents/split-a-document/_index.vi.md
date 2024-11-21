@@ -1,4 +1,4 @@
-﻿---
+---
 title: Chia Một Tài liệu trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Chia Một Tài liệu
@@ -7,6 +7,7 @@ description: "Chia tài liệu thành nhiều tệp bằng C++. Sử dụng tín
 type: docs
 weight: 90
 url: /vi/cpp/split-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 *Splitting* hoặc *split a document* là quá trình phá vỡ một tài liệu lớn thành một số lượng lớn các tệp nhỏ hơn. Có nhiều lý do để chia một tập tin. Ví dụ: bạn chỉ cần một số trang từ một tài liệu cụ thể chứ không phải toàn bộ. Hoặc vì lý do riêng tư, bạn chỉ muốn chia sẻ một số phần của tài liệu với những người khác. Với tính năng tách, bạn chỉ có thể nhận được các phần cần thiết của tài liệu và thực hiện các hành động cần thiết với chúng, ví dụ, để đánh dấu, lưu hoặc gửi.

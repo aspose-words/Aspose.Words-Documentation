@@ -7,6 +7,7 @@ description: "さまざまな TrueType フォント ソースを指定します:
 type: docs
 weight: 30
 url: /ja/python-net/specifying-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 このトピックでは、オペレーティング システム固有の違いを含め、TrueType フォントを検索するときの Aspose.Words のデフォルトの動作について説明し、ユーザー フォント ソースを指定する方法を示します。

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Introdução
 second_title: Aspose.Words Para C++
 articleTitle: Introdução
@@ -7,6 +7,7 @@ type: docs
 description: "Use esta introdução para Aspose.Words Para C++ fundamentos para começar a perceber o valor de Aspose.Words para o seu negócio."
 weight: 10
 url: /pt/cpp/getting-started/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Esta introdução fornece uma introdução aos fundamentos Aspose.Words. Para usuários novos em Aspose.Words, esta é a maneira mais rápida de aprender os requisitos e recursos básicos.

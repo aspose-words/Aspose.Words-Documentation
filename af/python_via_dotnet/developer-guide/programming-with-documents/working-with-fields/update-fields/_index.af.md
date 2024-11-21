@@ -1,4 +1,4 @@
-﻿---
+---
 title: Opdateer Velde Python
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Opdateer Velde
@@ -7,6 +7,7 @@ description: "Werk velde in'n dokument op verskillende maniere op en gebruik ver
 type: docs
 weight: 30
 url: /af/python-net/update-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Tipies, 'n veld ingevoeg in Microsoft Word bevat reeds'n up-to-date waarde. Byvoorbeeld, as die veld'n formule of'n bladsy nommer is, sal dit die korrekte berekende waarde vir die gegewe weergawe van die dokument bevat. Maar as jy'n aansoek wat genereer of verander'n dokument met velde soos die samesmelting van twee dokumente of vul dit met data, dan ideaal alle velde moet opgedateer word vir die dokument nuttig te wees.

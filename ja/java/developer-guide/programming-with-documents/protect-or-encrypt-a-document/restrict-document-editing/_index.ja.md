@@ -7,6 +7,7 @@ description: "制限型の設定でドキュメントの編集を制限します
 type: docs
 weight: 30
 url: /ja/java/restrict-document-editing/
+timestamp: 2024-01-27-14-07-04
 ---
 
 時々、文書を編集する能力を制限し、特定のアクションのみをそれに許可する必要があります。 他の人があなたの文書の機密情報を編集することを防ぐのに便利です。

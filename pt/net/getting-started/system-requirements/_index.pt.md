@@ -7,6 +7,7 @@ description: "Antes de começar a trabalhar com Aspose.Words para .NET, certifiq
 type: docs
 weight: 70
 url: /pt/net/system-requirements/
+timestamp: 2024-02-01-16-17-05
 ---
 
 Aspose.Words para .NET não requer a instalação de nenhum produto de terceiros, como Microsoft Word. O próprio Aspose.Words é um mecanismo para criar, modificar, converter e renderizar documentos em vários formatos, incluindo formatos de documentos Microsoft Word.

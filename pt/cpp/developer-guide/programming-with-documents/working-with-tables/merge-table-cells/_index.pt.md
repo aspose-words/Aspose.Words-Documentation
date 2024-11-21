@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mesclar células da tabela em C++
 second_title: Aspose.Words para C++
 articleTitle: Mesclar Células Da Tabela
@@ -7,6 +7,7 @@ description: "Como mesclar células de tabela em C++. Verifique se as células e
 type: docs
 weight: 40
 url: /pt/cpp/merge-table-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Às vezes, certas linhas de uma tabela requerem um título ou grandes blocos de texto que ocupam toda a largura da tabela. Para o design adequado da tabela, o usuário pode mesclar várias células da tabela em uma. Aspose.Words suporta células mescladas ao trabalhar com todos os formatos de entrada, incluindo a importação de conteúdo HTML.

@@ -7,6 +7,7 @@ description: "Các tính năng định dạng Microsoft Word nâng cao, làm vi�
 type: docs
 weight: 110
 url: /vi/net/working-with-styles-and-themes/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Lớp [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) được sử dụng để quản lý tích hợp sẵn và áp dụng các cài đặt do người dùng xác định cho kiểu.

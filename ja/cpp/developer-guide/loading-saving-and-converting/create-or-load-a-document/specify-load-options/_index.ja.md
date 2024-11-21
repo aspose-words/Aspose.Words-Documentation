@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++でのロードオプションの指定
 second_title: C++の場合Aspose.Words
 articleTitle: ロードオプションの指定
@@ -7,6 +7,7 @@ description: "より正確に負荷プロセスを制御して下さい。"
 type: docs
 weight: 10
 url: /ja/cpp/specify-load-options/
+timestamp: 2024-01-30-16-22-34
 ---
 
 ドキュメントを読み込むときに、いくつかの高度なプロパティを設定できます。 Aspose.Wordsは、ロードプロセスのより正確な制御を可能にする[LoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/loadoptions/)クラスを提供します。 たとえば、PDF形式への読み込みには[PdfLoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/pdfloadoptions/)、TXTへの読み込みには[TxtLoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/txtloadoptions/)があります。 この記事では、**LoadOptions**クラスのオプションを使用する例を示します。

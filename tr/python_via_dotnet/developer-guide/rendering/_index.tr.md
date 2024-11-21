@@ -7,6 +7,7 @@ description: "Bir akış düzeni belgesini sayfalar halinde biçimlendirmek ve b
 type: docs
 weight: 20
 url: /tr/python-net/rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words'te "oluşturma" terimini, bir belgenin bir dosya biçimine veya sayfalandırılmış veya sayfa kavramına sahip bir ortama dönüştürülmesi sürecini tanımlamak için kullanırız. Bir belgenin sayfalara dönüştürülmesinden bahsediyoruz. Aşağıdaki şemada Aspose.Words'te hangi işlemenin olduğu gösterilmektedir.

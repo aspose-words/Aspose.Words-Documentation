@@ -7,6 +7,7 @@ description: "Aspose.Words voor Python via .NET biedt alleen-lezen, een document
 type: docs
 weight: 50
 url: /nl/python-net/protect-or-encrypt-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 De belangrijkste reden om een document te beschermen of te versleutelen is om meer controle toe te passen over wie toegang heeft tot het document of wie het kan bewerken. Door bescherming toe te passen op uw documenten, vermijdt u gemeenschappelijke risico's zoals het kopiëren of wijzigen van documenten zonder toestemming, evenals gegevenslekken.

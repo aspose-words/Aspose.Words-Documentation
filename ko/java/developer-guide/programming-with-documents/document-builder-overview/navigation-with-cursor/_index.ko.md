@@ -7,6 +7,7 @@ description: "문서 내에서 다른 노드 사이의 이동, 책갈피, 또는
 type: docs
 weight: 5
 url: /ko/java/navigation-with-cursor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 문서와 작업하는 동안, 짧은 또는 긴 경우, 당신은 당신의 문서를 탐색해야합니다. 가상 커서와 탐색은 문서의 다른 노드들 사이에서 탐색할 수 있는 기능을 나타냅니다.

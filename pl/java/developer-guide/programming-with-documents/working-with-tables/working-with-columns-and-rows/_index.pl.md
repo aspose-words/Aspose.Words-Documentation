@@ -7,6 +7,7 @@ description: "Praca z częściami tabeli - wiersze, kolumny i komórki przy uży
 type: docs
 weight: 30
 url: /pl/java/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aby uzyskać większą kontrolę nad funkcjonowaniem tabel, naucz się manipulować kolumnami i wierszami.

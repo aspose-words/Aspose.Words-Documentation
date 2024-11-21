@@ -7,6 +7,7 @@ description: "Learn how to remove fields in C#. Remove fields programmatically u
 type: docs
 weight: 35
 url: /net/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Sometimes it is necessary to remove a field from a document. This may occur when it needs to be replaced with a different field type or when the field is no longer needed in the document. For example the `TOC` field when saving to HTML.

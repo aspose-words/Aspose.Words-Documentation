@@ -7,6 +7,7 @@ description: "Buat dan memodifikasi OLE yang timbul dalam dokumen Anda menggunak
 type: docs
 weight: 360
 url: /id/java/working-with-ole-objects/
+timestamp: 2024-01-27-14-07-04
 ---
 
 OLE singkatan dari "Object Linking dan Embedding". Ini adalah teknologi dimana pengguna dapat bekerja dengan dokumen yang mengandung "objects" yang dibuat atau diedit oleh aplikasi pihak ketiga. Itu, OLE memungkinkan aplikasi untuk mengekspor "objects" ini ke aplikasi lain untuk mengedit, dan kemudian mengimpor mereka kembali dengan beberapa konten tambahan.

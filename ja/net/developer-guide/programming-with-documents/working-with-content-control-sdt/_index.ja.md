@@ -7,6 +7,7 @@ description: "高度なドキュメント コンテンツ管理。C# を使用�
 type: docs
 weight: 390
 url: /ja/net/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Microsoft Word では、テンプレートから始めて、チェックボックス、テキスト ボックス、日付ピッカー、ドロップダウン リストなどのコンテンツ コントロールを追加することでフォームを作成できます。 Aspose.Words では、Aspose.Words にロードされたドキュメントの構造化ドキュメント タグまたはコンテンツ コントロールが StructuredDocumentTag ノードとしてインポートされます。構造化ドキュメント タグ (SDT またはコンテンツ コントロール) を使用すると、顧客定義のセマンティクスとその動作および外観をドキュメントに埋め込むことができます。

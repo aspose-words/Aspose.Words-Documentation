@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge 템플릿 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: Mail Merge 템플릿
@@ -8,6 +8,7 @@ description: "만들기 mail merge 출력 문서에서 고정된 내용을 정�
 keywords: "create mail merge template с++"
 weight: 10
 url: /ko/cpp/mail-merge-template/
+timestamp: 2024-01-31-14-23-37
 ---
 
 병합 템플릿을 기본 문서로 사용하는 것이 일반적입니다. mail merge 간단한 조작이라면 mail merge 또는 mail merge 지역과 함께 Mail merge 지역과 함께 더 강력하고 간단한 것보다 인기가있다 mail merge. 단순 mail merge 특정 사례로 간주됩니다. mail merge 영역이 전체 문서인 영역을 사용합니다. 모든 것은 다음 기사"유형 Mail Merge 작업"을 더 자세히 설명합니다.

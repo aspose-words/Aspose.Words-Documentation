@@ -1,4 +1,4 @@
-﻿---
+---
 title: Arbeiten mit Diagrammen in C++
 second_title: Aspose.Words für C++
 articleTitle: Arbeiten mit Diagrammen
@@ -7,6 +7,7 @@ description: "Einführung in die Diagrammfunktion, Erstellen und Bearbeiten von 
 type: docs
 weight: 310
 url: /de/cpp/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Der [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/) -Klasse wurde eine neue [InsertChart](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertchart/) -Methode hinzugefügt. Sehen wir uns also an, wie Sie mit der [InsertChart](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertchart/) -Methode ein einfaches Säulendiagramm in das Dokument einfügen.

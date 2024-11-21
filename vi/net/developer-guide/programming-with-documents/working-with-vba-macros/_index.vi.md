@@ -7,6 +7,7 @@ description: "Làm việc với các dự án VBA tài liệu bằng C#."
 type: docs
 weight: 410
 url: /vi/net/working-with-vba-macros/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Visual Basic cho Ứng dụng (VBA) cho Microsoft Word là ngôn ngữ lập trình đơn giản nhưng mạnh mẽ có thể được sử dụng để mở rộng chức năng. Aspose.Words API cung cấp ba lớp để có quyền truy cập vào mã nguồn dự án VBA:

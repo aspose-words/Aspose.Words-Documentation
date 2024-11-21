@@ -7,6 +7,7 @@ description: "Come manipolare intestazioni e piè di pagina utilizzando Java."
 type: docs
 weight: 150
 url: /it/java/working-with-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words consente agli utenti di lavorare con intestazioni e piè di pagina in un documento. Un'intestazione è il testo che viene posizionato nella parte superiore di una pagina, e un piè di pagina è il testo nella parte inferiore di una pagina. Tipicamente, queste aree sono utilizzate per inserire informazioni che devono essere ripetute su tutte o alcune pagine del documento, come numeri di pagina, data di creazione, informazioni aziendali e così via.

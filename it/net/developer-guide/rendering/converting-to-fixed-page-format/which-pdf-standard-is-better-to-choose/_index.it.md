@@ -7,6 +7,7 @@ description: "Scegli il miglior standard PDF per esportare il risultato della tu
 type: docs
 weight: 27
 url: /it/net/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Per alcune attività, determinati standard PDF si adatteranno meglio o viceversa peggio. In questo articolo cercheremo di determinare quali standard PDF e per quali casi ha senso scegliere.

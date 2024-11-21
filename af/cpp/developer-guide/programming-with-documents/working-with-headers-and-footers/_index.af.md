@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk met Opskrifte en Voetskrifte in C++
 second_title: Aspose.Words vir C++
 articleTitle: Werk met Kop-en Voetstukke
@@ -7,6 +7,7 @@ description: "Hoe om koptekste en voetskrifte te manipuleer met behulp van C++."
 type: docs
 weight: 150
 url: /af/cpp/working-with-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words laat gebruikers toe om met kop-en voetskrifte in'n dokument te werk. 'n koptekst is teks wat bo-aan'n bladsy geplaas word, en'n voetskrif is teks onderaan'n bladsy. Hierdie gebiede word gewoonlik gebruik om inligting in te voeg wat op al of sommige bladsye van die dokument herhaal moet word, soos bladsynommers, skeppingsdatum, maatskappy-inligting, ensovoorts.

@@ -7,6 +7,7 @@ type: docs
 description: "تبدیل یک سند به فرمت تصویر (JPG، PNG و غیره) ایجاد یک پیش نمایش سند یا ایجاد یک اسکن سند برای ارسال یک فاکتور با استفاده از Java..."
 weight: 35
 url: /fa/java/convert-a-document-to-an-image/
+timestamp: 2024-01-27-14-07-04
 ---
 
 گاهی اوقات لازم است که به جای اسناد در فرمت های دیگر مانند DOCX یا PDF یک تصویر را دریافت کنید. به عنوان مثال، شما باید یک پیش نمایش از هر صفحه سند را به وب سایت یا برنامه خود اضافه کنید یا یک "scan" از یک سند برای ارسال یک فاکتور ایجاد کنید. این زمانی است که شما ممکن است نیاز به تبدیل یک سند در هر نقطه [فرمت Load Format](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) به تصویر، دوباره، در هر [دانلود موسیقی متن بازی The Punch دانلود بازی PunchSave Format](https://reference.aspose.com/words/java/com.aspose.words/saveformat/)...

@@ -7,6 +7,7 @@ description: "Sisipkan kolom ke dalam dokumen di Python dengan berbagai cara: me
 type: docs
 weight: 20
 url: /id/python-net/inserting-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Ada beberapa cara berbeda untuk menyisipkan kolom ke dalam dokumen:

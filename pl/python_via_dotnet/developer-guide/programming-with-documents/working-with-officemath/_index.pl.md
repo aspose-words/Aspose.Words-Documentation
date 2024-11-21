@@ -7,6 +7,7 @@ description: "Twórz i zarządzaj obiektami typu OfficeMath w dokumencie przy u�
 type: docs
 weight: 320
 url: /pl/python-net/working-with-officemath/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Teraz praca z obiektami typu OfficeMath jest jeszcze wygodniejsza. W Aspose.Words klient może łatwo uzasadnić, a także zarządzać tym, czy równanie ma być wyświetlane w linii, czy w osobnej linii. Co więcej, dzięki dostępności [MathObjectType](https://reference.aspose.com/words/python-net/aspose.words.math/mathobjecttype/); przydatne elementy sterujące można zaimplementować za pomocą tego obiektu matrix.

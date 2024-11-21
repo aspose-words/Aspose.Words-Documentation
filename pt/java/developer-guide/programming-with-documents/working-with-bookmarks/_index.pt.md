@@ -7,6 +7,7 @@ description: "Compreender conceitos de bookmark e como bookmark pode ser usado e
 type: docs
 weight: 180
 url: /pt/java/working-with-bookmarks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Os marcadores identificam-se em um Microsoft Word documentar os locais ou fragmentos que você nomeia e identifica para referência futura. Por exemplo, você pode usar um marcador para identificar o texto que deseja revisar mais tarde. Em vez de rolar através do documento para localizar o texto, você pode ir para ele usando a caixa de diálogo Bookmark.

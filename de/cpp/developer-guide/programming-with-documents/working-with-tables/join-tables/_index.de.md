@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tabellen in C++ verbinden
 second_title: Aspose.Words für C++
 articleTitle: Tabellen verbinden
@@ -7,6 +7,7 @@ description: "Erweiterte Tabellenmanipulationen. So fügen Sie zwei Tabellen zu 
 type: docs
 weight: 90
 url: /de/cpp/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Eine Tabelle, die im Aspose.Words -Dokumentobjektmodell dargestellt wird, besteht aus unabhängigen Zeilen und Zellen, wodurch das Verknüpfen von Tabellen vereinfacht wird.

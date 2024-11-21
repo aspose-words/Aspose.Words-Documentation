@@ -7,6 +7,7 @@ description: "Leer hoe u velden kunt bijwerken in C#. Velden programmamatisch bi
 type: docs
 weight: 30
 url: /nl/net/update-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Typisch, een veld ingevoegd in Microsoft Word bevat al een actuele waarde. Als het veld bijvoorbeeld een formule of een paginanummer is, bevat het de juiste berekende waarde voor de gegeven versie van het document. Maar als je een toepassing hebt die een document genereert of wijzigt met velden zoals het samenvoegen van twee documenten of het bevolken met gegevens, dan moeten idealiter alle velden worden bijgewerkt om het document nuttig te maken.

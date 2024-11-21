@@ -8,6 +8,7 @@ description: "Perform a mail merge operation with nested regions using C++. Nest
 keywords: "mail merge with nested regions c++"
 weight: 30
 url: /cpp/nested-mail-merge-with-regions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 In some scenarios, you may need to use nested mail merge with regions. Nested merge is a feature that allows you to merge hierarchical data from your data source into your merge template to easily populate your document. Basically, the hierarchical data is represented as a set of data items, and hierarchical relationships describe how the data items are related to each other (one item of data is the parent of another one).

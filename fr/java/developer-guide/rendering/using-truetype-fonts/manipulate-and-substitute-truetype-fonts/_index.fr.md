@@ -7,6 +7,7 @@ description: "Aspose.Words pour Java peut intégrer les polices TrueType correct
 type: docs
 weight: 10
 url: /fr/java/manipulate-and-substitute-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words demande Vrai Tapez les polices pour une variété de tâches, y compris le rendu des documents dans des formats de page fixe, par exemple, PDF ou XPS. Quand Aspose.Words rend un document, il doit effectuer l'intégration et l'intégration sous-ensemble des polices TrueType dans le document résultant, qui est une pratique normale pendant une génération de document, y compris le PDF populaire ou XPS les formats. Cela garantit que le document apparaîtra de la même façon à tout spectateur. En outre, XPS spécification exige que les polices soient toujours intégrées dans le document.

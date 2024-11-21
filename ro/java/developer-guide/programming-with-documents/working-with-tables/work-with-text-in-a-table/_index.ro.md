@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrați cu Text într-un tabel
 second_title: Aspose.Words pentru Java
 articleTitle: Lucrați cu Text într-un tabel
@@ -7,6 +7,7 @@ description: "Înlocuiți textul dintr-un tabel în Java. Extrageți Text simplu
 type: docs
 weight: 60
 url: /ro/java/extract-text-from-and-replace-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 După cum sa menționat în articolele anterioare, un tabel conține de obicei text simplu, deși alt conținut, cum ar fi imagini sau chiar alte tabele, poate fi plasat în celulele tabelului.

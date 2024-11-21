@@ -7,6 +7,7 @@ description: "Работа с тегами структурированных д
 type: docs
 weight: 50
 url: /ru/net/structured-document-tags-or-content-control/
+timestamp: 2024-01-31-14-23-37
 ---
 
 

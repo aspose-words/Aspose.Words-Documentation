@@ -7,6 +7,7 @@ description: "Définir les propriétés avancées lors de l'enregistrement d'un 
 type: docs
 weight: 20
 url: /fr/java/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Lors de l'enregistrement d'un document, vous pouvez définir des propriétés avancées. Aspose.Words vous fournit le [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/) classe, qui permet un contrôle plus précis du processus de sauvegarde. Il y a des surcharges de la **Save** méthode qui accepte une **SaveOptions** objet – il devrait être un objet d'une classe dérivé de **SaveOptions** En cours. Chaque format de sauvegarde a une classe correspondante qui détient des options de sauvegarde pour ce format de sauvegarde, par exemple, il y a [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) pour enregistrer au format PDF, [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) pour l'épargne Markdown modèle, ou [ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/) pour enregistrer sur une image. Cet article fournit des exemples de travail avec certaines classes d'options dérivées de **SaveOptions**.

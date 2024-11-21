@@ -7,6 +7,7 @@ description: "Вступ до діаграми функції, як створи
 type: docs
 weight: 310
 url: /uk/net/working-with-charts/
+timestamp: 2024-02-05-15-07-18
 ---
 
 Нові [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) метод додано в [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) клас. Отже, побачимо, як вставити просту схему стовпчика в документ, використовуючи [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) метод.

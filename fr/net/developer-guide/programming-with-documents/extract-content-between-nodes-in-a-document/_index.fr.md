@@ -7,6 +7,7 @@ description: "Extraction du contenu du document sous différentes formes à l'ai
 type: docs
 weight: 140
 url: /fr/net/how-to-extract-selected-content-between-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Lorsque vous travaillez avec des documents, il est important de pouvoir extraire facilement le contenu d'une plage spécifique au sein d'un document. Cependant, le contenu peut être constitué d’éléments complexes tels que des paragraphes, des tableaux, des images, etc.

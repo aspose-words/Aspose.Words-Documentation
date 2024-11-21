@@ -7,6 +7,7 @@ description: "Formatação de fonte em detalhes usando Java."
 type: docs
 weight: 230
 url: /pt/java/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uma fonte é um conjunto de caracteres com um determinado tamanho, cor e design. Aspose.Words permite que você trabalhe com fontes usando várias classes relacionadas à fonte, incluindo a [Font](https://reference.aspose.com/words/java/com.aspose.words/font/) classe.

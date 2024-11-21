@@ -7,6 +7,7 @@ description: "Aspose.Words 제품정보 Java 문서에 추가하면 생성기 �
 type: docs
 weight: 70
 url: /ko/java/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 문서가 사용하는 경우 쉽게 알 수 있습니다. Aspose.Words 제품정보 Java· 버전 번호를 찾을 수 있습니다. Aspose.Words 제품정보 Java 특정 출력 문서를 생성하는 데 사용되었습니다. Aspose.Words 이 정보를 생성된 문서에 직접 작성합니다.

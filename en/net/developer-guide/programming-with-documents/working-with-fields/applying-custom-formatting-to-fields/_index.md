@@ -7,6 +7,7 @@ description: "Format and evaluate fields result using C#."
 type: docs
 weight: 40
 url: /net/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Sometimes users need to apply custom formatting to fields. In this article, we will look at a couple of examples of how this can be done.

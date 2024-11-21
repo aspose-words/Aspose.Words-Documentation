@@ -7,6 +7,7 @@ description: "Печат на документ, като се използва J
 type: docs
 weight: 55
 url: /bg/java/print-a-document-programmatically-or-using-dialogs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Тази статия описва как да отпечатате документ за обработка на думи, използвайки Aspose.Words API. Той също така демонстрира методите за отпечатване на документ със Настройки, Print Preview и Print progress диалози.

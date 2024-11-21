@@ -7,6 +7,7 @@ description: "Dowiedz się, jak usuwać pola w Python. Usuń pola programowo, u�
 type: docs
 weight: 35
 url: /pl/python-net/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Czasami konieczne jest usunięcie pola z dokumentu. Może się tak zdarzyć, gdy ma zostać ono zastąpione innym typem pola lub gdy pole nie jest już potrzebne w dokumencie. Na przykład pole `TOC` podczas zapisywania w formacie HTML.

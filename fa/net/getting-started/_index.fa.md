@@ -7,6 +7,7 @@ type: docs
 description: "از این مقدمه برای مبانی Aspose.Words برای .NET استفاده کنید تا متوجه ارزش Aspose.Words برای کسب و کار خود شوید."
 weight: 20
 url: /fa/net/getting-started/
+timestamp: 2024-09-25-11-08-55
 ---
 
 این شروع به مقدمه ای بر مبانی Aspose.Words ارائه می دهد. برای کاربران تازه وارد Aspose.Words، این سریعترین راه برای یادگیری الزامات و قابلیت های اساسی است.

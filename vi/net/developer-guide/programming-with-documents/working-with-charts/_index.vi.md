@@ -7,6 +7,7 @@ description: "Giới thiệu tính năng Biểu đồ, cách tạo và thao tác
 type: docs
 weight: 310
 url: /vi/net/working-with-charts/
+timestamp: 2024-02-05-15-07-18
 ---
 
 Phương thức [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) mới đã được thêm vào lớp [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/). Vì vậy, hãy xem cách chèn biểu đồ cột đơn giản vào tài liệu bằng phương pháp [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/).

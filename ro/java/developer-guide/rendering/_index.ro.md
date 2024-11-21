@@ -1,4 +1,4 @@
-﻿---
+---
 title: Redare în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Redare
@@ -7,6 +7,7 @@ description: "Utilizare Aspose.Words Pentru Java caracteristică De redare pentr
 type: docs
 weight: 30
 url: /ro/java/rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Folosim termenul" redare " în Aspose.Words pentru a descrie procesul de conversie a unui document într-un format de fișier sau un mediu care este paginat sau are conceptul de pagini. Vorbim despre redarea unui document în pagini. Următoarea diagramă arată ce redare este în Aspose.Words.

@@ -7,6 +7,7 @@ description: "قم بإنشاء وتعديل المخططات من أنواع م
 type: docs
 weight: 310
 url: /ar/python-net/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 تمت إضافة طريقة [insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/) جديدة إلى فئة [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/). لذلك، دعونا نرى كيفية إدراج مخطط عمودي بسيط في المستند باستخدام طريقة [DocumentBuilder.insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/):

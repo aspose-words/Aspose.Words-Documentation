@@ -7,6 +7,7 @@ description: "Úvod do funkce Graf, jak vytvářet a manipulovat grafy pomocí C
 type: docs
 weight: 310
 url: /cs/net/working-with-charts/
+timestamp: 2024-02-05-15-07-18
 ---
 
 Nový [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) metoda byla přidána do [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) třída. Podívejme se, jak vložit jednoduchý sloupcový graf do dokumentu pomocí [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) metoda.

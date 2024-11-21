@@ -1,4 +1,4 @@
-﻿---
+---
 title: Comparați documentele în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Comparați Documentele
@@ -7,6 +7,7 @@ type: docs
 description: "Compara două documente în orice formate acceptate și arată modificările de conținut. Puteți aplica Opțiuni avansate atunci când comparați folosind Java."
 weight: 60
 url: /ro/java/compare-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Compararea documentelor este un proces care identifică modificările între două documente și conține modificările ca revizuiri. Acest proces compară oricare două documente, inclusiv versiunile unui document specific, apoi modificările dintre ambele documente vor fi afișate ca revizuiri în primul document.

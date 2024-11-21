@@ -7,6 +7,7 @@ description: "Converti un documento in un TIFF multipagina utilizzando C#. Per d
 type: docs
 weight: 30
 url: /it/net/saving-a-document-as-a-multipage-tiff/
+timestamp: 2024-07-10-14-38-57
 ---
 
 Quando si lavora con i documenti, spesso è necessario convertirli in file di immagine raster. Ciò è particolarmente rilevante se devi presentare il tuo documento in un formato leggibile e stampabile, ma non modificabile. Ad esempio, puoi utilizzare un'immagine raster della prima pagina del documento come anteprima. Questo articolo descrive come convertire un documento in un'immagine raster utilizzando l'esempio del formato TIFF, uno dei formati di immagine più popolari.

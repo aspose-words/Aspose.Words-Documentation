@@ -7,6 +7,7 @@ description: "ドキュメントを保存する際に高度なプロパティを
 type: docs
 weight: 20
 url: /ja/java/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ドキュメントを保存する際に、高度なプロパティを設定できます。 Aspose.Words あなたに提供する [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/) 保存プロセスのより精密な制御を可能にするクラス。 積み過ぎはあります **Save** 受け入れる方法 **SaveOptions** オブジェクト - から派生したクラスのオブジェクトでなければなりません **SaveOptions** クラス。 各保存形式には、この保存フォーマットの保存オプションを保持する対応するクラスがあります。例えば、 [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) PDF形式への保存のため、 [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) 節約のため Markdown フォーマット、または [ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/) 画像への保存 この記事では、から派生するいくつかのオプションのクラスと作業の例を提供します **SaveOptions**お問い合わせ

@@ -7,6 +7,7 @@ description: "Melacak perubahan konten dan format yang dibuat oleh Anda atau ora
 type: docs
 weight: 270
 url: /id/java/track-changes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Fungsi dari perubahan trek, juga dikenal sebagai peninjauan, memungkinkan Anda untuk melacak perubahan konten dan format yang dibuat oleh Anda atau pengguna lain. Fitur perubahan trek ini dengan Aspose.Words mendukung perubahan trek Microsoft WordSitemap Dengan fungsi ini, Anda dapat mengakses revisi individu dalam dokumen Anda dan menerapkan sifat yang berbeda kepada mereka.

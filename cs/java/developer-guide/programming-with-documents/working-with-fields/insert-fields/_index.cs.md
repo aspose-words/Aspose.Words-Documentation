@@ -7,6 +7,7 @@ description: "Různé způsoby vkládání polí do dokumentu pomocí Java."
 type: docs
 weight: 20
 url: /cs/java/insert-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Existuje několik různých způsobů, jak vložit pole do dokumentu:

@@ -7,6 +7,7 @@ type: docs
 description: "ذخیره یک سند در هر فرمت پشتیبانی شده با استفاده از Java..."
 weight: 20
 url: /fa/java/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 بیشتر کارهایی که باید انجام دهید Aspose.Words شامل صرفه جویی در یک سند برای نجات یک سند Aspose.Words فراهم می کند [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save(java.lang.String)روش [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) کلاس این سند را می توان در هر فرمت ذخیره شده پشتیبانی شده توسط Aspose.Words... برای لیست تمام فرمت های ذخیره پشتیبانی شده، ببینید [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) تکرار

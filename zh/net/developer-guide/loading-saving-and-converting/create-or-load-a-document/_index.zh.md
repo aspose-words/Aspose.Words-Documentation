@@ -8,6 +8,7 @@ url: /zh/net/create-or-load-a-document/
 description: "创建空白文档或使用 C# 从文件或流加载它。"
 keywords: "create a document c#, load a document c#, create a blank document c#, load a document from file c#, load a document from stream c#, create a document Aspose .NET, load a document Aspose .NET, load formats supported by Aspose.Words .NET"
 weight: 10
+timestamp: 2024-07-09-19-00-42
 ---
 
 几乎您想要使用 Aspose.Words 执行的任何任务都涉及加载文档。 `Document` 类表示加载到内存中的文档。该文档有几个重载的构造函数，允许您创建空白文档或从文件或流加载它。文档可以以 Aspose.Words 支持的任何加载格式加载。有关所有支持的加载格式的列表，请参阅 [LoadFormat](https://reference.aspose.com/words/zh/net/aspose.words/loadformat/) 枚举。

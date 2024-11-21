@@ -7,6 +7,7 @@ description: "Thiết lập các thuộc tính nâng cao khi tải một tài li
 type: docs
 weight: 10
 url: /vi/java/specify-load-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Khi tải một tài liệu bạn có thể đặt một số thuộc tính nâng cao. Aspose.Words cung cấp cho bạn lớp [LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/), điều này cho phép kiểm soát chính xác hơn quá trình tải. Một số định dạng tải xuống có một lớp tương ứng mà giữ các tùy chọn tải cho định dạng này tải xuống, ví dụ, có [PdfLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/) cho tải để định dạng PDF hoặc [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) cho tải để định dạng TXT. Bài viết này cung cấp các ví dụ về việc làm việc với các tùy chọn của lớp **LoadOptions**.

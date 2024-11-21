@@ -7,6 +7,7 @@ description: "Différentes façons de créer des tables dans votre document en u
 type: docs
 weight: 20
 url: /fr/java/create-a-table/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words permet aux utilisateurs de créer des tables dans un document à partir de zéro et fournit plusieurs méthodes différentes pour le faire. Cet article présente des détails sur la façon d'ajouter des tableaux formatés à votre document en utilisant chaque méthode, ainsi qu'une comparaison de chaque méthode à la fin de l'article.

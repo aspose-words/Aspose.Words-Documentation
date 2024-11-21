@@ -7,6 +7,7 @@ description: "Konvertieren Sie ein Dokument mit erweiterten Optionen mithilfe vo
 type: docs
 weight: 20
 url: /de/net/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Das PDF-Format ist ein festes Seitenformat, das bei Benutzern sehr beliebt ist und von verschiedenen Anwendungen weitgehend unterstützt wird, da ein PDF-Dokument auf jedem Gerät gleich aussieht. Aus diesem Grund ist die Konvertierung in PDF eine wichtige Funktion von Aspose.Words.

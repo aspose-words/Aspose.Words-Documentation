@@ -1,4 +1,4 @@
-﻿---
+---
 title: Voeg Dokumente in en Voeg By C++
 second_title: Aspose.Words vir C++
 articleTitle: Voeg Dokumente in en Voeg By
@@ -7,6 +7,7 @@ description: "Kombineer dokumente in een: voeg of voeg'n dokument in'n nuwe of b
 type: docs
 weight: 80
 url: /af/cpp/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Soms is dit nodig om verskeie dokumente in een te kombineer. Jy kan dit met die hand doen of jy kan Aspose.Words invoeg of voeg funksie by.

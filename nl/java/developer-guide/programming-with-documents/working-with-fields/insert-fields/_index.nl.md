@@ -7,6 +7,7 @@ description: "Verschillende manieren om velden in uw document in te voegen met b
 type: docs
 weight: 20
 url: /nl/java/insert-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Er zijn verschillende manieren om velden in een document in te voegen:

@@ -7,6 +7,7 @@ type: docs
 description: "In Aspose.Words místo .NET dokumentace zmíněná logická úroveň uzlů - úroveň bloku, inline úroveň nebo úroveň řádku pomocí C#. Úroveň nódu se používá k popisu umístění ve stromu dokumentu, kde se uzel obvykle vyskytuje."
 weight: 10
 url: /cs/net/logical-levels-of-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Tato dokumentace někdy označuje skupinu tříd nódu jako "úroveň" v dokumentu, jako je "úroveň bloku," "úroveň inline" (známá též jako "inline") nebo "úrovňové uzly." Tyto úrovně v dokumentu jsou rozlišeny čistě logicky a nejsou výslovně vyjádřeny dědictvím nebo jiným způsobem Aspose.Words DOM znamená. Úroveň uzlu se používá k popisu místa ve stromu dokumentů, kde by se uzel typicky objevil.

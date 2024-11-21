@@ -7,6 +7,7 @@ description: "كَيفَ يَضْفعُ وصلةَ فائقةَ إلى وثيق�
 type: docs
 weight: 50
 url: /ar/java/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 وصلة فائقة Microsoft Word الوثائق هي `HYPERLINK` الحقل In Aspose.Words, يتم تنفيذ وصلات الكهرباء عن طريق [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/) الصف

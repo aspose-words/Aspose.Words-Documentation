@@ -7,6 +7,7 @@ description: "Rastreie alterações no conteúdo e na formatação feitas por vo
 type: docs
 weight: 270
 url: /pt/python-net/track-changes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A funcionalidade de rastrear alterações, também conhecida como revisão, permite rastrear alterações no conteúdo e na formatação feitas por você ou por outros usuários. Este recurso de controle de alterações com Aspose.Words suporta alterações de controle em Microsoft Word. Com esta funcionalidade, você pode acessar revisões individuais em seu documento e aplicar propriedades diferentes a elas.

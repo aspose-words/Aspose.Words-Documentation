@@ -1,4 +1,4 @@
-﻿---
+---
 title: 문서 변환 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 문서 변환
@@ -8,6 +8,7 @@ description: "쉽게 사용하여 한 형식에서 다른 형식으로 문서를
 keywords: "convert a document c++, convert documents from one format to another c++, convert to markdown c++, convert pdf to docx C++, convert docx to pdf C++, convert doc to pdf C++, convert a document Aspose for C++"
 weight: 30
 url: /ko/cpp/convert-a-document/
+timestamp: 2024-09-25-11-08-55
 ---
 
 한 형식에서 다른 형식으로 문서를 쉽고 안정적으로 변환하는 기능은 다음과 같은 주요 기능 영역 중 하나입니다. Aspose.Words. 이러한 변환은 로딩 및 저장 작업의 조합에 지나지 않습니다.

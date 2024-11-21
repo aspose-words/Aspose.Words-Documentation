@@ -7,6 +7,7 @@ description: "Asya tipografisinde Java ile çalışın. Asya ve Latin metni aras
 type: docs
 weight: 240
 url: /tr/java/working-with-asian-typography/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Asya Yazı Tipolojisi, Asya dillerinde yazılmış belgelerdeki metin paragrafları için bir seçenek kümesidir.

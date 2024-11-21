@@ -7,6 +7,7 @@ description: "Como mesclar células de tabela em Java. Verifique se as células 
 type: docs
 weight: 40
 url: /pt/java/working-with-merged-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Às vezes certas linhas em uma tabela exigem um cabeçalho ou grandes blocos de texto que ocupam a largura total da tabela. Para o design adequado da tabela, o usuário pode mesclar várias células de tabela em uma. Aspose.Words suporta células mescladas ao trabalhar com todos os formatos de entrada, incluindo importar conteúdo HTML.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu stiluri și teme
 second_title: Aspose.Words pentru Java
 articleTitle: Lucrul cu stiluri și teme
@@ -7,6 +7,7 @@ description: "Caracteristici îmbunătățite de formatare Microsoft Word, lucru
 type: docs
 weight: 110
 url: /ro/java/working-with-styles-and-themes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Clasa [StyleCollection](https://reference.aspose.com/words/java/com.aspose.words/stylecollection/) este utilizată pentru a gestiona setările încorporate și pentru a aplica setările definite de utilizator stilurilor.

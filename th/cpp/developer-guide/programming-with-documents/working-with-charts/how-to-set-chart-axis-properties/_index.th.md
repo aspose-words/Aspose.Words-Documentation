@@ -1,4 +1,4 @@
-﻿---
+---
 title: วิธีการตั้งค่าคุณสมบัติแกนแผนภูมิในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: วิธีการตั้งค่าคุณสมบัติแกนแผนภูมิ
@@ -7,6 +7,7 @@ description: "การปรับแต่งแกนแผนภูมิโ
 type: docs
 weight: 20
 url: /th/cpp/how-to-set-chart-axis-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 หากคุณต้องการทำงานกับแกนแผนภูมิการปรับขนาดและหน่วยแสดงผลสำหรับแกนค่าโปรดใช้[ChartAxis](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.chart_axis),[AxisDisplayUnit](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.axis_display_unit)และ[AxisScaling](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.axis_scaling)คลาส.

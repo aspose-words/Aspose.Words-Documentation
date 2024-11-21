@@ -7,6 +7,7 @@ description: "Trabalhe com tipografia asiática usando Python. Ajuste o espaço 
 type: docs
 weight: 240
 url: /pt/python-net/working-with-asian-typography/
+timestamp: 2024-02-01-16-17-05
 ---
 
 A Tipografia Asiática é um conjunto de opções para parágrafos de texto em documentos escritos em idiomas asiáticos.

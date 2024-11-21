@@ -7,6 +7,7 @@ description: "שמור את המסמך שלך לכל פורמט נתמך באמ�
 type: docs
 weight: 30
 url: /he/python-net/supported-features-on-document-save/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words יש כמה תמיכה המרה המתקדמת ביותר של פורמטי עיבוד המילה הנפוץ.

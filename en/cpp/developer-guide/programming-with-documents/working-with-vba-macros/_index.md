@@ -7,6 +7,7 @@ description: "Working with document VBA projects using C++."
 type: docs
 weight: 410
 url: /cpp/working-with-vba-macros/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Visual Basic for Applications (VBA) for Microsoft Word is a simple but powerful programming language that can be used to extend the functionality. Aspose.Words API provides three classes to get access to the VBA project source code:

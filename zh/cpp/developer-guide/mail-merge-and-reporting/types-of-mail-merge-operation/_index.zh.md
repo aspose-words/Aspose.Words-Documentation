@@ -1,4 +1,4 @@
-﻿---
+---
 title: 类型的 Mail Merge 运作于 C++
 second_title: Aspose.Words 为 C++
 articleTitle: 类型的 Mail Merge 运作
@@ -8,6 +8,7 @@ description: "执行两种不同类型的 mail merge 操作：简单 mail merge 
 keywords: "how to execute mail merge c++"
 weight: 20
 url: /zh/cpp/types-of-mail-merge-operations/
+timestamp: 2024-09-24-14-35-44
 ---
 
 的主要思想 mail merge 是根据模板和从数据源提取的数据自动创建一个文档或多个文档。 Aspose.Words 使您能够执行两种不同类型的 mail merge 操作：简单 mail merge 和 mail merge 与地区。

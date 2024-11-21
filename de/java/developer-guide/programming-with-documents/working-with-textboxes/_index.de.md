@@ -7,6 +7,7 @@ description: "Einführung in verknüpfte Textfelder Aspose.Words für Java."
 type: docs
 weight: 250
 url: /de/java/working-with-linked-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In Aspose.Words, die [TextBox](https://reference.aspose.com/words/java/com.aspose.words/textbox/) Eine Klasse wird verwendet, um anzugeben, wie ein Text innerhalb einer Form angezeigt wird. Es bietet eine öffentliche Eigenschaft als Eltern benannt, um die Elternform für das Textfeld zu erhalten, damit der Kunde verlinkt finden kann [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) aus verlinkt **TextBox**.

@@ -7,6 +7,7 @@ type: docs
 description: "Document Object Model ()DOM• نمایندگی درونی یک سند Word است. خواندن، دستکاری و اصلاح محتوا و قالب بندی یک سند Word با استفاده از استفاده از Java..."
 weight: 10
 url: /fa/java/aspose-words-document-object-model/
+timestamp: 2024-01-27-14-07-04
 ---
 
 The The The The The The Aspose.Words Document Object Model ()DOM• نمایندگی درونی یک سند Word است. The The The The The The Aspose.Words DOM اجازه می دهد تا شما را به برنامه ریزی، دستکاری، و اصلاح محتوا و قالب بندی یک سند Word.

@@ -7,6 +7,7 @@ description: "Erweiterte Dokumentinhaltsverwaltung, wie Sie Inhaltssteuerelement
 type: docs
 weight: 390
 url: /de/net/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
 In Microsoft Word können Sie ein Formular erstellen, indem Sie mit einer Vorlage beginnen und Inhaltssteuerelemente hinzufügen, einschließlich Kontrollkästchen, Textfelder, Datumsauswahl und Dropdown-Listen. In Aspose.Words wird ein strukturiertes Dokument-Tag oder ein Inhaltssteuerelement aus jedem in Aspose.Words geladenen Dokument als StructuredDocumentTag-Knoten importiert. Strukturierte Dokument-Tags (SDT oder Inhaltskontrolle) ermöglichen die Einbettung kundenspezifischer Semantik sowie deren Verhalten und Erscheinungsbild in ein Dokument.

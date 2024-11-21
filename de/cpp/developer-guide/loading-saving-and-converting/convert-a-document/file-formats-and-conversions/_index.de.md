@@ -1,4 +1,4 @@
-﻿---
+---
 title: Dateiformate und Konvertierungen
 second_title: Aspose.Words für C++
 articleTitle: Warum ist die Konvertierung das Flaggschiff von Aspose.Words?
@@ -7,6 +7,7 @@ description: "Konvertieren Sie Dokumente aus jedem unterstützten Lade- in Speic
 type: docs
 weight: 50
 url: /de/cpp/file-formats-and-conversions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 {{% alert color="primary" %}}

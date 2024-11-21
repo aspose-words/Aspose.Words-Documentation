@@ -7,6 +7,7 @@ description: "Convert a document to PDF with advanced options using C++. Use Pdf
 type: docs
 weight: 30
 url: /cpp/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
 The PDF format is a fixed-page format that is very popular among users and widely supported by various applications because a PDF document looks the same on any device. For that reason, converting to PDF is an important feature of Aspose.Words.

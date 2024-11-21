@@ -7,6 +7,7 @@ description: "افزایش Microsoft Word ویژگی های قالب بندی، 
 type: docs
 weight: 110
 url: /fa/java/working-with-styles-and-themes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 The The The The The The [StyleCollection](https://reference.aspose.com/words/java/com.aspose.words/stylecollection/) کلاس برای مدیریت داخلی و اعمال تنظیمات تعریف شده کاربر به سبک استفاده می شود.

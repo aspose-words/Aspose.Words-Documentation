@@ -7,6 +7,7 @@ description: "Aspose.Words für Python via .NET kann die richtige Schriftart ode
 type: docs
 weight: 20
 url: /de/python-net/using-truetype-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Beim Arbeiten mit Dokumenten müssen Sie häufig unterschiedliche Schriftarten, Stile und Größen verwenden. Dokumente können eine beliebige Anzahl von Schriftarten enthalten, die nicht unbedingt auf die Schriftarten beschränkt sind, die im Betriebssystem installiert sind. Die Schriftarten können völlig unterschiedlich sein, beispielsweise von anderen Betriebssystemen übernommen, gekauft oder vom Benutzer selbst erstellt.

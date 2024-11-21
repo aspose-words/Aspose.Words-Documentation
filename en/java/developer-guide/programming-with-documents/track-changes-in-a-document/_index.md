@@ -7,6 +7,7 @@ description: "Track changes to content and formatting made by you or others. Acc
 type: docs
 weight: 270
 url: /java/track-changes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 The functionality of track changes, also known as reviewing, allows you to track changes to content and formatting made by you or other users. This track changes feature with Aspose.Words supports track changes in Microsoft Word. With this functionality, you can access individual revisions in your document and apply different properties to them.

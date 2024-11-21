@@ -7,6 +7,7 @@ description: "Formattare e valutare il risultato dei campi utilizzando C#."
 type: docs
 weight: 40
 url: /it/net/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A volte gli utenti devono applicare una formattazione personalizzata ai campi. In questo articolo vedremo un paio di esempi di come ciò possa essere fatto.

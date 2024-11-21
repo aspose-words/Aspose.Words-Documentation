@@ -7,6 +7,7 @@ description: "Làm việc với các bảng trong tài liệu bằng Python. Gi�
 type: docs
 weight: 190
 url: /vi/python-net/working-with-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 **bàn** trong tài liệu là một cách tuyệt vời để cấu trúc dữ liệu tương tự. Đó là lý do tại sao bảng là thành phần định dạng nội dung phổ biến và được hầu hết các định dạng ở dạng này hay dạng khác hỗ trợ.

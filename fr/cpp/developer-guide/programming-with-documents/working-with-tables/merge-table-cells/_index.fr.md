@@ -1,4 +1,4 @@
-﻿---
+---
 title: Fusionner des cellules de tableau en C++
 second_title: Aspose.Words pour C++
 articleTitle: Fusionner Les Cellules Du Tableau
@@ -7,6 +7,7 @@ description: "Comment fusionner des cellules de tableau en C++. Vérifiez si les
 type: docs
 weight: 40
 url: /fr/cpp/merge-table-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Parfois, certaines lignes d'un tableau nécessitent un en-tête ou de gros blocs de texte qui occupent toute la largeur du tableau. Pour une conception correcte du tableau, l'utilisateur peut fusionner plusieurs cellules du tableau en une seule. Aspose.Words prend en charge les cellules fusionnées lorsque vous travaillez avec tous les formats d'entrée, y compris l'importation de contenu HTML.

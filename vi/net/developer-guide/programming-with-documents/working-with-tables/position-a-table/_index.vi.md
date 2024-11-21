@@ -7,6 +7,7 @@ description: "Chỉ định vị trí bảng trong C#. Căn chỉnh bảng, nh�
 type: docs
 weight: 50
 url: /vi/net/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Có bảng nổi và bảng nội tuyến:

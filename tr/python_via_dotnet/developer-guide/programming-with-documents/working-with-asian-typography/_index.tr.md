@@ -7,6 +7,7 @@ description: "Python'i kullanarak Asya tipografisiyle çalışın. Python'te Asy
 type: docs
 weight: 240
 url: /tr/python-net/working-with-asian-typography/
+timestamp: 2024-02-01-16-17-05
 ---
 
 Asya Tipografisi, Asya dillerinde yazılmış belgelerdeki metin paragrafları için bir dizi seçenektir.

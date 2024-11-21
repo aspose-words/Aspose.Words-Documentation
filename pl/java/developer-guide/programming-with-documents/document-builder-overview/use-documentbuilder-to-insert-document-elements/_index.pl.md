@@ -7,6 +7,7 @@ type: docs
 description: "Wstaw elementy dokumentu przy użyciu konstruktora dokumentu w Java."
 weight: 10
 url: /pl/java/use-documentbuilder-to-insert-document-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 W [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) jest używany do modyfikacji dokumentów. Ten artykuł wyjaśnia i opisuje, jak wykonać wiele zadań.

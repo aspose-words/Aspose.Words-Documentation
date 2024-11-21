@@ -7,6 +7,7 @@ description: "วิธีแทรกช่องลงในเอกสาร
 type: docs
 weight: 20
 url: /th/net/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 มีหลายวิธีในการแทรกฟิลด์ลงในเอกสาร:

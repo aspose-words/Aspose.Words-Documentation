@@ -1,4 +1,4 @@
-﻿---
+---
 title: Especificar opções de Layout em C++
 second_title: Aspose.Words para C++
 articleTitle: Especificar Opções De Disposição
@@ -7,6 +7,7 @@ description: "Especifique opções de Layout para vários layouts de documentos.
 type: docs
 weight: 20
 url: /pt/cpp/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words permite criar documentos de saída com vários layouts, dependendo dos parâmetros especificados na propriedade [LayoutOptions](https://reference.aspose.com/words/cpp/class/aspose.words.layout.layout_options) do **Document**. Esta propriedade assemelha-se a algumas das opções de menu da interface de Utilizador Microsoft Word descritas neste artigo.

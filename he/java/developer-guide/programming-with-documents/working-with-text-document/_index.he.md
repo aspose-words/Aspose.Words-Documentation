@@ -7,6 +7,7 @@ description: "Advanced TXT מסמך עיבוד, רשימות, BiDi, Headers/foot
 type: docs
 weight: 430
 url: /he/java/working-with-text-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 במאמר זה נלמד אילו אפשרויות יכולות להיות מועילות לעבוד עם מסמך טקסט דרך Aspose.Words. שימו לב כי זו אינה רשימה מלאה של אפשרויות זמינות, אלא רק דוגמא לעבודה עם חלק מהן.

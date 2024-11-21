@@ -7,6 +7,7 @@ description: "`Giới thiệu về tính năng trường trong Aspose.Words cho 
 type: docs
 weight: 370
 url: /vi/java/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Những **Fields** trong một tài liệu giống như chỗ giữ mà dữ liệu hữu ích có thể được chèn vào. Ví dụ, một trường có thể là một tham chiếu trang, công thức hoặc một mail merge trường.

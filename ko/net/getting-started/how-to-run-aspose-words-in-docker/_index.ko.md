@@ -7,6 +7,7 @@ type: docs
 description: "개발 스택에 어떤 기술이 있는지에 관계없이 Docker를 사용하여 Aspose.Words 기능을 애플리케이션에 통합하세요. C#의 Docker 컨테이너에서 Aspose .Words를 사용하는 방법을 알아보세요."
 weight: 120
 url: /ko/net/how-to-run-aspose-words-in-docker/
+timestamp: 2024-08-19-11-05-36
 ---
 
 마이크로서비스는 컨테이너화와 함께 기술을 쉽게 결합할 수 있게 해줍니다. Docker를 사용하면 개발 스택에 어떤 기술이 있는지에 관계없이 Aspose.Words 기능을 애플리케이션에 쉽게 통합할 수 있습니다.

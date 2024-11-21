@@ -7,6 +7,7 @@ description: "PDF/A và PDF/UA áp đặt các yêu cầu về khả năng truy 
 type: docs
 weight: 29
 url: /vi/net/warnings-when-saving-to-pdfa-and-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Các định dạng PDF/A và PDF/UA áp đặt một số yêu cầu về khả năng truy cập liên quan đến nội dung tài liệu mà không thể đáp ứng được trong quá trình chuyển đổi tự động từ Word sang PDF. Những yêu cầu này được mô tả trong bài viết trước *"Làm việc với PDF/A hoặc PDF/UA"*. Bây giờ cảnh báo được đưa ra cho một số vấn đề này.

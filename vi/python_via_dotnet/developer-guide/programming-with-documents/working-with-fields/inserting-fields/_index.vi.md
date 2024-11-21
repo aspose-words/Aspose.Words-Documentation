@@ -7,6 +7,7 @@ description: "Chèn các trường vào tài liệu trong Python theo nhiều c�
 type: docs
 weight: 20
 url: /vi/python-net/inserting-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Có một số cách khác nhau để chèn các trường vào tài liệu:

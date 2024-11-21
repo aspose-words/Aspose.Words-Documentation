@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在C++中使用图表数据标签
 second_title: Aspose.Words对于C++
 articleTitle: 使用图表数据标签
@@ -7,6 +7,7 @@ description: "使用C++进行图表数据标签调优。"
 type: docs
 weight: 30
 url: /zh/cpp/working-with-chart-data-label/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words允许用户以各种方式使用ChartDataLabel。

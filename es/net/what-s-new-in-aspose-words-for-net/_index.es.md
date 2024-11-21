@@ -1,4 +1,4 @@
-﻿---
+---
 title: Qué hay de nuevo
 second_title: Aspose.Words por .NET
 articleTitle: Novedades en Aspose.Words para .NET
@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words para .NET se expande y mejora a diario. En esta página, puede conocer las características enormes y más interesantes del producto."
 weight: 10
 url: /es/net/what-s-new-in-aspose-words-for-net/
+timestamp: 2024-11-18-12-56-02
 ---
 
 Esta página describe las nuevas funciones Aspose.Words más interesantes introducidas en versiones recientes.

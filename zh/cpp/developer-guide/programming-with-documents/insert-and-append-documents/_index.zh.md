@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在C++中插入和追加文档
 second_title: Aspose.Words对于C++
 articleTitle: 插入和追加文档
@@ -7,6 +7,7 @@ description: "将文档合并为一个：使用查找和替换、合并字段、
 type: docs
 weight: 80
 url: /zh/cpp/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有时需要将多个文档合并为一个。 您可以手动执行此操作，也可以使用Aspose.Words插入或追加功能。

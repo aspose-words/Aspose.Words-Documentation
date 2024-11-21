@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu OLE obiecte în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Lucrul cu obiecte OLE
@@ -7,6 +7,7 @@ description: "Creați și modificați OLE încorporarea în documentul dvs. folo
 type: docs
 weight: 360
 url: /ro/cpp/working-with-ole-objects/
+timestamp: 2024-01-27-14-07-04
 ---
 
 OLE (Object Linking and Embedding) este o tehnologie prin care utilizatorii pot lucra cu documente care conțin "obiecte" create sau Editate de aplicații terțe. Adică, OLE permite unei aplicații de editare să exporte aceste" obiecte " într-o altă aplicație de editare și apoi să le importe cu conținut suplimentar.

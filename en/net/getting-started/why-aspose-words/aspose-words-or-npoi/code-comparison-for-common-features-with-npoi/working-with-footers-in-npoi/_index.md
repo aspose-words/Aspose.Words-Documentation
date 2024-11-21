@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with Footers in NPOI
 second_title: Aspose.Words for .NET
 articleTitle: Working with Footers in NPOI
@@ -7,6 +7,7 @@ description: "Work with footers in a document easily and fast instead of using N
 type: docs
 weight: 10
 url: /net/working-with-footers-in-npoi/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Aspose.Words - Working with Footers

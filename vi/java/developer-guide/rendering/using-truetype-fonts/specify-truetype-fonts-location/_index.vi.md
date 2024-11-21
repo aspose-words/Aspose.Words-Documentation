@@ -7,6 +7,7 @@ description: "Chỉ ra các nguồn TrueType khác nhau: thư mục hệ thống
 type: docs
 weight: 30
 url: /vi/java/specify-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Chủ đề này mô tả hành vi mặc định của Aspose.Words khi tìm kiếm phông chữ TrueType, bao gồm sự khác biệt đặc thù hệ điều hành, và hướng dẫn cách chỉ định nguồn phông chữ người dùng.

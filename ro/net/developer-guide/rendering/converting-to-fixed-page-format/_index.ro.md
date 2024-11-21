@@ -7,6 +7,7 @@ description: "Salvează documente în formate PDF, XPS, HTML, XAML, PostScript �
 type: docs
 weight: 10
 url: /ro/net/converting-to-fixed-page-format/
+timestamp: 2024-07-10-08-10-45
 ---
 
 Aspose.Words" implementează propriul motor de aranjare a paginii. Înainte de a ne adânci în specificațiile sale, merită să discutăm mai întâi despre document la un nivel înalt. Când gândeşti la un document, utilizatorii îşi imaginează de obicei o serie de foi de hârtie care conţin cuvinte, imagini, tabele şi diagrame. Documentele pot fi de diferite tipuri, cum ar fi text, foi de calcul, diapozitive, desene CAD, diagrame și, prin urmare, pot avea în esență diferite aranjamente. Cele mai multe aplicații permit trimiterea documentelor către o imprimantă; acesta este momentul în care un utilizator poate vedea cu adevărat aspectul final al documentului.

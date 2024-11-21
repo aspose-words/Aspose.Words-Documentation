@@ -1,4 +1,4 @@
-﻿---
+---
 title: Yükleme Seçeneklerini C++ olarak Belirtin
 second_title: Aspose.Words için C++
 articleTitle: Yükleme Seçeneklerini Belirtin
@@ -7,6 +7,7 @@ description: "Yükleme işlemini daha doğru kontrol edin."
 type: docs
 weight: 10
 url: /tr/cpp/specify-load-options/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Belge yüklerken bazı gelişmiş özellikler ayarlayabilirsiniz. Aspose.Words size yükleme işleminin daha hassas kontrolünü sağlayan [LoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/loadoptions/) sınıfını sağlar. Bazı yükleme biçimleri, bu yükleme biçimi için yükleme seçeneklerini tutan karşılık gelen bir sınıfa sahiptir, örneğin, PDF biçimine yüklemek için [PdfLoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/pdfloadoptions/) veya TXT biçimine yüklemek için [TxtLoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/txtloadoptions/) vardır. Bu makalede, **LoadOptions** sınıfının seçenekleriyle çalışma örnekleri verilmektedir.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 열 및 행 작업 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 열 및 행 작업
@@ -7,6 +7,7 @@ description: "다음을 사용하여 테이블 부분(행,열 및 셀)으로 작
 type: docs
 weight: 30
 url: /ko/cpp/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 테이블 작동 방식을 더 잘 제어하려면 열과 행을 조작하는 방법을 알아보세요.

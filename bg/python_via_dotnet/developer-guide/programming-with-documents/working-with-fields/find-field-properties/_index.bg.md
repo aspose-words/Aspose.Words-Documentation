@@ -7,6 +7,7 @@ description: "Как да намерите някои свойства на по
 type: docs
 weight: 25
 url: /bg/python-net/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Поле, което се вмъква, като се използва [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/).[insert_field](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_field/) a [Field](https://reference.aspose.com/words/python-net/aspose.words.fields/field/) Възразявам. Това е клас фасада, която осигурява полезни методи за бързо намиране на някои свойства на полето.

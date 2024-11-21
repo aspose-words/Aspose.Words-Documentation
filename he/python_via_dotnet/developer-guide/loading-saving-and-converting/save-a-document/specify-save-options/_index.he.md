@@ -7,6 +7,7 @@ description: "בקרה מדויקת יותר על תהליך החיסכון בא
 type: docs
 weight: 10
 url: /he/python-net/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 בעת שמירת מסמך, באפשרותך להגדיר כמה תכונות מתקדמות. Aspose.Words מספק לך את [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) מעמד, המאפשר שליטה מדויקת יותר של תהליך החיסכון. יש עומסים של [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) שיטה שמקבלת [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) אובייקט - זה צריך להיות אובייקט של מעמד נגזר מן [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) מעמד. לכל פורמט שמור יש מעמד מתאים המחזיק אפשרויות לתבנית זו, לדוגמה, יש. [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) שמירה על פורמט PDF או [ImageSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/) להציל תמונה מאמר זה מספק דוגמאות של עבודה עם כמה אפשרויות כיתות נגזרות [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/).

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 使用C++中的列和行
 second_title: Aspose.Words对于C++
 articleTitle: 使用列和行
@@ -7,6 +7,7 @@ description: "使用C++处理表的部分–行、列和单元格。 指定标�
 type: docs
 weight: 30
 url: /zh/cpp/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 要更好地控制表的工作方式，请了解如何操作列和行。

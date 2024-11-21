@@ -1,4 +1,4 @@
-﻿---
+---
 title: Spesifiseer Uitlegkeuses in Java
 second_title: Aspose.Words vir Java
 articleTitle: Spesifiseer Uitleg Opsies
@@ -7,6 +7,7 @@ description: "Skep uitvoerdokumente met verskillende uitlegte, afhangende van di
 type: docs
 weight: 10
 url: /af/java/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words stel u in staat om uitsetdokumente met verskillende uitlegte te skep, afhangende van die parameters wat in die [LayoutOptions](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/) eienskap van die **Document** gespesifiseer word. Hierdie eienskap lyk soos sommige van die Microsoft Word gebruikerskoppelvlak menu opsies wat in hierdie artikel beskryf word.

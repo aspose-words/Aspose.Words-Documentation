@@ -1,4 +1,4 @@
-﻿---
+---
 title: نظرة عامة على منشئ المستندات في C++
 second_title: Aspose.Words ل C++
 articleTitle: نظرة عامة على منشئ المستندات
@@ -7,6 +7,7 @@ type: docs
 description: "DocumentBuilder يسمح لك بإنشاء مستندات ديناميكية من البداية أو إضافة عناصر جديدة إلى العناصر الموجودة باستخدام C++. DocumentBuilder يوفر طرقا لإدراج النص ومربعات الاختيار والجداول والصور وعناصر المحتوى الأخرى في C++."
 weight: 30
 url: /ar/cpp/document-builder-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/) هي فئة قوية ترتبط بـ [Document](https://reference.aspose.com/words/cpp/aspose.words/document/) وتمكنك من إنشاء مستندات ديناميكية من البداية أو إضافة عناصر جديدة إلى عنصر موجود.

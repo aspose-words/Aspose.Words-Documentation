@@ -7,6 +7,7 @@ type: docs
 description: "マークアップ言語の形成、さまざまなタイプの形状の作図入門 Javaお問い合わせ"
 weight: 280
 url: /ja/java/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 このトピックは、プログラム的に図形を使用して機能する方法について説明します Aspose.Wordsお問い合わせ

@@ -7,6 +7,7 @@ description: "Verständnis von Bookmark-Konzepten und wie Lesezeichen in Ihrem P
 type: docs
 weight: 180
 url: /de/java/working-with-bookmarks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Lesezeichen in einem Microsoft Word dokumentieren Sie die Orte oder Fragmente, die Sie für zukünftige Referenzen benennen und identifizieren. Zum Beispiel können Sie ein Lesezeichen verwenden, um Text zu identifizieren, den Sie später ändern möchten. Anstatt durch das Dokument zu scrollen, um den Text zu finden, können Sie es mit dem Bookmark Dialogfeld.

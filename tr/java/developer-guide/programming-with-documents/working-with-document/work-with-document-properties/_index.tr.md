@@ -7,6 +7,7 @@ description: "Aspose.Words için Java size belgeniz hakkında bazı yararlı bil
 type: docs
 weight: 10
 url: /tr/java/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Belge özellikleri belgeniz hakkında bazı faydalı bilgileri depolamanıza imkan verir. Bu özellikler iki gruba ayrılabilir:

@@ -7,6 +7,7 @@ description: "从我们的 GitHub 存储库下载 Aspose.Words for Python via .N
 type: docs
 weight: 110
 url: /zh/python-net/how-to-run-the-examples/
+timestamp: 2024-01-27-14-07-04
 ---
 
 为了更加熟悉 Aspose.Words 的可能性和功能，我们提供了示例，可以从我们的 GitHub 存储库下载、运行和详细学习这些示例。

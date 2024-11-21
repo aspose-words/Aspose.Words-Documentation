@@ -7,6 +7,7 @@ description: "使用 C# 格式化和评估字段结果。"
 type: docs
 weight: 40
 url: /zh/net/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有时，用户需要对字段应用自定义格式。在本文中，我们将通过几个示例来说明如何做到这一点。

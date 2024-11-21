@@ -7,6 +7,7 @@ description: "המרת Word משותף SharePoint PDF באמצעות C#. עבו�
 type: docs
 weight: 20
 url: /he/net/work-with-document-stored-in-sharepoint/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Microsoft SharePoint באינטרנט הוא אוסף של טכנולוגיות מבוססות אינטרנט המאפשרות לארגונים לאחסן, לשתף ולנהל מידע דיגיטלי. אתה יכול לעבוד עם מסמכים מאוחסנים בתיקיה "Shared Documents" בתיקיה SharePoint באמצעות העוצמה שלנו Aspose.Words עבור .NET.

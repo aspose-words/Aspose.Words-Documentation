@@ -1,4 +1,4 @@
-﻿---
+---
 title: Specificare la posizione dei caratteri TrueType in C++
 second_title: Aspose.Words per C++
 articleTitle: Specificare la posizione dei caratteri TrueType
@@ -7,6 +7,7 @@ description: "Specificare varie fonti di font TrueType: cartella di sistema, ori
 type: docs
 weight: 30
 url: /it/cpp/specify-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 In questo argomento viene descritto il comportamento predefinito di Aspose.Words quando cerca i font TrueType, incluse le differenze specifiche del sistema operativo, e viene illustrato come specificare le origini dei font utente.

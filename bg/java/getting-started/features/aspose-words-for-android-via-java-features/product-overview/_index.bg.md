@@ -7,6 +7,7 @@ description: "Aspose.Words вместо Android през Java е `Java` Клас
 type: docs
 weight: 10
 url: /bg/java/android-product-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

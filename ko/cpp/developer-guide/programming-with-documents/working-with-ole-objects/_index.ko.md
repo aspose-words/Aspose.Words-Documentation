@@ -1,4 +1,4 @@
-﻿---
+---
 title: 함께 작업 OLE 객체 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 함께 작업 OLE 개체
@@ -7,6 +7,7 @@ description: "생성 및 수정 OLE 다음을 사용하여 문서에 포함 C++.
 type: docs
 weight: 360
 url: /ko/cpp/working-with-ole-objects/
+timestamp: 2024-01-27-14-07-04
 ---
 
 OLE (객체 연결 및 임베딩)은 사용자가 타사 응용 프로그램에서 만들거나 편집한"객체"를 포함하는 문서로 작업할 수 있는 기술입니다. 그게 바로, OLE 편집 응용 프로그램에서 이러한"개체"를 다른 편집 응용 프로그램으로 내보낸 다음 추가 콘텐츠와 함께 가져올 수 있습니다.

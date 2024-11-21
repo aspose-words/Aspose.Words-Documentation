@@ -8,6 +8,7 @@ type: docs
 weight: 55
 url: /java/aspose-words-java-for-jython/
 aliases: [/java/jython-programmers-guide/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## What is Jython?

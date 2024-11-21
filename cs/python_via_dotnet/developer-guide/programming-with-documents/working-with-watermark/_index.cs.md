@@ -7,6 +7,7 @@ description: "Vytvoření a správa vodoznaků v dokumentu používajícím Pyth
 type: docs
 weight: 340
 url: /cs/python-net/working-with-watermark/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Toto téma pojednává o tom, jak pracovat programově s vodoznakem pomocí Aspose.Words. Vodoznak je obrázek pozadí, který se zobrazí za textem v dokumentu. Vodoznak může obsahovat text nebo obraz reprezentovaný [Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/) třída.

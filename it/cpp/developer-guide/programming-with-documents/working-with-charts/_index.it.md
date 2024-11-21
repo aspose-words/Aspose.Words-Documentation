@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lavorare con i grafici in C++
 second_title: Aspose.Words per C++
 articleTitle: Lavorare con i grafici
@@ -7,6 +7,7 @@ description: "Introduzione alla funzione Grafico, come creare e manipolare grafi
 type: docs
 weight: 310
 url: /it/cpp/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Il nuovo metodo [InsertChart](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertchart/) è stato aggiunto alla classe [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/). Quindi, vediamo come inserire un semplice istogramma nel documento usando il metodo [InsertChart](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertchart/).

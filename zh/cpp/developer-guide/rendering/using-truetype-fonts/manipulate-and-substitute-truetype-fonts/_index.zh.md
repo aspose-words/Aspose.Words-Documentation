@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在C++中操作和替换TrueType字体
 second_title: Aspose.Words对于C++
 articleTitle: 操作和替换TrueType字体
@@ -7,6 +7,7 @@ description: "Aspose.Words对于C++ 可以将正确的TrueType字体嵌入到生
 type: docs
 weight: 10
 url: /zh/cpp/manipulate-and-substitute-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words需要TrueType字体用于各种任务，包括将文档呈现为固定页面格式，例如PDF或XPS。 当Aspose.Words渲染文档时，它需要在生成的文档中执行TrueType字体的嵌入和子集嵌入，这是文档生成过程中的正常做法，包括流行的PDF或XPS格式。 这可确保文档对任何查看器都显示相同。 此外，XPS规范要求字体始终嵌入到文档中。

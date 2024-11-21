@@ -7,6 +7,7 @@ description: "Можете да получите достъп до полето 
 type: docs
 weight: 10
 url: /bg/python-net/fields-overview/
+timestamp: 2024-10-21-11-17-44
 ---
 
 

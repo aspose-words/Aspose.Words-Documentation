@@ -7,6 +7,7 @@ description: "Convert to PDF/A-1, PDF/A-2, PDF/A-4 and PDF/UA using Java. اخت
 type: docs
 weight: 25
 url: /ar/java/learn-features-of-conversion-to-pdf-a-pdf-ua/
+timestamp: 2024-01-31-14-23-37
 ---
 
 PDF is a fixed page format that is very popular among users and is widely supported by various applications, as a PDF document looks the same on any tool. ولهذا السبب، يشكل التحول إلى قوات الدفاع الشعبي سمة هامة من السمات Aspose.Words.

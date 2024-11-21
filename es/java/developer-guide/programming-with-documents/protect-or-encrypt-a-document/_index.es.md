@@ -7,6 +7,7 @@ description: "Cifrar un documento, restringir la edición, utilizar firmas digit
 type: docs
 weight: 50
 url: /es/java/protect-or-encrypt-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 La razón principal para proteger o encriptar un documento es aplicar más control sobre quién puede acceder al documento o quién puede editarlo. Aplicando protección a sus documentos, evita riesgos comunes como copiar o modificar documentos sin permiso, así como fuga de datos.

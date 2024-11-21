@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lavorare con i collegamenti ipertestuali in C++
 second_title: Aspose.Words per C++
 articleTitle: Aggiungere o modificare collegamenti ipertestuali
@@ -7,6 +7,7 @@ description: "Come aggiungere un collegamento ipertestuale nel documento utilizz
 type: docs
 weight: 180
 url: /it/cpp/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un collegamento ipertestuale nei documenti Microsoft Word è il campo `HYPERLINK`. In Aspose.Words, i collegamenti ipertestuali vengono implementati tramite la classe [FieldHyperlink](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldhyperlink/).

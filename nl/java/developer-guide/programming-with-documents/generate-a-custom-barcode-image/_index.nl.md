@@ -7,6 +7,7 @@ description: "Voorbeeld van het genereren van een streepjescodes met behulp van 
 type: docs
 weight: 350
 url: /nl/java/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/
+timestamp: 2024-09-05-11-07-10
 ---
 
 Een streepjescodes is een visuele weergave van gegevens in de vorm van parallele lijnen of patronen. Streepjescodes worden veel gebruikt in verschillende industrieën zoals detailhandel, logistiek, gezondheidszorg, bankieren en vele anderen.

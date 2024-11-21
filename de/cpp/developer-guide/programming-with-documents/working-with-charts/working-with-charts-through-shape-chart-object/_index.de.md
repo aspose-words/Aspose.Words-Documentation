@@ -1,4 +1,4 @@
-﻿---
+---
 title: Arbeiten mit Diagrammen über das `Shape.Chart` -Objekt
 second_title: Aspose.Words für C++
 articleTitle: Arbeiten mit Diagrammen über das `Shape.Chart` -Objekt
@@ -7,6 +7,7 @@ description: "Diagramme im Detail, wie Diagramm mit Formknoten in verknüpft ist
 type: docs
 weight: 10
 url: /de/cpp/working-with-charts-through-shape-chart-object/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Sobald das Diagramm eingefügt und mit Daten gefüllt wurde, können Sie sein Aussehen ändern. Die Eigenschaft `Shape.Chart` enthält alle diagrammbezogenen Optionen, die über das öffentliche API verfügbar sind.

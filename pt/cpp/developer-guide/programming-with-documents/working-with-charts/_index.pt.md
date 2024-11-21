@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trabalhar com gráficos em C++
 second_title: Aspose.Words para C++
 articleTitle: Trabalhar com gráficos
@@ -7,6 +7,7 @@ description: "Introdução ao recurso gráfico, como criar e manipular gráficos
 type: docs
 weight: 310
 url: /pt/cpp/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 O novo método [InsertChart](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertchart/) foi adicionado à classe [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/). Então, vamos ver como inserir um gráfico de colunas simples no documento usando o método [InsertChart](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertchart/).

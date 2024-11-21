@@ -7,6 +7,7 @@ description: "链接文本框特性介绍 Aspose.Words (单位:千美元) Java�
 type: docs
 weight: 250
 url: /zh/java/working-with-linked-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 内 Aspose.Words, 联合国 [TextBox](https://reference.aspose.com/words/java/com.aspose.words/textbox/) 类用于指定文字如何在形状内显示。 它提供了命名为"家长"的公有财产,以获得文本框的父形状,让客户找到链接 [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) 从链接 **TextBox**。 。 。 。

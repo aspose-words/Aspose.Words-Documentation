@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu câmpuri în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Lucrul cu câmpuri
@@ -7,6 +7,7 @@ description: "Introducere în funcția de câmp în Aspose.Words pentru Java."
 type: docs
 weight: 370
 url: /ro/java/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 **Câmpuri**

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Укажите параметры компоновки на C++
 second_title: Aspose.Words для C++
 articleTitle: Укажите параметры компоновки
@@ -7,6 +7,7 @@ description: "Укажите параметры компоновки для ра
 type: docs
 weight: 20
 url: /ru/cpp/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words позволяет создавать выходные документы с различными макетами в зависимости от параметров, указанных в свойстве [LayoutOptions](https://reference.aspose.com/words/cpp/class/aspose.words.layout.layout_options) параметра **Document**. Это свойство напоминает некоторые параметры меню пользовательского интерфейса Microsoft Word, описанные в этой статье.

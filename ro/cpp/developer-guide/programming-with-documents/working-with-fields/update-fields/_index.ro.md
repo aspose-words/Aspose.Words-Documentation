@@ -1,4 +1,4 @@
-﻿---
+---
 title: Actualizați câmpurile în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Actualizați Câmpurile
@@ -7,6 +7,7 @@ description: "Aflați cum să actualizați câmpurile în C++. Actualizați câm
 type: docs
 weight: 30
 url: /ro/cpp/update-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 De obicei, un câmp inserat în Microsoft Word conține deja o valoare actualizată. De exemplu, dacă câmpul este o formulă sau un număr de pagină, acesta va conține valoarea calculată corectă pentru versiunea dată a documentului. Dar dacă aveți o aplicație care generează sau Modifică un document cu câmpuri precum îmbinarea a două documente sau popularea acestuia cu date, atunci în mod ideal toate câmpurile trebuie actualizate pentru ca documentul să fie util.

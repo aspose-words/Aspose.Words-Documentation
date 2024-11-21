@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words için Java akıllı Soğuk işleme yapar, bu da ön işlenmiş SmartArt çizimi eksikse veya hatalıysa SmartArt nesneleri düzenler ve oluşturur."
 weight: 330
 url: /tr/java/working-with-smartart-cold-rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 SmartArt grafikleri, bilgilere görsel bir gösterim oluşturmak için hızlı ve kolay bir şekilde kullanılır. Sadece sizin durumunuza en uygun olan düzenlerden birini seçersiniz. Bu kolay kullanım, SmartArt grafiklerini bazı amaçlar için oldukça popüler kılar.

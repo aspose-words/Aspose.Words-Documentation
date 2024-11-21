@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++での透かしの操作
 second_title: C++の場合Aspose.Words
 articleTitle: 透かしの操作
@@ -7,6 +7,7 @@ type: docs
 description: "C++を使用した文書の透かし操作。"
 weight: 340
 url: /ja/cpp/working-with-watermark/
+timestamp: 2024-01-30-16-22-34
 ---
 
 このトピックでは、Aspose.Wordsを使用してwatermarkをプログラムで操作する方法について説明します。 透かしは、ドキュメント内のテキストの後ろに表示される背景画像です。 透かしには、[Watermark](https://reference.aspose.com/words/cpp/aspose.words/watermark/)クラスで表されるテキストまたは画像を含めることができます。

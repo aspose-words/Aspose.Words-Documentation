@@ -7,6 +7,7 @@ description: "Hoe velden in een document in te voegen met behulp van C# Leer ver
 type: docs
 weight: 20
 url: /nl/net/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Er zijn verschillende manieren om velden in een document in te voegen:

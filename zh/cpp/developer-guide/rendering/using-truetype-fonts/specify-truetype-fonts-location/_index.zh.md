@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在C++中指定TrueType字体位置
 second_title: Aspose.Words为C++
 articleTitle: 指定TrueType字体位置
@@ -7,6 +7,7 @@ description: "指定各种TrueType字体源：系统文件夹、用户源、从�
 type: docs
 weight: 30
 url: /zh/cpp/specify-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 本主题描述查找TrueType字体时Aspose.Words的默认行为，包括操作系统特定的差异，并演示如何指定用户字体源。

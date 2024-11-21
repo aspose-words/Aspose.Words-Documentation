@@ -1,4 +1,4 @@
-﻿---
+---
 title: Como reconhecer que a fonte foi substituída em C++
 second_title: Aspose.Words para C++
 articleTitle: Como reconhecer que a fonte foi substituída
@@ -7,6 +7,7 @@ description: "Se você não sabe por que o layout de um documento foi alterado o
 type: docs
 weight: 13
 url: /pt/cpp/how-to-recognize-that-the-font-was-replaced/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Às vezes, pode não estar claro por que o layout do documento foi alterado ou por que alguma fonte não parece o esperado. Nesses casos, as mensagens de avisos de substituição de fontes implementadas pela interface IWarningCallback são resgatadas. Eles têm o tipo de aviso [FontSubstitution](https://reference.aspose.com/words/cpp/aspose.words/warningtype/) e o formato de texto de descrição padrão, "a fonte '<OriginalFont>' não foi encontrada. Usando a fonte ' <SubstitutionFont>'. Motivo: <Reason>", com as seguintes razões:

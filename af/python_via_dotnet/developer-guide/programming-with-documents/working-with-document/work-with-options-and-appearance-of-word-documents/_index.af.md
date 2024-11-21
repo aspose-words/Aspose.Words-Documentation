@@ -1,4 +1,4 @@
-﻿---
+---
 title: Opsies En Voorkoms Word-Dokument
 second_title: Aspose.Words vir Python
 articleTitle: Werk Met Opsies en Voorkoms Van Word-Dokumente
@@ -7,6 +7,7 @@ description: "Beheer die voorkoms van Word-dokumente met inagneming van die vers
 type: docs
 weight: 40
 url: /af/python-net/work-with-word-document-options-and-appearance/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Soms moet jy dalk die voorkoms van'n dokument verander, byvoorbeeld, stel taalvoorkeure of die aantal reëls per bladsy in.Aspose.Words bied die vermoë om te beheer hoe die dokument vertoon sal word, asook'n paar bykomende opsies. Hierdie artikel beskryf sulke moontlikhede.

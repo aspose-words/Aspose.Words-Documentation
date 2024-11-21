@@ -7,6 +7,7 @@ description: "Pole Spisu treści zawiera szczegółowe informacje. Jak utworzyć
 type: docs
 weight: 170
 url: /pl/net/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Często będziesz pracować z dokumentami zawierającymi spis treści (TOC). Za pomocą Aspose.Words możesz wstawić własny spis treści lub całkowicie przebudować istniejący spis treści w dokumencie za pomocą zaledwie kilku linijek kodu. W tym artykule opisano sposób pracy z polem spisu treści i przedstawiono:

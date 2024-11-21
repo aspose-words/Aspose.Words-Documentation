@@ -1,4 +1,4 @@
-﻿---
+---
 title: Font FallBack Ayarları XML 'den C++'ye
 second_title: Aspose.Words için C++
 articleTitle: Font FallBack XML'den Ayarlar
@@ -7,6 +7,7 @@ description: "Yazı tipi çözümlendiğinde yazı tipi geri dönüş mekanizmas
 type: docs
 weight: 14
 url: /tr/cpp/font-fallback-settings-from-xml/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Aspose.Words 'da kullanılan iki farklı mekanizma vardır - Yazı tipi değiştirme ve Yazı Tipi geri dönüşü. Yazı tipi değiştirme, belgede belirtilen yazı tipi, yukarıdaki bölümlerde açıklandığı gibi yazı tipi kaynakları arasında bulunamadığında kullanılır. Yazı tipi çözümlendiğinde yazı tipi geri dönüş mekanizması kullanılır, ancak belirli bir karakter içermez. Bu durumda, Aspose.Words karakter için geri dönüş yazı tiplerinden birini kullanmaya çalışır.

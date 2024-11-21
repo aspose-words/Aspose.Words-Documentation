@@ -7,6 +7,7 @@ description: "Instalează Aspose.Words pentru .NET folosind Visual Studio instru
 type: docs
 weight: 10
 url: /ro/net/installation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Asigură-te că maşina ta îndeplineşte [system requirements](/words/net/system-requirements/) înainte să începi.

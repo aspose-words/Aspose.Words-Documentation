@@ -7,6 +7,7 @@ description: "문서에 fpotnotes 또는 endnotes를 삽입하고 Python를 사�
 type: docs
 weight: 160
 url: /ko/python-net/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words는 또한 각주 및 미주 작업을 위한 몇 가지 클래스, 메서드 및 속성을 제공합니다.

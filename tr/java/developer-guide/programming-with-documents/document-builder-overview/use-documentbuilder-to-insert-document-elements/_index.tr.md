@@ -7,6 +7,7 @@ type: docs
 description: "Belge öğelerini Java'deki belge oluşturucuya ekleyin."
 weight: 10
 url: /tr/java/use-documentbuilder-to-insert-document-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 0 [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) bir belgeyi değiştirmek için kullanılır. Bu makale, çeşitli görevleri nasıl gerçekleştireceğini açıklar ve tanımlar.

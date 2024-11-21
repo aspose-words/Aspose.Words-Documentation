@@ -7,6 +7,7 @@ description: "İçeriğin kopyalanmasına veya okunmasına izin vermek ama deği
 type: docs
 weight: 10
 url: /tr/java/open-a-document-read-only/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bazen bir belgeye ihtiyacınız olabilir inceleme için, ancak gözden geçirenlerin içeriğinizi rastgele değiştirmesini istemeyebilirsiniz. Aspose.Words belgenizin izinlerini salt okunur hale getirmenize olanak tanır böylece içeriği kopyalayıp okuyabilir, ancak değiştirilemez. Bu, içeriğinizin belgenizden kaldırılmasını veya eklenmesini önleyecektir.

@@ -8,6 +8,7 @@ type: docs
 weight: 55
 url: /net/inserting-html-dynamically/
 aliases: [/net/template-syntax/#inserting-documents-dynamically]
+timestamp: 2024-01-27-14-07-04
 ---
 
 You can insert HTML to your reports dynamically by using one of the following two options.

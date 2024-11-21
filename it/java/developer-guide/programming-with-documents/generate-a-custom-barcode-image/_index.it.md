@@ -7,6 +7,7 @@ description: "Esempio di generazione della forma del codice a barre utilizzando 
 type: docs
 weight: 350
 url: /it/java/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/
+timestamp: 2024-09-05-11-07-10
 ---
 
 Un codice a barre è una rappresentazione visiva dei dati sotto forma di linee parallele o modelli. I codici a barre sono ampiamente utilizzati in vari settori come il commercio al dettaglio, la logistica, l'assistenza sanitaria, la banca e molti altri.

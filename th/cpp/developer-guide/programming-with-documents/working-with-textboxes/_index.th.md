@@ -1,4 +1,4 @@
-﻿---
+---
 title: การทำงานกับTextBoxesในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: การทำงานกับTextBoxes
@@ -7,6 +7,7 @@ description: "รู้เบื้องต้นเกี่ยวกับก
 type: docs
 weight: 250
 url: /th/cpp/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ในAspose.Wordsคลาส[TextBox](https://reference.aspose.com/words/cpp/aspose.words.drawing/textbox/)จะใช้เพื่อระบุวิธีแสดงข้อความภายในรูปร่าง มันแสดงคุณสมบัติสาธารณะที่มีชื่อ**Parent**ที่จะได้รับรูปร่างแม่สำหรับกล่องข้อความเพื่อให้ลูกค้าสามารถหาที่เชื่อมโยง[Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/)จากที่เกี่ยวข้อง**TextBox**.

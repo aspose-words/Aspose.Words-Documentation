@@ -7,6 +7,7 @@ description: "Как манипулировать сносками и эндно
 type: docs
 weight: 160
 url: /ru/java/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words Также предусмотрены некоторые классы, методы и свойства для работы со сносками и энднотами.

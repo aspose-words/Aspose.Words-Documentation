@@ -7,6 +7,7 @@ description: "Hoe tabelcellen samenvoegen in Java. Controleer of cellen in een t
 type: docs
 weight: 40
 url: /nl/java/working-with-merged-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Soms vereisen bepaalde rijen in een tabel een kop of grote blokken tekst die de volledige breedte van de tabel innemen. Voor het juiste ontwerp van de tabel, kan de gebruiker meerdere tabelcellen samenvoegen in een. Aspose.Words ondersteunt samengevoegde cellen bij het werken met alle invoerformaten, inclusief het importeren van HTML-inhoud.

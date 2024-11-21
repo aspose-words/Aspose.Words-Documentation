@@ -7,6 +7,7 @@ description: "Traitement avancé de documents TXT, listes, BiDi, en-têtes/pieds
 type: docs
 weight: 430
 url: /fr/java/working-with-text-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Dans cet article, nous allons apprendre quelles options peuvent être utiles pour travailler avec un document texte via Aspose.Words. Veuillez noter que ce n'est pas une liste complète des options disponibles, mais seulement un exemple de travail avec certaines d'entre elles.

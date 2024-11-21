@@ -1,4 +1,4 @@
-﻿---
+---
 title: 이미지 작업 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 이미지 작업
@@ -7,6 +7,7 @@ type: docs
 description: "이미지 기능 소개,다음을 사용하여 이미지를 만들고 조작하는 방법 C++."
 weight: 300
 url: /ko/cpp/working-with-images/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words 사용자가 매우 유연한 방법으로 이미지를 작업 할 수 있습니다. 이 기사에서는 이미지 작업의 가능성 중 일부만 탐색 할 수 있습니다.

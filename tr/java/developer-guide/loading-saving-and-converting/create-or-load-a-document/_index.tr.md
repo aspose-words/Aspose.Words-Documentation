@@ -7,6 +7,7 @@ type: docs
 weight: 10
 url: /tr/java/create-or-load-a-document/
 description: "Aspose.Words boş bir belge oluşturmanıza veya Java kullanarak bir dosyadan veya akıştan yüklemenize olanak tanır."
+timestamp: 2024-01-27-14-07-04
 ---
 
 Çok az görev Aspose.Words ile gerçekleştirmek istediğiniz bir belge yüklemenizi içerir. `Document` sınıfı bellekte yüklenen bir belgeyi temsil eder. Belge birkaç aşırı yüklenmiş oluşturucuya sahiptir ve bu da boş bir belge oluşturmanıza veya bir dosyadan veya akıştan yüklemenize olanak tanır. Belge, Aspose.Words tarafından desteklenen herhangi bir yükleme formatında yüklenebilir. Tüm desteklenen yükleme formatlarının listesi için [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) numaralandırmasına bakın.

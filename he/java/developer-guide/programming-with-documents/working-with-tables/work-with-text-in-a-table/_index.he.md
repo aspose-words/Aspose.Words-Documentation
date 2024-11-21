@@ -7,6 +7,7 @@ description: "להחליף טקסט בטבלה Java. צילום טקסט רגי�
 type: docs
 weight: 60
 url: /he/java/extract-text-from-and-replace-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 כפי שצוין במאמרים קודמים, שולחן מכיל בדרך כלל טקסט פשוט, אם כי תוכן אחר כגון תמונות או אפילו טבלאות אחרות ניתן להציב בתאי שולחן.

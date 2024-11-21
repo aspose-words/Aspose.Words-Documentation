@@ -7,6 +7,7 @@ description: "Pengantar untuk menghitung fitur format dalam Aspose.Words Sitemap
 type: docs
 weight: 200
 url: /id/java/working-with-lists/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Daftar dalam daftar Microsoft Word dokumen adalah set properti format daftar. Daftar dapat digunakan dalam dokumen Anda untuk format, mengatur, dan menekankan teks. Daftar adalah cara yang bagus untuk mengatur data dalam dokumen, dan mereka memudahkan pembaca untuk memahami poin kunci.

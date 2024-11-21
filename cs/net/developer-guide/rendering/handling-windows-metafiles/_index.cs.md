@@ -7,6 +7,7 @@ description: "Aspose.Words místo .NET provádí vlastní Windows Metafile přeh
 type: docs
 weight: 30
 url: /cs/net/handling-windows-metafiles/
+timestamp: 2024-07-10-14-38-57
 ---
 
 Windows Formát Metafile je formát souboru s obrázkem, který může obsahovat grafiku vektoru i rastru. Tento formát slouží k ukládání grafických dat v paměti nebo na diskových souborech. Metafile ukládá seznam volání funkcí v Windows Grafické rozhraní zařízení (GDI), které musí být provedeno pro zobrazení obrázku na obrazovce. Systém interpretuje a provádí tyto příkazy v kontextu zobrazení.

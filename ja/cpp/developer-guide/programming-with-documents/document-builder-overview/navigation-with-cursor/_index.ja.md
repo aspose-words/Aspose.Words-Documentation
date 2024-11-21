@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++でのカーソルによるナビゲーション
 second_title: C++の場合Aspose.Words
 articleTitle: カーソルを使ったナビゲーション
@@ -7,6 +7,7 @@ description: "C++を使用して、段落、ブックマーク、特定の文字
 type: docs
 weight: 10
 url: /ja/cpp/navigation-with-cursor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 文書を操作している間、それが短いものであっても長いものであっても、文書をナビゲートする必要があります。 仮想カーソルを使用したナビゲーションは、ドキュメント内の異なるノード間を移動する機能を表します。

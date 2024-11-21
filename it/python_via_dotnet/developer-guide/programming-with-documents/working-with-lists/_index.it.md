@@ -7,6 +7,7 @@ description: "Crea, specifica la formattazione e riavvia gli elenchi in un docum
 type: docs
 weight: 200
 url: /it/python-net/working-with-lists/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un elenco in un documento Microsoft Word è un insieme di proprietà di formattazione dell'elenco. Gli elenchi possono essere utilizzati nei documenti per formattare, organizzare ed enfatizzare il testo. Gli elenchi sono un ottimo modo per organizzare i dati nei documenti e facilitano la comprensione dei punti chiave da parte dei lettori

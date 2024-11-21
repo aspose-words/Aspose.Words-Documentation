@@ -7,6 +7,7 @@ description: "Konvertieren Sie ein Dokument in ein Rasterbild, das am Beispiel d
 type: docs
 weight: 30
 url: /de/java/saving-a-document-as-a-multipage-tiff/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Wenn Sie mit Dokumenten arbeiten, müssen Sie Ihr Dokument oft in eine Rasterbilddatei(en) konvertieren. Dies ist besonders relevant, wenn Sie Ihr Dokument in einem lesbaren und bedruckbaren, aber nicht bearbeitbaren Format präsentieren müssen. Zum Beispiel können Sie ein Rasterbild der ersten Seite Ihres Dokuments als Vorschau verwenden. Dieser Artikel beschreibt, wie man ein Dokument mit dem Beispiel des TIFF-Formats in ein Rasterbild umwandelt – eines der beliebtesten Bildformate.

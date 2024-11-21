@@ -1,4 +1,4 @@
-﻿---
+---
 title: Peringatan Saat Menyimpan ke PDF/A dan PDF/UA
 second_title: Aspose.Words untuk C++
 articleTitle: Peringatan Masalah Aksesibilitas Saat Menyimpan ke PDF/A dan PDF/UA
@@ -7,6 +7,7 @@ description: "PDF/A dan PDF/UA memberlakukan persyaratan aksesibilitas yang terk
 type: docs
 weight: 39
 url: /id/cpp/warnings-when-saving-to-pdfa-and-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Format PDF/A dan PDF/UA memberlakukan sejumlah persyaratan aksesibilitas terkait konten dokumen yang tidak dapat dipenuhi selama konversi otomatis dari Word ke PDF. Persyaratan ini dijelaskan dalam artikel sebelumnya *"Working with PDF/A or PDF/UA"*. Sekarang peringatan dikeluarkan untuk beberapa masalah ini.

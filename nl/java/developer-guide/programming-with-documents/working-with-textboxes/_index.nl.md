@@ -7,6 +7,7 @@ description: "Inleiding tot gekoppelde tekstvakken in Aspose.Words voor Java."
 type: docs
 weight: 250
 url: /nl/java/working-with-linked-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In Aspose.Words, de [TextBox](https://reference.aspose.com/words/java/com.aspose.words/textbox/) klasse wordt gebruikt om aan te geven hoe een tekst in een vorm wordt weergegeven. Het biedt een publieke eigenschap genoemd als ouder om de ouder vorm voor het tekstvak om de klant om te vinden gekoppeld [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) van verbonden **TextBox**.

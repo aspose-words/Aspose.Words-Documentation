@@ -7,6 +7,7 @@ description: "Вступ до функції діапазону в Aspose.Words 
 type: docs
 weight: 130
 url: /uk/net/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

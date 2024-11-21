@@ -8,6 +8,7 @@ url: /tr/python-net/create-or-load-a-document/
 description: "Boş bir belge oluşturun veya bunu Python kullanarak bir dosyadan veya akıştan yükleyin."
 keywords: "create a document python, load a document python, create a blank document python, load a document from file python, load a document from stream python, create a document Aspose python, load a document Aspose python, load formats supported by Aspose.Words python"
 weight: 10
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words ile gerçekleştirmek istediğiniz hemen hemen her görev, bir belgenin yüklenmesini içerir. [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) sınıfı belleğe yüklenen bir belgeyi temsil eder. Belgede, boş bir belge oluşturmanıza veya bunu bir dosyadan veya akıştan yüklemenize olanak tanıyan aşırı yüklenmiş birkaç kurucu bulunur. Belge, Aspose.Words tarafından desteklenen herhangi bir yükleme biçiminde yüklenebilir. Desteklenen tüm yükleme biçimlerinin listesi için [LoadFormat](https://reference.aspose.com/words/python-net/aspose.words/loadformat/) numaralandırmasına bakın.

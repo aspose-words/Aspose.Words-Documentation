@@ -7,6 +7,7 @@ description: "Aspose.Words pentru .NET implementează propriul său Windows meta
 type: docs
 weight: 30
 url: /ro/net/handling-windows-metafiles/
+timestamp: 2024-07-10-14-38-57
 ---
 
 Windows Formatul metafilelor este un format de fișier care poate conține atât grafică vectorială, cât și raster Acest format este utilizat pentru a stoca date grafice în memorie sau pe fișiere de tip disc. Un fișier metafizic stochează o listă de apeluri de funcții în Windows Interfața dispozitivului grafic (GDI) care trebuie executate pentru a afișa imaginea pe ecran. Sistemul interpretează şi execută aceste comenzi în contextul afişării.

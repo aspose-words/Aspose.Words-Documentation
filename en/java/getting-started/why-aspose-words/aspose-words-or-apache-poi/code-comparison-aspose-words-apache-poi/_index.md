@@ -8,6 +8,7 @@ type: docs
 weight: 10
 url: /java/code-comparison-aspose-words-apache-poi/
 aliases: [/java/code-comparison-for-common-features-in-aspose-words-and-apache-poi-hwpf-and-xwpf/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 The developers looking for word processing libraries may need to walk through the features provided by the libraries available on the market. Mainly, two factors are considered when choosing an option:

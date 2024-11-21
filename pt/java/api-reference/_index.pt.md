@@ -7,6 +7,7 @@ type: docs
 weight: 30
 description: "Aprenda uma explicação e exemplos de Aspose.Words para Java classes e métodos para gerar, converter, modificar, renderizar e imprimir documentos sem usar Microsoft Word."
 url: /pt/java/api-reference/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words para Java é uma biblioteca de classe que permite que seus aplicativos realizem uma grande variedade de tarefas de processamento de documentos. Com Aspose.Words você pode gerar, modificar, converter, renderizar e imprimir documentos sem utilizar <span notrans="<span notrans=" Microsoft Word"=""></span>, Isso é, Microsoft Word não é necessário para usar Aspose.Words.

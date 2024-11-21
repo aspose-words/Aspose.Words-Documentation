@@ -1,4 +1,4 @@
-﻿---
+---
 title: 변환 PDF/A 그리고 PDF/UA
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 로 변환의 기능을 알아보기 PDF/A 그리고 PDF/UA
@@ -7,6 +7,7 @@ description: "로 변환 PDF/A-1, PDF/A-2, PDF/A-4 그리고 PDF/UA 사용 C++. 
 type: docs
 weight: 35
 url: /ko/cpp/learn-features-of-conversion-to-pdf-a-pdf-ua/
+timestamp: 2024-01-31-14-23-37
 ---
 
 PDF 사용자들 사이에서 매우 인기가 널리 다양한 응용 프로그램에서 지원하는 고정 된 페이지 형식입니다 PDF 문서는 모든 장치에서 동일하게 보입니다. 이 때문에, PDF 의 중요한 기능입니다 Aspose.Words.

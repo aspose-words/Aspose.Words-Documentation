@@ -8,6 +8,7 @@ description: "Convierta un documento en cualquier formato de carga admitido a Ma
 keywords: how to convert a document to markdown python
 weight: 40
 url: /es/python-net/convert-a-document-to-markdown/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Markdown es un formato popular que se utiliza para marcar texto y su posterior conversión a HTML, PDF, DOCX u otros formatos. Muchos desarrolladores eligen este formato para escribir documentación, preparar artículos para su publicación en blogs, describir proyectos, etc.

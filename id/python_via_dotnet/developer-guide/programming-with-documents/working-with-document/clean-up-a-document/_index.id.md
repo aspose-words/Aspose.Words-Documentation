@@ -7,6 +7,7 @@ description: "Hapus informasi yang tidak terpakai atau duplikat untuk mengurangi
 type: docs
 weight: 30
 url: /id/python-net/clean-up-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Terkadang Anda mungkin perlu menghapus informasi yang tidak terpakai atau duplikat untuk mengurangi ukuran dokumen keluaran dan waktu pemrosesan.

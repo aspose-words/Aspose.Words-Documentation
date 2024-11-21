@@ -7,6 +7,7 @@ type: docs
 description: "Recherchez un modèle de chaîne ou d'expression régulière dans votre document et remplacez-le par le texte souhaité à l'aide de Python."
 weight: 100
 url: /fr/python-net/find-and-replace/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Vous pouvez facilement naviguer dans votre document à l'aide d'un clavier et d'une souris, mais si vous avez de nombreuses pages à parcourir, il faudra un certain temps pour trouver un texte spécifique dans un long document. Cela prendra plus de temps lorsque vous souhaiterez remplacer certains caractères ou mots que vous avez utilisés dans votre document. La fonctionnalité "Rechercher et remplacer" permet de rechercher une séquence de caractères dans un document et de la remplacer par une autre séquence de caractères.

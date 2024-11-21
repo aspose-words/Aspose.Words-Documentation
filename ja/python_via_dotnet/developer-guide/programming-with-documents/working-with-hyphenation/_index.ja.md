@@ -7,6 +7,7 @@ description: "Python を使用してテキストをよりコンパクトに配�
 type: docs
 weight: 220
 url: /ja/python-net/working-with-hyphenation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 文書内のテキストをよりコンパクトに配置するために、ハイフネーションの使用が必要になる場合があります。同時に、単語のハイフネーションの詳細は言語ごとに異なる可能性があることを理解することが重要です。

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu cuprins în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Lucrul cu cuprins
@@ -7,6 +7,7 @@ description: "Tabelul câmpului de conținut în detalii. Cum se creează și se
 type: docs
 weight: 170
 url: /ro/java/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Adesea veți lucra cu documente care conțin un cuprins (TOC). Folosind Aspose.Words puteți introduce propriul Cuprins sau puteți reconstrui complet cuprinsul existent în document folosind doar câteva linii de cod.

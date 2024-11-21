@@ -8,6 +8,7 @@ description: "Конвертиране на PDF в Word формати като 
 keywords: convert pdf to other formats python
 weight: 45
 url: /bg/python-net/convert-pdf-to-other-document-formats/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words може да зареди дори такъв сложен формат като PDF. Това отваря нови възможности: възможно е да се превърне PDF в Word или други формати, които водят потребителите далеч напред в решаването на много приложни проблеми.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Avisos ao salvar em PDF/A e PDF/UA
 second_title: Aspose.Words para C++
 articleTitle: Avisos de emissão de acessibilidade ao salvar em PDF/A e PDF/UA
@@ -7,6 +7,7 @@ description: "PDF/A e PDF/UA impõem requisitos de acessibilidade relacionados c
 type: docs
 weight: 39
 url: /pt/cpp/warnings-when-saving-to-pdfa-and-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Os formatos PDF/A e PDF/UA impõem uma série de requisitos de acessibilidade relacionados com o conteúdo do documento que não podem ser cumpridos durante a conversão automática do Word para PDF. Estes requisitos são descritos no artigo anterior *"Working with PDF/A or PDF/UA"*. Agora são emitidos avisos para alguns destes problemas.

@@ -7,6 +7,7 @@ description: "עבודה עם תיבות טקסט במסמך באמצעות Pyth
 type: docs
 weight: 250
 url: /he/python-net/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In In In Aspose.Words, [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) הכיתה משמשת כדי לציין כיצד טקסט מוצג בתוך צורה. הוא מספק נכס ציבורי בשם [parent](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/parent/) כדי לקבל את צורת ההורה עבור תיבת הטקסט כדי לאפשר ללקוח למצוא מקושר [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) מקושר [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/).

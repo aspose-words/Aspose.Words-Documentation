@@ -8,6 +8,7 @@ description: "Uložit dokument v jakémkoliv podporovaném formátu pomocí Pyth
 keywords: "save a document python, save a document to file python, save a document to stream python, save a document Aspose python, save formats supported by Aspose.Words python"
 weight: 20
 url: /cs/python-net/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Většina úkolů, které musíte splnit Aspose.Words zahrnuje uložení dokumentu. Uložit dokument Aspose.Words poskytuje [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) způsob [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) třída. Existují přetížení, které umožňují uložení dokumentu do souboru nebo streamu. Dokument lze uložit v libovolném formátu uložení podporovaném Aspose.Words. Seznam všech podporovaných formátů uložení viz [SaveFormat](https://reference.aspose.com/words/python-net/aspose.words/saveformat/) výčtu.

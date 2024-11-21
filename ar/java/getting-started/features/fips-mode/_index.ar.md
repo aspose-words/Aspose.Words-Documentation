@@ -7,6 +7,7 @@ description: "Aspose.Words for Java (ج) استخدام العديد من الت
 type: docs
 weight: 80
 url: /ar/java/fips-mode/
+timestamp: 2024-05-08-10-19-58
 ---
 
 Aspose.Words ويستخدم العديد من الخوارزميات الترميزية والحشيشية عند تجهيز الوثائق، وتصف هذه المادة كيفية ارتباطها بمعايير نظام الإبلاغ المالي.

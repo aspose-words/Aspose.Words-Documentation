@@ -7,6 +7,7 @@ description: "Używać hyfenation dla bardziej kompaktowego układu tekstu. Zape
 type: docs
 weight: 220
 url: /pl/java/working-with-hyphenation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Czasami konieczne jest użycie hyfenation dla bardziej kompaktowego rozmieszczenia tekstu w dokumencie. Jednocześnie ważne jest, aby zrozumieć, że specyfika słowa hyfenation może się różnić dla każdego języka.

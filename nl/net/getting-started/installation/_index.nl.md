@@ -7,6 +7,7 @@ description: "Installeren Aspose.Words voor .NET gebruik Visual Studio instrumen
 type: docs
 weight: 10
 url: /nl/net/installation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Zorg ervoor dat uw machine voldoet aan de [Systeemeisen](/words/nl/net/system-requirements/) Voordat je begint.

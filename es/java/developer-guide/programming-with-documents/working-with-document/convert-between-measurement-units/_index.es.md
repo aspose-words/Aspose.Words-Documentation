@@ -7,6 +7,7 @@ description: "Aspose.Words para Java puede ayudarle con cómo convertir entre un
 type: docs
 weight: 20
 url: /es/java/convert-between-measurement-units/
+timestamp: 2024-01-27-14-07-04
 ---
 
 La mayoría de las propiedades del objeto proporcionadas en Aspose.Words API que representan alguna medida, como ancho o altura, márgenes y varias distancias, aceptan valores en puntos, donde 1 pulgada equivale a 72 puntos. A veces esto no es conveniente y los puntos necesitan ser convertidos a otras unidades.

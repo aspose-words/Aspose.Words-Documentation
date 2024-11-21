@@ -7,6 +7,7 @@ type: docs
 description: "粉碎一个 Markdown 文档到 Document Object Model 回来 所以,你可以工作 复杂的现有 Markdown 在方案上建立一个 Markdown 使用 Java。 。 。 。"
 weight: 20
 url: /zh/java/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 要在程序上读取、操纵和修改文件的内容和格式,需要将其翻译为 Aspose.Words Document Object Model (单位:千美元)DOM) (中文(简体) ).

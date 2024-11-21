@@ -7,6 +7,7 @@ description: "Python kullanarak bir belgeye 'İçindekiler'i ekleyin ve yönetin
 type: docs
 weight: 170
 url: /tr/python-net/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Çoğunlukla içindekiler tablosu (TOC) içeren belgelerle çalışacaksınız. Aspose.Words'i kullanarak kendi içindekiler tablonuzu ekleyebilir veya yalnızca birkaç satır kod kullanarak belgedeki mevcut içindekiler tablosunu tamamen yeniden oluşturabilirsiniz. Bu makalede, içindekiler alanıyla nasıl çalışılacağı özetlenmekte ve aşağıdakiler gösterilmektedir:

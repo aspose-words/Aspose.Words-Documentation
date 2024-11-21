@@ -1,4 +1,4 @@
-﻿---
+---
 title: Erstellen eines Seitenlayouts in C++
 second_title: Aspose.Words für C++
 articleTitle: Erstellen eines Seitenlayouts
@@ -7,6 +7,7 @@ description: "Das Erstellen eines Seitenlayouts kann ein kostspieliges Verfahren
 type: docs
 weight: 10
 url: /de/cpp/creating-a-page-layout/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Das Erstellen eines Seitenlayouts kann sowohl in Bezug auf die Geschwindigkeit als auch auf den Speicher ein kostspieliger Vorgang sein. Dies hat mehrere Gründe:

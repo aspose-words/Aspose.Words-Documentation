@@ -7,6 +7,7 @@ description: "Включить пункт в документ C#. Установ
 type: docs
 weight: 210
 url: /ru/net/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Параграф - это набор символов, объединенных в логический блок и заканчивающихся специальным персонажем - разрывом параграфа. в Aspose.Words, пункт представлен в виде [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/) класс.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 필드 속성 사용자 지정 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 필드 속성 사용자 지정
@@ -7,6 +7,7 @@ description: "필드 속성을 사용자 지정하는 방법에 대해 알아봅
 type: docs
 weight: 27
 url: /ko/cpp/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words 프로그래밍 방식으로 다양한 필드 속성과 상호 작용하는 기능을 제공합니다. 이 기사에서는 필드 속성 작업의 기본 원리를 이해할 수 있도록 몇 가지 예를 살펴볼 것입니다. 해당 클래스의 각 필드 유형에 대한 전체 속성 목록을 볼 수 있습니다. [Fields namespace](https://reference.aspose.com/words/cpp/namespace/aspose.words.fields).

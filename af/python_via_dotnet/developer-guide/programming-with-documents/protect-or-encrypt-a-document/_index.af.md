@@ -1,4 +1,4 @@
-﻿---
+---
 title: Beskerm of Enkripteer'n Dokument
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Beskerm of Enkripteer'n Dokument
@@ -7,6 +7,7 @@ description: "Aspose.Words vir Python via .NET bied Lees-Alleen, Enkripteer'n Do
 type: docs
 weight: 50
 url: /af/python-net/protect-or-encrypt-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Die hoofrede om'n dokument te beskerm of te enkripteer, is om meer beheer toe te pas oor wie toegang tot die dokument kan kry of wie dit kan wysig. Deur beskerming op u dokumente toe te pas, vermy u algemene risiko's soos die kopiëring of wysiging van dokumente sonder toestemming, sowel as datalekkasies.

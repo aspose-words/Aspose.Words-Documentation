@@ -7,6 +7,7 @@ description: "Using Aspose.Words for .NET in a Microsoft Silverlight to display 
 type: docs
 weight: 10
 url: /net/display-word-documents-in-silverlight/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

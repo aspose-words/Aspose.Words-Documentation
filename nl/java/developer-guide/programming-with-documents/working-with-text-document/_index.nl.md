@@ -7,6 +7,7 @@ description: "Geavanceerde TXT-documentverwerking, lijsten, BiDi, headers/voeter
 type: docs
 weight: 430
 url: /nl/java/working-with-text-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In dit artikel zullen we weten welke opties nuttig kunnen zijn voor het werken met een tekstdocument via Aspose.Words. Let op: dit is niet een volledige lijst van beschikbare opties, maar slechts een voorbeeld van werken met sommige van hen.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cách Tìm Thuộc Tính Trường
 second_title: Aspose.Words cho C++
 articleTitle: Tìm Thuộc Tính Trường
@@ -7,6 +7,7 @@ description: "Cách tìm một số thuộc tính trường như mã trường v
 type: docs
 weight: 25
 url: /vi/cpp/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Một trường được chèn bằng [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertfield/) trả về một đối tượng [Field](https://reference.aspose.com/words/cpp/aspose.words.fields/field/). Đây là một lớp mặt tiền cung cấp các phương thức hữu ích để nhanh chóng tìm thấy một số thuộc tính của một trường.

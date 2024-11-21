@@ -1,4 +1,4 @@
-﻿---
+---
 title: Programming With Documents in Jython
 second_title: Aspose.Words for Java
 articleTitle: Programming With Documents in Jython
@@ -12,6 +12,7 @@ aliases:
   - /java/working-with-documents-in-jython/
   - /java/working-with-fields-in-jython/
   - /java/working-with-tables-in-jython/
+timestamp: 2024-01-27-14-07-04
 ---
 
 This section includes the following topics:

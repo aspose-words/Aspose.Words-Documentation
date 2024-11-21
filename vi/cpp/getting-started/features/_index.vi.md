@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tính năng
 second_title: Aspose.Words cho C++
 articleTitle: Các Tính Năng Được Hỗ Trợ
@@ -7,6 +7,7 @@ description: "Aspose.Words cho C++ cung cấp cho người dùng một loạt c�
 type: docs
 weight: 40
 url: /vi/cpp/features/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words cung cấp cho người dùng một loạt các tính năng. Người dùng có thể thực hiện một lượng lớn các tác vụ liên quan đến tài liệu-từ chỉ cần chuyển đổi tài liệu từ định dạng được hỗ trợ này sang định dạng được hỗ trợ khác và sửa đổi các tài liệu đó trong quá trình chuyển đổi sang các tác vụ kinh doanh, chẳng hạn như tạo tài liệu có.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Digitale Handtekeninge in C++
 second_title: Aspose.Words vir C++
 articleTitle: Werk Met Digitale Handtekeninge
@@ -7,6 +7,7 @@ description: "Teken dokumente digitaal en ontdek, tel, verifieer en verwyder bes
 type: docs
 weight: 160
 url: /af/cpp/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 'n digitale handtekening is'n tegnologiese implementering van elektroniese handtekeninge om dokumente te onderteken en die ondertekenaar te verifieer om te verseker dat'n dokument nie verander is sedert dit onderteken is nie. Elke digitale handtekening is uniek vir elke ondertekenaar as gevolg van die volg van die PKI protokol om beide openbare en private sleutels te genereer. Om'n dokument digitaal te onderteken beteken om'n handtekening te skep met behulp van die private sleutel van die ondertekenaar waar'n wiskundige algoritme gebruik word om die gegenereerde hash te enkripteer.

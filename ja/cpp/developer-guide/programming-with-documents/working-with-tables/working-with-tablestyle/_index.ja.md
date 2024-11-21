@@ -1,4 +1,4 @@
-﻿---
+---
 title: Word文書のテーブルスタイルを変更する
 second_title: C++の場合Aspose.Words
 articleTitle: テーブルスタイルの適用
@@ -7,6 +7,7 @@ description: "高度なテーブルの書式設定C++。 C++を使用してテ�
 type: docs
 weight: 80
 url: /ja/cpp/working-with-tablestyle/
+timestamp: 2024-01-27-14-07-04
 ---
 
 テーブルスタイルは、テーブルに簡単に適用できる一連の書式設定を定義します。 罫線、陰影、配置、フォントなどの書式設定は、テーブルスタイルで設定し、一貫した外観のために多くのテーブルに適用できます。

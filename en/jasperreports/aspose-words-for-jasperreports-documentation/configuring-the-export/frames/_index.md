@@ -1,4 +1,4 @@
-﻿---
+---
 title: Frames
 second_title: Aspose.Words for JasperReports
 articleTitle: Frames
@@ -7,6 +7,7 @@ description: "Aspose Words for JasperReports allow export rectangles as frames."
 type: docs
 weight: 80
 url: /jasperreports/frames/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

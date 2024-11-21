@@ -7,6 +7,7 @@ description: "Hiểu các khái niệm phân đoạn tài liệu và thực hàn
 type: docs
 weight: 120
 url: /vi/java/working-with-sections/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Đôi khi bạn muốn một tài liệu mà không có định dạng giống nhau trên tất cả các trang. Ví dụ, bạn có thể cần thay đổi định dạng số trang, có kích thước và hướng khác nhau hoặc có trang đầu tiên của tài liệu là trang bìa không có đánh số. Bạn có thể đạt được điều đó với các phần.

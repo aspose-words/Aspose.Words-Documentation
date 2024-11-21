@@ -1,4 +1,4 @@
-﻿---
+---
 title: แปลงเอกสารเป็นHTML,MHTMLหรือEPUB
 second_title: Aspose.WordsสำหรับC++
 articleTitle: แปลงเอกสารเป็นHTML,MHTMLหรือEPUB
@@ -7,6 +7,7 @@ description: "แปลงเอกสารจากเกือบทุกร
 type: docs
 weight: 20
 url: /th/cpp/convert-a-document-to-html-mhtml-or-epub/
+timestamp: 2024-10-21-08-52-03
 ---
 
 เอกสารในHTMLและMHTMLรูปแบบเค้าโครงไหลยังเป็นที่นิยมมากและสามารถนำมาใช้บนแพลตฟอร์ ด้วยเหตุนี้การแปลงเอกสารเป็นHTMLและMHTMLเป็นคุณลักษณะที่สำคัญของAspose.Words.

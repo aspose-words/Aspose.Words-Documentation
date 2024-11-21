@@ -7,6 +7,7 @@ description: "外部ソースからドキュメントを C# にロードする�
 type: docs
 weight: 40
 url: /ja/net/working-with-documents-from-external-sources/
+timestamp: 2024-01-27-14-07-04
 ---
 
 このセクションでは、SharePoint ドキュメント ストレージやデータベースなどの外部ソースからドキュメントをロードする方法について説明します。このようなドキュメントを受信した後、Aspose.Words の強力な機能を使用して必要な変更をすべて加えるだけでなく、このドキュメントをデータ ソースに再度ロードすることもできます。

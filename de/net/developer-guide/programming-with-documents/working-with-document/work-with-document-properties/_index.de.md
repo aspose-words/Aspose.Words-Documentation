@@ -7,6 +7,7 @@ description: "Aspose.Words für .NET ermöglicht das Speichern einiger nützlich
 type: docs
 weight: 10
 url: /de/net/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Dokumenteigenschaften ermöglichen das Speichern einiger nützlicher Informationen zu Ihrem Dokument. Diese Eigenschaften können in zwei Gruppen unterteilt werden:

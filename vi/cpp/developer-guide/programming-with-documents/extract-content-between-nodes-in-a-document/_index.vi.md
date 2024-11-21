@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cách Trích Xuất Nội Dung Giữa Các Nút Tài Liệu
 second_title: Aspose.Words cho C++
 articleTitle: Trích Xuất Nội Dung Giữa Các Nút trong Tài liệu
@@ -7,6 +7,7 @@ type: docs
 description: "Trích xuất nội dung tài liệu khác nhau bằng cách sử dụng C++."
 weight: 140
 url: /vi/cpp/how-to-extract-selected-content-between-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Khi làm việc với tài liệu, điều quan trọng là có thể dễ dàng trích xuất nội dung từ một phạm vi cụ thể trong tài liệu. Tuy nhiên, nội dung có thể bao gồm các yếu tố phức tạp như đoạn văn, bảng, hình ảnh, v. v.

@@ -7,6 +7,7 @@ description: "Use built-in extension methods to perform common manipulations on 
 type: docs
 weight: 50
 url: /net/appendix-a-enumeration-extension-methods/
+timestamp: 2024-10-21-11-17-44
 ---
 
 LINQ Reporting Engine enables you to perform common manipulations on a sequential data through the engine's built-in extension methods for `IEnumerable`. These extension methods mimic some extension methods of [IEnumerable&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1?view=net-6.0) providing the same signatures and behavior features. Thus you can group, sort and perform other sequential data manipulations in template expressions in a familiar way.

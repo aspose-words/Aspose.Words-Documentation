@@ -1,4 +1,4 @@
-﻿---
+---
 title: Định dạng tệp và Chuyển đổi
 second_title: Aspose.Words cho C++
 articleTitle: Tại sao Chuyển Đổi Là Tính năng Hàng đầu của Aspose.Words?
@@ -7,6 +7,7 @@ description: "Chuyển đổi tài liệu từ bất kỳ tải được hỗ tr
 type: docs
 weight: 50
 url: /vi/cpp/file-formats-and-conversions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 {{% alert color="primary" %}}

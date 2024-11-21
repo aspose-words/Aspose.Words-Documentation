@@ -7,6 +7,7 @@ description: "Aspose.Words for .NET Standard 2.0 API differences comparing to re
 type: docs
 weight: 130
 url: /net/xamarin-and-net-standard-2-0-limitations-and-api-differences/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Xamarin DLLs are always built using the latest stable versions of Xamarin.Android, Xamarin.iOS and `Xamarin.Mac` respectively. If you face problems with using Aspose.Words in your Xamarin application, please make sure you have the latest Xamarin versions installed. Sometimes Aspose.Words' Xamarin DLLs built with the latest Xamarin version do not work with older versions of Xamarin.

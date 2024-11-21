@@ -7,6 +7,7 @@ description: "Aspose.Words for JasperReports evaluation and full versions are th
 type: docs
 weight: 50
 url: /jasperreports/simple-and-affordable-licensing/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

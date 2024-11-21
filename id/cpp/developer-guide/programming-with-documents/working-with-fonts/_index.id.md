@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bekerja dengan Font di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Bekerja dengan Font
@@ -7,6 +7,7 @@ description: "Pemformatan font secara detail menggunakan C++."
 type: docs
 weight: 230
 url: /id/cpp/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Font adalah sekumpulan karakter dengan ukuran, warna, dan desain tertentu. Aspose.Words memungkinkan Anda bekerja dengan font menggunakan namespace [Fonts](https://reference.aspose.com/words/cpp/aspose.words.fonts/) dan kelas [Font](https://reference.aspose.com/words/cpp/aspose.words/font/).

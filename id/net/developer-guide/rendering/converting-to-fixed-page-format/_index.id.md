@@ -7,6 +7,7 @@ description: "Simpan dokumen ke format PDF, XPS, HTML, XAML, PostScript, dan PCL
 type: docs
 weight: 10
 url: /id/net/converting-to-fixed-page-format/
+timestamp: 2024-07-10-08-10-45
 ---
 
 Aspose.Words mengimplementasikan mesin tata letak halamannya sendiri. Sebelum mendalami spesifikasinya, ada baiknya mendiskusikan dokumen pada tingkat tinggi terlebih dahulu. Saat memikirkan sebuah dokumen, pengguna biasanya membayangkan sejumlah lembar kertas yang berisi kata, gambar, tabel, dan bagan. Dokumen dapat terdiri dari berbagai jenis, seperti teks, spreadsheet, slide, gambar CAD, diagram alur, dan oleh karena itu, pada dasarnya dapat memiliki tata letak yang berbeda. Sebagian besar aplikasi mengizinkan pengiriman dokumen ke printer; ini adalah saat pengguna benar-benar dapat melihat tampilan akhir dokumen yang diinginkan.

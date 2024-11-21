@@ -7,6 +7,7 @@ description: "Documenten opslaan naar PDF, XPS, HTML, XAML, PostScript en PCL-fo
 type: docs
 weight: 10
 url: /nl/python-net/converting-to-fixed-page-format/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words implementeert zijn eigen pagina layout engine. Alvorens in zijn specificaties te komen, is het de moeite waard om eerst het document op hoog niveau te bespreken. Bij het denken over een document, gebruikers meestal voorstellen een aantal papieren bladen met woorden, afbeeldingen, tabellen en grafieken. Documenten kunnen van verschillende soorten zijn, zoals tekst, spreadsheets, dia's, CAD tekeningen, stroomschema's, en kunnen daarom in wezen verschillende indelingen hebben. De meeste toepassingen laten toe om documenten naar een printer te sturen; dit is wanneer een gebruiker het document daadwerkelijk kan bekijken.

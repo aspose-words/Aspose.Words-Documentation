@@ -1,4 +1,4 @@
-﻿---
+---
 title: Licence et Abonnement
 second_title: Aspose.Words pour C++
 articleTitle: Licence et Abonnement
@@ -7,6 +7,7 @@ description: "Aspose.Words pour С ++ propose différents plans d'achat ou offre
 type: docs
 weight: 60
 url: /fr/cpp/licensing/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Parfois, pour mieux étudier le système, vous souhaitez vous plonger dans le code le plus rapidement possible. Pour faciliter cela, Aspose.Words propose différents plans d'achat ou offre un essai gratuit et une Licence temporaire de 30 jours pour évaluation.

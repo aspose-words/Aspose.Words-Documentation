@@ -1,4 +1,4 @@
-﻿---
+---
 title: ง่าย Mail Merge การดำเนินงานใน C++
 second_title: Aspose.Words สำหรับ C++
 articleTitle: ง่าย Mail Merge การดำเนินงาน
@@ -8,6 +8,7 @@ description: "ง่าย mail merge จะใช้ในการกรอก
 keywords: "how to execute mail merge c++"
 weight: 10
 url: /th/cpp/simple-mail-merge-operation/
+timestamp: 2024-09-24-14-35-44
 ---
 
 ง่าย mail merge จะใช้ในการกรอกข้อมูล mail merge ฟิลด์ภายในเทมเพลตของคุณพร้อมข้อมูลที่จำเป็นจากแหล่งข้อมูลของคุณ(การแสดงตารางเ ดังนั้นจึงมีความคล้ายคลึงกับคลาสสิก mail merge ใน Microsoft Word.

@@ -7,6 +7,7 @@ type: docs
 description: "Zoek een tekenreeks of reguliere expressiepatroon in uw document en vervang het door de tekst die u wilt gebruiken Java."
 weight: 100
 url: /nl/java/find-and-replace/
+timestamp: 2024-01-27-14-07-04
 ---
 
 U kunt gemakkelijk navigeren in uw document met behulp van een toetsenbord en muis, maar als u veel pagina's om door te schuiven, zal het vrij lang duren om specifieke tekst te vinden in een lang document. Het zal tijdrovender zijn wanneer u bepaalde tekens of woorden wilt vervangen die u in uw document hebt gebruikt. Met de functionaliteit van de zoek- en vervangfunctie kunt u een reeks tekens in een document vinden en vervangen door een andere reeks tekens.

@@ -7,6 +7,7 @@ description: "Aspose.Words for .NET は、C# を使用して、インチから�
 type: docs
 weight: 20
 url: /ja/net/convert-between-measurement-units/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words API で提供される、幅や高さ、マージン、さまざまな距離などの測定値を表すオブジェクト プロパティのほとんどは、ポイント単位の値を受け入れます。1 インチは 72 ポイントに相当します。場合によってはこれが不便で、ポイントを他の単位に変換する必要があります。

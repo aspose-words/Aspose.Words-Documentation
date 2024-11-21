@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bekerja dengan Tanda Hubung di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Bekerja dengan Tanda Hubung
@@ -7,6 +7,7 @@ description: "Gunakan tanda hubung untuk susunan teks yang lebih ringkas menggun
 type: docs
 weight: 220
 url: /id/cpp/working-with-hyphenation/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Terkadang perlu menggunakan tanda hubung untuk pengaturan teks yang lebih ringkas dalam sebuah dokumen. Pada saat yang sama, penting untuk dipahami bahwa spesifikasi tanda hubung kata mungkin berbeda untuk setiap bahasa.

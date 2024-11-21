@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cara Menjalankan Contoh
 second_title: Aspose.Words untuk C++
 articleTitle: Cara Menjalankan Contoh
@@ -7,6 +7,7 @@ description: "Unduh Aspose.Words untuk C++ contoh dari repositori GitHub kami da
 type: docs
 weight: 110
 url: /id/cpp/how-to-run-the-examples/
+timestamp: 2024-07-11-16-13-28
 ---
 
 Untuk lebih mengenal kemungkinan dan fitur Aspose.Words, kami memberikan contoh yang dapat diunduh dari repositori GitHub kami, dijalankan, dan dipelajari secara mendetail.

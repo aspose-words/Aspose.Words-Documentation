@@ -7,6 +7,7 @@ description: "Verstehen von Lesezeichenkonzepten und wie Lesezeichen in Ihrem Pr
 type: docs
 weight: 180
 url: /de/net/working-with-bookmarks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Lesezeichen kennzeichnen in einem Microsoft Word-Dokument die Orte oder Fragmente, die Sie benennen und zum späteren Nachschlagen identifizieren. Sie können beispielsweise ein Lesezeichen verwenden, um Text zu kennzeichnen, den Sie später überarbeiten möchten. Anstatt durch das Dokument zu scrollen, um den Text zu finden, können Sie ihn über das Dialogfeld "Lesezeichen" aufrufen.

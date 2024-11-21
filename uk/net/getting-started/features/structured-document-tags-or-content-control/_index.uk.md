@@ -7,6 +7,7 @@ description: "Робота з структурованими документа�
 type: docs
 weight: 50
 url: /uk/net/structured-document-tags-or-content-control/
+timestamp: 2024-01-31-14-23-37
 ---
 
 

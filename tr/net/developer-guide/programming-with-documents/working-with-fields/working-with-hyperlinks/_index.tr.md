@@ -7,6 +7,7 @@ description: ".NET için Aspose.Words kullanarak C#'teki belgenize nasıl köpr�
 type: docs
 weight: 50
 url: /tr/net/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word belgelerindeki köprü, `HYPERLINK` alanıdır. Aspose.Words'de köprüler [FieldHyperlink](https://reference.aspose.com/words/tr/net/aspose.words.fields/fieldhyperlink/) sınıfı aracılığıyla uygulanır.

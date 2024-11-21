@@ -7,6 +7,7 @@ description: "Pengenalan fitur pemformatan penomoran di Aspose.Words untuk .NET.
 type: docs
 weight: 200
 url: /id/net/working-with-lists/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Daftar dalam dokumen Microsoft Word adalah sekumpulan properti pemformatan paragraf. Daftar dapat digunakan dalam dokumen untuk menyusun, mengatur, dan menyorot teks. Daftar adalah cara terbaik untuk mengatur data dalam dokumen sedemikian rupa sehingga memudahkan pembaca menyerap dan memahami poin-poin penting.

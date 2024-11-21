@@ -7,6 +7,7 @@ description: "Bir belgeye dipnotlar veya son notlar ekleyin ve Python'i kullanar
 type: docs
 weight: 160
 url: /tr/python-net/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words ayrıca dipnotlar ve sonnotlarla çalışmak için bazı sınıflar, yöntemler ve özellikler sağlar.

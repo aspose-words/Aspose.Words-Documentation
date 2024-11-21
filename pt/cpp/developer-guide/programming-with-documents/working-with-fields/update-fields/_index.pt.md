@@ -1,4 +1,4 @@
-﻿---
+---
 title: Atualizar campos Em C++
 second_title: Aspose.Words para C++
 articleTitle: Atualizar Campos
@@ -7,6 +7,7 @@ description: "Saiba como atualizar campos Em C++. Atualize campos programaticame
 type: docs
 weight: 30
 url: /pt/cpp/update-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Normalmente, um campo inserido em Microsoft Word já contém um valor atualizado. Por exemplo, se o campo for uma fórmula ou um número de página, conterá o valor calculado correcto para a versão dada do documento. Mas se você tiver um aplicativo que gera ou modifica um documento com campos como mesclar dois documentos ou preenchê-lo com dados, então, idealmente, todos os campos devem ser atualizados para que o documento seja útil.

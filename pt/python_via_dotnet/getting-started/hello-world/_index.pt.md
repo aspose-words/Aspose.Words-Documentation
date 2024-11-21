@@ -7,6 +7,7 @@ description: "Crie, edite e salve seu primeiro documento em qualquer formato com
 type: docs
 weight: 20
 url: /pt/python-net/hello-world/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Um "Olá, mundo!" O código geralmente é o primeiro exemplo simples para escrever "Aspose.Words para Python via .NET" e também pode ser usado como um teste de integridade para garantir que o software destinado a compilar ou executar o código-fonte esteja instalado corretamente.

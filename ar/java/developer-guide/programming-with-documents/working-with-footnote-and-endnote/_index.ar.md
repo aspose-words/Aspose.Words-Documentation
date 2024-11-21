@@ -7,6 +7,7 @@ description: "كيفية التلاعب بالحواشي والمذكرات ال
 type: docs
 weight: 160
 url: /ar/java/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words كما توفر بعض الصفوف والأساليب والخصائص من أجل العمل في حواشي وحاشي نهاية.

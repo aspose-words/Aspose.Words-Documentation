@@ -7,6 +7,7 @@ description: "Xử lý văn bản nâng cao, danh sách, BiDi, tiêu đề / ch�
 type: docs
 weight: 430
 url: /vi/java/working-with-text-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Trong bài viết này chúng ta sẽ học về các tùy chọn có thể hữu ích khi làm việc với một tài liệu văn bản qua Aspose.Words. Xin lưu ý rằng đây không phải là danh sách đầy đủ các tùy chọn có sẵn nhưng chỉ là ví dụ về cách làm việc với một số trong đó.

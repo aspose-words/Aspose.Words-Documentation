@@ -7,6 +7,7 @@ description: "Aprender acerca de Aspose.Words para Java características al carg
 type: docs
 weight: 20
 url: /es/java/loading-saving-and-converting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Esta sección proporciona información sobre las características al cargar y guardar un documento, así como datos sobre las posibilidades al convertir un documento de un formato a otro.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: สร้างหรือโหลดเอกสารในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: การสร้างหรือโหลดเอกสาร
@@ -8,6 +8,7 @@ description: "สร้างเอกสารเปล่าหรือโห
 keywords: "create a document c++, load a document c++, create a blank document c++, load a document from file c++, load a document from stream c++, create a document Aspose C++, load a document Aspose C++, load formats supported by Aspose.Words C++"
 weight: 10
 url: /th/cpp/create-or-load-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 เกือบทุกงานที่คุณต้องการดำเนินการด้วยAspose.Wordsเกี่ยวข้องกับการโหลดเอกสาร คลาส`Document`แทนเอกสารที่โหลดลงในหน่วยความจำ เอกสารมีหลายตัวสร้างมากเกินไปช่วยให้คุณสามารถสร้างเอกสารที่ว่างเปล่าหรือการโ เอกสารสามารถโหลดในรูปแบบโหลดใดๆที่สนับสนุนโดยAspose.Words สำหรับรายการของรูปแบบการโหลดที่รองรับทั้งหมดโปรดดูที่การแจงนับ[LoadFormat](https://reference.aspose.com/words/cpp/aspose.words/loadformat/).

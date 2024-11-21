@@ -7,6 +7,7 @@ description: "Conversia documentelor Word partajate în SharePoint la PDF folosi
 type: docs
 weight: 20
 url: /ro/net/work-with-document-stored-in-sharepoint/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Microsoft SharePoint Online este o colecție de tehnologii bazate pe web care fac mai ușoară pentru organizații stocarea, partajarea și gestionarea informațiilor digitale. Puteți lucra cu documentele stocate în folderul "Documente Partajate" utilizând SharePoint nostri puternici Aspose.Words pentru .NET.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Insert Header
 second_title: Aspose.Words for Java
 articleTitle: Insert Header
@@ -7,6 +7,7 @@ description: "Insert a header into a document easily and fast instead of using d
 type: docs
 weight: 20
 url: /java/insert-header/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Insert Header

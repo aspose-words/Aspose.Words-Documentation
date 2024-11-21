@@ -7,6 +7,7 @@ type: docs
 description: "Hình dạng hình ảnh trong chi tiết và tính năng nâng cao được cung cấp bởi Aspose.Words cho Java."
 weight: 300
 url: /vi/java/working-with-images/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words" cho phép người dùng làm việc với hình ảnh theo một cách rất linh hoạt. Trong bài viết này, bạn chỉ có thể khám phá một số khả năng làm việc với hình ảnh.

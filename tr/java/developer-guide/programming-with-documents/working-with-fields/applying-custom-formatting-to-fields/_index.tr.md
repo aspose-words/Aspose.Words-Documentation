@@ -7,6 +7,7 @@ description: "Alanları formatlayıp değerlendirin Java kullanarak."
 type: docs
 weight: 40
 url: /tr/java/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bazen kullanıcılar alanları özel biçimlendirmeye uygulamak isterler. Bu makalede, bunun nasıl yapılabileceğine dair birkaç örnek inceleyeceğiz.

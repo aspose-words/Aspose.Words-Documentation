@@ -7,6 +7,7 @@ description: "مقدمه ای بر ویژگی Range در Aspose.Words برای .
 type: docs
 weight: 130
 url: /fa/net/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

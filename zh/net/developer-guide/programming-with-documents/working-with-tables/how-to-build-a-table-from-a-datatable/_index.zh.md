@@ -7,6 +7,7 @@ description: "使用 C# 从外部数据库填充文档表的示例。"
 type: docs
 weight: 120
 url: /zh/net/how-to-build-a-table-from-a-datatable/
+timestamp: 2024-09-25-11-08-55
 ---
 
 通常，您的应用程序将从数据库中提取数据并将其以 **DataTable** 的形式存储。您可以轻松地将此数据作为新表格插入到文档中，并快速将格式应用于整个表格。

@@ -7,6 +7,7 @@ description: "Aspose.Words pour .NET permet de stocker certaines informations ut
 type: docs
 weight: 10
 url: /fr/net/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Les propriétés du document permettent de stocker des informations utiles sur votre document. Ces propriétés peuvent être divisées en deux groupes:

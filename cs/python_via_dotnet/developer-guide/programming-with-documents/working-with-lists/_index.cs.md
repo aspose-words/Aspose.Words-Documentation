@@ -7,6 +7,7 @@ description: "Vytvořit, zadat formátování a restartovat seznamy v dokumentu 
 type: docs
 weight: 200
 url: /cs/python-net/working-with-lists/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Seznam Microsoft Word dokument je soubor vlastností formátu seznamu. Seznamy lze použít ve vašich dokumentech k formátování, uspořádání a zdůraznění textu. Seznamy jsou skvělým způsobem, jak zorganizovat data v dokumentech a pro čtenáře je snazší porozumět klíčovým bodům

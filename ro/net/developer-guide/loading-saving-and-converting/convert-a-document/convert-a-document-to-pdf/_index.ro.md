@@ -7,6 +7,7 @@ description: "Converti un document în format PDF folosind C#. Convertește DOCX
 type: docs
 weight: 10
 url: /ro/net/convert-a-document-to-pdf/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Posibilitatea de a converti cu ușurință și fiabil documente dintr-un format în altul reprezintă o caracteristică cheie a lui Aspose.Words. Unul dintre cele mai populare formate pentru conversie este PDF – un format cu aranjare fixă care păstrează aspectul inițial al unui document în timpul redării pe diferite platforme. Termenul "redare" este folosit în Aspose.Words pentru a descrie procesul de convertire a unui document într-un format de fișier care este paginat sau are conceptul de pagini.

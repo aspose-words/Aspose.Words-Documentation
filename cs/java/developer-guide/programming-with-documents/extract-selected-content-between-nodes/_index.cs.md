@@ -7,6 +7,7 @@ type: docs
 description: "Extrahování obsahu dokumentu v jiném použití Java."
 weight: 140
 url: /cs/java/extract-selected-content-between-nodes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Při práci s dokumenty je důležité, aby bylo možné snadno extrahovat obsah z určitého rozsahu v dokumentu. Obsah se však může skládat ze složitých prvků, jako jsou odstavce, tabulky, obrázky atd.

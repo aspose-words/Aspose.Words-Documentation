@@ -1,4 +1,4 @@
-﻿---
+---
 title: Kiểu chữ châu á trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Làm Việc Với Kiểu Chữ Châu Á
@@ -7,6 +7,7 @@ description: "Làm việc Với Kiểu Chữ Châu á bằng cách sử dụng C
 type: docs
 weight: 240
 url: /vi/cpp/working-with-asian-typography/
+timestamp: 2024-02-01-16-17-05
 ---
 
 Kiểu Chữ châu á là một tập hợp các tùy chọn cho các đoạn văn bản trong các tài liệu được viết bằng ngôn ngữ Châu á.

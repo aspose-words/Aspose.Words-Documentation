@@ -1,4 +1,4 @@
-﻿---
+---
 title: การทำงานกับเชิงอรรถและหมายเหตุในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: การทำงานกับเชิงอรรถและหมายเหตุ
@@ -7,6 +7,7 @@ description: "วิธีการจัดการเชิงอรรถแ
 type: docs
 weight: 160
 url: /th/cpp/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Wordsนอกจากนี้ยังมีบางชั้นเรียน,วิธีการและคุณสมบัติสำหรับการทำงานกับเชิงอรรถและหมายเ.

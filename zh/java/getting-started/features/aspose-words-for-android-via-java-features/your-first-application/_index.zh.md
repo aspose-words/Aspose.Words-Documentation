@@ -7,6 +7,7 @@ description: "安装 Aspose.Words (单位:千美元) Android 通过 Java。 。 
 type: docs
 weight: 30
 url: /zh/java/your-first-application/
+timestamp: 2024-01-27-14-07-04
 ---
 
 这篇文章给你一个开始的想法 Aspose.Words (单位:千美元) Android 通过 Java。 。 。 。 它将展示如何建立一个新的 Android 从零开始的工程,添加引用 Aspose.Words JAR 并创建以 DOCX 格式保存到磁盘的新文档。 此示例使用 [Android 工作室](https://developer.android.com/studio/index.html) 应用程序运行于 Android 模拟器. 开始 Aspose.Words (单位:千美元) Android 通过 Java,请遵循此分步教程,以创建一个应用 Aspose.Words (单位:千美元) Android 通过 Java编号:

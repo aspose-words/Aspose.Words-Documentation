@@ -7,6 +7,7 @@ type: docs
 description: "Een document omzetten naar afbeeldingsformaat (JPG, PNG, etc). Een documentvoorbeeld aanmaken of een documentscan maken om een factuur te versturen met behulp van C#."
 weight: 43
 url: /nl/net/convert-a-document-to-an-image/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Soms is het nodig om een afbeelding in plaats van documenten in andere formaten, zoals DOCX of PDF. U moet bijvoorbeeld een voorbeeld van een documentpagina toevoegen aan uw website of toepassing, of een "scan" van een document maken om een factuur te versturen. Dit is wanneer u nodig hebt om een document te converteren in een [ondersteund laadformaat](https://reference.aspose.com/words/net/aspose.words/loadformat/) naar een afbeelding, opnieuw, in elke [ondersteund opslagformaat](https://reference.aspose.com/words/net/aspose.words/saveformat/).

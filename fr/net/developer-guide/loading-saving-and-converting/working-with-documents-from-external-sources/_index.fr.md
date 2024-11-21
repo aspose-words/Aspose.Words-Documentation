@@ -7,6 +7,7 @@ description: "Comment charger des documents provenant de sources externes dans C
 type: docs
 weight: 40
 url: /fr/net/working-with-documents-from-external-sources/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Cette section fournit des informations sur la façon de charger des documents à partir de sources externes telles que le stockage de documents SharePoint ou des bases de données. Après avoir reçu un tel document, vous pouvez non seulement y apporter toutes les modifications nécessaires, disponibles à l'aide de la puissante fonctionnalité de Aspose.Words, mais également charger à nouveau ce document dans la source de données.

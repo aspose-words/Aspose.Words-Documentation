@@ -1,4 +1,4 @@
-﻿---
+---
 title: Găsiți proprietățile câmpului în Python
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Găsiți Proprietățile Câmpului
@@ -7,6 +7,7 @@ description: "Cum să găsiți unele proprietăți de câmp, cum ar fi codul de 
 type: docs
 weight: 25
 url: /ro/python-net/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un câmp care este inserat folosind [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/).[insert_field](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_field/) returnează un obiect [Field](https://reference.aspose.com/words/python-net/aspose.words.fields/field/). Aceasta este o clasă de fațadă care oferă metode utile pentru a găsi rapid unele proprietăți ale unui câmp.

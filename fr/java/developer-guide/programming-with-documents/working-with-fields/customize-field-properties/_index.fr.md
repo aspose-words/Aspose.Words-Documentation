@@ -7,6 +7,7 @@ description: "Découvrez comment personnaliser les propriétés du champ dans Ja
 type: docs
 weight: 27
 url: /fr/java/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words offre la possibilité d'interagir programmatiquement avec diverses propriétés de terrain. Dans cet article, nous allons examiner quelques exemples afin que vous compreniez le principe de base de travailler avec les propriétés du champ. Vous pouvez voir la liste complète des propriétés pour chaque type de champ dans la classe correspondante.

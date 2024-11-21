@@ -7,6 +7,7 @@ description: "如何与表合作 Java。 。 。 。 引入表格节点概念 As
 type: docs
 weight: 190
 url: /zh/java/working-with-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 页:1 **页:1** 在文档中,是构建类似数据的极佳方法。 因此,表格是一个共同的内容格式要素,并以某种形式得到大多数格式的支持。

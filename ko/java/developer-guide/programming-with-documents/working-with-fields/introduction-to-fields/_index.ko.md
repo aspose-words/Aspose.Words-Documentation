@@ -7,6 +7,7 @@ description: "Fields 기능에 대한 세부 사항, 필드 코드 및 필드 �
 type: docs
 weight: 10
 url: /ko/java/introduction-to-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words 서버 측 처리를 위해 디자인된 종류 도서관입니다 Microsoft Word 문서 및 지원 필드 다음 방법:

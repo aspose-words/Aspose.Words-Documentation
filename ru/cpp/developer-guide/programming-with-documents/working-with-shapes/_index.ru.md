@@ -1,4 +1,4 @@
-﻿---
+---
 title: Работа с фигурами в C++
 second_title: Aspose.Words для C++
 articleTitle: Работа с формами
@@ -7,6 +7,7 @@ type: docs
 description: "Знакомство с языком разметки фигур, создание фигур различных типов с использованием C++."
 weight: 280
 url: /ru/cpp/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 В этом разделе обсуждается, как программно работать с фигурами, используя Aspose.Words.

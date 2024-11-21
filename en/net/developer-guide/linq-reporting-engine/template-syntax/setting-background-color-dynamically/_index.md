@@ -8,6 +8,7 @@ type: docs
 weight: 90
 url: /net/setting-background-color-dynamically/
 aliases: [/net/template-syntax/#setting-background-color-dynamically]
+timestamp: 2024-01-27-14-07-04
 ---
 
 You can set text background color for document contents dynamically using `backColor` tags. Syntax of a `backColor` tag is defined as follows.

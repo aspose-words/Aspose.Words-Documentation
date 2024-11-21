@@ -7,6 +7,7 @@ description: "Aspose.Words per Java consente di memorizzare alcune informazioni 
 type: docs
 weight: 10
 url: /it/java/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Le proprietà dei documenti permettono di memorizzare alcune informazioni utili sul documento. Queste proprietà possono essere divise in due gruppi:

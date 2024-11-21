@@ -7,6 +7,7 @@ description: "ส่วน นี้ ให้ การ เปรียบ เ�
 type: docs
 weight: 90
 url: /th/java/aspose-words-for-android-via-java-features/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Aspose.Words สําหรับ Android ผ่าน Java ภาพ ประกอบ

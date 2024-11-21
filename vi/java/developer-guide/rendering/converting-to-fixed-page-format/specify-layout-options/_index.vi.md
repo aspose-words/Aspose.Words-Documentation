@@ -7,6 +7,7 @@ description: "Tạo ra các tài liệu đầu ra với nhiều bố cục, tùy
 type: docs
 weight: 10
 url: /vi/java/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words cho phép bạn tạo ra các tài liệu đầu ra với các bố cục khác nhau, tùy thuộc vào các tham số được chỉ định trong thuộc tính [LayoutOptions](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/) của **Document**. Tính năng này giống với một số lựa chọn trong Microsoft Word tùy chọn giao diện người dùng được mô tả trong bài viết này.

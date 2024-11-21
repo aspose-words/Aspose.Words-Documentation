@@ -1,4 +1,4 @@
-﻿---
+---
 title: Convert Document to HTML
 second_title: Aspose.Words for Java
 articleTitle: Convert Document to HTML
@@ -7,6 +7,7 @@ description: "Convert a document in any supported format to HTML easily and fast
 type: docs
 weight: 30
 url: /java/convert-document-to-html/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Convert Document to HTML

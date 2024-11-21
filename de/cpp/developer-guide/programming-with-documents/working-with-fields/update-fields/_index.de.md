@@ -1,4 +1,4 @@
-﻿---
+---
 title: Felder in C++ aktualisieren
 second_title: Aspose.Words für C++
 articleTitle: Felder aktualisieren
@@ -7,6 +7,7 @@ description: "Erfahren Sie, wie Sie Felder in C++ aktualisieren. Aktualisieren S
 type: docs
 weight: 30
 url: /de/cpp/update-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Normalerweise enthält ein in Microsoft Word eingefügtes Feld bereits einen aktuellen Wert. Wenn das Feld beispielsweise eine Formel oder eine Seitenzahl ist, enthält es den korrekten berechneten Wert für die angegebene Version des Dokuments. Wenn Sie jedoch eine Anwendung haben, die ein Dokument mit Feldern generiert oder ändert, z. B. das Zusammenführen von zwei Dokumenten oder das Auffüllen mit Daten, müssen im Idealfall alle Felder aktualisiert werden, damit das Dokument nützlich ist.

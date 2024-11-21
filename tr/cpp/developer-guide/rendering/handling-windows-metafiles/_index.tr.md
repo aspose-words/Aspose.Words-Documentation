@@ -1,4 +1,4 @@
-﻿---
+---
 title: Windows Meta Dosyalarını C++ içinde işleme
 second_title: Aspose.Words için C++
 articleTitle: Windows Meta Dosyalarının işlenmesi
@@ -7,6 +7,7 @@ description: "Aspose.Words için C++ meta dosyası biçimini tüm platformlarda 
 type: docs
 weight: 30
 url: /tr/cpp/handling-windows-metafiles/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Windows Meta dosyası biçimi, hem vektör hem de raster grafikler içerebilen bir görüntü dosyası biçimidir. Bu biçim, grafik verilerini bellekte veya diskteki dosyalarda depolamak için kullanılır. Meta dosyası, görüntüyü ekranda görüntülemek için yürütülmesi gereken Windows Grafik Aygıt Arabiriminde (GDI) işlev çağrılarının bir listesini depolar. Sistem bu komutları görüntüleme bağlamında yorumlar ve yürütür.

@@ -7,6 +7,7 @@ description: "Specify Layout Options for various document layouts using C#."
 type: docs
 weight: 10
 url: /net/specify-layout-options/
+timestamp: 2024-07-10-08-10-45
 ---
 
 Aspose.Words enables you to create output documents with various layouts, depending on the parameters specified in properties of the [LayoutOptions](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/) class. Some of these properties resemble some of the Microsoft Word user interface menu options – they will be described in this article.

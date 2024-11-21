@@ -7,6 +7,7 @@ description: "Python を使用して、OLE オブジェクトまたはオンラ�
 type: docs
 weight: 360
 url: /ja/python-net/working-with-ole-objects/
+timestamp: 2024-01-27-14-07-04
 ---
 
 OLE (Object Linking and Embedding) は、ユーザーがサードパーティのアプリケーションによって作成または編集された「オブジェクト」を含むドキュメントを操作できるテクノロジです。つまり、OLE を使用すると、編集アプリケーションがこれらの「オブジェクト」を別の編集アプリケーションにエクスポートし、追加のコンテンツとともにインポートすることができます。

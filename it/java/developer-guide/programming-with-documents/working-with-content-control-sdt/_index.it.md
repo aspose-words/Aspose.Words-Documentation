@@ -7,6 +7,7 @@ type: docs
 description: "Gestione avanzata dei contenuti dei documenti, come creare e manipolare i controlli dei contenuti (Structured Document Tags) utilizzando Java."
 weight: 390
 url: /it/java/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
 In Microsoft Word, è possibile creare un modulo iniziando con un modello e aggiungendo controlli dei contenuti, tra cui caselle di controllo, caselle di testo, raccoglitori di date e elenchi a discesa. In <span notrans="<span notrans=" Aspose.Words"=""></span>> Tag o controllo dei contenuti da qualsiasi documento caricato in Aspose.Words è importato come nodo StrutturatoDocumentTag. I tag di documenti strutturati (SDT o controllo dei contenuti) permettono di incorporare la semantica definita dal cliente e il suo comportamento e l'aspetto in un documento.

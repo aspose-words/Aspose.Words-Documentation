@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++でのフォームフィールドの操作
 second_title: C++の場合Aspose.Words
 articleTitle: フォームフィールドの操作
@@ -7,6 +7,7 @@ description: "フォームフィールドの機能を理解し、C++を使用し
 type: docs
 weight: 380
 url: /ja/cpp/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 入力空白(フィールド)を含むドキュメントは、フォームと呼ばれます。 たとえば、ユーザーがエントリを選択できるドロップダウンリストを使用する登録フォームをMicrosoft Wordに作成できます。 フォームフィールドは、名前や住所などの特定の種類のデータが格納される場所です。 Microsoft Wordのフォームフィールドには、テキスト入力、Combobox、checkboxが含まれます。

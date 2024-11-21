@@ -7,6 +7,7 @@ description: "透過 C# 在不同的節點之間导航，例如段落、書籤�
 type: docs
 weight: 10
 url: /zh-hant/net/navigation-with-cursor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 當你在處理一篇文件時，即使那是一篇簡短或長篇的文件，你仍要透過你的文件來導航。 透過虛擬光標進行導航代表了能夠在文件的不同節點之間進行導航的能力。

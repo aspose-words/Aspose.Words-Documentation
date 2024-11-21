@@ -7,6 +7,7 @@ description: "Fitur lapangan dalam rincian, kode lapangan dan hasil lapangan dij
 type: docs
 weight: 10
 url: /id/java/introduction-to-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words adalah perpustakaan kelas yang dirancang untuk pemrosesan sisi server Microsoft Word dokumen dan mendukung bidang dengan cara berikut:

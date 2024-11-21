@@ -1,4 +1,4 @@
-﻿---
+---
 title: 페이지 레이아웃은 무엇입니까 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 페이지 레이아웃은 무엇입니까
@@ -7,6 +7,7 @@ description: "페이지 레이아웃이 무엇인지 알아 보겠습니다. 페
 type: docs
 weight: 5
 url: /ko/cpp/what-is-a-page-layout/
+timestamp: 2024-09-24-14-35-44
 ---
 
 A **document page layout** 모든 문서 개체의 페이지에서 특정 개체가 어디에 있는지 설명하는 데이터 구조입니다. 또한 개체에는 글꼴 크기,음영 또는 그리기 효과와 같이 모양에 영향을 주는 속성이 있으므로 개체가 어디에 있는지 뿐만 아니라 해당 개체가 차지하는 페이지 영역과 다른 개체가 동일한 영역과 겹치지 않도록 여러 페이지에 적용할지 여부를 알아야 합니다.

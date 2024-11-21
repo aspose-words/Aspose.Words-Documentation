@@ -7,6 +7,7 @@ description: "パラグラフノード操作の練習 Javaお問い合わせ"
 type: docs
 weight: 210
 url: /ja/java/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 段落は、論理ブロックに結合し、特別な文字で終わる文字のセットです。*paragraph break*。 インスタグラム Aspose.Words, 段落は、 [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) クラス。

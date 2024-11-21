@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aplicați formatarea personalizată câmpurilor din C++
 second_title: Aspose.Words pentru C++
 articleTitle: Aplicați formatarea personalizată câmpurilor
@@ -7,6 +7,7 @@ description: "Formatați și evaluați rezultatele câmpurilor folosind C++."
 type: docs
 weight: 40
 url: /ro/cpp/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uneori, utilizatorii trebuie să aplice formatarea personalizată câmpurilor. În acest articol, vom analiza câteva exemple despre cum se poate face acest lucru.

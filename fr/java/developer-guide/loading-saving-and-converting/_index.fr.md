@@ -7,6 +7,7 @@ description: "En savoir plus Aspose.Words pour Java fonctions lors du chargement
 type: docs
 weight: 20
 url: /fr/java/loading-saving-and-converting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Cette section fournit des informations sur les fonctionnalités lors du chargement et de l'enregistrement d'un document, ainsi que des données sur les possibilités de conversion d'un document d'un format à un autre.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu hyperlink-uri în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Adăugați sau modificați hyperlink-uri
@@ -7,6 +7,7 @@ description: "Cum să adăugați un hyperlink în documentul dvs. utilizând Asp
 type: docs
 weight: 180
 url: /ro/cpp/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un hyperlink în documentele Microsoft Word este câmpul `HYPERLINK`. În Aspose.Words, hyperlink-urile sunt implementate prin clasa [FieldHyperlink](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldhyperlink/).

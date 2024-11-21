@@ -7,6 +7,7 @@ description: "Come unire le celle da tavolo in Java. Controllare se le celle in 
 type: docs
 weight: 40
 url: /it/java/working-with-merged-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A volte alcune righe in una tabella richiedono una voce o grandi blocchi di testo che assumono la larghezza completa della tabella. Per una corretta progettazione della tabella, l'utente può unire diverse celle da tavolo in una. Aspose.Words supporta le celle unite quando si lavora con tutti i formati di input, incluso l'importazione di contenuti HTML.

@@ -7,6 +7,7 @@ description: "Aspose.Words for .NET是一款專為在不依賴任何其他軟體
 type: docs
 weight: 15
 url: /zh-hant/net/product-overview/
+timestamp: 2024-01-31-14-23-37
 ---
 
 <img src="product-overview_1" alt="aspose-words-product" align="left" style="width:64px; margin: 0 30px 30px 0"/>

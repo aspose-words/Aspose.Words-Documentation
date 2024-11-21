@@ -7,6 +7,7 @@ description: "Thực hành thao tác các nút đoạn văn sử dụng Java."
 type: docs
 weight: 210
 url: /vi/java/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Một đoạn văn là một tập hợp các ký tự kết hợp thành một khối logic và kết thúc với một ký tự đặc biệt - *một dấu chấm câu đoạn*. Trong Aspose.Words, một đoạn văn là đại diện bởi lớp [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/).

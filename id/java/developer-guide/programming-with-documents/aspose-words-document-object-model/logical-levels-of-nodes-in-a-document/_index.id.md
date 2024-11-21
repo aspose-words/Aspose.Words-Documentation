@@ -7,6 +7,7 @@ type: docs
 description: "Sitemap Aspose.Words Sitemap Java dokumentasi yang disebutkan tingkat logis node - tingkat blok, tingkat inline, atau tingkat baris. Tingkat node digunakan untuk menggambarkan lokasi di pohon dokumen di mana node biasanya terjadi."
 weight: 10
 url: /id/java/logical-levels-of-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Dokumentasi ini kadang-kadang mengacu pada sekelompok kelas node seperti milik "level" dalam dokumen, seperti "block-level", "inline-level" (juga dikenal sebagai "inline"), atau "row-level". Tingkat ini dalam dokumen berbeda secara logis murni dan tidak secara eksplisit diungkapkan oleh warisan atau lainnya Aspose.Words DOM Sitemap Tingkat node digunakan untuk menggambarkan tempat di pohon dokumen di mana node biasanya terjadi.

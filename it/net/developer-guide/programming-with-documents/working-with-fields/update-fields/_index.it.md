@@ -7,6 +7,7 @@ description: "Scopri come aggiornare i campi in C#. Aggiorna i campi a livello d
 type: docs
 weight: 30
 url: /it/net/update-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In genere, un campo inserito in Microsoft Word contiene già un valore aggiornato. Ad esempio, se il campo è una formula o un numero di pagina, conterrà il valore calcolato corretto per la versione specifica del documento. Ma se hai un'applicazione che genera o modifica un documento con campi come unire due documenti o popolarlo con dati, allora idealmente tutti i campi devono essere aggiornati affinché il documento sia utile.

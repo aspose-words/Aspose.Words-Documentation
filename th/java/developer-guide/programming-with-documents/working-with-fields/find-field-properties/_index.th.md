@@ -7,6 +7,7 @@ description: "วิธีที่จะหาคุณสมบัติบา
 type: docs
 weight: 25
 url: /th/java/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ช่องข้อมูลซึ่งจะถูกแทรกโดยใช้ [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean) กลับค่าเป็น [Field](https://reference.aspose.com/words/java/com.aspose.words/field/) วัตถุ นี่เป็นคลาสที่ครอบคลุมซึ่งให้วิธีการที่มีประโยชน์ในการหาคุณสมบัติดังกล่าวของสนามได้อย่างรวดเร็ว

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 설치 방법 Aspose.Words 에 대한 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 설치
@@ -7,6 +7,7 @@ description: "설치 Aspose.Words 에 대한 C++ 관리 사용 NuGet 패키지 �
 type: docs
 weight: 10
 url: /ko/cpp/installation/
+timestamp: 2024-09-24-14-35-44
 ---
 
 당신의 기계가 만나는 것을 확인하십시오 [시스템 요구 사항](/words/cpp/system-requirements/) 시작하기 전에.

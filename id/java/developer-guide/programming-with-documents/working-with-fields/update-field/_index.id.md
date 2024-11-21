@@ -7,6 +7,7 @@ description: "Pelajari cara memperbarui bidang di JavaSitemap Memperbarui bidang
 type: docs
 weight: 30
 url: /id/java/update-field/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Biasanya, lapangan dimasukkan ke dalam Microsoft Word sudah berisi nilai up to date. Misalnya, jika field adalah formula atau nomor halaman, itu akan berisi nilai dihitung yang benar untuk versi dokumen yang diberikan. Tetapi jika Anda memiliki aplikasi yang menghasilkan atau memodifikasi dokumen dengan bidang seperti menggabungkan dua dokumen atau mengisinya dengan data, maka idealnya semua bidang harus diperbarui untuk dokumen yang berguna.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 안녕하세요,세계!
 second_title: 간단한 예제 사용 방법 Aspose.Words 에 대한 C++
 articleTitle: 안녕하세요,세계!
@@ -7,6 +7,7 @@ description: "다음을 사용하여 지원되는 모든 형식으로 첫 번째
 type: docs
 weight: 15
 url: /ko/cpp/hello-world/
+timestamp: 2024-01-27-14-07-04
 ---
 
 "안녕하세요,세계!"코드는 종종 사용법을 작성하는 첫 번째 간단한 예입니다."Aspose.Words 에 대한 C++"라고 말하며,소스 코드를 컴파일하거나 실행하려는 소프트웨어가 올바르게 설치되어 있는지 확인하기 위해 정신 테스트로 사용할 수도 있습니다.

@@ -7,6 +7,7 @@ description: "Pengantar fitur kotak teks terkait di Aspose.Words Sitemap JavaSit
 type: docs
 weight: 250
 url: /id/java/working-with-linked-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Sitemap Aspose.Words, Login [TextBox](https://reference.aspose.com/words/java/com.aspose.words/textbox/) kelas digunakan untuk menentukan bagaimana teks ditampilkan dalam bentuk. Ini menyediakan properti publik yang dinamakan sebagai Parent untuk mendapatkan bentuk induk untuk kotak teks untuk memungkinkan pelanggan untuk menemukan terkait [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) Sitemap **TextBox**Sitemap

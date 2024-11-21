@@ -1,4 +1,4 @@
-﻿---
+---
 title: Code Comparison for Common Features
 second_title: Aspose.Words for .NET
 articleTitle: Code Comparison for Common Features
@@ -7,6 +7,7 @@ description: "Take a look at code comparison of some features implemented in Asp
 type: docs
 weight: 10
 url: /net/code-comparison-for-common-features/
+timestamp: 2024-01-27-14-07-04
 ---
 
 This section includes the following topics

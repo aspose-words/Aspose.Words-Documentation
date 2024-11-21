@@ -7,6 +7,7 @@ description: "Belgeleri dijital olarak imzalayın ve Python'i kullanarak mevcut 
 type: docs
 weight: 40
 url: /tr/python-net/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Belgeyi gönderenin söylediği kişi olduğunu ve belge içeriğinin tahrif edilmediğini belirlemek amacıyla belgenin kimliğini doğrulamak için dijital imza kullanılır.

@@ -7,6 +7,7 @@ description: "用 C#將帶有適用敏感標籤的 Word 轉換為 PDF。 與附�
 type: docs
 weight: 30
 url: /zh-hant/net/work-with-document-market-by-sensitivity-label/
+timestamp: 2024-01-31-14-23-37
 ---
 
 從 Microsoft 資料保護入口網站獲得的敏感標籤讓您能夠分類並保護組織的資料，同時確保使用者生产力和他們協作的能力不受影響。 當敏感標籤套用到文件上時，該標籤的任何配置保護設定都將施加到內容上。

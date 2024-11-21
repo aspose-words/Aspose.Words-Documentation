@@ -7,6 +7,7 @@ description: "Kontrollieren Sie das Aussehen von Word-Dokumenten unter Berücksi
 type: docs
 weight: 40
 url: /de/java/work-with-word-document-options-and-appearance/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Manchmal müssen Sie das Erscheinungsbild eines Dokuments ändern, z.B. die Spracheinstellungen oder die Anzahl der Zeilen pro Seite festlegen.Aspose.Words bietet die Möglichkeit, zu kontrollieren, wie das Dokument angezeigt wird, sowie einige zusätzliche Optionen. Dieser Artikel beschreibt solche Möglichkeiten.

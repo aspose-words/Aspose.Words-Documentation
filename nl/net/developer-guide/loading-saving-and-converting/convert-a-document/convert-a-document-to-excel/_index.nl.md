@@ -7,6 +7,7 @@ description: "PDF omzetten naar Excel, XML naar Excel, DOCX naar Excel C#. Een d
 type: docs
 weight: 15
 url: /nl/net/convert-a-document-to-excel/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Het omzetten van documenten van het ene formaat naar het andere is het vlaggenschip kenmerk van Aspose.Words. U kunt documenten converteren in alle beschikbare [laadformaat](https://reference.aspose.com/words/net/aspose.words/loadformat/) ook naar XLSX formaat.

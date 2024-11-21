@@ -7,6 +7,7 @@ description: "图表特性介绍,如何使用 Java。 。 。 。"
 type: docs
 weight: 310
 url: /zh/java/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 新的 [insertChart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertChart-int-double-double) 方法被添加到 [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) 课。 因此,让我们看看如何在文档中插入一个简单的列图。 **插入 图表** 方法。

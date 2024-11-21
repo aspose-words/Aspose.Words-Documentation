@@ -7,6 +7,7 @@ description: "Cài đặt Aspose.Words cho Java thêm tên và số phiên bản
 type: docs
 weight: 70
 url: /vi/java/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Bạn có thể dễ dàng biết nếu một tài liệu là được sản xuất bằng cách sử dụng Aspose.Words cho Java. Bạn cũng có thể tìm số phiên bản của Aspose.Words cho Java đã được dùng để tạo ra một tài liệu đầu ra cụ thể. Aspose.Words ghi trực tiếp thông tin này vào tài liệu đã tạo.

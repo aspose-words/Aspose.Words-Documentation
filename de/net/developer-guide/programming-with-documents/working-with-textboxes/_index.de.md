@@ -7,6 +7,7 @@ description: "Einführung in die Funktion verknüpfter Textfelder in Aspose.Word
 type: docs
 weight: 250
 url: /de/net/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In Aspose.Words wird die [TextBox](https://reference.aspose.com/words/de/net/aspose.words.drawing/textbox/)-Klasse verwendet, um anzugeben, wie Text innerhalb einer Form angezeigt wird. Es stellt eine öffentliche Eigenschaft namens **Parent** bereit, um die übergeordnete Form für das Textfeld abzurufen, sodass der Kunde das verknüpfte [Shape](https://reference.aspose.com/words/de/net/aspose.words.drawing/shape/) im zugehörigen **TextBox** finden kann.

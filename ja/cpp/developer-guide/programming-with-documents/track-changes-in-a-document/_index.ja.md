@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++で文書の変更を追跡する
 second_title: C++の場合Aspose.Words
 articleTitle: 文書内の変更を追跡する
@@ -7,6 +7,7 @@ description: "C++を使用して、自分や他の人が行ったコンテンツ
 type: docs
 weight: 270
 url: /ja/cpp/track-changes-in-a-document/
+timestamp: 2024-01-30-16-22-34
 ---
 
 変更履歴の機能(レビューとも呼ばれます)を使用すると、自分や他のユーザーが行ったコンテンツや書式設定の変更を追跡できます。 Aspose.Wordsのこのトラック変更機能はMicrosoft Wordのトラック変更をサポートします。 この機能を使用すると、ドキュメント内の個々のリビジョンにアクセスし、それらに異なるプロパティを適用できます。

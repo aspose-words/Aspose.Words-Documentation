@@ -7,6 +7,7 @@ description: "Вмъкване на полета в документ Python по
 type: docs
 weight: 20
 url: /bg/python-net/inserting-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Има няколко различни начина за въвеждане на полета в документ:

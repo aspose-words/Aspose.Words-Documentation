@@ -9,6 +9,7 @@ type: docs
 description: "Aspose.Words pour .NET fournit une assistance technique gratuite disponible à tous les utilisateurs. Veuillez signaler votre question, problème ou demande de fonctionnalité en utilisant le forum d'assistance gratuit Aspose."
 weight: 80
 url: /fr/net/technical-support/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose fournit une assistance technique gratuite et illimitée pour tous ses produits. L’assistance est disponible pour tous les utilisateurs, y compris l’évaluation. La principale voie de support est [Aspose.Forums](https://forum.aspose.com/c/words/8).

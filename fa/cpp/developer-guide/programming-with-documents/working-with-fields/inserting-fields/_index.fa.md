@@ -1,4 +1,4 @@
-﻿---
+---
 title: فیلد ها را در C++وارد کنید
 second_title: Aspose.Words برای C++
 articleTitle: فیلد ها را وارد کنید
@@ -7,6 +7,7 @@ description: "روش های مختلف برای وارد کردن فیلد ها 
 type: docs
 weight: 20
 url: /fa/cpp/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 روش های مختلفی برای وارد کردن فیلد ها به یک سند وجود دارد:

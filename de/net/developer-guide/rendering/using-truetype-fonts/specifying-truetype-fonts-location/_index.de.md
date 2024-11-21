@@ -7,6 +7,7 @@ description: "Geben Sie verschiedene TrueType-Schriftartenquellen an: Systemordn
 type: docs
 weight: 30
 url: /de/net/specifying-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Dieses Thema beschreibt das Standardverhalten von Aspose.Words bei der Suche nach TrueType-Schriftarten, einschließlich betriebssystemspezifischer Unterschiede, und zeigt, wie Benutzerschriftartenquellen angegeben werden.

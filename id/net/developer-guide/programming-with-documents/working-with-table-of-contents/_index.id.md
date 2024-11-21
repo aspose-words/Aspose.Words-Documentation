@@ -7,6 +7,7 @@ description: "Bidang Daftar Isi secara detail. Cara membuat dan memodifikasi kol
 type: docs
 weight: 170
 url: /id/net/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Seringkali Anda akan bekerja dengan dokumen yang berisi daftar isi (TOC). Dengan menggunakan Aspose.Words Anda dapat menyisipkan daftar isi Anda sendiri atau membangun kembali seluruh daftar isi yang ada dalam dokumen hanya dengan menggunakan beberapa baris kode. Artikel ini menguraikan cara bekerja dengan bidang daftar isi dan menunjukkan:

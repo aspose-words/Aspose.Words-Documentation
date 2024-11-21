@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu diagrame în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Lucrul cu diagrame
@@ -7,6 +7,7 @@ description: "Introducere în caracteristica diagramă, cum să creați și să 
 type: docs
 weight: 310
 url: /ro/java/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Noua metodă [insertChart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertChart-int-double-double) a fost adăugată în clasa [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/). Deci, să vedem cum să inserați o diagramă coloană simplă în document folosind metoda **insertChart**.

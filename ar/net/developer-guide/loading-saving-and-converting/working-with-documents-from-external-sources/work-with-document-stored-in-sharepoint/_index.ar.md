@@ -7,6 +7,7 @@ description: "تحويل Word المشترك في SharePoint إلى PDF باست
 type: docs
 weight: 20
 url: /ar/net/work-with-document-stored-in-sharepoint/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Microsoft SharePoint Online عبارة عن مجموعة من التقنيات المستندة إلى الويب والتي تسهل على المؤسسات تخزين المعلومات الرقمية ومشاركتها وإدارتها. يمكنك العمل مع المستندات المخزنة في مجلد "المستندات المشتركة" في SharePoint باستخدام Aspose.Words القوي الخاص بنا لـ .NET.

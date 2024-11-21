@@ -7,6 +7,7 @@ description: "Cómo trabajar con tablas en Java. Introducción a los conceptos d
 type: docs
 weight: 190
 url: /es/java/working-with-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A **Cuadro** en un documento es una gran manera de estructurar datos similares. Es por eso que las tablas son un elemento de formato de contenido común y son soportadas por la mayoría de formatos en una forma u otra.

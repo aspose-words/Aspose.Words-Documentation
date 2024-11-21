@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bekerja dengan Bookmark di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Bekerja dengan Bookmark
@@ -7,6 +7,7 @@ description: "Memahami konsep bookmark dan bagaimana bookmark dapat digunakan da
 type: docs
 weight: 180
 url: /id/cpp/working-with-bookmarks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Penanda mengidentifikasi dalam dokumen Microsoft Word lokasi atau fragmen yang Anda beri nama dan identifikasi untuk referensi di masa mendatang. Misalnya, Anda dapat menggunakan penanda untuk mengidentifikasi teks yang ingin Anda revisi nanti. Alih-alih menggulir dokumen untuk menemukan teks, Anda dapat membukanya dengan menggunakan kotak dialog Bookmark.

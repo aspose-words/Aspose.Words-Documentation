@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++のXMLからのフォントFallBack設定
 second_title: C++の場合Aspose.Words
 articleTitle: XMLからのフォントFallBack設定
@@ -7,6 +7,7 @@ description: "フォントフォールバックメカニズムは、フォント
 type: docs
 weight: 14
 url: /ja/cpp/font-fallback-settings-from-xml/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Aspose.Wordsには、フォント置換とフォントフォールバックという二つの異なるメカニズムが使用されています。 フォント置換は、上記のセクションで説明したように、文書で指定されたフォントがフォントソース間で見つからなかった場合に使用されます。 フォントフォールバックメカニズムは、フォントが解決されたときに使用されますが、特定の文字が含まれていません。 この場合、Aspose.Wordsはその文字にフォールバックフォントのいずれかを使用しようとします。

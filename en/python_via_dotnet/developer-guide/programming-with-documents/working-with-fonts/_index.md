@@ -8,6 +8,7 @@ type: docs
 weight: 230
 url: /python-net/working-with-fonts/
 aliases: [/python/working-with-fonts/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 A font is a set of characters with a certain size, color, and design. Aspose.Words allows you to work with fonts using the [fonts](https://reference.aspose.com/words/python-net/aspose.words.fonts/) module and the [Font](https://reference.aspose.com/words/python-net/aspose.words/font/) class.

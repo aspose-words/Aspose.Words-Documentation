@@ -1,4 +1,4 @@
-﻿---
+---
 title: Skakel Tussen Maateenhede Om
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Skakel Tussen Maateenhede Om
@@ -7,6 +7,7 @@ description: "Aspose.Words vir Python via .NET kan u help met die omskakeling tu
 type: docs
 weight: 20
 url: /af/python-net/convert-between-measurement-units/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Die meeste van die voorwerp eienskappe wat in die Aspose.Words API wat'n mate van meting, soos breedte of hoogte, marges, en verskeie afstande verteenwoordig, aanvaar waardes in punte, waar 1 duim gelyk is aan 72 punte. Soms is dit nie gerieflik nie en punte moet omgeskakel word na ander eenhede.

@@ -7,6 +7,7 @@ description: "Assine documentos digitalmente e detecte, conte, verifique e remov
 type: docs
 weight: 30
 url: /pt/java/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uma assinatura digital é uma implementação tecnológica de assinaturas eletrônicas para assinar documentos e autenticar o assinante para garantir que um documento não foi modificado desde que foi assinado. Cada assinatura digital é única para cada assinante por seguir o protocolo PKI para gerar chaves públicas e privadas. Assinar um documento digitalmente significa criar uma assinatura usando a chave privada do signer, onde um algoritmo matemático é usado para criptografar o hash gerado.

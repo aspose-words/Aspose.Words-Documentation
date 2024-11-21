@@ -7,6 +7,7 @@ description: "Crear documentos de salida con diferentes diseños, dependiendo de
 type: docs
 weight: 10
 url: /es/java/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words le permite crear documentos de salida con varios diseños, dependiendo de los parámetros especificados en los [LayoutOptions](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/) propiedad de la **Document**. Esta propiedad se parece a algunos de los Microsoft Word Opciones de menú de interfaz de usuario descritas en este artículo.

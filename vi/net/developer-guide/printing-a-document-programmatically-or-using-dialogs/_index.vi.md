@@ -7,6 +7,7 @@ description: "In tài liệu trên Server bằng XpsPrint API không được qu
 type: docs
 weight: 55
 url: /vi/net/print-a-document-programmatically-or-using-dialogs/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Bài viết này mô tả cách in tài liệu xử lý văn bản từ ứng dụng Dịch vụ ASP.NET hoặc Windows bằng Aspose.Words và `XpsPrint` API. Nó cũng trình bày các phương pháp in tài liệu bằng các hộp thoại Cài đặt, Xem trước bản in và Tiến trình in, đồng thời giải thích cách giảm thời gian của lệnh in tài liệu đầu tiên.

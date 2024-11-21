@@ -7,6 +7,7 @@ description: "Uveďte různé Pravda. Zdroje písma typu: systémová složka, u
 type: docs
 weight: 30
 url: /cs/java/specify-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Toto téma popisuje výchozí chování Aspose.Words když hledá písma TrueType, včetně specifických rozdílů operačního systému, a ukazuje, jak určit uživatelské zdroje písma.

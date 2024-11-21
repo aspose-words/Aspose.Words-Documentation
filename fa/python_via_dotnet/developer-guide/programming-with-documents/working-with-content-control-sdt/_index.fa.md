@@ -7,6 +7,7 @@ description: "با استفاده از پایتون می توانید معنای
 type: docs
 weight: 390
 url: /fa/python-net/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
 در Microsoft Word، می‌توانید با شروع با یک الگو و اضافه کردن کنترل‌های محتوا، از جمله چک باکس، جعبه متن، انتخابگر تاریخ و لیست‌های کشویی، فرم ایجاد کنید. در Aspose.Words، یک تگ سند ساختاریافته یا کنترل محتوا از هر سند بارگیری شده در Aspose.Words به عنوان یک گره [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) وارد می شود. تگ‌های سند ساختاریافته (SDT یا کنترل محتوا) امکان تعبیه معنایی تعریف شده توسط مشتری و همچنین رفتار و ظاهر آن را در یک سند می‌دهد. [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) می تواند در یک سند در مکان های زیر رخ دهد:

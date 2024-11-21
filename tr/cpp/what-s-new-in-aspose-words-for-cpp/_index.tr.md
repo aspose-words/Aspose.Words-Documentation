@@ -1,4 +1,4 @@
-﻿---
+---
 title: Yenilikler
 second_title: Aspose.Words için C++
 articleTitle: İçerideki yenilikler Aspose.Words için C++
@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words için C++ her gün genişler ve gelişir. Bu sayfada, ürünün devasa ve en ilginç özellikleri hakkında bilgi edinebilirsiniz."
 weight: 2
 url: /tr/cpp/what-s-new-in-aspose-words-for-cpp/
+timestamp: 2024-10-28-11-53-45
 ---
 
 Bu sayfa, son sürümlerde tanıtılan en ilginç yeni Aspose.Words özellikleri açıklamaktadır.

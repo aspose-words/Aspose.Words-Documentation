@@ -7,6 +7,7 @@ description: "Python を使用すると、顧客定義のセマンティクス�
 type: docs
 weight: 390
 url: /ja/python-net/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Microsoft Word では、テンプレートから始めて、チェックボックス、テキスト ボックス、日付ピッカー、ドロップダウン リストなどのコンテンツ コントロールを追加することでフォームを作成できます。 Aspose.Words では、Aspose.Words にロードされたドキュメントの構造化ドキュメント タグまたはコンテンツ コントロールが [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) ノードとしてインポートされます。構造化ドキュメント タグ (SDT またはコンテンツ コントロール) を使用すると、顧客定義のセマンティクスとその動作および外観をドキュメントに埋め込むことができます。 [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) は、ドキュメント内の次の場所に使用できます。

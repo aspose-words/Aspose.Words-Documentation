@@ -7,6 +7,7 @@ description: "Vyberte si nejlepší standard PDF pro export výsledku vašeho pr
 type: docs
 weight: 27
 url: /cs/python-net/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Pro některé úkoly budou určité standardy PDF lépe nebo naopak horší. V tomto článku se budeme snažit určit, které standardy PDF pro které případy má smysl si vybrat.

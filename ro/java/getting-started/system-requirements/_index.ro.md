@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cerințe De Sistem
 second_title: Aspose.Words pentru Java
 articleTitle: Cerințe De Sistem
@@ -7,6 +7,7 @@ description: "Înainte de a începe să lucrați cu Aspose.Words pentru Java, as
 type: docs
 weight: 80
 url: /ro/java/system-requirements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words pentru Java nu necesită instalarea unui produs terță parte, cum ar fi Microsoft Word. Aspose.Words în sine este un motor pentru crearea, modificarea, conversia și redarea documentelor în diferite formate, inclusiv Microsoft Word formate de documente.

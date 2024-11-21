@@ -1,4 +1,4 @@
-﻿---
+---
 title: Inserați Checkboxes, introducere de Text sau imagini în timpul Mail Merge
 second_title: Aspose.Words pentru C++
 articleTitle: Inserați Checkboxes, introducere Text sau imagini
@@ -7,6 +7,7 @@ description: "Introduceți checkboxes sau câmpuri de introducere a textului în
 type: docs
 weight: 40
 url: /ro/cpp/insert-checkboxes-text-input-or-images-mail-merge/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Merge engine ia un document ca intrare, caută câmpuri `MERGEFIELD` în el și le înlocuiește cu datele obținute din sursa de date. De obicei, textul simplu și HTML sunt inserate, dar Aspose.Words Utilizatorii pot genera, de asemenea, un document care gestionează scenarii mai neobișnuite pentru câmpurile mail merge.

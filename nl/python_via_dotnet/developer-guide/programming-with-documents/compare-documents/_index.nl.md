@@ -7,6 +7,7 @@ description: "Vergelijk twee documenten in ondersteunde formaten en toont wijzig
 type: docs
 weight: 60
 url: /nl/python-net/compare-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Het vergelijken van documenten is een proces dat veranderingen tussen twee documenten identificeert en de wijzigingen als herzieningen bevat. Dit proces vergelijkt twee documenten, inclusief versies van één specifiek document, dan worden de wijzigingen tussen beide documenten getoond als herzieningen in het eerste document.

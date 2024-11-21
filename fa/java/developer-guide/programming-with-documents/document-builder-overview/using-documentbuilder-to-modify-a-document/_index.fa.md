@@ -7,6 +7,7 @@ type: docs
 description: "از سازنده سند برای اصلاح یک سند به راحتی استفاده کنید Java..."
 weight: 20
 url: /fa/java/using-documentbuilder-to-modify-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## تصویرسازی Formatting

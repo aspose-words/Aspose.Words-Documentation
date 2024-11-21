@@ -1,4 +1,4 @@
-﻿---
+---
 title: Add Watermark in Document
 second_title: Aspose.Words for Java
 articleTitle: Add Watermark in Document
@@ -7,6 +7,7 @@ description: "Add a watermark into a document easily and fast instead of using d
 type: docs
 weight: 20
 url: /java/add-watermark-in-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Add Watermark in Document

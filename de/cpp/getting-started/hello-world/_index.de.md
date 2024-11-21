@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hallo, Welt!
 second_title: Einfaches Beispiel für die Verwendung Aspose.Words für C++
 articleTitle: Hallo, Welt!
@@ -7,6 +7,7 @@ description: "Erstellen, bearbeiten und speichern Sie Ihr erstes Dokument in ein
 type: docs
 weight: 15
 url: /de/cpp/hello-world/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ein "Hallo Welt!" code ist oft das erste einfache Beispiel, um Benutzer zu schreiben "Aspose.Words für C++", und es kann auch als Plausibilitätstest verwendet werden, um sicherzustellen, dass die Software, die den Quellcode kompilieren oder ausführen soll, korrekt installiert ist.

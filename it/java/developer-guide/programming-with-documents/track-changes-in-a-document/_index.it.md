@@ -7,6 +7,7 @@ description: "Traccia le modifiche al contenuto e la formattazione fatta da te o
 type: docs
 weight: 270
 url: /it/java/track-changes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 La funzionalità delle modifiche di traccia, nota anche come revisione, consente di monitorare le modifiche al contenuto e la formattazione fatta da voi o da altri utenti. Questa pista cambia caratteristica con Aspose.Words supporta i cambiamenti di traccia Microsoft Word. Con questa funzionalità, è possibile accedere a singole revisioni nel documento e applicare diverse proprietà a loro.

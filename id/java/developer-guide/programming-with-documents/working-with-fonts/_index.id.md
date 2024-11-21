@@ -7,6 +7,7 @@ description: "Format font dalam rincian menggunakan JavaSitemap"
 type: docs
 weight: 230
 url: /id/java/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Sebuah font adalah set karakter dengan ukuran tertentu, warna, dan desain. Aspose.Words memungkinkan Anda untuk bekerja dengan font menggunakan berbagai kelas terkait font, termasuk [Font](https://reference.aspose.com/words/java/com.aspose.words/font/) Sitemap

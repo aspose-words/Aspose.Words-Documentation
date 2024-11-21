@@ -7,6 +7,7 @@ description: "Pratiche di manipolazione dei nodi del paragrafo utilizzando Java.
 type: docs
 weight: 210
 url: /it/java/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un paragrafo è un insieme di caratteri combinati in un blocco logico e termina con un carattere speciale – un *paragrafo break*. In Aspose.Words, un paragrafo è rappresentato dal [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) classe.

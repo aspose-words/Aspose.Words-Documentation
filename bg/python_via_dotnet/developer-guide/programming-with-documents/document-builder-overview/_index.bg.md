@@ -7,6 +7,7 @@ type: docs
 description: "DocumentBuilder ви позволява да създавате динамични документи от нулата или да добавяте нови елементи към съществуващи такива, като използвате Python. DocumentBuilder предоставя методи за вмъкване на текст, чекови кутии, таблици, изображения и други елементи на съдържание в Python."
 weight: 30
 url: /bg/python-net/document-builder-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) е мощен клас, който свързва с [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) и ви позволява да създавате динамични документи от нулата или да добавяте нови елементи към съществуваща.

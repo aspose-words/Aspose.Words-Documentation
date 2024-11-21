@@ -1,4 +1,4 @@
-﻿---
+---
 title: Manipularea Windows Metafișiere
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Manipularea Windows Metafișiere
@@ -7,6 +7,7 @@ description: "Aspose.Words pentru Python via .NET implementează propriul Window
 type: docs
 weight: 30
 url: /ro/python-net/handling-windows-metafiles/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Windows formatul Metafile este un format de fișier imagine care poate conține atât grafică vectorială, cât și grafică raster. Acest format este utilizat pentru a stoca date grafice în memorie sau fișiere pe disc. Un metafișier stochează o listă de apeluri de funcții în interfața dispozitivului Grafic Windows (GDI) care trebuie executate pentru a afișa imaginea pe ecran. Sistemul interpretează și execută aceste comenzi în contextul afișajului.

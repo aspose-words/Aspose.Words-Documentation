@@ -7,6 +7,7 @@ description: "Formatage du tableau en détail. Utilisation Java pour formater ch
 type: docs
 weight: 70
 url: /fr/java/applying-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Chaque élément d'un tableau peut être appliqué avec un formatage différent. Par exemple, le formatage de table sera appliqué à l'ensemble de la table, le formatage de ligne à seulement des lignes particulières, le formatage de cellule à seulement certaines cellules.

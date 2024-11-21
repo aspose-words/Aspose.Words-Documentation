@@ -7,6 +7,7 @@ description: "שדות תכונה בפרטים, קודי שדה ותוצאות �
 type: docs
 weight: 10
 url: /he/net/fields-overview/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words היא ספריית כיתה המיועדת לעיבוד לצד השרת של Microsoft Word מסמכים ותומכים בתחומים בדרכים הבאות:

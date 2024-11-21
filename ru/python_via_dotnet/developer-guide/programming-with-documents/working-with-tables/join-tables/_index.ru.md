@@ -7,6 +7,7 @@ description: "Присоединяйтесь к таблицам в докуме
 type: docs
 weight: 90
 url: /ru/python-net/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Таблица, представленная в Aspose.Words Document Object Model, Он состоит из независимых рядов и ячеек, что облегчает соединение столов.

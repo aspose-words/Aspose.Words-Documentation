@@ -7,6 +7,7 @@ description: "Erfahren Sie, wie Felder durch Text ersetzt werden Java. Felder mi
 type: docs
 weight: 37
 url: /de/java/replace-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Das Löschen von Feldern ist oft erforderlich, wenn Sie Ihr Dokument als statische Kopie speichern möchten. Zum Beispiel beim Senden als Anhang in einer E-Mail. Umrechnung von Feldern wie `DATE` oder `TIME` auf statischen Text ermöglicht es dem Dokument, das gleiche Datum wie beim Senden anzuzeigen. Auch, in einigen Situationen müssen Sie möglicherweise die Conditional entfernen `IF` Felder aus Ihrem Dokument und ersetzen sie stattdessen mit dem neuesten Textergebnis. Das Ergebnis des `IF` Feld zu statischem Text, so dass es seinen Wert nicht mehr dynamisch ändert, wenn Felder im Dokument aktualisiert werden.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在C++中处理Windows元文件
 second_title: Aspose.Words对于C++
 articleTitle: 处理Windows元文件
@@ -7,6 +7,7 @@ description: "Aspose.Words对于C++ 实现自己的Windows元文件播放器在�
 type: docs
 weight: 30
 url: /zh/cpp/handling-windows-metafiles/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Windows元文件格式是一种图像文件格式，可以包含矢量和光栅图形。 此格式用于将图形数据存储在内存或磁盘文件中。 图元文件存储Windows图形设备接口(GDI)中必须执行以在屏幕上显示图像的函数调用列表。 系统在显示上下文中解释和执行这些命令。

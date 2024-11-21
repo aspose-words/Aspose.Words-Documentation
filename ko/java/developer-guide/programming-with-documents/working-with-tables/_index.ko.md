@@ -7,6 +7,7 @@ description: "테이블에서 작업하는 방법 Java· Table 노드 개념 소
 type: docs
 weight: 190
 url: /ko/java/working-with-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 · **·** 문서는 비슷한 데이터를 구조하는 훌륭한 방법입니다. 왜 테이블은 일반적인 콘텐츠 포맷 요소이며 하나의 양식 또는 다른 대부분의 형식으로 지원됩니다.

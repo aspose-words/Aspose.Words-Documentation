@@ -7,6 +7,7 @@ description: "צור מסמכי פלט עם פריסות שונות, בהתאם 
 type: docs
 weight: 10
 url: /he/java/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words מאפשר לך ליצור מסמכי פלט עם פריסות שונות, בהתאם הפרמטרים המפורטים ב הפרמטרים המפורטים ב [LayoutOptions](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/) רכוש **Document**. נכס זה דומה לחלק Microsoft Word אפשרויות לממשק המשתמש המתוארות במאמר זה.

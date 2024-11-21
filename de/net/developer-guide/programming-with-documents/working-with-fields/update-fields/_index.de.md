@@ -7,6 +7,7 @@ description: "Erfahren Sie, wie Sie Felder in C# aktualisieren. Aktualisieren Si
 type: docs
 weight: 30
 url: /de/net/update-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Normalerweise enthält ein in Microsoft Word eingefügtes Feld bereits einen aktuellen Wert. Wenn es sich bei dem Feld beispielsweise um eine Formel oder eine Seitenzahl handelt, enthält es den korrekten berechneten Wert für die angegebene Version des Dokuments. Wenn Sie jedoch über eine Anwendung verfügen, die ein Dokument mit Feldern generiert oder ändert, z. B. zwei Dokumente zusammenführen oder mit Daten füllen, müssen im Idealfall alle Felder aktualisiert werden, damit das Dokument nützlich ist.

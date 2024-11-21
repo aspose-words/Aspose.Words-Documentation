@@ -7,6 +7,7 @@ type: docs
 description: "Verwenden Sie den Dokumentenbauer, um ein Dokument einfach in Java."
 weight: 20
 url: /de/java/using-documentbuilder-to-modify-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Angabe der Formatierung

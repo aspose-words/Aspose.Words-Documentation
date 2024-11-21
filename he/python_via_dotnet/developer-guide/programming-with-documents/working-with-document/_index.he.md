@@ -7,6 +7,7 @@ type: docs
 description: "The The The `Document` שיעור מספק תכונות ושיטות שונות באמצעות Python. אתה משתמש `Document` השיעור כנקודת ההתחלה לכל מה שאתה רוצה לעשות Aspose.Words עבור Python. The The The `Document` ניתן להציל את האובייקט לקובץ או לזרם וגם לשלוח לדפדפן."
 weight: 40
 url: /he/python-net/working-with-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 The The The [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) הכיתה היא מרכזית Aspose.Words. הוא מייצג מסמך ומספק תכונות מסמך ושיטות שונות, כגון שמירת או הגנה על המסמך. אתה משתמש [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) השיעור כנקודת ההתחלה לכל מה שאתה רוצה לעשות Aspose.Wordsיצירת מסמך חדש מאפס, פתח תבנית עבור mail merge, או לקבל חלקים שונים במסמך.

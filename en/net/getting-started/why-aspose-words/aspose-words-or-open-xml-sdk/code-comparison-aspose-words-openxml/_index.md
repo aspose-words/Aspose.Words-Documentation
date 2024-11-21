@@ -8,6 +8,7 @@ type: docs
 weight: 50
 url: /net/code-comparison-aspose-words-openxml/
 aliases: [/net/code-comparison-for-common-features-with-openxml/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 This section contains a code comparison for some common features implemented in Aspose.Words and Open XML SDK.

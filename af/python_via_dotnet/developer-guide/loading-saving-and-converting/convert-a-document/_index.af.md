@@ -1,4 +1,4 @@
-﻿---
+---
 title: Skep'n Dokument in Python
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Skakel'n Dokument om
@@ -8,6 +8,7 @@ url: /af/python-net/convert-a-document/
 weight: 30
 description: "Maklik omskep dokumente van een formaat na'n ander met behulp van Python. Jy kan werk met al die gewildste formate soos Microsoft Word formate soos DOCX of DOC, OpenDocument formate soos ODT of OTT, web formate soos HTML of XHTML, teks formate soos MarkDown of TXT, en ander."
 keywords: "convert a document python, convert documents from one format to another python, convert to markdown python, convert pdf to docx python, convert docx to pdf python, convert doc to pdf python, convert a document Aspose for Python"
+timestamp: 2024-01-27-14-07-04
 ---
 
 Die vermoë om dokumente maklik en betroubaar van een formaat na'n ander te omskep, is een van die belangrikste kenmerke van Aspose.Words. So'n omskakeling is niks meer as'n kombinasie van laai-en spaarbedrywighede nie.

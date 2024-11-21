@@ -7,6 +7,7 @@ description: "Giới thiệu về tính năng `Range` trong Aspose.Words cho Jav
 type: docs
 weight: 130
 url: /vi/java/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

@@ -7,6 +7,7 @@ description: "Introduzione alla funzione Range in Aspose.Words per Java."
 type: docs
 weight: 130
 url: /it/java/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

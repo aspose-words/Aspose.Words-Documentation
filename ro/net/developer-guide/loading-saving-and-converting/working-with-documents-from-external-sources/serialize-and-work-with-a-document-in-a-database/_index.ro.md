@@ -7,6 +7,7 @@ description: "Convertiţi un document într-un tablou de octeţi pentru a lucra 
 type: docs
 weight: 10
 url: /ro/net/serialize-and-work-with-a-document-in-a-database/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Unul dintre sarcinile pe care le puteți avea de realizat atunci când lucrați cu documente este stocarea și recuperarea **Document** obiecte dintr-o bază de date. De exemplu, acest lucru ar fi necesar dacă implementați orice tip de sistem de gestionare a conținutului. Toate versiunile anterioare ale documentelor trebuie stocate în sistemul de baze de date. Posibilitatea de a stoca documente în baza de date este, de asemenea, extrem de utilă atunci când aplicația dvs. oferă un serviciu bazat pe web.

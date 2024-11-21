@@ -7,6 +7,7 @@ description: "คุณสมบัติการพิมพ์เพิ่ม
 type: docs
 weight: 25
 url: /th/java/enable-opentype-features/
+timestamp: 2024-01-27-14-07-04
 ---
 
 

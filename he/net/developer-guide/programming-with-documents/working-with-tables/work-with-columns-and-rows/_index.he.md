@@ -7,6 +7,7 @@ description: "עבודה עם חלקים של שולחן - שורות, עמוד�
 type: docs
 weight: 30
 url: /he/net/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 לקבלת יותר שליטה על איך שולחנות לעבוד, ללמוד כיצד לתמרן עמודות ושורה.

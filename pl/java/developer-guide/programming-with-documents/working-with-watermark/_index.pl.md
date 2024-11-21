@@ -7,6 +7,7 @@ type: docs
 description: "Manipulowanie znakami wodnymi dokumentów Java."
 weight: 70
 url: /pl/java/working-with-watermark/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Temat ten omawia, jak pracować programowo ze znakiem wodnym za pomocą Aspose.Words. Znak wodny jest obrazem tła, który wyświetla się za tekstem w dokumencie. Znak wodny może zawierać tekst lub obraz reprezentowany przez [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) Klasa.

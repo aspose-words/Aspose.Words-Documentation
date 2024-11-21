@@ -7,6 +7,7 @@ description: "Tisch in Split Java. Wie man eine Tabelle in zwei separate Tabelle
 type: docs
 weight: 100
 url: /de/java/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Eine Tabelle in der Aspose.Words Document Object Model, ist aus unabhängigen Zeilen und Zellen aufgebaut, so dass es einfach ist, eine Tabelle zu teilen.

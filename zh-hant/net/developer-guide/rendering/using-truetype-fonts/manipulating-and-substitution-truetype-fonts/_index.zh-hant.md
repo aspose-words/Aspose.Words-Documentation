@@ -7,6 +7,7 @@ description: "`.NET 的 Aspose.Words 可以將正確的 TrueType 字體嵌入到
 type: docs
 weight: 10
 url: /zh-hant/net/manipulating-and-substitution-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words 需要 TrueType 字體來執行各種任務，包括以固定頁面格式 render 文檔，例如 PDF 或 XPS。 當 Aspose.Words 渲染一篇文件時，它必須將 TrueType 字體嵌入成最終的文件中，或對這些字體進行子集嵌入，這是一種常見於文件生成過程中的做法，其中包括熱門的 PDF 或 XPS 格式。 這可保證該文件在任何閲覧者眼中會相同。 此外，XPS 規格也要求字體必須總是嵌入在文件中。

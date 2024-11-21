@@ -7,6 +7,7 @@ description: "چگونه یک لینک را به سند خود اضافه کنی
 type: docs
 weight: 50
 url: /fa/java/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 یک لینک در Microsoft Word اسناد `HYPERLINK` زمینه In In In Aspose.Words, لینک ها از طریق [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/) کلاس

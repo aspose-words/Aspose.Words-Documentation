@@ -8,6 +8,7 @@ description: "המרת מסמך בכל פורמט עומס נתמך Markdown ו�
 keywords: how to convert a document to markdown Java, save as MD, DOCX to MD
 weight: 33
 url: /he/java/convert-a-document-to-markdown/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Markdown הוא פורמט פופולרי המשמש לסימון טקסט והוא ממיר עוד ל- HTML, PDF, DOCX או פורמטים אחרים. מפתחים רבים בוחרים פורמט זה לכתיבת תיעוד, הכנת מאמרים לפרסום בבלוגים, תיאור פרויקטים, וכן הלאה.

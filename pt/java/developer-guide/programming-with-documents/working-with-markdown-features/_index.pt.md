@@ -7,6 +7,7 @@ description: "Como implementar Markdown recursos usando Java. Todas as caracter�
 type: docs
 weight: 420
 url: /pt/java/working-with-markdown-features/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Este tópico discute como implementar Markdown recursos usando Aspose.Words. Markdown é uma maneira simples de formatar texto simples que pode ser facilmente convertido em HTML. Aspose.Words suporta o seguinte Markdown características:

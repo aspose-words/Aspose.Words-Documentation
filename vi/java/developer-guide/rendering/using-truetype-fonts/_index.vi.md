@@ -7,6 +7,7 @@ description: "Cách tìm được phông chữ đúng hoặc sự thay thế ph�
 type: docs
 weight: 20
 url: /vi/java/using-truetype-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Khi làm việc với các tài liệu, bạn thường phải sử dụng các phông chữ, kiểu dáng và kích cỡ khác nhau. Các tài liệu có thể chứa bất kỳ số lượng phông chữ nào, mà không nhất thiết phải giới hạn trong các phông chữ được cài đặt trong hệ điều hành. Phông chữ có thể khác nhau hoàn toàn, chẳng hạn như phông chữ lấy từ các hệ điều hành khác, mua hoặc được tạo bởi người dùng chính họ.

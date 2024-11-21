@@ -7,6 +7,7 @@ type: docs
 description: "Een document opslaan in elk ondersteund formaat Java."
 weight: 20
 url: /nl/java/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 De meeste taken die u moet uitvoeren met Aspose.Words een document opslaan. Een document opslaan Aspose.Words levert de [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save(java.lang.String)) methode van de [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) Klasse. Het document kan worden opgeslagen in elk formaat dat wordt ondersteund door Aspose.Words. Voor de lijst van alle ondersteunde opslagformaten, zie de [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) Samenvatting.

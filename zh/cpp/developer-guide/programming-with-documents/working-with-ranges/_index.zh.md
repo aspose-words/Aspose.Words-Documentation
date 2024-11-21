@@ -1,4 +1,4 @@
-﻿---
+---
 title: 使用C++中的范围
 second_title: Aspose.Words对于C++
 articleTitle: 使用范围
@@ -7,6 +7,7 @@ description: "范围特性介绍 Aspose.Words对于C++."
 type: docs
 weight: 130
 url: /zh/cpp/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

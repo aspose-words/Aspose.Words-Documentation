@@ -1,4 +1,4 @@
-﻿---
+---
 title: Beperk Dokument Redigering in Java
 second_title: Aspose.Words vir Java
 articleTitle: Beperk Dokument Redigering
@@ -7,6 +7,7 @@ description: "Beperk redigering van'n dokument deur die opstel van'n beperking t
 type: docs
 weight: 30
 url: /af/java/restrict-document-editing/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Soms moet jy dalk die vermoë om'n dokument te wysig beperk en slegs sekere aksies daarmee toelaat. Dit kan nuttig wees om te verhoed dat ander mense sensitiewe en vertroulike inligting in u dokument redigeer.

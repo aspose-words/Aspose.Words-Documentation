@@ -7,6 +7,7 @@ type: docs
 description: "DocumentBuilderを使用すると、動的文書をゼロから作成したり、新しい要素を既存の要素に追加したりすることができます。 DocumentBuilder は、テキスト、チェックボックス、テーブル、画像、その他のコンテンツ要素をテキスト、チェックボックス、テーブル、画像などの要素に差し込む方法を提供します。 Javaお問い合わせ"
 weight: 30
 url: /ja/java/document-builder-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) 強力なクラスで、 [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) 動的文書をゼロから作成したり、新しい要素を既存の要素に追加したりすることができます。

@@ -1,4 +1,4 @@
-﻿---
+---
 title: العمل مع الأشكال في C++
 second_title: Aspose.Words ل C++
 articleTitle: العمل مع الأشكال
@@ -7,6 +7,7 @@ type: docs
 description: "مقدمة في تشكيل لغة الترميز، وإنشاء أشكال من أنواع مختلفة باستخدام C++."
 weight: 280
 url: /ar/cpp/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 يناقش هذا الموضوع كيفية العمل برمجيا مع الأشكال باستخدام Aspose.Words.

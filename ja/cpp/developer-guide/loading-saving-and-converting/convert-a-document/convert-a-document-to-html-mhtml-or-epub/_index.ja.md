@@ -1,4 +1,4 @@
-﻿---
+---
 title: 文書をHTML、MHTML、またはEPUBに変換する
 second_title: C++の場合Aspose.Words
 articleTitle: 文書をHTML、MHTML、またはEPUBに変換する
@@ -7,6 +7,7 @@ description: "文書をほぼすべての形式からHTMLまたはMHTMLに変換
 type: docs
 weight: 20
 url: /ja/cpp/convert-a-document-to-html-mhtml-or-epub/
+timestamp: 2024-10-21-08-52-03
 ---
 
 HTMLおよびMHTMLフローレイアウト形式の文書も非常に一般的であり、任意のwebプラットフォームで使用できます。 そのため、文書をHTMLおよびMHTMLに変換することはAspose.Wordsの重要な機能です。

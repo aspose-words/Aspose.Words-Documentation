@@ -7,6 +7,7 @@ description: "テーブルの部分と作業 - 行、列、およびセルの使
 type: docs
 weight: 30
 url: /ja/java/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 テーブルがどのように機能するかをコントロールするには、列と行を操作する方法を学びます。

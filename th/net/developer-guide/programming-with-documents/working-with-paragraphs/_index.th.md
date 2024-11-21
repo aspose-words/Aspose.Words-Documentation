@@ -7,6 +7,7 @@ description: "แทรกย่อหน้าลงในเอกสาร C#
 type: docs
 weight: 210
 url: /th/net/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ย่อหน้าคือชุดอักขระที่รวมกันเป็นบล็อกแบบลอจิคัลและลงท้ายด้วยอักขระพิเศษ - *ตัวแบ่งย่อหน้า* ใน Aspose.Words ย่อหน้าจะแสดงโดยคลาส [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/)

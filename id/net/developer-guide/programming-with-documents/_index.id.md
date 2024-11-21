@@ -7,6 +7,7 @@ type: docs
 description: "Gunakan kelas Aspose.Words Document Object Model untuk membuat, memodifikasi, dan mengelola dokumen .NET secara terprogram menggunakan C#. Bekerja dengan properti dokumen, pengaturan, dan konten, serta tampilan dokumen melalui pengelolaan warna, bentuk, font, dan grafik lainnya."
 weight: 60
 url: /id/net/programming-with-documents/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Bagian ini memberikan informasi tentang cara membuat, memodifikasi, dan mengelola dokumen secara terprogram dengan kelas Aspose.Words Document Object Model. Artikel di bagian ini menjelaskan berbagai tugas manipulasi dokumen yang memungkinkan Anda bekerja dengan properti dokumen, pengaturan, konten, dan elemennya.

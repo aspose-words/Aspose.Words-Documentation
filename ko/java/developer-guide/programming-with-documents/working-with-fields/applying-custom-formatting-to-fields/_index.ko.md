@@ -7,6 +7,7 @@ description: "형식 및 평가 필드 결과 사용 Java·"
 type: docs
 weight: 40
 url: /ko/java/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 때로는 사용자가 필드에 사용자 정의 포맷을 적용해야합니다. 이 문서에서 우리는이 수행 할 수있는 방법의 몇 가지 예를 살펴볼 것입니다.

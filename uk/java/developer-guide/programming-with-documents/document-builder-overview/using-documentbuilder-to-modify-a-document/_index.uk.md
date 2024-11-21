@@ -7,6 +7,7 @@ type: docs
 description: "Використовуйте конструктор документів, щоб легко змінювати документ у Javaй"
 weight: 20
 url: /uk/java/using-documentbuilder-to-modify-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Форматування

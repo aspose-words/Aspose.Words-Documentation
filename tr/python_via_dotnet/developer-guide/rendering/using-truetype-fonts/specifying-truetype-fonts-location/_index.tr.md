@@ -7,6 +7,7 @@ description: "Çeşitli TrueType yazı tipi kaynaklarını belirtin: sistem klas
 type: docs
 weight: 30
 url: /tr/python-net/specifying-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Bu konu, işletim sistemine özgü farklılıklar da dahil olmak üzere TrueType yazı tiplerini ararken Aspose.Words'in varsayılan davranışını açıklar ve kullanıcı yazı tipi kaynaklarının nasıl belirtileceğini gösterir.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: كيفية العثور على خصائص الحقل
 second_title: Aspose.Words ل C++
 articleTitle: البحث عن خصائص الحقل
@@ -7,6 +7,7 @@ description: "كيفية العثور على بعض خصائص الحقل مثل
 type: docs
 weight: 25
 url: /ar/cpp/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 حقل يتم إدراجه باستخدام [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertfield/) إرجاع كائن [Field](https://reference.aspose.com/words/cpp/aspose.words.fields/field/). هذه فئة واجهة توفر طرقا مفيدة للعثور بسرعة على بعض خصائص الحقل.

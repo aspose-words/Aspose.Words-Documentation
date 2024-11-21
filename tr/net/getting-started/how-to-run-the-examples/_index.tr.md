@@ -7,6 +7,7 @@ description: "GitHub depomuzdan .NET için Aspose.Words örneklerini indirin ve 
 type: docs
 weight: 110
 url: /tr/net/how-to-run-the-examples/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Aspose.Words olanaklarını ve özelliklerini daha yakından tanımak için GitHub depomuzdan indirilebilecek, çalıştırılabilecek ve ayrıntılı olarak öğrenilebilecek örnekler sunuyoruz.

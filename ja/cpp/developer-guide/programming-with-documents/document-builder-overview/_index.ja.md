@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++でのドキュメントビルダーの概要
 second_title: C++の場合Aspose.Words
 articleTitle: ドキュメントビルダーの概要
@@ -7,6 +7,7 @@ type: docs
 description: "DocumentBuilderを使用すると、c++を使用して動的なドキュメントを最初から構築したり、既存のドキュメントに新しい要素を追加したりできます。 DocumentBuilderは、テキスト、チェックボックス、表、画像、およびその他のコンテンツ要素をC++で挿入するメソッドを提供します。"
 weight: 30
 url: /ja/cpp/document-builder-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/)は[Document](https://reference.aspose.com/words/cpp/aspose.words/document/)に関連付けられた強力なクラスで、動的なドキュメントを最初から作成したり、既存のドキュメントに新しい要素を追加したりできます。[DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/)は、[Document](https://reference.aspose.com/words/cpp/aspose.words/document/)に関連付けられた強力なクラスです。

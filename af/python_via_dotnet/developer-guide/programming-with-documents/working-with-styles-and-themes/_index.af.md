@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Style en Temas
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Werk Met Style en Temas
@@ -7,6 +7,7 @@ description: "Toegang tot en bestuur style en temas in'n dokument met behulp van
 type: docs
 weight: 110
 url: /af/python-net/working-with-styles-and-themes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Die [StyleCollection](https://reference.aspose.com/words/python-net/aspose.words/stylecollection/) klas word gebruik om ingeboude te bestuur en gebruiker-gedefinieerde instellings toe te pas op style.

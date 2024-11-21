@@ -10,6 +10,7 @@ aliases:
     - /cpp/working-with-hyperlinks-and-html/
 weight: 180
 url: /cpp/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A hyperlink in Microsoft Word documents is the `HYPERLINK` field. In Aspose.Words, hyperlinks are implemented through the [FieldHyperlink](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldhyperlink/) class.

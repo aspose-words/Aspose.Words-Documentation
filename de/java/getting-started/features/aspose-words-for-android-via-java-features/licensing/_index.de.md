@@ -7,6 +7,7 @@ description: "Lizenzierung Aspose.Words für Android über Java."
 type: docs
 weight: 60
 url: /de/java/licensing-android/
+timestamp: 2024-02-02-12-07-36
 ---
 
 Manchmal, um das System besser zu studieren, möchten Sie so schnell wie möglich in den Code eintauchen. Um dies zu erleichtern, Aspose.Words bietet verschiedene Kaufpläne oder bietet eine kostenlose Testversion und eine 30-tägige temporäre Lizenz zur Bewertung an.

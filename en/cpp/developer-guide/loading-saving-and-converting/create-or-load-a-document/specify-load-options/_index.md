@@ -7,6 +7,7 @@ description: "More accurately control the load process."
 type: docs
 weight: 10
 url: /cpp/specify-load-options/
+timestamp: 2024-01-30-16-22-34
 ---
 
 When loading a document, you can set some advanced properties. Aspose.Words provides you with the [LoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/loadoptions/) class, which allows more precise control of the load process. Some load formats have a corresponding class that holds load options for this load format, for example, there is [PdfLoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/pdfloadoptions/) for loading to PDF format or [TxtLoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/txtloadoptions/) for loading to TXT. This article provides examples of working with options of the **LoadOptions** class.

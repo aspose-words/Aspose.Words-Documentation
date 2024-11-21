@@ -7,6 +7,7 @@ description: "Buat dan modifikasi penyematan OLE di dokumen Anda menggunakan C#.
 type: docs
 weight: 360
 url: /id/net/working-with-ole-objects/
+timestamp: 2024-01-27-14-07-04
 ---
 
 OLE (Object Linking and Embedding) adalah teknologi dimana pengguna dapat bekerja dengan dokumen yang berisi "objek" yang dibuat atau diedit oleh aplikasi pihak ketiga. Artinya, OLE mengizinkan aplikasi pengeditan untuk mengekspor "objek" ini ke aplikasi pengeditan lain dan kemudian mengimpornya dengan konten tambahan.

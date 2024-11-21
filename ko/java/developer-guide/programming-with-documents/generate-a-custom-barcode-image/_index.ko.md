@@ -7,6 +7,7 @@ description: "바코드 모양 생성 예시 Java 사용."
 type: docs
 weight: 350
 url: /ko/java/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/
+timestamp: 2024-09-05-11-07-10
 ---
 
 바코드는 데이터를 병렬 선이나 패턴으로 표시하는 시각적 표현입니다. 바코드는 소매업, 물류, 의료, 금융 등 다양한 산업에서 널리 사용되고 있습니다.

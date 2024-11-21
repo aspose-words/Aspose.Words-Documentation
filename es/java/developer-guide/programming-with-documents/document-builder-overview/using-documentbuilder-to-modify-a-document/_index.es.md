@@ -7,6 +7,7 @@ type: docs
 description: "Utilice el constructor de documentos para modificar fácilmente un documento Java."
 weight: 20
 url: /es/java/using-documentbuilder-to-modify-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Formato de especificación

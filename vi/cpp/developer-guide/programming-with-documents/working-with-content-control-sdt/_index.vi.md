@@ -1,4 +1,4 @@
-﻿---
+---
 title: Làm Việc Với Content Control SDT
 second_title: Aspose.Words cho C++
 articleTitle: Làm Việc Với Content Control SDT
@@ -7,6 +7,7 @@ type: docs
 description: "Quản lý nội dung tài liệu nâng cao, cách tạo và thao tác điều khiển nội dung (Thẻ Tài liệu Có Cấu trúc) bằng C++."
 weight: 390
 url: /vi/cpp/structured-document-tags-or-content-control/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Trong Microsoft Word, bạn có thể tạo biểu mẫu bằng cách bắt đầu bằng mẫu và thêm các điều khiển nội dung, bao gồm hộp kiểm, hộp văn bản, bộ chọn ngày và danh sách thả xuống. Trong Aspose.Words, Thẻ Tài liệu Có Cấu trúc Hoặc kiểm soát nội dung từ bất kỳ tài liệu nào được tải vào Aspose.Words được nhập dưới dạng nút StructuredDocumentTag. Thẻ tài liệu có cấu trúc (SDT hoặc kiểm soát nội dung) cho phép nhúng ngữ nghĩa do khách hàng xác định cũng như hành vi và giao diện của nó vào tài liệu. StructuredDocumentTag có thể xảy ra trong một tài liệu ở những nơi sau:

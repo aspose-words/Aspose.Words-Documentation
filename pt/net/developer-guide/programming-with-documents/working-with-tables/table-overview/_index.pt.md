@@ -7,6 +7,7 @@ description: "Trabalhe com tabelas e seus componentes, como células, linhas e c
 type: docs
 weight: 10
 url: /pt/net/table-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words é uma biblioteca de classes projetada para processamento de documentos no lado do servidor em vários formatos – PDF, HTML, diferentes formatos Microsoft Word e outros – e suporta tabelas das seguintes maneiras:

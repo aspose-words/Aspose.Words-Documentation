@@ -7,6 +7,7 @@ type: docs
 description: "Encontre uma string ou padrão de expressão regular em seu documento e substitua-a pelo texto que você deseja usar Java."
 weight: 100
 url: /pt/java/find-and-replace/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Você pode facilmente navegar dentro de seu documento usando um teclado e mouse, mas se você tem muitas páginas para rolar através, demorará bastante tempo para encontrar texto específico em um documento longo. Será mais demorado quando você quiser substituir certos caracteres ou palavras que você usou em seu documento. A funcionalidade "Encontrar e substituir" permite encontrar uma sequência de caracteres em um documento e substituí-lo por outra sequência de caracteres.

@@ -7,6 +7,7 @@ description: "Inhoudsopgave in details. Aanmaken en wijzigen `TOC` veld gebruike
 type: docs
 weight: 170
 url: /nl/net/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Vaak werk je met documenten die een inhoudsopgave bevatten (TOC). Gebruik Aspose.Words U kunt uw eigen inhoudsopgave invoegen of bestaande inhoudsopgave volledig herbouwen in het document met slechts een paar regels code. Dit artikel beschrijft hoe te werken met de inhoudsopgave en toont:

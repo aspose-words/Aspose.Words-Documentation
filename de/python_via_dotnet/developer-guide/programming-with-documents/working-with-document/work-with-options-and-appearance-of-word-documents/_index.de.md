@@ -7,6 +7,7 @@ description: "Steuern Sie das Erscheinungsbild von Word-Dokumenten unter Berück
 type: docs
 weight: 40
 url: /de/python-net/work-with-word-document-options-and-appearance/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Manchmal müssen Sie möglicherweise das Erscheinungsbild eines Dokuments ändern, beispielsweise Spracheinstellungen oder die Anzahl der Zeilen pro Seite festlegen. Aspose.Words bietet die Möglichkeit, die Anzeige des Dokuments sowie einige zusätzliche Optionen zu steuern. Dieser Artikel beschreibt solche Möglichkeiten.

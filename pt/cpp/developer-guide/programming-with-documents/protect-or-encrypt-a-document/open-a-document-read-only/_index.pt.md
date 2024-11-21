@@ -1,4 +1,4 @@
-﻿---
+---
 title: Abrir um documento somente leitura em C++
 second_title: Aspose.Words para C++
 articleTitle: Abrir um documento apenas leitura
@@ -7,6 +7,7 @@ description: "Torne o seu documento apenas de leitura para que o conteúdo possa
 type: docs
 weight: 10
 url: /pt/cpp/open-a-document-read-only/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Às vezes, você pode ter um documento que precisa de uma revisão, mas não deseja que os revisores modifiquem aleatoriamente seu conteúdo. Aspose.Words permite que você faça a permissão do seu documento somente leitura para que o conteúdo possa ser copiado ou lido, mas não modificado. Isso impedirá que o conteúdo seja removido ou adicionado ao seu documento.

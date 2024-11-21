@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words untuk .NET mengakui dan mematuhi standar keamanan umum untuk memastikan keamanan data tingkat tinggi. Lihatlah kemungkinan masalah keamanan dan rekomendasi tentang cara menghindarinya menggunakan C#."
 weight: 100
 url: /id/net/security/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Keamanan membantu melindungi data dari akses tidak sah, serta perubahan berbahaya atau tidak disengaja. Aspose.Words sangat memperhatikan keamanan data pelanggan, oleh karena itu, Aspose.Words mengakui dan mematuhi standar keamanan umum.

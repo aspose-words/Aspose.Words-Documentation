@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++での図形の操作
 second_title: C++の場合Aspose.Words
 articleTitle: 図形の操作
@@ -7,6 +7,7 @@ type: docs
 description: "Shape markup languageの概要、C++を使用してさまざまな型の図形を作成します。"
 weight: 280
 url: /ja/cpp/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 このトピックでは、Aspose.Wordsを使用して図形をプログラムで操作する方法について説明します。

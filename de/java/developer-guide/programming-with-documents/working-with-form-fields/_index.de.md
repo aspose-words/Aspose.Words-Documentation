@@ -7,6 +7,7 @@ description: "Formfelder verstehen, mit Formularfeldern arbeiten Java."
 type: docs
 weight: 380
 url: /de/java/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ein Dokument, das Einfüllrohlinge (Felder) enthält, ist als Formular bekannt. Zum Beispiel können Sie ein Anmeldeformular in erstellen Microsoft Word die Dropdown-Listen verwendet, aus denen Benutzer Einträge auswählen können. Die `Form` Ein Feld ist ein Ort, an dem eine bestimmte Art von Daten, wie ein Name oder eine Adresse, gespeichert wird. Formularfelder in Microsoft Word enthalten Texteingabe, Combobox und Checkbox.

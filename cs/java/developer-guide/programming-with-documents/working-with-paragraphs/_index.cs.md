@@ -7,6 +7,7 @@ description: "Manipulační postupy podle odstavce uzel Java."
 type: docs
 weight: 210
 url: /cs/java/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Odstavec je soubor znaků spojených s logickým blokem a končícím speciálním znakem a *bodovým zlomem*. In Aspose.Words, odstavec představuje [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) třída.

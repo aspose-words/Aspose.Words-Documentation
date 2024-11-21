@@ -1,4 +1,4 @@
-﻿---
+---
 title: Melindungi atau Mengenkripsi Dokumen dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Melindungi atau Mengenkripsi Dokumen
@@ -7,6 +7,7 @@ description: "Aspose.Words untuk C++ menyediakan Hanya-Baca, Mengenkripsi Dokume
 type: docs
 weight: 50
 url: /id/cpp/protect-or-encrypt-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Alasan utama untuk melindungi atau mengenkripsi dokumen adalah untuk menerapkan kontrol lebih besar atas siapa yang dapat mengakses dokumen atau siapa yang dapat mengeditnya. Menerapkan perlindungan pada dokumen Anda, Anda menghindari risiko umum seperti menyalin atau memodifikasi dokumen tanpa izin, serta kebocoran data.

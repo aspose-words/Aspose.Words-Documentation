@@ -7,6 +7,7 @@ description: "Bagaimana menemukan font yang tepat atau penggantian yang sesuai, 
 type: docs
 weight: 20
 url: /id/java/using-truetype-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ketika bekerja dengan dokumen, Anda sering harus menggunakan font, gaya, dan ukuran yang berbeda. Dokumen dapat berisi sejumlah font, yang tidak tentu terbatas pada font yang dipasang di sistem operasi. Font dapat benar-benar berbeda, seperti font yang diambil dari sistem operasi lain, dibeli, atau dibuat oleh pengguna sendiri.

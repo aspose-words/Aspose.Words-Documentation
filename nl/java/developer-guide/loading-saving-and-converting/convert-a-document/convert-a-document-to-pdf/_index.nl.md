@@ -7,6 +7,7 @@ description: "Converteer een document in Word of een ander ondersteund formaat n
 type: docs
 weight: 10
 url: /nl/java/convert-a-document-to-pdf/
+timestamp: 2024-01-31-14-23-37
 ---
 
 De mogelijkheid om gemakkelijk en betrouwbaar documenten te converteren van het ene formaat naar het andere is een belangrijke functie van Aspose.Words. Een van de meest populaire formaten voor het omzetten is PDF een vaste-layout formaat, die het oorspronkelijke uiterlijk van een document tijdens de weergave op verschillende platforms behoudt. De term "rendering" wordt gebruikt in Aspose.Words beschrijven van het proces van het omzetten van een document in een bestandsformaat dat wordt gepagineerd of heeft het concept van pagina's.

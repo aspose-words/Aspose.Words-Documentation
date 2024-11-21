@@ -7,6 +7,7 @@ description: "Tính năng chi tiết của các trường, mã trường và k�
 type: docs
 weight: 10
 url: /vi/net/fields-overview/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words là thư viện lớp được thiết kế để xử lý tài liệu Microsoft Word phía máy chủ và hỗ trợ các trường theo các cách sau:

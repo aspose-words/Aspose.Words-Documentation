@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cách Đặt Thuộc Tính Trục Biểu đồ trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Cách Đặt Thuộc Tính Trục Biểu đồ
@@ -7,6 +7,7 @@ description: "Điều chỉnh trục biểu đồ bằng C++."
 type: docs
 weight: 20
 url: /vi/cpp/how-to-set-chart-axis-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Nếu bạn muốn làm việc với các đơn vị trục biểu đồ, tỷ lệ và hiển thị cho trục giá trị, vui lòng sử dụng các lớp [ChartAxis](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.chart_axis), [AxisDisplayUnit](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.axis_display_unit) và [AxisScaling](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.axis_scaling).

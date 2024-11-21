@@ -8,6 +8,7 @@ url: /ko/net/create-or-load-a-document/
 description: "빈 문서를 만들거나 C#를 사용하여 파일이나 스트림에서 로드합니다."
 keywords: "create a document c#, load a document c#, create a blank document c#, load a document from file c#, load a document from stream c#, create a document Aspose .NET, load a document Aspose .NET, load formats supported by Aspose.Words .NET"
 weight: 10
+timestamp: 2024-07-09-19-00-42
 ---
 
 Aspose.Words로 수행하려는 거의 모든 작업에는 문서 로드가 포함됩니다. `Document` 클래스는 메모리에 로드된 문서를 나타냅니다. 문서에는 빈 문서를 만들거나 파일이나 스트림에서 로드할 수 있는 여러 오버로드된 생성자가 있습니다. 문서는 Aspose.Words에서 지원하는 모든 로드 형식으로 로드할 수 있습니다. 지원되는 모든 로드 형식 목록은 [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/) 열거를 참조하세요.

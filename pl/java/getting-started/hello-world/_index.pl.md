@@ -7,6 +7,7 @@ description: "Tworzenie, edytowanie i zapisywanie pierwszego dokumentu w dowolny
 type: docs
 weight: 20
 url: /pl/java/hello-world/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Kod "Hello, World!" jest często pierwszym prostym przykładem do napisania uisng "Aspose.Words zamiast Java"i może być również stosowany jako test psychiczny w celu zapewnienia poprawnego zainstalowania oprogramowania przeznaczonego do kompilacji lub uruchamiania kodu źródłowego.

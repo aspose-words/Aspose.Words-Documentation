@@ -7,6 +7,7 @@ description: "התקן Aspose.Words עבור .NET באמצעות שימוש Visu
 type: docs
 weight: 10
 url: /he/net/installation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ודא שהמכונה שלך פוגשת [דרישות מערכת](/words/he/net/system-requirements/) לפני שתתחיל.

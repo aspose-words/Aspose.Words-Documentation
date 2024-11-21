@@ -7,6 +7,7 @@ type: docs
 description: "وتسمح الوثيقة لكم ببناء وثائق دينامية من الصفر أو إضافة عناصر جديدة إلى العناصر القائمة. تُوفِّر الوثيقة طرائق لإدراج النص، وصناديق التفتيش، والجداول، والصور، وعناصر المحتوى الأخرى في النص Java."
 weight: 30
 url: /ar/java/document-builder-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) هو الطبقة القوية التي ترتبط مع [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) ويمكّنك من بناء وثائق دينامية من الصفر أو إضافة عناصر جديدة إلى واحدة قائمة.

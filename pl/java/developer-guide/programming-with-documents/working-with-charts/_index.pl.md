@@ -7,6 +7,7 @@ description: "Wprowadzenie do funkcji wykresu, jak tworzyć i manipulować wykre
 type: docs
 weight: 310
 url: /pl/java/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Nowy [insertChart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertChart-int-double-double) metoda została dodana do [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) Klasa. Zobaczmy jak umieścić prosty wykres kolumn w dokumencie używając **wstawić Wykres** Metoda.

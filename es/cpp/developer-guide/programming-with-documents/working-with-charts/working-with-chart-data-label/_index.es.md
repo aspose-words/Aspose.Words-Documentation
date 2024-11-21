@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trabajar con Etiquetas de Datos de gráficos en C++
 second_title: Aspose.Words para C++
 articleTitle: Trabajar con la Etiqueta de Datos del Gráfico
@@ -7,6 +7,7 @@ description: "Ajuste de etiquetas de datos de gráficos usando C++."
 type: docs
 weight: 30
 url: /es/cpp/working-with-chart-data-label/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words permite a los usuarios trabajar con ChartDataLabel de varias maneras.

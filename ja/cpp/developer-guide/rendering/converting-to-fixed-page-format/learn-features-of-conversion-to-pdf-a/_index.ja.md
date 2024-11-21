@@ -1,4 +1,4 @@
-﻿---
+---
 title: PDF/AおよびPDF/UAへの変換
 second_title: C++の場合Aspose.Words
 articleTitle: PDF/AとPDF/UAへの変換の特徴を学ぶ
@@ -7,6 +7,7 @@ description: "に変換するPDF/A-1, PDF/A-2, PDF/A-4 とPDF/UAc++を使用し�
 type: docs
 weight: 35
 url: /ja/cpp/learn-features-of-conversion-to-pdf-a-pdf-ua/
+timestamp: 2024-01-31-14-23-37
 ---
 
 PDFは固定ページ形式であり、ユーザーの間で非常に人気があり、さまざまなアプリケーションで広くサポートされています。PDF文書はどのデバイスでも同じように見えます。 このため、PDFへの変換はAspose.Wordsの重要な機能です。

@@ -7,6 +7,7 @@ description: "얼마나 많은 메모리가 Aspose.Words 제품정보 Java 문�
 type: docs
 weight: 10
 url: /ko/java/memory-requirements/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words 다양한 형식의 문서로 작업할 수 있는 다양한 기능을 제공합니다. 문서 파일의 최대 크기에 제한이 없다는 점에 중요합니다. Aspose.Words 프로세스 또는 렌더링 할 수 있습니다. 유일한 제한은 당신의 측에 유효한 렘 (memory)의 양입니다.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Comparar documentos en C++
 second_title: Aspose.Words para C++
 articleTitle: Comparar Documentos
@@ -7,6 +7,7 @@ type: docs
 description: "Compare dos documentos en cualquier formato compatible y muestre los cambios de contenido usando C++. Puede aplicar opciones avanzadas al comparar."
 weight: 60
 url: /es/cpp/compare-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 La comparación de documentos es un proceso que identifica los cambios entre dos documentos y contiene los cambios como revisiones. Este proceso compara dos documentos cualesquiera, incluidas las versiones de un documento específico, luego los cambios entre ambos documentos se mostrarán como revisiones en el primer documento.

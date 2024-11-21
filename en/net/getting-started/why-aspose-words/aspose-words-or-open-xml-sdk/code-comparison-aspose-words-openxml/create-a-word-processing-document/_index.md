@@ -7,6 +7,7 @@ description: "Create a Word Processing document easily and fast instead of using
 type: docs
 weight: 10
 url: /net/create-a-word-processing-document/
+timestamp: 2024-01-30-16-22-34
 ---
 
 On this page we will look at how to create a document using Aspose.Words or Open XML SDK.

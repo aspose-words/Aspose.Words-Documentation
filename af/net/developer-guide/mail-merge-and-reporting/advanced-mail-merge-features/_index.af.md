@@ -1,4 +1,4 @@
-﻿---
+---
 title: Gevorderde Mail Merge Funksies in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Gevorderde Mail Merge Funksies
@@ -8,6 +8,7 @@ description: "Aspose.Words vir .NET bied'n paar gevorderde mail merge funksies w
 keywords: "use advanced mail merge features c#"
 weight: 50
 url: /af/net/advanced-mail-merge-features/
+timestamp: 2024-07-11-08-07-06
 ---
 
 Aspose.Words bied'n paar addisionele mail merge eienskappe en metodes wat jou toelaat om verdere aanpassing van die mail merge proses uit te voer in eenvoudige mail merge of mail merge met streke.

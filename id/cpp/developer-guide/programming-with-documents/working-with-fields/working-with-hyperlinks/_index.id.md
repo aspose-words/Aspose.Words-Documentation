@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bekerja dengan Hyperlink di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Menambahkan atau Memodifikasi Hyperlink
@@ -7,6 +7,7 @@ description: "Cara menambahkan hyperlink ke dalam dokumen Anda menggunakan Aspos
 type: docs
 weight: 180
 url: /id/cpp/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Hyperlink dalam dokumen Microsoft Word adalah bidang `HYPERLINK`. Dalam Aspose.Words, hyperlink diimplementasikan melalui kelas [FieldHyperlink](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldhyperlink/).

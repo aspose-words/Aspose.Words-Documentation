@@ -7,6 +7,7 @@ description: "Học cách thay thế trường với văn bản trong Java. Thay
 type: docs
 weight: 37
 url: /vi/java/replace-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Thay thế các trường thường được yêu cầu khi bạn muốn lưu tài liệu của bạn dưới dạng bản sao tĩnh. Ví dụ, khi gửi đính kèm trong một email. Chuyển đổi các trường như `DATE` hoặc `TIME` thành văn bản tĩnh sẽ cho phép tài liệu hiển thị cùng ngày khi nó được gửi. Cũng vậy, trong một số tình huống, bạn có thể cần phải loại bỏ các trường điều kiện `IF` từ tài liệu của bạn và thay thế chúng bằng kết quả văn bản mới nhất. Ví dụ như chuyển đổi kết quả của trường `IF` thành văn bản tĩnh để không còn thay đổi giá trị tự động khi các trường trong tài liệu được cập nhật.

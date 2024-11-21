@@ -7,6 +7,7 @@ description: "Wählen Sie den besten PDF-Standard, um das Ergebnis Ihrer Program
 type: docs
 weight: 27
 url: /de/python-net/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Für manche Aufgaben eignen sich bestimmte PDF-Standards besser oder umgekehrt. In diesem Artikel versuchen wir herauszufinden, welche PDF-Standards in welchen Fällen sinnvoll sind.

@@ -7,6 +7,7 @@ description: "ตั้งค่าคุณสมบัติขั้นสู
 type: docs
 weight: 10
 url: /th/java/specify-load-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 เมื่อมีการเรียกเอกสาร คุณสามารถตั้งค่าคุณสมบัติบางอย่างได้ Aspose.Words ให้คุณกับ [LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/) คลาสนี้อนุญาตให้ควบคุมกระบวนการโหลดได้แม่นยํามากขึ้น รูปแบบการโหลดบางแบบมีคลาสที่สอดคล้องกัน ซึ่งบรรจุตัวเลือกในการโหลดในรูปแบบนี้ ตัวอย่างเช่น มี [PdfLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/) สําหรับการโหลดในรูปแบบ PDF หรือ [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) สําหรับการโหลดไปที่ TXT บทความ นี้ ให้ ตัว อย่าง ของ การ ทํา งาน ด้วย ทาง เลือก ต่าง ๆ **LoadOptions** ชั้นเรียน.

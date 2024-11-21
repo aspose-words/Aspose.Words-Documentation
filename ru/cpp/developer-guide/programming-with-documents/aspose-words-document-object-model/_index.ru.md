@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words Объектная модель документа (DOM) на C++
 second_title: Aspose.Words для C++
 articleTitle: Aspose.Words Объектная модель документа (DOM)
@@ -7,6 +7,7 @@ type: docs
 description: "Объектная модель документа (DOM) - это представление документа Word в памяти. Чтение, манипулирование и изменение содержимого и форматирования документа Word с помощью C++."
 weight: 10
 url: /ru/cpp/aspose-words-document-object-model/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Объектная модель документа Aspose.Words (DOM) - это представление документа Word в памяти. Aspose.Words DOM позволяет программно считывать содержимое и форматирование документа Word, манипулировать ими и изменять их.

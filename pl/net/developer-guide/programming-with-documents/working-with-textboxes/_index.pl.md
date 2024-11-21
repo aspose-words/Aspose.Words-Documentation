@@ -7,6 +7,7 @@ description: "Wprowadzenie do funkcji połączonych pól tekstowych w Aspose.Wor
 type: docs
 weight: 250
 url: /pl/net/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 W Aspose.Words klasa [TextBox](https://reference.aspose.com/words/net/aspose.words.drawing/textbox/) służy do określenia sposobu wyświetlania tekstu wewnątrz kształtu. Udostępnia publiczną właściwość o nazwie **Parent**, aby uzyskać kształt nadrzędny pola tekstowego, dzięki czemu klient może znaleźć połączony [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) z powiązanego **TextBox**.

@@ -7,6 +7,7 @@ description: ".NET용 Aspose.Words에서 제공하는 세부적인 이미지 모
 type: docs
 weight: 300
 url: /ko/net/working-with-images/
+timestamp: 2024-05-02-11-51-44
 ---
 
 Aspose.Words를 사용하면 사용자는 매우 유연한 방식으로 이미지 작업을 할 수 있습니다. 이 기사에서는 이미지 작업의 가능성 중 일부만 살펴보겠습니다.

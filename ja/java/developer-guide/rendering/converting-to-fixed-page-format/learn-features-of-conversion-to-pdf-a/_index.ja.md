@@ -7,6 +7,7 @@ description: "PDF/A-1、PDF/A-2、PDF/A-4、PDF/UAへの変換 Javaお問い合�
 type: docs
 weight: 25
 url: /ja/java/learn-features-of-conversion-to-pdf-a-pdf-ua/
+timestamp: 2024-01-31-14-23-37
 ---
 
 PDFはユーザーの間で非常に人気があり、さまざまなアプリケーションで広くサポートされています。PDFドキュメントは任意のデバイスで同じように見えます。 そのため、PDFへの変換は重要な機能です Aspose.Wordsお問い合わせ

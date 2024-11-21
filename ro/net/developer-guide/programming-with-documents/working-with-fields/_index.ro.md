@@ -7,6 +7,7 @@ description: "Introducere la caracteristica câmpului în Aspose.Words pentru .N
 type: docs
 weight: 370
 url: /ro/net/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 **Fields** într-un document sunt ca marcaje de loc unde pot fi introduse date utile. "De exemplu, un câmp poate fi o referință de pagină, o formulă sau un mail merge câmp."

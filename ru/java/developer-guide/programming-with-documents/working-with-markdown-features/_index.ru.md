@@ -7,6 +7,7 @@ description: "Как реализовать Markdown особенности ис
 type: docs
 weight: 420
 url: /ru/java/working-with-markdown-features/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Эта тема посвящена тому, как реализовать Markdown особенности использования Aspose.Words. Markdown Это простой способ форматирования простого текста, который может быть легко преобразован в HTML. Aspose.Words поддерживает следующие Markdown особенности:

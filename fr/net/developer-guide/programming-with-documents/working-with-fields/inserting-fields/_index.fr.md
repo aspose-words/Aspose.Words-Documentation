@@ -7,6 +7,7 @@ description: "Comment insérer des champs dans un document à l'aide de C# – d
 type: docs
 weight: 20
 url: /fr/net/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Il existe plusieurs manières d'insérer des champs dans un document:

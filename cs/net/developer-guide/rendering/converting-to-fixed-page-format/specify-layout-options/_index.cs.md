@@ -7,6 +7,7 @@ description: "Upřesnit rozložení Možnosti pro různé rozvržení dokumentů
 type: docs
 weight: 10
 url: /cs/net/specify-layout-options/
+timestamp: 2024-07-10-08-10-45
 ---
 
 Aspose.Words umožňuje vytvářet výstupní dokumenty s různými rozloženími, v závislosti na parametrech uvedených ve vlastnostech [LayoutOptions](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/) třída. Některé z těchto vlastností připomínají některé z Microsoft Word možnosti menu uživatelského rozhraní a budou popsány v tomto článku.

@@ -7,6 +7,7 @@ description: "Using Aspose.Words for .NET in a Microsoft SharePoint environment 
 type: docs
 weight: 10
 url: /net/about-aspose-words-and-sharepoint/
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

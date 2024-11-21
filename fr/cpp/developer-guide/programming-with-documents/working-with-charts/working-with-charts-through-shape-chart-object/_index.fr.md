@@ -1,4 +1,4 @@
-﻿---
+---
 title: Utilisation de graphiques via `Shape.Chart` Objet
 second_title: Aspose.Words pour C++
 articleTitle: Utilisation de graphiques via `Shape.Chart` Objet
@@ -7,6 +7,7 @@ description: "Graphiques en détail, comment le graphique est lié au nœud de f
 type: docs
 weight: 10
 url: /fr/cpp/working-with-charts-through-shape-chart-object/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Une fois le graphique inséré et rempli de données, vous pouvez modifier son apparence. la propriété `Shape.Chart` contient toutes les options liées au graphique disponibles via l'API publique.

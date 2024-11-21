@@ -1,4 +1,4 @@
-﻿---
+---
 title: Salvarea în format de pagină fixă în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Salvarea unui Document în format de pagină fixă
@@ -7,6 +7,7 @@ description: "Cum se salvează un document într-un format de pagină fixă– P
 type: docs
 weight: 15
 url: /ro/cpp/saving-a-document-to-fixed-page-format/
+timestamp: 2024-09-24-14-35-44
 ---
 
 După ce aspectul paginii este construit și geometria obiectelor și poziția lor pe pagină sunt calculate, documentul poate fi salvat într-un format de pagină fixă acceptat de Aspose.Words.

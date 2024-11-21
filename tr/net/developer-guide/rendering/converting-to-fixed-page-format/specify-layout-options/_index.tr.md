@@ -7,6 +7,7 @@ description: "C#'i kullanarak çeşitli belge düzenleri için Düzen Seçenekle
 type: docs
 weight: 10
 url: /tr/net/specify-layout-options/
+timestamp: 2024-07-10-08-10-45
 ---
 
 Aspose.Words, [LayoutOptions](https://reference.aspose.com/words/tr/net/aspose.words.layout/layoutoptions/) sınıfının özelliklerinde belirtilen parametrelere bağlı olarak çeşitli düzenlerde çıktı belgeleri oluşturmanıza olanak sağlar. Bu özelliklerin bazıları Microsoft Word kullanıcı arayüzü menü seçeneklerinin bazılarına benzemektedir; bunlar bu makalede açıklanacaktır.

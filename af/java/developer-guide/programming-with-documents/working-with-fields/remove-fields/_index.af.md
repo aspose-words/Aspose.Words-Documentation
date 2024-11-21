@@ -1,4 +1,4 @@
-﻿---
+---
 title: Verwyder Velde in Java
 second_title: Aspose.Words vir Java
 articleTitle: Verwyder Velde
@@ -7,6 +7,7 @@ description: "Leer hoe om velde in Java te verwyder. Verwyder velde programmatie
 type: docs
 weight: 35
 url: /af/java/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Soms is dit nodig om'n veld uit die dokument te verwyder. Dit kan voorkom wanneer dit vervang moet word met'n ander veld tipe of wanneer die veld is nie meer nodig in die dokument. Byvoorbeeld'n `TOC` veld wanneer jy stoor na HTML.

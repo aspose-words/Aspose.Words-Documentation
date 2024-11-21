@@ -7,6 +7,7 @@ description: "Comprendere concetti di segnalibro e come segnalibro può essere u
 type: docs
 weight: 180
 url: /it/java/working-with-bookmarks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Segnalibri identificarsi in un Microsoft Word documentare le posizioni o i frammenti che si nomina e identificare per riferimento futuro. Ad esempio, si potrebbe utilizzare un segnalibro per identificare il testo che si desidera rivedere in seguito. Invece di scorrere attraverso il documento per individuare il testo, è possibile andare a esso utilizzando la finestra di dialogo Segnalibro.

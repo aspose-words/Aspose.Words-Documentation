@@ -7,6 +7,7 @@ description: "مقدمه ای بر ویژگی نمودار، نحوه ایجاد
 type: docs
 weight: 310
 url: /fa/net/working-with-charts/
+timestamp: 2024-02-05-15-07-18
 ---
 
 روش جدید [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) به کلاس [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) اضافه شد. بنابراین، بیایید ببینیم چگونه با استفاده از روش [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) یک نمودار ستونی ساده را در سند وارد کنیم.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Skakel'n Dokument om na Markdown in Java
 second_title: Aspose.Words vir Java
 articleTitle: Skakel'n Dokument om na Markdown
@@ -8,6 +8,7 @@ description: "Skakel'n dokument in enige ondersteun vrag formaat na Markdown en 
 keywords: how to convert a document to markdown Java, save as MD, DOCX to MD
 weight: 33
 url: /af/java/convert-a-document-to-markdown/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Markdown is'n gewilde formaat wat gebruik word om teks op te merk en dit word verder omgeskakel na HTML, PDF, DOCX, of ander formate. Baie ontwikkelaars kies hierdie formaat vir die skryf van dokumentasie, die voorbereiding van artikels vir publikasie op blogs, die beskrywing van projekte, ensovoorts.

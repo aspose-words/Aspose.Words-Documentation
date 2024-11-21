@@ -7,6 +7,7 @@ description: "Wprowadzenie do funkcji Office Math w formacie Aspose.Words dla .N
 type: docs
 weight: 320
 url: /pl/net/working-with-officemath/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Teraz praca z obiektami typu OfficeMath jest jeszcze wygodniejsza. W Aspose.Words klient może łatwo uzasadnić, a także zarządzać tym, czy równanie ma być wyświetlane w linii, czy w osobnej linii. Co więcej, dzięki dostępności **MathObjectType**; przydatne elementy sterujące można zaimplementować za pomocą tego obiektu matrix.

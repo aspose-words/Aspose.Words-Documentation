@@ -7,6 +7,7 @@ description: "Aspose.Words برای Java استفاده از چندین الگو
 type: docs
 weight: 80
 url: /fa/java/fips-mode/
+timestamp: 2024-05-08-10-19-58
 ---
 
 Aspose.Words استفاده از چندین الگوریتم رمزنگاری و هش در هنگام پردازش اسناد و این مقاله توضیح می دهد که چگونه با استانداردهای FIPS مرتبط است.

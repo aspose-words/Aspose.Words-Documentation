@@ -7,6 +7,7 @@ description: "הגדרות פונטניות מותאמות לשימוש Python."
 type: docs
 weight: 230
 url: /he/python-net/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 גופן הוא קבוצה של דמויות עם גודל מסוים, צבע ועיצוב. Aspose.Words מאפשר לך לעבוד עם גופנים באמצעות [fonts](https://reference.aspose.com/words/python-net/aspose.words.fonts/) מודול ו [Font](https://reference.aspose.com/words/python-net/aspose.words/font/) מעמד.

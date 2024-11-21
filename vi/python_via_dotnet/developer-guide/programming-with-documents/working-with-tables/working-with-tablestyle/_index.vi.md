@@ -7,6 +7,7 @@ description: "Định dạng bảng nâng cao C#. Tạo kiểu bảng bằng Pyt
 type: docs
 weight: 80
 url: /vi/python-net/working-with-tablestyle/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Kiểu bảng xác định một tập hợp định dạng có thể dễ dàng áp dụng cho bảng. Định dạng như đường viền, tô bóng, căn chỉnh và phông chữ có thể được đặt theo kiểu bảng và áp dụng cho nhiều bảng để có giao diện nhất quán.

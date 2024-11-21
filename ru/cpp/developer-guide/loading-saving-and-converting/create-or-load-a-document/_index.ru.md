@@ -1,4 +1,4 @@
-﻿---
+---
 title: Создайте или загрузите документ на C++
 second_title: Aspose.Words для C++
 articleTitle: Создайте или загрузите документ
@@ -8,6 +8,7 @@ description: "Создайте пустой документ или загруз
 keywords: "create a document c++, load a document c++, create a blank document c++, load a document from file c++, load a document from stream c++, create a document Aspose C++, load a document Aspose C++, load formats supported by Aspose.Words C++"
 weight: 10
 url: /ru/cpp/create-or-load-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Практически любая задача, которую вы хотите выполнить с помощью Aspose.Words, включает загрузку документа. Класс `Document` представляет документ, загруженный в память. Документ имеет несколько перегруженных конструкторов, позволяющих создавать пустой документ или загружать его из файла или потока. Документ может быть загружен в любом формате загрузки, поддерживаемом Aspose.Words. Список всех поддерживаемых форматов загрузки смотрите в списке [LoadFormat](https://reference.aspose.com/words/cpp/aspose.words/loadformat/).

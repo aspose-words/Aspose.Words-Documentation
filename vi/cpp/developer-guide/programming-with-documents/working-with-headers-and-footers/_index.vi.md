@@ -1,4 +1,4 @@
-﻿---
+---
 title: Làm Việc với Đầu Trang và Chân trang trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Làm việc Với Đầu Trang và Chân trang
@@ -7,6 +7,7 @@ description: "Cách thao tác đầu trang và chân trang bằng C++."
 type: docs
 weight: 150
 url: /vi/cpp/working-with-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words cho phép người dùng làm việc với đầu trang và chân trang trong tài liệu. Tiêu đề là văn bản được đặt ở đầu trang và chân trang là văn bản ở cuối trang. Thông thường, các khu vực này được sử dụng để chèn thông tin nên được lặp lại trên tất cả hoặc một số trang của tài liệu, chẳng hạn như số trang, ngày tạo, thông tin công ty, v. v.

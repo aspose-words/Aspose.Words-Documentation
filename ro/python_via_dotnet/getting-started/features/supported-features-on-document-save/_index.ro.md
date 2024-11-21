@@ -1,4 +1,4 @@
-﻿---
+---
 title: Funcții acceptate pe salvarea documentelor
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Funcții acceptate pe salvarea documentelor
@@ -7,6 +7,7 @@ description: "Salvați documentul în orice format acceptat folosind Python. Con
 type: docs
 weight: 30
 url: /ro/python-net/supported-features-on-document-save/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words are unele dintre cele mai avansate suporturi de conversie ale formatelor comune de procesare a textului.

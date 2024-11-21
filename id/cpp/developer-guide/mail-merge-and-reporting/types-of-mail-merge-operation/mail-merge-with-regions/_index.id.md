@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge dengan Wilayah dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Mail Merge dengan Wilayah
@@ -8,6 +8,7 @@ description: "Buat wilayah berbeda di templat Anda untuk memiliki area khusus ya
 keywords: "how to execute mail merge c++"
 weight: 20
 url: /id/cpp/mail-merge-with-regions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Anda dapat membuat wilayah berbeda di templat Anda untuk memiliki area khusus yang dapat Anda isi dengan data Anda. Gunakan mail merge dengan wilayah jika Anda ingin menyisipkan tabel, baris dengan data berulang untuk membuat dokumen Anda berkembang secara dinamis dengan menentukan wilayah tersebut di dalam templat Anda.

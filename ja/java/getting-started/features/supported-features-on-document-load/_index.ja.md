@@ -7,6 +7,7 @@ description: "ほとんどの一般的なフォーマットで文書をロード
 type: docs
 weight: 20
 url: /ja/java/supported-features-on-document-load/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words さまざまなフォーマットで文書を操作し、幅広い選択肢を提供できます。 例えば、ユーザーはスクラッチからドキュメントを作成したり、既存のファイルを任意の場所に読み込むことができます。 [サポートされているドキュメントフォーマット](/words/ja/java/supported-document-formats/), その文書を変更し、結果を保存します。 選択した形式でドキュメントをインポートすると、ユーザーはさまざまなロードオプションを適用できます。

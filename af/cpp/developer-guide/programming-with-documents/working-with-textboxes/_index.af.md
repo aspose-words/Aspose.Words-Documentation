@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk met TextBoxes in C++
 second_title: Aspose.Words vir C++
 articleTitle: Werk met TextBoxes
@@ -7,6 +7,7 @@ description: "Inleiding tot gekoppelde teksbokse funksie in Aspose.Words vir C++
 type: docs
 weight: 250
 url: /af/cpp/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In Aspose.Words word die [TextBox](https://reference.aspose.com/words/cpp/aspose.words.drawing/textbox/) klas gebruik om te spesifiseer hoe teks binne'n vorm vertoon word. Dit stel'n openbare eiendom met die naam **Parent** bloot om die ouervorm vir die tekskassie te kry sodat die kliënt die gekoppelde [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/) uit die geassosieerde **TextBox** kan vind.

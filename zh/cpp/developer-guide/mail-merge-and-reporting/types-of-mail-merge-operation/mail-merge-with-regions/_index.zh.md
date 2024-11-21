@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge 与地区 C++
 second_title: Aspose.Words 为 C++
 articleTitle: Mail Merge 与地区
@@ -8,6 +8,7 @@ description: "在模板中创建不同的区域，以便具有可以简单地填
 keywords: "how to execute mail merge c++"
 weight: 20
 url: /zh/cpp/mail-merge-with-regions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 您可以在模板中创建不同的区域，以便具有可以简单地填充数据的特殊区域。 使用 mail merge 使用区域如果要插入表，则可以通过在模板中指定这些区域来插入具有重复数据的行，以使文档动态增长。

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Настройте продукт в проекте CMake
 second_title: Aspose.Words для C++
 articleTitle: Конфигурировать Aspose.Words для C++ в проекте CMake
@@ -7,6 +7,7 @@ description: "Конфигурировать Aspose.Words для C++ в ваше
 type: docs
 weight: 90
 url: /ru/cpp/configure-aspose-words-for-cpp-in-cmake-project/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Aspose.Words для C++ API работает с CMake для любой операционной системы GNU/Linux. Его можно [загрузить с официального веб-сайта](https://cmake.org/download/).

@@ -7,6 +7,7 @@ description: "התקן Aspose.Words עבור Python באמצעות שימוש Vi
 type: docs
 weight: 10
 url: /he/python-net/installation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ודא שהמכונה שלך פוגשת [דרישות מערכת](/words/he/python-net/system-requirements/) לפני שתתחיל.

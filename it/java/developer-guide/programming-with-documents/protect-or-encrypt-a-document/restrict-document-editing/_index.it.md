@@ -7,6 +7,7 @@ description: "Limitare la modifica di un documento impostando un tipo di restriz
 type: docs
 weight: 30
 url: /it/java/restrict-document-editing/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A volte è necessario limitare la capacità di modificare un documento e consentire solo determinate azioni con esso. Questo può essere utile per impedire ad altre persone di modificare informazioni riservate e sensibili nel documento.

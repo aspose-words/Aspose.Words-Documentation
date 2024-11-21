@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tên nhà sản xuất Trong Đầu ra
 second_title: Aspose.Words cho C++
 articleTitle: Máy phát Điện Hoặc Tên Nhà sản xuất Trong Tài liệu Đầu Ra
@@ -7,6 +7,7 @@ description: "Aspose.Words cho C++ thêm vào tài liệu tên trình tạo và 
 type: docs
 weight: 90
 url: /vi/cpp/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Bạn có thể dễ dàng biết nếu một tài liệu được sản xuất bằng cách sử dụng Aspose.Words cho C++. Bạn cũng có thể tìm thấy số phiên bản của Aspose.Words cho C++ điều đó đã được sử dụng để tạo một tài liệu đầu ra cụ thể. Aspose.Words trực tiếp ghi thông tin này vào tài liệu được tạo.

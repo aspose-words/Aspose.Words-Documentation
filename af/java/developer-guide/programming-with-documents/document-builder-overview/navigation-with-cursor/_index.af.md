@@ -1,4 +1,4 @@
-﻿---
+---
 title: Navigasie Met Wyser in Java
 second_title: Aspose.Words vir Java
 articleTitle: Navigasie Met Wyser
@@ -7,6 +7,7 @@ description: "Navigeer tussen verskillende nodusse binne'n dokument, soos'n para
 type: docs
 weight: 5
 url: /af/java/navigation-with-cursor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Terwyl jy met'n dokument werk, selfs al is dit'n kort of lang een, sal jy deur jou dokument moet navigeer. Navigasie met'n virtuele wyser verteenwoordig die vermoë om tussen verskillende nodusse in'n dokument te navigeer.

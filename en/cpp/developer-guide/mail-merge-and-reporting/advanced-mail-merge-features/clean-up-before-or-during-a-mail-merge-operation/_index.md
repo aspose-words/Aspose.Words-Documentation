@@ -8,6 +8,7 @@ description: "Apply different cleaning and removing options such as deleting mer
 keywords: "cleanup options mail merge c#"
 weight: 10
 url: /cpp/clean-up-before-or-during-mail-merge/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words allows you to apply different cleaning and removing options such as deleting merge fields before performing a mail merge operation or removing unused regions during a mail merge operation. This section will explain how to delete merged fields and how to set up a removing option.

@@ -7,6 +7,7 @@ type: docs
 description: "`Document`類別以C#提供各種文件屬性和方法。 您用 `Document` 類作為您想要在 .NET 中使用 Aspose.Words 的開始點。 `Document``物件可儲存於檔案或流中，也可以傳輸至瀏覽器。"
 weight: 40
 url: /zh-hant/net/working-with-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 第 [Document](https://reference.aspose.com/words/net/aspose.words/document/) 類別在 Aspose.Words 中居中。 它代表了一份文件，並提供各種文件屬性及方法，如儲存或保護該文件。 您使用 **Document** 類作為您要與 Aspose.Words 執行的任何事情的起点：從頭開始創建新文件、打開模板以供 mail merge 使用或從文件中獲取不同部分。

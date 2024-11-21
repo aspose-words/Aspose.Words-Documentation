@@ -7,6 +7,7 @@ description: "C# を使用して保存プロセスをより正確に制御しま
 type: docs
 weight: 10
 url: /ja/net/specify-save-options/
+timestamp: 2024-07-09-19-00-42
 ---
 
 ドキュメントを保存するときに、いくつかの詳細プロパティを設定できます。 Aspose.Words は、保存プロセスをより正確に制御できる [SaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/) クラスを提供します。 **SaveOptions** オブジェクトを受け入れる **Save** メソッドのオーバーロードがあります。これは、**SaveOptions** クラスから派生したクラスのオブジェクトである必要があります。各保存形式には、その保存形式の保存オプションを保持する対応するクラスがあります。たとえば、PDF 形式に保存する場合は [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/)、Markdown 形式に保存する場合は [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/)、画像に保存する場合は [ImageSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/) があります。この記事では、**SaveOptions** から派生したいくつかのオプション クラスの操作例を示します。

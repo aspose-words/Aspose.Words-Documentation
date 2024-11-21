@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cảnh Báo Khi Lưu vào PDF/A và PDF/UA
 second_title: Aspose.Words cho C++
 articleTitle: Cảnh Báo Vấn đề về khả Năng Truy Cập Khi Lưu vào PDF/A và PDF/UA
@@ -7,6 +7,7 @@ description: "PDF/A và PDF/UA áp đặt các yêu cầu về khả năng truy 
 type: docs
 weight: 39
 url: /vi/cpp/warnings-when-saving-to-pdfa-and-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Các định dạng PDF/A và PDF/UA áp đặt một số yêu cầu về khả năng truy cập liên quan đến nội dung tài liệu không thể hoàn thành trong quá trình chuyển đổi tự động từ Word sang PDF. Những yêu cầu này được mô tả trong bài viết trước *"Working with PDF/A or PDF/UA"*. Bây giờ cảnh báo được ban hành cho một số vấn đề này.

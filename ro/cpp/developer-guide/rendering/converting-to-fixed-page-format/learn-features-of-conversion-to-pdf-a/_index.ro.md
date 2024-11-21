@@ -1,4 +1,4 @@
-﻿---
+---
 title: Conversia în PDF/A și PDF/UA
 second_title: Aspose.Words pentru C++
 articleTitle: Aflați caracteristicile conversiei în PDF/A și PDF/UA
@@ -7,6 +7,7 @@ description: "Conversia la PDF/A-1, PDF/A-2, PDF/A-4 și PDF/UA Folosind C++. Al
 type: docs
 weight: 35
 url: /ro/cpp/learn-features-of-conversion-to-pdf-a-pdf-ua/
+timestamp: 2024-01-31-14-23-37
 ---
 
 PDF este un format de pagină fix care este foarte popular în rândul utilizatorilor și este acceptat pe scară largă de diverse aplicații, deoarece un document PDF arată la fel pe orice dispozitiv. Din acest motiv, conversia în PDF este o caracteristică importantă a Aspose.Words.

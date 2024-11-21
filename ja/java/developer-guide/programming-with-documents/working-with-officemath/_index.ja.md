@@ -7,6 +7,7 @@ type: docs
 description: "オフィス数学の特徴の紹介 Aspose.Words お問い合わせ Javaお問い合わせ"
 weight: 320
 url: /ja/java/working-with-officemath/
+timestamp: 2024-01-27-14-07-04
 ---
 
 OfficeMath Type オブジェクトを扱うのはもっと便利です。 インスタグラム Aspose.Words, 顧客が容易に正当化し、また、式がインラインか別のラインで表示されているかどうかを管理できます。 より多くのので、可用性で **MathObjectType**; この行列オブジェクトを使用して、有用な制御を実行できます。

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bir Belgeyi C++ içinde Koruyun veya Şifreleyin
 second_title: Aspose.Words için C++
 articleTitle: Bir Belgeyi Koruyun veya Şifreleyin
@@ -7,6 +7,7 @@ description: "Aspose.Words için C++ belge koruması için Salt Okunur, Belgeyi 
 type: docs
 weight: 50
 url: /tr/cpp/protect-or-encrypt-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bir belgeyi korumanın veya şifrelemenin temel nedeni, belgeye kimin erişebileceği veya kimin düzenleyebileceği üzerinde daha fazla denetim uygulamaktır. Belgelerinize koruma uygulayarak, belgelerin izinsiz kopyalanması veya değiştirilmesi ve veri sızıntısı gibi yaygın risklerden kaçınırsınız.

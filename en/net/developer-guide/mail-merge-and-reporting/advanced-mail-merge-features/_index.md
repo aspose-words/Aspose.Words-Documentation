@@ -10,6 +10,7 @@ description: "Aspose.Words for .NET provides some advanced mail merge features t
 keywords: "use advanced mail merge features c#"
 weight: 50
 url: /net/advanced-mail-merge-features/
+timestamp: 2024-07-11-08-07-06
 ---
 
 Aspose.Words provides some additional mail merge properties and methods that allow you to perform further customization of the mail merge process either in simple mail merge or mail merge with regions.

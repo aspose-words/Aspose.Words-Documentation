@@ -7,6 +7,7 @@ description: "使用 C# 追蹤您或他人對內容和格式所做的更改。 �
 type: docs
 weight: 270
 url: /zh-hant/net/track-changes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 追蹤更改功能，也稱為審核，可讓您追蹤由您或其他使用者所做的內容或格式的更改。 此追蹤更改功能與 Aspose.Words 支援在 Microsoft Word 中追蹤更改。 透過此功能，您可以在您的文件中存取個別的修订版本並將其套用不同的屬性。

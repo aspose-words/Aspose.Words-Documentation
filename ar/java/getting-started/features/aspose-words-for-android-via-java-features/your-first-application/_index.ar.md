@@ -7,6 +7,7 @@ description: "التركيب Aspose.Words for Android عبر Java."
 type: docs
 weight: 30
 url: /ar/java/your-first-application/
+timestamp: 2024-01-27-14-07-04
 ---
 
 هذه المقالة تعطيك فكرة البدء بها Aspose.Words for Android عبر Java. سيُظهر كيف يُنشئ Android مشروع من الصفر، إضافة إشارة إلى Aspose.Words JAR (و) إنشاء وثيقة جديدة يُحتفظ بها لتقريرها في شكل شركة DOCX. This example uses [Android Studio](https://developer.android.com/studio/index.html) من أجل التنمية والتطبيق يجري Android مرشد لتبدأ Aspose.Words for Android عبر Javaرجاءً إتبعوا هذا التعليم التدريجي لخلق تطبيق يستخدم Aspose.Words for Android عبر Java:

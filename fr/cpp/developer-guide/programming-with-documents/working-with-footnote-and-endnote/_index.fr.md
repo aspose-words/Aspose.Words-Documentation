@@ -1,4 +1,4 @@
-﻿---
+---
 title: Travailler avec la note de bas de page et la note de fin en C++
 second_title: Aspose.Words pour C++
 articleTitle: Travailler avec la note de bas de page et la note de fin
@@ -7,6 +7,7 @@ description: "Comment manipuler les notes de bas de page et de fin en utilisant 
 type: docs
 weight: 160
 url: /fr/cpp/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words fournit également des classes, des méthodes et des propriétés pour travailler avec des notes de bas de page et des notes de fin.

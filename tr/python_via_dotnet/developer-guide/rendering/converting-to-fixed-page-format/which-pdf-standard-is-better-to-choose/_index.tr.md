@@ -7,6 +7,7 @@ description: "Programlama görevinizin sonucunu Python'e aktarmak için en iyi P
 type: docs
 weight: 27
 url: /tr/python-net/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bazı görevler için belirli PDF standartları daha iyi veya tam tersi daha kötü uyum sağlar. Bu yazımızda hangi durumlar için hangi PDF standartlarını seçmenin mantıklı olduğunu belirlemeye çalışacağız.

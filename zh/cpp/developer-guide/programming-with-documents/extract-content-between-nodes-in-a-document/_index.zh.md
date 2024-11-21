@@ -1,4 +1,4 @@
-﻿---
+---
 title: 如何在文档节点之间提取内容
 second_title: Aspose.Words对于C++
 articleTitle: 提取文档中节点之间的内容
@@ -7,6 +7,7 @@ type: docs
 description: "使用C++在不同的文档内容中提取."
 weight: 140
 url: /zh/cpp/how-to-extract-selected-content-between-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 在处理文档时，能够轻松地从文档中的特定范围提取内容非常重要。 然而，内容可以由诸如段落、表格、图像等的复杂元素组成。

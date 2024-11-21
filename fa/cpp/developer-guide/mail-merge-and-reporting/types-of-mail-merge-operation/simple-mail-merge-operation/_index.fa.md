@@ -1,4 +1,4 @@
-﻿---
+---
 title: عملیات ساده Mail Merge در C++
 second_title: Aspose.Words برای C++
 articleTitle: عملیات ساده Mail Merge
@@ -8,6 +8,7 @@ description: "یک mail merge ساده برای پر کردن فیلد های ma
 keywords: "how to execute mail merge c++"
 weight: 10
 url: /fa/cpp/simple-mail-merge-operation/
+timestamp: 2024-09-24-14-35-44
 ---
 
 یک mail merge ساده برای پر کردن فیلدهای mail merge داخل قالب شما با داده های مورد نیاز از منبع داده شما (نمایش جدول واحد) استفاده می شود. پس شبیه به کلاسیک mail merge در Microsoft Word است.

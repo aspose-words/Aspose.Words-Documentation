@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cách Thêm Group Shape vào Tài liệu Word
 second_title: Aspose.Words cho C++
 articleTitle: Làm việc với Group Shapes Trong Tài Liệu Word
@@ -7,6 +7,7 @@ description: "Nhóm và ungrouping hình dạng bằng cách sử dụng C++."
 type: docs
 weight: 290
 url: /vi/cpp/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Đôi khi bạn cần thêm group shape vào Tài liệu Word. Một group shape như vậy bao gồm nhiều hình dạng.

@@ -7,6 +7,7 @@ description: "Use hyphenation for a more compact arrangement of text. It provide
 type: docs
 weight: 220
 url: /java/working-with-hyphenation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Sometimes it is necessary to use hyphenation for a more compact arrangement of text in a document. At the same time, it is important to understand that the specifics of word hyphenation may differ for each language.

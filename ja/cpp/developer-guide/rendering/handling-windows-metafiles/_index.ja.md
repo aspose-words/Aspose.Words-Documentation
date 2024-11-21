@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++でのWindowsメタファイルの処理
 second_title: C++の場合Aspose.Words
 articleTitle: Windowsメタファイルの処理
@@ -7,6 +7,7 @@ description: "C++の場合Aspose.Words 独自のWindowsメタファイルプレ�
 type: docs
 weight: 30
 url: /ja/cpp/handling-windows-metafiles/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Windowsメタファイル形式は、ベクトルグラフィックスとラスターグラフィックスの両方を含むことができるイメージファイル形式です。 この形式は、グラフィックスデータをメモリまたはディスク上のファイルに格納するために使用されます。 メタファイルは、画面にイメージを表示するために実行する必要があるWindowsグラフィックスデバイスインターフェイス(GDI)に関数呼び出しのリストを格納します。 システムは、これらのコマンドを表示コンテキストで解釈して実行します。

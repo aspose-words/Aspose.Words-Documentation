@@ -7,6 +7,7 @@ description: "Aspose.Words for Java` başlık veya bölümler, sayfalar veya say
 type: docs
 weight: 90
 url: /tr/java/split-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 *Splitting* veya *belgeyi bölmek* bir büyük belgeyi daha küçük dosyaların daha fazla sayısına bölme işlemidir. Bir dosyayı bölmenin çeşitli nedenleri vardır. Örneğin, belirli bir belgeden sadece bazı sayfalar ve değil, tüm belgeye ihtiyacın var. Ya da gizlilik nedeniyle, diğerlerinin sadece bir belge ile ilgili bazı kısımları paylaşmak istiyorsunuz. Bölme özelliği, gerekli belgenin yalnızca kısımlarını elde etmenizi ve bunlarla gerekli eylemleri yapmanızı sağlar, örneğin işaretlemek için, kaydetmek veya göndermek.

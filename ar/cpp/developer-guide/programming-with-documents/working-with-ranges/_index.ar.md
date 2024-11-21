@@ -1,4 +1,4 @@
-﻿---
+---
 title: العمل مع نطاقات في C++
 second_title: Aspose.Words ل C++
 articleTitle: العمل مع النطاقات
@@ -7,6 +7,7 @@ description: "مقدمة لميزة النطاق في Aspose.Words ل C++."
 type: docs
 weight: 130
 url: /ar/cpp/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

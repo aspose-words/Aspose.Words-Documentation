@@ -7,6 +7,7 @@ description: "문서를 데이터베이스에서 이 문서와 함께 byte 배�
 type: docs
 weight: 40
 url: /ko/java/serialize-and-work-with-a-document-in-a-database/
+timestamp: 2024-01-27-14-07-04
 ---
 
 문서가 저장하고 검색 할 때 작업을 수행 할 필요가있는 작업 중 하나 **Document** 객체와 데이터베이스에서. 예를 들어, 콘텐츠 관리 시스템의 모든 유형을 구현한 경우 필요합니다. 문서의 모든 이전 버전은 데이터베이스 시스템에 저장해야합니다. 데이터베이스의 문서를 저장하는 기능은 웹 기반 서비스를 제공 할 때 매우 유용합니다.

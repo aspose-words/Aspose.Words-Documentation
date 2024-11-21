@@ -7,6 +7,7 @@ description: "Introducere în lucrul cu caractere de control în Aspose.Words pe
 type: docs
 weight: 400
 url: /ro/net/working-with-control-characters/
+timestamp: 2024-01-27-14-07-04
 ---
 
 "Microsoft Word documente pot conține caractere diferite care au o semnificație specială." În mod normal, acestea sunt folosite pentru scopuri de formatare și nu sunt trase în modul normal. Puteți să le faceți vizibile dacă faceți clic pe butonul "Arată/ascunde semne de formatare", din bara de instrumente standard.

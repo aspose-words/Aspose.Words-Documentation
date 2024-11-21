@@ -7,6 +7,7 @@ description: "Inserisci un paragrafo in un documento C#. Imposta gli stili di pa
 type: docs
 weight: 210
 url: /it/net/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un paragrafo è un insieme di caratteri combinati in un blocco logico e che termina con un carattere speciale: un'*interruzione di paragrafo*. In Aspose.Words, un paragrafo è rappresentato dalla classe [Paragraph](https://reference.aspose.com/words/it/net/aspose.words/paragraph/).

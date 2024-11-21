@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge Met XML Data Bron in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Mail Merge met XML Databron
@@ -8,6 +8,7 @@ description: "Gebruik'n verskeidenheid databronne wanneer u'n mail merge - opera
 keywords: "mail merge xml data source c#"
 weight: 30
 url: /af/net/mail-merge-with-xml-data-source/
+timestamp: 2024-07-11-08-07-06
 ---
 
 U kan'n verskeidenheid databronne gebruik wanneer u'n mail merge - bewerking uitvoer, insluitend'n XML - lêer. Die belangrikste voordeel van die gebruik van XML is die vermoë om'n hiërargie reg in die dokument te definieer en dit dan eenvoudig aan Aspose.Words oor te dra.

@@ -7,6 +7,7 @@ type: docs
 description: "Speichern Sie ein Dokument in jedem unterstützten Format mit Java."
 weight: 20
 url: /de/java/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Die meisten Aufgaben, die Sie mit Aspose.Words ein Dokument speichern. Um ein Dokument zu speichern Aspose.Words bietet [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save(java.lang.String)) Verfahren der [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) Klasse. Das Dokument kann in jedem Speicherformat gespeichert werden, das von Aspose.Words. Für die Liste aller unterstützten Speicherformate siehe die [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) Aufzählung.

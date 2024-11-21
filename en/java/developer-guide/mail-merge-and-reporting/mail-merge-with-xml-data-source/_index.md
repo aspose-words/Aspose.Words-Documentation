@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge with XML Data Source in Java
 second_title: Aspose.Words for Java
 articleTitle: Mail Merge with XML Data Source
@@ -10,6 +10,7 @@ description: "Use a variety of data sources when performing a mail merge operati
 keywords: "mail merge XML data source Java, Mail Merge Java"
 weight: 30
 url: /java/mail-merge-with-xml-data-source/
+timestamp: 2024-01-27-14-07-04
 ---
 
 You can use a variety of data sources when performing a mail merge operation, including an XML file. The main advantage of using XML is the ability to define a hierarchy right in the document and then simply pass it to Aspose.Words.

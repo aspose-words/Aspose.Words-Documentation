@@ -1,4 +1,4 @@
-﻿---
+---
 title: Làm việc với Các Đối tượng OLE trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Làm việc với Các Đối tượng OLE
@@ -7,6 +7,7 @@ description: "Tạo và sửa đổi OLE nhúng vào tài liệu của bạn b�
 type: docs
 weight: 360
 url: /vi/cpp/working-with-ole-objects/
+timestamp: 2024-01-27-14-07-04
 ---
 
 OLE (Liên kết Và Nhúng Đối tượng) là một công nghệ mà người dùng có thể làm việc với các tài liệu có chứa "đối tượng" được tạo hoặc chỉnh sửa bởi các ứng dụng của bên thứ ba. Đó là, OLE cho phép một ứng dụng chỉnh sửa xuất các "đối tượng" này sang một ứng dụng chỉnh sửa khác và sau đó nhập chúng với nội dung bổ sung.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在C++中使用Office加载项
 second_title: Aspose.Words对于C++
 articleTitle: 使用Office加载项
@@ -7,6 +7,7 @@ description: "Aspose.Words对于C++ 提供用于处理Office加载项的各种�
 type: docs
 weight: 50
 url: /zh/cpp/work-with-office-add-ins/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有时您可能希望授予对运行代码以修改文档的接口控件的访问权限。 Aspose.WordsAPI提供`WebExtensions`命名空间，该命名空间授予各种类以自定义扩展XML词汇表以表示Office加载项的元素和属性。

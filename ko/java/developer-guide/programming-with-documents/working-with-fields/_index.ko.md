@@ -7,6 +7,7 @@ description: "본문 바로가기 Aspose.Words 제품정보 Java·"
 type: docs
 weight: 370
 url: /ko/java/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 **Fields** 문서는 유용한 데이터가 삽입될 수 있는 placeholders와 같습니다. 예를 들어, 필드는 페이지 참조, 공식, 또는 mail merge 이름 *

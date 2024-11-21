@@ -8,6 +8,7 @@ description: "C#를 사용하여 지원되는 형식으로 문서를 저장하�
 keywords: "save a document c#, save a document to file c#, save a document to stream c#, save a document Aspose .NET, save formats supported by Aspose.Words .NET"
 weight: 20
 url: /ko/net/save-a-document/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Aspose.Words로 수행해야 하는 대부분의 작업에는 문서 저장이 포함됩니다. 문서를 저장하기 위해 Aspose.Words는 [Document](https://reference.aspose.com/words/net/aspose.words/document/) 클래스의 [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) 메소드를 제공합니다. 클라이언트 브라우저로 보내기 위해 문서를 파일, 스트림 또는 ASP.NET HttpResponse 개체에 저장할 수 있는 오버로드가 있습니다. 문서는 Aspose.Words에서 지원하는 모든 저장 형식으로 저장할 수 있습니다. 지원되는 모든 저장 형식 목록은 [SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat/) 열거를 참조하세요.

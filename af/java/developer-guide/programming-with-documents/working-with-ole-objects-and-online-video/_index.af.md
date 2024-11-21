@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Ole Voorwerpe
 second_title: Aspose.Words vir Java
 articleTitle: Werk Met Ole Voorwerpe
@@ -7,6 +7,7 @@ description: "Skep en verander OLE inbed in jou dokument met behulp van Java."
 type: docs
 weight: 360
 url: /af/java/working-with-ole-objects/
+timestamp: 2024-01-27-14-07-04
 ---
 
 OLE staan vir"Object Linking and Embedding". Dit is die tegnologie waardeur gebruikers kan werk met dokumente wat "voorwerpe" bevat wat deur derdeparty-toepassings geskep of geredigeer word. Dit is, OLE laat'n aansoek om hierdie "voorwerpe" uit te voer na'n ander aansoek vir redigering, en dan invoer hulle terug met'n paar bykomende inhoud.

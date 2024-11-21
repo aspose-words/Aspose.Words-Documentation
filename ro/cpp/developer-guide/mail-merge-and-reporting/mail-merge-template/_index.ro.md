@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge șablon în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Mail Merge șablon
@@ -8,6 +8,7 @@ description: "Creați un șablon mail merge pentru a defini conținutul fix în 
 keywords: "create mail merge template с++"
 weight: 10
 url: /ro/cpp/mail-merge-template/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Este obișnuit să se utilizeze un șablon de îmbinare ca document de bază pentru o operație mail merge fie dacă este un simplu mail merge sau mail merge cu regiuni. Mail merge cu regiuni este mai puternic și mai popular decât simplul mail merge. Simplu mail merge este considerat ca un caz particular de mail merge cu regiuni în care regiunea este întregul document. Totul este explicat în articolul următor " tipuri de operații Mail Merge" mai detaliat.

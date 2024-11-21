@@ -7,6 +7,7 @@ description: "Convertir un documento en una imagen de mapa, que se discute sobre
 type: docs
 weight: 30
 url: /es/java/saving-a-document-as-a-multipage-tiff/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Al trabajar con documentos, a menudo necesita convertir su documento a un archivo de imagen de mapas. Esto es especialmente relevante si usted tiene que presentar su documento en un formato legible e impreso, pero no editable. Por ejemplo, puede utilizar una imagen de mapa de la primera página de su documento como vista previa. Este artículo describe cómo convertir un documento a una imagen de mapa usando el ejemplo del formato TIFF – uno de los formatos de imagen más populares.

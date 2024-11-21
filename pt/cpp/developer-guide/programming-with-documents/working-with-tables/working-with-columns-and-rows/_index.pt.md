@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trabalhar com colunas e linhas em C++
 second_title: Aspose.Words para C++
 articleTitle: Trabalhar com colunas e linhas
@@ -7,6 +7,7 @@ description: "Trabalhando com partes de uma tabela – linhas, colunas e célula
 type: docs
 weight: 30
 url: /pt/cpp/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Para obter mais controle sobre como as tabelas funcionam, saiba como manipular colunas e linhas.

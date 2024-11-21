@@ -7,6 +7,7 @@ description: "چگونه با استفاده از Aspose.Words برای .NET، �
 type: docs
 weight: 50
 url: /fa/net/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 یک لینک در اسناد Microsoft Word فیلد `HYPERLINK` است. در Aspose.Words، هایپرلینک ها از طریق کلاس [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/) پیاده سازی می شوند.

@@ -7,6 +7,7 @@ type: docs
 description: "`Document` 类使用 Python 提供各种文档属性和方法。您可以使用 `Document` 类作为您想要使用 Aspose.Words for Python 执行的任何操作的起点。 `Document` 对象可以保存到文件或流中，也可以发送到浏览器。"
 weight: 40
 url: /zh/python-net/working-with-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) 类是 Aspose.Words 的核心。它代表一个文档并提供各种文档属性和方法，例如保存或保护文档。您可以使用 [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) 类作为您想要使用 Aspose.Words 执行的任何操作的起点：从头开始创建新文档、打开 mail merge 模板或从文档中获取不同部分。

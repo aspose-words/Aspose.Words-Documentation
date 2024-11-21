@@ -7,6 +7,7 @@ description: "Làm thế nào để thêm siêu liên kết trong tài liệu c�
 type: docs
 weight: 50
 url: /vi/java/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Một liên kết siêu văn bản trong Microsoft Word tài liệu là `HYPERLINK` trường. Trong Aspose.Words, các liên kết được thực hiện qua lớp [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/).

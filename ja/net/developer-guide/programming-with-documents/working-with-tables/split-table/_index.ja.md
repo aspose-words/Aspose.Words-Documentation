@@ -7,6 +7,7 @@ description: "C# での分割テーブル。 1 つのテーブルを 2 つの別
 type: docs
 weight: 100
 url: /ja/net/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words Document Object Model で表されるテーブルは独立した行とセルで構成されているため、テーブルを簡単に分割できます。

@@ -7,6 +7,7 @@ description: "Join a few document together or append them easily and fast instea
 type: docs
 weight: 20
 url: /net/joining-word-documents-together/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## VSTO

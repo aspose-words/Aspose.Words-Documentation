@@ -7,6 +7,7 @@ description: "Format dan evaluasi hasil bidang menggunakan C#."
 type: docs
 weight: 40
 url: /id/net/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Terkadang pengguna perlu menerapkan pemformatan khusus pada bidang. Pada artikel ini, kita akan melihat beberapa contoh bagaimana hal ini dapat dilakukan.

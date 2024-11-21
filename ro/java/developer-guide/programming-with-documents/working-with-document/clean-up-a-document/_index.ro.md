@@ -1,4 +1,4 @@
-﻿---
+---
 title: Curățați un Document în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Curățați un Document
@@ -7,6 +7,7 @@ description: "Eliminați informațiile neutilizate sau duplicate pentru a reduce
 type: docs
 weight: 30
 url: /ro/java/clean-up-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uneori poate fi necesar să eliminați informațiile neutilizate sau duplicate pentru a reduce dimensiunea documentului de ieșire și timpul de procesare.

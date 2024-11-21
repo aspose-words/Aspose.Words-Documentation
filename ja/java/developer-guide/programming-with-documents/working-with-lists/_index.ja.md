@@ -7,6 +7,7 @@ description: "数値フォーマット機能の紹介 Aspose.Words お問い合�
 type: docs
 weight: 200
 url: /ja/java/working-with-lists/
+timestamp: 2024-01-27-14-07-04
 ---
 
 リスト Microsoft Word ドキュメントはリストの書式プロパティのセットです。 リストは、テキストのフォーマット、配置、強調のために文書で使用できます。 リストは、文書内のデータを整理するための素晴らしい方法です。読者が重要なポイントを理解するのは簡単です。

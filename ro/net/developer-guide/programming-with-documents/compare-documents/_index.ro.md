@@ -7,6 +7,7 @@ description: "Comparaţi două documente în orice format acceptat şi afişaţi
 type: docs
 weight: 60
 url: /ro/net/compare-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Comparați documentele este un proces care identifică modificările dintre două documente și conține modificările ca revizii. Acest proces compară orice două documente, inclusiv versiunile unuia singur document, apoi modificările dintre ambele documente vor fi arătate ca reviziuni în primul document.

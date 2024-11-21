@@ -7,6 +7,7 @@ description: "Python via .NET용 Aspose.Words는 다양한 구매 계획을 제�
 type: docs
 weight: 40
 url: /ko/python-net/licensing/
+timestamp: 2024-01-31-14-23-37
 ---
 
 때로는 시스템을 더 잘 연구하기 위해 가능한 한 빨리 코드를 살펴보고 싶을 때가 있습니다. 이를 더 쉽게 하기 위해 Aspose.Words는 다양한 구매 계획을 제공하거나 무료 평가판 및 평가용 30일 임시 라이센스를 제공합니다.

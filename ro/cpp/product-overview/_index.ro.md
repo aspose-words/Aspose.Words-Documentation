@@ -1,4 +1,4 @@
-﻿---
+---
 title: Prezentare Generală A Produsului
 second_title: Aspose.Words pentru C++
 articleTitle: Prezentare Generală A Produsului
@@ -7,6 +7,7 @@ description: "Aspose.Words pentru C++ este o bibliotecă software concepută pen
 type: docs
 weight: 5
 url: /ro/cpp/product-overview/
+timestamp: 2024-06-05-14-43-57
 ---
 
 <img src="product-overview_1" alt="aspose-words-product_cpp" align="left" style="width:64px; margin: 0 30px 30px 0"/>

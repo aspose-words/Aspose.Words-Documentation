@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words vir Android via Java Kenmerke
 second_title: Aspose.Words vir Java
 articleTitle: Aspose.Words vir Android via Java Kenmerke
@@ -7,6 +7,7 @@ description: "Hierdie afdeling bied'n vergelyking van beskikbaarheid van kenmerk
 type: docs
 weight: 90
 url: /af/java/aspose-words-for-android-via-java-features/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Aspose.Words vir Android via Java Kenmerke Oorsig

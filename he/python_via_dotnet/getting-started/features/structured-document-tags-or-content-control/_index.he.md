@@ -7,6 +7,7 @@ description: "Embedd Semantics מוגדרת של הלקוח, כמו גם את ה
 type: docs
 weight: 50
 url: /he/python-net/structured-document-tags-or-content-control/
+timestamp: 2024-01-31-14-23-37
 ---
 
 

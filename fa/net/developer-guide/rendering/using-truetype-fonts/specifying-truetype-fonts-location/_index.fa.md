@@ -7,6 +7,7 @@ description: "منابع مختلف فونت TrueType را مشخص کنید: پ
 type: docs
 weight: 30
 url: /fa/net/specifying-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 این مبحث رفتار پیش‌فرض Aspose.Words را هنگام جستجوی فونت‌های TrueType، از جمله تفاوت‌های خاص سیستم عامل، توصیف می‌کند و نحوه تعیین منابع فونت کاربر را نشان می‌دهد.

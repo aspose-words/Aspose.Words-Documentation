@@ -7,6 +7,7 @@ description: "In PDF/A-1, PDF/A-2, PDF/A-4 und PDF/UA umrechnen Java. Es gibt ei
 type: docs
 weight: 28
 url: /de/java/working-with-pdfa-or-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 PDF/A und PDF/UA-Format verhängen mehrere Anforderungen an den Dokumenteninhalt, der bei der automatischen Umwandlung von einem Dokument in Word-Format auf PDF nicht erfüllt werden kann. Diese Anforderungen sollten entweder in einem Word-Dokument vor der Konvertierung oder in einem PDF-Dokument nach der Konvertierung überprüft und korrigiert werden, um ein vollständig PDF/A- und PDF/UA-konformes Dokument zu erstellen.

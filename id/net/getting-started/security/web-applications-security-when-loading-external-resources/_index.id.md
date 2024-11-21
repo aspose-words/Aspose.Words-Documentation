@@ -7,6 +7,7 @@ type: docs
 description: "Memuat sumber daya jarak jauh, yang dapat menjadi penyebab risiko keamanan. Lihatlah masalah keamanan umum dan solusinya menggunakan C#."
 weight: 100
 url: /id/net/web-applications-security-when-loading-external-resources/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Secara default, Aspose.Words untuk .NET dapat memuat sumber daya jarak jauh seperti gambar, gaya CSS, atau dokumen HTML eksternal saat mengimpor dokumen atau menyisipkan gambar menggunakan DocumentBuilder. Perilaku ini memungkinkan Anda memproses dokumen secara lengkap namun bisa menjadi penyebab beberapa risiko keamanan jika perpustakaan adalah bagian dari aplikasi web.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge Với Các Khu vực trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Mail Merge Với Các Khu Vực
@@ -8,6 +8,7 @@ description: "Tạo các vùng khác nhau trong mẫu của bạn để có các
 keywords: "how to execute mail merge c++"
 weight: 20
 url: /vi/cpp/mail-merge-with-regions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Bạn có thể tạo các vùng khác nhau trong mẫu của mình để có các vùng đặc biệt mà bạn có thể chỉ cần điền dữ liệu của mình. Sử dụng mail merge với các vùng nếu bạn muốn chèn bảng, các hàng có dữ liệu lặp lại để làm cho tài liệu của bạn tự động phát triển bằng cách chỉ định các vùng đó trong mẫu của bạn.

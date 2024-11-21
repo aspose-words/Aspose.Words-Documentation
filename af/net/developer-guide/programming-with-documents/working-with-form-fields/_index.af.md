@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Vorm Velde in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Werk Met Vorm Velde
@@ -7,6 +7,7 @@ description: "Verstaan Vorm Velde funksie, werk met Vorm Velde met behulp van C#
 type: docs
 weight: 380
 url: /af/net/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 'n dokument wat vul-in blanks (velde) bevat, staan bekend as'n vorm. U kan byvoorbeeld'n registrasievorm in Microsoft Word skep wat aftreklyste gebruik waaruit gebruikers inskrywings kan kies. Die `Form` veld is'n plek waar'n spesifieke tipe data, soos'n naam of adres, gestoor word. Vorm velde in Microsoft Word sluit teks invoer, combobox en checkbox.

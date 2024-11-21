@@ -7,6 +7,7 @@ description: "Aspose.Words voor Python via .NET kan u helpen met het omzetten tu
 type: docs
 weight: 20
 url: /nl/python-net/convert-between-measurement-units/
+timestamp: 2024-01-27-14-07-04
 ---
 
 De meeste object eigenschappen in de Aspose.Words API die een bepaalde meting vertegenwoordigen, zoals breedte of hoogte, marges en verschillende afstanden, accepteren waarden in punten, waarbij 1 inch gelijk is aan 72 punten. Soms is dit niet handig en moeten punten worden omgezet in andere eenheden.

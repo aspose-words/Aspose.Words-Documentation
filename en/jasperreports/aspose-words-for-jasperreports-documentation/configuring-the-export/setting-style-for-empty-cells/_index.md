@@ -1,4 +1,4 @@
-﻿---
+---
 title: Setting Style for Empty Cells
 second_title: Aspose.Words for JasperReports
 articleTitle: Setting Style for Empty Cells
@@ -7,6 +7,7 @@ description: "Aspose Words for JasperReports can set default style for Empty Cel
 type: docs
 weight: 110
 url: /jasperreports/setting-style-for-empty-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

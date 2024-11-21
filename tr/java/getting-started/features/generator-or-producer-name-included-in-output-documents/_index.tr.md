@@ -7,6 +7,7 @@ description: "Aspose.Words için Java'e, oluşturulan belgede kullanılan jenera
 type: docs
 weight: 70
 url: /tr/java/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Bir belge Aspose.Words'ın kullanılarak üretildiğini kolayca bilirsiniz. Java Sadece belirli bir çıktı belgesi oluşturmak için kullanılan Aspose.Words sürüm numarasını da bulabilirsiniz Java. Aspose.Words doğrudan bu bilgiyi oluşturulan belgeye yazar.

@@ -7,6 +7,7 @@ description: "Export online contents into a Word Document using Aspose.Words DNN
 type: docs
 weight: 20
 url: /net/dnn-content-exporter-module/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Advance DNN Content Exporter Module using [Aspose.Words for .NET](https://releases.aspose.com/words/net/) allow users to export online contents into a Word Document, OpenDocument, PDF and Image formats (Jpeg, Png, Tiff) from selected DNN Skin Pane or Full Page using Aspose.Words and send output file to browser for Open/Download to local system.

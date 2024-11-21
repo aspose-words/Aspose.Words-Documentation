@@ -7,6 +7,7 @@ type: docs
 description: "Page Border setting of the Aspose.Words for Reporting Services."
 weight: 80
 url: /reportingservices/page-border/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

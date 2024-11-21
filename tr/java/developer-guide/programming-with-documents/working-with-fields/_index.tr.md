@@ -7,6 +7,7 @@ description: "Alan özelliğine giriş Aspose.Words için Java."
 type: docs
 weight: 370
 url: /tr/java/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 **Fields** bir belgedeki boşluklar, yararlı verilerin yerleştirilebileceği yerlerdir. Örneğin, bir alan sayfa referansı, formül veya bir mail merge alanı olabilir.

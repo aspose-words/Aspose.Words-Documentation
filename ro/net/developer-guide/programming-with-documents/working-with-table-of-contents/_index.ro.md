@@ -7,6 +7,7 @@ description: "Câmpul Tabelă de Conținut în detalii. Cum să creezi şi modif
 type: docs
 weight: 170
 url: /ro/net/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 De multe ori vei lucra cu documente care conțin o listă de conţinuturi (TOC). Utilizând Aspose.Words, puteți insera propria dumneavoastră masă de conținut sau să reconstruiți complet un cuprins existent în document utilizând doar câteva linii de cod. Acest articol descrie modul de a lucra cu câmpul tabelului conținuturilor și demonstrează:

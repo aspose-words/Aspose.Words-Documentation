@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu diagrame prin `Shape.Chart` obiect
 second_title: Aspose.Words pentru C++
 articleTitle: Lucrul cu diagrame prin `Shape.Chart` obiect
@@ -7,6 +7,7 @@ description: "Diagrame în detalii, modul în care graficul legat cu nodul de fo
 type: docs
 weight: 10
 url: /ro/cpp/working-with-charts-through-shape-chart-object/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Odată ce graficul a fost introdus și completat cu date, îi puteți schimba aspectul. `Shape.Chart` proprietatea conține toate opțiunile legate de diagramă disponibile prin public API.

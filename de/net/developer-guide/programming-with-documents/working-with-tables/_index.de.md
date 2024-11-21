@@ -7,6 +7,7 @@ description: "So arbeiten Sie mit Tabellen in C#. Einführung in die Arbeit mit 
 type: docs
 weight: 190
 url: /de/net/working-with-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ein **Tisch** in einem Dokument ist eine großartige Möglichkeit, ähnliche Daten zu strukturieren. Aus diesem Grund sind Tabellen ein gängiges Inhaltsformatierungselement und werden von den meisten Formaten in der einen oder anderen Form unterstützt.

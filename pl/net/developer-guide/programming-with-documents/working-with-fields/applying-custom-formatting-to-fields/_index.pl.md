@@ -7,6 +7,7 @@ description: "Formatuj i oceniaj wyniki pól za pomocą C#."
 type: docs
 weight: 40
 url: /pl/net/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Czasami użytkownicy muszą zastosować niestandardowe formatowanie do pól. W tym artykule przyjrzymy się kilku przykładom, jak można to zrobić.

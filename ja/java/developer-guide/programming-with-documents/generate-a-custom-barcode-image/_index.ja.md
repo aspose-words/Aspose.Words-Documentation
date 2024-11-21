@@ -7,6 +7,7 @@ description: "Javaを使用したバーコードの形状生成の例"
 type: docs
 weight: 350
 url: /ja/java/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/
+timestamp: 2024-09-05-11-07-10
 ---
 
 バーコードは、データを並行線または模様の形で表す視覚表現です。バーコードは小売業、物流業、医療、銀行業などのさまざまな産業で広く使用されています。

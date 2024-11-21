@@ -1,4 +1,4 @@
-﻿---
+---
 title: แทรก Checkboxการป้อนข้อความหรือภาพในช่วง Mail Merge
 second_title: Aspose.Words สำหรับ C++
 articleTitle: แทรก Checkboxการป้อนข้อความหรือรูปภาพ
@@ -7,6 +7,7 @@ description: "แทรกช่องทำเครื่องหมายห
 type: docs
 weight: 40
 url: /th/cpp/insert-checkboxes-text-input-or-images-mail-merge/
+timestamp: 2024-01-27-14-07-04
 ---
 
 เครื่องมือผสานใช้เอกสารเป็นอินพุต,มองหา `MERGEFIELD` ในนั้นและแทนที่พวกเขาด้วยข้อมูลที่ได้รับจากแหล่งข้อมูล โดยปกติแล้วข้อความธรรมดาและ HTML จะแทรกแต่ Aspose.Words ผู้ใช้ยังสามารถสร้างเอกสารที่จัดการกับสถานการณ์ที่ผิดปกติมากขึ้นสำหรับ mail merge สนาม.

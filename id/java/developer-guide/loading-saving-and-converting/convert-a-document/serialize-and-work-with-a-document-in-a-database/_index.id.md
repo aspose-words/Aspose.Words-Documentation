@@ -7,6 +7,7 @@ description: "Konversi dokumen menjadi array byte untuk bekerja dengan dokumen i
 type: docs
 weight: 40
 url: /id/java/serialize-and-work-with-a-document-in-a-database/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Salah satu tugas yang dapat Anda lakukan ketika bekerja dengan dokumen disimpan dan pengambilan **Document** objek dan dari database. Misalnya, ini akan diperlukan jika Anda menerapkan jenis sistem manajemen konten. Semua versi dokumen sebelumnya harus disimpan dalam sistem database. Kemampuan untuk menyimpan dokumen di database juga sangat berguna ketika aplikasi Anda memberikan layanan berbasis web.

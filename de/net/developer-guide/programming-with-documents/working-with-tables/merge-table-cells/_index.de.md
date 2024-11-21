@@ -7,6 +7,7 @@ description: "So führen Sie Tabellenzellen in C# zusammen. Überprüfen Sie, ob
 type: docs
 weight: 40
 url: /de/net/working-with-merged-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Manchmal erfordern bestimmte Zeilen in einer Tabelle eine Überschrift oder große Textblöcke, die die gesamte Breite der Tabelle einnehmen. Zur ordnungsgemäßen Gestaltung der Tabelle kann der Benutzer mehrere Tabellenzellen zu einer zusammenfassen. Aspose.Words unterstützt zusammengeführte Zellen bei der Arbeit mit allen Eingabeformaten, einschließlich des Imports von HTML-Inhalten.

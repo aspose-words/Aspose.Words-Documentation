@@ -7,6 +7,7 @@ description: "Hướng dẫn cách tạo bảng trong C# theo nhiều cách khá
 type: docs
 weight: 20
 url: /vi/net/create-a-table/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words cho phép người dùng tạo bảng trong tài liệu từ đầu và cung cấp một số phương pháp khác nhau để thực hiện việc đó. Bài viết này trình bày chi tiết về cách thêm bảng được định dạng vào tài liệu của bạn bằng từng phương pháp, cũng như so sánh từng phương pháp ở cuối bài viết.

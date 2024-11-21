@@ -7,6 +7,7 @@ description: "ویژگی های پیشرفته قالب بندی Microsoft Word�
 type: docs
 weight: 110
 url: /fa/net/working-with-styles-and-themes/
+timestamp: 2024-10-24-11-44-28
 ---
 
 کلاس [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) برای مدیریت داخلی و اعمال تنظیمات تعریف شده توسط کاربر برای استایل ها استفاده می شود.

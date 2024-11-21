@@ -7,6 +7,7 @@ description: "高级打字功能 Aspose.Words (单位:千美元) Java。 。 。
 type: docs
 weight: 25
 url: /zh/java/enable-opentype-features/
+timestamp: 2024-01-27-14-07-04
 ---
 
 

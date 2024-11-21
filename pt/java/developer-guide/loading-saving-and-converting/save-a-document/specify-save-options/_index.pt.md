@@ -7,6 +7,7 @@ description: "Definir propriedades avançadas ao salvar um documento usando Java
 type: docs
 weight: 20
 url: /pt/java/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ao salvar um documento, você pode definir algumas propriedades avançadas. Aspose.Words fornece-lhe com o [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/) classe, que permite o controle mais preciso do processo de salvamento. Há sobrecargas dos **Save** método que aceita um **SaveOptions** objeto – deve ser um objeto de uma classe derivada do **SaveOptions** classe. Cada formato de salvamento tem uma classe correspondente que possui opções de salvamento para este formato de salvamento, por exemplo, há [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) para salvar ao formato PDF, [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) para salvar Markdown formato, ou [ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/) para salvar a uma imagem. Este artigo fornece exemplos de trabalho com algumas classes de opções derivadas de **SaveOptions**.

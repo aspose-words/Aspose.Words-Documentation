@@ -7,6 +7,7 @@ description: "Tabelle in Java. Erweiterte Tischmanipulationen, verbinden und tei
 type: docs
 weight: 90
 url: /de/java/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Eine Tabelle in der Aspose.Words Document Object Model, ist aus unabhängigen Zeilen und Zellen aufgebaut, so dass es einfach ist, Tabellen zu verbinden.

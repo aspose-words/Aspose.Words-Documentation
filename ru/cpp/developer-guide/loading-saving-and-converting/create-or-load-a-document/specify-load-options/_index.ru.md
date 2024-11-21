@@ -1,4 +1,4 @@
-﻿---
+---
 title: Укажите параметры загрузки на C++
 second_title: Aspose.Words для C++
 articleTitle: Укажите параметры загрузки
@@ -7,6 +7,7 @@ description: "Более точно контролируйте процесс з
 type: docs
 weight: 10
 url: /ru/cpp/specify-load-options/
+timestamp: 2024-01-30-16-22-34
 ---
 
 При загрузке документа вы можете задать некоторые дополнительные свойства. Aspose.Words предоставляет вам класс [LoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/loadoptions/), который позволяет более точно управлять процессом загрузки. У некоторых загружаемых форматов есть соответствующий класс, который содержит параметры загрузки для этого загружаемого формата, например, есть [PdfLoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/pdfloadoptions/) для загрузки в формат PDF или [TxtLoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/txtloadoptions/) для загрузки в TXT. В этой статье приведены примеры работы с параметрами класса **LoadOptions**.

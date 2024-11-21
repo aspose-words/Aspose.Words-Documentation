@@ -7,6 +7,7 @@ description: "Wie man Kopf- und Fußzeilen manipuliert Java."
 type: docs
 weight: 150
 url: /de/java/working-with-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words ermöglicht es Benutzern, mit Kopf- und Fußzeilen in einem Dokument zu arbeiten. Ein Header ist Text, der oben auf einer Seite platziert wird, und ein Footer ist Text unten auf einer Seite. Typischerweise werden diese Bereiche verwendet, um Informationen einzufügen, die auf allen oder einigen Seiten des Dokuments wiederholt werden sollten, wie Seitennummern, Erstellungsdatum, Unternehmensinformationen und so weiter.

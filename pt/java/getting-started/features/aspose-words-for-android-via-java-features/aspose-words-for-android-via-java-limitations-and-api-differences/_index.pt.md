@@ -7,6 +7,7 @@ description: "Aspose.Words para Android via via via via Java características e 
 type: docs
 weight: 50
 url: /pt/java/aspose-words-for-android-via-java-limitations-and-api-differences/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Limitações Aspose.Words para Android via via via via Java API em comparação com Aspose.Words para Java API

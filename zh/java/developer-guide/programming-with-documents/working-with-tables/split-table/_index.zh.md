@@ -7,6 +7,7 @@ description: "将表格拆分到 Java。 。 。 。 如何将一个表格分成
 type: docs
 weight: 100
 url: /zh/java/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 表格,载于 Aspose.Words Document Object Model, 由独立的行和单元格组成,因此很容易分割一个表格。

@@ -1,4 +1,4 @@
-﻿---
+---
 title: كيفية تثبيت Aspose.Words ل C++
 second_title: Aspose.Words ل C++
 articleTitle: تركيب
@@ -7,6 +7,7 @@ description: "تثبيت Aspose.Words ل C++ باستخدام إدارة NuGet �
 type: docs
 weight: 10
 url: /ar/cpp/installation/
+timestamp: 2024-09-24-14-35-44
 ---
 
 تأكد من أن جهازك يلبي [متطلبات النظام](/words/cpp/system-requirements/) قبل أن تبدأ.

@@ -7,6 +7,7 @@ description: "Signer numériquement les documents et détecter, compter, vérifi
 type: docs
 weight: 30
 url: /fr/java/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Une signature numérique est une mise en œuvre technologique de signatures électroniques pour signer des documents et authentifier le signataire pour garantir qu'un document n'a pas été modifié depuis sa signature. Chaque signature numérique est unique pour chaque signataire en raison du respect du protocole de l'ICP pour générer des clés publiques et privées. Signer un document numériquement signifie créer une signature en utilisant la clé privée du signataire où un algorithme mathématique est utilisé pour chiffrer le hash généré.

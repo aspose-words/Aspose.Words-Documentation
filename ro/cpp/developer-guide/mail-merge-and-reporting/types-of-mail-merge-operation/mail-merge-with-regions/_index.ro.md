@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge cu regiuni în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Mail Merge cu regiuni
@@ -8,6 +8,7 @@ description: "Creați diferite regiuni în șablonul dvs. pentru a avea zone spe
 keywords: "how to execute mail merge c++"
 weight: 20
 url: /ro/cpp/mail-merge-with-regions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Puteți crea diferite regiuni în șablonul dvs. pentru a avea zone speciale pe care le puteți completa pur și simplu cu datele dvs. Utilizați mail merge cu regiuni dacă doriți să inserați tabele, rânduri cu date repetate pentru ca documentele dvs. să crească dinamic, specificând acele regiuni din șablonul dvs.

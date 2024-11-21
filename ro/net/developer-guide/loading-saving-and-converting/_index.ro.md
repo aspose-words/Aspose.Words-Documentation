@@ -7,6 +7,7 @@ description: "Cum să transformi un document de la un format la altul, precum Wo
 type: docs
 weight: 10
 url: /ro/net/loading-saving-and-converting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Această secțiune oferă informații despre funcțiile atunci când se încarcă și se salvează un document, precum și date despre posibilitățile atunci când se convertește un document dintr-un format în altul.

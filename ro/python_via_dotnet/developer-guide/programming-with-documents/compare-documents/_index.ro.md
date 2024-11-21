@@ -1,4 +1,4 @@
-﻿---
+---
 title: Comparați documentele în Python
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Comparați Documentele
@@ -7,6 +7,7 @@ description: "Comparați două documente în orice format acceptat și afișeaz�
 type: docs
 weight: 60
 url: /ro/python-net/compare-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Compararea documentelor este un proces care identifică modificările între două documente și conține modificările ca revizuiri. Acest proces compară oricare două documente, inclusiv versiunile unui document specific, apoi modificările dintre ambele documente vor fi afișate ca revizuiri în primul document.

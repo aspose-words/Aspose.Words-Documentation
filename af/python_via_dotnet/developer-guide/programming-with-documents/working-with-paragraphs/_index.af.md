@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Paragrawe in Python
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Werk Met Paragrawe
@@ -7,6 +7,7 @@ description: "Voeg paragraaf in en spesifiseer die opmaak daarvan in'n dokument 
 type: docs
 weight: 210
 url: /af/python-net/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 'n paragraaf is'n stel karakters wat in'n logiese blok gekombineer word en eindig met'n spesiale karakter – a *paragraph break*. In Aspose.Words word'n paragraaf verteenwoordig deur die [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/) klas.

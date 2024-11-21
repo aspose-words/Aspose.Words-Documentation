@@ -7,6 +7,7 @@ description: "段节点操纵做法 Java。 。 。 。"
 type: docs
 weight: 210
 url: /zh/java/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 一个段落是一组字符合并成逻辑块,并以一个特殊字符结尾--一个*段断*. 内 Aspose.Words, 一款由 [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) 课。

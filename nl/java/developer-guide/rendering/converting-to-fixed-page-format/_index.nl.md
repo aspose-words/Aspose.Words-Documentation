@@ -7,6 +7,7 @@ description: "Aspose.Words voor Java implementeert zijn eigen pagina lay-out eng
 type: docs
 weight: 10
 url: /nl/java/converting-to-fixed-page-format/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words implementeert zijn eigen pagina-indeling motor. Alvorens in zijn specificaties te duiken, is het de moeite waard eerst het document op hoog niveau te bespreken. Bij het denken over een document, gebruikers meestal voorstellen een aantal papieren bladen met woorden, afbeeldingen, tabellen en grafieken. Documenten kunnen van verschillende soorten zijn, zoals tekst, spreadsheets, dia's, CAD tekeningen, stroomschema's, en kunnen daarom in wezen verschillende indelingen hebben. De meeste toepassingen laten toe documenten naar een printer te sturen; dit is wanneer een gebruiker het document daadwerkelijk kan bekijken.

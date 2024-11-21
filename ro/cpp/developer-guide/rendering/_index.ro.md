@@ -1,4 +1,4 @@
-﻿---
+---
 title: Redare în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Redare
@@ -7,6 +7,7 @@ description: "Utilizare Aspose.Words pentru C++ caracteristică De redare pentru
 type: docs
 weight: 20
 url: /ro/cpp/rendering/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Folosim termenul" redare " în Aspose.Words pentru a descrie procesul de conversie a unui document într-un format de fișier sau un mediu care este paginat sau are conceptul de pagini. Vorbim despre redarea unui document în pagini. Următoarea diagramă arată ce redare este în Aspose.Words.

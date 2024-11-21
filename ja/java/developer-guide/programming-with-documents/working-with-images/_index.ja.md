@@ -7,6 +7,7 @@ type: docs
 description: "細部のイメージ図形および提供される高度の特徴 Aspose.Words お問い合わせ Javaお問い合わせ"
 weight: 300
 url: /ja/java/working-with-images/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words ユーザーが非常に柔軟な方法で画像を操作することができます。 この記事では、画像を扱う可能性の一部だけを探索することができます。

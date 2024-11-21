@@ -7,6 +7,7 @@ description: "Cài đặt Aspose.Words cho Python bằng các công cụ Visual 
 type: docs
 weight: 10
 url: /vi/python-net/installation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Đảm bảo máy của bạn đáp ứng [yêu cầu hệ thống](/words/vi/python-net/system-requirements/) trước khi bạn bắt đầu.

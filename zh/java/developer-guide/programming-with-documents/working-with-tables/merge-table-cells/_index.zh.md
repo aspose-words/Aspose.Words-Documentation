@@ -7,6 +7,7 @@ description: "如何合并表格单元格 Java。 。 。 。 检查是否使用
 type: docs
 weight: 40
 url: /zh/java/working-with-merged-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有时表格中的某些行需要一个标题或大块的文字,占用表格的全宽. 对于表格的正确设计,用户可以将多个表格单元格合并为一个. Aspose.Words 支持在使用所有输入格式时合并单元格,包括导入 HTML 内容。

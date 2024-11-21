@@ -7,6 +7,7 @@ description: "Alanları nasıl kaldıracağınızı öğrenin Java. Kaldırım a
 type: docs
 weight: 35
 url: /tr/java/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bazen bir alanı belgeden kaldırmak gereklidir. Bu, farklı alan türleriyle değiştirilmesi gerektiğinde veya belge içinde artık gerekli olmadığında ortaya çıkabilir. Örneğin bir `TOC` alanı HTML kaydetme sırasında.

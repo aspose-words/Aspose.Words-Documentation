@@ -1,4 +1,4 @@
-﻿---
+---
 title: Buscar y reemplazar en C++
 second_title: Aspose.Words para C++
 articleTitle: Buscar y Reemplazar
@@ -7,6 +7,7 @@ type: docs
 description: "Busque un patrón de cadena o expresión regular en su documento y reemplácelo con el texto que desee con C++."
 weight: 100
 url: /es/cpp/find-and-replace/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Puede navegar fácilmente dentro de su documento usando un teclado y un mouse, pero si tiene muchas páginas por las que desplazarse, le llevará bastante tiempo encontrar texto específico en un documento largo. Llevará más tiempo cuando desee reemplazar ciertos caracteres o palabras que ha utilizado en su documento. La funcionalidad "Buscar y reemplazar" le permite buscar una secuencia de caracteres en un documento y reemplazarla con otra secuencia de caracteres.

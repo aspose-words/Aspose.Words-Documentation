@@ -7,6 +7,7 @@ description: "C# を使用してアジアのタイポグラフィを操作しま
 type: docs
 weight: 240
 url: /ja/net/working-with-asian-typography/
+timestamp: 2024-02-01-16-17-05
 ---
 
 アジアのタイポグラフィは、アジアの言語で書かれた文書内のテキスト段落のオプションのセットです。

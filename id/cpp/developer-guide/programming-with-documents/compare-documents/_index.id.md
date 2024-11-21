@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bandingkan Dokumen dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Bandingkan Dokumen
@@ -7,6 +7,7 @@ type: docs
 description: "Bandingkan dua dokumen dalam format apa pun yang didukung dan tampilkan perubahan konten menggunakan C++. Anda dapat menerapkan opsi lanjutan saat membandingkan."
 weight: 60
 url: /id/cpp/compare-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Membandingkan dokumen adalah proses yang mengidentifikasi perubahan antara dua dokumen dan berisi perubahan sebagai revisi. Proses ini membandingkan dua dokumen, termasuk versi dari satu dokumen tertentu, kemudian perubahan di antara kedua dokumen tersebut akan ditampilkan sebagai revisi di dokumen pertama.

@@ -7,6 +7,7 @@ description: "Потребителски настройки на шрифта Py
 type: docs
 weight: 230
 url: /bg/python-net/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Шрифт е набор от символи с определен размер, цвят и дизайн. Aspose.Words ви позволява да работите с шрифтове с помощта на [fonts](https://reference.aspose.com/words/python-net/aspose.words.fonts/) модул и [Font](https://reference.aspose.com/words/python-net/aspose.words/font/) Клас.

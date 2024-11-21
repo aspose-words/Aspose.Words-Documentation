@@ -7,6 +7,7 @@ description: "C#'i kullanarak Asya tipografisiyle çalışın. C#'te Asya ve Lat
 type: docs
 weight: 240
 url: /tr/net/working-with-asian-typography/
+timestamp: 2024-02-01-16-17-05
 ---
 
 Asya Tipografisi, Asya dillerinde yazılmış belgelerdeki metin paragrafları için bir dizi seçenektir.

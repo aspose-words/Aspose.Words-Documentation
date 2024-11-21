@@ -7,6 +7,7 @@ type: docs
 description: "استخدام مبني الوثائق لتعديل الوثيقة بسهولة في Java."
 weight: 20
 url: /ar/java/using-documentbuilder-to-modify-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## الكشف عن الشكل

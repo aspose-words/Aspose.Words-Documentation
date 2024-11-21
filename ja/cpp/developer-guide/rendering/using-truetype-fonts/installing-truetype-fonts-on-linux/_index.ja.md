@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++のLinuxにTrueTypeフォントをインストールする
 second_title: C++の場合Aspose.Words
 articleTitle: TrueTypeフォントをLinuxにインストールする
@@ -7,6 +7,7 @@ description: "C++の場合Aspose.Words Microsoft Wordを使用して作成され
 type: docs
 weight: 20
 url: /ja/cpp/install-truetype-fonts-on-linux/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ほとんどの場合、Aspose.Wordsを使用してDOCまたはDOCX文書をPDF形式に変換します。 Linuxマシン上でこれを行う必要がある場合、このトピックはAspose.Wordsが最高の精度でドキュメントをレンダリングする方法を学ぶのに役立ちます。

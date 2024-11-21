@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu forme în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Lucrul cu forme
@@ -7,6 +7,7 @@ type: docs
 description: "Introducere în limbajul de marcare a formei, creând forme de diferite tipuri folosind C++."
 weight: 280
 url: /ro/cpp/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Acest subiect discută cum să lucrați programatic cu forme folosind Aspose.Words.

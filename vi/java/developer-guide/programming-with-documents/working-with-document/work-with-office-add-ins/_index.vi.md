@@ -7,6 +7,7 @@ description: "Aspose.Words cho Java cung cấp các lớp khác nhau để làm 
 type: docs
 weight: 50
 url: /vi/java/work-with-office-add-ins/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Đôi khi bạn có thể muốn cấp quyền truy cập vào các điều khiển giao diện chạy mã để sửa đổi tài liệu. Aspose.Words API cung cấp không gian tên `WebExtensions`, cho phép nhiều lớp để tùy chỉnh các yếu tố và thuộc tính mở rộng từ vựng XML để biểu diễn các Office Add-in.

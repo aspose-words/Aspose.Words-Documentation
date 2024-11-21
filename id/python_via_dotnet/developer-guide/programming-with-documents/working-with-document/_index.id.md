@@ -7,6 +7,7 @@ type: docs
 description: "Kelas `Document` menyediakan berbagai properti dan metode dokumen menggunakan Python. Anda menggunakan kelas `Document` sebagai titik awal untuk apa pun yang ingin Anda lakukan dengan Aspose.Words untuk Python. Objek `Document` dapat disimpan ke file atau stream dan juga dikirim ke browser."
 weight: 40
 url: /id/python-net/working-with-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Kelas [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) adalah pusat di Aspose.Words. Ini mewakili dokumen dan menyediakan berbagai properti dan metode dokumen, seperti menyimpan atau melindungi dokumen. Anda menggunakan kelas [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) sebagai titik awal untuk apa pun yang ingin Anda lakukan dengan Aspose.Words: membuat dokumen baru dari awal, membuka templat untuk mail merge, atau mendapatkan bagian berbeda dari dokumen.

@@ -7,6 +7,7 @@ description: "Điều hướng giữa các nút khác nhau trong một tài li�
 type: docs
 weight: 5
 url: /vi/java/navigation-with-cursor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Trong khi đang làm việc với một tài liệu, ngay cả khi nó là ngắn hoặc dài, bạn sẽ cần phải điều hướng qua tài liệu của mình. Điều hướng với con trỏ ảo đại diện cho khả năng điều hướng giữa các nút khác nhau trong một tài liệu.

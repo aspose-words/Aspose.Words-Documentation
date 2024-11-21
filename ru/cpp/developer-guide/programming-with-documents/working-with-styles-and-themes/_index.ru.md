@@ -1,4 +1,4 @@
-﻿---
+---
 title: Работа со стилями в C++
 second_title: Aspose.Words для C++
 articleTitle: Работа со стилями
@@ -7,6 +7,7 @@ description: "Расширенные возможности форматиров
 type: docs
 weight: 110
 url: /ru/cpp/working-with-styles-and-themes/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Класс [StyleCollection](https://reference.aspose.com/words/cpp/aspose.words/stylecollection/) используется для управления встроенными и применения пользовательских настроек к стилям.

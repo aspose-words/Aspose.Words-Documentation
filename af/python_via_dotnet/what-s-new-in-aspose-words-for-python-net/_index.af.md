@@ -1,4 +1,4 @@
-﻿---
+---
 title: Wat is nuut
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Wat is nuut in Aspose.Words vir Python via .NET
@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words vir Python via .NET brei en verbeter daagliks. Op hierdie bladsy kan jy leer oor die groot en interessantste kenmerke van die produk."
 weight: 10
 url: /af/python-net/what-s-new-in-aspose-words-for-python-net/
+timestamp: 2024-11-18-12-56-02
 ---
 
 Hierdie bladsy beskryf die interessantste nuwe Aspose.Words funksies wat in onlangse vrystellings bekendgestel is.

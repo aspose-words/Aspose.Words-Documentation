@@ -7,6 +7,7 @@ description: "Kombinovat dokumenty do jednoho: vložit nebo připojit dokument d
 type: docs
 weight: 80
 url: /cs/java/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Někdy je nutné kombinovat několik dokumentů do jednoho. Můžete to udělat ručně nebo můžete použít Aspose.Words vložit nebo připojit funkci.

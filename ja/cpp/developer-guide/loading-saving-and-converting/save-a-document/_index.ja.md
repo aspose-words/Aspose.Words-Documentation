@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++で文書を保存する
 second_title: C++の場合Aspose.Words
 articleTitle: 文書を保存する
@@ -8,6 +8,7 @@ description: "C++を使用して、サポートされている任意の形式で
 keywords: "save a document c++, save a document to file c++, save a document to stream c++, save a document Aspose C++, save formats supported by Aspose.Words C++"
 weight: 20
 url: /ja/cpp/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Wordsで実行する必要があるタスクのほとんどには、文書の保存が含まれます。 ドキュメントAspose.Wordsを保存するには、[Document](https://reference.aspose.com/words/cpp/aspose.words/document/)クラスの[Save](https://reference.aspose.com/words/cpp/aspose.words/document/save/)メソッドを提供します。 文書はAspose.Wordsでサポートされている任意の保存形式で保存できます。 サポートされているすべての保存形式の一覧については、[SaveFormat](https://reference.aspose.com/words/cpp/aspose.words/saveformat/)列挙体を参照してください。

@@ -7,6 +7,7 @@ type: docs
 description: "แปลงเอกสารเป็นรูปแบบอิมเมจ (JPG, PNG เป็นต้น) สร้างเอกสารแสดงตัวอย่าง หรือสร้างเอกสารที่สแกน เพื่อทําการส่งออกเสียงโดยใช้ Java."
 weight: 35
 url: /th/java/convert-a-document-to-an-image/
+timestamp: 2024-01-27-14-07-04
 ---
 
 บางครั้งต้องใช้ภาพแทนเอกสารในรูปแบบอื่น เช่น DCX หรือ PDF ตัวอย่างเช่น คุณต้องเพิ่มการแสดงตัวอย่างหน้าเอกสารใด ๆ ในเว็บไซต์ หรือโปรแกรมของคุณ หรือสร้าง "scan" ของเอกสารเพื่อส่งข้อความ นี่เป็นเมื่อคุณอาจต้องแปลงเอกสารใด ๆ [รูปแบบการโหลดที่รองรับ](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) ไปยังภาพ ในทุกๆ ครั้ง [รูปแบบการบันทึกที่รองรับ](https://reference.aspose.com/words/java/com.aspose.words/saveformat/).

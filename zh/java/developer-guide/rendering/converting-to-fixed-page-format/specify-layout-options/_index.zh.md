@@ -7,6 +7,7 @@ description: "根据文档中指定的参数,使用不同的布局创建输出�
 type: docs
 weight: 10
 url: /zh/java/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words 使您能够创建各种布局的输出文档,取决于 [LayoutOptions](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/) 财产和财产 **Document**。 。 。 。 这块地产和一些 Microsoft Word 本文章中描述的用户界面菜单选项。

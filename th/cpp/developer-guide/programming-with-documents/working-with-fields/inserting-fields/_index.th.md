@@ -1,4 +1,4 @@
-﻿---
+---
 title: แทรกฟิลด์ในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: แทรกฟิลด์
@@ -7,6 +7,7 @@ description: "วิธีการแทรกฟิลด์ลงในเอ
 type: docs
 weight: 20
 url: /th/cpp/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 มีหลายวิธีในการแทรกฟิลด์ลงในเอกสาร:

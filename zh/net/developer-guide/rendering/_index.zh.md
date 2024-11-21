@@ -7,6 +7,7 @@ description: "使用 Aspose.Words 进行 .NET 渲染功能将流程布局文档�
 type: docs
 weight: 20
 url: /zh/net/rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 我们在 Aspose.Words 中使用术语"渲染"来描述将文档转换为文件格式或分页或具有页面概念的介质的过程。我们正在讨论将文档呈现为页面。下图展示了 Aspose.Words 中的渲染。

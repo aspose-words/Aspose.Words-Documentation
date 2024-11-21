@@ -7,6 +7,7 @@ description: "고급 옵션으로 문서를 PDF로 변환합니다. PdfSaveOptio
 type: docs
 weight: 20
 url: /ko/java/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
 PDF 형식은 사용자 중 매우 인기있는 고정 페이지 형식이며 PDF 문서가 모든 장치와 동일하게 보입니다. 그 이유는 PDF로 변환하는 것은 중요한 특징입니다. Aspose.Words·

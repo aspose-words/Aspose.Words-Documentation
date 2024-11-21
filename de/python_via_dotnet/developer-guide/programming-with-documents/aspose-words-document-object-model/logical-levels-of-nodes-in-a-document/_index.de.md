@@ -7,6 +7,7 @@ type: docs
 description: "In der Aspose.Words for Python via .NET-Dokumentation werden logische Ebenen von Knoten erwähnt – Blockebene, Inline-Ebene oder Zeilenebene. Die Knotenebene wird verwendet, um die Position im Dokumentbaum zu beschreiben, an der der Knoten normalerweise auftritt."
 weight: 10
 url: /de/python-net/logical-levels-of-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In dieser Dokumentation wird manchmal auf eine Gruppe von Knotenklassen Bezug genommen, die zu einer "Ebene" in einem Dokument gehören, z. B. Knoten auf "Blockebene", "Inline-Ebene" (auch bekannt als "Inline") oder "Zeilenebene".. Diese Ebenen in einem Dokument werden rein logisch unterschieden und nicht explizit durch Vererbung oder andere Aspose.Words-DOM-Mittel ausgedrückt. Die Knotenebene wird verwendet, um die Stelle im Dokumentbaum zu beschreiben, an der der Knoten normalerweise auftreten würde.

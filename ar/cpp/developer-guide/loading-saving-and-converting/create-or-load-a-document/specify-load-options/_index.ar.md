@@ -1,4 +1,4 @@
-﻿---
+---
 title: حدد خيارات التحميل في C++
 second_title: Aspose.Words ل C++
 articleTitle: حدد خيارات التحميل
@@ -7,6 +7,7 @@ description: "تحكم أكثر دقة في عملية التحميل."
 type: docs
 weight: 10
 url: /ar/cpp/specify-load-options/
+timestamp: 2024-01-30-16-22-34
 ---
 
 عند تحميل مستند، يمكنك تعيين بعض الخصائص المتقدمة. Aspose.Words يوفر لك فئة [LoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/loadoptions/)، والتي تتيح تحكما أكثر دقة في عملية التحميل. تحتوي بعض تنسيقات التحميل على فئة مقابلة تحتوي على خيارات التحميل لتنسيق التحميل هذا، على سبيل المثال، يوجد [PdfLoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/pdfloadoptions/) للتحميل إلى PDF تنسيق أو [TxtLoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/txtloadoptions/) للتحميل إلى TXT. تقدم هذه المقالة أمثلة للعمل مع خيارات فئة **LoadOptions**.

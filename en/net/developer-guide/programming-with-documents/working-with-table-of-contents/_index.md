@@ -7,6 +7,7 @@ description: "Table of Content field in details. How to create and modify `TOC` 
 type: docs
 weight: 170
 url: /net/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Often you will work with documents containing a table of contents (TOC). Using Aspose.Words you can insert your own table of contents or completely rebuild existing table of contents in the document using just a few lines of code. This article outlines how to work with the table of contents field and demonstrates:

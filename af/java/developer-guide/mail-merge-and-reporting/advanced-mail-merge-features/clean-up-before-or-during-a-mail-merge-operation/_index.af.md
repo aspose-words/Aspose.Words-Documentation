@@ -1,4 +1,4 @@
-﻿---
+---
 title: Maak skoon Voor Of Tydens'n Mail Merge Operasie
 second_title: Aspose.Words vir Java
 articleTitle: Maak skoon Voor Of Tydens'n Mail Merge Operasie
@@ -8,6 +8,7 @@ description: "Pas verskillende skoonmaak-en verwyderingsopsies toe, soos om same
 keywords: "cleanup options mail merge c#"
 weight: 10
 url: /af/java/clean-up-before-or-during-mail-merge/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Met Aspose.Words kan u verskillende skoonmaak-en verwyderingsopsies toepas, soos om samesmeltingsvelde te verwyder voordat u'n mail merge - bewerking uitvoer of ongebruikte streke tydens'n mail merge - bewerking verwyder. Hierdie afdeling sal verduidelik hoe om saamgesmelte velde te verwyder en hoe om'n verwyderingsopsie op te stel.

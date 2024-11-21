@@ -7,6 +7,7 @@ description: "Antes de empezar a trabajar con Aspose.Words para Java, asegúrese
 type: docs
 weight: 80
 url: /es/java/system-requirements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words para Java no requiere productos de terceros como Microsoft Word para ser instalado. Aspose.Words es un motor para crear, modificar, convertir y renderizar documentos en diversos formatos, incluyendo Microsoft Word formatos de documentos.

@@ -7,6 +7,7 @@ type: docs
 description: "將文件轉換為圖片格式 (JPG，PNG 等)。 使用 C# 创建文件預覽或掃描以發送帳單。"
 weight: 43
 url: /zh-hant/net/convert-a-document-to-an-image/
+timestamp: 2024-07-09-19-00-42
 ---
 
 有時你必須從其他格式的文件中獲取圖像，例如 DOCX 或 PDF。 例如，你需要在你的網站或應用程式中加上任何文件頁面的預覽，或是為發送發票而掃描文件。 這時你可能需要將任何 [supported load format](https://reference.aspose.com/words/net/aspose.words/loadformat/) 轉換成圖像，再一次，在任何 [supported save format](https://reference.aspose.com/words/net/aspose.words/saveformat/)。

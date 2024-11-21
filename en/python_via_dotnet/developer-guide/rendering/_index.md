@@ -1,4 +1,4 @@
-﻿---
+---
 title: Rendering in Python
 second_title: Aspose.Words for Python via .NET
 articleTitle: Rendering
@@ -8,6 +8,7 @@ type: docs
 weight: 20
 url: /python-net/rendering/
 aliases: [/python/rendering/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 We use the term "rendering" in Aspose.Words to describe the process of converting a document into a file format or a medium that is paginated or has the concept of pages. We are talking about rendering of a document into pages. The following diagram shows what rendering is in Aspose.Words.

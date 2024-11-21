@@ -7,6 +7,7 @@ type: docs
 description: "ใช้ตัวสร้างเอกสารเพื่อแก้ไขเอกสารอย่างง่าย Java."
 weight: 20
 url: /th/java/using-documentbuilder-to-modify-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## กําลังระบุรูปแบบ

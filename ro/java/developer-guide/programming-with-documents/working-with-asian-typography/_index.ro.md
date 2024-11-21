@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tipografie asiatică în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Lucrul cu tipografia asiatică
@@ -7,6 +7,7 @@ description: "Lucrați cu tipografia asiatică folosind Java. Reglați spațiul 
 type: docs
 weight: 240
 url: /ro/java/working-with-asian-typography/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Tipografia asiatică este un set de opțiuni pentru paragrafele de text din documentele scrise în limbile asiatice.

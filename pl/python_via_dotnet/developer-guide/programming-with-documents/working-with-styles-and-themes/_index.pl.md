@@ -7,6 +7,7 @@ description: "Uzyskaj dostęp do stylów i motywów w dokumencie oraz zarządzaj
 type: docs
 weight: 110
 url: /pl/python-net/working-with-styles-and-themes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Klasa [StyleCollection](https://reference.aspose.com/words/python-net/aspose.words/stylecollection/) służy do zarządzania wbudowanymi ustawieniami i stosowania ustawień zdefiniowanych przez użytkownika do stylów.

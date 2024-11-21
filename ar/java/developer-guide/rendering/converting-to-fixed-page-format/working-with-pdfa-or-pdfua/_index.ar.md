@@ -7,6 +7,7 @@ description: "Convert to PDF/A-1, PDF/A-2, PDF/A-4 and PDF/UA using Java. There 
 type: docs
 weight: 28
 url: /ar/java/working-with-pdfa-or-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ويفرض شكل PDF/A و PDF/UA عدة متطلبات تتعلق بمحتوى الوثيقة التي لا يمكن الوفاء بها أثناء التحويل التلقائي من وثيقة في شكل وورد إلى PDF. وينبغي التحقق من هذه الاشتراطات وتصويبها إما في وثيقة كلمة قبل تحويلها أو في وثيقة من وثائق PDF بعد تحويلها من أجل إعداد وثيقة ممتثلة تماماً لـ PDF/A و PDF/UA.

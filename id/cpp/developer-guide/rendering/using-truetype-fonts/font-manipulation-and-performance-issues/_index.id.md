@@ -1,4 +1,4 @@
-﻿---
+---
 title: Manipulasi Font dan Masalah Kinerja di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Manipulasi Font dan Masalah Kinerja
@@ -7,6 +7,7 @@ description: "Aspose.Words untuk C++ menggunakan nama lengkap font, nama keluarg
 type: docs
 weight: 11
 url: /id/cpp/font-manipulation-and-performance-issues/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Semua mekanisme manipulasi font yang tersedia terdapat dalam kelas [FontSettings](https://reference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings). Kelas ini bertanggung jawab untuk mengambil font dalam sumber font yang ditentukan serta untuk proses Penggantian Font, seperti yang dijelaskan di bawah ini.

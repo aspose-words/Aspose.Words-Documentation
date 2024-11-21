@@ -7,6 +7,7 @@ type: docs
 description: "Chargez des ressources éloignées, ce qui peut être une raison de risques pour la sécurité. Jetez un coup d'œil aux problèmes de sécurité communs et à leurs solutions Java."
 weight: 120
 url: /fr/java/web-applications-security-when-loading-external-resources/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Par défaut, Aspose.Words pour Java peut charger des ressources distantes telles que des images, des styles CSS ou des documents HTML externes lors de l'importation de documents ou de l'insertion d'images à l'aide du DocumentBuilder. Ce comportement vous permet de traiter vos documents en détail, mais peut être une raison de certains risques de sécurité si la bibliothèque fait partie d'une application web.

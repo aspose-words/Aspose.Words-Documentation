@@ -1,4 +1,4 @@
-﻿---
+---
 title: كيفية التعرف على أنه تم استبدال الخط في C++
 second_title: Aspose.Words ل C++
 articleTitle: كيفية التعرف على أنه تم استبدال الخط
@@ -7,6 +7,7 @@ description: "إذا لم تكن متأكدا من سبب تغيير تخطيط 
 type: docs
 weight: 13
 url: /ar/cpp/how-to-recognize-that-the-font-was-replaced/
+timestamp: 2024-09-24-14-35-44
 ---
 
 في بعض الأحيان، قد يكون من غير الواضح سبب تغيير تخطيط المستند، أو سبب عدم ظهور بعض الخطوط كما هو متوقع. في مثل هذه الحالات، تأتي رسائل تحذيرات استبدال الخط التي تنفذها واجهة IWarningCallback للإنقاذ. لديهم نوع التحذير [FontSubstitution](https://reference.aspose.com/words/cpp/aspose.words/warningtype/) وتنسيق نص الوصف القياسي، " لم يتم العثور على الخط '<OriginalFont>". باستخدام ' <SubstitutionFont>' الخط بدلا من ذلك. السبب: <Reason> "، مع الأسباب التالية:

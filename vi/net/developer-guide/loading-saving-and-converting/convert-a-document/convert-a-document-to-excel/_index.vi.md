@@ -7,6 +7,7 @@ description: "Chuyển đổi PDF sang Excel, XML sang Excel, DOCX sang Excel C#
 type: docs
 weight: 15
 url: /vi/net/convert-a-document-to-excel/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Chuyển đổi tài liệu từ định dạng này sang định dạng khác là tính năng hàng đầu của Aspose.Words. Bạn có thể chuyển đổi tài liệu ở bất kỳ định dạng [tải định dạng](https://reference.aspose.com/words/net/aspose.words/loadformat/) có sẵn nào sang định dạng XLSX.

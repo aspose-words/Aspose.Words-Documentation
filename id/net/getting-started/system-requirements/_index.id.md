@@ -7,6 +7,7 @@ description: "Sebelum Anda mulai bekerja dengan Aspose.Words untuk .NET, pastika
 type: docs
 weight: 70
 url: /id/net/system-requirements/
+timestamp: 2024-02-01-16-17-05
 ---
 
 Aspose.Words untuk .NET tidak memerlukan instalasi produk pihak ketiga seperti Microsoft Word. Aspose.Words sendiri merupakan mesin untuk membuat, memodifikasi, mengkonversi, dan merender dokumen dalam berbagai format, termasuk format dokumen Microsoft Word.

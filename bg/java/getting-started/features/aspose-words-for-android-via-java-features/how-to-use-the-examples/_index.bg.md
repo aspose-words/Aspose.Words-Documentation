@@ -7,6 +7,7 @@ description: "Как да бягаме Aspose.Words вместо Android пре�
 type: docs
 weight: 70
 url: /bg/java/how-to-use-the-examples/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Първо се уверете, че сте инсталирали DDT пакет и че сте изтеглили и извлече най-новата версия на [Aspose.Words вместо Android през Java](https://releases.aspose.com/words/androidjava/).

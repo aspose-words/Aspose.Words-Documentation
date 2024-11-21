@@ -7,6 +7,7 @@ description: "Převést Word s použitím štítku citlivosti na PDF pomocí C#.
 type: docs
 weight: 30
 url: /cs/net/work-with-document-market-by-sensitivity-label/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Štítky citlivosti z Microsoft Purview Information Protection vám umožní klasifikovat a chránit data vaší organizace a zároveň zajistit, aby uživatelská produktivita a jejich schopnost spolupracovat nebyla překážkou. Poté, co je na dokument aplikován štítek citlivosti, jsou na obsahu vynucována veškerá nakonfigurovaná nastavení ochrany.

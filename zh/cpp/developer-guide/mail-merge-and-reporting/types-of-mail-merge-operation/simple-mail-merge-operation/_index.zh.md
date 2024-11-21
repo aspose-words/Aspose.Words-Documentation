@@ -1,4 +1,4 @@
-﻿---
+---
 title: 简单 Mail Merge 运作于 C++
 second_title: Aspose.Words 为 C++
 articleTitle: 简单 Mail Merge 运作
@@ -8,6 +8,7 @@ description: "一个简单的 mail merge 用于填充 mail merge 模板内的字
 keywords: "how to execute mail merge c++"
 weight: 10
 url: /zh/cpp/simple-mail-merge-operation/
+timestamp: 2024-09-24-14-35-44
 ---
 
 一个简单的 mail merge 用于填充 mail merge 模板内的字段，包含来自数据源的所需数据（单表表示）。 所以它类似于经典 mail merge 在 Microsoft Word.

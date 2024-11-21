@@ -7,6 +7,7 @@ description: "Resize an image in a Word document. NPOI does not provide an oppor
 type: docs
 weight: 40
 url: /net/resize-image-in-word-document/
+timestamp: 2024-05-02-11-51-44
 ---
 
 {{% alert color="primary" %}}

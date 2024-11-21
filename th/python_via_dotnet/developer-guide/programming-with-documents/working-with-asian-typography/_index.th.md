@@ -7,6 +7,7 @@ description: "ทำงานกับการพิมพ์แบบเอเ
 type: docs
 weight: 240
 url: /th/python-net/working-with-asian-typography/
+timestamp: 2024-02-01-16-17-05
 ---
 
 Asian Typography คือชุดตัวเลือกสำหรับย่อหน้าข้อความในเอกสารที่เขียนในภาษาเอเชีย

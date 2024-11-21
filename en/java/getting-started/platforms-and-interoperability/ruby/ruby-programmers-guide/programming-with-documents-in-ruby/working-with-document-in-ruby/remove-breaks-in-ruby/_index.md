@@ -1,4 +1,4 @@
-﻿---
+---
 title: Remove Breaks in Ruby
 second_title: Aspose.Words for Java
 articleTitle: Remove Breaks in Ruby
@@ -7,6 +7,7 @@ description: "Remove breaks using Ruby."
 type: docs
 weight: 20
 url: /java/remove-breaks-in-ruby/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Aspose.Words - Remove Breaks

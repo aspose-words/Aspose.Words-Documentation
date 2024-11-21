@@ -8,6 +8,7 @@ type: docs
 weight: 210
 url: /python-net/working-with-paragraphs/
 aliases: [/python/working-with-paragraphs/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 A paragraph is a set of characters combined into a logical block and ending with a special character – a *paragraph break*. In Aspose.Words, a paragraph is represented by the [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/) class.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Sisipkan Checkbox es, Masukan Teks, atau Gambar selama Mail Merge
 second_title: Aspose.Words untuk C++
 articleTitle: Sisipkan Checkboxes, Masukan Teks, atau Gambar
@@ -7,6 +7,7 @@ description: "Sisipkan kotak centang atau kolom input teks selama Mail Merge men
 type: docs
 weight: 40
 url: /id/cpp/insert-checkboxes-text-input-or-images-mail-merge/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Mesin penggabungan mengambil dokumen sebagai masukan, mencari bidang `MERGEFIELD` di dalamnya, dan menggantinya dengan data yang diperoleh dari sumber data. Biasanya, teks biasa dan HTML disisipkan, tetapi pengguna Aspose.Words juga dapat membuat dokumen yang menangani skenario yang lebih tidak biasa untuk bidang mail merge.

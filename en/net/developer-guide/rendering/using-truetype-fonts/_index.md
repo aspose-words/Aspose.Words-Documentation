@@ -1,4 +1,4 @@
-﻿---
+---
 title: Using TrueType Fonts in C#
 second_title: Aspose.Words for .NET
 articleTitle: Using TrueType Fonts
@@ -7,6 +7,7 @@ description: "Aspose.Words for .NET can find the right font or its suitable repl
 type: docs
 weight: 20
 url: /net/using-truetype-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 When working with documents, you often have to use different fonts, styles, and sizes. Documents can contain any number of fonts, which are not necessarily limited to the fonts that are installed in the operating system. The fonts can be completely different, such as fonts taken from other operating systems, purchased, or created by users themselves.

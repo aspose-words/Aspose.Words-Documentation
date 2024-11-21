@@ -7,6 +7,7 @@ description: "使用 C# 文件水印操控 。"
 type: docs
 weight: 340
 url: /zh-hant/net/working-with-watermark/
+timestamp: 2024-05-02-11-51-44
 ---
 
 這個主題討論了如何在 Aspose.Words 中以程式方式使用水印。 水印是文檔中顯示在文字背後的背景圖像。 一個水印可以包含由 [Watermark](https://reference.aspose.com/words/net/aspose.words/watermark/) 類別所代表的一句文字或一張圖像。

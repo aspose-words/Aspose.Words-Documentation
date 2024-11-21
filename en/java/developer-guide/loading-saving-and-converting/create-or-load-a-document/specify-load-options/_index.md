@@ -7,6 +7,7 @@ description: "Set advanced properties when loading a document using Java to obta
 type: docs
 weight: 10
 url: /java/specify-load-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 When loading a document, you can set some advanced properties. Aspose.Words provides you with the [LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/) class, which allows more precise control of the load process. Some load formats have a corresponding class that holds load options for this load format, for example, there is [PdfLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/) for loading to PDF format or [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) for loading to TXT. This article provides examples of working with options of the **LoadOptions** class.

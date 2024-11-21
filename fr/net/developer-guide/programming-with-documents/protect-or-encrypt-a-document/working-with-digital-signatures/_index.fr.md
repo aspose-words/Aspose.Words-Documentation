@@ -7,6 +7,7 @@ description: "Signez numériquement des documents et détectez, comptez, vérifi
 type: docs
 weight: 40
 url: /fr/net/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Une signature numérique est une implémentation technologique des signatures électroniques pour signer des documents et authentifier le signataire afin de garantir qu'un document n'a pas été modifié depuis sa signature. Chaque signature numérique est unique pour chaque signataire car elle suit le protocole PKI pour générer des clés publiques et privées. Signer numériquement un document signifie créer une signature à l'aide de la clé privée du signataire où un algorithme mathématique est utilisé pour crypter le hachage généré.

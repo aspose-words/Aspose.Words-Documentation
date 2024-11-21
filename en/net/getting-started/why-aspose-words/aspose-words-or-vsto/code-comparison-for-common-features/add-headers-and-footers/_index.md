@@ -7,6 +7,7 @@ type: docs
 description: "Add headers or footers into a document easily and fast instead of using VSTO in C#."
 weight: 40
 url: /net/add-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## VSTO

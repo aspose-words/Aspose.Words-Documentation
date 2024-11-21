@@ -1,4 +1,4 @@
-﻿---
+---
 title: تبدیل یک سند به Markdown در C++
 second_title: Aspose.Words برای C++
 articleTitle: تبدیل یک سند به Markdown
@@ -8,6 +8,7 @@ description: "تبدیل یک سند در هر فرمت بار پشتیبانی 
 keywords: how to convert a document to markdown c++, Convert doc to MD C++, convert DOCX to Markdown C++
 weight: 40
 url: /fa/cpp/convert-a-document-to-markdown/
+timestamp: 2024-10-21-08-52-03
 ---
 
 Markdown یک فرمت محبوب است که برای علامت گذاری متن و تبدیل بیشتر آن به HTML, PDF, DOCX, یا فرمت های دیگر. بسیاری از توسعه دهندگان این فرمت را برای نوشتن اسناد، آماده سازی مقالات برای انتشار در وبلاگ ها، توصیف پروژه ها و غیره انتخاب می کنند.

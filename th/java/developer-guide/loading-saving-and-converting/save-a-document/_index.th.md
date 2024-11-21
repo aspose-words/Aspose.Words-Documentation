@@ -7,6 +7,7 @@ type: docs
 description: "บันทึกเอกสารในรูปแบบใด ๆ ที่รองรับ Java."
 weight: 20
 url: /th/java/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 งานส่วนใหญ่ที่คุณต้องใช้ Aspose.Words เกี่ยวกับการบันทึกเอกสาร เพื่อบันทึกเอกสาร Aspose.Words ให้ [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save(java.lang.String)วิธีของ [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) ชั้นเรียน. เอกสารสามารถบันทึกในรูปแบบใด ๆ ก็ได้ที่รองรับการบันทึก Aspose.Words. สําหรับรายการของรูปแบบการบันทึกทั้งหมดที่รองรับ ดูที่ [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) การเผาศพ

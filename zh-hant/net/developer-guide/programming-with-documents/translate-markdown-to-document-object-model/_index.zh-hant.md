@@ -7,6 +7,7 @@ type: docs
 description: "翻譯一個 Markdown 文檔到 Document Object Model 並回來使用 C#。 這樣你就可以與複雜的現有 Markdown 合作，或從頭建立 Markdown 文檔。"
 weight: 20
 url: /zh-hant/net/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 要以程式方式讀取、處理和修改文件的內容和格式，您需要將其翻譯成 Aspose.Words Document Object Model (DOM）。

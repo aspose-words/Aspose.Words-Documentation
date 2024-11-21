@@ -7,6 +7,7 @@ description: "Función de campos de formulario de comprensión, trabajando con c
 type: docs
 weight: 380
 url: /es/java/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un documento que contiene en blancos rellenos (campos) se conoce como un formulario. Por ejemplo, puede crear un formulario de registro en Microsoft Word que utiliza listas desplegables de las cuales los usuarios pueden seleccionar entradas. El `Form` campo es un lugar donde se almacena un tipo particular de datos, como un nombre o dirección. Campos de formulario en Microsoft Word incluir entrada de texto, combobox y casilla de verificación.

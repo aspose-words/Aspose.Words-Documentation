@@ -7,6 +7,7 @@ description: "Konwertuj na PDF / A-1, PDF / A-2, PDF / A-4 i PDF / UA używając
 type: docs
 weight: 28
 url: /pl/java/working-with-pdfa-or-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Format PDF / A i PDF / UA nakłada kilka wymogów związanych z treścią dokumentu, których nie można spełnić podczas automatycznej konwersji z dokumentu w formacie Word do PDF. Wymogi te powinny zostać zweryfikowane i poprawione w dokumencie Word przed konwersją lub w dokumencie PDF po konwersji w celu sporządzenia dokumentu w pełni zgodnego z PDF / A i PDF / UA.

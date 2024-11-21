@@ -1,4 +1,4 @@
-﻿---
+---
 title: Conversia unui Document în Python
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Conversia unui Document
@@ -8,6 +8,7 @@ url: /ro/python-net/convert-a-document/
 weight: 30
 description: "Convertiți cu ușurință documente dintr-un format în altul folosind Python. Puteți lucra cu toate cele mai populare formate, cum ar fi Microsoft Word formate, cum ar fi DOCX sau DOC, OpenDocument formate, cum ar fi ODT sau OTT, formate web, cum ar fi HTML sau XHTML, formate de text, cum ar fi MarkDown sau TXT, și altele."
 keywords: "convert a document python, convert documents from one format to another python, convert to markdown python, convert pdf to docx python, convert docx to pdf python, convert doc to pdf python, convert a document Aspose for Python"
+timestamp: 2024-01-27-14-07-04
 ---
 
 Capacitatea de a converti cu ușurință și în mod fiabil documente dintr-un format în altul este una dintre principalele domenii caracteristice ale Aspose.Words. O astfel de conversie nu este altceva decât o combinație de operațiuni de încărcare și salvare.

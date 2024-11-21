@@ -1,4 +1,4 @@
-﻿---
+---
 title: 출력의 생산자 이름
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 출력 문서의 생성자 또는 생산자 이름
@@ -7,6 +7,7 @@ description: "Aspose.Words 에 대한 C++ 문서에 생성기 이름과 그것�
 type: docs
 weight: 90
 url: /ko/cpp/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 다음을 사용하여 문서가 생성되는지 쉽게 알 수 있습니다 Aspose.Words 에 대한 C++. 또한 버전 번호를 찾을 수 있습니다 Aspose.Words 에 대한 C++ 특정 출력 문서를 만드는 데 사용되었습니다. Aspose.Words 이 정보를 생성 된 문서에 직접 씁니다.

@@ -7,6 +7,7 @@ description: "Saiba como substituir campos com texto em Java. Substituir campos 
 type: docs
 weight: 37
 url: /pt/java/replace-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Os campos de substituição são frequentemente necessários quando você deseja salvar seu documento como uma cópia estática. Por exemplo, ao enviar como anexo em um e-mail. Converter campos como `DATE` ou `TIME` para o texto estático permitirá que o documento exiba a mesma data que quando foi enviado. Além disso, em algumas situações, você pode precisar remover o condicional `IF` campos do seu documento e substituí-los pelo resultado de texto mais recente. Por exemplo, convertendo o resultado do `IF` campo para texto estático para que ele não vai mais alterar dinamicamente seu valor quando os campos no documento são atualizados.

@@ -7,6 +7,7 @@ description: "アジアのタイポグラフィで働く Javaお問い合わせ 
 type: docs
 weight: 240
 url: /ja/java/working-with-asian-typography/
+timestamp: 2024-01-27-14-07-04
 ---
 
 アジアのタイポグラフィは、アジアの言語で書かれた文書のテキスト段落のためのオプションのセットです。

@@ -7,6 +7,7 @@ description: "الملامح المتطورة لرسم الخرائط Aspose.Wor
 type: docs
 weight: 25
 url: /ar/java/enable-opentype-features/
+timestamp: 2024-01-27-14-07-04
 ---
 
 

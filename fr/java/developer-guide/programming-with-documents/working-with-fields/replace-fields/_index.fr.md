@@ -7,6 +7,7 @@ description: "Découvrez comment remplacer les champs par du texte dans Java. Re
 type: docs
 weight: 37
 url: /fr/java/replace-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Le remplacement des champs est souvent nécessaire lorsque vous souhaitez enregistrer votre document comme une copie statique. Par exemple, lors de l'envoi comme pièce jointe dans un courriel. Convertir des champs tels que `DATE` ou `TIME` au texte statique permettra au document d'afficher la même date que lorsqu'il a été envoyé. En outre, dans certaines situations, vous devrez peut-être supprimer le `IF` les champs de votre document et les remplacer par le résultat le plus récent. Par exemple, la conversion du résultat de la `IF` field to static text de sorte qu'il ne changera plus dynamiquement sa valeur lorsque les champs du document seront mis à jour.

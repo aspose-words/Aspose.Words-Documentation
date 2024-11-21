@@ -7,6 +7,7 @@ description: "Ayarlar, Yazdırma Önizleme ve yazdırma ilerleme iletişim kutul
 type: docs
 weight: 55
 url: /tr/java/print-a-document-programmatically-or-using-dialogs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bu makale bir kelime işlemci belgesi yazdırma Aspose.Words API'den nasıl yazdırılacağını anlatır. Ayrıca ayarlar, yazdırma önizlemesi ve yazdırma ilerleme iletişim kutularını kullanarak bir belgeyi yazdırma yöntemlerini gösterir.

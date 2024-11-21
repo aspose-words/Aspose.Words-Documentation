@@ -7,6 +7,7 @@ description: "Aspose.Words untuk .NET tambahkan ke dokumen nama generator dan no
 type: docs
 weight: 60
 url: /id/net/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Anda dapat dengan mudah mengetahui apakah suatu dokumen diproduksi dengan menggunakan Aspose.Words untuk .NET. Anda juga dapat menemukan nomor versi Aspose.Words untuk .NET yang digunakan untuk membuat dokumen keluaran tertentu. Aspose.Words langsung menulis informasi ini ke dalam dokumen yang dihasilkan.

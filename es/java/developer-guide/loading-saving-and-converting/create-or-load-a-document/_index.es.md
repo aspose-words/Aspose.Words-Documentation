@@ -7,6 +7,7 @@ type: docs
 weight: 10
 url: /es/java/create-or-load-a-document/
 description: "Aspose.Words le permite crear un documento en blanco o cargarlo desde un archivo o flujo utilizando Java."
+timestamp: 2024-01-27-14-07-04
 ---
 
 Casi cualquier tarea que desee realizar con Aspose.Words implica cargar un documento. El `Document` la clase representa un documento cargado en memoria. El documento tiene varios constructores sobrecargados que le permiten crear un documento en blanco o cargarlo desde un archivo o flujo. El documento se puede cargar en cualquier formato de carga soportado por Aspose.Words. Para la lista de todos los formatos de carga soportados, vea la [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) enumeración.

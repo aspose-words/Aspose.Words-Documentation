@@ -7,6 +7,7 @@ description: "מבוא לתכונה Chart, כיצד ליצור ולתפעל char
 type: docs
 weight: 310
 url: /he/java/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 החדש [insertChart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertChart-int-double-double) השיטה נוספה לתוך [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) מעמד. אז בואו נראה כיצד להכניס תרשים טור פשוט לתוך המסמך באמצעות **הכנס טבלה** שיטה.

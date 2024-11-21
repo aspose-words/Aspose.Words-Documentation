@@ -7,6 +7,7 @@ type: docs
 description: "Utilizaţi această introducere pentru Aspose.Words pentru fundamentele .NET pentru a începe să apreciaţi valoarea Aspose.Words pentru afacerea dvs."
 weight: 20
 url: /ro/net/getting-started/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Acest ghid de pornire rapidă oferă o introducere la Aspose.Words fundamentale. Pentru utilizatorii noi la Aspose.Words aceasta este cea mai rapidă cale de a învăța cerințele și capacitățile de bază.

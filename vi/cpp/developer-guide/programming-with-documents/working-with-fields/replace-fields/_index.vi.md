@@ -1,4 +1,4 @@
-﻿---
+---
 title: Thay Thế Các Trường C++
 second_title: Aspose.Words cho C++
 articleTitle: Thay Thế Các Trường Bằng Văn Bản Tĩnh
@@ -7,6 +7,7 @@ description: "Tìm hiểu cách thay thế các trường bằng văn bản tron
 type: docs
 weight: 37
 url: /vi/cpp/replace-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Thay thế các trường thường được yêu cầu khi bạn muốn lưu tài liệu của mình dưới dạng bản sao tĩnh. Ví dụ: khi gửi dưới dạng tệp đính kèm trong e-mail. Chuyển đổi các trường như `DATE` hoặc `TIME` thành văn bản tĩnh sẽ cho phép tài liệu hiển thị cùng ngày với ngày được gửi. Ngoài ra, trong một số trường hợp, bạn có thể cần xóa các trường `IF` có điều kiện khỏi tài liệu của mình và thay thế chúng bằng kết quả văn bản gần đây nhất. Ví dụ: chuyển đổi kết quả của trường `IF` thành văn bản tĩnh để nó sẽ không còn tự động thay đổi giá trị của nó khi các trường trong tài liệu được cập nhật.

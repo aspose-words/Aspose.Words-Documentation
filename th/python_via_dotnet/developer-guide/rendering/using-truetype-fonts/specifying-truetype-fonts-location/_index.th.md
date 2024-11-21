@@ -7,6 +7,7 @@ description: "ระบุแหล่งที่มาของแบบอั
 type: docs
 weight: 30
 url: /th/python-net/specifying-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 หัวข้อนี้จะอธิบายลักษณะการทำงานเริ่มต้นของ Aspose.Words เมื่อค้นหาแบบอักษร TrueType รวมถึงความแตกต่างเฉพาะของระบบปฏิบัติการ และสาธิตวิธีการระบุแหล่งที่มาของแบบอักษรของผู้ใช้

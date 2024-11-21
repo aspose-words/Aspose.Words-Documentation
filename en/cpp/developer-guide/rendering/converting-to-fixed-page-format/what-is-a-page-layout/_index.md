@@ -7,6 +7,7 @@ description: "Let's figure out what a page layout is. A page layout describes th
 type: docs
 weight: 5
 url: /cpp/what-is-a-page-layout/
+timestamp: 2024-09-24-14-35-44
 ---
 
 A **document page layout** is a data structure, describing where a particular object is located on pages for all document objects. In addition, since objects have properties that affect their appearances, such as font size, shading or drawing effects, you need to not only know where the object is, but also what area (s) of the page it occupies, and whether it will apply to multiple pages so that other objects do not overlap the same area (s).

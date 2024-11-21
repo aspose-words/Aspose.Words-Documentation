@@ -7,6 +7,7 @@ description: "Buat, edit dan simpan dokumen pertama Anda dalam format yang diduk
 type: docs
 weight: 20
 url: /id/java/hello-world/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Kode "Hello, World!" seringkali contoh sederhana pertama untuk menulis uisng "Aspose.Words Sitemap Java", dan juga dapat digunakan sebagai uji sanitasi untuk memastikan perangkat lunak yang dimaksudkan untuk menyusun atau menjalankan kode sumber dipasang dengan benar.

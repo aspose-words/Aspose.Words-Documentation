@@ -7,6 +7,7 @@ description: "Converta um documento em um array byte para trabalhar com este doc
 type: docs
 weight: 40
 url: /pt/java/serialize-and-work-with-a-document-in-a-database/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uma das tarefas que você pode precisar fazer quando trabalhar com documentos está armazenando e recuperando **Document** objetos para e de um banco de dados. Por exemplo, isso seria necessário se você estivesse implementando qualquer tipo de sistema de gerenciamento de conteúdo. Todas as versões anteriores dos documentos devem ser armazenadas no sistema de banco de dados. A capacidade de armazenar documentos no banco de dados também é extremamente útil quando sua aplicação fornece um serviço baseado na web.

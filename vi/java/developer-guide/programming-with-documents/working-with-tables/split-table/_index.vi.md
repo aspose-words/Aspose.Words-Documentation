@@ -7,6 +7,7 @@ description: "Phân chia bảng trong Java. Cách chia một bảng thành hai b
 type: docs
 weight: 100
 url: /vi/java/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Một bảng, được thể hiện trong Aspose.Words Document Object Model là được tạo thành từ các hàng và ô độc lập, làm cho nó dễ chia tách một bảng.

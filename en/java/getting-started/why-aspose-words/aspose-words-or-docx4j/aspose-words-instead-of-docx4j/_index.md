@@ -1,4 +1,4 @@
-﻿---
+---
 title: How to Use Aspose.Words Instead of Docx4j
 second_title: Aspose.Words for Java
 articleTitle: How to Use Aspose.Words Instead of Docx4j
@@ -7,6 +7,7 @@ description: "How to download and install Aspose.Words for Java and what prerequ
 type: docs
 weight: 5
 url: /java/aspose-words-instead-of-docx4j/
+timestamp: 2024-01-31-14-23-37
 ---
 
 When a user needs to programmatically create, modify, and manage documents, it is always important to choose the right tool that suits the specific document development needs. This article aims to help developers make the right decision when comparing Aspose.Words and docx4j.

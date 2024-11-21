@@ -7,6 +7,7 @@ description: "Contoh pengisian tabel dokumen dari database eksternal menggunakan
 type: docs
 weight: 120
 url: /id/net/how-to-build-a-table-from-a-datatable/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Seringkali aplikasi Anda mengambil data dari database dan menyimpannya dalam bentuk **DataTable**. Anda dapat dengan mudah memasukkan data ini ke dalam dokumen Anda sebagai tabel baru dan dengan cepat menerapkan pemformatan ke seluruh tabel.

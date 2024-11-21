@@ -1,4 +1,4 @@
-﻿---
+---
 title: 最新消息
 second_title: Aspose.Words为C++
 articleTitle: 最新消息 Aspose.Words为C++
@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words为C++ 每天扩展和增强。 在这个页面上，您可以了解该产品的巨大和最有趣的功能。"
 weight: 2
 url: /zh/cpp/what-s-new-in-aspose-words-for-cpp/
+timestamp: 2024-10-28-11-53-45
 ---
 
 本页介绍了最近版本中引入的最有趣的Aspose.Words新特性。

@@ -1,4 +1,4 @@
-﻿---
+---
 title: CMakeプロジェクトで製品を構成する
 second_title: C++の場合Aspose.Words
 articleTitle: 設定 C++の場合Aspose.Words CMakeプロジェクトで
@@ -7,6 +7,7 @@ description: "設定 C++の場合Aspose.Words あなたのCMakeであなたの�
 type: docs
 weight: 90
 url: /ja/cpp/configure-aspose-words-for-cpp-in-cmake-project/
+timestamp: 2024-10-24-11-44-28
 ---
 
 C++の場合Aspose.Words APIは任意のGNU/Linuxオペレーティングシステムに対してCMakeで動作します。 それはある場合もあります [公式サイトからダウンロード](https://cmake.org/download/).

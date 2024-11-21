@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içine Belge Ekleme ve Ekleme
 second_title: Aspose.Words için C++
 articleTitle: Belge Ekleme ve Ekleme
@@ -7,6 +7,7 @@ description: "Belgeleri bir araya getirin: bul ve değiştir, birleştirme alan�
 type: docs
 weight: 80
 url: /tr/cpp/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bazen birkaç belgeyi bir araya getirmek gerekir. Bunu manuel olarak yapabilir veya Aspose.Words ekle veya ekle özelliğini kullanabilirsiniz.

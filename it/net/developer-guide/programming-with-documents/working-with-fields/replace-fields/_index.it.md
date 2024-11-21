@@ -7,6 +7,7 @@ description: "Scopri come sostituire i campi con testo in C#. Sostituisci i camp
 type: docs
 weight: 37
 url: /it/net/replace-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 La sostituzione dei campi è spesso necessaria quando desideri salvare il documento come copia statica. Ad esempio, quando si invia come allegato in un'e-mail. La conversione di campi come `DATE` o `TIME` in testo statico consentirà al documento di visualizzare la stessa data di quando è stato inviato. Inoltre, in alcune situazioni, potrebbe essere necessario rimuovere i campi `IF` condizionali dal documento e sostituirli invece con il risultato testuale più recente. Ad esempio, convertendo il risultato del campo `IF` in testo statico in modo che non cambi più dinamicamente il suo valore quando i campi nel documento vengono aggiornati.

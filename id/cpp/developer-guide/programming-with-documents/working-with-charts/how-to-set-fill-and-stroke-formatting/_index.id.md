@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bekerja dengan Bagan di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Bekerja dengan Bagan
@@ -7,6 +7,7 @@ description: "Pengantar fitur Bagan, cara membuat dan memanipulasi bagan menggun
 type: docs
 weight: 170
 url: /id/cpp/how-to-set-fill-and-stroke-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Pemformatan isian dan guratan dapat diatur untuk deret bagan, titik data, dan penanda. Untuk melakukannya, Anda perlu menggunakan properti dari tipe **ChartFormat** di kelas **ChartSeries**, **ChartDataPoint**, dan **ChartMarker**, serta alias untuk beberapa properti, seperti ForeColor, BackColor, Visible, dan Transparency di kelas `Stroke`.

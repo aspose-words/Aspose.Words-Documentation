@@ -7,6 +7,7 @@ description: "Instal Aspose.Words untuk .NET menggunakan alat Visual Studio sepe
 type: docs
 weight: 10
 url: /id/net/installation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Pastikan mesin Anda memenuhi [Persyaratan sistem](/words/id/net/system-requirements/) sebelum Anda mulai.

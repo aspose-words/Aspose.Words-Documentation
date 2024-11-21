@@ -7,6 +7,7 @@ description: "문서를 하나에 결합: 삽입하거나 문서를 찾아서 �
 type: docs
 weight: 80
 url: /ko/java/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 때로는 여러 문서를 하나로 결합해야합니다. 당신은 수동으로 할 수 있습니다 또는 당신은 사용할 수 있습니다 Aspose.Words 삽입 또는 추가 기능.

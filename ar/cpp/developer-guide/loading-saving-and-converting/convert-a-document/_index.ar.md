@@ -1,4 +1,4 @@
-﻿---
+---
 title: تحويل مستند في C++
 second_title: Aspose.Words ل C++
 articleTitle: تحويل مستند
@@ -8,6 +8,7 @@ description: "تحويل المستندات بسهولة من تنسيق إلى 
 keywords: "convert a document c++, convert documents from one format to another c++, convert to markdown c++, convert pdf to docx C++, convert docx to pdf C++, convert doc to pdf C++, convert a document Aspose for C++"
 weight: 30
 url: /ar/cpp/convert-a-document/
+timestamp: 2024-09-25-11-08-55
 ---
 
 تعد القدرة على تحويل المستندات بسهولة وموثوقية من تنسيق إلى آخر أحد مجالات الميزات الرئيسية في Aspose.Words. مثل هذا التحويل ليس أكثر من مزيج من عمليات التحميل والحفظ.

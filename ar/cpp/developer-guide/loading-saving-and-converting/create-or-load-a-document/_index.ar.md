@@ -1,4 +1,4 @@
-﻿---
+---
 title: إنشاء أو تحميل مستند في C++
 second_title: Aspose.Words ل C++
 articleTitle: إنشاء مستند أو تحميله
@@ -8,6 +8,7 @@ description: "قم بإنشاء مستند فارغ أو لتحميله من م�
 keywords: "create a document c++, load a document c++, create a blank document c++, load a document from file c++, load a document from stream c++, create a document Aspose C++, load a document Aspose C++, load formats supported by Aspose.Words C++"
 weight: 10
 url: /ar/cpp/create-or-load-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 تتضمن أي مهمة تريد تنفيذها باستخدام Aspose.Words تقريبا تحميل مستند. تمثل فئة `Document` مستندا تم تحميله في الذاكرة. يحتوي المستند على العديد من المنشئات المحملة بشكل زائد مما يسمح لك بإنشاء مستند فارغ أو تحميله من ملف أو دفق. يمكن تحميل المستند بأي تنسيق تحميل يدعمه Aspose.Words. للحصول على قائمة بجميع تنسيقات التحميل المدعومة، راجع [LoadFormat](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) تعداد.

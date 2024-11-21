@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words for .NET rozpoznaje i przestrzega powszechnych standardów bezpieczeństwa, aby zapewnić wysoki poziom bezpieczeństwa danych. Zapoznaj się z możliwymi problemami związanymi z bezpieczeństwem i zaleceniami, jak ich uniknąć, korzystając z formatu C#."
 weight: 100
 url: /pl/net/security/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bezpieczeństwo pomaga chronić dane przed nieautoryzowanym dostępem, a także złośliwymi lub przypadkowymi zmianami. Aspose.Words przywiązuje szczególną wagę do bezpieczeństwa danych klientów, dlatego rozpoznaje i przestrzega powszechnych standardów bezpieczeństwa.

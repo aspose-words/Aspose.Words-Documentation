@@ -7,6 +7,7 @@ description: "Fonctionnalités avancées de formatage Microsoft Word, travaillan
 type: docs
 weight: 110
 url: /fr/net/working-with-styles-and-themes/
+timestamp: 2024-10-24-11-44-28
 ---
 
 La classe [StyleCollection](https://reference.aspose.com/words/fr/net/aspose.words/stylecollection/) est utilisée pour gérer les paramètres intégrés et appliquer les paramètres définis par l'utilisateur aux styles.

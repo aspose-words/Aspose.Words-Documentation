@@ -7,6 +7,7 @@ description: "Cara yang berbeda untuk membuat tabel dalam dokumen Anda menggunak
 type: docs
 weight: 20
 url: /id/java/create-a-table/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words memungkinkan pengguna untuk membuat tabel dalam dokumen dari awal dan menyediakan beberapa metode yang berbeda untuk melakukannya. Artikel ini menyajikan rincian tentang cara menambahkan tabel yang diformat ke dokumen Anda menggunakan setiap metode, serta perbandingan setiap metode pada akhir artikel.

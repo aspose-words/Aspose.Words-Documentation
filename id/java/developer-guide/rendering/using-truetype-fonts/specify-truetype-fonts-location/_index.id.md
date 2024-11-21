@@ -7,6 +7,7 @@ description: "Tentukan berbagai Login Jenis sumber font: folder sistem, sumber p
 type: docs
 weight: 30
 url: /id/java/specify-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Topik ini menjelaskan perilaku default dari Aspose.Words ketika mencari font TrueType, termasuk perbedaan spesifik sistem operasi, dan menunjukkan cara menentukan sumber font pengguna.

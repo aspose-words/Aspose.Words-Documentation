@@ -1,4 +1,4 @@
-﻿---
+---
 title: شروع به کار
 second_title: Aspose.Words برای C++
 articleTitle: شروع به کار
@@ -7,6 +7,7 @@ type: docs
 description: "از این مقدمه برای Aspose.Words برای C++ اصول اولیه برای شروع درک ارزش Aspose.Words برای کسب و کار شما."
 weight: 10
 url: /fa/cpp/getting-started/
+timestamp: 2024-09-25-11-08-55
 ---
 
 این شروع مقدمه ای به اصول Aspose.Words ارائه می دهد. برای کاربران جدید Aspose.Words، این سریع ترین راه برای یادگیری الزامات و قابلیت های اساسی است.

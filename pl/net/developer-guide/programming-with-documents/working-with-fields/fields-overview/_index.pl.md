@@ -7,6 +7,7 @@ description: "Pola zawierają szczegółowe informacje, kody pól i wyniki pól 
 type: docs
 weight: 10
 url: /pl/net/fields-overview/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words to biblioteka klas przeznaczona do przetwarzania dokumentów Microsoft Word po stronie serwera i obsługuje pola w następujący sposób:

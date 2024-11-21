@@ -7,6 +7,7 @@ description: "מבוא לתכונה Chart, כיצד ליצור ולתפעל char
 type: docs
 weight: 310
 url: /he/net/working-with-charts/
+timestamp: 2024-02-05-15-07-18
 ---
 
 חדש חדש חדש [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) השיטה נוספה [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) מעמד. אז, בואו נראה כיצד להכניס תרשים טור פשוט לתוך המסמך תוך שימוש במסמך. [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) שיטה.

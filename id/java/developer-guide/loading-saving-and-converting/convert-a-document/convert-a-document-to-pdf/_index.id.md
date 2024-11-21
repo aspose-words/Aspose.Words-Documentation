@@ -7,6 +7,7 @@ description: "Mengkonversi dokumen di Word atau format yang didukung lainnya ke 
 type: docs
 weight: 10
 url: /id/java/convert-a-document-to-pdf/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Kemampuan untuk mengubah dokumen dengan mudah dan andal dari satu format ke format lain adalah fitur utama dari Aspose.WordsSitemap Salah satu format paling populer untuk mengkonversi adalah PDF - format tetap-layout, yang mempertahankan tampilan asli dokumen selama rendering di berbagai platform. Istilah "rendering" digunakan dalam Aspose.Words untuk menggambarkan proses mengkonversi dokumen ke format file yang dipesan atau memiliki konsep halaman.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içindeki Köprülerle Çalışma
 second_title: Aspose.Words için C++
 articleTitle: Köprü Ekleme veya Değiştirme
@@ -7,6 +7,7 @@ description: "Kullanarak belgenize köprü ekleme Aspose.Words için C++."
 type: docs
 weight: 180
 url: /tr/cpp/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word belgelerindeki köprü `HYPERLINK` alanıdır. Aspose.Words 'te köprüler [FieldHyperlink](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldhyperlink/) sınıfı aracılığıyla uygulanır.

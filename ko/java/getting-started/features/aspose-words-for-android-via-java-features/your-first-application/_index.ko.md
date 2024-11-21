@@ -7,6 +7,7 @@ description: "설치하기 Aspose.Words 제품정보 Android 이름 * Java·"
 type: docs
 weight: 30
 url: /ko/java/your-first-application/
+timestamp: 2024-01-27-14-07-04
 ---
 
 이 문서는 당신과 함께 시작하는 아이디어를 제공합니다 Aspose.Words 제품정보 Android 이름 * Java· 그것은 새로운 설정 방법을 보여줍니다 Android 찰상에서 프로젝트는, 참고를 추가합니다 Aspose.Words JAR 그리고 DOCX 형식으로 디스크에 저장되는 새 문서를 만듭니다. 이 예제는 [Android 사이트맵](https://developer.android.com/studio/index.html) 개발 및 응용 프로그램에 대한 실행 Android 에뮬레이터. 시작하기 Aspose.Words 제품정보 Android 이름 * Java, 이 단계별 튜토리얼을 따르십시오. Aspose.Words 제품정보 Android 이름 * Java::

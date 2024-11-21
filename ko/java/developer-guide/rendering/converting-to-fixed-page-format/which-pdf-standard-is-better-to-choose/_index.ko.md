@@ -7,6 +7,7 @@ description: "최고의 PDF 표준을 선택하여 프로그래밍 작업의 결
 type: docs
 weight: 27
 url: /ko/java/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 일부 작업의 경우, 특정 PDF 표준은 더 잘 적합하거나 악의를 악화합니다. 이 문서에서, 우리는 그것을 선택하는 어떤 케이스에 대한 PDF 표준을 결정하려고합니다.

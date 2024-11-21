@@ -1,4 +1,4 @@
-﻿---
+---
 title: 加载资源时的Web应用程序安全性
 second_title: Aspose.Words为C++
 articleTitle: 加载外部资源时的Web应用程序安全性
@@ -7,6 +7,7 @@ type: docs
 description: "加载远程资源，这可能是一个安全风险的原因。 查看C++中的常见安全问题及其解决方案。"
 weight: 50
 url: /zh/cpp/web-applications-security-when-loading-external-resources/
+timestamp: 2024-01-30-16-22-34
 ---
 
 默认情况下, Aspose.Words为C++ 可以在导入文档或使用DocumentBuilder插入图像时加载图像、CSS样式或外部HTML文档等远程资源。 此行为允许您详细处理文档，但如果库是web应用程序的一部分，则可能会导致某些安全风险。

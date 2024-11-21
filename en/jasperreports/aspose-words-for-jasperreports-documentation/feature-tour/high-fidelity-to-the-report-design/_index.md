@@ -1,4 +1,4 @@
-﻿---
+---
 title: High Fidelity to the Report Design
 second_title: Aspose.Words for JasperReports
 articleTitle: High Fidelity to the Report Design
@@ -7,6 +7,7 @@ description: "Aspose.Words for JasperReports exports reports as Microsoft Word d
 type: docs
 weight: 30
 url: /jasperreports/high-fidelity-to-the-report-design/
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

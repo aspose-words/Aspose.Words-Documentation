@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tentukan Lokasi Font TrueTypedalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Tentukan Lokasi Font TrueType
@@ -7,6 +7,7 @@ description: "Tentukan berbagai sumber font TrueType: folder sistem, sumber peng
 type: docs
 weight: 30
 url: /id/cpp/specify-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Topik ini menjelaskan perilaku default Aspose.Words saat mencari font TrueType, termasuk perbedaan khusus sistem operasi, dan mendemonstrasikan cara menentukan sumber font pengguna.

@@ -7,6 +7,7 @@ description: "Simpan dokumen dalam format yang paling populer dan mendukung bany
 type: docs
 weight: 30
 url: /id/java/supported-features-on-document-save/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words memungkinkan pengguna untuk bekerja dengan dokumen dalam berbagai format dan menyediakan berbagai fitur untuk ini. Misalnya, pengguna dapat membuat dokumen dari awal atau memuatnya, membuat beberapa perubahan, dan kemudian menyimpan perubahan tersebut dalam file output di setiap [Login](/words/id/java/supported-document-formats/)Sitemap Meskipun menyimpan dokumen dalam format yang dipilih, pengguna dapat menerapkan berbagai opsi simpan.

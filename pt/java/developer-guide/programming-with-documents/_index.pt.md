@@ -7,6 +7,7 @@ type: docs
 description: "Use o Aspose.Words Document Object Model classes para criar, modificar e gerenciar programaticamente documentos com Java. Trabalhe com propriedades de documentos, configurações e conteúdo, bem como com aparência de documentos através da gestão de cores, formas, fontes e outros gráficos."
 weight: 340
 url: /pt/java/programming-with-documents/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Esta seção fornece informações sobre como criar, modificar e gerenciar documentos programaticamente com o Aspose.Words Document Object Model aulas. Artigos nesta seção descrevem uma ampla gama de tarefas de manipulação de documentos, permitindo que você trabalhe com propriedades de documentos, configurações, conteúdo e seus elementos.

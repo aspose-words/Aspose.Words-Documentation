@@ -7,6 +7,7 @@ description: "Incorpore a semântica definida pelo cliente, bem como seu comport
 type: docs
 weight: 50
 url: /pt/python-net/structured-document-tags-or-content-control/
+timestamp: 2024-01-31-14-23-37
 ---
 
 

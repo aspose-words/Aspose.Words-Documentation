@@ -7,6 +7,7 @@ description: "Extragerea conținutului documentului în diferite folosind C#."
 type: docs
 weight: 140
 url: /ro/net/how-to-extract-selected-content-between-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 "Când lucrezi cu documente este important să poți extrage cu ușurință conținut dintr-un domeniu specific din cadrul unui document." Însă conținutul poate consta din elemente complexe precum paragrafe, tabele, imagini, etc.

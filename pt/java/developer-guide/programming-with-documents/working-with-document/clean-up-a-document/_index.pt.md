@@ -7,6 +7,7 @@ description: "Remova informações não utilizadas ou duplicadas para reduzir o 
 type: docs
 weight: 30
 url: /pt/java/clean-up-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Às vezes você pode precisar remover informações não utilizadas ou duplicadas para reduzir o tamanho do documento de saída e tempo de processamento.

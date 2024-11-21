@@ -7,6 +7,7 @@ description: "자세히 알아보기 Aspose.Words 제품정보 Java 한 형식�
 type: docs
 weight: 20
 url: /ko/java/loading-saving-and-converting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 이 섹션은 문서를 로딩하고 저장할 때 기능에 대한 정보를 제공하며, 문서의 데이터를 하나의 형식으로 다른 형식으로 변환 할 때의 가능성에 대해 설명합니다.

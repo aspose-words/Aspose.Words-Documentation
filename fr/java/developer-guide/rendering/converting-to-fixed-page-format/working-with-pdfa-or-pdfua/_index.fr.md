@@ -7,6 +7,7 @@ description: "Convertir en PDF/A-1, PDF/A-2, PDF/A-4 et PDF/UA en utilisant Java
 type: docs
 weight: 28
 url: /fr/java/working-with-pdfa-or-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Le format PDF/A et PDF/UA impose plusieurs exigences liées au contenu du document qui ne peuvent pas être remplies lors de la conversion automatique d'un document en format Word au format PDF. Ces exigences devraient être vérifiées et corrigées soit dans un document Word avant la conversion, soit dans un document PDF après la conversion, afin de produire un document entièrement conforme PDF/A et PDF/UA.

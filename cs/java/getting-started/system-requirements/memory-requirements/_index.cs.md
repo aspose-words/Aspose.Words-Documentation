@@ -7,6 +7,7 @@ description: "Kolik paměť dělá Aspose.Words místo Java vyžaduje práci s d
 type: docs
 weight: 10
 url: /cs/java/memory-requirements/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words poskytuje širokou škálu funkcí pro práci s dokumenty v různých formátech. Je důležité poznamenat, že neexistuje žádný limit maximální velikosti dokumentu souboru, který Aspose.Words může zpracovávat nebo vykreslovat. Jediné omezení je množství RAM (paměti) dostupné na vaší straně.

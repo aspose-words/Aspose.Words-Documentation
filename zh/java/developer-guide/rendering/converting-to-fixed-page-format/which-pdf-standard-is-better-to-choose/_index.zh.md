@@ -7,6 +7,7 @@ description: "选择最佳 PDF 标准导出您的编程任务结果 Java。 。 
 type: docs
 weight: 27
 url: /zh/java/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 对于某些任务,某些PDF标准将更好,反之亦然。 在本篇文章中,我们将努力确定选择哪种PDF标准是合理的。

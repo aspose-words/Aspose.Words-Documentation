@@ -7,6 +7,7 @@ description: "Font formatting in details using Java."
 type: docs
 weight: 230
 url: /java/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A font is a set of characters with a certain size, color, and design. Aspose.Words allows you to work with fonts using various font-related classes, including the [Font](https://reference.aspose.com/words/java/com.aspose.words/font/) class.

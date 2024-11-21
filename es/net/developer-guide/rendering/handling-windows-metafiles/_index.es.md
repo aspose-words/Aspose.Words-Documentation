@@ -7,6 +7,7 @@ description: "Aspose.Words para .NET implementa su propio reproductor de metarch
 type: docs
 weight: 30
 url: /es/net/handling-windows-metafiles/
+timestamp: 2024-07-10-14-38-57
 ---
 
 El formato Windows Metafile es un formato de archivo de imagen que puede contener gráficos vectoriales y rasterizados. Este formato se utiliza para almacenar datos gráficos en la memoria o archivos en disco. Un metarchivo almacena una lista de llamadas a funciones en la interfaz del dispositivo gráfico (GDI) Windows que deben ejecutarse para mostrar la imagen en la pantalla. El sistema interpreta y ejecuta estos comandos en el contexto de visualización.

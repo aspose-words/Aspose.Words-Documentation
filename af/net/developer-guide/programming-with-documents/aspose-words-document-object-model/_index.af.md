@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words Dokument Voorwerp Model (DOM) in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Aspose.Words Dokument Voorwerp Model (DOM)
@@ -7,6 +7,7 @@ type: docs
 description: "Dokument Object Model (DOM) is'n in-geheue voorstelling van'n Word dokument. Lees, manipuleer en verander die inhoud en formatering van'n Word-dokument met behulp van C#."
 weight: 10
 url: /af/net/aspose-words-document-object-model/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Die Aspose.Words Document Object Model (DOM) is'n in-geheue voorstelling van'n Word dokument. Met die Aspose.Words DOM kan u die inhoud en formatering van'n Word-dokument programmaties lees, manipuleer en verander.

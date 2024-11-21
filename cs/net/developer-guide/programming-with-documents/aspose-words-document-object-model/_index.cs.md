@@ -7,6 +7,7 @@ type: docs
 description: "Document Object Model (DOM) představuje dokument Word. Číst, manipulovat a upravovat obsah a formátování dokumentu Word pomocí C#."
 weight: 10
 url: /cs/net/aspose-words-document-object-model/
+timestamp: 2024-01-27-14-07-04
 ---
 
 • Aspose.Words Document Object Model (DOM) představuje dokument Word. • Aspose.Words DOM umožňuje programově číst, manipulovat a upravovat obsah a formátování dokumentu Word.

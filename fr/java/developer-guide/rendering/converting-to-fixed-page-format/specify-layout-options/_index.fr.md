@@ -7,6 +7,7 @@ description: "Créer des documents de sortie avec différentes mises en page, en
 type: docs
 weight: 10
 url: /fr/java/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words vous permet de créer des documents de sortie avec différentes mises en page, en fonction des paramètres spécifiés dans le [LayoutOptions](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/) propriété des **Document**. Cette propriété ressemble à certains des Microsoft Word options de menu d'interface utilisateur décrites dans cet article.

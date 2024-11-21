@@ -7,6 +7,7 @@ description: "細部の表のフォーマット。 使用方法 Java テーブ�
 type: docs
 weight: 70
 url: /ja/java/applying-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 テーブルの各要素は異なるフォーマットで適用できます。 たとえば、テーブルの書式は、特定の行だけに整形する行、特定のセルだけに整形するセルです。

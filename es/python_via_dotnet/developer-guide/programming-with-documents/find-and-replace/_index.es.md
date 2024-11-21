@@ -7,6 +7,7 @@ type: docs
 description: "Busque una cadena o un patrón de expresión regular en su documento y reemplácelo con el texto que desee usando Python."
 weight: 100
 url: /es/python-net/find-and-replace/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Puede navegar fácilmente dentro de su documento usando un teclado y un mouse, pero si tiene muchas páginas por las que desplazarse, le llevará bastante tiempo encontrar un texto específico en un documento largo. Tomará más tiempo cuando desee reemplazar ciertos caracteres o palabras que haya utilizado en su documento. La función "Buscar y reemplazar" le permite buscar una secuencia de caracteres en un documento y reemplazarla con otra secuencia de caracteres.

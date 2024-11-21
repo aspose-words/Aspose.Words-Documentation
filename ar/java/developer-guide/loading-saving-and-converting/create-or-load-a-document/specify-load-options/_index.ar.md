@@ -7,6 +7,7 @@ description: "وضع خصائص متقدمة عند تحميل وثيقة باس
 type: docs
 weight: 10
 url: /ar/java/specify-load-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 عند تحميل وثيقة، يمكنك وضع بعض الممتلكات المتقدمة. Aspose.Words يزودك بـ [LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/) الدرجة التي تسمح بمراقبة أكثر دقة لعملية التحميل بعض أشكال التحميل لها طبقة مناظرة تحتوي على خيارات تحميل لشكل الحمولة هذا، على سبيل المثال، هناك [PdfLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/) من أجل تحميلها على شكل قوات الدفاع الشعبي أو [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) لتحميل (تي إكس تي) تقدم هذه المادة أمثلة على العمل مع خيارات **LoadOptions** الصف

@@ -7,6 +7,7 @@ description: "Aspose.Words für Java kann Ihnen helfen, wie man zwischen Messein
 type: docs
 weight: 20
 url: /de/java/convert-between-measurement-units/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Die meisten der in der Aspose.Words API die einige Messungen, wie Breite oder Höhe, Ränder und verschiedene Abstände darstellen, akzeptieren Werte in Punkten, wobei 1 Zoll 72 Punkte entspricht. Manchmal ist dies nicht bequem und Punkte müssen in andere Einheiten umgewandelt werden.

@@ -8,6 +8,7 @@ description: "Convert a document in any supported load format to Markdown and vi
 keywords: how to convert a document to markdown c#
 weight: 40
 url: /net/convert-a-document-to-markdown/
+timestamp: 2024-07-10-08-10-45
 ---
 
 Markdown is a popular format used to markup text and its further converting to HTML, PDF, DOCX, or other formats. Many developers choose this format for writing documentation, preparing articles for publication on blogs, describing projects, and so on.

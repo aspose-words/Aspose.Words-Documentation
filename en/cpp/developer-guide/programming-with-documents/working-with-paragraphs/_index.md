@@ -7,6 +7,7 @@ description: "Paragraph node manipulation practices using C++."
 type: docs
 weight: 210
 url: /cpp/working-with-paragraphs/
+timestamp: 2024-01-30-16-22-34
 ---
 
 A paragraph is a set of characters combined into a logical block and ending with a special character – a *paragraph break*. In Aspose.Words, a paragraph is represented by the [Paragraph](https://reference.aspose.com/words/cpp/aspose.words/paragraph/) class.

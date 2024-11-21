@@ -7,6 +7,7 @@ description: "Come inserire, ottenere, spostare, mostrare o nascondere i segnali
 type: docs
 weight: 180
 url: /it/python-net/working-with-bookmarks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 I segnalibri identificano in un documento Microsoft Word le posizioni o i frammenti che nomini e identifichi per riferimento futuro. Ad esempio, potresti utilizzare un segnalibro per identificare il testo che desideri rivedere in seguito. Invece di scorrere il documento per individuare il testo, puoi accedervi utilizzando la finestra di dialogo Segnalibro.

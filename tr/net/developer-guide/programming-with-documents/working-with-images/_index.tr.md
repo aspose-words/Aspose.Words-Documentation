@@ -7,6 +7,7 @@ description: "Ayrıntılı görüntü şekilleri ve Aspose.Words tarafından .NE
 type: docs
 weight: 300
 url: /tr/net/working-with-images/
+timestamp: 2024-05-02-11-51-44
 ---
 
 Aspose.Words, kullanıcıların görüntülerle çok esnek bir şekilde çalışmasına olanak tanır. Bu makalede görüntülerle çalışmanın yalnızca bazı olanaklarını keşfedebilirsiniz.

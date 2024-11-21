@@ -1,4 +1,4 @@
-﻿---
+---
 title: Conversia unui Document în Markdown
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Conversia unui Document în Markdown
@@ -8,6 +8,7 @@ description: "Convertiți un document în orice format de încărcare acceptat �
 keywords: how to convert a document to markdown python
 weight: 40
 url: /ro/python-net/convert-a-document-to-markdown/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Markdown este un format popular folosit pentru marcarea textului și conversia sa ulterioară în HTML, PDF, DOCX, sau alte formate. Mulți dezvoltatori aleg acest format pentru scrierea documentației, pregătirea articolelor pentru publicare pe bloguri, descrierea proiectelor și așa mai departe.

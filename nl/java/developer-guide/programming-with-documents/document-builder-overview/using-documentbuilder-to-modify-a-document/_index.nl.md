@@ -7,6 +7,7 @@ type: docs
 description: "Gebruik de documentbouwer om een document eenvoudig te wijzigen in Java."
 weight: 20
 url: /nl/java/using-documentbuilder-to-modify-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Opmaak specificeren

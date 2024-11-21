@@ -7,6 +7,7 @@ description: "Omzetten naar PDF/A-1, PDF/A-2, PDF/A-4 en PDF/UA met behulp van J
 type: docs
 weight: 28
 url: /nl/java/working-with-pdfa-or-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 PDF/A en PDF/UA-formaat legt verschillende eisen op met betrekking tot de inhoud van het document waaraan niet kan worden voldaan tijdens automatische conversie van een document in Word-formaat naar PDF. Deze eisen moeten worden geverifieerd en gecorrigeerd hetzij in een Word-document vóór conversie of in een PDF-document na conversie om een volledig PDF/A en PDF/UA-conform document te produceren.

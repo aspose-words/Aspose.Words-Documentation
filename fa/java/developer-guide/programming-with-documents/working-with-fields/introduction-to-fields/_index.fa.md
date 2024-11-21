@@ -7,6 +7,7 @@ description: "ویژگی فیلد ها در جزئیات، کدهای زمینه
 type: docs
 weight: 10
 url: /fa/java/introduction-to-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words یک کتابخانه کلاس برای پردازش سمت سرور طراحی شده است Microsoft Word اسناد و پشتیبانی از زمینه ها به روش های زیر:

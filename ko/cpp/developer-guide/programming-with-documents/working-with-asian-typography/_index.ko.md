@@ -1,4 +1,4 @@
-﻿---
+---
 title: 아시아 타이포그래피 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 아시아 타이포그래피 작업
@@ -7,6 +7,7 @@ description: "아시아 타이포그래피를 사용하여 작업 C++. 아시아
 type: docs
 weight: 240
 url: /ko/cpp/working-with-asian-typography/
+timestamp: 2024-02-01-16-17-05
 ---
 
 아시아 타이포그래피는 아시아 언어로 작성된 문서의 텍스트 단락에 대한 옵션의 집합입니다.

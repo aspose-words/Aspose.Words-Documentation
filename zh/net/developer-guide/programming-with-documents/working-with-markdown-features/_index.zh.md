@@ -7,6 +7,7 @@ description: "如何使用 C# 实现 Markdown 功能。所有功能都表示为�
 type: docs
 weight: 420
 url: /zh/net/working-with-markdown-features/
+timestamp: 2024-01-31-14-23-37
 ---
 
 本主题讨论如何使用 Aspose.Words 实现 Markdown 功能。 Markdown 是一种格式化纯文本的简单方法，可以轻松转换为 HTML。 Aspose.Words 支持以下 Markdown 功能：

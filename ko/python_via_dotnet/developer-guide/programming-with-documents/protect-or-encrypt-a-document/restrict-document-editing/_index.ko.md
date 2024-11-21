@@ -7,6 +7,7 @@ description: "Python를 사용하여 제한 유형을 설정하여 문서 편집
 type: docs
 weight: 30
 url: /ko/python-net/restrict-document-editing/
+timestamp: 2024-01-27-14-07-04
 ---
 
 때로는 문서 편집 기능을 제한하고 문서에 대한 특정 작업만 허용해야 할 수도 있습니다. 이는 다른 사람이 문서의 민감한 기밀 정보를 편집하는 것을 방지하는 데 유용할 수 있습니다.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MFont disponibilitate și înlocuire în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Disponibilitatea și înlocuirea fontului
@@ -7,6 +7,7 @@ description: "Când fontul de substituție exact nu poate fi găsit, Aspose.Word
 type: docs
 weight: 12
 url: /ro/cpp/font-availability-and-substitution/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Un text dintr-un document poate fi formatat cu diferite fonturi, cum ar fi Arial, Times New Roman, Verdana și altele. Când Aspose.Words redă un document, acesta încearcă să selecteze fonturile specificate în document.

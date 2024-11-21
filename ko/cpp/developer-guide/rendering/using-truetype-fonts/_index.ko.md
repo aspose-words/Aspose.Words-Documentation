@@ -1,4 +1,4 @@
-﻿---
+---
 title: 사용 TrueType 글꼴 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 사용 TrueType 글꼴
@@ -7,6 +7,7 @@ description: "Aspose.Words 에 대한 C++ 올바른 문서 렌더링을 위해 �
 type: docs
 weight: 20
 url: /ko/cpp/using-truetype-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 문서로 작업 할 때 종종 다른 글꼴,스타일 및 크기를 사용해야합니다. 문서에는 운영 체제에 설치된 글꼴에만 국한되지 않는 글꼴이 얼마든지 포함될 수 있습니다. 글꼴은 다른 운영 체제에서 가져온 글꼴,구입 한 글꼴 또는 사용자가 직접 만든 글꼴과 같이 완전히 다를 수 있습니다.

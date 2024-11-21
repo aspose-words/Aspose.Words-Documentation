@@ -8,6 +8,7 @@ url: /ja/net/create-or-load-a-document/
 description: "空のドキュメントを作成するか、C# を使用してファイルまたはストリームからドキュメントをロードします。"
 keywords: "create a document c#, load a document c#, create a blank document c#, load a document from file c#, load a document from stream c#, create a document Aspose .NET, load a document Aspose .NET, load formats supported by Aspose.Words .NET"
 weight: 10
+timestamp: 2024-07-09-19-00-42
 ---
 
 Aspose.Words を使用して実行するほぼすべてのタスクには、ドキュメントのロードが含まれます。 `Document` クラスは、メモリにロードされたドキュメントを表します。ドキュメントにはいくつかのオーバーロードされたコンストラクターがあり、空のドキュメントを作成したり、ファイルまたはストリームからロードしたりできます。ドキュメントは、Aspose.Words がサポートする任意のロード形式でロードできます。サポートされているすべてのロード形式のリストについては、[LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/) 列挙を参照してください。

@@ -7,6 +7,7 @@ description: "Converti un documento in un array di byte per lavorare con questo 
 type: docs
 weight: 10
 url: /it/net/serialize-and-work-with-a-document-in-a-database/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Una delle attività che potrebbe essere necessario svolgere quando si lavora con i documenti è l'archiviazione e il recupero di oggetti **Document** da e verso un database. Ad esempio, ciò sarebbe necessario se stessi implementando qualsiasi tipo di sistema di gestione dei contenuti. Tutte le versioni precedenti dei documenti devono essere archiviate nel sistema di database. La possibilità di archiviare documenti nel database è estremamente utile anche quando l'applicazione fornisce un servizio basato sul web.

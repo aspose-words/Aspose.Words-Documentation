@@ -7,6 +7,7 @@ description: "Python を使用してドキュメント内のフィールドを�
 type: docs
 weight: 370
 url: /ja/python-net/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ドキュメント内の **Fields** は、有用なデータを挿入できるプレースホルダーのようなものです。たとえば、フィールドはページ参照、式、または mail merge フィールドにすることができます。

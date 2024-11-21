@@ -1,4 +1,4 @@
-﻿---
+---
 title: 양식 필드 작업 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 양식 필드 작업
@@ -7,6 +7,7 @@ description: "양식 필드 기능 이해,다음을 사용하여 양식 필드 �
 type: docs
 weight: 380
 url: /ko/cpp/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 공백 채우기(필드)를 포함하는 문서를 양식이라고 합니다. 예를 들어 다음 위치에서 등록 양식을 만들 수 있습니다 Microsoft Word 사용자가 항목을 선택할 수 있는 드롭다운 목록을 사용합니다. 양식 필드는 이름이나 주소와 같은 특정 유형의 데이터가 저장되는 위치입니다. 양식 필드 Microsoft Word 텍스트 입력,콤보 상자 및 확인란을 포함합니다.

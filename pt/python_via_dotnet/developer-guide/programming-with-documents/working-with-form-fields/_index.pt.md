@@ -7,6 +7,7 @@ description: "Insira, obtenha ou formate um campo de formulário em um documento
 type: docs
 weight: 380
 url: /pt/python-net/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Um documento que contém espaços em branco (campos) de preenchimento é conhecido como formulário. Por exemplo, você pode criar um formulário de registro em Microsoft Word que usa listas suspensas nas quais os usuários podem selecionar entradas. O campo `Form` é um local onde um tipo específico de dados, como nome ou endereço, é armazenado. Os campos de formulário no Microsoft Word incluem entrada de texto, caixa de combinação e caixa de seleção.

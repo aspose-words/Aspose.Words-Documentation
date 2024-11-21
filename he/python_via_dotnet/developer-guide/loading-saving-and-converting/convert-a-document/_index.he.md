@@ -8,6 +8,7 @@ url: /he/python-net/convert-a-document/
 weight: 30
 description: "להמיר בקלות מסמכים מפורמט אחד לאחר באמצעות Python. אתה יכול לעבוד עם כל הפורמטים הפופולריים ביותר כמו Microsoft Word פורמטים כגון DOCX או DOC, OpenDocument פורמטים כגון ODT או OTT, פורמטי אינטרנט כגון HTML או XHTML, פורמטים כגון MarkDown או TXT ואחרים."
 keywords: "convert a document python, convert documents from one format to another python, convert to markdown python, convert pdf to docx python, convert docx to pdf python, convert doc to pdf python, convert a document Aspose for Python"
+timestamp: 2024-01-27-14-07-04
 ---
 
 היכולת להמיר בקלות וביעילות מסמכים מתבנית אחת לאחרת היא אחד התחומים העיקריים של תכונה. Aspose.Words. המרה כזו אינה אלא שילוב של עומס והצלת פעולות.

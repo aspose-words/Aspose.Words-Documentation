@@ -7,6 +7,7 @@ description: "Metinlerle alanlar nasıl değiştirilir Java'u öğrenmek için. 
 type: docs
 weight: 37
 url: /tr/java/replace-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Alanları değiştirme genellikle bir belgeyi statik bir kopyaya kaydetmek istediğinizde gereklidir. Örneğin, bir e-postaya ek olarak gönderirken. `DATE` veya `TIME` gibi alanları sabit metinlere dönüştürmek belgenin gönderildiği tarihin aynı şekilde görüntülenmesini sağlar. Ayrıca, bazı durumlarda, belgelerinizden koşullu `IF` alanlarını kaldırmanız ve bunları en son metin sonucuyla değiştirmeniz gerekebilir. Örneğin, `IF` alanının sonucunu sabit metne dönüştürerek, alan belgede güncellendiğinde değeri dinamik olarak değişmeyecek şekilde.

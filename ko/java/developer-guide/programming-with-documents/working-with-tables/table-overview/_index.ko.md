@@ -7,6 +7,7 @@ description: "테이블과 셀, 행, 열과 같은 구성 요소 작업 Aspose.W
 type: docs
 weight: 10
 url: /ko/java/table-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words 다양한 형식으로 문서의 서버 측 처리를 위해 설계된 클래스 라이브러리 – PDF, HTML, different Microsoft Word 형식 및 기타 - 다음 방법으로 테이블을 지원:

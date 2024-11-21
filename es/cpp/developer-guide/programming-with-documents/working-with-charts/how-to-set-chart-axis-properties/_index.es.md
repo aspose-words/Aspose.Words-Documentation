@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cómo Establecer las Propiedades del Eje del Gráfico en C++
 second_title: Aspose.Words para C++
 articleTitle: Cómo Establecer las Propiedades del Eje del Gráfico
@@ -7,6 +7,7 @@ description: "Ajuste del eje del gráfico usando C++."
 type: docs
 weight: 20
 url: /es/cpp/how-to-set-chart-axis-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Si desea trabajar con el eje del gráfico, la escala y las unidades de visualización para el eje del valor, utilice las clases [ChartAxis](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.chart_axis), [AxisDisplayUnit](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.axis_display_unit) y [AxisScaling](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.axis_scaling).

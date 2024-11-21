@@ -1,4 +1,4 @@
-﻿---
+---
 title: العمل مع Markdown الميزات في C++
 second_title: Aspose.Words ل C++
 articleTitle: العمل مع Markdown الميزات
@@ -7,6 +7,7 @@ description: "كيفية تنفيذ Markdown الميزات باستخدام C++
 type: docs
 weight: 420
 url: /ar/cpp/working-with-markdown-features/
+timestamp: 2024-01-31-14-23-37
 ---
 
 يناقش هذا الموضوع كيفية تنفيذ ميزات Markdown باستخدام Aspose.Words. Markdown هي طريقة بسيطة لتنسيق نص عادي يمكن تحويله بسهولة إلى HTML. Aspose.Words يدعم الميزات التالية Markdown:

@@ -7,6 +7,7 @@ type: docs
 description: "リモートリソースをロードし、セキュリティリスクの理由になることができます。 一般的なセキュリティ問題とソリューションをよく見てみましょう Javaお問い合わせ"
 weight: 120
 url: /ja/java/web-applications-security-when-loading-external-resources/
+timestamp: 2024-01-27-14-07-04
 ---
 
 デフォルトでは、 Aspose.Words お問い合わせ Java ドキュメントをインポートしたり、 DocumentBuilder を使用して画像や CSS スタイル、外部 HTML ドキュメントなどのリモートリソースを読み込みます。 この動作により、文書を詳細に処理することができますが、ライブラリがWebアプリケーションの一部である場合、いくつかのセキュリティリスクの理由になる可能性があります。

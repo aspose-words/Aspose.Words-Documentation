@@ -7,6 +7,7 @@ description: "Grouping และยกเลิกการจัดกลุ่
 type: docs
 weight: 290
 url: /th/net/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 บางครั้งคุณจำเป็นต้องเพิ่ม group shape ลงในเอกสาร Word group shape ดังกล่าวประกอบด้วยหลายรูปร่าง

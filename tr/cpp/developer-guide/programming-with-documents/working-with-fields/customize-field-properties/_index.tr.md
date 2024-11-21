@@ -1,4 +1,4 @@
-﻿---
+---
 title: Alan Özelliklerini C++ içinde Özelleştirme
 second_title: Aspose.Words için C++
 articleTitle: Alan Özelliklerini Özelleştirme
@@ -7,6 +7,7 @@ description: "C++ içindeki alan özelliklerini nasıl özelleştireceğinizi ö
 type: docs
 weight: 27
 url: /tr/cpp/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words çeşitli alan özellikleriyle programlı olarak etkileşim kurma yeteneği sağlar. Bu yazıda, alan özellikleriyle çalışmanın temel ilkesini anlamanız için birkaç örneğe bakacağız. Karşılık gelen sınıftaki her alan türü için özelliklerin tam listesini [Fields namespace](https://reference.aspose.com/words/cpp/namespace/aspose.words.fields) içinde görebilirsiniz.

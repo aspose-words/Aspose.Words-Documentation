@@ -7,6 +7,7 @@ description: "להמיר PDF ל- Excel, XML ל- Excel, DOCX ל- Excel C#. שמו
 type: docs
 weight: 15
 url: /he/net/convert-a-document-to-excel/
+timestamp: 2024-07-09-19-00-42
 ---
 
 המרת מסמכים מתבנית אחת לאחרת היא תכונה הדגל של Aspose.Words. ניתן להמיר מסמכים בכל זמין [המונחים](https://reference.aspose.com/words/net/aspose.words/loadformat/) גם בפורמט XLSX.

@@ -7,6 +7,7 @@ description: "Práce s tabulkami v dokumentu pomocí Python. Představujeme prá
 type: docs
 weight: 190
 url: /cs/python-net/working-with-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A **tabulka** v dokumentu je skvělý způsob, jak strukturovat podobné údaje. Proto jsou tabulky běžným prvkem formátování obsahu a jsou podporovány většinou formátů v jedné nebo druhé podobě.

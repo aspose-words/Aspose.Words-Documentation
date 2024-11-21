@@ -7,6 +7,7 @@ description: "문서 인쇄 Java 설정, 인쇄 미리보기 및 인쇄 진행 �
 type: docs
 weight: 55
 url: /ko/java/print-a-document-programmatically-or-using-dialogs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 이 문서는 단어 처리 문서를 사용하여 인쇄하는 방법을 설명합니다. Aspose.Words API· 설정, 인쇄 미리보기 및 인쇄 진행 대화 상자를 사용하여 문서를 인쇄하는 방법을 보여줍니다.

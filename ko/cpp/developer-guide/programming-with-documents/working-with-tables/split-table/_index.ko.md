@@ -1,4 +1,4 @@
-﻿---
+---
 title: 분할 테이블 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 분할 테이블
@@ -7,6 +7,7 @@ description: "분할 테이블 C++. 하나의 테이블을 두 개의 개별 테
 type: docs
 weight: 100
 url: /ko/cpp/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 표, Aspose.Words 문서 개체 모델은 독립적 인 행과 셀로 구성되어 테이블을 쉽게 분할 할 수 있습니다.

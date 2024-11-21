@@ -7,6 +7,7 @@ description: "PDF'yi Excel'e, XML'i Excel'e, DOCX'i Excel C#'ye dönüştürün.
 type: docs
 weight: 15
 url: /tr/net/convert-a-document-to-excel/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Belgeleri bir formattan diğerine dönüştürmek Aspose.Words'in amiral gemisi özelliğidir. Mevcut herhangi bir [yükleme biçimi](https://reference.aspose.com/words/tr/net/aspose.words/loadformat/) formatındaki belgeleri XLSX formatına da dönüştürebilirsiniz.

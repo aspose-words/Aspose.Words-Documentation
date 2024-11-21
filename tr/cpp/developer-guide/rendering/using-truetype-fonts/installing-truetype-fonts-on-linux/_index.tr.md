@@ -1,4 +1,4 @@
-﻿---
+---
 title: TrueType Yazı Tiplerini Linux 'e C++'ye yükleyin
 second_title: Aspose.Words için C++
 articleTitle: TrueType Yazı Tiplerini Linux üzerine yükle
@@ -7,6 +7,7 @@ description: "Aspose.Words için C++ Linux makinede Microsoft Word kullanılarak
 type: docs
 weight: 20
 url: /tr/cpp/install-truetype-fonts-on-linux/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Çoğu zaman, DOC veya DOCX belgeleri PDF biçimine dönüştürmek için Aspose.Words kullanırsınız. Bunu bir Linux makinede yapmanız gerekiyorsa, bu konu Aspose.Words'ın belgelerinizi en iyi doğrulukla oluşturduğundan nasıl emin olacağınızı öğrenmenize yardımcı olacaktır.

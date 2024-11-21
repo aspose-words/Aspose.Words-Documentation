@@ -7,6 +7,7 @@ description: ".NET için Aspose.Words'te ayrıntılı olarak açıklanan alanlar
 type: docs
 weight: 10
 url: /tr/net/fields-overview/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words, Microsoft Word belgelerinin sunucu tarafında işlenmesi için tasarlanmış bir sınıf kitaplığıdır ve alanları aşağıdaki şekillerde destekler:

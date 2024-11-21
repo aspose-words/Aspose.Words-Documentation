@@ -7,6 +7,7 @@ type: docs
 description: "Sao chép tài liệu để có được bản sao giống hệt bằng C#. Khi tạo bản sao, các nút và thuộc tính của tài liệu gốc sẽ được sao chép."
 weight: 70
 url: /vi/net/clone-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Sao chép tài liệu là quá trình tạo một bản sao giống hệt của tài liệu gốc, bản sao này có thể cải thiện hiệu suất và giúp bạn tránh bị rò rỉ bộ nhớ.

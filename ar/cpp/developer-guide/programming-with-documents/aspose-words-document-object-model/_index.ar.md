@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words نموذج كائن المستند (DOM) في C++
 second_title: Aspose.Words ل C++
 articleTitle: Aspose.Words نموذج كائن المستند (DOM)
@@ -7,6 +7,7 @@ type: docs
 description: "نموذج كائن المستند (DOM) هو تمثيل في الذاكرة لمستند ورد. قراءة ومعالجة وتعديل محتوى وتنسيق مستند ورد باستخدام C++."
 weight: 10
 url: /ar/cpp/aspose-words-document-object-model/
+timestamp: 2024-01-27-14-07-04
 ---
 
 نموذج كائن المستند Aspose.Words (DOM) هو تمثيل في الذاكرة لمستند ورد. و Aspose.Words DOM يسمح لك لقراءة برمجيا، والتلاعب، وتعديل المحتوى والتنسيق من وثيقة ورد.

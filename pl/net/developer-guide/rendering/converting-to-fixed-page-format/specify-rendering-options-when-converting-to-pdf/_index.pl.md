@@ -7,6 +7,7 @@ description: "Konwertuj dokument na format PDF za pomocą zaawansowanych opcji z
 type: docs
 weight: 20
 url: /pl/net/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Format PDF to format o stałej stronie, który jest bardzo popularny wśród użytkowników i szeroko obsługiwany przez różne aplikacje, ponieważ dokument PDF wygląda tak samo na każdym urządzeniu. Z tego powodu konwersja do formatu PDF jest ważną funkcją Aspose.Words.

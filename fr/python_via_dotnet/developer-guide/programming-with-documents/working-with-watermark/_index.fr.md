@@ -7,6 +7,7 @@ description: "Créez et gérez des filigranes dans un document à l'aide de Pyth
 type: docs
 weight: 340
 url: /fr/python-net/working-with-watermark/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Cette rubrique explique comment utiliser par programmation un filigrane à l'aide de Aspose.Words. Un filigrane est une image d'arrière-plan qui s'affiche derrière le texte d'un document. Un filigrane peut contenir un texte ou une image représentée par la classe [Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/).

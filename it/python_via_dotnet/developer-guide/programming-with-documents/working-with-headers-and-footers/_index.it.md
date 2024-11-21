@@ -7,6 +7,7 @@ description: "Crea, gestisci e rimuovi intestazioni e piè di pagina in un docum
 type: docs
 weight: 150
 url: /it/python-net/working-with-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words consente agli utenti di lavorare con intestazioni e piè di pagina in un documento. Un'intestazione è il testo posizionato nella parte superiore della pagina, mentre un piè di pagina è il testo nella parte inferiore della pagina. In genere, queste aree vengono utilizzate per inserire informazioni che dovrebbero essere ripetute su tutte o alcune pagine del documento, come numeri di pagina, data di creazione, informazioni aziendali e così via.

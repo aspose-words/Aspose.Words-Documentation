@@ -7,6 +7,7 @@ description: "세부사항에 있는 테이블 체재. 사용 방법 Java 테이
 type: docs
 weight: 70
 url: /ko/java/applying-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 테이블의 각 성분은 다른 체재로 적용될 수 있습니다. 예를 들어, 테이블 포맷은 전체 테이블에 적용되며, 특정 행에 형식을 지정하는 행은 특정 셀에만 지정합니다.

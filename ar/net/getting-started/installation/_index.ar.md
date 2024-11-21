@@ -7,6 +7,7 @@ description: "قم بتثبيت Aspose.Words لـ .NET باستخدام أدوا
 type: docs
 weight: 10
 url: /ar/net/installation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 تأكد من أن جهازك يتوافق مع [متطلبات النظام](/words/ar/net/system-requirements/) قبل البدء.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++でのChartSeriesの操作
 second_title: C++の場合Aspose.Words
 articleTitle: ChartSeriesでの作業
@@ -7,6 +7,7 @@ description: "C++を使用したチャートシリーズのチューニング。
 type: docs
 weight: 40
 url: /ja/cpp/working-with-chartseries/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Wordsを使用すると、ユーザーはいくつかの方法でChartSeriesCollectionを操作できます。

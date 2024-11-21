@@ -7,6 +7,7 @@ description: "Cree, edite y guarde su primer documento en cualquier formato comp
 type: docs
 weight: 20
 url: /es/net/hello-world/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un "¡Hola mundo!" El código es a menudo el primer ejemplo sencillo que se escribe usando "Aspose.Words para .NET" y también se puede utilizar como prueba de cordura para garantizar que el software destinado a compilar o ejecutar el código fuente esté instalado correctamente.

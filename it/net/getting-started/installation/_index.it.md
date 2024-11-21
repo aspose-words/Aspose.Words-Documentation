@@ -7,6 +7,7 @@ description: "Installa Aspose.Words per .NET utilizzando strumenti Visual Studio
 type: docs
 weight: 10
 url: /it/net/installation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Assicurati che la tua macchina soddisfi i [Requisiti di sistema](/words/it/net/system-requirements/) prima di iniziare.

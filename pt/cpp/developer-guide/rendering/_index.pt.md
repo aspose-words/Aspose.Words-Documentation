@@ -1,4 +1,4 @@
-﻿---
+---
 title: Renderização em C++
 second_title: Aspose.Words para C++
 articleTitle: Renderização
@@ -7,6 +7,7 @@ description: "Utilizar Aspose.Words para C++ recurso de renderização para form
 type: docs
 weight: 20
 url: /pt/cpp/rendering/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Usamos o termo "renderização" em Aspose.Words para descrever o processo de conversão de um documento em um formato de arquivo ou um meio que é paginado ou tem o conceito de páginas. Estamos a falar da transformação de um documento em páginas. O diagrama a seguir mostra qual renderização está em Aspose.Words.

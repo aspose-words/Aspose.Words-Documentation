@@ -7,6 +7,7 @@ type: docs
 description: "DokumentBuilder umožňuje vytvářet dynamické dokumenty od nuly nebo přidávat nové prvky k existujícím. DokumentBuilder poskytuje metody pro vložení textu, zaškrtávacích boxů, tabulek, obrázků a dalších prvků obsahu v Java."
 weight: 30
 url: /cs/java/document-builder-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) je mocná třída, která se spojuje s [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) a umožňuje vytvářet dynamické dokumenty od nuly nebo přidávat nové prvky k existujícímu.

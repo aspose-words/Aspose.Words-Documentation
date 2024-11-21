@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Lettertipes in Java
 second_title: Aspose.Words vir Java
 articleTitle: Werk Met Lettertipes
@@ -7,6 +7,7 @@ description: "Font formatering in besonderhede met behulp van Java."
 type: docs
 weight: 230
 url: /af/java/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 'n lettertipe is'n stel karakters met'n sekere grootte, kleur en ontwerp. Aspose.Words laat jou toe om met lettertipes te werk met behulp van verskeie lettertipe-verwante klasse, insluitend die [Font](https://reference.aspose.com/words/java/com.aspose.words/font/) klas.

@@ -7,6 +7,7 @@ description: "Aspose.Words برای Java اجازه می دهد تا برخی ا
 type: docs
 weight: 10
 url: /fa/java/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
 ویژگی های سند اجازه می دهد تا برخی از اطلاعات مفید را در مورد سند خود ذخیره کنید. این خواص را می توان به دو گروه تقسیم کرد:

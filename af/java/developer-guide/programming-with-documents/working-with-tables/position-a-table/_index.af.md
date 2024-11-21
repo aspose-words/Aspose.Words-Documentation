@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tabel Posisie in Java
 second_title: Aspose.Words vir Java
 articleTitle: Plaas'n Tabel
@@ -7,6 +7,7 @@ description: "Spesifiseer tabel posisie in Java. Kry'n tabel belyning, kry en st
 type: docs
 weight: 50
 url: /af/java/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Daar is drywende tafels en inline tafels:

@@ -7,6 +7,7 @@ description: "Opmaaklijsten aanmaken, specificeren en herstarten in een document
 type: docs
 weight: 200
 url: /nl/python-net/working-with-lists/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Een lijst in een Microsoft Word document is een verzameling van lijstopmaak eigenschappen. Lijsten kunnen in uw documenten worden gebruikt om tekst te formatteren, ordenen en benadrukken. Lijsten zijn een geweldige manier om gegevens in documenten te organiseren, en ze maken het voor lezers gemakkelijker om belangrijke punten te begrijpen

@@ -7,6 +7,7 @@ description: "Aspose.Words برای Java اضافه کردن به سند نام 
 type: docs
 weight: 70
 url: /fa/java/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 شما به راحتی می توانید بدانید که آیا یک سند با استفاده از آن تولید می شود Aspose.Words برای Java... شما همچنین می توانید شماره نسخه را پیدا کنید Aspose.Words برای Java استفاده شده برای ایجاد یک سند خروجی خاص. Aspose.Words به طور مستقیم این اطلاعات را به سند تولید شده می نویسد.

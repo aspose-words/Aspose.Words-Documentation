@@ -7,6 +7,7 @@ description: "Zadejte pozici tabulky v Java. Získat nastavení tabulky, dostat 
 type: docs
 weight: 50
 url: /cs/java/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Existují plovoucí stoly a inline tabulky:

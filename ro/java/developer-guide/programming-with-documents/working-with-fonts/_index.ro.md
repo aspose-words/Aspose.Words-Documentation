@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu fonturi în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Lucrul cu fonturi
@@ -7,6 +7,7 @@ description: "Formatarea fontului în detalii folosind Java."
 type: docs
 weight: 230
 url: /ro/java/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un font este un set de caractere cu o anumită dimensiune, culoare și design. Aspose.Words vă permite să lucrați cu fonturi folosind diferite clase legate de fonturi, inclusiv clasa [Font](https://reference.aspose.com/words/java/com.aspose.words/font/).

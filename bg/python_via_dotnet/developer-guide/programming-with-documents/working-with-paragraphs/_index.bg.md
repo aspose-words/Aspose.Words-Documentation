@@ -7,6 +7,7 @@ description: "Вмъква се параграф и се посочва форм
 type: docs
 weight: 210
 url: /bg/python-net/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 А параграф е набор от символи, комбинирани в логически блок и завършващи със специален характер, * параграф почивка*. В Aspose.Words, параграф е представен от [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/) Клас.

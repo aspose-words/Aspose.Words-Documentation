@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu filigran în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Lucrul cu filigran
@@ -7,6 +7,7 @@ type: docs
 description: "Manipularea filigranului documentului folosind C++."
 weight: 340
 url: /ro/cpp/working-with-watermark/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Acest subiect discută cum să lucrați programatic cu filigran folosind Aspose.Words. Un filigran este o imagine de fundal care se afișează în spatele textului dintr-un document. Un filigran poate conține un text sau o imagine reprezentată de clasa [Watermark](https://reference.aspose.com/words/cpp/aspose.words/watermark/).

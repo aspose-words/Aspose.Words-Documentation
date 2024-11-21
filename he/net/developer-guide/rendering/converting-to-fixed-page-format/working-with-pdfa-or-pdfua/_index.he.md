@@ -7,6 +7,7 @@ description: "המרת PDF/A-1, PDF/A-2, PDF/A-4 ו- PDF/UA באמצעות C#. �
 type: docs
 weight: 28
 url: /he/net/working-with-pdfa-or-pdfua/
+timestamp: 2024-07-10-14-38-57
 ---
 
 פורמט PDF/A ו- PDF/UA מחייב מספר דרישות הקשורות לתוכן המסמך שלא ניתן להשלים במהלך המרה אוטומטית של מסמך בפורמט Word ל- PDF. דרישות אלה יש לאמת ולתקן במסמך Word לפני המרה או במסמך PDF לאחר המרה על מנת לייצר מסמך PDF/A ו- PDF/UA.

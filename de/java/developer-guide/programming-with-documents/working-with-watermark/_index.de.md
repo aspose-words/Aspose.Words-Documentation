@@ -7,6 +7,7 @@ type: docs
 description: "Dokument Wasserzeichen Manipulation mit Java."
 weight: 70
 url: /de/java/working-with-watermark/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Dieses Thema diskutiert, wie man mit einem Wasserzeichen programmatisch arbeitet Aspose.Words. Ein Wasserzeichen ist ein Hintergrundbild, das hinter dem Text in einem Dokument zeigt. Ein Wasserzeichen kann einen Text oder ein durch die [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) Klasse.

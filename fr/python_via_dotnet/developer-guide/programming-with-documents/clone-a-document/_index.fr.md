@@ -7,6 +7,7 @@ type: docs
 description: "Clonez un document pour obtenir sa copie identique à l'aide de Python. Lors de la création d'une copie, les nœuds et les propriétés du document original sont clonés."
 weight: 70
 url: /fr/python-net/clone-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Le clonage d'un document est le processus de création d'une copie identique d'un document original, ce qui peut améliorer les performances et vous éviter d'éventuelles fuites de mémoire.

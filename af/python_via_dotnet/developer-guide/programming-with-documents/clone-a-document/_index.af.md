@@ -1,4 +1,4 @@
-﻿---
+---
 title: Kloon'n Dokument in Python
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Kloon'n Dokument
@@ -7,6 +7,7 @@ type: docs
 description: "Kloon'n dokument om sy identiese kopie te kry met Python. Wanneer'n kopie geskep word, word nodusse en eienskappe van die oorspronklike dokument gekloon."
 weight: 70
 url: /af/python-net/clone-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Die kloning van'n dokument is die proses om'n identiese kopie van'n oorspronklike dokument te skep, wat die werkverrigting kan verbeter en u kan red van moontlike geheuelekkasies.

@@ -7,6 +7,7 @@ description: "Confronta i documenti Word condivisi in Liferay utilizzando C#. La
 type: docs
 weight: 20
 url: /it/net/work-with-document-stored-in-liferay/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Liferay Portal è una piattaforma software per portali aziendali open source progettata per lo sviluppo di portali Web e siti Web. Liferay fornisce un sistema di gestione dei documenti come parte della sua piattaforma del portale, consentendo agli utenti di creare, organizzare, archiviare e gestire i documenti in modo collaborativo ed efficiente. Questa funzionalità di gestione dei documenti viene spesso definita raccolta documenti Liferay.

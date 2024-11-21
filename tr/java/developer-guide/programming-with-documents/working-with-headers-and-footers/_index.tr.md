@@ -7,6 +7,7 @@ description: "Başlık ve altbilgileri Java kullanarak nasıl manipüle edeceği
 type: docs
 weight: 150
 url: /tr/java/working-with-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words bir belgedeki başlıklar ve altbilgiler ile çalışmak için kullanıcılara izin verir. Bir başlık, sayfanın üstündeki metindir ve bir altbilgi, sayfanın altındaki metindir. Tipik olarak, bu alanlar sayfa numaraları, düzenleme tarihi, şirket bilgileri vb. gibi belgenin tüm veya bazı sayfalarında tekrarlanması gereken bilgilere eklemek için kullanılır.

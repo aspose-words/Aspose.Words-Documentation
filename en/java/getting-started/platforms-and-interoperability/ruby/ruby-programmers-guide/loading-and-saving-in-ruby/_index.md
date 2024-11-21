@@ -1,4 +1,4 @@
-﻿---
+---
 title: Loading And Saving in Ruby
 second_title: Aspose.Words for Java
 articleTitle: Loading And Saving in Ruby
@@ -7,6 +7,7 @@ description: "Loading And Saving Documents using Ruby."
 type: docs
 weight: 30
 url: /java/loading-and-saving-in-ruby/
+timestamp: 2024-01-27-14-07-04
 ---
 
 **This section includes the following topics:**

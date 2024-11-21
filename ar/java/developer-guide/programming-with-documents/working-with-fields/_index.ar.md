@@ -7,6 +7,7 @@ description: "مقدمة إلى الميدان Aspose.Words for Java."
 type: docs
 weight: 370
 url: /ar/java/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 **Fields** في الوثيقة مثل أصحاب الأماكن حيث يمكن إدخال بيانات مفيدة. فعلى سبيل المثال، يمكن أن يكون الميدان مرجعا للصفحة أو صيغة أو صفحة mail merge الحقل

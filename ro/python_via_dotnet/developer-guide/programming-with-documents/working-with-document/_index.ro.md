@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu documentul în Python
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Lucrul cu documentul
@@ -7,6 +7,7 @@ type: docs
 description: "Clasa `Document` oferă diverse proprietăți și metode ale documentului folosind Python. Utilizați clasa `Document` ca punct de plecare pentru orice doriți să efectuați Aspose.Words pentru Python. Obiectul `Document` poate fi salvat într-un fișier sau flux și, de asemenea, trimis la un browser."
 weight: 40
 url: /ro/python-net/working-with-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Clasa [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) este centrală în Aspose.Words. Reprezintă un document și oferă diverse proprietăți și metode ale documentului, cum ar fi salvarea sau protejarea documentului. Utilizați clasa [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) ca punct de plecare pentru orice doriți să efectuați cu Aspose.Words: Creați un document nou de la zero, deschideți un șablon pentru un mail merge sau obțineți diferite părți dintr-un document.

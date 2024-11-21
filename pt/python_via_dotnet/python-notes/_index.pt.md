@@ -7,6 +7,7 @@ description: "Aspose.Words para Python via .NET é um wrapper de Aspose.Words pa
 type: docs
 weight: 15
 url: /pt/python-net/python-notes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words para Python via .NET é um wrapper de Aspose.Words para .NET, por isso os dois produtos possuem quase o mesmo conjunto de recursos. No entanto, existem algumas nuances de trabalho e diferenças de recursos e API, que são descritas nesta página.

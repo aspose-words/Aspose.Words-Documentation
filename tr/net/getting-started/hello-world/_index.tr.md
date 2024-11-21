@@ -7,6 +7,7 @@ description: "C#'deki basitliği ve gücü deneyimlemek için .NET için Aspose.
 type: docs
 weight: 20
 url: /tr/net/hello-world/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bir "Merhaba Dünya!" kod genellikle ".NET için Aspose.Words" kullanılarak yazılan ilk basit örnektir ve aynı zamanda kaynak kodunu derlemesi veya çalıştırması amaçlanan yazılımın doğru şekilde kurulduğundan emin olmak için bir akıl sağlığı testi olarak da kullanılabilir.

@@ -7,6 +7,7 @@ description: "Crie e gerencie seções e quebras de seção em um documento usan
 type: docs
 weight: 120
 url: /pt/python-net/working-with-sections/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Às vezes você deseja um documento que não tenha a mesma formatação em todas as páginas. Por exemplo, pode ser necessário modificar formatos de número de página, ter tamanho e orientação de página diferentes ou ter a primeira página do documento como capa sem qualquer numeração. Você pode conseguir isso com seções.

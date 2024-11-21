@@ -7,6 +7,7 @@ description: "使用 C# 处理亚洲版式。调整 C# 中亚洲文本和拉丁�
 type: docs
 weight: 240
 url: /zh/net/working-with-asian-typography/
+timestamp: 2024-02-01-16-17-05
 ---
 
 亚洲版式是针对以亚洲语言编写的文档中的文本段落的一组选项。

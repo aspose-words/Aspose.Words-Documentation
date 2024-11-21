@@ -7,6 +7,7 @@ description: "Introducción a la función de campo en Aspose.Words para .NET."
 type: docs
 weight: 370
 url: /es/net/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Los **Fields** en un documento son como marcadores de posición donde se pueden insertar datos útiles. Por ejemplo, un campo puede ser una referencia de página, una fórmula o un campo mail merge.

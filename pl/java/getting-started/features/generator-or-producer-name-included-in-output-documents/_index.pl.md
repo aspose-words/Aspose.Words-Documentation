@@ -7,6 +7,7 @@ description: "Aspose.Words zamiast Java dodać do dokumentu nazwę generatora i 
 type: docs
 weight: 70
 url: /pl/java/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Można łatwo dowiedzieć się, czy dokument jest wytwarzany za pomocą Aspose.Words zamiast Java. Można również znaleźć numer wersji Aspose.Words zamiast Java który został użyty do stworzenia określonego dokumentu wyjściowego. Aspose.Words bezpośrednio zapisuje te informacje do wygenerowanego dokumentu.

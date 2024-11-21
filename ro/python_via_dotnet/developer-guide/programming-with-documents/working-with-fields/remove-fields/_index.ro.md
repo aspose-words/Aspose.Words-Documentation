@@ -1,4 +1,4 @@
-﻿---
+---
 title: Eliminați câmpurile folosind Python
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Eliminați Câmpurile
@@ -7,6 +7,7 @@ description: "Aflați cum să eliminați câmpurile din Python. Eliminați câmp
 type: docs
 weight: 35
 url: /ro/python-net/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uneori este necesar să eliminați un câmp din document. Acest lucru se poate întâmpla atunci când trebuie înlocuit cu un alt tip de câmp sau când câmpul nu mai este necesar în document. De exemplu, un câmp `TOC` când salvați în HTML.

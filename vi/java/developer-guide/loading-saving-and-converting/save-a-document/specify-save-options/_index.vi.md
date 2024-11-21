@@ -7,6 +7,7 @@ description: "Thiết lập các thuộc tính nâng cao khi lưu một tài li�
 type: docs
 weight: 20
 url: /vi/java/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Khi lưu tài liệu, bạn có thể đặt một số thuộc tính tiên tiến. Aspose.Words cung cấp cho bạn lớp [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/), điều khiển chính xác hơn quá trình lưu. Có nhiều biến thể của phương thức **Save** chấp nhận đối tượng **SaveOptions** – nó nên là một đối tượng của lớp được kế thừa từ lớp **SaveOptions**. Mỗi định dạng lưu có lớp tương ứng nắm giữ các tùy chọn cho định dạng này, ví dụ: [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) cho việc lưu vào định dạng PDF, [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) cho việc lưu vào định dạng Markdown, hoặc [ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/) cho việc lưu vào hình ảnh. Bài viết này cung cấp ví dụ về làm việc với một số lớp tùy chọn được kế thừa từ **SaveOptions**.

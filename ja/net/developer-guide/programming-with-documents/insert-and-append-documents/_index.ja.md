@@ -7,6 +7,7 @@ description: "ドキュメントを 1 つに結合します。検索と置換、
 type: docs
 weight: 80
 url: /ja/net/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 場合によっては、複数の文書を 1 つに結合することが必要になることがあります。これは手動で行うことも、Aspose.Words の挿入または追加機能を使用することもできます。

@@ -7,6 +7,7 @@ description: "C#에서 테이블로 작업하는 방법. .NET용 Aspose.Words에
 type: docs
 weight: 190
 url: /ko/net/working-with-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 문서의 **테이블**는 유사한 데이터를 구조화하는 좋은 방법입니다. 그렇기 때문에 테이블은 일반적인 콘텐츠 서식 지정 요소이며 대부분의 형식에서 어떤 형식으로든 지원됩니다.

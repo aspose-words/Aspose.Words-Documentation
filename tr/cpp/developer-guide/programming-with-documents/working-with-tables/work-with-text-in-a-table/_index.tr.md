@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tablodaki Metinle Çalışma
 second_title: Aspose.Words için C++
 articleTitle: Tablodaki Metinle Çalışma
@@ -7,6 +7,7 @@ description: "Tablodaki metni C++ olarak değiştirin. C++ kullanarak Tablodan v
 type: docs
 weight: 60
 url: /tr/cpp/work-with-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Önceki makalelerde belirtildiği gibi, bir tablo genellikle düz metin içerir, ancak resimler ve hatta diğer tablolar gibi diğer içerikler tablo hücrelerine yerleştirilebilir.

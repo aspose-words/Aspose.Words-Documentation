@@ -7,6 +7,7 @@ description: "Convertaţi un document într-un fișier TIFF cu mai multe pagini 
 type: docs
 weight: 30
 url: /ro/net/saving-a-document-as-a-multipage-tiff/
+timestamp: 2024-07-10-14-38-57
 ---
 
 Când lucrezi cu documente, ai adesea nevoie să convertești documentul tău într-un fișier de imagine raster. Acest lucru este deosebit de important dacă trebuie să prezinți documentul într-un format care să fie citibil și imprimabil, dar nu editabil. De exemplu poți folosi o imagine raster cu prima pagină a documentului tău ca o previzualizare. Acest articol descrie modul de conversie a unui document într-o imagine raster folosind exemplul formatului TIFF - unul dintre cele mai populare formate de imagini.

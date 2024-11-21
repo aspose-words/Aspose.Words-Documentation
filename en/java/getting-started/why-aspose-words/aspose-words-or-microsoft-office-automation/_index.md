@@ -8,6 +8,7 @@ type: docs
 weight: 10
 url: /java/aspose-words-or-microsoft-office-automation/
 aliases: [/java/why-not-automation/]
+timestamp: 2024-01-30-16-22-34
 ---
 
 Often, users need not only to do some single operation with a document, for example, to convert it from one format to another, but also to complete a full cycle of work with this document, dictated by some workflow. In this case, a tool is required that provides powerful functionality for working with documents in popular formats and allows users to solve a wide range of applied problems.

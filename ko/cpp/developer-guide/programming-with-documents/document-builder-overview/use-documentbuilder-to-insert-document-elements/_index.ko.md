@@ -1,4 +1,4 @@
-﻿---
+---
 title: 사용 `DocumentBuilder` 문서 요소를 삽입하려면
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 사용 `DocumentBuilder` 문서 요소를 삽입하려면
@@ -7,6 +7,7 @@ type: docs
 description: "문서 작성기를 사용하여 문서 요소 삽입 C++."
 weight: 80
 url: /ko/cpp/use-documentbuilder-to-insert-document-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 그 `DocumentBuilder` 문서를 수정하는 데 사용됩니다. 이 문서에서는 여러 작업을 수행하는 방법에 대해 설명하고 설명합니다:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在C++中使用ChartSeries
 second_title: Aspose.Words对于C++
 articleTitle: 使用ChartSeries
@@ -7,6 +7,7 @@ description: "使用C++进行图表系列调优。"
 type: docs
 weight: 40
 url: /zh/cpp/working-with-chartseries/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words允许用户以几种方式使用ChartSeriesCollection。

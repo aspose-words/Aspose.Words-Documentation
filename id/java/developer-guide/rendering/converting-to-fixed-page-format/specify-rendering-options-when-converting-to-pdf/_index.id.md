@@ -7,6 +7,7 @@ description: "Konversi dokumen ke PDF dengan opsi canggih. Gunakan PdfSaveOption
 type: docs
 weight: 20
 url: /id/java/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Format PDF adalah format halaman tetap yang sangat populer di kalangan pengguna dan banyak didukung oleh berbagai aplikasi karena dokumen PDF terlihat sama pada perangkat apa pun. Untuk alasan itu, konversi ke PDF adalah fitur penting dari Aspose.WordsSitemap

@@ -7,6 +7,7 @@ description: "Konversikan dokumen dari hampir semua format ke HTML atau MHTML, s
 type: docs
 weight: 20
 url: /id/net/convert-a-document-to-html-mhtml-or-epub/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Dokumen dalam format flow-layout HTML dan MHTML juga sangat populer dan dapat digunakan di platform web apa pun. Oleh karena itu, mengonversi dokumen ke HTML dan MHTML merupakan fitur penting Aspose.Words.

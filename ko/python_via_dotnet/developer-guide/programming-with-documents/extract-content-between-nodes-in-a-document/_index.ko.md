@@ -7,6 +7,7 @@ description: "Python를 사용하여 문서 내 범위에서 특정 콘텐츠를
 type: docs
 weight: 140
 url: /ko/python-net/how-to-extract-selected-content-between-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 문서 작업 시 문서 내 특정 범위의 콘텐츠를 쉽게 추출할 수 있는 것이 중요합니다. 다만, 내용은 문단, 표, 이미지 등 복잡한 요소로 구성될 수 있습니다.

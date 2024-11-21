@@ -7,6 +7,7 @@ description: "Insérez un paragraphe dans un document C#. Définissez les styles
 type: docs
 weight: 210
 url: /fr/net/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un paragraphe est un ensemble de caractères combinés en un bloc logique et se terminant par un caractère spécial – un *saut de paragraphe*. Dans Aspose.Words, un paragraphe est représenté par la classe [Paragraph](https://reference.aspose.com/words/fr/net/aspose.words/paragraph/).

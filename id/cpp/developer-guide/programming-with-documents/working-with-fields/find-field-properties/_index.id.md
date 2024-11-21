@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cara Menemukan Properti Bidang
 second_title: Aspose.Words untuk C++
 articleTitle: Temukan Properti Bidang
@@ -7,6 +7,7 @@ description: "Cara menemukan beberapa properti bidang seperti kode bidang dan ha
 type: docs
 weight: 25
 url: /id/cpp/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bidang yang disisipkan menggunakan [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertfield/) mengembalikan objek [Field](https://reference.aspose.com/words/cpp/aspose.words.fields/field/). Ini adalah kelas facade yang menyediakan metode yang berguna untuk menemukan beberapa properti bidang dengan cepat.

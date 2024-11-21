@@ -10,6 +10,7 @@ description: "A simple mail merge is used to fill the mail merge fields inside y
 keywords: "how to execute mail merge c++"
 weight: 10
 url: /cpp/simple-mail-merge-operation/
+timestamp: 2024-09-24-14-35-44
 ---
 
 A simple mail merge is used to fill the mail merge fields inside your template with the required data from your data source (single table representation). So it is similar to the classic mail merge in Microsoft Word.

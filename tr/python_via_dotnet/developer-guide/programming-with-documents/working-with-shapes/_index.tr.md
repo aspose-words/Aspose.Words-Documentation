@@ -7,6 +7,7 @@ description: "Python kullanarak bir belgede şekiller ve ole nesneleri oluşturu
 type: docs
 weight: 280
 url: /tr/python-net/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bu konu, Aspose.Words kullanarak şekillerle programlı olarak nasıl çalışılacağını anlatmaktadır.

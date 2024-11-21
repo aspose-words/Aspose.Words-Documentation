@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cum să recunoașteți că fontul a fost înlocuit în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Cum să recunoașteți că fontul a fost înlocuit
@@ -7,6 +7,7 @@ description: "Dacă nu sunteți sigur de ce s-a schimbat aspectul unui document 
 type: docs
 weight: 13
 url: /ro/cpp/how-to-recognize-that-the-font-was-replaced/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Uneori, poate fi neclar de ce s-a schimbat aspectul documentului sau de ce unele fonturi nu arată așa cum era de așteptat. În astfel de cazuri, mesajele de avertizare privind înlocuirea fontului implementate de interfața IWarningCallback vin în ajutor. Au tipul de avertizare [FontSubstitution](https://reference.aspose.com/words/cpp/aspose.words/warningtype/) și formatul standard al textului descrierii, "Fontul "<OriginalFont>" nu a fost găsit. Folosind fontul "<SubstitutionFont>". Motiv:<Reason> ", cu următoarele motive:

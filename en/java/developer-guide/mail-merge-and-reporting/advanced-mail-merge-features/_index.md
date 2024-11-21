@@ -10,6 +10,7 @@ description: "Aspose.Words for Java provides some advanced mail merge features t
 keywords: "use advanced mail merge features java, mail merge java"
 weight: 50
 url: /java/advanced-mail-merge-features/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words provides some additional mail merge properties and methods that allow you to perform further customization of the mail merge process either in simple mail merge or mail merge with regions.

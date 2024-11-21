@@ -1,4 +1,4 @@
-﻿---
+---
 title: Konversi ke PDF/A dan PDF/UA
 second_title: Aspose.Words untuk C++
 articleTitle: Pelajari Fitur Konversi ke PDF/A dan PDF/UA
@@ -7,6 +7,7 @@ description: "Konversikan ke PDF/A-1, PDF/A-2, PDF/A-4 dan PDF/UA menggunakan C+
 type: docs
 weight: 35
 url: /id/cpp/learn-features-of-conversion-to-pdf-a-pdf-ua/
+timestamp: 2024-01-31-14-23-37
 ---
 
 PDF adalah format halaman tetap yang sangat populer di kalangan pengguna dan didukung secara luas oleh berbagai aplikasi, karena dokumen PDF terlihat sama di perangkat apa pun. Untuk alasan ini, mengonversi ke PDF merupakan fitur penting dari Aspose.Words.

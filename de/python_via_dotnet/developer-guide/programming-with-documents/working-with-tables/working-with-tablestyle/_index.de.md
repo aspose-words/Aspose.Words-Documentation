@@ -7,6 +7,7 @@ description: "Erweiterte Tabellenformatierung C#. Erstellen Sie einen Tabellenst
 type: docs
 weight: 80
 url: /de/python-net/working-with-tablestyle/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ein Tabellenstil definiert eine Reihe von Formatierungen, die einfach auf eine Tabelle angewendet werden können. Formatierungen wie Rahmen, Schattierung, Ausrichtung und Schriftart können in einem Tabellenstil festgelegt und für ein einheitliches Erscheinungsbild auf viele Tabellen angewendet werden.

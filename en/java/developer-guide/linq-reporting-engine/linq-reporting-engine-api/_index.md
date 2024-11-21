@@ -7,6 +7,7 @@ description: "Learn LINQ Reporting Engine API to build a report in Java."
 type: docs
 weight: 50
 url: /java/linq-reporting-engine-api/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

@@ -7,6 +7,7 @@ type: docs
 description: "Document Object Model (G)DOM) es una representación en memoria de un documento de Word. Leer, manipular y modificar el contenido y formato de un documento de Word utilizando Java."
 weight: 10
 url: /es/java/aspose-words-document-object-model/
+timestamp: 2024-01-27-14-07-04
 ---
 
 El Aspose.Words Document Object Model (G)DOM) es una representación en memoria de un documento de Word. El Aspose.Words DOM le permite leer, manipular y modificar programáticamente el contenido y formato de un documento de Word.

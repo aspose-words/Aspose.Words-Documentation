@@ -7,6 +7,7 @@ description: "控制 Word 文档的外观,同时考虑到各种文档之间的�
 type: docs
 weight: 40
 url: /zh/java/work-with-word-document-options-and-appearance/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有时可能需要更改文档的外观,例如设置语言偏好或每页行数.Aspose.Words 提供了控制文档将如何显示的能力以及一些额外的选项。 本条描述了这种可能性。

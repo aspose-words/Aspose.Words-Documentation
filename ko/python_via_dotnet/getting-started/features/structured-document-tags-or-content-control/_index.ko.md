@@ -7,6 +7,7 @@ description: "Python의 구조화된 문서 태그(SDT 또는 콘텐츠 제어)�
 type: docs
 weight: 50
 url: /ko/python-net/structured-document-tags-or-content-control/
+timestamp: 2024-01-31-14-23-37
 ---
 
 

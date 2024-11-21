@@ -7,6 +7,7 @@ type: docs
 description: "ドキュメント透かし操作を使用して Javaお問い合わせ"
 weight: 70
 url: /ja/java/working-with-watermark/
+timestamp: 2024-01-27-14-07-04
 ---
 
 このトピックでは、透かしを使ってプログラム的に作業する方法について説明します Aspose.Wordsお問い合わせ 透かしは文書のテキストの後ろに表示する背景画像です。 透かしは、テキストやイメージを表わすことができます。 [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) クラス。

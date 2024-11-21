@@ -7,6 +7,7 @@ description: "Junte-se a tabelas em Java. Manipulações avançadas de mesa, jun
 type: docs
 weight: 90
 url: /pt/java/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Quadro, representado no Aspose.Words Document Object Model, é composta de linhas e células independentes, tornando mais fácil juntar tabelas.

@@ -7,6 +7,7 @@ description: "يستعاض عن النص في جدول Java. Extract Plain Text 
 type: docs
 weight: 60
 url: /ar/java/extract-text-from-and-replace-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 وكما ذُكر في المواد السابقة، يتضمّن الجدول عادة نصاً واضحاً، وإن كان يمكن وضع محتوى آخر مثل الصور أو حتى الجداول الأخرى في زنزانات المائدة.

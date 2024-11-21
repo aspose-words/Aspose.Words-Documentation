@@ -7,6 +7,7 @@ description: "Imprimer un document en utilisant Java via les dialogues Paramètr
 type: docs
 weight: 55
 url: /fr/java/print-a-document-programmatically-or-using-dialogs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Cet article décrit comment imprimer un document de traitement de texte en utilisant Aspose.Words API. Il montre également les méthodes d'impression d'un document avec les dialogues Paramètres, Aperçu d'impression et Progrès d'impression.

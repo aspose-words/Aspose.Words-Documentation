@@ -7,6 +7,7 @@ description: "用C#將文件轉換為PDF。 將 DOCX 轉換為 PDF C#。 各種�
 type: docs
 weight: 10
 url: /zh-hant/net/convert-a-document-to-pdf/
+timestamp: 2024-09-25-11-08-55
 ---
 
 能夠輕鬆且可靠地將文件從一種格式轉換成另一種格式是 Aspose.Words 的關鍵特點。 最受歡迎的轉檔格式之一是 PDF - 固定格式，在各種平台上呈現文書時會保持其原始外观。 在 Aspose.Words 中，" rendering " 這個詞用來描述將一份文件轉換成具有分頁或以分頁為概念的檔案格式的過程。

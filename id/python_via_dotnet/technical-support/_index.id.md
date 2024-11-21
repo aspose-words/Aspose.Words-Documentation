@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words untuk Python via .NET menyediakan dukungan teknis gratis yang tersedia untuk semua pengguna. Silakan laporkan pertanyaan, masalah, atau permintaan fitur Anda menggunakan Forum Dukungan Gratis Aspose."
 weight: 80
 url: /id/python-net/technical-support/
+timestamp: 2024-11-18-12-56-02
 ---
 
 Aspose memberikan dukungan teknis gratis tanpa batas untuk semua produknya. Dukungan tersedia untuk semua pengguna, termasuk evaluasi. Jalur dukungan utama adalah [Aspose.Forum](https://forum.aspose.com/c/words/8).

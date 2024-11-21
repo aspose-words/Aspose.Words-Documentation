@@ -7,6 +7,7 @@ description: "Mengontrol tampilan dokumen Word dalam memperhitungkan perbedaan a
 type: docs
 weight: 40
 url: /id/java/work-with-word-document-options-and-appearance/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Kadang-kadang Anda mungkin perlu mengubah tampilan dokumen, misalnya, mengatur preferensi bahasa atau jumlah garis per halaman.Aspose.Words memberikan kemampuan untuk mengontrol bagaimana dokumen akan ditampilkan, serta beberapa opsi tambahan. Artikel ini menjelaskan kemungkinan tersebut.

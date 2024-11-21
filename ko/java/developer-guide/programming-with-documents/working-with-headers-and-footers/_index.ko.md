@@ -7,6 +7,7 @@ description: "headers와 footers를 조작하는 방법 Java·"
 type: docs
 weight: 150
 url: /ko/java/working-with-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words 사용자는 문서의 헤더와 발자기를 사용합니다. 머리는 페이지 상단에 배치 된 텍스트이며, 발자는 페이지 하단의 텍스트입니다. 일반적으로이 영역은 페이지 번호, 생성 날짜, 회사 정보 등과 같은 문서의 모든 또는 일부 페이지에 반복해야하는 정보를 삽입하는 데 사용됩니다.

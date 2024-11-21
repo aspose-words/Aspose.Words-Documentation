@@ -8,6 +8,7 @@ description: "Python を使用して、サポートされている形式でド�
 keywords: "save a document python, save a document to file python, save a document to stream python, save a document Aspose python, save formats supported by Aspose.Words python"
 weight: 20
 url: /ja/python-net/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words を使用して実行する必要があるタスクのほとんどには、ドキュメントの保存が含まれます。ドキュメントを保存するために、Aspose.Words は [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) クラスの [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) メソッドを提供します。ドキュメントをファイルまたはストリームに保存できるオーバーロードがあります。ドキュメントは、Aspose.Words がサポートする任意の保存形式で保存できます。サポートされているすべての保存形式のリストについては、[SaveFormat](https://reference.aspose.com/words/python-net/aspose.words/saveformat/) 列挙を参照してください。

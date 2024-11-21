@@ -7,6 +7,7 @@ description: "Remplacer le texte dans un tableau Java. Extraire du texte clair d
 type: docs
 weight: 60
 url: /fr/java/extract-text-from-and-replace-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Comme indiqué dans les articles précédents, une table contient généralement du texte clair, bien que d'autres contenus tels que des images ou même d'autres tables puissent être placés dans des cellules de table.

@@ -7,6 +7,7 @@ description: "Konwertuj do formatu PDF/A-1, PDF/A-2, PDF/A-4 i PDF/UA za pomocą
 type: docs
 weight: 25
 url: /pl/net/learn-features-of-conversion-to-pdf-a-pdf-ua/
+timestamp: 2024-01-31-14-23-37
 ---
 
 PDF to format o stałej stronie, który jest bardzo popularny wśród użytkowników i jest szeroko obsługiwany przez różne aplikacje, ponieważ dokument PDF wygląda tak samo na każdym urządzeniu. Z tego powodu konwersja do formatu PDF jest ważną funkcją Aspose.Words.

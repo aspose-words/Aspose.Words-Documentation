@@ -1,4 +1,4 @@
-﻿---
+---
 title: 필드 삽입 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 필드 삽입
@@ -7,6 +7,7 @@ description: "다음을 사용하여 문서에 필드를 삽입하는 다양한 
 type: docs
 weight: 20
 url: /ko/cpp/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 문서에 필드를 삽입하는 방법은 여러 가지가 있습니다:

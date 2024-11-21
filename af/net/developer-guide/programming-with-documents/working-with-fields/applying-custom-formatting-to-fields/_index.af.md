@@ -1,4 +1,4 @@
-﻿---
+---
 title: Pasmaak Opmaak Toe Op Velde in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Pasmaak Opmaak Toe Op Velde
@@ -7,6 +7,7 @@ description: "Formateer en evalueer velde resultaat met behulp van C#."
 type: docs
 weight: 40
 url: /af/net/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Soms moet gebruikers persoonlike formatering op velde toepas. In hierdie artikel sal ons kyk na'n paar voorbeelde van hoe dit gedoen kan word.

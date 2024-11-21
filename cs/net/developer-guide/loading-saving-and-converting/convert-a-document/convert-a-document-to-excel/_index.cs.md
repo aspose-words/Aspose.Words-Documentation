@@ -7,6 +7,7 @@ description: "Převést PDF na Excel, XML na Excel, DOCX na Excel C#. Uložit do
 type: docs
 weight: 15
 url: /cs/net/convert-a-document-to-excel/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Převod dokumentů z jednoho formátu do druhého je vlajkovou lodí Aspose.Words. Dokumenty můžete převést v jakémkoliv dostupném [formát zatížení](https://reference.aspose.com/words/net/aspose.words/loadformat/) i do formátu XLSX.

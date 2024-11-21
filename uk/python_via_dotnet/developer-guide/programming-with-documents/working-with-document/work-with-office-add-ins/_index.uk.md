@@ -7,6 +7,7 @@ description: "Aspose.Words для Python via .NET надає різні клас
 type: docs
 weight: 50
 url: /uk/python-net/work-with-office-add-ins/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Іноді ви можете надати доступ до керування інтерфейсами, які запускають код для зміни документів. Aspose.Words API забезпечує [webextensions](https://reference.aspose.com/words/python-net/aspose.words.webextensions/) Модуль, який надає різні класи для налаштування елементів та атрибутів, що простягаються за допомогою XML словника для представлення Office Add-ins.

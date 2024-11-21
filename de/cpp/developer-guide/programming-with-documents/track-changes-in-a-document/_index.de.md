@@ -1,4 +1,4 @@
-﻿---
+---
 title: Verfolgen Sie Änderungen in einem Dokument in C++
 second_title: Aspose.Words für C++
 articleTitle: Verfolgen von Änderungen in einem Dokument
@@ -7,6 +7,7 @@ description: "Verfolgen Sie Änderungen an Inhalten und Formatierungen, die Sie 
 type: docs
 weight: 270
 url: /de/cpp/track-changes-in-a-document/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Die Funktionalität von Änderungen nachverfolgen, auch als Überprüfen bezeichnet, ermöglicht es Ihnen, Änderungen an Inhalten und Formatierungen zu verfolgen, die von Ihnen oder anderen Benutzern vorgenommen wurden. Diese Funktion zum Nachverfolgen von Änderungen mit Aspose.Words unterstützt das Nachverfolgen von Änderungen in Microsoft Word. Mit dieser Funktionalität können Sie auf einzelne Revisionen in Ihrem Dokument zugreifen und ihnen verschiedene Eigenschaften zuweisen.

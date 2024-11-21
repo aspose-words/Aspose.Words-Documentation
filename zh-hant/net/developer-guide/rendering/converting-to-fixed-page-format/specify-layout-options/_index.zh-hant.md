@@ -7,6 +7,7 @@ description: "透過 C# 設定各種文件格式的排版選項。"
 type: docs
 weight: 10
 url: /zh-hant/net/specify-layout-options/
+timestamp: 2024-07-10-08-10-45
 ---
 
 Aspose.Words可讓您根據 [LayoutOptions](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/) 類別的屬性中指定的參數，以各種不同的格式來建立輸出文件。 這些屬性中有些類似一些 Microsoft Word 使用者介面選單選項 – 他們將在本文中被描述。

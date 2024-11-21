@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trim Oversized Texts
 second_title: Aspose.Words for JasperReports
 articleTitle: Trim Oversized Texts
@@ -7,6 +7,7 @@ description: "Aspose Words for JasperReports will never trim oversized texts by 
 type: docs
 weight: 180
 url: /jasperreports/trim-oversized-texts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

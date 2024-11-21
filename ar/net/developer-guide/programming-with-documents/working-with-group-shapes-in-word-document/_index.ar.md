@@ -7,6 +7,7 @@ description: "Grouping وفك تجميع الأشكال باستخدام C#."
 type: docs
 weight: 290
 url: /ar/net/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 في بعض الأحيان تحتاج إلى إضافة group shape إلى مستند Word. يتكون group shape هذا من أشكال متعددة.

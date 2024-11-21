@@ -7,6 +7,7 @@ description: "Créez et modifiez des graphiques de différents types dans un doc
 type: docs
 weight: 310
 url: /fr/python-net/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Une nouvelle méthode [insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/) a été ajoutée à la classe [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/). Voyons donc comment insérer un simple histogramme dans le document à l'aide de la méthode [DocumentBuilder.insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/):

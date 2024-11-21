@@ -7,6 +7,7 @@ description: "Stosowanie Aspose.Words zamiast Java renderowanie funkcji do forma
 type: docs
 weight: 30
 url: /pl/java/rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Używamy terminu "renderowanie" w Aspose.Words opis procesu konwersji dokumentu na format pliku lub nośnika, który jest paginowany lub ma pojęcie stron. Mówimy o przekazywaniu dokumentu na strony. Poniższy schemat pokazuje, co renderowanie jest w Aspose.Words.

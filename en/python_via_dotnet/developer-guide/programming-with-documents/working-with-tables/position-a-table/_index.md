@@ -7,6 +7,7 @@ description: "Specify table position in Python. Get a table alignment, get and s
 type: docs
 weight: 50
 url: /python-net/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 There are floating tables and inline tables:

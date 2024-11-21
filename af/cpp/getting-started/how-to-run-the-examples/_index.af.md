@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hoe Om Voorbeelde Uit Te voer
 second_title: Aspose.Words vir C++
 articleTitle: Hoe Om Voorbeelde Uit Te voer
@@ -7,6 +7,7 @@ description: "Aflaai Aspose.Words vir C++ voorbeelde van ons GitHub bewaarplek e
 type: docs
 weight: 110
 url: /af/cpp/how-to-run-the-examples/
+timestamp: 2024-07-11-16-13-28
 ---
 
 Om meer vertroud te raak met die Aspose.Words moontlikhede en funksies bied ons voorbeelde wat afgelaai kan word van ons GitHub bewaarplek, hardloop, en leer in detail.

@@ -7,6 +7,7 @@ type: docs
 description: "Python'i kullanarak aynı kopyasını elde etmek için bir belgeyi kopyalayın. Bir kopya oluşturulurken orijinal belgenin düğümleri ve özellikleri kopyalanır."
 weight: 70
 url: /tr/python-net/clone-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bir belgenin klonlanması, orijinal belgenin aynı kopyasını oluşturma işlemidir; bu, performansı artırabilir ve sizi olası bellek sızıntılarından kurtarabilir.

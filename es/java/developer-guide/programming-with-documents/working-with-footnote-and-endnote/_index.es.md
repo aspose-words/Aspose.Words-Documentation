@@ -7,6 +7,7 @@ description: "Cómo manipular las notas de pie de página y las notas finales ut
 type: docs
 weight: 160
 url: /es/java/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words También ofrece algunas clases, métodos y propiedades para trabajar con notas de pie de página y notas.

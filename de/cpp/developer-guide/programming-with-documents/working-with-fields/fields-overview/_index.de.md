@@ -1,4 +1,4 @@
-﻿---
+---
 title: Feldübersicht in C++
 second_title: Aspose.Words für C++
 articleTitle: Felder Übersicht
@@ -7,6 +7,7 @@ description: "Felder werden in Details, Feldcodes und Feldergebnissen erläutert
 type: docs
 weight: 10
 url: /de/cpp/fields-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words ist eine Klassenbibliothek, die für die serverseitige Verarbeitung von Microsoft Word -Dokumenten entwickelt wurde und Felder auf folgende Weise unterstützt:

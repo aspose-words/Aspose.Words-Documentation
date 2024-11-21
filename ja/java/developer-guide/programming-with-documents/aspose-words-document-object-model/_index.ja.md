@@ -7,6 +7,7 @@ type: docs
 description: "Document Object Model ( )DOM) は、Word文書の非記憶表現です。 読み、操作し、Word文書のコンテンツとフォーマットを変更して使用 Javaお問い合わせ"
 weight: 10
 url: /ja/java/aspose-words-document-object-model/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ザ・オブ・ザ・ Aspose.Words Document Object Model ( )DOM) は、Word文書の非記憶表現です。 ザ・オブ・ザ・ Aspose.Words DOM Word文書のコンテンツやフォーマットをプログラム的に読み、操作、変更することができます。

@@ -7,6 +7,7 @@ description: "Convertissez Word avec l'étiquette de sensibilité appliquée en 
 type: docs
 weight: 30
 url: /fr/net/work-with-document-market-by-sensitivity-label/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Les étiquettes de sensibilité de Microsoft Purview Information Protection vous permettent de classer et de protéger les données de votre organisation, tout en garantissant que la productivité des utilisateurs et leur capacité à collaborer ne sont pas entravées. Une fois qu’une étiquette de confidentialité est appliquée à un document, tous les paramètres de protection configurés pour cette étiquette sont appliqués au contenu.

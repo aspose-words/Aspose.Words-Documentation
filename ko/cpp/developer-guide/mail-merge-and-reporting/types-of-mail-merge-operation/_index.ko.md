@@ -1,4 +1,4 @@
-﻿---
+---
 title: 유형 Mail Merge 운영 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 유형 Mail Merge 운영
@@ -8,6 +8,7 @@ description: "의 두 가지 유형을 수행 mail merge 운영:단순 mail merg
 keywords: "how to execute mail merge c++"
 weight: 20
 url: /ko/cpp/types-of-mail-merge-operations/
+timestamp: 2024-09-24-14-35-44
 ---
 
 의 주요 아이디어 mail merge 템플릿과 데이터 소스에서 가져온 데이터를 기반으로 문서 또는 여러 문서를 자동으로 만드는 것입니다. Aspose.Words 두 가지 다른 유형을 수행 할 수 있습니다 mail merge 운영:단순 mail merge 그리고 mail merge 지역과 함께

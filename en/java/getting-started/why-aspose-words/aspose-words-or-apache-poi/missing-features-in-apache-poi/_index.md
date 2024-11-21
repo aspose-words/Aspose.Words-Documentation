@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words Features Missing in Apache POI
 second_title: Aspose.Words for Java
 articleTitle: Aspose.Words Features Missing in Apache POI
@@ -33,6 +33,7 @@ aliases:
   - /java/working-with-fields-using-aspose-words/
   - /java/insert-fields-in-documents/
   - /java/remove-fields-from-document/
+timestamp: 2024-01-31-14-23-37
 ---
 
 As already described in previous articles, there are operations with documents that are faster and more conveniently to perform using Aspose.Words than Apache POI. But there are also operations that are not provided by Apache POI (HWPF and XWPF). You can try to achieve the desired result using auxiliary tools and options, but even if successful, it will be quite expensive.

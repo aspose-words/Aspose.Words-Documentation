@@ -1,4 +1,4 @@
-﻿---
+---
 title: MFontC++での可用性と置換
 second_title: C++の場合Aspose.Words
 articleTitle: フォントの可用性と置換
@@ -7,6 +7,7 @@ description: "正確な置換フォントが見つからない場合は、代わ
 type: docs
 weight: 12
 url: /ja/cpp/font-availability-and-substitution/
+timestamp: 2024-09-24-14-35-44
 ---
 
 文書内のテキストは、Arial、Times New Roman、Verdanaなどのさまざまなフォントで書式設定できます。 Aspose.Wordsがドキュメントをレンダリングするとき、ドキュメントで指定されているフォントを選択しようとします。

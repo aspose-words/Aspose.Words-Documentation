@@ -7,6 +7,7 @@ description: "Pelajari cara menyesuaikan properti bidang di Python. Ganti nama b
 type: docs
 weight: 27
 url: /id/python-net/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words menyediakan kemampuan untuk berinteraksi secara terprogram dengan berbagai properti bidang. Pada artikel ini, kita akan melihat beberapa contoh agar Anda memahami prinsip dasar bekerja dengan properti bidang. Anda dapat melihat daftar lengkap properti untuk setiap jenis bidang di kelas terkait di [Modul bidang](https://reference.aspose.com/words/python-net/aspose.words.fields/).

@@ -7,6 +7,7 @@ description: "使用 C# 進行進階排版功能。"
 type: docs
 weight: 25
 url: /zh-hant/net/enable-opentype-features/
+timestamp: 2024-07-10-14-38-57
 ---
 
 OpenType是一種字體格式，相對於 PostScript 和 TrueType，旨在提供更好的支援國際語言和書寫系統。 OpenType的排版特性通常稱為 OpenType功能。Aspose.Words。 Shaping 。 HarfBuzz包提供使用 Aspose.Words 的 HarfBuzz 文字排版引擎對 OpenType功能的支持。

@@ -9,6 +9,7 @@ type: docs
 description: "Aspose.Words pentru .NET răspunde la întrebările cel mai frecvente. Învaţă această pagină pentru a-ţi rezolva rapid problema privind întrebări generale sau subiecte specifice."
 weight: 75
 url: /ro/net/faq/
+timestamp: 2024-11-18-12-56-02
 ---
 
 Această pagină conține răspunsuri la cele mai frecvente întrebări. Te rog să înveți pagina curentă - poate că asta îți va permite să rezolvi repede problema ta.

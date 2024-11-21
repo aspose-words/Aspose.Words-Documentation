@@ -7,6 +7,7 @@ description: "Bir belgeyi en popüler formatlarda kaydedin ve C# kullanarak bir�
 type: docs
 weight: 30
 url: /tr/net/supported-features-on-document-save/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words, kullanıcıların çeşitli formatlardaki belgelerle çalışmasına olanak tanır ve bunun için çok çeşitli özellikler sunar. Örneğin, kullanıcılar sıfırdan bir belge oluşturabilir veya onu yükleyebilir, bazı değişiklikler yapabilir ve ardından bu değişiklikleri herhangi bir [Desteklenen Belge Formatları](/words/tr/net/supported-document-formats/)'deki çıktı dosyasına kaydedebilir. Kullanıcı, belgeyi seçilen formatta kaydederken çeşitli kaydetme seçeneklerini uygulayabilir.

@@ -15,6 +15,7 @@ aliases:
  - /java/joining-documents/
  - /java/joining-documents-with-different-formatting/
  - /java/joining-documents-with-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Sometimes it is required to combine several documents into one. You can do this manually or you can use Aspose.Words insert or append feature.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Crittografare un documento in C++
 second_title: Aspose.Words per C++
 articleTitle: Crittografare un documento
@@ -7,6 +7,7 @@ description: "Crittografare il documento utilizzando algoritmi di crittografia a
 type: docs
 weight: 20
 url: /it/cpp/encrypt-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 La crittografia è il processo che traduce il testo leggibile in sequenze prive di significato di byte in modo che possa essere letto solo dalla persona che ha la chiave di decrittazione o il codice segreto. Questo processo svolge un ruolo importante nel proteggere i tuoi contenuti. Aiuta a codificare il contenuto, verificare l'origine di un documento, dimostrare che il contenuto non è stato modificato dopo l'invio e garantire che i dati dal documento siano al sicuro.

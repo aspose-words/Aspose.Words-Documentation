@@ -7,6 +7,7 @@ type: docs
 description: "In Aspose.Words für Java Die Dokumentation erwähnte logische Ebenen von Knoten – Blockebene, Inline-Ebene oder Zeilenebene. Die Knotenebene wird verwendet, um den Ort im Dokumentbaum zu beschreiben, wo der Knoten typischerweise auftritt."
 weight: 10
 url: /de/java/logical-levels-of-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Diese Dokumentation bezieht sich manchmal auf eine Gruppe von Knotenklassen, die zu einer "Ebene" in einem Dokument gehören, wie "Block-Level", "Inline-Level" (auch "Inline" genannt), oder "row-Level"-Knoten. Diese Ebenen in einem Dokument werden rein logisch differenziert und nicht explizit durch Vererbung oder andere ausgedrückt. Aspose.Words DOM Mittel. Die Knotenebene wird verwendet, um den Ort in dem Dokumentbaum zu beschreiben, wo der Knoten typischerweise auftreten würde.

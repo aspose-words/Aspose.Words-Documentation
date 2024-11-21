@@ -7,6 +7,7 @@ description: "С помощта на питон можете да внедрит
 type: docs
 weight: 390
 url: /bg/python-net/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
 В Microsoft Word, можете да създадете форма, като започнете с шаблон и да добавите контрол на съдържанието, включително чекови кутии, текстови кутии, берачи на дати и падащи списъци. В <span notrans="<span notrans=" Aspose.Words"=""></span>,"> структуриран документ Етикет или контрол на съдържанието от всеки документ, зареден в Aspose.Words е внесен като [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) Възел. Структурираните тагове на документи (SDT или контрол на съдържанието) позволяват вграждането на семантика, дефинирана от клиента, както и неговото поведение и появяване в документ. [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) може да се появи в документ на следните места:

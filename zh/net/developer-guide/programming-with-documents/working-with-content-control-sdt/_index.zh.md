@@ -7,6 +7,7 @@ description: "高级文档内容管理，如何使用 C# 创建和操作内容�
 type: docs
 weight: 390
 url: /zh/net/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
 在 Microsoft Word 中，您可以通过从模板开始并添加内容控件（包括复选框、文本框、日期选择器和下拉列表）来创建表单。在 Aspose.Words 中，加载到 Aspose.Words 中的任何文档中的结构化文档标签或内容控件都会作为 StructuredDocumentTag 节点导入。结构化文档标签（SDT 或内容控制）允许将客户定义的语义及其行为和外观嵌入到文档中。

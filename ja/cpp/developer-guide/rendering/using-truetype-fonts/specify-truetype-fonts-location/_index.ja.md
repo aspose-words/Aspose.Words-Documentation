@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++でTrueTypeフォントの場所を指定する
 second_title: C++の場合Aspose.Words
 articleTitle: TrueTypeフォントの場所を指定します
@@ -7,6 +7,7 @@ description: "さまざまなTrueTypeフォントソースを指定します:シ
 type: docs
 weight: 30
 url: /ja/cpp/specify-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 このトピックでは、オペレーティングシステム固有の違いを含むTrueTypeフォントを検索するときのAspose.Wordsの既定の動作について説明し、ユーザーフォントソースを指

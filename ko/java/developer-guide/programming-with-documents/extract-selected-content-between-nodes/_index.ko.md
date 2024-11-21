@@ -7,6 +7,7 @@ type: docs
 description: "다른 사용에서 문서 콘텐츠를 추출 Java·"
 weight: 140
 url: /ko/java/extract-selected-content-between-nodes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 문서 작업을 할 때 문서 내에서 특정 범위에서 콘텐츠를 쉽게 추출 할 수 있습니다. 그러나 내용은 단락, 테이블, 이미지 등과 같은 복잡한 요소로 구성됩니다.

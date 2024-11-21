@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words zamiast Java odpowiada na najczęściej zadawane pytania. Naucz się tej strony, aby szybko rozwiązać swój problem na ogólnych pytań lub konkretnych tematów."
 weight: 75
 url: /pl/java/faq/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Ta strona zawiera odpowiedzi na najczęściej zadawane pytania. Proszę nauczyć się bieżącej strony - być może pozwoli to na szybkie rozwiązanie problemu.

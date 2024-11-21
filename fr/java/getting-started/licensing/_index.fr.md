@@ -7,6 +7,7 @@ description: "Aspose.Words pour Java offre différents plans d'achat ou offre un
 type: docs
 weight: 60
 url: /fr/java/licensing/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Parfois, pour mieux étudier le système, vous voulez plonger dans le code le plus rapidement possible. Pour faciliter la tâche, Aspose.Words fournit différents plans d'achat ou offre un essai gratuit et une licence temporaire de 30 jours pour l'évaluation.

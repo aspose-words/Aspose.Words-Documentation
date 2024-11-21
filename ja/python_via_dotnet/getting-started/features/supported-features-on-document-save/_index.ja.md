@@ -7,6 +7,7 @@ description: "Python を使用して、ドキュメントをサポートされ�
 type: docs
 weight: 30
 url: /ja/python-net/supported-features-on-document-save/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words には、一般的なワードプロセッサ形式の最も高度な変換サポートがいくつかあります。

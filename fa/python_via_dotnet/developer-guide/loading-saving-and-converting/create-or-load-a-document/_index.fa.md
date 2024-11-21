@@ -8,6 +8,7 @@ url: /fa/python-net/create-or-load-a-document/
 description: "یک سند خالی ایجاد کنید یا آن را از یک فایل یا جریان با استفاده از Python بارگیری کنید."
 keywords: "create a document python, load a document python, create a blank document python, load a document from file python, load a document from stream python, create a document Aspose python, load a document Aspose python, load formats supported by Aspose.Words python"
 weight: 10
+timestamp: 2024-01-27-14-07-04
 ---
 
 تقریباً هر کاری که می خواهید با Aspose.Words انجام دهید شامل بارگیری یک سند است. کلاس [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) نشان دهنده یک سند بارگذاری شده در حافظه است. سند دارای چندین سازنده بارگذاری شده است که به شما امکان می دهد یک سند خالی ایجاد کنید یا آن را از یک فایل یا جریان بارگیری کنید. سند را می توان در هر فرمت بارگیری که توسط Aspose.Words پشتیبانی می شود بارگیری کرد. برای لیست همه فرمت های بار پشتیبانی شده، به شمارش [LoadFormat](https://reference.aspose.com/words/python-net/aspose.words/loadformat/) مراجعه کنید.

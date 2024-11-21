@@ -7,6 +7,7 @@ description: "Aspose.Words 제품정보 Java 작성된 문서를 렌더링할 �
 type: docs
 weight: 20
 url: /ko/java/install-truetype-fonts-on-linux/
+timestamp: 2024-01-27-14-07-04
 ---
 
 자주, 당신은 Aspose.Words DOC 또는 DOCX 문서를 PDF 형식으로 변환합니다. 이 작업을 수행해야하는 경우 Linux 기계,이 주제는 당신이 보장하는 방법을 배울 것을 도울 것입니다 Aspose.Words 최고의 정확도로 문서를 렌더링합니다.

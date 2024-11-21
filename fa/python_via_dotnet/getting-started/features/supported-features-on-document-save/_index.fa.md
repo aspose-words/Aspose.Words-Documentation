@@ -7,6 +7,7 @@ description: "سند خود را با استفاده از Python در هر قا�
 type: docs
 weight: 30
 url: /fa/python-net/supported-features-on-document-save/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words دارای برخی از پیشرفته ترین پشتیبانی از تبدیل فرمت های رایج پردازش کلمه است.

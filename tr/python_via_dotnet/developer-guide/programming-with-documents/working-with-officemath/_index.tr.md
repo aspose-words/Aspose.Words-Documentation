@@ -7,6 +7,7 @@ description: "Python kullanarak bir belgede OfficeMath Tür Nesneleri oluşturun
 type: docs
 weight: 320
 url: /tr/python-net/working-with-officemath/
+timestamp: 2024-01-27-14-07-04
 ---
 
 OfficeMath Tipi Nesnelerle çalışmak artık daha da kolay. Aspose.Words'te müşteri kolayca Gerekçelendirebilir ve ayrıca bir denklemin satır içinde mi yoksa ayrı bir satırda mı görüntüleneceğini yönetebilir. Dahası, [MathObjectType](https://reference.aspose.com/words/python-net/aspose.words.math/mathobjecttype/)'nin kullanıma sunulmasıyla; Bu matris nesnesi kullanılarak faydalı kontroller uygulanabilir.

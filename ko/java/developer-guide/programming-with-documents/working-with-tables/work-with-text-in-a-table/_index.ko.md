@@ -7,6 +7,7 @@ description: "테이블에 텍스트를 대체 Java· 표 또는 세포에서 �
 type: docs
 weight: 60
 url: /ko/java/extract-text-from-and-replace-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 이전 기사에서 언급했듯이, 테이블은 일반적으로 이미지 또는 다른 테이블과 같은 다른 내용이 테이블 셀에 배치 될 수 있지만 일반 텍스트가 포함되어 있습니다.

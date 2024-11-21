@@ -7,6 +7,7 @@ description: "Specify default fonts. NPOI does not provide an opportunity to spe
 type: docs
 weight: 25
 url: /net/specify-default-fonts/
+timestamp: 2024-01-31-14-23-37
 ---
 
 {{% alert color="primary" %}}

@@ -7,6 +7,7 @@ description: "Unir tablas en C#. Cómo fusionar dos tablas en un C#."
 type: docs
 weight: 90
 url: /es/net/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Una tabla, representada en el modelo de objetos de documento Aspose.Words, se compone de filas y celdas independientes, lo que facilita la unión de tablas.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Sostituire i campi C++
 second_title: Aspose.Words per C++
 articleTitle: Sostituire i campi con testo statico
@@ -7,6 +7,7 @@ description: "Scopri come sostituire i campi con il testo in C++. Sostituire i c
 type: docs
 weight: 37
 url: /it/cpp/replace-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 La sostituzione dei campi è spesso necessaria quando si desidera salvare il documento come copia statica. Ad esempio, quando si invia come allegato in una e-mail. La conversione di campi come `DATE` o `TIME` in testo statico consentirà al documento di visualizzare la stessa data di quando è stato inviato. Inoltre, in alcune situazioni, potrebbe essere necessario rimuovere i campi condizionali `IF` dal documento e sostituirli con il risultato di testo più recente. Ad esempio, convertendo il risultato del campo `IF` in testo statico in modo che non modifichi più dinamicamente il suo valore quando i campi nel documento vengono aggiornati.

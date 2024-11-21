@@ -7,6 +7,7 @@ type: docs
 description: "טארינסלט Markdown מסמך Document Object Model חזרה לשימוש Python. אז אתה יכול לעבוד עם קיים מורכב Markdown באופן יזום ליצור Markdown מסמך מאפס"
 weight: 20
 url: /he/python-net/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 כדי לקרוא, לתמרן ולשנות את התוכן ואת הפורמט של מסמך, עליך לתרגם אותו ל Aspose.Words Document Object Model ()DOM).

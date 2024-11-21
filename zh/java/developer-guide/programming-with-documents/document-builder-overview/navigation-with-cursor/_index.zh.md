@@ -7,6 +7,7 @@ description: "在文档中不同节点之间导航,例如段落、书签或使�
 type: docs
 weight: 5
 url: /zh/java/navigation-with-cursor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 在使用文档时,即使文件是短的或长的,您也需要浏览您的文档。 以虚拟光标进行导航,代表文档中不同节点之间的导航能力.

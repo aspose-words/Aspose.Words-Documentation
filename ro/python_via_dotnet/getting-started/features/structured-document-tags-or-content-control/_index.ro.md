@@ -1,4 +1,4 @@
-﻿---
+---
 title: Etichete Document Structurate
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Etichete de documente structurate sau Control de conținut
@@ -7,6 +7,7 @@ description: "Încorporați semantica definită de client, precum și comportame
 type: docs
 weight: 50
 url: /ro/python-net/structured-document-tags-or-content-control/
+timestamp: 2024-01-31-14-23-37
 ---
 
 

@@ -7,6 +7,7 @@ description: "המונחים: Layout אפשרויות עבור פריסות מס
 type: docs
 weight: 10
 url: /he/net/specify-layout-options/
+timestamp: 2024-07-10-08-10-45
 ---
 
 Aspose.Words מאפשר לך ליצור מסמכי פלט עם פריסות שונות, בהתאם הפרמטרים המפורטים בתכונות של [LayoutOptions](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/) מעמד. חלק מהנכסים האלה דומים לחלק Microsoft Word אפשרויות לממשק משתמשים - הם יתוארו במאמר זה.

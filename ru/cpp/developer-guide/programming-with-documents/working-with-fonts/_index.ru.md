@@ -1,4 +1,4 @@
-﻿---
+---
 title: Работа со шрифтами на C++
 second_title: Aspose.Words для C++
 articleTitle: Работа со шрифтами
@@ -7,6 +7,7 @@ description: "Детальное форматирование шрифта с и
 type: docs
 weight: 230
 url: /ru/cpp/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Шрифт - это набор символов определенного размера, цвета и оформления. Aspose.Words позволяет работать со шрифтами, используя пространство имен [Fonts](https://reference.aspose.com/words/cpp/aspose.words.fonts/) и класс [Font](https://reference.aspose.com/words/cpp/aspose.words/font/).

@@ -7,6 +7,7 @@ description: "Tạo, chỉnh sửa và lưu tài liệu đầu tiên của bạn
 type: docs
 weight: 20
 url: /vi/java/hello-world/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Một đoạn mã "Xin chào thế giới!" thường là ví dụ đầu tiên đơn giản để viết bằng cách sử dụng Aspose.Words cho Java, và nó cũng có thể được dùng như là một bài kiểm tra tình trạng để đảm bảo phần mềm dự định biên dịch hoặc chạy mã nguồn đã được cài đặt chính xác.

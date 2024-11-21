@@ -7,6 +7,7 @@ description: "Lưu tài liệu của bạn sang bất kỳ định dạng đư�
 type: docs
 weight: 30
 url: /vi/python-net/supported-features-on-document-save/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words có một số hỗ trợ chuyển đổi tiên tiến nhất cho các định dạng xử lý văn bản phổ biến.

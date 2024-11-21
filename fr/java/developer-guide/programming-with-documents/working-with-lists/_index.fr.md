@@ -7,6 +7,7 @@ description: "Introduction à la fonction de formatage de numérotation dans Asp
 type: docs
 weight: 200
 url: /fr/java/working-with-lists/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Une liste dans une Microsoft Word document est un ensemble de propriétés de formatage de liste. Des listes peuvent être utilisées dans vos documents pour formater, organiser et souligner le texte. Les listes sont un excellent moyen d'organiser les données dans les documents, et elles facilitent la compréhension des points clés par les lecteurs.

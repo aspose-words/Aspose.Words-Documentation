@@ -7,6 +7,7 @@ description: "Cum să încărcăm documente din surse externe în C#. Încarcă 
 type: docs
 weight: 40
 url: /ro/net/working-with-documents-from-external-sources/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Această secțiune oferă informații despre cum să încărcați documente din surse externe, cum ar fi SharePoint spațiul de stocare a documentelor sau bazele de date. După primirea unui astfel de document, nu numai că poți să faci toate modificările necesare în el folosind funcționalitatea puternică a Aspose.Words, dar și să reîncarci acest document înapoi în sursa de date.

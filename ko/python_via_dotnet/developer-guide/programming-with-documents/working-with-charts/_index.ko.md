@@ -7,6 +7,7 @@ description: "Python를 사용하여 문서에서 다양한 유형의 차트를 
 type: docs
 weight: 310
 url: /ko/python-net/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) 클래스에 새로운 [insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/) 메소드가 추가되었습니다. 이제 [DocumentBuilder.insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/) 메서드를 사용하여 간단한 세로 막대형 차트를 문서에 삽입하는 방법을 살펴보겠습니다

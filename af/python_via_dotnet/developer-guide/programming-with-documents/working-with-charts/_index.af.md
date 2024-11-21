@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Kaarte in Python
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Werk Met Kaarte
@@ -7,6 +7,7 @@ description: "Skep en verander kaarte van verskillende tipes in'n dokument met b
 type: docs
 weight: 310
 url: /af/python-net/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Nuwe [insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/) metode is bygevoeg in die [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) klas. So, kom ons kyk hoe om'n eenvoudige kolom grafiek in die dokument te voeg met behulp van [DocumentBuilder.insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/) metode:

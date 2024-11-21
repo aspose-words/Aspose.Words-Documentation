@@ -7,6 +7,7 @@ description: "Extrahieren Sie bei der Verarbeitung eines Dokuments verschiedene 
 type: docs
 weight: 40
 url: /de/net/rendering-shapes-separately-from-a-document/
+timestamp: 2024-07-10-14-38-57
 ---
 
 Bei der Verarbeitung von Dokumenten besteht eine häufige Aufgabe darin, alle im Dokument gefundenen Bilder zu extrahieren und an einen externen Speicherort zu exportieren. Diese Aufgabe wird mit Aspose.Words API vereinfacht, das bereits über die Funktionalität zum Extrahieren und Speichern von Bilddaten verfügt. Manchmal möchten Sie jedoch möglicherweise auch andere Arten von Grafikinhalten extrahieren, die durch einen anderen Zeichenobjekttyp dargestellt werden, beispielsweise ein Textfeld mit Absätzen, Pfeilformen und einem kleinen Bild. Es gibt keine einfache Möglichkeit, dieses Objekt darzustellen, da es sich um eine Kombination einzelner Inhaltselemente handelt. Es kann auch vorkommen, dass die Inhalte zu einem Objekt gruppiert wurden, das wie ein einzelnes Bild aussieht.

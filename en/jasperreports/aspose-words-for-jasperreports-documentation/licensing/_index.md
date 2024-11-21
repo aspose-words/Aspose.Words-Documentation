@@ -7,6 +7,7 @@ description: "The evaluation and licensed versions of Aspose.Words for JasperRep
 type: docs
 weight: 70
 url: /jasperreports/licensing/
+timestamp: 2024-01-30-16-22-34
 ---
 
 {{% alert color="primary" %}}

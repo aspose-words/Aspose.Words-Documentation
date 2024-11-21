@@ -7,6 +7,7 @@ description: "التعريف بملامح صناديق النصوص ذات ال�
 type: docs
 weight: 250
 url: /ar/java/working-with-linked-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In Aspose.Words, the [TextBox](https://reference.aspose.com/words/java/com.aspose.words/textbox/) ويستخدم الفصل لتحديد كيفية عرض النص في شكل ما. وهي توفر ملكية عامة تُدعى كأبوة لتشكل الأم في صندوق النص للسماح للزبون بإيجاد صلة [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) متصل **TextBox**.

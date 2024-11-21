@@ -7,6 +7,7 @@ description: "Różne sposoby wprowadzania pól do dokumentu za pomocą Java."
 type: docs
 weight: 20
 url: /pl/java/insert-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Istnieje kilka różnych sposobów umieszczania pól w dokumencie:

@@ -8,6 +8,7 @@ description: "Convertaţi fişiere PDF în formate de tip Word, precum DOCX, DOC
 keywords: convert pdf to other formats c#
 weight: 45
 url: /ro/net/convert-pdf-to-other-document-formats/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Aspose.Words poate încărca chiar și un astfel de format complex ca PDF. Aceasta deschide noi oportunități: este posibil să convertești PDF în Word sau alte formate, care îi aduc pe utilizatori departe în rezolvarea multor probleme aplicate.

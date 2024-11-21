@@ -7,6 +7,7 @@ description: "Learn how to update fields in Java. Update fields programmatically
 type: docs
 weight: 30
 url: /java/update-field/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Typically, a field inserted into Microsoft Word already contains an up to date value. For example, if the field is a formula or a page number, it will contain the correct calculated value for the given version of the document. But if you have an application that generates or modifies a document with fields like merging two documents or populating it with data, then ideally all fields must be updated for the document to be useful.

@@ -7,6 +7,7 @@ description: "제어 문자로 작업하는 소개 Aspose.Words 제품정보 Jav
 type: docs
 weight: 400
 url: /ko/java/working-with-control-characters/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word 문서는 특별한 의미를 가진 다양한 문자를 포함할 수 있습니다. 일반적으로 그들은 포맷 목적으로 사용되며 정상적인 모드에서 그려지지 않습니다. Standard toolbar에 위치한 Show/Hide Formatting Marks 버튼을 클릭하면 볼 수 있습니다.

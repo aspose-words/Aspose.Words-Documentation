@@ -1,4 +1,4 @@
-﻿---
+---
 title: Localizar e substituir Em C++
 second_title: Aspose.Words para C++
 articleTitle: Localizar e substituir
@@ -7,6 +7,7 @@ type: docs
 description: "Encontre um padrão de string ou expressão regular em seu documento e substitua-o pelo texto desejado usando C++."
 weight: 100
 url: /pt/cpp/find-and-replace/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Você pode navegar facilmente em seu documento usando um teclado e mouse, mas se tiver muitas páginas para percorrer, levará um bom tempo para encontrar um texto específico em um documento longo. Será mais demorado quando pretender substituir determinados caracteres ou palavras que utilizou no seu documento. A funcionalidade "Localizar e substituir" permite localizar uma sequência de caracteres num documento e substituí-la por outra sequência de caracteres.

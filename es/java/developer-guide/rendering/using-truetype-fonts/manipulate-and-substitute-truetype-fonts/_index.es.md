@@ -7,6 +7,7 @@ description: "Aspose.Words para Java puede incrustar las fuentes TrueType correc
 type: docs
 weight: 10
 url: /es/java/manipulate-and-substitute-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words Requiere Escriba fuentes para una variedad de tareas, incluyendo documentos de renderización a formatos de página fija, por ejemplo, PDF o XPS. Cuando Aspose.Words hace un documento, necesita realizar la incrustación y subconjunción de fuentes TrueType en el documento resultante, que es una práctica normal durante una generación de documentos, incluyendo PDF popular o XPS formatos. Esto asegura que el documento aparezca igual a cualquier espectador. Moreover, the XPS especificación requiere fuentes para estar siempre incrustadas en el documento.

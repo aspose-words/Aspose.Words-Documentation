@@ -1,4 +1,4 @@
-﻿---
+---
 title: فرمت فایل ها و تبدیل ها
 second_title: Aspose.Words برای C++
 articleTitle: چرا تبدیل ویژگی پرچمدار Aspose.Words است ؟
@@ -7,6 +7,7 @@ description: "تبدیل اسناد از هر بار پشتیبانی شده ب�
 type: docs
 weight: 50
 url: /fa/cpp/file-formats-and-conversions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 {{% alert color="primary" %}}

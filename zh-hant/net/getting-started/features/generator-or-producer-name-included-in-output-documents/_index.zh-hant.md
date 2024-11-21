@@ -7,6 +7,7 @@ description: "Aspose.Words for .NET在文檔中加上創建文檔的生成器名
 type: docs
 weight: 60
 url: /zh-hant/net/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 你可以輕易地知道一篇文件是否使用 Aspose.Words為 .NET 建立的。 您也可以在 .NET 中找到特定輸出文件所用的 Aspose.Words 版本號。Aspose.Words 會直接將此資訊寫入生成的檔案中。

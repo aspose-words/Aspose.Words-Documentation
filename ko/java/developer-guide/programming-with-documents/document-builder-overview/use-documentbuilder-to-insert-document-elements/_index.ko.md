@@ -7,6 +7,7 @@ type: docs
 description: "문서 빌더를 사용하여 문서 요소 삽입 Java·"
 weight: 10
 url: /ko/java/use-documentbuilder-to-insert-document-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 더 보기 [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) 문서 수정에 사용됩니다. 이 문서는 설명하고 여러 작업을 수행하는 방법을 설명합니다.

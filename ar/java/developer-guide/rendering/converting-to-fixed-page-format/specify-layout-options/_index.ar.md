@@ -7,6 +7,7 @@ description: "وضع وثائق للنواتج مع مخططات مختلفة، 
 type: docs
 weight: 10
 url: /ar/java/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words يُمكّنُك أَنْ تَخْلقَ وثائقَ النواتجَ مَع مختلف المخططاتِ، إعتماداً على البارامتراتِ المحددة في [LayoutOptions](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/) ممتلكات **Document**. هذه الملكية تشبه بعض Microsoft Word خيارات قائمة الوصلات البينية للمستعملين الموصوفة في هذه المادة.

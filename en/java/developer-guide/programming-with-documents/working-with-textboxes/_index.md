@@ -9,6 +9,7 @@ aliases:
  - /java/working-with-linked-textboxes/
 weight: 250
 url: /java/working-with-linked-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In Aspose.Words, the [TextBox](https://reference.aspose.com/words/java/com.aspose.words/textbox/) class is used to specify how a text is displayed inside a shape. It provides a public property named as Parent to get the parent shape for the text box to allow the customer to find linked [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) from linked **TextBox**.

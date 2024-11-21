@@ -7,6 +7,7 @@ description: "Como manipular cabeçalhos e rodapés usando Java."
 type: docs
 weight: 150
 url: /pt/java/working-with-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words permite que os usuários trabalhem com cabeçalhos e rodapés em um documento. Um cabeçalho é texto que é colocado na parte superior de uma página, e um rodapé é texto na parte inferior de uma página. Normalmente, essas áreas são usadas para inserir informações que devem ser repetidas em todas ou algumas páginas do documento, como números de página, data de criação, informações da empresa e assim por diante.

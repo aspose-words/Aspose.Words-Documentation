@@ -7,6 +7,7 @@ type: docs
 description: "使用此 Aspose.Words 简介了解 Python via .NET 基础知识，开始实现 Aspose.Words 对您的业务的价值。"
 weight: 20
 url: /zh/python-net/getting-started/
+timestamp: 2024-09-25-11-08-55
 ---
 
 本入门介绍了 Aspose.Words 基础知识。对于 Aspose.Words 的新用户来说，这是了解基本要求和功能的最快方法。

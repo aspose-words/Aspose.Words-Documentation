@@ -7,6 +7,7 @@ description: "高度なタイポグラフィー機能 Aspose.Words お問い合�
 type: docs
 weight: 25
 url: /ja/java/enable-opentype-features/
+timestamp: 2024-01-27-14-07-04
 ---
 
 

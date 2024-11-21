@@ -7,6 +7,7 @@ description: "Personalizza le impostazioni dei caratteri utilizzando Python."
 type: docs
 weight: 230
 url: /it/python-net/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un font è un insieme di caratteri con una determinata dimensione, colore e design. Aspose.Words ti consente di lavorare con i caratteri utilizzando il modulo [fonts](https://reference.aspose.com/words/python-net/aspose.words.fonts/) e la classe [Font](https://reference.aspose.com/words/python-net/aspose.words/font/).

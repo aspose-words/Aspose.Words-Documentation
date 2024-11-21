@@ -7,6 +7,7 @@ description: "Elija el mejor estándar PDF para exportar el resultado de su tare
 type: docs
 weight: 27
 url: /es/python-net/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Para algunas tareas, ciertos estándares de PDF se adaptarán mejor o viceversa. En este artículo intentaremos determinar qué estándares de PDF y en qué casos tiene sentido elegir.

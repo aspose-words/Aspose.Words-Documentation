@@ -7,6 +7,7 @@ description: "Enlever les informations inutilisées ou dupliquées pour réduire
 type: docs
 weight: 30
 url: /fr/java/clean-up-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Parfois, vous pouvez avoir besoin de supprimer les informations inutilisées ou dupliquées pour réduire la taille du document de sortie et le temps de traitement.

@@ -7,6 +7,7 @@ description: "עבודה עם טיפוגרפיה אסייתית Java. התאמת
 type: docs
 weight: 240
 url: /he/java/working-with-asian-typography/
+timestamp: 2024-01-27-14-07-04
 ---
 
 טייפוגרפיה אסיה היא קבוצה של אפשרויות לפסקאות טקסט במסמכים שנכתבו בשפות אסיה.

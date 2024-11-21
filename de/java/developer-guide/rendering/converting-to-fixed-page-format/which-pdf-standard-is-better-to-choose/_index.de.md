@@ -7,6 +7,7 @@ description: "Wählen Sie den besten PDF-Standard, um das Ergebnis Ihrer Program
 type: docs
 weight: 27
 url: /de/java/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Für einige Aufgaben werden bestimmte PDF-Standards besser passen oder umgekehrt schlechter. In diesem Artikel werden wir versuchen zu bestimmen, welche PDF-Standards für welche Fälle es sinnvoll ist zu wählen.

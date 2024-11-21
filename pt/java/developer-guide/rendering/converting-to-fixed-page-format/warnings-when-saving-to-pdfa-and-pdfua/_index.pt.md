@@ -7,6 +7,7 @@ description: "PDF/A e PDF/UA impõem requisitos de acessibilidade relacionados c
 type: docs
 weight: 29
 url: /pt/java/warnings-when-saving-to-pdfa-and-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Os formatos PDF/A e PDF/UA impõem uma série de requisitos de acessibilidade relacionados com o conteúdo do documento que não pode ser cumprido durante a conversão automática do Word para PDF. Estes requisitos são descritos no artigo anterior * "Trabalhar com PDF/A ou PDF/UA"*. Agora os avisos são emitidos para alguns desses problemas.

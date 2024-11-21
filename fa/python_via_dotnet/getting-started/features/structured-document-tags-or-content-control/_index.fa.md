@@ -7,6 +7,7 @@ description: "با استفاده از تگ های سند ساختاریافته
 type: docs
 weight: 50
 url: /fa/python-net/structured-document-tags-or-content-control/
+timestamp: 2024-01-31-14-23-37
 ---
 
 

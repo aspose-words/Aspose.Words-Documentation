@@ -1,4 +1,4 @@
-﻿---
+---
 title: Round Points
 second_title: Aspose.Words for Reporting Services
 articleTitle: Round Points
@@ -7,6 +7,7 @@ description: "Round Points setting of the Aspose.Words for Reporting Services."
 type: docs
 weight: 130
 url: /reportingservices/round-points/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Sometimes output document may contain report elements (especially text boxes inside tables) that are not aligned slightly. In such cases you may use **RoundPoints** setting which allow to round the position coordinates of all elements to some nearest value which is identified by this setting.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在C++中使用文本文档
 second_title: Aspose.Words对于C++
 articleTitle: 使用文本文档
@@ -7,6 +7,7 @@ description: "高级TXT文档处理，列表，BiDi，页眉/页脚，使用C++�
 type: docs
 weight: 430
 url: /zh/cpp/working-with-text-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 在本文中，我们将了解哪些选项可用于通过Aspose.Words处理文本文档。 请注意，这不是可用选项的完整列表，而只是使用其中一些选项的示例。

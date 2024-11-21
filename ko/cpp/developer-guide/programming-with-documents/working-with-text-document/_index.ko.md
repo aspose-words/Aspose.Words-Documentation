@@ -1,4 +1,4 @@
-﻿---
+---
 title: 텍스트 문서 작업 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 텍스트 문서 작업
@@ -7,6 +7,7 @@ description: "고급 TXT 문서 처리,목록, BiDi,머리글/바닥 글,사용 
 type: docs
 weight: 430
 url: /ko/cpp/working-with-text-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 이 기사에서는 다음을 통해 텍스트 문서 작업에 어떤 옵션이 유용 할 수 있는지 배웁니다 Aspose.Words. 이것은 사용 가능한 옵션의 전체 목록이 아니라 그 중 일부와 함께 작업하는 예일뿐입니다.

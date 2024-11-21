@@ -1,4 +1,4 @@
-﻿---
+---
 title: Làm việc với ChartSeries trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Làm việc với ChartSeries
@@ -7,6 +7,7 @@ description: "Điều chỉnh chuỗi biểu đồ bằng C++."
 type: docs
 weight: 40
 url: /vi/cpp/working-with-chartseries/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words cho phép người dùng làm việc với ChartSeriesCollection theo một số cách.

@@ -7,6 +7,7 @@ type: docs
 description: "将文档转换为图像格式(JPG,PNG等). 创建文档预览或创建文档扫描以使用 Java。 。 。 。"
 weight: 35
 url: /zh/java/convert-a-document-to-an-image/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有时它需要用DOCX或PDF等其它格式的文档来获取一个图像. 例如,您需要在您的网站或应用程序中添加任何文档页面的预览,或者创建文档的"扫描"以发送发票. 这是您可能需要转换任意一个文档的时候 。 [支持的负载格式](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) 在任何图像中 [支持的保存格式](https://reference.aspose.com/words/java/com.aspose.words/saveformat/)。 。 。 。

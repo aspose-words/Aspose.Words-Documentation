@@ -7,6 +7,7 @@ description: "Verknüpfen Sie Tabellen in C#. So führen Sie zwei Tabellen zu ei
 type: docs
 weight: 90
 url: /de/net/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Eine im Aspose.Words Document Object Model dargestellte Tabelle besteht aus unabhängigen Zeilen und Zellen, sodass Tabellen leicht verknüpft werden können.

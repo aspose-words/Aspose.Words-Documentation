@@ -7,6 +7,7 @@ description: "Criptografar um documento, restringir a edição, usar assinaturas
 type: docs
 weight: 50
 url: /pt/java/protect-or-encrypt-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A principal razão para proteger ou criptografar um documento é aplicar mais controle sobre quem pode acessar o documento ou quem pode editá-lo. Aplicando proteção aos seus documentos, você evita riscos comuns, como copiar ou modificar documentos sem permissão, bem como vazamento de dados.

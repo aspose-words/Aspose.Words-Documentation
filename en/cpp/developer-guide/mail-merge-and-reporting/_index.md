@@ -8,6 +8,7 @@ description: "Mail Merge is a popular feature for quickly creating documents usi
 keywords: "how to use mail merge c++"
 weight: 30
 url: /cpp/mail-merge-and-reporting/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Mail Merge is a popular feature for quickly and easily creating documents such as letters, labels, and envelopes. Aspose.Words enables you to generate documents from templates with mail merge fields.

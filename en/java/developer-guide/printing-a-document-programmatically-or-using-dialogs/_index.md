@@ -7,6 +7,7 @@ description: "Print a document using Java through Settings, Print Preview, and P
 type: docs
 weight: 55
 url: /java/print-a-document-programmatically-or-using-dialogs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 This article describes how to print a word processing document using Aspose.Words API. It also demonstrates the methods of printing a document with Settings, Print Preview, and Print progress dialogs.

@@ -7,6 +7,7 @@ description: "Nastavit pokročilé vlastnosti při načtení dokumentu pomocí J
 type: docs
 weight: 10
 url: /cs/java/specify-load-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Při načítání dokumentu můžete nastavit některé pokročilé vlastnosti. Aspose.Words poskytuje vám [LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/) třída, která umožňuje přesnější řízení procesu zatížení. Některé formáty zatížení mají odpovídající třídu, která drží možnosti zatížení pro tento formát zatížení, například, tam je [PdfLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/) pro načtení do formátu PDF nebo [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) pro načtení do TXT. Tento článek uvádí příklady práce s možnostmi **LoadOptions** třída.

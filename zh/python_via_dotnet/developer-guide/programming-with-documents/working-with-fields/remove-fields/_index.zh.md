@@ -7,6 +7,7 @@ description: "了解如何删除 Python 中的字段。使用 Python via .NET AP
 type: docs
 weight: 35
 url: /zh/python-net/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有时需要从文档中删除某个字段。当要替换为不同的字段类型或文档中不再需要该字段时，可能会发生这种情况。例如保存为 HTML 时的 `TOC` 字段。

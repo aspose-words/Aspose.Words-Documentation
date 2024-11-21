@@ -7,6 +7,7 @@ description: "Chuyển đổi PDF sang Excel, XML sang Excel, DOCX sang Excel Ja
 type: docs
 weight: 15
 url: /vi/java/convert-a-document-to-excel/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Chuyển đổi tài liệu từ một định dạng sang định dạng khác là tính năng cơ bản của Aspose.Words. Bạn có thể chuyển đổi các tài liệu trong bất kỳ [load format](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) nào cũng sang định dạng XLSX.

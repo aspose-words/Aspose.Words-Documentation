@@ -7,6 +7,7 @@ description: "문서에 필드를 삽입하는 다른 방법 Java·"
 type: docs
 weight: 20
 url: /ko/java/insert-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 문서에 필드를 삽입하는 여러 가지 방법이 있습니다

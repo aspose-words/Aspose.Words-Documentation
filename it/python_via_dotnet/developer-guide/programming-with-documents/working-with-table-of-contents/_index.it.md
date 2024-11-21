@@ -7,6 +7,7 @@ description: "Inserisci e gestisci il `Sommario` in un documento utilizzando Pyt
 type: docs
 weight: 170
 url: /it/python-net/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Spesso lavorerai con documenti contenenti un sommario (TOC). Utilizzando Aspose.Words puoi inserire il tuo sommario o ricostruire completamente il sommario esistente nel documento utilizzando solo poche righe di codice. Questo articolo descrive come utilizzare il campo del sommario e dimostra:

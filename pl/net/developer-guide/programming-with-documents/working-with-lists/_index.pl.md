@@ -7,6 +7,7 @@ description: "Wprowadzenie do funkcji formatowania numeracji w Aspose.Words dla 
 type: docs
 weight: 200
 url: /pl/net/working-with-lists/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Lista w dokumencie Microsoft Word to zestaw właściwości formatowania akapitu. List można używać w dokumentach do strukturyzowania, porządkowania i wyróżniania tekstu. Listy to świetny sposób organizowania danych w dokumentach w sposób ułatwiający czytelnikom przyswojenie i zrozumienie kluczowych punktów.

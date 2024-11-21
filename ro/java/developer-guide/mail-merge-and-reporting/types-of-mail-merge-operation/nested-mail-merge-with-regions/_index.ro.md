@@ -1,4 +1,4 @@
-﻿---
+---
 title: Imbricate Mail Merge cu regiuni în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Imbricate Mail Merge cu regiuni
@@ -8,6 +8,7 @@ description: "Efectuați o operație mail merge cu regiuni imbricate. Îmbinarea
 keywords: "mail merge with nested regions Java, Nested Mail Merge Regions"
 weight: 10
 url: /ro/java/nested-mail-merge-with-regions/
+timestamp: 2024-01-27-14-07-04
 ---
 
 În unele scenarii, poate fi necesar să utilizați imbricate mail merge cu regiuni. Îmbinarea imbricată este o caracteristică care vă permite să îmbinați datele ierarhice din sursa de date în șablonul de îmbinare pentru a popula cu ușurință documentul. Practic, datele ierarhice sunt reprezentate ca un set de elemente de date, iar relațiile ierarhice descriu modul în care elementele de date sunt legate între ele (un element de date este părintele altuia).

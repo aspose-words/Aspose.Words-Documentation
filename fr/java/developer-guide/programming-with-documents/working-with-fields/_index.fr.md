@@ -7,6 +7,7 @@ description: "Introduction à la fonctionnalité de terrain dans Aspose.Words po
 type: docs
 weight: 370
 url: /fr/java/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 **Fields** dans un document sont comme des détenteurs de place où des données utiles peuvent être insérées. Par exemple, un champ peut être une référence de page, une formule, ou un mail merge sur le terrain.

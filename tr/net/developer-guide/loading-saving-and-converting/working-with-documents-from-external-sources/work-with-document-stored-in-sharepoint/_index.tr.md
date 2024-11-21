@@ -7,6 +7,7 @@ description: "SharePoint'te paylaşılan Word'ü C# kullanarak PDF'ye dönüşt�
 type: docs
 weight: 20
 url: /tr/net/work-with-document-stored-in-sharepoint/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Microsoft SharePoint Online, kuruluşların dijital bilgileri saklamasını, paylaşmasını ve yönetmesini kolaylaştıran web tabanlı teknolojilerden oluşan bir koleksiyondur. .NET için güçlü Aspose.Words'imizi kullanarak SharePoint'deki "Paylaşılan Belgeler" klasöründe saklanan belgelerle çalışabilirsiniz.

@@ -1,10 +1,11 @@
-﻿---
+---
 title: Getting Started 
 description: "Features, installation, licensing and limitations of the Aspose.Words for Reporting Services."
 type: docs
 weight: 10
 url: /reportingservices/getting-started/
 aliases: [/reportingservices/aspose-words-for-reporting-services-documentation/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 This section includes the following topics:

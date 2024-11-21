@@ -7,6 +7,7 @@ description: "שולחן מפוצל Python. כיצד לחלק שולחן אחד 
 type: docs
 weight: 100
 url: /he/python-net/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 שולחן, מיוצג ב Aspose.Words Document Object Model, מורכב שורות ותאים עצמאיים, מה שהופך את זה קל לפצל שולחן.

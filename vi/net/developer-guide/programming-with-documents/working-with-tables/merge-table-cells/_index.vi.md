@@ -7,6 +7,7 @@ description: "Cách hợp nhất các ô trong bảng trong C#. Kiểm tra xem c
 type: docs
 weight: 40
 url: /vi/net/working-with-merged-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Đôi khi một số hàng nhất định trong bảng yêu cầu tiêu đề hoặc khối văn bản lớn chiếm toàn bộ chiều rộng của bảng. Để thiết kế bảng phù hợp, người dùng có thể hợp nhất nhiều ô trong bảng thành một. Aspose.Words hỗ trợ các ô đã hợp nhất khi làm việc với tất cả các định dạng đầu vào, bao gồm cả việc nhập nội dung HTML.

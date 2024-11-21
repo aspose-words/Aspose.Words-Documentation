@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cum să utilizați exemplele
 second_title: Aspose.Words pentru Java
 articleTitle: Cum să utilizați exemplele
@@ -7,6 +7,7 @@ description: "Cum se execută Aspose.Words pentru Android prin Java Exemple."
 type: docs
 weight: 70
 url: /ro/java/how-to-use-the-examples/
+timestamp: 2024-01-27-14-07-04
 ---
 
 În primul rând, asigurați-vă că aveți pachetul ADT instalat și că ați descărcat și extras cea mai recentă versiune a [Aspose.Words pentru Android prin Java](https://releases.aspose.com/words/androidjava/).

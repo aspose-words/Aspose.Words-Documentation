@@ -7,6 +7,7 @@ description: "Tabela podzielona Java. Jak podzielić jedną tabelę na dwie oddz
 type: docs
 weight: 100
 url: /pl/java/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Tabela, reprezentowana w Aspose.Words Document Object Model, składa się z niezależnych wierszy i komórek, co ułatwia podział tabeli.

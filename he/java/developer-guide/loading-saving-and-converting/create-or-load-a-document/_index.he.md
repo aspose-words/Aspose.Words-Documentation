@@ -7,6 +7,7 @@ type: docs
 weight: 10
 url: /he/java/create-or-load-a-document/
 description: "Aspose.Words מאפשר לך ליצור מסמך ריק או לטעון אותו מקובץ או זרם באמצעות שימוש Java."
+timestamp: 2024-01-27-14-07-04
 ---
 
 כמעט כל משימה שאתה רוצה לעשות עם Aspose.Words כולל טעינה של מסמך. The The The `Document` הכיתה מייצגת מסמך טעון בזיכרון. המסמך יש כמה מבני בנייה מוגזמים המאפשרים לך ליצור מסמך ריק או לטעון אותו מקובץ או זרם. ניתן לטעון את המסמך בכל פורמט עומס נתמך על ידי Aspose.Words. לרשימה של כל פורמטי העומס הנתמכים, ראה את [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) אזהרה.

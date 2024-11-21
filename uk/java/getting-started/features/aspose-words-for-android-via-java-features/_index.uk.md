@@ -7,6 +7,7 @@ description: "Цей розділ забезпечує порівняння до
 type: docs
 weight: 90
 url: /uk/java/aspose-words-for-android-via-java-features/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Aspose.Words для Android Зареєструватися Java Огляд функцій

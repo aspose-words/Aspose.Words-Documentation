@@ -7,6 +7,7 @@ description: "Kombinovat dokumenty do jednoho: vložit nebo připojit dokument d
 type: docs
 weight: 80
 url: /cs/net/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Někdy je třeba kombinovat několik dokumentů do jednoho. Můžete to udělat ručně nebo můžete použít Aspose.Words vložit nebo přidat funkci.

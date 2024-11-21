@@ -7,6 +7,7 @@ description: "Dołącz do tabel Java. Zaawansowane manipulacje tabeli, połączy
 type: docs
 weight: 90
 url: /pl/java/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Tabela, reprezentowana w Aspose.Words Document Object Model, składa się z niezależnych wierszy i komórek, co ułatwia łączenie tabel.

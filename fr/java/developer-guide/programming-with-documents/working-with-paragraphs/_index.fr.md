@@ -7,6 +7,7 @@ description: "Pratiques de manipulation des nœuds Java."
 type: docs
 weight: 210
 url: /fr/java/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un paragraphe est un ensemble de caractères combinés dans un bloc logique et se terminant par un caractère spécial – une pause *paragraphe*. En Aspose.Words, un paragraphe est représenté par [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) En cours.

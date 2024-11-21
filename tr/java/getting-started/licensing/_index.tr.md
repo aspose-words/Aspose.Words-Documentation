@@ -7,6 +7,7 @@ description: "Aspose.Words for Java farklı satın alma planları sunar veya bir
 type: docs
 weight: 60
 url: /tr/java/licensing/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Bazen sistemin daha iyi çalışmasını sağlamak için kodun içine dalmak istersiniz ve bunu mümkün olduğunca çabuk yapmak istersiniz. Bunu kolaylaştırmak için, Aspose.Words farklı satın alma planları sunar veya bir Deneme Sürümü ve değerlendirme için 30 günlük Geçici Lisans sunar.

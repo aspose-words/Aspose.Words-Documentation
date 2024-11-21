@@ -7,6 +7,7 @@ description: "Aspose.Words für Java implementiert eine eigene Seitenlayout-Engi
 type: docs
 weight: 10
 url: /de/java/converting-to-fixed-page-format/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words implementiert seine eigene Seite Layout-Engine. Bevor es in seine Spezifikationen geht, lohnt es sich, das Dokument auf hohem Niveau zu diskutieren. Wenn Sie über ein Dokument nachdenken, stellen sich Benutzer in der Regel eine Reihe von Papierblättern mit Wörtern, Bildern, Tabellen und Diagrammen vor. Dokumente können von verschiedenen Arten sein, wie Text, Tabellenblätter, Dias, CAD-Zeichnungen, Flussdiagramme und können daher im Wesentlichen verschiedene Layouts aufweisen. Die meisten Anwendungen erlauben das Senden von Dokumenten an einen Drucker; dies ist, wenn ein Benutzer tatsächlich das endgültige beabsichtigte Aussehen des Dokuments anzeigen kann.

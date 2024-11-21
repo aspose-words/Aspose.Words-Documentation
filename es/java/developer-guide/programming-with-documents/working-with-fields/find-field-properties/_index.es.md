@@ -7,6 +7,7 @@ description: "Cómo encontrar algunas propiedades de campo como código de campo
 type: docs
 weight: 25
 url: /es/java/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un campo que se inserta utilizando [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean) devuelve a [Field](https://reference.aspose.com/words/java/com.aspose.words/field/) objeto. Esta es una clase de fachada que proporciona métodos útiles para encontrar rápidamente tales propiedades de un campo.

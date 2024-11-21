@@ -7,6 +7,7 @@ description: "Aspose.Words Sitemap Java menerapkan sendiri Windows Metafile pema
 type: docs
 weight: 30
 url: /id/java/handling-windows-metafiles/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Windows Format Metafile adalah format file gambar yang dapat berisi grafik vektor dan raster. Format ini digunakan untuk menyimpan data grafis dalam file memori atau on-disk. Metafile menyimpan daftar panggilan fungsi di Windows Antarmuka Perangkat Grafik (GDI) yang harus dieksekusi untuk menampilkan gambar di layar. Sistem menafsirkan dan mengeksekusi perintah ini dalam konteks tampilan.

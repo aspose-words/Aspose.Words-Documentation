@@ -7,6 +7,7 @@ type: docs
 description: "Kaynak belgeleri birçok popüler formatta düzenleyin ve C#'i kullanarak dosyaları bir formattan diğerine özgürce dönüştürün."
 weight: 20
 url: /tr/net/supported-document-formats/
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

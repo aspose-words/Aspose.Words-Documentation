@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ 'da Grafik Ekseni Özellikleri Nasıl Ayarlanır
 second_title: Aspose.Words için C++
 articleTitle: Grafik Ekseni Özellikleri Nasıl Ayarlanır
@@ -7,6 +7,7 @@ description: "C++ kullanarak grafik ekseni ayarı."
 type: docs
 weight: 20
 url: /tr/cpp/how-to-set-chart-axis-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Değer ekseni için grafik ekseni, ölçekleme ve görüntüleme birimleriyle çalışmak istiyorsanız, lütfen [ChartAxis](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.chart_axis), [AxisDisplayUnit](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.axis_display_unit) ve [AxisScaling](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.axis_scaling) sınıflarını kullanın.

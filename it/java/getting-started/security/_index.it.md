@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words per Java riconosce e aderisce a standard di sicurezza comuni per garantire un alto livello di sicurezza dei dati. Guarda i possibili problemi di sicurezza e raccomandazioni su come evitarli."
 weight: 120
 url: /it/java/security/
+timestamp: 2024-01-27-14-07-04
 ---
 
 La sicurezza aiuta a proteggere i dati da accessi non autorizzati, così come cambiamenti dannosi o accidentali. Aspose.Words è estremamente attento alla sicurezza dei dati dei clienti, quindi, riconosce e aderisce agli standard di sicurezza comuni.

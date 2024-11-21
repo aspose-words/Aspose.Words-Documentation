@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hoe Om Grafiek As Eienskappe In C++Te Stel
 second_title: Aspose.Words vir C++
 articleTitle: Hoe Om Grafiek As Eienskappe Te Stel
@@ -7,6 +7,7 @@ description: "Grafiek as tuning met behulp van C++."
 type: docs
 weight: 20
 url: /af/cpp/how-to-set-chart-axis-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 As jy wil werk met grafiek as, skaal, en vertoon eenhede vir die waarde as, gebruik asseblief [ChartAxis](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.chart_axis), [AxisDisplayUnit](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.axis_display_unit), en [AxisScaling](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.axis_scaling) klasse.

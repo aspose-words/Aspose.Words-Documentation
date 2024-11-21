@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tentukan Opsi Tata Letak di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Tentukan Opsi Tata Letak
@@ -7,6 +7,7 @@ description: "Tentukan Opsi Tata Letak untuk berbagai tata letak dokumen."
 type: docs
 weight: 20
 url: /id/cpp/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words memungkinkan Anda membuat dokumen keluaran dengan berbagai tata letak, bergantung pada parameter yang ditentukan dalam properti [LayoutOptions](https://reference.aspose.com/words/cpp/class/aspose.words.layout.layout_options) dari **Document**. Properti ini menyerupai beberapa opsi menu antarmuka pengguna Microsoft Word yang dijelaskan dalam artikel ini.

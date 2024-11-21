@@ -7,6 +7,7 @@ description: "การ ทํา งาน ร่วม กับ ส่วน 
 type: docs
 weight: 30
 url: /th/java/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 เพื่อควบคุมวิธีการทํางานของตารางมากขึ้น จงเรียนรู้วิธีการจัดการคอลัมน์และแถว

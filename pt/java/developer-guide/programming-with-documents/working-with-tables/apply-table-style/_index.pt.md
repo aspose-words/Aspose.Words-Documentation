@@ -7,6 +7,7 @@ description: "Formatação de tabela avançada Java. Criar um estilo de mesa usa
 type: docs
 weight: 80
 url: /pt/java/working-with-tablestyle/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Um estilo de tabela define um conjunto de formatação que pode ser facilmente aplicado a uma tabela. Formatação como fronteiras, sombreamento, alinhamento e fonte pode ser definida em um estilo de tabela e aplicada a muitas tabelas para uma aparência consistente.

@@ -7,6 +7,7 @@ description: "了解理解表單欄位功能，使用C#與表單欄位一起工�
 type: docs
 weight: 380
 url: /zh-hant/net/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 包含空白欄位（欄位）的文件稱為表單。 例如，您可以在 Microsoft Word 中建立一個登錄表單，使用從中使用者可以選擇項目的下拉清單。 `Form`欄位是儲存特定類型資料的欄位，例如姓名或地址。 Microsoft Word 中的欄位包括文字輸入、組合框和核選方塊。

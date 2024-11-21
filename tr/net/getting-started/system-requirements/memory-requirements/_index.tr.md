@@ -7,6 +7,7 @@ description: ".NET için Aspose.Words'in belgelerle çalışması için ne kadar
 type: docs
 weight: 10
 url: /tr/net/memory-requirements/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words, çeşitli formatlardaki belgelerle çalışmak için geniş bir özellik yelpazesi sunar. Aspose.Words'in işleyebileceği veya oluşturabileceği belge dosyasının maksimum boyutunda herhangi bir sınırlama olmadığını unutmamak önemlidir. Tek sınırlama, yanınızda bulunan RAM (bellek) miktarıdır.

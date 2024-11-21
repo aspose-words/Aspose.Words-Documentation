@@ -1,4 +1,4 @@
-﻿---
+---
 title: Relations Element
 second_title: Aspose.Words for SharePoint
 articleTitle: Relations Element
@@ -7,6 +7,7 @@ description: "Relations element meaning and structure which may be used while co
 type: docs
 weight: 160
 url: /sharepoint/relations-element/
+timestamp: 2024-10-21-11-17-44
 ---
 
 The Relations element contains information about table relations in the report data. Each query returns on or more data tables in a data set. This data set is merged with data sets returned by the other queries. In order to make the nested regions in the report template to work, you have to specify the relations between tables inside the report data set.

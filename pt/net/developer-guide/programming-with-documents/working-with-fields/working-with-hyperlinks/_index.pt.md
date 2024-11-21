@@ -7,6 +7,7 @@ description: "Como adicionar um hiperlink ao seu documento em C# usando Aspose.W
 type: docs
 weight: 50
 url: /pt/net/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Um hiperlink em documentos Microsoft Word é o campo `HYPERLINK`. Em Aspose.Words, os hiperlinks são implementados por meio da classe [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/).

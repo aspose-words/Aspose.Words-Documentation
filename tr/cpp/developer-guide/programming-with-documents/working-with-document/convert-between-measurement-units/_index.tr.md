@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ cinsinden Ölçü Birimleri Arasında Dönüştürme
 second_title: Aspose.Words için C++
 articleTitle: Ölçü Birimleri Arasında Dönüştürme
@@ -7,6 +7,7 @@ description: "Aspose.Words için C++ ölçü birimleri arasında dönüştürme 
 type: docs
 weight: 20
 url: /tr/cpp/convert-between-measurement-units/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Genişlik veya yükseklik, kenar boşlukları ve çeşitli mesafeler gibi bazı ölçümleri temsil eden Aspose.Words API'te sağlanan nesne özelliklerinin çoğu, 1 inç'in 72 noktaya eşit olduğu noktalardaki değerleri kabul eder. Bazen bu uygun değildir ve noktaların başka birimlere dönüştürülmesi gerekir.

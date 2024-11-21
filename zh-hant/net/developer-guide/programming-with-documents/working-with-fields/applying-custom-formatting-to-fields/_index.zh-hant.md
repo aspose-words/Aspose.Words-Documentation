@@ -7,6 +7,7 @@ description: "透過 C# 格式化和評估字段結果。"
 type: docs
 weight: 40
 url: /zh-hant/net/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有時使用者必須對欄位套用自訂格式。 在這個文章中，我們將會看一些例子來了解這如何可以完成。

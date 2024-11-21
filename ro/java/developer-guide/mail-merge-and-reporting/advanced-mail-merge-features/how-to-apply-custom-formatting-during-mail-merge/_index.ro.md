@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cum se aplică formatarea personalizată în timpul Mail Merge
 second_title: Aspose.Words pentru Java
 articleTitle: Cum se aplică formatarea personalizată în timpul Mail Merge
@@ -7,6 +7,7 @@ type: docs
 description: "Aplicați formatarea personalizată în timpul unei operații mail merge folosind Java."
 weight: 60
 url: /ro/java/how-to-apply-custom-formatting-during-mail-merge/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Clasa [MailMerge](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/) oferă două evenimente care ar putea fi foarte utile în extinderea capacităților mail merge. Proprietatea [setFieldMergingCallback(IFieldMergingCallback)](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#FieldMergingCallback) acceptă o clasă care implementează metodele [fieldMerging(FieldMergingArgs)](https://reference.aspose.com/words/java/com.aspose.words/ifieldmergingcallback/#fieldMerging-com.aspose.words.FieldMergingArgs) și [imageFieldMerging(ImageFieldMergingArgs)](https://reference.aspose.com/words/java/com.aspose.words/ifieldmergingcallback/#imageFieldMerging-com.aspose.words.ImageFieldMergingArgs). Acestea pot fi utilizate pentru a implementa controlul personalizat asupra procesului mail merge.

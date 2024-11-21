@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk met Markdown Funksies in Java
 second_title: Aspose.Words vir Java
 articleTitle: Werk met Markdown Funksies
@@ -7,6 +7,7 @@ description: "Hoe om Markdown funksies te implementeer met behulp van Java. Al d
 type: docs
 weight: 420
 url: /af/java/working-with-markdown-features/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Hierdie onderwerp bespreek hoe om Markdown funksies te implementeer met behulp van Aspose.Words. Markdown is'n eenvoudige manier om gewone teks te formateer wat maklik omgeskakel kan word na HTML. Aspose.Words ondersteun die volgende Markdown kenmerke:

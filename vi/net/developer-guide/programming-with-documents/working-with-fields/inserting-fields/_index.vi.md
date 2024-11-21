@@ -7,6 +7,7 @@ description: "Cách chèn trường vào tài liệu bằng C# – tìm hiểu c
 type: docs
 weight: 20
 url: /vi/net/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Có một số cách khác nhau để chèn các trường vào tài liệu:

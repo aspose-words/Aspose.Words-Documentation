@@ -1,4 +1,4 @@
-﻿---
+---
 title: 차트 데이터 레이블 작업 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 차트 데이터 레이블 작업
@@ -7,6 +7,7 @@ description: "차트 데이터 레이블 튜닝을 사용하여 C++."
 type: docs
 weight: 30
 url: /ko/cpp/working-with-chart-data-label/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words 사용자가 작업 할 수 있습니다 ChartDataLabel 다양한 방법.

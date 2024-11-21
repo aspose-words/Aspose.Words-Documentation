@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words Document Object Model クラスを使用して、C# を使用した .NET ドキュメントをプログラムで作成、変更、管理します。ドキュメントのプロパティ、設定、コンテンツを操作するだけでなく、色、形状、フォント、その他のグラフィックの管理を通じてドキュメントの外観を操作します。"
 weight: 60
 url: /ja/net/programming-with-documents/
+timestamp: 2024-09-25-11-08-55
 ---
 
 このセクションでは、Aspose.Words Document Object Model クラスを使用してプログラムでドキュメントを作成、変更、管理する方法について説明します。このセクションの記事では、ドキュメントのプロパティ、設定、コンテンツ、およびその要素を操作できるようにする幅広いドキュメント操作タスクについて説明します。

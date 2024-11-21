@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge Sjabloon in C++
 second_title: Aspose.Words vir C++
 articleTitle: Mail Merge Sjabloon
@@ -8,6 +8,7 @@ description: "Skep'n mail merge sjabloon om vaste inhoud in uitsetdokumente te d
 keywords: "create mail merge template с++"
 weight: 10
 url: /af/cpp/mail-merge-template/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Dit is algemeen om'n samesmelting sjabloon as die basis dokument vir'n mail merge operasie te gebruik as dit'n eenvoudige mail merge of mail merge met streke is. Mail merge met streke is kragtiger en gewilder as die eenvoudige mail merge. Simple mail merge word beskou as'n spesifieke geval van mail merge met streke waar die streek die hele dokument is. Alles word in die volgende artikel "Types of Mail Merge Operation" in meer besonderhede verduidelik.

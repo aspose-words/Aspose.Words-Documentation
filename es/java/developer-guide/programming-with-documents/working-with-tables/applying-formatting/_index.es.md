@@ -7,6 +7,7 @@ description: "Tabla formateo en detalles. Uso Java para formatear cada parte de 
 type: docs
 weight: 70
 url: /es/java/applying-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Cada elemento de una tabla se puede aplicar con formato diferente. Por ejemplo, el formato de tabla se aplicará a toda la tabla, el formato de filas sólo a filas particulares, el formato celular a sólo ciertas células.

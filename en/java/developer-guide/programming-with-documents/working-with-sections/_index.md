@@ -8,6 +8,7 @@ type: docs
 weight: 120
 url: /java/working-with-sections/
 aliases: [/java/how-to-remove-page-and-section-breaks/]
+timestamp: 2024-01-31-14-23-37
 ---
 
 Sometimes you want a document that does not have the same formatting across all pages. For example, you may need to modify page number formats, have different page size and orientation, or have the first document page as a cover page without any numbering. You can achieve that with sections.

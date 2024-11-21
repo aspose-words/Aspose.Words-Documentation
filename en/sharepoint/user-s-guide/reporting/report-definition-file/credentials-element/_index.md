@@ -1,4 +1,4 @@
-﻿---
+---
 title: Credentials Element
 second_title: Aspose.Words for SharePoint
 articleTitle: Credentials Element
@@ -7,6 +7,7 @@ description: "Credentials element meaning and structure which may be used while 
 type: docs
 weight: 90
 url: /sharepoint/credentials-element/
+timestamp: 2024-10-21-11-17-44
 ---
 
 The Credentials element contains information about user name and password to use to connect to a SharePoint site. You can omit it to use the current user credentials. Please note that storing user name and password in a report definition file may be insecure.

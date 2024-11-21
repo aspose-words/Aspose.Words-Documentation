@@ -1,4 +1,4 @@
-﻿---
+---
 title: Introduceți câmpuri în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Introduceți Câmpuri
@@ -7,6 +7,7 @@ description: "Diferite moduri de a insera câmpuri în documentul dvs. folosind 
 type: docs
 weight: 20
 url: /ro/java/insert-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Există mai multe moduri diferite de a insera câmpuri într-un document:

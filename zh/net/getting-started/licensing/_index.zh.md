@@ -7,6 +7,7 @@ description: "Aspose.Words for .NET 提供不同的购买计划，或提供免�
 type: docs
 weight: 55
 url: /zh/net/licensing/
+timestamp: 2024-10-24-11-44-28
 ---
 
 有时，为了更好地研究系统，您希望尽快深入代码。为了使这一过程变得更容易，Aspose.Words 提供了不同的购买计划或提供免费试用版和 30 天临时评估许可证。

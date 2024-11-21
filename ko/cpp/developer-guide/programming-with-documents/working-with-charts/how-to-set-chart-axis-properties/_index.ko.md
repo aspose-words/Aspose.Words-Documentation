@@ -1,4 +1,4 @@
-﻿---
+---
 title: 차트 축 속성을 설정하는 방법 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 차트 축 속성을 설정하는 방법
@@ -7,6 +7,7 @@ description: "차트 축 튜닝을 사용하여 C++."
 type: docs
 weight: 20
 url: /ko/cpp/how-to-set-chart-axis-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 값 축에 대한 차트 축,크기 조정 및 표시 단위로 작업하려면 다음을 사용하십시오 [ChartAxis](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.chart_axis), [AxisDisplayUnit](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.axis_display_unit),그리고 [AxisScaling](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.axis_scaling) 수업

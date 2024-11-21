@@ -7,6 +7,7 @@ description: "Output a sequence of elements with the same type when building a r
 type: docs
 weight: 30
 url: /java/outputting-sequential-data/
+timestamp: 2024-10-21-11-17-44
 ---
 
 You can output a sequence of elements of the same type to your report using a *data band*. A data band has a body that represents a template for a single element of such a sequence. While building a report, sequence elements are enumerated, and the following procedure takes place for each of the elements:

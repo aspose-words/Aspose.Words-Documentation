@@ -1,4 +1,4 @@
-﻿---
+---
 title: Spécifiez l'emplacement des polices TrueType en C++
 second_title: Aspose.Words pour C++
 articleTitle: Spécifiez TrueType Emplacement des polices
@@ -7,6 +7,7 @@ description: "Spécifiez diverses sources de polices TrueType: dossier système,
 type: docs
 weight: 30
 url: /fr/cpp/specify-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Cette rubrique décrit le comportement par défaut de Aspose.Words lorsqu'il recherche des polices TrueType, y compris les différences spécifiques au système d'exploitation, et montre comment spécifier les sources de polices utilisateur.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words pentru Android prin Java Caracteristici
 second_title: Aspose.Words pentru Java
 articleTitle: Aspose.Words pentru Android prin Java Caracteristici
@@ -7,6 +7,7 @@ description: "Această secțiune oferă o comparație a disponibilității carac
 type: docs
 weight: 90
 url: /ro/java/aspose-words-for-android-via-java-features/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Aspose.Words pentru Android prin Java Prezentare generală a caracteristicilor

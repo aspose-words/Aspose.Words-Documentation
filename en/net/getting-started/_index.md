@@ -7,6 +7,7 @@ type: docs
 description: "Use this introduction to Aspose.Words for .NET fundamentals to start realizing the value of Aspose.Words for your business."
 weight: 20
 url: /net/getting-started/
+timestamp: 2024-09-25-11-08-55
 ---
 
 This Getting Started provides an introduction to Aspose.Words fundamentals. For users new to Aspose.Words, this is the fastest way to learn the basic requirements and capabilities.

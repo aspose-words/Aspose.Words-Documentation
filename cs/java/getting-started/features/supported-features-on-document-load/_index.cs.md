@@ -7,6 +7,7 @@ description: "Načíst a převést dokument ve většině populárních formát�
 type: docs
 weight: 20
 url: /cs/java/supported-features-on-document-load/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words umožňuje uživatelům pracovat s dokumenty v různých formátech a poskytuje pro to širokou škálu možností. Například uživatelé mohou vytvořit dokument od nuly nebo načíst existující soubor v libovolném [Podporované formuláře dokumentů](/words/cs/java/supported-document-formats/), provést některé změny v tomto dokumentu a pak uložit výsledek. Při importu dokumentu ve zvoleném formátu může uživatel použít různé možnosti zatížení.

@@ -7,6 +7,7 @@ description: "Określić różne Prawda. Źródła czcionek typu: folder systemo
 type: docs
 weight: 30
 url: /pl/java/specify-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Ten temat opisuje domyślne zachowanie Aspose.Words gdy szuka czcionek TrueType, w tym różnic specyficznych dla systemu operacyjnego, i pokazuje, jak określić źródła czcionki użytkownika.

@@ -7,6 +7,7 @@ description: "Wstawiaj pola do dokumentu w formacie Python na różne sposoby: z
 type: docs
 weight: 20
 url: /pl/python-net/inserting-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Istnieje kilka różnych sposobów wstawiania pól do dokumentu:

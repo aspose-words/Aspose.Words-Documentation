@@ -7,6 +7,7 @@ type: docs
 description: "請使用此介紹給 Aspose.Words 的 .NET 基礎，以開始體會 Aspose.Words 對您的事業的價值。"
 weight: 20
 url: /zh-hant/net/getting-started/
+timestamp: 2024-09-25-11-08-55
 ---
 
 這《開始使用》提供了對 Aspose.Words 基礎的介紹。 對新使用 Aspose.Words 的使用者來說，這是學習基本要求與功能的最快方式。

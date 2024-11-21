@@ -10,6 +10,7 @@ description: "Perform two different types of mail merge operations: simple mail 
 keywords: "how to execute mail merge c#"
 weight: 20
 url: /net/types-of-mail-merge-operations/
+timestamp: 2024-07-11-08-07-06
 ---
 
 The main idea of mail merge is to automatically create a document or multiple documents based on your template and data fetched from your data source. Aspose.Words allows you to perform two different types of mail merge operations: simple mail merge and mail merge with regions.

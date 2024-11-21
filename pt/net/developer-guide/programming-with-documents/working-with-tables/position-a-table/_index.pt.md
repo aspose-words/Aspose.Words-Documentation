@@ -7,6 +7,7 @@ description: "Especifique a posição da tabela em C#. Obtenha um alinhamento da
 type: docs
 weight: 50
 url: /pt/net/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Existem tabelas flutuantes e tabelas embutidas:

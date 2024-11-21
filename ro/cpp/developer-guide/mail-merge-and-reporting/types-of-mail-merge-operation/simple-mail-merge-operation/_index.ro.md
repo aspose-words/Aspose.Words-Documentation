@@ -1,4 +1,4 @@
-﻿---
+---
 title: Operație simplă Mail Merge în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Operație Simplă Mail Merge
@@ -8,6 +8,7 @@ description: "Un simplu mail merge este folosit pentru a umple câmpurile mail m
 keywords: "how to execute mail merge c++"
 weight: 10
 url: /ro/cpp/simple-mail-merge-operation/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Un simplu mail merge este folosit pentru a umple câmpurile mail merge din șablonul dvs. cu datele necesare din sursa de date (reprezentarea unui singur tabel). Deci este similar cu clasicul mail merge din Microsoft Word.

@@ -7,6 +7,7 @@ description: "Os campos são apresentados em detalhes, códigos de campo e resul
 type: docs
 weight: 10
 url: /pt/net/fields-overview/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words é uma biblioteca de classes projetada para processamento de documentos Microsoft Word no servidor e oferece suporte a campos das seguintes maneiras:

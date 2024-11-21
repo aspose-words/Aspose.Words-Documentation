@@ -7,6 +7,7 @@ description: "Python'teki Yapılandırılmış belge etiketlerini (SDT veya içe
 type: docs
 weight: 50
 url: /tr/python-net/structured-document-tags-or-content-control/
+timestamp: 2024-01-31-14-23-37
 ---
 
 

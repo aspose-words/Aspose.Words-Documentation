@@ -7,6 +7,7 @@ description: "Aspose.Words را برای Python با استفاده از ابز�
 type: docs
 weight: 10
 url: /fa/python-net/installation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 قبل از شروع مطمئن شوید که دستگاه شما با [سیستم مورد نیاز](/words/fa/python-net/system-requirements/) مطابقت دارد.

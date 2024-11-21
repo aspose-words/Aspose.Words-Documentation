@@ -7,6 +7,7 @@ description: "Learn how to build reports a template using LINQ in Java."
 type: docs
 weight: 10
 url: /java/building-reports/
+timestamp: 2024-10-21-11-17-44
 ---
 
 To build a report from a template, you can use one of the `ReportingEngine.buildReport` overloads. The following table describes parameters of these overloads.

@@ -7,6 +7,7 @@ description: "Grafik özelliğine giriş, C# kullanarak grafiklerin nasıl oluş
 type: docs
 weight: 310
 url: /tr/net/working-with-charts/
+timestamp: 2024-02-05-15-07-18
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/) sınıfına yeni [InsertChart](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/insertchart/) yöntemi eklendi. Şimdi [InsertChart](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/insertchart/) yöntemini kullanarak belgeye basit bir sütun grafiğinin nasıl ekleneceğini görelim.

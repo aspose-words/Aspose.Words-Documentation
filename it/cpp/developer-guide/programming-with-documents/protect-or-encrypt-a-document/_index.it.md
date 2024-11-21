@@ -1,4 +1,4 @@
-﻿---
+---
 title: Proteggere o crittografare un documento in C++
 second_title: Aspose.Words per C++
 articleTitle: Proteggere o crittografare un documento
@@ -7,6 +7,7 @@ description: "Aspose.Words per C++ fornisce sola lettura, crittografa un documen
 type: docs
 weight: 50
 url: /it/cpp/protect-or-encrypt-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Il motivo principale per proteggere o crittografare un documento è quello di applicare un maggiore controllo su chi può accedere al documento o su chi può modificarlo. Applicando la protezione ai documenti, si evitano rischi comuni come la copia o la modifica di documenti senza autorizzazione, nonché la perdita di dati.

@@ -8,6 +8,7 @@ url: /vi/net/create-or-load-a-document/
 description: "Tạo một tài liệu trống hoặc tải nó từ một tệp hoặc luồng bằng C#."
 keywords: "create a document c#, load a document c#, create a blank document c#, load a document from file c#, load a document from stream c#, create a document Aspose .NET, load a document Aspose .NET, load formats supported by Aspose.Words .NET"
 weight: 10
+timestamp: 2024-07-09-19-00-42
 ---
 
 Hầu hết mọi tác vụ bạn muốn thực hiện với Aspose.Words đều liên quan đến việc tải tài liệu. Lớp `Document` đại diện cho một tài liệu được tải vào bộ nhớ. Tài liệu này có một số hàm tạo được nạp chồng cho phép bạn tạo một tài liệu trống hoặc tải nó từ một tệp hoặc luồng. Tài liệu có thể được tải ở bất kỳ định dạng tải nào được Aspose.Words hỗ trợ. Để biết danh sách tất cả các định dạng tải được hỗ trợ, hãy xem bảng liệt kê [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/).

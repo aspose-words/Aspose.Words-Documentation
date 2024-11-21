@@ -7,6 +7,7 @@ description: "Convertir un documento en una matriz de byte para trabajar con est
 type: docs
 weight: 40
 url: /es/java/serialize-and-work-with-a-document-in-a-database/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Una de las tareas que puede necesitar hacer cuando trabajar con documentos es almacenar y recuperar **Document** objetos a y desde una base de datos. Por ejemplo, esto sería necesario si estuviera implementando cualquier tipo de sistema de gestión de contenidos. Todas las versiones anteriores de los documentos deben almacenarse en el sistema de bases de datos. La capacidad de almacenar documentos en la base de datos también es extremadamente útil cuando su aplicación proporciona un servicio basado en la web.

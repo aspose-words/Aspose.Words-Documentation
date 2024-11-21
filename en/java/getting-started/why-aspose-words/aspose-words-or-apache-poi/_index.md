@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words or Apache POI
 second_title: Aspose.Words for Java
 articleTitle: Aspose.Words or Apache POI
@@ -8,6 +8,7 @@ type: docs
 weight: 30
 url: /java/aspose-words-java-for-apache-poi/
 aliases: [/java/aspose-words-java-for-apache-poi-hwpf-and-xwpf/]
+timestamp: 2024-01-31-14-23-37
 ---
 
 Sometimes we get the following question: why should we use Aspose products rather than the Apache POI? This question is easy to answer: features and functionality.

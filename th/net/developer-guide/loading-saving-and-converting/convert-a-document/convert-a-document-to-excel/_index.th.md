@@ -7,6 +7,7 @@ description: "แปลง PDF เป็น Excel, XML เป็น Excel, DOCX 
 type: docs
 weight: 15
 url: /th/net/convert-a-document-to-excel/
+timestamp: 2024-07-09-19-00-42
 ---
 
 การแปลงเอกสารจากรูปแบบหนึ่งไปเป็นอีกรูปแบบหนึ่งคือคุณสมบัติเด่นของ Aspose.Words คุณสามารถแปลงเอกสารในรูปแบบ [รูปแบบการโหลด](https://reference.aspose.com/words/net/aspose.words/loadformat/) ที่มีอยู่ให้เป็นรูปแบบ XLSX ได้

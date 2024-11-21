@@ -7,6 +7,7 @@ description: "Làm việc với kiểu chữ Asiatc bằng cách sử dụng Jav
 type: docs
 weight: 240
 url: /vi/java/working-with-asian-typography/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Chữ viết châu Á là một tập hợp các tùy chọn cho các đoạn văn bản trong các tài liệu viết bằng ngôn ngữ châu Á.

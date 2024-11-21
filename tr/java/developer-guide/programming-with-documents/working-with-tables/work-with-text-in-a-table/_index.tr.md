@@ -7,6 +7,7 @@ description: "Bir tablodaki metni Java ile değiştirin. Tablo veya Hücreden Ba
 type: docs
 weight: 60
 url: /tr/java/extract-text-from-and-replace-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Önceki makalelerde bahsedildiği gibi, bir tablo genellikle düz metin içerir, diğer içerikler, resimler veya hatta diğer tablolar bile bir hücrede olabilir.

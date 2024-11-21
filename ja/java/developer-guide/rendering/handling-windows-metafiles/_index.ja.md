@@ -7,6 +7,7 @@ description: "Aspose.Words お問い合わせ Java 独自の実装 Windows す�
 type: docs
 weight: 30
 url: /ja/java/handling-windows-metafiles/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Windows Metafile形式は、ベクトルとラスターグラフィックスの両方を含むことができる画像ファイル形式です。 この形式は、メモリやディスク上のファイルに保存するために使用されます。 metafile は関数呼び出しのリストを格納します。 Windows 画面上の画像を表示するために実行しなければならないグラフィックデバイスインターフェイス(GDI)。 システムは、これらのコマンドを display コンテキストで解釈し、実行します。

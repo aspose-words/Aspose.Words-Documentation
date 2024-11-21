@@ -1,4 +1,4 @@
-﻿---
+---
 title: การตั้งค่าแบบอักษรFallBackสำหรับGoogle NotoแบบอักษรในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: แบบอักษรที่กำหนดไว้ล่วงหน้าFallBackการตั้งค่าสำหรับGoogle Notoแบบอักษร
@@ -7,6 +7,7 @@ description: "Aspose.Wordsให้การตั้งค่าแบบอั
 type: docs
 weight: 15
 url: /th/cpp/predefined-font-fallback-settings-for-google-noto-fonts/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Aspose.Wordsให้การตั้งค่าแบบอักษรทางเลือกที่กำหนดไว้ล่วงหน้าสำหรับGoogle Notoแบบอักษร เหล่านี้เป็นแบบอักษรฟรีที่ได้รับอนุญาตภายใต้SILใบอนุญาตแบบอักษรเปิดที่สามารถดาวน์โหลดได้จากGoogle Notoแบบอักษร คลาส**FontFallbackSettings**มีวิธีการ[LoadNotoFallbackSettings](https://reference.aspose.com/words/cpp/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/) โหลดการตั้งค่าทางเลือกที่กำหนดไว้ล่วงหน้าซึ่งใช้Google Notoแบบอักษรที่แสดงในตัวอย่างรหัสด้านล่:

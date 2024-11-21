@@ -7,6 +7,7 @@ description: "Example of filling document table from external database using Jav
 type: docs
 weight: 130
 url: /java/how-to-build-a-table-from-a-datatable/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Often your application will pull data from a database and store it in the form of a **DataTable**. You may wish to easily insert this data into your document as a new table and quickly apply formatting to the whole table.

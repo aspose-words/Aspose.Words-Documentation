@@ -7,6 +7,7 @@ description: "Basic principles of the Reporting in the Aspose.Words for SharePoi
 type: docs
 weight: 10
 url: /sharepoint/about-reporting-in-aspose-words-for-sharepoint/
+timestamp: 2024-01-27-14-07-04
 ---
 
 With Aspose.Words for SharePoint, you can fill documents with data from external data sources such as databases, SharePoint lists or XML data files. You can save the result in any [supported document format](/words/sharepoint/multiple-format-support/). We call this feature *reporting* and the final document, filled with data, a *report*.

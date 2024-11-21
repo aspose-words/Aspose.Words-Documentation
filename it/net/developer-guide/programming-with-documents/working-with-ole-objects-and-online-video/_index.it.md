@@ -7,6 +7,7 @@ description: "Crea e modifica l'incorporamento OLE nel tuo documento utilizzando
 type: docs
 weight: 360
 url: /it/net/working-with-ole-objects/
+timestamp: 2024-01-27-14-07-04
 ---
 
 OLE (Object Linking and Embedding) è una tecnologia mediante la quale gli utenti possono lavorare con documenti contenenti "oggetti" creati o modificati da applicazioni di terze parti. Cioè, OLE consente a un'applicazione di modifica di esportare questi "oggetti" in un'altra applicazione di modifica e quindi di importarli con contenuto aggiuntivo.

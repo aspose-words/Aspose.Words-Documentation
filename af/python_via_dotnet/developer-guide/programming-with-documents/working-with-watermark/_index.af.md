@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Watermerk in Python
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Werk Met Watermerk
@@ -7,6 +7,7 @@ description: "Skep en bestuur watermerke in'n dokument met behulp van Python."
 type: docs
 weight: 340
 url: /af/python-net/working-with-watermark/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Hierdie onderwerp bespreek hoe om programmaties te werk met watermerk met behulp van Aspose.Words. 'n watermerk is'n agtergrondbeeld wat agter die teks in'n dokument vertoon word. 'n watermerk kan'n teks of'n beeld bevat wat deur die [Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/) klas verteenwoordig word.

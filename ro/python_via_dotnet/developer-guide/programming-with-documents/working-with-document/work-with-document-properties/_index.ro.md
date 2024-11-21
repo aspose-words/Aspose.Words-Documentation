@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrați cu proprietățile documentului
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Lucrați cu proprietățile documentului
@@ -7,6 +7,7 @@ description: "Aspose.Words pentru Python permite stocarea unor informații utile
 type: docs
 weight: 10
 url: /ro/python-net/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Proprietățile documentului permit stocarea unor informații utile despre documentul dvs. Aceste proprietăți pot fi împărțite în două grupe:

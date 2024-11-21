@@ -7,6 +7,7 @@ description: "Convertire un documento in un array byte per lavorare con questo d
 type: docs
 weight: 40
 url: /it/java/serialize-and-work-with-a-document-in-a-database/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uno dei compiti che potrebbe essere necessario fare quando si lavora con i documenti è memorizzare e recuperare **Document** oggetti da e per un database. Ad esempio, questo sarebbe necessario se si stesse implementando qualsiasi tipo di sistema di gestione dei contenuti. Tutte le versioni precedenti di documenti devono essere memorizzati nel sistema di database. La capacità di memorizzare i documenti nel database è anche estremamente utile quando la vostra applicazione fornisce un servizio web-based.

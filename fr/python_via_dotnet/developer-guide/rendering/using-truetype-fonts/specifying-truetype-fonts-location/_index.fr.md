@@ -7,6 +7,7 @@ description: "Spécifiez diverses sources de polices TrueType: dossier système,
 type: docs
 weight: 30
 url: /fr/python-net/specifying-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Cette rubrique décrit le comportement par défaut de Aspose.Words lors de la recherche de polices TrueType, y compris les différences spécifiques au système d'exploitation, et montre comment spécifier les sources de polices utilisateur.

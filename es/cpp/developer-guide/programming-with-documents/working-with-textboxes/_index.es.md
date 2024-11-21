@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trabajando con TextBoxes en C++
 second_title: Aspose.Words para C++
 articleTitle: Trabajando con TextBoxes
@@ -7,6 +7,7 @@ description: "Introducción a la función de cuadros de texto vinculados en Aspo
 type: docs
 weight: 250
 url: /es/cpp/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 En Aspose.Words, la clase [TextBox](https://reference.aspose.com/words/cpp/aspose.words.drawing/textbox/) se usa para especificar cómo se muestra el texto dentro de una forma. Expone una propiedad pública llamada **Parent** para obtener la forma principal del cuadro de texto, de modo que el cliente pueda encontrar el [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/) vinculado a partir del **TextBox** asociado.

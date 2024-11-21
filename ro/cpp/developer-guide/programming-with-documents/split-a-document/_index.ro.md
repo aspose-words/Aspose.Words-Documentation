@@ -1,4 +1,4 @@
-﻿---
+---
 title: Împărțiți un Document în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Împărțiți un Document
@@ -7,6 +7,7 @@ description: "Împărțiți un document în mai multe fișiere folosind C++. Uti
 type: docs
 weight: 90
 url: /ro/cpp/split-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 *Splitting* sau *split a document* este procesul de rupere a unui document mare într-un număr mai mare de fișiere mai mici. Există diverse motive pentru a împărți un fișier. De exemplu, aveți nevoie doar de câteva pagini dintr-un anumit document și nu de cel întreg. Sau din motive de confidențialitate, doriți să partajați doar unele părți ale unui document cu alții. Cu funcția de divizare, puteți obține doar părțile necesare ale documentului și puteți efectua acțiunile necesare cu acestea, de exemplu, pentru a marca, salva sau trimite.

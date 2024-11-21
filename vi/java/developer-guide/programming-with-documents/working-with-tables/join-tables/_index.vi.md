@@ -7,6 +7,7 @@ description: "Kết hợp các bảng trong Java. Chỉnh sửa bảng nâng cao
 type: docs
 weight: 90
 url: /vi/java/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Một bảng, được thể hiện trong Aspose.Words Document Object Model, được tạo thành từ các hàng và các ô độc lập, làm cho việc kết hợp bảng dễ dàng.

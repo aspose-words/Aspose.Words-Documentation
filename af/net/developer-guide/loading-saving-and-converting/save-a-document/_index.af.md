@@ -1,4 +1,4 @@
-﻿---
+---
 title: Stoor'n Dokument in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Stoor'n Dokument
@@ -8,6 +8,7 @@ description: "Stoor'n dokument in enige ondersteun formaat met behulp van C#."
 keywords: "save a document c#, save a document to file c#, save a document to stream c#, save a document Aspose .NET, save formats supported by Aspose.Words .NET"
 weight: 20
 url: /af/net/save-a-document/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Die meeste van die take wat jy nodig het om uit te voer met Aspose.Words behels die redding van'n dokument. Om te red van'n dokument Aspose.Words bied die [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) metode van die [Document](https://reference.aspose.com/words/net/aspose.words/document/) klas. Daar is oorlaai wat toelaat dat die redding van'n dokument na'n lêer, stroom, of ASP.NET HttpResponse voorwerp vir die stuur van'n kliënt leser. Die dokument kan gestoor word in enige stoor formaat ondersteun deur Aspose.Words. Vir die lys van al ondersteun red formate, sien die [SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat/) opsomming.

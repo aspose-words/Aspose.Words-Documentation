@@ -7,6 +7,7 @@ description: "Esta seção fornece uma comparação da disponibilidade de recurs
 type: docs
 weight: 90
 url: /pt/java/aspose-words-for-android-via-java-features/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Aspose.Words para Android via via via via Java Visão geral

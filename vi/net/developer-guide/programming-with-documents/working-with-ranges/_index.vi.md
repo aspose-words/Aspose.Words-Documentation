@@ -7,6 +7,7 @@ description: "Giới thiệu tính năng Phạm vi trong Aspose.Words cho .NET."
 type: docs
 weight: 130
 url: /vi/net/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

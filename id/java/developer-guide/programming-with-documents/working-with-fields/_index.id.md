@@ -7,6 +7,7 @@ description: "Pengantar fitur lapangan dalam Aspose.Words Sitemap JavaSitemap"
 type: docs
 weight: 370
 url: /id/java/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 **Fields** dalam dokumen seperti placeholders di mana data yang berguna dapat dimasukkan. Sebagai contoh, sebuah field bisa menjadi referensi halaman, formula, atau mail merge Login

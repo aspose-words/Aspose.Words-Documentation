@@ -7,6 +7,7 @@ description: "Twórz i zarządzaj sekcjami i podziałami sekcji w dokumencie za 
 type: docs
 weight: 120
 url: /pl/python-net/working-with-sections/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Czasami potrzebny jest dokument, który nie ma tego samego formatowania na wszystkich stronach. Na przykład może zaistnieć potrzeba zmodyfikowania formatu numeracji stron, zmiany rozmiaru i orientacji strony lub ustawienia pierwszej strony dokumentu jako strony tytułowej bez żadnej numeracji. Można to osiągnąć za pomocą sekcji.

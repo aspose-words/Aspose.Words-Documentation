@@ -7,6 +7,7 @@ type: docs
 description: "보안 위험의 원인이 될 수 있는 원격 리소스를 로드합니다. C#를 사용하여 일반적인 보안 문제와 솔루션을 살펴보세요."
 weight: 100
 url: /ko/net/web-applications-security-when-loading-external-resources/
+timestamp: 2024-01-27-14-07-04
 ---
 
 기본적으로 Aspose.Words for .NET는 DocumentBuilder를 사용하여 문서를 가져오거나 이미지를 삽입할 때 이미지, CSS 스타일 또는 외부 HTML 문서와 같은 원격 리소스를 로드할 수 있습니다. 이 동작을 통해 문서를 자세히 처리할 수 있지만 라이브러리가 웹 애플리케이션의 일부인 경우 일부 보안 위험이 발생할 수 있습니다.

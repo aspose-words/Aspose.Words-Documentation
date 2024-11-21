@@ -7,6 +7,7 @@ description: "C# kullanan gelişmiş tipografi özellikleri."
 type: docs
 weight: 25
 url: /tr/net/enable-opentype-features/
+timestamp: 2024-07-10-14-38-57
 ---
 
 OpenType, PostScript ve TrueType'a kıyasla uluslararası diller ve yazı sistemleri için daha iyi destek sağlamak amacıyla tanıtılan bir yazı tipi formatıdır. OpenType'ın düzen özellikleri genellikle OpenType özellikleri olarak bilinir. Aspose.Words.Shaping.HarfBuzz paketi, HarfBuzz metin şekillendirme motorunu kullanarak Aspose.Words'teki OpenType özellikleri için destek sağlar.

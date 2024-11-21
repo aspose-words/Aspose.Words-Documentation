@@ -1,4 +1,4 @@
-﻿---
+---
 title: 如何在C++中创建表
 second_title: Aspose.Words对于C++
 articleTitle: 创建表
@@ -7,6 +7,7 @@ description: "使用 C++ 创建表格的不同方法。使用 C++ 为您的文�
 type: docs
 weight: 20
 url: /zh/cpp/create-a-table/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words允许用户从头开始在文档中创建表，并提供了几种不同的方法。 本文介绍了如何使用每种方法向文档添加格式化表的详细信息，并在文章末尾对每种方法进行了比较。

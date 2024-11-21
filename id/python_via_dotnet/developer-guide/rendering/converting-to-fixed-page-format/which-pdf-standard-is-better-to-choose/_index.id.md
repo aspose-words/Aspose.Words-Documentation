@@ -7,6 +7,7 @@ description: "Pilih standar PDF terbaik untuk mengekspor hasil tugas pemrograman
 type: docs
 weight: 27
 url: /id/python-net/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Untuk beberapa tugas, standar PDF tertentu akan lebih cocok atau sebaliknya lebih buruk. Pada artikel ini, kami akan mencoba menentukan standar PDF mana yang masuk akal untuk dipilih.

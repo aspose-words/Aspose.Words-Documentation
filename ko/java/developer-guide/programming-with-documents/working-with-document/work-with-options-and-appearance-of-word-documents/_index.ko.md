@@ -7,6 +7,7 @@ description: "Word 문서의 외관을 제어하여 다양한 차이를 고려�
 type: docs
 weight: 40
 url: /ko/java/work-with-word-document-options-and-appearance/
+timestamp: 2024-01-27-14-07-04
 ---
 
 때로는 문서의 모양을 변경할 필요가 있습니다. 예를 들어, 언어 설정 또는 페이지 당 줄 수.Aspose.Words 문서가 표시될 수 있는 방법을 제어할 수 있는 기능을 제공합니다. 이 문서는 이러한 가능성을 설명합니다.

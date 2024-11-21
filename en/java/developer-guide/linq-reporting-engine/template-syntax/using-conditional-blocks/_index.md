@@ -1,4 +1,4 @@
-﻿---
+---
 title: Using Conditional Blocks in Java
 second_title: Aspose.Words for Java
 articleTitle: Using Conditional Blocks
@@ -7,6 +7,7 @@ description: "Use conditional blocks to represent the same data depending on a c
 type: docs
 weight: 40
 url: /java/using-conditional-blocks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 You can use different document blocks to represent the same data depending on a condition with the help of conditional blocks. A *conditional block* represents a set of template options, each of which is bound with a conditional expression. At runtime, these conditional expressions are sequentially evaluated, until an expression that returns `true` is reached. Then, the conditional block is replaced with the corresponding template option populated with data.

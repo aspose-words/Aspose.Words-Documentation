@@ -7,6 +7,7 @@ description: "Câtă memorie Aspose.Words pentru .NET necesită pentru a lucra c
 type: docs
 weight: 10
 url: /ro/net/memory-requirements/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words oferă o gamă largă de caracteristici pentru a lucra cu documente în diferite formate. Este important să se observe că nu există nicio limită la dimensiunea maximă a unui fișier de document care Aspose.Words poate procesa sau redarea. Singura limitare este cantitatea de RAM (memorie) disponibila pe partea ta.

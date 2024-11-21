@@ -7,6 +7,7 @@ description: "Twórz, określaj formatowanie i restartuj listy w dokumencie za p
 type: docs
 weight: 200
 url: /pl/python-net/working-with-lists/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Lista w dokumencie Microsoft Word to zestaw właściwości formatowania listy. List można używać w dokumentach do formatowania, porządkowania i podkreślania tekstu. Listy to świetny sposób organizowania danych w dokumentach i ułatwiają czytelnikom zrozumienie kluczowych punktów

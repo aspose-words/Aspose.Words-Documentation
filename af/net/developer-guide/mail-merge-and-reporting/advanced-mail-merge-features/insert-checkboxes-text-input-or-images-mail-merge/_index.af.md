@@ -1,4 +1,4 @@
-﻿---
+---
 title: Voeg Checkboxes, Teks Invoer of Beelde gedurende Mail Merge
 second_title: Aspose.Words vir .NET
 articleTitle: Voeg Checkboxes, Teks Invoer, Of Beelde
@@ -7,6 +7,7 @@ description: "Voeg merkblokkies of teksinvoervelde in tydens Mail Merge met C#. 
 type: docs
 weight: 40
 url: /af/net/insert-checkboxes-text-input-or-images-mail-merge/
+timestamp: 2024-07-11-08-07-06
 ---
 
 Die samesmelting enjin neem'n dokument as insette, soek vir `MERGEFIELD` velde in dit, en vervang hulle met die data verkry uit die data bron. Gewoonlik word gewone teks en HTML ingevoeg, maar Aspose.Words gebruikers kan ook'n dokument genereer wat meer ongewone scenario's vir mail merge velde hanteer.

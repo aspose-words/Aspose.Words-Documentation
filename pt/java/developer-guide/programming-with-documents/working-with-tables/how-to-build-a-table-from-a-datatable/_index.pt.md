@@ -7,6 +7,7 @@ description: "Exemplo de preenchimento de tabela de documentos a partir de banco
 type: docs
 weight: 130
 url: /pt/java/how-to-build-a-table-from-a-datatable/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Muitas vezes, sua aplicação irá extrair dados de um banco de dados e armazená-lo na forma de um **DataTable**. Você pode desejar inserir facilmente esses dados em seu documento como uma nova tabela e aplicar rapidamente a formatação em toda a tabela.

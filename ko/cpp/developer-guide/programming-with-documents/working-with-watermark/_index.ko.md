@@ -1,4 +1,4 @@
-﻿---
+---
 title: 워터마크 작업 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 워터마크 작업
@@ -7,6 +7,7 @@ type: docs
 description: "다음을 사용하여 문서 워터 마크 조작 C++."
 weight: 340
 url: /ko/cpp/working-with-watermark/
+timestamp: 2024-01-30-16-22-34
 ---
 
 이 항목에서는 다음을 사용하여 워터마크를 프로그래밍 방식으로 작업하는 방법에 대해 설명합니다 Aspose.Words. 워터마크는 문서의 텍스트 뒤에 표시되는 배경 이미지입니다. 워터마크는 텍스트나 이미지를 포함할 수 있습니다. [Watermark](https://reference.aspose.com/words/cpp/aspose.words/watermark/) 수업

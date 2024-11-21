@@ -1,4 +1,4 @@
-﻿---
+---
 title: 모양 작업 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 도형 작업
@@ -7,6 +7,7 @@ type: docs
 description: "모양 마크업 언어 소개,다음을 사용하여 다양한 유형의 모양 만들기 C++."
 weight: 280
 url: /ko/cpp/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 이 항목에서는 다음을 사용하여 도형을 프로그래밍 방식으로 작업하는 방법에 대해 설명합니다 Aspose.Words.

@@ -7,6 +7,7 @@ description: "طرق مختلفة لإدراج الحقول في وثيقتكم 
 type: docs
 weight: 20
 url: /ar/java/insert-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 وهناك عدة طرق مختلفة لإدراج الحقول في وثيقة:

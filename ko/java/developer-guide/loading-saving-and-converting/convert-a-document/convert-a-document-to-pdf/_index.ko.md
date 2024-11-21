@@ -7,6 +7,7 @@ description: "Word 또는 다른 지원 형식의 문서를 PDF로 변환하여 
 type: docs
 weight: 10
 url: /ko/java/convert-a-document-to-pdf/
+timestamp: 2024-01-31-14-23-37
 ---
 
 쉽게 변환 할 수있는 능력은 하나의 형식으로 문서를 다른 주요 기능입니다 Aspose.Words· 변환을위한 가장 인기있는 형식 중 하나는 PDF – 다양한 플랫폼에서 렌더링하는 동안 문서의 원래 외관을 보존하는 고정 지연 형식입니다. "rendering" 용어는 Aspose.Words 문서 변환 프로세스를 paginated 또는 페이지의 개념이 있는 파일 형식으로 설명합니다.

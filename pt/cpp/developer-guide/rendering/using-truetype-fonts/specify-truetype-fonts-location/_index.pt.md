@@ -1,4 +1,4 @@
-﻿---
+---
 title: Especificar TrueType localização das fontes em C++
 second_title: Aspose.Words Para C++
 articleTitle: Especificar TrueType Localização Das Fontes
@@ -7,6 +7,7 @@ description: "Especifique várias fontes de fonte TrueType: pasta do sistema, fo
 type: docs
 weight: 30
 url: /pt/cpp/specify-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Este tópico descreve o comportamento predefinido de Aspose.Words quando procura fontes TrueType, incluindo diferenças específicas do sistema operativo, e demonstra como especificar fontes de fonte do utilizador.

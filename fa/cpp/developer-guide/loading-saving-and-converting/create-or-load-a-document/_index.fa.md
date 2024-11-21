@@ -1,4 +1,4 @@
-﻿---
+---
 title: ایجاد یا بارگذاری یک سند در C++
 second_title: Aspose.Words برای C++
 articleTitle: ایجاد یا بارگذاری یک سند
@@ -8,6 +8,7 @@ description: "یک سند خالی ایجاد کنید یا آن را از یک 
 keywords: "create a document c++, load a document c++, create a blank document c++, load a document from file c++, load a document from stream c++, create a document Aspose C++, load a document Aspose C++, load formats supported by Aspose.Words C++"
 weight: 10
 url: /fa/cpp/create-or-load-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 تقریبا هر کاری که می خواهید با Aspose.Words انجام دهید شامل بارگذاری یک سند است. کلاس `Document` نشان دهنده یک سند بارگذاری شده در حافظه است. این سند دارای چندین سازنده بیش از حد بارگذاری شده است که به شما اجازه می دهد یک سند خالی ایجاد کنید یا آن را از یک فایل یا جریان بارگذاری کنید. این سند را می توان در هر فرمت بارگذاری پشتیبانی شده توسط Aspose.Words بارگذاری کرد. برای لیست تمام فرمت های بارگذاری پشتیبانی شده، به [LoadFormat](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) enumeration مراجعه کنید.

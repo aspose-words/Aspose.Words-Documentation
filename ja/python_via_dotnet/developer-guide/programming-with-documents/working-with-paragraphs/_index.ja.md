@@ -7,6 +7,7 @@ description: "Python を使用して文書内に段落を挿入し、その書�
 type: docs
 weight: 210
 url: /ja/python-net/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 段落は、論理ブロックに結合された一連の文字であり、特殊文字 (*段落区切り*) で終わります。 Aspose.Words では、段落は [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/) クラスによって表されます。

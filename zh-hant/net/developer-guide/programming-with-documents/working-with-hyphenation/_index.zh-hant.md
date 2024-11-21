@@ -7,6 +7,7 @@ description: "透過 C# 來使用段落分詞，使文字排列更緊湊。 它�
 type: docs
 weight: 220
 url: /zh-hant/net/working-with-hyphenation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有時需要使用破折號，以使文件中的文字排列更緊湊。 在同時，很重要的是要理解語言的具体標記法可能會有所不同。

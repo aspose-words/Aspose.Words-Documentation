@@ -7,6 +7,7 @@ type: docs
 description: "Use the document builder to modify a document easily in C++."
 weight: 190
 url: /cpp/using-documentbuilder-to-modify-a-document-easily/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Specifying Formatting

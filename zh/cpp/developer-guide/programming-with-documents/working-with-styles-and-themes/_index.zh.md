@@ -1,4 +1,4 @@
-﻿---
+---
 title: 使用C++中的样式
 second_title: Aspose.Words对于C++
 articleTitle: 使用样式
@@ -7,6 +7,7 @@ description: "增强了 Microsoft Word 格式化功能，可使用 C++ 处理样
 type: docs
 weight: 110
 url: /zh/cpp/working-with-styles-and-themes/
+timestamp: 2024-01-30-16-22-34
 ---
 
 [StyleCollection](https://reference.aspose.com/words/cpp/aspose.words/stylecollection/)类用于管理内置设置并将用户定义的设置应用于样式。

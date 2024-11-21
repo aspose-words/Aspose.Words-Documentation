@@ -7,6 +7,7 @@ description: "قم بتضمين دلالات محددة من قبل العميل
 type: docs
 weight: 50
 url: /ar/python-net/structured-document-tags-or-content-control/
+timestamp: 2024-01-31-14-23-37
 ---
 
 

@@ -7,6 +7,7 @@ type: docs
 description: "Simple mail merge using Ruby."
 weight: 70
 url: /java/simple-mail-merge-in-ruby/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Simple Mail Merge

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Felder in C++ einfügen
 second_title: Aspose.Words für C++
 articleTitle: Felder einfügen
@@ -7,6 +7,7 @@ description: "Verschiedene Möglichkeiten, Felder mit C++ in Ihr Dokument einzuf
 type: docs
 weight: 20
 url: /de/cpp/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Es gibt verschiedene Möglichkeiten, Felder in ein Dokument einzufügen:

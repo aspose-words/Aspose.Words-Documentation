@@ -7,6 +7,7 @@ description: "Arbeiten Sie mit Tabellen in einem Dokument mit Python. Einführun
 type: docs
 weight: 190
 url: /de/python-net/working-with-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ein **Tisch** in einem Dokument ist eine großartige Möglichkeit, ähnliche Daten zu strukturieren. Aus diesem Grund sind Tabellen ein gängiges Inhaltsformatierungselement und werden von den meisten Formaten in der einen oder anderen Form unterstützt.

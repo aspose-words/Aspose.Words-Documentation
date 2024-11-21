@@ -7,6 +7,7 @@ description: "Jak načíst dokumenty z externích zdrojů v C#. Načíst PDF, DO
 type: docs
 weight: 40
 url: /cs/net/working-with-documents-from-external-sources/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Tento oddíl poskytuje informace o tom, jak načíst dokumenty z externích zdrojů, jako jsou SharePoint ukládání dokumentů nebo databáze. Po obdržení takového dokumentu můžete nejen provést všechny potřebné změny, které jsou k dispozici pomocí výkonné funkce Aspose.Words, ale také načíst tento dokument zpět do zdroje dat.

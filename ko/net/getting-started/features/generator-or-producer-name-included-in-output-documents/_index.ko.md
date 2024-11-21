@@ -7,6 +7,7 @@ description: ".NET용 Aspose.Words는 문서를 생성하는 데 사용된 생�
 type: docs
 weight: 60
 url: /ko/net/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words for .NET를 이용하면 문서가 생성되었는지 쉽게 알 수 있습니다. 특정 출력 문서를 생성하는 데 사용된 Aspose.Words for .NET의 버전 번호도 확인할 수 있습니다. Aspose.Words는 이 정보를 생성된 문서에 직접 기록합니다.

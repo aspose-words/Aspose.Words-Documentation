@@ -7,6 +7,7 @@ description: "Introduction à la fonctionnalité des boîtes de texte liées dan
 type: docs
 weight: 250
 url: /fr/java/working-with-linked-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 En Aspose.Words, des [TextBox](https://reference.aspose.com/words/java/com.aspose.words/textbox/) classe est utilisé pour spécifier comment un texte est affiché à l'intérieur d'une forme. Il fournit une propriété publique nommée Parent pour obtenir la forme parent pour la boîte de texte pour permettre au client de trouver lié [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) à partir de liens **TextBox**.

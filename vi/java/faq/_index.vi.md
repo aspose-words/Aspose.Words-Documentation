@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words cho Java trả lời những câu hỏi thường gặp nhất Học trang này để nhanh chóng giải quyết vấn đề của bạn trong các câu hỏi chung hoặc các chủ đề cụ thể."
 weight: 75
 url: /vi/java/faq/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Trang này có câu trả lời cho các câu hỏi thường gặp nhất. Hãy học trang hiện tại - có lẽ điều này sẽ cho phép bạn giải quyết vấn đề của mình nhanh chóng.

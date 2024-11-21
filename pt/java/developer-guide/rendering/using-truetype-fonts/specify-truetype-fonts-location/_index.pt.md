@@ -7,6 +7,7 @@ description: "Especificar vários Verdade Tipo fontes de fonte: pasta do sistema
 type: docs
 weight: 30
 url: /pt/java/specify-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Este tópico descreve o comportamento padrão de Aspose.Words quando procura fontes TrueType, incluindo diferenças específicas do sistema operacional e demonstra como especificar fontes de fonte do usuário.

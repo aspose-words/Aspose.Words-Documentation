@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cách Tạo Bảng trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Tạo Một Bảng
@@ -7,6 +7,7 @@ description: "Các cách khác nhau để tạo bảng bằng C++. Tạo bảng 
 type: docs
 weight: 20
 url: /vi/cpp/create-a-table/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words cho phép người dùng tạo bảng trong tài liệu từ đầu và cung cấp một số phương pháp khác nhau để làm như vậy. Bài viết này trình bày chi tiết về cách thêm các bảng được định dạng vào tài liệu của bạn bằng từng phương thức, cũng như so sánh từng phương thức ở cuối bài viết.

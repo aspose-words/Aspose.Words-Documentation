@@ -7,6 +7,7 @@ description: "ویژگی های پیشرفته تایپوگرافی در Aspose.
 type: docs
 weight: 25
 url: /fa/java/enable-opentype-features/
+timestamp: 2024-01-27-14-07-04
 ---
 
 

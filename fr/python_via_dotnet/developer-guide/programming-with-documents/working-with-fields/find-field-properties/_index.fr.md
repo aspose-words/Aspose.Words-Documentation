@@ -7,6 +7,7 @@ description: "Comment trouver certaines propriétés de champ telles que le code
 type: docs
 weight: 25
 url: /fr/python-net/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un champ inséré à l'aide de [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/).[insert_field](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_field/) renvoie un objet [Field](https://reference.aspose.com/words/python-net/aspose.words.fields/field/). Il s'agit d'une classe de façade qui fournit des méthodes utiles pour trouver rapidement certaines propriétés d'un champ.

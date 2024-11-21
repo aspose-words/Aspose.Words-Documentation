@@ -1,4 +1,4 @@
-﻿---
+---
 title: 함께 작업 ChartSeries 그 안에 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 함께 작업 ChartSeries
@@ -7,6 +7,7 @@ description: "차트 시리즈 튜닝을 사용하여 C++."
 type: docs
 weight: 40
 url: /ko/cpp/working-with-chartseries/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words 사용자가 작업 할 수 있습니다 ChartSeriesCollection 몇 가지 방법으로.

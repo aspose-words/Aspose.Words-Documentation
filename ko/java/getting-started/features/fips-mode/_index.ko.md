@@ -7,6 +7,7 @@ description: "Aspose.Words 제품정보 Java FIPS 표준을 준수하기 위해 
 type: docs
 weight: 80
 url: /ko/java/fips-mode/
+timestamp: 2024-05-08-10-19-58
 ---
 
 Aspose.Words 문서를 처리 할 때 여러 암호화 및 해시 알고리즘을 사용하여이 문서는 FIPS 표준과 관련 된 방법을 설명합니다.

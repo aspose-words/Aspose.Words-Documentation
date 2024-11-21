@@ -7,6 +7,7 @@ type: docs
 description: "Klonujte dokument, abyste získali jeho identickou kopii. Při vytváření kopie, uzly a vlastnosti původního dokumentu jsou klonovány pomocí Java."
 weight: 70
 url: /cs/java/clone-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Klonování dokumentu je proces vytvoření stejné kopie původního dokumentu, který může zlepšit výkon a ušetřit vás před potenciálními úniky paměti.

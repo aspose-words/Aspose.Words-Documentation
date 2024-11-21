@@ -1,4 +1,4 @@
-﻿---
+---
 title: SPListQuery Element
 second_title: Aspose.Words for SharePoint
 articleTitle: SPListQuery Element
@@ -7,6 +7,7 @@ description: "SPListQuery element meaning and structure which may be used while 
 type: docs
 weight: 140
 url: /sharepoint/splistquery-element/
+timestamp: 2024-10-21-11-17-44
 ---
 
 The SPListQuery element contains information about CAML query for retrieving report data from a SharePoint list. Use it with [SPDataSource](/words/sharepoint/spdatasource-element/). Use the ListName element to set the name of the list to query. Use the SiteUrl element of the data source to specify sub-site if needed. Set CAML query via the [Query](/words/sharepoint/queries-element/) element. It is best to wrap the element contents in ![CDATA[]] for readability as CAML query is in XML. The same is true for the ViewFields element. In a CAML query, parameters are substituted by name. An entire element inside the query must match a parameter name listed in the [Parameters](/words/sharepoint/parameters-element/) element. A parameter name must start with “@”.

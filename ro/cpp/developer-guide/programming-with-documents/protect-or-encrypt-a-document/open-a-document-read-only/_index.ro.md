@@ -1,4 +1,4 @@
-﻿---
+---
 title: Deschiderea unui Document numai în citire în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Deschiderea unui Document numai în citire
@@ -7,6 +7,7 @@ description: "Faceți documentul numai în citire, astfel încât conținutul s�
 type: docs
 weight: 10
 url: /ro/cpp/open-a-document-read-only/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uneori, este posibil să aveți un document care necesită o recenzie, dar nu doriți ca recenzenții să vă modifice aleatoriu conținutul. Aspose.Words vă permite să faceți permisiunea documentului dvs. numai pentru citire, astfel încât conținutul să poată fi copiat sau citit, dar nu modificat. Acest lucru va împiedica eliminarea sau adăugarea conținutului în documentul dvs.

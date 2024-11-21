@@ -1,4 +1,4 @@
-﻿---
+---
 title: Formatos de Archivo y Conversiones
 second_title: Aspose.Words para C++
 articleTitle: ¿Por qué la Conversión es la Característica Estrella de Aspose.Words?
@@ -7,6 +7,7 @@ description: "Convierta documentos de cualquier carga compatible para guardarlos
 type: docs
 weight: 50
 url: /es/cpp/file-formats-and-conversions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 {{% alert color="primary" %}}

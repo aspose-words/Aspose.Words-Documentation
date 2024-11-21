@@ -7,6 +7,7 @@ type: docs
 description: "In Aspose.Words for Java وتشير الوثائق إلى المستويات المنطقية للعقد - أي مستوى الكتل، أو المستوى المباشر، أو مستوى الصفوف. The node level is used to describe the location in the document tree where the node is typically occur."
 weight: 10
 url: /ar/java/logical-levels-of-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 وتشير هذه الوثائق أحيانا إلى مجموعة من فصول العقيدة على أنها تنتمي إلى " المستوى " في وثيقة، مثل " المستوى غير الرسمي "، أو " المستوى غير المباشر " (المعروف أيضا باسم " الخط المباشر " )، أو " مستوى النمو ". وتتباين هذه المستويات في وثيقة ما منطقياً بحتاً ولا يعبر عنها صراحة الميراث أو غيره Aspose.Words DOM يعني. The node level is used to describe the place in the document tree where the node would typically occur.

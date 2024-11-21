@@ -7,6 +7,7 @@ description: "將文件合並至一個檔案中：透過尋找與替換、合併
 type: docs
 weight: 80
 url: /zh-hant/net/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有時需要將多個文件合併為一個。 您可以手動完成此操作，或使用 Aspose.Words 插入或附加功能。

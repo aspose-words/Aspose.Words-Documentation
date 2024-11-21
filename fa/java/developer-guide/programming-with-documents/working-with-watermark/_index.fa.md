@@ -7,6 +7,7 @@ type: docs
 description: "دستکاری علامت آب با استفاده از Java..."
 weight: 70
 url: /fa/java/working-with-watermark/
+timestamp: 2024-01-27-14-07-04
 ---
 
 این موضوع بحث می کند که چگونه با استفاده از یک علامت آب کار کنیم Aspose.Words... علامت آب یک تصویر پس زمینه است که پشت متن در یک سند نمایش می دهد. علامت آب می تواند شامل یک متن یا یک تصویر باشد که توسط [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) کلاس

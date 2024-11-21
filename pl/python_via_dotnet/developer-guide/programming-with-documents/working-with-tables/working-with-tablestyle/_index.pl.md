@@ -7,6 +7,7 @@ description: "Zaawansowane formatowanie tabeli C#. Utwórz styl tabeli za pomoc�
 type: docs
 weight: 80
 url: /pl/python-net/working-with-tablestyle/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Styl tabeli definiuje zestaw formatowania, który można łatwo zastosować do tabeli. Formatowanie, takie jak obramowania, cieniowanie, wyrównanie i czcionka, można ustawić w stylu tabeli i zastosować do wielu tabel w celu uzyskania spójnego wyglądu.

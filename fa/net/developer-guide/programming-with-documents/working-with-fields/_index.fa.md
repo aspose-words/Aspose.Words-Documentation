@@ -7,6 +7,7 @@ description: "مقدمه ای بر ویژگی فیلد در Aspose.Words برا�
 type: docs
 weight: 370
 url: /fa/net/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 **Fields** در یک سند مانند مکان هایی هستند که می توان داده های مفید را در آن درج کرد. به عنوان مثال، یک فیلد می تواند مرجع صفحه، فرمول یا فیلد mail merge باشد.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Ürünü Visual Studio olarak yapılandırın
 second_title: Aspose.Words için C++
 articleTitle: Yapılandır Aspose.Words için C++ içinde Visual Studio
@@ -7,6 +7,7 @@ description: "Manuel olarak yapılandır Aspose.Words için C++ içinde Visual S
 type: docs
 weight: 90
 url: /tr/cpp/configure-aspose-words-for-cpp-in-visual-studio/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Aspose.Words için C++ API Visual Studio 2022 veya üstü ile çalışır. Visual Studio ile çalışmak için şu adreste bulunan Visual C++ Redistributable 'i yüklemeniz gerekebilir: [Microsoft resmi web sitesi](https://docs.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170).

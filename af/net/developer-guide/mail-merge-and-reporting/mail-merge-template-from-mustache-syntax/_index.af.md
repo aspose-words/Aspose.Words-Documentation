@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge Sjabloon van Mustache Sintaksis in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Mail Merge Sjabloon van Mustache Sintaksis
@@ -8,6 +8,7 @@ description: "Skep templates met Mustache sintaksis met behulp van C#. Mustache 
 keywords: "mail merge template mustache syntax c#"
 weight: 40
 url: /af/net/mail-merge-template-from-mustache-syntax/
+timestamp: 2024-07-11-08-07-06
 ---
 
 Aspose.Words laat jou toe om templates met mustache sintaksis te skep bykomend tot die bekende templates. A Mustache is'n alternatiewe variant van sjabloon sintaksis wat bestaan uit tag name ingesluit deur en word ondersteun deur'n model voorwerp wat die data vir die sjabloon bevat.

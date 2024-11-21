@@ -7,6 +7,7 @@ description: "Tabelopmaak in details met behulp van C#. Gebruik C# om elk deel v
 type: docs
 weight: 70
 url: /nl/net/applying-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Elk element van een tabel kan met verschillende opmaak worden toegepast. Bijvoorbeeld, tabelopmaak zal worden toegepast op de hele tabel, rij opmaak op slechts bepaalde rijen, celopmaak op slechts bepaalde cellen.

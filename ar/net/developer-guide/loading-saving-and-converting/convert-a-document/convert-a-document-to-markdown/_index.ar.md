@@ -8,6 +8,7 @@ description: "قم بتحويل مستند بأي تنسيق تحميل مدعو
 keywords: how to convert a document to markdown c#
 weight: 40
 url: /ar/net/convert-a-document-to-markdown/
+timestamp: 2024-07-10-08-10-45
 ---
 
 يعد Markdown تنسيقًا شائعًا يستخدم لترميز النص وتحويله أيضًا إلى HTML أو PDF أو DOCX أو تنسيقات أخرى. يختار العديد من المطورين هذا التنسيق لكتابة الوثائق، وإعداد المقالات للنشر على المدونات، ووصف المشاريع، وما إلى ذلك.

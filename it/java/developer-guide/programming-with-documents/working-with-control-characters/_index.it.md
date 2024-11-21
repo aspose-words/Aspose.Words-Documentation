@@ -7,6 +7,7 @@ description: "Introduzione al lavoro con i caratteri di controllo in Aspose.Word
 type: docs
 weight: 400
 url: /it/java/working-with-control-characters/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word i documenti possono contenere vari caratteri che hanno un significato speciale. Normalmente vengono utilizzati per la formattazione e non vengono disegnati nella modalità normale. È possibile renderli visibili se si fa clic sul pulsante Show/Hide Formatting Marks situato nella barra degli strumenti standard.

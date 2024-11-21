@@ -7,6 +7,7 @@ description: "サポートされているフォーマットで最初のドキュ
 type: docs
 weight: 20
 url: /ja/java/hello-world/
+timestamp: 2024-01-27-14-07-04
 ---
 
 "Hello, World!" のコードは、多くの場合、uisng を書く最初の単純な例です。"Aspose.Words お問い合わせ Java"、ソースコードをコンパイルまたは実行するためのソフトウェアが正しくインストールされていることを確認するために、sanityテストとしても使用できます。

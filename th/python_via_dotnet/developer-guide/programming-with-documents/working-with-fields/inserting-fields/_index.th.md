@@ -7,6 +7,7 @@ description: "แทรกช่องลงในเอกสารใน Pytho
 type: docs
 weight: 20
 url: /th/python-net/inserting-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 มีหลายวิธีในการแทรกฟิลด์ลงในเอกสาร:

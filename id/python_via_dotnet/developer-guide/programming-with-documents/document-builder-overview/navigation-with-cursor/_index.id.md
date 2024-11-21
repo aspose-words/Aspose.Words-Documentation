@@ -7,6 +7,7 @@ description: "Menavigasi antar node berbeda dalam dokumen seperti paragraf, book
 type: docs
 weight: 10
 url: /id/python-net/navigation-with-cursor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Saat bekerja dengan dokumen, meskipun pendek atau panjang, Anda perlu menavigasi dokumen Anda. Navigasi dengan kursor virtual mewakili kemampuan untuk bernavigasi di antara berbagai node dalam dokumen.

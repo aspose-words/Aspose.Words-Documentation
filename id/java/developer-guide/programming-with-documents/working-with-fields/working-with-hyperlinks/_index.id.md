@@ -7,6 +7,7 @@ description: "Cara menambahkan hyperlink ke dokumen Anda menggunakan JavaSitemap
 type: docs
 weight: 50
 url: /id/java/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A hyperlink di Microsoft Word dokumen adalah `HYPERLINK` Login Sitemap Aspose.Words, hyperlink diimplementasikan melalui [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/) Sitemap

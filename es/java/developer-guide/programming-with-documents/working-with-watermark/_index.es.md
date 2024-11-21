@@ -7,6 +7,7 @@ type: docs
 description: "Manipulación de marca de agua mediante Java."
 weight: 70
 url: /es/java/working-with-watermark/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Este tema discute cómo trabajar programáticamente con una marca de agua utilizando Aspose.Words. Una marca de agua es una imagen de fondo que se muestra detrás del texto en un documento. Una marca de agua puede contener un texto o una imagen representada por el [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) clase.

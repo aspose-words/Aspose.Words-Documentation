@@ -7,6 +7,7 @@ description: "PDF/A-1, PDF/A-2, PDF/A-4 및 PDF/UA로 변환 Java· PDF/A 문서
 type: docs
 weight: 28
 url: /ko/java/working-with-pdfa-or-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 PDF/A 및 PDF/UA 형식은 Word 형식으로 문서에서 PDF로 자동 변환 중에 수행 할 수없는 문서 내용과 관련된 여러 요구 사항을 부과합니다. 이 요구 사항은 PDF/A 및 PDF/UA 준수 문서를 생성하기 위해 변환 후 변환 또는 PDF 문서에서 변환하기 전에 Word 문서에서 확인 및 수정해야 합니다.

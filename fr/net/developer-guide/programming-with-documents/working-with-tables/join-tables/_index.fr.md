@@ -7,6 +7,7 @@ description: "Joignez des tables dans C#. Comment fusionner deux tables en un se
 type: docs
 weight: 90
 url: /fr/net/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un tableau, représenté dans le Aspose.Words Document Object Model, est composé de lignes et de cellules indépendantes, ce qui facilite la jointure des tableaux.

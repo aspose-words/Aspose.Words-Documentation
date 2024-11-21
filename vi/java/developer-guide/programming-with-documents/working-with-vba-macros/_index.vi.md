@@ -7,6 +7,7 @@ description: "Làm việc với các dự án tài liệu VBA sử dụng Java."
 type: docs
 weight: 410
 url: /vi/java/working-with-vba-macros/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Visual Basic cho Ứng dụng (VBA) cho Microsoft Word là ngôn ngữ lập trình đơn giản nhưng mạnh mẽ có thể được dùng để mở rộng chức năng. Aspose.Words API cung cấp ba lớp để truy cập mã nguồn dự án VBA:

@@ -7,6 +7,7 @@ type: docs
 description: "Klonen Sie ein Dokument, um seine identische Kopie zu erhalten. Beim Erstellen einer Kopie werden Knoten und Eigenschaften des Originaldokuments mit Hilfe von Java."
 weight: 70
 url: /de/java/clone-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Das Schließen eines Dokuments ist der Prozess der Erstellung einer identischen Kopie eines Originaldokuments, das die Leistung verbessern und Sie vor möglichen Speicherlecks speichern kann.

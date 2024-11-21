@@ -8,6 +8,7 @@ type: docs
 weight: 20
 url: /python-net/inserting-fields/
 aliases: [/python/inserting-fields/]
+timestamp: 2024-09-25-11-08-55
 ---
 
 There are several different ways to insert fields into a document:

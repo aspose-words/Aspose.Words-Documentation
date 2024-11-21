@@ -1,4 +1,4 @@
-﻿---
+---
 title: Arbeiten mit OfficeMath in C++
 second_title: Aspose.Words für C++
 articleTitle: Arbeiten mit OfficeMath
@@ -7,6 +7,7 @@ type: docs
 description: "Einführung in die Office Math-Funktion in Aspose.Words für C++."
 weight: 320
 url: /de/cpp/working-with-officemath/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Jetzt ist es noch bequemer, mit Objekten vom Typ OfficeMath zu arbeiten. In Aspose.Words kann der Kunde einfach begründen und auch verwalten, ob eine Gleichung inline oder in einer separaten Zeile angezeigt wird. Mehr noch, mit der Verfügbarkeit von **MathObjectType**; Nützliche Steuerelemente können mithilfe dieses Matrixobjekts implementiert werden.

@@ -7,6 +7,7 @@ description: "Extrahieren Sie verschiedene grafische Objekte, wie Bilder, Textfe
 type: docs
 weight: 40
 url: /de/java/rendering-shapes-separately-from-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bei der Verarbeitung von Dokumenten besteht die gemeinsame Aufgabe darin, alle im Dokument gefundenen Bilder zu extrahieren und an einen externen Standort zu exportieren. Diese Aufgabe wird einfach mit Aspose.Words API, die bereits die Funktionalität zum Extrahieren und Speichern von Bilddaten bietet. Manchmal möchten Sie jedoch ähnlich andere Arten von grafischen Inhalten extrahieren, die durch eine andere Art von Zeichnungsobjekt dargestellt sind, beispielsweise ein Textfeld mit Absätzen, Pfeilformen und ein kleines Bild. Es gibt keinen einfachen Weg, dieses Objekt zu machen, da es sich um eine Kombination von einzelnen Inhaltselementen handelt. Sie können auch einen Fall auftreten, wenn die Inhalte zusammen in das Objekt gruppiert wurden, das wie ein einziges Bild aussieht.

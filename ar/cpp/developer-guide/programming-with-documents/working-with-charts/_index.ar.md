@@ -1,4 +1,4 @@
-﻿---
+---
 title: العمل مع الرسوم البيانية في C++
 second_title: Aspose.Words ل C++
 articleTitle: العمل مع الرسوم البيانية
@@ -7,6 +7,7 @@ description: "مقدمة في ميزة الرسم البياني، وكيفية 
 type: docs
 weight: 310
 url: /ar/cpp/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 تمت إضافة طريقة [InsertChart](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertchart/) جديدة إلى فئة [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/). لذلك، دعونا نرى كيفية إدراج مخطط عمود بسيط في المستند باستخدام طريقة [InsertChart](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertchart/).

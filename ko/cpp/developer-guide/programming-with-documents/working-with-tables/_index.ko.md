@@ -1,4 +1,4 @@
-﻿---
+---
 title: 테이블 작업 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 테이블 작업
@@ -7,6 +7,7 @@ description: "테이블 작업 방법 C++. 테이블 및 테이블 노드 개념
 type: docs
 weight: 190
 url: /ko/cpp/working-with-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A **table** 문서에서 유사한 데이터를 구성 할 수있는 좋은 방법입니다. 따라서 테이블은 일반적인 콘텐츠 형식 요소이며 대부분의 형식에서 한 형식 또는 다른 형식으로 지원됩니다.

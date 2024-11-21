@@ -7,6 +7,7 @@ description: "使用 Python 创建和修改文档中各种类型的图表。"
 type: docs
 weight: 310
 url: /zh/python-net/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 新的 [insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/) 方法已添加到 [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) 类中。那么，让我们看看如何使用 [DocumentBuilder.insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/) 方法将简单的柱形图插入到文档中：

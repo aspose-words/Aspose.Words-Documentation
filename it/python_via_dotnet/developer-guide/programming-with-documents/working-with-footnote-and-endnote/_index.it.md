@@ -7,6 +7,7 @@ description: "Inserisci note a piè di pagina o di chiusura in un documento e sp
 type: docs
 weight: 160
 url: /it/python-net/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words fornisce anche alcune classi, metodi e proprietà per lavorare con note a piè di pagina e note di chiusura.

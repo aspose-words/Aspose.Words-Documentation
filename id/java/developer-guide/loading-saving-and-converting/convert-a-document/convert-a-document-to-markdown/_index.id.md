@@ -8,6 +8,7 @@ description: "Mengkonversi dokumen dalam format beban yang didukung untuk Markdo
 keywords: how to convert a document to markdown Java, save as MD, DOCX to MD
 weight: 33
 url: /id/java/convert-a-document-to-markdown/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Markdown adalah format populer yang digunakan untuk menandai teks dan lebih mengkonversi ke HTML, PDF, DOCX, atau format lainnya. Banyak pengembang memilih format ini untuk menulis dokumentasi, mempersiapkan artikel untuk publikasi di blog, menggambarkan proyek, dan sebagainya.

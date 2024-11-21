@@ -7,6 +7,7 @@ description: "Bagaimana cara menerapkan Markdown fitur menggunakan JavaSitemap S
 type: docs
 weight: 420
 url: /id/java/working-with-markdown-features/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Topik ini membahas cara menerapkan Markdown fitur menggunakan Aspose.WordsSitemap Markdown adalah cara sederhana untuk memformat teks polos yang dapat dengan mudah dikonversi ke HTML. Aspose.Words mendukung berikut Markdown Fitur:

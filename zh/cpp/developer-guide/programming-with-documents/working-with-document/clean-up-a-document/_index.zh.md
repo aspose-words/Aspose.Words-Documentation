@@ -1,4 +1,4 @@
-﻿---
+---
 title: 用C++清理文档
 second_title: Aspose.Words对于C++
 articleTitle: 清理文档
@@ -7,6 +7,7 @@ description: "使用C++删除未使用或重复的信息以减少输出大小和
 type: docs
 weight: 30
 url: /zh/cpp/clean-up-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有时您可能需要删除未使用或重复的信息，以减少输出文档的大小和处理时间。

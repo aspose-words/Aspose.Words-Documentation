@@ -1,4 +1,4 @@
-﻿---
+---
 title: Opsies Wanneer Om Te Skakel na PDF
 second_title: Aspose.Words vir .NET
 articleTitle: Spesifiseer Vertoonopsies Wanneer U na PDFOmskakel
@@ -7,6 +7,7 @@ description: "Skakel'n dokument om na PDF met gevorderde opsies met C#. Omskep D
 type: docs
 weight: 20
 url: /af/net/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Die PDF-formaat is'n vaste bladsy-formaat wat baie gewild is onder gebruikers en wyd ondersteun word deur verskeie toepassings, omdat'n PDF - dokument op enige toestel dieselfde lyk. Om daardie rede is omskakeling na PDF 'n belangrike kenmerk van Aspose.Words.

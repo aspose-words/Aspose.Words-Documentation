@@ -1,4 +1,4 @@
-﻿---
+---
 title: Feature Overview
 second_title: Aspose.Words for JasperReports
 articleTitle: Feature Overview
@@ -7,6 +7,7 @@ description: "This section provides a detailed description of the Aspose.Words f
 type: docs
 weight: 10
 url: /jasperreports/feature-overview/
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

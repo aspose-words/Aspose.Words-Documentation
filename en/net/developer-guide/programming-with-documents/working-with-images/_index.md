@@ -9,6 +9,7 @@ weight: 300
 url: /net/working-with-images/
 aliases:
 - /net/working-with-graphic-elements/
+timestamp: 2024-05-02-11-51-44
 ---
 
 Aspose.Words allows users to work with images in a very flexible way. In this article, you can explore only some of the possibilities of working with images.

@@ -7,6 +7,7 @@ description: "مقدمه ای بر ویژگی جعبه های متنی مرتب�
 type: docs
 weight: 250
 url: /fa/net/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 در Aspose.Words، کلاس [TextBox](https://reference.aspose.com/words/net/aspose.words.drawing/textbox/) برای تعیین نحوه نمایش متن در یک شکل استفاده می شود. این یک ویژگی عمومی به نام **Parent** را برای دریافت شکل والد برای جعبه متن نمایش می دهد تا مشتری بتواند [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) پیوند شده را از **TextBox** مرتبط پیدا کند.

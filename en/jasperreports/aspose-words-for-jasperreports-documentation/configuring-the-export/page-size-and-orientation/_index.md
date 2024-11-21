@@ -1,4 +1,4 @@
-﻿---
+---
 title: Page Size and Orientation
 second_title: Aspose.Words for JasperReports
 articleTitle: Page Size and Orientation
@@ -7,6 +7,7 @@ description: "Aspose.Words for JasperReports use page size and orientation from 
 type: docs
 weight: 140
 url: /jasperreports/page-size-and-orientation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

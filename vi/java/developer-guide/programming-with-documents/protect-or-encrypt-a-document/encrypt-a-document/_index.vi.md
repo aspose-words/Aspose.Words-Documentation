@@ -7,6 +7,7 @@ description: "Mã hóa tài liệu của bạn bằng các thuật toán mã hó
 type: docs
 weight: 20
 url: /vi/java/encrypt-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Mã hóa là quá trình dịch văn bản có thể đọc được thành chuỗi các byte vô nghĩa để nó chỉ có thể được đọc bởi người có chìa khóa giải mã hay mã bí mật. Quy trình này đóng một vai trò quan trọng trong việc bảo mật nội dung của bạn. Nó giúp mã hóa nội dung, xác minh nguồn gốc của một tài liệu, chứng minh rằng nội dung đã không bị thay đổi sau khi gửi đi, và đảm bảo dữ liệu từ tài liệu là an toàn.

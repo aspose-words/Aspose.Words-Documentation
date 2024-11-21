@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bekerja dengan Gaya dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Bekerja dengan Gaya
@@ -7,6 +7,7 @@ description: "Fitur pemformatan Microsoft Word yang disempurnakan, bekerja denga
 type: docs
 weight: 110
 url: /id/cpp/working-with-styles-and-themes/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Kelas [StyleCollection](https://reference.aspose.com/words/cpp/aspose.words/stylecollection/) digunakan untuk mengelola bawaan dan menerapkan pengaturan yang ditentukan pengguna ke gaya.

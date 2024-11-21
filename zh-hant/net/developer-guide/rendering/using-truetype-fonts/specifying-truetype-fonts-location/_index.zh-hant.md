@@ -7,6 +7,7 @@ description: "指定各種 TrueType 字型來源：系統資料夾、使用者�
 type: docs
 weight: 30
 url: /zh-hant/net/specifying-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 本主題描述在查詢 TrueType 字型時 Aspose.Words 的預設動作，包括作業系統的特定差異，並示範如何指定使用者字型來源。

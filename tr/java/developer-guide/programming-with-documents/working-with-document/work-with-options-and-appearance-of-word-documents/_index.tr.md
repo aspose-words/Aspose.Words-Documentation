@@ -7,6 +7,7 @@ description: "Word belgelerinin görünümünü kontrol etmek için farklı Micr
 type: docs
 weight: 40
 url: /tr/java/work-with-word-document-options-and-appearance/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bazen bir belgenin görünümünü değiştirmek isteyebilirsiniz, örneğin, dil tercihlerini ayarlayabilir veya sayfadaki satır sayısını belirtebilirsiniz.Aspose.Words Belgeyi nasıl görüntüleyeceğini kontrol etme yeteneği ve bazı ek seçenekleri sağlar. Bu makale bu olanakları anlatır.

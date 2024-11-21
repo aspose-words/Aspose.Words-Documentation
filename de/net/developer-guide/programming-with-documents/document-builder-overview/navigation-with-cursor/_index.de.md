@@ -7,6 +7,7 @@ description: "Navigieren Sie mit C# zwischen verschiedenen Knoten innerhalb eine
 type: docs
 weight: 10
 url: /de/net/navigation-with-cursor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Während Sie mit einem Dokument arbeiten, auch wenn es kurz oder lang ist, müssen Sie durch Ihr Dokument navigieren. Die Navigation mit einem virtuellen Cursor stellt die Möglichkeit dar, zwischen verschiedenen Knoten in einem Dokument zu navigieren.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge con regiones en C++
 second_title: Aspose.Words para C++
 articleTitle: Mail Merge con regiones
@@ -8,6 +8,7 @@ description: "Cree diferentes regiones en su plantilla para tener áreas especia
 keywords: "how to execute mail merge c++"
 weight: 20
 url: /es/cpp/mail-merge-with-regions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Puede crear diferentes regiones en su plantilla para tener áreas especiales que simplemente puede completar con sus datos. Use el mail merge con regiones si desea insertar tablas, filas con datos repetidos para hacer que sus documentos crezcan dinámicamente especificando esas regiones dentro de su plantilla.

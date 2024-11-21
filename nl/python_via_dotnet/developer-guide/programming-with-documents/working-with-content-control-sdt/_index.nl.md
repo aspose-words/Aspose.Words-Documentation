@@ -7,6 +7,7 @@ description: "Met behulp van python kunt u klant-gedefinieerde semantiek en het 
 type: docs
 weight: 390
 url: /nl/python-net/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
 In Microsoft Word, U kunt een formulier aanmaken door te beginnen met een sjabloon en inhoudsopties toe te voegen, waaronder selectievakjes, tekstvakjes, datumkiezers en drop-downlijsten. In <span notrans="<span notrans=" Aspose.Words"=""></span>,"> een gestructureerde document label of inhoudscontrole van een document geladen in Aspose.Words wordt geïmporteerd als a [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) Node. Gestructureerde documenttags (SDT of content control) maken het mogelijk om door de klant gedefinieerde semantiek en zijn gedrag en uiterlijk in een document in te sluiten. [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) kan voorkomen in een document op de volgende plaatsen:

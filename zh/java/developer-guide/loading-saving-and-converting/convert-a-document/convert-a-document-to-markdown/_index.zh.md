@@ -8,6 +8,7 @@ description: "用任何支持的负载格式将文档转换为 Markdown 而反�
 keywords: how to convert a document to markdown Java, save as MD, DOCX to MD
 weight: 33
 url: /zh/java/convert-a-document-to-markdown/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Markdown 是一种用于标记文本的流行格式,它正在进一步转换到HTML、PDF、DOCX或其他格式。 许多开发者选择这种格式来编写文档,编写文章在博客上发表,描述项目等等.

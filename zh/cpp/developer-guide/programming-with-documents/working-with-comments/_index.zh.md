@@ -1,4 +1,4 @@
-﻿---
+---
 title: 使用C++中的注释
 second_title: Aspose.Words对于C++
 articleTitle: 处理意见
@@ -7,6 +7,7 @@ description: "使用 C++ 处理注释。"
 type: docs
 weight: 260
 url: /zh/cpp/working-with-comments/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

@@ -7,6 +7,7 @@ description: "Aspose.Words Sitemap Java dapat mengatur font TrueType yang benar 
 type: docs
 weight: 10
 url: /id/java/manipulate-and-substitute-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words membutuhkan Benar Jenis font untuk berbagai tugas, termasuk dokumen rendering ke format halaman tetap, misalnya, PDF atau XPSSitemap Sitemap Aspose.Words render dokumen, perlu melakukan embedding dan subset yang timbul dari TrueType font ke dalam dokumen yang dihasilkan, yang merupakan praktik normal selama generasi dokumen, termasuk PDF populer atau XPS Login Ini memastikan bahwa dokumen akan muncul sama dengan pemirsa apa pun. Sitemap XPS spesifikasi membutuhkan font untuk selalu tertanam dalam dokumen.

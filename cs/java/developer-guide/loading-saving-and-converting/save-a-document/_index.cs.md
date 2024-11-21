@@ -7,6 +7,7 @@ type: docs
 description: "Uložit dokument v jakémkoliv podporovaném formátu pomocí Java."
 weight: 20
 url: /cs/java/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Většina úkolů, které musíte splnit Aspose.Words zahrnuje uložení dokumentu. Uložit dokument Aspose.Words poskytuje [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save(java.lang.String)) [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) třída. Dokument lze uložit v libovolném formátu uložení podporovaném Aspose.Words. Seznam všech podporovaných formátů uložení viz [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) výčtu.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Schützen oder verschlüsseln Sie ein Dokument in C++
 second_title: Aspose.Words für C++
 articleTitle: Schützen oder Verschlüsseln eines Dokuments
@@ -7,6 +7,7 @@ description: "Aspose.Words für C++ bietet schreibgeschützte, verschlüsselte D
 type: docs
 weight: 50
 url: /de/cpp/protect-or-encrypt-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Der Hauptgrund für den Schutz oder die Verschlüsselung eines Dokuments besteht darin, mehr Kontrolle darüber zu haben, wer auf das Dokument zugreifen oder es bearbeiten kann. Wenn Sie Ihre Dokumente schützen, vermeiden Sie häufige Risiken wie das unerlaubte Kopieren oder Ändern von Dokumenten sowie Datenlecks.

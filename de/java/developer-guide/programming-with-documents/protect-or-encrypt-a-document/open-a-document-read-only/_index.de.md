@@ -7,6 +7,7 @@ description: "Machen Sie Ihr Dokument nur lesbar, damit der Inhalt kopiert oder 
 type: docs
 weight: 10
 url: /de/java/open-a-document-read-only/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Manchmal haben Sie möglicherweise ein Dokument, das eine Überprüfung benötigt, aber Sie wollen nicht, dass die Bewerter Ihre Inhalte zufällig ändern. Aspose.Words Sie können die Erlaubnis Ihres Dokuments nur lesen, damit der Inhalt kopiert oder gelesen werden kann, aber nicht geändert wird. Dadurch wird verhindert, dass Inhalte entfernt oder Ihrem Dokument hinzugefügt werden.

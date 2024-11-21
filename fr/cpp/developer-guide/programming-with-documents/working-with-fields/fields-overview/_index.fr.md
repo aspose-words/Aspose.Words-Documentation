@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aperçu des champs en C++
 second_title: Aspose.Words pour C++
 articleTitle: Aperçu des Champs
@@ -7,6 +7,7 @@ description: "Les champs sont détaillés, les codes de champ et les résultats 
 type: docs
 weight: 10
 url: /fr/cpp/fields-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words est une bibliothèque de classes conçue pour le traitement côté serveur de documents Microsoft Word et prend en charge les champs des manières suivantes:

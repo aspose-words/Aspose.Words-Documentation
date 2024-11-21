@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk met VBA Makros in C++
 second_title: Aspose.Words vir C++
 articleTitle: Werk met VBA Makros
@@ -7,6 +7,7 @@ description: "Werk met dokument VBA projekte met behulp van C++."
 type: docs
 weight: 410
 url: /af/cpp/working-with-vba-macros/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Visual Basic vir Toepassings (VBA) vir Microsoft Word is'n eenvoudige maar kragtige programmeertaal wat gebruik kan word om die funksionaliteit uit te brei. Aspose.Words API bied drie klasse om toegang tot die VBA projek bronkode te kry:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Geneste Mail Merge Met Streke in Java
 second_title: Aspose.Words vir Java
 articleTitle: Geneste Mail Merge Met Streke
@@ -8,6 +8,7 @@ description: "Voer'n mail merge operasie met geneste streke. Geneste samesmeltin
 keywords: "mail merge with nested regions Java, Nested Mail Merge Regions"
 weight: 10
 url: /af/java/nested-mail-merge-with-regions/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In sommige scenario's moet jy dalk geneste mail merge met streke gebruik. Geneste samesmelting is'n funksie wat jou in staat stel om hiërargiese data van jou databron saam te voeg in jou samesmelting sjabloon om maklik jou dokument te vul. Basies word die hiërargiese data voorgestel as'n stel data-items, en hiërargiese verhoudings beskryf hoe die data-items met mekaar verband hou (een item data is die ouer van'n ander een).

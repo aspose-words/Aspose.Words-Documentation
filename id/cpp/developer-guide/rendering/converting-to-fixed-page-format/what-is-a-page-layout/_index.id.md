@@ -1,4 +1,4 @@
-﻿---
+---
 title: Apa itu Tata Letak Halaman di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Apa itu Tata Letak Halaman
@@ -7,6 +7,7 @@ description: "Mari kita cari tahu apa itu tata letak halaman. Tata letak halaman
 type: docs
 weight: 5
 url: /id/cpp/what-is-a-page-layout/
+timestamp: 2024-09-24-14-35-44
 ---
 
 A **document page layout** adalah struktur data, yang menjelaskan di mana objek tertentu berada di halaman untuk semua objek dokumen. Selain itu, karena objek memiliki properti yang memengaruhi penampilannya, seperti ukuran font, bayangan, atau efek gambar, Anda tidak hanya perlu mengetahui di mana objek tersebut berada, tetapi juga area halaman yang ditempatinya, dan apakah itu akan berlaku untuk beberapa halaman sehingga objek lain tidak tumpang tindih dengan area yang sama.

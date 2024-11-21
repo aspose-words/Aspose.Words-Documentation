@@ -7,6 +7,7 @@ description: "Suivez les modifications apportées au contenu et au formatage par
 type: docs
 weight: 270
 url: /fr/java/track-changes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 La fonctionnalité des changements de piste, aussi appelée révision, vous permet de suivre les changements de contenu et de formatage effectués par vous ou d'autres utilisateurs. Cette piste change la fonctionnalité avec Aspose.Words prend en charge les changements de suivi dans Microsoft Word. Avec cette fonctionnalité, vous pouvez accéder à des révisions individuelles dans votre document et leur appliquer différentes propriétés.

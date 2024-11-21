@@ -7,6 +7,7 @@ description: "Aspose.Words için Java uygulamak kendi Windows Metafile oynatıc�
 type: docs
 weight: 30
 url: /tr/java/handling-windows-metafiles/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Windows Metafile biçimi hem vektör hem de piksel grafiklerini içerebilen bir resim dosya biçimidir. Bu biçim, bellekte veya disk dosyalarında grafik veri depolamak için kullanılır. Metafile, görüntünün ekranda görüntülenmek için gerekli olan Windows Grafik Arayüz Arayüzü'nde (GDI) bir fonksiyon çağrıları listesini saklar. Sistem bu komutları görüntü bağlamında yorumlar ve yürütür.

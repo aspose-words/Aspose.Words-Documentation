@@ -1,4 +1,4 @@
-﻿---
+---
 title: Unire le celle della tabella in C++
 second_title: Aspose.Words per C++
 articleTitle: Unisci celle tabella
@@ -7,6 +7,7 @@ description: "Come unire le celle della tabella in C++. Controllare se le celle 
 type: docs
 weight: 40
 url: /it/cpp/merge-table-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A volte alcune righe di una tabella richiedono un'intestazione o grandi blocchi di testo che occupano l'intera larghezza della tabella. Per una corretta progettazione della tabella, l'utente può unire più celle della tabella in una sola. Aspose.Words supporta le celle unite quando si lavora con tutti i formati di input, inclusa l'importazione di contenuto HTML.

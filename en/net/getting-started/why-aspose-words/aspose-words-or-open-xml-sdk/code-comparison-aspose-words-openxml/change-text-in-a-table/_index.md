@@ -7,6 +7,7 @@ description: "Change text in a table easily and fast instead of using Open XML S
 type: docs
 weight: 110
 url: /net/change-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 On this page we will look at how to change text in a table using Aspose.Words or Open XML SDK.

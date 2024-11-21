@@ -7,6 +7,7 @@ description: "Iscriviti Tavoli in Java. Manipolazioni avanzate del tavolo, unisc
 type: docs
 weight: 90
 url: /it/java/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Una tavola, rappresentata nella Aspose.Words Document Object Model, è costituito da righe e celle indipendenti, rendendo facile unirsi ai tavoli.

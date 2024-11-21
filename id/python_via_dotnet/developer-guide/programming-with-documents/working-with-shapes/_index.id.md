@@ -7,6 +7,7 @@ description: "Membuat dan mengelola bentuk, objek dalam dokumen menggunakan Pyth
 type: docs
 weight: 280
 url: /id/python-net/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Topik ini membahas cara bekerja secara terprogram dengan bentuk menggunakan Aspose.Words.

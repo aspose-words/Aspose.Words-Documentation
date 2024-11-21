@@ -7,6 +7,7 @@ description: "บทความเกี่ยวกับรายละเอ
 type: docs
 weight: 10
 url: /th/java/introduction-to-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words เป็นไลบรารีคลาสที่ออกแบบสําหรับการประมวลผลของแม่ข่ายด้าน Microsoft Word เอกสารและส่วนรองรับในวิธีต่อไปนี้:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Încărcarea, salvarea și conversia în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Încărcarea, salvarea și conversia
@@ -7,6 +7,7 @@ description: "Cum se convertește un document dintr-un format în altul, cum ar 
 type: docs
 weight: 10
 url: /ro/cpp/loading-saving-and-converting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Această secțiune oferă informații despre caracteristicile la încărcarea și salvarea unui document, precum și date despre posibilitățile la conversia unui document dintr-un format în altul.

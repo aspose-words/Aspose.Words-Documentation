@@ -7,6 +7,7 @@ type: docs
 description: "Integre la funcionalidad Aspose.Words en su aplicación usando Docker independientemente de la tecnología que haya en su pila de desarrollo. Aprenda a utilizar Aspose .Words en un contenedor Docker en C#."
 weight: 120
 url: /es/net/how-to-run-aspose-words-in-docker/
+timestamp: 2024-08-19-11-05-36
 ---
 
 Los microservicios, junto con la contenedorización, permiten combinar tecnologías fácilmente. Docker le permite integrar fácilmente la funcionalidad Aspose.Words en su aplicación, independientemente de la tecnología que haya en su pila de desarrollo.

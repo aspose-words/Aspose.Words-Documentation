@@ -7,6 +7,7 @@ description: "How to link report template with the report definition while confi
 type: docs
 weight: 60
 url: /sharepoint/linking-report-template-with-report-definition/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A report template does not have a description of data source connection inside. Instead, there is a link to a report definition file stored in a SharePoint document library. Report definition is an XML file, which describes things like data source connection details, queries to retrieve data, report parameters, data relationships and so on.

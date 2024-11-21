@@ -7,6 +7,7 @@ type: docs
 description: "Einführung in Office Math Funktion in Aspose.Words für Java."
 weight: 320
 url: /de/java/working-with-officemath/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Jetzt ist es noch bequemer, mit OfficeMath Type Objects zu arbeiten. In Aspose.Words, der Kunde kann einfach rechtfertigen und auch verwalten, ob eine Gleichung inline oder in einer separaten Zeile angezeigt wird. Mehr so, mit der Verfügbarkeit von **MathObjectType**; nützliche Steuerungen können durch Verwendung dieses Matrixobjekts realisiert werden.

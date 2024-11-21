@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lưu Tài liệu trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Lưu Tài liệu
@@ -8,6 +8,7 @@ description: "Lưu tài liệu ở bất kỳ định dạng được hỗ trợ
 keywords: "save a document c++, save a document to file c++, save a document to stream c++, save a document Aspose C++, save formats supported by Aspose.Words C++"
 weight: 20
 url: /vi/cpp/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Hầu hết các nhiệm vụ bạn cần thực hiện với Aspose.Words liên quan đến việc lưu tài liệu. Để lưu tài liệu Aspose.Words cung cấp phương thức [Save](https://reference.aspose.com/words/cpp/aspose.words/document/save/) của lớp [Document](https://reference.aspose.com/words/cpp/aspose.words/document/). Tài liệu có thể được lưu ở bất kỳ định dạng lưu nào được hỗ trợ bởi Aspose.Words. Để biết danh sách tất cả các định dạng lưu được hỗ trợ, hãy xem liệt kê [SaveFormat](https://reference.aspose.com/words/cpp/aspose.words/saveformat/).

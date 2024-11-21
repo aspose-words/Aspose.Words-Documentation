@@ -1,4 +1,4 @@
-﻿---
+---
 title: Chuyển Đổi Word Sang Excel trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Chuyển Đổi Tài liệu Sang Excel
@@ -7,6 +7,7 @@ description: "Chuyển đổi PDF Sang Excel, XML Sang Excel, DOCX sang Excel C+
 type: docs
 weight: 15
 url: /vi/cpp/convert-a-document-to-excel/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Chuyển đổi tài liệu từ định dạng này sang định dạng khác là tính năng hàng đầu của Aspose.Words. Bạn cũng có thể chuyển đổi tài liệu ở bất kỳ định dạng [load format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) nào có sẵn sang XLSX.

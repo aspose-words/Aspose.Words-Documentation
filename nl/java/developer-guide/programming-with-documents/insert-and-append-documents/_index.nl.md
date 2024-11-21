@@ -7,6 +7,7 @@ description: "Documenten combineren in één: een document invoegen of toevoegen
 type: docs
 weight: 80
 url: /nl/java/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Soms is het nodig om meerdere documenten te combineren in een. U kunt dit handmatig of u kunt gebruiken Aspose.Words functie invoegen of toevoegen.

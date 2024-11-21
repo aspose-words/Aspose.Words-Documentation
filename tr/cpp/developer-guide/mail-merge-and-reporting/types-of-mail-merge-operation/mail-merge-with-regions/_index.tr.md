@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge bölgelerle birlikte C++
 second_title: Aspose.Words için C++
 articleTitle: Mail Merge bölgelerle
@@ -8,6 +8,7 @@ description: "Verilerinizle kolayca doldurabileceğiniz özel alanlara sahip olm
 keywords: "how to execute mail merge c++"
 weight: 20
 url: /tr/cpp/mail-merge-with-regions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Verilerinizle kolayca doldurabileceğiniz özel alanlara sahip olmak için şablonunuzda farklı bölgeler oluşturabilirsiniz. Kullan... mail merge tablo eklemek istiyorsanız, şablonunuzda bu bölgeleri belirterek belgelerinizin dinamik olarak büyümesini sağlamak için yinelenen verilere sahip satırlar ekleyin.

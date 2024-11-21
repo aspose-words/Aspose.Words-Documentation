@@ -7,6 +7,7 @@ description: "차트 기능 소개, C#를 사용하여 차트를 만들고 조�
 type: docs
 weight: 310
 url: /ko/net/working-with-charts/
+timestamp: 2024-02-05-15-07-18
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) 클래스에 새로운 [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) 메소드가 추가되었습니다. 그럼 [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) 방식을 이용하여 간단한 세로 막대형 차트를 문서에 삽입하는 방법을 알아보겠습니다.

@@ -7,6 +7,7 @@ description: "Form Fields 기능에 대한 이해 Java·"
 type: docs
 weight: 380
 url: /ko/java/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Fill-in blanks (fields)를 포함하는 문서는 양식으로 알려져 있습니다. 예를 들어 등록 양식을 작성할 수 있습니다. Microsoft Word 해당 사용자가 항목을 선택할 수 있는 드롭다운 목록을 사용합니다. 더 보기 `Form` 필드는 이름이나 주소와 같은 특정 유형의 데이터가 저장되는 위치입니다. 본문 바로가기 Microsoft Word 텍스트 입력, combobox 및 체크 박스가 포함되어 있습니다.

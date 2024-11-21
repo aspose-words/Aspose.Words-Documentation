@@ -7,6 +7,7 @@ description: "Kontrola wyglądu dokumentów Word biorąc pod uwagę różnicę m
 type: docs
 weight: 40
 url: /pl/java/work-with-word-document-options-and-appearance/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Czasami może być konieczna zmiana wyglądu dokumentu, na przykład, ustawić preferencje językowe lub liczbę wierszy na stronie.Aspose.Words zapewnia możliwość kontrolowania wyświetlania dokumentu oraz kilka dodatkowych opcji. Artykuł ten opisuje takie możliwości.

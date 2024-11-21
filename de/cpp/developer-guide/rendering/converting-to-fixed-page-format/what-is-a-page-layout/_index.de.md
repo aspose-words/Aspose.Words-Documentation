@@ -1,4 +1,4 @@
-﻿---
+---
 title: Was ist ein Seitenlayout in C++
 second_title: Aspose.Words für C++
 articleTitle: Was ist ein Seitenlayout
@@ -7,6 +7,7 @@ description: "Lassen Sie uns herausfinden, was ein Seitenlayout ist. Ein Seitenl
 type: docs
 weight: 5
 url: /de/cpp/what-is-a-page-layout/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Eine **document page layout** ist eine Datenstruktur, die beschreibt, wo sich ein bestimmtes Objekt auf Seiten für alle Dokumentobjekte befindet. Da Objekte Eigenschaften haben, die sich auf ihr Erscheinungsbild auswirken, z. B. Schriftgröße, Schattierung oder Zeichnungseffekte, müssen Sie außerdem nicht nur wissen, wo sich das Objekt befindet, sondern auch, welche Bereiche der Seite es einnimmt und ob es auf mehrere Seiten angewendet wird, damit andere Objekte nicht dieselben Bereiche überlappen.

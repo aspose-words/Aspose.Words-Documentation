@@ -1,4 +1,4 @@
-﻿---
+---
 title: Yazı Tipinin C++ içinde Değiştirildiğini Nasıl Anlayabilirim
 second_title: Aspose.Words için C++
 articleTitle: Yazı Tipinin Değiştirildiğini Nasıl Anlayabilirim
@@ -7,6 +7,7 @@ description: "Bir belgenin düzeninin neden değiştiğinden veya belirli bir ya
 type: docs
 weight: 13
 url: /tr/cpp/how-to-recognize-that-the-font-was-replaced/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Bazen belge düzeninin neden değiştiği veya bazı yazı tiplerinin neden beklendiği gibi görünmediği belirsiz olabilir. Bu gibi durumlarda, IWarningCallback arabirimi tarafından uygulanan yazı tipi değiştirme uyarı mesajları kurtarmaya gelir. [FontSubstitution](https://reference.aspose.com/words/cpp/aspose.words/warningtype/) uyarı türüne ve standart açıklama metni biçimine sahipler, "Font '<OriginalFont>' bulunamadı. Bunun yerine '<SubstitutionFont>' yazı tipini kullanarak. Sebep: <Reason>", aşağıdaki nedenlerle:

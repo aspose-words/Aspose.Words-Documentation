@@ -7,6 +7,7 @@ description: "外部データベースからドキュメントテーブルを埋
 type: docs
 weight: 130
 url: /ja/java/how-to-build-a-table-from-a-datatable/
+timestamp: 2024-01-27-14-07-04
 ---
 
 多くの場合、アプリケーションはデータベースからデータをプルし、そのフォームに格納します **DataTable**お問い合わせ このデータを新しいテーブルに簡単に追加し、テーブル全体に素早く書式を適用することができます。

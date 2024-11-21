@@ -8,6 +8,7 @@ description: "Chuyển đổi tài liệu ở bất kỳ định dạng tải đ
 keywords: how to convert a document to markdown c#
 weight: 40
 url: /vi/net/convert-a-document-to-markdown/
+timestamp: 2024-07-10-08-10-45
 ---
 
 Markdown là định dạng phổ biến được sử dụng để đánh dấu văn bản và chuyển đổi sang HTML, PDF, DOCX hoặc các định dạng khác. Nhiều nhà phát triển chọn định dạng này để viết tài liệu, chuẩn bị bài viết để xuất bản trên blog, mô tả dự án, v.v.

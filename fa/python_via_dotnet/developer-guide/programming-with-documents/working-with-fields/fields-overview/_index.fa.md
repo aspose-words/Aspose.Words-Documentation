@@ -7,6 +7,7 @@ description: "می توانید با استفاده از Python به اصلاح 
 type: docs
 weight: 10
 url: /fa/python-net/fields-overview/
+timestamp: 2024-10-21-11-17-44
 ---
 
 

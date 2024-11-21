@@ -7,6 +7,7 @@ description: "Giới thiệu tính năng hộp văn bản được liên kết t
 type: docs
 weight: 250
 url: /vi/net/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Trong Aspose.Words, lớp [TextBox](https://reference.aspose.com/words/net/aspose.words.drawing/textbox/) được sử dụng để chỉ định cách hiển thị văn bản bên trong hình dạng. Nó hiển thị một thuộc tính công khai có tên **Parent** để lấy hình dạng gốc cho hộp văn bản để khách hàng có thể tìm thấy [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) được liên kết từ **TextBox** được liên kết.

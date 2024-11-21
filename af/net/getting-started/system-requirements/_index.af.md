@@ -1,4 +1,4 @@
-﻿---
+---
 title: Stelselvereistes
 second_title: Aspose.Words vir .NET
 articleTitle: Stelselvereistes
@@ -7,6 +7,7 @@ description: "Voordat jy begin werk Aspose.Words vir .NET, verseker dat u aan di
 type: docs
 weight: 70
 url: /af/net/system-requirements/
+timestamp: 2024-02-01-16-17-05
 ---
 
 Aspose.Words vir .NET vereis nie dat enige derde party produk soos Microsoft Word geïnstalleer moet word nie. Aspose.Words self is'n enjin vir die skep, wysiging, omskakeling en weergawe van dokumente in verskillende formate, insluitend Microsoft Word dokumentformate.

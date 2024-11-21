@@ -7,6 +7,7 @@ description: "ライセンス Aspose.Words お問い合わせ Android お問い�
 type: docs
 weight: 60
 url: /ja/java/licensing-android/
+timestamp: 2024-02-02-12-07-36
 ---
 
 時々、システムをより良く勉強するために、できるだけ速くコードに飛び込みたい。 これを簡単にするために、 Aspose.Words 購入または無料トライアルと30日間の暫定ライセンスを付与するためのさまざまなプランを提供しています。

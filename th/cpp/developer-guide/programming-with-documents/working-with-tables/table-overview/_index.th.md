@@ -1,4 +1,4 @@
-﻿---
+---
 title: ภาพรวมของตาราง
 second_title: Aspose.WordsสำหรับC++
 articleTitle: ภาพรวมของตาราง
@@ -7,6 +7,7 @@ description: "ทำงานกับตารางและส่วนปร
 type: docs
 weight: 10
 url: /th/cpp/table-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Wordsเป็นไลบรารีชั้นที่ออกแบบมาสำหรับการประมวลผลฝั่งเซิร์ฟเวอร์ของเอกสารในรูปแบบต่างๆ–PDF,HTML,รูปแบบที่แตกต่างกันMicrosoft Wordและอื่นๆ-และสนับสนุนตารางด้วยวิธีต่อไปนี้:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge și raportarea în Python
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Mail Merge și raportare
@@ -8,6 +8,7 @@ description: "Mail Merge este o caracteristică populară pentru crearea rapidă
 keywords: "how to use mail merge python"
 weight: 30
 url: /ro/python-net/mail-merge-and-reporting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Mail Merge este o caracteristică populară pentru crearea rapidă și ușoară a documentelor, cum ar fi scrisori, etichete și plicuri. Aspose.Words vă permite să generați documente din șabloane cu mail merge câmpuri.

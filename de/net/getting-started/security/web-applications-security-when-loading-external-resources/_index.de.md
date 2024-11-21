@@ -7,6 +7,7 @@ type: docs
 description: "Wenn Sie Remote-Ressourcen belasten, kann dies ein Grund für Sicherheitsrisiken sein. Werfen Sie einen Blick auf häufige Sicherheitsprobleme und deren Lösungen mit C#."
 weight: 100
 url: /de/net/web-applications-security-when-loading-external-resources/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Standardmäßig kann Aspose.Words für .NET Remote-Ressourcen wie Bilder, CSS-Stile oder externe HTML-Dokumente laden, wenn Dokumente mit dem DocumentBuilder importiert oder Bilder eingefügt werden. Dieses Verhalten ermöglicht Ihnen die vollständige Verarbeitung Ihrer Dokumente, kann jedoch ein Grund für Sicherheitsrisiken sein, wenn die Bibliothek Teil einer Webanwendung ist.

@@ -7,6 +7,7 @@ type: docs
 description: "使用文档构建器轻松修改文档 Java。 。 。 。"
 weight: 20
 url: /zh/java/using-documentbuilder-to-modify-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## 指定格式

@@ -7,6 +7,7 @@ description: "Trabalhe com caixas de texto em um documento usando Python."
 type: docs
 weight: 250
 url: /pt/python-net/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 No Aspose.Words, a classe [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) é usada para especificar como um texto é exibido dentro de uma forma. Ele fornece uma propriedade pública chamada [parent](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/parent/) para obter o formato pai da caixa de texto para permitir que o cliente encontre [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) vinculado a partir de [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) vinculado.

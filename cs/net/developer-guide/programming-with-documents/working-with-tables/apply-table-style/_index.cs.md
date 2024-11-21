@@ -7,6 +7,7 @@ description: "Pokročilé formátování tabulky C#. Vytvořit styl tabulky pomo
 type: docs
 weight: 80
 url: /cs/net/working-with-tablestyle/
+timestamp: 2024-02-02-12-07-36
 ---
 
 Styl tabulky definuje soubor formátování, který lze snadno aplikovat na tabulku. Formátování jako jsou hranice, stínování, zarovnání a písmo lze nastavit ve stylu tabulky a aplikovat na mnoho tabulek pro konzistentní vzhled.

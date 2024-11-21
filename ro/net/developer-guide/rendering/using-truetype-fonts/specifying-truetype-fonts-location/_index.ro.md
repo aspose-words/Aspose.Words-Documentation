@@ -7,6 +7,7 @@ description: "Specifica diferite surse de fonturi TrueType: folderul sistemului,
 type: docs
 weight: 30
 url: /ro/net/specifying-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Acest subiect descrie comportamentul implicit al Aspose.Words atunci când caută fonturi TrueType, inclusiv diferențele specifice sistemului de operare, și demonstrează cum se pot specifica surse de font ale utilizatorului.

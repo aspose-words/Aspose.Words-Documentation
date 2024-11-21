@@ -7,6 +7,7 @@ description: "בחר את תקן PDF הטוב ביותר לייצא את התו�
 type: docs
 weight: 27
 url: /he/python-net/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 עבור משימות מסוימות, תקני PDF מסוימים יתאימו טוב יותר או להיפך גרועים יותר. במאמר זה ננסה לקבוע אילו תקני PDF עבור אילו מקרים זה הגיוני לבחור.

@@ -7,6 +7,7 @@ description: "مقدمة إلى سمة الرنج في Aspose.Words for Java."
 type: docs
 weight: 130
 url: /ar/java/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

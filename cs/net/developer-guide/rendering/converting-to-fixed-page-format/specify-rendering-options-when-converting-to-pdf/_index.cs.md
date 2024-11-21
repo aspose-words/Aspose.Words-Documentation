@@ -7,6 +7,7 @@ description: "Převést dokument do PDF s pokročilými možnostmi pomocí C#. P
 type: docs
 weight: 20
 url: /cs/net/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Formát PDF je formát pevné stránky, který je velmi populární mezi uživateli a široce podporován různými aplikacemi, protože PDF dokument vypadá stejně na každém zařízení. Z tohoto důvodu, konverze na PDF je důležitým rysem Aspose.Words.

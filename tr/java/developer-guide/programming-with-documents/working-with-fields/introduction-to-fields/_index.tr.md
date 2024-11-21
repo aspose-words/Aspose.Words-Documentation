@@ -7,6 +7,7 @@ description: "Alanlar özellik ayrıntıları, alan kodları ve alan sonuçları
 type: docs
 weight: 10
 url: /tr/java/introduction-to-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words sunucu tarafı işleme için tasarlanmış bir sınıf kütüphanesidir Microsoft Word belgeleri ve alanları aşağıdaki gibi destekler:

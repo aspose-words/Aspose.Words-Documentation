@@ -1,4 +1,4 @@
-﻿---
+---
 title: Conversia unui Document în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Conversia unui Document
@@ -8,6 +8,7 @@ description: "Convertiți cu ușurință documente dintr-un format în altul fol
 keywords: "convert a document c++, convert documents from one format to another c++, convert to markdown c++, convert pdf to docx C++, convert docx to pdf C++, convert doc to pdf C++, convert a document Aspose for C++"
 weight: 30
 url: /ro/cpp/convert-a-document/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Capacitatea de a converti cu ușurință și în mod fiabil documente dintr-un format în altul este una dintre principalele domenii caracteristice ale Aspose.Words. O astfel de conversie nu este altceva decât o combinație de operațiuni de încărcare și salvare.

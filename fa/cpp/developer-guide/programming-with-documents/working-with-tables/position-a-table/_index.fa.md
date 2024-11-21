@@ -1,4 +1,4 @@
-﻿---
+---
 title: موقعیت جدول در C++
 second_title: Aspose.Words برای C++
 articleTitle: یک جدول را قرار دهید
@@ -7,6 +7,7 @@ description: "موقعیت جدول را در C++ مشخص کنید. با است
 type: docs
 weight: 50
 url: /fa/cpp/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 جداول شناور و جداول خطی وجود دارد:

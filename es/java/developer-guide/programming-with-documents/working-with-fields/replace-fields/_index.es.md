@@ -7,6 +7,7 @@ description: "Aprende cómo reemplazar los campos con texto Java. Reemplazar cam
 type: docs
 weight: 37
 url: /es/java/replace-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Reemplazar campos se requiere a menudo cuando desea guardar su documento como una copia estática. Por ejemplo, cuando se envía como adjunto en un correo electrónico. Convertir campos como `DATE` o `TIME` a texto estático permitirá que el documento muestre la misma fecha que cuando fue enviado. Además, en algunas situaciones, es posible que necesite eliminar el condicional `IF` campos de su documento y reemplazarlos con el resultado de texto más reciente en su lugar. Por ejemplo, convertir el resultado del `IF` campo a texto estático para que ya no cambie dinámicamente su valor cuando se actualizan los campos del documento.

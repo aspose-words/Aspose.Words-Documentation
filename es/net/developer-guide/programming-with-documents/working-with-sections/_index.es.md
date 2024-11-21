@@ -7,6 +7,7 @@ description: "Comprender los conceptos de secciones de documentos y las práctic
 type: docs
 weight: 120
 url: /es/net/working-with-sections/
+timestamp: 2024-09-25-11-08-55
 ---
 
 A veces desea un documento que no tenga el mismo formato en todas las páginas. Por ejemplo, es posible que necesite modificar los formatos de los números de página, tener un tamaño y orientación de página diferentes, o tener la primera página del documento como portada sin ninguna numeración. Puedes lograrlo con secciones.

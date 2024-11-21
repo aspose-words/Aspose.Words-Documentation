@@ -1,4 +1,4 @@
-﻿---
+---
 title: Loading and Saving Documents
 second_title: Aspose.Words for .NET
 articleTitle: Loading and Saving Documents
@@ -7,6 +7,7 @@ description: "Loading and saving documents using Aspose.Words for .NET in PHP pr
 type: docs
 weight: 10
 url: /net/loading-and-saving-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 This section contains the following

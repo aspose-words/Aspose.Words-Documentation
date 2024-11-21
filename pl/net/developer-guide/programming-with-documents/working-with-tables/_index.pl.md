@@ -7,6 +7,7 @@ description: "Jak pracować z tabelami w C#. Wprowadzenie do pracy z tabelami i 
 type: docs
 weight: 190
 url: /pl/net/working-with-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 **tabela** w dokumencie to świetny sposób na uporządkowanie podobnych danych. Dlatego tabele są powszechnym elementem formatowania treści i są obsługiwane w tej czy innej formie przez większość formatów.

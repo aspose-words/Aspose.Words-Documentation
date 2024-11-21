@@ -8,6 +8,7 @@ type: docs
 weight: 80
 url: /net/insert-and-append-documents/
 aliases: [/net/join-and-append-documents/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 Sometimes it is required to combine several documents into one. You can do this manually or you can use Aspose.Words insert or append feature.

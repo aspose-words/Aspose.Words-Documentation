@@ -7,6 +7,7 @@ description: "การจัดรูปแบบแบบอักษรโด
 type: docs
 weight: 230
 url: /th/net/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 แบบอักษรคือชุดอักขระที่มีขนาด สี และการออกแบบที่แน่นอน Aspose.Words ช่วยให้คุณทำงานกับแบบอักษรโดยใช้เนมสเปซ [Fonts](https://reference.aspose.com/words/net/aspose.words.fonts/) และคลาส [Font](https://reference.aspose.com/words/net/aspose.words/font/)

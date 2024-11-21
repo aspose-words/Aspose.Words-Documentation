@@ -7,6 +7,7 @@ description: "Aspose.Words zamiast Java wdraża własny silnik układu stron umo
 type: docs
 weight: 10
 url: /pl/java/converting-to-fixed-page-format/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words wdraża własny układ strony silnika. Przed zagłębieniem się w jego specyfikacje warto najpierw omówić dokument na wysokim szczeblu. Myśląc o dokumencie, użytkownicy zazwyczaj wyobrażają sobie wiele arkuszy papieru zawierających słowa, obrazy, tabele i wykresy. Dokumenty mogą być różnych typów, takich jak tekst, arkusze kalkulacyjne, slajdy, rysunki CAD, wykresy, a zatem mogą mieć zasadniczo różne układy. Większość aplikacji pozwala na wysyłanie dokumentów do drukarki; jest to moment, w którym użytkownik może rzeczywiście zobaczyć końcowy zamierzony wygląd dokumentu.

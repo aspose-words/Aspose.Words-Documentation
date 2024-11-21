@@ -1,4 +1,4 @@
-﻿---
+---
 title: 清理之前或期间 Mail Merge 运作
 second_title: Aspose.Words 为 C++
 articleTitle: 清理之前或期间 Mail Merge 运作
@@ -8,6 +8,7 @@ description: "应用不同的清理和删除选项，例如在执行 mail merge 
 keywords: "cleanup options mail merge c#"
 weight: 10
 url: /zh/cpp/clean-up-before-or-during-mail-merge/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words 允许您应用不同的清理和删除选项，例如在执行 mail merge 在一个操作或删除未使用的区域 mail merge 操作。 本节将介绍如何删除合并的字段以及如何设置删除选项。

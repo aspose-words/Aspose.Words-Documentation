@@ -7,6 +7,7 @@ description: "출력 크기 및 처리 시간을 줄이기 위해 사용되거�
 type: docs
 weight: 30
 url: /ko/java/clean-up-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 때로는 출력 문서 및 처리 시간의 크기를 줄이기 위해 사용되거나 중복 정보를 제거해야합니다.

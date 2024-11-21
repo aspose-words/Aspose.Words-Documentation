@@ -7,6 +7,7 @@ description: "How to work with the Aspose.Words for SharePoint licenses."
 type: docs
 weight: 60
 url: /sharepoint/license-aspose-words-for-sharepoint/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## This section includes the following topics:

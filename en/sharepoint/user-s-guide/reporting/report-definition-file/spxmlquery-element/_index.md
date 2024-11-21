@@ -1,4 +1,4 @@
-﻿---
+---
 title: SPXmlQuery Element
 second_title: Aspose.Words for SharePoint
 articleTitle: SPXmlQuery Element
@@ -7,6 +7,7 @@ description: "SPListQueryelement element meaning and structure which may be used
 type: docs
 weight: 150
 url: /sharepoint/spxmlquery-element/
+timestamp: 2024-10-21-11-17-44
 ---
 
 The SPListQueryelement contains information an XML data file. This is not actually a query. It just specifies the location of an XML data file via server relative URL. The data file is just converted to a data set by using the .NET [System.Data.DataSet.ReadXml()](https://docs.microsoft.com/en-us/dotnet/api/system.data.dataset.readxml?view=net-6.0) method with inferred schema

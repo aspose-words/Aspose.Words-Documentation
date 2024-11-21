@@ -7,6 +7,7 @@ description: "Crea, modifica e salva il tuo primo documento in qualsiasi formato
 type: docs
 weight: 20
 url: /it/java/hello-world/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un "Ciao, Mondo!" codice è spesso il primo semplice esempio per scrivere uisng "Aspose.Words per Java", e può anche essere utilizzato come test di sanità per garantire che il software destinato a compilare o eseguire il codice sorgente sia installato correttamente.

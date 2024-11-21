@@ -7,6 +7,7 @@ description: "يوفر Aspose.Words for .NET فئات متنوعة للعمل م
 type: docs
 weight: 50
 url: /ar/net/work-with-office-add-ins/
+timestamp: 2024-01-27-14-07-04
 ---
 
 في بعض الأحيان قد ترغب في منح حق الوصول إلى عناصر تحكم الواجهة التي تقوم بتشغيل التعليمات البرمجية لتعديل المستندات. يوفر Aspose.Words API مساحة اسم `WebExtensions`، التي تمنح فئات مختلفة لتخصيص العناصر والسمات لتوسيع مفردات XML لتمثيل وظائف Office الإضافية.

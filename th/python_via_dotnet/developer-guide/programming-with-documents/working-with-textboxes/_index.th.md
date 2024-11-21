@@ -7,6 +7,7 @@ description: "ทำงานกับกล่องข้อความใน
 type: docs
 weight: 250
 url: /th/python-net/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ใน Aspose.Words คลาส [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) ใช้เพื่อระบุวิธีการแสดงข้อความภายในรูปร่าง โดยจัดเตรียมทรัพย์สินสาธารณะชื่อ [parent](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/parent/) เพื่อรับรูปร่างหลักสำหรับกล่องข้อความเพื่อให้ลูกค้าค้นหา [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) ที่เชื่อมโยงจาก [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) ที่เชื่อมโยง

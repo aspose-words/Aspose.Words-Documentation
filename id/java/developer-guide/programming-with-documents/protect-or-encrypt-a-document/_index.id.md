@@ -7,6 +7,7 @@ description: "Mengenkripsi dokumen, membatasi pengeditan, gunakan tanda tangan d
 type: docs
 weight: 50
 url: /id/java/protect-or-encrypt-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Alasan utama untuk melindungi atau mengenkripsi dokumen adalah untuk menerapkan lebih banyak kontrol yang dapat mengakses dokumen atau yang dapat mengeditnya. Menerapkan perlindungan pada dokumen Anda, Anda menghindari risiko umum seperti menyalin atau memodifikasi dokumen tanpa izin, serta kebocoran data.

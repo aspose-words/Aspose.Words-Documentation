@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在CMake项目中配置产品
 second_title: Aspose.Words为C++
 articleTitle: 配置 Aspose.Words为C++ 在CMake项目中
@@ -7,6 +7,7 @@ description: "配置 Aspose.Words为C++ 在你的CMake并构建你的应用程�
 type: docs
 weight: 90
 url: /zh/cpp/configure-aspose-words-for-cpp-in-cmake-project/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Aspose.Words为C++ API适用于任何GNU/Linux操作系统的CMake。 它可以是 [从官方网站下载](https://cmake.org/download/).

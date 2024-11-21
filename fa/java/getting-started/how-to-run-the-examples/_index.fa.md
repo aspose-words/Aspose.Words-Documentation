@@ -7,6 +7,7 @@ type: docs
 description: "دانلود بازی Download Aspose.Words برای Java مثال های ما GitHub مخزن و یادگیری چگونگی اجرای آنها برای آشنا شدن با Aspose.Words امکانات و ویژگی ها"
 weight: 130
 url: /fa/java/how-to-run-the-examples/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## دانلود بازی From GitHub

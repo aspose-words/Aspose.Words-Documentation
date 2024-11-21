@@ -7,6 +7,7 @@ description: "قم بالتحويل إلى PDF/A-1، وPDF/A-2، وPDF/A-4، وP
 type: docs
 weight: 25
 url: /ar/python-net/learn-features-of-conversion-to-pdf-a/
+timestamp: 2024-01-31-14-23-37
 ---
 
 PDF هو تنسيق صفحة ثابتة يحظى بشعبية كبيرة بين المستخدمين ويدعمه على نطاق واسع العديد من التطبيقات، حيث أن مستند PDF يبدو بنفس الشكل على أي جهاز. لهذا السبب، يعد التحويل إلى PDF ميزة مهمة في Aspose.Words.

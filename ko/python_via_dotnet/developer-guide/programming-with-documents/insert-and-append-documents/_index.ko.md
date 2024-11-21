@@ -7,6 +7,7 @@ description: "문서를 하나로 결합: 찾기 및 바꾸기, 필드 병합, �
 type: docs
 weight: 80
 url: /ko/python-net/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 때로는 여러 문서를 하나로 통합해야 하는 경우도 있습니다. 이 작업을 수동으로 수행하거나 Aspose.Words 삽입 또는 추가 기능을 사용할 수 있습니다.

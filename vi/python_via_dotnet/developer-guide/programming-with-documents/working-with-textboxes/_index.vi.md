@@ -7,6 +7,7 @@ description: "Làm việc với các hộp văn bản trong tài liệu bằng P
 type: docs
 weight: 250
 url: /vi/python-net/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Trong Aspose.Words, lớp [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) được sử dụng để chỉ định cách hiển thị văn bản bên trong hình dạng. Nó cung cấp một thuộc tính công khai có tên là [parent](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/parent/) để lấy hình dạng gốc cho hộp văn bản nhằm cho phép khách hàng tìm [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) được liên kết từ [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) được liên kết.

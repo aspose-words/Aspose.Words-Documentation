@@ -7,6 +7,7 @@ description: "Sostituisci il testo in una tabella in C#. Estrai testo semplice d
 type: docs
 weight: 60
 url: /it/net/work-with-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Come accennato negli articoli precedenti, una tabella solitamente contiene testo semplice, sebbene nelle celle della tabella sia possibile inserire altri contenuti come immagini o anche altre tabelle.

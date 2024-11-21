@@ -7,6 +7,7 @@ description: "Fitur tipografi tingkat lanjut menggunakan C#."
 type: docs
 weight: 25
 url: /id/net/enable-opentype-features/
+timestamp: 2024-07-10-14-38-57
 ---
 
 OpenType adalah format font, diperkenalkan untuk memberikan dukungan yang lebih baik untuk bahasa internasional dan sistem penulisan dibandingkan dengan PostScript dan TrueType. Fitur tata letak OpenType umumnya dikenal sebagai fitur OpenType. Paket Aspose.Words.Shaping.HarfBuzz menyediakan dukungan untuk fitur OpenType di Aspose.Words menggunakan mesin pembentuk teks HarfBuzz.

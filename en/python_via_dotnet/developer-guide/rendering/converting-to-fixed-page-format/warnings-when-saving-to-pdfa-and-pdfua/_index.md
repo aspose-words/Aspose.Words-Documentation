@@ -7,6 +7,7 @@ description: "PDF/A and PDF/UA impose accessibility requirements related to docu
 type: docs
 weight: 29
 url: /python-net/warnings-when-saving-to-pdfa-and-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 PDF/A and PDF/UA formats impose a number of accessibility requirements related to document content that cannot be fulfilled during automatic conversion from Word to PDF. These requirements are described in the previous article *"Working with PDF/A or PDF/UA"*. Now warnings are issued for some of these problems.

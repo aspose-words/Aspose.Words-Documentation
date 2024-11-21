@@ -7,6 +7,7 @@ description: "Aspose.Words вместо .NET позволява предаван
 type: docs
 weight: 20
 url: /bg/net/installing-truetype-fonts-on-linux/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Най-често ще използвате Aspose.Words за преобразуване на документи DOC или DOCX във формат PDF. Ако трябва да направите това на Linux машина, тази тема ще ви помогне да се научите как да се гарантира Aspose.Words представя документите ви с най-добра точност.

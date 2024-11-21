@@ -7,6 +7,7 @@ description: "高级 TXT 文档处理、列表、 BiDi、 页眉/页脚, 使用 
 type: docs
 weight: 430
 url: /zh/java/working-with-text-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 在本条中,我们将了解哪些备选办法有助于通过下列途径处理文本文件: Aspose.Words。 。 。 请注意,这不是一份完整的现有备选方案清单,而只是与其中一些备选方案合作的例子。

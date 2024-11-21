@@ -7,6 +7,7 @@ description: "Memahami fitur Bidang Formulir, bekerja dengan Bidang Formulir men
 type: docs
 weight: 380
 url: /id/net/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Dokumen yang berisi isian (kolom) disebut formulir. Misalnya, Anda bisa membuat formulir pendaftaran di Microsoft Word yang menggunakan daftar drop-down di mana pengguna dapat memilih entri. Bidang `Form` adalah lokasi penyimpanan tipe data tertentu, seperti nama atau alamat. Bidang formulir di Microsoft Word mencakup input teks, kotak kombo, dan kotak centang.

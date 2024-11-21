@@ -7,6 +7,7 @@ type: docs
 description: "مقدمه ای بر شکل دادن زبان نشانه گذاری، ایجاد شکل های مختلف با استفاده از انواع مختلف Java..."
 weight: 280
 url: /fa/java/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 این موضوع بحث می کند که چگونه با استفاده از اشکال کار کنیم Aspose.Words...

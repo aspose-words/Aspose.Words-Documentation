@@ -7,6 +7,7 @@ description: "Alanları Python'teki bir belgeye farklı şekillerde ekleyin: `Do
 type: docs
 weight: 20
 url: /tr/python-net/inserting-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Bir belgeye alan eklemenin birkaç farklı yolu vardır:

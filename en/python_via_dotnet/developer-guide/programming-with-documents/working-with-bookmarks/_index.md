@@ -8,6 +8,7 @@ type: docs
 weight: 180
 url: /python-net/working-with-bookmarks/
 aliases: [/python/working-with-bookmarks/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bookmarks identify in a Microsoft Word document the locations or fragments that you name and identify for future reference. For example, you might use a bookmark to identify text that you want to revise later. Instead of scrolling through the document to locate the text, you can go to it by using the Bookmark dialog box.

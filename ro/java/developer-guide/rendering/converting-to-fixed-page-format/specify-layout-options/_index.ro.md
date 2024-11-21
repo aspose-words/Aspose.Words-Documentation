@@ -1,4 +1,4 @@
-﻿---
+---
 title: Specificați opțiunile de aspect în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Specificați Opțiunile De Aspect
@@ -7,6 +7,7 @@ description: "Creați documente de ieșire cu diferite machete, în funcție de 
 type: docs
 weight: 10
 url: /ro/java/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words vă permite să creați documente de ieșire cu diferite machete, în funcție de parametrii specificați în proprietatea [LayoutOptions](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/) a **Document**. Această proprietate seamănă cu unele dintre opțiunile de meniu ale interfeței cu utilizatorul Microsoft Word descrise în acest articol.

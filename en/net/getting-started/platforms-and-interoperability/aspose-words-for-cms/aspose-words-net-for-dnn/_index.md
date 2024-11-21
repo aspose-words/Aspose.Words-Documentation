@@ -7,6 +7,7 @@ description: "Integrating Aspose.Words for .NET with DNN content management syst
 type: docs
 weight: 10
 url: /net/aspose-words-net-for-dnn/
+timestamp: 2024-01-27-14-07-04
 ---
 
 This section has the following topics:

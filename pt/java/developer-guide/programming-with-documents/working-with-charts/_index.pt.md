@@ -7,6 +7,7 @@ description: "Introdução ao recurso Gráfico, como criar e manipular gráficos
 type: docs
 weight: 310
 url: /pt/java/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 O novo [insertChart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertChart-int-double-double) método foi adicionado ao [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) classe. Então, vamos ver como inserir um gráfico de colunas simples no documento usando **inserção Gráfico** método.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bắt Đầu
 second_title: Aspose.Words cho C++
 articleTitle: Bắt Đầu
@@ -7,6 +7,7 @@ type: docs
 description: "Sử dụng phần giới thiệu này để Aspose.Words cho C++ các nguyên tắc cơ bản để bắt đầu nhận ra giá trị của Aspose.Words cho doanh nghiệp của bạn."
 weight: 10
 url: /vi/cpp/getting-started/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Điều Này Bắt đầu cung cấp một giới thiệu về Aspose.Words nguyên tắc cơ bản. Đối với người dùng mới đến Aspose.Words, đây là cách nhanh nhất để tìm hiểu các yêu cầu và khả năng cơ bản.

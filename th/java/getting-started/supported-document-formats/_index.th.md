@@ -7,6 +7,7 @@ type: docs
 description: "แก้ไขเอกสารต้นฉบับในรูปแบบที่นิยมหลายรูปแบบ รวมถึงเปลี่ยนแฟ้มจากรูปแบบหนึ่งเป็นรูปแบบอื่น ๆ ด้วย Java."
 weight: 30
 url: /th/java/supported-document-formats/
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

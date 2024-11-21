@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++でのTrueTypeフォントの操作と置換
 second_title: C++の場合Aspose.Words
 articleTitle: TrueTypeフォントの操作と置換
@@ -7,6 +7,7 @@ description: "C++の場合Aspose.Words 結果のドキュメントに正しいTr
 type: docs
 weight: 10
 url: /ja/cpp/manipulate-and-substitute-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words では、ドキュメントを固定ページ形式 (PDF や XPS など) にレンダリングするなど、さまざまなタスクに TrueType フォントが必要です。Aspose.Words がドキュメントをレンダリングする場合、結果のドキュメントに TrueType フォントの埋め込みとサブセット埋め込みを実行する必要があります。これは、一般的な PDF や XPS 形式を含むドキュメント生成時の通常の方法です。これにより、ドキュメントはどのビューアーでも同じように見えます。さらに、XPS 仕様では、フォントを常にドキュメントに埋め込む必要があります。

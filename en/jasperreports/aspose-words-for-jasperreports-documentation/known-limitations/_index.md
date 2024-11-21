@@ -1,4 +1,4 @@
-﻿---
+---
 title: Known Limitations
 second_title: Aspose.Words for JasperReports
 articleTitle: Known Limitations
@@ -7,6 +7,7 @@ description: "The following features are not currently supported by Aspose.Words
 type: docs
 weight: 110
 url: /jasperreports/known-limitations/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

@@ -7,6 +7,7 @@ description: ".NET용 Aspose.Words에 설명된 세부 정보, 필드 코드 및
 type: docs
 weight: 10
 url: /ko/net/fields-overview/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words는 Microsoft Word 문서의 서버측 처리를 위해 설계된 클래스 라이브러리이며 다음과 같은 방식으로 필드를 지원합니다

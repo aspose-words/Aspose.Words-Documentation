@@ -1,4 +1,4 @@
-﻿---
+---
 title: Omskep Dokument na HTML
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Skakel'n Dokument om na HTML, MHTML of EPUB
@@ -7,6 +7,7 @@ description: "Skakel'n dokument van byna enige formaat na HTML of MHTML, sowel a
 type: docs
 weight: 20
 url: /af/python-net/convert-a-document-to-html-mhtml-or-epub/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Dokumente in HTML en MHTML vloei-uitleg formate is ook baie gewild en kan gebruik word op enige web platform. Om daardie rede is die omskakeling van dokumente na HTML en MHTML 'n belangrike kenmerk van Aspose.Words.

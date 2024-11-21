@@ -7,6 +7,7 @@ description: "如何在C#中合併表格單元格。 以C#檢查表格中的單�
 type: docs
 weight: 40
 url: /zh-hant/net/working-with-merged-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有時某些列在一個表格中需要標頭或寬度佔滿整張桌子的文本大塊。 若要正確設計表格，使用者可以將多個表格单元格合併成一個。Aspose.Words 在處理所有輸入格式時支援合併的單元格，包括從 HTML內容進口。

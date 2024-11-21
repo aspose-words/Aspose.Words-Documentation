@@ -7,6 +7,7 @@ description: "Specify Layout Options for various document layouts."
 type: docs
 weight: 20
 url: /cpp/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words enables you to create output documents with various layouts, depending on the parameters specified in the [LayoutOptions](https://reference.aspose.com/words/cpp/class/aspose.words.layout.layout_options) property of the **Document**. This property resembles some of the Microsoft Word user interface menu options described in this article.

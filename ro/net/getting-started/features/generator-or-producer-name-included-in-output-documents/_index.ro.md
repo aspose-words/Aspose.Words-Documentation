@@ -7,6 +7,7 @@ description: "Aspose.Words pentru .NET adaugă la document numele generatorului 
 type: docs
 weight: 60
 url: /ro/net/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Poţi cu uşurinţă să-ţi dai seama dacă un document este produs utilizând Aspose.Words pentru .NET. De asemenea, puteți găsi numărul de versiune al Aspose.Words pentru .NET care a fost utilizat pentru a crea un anumit document de ieșire. Aspose.Words scrie direct această informație în documentul generat.

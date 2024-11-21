@@ -7,6 +7,7 @@ description: "Een document afdrukken op een Server het gebruik van de niet-behee
 type: docs
 weight: 55
 url: /nl/net/print-a-document-programmatically-or-using-dialogs/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Dit artikel beschrijft hoe je een tekstverwerkingsdocument afdrukt van een ASP.NET of Windows Servicetoepassing gebruiken Aspose.Words en de `XpsPrint` API. Het toont ook de methoden voor het afdrukken van een document met Instellingen, Print preview en Print voortgangsdialogen, en legt uit hoe de tijd van de eerste oproep om een document af te drukken te verminderen.

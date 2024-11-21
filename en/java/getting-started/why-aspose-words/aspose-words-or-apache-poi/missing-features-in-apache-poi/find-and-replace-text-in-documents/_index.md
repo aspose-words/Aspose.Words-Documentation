@@ -7,6 +7,7 @@ description: "Find and replace text or strings. Apache POI does not provide an o
 type: docs
 weight: 30
 url: /java/find-and-replace-text-in-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

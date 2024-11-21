@@ -7,6 +7,7 @@ description: "Substitua o texto em uma tabela em Python. Extraia texto simples d
 type: docs
 weight: 60
 url: /pt/python-net/work-with-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Conforme mencionado em artigos anteriores, uma tabela geralmente contém texto simples, embora outros conteúdos, como imagens ou mesmo outras tabelas, possam ser colocados nas células da tabela.

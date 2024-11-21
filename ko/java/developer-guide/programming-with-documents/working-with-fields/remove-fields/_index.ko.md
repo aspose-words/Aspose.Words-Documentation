@@ -7,6 +7,7 @@ description: "필드를 제거하는 방법 알아보기 Java· 을 제거 필�
 type: docs
 weight: 35
 url: /ko/java/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 때로는 문서에서 필드를 제거해야합니다. 다른 필드 유형으로 대체 될 때 또는 필드가 문서에 더 이상 필요하지 않을 때 발생할 수 있습니다. 예를 들어 `TOC` HTML에 저장할 때 필드.

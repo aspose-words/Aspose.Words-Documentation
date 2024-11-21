@@ -7,6 +7,7 @@ description: "Cómo fusionar celdas de tablas en Python. Compruebe si las celdas
 type: docs
 weight: 40
 url: /es/python-net/working-with-merged-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A veces, determinadas filas de una tabla requieren un encabezado o grandes bloques de texto que ocupan todo el ancho de la tabla. Para un diseño adecuado de la tabla, el usuario puede fusionar varias celdas de la tabla en una. Aspose.Words admite celdas combinadas cuando se trabaja con todos los formatos de entrada, incluida la importación de contenido HTML.

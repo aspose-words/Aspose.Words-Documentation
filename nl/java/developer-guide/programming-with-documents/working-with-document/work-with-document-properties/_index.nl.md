@@ -7,6 +7,7 @@ description: "Aspose.Words voor Java laat het opslaan van nuttige informatie ove
 type: docs
 weight: 10
 url: /nl/java/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Documenteigenschappen kunnen nuttige informatie over uw document opslaan. Deze eigenschappen kunnen in twee groepen worden onderverdeeld:

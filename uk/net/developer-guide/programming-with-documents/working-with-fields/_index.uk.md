@@ -7,6 +7,7 @@ description: "Вступ до польової функції в Aspose.Words д
 type: docs
 weight: 370
 url: /uk/net/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 **Fields** в документі є власниками, де можна вставляти корисні дані. Наприклад, поле може бути посилання на сторінку, формула або mail merge поле.

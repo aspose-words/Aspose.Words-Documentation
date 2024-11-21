@@ -1,4 +1,4 @@
-﻿---
+---
 title: Работа с TextBoxes в C++
 second_title: Aspose.Words для C++
 articleTitle: Работа с TextBoxes
@@ -7,6 +7,7 @@ description: "Введение в функцию связанных тексто
 type: docs
 weight: 250
 url: /ru/cpp/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 В Aspose.Words класс [TextBox](https://reference.aspose.com/words/cpp/aspose.words.drawing/textbox/) используется для указания способа отображения текста внутри фигуры. Он предоставляет общедоступное свойство с именем **Parent**, позволяющее получить родительскую фигуру для текстового поля, чтобы пользователь мог найти связанный [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/) из связанного **TextBox**.

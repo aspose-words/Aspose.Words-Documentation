@@ -7,6 +7,7 @@ description: "با استفاده از Python به سبک ها و تم ها در
 type: docs
 weight: 110
 url: /fa/python-net/working-with-styles-and-themes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 کلاس [StyleCollection](https://reference.aspose.com/words/python-net/aspose.words/stylecollection/) برای مدیریت داخلی و اعمال تنظیمات تعریف شده توسط کاربر برای استایل ها استفاده می شود.

@@ -7,6 +7,7 @@ type: docs
 description: "تارنسلا Markdown إلى الأمين العام Document Object Model و أعود حتى تتمكن من العمل مع المعقد الموجود Markdown وخلق البرامج Markdown المستند من الصفر Java."
 weight: 20
 url: /ar/java/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 للقراءة والتلاعب وتعديل محتوى وشكل الوثيقة، عليك أن تترجمها إلى Aspose.Words Document Object Model )أ(DOM)

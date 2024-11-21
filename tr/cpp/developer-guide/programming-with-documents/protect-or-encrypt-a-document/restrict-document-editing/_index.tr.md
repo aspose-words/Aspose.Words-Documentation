@@ -1,4 +1,4 @@
-﻿---
+---
 title: Belge Düzenlemeyi C++ ile Sınırla
 second_title: Aspose.Words için C++
 articleTitle: Belge Düzenlemeyi Kısıtla
@@ -7,6 +7,7 @@ description: "C++ kullanarak bir kısıtlama türü ayarlayarak bir belgeyi düz
 type: docs
 weight: 30
 url: /tr/cpp/restrict-document-editing/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bazen bir belgeyi düzenleme yeteneğini sınırlamanız ve yalnızca onunla belirli eylemlere izin vermeniz gerekebilir. Bu, diğer kişilerin belgenizdeki hassas ve gizli bilgileri düzenlemesini önlemek için yararlı olabilir.

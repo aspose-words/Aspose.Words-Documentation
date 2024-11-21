@@ -7,6 +7,7 @@ description: "Cara menggabungkan sel tabel di C#. Periksa apakah sel dalam tabel
 type: docs
 weight: 40
 url: /id/net/working-with-merged-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Terkadang baris tertentu dalam tabel memerlukan judul atau blok teks besar yang memenuhi seluruh lebar tabel. Untuk desain tabel yang benar, pengguna dapat menggabungkan beberapa sel tabel menjadi satu. Aspose.Words mendukung sel gabungan saat bekerja dengan semua format masukan, termasuk mengimpor konten HTML.

@@ -7,6 +7,7 @@ description: "Làm thế nào để thao tác với ghi chú cuối trang và gh
 type: docs
 weight: 160
 url: /vi/java/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words cũng cung cấp một số lớp, phương thức và thuộc tính để làm việc với ghi chú chân trang và cuối trang.

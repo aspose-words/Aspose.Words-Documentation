@@ -7,6 +7,7 @@ description: "المعزَّز Microsoft Word الملامح الشكلية، ا
 type: docs
 weight: 110
 url: /ar/java/working-with-styles-and-themes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 The [StyleCollection](https://reference.aspose.com/words/java/com.aspose.words/stylecollection/) ويُستخدم الفصل في إدارة عمليات البناء وتطبيق البيئات المحددة للمستعملين على الأساليب.

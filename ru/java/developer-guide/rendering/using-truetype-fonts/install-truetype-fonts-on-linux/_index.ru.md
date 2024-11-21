@@ -7,6 +7,7 @@ description: "Aspose.Words для Java позволяет визуализиро
 type: docs
 weight: 20
 url: /ru/java/install-truetype-fonts-on-linux/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Чаще всего вы будете использовать Aspose.Words Преобразование документов DOC или DOCX в формат PDF. Если вам нужно сделать это на Linux Машина, эта тема поможет вам узнать, как обеспечить Aspose.Words Мы делаем ваши документы с лучшей точностью.

@@ -7,6 +7,7 @@ description: "Określ opcje układu dla różnych układów dokumentów za pomoc
 type: docs
 weight: 10
 url: /pl/net/specify-layout-options/
+timestamp: 2024-07-10-08-10-45
 ---
 
 Aspose.Words umożliwia tworzenie dokumentów wyjściowych o różnych układach, w zależności od parametrów określonych we właściwościach klasy [LayoutOptions](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/). Niektóre z tych właściwości przypominają niektóre opcje menu interfejsu użytkownika Microsoft Word – zostaną one opisane w tym artykule.

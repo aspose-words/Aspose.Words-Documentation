@@ -7,6 +7,7 @@ description: "高度な Microsoft Word フォーマット機能。C# を使用�
 type: docs
 weight: 110
 url: /ja/net/working-with-styles-and-themes/
+timestamp: 2024-10-24-11-44-28
 ---
 
 [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) クラスは、組み込みの設定を管理し、スタイルにユーザー定義の設定を適用するために使用されます。

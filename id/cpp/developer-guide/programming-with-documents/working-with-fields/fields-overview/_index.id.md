@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tinjauan Bidang dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Tinjauan Bidang
@@ -7,6 +7,7 @@ description: "Fitur bidang dalam detail, kode bidang, dan hasil bidang dijelaska
 type: docs
 weight: 10
 url: /id/cpp/fields-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words adalah pustaka kelas yang dirancang untuk pemrosesan sisi server dokumen Microsoft Word dan mendukung bidang dengan cara berikut:

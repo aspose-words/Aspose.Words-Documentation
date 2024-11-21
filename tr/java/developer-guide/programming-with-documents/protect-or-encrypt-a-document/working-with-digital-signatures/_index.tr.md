@@ -7,6 +7,7 @@ description: "Dijital olarak belgeleri imzala ve mevcut dijital imzaları tespit
 type: docs
 weight: 30
 url: /tr/java/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bir dijital imza, imzalamak ve imzalayanı doğrulamak için elektronik imzaların teknolojik uygulamasıdır, böylece belgenin o imzalandığından beri değiştirilmediğini garanti eder. Her dijital imza, her imzalayan için benzersizdir çünkü hem kamusal hem de özel anahtarları oluşturmak için PKI protokolünü izler. Bir belgeyi dijital olarak imzalamak, imzalayanın özel anahtarını kullanarak bir matematiksel algoritmanın şifrelemesini kullandığı bir imza oluşturmakla ilgilidir.

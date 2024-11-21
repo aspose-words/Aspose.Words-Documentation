@@ -1,4 +1,4 @@
-﻿---
+---
 title: システム要件
 second_title: C++の場合Aspose.Words
 articleTitle: システム要件
@@ -7,6 +7,7 @@ description: "で作業を開始する前に C++の場合Aspose.Words、オペ�
 type: docs
 weight: 70
 url: /ja/cpp/system-requirements/
+timestamp: 2024-07-11-16-13-28
 ---
 
 C++の場合Aspose.Words Microsoft Wordなどのサードパーティ製品をインストールする必要はありません。 Aspose.Words自体は、Microsoft Wordドキュメント形式を含むさまざまな形式のドキュメントを作成、変更、変換、およびレンダリングするためのエンジンです。

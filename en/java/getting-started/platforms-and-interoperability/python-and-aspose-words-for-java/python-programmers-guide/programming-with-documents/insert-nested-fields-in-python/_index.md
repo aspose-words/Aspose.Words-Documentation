@@ -1,4 +1,4 @@
-﻿---
+---
 title: Insert Nested Fields in Python
 second_title: Aspose.Words for Java
 articleTitle: Insert Nested Fields in Python
@@ -7,6 +7,7 @@ description: "Insert Nested Fields using Python."
 type: docs
 weight: 60
 url: /java/insert-nested-fields-in-python/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Insert Nested Fields

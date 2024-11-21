@@ -1,4 +1,4 @@
-﻿---
+---
 title: Feature Overview
 second_title: Aspose.Words for Reporting Services
 articleTitle: Feature Overview
@@ -7,6 +7,7 @@ description: "Feature overview of the Aspose.Words for Reporting Services."
 type: docs
 weight: 10
 url: /reportingservices/feature-overview/
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

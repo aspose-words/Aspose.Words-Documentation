@@ -1,4 +1,4 @@
-﻿---
+---
 title: Imbricate Mail Merge cu regiuni în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Imbricate Mail Merge cu regiuni
@@ -8,6 +8,7 @@ description: "Efectuați o operație mail merge cu regiuni imbricate folosind C+
 keywords: "mail merge with nested regions c++"
 weight: 30
 url: /ro/cpp/nested-mail-merge-with-regions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 În unele scenarii, poate fi necesar să utilizați imbricate mail merge cu regiuni. Îmbinarea imbricată este o caracteristică care vă permite să îmbinați datele ierarhice din sursa de date în șablonul de îmbinare pentru a popula cu ușurință documentul. Practic, datele ierarhice sunt reprezentate ca un set de elemente de date, iar relațiile ierarhice descriu modul în care elementele de date sunt legate între ele (un element de date este părintele altuia).

@@ -7,6 +7,7 @@ description: "جدول تقسیم شده در Java... چگونه یک جدول �
 type: docs
 weight: 100
 url: /fa/java/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 یک میز، نماینده در Aspose.Words Document Object Model, از ردیف ها و سلول های مستقل تشکیل شده و تقسیم یک جدول را آسان می کند.

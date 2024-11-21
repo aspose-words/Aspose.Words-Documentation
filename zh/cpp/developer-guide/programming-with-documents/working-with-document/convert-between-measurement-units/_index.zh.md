@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在C++中的测量单位之间转换
 second_title: Aspose.Words对于C++
 articleTitle: 在测量单位之间转换
@@ -7,6 +7,7 @@ description: "Aspose.Words对于C++ 可以帮助您如何在测量单位之间�
 type: docs
 weight: 20
 url: /zh/cpp/convert-between-measurement-units/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.WordsAPI中提供的大多数表示某些度量的对象属性（如宽度或高度、边距和各种距离）都接受以点为单位的值，其中1英寸等于72点。 有时这不方便，需要将积分转换为其他单位。

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Stoor'n Dokument in C++
 second_title: Aspose.Words vir C++
 articleTitle: Stoor'n Dokument
@@ -8,6 +8,7 @@ description: "Stoor'n dokument in enige ondersteun formaat met behulp van C++."
 keywords: "save a document c++, save a document to file c++, save a document to stream c++, save a document Aspose C++, save formats supported by Aspose.Words C++"
 weight: 20
 url: /af/cpp/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Die meeste van die take wat u met Aspose.Words moet uitvoer, behels die stoor van'n dokument. Om'n dokument te stoor Aspose.Words bied die [Save](https://reference.aspose.com/words/cpp/aspose.words/document/save/) metode van die [Document](https://reference.aspose.com/words/cpp/aspose.words/document/) klas. Die dokument kan gestoor word in enige stoor formaat ondersteun deur Aspose.Words. Vir die lys van alle ondersteunde stoor formate, sien die [SaveFormat](https://reference.aspose.com/words/cpp/aspose.words/saveformat/) opsomming.

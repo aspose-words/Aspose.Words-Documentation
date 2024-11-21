@@ -7,6 +7,7 @@ description: "Szczegóły kształtów obrazów i zaawansowane funkcje oferowane 
 type: docs
 weight: 300
 url: /pl/net/working-with-images/
+timestamp: 2024-05-02-11-51-44
 ---
 
 Aspose.Words pozwala użytkownikom pracować z obrazami w bardzo elastyczny sposób. W tym artykule możesz poznać tylko niektóre możliwości pracy z obrazami.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ライセンスとサブスクリプション
 second_title: C++の場合Aspose.Words
 articleTitle: ライセンスとサブスクリプション
@@ -7,6 +7,7 @@ description: "Aspose.WordsFor С++は、購入のためのさまざまなプラ�
 type: docs
 weight: 60
 url: /ja/cpp/licensing/
+timestamp: 2024-10-24-11-44-28
 ---
 
 場合によっては、システムをよりよく研究するために、できるだけ早くコードに飛び込みたいと思うことがあります。 これを容易にするために、Aspose.Wordsは購入のための異なる計画を提供するか、または評価のための無料試用版と30日間の一時的なライセンスを提供します。

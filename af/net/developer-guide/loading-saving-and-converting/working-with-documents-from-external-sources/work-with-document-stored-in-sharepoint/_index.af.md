@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met'n Dokument Gestoor In'n `SharePoint` Aanlyn
 second_title: Aspose.Words vir .NET
 articleTitle: Werk Met'n Dokument Gestoor In'n `SharePoint` Aanlyn
@@ -7,6 +7,7 @@ description: "Skakel woord gedeel in SharePoint om na PDF met behulp van C#. Wer
 type: docs
 weight: 20
 url: /af/net/work-with-document-stored-in-sharepoint/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Microsoft SharePoint Online Is'n versameling webgebaseerde tegnologieë wat dit maklik maak vir organisasies om digitale inligting te stoor, te deel en te bestuur. Jy kan werk met dokumente gestoor in die gids "Gedeelde Dokumente" in SharePoint met behulp van ons kragtige Aspose.Words vir .NET.

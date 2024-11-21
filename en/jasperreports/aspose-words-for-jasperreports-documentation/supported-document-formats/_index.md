@@ -1,4 +1,4 @@
-﻿---
+---
 title: Supported Document Formats
 second_title: Aspose.Words for JasperReports
 articleTitle: Supported Document Formats
@@ -7,6 +7,7 @@ description: "The following table indicates the file formats in which the `Jaspe
 type: docs
 weight: 20
 url: /jasperreports/supported-document-formats/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Supported Output Formats

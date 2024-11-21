@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++中的字体操作和性能问题
 second_title: Aspose.Words对于C++
 articleTitle: 字体操作和性能问题
@@ -7,6 +7,7 @@ description: "Aspose.Words对于C++ 使用字体全名，姓氏，版本，样�
 type: docs
 weight: 11
 url: /zh/cpp/font-manipulation-and-performance-issues/
+timestamp: 2024-09-24-14-35-44
 ---
 
 所有可用的字体操作机制都包含在[FontSettings](https://reference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings)类中。 此类负责在定义的字体源中获取字体以及字体替换过程，如下所述。

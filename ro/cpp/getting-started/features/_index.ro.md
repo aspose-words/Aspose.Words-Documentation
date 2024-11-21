@@ -1,4 +1,4 @@
-﻿---
+---
 title: Caracteristici
 second_title: Aspose.Words pentru C++
 articleTitle: Caracteristici Acceptate
@@ -7,6 +7,7 @@ description: "Aspose.Words pentru C++ oferă utilizatorilor o gamă largă de fu
 type: docs
 weight: 40
 url: /ro/cpp/features/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words oferă utilizatorilor o gamă largă de caracteristici. Utilizatorii pot efectua o cantitate imensă de sarcini legate de documente-de la simpla conversie a documentelor dintr – un format acceptat în altul și modificarea acestor documente în timpul procesului de conversie în sarcini de afaceri, cum ar fi crearea de documente structurate și atrăgătoare din punct de vedere vizual sau automatizarea raportării.

@@ -7,6 +7,7 @@ description: "C#를 사용한 고급 TXT 문서 처리, 목록, BiDi, 머리글/
 type: docs
 weight: 430
 url: /ko/net/working-with-text-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 이 기사에서는 Aspose.Words를 통해 텍스트 문서 작업에 유용한 옵션이 무엇인지 알아봅니다. 이는 사용 가능한 옵션의 전체 목록이 아니며 일부 옵션에 대한 작업 예일 뿐입니다.

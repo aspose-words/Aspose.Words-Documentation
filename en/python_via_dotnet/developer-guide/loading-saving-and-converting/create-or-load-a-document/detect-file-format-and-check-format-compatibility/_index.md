@@ -8,6 +8,7 @@ type: docs
 weight: 20
 url: /python-net/detect-file-format-and-check-format-compatibility/
 aliases: [/python/detect-file-format-and-check-format-compatibility/]
+timestamp: 2024-10-21-11-17-44
 ---
 
 Sometimes it is necessary to determine the format of a document before opening because the file extension does not guarantee that the contents of the file are appropriate. For example, it is known that Crystal Reports often outputs documents in RTF format, but gives them the .doc extension.

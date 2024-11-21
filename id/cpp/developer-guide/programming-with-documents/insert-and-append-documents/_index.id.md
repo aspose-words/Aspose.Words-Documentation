@@ -1,4 +1,4 @@
-﻿---
+---
 title: Menyisipkan dan Menambahkan Dokumen dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Menyisipkan dan Menambahkan Dokumen
@@ -7,6 +7,7 @@ description: "Menggabungkan dokumen menjadi satu: menyisipkan atau menambahkan d
 type: docs
 weight: 80
 url: /id/cpp/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Terkadang diperlukan untuk menggabungkan beberapa dokumen menjadi satu. Anda dapat melakukannya secara manual atau menggunakan fitur Aspose.Words insert atau append.

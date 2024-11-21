@@ -7,6 +7,7 @@ description: "将 PDF 转换为 Excel, XML 转换为 Excel, DOCX 转换为 Excel
 type: docs
 weight: 15
 url: /zh/java/convert-a-document-to-excel/
+timestamp: 2024-01-31-14-23-37
 ---
 
 将文档从一种格式转换到另一种格式是旗舰特性 Aspose.Words。 。 。 。 您可以在任何可用的文档中转换文档 [装入格式](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) ưμ㼯A

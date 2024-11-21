@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu secțiuni în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Lucrul cu secțiuni
@@ -7,6 +7,7 @@ description: "Înțelegerea conceptelor secțiunii de documente și a practicilo
 type: docs
 weight: 120
 url: /ro/java/working-with-sections/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Uneori doriți un document care nu are aceeași formatare pe toate paginile. De exemplu, poate fi necesar să modificați formatele numărului de pagină, să aveți dimensiuni și orientări diferite ale paginii sau să aveți prima pagină a documentului ca pagină de copertă fără nicio numerotare. Puteți realiza acest lucru cu secțiuni.

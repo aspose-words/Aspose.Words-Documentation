@@ -7,6 +7,7 @@ description: "แปลงเป็น PDF/ A-1, PDF/ A-2, PDF/ A-4 และ PD
 type: docs
 weight: 25
 url: /th/java/learn-features-of-conversion-to-pdf-a-pdf-ua/
+timestamp: 2024-01-31-14-23-37
 ---
 
 PDF เป็นรูปแบบหน้าคงที่ที่ได้รับความนิยมมากในหมู่ผู้ใช้ และได้รับการรองรับอย่างกว้างขวางจากโปรแกรมต่าง ๆ เนื่องจากเอกสาร PDF ดูเหมือนกันกับอุปกรณ์ใด ๆ ด้วยเหตุผลนี้ การแปลงเป็น PDF เป็นคุณสมบัติสําคัญของ Aspose.Words.

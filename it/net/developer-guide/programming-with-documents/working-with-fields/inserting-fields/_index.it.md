@@ -7,6 +7,7 @@ description: "Come inserire campi in un documento utilizzando C#: impara diversi
 type: docs
 weight: 20
 url: /it/net/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Esistono diversi modi per inserire campi in un documento:

@@ -7,6 +7,7 @@ description: "Tabellenposition in Java. Erhalten Sie eine Tischausrichtung, erha
 type: docs
 weight: 50
 url: /de/java/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Es gibt Floating-Tabellen und Inline-Tabellen:

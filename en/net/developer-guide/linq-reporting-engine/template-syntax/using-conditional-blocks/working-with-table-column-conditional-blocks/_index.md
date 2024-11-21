@@ -7,6 +7,7 @@ description: "Use table-column conditional blocks within single document table t
 type: docs
 weight: 30
 url: /net/working-with-table-column-conditional-blocks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A table-column conditional block represents a conditional block, which body occupies a rectangular area of cells of a single document table. The body of such a block (as well as the body of its every template option) starts at the beginning of the top-left cell of a corresponding area and ends at the end of its bottom-right cell. Typically, this area consists of one or several table columns as follows.

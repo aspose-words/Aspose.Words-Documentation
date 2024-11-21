@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge En Verslagdoening in Java
 second_title: Aspose.Words vir Java
 articleTitle: Mail Merge En Verslagdoening
@@ -8,6 +8,7 @@ description: "Mail Merge is'n gewilde kenmerk vir die vinnige skep van dokumente
 keywords: "how to use mail merge Java"
 weight: 40
 url: /af/java/mail-merge-and-reporting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Mail Merge is'n gewilde kenmerk vir die vinnige en maklike skep van dokumente soos briewe, etikette en koeverte. Aspose.Words stel jou in staat om dokumente te genereer uit templates met mail merge velde.

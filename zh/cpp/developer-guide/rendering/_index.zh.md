@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++中的渲染
 second_title: Aspose.Words对于C++
 articleTitle: 渲染图
@@ -7,6 +7,7 @@ description: "使用方法 Aspose.Words对于C++ 呈现功能将流布局文档�
 type: docs
 weight: 20
 url: /zh/cpp/rendering/
+timestamp: 2024-01-30-16-22-34
 ---
 
 我们在Aspose.Words中使用术语"呈现"来描述将文档转换为文件格式或分页或具有页面概念的介质的过程。 我们正在谈论将文档呈现为页面。 下图显示了Aspose.Words中的渲染。

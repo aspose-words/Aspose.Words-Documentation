@@ -7,6 +7,7 @@ description: "چگونه اجرا کنیم Aspose.Words برای Android از ط
 type: docs
 weight: 70
 url: /fa/java/how-to-use-the-examples/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ابتدا اطمینان حاصل کنید که بسته ADT نصب شده است و آخرین نسخه از نسخه را دانلود و استخراج کرده اید. [Aspose.Words برای Android از طریق Java](https://releases.aspose.com/words/androidjava/)...

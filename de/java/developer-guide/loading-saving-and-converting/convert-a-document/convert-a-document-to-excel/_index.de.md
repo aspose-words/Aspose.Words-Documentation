@@ -7,6 +7,7 @@ description: "PDF in Excel, XML in Excel, DOCX in Excel umrechnen Java. Speicher
 type: docs
 weight: 15
 url: /de/java/convert-a-document-to-excel/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Konvertieren von Dokumenten von einem Format in ein anderes ist die Flaggschiff-Funktion von Aspose.Words. Sie können Dokumente in jedem verfügbaren konvertieren [Lastformat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) auch im XLSX-Format.

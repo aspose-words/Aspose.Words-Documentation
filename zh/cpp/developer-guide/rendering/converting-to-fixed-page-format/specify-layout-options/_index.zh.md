@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在C++中指定布局选项
 second_title: Aspose.Words对于C++
 articleTitle: 指定布局选项
@@ -7,6 +7,7 @@ description: "为各种文档布局指定布局选项。"
 type: docs
 weight: 20
 url: /zh/cpp/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words使您能够创建具有各种布局的输出文档，具体取决于**Document**的[LayoutOptions](https://reference.aspose.com/words/cpp/class/aspose.words.layout.layout_options)属性中指定的参数。 此属性类似于本文中描述的一些Microsoft Word用户界面菜单选项。

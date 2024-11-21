@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bekerja dengan Catatan Kaki dan Catatan Akhir di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Bekerja dengan Catatan Kaki dan Catatan Akhir
@@ -7,6 +7,7 @@ description: "Cara memanipulasi catatan kaki dan catatan akhir menggunakan C++."
 type: docs
 weight: 160
 url: /id/cpp/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words juga menyediakan beberapa kelas, metode, dan properti untuk bekerja dengan catatan kaki dan catatan akhir.

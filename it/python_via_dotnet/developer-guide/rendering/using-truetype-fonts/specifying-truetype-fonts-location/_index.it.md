@@ -7,6 +7,7 @@ description: "Specificare varie origini di caratteri TrueType: cartella di siste
 type: docs
 weight: 30
 url: /it/python-net/specifying-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Questo argomento descrive il comportamento predefinito di Aspose.Words quando cerca i caratteri TrueType, incluse le differenze specifiche del sistema operativo, e dimostra come specificare le origini dei caratteri dell'utente.

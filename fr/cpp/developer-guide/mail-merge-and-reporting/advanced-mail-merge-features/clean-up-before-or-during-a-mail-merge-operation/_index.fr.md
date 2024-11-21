@@ -1,4 +1,4 @@
-﻿---
+---
 title: Nettoyer Avant ou Pendant une opération Mail Merge
 second_title: Aspose.Words pour C++
 articleTitle: Nettoyer Avant ou Pendant une opération Mail Merge
@@ -8,6 +8,7 @@ description: "Appliquez différentes options de nettoyage et de suppression, tel
 keywords: "cleanup options mail merge c#"
 weight: 10
 url: /fr/cpp/clean-up-before-or-during-mail-merge/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words vous permet d'appliquer différentes options de nettoyage et de suppression, telles que la suppression des champs de fusion avant d'effectuer une opération mail merge ou la suppression des régions inutilisées pendant une opération mail merge. Cette section explique comment supprimer les champs fusionnés et comment configurer une option de suppression.

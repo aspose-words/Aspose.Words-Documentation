@@ -7,6 +7,7 @@ description: "Chuyển đổi Word được chia sẻ trong SharePoint sang PDF 
 type: docs
 weight: 20
 url: /vi/net/work-with-document-stored-in-sharepoint/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Microsoft SharePoint Online là tập hợp các công nghệ dựa trên web giúp các tổ chức dễ dàng lưu trữ, chia sẻ và quản lý thông tin kỹ thuật số. Bạn có thể làm việc với các tài liệu được lưu trữ trong thư mục "Tài liệu được chia sẻ" trong SharePoint bằng cách sử dụng Aspose.Words mạnh mẽ cho .NET của chúng tôi.

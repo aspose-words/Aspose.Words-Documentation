@@ -7,6 +7,7 @@ description: "يمكنك الوصول إلى تعديل الحقول باستخ�
 type: docs
 weight: 10
 url: /ar/python-net/fields-overview/
+timestamp: 2024-10-21-11-17-44
 ---
 
 

@@ -7,6 +7,7 @@ description: "Insira notas de rodapé ou notas finais em um documento e especifi
 type: docs
 weight: 160
 url: /pt/python-net/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words também fornece algumas classes, métodos e propriedades para trabalhar com notas de rodapé e notas finais.

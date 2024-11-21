@@ -7,6 +7,7 @@ type: docs
 description: "문서 워터마크 조작 Java·"
 weight: 70
 url: /ko/java/working-with-watermark/
+timestamp: 2024-01-27-14-07-04
 ---
 
 이 항목에 대해 논의하는 방법 programmatically 와 watermark using Aspose.Words· 워터마크는 문서의 텍스트 뒤에 표시된 배경 이미지입니다. 워터마크는 텍스트나 이미지를 표현할 수 있습니다. [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) 수업.

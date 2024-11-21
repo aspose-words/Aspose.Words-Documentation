@@ -1,4 +1,4 @@
-﻿---
+---
 title: Note De Securitate
 second_title: Aspose.Words pentru C++
 articleTitle: Note De Securitate
@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words pentru C++ recunoaște și respectă standardele comune de securitate pentru a asigura un nivel ridicat de securitate a datelor. Uită-te la posibile probleme de securitate și recomandări despre cum să le eviți."
 weight: 80
 url: /ro/cpp/security/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Securitatea ajută la protejarea datelor împotriva accesului neautorizat, precum și a modificărilor rău intenționate sau accidentale. Aspose.Words este extrem de atent la securitatea datelor clienților, prin urmare, recunoaște și aderă la standardele comune de securitate.

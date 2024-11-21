@@ -7,6 +7,7 @@ description: "Formatare tabele avansată C#. Crează un stil de tabel folosind C
 type: docs
 weight: 80
 url: /ro/net/working-with-tablestyle/
+timestamp: 2024-02-02-12-07-36
 ---
 
 Un stil de tabel definește o serie de formatare care poate fi aplicată cu ușurință la un tabel. "Formatarea, cum ar fi borduri, umbrire, aliniere și font poate fi stabilită într-un stil de tabel și aplicată pentru multe tabele pentru un aspect coerent."

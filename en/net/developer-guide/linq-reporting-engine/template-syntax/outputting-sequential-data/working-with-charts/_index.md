@@ -7,6 +7,7 @@ description: "Use charts to represent your sequential data when building a repor
 type: docs
 weight: 50
 url: /net/linq-working-with-charts/
+timestamp: 2024-02-16-10-54-23
 ---
 
 LINQ Reporting Engine enables you to use charts to represent your sequential data. To declare a chart that is going to be populated with data dynamically within your template, do the following steps:

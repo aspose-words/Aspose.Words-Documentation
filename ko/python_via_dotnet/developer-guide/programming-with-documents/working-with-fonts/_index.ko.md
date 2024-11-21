@@ -7,6 +7,7 @@ description: "Python를 사용하여 글꼴 설정을 사용자 정의합니다.
 type: docs
 weight: 230
 url: /ko/python-net/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 글꼴은 특정 크기, 색상 및 디자인을 가진 문자 집합입니다. Aspose.Words를 사용하면 [fonts](https://reference.aspose.com/words/python-net/aspose.words.fonts/) 모듈과 [Font](https://reference.aspose.com/words/python-net/aspose.words/font/) 클래스를 사용하여 글꼴 작업을 할 수 있습니다.

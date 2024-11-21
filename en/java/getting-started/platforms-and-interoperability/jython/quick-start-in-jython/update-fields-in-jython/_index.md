@@ -1,4 +1,4 @@
-﻿---
+---
 title: Update Fields in Jython
 second_title: Aspose.Words for Java
 articleTitle: Update Fields in Jython
@@ -7,6 +7,7 @@ description: "Update Document Fields using Jython."
 type: docs
 weight: 90
 url: /java/update-fields-in-jython/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Update Fields

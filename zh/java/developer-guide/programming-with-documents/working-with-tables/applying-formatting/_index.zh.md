@@ -7,6 +7,7 @@ description: "表格的详细格式化。 使用 Java 以格式化表格的每�
 type: docs
 weight: 70
 url: /zh/java/applying-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 表格的每个要素都可以采用不同的格式。 例如,表格格式化将应用于整个表格,行格式化将仅适用于特定行,单元格格式化将仅适用于某些单元格.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Poziția tabelului în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Poziționați o masă
@@ -7,6 +7,7 @@ description: "Specificați poziția tabelului în C++. Obțineți o aliniere a m
 type: docs
 weight: 50
 url: /ro/cpp/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Există mese plutitoare și mese inline:

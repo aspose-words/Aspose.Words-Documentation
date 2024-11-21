@@ -7,6 +7,7 @@ description: "C# の表内のテキストを置換します。 C# を使用し�
 type: docs
 weight: 60
 url: /ja/net/work-with-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 以前の記事で述べたように、表には通常プレーン テキストが含まれますが、画像や他の表などの他のコンテンツを表のセルに配置することもできます。

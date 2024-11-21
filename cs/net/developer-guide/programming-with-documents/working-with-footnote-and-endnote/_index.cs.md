@@ -7,6 +7,7 @@ description: "Jak manipulovat s poznámkami pod čarou a poznámkami C#."
 type: docs
 weight: 160
 url: /cs/net/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words rovněž poskytuje některé třídy, metody a vlastnosti pro práci s poznámkami pod čarou a poznámkami pod čarou.

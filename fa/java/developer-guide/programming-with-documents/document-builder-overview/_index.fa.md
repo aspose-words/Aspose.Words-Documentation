@@ -7,6 +7,7 @@ type: docs
 description: "DocumentBuilder به شما اجازه می دهد تا اسناد پویا را از ابتدا بسازید یا عناصر جدیدی را به عناصر موجود اضافه کنید. DocumentBuilder روش هایی را برای قرار دادن متن، چک باکس ها، جداول، تصاویر و سایر عناصر محتوا در متن، و Java..."
 weight: 30
 url: /fa/java/document-builder-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) یک کلاس قدرتمند است که با [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) و شما را قادر به ساخت اسناد پویا از ابتدا یا اضافه کردن عناصر جدید به یک موجود است.

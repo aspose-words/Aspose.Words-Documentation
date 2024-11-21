@@ -7,6 +7,7 @@ description: "Introduction au travail avec les caractères de contrôle dans Asp
 type: docs
 weight: 400
 url: /fr/java/working-with-control-characters/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word Les documents peuvent contenir divers caractères ayant une signification particulière. Normalement, ils sont utilisés à des fins de formatage et ne sont pas dessinés en mode normal. Vous pouvez les rendre visibles si vous cliquez sur le bouton Afficher/Cacher les marques de formatage situé sur la barre d'outils standard.

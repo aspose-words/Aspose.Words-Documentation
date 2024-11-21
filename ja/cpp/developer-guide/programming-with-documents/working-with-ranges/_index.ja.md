@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++での範囲の操作
 second_title: C++の場合Aspose.Words
 articleTitle: 範囲の操作
@@ -7,6 +7,7 @@ description: "の範囲機能の紹介 C++の場合Aspose.Words."
 type: docs
 weight: 130
 url: /ja/cpp/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

@@ -7,6 +7,7 @@ description: "フィールド結果のフォーマットと評価 Javaお問い�
 type: docs
 weight: 40
 url: /ja/java/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 時々、ユーザーはフィールドにカスタム書式を適用する必要があります。 この記事では、この方法のいくつかの例を見てみましょう。

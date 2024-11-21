@@ -7,6 +7,7 @@ description: "Aspose.Words provides predefined font fallback settings for Google
 type: docs
 weight: 15
 url: /cpp/predefined-font-fallback-settings-for-google-noto-fonts/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Aspose.Words provides predefined font fallback settings for Google Noto fonts. These are free fonts licensed under SIL Open Font License, that can be downloaded from Google Noto Fonts. The **FontFallbackSettings** class provides a [LoadNotoFallbackSettings](https://reference.aspose.com/words/cpp/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/) method. It loads predefined fallback settings, which use Google Noto fonts as shown in the code example below:

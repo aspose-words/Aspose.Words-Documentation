@@ -7,6 +7,7 @@ description: "Convertir un document en un tableau d'octets pour travailler avec 
 type: docs
 weight: 40
 url: /fr/java/serialize-and-work-with-a-document-in-a-database/
+timestamp: 2024-01-27-14-07-04
 ---
 
 L'une des tâches que vous pourriez devoir accomplir lorsque vous travaillez avec des documents est de stocker et de récupérer **Document** objets vers et depuis une base de données. Par exemple, cela serait nécessaire si vous mettiez en œuvre tout type de système de gestion du contenu. Toutes les versions antérieures des documents doivent être stockées dans le système de base de données. La possibilité de stocker des documents dans la base de données est également extrêmement utile lorsque votre application fournit un service en ligne.

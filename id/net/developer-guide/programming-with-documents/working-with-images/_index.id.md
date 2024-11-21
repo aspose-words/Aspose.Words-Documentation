@@ -7,6 +7,7 @@ description: "Bentuk gambar secara detail dan fitur-fitur canggih yang disediaka
 type: docs
 weight: 300
 url: /id/net/working-with-images/
+timestamp: 2024-05-02-11-51-44
 ---
 
 Aspose.Words memungkinkan pengguna bekerja dengan gambar dengan cara yang sangat fleksibel. Pada artikel ini, Anda hanya dapat menjelajahi beberapa kemungkinan bekerja dengan gambar.

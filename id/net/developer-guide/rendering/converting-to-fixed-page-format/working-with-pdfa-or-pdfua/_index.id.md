@@ -7,6 +7,7 @@ description: "Konversikan ke PDF/A-1, PDF/A-2, PDF/A-4 dan PDF/UA menggunakan C#
 type: docs
 weight: 28
 url: /id/net/working-with-pdfa-or-pdfua/
+timestamp: 2024-07-10-14-38-57
 ---
 
 Format PDF/A dan PDF/UA memberlakukan beberapa persyaratan terkait konten dokumen yang tidak dapat dipenuhi selama konversi otomatis dari dokumen dalam format Word ke PDF. Persyaratan ini harus diverifikasi dan diperbaiki baik dalam dokumen Word sebelum konversi atau dalam dokumen PDF setelah konversi untuk menghasilkan dokumen yang sepenuhnya sesuai PDF/A dan PDF/UA.

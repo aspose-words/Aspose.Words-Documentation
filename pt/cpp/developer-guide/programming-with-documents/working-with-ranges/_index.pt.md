@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trabalhando com intervalos Em C++
 second_title: Aspose.Words para C++
 articleTitle: Trabalhar com gamas
@@ -7,6 +7,7 @@ description: "Introdução ao recurso de intervalo em Aspose.Words para C++."
 type: docs
 weight: 130
 url: /pt/cpp/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

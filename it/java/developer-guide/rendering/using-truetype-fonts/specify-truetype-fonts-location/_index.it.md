@@ -7,6 +7,7 @@ description: "Specificare vari Vero Tipo fonti di carattere: cartella di sistema
 type: docs
 weight: 30
 url: /it/java/specify-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Questo argomento descrive il comportamento predefinito di Aspose.Words quando cerca i font TrueType, comprese le differenze specifiche del sistema operativo, e dimostra come specificare le fonti del carattere dell'utente.

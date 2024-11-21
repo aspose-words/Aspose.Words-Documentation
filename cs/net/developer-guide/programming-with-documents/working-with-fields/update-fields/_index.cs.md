@@ -7,6 +7,7 @@ description: "Naučte se aktualizovat pole v C#. Aktualizovat pole programově n
 type: docs
 weight: 30
 url: /cs/net/update-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Typicky, pole vložené do Microsoft Word již obsahuje aktuální hodnotu. Například pokud je pole vzorec nebo číslo stránky, bude obsahovat správnou vypočtenou hodnotu pro danou verzi dokumentu. Ale pokud máte aplikaci, která vytváří nebo modifikuje dokument s poli, jako je sloučení dvou dokumentů nebo jeho zalidnění s daty, pak musí být ideálně všechna pole aktualizována, aby byl dokument užitečný.

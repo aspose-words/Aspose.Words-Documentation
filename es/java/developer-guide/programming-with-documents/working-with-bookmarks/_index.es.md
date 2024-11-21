@@ -7,6 +7,7 @@ description: "Entender conceptos de marcadores y cómo se puede utilizar marcado
 type: docs
 weight: 180
 url: /es/java/working-with-bookmarks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Marcas identificadas en un Microsoft Word documentar los lugares o fragmentos que usted nombre e identifique para referencia futura. Por ejemplo, podría utilizar un marcador para identificar texto que desea revisar más adelante. En lugar de desplazarse a través del documento para localizar el texto, puede ir a él utilizando el cuadro de diálogo Bookmark.

@@ -7,6 +7,7 @@ description: "Python を使用して、ドキュメント内の図形やオブ�
 type: docs
 weight: 280
 url: /ja/python-net/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 このトピックでは、Aspose.Words を使用してプログラムでシェイプを操作する方法について説明します。

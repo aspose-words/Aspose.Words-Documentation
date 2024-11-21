@@ -7,6 +7,7 @@ description: "Créer, modifier et enregistrer votre premier document dans n'impo
 type: docs
 weight: 20
 url: /fr/java/hello-world/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un code "Bonjour, Monde!" est souvent le premier exemple simple à écrire uisng "Aspose.Words pour Java", et il peut également être utilisé comme un test de santé pour s'assurer que le logiciel destiné à compiler ou exécuter le code source est correctement installé.

@@ -7,6 +7,7 @@ description: "Escolha o melhor padrão PDF para exportar o resultado de sua tare
 type: docs
 weight: 27
 url: /pt/java/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Para algumas tarefas, certos padrões PDF serão melhor ou vice-versa pior. Neste artigo, tentaremos determinar quais padrões PDF para os quais casos faz sentido escolher.

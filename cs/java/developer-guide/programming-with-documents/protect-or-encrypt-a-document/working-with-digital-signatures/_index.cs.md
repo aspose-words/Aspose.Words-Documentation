@@ -7,6 +7,7 @@ description: "Digitální podpis dokumentů a zjištění, počet, ověření a 
 type: docs
 weight: 30
 url: /cs/java/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Digitální podpis je technologickou implementací elektronických podpisů k podpisu dokumentů a ověření podpisu, aby bylo zaručeno, že dokument nebyl od podpisu změněn. Každý digitální podpis je unikátní pro každého signera, protože následuje protokol PKI pro generování veřejných i soukromých klíčů. Podepsání dokumentu digitálně znamená vytvoření podpisu pomocí podpisového soukromého klíče, kde se používá matematický algoritmus k zašifrování generovaného hašiše.

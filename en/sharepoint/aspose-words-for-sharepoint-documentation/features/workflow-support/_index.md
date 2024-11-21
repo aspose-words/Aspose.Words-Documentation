@@ -1,4 +1,4 @@
-﻿---
+---
 title: Workflow support
 second_title: Aspose.Words for SharePoint
 articleTitle: Workflow support
@@ -7,6 +7,7 @@ description: "Workflow features of the Aspose.Words for SharePoint."
 type: docs
 weight: 40
 url: /sharepoint/workflow-support/
+timestamp: 2024-01-27-14-07-04
 ---
 
 You can use Aspose.Words for SharePoint from a document workflow. Upon installation, these new workflow activities will appear in SharePoint Designer:

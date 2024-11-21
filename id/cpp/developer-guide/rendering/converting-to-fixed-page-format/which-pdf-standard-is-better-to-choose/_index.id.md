@@ -1,4 +1,4 @@
-﻿---
+---
 title: Standar PDF Mana yang Lebih Baik untuk Dipilih
 second_title: Aspose.Words untuk C++
 articleTitle: Standar PDF Mana yang Lebih Baik untuk Dipilih
@@ -7,6 +7,7 @@ description: "Pilih standar PDF terbaik untuk mengekspor hasil tugas pemrograman
 type: docs
 weight: 37
 url: /id/cpp/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Untuk beberapa tugas, standar PDF tertentu akan lebih cocok atau sebaliknya lebih buruk. Pada artikel ini, kami akan mencoba menentukan standar PDF mana yang masuk akal untuk dipilih.

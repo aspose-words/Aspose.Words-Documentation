@@ -7,6 +7,7 @@ description: "Vytvořit, spravovat a odstranit hlavičky a zápatí v dokumentu 
 type: docs
 weight: 150
 url: /cs/python-net/working-with-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words umožňuje uživatelům pracovat s hlavičkami a zápatí v dokumentu. Hlavička je text, který je umístěn v horní části stránky, a zápatí je text v dolní části stránky. Typicky se tyto oblasti používají k vložení informací, které by měly být opakovány na všech nebo některých stránkách dokumentu, jako jsou čísla stránek, datum vytvoření, informace o společnosti atd.

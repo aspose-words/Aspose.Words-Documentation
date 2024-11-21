@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words 문서 개체 모델(DOM)에 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: Aspose.Words 문서 개체 모델(DOM)
@@ -7,6 +7,7 @@ type: docs
 description: "문서 개체 모델(DOM)는 단어 문서의 메모리 내 표현입니다. 다음을 사용하여 단어 문서의 내용 및 서식을 읽고 조작하고 수정합니다 C++."
 weight: 10
 url: /ko/cpp/aspose-words-document-object-model/
+timestamp: 2024-01-27-14-07-04
 ---
 
 그 Aspose.Words 문서 개체 모델(DOM)는 단어 문서의 메모리 내 표현입니다. 그 Aspose.Words DOM 워드 문서의 내용과 서식을 프로그래밍 방식으로 읽고,조작하고,수정할 수 있습니다.

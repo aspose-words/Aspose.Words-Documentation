@@ -7,6 +7,7 @@ description: "Wprowadzenie do pracy z znaków kontrolnych w Aspose.Words zamiast
 type: docs
 weight: 400
 url: /pl/java/working-with-control-characters/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word dokumenty mogą zawierać różne znaki, które mają szczególne znaczenie. Zwykle są one używane do formatowania i nie są rysowane w trybie normalnym. Po kliknięciu przycisku Pokaż / Ukryj znaki formatowania, które znajduje się na pasku narzędzi standardowych, można je wyświetlić.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Compress Images in PHP
 second_title: Aspose.Words for Java
 articleTitle: Compress Images in PHP
@@ -7,6 +7,7 @@ description: "Compress Images using PHP."
 type: docs
 weight: 65
 url: /java/compress-images-in-php/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Compress Images

@@ -7,6 +7,7 @@ description: "Formele imaginilor în detaliile și caracteristicile avansate fur
 type: docs
 weight: 300
 url: /ro/net/working-with-images/
+timestamp: 2024-05-02-11-51-44
 ---
 
 Aspose.Words permite utilizatorilor să lucreze cu imagini într-un mod foarte flexibil. În acest articol, poți explora doar câteva dintre posibilitățile de a lucra cu imagini.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Làm Việc Với Styles trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Làm Việc Với Phong Cách
@@ -7,6 +7,7 @@ description: "Các tính năng định dạng Microsoft Word nâng cao, làm vi�
 type: docs
 weight: 110
 url: /vi/cpp/working-with-styles-and-themes/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Lớp [StyleCollection](https://reference.aspose.com/words/cpp/aspose.words/stylecollection/) được sử dụng để quản lý cài đặt tích hợp và áp dụng các cài đặt do người dùng xác định cho các kiểu.

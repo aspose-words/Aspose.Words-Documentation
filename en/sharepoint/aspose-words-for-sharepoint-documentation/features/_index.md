@@ -1,4 +1,4 @@
-﻿---
+---
 title: Features
 second_title: Aspose.Words for SharePoint
 articleTitle: Features
@@ -7,6 +7,7 @@ description: "Features details of the Aspose.Words for SharePoint."
 type: docs
 weight: 30
 url: /sharepoint/features/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## This section includes the following topics:

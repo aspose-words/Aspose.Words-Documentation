@@ -7,6 +7,7 @@ description: "Aspose.Words untuk .NET memberikan paket pembelian yang berbeda at
 type: docs
 weight: 55
 url: /id/net/licensing/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Terkadang, untuk mempelajari sistem dengan lebih baik, Anda ingin mendalami kodenya secepat mungkin. Untuk mempermudahnya, Aspose.Words menyediakan paket pembelian yang berbeda atau menawarkan Uji Coba Gratis dan Lisensi Sementara 30 hari untuk evaluasi.

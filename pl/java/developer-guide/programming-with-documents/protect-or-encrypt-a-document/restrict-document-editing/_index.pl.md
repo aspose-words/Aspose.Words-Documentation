@@ -7,6 +7,7 @@ description: "Usuwanie edycji dokumentu poprzez ustawienie typu ograniczenia. Mo
 type: docs
 weight: 30
 url: /pl/java/restrict-document-editing/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Czasami może być konieczne ograniczenie możliwości edycji dokumentu i tylko zezwolić na pewne działania z nim. Może to być przydatne, aby uniemożliwić innym osobom edycję poufnych i poufnych informacji w dokumencie.

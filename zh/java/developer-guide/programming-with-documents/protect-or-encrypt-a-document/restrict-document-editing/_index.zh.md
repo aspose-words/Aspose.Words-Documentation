@@ -7,6 +7,7 @@ description: "通过设置限制类型限制文档的编辑。 您也可以使�
 type: docs
 weight: 30
 url: /zh/java/restrict-document-editing/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有时,您可能需要限制编辑文档的能力,并只允许与其进行某些行动。 这有助于防止其他人在您的文件中编辑敏感和机密的信息。

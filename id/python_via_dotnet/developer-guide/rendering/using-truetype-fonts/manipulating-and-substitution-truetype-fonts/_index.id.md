@@ -7,6 +7,7 @@ description: "Aspose.Words untuk Python via .NET dapat menyematkan font TrueType
 type: docs
 weight: 10
 url: /id/python-net/manipulating-and-substitution-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words memerlukan font TrueType untuk berbagai tugas, termasuk merender dokumen ke format halaman tetap, misalnya PDF atau XPS. Saat Aspose.Words merender dokumen, Aspose.Words perlu melakukan penyematan dan penyematan subset font TrueType ke dalam dokumen yang dihasilkan, yang merupakan praktik normal selama pembuatan dokumen, termasuk format PDF atau XPS yang populer. Hal ini memastikan bahwa dokumen akan tampak sama bagi siapa pun yang melihatnya. Selain itu, spesifikasi XPS mengharuskan font untuk selalu disematkan pada dokumen.

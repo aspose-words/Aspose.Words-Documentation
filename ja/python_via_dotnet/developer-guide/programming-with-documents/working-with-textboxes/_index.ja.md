@@ -7,6 +7,7 @@ description: "Python を使用してドキュメント内のテキストボッ�
 type: docs
 weight: 250
 url: /ja/python-net/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words では、[TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) クラスを使用して、図形内にテキストを表示する方法を指定します。 [parent](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/parent/) という名前のパブリック プロパティを提供してテキスト ボックスの親図形を取得し、顧客がリンクされた [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) からリンクされた [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) を見つけられるようにします。

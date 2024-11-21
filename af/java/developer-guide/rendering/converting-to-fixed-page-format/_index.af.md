@@ -1,4 +1,4 @@
-﻿---
+---
 title: Omskakeling Na Vaste bladsy Formaat in Java
 second_title: Aspose.Words vir Java
 articleTitle: Omskakeling Na Vaste bladsy Formaat
@@ -7,6 +7,7 @@ description: "Aspose.Words vir Java implementeer sy eie bladsy uitleg enjin soda
 type: docs
 weight: 10
 url: /af/java/converting-to-fixed-page-format/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words implementeer sy eie bladsy uitleg enjin. Voordat die spesifikasies daarvan ondersoek word, is dit die moeite werd om eers dokumente op'n hoë vlak te bespreek. Wanneer gebruikers aan'n dokument dink, stel hulle gewoonlik'n aantal papiervelle voor wat woorde, beelde, tabelle en kaarte bevat. Dokumente kan van verskillende tipes wees, soos teks, sigblaaie, skyfies, CAD tekeninge, vloeidiagramme, en kan dus in wese verskillende uitlegte hê. Die meeste programme laat toe om dokumente na'n drukker te stuur; dit is wanneer'n gebruiker die dokument se finale beoogde voorkoms kan sien.

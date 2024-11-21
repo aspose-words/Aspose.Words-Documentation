@@ -8,6 +8,7 @@ description: "שמור מסמך בכל פורמט נתמך באמצעות C#."
 keywords: "save a document c#, save a document to file c#, save a document to stream c#, save a document Aspose .NET, save formats supported by Aspose.Words .NET"
 weight: 20
 url: /he/net/save-a-document/
+timestamp: 2024-07-09-19-00-42
 ---
 
 רוב המשימות שאתה צריך לבצע Aspose.Words כרוך בהצלת מסמך. להציל מסמך Aspose.Words מספק [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) שיטת [Document](https://reference.aspose.com/words/net/aspose.words/document/) מעמד. ישנם עומסים המאפשרים שמירת מסמך לקובץ, זרם, או ASP.NET אובייקט HtpResponse למשלוח לדפדפן לקוח. ניתן לשמור את המסמך בכל פורמט הצלה נתמך על ידי Aspose.Words. לרשימה של כל הפורמטים הנתמכות, ראה את [SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat/) אזהרה.

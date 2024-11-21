@@ -1,4 +1,4 @@
-﻿---
+---
 title: 함께 작업 SmartArt 콜드 렌더링 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 함께 작업 SmartArt 콜드 렌더링
@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words 에 대한 C++ 수행 SmartArt 콜드 렌더링,즉 그것을 배치하고 렌더링합니다 SmartArt 사전 렌더링 된 경우 개체 SmartArt 도면이 없거나 잘못되었습니다."
 weight: 330
 url: /ko/cpp/working-with-smartart-cold-rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 SmartArt 그래픽은 빠르고 쉽게 정보의 시각적 표현을 만드는 데 사용됩니다. 당신은 단순히 가장 상황에 맞는 레이아웃의 큰 숫자에서 선택합니다. 이 사용 편의성은 SmartArt 어떤 목적을 위해 꽤 인기있는 그래픽.

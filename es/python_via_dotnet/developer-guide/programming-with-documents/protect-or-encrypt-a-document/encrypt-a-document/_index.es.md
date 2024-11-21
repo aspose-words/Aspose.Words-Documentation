@@ -7,6 +7,7 @@ description: "Cifre su documento utilizando algoritmos de cifrado apropiados par
 type: docs
 weight: 20
 url: /es/python-net/encrypt-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 El cifrado es el proceso que traduce texto legible en secuencias de bytes sin sentido para que solo pueda ser leído por la persona que tiene la clave de descifrado o el código secreto. Este proceso juega un papel importante en la protección de su contenido. Ayuda a codificar el contenido, verificar el origen de un documento, demostrar que el contenido no ha sido modificado después de su envío y garantizar que los datos del documento estén seguros.

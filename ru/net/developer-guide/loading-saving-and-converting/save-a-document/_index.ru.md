@@ -8,6 +8,7 @@ description: "Сохранить документ в любом поддержи
 keywords: "save a document c#, save a document to file c#, save a document to stream c#, save a document Aspose .NET, save formats supported by Aspose.Words .NET"
 weight: 20
 url: /ru/net/save-a-document/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Большинство задач, которые вам нужно выполнить Aspose.Words Сохранить документ. Чтобы сохранить документ Aspose.Words обеспечивает [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) Методика [Document](https://reference.aspose.com/words/net/aspose.words/document/) класс. Есть перегрузки, которые позволяют сохранить документ в файл, поток или ASP.NET Объект HttpResponse для отправки в клиентский браузер. Документ может быть сохранен в любом формате сохранения, поддерживаемом Aspose.Words. Для списка всех поддерживаемых форматов сохранения см. [SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat/) перечисление.

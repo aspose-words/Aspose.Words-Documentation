@@ -7,6 +7,7 @@ description: "معرفی ویژگی های textboxes مرتبط در Aspose.Word
 type: docs
 weight: 250
 url: /fa/java/working-with-linked-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In In In Aspose.Words, The the the [TextBox](https://reference.aspose.com/words/java/com.aspose.words/textbox/) کلاس استفاده می شود تا مشخص کند که چگونه یک متن در داخل یک شکل نمایش داده می شود. این یک ملک عمومی به نام پدر و مادر را برای به دست آوردن شکل والدین برای جعبه متن فراهم می کند تا به مشتری اجازه دهد تا ارتباط خود را پیدا کند. [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) مرتبط با **TextBox**...

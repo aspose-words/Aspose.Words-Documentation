@@ -7,6 +7,7 @@ description: "Aspose.Words for .NET は、C# を使用して Office アドイン
 type: docs
 weight: 50
 url: /ja/net/work-with-office-add-ins/
+timestamp: 2024-01-27-14-07-04
 ---
 
 場合によっては、ドキュメントを変更するコードを実行するインターフェイス コントロールへのアクセスを許可したい場合があります。 Aspose.Words API は、Office アドインを表す XML ボキャブラリーを拡張する要素と属性をカスタマイズするためのさまざまなクラスを許可する `WebExtensions` 名前空間を提供します。

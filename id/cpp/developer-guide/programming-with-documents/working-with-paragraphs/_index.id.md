@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bekerja dengan Paragraf di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Bekerja dengan Paragraf
@@ -7,6 +7,7 @@ description: "Praktik manipulasi simpul paragraf menggunakan C++."
 type: docs
 weight: 210
 url: /id/cpp/working-with-paragraphs/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Paragraf adalah sekumpulan karakter yang digabungkan menjadi blok logis dan diakhiri dengan karakter khusus-a *paragraph break*. Dalam Aspose.Words, sebuah paragraf diwakili oleh kelas [Paragraph](https://reference.aspose.com/words/cpp/aspose.words/paragraph/).

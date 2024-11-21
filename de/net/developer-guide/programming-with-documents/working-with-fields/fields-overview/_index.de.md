@@ -7,6 +7,7 @@ description: "Feldfunktionen werden in Details, Feldcodes und Feldergebnissen in
 type: docs
 weight: 10
 url: /de/net/fields-overview/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words ist eine Klassenbibliothek, die für die serverseitige Verarbeitung von Microsoft Word-Dokumenten entwickelt wurde und Felder auf folgende Weise unterstützt:

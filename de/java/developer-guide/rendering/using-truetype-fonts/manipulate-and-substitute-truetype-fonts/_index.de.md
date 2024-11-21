@@ -7,6 +7,7 @@ description: "Aspose.Words für Java kann die richtigen TrueType-Schriften in da
 type: docs
 weight: 10
 url: /de/java/manipulate-and-substitute-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words erfordert Wahr Geben Sie Schriftarten für eine Vielzahl von Aufgaben ein, einschließlich der Vorlage von Dokumenten auf Festseitenformate, beispielsweise PDF oder XPS. Wann Aspose.Words stellt ein Dokument dar, es muss die Einbettung und Subseteinbettung von TrueType-Schriften in das resultierende Dokument ausführen, das eine normale Praxis während einer Dokumentengeneration ist, einschließlich beliebtem PDF oder XPS Formate. Dadurch wird sichergestellt, dass das Dokument jedem Betrachter gleich erscheint. Darüber hinaus die XPS Spezifikation erfordert, dass Schriftarten immer in das Dokument eingebettet werden.

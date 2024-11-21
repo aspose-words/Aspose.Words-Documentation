@@ -1,4 +1,4 @@
-﻿---
+---
 title: Stelselvereistes
 second_title: Aspose.Words vir C++
 articleTitle: Stelselvereistes
@@ -7,6 +7,7 @@ description: "Voordat jy begin werk Aspose.Words vir C++, verseker dat u aan die
 type: docs
 weight: 70
 url: /af/cpp/system-requirements/
+timestamp: 2024-07-11-16-13-28
 ---
 
 Aspose.Words vir C++ vereis nie dat enige derde party produk soos Microsoft Word geïnstalleer moet word nie. Aspose.Words self is'n enjin vir die skep, wysiging, omskakeling en weergawe van dokumente in verskillende formate, insluitend Microsoft Word dokumentformate.

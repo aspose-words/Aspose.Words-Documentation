@@ -7,6 +7,7 @@ description: "Text in einer Tabelle ersetzen Java. Extrahieren Sie Plain Text au
 type: docs
 weight: 60
 url: /de/java/extract-text-from-and-replace-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Wie in früheren Artikeln erwähnt, enthält eine Tabelle in der Regel Klartext, obwohl andere Inhalte wie Bilder oder sogar andere Tabellen in Tabellenzellen platziert werden können.

@@ -7,6 +7,7 @@ description: "Uso Aspose.Words para Java renderização recurso para formatar um
 type: docs
 weight: 30
 url: /pt/java/rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Usamos o termo "renderização" em Aspose.Words para descrever o processo de conversão de um documento em um formato de arquivo ou um meio que é paginado ou tem o conceito de páginas. Estamos falando sobre a renderização de um documento em páginas. O seguinte diagrama mostra em que renderização Aspose.Words.

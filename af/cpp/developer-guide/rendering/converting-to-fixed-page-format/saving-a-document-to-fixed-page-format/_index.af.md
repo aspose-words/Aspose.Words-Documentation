@@ -1,4 +1,4 @@
-﻿---
+---
 title: Stoor Na Vaste bladsy Formaat in C++
 second_title: Aspose.Words vir C++
 articleTitle: Stoor'n Dokument Na Vaste bladsy Formaat
@@ -7,6 +7,7 @@ description: "Hoe om'n dokument op'n vaste bladsy te stoor– PDF, XPS, HTML, XA
 type: docs
 weight: 15
 url: /af/cpp/saving-a-document-to-fixed-page-format/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Nadat die bladsy uitleg gebou is en die meetkunde van voorwerpe en hul posisie op die bladsy bereken is, kan die dokument gestoor word in'n vaste bladsy formaat ondersteun deur Aspose.Words.

@@ -7,6 +7,7 @@ description: "Learn how remove paragraphs containing only template tags using LI
 type: docs
 weight: 60
 url: /net/removing-paragraphs-containing-only-template-syntax-tags/
+timestamp: 2024-10-21-11-17-44
 ---
 
 While building a report, some paragraphs containing only template syntax tags can become empty after the tags are removed or replaced with empty values. To remove such paragraphs from the report, you can apply the `ReportBuildOptions.RemoveEmptyParagraphs` option as shown in the following example.

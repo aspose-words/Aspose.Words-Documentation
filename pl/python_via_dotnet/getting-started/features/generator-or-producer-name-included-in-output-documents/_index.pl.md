@@ -7,6 +7,7 @@ description: "Aspose.Words dla Python via .NET dodaje do dokumentu nazwę genera
 type: docs
 weight: 60
 url: /pl/python-net/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Możesz łatwo sprawdzić, czy dokument został utworzony, używając Aspose.Words dla Python via .NET. Można także znaleźć numer wersji Aspose.Words dla Python via .NET, która została użyta do utworzenia konkretnego dokumentu wyjściowego. Aspose.Words bezpośrednio zapisuje te informacje w wygenerowanym dokumencie.

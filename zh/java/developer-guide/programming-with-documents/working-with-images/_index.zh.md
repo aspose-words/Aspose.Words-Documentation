@@ -7,6 +7,7 @@ type: docs
 description: "图像形状的细节和高级特性 Aspose.Words (单位:千美元) Java。 。 。 。"
 weight: 300
 url: /zh/java/working-with-images/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words 允许用户以非常灵活的方式与图像合作. 在此文章中,您只能探索一些与图像合作的可能性.

@@ -7,6 +7,7 @@ description: "Especifique várias fontes de fonte TrueType: pasta do sistema, fo
 type: docs
 weight: 30
 url: /pt/python-net/specifying-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Este tópico descreve o comportamento padrão do Aspose.Words ao procurar fontes TrueType, incluindo diferenças específicas do sistema operacional, e demonstra como especificar fontes de fontes do usuário.

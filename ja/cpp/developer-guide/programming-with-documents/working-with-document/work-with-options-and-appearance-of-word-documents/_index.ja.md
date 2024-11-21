@@ -1,4 +1,4 @@
-﻿---
+---
 title: Word文書のオプションと外観
 second_title: C++の場合Aspose.Words
 articleTitle: Word文書のオプションと外観を操作する
@@ -7,6 +7,7 @@ description: "さまざまなMicrosoft Wordバージョン間の違いを考慮�
 type: docs
 weight: 40
 url: /ja/cpp/work-with-word-document-options-and-appearance/
+timestamp: 2024-01-27-14-07-04
 ---
 
 場合によっては、言語設定やページあたりの行数の設定など、文書の外観を変更する必要がある場合があります。Aspose.Wordsは、ドキュメントの表示方法を制御する機能と、いくつかの追加オプションを提供します。 この記事では、そのような可能性について説明します。

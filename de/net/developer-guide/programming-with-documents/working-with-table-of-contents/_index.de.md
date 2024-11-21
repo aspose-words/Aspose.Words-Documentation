@@ -7,6 +7,7 @@ description: "Einzelheiten zum Feld `Inhaltsverzeichnis`. So erstellen und ände
 type: docs
 weight: 170
 url: /de/net/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Häufig werden Sie mit Dokumenten arbeiten, die ein Inhaltsverzeichnis (TOC) enthalten. Mit Aspose.Words können Sie mit nur wenigen Codezeilen Ihr eigenes Inhaltsverzeichnis einfügen oder ein vorhandenes Inhaltsverzeichnis im Dokument komplett neu erstellen. In diesem Artikel wird die Arbeit mit dem Inhaltsverzeichnisfeld beschrieben und Folgendes demonstriert:

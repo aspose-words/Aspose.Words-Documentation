@@ -7,6 +7,7 @@ description: "Combinare documenti in uno: inserire o aggiungere un documento in 
 type: docs
 weight: 80
 url: /it/java/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A volte è necessario combinare diversi documenti in uno. Puoi farlo manualmente o puoi usare Aspose.Words inserire o aggiungere la funzione.

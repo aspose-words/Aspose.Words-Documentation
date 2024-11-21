@@ -7,6 +7,7 @@ description: "Inhoudsopgave veld in details. Aanmaken en wijzigen `TOC` veld geb
 type: docs
 weight: 170
 url: /nl/java/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Vaak werk je met documenten die een inhoudsopgave bevatten (TOC). Gebruik Aspose.Words U kunt uw eigen inhoudsopgave invoegen of de bestaande inhoudsopgave volledig herbouwen met slechts enkele regels code.

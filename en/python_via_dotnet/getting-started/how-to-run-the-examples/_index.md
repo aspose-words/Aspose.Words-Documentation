@@ -8,6 +8,7 @@ type: docs
 weight: 110
 url: /python-net/how-to-run-the-examples/
 aliases: [/python/how-to-run-the-examples/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 To become more familiar with the Aspose.Words possibilities and features we provide examples that can be downloaded from our GitHub repository, run, and learn in detail.

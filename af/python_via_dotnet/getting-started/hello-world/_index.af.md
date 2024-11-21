@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hallo, Wêreld!
 second_title: Voorbeelde van hoe om te gebruik Aspose.Words vir Python via .NET
 articleTitle: Hallo, Wêreld!
@@ -7,6 +7,7 @@ description: "Skep, wysig en stoor jou eerste dokument in enige ondersteun forma
 type: docs
 weight: 20
 url: /af/python-net/hello-world/
+timestamp: 2024-01-27-14-07-04
 ---
 
 'n " Hallo, Wêreld!"kode is dikwels die eerste eenvoudige voorbeeld om uisng te skryf "Aspose.Words vir Python via .NET"en dit kan ook gebruik word as'n gesonde verstand toets om te verseker dat die sagteware wat bedoel is om bron kode te kompileer of uit te voer korrek geïnstalleer is.

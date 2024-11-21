@@ -7,6 +7,7 @@ description: "Table formatting in details using C#. Use C# to format every part 
 type: docs
 weight: 70
 url: /net/applying-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Each element of a table can be applied with different formatting. For example, table formatting will be applied to the entire table, row formatting to only particular rows, cell formatting to only certain cells.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Caracteristici acceptate la încărcarea documentelor
 second_title: Aspose.Words pentru Java
 articleTitle: Caracteristici acceptate la încărcarea documentelor
@@ -7,6 +7,7 @@ description: "Încărcați și convertiți un document în majoritatea formatelo
 type: docs
 weight: 20
 url: /ro/java/supported-features-on-document-load/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words permite utilizatorilor să lucreze cu documente în diferite formate și oferă o gamă largă de opțiuni pentru aceasta. De exemplu, utilizatorii pot crea un document de la zero sau pot încărca un fișier existent în orice [format de import acceptat](/words/java/supported-document-formats/), efectuați unele modificări la acel document și apoi salvați rezultatul. Când importați un document în formatul selectat, utilizatorul poate aplica diverse opțiuni de încărcare.

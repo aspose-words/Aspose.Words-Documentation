@@ -7,6 +7,7 @@ type: docs
 description: "Sumber daya jarak jauh beban, yang dapat menjadi alasan risiko keamanan. Lihat masalah keamanan umum dan solusi mereka dalam JavaSitemap"
 weight: 120
 url: /id/java/web-applications-security-when-loading-external-resources/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Login Aspose.Words Sitemap Java dapat memuat sumber daya jarak jauh seperti gambar, gaya CSS, atau dokumen HTML eksternal ketika mengimpor dokumen atau memasukkan gambar menggunakan DocumentBuilder. Perilaku ini memungkinkan Anda untuk memproses dokumen Anda secara rinci tetapi dapat menjadi alasan beberapa risiko keamanan jika perpustakaan adalah bagian dari aplikasi web.

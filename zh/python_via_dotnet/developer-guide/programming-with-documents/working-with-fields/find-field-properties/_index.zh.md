@@ -7,6 +7,7 @@ description: "如何在 Python 中查找字段代码和字段结果等字段属�
 type: docs
 weight: 25
 url: /zh/python-net/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 使用 [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/).[insert_field](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_field/) 插入的字段返回 [Field](https://reference.aspose.com/words/python-net/aspose.words.fields/field/) 对象。这是一个外观类，提供有用的方法来快速查找字段的某些属性。

@@ -7,6 +7,7 @@ description: "دستکاری واترمارک سند با استفاده از C#
 type: docs
 weight: 340
 url: /fa/net/working-with-watermark/
+timestamp: 2024-05-02-11-51-44
 ---
 
 این مبحث نحوه کار برنامه‌نویسی با واترمارک با استفاده از Aspose.Words را مورد بحث قرار می‌دهد. واترمارک یک تصویر پس زمینه است که در پشت متن یک سند نمایش داده می شود. یک واترمارک می تواند حاوی متن یا تصویری باشد که توسط کلاس [Watermark](https://reference.aspose.com/words/net/aspose.words/watermark/) نمایش داده می شود.

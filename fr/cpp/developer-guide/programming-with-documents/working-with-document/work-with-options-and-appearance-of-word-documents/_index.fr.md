@@ -1,4 +1,4 @@
-﻿---
+---
 title: Options et apparence des documents Word
 second_title: Aspose.Words pour C++
 articleTitle: Travailler avec les options et l'apparence des documents Word
@@ -7,6 +7,7 @@ description: "Contrôlez l'apparence des documents Word en tenant compte de la d
 type: docs
 weight: 40
 url: /fr/cpp/work-with-word-document-options-and-appearance/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Parfois, vous devrez peut-être modifier l'apparence d'un document, par exemple, définir les préférences de langue ou le nombre de lignes par page.Aspose.Words permet de contrôler la façon dont le document sera affiché, ainsi que certaines options supplémentaires. Cet article décrit ces possibilités.

@@ -7,6 +7,7 @@ description: "Wie Sie die richtige Schrift oder ihren passenden Ersatz finden, w
 type: docs
 weight: 20
 url: /de/java/using-truetype-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bei der Arbeit mit Dokumenten müssen Sie oft verschiedene Schriftarten, Stile und Größen verwenden. Dokumente können eine beliebige Anzahl von Schriften enthalten, die nicht unbedingt auf die Schriften beschränkt sind, die im Betriebssystem installiert sind. Die Schriftarten können ganz anders sein, wie Schriftarten aus anderen Betriebssystemen, gekauft oder von Nutzern selbst erstellt.

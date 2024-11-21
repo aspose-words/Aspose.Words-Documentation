@@ -7,6 +7,7 @@ description: "How to install the Aspose.Words for SharePoint using installer."
 type: docs
 weight: 20
 url: /sharepoint/installing-aspose-words-for-sharepoint/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words for SharePoint is downloadable as Aspose.Words.SharePoint.zip archive. This archive contains the following files:

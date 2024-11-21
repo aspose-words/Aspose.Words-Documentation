@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words 제품정보 Java 높은 수준의 데이터 보안을 보장하기 위해 일반적인 보안 표준을 인식하고 준수합니다. 가능한 보안 문제 및 권장 사항 보기"
 weight: 120
 url: /ko/java/security/
+timestamp: 2024-01-27-14-07-04
 ---
 
 보안은 무단 액세스뿐만 아니라 악성 또는 사고로 인한 데이터를 보호합니다. Aspose.Words 고객 데이터의 보안에 매우 유능하므로 일반적인 보안 표준에 인식하고 준수합니다.

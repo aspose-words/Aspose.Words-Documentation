@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++でのコメントの操作
 second_title: C++の場合Aspose.Words
 articleTitle: コメントの操作
@@ -7,6 +7,7 @@ description: "C++を使用してコメントを操作します。"
 type: docs
 weight: 260
 url: /ja/cpp/working-with-comments/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

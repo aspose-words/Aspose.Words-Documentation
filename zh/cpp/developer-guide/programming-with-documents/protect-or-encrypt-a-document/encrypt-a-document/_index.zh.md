@@ -1,4 +1,4 @@
-﻿---
+---
 title: 用C++加密文档
 second_title: Aspose.Words对于C++
 articleTitle: 加密文档
@@ -7,6 +7,7 @@ description: "使用针对特定文档格式的适当加密算法对文档进行
 type: docs
 weight: 20
 url: /zh/cpp/encrypt-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 加密是将可读文本转换为无意义的字节序列的过程，因此只能由拥有解密密钥或秘密代码的人读取。 此过程在保护您的内容方面起着重要作用。 它有助于对内容进行编码，验证文档的来源，证明内容在发送后未被修改，并确保文档中的数据是安全的。

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Dateiformat erkennen und Formatkompatibilität prüfen
 second_title: Aspose.Words für C++
 articleTitle: Dateiformat erkennen und Formatkompatibilität prüfen
@@ -7,6 +7,7 @@ description: "Bestimmen Sie das Dateiformat in C++, wenn Sie sich nicht sicher s
 type: docs
 weight: 20
 url: /de/cpp/detect-file-format-and-check-format-compatibility/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Manchmal ist es notwendig, das Format eines Dokuments vor dem Öffnen zu bestimmen, da die Dateierweiterung nicht garantiert, dass der Inhalt der Datei angemessen ist. Beispielsweise ist bekannt, dass Crystal Reports Dokumente häufig im Format RTF ausgibt, ihnen jedoch die .doc-Erweiterung.

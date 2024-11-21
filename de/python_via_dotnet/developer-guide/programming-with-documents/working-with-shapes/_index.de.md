@@ -7,6 +7,7 @@ description: "Erstellen und verwalten Sie Formen und andere Objekte in einem Dok
 type: docs
 weight: 280
 url: /de/python-net/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In diesem Thema wird erläutert, wie Sie mithilfe von Aspose.Words programmgesteuert mit Formen arbeiten.

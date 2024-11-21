@@ -7,6 +7,7 @@ description: "Comment ajouter un hyperlien à votre document en utilisant Java."
 type: docs
 weight: 50
 url: /fr/java/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un hyperlien dans Microsoft Word les documents sont les `HYPERLINK` sur le terrain. En Aspose.Words, les hyperliens sont implémentés par l'intermédiaire [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/) En cours.

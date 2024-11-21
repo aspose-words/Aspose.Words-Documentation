@@ -7,6 +7,7 @@ description: "שימוש בשימוש Aspose.Words עבור .NET להפוך את
 type: docs
 weight: 20
 url: /he/net/rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 אנו משתמשים במונח "rendering" ב Aspose.Words כדי לתאר את התהליך של המרת מסמך לתבנית קובץ או מדיום שדמיינו או שיש לו מושג של דפים. אנחנו מדברים על הגשת מסמך לדפים. הדיאגרמה הבאה מראה מה עושה Aspose.Words.

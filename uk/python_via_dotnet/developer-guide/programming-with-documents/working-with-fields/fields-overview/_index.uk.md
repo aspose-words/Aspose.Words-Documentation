@@ -7,6 +7,7 @@ description: "Ви можете змінити поле доступу за до
 type: docs
 weight: 10
 url: /uk/python-net/fields-overview/
+timestamp: 2024-10-21-11-17-44
 ---
 
 

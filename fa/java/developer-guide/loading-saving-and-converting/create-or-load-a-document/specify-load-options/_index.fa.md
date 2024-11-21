@@ -7,6 +7,7 @@ description: "تنظیم خواص پیشرفته هنگام بارگیری یک 
 type: docs
 weight: 10
 url: /fa/java/specify-load-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 هنگام بارگیری یک سند، می توانید برخی از خواص پیشرفته را تنظیم کنید. Aspose.Words شما را با [LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/) کلاس، که اجازه می دهد کنترل دقیق تر فرآیند بار. برخی از فرمت های بار یک کلاس متناظر دارند که گزینه های بار را برای این فرمت بار نگه می دارد، به عنوان مثال، وجود دارد. [PdfLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/) برای بارگیری به فرمت PDF یا [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) برای بارگیری به TXT این مقاله نمونه هایی از کار با گزینه های **LoadOptions** کلاس

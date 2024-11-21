@@ -1,4 +1,4 @@
-﻿---
+---
 title: Arbeiten mit Absätzen in C++
 second_title: Aspose.Words für C++
 articleTitle: Arbeiten mit Absätzen
@@ -7,6 +7,7 @@ description: "Praktiken zur Manipulation von Absatzknoten mit C++."
 type: docs
 weight: 210
 url: /de/cpp/working-with-paragraphs/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Ein Absatz ist eine Reihe von Zeichen, die zu einem logischen Block zusammengefasst sind und mit einem Sonderzeichen enden – a *paragraph break*. In Aspose.Words wird ein Absatz durch die Klasse [Paragraph](https://reference.aspose.com/words/cpp/aspose.words/paragraph/) dargestellt.

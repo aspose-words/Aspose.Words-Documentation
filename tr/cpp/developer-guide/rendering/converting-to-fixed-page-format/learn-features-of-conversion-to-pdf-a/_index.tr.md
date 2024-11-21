@@ -1,4 +1,4 @@
-﻿---
+---
 title: PDF/A ve PDF/UA 'a dönüştürme
 second_title: Aspose.Words için C++
 articleTitle: PDF/A ve PDF/UA'a Dönüştürme Özelliklerini Öğrenin
@@ -7,6 +7,7 @@ description: "Dönüştür PDF/A-1, PDF/A-2, PDF/A-4 ve PDF/UA C++ kullanarak. �
 type: docs
 weight: 35
 url: /tr/cpp/learn-features-of-conversion-to-pdf-a-pdf-ua/
+timestamp: 2024-01-31-14-23-37
 ---
 
 PDF, PDF belgesi herhangi bir cihazda aynı göründüğü için kullanıcılar arasında çok popüler olan ve çeşitli uygulamalar tarafından yaygın olarak desteklenen sabit bir sayfa biçimidir. Bu nedenle PDF'e dönüştürmek Aspose.Words'ın önemli bir özelliğidir.

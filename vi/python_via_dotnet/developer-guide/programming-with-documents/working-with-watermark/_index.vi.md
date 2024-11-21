@@ -7,6 +7,7 @@ description: "Tạo và quản lý hình mờ trong tài liệu bằng Python."
 type: docs
 weight: 340
 url: /vi/python-net/working-with-watermark/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Chủ đề này thảo luận về cách làm việc theo chương trình với hình mờ bằng Aspose.Words. Hình mờ là hình nền hiển thị phía sau văn bản trong tài liệu. Hình mờ có thể chứa văn bản hoặc hình ảnh được đại diện bởi lớp [Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/).

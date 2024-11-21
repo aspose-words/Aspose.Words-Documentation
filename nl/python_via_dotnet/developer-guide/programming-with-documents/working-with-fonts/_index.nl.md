@@ -7,6 +7,7 @@ description: "Lettertypeinstellingen aanpassen met behulp van Python."
 type: docs
 weight: 230
 url: /nl/python-net/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Een lettertype is een verzameling tekens met een bepaalde grootte, kleur en ontwerp. Aspose.Words kunt u werken met lettertypen met behulp van de [fonts](https://reference.aspose.com/words/python-net/aspose.words.fonts/) module en de [Font](https://reference.aspose.com/words/python-net/aspose.words/font/) Klasse.

@@ -7,6 +7,7 @@ description: "ドキュメントを 1 つにまとめる: フィールド、ブ�
 type: docs
 weight: 80
 url: /ja/java/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 複数の文書を1つにまとめる必要があります。 手動でこれを行うことができます。 Aspose.Words インサートまたは追加機能。

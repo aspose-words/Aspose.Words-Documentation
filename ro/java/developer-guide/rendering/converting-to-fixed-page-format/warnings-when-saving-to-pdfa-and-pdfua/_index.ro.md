@@ -1,4 +1,4 @@
-﻿---
+---
 title: Avertismente la salvarea în PDF/A și PDF/UA
 second_title: Aspose.Words pentru Java
 articleTitle: Avertismente privind problema accesibilității la salvarea în PDF/A și PDF/UA
@@ -7,6 +7,7 @@ description: "PDF/A și PDF/UA impun cerințe de accesibilitate legate de conți
 type: docs
 weight: 29
 url: /ro/java/warnings-when-saving-to-pdfa-and-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Formatele PDF/A și PDF/UA impun o serie de cerințe de accesibilitate legate de conținutul documentului care nu pot fi îndeplinite în timpul conversiei automate de la Word la PDF. Aceste cerințe sunt descrise în articolul precedent *"Working with PDF/A or PDF/UA"*. Acum sunt emise avertismente pentru unele dintre aceste probleme.

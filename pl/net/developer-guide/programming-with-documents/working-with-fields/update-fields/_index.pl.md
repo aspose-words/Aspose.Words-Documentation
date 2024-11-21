@@ -7,6 +7,7 @@ description: "Dowiedz się, jak aktualizować pola w C#. Aktualizuj pola program
 type: docs
 weight: 30
 url: /pl/net/update-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Zazwyczaj pole wstawione do Microsoft Word zawiera już aktualną wartość. Przykładowo, jeśli polem jest formuła lub numer strony, będzie ona zawierać poprawną wyliczoną wartość dla danej wersji dokumentu. Jeśli jednak masz aplikację, która generuje lub modyfikuje dokument za pomocą pól, na przykład łącząc dwa dokumenty lub wypełniając go danymi, w idealnym przypadku wszystkie pola muszą zostać zaktualizowane, aby dokument był użyteczny.

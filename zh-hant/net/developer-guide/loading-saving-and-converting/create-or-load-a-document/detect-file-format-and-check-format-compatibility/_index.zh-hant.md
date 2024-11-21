@@ -7,6 +7,7 @@ description: "在不確定檔案實際內容或要檢查檔案格式相容性時
 type: docs
 weight: 20
 url: /zh-hant/net/detect-file-format-and-check-format-compatibility/
+timestamp: 2024-10-21-11-17-44
 ---
 
 有時若要打開一個檔案之前先決定它的格式是有必要的，因為檔案的拡張名並不保證檔案內容是適當的。 例如，已知 Crystal Reports 經常會輸出 RTF 格式的文件，但卻會給它加上 .doc 這一個擴展名。

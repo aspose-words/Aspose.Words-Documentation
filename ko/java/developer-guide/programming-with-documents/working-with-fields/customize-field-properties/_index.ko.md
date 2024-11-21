@@ -7,6 +7,7 @@ description: "필드 속성을 사용자 정의하는 방법 알아보기 Java·
 type: docs
 weight: 27
 url: /ko/java/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words 다양한 필드 속성과 프로그래밍 가능한 상호 작용을 제공합니다. 이 문서에서는 필드 속성과 작업의 기본 원리를 이해하기 때문에 예를 몇 가지를 살펴볼 것입니다. 해당 클래스의 각 필드 유형에 대한 전체 속성 목록을 볼 수 있습니다.

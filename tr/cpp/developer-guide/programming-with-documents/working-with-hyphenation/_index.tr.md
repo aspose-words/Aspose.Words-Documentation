@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içinde Tireleme ile çalışma
 second_title: Aspose.Words için C++
 articleTitle: Tireleme ile Çalışma
@@ -7,6 +7,7 @@ description: "C++ kullanarak metnin daha kompakt bir düzenlemesi için tireleme
 type: docs
 weight: 220
 url: /tr/cpp/working-with-hyphenation/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Bazen bir belgedeki metnin daha kompakt bir düzenlemesi için tireleme kullanmak gerekir. Aynı zamanda, kelime tirelemesinin özelliklerinin her dil için farklı olabileceğini anlamak önemlidir.

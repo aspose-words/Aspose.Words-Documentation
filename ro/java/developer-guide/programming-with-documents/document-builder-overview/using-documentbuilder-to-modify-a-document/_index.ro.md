@@ -1,4 +1,4 @@
-﻿---
+---
 title: Folosind `DocumentBuilder` pentru a modifica un Document
 second_title: Aspose.Words pentru Java
 articleTitle: Folosind `DocumentBuilder` pentru a modifica un Document
@@ -7,6 +7,7 @@ type: docs
 description: "Utilizați document builder pentru a modifica un document cu ușurință în Java."
 weight: 20
 url: /ro/java/using-documentbuilder-to-modify-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Specificarea Formatării

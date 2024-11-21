@@ -7,6 +7,7 @@ description: "C#'te çeşitli şekillerde tablonun nasıl oluşturulacağına da
 type: docs
 weight: 20
 url: /tr/net/create-a-table/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words, kullanıcıların bir belgede sıfırdan tablolar oluşturmasına olanak tanır ve bunu yapmak için birkaç farklı yöntem sunar. Bu makale, her yöntemi kullanarak belgenize biçimlendirilmiş tabloları nasıl ekleyeceğinize ilişkin ayrıntıların yanı sıra makalenin sonunda her yöntemin karşılaştırmasını sunar.

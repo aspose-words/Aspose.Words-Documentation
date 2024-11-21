@@ -18,6 +18,7 @@ aliases:
  - /java/rich-text-format-rtf/
  - /java/wordprocessingml-docx-and-xml/
  - /java/xml-paper-specification-xps/
+timestamp: 2024-01-31-14-23-37
 ---
 
 {{% alert color="primary" %}}

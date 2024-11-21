@@ -1,4 +1,4 @@
-﻿---
+---
 title: Opdateer Velde in Java
 second_title: Aspose.Words vir Java
 articleTitle: Opdateer Velde
@@ -7,6 +7,7 @@ description: "Leer hoe om velde in Java op te dateer. Dateer velde programmaties
 type: docs
 weight: 30
 url: /af/java/update-field/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Tipies, 'n veld ingevoeg in Microsoft Word bevat reeds'n up-to-date waarde. Byvoorbeeld, as die veld'n formule of'n bladsy nommer is, sal dit die korrekte berekende waarde vir die gegewe weergawe van die dokument bevat. Maar as jy'n aansoek wat genereer of verander'n dokument met velde soos die samesmelting van twee dokumente of vul dit met data, dan ideaal alle velde moet opgedateer word vir die dokument nuttig te wees.

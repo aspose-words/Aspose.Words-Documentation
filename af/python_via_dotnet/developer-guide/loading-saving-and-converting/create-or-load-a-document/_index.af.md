@@ -1,4 +1,4 @@
-﻿---
+---
 title: Skep Of Laai'n Dokument in Python
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Skep Of Laai'n Dokument
@@ -8,6 +8,7 @@ url: /af/python-net/create-or-load-a-document/
 description: "Skep'n leë dokument of laai dit vanaf'n lêer of stroom met Python."
 keywords: "create a document python, load a document python, create a blank document python, load a document from file python, load a document from stream python, create a document Aspose python, load a document Aspose python, load formats supported by Aspose.Words python"
 weight: 10
+timestamp: 2024-01-27-14-07-04
 ---
 
 Byna enige taak wat u met Aspose.Words wil uitvoer, behels die laai van'n dokument. Die [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) klas verteenwoordig'n dokument gelaai in die geheue. Die dokument het verskeie oorlaai konstruktors sodat jy'n leë dokument te skep of om dit te laai van'n lêer of stroom. Die dokument kan gelaai word in enige laai formaat ondersteun deur Aspose.Words. Vir die lys van alle ondersteun vrag formate, sien die [LoadFormat](https://reference.aspose.com/words/python-net/aspose.words/loadformat/) opsomming.

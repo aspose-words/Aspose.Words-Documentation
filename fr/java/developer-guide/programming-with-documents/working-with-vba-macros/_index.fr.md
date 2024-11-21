@@ -7,6 +7,7 @@ description: "Travailler avec le document VBA projets utilisant Java."
 type: docs
 weight: 410
 url: /fr/java/working-with-vba-macros/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Visual Basic pour les demandes (VBA) Microsoft Word est un langage de programmation simple mais puissant qui peut être utilisé pour étendre la fonctionnalité. Aspose.Words API fournit trois classes pour accéder au code source du projet VBA:

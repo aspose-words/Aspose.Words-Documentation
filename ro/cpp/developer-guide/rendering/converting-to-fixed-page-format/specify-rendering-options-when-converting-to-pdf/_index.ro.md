@@ -1,4 +1,4 @@
-﻿---
+---
 title: Specificați opțiunile De redare la conversia în PDF
 second_title: Aspose.Words pentru C++
 articleTitle: Specificați opțiunile De redare la conversia în PDF
@@ -7,6 +7,7 @@ description: "Convertiți un document în PDF cu opțiuni avansate folosind C++.
 type: docs
 weight: 30
 url: /ro/cpp/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Formatul PDF este un format de pagină fixă care este foarte popular în rândul utilizatorilor și este acceptat pe scară largă de diverse aplicații, deoarece un document PDF arată la fel pe orice dispozitiv. Din acest motiv, conversia în PDF este o caracteristică importantă a Aspose.Words.

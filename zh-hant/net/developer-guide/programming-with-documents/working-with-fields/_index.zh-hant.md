@@ -7,6 +7,7 @@ description: "對 .NET 的 Aspose.Words 中的欄位功能進行介紹。"
 type: docs
 weight: 370
 url: /zh-hant/net/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 **Fields** 在一份文件中的位置就像可以插入有用數據的占位符。 例如，一個欄位可以是頁面參考、公式或 mail merge 欄位。

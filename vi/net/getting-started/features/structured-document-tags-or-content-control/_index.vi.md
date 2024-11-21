@@ -7,6 +7,7 @@ description: "Làm việc với Thẻ tài liệu có cấu trúc hoặc Kiểm 
 type: docs
 weight: 50
 url: /vi/net/structured-document-tags-or-content-control/
+timestamp: 2024-01-31-14-23-37
 ---
 
 

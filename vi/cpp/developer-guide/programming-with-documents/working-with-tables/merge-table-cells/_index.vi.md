@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hợp Nhất Các Ô Bảng trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Hợp Nhất Các Ô Bảng
@@ -7,6 +7,7 @@ description: "Cách hợp nhất các ô bảng trong C++. Kiểm tra xem các �
 type: docs
 weight: 40
 url: /vi/cpp/merge-table-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Đôi khi một số hàng nhất định trong bảng yêu cầu một tiêu đề hoặc các khối văn bản lớn chiếm toàn bộ chiều rộng của bảng. Để thiết kế bảng phù hợp, người dùng có thể hợp nhất một số ô bảng thành một. Aspose.Words hỗ trợ các ô được hợp nhất khi làm việc với tất cả các định dạng đầu vào, bao gồm nhập nội dung HTML.

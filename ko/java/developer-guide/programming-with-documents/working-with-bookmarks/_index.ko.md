@@ -7,6 +7,7 @@ description: "책갈피 개념과 책갈피는 어떻게 당신의 프로그램�
 type: docs
 weight: 180
 url: /ko/java/working-with-bookmarks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 즐겨찾기에 추가 Microsoft Word 이름과 미래 참조를 식별하는 위치 또는 파편을 문서화합니다. 예를 들어, 나중에 수정하려는 텍스트를 식별 할 수 있습니다. 문서를 통해 스크롤하는 대신 텍스트를 찾습니다. 즐겨찾기 대화 상자를 사용하여 이동할 수 있습니다.

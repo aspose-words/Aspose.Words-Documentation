@@ -8,6 +8,7 @@ type: docs
 weight: 20
 url: /java/insert-checkboxes-text-input-or-images-mail-merge/
 aliases: [/java/insert-checkboxes-html-or-images-during-mail-merge/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 The merge engine takes a document as input, looks for `MERGEFIELD` fields in it, and replaces them with the data obtained from the data source. Typically, plain text and HTML are inserted, but Aspose.Words users can also generate a document that handles more unusual scenarios for mail merge fields.

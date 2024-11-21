@@ -1,4 +1,4 @@
-﻿---
+---
 title: Skep BarCode in Java
 second_title: Aspose.Words vir Java
 articleTitle: Genereer'n Pasgemaakte BarCode - Beeldlêer
@@ -7,6 +7,7 @@ description: "Voorbeeld van barcode vorm generasie met behulp van Java."
 type: docs
 weight: 350
 url: /af/java/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/
+timestamp: 2024-09-05-11-07-10
 ---
 
 'n strepieskode is'n visuele voorstelling van data in die vorm van parallelle lyne of patrone. Barcodes word wyd gebruik in verskeie bedrywe soos kleinhandel, logistiek, gesondheidsorg, bankwese en vele ander.

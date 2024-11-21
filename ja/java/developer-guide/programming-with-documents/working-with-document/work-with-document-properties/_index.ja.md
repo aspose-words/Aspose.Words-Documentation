@@ -7,6 +7,7 @@ description: "Aspose.Words お問い合わせ Java ドキュメントに関す�
 type: docs
 weight: 10
 url: /ja/java/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
 ドキュメントプロパティでは、ドキュメントに関する有用な情報を保存できます。 これらのプロパティは2つのグループに分けることができます。

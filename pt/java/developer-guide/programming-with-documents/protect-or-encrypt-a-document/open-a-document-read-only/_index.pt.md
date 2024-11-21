@@ -7,6 +7,7 @@ description: "Faça seu documento somente leitura para que o conteúdo possa ser
 type: docs
 weight: 10
 url: /pt/java/open-a-document-read-only/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Às vezes, você pode ter um documento que precisa de uma revisão, mas você não quer que os revisores modifiquem aleatoriamente seu conteúdo. Aspose.Words permite que você faça a permissão do seu documento somente leitura para que o conteúdo possa ser copiado ou lido, mas não modificado. Isso impedirá que o conteúdo seja removido ou adicionado ao seu documento.

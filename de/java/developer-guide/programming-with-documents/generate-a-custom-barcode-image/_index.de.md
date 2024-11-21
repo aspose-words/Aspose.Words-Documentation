@@ -7,6 +7,7 @@ description: "Beispiel für die Erzeugung von Strichcodes mithilfe von Java."
 type: docs
 weight: 350
 url: /de/java/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/
+timestamp: 2024-09-05-11-07-10
 ---
 
 Ein Strichcode ist eine visuelle Darstellung von Daten in Form paralleler Linien oder Muster. Strichcodes werden in verschiedenen Branchen wie Einzelhandel, Logistik, Gesundheitswesen, Banken und vielen anderen breit eingesetzt.

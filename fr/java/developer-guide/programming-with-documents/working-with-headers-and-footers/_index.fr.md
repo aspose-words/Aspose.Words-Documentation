@@ -7,6 +7,7 @@ description: "Comment manipuler les en-têtes et les pied de pied en utilisant J
 type: docs
 weight: 150
 url: /fr/java/working-with-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words permet aux utilisateurs de travailler avec les en-têtes et les pied de page dans un document. Un en-tête est un texte placé en haut d'une page, et un pied de page est un texte en bas d'une page. Habituellement, ces zones sont utilisées pour insérer des renseignements qui devraient être répétés sur toutes les pages ou sur certaines pages du document, comme les numéros de page, la date de création, l'information de l'entreprise, etc.

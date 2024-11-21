@@ -7,6 +7,7 @@ description: "Track changes in documents. Docx4j does not provide an opportunity
 type: docs
 weight: 30
 url: /java/track-changes-in-documents-using-aspose-words/
+timestamp: 2024-01-31-14-23-37
 ---
 
 {{% alert color="primary" %}}

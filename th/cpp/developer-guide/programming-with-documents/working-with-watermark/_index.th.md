@@ -1,4 +1,4 @@
-﻿---
+---
 title: การทำงานกับลายน้ำในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: การทำงานกับลายน้ำ
@@ -7,6 +7,7 @@ type: docs
 description: "การจัดการลายน้ำเอกสารโดยใช้C++."
 weight: 340
 url: /th/cpp/working-with-watermark/
+timestamp: 2024-01-30-16-22-34
 ---
 
 หัวข้อนี้กล่าวถึงวิธีการทำงานตามโปรแกรมด้วยลายน้ำโดยใช้Aspose.Words ลายน้ำเป็นภาพพื้นหลังที่แสดงอยู่เบื้องหลังข้อความในเอกสาร ลายน้ำสามารถประกอบด้วยข้อความหรือรูปภาพที่แสดงโดยคลาสของ[Watermark](https://reference.aspose.com/words/cpp/aspose.words/watermark/).

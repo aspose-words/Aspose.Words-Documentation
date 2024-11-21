@@ -7,6 +7,7 @@ description: "外地特征简介 Aspose.Words (单位:千美元) Java。 。 。
 type: docs
 weight: 370
 url: /zh/java/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 **Fields** 在文档中,如同可以插入有用数据的占位符。 例如,一个字段可以是页面引用、公式或 mail merge 字段。

@@ -7,6 +7,7 @@ description: "以C#儲存至PDF、XPS、HTML、XAML、PostScript和PCL格式的�
 type: docs
 weight: 10
 url: /zh-hant/net/converting-to-fixed-page-format/
+timestamp: 2024-07-10-08-10-45
 ---
 
 Aspose.Words 實作其自己的頁面排版引擎。 在深入探討其規格之前，最好先高階討論文件。 當思考一篇文件時，使用者通常會想像一張張的紙包含文字、圖片、表格和圖表。 文件可以有各種格式，如文字、試算表、簡報、CAD圖形、流程圖等等。因此其頁面布局可能有很大差異。 大多數應用程式允許將文件傳送到印表機；這是使用者可以實際觀看文件最終預期的樣貌時。

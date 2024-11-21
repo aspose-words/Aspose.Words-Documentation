@@ -7,6 +7,7 @@ description: "Funkcja Understanding Form Fields, praca z Form Fields przy użyci
 type: docs
 weight: 380
 url: /pl/java/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Dokument, który zawiera wypełnienie w pustych polach jest znany jako forma. Na przykład, można utworzyć formularz rejestracyjny w Microsoft Word który używa listy rozwijanej, z której użytkownicy mogą wybierać wpisy. W `Form` pole jest miejscem przechowywania określonego rodzaju danych, takich jak nazwa lub adres. Formować pola w Microsoft Word zawiera dane wejściowe tekstowe, pole i pole wyboru.

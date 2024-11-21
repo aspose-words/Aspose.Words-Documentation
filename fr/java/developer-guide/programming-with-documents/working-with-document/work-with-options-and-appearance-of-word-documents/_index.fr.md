@@ -7,6 +7,7 @@ description: "Contrôler l'apparence des documents Word en tenant compte de la d
 type: docs
 weight: 40
 url: /fr/java/work-with-word-document-options-and-appearance/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Parfois, vous pouvez avoir besoin de modifier l'apparence d'un document, par exemple, définir des préférences linguistiques ou le nombre de lignes par page.Aspose.Words fournit la possibilité de contrôler la façon dont le document sera affiché, ainsi que quelques options supplémentaires. Cet article décrit ces possibilités.

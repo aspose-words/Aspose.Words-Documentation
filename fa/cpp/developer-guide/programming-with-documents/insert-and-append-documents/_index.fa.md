@@ -1,4 +1,4 @@
-﻿---
+---
 title: وارد کردن و اضافه کردن اسناد در C++
 second_title: Aspose.Words برای C++
 articleTitle: اسناد را وارد و اضافه کنید
@@ -7,6 +7,7 @@ description: "اسناد را به یک ترکیب کنید: یک سند را ب
 type: docs
 weight: 80
 url: /fa/cpp/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 گاهی اوقات لازم است چندین سند را در یک ترکیب کنید. شما می توانید این کار را به صورت دستی انجام دهید یا می توانید از ویژگی Aspose.Words insert یا append استفاده کنید.

@@ -7,6 +7,7 @@ description: "Learn how to access CSV data while building a report using LINQ in
 type: docs
 weight: 40
 url: /net/accessing-csv-data/
+timestamp: 2024-01-27-14-07-04
 ---
 
 To access CSV data while building a report, you can pass a `CsvDataSource` instance to the engine as a data source.

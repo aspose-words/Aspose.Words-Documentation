@@ -7,6 +7,7 @@ description: "Comment fusionner des cellules de table dans Java. Vérifier si le
 type: docs
 weight: 40
 url: /fr/java/working-with-merged-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Parfois, certaines lignes d'une table nécessitent un titre ou de grands blocs de texte qui prennent toute la largeur de la table. Pour une bonne conception de la table, l'utilisateur peut fusionner plusieurs cellules de table en une seule. Aspose.Words prend en charge les cellules fusionnées lorsque vous travaillez avec tous les formats d'entrée, y compris l'importation de contenu HTML.

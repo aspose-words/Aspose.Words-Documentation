@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge Templat dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Mail Merge Templat
@@ -8,6 +8,7 @@ description: "Buat templat mail merge untuk menentukan konten tetap dalam dokume
 keywords: "create mail merge template с++"
 weight: 10
 url: /id/cpp/mail-merge-template/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Adalah umum untuk menggunakan templat gabungan sebagai dokumen dasar untuk operasi mail merge baik jika itu adalah mail merge sederhana atau mail merge dengan wilayah. Mail merge dengan wilayah lebih kuat dan populer daripada mail merge sederhana. mail merge sederhana dianggap sebagai kasus khusus mail merge dengan wilayah di mana wilayah tersebut merupakan keseluruhan dokumen. Semua dijelaskan pada artikel selanjutnya "Jenis Operasi Mail Merge" secara lebih rinci.

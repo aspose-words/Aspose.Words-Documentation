@@ -7,6 +7,7 @@ description: "Práce s asijskou typografií pomocí Java. Nastavte prostor mezi 
 type: docs
 weight: 240
 url: /cs/java/working-with-asian-typography/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Asijská typografie je soubor možností pro textové odstavce v dokumentech napsaných v asijských jazycích.

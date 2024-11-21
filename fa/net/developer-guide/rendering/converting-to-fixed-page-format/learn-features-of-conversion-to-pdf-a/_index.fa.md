@@ -7,6 +7,7 @@ description: "با استفاده از C# به PDF/A-1، PDF/A-2، PDF/A-4 و PD
 type: docs
 weight: 25
 url: /fa/net/learn-features-of-conversion-to-pdf-a-pdf-ua/
+timestamp: 2024-01-31-14-23-37
 ---
 
 PDF یک فرمت صفحه ثابت است که در بین کاربران بسیار محبوب است و به طور گسترده توسط برنامه های مختلف پشتیبانی می شود، زیرا یک سند PDF در هر دستگاهی یکسان به نظر می رسد. به همین دلیل، تبدیل به PDF یکی از ویژگی های مهم Aspose.Words است.

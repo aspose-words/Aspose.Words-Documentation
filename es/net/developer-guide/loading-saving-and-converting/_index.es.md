@@ -7,6 +7,7 @@ description: "Cómo convertir un documento de un formato a otro, como Word a PDF
 type: docs
 weight: 10
 url: /es/net/loading-saving-and-converting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Esta sección proporciona información sobre las funciones al cargar y guardar un documento, así como datos sobre las posibilidades al convertir un documento de un formato a otro.

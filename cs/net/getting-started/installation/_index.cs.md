@@ -7,6 +7,7 @@ description: "Instalovat Aspose.Words místo .NET podání Visual Studio nástro
 type: docs
 weight: 10
 url: /cs/net/installation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ujistěte se, že váš stroj splňuje [Požadavky na systém](/words/cs/net/system-requirements/) Než začnete.

@@ -7,6 +7,7 @@ description: "Utilisez le trait d'union pour un arrangement plus compact du text
 type: docs
 weight: 220
 url: /fr/java/working-with-hyphenation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Parfois, il est nécessaire d'utiliser le trait d'union pour un arrangement plus compact de texte dans un document. Dans le même temps, il est important de comprendre que les spécificités de l'articulation des mots peuvent différer pour chaque langue.

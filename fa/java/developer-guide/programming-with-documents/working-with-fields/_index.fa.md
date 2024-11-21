@@ -7,6 +7,7 @@ description: "مقدمه ای بر ویژگی های زمینه در Aspose.Word
 type: docs
 weight: 370
 url: /fa/java/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 **Fields** در یک سند مانند صاحبان مکان هستند که داده های مفید را می توان وارد کرد. به عنوان مثال، یک فیلد می تواند یک مرجع صفحه، فرمول یا یک صفحه باشد. mail merge زمینه

@@ -7,6 +7,7 @@ description: "Perform certain operations on content controls dynamically while b
 type: docs
 weight: 83
 url: /java/working-with-content-controls/
+timestamp: 2024-01-27-14-07-04
 ---
 
 LINQ Reporting Engine enables you to perform certain operations on content controls dynamically while building a report.

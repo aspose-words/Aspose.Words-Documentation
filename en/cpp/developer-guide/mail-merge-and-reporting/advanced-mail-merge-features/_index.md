@@ -1,4 +1,4 @@
-﻿---
+---
 title: Advanced Mail Merge Features in C++
 second_title: Aspose.Words for C++
 articleTitle: Advanced Mail Merge Features
@@ -10,6 +10,7 @@ description: "Aspose.Words for C++ provides some advanced mail merge features th
 keywords: "use advanced mail merge features c++"
 weight: 50
 url: /cpp/advanced-mail-merge-features/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words provides some additional mail merge properties and methods that allow you to perform further customization of the mail merge process either in simple mail merge or mail merge with regions.

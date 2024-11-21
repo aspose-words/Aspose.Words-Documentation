@@ -1,4 +1,4 @@
-﻿---
+---
 title: Манипулирование шрифтами и проблемы с производительностью в C++
 second_title: Aspose.Words для C++
 articleTitle: Манипулирование шрифтами и проблемы с производительностью
@@ -7,6 +7,7 @@ description: "Aspose.Words для C++ использует полное назв
 type: docs
 weight: 11
 url: /ru/cpp/font-manipulation-and-performance-issues/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Все доступные механизмы манипулирования шрифтами содержатся в классе [FontSettings](https://reference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings). Этот класс отвечает за выборку шрифтов из определенных источников, а также за процесс замены шрифта, как описано ниже.

@@ -7,6 +7,7 @@ type: docs
 description: "Giới thiệu ngôn ngữ đánh dấu hình dạng, tạo các hình dạng khác nhau bằng Java."
 weight: 280
 url: /vi/java/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Mục này thảo luận về cách làm việc với các hình dạng một cách lập trình bằng Aspose.Words.

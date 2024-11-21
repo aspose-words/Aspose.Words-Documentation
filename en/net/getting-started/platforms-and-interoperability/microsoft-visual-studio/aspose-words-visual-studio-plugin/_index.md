@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words Visual Studio Plugin
 second_title: Aspose.Words for .NET
 articleTitle: Aspose.Words Visual Studio Plugin
@@ -7,6 +7,7 @@ description: "How to use Aspose Visual Studio Plugin to quickly download and exp
 type: docs
 weight: 40
 url: /net/aspose-words-visual-studio-plugin/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Microsoft Visual Studio is an integrated development environment (IDE) from Microsoft. It is used to develop computer programs for Microsoft Windows, as well as web sites, web applications and web services. Visual Studio uses Microsoft software development platforms such as Windows API, Windows Forms, Windows Presentation Foundation, Windows Store and Microsoft Silverlight. It can produce both native code and managed code.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Kantoor Byvoegings in Python
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Werk Met Kantoor Byvoegings
@@ -7,6 +7,7 @@ description: "Aspose.Words vir Python via .NET bied verskeie klasse vir die werk
 type: docs
 weight: 50
 url: /af/python-net/work-with-office-add-ins/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Soms wil jy dalk toegang gee tot koppelvlakbeheer wat kode uitvoer om dokumente te verander. Aspose.Words API bied die [webextensions](https://reference.aspose.com/words/python-net/aspose.words.webextensions/) module, wat verskeie klasse verleen om elemente en eienskappe aan te pas wat die XML woordeskat uitbrei vir Die verteenwoordiging van Office-Byvoegings.

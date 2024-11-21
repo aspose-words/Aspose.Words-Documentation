@@ -7,6 +7,7 @@ description: "Aspose.Words for Android عبر Java السمات والسمات A
 type: docs
 weight: 50
 url: /ar/java/aspose-words-for-android-via-java-limitations-and-api-differences/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## حدود Aspose.Words for Android عبر Java API بالمقارنة مع Aspose.Words for Java API

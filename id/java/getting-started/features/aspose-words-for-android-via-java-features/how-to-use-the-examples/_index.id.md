@@ -7,6 +7,7 @@ description: "Cara menjalankan Aspose.Words Sitemap Android Sitemap Java Sitemap
 type: docs
 weight: 70
 url: /id/java/how-to-use-the-examples/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Pertama-tama pastikan Anda memiliki bundel ADT dipasang dan bahwa Anda telah mengunduh dan mengekstrak versi terbaru dari [Aspose.Words Sitemap Android Sitemap Java](https://releases.aspose.com/words/androidjava/)Sitemap

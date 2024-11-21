@@ -7,6 +7,7 @@ description: "생성, 편집 및 저장 당신의 첫 번째 문서에서 지원
 type: docs
 weight: 20
 url: /ko/java/hello-world/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A "Hello, World!" 코드는 종종 uisng을 쓰는 첫 번째 간단한 예입니다 "Aspose.Words 제품정보 Java", 그리고 그것은 또한 sanity 테스트로 컴파일하거나 소스 코드를 실행하는 소프트웨어를 보장 할 수 있습니다 제대로 설치.

@@ -7,6 +7,7 @@ description: "Sostituire il testo in una tabella Java. Estrarre il testo normale
 type: docs
 weight: 60
 url: /it/java/extract-text-from-and-replace-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Come accennato negli articoli precedenti, una tabella di solito contiene testo normale, anche se altri contenuti come le immagini o anche altre tabelle possono essere inseriti nelle celle della tabella.

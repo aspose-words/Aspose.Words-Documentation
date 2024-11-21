@@ -7,6 +7,7 @@ description: "Aspose.Words עבור Python via .NET זה עטיפה Aspose.Words
 type: docs
 weight: 15
 url: /he/python-net/python-notes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words עבור Python via .NET זה עטיפה Aspose.Words עבור .NET, לכן לשני המוצרים יש כמעט את אותה קבוצה של תכונות. עם זאת, ישנם כמה ניואנסים של עבודה והבדלים בתכונות ו API, אשר מתוארים בדף זה.

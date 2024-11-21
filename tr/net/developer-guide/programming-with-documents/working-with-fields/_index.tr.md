@@ -7,6 +7,7 @@ description: ".NET için Aspose.Words'teki saha özelliğine giriş."
 type: docs
 weight: 370
 url: /tr/net/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bir belgedeki **Fields**, yararlı verilerin eklenebileceği yer tutucular gibidir. Örneğin bir alan sayfa referansı, formül veya mail merge alanı olabilir.

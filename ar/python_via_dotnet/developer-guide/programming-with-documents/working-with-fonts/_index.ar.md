@@ -7,6 +7,7 @@ description: "تخصيص إعدادات الخط باستخدام Python."
 type: docs
 weight: 230
 url: /ar/python-net/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 الخط عبارة عن مجموعة من الأحرف ذات حجم ولون وتصميم معين. يتيح لك Aspose.Words العمل مع الخطوط باستخدام وحدة [fonts](https://reference.aspose.com/words/python-net/aspose.words.fonts/) وفئة [Font](https://reference.aspose.com/words/python-net/aspose.words/font/).

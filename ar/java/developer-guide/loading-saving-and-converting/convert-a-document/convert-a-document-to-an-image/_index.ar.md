@@ -7,6 +7,7 @@ type: docs
 description: "Convert a document to image format (JPG, PNG, etc). إعداد وثيقة مسبقة أو إعداد مسح وثائقي لإرسال فاتورة باستخدام Java."
 weight: 35
 url: /ar/java/convert-a-document-to-an-image/
+timestamp: 2024-01-27-14-07-04
 ---
 
 وفي بعض الأحيان يكون من المطلوب الحصول على صورة بدلاً من الوثائق في أشكال أخرى، مثل DOCX أو PDF. على سبيل المثال، عليك أن تضيف عرضاً مسبقاً لأي صفحة من صفحات الوثائق إلى موقعك أو تطبيقك أو إنشاء "مسح" لوثيقة لإرسال فاتورة هذا هو عندما قد تحتاج إلى تحويل وثيقة في أي [استمارة الحمولة المدعومة](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) إلى صورة، مرة أخرى، في أي [الدعم](https://reference.aspose.com/words/java/com.aspose.words/saveformat/).

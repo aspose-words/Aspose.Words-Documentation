@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içindeki Şekillerle Çalışma
 second_title: Aspose.Words için C++
 articleTitle: Şekillerle Çalışma
@@ -7,6 +7,7 @@ type: docs
 description: "Şekil biçimlendirme diline giriş, C++ kullanarak farklı türde şekiller oluşturma."
 weight: 280
 url: /tr/cpp/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bu konuda Aspose.Words kullanarak şekillerle programlı olarak nasıl çalışılacağı anlatılmaktadır.

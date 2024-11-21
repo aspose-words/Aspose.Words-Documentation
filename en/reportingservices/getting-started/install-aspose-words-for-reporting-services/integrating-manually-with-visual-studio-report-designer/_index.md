@@ -7,6 +7,7 @@ description: "Manual installation process of the Aspose.Words for Reporting Serv
 type: docs
 weight: 40
 url: /reportingservices/integrating-manually-with-visual-studio-report-designer/
+timestamp: 2024-11-13-12-00-30
 ---
 
 {{% alert color="primary" %}}

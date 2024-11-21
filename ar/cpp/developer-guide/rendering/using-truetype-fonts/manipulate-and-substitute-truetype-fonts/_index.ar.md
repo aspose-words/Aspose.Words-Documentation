@@ -1,4 +1,4 @@
-﻿---
+---
 title: التلاعب واستبدال TrueType الخطوط في C++
 second_title: Aspose.Words ل C++
 articleTitle: التلاعب واستبدال TrueType الخطوط
@@ -7,6 +7,7 @@ description: "Aspose.Words ل C++ يمكن تضمين الصحيح TrueType ال
 type: docs
 weight: 10
 url: /ar/cpp/manipulate-and-substitute-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words يتطلب TrueType خطوط لمجموعة متنوعة من المهام، بما في ذلك تقديم المستندات إلى تنسيقات الصفحات الثابتة، على سبيل المثال، PDF أو XPS. عندما يعرض Aspose.Words مستندا، فإنه يحتاج إلى إجراء التضمين وتضمين مجموعة فرعية لخطوط TrueType في المستند الناتج، وهي ممارسة عادية أثناء إنشاء المستند، بما في ذلك التنسيقات الشائعة PDF أو XPS. هذا يضمن أن المستند سيظهر كما هو لأي عارض. علاوة على ذلك، تتطلب المواصفات XPS تضمين الخطوط دائما في المستند.

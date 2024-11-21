@@ -7,6 +7,7 @@ description: "Investigate a showcase for Comparing Documents with Aspose.Words f
 type: docs
 weight: 10
 url: /net/document-comparison-by-aspose-words-for-net/
+timestamp: 2024-01-27-14-07-04
 ---
 
 This section provides a showcase describing document comparison with Aspose.Words.

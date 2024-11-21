@@ -7,6 +7,7 @@ description: "문서에서 OLE embedding 생성 및 수정 Java·"
 type: docs
 weight: 360
 url: /ko/java/working-with-ole-objects/
+timestamp: 2024-01-27-14-07-04
 ---
 
 OLE는 "Object Linking and Embedding"을 의미합니다. 이것은 사용자가 제3자 응용 프로그램에 의해 생성되거나 편집 된 "objects"를 포함하는 문서와 함께 작동 할 수있는 기술입니다. 즉, OLE는 이러한 "objects"를 편집하기위한 또 다른 응용 프로그램에 수출 할 수 있으며, 그 다음 추가 내용으로 다시 가져 오기.

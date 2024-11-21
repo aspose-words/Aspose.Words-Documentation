@@ -7,6 +7,7 @@ description: "How to load documents from external sources in C#. Load PDF, DOCX,
 type: docs
 weight: 40
 url: /net/working-with-documents-from-external-sources/
+timestamp: 2024-01-27-14-07-04
 ---
 
 This section provides information on how to load documents from external sources such as SharePoint document storage or databases. After receiving such a document, you can not only make all the necessary changes to it, available using the powerful functionality of Aspose.Words, but also load this document back into the data source.

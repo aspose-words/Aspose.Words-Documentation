@@ -7,6 +7,7 @@ description: "Specificare la posizione della tabella in Java. Ottieni un allinea
 type: docs
 weight: 50
 url: /it/java/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ci sono tavoli galleggianti e tavoli in linea:

@@ -7,6 +7,7 @@ description: "Installer Aspose.Words pour Java de Maven dépôt. Définir la Asp
 type: docs
 weight: 10
 url: /fr/java/installation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Assurez-vous que votre machine rencontre [Demandes du système](/words/fr/java/system-requirements/) Avant de commencer.

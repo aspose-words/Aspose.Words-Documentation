@@ -1,4 +1,4 @@
-﻿---
+---
 title: Skakel'n Dokument om na HTML, MHTML of EPUB
 second_title: Aspose.Words vir Java
 articleTitle: Skakel'n Dokument om na HTML, MHTML of EPUB
@@ -7,6 +7,7 @@ description: "Gebruik Aspose.Words vir Java om dokumente van Word of enige ander
 type: docs
 weight: 20
 url: /af/java/convert-a-document-to-html-mhtml-or-epub/
+timestamp: 2024-10-21-08-52-03
 ---
 
 Dokumente in HTML en MHTML vloei-uitleg formate is ook baie gewild en kan gebruik word op enige web platform. Om daardie rede is die omskakeling van dokumente na HTML en MHTML 'n belangrike kenmerk van Aspose.Words.

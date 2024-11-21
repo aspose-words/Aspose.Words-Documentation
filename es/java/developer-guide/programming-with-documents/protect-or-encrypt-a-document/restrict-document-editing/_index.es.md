@@ -7,6 +7,7 @@ description: "Restringir la edición de un documento estableciendo un tipo de re
 type: docs
 weight: 30
 url: /es/java/restrict-document-editing/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A veces es posible que necesite limitar la capacidad de editar un documento y sólo permitir ciertas acciones con él. Esto puede ser útil para evitar que otras personas editen información confidencial y confidencial en su documento.

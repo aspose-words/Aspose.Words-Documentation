@@ -7,6 +7,7 @@ description: "Aspose.Words Sitemap Java menerapkan mesin tata letak halaman send
 type: docs
 weight: 10
 url: /id/java/converting-to-fixed-page-format/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words menerapkan mesin tata letak halaman sendiri. Sebelum menelusuri spesifikasinya, ada baiknya dokumen diskusi pertama di tingkat tinggi. Ketika berpikir tentang dokumen, pengguna biasanya membayangkan sejumlah lembar kertas yang mengandung kata-kata, gambar, tabel, dan grafik. Dokumen dapat berbagai jenis, seperti teks, spreadsheet, slide, gambar CAD, flowcharts, dan, oleh karena itu, dapat memiliki tata letak yang berbeda pada dasarnya. Sebagian besar aplikasi memungkinkan mengirim dokumen ke printer; ini adalah ketika pengguna benar-benar dapat melihat tampilan akhir dokumen.

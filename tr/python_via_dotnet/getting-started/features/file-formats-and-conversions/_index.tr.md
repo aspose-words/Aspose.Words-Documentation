@@ -7,6 +7,7 @@ description: "Yalnızca iki satır Python koduyla, desteklenen herhangi bir yük
 type: docs
 weight: 40
 url: /tr/python-net/file-formats-and-conversions/
+timestamp: 2024-01-31-14-23-37
 ---
 
 {{% alert color="primary" %}}

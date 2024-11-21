@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trabalhando com VBA Macros em C++
 second_title: Aspose.Words para C++
 articleTitle: Trabalhar com VBA Macros
@@ -7,6 +7,7 @@ description: "Trabalhando com projetos de documentos VBA usando C++."
 type: docs
 weight: 410
 url: /pt/cpp/working-with-vba-macros/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Visual Basic for Applications (VBA) for Microsoft Word é uma linguagem de programação simples, mas poderosa, que pode ser usada para estender a funcionalidade. Aspose.Words API fornece três classes para obter acesso ao código-fonte do projeto VBA:

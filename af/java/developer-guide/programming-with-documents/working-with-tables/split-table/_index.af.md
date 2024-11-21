@@ -1,4 +1,4 @@
-﻿---
+---
 title: Verdeel Tabel in Java
 second_title: Aspose.Words vir Java
 articleTitle: Verdeel Tabel
@@ -7,6 +7,7 @@ description: "Verdeel tabel in Java. Hoe om een tabel in twee afsonderlike tabel
 type: docs
 weight: 100
 url: /af/java/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 'n tabel, verteenwoordig in die Aspose.Words Document Object Model, bestaan uit onafhanklike rye en selle, wat dit maklik maak om'n tabel te verdeel.

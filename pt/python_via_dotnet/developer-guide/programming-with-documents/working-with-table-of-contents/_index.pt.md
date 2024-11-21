@@ -7,6 +7,7 @@ description: "Insira e gerencie o 'Índice' em um documento usando Python."
 type: docs
 weight: 170
 url: /pt/python-net/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Freqüentemente, você trabalhará com documentos que contêm um sumário (TOC). Usando Aspose.Words você pode inserir seu próprio índice ou reconstruir completamente o índice existente no documento usando apenas algumas linhas de código. Este artigo descreve como trabalhar com o campo de índice e demonstra:

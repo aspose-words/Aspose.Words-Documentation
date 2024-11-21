@@ -7,6 +7,7 @@ description: "Převést jakýkoli dokument do formátu MHTML a poté jej poslat 
 type: docs
 weight: 30
 url: /cs/java/convert-a-document-to-mhtml-and-send-it-by-email/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words lze převést jakýkoli dokument do formátu MHTML (Web Archive). Díky tomu je vhodné použít Aspose.Words a `Aspose.Email` Společně. Můžete načíst předdefinovaný dokument v jakémkoliv podporovaném formátu, jako je DOC, OOXML nebo RTF, do Aspose.Words, vyplnit jej daty , uložit výsledný dokument jako MHTML , a pak poslat e-mail pomocí `Aspose.Email`.

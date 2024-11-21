@@ -1,4 +1,4 @@
-﻿---
+---
 title: TrueType Yazı Tiplerini C++ içinde Değiştirin ve Değiştirin
 second_title: Aspose.Words için C++
 articleTitle: TrueType Yazı Tiplerini Değiştirme ve Değiştirme
@@ -7,6 +7,7 @@ description: "Aspose.Words için C++ doğru görüntülendiğinden emin olmak i�
 type: docs
 weight: 10
 url: /tr/cpp/manipulate-and-substitute-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words, belgeleri PDF veya XPS gibi sabit sayfa biçimlerine dönüştürmek de dahil olmak üzere çeşitli görevler için TrueType yazı tipi gerektirir. Aspose.Words bir belgeyi oluşturduğunda, ortaya çıkan belgeye TrueType yazı tiplerinin gömülmesini ve alt küme gömülmesini gerçekleştirmesi gerekir; bu, popüler PDF veya XPS biçimleri de dahil olmak üzere bir belge oluşturma sırasında normal bir uygulamadır. Bu, belgenin herhangi bir görüntüleyicide aynı görünmesini sağlar. Ayrıca, XPS belirtimi, yazı tiplerinin her zaman belgeye gömülmesini gerektirir.

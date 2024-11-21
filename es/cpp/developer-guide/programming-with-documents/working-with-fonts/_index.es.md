@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trabajar con fuentes en C++
 second_title: Aspose.Words para C++
 articleTitle: Trabajar con Fuentes
@@ -7,6 +7,7 @@ description: "Formateo de fuentes en detalles usando C++."
 type: docs
 weight: 230
 url: /es/cpp/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Una fuente es un conjunto de caracteres con un tamaño, color y diseño determinados. Aspose.Words le permite trabajar con fuentes usando el espacio de nombres [Fonts](https://reference.aspose.com/words/cpp/aspose.words.fonts/) y la clase [Font](https://reference.aspose.com/words/cpp/aspose.words/font/).

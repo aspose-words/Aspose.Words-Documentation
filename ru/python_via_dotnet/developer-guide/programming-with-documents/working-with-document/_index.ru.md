@@ -7,6 +7,7 @@ type: docs
 description: "The `Document` Класс обеспечивает различные свойства документов и методы с использованием Python. Вы используете `Document` Класс как отправная точка для всего, с чем вы хотите работать Aspose.Words для Python. The `Document` Объект может быть сохранен в файл или поток, а также отправлен в браузер."
 weight: 40
 url: /ru/python-net/working-with-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 The [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) Класс является центральным в Aspose.Words. Он представляет собой документ и предоставляет различные свойства и методы документа, такие как сохранение или защита документа. Вы используете [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) Класс как отправная точка для всего, с чем вы хотите работать Aspose.WordsСоздать новый документ с нуля, открыть шаблон для mail merge, или получить различные части документа.

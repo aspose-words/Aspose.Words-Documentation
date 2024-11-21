@@ -7,6 +7,7 @@ description: "Aspose.Words cho Python via .NET cung cấp các gói mua khác nh
 type: docs
 weight: 40
 url: /vi/python-net/licensing/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Đôi khi, để nghiên cứu hệ thống tốt hơn, bạn muốn đi sâu vào mã càng nhanh càng tốt. Để thực hiện việc này dễ dàng hơn, Aspose.Words cung cấp các gói mua khác nhau hoặc cung cấp Bản dùng thử miễn phí và Giấy phép tạm thời 30 ngày để đánh giá.

@@ -7,6 +7,7 @@ description: "Trích xuất các đối tượng đồ họa khác nhau, chẳng
 type: docs
 weight: 40
 url: /vi/python-net/rendering-shapes-separately-from-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Khi xử lý tài liệu, nhiệm vụ chung là trích xuất tất cả hình ảnh có trong tài liệu và xuất chúng sang vị trí bên ngoài. Nhiệm vụ này trở nên đơn giản với Aspose.Words API, vốn đã cung cấp chức năng trích xuất và lưu dữ liệu hình ảnh. Tuy nhiên, đôi khi bạn có thể muốn trích xuất tương tự các loại nội dung đồ họa khác được thể hiện bằng một loại đối tượng vẽ khác, ví dụ: hộp văn bản chứa các đoạn văn, hình mũi tên và một hình ảnh nhỏ. Không có cách nào đơn giản để hiển thị đối tượng này vì nó là sự kết hợp của các thành phần nội dung riêng lẻ. Bạn cũng có thể gặp trường hợp nội dung được nhóm lại với nhau thành một đối tượng trông giống như một hình ảnh.

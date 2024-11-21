@@ -7,6 +7,7 @@ description: "详细情况、实地代码和实地结果 Aspose.Words (单位:�
 type: docs
 weight: 10
 url: /zh/java/introduction-to-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words 是一个类库,用于服务器侧处理 Microsoft Word 文档并通过以下方式支持字段:

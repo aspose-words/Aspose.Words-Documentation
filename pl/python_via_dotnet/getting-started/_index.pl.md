@@ -7,6 +7,7 @@ type: docs
 description: "Skorzystaj z tego wprowadzenia do podstaw Aspose.Words dla Python via .NET, aby zacząć zdawać sobie sprawę z wartości Aspose.Words dla Twojej firmy."
 weight: 20
 url: /pl/python-net/getting-started/
+timestamp: 2024-09-25-11-08-55
 ---
 
 To wprowadzenie zawiera wprowadzenie do podstaw Aspose.Words. Dla nowych użytkowników Aspose.Words jest to najszybszy sposób poznania podstawowych wymagań i możliwości.

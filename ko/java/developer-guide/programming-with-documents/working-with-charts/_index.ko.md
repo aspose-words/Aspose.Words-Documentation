@@ -7,6 +7,7 @@ description: "차트 기능 소개, 차트 생성 및 조작 방법 Java·"
 type: docs
 weight: 310
 url: /ko/java/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 새로운 [insertChart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertChart-int-double-double) 메소드가 추가되었습니다. [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) 수업. 그래서, 간단한 열 차트를 문서로 삽입하는 방법을 볼 수 있습니다. **기타 제품 팟캐스트** 방법.

@@ -7,6 +7,7 @@ description: "Travaillez avec des zones de texte dans un document à l'aide de P
 type: docs
 weight: 250
 url: /fr/python-net/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Dans Aspose.Words, la classe [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) est utilisée pour spécifier comment un texte est affiché à l'intérieur d'une forme. Il fournit une propriété publique nommée [parent](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/parent/) pour obtenir la forme parent de la zone de texte afin de permettre au client de trouver le [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) lié à partir du [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) lié.

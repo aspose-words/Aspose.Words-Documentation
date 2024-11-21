@@ -7,6 +7,7 @@ description: "הדפס מסמך על מסמך Server שימוש ב- XpsPrint API
 type: docs
 weight: 55
 url: /he/net/print-a-document-programmatically-or-using-dialogs/
+timestamp: 2024-01-31-14-23-37
 ---
 
 מאמר זה מתאר כיצד להדפיס מסמך עיבוד מילה מ- ASP.NET או Windows יישום שירות באמצעות Aspose.Words וה `XpsPrint` API. הוא גם מדגים את השיטות של הדפסה מסמך עם הגדרות, תצוגה מקדימה הדפסה ודיאלוגים מתקדמים הדפסה, ומסביר כיצד להפחית את זמן הקריאה הראשונה כדי להדפיס מסמך.

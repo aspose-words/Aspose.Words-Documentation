@@ -7,6 +7,7 @@ description: "كيفية العثور على بعض خصائص الحقل مثل
 type: docs
 weight: 25
 url: /ar/python-net/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 يقوم الحقل الذي يتم إدراجه باستخدام [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/).[insert_field](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_field/) بإرجاع كائن [Field](https://reference.aspose.com/words/python-net/aspose.words.fields/field/). هذه فئة واجهة توفر طرقًا مفيدة للعثور بسرعة على بعض خصائص الحقل.

@@ -7,6 +7,7 @@ description: "테이블의 부품 작업 – 행, 열 및 셀 사용 Java· Head
 type: docs
 weight: 30
 url: /ko/java/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 테이블 작업에 대한 더 많은 제어를 위해, 열과 행을 조작하는 방법을 배우십시오.

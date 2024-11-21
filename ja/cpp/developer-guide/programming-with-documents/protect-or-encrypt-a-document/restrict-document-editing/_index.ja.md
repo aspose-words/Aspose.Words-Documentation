@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++での文書編集の制限
 second_title: C++の場合Aspose.Words
 articleTitle: 文書の編集を制限する
@@ -7,6 +7,7 @@ description: "C++を使用して制限の種類を設定することで、文書
 type: docs
 weight: 30
 url: /ja/cpp/restrict-document-editing/
+timestamp: 2024-01-27-14-07-04
 ---
 
 場合によっては、ドキュメントを編集する機能を制限し、特定のアクションのみを許可する必要がある場合があります。 これは、他の人がドキュメント内の機密情報や機密情報を編集できないようにするのに役立ちます。

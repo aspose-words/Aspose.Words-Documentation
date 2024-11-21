@@ -8,6 +8,7 @@ url: /he/python-net/create-or-load-a-document/
 description: "צור מסמך ריק או לטעון אותו מקובץ או מזרם באמצעות שימוש Python."
 keywords: "create a document python, load a document python, create a blank document python, load a document from file python, load a document from stream python, create a document Aspose python, load a document Aspose python, load formats supported by Aspose.Words python"
 weight: 10
+timestamp: 2024-01-27-14-07-04
 ---
 
 כמעט כל משימה שאתה רוצה לעשות עם Aspose.Words כולל טעינה של מסמך. The The The [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) הכיתה מייצגת מסמך טעון בזיכרון. המסמך יש כמה מבני בנייה מוגזמים המאפשרים לך ליצור מסמך ריק או לטעון אותו מקובץ או זרם. ניתן לטעון את המסמך בכל פורמט עומס נתמך על ידי Aspose.Words. לרשימה של כל פורמטי העומס הנתמכים, ראה את [LoadFormat](https://reference.aspose.com/words/python-net/aspose.words/loadformat/) אזהרה.

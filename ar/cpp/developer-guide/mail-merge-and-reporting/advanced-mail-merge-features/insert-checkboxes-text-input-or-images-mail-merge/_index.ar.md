@@ -1,4 +1,4 @@
-﻿---
+---
 title: إدراج Checkbox إس، إدخال النص أو الصور خلال Mail Merge
 second_title: Aspose.Words ل C++
 articleTitle: إدراج Checkbox إس، إدخال النص، أو الصور
@@ -7,6 +7,7 @@ description: "أدخل مربعات الاختيار أو حقول إدخال ا
 type: docs
 weight: 40
 url: /ar/cpp/insert-checkboxes-text-input-or-images-mail-merge/
+timestamp: 2024-01-27-14-07-04
 ---
 
 يأخذ محرك الدمج مستندا كمدخل، ويبحث عن `MERGEFIELD` الحقول فيه، ويستبدلها بالبيانات التي تم الحصول عليها من مصدر البيانات. عادة، يتم إدراج نص عادي و HTML، ولكن يمكن للمستخدمين Aspose.Words أيضا إنشاء مستند يتعامل مع سيناريوهات أكثر غرابة لحقول mail merge.

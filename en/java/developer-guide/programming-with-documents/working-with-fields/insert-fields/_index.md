@@ -8,6 +8,7 @@ type: docs
 weight: 20
 url: /java/insert-fields/
 aliases: [/java/insert-and-remove-field/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 There are several different ways to insert fields into a document:

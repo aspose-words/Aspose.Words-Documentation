@@ -1,4 +1,4 @@
-﻿---
+---
 title: Làm việc với các Tính năng Markdown trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Làm việc với các Tính năng Markdown
@@ -7,6 +7,7 @@ description: "Cách triển khai các tính năng Markdown bằng C++. Tất c�
 type: docs
 weight: 420
 url: /vi/cpp/working-with-markdown-features/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Chủ đề này thảo luận về cách triển khai các tính năng Markdown bằng cách sử dụng Aspose.Words. Markdown là một cách đơn giản để định dạng văn bản thuần túy có thể dễ dàng chuyển đổi thành HTML. Aspose.Words hỗ trợ các tính năng Markdown sau:

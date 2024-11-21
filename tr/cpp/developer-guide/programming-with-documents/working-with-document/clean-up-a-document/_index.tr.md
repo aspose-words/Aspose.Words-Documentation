@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içindeki Bir Belgeyi Temizleme
 second_title: Aspose.Words için C++
 articleTitle: Bir Belgeyi Temizleme
@@ -7,6 +7,7 @@ description: "C++ kullanarak çıktı boyutunu ve işlem süresini azaltmak içi
 type: docs
 weight: 30
 url: /tr/cpp/clean-up-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bazen çıktı belgesinin boyutunu ve işlem süresini azaltmak için kullanılmayan veya yinelenen bilgileri kaldırmanız gerekebilir.

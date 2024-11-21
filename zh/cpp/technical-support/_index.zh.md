@@ -1,4 +1,4 @@
-﻿---
+---
 title: 技术支持
 second_title: Aspose.Words为C++
 articleTitle: 技术支持
@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words为C++ 为所有用户提供免费的技术支持。 请报告您的问题,问题,或功能要求使用Aspose免费支持论坛."
 weight: 80
 url: /zh/cpp/technical-support/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose为其所有产品提供无限制的免费技术支持。 支持是提供给所有用户，包括评估。 支持的主要途径是 [阿斯波斯。论坛](https://forum.aspose.com/c/words/8).

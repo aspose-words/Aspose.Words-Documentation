@@ -7,6 +7,7 @@ description: "Belgeleri tek bir belgede birleştirin: Bul ve değiştir, alanı 
 type: docs
 weight: 80
 url: /tr/net/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bazen birden fazla belgenin tek bir belgede birleştirilmesi gerekebilir. Bunu manuel olarak yapabileceğiniz gibi Aspose.Words ekleme veya ekleme özelliğini de kullanabilirsiniz.

@@ -7,6 +7,7 @@ description: "Comprendre les concepts de la section des documents et les pratiqu
 type: docs
 weight: 120
 url: /fr/java/working-with-sections/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Parfois, vous voulez un document qui n'a pas le même formatage sur toutes les pages. Par exemple, vous devrez peut-être modifier le format des numéros de page, avoir une taille et une orientation différentes, ou avoir la première page de document comme page couverture sans numérotation. Vous pouvez y parvenir avec des sections.

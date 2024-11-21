@@ -1,4 +1,4 @@
-﻿---
+---
 title: Geneste Mail Merge Met Streke in C++
 second_title: Aspose.Words vir C++
 articleTitle: Geneste Mail Merge met die Streek
@@ -8,6 +8,7 @@ description: "Voer'n mail merge operasie met geneste streke met behulp van C++. 
 keywords: "mail merge with nested regions c++"
 weight: 30
 url: /af/cpp/nested-mail-merge-with-regions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 In sommige scenario's moet jy dalk geneste mail merge met streke gebruik. Geneste merge is'n funksie waarmee u hiërargiese data van u databron kan saamsmelt in u merge-sjabloon om u dokument maklik in te vul. Basies word die hiërargiese data voorgestel as'n stel data-items, en hiërargiese verhoudings beskryf hoe die data-items met mekaar verband hou (een item data is die ouer van'n ander een).

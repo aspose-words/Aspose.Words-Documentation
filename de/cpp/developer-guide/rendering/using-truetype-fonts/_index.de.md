@@ -1,4 +1,4 @@
-﻿---
+---
 title: TrueType -Schriftarten in C++ verwenden
 second_title: Aspose.Words für C++
 articleTitle: TrueType-Schriftarten verwenden
@@ -7,6 +7,7 @@ description: "Aspose.Words für C++ kann die richtige Schriftart oder ihren geei
 type: docs
 weight: 20
 url: /de/cpp/using-truetype-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bei der Arbeit mit Dokumenten müssen Sie häufig unterschiedliche Schriftarten, Stile und Größen verwenden. Dokumente können eine beliebige Anzahl von Schriftarten enthalten, die nicht unbedingt auf die Schriftarten beschränkt sind, die im Betriebssystem installiert sind. Die Schriftarten können völlig unterschiedlich sein, z. B. Schriftarten, die von anderen Betriebssystemen übernommen, gekauft oder von Benutzern selbst erstellt wurden.

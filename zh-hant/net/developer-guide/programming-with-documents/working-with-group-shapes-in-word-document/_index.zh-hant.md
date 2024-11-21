@@ -7,6 +7,7 @@ description: "使用C#分組和去分組形狀。"
 type: docs
 weight: 290
 url: /zh-hant/net/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有時你需要在一個 Word 文檔中加上一個 group shape。 這樣的 group shape 包含多個圖形。

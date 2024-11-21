@@ -1,4 +1,4 @@
-﻿---
+---
 title: Formatação de tabelas em C++
 second_title: Aspose.Words para C++
 articleTitle: Aplicar Formatação
@@ -7,6 +7,7 @@ description: "Formatação da tabela em detalhes usando C++. Usando C++ para for
 type: docs
 weight: 70
 url: /pt/cpp/applying-formatting/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Cada elemento de uma tabela pode ser aplicado com formatação diferente. Por exemplo, a formatação da tabela será aplicada a toda a tabela, a formatação de linhas apenas a linhas específicas, a formatação de células apenas a determinadas células.

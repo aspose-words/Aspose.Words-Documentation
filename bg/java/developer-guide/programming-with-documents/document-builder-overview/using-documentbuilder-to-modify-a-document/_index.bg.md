@@ -7,6 +7,7 @@ type: docs
 description: "Използвайте строителя на документи, за да промените документа лесно в Java."
 weight: 20
 url: /bg/java/using-documentbuilder-to-modify-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Определяне на форматиране

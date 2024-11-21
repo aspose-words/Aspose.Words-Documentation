@@ -7,6 +7,7 @@ description: "یک سند را تقریباً از هر فرمتی به HTML ی�
 type: docs
 weight: 20
 url: /fa/net/convert-a-document-to-html-mhtml-or-epub/
+timestamp: 2024-07-09-19-00-42
 ---
 
 اسناد با فرمت‌های جریان طرح‌بندی HTML و MHTML نیز بسیار محبوب هستند و می‌توانند در هر پلتفرم وب مورد استفاده قرار گیرند. به همین دلیل، تبدیل اسناد به HTML و MHTML یکی از ویژگی های مهم Aspose.Words است.

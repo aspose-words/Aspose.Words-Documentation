@@ -7,6 +7,7 @@ description: "PDF/A および PDF/UA は、文書の内容に関するアクセ�
 type: docs
 weight: 29
 url: /ja/java/warnings-when-saving-to-pdfa-and-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 PDF/A および PDF/UA のフォーマットは、Word から PDF への自動変換中に満たせない文書コンテンツに関連する多くのアクセシビリティ要件を意味します。 これらの要件は、前の記事で記述されています *「PDF / AまたはPDF / UAで動作する」*。 警告は、これらの問題のいくつかのために発行されます。

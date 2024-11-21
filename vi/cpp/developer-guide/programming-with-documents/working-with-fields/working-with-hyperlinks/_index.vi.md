@@ -1,4 +1,4 @@
-﻿---
+---
 title: Làm Việc Với Các Siêu Liên kết trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Thêm Hoặc Sửa Đổi Siêu Liên Kết
@@ -7,6 +7,7 @@ description: "Cách thêm siêu liên kết vào tài liệu của bạn bằng 
 type: docs
 weight: 180
 url: /vi/cpp/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Một siêu liên kết trong tài liệu Microsoft Word là trường `HYPERLINK`. Trong Aspose.Words, các siêu liên kết được triển khai thông qua lớp [FieldHyperlink](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldhyperlink/).

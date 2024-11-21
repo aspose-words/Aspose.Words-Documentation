@@ -7,6 +7,7 @@ type: docs
 description: "Masukkan elemen dokumen menggunakan pembangun dokumen dalam JavaSitemap"
 weight: 10
 url: /id/java/use-documentbuilder-to-insert-document-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Login [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) digunakan untuk memodifikasi dokumen. Artikel ini menjelaskan dan menjelaskan cara melakukan sejumlah tugas.

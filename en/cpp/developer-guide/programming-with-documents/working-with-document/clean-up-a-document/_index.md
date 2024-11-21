@@ -1,4 +1,4 @@
-﻿---
+---
 title: Clean Up a Document in C++
 second_title: Aspose.Words for C++
 articleTitle: Clean Up a Document
@@ -7,6 +7,7 @@ description: "Remove unused or duplicate information to reduce output size and p
 type: docs
 weight: 30
 url: /cpp/clean-up-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Sometimes you may need to remove unused or duplicate information to reduce the size of the output document and processing time.

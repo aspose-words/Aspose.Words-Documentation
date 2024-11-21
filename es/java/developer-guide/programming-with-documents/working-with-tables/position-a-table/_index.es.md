@@ -7,6 +7,7 @@ description: "Especifique la posici√≥n de la mesa en Java. Obtener una alineaci√
 type: docs
 weight: 50
 url: /es/java/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Hay tablas flotantes y tablas inline:

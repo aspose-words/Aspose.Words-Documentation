@@ -1,4 +1,4 @@
-﻿---
+---
 title: Geben Sie die Position der TrueType-Schriftarten in C++ an
 second_title: Aspose.Words für C++
 articleTitle: Geben Sie den Speicherort für TrueType-Schriftarten an
@@ -7,6 +7,7 @@ description: "Geben Sie verschiedene TrueType-Schriftquellen an: Systemordner, B
 type: docs
 weight: 30
 url: /de/cpp/specify-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 In diesem Thema wird das Standardverhalten von Aspose.Words beschrieben, wenn nach TrueType-Schriftarten gesucht wird, einschließlich betriebssystemspezifischer Unterschiede, und veranschaulicht, wie Benutzerschriftquellen angegeben werden.

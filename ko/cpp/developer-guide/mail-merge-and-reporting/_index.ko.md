@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge 그리고 보고 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: Mail Merge 그리고 보고
@@ -8,6 +8,7 @@ description: "Mail Merge 빠르게 사용하여 문서를 만들기위한 인기
 keywords: "how to use mail merge c++"
 weight: 30
 url: /ko/cpp/mail-merge-and-reporting/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Mail Merge 편지,레이블 및 봉투와 같은 문서를 빠르고 쉽게 만들 수있는 인기있는 기능입니다. Aspose.Words 다음을 사용하여 템플릿에서 문서를 생성할 수 있습니다 mail merge 필드.

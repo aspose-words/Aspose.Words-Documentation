@@ -7,6 +7,7 @@ description: "Erweiterte Microsoft Word-Formatierungsfunktionen, Arbeiten mit St
 type: docs
 weight: 110
 url: /de/net/working-with-styles-and-themes/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Die [StyleCollection](https://reference.aspose.com/words/de/net/aspose.words/stylecollection/)-Klasse wird zum Verwalten integrierter Stile und zum Anwenden benutzerdefinierter Einstellungen auf Stile verwendet.

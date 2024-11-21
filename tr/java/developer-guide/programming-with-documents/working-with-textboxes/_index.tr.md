@@ -7,6 +7,7 @@ description: "Bağlı metin kutuları özelliğine giriş Aspose.Words için Jav
 type: docs
 weight: 250
 url: /tr/java/working-with-linked-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words'te, şekil içinde görüntülenen bir metin belirtmek için "[TextBox](https://reference.aspose.com/words/java/com.aspose.words/textbox/)" sınıfı kullanılır. Bu, müşterinin birbirine bağlı [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) ile bağlı **TextBox** bulmasına izin vermek için metin kutusunun üst şekilini almak için bir ortak özellik olarak Parent ismine sahip bir sağlama sağlar.

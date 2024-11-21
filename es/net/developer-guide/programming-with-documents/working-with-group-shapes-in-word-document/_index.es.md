@@ -7,6 +7,7 @@ description: "Agrupar y desagrupar formas usando C#."
 type: docs
 weight: 290
 url: /es/net/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A veces es necesario agregar una forma de grupo a un documento de Word. Una forma de grupo de este tipo consta de varias formas.

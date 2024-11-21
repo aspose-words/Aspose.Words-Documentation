@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hello World in Jython
 second_title: Aspose.Words for Java
 articleTitle: Hello World in Jython
@@ -7,6 +7,7 @@ description: "Create Hello World document using Jython."
 type: docs
 weight: 50
 url: /java/hello-world-in-jython/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Hello World

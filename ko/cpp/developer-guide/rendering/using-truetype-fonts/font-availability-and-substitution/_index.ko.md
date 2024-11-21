@@ -1,4 +1,4 @@
-﻿---
+---
 title: MFont 가용성 및 대체 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 글꼴 가용성 및 대체
@@ -7,6 +7,7 @@ description: "정확한 대체 글꼴을 찾을 수 없는 경우, Aspose.Words 
 type: docs
 weight: 12
 url: /ko/cpp/font-availability-and-substitution/
+timestamp: 2024-09-24-14-35-44
 ---
 
 문서의 텍스트는 굴림,타임즈 뉴 로만,베르다나 등과 같은 다양한 글꼴로 서식을 지정할 수 있습니다. 언제 Aspose.Words 이 문서에 지정된 글꼴을 선택하려고,문서를 렌더링합니다.

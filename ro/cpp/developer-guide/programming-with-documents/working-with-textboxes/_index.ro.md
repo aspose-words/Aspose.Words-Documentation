@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu TextBoxes în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Lucrul cu TextBoxes
@@ -7,6 +7,7 @@ description: "Introducere în caracteristica textboxes legate în Aspose.Words p
 type: docs
 weight: 250
 url: /ro/cpp/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 În Aspose.Words, clasa [TextBox](https://reference.aspose.com/words/cpp/aspose.words.drawing/textbox/) este utilizată pentru a specifica modul în care textul este afișat în interiorul unei forme. Expune o proprietate publică numită **Parent** pentru a obține forma părinte pentru caseta de text, astfel încât clientul să poată găsi [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/) legat din **TextBox** asociat.

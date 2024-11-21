@@ -1,4 +1,4 @@
-﻿---
+---
 title: 제품 구성 CMake 프로젝트
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 구성 Aspose.Words 에 대한 C++ 그 안에 CMake 프로젝트
@@ -7,6 +7,7 @@ description: "구성 Aspose.Words 에 대한 C++ 당신의 CMake 그리고 당�
 type: docs
 weight: 90
 url: /ko/cpp/configure-aspose-words-for-cpp-in-cmake-project/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Aspose.Words 에 대한 C++ API 함께 작동 CMake 어떤 GNU/Linux 운영 체제. 그것은 될 수 있습니다 [공식 웹 사이트에서 다운로드](https://cmake.org/download/).

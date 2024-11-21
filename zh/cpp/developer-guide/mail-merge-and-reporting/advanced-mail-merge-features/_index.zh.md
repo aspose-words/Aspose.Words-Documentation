@@ -1,4 +1,4 @@
-﻿---
+---
 title: 高级 Mail Merge 功能在 C++
 second_title: Aspose.Words 为 C++
 articleTitle: 高级 Mail Merge 特征
@@ -8,6 +8,7 @@ description: "Aspose.Words 为 C++ 提供了一些先进的 mail merge 允许您
 keywords: "use advanced mail merge features c++"
 weight: 50
 url: /zh/cpp/advanced-mail-merge-features/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words 提供了一些额外的 mail merge 允许您执行进一步自定义的属性和方法 mail merge 过程要么简单 mail merge 或 mail merge 与地区。

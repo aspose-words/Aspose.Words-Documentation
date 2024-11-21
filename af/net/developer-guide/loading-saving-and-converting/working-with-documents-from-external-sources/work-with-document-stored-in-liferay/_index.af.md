@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk met'n Dokument Gestoor in'n Liferay
 second_title: Aspose.Words vir .NET
 articleTitle: Werk met'n Dokument Gestoor in'n Liferay
@@ -7,6 +7,7 @@ description: "Vergelyk Word dokumente gedeel in Liferay met behulp van C#. Werk 
 type: docs
 weight: 20
 url: /af/net/work-with-document-stored-in-liferay/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Liferay Portal is'n open source onderneming portaal sagteware platform ontwerp vir die ontwikkeling van web portale en webwerwe. Liferay bied'n dokumentbestuurstelsel as deel van sy portaalplatform, wat gebruikers toelaat om dokumente op'n samewerkende en doeltreffende manier te skep, te organiseer, op te slaan en te bestuur. Hierdie dokument bestuur funksie word dikwels na verwys as Liferay Dokument Biblioteek.

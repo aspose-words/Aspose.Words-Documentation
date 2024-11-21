@@ -1,4 +1,4 @@
-﻿---
+---
 title: ภาพรวมฟิลด์ในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: ภาพรวมฟิลด์
@@ -7,6 +7,7 @@ description: "ฟิลด์คุณลักษณะในรายละเ
 type: docs
 weight: 10
 url: /th/cpp/fields-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Wordsเป็นไลบรารีชั้นที่ออกแบบมาสำหรับการประมวลผลฝั่งเซิร์ฟเวอร์ของเอกสารMicrosoft Wordและสนับสนุ:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içindeki Aralıklarla Çalışma
 second_title: Aspose.Words için C++
 articleTitle: Aralıklarla Çalışma
@@ -7,6 +7,7 @@ description: "Menzil özelliğine giriş Aspose.Words için C++."
 type: docs
 weight: 130
 url: /tr/cpp/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

@@ -7,6 +7,7 @@ description: "Cómo aplicar Markdown características usando Java. Todas las car
 type: docs
 weight: 420
 url: /es/java/working-with-markdown-features/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Este tema analiza cómo implementar Markdown características usando Aspose.Words. Markdown es una manera sencilla de formatear texto plano que se puede convertir fácilmente en HTML. Aspose.Words soporta los siguientes Markdown características:

@@ -7,6 +7,7 @@ description: "Come aggiungere un collegamento ipertestuale nel documento utilizz
 type: docs
 weight: 50
 url: /it/java/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un collegamento ipertestuale Microsoft Word i documenti sono `HYPERLINK` campo. In Aspose.Words, I collegamenti ipertestuali sono implementati attraverso i [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/) classe.

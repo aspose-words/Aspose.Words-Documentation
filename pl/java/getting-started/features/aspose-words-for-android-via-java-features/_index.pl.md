@@ -7,6 +7,7 @@ description: "Ta sekcja zawiera porównanie dostępności funkcji pomiędzy Aspo
 type: docs
 weight: 90
 url: /pl/java/aspose-words-for-android-via-java-features/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Aspose.Words zamiast Android przez Java Opis funkcji

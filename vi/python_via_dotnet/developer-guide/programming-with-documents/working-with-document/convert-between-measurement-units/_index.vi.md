@@ -7,6 +7,7 @@ description: "Aspose.Words cho Python via .NET có thể giúp bạn cách chuy�
 type: docs
 weight: 20
 url: /vi/python-net/convert-between-measurement-units/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Hầu hết các thuộc tính đối tượng được cung cấp trong Aspose.Words API đại diện cho một số phép đo, chẳng hạn như chiều rộng hoặc chiều cao, lề và các khoảng cách khác nhau, chấp nhận các giá trị theo điểm, trong đó 1 inch bằng 72 điểm. Đôi khi điều này không thuận tiện và điểm cần được chuyển đổi sang đơn vị khác.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Watermerk in C++
 second_title: Aspose.Words vir C++
 articleTitle: Werk Met Watermerk
@@ -7,6 +7,7 @@ type: docs
 description: "Dokument watermerk manipulasie met behulp van C++."
 weight: 340
 url: /af/cpp/working-with-watermark/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Hierdie onderwerp bespreek hoe om programmaties te werk met watermerk met behulp van Aspose.Words. 'n watermerk is'n agtergrondbeeld wat agter die teks in'n dokument vertoon word. 'n watermerk kan'n teks of'n beeld bevat wat deur die [Watermark](https://reference.aspose.com/words/cpp/aspose.words/watermark/) klas verteenwoordig word.

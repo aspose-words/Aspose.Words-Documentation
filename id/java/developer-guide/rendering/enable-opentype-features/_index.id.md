@@ -7,6 +7,7 @@ description: "Fitur tipografi lanjutan dalam Aspose.Words Sitemap JavaSitemap"
 type: docs
 weight: 25
 url: /id/java/enable-opentype-features/
+timestamp: 2024-01-27-14-07-04
 ---
 
 

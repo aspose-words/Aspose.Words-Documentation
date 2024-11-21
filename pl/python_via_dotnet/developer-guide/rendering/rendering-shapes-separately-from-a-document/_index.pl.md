@@ -7,6 +7,7 @@ description: "Wyodrębnij różne obiekty graficzne, takie jak obrazy, pola teks
 type: docs
 weight: 40
 url: /pl/python-net/rendering-shapes-separately-from-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Podczas przetwarzania dokumentów częstym zadaniem jest wyodrębnienie wszystkich obrazów znajdujących się w dokumencie i wyeksportowanie ich do lokalizacji zewnętrznej. To zadanie staje się proste dzięki Aspose.Words API, który już zapewnia funkcjonalność wyodrębniania i zapisywania danych obrazu. Czasami jednak może zaistnieć potrzeba wyodrębnienia w podobny sposób innych typów treści graficznych reprezentowanych przez inny typ obiektu rysunkowego, na przykład pole tekstowe zawierające akapity, kształty strzałek i mały obraz. Nie ma prostego sposobu renderowania tego obiektu, ponieważ jest to kombinacja poszczególnych elementów treści. Możesz także spotkać się z przypadkiem, gdy zawartość została zgrupowana w obiekt, który wygląda jak pojedynczy obraz.

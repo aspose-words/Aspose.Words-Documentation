@@ -1,4 +1,4 @@
-﻿---
+---
 title: معالجة الخط ومشكلات الأداء في C++
 second_title: Aspose.Words ل C++
 articleTitle: معالجة الخط ومشكلات الأداء
@@ -7,6 +7,7 @@ description: "Aspose.Words ل C++ يستخدم الخط الاسم الكامل�
 type: docs
 weight: 11
 url: /ar/cpp/font-manipulation-and-performance-issues/
+timestamp: 2024-09-24-14-35-44
 ---
 
 وترد جميع آليات معالجة الخط المتاحة في فئة [FontSettings](https://reference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings). هذه الفئة مسؤولة عن جلب الخطوط ضمن مصادر الخطوط المحددة وكذلك عن عملية استبدال الخط، كما هو موضح أدناه.

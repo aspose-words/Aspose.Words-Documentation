@@ -1,4 +1,4 @@
-﻿---
+---
 title: Pas Veldeienskappe Aan
 second_title: Aspose.Words vir Java
 articleTitle: Pas Veldeienskappe Aan
@@ -7,6 +7,7 @@ description: "Leer hoe om veld eienskappe in Java aan te pas. Hernoem saamvoegve
 type: docs
 weight: 27
 url: /af/java/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words bied die vermoë om programmaties met verskillende veld eienskappe te kommunikeer. In hierdie artikel sal ons na'n paar voorbeelde kyk sodat jy die basiese beginsel van werk met veldeienskappe verstaan. U kan die volledige lys van eienskappe vir elke veldtipe in die ooreenstemmende klas sien.

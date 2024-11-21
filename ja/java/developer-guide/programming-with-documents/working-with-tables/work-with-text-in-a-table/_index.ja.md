@@ -7,6 +7,7 @@ description: "テキストをテーブルに置換する Javaお問い合わせ 
 type: docs
 weight: 60
 url: /ja/java/extract-text-from-and-replace-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 以前の記事で述べたように、テーブルは通常、画像などの他のコンテンツがテーブルセルに置くことができますが、プレーンテキストが含まれています。

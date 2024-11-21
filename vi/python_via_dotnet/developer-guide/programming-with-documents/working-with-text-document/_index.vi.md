@@ -7,6 +7,7 @@ description: "Làm việc với tài liệu văn bản và sửa đổi các đ�
 type: docs
 weight: 430
 url: /vi/python-net/working-with-text-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Trong bài viết này, chúng ta sẽ tìm hiểu những tùy chọn nào có thể hữu ích khi làm việc với tài liệu văn bản qua Aspose.Words. Xin lưu ý rằng đây không phải là danh sách đầy đủ các tùy chọn có sẵn mà chỉ là ví dụ về cách làm việc với một số tùy chọn trong số đó.

@@ -7,6 +7,7 @@ description: "Python'teki belirli belge formatları için uygun şifreleme algor
 type: docs
 weight: 20
 url: /tr/python-net/encrypt-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Şifreleme, okunabilir metni anlamsız bayt dizilerine dönüştüren ve böylece yalnızca şifre çözme anahtarına veya gizli koda sahip olan kişi tarafından okunabilen işlemdir. Bu süreç içeriğinizin güvenliğini sağlamada önemli bir rol oynar. İçeriğin kodlanmasına, bir belgenin kaynağının doğrulanmasına, içeriğin gönderildikten sonra değiştirilmediğinin kanıtlanmasına ve belgedeki verilerin güvenli olduğundan emin olunmasına yardımcı olur.

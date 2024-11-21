@@ -1,4 +1,4 @@
-﻿---
+---
 title: Protect or Encrypt a Document in C++
 second_title: Aspose.Words for C++
 articleTitle: Protect or Encrypt a Document
@@ -7,6 +7,7 @@ description: "Aspose.Words for C++ provides Read-Only, Encrypt a Document, Restr
 type: docs
 weight: 50
 url: /cpp/protect-or-encrypt-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 The main reason to protect or encrypt a document is to apply more control over who can access the document or who can edit it. Applying protection to your documents, you avoid common risks such as copying or modifying documents without permission, as well as data leakage.

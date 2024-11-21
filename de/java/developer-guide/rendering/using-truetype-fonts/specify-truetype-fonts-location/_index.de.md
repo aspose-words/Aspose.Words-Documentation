@@ -7,6 +7,7 @@ description: "Geben Sie verschiedene Wahr Geben Sie Schriftquellen ein: Systemor
 type: docs
 weight: 30
 url: /de/java/specify-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Dieses Thema beschreibt das Standardverhalten von Aspose.Words wenn es nach TrueType-Schriften sucht, einschließlich Betriebssystem-spezifische Unterschiede, und zeigt, wie man Benutzer-Schriftquellen angibt.

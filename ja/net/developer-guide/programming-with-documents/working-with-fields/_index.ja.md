@@ -7,6 +7,7 @@ description: "Aspose.Words for .NET のフィールド機能の紹介。"
 type: docs
 weight: 370
 url: /ja/net/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ドキュメント内の **Fields** は、有用なデータを挿入できるプレースホルダーのようなものです。たとえば、フィールドはページ参照、式、または mail merge フィールドにすることができます。

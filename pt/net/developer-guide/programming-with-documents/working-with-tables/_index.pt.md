@@ -7,6 +7,7 @@ description: "Como trabalhar com tabelas em C#. Apresentando o trabalho com tabe
 type: docs
 weight: 190
 url: /pt/net/working-with-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Um **mesa** em um documento é uma ótima maneira de estruturar dados semelhantes. É por isso que as tabelas são um elemento comum de formatação de conteúdo e são suportadas pela maioria dos formatos de uma forma ou de outra.

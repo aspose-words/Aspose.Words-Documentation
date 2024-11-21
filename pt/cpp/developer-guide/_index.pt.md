@@ -1,4 +1,4 @@
-﻿---
+---
 title: Guia do desenvolvedor em C++
 second_title: Aspose.Words para C++
 articleTitle: Guia Do Desenvolvedor
@@ -7,6 +7,7 @@ description: "Este guia do desenvolvedor descreve cenários práticos e dicas pa
 type: docs
 weight: 20
 url: /pt/cpp/developer-guide/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Este guia do desenvolvedor fornece informações sobre o uso Aspose.Words para C++ numa variedade de cenários práticos. Seus artigos fornecem sugestões e dicas que ajudarão a usar recursos específicos, obter uma determinada aparência de documento ou tornar possível um caso de uso.

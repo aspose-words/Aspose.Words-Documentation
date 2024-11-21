@@ -7,6 +7,7 @@ type: docs
 description: "The `Document` classe fornisce varie proprietà documentali e metodi. Tu usi il `Document` classe come punto di partenza per qualsiasi cosa si desidera eseguire con Aspose.Words per Java. The `Document` oggetto può essere salvato in un file o in streaming e anche inviato a un browser."
 weight: 40
 url: /it/java/working-with-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 The [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) classe è centrale in Aspose.Words. Rappresenta un documento e fornisce varie proprietà e metodi documentali, come il salvataggio o la protezione del documento. Tu usi il **Document** classe come punto di partenza per qualsiasi cosa si desidera eseguire con Aspose.Words: creare un nuovo documento da zero, aprire un modello per un mail merge, o ottenere parti diverse da un documento.

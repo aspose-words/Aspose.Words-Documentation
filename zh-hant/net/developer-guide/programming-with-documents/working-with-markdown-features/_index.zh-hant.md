@@ -7,6 +7,7 @@ description: "如何以C#實作Markdown功能。 所有功能都表示為對應�
 type: docs
 weight: 420
 url: /zh-hant/net/working-with-markdown-features/
+timestamp: 2024-01-31-14-23-37
 ---
 
 這篇文章討論如何透過Aspose.Words來實作Markdown功能。Markdown是一種簡單的方式來格式化普通文字，並可以輕易地轉換成HTML。Aspose.Words支援以下Markdown功能：

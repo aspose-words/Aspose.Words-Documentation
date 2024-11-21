@@ -7,6 +7,7 @@ description: "تتميز الحقول بالتفاصيل ورموز الحقول
 type: docs
 weight: 10
 url: /ar/net/fields-overview/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words هي مكتبة فئة مصممة لمعالجة مستندات Microsoft Word من جانب الخادم وتدعم الحقول بالطرق التالية:

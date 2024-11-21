@@ -7,6 +7,7 @@ description: "การฟอร์แมตแบบอักษรในรา
 type: docs
 weight: 230
 url: /th/java/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 แบบอักษรเป็นชุดของอักขระที่มีขนาด, สี, และการออกแบบบางอย่าง Aspose.Words ให้คุณได้ทํางานกับแบบอักษรโดยใช้คลาสต่าง ๆ ของแบบอักษร รวมถึง [Font](https://reference.aspose.com/words/java/com.aspose.words/font/) ชั้นเรียน.

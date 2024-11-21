@@ -7,6 +7,7 @@ description: "Pokročilé typografické funkce pomocí C#."
 type: docs
 weight: 25
 url: /cs/net/enable-opentype-features/
+timestamp: 2024-07-10-14-38-57
 ---
 
 OpenType je formát písma, zavedený tak, aby poskytoval lepší podporu pro mezinárodní jazyky a systémy psaní ve srovnání s PostScript a TrueType. Vlastnosti rozvržení OpenType jsou běžně známé jako funkce OpenType. Aspose.Words- Tvarování.HarfBuzz balíček poskytuje podporu funkcí OpenType v Aspose.Words podání HarfBuzz textový tvarovací motor.

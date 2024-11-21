@@ -7,6 +7,7 @@ description: "Naviguez entre différents nœuds dans un document, comme un parag
 type: docs
 weight: 5
 url: /fr/java/navigation-with-cursor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Tout en travaillant avec un document, même s'il est court ou long, vous devrez naviguer dans votre document. La navigation avec un curseur virtuel représente la capacité de naviguer entre différents nœuds dans un document.

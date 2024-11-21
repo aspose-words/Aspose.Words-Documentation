@@ -7,6 +7,7 @@ description: "Grouping と ungrouping 形状を使用して Javaお問い合わ�
 type: docs
 weight: 290
 url: /ja/java/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 時々あなたが追加する必要があります group shape ワード文書に。 こんな感じ group shape 複数の形状で構成されます。

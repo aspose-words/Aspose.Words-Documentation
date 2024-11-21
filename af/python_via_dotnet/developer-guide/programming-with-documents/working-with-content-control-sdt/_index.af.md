@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk met Inhoud Beheer SDT
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Werk met Inhoud Beheer SDT
@@ -7,6 +7,7 @@ description: "Met behulp van python kan jy kliënt-gedefinieerde semantiek sowel
 type: docs
 weight: 390
 url: /af/python-net/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
 In Microsoft Word kan jy'n vorm skep deur met'n sjabloon te begin en inhoudskontroles by te voeg, insluitend checkboxes, tekskassies, datumplukkers en aftreklyste. In Aspose.Words word'n Gestruktureerde Dokumentetiket of inhoudbeheer van enige dokument wat in Aspose.Words gelaai is, ingevoer as'n [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) - knooppunt. Gestruktureerde dokument etikette (SDT of inhoud beheer) toelaat inbed kliënt-gedefinieerde semantiek sowel as sy gedrag en voorkoms in'n dokument. [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) kan in'n dokument voorkom in die volgende plekke:

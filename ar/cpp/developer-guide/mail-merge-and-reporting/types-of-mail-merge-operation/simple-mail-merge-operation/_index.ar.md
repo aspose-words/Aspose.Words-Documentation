@@ -1,4 +1,4 @@
-﻿---
+---
 title: عملية بسيطة Mail Merge في C++
 second_title: Aspose.Words ل C++
 articleTitle: عملية بسيطة Mail Merge
@@ -8,6 +8,7 @@ description: "يتم استخدام mail merge بسيط لملء الحقول ma
 keywords: "how to execute mail merge c++"
 weight: 10
 url: /ar/cpp/simple-mail-merge-operation/
+timestamp: 2024-09-24-14-35-44
 ---
 
 يتم استخدام mail merge بسيط لملء الحقول mail merge داخل القالب الخاص بك بالبيانات المطلوبة من مصدر البيانات الخاص بك (تمثيل جدول واحد). لذلك فهو مشابه للكلاسيكية mail merge في Microsoft Word.

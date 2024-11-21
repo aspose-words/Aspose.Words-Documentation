@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bonjour, Monde!
 second_title: Exemple simple comment utiliser Aspose.Words pour C++
 articleTitle: Bonjour, Monde!
@@ -7,6 +7,7 @@ description: "Créez, modifiez et enregistrez votre premier document dans n'impo
 type: docs
 weight: 15
 url: /fr/cpp/hello-world/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un " Bonjour, monde!"le code est souvent le premier exemple simple pour écrire uisng "Aspose.Words pour C++", et il peut également être utilisé comme test de santé mentale pour s'assurer que le logiciel destiné à compiler ou exécuter le code source est correctement installé.

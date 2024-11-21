@@ -7,6 +7,7 @@ description: "Come trovare il carattere giusto o la relativa sostituzione adatta
 type: docs
 weight: 20
 url: /it/java/using-truetype-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Quando si lavora con i documenti, spesso è necessario utilizzare diversi tipi di carattere, stili e dimensioni. I documenti possono contenere qualsiasi numero di caratteri, che non sono necessariamente limitati ai font installati nel sistema operativo. I font possono essere completamente diversi, come i caratteri prelevati da altri sistemi operativi, acquistati o creati dagli utenti stessi.

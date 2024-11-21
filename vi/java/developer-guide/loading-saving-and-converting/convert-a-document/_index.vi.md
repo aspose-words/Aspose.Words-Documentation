@@ -7,6 +7,7 @@ type: docs
 weight: 30
 url: /vi/java/convert-a-document/
 description: "Chuyển đổi dễ dàng các tài liệu từ một định dạng sang định dạng khác. Bạn có thể làm việc với tất cả các định dạng phổ biến nhất như Microsoft Word định dạng như DOCX hoặc DOC, định dạng OpenDocument như ODT hoặc OTT, các định dạng web như HTML hoặc XHTML, các định dạng văn bản như MarkDown hoặc TXT, và nhiều hơn nữa bằng cách sử dụng Java."
+timestamp: 2024-09-25-11-08-55
 ---
 
 Khả năng chuyển đổi tài liệu dễ dàng và đáng tin cậy từ một định dạng sang một định dạng khác là một trong những lĩnh vực tính năng chính của Aspose.Words. Việc chuyển đổi đó chẳng là gì khác ngoài việc kết hợp giữa các thao tác tải và lưu.

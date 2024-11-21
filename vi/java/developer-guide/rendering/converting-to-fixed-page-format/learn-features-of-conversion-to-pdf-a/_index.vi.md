@@ -7,6 +7,7 @@ description: "Chuyển đổi sang định dạng PDF/A-1, PDF/A-2, PDF/A-4 và 
 type: docs
 weight: 25
 url: /vi/java/learn-features-of-conversion-to-pdf-a-pdf-ua/
+timestamp: 2024-01-31-14-23-37
 ---
 
 PDF là một định dạng trang cố định rất phổ biến trong người dùng và được hỗ trợ rộng rãi bởi các ứng dụng khác nhau, vì tài liệu PDF trông giống nhau trên bất kỳ thiết bị nào. Vì lý do này, chuyển đổi sang PDF là một tính năng quan trọng của Aspose.Words.

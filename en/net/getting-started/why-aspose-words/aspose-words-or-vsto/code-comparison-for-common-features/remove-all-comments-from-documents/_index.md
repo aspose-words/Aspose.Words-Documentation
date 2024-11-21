@@ -1,4 +1,4 @@
-﻿---
+---
 title: Remove All Comments from Documents
 second_title: Aspose.Words for .NET
 articleTitle: Remove All Comments from Documents
@@ -7,6 +7,7 @@ description: "Remove all comments from a document easily and fast instead of usi
 type: docs
 weight: 130
 url: /net/remove-all-comments-from-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## VSTO Words

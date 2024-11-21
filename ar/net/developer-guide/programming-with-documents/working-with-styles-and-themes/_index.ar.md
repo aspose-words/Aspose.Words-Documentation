@@ -7,6 +7,7 @@ description: "ميزات تنسيق Microsoft Word المتقدمة، والعم
 type: docs
 weight: 110
 url: /ar/net/working-with-styles-and-themes/
+timestamp: 2024-10-24-11-44-28
 ---
 
 يتم استخدام فئة [StyleCollection](https://reference.aspose.com/words/ar/net/aspose.words/stylecollection/) لإدارة الإعدادات المضمنة وتطبيقها على الأنماط.

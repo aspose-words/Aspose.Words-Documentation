@@ -7,6 +7,7 @@ description: "Як запустити Aspose.Words для Android Зареєст
 type: docs
 weight: 70
 url: /uk/java/how-to-use-the-examples/
+timestamp: 2024-01-27-14-07-04
 ---
 
 По-перше, переконайтеся, що у вас встановлений пакет ADT і що ви завантажили і витягували останню версію [Aspose.Words для Android Зареєструватися Java](https://releases.aspose.com/words/androidjava/)й

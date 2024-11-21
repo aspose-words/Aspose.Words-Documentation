@@ -7,6 +7,7 @@ description: "프로그래밍 작업 결과를 C#로 내보내려면 가장 적�
 type: docs
 weight: 27
 url: /ko/net/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 일부 작업의 경우 특정 PDF 표준이 더 잘 맞을 수도 있고 그 반대의 경우도 더 나쁠 수도 있습니다. 이 기사에서는 어떤 경우에 어떤 PDF 표준을 선택하는 것이 적합한지 결정하려고 합니다.

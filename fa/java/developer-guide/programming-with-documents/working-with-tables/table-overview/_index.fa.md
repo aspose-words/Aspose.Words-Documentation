@@ -7,6 +7,7 @@ description: "کار با جداول و اجزای آنها مانند سلول 
 type: docs
 weight: 10
 url: /fa/java/table-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words یک کتابخانه کلاس طراحی شده برای پردازش سمت سرور در فرمت های مختلف - PDF، HTML، مختلف Microsoft Word فرمت ها و دیگران – و از جداول به روش های زیر پشتیبانی می کنند:

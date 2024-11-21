@@ -7,6 +7,7 @@ description: "How to save a document to a fixed-page format – PDF, XPS, HTML,
 type: docs
 weight: 15
 url: /cpp/saving-a-document-to-fixed-page-format/
+timestamp: 2024-09-24-14-35-44
 ---
 
 After the page layout is built and the geometry of objects and their position on the page are calculated, the document can be saved in a fixed-page format supported by Aspose.Words.

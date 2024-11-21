@@ -7,6 +7,7 @@ description: "Aspose.Words สำหรับ Python via .NET ใช้โปร
 type: docs
 weight: 30
 url: /th/python-net/handling-windows-metafiles/
+timestamp: 2024-01-27-14-07-04
 ---
 
 รูปแบบ Windows Metafile เป็นรูปแบบไฟล์รูปภาพที่สามารถมีทั้งกราฟิกแบบเวกเตอร์และแรสเตอร์ รูปแบบนี้ใช้เพื่อจัดเก็บข้อมูลกราฟิกในหน่วยความจำหรือไฟล์บนดิสก์ ไฟล์เมตาจะจัดเก็บรายการการเรียกใช้ฟังก์ชันใน Windows Graphics Device Interface (GDI) ที่ต้องดำเนินการเพื่อแสดงภาพบนหน้าจอ ระบบตีความและดำเนินการคำสั่งเหล่านี้ในบริบทการแสดงผล

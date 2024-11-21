@@ -7,6 +7,7 @@ description: "Chuyển sang PDF/A-1, PDF/A-2, PDF/A-4 và PDF/UA bằng Java. C�
 type: docs
 weight: 28
 url: /vi/java/working-with-pdfa-or-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Định dạng PDF/A và PDF/UA đặt ra nhiều yêu cầu liên quan đến nội dung tài liệu mà không thể đáp ứng trong quá trình chuyển đổi tự động từ một tài liệu ở định dạng Word sang định dạng PDF. Những yêu cầu này nên được xác minh và sửa đổi hoặc trong một tài liệu word trước khi chuyển đổi hoặc trong một tài liệu pdf sau khi chuyển đổi để tạo ra một tài liệu tuân thủ hoàn toàn với PDF/A và PDF/UA.

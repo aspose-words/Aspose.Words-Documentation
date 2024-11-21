@@ -7,6 +7,7 @@ description: "Menggabungkan dokumen menjadi satu: memasukkan atau mengubah dokum
 type: docs
 weight: 80
 url: /id/java/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Terkadang diperlukan untuk menggabungkan beberapa dokumen menjadi satu. Anda dapat melakukan ini secara manual atau Anda dapat menggunakan Aspose.Words fitur insert atau append.

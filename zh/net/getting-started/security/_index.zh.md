@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words for .NET 认可并遵守通用安全标准，以确保高水平的数据安全。查看可能的安全问题以及有关如何使用 C# 避免这些问题的建议。"
 weight: 100
 url: /zh/net/security/
+timestamp: 2024-01-27-14-07-04
 ---
 
 安全性有助于保护数据免遭未经授权的访问以及恶意或意外更改。 Aspose.Words 非常关注客户数据的安全，因此，它认可并遵守通用的安全标准。

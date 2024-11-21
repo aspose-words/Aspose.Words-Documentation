@@ -7,6 +7,7 @@ description: "Crear, editar y guardar su primer documento en cualquier formato c
 type: docs
 weight: 20
 url: /es/java/hello-world/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un código "Hola, Mundo!" es a menudo el primer ejemplo simple de escribir uisng "Aspose.Words para Java", y también se puede utilizar como prueba de cordura para asegurar que el software destinado a compilar o ejecutar código fuente está correctamente instalado.

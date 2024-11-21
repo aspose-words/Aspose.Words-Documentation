@@ -7,6 +7,7 @@ description: "C# kullanarak bir belgeyi PDF'ye dönüştürün. DOCX'i PDF C#'ye
 type: docs
 weight: 10
 url: /tr/net/convert-a-document-to-pdf/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Belgeleri bir formattan diğerine kolay ve güvenilir bir şekilde dönüştürme yeteneği Aspose.Words'in önemli bir özelliğidir. Dönüştürme için en popüler formatlardan biri, bir belgenin çeşitli platformlarda işlenmesi sırasında orijinal görünümünü koruyan sabit düzen formatı olan PDF'dir. "Rendering" terimi Aspose.Words'te bir belgenin sayfalandırılmış veya sayfa kavramına sahip bir dosya biçimine dönüştürülmesi sürecini tanımlamak için kullanılır.

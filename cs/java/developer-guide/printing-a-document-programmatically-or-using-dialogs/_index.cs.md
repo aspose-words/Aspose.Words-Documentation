@@ -7,6 +7,7 @@ description: "Vytisknout dokument pomocí Java přes dialogy Nastavení, náhled
 type: docs
 weight: 55
 url: /cs/java/print-a-document-programmatically-or-using-dialogs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Tento článek popisuje, jak vytisknout text zpracování dokumentu pomocí Aspose.Words API. Ukazuje také metody tisku dokumentu pomocí dialogů Nastavení, náhledu tisku a postupu tisku.

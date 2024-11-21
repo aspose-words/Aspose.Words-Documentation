@@ -7,6 +7,7 @@ description: "如果您不确定文件的实际内容是什么，请确定 Pytho
 type: docs
 weight: 20
 url: /zh/python-net/detect-file-format-and-check-format-compatibility/
+timestamp: 2024-10-21-11-17-44
 ---
 
 有时需要在打开之前确定文档的格式，因为文件扩展名并不能保证文件的内容是适当的。例如，众所周知，Crystal Reports 通常以 RTF 格式输出文档，但赋予它们 .doc 扩展名。

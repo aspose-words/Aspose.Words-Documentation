@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bekerja dengan Dokumen Teks dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Bekerja dengan Dokumen Teks
@@ -7,6 +7,7 @@ description: "Pemrosesan dokumen TXT lanjutan, daftar, BiDi, header/footer, meng
 type: docs
 weight: 430
 url: /id/cpp/working-with-text-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Pada artikel ini, kita akan mempelajari opsi apa yang dapat berguna untuk bekerja dengan dokumen teks melalui Aspose.Words. Harap dicatat bahwa ini bukan daftar lengkap opsi yang tersedia, tetapi hanya contoh bekerja dengan beberapa di antaranya.

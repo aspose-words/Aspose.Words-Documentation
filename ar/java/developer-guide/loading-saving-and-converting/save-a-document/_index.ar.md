@@ -7,6 +7,7 @@ type: docs
 description: "توفير وثيقة في أي شكل من أشكال الدعم باستخدام Java."
 weight: 20
 url: /ar/java/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 معظم المهام التي تحتاجها Aspose.Words يتضمن توفير وثيقة. لإنقاذ الوثيقة Aspose.Words يوفر [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save(java.lang.String)طريقة [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) الصف ويمكن توفير الوثيقة بأي شكل من أشكال الادخار تدعمه Aspose.Words. وللاطلاع على قائمة جميع أشكال الادخار المدعومة، انظر [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) العد

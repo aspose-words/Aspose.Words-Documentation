@@ -7,6 +7,7 @@ description: "طاولات الانضمام Java. التلاعب بالطاول�
 type: docs
 weight: 90
 url: /ar/java/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A table, represented in the Aspose.Words Document Object Model, وتتكون من صفات وخلايا مستقلة، مما يجعل من السهل الانضمام إلى الجداول.

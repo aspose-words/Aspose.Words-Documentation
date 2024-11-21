@@ -7,6 +7,7 @@ description: "Aspose.Words עבור Android באמצעות Java הוא `Java` ס
 type: docs
 weight: 10
 url: /he/java/android-product-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

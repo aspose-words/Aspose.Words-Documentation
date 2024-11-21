@@ -7,6 +7,7 @@ description: "Szczegółowe informacje dotyczące tabeli treści. Jak tworzyć i
 type: docs
 weight: 170
 url: /pl/java/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Często będziesz pracował z dokumentami zawierającymi tabelę treści (TOC). Stosowanie Aspose.Words można umieścić własną tabelę treści lub całkowicie odbudować istniejącą tabelę treści w dokumencie za pomocą kilku linii kodu.

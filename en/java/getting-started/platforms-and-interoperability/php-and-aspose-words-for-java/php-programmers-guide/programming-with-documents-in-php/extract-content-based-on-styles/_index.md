@@ -1,4 +1,4 @@
-﻿---
+---
 title: Extract Content Based On Styles in PHP
 second_title: Aspose.Words for Java
 articleTitle: Extract Content Based On Styles in PHP
@@ -8,6 +8,7 @@ type: docs
 weight: 70
 url: /java/extract-content-based-on-styles-in-php/
 aliases: [/java/extract-content-based-on-styles-in-php/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Extract Content Based On Styles

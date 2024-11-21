@@ -7,6 +7,7 @@ description: "Comment travailler avec les tables dans Java. Introduction aux con
 type: docs
 weight: 190
 url: /fr/java/working-with-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A **Tableau** dans un document est un excellent moyen de structurer des données similaires. C'est pourquoi les tableaux sont un élément de formatage de contenu commun et sont supportés par la plupart des formats sous une forme ou une autre.

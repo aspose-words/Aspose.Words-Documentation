@@ -1,4 +1,4 @@
-﻿---
+---
 title: Как запустить примеры
 second_title: Aspose.Words для C++
 articleTitle: Как запустить примеры
@@ -7,6 +7,7 @@ description: "Скачать Aspose.Words для C++ приведите прим
 type: docs
 weight: 110
 url: /ru/cpp/how-to-run-the-examples/
+timestamp: 2024-07-11-16-13-28
 ---
 
 Чтобы лучше ознакомиться с возможностями и функциональностью Aspose.Words, мы приводим примеры, которые можно загрузить из нашего репозитория GitHub, запустить и изучить в деталях.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Instalare
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Instalare
@@ -7,6 +7,7 @@ description: "Instalare Aspose.Words pentru Python folosind instrumente Visual S
 type: docs
 weight: 10
 url: /ro/python-net/installation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Asigurați-vă că aparatul dvs. îndeplinește [cerințe de sistem](/words/python-net/system-requirements/) înainte de a începe.

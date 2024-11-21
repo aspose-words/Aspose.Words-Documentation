@@ -1,4 +1,4 @@
-﻿---
+---
 title: Chỉ Định Các Tùy chọn Kết Xuất Khi Chuyển đổi thành PDF
 second_title: Aspose.Words cho C++
 articleTitle: Chỉ Định Các Tùy chọn Kết Xuất Khi Chuyển đổi thành PDF
@@ -7,6 +7,7 @@ description: "Chuyển đổi tài liệu thành PDF với các tùy chọn nân
 type: docs
 weight: 30
 url: /vi/cpp/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Định dạng PDF là định dạng trang cố định rất phổ biến đối với người dùng và được hỗ trợ rộng rãi bởi các ứng dụng khác nhau vì tài liệu PDF trông giống nhau trên mọi thiết bị. Vì lý do đó, chuyển đổi thành PDF là một tính năng quan trọng của Aspose.Words.

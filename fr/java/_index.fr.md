@@ -7,6 +7,7 @@ type: docs
 weight: 20
 url: /fr/java/
 is_root: true
+timestamp: 2024-09-25-11-08-55
 ---
 
 <img src="/words/java/home_1" alt="aspose-words-java-home" align="left" style="width:110px; margin: 0 30px 30px 0"/>

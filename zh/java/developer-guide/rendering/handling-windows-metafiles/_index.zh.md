@@ -7,6 +7,7 @@ description: "Aspose.Words (单位:千美元) Java 执行自己的 Windows Metaf
 type: docs
 weight: 30
 url: /zh/java/handling-windows-metafiles/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Windows Metafile格式是一种可以同时包含矢量和光栅图形的图像文件格式. 该格式用于存储内存或磁盘文件中的图形数据. 元文件存储函数调用列表 Windows 要在屏幕上显示图像,必须执行的图形设备接口(GDI)。 系统在显示上下文中解释并执行这些命令.

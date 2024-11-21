@@ -7,6 +7,7 @@ description: "Dengan menggunakan python Anda dapat menyematkan semantik yang dit
 type: docs
 weight: 390
 url: /id/python-net/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Di Microsoft Word, Anda bisa membuat formulir dengan memulai dengan templat dan menambahkan kontrol konten, termasuk kotak centang, kotak teks, pemilih tanggal, dan daftar drop-down. Di Aspose.Words, Tag Dokumen Terstruktur atau kontrol konten dari dokumen apa pun yang dimuat ke Aspose.Words diimpor sebagai node [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/). Tag dokumen terstruktur (SDT atau kontrol konten) memungkinkan penyematan semantik yang ditentukan pelanggan serta perilaku dan tampilannya ke dalam dokumen. [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) dapat muncul dalam dokumen di tempat-tempat berikut:

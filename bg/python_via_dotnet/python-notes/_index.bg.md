@@ -7,6 +7,7 @@ description: "Aspose.Words вместо Python via .NET е опаковка от
 type: docs
 weight: 15
 url: /bg/python-net/python-notes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words вместо Python via .NET е опаковка от Aspose.Words вместо .NET, Ето защо двата продукта имат почти еднакви функции. Въпреки това, има някои нюанси на работа и разлики в характеристиките и API, които са описани на тази страница.

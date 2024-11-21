@@ -1,4 +1,4 @@
-﻿---
+---
 title: تحويل كلمة إلى إكسيل في C++
 second_title: Aspose.Words ل C++
 articleTitle: تحويل مستند إلى إكسيل
@@ -7,6 +7,7 @@ description: "تحويل PDF إلى إكسيل، XML إلى إكسيل، DOCX إ
 type: docs
 weight: 15
 url: /ar/cpp/convert-a-document-to-excel/
+timestamp: 2024-01-31-14-23-37
 ---
 
 يعد تحويل المستندات من تنسيق إلى آخر الميزة الرئيسية لـ Aspose.Words. يمكنك تحويل المستندات بأي تنسيق [load format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) متاح أيضا إلى XLSX.

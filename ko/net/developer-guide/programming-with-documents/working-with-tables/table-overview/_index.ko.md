@@ -7,6 +7,7 @@ description: ".NET용 Aspose.Words의 셀, 행, 열과 같은 테이블 및 해�
 type: docs
 weight: 10
 url: /ko/net/table-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words는 PDF, HTML, 다양한 Microsoft Word 형식 등 다양한 형식의 문서를 서버측에서 처리하도록 설계된 클래스 라이브러리이며 다음과 같은 방식으로 테이블을 지원합니다

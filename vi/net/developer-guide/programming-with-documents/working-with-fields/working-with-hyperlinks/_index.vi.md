@@ -7,6 +7,7 @@ description: "Cách thêm siêu liên kết vào tài liệu của bạn trong C
 type: docs
 weight: 50
 url: /vi/net/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Siêu liên kết trong tài liệu Microsoft Word là trường `HYPERLINK`. Trong Aspose.Words, các siêu liên kết được triển khai thông qua lớp [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/).

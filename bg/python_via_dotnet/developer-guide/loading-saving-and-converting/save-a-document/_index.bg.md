@@ -8,6 +8,7 @@ description: "Запис на документ във всеки поддърж�
 keywords: "save a document python, save a document to file python, save a document to stream python, save a document Aspose python, save formats supported by Aspose.Words python"
 weight: 20
 url: /bg/python-net/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Повечето от задачите, които трябва да изпълните Aspose.Words включва запазване на документ. Запис на документ Aspose.Words осигурява [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) метод на [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) Клас. Има претоварване, което позволява запис на документ във файл или поток. Документът може да бъде записан във всеки поддържан от Aspose.Words. За списъка на всички поддържани формати за запис вижте [SaveFormat](https://reference.aspose.com/words/python-net/aspose.words/saveformat/) Изброяване.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Voeg Velde in Python
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Voeg By Velde
@@ -7,6 +7,7 @@ description: "Voeg velde in'n dokument in Python op verskillende maniere in: geb
 type: docs
 weight: 20
 url: /af/python-net/inserting-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Daar is verskeie verskillende maniere om velde in'n dokument in te voeg:

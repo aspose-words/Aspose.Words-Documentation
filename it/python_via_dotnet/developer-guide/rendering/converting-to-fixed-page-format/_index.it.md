@@ -7,6 +7,7 @@ description: "Salva documenti nei formati PDF, XPS, HTML, XAML, PostScript e PCL
 type: docs
 weight: 10
 url: /it/python-net/converting-to-fixed-page-format/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words implementa il proprio motore di layout di pagina. Prima di approfondire le sue specifiche, vale la pena discutere innanzitutto il documento ad alto livello. Quando pensano a un documento, gli utenti in genere immaginano una serie di fogli di carta contenenti parole, immagini, tabelle e grafici. I documenti possono essere di vario tipo, come testo, fogli di calcolo, diapositive, disegni CAD, diagrammi di flusso e, quindi, possono avere layout sostanzialmente diversi. La maggior parte delle applicazioni consente l'invio di documenti a una stampante; questo è il momento in cui un utente può effettivamente visualizzare l'aspetto finale previsto del documento.

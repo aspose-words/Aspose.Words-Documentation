@@ -1,4 +1,4 @@
-﻿---
+---
 title: Posição da tabela em C++
 second_title: Aspose.Words para C++
 articleTitle: Posicionar uma tabela
@@ -7,6 +7,7 @@ description: "Especificar posição da tabela em C++. Obter alinhamento de tabel
 type: docs
 weight: 50
 url: /pt/cpp/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Existem mesas flutuantes e Mesas embutidas:

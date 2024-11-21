@@ -7,6 +7,7 @@ description: "PDF/A-1、PDF/A-2、PDF/A-4、PDF/UAへの変換 Javaお問い合�
 type: docs
 weight: 28
 url: /ja/java/working-with-pdfa-or-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 PDF/A および PDF/UA 形式は、Word 形式の文書から PDF への自動変換中に満たせないドキュメントコンテンツに関連するいくつかの要件を意味します。 これらの要件は、完全なPDF / AおよびPDF / UA準拠文書を生成するために変換後のPDF文書または変換前のWord文書で検証し、修正する必要があります。

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Spécifier les options de mise en page en C++
 second_title: Aspose.Words pour C++
 articleTitle: Spécifier Les Options De Mise En Page
@@ -7,6 +7,7 @@ description: "Spécifiez les options de mise en page pour différentes mises en 
 type: docs
 weight: 20
 url: /fr/cpp/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words vous permet de créer des documents de sortie avec différentes mises en page, en fonction des paramètres spécifiés dans la propriété [LayoutOptions](https://reference.aspose.com/words/cpp/class/aspose.words.layout.layout_options) du **Document**. Cette propriété ressemble à certaines des options de menu de l'interface utilisateur Microsoft Word décrites dans cet article.

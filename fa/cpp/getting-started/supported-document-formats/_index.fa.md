@@ -1,4 +1,4 @@
-﻿---
+---
 title: فرمت های سند پشتیبانی شده
 second_title: Aspose.Words برای C++
 articleTitle: فرمت های سند پشتیبانی شده
@@ -7,6 +7,7 @@ type: docs
 description: "ویرایش اسناد منبع در بسیاری از فرمت های محبوب و همچنین تبدیل آزادانه فایل ها از یک فرمت به فرمت دیگر با استفاده از C++."
 weight: 20
 url: /fa/cpp/supported-document-formats/
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

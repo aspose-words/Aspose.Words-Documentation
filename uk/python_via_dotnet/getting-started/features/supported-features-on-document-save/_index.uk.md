@@ -7,6 +7,7 @@ description: "Збережіть свій документ у будь-який 
 type: docs
 weight: 30
 url: /uk/python-net/supported-features-on-document-save/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words має деякі з найбільш розширених додатків, які підтримують загальні формати обробки слів.

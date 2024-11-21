@@ -7,6 +7,7 @@ description: "Python kullanarak bir belgeye ole nesneleri veya çevrimiçi vodeo
 type: docs
 weight: 360
 url: /tr/python-net/working-with-ole-objects/
+timestamp: 2024-01-27-14-07-04
 ---
 
 OLE (Nesne Bağlama ve Gömme), kullanıcıların üçüncü taraf uygulamalar tarafından oluşturulan veya düzenlenen "nesneler" içeren belgelerle çalışabileceği bir teknolojidir. Yani OLE, bir düzenleme uygulamasının bu "nesneleri" başka bir düzenleme uygulamasına aktarmasına ve ardından bunları ek içerikle birlikte içe aktarmasına olanak tanır.

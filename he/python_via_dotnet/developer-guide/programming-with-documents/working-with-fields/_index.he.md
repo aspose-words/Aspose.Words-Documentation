@@ -7,6 +7,7 @@ description: "כיצד לעבוד עם שדות במסמכים באמצעות Py
 type: docs
 weight: 370
 url: /he/python-net/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 **Fields** במסמך הם כמו בעלי מקומות שבהם ניתן להכניס נתונים שימושיים. לדוגמה, שדה יכול להיות הפניה דף, נוסחה, או mail merge שדה.

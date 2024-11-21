@@ -1,4 +1,4 @@
-﻿---
+---
 title: Konfigurasikan produk dalam Visual Studio
 second_title: Aspose.Words untuk C++
 articleTitle: Konfigurasi Aspose.Words untuk C++ dalam Visual Studio
@@ -7,6 +7,7 @@ description: "Konfigurasi secara manual Aspose.Words untuk C++ dalam Visual Stud
 type: docs
 weight: 90
 url: /id/cpp/configure-aspose-words-for-cpp-in-visual-studio/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Aspose.Words untuk C++ API berfungsi dengan Visual Studio 2022 atau lebih baru. Untuk bekerja dengan Visual Studio, Anda mungkin perlu menginstal Visual C++ Redistributable yang tersedia di [Microsoft situs web resmi](https://docs.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170).

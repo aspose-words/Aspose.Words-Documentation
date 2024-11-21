@@ -7,6 +7,7 @@ description: "PDF를 Excel로 변환, XML로 Excel로, DOCX로 Excel로 Java· �
 type: docs
 weight: 15
 url: /ko/java/convert-a-document-to-excel/
+timestamp: 2024-01-31-14-23-37
 ---
 
 다른 형식으로 문서를 변환하는 것은 주력 기능입니다. Aspose.Words· 문서 변환을 할 수 있습니다. [짐 체재](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) XLSX 형식도 있습니다.

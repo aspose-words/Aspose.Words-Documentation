@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge 及在 C++
 second_title: Aspose.Words 为 C++
 articleTitle: Mail Merge 及报告
@@ -8,6 +8,7 @@ description: "Mail Merge 是一个流行的功能，用于快速创建文档使�
 keywords: "how to use mail merge c++"
 weight: 30
 url: /zh/cpp/mail-merge-and-reporting/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Mail Merge 是一个流行的功能，用于快速，轻松地创建文档，如信件，标签和信封。 Aspose.Words 使您能够从模板生成文档 mail merge 菲尔兹。

@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++でのGoogle NotoフォントのフォントFallBack設定
 second_title: C++の場合Aspose.Words
 articleTitle: Google Notoフォントの定義済みフォントFallBack設定
@@ -7,6 +7,7 @@ description: "Aspose.Wordsは、Google Notoフォントの事前定義された�
 type: docs
 weight: 15
 url: /ja/cpp/predefined-font-fallback-settings-for-google-noto-fonts/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Aspose.Wordsは、Google Notoフォント用の事前定義されたフォントフォールバック設定を提供します。 これらはSIL Open Font Licenseの下でライセンスされたフリーフォントで、Google Noto Fontsからダウンロードできます。 **FontFallbackSettings**クラスは[LoadNotoFallbackSettings](https://reference.aspose.com/words/cpp/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/)メソッドを提供します。 以下のコード例に示すように、Google Notoフォントを使用する事前定義されたフォールバック設定をロードします:

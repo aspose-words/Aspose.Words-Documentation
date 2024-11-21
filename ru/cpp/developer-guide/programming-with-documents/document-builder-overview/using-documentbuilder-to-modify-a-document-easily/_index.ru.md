@@ -1,4 +1,4 @@
-﻿---
+---
 title: Использование `DocumentBuilder` для простого изменения документа
 second_title: Aspose.Words для C++
 articleTitle: Использование `DocumentBuilder` для простого изменения документа
@@ -7,6 +7,7 @@ type: docs
 description: "Используйте конструктор документов, чтобы легко изменять документ на C++."
 weight: 190
 url: /ru/cpp/using-documentbuilder-to-modify-a-document-easily/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Задание форматирования

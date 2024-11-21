@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bekerja dengan Rentang di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Bekerja dengan Rentang
@@ -7,6 +7,7 @@ description: "Pengantar fitur Rentang di Aspose.Words untuk C++."
 type: docs
 weight: 130
 url: /id/cpp/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

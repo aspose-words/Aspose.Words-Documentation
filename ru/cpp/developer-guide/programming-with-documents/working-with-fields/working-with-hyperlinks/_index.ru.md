@@ -1,4 +1,4 @@
-﻿---
+---
 title: Работа с гиперссылками на C++
 second_title: Aspose.Words для C++
 articleTitle: Добавление или изменение гиперссылок
@@ -7,6 +7,7 @@ description: "Как добавить гиперссылку в свой док�
 type: docs
 weight: 180
 url: /ru/cpp/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Гиперссылкой в документах Microsoft Word является поле `HYPERLINK`. В Aspose.Words гиперссылки реализуются с помощью класса [FieldHyperlink](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldhyperlink/).

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Rastrear alterações em um documento em C++
 second_title: Aspose.Words para C++
 articleTitle: Acompanhar alterações num documento
@@ -7,6 +7,7 @@ description: "Acompanhe as alterações de Conteúdo e formatação feitas por v
 type: docs
 weight: 270
 url: /pt/cpp/track-changes-in-a-document/
+timestamp: 2024-01-30-16-22-34
 ---
 
 A funcionalidade de rastrear alterações, também conhecida como revisão, permite que você rastreie alterações no conteúdo e na formatação feitas por você ou por outros usuários. Este recurso de alterações de faixa com Aspose.Words suporta alterações de faixa em Microsoft Word. Com essa funcionalidade, você pode acessar revisões individuais em seu documento e aplicar propriedades diferentes a elas.

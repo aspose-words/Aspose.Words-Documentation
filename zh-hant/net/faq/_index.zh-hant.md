@@ -9,6 +9,7 @@ type: docs
 description: " Aspose.Words for .NET 回答了最常問的問題。 將此頁面記住，以快速解決您在一般問題或特定主題上的問題。"
 weight: 75
 url: /zh-hant/net/faq/
+timestamp: 2024-11-18-12-56-02
 ---
 
 本頁面包含回答最常問的問題。 請學習當前頁面，或許這樣你就能很快地解決問題。

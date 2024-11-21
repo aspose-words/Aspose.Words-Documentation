@@ -7,6 +7,7 @@ description: "המרת מסמך ל- PDF עם אפשרויות מתקדמות Pyt
 type: docs
 weight: 20
 url: /he/python-net/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
 פורמט PDF הוא פורמט קבוע עמודים פופולרי מאוד בקרב משתמשים ונתמכת על ידי יישומים שונים, כי מסמך PDF נראה אותו הדבר על כל מכשיר. לכן, המרת PDF היא תכונה חשובה. Aspose.Words.

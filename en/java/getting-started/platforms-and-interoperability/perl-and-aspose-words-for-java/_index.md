@@ -7,6 +7,7 @@ type: docs
 description: "Perl: how to use Aspose.Words for Java."
 weight: 30
 url: /java/perl-and-aspose-words-for-java/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Prerequisites

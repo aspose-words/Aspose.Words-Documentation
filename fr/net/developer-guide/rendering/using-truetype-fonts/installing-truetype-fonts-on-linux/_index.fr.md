@@ -7,6 +7,7 @@ description: "Aspose.Words pour .NET permet de restituer un document créé en M
 type: docs
 weight: 20
 url: /fr/net/installing-truetype-fonts-on-linux/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Le plus souvent, vous utiliserez Aspose.Words pour convertir des documents DOC ou DOCX au format PDF. Si vous devez le faire sur une machine Linux, cette rubrique vous aidera à apprendre comment garantir que Aspose.Words restitue vos documents avec la meilleure précision.

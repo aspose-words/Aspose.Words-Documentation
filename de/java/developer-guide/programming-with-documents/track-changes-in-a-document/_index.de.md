@@ -7,6 +7,7 @@ description: "Verfolgen Sie Änderungen der von Ihnen oder anderen erstellten In
 type: docs
 weight: 270
 url: /de/java/track-changes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Die Funktionalität von Track-Änderungen, auch als Überprüfung bekannt, ermöglicht es Ihnen, Änderungen an Inhalten und Formatierungen von Ihnen oder anderen Benutzern zu verfolgen. Diese Track-Änderungen Funktion mit Aspose.Words unterstützt Spuränderungen Microsoft Word. Mit dieser Funktionalität können Sie auf einzelne Revisionen in Ihrem Dokument zugreifen und unterschiedliche Eigenschaften auf sie anwenden.

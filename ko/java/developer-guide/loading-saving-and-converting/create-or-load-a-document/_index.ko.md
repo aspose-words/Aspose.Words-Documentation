@@ -7,6 +7,7 @@ type: docs
 weight: 10
 url: /ko/java/create-or-load-a-document/
 description: "Aspose.Words 빈 문서를 만들거나 파일 또는 스트림에서로드 할 수 있도록 Java·"
+timestamp: 2024-01-27-14-07-04
 ---
 
 당신이 수행 할 작업 거의 Aspose.Words 문서 로딩 더 보기 `Document` class는 메모리에 적재된 문서입니다. 문서에는 공백 문서를 만들거나 파일이나 스트림에서 로드할 수 있도록 여러 개의 과부하된 생성자가 있습니다. 문서는 지원되는 어떤 짐 체재든지에서 적재될 수 있습니다 Aspose.Words· 지원되는 모든 부하 형식의 목록을 위해, [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) 관련 기사

@@ -7,6 +7,7 @@ description: "Conversie în PDF/A-1, PDF/A-2, PDF/A-4 și PDF/UA folosind C#. Ex
 type: docs
 weight: 28
 url: /ro/net/working-with-pdfa-or-pdfua/
+timestamp: 2024-07-10-14-38-57
 ---
 
 Formatele PDF/A și PDF/UA impun mai multe cerințe legate de conținutul documentului care nu pot fi îndeplinite în timpul conversiei automate dintr-un document în format Word într-unul PDF. Aceste cerințe ar trebui verificate și corectate fie într-un document Word înainte de conversie, fie într-un document PDF după conversie, pentru a produce un document conform PDF/A și PDF/UA.

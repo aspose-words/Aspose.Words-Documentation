@@ -7,6 +7,7 @@ description: "Membuat dan memodifikasi berbagai jenis bagan dalam dokumen menggu
 type: docs
 weight: 310
 url: /id/python-net/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Metode [insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/) baru telah ditambahkan ke kelas [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/). Jadi, mari kita lihat cara menyisipkan bagan kolom sederhana ke dalam dokumen menggunakan metode [DocumentBuilder.insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/):

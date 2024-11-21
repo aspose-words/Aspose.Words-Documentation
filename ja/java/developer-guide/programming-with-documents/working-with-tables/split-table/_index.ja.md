@@ -7,6 +7,7 @@ description: "スプリットテーブル Javaお問い合わせ 1つのテー�
 type: docs
 weight: 100
 url: /ja/java/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 表は、 Aspose.Words Document Object Model, 独立した行とセルで構成され、テーブルを簡単に分割できます。

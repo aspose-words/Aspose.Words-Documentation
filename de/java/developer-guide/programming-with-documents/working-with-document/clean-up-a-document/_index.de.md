@@ -7,6 +7,7 @@ description: "Entfernen Sie ungenutzte oder doppelte Informationen, um die Ausga
 type: docs
 weight: 30
 url: /de/java/clean-up-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Manchmal müssen Sie ungenutzte oder doppelte Informationen entfernen, um die Größe des Ausgabedokuments und der Bearbeitungszeit zu reduzieren.

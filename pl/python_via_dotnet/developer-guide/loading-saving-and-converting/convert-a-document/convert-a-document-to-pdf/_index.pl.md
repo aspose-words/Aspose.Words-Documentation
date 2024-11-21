@@ -7,6 +7,7 @@ description: "Konwertuj dokument do formatu PDF za pomocą Python. Obsługiwane 
 type: docs
 weight: 10
 url: /pl/python-net/convert-a-document-to-pdf/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Możliwość łatwej i niezawodnej konwersji dokumentów z jednego formatu na inny jest kluczową cechą Aspose.Words. Jednym z najpopularniejszych formatów do konwersji jest PDF – format o stałym układzie, który zachowuje oryginalny wygląd dokumentu podczas jego renderowania na różnych platformach. Termin "renderowanie" jest używany w Aspose.Words do opisania procesu konwertowania dokumentu do formatu pliku podzielonego na strony lub mającego koncepcję stron.

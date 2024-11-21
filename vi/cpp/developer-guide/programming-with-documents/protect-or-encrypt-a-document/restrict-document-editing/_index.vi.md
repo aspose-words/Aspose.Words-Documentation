@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hạn Chế Chỉnh Sửa Tài liệu trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Hạn Chế Chỉnh Sửa Tài Liệu
@@ -7,6 +7,7 @@ description: "Hạn chế chỉnh sửa tài liệu bằng cách đặt loại h
 type: docs
 weight: 30
 url: /vi/cpp/restrict-document-editing/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Đôi khi bạn có thể cần hạn chế khả năng chỉnh sửa tài liệu và chỉ cho phép một số hành động nhất định với nó. Điều này có thể hữu ích để ngăn người khác chỉnh sửa thông tin nhạy cảm và bí mật trong tài liệu của bạn.

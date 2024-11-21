@@ -1,4 +1,4 @@
-﻿---
+---
 title: Curățați înainte sau în timpul unei operații Mail Merge
 second_title: Aspose.Words pentru C++
 articleTitle: Curățați înainte sau în timpul unei operații Mail Merge
@@ -8,6 +8,7 @@ description: "Aplicați diferite opțiuni de curățare și eliminare, cum ar fi
 keywords: "cleanup options mail merge c#"
 weight: 10
 url: /ro/cpp/clean-up-before-or-during-mail-merge/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words vă permite să aplicați diferite opțiuni de curățare și eliminare, cum ar fi ștergerea câmpurilor de îmbinare înainte de a efectua o operație mail merge sau eliminarea regiunilor neutilizate în timpul unei operații mail merge. Această secțiune va explica cum să ștergeți câmpurile îmbinate și cum să configurați o opțiune de eliminare.

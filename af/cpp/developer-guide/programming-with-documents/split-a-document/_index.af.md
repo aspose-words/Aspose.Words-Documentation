@@ -1,4 +1,4 @@
-﻿---
+---
 title: Verdeel'n Dokument in C++
 second_title: Aspose.Words vir C++
 articleTitle: Verdeel'n Dokument
@@ -7,6 +7,7 @@ description: "Verdeel'n dokument in verskeie lêers met C++. Gebruik die gesplet
 type: docs
 weight: 90
 url: /af/cpp/split-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 *Splitting* of *split a document* is die proses om'n groot dokument in'n groter aantal kleiner lêers te breek. Daar is verskeie redes om'n lêer te verdeel. Byvoorbeeld, jy benodig net'n paar bladsye van'n spesifieke dokument en nie die hele een nie. Of om privaatheidsredes wil u slegs sommige dele van'n dokument met ander deel. Met die verdeelfunksie kan u slegs die vereiste dele van die dokument kry en die nodige aksies daarmee doen, byvoorbeeld om op te merk, te stoor of te stuur.

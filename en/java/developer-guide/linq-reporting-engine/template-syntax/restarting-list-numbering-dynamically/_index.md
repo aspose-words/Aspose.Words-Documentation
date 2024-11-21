@@ -7,6 +7,7 @@ description: "Restart list numbering within your documents dynamically when buil
 type: docs
 weight: 110
 url: /java/restarting-list-numbering-dynamically/
+timestamp: 2024-02-16-10-54-23
 ---
 
 You can restart list numbering within your documents dynamically using `restartNum` tags. In particular, this feature is useful when working with a nested numbered list within a data band as shown in the following example.

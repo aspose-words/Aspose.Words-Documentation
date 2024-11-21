@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cum să găsiți proprietățile câmpului
 second_title: Aspose.Words pentru Java
 articleTitle: Găsiți Proprietățile Câmpului
@@ -7,6 +7,7 @@ description: "Cum să găsiți unele proprietăți de câmp, cum ar fi codul de 
 type: docs
 weight: 25
 url: /ro/java/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un câmp care este inserat folosind [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean) returnează un obiect [Field](https://reference.aspose.com/words/java/com.aspose.words/field/). Aceasta este o clasă de fațadă care oferă metode utile pentru a găsi rapid astfel de proprietăți ale unui câmp.

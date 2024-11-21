@@ -7,6 +7,7 @@ description: "Sustitúyase texto en una tabla Java. Texto largo de la placa de l
 type: docs
 weight: 60
 url: /es/java/extract-text-from-and-replace-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Como se mencionó en artículos anteriores, una tabla generalmente contiene texto plano, aunque otros contenidos como imágenes o incluso otras tablas se pueden colocar en las celdas de mesa.

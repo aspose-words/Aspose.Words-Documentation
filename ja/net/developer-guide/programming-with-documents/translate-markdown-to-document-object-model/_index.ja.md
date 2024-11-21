@@ -7,6 +7,7 @@ type: docs
 description: "C# を使用して、Markdown ドキュメントを Document Object Model に変換し、逆に変換します。したがって、複雑な既存の Markdown を操作し、プログラムによって Markdown ドキュメントを最初から作成できます。"
 weight: 20
 url: /ja/net/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ドキュメントのコンテンツと書式設定をプログラムで読み取り、操作、変更するには、ドキュメントを Aspose.Words Document Object Model (DOM) に変換する必要があります。

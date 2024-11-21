@@ -7,6 +7,7 @@ description: "Cifra tu documento usando algoritmos de cifrado apropiados para fo
 type: docs
 weight: 20
 url: /es/java/encrypt-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 El cifrado es el proceso que traduce el texto legible a secuencias sin sentido de bytes para que sólo pueda ser leído por la persona que tiene la clave de descifrado o el código secreto. Este proceso desempeña un papel importante en asegurar su contenido. Ayuda a codificar el contenido, verificar el origen de un documento, probar que el contenido no ha sido modificado después de su envío, y asegurar que los datos del documento sean seguros.

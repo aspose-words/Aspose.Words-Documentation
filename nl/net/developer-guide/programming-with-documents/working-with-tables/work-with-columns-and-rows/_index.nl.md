@@ -7,6 +7,7 @@ description: "Werken met delen van een tabel C#. Koprij opgeven C#."
 type: docs
 weight: 30
 url: /nl/net/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Voor meer controle over hoe tabellen werken, leer hoe kolommen en rijen te manipuleren.

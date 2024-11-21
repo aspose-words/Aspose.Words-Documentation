@@ -7,6 +7,7 @@ description: "Formattazione della tabella nei dettagli. Utilizzo Java per format
 type: docs
 weight: 70
 url: /it/java/applying-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ogni elemento di una tabella può essere applicato con formattazione diversa. Ad esempio, la formattazione della tabella verrà applicata all'intera tabella, la formattazione della riga a solo righe particolari, la formattazione della cella a solo alcune celle.

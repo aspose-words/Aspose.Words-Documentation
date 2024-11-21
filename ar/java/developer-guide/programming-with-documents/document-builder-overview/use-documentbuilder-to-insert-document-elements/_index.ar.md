@@ -7,6 +7,7 @@ type: docs
 description: "إدراج عناصر الوثائق باستخدام مبني الوثائق Java."
 weight: 10
 url: /ar/java/use-documentbuilder-to-insert-document-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 The [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) يُستخدم لتعديل الوثائق. وتشرح هذه المادة وتصف كيفية أداء عدد من المهام.

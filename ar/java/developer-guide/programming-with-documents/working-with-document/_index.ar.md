@@ -7,6 +7,7 @@ type: docs
 description: "The `Document` ويقدم الفصل مختلف خصائص الوثائق وأساليبها. أنت تستخدم `Document` كنقطة انطلاق لكل ما تريد القيام به Aspose.Words for Java. The `Document` الجسم يمكن أن يُنقذ إلى ملف أو مجرى ويُرسل أيضاً إلى منظف."
 weight: 40
 url: /ar/java/working-with-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 The [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) الطبقة المركزية Aspose.Words. وهي تمثل وثيقة وتقدم مختلف خصائص الوثائق وأساليبها، مثل توفير الوثيقة أو حمايةها. أنت تستخدم **Document** كنقطة انطلاق لكل ما تريد القيام به Aspose.Words: إنشاء وثيقة جديدة من الصفر وفتح نموذج mail merge, أو الحصول على أجزاء مختلفة من وثيقة.

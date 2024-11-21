@@ -1,4 +1,4 @@
-﻿---
+---
 title: Ce este un aspect de pagină în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Ce este un aspect de pagină
@@ -7,6 +7,7 @@ description: "Să ne dăm seama ce este un aspect de pagină. Un aspect de pagin
 type: docs
 weight: 5
 url: /ro/cpp/what-is-a-page-layout/
+timestamp: 2024-09-24-14-35-44
 ---
 
 A **document page layout** este o structură de date, care descrie unde se află un anumit obiect pe pagini pentru toate obiectele documentului. În plus, deoarece obiectele au proprietăți care le afectează aspectul, cum ar fi dimensiunea fontului, umbrirea sau efectele de desen, trebuie să știți nu numai unde se află obiectul, ci și ce zonă (zone) a paginii pe care o ocupă și dacă se va aplica mai multor pagini, astfel încât alte obiecte să nu se suprapună cu aceeași zonă (zone).

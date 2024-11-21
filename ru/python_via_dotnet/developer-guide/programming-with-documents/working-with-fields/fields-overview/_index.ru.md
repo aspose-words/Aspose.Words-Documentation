@@ -7,6 +7,7 @@ description: "Вы можете получить доступ к изменен�
 type: docs
 weight: 10
 url: /ru/python-net/fields-overview/
+timestamp: 2024-10-21-11-17-44
 ---
 
 

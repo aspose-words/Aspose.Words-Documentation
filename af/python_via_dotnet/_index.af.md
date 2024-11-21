@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words vir Python via .NET
 articleTitle: Aspose.Words vir Python via .NET
 linktitle: Aspose.Words vir Python via .NET
@@ -7,6 +7,7 @@ type: docs
 weight: 40
 url: /af/python-net/
 is_root: true
+timestamp: 2024-09-25-11-08-55
 ---
 
 <img src="home_1" alt="Aspose.Words for Python via .NET Product Logo" align="left" style="width:110px; margin: 0 30px 30px 0"/>

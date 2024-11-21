@@ -7,6 +7,7 @@ description: "Introduction à la fonction graphique, comment créer et manipuler
 type: docs
 weight: 310
 url: /fr/java/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 La nouvelle [insertChart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertChart-int-double-double) la méthode a été ajoutée à la [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) En cours. Donc, voyons comment insérer un simple diagramme de colonnes dans le document en utilisant **insérer Graphique** méthode.

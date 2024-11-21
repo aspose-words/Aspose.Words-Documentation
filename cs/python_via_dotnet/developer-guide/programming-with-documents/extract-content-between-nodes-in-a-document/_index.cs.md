@@ -7,6 +7,7 @@ description: "Jak extrahovat specifický obsah z rozsahu v rámci dokumentu snad
 type: docs
 weight: 140
 url: /cs/python-net/how-to-extract-selected-content-between-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Při práci s dokumenty je důležité být schopen snadno extrahovat obsah z určitého rozsahu v dokumentu. Obsah se však může skládat ze složitých prvků, jako jsou odstavce, tabulky, obrázky atd.

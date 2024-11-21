@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu controlul conținutului SDT
 second_title: Aspose.Words pentru C++
 articleTitle: Lucrul cu controlul conținutului SDT
@@ -7,6 +7,7 @@ type: docs
 description: "Gestionarea avansată a conținutului documentelor, modul de creare și manipulare a controalelor de conținut (etichete de documente structurate) folosind C++."
 weight: 390
 url: /ro/cpp/structured-document-tags-or-content-control/
+timestamp: 2024-01-27-14-07-04
 ---
 
 În Microsoft Word, puteți crea un formular începând cu un șablon și adăugând controale de conținut, inclusiv casete de selectare, casete de text, Selectoare de date și liste derulante. În Aspose.Words, o etichetă de Document structurată sau un control de conținut din orice document încărcat în Aspose.Words este importat ca nod StructuredDocumentTag. Etichetele de documente structurate (SDT sau controlul conținutului) permit încorporarea semanticii definite de client, precum și comportamentul și aspectul acesteia într-un document. StructuredDocumentTag poate apărea într-un document în următoarele locuri:

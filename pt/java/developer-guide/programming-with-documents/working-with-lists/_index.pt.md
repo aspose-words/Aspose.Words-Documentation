@@ -7,6 +7,7 @@ description: "Introdução ao recurso de formatação de numeração em Aspose.W
 type: docs
 weight: 200
 url: /pt/java/working-with-lists/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uma lista em uma Microsoft Word documento é um conjunto de propriedades de formatação de lista. Listas podem ser usadas em seus documentos para formatar, organizar e enfatizar texto. As listas são uma ótima maneira de organizar dados em documentos, e facilitam que os leitores compreendam pontos-chave.

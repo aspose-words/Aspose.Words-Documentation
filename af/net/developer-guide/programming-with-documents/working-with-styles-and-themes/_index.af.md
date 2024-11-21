@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Style en Temas in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Werk Met Style en Temas
@@ -7,6 +7,7 @@ description: "Gevorderde Microsoft Word formatering funksies, werk met style en 
 type: docs
 weight: 110
 url: /af/net/working-with-styles-and-themes/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Die [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) klas word gebruik om ingeboude te bestuur en gebruiker-gedefinieerde instellings toe te pas op style.

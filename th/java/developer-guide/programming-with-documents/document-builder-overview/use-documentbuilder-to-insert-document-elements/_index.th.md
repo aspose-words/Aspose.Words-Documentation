@@ -7,6 +7,7 @@ type: docs
 description: "แทรกองค์ประกอบของเอกสารโดยใช้การสร้างเอกสาร Java."
 weight: 10
 url: /th/java/use-documentbuilder-to-insert-document-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 เดอะ [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) ใช้ในการแก้ไขเอกสาร บทความ นี้ อธิบาย และ อธิบาย วิธี ทํา งาน หลาย อย่าง.

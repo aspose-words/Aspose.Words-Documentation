@@ -7,6 +7,7 @@ description: "Hoe bladwijzers invoegen, verkrijgen, verplaatsen, tonen of verber
 type: docs
 weight: 180
 url: /nl/python-net/working-with-bookmarks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bladwijzers identificeren in een Microsoft Word documenteer de locaties of fragmenten die u noemt en identificeert voor toekomstige referentie. U kunt bijvoorbeeld een bladwijzer gebruiken om tekst te identificeren die u later wilt herzien. In plaats van door het document te schuiven om de tekst te lokaliseren, kunt u naar het bladwijzervenster gaan.

@@ -7,6 +7,7 @@ description: "현장 업데이트 방법 알아보기 Java· Update field progra
 type: docs
 weight: 30
 url: /ko/java/update-field/
+timestamp: 2024-01-27-14-07-04
 ---
 
 일반적으로 삽입 된 필드 Microsoft Word 이미 날짜 값에 포함. 예를 들어, 필드가 공식 또는 페이지 번호 인 경우, 문서의 주어진 버전에 대한 정확한 계산 값을 포함합니다. 그러나 두 개의 문서와 같은 필드와 문서를 생성하거나 수정하는 응용 프로그램이 있거나 데이터로 변환 한 경우, 이상적으로 모든 필드는 유용한 문서에 업데이트해야합니다.

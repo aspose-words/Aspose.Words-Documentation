@@ -7,6 +7,7 @@ description: "Zaawansowane przetwarzanie dokumentów TXT, listy, BiDi, nagłówk
 type: docs
 weight: 430
 url: /pl/net/working-with-text-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 W tym artykule dowiemy się, jakie opcje mogą się przydać podczas pracy z dokumentem tekstowym poprzez Aspose.Words. Należy pamiętać, że nie jest to pełna lista dostępnych opcji, a jedynie przykład pracy z niektórymi z nich.

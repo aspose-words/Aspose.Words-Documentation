@@ -7,6 +7,7 @@ description: "Determine o formato do arquivo em C# se não tiver certeza de qual
 type: docs
 weight: 20
 url: /pt/net/detect-file-format-and-check-format-compatibility/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Às vezes é necessário determinar o formato de um documento antes de abri-lo porque a extensão do arquivo não garante que o conteúdo do arquivo seja apropriado. Por exemplo, sabe-se que o Crystal Reports geralmente produz documentos no formato RTF, mas lhes dá a extensão .doc.

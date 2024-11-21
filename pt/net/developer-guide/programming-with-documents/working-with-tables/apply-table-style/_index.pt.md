@@ -7,6 +7,7 @@ description: "Formatação avançada de tabela C#. Crie um estilo de tabela usan
 type: docs
 weight: 80
 url: /pt/net/working-with-tablestyle/
+timestamp: 2024-02-02-12-07-36
 ---
 
 Um estilo de tabela define um conjunto de formatação que pode ser facilmente aplicado a uma tabela. Formatações como bordas, sombreamento, alinhamento e fonte podem ser definidas em um estilo de tabela e aplicadas a muitas tabelas para obter uma aparência consistente.

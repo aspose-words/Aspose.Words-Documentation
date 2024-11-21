@@ -1,4 +1,4 @@
-﻿---
+---
 title: Work with Office Add-ins in C++
 second_title: Aspose.Words for C++
 articleTitle: Work with Office Add-ins
@@ -8,6 +8,7 @@ type: docs
 weight: 50
 url: /cpp/work-with-office-add-ins/
 aliases: [/cpp/working-with-web-extensions/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 Sometimes you might want to give access to interface controls that run code to modify documents. Aspose.Words API provides the `WebExtensions` namespace, which grants various classes to customize elements and attributes extending the XML vocabulary for representing Office Add-ins.

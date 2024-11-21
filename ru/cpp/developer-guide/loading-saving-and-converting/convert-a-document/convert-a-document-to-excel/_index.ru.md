@@ -1,4 +1,4 @@
-﻿---
+---
 title: Преобразование Word в Excel на C++
 second_title: Aspose.Words для C++
 articleTitle: Преобразование документа в Excel
@@ -7,6 +7,7 @@ description: "Конвертируйте PDF в Excel, XML в Excel, DOCX в Exc
 type: docs
 weight: 15
 url: /ru/cpp/convert-a-document-to-excel/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Преобразование документов из одного формата в другой является основной функцией Aspose.Words. Вы можете конвертировать документы в любом доступном формате [load format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/), а также в формат XLSX.

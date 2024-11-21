@@ -7,6 +7,7 @@ description: "Compreendendo o recurso Form Fields, trabalhando com Form Fields u
 type: docs
 weight: 380
 url: /pt/java/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Um documento que contém espaços de preenchimento (campos) é conhecido como um formulário. Por exemplo, você pode criar um formulário de registro em Microsoft Word que usa listas suspensas das quais os usuários podem selecionar entradas. O `Form` campo é um local onde um determinado tipo de dados, como um nome ou endereço, é armazenado. Campos de formulário Microsoft Word incluem entrada de texto, combobox e caixa de seleção.

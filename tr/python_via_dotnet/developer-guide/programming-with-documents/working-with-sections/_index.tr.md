@@ -7,6 +7,7 @@ description: "Python'i kullanarak bir belgede bölümler ve bölüm sonları olu
 type: docs
 weight: 120
 url: /tr/python-net/working-with-sections/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Bazen tüm sayfalarda aynı biçimlendirmeye sahip olmayan bir belge istersiniz. Örneğin, sayfa numarası formatlarını değiştirmeniz, farklı sayfa boyutu ve yönüne sahip olmanız veya ilk belge sayfasını numaralandırma olmadan kapak sayfası olarak kullanmanız gerekebilir. Bunu bölümlerle başarabilirsiniz.

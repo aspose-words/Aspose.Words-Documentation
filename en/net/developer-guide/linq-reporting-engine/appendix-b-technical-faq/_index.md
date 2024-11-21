@@ -1,4 +1,4 @@
-﻿---
+---
 title: Appendix B. Technical FAQ in C#
 second_title: Aspose.Words for .NET
 articleTitle: Appendix B. Technical FAQ
@@ -7,6 +7,7 @@ description: "Learn the LINQ Reporting Engine FAQ to build a report in C#."
 type: docs
 weight: 60
 url: /net/appendix-b-technical-faq/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

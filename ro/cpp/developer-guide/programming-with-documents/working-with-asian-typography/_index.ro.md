@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tipografie asiatică în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Lucrul cu tipografia asiatică
@@ -7,6 +7,7 @@ description: "Lucrați cu tipografia asiatică folosind C++. Reglați spațiul d
 type: docs
 weight: 240
 url: /ro/cpp/working-with-asian-typography/
+timestamp: 2024-02-01-16-17-05
 ---
 
 Tipografia asiatică este un set de opțiuni pentru paragrafele de text din documentele scrise în limbile asiatice.

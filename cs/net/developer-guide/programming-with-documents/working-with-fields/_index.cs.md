@@ -7,6 +7,7 @@ description: "Úvod do funkce pole v Aspose.Words místo .NET."
 type: docs
 weight: 370
 url: /cs/net/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 **Fields** v dokumentu jsou jako majitelé místa, kde lze vkládat užitečné údaje. Například pole může být odkaz na stránku, vzorec nebo mail merge pole.

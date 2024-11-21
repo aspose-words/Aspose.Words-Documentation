@@ -1,4 +1,4 @@
-﻿---
+---
 title: أدخل الحقول في C++
 second_title: Aspose.Words ل C++
 articleTitle: أدخل الحقول
@@ -7,6 +7,7 @@ description: "طرق مختلفة لإدراج الحقول في المستند 
 type: docs
 weight: 20
 url: /ar/cpp/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 هناك عدة طرق مختلفة لإدراج الحقول في مستند:

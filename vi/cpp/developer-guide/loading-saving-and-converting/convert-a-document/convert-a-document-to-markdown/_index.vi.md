@@ -1,4 +1,4 @@
-﻿---
+---
 title: Chuyển Đổi Tài liệu thành Markdown trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Chuyển Đổi Tài liệu thành Markdown
@@ -8,6 +8,7 @@ description: "Chuyển đổi tài liệu ở bất kỳ định dạng tải n�
 keywords: how to convert a document to markdown c++, Convert doc to MD C++, convert DOCX to Markdown C++
 weight: 40
 url: /vi/cpp/convert-a-document-to-markdown/
+timestamp: 2024-10-21-08-52-03
 ---
 
 Markdown là một định dạng phổ biến được sử dụng để đánh dấu văn bản và nó tiếp tục chuyển đổi sang HTML, PDF, DOCX, hoặc các định dạng khác. Nhiều nhà phát triển chọn định dạng này để viết tài liệu, chuẩn bị các bài báo để xuất bản trên blog, mô tả các dự án, v. v.

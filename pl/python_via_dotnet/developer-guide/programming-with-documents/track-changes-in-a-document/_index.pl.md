@@ -7,6 +7,7 @@ description: "Śledź zmiany w treści i formatowaniu wprowadzone przez Ciebie l
 type: docs
 weight: 270
 url: /pl/python-net/track-changes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Funkcja śledzenia zmian, zwana także przeglądaniem, umożliwia śledzenie zmian w treści i formatowaniu wprowadzonych przez Ciebie lub innych użytkowników. Ta funkcja zmiany ścieżki w formacie Aspose.Words obsługuje zmiany ścieżki w formacie Microsoft Word. Dzięki tej funkcji możesz uzyskać dostęp do poszczególnych wersji dokumentu i zastosować do nich różne właściwości.

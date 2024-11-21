@@ -7,6 +7,7 @@ description: "כיצד למצוא כמה תכונות שדה כמו קוד שד�
 type: docs
 weight: 25
 url: /he/net/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 שדה שמוכנס באמצעות [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/) חוזר [Field](https://reference.aspose.com/words/net/aspose.words.fields/field/) אובייקט. זוהי מחלקה faсade המספקת שיטות שימושיות כדי למצוא במהירות כמה תכונות של שדה.

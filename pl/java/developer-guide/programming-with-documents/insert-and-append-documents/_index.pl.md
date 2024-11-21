@@ -7,6 +7,7 @@ description: "Łączenie dokumentów w jeden: wstawić lub dołączyć dokument 
 type: docs
 weight: 80
 url: /pl/java/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Czasami wymagane jest połączenie kilku dokumentów w jedno. Możesz to zrobić ręcznie lub możesz użyć Aspose.Words wstawić lub dołączyć funkcję.

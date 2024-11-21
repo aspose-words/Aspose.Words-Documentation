@@ -11,6 +11,7 @@ description: "Perform a mail merge operation with nested regions using C#. Neste
 keywords: "mail merge with nested regions c#"
 weight: 10
 url: /net/nested-mail-merge-with-regions/
+timestamp: 2024-07-11-08-07-06
 ---
 
 In some scenarios, you may need to use nested mail merge with regions. Nested merge is a feature that enables you to merge hierarchical data from your data source into your merge template to easily populate your document. Basically, the hierarchical data is represented as a set of data items, and hierarchical relationships describe how the data items are related to each other (one item of data is the parent of another one).

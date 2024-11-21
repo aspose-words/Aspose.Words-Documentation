@@ -7,6 +7,7 @@ description: "Einführung in die Form-Markup-Sprache, Erstellen verschiedener Fo
 type: docs
 weight: 280
 url: /de/net/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In diesem Thema wird erläutert, wie Sie mithilfe von Aspose.Words programmgesteuert mit Formen arbeiten.

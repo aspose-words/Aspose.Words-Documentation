@@ -7,6 +7,7 @@ description: "Aspose.Words for .NET 提供了用于使用 C# 处理 Office 加�
 type: docs
 weight: 50
 url: /zh/net/work-with-office-add-ins/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有时您可能希望授予对运行代码以修改文档的界面控件的访问权限。 Aspose.Words API 提供 `WebExtensions` 命名空间，该命名空间授予各种类来自定义扩展用于表示 Office 加载项的 XML 词汇表的元素和属性。

@@ -7,6 +7,7 @@ description: "تنسيق الخط بالتفصيل باستخدام C#. علام
 type: docs
 weight: 230
 url: /ar/net/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 الخط عبارة عن مجموعة من الأحرف ذات حجم ولون وتصميم معين. يتيح لك Aspose.Words العمل مع الخطوط باستخدام مساحة الاسم [Fonts](https://reference.aspose.com/words/ar/net/aspose.words.fonts/) وفئة [Font](https://reference.aspose.com/words/ar/net/aspose.words/font/).

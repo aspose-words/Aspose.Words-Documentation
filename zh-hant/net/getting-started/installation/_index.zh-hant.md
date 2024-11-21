@@ -7,6 +7,7 @@ description: "使用 Visual Studio 工具（如 Manage NuGet Packages 或 Packag
 type: docs
 weight: 10
 url: /zh-hant/net/installation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 在開始之前，請確定您的機器符合 [system requirements](/words/net/system-requirements/) 的要求。

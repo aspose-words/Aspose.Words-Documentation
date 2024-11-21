@@ -7,6 +7,7 @@ description: "Aspose.Words dành cho Python via .NET triển khai trình phát S
 type: docs
 weight: 30
 url: /vi/python-net/handling-windows-metafiles/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Định dạng siêu tệp Windows là định dạng tệp hình ảnh có thể chứa cả đồ họa vector và raster. Định dạng này được sử dụng để lưu trữ dữ liệu đồ họa trong bộ nhớ hoặc tệp trên đĩa. Siêu tệp lưu trữ danh sách các lệnh gọi hàm trong Giao diện thiết bị đồ họa Windows (GDI) phải được thực thi để hiển thị hình ảnh trên màn hình. Hệ thống diễn giải và thực thi các lệnh này trong ngữ cảnh hiển thị.

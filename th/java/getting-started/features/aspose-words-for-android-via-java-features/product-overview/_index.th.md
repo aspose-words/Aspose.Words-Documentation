@@ -7,6 +7,7 @@ description: "Aspose.Words สําหรับ Android ผ่าน Java ค�
 type: docs
 weight: 10
 url: /th/java/android-product-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

@@ -7,6 +7,7 @@ description: "Puede acceder a la modificación de campos utilizando Python. Los 
 type: docs
 weight: 10
 url: /es/python-net/fields-overview/
+timestamp: 2024-10-21-11-17-44
 ---
 
 

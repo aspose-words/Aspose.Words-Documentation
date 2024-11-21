@@ -7,6 +7,7 @@ description: "Jak manipulować przypisami dolnymi i końcowymi za pomocą C#."
 type: docs
 weight: 160
 url: /pl/net/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words udostępnia również pewne klasy, metody i właściwości do pracy z przypisami dolnymi i końcowymi.

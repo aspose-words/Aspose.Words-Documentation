@@ -7,6 +7,7 @@ description: "Verschlüsseln Sie Ihr Dokument mit entsprechenden Verschlüsselun
 type: docs
 weight: 20
 url: /de/java/encrypt-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Verschlüsselung ist der Prozess, der lesbare Text zu sinnlosen Sequenzen von Bytes übersetzt, so dass es nur von der Person gelesen werden kann, die den Entschlüsselungsschlüssel oder den geheimen Code hat. Dieser Prozess spielt eine wichtige Rolle bei der Sicherung Ihrer Inhalte. Es hilft, den Inhalt zu kodieren, den Ursprung eines Dokuments zu überprüfen, zu beweisen, dass der Inhalt nach dem Senden nicht geändert wurde und sicherzustellen, dass die Daten aus dem Dokument sicher sind.

@@ -7,6 +7,7 @@ type: docs
 description: "הכנס רכיבי מסמך באמצעות בונה המסמך ב Java."
 weight: 10
 url: /he/java/use-documentbuilder-to-insert-document-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 The The The [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) משמש כדי לשנות מסמכים. מאמר זה מסביר ומסביר כיצד לבצע מספר משימות.

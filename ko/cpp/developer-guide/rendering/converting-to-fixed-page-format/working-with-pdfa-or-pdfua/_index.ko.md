@@ -1,4 +1,4 @@
-﻿---
+---
 title: 함께 작업 PDF/A 또는 PDF/UA
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 함께 작업 PDF/A 또는 PDF/UA
@@ -7,6 +7,7 @@ description: "로 변환 PDF/A-1, PDF/A-2, PDF/A-4 그리고 PDF/UA 사용 C++. 
 type: docs
 weight: 38
 url: /ko/cpp/working-with-pdfa-or-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 PDF/A 그리고 PDF/UA 형식은 문서 내용과 관련된 몇 가지 요구 사항을 부과합니다. PDF. 이러한 요구 사항은 변환 전에 워드 문서 또는 PDF 완전히 생성하기 위하여 변환 후에 문서 PDF/A 그리고 PDF/UA 준수 문서.

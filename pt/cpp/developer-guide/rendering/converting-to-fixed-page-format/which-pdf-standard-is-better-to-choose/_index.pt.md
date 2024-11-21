@@ -1,4 +1,4 @@
-﻿---
+---
 title: Qual PDF padrão é melhor escolher
 second_title: Aspose.Words para C++
 articleTitle: Qual PDF padrão é melhor escolher
@@ -7,6 +7,7 @@ description: "Escolha o melhor padrão PDF para exportar o resultado da sua tare
 type: docs
 weight: 37
 url: /pt/cpp/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Para algumas tarefas, certos padrões PDF se encaixam melhor ou vice-versa pior. Neste artigo, tentaremos determinar quais PDF padrões para quais casos faz sentido escolher.

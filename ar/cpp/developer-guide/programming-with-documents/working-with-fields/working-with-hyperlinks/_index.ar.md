@@ -1,4 +1,4 @@
-﻿---
+---
 title: العمل مع الارتباطات التشعبية في C++
 second_title: Aspose.Words ل C++
 articleTitle: إضافة أو تعديل الارتباطات التشعبية
@@ -7,6 +7,7 @@ description: "كيفية إضافة ارتباط تشعبي إلى المستن�
 type: docs
 weight: 180
 url: /ar/cpp/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 الارتباط التشعبي في المستندات Microsoft Word هو حقل `HYPERLINK`. في Aspose.Words، يتم تنفيذ الارتباطات التشعبية من خلال فئة [FieldHyperlink](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldhyperlink/).

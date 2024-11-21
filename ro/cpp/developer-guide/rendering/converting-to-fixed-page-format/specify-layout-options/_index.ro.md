@@ -1,4 +1,4 @@
-﻿---
+---
 title: Specificați opțiunile de aspect în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Specificați Opțiunile De Aspect
@@ -7,6 +7,7 @@ description: "Specificați opțiunile de aspect pentru diferite machete de docum
 type: docs
 weight: 20
 url: /ro/cpp/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words vă permite să creați documente de ieșire cu diferite machete, în funcție de parametrii specificați în proprietatea [LayoutOptions](https://reference.aspose.com/words/cpp/class/aspose.words.layout.layout_options) a **Document**. Această proprietate seamănă cu unele dintre opțiunile de meniu ale interfeței cu utilizatorul Microsoft Word descrise în acest articol.

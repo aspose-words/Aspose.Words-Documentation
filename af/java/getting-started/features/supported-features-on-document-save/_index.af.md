@@ -1,4 +1,4 @@
-﻿---
+---
 title: Ondersteunde Kenmerke Op Dokument Stoor
 second_title: Aspose.Words vir Java
 articleTitle: Ondersteunde Kenmerke Op Dokument Stoor
@@ -7,6 +7,7 @@ description: "Stoor'n dokument in die meeste gewilde formate en ondersteun baie 
 type: docs
 weight: 30
 url: /af/java/supported-features-on-document-save/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words laat gebruikers toe om met dokumente in verskillende formate te werk en bied'n wye verskeidenheid funksies hiervoor. Byvoorbeeld, gebruikers kan'n dokument van nuuts af skep of laai dit, maak'n paar veranderinge, en dan stoor die veranderinge in die uitset lêer in enige [ondersteunde uitvoerformaat](/words/java/supported-document-formats/). Terwyl die stoor van die dokument in die geselekteerde formaat, kan die gebruiker verskeie stoor opsies toe te pas.

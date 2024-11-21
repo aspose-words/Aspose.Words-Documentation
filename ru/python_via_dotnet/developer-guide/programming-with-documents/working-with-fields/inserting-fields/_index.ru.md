@@ -7,6 +7,7 @@ description: "Вставить поля в документ в Python разли
 type: docs
 weight: 20
 url: /ru/python-net/inserting-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Существует несколько способов вставить поля в документ:

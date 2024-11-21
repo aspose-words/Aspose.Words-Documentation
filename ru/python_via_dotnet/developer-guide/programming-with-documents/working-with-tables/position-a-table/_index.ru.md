@@ -7,6 +7,7 @@ description: "Укажите положение таблицы в Python. Пол
 type: docs
 weight: 50
 url: /ru/python-net/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Есть плавающие таблицы и встроенные таблицы:

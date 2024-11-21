@@ -7,6 +7,7 @@ description: "Ayrıntılı grafikler, grafiğin Şekil düğümüyle nasıl bağ
 type: docs
 weight: 10
 url: /tr/cpp/working-with-charts-through-shape-chart-object/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Grafik eklendikten ve verilerle doldurulduktan sonra, görünümünü değiştirebilirsiniz. `Shape.Chart` özelliği, genel API aracılığıyla kullanılabilen grafikle ilgili tüm seçenekleri içerir.

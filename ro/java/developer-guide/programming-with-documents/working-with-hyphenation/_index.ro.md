@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu Cratimarea în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Lucrul cu Cratimare
@@ -7,6 +7,7 @@ description: "Utilizați cratimarea pentru un aranjament mai compact al textului
 type: docs
 weight: 220
 url: /ro/java/working-with-hyphenation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uneori este necesar să se utilizeze cratimarea pentru un aranjament mai compact al textului într-un document. În același timp, este important să înțelegem că specificul cratimării cuvintelor poate diferi pentru fiecare limbă.

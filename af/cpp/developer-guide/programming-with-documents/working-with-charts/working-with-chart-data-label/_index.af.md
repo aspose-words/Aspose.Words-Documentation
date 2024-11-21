@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Grafiek Data Etiket in C++
 second_title: Aspose.Words vir C++
 articleTitle: Werk met Grafiek Data Etiket
@@ -7,6 +7,7 @@ description: "Grafiek data etiket tuning met behulp van C++."
 type: docs
 weight: 30
 url: /af/cpp/working-with-chart-data-label/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words laat gebruikers toe om op verskillende maniere met ChartDataLabel te werk.

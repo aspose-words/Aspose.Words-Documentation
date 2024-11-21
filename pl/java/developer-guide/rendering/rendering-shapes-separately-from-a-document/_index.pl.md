@@ -7,6 +7,7 @@ description: "Wyciągać różne obiekty graficzne, takie jak obrazy, pole tekst
 type: docs
 weight: 40
 url: /pl/java/rendering-shapes-separately-from-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Podczas przetwarzania dokumentów wspólnym zadaniem jest wydobycie wszystkich obrazów znalezionych w dokumencie i wywiezienie ich do miejsca zewnętrznego. To zadanie staje się proste z Aspose.Words API, która już zapewnia funkcjonalność do pobierania i zapisywania danych obrazu. Jednak czasami można chcieć podobnie wyodrębnić inne rodzaje treści graficznych, które są reprezentowane przez inny typ obiektu rysowania, na przykład pole tekstowe zawierające akapity, kształty strzałek i mały obraz. Nie ma prostego sposobu renderowania tego obiektu, ponieważ jest to kombinacja poszczególnych elementów treści. Można również napotkać przypadek, gdy zawartość została zgrupowana w obiekt, który wygląda jak jeden obraz.

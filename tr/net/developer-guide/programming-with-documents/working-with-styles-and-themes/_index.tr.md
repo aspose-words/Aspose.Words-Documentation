@@ -7,6 +7,7 @@ description: "Gelişmiş Microsoft Word biçimlendirme özellikleri, C# kullanar
 type: docs
 weight: 110
 url: /tr/net/working-with-styles-and-themes/
+timestamp: 2024-10-24-11-44-28
 ---
 
 [StyleCollection](https://reference.aspose.com/words/tr/net/aspose.words/stylecollection/) sınıfı, yerleşik yönetimi yönetmek ve kullanıcı tanımlı ayarları stillere uygulamak için kullanılır.

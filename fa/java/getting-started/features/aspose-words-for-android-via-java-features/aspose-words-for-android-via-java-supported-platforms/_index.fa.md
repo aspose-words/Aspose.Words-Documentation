@@ -7,6 +7,7 @@ description: "Aspose.Words برای Android از طریق Java پلتفرم ها
 type: docs
 weight: 40
 url: /fa/java/aspose-words-for-android-via-java-supported-platforms/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words برای Android از طریق Java به طور کامل در Javaبستگی به استاندارد Java کتابخانه ها و می توانند در هر مکانی استفاده شوند. Java درخواست در هر پلتفرم پشتیبانی شده توسط Java... Aspose.Words برای Android از طریق Java به عنوان یک دانلود پستی ارائه شده و شامل موارد زیر است:

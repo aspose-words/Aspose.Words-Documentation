@@ -7,6 +7,7 @@ description: "ליצור ולנהל תמונות של פורמטים שונים 
 type: docs
 weight: 300
 url: /he/python-net/working-with-images/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words מאפשר למשתמשים לעבוד עם תמונות בצורה גמישה מאוד. במאמר זה, אתה יכול לחקור רק כמה אפשרויות של עבודה עם תמונות.

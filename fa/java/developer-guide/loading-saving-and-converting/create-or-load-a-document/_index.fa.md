@@ -7,6 +7,7 @@ type: docs
 weight: 10
 url: /fa/java/create-or-load-a-document/
 description: "Aspose.Words شما را قادر می سازد تا یک سند سفید ایجاد کنید یا آن را از یک فایل یا جریان بارگیری کنید. Java..."
+timestamp: 2024-01-27-14-07-04
 ---
 
 تقریبا هر کاری که می خواهید انجام دهید Aspose.Words شامل بارگیری یک سند است. The The The The The The `Document` کلاس نشان دهنده یک سند بارگذاری شده در حافظه است. این سند چندین سازنده اضافی دارد که به شما اجازه می دهد یک سند سفید ایجاد کنید یا آن را از یک فایل یا جریان بارگیری کنید. این سند را می توان در هر فرمت بار پشتیبانی شده توسط Aspose.Words... برای لیست تمام فرمت های بار پشتیبانی شده، ببینید [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) تکرار

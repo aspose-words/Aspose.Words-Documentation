@@ -7,6 +7,7 @@ type: docs
 description: "Enregistrer un document dans n'importe quel format supporté en utilisant Java."
 weight: 20
 url: /fr/java/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 La plupart des tâches que vous devez effectuer avec Aspose.Words il faut sauvegarder un document. Pour enregistrer un document Aspose.Words fournit les [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save(java.lang.String)) méthode de [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) En cours. Le document peut être enregistré dans n'importe quel format de sauvegarde supporté par Aspose.Words. Pour la liste de tous les formats de sauvegarde pris en charge, voir le [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) Énumération.

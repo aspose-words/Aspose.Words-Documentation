@@ -7,6 +7,7 @@ description: "Imprimir um documento usando Java através de Configurações, Vis
 type: docs
 weight: 55
 url: /pt/java/print-a-document-programmatically-or-using-dialogs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Este artigo descreve como imprimir um documento de processamento de texto usando Aspose.Words API. Ele também demonstra os métodos de imprimir um documento com configurações, visualização de impressão e diálogos de progresso de impressão.

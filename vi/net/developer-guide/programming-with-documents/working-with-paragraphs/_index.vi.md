@@ -7,6 +7,7 @@ description: "Chèn một đoạn văn vào tài liệu C#. Đặt kiểu đoạ
 type: docs
 weight: 210
 url: /vi/net/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Đoạn văn là một tập hợp các ký tự được kết hợp thành một khối logic và kết thúc bằng một ký tự đặc biệt – *ngắt đoạn*. Trong Aspose.Words, một đoạn văn được thể hiện bằng lớp [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/).

@@ -7,6 +7,7 @@ description: "คุณลักษณะฟิลด์ในรายละเ
 type: docs
 weight: 10
 url: /th/net/fields-overview/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words เป็นไลบรารีคลาสที่ออกแบบมาสำหรับการประมวลผลเอกสาร Microsoft Word ฝั่งเซิร์ฟเวอร์ และรองรับช่องต่างๆ ด้วยวิธีต่อไปนี้:

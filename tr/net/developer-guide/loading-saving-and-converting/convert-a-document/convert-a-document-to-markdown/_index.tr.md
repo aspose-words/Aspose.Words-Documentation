@@ -8,6 +8,7 @@ description: "Desteklenen herhangi bir yükleme biçimindeki bir belgeyi C# kull
 keywords: how to convert a document to markdown c#
 weight: 40
 url: /tr/net/convert-a-document-to-markdown/
+timestamp: 2024-07-10-08-10-45
 ---
 
 Markdown, metni işaretlemek ve onu HTML, PDF, DOCX veya diğer formatlara dönüştürmek için kullanılan popüler bir formattır. Birçok geliştirici belge yazmak, bloglarda yayınlanmak üzere makale hazırlamak, projeleri anlatmak vb. için bu formatı seçer.

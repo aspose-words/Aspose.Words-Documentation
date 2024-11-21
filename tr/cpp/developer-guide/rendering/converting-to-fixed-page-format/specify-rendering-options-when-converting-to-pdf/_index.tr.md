@@ -1,4 +1,4 @@
-﻿---
+---
 title: PDF'a Dönüştürürken Oluşturma Seçeneklerini Belirtin
 second_title: Aspose.Words için C++
 articleTitle: PDF'a Dönüştürürken Oluşturma Seçeneklerini Belirtin
@@ -7,6 +7,7 @@ description: "C++ kullanarak gelişmiş seçeneklerle bir belgeyi PDF'e dönüş
 type: docs
 weight: 30
 url: /tr/cpp/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
 PDF biçimi, kullanıcılar arasında çok popüler olan ve çeşitli uygulamalar tarafından yaygın olarak desteklenen sabit sayfalı bir biçimdir, çünkü PDF belgesi herhangi bir cihazda aynı görünür. Bu nedenle, PDF 'e dönüştürmek Aspose.Words'ın önemli bir özelliğidir.

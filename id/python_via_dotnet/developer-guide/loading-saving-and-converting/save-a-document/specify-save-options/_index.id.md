@@ -7,6 +7,7 @@ description: "Kontrol proses penyimpanan lebih akurat menggunakan Python."
 type: docs
 weight: 10
 url: /id/python-net/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Saat menyimpan dokumen, Anda dapat mengatur beberapa properti lanjutan. Aspose.Words memberi Anda kelas [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/), yang memungkinkan kontrol proses penyimpanan yang lebih tepat. Ada kelebihan metode [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) yang menerima objek [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) – objek tersebut harus berupa objek kelas yang diturunkan dari kelas [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/). Setiap format penyimpanan memiliki kelas terkait yang berisi opsi penyimpanan untuk format penyimpanan ini, misalnya, ada [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) untuk menyimpan ke format PDF atau [ImageSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/) untuk menyimpan ke gambar. Artikel ini memberikan contoh cara bekerja dengan beberapa kelas opsi yang diturunkan dari [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/).

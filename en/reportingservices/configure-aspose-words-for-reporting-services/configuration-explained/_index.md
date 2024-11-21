@@ -1,4 +1,4 @@
-﻿---
+---
 title: Configuration Explained
 second_title: Aspose.Words for Reporting Services
 articleTitle: Configuration Explained
@@ -7,6 +7,7 @@ description: "Overview of configuration approaches for the Aspose.Words for Repo
 type: docs
 weight: 10
 url: /reportingservices/configuration-explained/
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

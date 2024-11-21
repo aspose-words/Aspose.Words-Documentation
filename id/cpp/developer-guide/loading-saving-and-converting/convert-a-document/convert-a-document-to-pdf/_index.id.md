@@ -1,4 +1,4 @@
-﻿---
+---
 title: Konversikan Dokumen menjadi PDF dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Konversikan Dokumen menjadi PDF
@@ -7,6 +7,7 @@ description: "Konversikan dokumen menjadi PDF menggunakan C++. Berbagai format i
 type: docs
 weight: 10
 url: /id/cpp/convert-a-document-to-pdf/
+timestamp: 2024-10-21-08-52-03
 ---
 
 Kemampuan untuk mengonversi dokumen dengan mudah dan andal dari satu format ke format lainnya adalah fitur utama Aspose.Words. Salah satu format paling populer untuk mengonversi adalah PDF - format tata letak tetap, yang mempertahankan tampilan asli dokumen selama renderingnya di berbagai platform. Istilah "rendering" digunakan dalam Aspose.Words untuk menggambarkan proses pengubahan dokumen menjadi format file yang diberi paginasi atau memiliki konsep pages.

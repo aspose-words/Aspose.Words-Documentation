@@ -7,6 +7,7 @@ description: "C#를 사용하여 문서에 필드를 삽입하는 방법 - 코�
 type: docs
 weight: 20
 url: /ko/net/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 문서에 필드를 삽입하는 방법에는 여러 가지가 있습니다

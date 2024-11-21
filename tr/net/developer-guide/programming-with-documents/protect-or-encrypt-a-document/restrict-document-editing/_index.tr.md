@@ -7,6 +7,7 @@ description: "C#'i kullanarak bir kısıtlama türü ayarlayarak belgenin düzen
 type: docs
 weight: 30
 url: /tr/net/restrict-document-editing/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bazen bir belgeyi düzenleme yeteneğinizi sınırlamanız ve belgeyle yalnızca belirli işlemlere izin vermeniz gerekebilir. Bu, diğer kişilerin belgenizdeki hassas ve gizli bilgileri düzenlemesini önlemek için yararlı olabilir.

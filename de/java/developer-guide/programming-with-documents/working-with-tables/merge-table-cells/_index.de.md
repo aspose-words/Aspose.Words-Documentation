@@ -7,6 +7,7 @@ description: "Wie man Tabellenzellen in Java. Prüfen Sie, ob Zellen in einer Ta
 type: docs
 weight: 40
 url: /de/java/working-with-merged-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Manchmal benötigen bestimmte Zeilen in einer Tabelle eine Überschrift oder große Textblöcke, die die volle Breite der Tabelle einnehmen. Zur richtigen Gestaltung der Tabelle kann der Benutzer mehrere Tabellenzellen in eine zusammenführen. Aspose.Words unterstützt fusionierte Zellen bei der Arbeit mit allen Eingabeformaten, einschließlich Importieren von HTML-Inhalte.

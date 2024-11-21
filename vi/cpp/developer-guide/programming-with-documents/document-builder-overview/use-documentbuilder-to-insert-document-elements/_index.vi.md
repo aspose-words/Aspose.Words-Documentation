@@ -1,4 +1,4 @@
-﻿---
+---
 title: Sử dụng `DocumentBuilder` Để Chèn Các Phần Tử Tài liệu
 second_title: Aspose.Words cho C++
 articleTitle: Sử dụng `DocumentBuilder` Để Chèn Các Phần Tử Tài liệu
@@ -7,6 +7,7 @@ type: docs
 description: "Chèn các phần tử tài liệu bằng trình tạo tài liệu trong C++."
 weight: 80
 url: /vi/cpp/use-documentbuilder-to-insert-document-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 `DocumentBuilder` được sử dụng để sửa đổi tài liệu. Bài viết này giải thích và mô tả cách thực hiện một số nhiệm vụ:

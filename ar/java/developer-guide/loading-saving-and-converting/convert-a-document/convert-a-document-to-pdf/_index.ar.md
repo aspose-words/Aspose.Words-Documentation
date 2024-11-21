@@ -7,6 +7,7 @@ description: "Convert a document in Word or any other supported format to PDF, w
 type: docs
 weight: 10
 url: /ar/java/convert-a-document-to-pdf/
+timestamp: 2024-01-31-14-23-37
 ---
 
 إن القدرة على تحويل الوثائق بسهولة وبصورة موثوقة من شكل إلى آخر هي سمة رئيسية من سمات Aspose.Words. ومن أكثر أشكال التحويل شيوعاً PDF - وهو شكل ثابت، يحافظ على المظهر الأصلي لوثيقة أثناء إصدارها لمنابر مختلفة. يستخدم مصطلح " نوع الجنس " في Aspose.Words (ب) وصف عملية تحويل الوثيقة إلى شكل ملف تمهيداً أو مفهوم الصفحات.

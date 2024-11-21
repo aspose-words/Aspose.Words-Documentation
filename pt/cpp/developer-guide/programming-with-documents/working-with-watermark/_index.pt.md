@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trabalhando com marca D'Água Em C++
 second_title: Aspose.Words para C++
 articleTitle: Trabalhando com marca D'água
@@ -7,6 +7,7 @@ type: docs
 description: "Manipulação de marca d'água de documentos usando C++."
 weight: 340
 url: /pt/cpp/working-with-watermark/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Este tópico discute como trabalhar programaticamente com marca d'água usando Aspose.Words. Uma marca d'água é uma imagem de fundo que é exibida atrás do texto em um documento. Uma marca d'água pode conter um texto ou uma imagem representada pela classe [Watermark](https://reference.aspose.com/words/cpp/aspose.words/watermark/).

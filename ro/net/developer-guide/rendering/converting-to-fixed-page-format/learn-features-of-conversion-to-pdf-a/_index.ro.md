@@ -7,6 +7,7 @@ description: "Conversie în PDF/A-1, PDF/A-2, PDF/A-4 și PDF/UA folosind C#. Al
 type: docs
 weight: 25
 url: /ro/net/learn-features-of-conversion-to-pdf-a-pdf-ua/
+timestamp: 2024-01-31-14-23-37
 ---
 
 PDF este un format de pagină fix care este foarte popular printre utilizatori și este larg susținut de diverse aplicații, deoarece un document PDF arată același pe orice dispozitiv. Din acest motiv, convertirea în format PDF este o caracteristică importantă a Aspose.Words.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içindeki Yazı Tipi İşleme ve Performans Sorunları
 second_title: Aspose.Words için C++
 articleTitle: Yazı Tipi İşleme ve Performans Sorunları
@@ -7,6 +7,7 @@ description: "Aspose.Words için C++ gerekli yazı tipi verilerini veya istenen 
 type: docs
 weight: 11
 url: /tr/cpp/font-manipulation-and-performance-issues/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Mevcut tüm yazı tipi işleme mekanizmaları [FontSettings](https://reference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings) sınıfında bulunur. Bu sınıf, tanımlanmış font kaynakları içindeki fontların alınmasından ve aşağıda açıklandığı gibi Font Değiştirme işleminden sorumludur.

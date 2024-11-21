@@ -7,6 +7,7 @@ description: "使用 C# 使用连字符来更紧凑地排列文本。它提供�
 type: docs
 weight: 220
 url: /zh/net/working-with-hyphenation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有时需要使用连字符来使文档中的文本排列更加紧凑。同时，重要的是要了解每种语言的单词连字符的具体情况可能有所不同。

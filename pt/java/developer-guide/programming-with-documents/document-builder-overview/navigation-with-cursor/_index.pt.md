@@ -7,6 +7,7 @@ description: "Navegue entre nós diferentes dentro de um documento, como um par�
 type: docs
 weight: 5
 url: /pt/java/navigation-with-cursor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ao trabalhar com um documento, mesmo que seja curto ou longo, você precisará navegar pelo seu documento. Navegação com um cursor virtual representa a capacidade de navegar entre diferentes nós em um documento.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Chuyển Đổi Sang Định dạng trang Cố định trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Chuyển đổi Sang Định dạng trang Cố định
@@ -7,6 +7,7 @@ description: "Lưu tài liệu vào PDF, XPS, HTML, XAML, PostScript, và PCL đ
 type: docs
 weight: 10
 url: /vi/cpp/converting-to-fixed-page-format/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Aspose.Words triển khai công cụ bố cục trang của riêng nó. Trước khi đi sâu vào các thông số kỹ thuật của nó, trước tiên cần thảo luận về tài liệu ở cấp độ cao.

@@ -7,6 +7,7 @@ description: "如何使用 Java。 。 。 。"
 type: docs
 weight: 50
 url: /zh/java/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 一个超链接在 Microsoft Word 文档是 `HYPERLINK` 字段。 内 Aspose.Words, 超链接是通过 [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/) 课。

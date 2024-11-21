@@ -7,6 +7,7 @@ description: "הגדר תכונות מתקדמות בעת שמירת מסמך Ja
 type: docs
 weight: 20
 url: /he/java/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 בעת שמירת מסמך, באפשרותך להגדיר כמה תכונות מתקדמות. Aspose.Words מספק לך את [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/) מעמד, המאפשר שליטה מדויקת יותר של תהליך החיסכון. יש עומסים של **Save** שיטה שמקבלת **SaveOptions** אובייקט - זה צריך להיות אובייקט של מעמד נגזר מן **SaveOptions** מעמד. לכל פורמט שמור יש מעמד מתאים המחזיק אפשרויות לתבנית זו, לדוגמה, יש. [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) כדי לחסוך בפורמט PDF, [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) כדי להציל Markdown פורמט, או [ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/) להציל תמונה מאמר זה מספק דוגמאות של עבודה עם כמה אפשרויות כיתות נגזרות **SaveOptions**.

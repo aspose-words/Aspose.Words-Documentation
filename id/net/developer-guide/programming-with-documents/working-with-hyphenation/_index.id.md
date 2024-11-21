@@ -7,6 +7,7 @@ description: "Gunakan tanda hubung untuk susunan teks yang lebih ringkas menggun
 type: docs
 weight: 220
 url: /id/net/working-with-hyphenation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Terkadang perlu menggunakan tanda hubung untuk susunan teks yang lebih ringkas dalam dokumen. Pada saat yang sama, penting untuk dipahami bahwa kekhasan tanda hubung kata mungkin berbeda untuk setiap bahasa.

@@ -7,6 +7,7 @@ description: "Dosyanın gerçek içeriğinin ne olduğundan emin değilseniz vey
 type: docs
 weight: 20
 url: /tr/python-net/detect-file-format-and-check-format-compatibility/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Bazen bir belgeyi açmadan önce formatının belirlenmesi gerekebilir çünkü dosya uzantısı, dosya içeriğinin uygun olduğunu garanti etmez. Örneğin Crystal Reports'un çoğu zaman belgeleri RTF formatında çıkardığı ancak bunlara .doc uzantısını verdiği bilinmektedir.

@@ -7,6 +7,7 @@ description: "如何使用 Python 轻松地从文档内的范围中提取特定�
 type: docs
 weight: 140
 url: /zh/python-net/how-to-extract-selected-content-between-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 处理文档时，能够轻松地从文档中的特定范围中提取内容非常重要。然而，内容可能由复杂的元素组成，例如段落、表格、图像等。

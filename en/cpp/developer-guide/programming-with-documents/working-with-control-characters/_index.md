@@ -7,6 +7,7 @@ description: "Introduction to working with control characters in Aspose.Words fo
 type: docs
 weight: 400
 url: /cpp/working-with-control-characters/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word documents may contain various characters that have a special meaning. Normally they are used for formatting purposes and are not drawn in the normal mode. You can make them visible if you click the Show/Hide Formatting Marks button located on the Standard toolbar.

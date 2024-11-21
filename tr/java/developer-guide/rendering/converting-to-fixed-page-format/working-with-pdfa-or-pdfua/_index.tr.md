@@ -7,6 +7,7 @@ description: "PDF/A-1, PDF/A-2, PDF/A-4 ve PDF/UA kullanarak dönüştür Java. 
 type: docs
 weight: 28
 url: /tr/java/working-with-pdfa-or-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 PDF/A ve PDF/UA formatı, otomatik olarak Word formatındaki bir belgeden PDF'ye dönüştürme sırasında yerine getirilemeyen belge içeriğine ilişkin birkaç gereksinim emreder. Bu gereksinimler, dönüştürmeden önce bir kelime belgesinde doğrulanmalı ve düzeltilmeli veya dönüştürükten sonra bir PDF belgesinde üretilmesi tam olarak PDF / A ve PDF / UA uyumlu bir belge için yapılmalıdır.

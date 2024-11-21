@@ -7,6 +7,7 @@ type: docs
 description: "Utilice las clases del modelo de objetos de documento Aspose.Words para crear, modificar y administrar documentos con .NET mediante programación mediante C#. Trabaje con las propiedades, la configuración y el contenido del documento, así como con la apariencia del documento mediante la gestión de colores, formas, fuentes y otros gráficos."
 weight: 60
 url: /es/net/programming-with-documents/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Esta sección proporciona información sobre cómo crear, modificar y administrar documentos mediante programación con las clases del modelo de objetos de documento Aspose.Words. Los artículos de esta sección describen una amplia gama de tareas de manipulación de documentos que le permiten trabajar con las propiedades, la configuración, el contenido y sus elementos del documento.

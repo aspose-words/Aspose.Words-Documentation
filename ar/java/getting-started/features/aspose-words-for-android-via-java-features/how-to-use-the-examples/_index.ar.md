@@ -7,6 +7,7 @@ description: "كيف يهرب Aspose.Words for Android عبر Java أمثلة."
 type: docs
 weight: 70
 url: /ar/java/how-to-use-the-examples/
+timestamp: 2024-01-27-14-07-04
 ---
 
 أولاً تأكدي من تركيب حزمة الـ (إي دي تي) وأنكِ قمتِ بتحميل واستخلاص آخر نسخة [Aspose.Words for Android عبر Java](https://releases.aspose.com/words/androidjava/).

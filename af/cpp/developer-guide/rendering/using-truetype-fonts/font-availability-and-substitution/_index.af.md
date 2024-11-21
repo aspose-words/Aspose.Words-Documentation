@@ -1,4 +1,4 @@
-﻿---
+---
 title: MFont Beskikbaarheid En Vervanging in C++
 second_title: Aspose.Words vir C++
 articleTitle: Beskikbaarheid En Vervanging van lettertipes
@@ -7,6 +7,7 @@ description: "Wanneer die presiese vervanging lettertipe nie gevind kan word nie
 type: docs
 weight: 12
 url: /af/cpp/font-availability-and-substitution/
+timestamp: 2024-09-24-14-35-44
 ---
 
 'n teks in'n dokument kan met verskillende lettertipes geformateer word, soos Arial, Times new Roman, Verdana en ander. Wanneer Aspose.Words 'n dokument weergee, probeer dit om die lettertipes te kies wat in die dokument gespesifiseer is.

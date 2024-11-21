@@ -7,6 +7,7 @@ description: "Specify table position in Java. Get a table alignment, get and set
 type: docs
 weight: 50
 url: /java/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 There are floating tables and inline tables:

@@ -7,6 +7,7 @@ description: "Anda dapat mengakses modifikasi bidang menggunakan Python. Bidang 
 type: docs
 weight: 10
 url: /id/python-net/fields-overview/
+timestamp: 2024-10-21-11-17-44
 ---
 
 

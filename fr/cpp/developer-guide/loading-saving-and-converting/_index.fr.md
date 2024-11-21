@@ -1,4 +1,4 @@
-﻿---
+---
 title: Chargement, Enregistrement et conversion en C++
 second_title: Aspose.Words pour C++
 articleTitle: Chargement, Sauvegarde et Conversion
@@ -7,6 +7,7 @@ description: "Comment convertir un document d'un format à un autre, tel que Wor
 type: docs
 weight: 10
 url: /fr/cpp/loading-saving-and-converting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Cette section fournit des informations sur les fonctionnalités lors du chargement et de l'enregistrement d'un document, ainsi que des données sur les possibilités lors de la conversion d'un document d'un format à un autre.

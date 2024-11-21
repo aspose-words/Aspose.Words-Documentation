@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cum să rulați exemplele
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Cum să rulați exemplele
@@ -7,6 +7,7 @@ description: "Descărcare Aspose.Words pentru Python via .NET exemple din depozi
 type: docs
 weight: 110
 url: /ro/python-net/how-to-run-the-examples/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Pentru a deveni mai familiarizați cu posibilitățile și caracteristicile Aspose.Words, oferim exemple care pot fi descărcate din depozitul nostru GitHub, rulați și aflați în detaliu.

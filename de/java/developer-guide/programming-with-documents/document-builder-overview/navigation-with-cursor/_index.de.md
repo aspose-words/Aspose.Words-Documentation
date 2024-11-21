@@ -7,6 +7,7 @@ description: "Navigieren Sie zwischen verschiedenen Knoten innerhalb eines Dokum
 type: docs
 weight: 5
 url: /de/java/navigation-with-cursor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Während der Arbeit mit einem Dokument, auch wenn es ein kurzer oder langer ist, müssen Sie durch Ihr Dokument navigieren. Navigation mit einem virtuellen Cursor stellt die Möglichkeit dar, zwischen verschiedenen Knoten in einem Dokument zu navigieren.

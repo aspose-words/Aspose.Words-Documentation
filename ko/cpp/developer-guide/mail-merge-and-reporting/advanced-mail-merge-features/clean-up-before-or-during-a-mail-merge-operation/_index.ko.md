@@ -1,4 +1,4 @@
-﻿---
+---
 title: 전에 또는 동안 청소 Mail Merge 운영
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 전에 또는 동안 청소 Mail Merge 운영
@@ -8,6 +8,7 @@ description: "다음을 수행하기 전에 병합 필드 삭제와 같은 다�
 keywords: "cleanup options mail merge c#"
 weight: 10
 url: /ko/cpp/clean-up-before-or-during-mail-merge/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words 를 수행하기 전에 병합 필드 삭제와 같은 다양한 청소 및 제거 옵션을 적용 할 수 있습니다. mail merge 작업 또는 동안 사용되지 않는 영역을 제거 mail merge 작동. 이 섹션에서는 병합된 필드를 삭제하는 방법과 제거 옵션을 설정하는 방법에 대해 설명합니다.

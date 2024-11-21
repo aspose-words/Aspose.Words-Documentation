@@ -7,6 +7,7 @@ description: "Convierta Word con etiqueta de confidencialidad aplicada a PDF usa
 type: docs
 weight: 30
 url: /es/net/work-with-document-market-by-sensitivity-label/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Las etiquetas de confidencialidad de Microsoft Purview Information Protection le permiten clasificar y proteger los datos de su organización, al tiempo que garantiza que la productividad del usuario y su capacidad para colaborar no se vean obstaculizadas. Después de aplicar una etiqueta de confidencialidad a un documento, cualquier configuración de protección configurada para esa etiqueta se aplica al contenido.

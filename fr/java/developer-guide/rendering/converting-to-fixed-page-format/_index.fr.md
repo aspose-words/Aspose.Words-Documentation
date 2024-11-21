@@ -7,6 +7,7 @@ description: "Aspose.Words pour Java implémente son propre moteur de mise en pa
 type: docs
 weight: 10
 url: /fr/java/converting-to-fixed-page-format/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words implémente son propre moteur de mise en page. Avant d'entrer dans ses spécifications, il est intéressant de discuter d'abord du document à un niveau élevé. Lorsqu'on pense à un document, les utilisateurs imaginent généralement un certain nombre de feuilles de papier contenant des mots, des images, des tableaux et des graphiques. Les documents peuvent être de différents types, comme le texte, les feuilles de calcul, les diapositives, les dessins CAO, les diagrammes de flux et, par conséquent, peuvent avoir des mises en page essentiellement différentes. La plupart des applications permettent d'envoyer des documents à une imprimante ; c'est alors qu'un utilisateur peut réellement voir l'apparence finale prévue du document.

@@ -7,6 +7,7 @@ description: "Mai precis, controlaţi procesul de salvare folosind C#."
 type: docs
 weight: 10
 url: /ro/net/specify-save-options/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Când salvezi un document poți seta niște proprietăți avansate. Aspose.Words îți oferă clasa [SaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/), care permite controlul mai precis al procesului de salvare. Există suprascrieri ale metodei **Save** care acceptă un obiect **SaveOptions** – acesta ar trebui să fie un obiect de o clasă derivată din clasa **SaveOptions**. Fiecare format de salvare are o clasă corespunzătoare care deține opțiunile de salvare pentru acest format de salvare, de exemplu, există [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) pentru salvarea în formatul PDF, [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) pentru salvarea în formatul Markdown, sau [ImageSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/) pentru salvarea într-un fișier imagine. Acest articol oferă exemple de lucru cu unele clase opționale derivate din **SaveOptions**.

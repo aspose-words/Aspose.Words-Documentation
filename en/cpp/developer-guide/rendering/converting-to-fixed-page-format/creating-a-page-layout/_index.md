@@ -7,6 +7,7 @@ description: "Creating a page layout can be a costly procedure. Aspose.Words wil
 type: docs
 weight: 10
 url: /cpp/creating-a-page-layout/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Creating a page layout can be a costly procedure, both in terms of speed and memory. This is due to several reasons:

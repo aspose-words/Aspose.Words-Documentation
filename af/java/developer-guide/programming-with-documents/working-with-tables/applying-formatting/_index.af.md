@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tabel Formatering in Java
 second_title: Aspose.Words vir Java
 articleTitle: Pas Tabelformatering Toe
@@ -7,6 +7,7 @@ description: "Tabel formatering in besonderhede. Gebruik Java om elke deel van d
 type: docs
 weight: 70
 url: /af/java/applying-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Elke element van'n tabel kan met verskillende formatering toegepas word. Byvoorbeeld, tabel formatering sal toegepas word op die hele tabel, ry formatering om slegs spesifieke rye, sel formatering om slegs sekere selle.

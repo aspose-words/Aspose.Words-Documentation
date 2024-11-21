@@ -7,6 +7,7 @@ description: "Convertissez des documents à partir de n'importe quelle charge pr
 type: docs
 weight: 40
 url: /fr/net/file-formats-and-conversions/
+timestamp: 2024-01-31-14-23-37
 ---
 
 {{% alert color="primary" %}}

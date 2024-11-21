@@ -7,6 +7,7 @@ description: "Chuyển đổi tài liệu trong Word hoặc bất kỳ định d
 type: docs
 weight: 10
 url: /vi/java/convert-a-document-to-pdf/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Khả năng chuyển đổi đơn giản và đáng tin cậy tài liệu từ một định dạng sang một định dạng khác là một tính năng chính của Aspose.Words. Một trong những định dạng phổ biến nhất để chuyển đổi là PDF - một định dạng bố cục cố định, giữ nguyên vẻ ngoài ban đầu của tài liệu khi hiển thị trên các nền tảng khác nhau. Từ "render" được sử dụng trong Aspose.Words để mô tả quá trình chuyển đổi một tài liệu thành một định dạng tập tin có các trang hoặc khái niệm về các trang.

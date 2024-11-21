@@ -7,6 +7,7 @@ description: "Un ghid despre cum să faci o masă în C# în diverse moduri. Cre
 type: docs
 weight: 20
 url: /ro/net/create-a-table/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words permite utilizatorilor să creeze tabele în documente din start și oferă mai multe metode diferite pentru a face acest lucru. Acest articol prezintă detalii despre cum să adăugați tabele formatate în documentul dumneavoastră folosind fiecare metodă, precum și o comparație a fiecărei metode la sfârșitul articolului.

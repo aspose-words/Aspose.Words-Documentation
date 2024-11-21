@@ -7,6 +7,7 @@ description: "Manipulación de marcas de agua de documentos mediante C#."
 type: docs
 weight: 340
 url: /es/net/working-with-watermark/
+timestamp: 2024-05-02-11-51-44
 ---
 
 Este tema analiza cómo trabajar mediante programación con marcas de agua usando Aspose.Words. Una marca de agua es una imagen de fondo que se muestra detrás del texto en un documento. Una marca de agua puede contener un texto o una imagen representada por la clase [Watermark](https://reference.aspose.com/words/es/net/aspose.words/watermark/).

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Export of Tables and Matrices
 second_title: Aspose.Words for Reporting Services
 articleTitle: Export of Tables and Matrices
@@ -7,6 +7,7 @@ description: "Export of Tables and Matrices setting of the Aspose.Words for Repo
 type: docs
 weight: 60
 url: /reportingservices/export-of-tables-and-matrices/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

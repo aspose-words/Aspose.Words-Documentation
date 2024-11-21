@@ -8,6 +8,7 @@ type: docs
 weight: 43
 url: /java/replace-fields-with-static-text/
 aliases: [/java/replace-fields-with-static-text-in-php/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Replace Fields With Static Text

@@ -7,6 +7,7 @@ description: "Aspose.Words para Python via .NET puede encontrar la fuente adecua
 type: docs
 weight: 20
 url: /es/python-net/using-truetype-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Cuando se trabaja con documentos, a menudo es necesario utilizar diferentes fuentes, estilos y tamaños. Los documentos pueden contener cualquier cantidad de fuentes, que no se limitan necesariamente a las fuentes instaladas en el sistema operativo. Las fuentes pueden ser completamente diferentes, como fuentes tomadas de otros sistemas operativos, compradas o creadas por los propios usuarios.

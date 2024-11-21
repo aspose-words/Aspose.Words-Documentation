@@ -7,6 +7,7 @@ description: "הורד Download Aspose.Words עבור .NET דוגמאות משל
 type: docs
 weight: 110
 url: /he/net/how-to-run-the-examples/
+timestamp: 2024-10-24-11-44-28
 ---
 
 להכיר יותר את Aspose.Words אפשרויות ותכונות שאנו מספקים דוגמאות שניתן להוריד מאיתנו GitHub התחדשות, לרוץ וללמוד בפירוט.

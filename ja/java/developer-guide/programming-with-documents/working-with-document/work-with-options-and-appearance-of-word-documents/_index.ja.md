@@ -7,6 +7,7 @@ description: "さまざまな違いを考慮に入れるWord文書の出現を�
 type: docs
 weight: 40
 url: /ja/java/work-with-word-document-options-and-appearance/
+timestamp: 2024-01-27-14-07-04
 ---
 
 たとえば、言語の設定やページごとの行数など、ドキュメントの外観を変更する必要がある場合があります。Aspose.Words ドキュメントの表示方法と追加のオプションを制御する機能を提供します。 この記事ではこのような可能性について説明しています。

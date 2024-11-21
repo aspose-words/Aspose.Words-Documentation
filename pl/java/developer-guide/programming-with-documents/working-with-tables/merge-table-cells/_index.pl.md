@@ -7,6 +7,7 @@ description: "Jak połączyć komórki tabeli w Java. Sprawdź, czy komórki w t
 type: docs
 weight: 40
 url: /pl/java/working-with-merged-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Czasami pewne wiersze w tabeli wymagają nagłówka lub dużych bloków tekstu, które zajmują pełną szerokość tabeli. Dla prawidłowego projektowania tabeli, użytkownik może połączyć kilka komórek tabeli w jeden. Aspose.Words obsługuje połączone komórki podczas pracy ze wszystkimi formatami wejściowymi, w tym importując zawartość HTML.

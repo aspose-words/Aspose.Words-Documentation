@@ -7,6 +7,7 @@ type: docs
 description: "Güvenlik risklerinin bir nedeni olabilecek uzak kaynakları yükleyin. C# kullanarak yaygın güvenlik sorunlarına ve bunların çözümlerine göz atın."
 weight: 100
 url: /tr/net/web-applications-security-when-loading-external-resources/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Varsayılan olarak, .NET için Aspose.Words, DocumentBuilder'ı kullanarak belgeleri içe aktarırken veya görüntüler eklerken görüntüler, CSS stilleri veya harici HTML belgeleri gibi uzak kaynakları yükleyebilir. Bu davranış, belgelerinizi tüm ayrıntılarıyla işlemenize olanak sağlar ancak kitaplığın bir web uygulamasının parçası olması durumunda bazı güvenlik risklerinin nedeni olabilir.

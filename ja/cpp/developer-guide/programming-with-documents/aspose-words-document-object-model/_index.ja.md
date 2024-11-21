@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.WordsC++のドキュメントオブジェクトモデル(DOM)
 second_title: C++の場合Aspose.Words
 articleTitle: Aspose.Wordsドキュメントオブジェクトモデル(DOM)
@@ -7,6 +7,7 @@ type: docs
 description: "ドキュメントオブジェクトモデル(DOM)は、Word文書のメモリ内表現です。 C++を使用してWord文書の内容と書式を読み取り、操作し、変更します。"
 weight: 10
 url: /ja/cpp/aspose-words-document-object-model/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Wordsドキュメントオブジェクトモデル(DOM)は、Word文書のメモリ内表現です。 Aspose.WordsDOMを使用すると、Word文書の内容と書式をプログラムで読み取り、操作、および変更できます。

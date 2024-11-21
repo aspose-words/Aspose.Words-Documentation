@@ -7,6 +7,7 @@ description: "Bepaal het bestandsformaat in C# als u niet zeker weet wat de werk
 type: docs
 weight: 20
 url: /nl/net/detect-file-format-and-check-format-compatibility/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Soms is het noodzakelijk om het formaat van een document te bepalen voordat u opent omdat de bestandsextensie niet garandeert dat de inhoud van het bestand geschikt is. Het is bijvoorbeeld bekend dat Crystal Reports vaak documenten in RTF-formaat uitvoert, maar geeft ze de .doc extensie.

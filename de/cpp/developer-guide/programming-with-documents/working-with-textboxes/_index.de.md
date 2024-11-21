@@ -1,4 +1,4 @@
-﻿---
+---
 title: Arbeiten mit TextBoxes in C++
 second_title: Aspose.Words für C++
 articleTitle: Arbeiten mit TextBoxes
@@ -7,6 +7,7 @@ description: "Einführung in die Funktion verknüpfte Textfelder in Aspose.Words
 type: docs
 weight: 250
 url: /de/cpp/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In Aspose.Words wird die Klasse [TextBox](https://reference.aspose.com/words/cpp/aspose.words.drawing/textbox/) verwendet, um anzugeben, wie Text in einer Form angezeigt wird. Es macht eine öffentliche Eigenschaft mit dem Namen **Parent** verfügbar, um die übergeordnete Form für das Textfeld abzurufen, damit der Kunde die verknüpfte [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/) aus der zugehörigen **TextBox** finden kann.

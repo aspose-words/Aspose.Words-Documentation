@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bekerja Dengan Daftar di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Bekerja dengan daftar
@@ -7,6 +7,7 @@ description: "Pengantar fitur pemformatan penomoran di Aspose.Words untuk C++."
 type: docs
 weight: 200
 url: /id/cpp/working-with-lists/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Daftar dalam dokumen Microsoft Word adalah sekumpulan properti pemformatan daftar. Daftar dapat digunakan dalam dokumen Anda untuk memformat, mengatur, dan menekankan teks. Daftar adalah cara yang bagus untuk mengatur data dalam dokumen, dan memudahkan pembaca untuk memahami poin-poin penting.

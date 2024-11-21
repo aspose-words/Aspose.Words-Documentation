@@ -7,6 +7,7 @@ description: "Vytisknout dokument na Server pomocí neřízeného XpsPrintu API 
 type: docs
 weight: 55
 url: /cs/net/print-a-document-programmatically-or-using-dialogs/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Tento článek popisuje, jak tisknout dokument o zpracování slov z ASP.NET nebo Windows Servisní aplikace Aspose.Words a `XpsPrint` API. Ukazuje také metody tisku dokumentu pomocí dialogů Nastavení, náhledu tisku a postupu tisku a vysvětluje, jak snížit čas první výzvy k tisku dokumentu.

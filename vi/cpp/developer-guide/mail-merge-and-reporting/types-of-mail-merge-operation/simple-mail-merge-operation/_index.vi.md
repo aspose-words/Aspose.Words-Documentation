@@ -1,4 +1,4 @@
-﻿---
+---
 title: Đơn giản Mail Merge Hoạt động trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Đơn giản Mail Merge Hoạt động
@@ -8,6 +8,7 @@ description: "Một đơn giản mail merge được sử dụng để điền v
 keywords: "how to execute mail merge c++"
 weight: 10
 url: /vi/cpp/simple-mail-merge-operation/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Một đơn giản mail merge được sử dụng để điền vào mail merge các trường bên trong mẫu của bạn với dữ liệu cần thiết từ nguồn dữ liệu của bạn (biểu diễn bảng đơn). Vì vậy, nó tương tự như cổ điển mail merge trong Microsoft Word.

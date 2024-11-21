@@ -7,6 +7,7 @@ type: docs
 description: "Znajdź ciąg znaków lub wzorzec wyrażenia regularnego w swoim dokumencie i zastąp go żądanym tekstem, korzystając z C#."
 weight: 100
 url: /pl/net/find-and-replace/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Możesz łatwo poruszać się po dokumencie za pomocą klawiatury i myszy, ale jeśli masz wiele stron do przewinięcia, znalezienie określonego tekstu w długim dokumencie zajmie sporo czasu. Zastąpienie niektórych znaków lub słów użytych w dokumencie będzie bardziej czasochłonne. Funkcjonalność "Znajdź i zamień" umożliwia odnalezienie ciągu znaków w dokumencie i zastąpienie go innym ciągiem znaków.

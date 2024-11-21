@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hoe Om Veld Eienskappe Te Vind
 second_title: Aspose.Words vir Java
 articleTitle: Vind Veldeienskappe
@@ -7,6 +7,7 @@ description: "Hoe om'n paar veld eienskappe soos veld kode en veld resultaat in 
 type: docs
 weight: 25
 url: /af/java/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 'n veld wat ingevoeg word met behulp van [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean) gee terug'n [Field](https://reference.aspose.com/words/java/com.aspose.words/field/) voorwerp. Dit is'n fasade klas wat nuttige metodes bied om vinnig sulke eienskappe van'n veld te vind.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 使用内容控制SDT
 second_title: Aspose.Words对于C++
 articleTitle: 使用内容控制SDT
@@ -7,6 +7,7 @@ type: docs
 description: "高级文档内容管理，如何使用C++创建和操作内容控件（结构化文档标签）。"
 weight: 390
 url: /zh/cpp/structured-document-tags-or-content-control/
+timestamp: 2024-01-27-14-07-04
 ---
 
 在Microsoft Word中，您可以通过从模板开始并添加内容控件（包括复选框、文本框、日期选取器和下拉列表）来创建表单。 在Aspose.Words中，来自加载到Aspose.Words中的任何文档的结构化文档标记或内容控件作为StructuredDocumentTag节点导入。 结构化文档标签（SDT或内容控件）允许将客户定义的语义及其行为和外观嵌入到文档中。 StructuredDocumentTag可以在以下位置出现在文档中:

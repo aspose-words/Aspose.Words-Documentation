@@ -1,4 +1,4 @@
-﻿---
+---
 title: Feldeigenschaften in C++ anpassen
 second_title: Aspose.Words für C++
 articleTitle: Feldeigenschaften anpassen
@@ -7,6 +7,7 @@ description: "Erfahren Sie, wie Sie Feldeigenschaften in C++ anpassen. Benennen 
 type: docs
 weight: 27
 url: /de/cpp/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words bietet die Möglichkeit, programmgesteuert mit verschiedenen Feldeigenschaften zu interagieren. In diesem Artikel werden wir uns einige Beispiele ansehen, damit Sie das Grundprinzip der Arbeit mit Feldeigenschaften verstehen. Sie können die vollständige Liste der Eigenschaften für jeden Feldtyp in der entsprechenden Klasse in [Fields namespace](https://reference.aspose.com/words/cpp/namespace/aspose.words.fields) sehen.

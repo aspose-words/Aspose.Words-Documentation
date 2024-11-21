@@ -7,6 +7,7 @@ description: "Werken met Aziatische typografie gebruiken C#. Pas de ruimte aan t
 type: docs
 weight: 240
 url: /nl/net/working-with-asian-typography/
+timestamp: 2024-02-01-16-17-05
 ---
 
 Aziatische typografie is een reeks opties voor tekst paragrafen in documenten geschreven in Aziatische talen.

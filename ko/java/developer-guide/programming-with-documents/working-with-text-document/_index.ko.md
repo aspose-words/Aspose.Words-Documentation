@@ -7,6 +7,7 @@ description: "TXT 문서 처리, 목록, BiDi, headers/footer, 사용 Java·"
 type: docs
 weight: 430
 url: /ko/java/working-with-text-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 이 문서에서, 우리는 텍스트 문서와 함께 작업 할 수있는 옵션을 배울 것입니다 Aspose.Words· 사용 가능한 옵션의 전체 목록이 아니라 그 중 일부 작업의 예입니다.

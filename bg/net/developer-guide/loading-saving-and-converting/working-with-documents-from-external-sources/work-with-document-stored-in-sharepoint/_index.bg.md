@@ -7,6 +7,7 @@ description: "Convert Word shared in SharePoint за PDF използване C#
 type: docs
 weight: 20
 url: /bg/net/work-with-document-stored-in-sharepoint/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Microsoft SharePoint Онлайн е колекция от уеб-базирани технологии, които правят лесно за организациите да съхраняват, споделят и управляват цифрова информация. Можете да работите с документи, съхранявани в папката "Споделени документи" в SharePoint използвайки нашата мощ Aspose.Words вместо .NET.

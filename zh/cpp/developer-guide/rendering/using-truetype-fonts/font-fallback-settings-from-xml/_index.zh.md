@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++中XML的字体FallBack设置
 second_title: Aspose.Words对于C++
 articleTitle: 字体FallBack从XML设置
@@ -7,6 +7,7 @@ description: "字体回退机制在字体解析时使用，但不包含特定字
 type: docs
 weight: 14
 url: /zh/cpp/font-fallback-settings-from-xml/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Aspose.Words中使用了两种不同的机制-字体替换和字体回退。 字体替换在文档中指定的字体在字体源中找不到时使用，如上面部分所述。 字体回退机制在字体解析时使用，但不包含特定字符。 在这种情况下，Aspose.Words尝试使用字符的后备字体之一。

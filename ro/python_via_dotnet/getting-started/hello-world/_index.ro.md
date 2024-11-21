@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bună, Lume!
 second_title: Exemplu simplu de utilizare Aspose.Words pentru Python via .NET
 articleTitle: Bună, Lume!
@@ -7,6 +7,7 @@ description: "Creați, editați și salvați primul document în orice format ac
 type: docs
 weight: 20
 url: /ro/python-net/hello-world/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un "Bună, Lume!"codul este adesea primul exemplu simplu pentru a scrie uisng "Aspose.Words pentru Python via .NET", și poate fi, de asemenea, folosit ca un test de sănătate mintală pentru a se asigura că software-ul destinat compilării sau rulării codului sursă este instalat corect.

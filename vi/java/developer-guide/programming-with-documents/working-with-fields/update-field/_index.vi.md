@@ -7,6 +7,7 @@ description: "Học cách cập nhật trường trong Java. Cập nhật các t
 type: docs
 weight: 30
 url: /vi/java/update-field/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Thông thường, một trường được chèn vào Microsoft Word đã chứa một giá trị cập nhật. Ví dụ nếu trường là một công thức hoặc số trang, nó sẽ chứa giá trị tính toán chính xác cho phiên bản của tài liệu. Nhưng nếu bạn có một ứng dụng tạo hoặc sửa đổi một tài liệu với các trường như hợp nhất hai tài liệu hoặc điền nó bằng dữ liệu, thì lý tưởng là tất cả các trường phải được cập nhật cho tài liệu để hữu ích.

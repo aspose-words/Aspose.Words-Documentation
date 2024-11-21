@@ -7,6 +7,7 @@ type: docs
 description: "Document Object Model )أ(DOM() هو تمثيل داخلي لوثيقة كلمة. قراءة وتلاعب وتعديل محتوى وشكل وثيقة كلمة باستخدام Java."
 weight: 10
 url: /ar/java/aspose-words-document-object-model/
+timestamp: 2024-01-27-14-07-04
 ---
 
 The Aspose.Words Document Object Model )أ(DOM() هو تمثيل داخلي لوثيقة كلمة. The Aspose.Words DOM يُمكّنكم من القراءة والتلاعب وتعديل محتوى وشكل وثيقة الكلمات.

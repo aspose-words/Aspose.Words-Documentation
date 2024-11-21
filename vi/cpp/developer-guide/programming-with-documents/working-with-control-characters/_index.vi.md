@@ -1,4 +1,4 @@
-﻿---
+---
 title: Làm Việc Với Các Nhân Vật Điều Khiển
 second_title: Aspose.Words cho C++
 articleTitle: Làm Việc Với Các Nhân Vật Điều Khiển
@@ -7,6 +7,7 @@ description: "Giới thiệu làm việc với các nhân vật điều khiển 
 type: docs
 weight: 400
 url: /vi/cpp/working-with-control-characters/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word tài liệu có thể chứa các ký tự khác nhau có ý nghĩa đặc biệt. Thông thường chúng được sử dụng cho mục đích định dạng và không được vẽ ở chế độ bình thường. Bạn có thể hiển thị chúng nếu bạn nhấp Vào nút Hiển Thị/Ẩn dấu Định dạng nằm trên Thanh Công cụ Tiêu chuẩn.

@@ -7,6 +7,7 @@ description: "پیوستن به جداول در Java... دستکاری جدول 
 type: docs
 weight: 90
 url: /fa/java/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 یک میز، نماینده در Aspose.Words Document Object Model, از ردیف ها و سلول های مستقل تشکیل شده و پیوستن به جداول آسان است.

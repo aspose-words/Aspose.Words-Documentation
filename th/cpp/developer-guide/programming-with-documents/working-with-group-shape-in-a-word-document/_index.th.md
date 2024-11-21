@@ -1,4 +1,4 @@
-﻿---
+---
 title: วิธีการเพิ่มGroup Shapeลงในเอกสารคำ
 second_title: Aspose.WordsสำหรับC++
 articleTitle: การทำงานกับGroup Shapesในเอกสารคำ
@@ -7,6 +7,7 @@ description: "การจัดกลุ่มและยกเลิกกา
 type: docs
 weight: 290
 url: /th/cpp/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 บางครั้งคุณต้องเพิ่มgroup shapeลงในเอกสารคำ เช่นgroup shapeประกอบด้วยหลายรูปร่าง.

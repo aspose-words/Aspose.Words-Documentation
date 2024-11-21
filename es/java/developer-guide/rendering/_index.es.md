@@ -7,6 +7,7 @@ description: "Uso Aspose.Words para Java renderizar la función para formatear u
 type: docs
 weight: 30
 url: /es/java/rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Utilizamos el término "rendering" en Aspose.Words para describir el proceso de conversión de un documento en un formato de archivo o un medio que está paginado o tiene el concepto de páginas. Estamos hablando de la presentación de un documento en páginas. El siguiente diagrama muestra en qué consiste la renderización Aspose.Words.

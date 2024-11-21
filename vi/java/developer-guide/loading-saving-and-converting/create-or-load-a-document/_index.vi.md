@@ -7,6 +7,7 @@ type: docs
 weight: 10
 url: /vi/java/create-or-load-a-document/
 description: "Aspose.Words cho phép bạn tạo một tài liệu trống hoặc tải nó từ tệp hoặc luồng bằng cách sử dụng Java."
+timestamp: 2024-01-27-14-07-04
 ---
 
 Hầu như bất kỳ một nhiệm vụ nào mà bạn muốn thực hiện với Aspose.Words đều liên quan đến việc tải một tài liệu. `Document` lớp đại diện cho một tài liệu được tải vào bộ nhớ. Tài liệu này có nhiều nhà máy cho phép bạn tạo một tài liệu trống hoặc tải nó từ một tập tin hoặc luồng. Tài liệu có thể được tải theo bất kỳ định dạng tải nào được Aspose.Words hỗ trợ. Để thấy danh sách định dạng tải lên được hỗ trợ, tham khảo [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) enumeração.

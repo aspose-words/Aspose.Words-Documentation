@@ -7,6 +7,7 @@ description: "يقدم هذا الفرع مقارنة بين توافر المل
 type: docs
 weight: 90
 url: /ar/java/aspose-words-for-android-via-java-features/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Aspose.Words for Android عبر Java لمحة عامة

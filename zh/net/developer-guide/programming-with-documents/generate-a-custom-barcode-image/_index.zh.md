@@ -7,6 +7,7 @@ description: "使用 C# 的条形码形状生成示例。"
 type: docs
 weight: 350
 url: /zh/net/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/
+timestamp: 2024-09-05-11-07-10
 ---
 
 条形码是一种以平行线或图案的形式呈现的数据的视觉表现。在零售、物流、医疗保健、银行等各个行业广泛使用的条形码。

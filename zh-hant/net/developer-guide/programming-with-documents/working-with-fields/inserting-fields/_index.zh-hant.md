@@ -7,6 +7,7 @@ description: "透過 C# 將欄位插入到文件中 – 學習不同方式與程
 type: docs
 weight: 20
 url: /zh-hant/net/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 插入字段到文件的方式有幾種不同的方法：

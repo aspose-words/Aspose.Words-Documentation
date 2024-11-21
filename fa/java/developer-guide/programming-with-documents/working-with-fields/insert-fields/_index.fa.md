@@ -7,6 +7,7 @@ description: "راه های مختلف برای قرار دادن زمینه ه�
 type: docs
 weight: 20
 url: /fa/java/insert-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 روش های مختلفی برای وارد کردن زمینه ها به یک سند وجود دارد:

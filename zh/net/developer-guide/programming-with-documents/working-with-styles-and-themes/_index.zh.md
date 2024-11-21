@@ -7,6 +7,7 @@ description: "高级 Microsoft Word 格式化功能，使用 C# 处理样式和�
 type: docs
 weight: 110
 url: /zh/net/working-with-styles-and-themes/
+timestamp: 2024-10-24-11-44-28
 ---
 
 [StyleCollection](https://reference.aspose.com/words/zh/net/aspose.words/stylecollection/) 类用于管理内置样式并将用户定义的设置应用于样式。

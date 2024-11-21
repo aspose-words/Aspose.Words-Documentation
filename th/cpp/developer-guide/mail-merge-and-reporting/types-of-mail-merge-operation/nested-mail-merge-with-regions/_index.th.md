@@ -1,4 +1,4 @@
-﻿---
+---
 title: ซ้อนกัน Mail Merge กับภูมิภาคใน C++
 second_title: Aspose.Words สำหรับ C++
 articleTitle: ซ้อนกัน Mail Merge กับภูมิภาค
@@ -8,6 +8,7 @@ description: "ดำเนินการ mail merge การทำงานก
 keywords: "mail merge with nested regions c++"
 weight: 30
 url: /th/cpp/nested-mail-merge-with-regions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 ในบางสถานการณ์คุณอาจต้องใช้ซ้อนกัน mail merge กับภูมิภาค ผสานซ้อนกันเป็นคุณลักษณะที่ช่วยให้คุณสามารถผสานข้อมูลลำดับชั้นจากแหล่งข้อมูลของคุณ มสัมพันธ์ลำดับชั้นอธิบายวิธีที่รายการข้อมูลที่เกี่ยวข้องกับแต่ละอื่นๆ(รายการหนึ่งของข้อมูล.

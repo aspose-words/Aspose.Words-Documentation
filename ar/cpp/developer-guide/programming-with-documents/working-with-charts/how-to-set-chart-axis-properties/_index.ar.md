@@ -1,4 +1,4 @@
-﻿---
+---
 title: كيفية تعيين خصائص محور الرسم البياني في C++
 second_title: Aspose.Words ل C++
 articleTitle: كيفية تعيين خصائص محور الرسم البياني
@@ -7,6 +7,7 @@ description: "ضبط محور الرسم البياني باستخدام C++."
 type: docs
 weight: 20
 url: /ar/cpp/how-to-set-chart-axis-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 إذا كنت ترغب في العمل مع وحدات محور المخطط والقياس والعرض لمحور القيمة، فيرجى استخدام فئات [ChartAxis](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.chart_axis) و [AxisDisplayUnit](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.axis_display_unit) و [AxisScaling](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.axis_scaling).

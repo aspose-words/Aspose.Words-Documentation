@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hỗ Trợ Kỹ Thuật
 second_title: Aspose.Words cho C++
 articleTitle: Hỗ Trợ Kỹ Thuật
@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words cho C++ cung cấp hỗ trợ kỹ thuật miễn phí có sẵn cho tất cả người dùng. Vui lòng báo cáo câu hỏi, vấn đề hoặc yêu cầu tính năng của bạn bằng Diễn đàn Hỗ trợ Miễn phí Aspose."
 weight: 80
 url: /vi/cpp/technical-support/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose cung cấp hỗ trợ kỹ thuật miễn phí không giới hạn cho tất cả các sản phẩm của mình. Hỗ trợ có sẵn cho tất cả người dùng, bao gồm cả đánh giá. Đại lộ hỗ trợ chính là [Aspose.Diễn đàn](https://forum.aspose.com/c/words/8).

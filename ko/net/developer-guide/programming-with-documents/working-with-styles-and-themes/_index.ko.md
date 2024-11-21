@@ -7,6 +7,7 @@ description: "C#를 사용하여 스타일과 테마로 작업하는 고급 Micr
 type: docs
 weight: 110
 url: /ko/net/working-with-styles-and-themes/
+timestamp: 2024-10-24-11-44-28
 ---
 
 [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) 클래스는 기본 제공을 관리하고 사용자 정의 설정을 스타일에 적용하는 데 사용됩니다.

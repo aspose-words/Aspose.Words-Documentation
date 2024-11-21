@@ -7,6 +7,7 @@ description: "Comprendre les concepts de signets et comment utiliser le signets 
 type: docs
 weight: 180
 url: /fr/java/working-with-bookmarks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Les signets identifient dans un Microsoft Word documentez les emplacements ou fragments que vous nommez et identifiez pour référence future. Par exemple, vous pouvez utiliser un signet pour identifier le texte que vous souhaitez réviser plus tard. Au lieu de défiler dans le document pour localiser le texte, vous pouvez y aller en utilisant la boîte de dialogue Signet.

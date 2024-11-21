@@ -1,4 +1,4 @@
-﻿---
+---
 title: Шрифт FallBack Настройки для шрифтов Google Noto в C++
 second_title: Aspose.Words для C++
 articleTitle: Предопределенные настройки шрифта FallBack для Google Noto Fonts
@@ -7,6 +7,7 @@ description: "Aspose.Words предоставляет предопределен
 type: docs
 weight: 15
 url: /ru/cpp/predefined-font-fallback-settings-for-google-noto-fonts/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Aspose.Words предоставляет предопределенные резервные настройки шрифтов для Google Noto fonts. Это бесплатные шрифты, лицензированные по лицензии SIL Open Font, которые можно загрузить с сайта Google Noto Fonts. Класс **FontFallbackSettings** предоставляет метод [LoadNotoFallbackSettings](https://reference.aspose.com/words/cpp/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/). Он загружает предопределенные резервные настройки, в которых используются шрифты Google Noto, как показано в примере кода ниже:

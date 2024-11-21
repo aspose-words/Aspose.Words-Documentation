@@ -7,6 +7,7 @@ description: "Конвертиране на PDF в Excel, XML в Excel, DOCX в 
 type: docs
 weight: 15
 url: /bg/net/convert-a-document-to-excel/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Преобразуването на документи от един формат в друг е водещата характеристика на Aspose.Words. Можете да конвертирате документи във всички налични [формат на натоварване](https://reference.aspose.com/words/net/aspose.words/loadformat/) също и за XLSX формат.

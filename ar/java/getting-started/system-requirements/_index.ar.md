@@ -7,6 +7,7 @@ description: "قبل أن تبدأ العمل Aspose.Words for Java, ضمان أ
 type: docs
 weight: 80
 url: /ar/java/system-requirements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words for Java لا يتطلب منتجاً من طرف ثالث مثل Microsoft Word سيتم تركيبها Aspose.Words وهو في حد ذاته محرك لوضع الوثائق وتعديلها وتحويلها وإصدارها في أشكال مختلفة، بما في ذلك Microsoft Word صيغ الوثائق.

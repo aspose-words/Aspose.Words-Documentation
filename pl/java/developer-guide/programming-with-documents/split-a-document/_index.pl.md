@@ -7,6 +7,7 @@ description: "Aspose.Words zamiast Java zapewnia skuteczny sposób podziału jed
 type: docs
 weight: 90
 url: /pl/java/split-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 *Splitting* lub * podzielenie dokumentu * jest procesem podziału dużego dokumentu na większą liczbę mniejszych plików. Istnieją różne powody, aby podzielić plik. Na przykład, potrzebujesz tylko niektórych stron z konkretnego dokumentu, a nie całego. Albo z powodów prywatności, chcesz podzielić się tylko niektórymi częściami dokumentu z innymi. Z funkcją podziału, można uzyskać tylko wymagane części dokumentu i wykonać niezbędne działania z nimi, na przykład, aby oznaczyć, zapisać lub wysłać.

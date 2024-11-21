@@ -1,4 +1,4 @@
-﻿---
+---
 title: Notas De Segurança
 second_title: Aspose.Words Para C++
 articleTitle: Notas De Segurança
@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words Para C++ reconhece e adere a normas de segurança comuns para garantir um elevado nível de segurança dos dados. Analisar possíveis questões de segurança e recomendações sobre como evitá-las."
 weight: 80
 url: /pt/cpp/security/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A segurança ajuda a proteger os dados contra acesso não autorizado, bem como alterações maliciosas ou acidentais. Aspose.Words é extremamente atenta à segurança dos dados dos clientes, portanto, reconhece e adere às normas comuns de segurança.

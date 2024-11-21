@@ -1,4 +1,4 @@
-﻿---
+---
 title: Inserire e aggiungere documenti in C++
 second_title: Aspose.Words per C++
 articleTitle: Inserire e aggiungere documenti
@@ -7,6 +7,7 @@ description: "Combina documenti in uno: inserisci o aggiungi un documento in uno
 type: docs
 weight: 80
 url: /it/cpp/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A volte è necessario combinare più documenti in uno. Puoi farlo manualmente oppure puoi usare la funzione Inserisci o aggiungi Aspose.Words.

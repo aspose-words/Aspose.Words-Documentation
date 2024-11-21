@@ -1,4 +1,4 @@
-﻿---
+---
 title: Joindre des tables en C++
 second_title: Aspose.Words pour C++
 articleTitle: Rejoindre des Tables
@@ -7,6 +7,7 @@ description: "Manipulations de table avancées. Comment fusionner deux tables en
 type: docs
 weight: 90
 url: /fr/cpp/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Une table, représentée dans le modèle d'objet de document Aspose.Words, est composée de lignes et de cellules indépendantes, ce qui facilite la jonction des tables.

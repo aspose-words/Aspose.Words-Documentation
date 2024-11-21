@@ -1,4 +1,4 @@
-﻿---
+---
 title: Gebruik `DocumentBuilder` Om'n Dokument Te Verander
 second_title: Aspose.Words vir Java
 articleTitle: Gebruik `DocumentBuilder` Om'n Dokument Te Verander
@@ -7,6 +7,7 @@ type: docs
 description: "Gebruik die dokumentbouer om'n dokument maklik in Java te verander."
 weight: 20
 url: /af/java/using-documentbuilder-to-modify-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Spesifiseer Formatering

@@ -7,6 +7,7 @@ description: "Jadikan dokumen Anda hanya-baca sehingga isinya dapat disalin atau
 type: docs
 weight: 10
 url: /id/net/open-a-document-read-only/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Terkadang, Anda mungkin memiliki dokumen yang memerlukan peninjauan, namun Anda tidak ingin peninjau mengubah konten Anda secara acak. Aspose.Words memungkinkan Anda menjadikan izin dokumen Anda hanya-baca sehingga konten dapat disalin atau dibaca, namun tidak diubah. Ini akan mencegah konten dihapus atau ditambahkan ke dokumen Anda.

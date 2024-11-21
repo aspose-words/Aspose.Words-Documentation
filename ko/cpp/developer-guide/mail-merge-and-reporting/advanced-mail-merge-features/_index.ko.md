@@ -1,4 +1,4 @@
-﻿---
+---
 title: 고급 Mail Merge 기능 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 고급 Mail Merge 특징
@@ -8,6 +8,7 @@ description: "Aspose.Words 에 대한 C++ 일부 고급 제공 mail merge 더 �
 keywords: "use advanced mail merge features c++"
 weight: 50
 url: /ko/cpp/advanced-mail-merge-features/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words 몇 가지 추가 기능을 제공합니다 mail merge 추가 사용자 정의를 수행할 수 있는 속성 및 메서드 mail merge 간단한 프로세스 중 하나 mail merge 또는 mail merge 지역과 함께

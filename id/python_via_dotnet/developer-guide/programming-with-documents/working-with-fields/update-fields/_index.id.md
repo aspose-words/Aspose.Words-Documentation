@@ -7,6 +7,7 @@ description: "Perbarui bidang dalam dokumen dengan cara berbeda dan menggunakan 
 type: docs
 weight: 30
 url: /id/python-net/update-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Biasanya, bidang yang dimasukkan ke dalam Microsoft Word sudah berisi nilai terkini. Misalnya, jika bidangnya berupa rumus atau nomor halaman, bidang tersebut akan berisi nilai terhitung yang benar untuk versi dokumen tertentu. Namun jika Anda memiliki aplikasi yang membuat atau memodifikasi dokumen dengan kolom seperti menggabungkan dua dokumen atau mengisinya dengan data, maka idealnya semua kolom harus diperbarui agar dokumen tersebut berguna.

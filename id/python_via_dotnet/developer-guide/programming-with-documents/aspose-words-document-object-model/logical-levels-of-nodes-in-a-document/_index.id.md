@@ -7,6 +7,7 @@ type: docs
 description: "Dalam dokumentasi Aspose.Words untuk Python via .NET disebutkan level logis dari node – level blok, level inline, atau level baris. Tingkat simpul digunakan untuk menggambarkan lokasi di pohon dokumen di mana simpul tersebut biasanya muncul."
 weight: 10
 url: /id/python-net/logical-levels-of-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Dokumentasi ini terkadang mengacu pada sekelompok kelas node sebagai bagian dari "level" dalam dokumen, seperti node "level blok", "level inline" (juga dikenal sebagai "inline"), atau node "level baris". Level-level dalam dokumen ini dibedakan secara logis dan tidak dinyatakan secara eksplisit melalui pewarisan atau cara Aspose.Words DOM lainnya. Tingkat simpul digunakan untuk mendeskripsikan tempat di pohon dokumen di mana simpul biasanya muncul.

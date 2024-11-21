@@ -7,6 +7,7 @@ description: "Java'i kullanarak bir barkod şekli üretme örneği."
 type: docs
 weight: 350
 url: /tr/java/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/
+timestamp: 2024-09-05-11-07-10
 ---
 
 Bir barkod verilerin paralel çizgiler veya desenler biçiminde görsel bir temsiliğidir. Barkodlar perakende, lojistik, sağlık, bankacılık ve daha fazlası gibi çeşitli endüstrilerde yaygın olarak kullanılmaktadır.

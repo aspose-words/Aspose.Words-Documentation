@@ -7,6 +7,7 @@ description: "Diferentes formas de crear tablas en su documento utilizando Java.
 type: docs
 weight: 20
 url: /es/java/create-a-table/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words permite a los usuarios crear tablas en un documento desde cero y ofrece varios métodos diferentes para hacerlo. Este artículo presenta detalles sobre cómo añadir tablas formateadas a su documento utilizando cada método, así como una comparación de cada método al final del artículo.

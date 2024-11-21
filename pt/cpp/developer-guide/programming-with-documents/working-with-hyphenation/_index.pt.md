@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trabalhando com Hifenização em C++
 second_title: Aspose.Words para C++
 articleTitle: Trabalhando com hifenização
@@ -7,6 +7,7 @@ description: "Use hifenização para um arranjo mais compacto do texto usando C+
 type: docs
 weight: 220
 url: /pt/cpp/working-with-hyphenation/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Às vezes, é necessário usar hifenização para um arranjo mais compacto do texto em um documento. Ao mesmo tempo, é importante entender que as especificidades da hifenização de palavras podem diferir para cada idioma.

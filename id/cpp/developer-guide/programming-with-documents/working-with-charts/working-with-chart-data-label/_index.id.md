@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bekerja dengan Label Data Bagan di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Bekerja dengan Label Data Bagan
@@ -7,6 +7,7 @@ description: "Penyetelan label data bagan menggunakan C++."
 type: docs
 weight: 30
 url: /id/cpp/working-with-chart-data-label/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words memungkinkan pengguna untuk bekerja dengan ChartDataLabel dengan berbagai cara.

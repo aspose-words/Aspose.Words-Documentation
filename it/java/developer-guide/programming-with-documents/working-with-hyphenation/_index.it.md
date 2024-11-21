@@ -7,6 +7,7 @@ description: "Utilizzare l'ifenazione per una disposizione più compatta del tes
 type: docs
 weight: 220
 url: /it/java/working-with-hyphenation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A volte è necessario usare l'ifenazione per una disposizione più compatta del testo in un documento. Allo stesso tempo, è importante capire che le specifiche di parola trattino possono differire per ogni lingua.

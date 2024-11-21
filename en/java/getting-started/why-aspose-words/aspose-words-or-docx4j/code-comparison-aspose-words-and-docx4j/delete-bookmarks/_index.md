@@ -1,4 +1,4 @@
-﻿---
+---
 title: Delete Bookmarks
 second_title: Aspose.Words for Java
 articleTitle: Delete Bookmarks
@@ -7,6 +7,7 @@ description: "Delete bookmarks from a document easily and fast instead of using 
 type: docs
 weight: 20
 url: /java/delete-bookmarks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Delete Bookmarks

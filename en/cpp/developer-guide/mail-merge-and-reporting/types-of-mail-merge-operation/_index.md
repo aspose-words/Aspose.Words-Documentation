@@ -10,6 +10,7 @@ description: "Perform two different types of mail merge operations: simple mail 
 keywords: "how to execute mail merge c++"
 weight: 20
 url: /cpp/types-of-mail-merge-operations/
+timestamp: 2024-09-24-14-35-44
 ---
 
 The main idea of mail merge is to automatically create a document or several documents based on your template and data fetched from your data source. Aspose.Words enables you to perform two different types of mail merge operations: simple mail merge and mail merge with regions.

@@ -7,6 +7,7 @@ description: "Introduzione alla funzione Grafico, come creare e manipolare i gra
 type: docs
 weight: 310
 url: /it/java/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Il nuovo [insertChart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertChart-int-double-double) metodo è stato aggiunto nel [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) classe. Quindi, vediamo come inserire un grafico a colonna semplice nel documento utilizzando **inserto Grafico** metodo.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 머리글 및 바닥 글 작업 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 머리글 및 바닥 글 작업
@@ -7,6 +7,7 @@ description: "다음을 사용하여 머리글과 바닥 글을 조작하는 방
 type: docs
 weight: 150
 url: /ko/cpp/working-with-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words 사용자가 문서의 머리글 및 바닥글로 작업할 수 있습니다. 머리글은 페이지 맨 위에 있는 텍스트이고 바닥글은 페이지 맨 아래에 있는 텍스트입니다. 일반적으로 이러한 영역은 페이지 번호,작성 날짜,회사 정보 등과 같이 문서의 전체 또는 일부 페이지에 반복해야 하는 정보를 삽입하는 데 사용됩니다.

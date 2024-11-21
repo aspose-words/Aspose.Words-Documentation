@@ -7,6 +7,7 @@ description: "Aspose.Words voor .NET het opslaan van nuttige informatie over uw 
 type: docs
 weight: 10
 url: /nl/net/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Documenteigenschappen kunnen nuttige informatie over uw document opslaan. Deze eigenschappen kunnen in twee groepen worden onderverdeeld:

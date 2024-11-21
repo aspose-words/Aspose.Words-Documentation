@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Reekse in Python
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Werk Met Reekse
@@ -7,6 +7,7 @@ description: "Werk met reekse in'n dokument met Python."
 type: docs
 weight: 130
 url: /af/python-net/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

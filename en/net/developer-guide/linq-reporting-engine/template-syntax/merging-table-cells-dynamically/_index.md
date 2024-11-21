@@ -8,6 +8,7 @@ type: docs
 weight: 100
 url: /net/merging-table-cells-dynamically/
 aliases: [/net/template-syntax/#merging-table-cells-dynamically]
+timestamp: 2024-01-27-14-07-04
 ---
 
 You can merge table cells with equal textual contents within your reports dynamically using `cellMerge` tags. The syntax of a `cellMerge` tag is defined as follows.

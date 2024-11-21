@@ -7,6 +7,7 @@ description: "使用加载文档时设置高级属性 Java 对过程进行更精
 type: docs
 weight: 10
 url: /zh/java/specify-load-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 装入文档时,可以设置一些高级属性. Aspose.Words 为你提供 [LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/) class,它允许更精确地控制负载过程. 有些负载格式有一个相应的类,为这种负载格式持有负载选项,例如有 [PdfLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/) 用于加载到 PDF 格式或 [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) 用于装入 TXT。 本条举例说明了与《公约》 **LoadOptions** 课。

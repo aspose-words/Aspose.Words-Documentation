@@ -7,6 +7,7 @@ description: "Python를 사용하여 문서에 양식 필드를 삽입하거나 
 type: docs
 weight: 380
 url: /ko/python-net/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 채우기 공백(필드)이 포함된 문서를 양식이라고 합니다. 예를 들어, 사용자가 항목을 선택할 수 있는 드롭다운 목록을 사용하는 Microsoft Word 등록 양식을 만들 수 있습니다. `Form` 필드는 이름이나 주소와 같은 특정 유형의 데이터가 저장되는 위치입니다. Microsoft Word의 양식 필드에는 텍스트 입력, 콤보 상자 및 확인란이 포함됩니다.

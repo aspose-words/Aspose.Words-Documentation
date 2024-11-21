@@ -7,6 +7,7 @@ description: "Odstraňte nepoužité nebo duplikované informace ke snížení v
 type: docs
 weight: 30
 url: /cs/net/clean-up-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Někdy můžete potřebovat odstranit nepoužité nebo duplikované informace ke snížení velikosti výstupního dokumentu a času zpracování.

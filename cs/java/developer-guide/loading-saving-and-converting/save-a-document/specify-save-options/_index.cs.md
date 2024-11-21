@@ -7,6 +7,7 @@ description: "Nastavit pokročilé vlastnosti při ukládání dokumentu pomocí
 type: docs
 weight: 20
 url: /cs/java/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Při ukládání dokumentu můžete nastavit některé pokročilé vlastnosti. Aspose.Words poskytuje vám [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/) třída, která umožňuje přesnější řízení procesu ukládání. Existují přetížení **Save** metoda, která přijímá **SaveOptions** Objekt: **SaveOptions** třída. Každý formát uložení má odpovídající třídu, která drží možnosti uložení pro tento formát uložení, například, tam je [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) pro uložení do formátu PDF, [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) pro úsporu na Markdown formát nebo [ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/) pro uložení do obrazu. Tento článek uvádí příklady práce s některými druhy možností odvozenými z **SaveOptions**.

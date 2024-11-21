@@ -1,4 +1,4 @@
-﻿---
+---
 title: Funcții avansate Mail Merge în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Funcții Avansate Mail Merge
@@ -8,6 +8,7 @@ description: "Aspose.Words pentru Java oferă câteva funcții avansate mail mer
 keywords: "use advanced mail merge features java, mail merge java"
 weight: 50
 url: /ro/java/advanced-mail-merge-features/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words oferă câteva proprietăți și metode suplimentare mail merge care vă permit să efectuați personalizarea ulterioară a procesului mail merge fie în mail merge simplu, fie în mail merge cu regiuni.

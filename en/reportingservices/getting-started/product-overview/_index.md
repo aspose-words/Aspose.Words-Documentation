@@ -1,4 +1,4 @@
-﻿---
+---
 title: Product Overview
 second_title: Aspose.Words for Reporting Services
 articleTitle: Product Overview
@@ -7,6 +7,7 @@ description: "List of supported components and common overview of the Aspose.Wor
 type: docs
 weight: 10
 url: /reportingservices/product-overview/
+timestamp: 2024-11-13-12-00-30
 ---
 
 

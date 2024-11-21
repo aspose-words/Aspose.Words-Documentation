@@ -1,4 +1,4 @@
-﻿---
+---
 title: Waarskuwings Wanneer Gestoor word na PDF/A en PDF/UA
 second_title: Aspose.Words vir Python
 articleTitle: Toeganklikheid Probleem Waarskuwings Wanneer Stoor na PDF/A en PDF/UA
@@ -7,6 +7,7 @@ description: "PDF/A en PDF/UA stel toeganklikheidsvereistes op wat verband hou m
 type: docs
 weight: 29
 url: /af/python-net/warnings-when-saving-to-pdfa-and-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 PDF/A en PDF/UA formate stel'n aantal toeganklikheid vereistes wat verband hou met dokument inhoud wat nie vervul kan word tydens outomatiese omskakeling van Word na PDF. Hierdie vereistes word in die vorige artikel *"Working with PDF/A or PDF/UA"* beskryf. Nou word waarskuwings uitgereik vir party van hierdie probleme.

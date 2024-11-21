@@ -1,4 +1,4 @@
-﻿---
+---
 title: ระบุตัวเลือกการบันทึกในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: ระบุตัวเลือกการบันทึก
@@ -7,6 +7,7 @@ description: "ควบคุมกระบวนการบันทึกไ
 type: docs
 weight: 10
 url: /th/cpp/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 เมื่อบันทึกเอกสารคุณสามารถตั้งค่าคุณสมบัติขั้นสูงบางอย่างได้ Aspose.Wordsให้คุณมี[SaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/)ชั้นซึ่งจะช่วยให้การควบคุมที่แม่นยำมากขึ้นของกระบวนการบันทึก มีการโอเวอร์โหลดของวิธีการ**Save**ที่ยอมรับวัตถุ**SaveOptions**–มันควรจะเป็นวัตถุของชั้นเรียนที่ได้มาจากชั้นเรียน**SaveOptions** แต่ละรูปแบบการบันทึกจะมีคลาสที่สอดคล้องกันซึ่งมีตัวเลือกการบันทึกสำหรับรูปแบบการบันทึกนี้ตัวอย่างเช่นมี[PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/)เพื่อบันทึกลงในรูปแบบPDF[MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions)เพื่อบันทึกลงในรูปแบบMarkdownหรือ[ImageSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/imagesaveoptions/)เพื่อบันทึกลงในรูปภาพ บทความนี้แสดงตัวอย่างการทำงานกับคลาสตัวเลือกบางอย่างที่ได้มาจาก**SaveOptions**.

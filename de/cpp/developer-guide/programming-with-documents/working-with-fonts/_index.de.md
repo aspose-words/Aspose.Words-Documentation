@@ -1,4 +1,4 @@
-﻿---
+---
 title: Arbeiten mit Schriftarten in C++
 second_title: Aspose.Words für C++
 articleTitle: Arbeiten mit Schriftarten
@@ -7,6 +7,7 @@ description: "Schriftformatierung in Details mit C++."
 type: docs
 weight: 230
 url: /de/cpp/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Eine Schriftart ist eine Reihe von Zeichen mit einer bestimmten Größe, Farbe und einem bestimmten Design. Mit Aspose.Words können Sie mit Schriftarten arbeiten, die den [Fonts](https://reference.aspose.com/words/cpp/aspose.words.fonts/)-Namespace und die [Font](https://reference.aspose.com/words/cpp/aspose.words/font/)-Klasse verwenden.

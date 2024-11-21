@@ -7,6 +7,7 @@ description: "Cómo trabajar con campos en documentos usando Python."
 type: docs
 weight: 370
 url: /es/python-net/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Los **Fields** en un documento son como marcadores de posición donde se pueden insertar datos útiles. Por ejemplo, un campo puede ser una referencia de página, una fórmula o un campo mail merge.

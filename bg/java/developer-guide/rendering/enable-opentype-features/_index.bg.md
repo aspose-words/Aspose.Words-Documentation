@@ -7,6 +7,7 @@ description: "Разширена типография в Aspose.Words вмест
 type: docs
 weight: 25
 url: /bg/java/enable-opentype-features/
+timestamp: 2024-01-27-14-07-04
 ---
 
 

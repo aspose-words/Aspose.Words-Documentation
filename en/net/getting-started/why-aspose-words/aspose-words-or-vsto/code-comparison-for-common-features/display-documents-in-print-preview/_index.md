@@ -7,6 +7,7 @@ description: "Display documents in print preview easily and fast instead of usin
 type: docs
 weight: 110
 url: /net/display-documents-in-print-preview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## VSTO Words

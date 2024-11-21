@@ -7,6 +7,7 @@ description: "Работа с текстовыми ящиками в докум�
 type: docs
 weight: 250
 url: /ru/python-net/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 В Aspose.Words, [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) Класс используется для определения того, как текст отображается внутри формы. Предоставляет государственную собственность под названием [parent](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/parent/) чтобы получить родительскую форму для текстового поля, чтобы клиент мог найти связанную [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) связанный [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/).

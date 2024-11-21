@@ -7,6 +7,7 @@ description: "الوصول إلى الأنماط والسمات وإدارتها
 type: docs
 weight: 110
 url: /ar/python-net/working-with-styles-and-themes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 يتم استخدام فئة [StyleCollection](https://reference.aspose.com/words/python-net/aspose.words/stylecollection/) لإدارة الإعدادات المضمنة وتطبيقها على الأنماط.

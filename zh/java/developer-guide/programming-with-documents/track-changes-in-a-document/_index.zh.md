@@ -7,6 +7,7 @@ description: "跟踪您或其他人对内容和格式的修改。 访问文档�
 type: docs
 weight: 270
 url: /zh/java/track-changes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 音轨变化的功能,又称审查功能,可以跟踪您或其他用户对内容和格式的修改. 此音轨更改的特性为 Aspose.Words 支持音轨变化 Microsoft Word。 。 。 使用此功能,您可以访问文档中的单个修改并应用不同的属性。

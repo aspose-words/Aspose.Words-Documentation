@@ -7,6 +7,7 @@ description: "Comprendre les champs de formulaire, travailler avec les champs de
 type: docs
 weight: 380
 url: /fr/java/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un document qui contient des blancs de remplissage (champs) est connu comme un formulaire. Par exemple, vous pouvez créer un formulaire d'inscription dans Microsoft Word qui utilise des listes déroulantes à partir desquelles les utilisateurs peuvent sélectionner des entrées. Les `Form` champ est un endroit où un type particulier de données, comme un nom ou une adresse, est stocké. Formulaire des champs dans Microsoft Word inclure l'entrée de texte, la combobox et la case à cocher.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bersihkan Sebelum atau Selama Operasi Mail Merge
 second_title: Aspose.Words untuk C++
 articleTitle: Bersihkan Sebelum atau Selama Operasi Mail Merge
@@ -8,6 +8,7 @@ description: "Terapkan opsi pembersihan dan penghapusan yang berbeda seperti men
 keywords: "cleanup options mail merge c#"
 weight: 10
 url: /id/cpp/clean-up-before-or-during-mail-merge/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words memungkinkan Anda menerapkan opsi pembersihan dan penghapusan yang berbeda seperti menghapus bidang gabungan sebelum melakukan operasi mail merge atau menghapus wilayah yang tidak digunakan selama operasi mail merge. Bagian ini akan menjelaskan cara menghapus bidang yang digabungkan dan cara menyiapkan opsi penghapusan.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge 模板在 C++
 second_title: Aspose.Words 为 C++
 articleTitle: Mail Merge 模板
@@ -8,6 +8,7 @@ description: "创建一个 mail merge 模板以定义输出文档中的固定内
 keywords: "create mail merge template с++"
 weight: 10
 url: /zh/cpp/mail-merge-template/
+timestamp: 2024-01-31-14-23-37
 ---
 
 使用合并模板作为一个基本文档是很常见的 mail merge 操作要么，如果它是一个简单的 mail merge 或 mail merge 与地区。 Mail merge 随着地区比简单的更强大和更受欢迎 mail merge. 简单 mail merge 被认为是一个特殊的情况 mail merge 区域是整个文档的区域。 所有这些都在下一篇文章"的类型 Mail Merge 操作"更详细。

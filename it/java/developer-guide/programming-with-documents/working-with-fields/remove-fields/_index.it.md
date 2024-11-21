@@ -7,6 +7,7 @@ description: "Scopri come rimuovere i campi Java. Rimuovere i campi programmatic
 type: docs
 weight: 35
 url: /it/java/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A volte è necessario rimuovere un campo dal documento. Questo può verificarsi quando deve essere sostituito con un tipo di campo diverso o quando il campo non è più necessario nel documento. Per esempio `TOC` campo quando si salva in HTML.

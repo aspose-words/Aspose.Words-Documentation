@@ -7,6 +7,7 @@ description: "Python를 사용하여 PDF/A-1, PDF/A-2, PDF/A-4 및 PDF/UA로 변
 type: docs
 weight: 25
 url: /ko/python-net/learn-features-of-conversion-to-pdf-a/
+timestamp: 2024-01-31-14-23-37
 ---
 
 PDF는 PDF 문서가 모든 장치에서 동일하게 보이기 때문에 사용자들 사이에서 매우 인기가 있고 다양한 응용 프로그램에서 널리 지원되는 고정 페이지 형식입니다. 이러한 이유로 PDF로 변환하는 것은 Aspose.Words의 중요한 기능입니다.

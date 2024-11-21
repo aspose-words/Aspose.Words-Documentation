@@ -8,6 +8,7 @@ type: docs
 weight: 37
 url: /java/replace-fields/
 aliases: [/java/how-to-replace-or-modify-hyperlinks-and-replace-fields-with-static-text/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 Replacing fields is often required when you wish to save your document as a static copy. For example, when sending as an attachment in an e-mail. Converting fields such as `DATE` or `TIME` to static text will allow the document to display the same date as when it was sent. Also, in some situations, you may need to remove the conditional `IF` fields from your document and replace them with the most recent text result instead. For example, converting the result of the `IF` field to static text so it will no longer dynamically change its value when fields in the document are updated.

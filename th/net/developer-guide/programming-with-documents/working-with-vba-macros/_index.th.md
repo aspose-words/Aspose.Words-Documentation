@@ -7,6 +7,7 @@ description: "การทำงานกับเอกสารโครงก
 type: docs
 weight: 410
 url: /th/net/working-with-vba-macros/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Visual Basic for Applications (VBA) สำหรับ Microsoft Word เป็นภาษาการเขียนโปรแกรมที่เรียบง่ายแต่ทรงพลังที่สามารถใช้เพื่อขยายฟังก์ชันการทำงานได้ Aspose.Words API มีคลาสสามคลาสเพื่อเข้าถึงซอร์สโค้ดโปรเจ็กต์ VBA:

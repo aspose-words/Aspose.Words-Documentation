@@ -1,4 +1,4 @@
-﻿---
+---
 title: Report Element
 second_title: Aspose.Words for SharePoint
 articleTitle: Report Element
@@ -7,6 +7,7 @@ description: "Report element meaning and structure which may be used while confi
 type: docs
 weight: 20
 url: /sharepoint/report-element/
+timestamp: 2024-10-21-11-17-44
 ---
 
 The Report element is the root element of the report definition. It can have the following child elements.

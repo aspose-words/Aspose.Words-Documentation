@@ -8,6 +8,7 @@ type: docs
 weight: 370
 url: /python-net/working-with-fields/
 aliases: [/python/working-with-fields/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 **Fields** in a document are like placeholders where useful data can be inserted. For example, a field can be a page reference, formula, or a mail merge field.

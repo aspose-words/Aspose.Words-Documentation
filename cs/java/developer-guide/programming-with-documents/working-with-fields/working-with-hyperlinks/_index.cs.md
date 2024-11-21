@@ -7,6 +7,7 @@ description: "Jak přidat hypertextový odkaz do dokumentu pomocí Java."
 type: docs
 weight: 50
 url: /cs/java/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Hypertextové spojení Microsoft Word Dokumenty jsou `HYPERLINK` pole. In Aspose.Words, hypertextové odkazy jsou implementovány prostřednictvím [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/) třída.

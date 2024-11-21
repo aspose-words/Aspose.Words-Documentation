@@ -7,6 +7,7 @@ description: "คุณสมบัติการจัดรูปแบบ Mi
 type: docs
 weight: 110
 url: /th/net/working-with-styles-and-themes/
+timestamp: 2024-10-24-11-44-28
 ---
 
 คลาส [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) ใช้เพื่อจัดการในตัวและใช้การตั้งค่าที่ผู้ใช้กำหนดกับสไตล์

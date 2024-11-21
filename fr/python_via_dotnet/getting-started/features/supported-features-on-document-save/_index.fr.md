@@ -7,6 +7,7 @@ description: "Enregistrez votre document dans n'importe quel format pris en char
 type: docs
 weight: 30
 url: /fr/python-net/supported-features-on-document-save/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words possède l'un des supports de conversion les plus avancés parmi les formats de traitement de texte courants.

@@ -7,6 +7,7 @@ description: "İlk belgenizi desteklenen herhangi bir biçimde oluşturmak, düz
 type: docs
 weight: 20
 url: /tr/java/hello-world/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A "Merhaba Dünya!" kodu genellikle yazmak için kullanılan ilk basit örnek olan "Aspose.Words için Java" ve doğru şekilde kurulduğunu garanti etmek için bir sağlık testi olarak kullanılabilir.

@@ -7,6 +7,7 @@ description: "Grouping and ungrouping shapes using Java."
 type: docs
 weight: 290
 url: /ar/java/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 أحياناً عليك أن تضيف group shape في وثيقة كلمة من هذا القبيل group shape تتألف من أشكال متعددة

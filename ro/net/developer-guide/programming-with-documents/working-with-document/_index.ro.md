@@ -7,6 +7,7 @@ type: docs
 description: "Clasa `Document` oferă diverse proprietăți ale documentului și metode folosind C#. Utilizați clasa `Document` ca punct de plecare pentru orice doriți să efectuați cu Aspose.Words pentru .NET. Obiectul `Document` poate fi salvat într-un fişier sau într-un flux, precum şi transmis unui browser."
 weight: 40
 url: /ro/net/working-with-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Clasa [Document](https://reference.aspose.com/words/net/aspose.words/document/) este centrală în Aspose.Words. "Reprezintă un document și oferă diverse proprietăți de document și metode, cum ar fi salvarea sau protejarea documentului." Tu folosești clasa **Document** ca punct de pornire pentru orice vrei să faci cu Aspose.Words: crearea unui nou document de la capăt, deschiderea unei șabloane pentru un mail merge, sau obținerea unor părți diferite din document.

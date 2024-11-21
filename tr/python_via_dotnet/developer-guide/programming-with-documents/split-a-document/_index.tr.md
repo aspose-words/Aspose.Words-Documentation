@@ -7,6 +7,7 @@ description: "Python kullanarak bir belgeyi birkaç dosyaya bölün. Bir belgeyi
 type: docs
 weight: 90
 url: /tr/python-net/split-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 *Splitting* veya *belgeyi bölme*, büyük bir belgeyi daha fazla sayıda küçük dosyaya bölme işlemidir. Bir dosyayı bölmenin çeşitli nedenleri vardır. Örneğin, belirli bir belgenin tamamına değil, yalnızca bazı sayfalarına ihtiyacınız vardır. Veya gizlilik nedeniyle bir belgenin yalnızca bazı bölümlerini başkalarıyla paylaşmak istiyorsunuz. Bölme özelliği sayesinde belgenin yalnızca gerekli kısımlarını alabilir ve bunlarla örneğin işaretleme, kaydetme veya gönderme gibi gerekli işlemleri yapabilirsiniz.

@@ -7,6 +7,7 @@ type: docs
 weight: 40
 description: "Découvrez une explication et des exemples de classes et de méthodes Aspose.Words pour .NET pour générer, convertir, modifier, afficher et imprimer des documents sans utiliser Microsoft Word."
 url: /fr/net/api-reference/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words for .NET est une bibliothèque de classes qui permet à vos applications d'effectuer une large gamme de tâches de traitement de documents. Avec Aspose.Words, vous pouvez générer, modifier, convertir, restituer et imprimer des documents sans utiliser Microsoft Word, c'est-à-dire que Microsoft Word n'est pas requis pour utiliser Aspose.Words.

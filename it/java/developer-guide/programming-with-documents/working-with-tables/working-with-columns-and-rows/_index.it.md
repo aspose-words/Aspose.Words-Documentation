@@ -7,6 +7,7 @@ description: "Lavorare con parti di una tabella – righe, colonne e celle utili
 type: docs
 weight: 30
 url: /it/java/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Per un maggior controllo su come funzionano le tabelle, imparare a manipolare colonne e righe.

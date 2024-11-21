@@ -7,6 +7,7 @@ description: "Як реалізувати Markdown особливості вик
 type: docs
 weight: 420
 url: /uk/net/working-with-markdown-features/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Ця тема обговорює, як реалізувати Markdown особливості використання Aspose.Wordsй Markdown простий спосіб форматувати звичайний текст, який можна легко перетворювати в HTML. Aspose.Words підтримує наступні Markdown особливості:

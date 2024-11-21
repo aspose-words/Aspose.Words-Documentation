@@ -1,4 +1,4 @@
-﻿---
+---
 title: Volg Veranderinge in'n Dokument in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Volg Veranderinge in'n Dokument
@@ -7,6 +7,7 @@ description: "Volg veranderinge aan inhoud en formatering gemaak deur u of ander
 type: docs
 weight: 270
 url: /af/net/track-changes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Die funksionaliteit van spoorveranderings, ook bekend as hersiening, laat jou toe om veranderinge aan inhoud en formatering wat deur jou of ander gebruikers gemaak is, op te spoor. Hierdie spoor verander funksie met Aspose.Words ondersteun spoor veranderinge in Microsoft Word. Met hierdie funksie kan u toegang tot individuele hersienings in u dokument kry en verskillende eienskappe daarop toepas.

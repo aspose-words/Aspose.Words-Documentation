@@ -7,6 +7,7 @@ description: "Введение в связанные текстовые ящик
 type: docs
 weight: 250
 url: /ru/java/working-with-linked-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 В Aspose.Words, тот [TextBox](https://reference.aspose.com/words/java/com.aspose.words/textbox/) Класс используется для определения того, как текст отображается внутри формы. Он предоставляет общественную собственность, называемую Родителем, чтобы получить форму родителя для текстового поля, чтобы клиент мог найти связанную форму. [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) связанный **TextBox**.

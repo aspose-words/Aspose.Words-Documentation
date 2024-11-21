@@ -7,6 +7,7 @@ description: "Wprowadzenie do funkcji pola w Aspose.Words dla .NET."
 type: docs
 weight: 370
 url: /pl/net/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 **Fields** w dokumencie przypominają elementy zastępcze, w których można wstawić przydatne dane. Polem może być na przykład odwołanie do strony, formuła lub pole mail merge.

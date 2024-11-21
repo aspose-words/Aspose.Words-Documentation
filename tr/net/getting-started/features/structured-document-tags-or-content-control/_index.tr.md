@@ -7,6 +7,7 @@ description: "C#'i kullanarak Yapılandırılmış Belge Etiketleri veya İçeri
 type: docs
 weight: 50
 url: /tr/net/structured-document-tags-or-content-control/
+timestamp: 2024-01-31-14-23-37
 ---
 
 

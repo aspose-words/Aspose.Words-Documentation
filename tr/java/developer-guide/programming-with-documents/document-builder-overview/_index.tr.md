@@ -7,6 +7,7 @@ type: docs
 description: "DocumentBuilder sizlere dinamik belgeleri sıfırdan oluşturma veya mevcut olanlara yeni öğeler ekleme imkanı tanır. DocumentBuilder metotları Java'da metin, onay kutuları, tablolar, resimler ve diğer içerik öğeleri eklemenizi sağlar."
 weight: 30
 url: /tr/java/document-builder-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) güçlü bir sınıftır ve [Document](https://reference.aspose.com/words/java/com.aspose.words/document/)'le ilişkilidir ve sizden sıfırdan dinamik belgeler oluşturmanıza veya var olanlara yeni öğeler eklemenize olanak tanır.

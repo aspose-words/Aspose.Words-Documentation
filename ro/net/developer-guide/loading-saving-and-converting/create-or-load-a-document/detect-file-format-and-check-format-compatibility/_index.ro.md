@@ -7,6 +7,7 @@ description: "Determină formatul fișierului în C# dacă nu ești sigur de con
 type: docs
 weight: 20
 url: /ro/net/detect-file-format-and-check-format-compatibility/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Uneori este necesar să determini formatul unui document înainte de deschidere, deoarece extensia fișierului nu garantează că conținutul fișierului este potrivit. De exemplu se ştie că Crystal Reports adesea scoate documente în format RTF dar le dă extensia .doc.

@@ -7,6 +7,7 @@ description: "با استفاده از Python نمودارهایی از انوا
 type: docs
 weight: 310
 url: /fa/python-net/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 روش جدید [insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/) به کلاس [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) اضافه شد. بنابراین، بیایید ببینیم که چگونه یک نمودار ستونی ساده را با استفاده از روش [DocumentBuilder.insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/) در سند وارد کنیم:

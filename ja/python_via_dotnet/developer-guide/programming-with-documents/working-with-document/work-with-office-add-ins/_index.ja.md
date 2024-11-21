@@ -7,6 +7,7 @@ description: "Aspose.Words for Python via .NET は、Office アドインを操�
 type: docs
 weight: 50
 url: /ja/python-net/work-with-office-add-ins/
+timestamp: 2024-01-27-14-07-04
 ---
 
 場合によっては、ドキュメントを変更するコードを実行するインターフェイス コントロールへのアクセスを許可したい場合があります。 Aspose.Words API は、Office アドインを表現するための XML 語彙を拡張する要素と属性をカスタマイズするためのさまざまなクラスを許可する [webextensions](https://reference.aspose.com/words/python-net/aspose.words.webextensions/) モジュールを提供します。

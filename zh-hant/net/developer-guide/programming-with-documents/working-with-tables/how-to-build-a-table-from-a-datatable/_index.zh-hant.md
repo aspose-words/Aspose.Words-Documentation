@@ -7,6 +7,7 @@ description: "使用C#從外部資料庫填入文件表的範例。"
 type: docs
 weight: 120
 url: /zh-hant/net/how-to-build-a-table-from-a-datatable/
+timestamp: 2024-09-25-11-08-55
 ---
 
 經常你應用程式會從資料庫取出資料，以 **DataTable** 的形式儲存。 您可以輕鬆將此資料插入您的文件中，作為新表格，並快速為整張表格應用格式。

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge ve Raporlama C++
 second_title: Aspose.Words için C++
 articleTitle: Mail Merge ve Raporlama
@@ -8,6 +8,7 @@ description: "Mail Merge kullanarak belgeleri hızlı bir şekilde oluşturmak i
 keywords: "how to use mail merge c++"
 weight: 30
 url: /tr/cpp/mail-merge-and-reporting/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Mail Merge harfler, etiketler ve zarflar gibi belgeleri hızlı ve kolay bir şekilde oluşturmak için popüler bir özelliktir. Aspose.Words şablonlardan belgeler oluşturmanızı sağlar mail merge alanlar.

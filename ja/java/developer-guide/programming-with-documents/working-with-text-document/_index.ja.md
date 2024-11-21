@@ -7,6 +7,7 @@ description: "高度なTXT文書処理、リスト、BiDi、ヘッダ/フッタ�
 type: docs
 weight: 430
 url: /ja/java/working-with-text-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 この記事では、テキスト文書を経由して作業するのにどのようなオプションが役立つかを学びます Aspose.Wordsお問い合わせ 利用可能なオプションの完全なリストではありませんが、一部のオプションで動作する例のみです。

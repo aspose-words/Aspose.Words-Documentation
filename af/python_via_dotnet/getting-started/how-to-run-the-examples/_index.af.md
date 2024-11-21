@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hoe Om Voorbeelde Uit Te voer
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Hoe Om Voorbeelde Uit Te voer
@@ -7,6 +7,7 @@ description: "Aflaai Aspose.Words vir Python via .NET voorbeelde van ons GitHub 
 type: docs
 weight: 110
 url: /af/python-net/how-to-run-the-examples/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Om meer vertroud te raak met die Aspose.Words moontlikhede en funksies bied ons voorbeelde wat afgelaai kan word van ons GitHub bewaarplek, hardloop, en leer in detail.

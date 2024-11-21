@@ -7,6 +7,7 @@ description: "Alătură tabele în C#. Cum se unesc două tabele într-una C#."
 type: docs
 weight: 90
 url: /ro/net/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 O masă reprezentată în Aspose.Words Document Object Model este alcătuită din rânduri și celule independente, făcând ușor de a uni tabelele.

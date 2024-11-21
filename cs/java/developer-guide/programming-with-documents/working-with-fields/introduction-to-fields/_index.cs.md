@@ -7,6 +7,7 @@ description: "Pole obsahují detaily, kódy polí a výsledky polí vysvětlené
 type: docs
 weight: 10
 url: /cs/java/introduction-to-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words je třídní knihovna určená pro zpracování na straně serveru Microsoft Word dokumenty a podporuje pole těmito způsoby:

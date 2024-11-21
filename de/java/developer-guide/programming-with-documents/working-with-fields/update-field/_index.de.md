@@ -7,6 +7,7 @@ description: "Erfahren Sie, wie Sie Felder in Java. Aktualisieren Sie die Felder
 type: docs
 weight: 30
 url: /de/java/update-field/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Typischerweise wird ein Feld eingefügt Microsoft Word enthält bereits einen aktuellen Wert. Wenn das Feld beispielsweise eine Formel oder eine Seitennummer ist, enthält es den korrekten berechneten Wert für die angegebene Version des Dokuments. Aber wenn Sie eine Anwendung haben, die ein Dokument mit Feldern wie das Zusammenfügen von zwei Dokumenten erzeugt oder verändert oder mit Daten bestückt, dann müssen idealerweise alle Felder aktualisiert werden, damit das Dokument nützlich ist.

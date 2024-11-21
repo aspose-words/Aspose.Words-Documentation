@@ -1,4 +1,4 @@
-﻿---
+---
 title: تبدیل یک سند به HTML، MHTML یا EPUB
 second_title: Aspose.Words برای C++
 articleTitle: تبدیل یک سند به HTML، MHTML یا EPUB
@@ -7,6 +7,7 @@ description: "تبدیل یک سند از تقریبا هر فرمت به HTML �
 type: docs
 weight: 20
 url: /fa/cpp/convert-a-document-to-html-mhtml-or-epub/
+timestamp: 2024-10-21-08-52-03
 ---
 
 اسناد در فرمت های HTML و MHTML flow-layout نیز بسیار محبوب هستند و می توانند در هر پلتفرم وب استفاده شوند. به همین دلیل، تبدیل اسناد به HTML و MHTML یک ویژگی مهم Aspose.Words است.

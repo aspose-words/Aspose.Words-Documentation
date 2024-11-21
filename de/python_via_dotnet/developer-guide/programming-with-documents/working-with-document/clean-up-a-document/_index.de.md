@@ -7,6 +7,7 @@ description: "Entfernen Sie mithilfe von Python ungenutzte oder doppelte Informa
 type: docs
 weight: 30
 url: /de/python-net/clean-up-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Manchmal müssen Sie möglicherweise nicht verwendete oder doppelte Informationen entfernen, um die Größe des Ausgabedokuments und die Verarbeitungszeit zu reduzieren.

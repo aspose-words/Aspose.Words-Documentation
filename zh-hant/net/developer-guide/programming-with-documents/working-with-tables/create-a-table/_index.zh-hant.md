@@ -7,6 +7,7 @@ description: "如何以各種方式在C#中製作一張表格之指南。 在C#�
 type: docs
 weight: 20
 url: /zh-hant/net/create-a-table/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words 允許使用者從頭開始建立文件中的表格，並提供幾種不同的方法來做。 這篇文章會提供如何在每個方法中加入格式化的表格到你的文件的細節，並會在文章的最後比較每個方法。

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 문서 만들기 또는 로드 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 문서 만들기 또는 로드
@@ -8,6 +8,7 @@ description: "빈 문서를 만들거나 다음을 사용하여 파일 또는 �
 keywords: "create a document c++, load a document c++, create a blank document c++, load a document from file c++, load a document from stream c++, create a document Aspose C++, load a document Aspose C++, load formats supported by Aspose.Words C++"
 weight: 10
 url: /ko/cpp/create-or-load-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 당신이 수행 할 거의 모든 작업 Aspose.Words 문서를 로드하는 작업이 포함됩니다. 그 `Document` 클래스는 메모리에 로드된 문서를 나타냅니다. 이 문서에는 빈 문서를 만들거나 파일 또는 스트림에서 로드할 수 있는 오버로드된 생성자가 여러 개 있습니다. 이 문서는 다음에서 지원하는 모든 로드 형식으로 로드할 수 있습니다 Aspose.Words. 지원되는 모든 로드 형식 목록은 다음을 참조하십시오 [LoadFormat](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) 열거

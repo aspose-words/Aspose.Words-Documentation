@@ -7,6 +7,7 @@ description: "למד על Aspose.Words עבור Java תכונות בעת טעי�
 type: docs
 weight: 20
 url: /he/java/loading-saving-and-converting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 סעיף זה מספק מידע על התכונות בעת טעינה והצלת מסמך, כמו גם מידע על האפשרויות בעת המרת מסמך מפורמט אחד למשנהו.

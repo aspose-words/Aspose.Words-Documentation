@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words お問い合わせ Java 日々の拡大と充実。 このページでは、製品の巨大で最も興味深い機能について学ぶことができます。"
 weight: 2
 url: /ja/java/what-s-new-in-aspose-words-for-java/
+timestamp: 2024-10-14-12-53-06
 ---
 
 このページでは、最も興味深い新しいものについて説明します Aspose.Words 最近のリリースで導入された機能。

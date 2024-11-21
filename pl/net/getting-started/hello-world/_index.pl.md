@@ -7,6 +7,7 @@ description: "Twórz, edytuj i zapisuj swój pierwszy dokument w dowolnym obsłu
 type: docs
 weight: 20
 url: /pl/net/hello-world/
+timestamp: 2024-01-27-14-07-04
 ---
 
 "Witaj, świecie!" kod jest często pierwszym prostym przykładem zapisu "Aspose.Words dla .NET" i może być również używany jako test poprawności, aby upewnić się, że oprogramowanie przeznaczone do kompilowania lub uruchamiania kodu źródłowego jest poprawnie zainstalowane.

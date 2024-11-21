@@ -7,6 +7,7 @@ description: "نحوه دستکاری پاورقی ها و یادداشت های
 type: docs
 weight: 160
 url: /fa/net/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words همچنین برخی از کلاس‌ها، روش‌ها و ویژگی‌ها را برای کار با پانوشت‌ها و یادداشت‌های پایانی ارائه می‌کند.

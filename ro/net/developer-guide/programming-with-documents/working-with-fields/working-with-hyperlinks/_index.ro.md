@@ -7,6 +7,7 @@ description: "Cum să adaugi un link hipertext în documentul tău în C# folosi
 type: docs
 weight: 50
 url: /ro/net/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 O legătură hipertext în Microsoft Word documente este câmpul `HYPERLINK`. În Aspose.Words, link-urile sunt implementate prin clasa [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/).

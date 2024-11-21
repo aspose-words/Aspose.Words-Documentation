@@ -9,6 +9,7 @@ aliases:
  - /java/working-with-table-styles/
 weight: 80
 url: /java/working-with-tablestyle/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A table style defines a set of formatting that can be easily applied to a table. Formatting such as borders, shading, alignment, and font can be set in a table style and applied to many tables for a consistent appearance.

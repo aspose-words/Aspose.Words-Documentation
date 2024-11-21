@@ -7,6 +7,7 @@ description: "Konvertieren Sie ein Dokument in ein Byte-Array, um mit diesem Dok
 type: docs
 weight: 40
 url: /de/java/serialize-and-work-with-a-document-in-a-database/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Eine der Aufgaben, die Sie bei der Arbeit mit Dokumenten erledigen müssen, ist das Speichern und Abrufen **Document** Objekte zu und aus einer Datenbank. Dies wäre beispielsweise erforderlich, wenn Sie irgendeine Art von Content-Management-System implementieren würden. Alle vorherigen Versionen von Dokumenten müssen im Datenbanksystem gespeichert werden. Die Möglichkeit, Dokumente in der Datenbank zu speichern, ist auch äußerst nützlich, wenn Ihre Anwendung einen webbasierten Service bietet.

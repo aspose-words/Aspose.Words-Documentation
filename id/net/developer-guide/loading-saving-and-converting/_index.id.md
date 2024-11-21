@@ -7,6 +7,7 @@ description: "Cara mengubah dokumen dari format satu ke format lainnya, seperti 
 type: docs
 weight: 10
 url: /id/net/loading-saving-and-converting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bagian ini memberikan informasi tentang fitur-fitur saat memuat dan menyimpan dokumen, serta data tentang kemungkinan-kemungkinan saat mengkonversi dokumen dari satu format ke format lainnya.

@@ -7,6 +7,7 @@ description: "在 C# 中如何工作表格。 在 Aspose.Words for .NET 中向�
 type: docs
 weight: 190
 url: /zh-hant/net/working-with-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A **表格** 在文件中的使用是構造類似資料的好方法。 因此，桌子是常見的內容格式化元素，並因某種形式或另一種形式而受大多數格式的支持。

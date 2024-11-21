@@ -7,6 +7,7 @@ description: "Giới thiệu tính năng định dạng đánh số trong Aspose
 type: docs
 weight: 200
 url: /vi/net/working-with-lists/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Danh sách trong tài liệu Microsoft Word là tập hợp các thuộc tính định dạng đoạn văn. Danh sách có thể được sử dụng trong tài liệu để cấu trúc, sắp xếp và đánh dấu văn bản. Danh sách là một cách tuyệt vời để sắp xếp dữ liệu trong tài liệu theo cách giúp người đọc dễ dàng tiếp thu và hiểu các điểm chính.

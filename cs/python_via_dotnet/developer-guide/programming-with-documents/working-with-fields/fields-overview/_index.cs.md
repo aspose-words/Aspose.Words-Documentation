@@ -7,6 +7,7 @@ description: "Můžete přistupovat k poli modifikace pomocí Python. Pole dokum
 type: docs
 weight: 10
 url: /cs/python-net/fields-overview/
+timestamp: 2024-10-21-11-17-44
 ---
 
 

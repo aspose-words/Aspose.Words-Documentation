@@ -1,4 +1,4 @@
-﻿---
+---
 title: 使用C++中的表
 second_title: Aspose.Words对于C++
 articleTitle: 使用表格
@@ -7,6 +7,7 @@ description: "如何在 C++ 中使用表格。介绍如何使用表格和表格�
 type: docs
 weight: 190
 url: /zh/cpp/working-with-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 文档中的**table**是构建类似数据的好方法。 这就是为什么表格是一个常见的内容格式元素，并且以一种或另一种形式被大多数格式支持。

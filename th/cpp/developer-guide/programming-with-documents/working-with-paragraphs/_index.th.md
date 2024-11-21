@@ -1,4 +1,4 @@
-﻿---
+---
 title: การทำงานกับย่อหน้าในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: การทำงานกับย่อหน้า
@@ -7,6 +7,7 @@ description: "แนวทางปฏิบัติในการจัดก
 type: docs
 weight: 210
 url: /th/cpp/working-with-paragraphs/
+timestamp: 2024-01-30-16-22-34
 ---
 
 ย่อหน้าคือชุดของอักขระรวมกันเป็นบล็อกตรรกะและลงท้ายด้วยอักขระพิเศษ-*paragraph break* ในAspose.Wordsย่อหน้าจะแสดงโดยคลาสของ[Paragraph](https://reference.aspose.com/words/cpp/aspose.words/paragraph/).

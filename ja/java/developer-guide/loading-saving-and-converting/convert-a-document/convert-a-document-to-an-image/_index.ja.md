@@ -7,6 +7,7 @@ type: docs
 description: "ドキュメントを画像形式(JPG、PNGなど)に変換します。 ドキュメントプレビューを作成したり、ドキュメントスキャンを作成して請求書を送信します。 Javaお問い合わせ"
 weight: 35
 url: /ja/java/convert-a-document-to-an-image/
+timestamp: 2024-01-27-14-07-04
 ---
 
 DOCX や PDF などの他の形式の文書ではなく、画像を取得する必要があります。 たとえば、Webサイトやアプリケーションに任意のドキュメントページのプレビューを追加したり、請求書を送信するドキュメントの「スキャン」を作成する必要があります。 これは、任意の文書を変換する必要がある場合 [サポートされているロード形式](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) あらゆるイメージに、 [サポートされている保存形式](https://reference.aspose.com/words/java/com.aspose.words/saveformat/)お問い合わせ

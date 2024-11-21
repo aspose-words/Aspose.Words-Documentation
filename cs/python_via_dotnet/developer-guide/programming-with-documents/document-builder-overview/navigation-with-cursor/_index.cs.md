@@ -7,6 +7,7 @@ description: "Navigovat mezi různými uzly v rámci dokumentu, jako je odstavec
 type: docs
 weight: 10
 url: /cs/python-net/navigation-with-cursor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Při práci s dokumentem, i když je krátký nebo dlouhý, budete muset navigovat prostřednictvím svého dokumentu. Navigace virtuálním kurzorem představuje schopnost navigovat mezi různými uzly v dokumentu.

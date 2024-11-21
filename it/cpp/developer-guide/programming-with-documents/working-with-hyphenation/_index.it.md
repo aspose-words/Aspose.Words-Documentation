@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lavorare con la sillabazione in C++
 second_title: Aspose.Words per C++
 articleTitle: Lavorare con la sillabazione
@@ -7,6 +7,7 @@ description: "Utilizzare la sillabazione per una disposizione più compatta del 
 type: docs
 weight: 220
 url: /it/cpp/working-with-hyphenation/
+timestamp: 2024-01-30-16-22-34
 ---
 
 A volte è necessario utilizzare la sillabazione per una disposizione più compatta del testo in un documento. Allo stesso tempo, è importante capire che le specifiche della sillabazione delle parole possono differire per ogni lingua.

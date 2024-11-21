@@ -7,6 +7,7 @@ description: "指定各种 TrueType 字体源：系统文件夹、用户源、�
 type: docs
 weight: 30
 url: /zh/net/specifying-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 本主题介绍 Aspose.Words 在查找 TrueType 字体时的默认行为，包括操作系统特定的差异，并演示如何指定用户字体源。

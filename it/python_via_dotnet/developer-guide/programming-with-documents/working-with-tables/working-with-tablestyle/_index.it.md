@@ -7,6 +7,7 @@ description: "Formattazione avanzata delle tabelle C#. Crea uno stile di tabella
 type: docs
 weight: 80
 url: /it/python-net/working-with-tablestyle/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uno stile di tabella definisce un insieme di formattazione che può essere facilmente applicato a una tabella. La formattazione come i bordi, l'ombreggiatura, l'allineamento e il carattere possono essere impostati in uno stile di tabella e applicati a molte tabelle per un aspetto coerente.

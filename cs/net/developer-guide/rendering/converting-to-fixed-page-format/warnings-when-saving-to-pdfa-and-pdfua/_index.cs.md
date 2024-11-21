@@ -7,6 +7,7 @@ description: "PDF/A a PDF/UA ukládají požadavky na přístupnost souvisejíc�
 type: docs
 weight: 29
 url: /cs/net/warnings-when-saving-to-pdfa-and-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Formáty PDF/A a PDF/UA ukládají řadu požadavků na přístupnost týkajících se obsahu dokumentu, které nelze splnit při automatickém převodu z Word do PDF. Tyto požadavky jsou popsány v předchozím článku *"Práce s PDF/A nebo PDF/UA"*. Nyní jsou pro některé z těchto problémů vydána varování.

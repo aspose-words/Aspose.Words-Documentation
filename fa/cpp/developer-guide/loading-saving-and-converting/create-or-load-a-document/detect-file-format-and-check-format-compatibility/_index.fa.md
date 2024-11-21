@@ -1,4 +1,4 @@
-﻿---
+---
 title: تشخیص فرمت فایل و بررسی سازگاری فرمت
 second_title: Aspose.Words برای C++
 articleTitle: تشخیص فرمت فایل و بررسی سازگاری فرمت
@@ -7,6 +7,7 @@ description: "اگر مطمئن نیستید که محتوای واقعی فای
 type: docs
 weight: 20
 url: /fa/cpp/detect-file-format-and-check-format-compatibility/
+timestamp: 2024-10-21-11-17-44
 ---
 
 گاهی لازم است قبل از باز کردن فرمت یک سند مشخص شود زیرا پسوند فایل تضمین نمی کند که محتوای فایل مناسب باشد. به عنوان مثال، شناخته شده است که Crystal Reports اغلب اسناد را در فرمت RTF خروجی می کند، اما به آنها می دهد .پسوند doc.

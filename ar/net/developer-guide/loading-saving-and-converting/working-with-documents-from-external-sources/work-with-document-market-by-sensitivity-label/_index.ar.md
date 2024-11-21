@@ -7,6 +7,7 @@ description: "تحويل Word مع تسمية الحساسية المطبقة إ
 type: docs
 weight: 30
 url: /ar/net/work-with-document-market-by-sensitivity-label/
+timestamp: 2024-01-31-14-23-37
 ---
 
 تتيح لك تسميات الحساسية من Microsoft Purview Information Protection تصنيف بيانات مؤسستك وحمايتها، مع التأكد من عدم إعاقة إنتاجية المستخدم وقدرته على التعاون. بعد تطبيق تسمية الحساسية على المستند، يتم فرض أي إعدادات حماية تم تكوينها لهذه التسمية على المحتوى.

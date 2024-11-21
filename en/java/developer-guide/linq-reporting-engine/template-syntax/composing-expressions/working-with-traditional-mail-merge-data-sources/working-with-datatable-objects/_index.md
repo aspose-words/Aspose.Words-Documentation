@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with DataTable Objects in Java
 second_title: Aspose.Words for Java
 articleTitle: Working with DataTable Objects
@@ -7,6 +7,7 @@ description: "Treat DataTable row objects in template expressions as enumeration
 type: docs
 weight: 20
 url: /java/working-with-datatable-objects/
+timestamp: 2024-01-27-14-07-04
 ---
 
 LINQ Reporting Engine enables you to treat `DataTable` objects in template expressions as enumerations of their rows. That is, you can use template expressions evaluated to such objects in `foreach` tags (see "Outputting Sequential Data" for more information).

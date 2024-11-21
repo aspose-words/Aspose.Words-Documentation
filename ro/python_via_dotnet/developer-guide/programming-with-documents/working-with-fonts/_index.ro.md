@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu fonturi în Python
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Lucrul cu fonturi
@@ -7,6 +7,7 @@ description: "Personalizați setările fontului folosind Python."
 type: docs
 weight: 230
 url: /ro/python-net/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un font este un set de caractere cu o anumită dimensiune, culoare și design. Aspose.Words vă permite să lucrați cu fonturi folosind modulul [fonts](https://reference.aspose.com/words/python-net/aspose.words.fonts/) și clasa [Font](https://reference.aspose.com/words/python-net/aspose.words/font/).

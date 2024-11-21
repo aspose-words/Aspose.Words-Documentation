@@ -7,6 +7,7 @@ description: "ファイルの実際の内容がわからない場合、または
 type: docs
 weight: 20
 url: /ja/python-net/detect-file-format-and-check-format-compatibility/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ファイル拡張子によってはファイルの内容が適切であることが保証されないため、ドキュメントを開く前に形式を決定する必要がある場合があります。たとえば、Crystal Reports はドキュメントを RTF 形式で出力することが多いですが、ドキュメントには .doc 拡張子が付いていることが知られています。

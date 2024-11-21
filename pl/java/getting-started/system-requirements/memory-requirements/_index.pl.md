@@ -7,6 +7,7 @@ description: "Ile pamięci robi Aspose.Words zamiast Java wymagać pracy z dokum
 type: docs
 weight: 10
 url: /pl/java/memory-requirements/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words zapewnia szeroki zakres funkcji do pracy z dokumentami w różnych formatach. Należy zauważyć, że nie ma ograniczeń co do maksymalnej wielkości pliku dokumentu, który Aspose.Words może przetwarzać lub renderować. Jedynym ograniczeniem jest ilość pamięci RAM dostępnej po Twojej stronie.

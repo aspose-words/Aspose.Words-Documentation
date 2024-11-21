@@ -7,6 +7,7 @@ description: "Arbeiten mit asiatischer Typografie Java. Platz zwischen asiatisch
 type: docs
 weight: 240
 url: /de/java/working-with-asian-typography/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Asian Typography ist eine Reihe von Optionen für Textabsätze in Dokumenten geschrieben in asiatischen Sprachen.

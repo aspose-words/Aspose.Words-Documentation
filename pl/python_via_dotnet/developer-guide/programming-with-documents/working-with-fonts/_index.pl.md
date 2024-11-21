@@ -7,6 +7,7 @@ description: "Dostosuj ustawienia czcionek za pomocą Python."
 type: docs
 weight: 230
 url: /pl/python-net/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Czcionka to zestaw znaków o określonym rozmiarze, kolorze i wyglądzie. Aspose.Words umożliwia pracę z czcionkami za pomocą modułu [fonts](https://reference.aspose.com/words/python-net/aspose.words.fonts/) i klasy [Font](https://reference.aspose.com/words/python-net/aspose.words/font/).

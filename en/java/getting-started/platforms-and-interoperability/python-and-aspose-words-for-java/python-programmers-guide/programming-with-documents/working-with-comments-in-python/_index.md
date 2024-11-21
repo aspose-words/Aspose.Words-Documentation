@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working With Comments in Python
 second_title: Aspose.Words for Java
 articleTitle: Working With Comments in Python
@@ -7,6 +7,7 @@ description: "Working with comments using Python."
 type: docs
 weight: 35
 url: /java/working-with-comments-in-python/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Process Comments

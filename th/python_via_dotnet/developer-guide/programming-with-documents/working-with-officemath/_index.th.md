@@ -7,6 +7,7 @@ description: "สร้างและจัดการ OfficeMath Type Objects
 type: docs
 weight: 320
 url: /th/python-net/working-with-officemath/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ตอนนี้การทำงานกับ OfficeMath Type Objects สะดวกยิ่งขึ้น ใน Aspose.Words ลูกค้าสามารถปรับเหตุผลได้อย่างง่ายดายและยังสามารถจัดการได้ว่าจะแสดงสมการแบบอินไลน์หรือแยกบรรทัดกัน ยิ่งไปกว่านั้นด้วยความพร้อมใช้งานของ [MathObjectType](https://reference.aspose.com/words/python-net/aspose.words.math/mathobjecttype/); การควบคุมที่มีประโยชน์สามารถนำไปใช้ได้โดยใช้ออบเจ็กต์เมทริกซ์นี้

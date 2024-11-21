@@ -7,6 +7,7 @@ type: docs
 description: "원격 리소스를로드하면 보안 위험의 이유가 될 수 있습니다. 일반적인 보안 문제 및 솔루션 살펴보기 Java·"
 weight: 120
 url: /ko/java/web-applications-security-when-loading-external-resources/
+timestamp: 2024-01-27-14-07-04
 ---
 
 기본적으로, Aspose.Words 제품정보 Java DocumentBuilder를 사용하여 문서 또는 삽입 이미지를 가져올 때 이미지, CSS 스타일 또는 외부 HTML 문서와 같은 원격 리소스를로드 할 수 있습니다. 이 행동은 전체 세부 사항에서 문서를 처리 할 수 있지만 라이브러리가 웹 응용 프로그램의 일부 인 경우 일부 보안 위험의 이유가 될 수 있습니다.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Beelde in Java
 second_title: Aspose.Words vir Java
 articleTitle: Werk Met Beelde
@@ -7,6 +7,7 @@ type: docs
 description: "Beeldvorms in besonderhede en gevorderde funksies wat deur Aspose.Words vir Java."
 weight: 300
 url: /af/java/working-with-images/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words laat gebruikers toe om op'n baie buigsame manier met beelde te werk. In hierdie artikel kan jy slegs sommige van die moontlikhede van werk met beelde verken.

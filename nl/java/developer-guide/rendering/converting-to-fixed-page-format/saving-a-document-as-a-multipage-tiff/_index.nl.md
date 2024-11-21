@@ -7,6 +7,7 @@ description: "Een document omzetten naar een rasterafbeelding, die wordt besprok
 type: docs
 weight: 30
 url: /nl/java/saving-a-document-as-a-multipage-tiff/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Wanneer u met documenten werkt, moet u uw document vaak converteren naar een rasterbestand(s). Dit is vooral relevant als u uw document in een leesbaar en afdrukbaar formaat moet presenteren, maar niet bewerkbaar. U kunt bijvoorbeeld een rasterafbeelding van de eerste pagina van uw document als voorbeeld gebruiken. Dit artikel beschrijft hoe u een document naar een rasterafbeelding kunt converteren met behulp van het voorbeeld van het TIFF-formaat.

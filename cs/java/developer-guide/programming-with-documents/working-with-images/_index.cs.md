@@ -7,6 +7,7 @@ type: docs
 description: "Obrázek tvary v detailech a pokročilé funkce poskytované Aspose.Words místo Java."
 weight: 300
 url: /cs/java/working-with-images/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words umožňuje uživatelům pracovat s obrázky velmi flexibilním způsobem. V tomto článku můžete prozkoumat pouze některé možnosti práce s obrázky.

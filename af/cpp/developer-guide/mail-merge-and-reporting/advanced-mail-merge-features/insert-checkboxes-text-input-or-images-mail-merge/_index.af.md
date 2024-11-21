@@ -1,4 +1,4 @@
-﻿---
+---
 title: Plaas Checkboxes, Teks Invoer of Beelde tydens Mail Merge
 second_title: Aspose.Words vir C++
 articleTitle: Voeg Checkboxes, Teks Invoer, Of Beelde
@@ -7,6 +7,7 @@ description: "Voeg merkblokkies of teksinvoervelde in tydens Mail Merge met C++.
 type: docs
 weight: 40
 url: /af/cpp/insert-checkboxes-text-input-or-images-mail-merge/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Die samesmelting enjin neem'n dokument as insette, soek vir `MERGEFIELD` velde in dit, en vervang hulle met die data verkry uit die data bron. Gewoonlik word gewone teks en HTML ingevoeg, maar Aspose.Words gebruikers kan ook'n dokument genereer wat meer ongewone scenario's vir mail merge velde hanteer.

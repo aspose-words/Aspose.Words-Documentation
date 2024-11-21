@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aninhado Mail Merge com regiões em C++
 second_title: Aspose.Words para C++
 articleTitle: Aninhado Mail Merge com regiões
@@ -8,6 +8,7 @@ description: "Executar um mail merge operação com regiões aninhadas usando C+
 keywords: "mail merge with nested regions c++"
 weight: 30
 url: /pt/cpp/nested-mail-merge-with-regions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Em alguns cenários, pode ser necessário usar mail merge com regiões. Mesclagem aninhada é um recurso que permite mesclar dados hierárquicos de sua fonte de dados em seu modelo de mesclagem para preencher facilmente seu documento. Basicamente, os dados hierárquicos são representados como um conjunto de itens de dados, e as relações hierárquicas descrevem como os itens de dados estão relacionados entre si (um item de dados é o pai de outro).

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu paragrafele din Python
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Lucrul cu paragrafe
@@ -7,6 +7,7 @@ description: "Introduceți paragraful și specificați formatarea acestuia într
 type: docs
 weight: 210
 url: /ro/python-net/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un paragraf este un set de caractere combinate într – un bloc logic și se termină cu un caracter special-a *paragraph break*. În Aspose.Words, un paragraf este reprezentat de clasa [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/).

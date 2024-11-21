@@ -7,6 +7,7 @@ description: "Python を使用してフィールドの結果をフォーマッ�
 type: docs
 weight: 40
 url: /ja/python-net/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 場合によっては、ユーザーがフィールドにカスタム書式を適用する必要があることがあります。この記事では、これを行う方法の例をいくつか見ていきます。

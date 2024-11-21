@@ -1,4 +1,4 @@
-﻿---
+---
 title: 使用C++中的数字签名
 second_title: Aspose.Words对于C++
 articleTitle: 使用数字签名
@@ -7,6 +7,7 @@ description: "对文档进行数字签名，并检测、计数、验证和删除
 type: docs
 weight: 160
 url: /zh/cpp/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 数字签名是电子签名的技术实现，用于对文档进行签名并对签名者进行身份验证，以确保文档自签名以来未被修改。 每个数字签名对于每个签名者都是唯一的，因为遵循PKI协议来生成公钥和私钥。 对文档进行数字签名意味着使用签名者的私钥创建签名，其中使用数学算法对生成的哈希进行加密。

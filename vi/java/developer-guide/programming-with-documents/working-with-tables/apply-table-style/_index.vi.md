@@ -7,6 +7,7 @@ description: "Định dạng bảng nâng cao Java. Tạo một kiểu bảng v�
 type: docs
 weight: 80
 url: /vi/java/working-with-tablestyle/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Một kiểu bàn định nghĩa một tập hợp định dạng có thể được áp dụng dễ dàng cho một bảng. Định dạng như là đường viền, bóng màu, sắp xếp và phông chữ có thể được đặt trong một phong cách bảng và áp dụng cho nhiều bảng cho một xuất hiện nhất quán.

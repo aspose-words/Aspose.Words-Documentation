@@ -7,6 +7,7 @@ description: "مقدمه ای بر ویژگی چارت، چگونه برای ا�
 type: docs
 weight: 310
 url: /fa/java/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 جدید [insertChart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertChart-int-double-double) روش اضافه شده به [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) کلاس بنابراین، بیایید ببینیم که چگونه یک نمودار ستون ساده را با استفاده از سند وارد کنیم. **Insert نمودار** روش

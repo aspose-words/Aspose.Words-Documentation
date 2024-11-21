@@ -7,6 +7,7 @@ type: docs
 description: "Bir Markdown belgesini Document Object Model'ye çevirin ve C# kullanarak geri alın. Böylece, mevcut karmaşık Markdown ile çalışabilir ve programlı olarak sıfırdan bir Markdown belgesi oluşturabilirsiniz."
 weight: 20
 url: /tr/net/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Bir belgenin içeriğini ve biçimlendirmesini programlı olarak okumak, değiştirmek ve değiştirmek için onu Aspose.Words Document Object Model'ye (DOM) çevirmeniz gerekir.

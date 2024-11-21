@@ -7,6 +7,7 @@ description: "Controlează aspectul documentelor Word luând în considerare dif
 type: docs
 weight: 40
 url: /ro/net/work-with-word-document-options-and-appearance/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uneori, s-ar putea să ai nevoie de a schimba aspectul unui document, pentru exemplu, setarea preferințelor lingvistice sau numărul de linii pe pagină.Aspose.Words oferă posibilitatea de a controla modul în care va fi afișat documentul, precum și anumite opțiuni suplimentare. Acest articol descrie astfel de posibilități.

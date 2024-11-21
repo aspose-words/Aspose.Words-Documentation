@@ -1,4 +1,4 @@
-﻿---
+---
 title: Voeg Velde in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Voeg By Velde
@@ -7,6 +7,7 @@ description: "Hoe om velde in'n dokument in te voeg met C# - leer verskillende m
 type: docs
 weight: 20
 url: /af/net/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Daar is verskeie verskillende maniere om velde in'n dokument in te voeg:

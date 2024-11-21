@@ -1,4 +1,4 @@
-﻿---
+---
 title: 삽입 Checkbox텍스트 입력 또는 이미지 Mail Merge
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 삽입 Checkbox텍스트 입력 또는 이미지
@@ -7,6 +7,7 @@ description: "동안 확인란 또는 텍스트 입력 필드 삽입 Mail Merge 
 type: docs
 weight: 40
 url: /ko/cpp/insert-checkboxes-text-input-or-images-mail-merge/
+timestamp: 2024-01-27-14-07-04
 ---
 
 병합 엔진은 문서를 입력으로 가져 와서 다음을 찾습니다 `MERGEFIELD` 데이터 원본에서 얻은 데이터로 바꿉니다. 일반적으로 일반 텍스트 및 HTML 삽입,하지만 Aspose.Words 사용자는 다음과 같은 경우에 대해 더 특이한 시나리오를 처리하는 문서를 생성할 수도 있습니다 mail merge 필드.

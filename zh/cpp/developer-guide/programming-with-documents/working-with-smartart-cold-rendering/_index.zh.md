@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在C++中使用SmartArt冷渲染
 second_title: Aspose.Words对于C++
 articleTitle: 使用SmartArt冷渲染
@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words对于C++ 执行SmartArt冷渲染，这意味着如果预渲染的SmartArt绘图丢失或不正确，它将显示并呈现SmartArt对象。"
 weight: 330
 url: /zh/cpp/working-with-smartart-cold-rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 SmartArt图形用于快速轻松地创建信息的可视化表示。 您只需从大量最适合您的情况的布局中进行选择。 这种易用性使得SmartArt图形在某些用途上非常受欢迎。

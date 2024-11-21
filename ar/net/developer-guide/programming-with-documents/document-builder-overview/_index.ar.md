@@ -7,6 +7,7 @@ type: docs
 description: "يتيح لك DocumentBuilder إنشاء مستندات ديناميكية من البداية أو إضافة عناصر جديدة إلى المستندات الموجودة باستخدام C#. يوفر DocumentBuilder طرقًا لإدراج النص ومربعات الاختيار والجداول والصور وعناصر المحتوى الأخرى في .NET."
 weight: 30
 url: /ar/net/document-builder-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/) هي فئة قوية ترتبط بـ [Document](https://reference.aspose.com/words/ar/net/aspose.words/document/) وتمكنك من إنشاء مستندات ديناميكية من البداية أو إضافة عناصر جديدة إلى مستند موجود.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu paragrafele din C++
 second_title: Aspose.Words pentru C++
 articleTitle: Lucrul cu paragrafe
@@ -7,6 +7,7 @@ description: "Practici de manipulare a nodurilor de paragraf folosind C++."
 type: docs
 weight: 210
 url: /ro/cpp/working-with-paragraphs/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Un paragraf este un set de caractere combinate într – un bloc logic și se termină cu un caracter special-a *paragraph break*. În Aspose.Words, un paragraf este reprezentat de clasa [Paragraph](https://reference.aspose.com/words/cpp/aspose.words/paragraph/).

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Manipular e substituir fontes TrueType Em C++
 second_title: Aspose.Words para C++
 articleTitle: Manipular e substituir fontes TrueType
@@ -7,6 +7,7 @@ description: "Aspose.Words para C++ pode incorporar as fontes TrueType corretas 
 type: docs
 weight: 10
 url: /pt/cpp/manipulate-and-substitute-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words requer TrueType fontes para uma variedade de tarefas, incluindo a renderização de documentos em formatos de página fixa, por exemplo, PDF ou XPS. Quando Aspose.Words renderiza um documento, ele precisa realizar a incorporação e a incorporação de subconjuntos de fontes TrueType no documento resultante, o que é uma prática normal durante a geração de um documento, incluindo os formatos populares PDF ou XPS. Isso garante que o documento apareça da mesma forma para qualquer visualizador. Além disso, a especificação XPS exige que as fontes sejam sempre incorporadas no documento.

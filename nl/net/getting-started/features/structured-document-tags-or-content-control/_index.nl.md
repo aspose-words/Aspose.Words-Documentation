@@ -7,6 +7,7 @@ description: "Werken met Gestructureerde Document Tags of Content Controls gebru
 type: docs
 weight: 50
 url: /nl/net/structured-document-tags-or-content-control/
+timestamp: 2024-01-31-14-23-37
 ---
 
 

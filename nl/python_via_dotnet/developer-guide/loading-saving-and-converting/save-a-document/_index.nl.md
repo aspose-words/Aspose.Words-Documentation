@@ -8,6 +8,7 @@ description: "Een document opslaan in elk ondersteund formaat Python."
 keywords: "save a document python, save a document to file python, save a document to stream python, save a document Aspose python, save formats supported by Aspose.Words python"
 weight: 20
 url: /nl/python-net/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 De meeste taken die u moet uitvoeren met Aspose.Words een document opslaan. Een document opslaan Aspose.Words levert de [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) methode van de [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) Klasse. Er zijn overbelastingen die het opslaan van een document in een bestand of stream mogelijk maken. Het document kan worden opgeslagen in elk formaat dat wordt ondersteund door Aspose.Words. Voor de lijst van alle ondersteunde opslagformaten, zie de [SaveFormat](https://reference.aspose.com/words/python-net/aspose.words/saveformat/) Lijst.

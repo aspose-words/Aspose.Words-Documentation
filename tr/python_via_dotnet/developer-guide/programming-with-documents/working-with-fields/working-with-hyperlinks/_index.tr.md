@@ -7,6 +7,7 @@ description: "Python kullanarak bir belgeye köprü ekleyin, değiştirin veya d
 type: docs
 weight: 50
 url: /tr/python-net/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word belgelerindeki köprü, `HYPERLINK` alanıdır. Aspose.Words'de köprüler [FieldHyperlink](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldhyperlink/) sınıfı aracılığıyla uygulanır.

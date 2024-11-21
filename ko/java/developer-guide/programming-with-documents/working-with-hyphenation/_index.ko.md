@@ -7,6 +7,7 @@ description: "텍스트의 더 컴팩트 한 배열에 대 한 hyphenation 사�
 type: docs
 weight: 220
 url: /ko/java/working-with-hyphenation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 때로는 문서에 텍스트의 더 컴팩트 한 배열에 대 한 hyphenation을 사용 해야 합니다. 동시에 각 언어에 따라 단어의 특정이 다를 수 있다는 것을 이해하는 것이 중요합니다.

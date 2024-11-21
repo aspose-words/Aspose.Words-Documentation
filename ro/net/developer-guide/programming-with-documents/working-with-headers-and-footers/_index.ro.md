@@ -7,6 +7,7 @@ description: "Cum se manipulează antetele și subsolurile folosind C#. Creați 
 type: docs
 weight: 150
 url: /ro/net/working-with-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words permite utilizatorilor să lucreze cu antet și subsol într-un document. Un antet este textul care este plasat în partea de sus a unei pagini, iar un subsol este textul de la baza paginii. Tipicall aceste zone sunt folosite pentru a introduce informații care ar trebui să fie repetate pe toate sau unele pagini ale documentului, cum ar fi numere de pagină, data creării, informații despre companie și așa mai departe.

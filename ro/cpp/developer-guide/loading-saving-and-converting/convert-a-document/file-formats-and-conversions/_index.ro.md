@@ -1,4 +1,4 @@
-﻿---
+---
 title: Formate de fișiere și conversii
 second_title: Aspose.Words pentru C++
 articleTitle: De ce este conversia caracteristica emblematică a Aspose.Words?
@@ -7,6 +7,7 @@ description: "Convertiți documente din orice încărcare acceptată pentru a sa
 type: docs
 weight: 50
 url: /ro/cpp/file-formats-and-conversions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 {{% alert color="primary" %}}

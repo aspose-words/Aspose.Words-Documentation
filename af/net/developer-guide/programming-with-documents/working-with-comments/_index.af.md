@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Kommentaar in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Werk Met Kommentaar
@@ -7,6 +7,7 @@ description: "Werk met kommentaar met C#."
 type: docs
 weight: 260
 url: /af/net/working-with-comments/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

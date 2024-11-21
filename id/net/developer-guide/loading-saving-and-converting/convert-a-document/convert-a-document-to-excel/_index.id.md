@@ -7,6 +7,7 @@ description: "Konversi PDF ke Excel, XML ke Excel, DOCX ke Excel C#. Simpan doku
 type: docs
 weight: 15
 url: /id/net/convert-a-document-to-excel/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Mengonversi dokumen dari satu format ke format lainnya merupakan fitur andalan Aspose.Words. Anda dapat mengonversi dokumen dalam format [memuat format](https://reference.aspose.com/words/net/aspose.words/loadformat/) apa pun yang tersedia juga ke format XLSX.

@@ -7,6 +7,7 @@ type: docs
 description: "Cierra un documento para obtener su copia idéntica. Al crear una copia, nodos y propiedades del documento original se clonan utilizando Java."
 weight: 70
 url: /es/java/clone-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Cerrar un documento es el proceso de crear una copia idéntica de un documento original, que puede mejorar el rendimiento y ahorrarle de posibles fugas de memoria.

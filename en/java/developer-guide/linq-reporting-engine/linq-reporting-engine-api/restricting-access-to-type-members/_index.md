@@ -7,6 +7,7 @@ description: "Learn how to restrict access of a template author to members of ty
 type: docs
 weight: 90
 url: /java/restricting-access-to-type-members/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In scenarios where report templates are created by a third party, it can make sense to restrict access of a template author to members of types sensitive from a security point of view. LINQ Reporting Engine provides API to accomplish this as illustrated with the following example. Given that `SomeClass1` and `SomeClass2` are types which members should be inaccessible by the engine through template syntax, you can use the following code snippet to make the engine restrict the access.

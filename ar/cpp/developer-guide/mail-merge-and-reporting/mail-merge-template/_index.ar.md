@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge قالب في C++
 second_title: Aspose.Words ل C++
 articleTitle: Mail Merge قالب
@@ -8,6 +8,7 @@ description: "قم بإنشاء قالب mail merge لتعريف المحتوى 
 keywords: "create mail merge template с++"
 weight: 10
 url: /ar/cpp/mail-merge-template/
+timestamp: 2024-01-31-14-23-37
 ---
 
 من الشائع استخدام قالب دمج كمستند أساسي لعملية mail merge إما إذا كانت بسيطة mail merge أو mail merge مع مناطق. Mail merge مع المناطق هو أكثر قوة وشعبية من mail merge بسيطة. تعتبر mail merge البسيطة حالة معينة من mail merge مع المناطق التي تكون فيها المنطقة هي المستند بأكمله. يتم شرح كل شيء في المقالة التالية "أنواع Mail Merge العملية" بمزيد من التفصيل.

@@ -7,6 +7,7 @@ description: "این بخش مقایسه ای از قابلیت های بین ا
 type: docs
 weight: 90
 url: /fa/java/aspose-words-for-android-via-java-features/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Aspose.Words برای Android از طریق Java ویژگی ها

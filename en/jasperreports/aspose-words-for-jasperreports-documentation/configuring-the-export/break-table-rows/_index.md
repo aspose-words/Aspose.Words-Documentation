@@ -1,4 +1,4 @@
-﻿---
+---
 title: Break Table Rows
 second_title: Aspose.Words for JasperReports
 articleTitle: Break Table Rows
@@ -7,6 +7,7 @@ description: "Aspose Words for JasperReports will allow breaking table rows when
 type: docs
 weight: 210
 url: /jasperreports/break-table-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

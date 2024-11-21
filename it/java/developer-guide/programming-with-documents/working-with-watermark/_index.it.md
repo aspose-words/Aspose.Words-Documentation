@@ -7,6 +7,7 @@ type: docs
 description: "La manipolazione dei fili del documento utilizzando Java."
 weight: 70
 url: /it/java/working-with-watermark/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Questo argomento parla di come lavorare programmaticamente con una filigrana utilizzando Aspose.Words. Un watermark è un'immagine di sfondo che mostra dietro il testo in un documento. Una filigrana può contenere un testo o un'immagine rappresentata dal [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) classe.

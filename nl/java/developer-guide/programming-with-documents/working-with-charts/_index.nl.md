@@ -7,6 +7,7 @@ description: "Inleiding tot grafiek functie, hoe te maken en te manipuleren graf
 type: docs
 weight: 310
 url: /nl/java/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Het nieuwe [insertChart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertChart-int-double-double) de methode is toegevoegd aan de [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) Klasse. Dus, laten we eens kijken hoe je een eenvoudige kolom grafiek in het document in te voegen met behulp van **invoegen Grafiek** methode.

@@ -7,6 +7,7 @@ type: docs
 description: "Konvertieren Sie ein Dokument in das Bildformat (JPG, PNG, etc.). Erstellen Sie eine Dokumentvorschau oder erstellen Sie einen Dokumentenscan, um eine Rechnung zu senden. Java."
 weight: 35
 url: /de/java/convert-a-document-to-an-image/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Manchmal ist es erforderlich, ein Bild anstelle von Dokumenten in anderen Formaten wie DOCX oder PDF zu erhalten. Zum Beispiel müssen Sie eine Vorschau von jeder Dokumentseite zu Ihrer Website oder Anwendung hinzufügen oder einen "Scan" eines Dokuments erstellen, um eine Rechnung zu senden. Dies ist, wenn Sie ein Dokument in jedem konvertieren müssen [In den Warenkorb](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) zu einem Bild, wieder in jedem [Software und Software](https://reference.aspose.com/words/java/com.aspose.words/saveformat/).

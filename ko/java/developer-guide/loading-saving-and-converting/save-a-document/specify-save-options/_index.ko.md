@@ -7,6 +7,7 @@ description: "문서 저장시 고급 속성 설정 Java 공정에 더 정확한
 type: docs
 weight: 20
 url: /ko/java/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 문서를 저장할 때, 당신은 몇 가지 고급 속성을 설정할 수 있습니다. Aspose.Words 너와 함께 [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/) 저장 공정의 더 정확한 통제를 허용하는 종류. 과부하가 있습니다. **Save** 이용 방법 **SaveOptions** object – 클래스에서 파생된 클래스의 객체가 있어야 합니다. **SaveOptions** 수업. 각 저장 체재에는 이 득점방해 체재를 위한 득점방해 선택권이 있는 대응 종류가 있습니다, 예를 들면, 거기 있습니다 [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) PDF 형식으로 저장하기 [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) 저장하기 Markdown 체재, 또는 [ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/) 이미지에 저장. 이 문서는에서 파생 된 몇 가지 옵션 클래스와 작업의 예를 제공합니다 **SaveOptions**·

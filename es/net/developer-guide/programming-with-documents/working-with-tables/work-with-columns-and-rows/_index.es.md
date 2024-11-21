@@ -7,6 +7,7 @@ description: "Trabajar con partes de una tabla: filas, columnas y celdas usando 
 type: docs
 weight: 30
 url: /es/net/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Para tener más control sobre cómo funcionan las tablas, aprenda a manipular columnas y filas.

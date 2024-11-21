@@ -7,6 +7,7 @@ description: "PDFをExcel、XML、Excel、DOCX、Excelに変換する Javaお問
 type: docs
 weight: 15
 url: /ja/java/convert-a-document-to-excel/
+timestamp: 2024-01-31-14-23-37
 ---
 
 1つの形式から別の形式への文書の変換は、 Aspose.Wordsお問い合わせ 利用可能な文書を変換することができます [ロード形式](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) XLSX 形式にも対応

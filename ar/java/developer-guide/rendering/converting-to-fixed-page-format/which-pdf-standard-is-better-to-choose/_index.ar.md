@@ -7,6 +7,7 @@ description: "اختيار أفضل معيار PDF لتصدير نتيجة مه�
 type: docs
 weight: 27
 url: /ar/java/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 For some tasks, certain PDF standards will fit better or vice versa worse. وفي هذه المادة، سنحاول أن نحدد المعايير التي تحددها قوات الدفاع الشعبي في الحالات التي يكون من المنطقي اختيارها.

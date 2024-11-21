@@ -7,6 +7,7 @@ description: "各種指定 ログイン タイプ フォント ソース: シス
 type: docs
 weight: 30
 url: /ja/java/specify-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 このトピックでは、デフォルトの動作について説明しています。 Aspose.Words オペレーティングシステムの特定の違いを含む TrueType フォントを探し、ユーザーフォントのソースを指定する方法を示します。

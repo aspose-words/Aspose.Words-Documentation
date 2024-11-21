@@ -8,6 +8,7 @@ description: "با استفاده از Python یک سند را در هر قال�
 keywords: "save a document python, save a document to file python, save a document to stream python, save a document Aspose python, save formats supported by Aspose.Words python"
 weight: 20
 url: /fa/python-net/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 بیشتر کارهایی که باید با Aspose.Words انجام دهید شامل ذخیره یک سند است. برای ذخیره یک سند، Aspose.Words روش [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) از کلاس [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) را ارائه می دهد. اضافه بارهایی وجود دارد که اجازه می دهد یک سند را در یک فایل یا جریان ذخیره کنید. سند را می توان در هر قالب ذخیره ای که توسط Aspose.Words پشتیبانی می شود ذخیره کرد. برای لیست همه فرمت های ذخیره پشتیبانی شده، به شمارش [SaveFormat](https://reference.aspose.com/words/python-net/aspose.words/saveformat/) مراجعه کنید.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: التحويل إلى تنسيق الصفحة الثابتة في C++
 second_title: Aspose.Words ل C++
 articleTitle: التحويل إلى تنسيق الصفحة الثابتة
@@ -7,6 +7,7 @@ description: "حفظ المستندات إلى PDF, XPS, HTML, XAML, PostScript,
 type: docs
 weight: 10
 url: /ar/cpp/converting-to-fixed-page-format/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Aspose.Words تنفذ محرك تخطيط الصفحة الخاصة بها. قبل الخوض في مواصفاتها، من المفيد أولا مناقشة الوثيقة على مستوى عال.

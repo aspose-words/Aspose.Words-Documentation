@@ -1,4 +1,4 @@
-﻿---
+---
 title: Format File dan Konversi
 second_title: Aspose.Words untuk C++
 articleTitle: Mengapa Konversi merupakan Fitur Unggulan Aspose.Words?
@@ -7,6 +7,7 @@ description: "Konversi dokumen dari beban apa pun yang didukung ke format penyim
 type: docs
 weight: 50
 url: /id/cpp/file-formats-and-conversions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 {{% alert color="primary" %}}

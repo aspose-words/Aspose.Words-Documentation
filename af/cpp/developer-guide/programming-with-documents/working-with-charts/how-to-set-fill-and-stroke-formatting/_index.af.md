@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Kaarte in C++
 second_title: Aspose.Words vir C++
 articleTitle: Werk Met Kaarte
@@ -7,6 +7,7 @@ description: "Inleiding Tot Grafiek funksie, hoe om kaarte te skep en te manipul
 type: docs
 weight: 170
 url: /af/cpp/how-to-set-fill-and-stroke-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Vul en slag formatering kan ingestel word vir grafiek reeks, data punte, en merkers. Om dit te doen, moet jy die eienskappe van die **ChartFormat** tipe in die **ChartSeries**, **ChartDataPoint**, en **ChartMarker** klasse gebruik, asook aliasse vir sommige eienskappe, soos ForeColor, BackColor, Sigbaar, en Deursigtigheid in die `Stroke` klas.

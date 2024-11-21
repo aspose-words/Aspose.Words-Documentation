@@ -7,6 +7,7 @@ description: "더 알아보기 Microsoft Word 형식 기능, 스타일과 테마
 type: docs
 weight: 110
 url: /ko/java/working-with-styles-and-themes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 더 보기 [StyleCollection](https://reference.aspose.com/words/java/com.aspose.words/stylecollection/) 클래스는 내장을 관리하고 사용자 정의 설정을 스타일로 적용합니다.

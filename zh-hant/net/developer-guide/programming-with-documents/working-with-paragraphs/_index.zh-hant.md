@@ -7,6 +7,7 @@ description: "在 C# 文檔中插入一段落。 在 C# 中設定段落樣式。
 type: docs
 weight: 210
 url: /zh-hant/net/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 段落是由組成一個邏輯ブロック並結束於特殊字符的文字組成的，這個特殊字符是 *段落換行*。 在 Aspose.Words 中，段落用 [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/) 類別來表示。

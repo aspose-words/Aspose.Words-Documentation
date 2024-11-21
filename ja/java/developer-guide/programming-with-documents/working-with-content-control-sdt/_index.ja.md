@@ -7,6 +7,7 @@ type: docs
 description: "高度なドキュメントコンテンツ管理、コンテンツ管理の作成と操作方法(Structured Document Tags) 使用 Javaお問い合わせ"
 weight: 390
 url: /ja/java/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
 インスタグラム Microsoft Word, テンプレートからフォームを作成し、チェックボックス、テキストボックス、日付ピッカー、ドロップダウンリストなど、コンテンツコントロールを追加できます。 インスタグラム <span notrans="<span notrans=" Aspose.Words"=""></span>????? 構造化された文書のタグまたはコンテンツ管理 にロードされた文書から Aspose.Words 構造ドキュメントタグノードとしてインポートします。 構造化された文書タグ(SDTまたはコンテンツコントロール)は、顧客定義のセマンティックだけでなく、その行動や文書への外観を埋め込むことができます。

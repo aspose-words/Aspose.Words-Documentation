@@ -1,4 +1,4 @@
-﻿---
+---
 title: Öffnen Sie ein Dokument schreibgeschützt in C++
 second_title: Aspose.Words für C++
 articleTitle: Öffnen eines Dokuments schreibgeschützt
@@ -7,6 +7,7 @@ description: "Machen Sie Ihr Dokument schreibgeschützt, damit der Inhalt kopier
 type: docs
 weight: 10
 url: /de/cpp/open-a-document-read-only/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Manchmal haben Sie möglicherweise ein Dokument, das überprüft werden muss, aber Sie möchten nicht, dass Prüfer Ihren Inhalt nach dem Zufallsprinzip ändern. Aspose.Words ermöglicht es Ihnen, die Berechtigung Ihres Dokuments schreibgeschützt zu machen, sodass der Inhalt kopiert oder gelesen, aber nicht geändert werden kann. Dadurch wird verhindert, dass Inhalte entfernt oder Ihrem Dokument hinzugefügt werden.

@@ -7,6 +7,7 @@ description: "Java 'da tablo hücrelerini nasıl birleştireceğiniz. Bir tablod
 type: docs
 weight: 40
 url: /tr/java/working-with-merged-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bazen bir tablodaki bazı satırlar bir başlık veya tam tablo genişliğini kaplayan büyük metin blokları gerektirir. İyi bir tablo tasarımı için kullanıcı, birkaç tablo hücresini tek bir hücrede birleştirebilir. Aspose.Words, tüm giriş formatlarında çalışırken birleştirilmiş hücreleri destekler, hatta html içeriği içe aktarırken bile.

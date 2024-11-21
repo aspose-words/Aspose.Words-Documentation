@@ -7,6 +7,7 @@ description: "Chuyển đổi tài liệu từ hầu hết mọi định dạng 
 type: docs
 weight: 20
 url: /vi/net/convert-a-document-to-html-mhtml-or-epub/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Các tài liệu ở định dạng bố cục luồng HTML và MHTML cũng rất phổ biến và có thể được sử dụng trên bất kỳ nền tảng web nào. Vì lý do đó, việc chuyển đổi tài liệu sang HTML và MHTML là một tính năng quan trọng của Aspose.Words.

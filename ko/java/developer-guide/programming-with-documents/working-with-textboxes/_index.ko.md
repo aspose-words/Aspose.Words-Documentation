@@ -7,6 +7,7 @@ description: "본문내용 바로가기 Aspose.Words 제품정보 Java·"
 type: docs
 weight: 250
 url: /ko/java/working-with-linked-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 내 계정 Aspose.Words, 이름 * [TextBox](https://reference.aspose.com/words/java/com.aspose.words/textbox/) 클래스는 텍스트가 모양 안쪽에 표시되는 방법을 지정하는 데 사용됩니다. 부모로 지명 된 공공 재산은 텍스트 상자에 대한 부모 모양을 얻기 위해 연결되는 고객을 허용 [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) 로그인 **TextBox**·

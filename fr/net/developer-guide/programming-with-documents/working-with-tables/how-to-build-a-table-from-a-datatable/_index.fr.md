@@ -7,6 +7,7 @@ description: "Exemple de remplissage d'un tableau de documents à partir d'une b
 type: docs
 weight: 120
 url: /fr/net/how-to-build-a-table-from-a-datatable/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Souvent, votre application extraira des données d'une base de données et les stockera sous la forme d'un **DataTable**. Vous pouvez facilement insérer ces données dans votre document en tant que nouveau tableau et appliquer rapidement une mise en forme à l'ensemble du tableau.

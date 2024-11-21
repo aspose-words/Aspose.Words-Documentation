@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bir Belgeyi MHTML'a Dönüştürün ve E-posta ile Gönderin
 second_title: Aspose.Words için C++
 articleTitle: Bir Belgeyi MHTML'a Dönüştürün ve E-posta ile Gönderin
@@ -7,6 +7,7 @@ description: "Bir belgeyi hemen hemen her biçimden MHTML biçimine dönüştür
 type: docs
 weight: 30
 url: /tr/cpp/convert-a-document-to-mhtml-and-send-it-by-email/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words herhangi bir belgeyi MHTML (Web Arşivi) biçimine dönüştürebilir. Bu, Aspose.Words ve `Aspose.Email` 'ın birlikte kullanılmasını kolaylaştırır. Önceden tanımlanmış bir belgeyi DOC, OOXML veya RTF gibi desteklenen herhangi bir biçimde Aspose.Words'e yükleyebilir, verilerle doldurabilir, elde edilen belgeyi MHTML olarak kaydedebilir ve ardından `Aspose.Email` kullanarak e-posta ile gönderebilirsiniz.

@@ -7,6 +7,7 @@ description: "使用保存文档时设置高级属性 Java 更准确地控制这
 type: docs
 weight: 20
 url: /zh/java/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 保存文档时,可以设置一些高级属性. Aspose.Words 为你提供 [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/) class,允许更精确地控制保存过程。 有超载的 **Save** 接受一个 **SaveOptions** 对象 – 它应该是来源于 **SaveOptions** 课。 每种保存格式都有相应的类, 持有保存格式的选项, 例如, 有 [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) 用于保存到 PDF 格式, [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) 用于保存到 Markdown 格式,或 [ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/) 用于保存到图像。 本条提供了一些实例,说明如何与来自 **SaveOptions**。 。 。 。

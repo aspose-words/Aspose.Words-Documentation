@@ -7,6 +7,7 @@ description: "Introduction to linked textboxes feature in Aspose.Words for .NET.
 type: docs
 weight: 250
 url: /net/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In Aspose.Words, the [TextBox](https://reference.aspose.com/words/net/aspose.words.drawing/textbox/) class is used to specify how text is displayed inside a shape. It exposes a public property named **Parent** to get the parent shape for the text box so that the customer can find the linked [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) from the associated **TextBox**.

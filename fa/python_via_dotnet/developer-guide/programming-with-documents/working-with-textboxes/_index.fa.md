@@ -7,6 +7,7 @@ description: "با استفاده از Python با جعبه متن در یک س�
 type: docs
 weight: 250
 url: /fa/python-net/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 در Aspose.Words از کلاس [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) برای تعیین نحوه نمایش متن در یک شکل استفاده می شود. این یک ویژگی عمومی به نام [parent](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/parent/) برای دریافت شکل والد برای جعبه متن فراهم می کند تا به مشتری اجازه دهد [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) پیوند شده را از [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) پیوند یافته پیدا کند.

@@ -7,6 +7,7 @@ description: "Python を使用してドキュメント内の範囲を操作し�
 type: docs
 weight: 130
 url: /ja/python-net/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hướng dẫn phát triển trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Hướng Dẫn Phát Triển
@@ -7,6 +7,7 @@ description: "Hướng Dẫn Dành Cho Nhà Phát triển này mô tả các k�
 type: docs
 weight: 20
 url: /vi/cpp/developer-guide/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Hướng Dẫn Dành Cho Nhà Phát triển này cung cấp thông tin về việc sử dụng Aspose.Words cho C++ trong một loạt các kịch bản thực tế. Các bài viết của nó cung cấp các đề xuất và mẹo sẽ giúp sử dụng các tính năng cụ thể, đạt được giao diện tài liệu nhất định hoặc thực hiện trường hợp sử dụng có thể.

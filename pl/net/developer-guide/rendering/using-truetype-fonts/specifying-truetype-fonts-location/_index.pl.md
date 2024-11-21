@@ -7,6 +7,7 @@ description: "Określ różne źródła czcionek TrueType: folder systemowy, źr
 type: docs
 weight: 30
 url: /pl/net/specifying-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 W tym temacie opisano domyślne zachowanie Aspose.Words podczas wyszukiwania czcionek TrueType, w tym różnic specyficznych dla systemu operacyjnego, i pokazano, jak określić źródła czcionek użytkownika.

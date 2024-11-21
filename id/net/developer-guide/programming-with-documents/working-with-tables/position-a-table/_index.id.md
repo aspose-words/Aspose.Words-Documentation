@@ -7,6 +7,7 @@ description: "Tentukan posisi tabel di C#. Dapatkan perataan tabel, dapatkan dan
 type: docs
 weight: 50
 url: /id/net/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ada tabel mengambang dan tabel inline:

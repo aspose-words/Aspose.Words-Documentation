@@ -7,6 +7,7 @@ description: "Jak pracovat s tabulkami v Java. Představování pojmů tabulky u
 type: docs
 weight: 190
 url: /cs/java/working-with-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A **tabulka** v dokumentu je skvělý způsob, jak strukturovat podobné údaje. Proto jsou tabulky společným prvkem formátování obsahu a jsou podporovány většinou formátů v jedné nebo jiné podobě.

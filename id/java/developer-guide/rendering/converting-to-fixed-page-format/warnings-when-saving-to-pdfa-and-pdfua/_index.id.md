@@ -7,6 +7,7 @@ description: "Persyaratan aksesibilitas impose PDF/A dan PDF/UA terkait dengan k
 type: docs
 weight: 29
 url: /id/java/warnings-when-saving-to-pdfa-and-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Format PDF / A dan PDF / U memaksakan sejumlah persyaratan aksesibilitas yang terkait dengan konten dokumen yang tidak dapat dipenuhi selama konversi otomatis dari Word ke PDF. Persyaratan ini dijelaskan dalam artikel sebelumnya * bekerja dengan PDF/A atau PDF/UA"*. Sekarang peringatan dikeluarkan untuk beberapa masalah ini.

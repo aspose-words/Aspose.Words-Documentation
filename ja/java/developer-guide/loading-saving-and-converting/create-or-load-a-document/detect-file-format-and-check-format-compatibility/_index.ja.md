@@ -7,6 +7,7 @@ description: "ファイルの実際のコンテンツが使用しているかわ
 type: docs
 weight: 20
 url: /ja/java/detect-file-format-and-check-format-compatibility/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ファイル拡張子がファイルの内容が適切であることを保証するものではありませんので、ファイルを開く前に文書の形式を決定する必要がある場合があります。 たとえば、Crystal Reportsは RTF 形式で文書を出力することが多いが、 .doc 拡張子を与えることが知られています。

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Kommentaar in Python
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Werk Met Kommentaar
@@ -7,6 +7,7 @@ description: "Hoe om kommentaar in'n dokument by te voeg, te verwyder of te mani
 type: docs
 weight: 260
 url: /af/python-net/working-with-comments/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

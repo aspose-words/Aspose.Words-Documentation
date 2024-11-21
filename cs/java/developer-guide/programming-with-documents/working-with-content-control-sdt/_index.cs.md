@@ -7,6 +7,7 @@ type: docs
 description: "Pokročilá správa obsahu dokumentů, jak vytvářet a manipulovat s ovládáním obsahu (strukturované značky dokumentů) pomocí Java."
 weight: 390
 url: /cs/java/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
 In Microsoft Word, si můžete vytvořit formulář tím, že začnete s šablonou a přidáváním ovládacích prvků obsahu, včetně zaškrtávacích boxů, textových boxů, sběračů dat a seznamů drop-downů. In <span notrans="<span notrans=" Aspose.Words"=""></span>, Strukturovaná značka dokumentu nebo kontrola obsahu z jakéhokoli dokumentu naloženého do Aspose.Words je dovážen jako uzel StructuredDocumentTag. Strukturované značky dokumentů (SDT nebo kontrola obsahu) umožňují vložit do dokumentu jak sémantika, tak i chování a vzhled zákazníka.

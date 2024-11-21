@@ -7,6 +7,7 @@ description: "Pengantar untuk bekerja dengan karakter kontrol dalam Aspose.Words
 type: docs
 weight: 400
 url: /id/java/working-with-control-characters/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word dokumen dapat berisi berbagai karakter yang memiliki arti khusus. Biasanya mereka digunakan untuk memformat tujuan dan tidak ditarik dalam mode normal. Anda dapat membuat mereka terlihat jika Anda mengklik tombol Show/Hide Formatting Marks yang terletak di bilah alat Standar.

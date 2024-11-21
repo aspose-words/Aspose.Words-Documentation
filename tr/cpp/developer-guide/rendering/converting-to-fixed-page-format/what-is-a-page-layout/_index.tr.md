@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içindeki Sayfa Düzeni nedir
 second_title: Aspose.Words için C++
 articleTitle: Sayfa Düzeni Nedir
@@ -7,6 +7,7 @@ description: "Sayfa düzeninin ne olduğunu bulalım. Sayfa düzeni, bir belgede
 type: docs
 weight: 5
 url: /tr/cpp/what-is-a-page-layout/
+timestamp: 2024-09-24-14-35-44
 ---
 
 **document page layout**, tüm belge nesnelerinin sayfalarında belirli bir nesnenin nerede bulunduğunu açıklayan bir veri yapısıdır. Ek olarak, nesneler yazı tipi boyutu, gölgeleme veya çizim efektleri gibi görünümlerini etkileyen özelliklere sahip olduğundan, yalnızca nesnenin nerede olduğunu değil, aynı zamanda sayfanın hangi alanlarını kapladığını ve diğer nesnelerin kaplamaması için birden çok sayfaya uygulanıp uygulanmayacağını bilmeniz gerekir. aynı alan (lar) ı üst üste getirin.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Vind en Vervang in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Vind en Vervang
@@ -7,6 +7,7 @@ type: docs
 description: "Soek'n string of gereelde uitdrukkingspatroon in u dokument en vervang dit met die teks wat u wil gebruik C#."
 weight: 100
 url: /af/net/find-and-replace/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Jy kan maklik binne jou dokument navigeer met'n sleutelbord en muis, maar as jy baie bladsye het om deur te blaai, sal dit nogal'n rukkie neem om spesifieke teks in'n lang dokument te vind. Dit sal meer tydrowend wees as u sekere karakters of woorde wat u in u dokument gebruik het, wil vervang. Die" Vind en vervang " funksie stel jou in staat om'n volgorde van karakters in'n dokument te vind en dit te vervang met'n ander volgorde van karakters.

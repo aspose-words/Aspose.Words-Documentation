@@ -1,4 +1,4 @@
-﻿---
+---
 title: Omskakeling Na Vaste bladsy Formaat in C++
 second_title: Aspose.Words vir C++
 articleTitle: Omskakeling Na Vaste bladsy Formaat
@@ -7,6 +7,7 @@ description: "Stoor dokumente na PDF, XPS, HTML, XAML, PostScript, en PCL format
 type: docs
 weight: 10
 url: /af/cpp/converting-to-fixed-page-format/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Aspose.Words implementeer sy eie bladsy uitleg enjin. Voordat die spesifikasies daarvan ondersoek word, is dit die moeite werd om eers dokumente op'n hoë vlak te bespreek.

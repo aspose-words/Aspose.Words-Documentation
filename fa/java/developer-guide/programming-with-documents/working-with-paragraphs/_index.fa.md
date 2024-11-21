@@ -7,6 +7,7 @@ description: "روش های دستکاری گره Paragraph با استفاده 
 type: docs
 weight: 210
 url: /fa/java/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 یک پاراگراف مجموعه ای از شخصیت های ترکیب شده در یک بلوک منطقی و پایان دادن به یک شخصیت خاص است - یک شکستن پاراگراف *. In In In Aspose.Words, یک پاراگراف توسط [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) کلاس

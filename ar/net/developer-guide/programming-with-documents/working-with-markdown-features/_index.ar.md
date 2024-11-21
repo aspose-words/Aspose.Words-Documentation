@@ -7,6 +7,7 @@ description: "كيفية تنفيذ ميزات Markdown باستخدام C#. ي�
 type: docs
 weight: 420
 url: /ar/net/working-with-markdown-features/
+timestamp: 2024-01-31-14-23-37
 ---
 
 يناقش هذا الموضوع كيفية تنفيذ ميزات Markdown باستخدام Aspose.Words. Markdown هي طريقة بسيطة لتنسيق نص عادي يمكن تحويله بسهولة إلى HTML. يدعم Aspose.Words ميزات Markdown التالية:

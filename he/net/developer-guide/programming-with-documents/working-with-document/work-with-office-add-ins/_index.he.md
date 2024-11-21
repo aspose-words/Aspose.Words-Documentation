@@ -7,6 +7,7 @@ description: "Aspose.Words עבור .NET מספק שיעורים שונים לע
 type: docs
 weight: 50
 url: /he/net/work-with-office-add-ins/
+timestamp: 2024-01-27-14-07-04
 ---
 
 לפעמים אתה יכול לתת גישה לבקרות ממשק המפעיל קוד כדי לשנות מסמכים. Aspose.Words API מספק `WebExtensions` שם מרחב, אשר נותן שיעורים שונים כדי להתאים אישית אלמנטים ותכונות להאריך את אוצר המילים XML לייצג את Office Add-ins.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Deployment and Activation
 second_title: Aspose.Words for SharePoint
 articleTitle: Deployment and Activation
@@ -7,6 +7,7 @@ description: "Deployment and activation processes details for the Aspose.Words f
 type: docs
 weight: 30
 url: /sharepoint/deployment-and-activation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Deployment

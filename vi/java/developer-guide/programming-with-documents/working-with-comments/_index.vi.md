@@ -7,6 +7,7 @@ description: "Làm việc với các bình luận bằng cách sử dụng Java.
 type: docs
 weight: 260
 url: /vi/java/working-with-comments/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

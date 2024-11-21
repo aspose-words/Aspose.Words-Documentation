@@ -7,6 +7,7 @@ description: "Jak vložit pole do dokumentu pomocí C# Naučte se různé způso
 type: docs
 weight: 20
 url: /cs/net/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Existuje několik různých způsobů, jak vložit pole do dokumentu:

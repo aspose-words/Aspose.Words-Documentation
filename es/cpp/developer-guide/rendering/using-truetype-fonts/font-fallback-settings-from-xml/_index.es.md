@@ -1,4 +1,4 @@
-﻿---
+---
 title: Configuración de fuente FallBack de XML en C++
 second_title: Aspose.Words para C++
 articleTitle: Configuración de fuente FallBack desde XML
@@ -7,6 +7,7 @@ description: "El mecanismo de respaldo de fuentes se usa cuando se resuelve la f
 type: docs
 weight: 14
 url: /es/cpp/font-fallback-settings-from-xml/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Hay dos mecanismos diferentes utilizados en Aspose.Words: Sustitución de fuentes y respaldo de fuentes. La sustitución de fuentes se utiliza cuando la fuente especificada en el documento no se pudo encontrar entre las fuentes como se describió en las secciones anteriores. El mecanismo de respaldo de fuentes se usa cuando se resuelve la fuente, pero no contiene un carácter específico. En este caso, Aspose.Words intenta usar una de las fuentes alternativas para el carácter.

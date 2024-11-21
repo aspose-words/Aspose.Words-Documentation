@@ -7,6 +7,7 @@ description: "Pengenalan fitur kotak teks tertaut di Aspose.Words untuk .NET."
 type: docs
 weight: 250
 url: /id/net/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Di Aspose.Words, kelas [TextBox](https://reference.aspose.com/words/net/aspose.words.drawing/textbox/) digunakan untuk menentukan bagaimana teks ditampilkan di dalam suatu bentuk. Ini memperlihatkan properti publik bernama **Parent** untuk mendapatkan bentuk induk untuk kotak teks sehingga pelanggan dapat menemukan [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) tertaut dari **TextBox** terkait.

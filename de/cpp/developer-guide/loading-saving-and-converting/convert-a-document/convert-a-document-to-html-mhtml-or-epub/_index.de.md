@@ -1,4 +1,4 @@
-﻿---
+---
 title: Konvertieren eines Dokuments in HTML, MHTML oder EPUB
 second_title: Aspose.Words für C++
 articleTitle: Konvertieren eines Dokuments in HTML, MHTML oder EPUB
@@ -7,6 +7,7 @@ description: "Konvertieren Sie ein Dokument von fast jedem Format in HTML oder M
 type: docs
 weight: 20
 url: /de/cpp/convert-a-document-to-html-mhtml-or-epub/
+timestamp: 2024-10-21-08-52-03
 ---
 
 Dokumente in den Formaten HTML und MHTML Flow-Layout sind ebenfalls sehr beliebt und können auf jeder Webplattform verwendet werden. Aus diesem Grund ist die Konvertierung von Dokumenten in HTML und MHTML eine wichtige Funktion von Aspose.Words.

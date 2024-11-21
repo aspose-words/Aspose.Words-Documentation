@@ -7,6 +7,7 @@ description: "Inleiding tot het werken met controle karakters in Aspose.Words vo
 type: docs
 weight: 400
 url: /nl/python-net/working-with-control-characters/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word documenten kunnen verschillende tekens bevatten die een bijzondere betekenis hebben. Normaal worden ze gebruikt voor opmaakdoeleinden en worden ze niet in de normale modus getekend. U kunt ze zichtbaar maken als u op de knop Opmaakmarkeringen tonen/verbergen klikt op de standaardwerkbalk.

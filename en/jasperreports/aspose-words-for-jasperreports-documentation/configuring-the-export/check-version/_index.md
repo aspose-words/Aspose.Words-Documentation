@@ -1,4 +1,4 @@
-﻿---
+---
 title: Check Version
 second_title: Aspose.Words for JasperReports
 articleTitle: Check Version
@@ -7,6 +7,7 @@ description: "Aspose Words for JasperReports will always try to check version of
 type: docs
 weight: 200
 url: /jasperreports/check-version/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

@@ -7,6 +7,7 @@ description: "Get and set bookmark textin a document easily and fast instead of 
 type: docs
 weight: 130
 url: /net/get-and-set-bookmark-text/
+timestamp: 2024-01-27-14-07-04
 ---
 
 On this page we will look at how to get and set bookmark text in a document using Aspose.Words or Open XML SDK.

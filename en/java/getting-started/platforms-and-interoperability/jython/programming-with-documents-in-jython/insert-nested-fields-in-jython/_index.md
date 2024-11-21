@@ -1,4 +1,4 @@
-﻿---
+---
 title: Insert Nested Fields in Jython
 second_title: Aspose.Words for Java
 articleTitle: Insert Nested Fields in Jython
@@ -7,6 +7,7 @@ description: "Insert Nested Fields using Jython."
 type: docs
 weight: 43
 url: /java/insert-nested-fields-in-jython/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Insert Nested Fields

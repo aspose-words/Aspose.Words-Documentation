@@ -7,6 +7,7 @@ description: "موقعیت جدول در Java... یک تراز جدول، دری
 type: docs
 weight: 50
 url: /fa/java/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 جداول شناور و جداول خط وجود دارد:

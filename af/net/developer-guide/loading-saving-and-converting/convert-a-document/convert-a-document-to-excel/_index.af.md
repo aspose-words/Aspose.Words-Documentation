@@ -1,4 +1,4 @@
-﻿---
+---
 title: Skakel Word Na Excel in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Skakel'n Dokument Om Na Excel
@@ -7,6 +7,7 @@ description: "Omskep PDF Na Excel, XML Na Excel, DOCX na Excel C#. Stoor'n dokum
 type: docs
 weight: 15
 url: /af/net/convert-a-document-to-excel/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Die omskakeling van dokumente van een formaat na'n ander is die vlagskip-funksie van Aspose.Words. U kan dokumente in enige beskikbare [load format](https://reference.aspose.com/words/net/aspose.words/loadformat/) ook omskakel na XLSX formaat.

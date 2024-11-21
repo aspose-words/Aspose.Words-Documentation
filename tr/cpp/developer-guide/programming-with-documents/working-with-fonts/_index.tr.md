@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içindeki Fontlarla Çalışma
 second_title: Aspose.Words için C++
 articleTitle: Yazı Tipleriyle Çalışma
@@ -7,6 +7,7 @@ description: "C++ kullanarak ayrıntılı olarak yazı tipi biçimlendirme."
 type: docs
 weight: 230
 url: /tr/cpp/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Yazı tipi, belirli bir boyut, renk ve tasarıma sahip bir karakter kümesidir. Aspose.Words, [Fonts](https://reference.aspose.com/words/cpp/aspose.words.fonts/) ad alanını ve [Font](https://reference.aspose.com/words/cpp/aspose.words/font/) sınıfını kullanarak yazı tipleriyle çalışmanıza olanak tanır.

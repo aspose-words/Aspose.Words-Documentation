@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words for Python via .NET پشتیبانی فنی رایگان را برای همه کاربران فراهم می کند. لطفاً سؤال، مشکل یا درخواست ویژگی خود را با استفاده از انجمن پشتیبانی رایگان Aspose گزارش دهید."
 weight: 80
 url: /fa/python-net/technical-support/
+timestamp: 2024-11-18-12-56-02
 ---
 
 Aspose پشتیبانی فنی نامحدود رایگان را برای همه محصولات خود ارائه می دهد. پشتیبانی از جمله ارزیابی برای همه کاربران در دسترس است. راه اصلی پشتیبانی [Aspose.Forums](https://forum.aspose.com/c/words/8) است.

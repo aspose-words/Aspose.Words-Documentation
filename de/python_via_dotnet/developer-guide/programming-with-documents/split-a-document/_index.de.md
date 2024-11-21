@@ -7,6 +7,7 @@ description: "Teilen Sie ein Dokument mit Python in mehrere Dateien auf. Verwend
 type: docs
 weight: 90
 url: /de/python-net/split-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 *Splitting* oder *ein Dokument aufteilen* ist der Vorgang, bei dem ein großes Dokument in eine größere Anzahl kleinerer Dateien aufgeteilt wird. Es gibt verschiedene Gründe, eine Datei zu teilen. Beispielsweise benötigen Sie nur einige Seiten eines bestimmten Dokuments und nicht das gesamte. Oder Sie möchten aus Datenschutzgründen nur einige Teile eines Dokuments mit anderen teilen. Mit der Aufteilungsfunktion können Sie nur die erforderlichen Teile des Dokuments abrufen und die erforderlichen Aktionen damit durchführen, beispielsweise markieren, speichern oder senden.

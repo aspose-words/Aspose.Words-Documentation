@@ -7,6 +7,7 @@ type: docs
 description: "Extracting document content in different using Java."
 weight: 140
 url: /ar/java/extract-selected-content-between-nodes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 وعند العمل مع الوثائق، من المهم أن يكون بالإمكان بسهولة استخراج المحتوى من نطاق محدد في وثيقة ما. غير أن المحتوى قد يتألف من عناصر معقدة مثل الفقرات والجداول والصور وما إلى ذلك.

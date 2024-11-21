@@ -7,6 +7,7 @@ type: docs
 description: "Използване на това въведение Aspose.Words вместо Java основите да започнете да осъзнавате стойността на Aspose.Words за твоя бизнес."
 weight: 10
 url: /bg/java/getting-started/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Това Geting Started осигурява представяне Aspose.Words фундамент. За нови потребители Aspose.WordsТова е най-бързият начин да научите основните изисквания и възможности.

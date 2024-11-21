@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içindeki VBA Makrolarla çalışma
 second_title: Aspose.Words için C++
 articleTitle: VBA Makrolarla Çalışma
@@ -7,6 +7,7 @@ description: "C++ kullanarak belge VBA projeleriyle çalışma."
 type: docs
 weight: 410
 url: /tr/cpp/working-with-vba-macros/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Visual Basic for Applications (VBA) for Microsoft Word, işlevselliği genişletmek için kullanılabilecek basit ama güçlü bir programlama dilidir. Aspose.Words API VBA proje kaynak koduna erişmek için üç sınıf sağlar:

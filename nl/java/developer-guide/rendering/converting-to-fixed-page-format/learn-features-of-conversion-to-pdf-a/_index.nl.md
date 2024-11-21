@@ -7,6 +7,7 @@ description: "Omzetten naar PDF/A-1, PDF/A-2, PDF/A-4 en PDF/UA met behulp van J
 type: docs
 weight: 25
 url: /nl/java/learn-features-of-conversion-to-pdf-a-pdf-ua/
+timestamp: 2024-01-31-14-23-37
 ---
 
 PDF is een vaste pagina formaat dat erg populair is onder gebruikers en wordt breed ondersteund door verschillende toepassingen, als een PDF-document ziet er hetzelfde uit op elk apparaat. Om deze reden is het omzetten naar PDF een belangrijk kenmerk van Aspose.Words.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Programming With Documents in Python
 second_title: Aspose.Words for Java
 articleTitle: Programming With Documents in Python
@@ -13,4 +13,5 @@ aliases:
   - /java/working-with-document-in-python/
   - /java/working-with-fields-in-python/
   - /java/working-with-images-in-python/
+timestamp: 2024-01-27-14-07-04
 ---

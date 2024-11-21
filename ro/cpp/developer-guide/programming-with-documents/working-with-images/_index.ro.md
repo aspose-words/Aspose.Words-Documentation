@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu imagini în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Lucrul cu imagini
@@ -7,6 +7,7 @@ type: docs
 description: "Introducere în funcția de imagine, cum să creați și să manipulați imaginea folosind C++."
 weight: 300
 url: /ro/cpp/working-with-images/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words permite utilizatorilor să lucreze cu imagini într-un mod foarte flexibil. În acest articol, puteți explora doar câteva dintre posibilitățile de lucru cu imagini.

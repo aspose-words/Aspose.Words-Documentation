@@ -7,6 +7,7 @@ description: "Lacak perubahan konten dan format yang Anda atau orang lain lakuka
 type: docs
 weight: 270
 url: /id/python-net/track-changes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Fungsi lacak perubahan, juga dikenal sebagai peninjauan, memungkinkan Anda melacak perubahan pada konten dan format yang dibuat oleh Anda atau pengguna lain. Fitur perubahan trek dengan Aspose.Words ini mendukung perubahan trek di Microsoft Word. Dengan fungsi ini, Anda dapat mengakses revisi individual dalam dokumen Anda dan menerapkan properti berbeda pada revisi tersebut.

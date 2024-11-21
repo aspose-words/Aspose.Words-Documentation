@@ -8,6 +8,7 @@ type: docs
 description: "Aspose.Words for .NET 在 SmartArt 上执行智能艺术冷呈现，即在预呈现的智能艺术绘图丢失或不正确时使用 C# 布局和呈现 SmartArt 对象。"
 weight: 330
 url: /zh-hant/net/working-with-smartart-cold-rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 SmartArt 圖形用於快速、輕鬆地建立資訊的視覺化。 您可以從許多適合您状況的布局中進行選擇。 這麼容易使用，使得SmartArt圖像在某些目的上很受歡迎。

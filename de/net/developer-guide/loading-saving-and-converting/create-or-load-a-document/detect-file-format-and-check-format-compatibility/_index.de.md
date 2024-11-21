@@ -7,6 +7,7 @@ description: "Bestimmen Sie das Dateiformat in C#, wenn Sie nicht sicher sind, w
 type: docs
 weight: 20
 url: /de/net/detect-file-format-and-check-format-compatibility/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Manchmal ist es notwendig, das Format eines Dokuments vor dem Öffnen zu bestimmen, da die Dateierweiterung nicht garantiert, dass der Inhalt der Datei angemessen ist. Es ist beispielsweise bekannt, dass Crystal Reports Dokumente häufig im RTF-Format ausgibt, diese jedoch mit der Erweiterung .doc versehen.

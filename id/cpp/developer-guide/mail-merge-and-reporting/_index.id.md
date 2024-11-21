@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge dan Pelaporan dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Mail Merge dan Pelaporan
@@ -8,6 +8,7 @@ description: "Mail Merge adalah fitur populer untuk membuat dokumen dengan cepat
 keywords: "how to use mail merge c++"
 weight: 30
 url: /id/cpp/mail-merge-and-reporting/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Mail Merge adalah fitur populer untuk membuat dokumen seperti surat, label, dan amplop dengan cepat dan mudah. Aspose.Words memungkinkan Anda membuat dokumen dari templat dengan bidang mail merge.

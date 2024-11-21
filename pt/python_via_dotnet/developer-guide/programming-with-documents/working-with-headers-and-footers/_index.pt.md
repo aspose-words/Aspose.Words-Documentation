@@ -7,6 +7,7 @@ description: "Crie, gerencie e remova cabeçalhos e rodapés de um documento usa
 type: docs
 weight: 150
 url: /pt/python-net/working-with-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words permite aos usuários trabalhar com cabeçalhos e rodapés em um documento. Um cabeçalho é o texto colocado na parte superior de uma página e um rodapé é o texto na parte inferior de uma página. Normalmente, essas áreas são utilizadas para inserir informações que devem ser repetidas em todas ou algumas páginas do documento, como números de páginas, data de criação, informações da empresa e assim por diante.

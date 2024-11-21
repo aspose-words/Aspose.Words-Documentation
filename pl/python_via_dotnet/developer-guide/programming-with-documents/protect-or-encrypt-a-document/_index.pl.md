@@ -7,6 +7,7 @@ description: "Aspose.Words dla Python via .NET zapewnia tryb tylko do odczytu, s
 type: docs
 weight: 50
 url: /pl/python-net/protect-or-encrypt-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Głównym powodem ochrony lub szyfrowania dokumentu jest zapewnienie większej kontroli nad tym, kto może uzyskać dostęp do dokumentu i kto może go edytować. Stosując ochronę swoich dokumentów, unikasz typowych zagrożeń, takich jak kopiowanie lub modyfikowanie dokumentów bez pozwolenia, a także wyciek danych.

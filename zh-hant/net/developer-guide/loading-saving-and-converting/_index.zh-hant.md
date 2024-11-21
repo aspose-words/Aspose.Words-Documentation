@@ -7,6 +7,7 @@ description: "如何將文件從一個格式轉換到另一個格式，例如 Wo
 type: docs
 weight: 10
 url: /zh-hant/net/loading-saving-and-converting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 本節將提供有關儲存文件和載入文件時之功能之資訊，以及當將一份文件從一種格式轉換至另一種格式時之可能性之資料。

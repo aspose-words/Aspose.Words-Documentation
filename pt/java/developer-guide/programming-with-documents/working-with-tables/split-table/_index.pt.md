@@ -7,6 +7,7 @@ description: "Mesa dividida em Java. Como dividir uma tabela em duas tabelas sep
 type: docs
 weight: 100
 url: /pt/java/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Quadro, representado no Aspose.Words Document Object Model, é composta de linhas e células independentes, tornando mais fácil dividir uma tabela.

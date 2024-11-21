@@ -1,4 +1,4 @@
-﻿---
+---
 title: TrueType-Schriftarten auf Linux in C++ installieren
 second_title: Aspose.Words für C++
 articleTitle: TrueType Schriftarten auf Linux installieren
@@ -7,6 +7,7 @@ description: "Aspose.Words für C++ ermöglicht das Rendern eines mit Microsoft 
 type: docs
 weight: 20
 url: /de/cpp/install-truetype-fonts-on-linux/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Meistens verwenden Sie Aspose.Words, um DOC - oder DOCX-Dokumente in das PDF -Format zu konvertieren. Wenn Sie dies auf einem Linux -Computer tun müssen, erfahren Sie in diesem Thema, wie Sie sicherstellen, dass Aspose.Words Ihre Dokumente mit der besten Genauigkeit wiedergibt.

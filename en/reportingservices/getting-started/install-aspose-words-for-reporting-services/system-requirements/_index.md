@@ -1,4 +1,4 @@
-﻿---
+---
 title: System Requirements
 second_title: Aspose.Words for Reporting Services
 articleTitle: System Requirements
@@ -7,6 +7,7 @@ description: "System requirements for the Aspose.Words for Reporting Services."
 type: docs
 weight: 10
 url: /reportingservices/system-requirements/
+timestamp: 2024-11-13-12-00-30
 ---
 
 ## Requirements for Generating Reports on the Server

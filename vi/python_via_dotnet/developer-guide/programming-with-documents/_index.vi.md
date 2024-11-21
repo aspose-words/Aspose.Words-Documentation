@@ -7,6 +7,7 @@ type: docs
 description: "Sử dụng các lớp Aspose sử dụng `Python.Words` Document Object Model để tạo, sửa đổi và quản lý tài liệu bằng python-net theo chương trình. Làm việc với các thuộc tính, cài đặt và nội dung của tài liệu cũng như giao diện của tài liệu thông qua việc quản lý màu sắc, hình dạng, phông chữ và đồ họa khác."
 weight: 60
 url: /vi/python-net/programming-with-documents/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Phần này cung cấp thông tin về cách tạo, sửa đổi và quản lý tài liệu theo chương trình với các lớp Aspose.Words Document Object Model. Các bài viết trong phần này mô tả một loạt các tác vụ thao tác tài liệu cho phép bạn làm việc với các thuộc tính, cài đặt, nội dung và các thành phần của tài liệu.

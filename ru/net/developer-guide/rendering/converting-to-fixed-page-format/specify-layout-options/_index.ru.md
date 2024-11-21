@@ -7,6 +7,7 @@ description: "Укажите планировку Варианты для раз
 type: docs
 weight: 10
 url: /ru/net/specify-layout-options/
+timestamp: 2024-07-10-08-10-45
 ---
 
 Aspose.Words позволяет создавать выходные документы с различными макетами, в зависимости от параметров, указанных в свойствах [LayoutOptions](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/) класс. Некоторые из этих свойств напоминают некоторые из Microsoft Word Параметры меню пользовательского интерфейса – они будут описаны в данной статье.

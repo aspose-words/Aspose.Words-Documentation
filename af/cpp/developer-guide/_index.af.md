@@ -1,4 +1,4 @@
-﻿---
+---
 title: Ontwikkelaar Gids in C++
 second_title: Aspose.Words vir C++
 articleTitle: Ontwikkelaargids
@@ -7,6 +7,7 @@ description: "Hierdie Ontwikkelaargids beskryf praktiese scenario's en wenke om 
 type: docs
 weight: 20
 url: /af/cpp/developer-guide/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Hierdie Ontwikkelaargids verskaf inligting oor die gebruik van Aspose.Words vir C++ in'n verskeidenheid praktiese scenario's. Die artikels verskaf voorstelle en wenke wat sal help om spesifieke kenmerke te gebruik, 'n sekere dokumentvoorkoms te verkry of'n gebruiksgeval moontlik te maak.

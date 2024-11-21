@@ -7,6 +7,7 @@ description: "使用 Python 自定义字体设置。"
 type: docs
 weight: 230
 url: /zh/python-net/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 字体是一组具有一定大小、颜色和设计的字符。 Aspose.Words 允许您使用 [fonts](https://reference.aspose.com/words/python-net/aspose.words.fonts/) 模块和 [Font](https://reference.aspose.com/words/python-net/aspose.words/font/) 类来处理字体。

@@ -7,6 +7,7 @@ description: "PDF를 Excel로, XML을 Excel로, DOCX를 Excel Python로 변환�
 type: docs
 weight: 15
 url: /ko/python-net/convert-a-document-to-excel/
+timestamp: 2024-01-31-14-23-37
 ---
 
 문서를 한 형식에서 다른 형식으로 변환하는 것은 Aspose.Words의 주요 기능입니다. 사용 가능한 [로드 형식](https://reference.aspose.com/words/python-net/aspose.words/loadformat/)의 문서를 XLSX 형식으로 변환할 수도 있습니다.

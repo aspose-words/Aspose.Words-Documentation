@@ -7,6 +7,7 @@ type: docs
 description: "DocumentBuilder memungkinkan Anda untuk membangun dokumen dinamis dari awal atau menambahkan elemen baru ke yang ada. DocumentBuilder menyediakan metode untuk memasukkan teks, kotak centang, tabel, gambar, dan elemen konten lainnya JavaSitemap"
 weight: 30
 url: /id/java/document-builder-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) adalah kelas kuat yang mengasosiasikan dengan [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) dan memungkinkan Anda untuk membangun dokumen dinamis dari awal atau menambahkan elemen baru ke yang ada.

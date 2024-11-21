@@ -7,6 +7,7 @@ description: "Gabungkan dokumen menjadi satu: masukkan atau tambahkan dokumen ke
 type: docs
 weight: 80
 url: /id/net/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Terkadang diperlukan untuk menggabungkan beberapa dokumen menjadi satu. Anda dapat melakukan ini secara manual atau Anda dapat menggunakan fitur penyisipan atau penambahan Aspose.Words.

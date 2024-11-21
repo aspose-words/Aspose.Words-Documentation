@@ -7,6 +7,7 @@ description: "Aspose.Words pour Python via .NET propose différents plans d'acha
 type: docs
 weight: 40
 url: /fr/python-net/licensing/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Parfois, pour mieux étudier le système, on souhaite se plonger dans le code le plus rapidement possible. Pour faciliter cela, Aspose.Words propose différents plans d'achat ou propose un essai gratuit et une licence temporaire de 30 jours pour évaluation.

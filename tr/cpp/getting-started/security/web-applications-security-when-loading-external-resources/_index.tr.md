@@ -1,4 +1,4 @@
-﻿---
+---
 title: Kaynakları Yüklerken Web Uygulaması Güvenliği
 second_title: Aspose.Words için C++
 articleTitle: Dış Kaynakları Yüklerken Web Uygulamaları Güvenliği
@@ -7,6 +7,7 @@ type: docs
 description: "Uzak kaynakları yükleyin, bu güvenlik risklerinin bir nedeni olabilir. Genel güvenlik sorunlarına ve çözümlerine C++ içinde bir göz atın."
 weight: 50
 url: /tr/cpp/web-applications-security-when-loading-external-resources/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Varsayılan olarak, Aspose.Words için C++ belgeleri içe aktarırken veya DocumentBuilder kullanarak resim eklerken resimler, CSS stiller veya harici HTML belgeler gibi uzak kaynakları yükleyebilir. Bu davranış, belgelerinizi tüm ayrıntılarıyla işlemenize olanak tanır, ancak kitaplık bir web uygulamasının parçasıysa bazı güvenlik risklerinin nedeni olabilir.

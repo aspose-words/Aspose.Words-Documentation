@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge Met Streke in C++
 second_title: Aspose.Words vir C++
 articleTitle: Mail Merge Met Streke
@@ -8,6 +8,7 @@ description: "Skep verskillende streke in u sjabloon om spesiale gebiede te hê 
 keywords: "how to execute mail merge c++"
 weight: 20
 url: /af/cpp/mail-merge-with-regions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 U kan verskillende streke in u sjabloon skep om spesiale gebiede te hê wat u eenvoudig met u data kan vul. Gebruik die mail merge met streke as u tabelle wil invoeg, rye met herhalende data om u dokumente dinamies te laat groei deur die streke binne u sjabloon te spesifiseer.

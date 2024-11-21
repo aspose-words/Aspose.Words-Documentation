@@ -7,6 +7,7 @@ description: "כיצד להוסיף היפר-קישור לתוך המסמך של
 type: docs
 weight: 50
 url: /he/java/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 היפר-קישור Microsoft Word המסמכים הם `HYPERLINK` שדה. In In In Aspose.Words, היפר-קישורים יושמו באמצעות [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/) מעמד.

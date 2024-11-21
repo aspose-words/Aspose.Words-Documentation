@@ -1,4 +1,4 @@
-﻿---
+---
 title: MFont التوفر والاستبدال في C++
 second_title: Aspose.Words ل C++
 articleTitle: توافر الخط والاستبدال
@@ -7,6 +7,7 @@ description: "عندما يتعذر العثور على خط الاستبدال 
 type: docs
 weight: 12
 url: /ar/cpp/font-availability-and-substitution/
+timestamp: 2024-09-24-14-35-44
 ---
 
 يمكن تنسيق نص في مستند بخطوط مختلفة، مثل أريال، تايمز نيو رومان، فيردانا، وغيرها. عند عرض Aspose.Words مستندا، فإنه يحاول تحديد الخطوط المحددة في المستند.

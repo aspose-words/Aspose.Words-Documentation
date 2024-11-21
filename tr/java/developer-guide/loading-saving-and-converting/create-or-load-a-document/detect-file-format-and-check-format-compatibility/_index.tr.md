@@ -7,6 +7,7 @@ description: "Açarken dosya formatı hakkında bilgi elde etmek isteyip istemed
 type: docs
 weight: 20
 url: /tr/java/detect-file-format-and-check-format-compatibility/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Bazen bir dosyayı açmadan önce dosya formatını belirlemenin gerekli olduğu durumlar olur çünkü dosya uzantısı dosyanın içeriğinin uygun olduğunu garanti etmez. Örneğin, Crystal Reports'un sık sık RTF formatında belgeler ürettiği biliniyor ama onlara .doc uzantısını veriyor.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Feature Tour
 second_title: Aspose.Words for Reporting Services
 articleTitle: Feature Tour
@@ -7,6 +7,7 @@ description: "Features of the Aspose.Words for Reporting Services."
 type: docs
 weight: 30
 url: /reportingservices/feature-tour/
+timestamp: 2024-01-27-14-07-04
 ---
 
 This section includes the following topics:

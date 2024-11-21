@@ -7,6 +7,7 @@ description: "Jak manipulować przypisami i końcówkami przy użyciu Java."
 type: docs
 weight: 160
 url: /pl/java/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words zawiera również niektóre klasy, metody i właściwości do pracy z przypisami i notatkami końcowymi.

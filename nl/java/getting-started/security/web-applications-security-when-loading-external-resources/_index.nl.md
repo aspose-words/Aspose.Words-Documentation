@@ -7,6 +7,7 @@ type: docs
 description: "Laad remote resources, dat kan een reden zijn van veiligheidsrisico's. Bekijk gemeenschappelijke veiligheidskwesties en hun oplossingen in Java."
 weight: 120
 url: /nl/java/web-applications-security-when-loading-external-resources/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Standaard, Aspose.Words voor Java kan externe bronnen zoals afbeeldingen, CSS-stijlen of externe HTML-documenten laden bij het importeren van documenten of het invoegen van afbeeldingen met behulp van de DocumentBuilder. Dit gedrag stelt u in staat om uw documenten in volledige detail te verwerken, maar kan een reden van een aantal beveiligingsrisico's als de bibliotheek is een onderdeel van een webtoepassing.

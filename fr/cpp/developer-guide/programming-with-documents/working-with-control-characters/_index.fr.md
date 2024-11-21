@@ -1,4 +1,4 @@
-﻿---
+---
 title: Utilisation Des Caractères De Contrôle
 second_title: Aspose.Words pour C++
 articleTitle: Utilisation Des Caractères De Contrôle
@@ -7,6 +7,7 @@ description: "Introduction à l'utilisation des caractères de contrôle dans As
 type: docs
 weight: 400
 url: /fr/cpp/working-with-control-characters/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Les documents Microsoft Word peuvent contenir divers caractères qui ont une signification particulière. Normalement, ils sont utilisés à des fins de formatage et ne sont pas dessinés en mode normal. Vous pouvez les rendre visibles en cliquant sur le bouton Afficher / Masquer les marques de mise en forme situé dans la barre d'outils standard.

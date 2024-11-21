@@ -7,6 +7,7 @@ description: "Wprowadzenie do funkcji pola w Aspose.Words zamiast Java."
 type: docs
 weight: 370
 url: /pl/java/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 **Fields** w dokumencie są jak posiadacze plakietek, gdzie przydatne dane mogą być wstawione. Na przykład pole może być odniesieniem do strony, formułą lub mail merge Pole.

@@ -7,6 +7,7 @@ description: "Uitpakken van verschillende grafische objecten, zoals afbeeldingen
 type: docs
 weight: 40
 url: /nl/net/rendering-shapes-separately-from-a-document/
+timestamp: 2024-07-10-14-38-57
 ---
 
 Bij het verwerken van documenten is het een gemeenschappelijke taak om alle afbeeldingen in het document uit te pakken en naar een externe locatie te exporteren. Deze taak wordt eenvoudig met de Aspose.Words API, die al de functionaliteit biedt voor het extraheren en opslaan van afbeeldingsgegevens. Echter, soms wilt u misschien ook andere soorten grafische inhoud die wordt vertegenwoordigd door een ander type tekenobject, bijvoorbeeld een tekstvak met paragrafen, pijlvormen en een kleine afbeelding. Er is geen eenvoudige manier om dit object weer te geven omdat het een combinatie is van individuele inhoudselementen. U kunt ook een geval tegenkomen wanneer de inhoud is gegroepeerd in het object dat lijkt op een enkele afbeelding.

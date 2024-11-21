@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bekerja dengan TextBoxes di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Bekerja dengan TextBoxes
@@ -7,6 +7,7 @@ description: "Pengantar fitur kotak teks tertaut di Aspose.Words untuk C++."
 type: docs
 weight: 250
 url: /id/cpp/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Dalam Aspose.Words, kelas [TextBox](https://reference.aspose.com/words/cpp/aspose.words.drawing/textbox/) digunakan untuk menentukan bagaimana teks ditampilkan di dalam bentuk. Ini memperlihatkan properti publik bernama **Parent** untuk mendapatkan bentuk induk untuk kotak teks sehingga pelanggan dapat menemukan [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/) tertaut dari **TextBox** terkait.

@@ -7,6 +7,7 @@ description: "Python를 사용하여 문서의 스타일과 테마에 액세스�
 type: docs
 weight: 110
 url: /ko/python-net/working-with-styles-and-themes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [StyleCollection](https://reference.aspose.com/words/python-net/aspose.words/stylecollection/) 클래스는 기본 제공을 관리하고 사용자 정의 설정을 스타일에 적용하는 데 사용됩니다.

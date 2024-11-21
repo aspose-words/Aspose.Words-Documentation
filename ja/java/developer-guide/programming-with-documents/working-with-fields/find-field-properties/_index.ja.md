@@ -7,6 +7,7 @@ description: "フィールドコードやフィールド結果などのフィー
 type: docs
 weight: 25
 url: /ja/java/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 インサートするフィールド [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)お問い合わせ[InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean) 戻る [Field](https://reference.aspose.com/words/java/com.aspose.words/field/) オブジェクト。 これは、フィールドのそのような特性をすばやく見つけるための有用な方法を提供するファサードクラスです。

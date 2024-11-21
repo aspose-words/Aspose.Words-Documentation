@@ -7,6 +7,7 @@ type: docs
 description: "Suchen Sie in Ihrem Dokument nach einer Zeichenfolge oder einem regulären Ausdrucksmuster und ersetzen Sie es mithilfe von Python durch den gewünschten Text."
 weight: 100
 url: /de/python-net/find-and-replace/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Mit Tastatur und Maus können Sie problemlos in Ihrem Dokument navigieren. Wenn Sie jedoch durch viele Seiten scrollen müssen, dauert es eine ganze Weile, bis Sie in einem langen Dokument einen bestimmten Text finden. Es wird zeitaufwändiger sein, wenn Sie bestimmte Zeichen oder Wörter ersetzen möchten, die Sie in Ihrem Dokument verwendet haben. Mit der Funktion "Suchen und Ersetzen" können Sie eine Zeichenfolge in einem Dokument finden und durch eine andere Zeichenfolge ersetzen.

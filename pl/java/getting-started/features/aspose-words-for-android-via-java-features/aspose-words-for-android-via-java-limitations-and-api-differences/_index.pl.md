@@ -7,6 +7,7 @@ description: "Aspose.Words zamiast Android przez Java funkcje i API różnice w 
 type: docs
 weight: 50
 url: /pl/java/aspose-words-for-android-via-java-limitations-and-api-differences/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Ograniczenia Aspose.Words zamiast Android przez Java API w porównaniu z Aspose.Words zamiast Java API

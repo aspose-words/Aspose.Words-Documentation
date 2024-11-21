@@ -7,6 +7,7 @@ description: "Como executar Aspose.Words para Android via via via via Java exemp
 type: docs
 weight: 70
 url: /pt/java/how-to-use-the-examples/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Primeiro certifique-se de que você tem o pacote ADT instalado e que você tenha baixado e extraído a última versão do [Aspose.Words para Android via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via via Java](https://releases.aspose.com/words/androidjava/).

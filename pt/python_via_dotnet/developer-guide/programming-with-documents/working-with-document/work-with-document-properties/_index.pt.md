@@ -7,6 +7,7 @@ description: "Aspose.Words para Python permite armazenar algumas informações �
 type: docs
 weight: 10
 url: /pt/python-net/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
 As propriedades do documento permitem armazenar algumas informações úteis sobre o seu documento. Essas propriedades podem ser divididas em dois grupos:

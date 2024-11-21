@@ -7,6 +7,7 @@ description: "Elija el mejor estándar PDF para exportar el resultado de su tare
 type: docs
 weight: 27
 url: /es/java/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Para algunas tareas, ciertos estándares PDF encajarán mejor o viceversa peor. En este artículo, trataremos de determinar qué normas PDF para qué casos tiene sentido elegir.

@@ -7,6 +7,7 @@ description: "Aspose.Words dla .NET implementuje własny odtwarzacz metaplików 
 type: docs
 weight: 30
 url: /pl/net/handling-windows-metafiles/
+timestamp: 2024-07-10-14-38-57
 ---
 
 Format metapliku Windows to format pliku obrazu, który może zawierać zarówno grafikę wektorową, jak i rastrową. Ten format służy do przechowywania danych graficznych w pamięci lub plikach na dysku. Metaplik przechowuje listę wywołań funkcji w interfejsie urządzenia graficznego Windows (GDI), które muszą zostać wykonane, aby wyświetlić obraz na ekranie. System interpretuje i wykonuje te polecenia w kontekście wyświetlacza.

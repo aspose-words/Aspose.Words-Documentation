@@ -7,6 +7,7 @@ type: docs
 description: "DocumentBuilder pozwala na tworzenie dynamicznych dokumentów od podstaw lub dodawanie nowych elementów do istniejących dokumentów. DocumentBuilder zapewnia metody wprowadzania tekstu, pól kontrolnych, tabel, obrazów i innych elementów treści w Java."
 weight: 30
 url: /pl/java/document-builder-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) jest potężną klasą, która łączy się z [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) i umożliwia budowanie dynamicznych dokumentów od podstaw lub dodawanie nowych elementów do istniejącego dokumentu.

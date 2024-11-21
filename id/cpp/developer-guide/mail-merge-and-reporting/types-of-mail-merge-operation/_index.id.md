@@ -1,4 +1,4 @@
-﻿---
+---
 title: Jenis Operasi Mail Merge dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Jenis Operasi Mail Merge
@@ -8,6 +8,7 @@ description: "Lakukan dua jenis operasi mail merge yang berbeda: mail merge sede
 keywords: "how to execute mail merge c++"
 weight: 20
 url: /id/cpp/types-of-mail-merge-operations/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Gagasan utama mail merge adalah membuat dokumen atau beberapa dokumen secara otomatis berdasarkan templat Anda dan data yang diambil dari sumber data Anda. Aspose.Words memungkinkan Anda melakukan dua jenis operasi mail merge yang berbeda: mail merge sederhana dan mail merge dengan wilayah.

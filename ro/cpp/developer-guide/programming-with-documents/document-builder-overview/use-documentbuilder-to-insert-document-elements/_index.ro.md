@@ -1,4 +1,4 @@
-﻿---
+---
 title: Utilizați `DocumentBuilder` pentru a insera elemente de Document
 second_title: Aspose.Words pentru C++
 articleTitle: Utilizați `DocumentBuilder` pentru a insera elemente de Document
@@ -7,6 +7,7 @@ type: docs
 description: "Introduceți elemente de document utilizând constructorul de documente în C++."
 weight: 80
 url: /ro/cpp/use-documentbuilder-to-insert-document-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 `DocumentBuilder` este folosit pentru a modifica documente. Acest articol explică și descrie cum să efectuați o serie de sarcini:

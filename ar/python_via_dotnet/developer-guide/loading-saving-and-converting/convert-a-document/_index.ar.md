@@ -8,6 +8,7 @@ url: /ar/python-net/convert-a-document/
 weight: 30
 description: "قم بتحويل المستندات بسهولة من تنسيق إلى آخر باستخدام Python. يمكنك العمل مع جميع التنسيقات الأكثر شيوعًا مثل تنسيقات Microsoft Word مثل DOCX أو DOC، وتنسيقات OpenDocument مثل ODT أو OTT، وتنسيقات الويب مثل HTML أو XHTML، وتنسيقات النص مثل MarkDown أو TXT وغيرها."
 keywords: "convert a document python, convert documents from one format to another python, convert to markdown python, convert pdf to docx python, convert docx to pdf python, convert doc to pdf python, convert a document Aspose for Python"
+timestamp: 2024-01-27-14-07-04
 ---
 
 تعد القدرة على تحويل المستندات بسهولة وموثوقية من تنسيق إلى آخر إحدى الميزات الرئيسية في Aspose.Words. مثل هذا التحويل ليس أكثر من مزيج من عمليات التحميل والحفظ.

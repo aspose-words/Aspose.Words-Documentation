@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words Mô Hình Đối tượng Tài liệu (DOM) trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Aspose.Words Mô Hình Đối Tượng Tài Liệu (DOM)
@@ -7,6 +7,7 @@ type: docs
 description: "Mô Hình đối tượng tài liệu (DOM) là một biểu diễn trong bộ nhớ của Tài liệu Word. Đọc, thao tác và sửa đổi nội dung và định dạng Của Tài liệu Word bằng C++."
 weight: 10
 url: /vi/cpp/aspose-words-document-object-model/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Mô hình Đối tượng Tài liệu Aspose.Words (DOM) là một biểu diễn trong bộ nhớ của Tài liệu Word. Aspose.Words DOM cho phép bạn lập trình đọc, thao tác và sửa đổi nội dung và định dạng Của Tài liệu Word.

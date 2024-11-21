@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu fonturi în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Lucrul cu fonturi
@@ -7,6 +7,7 @@ description: "Formatarea fontului în detalii folosind C++."
 type: docs
 weight: 230
 url: /ro/cpp/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un font este un set de caractere cu o anumită dimensiune, culoare și design. Aspose.Words vă permite să lucrați cu fonturi folosind spațiul de nume [Fonts](https://reference.aspose.com/words/cpp/aspose.words.fonts/) și clasa [Font](https://reference.aspose.com/words/cpp/aspose.words/font/).

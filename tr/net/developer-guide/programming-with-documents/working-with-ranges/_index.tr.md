@@ -7,6 +7,7 @@ description: ".NET için Aspose.Words'teki Aralık özelliğine giriş."
 type: docs
 weight: 130
 url: /tr/net/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

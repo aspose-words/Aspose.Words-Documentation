@@ -1,4 +1,4 @@
-﻿---
+---
 title: Chèn Các Trường vào C++
 second_title: Aspose.Words cho C++
 articleTitle: Chèn Trường
@@ -7,6 +7,7 @@ description: "Các cách khác nhau để chèn các trường vào tài liệu 
 type: docs
 weight: 20
 url: /vi/cpp/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Có một số cách khác nhau để chèn các trường vào tài liệu:

@@ -7,6 +7,7 @@ description: "使用 Python 处理文本文档并修改其对象。"
 type: docs
 weight: 430
 url: /zh/python-net/working-with-text-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 在本文中，我们将了解哪些选项可用于通过 Aspose.Words 处理文本文档。请注意，这不是可用选项的完整列表，而只是使用其中一些选项的示例。

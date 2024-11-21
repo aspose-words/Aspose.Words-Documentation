@@ -7,6 +7,7 @@ type: docs
 description: "צורות צילום בפרטים ותכונות מתקדמות המסופקות על ידי Aspose.Words עבור Java."
 weight: 300
 url: /he/java/working-with-images/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words מאפשר למשתמשים לעבוד עם תמונות בצורה גמישה מאוד. במאמר זה, אתה יכול לחקור רק כמה אפשרויות של עבודה עם תמונות.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Find And Replace in Jython
 second_title: Aspose.Words for Java
 articleTitle: Find And Replace in Jython
@@ -7,6 +7,7 @@ description: "Find And Replace text in a Document using Jython."
 type: docs
 weight: 40
 url: /java/find-and-replace-in-jython/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Find And Replace

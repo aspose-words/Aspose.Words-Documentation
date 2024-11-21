@@ -7,6 +7,7 @@ description: "Python'i kullanarak alan değiştirmeye erişebilirsiniz. Belgenin
 type: docs
 weight: 10
 url: /tr/python-net/fields-overview/
+timestamp: 2024-10-21-11-17-44
 ---
 
 

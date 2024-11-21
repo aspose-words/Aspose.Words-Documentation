@@ -7,6 +7,7 @@ type: docs
 description: "Editar documentos de origem em muitos formatos populares, bem como converter livremente arquivos de um formato para outro usando Java."
 weight: 30
 url: /pt/java/supported-document-formats/
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

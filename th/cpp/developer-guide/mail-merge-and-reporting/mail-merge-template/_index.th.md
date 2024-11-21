@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge แม่แบบใน C++
 second_title: Aspose.Words สำหรับ C++
 articleTitle: Mail Merge เทมเพลต
@@ -8,6 +8,7 @@ description: "สร้าง mail merge แม่แบบเพื่อกำ
 keywords: "create mail merge template с++"
 weight: 10
 url: /th/cpp/mail-merge-template/
+timestamp: 2024-01-31-14-23-37
 ---
 
 เป็นเรื่องธรรมดาที่จะใช้แม่แบบผสานเป็นเอกสารฐานสำหรับ mail merge การดำเนินงานอย่างใดอย่างหนึ่งถ้ามันเป็นเรื่องง่าย mail merge หรือ mail merge กับภูมิภาค Mail merge กับภูมิภาคที่มีประสิทธิภาพมากขึ้นและเป็นที่นิยมกว่าที่เรียบง่าย mail merge. ง่าย mail merge ถือเป็นกรณีเฉพาะของ mail merge กับภูมิภาคที่ภูมิภาคเป็นเอกสารทั้งหมด ทั้งหมดจะมีการอธิบายไว้ในบทความถัดไป"ประเภทของ Mail Merge การดำเนินงาน"ในรายละเอียดเพิ่มเติม.

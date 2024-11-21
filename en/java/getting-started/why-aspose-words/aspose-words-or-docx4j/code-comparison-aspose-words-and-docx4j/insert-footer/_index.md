@@ -1,4 +1,4 @@
-﻿---
+---
 title: Insert Footer
 second_title: Aspose.Words for Java
 articleTitle: Insert Footer
@@ -7,6 +7,7 @@ description: "Insert a footer into a document easily and fast instead of using d
 type: docs
 weight: 10
 url: /java/insert-footer/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Insert Footer

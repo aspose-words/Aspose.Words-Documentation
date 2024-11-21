@@ -7,6 +7,7 @@ description: "Łącz dokumenty w jeden: wstaw lub dołącz dokument do nowego lu
 type: docs
 weight: 80
 url: /pl/python-net/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Czasami wymagane jest połączenie kilku dokumentów w jeden. Możesz to zrobić ręcznie lub możesz użyć funkcji wstawiania lub dołączania Aspose.Words.

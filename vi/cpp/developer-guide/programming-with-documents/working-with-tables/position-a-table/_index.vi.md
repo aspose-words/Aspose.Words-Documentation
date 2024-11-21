@@ -1,4 +1,4 @@
-﻿---
+---
 title: Vị trí bảng trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Đặt Bàn
@@ -7,6 +7,7 @@ description: "Chỉ định vị trí bảng trong C++. Nhận căn chỉnh bả
 type: docs
 weight: 50
 url: /vi/cpp/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Có bảng nổi và bảng nội tuyến:

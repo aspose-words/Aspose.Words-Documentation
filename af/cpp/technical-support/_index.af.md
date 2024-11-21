@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tegniese Ondersteuning
 second_title: Aspose.Words vir C++
 articleTitle: Tegniese Ondersteuning
@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words vir C++ bied gratis tegniese ondersteuning beskikbaar vir alle gebruikers. Rapporteer asseblief jou vraag, kwessie of funksie versoek Met Behulp Van Aspose Free Support Forum."
 weight: 80
 url: /af/cpp/technical-support/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose bied onbeperkte gratis tegniese ondersteuning vir al sy produkte. Ondersteuning is beskikbaar vir alle gebruikers, insluitend evaluering. Die belangrikste manier van ondersteuning is [Aspose.Forums](https://forum.aspose.com/c/words/8).

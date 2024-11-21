@@ -7,6 +7,7 @@ description: "الشكل المسبق للجدول Java. خلق نمط طاول�
 type: docs
 weight: 80
 url: /ar/java/working-with-tablestyle/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A table method defines a set of formatting that can be easily applied to a table. ويمكن وضع صيغة مثل الحدود، والظل، والمواءمة، واللافت في شكل جدول، وتطبيقها على العديد من الجداول من أجل مظهر متسق.

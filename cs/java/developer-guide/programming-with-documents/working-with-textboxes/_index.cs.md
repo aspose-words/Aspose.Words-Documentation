@@ -7,6 +7,7 @@ description: "Úvod do připojené funkce textboxů v Aspose.Words místo Java."
 type: docs
 weight: 250
 url: /cs/java/working-with-linked-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In Aspose.Words, vá [TextBox](https://reference.aspose.com/words/java/com.aspose.words/textbox/) třída se používá k určení, jak je text zobrazen uvnitř tvaru. Poskytuje veřejný majetek pojmenovaný jako rodič získat mateřský tvar pro textové pole, aby zákazník mohl najít propojenou [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) od propojeného **TextBox**.

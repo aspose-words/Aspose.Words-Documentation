@@ -7,6 +7,7 @@ type: docs
 description: "在 .NET 中，透過 COM Interop 使用 Aspose.Words，於 Python、PHP、VBScript、JScript 和其他程式語言中應用。"
 weight: 130
 url: /zh-hant/net/how-to-use-aspose-words-via-com-interop/
+timestamp: 2024-09-25-11-08-55
 ---
 
 此主題中的資訊適用於你想透過 Aspose.Words 使用 .NET 的任何以下程式設計語言的場景："COM Interop

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Imbriqué Mail Merge avec des régions en C++
 second_title: Aspose.Words pour C++
 articleTitle: Imbriqué Mail Merge avec des régions
@@ -8,6 +8,7 @@ description: "Effectuez une opération mail merge avec des régions imbriquées 
 keywords: "mail merge with nested regions c++"
 weight: 30
 url: /fr/cpp/nested-mail-merge-with-regions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Dans certains scénarios, vous devrez peut-être utiliser des mail merge imbriqués avec des régions. La fusion imbriquée est une fonctionnalité qui vous permet de fusionner des données hiérarchiques de votre source de données dans votre modèle de fusion pour remplir facilement votre document. Fondamentalement, les données hiérarchiques sont représentées comme un ensemble d'éléments de données, et les relations hiérarchiques décrivent comment les éléments de données sont liés les uns aux autres (un élément de données est le parent d'un autre).

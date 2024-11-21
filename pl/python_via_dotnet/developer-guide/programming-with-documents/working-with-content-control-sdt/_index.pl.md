@@ -7,6 +7,7 @@ description: "Za pomocą Pythona możesz osadzić w dokumencie semantykę zdefin
 type: docs
 weight: 390
 url: /pl/python-net/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
 W Microsoft Word możesz utworzyć formularz, zaczynając od szablonu i dodając elementy sterujące zawartością, w tym pola wyboru, pola tekstowe, selektory dat i listy rozwijane. W formacie Aspose.Words znacznik dokumentu strukturalnego lub kontrola zawartości z dowolnego dokumentu załadowanego do Aspose.Words jest importowana jako węzeł [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/). Ustrukturyzowane znaczniki dokumentów (SDT lub kontrola treści) pozwalają na osadzenie w dokumencie semantyki zdefiniowanej przez klienta, a także jego zachowania i wyglądu. [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) może występować w dokumencie w następujących miejscach:

@@ -7,6 +7,7 @@ description: "Tabloyu Java'a böl. Bir tabloyu iki ayrı tabloya ayırmak için 
 type: docs
 weight: 100
 url: /tr/java/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bir tablo, Aspose.Words Document Object Model'de temsil edilen, bağımsız satır ve hücrelerden oluşur, bu da bir tabloyu kolayca bölmesini sağlar.

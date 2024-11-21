@@ -7,6 +7,7 @@ description: "Naviga tra diversi nodi all'interno di un documento, come un parag
 type: docs
 weight: 10
 url: /it/net/navigation-with-cursor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Mentre lavori con un documento, anche se è breve o lungo, dovrai navigare all'interno del documento. La navigazione con un cursore virtuale rappresenta la possibilità di navigare tra diversi nodi in un documento.

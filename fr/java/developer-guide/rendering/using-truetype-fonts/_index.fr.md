@@ -7,6 +7,7 @@ description: "Comment trouver la bonne police ou son remplacement approprié, si
 type: docs
 weight: 20
 url: /fr/java/using-truetype-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Lorsque vous travaillez avec des documents, vous devez souvent utiliser différentes polices, styles et tailles. Les documents peuvent contenir n'importe quel nombre de polices, qui ne se limitent pas nécessairement aux polices installées dans le système d'exploitation. Les polices peuvent être complètement différentes, telles que les polices tirées d'autres systèmes d'exploitation, achetées ou créées par les utilisateurs eux-mêmes.

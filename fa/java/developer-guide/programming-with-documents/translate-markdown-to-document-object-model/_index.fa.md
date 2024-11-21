@@ -7,6 +7,7 @@ type: docs
 description: "دانلود آهنگ Tarnslate Markdown سند Document Object Model و عقب. شما می توانید با پیچیده موجود کار کنید Markdown ایجاد یک برنامه Markdown استفاده از ابتدا Java..."
 weight: 20
 url: /fa/java/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 برای خواندن، دستکاری و اصلاح محتوا و قالب بندی یک سند، باید آن را به آن ترجمه کنید. Aspose.Words Document Object Model ()DOM)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Làm Việc Với Các Trường Biểu mẫu trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Làm việc Với Các Trường Biểu Mẫu
@@ -7,6 +7,7 @@ description: "Hiểu Tính năng Trường Biểu mẫu, làm việc Với Các 
 type: docs
 weight: 380
 url: /vi/cpp/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Một tài liệu có chứa khoảng trống điền (trường) được gọi là biểu mẫu. Ví dụ: bạn có thể tạo biểu mẫu đăng ký trong Microsoft Word sử dụng danh sách thả xuống mà từ đó người dùng có thể chọn mục nhập. Trường biểu mẫu là vị trí lưu trữ một loại dữ liệu cụ thể, chẳng hạn như tên hoặc địa chỉ. Các trường biểu mẫu trong Microsoft Word bao gồm nhập văn bản, Hộp Tổ hợp và hộp kiểm.

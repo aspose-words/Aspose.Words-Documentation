@@ -7,6 +7,7 @@ description: "Создание выходных документов с разл
 type: docs
 weight: 10
 url: /ru/java/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words позволяет создавать выходные документы с различными макетами в зависимости от параметров, указанных в [LayoutOptions](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/) имуществом, **Document**. Это свойство напоминает некоторые из Microsoft Word Параметры меню пользовательского интерфейса, описанные в этой статье.

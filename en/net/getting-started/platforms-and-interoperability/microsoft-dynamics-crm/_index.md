@@ -1,4 +1,4 @@
-﻿---
+---
 title: Microsoft Dynamics CRM
 second_title: Aspose.Words for .NET
 articleTitle: Microsoft Dynamics CRM
@@ -7,6 +7,7 @@ description: "How to use Aspose.Words with Microsoft Dynamics CRM to perform a w
 type: docs
 weight: 30
 url: /net/aspose-words-net-for-crm/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## What is Microsoft Dynamics CRM?

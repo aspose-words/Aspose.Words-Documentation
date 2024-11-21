@@ -7,6 +7,7 @@ type: docs
 description: "Na documentação Aspose.Words para Python via .NET são mencionados níveis lógicos de nós – nível de bloco, nível inline ou nível de linha. O nível do nó é usado para descrever o local na árvore do documento onde o nó normalmente ocorre."
 weight: 10
 url: /pt/python-net/logical-levels-of-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Esta documentação às vezes se refere a um grupo de classes de nós como pertencentes a um "nível" em um documento, como nós de "nível de bloco", "nível inline" (também conhecido como "inline") ou "nível de linha". Esses níveis em um documento são diferenciados de forma puramente lógica e não são expressos explicitamente por herança ou outros meios Aspose.Words DOM. O nível do nó é usado para descrever o local na árvore do documento onde o nó normalmente ocorreria.

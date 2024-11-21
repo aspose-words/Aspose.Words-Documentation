@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words Sitemap Java memperluas dan meningkatkan setiap hari. Di halaman ini, Anda dapat belajar tentang fitur besar dan paling menarik dari produk."
 weight: 2
 url: /id/java/what-s-new-in-aspose-words-for-java/
+timestamp: 2024-10-14-12-53-06
 ---
 
 Halaman ini menjelaskan yang paling menarik Aspose.Words fitur yang diperkenalkan dalam rilis terbaru.

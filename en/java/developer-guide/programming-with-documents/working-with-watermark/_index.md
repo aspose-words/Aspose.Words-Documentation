@@ -8,6 +8,7 @@ description: "Document watermark manipulation using Java."
 weight: 70
 url: /java/working-with-watermark/
 aliases: [/java/how-to-add-a-watermark-to-a-document/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 This topic discusses how to work programmatically with a watermark using Aspose.Words. A watermark is a background image that displays behind the text in a document. A watermark can contain a text or an image represented by the [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) class.

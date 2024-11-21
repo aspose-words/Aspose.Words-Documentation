@@ -7,6 +7,7 @@ description: "Diversi modi per inserire i campi nel documento utilizzando Java."
 type: docs
 weight: 20
 url: /it/java/insert-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ci sono diversi modi per inserire i campi in un documento:

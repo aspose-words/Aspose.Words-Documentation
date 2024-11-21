@@ -7,6 +7,7 @@ description: "Table des matières dans les détails. Comment créer et modifier 
 type: docs
 weight: 170
 url: /fr/java/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Souvent vous travaillerez avec des documents contenant une table des matières (TOC). Utilisation Aspose.Words vous pouvez insérer votre propre table des matières ou reconstruire complètement la table des matières existante dans le document en utilisant seulement quelques lignes de code.

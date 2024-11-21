@@ -7,6 +7,7 @@ description: "Compreender conceitos de seção de documentos e práticas de mani
 type: docs
 weight: 120
 url: /pt/java/working-with-sections/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Às vezes você quer um documento que não tenha a mesma formatação em todas as páginas. Por exemplo, você pode precisar modificar formatos de número de página, ter diferentes tamanhos e orientação de página, ou ter a primeira página de documento como uma página de capa sem qualquer numeração. Você pode conseguir isso com seções.

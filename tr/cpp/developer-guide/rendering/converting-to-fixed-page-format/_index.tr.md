@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ biçiminde Sabit sayfa Biçimine Dönüştürme
 second_title: Aspose.Words için C++
 articleTitle: Sabit Sayfa Biçimine Dönüştürme
@@ -7,6 +7,7 @@ description: "Belgeleri şuraya kaydet PDF, XPS, HTML, XAML, PostScript, ve PCL 
 type: docs
 weight: 10
 url: /tr/cpp/converting-to-fixed-page-format/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Aspose.Words kendi sayfa düzeni motorunu uygular. Spesifikasyonlarını incelemeden önce, önce belgeyi yüksek düzeyde tartışmaya değer.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Créer ou charger un document en C++
 second_title: Aspose.Words pour C++
 articleTitle: Créer ou charger un document
@@ -8,6 +8,7 @@ description: "Créez un document vierge ou chargez-le à partir d'un fichier ou 
 keywords: "create a document c++, load a document c++, create a blank document c++, load a document from file c++, load a document from stream c++, create a document Aspose C++, load a document Aspose C++, load formats supported by Aspose.Words C++"
 weight: 10
 url: /fr/cpp/create-or-load-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Presque toutes les tâches que vous souhaitez effectuer avec Aspose.Words impliquent le chargement d'un document. La classe `Document` représente un document chargé en mémoire. Le document a plusieurs constructeurs surchargés vous permettant de créer un document vierge ou de le charger à partir d'un fichier ou d'un flux. Le document peut être chargé dans n'importe quel format de chargement pris en charge par Aspose.Words. Pour la liste de tous les formats de chargement pris en charge, voir l'énumération [LoadFormat](https://reference.aspose.com/words/cpp/aspose.words/loadformat/).

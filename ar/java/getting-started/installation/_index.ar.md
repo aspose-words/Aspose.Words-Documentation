@@ -7,6 +7,7 @@ description: "Install Aspose.Words for Java من Maven مستودع تعريف A
 type: docs
 weight: 10
 url: /ar/java/installation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 احرص على أن تلتقي آلتك [متطلبات النظام](/words/ar/java/system-requirements/) قبل أن تبدأ

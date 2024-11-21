@@ -7,6 +7,7 @@ description: "Aspose.Words for Python を使用すると、API やバージョ�
 type: docs
 weight: 10
 url: /ja/python-net/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
 ドキュメントのプロパティを使用すると、ドキュメントに関するいくつかの有用な情報を保存できます。これらのプロパティは、次の 2 つのグループに分類できます。

@@ -7,6 +7,7 @@ description: "Bekerja dengan Tag Dokumen Terstruktur atau Kontrol Konten menggun
 type: docs
 weight: 50
 url: /id/net/structured-document-tags-or-content-control/
+timestamp: 2024-01-31-14-23-37
 ---
 
 

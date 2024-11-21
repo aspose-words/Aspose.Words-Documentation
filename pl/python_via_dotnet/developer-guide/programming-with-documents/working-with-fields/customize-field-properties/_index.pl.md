@@ -7,6 +7,7 @@ description: "Dowiedz się, jak dostosować właściwości pól w Python. Zmień
 type: docs
 weight: 27
 url: /pl/python-net/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words zapewnia możliwość programowej interakcji z różnymi właściwościami pól. W tym artykule przyjrzymy się kilku przykładom, abyś mógł zrozumieć podstawową zasadę pracy z właściwościami pól. Pełną listę właściwości każdego typu pola w odpowiedniej klasie możesz zobaczyć w pliku [Moduł Pola](https://reference.aspose.com/words/python-net/aspose.words.fields/).

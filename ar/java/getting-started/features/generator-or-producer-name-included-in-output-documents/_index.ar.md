@@ -7,6 +7,7 @@ description: "Aspose.Words for Java يضاف إلى الوثيقة اسم الم
 type: docs
 weight: 70
 url: /ar/java/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 يمكنك أن تعرف بسهولة ما إذا كانت الوثيقة تنتج باستخدام Aspose.Words for Java. يمكنك أيضا العثور على نسخة رقم Aspose.Words for Java واستُخدم ذلك في إعداد وثيقة نواتج معينة. Aspose.Words وتكتب هذه المعلومات مباشرة إلى الوثيقة المتولدة.

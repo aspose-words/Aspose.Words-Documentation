@@ -7,6 +7,7 @@ description: "Porovnejte dva dokumenty v podporovaných formátech a zobrazí zm
 type: docs
 weight: 60
 url: /cs/python-net/compare-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Porovnání dokumentů je proces, který identifikuje změny mezi dvěma dokumenty a obsahuje změny jako revize. Tento proces porovnává všechny dva dokumenty, včetně verzí jednoho konkrétního dokumentu, pak se změny mezi oběma dokumenty zobrazí jako revize v prvním dokumentu.

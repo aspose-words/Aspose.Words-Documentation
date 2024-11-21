@@ -7,6 +7,7 @@ description: "چگونگی پیدا کردن برخی از ویژگی های ز�
 type: docs
 weight: 25
 url: /fa/java/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 زمینه ای که با استفاده از آن وارد می شود [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)...[InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean) بازگشت [Field](https://reference.aspose.com/words/java/com.aspose.words/field/) جسم این یک کلاس نما است که روش های مفیدی برای پیدا کردن سریع چنین خواصی از یک زمینه فراهم می کند.

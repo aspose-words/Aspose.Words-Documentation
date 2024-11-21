@@ -1,4 +1,4 @@
-﻿---
+---
 title: Gebruik `DocumentBuilder` Om'n Dokument Maklik Te Verander
 second_title: Aspose.Words vir C++
 articleTitle: Gebruik `DocumentBuilder` Om'n Dokument Maklik Te Verander
@@ -7,6 +7,7 @@ type: docs
 description: "Gebruik die dokumentbouer om'n dokument maklik in C++ te verander."
 weight: 190
 url: /af/cpp/using-documentbuilder-to-modify-a-document-easily/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Spesifiseer Formatering

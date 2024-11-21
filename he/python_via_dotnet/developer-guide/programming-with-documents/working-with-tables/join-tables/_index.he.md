@@ -7,6 +7,7 @@ description: "הצטרף לטבלאות במסמך באמצעות Python. כיצ
 type: docs
 weight: 90
 url: /he/python-net/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 שולחן, מיוצג ב Aspose.Words Document Object Model, מורכב שורות ותאים עצמאיים, מה שהופך את זה קל להצטרף שולחנות.

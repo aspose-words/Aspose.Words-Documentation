@@ -7,6 +7,7 @@ type: docs
 description: "Załaduj zdalne zasoby, które mogą być przyczyną zagrożeń bezpieczeństwa. Przyjrzyj się częstym problemom związanym z bezpieczeństwem i ich rozwiązaniom przy użyciu C#."
 weight: 100
 url: /pl/net/web-applications-security-when-loading-external-resources/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Domyślnie Aspose.Words dla .NET może ładować zdalne zasoby, takie jak obrazy, style CSS lub zewnętrzne dokumenty HTML podczas importowania dokumentów lub wstawiania obrazów za pomocą narzędzia DocumentBuilder. Takie zachowanie umożliwia szczegółowe przetwarzanie dokumentów, ale może powodować pewne zagrożenia bezpieczeństwa, jeśli biblioteka jest częścią aplikacji internetowej.

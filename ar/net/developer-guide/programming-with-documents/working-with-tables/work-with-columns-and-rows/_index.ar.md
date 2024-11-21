@@ -7,6 +7,7 @@ description: "العمل مع أجزاء من الجدول – الصفوف وا
 type: docs
 weight: 30
 url: /ar/net/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 لمزيد من التحكم في كيفية عمل الجداول، تعرف على كيفية التعامل مع الأعمدة والصفوف.

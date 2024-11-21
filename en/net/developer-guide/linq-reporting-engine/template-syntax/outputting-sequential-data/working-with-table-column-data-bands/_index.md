@@ -7,6 +7,7 @@ description: "Output a sequence of table-column data when building a report in C
 type: docs
 weight: 30
 url: /net/working-with-table-column-data-bands/
+timestamp: 2024-01-27-14-07-04
 ---
 
 You can build tables growing horizontally rather than vertically by using table-column data bands.

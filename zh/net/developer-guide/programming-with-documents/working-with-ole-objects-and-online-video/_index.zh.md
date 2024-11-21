@@ -7,6 +7,7 @@ description: "使用 C# 在文档中创建和修改 OLE 嵌入。"
 type: docs
 weight: 360
 url: /zh/net/working-with-ole-objects/
+timestamp: 2024-01-27-14-07-04
 ---
 
 OLE（对象链接和嵌入）是一种技术，用户可以通过该技术处理包含由第三方应用程序创建或编辑的"对象"的文档。也就是说，OLE 允许编辑应用程序将这些"对象"导出到另一个编辑应用程序，然后将它们与附加内容一起导入。

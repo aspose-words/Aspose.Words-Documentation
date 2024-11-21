@@ -7,6 +7,7 @@ description: "ทํางานกับอักษรเอเชียโด
 type: docs
 weight: 240
 url: /th/java/working-with-asian-typography/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ชีวประวัติ ของ ชาว เอเชีย เป็น ทาง เลือก สําหรับ ข้อ ความ ใน เอกสาร ที่ เขียน ใน ภาษา เอเชีย.

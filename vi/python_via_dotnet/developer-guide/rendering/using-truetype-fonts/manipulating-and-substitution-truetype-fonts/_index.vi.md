@@ -7,6 +7,7 @@ description: "Aspose.Words cho Python via .NET có thể nhúng đúng phông ch
 type: docs
 weight: 10
 url: /vi/python-net/manipulating-and-substitution-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words yêu cầu phông chữ TrueType cho nhiều tác vụ khác nhau, bao gồm hiển thị tài liệu sang định dạng trang cố định, ví dụ: PDF hoặc XPS. Khi Aspose.Words kết xuất một tài liệu, nó cần thực hiện nhúng và nhúng tập hợp con phông chữ TrueType vào tài liệu kết quả, đây là thông lệ trong quá trình tạo tài liệu, bao gồm các định dạng PDF hoặc XPS phổ biến. Điều này đảm bảo rằng tài liệu sẽ xuất hiện giống nhau đối với bất kỳ người xem nào. Hơn nữa, đặc tả XPS yêu cầu phông chữ phải luôn được nhúng trong tài liệu.

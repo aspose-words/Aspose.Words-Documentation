@@ -7,6 +7,7 @@ description: "Convertir les documents de n'importe quelle charge prise en charge
 type: docs
 weight: 40
 url: /fr/java/file-formats-and-conversions/
+timestamp: 2024-01-31-14-23-37
 ---
 
 {{% alert color="primary" %}}

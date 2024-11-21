@@ -1,4 +1,4 @@
-﻿---
+---
 title: 필드 개요 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 필드 개요
@@ -7,6 +7,7 @@ description: "필드는 세부 사항,필드 코드 및 필드 결과에 설명�
 type: docs
 weight: 10
 url: /ko/cpp/fields-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words 서버 측 처리를 위해 설계된 클래스 라이브러리입니다. Microsoft Word 다음과 같은 방법으로 문서 및 지원 필드:

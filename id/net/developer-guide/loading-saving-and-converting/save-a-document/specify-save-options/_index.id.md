@@ -7,6 +7,7 @@ description: "Kontrol proses penyimpanan lebih akurat menggunakan C#."
 type: docs
 weight: 10
 url: /id/net/specify-save-options/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Saat menyimpan dokumen, Anda dapat mengatur beberapa properti lanjutan. Aspose.Words memberi Anda kelas [SaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/), yang memungkinkan kontrol proses penyimpanan yang lebih tepat. Ada kelebihan metode **Save** yang menerima objek **SaveOptions** – objek tersebut harus berupa objek kelas yang diturunkan dari kelas **SaveOptions**. Setiap format penyimpanan memiliki kelas terkait yang berisi opsi penyimpanan untuk format penyimpanan ini, misalnya, ada [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) untuk menyimpan ke format PDF, [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) untuk menyimpan ke format Markdown, atau [ImageSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/) untuk menyimpan ke gambar. Artikel ini memberikan contoh bekerja dengan beberapa kelas opsi yang berasal dari **SaveOptions**.

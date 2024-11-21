@@ -7,6 +7,7 @@ description: "C#'teki alanları nasıl güncelleyeceğinizi öğrenin. Alanları
 type: docs
 weight: 30
 url: /tr/net/update-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Genellikle Microsoft Word'e eklenen bir alan zaten güncel bir değer içerir. Örneğin alan bir formül veya sayfa numarasıysa, belgenin verilen sürümü için doğru hesaplanan değeri içerecektir. Ancak, iki belgeyi birleştirmek veya onu verilerle doldurmak gibi alanlarla bir belge oluşturan veya değiştiren bir uygulamanız varsa, o zaman ideal olarak belgenin kullanışlı olması için tüm alanların güncellenmesi gerekir.

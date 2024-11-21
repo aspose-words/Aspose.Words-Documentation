@@ -7,6 +7,7 @@ type: docs
 description: "การจัดการลายน้ําของเอกสารโดยใช้ Java."
 weight: 70
 url: /th/java/working-with-watermark/
+timestamp: 2024-01-27-14-07-04
 ---
 
 หัว เรื่อง นี้ พิจารณา วิธี ที่ จะ ทํา งาน โดย ใช้ เครื่องหมาย น้ํา Aspose.Words. ลาย น้ํา คือ ภาพ ฉาก หลัง ซึ่ง แสดง อยู่ ด้าน หลัง ของ ข้อ ความ ใน เอกสาร. เครื่องหมายน้ําสามารถบรรจุข้อความหรือภาพที่แสดงโดย [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) ชั้นเรียน.

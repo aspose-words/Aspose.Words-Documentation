@@ -7,6 +7,7 @@ description: "Добавление, замена или изменение ги�
 type: docs
 weight: 50
 url: /ru/python-net/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Гиперссылка в Microsoft Word Документы являются `HYPERLINK` поле. в Aspose.Words, гиперссылки реализуются через [FieldHyperlink](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldhyperlink/) класс.

@@ -7,6 +7,7 @@ description: "The Aspose AutoMerge is an open source add-on to be used with Micr
 type: docs
 weight: 10
 url: /net/automerge-for-dynamics-crm/
+timestamp: 2024-10-24-11-44-28
 ---
 
 The Aspose AutoMerge is an open source add-on to be used with Microsoft Dynamics CRM. This add-on is capable of generating document using template and attaching them to Any Entity, Letter, sending emails, Generating Copy of document and upload document on cloud storage. Easily configure a workflow and generate documents from templates. Aspose .NET AutoMerge can be used with on-premises only.

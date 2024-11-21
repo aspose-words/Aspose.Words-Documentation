@@ -7,6 +7,7 @@ description: "C#를 사용한 문서 워터마크 조작."
 type: docs
 weight: 340
 url: /ko/net/working-with-watermark/
+timestamp: 2024-05-02-11-51-44
 ---
 
 이 항목에서는 Aspose.Words를 사용하여 워터마크를 프로그래밍 방식으로 작업하는 방법에 대해 설명합니다. 워터마크는 문서의 텍스트 뒤에 표시되는 배경 이미지입니다. 워터마크에는 [Watermark](https://reference.aspose.com/words/net/aspose.words/watermark/) 클래스로 표시되는 텍스트나 이미지가 포함될 수 있습니다.

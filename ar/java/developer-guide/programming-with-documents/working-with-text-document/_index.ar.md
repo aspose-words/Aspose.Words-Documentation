@@ -7,6 +7,7 @@ description: "Advanced TXT document processing, lists, BiDi, headers/ footer, us
 type: docs
 weight: 430
 url: /ar/java/working-with-text-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 وسنتعلم في هذه المادة الخيارات التي يمكن أن تكون مفيدة للعمل مع وثيقة نصية عن طريق Aspose.Words. ويرجى ملاحظة أن هذه ليست قائمة كاملة بالخيارات المتاحة، بل مجرد مثال على العمل مع بعضها.

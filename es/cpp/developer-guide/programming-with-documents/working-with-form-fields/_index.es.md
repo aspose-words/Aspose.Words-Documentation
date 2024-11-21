@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trabajar con Campos de formulario en C++
 second_title: Aspose.Words para C++
 articleTitle: Trabajar con Campos de Formulario
@@ -7,6 +7,7 @@ description: "Comprender la función Campos de formulario, trabajar con campos d
 type: docs
 weight: 380
 url: /es/cpp/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un documento que contiene espacios en blanco (campos) para completar se conoce como formulario. Por ejemplo, puede crear un formulario de registro en Microsoft Word que utilice listas desplegables desde las que los usuarios puedan seleccionar entradas. Un campo de formulario es una ubicación donde se almacena un tipo particular de datos, como un nombre o una dirección. Los campos de formulario en Microsoft Word incluyen entrada de texto, cuadro combinado y casilla de verificación.

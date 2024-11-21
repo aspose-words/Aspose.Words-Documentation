@@ -7,6 +7,7 @@ description: "Introducere în limbaj de marcare a formelor, crearea diferitelor 
 type: docs
 weight: 280
 url: /ro/net/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Acest subiect discută modul de a lucra programatic cu forme folosind Aspose.Words.

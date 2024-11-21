@@ -7,6 +7,7 @@ description: "Use hyphenation for a more compact arrangement of text using C++. 
 type: docs
 weight: 220
 url: /cpp/working-with-hyphenation/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Sometimes it is necessary to use hyphenation for a more compact arrangement of text in a document. At the same time, it is important to understand that the specifics of word hyphenation may differ for each language.

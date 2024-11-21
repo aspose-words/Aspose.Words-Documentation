@@ -7,6 +7,7 @@ type: docs
 description: "The The The `Document` הכיתה מספקת תכונות ושיטות שונות. אתה משתמש `Document` השיעור כנקודת ההתחלה לכל מה שאתה רוצה לעשות Aspose.Words עבור Java. The The The `Document` ניתן להציל את האובייקט לקובץ או לזרם וגם לשלוח לדפדפן."
 weight: 40
 url: /he/java/working-with-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 The The The [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) הכיתה היא מרכזית Aspose.Words. הוא מייצג מסמך ומספק תכונות מסמך ושיטות שונות, כגון שמירת או הגנה על המסמך. אתה משתמש **Document** השיעור כנקודת ההתחלה לכל מה שאתה רוצה לעשות Aspose.Wordsיצירת מסמך חדש מאפס, פתח תבנית עבור mail merge, או לקבל חלקים שונים במסמך.

@@ -7,6 +7,7 @@ type: docs
 description: "ドキュメントビルダーを使用してドキュメント要素をインサートする Javaお問い合わせ"
 weight: 10
 url: /ja/java/use-documentbuilder-to-insert-document-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ザ・オブ・ザ・ [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) 文書の変更に使用されます。 この記事では、複数のタスクを実行する方法について説明します。

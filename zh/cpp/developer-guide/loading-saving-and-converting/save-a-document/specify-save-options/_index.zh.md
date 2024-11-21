@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在C++中指定保存选项
 second_title: Aspose.Words对于C++
 articleTitle: 指定保存选项
@@ -7,6 +7,7 @@ description: "更精确地控制保存过程。"
 type: docs
 weight: 10
 url: /zh/cpp/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 保存文档时，可以设置一些高级属性。 Aspose.Words为您提供[SaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/)类，它允许更精确地控制保存过程。 有接受**SaveOptions**对象的**Save**方法的重载-它应该是从**SaveOptions**类派生的类的对象。 每个保存格式都有一个相应的类，用于保存此保存格式的保存选项，例如，有[PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/)用于保存为PDF格式，[MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions)用于保存为Markdown格式，或[ImageSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/imagesaveoptions/)用于保存为图像。 本文提供了使用从**SaveOptions**派生的一些options类的示例。

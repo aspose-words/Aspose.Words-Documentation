@@ -7,6 +7,7 @@ description: "Cum să inserezi câmpuri într-un document folosind C# - învaț�
 type: docs
 weight: 20
 url: /ro/net/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Există mai multe modalități diferite de a introduce câmpuri într-un document:

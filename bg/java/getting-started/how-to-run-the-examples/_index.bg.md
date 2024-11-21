@@ -7,6 +7,7 @@ type: docs
 description: "Изтегляне Aspose.Words вместо Java примери от нашия GitHub хранилище и се научите как да ги управлявате, за да стане по-добре запознати с Aspose.Words възможности и характеристики."
 weight: 130
 url: /bg/java/how-to-run-the-examples/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Изтегляне от GitHub

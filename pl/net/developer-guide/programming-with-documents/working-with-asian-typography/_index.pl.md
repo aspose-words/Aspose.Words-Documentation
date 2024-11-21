@@ -7,6 +7,7 @@ description: "Pracuj z typografią azjatycką przy użyciu C#. Dostosuj odstęp 
 type: docs
 weight: 240
 url: /pl/net/working-with-asian-typography/
+timestamp: 2024-02-01-16-17-05
 ---
 
 Typografia azjatycka to zestaw opcji dotyczących akapitów tekstowych w dokumentach napisanych w językach azjatyckich.

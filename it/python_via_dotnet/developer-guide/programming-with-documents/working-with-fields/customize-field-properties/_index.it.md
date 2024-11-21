@@ -7,6 +7,7 @@ description: "Scopri come personalizzare le proprietà dei campi in Python. Rino
 type: docs
 weight: 27
 url: /it/python-net/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words offre la possibilità di interagire a livello di codice con varie proprietà dei campi. In questo articolo esamineremo un paio di esempi per farti comprendere il principio di base per lavorare con le proprietà dei campi. Puoi visualizzare l'elenco completo delle proprietà per ogni tipo di campo nella classe corrispondente nel [Modulo Campi](https://reference.aspose.com/words/python-net/aspose.words.fields/).

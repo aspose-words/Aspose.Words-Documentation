@@ -7,6 +7,7 @@ description: "تعلم Aspose.Words for Java سمات عند تحميل الوث
 type: docs
 weight: 20
 url: /ar/java/loading-saving-and-converting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ويقدم هذا الفرع معلومات عن السمات عند تحميل وادخار وثيقة، فضلا عن بيانات عن الإمكانيات عند تحويل وثيقة من شكل إلى آخر.

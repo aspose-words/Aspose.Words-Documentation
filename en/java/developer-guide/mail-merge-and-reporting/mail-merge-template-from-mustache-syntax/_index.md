@@ -8,6 +8,7 @@ description: "Create templates with Mustache syntax. Mustache syntax is the only
 keywords: "mail merge template mustache syntax java, mail merge java, mustache syntax java"
 weight: 40
 url: /java/mail-merge-template-from-mustache-syntax/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words allows you to create templates with mustache syntax in addition to the familiar templates. A Mustache is an alternative variant of template syntax that consists of tag names enclosed by   and is backed by a model object that contains the data for the template.

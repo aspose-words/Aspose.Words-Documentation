@@ -7,6 +7,7 @@ description: "Baixe exemplos de Aspose.Words para .NET de nosso repositório Git
 type: docs
 weight: 110
 url: /pt/net/how-to-run-the-examples/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Para se familiarizar mais com as possibilidades e recursos do Aspose.Words, fornecemos exemplos que podem ser baixados de nosso repositório GitHub, executados e aprendidos detalhadamente.

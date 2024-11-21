@@ -7,6 +7,7 @@ description: "Python'i kullanarak PDF/A-1, PDF/A-2, PDF/A-4 ve PDF/UA'ya dönü�
 type: docs
 weight: 28
 url: /tr/python-net/working-with-pdfa-or-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 PDF/A ve PDF/UA formatı, Word formatındaki bir belgeden PDF'ye otomatik dönüştürme sırasında belge içeriğiyle ilgili olarak yerine getirilemeyen çeşitli gereksinimler getirir. Tamamen PDF/A ve PDF/UA uyumlu bir belge oluşturmak için bu gereksinimlerin dönüştürmeden önce bir Word belgesinde veya dönüştürme sonrasında bir PDF belgesinde doğrulanması ve düzeltilmesi gerekir.

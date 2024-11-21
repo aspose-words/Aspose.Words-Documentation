@@ -7,6 +7,7 @@ description: "Leer hoe veldeigenschappen aan te passen in C#. Samenvoegvelden he
 type: docs
 weight: 27
 url: /nl/net/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words biedt de mogelijkheid om programmatisch interactie met verschillende veldeigenschappen. In dit artikel zullen we een paar voorbeelden bekijken zodat u het basisprincipe van werken met veldeigenschappen begrijpt. U kunt de volledige lijst van eigenschappen voor elk veldtype in de overeenkomstige klasse in de [Veldnaamruimte](https://reference.aspose.com/words/net/aspose.words.fields/).

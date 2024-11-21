@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在C++中使用连字符
 second_title: Aspose.Words对于C++
 articleTitle: 使用连字符
@@ -7,6 +7,7 @@ description: "使用连字符可以使用C++实现更紧凑的文本排列。 �
 type: docs
 weight: 220
 url: /zh/cpp/working-with-hyphenation/
+timestamp: 2024-01-30-16-22-34
 ---
 
 有时需要使用连字符在文档中更紧凑地排列文本。 与此同时，重要的是要了解每种语言的单词断字的具体细节可能不同。

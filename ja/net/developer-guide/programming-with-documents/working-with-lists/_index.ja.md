@@ -7,6 +7,7 @@ description: "Aspose.Words for .NET の番号付け書式設定機能の紹介�
 type: docs
 weight: 200
 url: /ja/net/working-with-lists/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word ドキュメント内のリストは、段落書式設定プロパティのセットです。リストを文書内で使用して、テキストを構造化し、配置し、強調表示することができます。リストは、読者が重要なポイントを理解しやすくする方法で文書内のデータを整理するための優れた方法です。

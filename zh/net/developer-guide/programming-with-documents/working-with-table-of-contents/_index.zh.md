@@ -7,6 +7,7 @@ description: "详细内容表字段。如何使用 C# 创建和修改 `TOC` 字�
 type: docs
 weight: 170
 url: /zh/net/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 您经常会使用包含目录 (TOC) 的文档。使用 Aspose.Words，您可以插入自己的目录或仅使用几行代码完全重建文档中的现有目录。本文概述了如何使用目录字段并演示：

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Inleiding Tot Velde in Java
 second_title: Aspose.Words vir Java
 articleTitle: Inleiding Tot Velde
@@ -7,6 +7,7 @@ description: "Velde kenmerk in besonderhede, veldkodes en veldresultate verduide
 type: docs
 weight: 10
 url: /af/java/introduction-to-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words is'n klas biblioteek ontwerp vir bediener-kant verwerking van Microsoft Word dokumente en ondersteun velde in die volgende maniere:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu filigran în Python
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Lucrul cu filigran
@@ -7,6 +7,7 @@ description: "Creați și gestionați filigranele într-un document folosind Pyt
 type: docs
 weight: 340
 url: /ro/python-net/working-with-watermark/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Acest subiect discută cum să lucrați programatic cu filigran folosind Aspose.Words. Un filigran este o imagine de fundal care se afișează în spatele textului dintr-un document. Un filigran poate conține un text sau o imagine reprezentată de clasa [Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/).

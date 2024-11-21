@@ -7,6 +7,7 @@ description: "Formatează şi evaluează rezultatul câmpurilor folosind C#."
 type: docs
 weight: 40
 url: /ro/net/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uneori utilizatorii au nevoie să aplice formatare particularizată câmpurilor. În acest articol vom privi câteva exemple de modul în care aceasta poate fi realizată.

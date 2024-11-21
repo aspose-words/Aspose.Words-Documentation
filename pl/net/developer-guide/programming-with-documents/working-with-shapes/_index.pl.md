@@ -7,6 +7,7 @@ description: "Wprowadzenie do języka znaczników kształtów, tworzenie kształ
 type: docs
 weight: 280
 url: /pl/net/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 W tym temacie omówiono sposób programowej pracy z kształtami przy użyciu formatu Aspose.Words.

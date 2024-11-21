@@ -8,6 +8,7 @@ description: "Uložit dokument v jakémkoliv podporovaném formátu pomocí C#."
 keywords: "save a document c#, save a document to file c#, save a document to stream c#, save a document Aspose .NET, save formats supported by Aspose.Words .NET"
 weight: 20
 url: /cs/net/save-a-document/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Většina úkolů, které musíte splnit Aspose.Words zahrnuje uložení dokumentu. Uložit dokument Aspose.Words poskytuje [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) způsob [Document](https://reference.aspose.com/words/net/aspose.words/document/) třída. Existují přetížení, které umožňují uložení dokumentu do souboru, stream, nebo ASP.NET HttpResponse objekt pro odesílání do klientského prohlížeče. Dokument lze uložit v libovolném formátu uložení podporovaném Aspose.Words. Seznam všech podporovaných formátů uložení viz [SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat/) výčtu.

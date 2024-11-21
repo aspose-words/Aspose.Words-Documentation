@@ -7,6 +7,7 @@ description: "Formato de tabla en detalle usando C#. Utilice C# para formatear c
 type: docs
 weight: 70
 url: /es/net/applying-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Cada elemento de una tabla se puede aplicar con un formato diferente. Por ejemplo, el formato de tabla se aplicará a toda la tabla, el formato de fila solo a filas específicas y el formato de celda solo a ciertas celdas.

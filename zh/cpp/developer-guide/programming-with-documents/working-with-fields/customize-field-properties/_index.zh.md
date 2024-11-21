@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在C++中自定义字段属性
 second_title: Aspose.Words对于C++
 articleTitle: 自定义字段属性
@@ -7,6 +7,7 @@ description: "了解如何在C++中自定义字段属性。 在C++中重命名�
 type: docs
 weight: 27
 url: /zh/cpp/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words提供了以编程方式与各种字段属性交互的功能。 在本文中，我们将看几个示例，以便您了解使用字段属性的基本原理。 您可以在[Fields namespace](https://reference.aspose.com/words/cpp/namespace/aspose.words.fields)中查看相应类中每个字段类型的完整属性列表。

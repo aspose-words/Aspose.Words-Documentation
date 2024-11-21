@@ -7,6 +7,7 @@ description: "Realice un seguimiento de los cambios de contenido y formato reali
 type: docs
 weight: 270
 url: /es/python-net/track-changes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 La funcionalidad de seguimiento de cambios, también conocida como revisión, le permite realizar un seguimiento de los cambios en el contenido y el formato realizados por usted u otros usuarios. Esta función de seguimiento de cambios con Aspose.Words admite seguimiento de cambios en Microsoft Word. Con esta funcionalidad, puede acceder a revisiones individuales en su documento y aplicarles diferentes propiedades.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cara Membuat Tabel di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Buat Tabel
@@ -7,6 +7,7 @@ description: "Berbagai cara untuk membuat tabel menggunakan C++. Buat tabel dala
 type: docs
 weight: 20
 url: /id/cpp/create-a-table/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words memungkinkan pengguna membuat tabel dalam dokumen dari awal dan menyediakan beberapa metode berbeda untuk melakukannya. Artikel ini menyajikan detail tentang cara menambahkan tabel berformat ke dokumen Anda menggunakan setiap metode, serta perbandingan setiap metode di akhir artikel.

@@ -7,6 +7,7 @@ description: "Range 기능 소개 Aspose.Words 제품정보 Java·"
 type: docs
 weight: 130
 url: /ko/java/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

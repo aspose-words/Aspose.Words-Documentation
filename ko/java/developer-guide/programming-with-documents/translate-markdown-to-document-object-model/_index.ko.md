@@ -7,6 +7,7 @@ type: docs
 description: "Tarnslate의 Markdown 관련 기사 Document Object Model 그리고 뒤. 그래서 당신은 기존의 복잡한 작업을 할 수 Markdown 프로그램 Markdown 스크래치에서 문서 Java·"
 weight: 20
 url: /ko/java/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 programmatically 읽기, 조작, 문서의 내용과 포맷을 수정, 당신은에 번역해야 Aspose.Words Document Object Model (주)DOM).

@@ -7,6 +7,7 @@ description: "Controlează mai exact procesul de încărcare folosind C#."
 type: docs
 weight: 10
 url: /ro/net/specify-load-options/
+timestamp: 2024-07-09-19-00-42
 ---
 
 În încărcarea unui document, puteți seta unele proprietăți avansate. Aspose.Words vă oferă clasa [LoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/), care permite un control mai precis al procesului de încărcare. Unele formate de încărcare au o clasă corespondentă care deține opțiuni de încărcare pentru acest format de încărcare, de exemplu, există [PdfLoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/pdfloadoptions/) pentru încărcarea în formatul PDF sau [TxtLoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/) pentru încărcarea în formatul TXT. Acest articol oferă exemple de lucru cu opțiunile clasei **LoadOptions**.

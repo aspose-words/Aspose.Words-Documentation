@@ -7,6 +7,7 @@ type: docs
 description: "המונחים Aspose.Words פונקציונליות ביישום שלך Docker ללא קשר למה הטכנולוגיה נמצאת בערימה הפיתוח שלך. למד כיצד להשתמש As נניח מילים ב Docker מיכל C#."
 weight: 120
 url: /he/net/how-to-run-aspose-words-in-docker/
+timestamp: 2024-08-19-11-05-36
 ---
 
 Microservices, בשילוב עם מיכליזציה מאפשר לשלב בקלות טכנולוגיות. Docker מאפשר לך להשתלב בקלות Aspose.Words פונקציונליות ליישום שלך, ללא קשר למה הטכנולוגיה נמצאת בערימה הפיתוח שלך.

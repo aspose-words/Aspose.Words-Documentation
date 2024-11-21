@@ -7,6 +7,7 @@ description: "使用细节格式化字体 Java。 。 。 。"
 type: docs
 weight: 230
 url: /zh/java/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 一个字体是一组具有一定大小,颜色,和设计特点的字符. Aspose.Words 允许您使用各种字体相关类,包括 [Font](https://reference.aspose.com/words/java/com.aspose.words/font/) 课。

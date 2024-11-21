@@ -1,4 +1,4 @@
-﻿---
+---
 title: Verschachtelt Mail Merge mit Regionen in C++
 second_title: Aspose.Words für C++
 articleTitle: Verschachtelt Mail Merge mit Regionen
@@ -8,6 +8,7 @@ description: "Führen Sie eine mail merge-Operation mit verschachtelten Bereiche
 keywords: "mail merge with nested regions c++"
 weight: 30
 url: /de/cpp/nested-mail-merge-with-regions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 In einigen Szenarien müssen Sie möglicherweise verschachtelte mail merge mit Regionen verwenden. Verschachtelter Seriendruck ist eine Funktion, mit der Sie hierarchische Daten aus Ihrer Datenquelle in Ihre Seriendruckvorlage zusammenführen können, um Ihr Dokument einfach zu füllen. Grundsätzlich werden die hierarchischen Daten als Satz von Datenelementen dargestellt, und hierarchische Beziehungen beschreiben, wie die Datenelemente miteinander in Beziehung stehen (ein Datenelement ist das übergeordnete Element eines anderen).

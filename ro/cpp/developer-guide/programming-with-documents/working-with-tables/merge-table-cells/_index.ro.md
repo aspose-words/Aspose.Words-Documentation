@@ -1,4 +1,4 @@
-﻿---
+---
 title: Îmbinați celulele tabelului în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Îmbinați Celulele Tabelului
@@ -7,6 +7,7 @@ description: "Cum să îmbinați celulele tabelului în C++. Verificați dacă c
 type: docs
 weight: 40
 url: /ro/cpp/merge-table-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uneori, anumite rânduri dintr-un tabel necesită un titlu sau blocuri mari de text care ocupă întreaga lățime a tabelului. Pentru proiectarea corectă a tabelului, utilizatorul poate îmbina mai multe celule de tabel într-una. Aspose.Words acceptă celule îmbinate atunci când lucrați cu toate formatele de intrare, inclusiv importul de conținut HTML.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: پیکربندی محصول در Visual Studio
 second_title: Aspose.Words برای C++
 articleTitle: پیکربندی Aspose.Words برای C++ در Visual Studio
@@ -7,6 +7,7 @@ description: "پیکربندی دستی Aspose.Words برای C++ در Visual St
 type: docs
 weight: 90
 url: /fa/cpp/configure-aspose-words-for-cpp-in-visual-studio/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Aspose.Words برای C++ API با Visual Studio 2022 یا بالاتر کار می کند. برای کار با Visual Studio، ممکن است لازم باشد Visual C++ Redistributable موجود در [Microsoft وب سایت رسمی](https://docs.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170).

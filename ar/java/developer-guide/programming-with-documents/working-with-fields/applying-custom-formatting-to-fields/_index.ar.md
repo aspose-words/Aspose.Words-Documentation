@@ -7,6 +7,7 @@ description: "الشكل والتقييم Java."
 type: docs
 weight: 40
 url: /ar/java/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 وفي بعض الأحيان يحتاج المستعملون إلى تطبيق الصيغ العرفية على الحقول. وفي هذه المادة، سننظر في مثالين على كيفية القيام بذلك.

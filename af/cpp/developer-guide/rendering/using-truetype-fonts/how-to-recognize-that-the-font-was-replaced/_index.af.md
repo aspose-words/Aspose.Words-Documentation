@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hoe Om Te Erken dat Die Font Is Vervang in C++
 second_title: Aspose.Words vir C++
 articleTitle: Hoe Om Te Erken Dat Die Lettertipe Vervang Is
@@ -7,6 +7,7 @@ description: "As u nie seker is waarom die uitleg van'n dokument verander het ni
 type: docs
 weight: 13
 url: /af/cpp/how-to-recognize-that-the-font-was-replaced/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Soms is dit dalk onduidelik waarom die dokument uitleg verander het, of waarom sommige lettertipe nie lyk soos verwag nie. In sulke gevalle, font vervanging waarskuwings boodskappe geïmplementeer deur die IWarningCallback koppelvlak kom tot die redding. Hulle het die [FontSubstitution](https://reference.aspose.com/words/cpp/aspose.words/warningtype/) waarskuwing tipe en die standaard beskrywing teks formaat, "Font '<OriginalFont>' is nie gevind nie. Gebruik eerder' <SubstitutionFont> ' lettertipe. Rede: <Reason>", met die volgende redes:

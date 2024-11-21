@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++での読み込み、保存、変換
 second_title: C++の場合Aspose.Words
 articleTitle: 読み込み、保存、変換
@@ -7,6 +7,7 @@ description: "WordからPDFやHTMLからMarkdownなど、ある形式から別�
 type: docs
 weight: 10
 url: /ja/cpp/loading-saving-and-converting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 このセクションでは、ドキュメントの読み込みと保存時の機能に関する情報と、ドキュメントをある形式から別の形式に変換するときの可能性に関

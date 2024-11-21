@@ -7,6 +7,7 @@ description: "Come aggiungere, rimuovere o manipolare commenti in un documento u
 type: docs
 weight: 260
 url: /it/python-net/working-with-comments/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

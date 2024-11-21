@@ -1,4 +1,4 @@
-﻿---
+---
 title: Menyimpan ke Format halaman Tetap di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Menyimpan Dokumen ke Format halaman Tetap
@@ -7,6 +7,7 @@ description: "Cara menyimpan dokumen ke format halaman tetap– PDF, XPS, HTML, 
 type: docs
 weight: 15
 url: /id/cpp/saving-a-document-to-fixed-page-format/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Setelah tata letak halaman dibuat dan geometri objek serta posisinya pada halaman dihitung, dokumen dapat disimpan dalam format halaman tetap yang didukung oleh Aspose.Words.

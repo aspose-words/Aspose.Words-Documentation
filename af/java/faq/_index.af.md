@@ -1,4 +1,4 @@
-﻿---
+---
 title: FAQ
 second_title: Aspose.Words vir Java
 articleTitle: FAQ
@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words vir Java beantwoord die mees algemene vrae. Leer hierdie bladsy om u probleem oor algemene vrae of spesifieke onderwerpe vinnig op te los."
 weight: 75
 url: /af/java/faq/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Hierdie bladsy bevat antwoorde op die vrae wat die meeste gevra word. Leer asseblief die huidige bladsy-miskien sal dit jou toelaat om jou probleem vinnig op te los.

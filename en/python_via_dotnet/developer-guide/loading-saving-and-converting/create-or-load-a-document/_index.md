@@ -11,6 +11,7 @@ aliases:
 description: "Create a blank document or to load it from a file or stream using Python."
 keywords: "create a document python, load a document python, create a blank document python, load a document from file python, load a document from stream python, create a document Aspose python, load a document Aspose python, load formats supported by Aspose.Words python"
 weight: 10
+timestamp: 2024-01-27-14-07-04
 ---
 
 Almost any task that you want to perform with Aspose.Words involves loading a document. The [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) class represents a document loaded into memory. The document has several overloaded constructors allowing you to create a blank document or to load it from a file or stream. The document can be loaded in any load format supported by Aspose.Words. For the list of all supported load formats, see the [LoadFormat](https://reference.aspose.com/words/python-net/aspose.words/loadformat/) enumeration.

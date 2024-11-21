@@ -7,6 +7,7 @@ description: "Dosyada OLE gömme oluşturun ve değiştirin Java kullanarak."
 type: docs
 weight: 360
 url: /tr/java/working-with-ole-objects/
+timestamp: 2024-01-27-14-07-04
 ---
 
 OLE 'Object Linking and Embedding' anlamına gelir. Üçüncü taraf uygulamaları tarafından oluşturulan ya da düzenlenmiş " nesneler" içeren belgelere kullanıcıların çalışmasına olanak tanıyan teknoloji budur. Diğer bir deyişle, OLE bir uygulamanın bu " nesneleri" başka bir uygulama için düzenleme amacıyla dışarı aktarmasına ve sonra bunları bazı ek içeriklerle geri içeri aktarmasına izin verir.

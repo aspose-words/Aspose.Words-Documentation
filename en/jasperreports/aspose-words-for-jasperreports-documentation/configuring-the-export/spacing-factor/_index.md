@@ -1,4 +1,4 @@
-﻿---
+---
 title: Spacing Factor
 second_title: Aspose.Words for JasperReports
 articleTitle: Spacing Factor
@@ -7,6 +7,7 @@ description: "Aspose Words for JasperReports can reduce spacing between page ele
 type: docs
 weight: 20
 url: /jasperreports/spacing-factor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

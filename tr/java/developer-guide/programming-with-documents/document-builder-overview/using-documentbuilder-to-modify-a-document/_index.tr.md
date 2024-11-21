@@ -7,6 +7,7 @@ type: docs
 description: "Bir belgeyi kolayca değiştirmek için belge oluşturucu kullanın Java."
 weight: 20
 url: /tr/java/using-documentbuilder-to-modify-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Biçimlendirme Belirtmek

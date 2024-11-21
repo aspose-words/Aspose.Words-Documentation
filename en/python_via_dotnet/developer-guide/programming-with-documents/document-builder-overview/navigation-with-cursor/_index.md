@@ -1,4 +1,4 @@
-﻿---
+---
 title: Navigation with Cursor in Python
 second_title: Aspose.Words for Python via .NET
 articleTitle: Navigation with Cursor
@@ -8,6 +8,7 @@ type: docs
 weight: 10
 url: /python-net/navigation-with-cursor/
 aliases: [/python/navigation-with-cursor/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 While working with a document, even if it is a short or long one, you will need to navigate through your document. Navigation with a virtual cursor represents the ability to navigate between different nodes in a document.

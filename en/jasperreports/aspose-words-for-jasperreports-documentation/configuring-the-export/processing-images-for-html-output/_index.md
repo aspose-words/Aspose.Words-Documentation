@@ -1,4 +1,4 @@
-﻿---
+---
 title: Processing Images for HTML output
 second_title: Aspose.Words for JasperReports
 articleTitle: Processing Images for HTML output
@@ -7,6 +7,7 @@ description: "Aspose Words for JasperReports has 3 parameters for configuring ho
 type: docs
 weight: 130
 url: /jasperreports/processing-images-for-html-output/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

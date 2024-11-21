@@ -1,4 +1,4 @@
-﻿---
+---
 title: استخدم `DocumentBuilder` لإدراج عناصر المستند
 second_title: Aspose.Words ل C++
 articleTitle: استخدم `DocumentBuilder` لإدراج عناصر المستند
@@ -7,6 +7,7 @@ type: docs
 description: "أدخل عناصر المستند باستخدام منشئ المستندات في C++."
 weight: 80
 url: /ar/cpp/use-documentbuilder-to-insert-document-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 يتم استخدام `DocumentBuilder` لتعديل المستندات. تشرح هذه المقالة وتصف كيفية تنفيذ عدد من المهام:

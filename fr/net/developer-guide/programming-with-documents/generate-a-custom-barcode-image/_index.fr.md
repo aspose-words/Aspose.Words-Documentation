@@ -7,6 +7,7 @@ description: "Exemple de génération de forme de code-barres en utilisant C#."
 type: docs
 weight: 350
 url: /fr/net/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/
+timestamp: 2024-09-05-11-07-10
 ---
 
 Un code-barres est une représentation visuelle des données sous forme de lignes ou de motifs parallèles. Les codes-barres sont largement utilisés dans divers secteurs tels que le commerce de détail, la logistique, les soins de santé, la banque et bien d'autres encore.

@@ -7,6 +7,7 @@ description: "نصب install Aspose.Words برای Java از Maven مخزن تع
 type: docs
 weight: 10
 url: /fa/java/installation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 اطمینان حاصل کنید که دستگاه شما با ماشین مطابقت دارد [الزامات سیستم](/words/fa/java/system-requirements/) قبل از شروع

@@ -7,6 +7,7 @@ description: "Using Aspose.Words for Java in ColdFusion applications."
 type: docs
 weight: 20
 url: /java/coldfusion-and-aspose-words-for-java/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Prerequisites

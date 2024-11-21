@@ -7,6 +7,7 @@ description: "Python를 사용하여 문서에 주석을 추가, 제거 또는 �
 type: docs
 weight: 260
 url: /ko/python-net/working-with-comments/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

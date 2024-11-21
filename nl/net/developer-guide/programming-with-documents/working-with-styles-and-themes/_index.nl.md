@@ -7,6 +7,7 @@ description: "Geavanceerd Microsoft Word opmaakfuncties, werken met stijlen en t
 type: docs
 weight: 110
 url: /nl/net/working-with-styles-and-themes/
+timestamp: 2024-10-24-11-44-28
 ---
 
 De [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) klasse wordt gebruikt om ingebouwde instellingen te beheren en gebruikersinstellingen toe te passen op stijlen.

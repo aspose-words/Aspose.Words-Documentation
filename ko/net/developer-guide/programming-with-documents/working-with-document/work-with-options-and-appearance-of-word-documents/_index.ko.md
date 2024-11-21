@@ -7,6 +7,7 @@ description: "C#를 사용하여 다양한 Microsoft Word 버전 간의 차이�
 type: docs
 weight: 40
 url: /ko/net/work-with-word-document-options-and-appearance/
+timestamp: 2024-01-27-14-07-04
 ---
 
 때로는 언어 기본 설정이나 페이지당 줄 수를 설정하는 등 문서의 모양을 변경해야 할 수도 있습니다. Aspose.Words는 문서 표시 방법과 몇 가지 추가 옵션을 제어하는 기능을 제공합니다. 이 문서에서는 그러한 가능성에 대해 설명합니다.

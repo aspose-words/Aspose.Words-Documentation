@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Kaarte in Java
 second_title: Aspose.Words vir Java
 articleTitle: Werk Met Kaarte
@@ -7,6 +7,7 @@ description: "Inleiding Tot Grafiek funksie, hoe om kaarte te skep en te manipul
 type: docs
 weight: 310
 url: /af/java/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Die nuwe [insertChart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertChart-int-double-double) metode is bygevoeg in die [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) klas. So, kom ons kyk hoe om'n eenvoudige kolomgrafiek in die dokument in te voeg met behulp van **insertChart** metode.

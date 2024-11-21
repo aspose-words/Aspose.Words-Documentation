@@ -7,6 +7,7 @@ description: "فیلدها با جزئیات، کدهای فیلد و نتایج
 type: docs
 weight: 10
 url: /fa/net/fields-overview/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words یک کتابخانه کلاسی است که برای پردازش اسناد Microsoft Word در سمت سرور طراحی شده است و فیلدها را به روش های زیر پشتیبانی می کند:

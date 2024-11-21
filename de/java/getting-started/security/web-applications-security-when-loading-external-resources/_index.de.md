@@ -7,6 +7,7 @@ type: docs
 description: "Laden Sie Remote-Ressourcen, das kann ein Grund für Sicherheitsrisiken sein. Sehen Sie sich gemeinsame Sicherheitsfragen und ihre Lösungen an Java."
 weight: 120
 url: /de/java/web-applications-security-when-loading-external-resources/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Standardmäßig, Aspose.Words für Java kann entfernte Ressourcen wie Bilder, CSS-Stile oder externe HTML-Dokumente beim Import von Dokumenten oder beim Einfügen von Bildern mit dem DocumentBuilder laden. Dieses Verhalten ermöglicht es Ihnen, Ihre Dokumente im Detail zu bearbeiten, kann aber ein Grund für einige Sicherheitsrisiken sein, wenn die Bibliothek Teil einer Web-Anwendung ist.

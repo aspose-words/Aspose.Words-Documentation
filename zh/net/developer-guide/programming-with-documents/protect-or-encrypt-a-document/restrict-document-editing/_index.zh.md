@@ -7,6 +7,7 @@ description: "通过使用 C# 设置限制类型来限制编辑文档。您还�
 type: docs
 weight: 30
 url: /zh/net/restrict-document-editing/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有时您可能需要限制编辑文档的能力并仅允许对其执行某些操作。这对于防止其他人编辑文档中的敏感和机密信息很有用。

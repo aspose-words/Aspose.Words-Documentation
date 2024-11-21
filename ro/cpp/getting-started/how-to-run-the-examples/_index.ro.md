@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cum să rulați exemplele
 second_title: Aspose.Words pentru C++
 articleTitle: Cum să rulați exemplele
@@ -7,6 +7,7 @@ description: "Descărcare Aspose.Words pentru C++ exemple din depozitul nostru G
 type: docs
 weight: 110
 url: /ro/cpp/how-to-run-the-examples/
+timestamp: 2024-07-11-16-13-28
 ---
 
 Pentru a deveni mai familiarizați cu posibilitățile și caracteristicile Aspose.Words, oferim exemple care pot fi descărcate din depozitul nostru GitHub, rulați și aflați în detaliu.

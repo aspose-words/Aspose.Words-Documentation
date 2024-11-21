@@ -1,4 +1,4 @@
-﻿---
+---
 title: Uittreksel Gekose Inhoud Tussen Nodes in Java
 second_title: Aspose.Words vir Java
 articleTitle: Uittreksel Inhoud Tussen Nodes In'n Dokument
@@ -7,6 +7,7 @@ type: docs
 description: "Onttrek dokumentinhoud in verskillende met behulp van Java."
 weight: 140
 url: /af/java/extract-selected-content-between-nodes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Wanneer jy met dokumente werk, is dit belangrik om maklik inhoud uit'n spesifieke reeks binne'n dokument te kan onttrek. Die inhoud kan egter bestaan uit komplekse elemente soos paragrawe, tabelle, beelde, ens.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Làm việc với Các Đoạn trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Làm việc Với Các Đoạn Văn
@@ -7,6 +7,7 @@ description: "Thực hành thao tác nút đoạn bằng cách sử dụng C++."
 type: docs
 weight: 210
 url: /vi/cpp/working-with-paragraphs/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Đoạn văn là một tập hợp các ký tự được kết hợp thành một khối logic và kết thúc bằng một ký tự đặc biệt – a *paragraph break*. Trong Aspose.Words, một đoạn được biểu thị bằng lớp [Paragraph](https://reference.aspose.com/words/cpp/aspose.words/paragraph/).

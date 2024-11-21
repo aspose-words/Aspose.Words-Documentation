@@ -8,6 +8,7 @@ description: "Chuyển đổi các định dạng PDF sang Word như DOCX, DOC, 
 keywords: convert pdf to other formats c#
 weight: 45
 url: /vi/net/convert-pdf-to-other-document-formats/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Aspose.Words có thể tải ngay cả định dạng phức tạp như PDF. Điều này mở ra những cơ hội mới: có thể chuyển đổi PDF sang Word hoặc các định dạng khác giúp người dùng tiến xa trong việc giải quyết nhiều bài toán ứng dụng.

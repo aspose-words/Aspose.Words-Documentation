@@ -1,4 +1,4 @@
-﻿---
+---
 title: Voeg Velde in C++
 second_title: Aspose.Words vir C++
 articleTitle: Voeg By Velde
@@ -7,6 +7,7 @@ description: "Verskillende maniere om velde in u dokument in te voeg met C++."
 type: docs
 weight: 20
 url: /af/cpp/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Daar is verskeie verskillende maniere om velde in'n dokument in te voeg:

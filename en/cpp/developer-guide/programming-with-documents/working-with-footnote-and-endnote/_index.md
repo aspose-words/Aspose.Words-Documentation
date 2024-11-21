@@ -7,6 +7,7 @@ description: "How to manipulate footnotes and endnotes using C++."
 type: docs
 weight: 160
 url: /cpp/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words also provides some classes, methods and properties for working with footnotes and endnotes.

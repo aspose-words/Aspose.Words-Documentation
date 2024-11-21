@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++中的Aspose.Words文档对象模型(DOM)
 second_title: Aspose.Words对于C++
 articleTitle: Aspose.Words文档对象模型(DOM)
@@ -7,6 +7,7 @@ type: docs
 description: "文档对象模型(DOM)是Word文档的内存表示形式。 使用C++读取、操作和修改Word文档的内容和格式。"
 weight: 10
 url: /zh/cpp/aspose-words-document-object-model/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words文档对象模型(DOM)是Word文档的内存表示形式。 Aspose.WordsDOM允许您以编程方式读取、操作和修改Word文档的内容和格式。

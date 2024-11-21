@@ -7,6 +7,7 @@ description: "Theo dõi các thay đổi về nội dung và định dạng do b
 type: docs
 weight: 270
 url: /vi/net/track-changes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Chức năng theo dõi các thay đổi, còn được gọi là xem lại, cho phép bạn theo dõi các thay đổi về nội dung và định dạng do bạn hoặc những người dùng khác thực hiện. Tính năng thay đổi bản nhạc này với Aspose.Words hỗ trợ thay đổi bản nhạc trong Microsoft Word. Với chức năng này, bạn có thể truy cập các bản sửa đổi riêng lẻ trong tài liệu của mình và áp dụng các thuộc tính khác nhau cho chúng.

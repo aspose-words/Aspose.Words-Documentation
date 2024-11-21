@@ -7,6 +7,7 @@ description: "Word converteren met toegepaste gevoeligheid label naar PDF met be
 type: docs
 weight: 30
 url: /nl/net/work-with-document-market-by-sensitivity-label/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Gevoeligheidslabels van Microsoft Purview Information Protection kunt u classificeren en beschermen van de gegevens van uw organisatie, terwijl ervoor zorgen dat de productiviteit van de gebruiker en hun vermogen om samen te werken niet wordt belemmerd. Nadat een gevoeligheidslabel op een document is aangebracht, worden alle geconfigureerde beveiligingsinstellingen voor dat etiket op de inhoud afgedwongen.

@@ -7,6 +7,7 @@ description: "使用 C# 控制 Word 文档的外观，同时考虑各种 Microso
 type: docs
 weight: 40
 url: /zh/net/work-with-word-document-options-and-appearance/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有时您可能需要更改文档的外观，例如，设置语言首选项或每页行数。Aspose.Words 提供了控制文档显示方式的功能，以及一些附加选项。本文描述了这种可能性。

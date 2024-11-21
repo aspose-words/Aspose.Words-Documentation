@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在C++中使用图表
 second_title: Aspose.Words对于C++
 articleTitle: 使用图表
@@ -7,6 +7,7 @@ description: "图表特性介绍,如何使用C++创建和操作图表."
 type: docs
 weight: 310
 url: /zh/cpp/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 在[DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/)类中添加了新的[InsertChart](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertchart/)方法。 所以，让我们看看如何使用[InsertChart](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertchart/)方法将简单的柱形图插入到文档中。

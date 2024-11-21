@@ -7,6 +7,7 @@ type: docs
 description: "שמור מסמך בכל פורמט נתמך באמצעות Java."
 weight: 20
 url: /he/java/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 רוב המשימות שאתה צריך לבצע Aspose.Words כרוך בהצלת מסמך. להציל מסמך Aspose.Words מספק [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save(java.lang.String)) שיטת [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) מעמד. ניתן לשמור את המסמך בכל פורמט הצלה נתמך על ידי Aspose.Words. לרשימה של כל הפורמטים הנתמכות, ראה את [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) אזהרה.

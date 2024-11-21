@@ -7,6 +7,7 @@ description: "العمل مع مشاريع مستند VBA باستخدام C#."
 type: docs
 weight: 410
 url: /ar/net/working-with-vba-macros/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Visual Basic for Applications (VBA) for Microsoft Word هي لغة برمجة بسيطة ولكنها قوية يمكن استخدامها لتوسيع الوظائف. يوفر Aspose.Words API ثلاث فئات للوصول إلى التعليمات البرمجية المصدر لمشروع VBA:

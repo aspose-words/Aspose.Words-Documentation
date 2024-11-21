@@ -7,6 +7,7 @@ description: "Exemple de tableau de remplissage du document à partir de la base
 type: docs
 weight: 130
 url: /fr/java/how-to-build-a-table-from-a-datatable/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Souvent, votre application tire des données d'une base de données et les stocke sous la forme d'un **DataTable**. Vous pouvez facilement insérer ces données dans votre document comme nouveau tableau et appliquer rapidement le formatage à l'ensemble du tableau.

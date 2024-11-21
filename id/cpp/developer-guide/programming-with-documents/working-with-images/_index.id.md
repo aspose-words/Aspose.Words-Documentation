@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bekerja dengan Gambar dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Bekerja dengan Gambar
@@ -7,6 +7,7 @@ type: docs
 description: "Pengantar fitur Gambar, cara membuat dan memanipulasi gambar menggunakan C++."
 weight: 300
 url: /id/cpp/working-with-images/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words memungkinkan pengguna untuk bekerja dengan gambar dengan cara yang sangat fleksibel. Dalam artikel ini, Anda hanya dapat menjelajahi beberapa kemungkinan bekerja dengan gambar.

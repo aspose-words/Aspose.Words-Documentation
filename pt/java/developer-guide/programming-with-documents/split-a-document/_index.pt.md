@@ -7,6 +7,7 @@ description: "Aspose.Words para Java fornece-lhe uma maneira eficiente de dividi
 type: docs
 weight: 90
 url: /pt/java/split-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 *Splitting* ou *split um documento* é o processo de quebrar um grande documento em um maior número de arquivos menores. Existem várias razões para dividir um arquivo. Por exemplo, você só precisa de algumas páginas de um documento específico e não de todo. Ou por razões de privacidade, você quer compartilhar apenas algumas partes de um documento com outras pessoas. Com o recurso de divisão, você pode obter apenas as partes necessárias do documento e fazer as ações necessárias com eles, por exemplo, para marcar, salvar ou enviar.

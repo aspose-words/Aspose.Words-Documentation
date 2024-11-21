@@ -7,6 +7,7 @@ description: "Cách thêm, xóa hoặc thao tác nhận xét trong tài liệu b
 type: docs
 weight: 260
 url: /vi/python-net/working-with-comments/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

@@ -7,6 +7,7 @@ description: "Introdução ao recurso de campo em Aspose.Words para Java."
 type: docs
 weight: 370
 url: /pt/java/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 **Fields** em um documento são como placeholders onde os dados úteis podem ser inseridos. Por exemplo, um campo pode ser uma referência de página, fórmula ou uma mail merge campo.

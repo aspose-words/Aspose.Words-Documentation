@@ -8,6 +8,7 @@ description: "PDF를 DOCX, DOC와 같은 Word 형식, JPG 또는 PNG와 같은 �
 keywords: convert pdf to other formats c#
 weight: 45
 url: /ko/net/convert-pdf-to-other-document-formats/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Aspose.Words는 PDF와 같은 복잡한 형식도 로드할 수 있습니다. 이는 새로운 기회를 열어줍니다. PDF를 Word 또는 다른 형식으로 변환하여 사용자가 많은 응용 문제를 훨씬 앞서게 할 수 있습니다.

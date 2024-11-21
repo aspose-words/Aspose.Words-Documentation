@@ -1,4 +1,4 @@
-﻿---
+---
 title: Stoor'n Dokument As'n Veelbladsy TIFF in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Stoor'n Dokument as'n Veelbladsy TIFF
@@ -7,6 +7,7 @@ description: "Skakel'n dokument na'n multi-bladsy TIFF met behulp van C#. Om te 
 type: docs
 weight: 30
 url: /af/net/saving-a-document-as-a-multipage-tiff/
+timestamp: 2024-07-10-14-38-57
 ---
 
 Wanneer jy met dokumente werk, moet jy dikwels jou dokument omskakel na'n rasterbeeldlêer(s). Dit is veral relevant as u u dokument in'n leesbare en drukbare, maar nie bewerkbare formaat moet aanbied nie. U kan byvoorbeeld'n rasterbeeld van die eerste bladsy van u dokument as'n voorskou gebruik. Hierdie artikel beskryf hoe om'n dokument om te skakel na'n raster beeld met behulp van die voorbeeld van die TIFF formaat – een van die meer gewilde beeld formate.

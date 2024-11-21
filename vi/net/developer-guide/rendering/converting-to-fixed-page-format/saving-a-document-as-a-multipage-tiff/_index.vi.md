@@ -7,6 +7,7 @@ description: "Chuyển đổi tài liệu thành TIFF nhiều trang bằng C#. �
 type: docs
 weight: 30
 url: /vi/net/saving-a-document-as-a-multipage-tiff/
+timestamp: 2024-07-10-14-38-57
 ---
 
 Khi làm việc với tài liệu, bạn thường cần chuyển đổi tài liệu của mình thành (các) tệp hình ảnh raster. Điều này đặc biệt phù hợp nếu bạn phải trình bày tài liệu của mình ở định dạng có thể đọc và in được nhưng không thể chỉnh sửa được. Ví dụ: bạn có thể sử dụng hình ảnh raster của trang đầu tiên trong tài liệu làm bản xem trước. Bài viết này mô tả cách chuyển đổi tài liệu sang hình ảnh raster bằng ví dụ về định dạng TIFF – một trong những định dạng hình ảnh phổ biến hơn.

@@ -7,6 +7,7 @@ description: "Belgenize Java kullanarak farklı alan ekleme yöntemleri."
 type: docs
 weight: 20
 url: /tr/java/insert-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bir belgeye alanlar eklemek için farklı birkaç yol vardır:''

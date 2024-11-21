@@ -7,6 +7,7 @@ description: "Introduction to field feature in Aspose.Words for C++."
 type: docs
 weight: 370
 url: /cpp/working-with-fields/
+timestamp: 2024-01-30-16-22-34
 ---
 
 **Fields** in a document are like placeholders where useful data can be inserted. For example, a field can be a page reference, formula, or a mail merge field.

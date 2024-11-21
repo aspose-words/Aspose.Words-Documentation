@@ -1,4 +1,4 @@
-﻿---
+---
 title: Làm Việc Với Dấu trang trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Làm việc Với Dấu Trang
@@ -7,6 +7,7 @@ description: "Hiểu các khái niệm dấu trang và cách đánh dấu có th
 type: docs
 weight: 180
 url: /vi/cpp/working-with-bookmarks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Dấu trang xác định trong tài liệu Microsoft Word các vị trí hoặc đoạn mà bạn đặt tên và xác định để tham khảo trong tương lai. Ví dụ: bạn có thể sử dụng dấu trang để xác định văn bản mà bạn muốn sửa đổi sau này. Thay vì cuộn qua tài liệu để xác định vị trí văn bản, bạn có thể truy cập nó bằng cách sử dụng Hộp thoại Dấu trang.

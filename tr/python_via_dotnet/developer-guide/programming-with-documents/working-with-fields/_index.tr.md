@@ -7,6 +7,7 @@ description: "Python kullanarak belgelerdeki alanlarla nasıl çalışılır?"
 type: docs
 weight: 370
 url: /tr/python-net/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bir belgedeki **Fields**, yararlı verilerin eklenebileceği yer tutucular gibidir. Örneğin bir alan sayfa referansı, formül veya mail merge alanı olabilir.

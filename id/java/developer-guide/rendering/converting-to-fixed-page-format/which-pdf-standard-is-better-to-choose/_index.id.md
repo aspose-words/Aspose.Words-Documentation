@@ -7,6 +7,7 @@ description: "Pilih standar PDF terbaik untuk mengekspor hasil tugas pemrograman
 type: docs
 weight: 27
 url: /id/java/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Untuk beberapa tugas, standar PDF tertentu akan cocok lebih baik atau sebaliknya. Dalam artikel ini, kami akan mencoba untuk menentukan standar PDF mana yang masuk akal untuk dipilih.

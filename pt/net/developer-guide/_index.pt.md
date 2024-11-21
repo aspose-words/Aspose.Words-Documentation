@@ -7,6 +7,7 @@ description: "Este Guia do desenvolvedor descreve cenários práticos e dicas pa
 type: docs
 weight: 30
 url: /pt/net/developer-guide/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Este Guia do desenvolvedor fornece informações sobre como usar Aspose.Words em diversos cenários práticos. Seus artigos trazem sugestões e dicas que ajudarão no uso de recursos específicos, na obtenção de uma determinada aparência de documento ou na possibilidade de um caso de uso.

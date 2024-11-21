@@ -7,6 +7,7 @@ description: "Học cách loại bỏ trường trong Java. Hãy xóa các trư�
 type: docs
 weight: 35
 url: /vi/java/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Đôi khi phải xóa một trường từ tài liệu. Đây có thể xảy ra khi nó được thay thế bằng một loại trường khác hoặc khi trường không còn cần thiết trong tài liệu. Ví dụ một `TOC` trường khi lưu sang HTML.

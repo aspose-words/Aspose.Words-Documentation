@@ -9,6 +9,7 @@ type: docs
 description: "Aspose.Words cho .NET trả lời các câu hỏi thường gặp nhất. Tìm hiểu trang này để nhanh chóng giải quyết vấn đề của bạn về các câu hỏi chung hoặc chủ đề cụ thể."
 weight: 75
 url: /vi/net/faq/
+timestamp: 2024-11-18-12-56-02
 ---
 
 Trang này chứa câu trả lời cho các câu hỏi thường gặp nhất. Vui lòng tìm hiểu trang hiện tại – có lẽ điều này sẽ cho phép bạn giải quyết vấn đề của mình một cách nhanh chóng.

@@ -7,6 +7,7 @@ description: "Melhorado Microsoft Word características de formatação, trabalh
 type: docs
 weight: 110
 url: /pt/java/working-with-styles-and-themes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 O [StyleCollection](https://reference.aspose.com/words/java/com.aspose.words/stylecollection/) classe é usado para gerenciar built-in e aplicar configurações definidas pelo usuário a estilos.

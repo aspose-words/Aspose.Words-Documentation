@@ -1,4 +1,4 @@
-﻿---
+---
 title: Conversia unui Document într-o imagine în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Conversia unui Document într-o imagine
@@ -7,6 +7,7 @@ type: docs
 description: "Convertiți un document în format imagine (JPG, PNG etc.). Creați o previzualizare a documentului sau creați o scanare a documentului pentru a trimite o factură folosind Java."
 weight: 35
 url: /ro/java/convert-a-document-to-an-image/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uneori este necesar să obțineți o imagine în loc de documente în alte formate, cum ar fi DOCX sau PDF. De exemplu, trebuie să adăugați o previzualizare a oricărei pagini de document pe site-ul sau aplicația dvs. sau să creați o "scanare" a unui document pentru a trimite o factură. Acesta este momentul în care poate fi necesar să convertiți un document în orice [supported load format](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) într-o imagine, din nou, în orice [supported save format](https://reference.aspose.com/words/java/com.aspose.words/saveformat/).

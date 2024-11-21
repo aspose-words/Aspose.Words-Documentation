@@ -7,6 +7,7 @@ description: "So finden Sie einige Feldeigenschaften wie Feldcode und Feldergebn
 type: docs
 weight: 25
 url: /de/java/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ein Feld, das mit [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean) zurückgibt a [Field](https://reference.aspose.com/words/java/com.aspose.words/field/) Objekt. Dies ist eine Fassadenklasse, die nützliche Methoden bietet, um solche Eigenschaften eines Feldes schnell zu finden.

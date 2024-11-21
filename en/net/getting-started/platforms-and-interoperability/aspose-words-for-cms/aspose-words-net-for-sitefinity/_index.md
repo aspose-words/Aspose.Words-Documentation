@@ -7,6 +7,7 @@ description: "Integrating Aspose.Words for .NET with Sitefinity content manageme
 type: docs
 weight: 110
 url: /net/aspose-words-net-for-sitefinity/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## What is Sitefinity?

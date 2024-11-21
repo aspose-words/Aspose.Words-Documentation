@@ -1,4 +1,4 @@
-﻿---
+---
 title: Maak'n Dokument skoon in Java
 second_title: Aspose.Words vir Java
 articleTitle: Maak'n Dokument skoon
@@ -7,6 +7,7 @@ description: "Verwyder ongebruikte of duplikaat inligting om uitsetgrootte en ve
 type: docs
 weight: 30
 url: /af/java/clean-up-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Soms moet jy dalk ongebruikte of duplikaat inligting verwyder om die grootte van die uitsetdokument en verwerkingstyd te verminder.

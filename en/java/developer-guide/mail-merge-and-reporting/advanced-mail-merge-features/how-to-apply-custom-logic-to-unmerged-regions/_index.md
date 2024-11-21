@@ -7,6 +7,7 @@ type: docs
 description: "Apply custom logic to unmerged regions during a mail merge operation using Java."
 weight: 70
 url: /java/how-to-apply-custom-logic-to-unmerged-regions/
+timestamp: 2024-01-27-14-07-04
 ---
 
 There are some situations where completely removing unmerged regions from the document during mail merge is not desired or results in the document looking incomplete. This can occur when the absence of input data should be displayed to the user in the form of a message instead of the region being completely removed.

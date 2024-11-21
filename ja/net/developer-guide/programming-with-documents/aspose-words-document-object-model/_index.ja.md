@@ -7,6 +7,7 @@ type: docs
 description: "Document Object Model (DOM) は、Word ドキュメントのメモリ内表現です。 C# を使用して、Word ドキュメントのコンテンツと書式設定を読み取り、操作、変更します。"
 weight: 10
 url: /ja/net/aspose-words-document-object-model/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words Document Object Model (DOM) は、Word ドキュメントのメモリ内表現です。 Aspose.Words DOM を使用すると、Word ドキュメントのコンテンツと書式設定をプログラムで読み取り、操作、変更できます。

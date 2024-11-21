@@ -7,6 +7,7 @@ description: "Aspose.Words for .NET 中的字段功能简介。"
 type: docs
 weight: 370
 url: /zh/net/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 文档中的 **Fields** 就像占位符，可以插入有用的数据。例如，字段可以是页面引用、公式或 mail merge 字段。

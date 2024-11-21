@@ -1,4 +1,4 @@
-﻿---
+---
 title: Panoramica del prodotto
 second_title: Aspose.Words per C++
 articleTitle: Panoramica del prodotto
@@ -7,6 +7,7 @@ description: "Aspose.Words per C++ è una libreria software progettata per crear
 type: docs
 weight: 5
 url: /it/cpp/product-overview/
+timestamp: 2024-06-05-14-43-57
 ---
 
 <img src="product-overview_1" alt="aspose-words-product_cpp" align="left" style="width:64px; margin: 0 30px 30px 0"/>

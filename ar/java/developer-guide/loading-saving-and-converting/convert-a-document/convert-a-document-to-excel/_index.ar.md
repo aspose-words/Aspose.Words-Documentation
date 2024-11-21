@@ -7,6 +7,7 @@ description: "Convert PDF to Excel, XML to Excel, DOCX to Excel Java. Provide a 
 type: docs
 weight: 15
 url: /ar/java/convert-a-document-to-excel/
+timestamp: 2024-01-31-14-23-37
 ---
 
 وإحالة الوثائق من شكل إلى آخر هي السمة الرئيسية في هذا الصدد Aspose.Words. يمكنك تحويل الوثائق في أي مكان متاح [الشكل](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) أيضاً إلى استمارة XLSX.

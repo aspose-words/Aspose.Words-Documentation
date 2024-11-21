@@ -1,4 +1,4 @@
-﻿---
+---
 title: Sisipkan Bidang dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Sisipkan Bidang
@@ -7,6 +7,7 @@ description: "Berbagai cara untuk menyisipkan bidang ke dalam dokumen Anda mengg
 type: docs
 weight: 20
 url: /id/cpp/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ada beberapa cara berbeda untuk menyisipkan bidang ke dalam dokumen:

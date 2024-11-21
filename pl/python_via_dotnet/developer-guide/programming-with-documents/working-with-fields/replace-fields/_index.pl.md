@@ -7,6 +7,7 @@ description: "Dowiedz się, jak zastąpić pola tekstem w Python. Zastąp pola d
 type: docs
 weight: 37
 url: /pl/python-net/replace-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Zastąpienie pól jest często wymagane, jeśli chcesz zapisać dokument jako kopię statyczną. Na przykład podczas wysyłania jako załącznik do wiadomości e-mail. Konwersja pól takich jak `DATE` lub `TIME` na tekst statyczny umożliwi wyświetlanie w dokumencie tej samej daty, co w momencie wysłania. Ponadto w niektórych sytuacjach może być konieczne usunięcie warunkowych pól `IF` z dokumentu i zastąpienie ich najnowszym wynikiem tekstowym. Na przykład konwersja wyniku pola `IF` na tekst statyczny, dzięki czemu nie będzie on już dynamicznie zmieniał swojej wartości po aktualizacji pól w dokumencie.

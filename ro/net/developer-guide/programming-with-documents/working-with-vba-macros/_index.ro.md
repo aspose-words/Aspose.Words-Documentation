@@ -7,6 +7,7 @@ description: "`Lucrând cu proiecte de documente VBA utilizând C#`."
 type: docs
 weight: 410
 url: /ro/net/working-with-vba-macros/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Visual Basic pentru aplicații (VBA) pentru Microsoft Word este o limbă de programare simplă, dar puternică care poate fi folosită pentru a extinde funcționalitatea. Aspose.Words API oferă trei clase pentru a obține acces la codul sursă al proiectului VBA:

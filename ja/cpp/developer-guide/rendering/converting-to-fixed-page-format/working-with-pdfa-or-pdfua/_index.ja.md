@@ -1,4 +1,4 @@
-﻿---
+---
 title: PDF/AまたはPDF/UAでの作業
 second_title: C++の場合Aspose.Words
 articleTitle: PDF/AまたはPDF/UAでの作業
@@ -7,6 +7,7 @@ description: "に変換するPDF/A-1, PDF/A-2, PDF/A-4 とPDF/UAc++を使用し�
 type: docs
 weight: 38
 url: /ja/cpp/working-with-pdfa-or-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 PDF/AおよびPDF/UA形式は、Word形式の文書からPDFへの自動変換中に満たすことができない文書の内容に関連するいくつかの要件を課します。 これらの要件は、完全にPDF/AおよびPDF/UA準拠の文書を作成するために、変換前のWord文書または変換後のPDF文書のいずれかで検証および修正する必要があり

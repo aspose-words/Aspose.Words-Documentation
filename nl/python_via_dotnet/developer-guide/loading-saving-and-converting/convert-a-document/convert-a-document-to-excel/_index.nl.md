@@ -7,6 +7,7 @@ description: "PDF omzetten naar Excel, XML naar Excel, DOCX naar Excel Python. E
 type: docs
 weight: 15
 url: /nl/python-net/convert-a-document-to-excel/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Het omzetten van documenten van het ene formaat naar het andere is het vlaggenschip kenmerk van Aspose.Words. U kunt documenten converteren in alle beschikbare [laadformaat](https://reference.aspose.com/words/python-net/aspose.words/loadformat/) ook naar XLSX formaat.

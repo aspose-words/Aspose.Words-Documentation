@@ -7,6 +7,7 @@ description: "Quanta memoria richiede Aspose.Words for .NET per lavorare con i d
 type: docs
 weight: 10
 url: /it/net/memory-requirements/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words offre un'ampia gamma di funzionalità per lavorare con documenti in vari formati. È importante notare che non esiste alcun limite alla dimensione massima di un file di documento che Aspose.Words può elaborare o visualizzare. L'unica limitazione è la quantità di RAM (memoria) disponibile sul tuo computer.

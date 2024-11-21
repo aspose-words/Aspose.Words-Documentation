@@ -7,6 +7,7 @@ description: "Funciones avanzadas de formato Microsoft Word, trabajando con esti
 type: docs
 weight: 110
 url: /es/net/working-with-styles-and-themes/
+timestamp: 2024-10-24-11-44-28
 ---
 
 La clase [StyleCollection](https://reference.aspose.com/words/es/net/aspose.words/stylecollection/) se utiliza para administrar configuraciones integradas y aplicar configuraciones definidas por el usuario a los estilos.

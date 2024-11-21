@@ -7,6 +7,7 @@ description: "Campo característica en detalles, códigos de campo y resultados 
 type: docs
 weight: 10
 url: /es/java/introduction-to-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words es una biblioteca de clase diseñada para el procesamiento del lado servidor Microsoft Word documentos y soporte campos de la siguiente manera:

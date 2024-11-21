@@ -1,4 +1,4 @@
-﻿---
+---
 title: Combinar celdas de tabla en C++
 second_title: Aspose.Words para C++
 articleTitle: Combinar Celdas de Tabla
@@ -7,6 +7,7 @@ description: "Cómo fusionar celdas de tabla en C++. Compruebe si las celdas de 
 type: docs
 weight: 40
 url: /es/cpp/merge-table-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A veces, ciertas filas de una tabla requieren un encabezado o grandes bloques de texto que ocupan todo el ancho de la tabla. Para un diseño adecuado de la tabla, el usuario puede fusionar varias celdas de la tabla en una sola. Aspose.Words admite celdas combinadas cuando se trabaja con todos los formatos de entrada, incluida la importación de contenido HTML.

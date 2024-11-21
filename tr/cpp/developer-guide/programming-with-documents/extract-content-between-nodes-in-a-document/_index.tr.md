@@ -1,4 +1,4 @@
-﻿---
+---
 title: Belge Düğümleri Arasında İçerik Nasıl Çıkarılır
 second_title: Aspose.Words için C++
 articleTitle: Belgedeki Düğümler Arasındaki İçeriği Ayıkla
@@ -7,6 +7,7 @@ type: docs
 description: "C++ kullanarak farklı belge içeriği ayıklanıyor."
 weight: 140
 url: /tr/cpp/how-to-extract-selected-content-between-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Belgelerle çalışırken, bir belge içindeki belirli bir aralıktan içeriği kolayca çıkarabilmek önemlidir. Ancak içerik paragraflar, tablolar, resimler vb. Gibi karmaşık öğelerden oluşabilir.

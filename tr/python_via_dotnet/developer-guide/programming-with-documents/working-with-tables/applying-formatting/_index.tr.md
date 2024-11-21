@@ -7,6 +7,7 @@ description: "Python kullanarak ayrıntılı olarak tablo biçimlendirme. Tablon
 type: docs
 weight: 70
 url: /tr/python-net/applying-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bir tablonun her öğesi farklı biçimlendirmeyle uygulanabilir. Örneğin, tablo biçimlendirmesi tablonun tamamına, satır biçimlendirmesi yalnızca belirli satırlara, hücre biçimlendirmesi yalnızca belirli hücrelere uygulanacaktır.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Velde in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Werk Met Velde
@@ -7,6 +7,7 @@ description: "Inleiding tot veldfunksie in Aspose.Words vir .NET."
 type: docs
 weight: 370
 url: /af/net/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 **Velde**

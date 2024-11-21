@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trabajar con separación silábica en C++
 second_title: Aspose.Words para C++
 articleTitle: Trabajar con Separación silábica
@@ -7,6 +7,7 @@ description: "Use la separación silábica para una disposición más compacta d
 type: docs
 weight: 220
 url: /es/cpp/working-with-hyphenation/
+timestamp: 2024-01-30-16-22-34
 ---
 
 A veces es necesario utilizar la separación silábica para una disposición más compacta del texto en un documento. Al mismo tiempo, es importante comprender que los detalles de la separación silábica de palabras pueden diferir para cada idioma.

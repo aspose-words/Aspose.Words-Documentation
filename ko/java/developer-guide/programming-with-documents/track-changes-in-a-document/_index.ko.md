@@ -7,6 +7,7 @@ description: "콘텐츠 및 형식의 변경을 추적하십시오. 문서의 �
 type: docs
 weight: 270
 url: /ko/java/track-changes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 트랙 변경의 기능, 또한 검토로 알려진, 당신은 콘텐츠 및 포맷으로 변경을 추적 할 수 있습니다 또는 다른 사용자. 이 트랙 변경 기능 Aspose.Words 트랙 변경 지원 Microsoft Word· 이 기능을 사용하면 문서의 개별 개정에 액세스하고 다른 속성을 적용 할 수 있습니다.

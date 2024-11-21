@@ -7,6 +7,7 @@ description: "Hoe om te gaan met velden in een documenten met behulp van Python.
 type: docs
 weight: 370
 url: /nl/python-net/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 **Fields** in een document zijn als plaatshouders waar nuttige gegevens kunnen worden ingevoegd. Bijvoorbeeld, een veld kan een pagina referentie, formule, of een mail merge veld.

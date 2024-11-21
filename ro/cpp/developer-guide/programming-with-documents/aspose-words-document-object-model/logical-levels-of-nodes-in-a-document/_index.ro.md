@@ -1,4 +1,4 @@
-﻿---
+---
 title: Nivelurile logice ale nodurilor dintr-un Document în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Nivelurile logice ale nodurilor dintr-un Document
@@ -7,6 +7,7 @@ type: docs
 description: "În Aspose.Words pentru C++ documentația a menționat nivelurile logice ale nodurilor-nivel de bloc, nivel de linie sau nivel de rând. Nivelul nodului este folosit pentru a descrie locația din arborele documentului în care apare de obicei nodul."
 weight: 10
 url: /ro/cpp/logical-levels-of-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Această documentație se referă uneori la un grup de clase de noduri ca aparținând unui "nivel" dintr-un document, cum ar fi nodurile "la nivel de bloc", "la nivel de linie" (cunoscute și sub numele de "inline") sau "la nivel de rând". Aceste niveluri dintr-un document sunt diferențiate pur logic și nu sunt exprimate în mod explicit prin moștenire sau prin alte mijloace Aspose.Words DOM. Nivelul nodului este folosit pentru a descrie locul din arborele documentului unde ar apărea de obicei nodul.

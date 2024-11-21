@@ -7,6 +7,7 @@ description: "Cómo agregar un hipervínculo a su documento usando Java."
 type: docs
 weight: 50
 url: /es/java/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un hipervínculo Microsoft Word documentos es `HYPERLINK` campo. In Aspose.Words, hipervínculos se implementan a través de los [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/) clase.

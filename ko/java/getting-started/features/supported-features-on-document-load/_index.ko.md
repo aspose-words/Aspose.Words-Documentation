@@ -7,6 +7,7 @@ description: "대부분의 인기있는 형식의 문서를로드하고 변환�
 type: docs
 weight: 20
 url: /ko/java/supported-features-on-document-load/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words 사용자는 다양한 형식으로 문서를 작업하고 다양한 옵션을 제공합니다. 예를 들어, 사용자는 스크래치에서 문서를 만들거나 기존 파일을로드 할 수 있습니다. [지원된 문서 체재](/words/ko/java/supported-document-formats/), 그 문서에 약간의 변화를 만들고 그 결과를 저장합니다. 선택한 형식으로 문서를 가져올 때 사용자는 다양한 부하 옵션을 적용할 수 있습니다.

@@ -7,6 +7,7 @@ type: docs
 description: "Python via .NET용 Aspose.Words는 SmartArt 콜드 렌더링을 수행합니다. 즉, 사전 렌더링된 SmartArt 드로잉이 없거나 잘못된 경우 SmartArt 개체를 배치하고 렌더링합니다."
 weight: 330
 url: /ko/python-net/working-with-smartart-cold-rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 SmartArt 그래픽은 정보의 시각적 표현을 빠르고 쉽게 만드는 데 사용됩니다. 상황에 가장 적합한 다양한 레이아웃 중에서 선택하기만 하면 됩니다. 이러한 사용 편의성으로 인해 SmartArt 그래픽은 어떤 목적으로든 매우 인기가 있습니다.

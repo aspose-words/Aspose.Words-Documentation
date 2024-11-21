@@ -7,6 +7,7 @@ description: "PDF/A 和 PDF/UA 施加了与文档内容相关的可访问性要�
 type: docs
 weight: 29
 url: /zh/python-net/warnings-when-saving-to-pdfa-and-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 PDF/A 和 PDF/UA 格式提出了许多与文档内容相关的辅助功能要求，而这些要求在从 Word 自动转换为 PDF 的过程中无法满足。这些要求在上一篇文章 *"使用 PDF/A 或 PDF/UA"* 中进行了描述。现在针对其中一些问题发出了警告。

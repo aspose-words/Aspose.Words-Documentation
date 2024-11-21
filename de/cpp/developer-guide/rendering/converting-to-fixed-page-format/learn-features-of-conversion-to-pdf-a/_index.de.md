@@ -1,4 +1,4 @@
-﻿---
+---
 title: Umwandlung in PDF/A und PDF/UA
 second_title: Aspose.Words für C++
 articleTitle: Lernen Sie die Funktionen der Konvertierung in PDF/A und PDF/UA kennen
@@ -7,6 +7,7 @@ description: "Konvertieren in PDF/A-1, PDF/A-2, PDF/A-4 und PDF/UA mit C++. Wäh
 type: docs
 weight: 35
 url: /de/cpp/learn-features-of-conversion-to-pdf-a-pdf-ua/
+timestamp: 2024-01-31-14-23-37
 ---
 
 PDF ist ein festes Seitenformat, das bei Benutzern sehr beliebt ist und von verschiedenen Anwendungen weitgehend unterstützt wird, da ein PDF -Dokument auf jedem Gerät gleich aussieht. Aus diesem Grund ist die Konvertierung in PDF ein wichtiges Merkmal von Aspose.Words.

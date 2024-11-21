@@ -7,6 +7,7 @@ description: "Как да добавите хипервръзка в докум�
 type: docs
 weight: 50
 url: /bg/net/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Хипервръзка Microsoft Word документите са `HYPERLINK` поле. В Aspose.Words, хипервръзките се осъществяват чрез [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/) Клас.

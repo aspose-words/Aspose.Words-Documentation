@@ -7,6 +7,7 @@ description: "Aspose.Words for .NET 需要多少内存才能处理文档？了�
 type: docs
 weight: 10
 url: /zh/net/memory-requirements/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words 提供了广泛的功能来处理各种格式的文档。需要注意的是，Aspose.Words 可以处理或渲染的文档文件的最大大小没有限制。唯一的限制是您可用的 RAM（内存）量。

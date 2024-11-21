@@ -7,6 +7,7 @@ description: "Vložit pole do dokumentu v Python různými způsoby: `DocumentBu
 type: docs
 weight: 20
 url: /cs/python-net/inserting-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Existuje několik různých způsobů, jak vložit pole do dokumentu:

@@ -7,6 +7,7 @@ description: "Berapa banyak memori yang dibutuhkan Aspose.Words untuk .NET untuk
 type: docs
 weight: 10
 url: /id/net/memory-requirements/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words menyediakan berbagai fitur untuk bekerja dengan dokumen dalam berbagai format. Penting untuk dicatat bahwa tidak ada batasan ukuran maksimum file dokumen yang dapat diproses atau dirender oleh Aspose.Words. Satu-satunya batasan adalah jumlah RAM (memori) yang tersedia di pihak Anda.

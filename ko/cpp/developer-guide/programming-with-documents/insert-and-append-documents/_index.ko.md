@@ -1,4 +1,4 @@
-﻿---
+---
 title: 문서 삽입 및 추가 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 문서 삽입 및 추가
@@ -7,6 +7,7 @@ description: "문서를 하나로 결합:찾기 및 바꾸기,병합 필드,책�
 type: docs
 weight: 80
 url: /ko/cpp/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 때로는 여러 문서를 하나로 결합 할 필요가 있습니다. 이 작업을 수동으로 수행하거나 다음을 사용할 수 있습니다 Aspose.Words 기능을 삽입 또는 추가합니다.

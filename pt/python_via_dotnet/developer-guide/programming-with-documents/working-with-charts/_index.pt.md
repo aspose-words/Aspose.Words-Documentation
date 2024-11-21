@@ -7,6 +7,7 @@ description: "Crie e modifique gráficos de vários tipos em um documento usando
 type: docs
 weight: 310
 url: /pt/python-net/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Novo método [insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/) foi adicionado à classe [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/). Então, vamos ver como inserir um gráfico de colunas simples no documento usando o método [DocumentBuilder.insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/):

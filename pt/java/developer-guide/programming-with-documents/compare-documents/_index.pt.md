@@ -7,6 +7,7 @@ type: docs
 description: "Compare dois documentos em qualquer formato suportado e mostre alterações de conteúdo. Você pode aplicar opções avançadas ao comparar usando Java."
 weight: 60
 url: /pt/java/compare-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Comparar documentos é um processo que identifica mudanças entre dois documentos e contém as mudanças como revisões. Este processo compara quaisquer dois documentos, incluindo versões de um documento específico, então as alterações entre ambos os documentos serão mostradas como revisões no primeiro documento.

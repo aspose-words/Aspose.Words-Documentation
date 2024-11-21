@@ -1,4 +1,4 @@
-﻿---
+---
 title: Thao tác phông Chữ Và Các Vấn đề Về Hiệu suất trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Các Vấn đề Về Thao tác phông chữ và Hiệu suất
@@ -7,6 +7,7 @@ description: "Aspose.Words cho C++ sử dụng tên đầy đủ phông chữ, h
 type: docs
 weight: 11
 url: /vi/cpp/font-manipulation-and-performance-issues/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Tất cả các cơ chế thao tác phông chữ có sẵn được chứa trong lớp [FontSettings](https://reference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings). Lớp này chịu trách nhiệm tìm nạp phông chữ trong các nguồn phông chữ được xác định cũng như cho quá trình Thay Thế Phông chữ, như được mô tả dưới đây.

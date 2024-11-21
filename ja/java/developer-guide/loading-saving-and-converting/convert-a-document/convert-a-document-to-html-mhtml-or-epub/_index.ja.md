@@ -7,6 +7,7 @@ description: "使用条件 Aspose.Words お問い合わせ Java 文書をWordま
 type: docs
 weight: 20
 url: /ja/java/convert-a-document-to-html-mhtml-or-epub/
+timestamp: 2024-10-21-08-52-03
 ---
 
 HTML と MHTML のフローレイアウトのフォーマットのドキュメントも非常に人気があり、任意の web プラットフォームで使用できます。 そのため、ドキュメントを HTML や MHTML に変換することは重要な機能です。 Aspose.Wordsお問い合わせ

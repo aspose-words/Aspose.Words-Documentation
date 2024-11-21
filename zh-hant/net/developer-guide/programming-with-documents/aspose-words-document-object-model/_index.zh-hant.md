@@ -7,6 +7,7 @@ type: docs
 description: "Document Object Model (DOM)是Word文件的內存表示。 透過 C# 讀取、操作並修改 Word 文檔的內容與格式。"
 weight: 10
 url: /zh-hant/net/aspose-words-document-object-model/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words Document Object Model (DOM)是 Word 文檔的內存表示。 Aspose.Words DOM 讓您可以程式設計地閱讀、操控並修改 Word 文檔的內容與格式。

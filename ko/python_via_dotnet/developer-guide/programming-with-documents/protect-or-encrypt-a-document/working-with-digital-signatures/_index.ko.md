@@ -7,6 +7,7 @@ description: "Python를 사용하여 문서에 디지털 서명을 하고 기존
 type: docs
 weight: 40
 url: /ko/python-net/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 디지털 서명은 문서를 보낸 사람이 누구인지, 문서 내용이 변조되지 않았는지 확인하기 위해 문서를 인증하는 데 사용됩니다.

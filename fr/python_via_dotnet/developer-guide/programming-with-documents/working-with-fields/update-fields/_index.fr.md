@@ -7,6 +7,7 @@ description: "Mettez à jour les champs d'un document de différentes manières 
 type: docs
 weight: 30
 url: /fr/python-net/update-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Généralement, un champ inséré dans Microsoft Word contient déjà une valeur à jour. Par exemple, si le champ est une formule ou un numéro de page, il contiendra la valeur calculée correcte pour la version donnée du document. Mais si vous disposez d'une application qui génère ou modifie un document avec des champs comme la fusion de deux documents ou le remplissage de données, alors idéalement, tous les champs doivent être mis à jour pour que le document soit utile.

@@ -7,6 +7,7 @@ description: "Gelişmiş tablo biçimlendirme Java. Java'ı kullanarak bir tablo
 type: docs
 weight: 80
 url: /tr/java/working-with-tablestyle/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bir tablo stili, kolayca bir tabloya uygulanabilen bir dizi biçimlendirme tanımlamaktadır. Sınır, gölgelendirme, hizalama ve yazı tipi gibi biçimlendirme bir tablo tarzında ayarlanabilir ve birçok tabloya tutarlı görünüm sağlamak için uygulanabilir.

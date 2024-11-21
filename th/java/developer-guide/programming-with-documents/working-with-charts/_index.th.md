@@ -7,6 +7,7 @@ description: "แนะนําคุณสมบัติของแผนภ
 type: docs
 weight: 310
 url: /th/java/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ของใหม่ [insertChart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertChart-int-double-double) วิธีการถูกเพิ่มเข้าไปใน [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) ชั้นเรียน. ลองดูวิธีใส่แผนภาพคอลัมน์ง่ายๆ ลงในเอกสารโดยใช้ **แทรก แผนภูมิ** วิธี

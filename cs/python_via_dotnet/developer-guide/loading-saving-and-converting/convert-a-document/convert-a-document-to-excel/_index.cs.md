@@ -7,6 +7,7 @@ description: "Převést PDF na Excel, XML na Excel, DOCX na Excel Python. Uloži
 type: docs
 weight: 15
 url: /cs/python-net/convert-a-document-to-excel/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Převod dokumentů z jednoho formátu do druhého je vlajkovou lodí Aspose.Words. Dokumenty můžete převést v jakémkoliv dostupném [formát zatížení](https://reference.aspose.com/words/python-net/aspose.words/loadformat/) i do formátu XLSX.

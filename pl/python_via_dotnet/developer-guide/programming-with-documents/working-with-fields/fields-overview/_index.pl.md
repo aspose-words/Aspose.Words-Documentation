@@ -7,6 +7,7 @@ description: "Dostęp do modyfikowania pól można uzyskać za pomocą Python. P
 type: docs
 weight: 10
 url: /pl/python-net/fields-overview/
+timestamp: 2024-10-21-11-17-44
 ---
 
 

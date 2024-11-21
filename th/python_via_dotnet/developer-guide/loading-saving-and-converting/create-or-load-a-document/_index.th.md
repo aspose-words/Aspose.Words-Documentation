@@ -8,6 +8,7 @@ url: /th/python-net/create-or-load-a-document/
 description: "สร้างเอกสารเปล่าหรือโหลดจากไฟล์หรือสตรีมโดยใช้ Python"
 keywords: "create a document python, load a document python, create a blank document python, load a document from file python, load a document from stream python, create a document Aspose python, load a document Aspose python, load formats supported by Aspose.Words python"
 weight: 10
+timestamp: 2024-01-27-14-07-04
 ---
 
 เกือบทุกงานที่คุณต้องการดำเนินการด้วย Aspose.Words เกี่ยวข้องกับการโหลดเอกสาร คลาส [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) แสดงถึงเอกสารที่โหลดลงในหน่วยความจำ เอกสารมีตัวสร้างที่โอเวอร์โหลดหลายตัว ซึ่งช่วยให้คุณสร้างเอกสารเปล่าหรือโหลดจากไฟล์หรือสตรีมได้ สามารถโหลดเอกสารในรูปแบบการโหลดใดก็ได้ที่ Aspose.Words รองรับ สำหรับรายการรูปแบบการโหลดที่รองรับทั้งหมด โปรดดูการแจงนับ [LoadFormat](https://reference.aspose.com/words/python-net/aspose.words/loadformat/)

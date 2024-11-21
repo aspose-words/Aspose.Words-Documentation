@@ -7,6 +7,7 @@ description: "با استفاده از C# با برچسب های سند ساخت
 type: docs
 weight: 50
 url: /fa/net/structured-document-tags-or-content-control/
+timestamp: 2024-01-31-14-23-37
 ---
 
 

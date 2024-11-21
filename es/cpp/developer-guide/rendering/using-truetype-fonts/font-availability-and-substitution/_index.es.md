@@ -1,4 +1,4 @@
-﻿---
+---
 title: MFont Disponibilidad y sustitución en C++
 second_title: Aspose.Words para C++
 articleTitle: Disponibilidad y Sustitución de Fuentes
@@ -7,6 +7,7 @@ description: "Cuando no se puede encontrar la fuente de sustitución exacta, Asp
 type: docs
 weight: 12
 url: /es/cpp/font-availability-and-substitution/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Un texto en un documento se puede formatear con varias fuentes, como Arial, Times New Roman, Verdana y otras. Cuando Aspose.Words representa un documento, intenta seleccionar las fuentes especificadas en el documento.

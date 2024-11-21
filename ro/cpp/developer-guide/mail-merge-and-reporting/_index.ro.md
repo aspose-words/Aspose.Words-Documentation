@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge și raportarea în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Mail Merge și raportare
@@ -8,6 +8,7 @@ description: "Mail Merge este o caracteristică populară pentru crearea rapidă
 keywords: "how to use mail merge c++"
 weight: 30
 url: /ro/cpp/mail-merge-and-reporting/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Mail Merge este o caracteristică populară pentru crearea rapidă și ușoară a documentelor, cum ar fi scrisori, etichete și plicuri. Aspose.Words vă permite să generați documente din șabloane cu mail merge câmpuri.

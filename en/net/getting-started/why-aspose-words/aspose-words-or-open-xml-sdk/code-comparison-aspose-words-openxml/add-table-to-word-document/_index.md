@@ -7,6 +7,7 @@ description: "Add a table to a Word document easily and fast instead of using Op
 type: docs
 weight: 100
 url: /net/add-table-to-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 On this page we will look at how to add a table to a document in a Word format using Aspose.Words or Open XML SDK.

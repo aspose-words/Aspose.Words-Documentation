@@ -7,6 +7,7 @@ type: docs
 description: "DocumentBuilder cho phép bạn xây dựng các tài liệu động từ đầu hoặc thêm các phần tử mới vào những tài liệu hiện có. DocumentBuilder cung cấp các phương pháp để chèn văn bản, hộp kiểm, bảng, hình ảnh và các phần tử nội dung khác trong Java."
 weight: 30
 url: /vi/java/document-builder-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) là một lớp mạnh mẽ kết hợp với [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) và cho phép bạn xây dựng tài liệu động từ đầu hoặc thêm các phần tử mới vào một tài liệu hiện có.

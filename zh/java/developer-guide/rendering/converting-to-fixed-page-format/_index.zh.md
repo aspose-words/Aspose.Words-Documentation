@@ -7,6 +7,7 @@ description: "Aspose.Words (单位:千美元) Java 执行自己的页面布局�
 type: docs
 weight: 10
 url: /zh/java/converting-to-fixed-page-format/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words 执行自己的页面布局引擎。 在探讨其规格之前,值得首先在高级别讨论文件。 在思考一个文档时,用户一般会想象出一些包含文字,图像,表格和图表的纸页. 文档可以是各种类型,如文本,电子表格,幻灯片,CAD绘图,流程图,因此可以有本质上不同的布局. 大多数应用程序允许将文档发送到打印机;这时用户可以实际查看文档的最终意图外观.

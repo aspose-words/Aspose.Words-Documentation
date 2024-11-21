@@ -7,6 +7,7 @@ description: "Einführung in die Formatierung der Nummerierung Aspose.Words für
 type: docs
 weight: 200
 url: /de/java/working-with-lists/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Eine Liste in einer Microsoft Word dokument ist eine Reihe von Liste-Formatierungseigenschaften. Listen können in Ihren Dokumenten verwendet werden, um Text zu formatieren, zu arrangieren und zu betonen. Listen sind eine gute Möglichkeit, Daten in Dokumenten zu organisieren, und sie erleichtern es den Lesern, Schlüsselpunkte zu verstehen.

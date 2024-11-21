@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Paragrawe in C++
 second_title: Aspose.Words vir C++
 articleTitle: Werk Met Paragrawe
@@ -7,6 +7,7 @@ description: "Paragraaf knoop manipulasie praktyke met behulp van C++."
 type: docs
 weight: 210
 url: /af/cpp/working-with-paragraphs/
+timestamp: 2024-01-30-16-22-34
 ---
 
 'n paragraaf is'n stel karakters wat in'n logiese blok gekombineer word en eindig met'n spesiale karakter – a *paragraph break*. In Aspose.Words word'n paragraaf verteenwoordig deur die [Paragraph](https://reference.aspose.com/words/cpp/aspose.words/paragraph/) klas.

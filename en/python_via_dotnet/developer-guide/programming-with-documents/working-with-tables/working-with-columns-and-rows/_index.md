@@ -8,6 +8,7 @@ type: docs
 weight: 30
 url: /python-net/working-with-columns-and-rows/
 aliases: [/python/working-with-columns-and-rows/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 For more control over how tables work, learn how to manipulate columns and rows.

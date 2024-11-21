@@ -1,4 +1,4 @@
-﻿---
+---
 title: Обзор продукта
 second_title: Aspose.Words для C++
 articleTitle: Обзор продукта
@@ -7,6 +7,7 @@ description: "Aspose.Words для C++ это библиотека програм
 type: docs
 weight: 5
 url: /ru/cpp/product-overview/
+timestamp: 2024-06-05-14-43-57
 ---
 
 <img src="product-overview_1" alt="aspose-words-product_cpp" align="left" style="width:64px; margin: 0 30px 30px 0"/>

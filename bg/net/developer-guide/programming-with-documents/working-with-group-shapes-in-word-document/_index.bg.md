@@ -7,6 +7,7 @@ description: "GroupИнг и разгрупиране на форми, изпо�
 type: docs
 weight: 290
 url: /bg/net/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Понякога трябва да добавите group shape в документ на Word. - group shape се състои от множество форми.

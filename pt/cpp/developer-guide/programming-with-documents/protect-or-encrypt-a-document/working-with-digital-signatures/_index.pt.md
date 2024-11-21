@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trabalhar com assinaturas digitais em C++
 second_title: Aspose.Words para C++
 articleTitle: Trabalhar com assinaturas digitais
@@ -7,6 +7,7 @@ description: "Assinar digitalmente documentos e detectar, contar, verificar e re
 type: docs
 weight: 160
 url: /pt/cpp/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uma assinatura digital é uma implementação tecnológica de assinaturas eletrónicas para assinar documentos e autenticar o signatário para garantir que um documento não foi modificado desde a sua assinatura. Cada assinatura digital é única para cada signatário, pois segue o protocolo PKI para gerar chaves públicas e privadas. Assinar um documento digitalmente significa criar uma assinatura usando a chave privada do signatário, onde um algoritmo matemático é usado para criptografar o hash gerado.

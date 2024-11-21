@@ -7,6 +7,7 @@ description: "Python を使用して group shape をドキュメントに追加�
 type: docs
 weight: 290
 url: /ja/python-net/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 場合によっては、Word 文書に group shape を追加する必要があります。このような group shape は複数の形状で構成されます。

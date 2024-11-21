@@ -1,4 +1,4 @@
-﻿---
+---
 title: 检测文件格式并检查格式兼容性
 second_title: Aspose.Words对于C++
 articleTitle: 检测文件格式并检查格式兼容性
@@ -7,6 +7,7 @@ description: "如果您不确定文件的实际内容，或者要检查格式兼
 type: docs
 weight: 20
 url: /zh/cpp/detect-file-format-and-check-format-compatibility/
+timestamp: 2024-10-21-11-17-44
 ---
 
 有时有必要在打开之前确定文档的格式，因为文件扩展名不能保证文件的内容是适当的。 例如，已知Crystal Reports经常以RTF格式输出文档，但给出了。doc扩展。

@@ -7,6 +7,7 @@ description: "Asian typography로 일하기 Java· 아시아와 라틴어 텍스
 type: docs
 weight: 240
 url: /ko/java/working-with-asian-typography/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Asian Typography는 아시아 언어로 작성된 문서의 텍스트 단락에 대한 옵션 세트입니다.

@@ -7,6 +7,7 @@ description: "使用 C# 在文档中的不同节点（例如段落、书签或�
 type: docs
 weight: 10
 url: /zh/net/navigation-with-cursor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 在处理文档时，无论文档长短，您都需要浏览文档。使用虚拟光标导航表示在文档中的不同节点之间导航的能力。

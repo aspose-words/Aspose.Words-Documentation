@@ -1,4 +1,4 @@
-﻿---
+---
 title: Specificați opțiunile de încărcare în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Specificați Opțiunile De Încărcare
@@ -7,6 +7,7 @@ description: "Setați proprietăți avansate la încărcarea unui document folos
 type: docs
 weight: 10
 url: /ro/java/specify-load-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Când încărcați un document, puteți seta câteva proprietăți avansate. Aspose.Words vă oferă clasa [LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/), care permite un control mai precis al procesului de încărcare. Unele formate de încărcare au o clasă corespunzătoare care conține opțiuni de încărcare pentru acest format de încărcare, de exemplu, există [PdfLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/) pentru încărcare în format PDF sau [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) pentru încărcare în TXT. Acest articol oferă exemple de lucru cu opțiunile clasei **LoadOptions**.

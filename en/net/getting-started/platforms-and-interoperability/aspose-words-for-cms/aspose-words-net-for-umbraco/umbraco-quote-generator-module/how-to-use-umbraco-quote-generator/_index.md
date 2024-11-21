@@ -1,4 +1,4 @@
-﻿---
+---
 title: Using and Video Demo for Umbraco Quote Generator
 second_title: Aspose.Words for .NET
 articleTitle: Using and Video Demo for Umbraco Quote Generator
@@ -8,6 +8,7 @@ type: docs
 weight: 10
 url: /net/how-to-use-umbraco-quote-generator/
 aliases: [/net/using-and-video-demo-for-umbraco-quote-generator/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Using and Video Demo for Umbraco Quote Generator

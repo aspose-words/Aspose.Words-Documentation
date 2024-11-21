@@ -7,6 +7,7 @@ description: "So fügen Sie mithilfe von Python Kommentare in einem Dokument hin
 type: docs
 weight: 260
 url: /de/python-net/working-with-comments/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

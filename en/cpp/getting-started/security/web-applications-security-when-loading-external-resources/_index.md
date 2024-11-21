@@ -7,6 +7,7 @@ type: docs
 description: "Load remote resources, that can be a reason of security risks. Take a look at common security issues and their solutions in C++."
 weight: 50
 url: /cpp/web-applications-security-when-loading-external-resources/
+timestamp: 2024-01-30-16-22-34
 ---
 
 By default, Aspose.Words for C++ can load remote resources such as images, CSS styles, or external HTML documents when importing documents or inserting images using the DocumentBuilder. This behavior allows you to process your documents in full detail but can be a reason of some security risks if the library is a part of a web application.

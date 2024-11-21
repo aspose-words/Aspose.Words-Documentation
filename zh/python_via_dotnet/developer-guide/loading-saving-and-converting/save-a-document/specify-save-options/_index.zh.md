@@ -7,6 +7,7 @@ description: "使用 Python 更准确地控制保存过程。"
 type: docs
 weight: 10
 url: /zh/python-net/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 保存文档时，您可以设置一些高级属性。 Aspose.Words 为您提供了 [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) 类，可以更精确地控制保存过程。 [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) 方法的重载接受 [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) 对象 – 它应该是从 [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) 类派生的类的对象。每种保存格式都有一个对应的类，用于保存该保存格式的保存选项，例如，[PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) 用于保存为 PDF 格式，或者 [ImageSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/) 用于保存为图像。本文提供了使用从 [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) 派生的一些选项类的示例。

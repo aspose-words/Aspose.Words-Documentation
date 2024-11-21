@@ -7,6 +7,7 @@ description: "Uložit dokumenty do PDF, XPS, HTML, XAML, PostScript a PCL formá
 type: docs
 weight: 10
 url: /cs/python-net/converting-to-fixed-page-format/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words implementuje svůj vlastní motor rozložení stránek. Před tím, než se dostaneme do jeho specifikací, stojí za to nejprve diskutovat o dokumentu na vysoké úrovni. Při přemýšlení o dokumentu si uživatelé obvykle představí řadu papírových listů obsahujících slova, obrázky, tabulky a grafy. Dokumenty mohou být různé typy, jako je text, tabulky, diapozitivy, CAD výkresy, diagramy, a proto mohou mít v podstatě různé rozvržení. Většina aplikací umožňuje posílat dokumenty do tiskárny; to je doba, kdy uživatel může skutečně zobrazit dokument.

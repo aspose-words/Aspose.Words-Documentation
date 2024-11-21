@@ -7,6 +7,7 @@ description: "Extraia vários objetos gráficos, como imagens, caixa de texto co
 type: docs
 weight: 40
 url: /pt/java/rendering-shapes-separately-from-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ao processar documentos, uma tarefa comum é extrair todas as imagens encontradas no documento e exportá-las para um local externo. Esta tarefa torna-se simples com Aspose.Words API, que já fornece a funcionalidade para extrair e salvar dados de imagem. No entanto, às vezes você pode querer extrair similarmente outros tipos de conteúdo gráfico que são representados por um tipo diferente de objeto de desenho, por exemplo, uma caixa de texto contendo parágrafos, formas de seta e uma pequena imagem. Não há nenhuma maneira direta de renderizar esse objeto, pois é uma combinação de elementos de conteúdo individuais. Você também pode encontrar um caso quando o conteúdo foi agrupado no objeto que parece uma única imagem.

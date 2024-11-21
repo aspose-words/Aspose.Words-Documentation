@@ -7,6 +7,7 @@ description: "Ruby: download and configure Aspose.Words for Java."
 type: docs
 weight: 10
 url: /java/download-and-configure-aspose-words-in-ruby/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Download Required Libraries

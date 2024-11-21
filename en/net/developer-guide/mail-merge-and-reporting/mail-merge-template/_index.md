@@ -8,6 +8,7 @@ description: "Create a mail merge template to define fixed content in output doc
 keywords: "create mail merge template с#"
 weight: 10
 url: /net/mail-merge-template/
+timestamp: 2024-07-11-08-07-06
 ---
 
 It is common to use a merge template as the base document for a mail merge operation either if it is a simple mail merge or mail merge with regions. Mail merge with regions is more powerful and popular than the simple mail merge. Simple mail merge is considered as a particular case of mail merge with regions where the region is the entire document. All is explained in the next article “Types of Mail Merge Operation” in more detail.

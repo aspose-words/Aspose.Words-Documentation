@@ -7,6 +7,7 @@ description: "Naviguez entre différents nœuds au sein d'un document tel qu'un 
 type: docs
 weight: 10
 url: /fr/python-net/navigation-with-cursor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Lorsque vous travaillez avec un document, même s'il est court ou long, vous devrez naviguer dans votre document. La navigation avec un curseur virtuel représente la possibilité de naviguer entre différents nœuds d'un document.

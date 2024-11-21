@@ -1,4 +1,4 @@
-﻿---
+---
 title: Conversion Results Screen
 second_title: Aspose.Words for SharePoint
 articleTitle: Conversion Results Screen
@@ -7,6 +7,7 @@ description: "How to interpret conversion results in the SharePoint UI using the
 type: docs
 weight: 30
 url: /sharepoint/conversion-results-screen/
+timestamp: 2024-01-27-14-07-04
 ---
 
 After finishing the conversion, Aspose.Words for SharePoint shows the Conversion Results screen. It has three parts:

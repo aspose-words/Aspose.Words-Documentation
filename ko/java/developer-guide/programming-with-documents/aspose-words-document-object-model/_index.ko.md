@@ -7,6 +7,7 @@ type: docs
 description: "Document Object Model (주)DOM)는 Word 문서의 in-memory 표현입니다. 읽기, 조작, 및 워드 문서의 내용을 수정 Java·"
 weight: 10
 url: /ko/java/aspose-words-document-object-model/
+timestamp: 2024-01-27-14-07-04
 ---
 
 더 보기 Aspose.Words Document Object Model (주)DOM)는 Word 문서의 in-memory 표현입니다. 더 보기 Aspose.Words DOM 프로그래밍을 읽을 수 있고 조작하고 Word 문서의 내용과 형식을 수정합니다.

@@ -7,6 +7,7 @@ description: "Usuń nieużywane lub zduplikowane informacje, aby zmniejszyć roz
 type: docs
 weight: 30
 url: /pl/net/clean-up-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Czasami może być konieczne usunięcie nieużywanych lub zduplikowanych informacji, aby zmniejszyć rozmiar dokumentu wyjściowego i czas przetwarzania.

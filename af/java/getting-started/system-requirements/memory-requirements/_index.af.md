@@ -1,4 +1,4 @@
-﻿---
+---
 title: Geheue Vereistes
 second_title: Aspose.Words vir Java
 articleTitle: Geheue Vereistes
@@ -7,6 +7,7 @@ description: "Hoeveel geheue doen Aspose.Words vir Java moet jy met dokumente we
 type: docs
 weight: 10
 url: /af/java/memory-requirements/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words bied'n wye verskeidenheid funksies om met dokumente in verskillende formate te werk. Dit is belangrik om daarop te let dat daar geen beperking is op die maksimum grootte van'n dokumentlêer wat Aspose.Words kan verwerk of weergee nie. Die enigste beperking is die hoeveelheid RAM (geheue) wat aan jou kant beskikbaar is.

@@ -7,6 +7,7 @@ description: "Định dạng phông chữ ở chi tiết sử dụng Java."
 type: docs
 weight: 230
 url: /vi/java/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Phông chữ là một tập hợp các ký tự có kích thước, màu sắc và thiết kế nhất định. Aspose.Words cho phép bạn làm việc với phông chữ bằng cách sử dụng các lớp liên quan đến phông chữ, bao gồm cả lớp [Font](https://reference.aspose.com/words/java/com.aspose.words/font/).

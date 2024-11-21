@@ -7,6 +7,7 @@ description: "Understanding Form Fields feature, working with Form Fields using 
 type: docs
 weight: 380
 url: /ar/java/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A document that contains fill-in blanks (fields) is known as a form. على سبيل المثال، يمكنك إنشاء استمارة تسجيل في Microsoft Word التي تستخدم قوائم الهبوط التي يمكن للمستعملين أن يختاروا منها القيود. The `Form` الميدان هو موقع يخزن فيه نوع معين من البيانات، مثل الاسم أو العنوان. حقول الاستمارة Microsoft Word وتشمل مدخلات النص، والجمعيات، وصناديق التحقق.

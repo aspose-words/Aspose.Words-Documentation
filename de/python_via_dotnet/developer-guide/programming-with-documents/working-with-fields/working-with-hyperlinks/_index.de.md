@@ -7,6 +7,7 @@ description: "Mit Python einen Hyperlink in einem Dokument hinzufügen, ersetzen
 type: docs
 weight: 50
 url: /de/python-net/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ein Hyperlink in Microsoft Word-Dokumenten ist das `HYPERLINK`-Feld. In Aspose.Words werden Hyperlinks über die [FieldHyperlink](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldhyperlink/)-Klasse implementiert.

@@ -7,6 +7,7 @@ description: "C# を使用して、さまざまな Microsoft Word バージョ�
 type: docs
 weight: 40
 url: /ja/net/work-with-word-document-options-and-appearance/
+timestamp: 2024-01-27-14-07-04
 ---
 
 場合によっては、言語設定やページごとの行数の設定など、ドキュメントの外観を変更する必要がある場合があります。Aspose.Words には、ドキュメントの表示方法を制御する機能といくつかの追加オプションが用意されています。この記事ではそのような可能性について説明します。

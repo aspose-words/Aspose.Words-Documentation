@@ -7,6 +7,7 @@ description: "Převést dokument na vícestránkový TIFF pomocí C#. Chcete-li 
 type: docs
 weight: 30
 url: /cs/net/saving-a-document-as-a-multipage-tiff/
+timestamp: 2024-07-10-14-38-57
 ---
 
 Při práci s dokumenty často potřebujete převést svůj dokument na rastrový soubor s obrazem. To je zvláště důležité, pokud musíte předložit svůj dokument v čitelném a tiskovatelném formátu, ale ne editovatelném. Například můžete použít rastrový obrázek první stránky vašeho dokumentu jako náhled. Tento článek popisuje, jak převést dokument do rastrového obrazu pomocí příkladu formátu TIFF? jeden z populárnějších formátů obrázku.

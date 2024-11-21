@@ -7,6 +7,7 @@ description: "המרת PDF/A-1, PDF/A-2, PDF/A-4 ו- PDF/UA באמצעות C#. �
 type: docs
 weight: 25
 url: /he/net/learn-features-of-conversion-to-pdf-a-pdf-ua/
+timestamp: 2024-01-31-14-23-37
 ---
 
 PDF הוא פורמט דף קבוע פופולרי מאוד בקרב משתמשים והוא נתמך על ידי יישומים שונים, כמו מסמך PDF נראה אותו הדבר על כל מכשיר. מסיבה זו, המרת PDF היא תכונה חשובה של Aspose.Words.

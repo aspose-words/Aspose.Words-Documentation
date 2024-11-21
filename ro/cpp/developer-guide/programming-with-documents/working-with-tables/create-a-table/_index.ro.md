@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cum se creează un tabel în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Creați un tabel
@@ -7,6 +7,7 @@ description: "Diferite moduri de a crea tabele folosind C++. Creați tabel în C
 type: docs
 weight: 20
 url: /ro/cpp/create-a-table/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words permite utilizatorilor să creeze tabele într-un document de la zero și oferă mai multe metode diferite pentru a face acest lucru. Acest articol prezintă detalii despre cum să adăugați tabele formatate la documentul dvs. utilizând Fiecare metodă, precum și o comparație a fiecărei metode la sfârșitul articolului.

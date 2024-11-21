@@ -7,6 +7,7 @@ description: "Aspose.Words for Python via .NET może osadzić prawidłowe czcion
 type: docs
 weight: 10
 url: /pl/python-net/manipulating-and-substitution-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words wymaga czcionek TrueType do różnych zadań, w tym renderowania dokumentów do formatów o stałej stronie, na przykład PDF lub XPS. Kiedy Aspose.Words renderuje dokument, musi wykonać osadzanie i osadzanie podzbiorów czcionek TrueType w dokumencie wynikowym, co jest normalną praktyką podczas generowania dokumentu, w tym popularnych formatów PDF lub XPS. Dzięki temu dokument będzie wyglądał tak samo dla każdego przeglądającego. Co więcej, specyfikacja XPS wymaga, aby czcionki zawsze były osadzone w dokumencie.

@@ -7,6 +7,7 @@ description: ".NET용 Aspose.Words를 사용하여 C#의 문서에 하이퍼링�
 type: docs
 weight: 50
 url: /ko/net/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word 문서의 하이퍼링크는 `HYPERLINK` 필드입니다. Aspose.Words에서 하이퍼링크는 [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/) 클래스를 통해 구현됩니다.

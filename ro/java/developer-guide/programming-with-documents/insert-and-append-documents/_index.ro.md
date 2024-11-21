@@ -1,4 +1,4 @@
-﻿---
+---
 title: Inserați și adăugați documente în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Inserați și adăugați documente
@@ -7,6 +7,7 @@ description: "Combinați documentele într-unul singur: inserați sau adăugați
 type: docs
 weight: 80
 url: /ro/java/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uneori este necesar să combinați mai multe documente într-unul singur. Puteți face acest lucru manual sau puteți utiliza Aspose.Words inserare sau Adăugare caracteristică.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bekerja dengan ChartSeries di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Bekerja dengan ChartSeries
@@ -7,6 +7,7 @@ description: "Penyetelan seri bagan menggunakan C++."
 type: docs
 weight: 40
 url: /id/cpp/working-with-chartseries/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words memungkinkan pengguna untuk bekerja dengan ChartSeriesCollection dalam beberapa cara.

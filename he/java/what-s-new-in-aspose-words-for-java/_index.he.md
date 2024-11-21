@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words עבור Java מתרחב ומשפר מדי יום. בדף זה, אתה יכול ללמוד על התכונות הענקיות והמעניינות ביותר של המוצר."
 weight: 2
 url: /he/java/what-s-new-in-aspose-words-for-java/
+timestamp: 2024-10-14-12-53-06
 ---
 
 דף זה מתאר את החדש המעניין ביותר Aspose.Words תכונות שהוצגו במהדורות האחרונות.

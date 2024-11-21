@@ -7,6 +7,7 @@ description: "Aspose.Words místo Java používá několik kryptografických a h
 type: docs
 weight: 80
 url: /cs/java/fips-mode/
+timestamp: 2024-05-08-10-19-58
 ---
 
 Aspose.Words používá několik kryptografických a hašišových algoritmů při zpracování dokumentů a tento článek popisuje, jak se vztahuje k standardům FIPS.

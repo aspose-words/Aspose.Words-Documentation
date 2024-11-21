@@ -1,4 +1,4 @@
-﻿---
+---
 title: MFont Kullanılabilirlik ve İkame C++
 second_title: Aspose.Words için C++
 articleTitle: Yazı Tipi Kullanılabilirliği ve Değiştirilmesi
@@ -7,6 +7,7 @@ description: "Tam ikame yazı tipi bulunamadığında, Aspose.Words bunun yerine
 type: docs
 weight: 12
 url: /tr/cpp/font-availability-and-substitution/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Belgedeki bir metin, Arial, Times New Roman, Verdana ve diğerleri gibi çeşitli yazı tipleriyle biçimlendirilebilir. Aspose.Words bir belgeyi oluşturduğunda, belgede belirtilen yazı tiplerini seçmeye çalışır.

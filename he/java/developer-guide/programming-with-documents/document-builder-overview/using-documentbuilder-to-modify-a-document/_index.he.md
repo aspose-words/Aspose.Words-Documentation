@@ -7,6 +7,7 @@ type: docs
 description: "השתמש במבנה המסמך כדי לשנות מסמך בקלות Java."
 weight: 20
 url: /he/java/using-documentbuilder-to-modify-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## עיצוב ספציפי

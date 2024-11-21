@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words Model Objek Dokumen (DOM) dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Aspose.Words Model Objek Dokumen (DOM)
@@ -7,6 +7,7 @@ type: docs
 description: "Model Objek Dokumen (DOM) adalah representasi dalam memori dari dokumen Word. Membaca, memanipulasi, dan memodifikasi konten dan pemformatan dokumen Word menggunakan C++."
 weight: 10
 url: /id/cpp/aspose-words-document-object-model/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Model Objek Dokumen Aspose.Words (DOM) adalah representasi dalam memori dari dokumen Word. Aspose.Words DOM memungkinkan Anda membaca, memanipulasi, dan memodifikasi konten dan pemformatan dokumen Word secara terprogram.

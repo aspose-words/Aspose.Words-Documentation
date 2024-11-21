@@ -7,6 +7,7 @@ description: "Convert Word with applied sensitivity label to PDF using C#. Work 
 type: docs
 weight: 30
 url: /net/work-with-document-market-by-sensitivity-label/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Sensitivity labels from Microsoft Purview Information Protection let you classify and protect your organization's data, while making sure that user productivity and their ability to collaborate is not hindered. After a sensitivity label is applied to a document, any configured protection settings for that label are enforced on the content.

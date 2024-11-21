@@ -7,6 +7,7 @@ description: "نمونه‌های Aspose.Words برای .NET را از مخزن 
 type: docs
 weight: 110
 url: /fa/net/how-to-run-the-examples/
+timestamp: 2024-10-24-11-44-28
 ---
 
 برای آشنایی بیشتر با امکانات و ویژگی‌های Aspose.Words، نمونه‌هایی را ارائه می‌دهیم که می‌توان آنها را از مخزن GitHub دانلود کرد، اجرا کرد و با جزئیات یاد گرفت.

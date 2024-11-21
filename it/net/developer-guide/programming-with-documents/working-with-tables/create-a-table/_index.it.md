@@ -7,6 +7,7 @@ description: "Una guida su come realizzare una tabella in C# in vari modi. Crea 
 type: docs
 weight: 20
 url: /it/net/create-a-table/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words consente agli utenti di creare tabelle in un documento da zero e fornisce diversi metodi per farlo. Questo articolo presenta i dettagli su come aggiungere tabelle formattate al documento utilizzando ciascun metodo, nonché un confronto tra ciascun metodo alla fine dell'articolo.

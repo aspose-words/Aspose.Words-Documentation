@@ -1,4 +1,4 @@
-﻿---
+---
 title: Einfache Mail Merge -Operation in C++
 second_title: Aspose.Words für C++
 articleTitle: Einfache Mail Merge-Operation
@@ -8,6 +8,7 @@ description: "Ein einfaches mail merge wird verwendet, um die mail merge –Feld
 keywords: "how to execute mail merge c++"
 weight: 10
 url: /de/cpp/simple-mail-merge-operation/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Ein einfaches mail merge wird verwendet, um die mail merge -Felder in Ihrer Vorlage mit den erforderlichen Daten aus Ihrer Datenquelle zu füllen (Einzeltabellendarstellung). Es ähnelt also dem klassischen mail merge in Microsoft Word.

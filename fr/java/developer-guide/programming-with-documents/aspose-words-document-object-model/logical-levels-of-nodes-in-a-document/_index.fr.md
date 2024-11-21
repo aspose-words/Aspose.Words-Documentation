@@ -7,6 +7,7 @@ type: docs
 description: "En Aspose.Words pour Java documentation mentionnait des niveaux logiques de nœuds – niveau bloc, niveau en ligne, ou niveau ligne. Le niveau du noeud est utilisé pour décrire l'emplacement dans l'arborescence du document où le noeud se trouve habituellement."
 weight: 10
 url: /fr/java/logical-levels-of-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Cette documentation fait parfois référence à un groupe de classes de nœuds comme appartenant à un "niveau" dans un document, comme les nœuds "block-level", "inline-level" (aussi appelé "inline") ou "row-level". Ces niveaux dans un document sont purement logiquement différenciés et ne sont pas explicitement exprimés par héritage ou autre Aspose.Words DOM signifie. Le niveau de nœud est utilisé pour décrire l'endroit dans l'arbre de documents où le noeud se produirait habituellement.

@@ -7,6 +7,7 @@ description: "Điều hướng giữa các nút khác nhau trong tài liệu, ch
 type: docs
 weight: 10
 url: /vi/python-net/navigation-with-cursor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Trong khi làm việc với một tài liệu, ngay cả khi nó ngắn hay dài, bạn sẽ cần điều hướng qua tài liệu của mình. Điều hướng bằng con trỏ ảo thể hiện khả năng điều hướng giữa các nút khác nhau trong tài liệu.

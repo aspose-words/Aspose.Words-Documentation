@@ -7,6 +7,7 @@ description: "Uso Aspose.Words per Java convertire documenti da Word o altri for
 type: docs
 weight: 20
 url: /it/java/convert-a-document-to-html-mhtml-or-epub/
+timestamp: 2024-10-21-08-52-03
 ---
 
 I documenti in formato HTML e MHTML sono anche molto popolari e possono essere utilizzati su qualsiasi piattaforma web. Per questo motivo, convertire i documenti in HTML e MHTML è una caratteristica importante di Aspose.Words.

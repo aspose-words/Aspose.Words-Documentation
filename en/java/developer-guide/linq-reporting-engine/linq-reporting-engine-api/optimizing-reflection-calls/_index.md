@@ -7,6 +7,7 @@ description: "Learn how to minimize the reflection usage using LINQ in Java."
 type: docs
 weight: 100
 url: /java/optimizing-reflection-calls/
+timestamp: 2024-01-27-14-07-04
 ---
 
 LINQ Reporting Engine uses reflection calls while accessing members of custom external types. However, reflection calls are much slower than direct calls, which creates a performance overhead.

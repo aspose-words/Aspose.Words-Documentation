@@ -7,6 +7,7 @@ description: "C#를 사용하여 SharePoint에서 공유된 Word를 PDF로 변�
 type: docs
 weight: 20
 url: /ko/net/work-with-document-stored-in-sharepoint/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Microsoft SharePoint Online은 조직이 디지털 정보를 쉽게 저장, 공유 및 관리할 수 있게 해주는 웹 기반 기술 모음입니다. .NET용 강력한 Aspose.Words을 사용하여 SharePoint의 "공유 문서" 폴더에 저장된 문서로 작업할 수 있습니다.

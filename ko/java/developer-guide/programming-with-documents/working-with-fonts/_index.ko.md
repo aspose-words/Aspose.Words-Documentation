@@ -7,6 +7,7 @@ description: "본문 바로가기 Java·"
 type: docs
 weight: 230
 url: /ko/java/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 글꼴은 특정 크기, 색상 및 디자인을 가진 문자 집합입니다. Aspose.Words 다양한 폰트 관련 클래스를 사용하여 글꼴과 작업을 할 수 있습니다. [Font](https://reference.aspose.com/words/java/com.aspose.words/font/) 수업.

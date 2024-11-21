@@ -7,6 +7,7 @@ description: "Een document omzetten naar PDF met geavanceerde opties Python. Geb
 type: docs
 weight: 20
 url: /nl/python-net/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Het PDF-formaat is een fixed-page formaat dat erg populair is bij gebruikers en breed wordt ondersteund door verschillende toepassingen, omdat een PDF-document er hetzelfde uitziet op elk apparaat. Daarom is het omzetten naar PDF een belangrijk kenmerk van Aspose.Words.

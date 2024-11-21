@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu comentarii în Python
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Lucrul cu comentarii
@@ -7,6 +7,7 @@ description: "Cum se adaugă, se elimină sau se manipulează comentariile dintr
 type: docs
 weight: 260
 url: /ro/python-net/working-with-comments/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Skep'n Dokument in Java
 second_title: Aspose.Words vir Java
 articleTitle: Skakel'n Dokument om
@@ -7,6 +7,7 @@ type: docs
 weight: 30
 url: /af/java/convert-a-document/
 description: "Skakel dokumente maklik van een formaat na'n ander om. Jy kan werk met al die gewildste formate soos Microsoft Word formate soos DOCX of DOC, OpenDocument formate soos ODT of OTT, web formate soos HTML of XHTML, teks formate soos MarkDown of TXT, en ander met behulp van Java."
+timestamp: 2024-09-25-11-08-55
 ---
 
 Die vermoë om dokumente maklik en betroubaar van een formaat na'n ander te omskep, is een van die belangrikste kenmerke van Aspose.Words. So'n omskakeling is niks meer as'n kombinasie van laai-en spaarbedrywighede nie.

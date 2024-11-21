@@ -7,6 +7,7 @@ type: docs
 description: "多くの一般的な形式でソース ドキュメントを編集したり、C# を使用してファイルをある形式から別の形式に自由に変換したりできます。"
 weight: 20
 url: /ja/net/supported-document-formats/
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

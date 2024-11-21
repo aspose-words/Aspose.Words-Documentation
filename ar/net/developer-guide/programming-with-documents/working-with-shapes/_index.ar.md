@@ -7,6 +7,7 @@ description: "مقدمة إلى لغة ترميز الأشكال وإنشاء أ
 type: docs
 weight: 280
 url: /ar/net/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 يناقش هذا الموضوع كيفية العمل برمجيًا مع الأشكال باستخدام Aspose.Words.

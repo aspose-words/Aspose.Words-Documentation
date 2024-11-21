@@ -7,6 +7,7 @@ description: "Průvodce, jak udělat tabulku v C# různými způsoby. Vytvořit 
 type: docs
 weight: 20
 url: /cs/net/create-a-table/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words umožňuje uživatelům vytvářet tabulky v dokumentu od nuly a poskytuje několik různých metod. Tento článek uvádí podrobnosti o tom, jak přidat formátované tabulky do dokumentu pomocí každé metody, stejně jako srovnání každé metody na konci článku.

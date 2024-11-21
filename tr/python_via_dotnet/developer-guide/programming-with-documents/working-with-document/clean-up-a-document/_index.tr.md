@@ -7,6 +7,7 @@ description: "Python'i kullanarak çıktı boyutunu ve işlem süresini azaltmak
 type: docs
 weight: 30
 url: /tr/python-net/clean-up-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bazen çıktı belgesinin boyutunu ve işlem süresini azaltmak için kullanılmayan veya kopyalanan bilgileri kaldırmanız gerekebilir.

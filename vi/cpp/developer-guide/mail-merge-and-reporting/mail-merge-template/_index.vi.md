@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge Mẫu trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Mail Merge Mẫu
@@ -8,6 +8,7 @@ description: "Tạo một mail merge mẫu để xác định nội dung cố đ
 keywords: "create mail merge template с++"
 weight: 10
 url: /vi/cpp/mail-merge-template/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Người ta thường sử dụng mẫu hợp nhất làm tài liệu cơ sở cho một mail merge hoạt động hoặc nếu nó là một đơn giản mail merge hoặc mail merge với các khu vực. Mail merge với các khu vực mạnh mẽ và phổ biến hơn đơn giản mail merge. Đơn giản mail merge được coi là một trường hợp cụ thể của mail merge với các khu vực mà khu vực là toàn bộ tài liệu. Tất cả được giải thích trong bài viết tiếp theo " Các Loại Mail Merge Hoạt động" chi tiết hơn.

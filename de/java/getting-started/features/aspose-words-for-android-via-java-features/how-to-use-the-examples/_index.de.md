@@ -7,6 +7,7 @@ description: "Wie man läuft Aspose.Words für Android über Java Beispiele."
 type: docs
 weight: 70
 url: /de/java/how-to-use-the-examples/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Stellen Sie zunächst sicher, dass Sie das ADT-Paket installiert haben und dass Sie die neueste Version heruntergeladen und extrahiert haben. [Aspose.Words für Android Über uns Java](https://releases.aspose.com/words/androidjava/).

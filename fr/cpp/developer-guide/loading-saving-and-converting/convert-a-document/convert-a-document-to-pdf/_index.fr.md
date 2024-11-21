@@ -1,4 +1,4 @@
-﻿---
+---
 title: Convertir un document en PDF en C++
 second_title: Aspose.Words pour C++
 articleTitle: Convertir un document en PDF
@@ -7,6 +7,7 @@ description: "Convertissez un document en PDF en utilisant C++. Différents form
 type: docs
 weight: 10
 url: /fr/cpp/convert-a-document-to-pdf/
+timestamp: 2024-10-21-08-52-03
 ---
 
 La possibilité de convertir facilement et de manière fiable des documents d'un format à un autre est une caractéristique clé de Aspose.Words. L'un des formats les plus populaires pour la conversion est PDF – un format à mise en page fixe, qui préserve l'apparence d'origine d'un document lors de son rendu sur diverses plates-formes. Le terme" rendu " est utilisé dans Aspose.Words pour décrire le processus de conversion d'un document en un format de fichier paginé ou ayant le concept de pages.

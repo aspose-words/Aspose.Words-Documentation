@@ -7,6 +7,7 @@ description: "Sebelum Anda mulai bekerja dengan Aspose.Words Sitemap Java, memas
 type: docs
 weight: 80
 url: /id/java/system-requirements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words Sitemap Java tidak memerlukan produk pihak ketiga seperti Meme it Microsoft Word dipasang. Aspose.Words sendiri adalah mesin untuk membuat, memodifikasi, mengkonversi, dan rendering dokumen dalam berbagai format, termasuk Microsoft Word format dokumen.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Reemplazar campos C++
 second_title: Aspose.Words para C++
 articleTitle: Reemplazar Campos con Texto Estático
@@ -7,6 +7,7 @@ description: "Aprenda a reemplazar campos con texto en C++. Reemplace los campos
 type: docs
 weight: 37
 url: /es/cpp/replace-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A menudo es necesario reemplazar los campos cuando desea guardar su documento como una copia estática. Por ejemplo, al enviar como archivo adjunto en un correo electrónico. Convertir campos como `DATE` o `TIME` en texto estático permitirá que el documento muestre la misma fecha en que se envió. Además, en algunas situaciones, es posible que deba eliminar los campos condicionales `IF` de su documento y reemplazarlos con el resultado de texto más reciente. Por ejemplo, convertir el resultado del campo `IF` en texto estático para que ya no cambie dinámicamente su valor cuando se actualicen los campos del documento.

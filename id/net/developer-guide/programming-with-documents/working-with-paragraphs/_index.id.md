@@ -7,6 +7,7 @@ description: "Masukkan paragraf ke dalam dokumen C#. Atur gaya paragraf di C#. B
 type: docs
 weight: 210
 url: /id/net/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Paragraf adalah sekumpulan karakter yang digabungkan menjadi blok logis dan diakhiri dengan karakter khusus – *pemutusan paragraf*. Di Aspose.Words, sebuah paragraf diwakili oleh kelas [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/).

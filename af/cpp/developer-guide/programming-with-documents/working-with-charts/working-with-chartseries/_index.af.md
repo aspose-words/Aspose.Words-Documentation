@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk met ChartSeries in C++
 second_title: Aspose.Words vir C++
 articleTitle: Werk met ChartSeries
@@ -7,6 +7,7 @@ description: "Grafiek reeks tuning met behulp van C++."
 type: docs
 weight: 40
 url: /af/cpp/working-with-chartseries/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words laat gebruikers toe om op'n paar maniere met ChartSeriesCollection te werk.

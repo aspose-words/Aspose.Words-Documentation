@@ -7,6 +7,7 @@ description: "Farklı düzenlere sahip çıktı belgelerini oluşturmak için, b
 type: docs
 weight: 10
 url: /tr/java/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words sizin çeşitli düzenlere sahip çıktı belgeler oluşturmanıza olanak tanır, **Document** özelliğinin [LayoutOptions](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/)'inde belirtilen parametrelere bağlı olarak. Bu özellik bu makalede açıklanan bazı Microsoft Word kullanıcı arayüzü menü seçeneklerine benzer.

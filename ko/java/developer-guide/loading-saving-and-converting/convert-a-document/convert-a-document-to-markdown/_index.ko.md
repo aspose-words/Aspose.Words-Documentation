@@ -8,6 +8,7 @@ description: "지원된 로드 형식으로 문서를 변환 Markdown 그리고 
 keywords: how to convert a document to markdown Java, save as MD, DOCX to MD
 weight: 33
 url: /ko/java/convert-a-document-to-markdown/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Markdown 텍스트를 표시하는 데 사용되는 인기있는 형식이며 HTML, PDF, DOCX 또는 다른 형식으로 변환됩니다. 많은 개발자들은 문서 작성을위한이 형식을 선택하여 블로그에 게시 된 기사를 준비하고 프로젝트를 설명합니다.

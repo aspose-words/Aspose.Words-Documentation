@@ -7,6 +7,7 @@ type: docs
 description: "ترجمة مستند Markdown إلى Document Object Model وإعادته باستخدام C#. حتى تتمكن من العمل مع Markdown المعقد الموجود وإنشاء مستند Markdown برمجيًا من البداية."
 weight: 20
 url: /ar/net/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 لقراءة محتوى المستند وتنسيقه ومعالجته وتعديله برمجيًا، تحتاج إلى ترجمته إلى Aspose.Words Document Object Model (DOM).

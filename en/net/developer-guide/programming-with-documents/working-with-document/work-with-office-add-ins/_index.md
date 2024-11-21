@@ -8,6 +8,7 @@ type: docs
 weight: 50
 url: /net/work-with-office-add-ins/
 aliases: [/net/work-with-web-extensions/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 Sometimes you might want to give access to interface controls that run code to modify documents. Aspose.Words API provides the `WebExtensions` namespace, which grants various classes to customize elements and attributes extending the XML vocabulary for representing Office Add-ins.

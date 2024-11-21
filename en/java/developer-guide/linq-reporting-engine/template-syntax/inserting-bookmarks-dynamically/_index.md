@@ -1,4 +1,4 @@
-﻿---
+---
 title: Inserting Bookmarks Dynamically in Java
 second_title: Aspose.Words for Java
 articleTitle: Inserting Bookmarks Dynamically
@@ -7,6 +7,7 @@ description: "Insert bookmarks into your document dynamically when building a re
 type: docs
 weight: 70
 url: /java/inserting-bookmarks-dynamically/
+timestamp: 2024-01-27-14-07-04
 ---
 
 You can insert bookmarks to your reports dynamically using `bookmark` tags. Syntax of a `bookmark` tag is defined as follows.

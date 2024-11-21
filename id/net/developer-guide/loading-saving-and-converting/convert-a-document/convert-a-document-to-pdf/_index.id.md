@@ -7,6 +7,7 @@ description: "Konversikan dokumen ke PDF menggunakan C#. Konversi DOCX ke PDF C#
 type: docs
 weight: 10
 url: /id/net/convert-a-document-to-pdf/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Kemampuan untuk mengkonversi dokumen dengan mudah dan andal dari satu format ke format lainnya adalah fitur utama Aspose.Words. Salah satu format konversi yang paling populer adalah PDF – format tata letak tetap, yang mempertahankan tampilan asli dokumen selama rendering di berbagai platform. Istilah "render" digunakan di Aspose.Words untuk menggambarkan proses mengubah dokumen menjadi format file yang diberi halaman atau memiliki konsep halaman.

@@ -7,6 +7,7 @@ description: "Python를 사용하여 문서의 필드로 작업하는 방법."
 type: docs
 weight: 370
 url: /ko/python-net/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 문서의 **Fields**는 유용한 데이터를 삽입할 수 있는 자리 표시자와 같습니다. 예를 들어 필드는 페이지 참조, 수식 또는 mail merge 필드일 수 있습니다.

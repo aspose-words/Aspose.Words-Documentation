@@ -7,6 +7,7 @@ description: "Replace text in a table in Python. Extract Plain Text from Table o
 type: docs
 weight: 60
 url: /python-net/work-with-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 As mentioned in previous articles, a table usually contains plain text, although other content such as images or even other tables can be placed in table cells.

@@ -7,6 +7,7 @@ description: "C# でフィールド コードやフィールド結果などの�
 type: docs
 weight: 25
 url: /ja/net/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/) を使用して挿入されたフィールドは [Field](https://reference.aspose.com/words/net/aspose.words.fields/field/) オブジェクトを返します。これは、フィールドのいくつかのプロパティをすばやく検索するための便利なメソッドを提供するファサード クラスです。

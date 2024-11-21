@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with Hyphenation in Python
 second_title: Aspose.Words for Python via .NET
 articleTitle: Working with Hyphenation
@@ -8,6 +8,7 @@ type: docs
 weight: 220
 url: /python-net/working-with-hyphenation/
 aliases: [/python/working-with-hyphenation/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 Sometimes it is necessary to use hyphenation for a more compact arrangement of text in a document. At the same time, it is important to understand that the specifics of word hyphenation may differ for each language.

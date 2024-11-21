@@ -7,6 +7,7 @@ description: "Aspose.Words için nasıl çalıştırılır Android aracılığı
 type: docs
 weight: 70
 url: /tr/java/how-to-use-the-examples/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Öncelikle, ADT paketinin yüklü olduğundan ve en son sürümünü [Aspose.Words for Android via Java](https://releases.aspose.com/words/androidjava/) 'dan indirip ayıkladığınızdan emin olun.

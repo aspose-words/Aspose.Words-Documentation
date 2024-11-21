@@ -7,6 +7,7 @@ description: "המונחים שונים אמת אמיתית מקורות גופ�
 type: docs
 weight: 30
 url: /he/python-net/specifying-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 נושא זה מתאר את התנהגות ברירת המחדל של Aspose.Words כאשר הוא מחפש גופנים של TrueType, כולל הבדלים ספציפיים במערכת ההפעלה, ומדגים כיצד לציין מקורות גופן משתמשים.

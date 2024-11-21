@@ -8,6 +8,7 @@ description: "Speichern Sie ein Dokument in einem beliebigen unterstützten Form
 keywords: "save a document c#, save a document to file c#, save a document to stream c#, save a document Aspose .NET, save formats supported by Aspose.Words .NET"
 weight: 20
 url: /de/net/save-a-document/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Die meisten Aufgaben, die Sie mit Aspose.Words ausführen müssen, umfassen das Speichern eines Dokuments. Zum Speichern eines Dokuments stellt Aspose.Words die [Save](https://reference.aspose.com/words/de/net/aspose.words/document/save/)-Methode der [Document](https://reference.aspose.com/words/de/net/aspose.words/document/)-Klasse zur Verfügung. Es gibt Überladungen, die das Speichern eines Dokuments in einer Datei, einem Stream oder einem ASP.NET-HttpResponse-Objekt ermöglichen, um es an einen Client-Browser zu senden. Das Dokument kann in jedem von Aspose.Words unterstützten Speicherformat gespeichert werden. Die Liste aller unterstützten Speicherformate finden Sie in der [SaveFormat](https://reference.aspose.com/words/de/net/aspose.words/saveformat/)-Enumeration.

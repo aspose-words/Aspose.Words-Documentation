@@ -1,4 +1,4 @@
-﻿---
+---
 title: พิมพ์เอเชียในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: การทำงานกับตัวอักษรเอเชีย
@@ -7,6 +7,7 @@ description: "ทำงานร่วมกับตัวอักษรเอ
 type: docs
 weight: 240
 url: /th/cpp/working-with-asian-typography/
+timestamp: 2024-02-01-16-17-05
 ---
 
 พิมพ์เอเชียเป็นชุดของตัวเลือกสำหรับย่อหน้าข้อความในเอกสารที่เขียนในภาษาเอเชีย.

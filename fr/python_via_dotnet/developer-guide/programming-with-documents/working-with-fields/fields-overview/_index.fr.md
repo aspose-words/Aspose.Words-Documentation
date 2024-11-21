@@ -7,6 +7,7 @@ description: "Vous pouvez accéder à la modification des champs à l'aide de Py
 type: docs
 weight: 10
 url: /fr/python-net/fields-overview/
+timestamp: 2024-10-21-11-17-44
 ---
 
 

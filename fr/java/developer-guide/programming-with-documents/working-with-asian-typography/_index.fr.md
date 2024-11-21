@@ -7,6 +7,7 @@ description: "Travailler avec la typographie asiatique en utilisant Java. Ajuste
 type: docs
 weight: 240
 url: /fr/java/working-with-asian-typography/
+timestamp: 2024-01-27-14-07-04
 ---
 
 La typographie asiatique est un ensemble d'options pour les paragraphes de texte dans les documents rédigés en langues asiatiques.

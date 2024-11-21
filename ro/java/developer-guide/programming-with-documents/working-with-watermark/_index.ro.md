@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu filigran în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Lucrul cu filigran
@@ -7,6 +7,7 @@ type: docs
 description: "Manipularea filigranului documentului folosind Java."
 weight: 70
 url: /ro/java/working-with-watermark/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Acest subiect discută cum să lucrați programatic cu un filigran folosind Aspose.Words. Un filigran este o imagine de fundal care se afișează în spatele textului dintr-un document. Un filigran poate conține un text sau o imagine reprezentată de clasa [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/).

@@ -7,6 +7,7 @@ type: docs
 weight: 40
 description: "了解 Aspose.Words for .NET 类和方法的说明和示例，以便在不使用 Microsoft Word 的情况下生成、转换、修改、呈现和打印文档。"
 url: /zh/net/api-reference/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words for .NET 是一个类库，使您的应用程序能够执行各种文档处理任务。使用 Aspose.Words，您可以在不使用 Microsoft Word 的情况下生成、修改、转换、渲染和打印文档，也就是说，使用 Aspose.Words 不需要 Microsoft Word。

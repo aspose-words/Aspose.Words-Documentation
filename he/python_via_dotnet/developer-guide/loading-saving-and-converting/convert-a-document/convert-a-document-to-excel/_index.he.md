@@ -7,6 +7,7 @@ description: "להמיר PDF ל- Excel, XML ל- Excel, DOCX ל- Excel Python. ש
 type: docs
 weight: 15
 url: /he/python-net/convert-a-document-to-excel/
+timestamp: 2024-01-31-14-23-37
 ---
 
 המרת מסמכים מתבנית אחת לאחרת היא תכונה הדגל של Aspose.Words. ניתן להמיר מסמכים בכל זמין [המונחים](https://reference.aspose.com/words/python-net/aspose.words/loadformat/) גם בפורמט XLSX.

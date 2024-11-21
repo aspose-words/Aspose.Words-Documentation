@@ -7,6 +7,7 @@ description: "Formatage avancé de la table Java. Créer un style de table en ut
 type: docs
 weight: 80
 url: /fr/java/working-with-tablestyle/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un style de table définit un ensemble de formatage qui peut être facilement appliqué à une table. Le formatage tel que les bordures, l'ombrage, l'alignement et la police peut être défini dans un style de table et appliqué à de nombreuses tables pour une apparence cohérente.

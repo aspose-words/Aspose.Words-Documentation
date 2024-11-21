@@ -7,6 +7,7 @@ description: "ドキュメントをPDFに変換し、高度なオプションで
 type: docs
 weight: 20
 url: /ja/java/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
 PDF形式は、ユーザーの間で非常に人気があり、さまざまなアプリケーションで広くサポートされている固定ページ形式です。 PDF文書は、任意のデバイスで同じように見えるからです。 そのため、PDFへの変換は重要な機能です Aspose.Wordsお問い合わせ

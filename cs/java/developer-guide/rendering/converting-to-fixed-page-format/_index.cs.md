@@ -7,6 +7,7 @@ description: "Aspose.Words místo Java implementuje svůj vlastní page layout m
 type: docs
 weight: 10
 url: /cs/java/converting-to-fixed-page-format/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words implementuje svůj vlastní motor rozložení stránek. Před tím, než se dostaneme do jeho specifikací, stojí za to nejprve diskutovat o dokumentu na vysoké úrovni. Při přemýšlení o dokumentu si uživatelé obvykle představí řadu papírových listů obsahujících slova, obrázky, tabulky a grafy. Dokumenty mohou být různé typy, jako je text, tabulky, diapozitivy, CAD výkresy, diagramy, a proto mohou mít v podstatě různé rozvržení. Většina aplikací umožňuje posílat dokumenty do tiskárny; to je doba, kdy si uživatel může skutečně prohlédnout konečný zamýšlený vzhled dokumentu.

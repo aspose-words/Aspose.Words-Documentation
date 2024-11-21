@@ -7,6 +7,7 @@ description: "Come unire le celle della tabella in C#. Controlla se le celle in 
 type: docs
 weight: 40
 url: /it/net/working-with-merged-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A volte alcune righe di una tabella richiedono un'intestazione o grandi blocchi di testo che occupano l'intera larghezza della tabella. Per una corretta progettazione della tabella, l'utente può unire più celle della tabella in una sola. Aspose.Words supporta celle unite quando si lavora con tutti i formati di input, inclusa l'importazione di contenuto HTML.

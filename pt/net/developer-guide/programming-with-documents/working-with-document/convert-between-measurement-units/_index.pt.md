@@ -7,6 +7,7 @@ description: "Aspose.Words para .NET pode ajudá-lo a converter unidades de medi
 type: docs
 weight: 20
 url: /pt/net/convert-between-measurement-units/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A maioria das propriedades dos objetos fornecidas no Aspose.Words API que representam alguma medida, como largura ou altura, margens e distâncias diversas, aceitam valores em pontos, onde 1 polegada equivale a 72 pontos. Às vezes isso não é conveniente e os pontos precisam ser convertidos para outras unidades.

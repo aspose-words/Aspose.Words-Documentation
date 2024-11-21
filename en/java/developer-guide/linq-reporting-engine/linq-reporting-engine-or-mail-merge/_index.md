@@ -7,6 +7,7 @@ type: docs
 description: "What is the difference between Mail Merge and LINQ Reporting Engine in Aspose.Words for Java and which solution is better to choose?"
 weight: 40
 url: /java/linq-reporting-engine-or-mail-merge/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words provides two solutions for automatic filling template documents with data: Mail Merge and LINQ Reporting Engine. But what is the difference between the two and which solution is better to choose? Let us make a closer look at each.

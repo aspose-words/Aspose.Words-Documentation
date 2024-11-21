@@ -7,6 +7,7 @@ description: "Navigasi antara node yang berbeda dalam dokumen, seperti paragraf,
 type: docs
 weight: 5
 url: /id/java/navigation-with-cursor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Meskipun bekerja dengan dokumen, bahkan jika itu adalah yang singkat atau panjang, Anda harus menavigasi melalui dokumen Anda. Navigasi dengan kursor virtual mewakili kemampuan untuk menavigasi antara node yang berbeda dalam dokumen.

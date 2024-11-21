@@ -1,4 +1,4 @@
-﻿---
+---
 title: So extrahieren Sie Inhalte zwischen Dokumentknoten
 second_title: Aspose.Words für C++
 articleTitle: Extrahieren von Inhalten zwischen Knoten in einem Dokument
@@ -7,6 +7,7 @@ type: docs
 description: "Extrahieren von Dokumentinhalten in verschiedenen mit C++."
 weight: 140
 url: /de/cpp/how-to-extract-selected-content-between-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bei der Arbeit mit Dokumenten ist es wichtig, Inhalte aus einem bestimmten Bereich innerhalb eines Dokuments einfach extrahieren zu können. Der Inhalt kann jedoch aus komplexen Elementen wie Absätzen, Tabellen, Bildern usw. bestehen.

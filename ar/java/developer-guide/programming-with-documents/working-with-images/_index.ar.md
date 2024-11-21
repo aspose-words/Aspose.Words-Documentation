@@ -7,6 +7,7 @@ type: docs
 description: "الأشكال الصورية في التفاصيل والسمات المتقدمة المقدمة من Aspose.Words for Java."
 weight: 300
 url: /ar/java/working-with-images/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words ويتيح للمستعملين العمل مع الصور بطريقة مرنة للغاية. في هذه المادة، يمكنك استكشاف بعض إمكانيات العمل مع الصور

@@ -7,6 +7,7 @@ description: "Converteste PDF in Excel, XML in Excel, DOCX in Excel C#. Salvați
 type: docs
 weight: 15
 url: /ro/net/convert-a-document-to-excel/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Conversia documentelor de la un format la altul este caracteristica principala a Aspose.Words. Puteți converti documente în orice [load format](https://reference.aspose.com/words/net/aspose.words/loadformat/) disponibil, de asemenea și în format XLSX.

@@ -7,6 +7,7 @@ description: "Kontrol tampilan dokumen Word dengan mempertimbangkan perbedaan an
 type: docs
 weight: 40
 url: /id/python-net/work-with-word-document-options-and-appearance/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Terkadang Anda mungkin perlu mengubah tampilan dokumen, misalnya mengatur preferensi bahasa atau jumlah baris per halaman. Aspose.Words menyediakan kemampuan untuk mengontrol bagaimana dokumen akan ditampilkan, serta beberapa opsi tambahan. Artikel ini menjelaskan kemungkinan tersebut.

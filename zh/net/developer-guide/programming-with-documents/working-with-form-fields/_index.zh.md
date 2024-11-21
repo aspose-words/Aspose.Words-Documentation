@@ -7,6 +7,7 @@ description: "了解表单字段功能，使用 C# 处理表单字段。"
 type: docs
 weight: 380
 url: /zh/net/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 包含填写空白（字段）的文档称为表单。例如，您可以在 Microsoft Word 中创建一个使用下拉列表的注册表单，用户可以从中选择条目。 `Form` 字段是存储特定类型数据（例如姓名或地址）的位置。 Microsoft Word 中的表单字段包括文本输入、组合框和复选框。

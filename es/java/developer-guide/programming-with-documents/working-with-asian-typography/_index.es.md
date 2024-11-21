@@ -7,6 +7,7 @@ description: "Trabajo con tipografía asiática usando Java. Ajuste del espacio 
 type: docs
 weight: 240
 url: /es/java/working-with-asian-typography/
+timestamp: 2024-01-27-14-07-04
 ---
 
 La tipografía asiática es un conjunto de opciones para los párrafos de texto en los documentos escritos en idiomas asiáticos.

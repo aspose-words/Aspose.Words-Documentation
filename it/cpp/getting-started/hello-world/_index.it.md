@@ -1,4 +1,4 @@
-﻿---
+---
 title: Ciao, Mondo!
 second_title: Semplice esempio di come utilizzare Aspose.Words per C++
 articleTitle: Ciao, Mondo!
@@ -7,6 +7,7 @@ description: "Creare, modificare e salvare il primo documento in qualsiasi forma
 type: docs
 weight: 15
 url: /it/cpp/hello-world/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un " Ciao, Mondo!"il codice è spesso il primo semplice esempio per scrivere uisng "Aspose.Words per C++", e può anche essere utilizzato come test di sanità mentale per garantire che il software destinato a compilare o eseguire il codice sorgente sia installato correttamente.

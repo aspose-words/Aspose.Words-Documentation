@@ -1,4 +1,4 @@
-﻿---
+---
 title: Origin of LINQ Reporting Engine in Java
 second_title: Aspose.Words for Java
 articleTitle: Origin of LINQ Reporting Engine
@@ -7,6 +7,7 @@ description: "Learn the concept of LINQ Reporting Engine to build a report in Ja
 type: docs
 weight: 10
 url: /java/origin-of-linq-reporting-engine/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Historically, [Aspose.Words Mail Merge](/words/java/mail-merge-and-reporting/) was the first attempt to bring reporting features to the Aspose.Words component. However, the main purpose of Aspose.Words Mail Merge is mimicking Microsoft Word® Mail Merge. That is why the mail-merge-template syntax is based on Microsoft Word® merge fields. This fact makes it impossible to extend the template syntax keeping it concise, clear, and simple for users.

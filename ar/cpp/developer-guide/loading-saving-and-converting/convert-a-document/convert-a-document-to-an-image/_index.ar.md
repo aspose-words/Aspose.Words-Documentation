@@ -1,4 +1,4 @@
-﻿---
+---
 title: تحويل مستند إلى صورة في C++
 second_title: Aspose.Words ل C++
 articleTitle: تحويل مستند إلى صورة
@@ -7,6 +7,7 @@ type: docs
 description: "تحويل مستند إلى تنسيق صورة (JPG، PNG، إلخ). قم بإنشاء معاينة للمستند أو قم بإنشاء مسح ضوئي للمستند لإرسال فاتورة."
 weight: 43
 url: /ar/cpp/convert-a-document-to-an-image/
+timestamp: 2024-01-30-16-22-34
 ---
 
 في بعض الأحيان يكون مطلوبا الحصول على صورة بدلا من المستندات بتنسيقات أخرى، مثل DOCX أو PDF. على سبيل المثال، تحتاج إلى إضافة معاينة لأي صفحة مستند إلى موقع الويب أو التطبيق الخاص بك، أو إنشاء "مسح ضوئي" لمستند لإرسال فاتورة. هذا هو الوقت الذي قد تحتاج فيه إلى تحويل مستند في أي [supported load format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) إلى صورة، مرة أخرى، في أي [supported save format](https://reference.aspose.com/words/cpp/aspose.words/saveformat/).

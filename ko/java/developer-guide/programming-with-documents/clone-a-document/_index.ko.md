@@ -7,6 +7,7 @@ type: docs
 description: "동일한 사본을 얻기 위해 문서를 복제합니다. 원본 문서의 복사, 노드 및 속성을 만들 때 복제 Java·"
 weight: 70
 url: /ko/java/clone-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 문서 복제는 원본 문서의 동일한 사본을 만드는 과정이며 성능 향상 및 잠재적 메모리 누출에서 저장할 수 있습니다.

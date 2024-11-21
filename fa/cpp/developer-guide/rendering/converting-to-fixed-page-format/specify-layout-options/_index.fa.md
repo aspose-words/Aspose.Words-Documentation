@@ -1,4 +1,4 @@
-﻿---
+---
 title: گزینه های طرح بندی را در C++مشخص کنید
 second_title: Aspose.Words برای C++
 articleTitle: گزینه های طرح بندی را مشخص کنید
@@ -7,6 +7,7 @@ description: "گزینه های طرح بندی را برای طرح بندی ه
 type: docs
 weight: 20
 url: /fa/cpp/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words شما را قادر می سازد تا اسناد خروجی با طرح های مختلف را بسته به پارامترهای مشخص شده در ویژگی [LayoutOptions](https://reference.aspose.com/words/cpp/class/aspose.words.layout.layout_options) **Document** ایجاد کنید. این ویژگی شبیه برخی از گزینه های منوی رابط کاربری Microsoft Word است که در این مقاله توضیح داده شده است.

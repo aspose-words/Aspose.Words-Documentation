@@ -7,6 +7,7 @@ description: "Manage NuGet Packages や Package Manager Console などの Visual
 type: docs
 weight: 10
 url: /ja/python-net/installation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 始める前に、お使いのマシンが [システム要求](/words/ja/python-net/system-requirements/) を満たしていることを確認してください。

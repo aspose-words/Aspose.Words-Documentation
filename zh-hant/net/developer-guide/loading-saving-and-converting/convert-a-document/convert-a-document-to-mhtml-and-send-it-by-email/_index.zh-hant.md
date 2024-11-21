@@ -7,6 +7,7 @@ description: "將近任何格式的文件轉換成 MHTML 格式，並使用 C# �
 type: docs
 weight: 30
 url: /zh-hant/net/convert-a-document-to-mhtml-and-send-it-by-email/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Aspose.Words 可以將任何文件轉換成 Web 存檔 (MHTML) 格式。 這使得 Aspose.Words 和 `Aspose.Email` 一起使用更方便。 您可以在任何支援的格式下，如 DOC、OOXML 或 RTF 等，載入預先定義的文件至 Aspose.Words，並填入資料，再將結果文件儲存為 MHTML，然後使用 `Aspose.Email` 將其發送出去。

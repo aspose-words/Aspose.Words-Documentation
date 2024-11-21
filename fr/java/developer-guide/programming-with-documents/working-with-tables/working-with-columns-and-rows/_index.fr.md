@@ -7,6 +7,7 @@ description: "Travailler avec des parties d'une table – lignes, colonnes et ce
 type: docs
 weight: 30
 url: /fr/java/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Pour plus de contrôle sur le fonctionnement des tables, apprenez à manipuler les colonnes et les lignes.

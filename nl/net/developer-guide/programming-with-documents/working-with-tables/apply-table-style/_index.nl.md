@@ -7,6 +7,7 @@ description: "Geavanceerde tabelopmaak C#. Een tabelstijl aanmaken met C#. Tabel
 type: docs
 weight: 80
 url: /nl/net/working-with-tablestyle/
+timestamp: 2024-02-02-12-07-36
 ---
 
 Een tabelstijl definieert een set van opmaak die gemakkelijk kan worden toegepast op een tabel. Formatteren zoals randen, schaduw, uitlijning, en lettertype kan worden ingesteld in een tabelstijl en toegepast op vele tabellen voor een consistente verschijning.

@@ -7,6 +7,7 @@ description: "進階文件內容管理，如何使用C#創造和操作內容控�
 type: docs
 weight: 390
 url: /zh-hant/net/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
 在 Microsoft Word 中，您可以透過從模板開始並加入內容控制來建立一個表單，包括複選框、文字方塊、日期選取器和下拉式清單。 在 Aspose.Words 中，從 Aspose.Words 加載的任何文件所帶來的結構化文檔標籤或內容控制會被進口為結構化文檔標籤節點。 結構化文件標籤 (SDT 或內容控制) 允許在文件中嵌入客戶定義的語義、其行為及外觀。

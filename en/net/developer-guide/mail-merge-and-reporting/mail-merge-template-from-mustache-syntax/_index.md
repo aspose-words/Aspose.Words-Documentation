@@ -8,6 +8,7 @@ description: "Create templates with Mustache syntax using C#. Mustache syntax is
 keywords: "mail merge template mustache syntax c#"
 weight: 40
 url: /net/mail-merge-template-from-mustache-syntax/
+timestamp: 2024-07-11-08-07-06
 ---
 
 Aspose.Words allows you to create templates with mustache syntax in addition to the familiar templates. A Mustache is an alternative variant of template syntax that consists of tag names enclosed by   and is backed by a model object that contains the data for the template.

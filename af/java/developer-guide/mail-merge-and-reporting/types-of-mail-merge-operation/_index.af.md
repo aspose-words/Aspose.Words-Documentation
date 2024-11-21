@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tipes Mail Merge Operasie in Java
 second_title: Aspose.Words vir Java
 articleTitle: Tipes Mail Merge Operasie
@@ -8,6 +8,7 @@ description: "Voer twee verskillende tipes mail merge operasies uit: eenvoudige 
 keywords: "how to execute mail merge java, Mail Merge Java, Simple Mail Merge"
 weight: 20
 url: /af/java/types-of-mail-merge-operations/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Die hoofgedagte van mail merge is om outomaties'n dokument of verskeie dokumente te skep gebaseer op jou sjabloon en data wat van jou databron afgelei is. Aspose.Words laat jou toe om twee verskillende tipes mail merge operasies uit te voer: eenvoudige mail merge en mail merge met streke.

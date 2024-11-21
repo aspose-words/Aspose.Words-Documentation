@@ -7,6 +7,7 @@ description: "สร้างเอกสารผลลัพธ์ด้วย
 type: docs
 weight: 10
 url: /th/java/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words ให้คุณได้สร้างเอกสารผลลัพธ์ด้วยผังแป้นพิมพ์ต่าง ๆ ขึ้นอยู่กับพารามิเตอร์ที่กําหนดไว้ใน [LayoutOptions](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/) สมบัติของ **Document**. ทรัพย์สินนี้คล้ายกับ Microsoft Word ตัวเลือกสําหรับส่วนติดต่อผู้ใช้ที่อธิบายในข่าวนี้

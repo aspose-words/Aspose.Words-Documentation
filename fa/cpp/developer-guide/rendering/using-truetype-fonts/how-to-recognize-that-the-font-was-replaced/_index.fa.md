@@ -1,4 +1,4 @@
-﻿---
+---
 title: چگونه تشخیص دهیم که فونت در C++جایگزین شده است
 second_title: Aspose.Words برای C++
 articleTitle: چگونه تشخیص دهیم که فونت جایگزین شده است
@@ -7,6 +7,7 @@ description: "اگر مطمئن نیستید که چرا طرح یک سند تغ
 type: docs
 weight: 13
 url: /fa/cpp/how-to-recognize-that-the-font-was-replaced/
+timestamp: 2024-09-24-14-35-44
 ---
 
 گاهی اوقات، ممکن است مشخص نباشد که چرا طرح سند تغییر کرده است، یا چرا برخی از فونت ها به عنوان انتظار نمی رود. در چنین مواردی، پیام های هشدار جایگزینی فونت که توسط رابط IWarningCallback اجرا می شوند، نجات می یابند. آنها نوع هشدار [FontSubstitution](https://reference.aspose.com/words/cpp/aspose.words/warningtype/) و فرمت متن توصیف استاندارد، "فونت '<OriginalFont>' پیدا نشده است. به جای آن از فونت "<SubstitutionFont> " استفاده کنید. دلیل: <Reason>"، با دلایل زیر:

@@ -7,6 +7,7 @@ description: "Combine documents and append one document to another. Apache POI d
 type: docs
 weight: 40
 url: /java/append-documents/
+timestamp: 2024-01-31-14-23-37
 ---
 
 {{% alert color="primary" %}}

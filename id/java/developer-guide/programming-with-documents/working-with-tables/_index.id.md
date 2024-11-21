@@ -7,6 +7,7 @@ description: "Cara bekerja dengan tabel di JavaSitemap Memperkenalkan konsep Tab
 type: docs
 weight: 190
 url: /id/java/working-with-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Login **Login** dalam dokumen adalah cara yang bagus untuk struktur data serupa. Itu sebabnya tabel adalah elemen format konten umum dan didukung oleh sebagian besar format dalam satu bentuk atau yang lain.

@@ -7,6 +7,7 @@ description: "Používej pomlčku pro kompaktnější uspořádání textu. Posk
 type: docs
 weight: 220
 url: /cs/java/working-with-hyphenation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Někdy je nutné použít pomlčku pro kompaktnější uspořádání textu v dokumentu. Zároveň je důležité pochopit, že specifika slova pomlčka se mohou pro každý jazyk lišit.

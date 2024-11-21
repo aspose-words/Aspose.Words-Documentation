@@ -1,4 +1,4 @@
-﻿---
+---
 title: تنسيقات الملفات والتحويلات
 second_title: Aspose.Words ل C++
 articleTitle: لماذا التحويل هو الميزة الرئيسية لـ Aspose.Words?
@@ -7,6 +7,7 @@ description: "قم بتحويل المستندات من أي تحميل مدعو
 type: docs
 weight: 50
 url: /ar/cpp/file-formats-and-conversions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 {{% alert color="primary" %}}

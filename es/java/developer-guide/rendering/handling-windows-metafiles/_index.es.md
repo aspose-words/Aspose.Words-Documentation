@@ -7,6 +7,7 @@ description: "Aspose.Words para Java implementa su propio Windows Reproductor de
 type: docs
 weight: 30
 url: /es/java/handling-windows-metafiles/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Windows El formato Metafile es un formato de archivo de imagen que puede contener tanto gráficos vectoriales como de raster. Este formato se utiliza para almacenar datos gráficos en memoria o archivos en disco. Un metafile almacena una lista de llamadas de función en el Windows Interfaz de dispositivo gráfico (GDI) que debe ejecutarse para mostrar la imagen en la pantalla. El sistema interpreta y ejecuta estos comandos en el contexto de visualización.

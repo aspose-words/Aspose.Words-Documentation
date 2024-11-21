@@ -7,6 +7,7 @@ description: "Choose the best PDF standard to export the result of your programm
 type: docs
 weight: 27
 url: /net/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 For some tasks, certain PDF standards will fit better or vice versa worse. In this article, we will try to determine which PDF standards for which cases it makes sense to choose.

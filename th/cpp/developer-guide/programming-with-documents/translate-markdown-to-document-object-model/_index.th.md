@@ -1,4 +1,4 @@
-﻿---
+---
 title: แปลMarkdownไปยังรูปแบบวัตถุเอกสาร(DOM)
 second_title: Aspose.WordsสำหรับC++
 articleTitle: แปลMarkdownไปยังรูปแบบวัตถุเอกสาร(DOM)
@@ -7,6 +7,7 @@ type: docs
 description: "ทาร์สเลทMarkdownเอกสารไปยังเอกสารรูปแบบวัตถุและกลับโดยใช้C++ ดังนั้นคุณสามารถทำงานกับที่ซับซ้อนที่มีอยู่Markdownและโปรแกรมสร้างเอกสารMarkdownจากรอยขีดข่วน."
 weight: 20
 url: /th/cpp/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ในการอ่านจัดการและปรับเปลี่ยนเนื้อหาและการฟอร์แมตของเอกสารคุณต้องแปลไปยังโมเดลออบเจกต์ของเอกสารAspose.Words(DOM).

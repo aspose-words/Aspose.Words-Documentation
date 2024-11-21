@@ -7,6 +7,7 @@ description: "Paragraph 노드 조작 관행 Java·"
 type: docs
 weight: 210
 url: /ko/java/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 단락은 논리 블록으로 결합 된 문자 집합이며 특수 문자로 종료됩니다. *paragraph break*. 내 계정 Aspose.Words, 단락은 [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) 수업.

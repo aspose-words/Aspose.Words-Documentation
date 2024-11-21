@@ -7,6 +7,7 @@ description: "Groupformas de ing y sin agrupación usando Java."
 type: docs
 weight: 290
 url: /es/java/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A veces necesitas añadir un group shape en un documento de Word. Tal group shape consiste en múltiples formas

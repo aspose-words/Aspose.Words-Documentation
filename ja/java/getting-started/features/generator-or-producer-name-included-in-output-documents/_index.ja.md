@@ -7,6 +7,7 @@ description: "Aspose.Words お問い合わせ Java ジェネレータ名とバ�
 type: docs
 weight: 70
 url: /ja/java/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ドキュメントが使用することによって生成されるかどうかを簡単に知ることができます Aspose.Words お問い合わせ Javaお問い合わせ また、バージョン番号の検索もできます。 Aspose.Words お問い合わせ Java 特定の出力文書を作成するために使用されます。 Aspose.Words この情報を生成された文書に直接書き込む。

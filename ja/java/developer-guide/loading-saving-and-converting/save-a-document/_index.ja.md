@@ -7,6 +7,7 @@ type: docs
 description: "サポートされているフォーマットでドキュメントを保存 Javaお問い合わせ"
 weight: 20
 url: /ja/java/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 あなたが実行する必要があるタスクのほとんど Aspose.Words 文書の保存を含みます。 文書を保存するために Aspose.Words 提供して下さい [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save(java.lang.String))方法の [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) クラス。 ドキュメントは、サポートされている保存形式に保存できます。 Aspose.Wordsお問い合わせ サポートされているすべての保存形式のリストについては、 [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) パンフレット

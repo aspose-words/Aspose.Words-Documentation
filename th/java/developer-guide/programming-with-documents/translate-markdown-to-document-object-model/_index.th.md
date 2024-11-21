@@ -7,6 +7,7 @@ type: docs
 description: "Tarklate Markdown เอกสารที่จะ Document Object Model และกลับมา ดังนั้นคุณสามารถทํางานกับความซับซ้อนที่มีอยู่ Markdown และสร้างโปรแกรม Markdown เอกสารจากรอยขีดข่วนโดยใช้ Java."
 weight: 20
 url: /th/java/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 เพื่อโปรแกรมการอ่าน, จัด และแก้ไขเนื้อหาและรูปแบบของเอกสาร คุณต้องแปลมันไปยัง Aspose.Words Document Object Model (DOM)

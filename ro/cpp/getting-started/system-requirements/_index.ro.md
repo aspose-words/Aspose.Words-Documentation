@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cerințe De Sistem
 second_title: Aspose.Words pentru C++
 articleTitle: Cerințe De Sistem
@@ -7,6 +7,7 @@ description: "Înainte de a începe să lucrați cu Aspose.Words pentru C++, asi
 type: docs
 weight: 70
 url: /ro/cpp/system-requirements/
+timestamp: 2024-07-11-16-13-28
 ---
 
 Aspose.Words pentru C++ nu necesită instalarea unui produs terță parte, cum ar fi Microsoft Word. Aspose.Words în sine este un motor pentru crearea, modificarea, conversia și redarea documentelor în diferite formate, inclusiv Microsoft Word formate de documente.

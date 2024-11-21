@@ -7,6 +7,7 @@ description: "Aspose.Words pour .NET peut intégrer les polices TrueType correct
 type: docs
 weight: 10
 url: /fr/net/manipulating-and-substitution-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words nécessite des polices TrueType pour diverses tâches, notamment le rendu de documents dans des formats de page fixe, par exemple PDF ou XPS. Lorsque Aspose.Words restitue un document, il doit effectuer l'incorporation et l'incorporation de sous-ensembles de polices TrueType dans le document résultant, ce qui est une pratique normale lors de la génération d'un document, y compris les formats PDF ou XPS populaires. Cela garantit que le document apparaîtra de la même manière pour n’importe quel spectateur. De plus, la spécification XPS exige que les polices soient toujours intégrées au document.

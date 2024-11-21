@@ -7,6 +7,7 @@ description: "با استفاده از Python یک هایپرلینک را در 
 type: docs
 weight: 50
 url: /fa/python-net/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 یک لینک در اسناد Microsoft Word فیلد `HYPERLINK` است. در Aspose.Words، هایپرلینک ها از طریق کلاس [FieldHyperlink](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldhyperlink/) پیاده سازی می شوند.

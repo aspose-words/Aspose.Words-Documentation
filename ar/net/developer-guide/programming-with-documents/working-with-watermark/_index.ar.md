@@ -7,6 +7,7 @@ description: "توثيق معالجة العلامة المائية باستخد
 type: docs
 weight: 340
 url: /ar/net/working-with-watermark/
+timestamp: 2024-05-02-11-51-44
 ---
 
 يناقش هذا الموضوع كيفية العمل برمجيًا مع العلامة المائية باستخدام Aspose.Words. العلامة المائية هي صورة خلفية يتم عرضها خلف النص في المستند. يمكن أن تحتوي العلامة المائية على نص أو صورة ممثلة بفئة [Watermark](https://reference.aspose.com/words/ar/net/aspose.words/watermark/).

@@ -7,6 +7,7 @@ description: "ตั้งค่าคุณสมบัติขั้นสู
 type: docs
 weight: 20
 url: /th/java/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 เมื่อมีการบันทึกเอกสาร คุณสามารถตั้งค่าคุณสมบัติบางอย่างได้ Aspose.Words ให้คุณกับ [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/) คลาสนี้ช่วยให้ควบคุมกระบวนการประหยัดได้แม่นยํามากขึ้น มีงานล้นมือ **Save** วิธีที่ยอมรับ **SaveOptions** วัตถุ - มันควรเป็นวัตถุที่ได้มาจาก **SaveOptions** ชั้นเรียน. ฟอร์แมตการบันทึกแต่ละรูปแบบมีคลาสที่สัมพันธ์กัน ซึ่งมีตัวเลือกในการบันทึกรูปแบบนี้ ตัวอย่างเช่น มี [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) สําหรับบันทึกในรูปแบบ PDF [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) สําหรับบันทึก Markdown รูปแบบหรือ [ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/) ที่บันทึกภาพ บทความ นี้ ให้ ตัว อย่าง ของ การ ทํา งาน ใน ชั้น เรียน เลือก บาง อย่าง ที่ ได้ มา จาก **SaveOptions**.

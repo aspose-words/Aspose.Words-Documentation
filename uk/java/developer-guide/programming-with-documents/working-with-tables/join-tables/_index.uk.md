@@ -7,6 +7,7 @@ description: "Приєднуйтесь до таблиць Javaй Розшире
 type: docs
 weight: 90
 url: /uk/java/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Стіл, представлений в таблиці Aspose.Words Document Object Model, складається з незалежних рядків і клітин, що дозволяє легко приєднуватися до таблиць.

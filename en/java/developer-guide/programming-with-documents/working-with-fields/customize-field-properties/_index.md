@@ -7,6 +7,7 @@ description: "Learn how to customize field properties in Java. Rename merge fiel
 type: docs
 weight: 27
 url: /java/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words provides the ability to programmatically interact with various field properties. In this article, we will look at a couple of examples so that you understand the basic principle of working with field properties. You can see the full list of properties for each field type in the corresponding class.

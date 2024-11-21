@@ -7,6 +7,7 @@ description: "Învață cum să înlocuiești câmpuri cu text în C#. Înlocui�
 type: docs
 weight: 37
 url: /ro/net/replace-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 "Înlocuirea câmpurilor este adesea necesară atunci când doriți să salvați documentul ca o copie statică." Spre exemplu atunci când trimiţi ca atașament într-un e-mail. Conversia câmpurilor precum `DATE` sau `TIME` în text static va permite documentului să afișeze aceeași dată ca atunci când a fost trimisă. De asemenea, în unele situații, s-ar putea să aveți nevoie să eliminați câmpurile condiționale `IF` din documentul dvs. și să le înlocuiți cu rezultatul textului cel mai recent. De exemplu, convertind rezultatul câmpului `IF` într-un text static astfel încât acesta nu mai își va schimba dinamic valoarea atunci când câmpurile din document sunt actualizate.

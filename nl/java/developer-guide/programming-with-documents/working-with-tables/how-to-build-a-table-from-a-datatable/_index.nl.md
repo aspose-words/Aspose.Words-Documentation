@@ -7,6 +7,7 @@ description: "Voorbeeld van het invullen van documenttabel uit externe database 
 type: docs
 weight: 130
 url: /nl/java/how-to-build-a-table-from-a-datatable/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Vaak zal uw toepassing halen gegevens uit een database en opslaan in de vorm van een **DataTable**. Het kan zijn dat u deze gegevens gemakkelijk als nieuwe tabel in uw document wilt invoegen en snel formatteren op de hele tabel wilt toepassen.

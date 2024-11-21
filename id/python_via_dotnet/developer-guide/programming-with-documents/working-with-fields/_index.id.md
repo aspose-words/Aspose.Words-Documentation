@@ -7,6 +7,7 @@ description: "Cara bekerja dengan bidang dalam dokumen menggunakan Python."
 type: docs
 weight: 370
 url: /id/python-net/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 **Fields** dalam dokumen seperti placeholder tempat data berguna dapat disisipkan. Misalnya, bidang dapat berupa referensi halaman, rumus, atau bidang mail merge.

@@ -7,6 +7,7 @@ description: "Přidat, nahradit nebo upravit hypertextový odkaz v dokumentu pom
 type: docs
 weight: 50
 url: /cs/python-net/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Hypertextové spojení Microsoft Word Dokumenty jsou `HYPERLINK` pole. In Aspose.Words, hypertextové odkazy jsou implementovány prostřednictvím [FieldHyperlink](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldhyperlink/) třída.

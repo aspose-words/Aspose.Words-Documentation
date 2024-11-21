@@ -1,4 +1,4 @@
-﻿---
+---
 title: Process Comments in PHP
 second_title: Aspose.Words for Java
 articleTitle: Process Comments in PHP
@@ -7,6 +7,7 @@ description: "Process Comments using PHP."
 type: docs
 weight: 20
 url: /java/process-comments-in-php/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Process Comments

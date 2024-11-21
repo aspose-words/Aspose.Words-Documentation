@@ -7,6 +7,7 @@ description: "Especifique opções de layout para vários layouts de documentos 
 type: docs
 weight: 10
 url: /pt/net/specify-layout-options/
+timestamp: 2024-07-10-08-10-45
 ---
 
 Aspose.Words permite criar documentos de saída com vários layouts, dependendo dos parâmetros especificados nas propriedades da classe [LayoutOptions](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/). Algumas dessas propriedades se assemelham a algumas opções de menu da interface do usuário Microsoft Word – elas serão descritas neste artigo.

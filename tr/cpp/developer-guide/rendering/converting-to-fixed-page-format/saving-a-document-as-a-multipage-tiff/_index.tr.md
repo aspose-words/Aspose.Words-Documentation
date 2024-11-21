@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bir Belgeyi C++ içinde Çok Sayfalı TIFF Olarak Kaydetme
 second_title: Aspose.Words için C++
 articleTitle: Belgeyi Çok Sayfalı Olarak Kaydetme TIFF
@@ -7,6 +7,7 @@ description: "Bir belgeyi C++ kullanarak çok sayfalı TIFF sayfaya dönüştür
 type: docs
 weight: 40
 url: /tr/cpp/saving-a-document-as-a-multipage-tiff/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Belgelerle çalışırken, genellikle belgenizi raster görüntü dosyalarına dönüştürmeniz gerekir. Bu, özellikle belgenizi okunabilir ve yazdırılabilir, ancak düzenlenebilir olmayan bir biçimde sunmanız gerekiyorsa geçerlidir. Örneğin, belgenizin ilk sayfasının raster görüntüsünü önizleme olarak kullanabilirsiniz. Bu makalede, daha popüler görüntü biçimlerinden biri olan TIFF biçimi örneğini kullanarak bir belgenin raster görüntüye nasıl dönüştürüleceği açıklanmaktadır.

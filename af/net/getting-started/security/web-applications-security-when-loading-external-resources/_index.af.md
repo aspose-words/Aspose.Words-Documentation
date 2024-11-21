@@ -1,4 +1,4 @@
-﻿---
+---
 title: Web App Sekuriteit Wanneer Die Laai Van Hulpbronne
 second_title: Aspose.Words vir .NET
 articleTitle: Webtoepassings Sekuriteit Wanneer Eksterne Hulpbronne Gelaai Word
@@ -7,6 +7,7 @@ type: docs
 description: "Laai afgeleë hulpbronne, wat'n rede vir sekuriteitsrisiko's kan wees. Kyk na algemene sekuriteitskwessies en hul oplossings met behulp van C#."
 weight: 100
 url: /af/net/web-applications-security-when-loading-external-resources/
+timestamp: 2024-01-27-14-07-04
 ---
 
 By verstek, Aspose.Words vir .NET kan afgeleë hulpbronne soos beelde, CSS style, of eksterne HTML dokumente laai wanneer dokumente ingevoer word of beelde ingevoeg word met behulp van die DocumentBuilder. Hierdie gedrag laat jou toe om jou dokumente in volle detail te verwerk, maar kan'n rede wees vir sekere sekuriteitsrisiko's as die biblioteek deel is van'n webtoepassing.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose Export to Word for ASP.NET MVC
 second_title: Aspose.Words for .NET
 articleTitle: Aspose Export to Word for ASP.NET MVC
@@ -7,6 +7,7 @@ description: "Using Aspose Export to Word for ASP.NET MVC addon in C#."
 type: docs
 weight: 30
 url: /net/aspose-export-to-word-for-asp-net-mvc/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Aspose.Words Export To Word for ASP.NET MVC allows ASP.NET developers to add "Export To Word" feature to their MVC website projects with few steps. Export to Word allows website users to download any webpage into Microsoft Word or Open Office Document. This module demonstrates the powerful document building feature by `Aspose.Word`.

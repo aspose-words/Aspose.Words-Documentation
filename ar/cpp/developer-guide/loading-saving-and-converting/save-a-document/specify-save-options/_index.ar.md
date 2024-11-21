@@ -1,4 +1,4 @@
-﻿---
+---
 title: حدد خيارات الحفظ في C++
 second_title: Aspose.Words ل C++
 articleTitle: حدد خيارات الحفظ
@@ -7,6 +7,7 @@ description: "تحكم أكثر دقة في عملية الحفظ."
 type: docs
 weight: 10
 url: /ar/cpp/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 عند حفظ مستند، يمكنك تعيين بعض الخصائص المتقدمة. Aspose.Words يوفر لك فئة [SaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/)، والتي تتيح تحكما أكثر دقة في عملية الحفظ. هناك حمولات زائدة من طريقة **Save** التي تقبل كائن **SaveOptions** - يجب أن يكون كائنا من فئة مشتقة من فئة **SaveOptions**. يحتوي كل تنسيق حفظ على فئة مقابلة تحتوي على خيارات حفظ لتنسيق الحفظ هذا، على سبيل المثال، يوجد [PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/) للحفظ إلى PDF تنسيق، [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions) للحفظ إلى Markdown تنسيق، أو [ImageSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/imagesaveoptions/) للحفظ إلى صورة. تقدم هذه المقالة أمثلة للعمل مع بعض فئات الخيارات المشتقة من **SaveOptions**.

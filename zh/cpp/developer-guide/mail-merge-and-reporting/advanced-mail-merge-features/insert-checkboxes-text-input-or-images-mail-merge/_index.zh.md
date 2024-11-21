@@ -1,4 +1,4 @@
-﻿---
+---
 title: 插入 Checkboxes，文本输入或图像期间 Mail Merge
 second_title: Aspose.Words 为 C++
 articleTitle: 插入 Checkboxes、文本输入或图像
@@ -7,6 +7,7 @@ description: "期间插入复选框或文本输入字段 Mail Merge 使用 C++. 
 type: docs
 weight: 40
 url: /zh/cpp/insert-checkboxes-text-input-or-images-mail-merge/
+timestamp: 2024-01-27-14-07-04
 ---
 
 合并引擎将文档作为输入，查找 `MERGEFIELD` 中的字段，并将其替换为从数据源获取的数据。 通常，纯文本和 HTML 被插入，但 Aspose.Words 用户还可以生成一个文档，用于处理更不寻常的情况 mail merge 菲尔兹。

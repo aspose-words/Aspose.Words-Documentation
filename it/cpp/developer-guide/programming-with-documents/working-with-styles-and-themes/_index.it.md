@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lavorare con gli stili in C++
 second_title: Aspose.Words per C++
 articleTitle: Lavorare con gli stili
@@ -7,6 +7,7 @@ description: "Funzionalità avanzate di formattazione Microsoft Word, utilizzo d
 type: docs
 weight: 110
 url: /it/cpp/working-with-styles-and-themes/
+timestamp: 2024-01-30-16-22-34
 ---
 
 La classe [StyleCollection](https://reference.aspose.com/words/cpp/aspose.words/stylecollection/) viene utilizzata per gestire le impostazioni predefinite e applicare le impostazioni definite dall'utente agli stili.

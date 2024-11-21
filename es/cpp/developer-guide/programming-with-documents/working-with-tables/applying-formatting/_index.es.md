@@ -1,4 +1,4 @@
-﻿---
+---
 title: Formateo de tablas en C++
 second_title: Aspose.Words para C++
 articleTitle: Aplicar Formato
@@ -7,6 +7,7 @@ description: "Formato de tabla en detalles usando C++. Usando C++ para formatear
 type: docs
 weight: 70
 url: /es/cpp/applying-formatting/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Cada elemento de una tabla se puede aplicar con un formato diferente. Por ejemplo, el formato de tabla se aplicará a toda la tabla, el formato de fila solo a filas particulares, el formato de celda solo a ciertas celdas.

@@ -7,6 +7,7 @@ description: "C# 如何從外部來源載入文件。 從 SharePoint 加載 PDF�
 type: docs
 weight: 40
 url: /zh-hant/net/working-with-documents-from-external-sources/
+timestamp: 2024-01-27-14-07-04
 ---
 
 此部分提供從外部來源（例如 SharePoint 文檔儲存或資料庫）加載文檔的資訊。 在收到這樣的文件時，你不僅可以根據 Aspose.Words 的強大功能對它進行所有必要的更改，還可以把這份文件加載回數據源中。

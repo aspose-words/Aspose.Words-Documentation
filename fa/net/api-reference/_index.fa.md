@@ -7,6 +7,7 @@ type: docs
 weight: 40
 description: "توضیح و مثال‌هایی از Aspose.Words برای کلاس‌ها و روش‌های .NET برای تولید، تبدیل، اصلاح، رندر و چاپ اسناد بدون استفاده از Microsoft Word بیاموزید."
 url: /fa/net/api-reference/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words for .NET یک کتابخانه کلاسی است که برنامه های شما را قادر می سازد تا طیف وسیعی از وظایف پردازش اسناد را انجام دهند. با Aspose.Words می‌توانید بدون استفاده از Microsoft Word اسناد تولید، اصلاح، تبدیل، رندر و چاپ کنید، یعنی Microsoft Word برای استفاده از Aspose.Words لازم نیست.

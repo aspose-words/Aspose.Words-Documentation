@@ -7,6 +7,7 @@ type: docs
 description: "Sklonuj dokument, aby uzyskać jego identyczną kopię za pomocą C#. Podczas tworzenia kopii klonowane są węzły i właściwości oryginalnego dokumentu."
 weight: 70
 url: /pl/net/clone-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Klonowanie dokumentu to proces tworzenia identycznej kopii oryginalnego dokumentu, który może poprawić wydajność i uchronić Cię przed potencjalnymi wyciekami pamięci.

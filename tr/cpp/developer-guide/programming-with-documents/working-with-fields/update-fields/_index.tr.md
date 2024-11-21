@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içindeki Alanları Güncelle
 second_title: Aspose.Words için C++
 articleTitle: Alanları Güncelle
@@ -7,6 +7,7 @@ description: "C++ içindeki alanları nasıl güncelleyeceğinizi öğrenin. Ala
 type: docs
 weight: 30
 url: /tr/cpp/update-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Genellikle Microsoft Word içine eklenen bir alan zaten güncel bir değer içerir. Örneğin, alan bir formül veya sayfa numarasıysa, belgenin verilen sürümü için doğru hesaplanan değeri içerecektir. Ancak, iki belgeyi birleştirmek veya verilerle doldurmak gibi alanlara sahip bir belge oluşturan veya değiştiren bir uygulamanız varsa, belgenin yararlı olması için ideal olarak tüm alanların güncellenmesi gerekir.

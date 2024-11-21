@@ -7,6 +7,7 @@ description: "使用 Java 通过设置、打印预览和打印进度对话框。
 type: docs
 weight: 55
 url: /zh/java/print-a-document-programmatically-or-using-dialogs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 本文描述如何使用 Aspose.Words API。 。 。 它还演示了使用设置、打印预览和打印进度对话框打印文档的方法。

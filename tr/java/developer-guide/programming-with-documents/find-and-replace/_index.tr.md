@@ -7,6 +7,7 @@ type: docs
 description: "Bir belge içinde bir dizge veya normal ifade deseni bulun ve bunu istediğiniz metinle Java'i kullanarak değiştirin."
 weight: 100
 url: /tr/java/find-and-replace/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bir belgeyi kolayca bir klavye ve fare kullanarak gezinebilirsiniz, ancak birçok sayfayı kaydırmanız gerekiyorsa uzun bir belgedeki belirli metni bulmak oldukça zaman alacaktır. Belirli karakterleri veya bir belgede kullandığınız kelimeleri değiştirmek istediğinizde daha fazla zaman alacaktır. 'Bul ve değiştir' işlevi, bir belge içinde karakter dizisini başka bir karakter dizisiyle değiştirebileceğinizi gösterir.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Qué es un diseño de página en C++
 second_title: Aspose.Words para C++
 articleTitle: Qué es un Diseño de Página
@@ -7,6 +7,7 @@ description: "Averigüemos qué es un diseño de página. Un diseño de página 
 type: docs
 weight: 5
 url: /es/cpp/what-is-a-page-layout/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Un **document page layout** es una estructura de datos que describe dónde se encuentra un objeto en particular en las páginas de todos los objetos de documento. Además, dado que los objetos tienen propiedades que afectan su apariencia, como el tamaño de fuente, el sombreado o los efectos de dibujo, no solo necesita saber dónde está el objeto, sino también qué área (s) de la página ocupa y si se aplicará a varias páginas para que otros objetos no se superpongan en la misma área (s).

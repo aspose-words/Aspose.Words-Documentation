@@ -7,6 +7,7 @@ description: "Převést na PDF/A-1, PDF/A-2, PDF/A-4 a PDF/UA pomocí C#. Existu
 type: docs
 weight: 28
 url: /cs/net/working-with-pdfa-or-pdfua/
+timestamp: 2024-07-10-14-38-57
 ---
 
 Formát PDF/A a PDF/UA ukládá několik požadavků týkajících se obsahu dokumentu, které nelze splnit při automatické konverzi z dokumentu ve formátu Word do PDF. Tyto požadavky by měly být ověřeny a opraveny buď v dokumentu Word před přeměnou, nebo v dokumentu PDF po převodu, aby byl vytvořen plně vyhovující dokument PDF/A a PDF/UA.

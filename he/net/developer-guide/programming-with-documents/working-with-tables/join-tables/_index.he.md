@@ -7,6 +7,7 @@ description: "הצטרפו לטבלאות C#. כיצד למזג שני שולח�
 type: docs
 weight: 90
 url: /he/net/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 שולחן, מיוצג ב Aspose.Words Document Object Model, מורכב שורות ותאים עצמאיים, מה שהופך את זה קל להצטרף שולחנות.

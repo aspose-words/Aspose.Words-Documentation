@@ -7,6 +7,7 @@ description: "使用 Java。 。 。 。"
 type: docs
 weight: 40
 url: /zh/java/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有时用户需要对字段应用自定义格式. 在本篇文章中,我们将研究几个如何做到这一点的例子。

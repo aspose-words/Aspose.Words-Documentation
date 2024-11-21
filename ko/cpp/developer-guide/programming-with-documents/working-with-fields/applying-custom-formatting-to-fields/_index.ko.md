@@ -1,4 +1,4 @@
-﻿---
+---
 title: 필드에 사용자 지정 서식 적용 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 필드에 사용자 지정 서식 적용
@@ -7,6 +7,7 @@ description: "다음을 사용하여 필드 결과 서식 지정 및 평가 C++.
 type: docs
 weight: 40
 url: /ko/cpp/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 때때로 사용자는 필드에 사용자 정의 서식을 적용해야합니다. 이 기사에서는 이것이 어떻게 수행 될 수 있는지에 대한 몇 가지 예를 살펴볼 것입니다.

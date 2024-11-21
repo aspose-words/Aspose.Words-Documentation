@@ -7,6 +7,7 @@ description: "Ejemplo de llenado de una tabla de documentos desde una base de da
 type: docs
 weight: 120
 url: /es/net/how-to-build-a-table-from-a-datatable/
+timestamp: 2024-09-25-11-08-55
 ---
 
 A menudo, su aplicación extraerá datos de una base de datos y los almacenará en forma de **DataTable**. Puede insertar fácilmente estos datos en su documento como una nueva tabla y aplicar formato rápidamente a toda la tabla.

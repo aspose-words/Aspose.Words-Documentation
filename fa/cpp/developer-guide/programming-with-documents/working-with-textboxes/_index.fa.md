@@ -1,4 +1,4 @@
-﻿---
+---
 title: کار با TextBoxes در C++
 second_title: Aspose.Words برای C++
 articleTitle: کار با TextBoxes
@@ -7,6 +7,7 @@ description: "معرفی ویژگی جعبه های متن مرتبط در Aspos
 type: docs
 weight: 250
 url: /fa/cpp/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 در Aspose.Words، کلاس [TextBox](https://reference.aspose.com/words/cpp/aspose.words.drawing/textbox/) برای مشخص کردن نحوه نمایش متن در داخل یک شکل استفاده می شود. این یک ملک عمومی به نام **Parent** را برای به دست آوردن شکل والدین برای جعبه متن نشان می دهد تا مشتری بتواند [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/) مرتبط را از **TextBox** مرتبط پیدا کند.

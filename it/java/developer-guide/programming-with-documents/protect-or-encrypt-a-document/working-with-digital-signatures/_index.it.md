@@ -7,6 +7,7 @@ description: "Segna digitalmente i documenti e rileva, conteggia, verifica e rim
 type: docs
 weight: 30
 url: /it/java/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Una firma digitale è un'implementazione tecnologica delle firme elettroniche per firmare documenti e autenticare il firmatario per garantire che un documento non è stato modificato da quando è stato firmato. Ogni firma digitale è unica per ogni firmatore a causa del seguito del protocollo PKI per generare sia chiavi pubbliche che private. Segnare un documento significa creare una firma utilizzando la chiave privata del firmatario in cui viene utilizzato un algoritmo matematico per crittografare l'hash generato.

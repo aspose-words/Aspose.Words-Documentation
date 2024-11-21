@@ -7,6 +7,7 @@ description: "Tieni traccia delle modifiche al contenuto e alla formattazione ap
 type: docs
 weight: 270
 url: /it/python-net/track-changes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 La funzionalità di tracciamento delle modifiche, nota anche come revisione, ti consente di tenere traccia delle modifiche al contenuto e alla formattazione apportate da te o da altri utenti. Questa funzionalità di tracciamento delle modifiche con Aspose.Words supporta le modifiche di tracciamento in Microsoft Word. Con questa funzionalità, puoi accedere alle singole revisioni del tuo documento e applicare loro diverse proprietà.

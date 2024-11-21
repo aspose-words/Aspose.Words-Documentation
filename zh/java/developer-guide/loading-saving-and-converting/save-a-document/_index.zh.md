@@ -7,6 +7,7 @@ type: docs
 description: "使用任何支持的格式保存文档 Java。 。 。 。"
 weight: 20
 url: /zh/java/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 您需要完成的大部分任务 Aspose.Words 涉及保存文档。 要保存文档 Aspose.Words 提供 [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save(java.lang.String)方法 [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) 课。 文档可以用支持的任何保存格式保存 Aspose.Words。 。 。 。 关于所有支持保存格式的列表,请参见 [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) 计数.

@@ -7,6 +7,7 @@ type: docs
 description: "Geliştirme yığınınızda hangi teknolojinin bulunduğuna bakılmaksızın, Docker kullanarak Aspose.Words işlevselliğini uygulamanıza entegre edin. Aspose .Words'ü C#'de Docker kapsayıcısında nasıl kullanacağınızı öğrenin."
 weight: 120
 url: /tr/net/how-to-run-aspose-words-in-docker/
+timestamp: 2024-08-19-11-05-36
 ---
 
 Mikro hizmetler, konteynerleştirmeyle birlikte teknolojilerin kolayca birleştirilmesini mümkün kılar. Docker, geliştirme yığınınızda hangi teknolojinin bulunduğuna bakılmaksızın Aspose.Words işlevselliğini uygulamanıza kolayca entegre etmenize olanak tanır.

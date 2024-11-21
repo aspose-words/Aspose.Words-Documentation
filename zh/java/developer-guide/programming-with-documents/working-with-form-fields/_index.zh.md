@@ -7,6 +7,7 @@ description: "理解窗体字段特性,使用窗体字段工作 Java。 。 。 
 type: docs
 weight: 380
 url: /zh/java/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 包含填充空白(字段)的文档称为表格。 例如,您可以在 Microsoft Word 使用下拉列表,用户可以从中选择条目。 那个 `Form` 字段是存储特定类型数据,例如名称或地址的地点。 格式字段在 Microsoft Word 包括文本输入、组合框和复选框。

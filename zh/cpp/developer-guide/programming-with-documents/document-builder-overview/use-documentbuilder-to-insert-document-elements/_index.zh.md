@@ -1,4 +1,4 @@
-﻿---
+---
 title: 使用`DocumentBuilder`插入文档元素
 second_title: Aspose.Words对于C++
 articleTitle: 使用`DocumentBuilder`插入文档元素
@@ -7,6 +7,7 @@ type: docs
 description: "使用 C++ 中的文档构建器插入文档元素。"
 weight: 80
 url: /zh/cpp/use-documentbuilder-to-insert-document-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 `DocumentBuilder`用于修改文档。 本文解释并描述了如何执行许多任务:

@@ -7,6 +7,7 @@ description: "고급 테이블 포맷 Java· 테이블 스타일 만들기 Java�
 type: docs
 weight: 80
 url: /ko/java/working-with-tablestyle/
+timestamp: 2024-01-27-14-07-04
 ---
 
 테이블 스타일은 테이블에 쉽게 적용 할 수있는 포맷 세트를 정의합니다. 경계, 셰이딩, 정렬 및 글꼴과 같은 형식은 테이블 스타일로 설정하고 일관성있는 외관을 위해 많은 테이블에 적용 할 수 있습니다.

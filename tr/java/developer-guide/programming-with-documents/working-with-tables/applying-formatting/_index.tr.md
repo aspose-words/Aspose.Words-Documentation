@@ -7,6 +7,7 @@ description: "Ayrıntılarımda tablo biçimlendirme. Her tablonun parçaların�
 type: docs
 weight: 70
 url: /tr/java/applying-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bir tablodaki her öğe farklı bir biçimlendirme ile uygulanabilir. Örneğin tablo biçimlendirme tüm tabloya uygulanacak, satır biçimlendirmesi yalnızca bazı satırlar için, hücre biçimlendirmesi yalnızca bazı hücreler için uygulanacaktır.

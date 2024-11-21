@@ -7,6 +7,7 @@ description: "Práce s rozsahy v dokumentu pomocí Python."
 type: docs
 weight: 130
 url: /cs/python-net/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

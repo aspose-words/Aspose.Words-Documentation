@@ -7,6 +7,7 @@ description: "분할 테이블 Java· 두 개의 별도 테이블으로 하나�
 type: docs
 weight: 100
 url: /ko/java/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 테이블, 대표 Aspose.Words Document Object Model, 독립적 인 행과 세포로 구성되며 테이블을 분할하기 쉽습니다.

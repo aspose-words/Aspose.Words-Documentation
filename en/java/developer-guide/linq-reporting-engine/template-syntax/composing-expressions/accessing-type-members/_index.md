@@ -1,4 +1,4 @@
-﻿---
+---
 title: Accessing Type Members in Java
 second_title: Aspose.Words for Java
 articleTitle: Accessing Type Members
@@ -7,6 +7,7 @@ description: "Access public (static and instance) members of accessible types in
 type: docs
 weight: 30
 url: /java/accessing-type-members/
+timestamp: 2024-01-27-14-07-04
 ---
 
 LINQ Reporting Engine enables you to access the following public (static and instance) members of accessible types (see “Working with Types” for more information) in template expressions:

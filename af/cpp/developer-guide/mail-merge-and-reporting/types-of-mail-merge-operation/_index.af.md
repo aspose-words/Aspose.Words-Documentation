@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tipes Mail Merge Operasie in C++
 second_title: Aspose.Words vir C++
 articleTitle: Tipes van Mail Merge Operasie
@@ -8,6 +8,7 @@ description: "Voer twee verskillende tipes mail merge operasies uit: eenvoudige 
 keywords: "how to execute mail merge c++"
 weight: 20
 url: /af/cpp/types-of-mail-merge-operations/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Die hoofgedagte van mail merge is om outomaties'n dokument of verskeie dokumente te skep gebaseer op jou sjabloon en data wat uit jou databron gehaal word. Aspose.Words stel jou in staat om twee verskillende tipes mail merge operasies uit te voer: eenvoudige mail merge en mail merge met streke.

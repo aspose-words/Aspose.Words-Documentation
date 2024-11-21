@@ -7,6 +7,7 @@ description: "Créez, modifiez et enregistrez votre premier document dans n'impo
 type: docs
 weight: 20
 url: /fr/net/hello-world/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un message "Bonjour le monde!" Le code est souvent le premier exemple simple pour écrire "Aspose.Words pour .NET", et il peut également être utilisé comme test de cohérence pour garantir que le logiciel destiné à compiler ou exécuter le code source est correctement installé.

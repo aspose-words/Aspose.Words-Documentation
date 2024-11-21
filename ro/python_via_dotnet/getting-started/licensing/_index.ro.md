@@ -1,4 +1,4 @@
-﻿---
+---
 title: Licențiere și abonament
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Licențiere și abonament
@@ -7,6 +7,7 @@ description: "Aspose.Words pentru Python via .NET oferă diferite planuri de cum
 type: docs
 weight: 40
 url: /ro/python-net/licensing/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Uneori, pentru a studia mai bine sistemul, doriți să vă scufundați în cod cât mai repede posibil. Pentru a face acest lucru mai ușor, Aspose.Words oferă diferite planuri de cumpărare sau oferă o încercare gratuită și o licență temporară de 30 pentru evaluare.

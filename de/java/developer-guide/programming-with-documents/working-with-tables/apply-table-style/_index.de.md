@@ -7,6 +7,7 @@ description: "Erweiterte Tabellenformatierung Java. Erstellen Sie einen Tischsti
 type: docs
 weight: 80
 url: /de/java/working-with-tablestyle/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ein Tischstil definiert eine Reihe von Formatierungen, die einfach auf eine Tabelle aufgetragen werden können. Formatierung wie Grenzen, Schattierung, Ausrichtung und Schriftart können in einem Tischstil eingestellt und auf viele Tische für ein konsistentes Aussehen angewendet werden.

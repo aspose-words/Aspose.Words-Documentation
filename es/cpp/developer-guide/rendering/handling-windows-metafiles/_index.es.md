@@ -1,4 +1,4 @@
-﻿---
+---
 title: Manejo de Metarchivos Windows en C++
 second_title: Aspose.Words para C++
 articleTitle: Manejo de Windows Metarchivos
@@ -7,6 +7,7 @@ description: "Aspose.Words para C++ implementa su propio reproductor de metarchi
 type: docs
 weight: 30
 url: /es/cpp/handling-windows-metafiles/
+timestamp: 2024-01-30-16-22-34
 ---
 
 El formato de metarchivo Windows es un formato de archivo de imagen que puede contener gráficos vectoriales y rasterizados. Este formato se utiliza para almacenar datos gráficos en la memoria o en archivos en disco. Un metarchivo almacena una lista de llamadas a funciones en la Interfaz de Dispositivo Gráfico (GDI) Windows que deben ejecutarse para mostrar la imagen en la pantalla. El sistema interpreta y ejecuta estos comandos en el contexto de visualización.

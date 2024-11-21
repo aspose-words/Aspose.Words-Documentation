@@ -7,6 +7,7 @@ type: docs
 description: "Манипулация на воден знак с документ Java."
 weight: 70
 url: /bg/java/working-with-watermark/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Тази тема обсъжда как да се работи програмично с воден знак използване Aspose.Words. Воден знак е фоново изображение, което показва зад текста в документ. Воден знак може да съдържа текст или изображение, представено от [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) Клас.

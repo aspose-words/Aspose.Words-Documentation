@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words pour Java fournit un support technique gratuit à tous les utilisateurs. Veuillez signaler votre question, votre numéro ou votre demande de fonctionnalités en utilisant le forum d'assistance gratuite Aspose."
 weight: 80
 url: /fr/java/technical-support/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose fournit un support technique illimité et gratuit pour tous ses produits. Le soutien est disponible pour tous les utilisateurs, y compris l'évaluation. La principale voie de soutien est [Pose-toi. Forums](https://forum.aspose.com/c/words/8).

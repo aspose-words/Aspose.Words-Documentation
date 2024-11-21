@@ -7,6 +7,7 @@ type: docs
 description: "کلاس `Document` ویژگی ها و روش های مختلف سند را با استفاده از Python فراهم می کند. شما از کلاس `Document` به عنوان نقطه شروع برای هر کاری که می خواهید با Aspose.Words برای Python انجام دهید استفاده می کنید. شیء `Document` را می توان در یک فایل یا جریان ذخیره کرد و همچنین به مرورگر ارسال کرد."
 weight: 40
 url: /fa/python-net/working-with-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 کلاس [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) در Aspose.Words مرکزی است. این یک سند را نشان می دهد و ویژگی ها و روش های مختلف سند را ارائه می دهد، مانند ذخیره یا محافظت از سند. شما از کلاس [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) به عنوان نقطه شروع برای هر کاری که می خواهید با Aspose.Words انجام دهید استفاده می کنید: یک سند جدید از ابتدا ایجاد کنید، یک الگو برای mail merge باز کنید یا بخش های مختلف یک سند را دریافت کنید.

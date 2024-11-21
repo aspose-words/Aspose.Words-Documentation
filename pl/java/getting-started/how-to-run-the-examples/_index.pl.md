@@ -7,6 +7,7 @@ type: docs
 description: "Pobierz Aspose.Words zamiast Java przykłady z naszych GitHub repozytorium i dowiedzieć się, jak uruchomić je, aby lepiej zapoznać się z Aspose.Words możliwości i właściwości."
 weight: 130
 url: /pl/java/how-to-run-the-examples/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Pobierz z GitHub

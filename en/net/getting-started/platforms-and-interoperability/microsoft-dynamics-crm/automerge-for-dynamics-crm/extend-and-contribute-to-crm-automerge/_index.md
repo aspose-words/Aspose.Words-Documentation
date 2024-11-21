@@ -7,6 +7,7 @@ description: "How to defined a custom workflow using Aspose AutoMerge add-on tha
 type: docs
 weight: 10
 url: /net/extend-and-contribute-to-crm-automerge/
+timestamp: 2024-10-24-11-44-28
 ---
 
 You can download the latest source code at:

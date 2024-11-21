@@ -1,4 +1,4 @@
-﻿---
+---
 title: 시스템 요구 사항
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 시스템 요구 사항
@@ -7,6 +7,7 @@ description: "작업을 시작하기 전에 Aspose.Words 에 대한 C++,운영 �
 type: docs
 weight: 70
 url: /ko/cpp/system-requirements/
+timestamp: 2024-07-11-16-13-28
 ---
 
 Aspose.Words 에 대한 C++ 같은 제 3 자 제품을 필요로하지 않습니다 Microsoft Word 설치될 것입니다. Aspose.Words 그 자체는 문서를 다양한 형식으로 생성,수정,변환 및 렌더링하는 엔진입니다. Microsoft Word 문서 형식.

@@ -7,6 +7,7 @@ description: "Buat dokumen output dengan berbagai tata letak, tergantung pada pa
 type: docs
 weight: 10
 url: /id/java/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words memungkinkan Anda untuk membuat dokumen output dengan berbagai tata letak, tergantung pada parameter yang ditentukan dalam [LayoutOptions](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/) properti **Document**Sitemap Properti ini menyerupai beberapa Microsoft Word pilihan menu antarmuka pengguna yang dijelaskan dalam artikel ini.

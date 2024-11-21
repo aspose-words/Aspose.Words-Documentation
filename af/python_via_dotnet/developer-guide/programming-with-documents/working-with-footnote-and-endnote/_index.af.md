@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk met Voetnoot en Eindnoot
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Werk met Voetnoot en Eindnoot
@@ -7,6 +7,7 @@ description: "Voeg ffotnotes of endnotes in'n dokument en spesifiseer sy opsies 
 type: docs
 weight: 160
 url: /af/python-net/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words bied ook'n paar klasse, metodes en eienskappe vir die werk met voetnotas en eindnotas.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: نظرة عامة على الحقول في C++
 second_title: Aspose.Words ل C++
 articleTitle: نظرة عامة على الحقول
@@ -7,6 +7,7 @@ description: "الحقول ميزة في التفاصيل، رموز الحقل 
 type: docs
 weight: 10
 url: /ar/cpp/fields-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words هي مكتبة فئة مصممة لمعالجة المستندات Microsoft Word من جانب الخادم وتدعم الحقول بالطرق التالية:

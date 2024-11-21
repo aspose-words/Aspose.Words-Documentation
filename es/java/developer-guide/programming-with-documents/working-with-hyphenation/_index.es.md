@@ -7,6 +7,7 @@ description: "Use la hifenación para un arreglo más compacto de texto. Proporc
 type: docs
 weight: 220
 url: /es/java/working-with-hyphenation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A veces es necesario utilizar la hifenación para un arreglo más compacto de texto en un documento. Al mismo tiempo, es importante entender que las características específicas de la palabra hifenación pueden diferir para cada idioma.

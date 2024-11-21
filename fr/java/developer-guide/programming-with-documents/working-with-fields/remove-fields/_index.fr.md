@@ -7,6 +7,7 @@ description: "Découvrez comment supprimer les champs dans Java. Supprimer les c
 type: docs
 weight: 35
 url: /fr/java/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Parfois, il est nécessaire de supprimer un champ du document. Cela peut se produire lorsqu'il doit être remplacé par un autre type de champ ou lorsque le champ n'est plus nécessaire dans le document. Par exemple `TOC` champ lors de l'enregistrement en HTML.

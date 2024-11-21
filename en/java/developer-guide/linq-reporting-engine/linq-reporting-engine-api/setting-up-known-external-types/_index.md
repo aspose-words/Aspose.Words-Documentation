@@ -7,6 +7,7 @@ description: "Learn how to set up external types using LINQ in Java."
 type: docs
 weight: 50
 url: /java/setting-up-known-external-types/
+timestamp: 2024-01-27-14-07-04
 ---
 
 LINQ Reporting Engine must be aware of custom external types that you reference in your template before the engine processes the template. You can set up external types known by the engine through the `ReportingEngine.getKnownTypes()` property. The property represents an unordered set (that is, a collection of unique items) of [Class](https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html) objects. Every type in the set must meet requirements declared at “Working with Types”.

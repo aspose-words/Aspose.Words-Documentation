@@ -7,6 +7,7 @@ description: "Pisahkan dokumen menjadi beberapa file menggunakan Python. Gunakan
 type: docs
 weight: 90
 url: /id/python-net/split-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 *Splitting* atau *membagi dokumen* adalah proses memecah dokumen besar menjadi beberapa file kecil. Ada berbagai alasan untuk membagi file. Misalnya, Anda hanya memerlukan beberapa halaman dari dokumen tertentu dan tidak keseluruhannya. Atau karena alasan privasi, Anda hanya ingin berbagi beberapa bagian dokumen dengan orang lain. Dengan fitur pemisahan, Anda hanya bisa mendapatkan bagian dokumen yang diperlukan dan melakukan tindakan yang diperlukan dengannya, misalnya, menandai, menyimpan, atau mengirim.

@@ -7,6 +7,7 @@ description: ".NET용 Aspose.Words는 결과 문서에 올바른 트루타입 �
 type: docs
 weight: 10
 url: /ko/net/manipulating-and-substitution-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words에는 문서를 PDF 또는 XPS와 같은 고정 페이지 형식으로 렌더링하는 것을 포함하여 다양한 작업에 트루타입 글꼴이 필요합니다. Aspose.Words가 문서를 렌더링할 때 트루타입 글꼴을 결과 문서에 포함 및 하위 집합 포함을 수행해야 합니다. 이는 널리 사용되는 PDF 또는 XPS 형식을 포함하여 문서 생성 중 일반적인 관행입니다. 이렇게 하면 문서가 모든 뷰어에게 동일하게 표시됩니다. 또한 XPS 사양에서는 문서에 글꼴이 항상 포함되도록 요구합니다.

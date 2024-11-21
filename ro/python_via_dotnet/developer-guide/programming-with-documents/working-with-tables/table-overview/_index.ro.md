@@ -1,4 +1,4 @@
-﻿---
+---
 title: Prezentare Generală A Tabelului
 second_title: Aspose.Words pentru Python
 articleTitle: Prezentare Generală A Tabelului
@@ -7,6 +7,7 @@ description: "Lucrați cu tabele și componentele acestora, cum ar fi celule, r�
 type: docs
 weight: 10
 url: /ro/python-net/table-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words este o bibliotecă de clase concepută pentru procesarea pe server a documentelor în diferite formate – PDF, HTML, diferite formate Microsoft Word și altele-și acceptă tabele în următoarele moduri:

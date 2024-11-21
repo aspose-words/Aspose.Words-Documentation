@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++での画像の操作
 second_title: C++の場合Aspose.Words
 articleTitle: 画像の操作
@@ -7,6 +7,7 @@ type: docs
 description: "イメージ機能の紹介、C++を使用してイメージを作成および操作する方法。"
 weight: 300
 url: /ja/cpp/working-with-images/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Wordsを使用すると、ユーザーは非常に柔軟な方法で画像を操作できます。 この記事では、画像を操作する可能性のいくつかのみを探索できます。

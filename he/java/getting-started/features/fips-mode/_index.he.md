@@ -7,6 +7,7 @@ description: "Aspose.Words עבור Java משתמשים במספר אלגורי�
 type: docs
 weight: 80
 url: /he/java/fips-mode/
+timestamp: 2024-05-08-10-19-58
 ---
 
 Aspose.Words משתמשים במספר אלגוריתמים של קריפטוגרפיה ושישה בעת עיבוד מסמכים ומאמר זה מתאר כיצד זה קשור לסטנדרטים של FIPS.

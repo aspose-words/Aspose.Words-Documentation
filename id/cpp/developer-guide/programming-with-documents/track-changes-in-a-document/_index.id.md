@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lacak Perubahan dalam Dokumen di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Melacak Perubahan dalam Dokumen
@@ -7,6 +7,7 @@ description: "Lacak perubahan pada konten dan pemformatan yang dibuat oleh Anda 
 type: docs
 weight: 270
 url: /id/cpp/track-changes-in-a-document/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Fungsionalitas lacak perubahan, juga dikenal sebagai meninjau, memungkinkan Anda melacak perubahan pada konten dan pemformatan yang dibuat oleh Anda atau pengguna lain. Fitur perubahan trek ini dengan Aspose.Words mendukung perubahan trek dalam Microsoft Word. Dengan fungsi ini, Anda dapat mengakses revisi individual dalam dokumen Anda dan menerapkan properti yang berbeda padanya.

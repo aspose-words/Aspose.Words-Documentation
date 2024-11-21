@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge cu XML sursa de date în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Mail Merge cu XML sursă de date
@@ -8,6 +8,7 @@ description: "Utilizați o varietate de surse de date atunci când efectuați o 
 keywords: "mail merge XML data source Java, Mail Merge Java"
 weight: 30
 url: /ro/java/mail-merge-with-xml-data-source/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Puteți utiliza o varietate de surse de date atunci când efectuați o operație mail merge, inclusiv un fișier XML. Principalul avantaj al utilizării XML este capacitatea de a defini o ierarhie chiar în document și apoi de a o transmite pur și simplu la Aspose.Words.

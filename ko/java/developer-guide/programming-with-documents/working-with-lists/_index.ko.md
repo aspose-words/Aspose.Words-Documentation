@@ -7,6 +7,7 @@ description: "형식화 기능에 대한 소개 Aspose.Words 제품정보 Java·
 type: docs
 weight: 200
 url: /ko/java/working-with-lists/
+timestamp: 2024-01-27-14-07-04
 ---
 
 로그인 Microsoft Word 문서는 목록 서식 속성의 집합입니다. 목록은 문서에서 형식, 배열 및 텍스트를 강조 할 수 있습니다. 목록은 문서에 데이터를 구성하는 훌륭한 방법이며, 리더가 키 포인트를 이해하는 데 쉽게 만듭니다.

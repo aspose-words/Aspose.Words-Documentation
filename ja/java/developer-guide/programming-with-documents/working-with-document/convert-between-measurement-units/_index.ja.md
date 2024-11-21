@@ -7,6 +7,7 @@ description: "Aspose.Words お問い合わせ Java たとえば、インチか�
 type: docs
 weight: 20
 url: /ja/java/convert-between-measurement-units/
+timestamp: 2024-01-27-14-07-04
 ---
 
 提供されているオブジェクトプロパティのほとんど Aspose.Words API 幅や高さ、マージン、さまざまな距離などの測定を表現し、1インチが72ポイントに等しい点で値を受け入れます。 時々これは便利ではないし、ポイントは他の単位に変える必要があります。

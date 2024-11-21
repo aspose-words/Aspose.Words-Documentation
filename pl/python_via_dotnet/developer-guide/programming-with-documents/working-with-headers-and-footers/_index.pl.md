@@ -7,6 +7,7 @@ description: "Twórz, zarządzaj i usuwaj nagłówki i stopki w dokumencie za po
 type: docs
 weight: 150
 url: /pl/python-net/working-with-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words umożliwia użytkownikom pracę z nagłówkami i stopkami w dokumencie. Nagłówek to tekst umieszczany na górze strony, a stopka to tekst na dole strony. Zwykle w tych obszarach umieszczane są informacje, które powinny zostać powtórzone na wszystkich lub niektórych stronach dokumentu, takie jak numery stron, data utworzenia, informacje o firmie itp.

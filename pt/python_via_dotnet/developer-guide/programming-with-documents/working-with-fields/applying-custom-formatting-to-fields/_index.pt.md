@@ -7,6 +7,7 @@ description: "Formate e avalie o resultado dos campos usando Python."
 type: docs
 weight: 40
 url: /pt/python-net/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Às vezes, os usuários precisam aplicar formatação personalizada aos campos. Neste artigo, veremos alguns exemplos de como isso pode ser feito.

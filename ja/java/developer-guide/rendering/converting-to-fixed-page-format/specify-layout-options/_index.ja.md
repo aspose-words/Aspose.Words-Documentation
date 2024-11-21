@@ -7,6 +7,7 @@ description: "ドキュメントで使用するパラメータに応じて、さ
 type: docs
 weight: 10
 url: /ja/java/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words さまざまなレイアウトで出力文書を作成することを可能にします。 [LayoutOptions](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/) のプロパティ **Document**お問い合わせ このプロパティは一部に似ています Microsoft Word この記事に記載されているユーザーインターフェイスメニューオプション。

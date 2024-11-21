@@ -7,6 +7,7 @@ description: "Aprender a personalizar las propiedades de campo en Java. Renombre
 type: docs
 weight: 27
 url: /es/java/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words proporciona la capacidad de interactuar programáticamente con varias propiedades de campo. En este artículo, vamos a ver un par de ejemplos para que usted entienda el principio básico de trabajar con propiedades de campo. Puedes ver la lista completa de propiedades para cada tipo de campo en la clase correspondiente.

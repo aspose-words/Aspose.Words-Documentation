@@ -7,6 +7,7 @@ description: "Use simplified syntax in template expressions to work with traditi
 type: docs
 weight: 70
 url: /net/working-with-mail-merge-data-sources/
+timestamp: 2024-10-21-11-17-44
 ---
 
 LINQ Reporting Engine enables you to use a simplified syntax in template expressions to work with traditional Aspose.Words Mail Merge data source objects. See the following sections for more information.

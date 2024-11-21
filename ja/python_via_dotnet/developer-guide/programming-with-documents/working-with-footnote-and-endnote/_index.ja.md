@@ -7,6 +7,7 @@ description: "ffonote または endnote を文書に挿入し、Python を使用
 type: docs
 weight: 160
 url: /ja/python-net/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words は、脚注と文末脚注を操作するためのいくつかのクラス、メソッド、プロパティも提供します。

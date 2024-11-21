@@ -1,4 +1,4 @@
-﻿---
+---
 title: Belge Öğeleri Eklemek için `DocumentBuilder` kullanın
 second_title: Aspose.Words için C++
 articleTitle: Belge Öğeleri Eklemek için `DocumentBuilder` kullanın
@@ -7,6 +7,7 @@ type: docs
 description: "Belge oluşturucuyu kullanarak belge öğelerini C++ içine ekleyin."
 weight: 80
 url: /tr/cpp/use-documentbuilder-to-insert-document-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 `DocumentBuilder`, belgeleri değiştirmek için kullanılır. Bu makalede, bir dizi görevin nasıl gerçekleştirileceği açıklanır ve açıklanır:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Manipuler et remplacer les polices TrueType en C++
 second_title: Aspose.Words pour C++
 articleTitle: Manipuler et remplacer les polices TrueType
@@ -7,6 +7,7 @@ description: "Aspose.Words pour C++ peut incorporer les polices TrueType correct
 type: docs
 weight: 10
 url: /fr/cpp/manipulate-and-substitute-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words nécessite TrueType polices pour une variété de tâches, y compris le rendu de documents dans des formats de page fixe, par exemple, PDF ou XPS. Lorsque Aspose.Words rend un document, il doit effectuer l'incorporation et l'incorporation de sous-ensembles de polices TrueType dans le document résultant, ce qui est une pratique normale lors d'une génération de document, y compris les formats populaires PDF ou XPS. Cela garantit que le document apparaîtra de la même manière à n'importe quel visualiseur. De plus, la spécification XPS exige que les polices soient toujours intégrées dans le document.

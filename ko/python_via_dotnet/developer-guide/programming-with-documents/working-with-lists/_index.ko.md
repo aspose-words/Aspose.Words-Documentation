@@ -7,6 +7,7 @@ description: "Python를 사용하여 문서에서 목록을 만들고 지정하�
 type: docs
 weight: 200
 url: /ko/python-net/working-with-lists/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word 문서의 목록은 목록 서식 속성의 집합입니다. 문서에서 목록을 사용하여 텍스트 형식을 지정하고 정렬하고 강조할 수 있습니다. 목록은 문서의 데이터를 구성하는 좋은 방법이며 독자가 핵심 사항을 더 쉽게 이해할 수 있도록 해줍니다

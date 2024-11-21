@@ -7,6 +7,7 @@ description: "Příklad generování čárového kódu pomocí Java."
 type: docs
 weight: 350
 url: /cs/java/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/
+timestamp: 2024-09-05-11-07-10
 ---
 
 Čárový kód je vizuální reprezentace dat ve formě paralelních čar nebo vzorů. Čárové kódy se široce používají v různých odvětvích, jako jsou maloobchod, logistika, zdravotnictví, bankovnictví a mnoho dalších.

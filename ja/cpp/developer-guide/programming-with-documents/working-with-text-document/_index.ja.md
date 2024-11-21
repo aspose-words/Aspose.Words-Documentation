@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++でのテキスト文書の操作
 second_title: C++の場合Aspose.Words
 articleTitle: テキスト文書の操作
@@ -7,6 +7,7 @@ description: "高度なTXT文書処理、リスト、BiDi、ヘッダー/フッ�
 type: docs
 weight: 430
 url: /ja/cpp/working-with-text-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 この記事では、Aspose.Wordsを介してテキスト文書を操作するためにどのようなオプションが役立つかを学びます。 これは利用可能なオプションの完全なリストではなく、それらのいくつかを操作する例にすぎないことに注意してください。

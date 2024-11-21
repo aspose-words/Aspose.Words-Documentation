@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tabloyu C++ olarak Böl
 second_title: Aspose.Words için C++
 articleTitle: Bölünmüş Masa
@@ -7,6 +7,7 @@ description: "Tabloyu C++ olarak bölün. Bir tabloyu iki ayrı tabloya ayırma 
 type: docs
 weight: 100
 url: /tr/cpp/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words Belge Nesnesi Modelinde temsil edilen bir tablo, bağımsız satırlardan ve hücrelerden oluşur ve bu da bir tablonun bölünmesini kolaylaştırır.

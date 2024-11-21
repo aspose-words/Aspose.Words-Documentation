@@ -7,6 +7,7 @@ description: "Chuyển đổi tài liệu từ hầu hết mọi định dạng 
 type: docs
 weight: 30
 url: /vi/net/convert-a-document-to-mhtml-and-send-it-by-email/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Aspose.Words có thể chuyển đổi bất kỳ tài liệu nào sang định dạng MHTML (Web Archive). Điều này giúp thuận tiện khi sử dụng Aspose.Words và `Aspose.Email` cùng nhau. Bạn có thể tải tài liệu được xác định trước ở bất kỳ định dạng được hỗ trợ nào, chẳng hạn như DOC, OOXML hoặc RTF, vào Aspose.Words, điền dữ liệu vào đó, lưu tài liệu kết quả dưới dạng MHTML rồi gửi tài liệu đó qua e-mail bằng `Aspose.Email`.

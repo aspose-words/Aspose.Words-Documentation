@@ -7,6 +7,7 @@ description: "C#에서 필드 속성을 사용자 정의하는 방법을 알아�
 type: docs
 weight: 27
 url: /ko/net/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words는 다양한 필드 속성과 프로그래밍 방식으로 상호 작용하는 기능을 제공합니다. 이 문서에서는 필드 속성 작업의 기본 원리를 이해할 수 있도록 몇 가지 예를 살펴보겠습니다. [필드 네임스페이스](https://reference.aspose.com/words/net/aspose.words.fields/)의 해당 클래스에서 각 필드 유형에 대한 전체 속성 목록을 볼 수 있습니다.

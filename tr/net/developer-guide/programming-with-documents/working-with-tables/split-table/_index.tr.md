@@ -7,6 +7,7 @@ description: "C#'te tabloyu bölme. Bir tabloyu iki ayrı tabloya nasıl böleri
 type: docs
 weight: 100
 url: /tr/net/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words Document Object Model'de temsil edilen bir tablo, bağımsız satırlardan ve hücrelerden oluşur ve bu da tabloyu bölmeyi kolaylaştırır.

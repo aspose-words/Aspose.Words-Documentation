@@ -7,6 +7,7 @@ description: "Chuyển đổi tài liệu thành mảng byte để làm việc v
 type: docs
 weight: 10
 url: /vi/net/serialize-and-work-with-a-document-in-a-database/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Một trong những nhiệm vụ bạn có thể cần hoàn thành khi làm việc với tài liệu là lưu trữ và truy xuất các đối tượng **Document** đến và từ cơ sở dữ liệu. Ví dụ: điều này sẽ cần thiết nếu bạn đang triển khai bất kỳ loại hệ thống quản lý nội dung nào. Tất cả các phiên bản trước của tài liệu phải được lưu trữ trong hệ thống cơ sở dữ liệu. Khả năng lưu trữ tài liệu trong cơ sở dữ liệu cũng cực kỳ hữu ích khi ứng dụng của bạn cung cấp dịch vụ dựa trên web.

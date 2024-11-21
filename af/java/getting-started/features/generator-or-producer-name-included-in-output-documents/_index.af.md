@@ -1,4 +1,4 @@
-﻿---
+---
 title: Produsent Naam In Uitsette
 second_title: Aspose.Words vir Java
 articleTitle: Generator Of Produsent Naam Ingesluit In Uitset Dokumente
@@ -7,6 +7,7 @@ description: "Aspose.Words vir Java voeg by die dokument die naam van die kragop
 type: docs
 weight: 70
 url: /af/java/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Jy kan maklik weet of'n dokument geproduseer word deur die gebruik van Aspose.Words vir Java. Jy kan ook die weergawe nommer van Aspose.Words vir Java wat gebruik is om'n spesifieke uitset dokument te skep. Aspose.Words skryf hierdie inligting direk in die gegenereerde dokument.

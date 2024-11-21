@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lồng nhau Mail Merge Với Các Khu vực trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Lồng nhau Mail Merge Với Các Khu Vực
@@ -8,6 +8,7 @@ description: "Thực hiện một mail merge hoạt động với các khu vực
 keywords: "mail merge with nested regions c++"
 weight: 30
 url: /vi/cpp/nested-mail-merge-with-regions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Trong một số trường hợp, bạn có thể cần sử dụng lồng nhau mail merge với các khu vực. Hợp nhất lồng nhau là một tính năng cho phép bạn hợp nhất dữ liệu phân cấp từ nguồn dữ liệu của mình vào mẫu hợp nhất để dễ dàng điền vào tài liệu của bạn. Về cơ bản, dữ liệu phân cấp được biểu diễn dưới dạng một tập hợp các mục dữ liệu và các mối quan hệ phân cấp mô tả cách các mục dữ liệu có liên quan với nhau (một mục dữ liệu là cha mẹ của một mục khác).

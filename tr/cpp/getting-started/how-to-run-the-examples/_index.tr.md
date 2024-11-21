@@ -1,4 +1,4 @@
-﻿---
+---
 title: Örnekler Nasıl Çalıştırılır
 second_title: Aspose.Words için C++
 articleTitle: Örnekler Nasıl Çalıştırılır
@@ -7,6 +7,7 @@ description: "İndirmek Aspose.Words için C++ GitHub depomuzdan örnekler ve As
 type: docs
 weight: 110
 url: /tr/cpp/how-to-run-the-examples/
+timestamp: 2024-07-11-16-13-28
 ---
 
 Aspose.Words olanaklarını ve özelliklerini daha yakından tanımak için GitHub depomuzdan indirilebilen, çalıştırılabilen ve ayrıntılı olarak öğrenilebilen örnekler sunuyoruz.

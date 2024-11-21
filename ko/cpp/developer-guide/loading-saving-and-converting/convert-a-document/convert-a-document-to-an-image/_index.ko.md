@@ -1,4 +1,4 @@
-﻿---
+---
 title: 문서를 이미지로 변환 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 문서를 이미지로 변환
@@ -7,6 +7,7 @@ type: docs
 description: "문서를 이미지 형식으로 변환(JPG, PNG,등). 문서 미리보기를 만들거나 송장을 보낼 문서 스캔을 만듭니다."
 weight: 43
 url: /ko/cpp/convert-a-document-to-an-image/
+timestamp: 2024-01-30-16-22-34
 ---
 
 때로는 다음과 같은 다른 형식의 문서 대신 이미지를 가져와야 합니다. DOCX 또는 PDF. 예를 들어,당신은 당신의 웹 사이트 또는 응용 프로그램에 문서 페이지의 미리보기를 추가하거나 송장을 보낼 수있는 문서의"스캔"을 만들어야합니다. 당신이 어떤에서 문서를 변환해야 할 수도 있습니다 때이다 [supported load format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) 이미지에,다시,어떤 [supported save format](https://reference.aspose.com/words/cpp/aspose.words/saveformat/).

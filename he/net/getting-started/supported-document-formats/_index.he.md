@@ -7,6 +7,7 @@ type: docs
 description: "Edit Source מסמכים בפורמטים פופולריים רבים, כמו גם להמיר קבצים באופן חופשי מפורמט אחד למשנהו באמצעות שימוש C#."
 weight: 20
 url: /he/net/supported-document-formats/
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

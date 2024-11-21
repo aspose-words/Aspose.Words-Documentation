@@ -7,6 +7,7 @@ description: "Introduction to field feature in Aspose.Words for Java."
 type: docs
 weight: 370
 url: /java/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 **Fields** in a document are like placeholders where useful data can be inserted. For example, a field can be a page reference, formula, or a mail merge field.

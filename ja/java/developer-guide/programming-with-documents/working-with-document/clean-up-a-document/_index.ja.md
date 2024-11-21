@@ -7,6 +7,7 @@ description: "未使用または重複情報を削除し、出力サイズと処
 type: docs
 weight: 30
 url: /ja/java/clean-up-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 場合によっては、未使用または重複情報を削除して、出力文書のサイズと処理時間を減らす必要があります。

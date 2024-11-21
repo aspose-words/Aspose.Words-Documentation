@@ -7,6 +7,7 @@ type: docs
 description: "지원되는 형식의 문서 저장 Java·"
 weight: 20
 url: /ko/java/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 작업의 대부분은 당신이 수행해야 Aspose.Words 문서 저장 문서 저장 Aspose.Words 제품정보 [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save(java.lang.String)) 방법의 [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) 수업. 문서는 지원되는 모든 저장 체재에서 저장될 수 있습니다 Aspose.Words· 지원되는 모든 저장 체재의 명부를 위해, 보십시오 [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) 관련 기사

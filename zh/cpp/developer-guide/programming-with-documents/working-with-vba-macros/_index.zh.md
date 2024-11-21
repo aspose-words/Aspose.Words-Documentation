@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在C++中使用VBA宏
 second_title: Aspose.Words对于C++
 articleTitle: 使用VBA宏
@@ -7,6 +7,7 @@ description: "使用 C++ 处理文档 VBA 项目。"
 type: docs
 weight: 410
 url: /zh/cpp/working-with-vba-macros/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Visual BasicFor Applications(VBA)forMicrosoft Word是一种简单但功能强大的编程语言，可用于扩展功能。 Aspose.WordsAPI提供了三个类来访问VBA项目源代码:

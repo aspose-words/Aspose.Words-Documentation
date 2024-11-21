@@ -7,6 +7,7 @@ description: "Aspose.Words برای Java اجرای خود Windows Metafile Play
 type: docs
 weight: 30
 url: /fa/java/handling-windows-metafiles/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Windows فرمت Metafile یک فرمت فایل تصویری است که می تواند شامل هر دو گرافیک بردار و raster باشد. این فرمت برای ذخیره داده های گرافیکی در حافظه یا فایل های On-disk استفاده می شود. metafile لیستی از تماس های عملکردی را در لیست ذخیره می کند Windows رابط دستگاه گرافیک (GDI) که باید برای نمایش تصویر بر روی صفحه نمایش اجرا شود. سیستم این دستورات را در متن نمایش تفسیر و اجرا می کند.

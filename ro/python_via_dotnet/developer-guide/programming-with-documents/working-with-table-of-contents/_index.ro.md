@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu cuprins
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Lucrul cu cuprins
@@ -7,6 +7,7 @@ description: "Introduceți și gestionați 'cuprins' într-un document folosind 
 type: docs
 weight: 170
 url: /ro/python-net/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Adesea veți lucra cu documente care conțin un cuprins (TOC). Folosind Aspose.Words puteți introduce propriul Cuprins sau puteți reconstrui complet cuprinsul existent în document folosind doar câteva linii de cod. Acest articol prezintă modul de lucru cu câmpul cuprins și demonstrează:

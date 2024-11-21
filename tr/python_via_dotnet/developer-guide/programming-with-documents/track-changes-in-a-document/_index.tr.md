@@ -7,6 +7,7 @@ description: "Sizin tarafınızdan veya başkaları tarafından Python kullanıl
 type: docs
 weight: 270
 url: /tr/python-net/track-changes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 İnceleme olarak da bilinen değişiklikleri izleme işlevi, sizin veya diğer kullanıcıların içerikte ve biçimlendirmede yaptığı değişiklikleri izlemenize olanak tanır. Aspose.Words'li bu parça değiştirme özelliği, Microsoft Word'deki parça değişikliklerini destekler. Bu işlevsellik sayesinde belgenizdeki revizyonlara tek tek erişebilir ve onlara farklı özellikler uygulayabilirsiniz.

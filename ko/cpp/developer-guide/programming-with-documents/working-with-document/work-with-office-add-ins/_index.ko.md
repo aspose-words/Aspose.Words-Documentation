@@ -1,4 +1,4 @@
-﻿---
+---
 title: 사무실 추가 기능 작업 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 사무실 추가 기능 작업
@@ -7,6 +7,7 @@ description: "Aspose.Words 에 대한 C++ 사무실 추가 기능 작업을 위�
 type: docs
 weight: 50
 url: /ko/cpp/work-with-office-add-ins/
+timestamp: 2024-01-27-14-07-04
 ---
 
 때로는 문서를 수정하기 위해 코드를 실행하는 인터페이스 컨트롤에 대한 액세스 권한을 부여 할 수 있습니다. Aspose.Words API 제공 `WebExtensions` 네임스페이스는 다양한 클래스를 부여하여 요소와 속성을 사용자 정의합니다. XML 사무실 추가 기능을 나타내는 어휘.

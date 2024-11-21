@@ -7,6 +7,7 @@ description: "Aspose.Words for .NET を使用してサポートされている�
 type: docs
 weight: 20
 url: /ja/net/hello-world/
+timestamp: 2024-01-27-14-07-04
 ---
 
 「ハロー、ワールド！」このコードは、多くの場合、「Aspose.Words for .NET」を使用して作成する最初の簡単な例であり、ソース コードをコンパイルまたは実行するためのソフトウェアが正しくインストールされていることを確認する健全性テストとしても使用できます。

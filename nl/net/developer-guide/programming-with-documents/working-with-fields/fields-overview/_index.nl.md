@@ -7,6 +7,7 @@ description: "Velden functie in details, veldcodes en veldresultaten uitgelegd i
 type: docs
 weight: 10
 url: /nl/net/fields-overview/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words is een klasse bibliotheek ontworpen voor server-side verwerking van Microsoft Word documenteert en ondersteunt velden op de volgende manieren:

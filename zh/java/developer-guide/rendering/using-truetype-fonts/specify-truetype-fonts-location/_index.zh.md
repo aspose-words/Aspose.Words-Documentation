@@ -7,6 +7,7 @@ description: "指定各种 没错 输入字体来源:系统文件夹、用户来
 type: docs
 weight: 30
 url: /zh/java/specify-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 此话题描述默认行为 Aspose.Words 当它寻找TrueType字体时,包括操作系统特定差异,并演示如何指定用户字体来源.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Как добавить Group Shape в документ Word
 second_title: Aspose.Words для C++
 articleTitle: Работа с Group Shapes в документах Word
@@ -7,6 +7,7 @@ description: "Группировка и разгруппировывание ф�
 type: docs
 weight: 290
 url: /ru/cpp/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Иногда вам нужно добавить group shape в документ Word. Такой group shape состоит из нескольких фигур.

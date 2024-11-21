@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++でのフォント操作とパフォーマンスの問題
 second_title: C++の場合Aspose.Words
 articleTitle: フォントの操作とパフォーマンスの問題
@@ -7,6 +7,7 @@ description: "C++の場合Aspose.Words 必要なフォントデータまたは�
 type: docs
 weight: 11
 url: /ja/cpp/font-manipulation-and-performance-issues/
+timestamp: 2024-09-24-14-35-44
 ---
 
 使用可能なフォント操作メカニズムはすべて[FontSettings](https://reference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings)クラスに含まれています。 このクラスは、以下で説明するように、定義されたフォントソース内のフォントの取得と、フォント置換プロセスを担当します。

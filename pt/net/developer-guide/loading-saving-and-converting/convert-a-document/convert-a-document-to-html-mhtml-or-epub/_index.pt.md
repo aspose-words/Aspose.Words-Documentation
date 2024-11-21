@@ -7,6 +7,7 @@ description: "Converta um documento de praticamente qualquer formato para HTML o
 type: docs
 weight: 20
 url: /pt/net/convert-a-document-to-html-mhtml-or-epub/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Documentos em formatos de layout de fluxo HTML e MHTML também são muito populares e podem ser usados em qualquer plataforma web. Por esse motivo, a conversão de documentos para HTML e MHTML é um recurso importante do Aspose.Words.

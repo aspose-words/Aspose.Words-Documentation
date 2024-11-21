@@ -7,6 +7,7 @@ type: docs
 description: "Herhangi bir desteklenen biçimde iki belgeyi karşılaştırın ve içerik değişikliklerini gösterin. Karşılaştırırken Java kullanarak gelişmiş seçenekleri uygulayabilirsiniz."
 weight: 60
 url: /tr/java/compare-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Belgeleri karşılaştırma işlemi iki belgedeki değişiklikleri belirler ve değişiklikleri revizyonlar olarak içeri aktarır. Bu süreç, her türlü belgeyi karşılaştırır, hatta belirli bir belgelerin farklı sürümlerini de karşılaştırır ve ardından her iki belge arasındaki değişiklikler ilk belge içerisinde revizyonlar olarak gösterilir.

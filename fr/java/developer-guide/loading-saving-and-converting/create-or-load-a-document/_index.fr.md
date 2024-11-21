@@ -7,6 +7,7 @@ type: docs
 weight: 10
 url: /fr/java/create-or-load-a-document/
 description: "Aspose.Words vous permet de créer un document vide ou de le charger à partir d'un fichier ou d'un flux en utilisant Java."
+timestamp: 2024-01-27-14-07-04
 ---
 
 Presque n'importe quelle tâche que vous voulez effectuer avec Aspose.Words implique de charger un document. Les `Document` classe représente un document chargé dans la mémoire. Le document a plusieurs constructeurs surchargés vous permettant de créer un document vide ou de le charger à partir d'un fichier ou d'un flux. Le document peut être chargé dans n'importe quel format de charge supporté par Aspose.Words. Pour la liste de tous les formats de chargement pris en charge, voir la [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) Énumération.

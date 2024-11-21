@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words cho Python via .NET cung cấp hỗ trợ kỹ thuật miễn phí cho tất cả người dùng. Vui lòng báo cáo câu hỏi, vấn đề hoặc yêu cầu tính năng của bạn bằng Diễn đàn hỗ trợ miễn phí Aspose."
 weight: 80
 url: /vi/python-net/technical-support/
+timestamp: 2024-11-18-12-56-02
 ---
 
 Aspose cung cấp hỗ trợ kỹ thuật miễn phí không giới hạn cho tất cả các sản phẩm của mình. Hỗ trợ có sẵn cho tất cả người dùng, bao gồm cả đánh giá. Con đường hỗ trợ chính là [Aspose.Diễn đàn](https://forum.aspose.com/c/words/8).

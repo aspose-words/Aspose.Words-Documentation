@@ -7,6 +7,7 @@ description: "가장 인기있는 형식의 문서를 저장하고 많은 지원
 type: docs
 weight: 30
 url: /ko/java/supported-features-on-document-save/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words 다양한 형식의 문서를 작업하고 다양한 기능을 제공합니다. 예를 들어, 사용자는 스크래치에서 문서를 만들거나로드 할 수 있으며 일부 변경 사항을 만들고 출력 파일의 변경을 저장합니다. [지원된 문서 체재](/words/ko/java/supported-document-formats/)· 선택한 형식으로 문서를 저장하는 동안 사용자는 다양한 저장 옵션을 적용 할 수 있습니다.

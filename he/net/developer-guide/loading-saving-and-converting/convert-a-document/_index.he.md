@@ -8,6 +8,7 @@ url: /he/net/convert-a-document/
 weight: 30
 description: "להמיר בקלות מסמכים מפורמט אחד לאחר באמצעות C#. אתה יכול לעבוד עם כל הפורמטים הפופולריים ביותר כמו Microsoft Word פורמטים כגון DOCX או DOC, OpenDocument פורמטים כגון ODT או OTT, פורמטי אינטרנט כגון HTML או XHTML, פורמטים כגון MarkDown או TXT ואחרים."
 keywords: "convert a document c#, convert documents from one format to another c#, convert to markdown c#, convert pdf to docx C#, convert docx to pdf C#, convert doc to pdf C#, convert a document Aspose for .NET"
+timestamp: 2024-01-27-14-07-04
 ---
 
 היכולת להמיר בקלות וביעילות מסמכים מתבנית אחת לאחרת היא אחד התחומים העיקריים של תכונה. Aspose.Words. המרה כזו אינה אלא שילוב של עומס והצלת פעולות.

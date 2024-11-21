@@ -7,6 +7,7 @@ description: "Funciones de tipografía avanzadas usando C#."
 type: docs
 weight: 25
 url: /es/net/enable-opentype-features/
+timestamp: 2024-07-10-14-38-57
 ---
 
 OpenType es un formato de fuente, introducido para brindar un mejor soporte para idiomas y sistemas de escritura internacionales en comparación con PostScript y TrueType. Las funciones de diseño de OpenType se conocen comúnmente como funciones OpenType. El paquete Aspose.Words.Shaping.HarfBuzz proporciona soporte para funciones OpenType en Aspose.Words utilizando el motor de modelado de texto HarfBuzz.

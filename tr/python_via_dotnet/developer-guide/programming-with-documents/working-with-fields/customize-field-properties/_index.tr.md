@@ -7,6 +7,7 @@ description: "Python'te alan özelliklerini nasıl özelleştireceğinizi öğre
 type: docs
 weight: 27
 url: /tr/python-net/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words, çeşitli alan özellikleriyle programlı olarak etkileşim kurma yeteneği sağlar. Bu makalede, alan özellikleriyle çalışmanın temel prensibini anlamanız için birkaç örneğe bakacağız. [Alanlar modülü](https://reference.aspose.com/words/python-net/aspose.words.fields/)'de ilgili sınıfta her alan türüne ilişkin özelliklerin tam listesini görebilirsiniz.

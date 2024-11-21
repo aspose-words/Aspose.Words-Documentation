@@ -1,4 +1,4 @@
-﻿---
+---
 title: 使用C++中的部分
 second_title: Aspose.Words对于C++
 articleTitle: 使用部分
@@ -7,6 +7,7 @@ description: "理解使用 C++ 的文档部分概念和操作实践。在文档�
 type: docs
 weight: 120
 url: /zh/cpp/working-with-sections/
+timestamp: 2024-01-31-14-23-37
 ---
 
 有时您想要的文档在所有页面上没有相同的格式。 例如，您可能需要修改页码格式，具有不同的页面大小和方向，或者将第一个文档页面作为封面页，而无需任何编号。 你可以用部分来实现这一点。

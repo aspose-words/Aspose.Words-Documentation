@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words per Java esegue Smart Art Cold Rendering, il che significa che si stende e rende oggetti SmartArt se il disegno pre-renderato SmartArt manca o non è corretto."
 weight: 330
 url: /it/java/working-with-smartart-cold-rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 La grafica SmartArt viene utilizzata per creare rapidamente e facilmente una rappresentazione visiva delle informazioni. Basta scegliere tra un gran numero di layout che meglio si adatta alla tua situazione. Questa facilità d'uso rende la grafica SmartArt abbastanza popolare per alcuni scopi.

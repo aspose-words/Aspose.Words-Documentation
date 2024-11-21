@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words Features Missing in Docx4j
 second_title: Aspose.Words for Java
 articleTitle: Aspose.Words Features Missing in Docx4j
@@ -23,6 +23,7 @@ aliases:
   - /java/split-tables-using-aspose-words/
   - /java/mail-merge-in-aspose-words/
   - /java/mail-merge-from-xml-data-source-in-aspose-words/
+timestamp: 2024-01-31-14-23-37
 ---
 
 As already described in previous articles, there are operations with documents that are faster and more conveniently to perform using Aspose.Words than docx4j. But there are also operations that are not provided by docx4j. You can try to achieve the desired result using auxiliary tools and options, but even if successful, it will be quite expensive.

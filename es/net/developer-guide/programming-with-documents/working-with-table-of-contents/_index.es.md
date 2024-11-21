@@ -7,6 +7,7 @@ description: "Campo de tabla de contenido en detalles. Cómo crear y modificar u
 type: docs
 weight: 170
 url: /es/net/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 A menudo trabajará con documentos que contienen una tabla de contenido (TOC). Usando Aspose.Words puedes insertar tu propia tabla de contenido o reconstruir completamente la tabla de contenido existente en el documento usando solo unas pocas líneas de código. Este artículo describe cómo trabajar con el campo de tabla de contenido y demuestra:

@@ -7,6 +7,7 @@ description: "Introducción a la función Chart, cómo crear y manipular gráfic
 type: docs
 weight: 310
 url: /es/java/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 El nuevo [insertChart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertChart-int-double-double) método se agregó en el [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) clase. Así que veamos cómo insertar un gráfico de columna simple en el documento usando **insertar Chart** método.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu VBA macrocomenzi în Python
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Lucrul cu VBA macrocomenzi
@@ -7,6 +7,7 @@ description: "Creați, citiți, scrieți, clonați și gestionați macrocomenzi 
 type: docs
 weight: 410
 url: /ro/python-net/working-with-vba-macros/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Visual Basic pentru aplicații (VBA) Pentru Microsoft Word este un limbaj de programare simplu, dar puternic, care poate fi folosit pentru a extinde funcționalitatea. Aspose.Words API oferă trei clase pentru a avea acces la codul sursă al proiectului VBA:

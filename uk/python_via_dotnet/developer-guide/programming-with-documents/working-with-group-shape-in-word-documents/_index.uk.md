@@ -7,6 +7,7 @@ description: "Додати group shape в документ, що викорис�
 type: docs
 weight: 290
 url: /uk/python-net/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Іноді потрібно додати group shape у документ Word. Такий group shape складається з декількох форм.

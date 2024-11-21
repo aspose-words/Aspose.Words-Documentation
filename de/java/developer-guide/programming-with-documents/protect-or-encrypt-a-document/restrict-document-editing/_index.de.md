@@ -7,6 +7,7 @@ description: "Beschränken Sie die Bearbeitung eines Dokuments durch Setzen eine
 type: docs
 weight: 30
 url: /de/java/restrict-document-editing/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Manchmal müssen Sie möglicherweise die Fähigkeit begrenzen, ein Dokument zu bearbeiten und nur bestimmte Aktionen mit ihm zuzulassen. Dies kann nützlich sein, um zu verhindern, dass andere Personen sensible und vertrauliche Informationen in Ihrem Dokument bearbeiten.

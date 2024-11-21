@@ -7,6 +7,7 @@ description: "Aspose.Words 제품정보 Java 정확한 TrueType 글꼴을 결과
 type: docs
 weight: 10
 url: /ko/java/manipulate-and-substitute-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words 견적 요청 다양한 작업에 대한 글꼴을 입력하여 문서를 고정 페이지 형식으로 렌더링, 예를 들어, PDF 또는 XPS· 시간: Aspose.Words 문서 렌더링, 임베디드 글꼴의 embedding 및 subset embedding 수행을 수행해야, 원본 PDF 또는 XPS 파일 형식 이 문서는 어떤 뷰어와 동일하게 나타납니다. 또한, XPS 사양은 항상 문서에 내장 될 글꼴을 요구합니다.

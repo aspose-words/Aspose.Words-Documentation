@@ -7,6 +7,7 @@ description: "Підвищений Microsoft Word форматування фу�
 type: docs
 weight: 110
 url: /uk/java/working-with-styles-and-themes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Про нас [StyleCollection](https://reference.aspose.com/words/java/com.aspose.words/stylecollection/) Клас використовується для керування вбудованими та застосувати користувацькі налаштування до стилів.

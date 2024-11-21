@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu tabele în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Lucrul cu mese
@@ -7,6 +7,7 @@ description: "Cum se lucrează cu tabele în Java. Introducerea conceptelor de n
 type: docs
 weight: 190
 url: /ro/java/working-with-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un **table** într-un document este o modalitate excelentă de a structura date similare. De aceea, tabelele sunt un element comun de formatare a conținutului și sunt acceptate de majoritatea formatelor într-o formă sau alta.

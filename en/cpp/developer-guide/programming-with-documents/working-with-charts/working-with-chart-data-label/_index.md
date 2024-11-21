@@ -7,6 +7,7 @@ description: "Chart data label tuning using C++."
 type: docs
 weight: 30
 url: /cpp/working-with-chart-data-label/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words allows users to work with ChartDataLabel an various ways.

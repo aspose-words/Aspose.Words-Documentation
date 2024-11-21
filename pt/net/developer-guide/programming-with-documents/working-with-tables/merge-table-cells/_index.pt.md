@@ -7,6 +7,7 @@ description: "Como mesclar células de tabela em C#. Verifique se as células de
 type: docs
 weight: 40
 url: /pt/net/working-with-merged-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Às vezes, certas linhas de uma tabela exigem um título ou grandes blocos de texto que ocupam toda a largura da tabela. Para um design adequado da tabela, o usuário pode mesclar várias células da tabela em uma. Aspose.Words oferece suporte a células mescladas ao trabalhar com todos os formatos de entrada, incluindo a importação de conteúdo HTML.

@@ -7,6 +7,7 @@ description: "Comprendere i campi di forma funzione, lavorare con campi di forma
 type: docs
 weight: 380
 url: /it/java/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un documento che contiene vuoti di riempimento (campi) è conosciuto come un modulo. Ad esempio, è possibile creare un modulo di registrazione in Microsoft Word che utilizza elenchi a discesa da cui gli utenti possono selezionare le voci. The `Form` campo è una posizione in cui viene memorizzato un particolare tipo di dati, come un nome o un indirizzo. Campi formali in Microsoft Word includere input di testo, combobox e casella di controllo.

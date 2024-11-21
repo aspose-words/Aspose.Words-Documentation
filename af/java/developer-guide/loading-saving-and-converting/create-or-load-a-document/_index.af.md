@@ -1,4 +1,4 @@
-﻿---
+---
 title: Skep Of Laai'n Dokument in Java
 second_title: Aspose.Words vir Java
 articleTitle: Skep Of Laai'n Dokument
@@ -7,6 +7,7 @@ type: docs
 weight: 10
 url: /af/java/create-or-load-a-document/
 description: "Aspose.Words stel jou in staat om'n leë dokument te skep of om dit te laai vanaf'n lêer of stroom met behulp van Java."
+timestamp: 2024-01-27-14-07-04
 ---
 
 Byna enige taak wat u met Aspose.Words wil uitvoer, behels die laai van'n dokument. Die `Document` klas verteenwoordig'n dokument gelaai in die geheue. Die dokument het verskeie oorlaai konstruktors sodat jy'n leë dokument te skep of om dit te laai van'n lêer of stroom. Die dokument kan gelaai word in enige laai formaat ondersteun deur Aspose.Words. Vir die lys van alle ondersteun vrag formate, sien die [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) opsomming.

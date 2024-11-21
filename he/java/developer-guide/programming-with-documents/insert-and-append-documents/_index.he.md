@@ -7,6 +7,7 @@ description: "שילוב מסמכים לתוך אחד: להוסיף או לאמ�
 type: docs
 weight: 80
 url: /he/java/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 לפעמים צריך לשלב כמה מסמכים לאחד. אתה יכול לעשות את זה באופן ידני או שאתה יכול להשתמש Aspose.Words להוסיף או להוסיף תכונה.

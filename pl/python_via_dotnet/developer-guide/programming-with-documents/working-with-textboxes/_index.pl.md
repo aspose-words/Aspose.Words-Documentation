@@ -7,6 +7,7 @@ description: "Pracuj z polami tekstowymi w dokumencie przy użyciu Python."
 type: docs
 weight: 250
 url: /pl/python-net/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 W Aspose.Words klasa [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) służy do określenia sposobu wyświetlania tekstu wewnątrz kształtu. Udostępnia właściwość publiczną o nazwie [parent](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/parent/), która pozwala uzyskać kształt nadrzędny pola tekstowego, aby umożliwić klientowi znalezienie połączonego [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) z połączonego [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/).

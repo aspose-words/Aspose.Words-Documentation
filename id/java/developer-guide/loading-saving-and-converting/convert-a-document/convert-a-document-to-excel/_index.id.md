@@ -7,6 +7,7 @@ description: "Konversi PDF ke Excel, XML ke Excel, DOCX ke Excel JavaSitemap Sim
 type: docs
 weight: 15
 url: /id/java/convert-a-document-to-excel/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Mengkonversi dokumen dari satu format ke format lain adalah fitur unggulan Aspose.WordsSitemap Anda dapat mengonversi dokumen apa pun yang tersedia [Login](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) juga ke format XLSX.

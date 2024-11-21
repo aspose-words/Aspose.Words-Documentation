@@ -7,6 +7,7 @@ type: docs
 description: "DocumentBuilder ช่วยให้คุณสร้างเอกสารแบบไดนามิกตั้งแต่เริ่มต้นหรือเพิ่มองค์ประกอบใหม่ให้กับเอกสารที่มีอยู่โดยใช้ C# DocumentBuilder จัดเตรียมวิธีการแทรกข้อความ ช่องทำเครื่องหมาย ตาราง รูปภาพ และองค์ประกอบเนื้อหาอื่นๆ ใน .NET"
 weight: 30
 url: /th/net/document-builder-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) เป็นคลาสที่มีประสิทธิภาพซึ่งเชื่อมโยงกับ [Document](https://reference.aspose.com/words/net/aspose.words/document/) และช่วยให้คุณสร้างเอกสารแบบไดนามิกตั้งแต่เริ่มต้นหรือเพิ่มองค์ประกอบใหม่ให้กับเอกสารที่มีอยู่

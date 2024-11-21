@@ -7,6 +7,7 @@ description: "Cómo manipular las cabeceras y las calderas usando Java."
 type: docs
 weight: 150
 url: /es/java/working-with-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words permite a los usuarios trabajar con encabezados y calzados en un documento. Un encabezado es texto que se coloca en la parte superior de una página, y un pie de página es texto en la parte inferior de una página. Por lo general, estas áreas se utilizan para insertar información que debe repetirse en todas o algunas páginas del documento, como números de página, fecha de creación, información de la empresa, etc.

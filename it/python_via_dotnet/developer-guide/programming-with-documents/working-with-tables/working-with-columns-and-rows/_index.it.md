@@ -7,6 +7,7 @@ description: "Lavorare con parti di una tabella: righe, colonne e celle utilizza
 type: docs
 weight: 30
 url: /it/python-net/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Per un maggiore controllo sul funzionamento delle tabelle, scopri come manipolare colonne e righe.

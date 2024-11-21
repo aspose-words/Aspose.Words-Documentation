@@ -1,4 +1,4 @@
-﻿---
+---
 title: Menangani Windows Metafile dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Menangani Windows Metafile
@@ -7,6 +7,7 @@ description: "Aspose.Words untuk C++ mengimplementasikan pemutar Metafile Window
 type: docs
 weight: 30
 url: /id/cpp/handling-windows-metafiles/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Windows Format Metafile adalah format file gambar yang dapat berisi grafik vektor dan raster. Format ini digunakan untuk menyimpan data grafik dalam memori atau file pada disk. Metafile menyimpan daftar pemanggilan fungsi di Antarmuka Perangkat Grafik Windows (GDI) yang harus dijalankan untuk menampilkan gambar di layar. Sistem menafsirkan dan menjalankan perintah ini dalam konteks tampilan.

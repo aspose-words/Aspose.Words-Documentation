@@ -7,6 +7,7 @@ description: "Formátování tabulky v detailech pomocí C#. Použití C# formá
 type: docs
 weight: 70
 url: /cs/net/applying-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Každý prvek tabulky lze použít s různým formátováním. Například formátování tabulky bude aplikováno na celou tabulku, formátování řádků pouze na konkrétní řádky, formátování buněk pouze na určité buňky.

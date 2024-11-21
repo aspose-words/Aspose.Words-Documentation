@@ -7,6 +7,7 @@ description: "Obsah pole v detailech. Jak vytvořit a upravit `TOC` použití po
 type: docs
 weight: 170
 url: /cs/net/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Často budete pracovat s dokumenty obsahujícími obsah (TOC). Použití Aspose.Words můžete vložit svůj vlastní obsah nebo zcela obnovit stávající obsah v dokumentu pomocí několika řádků kódu. Tento článek nastiňuje, jak pracovat s obsahem pole a ukazuje:

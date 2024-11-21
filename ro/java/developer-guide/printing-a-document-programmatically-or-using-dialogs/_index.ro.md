@@ -1,4 +1,4 @@
-﻿---
+---
 title: Imprimarea unui Document
 second_title: Aspose.Words pentru Java
 articleTitle: Imprimarea unui Document programatic sau folosind Dialoguri
@@ -7,6 +7,7 @@ description: "Imprimați un document folosind Java prin Setări, previzualizare 
 type: docs
 weight: 55
 url: /ro/java/print-a-document-programmatically-or-using-dialogs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Acest articol descrie modul de imprimare a unui document de procesare a textului folosind Aspose.Words API. De asemenea, demonstrează metodele de imprimare a unui document cu setări, previzualizare imprimare și dialoguri de progres imprimare.

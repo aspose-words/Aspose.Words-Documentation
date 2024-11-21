@@ -7,6 +7,7 @@ description: "Split a document into several files using C#. Use the split featur
 type: docs
 weight: 90
 url: /net/split-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 *Splitting* or *split a document* is the process of breaking a large document into a greater number of smaller files. There are various reasons to split a file. For example, you only need some pages from a specific document and not the entire one. Or for privacy reasons, you want to share only some parts of a document with others. With the splitting feature, you can get only the required parts of the document and do the necessary actions with them, for example, to mark up, save, or send.

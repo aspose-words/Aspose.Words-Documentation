@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk met OLE Voorwerpe En Aanlyn Video in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Werk met OLE Voorwerpe En Aanlyn Video
@@ -7,6 +7,7 @@ description: "Skep en verander OLE inbed in jou dokument met C#."
 type: docs
 weight: 360
 url: /af/net/working-with-ole-objects/
+timestamp: 2024-01-27-14-07-04
 ---
 
 OLE (Object Linking and Embedding) is'n tegnologie waardeur gebruikers kan werk met dokumente wat "voorwerpe" bevat wat deur derdeparty-toepassings geskep of geredigeer word. Dit wil sê, OLE laat'n redigering aansoek om hierdie "voorwerpe" uitvoer na'n ander redigering aansoek en dan invoer hulle met bykomende inhoud.

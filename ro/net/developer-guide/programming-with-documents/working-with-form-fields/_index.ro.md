@@ -7,6 +7,7 @@ description: "`Înțelegerea câmpurilor de formular, lucrul cu câmpurile de fo
 type: docs
 weight: 380
 url: /ro/net/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un document care conține spații de umplut (campuri) este cunoscut sub numele de formular. De exemplu, poţi crea un formular de înregistrare în Microsoft Word care foloseşte liste derulante din care utilizatorii pot selecta intrări. Câmpul `Form` este o locație unde un anumit tip de date, cum ar fi un nume sau o adresă, este stocat. Câmpurile formularului din Microsoft Word includ câmpul de intrare text, câmpul combobox și câmpul checkbox.

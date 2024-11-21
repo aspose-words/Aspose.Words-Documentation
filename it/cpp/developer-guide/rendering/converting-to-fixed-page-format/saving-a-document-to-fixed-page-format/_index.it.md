@@ -1,4 +1,4 @@
-﻿---
+---
 title: Salvataggio in formato a pagina fissa in C++
 second_title: Aspose.Words per C++
 articleTitle: Salvataggio di un documento in formato a pagina fissa
@@ -7,6 +7,7 @@ description: "Come salvare un documento in un formato a pagina fissa - PDF, XPS,
 type: docs
 weight: 15
 url: /it/cpp/saving-a-document-to-fixed-page-format/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Dopo la creazione del layout di pagina e il calcolo della geometria degli oggetti e della loro posizione sulla pagina, il documento può essere salvato in un formato a pagina fissa supportato da Aspose.Words.

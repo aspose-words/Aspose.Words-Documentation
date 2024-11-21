@@ -1,4 +1,4 @@
-﻿---
+---
 title: TableRelation Element
 second_title: Aspose.Words for SharePoint
 articleTitle: TableRelation Element
@@ -7,6 +7,7 @@ description: "TableRelation element meaning and structure which may be used whil
 type: docs
 weight: 170
 url: /sharepoint/tablerelation-element/
+timestamp: 2024-10-21-11-17-44
 ---
 
 The TableRelation element contains information a parent-child relation between two tables in the report data set.

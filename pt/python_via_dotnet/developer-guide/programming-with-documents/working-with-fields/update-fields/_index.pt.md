@@ -7,6 +7,7 @@ description: "Atualize campos em um documento de diferentes maneiras e usando di
 type: docs
 weight: 30
 url: /pt/python-net/update-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Normalmente, um campo inserido no Microsoft Word já contém um valor atualizado. Por exemplo, se o campo for uma fórmula ou um número de página, ele conterá o valor calculado correto para determinada versão do documento. Mas se você tiver um aplicativo que gera ou modifica um documento com campos como mesclar dois documentos ou preenchê-lo com dados, o ideal é que todos os campos sejam atualizados para que o documento seja útil.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Troubleshooting
 second_title: Aspose.Words for SharePoint
 articleTitle: Troubleshooting
@@ -7,6 +7,7 @@ description: "Possible way to find more details in case of issues which may occu
 type: docs
 weight: 40
 url: /sharepoint/troubleshooting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words for SharePoint uses SharePoint tracing logs to log information about unexpected errors. They may be useful when contacting support. The logs are in the LOGS folder of the SharePoint installation:

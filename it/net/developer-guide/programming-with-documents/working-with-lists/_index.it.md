@@ -7,6 +7,7 @@ description: "Introduzione alla funzionalità di formattazione della numerazione
 type: docs
 weight: 200
 url: /it/net/working-with-lists/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un elenco in un documento Microsoft Word è un insieme di proprietà di formattazione del paragrafo. Gli elenchi possono essere utilizzati nei documenti per strutturare, organizzare ed evidenziare il testo. Gli elenchi sono un ottimo modo per organizzare i dati nei documenti in modo da facilitare ai lettori l'assorbimento e la comprensione dei punti chiave.

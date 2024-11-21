@@ -7,6 +7,7 @@ description: "Python を使用して、段落、ブックマーク、特定の�
 type: docs
 weight: 10
 url: /ja/python-net/navigation-with-cursor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ドキュメントを操作するときは、ドキュメントが短くても長くても、ドキュメント内を移動する必要があります。仮想カーソルを使用したナビゲーションは、ドキュメント内の異なるノード間を移動する機能を表します。

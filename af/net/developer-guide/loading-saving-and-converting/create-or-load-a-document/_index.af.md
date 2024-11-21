@@ -1,4 +1,4 @@
-﻿---
+---
 title: Skep Of Laai'n Dokument in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Skep Of Laai'n Dokument
@@ -8,6 +8,7 @@ url: /af/net/create-or-load-a-document/
 description: "Skep'n leë dokument of om dit te laai vanaf'n lêer of stroom gebruik C#."
 keywords: "create a document c#, load a document c#, create a blank document c#, load a document from file c#, load a document from stream c#, create a document Aspose .NET, load a document Aspose .NET, load formats supported by Aspose.Words .NET"
 weight: 10
+timestamp: 2024-07-09-19-00-42
 ---
 
 Byna enige taak wat jy wil uit te voer met Aspose.Words behels die laai van'n dokument. Die `Document` klas verteenwoordig'n dokument gelaai in die geheue. Die dokument het verskeie oorlaai constructors sodat jy om te skep'n leë dokument of om dit te laai vanaf'n lêer of stroom. Die dokument gelaai kan word in enige vrag formaat ondersteun deur Aspose.Words. Vir die lys van al ondersteun lading formate, sien die [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/) opsomming.

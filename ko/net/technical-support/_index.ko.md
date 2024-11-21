@@ -9,6 +9,7 @@ type: docs
 description: ".NET용 Aspose.Words는 모든 사용자에게 무료 기술 지원을 제공합니다. Aspose 무료 지원 포럼을 사용하여 질문, 문제 또는 기능 요청을 보고해 주세요."
 weight: 80
 url: /ko/net/technical-support/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose는 모든 제품에 대해 무제한 무료 기술 지원을 제공합니다. 평가판을 포함하여 모든 사용자에게 지원이 제공됩니다. 주요 지원 수단은 [Aspose.포럼](https://forum.aspose.com/c/words/8)입니다.

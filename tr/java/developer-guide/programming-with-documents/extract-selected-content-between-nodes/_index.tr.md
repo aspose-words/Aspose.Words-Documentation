@@ -7,6 +7,7 @@ type: docs
 description: "Farklı bir tarzda belgenin içeriğini çıkarma Java."
 weight: 140
 url: /tr/java/extract-selected-content-between-nodes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bir belge üzerinde çalışırken, bir belgedeki belirli bir aralıktan içeriği kolayca ayıklayabilmek önemlidir. Bununla birlikte, içerik paragraflar, tablolar, resimler vb. gibi karmaşık öğelerden oluşabilir.

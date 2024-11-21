@@ -7,6 +7,7 @@ description: "Aspose.Words for .NET は、結果として得られるドキュ�
 type: docs
 weight: 10
 url: /ja/net/manipulating-and-substitution-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words では、ドキュメントを PDF や XPS などの固定ページ形式にレンダリングするなど、さまざまなタスクに TrueType フォントが必要です。 Aspose.Words がドキュメントをレンダリングするときは、結果のドキュメントに TrueType フォントの埋め込みとサブセット埋め込みを実行する必要があります。これは、一般的な PDF または XPS 形式を含むドキュメント生成時の通常の作業です。これにより、ドキュメントがどの閲覧者にとっても同じように見えるようになります。さらに、XPS 仕様では、フォントを常にドキュメントに埋め込む必要があります。

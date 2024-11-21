@@ -7,6 +7,7 @@ description: "نصب Aspose.Words برای Android از طریق Java..."
 type: docs
 weight: 20
 url: /fa/java/install-aspose-words-for-android-via-java/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tìm Và Thay thế trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Tìm Và Thay thế
@@ -7,6 +7,7 @@ type: docs
 description: "Tìm một chuỗi hoặc mẫu biểu thức chính quy trong tài liệu của bạn và thay thế nó bằng văn bản bạn muốn sử dụng C++."
 weight: 100
 url: /vi/cpp/find-and-replace/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bạn có thể dễ dàng điều hướng trong tài liệu của mình bằng bàn phím và chuột, nhưng nếu bạn có nhiều trang để cuộn qua, sẽ mất khá nhiều thời gian để tìm văn bản cụ thể trong một tài liệu dài. Sẽ tốn nhiều thời gian hơn khi bạn muốn thay thế một số ký tự hoặc từ nhất định mà bạn đã sử dụng trong tài liệu của mình. Chức năng" Tìm và thay thế " cho phép bạn tìm một chuỗi các ký tự trong tài liệu và thay thế nó bằng một chuỗi ký tự khác.

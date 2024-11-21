@@ -7,6 +7,7 @@ description: "Aspose.Words dla .NET może pomóc w konwertowaniu jednostek miary
 type: docs
 weight: 20
 url: /pl/net/convert-between-measurement-units/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Większość właściwości obiektu dostępnych w Aspose.Words API, które reprezentują pewne wymiary, takie jak szerokość lub wysokość, marginesy i różne odległości, akceptuje wartości w punktach, gdzie 1 cal równa się 72 punktom. Czasami nie jest to wygodne i punkty należy przeliczyć na inne jednostki.

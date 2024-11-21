@@ -7,6 +7,7 @@ description: "Aspose.Words pentru .NET permite redarea unui document creat folos
 type: docs
 weight: 20
 url: /ro/net/installing-truetype-fonts-on-linux/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Cele mai des, vei folosi Aspose.Words pentru a converti documentele DOC sau DOCX în formatul PDF. Dacă ai nevoie să faci asta pe o Linux mașină, acest subiect te va ajuta să înveți cum să asiguri Aspose.Words este redarea documentelor cu cea mai mare acuratețe.

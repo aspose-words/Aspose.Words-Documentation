@@ -7,6 +7,7 @@ type: docs
 description: "Document Object Model (DOM) یک نمایش در حافظه یک سند Word است. خواندن، دستکاری و اصلاح محتوا و قالب بندی یک سند Word با استفاده از Python."
 weight: 10
 url: /fa/python-net/aspose-words-document-object-model/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words Document Object Model (DOM) یک نمایش در حافظه یک سند Word است. Aspose.Words DOM به شما این امکان را می دهد که به صورت برنامه نویسی محتوا و قالب بندی یک سند Word را بخوانید، دستکاری و تغییر دهید.

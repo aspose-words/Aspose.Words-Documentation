@@ -7,6 +7,7 @@ description: "테이블 셀을 병합하는 방법 Java· 테이블에 있는 �
 type: docs
 weight: 40
 url: /ko/java/working-with-merged-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 테이블의 특정 행은 표의 전체 폭을 차지하는 텍스트의 머리 또는 큰 블록을 요구합니다. 테이블의 적당한 디자인을 위해, 사용자는 몇몇 테이블 세포를 하나로 병합할 수 있습니다. Aspose.Words HTML 콘텐츠를 가져 오기를 포함하여 모든 입력 형식을 작업 할 때 병합 된 셀을 지원합니다.

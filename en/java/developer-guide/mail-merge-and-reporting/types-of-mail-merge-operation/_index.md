@@ -10,6 +10,7 @@ description: "Perform two different types of mail merge operations: simple mail 
 keywords: "how to execute mail merge java, Mail Merge Java, Simple Mail Merge"
 weight: 20
 url: /java/types-of-mail-merge-operations/
+timestamp: 2024-01-27-14-07-04
 ---
 
 The main idea of mail merge is to automatically create a document or multiple documents based on your template and data fetched from your data source. Aspose.Words allows you to perform two different types of mail merge operations: simple mail merge and mail merge with regions.

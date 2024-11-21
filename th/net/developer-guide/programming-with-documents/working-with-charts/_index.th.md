@@ -7,6 +7,7 @@ description: "ข้อมูลเบื้องต้นเกี่ยวก
 type: docs
 weight: 310
 url: /th/net/working-with-charts/
+timestamp: 2024-02-05-15-07-18
 ---
 
 มีการเพิ่มวิธี [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) ใหม่ลงในคลาส [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) มาดูวิธีแทรกแผนภูมิคอลัมน์อย่างง่ายลงในเอกสารโดยใช้วิธี [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/)

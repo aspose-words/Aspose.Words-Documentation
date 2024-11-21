@@ -7,6 +7,7 @@ description: "PDF/A și PDF/UA impun cerințe de accesibilitate legate de conți
 type: docs
 weight: 29
 url: /ro/net/warnings-when-saving-to-pdfa-and-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Formatele PDF/A și PDF/UA impun o serie de cerințe privind accesibilitatea legate de conținutul documentelor, care nu pot fi îndeplinite în timpul conversiei automate de la Word la PDF. Aceste cerinţe sunt descrise în articolul anterior "*Lucrând cu PDF/A sau PDF/UA"*. Acum, se emit avertismente pentru unele dintre aceste probleme.

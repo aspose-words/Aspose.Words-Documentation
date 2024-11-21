@@ -7,6 +7,7 @@ description: "Enregistrez des documents aux formats PDF, XPS, HTML, XAML, PostSc
 type: docs
 weight: 10
 url: /fr/python-net/converting-to-fixed-page-format/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words implémente son propre moteur de mise en page. Avant d’approfondir ses spécifications, il convient de discuter d’abord du document à un niveau élevé. Lorsqu'ils réfléchissent à un document, les utilisateurs imaginent généralement un certain nombre de feuilles de papier contenant des mots, des images, des tableaux et des graphiques. Les documents peuvent être de différents types, tels que du texte, des feuilles de calcul, des diapositives, des dessins CAO, des organigrammes et, par conséquent, peuvent avoir des mises en page essentiellement différentes. La plupart des applications permettent d'envoyer des documents vers une imprimante ; c'est à ce moment-là qu'un utilisateur peut réellement visualiser l'apparence finale prévue du document.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Chuyển Đổi Giữa Các Đơn vị Đo lường trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Chuyển Đổi Giữa Các Đơn Vị Đo Lường
@@ -7,6 +7,7 @@ description: "Aspose.Words cho C++ có thể giúp bạn làm thế nào để c
 type: docs
 weight: 20
 url: /vi/cpp/convert-between-measurement-units/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Hầu hết các thuộc tính đối tượng được cung cấp trong Aspose.Words API đại diện cho một số phép đo, chẳng hạn như chiều rộng hoặc chiều cao, lề và các khoảng cách khác nhau, chấp nhận các giá trị tính bằng điểm, trong đó 1 inch bằng 72 điểm. Đôi khi điều này không thuận tiện và các điểm cần được chuyển đổi sang các đơn vị khác.

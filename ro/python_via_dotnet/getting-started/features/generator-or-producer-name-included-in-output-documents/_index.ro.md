@@ -1,4 +1,4 @@
-﻿---
+---
 title: Numele producătorului în rezultate
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Numele generatorului sau al producătorului inclus în documentele de ieșire
@@ -7,6 +7,7 @@ description: "Aspose.Words pentru Python via .NET adăugați la document numele 
 type: docs
 weight: 60
 url: /ro/python-net/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Puteți ști cu ușurință dacă un document este produs utilizând Aspose.Words pentru Python via .NET. De asemenea, puteți găsi numărul versiunii Aspose.Words pentru Python via .NET care a fost folosit pentru a crea un anumit document de ieșire. Aspose.Words scrie direct aceste informații în documentul generat.

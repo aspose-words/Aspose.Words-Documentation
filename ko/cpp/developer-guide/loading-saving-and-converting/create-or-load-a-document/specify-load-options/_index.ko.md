@@ -1,4 +1,4 @@
-﻿---
+---
 title: 로드 옵션 지정 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 로드 옵션 지정
@@ -7,6 +7,7 @@ description: "보다 정확하게 부하 프로세스를 제어 할 수 있습�
 type: docs
 weight: 10
 url: /ko/cpp/specify-load-options/
+timestamp: 2024-01-30-16-22-34
 ---
 
 문서를로드 할 때 일부 고급 속성을 설정할 수 있습니다. Aspose.Words 당신을 제공합니다 [LoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/loadoptions/) 부하 프로세스를보다 정확하게 제어 할 수있는 클래스. 일부 로드 형식에는 이 로드 형식에 대한 로드 옵션을 포함하는 해당 클래스가 있습니다.예를 들어, [PdfLoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/pdfloadoptions/) 에 적재를 위해 PDF 형식 또는 [TxtLoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/txtloadoptions/) 에 적재를 위해 TXT. 이 문서에서는 옵션 작업의 예를 제공합니다. **LoadOptions** 수업

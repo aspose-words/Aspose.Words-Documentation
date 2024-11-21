@@ -7,6 +7,7 @@ description: "Grouping und ungrouping Formen mit Java."
 type: docs
 weight: 290
 url: /de/java/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Manchmal muss man ein group shape in ein Word-Dokument. Eine solche group shape besteht aus mehreren Formen

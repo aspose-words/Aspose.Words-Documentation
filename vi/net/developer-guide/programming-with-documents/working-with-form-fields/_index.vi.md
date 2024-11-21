@@ -7,6 +7,7 @@ description: "Tìm hiểu tính năng Trường biểu mẫu, làm việc với 
 type: docs
 weight: 380
 url: /vi/net/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Một tài liệu chứa các khoảng trống điền vào (các trường) được gọi là một biểu mẫu. Ví dụ: bạn có thể tạo biểu mẫu đăng ký trong Microsoft Word sử dụng danh sách thả xuống để người dùng có thể chọn mục nhập. Trường `Form` là vị trí lưu trữ một loại dữ liệu cụ thể, chẳng hạn như tên hoặc địa chỉ. Các trường biểu mẫu trong Microsoft Word bao gồm nhập văn bản, hộp tổ hợp và hộp kiểm.

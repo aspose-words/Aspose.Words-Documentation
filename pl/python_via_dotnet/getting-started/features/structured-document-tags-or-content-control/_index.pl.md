@@ -7,6 +7,7 @@ description: "Osadzaj semantykę zdefiniowaną przez klienta, a także jej zacho
 type: docs
 weight: 50
 url: /pl/python-net/structured-document-tags-or-content-control/
+timestamp: 2024-01-31-14-23-37
 ---
 
 

@@ -8,6 +8,7 @@ url: /id/python-net/create-or-load-a-document/
 description: "Buat dokumen kosong atau memuatnya dari file atau aliran menggunakan Python."
 keywords: "create a document python, load a document python, create a blank document python, load a document from file python, load a document from stream python, create a document Aspose python, load a document Aspose python, load formats supported by Aspose.Words python"
 weight: 10
+timestamp: 2024-01-27-14-07-04
 ---
 
 Hampir semua tugas yang ingin Anda lakukan dengan Aspose.Words melibatkan pemuatan dokumen. Kelas [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) mewakili dokumen yang dimuat ke dalam memori. Dokumen tersebut memiliki beberapa konstruktor kelebihan beban yang memungkinkan Anda membuat dokumen kosong atau memuatnya dari file atau aliran. Dokumen dapat dimuat dalam format pemuatan apa pun yang didukung oleh Aspose.Words. Untuk daftar semua format pemuatan yang didukung, lihat enumerasi [LoadFormat](https://reference.aspose.com/words/python-net/aspose.words/loadformat/).

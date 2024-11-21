@@ -7,6 +7,7 @@ description: "Tìm hiểu cách thay thế các trường bằng văn bản tron
 type: docs
 weight: 37
 url: /vi/python-net/replace-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Việc thay thế các trường thường được yêu cầu khi bạn muốn lưu tài liệu của mình dưới dạng bản sao tĩnh. Ví dụ: khi gửi dưới dạng tệp đính kèm trong e-mail. Việc chuyển đổi các trường như `DATE` hoặc `TIME` thành văn bản tĩnh sẽ cho phép tài liệu hiển thị cùng ngày với ngày được gửi. Ngoài ra, trong một số trường hợp, bạn có thể cần xóa các trường `IF` có điều kiện khỏi tài liệu của mình và thay thế chúng bằng kết quả văn bản gần đây nhất. Ví dụ: chuyển đổi kết quả của trường `IF` thành văn bản tĩnh để nó không còn thay đổi giá trị động khi các trường trong tài liệu được cập nhật.

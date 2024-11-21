@@ -1,4 +1,4 @@
-﻿---
+---
 title: Chèn CheckboxEs, Nhập Văn bản Hoặc Hình ảnh trong Mail Merge
 second_title: Aspose.Words cho C++
 articleTitle: Chèn CheckboxEs, Nhập Văn bản hoặc Hình ảnh
@@ -7,6 +7,7 @@ description: "Chèn hộp kiểm hoặc trường nhập văn bản trong Mail M
 type: docs
 weight: 40
 url: /vi/cpp/insert-checkboxes-text-input-or-images-mail-merge/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Công cụ hợp nhất lấy một tài liệu làm đầu vào, tìm kiếm `MERGEFIELD` các trường trong đó và thay thế chúng bằng dữ liệu thu được từ nguồn dữ liệu. Thông thường, văn bản thuần túy và HTML được chèn vào, nhưng Aspose.Words người dùng cũng có thể tạo một tài liệu xử lý các tình huống bất thường hơn cho mail merge lĩnh vực.

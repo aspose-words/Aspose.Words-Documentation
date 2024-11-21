@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tipografi Asia dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Bekerja dengan Tipografi Asia
@@ -7,6 +7,7 @@ description: "Bekerja dengan tipografi Asia menggunakan C++. Sesuaikan Spasi ant
 type: docs
 weight: 240
 url: /id/cpp/working-with-asian-typography/
+timestamp: 2024-02-01-16-17-05
 ---
 
 Tipografi Asia adalah sekumpulan opsi untuk paragraf teks dalam dokumen yang ditulis dalam bahasa Asia.

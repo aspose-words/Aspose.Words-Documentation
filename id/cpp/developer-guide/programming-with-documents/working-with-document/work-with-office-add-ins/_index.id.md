@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bekerja dengan Add-in Office di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Bekerja dengan Add-in Office
@@ -7,6 +7,7 @@ description: "Aspose.Words untuk C++ menyediakan berbagai kelas untuk bekerja de
 type: docs
 weight: 50
 url: /id/cpp/work-with-office-add-ins/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Terkadang Anda mungkin ingin memberikan akses ke kontrol antarmuka yang menjalankan kode untuk memodifikasi dokumen. Aspose.Words API menyediakan namespace `WebExtensions`, yang memberikan berbagai kelas untuk menyesuaikan elemen dan atribut yang memperluas kosakata XML untuk mewakili Add-in Office.

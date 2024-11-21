@@ -7,6 +7,7 @@ type: docs
 description: "แนะ นํา ให้ มี รูป แบบ ภาษา ที่ ใช้ ใน การ สอน, สร้าง รูป แบบ ของ ชนิด ต่าง ๆ กัน โดย ใช้ Java."
 weight: 280
 url: /th/java/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 หัวข้อเกี่ยวกับวิธีการทํางานโปรแกรมกับรูปทรงที่ใช้ Aspose.Words.

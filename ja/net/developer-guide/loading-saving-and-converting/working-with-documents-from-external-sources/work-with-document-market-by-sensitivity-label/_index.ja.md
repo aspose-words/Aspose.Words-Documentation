@@ -7,6 +7,7 @@ description: "C# を使用して、機密ラベルが適用された Word を PD
 type: docs
 weight: 30
 url: /ja/net/work-with-document-market-by-sensitivity-label/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Microsoft Purview Information Protection の機密ラベルを使用すると、ユーザーの生産性と共同作業能力が妨げられないようにしながら、組織のデータを分類して保護できます。機密ラベルがドキュメントに適用されると、そのラベルに対して構成された保護設定がコンテンツに適用されます。

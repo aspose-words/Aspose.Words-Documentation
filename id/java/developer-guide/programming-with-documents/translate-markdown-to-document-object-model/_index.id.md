@@ -7,6 +7,7 @@ type: docs
 description: "Login Markdown dokumen Document Object Model dan kembali. Jadi Anda dapat bekerja dengan kompleks yang ada Markdown dan programmatically menciptakan Markdown dokumen dari awal menggunakan JavaSitemap"
 weight: 20
 url: /id/java/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Untuk membaca secara programmatik, memanipulasi, dan memodifikasi konten dan memformat dokumen, Anda perlu menerjemahkannya ke Aspose.Words Document Object Model SitemapDOMSitemap

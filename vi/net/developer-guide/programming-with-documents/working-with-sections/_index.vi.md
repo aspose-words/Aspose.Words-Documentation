@@ -7,6 +7,7 @@ description: "Hiểu các khái niệm về phần tài liệu và thực hành 
 type: docs
 weight: 120
 url: /vi/net/working-with-sections/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Đôi khi bạn muốn một tài liệu không có cùng định dạng trên tất cả các trang. Ví dụ: bạn có thể cần sửa đổi định dạng số trang, có kích thước và hướng trang khác nhau hoặc lấy trang tài liệu đầu tiên làm trang bìa mà không đánh số. Bạn có thể đạt được điều đó với các phần.

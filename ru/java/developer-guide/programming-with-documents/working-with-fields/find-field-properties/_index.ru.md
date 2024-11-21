@@ -7,6 +7,7 @@ description: "Как найти некоторые свойства поля, т
 type: docs
 weight: 25
 url: /ru/java/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Поле, которое вводится с использованием [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean) возвращает [Field](https://reference.aspose.com/words/java/com.aspose.words/field/) объект. Это класс фасадов, который предоставляет полезные методы быстрого поиска таких свойств поля.

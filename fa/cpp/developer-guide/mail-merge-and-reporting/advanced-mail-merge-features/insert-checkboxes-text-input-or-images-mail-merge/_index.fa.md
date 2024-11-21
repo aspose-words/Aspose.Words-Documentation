@@ -1,4 +1,4 @@
-﻿---
+---
 title: Checkboxes، ورودی متن یا تصاویر را در طول Mail Mergeوارد کنید
 second_title: Aspose.Words برای C++
 articleTitle: Checkboxes، ورودی متن یا تصاویر را وارد کنید
@@ -7,6 +7,7 @@ description: "جعبه های چک یا فیلد های ورودی متن را �
 type: docs
 weight: 40
 url: /fa/cpp/insert-checkboxes-text-input-or-images-mail-merge/
+timestamp: 2024-01-27-14-07-04
 ---
 
 موتور ادغام یک سند را به عنوان ورودی می گیرد، به دنبال `MERGEFIELD` فیلد در آن است و آنها را با داده های بدست آمده از منبع داده جایگزین می کند. به طور معمول، متن ساده و HTML وارد می شوند، اما Aspose.Words کاربران همچنین می توانند سندی را ایجاد کنند که سناریوهای غیرمعمول تری را برای mail merge فیلد ها مدیریت می کند.

@@ -7,6 +7,7 @@ description: "Bir belgeyi işlerken resimler, paragraf içeren metin kutusu veya
 type: docs
 weight: 40
 url: /tr/python-net/rendering-shapes-separately-from-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Belgeleri işlerken ortak bir görev, belgede bulunan tüm görüntüleri çıkarmak ve bunları harici bir konuma aktarmaktır. Bu görev, halihazırda görüntü verilerinin çıkarılması ve kaydedilmesi işlevselliğini sağlayan Aspose.Words API ile basitleşiyor. Ancak bazen, paragraflar, ok şekilleri ve küçük bir resim içeren bir metin kutusu gibi farklı türde bir çizim nesnesi tarafından temsil edilen diğer grafik içeriğini de benzer şekilde çıkarmak isteyebilirsiniz. Bireysel içerik öğelerinin birleşimi olduğundan bu nesneyi oluşturmanın doğrudan bir yolu yoktur. İçeriklerin tek bir görüntü gibi görünen nesne halinde gruplandırıldığı bir durumla da karşılaşabilirsiniz.

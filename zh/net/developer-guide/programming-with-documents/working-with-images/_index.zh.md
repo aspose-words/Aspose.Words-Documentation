@@ -7,6 +7,7 @@ description: "Aspose.Words for .NET 提供的图像形状细节和高级功能�
 type: docs
 weight: 300
 url: /zh/net/working-with-images/
+timestamp: 2024-05-02-11-51-44
 ---
 
 Aspose.Words 允许用户以非常灵活的方式处理图像。在本文中，您只能探索处理图像的一些可能性。

@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++中的联接表
 second_title: Aspose.Words对于C++
 articleTitle: 连接表
@@ -7,6 +7,7 @@ description: "高级表格操作。 如何将两个表合并为一个C++。 使�
 type: docs
 weight: 90
 url: /zh/cpp/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 在Aspose.Words文档对象模型中表示的表由独立的行和单元格组成，因此可以轻松连接表。

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 조인 테이블 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 조인 테이블
@@ -7,6 +7,7 @@ description: "고급 테이블 조작. 두 테이블을 하나로 병합하는 �
 type: docs
 weight: 90
 url: /ko/cpp/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 표, Aspose.Words 문서 개체 모델은 독립적 인 행과 셀로 구성되어 테이블을 쉽게 조인 할 수 있습니다.

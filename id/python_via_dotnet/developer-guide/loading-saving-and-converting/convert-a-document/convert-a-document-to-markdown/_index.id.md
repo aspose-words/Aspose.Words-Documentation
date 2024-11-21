@@ -8,6 +8,7 @@ description: "Konversikan dokumen dalam format pemuatan apa pun yang didukung ke
 keywords: how to convert a document to markdown python
 weight: 40
 url: /id/python-net/convert-a-document-to-markdown/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Markdown adalah format populer yang digunakan untuk menandai teks dan selanjutnya mengkonversinya ke HTML, PDF, DOCX, atau format lainnya. Banyak pengembang memilih format ini untuk menulis dokumentasi, menyiapkan artikel untuk dipublikasikan di blog, menjelaskan proyek, dan sebagainya.

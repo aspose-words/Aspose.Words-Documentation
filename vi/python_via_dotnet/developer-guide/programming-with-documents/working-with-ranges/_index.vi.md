@@ -7,6 +7,7 @@ description: "Làm việc với các phạm vi trong tài liệu bằng Python."
 type: docs
 weight: 130
 url: /vi/python-net/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

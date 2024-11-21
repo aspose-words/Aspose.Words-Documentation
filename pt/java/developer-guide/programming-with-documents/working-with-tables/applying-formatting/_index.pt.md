@@ -7,6 +7,7 @@ description: "Formatação de tabela em detalhes. Usando Java para formatar toda
 type: docs
 weight: 70
 url: /pt/java/applying-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Cada elemento de uma tabela pode ser aplicado com formatação diferente. Por exemplo, a formatação da tabela será aplicada a toda a tabela, formatação da linha para apenas linhas particulares, formatação da célula para apenas certas células.

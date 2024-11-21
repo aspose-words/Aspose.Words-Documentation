@@ -7,6 +7,7 @@ description: "Beispiel für die Befüllung der Dokumententabelle aus der externe
 type: docs
 weight: 130
 url: /de/java/how-to-build-a-table-from-a-datatable/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Oft wird Ihre Anwendung Daten aus einer Datenbank ziehen und in Form einer **DataTable**. Sie können diese Daten einfach als neue Tabelle in Ihr Dokument einfügen und schnell Formatierung auf die gesamte Tabelle anwenden.

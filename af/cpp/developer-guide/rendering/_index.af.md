@@ -1,4 +1,4 @@
-﻿---
+---
 title: Vertoon in C++
 second_title: Aspose.Words vir C++
 articleTitle: Lewering
@@ -7,6 +7,7 @@ description: "Gebruik Aspose.Words vir C++ rendering funksie om'n vloei-uitleg d
 type: docs
 weight: 20
 url: /af/cpp/rendering/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Ons gebruik die term "weergawe" in Aspose.Words om die proses van die omskakeling van'n dokument in'n lêer formaat of'n medium wat paginated of het die konsep van bladsye te beskryf. Ons praat oor die weergawe van'n dokument in bladsye. Die volgende diagram toon watter weergawe in Aspose.Words is.

@@ -7,6 +7,7 @@ description: "Verständnis von Dokumentenabschnittskonzepten und Manipulationspr
 type: docs
 weight: 120
 url: /de/java/working-with-sections/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Manchmal wollen Sie ein Dokument, das nicht die gleiche Formatierung auf allen Seiten hat. Zum Beispiel müssen Sie Seitennummernformate ändern, unterschiedliche Seitengröße und Orientierung haben oder die erste Dokumentseite als Titelseite ohne Nummerierung haben. Das können Sie mit Abschnitten erreichen.

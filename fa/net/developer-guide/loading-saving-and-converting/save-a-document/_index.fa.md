@@ -8,6 +8,7 @@ description: "با استفاده از C# یک سند را در هر قالب پ
 keywords: "save a document c#, save a document to file c#, save a document to stream c#, save a document Aspose .NET, save formats supported by Aspose.Words .NET"
 weight: 20
 url: /fa/net/save-a-document/
+timestamp: 2024-07-09-19-00-42
 ---
 
 بیشتر کارهایی که باید با Aspose.Words انجام دهید شامل ذخیره یک سند است. برای ذخیره یک سند، Aspose.Words روش [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) از کلاس [Document](https://reference.aspose.com/words/net/aspose.words/document/) را ارائه می دهد. اضافه بارهایی وجود دارد که اجازه می دهد یک سند را در یک فایل، جریان یا شی ASP.NET HttpResponse برای ارسال به مرورگر مشتری ذخیره کنید. سند را می توان در هر قالب ذخیره ای که توسط Aspose.Words پشتیبانی می شود ذخیره کرد. برای لیست همه فرمت های ذخیره پشتیبانی شده، به شمارش [SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat/) مراجعه کنید.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tablo Konumu C++
 second_title: Aspose.Words için C++
 articleTitle: Bir Tabloyu Konumlandır
@@ -7,6 +7,7 @@ description: "Tablo konumunu C++ olarak belirtin. Tablo hizalamasını alın, C+
 type: docs
 weight: 50
 url: /tr/cpp/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Kayan tablolar ve satır içi tablolar vardır:

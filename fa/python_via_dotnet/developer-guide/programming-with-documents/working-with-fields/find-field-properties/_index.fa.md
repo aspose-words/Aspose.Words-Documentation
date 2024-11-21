@@ -7,6 +7,7 @@ description: "چگونه برخی از ویژگی های فیلد مانند ک�
 type: docs
 weight: 25
 url: /fa/python-net/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 فیلدی که با استفاده از [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/).[insert_field](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_field/) درج می شود یک شی [Field](https://reference.aspose.com/words/python-net/aspose.words.fields/field/) را برمی گرداند. این یک کلاس faсade است که روش های مفیدی را برای یافتن سریع برخی از ویژگی های یک فیلد ارائه می دهد.

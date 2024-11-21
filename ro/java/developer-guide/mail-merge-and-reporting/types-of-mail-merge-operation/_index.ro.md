@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tipuri de operații Mail Merge în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Tipuri de operațiuni Mail Merge
@@ -8,6 +8,7 @@ description: "Efectuați două tipuri diferite de operații mail merge: simple m
 keywords: "how to execute mail merge java, Mail Merge Java, Simple Mail Merge"
 weight: 20
 url: /ro/java/types-of-mail-merge-operations/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ideea principală a mail merge este să creați automat un document sau mai multe documente pe baza șablonului și a datelor preluate din sursa de date. Aspose.Words vă permite să efectuați două tipuri diferite de operații mail merge: simple mail merge și mail merge cu regiuni.

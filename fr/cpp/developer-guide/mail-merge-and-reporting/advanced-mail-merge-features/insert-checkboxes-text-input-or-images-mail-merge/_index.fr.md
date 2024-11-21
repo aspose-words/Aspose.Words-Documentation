@@ -1,4 +1,4 @@
-﻿---
+---
 title: Insérer Checkboxes, Saisie de texte ou Images pendant Mail Merge
 second_title: Aspose.Words pour C++
 articleTitle: Insérer Checkboxes, Saisie de texte ou Images
@@ -7,6 +7,7 @@ description: "Insérez des cases à cocher ou des champs de saisie de texte pend
 type: docs
 weight: 40
 url: /fr/cpp/insert-checkboxes-text-input-or-images-mail-merge/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Le moteur de fusion prend un document en entrée, recherche les champs `MERGEFIELD` qu'il contient et les remplace par les données obtenues à partir de la source de données. En règle générale, du texte brut et HTML sont insérés, mais les utilisateurs Aspose.Words peuvent également générer un document qui gère des scénarios plus inhabituels pour les champs mail merge.

@@ -7,6 +7,7 @@ description: "Вказати позицію столу в C#й Отримати 
 type: docs
 weight: 50
 url: /uk/net/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Розсувні таблиці та вбудовані таблиці:

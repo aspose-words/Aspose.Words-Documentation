@@ -7,6 +7,7 @@ description: "Come lavorare con le tabelle in C#. Introduzione al lavoro con le 
 type: docs
 weight: 190
 url: /it/net/working-with-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un **tavolo** in un documento è un ottimo modo per strutturare dati simili. Questo è il motivo per cui le tabelle sono un elemento comune di formattazione dei contenuti e sono supportate dalla maggior parte dei formati in un modo o nell'altro.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Posizione della tabella in C++
 second_title: Aspose.Words per C++
 articleTitle: Posizionare una tabella
@@ -7,6 +7,7 @@ description: "Specificare la posizione della tabella in C++. Ottenere un allinea
 type: docs
 weight: 50
 url: /it/cpp/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ci sono tavoli galleggianti e tavoli in linea:

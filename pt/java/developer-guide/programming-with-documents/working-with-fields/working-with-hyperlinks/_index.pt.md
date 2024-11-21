@@ -7,6 +7,7 @@ description: "Como adicionar um hiperlink em seu documento usando Java."
 type: docs
 weight: 50
 url: /pt/java/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Um hiperlink em Microsoft Word os documentos são `HYPERLINK` campo. Em Aspose.Words, hiperlinks são implementados através do [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/) classe.

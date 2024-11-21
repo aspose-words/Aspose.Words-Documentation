@@ -7,6 +7,7 @@ description: "เพิ่ม แทนที่ หรือแก้ไขไ�
 type: docs
 weight: 50
 url: /th/python-net/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ไฮเปอร์ลิงก์ในเอกสาร Microsoft Word คือฟิลด์ `HYPERLINK` ใน Aspose.Words ไฮเปอร์ลิงก์ถูกนำมาใช้ผ่านคลาส [FieldHyperlink](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldhyperlink/)

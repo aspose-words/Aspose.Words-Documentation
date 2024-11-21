@@ -1,4 +1,4 @@
-﻿---
+---
 title: کار با افزونه های Office در C++
 second_title: Aspose.Words برای C++
 articleTitle: کار با افزونه های Office
@@ -7,6 +7,7 @@ description: "Aspose.Words برای C++ کلاس های مختلفی برای ک
 type: docs
 weight: 50
 url: /fa/cpp/work-with-office-add-ins/
+timestamp: 2024-01-27-14-07-04
 ---
 
 گاهی اوقات ممکن است بخواهید به کنترل های رابط دسترسی داشته باشید که کد را برای تغییر اسناد اجرا می کنند. Aspose.Words API فضای نام `WebExtensions` را فراهم می کند که کلاس های مختلفی را برای سفارشی کردن عناصر و ویژگی های گسترش واژگان XML برای نمایندگی از افزونه های اداری فراهم می کند.

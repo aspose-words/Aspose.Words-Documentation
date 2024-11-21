@@ -1,4 +1,4 @@
-﻿---
+---
 title: Report Generation
 second_title: Aspose.Words for SharePoint
 articleTitle: Report Generation
@@ -7,6 +7,7 @@ description: "Reporting features of the Aspose.Words for SharePoint."
 type: docs
 weight: 30
 url: /sharepoint/report-generation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Use Aspose.Words for SharePoint for generating reports based on a Microsoft Word template file.

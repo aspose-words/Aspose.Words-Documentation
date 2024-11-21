@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu imagini în Python
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Lucrul cu imagini
@@ -7,6 +7,7 @@ description: "Creați și gestionați imagini de diferite formate într-un docum
 type: docs
 weight: 300
 url: /ro/python-net/working-with-images/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words permite utilizatorilor să lucreze cu imagini într-un mod foarte flexibil. În acest articol, puteți explora doar câteva dintre posibilitățile de lucru cu imagini.

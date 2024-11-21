@@ -7,6 +7,7 @@ description: "Alanları nasıl güncelleyeceğinizi öğrenin Java. Alanları pr
 type: docs
 weight: 30
 url: /tr/java/update-field/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Tipik olarak, Microsoft Word'e bir alan eklemek zaten güncel bir değer içerir. Örneğin, alan bir formül ya da sayfa numarasıysa, bu verilen belgenin versiyonu için doğru hesaplanmış değeri içerecektir. Ama eğer senin bir uygulamanda iki belgeyi birleştirme ya da verilerle doldurma gibi belgede alanlar olan ya da alanları değiştiren bir uygulama varsa, o zaman ideal olarak tüm alanlar belgeden faydalanmak için güncellenmelidir.

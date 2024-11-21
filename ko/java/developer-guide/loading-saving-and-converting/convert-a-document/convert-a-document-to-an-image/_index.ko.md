@@ -7,6 +7,7 @@ type: docs
 description: "이미지 형식으로 문서를 변환 (JPG, PNG 등). 문서 미리보기를 만들거나 문서 스캔을 생성하여 송장 보내기 Java·"
 weight: 35
 url: /ko/java/convert-a-document-to-an-image/
+timestamp: 2024-01-27-14-07-04
 ---
 
 때로는 DOCX 또는 PDF와 같은 다른 형식의 문서 대신 이미지를 얻을 필요가있다. 예를 들어, 웹 사이트 또는 응용 프로그램에 문서 페이지의 미리보기를 추가하거나 청구서를 보내려면 문서의 "scan"를 작성해야합니다. 문서를 변환해야 할 때 [지원된 짐 체재](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) 이미지, 다시, 어떤 [지원되는 저장 체재](https://reference.aspose.com/words/java/com.aspose.words/saveformat/)·

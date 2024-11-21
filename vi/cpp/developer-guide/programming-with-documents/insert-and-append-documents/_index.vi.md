@@ -1,4 +1,4 @@
-﻿---
+---
 title: Chèn Và Nối Thêm Tài liệu vào C++
 second_title: Aspose.Words cho C++
 articleTitle: Chèn Và Nối Thêm Tài liệu
@@ -7,6 +7,7 @@ description: "Kết hợp các tài liệu thành một: chèn hoặc nối mộ
 type: docs
 weight: 80
 url: /vi/cpp/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Đôi khi cần phải kết hợp nhiều tài liệu thành một. Bạn có thể thực hiện việc này theo cách thủ công hoặc bạn có thể sử dụng tính năng chèn hoặc nối Aspose.Words.

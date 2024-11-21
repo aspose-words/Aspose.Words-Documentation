@@ -7,6 +7,7 @@ type: docs
 description: "Используйте это введение Aspose.Words для .NET Основы для начала осознания ценности Aspose.Words Для вашего бизнеса."
 weight: 20
 url: /ru/net/getting-started/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Это начало дает введение в Aspose.Words Основы. Для новых пользователей Aspose.WordsЭто самый быстрый способ узнать основные требования и возможности.

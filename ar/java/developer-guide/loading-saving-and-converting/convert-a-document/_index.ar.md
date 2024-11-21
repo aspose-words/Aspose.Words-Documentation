@@ -7,6 +7,7 @@ type: docs
 weight: 30
 url: /ar/java/convert-a-document/
 description: "تحويل الوثائق بسهولة من شكل إلى آخر. يمكنك العمل مع أكثر الأشكال شعبية مثل Microsoft Word صيغ من قبيل DOCX أو DOC, OpenDocument formats such as ODT or OTT, web formats such as HTML or XHTML, text formats such as MarkDown or TXT, and others using Java."
+timestamp: 2024-09-25-11-08-55
 ---
 
 إن القدرة على تحويل الوثائق بسهولة وبطريقة موثوق بها من شكل إلى آخر هي أحد المجالات الرئيسية Aspose.Words. وهذا التحويل ليس سوى مزيج من عمليات التحميل والادخار.

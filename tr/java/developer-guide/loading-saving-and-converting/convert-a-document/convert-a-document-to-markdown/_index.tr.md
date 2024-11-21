@@ -8,6 +8,7 @@ description: "Herhangi bir desteklenen yük formatında bir belgeyi Markdown ve 
 keywords: how to convert a document to markdown Java, save as MD, DOCX to MD
 weight: 33
 url: /tr/java/convert-a-document-to-markdown/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Markdown metin işaretlemesi için kullanılan popüler bir formattır ve bunu HTML, PDF, DOCX veya diğer biçimlere dönüştürür. Birçok geliştirici, yazma belgelerini, bloglarda yayınlamak üzere makaleleri hazırlamayı, projeleri tanımlamayı vb. amaçlarla bu biçimi seçer.

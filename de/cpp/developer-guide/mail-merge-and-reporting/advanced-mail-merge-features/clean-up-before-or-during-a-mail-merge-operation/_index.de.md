@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bereinigen vor oder während einer Mail Merge-Operation
 second_title: Aspose.Words für C++
 articleTitle: Bereinigen vor oder während einer Mail Merge-Operation
@@ -8,6 +8,7 @@ description: "Wenden Sie verschiedene Bereinigungs- und Entfernungsoptionen an, 
 keywords: "cleanup options mail merge c#"
 weight: 10
 url: /de/cpp/clean-up-before-or-during-mail-merge/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Mit Aspose.Words können Sie verschiedene Bereinigungs- und Entfernungsoptionen anwenden, z. B. das Löschen von Seriendruckfeldern vor dem Ausführen eines mail merge-Vorgangs oder das Entfernen nicht verwendeter Bereiche während eines mail merge-Vorgangs. In diesem Abschnitt wird erläutert, wie zusammengeführte Felder gelöscht und eine Entfernungsoption eingerichtet werden.

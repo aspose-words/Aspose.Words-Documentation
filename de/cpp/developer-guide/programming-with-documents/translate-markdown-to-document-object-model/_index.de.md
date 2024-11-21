@@ -1,4 +1,4 @@
-﻿---
+---
 title: Markdown in Dokumentobjektmodell übersetzen (DOM)
 second_title: Aspose.Words für C++
 articleTitle: Markdown in Dokumentobjektmodell übersetzen (DOM)
@@ -7,6 +7,7 @@ type: docs
 description: "Tarnen Sie ein Markdown -Dokument mit C++ in das Dokumentobjektmodell und zurück. So können Sie mit komplexen vorhandenen Markdown arbeiten und programmgesteuert ein Markdown -Dokument von Grund auf neu erstellen."
 weight: 20
 url: /de/cpp/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Um den Inhalt und die Formatierung eines Dokuments programmgesteuert zu lesen, zu bearbeiten und zu ändern, müssen Sie es in das Aspose.Words-Dokumentobjektmodell (DOM) übersetzen.
