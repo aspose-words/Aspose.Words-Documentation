@@ -10,7 +10,7 @@ url: /it/cpp/working-with-document/
 timestamp: 2024-01-30-16-22-34
 ---
 
-La classe [Document](https://reference.aspose.com/words/cpp/aspose.words/document/) è centrale in Aspose.Words. Rappresenta un documento e fornisce varie proprietà e metodi del documento, come il salvataggio o la protezione del documento. Si utilizza la classe **Document** come punto di partenza per tutto ciò che si desidera eseguire con Aspose.Words: creare un nuovo documento da zero, aprire un modello per un mail merge o ottenere parti diverse da un documento.
+La classe [Document](https://reference.aspose.com/words/cpp/aspose.words/document/) è centrale in Aspose.Words. Rappresenta un documento e fornisce varie proprietà e metodi del documento, come il salvataggio o la protezione del documento. Si utilizza la classe **Document** come punto di partenza per tutto ciò che si desidera eseguire con Aspose.Words: creare un nuovo documento da zero, aprire un modello per un Mail Merge o ottenere parti diverse da un documento.
 
 L'oggetto **Document** contiene tutto il contenuto e la formattazione, gli stili, le proprietà predefinite e personalizzate e l'oggetto [MailMerge](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/) utilizzato per un mail merge. **Document** consente di recuperare testo, segnalibri e campi modulo per l'intero documento o sezioni separate.
 

@@ -61,7 +61,7 @@ Aspose.Words 완전히 업데이트 할 수 있습니다. `TOC` 몇 줄의 코�
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertATableOfContentsField-UpdateTableOfContents.java" >}}
 
-첫 번째 호출 [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) 설치하기 <span notrans="<span notrans=" `TOC`"=""></span>· 모든 텍스트 항목은 팝업 및 `TOC` 거의 완료됩니다. 누락 된 유일한 것은 이제 페이지 번호는 "?"로 표시됩니다.
+첫 번째 호출 [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) 설치하기 `TOC`· 모든 텍스트 항목은 팝업 및 `TOC` 거의 완료됩니다. 누락 된 유일한 것은 이제 페이지 번호는 "?"로 표시됩니다.
 
 두 번째 호출 [Document.updatePageLayout()](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout) 메모리에 문서의 레이아웃을 구축합니다. 이 항목의 페이지 번호를 수집 할 필요가있다. 이 호출에서 계산 된 올바른 페이지 번호는 TOC에 삽입됩니다.
 
@@ -125,7 +125,7 @@ Aspose.Words 완전히 업데이트 할 수 있습니다. `TOC` 몇 줄의 코�
 
 <p>![table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-6.png)</p>
 
-<p><br/><br/>더 보기 `TC` 필드는 또한 할 수 있습니다 {several, `multiple`, a few, `many`, numerous} 스위치 세트. 이것들은:</p>
+<p><br/><br/>더 보기 `TC` 필드는 또한 할 수 있습니다 `{several, multiple, a few, many, numerous}` 스위치 세트. 이것들은:</p>
 
 <p>- \F - 상기 설명. * 이름</p>
 

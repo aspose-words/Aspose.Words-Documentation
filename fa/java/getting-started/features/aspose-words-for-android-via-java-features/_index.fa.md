@@ -92,16 +92,16 @@ Aspose.Words ارائه می دهد دسترسی دقیق برنامه ریزی 
 
 |  ویژگی های | Aspose.Words برای Java | Aspose.Words برای Android از طریق Java |
 |  :-  |  :-  |  :-  |
-| استفاده از تمام استاندارد Microsoft Word mail merge زمینه های گزارش های شما از جمله `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, سلام. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| اعدام mail merge برای اسنادی که حتی شامل پیچیده ترین و لانه دار ترین `IF` زمینه ها و فرمول ها | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Populate و به طور پویا افزایش جداول یا قطعات در سند از منبع داده خود را با استفاده از منابع داده خود را mail merge مناطق | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| استفاده از تمام استاندارد Microsoft Word Mail Merge زمینه های گزارش های شما از جمله `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, سلام. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| اعدام Mail Merge برای اسنادی که حتی شامل پیچیده ترین و لانه دار ترین `IF` زمینه ها و فرمول ها | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Populate و به طور پویا افزایش جداول یا قطعات در سند از منبع داده خود را با استفاده از منابع داده خود را Mail Merge مناطق | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | به راحتی گزارش هایی را تولید می کند که حاوی داده های کارشناسی ارشد (پدر و مادر و کودک) مانند سفارش / سفارش است. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | اسناد Populate با داده ها Java منبع داده ای که پیاده سازی می کند `ResultSet` رابط | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | اسناد Populate از هر منبع داده مانند فایل XML یا اشیاء تجاری با پیاده سازی **IMailMergeDataSource** رابط | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | کنترل دقیق، مانند قالب بندی اعداد، بر چگونگی ادغام داده های شما با استفاده از رویدادها. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | تصاویر را در طول mail merge... | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| ایجاد یا اصلاح یک Microsoft Word mail merge منبع داده برای یک سند حفظ حفظ حفظ mail merge تنظیمات و منابع داده | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Retrieve mail merge نام های میدانی | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| ایجاد یا اصلاح یک Microsoft Word Mail Merge منبع داده برای یک سند حفظ حفظ حفظ Mail Merge تنظیمات و منابع داده | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Retrieve Mail Merge نام های میدانی | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
 ### ویژگی های گزارش
 

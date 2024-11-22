@@ -61,7 +61,7 @@ El siguiente ejemplo de código muestra cómo reconstruir completamente `TOC` ca
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertATableOfContentsField-UpdateTableOfContents.java" >}}
 
-La primera llamada a [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) construirá el <span notrans="<span notrans=" `TOC`"=""></span>," todas las entradas de texto están pobladas y `TOC` parece casi completo. Lo único que falta es los números de página que por ahora se muestran con "?".
+La primera llamada a [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) construirá el `TOC`," todas las entradas de texto están pobladas y `TOC` parece casi completo. Lo único que falta es los números de página que por ahora se muestran con "?".
 
 La segunda llamada a [Document.updatePageLayout()](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout) construirá el diseño del documento en memoria. Esto debe hacerse para reunir los números de página de las entradas. Los números de página correctos calculados a partir de esta llamada se insertan en el TOC.
 
@@ -125,13 +125,13 @@ Si un interruptor no está listado aquí, entonces actualmente no está soportad
 
 <p>![table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-6.png)</p>
 
-<p><br/><br/>El `TC` campos ellos también pueden tener {several, `multiple`, a few, `many`, numerous} interruptores fijados. Estos son:</p>
+<p><br/><br/>El `TC` campos ellos también pueden tener `{several, multiple, a few, many, numerous}` interruptores fijados. Estos son:</p>
 
 <p>- Explicado arriba. *</p>
 
 <p>- \L - Define qué nivel en el `TOC` este campo TC aparecerá en. A `TOC` que utiliza este mismo interruptor sólo incluirá este campo TC si está dentro del rango especificado.</p>
 
-<p>- _\N – La pagina numeración para esto `TOC` no se muestra la entrada. Código de muestra de cómo insertar campos TC se puede encontrar en la siguiente sección.</p>
+<p>- `_\N` – La pagina numeración para esto `TOC` no se muestra la entrada. Código de muestra de cómo insertar campos TC se puede encontrar en la siguiente sección.</p>
  |
 
 ### Apariencia Cambios relacionados

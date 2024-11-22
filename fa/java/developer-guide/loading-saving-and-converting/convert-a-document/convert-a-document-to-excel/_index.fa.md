@@ -14,7 +14,7 @@ timestamp: 2024-01-31-14-23-37
 
 ## تبدیل یک سند به XLSX
 
-تبدیل یک سند به XLSX یک فرآیند نسبتا پیچیده است. برای ذخیره سند خود را به فرمت XLSX با استفاده از <span notrans="<span notrans=" Aspose.Words"=""></span>"> استفاده از [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) کلاس و کلاس جدید `Xlsx` عنصر در [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) تکرار همانطور که در بالا ذکر شد، شما می توانید سند را در هر فرمت بار پشتیبانی شده توسط Aspose.Words به XLSX
+تبدیل یک سند به XLSX یک فرآیند نسبتا پیچیده است. برای ذخیره سند خود را به فرمت XLSX با استفاده از Aspose.Words> استفاده از [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) کلاس و کلاس جدید `Xlsx` عنصر در [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) تکرار همانطور که در بالا ذکر شد، شما می توانید سند را در هر فرمت بار پشتیبانی شده توسط Aspose.Words به XLSX
 
 مثال کد زیر نشان می دهد که چگونه PDF را به XLSX ذخیره کنیم:
 

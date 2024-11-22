@@ -16,7 +16,7 @@ timestamp: 2024-01-27-14-07-04
 
 ## 如何评估 `IF` 状况
 
-如果要在 mail merge 后计算 `IF` 条件，可以使用立即返回表达式计算结果的 [EvaluateCondition](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldif/evaluate_condition/) 方法。
+如果要在 Mail Merge 后计算 `IF` 条件，可以使用立即返回表达式计算结果的 [EvaluateCondition](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldif/evaluate_condition/) 方法。
 
 以下代码示例展示了如何使用此方法：
 

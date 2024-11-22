@@ -92,16 +92,16 @@ Puteți utiliza Aspose.Words ca soluție de raportare pe cont propriu. Proiecta�
 
 | Caracteristică | Aspose.Words pentru Java | Aspose.Words pentru Android prin Java |
 | :- | :- | :- |
-| Utilizați toate câmpurile standard Microsoft Word mail merge din rapoartele dvs., inclusiv `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Executați mail merge pentru documentele care conțin chiar și cele mai complexe și imbricate `IF` câmpuri și formule. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Utilizați toate câmpurile standard Microsoft Word Mail Merge din rapoartele dvs., inclusiv `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Executați Mail Merge pentru documentele care conțin chiar și cele mai complexe și imbricate `IF` câmpuri și formule. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Populați și creșteți dinamic tabele sau fragmente din document din sursa de date folosind regiunile mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Generați cu ușurință rapoarte care conțin date master-detail (părinte-copil), cum ar fi Order/OrderDetails. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Populați documentele cu date din orice sursă de date Java care implementează interfața `ResultSet`. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Populați documente din orice sursă de date, cum ar fi un fișier XML sau obiecte de afaceri prin implementarea interfeței **IMailMergeDataSource**. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Preluați un control precis, cum ar fi formatarea numerelor, asupra modului în care datele dvs. sunt îmbinate folosind evenimente. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Introduceți imagini în timpul mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Creați sau modificați programatic o sursă de date Microsoft Word mail merge pentru un document. Păstrați mail merge Setări și surse de date. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Regăsiți mail merge numele câmpurilor. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Creați sau modificați programatic o sursă de date Microsoft Word Mail Merge pentru un document. Păstrați Mail Merge Setări și surse de date. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Regăsiți Mail Merge numele câmpurilor. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
 ### Caracteristici De Raportare
 

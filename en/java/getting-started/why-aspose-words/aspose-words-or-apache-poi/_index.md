@@ -26,7 +26,7 @@ In this article, we will look at when it makes sense for you to prefer Aspose.Wo
 
 ## Why not Apache POI
 
-It is worth noting that some tasks can be achieved with Aspose.Words, but cannot be accomplished with Apache POI. For example, if you need to perform a mail merge operation and then modify the result document, then you cannot use only Apache POI, you also need Microsoft Word. The point is that the merge results are not directly stored in a .DOCX file, and POI can only receive data that was stored in the .DOCX file. That is, you will need to complete the mail merge in Word, save the result to a .DOCX file, and then modify this file.
+It is worth noting that some tasks can be achieved with Aspose.Words, but cannot be accomplished with Apache POI. For example, if you need to perform a Mail Merge operation and then modify the result document, then you cannot use only Apache POI, you also need Microsoft Word. The point is that the merge results are not directly stored in a .DOCX file, and POI can only receive data that was stored in the .DOCX file. That is, you will need to complete the Mail Merge in Word, save the result to a .DOCX file, and then modify this file.
 
 You can compare Apache POI with Aspose. To do this, we suggest that you familiarize yourself with the [Aspose.Words for POI project (HWPF and XWPF)](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Apache_POI_WP-v1.0.0) – it shows how different tasks can be done using the Aspose.Words for Java API versus Apache POI. The project also covers features for working with text documents that are only available in Aspose.Words, but not in Apache POI.
 
@@ -52,7 +52,7 @@ Aspose components are highly scalable and lightning fast. They are a true Java s
 
 Aspose components provide everything you need to manage Office files, plus much, much more. They are designed with the philosophy of allowing developers to accomplish the greatest results with the least amount of work.
 
-Aspose components provide many powerful time-saving functions. For example, [Aspose.Words](https://products.aspose.com/words/java/?gclid=EAIaIQobChMI3-HX4PDI8gIVDKxoCh2CKwMnEAEYASAAEgJTm_D_BwE) offers a feature that allows developers to populate a Word mail merge document from [any data source supported by Aspose.Words for Java](/words/java/mail-merge-and-reporting/#data-source-types-for-a-mail-merge-operation). It is worth noting that every component in the Aspose family offers its own set of unique and powerful features.
+Aspose components provide many powerful time-saving functions. For example, [Aspose.Words](https://products.aspose.com/words/java/?gclid=EAIaIQobChMI3-HX4PDI8gIVDKxoCh2CKwMnEAEYASAAEgJTm_D_BwE) offers a feature that allows developers to populate a Word Mail Merge document from [any data source supported by Aspose.Words for Java](/words/java/mail-merge-and-reporting/#data-source-types-for-a-mail-merge-operation). It is worth noting that every component in the Aspose family offers its own set of unique and powerful features.
 
 ## See Also
 

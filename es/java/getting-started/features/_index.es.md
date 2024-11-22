@@ -122,16 +122,16 @@ Puedes usar Aspose.Words como solución de presentación de informes por sí sol
 
 |  Característica |
 |  :-  |
-| Use todos los estándares Microsoft Word mail merge campos en sus informes incluyendo `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. |
-| Ejecutar mail merge para documentos que contienen incluso los más complejos y anidados `IF` campos y fórmulas. |
-| Populate and dynamically grow tables or fragments in the document from your data source using mail merge regiones. |
+| Use todos los estándares Microsoft Word Mail Merge campos en sus informes incluyendo `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. |
+| Ejecutar Mail Merge para documentos que contienen incluso los más complejos y anidados `IF` campos y fórmulas. |
+| Populate and dynamically grow tables or fragments in the document from your data source using Mail Merge regiones. |
 | Generar fácilmente informes que contengan datos de detalle maestro (padre-hijo) tales como Order/OrderDetails. |
 | Populate documents with data from any Java fuente de datos que implementa `ResultSet` Interfaz. |
 | Publicar documentos de cualquier fuente de datos como un archivo XML o objetos de negocio mediante la implementación de **IMailMergeDataSource** Interfaz. |
 | Tome control preciso, como el formato de números, sobre cómo sus datos se fusionan con los eventos. |
 | Insertar imágenes durante un mail merge. |
-| Crea o modifica programáticamente un Microsoft Word mail merge fuente de datos para un documento. Preserve mail merge configuración y fuentes de datos. |
-| Retrieve mail merge nombres de campo. |
+| Crea o modifica programáticamente un Microsoft Word Mail Merge fuente de datos para un documento. Preserve Mail Merge configuración y fuentes de datos. |
+| Retrieve Mail Merge nombres de campo. |
 
 ## Características de la presentación de informes
 

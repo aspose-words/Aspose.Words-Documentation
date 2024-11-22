@@ -64,7 +64,7 @@ builder.writeln("This text will be Strikethrough")
 
 builder.document.save(docs_base.artifacts_dir + "WorkingWithMarkdown.strikethrough_text_example.md"){{< /highlight >}} |  |
 
-We gebruiken een karakterstijl met een naam die begint vanaf het woord <span notrans="<span notrans=" `InlineCode`"=""></span>,"> gevolgd door een optionele stip `(.)` en een aantal backticks ```(`)``` voor de `InlineCode` feature. Als een aantal backticks wordt gemist, wordt standaard één backtick gebruikt.
+We gebruiken een karakterstijl met een naam die begint vanaf het woord `InlineCode` gevolgd door een optionele stip `(.)` en een aantal backticks ```(`)``` voor de `InlineCode` feature. Als een aantal backticks wordt gemist, wordt standaard één backtick gebruikt.
 
 |  Markdown functie |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |

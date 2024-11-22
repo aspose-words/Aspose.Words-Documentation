@@ -41,12 +41,12 @@ Kami menggunakan format [Font](https://reference.aspose.com/words/net/aspose.wor
 |  **Italic**<br /> `*italic text*` |  `Font.Italic = true`  |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}}  |  |
 |  **Strikethrough**<br /> `~Strikethrough text~` |  `Font.StrikeThrough = true`  |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
 builder.Font.Strikethrough = true;
-builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
+builder.Writeln("This text will be Strikethrough"); {{< /highlight >}} |  |
 
 Kami menggunakan gaya karakter dengan nama yang dimulai dari kata `InlineCode`, diikuti dengan titik `(.)` opsional dan sejumlah ```(`)``` backticks untuk fitur `InlineCode`. Jika sejumlah backtick terlewatkan, maka satu backtick akan digunakan secara default.
 
@@ -73,10 +73,10 @@ Tabel di bawah menunjukkan contoh penggunaan blok Markdown Leaf di Aspose.Words:
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **HorizontalRule**<br /> `-----` |  Ini adalah paragraf sederhana dengan bentuk HorizontalRule yang sesuai:<br /> `DocumentBuilder.InsertHorizontalRule()` |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-HorizontalRule.cs" >}}  |                                                                |
-|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`, dimana (1&lt;= N &lt;= 9).<br /> Ini diterjemahkan ke dalam gaya bawaan dan harus sesuai dengan pola yang ditentukan (tidak ada sufiks atau awalan yang diperbolehkan).<br /> Jika tidak, itu hanya akan menjadi paragraf biasa dengan gaya yang sesuai |
+|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = "Heading N"`, dimana (1&le; N &le; 9).<br /> Ini diterjemahkan ke dalam gaya bawaan dan harus sesuai dengan pola yang ditentukan (tidak ada sufiks atau awalan yang diperbolehkan).<br /> Jika tidak, itu hanya akan menjadi paragraf biasa dengan gaya yang sesuai |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}}  |                                                                |
-|  **Setext Heading**<br /> `===` (jika Pos level 1),<br /> `---` (jika Heading level 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, berdasarkan gaya `“Heading N”`.<br /> Jika (N &gt;= 2), maka `“Heading 2”` akan digunakan, jika tidak `“Heading 1”`.<br /> Sufiks apa pun diperbolehkan, tetapi pengimpor Aspose.Words menggunakan angka "1" dan "2" masing-masing |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  **Setext Heading**<br /> `===` (jika Pos level 1),<br /> `---` (jika Heading level 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, berdasarkan gaya 'Heading N'.<br /> Jika (N &ge; 2), maka 'Heading 2' akan digunakan, jika tidak 'Heading 1'.<br /> Sufiks apa pun diperbolehkan, tetapi pengimpor Aspose.Words menggunakan angka "1" dan "2" masing-masing |
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 builder.ParagraphFormat.StyleName = "Heading 1";
@@ -103,7 +103,7 @@ builder.ParagraphFormat.Style = setexHeading2;
 builder.Document.Styles["SetextHeading2"].BaseStyleName = "Heading 3";
 
 // Setex heading level will be reset to 2 if the base paragraph has a Heading level greater than 2.
-builder.Writeln("Setext Heading level 2");{{< /highlight >}} |
+builder.Writeln("Setext Heading level 2"); {{< /highlight >}} |
 |   **Indented Code**                                             |  `ParagraphFormat.StyleName = “IndentedCode[some suffix]”`     |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-IndentedCode.cs" >}}  |                                                                |
 |  **Fenced Code**<br /> {{< highlight csharp >}}``` c#
@@ -120,7 +120,7 @@ Tabel di bawah menunjukkan contoh penggunaan Markdown Complex Containers di Aspo
 |  fitur Markdown |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **Quote**<br /> `> quote,`<br /> `>> nested quote` |  `ParagraphFormat.StyleName = “Quote[some suffix]”`<br /> Akhiran pada nama gaya bersifat opsional, namun importir Aspose.Words menggunakan nomor urut 1, 2, 3,…. dalam kasus kutipan bersarang.<br /> Penyarangannya ditentukan melalui gaya yang diwariskan |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // By default a document stores blockquote style for the first level.
@@ -131,7 +131,7 @@ builder.Writeln("Blockquote");
 Style quoteLevel2 = builder.Document.Styles.Add(StyleType.Paragraph, "Quote1");
 builder.ParagraphFormat.Style = quoteLevel2;
 builder.Document.Styles["Quote1"].BaseStyleName = "Quote";
-builder.Writeln("1. Nested blockquote");{{< /highlight >}} |
+builder.Writeln("1. Nested blockquote"); {{< /highlight >}} |
 |  **BulletedList**<br /> `- Item 1`<br /> `- Item 2`<br /> `   - Item 2a`<br /> `   - Item 2b` |  Daftar berpoin direpresentasikan menggunakan penomoran paragraf:<br /> `ListFormat.ApplyBulletDefault()`<br /> Ada 3 jenis daftar berpoin. Perbedaannya hanya pada format penomoran tingkat pertama. Ini adalah: `‘-’`, `‘+’` atau `‘*’` masing-masing |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BulletedList.cs" >}}  |                                                                |
 |  **OrderedList**<br /> `1. Item 1`<br /> `2. Item 2`<br /> `1) Item 2a`<br /> `2) Item 2b` |  Daftar yang diurutkan direpresentasikan menggunakan penomoran paragraf:<br /> `ListFormat.ApplyNumberDefault()`<br /> Bisa ada 2 penanda format angka: '.' Dan ')'. Penanda defaultnya adalah '.' |
@@ -148,7 +148,7 @@ builder.Writeln("Item 2");
 builder.ListFormat.ListIndent();
 
 builder.Writeln("Item 2a");
-builder.Writeln("Item 2b");{{< /highlight >}} |                                                                |
+builder.Writeln("Item 2b"); {{< /highlight >}} |                                                                |
 
 ### Tabel
 
@@ -157,7 +157,7 @@ Aspose.Words juga memungkinkan untuk menerjemahkan tabel ke DOM, seperti yang di
 |  fitur Markdown |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  `Table`<br /> `a|b`<br />`-|-`<br />`c|d` |  Kelas [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) dan [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Add the first row.
@@ -170,7 +170,7 @@ builder.Writeln("b");
 builder.InsertCell();
 builder.Writeln("c");
 builder.InsertCell();
-builder.Writeln("d");{{< /highlight >}} |                                                                |
+builder.Writeln("d"); {{< /highlight >}} |                                                                |
 
 ## Lihat juga
 

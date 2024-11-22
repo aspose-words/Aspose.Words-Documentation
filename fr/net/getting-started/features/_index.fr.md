@@ -114,15 +114,15 @@ Vous pouvez utiliser Aspose.Words comme solution de reporting à part entière. 
 
 |  Fonctionnalité | .NET | .NET Standard 2.0 | Xamarin.Android | Xamarin.iOS | Xamarin.Mac |
 |  :-  |  :-  |  :-  |  :-  |  :-  |  :-  |
-| Utilisez tous les champs Microsoft Word mail merge standard dans vos rapports, notamment `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Exécutez mail merge pour les documents contenant même les champs et formules `IF` les plus complexes et imbriqués. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Utilisez tous les champs Microsoft Word Mail Merge standard dans vos rapports, notamment `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Exécutez Mail Merge pour les documents contenant même les champs et formules `IF` les plus complexes et imbriqués. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Remplissez et développez dynamiquement des tables ou des fragments dans le document à partir de votre source de données à l'aide des régions mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Générez facilement des rapports contenant des données maître-détails (parent-enfant), telles que Order/OrderDetails. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Remplissez les documents avec des données provenant de n'importe quelle source de données .NET telle que DataSet, DataTable, DataView, DataReader ou ADO Recordset. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Remplissez des documents à partir de n'importe quelle source de données telle qu'une requête LINQ, un fichier XML ou des objets métier en implémentant l'interface **IMailMergeDataSource**. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Prenez un contrôle précis, comme le formatage des nombres, sur la façon dont vos données sont fusionnées à l'aide d'événements. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Insérez des images pendant mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Créez ou modifiez par programme une source de données Microsoft Word mail merge pour un document. Conservez les paramètres mail merge et les sources de données. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Créez ou modifiez par programme une source de données Microsoft Word Mail Merge pour un document. Conservez les paramètres Mail Merge et les sources de données. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Récupérez les noms de champs mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
 ## Fonctionnalités de création de rapports

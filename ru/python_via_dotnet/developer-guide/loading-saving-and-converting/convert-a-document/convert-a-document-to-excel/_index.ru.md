@@ -14,7 +14,7 @@ timestamp: 2024-01-31-14-23-37
 
 ## Преобразование документа в XLSX
 
-Преобразование документа в XLSX является довольно сложным процессом. Сохранить документ в формате XLSX <p notrans="<p notrans=" Aspose.Words"=""></p>"> использовать [XlsxSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsaveoptions/) Класс и новый `Xlsx` элемент в [SaveFormat](https://reference.aspose.com/words/python-net/aspose.words/saveformat/) перечисление. Как упоминалось выше, вы можете сохранить документ в любом формате загрузки, поддерживаемом Aspose.Words для XLSX.
+Преобразование документа в XLSX является довольно сложным процессом. Сохранить документ в формате XLSX Aspose.Words использовать [XlsxSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsaveoptions/) Класс и новый `Xlsx` элемент в [SaveFormat](https://reference.aspose.com/words/python-net/aspose.words/saveformat/) перечисление. Как упоминалось выше, вы можете сохранить документ в любом формате загрузки, поддерживаемом Aspose.Words для XLSX.
 
 Следующий пример кода показывает, как сохранить PDF в XLSX:
 

@@ -19,7 +19,7 @@ Bir belge yüklendiğinde, Aspose.Words otomatik alan güncelleme seçeneği kap
 - bir belgeyi açtığınızda/kaydettiğinizde alanlar bütün kalır
 - belgenin tüm alanlarını açıkça güncelleyebilirsiniz mesela, yeniden oluştur `TOC` ihtiyacınız olduğunda
 - baston bir PDF veya XPS yazdığınızda başlık / altbilgiler içindeki sayfa numaralandırma alanlarıyla ilgili alanlar güncellenir
-- siz çalıştırdığınızda mail merge tüm alanlar otomatik olarak güncellenir
+- siz çalıştırdığınızda Mail Merge tüm alanlar otomatik olarak güncellenir
 
 ### Alanları Programatik Olarak Güncelle
 
@@ -37,7 +37,7 @@ Aşağıdaki örnek, bir belge işlenmeden önce tüm alanları nasıl güncelle
 
 ### Otomatik Alan Güncelleme Mail Merge
 
-Bir mail merge çalıştırdığınızda, belgedeki tüm alanlar otomatik olarak güncellenecek. Çünkü mail merge bir alan güncellemesi durumudur. Programı bir mail merge alanı ile karşılaştığında ve sonucunu güncellemesi gerekiyorsa, bu da veri kaynağından değer almasını ve onu alana eklemesini gerektirir. Tabii ki mantık daha karmaşıktır, mesela belgenin/ mail merge bölgenin sonunda ulaşılır ancak birleştirilecek daha fazla veri varsa bölge çoğaltılmalı ve yeni alan kümesi güncellenmelidir.
+Bir Mail Merge çalıştırdığınızda, belgedeki tüm alanlar otomatik olarak güncellenecek. Çünkü Mail Merge bir alan güncellemesi durumudur. Programı bir Mail Merge alanı ile karşılaştığında ve sonucunu güncellemesi gerekiyorsa, bu da veri kaynağından değer almasını ve onu alana eklemesini gerektirir. Tabii ki mantık daha karmaşıktır, mesela belgenin/ Mail Merge bölgenin sonunda ulaşılır ancak birleştirilecek daha fazla veri varsa bölge çoğaltılmalı ve yeni alan kümesi güncellenmelidir.
 
 ## Güncelleştir Kirli Öznitelik İçeren Alanlar
 

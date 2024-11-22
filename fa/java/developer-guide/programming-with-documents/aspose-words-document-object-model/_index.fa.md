@@ -16,7 +16,7 @@ The The The The The The Aspose.Words Document Object Model ()DOM• نمایند
 
 ## ایجاد سند Object Tree {#create-a-document-objects-tree}
 
-هنگامی که یک سند در داخل خوانده می شود Aspose.Words <span notrans="<span notrans=" DOM"=""></span>"> سپس یک درخت شی ساخته شده و انواع مختلف عناصر سند منبع خود را دارند. DOM اشیاء درخت با خواص مختلف
+هنگامی که یک سند در داخل خوانده می شود Aspose.Words DOM> سپس یک درخت شی ساخته شده و انواع مختلف عناصر سند منبع خود را دارند. DOM اشیاء درخت با خواص مختلف
 
 ### ساخت گره های سند درخت {#build-document-nodes-tree}
 

@@ -121,7 +121,7 @@ Tak. Dlatego przy kopiowaniu czcionek należy pamiętać, że większość czcio
 
 {{% alert color="primary" %}}
 
-Więcej szczegółowych informacji na temat mail merge w [Mail Merge i świętości](/words/java/mail-merge-and-reporting/) sekcja dokumentacji.
+Więcej szczegółowych informacji na temat Mail Merge w [Mail Merge i świętości](/words/java/mail-merge-and-reporting/) sekcja dokumentacji.
 
 {{% /alert %}}
 
@@ -136,7 +136,7 @@ Oryginalna nazwa pola połączenia pozostaje taka sama bez zastępowania go wyma
 
 **Q: Dlaczego wynik połączenia zagnieżdżonego nie wyświetla danych z tabeli dzieci dla pierwszego wpisu w tabeli macierzystej, ale wyświetla wszystkie elementy dla ostatniego wpisu w tabeli macierzystej, nawet te, które nie są z nim faktycznie powiązane?**
 
-Wynika to z faktu, że regiony połączenia w szablonie nie są prawidłowo utworzone, co może spowodować, że wszystkie zagnieżdżone mail merge regionów, aby zatrzymać wyświetlanie czegokolwiek. W [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) znacznik otwarcia i [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) tag zamknięcia musi pasować i być w tym samym wierszu lub komórce. Na przykład, jeśli zaczniesz gnieżdżać regiony łączące się w komórce tabeli, musisz zakończyć region łączący w tym samym wierszu co pierwsza komórka.
+Wynika to z faktu, że regiony połączenia w szablonie nie są prawidłowo utworzone, co może spowodować, że wszystkie zagnieżdżone Mail Merge regionów, aby zatrzymać wyświetlanie czegokolwiek. W [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) znacznik otwarcia i [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) tag zamknięcia musi pasować i być w tym samym wierszu lub komórce. Na przykład, jeśli zaczniesz gnieżdżać regiony łączące się w komórce tabeli, musisz zakończyć region łączący w tym samym wierszu co pierwsza komórka.
 
 ------
 

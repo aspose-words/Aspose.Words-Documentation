@@ -19,7 +19,7 @@ Quando um documento é carregado, Aspose.Words imita o comportamento de Microsof
 - quando abre / guarda um documento, os campos permanecem intactos
 - é possível atualizar explicitamente todos os campos de um documento, por exemplo, reconstruir `TOC`, quando for necessário
 - quando você renderiza para PDF ou XPS, os campos relacionados à numeração de páginas nos cabeçalhos/rodapés são atualizados
-- quando você executa mail merge todos os campos são atualizados automaticamente
+- quando você executa Mail Merge todos os campos são atualizados automaticamente
 
 ### Atualizar Campos Programaticamente
 
@@ -37,7 +37,7 @@ O exemplo de código a seguir mostra como atualizar todos os campos Antes de ren
 
 ### Actualização Automática Do Campo Durante Mail Merge
 
-Ao executar um mail merge, todos os campos do documento serão atualizados automaticamente. Isso ocorre porque o mail merge é um caso de uma atualização de campo. O programa encontra um campo mail merge e precisa atualizar seu resultado, o que envolve pegar o valor da fonte de dados e inseri-lo no campo. A lógica é, naturalmente, mais complicada, por exemplo, quando se chega ao final da região do documento/mail merge, mas ainda há mais dados a fundir, então a região tem de ser duplicada e o novo conjunto de campos actualizado.
+Ao executar um mail merge, todos os campos do documento serão atualizados automaticamente. Isso ocorre porque o Mail Merge é um caso de uma atualização de campo. O programa encontra um campo Mail Merge e precisa atualizar seu resultado, o que envolve pegar o valor da fonte de dados e inseri-lo no campo. A lógica é, naturalmente, mais complicada, por exemplo, quando se chega ao final da região do documento/mail merge, mas ainda há mais dados a fundir, então a região tem de ser duplicada e o novo conjunto de campos actualizado.
 
 ## Atualizar LastSavedTime Propriedade Antes De Salvar
 

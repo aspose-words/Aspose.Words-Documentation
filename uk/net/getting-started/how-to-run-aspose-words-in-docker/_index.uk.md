@@ -33,12 +33,12 @@ timestamp: 2024-08-19-11-05-36
 ![net-console-application](https://lh5.googleusercontent.com/PArWoC8_leOnhtaF-5BMb3b4jHwI3G03WoyMK3bXZpsQKN50YzvEQBwoRniyCWKIcdR0EZGuwn3S8Z0ZK6FQ4cjMSWgH3CwSqReW4bMt-3OjZjrdt9yuWbkMdhyNjwwaaYPC5Ylr)<br>
 1,1 км Встановити останні Aspose.Words версія з NuGetй Про нас Заточка буде встановлена в залежності від Aspose.Wordsй<br/>
 ![skiasharp-dependency](https://lh3.googleusercontent.com/zWpvB5TLahC_OpJrHDML2131Vj_VK1vryTZBd_C3ZeOBdoUOc2vF_axEvwu9tytaL1maJv3qA2KoyP5fn7ae4_3cL23sXyoLoVysjgu8XEp6l0B2w5hgR9teh95_9mFd9X-4DGNN)<br>
-1,1 км Оскільки додаток буде працювати на <span notrans="<span notrans=" Linux"=""></span>, > відповідні рідні Linux повинні бути встановлені активи. Почати з Debian базовий образ і установка `SkiaSharp.NativeAssets`йLinuxй
+1,1 км Оскільки додаток буде працювати на Linux, > відповідні рідні Linux повинні бути встановлені активи. Почати з Debian базовий образ і установка `SkiaSharp.NativeAssets`йLinuxй
 1,1 км Коли всі необхідні залежності додаються, напишіть просту програму, яка створює документ "Hello World!" і зберігає її у всіх підтриманих форматах збереження:<br/>
 
 {{< gist "aspose-words-gists" "47e15ad749897be465deebc2ff3e76dd" "aspose-words-docker.cs" >}}
 
-Зауважте, що папка "TestOut" вказана як вихідна папка для збереження вихідних документів. При запуску програми в <span notrans="<span notrans=" Docker"=""></span>, > папка на хост машина буде встановлена до цієї папки в контейнері. Це дозволить вам легко переглядати вихід, створений за допомогою Aspose.Words в Docker контейнер.
+Зауважте, що папка "TestOut" вказана як вихідна папка для збереження вихідних документів. При запуску програми в Docker, > папка на хост машина буде встановлена до цієї папки в контейнері. Це дозволить вам легко переглядати вихід, створений за допомогою Aspose.Words в Docker контейнер.
 
 ### Налаштування Dockerfile
 

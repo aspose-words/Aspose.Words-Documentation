@@ -108,13 +108,13 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 
 <p>![todo:image_alt_text](/words/net/working-with-table-of-contents/working-with-table-of-contents-5.png)</p>
 
-<p>`TC` alanlarının kendisinde de {several, `multiple`, a few, `many`, numerous} anahtarları ayarlanabilir. Bunlar:</p>
+<p>`TC` alanlarının kendisinde de `{several, multiple, a few, many, numerous}` anahtarları ayarlanabilir. Bunlar:</p>
 
 <p>- *\F – Yukarıda açıklanmıştır.*</p>
 
 <p>- *\L – Bu TC alanının `TOC`'de hangi seviyede görüneceğini tanımlar. Aynı anahtarı kullanan bir `TOC`, bu TC alanını yalnızca belirtilen aralık dahilindeyse içerecektir.*</p>
 
-<p>- _\N – Bu `TOC` girişinin sayfa numaralandırması görüntülenmez. TC alanlarının nasıl ekleneceğine ilişkin örnek kod sonraki bölümde bulunabilir.</p> |
+<p>- `_\N` – Bu `TOC` girişinin sayfa numaralandırması görüntülenmez. TC alanlarının nasıl ekleneceğine ilişkin örnek kod sonraki bölümde bulunabilir.</p> |
 
 ### Görünümle İlgili Anahtarlar
 

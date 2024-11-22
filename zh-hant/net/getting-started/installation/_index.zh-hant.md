@@ -56,7 +56,7 @@ timestamp: 2024-01-27-14-07-04
 
 要安裝 Aspose.Words for .NET，請按照以下步驟進行：
 
-1. 從 [downloads section](https://releases.aspose.com/words/) 下載 `Aspose.Words_`{LatestVersion}.msi
+1. 從 [downloads section](https://releases.aspose.com/words/) 下載 `Aspose.Words_{LatestVersion}.msi`
 2. 點擊已下載的檔案, 以啟動設定精靈, 遵循設定精靈指令<br/>
       <img src="aspose-words-setup-1.png" alt="aspose-words-setup-1" style="width:500px"/>
 3. 當設定精靈完成安裝，要求的檔案將會在提供之目錄路径中的資料夾中可用<br>

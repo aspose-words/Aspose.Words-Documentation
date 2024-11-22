@@ -92,16 +92,16 @@ Aspose.Words (ب) إتاحة فرص برنامجية مفصلة لتشكيل خ�
 
 |  Feature | Aspose.Words for Java | Aspose.Words for Android عبر Java |
 |  :-  |  :-  |  :-  |
-| استخدام جميع المعايير Microsoft Word mail merge الميادين في تقاريركم بما في ذلك `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, رائع | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Execute mail merge الوثائق التي تحتوي حتى على أكثر الوثائق تعقيداً `IF` الحقول والصيغ | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| تداول ونمو ديناميكي للجداول أو الشظايا في الوثيقة من مصدر بياناتك باستخدام mail merge المناطق. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| استخدام جميع المعايير Microsoft Word Mail Merge الميادين في تقاريركم بما في ذلك `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, رائع | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Execute Mail Merge الوثائق التي تحتوي حتى على أكثر الوثائق تعقيداً `IF` الحقول والصيغ | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| تداول ونمو ديناميكي للجداول أو الشظايا في الوثيقة من مصدر بياناتك باستخدام Mail Merge المناطق. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Easily generate reports that contain master-detail (parent-child) data such as Order/OrderDetails. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | نشر الوثائق مع البيانات من أي Java مصدر البيانات الذي ينفذ `ResultSet` واجهة | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | نشر الوثائق من أي مصدر بيانات مثل ملف XML أو أغراض تجارية عن طريق تنفيذ **IMailMergeDataSource** واجهة | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | تراقب بشكل دقيق، مثل تركيب الأرقام، على كيفية دمج بياناتك باستخدام الأحداث. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Insert images during mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| إنشاء أو تعديل برنامجي Microsoft Word mail merge مصدر البيانات لوثيقة Preserve mail merge البيئات ومصادر البيانات. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| الاسترجاع mail merge أسماء ميدانية | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| إنشاء أو تعديل برنامجي Microsoft Word Mail Merge مصدر البيانات لوثيقة Preserve Mail Merge البيئات ومصادر البيانات. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| الاسترجاع Mail Merge أسماء ميدانية | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
 ### الإبلاغ
 

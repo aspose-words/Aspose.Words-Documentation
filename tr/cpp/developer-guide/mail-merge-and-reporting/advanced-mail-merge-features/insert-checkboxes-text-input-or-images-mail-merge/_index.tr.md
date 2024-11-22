@@ -10,16 +10,16 @@ url: /tr/cpp/insert-checkboxes-text-input-or-images-mail-merge/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Birleştirme motoru bir belgeyi girdi olarak alır, arar `MERGEFIELD` içindeki alanları ve bunları veri kaynağından elde edilen verilerle değiştirir. Genellikle düz metin ve HTML eklenir, ancak Aspose.Words kullanıcılar ayrıca aşağıdakiler için daha sıra dışı senaryoları işleyen bir belge oluşturabilir mail merge alanlar.
+Birleştirme motoru bir belgeyi girdi olarak alır, arar `MERGEFIELD` içindeki alanları ve bunları veri kaynağından elde edilen verilerle değiştirir. Genellikle düz metin ve HTML eklenir, ancak Aspose.Words kullanıcılar ayrıca aşağıdakiler için daha sıra dışı senaryoları işleyen bir belge oluşturabilir Mail Merge alanlar.
 
-Güçlü Aspose.Words işlevsellik genişletmenizi sağlar mail merge süreç:
+Güçlü Aspose.Words işlevsellik genişletmenizi sağlar Mail Merge süreç:
 
 - belgeye onay kutuları ve metin giriş formu alanları ekleme mail merge
 - herhangi bir özel depolama alanından (dosyalar) resim ekleme, BLOB alanlar vb.)
 
 ## Sokmak Checkboxsırasında es ve Metin Girişi Mail Merge
 
-Bazen bir işlem yapmak gerekir mail merge birleştirme alanında metnin yerine geçmeyecek şekilde değil, bir onay kutusu veya metin giriş alanı olacak şekilde işlem yapın. Bu en yaygın senaryo olmasa da, bazı görevler için çok kullanışlıdır.
+Bazen bir işlem yapmak gerekir Mail Merge birleştirme alanında metnin yerine geçmeyecek şekilde değil, bir onay kutusu veya metin giriş alanı olacak şekilde işlem yapın. Bu en yaygın senaryo olmasa da, bazı görevler için çok kullanışlıdır.
 
 Word belgesinin aşağıdaki ekran görüntüsünde birleştirme alanlarına sahip bir şablon gösterilmektedir:
 
@@ -43,11 +43,11 @@ Aşağıdaki kod örneği, bir belgeye onay kutularının nasıl ekleneceğini v
 
 ## Sırasında Resim ekleme Mail Merge
 
-Bir performans gösterirken mail merge işlem, özel görüntü kullanarak veritabanından görüntüleri belgeye ekleyebilirsiniz mail merge alanlar. Görüntü mail merge alan, Resim adlı bir birleştirme alanıdır:MyFieldName.
+Bir performans gösterirken Mail Merge işlem, özel görüntü kullanarak veritabanından görüntüleri belgeye ekleyebilirsiniz Mail Merge alanlar. Görüntü Mail Merge alan, Resim adlı bir birleştirme alanıdır:MyFieldName.
 
 ### Veritabanından Resim Ekleme
 
-Bir sırasında mail merge, bir görüntü olduğunda mail merge bir belgede alanla karşılaşıldığında, [FieldMergingCallback](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/get_fieldmergingcallback/) olay kovuldu. Bir dosya adı, akış veya görüntü nesnesi döndürmek için bu olaya yanıt verebilirsiniz. mail merge motor, böylece belgeye eklenebilir.
+Bir sırasında mail merge, bir görüntü olduğunda Mail Merge bir belgede alanla karşılaşıldığında, [FieldMergingCallback](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/get_fieldmergingcallback/) olay kovuldu. Bir dosya adı, akış veya görüntü nesnesi döndürmek için bu olaya yanıt verebilirsiniz. Mail Merge motor, böylece belgeye eklenebilir.
 
 Aşağıdaki kod örneği, bir veritabanında depolanan görüntülerin nasıl ekleneceğini gösterir BLOB rapora alan ekleme:
 

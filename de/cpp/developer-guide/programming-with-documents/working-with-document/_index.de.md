@@ -10,8 +10,8 @@ url: /de/cpp/working-with-document/
 timestamp: 2024-01-30-16-22-34
 ---
 
-Die [Document](https://reference.aspose.com/words/cpp/aspose.words/document/) -Klasse ist zentral in Aspose.Words. Es stellt ein Dokument dar und bietet verschiedene Dokumenteigenschaften und -methoden, z. B. das Speichern oder Schützen des Dokuments. Sie verwenden die **Document** -Klasse als Ausgangspunkt für alles, was Sie mit Aspose.Words ausführen möchten: Erstellen Sie ein neues Dokument von Grund auf neu, öffnen Sie eine Vorlage für ein mail merge oder holen Sie sich verschiedene Teile aus einem Dokument.
+Die [Document](https://reference.aspose.com/words/cpp/aspose.words/document/) -Klasse ist zentral in Aspose.Words. Es stellt ein Dokument dar und bietet verschiedene Dokumenteigenschaften und -methoden, z. B. das Speichern oder Schützen des Dokuments. Sie verwenden die **Document** -Klasse als Ausgangspunkt für alles, was Sie mit Aspose.Words ausführen möchten: Erstellen Sie ein neues Dokument von Grund auf neu, öffnen Sie eine Vorlage für ein Mail Merge oder holen Sie sich verschiedene Teile aus einem Dokument.
 
-Das **Document**-Objekt enthält alle Inhalte und Formatierungen, Stile, integrierten und benutzerdefinierten Eigenschaften sowie das [MailMerge](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/)-Objekt, das für mail merge verwendet wird. Mit **Document** können Sie Text, Lesezeichen und Formularfelder für das gesamte Dokument oder einzelne Abschnitte abrufen.
+Das **Document**-Objekt enthält alle Inhalte und Formatierungen, Stile, integrierten und benutzerdefinierten Eigenschaften sowie das [MailMerge](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/)-Objekt, das für Mail Merge verwendet wird. Mit **Document** können Sie Text, Lesezeichen und Formularfelder für das gesamte Dokument oder einzelne Abschnitte abrufen.
 
 **Dokument**

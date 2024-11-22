@@ -108,13 +108,13 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 
 <p>![todo:image_alt_text](/words/net/working-with-table-of-contents/working-with-table-of-contents-5.png)</p>
 
-<p>Les champs `TC` eux-mêmes peuvent également avoir des commutateurs {several, `multiple`, a few, `many`, numerous} définis. Ceux-ci sont:</p>
+<p>Les champs `TC` eux-mêmes peuvent également avoir des commutateurs `{several, multiple, a few, many, numerous}` définis. Ceux-ci sont:</p>
 
 <p>- *\F – Expliqué ci-dessus.*</p>
 
 <p>- *\L – Définit à quel niveau du `TOC` ce champ TC apparaîtra. Un `TOC` qui utilise ce même commutateur n'inclura ce champ TC que s'il se trouve dans la plage spécifiée.*</p>
 
-<p>- _\N – La numérotation des pages de cette entrée `TOC` n'est pas affichée. Un exemple de code sur la façon d'insérer des champs TC peut être trouvé dans la section suivante.</p> |
+<p>- `_\N` – La numérotation des pages de cette entrée `TOC` n'est pas affichée. Un exemple de code sur la façon d'insérer des champs TC peut être trouvé dans la section suivante.</p> |
 
 ### Commutateurs liés à l’apparence
 

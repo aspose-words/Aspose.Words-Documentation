@@ -28,7 +28,7 @@ The The The Aspose.Words [Document](https://reference.aspose.com/words/net/aspos
 
 הדרך הנכונה להדפיס מסמכים לפי Microsoft באמצעות XpsPrint API. זה API זמין Windows 7, Windows Server 2008 2008 R2, על Windows Vista מספק את Update for Windows Vista הוא מותקן.
 
-מאז Aspose.Words יכול בקלות להמיר כל מסמך <span notrans="<span notrans=" XPS"=""></span>" צריך רק לכתוב את הקוד שעובר XPS מסמך `XpsPrint` API. הבעיה היחידה היא ש `XpsPrint` API הוא לא מנוסה ודורש ידע כלשהו של טכנולוגיית Invoke.
+מאז Aspose.Words יכול בקלות להמיר כל מסמך XPS צריך רק לכתוב את הקוד שעובר XPS מסמך `XpsPrint` API. הבעיה היחידה היא ש `XpsPrint` API הוא לא מנוסה ודורש ידע כלשהו של טכנולוגיית Invoke.
 
 כדי להדפיס מסמך, Aspose.Words מספק **XpsPrintHelper** הכיתה מכילה שיטת הדפסה פשוטה, שבה אתה רק צריך לציין את הפרמטרים הבאים (ראה פרטים נוספים במאמר) [מסמך הדפסה באמצעות XPS API](/words/net/missing-features-in-openxml/)):
 

@@ -43,7 +43,7 @@ Usamos [Font](https://reference.aspose.com/words/java/com.aspose.words/font/) fo
 |  **Strikethrough**<br/>`~Strikethrough text~` |  `Font.StrikeThrough = true`  |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Strikethrough.java" >}}  |  |
 
-Usamos un estilo de carácter con un nombre que comienza desde la palabra <span notrans="<span notrans=" `InlineCode`"=""></span>," seguido de un punto opcional `(.)` y una serie de backticks ```(`)``` para el `InlineCode` función. Si un número de backticks se pierde, entonces un backtick se utilizará por defecto.
+Usamos un estilo de carácter con un nombre que comienza desde la palabra `InlineCode`," seguido de un punto opcional `(.)` y una serie de backticks ```(`)``` para el `InlineCode` función. Si un número de backticks se pierde, entonces un backtick se utilizará por defecto.
 
 |  Markdown función |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |
@@ -68,9 +68,9 @@ El cuadro que figura a continuación muestra ejemplos de utilización Markdown B
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **HorizontalRule**<br/>`-----` |  Este es un párrafo simple con una forma HorizontalRule correspondiente:<br/>`DocumentBuilder.InsertHorizontalRule()` |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-HorizontalRule.java" >}}  |                                                                |
-|  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`, donde (1 0 = 0 0 = 9).<br/>Esto se traduce en un estilo incorporado y debe ser exactamente del patrón especificado (no se permiten sufijos o prefijos).<br/>De lo contrario, será sólo un párrafo regular con un estilo correspondiente |
+|  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = "Heading N"`, donde (1 0 = 0 0 = 9).<br/>Esto se traduce en un estilo incorporado y debe ser exactamente del patrón especificado (no se permiten sufijos o prefijos).<br/>De lo contrario, será sólo un párrafo regular con un estilo correspondiente |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Heading.java" >}}  |                                                                |
-|  **Setext Heading**<br/>`===` (si nivel de dirección 1),<br/>`---` (si nivel de dirección 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, basado en `“Heading N”` estilo.<br/>Si (N >= 2), entonces `“Heading 2”` se utilizará, de lo contrario `“Heading 1”`.<br/>Cualquier sufijo está permitido, pero Aspose.Words importador utiliza números "1" y "2" respectivamente |
+|  **Setext Heading**<br/>`===` (si nivel de dirección 1),<br/>`---` (si nivel de dirección 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, basado en 'Heading N' estilo.<br/>Si (N >= 2), entonces 'Heading 2' se utilizará, de lo contrario 'Heading 1'.<br/>Cualquier sufijo está permitido, pero Aspose.Words importador utiliza números "1" y "2" respectivamente |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-SetextHeading.java" >}}  |                                                                |
 |   **Indented Code**                                             |  `ParagraphFormat.StyleName = “IndentedCode[some suffix]”`     |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-IndentedCode.java" >}}  |                                                                |

@@ -64,7 +64,7 @@ builder.writeln("This text will be Strikethrough")
 
 builder.document.save(docs_base.artifacts_dir + "WorkingWithMarkdown.strikethrough_text_example.md"){{< /highlight >}} |  |
 
-אנו משתמשים בסגנון אופי עם שם שמתחיל מהמילה <span notrans="<span notrans=" `InlineCode`"=""></span>" עקבו אחרי אופציונלי `(.)` מספר חזרות ```(`)``` עבור `InlineCode` תכונה. אם מספר חזרות מפספס, אז טיפול אחד ישמש כברירת מחדל.
+אנו משתמשים בסגנון אופי עם שם שמתחיל מהמילה `InlineCode` עקבו אחרי אופציונלי `(.)` מספר חזרות ```(`)``` עבור `InlineCode` תכונה. אם מספר חזרות מפספס, אז טיפול אחד ישמש כברירת מחדל.
 
 |  Markdown תכונה |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |

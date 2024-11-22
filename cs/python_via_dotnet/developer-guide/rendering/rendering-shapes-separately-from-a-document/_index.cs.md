@@ -39,7 +39,7 @@ Výše popsané typy tvarů poskytují zvláštní metodu pro zobrazení tvarů 
 
 {{% alert color="primary" %}}
 
-Při zobrazování <span notrans="<span notrans=" [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/)"=""></span>,? musí být součástí hierarchie dokumentů. Pokud [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) není součástí stromu dokumentu, pak bude vykreslený výstup prázdný po vyvolání [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/) metody.
+Při zobrazování [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/),? musí být součástí hierarchie dokumentů. Pokud [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) není součástí stromu dokumentu, pak bude vykreslený výstup prázdný po vyvolání [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/) metody.
 
 {{% /alert %}}
 

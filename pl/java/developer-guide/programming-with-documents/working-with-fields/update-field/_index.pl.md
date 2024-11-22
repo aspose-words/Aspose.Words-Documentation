@@ -19,7 +19,7 @@ Kiedy dokument jest załadowany, Aspose.Words naśladuje zachowanie Microsoft Wo
 - po otwarciu / zapisaniu dokumentu pola pozostają nienaruszone
 - można wyraźnie zaktualizować wszystkie pola w dokumencie, na przykład odbudować `TOC` kiedy należy
 - gdy drukujesz / renderujesz do PDF lub XPS pola związane z numeracją konkursów w nagłówkach / stopkach są aktualizowane
-- kiedy wykonasz mail merge wszystkie pola są automatycznie aktualizowane
+- kiedy wykonasz Mail Merge wszystkie pola są automatycznie aktualizowane
 
 ### Aktualizacja pól programowo
 
@@ -37,11 +37,11 @@ Poniższy przykład pokazuje jak zaktualizować wszystkie pola przed sporządzen
 
 ### Automatyczna aktualizacja pola podczas Mail Merge
 
-Kiedy wykonujesz <span notrans="<span notrans=" mail merge"=""></span>", > wszystkie pola w dokumencie będą automatycznie aktualizowane. To dlatego, że mail merge jest to przypadek aktualizacji pola. Program spotyka mail merge pole i musi uaktualnić jego wynik, co obejmuje chwytanie wartości ze źródła danych i umieszczanie go w polu. Logika jest oczywiście bardziej skomplikowana, na przykład, gdy koniec dokumentu /mail merge region został osiągnięty, ale nadal istnieją dalsze dane, które należy połączyć, a następnie region należy powielić i uaktualnić nowy zestaw pól.
+Kiedy wykonujesz mail merge", > wszystkie pola w dokumencie będą automatycznie aktualizowane. To dlatego, że Mail Merge jest to przypadek aktualizacji pola. Program spotyka Mail Merge pole i musi uaktualnić jego wynik, co obejmuje chwytanie wartości ze źródła danych i umieszczanie go w polu. Logika jest oczywiście bardziej skomplikowana, na przykład, gdy koniec dokumentu /mail merge region został osiągnięty, ale nadal istnieją dalsze dane, które należy połączyć, a następnie region należy powielić i uaktualnić nowy zestaw pól.
 
 ## Aktualizuj pola posiadające nieprzyzwoity atrybut
 
-W: dirty jest atrybutem poziomu Field-, który odświeża tylko pole, które podasz po otwarciu dokumentu. Mówi MS Word, aby odświeżyć to pole dopiero przy następnym otwarciu dokumentu. Możesz użyć właściwości LoadOptions.setupdateDirtyFields (), aby określić, czy zaktualizować pola z atrybutem brudny. Kiedy wartość LoadOptions.setupdateDirtyFields () jest ustawiona na <span notrans="<span notrans=" *true*"=""></span>", > wszystkie pola *true* wartość dla `Field.IsDirty` lub `FieldChar.IsDirty` nieruchomość jest aktualizowana przy załadowaniu dokumentu
+W: dirty jest atrybutem poziomu Field-, który odświeża tylko pole, które podasz po otwarciu dokumentu. Mówi MS Word, aby odświeżyć to pole dopiero przy następnym otwarciu dokumentu. Możesz użyć właściwości LoadOptions.setupdateDirtyFields (), aby określić, czy zaktualizować pola z atrybutem brudny. Kiedy wartość LoadOptions.setupdateDirtyFields () jest ustawiona na *true*, > wszystkie pola *true* wartość dla `Field.IsDirty` lub `FieldChar.IsDirty` nieruchomość jest aktualizowana przy załadowaniu dokumentu
 
 Poniższy przykład kodu pokazuje, jak zaktualizować pola posiadające atrybut brudny:
 

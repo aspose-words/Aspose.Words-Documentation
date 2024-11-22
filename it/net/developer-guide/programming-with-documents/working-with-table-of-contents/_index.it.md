@@ -108,13 +108,13 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 
 <p>![todo:image_alt_text](/words/net/working-with-table-of-contents/working-with-table-of-contents-5.png)</p>
 
-<p>Anche i campi `TC` stessi possono avere interruttori {several, `multiple`, a few, `many`, numerous} impostati. Questi sono:</p>
+<p>Anche i campi `TC` stessi possono avere interruttori `{several, multiple, a few, many, numerous}` impostati. Questi sono:</p>
 
 <p>- *\F – Spiegato sopra.*</p>
 
 <p>- *\L – Definisce in quale livello del `TOC` apparirà questo campo TC. Un `TOC` che utilizza questo stesso interruttore includerà questo campo TC solo se rientra nell'intervallo specificato.*</p>
 
-<p>- _\N – La numerazione delle pagine per questa voce `TOC` non viene visualizzata. Un codice di esempio su come inserire i campi TC è disponibile nella sezione successiva.</p> |
+<p>- `_\N` – La numerazione delle pagine per questa voce `TOC` non viene visualizzata. Un codice di esempio su come inserire i campi TC è disponibile nella sezione successiva.</p> |
 
 ### Interruttori relativi all'aspetto
 

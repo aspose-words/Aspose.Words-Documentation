@@ -41,14 +41,14 @@ timestamp: 2024-10-21-11-17-44
 |  **Italic**<br/>`*italic text*` |  `Font.Italic = true`  |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}}  |  |
 |  **Strikethrough**<br/>`~Strikethrough text~` |  `Font.StrikeThrough = true`  |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
 builder.Font.Strikethrough = true;
-builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
+builder.Writeln("This text will be Strikethrough"); {{< /highlight >}} |  |
 
-Ми використовуємо стиль персонажа з назвою, яка починається з слова <span notrans="<span notrans=" `InlineCode`"=""></span>, > далі за бажанням `(.)` і ряд бектики ```(`)``` для `InlineCode` функція. Якщо пропущено ряд спандексів, то один задняк буде використовуватися за замовчуванням.
+Ми використовуємо стиль персонажа з назвою, яка починається з слова `InlineCode`, > далі за бажанням `(.)` і ряд бектики ```(`)``` для `InlineCode` функція. Якщо пропущено ряд спандексів, то один задняк буде використовуватися за замовчуванням.
 
 |  Markdown Головна |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |
@@ -73,10 +73,10 @@ builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **HorizontalRule**<br/>`-----` |  Це простий абзац з відповідною формою HorizontalRule:<br/>`DocumentBuilder.InsertHorizontalRule()` |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-HorizontalRule.cs" >}}  |                                                                |
-|  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`, де (1<= N <=9).<br/>Це перекладається в вбудований стиль і має бути саме з зазначеного шаблону (не суфікси або префікси допускаються).<br/>В іншому випадку це буде просто звичайний абзац з відповідним стилем |
+|  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = "Heading N"`, де (1<= N <=9).<br/>Це перекладається в вбудований стиль і має бути саме з зазначеного шаблону (не суфікси або префікси допускаються).<br/>В іншому випадку це буде просто звичайний абзац з відповідним стилем |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}}  |                                                                |
-|  **Setext Heading**<br/>`===` (якщо рівень заголовка 1),<br/>`---` (якщо рівень заголовка 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, на основі `“Heading N”` стиль.<br/>Якщо (N >= 2), то `“Heading 2”` буде використовуватися, інакше `“Heading 1”`й<br/>Допускається будь-який suffix, але Aspose.Words імпортер використовує номери "1" та "2" відповідно |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  **Setext Heading**<br/>`===` (якщо рівень заголовка 1),<br/>`---` (якщо рівень заголовка 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, на основі 'Heading N' стиль.<br/>Якщо (N >= 2), то 'Heading 2' буде використовуватися, інакше 'Heading 1'й<br/>Допускається будь-який suffix, але Aspose.Words імпортер використовує номери "1" та "2" відповідно |
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 builder.ParagraphFormat.StyleName = "Heading 1";
@@ -103,7 +103,7 @@ builder.ParagraphFormat.Style = setexHeading2;
 builder.Document.Styles["SetextHeading2"].BaseStyleName = "Heading 3";
 
 // Setex heading level will be reset to 2 if the base paragraph has a Heading level greater than 2.
-builder.Writeln("Setext Heading level 2");{{< /highlight >}} |
+builder.Writeln("Setext Heading level 2"); {{< /highlight >}} |
 |   **Indented Code**                                             |  `ParagraphFormat.StyleName = “IndentedCode[some suffix]”`     |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-IndentedCode.cs" >}}  |                                                                |
 |  **Fenced Code**<br/>{{< highlight csharp >}}``` c#
@@ -120,7 +120,7 @@ else
 |  Markdown Головна |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **Quote**<br/>`> quote,`<br/>`>> nested quote` |  `ParagraphFormat.StyleName = “Quote[some suffix]”`<br/>Суфікс в назві стилю необов'язково, але Aspose.Words імпортер використовує замовлені номери 1, 2, 3, .... в разі необрізних котирування.<br/>Ведуться ведучі стилі |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // By default a document stores blockquote style for the first level.
@@ -131,7 +131,7 @@ builder.Writeln("Blockquote");
 Style quoteLevel2 = builder.Document.Styles.Add(StyleType.Paragraph, "Quote1");
 builder.ParagraphFormat.Style = quoteLevel2;
 builder.Document.Styles["Quote1"].BaseStyleName = "Quote";
-builder.Writeln("1. Nested blockquote");{{< /highlight >}} |
+builder.Writeln("1. Nested blockquote"); {{< /highlight >}} |
 |  **BulletedList**<br/>`- Item 1`<br/>`- Item 2`<br/> `   - Item 2a`<br/> `   - Item 2b` |  Списки буклетів представлені за допомогою абзацу:<br/>`ListFormat.ApplyBulletDefault()`<br/>Ви можете бути 3 види бюлетенів. Вони розрізняються лише в форматі нумерації першого рівня. Це: `‘-’`, `‘+’` або `‘*’` відповідно |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BulletedList.cs" >}}  |                                                                |
 |  **OrderedList**<br/>`1. Item 1`<br/>`2. Item 2`<br/> `1) Item 2a`<br/> `2) Item 2b` |  Замовлені списки представлені за допомогою абзаців:<br/>`ListFormat.ApplyNumberDefault()`<br/>Відмітки формату 2: "." та ")" Маркувальник за замовчуванням "." |
@@ -148,7 +148,7 @@ builder.Writeln("Item 2");
 builder.ListFormat.ListIndent();
 
 builder.Writeln("Item 2a");
-builder.Writeln("Item 2b");{{< /highlight >}} |                                                                |
+builder.Writeln("Item 2b"); {{< /highlight >}} |                                                                |
 
 ### Столи
 
@@ -157,7 +157,7 @@ Aspose.Words також дозволяє перевести таблиці в DO
 |  Markdown Головна |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  `Table`<br/>й | б`<br />`до | -до`<br />`з | й й |  [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) і [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) класи |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Add the first row.
@@ -170,7 +170,7 @@ builder.Writeln("b");
 builder.InsertCell();
 builder.Writeln("c");
 builder.InsertCell();
-builder.Writeln("d");{{< /highlight >}} |                                                                |
+builder.Writeln("d"); {{< /highlight >}} |                                                                |
 
 ## Дивитися ще
 

@@ -104,7 +104,7 @@ Das folgende Codebeispiel zeigt, wie man die `MERGE` Feld mit DOM zu einem Absat
 
 ### Einfügen Mail Merge `ADDRESSBLOCK` Feld in ein Dokument mit DOM
 
-Die `ADDRESSBLOCK` Feld wird verwendet, um ein mail merge Adressblock in einem Word-Dokument. `ADDRESSBLOCK` Feld in Word-Dokument kann durch die [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) Klasse. Sie können verwenden **FieldAddressBlock** Klasse, um die folgenden Operationen durchzuführen:
+Die `ADDRESSBLOCK` Feld wird verwendet, um ein Mail Merge Adressblock in einem Word-Dokument. `ADDRESSBLOCK` Feld in Word-Dokument kann durch die [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) Klasse. Sie können verwenden **FieldAddressBlock** Klasse, um die folgenden Operationen durchzuführen:
 
 - geben Sie an, ob Sie den Namen des Landes/der Region in das Feld einfügen
 - die Angabe, ob die Adresse nach dem Land/der Region des Empfängers im Sinne von POST*CODE (Universal Postal Union 2006) formatiert werden soll
@@ -146,7 +146,7 @@ Die `ASK` Das Feld wird verwendet, um den Benutzer für Text zu veranlassen, ein
 
 - den Namen des Lesezeichens angeben
 - standardmäßige Benutzerantwort angeben (Initialwert im Eingabefenster enthalten)
-- angeben, ob die Nutzerantwort einmal pro a empfangen werden sollte mail merge Betrieb
+- angeben, ob die Nutzerantwort einmal pro a empfangen werden sollte Mail Merge Betrieb
 - den Eingabeaufforderungstext (der Titel des Eingabeaufforderungsfensters)
 
 {{% alert color="primary" %}}

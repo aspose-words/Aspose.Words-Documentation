@@ -122,16 +122,16 @@ Aspose.Words (ب) إتاحة إمكانية الوصول البرنامجي ال
 
 |  Feature |
 |  :-  |
-| استخدام جميع المعايير Microsoft Word mail merge الميادين في تقاريركم بما في ذلك `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, رائع |
-| Execute mail merge الوثائق التي تحتوي حتى على أكثر الوثائق تعقيداً `IF` الحقول والصيغ |
-| تداول ونمو ديناميكي للجداول أو الشظايا في الوثيقة من مصدر بياناتك باستخدام mail merge المناطق. |
+| استخدام جميع المعايير Microsoft Word Mail Merge الميادين في تقاريركم بما في ذلك `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, رائع |
+| Execute Mail Merge الوثائق التي تحتوي حتى على أكثر الوثائق تعقيداً `IF` الحقول والصيغ |
+| تداول ونمو ديناميكي للجداول أو الشظايا في الوثيقة من مصدر بياناتك باستخدام Mail Merge المناطق. |
 | Easily generate reports that contain master-detail (parent-child) data such as Order/OrderDetails. |
 | نشر الوثائق مع البيانات من أي Java مصدر البيانات الذي ينفذ `ResultSet` واجهة |
 | نشر وثائق من أي مصدر بيانات مثل ملف XML أو أشياء تجارية عن طريق تنفيذ **IMailMergeDataSource** واجهة |
 | تراقب بشكل دقيق، مثل تركيب الأرقام، على كيفية دمج بياناتك باستخدام الأحداث. |
 | Insert images during mail merge. |
-| إنشاء أو تعديل برنامجي Microsoft Word mail merge مصدر البيانات لوثيقة Preserve mail merge البيئات ومصادر البيانات. |
-| الاسترجاع mail merge أسماء ميدانية |
+| إنشاء أو تعديل برنامجي Microsoft Word Mail Merge مصدر البيانات لوثيقة Preserve Mail Merge البيئات ومصادر البيانات. |
+| الاسترجاع Mail Merge أسماء ميدانية |
 
 ## الإبلاغ
 

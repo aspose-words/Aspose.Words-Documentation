@@ -56,7 +56,7 @@ Trebuie să fii conectat pentru a descărca instalatorul. Dacă nu sunteți înc
 
 Pentru a instala Aspose.Words pentru .NET urmați acești pași:
 
-1. Descarcă `Aspose.Words_`{LatestVersion}.msi din [downloads section](https://releases.aspose.com/words/)
+1. Descarcă `Aspose.Words_{LatestVersion}.msi` din [downloads section](https://releases.aspose.com/words/)
 2. Double-click on the downloaded file to start the installation wizard, and follow the installation wizard instructions.<br>
       <img src="aspose-words-setup-1.png" alt="aspose-words-setup-1" style="width:500px"/>
 3. Când instalatorul finalizează instalarea, fișierele necesare vor fi disponibile în dosarul la calea de dosar furnizată <br>

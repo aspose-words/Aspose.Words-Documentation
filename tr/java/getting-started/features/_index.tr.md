@@ -122,16 +122,16 @@ Sadece bir raporlama çözümü olarak Aspose.Words'u kullanabilirsiniz. Raporla
 
 | Özellik |
 | :- |
-| Raporlarınızda tüm standart Microsoft Word mail merge alanları dahil `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE kullanın. |
+| Raporlarınızda tüm standart Microsoft Word Mail Merge alanları dahil `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE kullanın. |
 | Belgelerin en karmaşık ve iç içe geçmiş `IF` alanları ve formülleri bile içeren belgeler için mail merge'i çalıştır. |
-| Verilerinizden, mail merge bölgeleri kullanarak belge içinde tabloları veya parçacıkları dinamik olarak doldurun ve büyütün. |
+| Verilerinizden, Mail Merge bölgeleri kullanarak belge içinde tabloları veya parçacıkları dinamik olarak doldurun ve büyütün. |
 | Siparişler/SiparişAyrıntıları gibi üstbilgi-altbilgi (ana-çocuk) verilerini içeren raporları kolayca oluşturun. |
 | Herhangi bir Java veri kaynağıdan uygulanan `ResultSet` arayüzünden gelen verilerle belgeleri doldurun. |
 | XML dosyası veya iş nesneleri gibi herhangi bir veri kaynağıdan belgeler oluşturun **IMailMergeDataSource** arayüzünü uygulayarak. |
 | Bir olay kullanarak veri birleştirme şekli üzerinde hassas kontrolünüzü ele alın. |
 | Görüntüleri bir mail merge'da ekleyin. |
-| Bir belge için programatik olarak bir Microsoft Word mail merge veri kaynağı oluşturur veya değiştirir. mail merge ayarları ve veri kaynaklarını koruyun. |
-| Alınan mail merge alan adları. |
+| Bir belge için programatik olarak bir Microsoft Word Mail Merge veri kaynağı oluşturur veya değiştirir. Mail Merge ayarları ve veri kaynaklarını koruyun. |
+| Alınan Mail Merge alan adları. |
 
 ## Raporlama Özellikleri
 

@@ -43,7 +43,7 @@ Bạn có thể tải xuống tệp mẫu của ví dụ này từ [Aspose.Words
 
 ### Cập nhật trường tự động trong Mail Merge
 
-Khi bạn thực thi mail merge, tất cả các trường trong tài liệu sẽ được cập nhật tự động. Điều này là do mail merge là một trường hợp cập nhật trường. Chương trình gặp trường mail merge và cần cập nhật kết quả của nó, bao gồm việc lấy giá trị từ nguồn dữ liệu và chèn nó vào trường. Tất nhiên, logic phức tạp hơn, chẳng hạn như khi đã đến cuối vùng tài liệu/mail merge nhưng vẫn còn dữ liệu tiếp theo cần được hợp nhất, thì vùng đó cần được sao chép và tập hợp trường mới được cập nhật.
+Khi bạn thực thi mail merge, tất cả các trường trong tài liệu sẽ được cập nhật tự động. Điều này là do Mail Merge là một trường hợp cập nhật trường. Chương trình gặp trường Mail Merge và cần cập nhật kết quả của nó, bao gồm việc lấy giá trị từ nguồn dữ liệu và chèn nó vào trường. Tất nhiên, logic phức tạp hơn, chẳng hạn như khi đã đến cuối vùng tài liệu/mail merge nhưng vẫn còn dữ liệu tiếp theo cần được hợp nhất, thì vùng đó cần được sao chép và tập hợp trường mới được cập nhật.
 
 ## Cập nhật các trường có thuộc tính bẩn
 

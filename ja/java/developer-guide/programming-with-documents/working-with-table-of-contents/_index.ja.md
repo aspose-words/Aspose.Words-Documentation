@@ -61,7 +61,7 @@ Aspose.Words あなたは完全に更新することができます `TOC` コー
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertATableOfContentsField-UpdateTableOfContents.java" >}}
 
-最初の呼び出し [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) ビルドする <span notrans="<span notrans=" `TOC`"=""></span>????? すべてのテキストエントリがポップアップし、 `TOC` ほとんど完了です。 行方不明のは「?」で表示されているページ番号です。
+最初の呼び出し [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) ビルドする `TOC`????? すべてのテキストエントリがポップアップし、 `TOC` ほとんど完了です。 行方不明のは「?」で表示されているページ番号です。
 
 第二の呼び出し [Document.updatePageLayout()](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout) メモリ内のドキュメントのレイアウトをビルドします。 エントリーのページ番号を収集するために行う必要があります。 この呼び出しから計算された正しいページ番号は、TOCに差し込みます。
 
@@ -125,13 +125,13 @@ Aspose.Words あなたは完全に更新することができます `TOC` コー
 
 <p>![table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-6.png)</p>
 
-<p><br/><br/>ザ・オブ・ザ・ `TC` フィールド自身も持っている {several, `multiple`, a few, `many`, numerous} スイッチセット。 これらは:</p>
+<p><br/><br/>ザ・オブ・ザ・ `TC` フィールド自身も持っている `{several, multiple, a few, many, numerous}` スイッチセット。 これらは:</p>
 
 <p>- \F - 上記の説明。 * 必須</p>
 
 <p>- \L - どのレベルをするかを定義します `TOC` このTCフィールドが現れます。 ツイート `TOC` この同じスイッチを使用するのは、指定された範囲内にある場合は、このTCフィールドのみです。</p>
 
-<p>- _\N - このページの先頭へ `TOC` エントリーは表示されません。 次のセクションでTCフィールドをインサートする方法のサンプルコードを見ることができます。</p>
+<p>- `_\N` - このページの先頭へ `TOC` エントリーは表示されません。 次のセクションでTCフィールドをインサートする方法のサンプルコードを見ることができます。</p>
  |
 
 ### 出現 関連スイッチ

@@ -104,7 +104,7 @@ untyped/empty 필드를 삽입하려면 ({}) 그냥 좋아 Microsoft Word 허용
 
 ### 관련 상품 Mail Merge `ADDRESSBLOCK` 본문 바로가기 DOM
 
-더 보기 `ADDRESSBLOCK` 필드는 삽입에 사용됩니다 mail merge Word 문서의 주소 블록. `ADDRESSBLOCK` Word 문서의 필드는 다음과 같습니다. [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) 수업. 사용 가능 **FieldAddressBlock** 다음 작업을 수행 할 클래스:
+더 보기 `ADDRESSBLOCK` 필드는 삽입에 사용됩니다 Mail Merge Word 문서의 주소 블록. `ADDRESSBLOCK` Word 문서의 필드는 다음과 같습니다. [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) 수업. 사용 가능 **FieldAddressBlock** 다음 작업을 수행 할 클래스:
 
 - 필드에 국가/지역의 이름을 포함할 것인지 지정
 - POST*CODE(Universal Postal Union 2006)에 의해 정의된 수신자의 국가/지역에 따라 주소를 지정할 수 있음
@@ -146,7 +146,7 @@ untyped/empty 필드를 삽입하려면 ({}) 그냥 좋아 Microsoft Word 허용
 
 - bookmark의 이름을 지정합니다
 - 기본 사용자 응답을 지정합니다 (실행된 창에 포함되는)
-- 사용자 응답이 한 번 수신해야하는지 지정하십시오. mail merge (주)
+- 사용자 응답이 한 번 수신해야하는지 지정하십시오. Mail Merge (주)
 - 프롬프트 텍스트를 지정합니다 (프롬프트 창의 제목)
 
 {{% alert color="primary" %}}

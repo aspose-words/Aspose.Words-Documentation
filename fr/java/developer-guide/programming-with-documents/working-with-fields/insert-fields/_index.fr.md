@@ -104,7 +104,7 @@ L'exemple de code suivant montre comment ajouter le `MERGE` champ en utilisant D
 
 ### Insérer Mail Merge `ADDRESSBLOCK` champ dans un document en utilisant DOM
 
-Les `ADDRESSBLOCK` champ est utilisé pour insérer un mail merge bloc d'adresse dans un document Word. `ADDRESSBLOCK` champ dans le document Word peut être représenté par [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) En cours. Vous pouvez utiliser **FieldAddressBlock** classe pour effectuer les opérations suivantes:
+Les `ADDRESSBLOCK` champ est utilisé pour insérer un Mail Merge bloc d'adresse dans un document Word. `ADDRESSBLOCK` champ dans le document Word peut être représenté par [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) En cours. Vous pouvez utiliser **FieldAddressBlock** classe pour effectuer les opérations suivantes:
 
 - indiquer si le nom du pays ou de la région doit figurer dans le champ
 - indiquer s'il convient de formater l'adresse selon le pays/région du destinataire tel que défini par POST*CODE (Union postale universelle 2006)
@@ -146,7 +146,7 @@ Les `ASK` champ est utilisé pour inciter l'utilisateur à attribuer du texte à
 
 - indiquer le nom du signet
 - spécifier la réponse par défaut de l'utilisateur (valeur initiale contenue dans la fenêtre d'invite)
-- préciser si la réponse de l'utilisateur doit être reçue une fois par mail merge fonctionnement
+- préciser si la réponse de l'utilisateur doit être reçue une fois par Mail Merge fonctionnement
 - spécifiez le texte de l'invite (le titre de la fenêtre de l'invite)
 
 {{% alert color="primary" %}}

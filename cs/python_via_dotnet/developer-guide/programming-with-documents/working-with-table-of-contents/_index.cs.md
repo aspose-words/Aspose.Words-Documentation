@@ -51,7 +51,7 @@ Následující příklad kódu ukazuje, jak kompletně obnovit `TOC` pole v doku
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-add_content_using_document_builder-UpdateFields.py" >}}
 
-První výzva [Document.update_fields](https://reference.aspose.com/words/python-net/aspose.words/document/update_fields/) bude stavět <span notrans="<span notrans=" `TOC`"=""></span>,? všechny textové záznamy jsou obsazeny a `TOC` Vypadá to skoro kompletní. Jediné, co chybí, jsou čísla stránek, které jsou nyní zobrazeny s?? Druhý hovor [Document.update_page_layout](https://reference.aspose.com/words/python-net/aspose.words/document/update_page_layout/) vytvoří uspořádání dokumentu v paměti. To je třeba udělat pro shromažďování čísel stránek položek. Správná čísla stránek vypočtená z tohoto hovoru se pak vkládají do TOC.
+První výzva [Document.update_fields](https://reference.aspose.com/words/python-net/aspose.words/document/update_fields/) bude stavět `TOC`,? všechny textové záznamy jsou obsazeny a `TOC` Vypadá to skoro kompletní. Jediné, co chybí, jsou čísla stránek, které jsou nyní zobrazeny s?? Druhý hovor [Document.update_page_layout](https://reference.aspose.com/words/python-net/aspose.words/document/update_page_layout/) vytvoří uspořádání dokumentu v paměti. To je třeba udělat pro shromažďování čísel stránek položek. Správná čísla stránek vypočtená z tohoto hovoru se pak vkládají do TOC.
 
 ## Použijte přepínače k ovládání chování obsahu.
 

@@ -121,7 +121,7 @@ Aspose.Words עבור Java תומך ברוב פורמטי המסמך הפופו�
 
 {{% alert color="primary" %}}
 
-ניתן למצוא מידע מפורט יותר על mail merge בתוך [Mail Merge דיווח ו](/words/java/mail-merge-and-reporting/) סעיף תיעוד
+ניתן למצוא מידע מפורט יותר על Mail Merge בתוך [Mail Merge דיווח ו](/words/java/mail-merge-and-reporting/) סעיף תיעוד
 
 {{% /alert %}}
 
@@ -136,7 +136,7 @@ Aspose.Words עבור Java תומך ברוב פורמטי המסמך הפופו�
 
 **Q: מדוע הפלט של מיזוג קינן לא מציג נתונים משולחן הילד לכניסת הראשונה בטבלה ההורה, אלא מציג את כל הפריטים לכניסה האחרונה בטבלה ההורה, אפילו אלה שאינם קשורים לכך?**
 
-הסיבה לכך היא כי אזורי המיזוג בתבנית אינם נוצרים כראוי, אשר יכולים להפוך את כל הקן. mail merge אזורים להפסיק להציג הכל. The The The [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) תג פתיחה ו [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) תג סגירה חייב להתאים ולהיות באותה שורה או תא. לדוגמה, אם אתה מתחיל קינון אזורי מיזוג בתא של שולחן, עליך לסיים את אזור המיזוג באותה שורה כמו התא הראשון.
+הסיבה לכך היא כי אזורי המיזוג בתבנית אינם נוצרים כראוי, אשר יכולים להפוך את כל הקן. Mail Merge אזורים להפסיק להציג הכל. The The The [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) תג פתיחה ו [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) תג סגירה חייב להתאים ולהיות באותה שורה או תא. לדוגמה, אם אתה מתחיל קינון אזורי מיזוג בתא של שולחן, עליך לסיים את אזור המיזוג באותה שורה כמו התא הראשון.
 
 ------
 

@@ -10,7 +10,7 @@ url: /nl/net/api-reference/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words voor .NET is een klassebibliotheek die uw toepassingen in staat stelt om een groot aantal documentenverwerkingstaken uit te voeren. Met Aspose.Words u kunt genereren, wijzigen, converteren, renderen en afdrukken documenten zonder gebruik te maken <span notrans="<span notrans=" Microsoft Word"=""></span>,"> dat wil zeggen, Microsoft Word is niet vereist om te gebruiken Aspose.Words.
+Aspose.Words voor .NET is een klassebibliotheek die uw toepassingen in staat stelt om een groot aantal documentenverwerkingstaken uit te voeren. Met Aspose.Words u kunt genereren, wijzigen, converteren, renderen en afdrukken documenten zonder gebruik te maken Microsoft Word,"> dat wil zeggen, Microsoft Word is niet vereist om te gebruiken Aspose.Words.
 
 Aspose.Words voor .NET is volledig geschreven in C#, is CLS conform en bevat alleen veilige beheerde code.
 

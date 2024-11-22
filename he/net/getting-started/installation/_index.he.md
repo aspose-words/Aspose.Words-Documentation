@@ -56,7 +56,7 @@ Aspose.Words עבור .NET ניתן להתקין על ידי הורדה ישיר
 
 להתקין Aspose.Words עבור .NET, עקבו אחרי השלבים הבאים:
 
-1 הורד `Aspose.Words_`{LatestVersion}.msi from the [הורדה](https://releases.aspose.com/words/)
+1 הורד `Aspose.Words_{LatestVersion}.msi` from the [הורדה](https://releases.aspose.com/words/)
 2. לחץ על הקובץ הורד, ובכך החל את מכשף ההתקנה, בצע את הוראות מכשף ההתקנה<br/>
       <img src="/words/net/installation/aspose-words-setup-1.png" alt="aspose-words-setup-1" style="width:500px"/>
 3. כאשר הקוסם ההתקנה משלים את ההתקנה, הקבצים הדרושים יהיו זמינים בתיקיה בתוואי התיקיה המסופק<br/>

@@ -86,7 +86,7 @@ timestamp: 2024-09-25-11-08-55
 
 ### إدراج حقل Mail Merge `ADDRESSBLOCK` في مستند باستخدام DOM
 
-يتم استخدام حقل `ADDRESSBLOCK` لإدراج كتلة عنوان mail merge في مستند Word. يمكن تمثيل حقل `ADDRESSBLOCK` في مستند Word بواسطة فئة [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/). يمكنك استخدام فئة [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) لتنفيذ العمليات التالية:
+يتم استخدام حقل `ADDRESSBLOCK` لإدراج كتلة عنوان Mail Merge في مستند Word. يمكن تمثيل حقل `ADDRESSBLOCK` في مستند Word بواسطة فئة [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/). يمكنك استخدام فئة [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) لتنفيذ العمليات التالية:
 
 - حدد ما إذا كنت تريد تضمين اسم البلد/المنطقة في الحقل
 - حدد ما إذا كان سيتم تنسيق العنوان وفقًا لبلد/منطقة المستلم كما هو محدد بواسطة POST*CODE (الاتحاد البريدي العالمي 2006)

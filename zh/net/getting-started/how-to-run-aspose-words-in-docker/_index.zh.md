@@ -33,7 +33,7 @@ timestamp: 2024-08-19-11-05-36
 ![net-console-application](https://lh5.googleusercontent.com/PArWoC8_leOnhtaF-5BMb3b4jHwI3G03WoyMK3bXZpsQKN50YzvEQBwoRniyCWKIcdR0EZGuwn3S8Z0ZK6FQ4cjMSWgH3CwSqReW4bMt-3OjZjrdt9yuWbkMdhyNjwwaaYPC5Ylr)<br>
 1. 从 NuGet 安装最新的 Aspose.Words 版本。 SkiaSharp 将作为 Aspose.Words 的依赖项安装。<br>
 ![skiasharp-dependency](https://lh3.googleusercontent.com/zWpvB5TLahC_OpJrHDML2131Vj_VK1vryTZBd_C3ZeOBdoUOc2vF_axEvwu9tytaL1maJv3qA2KoyP5fn7ae4_3cL23sXyoLoVysjgu8XEp6l0B2w5hgR9teh95_9mFd9X-4DGNN)<br>
-1. 由于应用程序将在 Linux 上运行，因此必须安装适当的本机 Linux 资产。从 Debian 基础映像开始并安装 `SkiaSharp.NativeAssets`.Linux。
+1. 由于应用程序将在 Linux 上运行，因此必须安装适当的本机 Linux 资产。从 Debian 基础映像开始并安装 `SkiaSharp.NativeAssets.Linux`。
 1. 添加所有必需的依赖项后，编写一个简单的程序来创建"Hello World!"文档并将其保存为所有支持的保存格式：<br>
 
 {{< gist "aspose-words-gists" "47e15ad749897be465deebc2ff3e76dd" "aspose-words-docker.cs" >}}

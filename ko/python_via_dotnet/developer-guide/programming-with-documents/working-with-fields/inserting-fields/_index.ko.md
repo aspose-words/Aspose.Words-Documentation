@@ -86,7 +86,7 @@ Word 문서의 `MERGEFIELD` 필드는 [FieldMergeField](https://reference.aspose
 
 ### DOM을 사용하여 문서에 Mail Merge `ADDRESSBLOCK` 필드 삽입
 
-`ADDRESSBLOCK` 필드는 Word 문서에 mail merge 주소 블록을 삽입하는 데 사용됩니다. Word 문서의 `ADDRESSBLOCK` 필드는 [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) 클래스로 표현될 수 있습니다. [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) 클래스를 사용하여 다음 작업을 수행할 수 있습니다
+`ADDRESSBLOCK` 필드는 Word 문서에 Mail Merge 주소 블록을 삽입하는 데 사용됩니다. Word 문서의 `ADDRESSBLOCK` 필드는 [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) 클래스로 표현될 수 있습니다. [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) 클래스를 사용하여 다음 작업을 수행할 수 있습니다
 
 - 필드에 국가/지역 이름을 포함할지 여부를 지정합니다
 - POST*CODE(Universal Postal Union 2006)에 정의된 대로 수신자의 국가/지역에 따라 주소 형식을 지정할지 여부를 지정합니다
@@ -116,7 +116,7 @@ Word 문서의 `MERGEFIELD` 필드는 [FieldMergeField](https://reference.aspose
 
 - 북마크의 이름을 지정
 - 기본 사용자 응답 지정(프롬프트 창에 포함된 초기 값)
-- mail merge 작업마다 사용자 응답을 한 번 받아야 하는지 여부를 지정합니다
+- Mail Merge 작업마다 사용자 응답을 한 번 받아야 하는지 여부를 지정합니다
 - 프롬프트 텍스트 지정(프롬프트 창 제목)
 
 다음 코드 예제에서는 DOM를 사용하여 문서의 단락에 `ASK` 필드를 추가하는 방법을 보여줍니다

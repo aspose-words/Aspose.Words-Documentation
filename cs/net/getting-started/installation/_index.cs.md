@@ -56,7 +56,7 @@ Pro stažení instalátoru musíte být přihlášeni. Pokud ještě nejste regi
 
 Nainstalovat Aspose.Words místo .NET, postupujte podle těchto kroků:
 
-1. Stáhnout `Aspose.Words_`{LatestVersion}.msi z [sekce stažení](https://releases.aspose.com/words/)
+1. Stáhnout `Aspose.Words_{LatestVersion}.msi` z [sekce stažení](https://releases.aspose.com/words/)
 2. Doble-klikněte na stažený soubor, čímž spustíte průvodce nastavení, postupujte podle pokynů průvodce nastavení<br/>
       <img src="/words/net/installation/aspose-words-setup-1.png" alt="aspose-words-setup-1" style="width:500px"/>
 3. Po dokončení instalace nastavovacího čaroděje budou požadované soubory k dispozici ve složce na zadané složce<br/>

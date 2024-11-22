@@ -108,7 +108,7 @@ Standardmäßig sind diese oben genannten Schalter enthalten, wenn ein Standard-
 
 <p>- *\L – Definiert, auf welcher Ebene im `TOC` dieses TC-Feld angezeigt wird. Ein `TOC`, der denselben Schalter verwendet, schließt dieses TC-Feld nur ein, wenn es innerhalb des angegebenen Bereichs liegt.*</p>
 
-<p>- _\N – Die Seitennummerierung für diesen `TOC`-Eintrag wird nicht angezeigt. Beispielcode zum Einfügen von TC-Feldern finden Sie im nächsten Abschnitt.</p> |
+<p>- `_\N` – Die Seitennummerierung für diesen `TOC`-Eintrag wird nicht angezeigt. Beispielcode zum Einfügen von TC-Feldern finden Sie im nächsten Abschnitt.</p> |
 
 ### Aussehenbezogene Schalter
 

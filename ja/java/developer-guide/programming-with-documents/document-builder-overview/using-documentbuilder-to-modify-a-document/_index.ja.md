@@ -204,7 +204,7 @@ nodeIndex が 0 よりも大きい場合、セクションの先頭から最初�
 
 ### 移動する `Merge` フィールド
 
-「マニュアル」を実行する必要がある場合があります。 mail merge 使用方法 `DocumentBuilder` または内部の特別な方法でマージフィールドを埋める mail merge イベントハンドラ。 それはいつ [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) 便利かもしれません。 メソッドはマージフィールドの名前を指定します。 カーソルを指定したマージフィールドを超えて位置に移動し、マージフィールドを削除します。 次のコードの例では、指定したマージフィールドを超えてカーソルを位置に移動する方法を示します。
+「マニュアル」を実行する必要がある場合があります。 Mail Merge 使用方法 `DocumentBuilder` または内部の特別な方法でマージフィールドを埋める Mail Merge イベントハンドラ。 それはいつ [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) 便利かもしれません。 メソッドはマージフィールドの名前を指定します。 カーソルを指定したマージフィールドを超えて位置に移動し、マージフィールドを削除します。 次のコードの例では、指定したマージフィールドを超えてカーソルを位置に移動する方法を示します。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToMergeField-DocumentBuilderMoveToMergeField.java" >}}
 

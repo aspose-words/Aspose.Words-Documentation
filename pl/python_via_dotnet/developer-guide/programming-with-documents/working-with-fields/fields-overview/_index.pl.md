@@ -191,9 +191,9 @@ Aspose.Words obsługuje wszystkie przełączniki formatowania daty i godziny dos
 
 #### Pola Mail Merge
 
-Aspose.Words nie nakłada żadnych ograniczeń na złożoność pól mail merge w dokumentach i obsługuje zagnieżdżone pola `IF` i formuły, a nawet może obliczyć nazwę pola scalania za pomocą formuły.
+Aspose.Words nie nakłada żadnych ograniczeń na złożoność pól Mail Merge w dokumentach i obsługuje zagnieżdżone pola `IF` i formuły, a nawet może obliczyć nazwę pola scalania za pomocą formuły.
 
-Kilka przykładów pól mail merge obsługiwanych przez Aspose.Words:
+Kilka przykładów pól Mail Merge obsługiwanych przez Aspose.Words:
 
 - Przełączniki polowe Mail merge:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`

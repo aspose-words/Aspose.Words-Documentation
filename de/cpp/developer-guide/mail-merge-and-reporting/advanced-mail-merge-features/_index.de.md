@@ -4,24 +4,24 @@ second_title: Aspose.Words für C++
 articleTitle: Erweiterte Mail Merge Funktionen
 linktitle: Erweiterte Mail Merge Funktionen
 type: docs
-description: "Aspose.Words für C++ bietet einige erweiterte mail merge Funktionen, mit denen Sie weitere mail merge Anpassungen vornehmen können. Zum Beispiel, um Informationen über die Vorlagenstruktur zu erhalten, Regeln festzulegen, nach einer mail merge -Operation aufzuräumen und andere."
-keywords: "use advanced mail merge features c++"
+description: "Aspose.Words für C++ bietet einige erweiterte Mail Merge Funktionen, mit denen Sie weitere Mail Merge Anpassungen vornehmen können. Zum Beispiel, um Informationen über die Vorlagenstruktur zu erhalten, Regeln festzulegen, nach einer Mail Merge -Operation aufzuräumen und andere."
+keywords: "use advanced Mail Merge features c++"
 weight: 50
 url: /de/cpp/advanced-mail-merge-features/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words stellt einige zusätzliche mail merge-Eigenschaften und -Methoden bereit, mit denen Sie den mail merge-Prozess entweder in einfachen mail merge oder mail merge mit Regionen weiter anpassen können.
+Aspose.Words stellt einige zusätzliche mail merge-Eigenschaften und -Methoden bereit, mit denen Sie den mail merge-Prozess entweder in einfachen Mail Merge oder Mail Merge mit Regionen weiter anpassen können.
 
 Zu den erweiterten mail merge-Funktionen gehören unter anderem das Abrufen von Informationen zur Vorlagenstruktur vor dem Ausführen einer mail merge-Operation, das Festlegen von Regeln für eine mail merge-Operation und das Bereinigen während einer mail merge-Operation. Dieser Artikel behandelt nur einige Eigenschaften und Beispiele, um Ihnen zu zeigen, wie Sie erweiterte Funktionen verwenden.
 
 ## Regeln für Mail Merge-Operationen festlegen
 
-Durch das Hinzufügen von Regeln zu Ihrer Vorlage können Sie den Workflow-Prozess effektiver und flexibler gestalten. Mit mail merge -Regeln können Sie Inhalte einrichten, die schnell geändert werden können, und die Notwendigkeit vermeiden, mehrere Dokumente zu generieren.
+Durch das Hinzufügen von Regeln zu Ihrer Vorlage können Sie den Workflow-Prozess effektiver und flexibler gestalten. Mit Mail Merge -Regeln können Sie Inhalte einrichten, die schnell geändert werden können, und die Notwendigkeit vermeiden, mehrere Dokumente zu generieren.
 
-Mit Aspose.Words können Sie mail merge basierend auf Regeln anpassen, die beim Ausführen des Vorgangs mail merge ausgeführt werden, und Informationen zum Zusammenführen steuern. Zum Beispiel, wenn Sie eine E-Mail oder einen Brief erstellen, den Sie an alle Ihre Kunden senden möchten. Sie können eine Regel einrichten, damit der Brief verschiedene Daten enthalten kann, die auf den unterschiedlichen Werten in bestimmten Feldern Ihrer Datenquelle basieren.
+Mit Aspose.Words können Sie Mail Merge basierend auf Regeln anpassen, die beim Ausführen des Vorgangs Mail Merge ausgeführt werden, und Informationen zum Zusammenführen steuern. Zum Beispiel, wenn Sie eine E-Mail oder einen Brief erstellen, den Sie an alle Ihre Kunden senden möchten. Sie können eine Regel einrichten, damit der Brief verschiedene Daten enthalten kann, die auf den unterschiedlichen Werten in bestimmten Feldern Ihrer Datenquelle basieren.
 
-Sehen Sie sich einige mail merge -Regeln an, die Sie implementieren können.
+Sehen Sie sich einige Mail Merge -Regeln an, die Sie implementieren können.
 
 ### Nächstes Feld implementieren, um Datensätze im aktuellen Dokument zusammenzuführen
 
@@ -44,7 +44,7 @@ Aspose.Words ermöglicht es Ihnen, verschiedene Informationen in Ihrer Vorlage m
 
 ### Seriendruckfeldnamen abrufen
 
-Sie können auf ein Szenario stoßen, in dem Sie Daten mit Seriendruckfeldern zusammenführen möchten, die von anderen erstellt wurden, und in diesem Fall sind Sie sich über die genauen Namen der Seriendruckfelder nicht sicher. Um den Zweck von mail merge zu erreichen, müssen Sie zunächst die Namen aller Seriendruckfelder lesen und anzeigen. Aspose.Words ermöglicht es Ihnen, eine Sammlung von Seriendruckfeldnamen mit der Methode [GetFieldNames](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/getfieldnames/) abzurufen.
+Sie können auf ein Szenario stoßen, in dem Sie Daten mit Seriendruckfeldern zusammenführen möchten, die von anderen erstellt wurden, und in diesem Fall sind Sie sich über die genauen Namen der Seriendruckfelder nicht sicher. Um den Zweck von Mail Merge zu erreichen, müssen Sie zunächst die Namen aller Seriendruckfelder lesen und anzeigen. Aspose.Words ermöglicht es Ihnen, eine Sammlung von Seriendruckfeldnamen mit der Methode [GetFieldNames](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/getfieldnames/) abzurufen.
 
 Das folgende Codebeispiel zeigt, wie Namen aller Seriendruckfelder in der Vorlage abgerufen werden:
 
@@ -69,7 +69,7 @@ Sie können die Beispieldatei dieses Beispiels herunterladen von [Aspose.Words G
 
 ### Zugeordnete Felder hinzufügen
 
-Mit Aspose.Words können Sie Namen von Feldern in Ihrer Datenquelle und Namen von mail merge Feldern in der Vorlage mithilfe der Eigenschaft [MappedDataFields](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/get_mappeddatafields/) automatisch zuordnen. Wenn Sie beispielsweise einen Feldnamen mit dem Namen "Nachname" in Ihrer Vorlage und in Ihrer Datenquelle den Feldnamen "Nachname" oder eine andere Variante wie "Nachname" oder "LastName" haben, wird das Feld in der Datenquelle automatisch dem entsprechenden zugeordneten Feld zugeordnet. Wenn eine Zusammenführungsvorlage mit vielen Datenquellen zusammengeführt werden soll, machen zugeordnete Felder es unnötig, die Felder erneut in die Vorlage einzugeben, um mit den Feldnamen in der Datenbank übereinzustimmen.
+Mit Aspose.Words können Sie Namen von Feldern in Ihrer Datenquelle und Namen von Mail Merge Feldern in der Vorlage mithilfe der Eigenschaft [MappedDataFields](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/get_mappeddatafields/) automatisch zuordnen. Wenn Sie beispielsweise einen Feldnamen mit dem Namen "Nachname" in Ihrer Vorlage und in Ihrer Datenquelle den Feldnamen "Nachname" oder eine andere Variante wie "Nachname" oder "LastName" haben, wird das Feld in der Datenquelle automatisch dem entsprechenden zugeordneten Feld zugeordnet. Wenn eine Zusammenführungsvorlage mit vielen Datenquellen zusammengeführt werden soll, machen zugeordnete Felder es unnötig, die Felder erneut in die Vorlage einzugeben, um mit den Feldnamen in der Datenbank übereinzustimmen.
 
 Das folgende Codebeispiel zeigt, wie Sie ein zugeordnetes Feld mit der Methode [Add](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mappeddatafieldcollection/add/) hinzufügen, wenn ein Seriendruckfeld in einer Vorlage und ein Datenfeld in einer Datenquelle unterschiedliche Namen haben:
 

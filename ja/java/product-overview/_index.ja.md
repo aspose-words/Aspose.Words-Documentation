@@ -66,7 +66,7 @@ Aspose.Words お問い合わせ Java 4つの主要な分野に特徴を分ける
 
 Aspose.Words お問い合わせ Java すべてのカバー Java 開発環境と展開プラットフォーム。 私たちについて API さまざまなオペレーティング システムのための適用を、のような開発するのに使用することができます Windows, Linux, Mac OS、 Android, 様々なプラットフォーム
 
-プラットフォームが標準を実行できるのであれば、単純に置く <span notrans="<span notrans=" Java"=""></span>????? 実行できる Aspose.Words お問い合わせ Javaお問い合わせ アプリケーションが標準を呼ぶことができれば Java <span notrans="<span notrans=" API"=""></span>????? 呼び出しに問題はありません Aspose.Words お問い合わせ Java API アプリケーションから。
+プラットフォームが標準を実行できるのであれば、単純に置く Java????? 実行できる Aspose.Words お問い合わせ Javaお問い合わせ アプリケーションが標準を呼ぶことができれば Java API????? 呼び出しに問題はありません Aspose.Words お問い合わせ Java API アプリケーションから。
 
 ベースラインは、JDK1.7 と newer です。 しかし、JDK1.6を引き続きサポートしています。
 
@@ -92,7 +92,7 @@ Aspose.Words 複数のスレッドは、一度にドキュメント上でのみ�
 
 ### 最小限学習曲線
 
-150以上のパブリッククラスとアンモレーションがありますが、 <span notrans="<span notrans=" Aspose.Words"=""></span>????? 学習曲線は最小限です。 Aspose.Words API 次の目標を念頭に置いて設計されている:
+150以上のパブリッククラスとアンモレーションがありますが、 Aspose.Words????? 学習曲線は最小限です。 Aspose.Words API 次の目標を念頭に置いて設計されている:
 
 * 他の有名からベストプラクティスを借りる APIなど Microsoft Word オートメーション
 * からベストプラクティスを借りる Java フレームワークデザインガイドライン

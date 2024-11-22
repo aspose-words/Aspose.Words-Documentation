@@ -36,7 +36,7 @@ Případy jednotlivých dokumentů jsou nutné pouze v případě, že je nutné
 
 Ve většině případů Windows uživatelé nečelí významným problémům se zmeškaným písmem nebo nesprávným uspořádáním. Typicky, Aspose.Words prochází dokumentem a když narazí na odkaz na písmo, úspěšně stáhne data ze složky systému.
 
-Na <span notrans="<span notrans=" Windows"=""></span>, Aspose.Words nejprve vezme všechna dostupná písma z _%windir%\Fonts Složka. Toto nastavení pro vás bude většinou fungovat. Složky písem zadáváte pouze v případě, že je to nutné. Aspose.Words také hledá další písma registrovaná v HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts registrovací klíč. Kromě toho Windows 10 umožňuje instalaci fontů pro aktuálního uživatele. Písma jsou umístěna do %userprofile%\AppData\Local\Microsoft\Windows\Fonts Složka a také uvedena v HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Fonts registr, kde Aspose.Words budou hledat tato písma.
+Na Windows, Aspose.Words nejprve vezme všechna dostupná písma z _%windir%\Fonts Složka. Toto nastavení pro vás bude většinou fungovat. Složky písem zadáváte pouze v případě, že je to nutné. Aspose.Words také hledá další písma registrovaná v HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts registrovací klíč. Kromě toho Windows 10 umožňuje instalaci fontů pro aktuálního uživatele. Písma jsou umístěna do %userprofile%\AppData\Local\Microsoft\Windows\Fonts Složka a také uvedena v HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Fonts registr, kde Aspose.Words budou hledat tato písma.
 
 Pokud dokument obsahuje vložená písma, Aspose.Words může z dokumentu číst relevantní údaje o písmu a používat je k vytvoření rozvržení dokumentu. Dokumenty mohou rovněž obsahovat odkazy na písma, která nejsou ve složce systému, v takovém případě se objeví následující scénáře:
 
@@ -51,7 +51,7 @@ Vzhledem k tomu, písmo metriky Windows a ne-Windows OS jsou jiné, Aspose.Words
 
 #### Kde Aspose.Words Hledá písma TrueType na Linux
 
-Různé Linux distribuce mohou ukládat písma v různých složkách. Aspose.Words hledá písma na několika místech. Ve výchozím nastavení Aspose.Words hledá písma ve všech následujících místech: * /usr/share/fonts* /usr/local/share/fonts* /usr/X11R6/lib/X11/fonts Toto výchozí chování bude fungovat pro většinu Linux distribuce, ale není zaručeno, že pracovat po celou dobu, v tom případě byste mohli potřebovat určit umístění true písma typu explicitně. Chcete-li to udělat, musíte vědět, kde TrueType písma jsou nainstalována na vašem Linux distribuce.
+Různé Linux distribuce mohou ukládat písma v různých složkách. Aspose.Words hledá písma na několika místech. Ve výchozím nastavení Aspose.Words hledá písma ve všech následujících místech: `/usr/share/fonts` `/usr/local/share/fonts` `/usr/X11R6/lib/X11/fonts` Toto výchozí chování bude fungovat pro většinu Linux distribuce, ale není zaručeno, že pracovat po celou dobu, v tom případě byste mohli potřebovat určit umístění true písma typu explicitně. Chcete-li to udělat, musíte vědět, kde TrueType písma jsou nainstalována na vašem Linux distribuce.
 
 #### Kde Aspose.Words Hledá TrueType písma na Mac OS X
 

@@ -114,16 +114,16 @@ Aspose.Words دسترسی برنامه‌ای دقیق به ویژگی‌های 
 
 |  ویژگی | .NET | .NET Standard 2.0 | Xamarin.Android | Xamarin.iOS | Xamarin.Mac |
 |  :-  |  :-  |  :-  |  :-  |  :-  |  :-  |
-| از تمام فیلدهای استاندارد Microsoft Word mail merge در گزارش های خود از جمله `MERGEFIELD`، `NEXT`، `NEXTIF`، `ADDRESSBLOCK`، GREETINGLINE استفاده کنید. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| mail merge را برای اسنادی که حاوی پیچیده ترین و تودرتوترین فیلدها و فرمول های `IF` هستند، اجرا کنید. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| جداول یا قطعات را در سند از منبع داده خود با استفاده از مناطق mail merge پر کنید و به صورت پویا رشد دهید. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| از تمام فیلدهای استاندارد Microsoft Word Mail Merge در گزارش های خود از جمله `MERGEFIELD`، `NEXT`، `NEXTIF`، `ADDRESSBLOCK`، GREETINGLINE استفاده کنید. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Mail Merge را برای اسنادی که حاوی پیچیده ترین و تودرتوترین فیلدها و فرمول های `IF` هستند، اجرا کنید. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| جداول یا قطعات را در سند از منبع داده خود با استفاده از مناطق Mail Merge پر کنید و به صورت پویا رشد دهید. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | به راحتی گزارش هایی تولید کنید که حاوی داده های اصلی جزئیات (والد-فرزند) مانند Order/OrderDetails هستند. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | اسناد را با داده های هر منبع داده .NET مانند DataSet، DataTable، DataView، DataReader یا ADO Recordset پر کنید. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | با پیاده سازی رابط **IMailMergeDataSource**، اسناد را از هر منبع داده مانند پرس و جوی LINQ، فایل XML یا اشیاء تجاری پر کنید. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | کنترل دقیقی مانند قالب بندی اعداد را بر نحوه ادغام داده های خود با استفاده از رویدادها در دست بگیرید. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | درج تصاویر در طول mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| یک منبع داده Microsoft Word mail merge را به صورت برنامه ریزی شده برای یک سند ایجاد یا تغییر دهید. تنظیمات mail merge و منابع داده را حفظ کنید. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| نام فیلدهای mail merge را بازیابی کنید. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| یک منبع داده Microsoft Word Mail Merge را به صورت برنامه ریزی شده برای یک سند ایجاد یا تغییر دهید. تنظیمات Mail Merge و منابع داده را حفظ کنید. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| نام فیلدهای Mail Merge را بازیابی کنید. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
 ## ویژگی های گزارش
 

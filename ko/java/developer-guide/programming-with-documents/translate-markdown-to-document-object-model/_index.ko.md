@@ -43,7 +43,7 @@ Bulleted 및 주문 목록은 컨테이너 블록입니다. Markdown 한국어 �
 |  **Strikethrough**<br/>`~Strikethrough text~` |  `Font.StrikeThrough = true`  |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Strikethrough.java" >}}  |  |
 
-우리는 단어에서 시작하는 이름으로 문자 스타일을 사용합니다. <span notrans="<span notrans=" `InlineCode`"=""></span>· 선택된 점에 의해 뒤로 `(.)` 백틱스의 수 ```(`)``` 제품정보 `InlineCode` 이름 * backticks의 수가 놓인 경우, 한 backtick은 기본적으로 사용됩니다.
+우리는 단어에서 시작하는 이름으로 문자 스타일을 사용합니다. `InlineCode`· 선택된 점에 의해 뒤로 `(.)` 백틱스의 수 ```(`)``` 제품정보 `InlineCode` 이름 * backticks의 수가 놓인 경우, 한 backtick은 기본적으로 사용됩니다.
 
 |  Markdown 제품 정보 |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |
@@ -68,9 +68,9 @@ Bulleted 및 주문 목록은 컨테이너 블록입니다. Markdown 한국어 �
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **HorizontalRule**<br/>`-----` |  해당 HorizontalRule 모양의 간단한 단락입니다.<br/>`DocumentBuilder.InsertHorizontalRule()` |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-HorizontalRule.java" >}}  |                                                                |
-|  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`, 여기서 (1<= N <= 9).<br/>이것은 내장 스타일로 번역되며 지정된 패턴 (스프록스 또는 접두사는 허용되지 않음)의 정확히해야합니다.<br/>그렇지 않으면 해당 스타일의 정규 단락이 될 것입니다 |
+|  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = "Heading N"`, 여기서 (1<= N <= 9).<br/>이것은 내장 스타일로 번역되며 지정된 패턴 (스프록스 또는 접두사는 허용되지 않음)의 정확히해야합니다.<br/>그렇지 않으면 해당 스타일의 정규 단락이 될 것입니다 |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Heading.java" >}}  |                                                                |
-|  **Setext Heading**<br/>`===` (머리를 두는 수준 1),<br/>`---` (머리를 두는 수준 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, 제품정보 `“Heading N”` 스타일.<br/>if (N >= 2), 다음 `“Heading 2”` 사용될 것입니다, 그렇지 않으면 `“Heading 1”`·<br/>어떤 suffix 허용, 하지만 Aspose.Words importer는 각각 "1"과 "2"를 사용합니다 |
+|  **Setext Heading**<br/>`===` (머리를 두는 수준 1),<br/>`---` (머리를 두는 수준 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, 제품정보 'Heading N' 스타일.<br/>if (N >= 2), 다음 'Heading 2' 사용될 것입니다, 그렇지 않으면 'Heading 1'·<br/>어떤 suffix 허용, 하지만 Aspose.Words importer는 각각 "1"과 "2"를 사용합니다 |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-SetextHeading.java" >}}  |                                                                |
 |   **Indented Code**                                             |  `ParagraphFormat.StyleName = “IndentedCode[some suffix]”`     |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-IndentedCode.java" >}}  |                                                                |

@@ -16,7 +16,7 @@ timestamp: 2024-01-27-14-07-04
 
 ## نحوه ارزیابی وضعیت `IF`
 
-اگر می خواهید شرایط `IF` را بعد از mail merge ارزیابی کنید، می توانید از روش [EvaluateCondition](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldif/evaluate_condition/) استفاده کنید که بلافاصله نتیجه ارزیابی عبارت را برمی گرداند.
+اگر می خواهید شرایط `IF` را بعد از Mail Merge ارزیابی کنید، می توانید از روش [EvaluateCondition](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldif/evaluate_condition/) استفاده کنید که بلافاصله نتیجه ارزیابی عبارت را برمی گرداند.
 
 مثال کد زیر نحوه استفاده از این روش را نشان می دهد:
 

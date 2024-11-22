@@ -237,7 +237,7 @@ Durch die Verwendung der aktuellen Kultur zum Formatieren von Feldern kann ein S
 
 Andererseits formatiert Microsoft Word jedes einzelne Feld basierend auf der Sprache des im Feld gefundenen Textes (insbesondere der Läufe aus dem Feldcode). Manchmal kann dies während der Feldaktualisierung das gewünschte Verhalten sein, beispielsweise wenn Sie globalisierte Dokumente mit Inhalten aus vielen verschiedenen Sprachen haben und möchten, dass jedes Feld das vom Text verwendete Gebietsschema berücksichtigt. Aspose.Words unterstützt diese Funktionalität ebenfalls.
 
-Die [Document](https://reference.aspose.com/words/python-net/aspose.words/document/)-Klasse stellt eine [field_options](https://reference.aspose.com/words/python-net/aspose.words/document/field_options/)-Eigenschaft bereit, die Mitglieder enthält, mit denen gesteuert werden kann, wie Felder im Dokument aktualisiert werden. Das folgende Beispiel zeigt, wie Sie angeben, aus welcher Kultur die für die Datumsformatierung während der Feldaktualisierung und mail merge verwendete Kultur ausgewählt wird.
+Die [Document](https://reference.aspose.com/words/python-net/aspose.words/document/)-Klasse stellt eine [field_options](https://reference.aspose.com/words/python-net/aspose.words/document/field_options/)-Eigenschaft bereit, die Mitglieder enthält, mit denen gesteuert werden kann, wie Felder im Dokument aktualisiert werden. Das folgende Beispiel zeigt, wie Sie angeben, aus welcher Kultur die für die Datumsformatierung während der Feldaktualisierung und Mail Merge verwendete Kultur ausgewählt wird.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-ChangeFieldUpdateCultureSource.py" >}}
 

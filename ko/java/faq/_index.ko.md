@@ -121,7 +121,7 @@ Aspose.Words 제품정보 Java DOC, DOCX, HTML과 같은 가장 인기있는 문
 
 {{% alert color="primary" %}}
 
-더 자세한 정보를 찾을 수 있습니다. mail merge 내 계정 [Mail Merge 및 보고](/words/java/mail-merge-and-reporting/) 문서 영역.
+더 자세한 정보를 찾을 수 있습니다. Mail Merge 내 계정 [Mail Merge 및 보고](/words/java/mail-merge-and-reporting/) 문서 영역.
 
 {{% /alert %}}
 
@@ -136,7 +136,7 @@ Aspose.Words 제품정보 Java DOC, DOCX, HTML과 같은 가장 인기있는 문
 
 **Q: 부모 테이블의 첫 번째 항목에 대한 어린이 테이블에서 데이터를 표시하지 않는 둥지를 merging의 출력은 왜 부모 테이블에 마지막 항목에 대한 모든 항목을 표시, 실제로 그것에 연결되지 않는 하나?**
 
-이것은 템플릿의 병합 영역이 올바르게 형성되지 않기 때문에 모든 둥지를 만들 수 있습니다. mail merge 모든 것에 아무것도 표시하는 지구. 더 보기 [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) 오프닝 꼬리표 및 [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) 태그를 닫고 같은 행이나 셀에 있어야합니다. 예를 들어, 테이블의 셀에 병합 영역을 시작하면 첫 번째 셀과 동일한 행에 병합 영역을 끝해야합니다.
+이것은 템플릿의 병합 영역이 올바르게 형성되지 않기 때문에 모든 둥지를 만들 수 있습니다. Mail Merge 모든 것에 아무것도 표시하는 지구. 더 보기 [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) 오프닝 꼬리표 및 [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) 태그를 닫고 같은 행이나 셀에 있어야합니다. 예를 들어, 테이블의 셀에 병합 영역을 시작하면 첫 번째 셀과 동일한 행에 병합 영역을 끝해야합니다.
 
 ------
 

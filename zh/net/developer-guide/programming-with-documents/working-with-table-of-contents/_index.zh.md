@@ -108,13 +108,13 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 
 <p>![todo:image_alt_text](/words/net/working-with-table-of-contents/working-with-table-of-contents-5.png)</p>
 
-<p>`TC` 字段本身也可以设置 {several, `multiple`, a few, `many`, numerous} 开关。这些都是：</p>
+<p>`TC` 字段本身也可以设置 `{several, multiple, a few, many, numerous}` 开关。这些都是：</p>
 
 <p>- *\F – 如上所述。*</p>
 
 <p>- *\L – 定义此 TC 字段将出现在 `TOC` 中的哪个级别。使用此相同开关的 `TOC` 仅在指定范围内包含此 TC 字段。*</p>
 
-<p>- _\N – 不显示此 `TOC` 条目的页码。如何插入 TC 字段的示例代码可以在下一节中找到。</p> |
+<p>- `_\N` – 不显示此 `TOC` 条目的页码。如何插入 TC 字段的示例代码可以在下一节中找到。</p> |
 
 ### 外观相关开关
 

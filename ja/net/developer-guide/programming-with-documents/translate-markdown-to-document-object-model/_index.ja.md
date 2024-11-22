@@ -41,12 +41,12 @@ Word 文書とは対照的に、Markdown は [Aspose.Words Document Object Model
 |  **Italic**<br /> `*italic text*` |  `Font.Italic = true`  |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}}  |  |
 |  **Strikethrough**<br /> `~Strikethrough text~` |  `Font.StrikeThrough = true`  |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
 builder.Font.Strikethrough = true;
-builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
+builder.Writeln("This text will be Strikethrough"); {{< /highlight >}} |  |
 
 `InlineCode` 機能には、単語 `InlineCode` で始まり、その後にオプションのドット `(.)` と多数のバッククォート ```(`)``` が続く名前の文字スタイルを使用します。多数のバッククォートが欠落している場合は、デフォルトで 1 つのバッククォートが使用されます。
 
@@ -73,10 +73,10 @@ builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **HorizontalRule**<br /> `-----` |  これは、対応する horizontalRule 形状を備えた単純な段落です。<br /> `DocumentBuilder.InsertHorizontalRule()` |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-HorizontalRule.cs" >}}  |                                                                |
-|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`、ここで (1&lt;= N &lt;= 9)。<br />これは組み込みスタイルに変換され、指定されたパターンと正確に一致する必要があります (接尾辞や接頭辞は許可されません)。<br />それ以外の場合は、対応するスタイルを持つ単なる通常の段落になります。 |
+|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = "Heading N"`、ここで (1&le; N &le; 9)。<br />これは組み込みスタイルに変換され、指定されたパターンと正確に一致する必要があります (接尾辞や接頭辞は許可されません)。<br />それ以外の場合は、対応するスタイルを持つ単なる通常の段落になります。 |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}}  |                                                                |
-|  **Setext Heading**<br /> `===` (見出しレベル 1 の場合)、<br /> `---` (見出しレベル 2 の場合) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`、`“Heading N”` スタイルに基づく。<br /> (N &gt;= 2) の場合は `“Heading 2”` が使用され、それ以外の場合は `“Heading 1”` が使用されます。<br />任意のサフィックスを使用できますが、Aspose.Words インポーターはそれぞれ番号「1」と「2」を使用します。 |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  **Setext Heading**<br /> `===` (見出しレベル 1 の場合)、<br /> `---` (見出しレベル 2 の場合) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`、'Heading N' スタイルに基づく。<br /> (N &ge; 2) の場合は 'Heading 2' が使用され、それ以外の場合は 'Heading 1' が使用されます。<br />任意のサフィックスを使用できますが、Aspose.Words インポーターはそれぞれ番号「1」と「2」を使用します。 |
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 builder.ParagraphFormat.StyleName = "Heading 1";
@@ -103,7 +103,7 @@ builder.ParagraphFormat.Style = setexHeading2;
 builder.Document.Styles["SetextHeading2"].BaseStyleName = "Heading 3";
 
 // Setex heading level will be reset to 2 if the base paragraph has a Heading level greater than 2.
-builder.Writeln("Setext Heading level 2");{{< /highlight >}} |
+builder.Writeln("Setext Heading level 2"); {{< /highlight >}} |
 |   **Indented Code**                                             |  `ParagraphFormat.StyleName = “IndentedCode[some suffix]”`     |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-IndentedCode.cs" >}}  |                                                                |
 |  **Fenced Code**<br /> {{< highlight csharp >}}``` c#
@@ -120,7 +120,7 @@ else
 |  Markdown機能 |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **Quote**<br /> `> quote,`<br /> `>> nested quote` |  `ParagraphFormat.StyleName = “Quote[some suffix]”`<br />スタイル名の接尾辞はオプションですが、Aspose.Words インポーターは順序付きの番号 1、2、3、… を使用します。ネストされた引用符の場合。<br />ネストは継承されたスタイルによって定義されます。 |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // By default a document stores blockquote style for the first level.
@@ -131,7 +131,7 @@ builder.Writeln("Blockquote");
 Style quoteLevel2 = builder.Document.Styles.Add(StyleType.Paragraph, "Quote1");
 builder.ParagraphFormat.Style = quoteLevel2;
 builder.Document.Styles["Quote1"].BaseStyleName = "Quote";
-builder.Writeln("1. Nested blockquote");{{< /highlight >}} |
+builder.Writeln("1. Nested blockquote"); {{< /highlight >}} |
 |  **BulletedList**<br /> `- Item 1`<br /> `- Item 2`<br /> `   - Item 2a`<br /> `   - Item 2b` |  箇条書きリストは段落番号を使用して表されます。<br /> `ListFormat.ApplyBulletDefault()`<br />箇条書きリストには 3 種類あります。これらは、最初のレベルの番号付け形式の差分であるだけです。これらはそれぞれ、`‘-’`、`‘+’`、または `‘*’` です。 |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BulletedList.cs" >}}  |                                                                |
 |  **OrderedList**<br /> `1. Item 1`<br /> `2. Item 2`<br /> `1) Item 2a`<br /> `2) Item 2b` |  順序付きリストは段落番号を使用して表されます。<br /> `ListFormat.ApplyNumberDefault()`<br /> 2 つの数値形式マーカー「.」を使用できます。そして '）'。デフォルトのマーカーは「.」です。 |
@@ -148,7 +148,7 @@ builder.Writeln("Item 2");
 builder.ListFormat.ListIndent();
 
 builder.Writeln("Item 2a");
-builder.Writeln("Item 2b");{{< /highlight >}} |                                                                |
+builder.Writeln("Item 2b"); {{< /highlight >}} |                                                                |
 
 ### テーブル
 
@@ -157,7 +157,7 @@ Aspose.Words では、以下に示すようにテーブルを DOM に変換す�
 |  Markdown機能 |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  `Table`<br /> 「あ」 | b`<br />`-|-`<br />`c|d` |  [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/)、[Row](https://reference.aspose.com/words/net/aspose.words.tables/row/)、および [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) クラス。 |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Add the first row.
@@ -170,7 +170,7 @@ builder.Writeln("b");
 builder.InsertCell();
 builder.Writeln("c");
 builder.InsertCell();
-builder.Writeln("d");{{< /highlight >}} |                                                                |
+builder.Writeln("d"); {{< /highlight >}} |                                                                |
 
 ## 関連項目
 

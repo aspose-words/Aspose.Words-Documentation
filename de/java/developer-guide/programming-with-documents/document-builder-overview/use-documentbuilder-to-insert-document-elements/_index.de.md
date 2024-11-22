@@ -153,7 +153,7 @@ Kunden können angeben Lokal auf Feldebene jetzt und kann eine bessere Kontrolle
 
 ## Einfügen von HTML
 
-Sie können einfach eine HTML-String einfügen, die ein HTML-Fragment oder ein ganzes HTML-Dokument in das Word-Dokument enthält. Passen Sie einfach diesen String an den DocumentBuilder. Einsatzbereich Html-Methode. Eine der nützlichen Implementierungen des Verfahrens ist das Speichern eines HTML-Strings in einer Datenbank und das Einfügen in das Dokument während mail merge die formatierten Inhalte hinzugefügt zu bekommen, anstatt es mit verschiedenen Methoden des Dokumentbauers zu bauen. Das folgende Codebeispiel zeigt Einfügen von HTML in ein Dokument mit DocumentBuilder.
+Sie können einfach eine HTML-String einfügen, die ein HTML-Fragment oder ein ganzes HTML-Dokument in das Word-Dokument enthält. Passen Sie einfach diesen String an den DocumentBuilder. Einsatzbereich Html-Methode. Eine der nützlichen Implementierungen des Verfahrens ist das Speichern eines HTML-Strings in einer Datenbank und das Einfügen in das Dokument während Mail Merge die formatierten Inhalte hinzugefügt zu bekommen, anstatt es mit verschiedenen Methoden des Dokumentbauers zu bauen. Das folgende Codebeispiel zeigt Einfügen von HTML in ein Dokument mit DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHtml-DocumentBuilderInsertHtml.java" >}}
 

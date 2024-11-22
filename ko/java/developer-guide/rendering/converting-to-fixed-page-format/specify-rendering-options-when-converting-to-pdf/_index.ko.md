@@ -32,7 +32,7 @@ PDF/A에 대한 자세한 내용은 다음 문서를 참조하십시오. "PDF/A�
 
 그것은 또한에서 채울 수있는 형태로 수출 가능 Microsoft Word 문서 출력 PDF로 일반 텍스트 대신 양식을 작성할 수 있습니다. 사용 방법 [PreserveFormFields](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getPreserveFormFields) 문서를 PDF로 작성할 수 있습니다.
 
-관심에 관심 <span notrans="<span notrans=" Microsoft Word"=""></span>· PDF 형식은 textbox, combo 상자 및 checkbox와 같은 편집 가능한 형태를 위한 한정된 수의 선택권이 있습니다. Microsoft Word 더 많은 유형의 형태를 가지고, 예를 들면, 달력 날짜 피커. 일반적으로, 그것은 완전히 imitate 할 수 없습니다 Microsoft Word PDF의 동작. 따라서, 일부 복잡한 경우, PDF 출력은 당신이 보는 것과 다를 수 있습니다 Microsoft Word·
+관심에 관심 Microsoft Word· PDF 형식은 textbox, combo 상자 및 checkbox와 같은 편집 가능한 형태를 위한 한정된 수의 선택권이 있습니다. Microsoft Word 더 많은 유형의 형태를 가지고, 예를 들면, 달력 날짜 피커. 일반적으로, 그것은 완전히 imitate 할 수 없습니다 Microsoft Word PDF의 동작. 따라서, 일부 복잡한 경우, PDF 출력은 당신이 보는 것과 다를 수 있습니다 Microsoft Word·
 
 아래의 코드 예제는 지정된 Jpeg 압축 및 품질로 작성 가능한 양식을 PDF로 문서를 저장하는 방법을 보여줍니다
 

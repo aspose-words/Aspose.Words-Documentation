@@ -14,7 +14,7 @@ timestamp: 2024-07-09-19-00-42
 
 ## Перетворення документа в XLSX
 
-Перетворення документа в XLSX є досить складним процесом. Для збереження вашого документа в формат XLSX <span notrans="<span notrans=" Aspose.Words"=""></span>, > використовувати [XlsxSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsaveoptions/) клас і новий `Xlsx` елемент в [SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat/) заохочення. Як зазначено вище, ви можете зберегти документ у будь-якому форматі завантаження, що підтримується Aspose.Words до XLSX.
+Перетворення документа в XLSX є досить складним процесом. Для збереження вашого документа в формат XLSX Aspose.Words, > використовувати [XlsxSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsaveoptions/) клас і новий `Xlsx` елемент в [SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat/) заохочення. Як зазначено вище, ви можете зберегти документ у будь-якому форматі завантаження, що підтримується Aspose.Words до XLSX.
 
 Приклад коду показує, як зберегти PDF на XLSX:
 

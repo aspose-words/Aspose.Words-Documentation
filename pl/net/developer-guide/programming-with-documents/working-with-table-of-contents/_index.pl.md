@@ -108,13 +108,13 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 
 <p>![todo:image_alt_text](/words/net/working-with-table-of-contents/working-with-table-of-contents-5.png)</p>
 
-<p>Same pola `TC` również mogą mieć ustawione przełączniki {several, `multiple`, a few, `many`, numerous}. To są:</p>
+<p>Same pola `TC` również mogą mieć ustawione przełączniki `{several, multiple, a few, many, numerous}`. To są:</p>
 
 <p>- *\F – Wyjaśniono powyżej.*</p>
 
 <p>- *\L – Określa, na którym poziomie w `TOC` pojawi się to pole TC. `TOC`, który używa tego samego przełącznika, będzie zawierać to pole TC tylko wtedy, gdy będzie się ono mieścić w określonym zakresie.*</p>
 
-<p>- _\N – Numeracja stron dla tego wpisu `TOC` nie jest wyświetlana. Przykładowy kod wstawiania pól TC można znaleźć w następnej sekcji.</p> |
+<p>- `_\N` – Numeracja stron dla tego wpisu `TOC` nie jest wyświetlana. Przykładowy kod wstawiania pól TC można znaleźć w następnej sekcji.</p> |
 
 ### Przełączniki związane z wyglądem
 

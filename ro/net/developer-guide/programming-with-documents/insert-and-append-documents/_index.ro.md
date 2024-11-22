@@ -50,7 +50,7 @@ Exemplul următor de cod arată cum să inserezi conținutul unui document în a
 
 ### Inserare document în timpul Mail Merge operațiune {#insert-a-document-during-mail-merge-operation}
 
-Puteţi introduce un document într-un câmp de fuziune în timpul unei mail merge operaţii. De exemplu, un șablon mail merge poate conține un câmp de fuziune cum ar fi [Rezumat]. "Dar în documentul final, trebuie să inserați conținut obținut dintr-un alt document extern în acest câmp de fuziune." Pentru asta, vei avea nevoie să creezi un mânuitor pentru evenimentul de fuziune.
+Puteţi introduce un document într-un câmp de fuziune în timpul unei Mail Merge operaţii. De exemplu, un șablon Mail Merge poate conține un câmp de fuziune cum ar fi [Rezumat]. "Dar în documentul final, trebuie să inserați conținut obținut dintr-un alt document extern în acest câmp de fuziune." Pentru asta, vei avea nevoie să creezi un mânuitor pentru evenimentul de fuziune.
 
 Exemplul următor de cod arată cum să creezi un gestionar pentru evenimentul de fuziune pentru a-l utiliza mai târziu în procesul de inserare:
 

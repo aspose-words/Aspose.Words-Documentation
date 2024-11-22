@@ -92,16 +92,16 @@ Sie können verwenden Aspose.Words als Berichtslösung allein. Entwerfen Sie Ihr
 
 |  Merkmal | Aspose.Words für Java | Aspose.Words für Android über Java |
 |  :-  |  :-  |  :-  |
-| Alle Standard verwenden Microsoft Word mail merge Felder in Ihren Berichten einschließlich `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Durchführung mail merge für Dokumente, die auch die komplexesten und geschachtelt enthalten `IF` Felder und Formeln. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Populieren und dynamisch wachsen Tabellen oder Fragmente im Dokument aus Ihrer Datenquelle mit mail merge Regionen. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Alle Standard verwenden Microsoft Word Mail Merge Felder in Ihren Berichten einschließlich `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Durchführung Mail Merge für Dokumente, die auch die komplexesten und geschachtelt enthalten `IF` Felder und Formeln. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Populieren und dynamisch wachsen Tabellen oder Fragmente im Dokument aus Ihrer Datenquelle mit Mail Merge Regionen. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Generieren Sie einfach Berichte, die Stammdaten (Parent-Kind) wie Order/OrderDetails enthalten. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Dokumente mit Daten von jeder Java Datenquelle, die die `ResultSet` Schnittstelle. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Populieren von Dokumenten aus jeder Datenquelle wie einer XML-Datei oder Geschäftsobjekten durch die Implementierung der **IMailMergeDataSource** Schnittstelle. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Nehmen Sie präzise Kontrolle, wie die Zahlenformatierung, über die Zusammenführung Ihrer Daten mit Veranstaltungen. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Bilder einfügen mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Programmmäßig ein Microsoft Word mail merge Datenquelle für ein Dokument. Vorbehalt mail merge Einstellungen und Datenquellen. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Abruf mail merge Feldnamen. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Programmmäßig ein Microsoft Word Mail Merge Datenquelle für ein Dokument. Vorbehalt Mail Merge Einstellungen und Datenquellen. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Abruf Mail Merge Feldnamen. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
 ### Reporting-Funktionen
 

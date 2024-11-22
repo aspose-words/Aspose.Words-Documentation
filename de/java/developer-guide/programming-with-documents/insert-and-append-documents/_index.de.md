@@ -50,7 +50,7 @@ Das folgende Codebeispiel zeigt, wie der Inhalt eines Dokuments während eines F
 
 ### Ein Dokument einfügen Mail Merge Betrieb {#insert-a-document-during-mail-merge-operation}
 
-Sie können während einer mail merge Betrieb. Zum Beispiel a mail merge Template kann ein Zusammenschlussfeld wie [Summary] enthalten. Aber im letzten Dokument müssen Sie Inhalte einfügen, die von einem anderen externen Dokument erhalten wurden. Um dies zu erreichen, müssen Sie einen Handler für das Merger-Event erstellen.
+Sie können während einer Mail Merge Betrieb. Zum Beispiel a Mail Merge Template kann ein Zusammenschlussfeld wie [Summary] enthalten. Aber im letzten Dokument müssen Sie Inhalte einfügen, die von einem anderen externen Dokument erhalten wurden. Um dies zu erreichen, müssen Sie einen Handler für das Merger-Event erstellen.
 
 Das folgende Codebeispiel zeigt, wie ein Handler für das Fusionsereignis erstellt werden kann, um es später im Insertionsprozess zu verwenden:
 

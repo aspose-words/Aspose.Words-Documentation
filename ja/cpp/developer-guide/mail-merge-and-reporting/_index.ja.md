@@ -5,7 +5,7 @@ articleTitle: Mail Mergeと報告
 linktitle: Mail Mergeと報告
 type: docs
 description: "Mail Mergeは、C++を使用して文書をすばやく作成するための一般的な機能です。 Aspose.WordsのためのC++ 標準のmail merge機能を採用し、多くのステップを先に進め、レポート、カタログ、在庫、請求書などのさらに複雑なドキュメントを作成できる本格的なレポーティングソリューションに変換します。"
-keywords: "how to use mail merge c++"
+keywords: "how to use Mail Merge c++"
 weight: 30
 url: /ja/cpp/mail-merge-and-reporting/
 timestamp: 2024-01-30-16-22-34

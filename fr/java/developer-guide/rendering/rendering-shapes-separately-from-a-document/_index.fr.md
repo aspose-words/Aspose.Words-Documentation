@@ -40,7 +40,7 @@ Les types de formes décrits ci-dessus fournissent une méthode spéciale pour r
 
 {{% alert color="primary" %}}
 
-Lorsque vous produisez une <span notrans="<span notrans=" **Shape**"=""></span>""> il doit faire partie de la hiérarchie des documents. Si **Shape** n'est pas une partie de l'arborescence de document alors la sortie rendue sera vide après avoir invoqué **ShapeRenderer** méthodes.
+Lorsque vous produisez une **Shape**""> il doit faire partie de la hiérarchie des documents. Si **Shape** n'est pas une partie de l'arborescence de document alors la sortie rendue sera vide après avoir invoqué **ShapeRenderer** méthodes.
 
 {{% /alert %}}
 

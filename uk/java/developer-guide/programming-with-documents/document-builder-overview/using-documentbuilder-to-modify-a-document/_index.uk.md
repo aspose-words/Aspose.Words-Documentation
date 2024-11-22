@@ -204,7 +204,7 @@ Aspose.Words надає два властивості `ParagraphFormat.SnapToGri
 
 ### Переміщення до `Merge` Сфера
 
-Іноді можна виконати "ручну" mail merge використання `DocumentBuilder` або заповніть поле зливу особливим способом всередині mail merge обробник заходу. Що таке коли [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) може бути корисним. Метод приймає назву поля злиття. Він переміщує курсор на позицію за межами зазначеного поля злиття і видаляє поле зливу. Приклад наступного коду показує, як перемістити курсор на позицію лише за вказаною концентрацією поля.
+Іноді можна виконати "ручну" Mail Merge використання `DocumentBuilder` або заповніть поле зливу особливим способом всередині Mail Merge обробник заходу. Що таке коли [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) може бути корисним. Метод приймає назву поля злиття. Він переміщує курсор на позицію за межами зазначеного поля злиття і видаляє поле зливу. Приклад наступного коду показує, як перемістити курсор на позицію лише за вказаною концентрацією поля.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToMergeField-DocumentBuilderMoveToMergeField.java" >}}
 

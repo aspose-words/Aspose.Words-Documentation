@@ -32,7 +32,7 @@ Per ulteriori informazioni su PDF/A, vedere il prossimo articolo, "Learn Feature
 
 È anche possibile esportare moduli riempibili da un Microsoft Word documento in uscita PDF, che ha forme compilabili invece di un testo normale. Utilizzare [PreserveFormFields](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getPreserveFormFields) proprietà per salvare un documento come PDF con moduli compilabili.
 
-Si noti che in contrasto con <span notrans="<span notrans=" Microsoft Word"=""></span>> il formato PDF ha un numero limitato di opzioni per i moduli modificabili, come casella di testo, casella combinata e casella di controllo. Microsoft Word ha più tipi di forme, per esempio, il raccoglitore di data del calendario. Generalmente, non è possibile imitare completamente Microsoft Word comportamento in PDF. Pertanto, in alcuni casi complessi, l'output PDF può differire da quello che vedi in Microsoft Word.
+Si noti che in contrasto con Microsoft Word> il formato PDF ha un numero limitato di opzioni per i moduli modificabili, come casella di testo, casella combinata e casella di controllo. Microsoft Word ha più tipi di forme, per esempio, il raccoglitore di data del calendario. Generalmente, non è possibile imitare completamente Microsoft Word comportamento in PDF. Pertanto, in alcuni casi complessi, l'output PDF può differire da quello che vedi in Microsoft Word.
 
 L'esempio di codice qui sotto mostra come salvare un documento come PDF con i moduli riempibili con la compressione e la qualità specificate di Jpeg:
 

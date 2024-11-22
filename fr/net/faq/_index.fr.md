@@ -129,7 +129,7 @@ Oui, c'est vrai. Par conséquent, lorsque vous copiez des polices, gardez à l�
 
 {{% alert color="primary" %}}
 
-Vous pouvez trouver des informations plus détaillées sur mail merge dans la section Documentation [Mail Merge et rapports](/words/net/mail-merge-and-reporting/).
+Vous pouvez trouver des informations plus détaillées sur Mail Merge dans la section Documentation [Mail Merge et rapports](/words/net/mail-merge-and-reporting/).
 
 {{% /alert %}}
 
@@ -144,7 +144,7 @@ Le nom d'origine du champ de fusion reste le même sans être remplacé par les 
 
 **Q: Pourquoi le résultat de la fusion imbriquée n'affiche-t-il pas les données de la table enfant pour la première entrée de la table parent, mais affiche tous les éléments de la dernière entrée de la table parent, même ceux qui n'y sont pas réellement liés?**
 
-En effet, les régions de fusion dans le modèle ne sont pas correctement formées, ce qui peut empêcher toutes les régions mail merge imbriquées de s'afficher. La balise d'ouverture [StartTable](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/starttable/) et la balise de fermeture [EndTable](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/endtable/) doivent correspondre et se trouver dans la même ligne ou cellule. Par exemple, si vous commencez à imbriquer des régions de fusion dans une cellule d'un tableau, vous devez terminer la région de fusion dans la même ligne que la première cellule.
+En effet, les régions de fusion dans le modèle ne sont pas correctement formées, ce qui peut empêcher toutes les régions Mail Merge imbriquées de s'afficher. La balise d'ouverture [StartTable](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/starttable/) et la balise de fermeture [EndTable](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/endtable/) doivent correspondre et se trouver dans la même ligne ou cellule. Par exemple, si vous commencez à imbriquer des régions de fusion dans une cellule d'un tableau, vous devez terminer la région de fusion dans la même ligne que la première cellule.
 
 ------
 
@@ -157,7 +157,7 @@ Cela est dû au fait que les relations entre les tables parent et enfant ne sont
 
 ------
 
-**Q: Pourquoi une exception: "System.ArgumentException: Cette contrainte ne peut pas être activée car toutes les valeurs n'ont pas de valeurs parent correspondantes" lors de l'exécution de mail merge imbriqué?**
+**Q: Pourquoi une exception: "System.ArgumentException: Cette contrainte ne peut pas être activée car toutes les valeurs n'ont pas de valeurs parent correspondantes" lors de l'exécution de Mail Merge imbriqué?**
 
 Cela se produit car tous les enregistrements parent n'ont pas d'enregistrement enfant et votre source de données ne correspond pas aux critères suivants: *chaque ligne de la table parent doit avoir une relation un-à-un avec les lignes de la table enfant en fonction de l'enregistrement principal et de l'enregistrement enfant. clés étrangères*.
 

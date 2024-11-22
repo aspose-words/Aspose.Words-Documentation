@@ -41,12 +41,12 @@ Nous utilisons le formatage [Font](https://reference.aspose.com/words/fr/net/asp
 |  **Italic**<br /> `*italic text*` |  `Font.Italic = true`  |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}}  |  |
 |  **Strikethrough**<br /> `~Strikethrough text~` |  `Font.StrikeThrough = true`  |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
 builder.Font.Strikethrough = true;
-builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
+builder.Writeln("This text will be Strikethrough"); {{< /highlight >}} |  |
 
 Nous utilisons un style de caractère avec un nom qui commence par le mot `InlineCode`, suivi d'un point `(.)` facultatif et d'un certain nombre de backticks ```(`)``` pour la fonctionnalité `InlineCode`. Si un certain nombre de backticks sont manqués, alors un backtick sera utilisé par défaut.
 
@@ -73,10 +73,10 @@ Le tableau ci-dessous montre des exemples d'utilisation des blocs Markdown Leaf 
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **HorizontalRule**<br /> `-----` |  Il s'agit d'un simple paragraphe avec une forme HorizontalRule correspondante:<br /> `DocumentBuilder.InsertHorizontalRule()` |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-HorizontalRule.cs" >}}  |                                                                |
-|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`, où (1&lt;= N &lt;= 9).<br /> Ceci est traduit dans un style intégré et doit être exactement du modèle spécifié (aucun suffixe ou préfixe n'est autorisé).<br /> Sinon, ce sera juste un paragraphe normal avec un style correspondant |
+|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = "Heading N"`, où (1&le; N &le; 9).<br /> Ceci est traduit dans un style intégré et doit être exactement du modèle spécifié (aucun suffixe ou préfixe n'est autorisé).<br /> Sinon, ce sera juste un paragraphe normal avec un style correspondant |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}}  |                                                                |
-|  **Setext Heading**<br /> `===` (si titre niveau 1),<br /> `---` (si titre niveau 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, basé sur le style `“Heading N”`.<br /> Si (N &gt;= 2), alors `“Heading 2”` sera utilisé, sinon `“Heading 1”`.<br /> Tout suffixe est autorisé, mais l'importateur Aspose.Words utilise respectivement les nombres "1" et "2" |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  **Setext Heading**<br /> `===` (si titre niveau 1),<br /> `---` (si titre niveau 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, basé sur le style 'Heading N'.<br /> Si (N &ge; 2), alors 'Heading 2' sera utilisé, sinon 'Heading 1'.<br /> Tout suffixe est autorisé, mais l'importateur Aspose.Words utilise respectivement les nombres "1" et "2" |
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 builder.ParagraphFormat.StyleName = "Heading 1";
@@ -103,7 +103,7 @@ builder.ParagraphFormat.Style = setexHeading2;
 builder.Document.Styles["SetextHeading2"].BaseStyleName = "Heading 3";
 
 // Setex heading level will be reset to 2 if the base paragraph has a Heading level greater than 2.
-builder.Writeln("Setext Heading level 2");{{< /highlight >}} |
+builder.Writeln("Setext Heading level 2"); {{< /highlight >}} |
 |   **Indented Code**                                             |  `ParagraphFormat.StyleName = “IndentedCode[some suffix]”`     |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-IndentedCode.cs" >}}  |                                                                |
 |  **Fenced Code**<br /> {{< highlight csharp >}}``` c#
@@ -120,7 +120,7 @@ Le tableau ci-dessous montre des exemples d'utilisation de conteneurs complexes 
 |  Fonctionnalité Markdown |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **Quote**<br /> `> quote,`<br /> `>> nested quote` |  `ParagraphFormat.StyleName = “Quote[some suffix]”`<br /> Le suffixe dans le nom du style est facultatif, mais l'importateur Aspose.Words utilise les nombres ordonnés 1, 2, 3,…. en cas de guillemets imbriqués.<br /> L'imbrication est définie via les styles hérités |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // By default a document stores blockquote style for the first level.
@@ -131,7 +131,7 @@ builder.Writeln("Blockquote");
 Style quoteLevel2 = builder.Document.Styles.Add(StyleType.Paragraph, "Quote1");
 builder.ParagraphFormat.Style = quoteLevel2;
 builder.Document.Styles["Quote1"].BaseStyleName = "Quote";
-builder.Writeln("1. Nested blockquote");{{< /highlight >}} |
+builder.Writeln("1. Nested blockquote"); {{< /highlight >}} |
 |  **BulletedList**<br /> `- Item 1`<br /> `- Item 2`<br /> `   - Item 2a`<br /> `   - Item 2b` |  Les listes à puces sont représentées à l'aide de la numérotation des paragraphes:<br /> `ListFormat.ApplyBulletDefault()`<br /> Il peut y avoir 3 types de listes à puces. Ils ne diffèrent que par un format de numérotation du tout premier niveau. Ce sont respectivement: `‘-’`, `‘+’` ou `‘*’` |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BulletedList.cs" >}}  |                                                                |
 |  **OrderedList**<br /> `1. Item 1`<br /> `2. Item 2`<br /> `1) Item 2a`<br /> `2) Item 2b` |  Les listes ordonnées sont représentées à l'aide de la numérotation des paragraphes:<br /> `ListFormat.ApplyNumberDefault()`<br /> Il peut y avoir 2 marqueurs de format numérique: '.' et ')'. Le marqueur par défaut est '.' |
@@ -148,7 +148,7 @@ builder.Writeln("Item 2");
 builder.ListFormat.ListIndent();
 
 builder.Writeln("Item 2a");
-builder.Writeln("Item 2b");{{< /highlight >}} |                                                                |
+builder.Writeln("Item 2b"); {{< /highlight >}} |                                                                |
 
 ### les tables
 
@@ -157,7 +157,7 @@ Aspose.Words permet également de traduire des tableaux en DOM, comme indiqué c
 |  Fonctionnalité Markdown |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  `Table`<br /> `un | b`<br />`-|-`<br />`c|d` |  Classes [Table](https://reference.aspose.com/words/fr/net/aspose.words.tables/table/), [Row](https://reference.aspose.com/words/fr/net/aspose.words.tables/row/) et [Cell](https://reference.aspose.com/words/fr/net/aspose.words.tables/cell/) |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Add the first row.
@@ -170,7 +170,7 @@ builder.Writeln("b");
 builder.InsertCell();
 builder.Writeln("c");
 builder.InsertCell();
-builder.Writeln("d");{{< /highlight >}} |                                                                |
+builder.Writeln("d"); {{< /highlight >}} |                                                                |
 
 ## Voir également
 

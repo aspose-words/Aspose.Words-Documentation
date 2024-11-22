@@ -153,7 +153,7 @@ Müşteriler şimdi alan düzeyinde Yerel ayarı belirtebilir ve daha iyi kontro
 
 ## HTML ekleme
 
-Bir Word belgesine bir HTML dizesi içeren bir HTML parçasını veya tüm HTML belgesini kolayca ekleyebilirsiniz. Bunu yapmak için sadece bu dizeyi DocumentBuilder'ın insertHtml yöntemine geçirin. Yöntemin yararlı uygulamalarından biri, mail merge sırasında bir veritabanına depolanan bir HTML dizesini belgeye eklemek ve bunun yerine çeşitli yöntemlerle belge oluşturucuyu kullanarak biçimlendirilmiş içeriği eklemektir. Aşağıdaki kod örneği DocumentBuilder kullanarak bir belgeye HTML ekler.
+Bir Word belgesine bir HTML dizesi içeren bir HTML parçasını veya tüm HTML belgesini kolayca ekleyebilirsiniz. Bunu yapmak için sadece bu dizeyi DocumentBuilder'ın insertHtml yöntemine geçirin. Yöntemin yararlı uygulamalarından biri, Mail Merge sırasında bir veritabanına depolanan bir HTML dizesini belgeye eklemek ve bunun yerine çeşitli yöntemlerle belge oluşturucuyu kullanarak biçimlendirilmiş içeriği eklemektir. Aşağıdaki kod örneği DocumentBuilder kullanarak bir belgeye HTML ekler.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHtml-DocumentBuilderInsertHtml.java" >}}
 

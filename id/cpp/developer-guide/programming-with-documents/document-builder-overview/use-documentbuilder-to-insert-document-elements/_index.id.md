@@ -156,7 +156,7 @@ Paket OLE adalah cara lama dan "tidak berdokumen" untuk menyimpan objek yang dis
 
 ## Menyisipkan HTML
 
-Anda dapat dengan mudah menyisipkan string HTML yang berisi fragmen HTML atau seluruh dokumen HTML ke dalam dokumen Word. Cukup berikan string ini ke metode `DocumentBuilder->InsertHtml`. Salah satu implementasi yang berguna dari metode ini adalah menyimpan string HTML dalam database dan memasukkannya ke dalam dokumen selama mail merge untuk menambahkan konten berformat alih-alih membuatnya menggunakan berbagai metode pembuat dokumen. Contoh di bawah ini menunjukkan menyisipkan HTML ke dalam dokumen menggunakan DocumentBuilder.
+Anda dapat dengan mudah menyisipkan string HTML yang berisi fragmen HTML atau seluruh dokumen HTML ke dalam dokumen Word. Cukup berikan string ini ke metode `DocumentBuilder->InsertHtml`. Salah satu implementasi yang berguna dari metode ini adalah menyimpan string HTML dalam database dan memasukkannya ke dalam dokumen selama Mail Merge untuk menambahkan konten berformat alih-alih membuatnya menggunakan berbagai metode pembuat dokumen. Contoh di bawah ini menunjukkan menyisipkan HTML ke dalam dokumen menggunakan DocumentBuilder.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertHtml.cpp" >}}
 

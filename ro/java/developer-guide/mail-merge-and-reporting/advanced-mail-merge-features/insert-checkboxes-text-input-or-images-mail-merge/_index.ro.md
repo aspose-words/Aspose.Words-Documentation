@@ -43,11 +43,11 @@ Următorul exemplu de cod arată cum să inserați checkboxes și câmpurile de 
 
 ## Inserați imagini în timpul Mail Merge
 
-Când efectuați o operație mail merge, puteți insera imagini din Baza de date în document folosind câmpuri speciale image mail merge. Câmpul image mail merge este un câmp de îmbinare numit Image: MyFieldName.
+Când efectuați o operație mail merge, puteți insera imagini din Baza de date în document folosind câmpuri speciale image mail merge. Câmpul image Mail Merge este un câmp de îmbinare numit Image: MyFieldName.
 
 ### Inserați imagini dintr-o bază de date
 
-În timpul unui mail merge, când un câmp de imagine mail merge este întâlnit într-un document, evenimentul [FieldMergingCallback](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getFieldMergingCallback) este declanșat. Puteți răspunde la acest eveniment pentru a returna un nume de fișier, un flux sau un obiect de imagine la motorul mail merge, astfel încât să poată fi inserat în document.
+În timpul unui mail merge, când un câmp de imagine Mail Merge este întâlnit într-un document, evenimentul [FieldMergingCallback](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getFieldMergingCallback) este declanșat. Puteți răspunde la acest eveniment pentru a returna un nume de fișier, un flux sau un obiect de imagine la motorul mail merge, astfel încât să poată fi inserat în document.
 
 Următorul exemplu de cod arată cum să inserați imagini stocate într-o bază de date BLOB câmp într-un raport:
 

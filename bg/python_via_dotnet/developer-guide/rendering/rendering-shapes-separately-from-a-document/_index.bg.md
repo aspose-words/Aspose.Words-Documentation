@@ -39,7 +39,7 @@ Aspose.Words осигурява функционалност за извлича
 
 {{% alert color="primary" %}}
 
-Когато правите <span notrans="<span notrans=" [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/)"=""></span>,"> трябва да е част от йерархията на документите. Ако [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) не е част от дървото на документа, след което преведената продукция ще бъде празна след като бъде призована [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/) методи.
+Когато правите [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) трябва да е част от йерархията на документите. Ако [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) не е част от дървото на документа, след което преведената продукция ще бъде празна след като бъде призована [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/) методи.
 
 {{% /alert %}}
 

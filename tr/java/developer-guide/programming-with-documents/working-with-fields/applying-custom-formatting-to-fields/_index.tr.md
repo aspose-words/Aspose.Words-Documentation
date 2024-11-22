@@ -26,7 +26,7 @@ Aşağıdaki kod örneği, alan sonucuna özel biçimlendirme uygulamak için na
 
 ## Nasıl `IF` koşulunu değerlendirirsin?
 
-Eğer bir `IF` koşulunu mail merge sonrası değerlendirmek istiyorsan, ifadeyi değerlendirmenin sonucunu hemen döndüren [EvaluateCondition](https://reference.aspose.com/words/java/com.aspose.words/fieldif/#evaluateCondition) metodunu kullanabilirsin.
+Eğer bir `IF` koşulunu Mail Merge sonrası değerlendirmek istiyorsan, ifadeyi değerlendirmenin sonucunu hemen döndüren [EvaluateCondition](https://reference.aspose.com/words/java/com.aspose.words/fieldif/#evaluateCondition) metodunu kullanabilirsin.
 
 Aşağıdaki kod örneği bu yöntemin nasıl kullanılacağını göstermektedir:
 

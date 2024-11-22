@@ -92,16 +92,16 @@ Aspose.Words осигурява подробен програмен достъп
 
 |  Характеристики | Aspose.Words вместо Java | Aspose.Words вместо Android през Java |
 |  :-  |  :-  |  :-  |
-| Използване на всички стандарти Microsoft Word mail merge полета в докладите, включително `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, Greetingline. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Изпълнение mail merge за документи, които съдържат дори най-сложните и гнездени `IF` полета и формули. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Популиране и динамично отглеждане на таблици или фрагменти в документа от вашия източник на данни, използвайки mail merge региони. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Използване на всички стандарти Microsoft Word Mail Merge полета в докладите, включително `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, Greetingline. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Изпълнение Mail Merge за документи, които съдържат дори най-сложните и гнездени `IF` полета и формули. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Популиране и динамично отглеждане на таблици или фрагменти в документа от вашия източник на данни, използвайки Mail Merge региони. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Лесно се генерират доклади, които съдържат данни за основните детайли (родител-дете) като поръчка/OrderDetails. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Популиране на документи с данни от всякакви Java източник на данни, който въвежда `ResultSet` интерфейс. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Популиране на документи от всеки източник на данни като XML файл или бизнес обекти чрез прилагане на **IMailMergeDataSource** интерфейс. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Вземете прецизен контрол, като форматиране на брой, върху начина, по който вашите данни се сливат с помощта на събития. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Вмъкване на изображения по време на mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Програматично създаване или промяна на Microsoft Word mail merge източник на данни за документ. Запазване mail merge настройки и източници на данни. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Извличане mail merge полеви имена. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Програматично създаване или промяна на Microsoft Word Mail Merge източник на данни за документ. Запазване Mail Merge настройки и източници на данни. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Извличане Mail Merge полеви имена. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
 ### Характеристики за докладване
 

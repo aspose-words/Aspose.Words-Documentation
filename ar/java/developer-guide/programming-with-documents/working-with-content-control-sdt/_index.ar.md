@@ -10,7 +10,7 @@ url: /ar/java/working-with-content-control-sdt/
 timestamp: 2024-01-31-14-23-37
 ---
 
-In Microsoft Word, يمكنك أن تخلق شكلاً من خلال البدء بنموذج و إضافة ضوابط للمحتوى بما في ذلك صناديق الشيكات وصناديق النص وأجهزة التأريخ وقوائم الهبوط In <span notrans="<span notrans=" Aspose.Words"=""></span>" a Structured Document Tag or content control from any document loaded into Aspose.Words يتم استيراده على أنه عقيدة تاغ منظمة. وتسمح بطاقات الوثائق المصممة (الشعبة العامة أو مراقبة المحتوى) بتضمينها مواد سيمانية محددة من الزبائن، فضلا عن سلوكها ومثولها في وثيقة.
+In Microsoft Word, يمكنك أن تخلق شكلاً من خلال البدء بنموذج و إضافة ضوابط للمحتوى بما في ذلك صناديق الشيكات وصناديق النص وأجهزة التأريخ وقوائم الهبوط In Aspose.Words a Structured Document Tag or content control from any document loaded into Aspose.Words يتم استيراده على أنه عقيدة تاغ منظمة. وتسمح بطاقات الوثائق المصممة (الشعبة العامة أو مراقبة المحتوى) بتضمينها مواد سيمانية محددة من الزبائن، فضلا عن سلوكها ومثولها في وثيقة.
 
 الوثائق الهيكلية ويمكن أن يحدث التذاكر في وثيقة في الأماكن التالية:
 

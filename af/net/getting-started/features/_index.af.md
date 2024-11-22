@@ -114,16 +114,16 @@ Jy kan Aspose.Words as'n verslagdoeningsoplossing op sy eie gebruik. Ontwerp jou
 
 | Kenmerk | .NET | .NET Standard 2.0 | Xamarin.Android | Xamarin.iOS | Xamarin.Mac |
 | :- | :- | :- | :- | :- | :- |
-| Gebruik alle standaard Microsoft Word mail merge velde in jou verslae insluitend `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Voer mail merge uit vir dokumente wat selfs die mees komplekse en geneste `IF` velde en formules bevat. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Vul en dinamies groei tabelle of fragmente in die dokument uit jou databron met behulp van mail merge streke. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Gebruik alle standaard Microsoft Word Mail Merge velde in jou verslae insluitend `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Voer Mail Merge uit vir dokumente wat selfs die mees komplekse en geneste `IF` velde en formules bevat. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Vul en dinamies groei tabelle of fragmente in die dokument uit jou databron met behulp van Mail Merge streke. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Genereer maklik verslae wat meester-detail (ouer-kind) data soos Orde/OrderDetails bevat. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Vul dokumente in met data van enige .NET databron soos DataSet, DataTable, DataView, DataReader of ADO Rekordstel. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Vul dokumente van enige databron soos'n LINQ navraag, XML lêer of besigheid voorwerpe deur die implementering van die **IMailMergeDataSource** koppelvlak. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Neem presiese beheer, soos getalformatering, oor hoe u data saamgevoeg word met behulp van gebeure. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Voeg beelde in tydens mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Programmaties skep of verander'n Microsoft Word mail merge databron vir'n dokument. Bewaar mail merge instellings en databronne. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Haal mail merge veld name. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Programmaties skep of verander'n Microsoft Word Mail Merge databron vir'n dokument. Bewaar Mail Merge instellings en databronne. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Haal Mail Merge veld name. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
 ## Verslagdoeningskenmerke
 

@@ -153,7 +153,7 @@ Khách hàng có thể chỉ định Locale tại cấp trường hiện nay và
 
 ## Chèn vào HTML
 
-Bạn có thể dễ dàng chèn một chuỗi HTML chứa một phần của tài liệu HTML hoặc toàn bộ tài liệu HTML vào tài liệu Word. Chỉ cần truyền chuỗi này vào phương thức insertHtml của DocumentBuilder. Một trong những thực hiện hữu ích của phương pháp là lưu trữ một chuỗi HTML trong cơ sở dữ liệu và chèn nó vào tài liệu trong mail merge để nhận được nội dung đã định dạng thêm thay vì xây dựng nó bằng các phương pháp khác nhau của trình tạo tài liệu. Mã ví dụ sau cho thấy chèn HTML vào một tài liệu sử dụng DocumentBuilder.
+Bạn có thể dễ dàng chèn một chuỗi HTML chứa một phần của tài liệu HTML hoặc toàn bộ tài liệu HTML vào tài liệu Word. Chỉ cần truyền chuỗi này vào phương thức insertHtml của DocumentBuilder. Một trong những thực hiện hữu ích của phương pháp là lưu trữ một chuỗi HTML trong cơ sở dữ liệu và chèn nó vào tài liệu trong Mail Merge để nhận được nội dung đã định dạng thêm thay vì xây dựng nó bằng các phương pháp khác nhau của trình tạo tài liệu. Mã ví dụ sau cho thấy chèn HTML vào một tài liệu sử dụng DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHtml-DocumentBuilderInsertHtml.java" >}}
 

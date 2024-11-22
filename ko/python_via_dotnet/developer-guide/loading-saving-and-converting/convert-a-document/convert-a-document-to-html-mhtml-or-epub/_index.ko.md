@@ -34,7 +34,7 @@ doc.save(dataDir + "Document", aw.SaveFormat.HTML)
 
 HTML 형식은 많은 Microsoft Word 기능을 지원하지 않으며 문서 모델을 원본에 최대한 가깝게 복원해야 하는 경우 HTML 파일 내에 몇 가지 추가 정보를 저장해야 합니다. 이러한 정보를 '왕복정보'라고도 합니다. 이를 위해 Aspose.Words는 **수출_왕복_정보** 속성을 사용하여 HTML, MHTML 또는 EPUB에 저장할 때 왕복 정보를 내보내는 기능을 제공합니다. 왕복 정보를 저장하면 나열된 형식의 문서를 [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) 개체로 다시 로드하는 동안 탭, 설명, 머리글 및 바닥글과 같은 문서 속성을 복원할 수 있습니다.
 
-기본값은 HTML의 경우 *True*이고 MHTML 및 EPUB의 경우 *False*입니다
+기본값은 HTML의 경우 *True* 이고 MHTML 및 EPUB의 경우 *False*입니다
 
 - *True* 시 왕복 정보는 -aw - * 해당 HTML 요소의 CSS 속성으로 내보내집니다
 - *False* 시 제작된 파일에 출력되는 왕복 정보가 없습니다
@@ -74,7 +74,7 @@ Aspose.Words를 사용하면 문서가 HTML로 변환될 때 이미지, 글꼴, 
 
 ### Base64 인코딩 글꼴 리소스 내보내기
 
-Aspose.Words는 글꼴 리소스를 Base64 인코딩의 HTML에 포함해야 하는지 여부를 지정하는 기능을 제공합니다. 이를 수행하려면 [export_fonts_as_base64](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/export_fonts_as_base64/) 속성을 사용하십시오. 이는 [export_font_resources](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/export_font_resources/) 속성의 확장입니다. 기본적으로 해당 값은 *False*이며 글꼴은 별도의 파일에 기록됩니다. 하지만 이 옵션을 *True*으로 설정하면 글꼴이 Base64 인코딩으로 문서의 CSS에 포함됩니다. [export_fonts_as_base64](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/export_fonts_as_base64/) 속성은 HTML 형식에만 영향을 미치며 EPUB 및 MHTML에는 영향을 주지 않습니다.
+Aspose.Words는 글꼴 리소스를 Base64 인코딩의 HTML에 포함해야 하는지 여부를 지정하는 기능을 제공합니다. 이를 수행하려면 [export_fonts_as_base64](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/export_fonts_as_base64/) 속성을 사용하십시오. 이는 [export_font_resources](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/export_font_resources/) 속성의 확장입니다. 기본적으로 해당 값은 *False*이며 글꼴은 별도의 파일에 기록됩니다. 하지만 이 옵션을 *True* 으로 설정하면 글꼴이 Base64 인코딩으로 문서의 CSS에 포함됩니다. [export_fonts_as_base64](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/export_fonts_as_base64/) 속성은 HTML 형식에만 영향을 미치며 EPUB 및 MHTML에는 영향을 주지 않습니다.
 
 다음 코드 예제에서는 Base64로 인코딩된 글꼴을 HTML로 내보내는 방법을 보여줍니다
 

@@ -37,7 +37,7 @@ Pentru a ilustra cum ușor Aspose.Words returnează conținut pe baza stilurilor
 
 ### Codul
 
-Implementarea unei interogări bazate pe stil este destul de simplă în modelul obiectului Aspose.Words, deoarece folosește doar instrumente care sunt deja în vigoare. Au fost implementate două metode de clasă pentru această soluție:# **ParagraphsByStyleName** - Această metodă recuperează un tablou al paragrafelor din document care au un anumit nume de stil# **RunsByStyleName** - Această metodă recuperează un tablou al ratelor din document care au un anumit nume de stilAmbele metode sunt foarte asemănătoare, singura diferență fiind tipurile de noduri și reprezentarea informațiilor despre stil în nodurile de paragraf și rată.Iată o implementare a ParagraphsByStyleName: exemplu de mai jos găseşte toate paragrafele formatate cu stilul specificat.
+Implementarea unei interogări bazate pe stil este destul de simplă în modelul obiectului Aspose.Words, deoarece folosește doar instrumente care sunt deja în vigoare. Au fost implementate două metode de clasă pentru această soluție: **ParagraphsByStyleName** - Această metodă recuperează un tablou al paragrafelor din document care au un anumit nume de stil**RunsByStyleName** - Această metodă recuperează un tablou al ratelor din document care au un anumit nume de stilAmbele metode sunt foarte asemănătoare, singura diferență fiind tipurile de noduri și reprezentarea informațiilor despre stil în nodurile de paragraf și rată.Iată o implementare a ParagraphsByStyleName: exemplu de mai jos găseşte toate paragrafele formatate cu stilul specificat.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Styles-ExtractContentBasedOnStyles-ParagraphsByStyleName.cs" >}}
 

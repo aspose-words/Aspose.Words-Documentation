@@ -50,7 +50,7 @@ Contoh kode berikut menunjukkan cara memasukkan konten dari satu dokumen ke doku
 
 ### Masukkan Dokumen Selama Operasi Mail Merge {#insert-a-document-during-mail-merge-operation}
 
-Anda dapat menyisipkan dokumen ke dalam bidang gabungan selama operasi mail merge. Misalnya, templat mail merge bisa berisi bidang gabungan seperti [Ringkasan]. Namun di dokumen akhir, Anda perlu memasukkan konten yang diperoleh dari dokumen eksternal lain ke dalam bidang gabungan ini. Untuk mencapai hal tersebut, Anda perlu membuat handler untuk acara penggabungan.
+Anda dapat menyisipkan dokumen ke dalam bidang gabungan selama operasi mail merge. Misalnya, templat Mail Merge bisa berisi bidang gabungan seperti [Ringkasan]. Namun di dokumen akhir, Anda perlu memasukkan konten yang diperoleh dari dokumen eksternal lain ke dalam bidang gabungan ini. Untuk mencapai hal tersebut, Anda perlu membuat handler untuk acara penggabungan.
 
 Contoh kode berikut menunjukkan cara membuat handler untuk peristiwa penggabungan untuk digunakan nanti dalam proses penyisipan:
 

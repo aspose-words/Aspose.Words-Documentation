@@ -153,7 +153,7 @@ Pelanggan dapat menentukan Lokal di tingkat lapangan sekarang dan dapat mencapai
 
 ## Login
 
-Anda dapat dengan mudah memasukkan string HTML yang mengandung fragmen HTML atau seluruh dokumen HTML ke dalam dokumen Word. Masukkan string ini ke DocumentBuilder. Login Metode Html. Salah satu implementasi yang berguna dari metode ini menyimpan string HTML dalam database dan memasukkannya ke dalam dokumen selama mail merge untuk mendapatkan konten yang diformat ditambahkan daripada membangunnya menggunakan berbagai metode pembangun dokumen. Contoh kode berikut menunjukkan memasukkan HTML ke dalam dokumen menggunakan DocumentBuilder.
+Anda dapat dengan mudah memasukkan string HTML yang mengandung fragmen HTML atau seluruh dokumen HTML ke dalam dokumen Word. Masukkan string ini ke DocumentBuilder. Login Metode Html. Salah satu implementasi yang berguna dari metode ini menyimpan string HTML dalam database dan memasukkannya ke dalam dokumen selama Mail Merge untuk mendapatkan konten yang diformat ditambahkan daripada membangunnya menggunakan berbagai metode pembangun dokumen. Contoh kode berikut menunjukkan memasukkan HTML ke dalam dokumen menggunakan DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHtml-DocumentBuilderInsertHtml.java" >}}
 

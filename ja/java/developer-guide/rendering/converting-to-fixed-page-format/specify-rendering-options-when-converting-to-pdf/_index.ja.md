@@ -32,7 +32,7 @@ PDF/A の詳細については、次の記事「PDF/A への変換の学習特�
 
 充填可能なフォームをエクスポートすることも可能です。 Microsoft Word プレーンテキストではなく、埋め立て可能なフォームを持つPDFを出力するドキュメント。 利用する [PreserveFormFields](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getPreserveFormFields) 文書をPDFとして保存するプロパティ。
 
-とは対照的に <span notrans="<span notrans=" Microsoft Word"=""></span>????? PDF形式は、テキストボックス、コンボボックス、チェックボックスなどの編集可能なフォームの限られた数のオプションがあります。 Microsoft Word カレンダー日付ピッカーなど、フォームの種類が増えています。 一般的には、完全に模倣することはできません Microsoft Word PDFでの動作 そのため、複雑なケースでは、PDF出力が表示されるものと異なる場合があります。 Microsoft Wordお問い合わせ
+とは対照的に Microsoft Word????? PDF形式は、テキストボックス、コンボボックス、チェックボックスなどの編集可能なフォームの限られた数のオプションがあります。 Microsoft Word カレンダー日付ピッカーなど、フォームの種類が増えています。 一般的には、完全に模倣することはできません Microsoft Word PDFでの動作 そのため、複雑なケースでは、PDF出力が表示されるものと異なる場合があります。 Microsoft Wordお問い合わせ
 
 以下のコードの例では、指定されたJpegの圧縮と品質で、文書をPDFとして保存する方法を示します。
 

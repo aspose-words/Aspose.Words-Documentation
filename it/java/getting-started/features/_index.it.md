@@ -122,16 +122,16 @@ Aspose.Words fornisce un accesso programmatico dettagliato alle proprietà di fo
 
 |  Caratteristica |
 |  :-  |
-| Utilizzare tutti gli standard Microsoft Word mail merge campi nei tuoi rapporti, inclusi `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. |
-| Esecuzione mail merge per documenti che contengono anche i più complessi e nidificato `IF` campi e formule. |
-| Popolare e crescere dinamicamente tabelle o frammenti nel documento dalla fonte dati utilizzando mail merge regioni. |
+| Utilizzare tutti gli standard Microsoft Word Mail Merge campi nei tuoi rapporti, inclusi `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. |
+| Esecuzione Mail Merge per documenti che contengono anche i più complessi e nidificato `IF` campi e formule. |
+| Popolare e crescere dinamicamente tabelle o frammenti nel documento dalla fonte dati utilizzando Mail Merge regioni. |
 | Crea facilmente report che contengono dati master-detail (parent-child) come Order/OrderDetails. |
 | Popula documenti con dati da qualsiasi Java fonte di dati che implementa il `ResultSet` interfaccia. |
 | Popolare documenti da qualsiasi fonte di dati come un file XML o oggetti aziendali implementando **IMailMergeDataSource** interfaccia. |
 | Assumere un controllo preciso, come la formattazione dei numeri, su come i dati vengono fusi con gli eventi. |
 | Inserire le immagini durante un mail merge. |
-| Creare o modificare programmaticamente Microsoft Word mail merge fonte di dati per un documento. Conservazione mail merge impostazioni e fonti di dati. |
-| Recuperare mail merge nomi di campo. |
+| Creare o modificare programmaticamente Microsoft Word Mail Merge fonte di dati per un documento. Conservazione Mail Merge impostazioni e fonti di dati. |
+| Recuperare Mail Merge nomi di campo. |
 
 ## Caratteristiche di segnalazione
 

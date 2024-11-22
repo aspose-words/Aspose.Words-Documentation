@@ -92,16 +92,16 @@ Raporlama çözümü olarak tek başına Aspose.Words'ı kullanabilirsiniz. Rapo
 
 | Özellik | Aspose.Words için Java | Aspose.Words için Android'e Java üzerinden |
 | :- | :- | :- |
-| Raporlarınızda tüm standart Microsoft Word mail merge alanları dahil etmek için `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Dokümanları hatta en karmaşık ve iç içe geçmiş `IF` alanları ve formülleri içeren belgeleri çalıştırmak için mail merge 'u kullanın. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Bileşik veri kaynağınızı kullanarak belgedeki tabloları veya parçacıkları doldurmak ve dinamik olarak büyütmek için mail merge bölgelerini kullanın. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Raporlarınızda tüm standart Microsoft Word Mail Merge alanları dahil etmek için `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Dokümanları hatta en karmaşık ve iç içe geçmiş `IF` alanları ve formülleri içeren belgeleri çalıştırmak için Mail Merge 'u kullanın. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Bileşik veri kaynağınızı kullanarak belgedeki tabloları veya parçacıkları doldurmak ve dinamik olarak büyütmek için Mail Merge bölgelerini kullanın. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Sipariş/Sipariş Ayrıntıları" gibi üst düzey ayrıntı (ebeveyn-çocuk) verileri içeren raporları kolayca oluşturun. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Herhangi bir Java veri kaynağına uygulanan `ResultSet` arayüzünden gelen verilerle belgeler oluşturun. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | XML dosyasından veya iş nesnelerinden herhangi bir veri kaynağından belgeler oluşturun **IMailMergeDataSource** arayüzünü uygulayarak. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Olaylar aracılığıyla verilerinizin nasıl birleştirildiğine ilişkin sayısal biçimlendirme gibi hassas denetimlerinizi alın. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| resimleri mail merge sırasında ekleyin. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Bir belge için programatik olarak bir Microsoft Word mail merge veri kaynağı oluşturur veya değiştirir. Bir sonraki sürümde mail merge ayarlarını ve veri kaynaklarını sakla. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Alınan mail merge alan adları. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| resimleri Mail Merge sırasında ekleyin. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Bir belge için programatik olarak bir Microsoft Word Mail Merge veri kaynağı oluşturur veya değiştirir. Bir sonraki sürümde Mail Merge ayarlarını ve veri kaynaklarını sakla. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Alınan Mail Merge alan adları. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
 ### Raporlama Özellikleri
 

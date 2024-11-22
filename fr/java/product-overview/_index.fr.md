@@ -66,7 +66,7 @@ Générer des documents ou des rapports à partir de zéro ou en remplissant des
 
 Aspose.Words pour Java couvre tous les Java les environnements de développement et les plateformes de déploiement. Notre API peut être utilisé pour développer des applications pour une large gamme de systèmes d'exploitation, tels que Windows, Linux, Mac OS, Android, et différentes plateformes.
 
-Pour dire simplement, si votre plate-forme peut exécuter standard <span notrans="<span notrans=" Java"=""></span>""> il peut courir Aspose.Words pour Java. Si votre application peut appeler standard Java <span notrans="<span notrans=" API"=""></span>""> vous n'aurez aucun problème à appeler Aspose.Words pour Java API de votre demande.
+Pour dire simplement, si votre plate-forme peut exécuter standard Java"> il peut courir Aspose.Words pour Java. Si votre application peut appeler standard Java API"> vous n'aurez aucun problème à appeler Aspose.Words pour Java API de votre demande.
 
 Pour le moment, notre base est JDK1.7 et plus récent. Mais nous soutenons toujours JDK1.6.
 
@@ -92,7 +92,7 @@ Aspose.Words est sûr de plusieurs fils tant qu'un seul fil fonctionne sur un do
 
 ### Courbe d'apprentissage minimale
 
-Bien qu'il y ait plus de 150 classes publiques et recensements dans <span notrans="<span notrans=" Aspose.Words"=""></span>""> la courbe d'apprentissage est minimale parce que Aspose.Words API a été soigneusement conçu en tenant compte des objectifs suivants:
+Bien qu'il y ait plus de 150 classes publiques et recensements dans Aspose.Words"> la courbe d'apprentissage est minimale parce que Aspose.Words API a été soigneusement conçu en tenant compte des objectifs suivants:
 
 * Emprunter les meilleures pratiques d'autres bien connus APIs comme Microsoft Word Automatisation
 * Emprunter les meilleures pratiques Java Lignes directrices pour la conception du cadre

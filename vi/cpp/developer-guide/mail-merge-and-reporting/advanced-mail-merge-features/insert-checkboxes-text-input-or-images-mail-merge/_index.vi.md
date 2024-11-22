@@ -10,16 +10,16 @@ url: /vi/cpp/insert-checkboxes-text-input-or-images-mail-merge/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Công cụ hợp nhất lấy một tài liệu làm đầu vào, tìm kiếm `MERGEFIELD` các trường trong đó và thay thế chúng bằng dữ liệu thu được từ nguồn dữ liệu. Thông thường, văn bản thuần túy và HTML được chèn vào, nhưng Aspose.Words người dùng cũng có thể tạo một tài liệu xử lý các tình huống bất thường hơn cho mail merge lĩnh vực.
+Công cụ hợp nhất lấy một tài liệu làm đầu vào, tìm kiếm `MERGEFIELD` các trường trong đó và thay thế chúng bằng dữ liệu thu được từ nguồn dữ liệu. Thông thường, văn bản thuần túy và HTML được chèn vào, nhưng Aspose.Words người dùng cũng có thể tạo một tài liệu xử lý các tình huống bất thường hơn cho Mail Merge lĩnh vực.
 
-Mạnh mẽ Aspose.Words chức năng cho phép bạn mở rộng mail merge quy trình:
+Mạnh mẽ Aspose.Words chức năng cho phép bạn mở rộng Mail Merge quy trình:
 
 - chèn các hộp kiểm và các trường biểu mẫu nhập văn bản vào tài liệu trong một mail merge
 - chèn hình ảnh từ bất kỳ bộ nhớ tùy chỉnh nào (tệp, BLOB lĩnh vực, vv)
 
 ## Chèn CheckboxEs Và Nhập Văn bản trong Mail Merge
 
-Đôi khi cần phải thực hiện một mail merge hoạt động để không văn bản được thay thế trong trường hợp nhất, nhưng một hộp kiểm hoặc trường nhập văn bản. Mặc dù đây không phải là kịch bản phổ biến nhất, nhưng nó rất tiện dụng cho một số nhiệm vụ.
+Đôi khi cần phải thực hiện một Mail Merge hoạt động để không văn bản được thay thế trong trường hợp nhất, nhưng một hộp kiểm hoặc trường nhập văn bản. Mặc dù đây không phải là kịch bản phổ biến nhất, nhưng nó rất tiện dụng cho một số nhiệm vụ.
 
 Ảnh chụp màn hình Sau của Tài liệu Word hiển thị một mẫu với các trường hợp nhất:
 
@@ -43,11 +43,11 @@ Ví dụ mã sau đây cho thấy cách chèn các hộp kiểm và các trườ
 
 ## Chèn Hình ảnh trong Mail Merge
 
-Khi thực hiện một mail merge hoạt động, bạn có thể chèn hình ảnh từ cơ sở dữ liệu vào tài liệu bằng hình ảnh đặc biệt mail merge lĩnh vực. Hình ảnh mail merge trường là một trường hợp nhất Có Tên Hình Ảnh:MyFieldName.
+Khi thực hiện một Mail Merge hoạt động, bạn có thể chèn hình ảnh từ cơ sở dữ liệu vào tài liệu bằng hình ảnh đặc biệt Mail Merge lĩnh vực. Hình ảnh Mail Merge trường là một trường hợp nhất Có Tên Hình Ảnh:MyFieldName.
 
 ### Chèn Hình ảnh từ Cơ sở Dữ liệu
 
-Trong một mail merge, khi một hình ảnh mail merge trường gặp phải trong một tài liệu, [FieldMergingCallback](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/get_fieldmergingcallback/) sự kiện bị sa thải. Bạn có thể trả lời sự kiện này để trả về tên tệp, luồng hoặc đối tượng hình ảnh cho mail merge động cơ để nó có thể được chèn vào tài liệu.
+Trong một mail merge, khi một hình ảnh Mail Merge trường gặp phải trong một tài liệu, [FieldMergingCallback](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/get_fieldmergingcallback/) sự kiện bị sa thải. Bạn có thể trả lời sự kiện này để trả về tên tệp, luồng hoặc đối tượng hình ảnh cho Mail Merge động cơ để nó có thể được chèn vào tài liệu.
 
 Ví dụ mã sau đây cho thấy cách chèn hình ảnh được lưu trữ trong cơ sở dữ liệu BLOB trường vào một báo cáo:
 

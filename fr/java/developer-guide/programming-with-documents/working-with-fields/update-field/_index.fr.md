@@ -19,7 +19,7 @@ Lorsqu'un document est chargé, Aspose.Words imite le comportement de Microsoft 
 - lorsque vous ouvrez ou sauvez un document, les champs restent intacts
 - vous pouvez mettre à jour explicitement tous les champs d'un document, par exemple, reconstruire `TOC` quand vous avez besoin de
 - lorsque vous imprimez/rendez en PDF ou XPS les champs relatifs à la numérotation des pages dans les en-têtes/pieds de page sont mis à jour
-- quand vous exécutez mail merge tous les champs sont mis à jour automatiquement
+- quand vous exécutez Mail Merge tous les champs sont mis à jour automatiquement
 
 ### Mettre à jour les champs de façon programmatique
 
@@ -37,11 +37,11 @@ L'exemple suivant montre comment mettre à jour tous les champs avant de rendre 
 
 ### Mise à jour automatique du champ pendant Mail Merge
 
-Lorsque vous exécutez un <span notrans="<span notrans=" mail merge"=""></span>""> tous les champs du document seront automatiquement mis à jour. C'est parce que les mail merge est un cas de mise à jour de champ. Le programme rencontre un mail merge et doit mettre à jour son résultat, ce qui implique de saisir la valeur de la source de données et de l'insérer dans le champ. La logique est, bien sûr, plus compliquée, par exemple, lorsque la fin du document/mail merge la région est atteinte mais il reste d'autres données à fusionner, puis la région doit être dupliquée et la nouvelle série de champs mis à jour.
+Lorsque vous exécutez un mail merge""> tous les champs du document seront automatiquement mis à jour. C'est parce que les Mail Merge est un cas de mise à jour de champ. Le programme rencontre un Mail Merge et doit mettre à jour son résultat, ce qui implique de saisir la valeur de la source de données et de l'insérer dans le champ. La logique est, bien sûr, plus compliquée, par exemple, lorsque la fin du document/mail merge la région est atteinte mais il reste d'autres données à fusionner, puis la région doit être dupliquée et la nouvelle série de champs mis à jour.
 
 ## Mettre à jour les champs ayant l'attribut sale
 
-Le w:dirty est un attribut de niveau de champ qui ne rafraîchira que le champ que vous spécifiez lorsque le document est ouvert. Il dit à MS Word de rafraîchir ce champ seulement la prochaine fois que le document est ouvert. Vous pouvez utiliser la propriété LoadOptions.setUpdateDirtyFields() pour spécifier s'il faut mettre à jour les champs avec l'attribut sale. Lorsque la valeur de LoadOptions.setUpdateDirtyFields() est définie à <span notrans="<span notrans=" *true*"=""></span>""> tous les champs ayant *true* valeur pour `Field.IsDirty` ou `FieldChar.IsDirty` la propriété est mise à jour sur le chargement du document
+Le w:dirty est un attribut de niveau de champ qui ne rafraîchira que le champ que vous spécifiez lorsque le document est ouvert. Il dit à MS Word de rafraîchir ce champ seulement la prochaine fois que le document est ouvert. Vous pouvez utiliser la propriété LoadOptions.setUpdateDirtyFields() pour spécifier s'il faut mettre à jour les champs avec l'attribut sale. Lorsque la valeur de LoadOptions.setUpdateDirtyFields() est définie à *true* tous les champs ayant *true* valeur pour `Field.IsDirty` ou `FieldChar.IsDirty` la propriété est mise à jour sur le chargement du document
 
 L'exemple de code suivant montre comment mettre à jour les champs ayant l'attribut sale:
 

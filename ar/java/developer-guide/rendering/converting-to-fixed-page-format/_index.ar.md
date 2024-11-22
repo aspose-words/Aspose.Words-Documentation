@@ -50,7 +50,7 @@ Aspose.Words (ب) تنفيذ وظيفة تخطيط الصفحات لتمكينه
 
 ![non_geometric_properties_aspose-words-java](/words/java/converting-to-fixed-page-format/converting-to-fixed-page-format-2.png)
 
-In <span notrans="<span notrans=" Aspose.Words"=""></span>" (أ) يمكن للمستعمل أن يطلب ما إذا كان سينشئ مخططاً جديداً للصفحة، أو يستكمل قائمة. وكلاهما يمكن أن يؤديه [UpdatePageLayout](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout\(\)الطريقة التي يوفرها [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) صف إذا لم يكن هناك مخطط للصفحة، ولكن هناك حاجة إليها (مثلا عندما تصدر الوثيقة إلى شكل ثابت الصفحات)، Aspose.Words سيسمي هذا الأسلوب تلقائياً على أي حال، إذا كان هناك مخطط للصفحة بالفعل، Aspose.Words وسيستخدم الموجود حالياً، لتفادي استهلاك الموارد اللازمة لتحديثه. In this case, the user needs to call the `UpdatePageLayout` طريقة، لضمان أن يكون مخطط الصفحات مستوفياً لنموذج الوثيقة.
+In Aspose.Words (أ) يمكن للمستعمل أن يطلب ما إذا كان سينشئ مخططاً جديداً للصفحة، أو يستكمل قائمة. وكلاهما يمكن أن يؤديه [UpdatePageLayout](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout\(\)الطريقة التي يوفرها [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) صف إذا لم يكن هناك مخطط للصفحة، ولكن هناك حاجة إليها (مثلا عندما تصدر الوثيقة إلى شكل ثابت الصفحات)، Aspose.Words سيسمي هذا الأسلوب تلقائياً على أي حال، إذا كان هناك مخطط للصفحة بالفعل، Aspose.Words وسيستخدم الموجود حالياً، لتفادي استهلاك الموارد اللازمة لتحديثه. In this case, the user needs to call the `UpdatePageLayout` طريقة، لضمان أن يكون مخطط الصفحات مستوفياً لنموذج الوثيقة.
 
 ### الهيكل الديناميكي
 

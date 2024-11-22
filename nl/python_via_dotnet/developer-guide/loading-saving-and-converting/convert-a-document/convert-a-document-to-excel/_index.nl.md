@@ -14,7 +14,7 @@ Het omzetten van documenten van het ene formaat naar het andere is het vlaggensc
 
 ## Een document omzetten naar XLSX
 
-Een document omzetten naar XLSX is een vrij ingewikkeld proces. Om uw document op te slaan in XLSX formaat met behulp van <span notrans="<span notrans=" Aspose.Words"=""></span>,"> gebruik [XlsxSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsaveoptions/) klasse en de nieuwe `Xlsx` element in de [SaveFormat](https://reference.aspose.com/words/python-net/aspose.words/saveformat/) Lijst. Zoals hierboven vermeld, kunt u het document opslaan in elk laadformaat ondersteund door Aspose.Words naar XLSX.
+Een document omzetten naar XLSX is een vrij ingewikkeld proces. Om uw document op te slaan in XLSX formaat met behulp van Aspose.Words gebruik [XlsxSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsaveoptions/) klasse en de nieuwe `Xlsx` element in de [SaveFormat](https://reference.aspose.com/words/python-net/aspose.words/saveformat/) Lijst. Zoals hierboven vermeld, kunt u het document opslaan in elk laadformaat ondersteund door Aspose.Words naar XLSX.
 
 Het volgende voorbeeld van code laat zien hoe u PDF kunt opslaan naar XLSX:
 

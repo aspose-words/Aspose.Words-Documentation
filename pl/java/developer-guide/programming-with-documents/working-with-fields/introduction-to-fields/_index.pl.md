@@ -37,7 +37,7 @@ Oto widok jak pole jest przechowywane w Aspose.Words za pomocą przykładu "* Do
 
 ## Pola w Aspose.Words Document Object Model (DOM)
 
-Gdy dokument jest załadowany do <span notrans="<span notrans=" Aspose.Words"=""></span>", > pola dokumentu są załadowane do Aspose.Words Document Object Model jako zestaw oddzielnych komponentów (węzłów). Jedno pole jest załadowane jako zbiór **FieldStart**, **FieldSeparator** oraz **FieldEnd** węzły wraz z zawartością pomiędzy tymi węzłami. Jeśli pole nie ma wyniku pola wtedy nie będzie **FieldSeparator** węzeł. Wszystkie te węzły zawsze znajdują się wewnątrz (jako dzieci [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) lub [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/).
+Gdy dokument jest załadowany do Aspose.Words, > pola dokumentu są załadowane do Aspose.Words Document Object Model jako zestaw oddzielnych komponentów (węzłów). Jedno pole jest załadowane jako zbiór **FieldStart**, **FieldSeparator** oraz **FieldEnd** węzły wraz z zawartością pomiędzy tymi węzłami. Jeśli pole nie ma wyniku pola wtedy nie będzie **FieldSeparator** węzeł. Wszystkie te węzły zawsze znajdują się wewnątrz (jako dzieci [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) lub [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/).
 
 W Aspose.Words każdy z **FieldXXX** węzły pochodzą z [FieldChar](https://reference.aspose.com/words/java/com.aspose.words/fieldchar/). Ta klasa zapewnia właściwość do sprawdzania typu pola reprezentowanego przez określony węzeł [FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) nieruchomości. Na przykład `FieldType.FieldMergeField` reprezentuje pole scalania w dokumencie.
 
@@ -174,9 +174,9 @@ Aspose.Words obsługuje wszystkie przełączniki formatowania daty i czasu dost�
 
 ### Mail Merge Pola
 
-Aspose.Words nie nakłada żadnych ograniczeń na złożoność mail merge pola w dokumentach i wsparcie zagnieżdżone `IF` i pola formuły i może nawet obliczyć nazwę pola połączenia za pomocą wzoru.
+Aspose.Words nie nakłada żadnych ograniczeń na złożoność Mail Merge pola w dokumentach i wsparcie zagnieżdżone `IF` i pola formuły i może nawet obliczyć nazwę pola połączenia za pomocą wzoru.
 
-Niektóre przykłady mail merge pola, które Aspose.Words obsługuje:
+Niektóre przykłady Mail Merge pola, które Aspose.Words obsługuje:
 
 - Mail merge przełączniki pola:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -223,6 +223,6 @@ Z drugiej strony, Microsoft Word formatuje każde pojedyncze pole w oparciu o j�
 
 W [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) klasa zapewnia [FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/document/#getFieldOptions) właściwość, która zawiera członków, które mogą być wykorzystane do kontrolowania sposobu aktualizacji pól w dokumencie.
 
-Poniższy przykład kodu pokazuje, jak określić, gdzie kultura użyta do formatowania daty podczas aktualizacji pola oraz mail merge jest wybierany spośród:
+Poniższy przykład kodu pokazuje, jak określić, gdzie kultura użyta do formatowania daty podczas aktualizacji pola oraz Mail Merge jest wybierany spośród:
 
 PRZYKŁAD

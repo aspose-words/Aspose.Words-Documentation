@@ -40,7 +40,7 @@ Jenis bentuk yang dijelaskan di atas memberikan metode khusus untuk membuat bent
 
 {{% alert color="primary" %}}
 
-Saat membuat <span notrans="<span notrans=" **Shape**"=""></span>Sitemap itu harus menjadi bagian dari hierarki dokumen. Sitemap **Shape** bukan bagian dari pohon dokumen maka output yang diberikan akan kosong setelah panggilan **ShapeRenderer** Login
+Saat membuat **Shape**Sitemap itu harus menjadi bagian dari hierarki dokumen. Sitemap **Shape** bukan bagian dari pohon dokumen maka output yang diberikan akan kosong setelah panggilan **ShapeRenderer** Login
 
 {{% /alert %}}
 

@@ -153,7 +153,7 @@ DocumentBuilder.insertTextInput は、テキストボックスをドキュメン
 
 ## インサート HTML
 
-HTML フラグメントや全 HTML ドキュメントを含む HTML 文字列をWord ドキュメントに簡単に差し込むことができます。 この文字列を DocumentBuilder に渡します。 インサート Htmlメソッド。 メソッドの有用な実装の1つは、データベースに HTML 文字列を格納し、その間に文書にそれを差し込むことです。 mail merge ドキュメントビルダーのさまざまなメソッドを使用してビルドするのではなく、フォーマットされたコンテンツを付加します。 次のコードの例では、ドキュメントビルダーを使用してHTMLをドキュメントにインサートします。
+HTML フラグメントや全 HTML ドキュメントを含む HTML 文字列をWord ドキュメントに簡単に差し込むことができます。 この文字列を DocumentBuilder に渡します。 インサート Htmlメソッド。 メソッドの有用な実装の1つは、データベースに HTML 文字列を格納し、その間に文書にそれを差し込むことです。 Mail Merge ドキュメントビルダーのさまざまなメソッドを使用してビルドするのではなく、フォーマットされたコンテンツを付加します。 次のコードの例では、ドキュメントビルダーを使用してHTMLをドキュメントにインサートします。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHtml-DocumentBuilderInsertHtml.java" >}}
 

@@ -16,7 +16,7 @@ Pour en savoir plus sur les fonctionnalités Aspose.Words, sélectionnez la sect
 
 - [Chargement, Sauvegarde et Conversion](/words/cpp/loading-saving-and-converting/) - fournit des informations sur les différentes façons de charger ou d'enregistrer des documents et des fonctionnalités spécifiques au format utiles pour convertir un document d'un format à un autre.
 - [Rendu](/words/cpp/rendering/) - fournit des informations sur la façon d'obtenir une représentation paginée à partir d'un document au format de page de mise en page de flux.
-- [Mail Merge et rapports](/words/cpp/mail-merge-and-reporting/) - fournit des informations sur la génération de documents, tels que des rapports, des catalogues,des inventaires et des factures, à partir de modèles avec mail merge champs.
+- [Mail Merge et rapports](/words/cpp/mail-merge-and-reporting/) - fournit des informations sur la génération de documents, tels que des rapports, des catalogues,des inventaires et des factures, à partir de modèles avec Mail Merge champs.
 - [Programmation avec des Documents](/words/cpp/programming-with-documents/) - fournit des informations sur la création, la modification et la gestion programmatiques de documents, y compris la modification de leur contenu et de leur apparence visuelle.
 
 Pour une description détaillée des classes, méthodes et propriétés, reportez-vous à la Aspose.Words pour C++ API Reference section.

@@ -14,7 +14,7 @@ timestamp: 2024-01-31-14-23-37
 
 ## ドキュメントをXLSXに変換する
 
-XLSX にドキュメントを変換するのは、かなり複雑なプロセスです。 ドキュメントをXLSX形式に保存するには、 <span notrans="<span notrans=" Aspose.Words"=""></span>????? 使用して下さい [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) クラスと新しい `Xlsx` 要素の [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) パンフレット 上記のように、サポートされている任意のロードフォーマットでドキュメントを保存することができます Aspose.Words XLSX に。
+XLSX にドキュメントを変換するのは、かなり複雑なプロセスです。 ドキュメントをXLSX形式に保存するには、 Aspose.Words????? 使用して下さい [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) クラスと新しい `Xlsx` 要素の [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) パンフレット 上記のように、サポートされている任意のロードフォーマットでドキュメントを保存することができます Aspose.Words XLSX に。
 
 次のコードの例では、PDFをXLSXに保存する方法を示します。
 

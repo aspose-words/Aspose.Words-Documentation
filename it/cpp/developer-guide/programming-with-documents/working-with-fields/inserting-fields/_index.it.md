@@ -94,7 +94,7 @@ L'esempio di codice seguente mostra come aggiungere il campo `MERGE` utilizzando
 
 ### Inserimento del campo Mail Merge Address Block in un documento utilizzando DOM
 
-Il campo `ADDRESSBLOCK` viene utilizzato per inserire un blocco di indirizzi mail merge in un documento Word. Il campo `ADDRESSBLOCK` nel documento Word può essere rappresentato dalla classe [FieldAddressBlock](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldaddressblock/). È possibile utilizzare la classe **FieldAddressBlock** per eseguire le seguenti operazioni:
+Il campo `ADDRESSBLOCK` viene utilizzato per inserire un blocco di indirizzi Mail Merge in un documento Word. Il campo `ADDRESSBLOCK` nel documento Word può essere rappresentato dalla classe [FieldAddressBlock](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldaddressblock/). È possibile utilizzare la classe **FieldAddressBlock** per eseguire le seguenti operazioni:
 
 - specificare se includere il nome del paese / regione nel campo
 - specificare se formattare l'indirizzo in base al paese/regione del destinatario come definito da POST*CODE (Unione Postale Universale 2006)

@@ -32,7 +32,7 @@ Weitere Informationen zu PDF/A finden Sie im nächsten Artikel "Learn Features o
 
 Es ist auch möglich, aus einer Microsoft Word Dokument in Ausgabe PDF, das füllbare Formulare anstelle eines Klartextes hat. Verwenden Sie die [PreserveFormFields](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getPreserveFormFields) Eigenschaft, ein Dokument als PDF mit ausfüllbaren Formularen zu speichern.
 
-Beachten Sie, dass im Gegensatz zu <span notrans="<span notrans=" Microsoft Word"=""></span>,"> das PDF-Format hat eine begrenzte Anzahl von Optionen für editierbare Formulare, wie Textbox, Kombibox und Checkbox. Microsoft Word hat mehr Arten von Formularen, zum Beispiel Kalender Datum Picker. Im Allgemeinen ist es nicht möglich, vollständig nachzuahmen Microsoft Word Verhalten in PDF. Daher kann in einigen komplexen Fällen die PDF-Ausgabe von dem, was Sie in Microsoft Word.
+Beachten Sie, dass im Gegensatz zu Microsoft Word,"> das PDF-Format hat eine begrenzte Anzahl von Optionen für editierbare Formulare, wie Textbox, Kombibox und Checkbox. Microsoft Word hat mehr Arten von Formularen, zum Beispiel Kalender Datum Picker. Im Allgemeinen ist es nicht möglich, vollständig nachzuahmen Microsoft Word Verhalten in PDF. Daher kann in einigen komplexen Fällen die PDF-Ausgabe von dem, was Sie in Microsoft Word.
 
 Das nachfolgende Codebeispiel zeigt, wie man ein Dokument als PDF mit füllbaren Formularen mit spezifizierter Jpeg Kompression und Qualität speichert:
 

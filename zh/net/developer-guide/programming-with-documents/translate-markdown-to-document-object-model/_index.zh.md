@@ -41,12 +41,12 @@ timestamp: 2024-10-21-11-17-44
 |  **Italic**<br /> `*italic text*` |  `Font.Italic = true`  |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}}  |  |
 |  **Strikethrough**<br /> `~Strikethrough text~` |  `Font.StrikeThrough = true`  |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
 builder.Font.Strikethrough = true;
-builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
+builder.Writeln("This text will be Strikethrough"); {{< /highlight >}} |  |
 
 我们使用的字符样式的名称以 `InlineCode` 一词开头，后跟可选的点 `(.)` 和用于 `InlineCode` 功能的多个反引号 ```(`)```。如果缺少多个反引号，则默认使用一个反引号。
 
@@ -73,10 +73,10 @@ builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **HorizontalRule**<br /> `-----` |  这是一个简单的段落，具有相应的 HorizontalRule 形状：<br /> `DocumentBuilder.InsertHorizontalRule()` |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-HorizontalRule.cs" >}}  |                                                                |
-|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`，其中 (1&lt;=N&lt;=9)。<br />这将被转换为内置样式，并且应该完全符合指定的模式（不允许使用后缀或前缀）。<br />否则，它只是一个具有相应样式的常规段落。 |
+|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = "Heading N"`，其中 (1&le;N&le;9)。<br />这将被转换为内置样式，并且应该完全符合指定的模式（不允许使用后缀或前缀）。<br />否则，它只是一个具有相应样式的常规段落。 |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}}  |                                                                |
-|  **Setext Heading**<br /> `===`（如果标题级别为 1），<br /> `---`（如果标题级别为 2） |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`，基于`“Heading N”`风格。<br />如果 (N &gt;= 2)，则将使用 `“Heading 2”`，否则使用 `“Heading 1”`。<br />允许任何后缀，但 Aspose.Words 导入器分别使用数字"1"和"2"。 |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  **Setext Heading**<br /> `===`（如果标题级别为 1），<br /> `---`（如果标题级别为 2） |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`，基于'Heading N'风格。<br />如果 (N &ge; 2)，则将使用 'Heading 2'，否则使用 'Heading 1'。<br />允许任何后缀，但 Aspose.Words 导入器分别使用数字"1"和"2"。 |
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 builder.ParagraphFormat.StyleName = "Heading 1";
@@ -103,7 +103,7 @@ builder.ParagraphFormat.Style = setexHeading2;
 builder.Document.Styles["SetextHeading2"].BaseStyleName = "Heading 3";
 
 // Setex heading level will be reset to 2 if the base paragraph has a Heading level greater than 2.
-builder.Writeln("Setext Heading level 2");{{< /highlight >}} |
+builder.Writeln("Setext Heading level 2"); {{< /highlight >}} |
 |   **Indented Code**                                             |  `ParagraphFormat.StyleName = “IndentedCode[some suffix]”`     |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-IndentedCode.cs" >}}  |                                                                |
 |  **Fenced Code**<br /> {{< highlight csharp >}}``` c#
@@ -120,7 +120,7 @@ else
 |  Markdown 功能 |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **Quote**<br /> `> quote,`<br /> `>> nested quote` |  `ParagraphFormat.StyleName = “Quote[some suffix]”`<br />样式名称中的后缀是可选的，但 Aspose.Words 导入器使用有序数字 1、2、3、...。如果是嵌套引号。<br />嵌套是通过继承的样式定义的。 |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // By default a document stores blockquote style for the first level.
@@ -131,7 +131,7 @@ builder.Writeln("Blockquote");
 Style quoteLevel2 = builder.Document.Styles.Add(StyleType.Paragraph, "Quote1");
 builder.ParagraphFormat.Style = quoteLevel2;
 builder.Document.Styles["Quote1"].BaseStyleName = "Quote";
-builder.Writeln("1. Nested blockquote");{{< /highlight >}} |
+builder.Writeln("1. Nested blockquote"); {{< /highlight >}} |
 |  **BulletedList**<br /> `- Item 1`<br /> `- Item 2`<br /> `   - Item 2a`<br /> `   - Item 2b` |  项目符号列表使用段落编号表示：<br /> `ListFormat.ApplyBulletDefault()`<br />可以有 3 种类型的项目符号列表。它们仅在第一级编号格式上有所不同。它们分别是：`‘-’`、`‘+’` 或 `‘*’`。 |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BulletedList.cs" >}}  |                                                                |
 |  **OrderedList**<br /> `1. Item 1`<br /> `2. Item 2`<br /> `1) Item 2a`<br /> `2) Item 2b` |  有序列表使用段落编号表示：<br /> `ListFormat.ApplyNumberDefault()`<br />可以有 2 个数字格式标记："."和 '）'。默认标记是"."。 |
@@ -148,7 +148,7 @@ builder.Writeln("Item 2");
 builder.ListFormat.ListIndent();
 
 builder.Writeln("Item 2a");
-builder.Writeln("Item 2b");{{< /highlight >}} |                                                                |
+builder.Writeln("Item 2b"); {{< /highlight >}} |                                                                |
 
 ### 表格
 
@@ -157,7 +157,7 @@ Aspose.Words还允许将表格翻译成DOM，如下所示：
 |  Markdown 功能 |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  `Table`<br /> `一个 | b`<br />`-|-`<br />`c|d` |  [Table](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/)、[Row](https://reference.aspose.com/words/zh/net/aspose.words.tables/row/) 和 [Cell](https://reference.aspose.com/words/zh/net/aspose.words.tables/cell/) 类。 |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Add the first row.
@@ -170,7 +170,7 @@ builder.Writeln("b");
 builder.InsertCell();
 builder.Writeln("c");
 builder.InsertCell();
-builder.Writeln("d");{{< /highlight >}} |                                                                |
+builder.Writeln("d"); {{< /highlight >}} |                                                                |
 
 ## 也可以看看
 

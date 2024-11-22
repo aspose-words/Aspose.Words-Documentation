@@ -92,16 +92,16 @@ Můžete použít Aspose.Words jako vlastní reportingové řešení. Navrhněte
 
 |  Funkce | Aspose.Words místo Java | Aspose.Words místo Android přes Java |
 |  :-  |  :-  |  :-  |
-| Použít všechny normy Microsoft Word mail merge pole ve vašich zprávách včetně `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, Greetingline. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Provést mail merge pro dokumenty, které obsahují i nejsložitější a hnízdit `IF` Pole a vzorce. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Populovat a dynamicky růst tabulky nebo fragmenty v dokumentu ze zdroje dat pomocí mail merge regiony. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Použít všechny normy Microsoft Word Mail Merge pole ve vašich zprávách včetně `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, Greetingline. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Provést Mail Merge pro dokumenty, které obsahují i nejsložitější a hnízdit `IF` Pole a vzorce. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Populovat a dynamicky růst tabulky nebo fragmenty v dokumentu ze zdroje dat pomocí Mail Merge regiony. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Snadno generovat zprávy, které obsahují údaje o "master-detail" (rodič-dítě) jako například Order/OrderDetails. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Populovat dokumenty s daty z jakéhokoliv Java zdroj údajů, který provádí `ResultSet` rozhraní. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Populovat dokumenty z jakéhokoli zdroje dat, jako je XML soubor nebo obchodní objekty zavedením **IMailMergeDataSource** rozhraní. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Převezměte přesnou kontrolu, jako je formátování čísel, nad tím, jak jsou vaše data sloučena pomocí událostí. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Vložit obrázky během mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Programově vytvořit nebo upravit a Microsoft Word mail merge zdroj dat pro dokument. Zachovat mail merge nastavení a zdroje dat. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Návrat mail merge jména polí. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Programově vytvořit nebo upravit a Microsoft Word Mail Merge zdroj dat pro dokument. Zachovat Mail Merge nastavení a zdroje dat. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Návrat Mail Merge jména polí. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
 ### Funkce hlášení
 

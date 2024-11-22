@@ -14,7 +14,7 @@ Mengkonversi dokumen dari satu format ke format lain adalah fitur unggulan Aspos
 
 ## Konversi Dokumen ke XLSX
 
-Mengkonversi dokumen ke XLSX adalah proses yang agak rumit. Untuk menyimpan dokumen Anda ke format XLSX menggunakan <span notrans="<span notrans=" Aspose.Words"=""></span>Sitemap Sitemap [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) kelas dan baru `Xlsx` elemen dalam [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) Sitemap Seperti disebutkan di atas, Anda dapat menyimpan dokumen dalam format beban yang didukung oleh Aspose.Words ke XLSX.
+Mengkonversi dokumen ke XLSX adalah proses yang agak rumit. Untuk menyimpan dokumen Anda ke format XLSX menggunakan Aspose.WordsSitemap Sitemap [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) kelas dan baru `Xlsx` elemen dalam [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) Sitemap Seperti disebutkan di atas, Anda dapat menyimpan dokumen dalam format beban yang didukung oleh Aspose.Words ke XLSX.
 
 Contoh kode berikut menunjukkan cara menyimpan PDF ke XLSX:
 

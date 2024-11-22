@@ -109,15 +109,15 @@ Bạn có thể sử dụng Aspose.Words làm giải pháp báo cáo riêng. Thi
 
 |  Tính năng | Python via .NET |
 |  :-  |  :-  |
-| Sử dụng tất cả các trường Microsoft Word mail merge tiêu chuẩn trong báo cáo của bạn bao gồm `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. | {{< emoticons/tick >}} |
-| Thực thi mail merge cho các tài liệu có chứa cả các trường và công thức `IF` lồng nhau và phức tạp nhất. | {{< emoticons/tick >}} |
+| Sử dụng tất cả các trường Microsoft Word Mail Merge tiêu chuẩn trong báo cáo của bạn bao gồm `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. | {{< emoticons/tick >}} |
+| Thực thi Mail Merge cho các tài liệu có chứa cả các trường và công thức `IF` lồng nhau và phức tạp nhất. | {{< emoticons/tick >}} |
 | Điền và phát triển linh hoạt các bảng hoặc đoạn trong tài liệu từ nguồn dữ liệu của bạn bằng cách sử dụng các vùng mail merge. | {{< emoticons/cross >}} |
 | Dễ dàng tạo các báo cáo chứa dữ liệu chi tiết chính (cha-con), chẳng hạn như Đơn hàng/Chi tiết đơn hàng. | {{< emoticons/cross >}} |
 | Điền vào tài liệu dữ liệu từ bất kỳ nguồn dữ liệu .NET nào, chẳng hạn như DataSet, DataTable, DataView, DataReader hoặc ADO Recordset. | {{< emoticons/cross >}} |
 | Điền tài liệu từ bất kỳ nguồn dữ liệu nào, chẳng hạn như truy vấn LINQ, tệp XML hoặc đối tượng kinh doanh bằng cách triển khai giao diện [IMailMergeDataSource](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/imailmergedatasource/). | {{< emoticons/cross >}} |
 | Kiểm soát chính xác, chẳng hạn như định dạng số, về cách hợp nhất dữ liệu của bạn bằng sự kiện. | {{< emoticons/cross >}} |
 | Chèn hình ảnh trong mail merge. | {{< emoticons/tick >}} |
-| Lập trình tạo hoặc sửa đổi nguồn dữ liệu Microsoft Word mail merge cho tài liệu. Giữ nguyên cài đặt mail merge và nguồn dữ liệu. | {{< emoticons/tick >}} |
+| Lập trình tạo hoặc sửa đổi nguồn dữ liệu Microsoft Word Mail Merge cho tài liệu. Giữ nguyên cài đặt Mail Merge và nguồn dữ liệu. | {{< emoticons/tick >}} |
 | Truy xuất tên trường mail merge. | {{< emoticons/tick >}} |
 
 ## Tính năng báo cáo

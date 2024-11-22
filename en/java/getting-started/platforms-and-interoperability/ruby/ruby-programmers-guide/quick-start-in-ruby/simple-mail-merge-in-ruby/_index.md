@@ -4,7 +4,7 @@ second_title: Aspose.Words for Java
 articleTitle: Simple Mail Merge in Ruby
 linktitle: Simple Mail Merge in Ruby
 type: docs
-description: "Simple mail merge using Ruby."
+description: "Simple Mail Merge using Ruby."
 weight: 70
 url: /java/simple-mail-merge-in-ruby/
 timestamp: 2024-01-27-14-07-04

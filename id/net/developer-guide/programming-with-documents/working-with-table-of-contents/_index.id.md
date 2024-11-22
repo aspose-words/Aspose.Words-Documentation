@@ -108,13 +108,13 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 
 <p>![todo:image_alt_text](/words/net/working-with-table-of-contents/working-with-table-of-contents-5.png)</p>
 
-<p>Bidang `TC` sendiri juga dapat mengatur sakelar {several, `multiple`, a few, `many`, numerous}. Ini adalah:</p>
+<p>Bidang `TC` sendiri juga dapat mengatur sakelar `{several, multiple, a few, many, numerous}`. Ini adalah:</p>
 
 <p>- *\F – Dijelaskan di atas.*</p>
 
 <p>- *\L – Menentukan level di `TOC` mana bidang TC ini akan muncul. `TOC` yang menggunakan saklar yang sama hanya akan menyertakan bidang TC ini jika berada dalam rentang yang ditentukan.*</p>
 
-<p>- _\N – Penomoran halaman untuk entri `TOC` ini tidak ditampilkan. Contoh kode cara menyisipkan kolom TC dapat ditemukan di bagian berikutnya.</p> |
+<p>- `_\N` – Penomoran halaman untuk entri `TOC` ini tidak ditampilkan. Contoh kode cara menyisipkan kolom TC dapat ditemukan di bagian berikutnya.</p> |
 
 ### Sakelar Terkait Penampilan
 

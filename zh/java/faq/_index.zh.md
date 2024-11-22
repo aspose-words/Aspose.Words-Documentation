@@ -121,7 +121,7 @@ Aspose.Words (单位:千美元) Java 支持大多数流行文档格式,如DOC,DO
 
 {{% alert color="primary" %}}
 
-您可以找到更多关于 mail merge 输入 [Mail Merge 报告](/words/java/mail-merge-and-reporting/) 文献部分。
+您可以找到更多关于 Mail Merge 输入 [Mail Merge 报告](/words/java/mail-merge-and-reporting/) 文献部分。
 
 {{% /alert %}}
 
@@ -136,7 +136,7 @@ Aspose.Words (单位:千美元) Java 支持大多数流行文档格式,如DOC,DO
 
 **Q: 为什么嵌入式合并的输出不显示父表格中第一个条目的子表数据,而是显示母表格中最后一个条目的所有项目,甚至没有实际链接的项目?**
 
-这是因为模板中的合并区域没有正确形成,这可以使所有的嵌入 mail merge 停止展示任何东西。 那个 [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) 打开标签和 [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) 关闭标记必须匹配并在同一行或单元格中。 例如,如果在表格的单元格中开始嵌入合并区域,则必须结束与第一个单元格在同一行中的合并区域。
+这是因为模板中的合并区域没有正确形成,这可以使所有的嵌入 Mail Merge 停止展示任何东西。 那个 [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) 打开标签和 [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) 关闭标记必须匹配并在同一行或单元格中。 例如,如果在表格的单元格中开始嵌入合并区域,则必须结束与第一个单元格在同一行中的合并区域。
 
 ------
 

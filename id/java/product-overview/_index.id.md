@@ -66,7 +66,7 @@ Hasilkan dokumen atau laporan dari awal atau dengan mengisi template dengan data
 
 Aspose.Words Sitemap Java mencakup semua Java lingkungan pengembangan dan platform penyebaran. Sitemap API dapat digunakan untuk mengembangkan aplikasi untuk berbagai sistem operasi, seperti Windows, Linux, Mac OS, Android, dan berbagai platform.
 
-Untuk menempatkannya hanya, jika platform Anda dapat menjalankan standar <span notrans="<span notrans=" Java"=""></span>Sitemap bisa berjalan Aspose.Words Sitemap JavaSitemap Jika aplikasi Anda dapat memanggil standar Java <span notrans="<span notrans=" API"=""></span>Sitemap Anda tidak akan memiliki masalah untuk panggilan Aspose.Words Sitemap Java API dari aplikasi Anda.
+Untuk menempatkannya hanya, jika platform Anda dapat menjalankan standar JavaSitemap bisa berjalan Aspose.Words Sitemap JavaSitemap Jika aplikasi Anda dapat memanggil standar Java APISitemap Anda tidak akan memiliki masalah untuk panggilan Aspose.Words Sitemap Java API dari aplikasi Anda.
 
 Saat ini baseline kami adalah JDK1.7 dan yang lebih baru. Tapi kami masih mendukung JDK1.6.
 
@@ -92,7 +92,7 @@ Aspose.Words sangat aman selama satu benang bekerja pada dokumen pada waktu. Ini
 
 ### Kurva Pembelajaran Minimal
 
-Meskipun ada lebih dari 150 kelas publik dan enumerasi dalam <span notrans="<span notrans=" Aspose.Words"=""></span>Sitemap kurva belajar minimal karena Aspose.Words API telah dirancang dengan hati-hati dengan tujuan berikut dalam pikiran:
+Meskipun ada lebih dari 150 kelas publik dan enumerasi dalam Aspose.WordsSitemap kurva belajar minimal karena Aspose.Words API telah dirancang dengan hati-hati dengan tujuan berikut dalam pikiran:
 
 * Borrow praktik terbaik dari yang terkenal APISitemap Microsoft Word Sitemap
 * Membosokkan praktik terbaik dari Java Panduan Desain Kerangka

@@ -19,7 +19,7 @@ Po załadowaniu dokumentu Aspose.Words naśladuje zachowanie Microsoft Word z wy
 - po otwarciu/zapisaniu dokumentu pola pozostają nienaruszone
 - możesz jawnie zaktualizować wszystkie pola w dokumencie (np. przebudować spis treści), kiedy zajdzie taka potrzeba
 - podczas drukowania/renderowania do formatu PDF lub XPS, pola związane z numeracją stron w nagłówkach/stopkach są aktualizowane
-- po uruchomieniu mail merge wszystkie pola są aktualizowane automatycznie
+- po uruchomieniu Mail Merge wszystkie pola są aktualizowane automatycznie
 
 ### Aktualizuj pola programowo
 
@@ -43,7 +43,7 @@ Możesz pobrać przykładowy plik tego przykładu z [Aspose.Words GitHub](https:
 
 ### Automatyczna aktualizacja pola podczas Mail Merge
 
-Po wykonaniu mail merge wszystkie pola w dokumencie zostaną automatycznie zaktualizowane. Dzieje się tak, ponieważ mail merge jest przypadkiem aktualizacji w terenie. Program natrafia na pole mail merge i musi zaktualizować jego wynik, co polega na pobraniu wartości ze źródła danych i wstawieniu jej do pola. Logika jest oczywiście bardziej skomplikowana, np. gdy osiągnięty zostanie koniec dokumentu/regionu mail merge, ale nadal pozostają dalsze dane do połączenia, wówczas region należy zduplikować i zaktualizować nowy zestaw pól.
+Po wykonaniu Mail Merge wszystkie pola w dokumencie zostaną automatycznie zaktualizowane. Dzieje się tak, ponieważ Mail Merge jest przypadkiem aktualizacji w terenie. Program natrafia na pole Mail Merge i musi zaktualizować jego wynik, co polega na pobraniu wartości ze źródła danych i wstawieniu jej do pola. Logika jest oczywiście bardziej skomplikowana, np. gdy osiągnięty zostanie koniec dokumentu/regionu mail merge, ale nadal pozostają dalsze dane do połączenia, wówczas region należy zduplikować i zaktualizować nowy zestaw pól.
 
 ## Zaktualizuj pola mające brudny atrybut
 

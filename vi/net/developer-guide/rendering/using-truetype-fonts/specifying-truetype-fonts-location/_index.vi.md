@@ -57,7 +57,7 @@ Vì số liệu phông chữ của Windows và hệ điều hành không phải 
 
 #### Nơi Aspose.Words tìm kiếm phông chữ TrueType trên Linux
 
-Các bản phân phối Linux khác nhau có thể lưu trữ phông chữ trong các thư mục khác nhau. Aspose.Words tìm kiếm phông chữ ở một số vị trí. Theo mặc định, Aspose.Words tìm kiếm phông chữ ở tất cả các vị trí sau: * /usr/share/fonts* /usr/local/share/fonts* /usr/X11R6/lib/X11/fontsHành vi mặc định này sẽ hoạt động đối với hầu hết các bản phân phối Linux, nhưng nó không được đảm bảo hoạt động mọi lúc, trong trường hợp đó bạn có thể cần chỉ định rõ ràng vị trí của phông chữ loại true. Để thực hiện việc này, bạn cần biết phông chữ TrueType được cài đặt ở đâu trên bản phân phối Linux của mình.
+Các bản phân phối Linux khác nhau có thể lưu trữ phông chữ trong các thư mục khác nhau. Aspose.Words tìm kiếm phông chữ ở một số vị trí. Theo mặc định, Aspose.Words tìm kiếm phông chữ ở tất cả các vị trí sau: `/usr/share/fonts` `/usr/local/share/fonts` `/usr/X11R6/lib/X11/fonts`Hành vi mặc định này sẽ hoạt động đối với hầu hết các bản phân phối Linux, nhưng nó không được đảm bảo hoạt động mọi lúc, trong trường hợp đó bạn có thể cần chỉ định rõ ràng vị trí của phông chữ loại true. Để thực hiện việc này, bạn cần biết phông chữ TrueType được cài đặt ở đâu trên bản phân phối Linux của mình.
 
 #### Nơi Aspose.Words tìm kiếm phông chữ TrueType trên Mac OS X
 

@@ -108,13 +108,13 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 
 <p>![todo:image_alt_text](/words/net/working-with-table-of-contents/working-with-table-of-contents-5.png)</p>
 
-<p>`TC` フィールド自体にも {several, `multiple`, a few, `many`, numerous} スイッチを設定することができます。これらは：</p>
+<p>`TC` フィールド自体にも `{several, multiple, a few, many, numerous}` スイッチを設定することができます。これらは：</p>
 
 <p>- *\F – 上で説明しました。*</p>
 
 <p>- *\L – この TC フィールドが `TOC` のどのレベルに表示されるかを定義します。これと同じスイッチを使用する `TOC` には、指定された範囲内にある場合にのみ、この TC フィールドが含まれます。*</p>
 
-<p>- _\N – この `TOC` エントリのページ番号は表示されません。TC フィールドを挿入する方法のサンプル コードは、次のセクションにあります。</p> |
+<p>- `_\N` – この `TOC` エントリのページ番号は表示されません。TC フィールドを挿入する方法のサンプル コードは、次のセクションにあります。</p> |
 
 ### 外観関連のスイッチ
 

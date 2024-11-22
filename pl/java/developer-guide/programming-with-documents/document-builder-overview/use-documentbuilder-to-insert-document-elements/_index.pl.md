@@ -153,7 +153,7 @@ Klienci mogą określić Locale na poziomie pola teraz i może osiągnąć lepsz
 
 ## Wstawianie HTML
 
-Możesz łatwo umieścić łańcuch HTML zawierający fragment HTML lub cały dokument HTML w dokumencie Word. Po prostu przekaż ten sznurek DocumentBuilderowi. wstawić Metoda Html. Jedną z przydatnych implementacji metody jest przechowywanie łańcucha HTML w bazie danych i umieszczanie go w dokumencie podczas mail merge aby dodać sformatowaną zawartość zamiast budować ją przy użyciu różnych metod konstruktora dokumentów. Poniższy przykład kodu pokazuje wstawianie HTML do dokumentu przy użyciu DocumentBuilder.
+Możesz łatwo umieścić łańcuch HTML zawierający fragment HTML lub cały dokument HTML w dokumencie Word. Po prostu przekaż ten sznurek DocumentBuilderowi. wstawić Metoda Html. Jedną z przydatnych implementacji metody jest przechowywanie łańcucha HTML w bazie danych i umieszczanie go w dokumencie podczas Mail Merge aby dodać sformatowaną zawartość zamiast budować ją przy użyciu różnych metod konstruktora dokumentów. Poniższy przykład kodu pokazuje wstawianie HTML do dokumentu przy użyciu DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHtml-DocumentBuilderInsertHtml.java" >}}
 

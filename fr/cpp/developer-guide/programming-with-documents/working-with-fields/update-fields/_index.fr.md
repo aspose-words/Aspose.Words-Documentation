@@ -37,7 +37,7 @@ L'exemple de code suivant montre comment mettre à jour tous les champs avant de
 
 ### Mise À Jour Automatique Des Champs Pendant Mail Merge
 
-Lorsque vous exécutez un mail merge, tous les champs du document seront automatiquement mis à jour. C'est parce que le mail merge est un cas de mise à jour de champ. Le programme rencontre un champ mail merge et doit mettre à jour son résultat, ce qui implique de récupérer la valeur de la source de données et de l'insérer dans le champ. La logique est bien sûr plus compliquée, par exemple, lorsque la fin de la région document/mail merge est atteinte mais qu'il reste encore d'autres données à fusionner, la région doit être dupliquée et le nouvel ensemble de champs mis à jour.
+Lorsque vous exécutez un mail merge, tous les champs du document seront automatiquement mis à jour. C'est parce que le Mail Merge est un cas de mise à jour de champ. Le programme rencontre un champ Mail Merge et doit mettre à jour son résultat, ce qui implique de récupérer la valeur de la source de données et de l'insérer dans le champ. La logique est bien sûr plus compliquée, par exemple, lorsque la fin de la région document/mail merge est atteinte mais qu'il reste encore d'autres données à fusionner, la région doit être dupliquée et le nouvel ensemble de champs mis à jour.
 
 ## Mettre À Jour La Propriété LastSavedTime Avant d'Enregistrer
 

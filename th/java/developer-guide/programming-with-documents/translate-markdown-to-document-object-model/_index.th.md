@@ -43,7 +43,7 @@ timestamp: 2024-10-21-11-17-44
 |  **Strikethrough**<br/>`~Strikethrough text~` |  `Font.StrikeThrough = true`  |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Strikethrough.java" >}}  |  |
 
-We use a mode play with a name that start from the word We use language we use a languages with a names from the word <span notrans="<span notrans=" `InlineCode`"=""></span>'"> ตามด้วยจุดทางเลือก `(.)` และเป็นกลุ่มชนจํานวนน้อย ```(`)``` สําหรับ `InlineCode` โดดเด่น หากไม่มีการใช้งานแบ็คติกอยู่จํานวนหนึ่ง จะเป็นการโดยปริยายแทน
+We use a mode play with a name that start from the word We use language we use a languages with a names from the word `InlineCode`'"> ตามด้วยจุดทางเลือก `(.)` และเป็นกลุ่มชนจํานวนน้อย ```(`)``` สําหรับ `InlineCode` โดดเด่น หากไม่มีการใช้งานแบ็คติกอยู่จํานวนหนึ่ง จะเป็นการโดยปริยายแทน
 
 |  Markdown คุณสมบัติ |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |
@@ -68,9 +68,9 @@ We use a mode play with a name that start from the word We use language we use a
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **HorizontalRule**<br/>`-----` |  นี่เป็นย่อหน้าแบบง่าย ๆ ที่มีรูปทรงทางแนวนอนตรงกัน:<br/>`DocumentBuilder.InsertHorizontalRule()` |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-HorizontalRule.java" >}}  |                                                                |
-|  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`, โดย (1 <=N <=9).<br/>นี้จะถูกแปลเป็นรูปแบบภายในและควรจะตรงกับรูปแบบที่ระบุเป๊ะ (ไม่อนุญาตให้ใช้ส่วนนําหน้าหรือส่วนนําหน้า)<br/>มิ ฉะนั้น ก็ จะ เป็น เพียง วรรค ปกติ ที่ มี รูป แบบ ที่ ตรง กัน |
+|  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = "Heading N"`, โดย (1 <=N <=9).<br/>นี้จะถูกแปลเป็นรูปแบบภายในและควรจะตรงกับรูปแบบที่ระบุเป๊ะ (ไม่อนุญาตให้ใช้ส่วนนําหน้าหรือส่วนนําหน้า)<br/>มิ ฉะนั้น ก็ จะ เป็น เพียง วรรค ปกติ ที่ มี รูป แบบ ที่ ตรง กัน |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Heading.java" >}}  |                                                                |
-|  **Setext Heading**<br/>`===` (ถ้ามุ่งหน้าไปยังระดับ 1)<br/>`---` (ถ้าไปยังระดับ 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, จาก `“Heading N”` สไตล์<br/>ถ้า (N >= 2) จากนั้น `“Heading 2”` จะถูกนําไปใช้อย่างไม่เพียงเท่านั้น `“Heading 1”`.<br/>อนุมัติได้ แต่ Aspose.Words ผู้นําเข้าใช้เลข "1" และ "2" ตามด้วย |
+|  **Setext Heading**<br/>`===` (ถ้ามุ่งหน้าไปยังระดับ 1)<br/>`---` (ถ้าไปยังระดับ 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, จาก 'Heading N' สไตล์<br/>ถ้า (N >= 2) จากนั้น 'Heading 2' จะถูกนําไปใช้อย่างไม่เพียงเท่านั้น 'Heading 1'.<br/>อนุมัติได้ แต่ Aspose.Words ผู้นําเข้าใช้เลข "1" และ "2" ตามด้วย |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-SetextHeading.java" >}}  |                                                                |
 |   **Indented Code**                                             |  `ParagraphFormat.StyleName = “IndentedCode[some suffix]”`     |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-IndentedCode.java" >}}  |                                                                |

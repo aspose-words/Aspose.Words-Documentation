@@ -10,7 +10,7 @@ url: /fa/java/api-reference/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words برای Java یک کتابخانه کلاس است که برنامه های شما را قادر می سازد تا طیف وسیعی از وظایف پردازش اسناد را انجام دهد. با Aspose.Words شما می توانید تولید، اصلاح، رندر، و اسناد چاپی بدون استفاده از <span notrans="<span notrans=" Microsoft Word"=""></span>"> این است، Microsoft Word برای استفاده لازم نیست Aspose.Words...
+Aspose.Words برای Java یک کتابخانه کلاس است که برنامه های شما را قادر می سازد تا طیف وسیعی از وظایف پردازش اسناد را انجام دهد. با Aspose.Words شما می توانید تولید، اصلاح، رندر، و اسناد چاپی بدون استفاده از Microsoft Word"> این است، Microsoft Word برای استفاده لازم نیست Aspose.Words...
 
 Aspose.Words برای Java به طور کامل در Java..
 

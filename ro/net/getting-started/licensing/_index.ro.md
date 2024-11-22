@@ -61,13 +61,13 @@ După achiziționarea unei licențe, trebuie să citiți cu atenție informația
 Licențele pot fi aplicate de la diferite locații:
 
 * cale explicită
--* dosarul ce conține fișierul *Aspose.Words.dll*
-* The folder containing the assembly that called *Aspose.Words.dll*
-* Folderul care conține asamblarea intrării (al tău *.exe*
-* Un resursă încorporată în asamblare este numită *Aspose.Words.dll*
+-* dosarul ce conține fișierul `Aspose.Words.dll`
+* The folder containing the assembly that called `Aspose.Words.dll`
+* Folderul care conține asamblarea intrării (al tău `.exe`
+* Un resursă încorporată în asamblare este numită `Aspose.Words.dll`
 * Ca o licență plătită – un nou mecanism de licențiere
 
-Când vă referiți la *Aspose.Words.dll* în aplicație, biblioteca este copiată în directorul de ieșire (cu excepția cazului în care *Copiați local* în proprietățile pentru această intrare este setată la false). De multe ori, cea mai ușoară modalitate de a seta o licență este să plasezi fișierul de licență în același folder cu *Aspose.Words.dll* și să specifici doar numele fișierului fără calea acestuia.
+Când vă referiți la `Aspose.Words.dll` în aplicație, biblioteca este copiată în directorul de ieșire (cu excepția cazului în care *Copiați local* în proprietățile pentru această intrare este setată la false). De multe ori, cea mai ușoară modalitate de a seta o licență este să plasezi fișierul de licență în același folder cu `Aspose.Words.dll` și să specifici doar numele fișierului fără calea acestuia.
 
 {{% alert color="primary" %}}
 

@@ -125,9 +125,9 @@ builder.document.save(docs_base.artifacts_dir + "WorkingWithMarkdown.image_examp
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **HorizontalRule**<br /> `-----` |  これは、対応する horizontalRule 形状を備えた単純な段落です。<br /> [DocumentBuilder.insert_horizontal_rule()](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_horizontal_rule/) |
 |   {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_markdown-HorizontalRule.py" >}}  |                                                                |
-|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.style_name = "Heading N"`、(1&lt;= N &lt;= 9)。<br />これは組み込みスタイルに変換され、指定されたパターンと正確に一致する必要があります (接尾辞や接頭辞は許可されません)。<br />それ以外の場合は、対応するスタイルを持つ単なる通常の段落になります。 |
+|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.style_name = "Heading N"`、(1&le; N &le; 9)。<br />これは組み込みスタイルに変換され、指定されたパターンと正確に一致する必要があります (接尾辞や接頭辞は許可されません)。<br />それ以外の場合は、対応するスタイルを持つ単なる通常の段落になります。 |
 |   {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_markdown-Headings.py" >}}  |                                                                |
-|  **Setext Heading**<br /> `===` (見出しレベル 1 の場合)、<br /> `---` (見出しレベル 2 の場合) |  `ParagraphFormat.style_name = "SetextHeading[some suffix]"`、`"Heading N"` スタイルに基づく。<br /> (N &gt;= 2) の場合は `"Heading 2"` が使用され、それ以外の場合は `"Heading 1"` が使用されます。<br />任意のサフィックスを使用できますが、Aspose.Words インポーターはそれぞれ数値「1」と「2」を使用します。 |
+|  **Setext Heading**<br /> `===` (見出しレベル 1 の場合)、<br /> `---` (見出しレベル 2 の場合) |  `ParagraphFormat.style_name = "SetextHeading[some suffix]"`、`"Heading N"` スタイルに基づく。<br /> (N &ge; 2) の場合は `"Heading 2"` が使用され、それ以外の場合は `"Heading 1"` が使用されます。<br />任意のサフィックスを使用できますが、Aspose.Words インポーターはそれぞれ数値「1」と「2」を使用します。 |
 |  {{< highlight python >}}# Use a document builder to add content to the document.
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)

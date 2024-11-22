@@ -204,7 +204,7 @@ Also, note that characterIndex currently can only specify 0 to move to the begin
 
 ### الانتقال إلى `Merge` الميدان
 
-في بعض الأحيان قد تحتاج إلى أداء "معتاد" mail merge استخدام `DocumentBuilder` أو ملئ حقل الدمج بطريقة خاصة داخل mail merge معالج الحدث ذلك عندما [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) قد يكون مفيداً الطريقة تقبل اسم الحقل المدمج ينتقل الستار إلى مكان ما بعد الحقل المدمج المحدد ويزيل الحقل المدمج ويوضح المثال الرمزي التالي كيفية نقل الضمائر إلى موقع يتجاوز مجال الدمج المحدد.
+في بعض الأحيان قد تحتاج إلى أداء "معتاد" Mail Merge استخدام `DocumentBuilder` أو ملئ حقل الدمج بطريقة خاصة داخل Mail Merge معالج الحدث ذلك عندما [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) قد يكون مفيداً الطريقة تقبل اسم الحقل المدمج ينتقل الستار إلى مكان ما بعد الحقل المدمج المحدد ويزيل الحقل المدمج ويوضح المثال الرمزي التالي كيفية نقل الضمائر إلى موقع يتجاوز مجال الدمج المحدد.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToMergeField-DocumentBuilderMoveToMergeField.java" >}}
 

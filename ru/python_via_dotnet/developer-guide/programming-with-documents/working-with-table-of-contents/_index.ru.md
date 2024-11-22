@@ -51,7 +51,7 @@ Aspose.Words позволяет полностью обновить `TOC` Все
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-add_content_using_document_builder-UpdateFields.py" >}}
 
-Первый призыв к [Document.update_fields](https://reference.aspose.com/words/python-net/aspose.words/document/update_fields/) будет строить <p notrans="<p notrans=" `TOC`"=""></p>"> Все тексты заполнены и `TOC` Кажется почти полным. Единственное, чего не хватает, так это номеров страниц, которые пока отображаются с "?". Второй призыв к [Document.update_page_layout](https://reference.aspose.com/words/python-net/aspose.words/document/update_page_layout/) Построит макет документа в память. Это необходимо сделать, чтобы собрать номера страниц записей. Правильные номера страниц, рассчитанные по этому вызову, затем вставляются в TOC.
+Первый призыв к [Document.update_fields](https://reference.aspose.com/words/python-net/aspose.words/document/update_fields/) будет строить `TOC` Все тексты заполнены и `TOC` Кажется почти полным. Единственное, чего не хватает, так это номеров страниц, которые пока отображаются с "?". Второй призыв к [Document.update_page_layout](https://reference.aspose.com/words/python-net/aspose.words/document/update_page_layout/) Построит макет документа в память. Это необходимо сделать, чтобы собрать номера страниц записей. Правильные номера страниц, рассчитанные по этому вызову, затем вставляются в TOC.
 
 ## Используйте коммутаторы для контроля поведения таблицы содержимого.
 
@@ -109,7 +109,7 @@ Aspose.Words позволяет полностью обновить `TOC` Все
 
 <p>L - определяет, на каком уровне `TOC` Появится это поле ТК. А. `TOC` который использует этот же переключатель, будет включать это поле TC только в том случае, если оно находится в указанном диапазоне. *</p>
 
-<p>- _\N - Номер страницы для этого `TOC` Вход не отображается. Образцовый код того, как вставить поля TC, можно найти в следующем разделе.</p>
+<p>- `_\N` - Номер страницы для этого `TOC` Вход не отображается. Образцовый код того, как вставить поля TC, можно найти в следующем разделе.</p>
  |
 
 ### Связанные с внешним видом коммутаторы

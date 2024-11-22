@@ -16,7 +16,7 @@ Další informace Aspose.Words funkce, vyberte odpovídající oddíl:
 
 - [Načítání, ukládání a převod](/words/cs/net/loading-saving-and-converting/) Informace o různých způsobech načítání nebo ukládání dokumentů a funkcí specifických pro formát, které jsou užitečné pro převod dokumentu z jednoho formátu do druhého.
 - [Renderování](/words/cs/net/rendering/) Informace o tom, jak získat prezentaci z dokumentu ve formátu flow-layout.
-- [Mail Merge a podávání zpráv](/words/net/mail-merge-and-reporting/) Informace o vytváření dokumentů, jako jsou zprávy, katalogy, inventury a faktury, z šablon mail merge Pole.
+- [Mail Merge a podávání zpráv](/words/net/mail-merge-and-reporting/) Informace o vytváření dokumentů, jako jsou zprávy, katalogy, inventury a faktury, z šablon Mail Merge Pole.
 - [LINQ Vykazovací motor](/words/net/linq-reporting-engine/) Informace o stavbových zprávách poskytuje rozšířený soubor zpravodajských prvků.
 - [Tisk dokumentu Programově nebo pomocí dialogů](/words/cs/net/print-a-document-programmatically-or-using-dialogs/) Informace o tom, jak tisknout dokument různými způsoby a doladit tiskovou operaci k provedení vlastní logiky.
 - [Programování s dokumenty](/words/cs/net/programming-with-documents/) Informace o tom, jak programově vytvářet, upravovat a spravovat dokumenty, včetně změny jejich obsahu i vzhledu.

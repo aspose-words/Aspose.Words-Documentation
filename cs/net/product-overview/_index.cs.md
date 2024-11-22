@@ -80,7 +80,7 @@ Aspose.Words je vícevláken bezpečný, pokud pouze jedno vlákno pracuje na do
 
 ### Minimální křivka učení
 
-I když existuje více než 150 veřejných tříd a výčty v <span notrans="<span notrans=" Aspose.Words"=""></span>,? křivka učení je minimální, protože Aspose.Words API byl pečlivě navržen s těmito cíli:
+I když existuje více než 150 veřejných tříd a výčty v Aspose.Words,? křivka učení je minimální, protože Aspose.Words API byl pečlivě navržen s těmito cíli:
 
 - Půjčit osvědčené postupy od jiných známých APIs jako např. Microsoft Word Automatizace
 - Půjčit osvědčené postupy od .NET Framework Pokyny k návrhu

@@ -16,7 +16,7 @@ timestamp: 2024-01-27-14-07-04
 
 你可以用这个 [AddBidiMarks](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/#getAddBidiMarks) 属性以指定是否在每个 BiDi 运行前以纯文本格式导出时添加双向标记。 Aspose.Words 在每个双向文本运行之前插入 Unicode 字符" RIGHT-TO-LEFT MARK"(U+200F)。 此选项对应 MS Word 文件转换对话框中的" 添加双向标记" 选项, 当您导出到纯文本格式时。 请注意,只有在MS Word中添加任何阿拉伯语或希伯来语编辑语言时才会出现在对话框中.
 
-以下代码示例显示如何使用 `TxtSaveOptions.AddBidiMarks` 属性。 此属性的默认值为 *true*编号:
+以下代码示例显示如何使用 `TxtSaveOptions.AddBidiMarks` 属性。 此属性的默认值为 *true* 编号:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-AddBidiMarks.java" >}}
 

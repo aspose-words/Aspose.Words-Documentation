@@ -40,7 +40,7 @@ DOCX格式可以包含特殊类型的图像,如图表或图表. 这些形状也�
 
 {{% alert color="primary" %}}
 
-制作时 <span notrans="<span notrans=" **Shape**"=""></span>",> 它必须是文件等级的一部分。 如果 **Shape** 不是一个文档树的一部分, 那么在引用后输出为空白 **ShapeRenderer** 方法。 方法。 。
+制作时 **Shape**",> 它必须是文件等级的一部分。 如果 **Shape** 不是一个文档树的一部分, 那么在引用后输出为空白 **ShapeRenderer** 方法。 方法。 。
 
 {{% /alert %}}
 

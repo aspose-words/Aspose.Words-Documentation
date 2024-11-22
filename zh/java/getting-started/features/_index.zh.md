@@ -122,16 +122,16 @@ Aspose.Words 提供所有文件要素格式化属性的详细程序访问。
 
 |  特性 |
 |  :-  |
-| 使用全部标准 Microsoft Word mail merge 字段,包括 `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, 银线。 |
-| 执行 mail merge 对于包含甚至最复杂和嵌入的文档 `IF` 字段和公式。 |
-| 使用您的数据源在文档中填充并动态生长表格或片段 mail merge 区域。 |
+| 使用全部标准 Microsoft Word Mail Merge 字段,包括 `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, 银线。 |
+| 执行 Mail Merge 对于包含甚至最复杂和嵌入的文档 `IF` 字段和公式。 |
+| 使用您的数据源在文档中填充并动态生长表格或片段 Mail Merge 区域。 |
 | 容易生成包含主-详细(父母-子女)数据的报告,如命令/命令细节。 |
 | 用任意数据填充文档 Java 执行 `ResultSet` 接口。 |
 | 通过执行 XML 文件或商业对象等任何数据源来复制文档 **IMailMergeDataSource** 接口。 |
 | 精确控制您使用事件合并数据的方式, 如数字格式化 。 |
 | a 插入图像 mail merge。 。 。 。 |
-| 程序创建或修改 Microsoft Word mail merge 文档的数据源。 保留 mail merge 设置和数据源。 |
-| 获取 mail merge 字段名称。 |
+| 程序创建或修改 Microsoft Word Mail Merge 文档的数据源。 保留 Mail Merge 设置和数据源。 |
+| 获取 Mail Merge 字段名称。 |
 
 ## 报告特点
 

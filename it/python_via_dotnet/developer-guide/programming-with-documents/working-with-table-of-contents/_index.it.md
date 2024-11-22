@@ -108,7 +108,7 @@ Per impostazione predefinita, queste opzioni sopra sono incluse quando si inseri
 
 <p>- *\L – Definisce in quale livello del `TOC` apparirà questo campo TC. Un `TOC` che utilizza questo stesso interruttore includerà questo campo TC solo se rientra nell'intervallo specificato.*</p>
 
-<p>- _\N – La numerazione delle pagine per questa voce `TOC` non viene visualizzata. Un codice di esempio su come inserire i campi TC è disponibile nella sezione successiva.</p> |
+<p>- `_\N` – La numerazione delle pagine per questa voce `TOC` non viene visualizzata. Un codice di esempio su come inserire i campi TC è disponibile nella sezione successiva.</p> |
 
 ### Interruttori relativi all'aspetto
 

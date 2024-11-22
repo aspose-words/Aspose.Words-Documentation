@@ -37,7 +37,7 @@ Siga las instrucciones a continuación para configurar manualmente Aspose.Words 
 
 1. [Descargue la última versión Aspose.Words para C++ paquete](https://releases.aspose.com/words/cpp/)
 
-2. Copiar Aspose.Words.Cpp y `CodePorting.Native`.Cs2Cpp_api_*.* carpetas donde tenga CMakeLists.txt
+2. Copiar Aspose.Words.Cpp y `CodePorting.Native.Cs2Cpp_api_*.*` carpetas donde tenga CMakeLists.txt
 
 3. Agregue las siguientes líneas a usted CMakeLists.txt:
 	{{< highlight cpp >}}

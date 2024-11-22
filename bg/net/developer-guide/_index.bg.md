@@ -16,7 +16,7 @@ timestamp: 2024-09-25-11-08-55
 
 - [Зареждане, спестяване и преобразуване](/words/bg/net/loading-saving-and-converting/) год. предоставя информация за различни начини за зареждане или запазване на документи и специфични за формат функции, полезни за конвертиране на документ от един формат в друг.
 - [Внасяне](/words/bg/net/rendering/). .. .. .. .. ..
-- [Mail Merge и докладване](/words/net/mail-merge-and-reporting/) год. mail merge полета.
+- [Mail Merge и докладване](/words/net/mail-merge-and-reporting/) год. Mail Merge полета.
 - [LINQ Докладващ двигател](/words/net/linq-reporting-engine/) год.
 - [Печат на документ Програмиране или използване на диалогови файлове](/words/bg/net/print-a-document-programmatically-or-using-dialogs/) год. предоставя информация за това как да отпечатате документ по различни начини и да настроите фино печатната операция, за да приложите вашата обичайна логика.
 - [Програмиране с документи](/words/bg/net/programming-with-documents/). .. .. .. .. ..

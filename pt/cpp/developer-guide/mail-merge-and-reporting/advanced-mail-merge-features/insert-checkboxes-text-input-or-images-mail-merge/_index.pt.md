@@ -10,16 +10,16 @@ url: /pt/cpp/insert-checkboxes-text-input-or-images-mail-merge/
 timestamp: 2024-01-27-14-07-04
 ---
 
-O mecanismo de mesclagem pega um documento como entrada, procura `MERGEFIELD` e substitui - os pelos dados obtidos a partir da fonte de dados. Normalmente, texto simples e HTML são inseridos, mas Aspose.Words os usuários também podem gerar um documento que lida com cenários mais incomuns para mail merge fields.
+O mecanismo de mesclagem pega um documento como entrada, procura `MERGEFIELD` e substitui - os pelos dados obtidos a partir da fonte de dados. Normalmente, texto simples e HTML são inseridos, mas Aspose.Words os usuários também podem gerar um documento que lida com cenários mais incomuns para Mail Merge fields.
 
-Poderoso Aspose.Words a funcionalidade permite-lhe alargar o mail merge processo:
+Poderoso Aspose.Words a funcionalidade permite-lhe alargar o Mail Merge processo:
 
 - inserir caixas de seleção e campos de formulário de entrada de texto no documento durante um mail merge
 - inserir imagens de qualquer armazenamento Personalizado (ficheiros, BLOB campos, etc.)
 
 ## Inserir Checkboxes e entrada de texto durante Mail Merge
 
-Às vezes, é necessário realizar um mail merge operação para que não seja substituído texto no campo de mesclagem, mas uma caixa de seleção ou campo de entrada de texto. Embora este não seja o cenário mais comum, é muito útil para algumas tarefas.
+Às vezes, é necessário realizar um Mail Merge operação para que não seja substituído texto no campo de mesclagem, mas uma caixa de seleção ou campo de entrada de texto. Embora este não seja o cenário mais comum, é muito útil para algumas tarefas.
 
 A captura de tela a seguir de um documento do Word mostra um modelo com campos de mesclagem:
 
@@ -43,11 +43,11 @@ O exemplo de código a seguir mostra como inserir caixas de seleção e inserir 
 
 ## Inserir imagens durante Mail Merge
 
-Ao realizar um mail merge operação, você pode inserir imagens do banco de dados no documento usando imagem especial mail merge fields. A imagem mail merge campo é um campo de mesclagem denominado imagem:MyFieldName.
+Ao realizar um Mail Merge operação, você pode inserir imagens do banco de dados no documento usando imagem especial Mail Merge fields. A imagem Mail Merge campo é um campo de mesclagem denominado imagem:MyFieldName.
 
 ### Inserir imagens de uma base de dados
 
-Durante a mail merge, quando uma imagem mail merge campo é encontrado em um documento, o [FieldMergingCallback](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/get_fieldmergingcallback/) o evento é disparado. Você pode responder a esse evento para retornar um nome de arquivo, fluxo ou objeto de imagem mail merge motor para que possa ser inserido no documento.
+Durante a mail merge, quando uma imagem Mail Merge campo é encontrado em um documento, o [FieldMergingCallback](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/get_fieldmergingcallback/) o evento é disparado. Você pode responder a esse evento para retornar um nome de arquivo, fluxo ou objeto de imagem Mail Merge motor para que possa ser inserido no documento.
 
 O exemplo de código a seguir mostra como inserir imagens armazenadas em um banco de dados BLOB campo num relatório:
 

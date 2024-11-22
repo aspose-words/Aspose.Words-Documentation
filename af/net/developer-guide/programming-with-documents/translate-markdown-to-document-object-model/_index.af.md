@@ -41,12 +41,12 @@ Ons gebruik [Font](https://reference.aspose.com/words/net/aspose.words/font/) fo
 | **Italic**<br />`*italic text*` | `Font.Italic = true` |
 | {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}} |  |
 | **Strikethrough**<br />`~Strikethrough text~` | `Font.StrikeThrough = true` |
-| {{< highlight csharp >}}// Use a document builder to add content to the document.
+| {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
 builder.Font.Strikethrough = true;
-builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
+builder.Writeln("This text will be Strikethrough"); {{< /highlight >}} |  |
 
 Ons gebruik'n karakter styl met'n naam wat begin van die woord `InlineCode`, gevolg deur'n opsionele punt `(.)` en'n aantal backticks ```(`)``` vir die `InlineCode` funksie. As'n aantal backticks gemis word, dan sal een backtick gebruik word by verstek.
 
@@ -76,7 +76,7 @@ Die tabel hieronder toon voorbeelde van die gebruik van Markdown Blaarblokke in 
 | **ATX Heading**<br />`# H1, ## H2, ### H3…` | `ParagraphFormat.StyleName = "Heading N"`, waar (1<= N <= 9).<br />Dit word in'n ingeboude styl vertaal en moet presies van die gespesifiseerde patroon wees (geen agtervoegsels of voorvoegsels word toegelaat nie).<br />Andersins sal dit net'n gewone paragraaf met'n ooreenstemmende styl wees. |
 | {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}} |  |
 | **Setext Heading**<br />`===` (if Heading level 1),<br />`---` (if Heading level 2) | `ParagraphFormat.StyleName = "SetextHeading[some suffix]"`, gebaseer op `"Heading N"` styl.<br />As (n >= 2), dan sal `"Heading 2"` gebruik word, anders sal `"Heading 1"`.<br />Enige agtervoegsel word toegelaat, maar Aspose.Words invoerder gebruik getalle "1" en "2" onderskeidelik. |
-| {{< highlight csharp >}}// Use a document builder to add content to the document.
+| {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 builder.ParagraphFormat.StyleName = "Heading 1";
@@ -103,7 +103,7 @@ builder.ParagraphFormat.Style = setexHeading2;
 builder.Document.Styles["SetextHeading2"].BaseStyleName = "Heading 3";
 
 // Setex heading level will be reset to 2 if the base paragraph has a Heading level greater than 2.
-builder.Writeln("Setext Heading level 2");{{< /highlight >}} |
+builder.Writeln("Setext Heading level 2"); {{< /highlight >}} |
 | **Indented Code** | `ParagraphFormat.StyleName = "IndentedCode[some suffix]"` |
 | {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-IndentedCode.cs" >}} |  |
 | **Fenced Code**<br />{{< highlight csharp >}}``` c#
@@ -120,7 +120,7 @@ Die tabel hieronder toon voorbeelde van die gebruik van Markdown Komplekse Houer
 | Markdown kenmerk | Aspose.Words |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Quote**<br />`> quote,`<br />`>> nested quote` | `ParagraphFormat.StyleName = "Quote[some suffix]"`<br />die agtervoegsel in styl naam is opsioneel, maar Aspose.Words invoerder gebruik die geordende getalle 1, 2, 3, .... in die geval van geneste aanhalings.<br />Die nes word gedefinieer deur die oorgeërfde style. |
-| {{< highlight csharp >}}// Use a document builder to add content to the document.
+| {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // By default a document stores blockquote style for the first level.
@@ -131,7 +131,7 @@ builder.Writeln("Blockquote");
 Style quoteLevel2 = builder.Document.Styles.Add(StyleType.Paragraph, "Quote1");
 builder.ParagraphFormat.Style = quoteLevel2;
 builder.Document.Styles["Quote1"].BaseStyleName = "Quote";
-builder.Writeln("1. Nested blockquote");{{< /highlight >}} |
+builder.Writeln("1. Nested blockquote"); {{< /highlight >}} |
 | **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | Bullet lyste word verteenwoordig met behulp van paragraaf nommering:<br />`ListFormat.ApplyBulletDefault()`<br />Daar kan 3 tipes van koeëllyste wees. Hulle is slegs diff in'n nommering formaat van die heel eerste vlak. Dit is: `‘-’`, `‘+’` of `‘*’` onderskeidelik. |
 | {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BulletedList.cs" >}} |  |
 | **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Geordende lyste word verteenwoordig deur paragraafnommering te gebruik:<br />`ListFormat.ApplyNumberDefault()`<br />Daar kan 2 getal formaat merkers wees: ‘.’ en ‘)’. Die standaard merker is ‘.’. |
@@ -148,7 +148,7 @@ builder.Writeln("Item 2");
 builder.ListFormat.ListIndent();
 
 builder.Writeln("Item 2a");
-builder.Writeln("Item 2b");{{< /highlight >}} |  |
+builder.Writeln("Item 2b"); {{< /highlight >}} |  |
 
 ### Tabelle
 
@@ -157,7 +157,7 @@ Aspose.Words laat ook toe om tabelle te vertaal in DOM, soos hieronder getoon:
 | Markdown kenmerk | Aspose.Words |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | `Table`<br />`a|b`<br />`-|-`<br />`c|d` | [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) en [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) klasse. |
-| {{< highlight csharp >}}// Use a document builder to add content to the document.
+| {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Add the first row.
@@ -170,7 +170,7 @@ builder.Writeln("b");
 builder.InsertCell();
 builder.Writeln("c");
 builder.InsertCell();
-builder.Writeln("d");{{< /highlight >}} |  |
+builder.Writeln("d"); {{< /highlight >}} |  |
 
 ## Sien Ook
 

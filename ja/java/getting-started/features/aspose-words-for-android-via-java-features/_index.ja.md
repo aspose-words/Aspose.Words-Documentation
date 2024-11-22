@@ -92,16 +92,16 @@ Aspose.Words ドキュメントのすべての要素の整形プロパティへ�
 
 |  スタッフ | Aspose.Words お問い合わせ Java | Aspose.Words お問い合わせ Android お問い合わせ Java |
 |  :-  |  :-  |  :-  |
-| すべての標準を使用する Microsoft Word mail merge レポートに含まれるフィールド `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, グリーティングライン。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| 実行する mail merge 最も複雑でネストされた文書 `IF` フィールドと式。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| データのソースから、テーブルやフラグメントを動的に生成します。 mail merge 地域。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| すべての標準を使用する Microsoft Word Mail Merge レポートに含まれるフィールド `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, グリーティングライン。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| 実行する Mail Merge 最も複雑でネストされた文書 `IF` フィールドと式。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| データのソースから、テーブルやフラグメントを動的に生成します。 Mail Merge 地域。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Order/OrderDetails などのマスターデテール(親子)データを含むレポートを簡単に生成できます。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | あらゆるデータから文書をコピー Java 実装するデータソース `ResultSet` インターフェイス。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | XMLファイルやビジネスオブジェクトなどのデータソースからドキュメントを実装 **IMailMergeDataSource** インターフェイス。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | 数値のフォーマットなどの正確な制御、イベントを使用してデータがマージされる方法など。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | 画像をインサートする mail mergeお問い合わせ | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| プログラム的に作成または変更 Microsoft Word mail merge ドキュメントのデータソース。 プレザーブ mail merge 設定とデータソース。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| リトリーブ mail merge フィールド名。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| プログラム的に作成または変更 Microsoft Word Mail Merge ドキュメントのデータソース。 プレザーブ Mail Merge 設定とデータソース。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| リトリーブ Mail Merge フィールド名。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
 ### レポート機能
 

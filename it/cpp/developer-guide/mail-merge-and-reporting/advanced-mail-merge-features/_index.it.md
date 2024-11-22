@@ -4,24 +4,24 @@ second_title: Aspose.Words per C++
 articleTitle: Funzioni avanzate Mail Merge
 linktitle: Funzioni avanzate Mail Merge
 type: docs
-description: "Aspose.Words per C++ fornisce alcune funzionalità avanzate di mail merge che consentono di eseguire ulteriori personalizzazioni di mail merge. Ad esempio, ottenere informazioni sulla struttura del modello, impostare regole, ripulire dopo un'operazione mail merge e altri."
-keywords: "use advanced mail merge features c++"
+description: "Aspose.Words per C++ fornisce alcune funzionalità avanzate di Mail Merge che consentono di eseguire ulteriori personalizzazioni di mail merge. Ad esempio, ottenere informazioni sulla struttura del modello, impostare regole, ripulire dopo un'operazione Mail Merge e altri."
+keywords: "use advanced Mail Merge features c++"
 weight: 50
 url: /it/cpp/advanced-mail-merge-features/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words fornisce alcune proprietà e metodi aggiuntivi per mail merge che consentono di eseguire ulteriori personalizzazioni del processo mail merge in simple mail merge o mail merge con regioni.
+Aspose.Words fornisce alcune proprietà e metodi aggiuntivi per Mail Merge che consentono di eseguire ulteriori personalizzazioni del processo Mail Merge in simple Mail Merge o Mail Merge con regioni.
 
-Le funzionalità avanzate di mail merge includono, ma non sono limitate a, l'ottenimento di informazioni sulla struttura del modello prima di eseguire un'operazione mail merge, l'impostazione di regole per un'operazione mail merge e la pulizia durante un'operazione mail merge. Questo articolo tratterà solo alcune proprietà ed esempi per mostrare come utilizzare le funzionalità avanzate.
+Le funzionalità avanzate di Mail Merge includono, ma non sono limitate a, l'ottenimento di informazioni sulla struttura del modello prima di eseguire un'operazione mail merge, l'impostazione di regole per un'operazione Mail Merge e la pulizia durante un'operazione mail merge. Questo articolo tratterà solo alcune proprietà ed esempi per mostrare come utilizzare le funzionalità avanzate.
 
 ## Imposta regole per le operazioni Mail Merge
 
 L'aggiunta di regole al modello consente di rendere il processo del flusso di lavoro più efficace e flessibile. Utilizzando le regole mail merge, è possibile impostare contenuti che possono essere modificati rapidamente ed evitare la necessità di generare più documenti.
 
-Aspose.Words consente di personalizzare il mail merge in base alle regole eseguite quando si esegue l'operazione mail merge e si controllano le informazioni di unione. Ad esempio, quando crei un'e-mail o una lettera da inviare a tutti i tuoi clienti. È possibile impostare una regola in modo che la lettera possa contenere vari dati in base ai diversi valori in determinati campi dell'origine dati.
+Aspose.Words consente di personalizzare il Mail Merge in base alle regole eseguite quando si esegue l'operazione Mail Merge e si controllano le informazioni di unione. Ad esempio, quando crei un'e-mail o una lettera da inviare a tutti i tuoi clienti. È possibile impostare una regola in modo che la lettera possa contenere vari dati in base ai diversi valori in determinati campi dell'origine dati.
 
-Dai un'occhiata ad alcune regole mail merge che puoi implementare.
+Dai un'occhiata ad alcune regole Mail Merge che puoi implementare.
 
 ### Implementare il campo Successivo per unire i record di dati nel documento corrente
 
@@ -69,7 +69,7 @@ System::SharedPtr<MailMergeRegionInfo> regionInfo = doc->get_MailMerge()->GetReg
 
 ### Aggiungi campi mappati
 
-Aspose.Words consente di mappare automaticamente i nomi dei campi nell'origine dati e i nomi dei campi mail merge nel modello utilizzando la proprietà [MappedDataFields](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/get_mappeddatafields/). Ad esempio, se si dispone di un nome di campo chiamato "Cognome" nel modello e nell'origine dati si ha il nome del campo "Cognome" o un'altra variazione come "Cognome" o "LastName", il campo nell'origine dati verrà automaticamente mappato al campo mappato corrispondente. Se un modello di unione deve essere unito a molte origini dati, i campi mappati non consentono di reinserire i campi nel modello per concordare con i nomi dei campi nel database.
+Aspose.Words consente di mappare automaticamente i nomi dei campi nell'origine dati e i nomi dei campi Mail Merge nel modello utilizzando la proprietà [MappedDataFields](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/get_mappeddatafields/). Ad esempio, se si dispone di un nome di campo chiamato "Cognome" nel modello e nell'origine dati si ha il nome del campo "Cognome" o un'altra variazione come "Cognome" o "LastName", il campo nell'origine dati verrà automaticamente mappato al campo mappato corrispondente. Se un modello di unione deve essere unito a molte origini dati, i campi mappati non consentono di reinserire i campi nel modello per concordare con i nomi dei campi nel database.
 
 Nell'esempio di codice seguente viene illustrato come aggiungere un campo mappato utilizzando il metodo [Add](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mappeddatafieldcollection/add/) quando un campo di unione in un modello e un campo dati in un'origine dati hanno nomi diversi:
 

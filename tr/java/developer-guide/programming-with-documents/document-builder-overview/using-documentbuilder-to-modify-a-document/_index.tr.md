@@ -204,7 +204,7 @@ Bu şekilde yeni metin eklemek mevcut işaretleyici metnini değiştirmez. Unutm
 
 ### Mevcut bir `Merge` Alanına Taşınmak
 
-Bazen bir "el ile" mail merge gerçekleştirmek için `DocumentBuilder` veya bir birleştirme alanını özel bir şekilde doldurmak için bir mail merge olay işleyicisi içinde kullanmanız gerekebilir. İşte bu noktada [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) yararlı olabilir. Yöntem, birleştirme alanı adının adını kabul eder. Belirtilen birleştirme alanının hemen ötesine imleci getirir ve birleştirme alanını kaldırır. Aşağıdaki kod örneği, belirtilen birleştirme alanının hemen ötesine imlecin nasıl getirileceğini göstermektedir.
+Bazen bir "el ile" Mail Merge gerçekleştirmek için `DocumentBuilder` veya bir birleştirme alanını özel bir şekilde doldurmak için bir Mail Merge olay işleyicisi içinde kullanmanız gerekebilir. İşte bu noktada [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) yararlı olabilir. Yöntem, birleştirme alanı adının adını kabul eder. Belirtilen birleştirme alanının hemen ötesine imleci getirir ve birleştirme alanını kaldırır. Aşağıdaki kod örneği, belirtilen birleştirme alanının hemen ötesine imlecin nasıl getirileceğini göstermektedir.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToMergeField-DocumentBuilderMoveToMergeField.java" >}}
 

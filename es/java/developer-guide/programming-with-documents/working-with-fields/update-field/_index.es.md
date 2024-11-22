@@ -19,7 +19,7 @@ Cuando se carga un documento, Aspose.Words imita el comportamiento de Microsoft 
 - cuando abra/salva un documento los campos permanecen intactos
 - puede actualizar explícitamente todos los campos en un documento, por ejemplo, reconstruir `TOC` cuando necesites
 - cuando imprima/render a PDF o XPS los campos relacionados con la numeración de página en cabeceras / pies se actualizan
-- cuando se ejecuta mail merge todos los campos se actualizan automáticamente
+- cuando se ejecuta Mail Merge todos los campos se actualizan automáticamente
 
 ### Update Fields Programmatically
 
@@ -37,11 +37,11 @@ El siguiente ejemplo muestra cómo actualizar todos los campos antes de presenta
 
 ### Actualización automática de campo Mail Merge
 
-Cuando ejecutas un <span notrans="<span notrans=" mail merge"=""></span>," todos los campos del documento serán actualizados automáticamente. Esto es porque el mail merge es un caso de actualización de campo. El programa encuentra un mail merge campo y necesita actualizar su resultado, lo que implica agarrar el valor de la fuente de datos e insertarlo en el campo. La lógica es, por supuesto, más complicada, por ejemplo, cuando finaliza el documento/mail merge se llega a la región, pero todavía hay más datos que se fusionan, entonces la región necesita ser duplicada y el nuevo conjunto de campos actualizado.
+Cuando ejecutas un mail merge," todos los campos del documento serán actualizados automáticamente. Esto es porque el Mail Merge es un caso de actualización de campo. El programa encuentra un Mail Merge campo y necesita actualizar su resultado, lo que implica agarrar el valor de la fuente de datos e insertarlo en el campo. La lógica es, por supuesto, más complicada, por ejemplo, cuando finaliza el documento/mail merge se llega a la región, pero todavía hay más datos que se fusionan, entonces la región necesita ser duplicada y el nuevo conjunto de campos actualizado.
 
 ## Actualizar campos teniendo Dirty Attribute
 
-El w:dirty es un atributo a nivel de campo que refrescará sólo el campo que especifique cuando se abra el documento. Le dice a MS Word que sólo refresque este campo la próxima vez que se abra el documento. Puede utilizar la propiedad LoadOptions.setUpdateDirtyFields() para especificar si actualizar los campos con el atributo sucio. Cuando el valor de LoadOptions.setUpdateDirtyFields() se establece en <span notrans="<span notrans=" *true*"=""></span>," todos los campos teniendo *true* valor para `Field.IsDirty` o `FieldChar.IsDirty` propiedad se actualiza en la carga de documento
+El w:dirty es un atributo a nivel de campo que refrescará sólo el campo que especifique cuando se abra el documento. Le dice a MS Word que sólo refresque este campo la próxima vez que se abra el documento. Puede utilizar la propiedad LoadOptions.setUpdateDirtyFields() para especificar si actualizar los campos con el atributo sucio. Cuando el valor de LoadOptions.setUpdateDirtyFields() se establece en *true*" todos los campos teniendo *true* valor para `Field.IsDirty` o `FieldChar.IsDirty` propiedad se actualiza en la carga de documento
 
 El siguiente ejemplo de código muestra cómo actualizar campos que tienen el atributo sucio:
 

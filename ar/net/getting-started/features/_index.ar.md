@@ -114,15 +114,15 @@ timestamp: 2024-10-21-11-17-44
 
 |  ميزة | .NET | .NET Standard 2.0 | Xamarin.Android | Xamarin.iOS | Xamarin.Mac |
 |  :-  |  :-  |  :-  |  :-  |  :-  |  :-  |
-| استخدم جميع حقول Microsoft Word mail merge القياسية في تقاريرك بما في ذلك `MERGEFIELD` و`NEXT` و`NEXTIF` و`ADDRESSBLOCK` وGREETINGLINE. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| قم بتنفيذ mail merge للمستندات التي تحتوي حتى على حقول وصيغ `IF` الأكثر تعقيدًا وتداخلاً. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| استخدم جميع حقول Microsoft Word Mail Merge القياسية في تقاريرك بما في ذلك `MERGEFIELD` و`NEXT` و`NEXTIF` و`ADDRESSBLOCK` وGREETINGLINE. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| قم بتنفيذ Mail Merge للمستندات التي تحتوي حتى على حقول وصيغ `IF` الأكثر تعقيدًا وتداخلاً. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | قم بملء الجداول أو الأجزاء الموجودة في المستند وتنميتها ديناميكيًا من مصدر بياناتك باستخدام مناطق mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | يمكنك بسهولة إنشاء تقارير تحتوي على بيانات رئيسية تفصيلية (الأصل والفرع) مثل تفاصيل الطلب/الطلب. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | قم بملء المستندات بالبيانات من أي مصدر بيانات .NET مثل DataSet أو DataTable أو DataView أو DataReader أو ADO Recordset. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | قم بتعبئة المستندات من أي مصدر بيانات مثل استعلام LINQ أو ملف XML أو كائنات الأعمال من خلال تنفيذ واجهة **IMailMergeDataSource**. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | تمتع بالتحكم الدقيق، مثل تنسيق الأرقام، في كيفية دمج بياناتك باستخدام الأحداث. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | إدراج الصور أثناء mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| إنشاء مصدر بيانات Microsoft Word mail merge لمستند أو تعديله برمجيًا. الحفاظ على إعدادات mail merge ومصادر البيانات. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| إنشاء مصدر بيانات Microsoft Word Mail Merge لمستند أو تعديله برمجيًا. الحفاظ على إعدادات Mail Merge ومصادر البيانات. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | استرداد أسماء حقول mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
 ## ميزات التقارير

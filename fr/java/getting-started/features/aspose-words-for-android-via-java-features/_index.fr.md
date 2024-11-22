@@ -92,16 +92,16 @@ Vous pouvez utiliser Aspose.Words en tant que solution de rapport. Concevoir vos
 
 |  Fonctionnalité | Aspose.Words pour Java | Aspose.Words pour Android par Java |
 |  :-  |  :-  |  :-  |
-| Utiliser toutes les normes Microsoft Word mail merge champs dans vos rapports, y compris `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, Très bien. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Exécuter mail merge pour les documents qui contiennent même les plus complexes et imbriqués `IF` les champs et les formules. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Populez et développez dynamiquement des tables ou des fragments dans le document à partir de votre source de données en utilisant mail merge régions. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Utiliser toutes les normes Microsoft Word Mail Merge champs dans vos rapports, y compris `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, Très bien. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Exécuter Mail Merge pour les documents qui contiennent même les plus complexes et imbriqués `IF` les champs et les formules. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Populez et développez dynamiquement des tables ou des fragments dans le document à partir de votre source de données en utilisant Mail Merge régions. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Générez facilement des rapports qui contiennent des données master-detail (parent-enfant) telles que Order/OrderDetails. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Populer des documents avec des données de n'importe quelle Java source de données qui implémente `ResultSet` interface. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Popular documents à partir de toute source de données comme un fichier XML ou des objets d'affaires en mettant en œuvre le **IMailMergeDataSource** interface. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Prenez un contrôle précis, comme le formatage des numéros, sur la façon dont vos données sont fusionnées en utilisant des événements. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Insérer des images pendant mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Créer ou modifier une Microsoft Word mail merge source de données pour un document. Préserver mail merge paramètres et sources de données. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Récupérer mail merge noms de domaine. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Créer ou modifier une Microsoft Word Mail Merge source de données pour un document. Préserver Mail Merge paramètres et sources de données. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Récupérer Mail Merge noms de domaine. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
 ### Caractéristiques des rapports
 

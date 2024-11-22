@@ -10,8 +10,8 @@ url: /fr/java/working-with-fields/
 timestamp: 2024-01-27-14-07-04
 ---
 
-**Fields** dans un document sont comme des détenteurs de place où des données utiles peuvent être insérées. Par exemple, un champ peut être une référence de page, une formule, ou un mail merge sur le terrain.
+**Fields** dans un document sont comme des détenteurs de place où des données utiles peuvent être insérées. Par exemple, un champ peut être une référence de page, une formule, ou un Mail Merge sur le terrain.
 
 Dans un document créé ou édité avec Aspose.Words, comme dans Microsoft Word document, un champ se compose d'un code de champ et d'un résultat de champ. Le code de champ est une instruction sur la façon dont le résultat du champ doit être mis à jour ou calculé. Une application qui traite un document et rencontre un champ doit interpréter les instructions contenues dans le code de champ et mettre à jour le résultat du champ avec une nouvelle valeur.
 
-En <span notrans="<span notrans=" Aspose.Words"=""></span>""> les champs sont représentés par différentes classes, dont la plupart des noms commencent par "Champ". Les articles de cette section de documentation expliquent comment utiliser Aspose.Words des cours pour manipuler les champs de documents programmatiquement.
+En Aspose.Words"> les champs sont représentés par différentes classes, dont la plupart des noms commencent par "Champ". Les articles de cette section de documentation expliquent comment utiliser Aspose.Words des cours pour manipuler les champs de documents programmatiquement.

@@ -129,7 +129,7 @@ Si. Pertanto, quando copi i caratteri, tieni presente che la maggior parte dei c
 
 {{% alert color="primary" %}}
 
-Puoi trovare informazioni più dettagliate su mail merge nella sezione documentazione [Mail Merge e reporting](/words/net/mail-merge-and-reporting/).
+Puoi trovare informazioni più dettagliate su Mail Merge nella sezione documentazione [Mail Merge e reporting](/words/net/mail-merge-and-reporting/).
 
 {{% /alert %}}
 
@@ -144,7 +144,7 @@ Il nome originale del campo unione rimane lo stesso senza essere sostituito dai 
 
 **D: Perché l'output dell'unione nidificata non visualizza i dati della tabella figlio per la prima voce nella tabella padre ma mostra tutti gli elementi per l'ultima voce nella tabella padre, anche quelli che non sono effettivamente collegati ad essa?**
 
-Questo perché le regioni di unione nel modello non sono formate correttamente, il che può far sì che tutte le regioni mail merge nidificate interrompano la visualizzazione di qualsiasi cosa. Il tag di apertura [StartTable](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/starttable/) e il tag di chiusura [EndTable](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/endtable/) devono corrispondere ed essere nella stessa riga o cella. Ad esempio, se inizi a nidificare le aree di unione in una cella di una tabella, devi terminare l'area di unione nella stessa riga della prima cella.
+Questo perché le regioni di unione nel modello non sono formate correttamente, il che può far sì che tutte le regioni Mail Merge nidificate interrompano la visualizzazione di qualsiasi cosa. Il tag di apertura [StartTable](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/starttable/) e il tag di chiusura [EndTable](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/endtable/) devono corrispondere ed essere nella stessa riga o cella. Ad esempio, se inizi a nidificare le aree di unione in una cella di una tabella, devi terminare l'area di unione nella stessa riga della prima cella.
 
 ------
 
@@ -157,7 +157,7 @@ Ciò è dovuto al fatto che la relazione tra le tabelle padre e figlio non è im
 
 ------
 
-**D: Perché è presente un'eccezione: "System.ArgumentException: questo vincolo non può essere abilitato poiché non tutti i valori hanno valori principali corrispondenti" durante l'esecuzione di mail merge nidificati?**
+**D: Perché è presente un'eccezione: "System.ArgumentException: questo vincolo non può essere abilitato poiché non tutti i valori hanno valori principali corrispondenti" durante l'esecuzione di Mail Merge nidificati?**
 
 Ciò accade perché non tutti i record padre hanno un record figlio, quindi l'origine dati non corrisponde ai seguenti criteri: *ogni riga nella tabella padre dovrebbe avere una relazione uno a uno con le righe della tabella figlio in base al record primario e chiavi esterne*.
 

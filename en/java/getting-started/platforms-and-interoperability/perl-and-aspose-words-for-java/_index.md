@@ -78,7 +78,7 @@ doc.Save("C:\Temp\out.doc");
 
 ## Simple Mail Merge
 
-Aspose.Words provides a reporting generation facility similar to Microsoft Word’s mail merge. Here is a code example to perform a simple mail merge using Aspose.Words.
+Aspose.Words provides a reporting generation facility similar to Microsoft Word’s mail merge. Here is a code example to perform a simple Mail Merge using Aspose.Words.
 
 **Perl**
 

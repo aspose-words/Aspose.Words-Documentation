@@ -66,7 +66,7 @@ Genereer documenten of rapporten vanaf nul of vul templates met gegevens uit geg
 
 Aspose.Words voor Java De Java ontwikkeling van omgevingen en implementatieplatforms. Onze API kan worden gebruikt om toepassingen te ontwikkelen voor een breed scala aan besturingssystemen, zoals Windows, Linux, Mac OS, Android, en verschillende platforms.
 
-Om het simpel te zeggen, als uw platform standaard kan draaien <span notrans="<span notrans=" Java"=""></span>,"> Het kan lopen. Aspose.Words voor Java. Als uw toepassing standaard kan bellen Java <span notrans="<span notrans=" API"=""></span>,"> Je hebt geen problemen om te bellen. Aspose.Words voor Java API van uw aanvraag.
+Om het simpel te zeggen, als uw platform standaard kan draaien Java Het kan lopen. Aspose.Words voor Java. Als uw toepassing standaard kan bellen Java API Je hebt geen problemen om te bellen. Aspose.Words voor Java API van uw aanvraag.
 
 Op dit moment is onze basislijn JDK1.7 en nieuwer. Maar we steunen nog steeds JDK1.6.
 
@@ -92,7 +92,7 @@ Aspose.Words is multithread veilig zolang slechts één draad aan een document t
 
 ### Minimale leercurve
 
-Hoewel er meer dan 150 openbare klassen en opsommingen in <span notrans="<span notrans=" Aspose.Words"=""></span>,"> de leercurve is minimaal omdat de Aspose.Words API zorgvuldig is ontworpen met de volgende doelen in het achterhoofd:
+Hoewel er meer dan 150 openbare klassen en opsommingen in Aspose.Words de leercurve is minimaal omdat de Aspose.Words API zorgvuldig is ontworpen met de volgende doelen in het achterhoofd:
 
 * Leng beste praktijken van andere bekende APIs Microsoft Word Automatisering
 * Leen beste praktijken van de Java Richtsnoeren voor het ontwerp

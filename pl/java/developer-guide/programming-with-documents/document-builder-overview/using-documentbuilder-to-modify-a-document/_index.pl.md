@@ -204,7 +204,7 @@ Wstawianie nowego tekstu w ten sposób nie zastępuje istniejącego tekstu zakł
 
 ### Przejście do `Merge` Pole
 
-Czasami może być konieczne wykonanie "instrukcji" mail merge stosowanie `DocumentBuilder` lub wypełnić pole połączenia w specjalny sposób wewnątrz mail merge Kierownik zdarzeń. To wtedy [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) Może się przydać. Metoda akceptuje nazwę pola połączenia. Przesuwa kursor do pozycji tuż za określonym polem połączenia i usuwa pole połączenia. Poniższy przykład kodu pokazuje jak przenieść kursor do pozycji tuż za określonym polem połączenia.
+Czasami może być konieczne wykonanie "instrukcji" Mail Merge stosowanie `DocumentBuilder` lub wypełnić pole połączenia w specjalny sposób wewnątrz Mail Merge Kierownik zdarzeń. To wtedy [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) Może się przydać. Metoda akceptuje nazwę pola połączenia. Przesuwa kursor do pozycji tuż za określonym polem połączenia i usuwa pole połączenia. Poniższy przykład kodu pokazuje jak przenieść kursor do pozycji tuż za określonym polem połączenia.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToMergeField-DocumentBuilderMoveToMergeField.java" >}}
 

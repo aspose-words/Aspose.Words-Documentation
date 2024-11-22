@@ -204,7 +204,7 @@ La inserción del nuevo texto de esta manera no sustituye el texto existente del
 
 ### Mover a un `Merge` Campo
 
-A veces es posible que necesite realizar un "manual" mail merge utilizando `DocumentBuilder` o llenar un campo de fusión de una manera especial dentro de un mail merge Manejador del evento. Eso es cuando [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) podría ser útil. El método acepta el nombre del campo de fusión. Se mueve el cursor a una posición justo más allá del campo de fusión especificado y elimina el campo de fusión. El siguiente ejemplo de código muestra cómo mover el cursor a una posición justo más allá del campo de fusión especificado.
+A veces es posible que necesite realizar un "manual" Mail Merge utilizando `DocumentBuilder` o llenar un campo de fusión de una manera especial dentro de un Mail Merge Manejador del evento. Eso es cuando [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) podría ser útil. El método acepta el nombre del campo de fusión. Se mueve el cursor a una posición justo más allá del campo de fusión especificado y elimina el campo de fusión. El siguiente ejemplo de código muestra cómo mover el cursor a una posición justo más allá del campo de fusión especificado.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToMergeField-DocumentBuilderMoveToMergeField.java" >}}
 

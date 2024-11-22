@@ -33,12 +33,12 @@ timestamp: 2024-08-19-11-05-36
 ![net-console-application](https://lh5.googleusercontent.com/PArWoC8_leOnhtaF-5BMb3b4jHwI3G03WoyMK3bXZpsQKN50YzvEQBwoRniyCWKIcdR0EZGuwn3S8Z0ZK6FQ4cjMSWgH3CwSqReW4bMt-3OjZjrdt9yuWbkMdhyNjwwaaYPC5Ylr)<br>
 1. Установите последнюю Aspose.Words Версия из NuGet. Ски Sharp будет устанавливаться как зависимость от Aspose.Words.<br/>
 ![skiasharp-dependency](https://lh3.googleusercontent.com/zWpvB5TLahC_OpJrHDML2131Vj_VK1vryTZBd_C3ZeOBdoUOc2vF_axEvwu9tytaL1maJv3qA2KoyP5fn7ae4_3cL23sXyoLoVysjgu8XEp6l0B2w5hgR9teh95_9mFd9X-4DGNN)<br>
-1. Поскольку приложение будет работать на <p notrans="<p notrans=" Linux"=""></p>"> подходящий родной Linux Активы должны быть установлены. Начнем с того, что Debian Базовое изображение и установка `SkiaSharp.NativeAssets`.Linux.
+1. Поскольку приложение будет работать на Linux подходящий родной Linux Активы должны быть установлены. Начнем с того, что Debian Базовое изображение и установка `SkiaSharp.NativeAssets.Linux`.
 1. При добавлении всех необходимых зависимостей напишите простую программу, которая создает документ "Hello World!" и сохраняет его во всех поддерживаемых форматах сохранения:<br/>
 
 {{< gist "aspose-words-gists" "47e15ad749897be465deebc2ff3e76dd" "aspose-words-docker.cs" >}}
 
-Обратите внимание, что папка "TestOut" указана как выходная папка для сохранения выходных документов. При запуске приложения в <p notrans="<p notrans=" Docker"=""></p>"> папка на хост-машине будет установлена на эту папку в контейнере. Это позволит вам легко просматривать результат, генерируемый Aspose.Words в Docker контейнер.
+Обратите внимание, что папка "TestOut" указана как выходная папка для сохранения выходных документов. При запуске приложения в Docker папка на хост-машине будет установлена на эту папку в контейнере. Это позволит вам легко просматривать результат, генерируемый Aspose.Words в Docker контейнер.
 
 ### Конфигурирование a Dockerfile
 

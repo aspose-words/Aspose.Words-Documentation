@@ -153,7 +153,7 @@ Call DocumentBuilderComboBox להכניס קופסא לתוך המסמך. הדו
 
 ## הכנס HTML
 
-אתה יכול בקלות להוסיף מחרוזת HTML המכילה קטע HTML או מסמך HTML שלם במסמך Word. פשוט להעביר את המחרוזת הזאת ל- DocumentBuilder. הכנס שיטת Html אחד המימושים השימושיים של השיטה הוא אחסון מחרוזת HTML במסד נתונים והכניס אותו למסמכים במהלך המסמך. mail merge כדי לקבל את התוכן המתואם במקום לבנות אותו באמצעות שיטות שונות של בונה המסמך. הדוגמה הקודית הבאה מציגה את HTML במסמך באמצעות DocumentBuilder.
+אתה יכול בקלות להוסיף מחרוזת HTML המכילה קטע HTML או מסמך HTML שלם במסמך Word. פשוט להעביר את המחרוזת הזאת ל- DocumentBuilder. הכנס שיטת Html אחד המימושים השימושיים של השיטה הוא אחסון מחרוזת HTML במסד נתונים והכניס אותו למסמכים במהלך המסמך. Mail Merge כדי לקבל את התוכן המתואם במקום לבנות אותו באמצעות שיטות שונות של בונה המסמך. הדוגמה הקודית הבאה מציגה את HTML במסמך באמצעות DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHtml-DocumentBuilderInsertHtml.java" >}}
 

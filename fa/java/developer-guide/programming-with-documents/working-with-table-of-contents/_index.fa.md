@@ -61,7 +61,7 @@ Aspose.Words اجازه می دهد تا شما به طور کامل به روز
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertATableOfContentsField-UpdateTableOfContents.java" >}}
 
-اولین تماس برای [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) ساخت آن <span notrans="<span notrans=" `TOC`"=""></span>"> تمام نوشته های متنی پر جمعیت هستند و `TOC` تقریبا کامل به نظر می رسد. تنها چیزی که از دست رفته، تعداد صفحاتی است که اکنون با "" نمایش داده می شوند.
+اولین تماس برای [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) ساخت آن `TOC`"> تمام نوشته های متنی پر جمعیت هستند و `TOC` تقریبا کامل به نظر می رسد. تنها چیزی که از دست رفته، تعداد صفحاتی است که اکنون با "" نمایش داده می شوند.
 
 دومین تماس برای [Document.updatePageLayout()](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout) طرح سند را در حافظه ایجاد خواهد کرد. این باید برای جمع آوری تعداد صفحات ورودی انجام شود. اعداد صفحه صحیح محاسبه شده از این تماس سپس به TOC وارد می شوند.
 
@@ -125,7 +125,7 @@ Aspose.Words اجازه می دهد تا شما به طور کامل به روز
 
 <p>![table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-6.png)</p>
 
-<p><br/><br/>The The The The The The `TC` خودشان هم می توانند {several, `multiple`, a few, `many`, numerous} سوئیچ های تنظیم شده اینها عبارتند از:</p>
+<p><br/><br/>The The The The The The `TC` خودشان هم می توانند `{several, multiple, a few, many, numerous}` سوئیچ های تنظیم شده اینها عبارتند از:</p>
 
 <p>\F - توضیح داده شده در بالا. *</p>
 

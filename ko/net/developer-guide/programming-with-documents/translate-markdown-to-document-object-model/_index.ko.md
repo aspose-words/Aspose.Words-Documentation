@@ -41,12 +41,12 @@ Word 문서와 달리 Markdown는 [Aspose.Words Document Object Model (DOM)](/wo
 |  **Italic**<br /> `*italic text*` |  `Font.Italic = true`  |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}}  |  |
 |  **Strikethrough**<br /> `~Strikethrough text~` |  `Font.StrikeThrough = true`  |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
 builder.Font.Strikethrough = true;
-builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
+builder.Writeln("This text will be Strikethrough"); {{< /highlight >}} |  |
 
 우리는 `InlineCode`라는 단어로 시작하는 이름과 `InlineCode` 기능을 위한 선택적인 도트 `(.)` 및 다수의 백틱 ```(`)```이 뒤에 오는 문자 스타일을 사용합니다. 여러 개의 백틱이 누락된 경우 기본적으로 하나의 백틱이 사용됩니다.
 
@@ -73,10 +73,10 @@ builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **HorizontalRule**<br /> `-----` |  다음은 해당 수평 규칙 모양이 있는 간단한 단락입니다.<br /> `DocumentBuilder.InsertHorizontalRule()` |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-HorizontalRule.cs" >}}  |                                                                |
-|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`, 여기서 (1&lt;= N &lt;= 9).<br /> 이는 내장 스타일로 변환되며 정확히 지정된 패턴이어야 합니다(접미사 또는 접두사는 허용되지 않음).<br /> 그렇지 않으면 해당 스타일이 있는 일반 단락일 뿐입니다 |
+|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = "Heading N"`, 여기서 (1&le; N &le; 9).<br /> 이는 내장 스타일로 변환되며 정확히 지정된 패턴이어야 합니다(접미사 또는 접두사는 허용되지 않음).<br /> 그렇지 않으면 해당 스타일이 있는 일반 단락일 뿐입니다 |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}}  |                                                                |
-|  **Setext Heading**<br /> `===`(제목 수준 1인 경우),<br /> `---`(제목 수준 2인 경우) |  `“Heading N”` 스타일을 기반으로 하는 `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`.<br /> (N &gt;= 2)이면 `“Heading 2”`이 사용되고, 그렇지 않으면 `“Heading 1”`가 사용됩니다.<br /> 모든 접미사가 허용되지만 Aspose.Words 가져오기 도구는 숫자 "1"과 "2"를 각각 사용합니다 |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  **Setext Heading**<br /> `===`(제목 수준 1인 경우),<br /> `---`(제목 수준 2인 경우) |  'Heading N' 스타일을 기반으로 하는 `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`.<br /> (N &ge; 2)이면 'Heading 2'이 사용되고, 그렇지 않으면 'Heading 1'가 사용됩니다.<br /> 모든 접미사가 허용되지만 Aspose.Words 가져오기 도구는 숫자 "1"과 "2"를 각각 사용합니다 |
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 builder.ParagraphFormat.StyleName = "Heading 1";
@@ -103,7 +103,7 @@ builder.ParagraphFormat.Style = setexHeading2;
 builder.Document.Styles["SetextHeading2"].BaseStyleName = "Heading 3";
 
 // Setex heading level will be reset to 2 if the base paragraph has a Heading level greater than 2.
-builder.Writeln("Setext Heading level 2");{{< /highlight >}} |
+builder.Writeln("Setext Heading level 2"); {{< /highlight >}} |
 |   **Indented Code**                                             |  `ParagraphFormat.StyleName = “IndentedCode[some suffix]”`     |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-IndentedCode.cs" >}}  |                                                                |
 |  **Fenced Code**<br /> {{< highlight csharp >}}``` c#
@@ -120,7 +120,7 @@ else
 |  Markdown 기능 |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **Quote**<br /> `> quote,`<br /> `>> nested quote` |  `ParagraphFormat.StyleName = “Quote[some suffix]”`<br /> 스타일 이름의 접미사는 선택 사항이지만 Aspose.Words 가져오기에서는 1, 2, 3, …의 순서 번호를 사용합니다. 중첩된 따옴표의 경우.<br /> 중첩은 상속된 스타일을 통해 정의됩니다 |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // By default a document stores blockquote style for the first level.
@@ -131,7 +131,7 @@ builder.Writeln("Blockquote");
 Style quoteLevel2 = builder.Document.Styles.Add(StyleType.Paragraph, "Quote1");
 builder.ParagraphFormat.Style = quoteLevel2;
 builder.Document.Styles["Quote1"].BaseStyleName = "Quote";
-builder.Writeln("1. Nested blockquote");{{< /highlight >}} |
+builder.Writeln("1. Nested blockquote"); {{< /highlight >}} |
 |  **BulletedList**<br /> `- Item 1`<br /> `- Item 2`<br /> `   - Item 2a`<br /> `   - Item 2b` |  글머리 기호 목록은 단락 번호 매기기를 사용하여 표시됩니다.<br /> `ListFormat.ApplyBulletDefault()`<br /> 글머리 기호 목록에는 3가지 유형이 있을 수 있습니다. 첫 번째 수준의 번호 매기기 형식만 다릅니다. 이는 각각 `‘-’`, `‘+’` 또는 `‘*’`입니다 |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BulletedList.cs" >}}  |                                                                |
 |  **OrderedList**<br /> `1. Item 1`<br /> `2. Item 2`<br /> `1) Item 2a`<br /> `2) Item 2b` |  순서가 지정된 목록은 단락 번호 매기기를 사용하여 표시됩니다.<br /> `ListFormat.ApplyNumberDefault()`<br /> 2개의 숫자 형식 표시자가 있을 수 있습니다: '.' 그리고 ')'. 기본 마커는 '.'입니다 |
@@ -148,7 +148,7 @@ builder.Writeln("Item 2");
 builder.ListFormat.ListIndent();
 
 builder.Writeln("Item 2a");
-builder.Writeln("Item 2b");{{< /highlight >}} |                                                                |
+builder.Writeln("Item 2b"); {{< /highlight >}} |                                                                |
 
 ### 테이블
 
@@ -157,7 +157,7 @@ Aspose.Words를 사용하면 아래와 같이 테이블을 DOM로 변환할 수�
 |  Markdown 기능 |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  `Table`<br /> `a|b`<br />`-|-`<br />`c | 디` |  [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) 및 [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) 클래스 |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Add the first row.
@@ -170,7 +170,7 @@ builder.Writeln("b");
 builder.InsertCell();
 builder.Writeln("c");
 builder.InsertCell();
-builder.Writeln("d");{{< /highlight >}} |                                                                |
+builder.Writeln("d"); {{< /highlight >}} |                                                                |
 
 ## 또한보십시오
 

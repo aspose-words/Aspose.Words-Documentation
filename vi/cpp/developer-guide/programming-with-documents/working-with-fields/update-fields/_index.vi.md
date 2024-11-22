@@ -19,7 +19,7 @@ Khi một tài liệu được tải, Aspose.Words bắt chước hành vi của
 - khi bạn mở / lưu tài liệu, các trường vẫn còn nguyên vẹn
 - bạn có thể cập nhật rõ ràng tất cả các trường trong tài liệu, ví dụ: xây dựng lại `TOC`, khi bạn cần
 - khi bạn kết xuất đến PDF hoặc XPS các trường liên quan đến đánh số trang trong tiêu đề / chân trang được cập nhật
-- khi bạn thực thi mail merge tất cả các trường được cập nhật tự động
+- khi bạn thực thi Mail Merge tất cả các trường được cập nhật tự động
 
 ### Cập Nhật Các Trường Theo Chương Trình
 
@@ -37,7 +37,7 @@ Ví dụ mã sau đây cho thấy cách cập nhật tất cả các trường t
 
 ### Cập Nhật Trường Tự Động Trong Mail Merge
 
-Khi bạn thực thi mail merge, tất cả các trường trong tài liệu sẽ được cập nhật tự động. Điều này là do mail merge là trường hợp cập nhật trường. Chương trình gặp trường mail merge và cần cập nhật kết quả của nó, bao gồm việc lấy giá trị từ nguồn dữ liệu và chèn nó vào trường. Logic tất nhiên phức tạp hơn, ví dụ, khi kết thúc vùng tài liệu/mail merge đạt được nhưng vẫn còn dữ liệu tiếp theo được hợp nhất, sau đó vùng cần được sao chép và tập hợp các trường mới được cập nhật.
+Khi bạn thực thi mail merge, tất cả các trường trong tài liệu sẽ được cập nhật tự động. Điều này là do Mail Merge là trường hợp cập nhật trường. Chương trình gặp trường Mail Merge và cần cập nhật kết quả của nó, bao gồm việc lấy giá trị từ nguồn dữ liệu và chèn nó vào trường. Logic tất nhiên phức tạp hơn, ví dụ, khi kết thúc vùng tài liệu/mail merge đạt được nhưng vẫn còn dữ liệu tiếp theo được hợp nhất, sau đó vùng cần được sao chép và tập hợp các trường mới được cập nhật.
 
 ## Cập Nhật Thuộc Tính LastSavedTime Trước Khi Lưu
 

@@ -39,7 +39,7 @@ Aspose.Words Предоставляет функциональность для 
 
 {{% alert color="primary" %}}
 
-При оформлении <p notrans="<p notrans=" [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/)"=""></p>"> Это должно быть частью иерархии документов. Если [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) не является частью дерева документов, тогда отданный результат будет пустым после вызова [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/) методы.
+При оформлении [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) Это должно быть частью иерархии документов. Если [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) не является частью дерева документов, тогда отданный результат будет пустым после вызова [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/) методы.
 
 {{% /alert %}}
 

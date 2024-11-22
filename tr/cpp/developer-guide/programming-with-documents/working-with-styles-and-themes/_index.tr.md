@@ -34,7 +34,7 @@ Bu örnek belgede, ‘Başlık 1’ paragraf stili ile biçimlendirilmiş metin 
 
 ### Kod
 
-Aspose.Words belge nesnesi modelinde stil tabanlı bir sorgunun uygulanması oldukça basittir, çünkü zaten yerinde olan araçları kullanır. Bu çözüm için iki sınıf yöntemi uygulanır: # **ParagraphsByStyleName** - Bu yöntem, belgede belirli bir stil adına sahip paragraflardan oluşan bir dizi alır.# **RunsByStyleName** - Bu yöntem, belgede belirli bir stil adına sahip olan çalıştırmalardan oluşan bir dizi alır. Bu yöntemlerin her ikisi de çok benzerdir, tek fark düğüm türleri ve paragraf ve çalıştırma düğümleri içindeki stil bilgilerinin gösterimidir. İşte ParagraphsByStyleName 'nin bir uygulaması. Aşağıda, belirtilen stille biçimlendirilmiş tüm paragrafları bulabilirsiniz.
+Aspose.Words belge nesnesi modelinde stil tabanlı bir sorgunun uygulanması oldukça basittir, çünkü zaten yerinde olan araçları kullanır. Bu çözüm için iki sınıf yöntemi uygulanır: **ParagraphsByStyleName** - Bu yöntem, belgede belirli bir stil adına sahip paragraflardan oluşan bir dizi alır. **RunsByStyleName** - Bu yöntem, belgede belirli bir stil adına sahip olan çalıştırmalardan oluşan bir dizi alır. Bu yöntemlerin her ikisi de çok benzerdir, tek fark düğüm türleri ve paragraf ve çalıştırma düğümleri içindeki stil bilgilerinin gösterimidir. İşte ParagraphsByStyleName 'nin bir uygulaması. Aşağıda, belirtilen stille biçimlendirilmiş tüm paragrafları bulabilirsiniz.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Styles-ExtractContentBasedOnStyles-ParagraphsByStyleName.cpp" >}}
 

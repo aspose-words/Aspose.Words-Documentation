@@ -36,7 +36,7 @@ timestamp: 2024-10-24-11-44-28
 
 ほとんどの場合、 Windows ユーザーは、欠落したフォントや誤ったレイアウトで重要な問題に直面しません。 通常, Aspose.Words 文書を通し、フォントのリンクに遭遇すると、システムフォルダからフォントデータが正常に取得されます。
 
-お問い合わせ <span notrans="<span notrans=" Windows"=""></span>????? Aspose.Words まず、すべての利用可能なフォントを _%windir%\Fonts フォルダ。 この設定は、ほとんどの時間のために動作します。 必要な場合は、独自のフォントフォルダのみを指定します。 Aspose.Words また、登録した追加のフォントを探します HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts レジストリキー。 その他、 Windows 10 は、現在のユーザのフォントのインストールを有効にします。 フォントは、 %userprofile%\AppData\Local\Microsoft\Windows\Fonts フォルダおよびまたで指定されて HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Fonts レジストリ、場所 Aspose.Words これらのフォントを探します。
+お問い合わせ Windows????? Aspose.Words まず、すべての利用可能なフォントを _%windir%\Fonts フォルダ。 この設定は、ほとんどの時間のために動作します。 必要な場合は、独自のフォントフォルダのみを指定します。 Aspose.Words また、登録した追加のフォントを探します HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts レジストリキー。 その他、 Windows 10 は、現在のユーザのフォントのインストールを有効にします。 フォントは、 %userprofile%\AppData\Local\Microsoft\Windows\Fonts フォルダおよびまたで指定されて HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Fonts レジストリ、場所 Aspose.Words これらのフォントを探します。
 
 文書に埋め込まれたフォントが含まれている場合、 Aspose.Words 文書から関連するフォントデータを読み、文書のレイアウトを作成するためにそれを使用することができます。 ドキュメントには、システムフォルダにないフォントへのリンクも含まれている場合があります。この場合、次のシナリオが機能します。
 
@@ -51,7 +51,7 @@ Aspose.Words システムフォントフォルダ内のフォントを探しま�
 
 #### アクセス Aspose.Words TrueType フォントを探す Linux
 
-コンテンツ Linux 配布は、異なるフォルダにフォントを保存することができます。 Aspose.Words 複数の場所でフォントを探します。 デフォルトでは、 Aspose.Words * /usr/share/fonts* /usr/local/share/fonts* /usr/X11R6/lib/X11/fonts のすべての場所にあるフォントを探します。 このデフォルト動作は、ほとんどの機能で動作します Linux 配布は、しかし、あなたが場所を指定する必要があるかもしれない場合、すべての時間に動作するように保証されていません true フォントを明示的にタイプします。 これを行うには、TrueTypeフォントがインストールされている場所を知る必要があります Linux 分布。
+コンテンツ Linux 配布は、異なるフォルダにフォントを保存することができます。 Aspose.Words 複数の場所でフォントを探します。 デフォルトでは、 Aspose.Words `/usr/share/fonts` `/usr/local/share/fonts` `/usr/X11R6/lib/X11/fonts` のすべての場所にあるフォントを探します。 このデフォルト動作は、ほとんどの機能で動作します Linux 配布は、しかし、あなたが場所を指定する必要があるかもしれない場合、すべての時間に動作するように保証されていません true フォントを明示的にタイプします。 これを行うには、TrueTypeフォントがインストールされている場所を知る必要があります Linux 分布。
 
 #### アクセス Aspose.Words Mac OS XでTrueTypeフォントを探します
 

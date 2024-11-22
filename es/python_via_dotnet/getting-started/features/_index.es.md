@@ -109,15 +109,15 @@ Puede utilizar Aspose.Words como solución de informes por sí sola. Diseñe sus
 
 |  Característica | Python via .NET |
 |  :-  |  :-  |
-| Utilice todos los campos Microsoft Word mail merge estándar en sus informes, incluidos `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK` y GREETINGLINE. | {{< emoticons/tick >}} |
-| Ejecute mail merge para documentos que contengan incluso los campos y fórmulas `IF` más complejos y anidados. | {{< emoticons/tick >}} |
+| Utilice todos los campos Microsoft Word Mail Merge estándar en sus informes, incluidos `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK` y GREETINGLINE. | {{< emoticons/tick >}} |
+| Ejecute Mail Merge para documentos que contengan incluso los campos y fórmulas `IF` más complejos y anidados. | {{< emoticons/tick >}} |
 | Complete y haga crecer dinámicamente tablas o fragmentos en el documento desde su fuente de datos utilizando regiones mail merge. | {{< emoticons/cross >}} |
 | Genere fácilmente informes que contengan datos principales y detallados (principal-secundario), como Pedido/Detalles del pedido. | {{< emoticons/cross >}} |
 | Complete documentos con datos de cualquier fuente de datos .NET, como DataSet, DataTable, DataView, DataReader o ADO Recordset. | {{< emoticons/cross >}} |
 | Complete documentos desde cualquier fuente de datos, como una consulta LINQ, un archivo XML u objetos comerciales, mediante la implementación de la interfaz [IMailMergeDataSource](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/imailmergedatasource/). | {{< emoticons/cross >}} |
 | Tome un control preciso, como el formato de números, sobre cómo se combinan sus datos mediante eventos. | {{< emoticons/cross >}} |
 | Insertar imágenes durante mail merge. | {{< emoticons/tick >}} |
-| Cree o modifique mediante programación una fuente de datos Microsoft Word mail merge para un documento. Preservar la configuración de mail merge y las fuentes de datos. | {{< emoticons/tick >}} |
+| Cree o modifique mediante programación una fuente de datos Microsoft Word Mail Merge para un documento. Preservar la configuración de Mail Merge y las fuentes de datos. | {{< emoticons/tick >}} |
 | Recuperar nombres de campos mail merge. | {{< emoticons/tick >}} |
 
 ## Funciones de informes

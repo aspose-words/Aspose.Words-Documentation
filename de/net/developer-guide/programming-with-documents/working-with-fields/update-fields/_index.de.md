@@ -19,7 +19,7 @@ Wenn ein Dokument geladen wird, ahmt Aspose.Words das Verhalten von Microsoft Wo
 - Wenn Sie ein Dokument öffnen/speichern, bleiben die Felder erhalten
 - Sie können bei Bedarf alle Felder in einem Dokument explizit aktualisieren, z. B. `TOC` neu erstellen
 - Wenn Sie in PDF oder XPS drucken/rendern, werden die Felder für die Seitennummerierung in Kopf-/Fußzeilen aktualisiert
-- Wenn Sie mail merge ausführen, werden alle Felder automatisch aktualisiert
+- Wenn Sie Mail Merge ausführen, werden alle Felder automatisch aktualisiert
 
 ### Aktualisieren Sie Felder programmgesteuert
 
@@ -43,7 +43,7 @@ Sie können die Beispieldatei dieses Beispiels von [Aspose.Words GitHub](https:/
 
 ### Automatische Feldaktualisierung während Mail Merge
 
-Wenn Sie ein mail merge ausführen, werden alle Felder im Dokument automatisch aktualisiert. Dies liegt daran, dass es sich bei mail merge um eine Feldaktualisierung handelt. Das Programm stößt auf ein mail merge-Feld und muss dessen Ergebnis aktualisieren. Dazu muss der Wert aus der Datenquelle abgerufen und in das Feld eingefügt werden. Die Logik ist natürlich komplizierter. Wenn beispielsweise das Ende des Dokument-/mail merge-Bereichs erreicht ist, aber noch weitere Daten zusammengeführt werden müssen, muss der Bereich dupliziert und der neue Satz von Feldern aktualisiert werden.
+Wenn Sie ein Mail Merge ausführen, werden alle Felder im Dokument automatisch aktualisiert. Dies liegt daran, dass es sich bei Mail Merge um eine Feldaktualisierung handelt. Das Programm stößt auf ein mail merge-Feld und muss dessen Ergebnis aktualisieren. Dazu muss der Wert aus der Datenquelle abgerufen und in das Feld eingefügt werden. Die Logik ist natürlich komplizierter. Wenn beispielsweise das Ende des Dokument-/mail merge-Bereichs erreicht ist, aber noch weitere Daten zusammengeführt werden müssen, muss der Bereich dupliziert und der neue Satz von Feldern aktualisiert werden.
 
 ## Aktualisieren Sie Felder mit fehlerhaften Attributen
 

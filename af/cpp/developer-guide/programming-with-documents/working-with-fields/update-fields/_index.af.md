@@ -19,7 +19,7 @@ Wanneer'n dokument gelaai word, naboots Aspose.Words die gedrag van Microsoft Wo
 - as u'n dokument oopmaak/stoor, bly die velde ongeskonde
 - u kan alle velde in'n dokument eksplisiet opdateer, byvoorbeeld herbou `TOC`, wanneer u moet
 - as u na PDF of XPS weergee, word die velde wat verband hou met bladsynommering in koptekste/voetskrifte opgedateer
-- as u mail merge uitvoer, word alle velde outomaties opgedateer
+- as u Mail Merge uitvoer, word alle velde outomaties opgedateer
 
 ### Dateer Velde Programmaties Op
 
@@ -37,7 +37,7 @@ Die volgende kode voorbeeld toon hoe om al die velde te werk voor die lewering v
 
 ### Outomatiese Veldopdatering Gedurende Mail Merge
 
-Wanneer jy'n mail merge uitvoer, sal alle velde in die dokument outomaties opgedateer word. Dit is omdat die mail merge is'n geval van'n veld update. Die program ontmoet'n mail merge veld en moet sy resultaat op te dateer, wat behels gryp die waarde van die data bron en voeg dit in die veld. Die logika is natuurlik meer ingewikkeld, byvoorbeeld wanneer die einde van die dokument/mail merge streek bereik word, maar daar is nog verdere data wat saamgesmelt moet word, dan moet die streek gedupliseer word en die nuwe stel velde opgedateer word.
+Wanneer jy'n Mail Merge uitvoer, sal alle velde in die dokument outomaties opgedateer word. Dit is omdat die Mail Merge is'n geval van'n veld update. Die program ontmoet'n Mail Merge veld en moet sy resultaat op te dateer, wat behels gryp die waarde van die data bron en voeg dit in die veld. Die logika is natuurlik meer ingewikkeld, byvoorbeeld wanneer die einde van die dokument/mail merge streek bereik word, maar daar is nog verdere data wat saamgesmelt moet word, dan moet die streek gedupliseer word en die nuwe stel velde opgedateer word.
 
 ## Dateer LastSavedTime Eienskap Op Voordat Jy Stoor
 

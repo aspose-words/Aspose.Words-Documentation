@@ -14,7 +14,7 @@ Konvertieren von Dokumenten von einem Format in ein anderes ist die Flaggschiff-
 
 ## Dokument nach XLSX umrechnen
 
-Die Umwandlung eines Dokuments in XLSX ist ein ziemlich komplizierter Prozess. Um Ihr Dokument im XLSX Format zu speichern <span notrans="<span notrans=" Aspose.Words"=""></span>,"> verwenden, [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) Klasse und die neue `Xlsx` Element in der [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) Aufzählung. Wie oben erwähnt, können Sie das Dokument in jedem von Aspose.Words zu XLSX.
+Die Umwandlung eines Dokuments in XLSX ist ein ziemlich komplizierter Prozess. Um Ihr Dokument im XLSX Format zu speichern Aspose.Words verwenden, [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) Klasse und die neue `Xlsx` Element in der [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) Aufzählung. Wie oben erwähnt, können Sie das Dokument in jedem von Aspose.Words zu XLSX.
 
 Das folgende Codebeispiel zeigt, wie man PDF zu XLSX speichert:
 

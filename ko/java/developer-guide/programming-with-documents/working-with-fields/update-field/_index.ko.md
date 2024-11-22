@@ -19,7 +19,7 @@ timestamp: 2024-01-27-14-07-04
 - 문서가 열릴 때 필드가 그대로 남아
 - 문서의 모든 필드를 명시적으로 업데이트 할 수 있습니다, 예를 들어, 재건 `TOC` 당신은 할 때
 - PDF로 인쇄/ 렌더링할 때 XPS headers/footers의 페이지 번호와 관련된 필드가 업데이트됩니다
-- 실행할 때 mail merge 모든 필드는 자동으로 업데이트됩니다
+- 실행할 때 Mail Merge 모든 필드는 자동으로 업데이트됩니다
 
 ### 업데이트 필드 프로그래밍
 
@@ -37,11 +37,11 @@ timestamp: 2024-01-27-14-07-04
 
 ### 자동 현장 업데이트 Mail Merge
 
-실행할 때 <span notrans="<span notrans=" mail merge"=""></span>· 문서의 모든 필드는 자동으로 업데이트됩니다. 이것은 때문에 mail merge 필드 업데이트의 경우입니다. 이 프로그램은 만남 mail merge 필드와 그 결과를 업데이트 할 필요가, 이는 데이터 소스에서 값을 잡고 필드에 삽입. 논리는, 물론, 더 복잡, 예를 들어, 문서의 끝 때 /mail merge 지역이 도달하지만 여전히 더 많은 데이터가 합병되고, 그 지역은 중복되고 새로운 필드의 업데이트가 필요합니다.
+실행할 때 mail merge· 문서의 모든 필드는 자동으로 업데이트됩니다. 이것은 때문에 Mail Merge 필드 업데이트의 경우입니다. 이 프로그램은 만남 Mail Merge 필드와 그 결과를 업데이트 할 필요가, 이는 데이터 소스에서 값을 잡고 필드에 삽입. 논리는, 물론, 더 복잡, 예를 들어, 문서의 끝 때 /mail merge 지역이 도달하지만 여전히 더 많은 데이터가 합병되고, 그 지역은 중복되고 새로운 필드의 업데이트가 필요합니다.
 
 ## Update Fields having 더러운 Attribute
 
-w:dirty는 문서가 열릴 때만 지정하는 필드 레벨 속성입니다. MS Word는 다음 문서를 열 때만 이 필드를 새로 고침합니다. LoadOptions.setUpdateDirtyFields() 속성을 사용하여 더러운 속성으로 필드를 업데이트할 수 있습니다. LoadOptions.setUpdateDirtyFields()의 값이 설정될 때 <span notrans="<span notrans=" *true*"=""></span>· 모든 분야 *true* 계정 정보 `Field.IsDirty` 또는 `FieldChar.IsDirty` 속성은 문서 부하에 업데이트됩니다
+w:dirty는 문서가 열릴 때만 지정하는 필드 레벨 속성입니다. MS Word는 다음 문서를 열 때만 이 필드를 새로 고침합니다. LoadOptions.setUpdateDirtyFields() 속성을 사용하여 더러운 속성으로 필드를 업데이트할 수 있습니다. LoadOptions.setUpdateDirtyFields()의 값이 설정될 때 *true*· 모든 분야 *true* 계정 정보 `Field.IsDirty` 또는 `FieldChar.IsDirty` 속성은 문서 부하에 업데이트됩니다
 
 다음 코드 예제는 더러운 속성을 가진 필드를 업데이트하는 방법을 보여줍니다:
 

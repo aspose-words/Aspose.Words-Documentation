@@ -41,12 +41,12 @@ Chúng tôi sử dụng định dạng [Font](https://reference.aspose.com/words
 |  **Italic**<br /> `*italic text*` |  `Font.Italic = true`  |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}}  |  |
 |  **Strikethrough**<br /> `~Strikethrough text~` |  `Font.StrikeThrough = true`  |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
 builder.Font.Strikethrough = true;
-builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
+builder.Writeln("This text will be Strikethrough"); {{< /highlight >}} |  |
 
 Chúng tôi sử dụng kiểu ký tự có tên bắt đầu từ từ `InlineCode`, theo sau là dấu chấm `(.)` tùy chọn và một số dấu kiểm ngược ```(`)``` cho tính năng `InlineCode`. Nếu thiếu một số dấu tích ngược thì mặc định một dấu tích ngược sẽ được sử dụng.
 
@@ -73,10 +73,10 @@ Bảng bên dưới hiển thị các ví dụ về cách sử dụng khối Lá
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **HorizontalRule**<br /> `-----` |  Đây là một đoạn văn đơn giản có hình dạng Quy tắc ngang tương ứng:<br /> `DocumentBuilder.InsertHorizontalRule()` |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-HorizontalRule.cs" >}}  |                                                                |
-|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`, trong đó (1&lt;= N &lt;= 9).<br /> Điều này được dịch sang kiểu có sẵn và phải chính xác theo mẫu đã chỉ định (không cho phép hậu tố hoặc tiền tố).<br /> Nếu không, nó sẽ chỉ là một đoạn văn thông thường có kiểu dáng tương ứng |
+|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = "Heading N"`, trong đó (1&le; N &le; 9).<br /> Điều này được dịch sang kiểu có sẵn và phải chính xác theo mẫu đã chỉ định (không cho phép hậu tố hoặc tiền tố).<br /> Nếu không, nó sẽ chỉ là một đoạn văn thông thường có kiểu dáng tương ứng |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}}  |                                                                |
-|  **Setext Heading**<br /> `===` (nếu là Heading cấp 1),<br /> `---` (nếu Tiêu đề cấp 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, dựa trên phong cách `“Heading N”`.<br /> Nếu (N &gt;= 2) thì `“Heading 2”` sẽ được sử dụng, nếu không thì `“Heading 1”`.<br /> Cho phép bất kỳ hậu tố nào, nhưng trình nhập Aspose.Words sử dụng các số "1" và "2" tương ứng |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  **Setext Heading**<br /> `===` (nếu là Heading cấp 1),<br /> `---` (nếu Tiêu đề cấp 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, dựa trên phong cách 'Heading N'.<br /> Nếu (N &ge; 2) thì 'Heading 2' sẽ được sử dụng, nếu không thì 'Heading 1'.<br /> Cho phép bất kỳ hậu tố nào, nhưng trình nhập Aspose.Words sử dụng các số "1" và "2" tương ứng |
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 builder.ParagraphFormat.StyleName = "Heading 1";
@@ -103,7 +103,7 @@ builder.ParagraphFormat.Style = setexHeading2;
 builder.Document.Styles["SetextHeading2"].BaseStyleName = "Heading 3";
 
 // Setex heading level will be reset to 2 if the base paragraph has a Heading level greater than 2.
-builder.Writeln("Setext Heading level 2");{{< /highlight >}} |
+builder.Writeln("Setext Heading level 2"); {{< /highlight >}} |
 |   **Indented Code**                                             |  `ParagraphFormat.StyleName = “IndentedCode[some suffix]”`     |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-IndentedCode.cs" >}}  |                                                                |
 |  **Fenced Code**<br /> {{< highlight csharp >}}``` c#
@@ -120,7 +120,7 @@ Bảng bên dưới hiển thị các ví dụ về cách sử dụng Bộ chứ
 |  tính năng Markdown |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **Quote**<br /> `> quote,`<br /> `>> nested quote` |  `ParagraphFormat.StyleName = “Quote[some suffix]”`<br /> Hậu tố trong tên kiểu là tùy chọn, nhưng trình nhập Aspose.Words sử dụng các số thứ tự 1, 2, 3, …. trong trường hợp dấu ngoặc kép lồng nhau.<br /> Việc lồng nhau được xác định thông qua các kiểu kế thừa |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // By default a document stores blockquote style for the first level.
@@ -131,7 +131,7 @@ builder.Writeln("Blockquote");
 Style quoteLevel2 = builder.Document.Styles.Add(StyleType.Paragraph, "Quote1");
 builder.ParagraphFormat.Style = quoteLevel2;
 builder.Document.Styles["Quote1"].BaseStyleName = "Quote";
-builder.Writeln("1. Nested blockquote");{{< /highlight >}} |
+builder.Writeln("1. Nested blockquote"); {{< /highlight >}} |
 |  **BulletedList**<br /> `- Item 1`<br /> `- Item 2`<br /> `   - Item 2a`<br /> `   - Item 2b` |  Danh sách có dấu đầu dòng được thể hiện bằng cách đánh số đoạn văn:<br /> `ListFormat.ApplyBulletDefault()`<br /> Có thể có 3 loại danh sách có dấu đầu dòng. Chúng chỉ khác nhau ở định dạng đánh số ở cấp độ đầu tiên. Đó là: `‘-’`, `‘+’` hoặc `‘*’` tương ứng |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BulletedList.cs" >}}  |                                                                |
 |  **OrderedList**<br /> `1. Item 1`<br /> `2. Item 2`<br /> `1) Item 2a`<br /> `2) Item 2b` |  Danh sách có thứ tự được thể hiện bằng cách đánh số đoạn văn:<br /> `ListFormat.ApplyNumberDefault()`<br /> Có thể có 2 dấu định dạng số: '.' Và ')'. Điểm đánh dấu mặc định là '.' |
@@ -148,7 +148,7 @@ builder.Writeln("Item 2");
 builder.ListFormat.ListIndent();
 
 builder.Writeln("Item 2a");
-builder.Writeln("Item 2b");{{< /highlight >}} |                                                                |
+builder.Writeln("Item 2b"); {{< /highlight >}} |                                                                |
 
 ### Những cái bàn
 
@@ -157,7 +157,7 @@ Aspose.Words cũng cho phép dịch bảng sang DOM, như hình dưới đây:
 |  tính năng Markdown |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  `Table`<br /> `một | b`<br />`-|-`<br />`c|d` |  Các lớp [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) và [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Add the first row.
@@ -170,7 +170,7 @@ builder.Writeln("b");
 builder.InsertCell();
 builder.Writeln("c");
 builder.InsertCell();
-builder.Writeln("d");{{< /highlight >}} |                                                                |
+builder.Writeln("d"); {{< /highlight >}} |                                                                |
 
 ## Xem thêm
 

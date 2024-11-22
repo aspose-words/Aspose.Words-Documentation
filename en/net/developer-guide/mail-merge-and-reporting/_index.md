@@ -6,23 +6,23 @@ linktitle: Mail Merge and Reporting
 aliases:
   - /net/about-mail-merge/
 type: docs
-description: "Mail Merge is a popular feature for quickly creating documents using C#. Aspose.Words for .NET takes the standard mail merge functionality and advances it many steps ahead, turning it into a full-fledged reporting solution that allows you to create even more complex documents such as reports, catalogs, inventories, and invoices."
-keywords: "how to use mail merge c#"
+description: "Mail Merge is a popular feature for quickly creating documents using C#. Aspose.Words for .NET takes the standard Mail Merge functionality and advances it many steps ahead, turning it into a full-fledged reporting solution that allows you to create even more complex documents such as reports, catalogs, inventories, and invoices."
+keywords: "how to use Mail Merge c#"
 weight: 30
 url: /net/mail-merge-and-reporting/
 timestamp: 2024-07-11-08-07-06
 ---
 
-Mail Merge is a popular feature for quickly and easily creating documents such as letters, labels, and envelopes. Aspose.Words enables you to generate documents from templates with mail merge fields.
+Mail Merge is a popular feature for quickly and easily creating documents such as letters, labels, and envelopes. Aspose.Words enables you to generate documents from templates with Mail Merge fields.
 
-A mail merge field is a field that you can insert into a mail merge template to include specific values from a data source record in output documents. For example, you can insert a merge field in an email template so that the greeting will have the recipient’s first name rather than a generic “Hello!”. Aspose.Words places data from an external source, such as a database or file, into these fields and formats them. The resulting document is saved in the specified folder.
+A Mail Merge field is a field that you can insert into a mail merge template to include specific values from a data source record in output documents. For example, you can insert a merge field in an email template so that the greeting will have the recipient’s first name rather than a generic “Hello!”. Aspose.Words places data from an external source, such as a database or file, into these fields and formats them. The resulting document is saved in the specified folder.
 
-Aspose.Words takes the standard mail merge functionality and advances it many steps ahead, turning it into a full-fledged reporting solution that allows you to create even more complex documents such as reports, catalogs, inventories, and invoices. Here are a few advantages of the Aspose.Words reporting solution:
+Aspose.Words takes the standard Mail Merge functionality and advances it many steps ahead, turning it into a full-fledged reporting solution that allows you to create even more complex documents such as reports, catalogs, inventories, and invoices. Here are a few advantages of the Aspose.Words reporting solution:
 
-- Design reports in Microsoft Word using standard mail merge fields
+- Design reports in Microsoft Word using standard Mail Merge fields
 - Define regions in the document that are growing, such as detailed order rows
 - Insert images during a mail merge
-- Execute any custom logic, control formatting, or insert complex content using mail merge event handlers
+- Execute any custom logic, control formatting, or insert complex content using Mail Merge event handlers
 - Fill in documents with data from any type of data source
 
 {{% alert color="primary" %}}
@@ -33,11 +33,11 @@ The [Aspose.Words.MailMerging](https://reference.aspose.com/words/net/aspose.wor
 
 ## Mechanism and Main Components of Mail Merge {#mechanism-and-main-components-of-a-mail-merge-operation}
 
-Aspose.Words provides the ability to load documents in various [supported formats](https://reference.aspose.com/words/net/aspose.words/loadformat/) and then allows users to perform a mail merge operation.
+Aspose.Words provides the ability to load documents in various [supported formats](https://reference.aspose.com/words/net/aspose.words/loadformat/) and then allows users to perform a Mail Merge operation.
 
-Usually, a loaded document allows you to store merge fields, for example, a document in DOCX format. But there are formats that do not store such fields, for example, TXT. If Aspose.Words supports loading such file formats, you can add the merge fields directly to the document model, save the document in a convenient [supported format](https://reference.aspose.com/words/net/aspose.words/saveformat/), and perform the mail merge operation.
+Usually, a loaded document allows you to store merge fields, for example, a document in DOCX format. But there are formats that do not store such fields, for example, TXT. If Aspose.Words supports loading such file formats, you can add the merge fields directly to the document model, save the document in a convenient [supported format](https://reference.aspose.com/words/net/aspose.words/saveformat/), and perform the Mail Merge operation.
 
-The mail merge operation will merge your *mail merge template* and your *data source* to generate individual *merged documents*.
+The Mail Merge operation will merge your *mail merge template* and your *data source* to generate individual *merged documents*.
 
 ## What is a Mail Merge Template {#what-is-a-mail-merge-template}
 
@@ -45,15 +45,15 @@ The goal of applying a mail merge operation using a merge template is to simpl
 
 There are several ways to create and design a merge template. You can use Microsoft Word, and the merge template does not have to be a Microsoft Word template, that is a document in the DOT or DOTX format, it can be a regular document in the DOC or DOCX format. You need to insert some special fields called merge fields into this template in places where you want data from your data source to be later inserted. Or you can programmatically create a merge template using the [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) class.
 
-The merge template contains the main text, which should be the same in all output documents after you perform the mail merge operation. You can use any format for your template if there is an ability to add merge fields to it. All merge fields within your template will be filled in from your data source during the mail merge operation.
+The merge template contains the main text, which should be the same in all output documents after you perform the Mail Merge operation. You can use any format for your template if there is an ability to add merge fields to it. All merge fields within your template will be filled in from your data source during the Mail Merge operation.
 
 ## Data Sources for a Mail Merge Operation {#data-source-types-for-a-mail-merge-operation}
 
-Aspose.Words mail merge accepts various data sources. This can be either a DataTable, DataView, DataSet, IDataReader, an array of values supported by ADO .NET, or custom data sources represented by [IMailMergeDataSource](https://reference.aspose.com/words/net/aspose.words.mailmerging/imailmergedatasource/) implementations.
+Aspose.Words Mail Merge accepts various data sources. This can be either a DataTable, DataView, DataSet, IDataReader, an array of values supported by ADO .NET, or custom data sources represented by [IMailMergeDataSource](https://reference.aspose.com/words/net/aspose.words.mailmerging/imailmergedatasource/) implementations.
 
-The data source contains all the information that is pulled during the mail merge operation in order to personalize individual emails and documents. Data sources can be created manually or generated by reporting from an existing database or application. If you have data in XML format, you can load and merge it with the DataSet. The mail merge operation will go through all the data source records and insert them into mail merge fields in the document. You can implement some mail merge interfaces such as [IMailMergeDataSourceRoot](https://reference.aspose.com/words/net/aspose.words.mailmerging/imailmergedatasourceroot/) to merge data from any data source, including a LINQ query, an XML file, or business objects.
+The data source contains all the information that is pulled during the Mail Merge operation in order to personalize individual emails and documents. Data sources can be created manually or generated by reporting from an existing database or application. If you have data in XML format, you can load and merge it with the DataSet. The Mail Merge operation will go through all the data source records and insert them into Mail Merge fields in the document. You can implement some mail merge interfaces such as [IMailMergeDataSourceRoot](https://reference.aspose.com/words/net/aspose.words.mailmerging/imailmergedatasourceroot/) to merge data from any data source, including a LINQ query, an XML file, or business objects.
 
-The following code example shows how to load a data table as the data source for the mail merge operation:
+The following code example shows how to load a data table as the data source for the Mail Merge operation:
 
 {{< gist "aspose-words-gists" "de5e13f5d5bb7d8cb88da900b4f9ed8b" "execute-with-regions-data-table.cs" >}}
 
@@ -65,16 +65,16 @@ You can download the sample file of this example from [Aspose.Words GitHub](htt
 
 ## Merged Documents of a Mail Merge Operation {#merged-documents-of-a-mail-merge-operation}
 
-A merged document is the result of the mail merge operation when you merge the template with the data source. All merge fields within the merged document are replaced with actual data from your data source.
+A merged document is the result of the Mail Merge operation when you merge the template with the data source. All merge fields within the merged document are replaced with actual data from your data source.
 
-The following image shows an example of the merge template with merged fields before performing the mail merge operation.
+The following image shows an example of the merge template with merged fields before performing the Mail Merge operation.
 
 ![mail-merge-and-reporting-fields-aspose-words-net](mail-merge-and-reporting-1.jpg)
 
-The following image shows an example of the output merged document as a result of performing the mail merge operation.
+The following image shows an example of the output merged document as a result of performing the Mail Merge operation.
 
 ![mail-merge-and-reporting-result-aspose-words-net](mail-merge-and-reporting-2.jpg)
 
 ## See Also
 
-- [Work with mail merge templates in Word](https://docs.microsoft.com/en-us/power-platform/admin/work-mail-merge-templates)
+- [Work with Mail Merge templates in Word](https://docs.microsoft.com/en-us/power-platform/admin/work-mail-merge-templates)

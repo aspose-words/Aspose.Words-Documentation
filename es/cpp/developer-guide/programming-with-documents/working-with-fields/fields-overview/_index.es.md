@@ -174,9 +174,9 @@ Aspose.Words admite todos los modificadores de formato de fecha y hora disponibl
 
 ### Mail Merge Campos
 
-Aspose.Words no impone límites a la complejidad de mail merge campos en sus documentos y admite `IF` anidados y campos de fórmula e incluso puede calcular el nombre del campo de combinación usando una fórmula.
+Aspose.Words no impone límites a la complejidad de Mail Merge campos en sus documentos y admite `IF` anidados y campos de fórmula e incluso puede calcular el nombre del campo de combinación usando una fórmula.
 
-Algunos ejemplos de mail merge campos que Aspose.Words admite:
+Algunos ejemplos de Mail Merge campos que Aspose.Words admite:
 
 - Mail merge interruptores de campo:
 `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`

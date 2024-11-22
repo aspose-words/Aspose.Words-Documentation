@@ -40,7 +40,7 @@ Os tipos de forma descritos acima fornecem um método especial para renderizar a
 
 {{% alert color="primary" %}}
 
-Ao renderizar uma <span notrans="<span notrans=" **Shape**"=""></span>, deve ser uma parte da hierarquia dos documentos. Se o **Shape** não é uma parte da árvore do documento, então a saída renderizada será em branco após invocar **ShapeRenderer** métodos.
+Ao renderizar uma **Shape**, deve ser uma parte da hierarquia dos documentos. Se o **Shape** não é uma parte da árvore do documento, então a saída renderizada será em branco após invocar **ShapeRenderer** métodos.
 
 {{% /alert %}}
 

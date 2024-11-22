@@ -10,16 +10,16 @@ url: /af/java/insert-checkboxes-text-input-or-images-mail-merge/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Die samesmelting enjin neem'n dokument as insette, soek vir `MERGEFIELD` velde in dit, en vervang hulle met die data verkry uit die data bron. Gewoonlik word gewone teks en HTML ingevoeg, maar Aspose.Words gebruikers kan ook'n dokument genereer wat meer ongewone scenario's vir mail merge velde hanteer.
+Die samesmelting enjin neem'n dokument as insette, soek vir `MERGEFIELD` velde in dit, en vervang hulle met die data verkry uit die data bron. Gewoonlik word gewone teks en HTML ingevoeg, maar Aspose.Words gebruikers kan ook'n dokument genereer wat meer ongewone scenario's vir Mail Merge velde hanteer.
 
-Kragtige Aspose.Words funksionaliteit laat jou toe om die mail merge proses uit te brei:
+Kragtige Aspose.Words funksionaliteit laat jou toe om die Mail Merge proses uit te brei:
 
 - voeg checkboxes en teks invoer vorm velde in die dokument gedurende'n mail merge
 - voeg beelde van enige persoonlike stoor (lêers, BLOB velde, ens.)
 
 ## Voeg Checkboxes en Teks Invoer gedurende Mail Merge
 
-Soms is dit nodig om'n mail merge operasie uit te voer sodat nie teks vervang word in die samesmelting veld, maar'n checkbox of teks invoer veld. Alhoewel dit nie die algemeenste scenario is nie, is dit baie handig vir sommige take.
+Soms is dit nodig om'n Mail Merge operasie uit te voer sodat nie teks vervang word in die samesmelting veld, maar'n checkbox of teks invoer veld. Alhoewel dit nie die algemeenste scenario is nie, is dit baie handig vir sommige take.
 
 Die volgende skermkiekie van'n Word dokument toon'n sjabloon met merge velde:
 
@@ -43,11 +43,11 @@ Die volgende kode voorbeeld toon hoe om checkboxes en invoer teks velde in'n dok
 
 ## Voeg Beelde in tydens Mail Merge
 
-Wanneer u'n mail merge - bewerking uitvoer, kan u beelde uit die databasis in die dokument invoeg met behulp van spesiale beeld mail merge - velde. Die beeld mail merge veld is'n samesmelting veld genoem Beeld:MyFieldName.
+Wanneer u'n Mail Merge - bewerking uitvoer, kan u beelde uit die databasis in die dokument invoeg met behulp van spesiale beeld Mail Merge - velde. Die beeld Mail Merge veld is'n samesmelting veld genoem Beeld:MyFieldName.
 
 ### Voeg Beelde van'n Databasis in
 
-Tydens'n mail merge, wanneer'n beeld mail merge veld in'n dokument teëgekom word, word die [FieldMergingCallback](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getFieldMergingCallback) gebeurtenis afgevuur. U kan op hierdie gebeurtenis reageer om'n lêernaam, stroom of beeldvoorwerp na die mail merge - enjin terug te stuur sodat dit in die dokument ingevoeg kan word.
+Tydens'n mail merge, wanneer'n beeld Mail Merge veld in'n dokument teëgekom word, word die [FieldMergingCallback](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getFieldMergingCallback) gebeurtenis afgevuur. U kan op hierdie gebeurtenis reageer om'n lêernaam, stroom of beeldvoorwerp na die Mail Merge - enjin terug te stuur sodat dit in die dokument ingevoeg kan word.
 
 Die volgende kode voorbeeld toon hoe om beelde gestoor in'n databasis BLOB veld in'n verslag in te voeg:
 

@@ -153,7 +153,7 @@ Zákazníci mohou určit Lokalizace na úrovni pole nyní a může dosáhnout le
 
 ## Vkládání HTML
 
-Můžete snadno vložit HTML řetězec, který obsahuje HTML fragment nebo celý HTML dokument do dokumentu Word. Pošli tenhle řetězec do DocumentBuilderu. vložit Html metoda. Jednou z užitečných implementací metody je uložení HTML řetězce v databázi a vložení do dokumentu během mail merge aby byl přidán formátovaný obsah namísto jeho budování pomocí různých metod stavitele dokumentů. Následující příklad kódu zobrazí vložení HTML do dokumentu pomocí DocumentBuilder.
+Můžete snadno vložit HTML řetězec, který obsahuje HTML fragment nebo celý HTML dokument do dokumentu Word. Pošli tenhle řetězec do DocumentBuilderu. vložit Html metoda. Jednou z užitečných implementací metody je uložení HTML řetězce v databázi a vložení do dokumentu během Mail Merge aby byl přidán formátovaný obsah namísto jeho budování pomocí různých metod stavitele dokumentů. Následující příklad kódu zobrazí vložení HTML do dokumentu pomocí DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHtml-DocumentBuilderInsertHtml.java" >}}
 

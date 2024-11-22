@@ -56,7 +56,7 @@ Yükleyiciyi indirmek için oturum açmalısınız. Henüz kayıt olmadıysanız
 
 .NET için Aspose.Words'i yüklemek için şu adımları izleyin:
 
-1. [indirilenler bölümü](https://releases.aspose.com/words/)'den `Aspose.Words_`{LatestVersion}.msi dosyasını indirin
+1. [indirilenler bölümü](https://releases.aspose.com/words/)'den `Aspose.Words_{LatestVersion}.msi` dosyasını indirin
 2. İndirilen dosyaya çift tıklayın, böylece kurulum sihirbazını başlatın, kurulum sihirbazı talimatlarını izleyin<br>
    <img src="/words/net/installation/aspose-words-setup-1.png" alt="aspose-words-kurulum-1" style="width:500px"/>
 3. Kurulum sihirbazı kurulumu tamamladığında gerekli dosyalar, belirtilen klasör yolundaki klasörde mevcut olacaktır.<br>

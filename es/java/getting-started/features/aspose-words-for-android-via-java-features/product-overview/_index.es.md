@@ -41,7 +41,7 @@ Aspose.Words para Android via Java es seguro multitele mientras sólo un hilo fu
 
 ### Curva de aprendizaje mínimo
 
-Aunque hay más de 150 clases públicas y enumeraciones en Aspose.Words para Android via <span notrans="<span notrans=" Java"=""></span>," la curva de aprendizaje es mínima porque Aspose.Words para Android via Java API ha sido cuidadosamente diseñado con los siguientes objetivos en mente:
+Aunque hay más de 150 clases públicas y enumeraciones en Aspose.Words para Android via Java," la curva de aprendizaje es mínima porque Aspose.Words para Android via Java API ha sido cuidadosamente diseñado con los siguientes objetivos en mente:
 
 - Mejores prácticas de aburrimiento de otras conocidas APIs tales como Microsoft Word Automatización.
 - Mejores prácticas aburridas de la industria aceptadas Java y Android directrices de diseño.

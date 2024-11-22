@@ -153,7 +153,7 @@ Kliënte kan Nou Die Ligging op veldvlak spesifiseer en kan beter beheer verkry.
 
 ## Voeg by HTML
 
-Jy kan maklik'n HTML string wat'n HTML fragment of hele HTML dokument bevat in die Word-dokument invoeg. Gee net hierdie string aan die DocumentBuilder.insertHtml metode. Een van die nuttige implementasies van die metode is om'n HTML string in'n databasis te stoor en dit in die dokument in te voeg tydens mail merge om die geformateerde inhoud by te voeg in plaas daarvan om dit te bou met behulp van verskillende metodes van die dokumentbouer. Die volgende kode voorbeeld toon insetsels HTML in'n dokument met behulp van DocumentBuilder.
+Jy kan maklik'n HTML string wat'n HTML fragment of hele HTML dokument bevat in die Word-dokument invoeg. Gee net hierdie string aan die DocumentBuilder.insertHtml metode. Een van die nuttige implementasies van die metode is om'n HTML string in'n databasis te stoor en dit in die dokument in te voeg tydens Mail Merge om die geformateerde inhoud by te voeg in plaas daarvan om dit te bou met behulp van verskillende metodes van die dokumentbouer. Die volgende kode voorbeeld toon insetsels HTML in'n dokument met behulp van DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHtml-DocumentBuilderInsertHtml.java" >}}
 

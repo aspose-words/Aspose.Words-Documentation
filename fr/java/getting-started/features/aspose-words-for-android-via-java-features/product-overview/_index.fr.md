@@ -41,7 +41,7 @@ Aspose.Words pour Android par Java est sûr de plusieurs fils tant qu'un seul fi
 
 ### Courbe d'apprentissage minimale
 
-Bien qu'il y ait plus de 150 classes publiques et recensements dans Aspose.Words pour Android par <span notrans="<span notrans=" Java"=""></span>""> la courbe d'apprentissage est minimale parce que Aspose.Words pour Android par Java API a été soigneusement conçu en tenant compte des objectifs suivants:
+Bien qu'il y ait plus de 150 classes publiques et recensements dans Aspose.Words pour Android par Java"> la courbe d'apprentissage est minimale parce que Aspose.Words pour Android par Java API a été soigneusement conçu en tenant compte des objectifs suivants:
 
 - Emprunter les meilleures pratiques d'autres bien connus APIs comme Microsoft Word Automatisation.
 - Emprunter les meilleures pratiques de l'industrie acceptées Java et Android les lignes directrices de conception.

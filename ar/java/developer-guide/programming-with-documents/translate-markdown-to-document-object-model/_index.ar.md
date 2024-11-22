@@ -43,7 +43,7 @@ timestamp: 2024-10-21-11-17-44
 |  **Strikethrough**<br/>`~Strikethrough text~` |  `Font.StrikeThrough = true`  |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Strikethrough.java" >}}  |  |
 
-نستخدم أسلوب الشخصية مع اسم يبدأ من الكلمة <span notrans="<span notrans=" `InlineCode`"=""></span>" يليها نقطة اختيارية `(.)` وعدد من العصي ```(`)``` من أجل `InlineCode` سمة إذا تغيب عدد من العصي، ثمّ واحد ظهري سيُستخدم من قِبل التقصير.
+نستخدم أسلوب الشخصية مع اسم يبدأ من الكلمة `InlineCode` يليها نقطة اختيارية `(.)` وعدد من العصي ```(`)``` من أجل `InlineCode` سمة إذا تغيب عدد من العصي، ثمّ واحد ظهري سيُستخدم من قِبل التقصير.
 
 |  Markdown خاصية |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |
@@ -68,9 +68,9 @@ A document is a sequence of container blocks such as headings, paragraphs, lists
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **HorizontalRule**<br/>`-----` |  هذه فقرة بسيطة مع شكل هوريزونتال رول المناظر:<br/>`DocumentBuilder.InsertHorizontalRule()` |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-HorizontalRule.java" >}}  |                                                                |
-|  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`, )١( المرجع نفسه.<br/>ويترجم ذلك إلى أسلوب مبني وينبغي أن يكون بالضبط من النمط المحدد (لا يسمح باختلاط أو فريسات).<br/>وإلا، ستكون مجرد فقرة عادية ذات نمط مقابل |
+|  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = "Heading N"`, )١( المرجع نفسه.<br/>ويترجم ذلك إلى أسلوب مبني وينبغي أن يكون بالضبط من النمط المحدد (لا يسمح باختلاط أو فريسات).<br/>وإلا، ستكون مجرد فقرة عادية ذات نمط مقابل |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Heading.java" >}}  |                                                                |
-|  **Setext Heading**<br/>`===` (إذا كان مستوى العنوان 1)،<br/>`---` (إذا كان مستوى العنوان 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, على أساس `“Heading N”` أسلوب.<br/>إذا (ن = 2)، ثم `“Heading 2”` سوف تستخدم، خلاف ذلك `“Heading 1”`.<br/>أي خنق مسموح به، لكن Aspose.Words ويستخدم المستورد رقمي " ١ " و " ٢ " على التوالي |
+|  **Setext Heading**<br/>`===` (إذا كان مستوى العنوان 1)،<br/>`---` (إذا كان مستوى العنوان 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, على أساس 'Heading N' أسلوب.<br/>إذا (ن = 2)، ثم 'Heading 2' سوف تستخدم، خلاف ذلك 'Heading 1'.<br/>أي خنق مسموح به، لكن Aspose.Words ويستخدم المستورد رقمي " ١ " و " ٢ " على التوالي |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-SetextHeading.java" >}}  |                                                                |
 |   **Indented Code**                                             |  `ParagraphFormat.StyleName = “IndentedCode[some suffix]”`     |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-IndentedCode.java" >}}  |                                                                |

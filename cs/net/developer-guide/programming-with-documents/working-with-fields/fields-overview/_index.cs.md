@@ -174,9 +174,9 @@ Aspose.Words podporuje všechny přepínače pro formátování dat a času dost
 
 ### Mail Merge Pole
 
-Aspose.Words neukládá žádné omezení složitosti mail merge pole ve vašich dokumentech a podporuje vnořené `IF` a pole vzorce a může dokonce vypočítat název pole sloučení pomocí vzorce.
+Aspose.Words neukládá žádné omezení složitosti Mail Merge pole ve vašich dokumentech a podporuje vnořené `IF` a pole vzorce a může dokonce vypočítat název pole sloučení pomocí vzorce.
 
-Některé příklady mail merge pole, která Aspose.Words podpora:
+Některé příklady Mail Merge pole, která Aspose.Words podpora:
 
 - Mail merge přepínače polí:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -223,6 +223,6 @@ Na druhou stranu, Microsoft Word formátuje každé jednotlivé pole založené 
 
 • [Document](https://reference.aspose.com/words/net/aspose.words/document/) třída [FieldOptions](https://reference.aspose.com/words/net/aspose.words/document/fieldoptions/) vlastnost, která obsahuje členy, které lze použít pro kontrolu toho, jak jsou pole aktualizována v dokumentu.
 
-Následující příklad kódu ukazuje, jak určit, kde kultura použitá pro formátování dat během aktualizace pole a mail merge je vybrán z:
+Následující příklad kódu ukazuje, jak určit, kde kultura použitá pro formátování dat během aktualizace pole a Mail Merge je vybrán z:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-ChangeFieldUpdateCultureSource-ChangeFieldUpdateCultureSource.cs" >}}

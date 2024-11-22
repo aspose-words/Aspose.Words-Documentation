@@ -121,7 +121,7 @@ Use the free technical support forum. للاطلاع على تفاصيل عن ك
 
 {{% alert color="primary" %}}
 
-يمكنك أن تجد معلومات أكثر تفصيلا عن mail merge في [Mail Merge and Reporting](/words/java/mail-merge-and-reporting/) قسم الوثائق
+يمكنك أن تجد معلومات أكثر تفصيلا عن Mail Merge في [Mail Merge and Reporting](/words/java/mail-merge-and-reporting/) قسم الوثائق
 
 {{% /alert %}}
 
@@ -136,7 +136,7 @@ The original name of the merge field stays the same without being replaced by th
 
 **Q: لماذا لا يُظهر ناتج الدمج المستنير البيانات من طاولة الأطفال لأول مرة في طاولة الوالدين، بل يعرض جميع البنود للدخول الأخير في طاولة الوالدين، حتى تلك التي لا ترتبط بها فعلاً؟**
 
-هذا لأن المناطق المدمجة في النموذج غير مشكّلة بشكل صحيح، مما يمكن أن يجعل كل شيء محفور mail merge مناطق للتوقف عن عرض أي شيء على الإطلاق The [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) العلامة الافتتاحية [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) يجب أن تكون بطاقة الإغلاق متطابقة و تكون في نفس الصف أو الخلية على سبيل المثال، إذا بدأت تدمج المناطق في خلية من الطاولة، يجب أن تنهي منطقة الدمج في نفس الصف الذي كانت عليه الخلية الأولى.
+هذا لأن المناطق المدمجة في النموذج غير مشكّلة بشكل صحيح، مما يمكن أن يجعل كل شيء محفور Mail Merge مناطق للتوقف عن عرض أي شيء على الإطلاق The [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) العلامة الافتتاحية [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) يجب أن تكون بطاقة الإغلاق متطابقة و تكون في نفس الصف أو الخلية على سبيل المثال، إذا بدأت تدمج المناطق في خلية من الطاولة، يجب أن تنهي منطقة الدمج في نفس الصف الذي كانت عليه الخلية الأولى.
 
 ------
 

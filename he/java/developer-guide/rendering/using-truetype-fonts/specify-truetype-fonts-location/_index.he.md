@@ -36,7 +36,7 @@ The The The [FontSourceBase](https://reference.aspose.com/words/java/com.aspose.
 
 ברוב המקרים, Windows משתמשים אינם מתמודדים עם בעיות משמעותיות עם גופנים מפספסים או פריסות לא נכונות. בדרך כלל, Aspose.Words עובר דרך מסמך, וכאשר הוא נתקל בקישור של גופן, הוא מביא בהצלחה את נתוני הגופן מהתיקייה המערכת.
 
-On On <span notrans="<span notrans=" Windows"=""></span>" Aspose.Words קודם כל לוקח את כל הגופנים הזמינים מה-%windir%\Fonts תיקיה. הגדרה זו תעבוד עבורכם רוב הזמן. אתה רק מציין תיקיות גופניות משלך אם אתה צריך. Aspose.Words גם מחפש גופנים נוספים שנרשמו ב HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts מפתח הרישום בנוסף, Windows 10 מאפשר התקנת גופנים למשתמש הנוכחי. פונטים נכנסים %userprofile%\AppData\Local\Microsoft\Windows\Fonts התיקיה ומפורט גם HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Fonts רישום, איפה Aspose.Words יחפשו את הגופנים האלה.
+On On Windows Aspose.Words קודם כל לוקח את כל הגופנים הזמינים מה-%windir%\Fonts תיקיה. הגדרה זו תעבוד עבורכם רוב הזמן. אתה רק מציין תיקיות גופניות משלך אם אתה צריך. Aspose.Words גם מחפש גופנים נוספים שנרשמו ב HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts מפתח הרישום בנוסף, Windows 10 מאפשר התקנת גופנים למשתמש הנוכחי. פונטים נכנסים %userprofile%\AppData\Local\Microsoft\Windows\Fonts התיקיה ומפורט גם HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Fonts רישום, איפה Aspose.Words יחפשו את הגופנים האלה.
 
 אם מסמך מכיל גופנים מוטבעים, Aspose.Words ניתן לקרוא נתונים פונטניים רלוונטיים מהמסמכים ולהשתמש בהם כדי ליצור את הפריסה של המסמך. מסמכים עשויים גם להכיל קישורים לגופנים שאינם בתיקיות המערכת, ובמקרה זה התרחישים הבאים באים לעבודה:
 
@@ -51,11 +51,11 @@ Aspose.Words יחפשו את הגופנים בתיקיות גופן המערכת
 
 #### היכן והיכן Aspose.Words עקבו אחרי TrueType Fonts On Linux
 
-שונה Linux הפצה עשויה לאחסן גופנים בתיקיות שונות. Aspose.Words מחפש גופנים בכמה מקומות. כברירת מחדל, Aspose.Words מחפש את הגופנים בכל המקומות הבאים: */usr/share/fonts*/usr/local/share/Share/fonts*/usr/X11R6/lib/X11/פונטים התנהגות ברירת מחדל זו תפעל לרוב Linux הפצה, אבל זה לא מובטח לעבוד כל הזמן, במקרה זה אתה צריך לציין את המיקום של true גופן מסוג זה במפורש. כדי לעשות זאת, אתה צריך לדעת היכן פונטפונים TrueType מותקנים על שלך. Linux הפצה.
+שונה Linux הפצה עשויה לאחסן גופנים בתיקיות שונות. Aspose.Words מחפש גופנים בכמה מקומות. כברירת מחדל, Aspose.Words מחפש את הגופנים בכל המקומות הבאים: `/usr/share/fonts` `/usr/local/share/Share/fonts` `/usr/X11R6/lib/X11/fonts` נטים התנהגות ברירת מחדל זו תפעל לרוב Linux הפצה, אבל זה לא מובטח לעבוד כל הזמן, במקרה זה אתה צריך לציין את המיקום של true גופן מסוג זה במפורש. כדי לעשות זאת, אתה צריך לדעת היכן פונטפונים TrueType מותקנים על שלך. Linux הפצה.
 
 #### היכן והיכן Aspose.Words עקבו אחרי TrueType Fonts on Mac OS X
 
-Aspose.Words מחפש גופנים בתיקיה /Library / Fonts, שהיא המיקום הסטנדרטי עבור TrueType פונטים על Mac OS X. בעוד הגדרה זו תעבוד עבורך רוב הזמן, ייתכן שתצטרך לציין תיקיות גופניות משלך במקרה בעת הצורך.
+Aspose.Words מחפש גופנים בתיקיה `/Library/Fonts`, שהיא המיקום הסטנדרטי עבור TrueType פונטים על Mac OS X. בעוד הגדרה זו תעבוד עבורך רוב הזמן, ייתכן שתצטרך לציין תיקיות גופניות משלך במקרה בעת הצורך.
 
 #### TrueType Fonts Android
 

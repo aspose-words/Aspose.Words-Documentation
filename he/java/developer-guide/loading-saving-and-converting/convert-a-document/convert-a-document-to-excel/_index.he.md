@@ -14,7 +14,7 @@ timestamp: 2024-01-31-14-23-37
 
 ## להפוך מסמך ל XLSX
 
-המרת מסמך ל- XLSX הוא תהליך מסובך למדי. כדי לשמור את המסמך שלך בפורמט XLSX <span notrans="<span notrans=" Aspose.Words"=""></span>" שימוש [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) הכיתה והחדשה `Xlsx` אלמנט ב [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) אזהרה. כפי שצוין לעיל, אתה יכול לשמור את המסמך בכל תבנית עומס נתמך על ידי Aspose.Words תגית: XLSX
+המרת מסמך ל- XLSX הוא תהליך מסובך למדי. כדי לשמור את המסמך שלך בפורמט XLSX Aspose.Words שימוש [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) הכיתה והחדשה `Xlsx` אלמנט ב [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) אזהרה. כפי שצוין לעיל, אתה יכול לשמור את המסמך בכל תבנית עומס נתמך על ידי Aspose.Words תגית: XLSX
 
 דוגמה לקוד הבא מראה כיצד לשמור PDF ל- XLSX:
 

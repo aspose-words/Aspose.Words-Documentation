@@ -4,26 +4,26 @@ second_title: Aspose.Words para C++
 articleTitle: Limpeza antes ou durante um Mail Merge Operação
 linktitle: Limpeza antes ou durante um Mail Merge Operação
 type: docs
-description: "Aplique diferentes opções de limpeza e remoção, como excluir campos de mesclagem antes de executar um mail merge operação ou remoção de regiões não utilizadas durante um mail merge operação."
-keywords: "cleanup options mail merge c#"
+description: "Aplique diferentes opções de limpeza e remoção, como excluir campos de mesclagem antes de executar um Mail Merge operação ou remoção de regiões não utilizadas durante um Mail Merge operação."
+keywords: "cleanup options Mail Merge c#"
 weight: 10
 url: /pt/cpp/clean-up-before-or-during-mail-merge/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words permite que você aplique diferentes opções de limpeza e remoção, como excluir campos de mesclagem antes de executar um mail merge operação ou remoção de regiões não utilizadas durante um mail merge operação. Esta seção explicará como excluir campos mesclados e como configurar uma opção de remoção.
+Aspose.Words permite que você aplique diferentes opções de limpeza e remoção, como excluir campos de mesclagem antes de executar um Mail Merge operação ou remoção de regiões não utilizadas durante um Mail Merge operação. Esta seção explicará como excluir campos mesclados e como configurar uma opção de remoção.
 
 ## Excluir Campos Mesclados
 
-Quando estiver a utilizar um modelo longo criado por outra pessoa, poderá querer eliminar todos os campos de mesclagem que já existem nesse modelo antes de executar um mail merge operação. Você pode usar o [DeleteFields](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/deletefields/) método se você deseja excluir todos os campos de mesclagem de um documento sem executar um mail merge operação. Este método não é afectado por quaisquer opções de remoção do [CleanupOptions](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/get_cleanupoptions/) propriedade e executá-lo apenas remove campos mesclados, Não quaisquer campos contendo ou parágrafos vazios.
+Quando estiver a utilizar um modelo longo criado por outra pessoa, poderá querer eliminar todos os campos de mesclagem que já existem nesse modelo antes de executar um Mail Merge operação. Você pode usar o [DeleteFields](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/deletefields/) método se você deseja excluir todos os campos de mesclagem de um documento sem executar um Mail Merge operação. Este método não é afectado por quaisquer opções de remoção do [CleanupOptions](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/get_cleanupoptions/) propriedade e executá-lo apenas remove campos mesclados, Não quaisquer campos contendo ou parágrafos vazios.
 
-O exemplo de código a seguir mostra como excluir todos os campos de mesclagem do modelo sem executar um mail merge operação:
+O exemplo de código a seguir mostra como excluir todos os campos de mesclagem do modelo sem executar um Mail Merge operação:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Fields-DeleteFields.h" >}}
 
 ## Criação de um `Removing` Opção
 
-Aspose.Words permite remover campos, regiões e parágrafos não misturados de um modelo durante um mail merge operação usando opções de remoção.
+Aspose.Words permite remover campos, regiões e parágrafos não misturados de um modelo durante um Mail Merge operação usando opções de remoção.
 
 Use o **CleanupOptions** propriedade juntamente com o [MailMergeCleanupOptions](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmergecleanupoptions/) enumeração para definir a opção de remoção. Especifique quais itens você deseja remover escolhendo as seguintes opções (você pode combinar mais de um):
 
@@ -41,15 +41,15 @@ Use o **CleanupOptions** propriedade juntamente com o [MailMergeCleanupOptions](
 
 {{% alert color="primary" %}}
 
-Se você estiver mesclando dados usando fontes de dados separadas, essas opções de remoção serão ativadas apenas com a última chamada do mail merge método de execução.
+Se você estiver mesclando dados usando fontes de dados separadas, essas opções de remoção serão ativadas apenas com a última chamada do Mail Merge método de execução.
 
 {{% /alert %}}
 
 ### Remover Parágrafos Vazios
 
-Um parágrafo que inclua apenas campos de mesclagem estará vazio quando o mail merge process remove todos os seus campos de mesclagem como não mesclados. Esses parágrafos vazios podem adicionar espaço indesejado e alterar a aparência do relatório gerado. Você pode enfrentar duas situações com parágrafos durante um mail merge operação:
+Um parágrafo que inclua apenas campos de mesclagem estará vazio quando o Mail Merge process remove todos os seus campos de mesclagem como não mesclados. Esses parágrafos vazios podem adicionar espaço indesejado e alterar a aparência do relatório gerado. Você pode enfrentar duas situações com parágrafos durante um Mail Merge operação:
 
-1. O mail merge campo será mesclado com os dados vazio.
+1. O Mail Merge campo será mesclado com os dados vazio.
 2. O campo de mesclagem não é utilizado e será removido.
 
 Em ambas as situações, o **RemoveEmptyParagraphs** a opção removerá automaticamente parágrafos vazios do documento. Além disso, removerá o `TableStart` e TableEnd mesclar campos se o restante do parágrafo estiver vazio.
@@ -66,9 +66,9 @@ Você pode baixar o arquivo de exemplo deste exemplo em [Aspose.Words GitHub](ht
 
 ### Remover Campos Não Utilizados
 
-Aspose.Words permite que você remova qualquer não utilizado mail merge campos atribuindo o **RemoveUnusedFields** bandeira para **CleanupOptions**. Esta opção removerá os campos de mesclagem que não possuem os dados correspondentes na fonte de dados.
+Aspose.Words permite que você remova qualquer não utilizado Mail Merge campos atribuindo o **RemoveUnusedFields** bandeira para **CleanupOptions**. Esta opção removerá os campos de mesclagem que não possuem os dados correspondentes na fonte de dados.
 
-O exemplo de código a seguir mostra como remover quaisquer campos de mesclagem não utilizados de um documento automaticamente mail merge operação:
+O exemplo de código a seguir mostra como remover quaisquer campos de mesclagem não utilizados de um documento automaticamente Mail Merge operação:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Mail-Merge-MailMergeCleanUp-RemoveUnusedFields.cpp" >}}
 
@@ -86,6 +86,6 @@ O exemplo de código a seguir mostra como remover campos que contêm campos de m
 
 Aspose.Words permite remover linhas de tabela vazias atribuindo o **RemoveEmptyTableRows** bandeira para **CleanupOptions**. Esta opção removerá as linhas da tabela que contêm campos de mesclagem vazios.
 
-O exemplo de código a seguir mostra como remover linhas de tabela vazias que contêm mail merge regiões de um documento:
+O exemplo de código a seguir mostra como remover linhas de tabela vazias que contêm Mail Merge regiões de um documento:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Mail-Merge-MailMergeCleanUp-RemoveEmptyTableRows.cpp" >}}

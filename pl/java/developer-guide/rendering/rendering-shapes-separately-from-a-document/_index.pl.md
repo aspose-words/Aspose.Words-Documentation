@@ -40,7 +40,7 @@ Opisane powyżej typy kształtu stanowią specjalną metodę renderowania kszta�
 
 {{% alert color="primary" %}}
 
-Podczas renderowania <span notrans="<span notrans=" **Shape**"=""></span>", > musi być częścią hierarchii dokumentów. Jeśli **Shape** nie jest częścią drzewa dokumentów, wtedy dane wyjściowe będą puste po wywołaniu **ShapeRenderer** metody.
+Podczas renderowania **Shape**", > musi być częścią hierarchii dokumentów. Jeśli **Shape** nie jest częścią drzewa dokumentów, wtedy dane wyjściowe będą puste po wywołaniu **ShapeRenderer** metody.
 
 {{% /alert %}}
 

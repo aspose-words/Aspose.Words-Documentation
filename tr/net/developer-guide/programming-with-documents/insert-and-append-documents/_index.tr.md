@@ -50,7 +50,7 @@ Aşağıdaki kod örneği, bul ve değiştir işlemi sırasında bir belgenin i�
 
 ### Mail Merge İşlemi Sırasında Belge Ekleme {#insert-a-document-during-mail-merge-operation}
 
-mail merge işlemi sırasında birleştirme alanına belge ekleyebilirsiniz. Örneğin, bir mail merge şablonu [Özet] gibi bir birleştirme alanı içerebilir. Ancak son belgede, başka bir harici belgeden elde edilen içeriği bu birleştirme alanına eklemeniz gerekir. Bunu başarmak için birleştirme olayı için bir işleyici oluşturmanız gerekecektir.
+mail merge işlemi sırasında birleştirme alanına belge ekleyebilirsiniz. Örneğin, bir Mail Merge şablonu [Özet] gibi bir birleştirme alanı içerebilir. Ancak son belgede, başka bir harici belgeden elde edilen içeriği bu birleştirme alanına eklemeniz gerekir. Bunu başarmak için birleştirme olayı için bir işleyici oluşturmanız gerekecektir.
 
 Aşağıdaki kod örneği, birleştirme olayının daha sonra ekleme işleminde kullanması için bir işleyicinin nasıl oluşturulacağını gösterir:
 

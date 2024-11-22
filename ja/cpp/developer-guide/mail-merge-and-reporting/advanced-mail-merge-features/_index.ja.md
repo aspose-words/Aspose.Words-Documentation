@@ -5,7 +5,7 @@ articleTitle: 高度なMail Merge機能
 linktitle: 高度なMail Merge機能
 type: docs
 description: "Aspose.WordsのためのC++ さらにmail mergeのカスタマイズを実行できる高度なmail merge機能をいくつか提供します。 たとえば、テンプレート構造に関する情報の取得、ルールの設定、mail merge操作後のクリーンアップなどです。"
-keywords: "use advanced mail merge features c++"
+keywords: "use advanced Mail Merge features c++"
 weight: 50
 url: /ja/cpp/advanced-mail-merge-features/
 timestamp: 2024-01-27-14-07-04

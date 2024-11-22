@@ -36,7 +36,7 @@ Per-Dokumentationsinstanzen werden nur benötigt, wenn für verschiedene Dokumen
 
 In den meisten Fällen Windows Benutzer haben keine erheblichen Probleme mit verpassten Schriften oder falschen Layouts. Typischerweise, Aspose.Words geht durch ein Dokument, und wenn es auf den Link einer Schrift, es erfolgreich holt die Schriftdaten aus dem Systemordner.
 
-Auf <span notrans="<span notrans=" Windows"=""></span>,"> Aspose.Words zuerst alle verfügbaren Schriftarten aus dem _%windir%\Fonts Ordner. Diese Einstellung wird für Sie die meiste Zeit arbeiten. Sie geben nur Ihre eigenen Fonts-Ordner an, wenn Sie müssen. Aspose.Words sucht auch nach zusätzlichen Schriftarten, die in der HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts Registrierungsschlüssel. Außerdem, Windows 10 ermöglicht die Installation von Schriftarten für den aktuellen Benutzer. Schriften werden in die %userprofile%\AppData\Local\Microsoft\Windows\Fonts Ordner und auch in der HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Fonts Registrierung, wo Aspose.Words wird nach diesen Schriften suchen.
+Auf Windows Aspose.Words zuerst alle verfügbaren Schriftarten aus dem _%windir%\Fonts Ordner. Diese Einstellung wird für Sie die meiste Zeit arbeiten. Sie geben nur Ihre eigenen Fonts-Ordner an, wenn Sie müssen. Aspose.Words sucht auch nach zusätzlichen Schriftarten, die in der HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts Registrierungsschlüssel. Außerdem, Windows 10 ermöglicht die Installation von Schriftarten für den aktuellen Benutzer. Schriften werden in die %userprofile%\AppData\Local\Microsoft\Windows\Fonts Ordner und auch in der HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Fonts Registrierung, wo Aspose.Words wird nach diesen Schriften suchen.
 
 Wenn ein Dokument eingebettete Schriften enthält, Aspose.Words kann relevante Schriftdaten aus dem Dokument lesen und verwenden, um das Layout des Dokuments zu erstellen. Dokumente können auch Links zu Schriften enthalten, die sich nicht in den Systemordnern befinden, wobei folgende Szenarien funktionieren:
 
@@ -51,7 +51,7 @@ Da die Schriftmetriken Windows und nichtWindows Betriebssysteme sind anders, Asp
 
 #### Ort Aspose.Words Sieht nach TrueType Fonts auf Linux
 
-Verschiedene Linux Distributionen können Schriftarten in verschiedenen Ordnern speichern. Aspose.Words sucht nach Schriftarten an mehreren Orten. Standardmäßig, Aspose.Words sucht nach den Schriften in allen folgenden Orten: * /usr/share/fonts* /usr/local/share/fonts* /usr/X11R6/lib/X11/fonts Dieses Standardverhalten wird für die meisten Linux Distributionen, aber es ist nicht garantiert, die ganze Zeit zu arbeiten, in diesem Fall müssen Sie den Standort der true Schriftarten explizit eingeben. Um dies zu tun, müssen Sie wissen, wo TrueType Fonts auf Ihrem installiert sind Linux Verteilung.
+Verschiedene Linux Distributionen können Schriftarten in verschiedenen Ordnern speichern. Aspose.Words sucht nach Schriftarten an mehreren Orten. Standardmäßig, Aspose.Words sucht nach den Schriften in allen folgenden Orten: `/usr/share/fonts` `/usr/local/share/fonts` `/usr/X11R6/lib/X11/fonts` Dieses Standardverhalten wird für die meisten Linux Distributionen, aber es ist nicht garantiert, die ganze Zeit zu arbeiten, in diesem Fall müssen Sie den Standort der true Schriftarten explizit eingeben. Um dies zu tun, müssen Sie wissen, wo TrueType Fonts auf Ihrem installiert sind Linux Verteilung.
 
 #### Ort Aspose.Words Sucht nach TrueType Fonts auf Mac OS X
 

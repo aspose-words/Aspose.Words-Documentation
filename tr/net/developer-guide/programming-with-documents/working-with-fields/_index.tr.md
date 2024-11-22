@@ -10,7 +10,7 @@ url: /tr/net/working-with-fields/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Bir belgedeki **Fields**, yararlı verilerin eklenebileceği yer tutucular gibidir. Örneğin bir alan sayfa referansı, formül veya mail merge alanı olabilir.
+Bir belgedeki **Fields**, yararlı verilerin eklenebileceği yer tutucular gibidir. Örneğin bir alan sayfa referansı, formül veya Mail Merge alanı olabilir.
 
 Aspose.Words ile oluşturulan veya düzenlenen bir belgede, Microsoft Word belgesinde olduğu gibi, alan, alan kodu ve alan sonucundan oluşur. Alan kodu, saha sonucunun nasıl güncellenmesi veya hesaplanması gerektiğine ilişkin bir talimattır. Bir belgeyi işleyen ve bir alanla karşılaşan uygulamanın, alan kodunda yer alan talimatları yorumlaması ve alan sonucunu yeni bir değerle güncellemesi gerekir.
 

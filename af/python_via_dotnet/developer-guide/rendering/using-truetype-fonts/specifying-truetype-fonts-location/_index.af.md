@@ -52,7 +52,7 @@ Aangesien die lettertipe van Windows en nie-Windows OS anders is, doen Aspose.Wo
 
 #### Waar Aspose.Words soek Vir TrueType Lettertipes op Linux
 
-Verskillende Linux verspreidings kan lettertipes in verskillende dopgehou stoor. Aspose.Words soek lettertipes op verskeie plekke. By verstek, Aspose.Words soek vir die lettertipes in al die volgende plekke: */usr/share/fonts* */usr/local/share/fonts* */usr/X11R6/lib/X11/fonts*. Hierdie standaard gedrag sal werk vir die meeste Linux verspreidings, maar dit is nie gewaarborg om al die tyd te werk nie, in welke geval jy dalk die ligging van ware tipe lettertipes eksplisiet moet spesifiseer. Om dit te doen, moet jy weet waar TrueType lettertipes op jou Linux verspreiding geïnstalleer is.
+Verskillende Linux verspreidings kan lettertipes in verskillende dopgehou stoor. Aspose.Words soek lettertipes op verskeie plekke. By verstek, Aspose.Words soek vir die lettertipes in al die volgende plekke: `/usr/share/fonts` `/usr/local/share/fonts` `/usr/X11R6/lib/X11/fonts`. Hierdie standaard gedrag sal werk vir die meeste Linux verspreidings, maar dit is nie gewaarborg om al die tyd te werk nie, in welke geval jy dalk die ligging van ware tipe lettertipes eksplisiet moet spesifiseer. Om dit te doen, moet jy weet waar TrueType lettertipes op jou Linux verspreiding geïnstalleer is.
 
 #### Waar Aspose.Words soek Vir TrueType Lettertipes op Mac OS X
 

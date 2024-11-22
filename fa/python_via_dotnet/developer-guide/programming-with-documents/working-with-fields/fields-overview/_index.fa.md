@@ -191,9 +191,9 @@ Aspose.Words از تمام سوئیچ‌های قالب‌بندی تاریخ و
 
 #### فیلدهای Mail Merge
 
-Aspose.Words هیچ محدودیتی برای پیچیدگی فیلدهای mail merge در اسناد شما اعمال نمی کند و از فیلدهای `IF` و فرمول تودرتو پشتیبانی می کند و حتی می تواند نام فیلد ادغام را با استفاده از یک فرمول محاسبه کند.
+Aspose.Words هیچ محدودیتی برای پیچیدگی فیلدهای Mail Merge در اسناد شما اعمال نمی کند و از فیلدهای `IF` و فرمول تودرتو پشتیبانی می کند و حتی می تواند نام فیلد ادغام را با استفاده از یک فرمول محاسبه کند.
 
-چند نمونه از فیلدهای mail merge که Aspose.Words پشتیبانی می کند:
+چند نمونه از فیلدهای Mail Merge که Aspose.Words پشتیبانی می کند:
 
 - سوئیچ های میدان Mail merge:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -237,7 +237,7 @@ Aspose.Words هیچ محدودیتی برای پیچیدگی فیلدهای mail
 
 از سوی دیگر، Microsoft Word هر فیلد جداگانه را بر اساس زبان متن موجود در فیلد (به طور خاص اجرا شده از کد فیلد) قالب بندی می کند. گاهی اوقات در حین به روز رسانی فیلد ممکن است این رفتار مطلوب باشد، به عنوان مثال اگر اسناد جهانی شده ای دارید که حاوی محتوایی است که از زبان های مختلف تشکیل شده است و می خواهید هر فیلد به محلی مورد استفاده در متن احترام بگذارد. Aspose.Words نیز از این قابلیت پشتیبانی می کند.
 
-کلاس [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) یک ویژگی [field_options](https://reference.aspose.com/words/python-net/aspose.words/document/field_options/) را ارائه می دهد که حاوی اعضایی است که می توانند برای کنترل نحوه به روز رسانی فیلدها در سند استفاده شوند. مثال زیر نشان می دهد که چگونه می توان فرهنگ مورد استفاده برای قالب بندی تاریخ در طول به روز رسانی فیلد و mail merge از کجا انتخاب شود.
+کلاس [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) یک ویژگی [field_options](https://reference.aspose.com/words/python-net/aspose.words/document/field_options/) را ارائه می دهد که حاوی اعضایی است که می توانند برای کنترل نحوه به روز رسانی فیلدها در سند استفاده شوند. مثال زیر نشان می دهد که چگونه می توان فرهنگ مورد استفاده برای قالب بندی تاریخ در طول به روز رسانی فیلد و Mail Merge از کجا انتخاب شود.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-ChangeFieldUpdateCultureSource.py" >}}
 

@@ -16,7 +16,7 @@ timestamp: 2024-01-27-14-07-04
 
 ## 문서 작성 개체 트리 {#create-a-document-objects-tree}
 
-문서가 읽을 때 Aspose.Words <span notrans="<span notrans=" DOM"=""></span>· 그런 다음 오브젝트 트리는 소스 문서의 요소의 내장 및 다른 유형의 자체가 DOM 다양한 속성을 가진 나무 개체.
+문서가 읽을 때 Aspose.Words DOM· 그런 다음 오브젝트 트리는 소스 문서의 요소의 내장 및 다른 유형의 자체가 DOM 다양한 속성을 가진 나무 개체.
 
 ### 문서 노드 트리 구축 {#build-document-nodes-tree}
 

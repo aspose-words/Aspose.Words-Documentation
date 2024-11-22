@@ -41,7 +41,7 @@ Aspose.Words místo Android přes Java je vícevláken bezpečný, pokud pouze j
 
 ### Minimální křivka učení
 
-I když existuje více než 150 veřejných tříd a výčty v Aspose.Words místo Android přes <span notrans="<span notrans=" Java"=""></span>, křivka učení je minimální, protože Aspose.Words místo Android přes Java API byl pečlivě navržen s těmito cíli:
+I když existuje více než 150 veřejných tříd a výčty v Aspose.Words místo Android přes Java, křivka učení je minimální, protože Aspose.Words místo Android přes Java API byl pečlivě navržen s těmito cíli:
 
 - Půjčit si osvědčené postupy od jiných známých APIs jako např. Microsoft Word Automatizace.
 - Půjčit si osvědčené postupy od průmyslu přijal Java a Android pokyny k návrhu.

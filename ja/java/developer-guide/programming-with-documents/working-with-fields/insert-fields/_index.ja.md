@@ -104,7 +104,7 @@ untyped/empty フィールドをインサートしたい場合 (){}) いいね M
 
 ### インサート Mail Merge `ADDRESSBLOCK` ドキュメントへのフィールド DOM
 
-ザ・オブ・ザ・ `ADDRESSBLOCK` フィールドをインサートするために使用されます mail merge ワード文書のアドレスブロック。 `ADDRESSBLOCK` Word文書のフィールドは、 [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) クラス。 使える **FieldAddressBlock** 次の操作を実行するクラス:
+ザ・オブ・ザ・ `ADDRESSBLOCK` フィールドをインサートするために使用されます Mail Merge ワード文書のアドレスブロック。 `ADDRESSBLOCK` Word文書のフィールドは、 [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) クラス。 使える **FieldAddressBlock** 次の操作を実行するクラス:
 
 - フィールドに国/地域の名前を含めるかどうかを指定する
 - POST*CODE(Universal Postal Union 2006)で定義された受取人の国/地域に応じてアドレスをフォーマットするかどうかを指定します。
@@ -146,7 +146,7 @@ untyped/empty フィールドをインサートしたい場合 (){}) いいね M
 
 - ブックマークの名前を指定します
 - デフォルトユーザ応答(プロンプトウィンドウに含まれている初期値)を指定する
-- ユーザ応答が1回受信されるかどうかを指定します mail merge オペレーション
+- ユーザ応答が1回受信されるかどうかを指定します Mail Merge オペレーション
 - プロンプトテキスト(プロンプトウィンドウのタイトル)を指定する
 
 {{% alert color="primary" %}}

@@ -19,7 +19,7 @@ Markdown 이 형식을 쉽게 작업하기 때문에 너무 인기가 있지만 
 
 ## 문서 변환 Markdown
 
-문서 변환 <span notrans="<span notrans=" Markdown"=""></span>· 지원되는 형식의 문서를로드하거나 새로운 프로그래밍을 만들 필요가 있습니다. 그런 다음 문서를 저장해야합니다. Markdown 파일 형식.
+문서 변환 Markdown· 지원되는 형식의 문서를로드하거나 새로운 프로그래밍을 만들 필요가 있습니다. 그런 다음 문서를 저장해야합니다. Markdown 파일 형식.
 
 다음 코드 예제는 DOCX를 변환하는 방법을 보여줍니다. Markdown::
 
@@ -59,5 +59,5 @@ Aspose.Words 현재 다음을 지원합니다. Markdown 주로 따르는 특징 
 
 몇 가지 nuances와 흥미로운 사례가 있습니다. Markdown 파일 더 유연하고 편리하게. 예를 들어, 사용할 수있는 능력이 있습니다
 
-* SetextHeading은 멀티 라인 헤드를 만들 수 있습니다. <span notrans="<span notrans=" Markdown"=""></span>· 자주 묻는 질문 Markdown 단 하나 선일 수 있습니다. SetextHeading은 "Heading N"스타일을 기반으로하며 레벨은 1 또는 2일만 가능합니다. N이 "Heading N"보다 크거나 2와 동일하면 해당 SetextHeading은 "Heading 2", 그렇지 않으면 "Heading 1"을 기반으로합니다.
+* SetextHeading은 멀티 라인 헤드를 만들 수 있습니다. Markdown· 자주 묻는 질문 Markdown 단 하나 선일 수 있습니다. SetextHeading은 "Heading N"스타일을 기반으로하며 레벨은 1 또는 2일만 가능합니다. N이 "Heading N"보다 크거나 2와 동일하면 해당 SetextHeading은 "Heading 2", 그렇지 않으면 "Heading 1"을 기반으로합니다.
 * 총알 목록 ( "-", "+"또는 "*", 기본 마커는 "-".) 및 주문 목록에 대한 번호의 다른 유형 (". "또는 ")", 기본 마커는 ".").

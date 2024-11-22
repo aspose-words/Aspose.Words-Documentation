@@ -50,7 +50,7 @@ Die volgende kode voorbeeld toon hoe voeg inhoud van een dokument in'n ander tyd
 
 ### Voeg'n Dokument in Tydens Mail Merge Operasie {#insert-a-document-during-mail-merge-operation}
 
-U kan'n dokument in'n samesmeltingsveld plaas tydens'n mail merge - bewerking. Byvoorbeeld, 'n mail merge sjabloon kan'n samesmelting veld soos [Opsomming] bevat. Maar in die finale dokument moet jy inhoud wat van'n ander eksterne dokument verkry is, in hierdie samesmeltingsveld invoeg. Om dit te bereik, sal jy'n hanteerder vir die samesmeltingsgeleentheid moet skep.
+U kan'n dokument in'n samesmeltingsveld plaas tydens'n Mail Merge - bewerking. Byvoorbeeld, 'n Mail Merge sjabloon kan'n samesmelting veld soos [Opsomming] bevat. Maar in die finale dokument moet jy inhoud wat van'n ander eksterne dokument verkry is, in hierdie samesmeltingsveld invoeg. Om dit te bereik, sal jy'n hanteerder vir die samesmeltingsgeleentheid moet skep.
 
 Die volgende kode voorbeeld toon hoe om'n hanteerder vir die samesmelting gebeurtenis te skep om dit later in die invoeging proses te gebruik:
 

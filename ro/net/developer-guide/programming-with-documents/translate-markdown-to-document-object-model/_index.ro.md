@@ -41,12 +41,12 @@ Noi folosim [Font](https://reference.aspose.com/words/net/aspose.words/font/) fo
 | **Italic**<br /> `*italic text*` | `Font.Italic = true` |
 | {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}} |  |
 | **Strikethrough**<br />`~Strikethrough text~` | `Font.StrikeThrough = true` |
-| {{< highlight csharp >}}// Use a document builder to add content to the document.
+| {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
 builder.Font.Strikethrough = true;
-builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
+builder.Writeln("This text will be Strikethrough"); {{< /highlight >}} |  |
 
 Utilizăm un stil de caracter cu un nume care începe cu cuvântul `InlineCode`, urmat de o linie opțională `(.)` și un număr de accente înapoi ```(`)``` pentru caracteristica `InlineCode`. Dacă se omite un număr de backtick-uri, atunci un singur backtick va fi folosit ca implicit.
 
@@ -73,10 +73,10 @@ Tabelul de mai jos prezintă exemple de utilizare a Markdown blocuri Leaf în As
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **HorizontalRule**<br /> `-----` | Aceasta este un paragraf simplu cu o formă HorizontalRule corespunzătoare:<br /> `DocumentBuilder.InsertHorizontalRule()` |
 | {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-HorizontalRule.cs" >}} |  |
-| **ATX Heading**<br /> `# H1, ## H2, ### H3…` | `ParagraphFormat.StyleName = “Heading N”`, unde (1<= N <=9). <br /> Acest lucru este tradus într-un stil încorporat și ar trebui să fie exact modelul specificat (nu se permit suffixe sau prefixe). <br /> Altfel, va fi doar un paragraf obișnuit cu un stil corespunzător. |
+| **ATX Heading**<br /> `# H1, ## H2, ### H3…` | `ParagraphFormat.StyleName = "Heading N"`, unde (1<= N <=9). <br /> Acest lucru este tradus într-un stil încorporat și ar trebui să fie exact modelul specificat (nu se permit suffixe sau prefixe). <br /> Altfel, va fi doar un paragraf obișnuit cu un stil corespunzător. |
 | {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}} |  |
-| **Setext Heading** <br /> `===` (dacă nivel de antet 1), <br /> `---` (dacă nivel de antet 2) | `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, bazat pe `“Heading N”` stil.<br />Dacă (N >= 2), atunci `“Heading 2”` va fi utilizat, altfel `“Heading 1”`.<br />Orice sufix este permis, dar importatorul Aspose.Words folosește numerele "1" și "2" respectiv. |
-| {{< highlight csharp >}}// Use a document builder to add content to the document.
+| **Setext Heading** <br /> `===` (dacă nivel de antet 1), <br /> `---` (dacă nivel de antet 2) | `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, bazat pe 'Heading N' stil.<br />Dacă (N >= 2), atunci 'Heading 2' va fi utilizat, altfel 'Heading 1'.<br />Orice sufix este permis, dar importatorul Aspose.Words folosește numerele "1" și "2" respectiv. |
+| {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 builder.ParagraphFormat.StyleName = "Heading 1";
@@ -103,7 +103,7 @@ builder.ParagraphFormat.Style = setexHeading2;
 builder.Document.Styles["SetextHeading2"].BaseStyleName = "Heading 3";
 
 // Setex heading level will be reset to 2 if the base paragraph has a Heading level greater than 2.
-builder.Writeln("Setext Heading level 2");{{< /highlight >}} |
+builder.Writeln("Setext Heading level 2"); {{< /highlight >}} |
 | **Indented Code** | `ParagraphFormat.StyleName = “IndentedCode[some suffix]”` |
 | {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-IndentedCode.cs" >}} |  |
 | **Fenced Code** <br />{{< highlight csharp >}}``` c#
@@ -120,7 +120,7 @@ Tabelul de mai jos prezintă exemple de utilizare a Markdown Complex Containers 
 | Markdown caracteristică | Aspose.Words |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Quote**<br /> `> quote,` <br /> `>> nested quote` | `ParagraphFormat.StyleName = “Quote[some suffix]”` <br /> Sufixul din numele stilului este opțional, dar Aspose.Words importatorul folosește numerele ordonate 1, 2, 3, ... în cazul citatelor închise.<br /> Închiderea se definește prin stilurile moștenite. |
-| {{< highlight csharp >}}// Use a document builder to add content to the document.
+| {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // By default a document stores blockquote style for the first level.
@@ -131,7 +131,7 @@ builder.Writeln("Blockquote");
 Style quoteLevel2 = builder.Document.Styles.Add(StyleType.Paragraph, "Quote1");
 builder.ParagraphFormat.Style = quoteLevel2;
 builder.Document.Styles["Quote1"].BaseStyleName = "Quote";
-builder.Writeln("1. Nested blockquote");{{< /highlight >}} |
+builder.Writeln("1. Nested blockquote"); {{< /highlight >}} |
 | **BulletedList**<br /> `- Item 1`<br /> `- Item 2`<br /> `   - Item 2a`<br /> `   - Item 2b` | Liste cu marcatori sunt reprezentate folosind numerotarea paragrafelor: <br /> `ListFormat.ApplyBulletDefault()` <br /> Pot exista 3 tipuri de liste cu marcatori. Ei sunt doar dif în formatul numerotării de foarte primul nivel. Acestea sunt: `‘-’`, `‘+’` sau `‘*’` respectiv. |
 | {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BulletedList.cs" >}} |  |
 | **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Liste ordonate sunt reprezentate folosind numerotarea paragrafelor:<br /> `ListFormat.ApplyNumberDefault()` <br /> Există 2 marcatori de formatare a numerelor: ".", și ")". Marcatorul implicit este ".". |
@@ -148,7 +148,7 @@ builder.Writeln("Item 2");
 builder.ListFormat.ListIndent();
 
 builder.Writeln("Item 2a");
-builder.Writeln("Item 2b");{{< /highlight >}} |  |
+builder.Writeln("Item 2b"); {{< /highlight >}} |  |
 
 ### Tablouri
 
@@ -157,7 +157,7 @@ builder.Writeln("Item 2b");{{< /highlight >}} |  |
 | Markdown caracteristică | Aspose.Words |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | `Table` <br /> `a|b`<br />`-|-`<br />`c|d` | [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) şi [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) clase. |
-| {{< highlight csharp >}}// Use a document builder to add content to the document.
+| {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Add the first row.
@@ -170,7 +170,7 @@ builder.Writeln("b");
 builder.InsertCell();
 builder.Writeln("c");
 builder.InsertCell();
-builder.Writeln("d");{{< /highlight >}} |  |
+builder.Writeln("d"); {{< /highlight >}} |  |
 
 ## Vezi și
 

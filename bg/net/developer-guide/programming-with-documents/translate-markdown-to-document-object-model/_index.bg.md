@@ -41,14 +41,14 @@ timestamp: 2024-10-21-11-17-44
 |  **Italic**<br/>`*italic text*` |  `Font.Italic = true`  |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}}  |  |
 |  **Strikethrough**<br/>`~Strikethrough text~` |  `Font.StrikeThrough = true`  |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
 builder.Font.Strikethrough = true;
-builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
+builder.Writeln("This text will be Strikethrough"); {{< /highlight >}} |  |
 
-Използваме стил на героя с име, което започва от думата <span notrans="<span notrans=" `InlineCode`"=""></span>,"> последвано от незадължителна точка `(.)` и редица подпори ```(`)``` за `InlineCode` функция. Ако се пропусне определен брой backticks, тогава един backtick ще се използва по подразбиране.
+Използваме стил на героя с име, което започва от думата `InlineCode` последвано от незадължителна точка `(.)` и редица подпори ```(`)``` за `InlineCode` функция. Ако се пропусне определен брой backticks, тогава един backtick ще се използва по подразбиране.
 
 |  Markdown функция |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |
@@ -73,10 +73,10 @@ builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **HorizontalRule**<br/>`-----` |  Това е прост параграф със съответстваща хоризонтална форма на правило:<br/>`DocumentBuilder.InsertHorizontalRule()` |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-HorizontalRule.cs" >}}  |                                                                |
-|  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`, където (1 <= N <= 9).<br/>Това се превежда в вграден стил и трябва да бъде точно на посочения модел (не се допускат наставки или префикси).<br/>В противен случай това ще бъде просто обикновен параграф със съответния стил |
+|  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = "Heading N"`, където (1 <= N <= 9).<br/>Това се превежда в вграден стил и трябва да бъде точно на посочения модел (не се допускат наставки или префикси).<br/>В противен случай това ще бъде просто обикновен параграф със съответния стил |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}}  |                                                                |
-|  **Setext Heading**<br/>`===` (ако е посочено ниво 1),<br/>`---` (ако е посочено ниво 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, въз основа на `“Heading N”` стил.<br/>Ако (N >= 2) тогава `“Heading 2”` ще се използва, в противен случай `“Heading 1”`.<br/>Всяка наставка е позволена, но Aspose.Words Вносителят използва номера съответно .... .. .. ..  |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  **Setext Heading**<br/>`===` (ако е посочено ниво 1),<br/>`---` (ако е посочено ниво 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, въз основа на 'Heading N' стил.<br/>Ако (N >= 2) тогава 'Heading 2' ще се използва, в противен случай 'Heading 1'.<br/>Всяка наставка е позволена, но Aspose.Words Вносителят използва номера съответно .... .. .. ..  |
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 builder.ParagraphFormat.StyleName = "Heading 1";
@@ -103,7 +103,7 @@ builder.ParagraphFormat.Style = setexHeading2;
 builder.Document.Styles["SetextHeading2"].BaseStyleName = "Heading 3";
 
 // Setex heading level will be reset to 2 if the base paragraph has a Heading level greater than 2.
-builder.Writeln("Setext Heading level 2");{{< /highlight >}} |
+builder.Writeln("Setext Heading level 2"); {{< /highlight >}} |
 |   **Indented Code**                                             |  `ParagraphFormat.StyleName = “IndentedCode[some suffix]”`     |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-IndentedCode.cs" >}}  |                                                                |
 |  **Fenced Code**<br/>{{< highlight csharp >}}``` c#
@@ -120,7 +120,7 @@ else
 |  Markdown функция |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **Quote**<br/>`> quote,`<br/>`>> nested quote` |  `ParagraphFormat.StyleName = “Quote[some suffix]”`<br/>Наставката със стилно име е незадължителна, но Aspose.Words Вносителят използва поръчаните номера 1, 2, 3 .... в случай на гнездене.<br/>Гнезденето се определя чрез наследените стилове |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // By default a document stores blockquote style for the first level.
@@ -131,7 +131,7 @@ builder.Writeln("Blockquote");
 Style quoteLevel2 = builder.Document.Styles.Add(StyleType.Paragraph, "Quote1");
 builder.ParagraphFormat.Style = quoteLevel2;
 builder.Document.Styles["Quote1"].BaseStyleName = "Quote";
-builder.Writeln("1. Nested blockquote");{{< /highlight >}} |
+builder.Writeln("1. Nested blockquote"); {{< /highlight >}} |
 |  **BulletedList**<br/>`- Item 1`<br/>`- Item 2`<br/> `   - Item 2a`<br/> `   - Item 2b` |  Списъците с куршуми са представени с номерация на параграфа:<br/>`ListFormat.ApplyBulletDefault()`<br/>Може да има 3 вида списъци с куршуми. Те са само diff в номерационен формат на първото ниво. Това са: `‘-’`, `‘+’` или `‘*’` съответно |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BulletedList.cs" >}}  |                                                                |
 |  **OrderedList**<br/>`1. Item 1`<br/>`2. Item 2`<br/> `1) Item 2a`<br/> `2) Item 2b` |  Поръчаните списъци се представят с номерация на параграфа:<br/>`ListFormat.ApplyNumberDefault()`<br/>Може да има 2 маркери за формат на номера: гот.. и) Подразбиращият се маркер е .. |
@@ -148,7 +148,7 @@ builder.Writeln("Item 2");
 builder.ListFormat.ListIndent();
 
 builder.Writeln("Item 2a");
-builder.Writeln("Item 2b");{{< /highlight >}} |                                                                |
+builder.Writeln("Item 2b"); {{< /highlight >}} |                                                                |
 
 ### Таблици
 
@@ -157,7 +157,7 @@ Aspose.Words също така позволява да се превежда т�
 |  Markdown функция |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  `Table`<br/> год | b`<br />`-|-`<br />`c|d - Да |  [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) както и [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) Класове |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Add the first row.
@@ -170,7 +170,7 @@ builder.Writeln("b");
 builder.InsertCell();
 builder.Writeln("c");
 builder.InsertCell();
-builder.Writeln("d");{{< /highlight >}} |                                                                |
+builder.Writeln("d"); {{< /highlight >}} |                                                                |
 
 ## Вижте също
 

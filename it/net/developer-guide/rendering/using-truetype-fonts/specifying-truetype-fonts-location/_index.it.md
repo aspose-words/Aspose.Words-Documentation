@@ -57,7 +57,7 @@ Poiché le metriche dei caratteri dei sistemi operativi Windows e non Windows so
 
 #### Dove Aspose.Words cerca i caratteri TrueType su Linux
 
-Diverse distribuzioni Linux possono memorizzare i caratteri in cartelle diverse. Aspose.Words cerca i caratteri in diverse posizioni. Per impostazione predefinita, Aspose.Words cerca i caratteri in tutte le seguenti posizioni: * /usr/share/fonts* /usr/local/share/fonts* /usr/X11R6/lib/X11/fontsQuesto comportamento predefinito funzionerà per la maggior parte delle distribuzioni Linux, ma non è garantito che funzioni sempre, nel qual caso potrebbe essere necessario specificare esplicitamente la posizione dei caratteri di tipo true. Per fare ciò, devi sapere dove sono installati i caratteri TrueType nella tua distribuzione Linux.
+Diverse distribuzioni Linux possono memorizzare i caratteri in cartelle diverse. Aspose.Words cerca i caratteri in diverse posizioni. Per impostazione predefinita, Aspose.Words cerca i caratteri in tutte le seguenti posizioni: `/usr/share/fonts` `/usr/local/share/fonts` `/usr/X11R6/lib/X11/fonts`Questo comportamento predefinito funzionerà per la maggior parte delle distribuzioni Linux, ma non è garantito che funzioni sempre, nel qual caso potrebbe essere necessario specificare esplicitamente la posizione dei caratteri di tipo true. Per fare ciò, devi sapere dove sono installati i caratteri TrueType nella tua distribuzione Linux.
 
 #### Dove Aspose.Words cerca i caratteri TrueType su Mac OS X
 

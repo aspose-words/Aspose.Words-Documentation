@@ -16,7 +16,7 @@ The Aspose.Words Document Object Model )أ(DOM() هو تمثيل داخلي لو
 
 ## وثيقة الإنشاء شجرة الوجه {#create-a-document-objects-tree}
 
-عند قراءة الوثيقة Aspose.Words <span notrans="<span notrans=" DOM"=""></span>" وبعد ذلك تُبنى شجرة الجسم وأنواع مختلفة من عناصر وثيقة المصدر لها DOM أجسام الأشجار ذات خصائص مختلفة
+عند قراءة الوثيقة Aspose.Words DOM وبعد ذلك تُبنى شجرة الجسم وأنواع مختلفة من عناصر وثيقة المصدر لها DOM أجسام الأشجار ذات خصائص مختلفة
 
 ### Build Document Nodes Tree {#build-document-nodes-tree}
 

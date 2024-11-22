@@ -61,7 +61,7 @@ Aspose.Words позволяет полностью обновить `TOC` Все
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertATableOfContentsField-UpdateTableOfContents.java" >}}
 
-Первый призыв к [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) будет строить <span notrans="<span notrans=" `TOC`"=""></span>"> Все тексты заполнены и `TOC` Кажется почти полным. Единственное, чего не хватает, так это номеров страниц, которые пока отображаются с "?".
+Первый призыв к [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) будет строить `TOC`"> Все тексты заполнены и `TOC` Кажется почти полным. Единственное, чего не хватает, так это номеров страниц, которые пока отображаются с "?".
 
 Второй призыв к [Document.updatePageLayout()](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout) Построит макет документа в память. Это необходимо сделать, чтобы собрать номера страниц записей. Правильные номера страниц, рассчитанные по этому вызову, затем вставляются в TOC.
 
@@ -125,13 +125,13 @@ Aspose.Words позволяет полностью обновить `TOC` Все
 
 <p>![table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-6.png)</p>
 
-<p><br/><br/>The `TC` Сами поля также могут иметь {several, `multiple`, a few, `many`, numerous} Переключатели установлены. Это:</p>
+<p><br/><br/>The `TC` Сами поля также могут иметь `{several, multiple, a few, many, numerous}` Переключатели установлены. Это:</p>
 
 <p>\F - Объяснено выше. *</p>
 
 <p>L – определяет, какой уровень `TOC` Появится это поле ТК. А. `TOC` который использует этот же переключатель, будет включать это поле TC только в том случае, если оно находится в указанном диапазоне.</p>
 
-<p>- _\N - Номер страницы для этого `TOC` Вход не отображается. Пример кода того, как вставить поля TC, можно найти в следующем разделе.</p>
+<p>- `_\N` - Номер страницы для этого `TOC` Вход не отображается. Пример кода того, как вставить поля TC, можно найти в следующем разделе.</p>
  |
 
 ### Связанные с внешним видом коммутаторы

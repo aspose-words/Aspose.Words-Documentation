@@ -108,13 +108,13 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 
 <p>![todo:image_alt_text](/words/net/working-with-table-of-contents/working-with-table-of-contents-5.png)</p>
 
-<p>`TC` 필드 자체에도 {several, `multiple`, a few, `many`, numerous} 스위치를 설정할 수 있습니다. 이것들은:</p>
+<p>`TC` 필드 자체에도 `{several, multiple, a few, many, numerous}` 스위치를 설정할 수 있습니다. 이것들은:</p>
 
 <p>- *\F – 위에 설명되어 있습니다.*</p>
 
 <p>- *\L – 이 TC 필드가 나타날 `TOC`의 수준을 정의합니다. 이 동일한 스위치를 사용하는 `TOC`는 지정된 범위 내에 있는 경우에만 이 TC 필드를 포함합니다.*</p>
 
-<p>- _\N – 이 `TOC` 항목의 페이지 번호는 표시되지 않습니다. TC 필드를 삽입하는 방법에 대한 샘플 코드는 다음 섹션에서 찾을 수 있습니다.</p> |
+<p>- `_\N` – 이 `TOC` 항목의 페이지 번호는 표시되지 않습니다. TC 필드를 삽입하는 방법에 대한 샘플 코드는 다음 섹션에서 찾을 수 있습니다.</p> |
 
 ### 외관 관련 스위치
 

@@ -16,7 +16,7 @@ Om meer te leer oor Aspose.Words vir Java kenmerke jy kan die ooreenstemmende af
 
 - [Laai, Stoor En Omskakeling](/words/java/loading-saving-and-converting/) - verskaf inligting oor verskillende maniere om dokumente te laai of te stoor en formaatspesifieke kenmerke wat nuttig is vir die omskakeling van'n dokument van een formaat na'n ander.
 - [Lewering](/words/java/rendering/) - verskaf inligting oor hoe om'n paginated verteenwoordiging van'n dokument in vloei-uitleg bladsy formaat te kry.
-- [Mail Merge En Verslagdoening](/words/java/mail-merge-and-reporting/) - verskaf inligting oor die opwekking van dokumente, soos verslae, katalogusse, voorraad en fakture, van templates met mail merge velde.
+- [Mail Merge En Verslagdoening](/words/java/mail-merge-and-reporting/) - verskaf inligting oor die opwekking van dokumente, soos verslae, katalogusse, voorraad en fakture, van templates met Mail Merge velde.
 - [LINQ Verslagdoeningsmotor](/words/java/linq-reporting-engine/) - verskaf inligting oor die bou van verslae met behulp van'n uitgebreide stel verslagdoeningsfunksies.
 - [Druk'n Dokument Programmaties of Gebruik Dialoog](/words/java/print-a-document-programmatically-or-using-dialogs/) - verskaf inligting oor hoe om'n dokument op verskillende maniere te druk en die drukbewerking te verfyn om u persoonlike logika te implementeer.
 - [Programmering Met Dokumente](/words/java/programming-with-documents/) - verskaf inligting oor hoe om dokumente programmaties te skep, te verander en te bestuur, insluitend die verandering van beide hul inhoud en visuele voorkoms.

@@ -19,7 +19,7 @@ timestamp: 2024-01-27-14-07-04
 - 当你打开/保存文档时,字段保持不变
 - 您可以明确更新文档中的所有字段,例如重建 `TOC` 需要的时候
 - 当打印/交给PDF或 XPS 在页眉/页脚中更新与页码有关的字段
-- 当你执行 mail merge 所有字段自动更新
+- 当你执行 Mail Merge 所有字段自动更新
 
 ### 程序更新字段
 
@@ -37,11 +37,11 @@ timestamp: 2024-01-27-14-07-04
 
 ### 自动更新字段 Mail Merge
 
-当你执行一个 <span notrans="<span notrans=" mail merge"=""></span>",> 文档中的所有字段将自动更新。 这是因为 mail merge 是一个字段更新的例子。 程序遇到一个 mail merge 字段,需要更新其结果,这涉及从数据源中获取值并将其插入到字段。 当然,逻辑更为复杂,例如,当文件/文件结尾时。mail merge 但还有更多的数据有待合并,然后需要复制该区域并更新新的一组领域。
+当你执行一个 Mail Merge 文档中的所有字段将自动更新。 这是因为 Mail Merge 是一个字段更新的例子。 程序遇到一个 Mail Merge 字段,需要更新其结果,这涉及从数据源中获取值并将其插入到字段。 当然,逻辑更为复杂,例如,当文件/文件结尾时。mail merge 但还有更多的数据有待合并,然后需要复制该区域并更新新的一组领域。
 
 ## 更新带有肮脏属性的字段
 
-w: dirty是一个字段级属性,它只会刷新文档打开时指定的字段. 它告诉MS Word在下次打开文档时只刷新此字段. 您可以使用 Load Options. set Update Dirty Fields () 属性来指定是否用脏属性更新字段 。 当装入可选的值. set Update Dirty Fields () 被设定为 <span notrans="<span notrans=" *true*"=""></span>",> 所有字段 *true* 数值 `Field.IsDirty` 或 `FieldChar.IsDirty` 属性在文档加载时更新。
+w: dirty是一个字段级属性,它只会刷新文档打开时指定的字段. 它告诉MS Word在下次打开文档时只刷新此字段. 您可以使用 Load Options. set Update Dirty Fields () 属性来指定是否用脏属性更新字段 。 当装入可选的值. set Update Dirty Fields () 被设定为 *true* 所有字段 *true* 数值 `Field.IsDirty` 或 `FieldChar.IsDirty` 属性在文档加载时更新。
 
 以下代码示例显示如何更新具有脏属性的字段:
 

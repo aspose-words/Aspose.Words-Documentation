@@ -41,7 +41,7 @@ Aspose.Words para Android via via via via Java é multithread seguro enquanto ap
 
 ### Curva de aprendizagem mínima
 
-Embora existam mais de 150 classes públicas e enumerações em Aspose.Words para Android via via via via <span notrans="<span notrans=" Java"=""></span>, a curva de aprendizagem é mínima porque Aspose.Words para Android via via via via Java API foi cuidadosamente projetado com os seguintes objetivos em mente:
+Embora existam mais de 150 classes públicas e enumerações em Aspose.Words para Android via via via via Java, a curva de aprendizagem é mínima porque Aspose.Words para Android via via via via Java API foi cuidadosamente projetado com os seguintes objetivos em mente:
 
 - Borrow melhores práticas de outros bem conhecidos APIcomo Microsoft Word Automação.
 - As melhores práticas da indústria aceitas Java e Android diretrizes de design.

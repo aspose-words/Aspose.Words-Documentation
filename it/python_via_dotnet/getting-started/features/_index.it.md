@@ -109,15 +109,15 @@ Puoi utilizzare Aspose.Words come soluzione di reporting autonoma. Progetta i tu
 
 |  Caratteristica | Python via .NET |
 |  :-  |  :-  |
-| Utilizza tutti i campi mail merge Microsoft Word standard nei tuoi report, inclusi `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. | {{< emoticons/tick >}} |
-| Esegui mail merge per documenti che contengono anche i campi e le formule `IF` più complessi e nidificati. | {{< emoticons/tick >}} |
+| Utilizza tutti i campi Mail Merge Microsoft Word standard nei tuoi report, inclusi `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. | {{< emoticons/tick >}} |
+| Esegui Mail Merge per documenti che contengono anche i campi e le formule `IF` più complessi e nidificati. | {{< emoticons/tick >}} |
 | Compila e amplia dinamicamente tabelle o frammenti nel documento dalla tua origine dati utilizzando le regioni mail merge. | {{< emoticons/cross >}} |
 | Genera facilmente report che contengono dati master-detail (parent-child) come Order/OrderDetails. | {{< emoticons/cross >}} |
 | Compila i documenti con dati provenienti da qualsiasi origine dati .NET come DataSet, DataTable, DataView, DataReader o ADO Recordset. | {{< emoticons/cross >}} |
 | Popola documenti da qualsiasi origine dati come una query LINQ, un file XML o oggetti business implementando l'interfaccia [IMailMergeDataSource](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/imailmergedatasource/). | {{< emoticons/cross >}} |
 | Assumi un controllo preciso, ad esempio sulla formattazione dei numeri, sul modo in cui i tuoi dati vengono uniti utilizzando gli eventi. | {{< emoticons/cross >}} |
 | Inserisci immagini durante mail merge. | {{< emoticons/tick >}} |
-| Creare o modificare a livello di codice un'origine dati Microsoft Word mail merge per un documento. Conserva le impostazioni mail merge e le origini dati. | {{< emoticons/tick >}} |
+| Creare o modificare a livello di codice un'origine dati Microsoft Word Mail Merge per un documento. Conserva le impostazioni Mail Merge e le origini dati. | {{< emoticons/tick >}} |
 | Recupera i nomi dei campi mail merge. | {{< emoticons/tick >}} |
 
 ## Funzionalità di reporting

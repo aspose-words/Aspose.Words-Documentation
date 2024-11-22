@@ -43,7 +43,7 @@ Używamy [Font](https://reference.aspose.com/words/java/com.aspose.words/font/) 
 |  **Strikethrough**<br/>`~Strikethrough text~` |  `Font.StrikeThrough = true`  |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Strikethrough.java" >}}  |  |
 
-Używamy stylu znaków z nazwą, która zaczyna się od słowa <span notrans="<span notrans=" `InlineCode`"=""></span>", > po której następuje opcjonalna kropka `(.)` i kilka tyłków ```(`)``` dla `InlineCode` funkcja. W przypadku pominięcia pewnej liczby typków, domyślnie zostanie użyty jeden.
+Używamy stylu znaków z nazwą, która zaczyna się od słowa `InlineCode`, > po której następuje opcjonalna kropka `(.)` i kilka tyłków ```(`)``` dla `InlineCode` funkcja. W przypadku pominięcia pewnej liczby typków, domyślnie zostanie użyty jeden.
 
 |  Markdown funkcja |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |
@@ -68,9 +68,9 @@ Poniższa tabela przedstawia przykłady stosowania Markdown Bloki liści w Aspos
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **HorizontalRule**<br/>`-----` |  Jest to prosty akapit o odpowiednim kształcie horyzontalnej zasady:<br/>`DocumentBuilder.InsertHorizontalRule()` |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-HorizontalRule.java" >}}  |                                                                |
-|  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`, gdzie (1 < = N < = 9).<br/>To jest przetłumaczone na built- w stylu i powinno być dokładnie określonego wzoru (nie są dozwolone przyrostki lub przedrostki).<br/>W przeciwnym razie będzie to zwykły akapit o odpowiednim stylu |
+|  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = "Heading N"`, gdzie (1 < = N < = 9).<br/>To jest przetłumaczone na built- w stylu i powinno być dokładnie określonego wzoru (nie są dozwolone przyrostki lub przedrostki).<br/>W przeciwnym razie będzie to zwykły akapit o odpowiednim stylu |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Heading.java" >}}  |                                                                |
-|  **Setext Heading**<br/>`===` (jeżeli zakres 1),<br/>`---` (jeżeli zakres 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, w oparciu o `“Heading N”` Styl.<br/>Jeśli (N > = 2), to `“Heading 2”` zostaną wykorzystane, w przeciwnym razie `“Heading 1”`.<br/>Każdy przyrostek jest dozwolony, ale Aspose.Words Importer stosuje odpowiednio numery "1" i "2" |
+|  **Setext Heading**<br/>`===` (jeżeli zakres 1),<br/>`---` (jeżeli zakres 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, w oparciu o 'Heading N' Styl.<br/>Jeśli (N > = 2), to 'Heading 2' zostaną wykorzystane, w przeciwnym razie 'Heading 1'.<br/>Każdy przyrostek jest dozwolony, ale Aspose.Words Importer stosuje odpowiednio numery "1" i "2" |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-SetextHeading.java" >}}  |                                                                |
 |   **Indented Code**                                             |  `ParagraphFormat.StyleName = “IndentedCode[some suffix]”`     |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-IndentedCode.java" >}}  |                                                                |

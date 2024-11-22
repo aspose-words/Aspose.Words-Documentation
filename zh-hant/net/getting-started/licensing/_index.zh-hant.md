@@ -61,13 +61,13 @@ Aspose.Words是開發人員可以在購買前試用的驚人軟體。
 許可證可以在各種位置應用：
 
 "* 顯式路徑"
-*包含 *Aspose.Words.dll* 的文件夹
-*包含從 *Aspose.Words.dll* 調用之組件的資料夾
-* 包含進入組件的資料夾 (你的 *.exe*)
-* 該組件中的內嵌資源稱為 *Aspose.Words.dll*。
+*包含 `Aspose.Words.dll` 的文件夹
+*包含從 `Aspose.Words.dll` 調用之組件的資料夾
+* 包含進入組件的資料夾 (你的 `.exe`)
+* 該組件中的內嵌資源稱為 `Aspose.Words.dll`。
 * 計量許可證 – 新的授權機制
 
-當您在應用程式中參考 *Aspose.Words.dll* 時，此程式庫會複製到您的輸出目錄（除非該筆記錄的特性的 *Copy Local* 設定為 false）。 最簡單的方式通常是將執照檔放在與 *Aspose.Words.dll* 相同的資料夾中，只需指定檔案名稱而不指定路徑即可。
+當您在應用程式中參考 `Aspose.Words.dll` 時，此程式庫會複製到您的輸出目錄（除非該筆記錄的特性的 *Copy Local* 設定為 false）。 最簡單的方式通常是將執照檔放在與 `Aspose.Words.dll` 相同的資料夾中，只需指定檔案名稱而不指定路徑即可。
 
 {{% alert color="primary" %}}
 

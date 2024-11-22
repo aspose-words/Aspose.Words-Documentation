@@ -16,7 +16,7 @@ Bagian ini menjelaskan kelas utama dari Aspose.Words DOM dan hubungan mereka. De
 
 ## Buat Dokumen Pohon objek {#create-a-document-objects-tree}
 
-Ketika dokumen dibaca ke dalam Meme it Aspose.Words <span notrans="<span notrans=" DOM"=""></span>Sitemap kemudian pohon objek dibangun dan berbagai jenis elemen dokumen sumber memiliki mereka sendiri DOM objek pohon dengan berbagai properti.
+Ketika dokumen dibaca ke dalam Meme it Aspose.Words DOMSitemap kemudian pohon objek dibangun dan berbagai jenis elemen dokumen sumber memiliki mereka sendiri DOM objek pohon dengan berbagai properti.
 
 ### Membangun Dokumen Nodes Pohon {#build-document-nodes-tree}
 

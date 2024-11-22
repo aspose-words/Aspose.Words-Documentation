@@ -57,7 +57,7 @@ Karena metrik font OS Windows dan non-Windows berbeda, Aspose.Words melakukan se
 
 #### Dimana Aspose.Words Mencari Font TrueType di Linux
 
-Distribusi Linux yang berbeda mungkin menyimpan font di folder yang berbeda. Aspose.Words mencari font di beberapa lokasi. Secara default, Aspose.Words mencari font di semua lokasi berikut: * /usr/share/fonts* /usr/local/share/fonts* /usr/X11R6/lib/X11/fontsPerilaku default ini akan berfungsi pada sebagian besar distribusi Linux, namun tidak dijamin berfungsi sepanjang waktu, dalam hal ini Anda mungkin perlu menentukan lokasi font tipe true secara eksplisit. Untuk melakukan ini, Anda perlu mengetahui di mana font TrueType diinstal pada distribusi Linux Anda.
+Distribusi Linux yang berbeda mungkin menyimpan font di folder yang berbeda. Aspose.Words mencari font di beberapa lokasi. Secara default, Aspose.Words mencari font di semua lokasi berikut: `/usr/share/fonts` `/usr/local/share/fonts` `/usr/X11R6/lib/X11/fonts`Perilaku default ini akan berfungsi pada sebagian besar distribusi Linux, namun tidak dijamin berfungsi sepanjang waktu, dalam hal ini Anda mungkin perlu menentukan lokasi font tipe true secara eksplisit. Untuk melakukan ini, Anda perlu mengetahui di mana font TrueType diinstal pada distribusi Linux Anda.
 
 #### Tempat Aspose.Words Mencari Font TrueType di Mac OS X
 

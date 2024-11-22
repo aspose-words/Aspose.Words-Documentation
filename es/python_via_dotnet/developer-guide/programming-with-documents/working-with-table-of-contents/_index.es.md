@@ -108,7 +108,7 @@ De forma predeterminada, estos modificadores anteriores se incluyen al insertar 
 
 <p>- *\L: define en qué nivel del `TOC` aparecerá este campo TC. Un `TOC` que utilice este mismo interruptor solo incluirá este campo TC si está dentro del rango especificado.*</p>
 
-<p>- _\N: la numeración de página para esta entrada `TOC` no se muestra. En la siguiente sección se puede encontrar un código de muestra sobre cómo insertar campos TC.</p> |
+<p>- `_\N`: la numeración de página para esta entrada `TOC` no se muestra. En la siguiente sección se puede encontrar un código de muestra sobre cómo insertar campos TC.</p> |
 
 ### Interruptores relacionados con la apariencia
 

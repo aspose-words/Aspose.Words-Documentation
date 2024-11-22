@@ -19,7 +19,7 @@ Khi một tài liệu được tải lên, Aspose.Words bắt chước hành vi 
 - khi bạn mở/lưu một tài liệu các trường vẫn nguyên vẹn
 "- bạn có thể cập nhật rõ ràng tất cả các trường trong một tài liệu, ví dụ, tái thiết lập `TOC` khi bạn cần"
 - khi bạn in ra PDF hoặc XPS các trường liên quan đến số trang trong tiêu đề/thư ký được cập nhật
-- khi bạn thực thi mail merge tất cả các trường được cập nhật tự động
+- khi bạn thực thi Mail Merge tất cả các trường được cập nhật tự động
 
 ### Cập nhật trường tự động
 
@@ -37,7 +37,7 @@ Ví dụ sau cho thấy cách cập nhật tất cả các trường trước kh
 
 ### Cập nhật tự động trong Mail Merge
 
-Khi bạn chạy một mail merge, tất cả các trường trong tài liệu sẽ được cập nhật tự động. Điều này là do trường mail merge là một trường cập nhật. Chương trình gặp phải một trường mail merge và cần cập nhật kết quả, điều này liên quan đến việc lấy giá trị từ nguồn dữ liệu và chèn nó vào trường. Logic có vẻ phức tạp hơn, ví dụ khi kết thúc vùng của tài liệu/ mail merge được tiếp cận nhưng vẫn còn dữ liệu khác cần được gộp lại thì vùng cần phải được nhân đôi và tập các trường mới được cập nhật.
+Khi bạn chạy một mail merge, tất cả các trường trong tài liệu sẽ được cập nhật tự động. Điều này là do trường Mail Merge là một trường cập nhật. Chương trình gặp phải một trường Mail Merge và cần cập nhật kết quả, điều này liên quan đến việc lấy giá trị từ nguồn dữ liệu và chèn nó vào trường. Logic có vẻ phức tạp hơn, ví dụ khi kết thúc vùng của tài liệu/ Mail Merge được tiếp cận nhưng vẫn còn dữ liệu khác cần được gộp lại thì vùng cần phải được nhân đôi và tập các trường mới được cập nhật.
 
 ## Cập nhật các trường có thuộc tính bị bẩn
 

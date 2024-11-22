@@ -14,7 +14,7 @@ timestamp: 2024-01-31-14-23-37
 
 ## แปลงเอกสารเป็น XLSX
 
-การแปลงเอกสารเป็น XLSX เป็นกระบวนการที่ซับซ้อน เพื่อบันทึกเอกสารของคุณไปเป็นรูปแบบ XLSX โดยใช้ <span notrans="<span notrans=" Aspose.Words"=""></span>'"> ใช้ [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) ชั้นเรียนและใหม่ `Xlsx` องค์ประกอบใน [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) ปลดปล่อย ดังที่กล่าวไปด้านบน คุณสามารถบันทึกเอกสารในรูปแบบที่โหลดได้ที่รองรับ Aspose.Words ถึง XLSX
+การแปลงเอกสารเป็น XLSX เป็นกระบวนการที่ซับซ้อน เพื่อบันทึกเอกสารของคุณไปเป็นรูปแบบ XLSX โดยใช้ Aspose.Words'"> ใช้ [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) ชั้นเรียนและใหม่ `Xlsx` องค์ประกอบใน [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) ปลดปล่อย ดังที่กล่าวไปด้านบน คุณสามารถบันทึกเอกสารในรูปแบบที่โหลดได้ที่รองรับ Aspose.Words ถึง XLSX
 
 ตัวอย่างโค้ดต่อไปนี้ แสดงวิธีบันทึก PDF ถึง XLSX:
 

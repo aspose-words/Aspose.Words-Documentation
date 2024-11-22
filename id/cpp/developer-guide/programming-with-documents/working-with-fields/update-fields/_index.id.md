@@ -19,7 +19,7 @@ Saat dokumen dimuat, Aspose.Words meniru perilaku Microsoft Word dengan opsi unt
 - saat Anda membuka / menyimpan dokumen, bidang tetap utuh
 - anda dapat memperbarui semua bidang dalam dokumen secara eksplisit, misalnya, membangun kembali `TOC`, saat Anda perlu
 - saat Anda merender ke PDF atau XPS, bidang yang terkait dengan penomoran halaman di header / footer diperbarui
-- saat Anda menjalankan mail merge semua bidang diperbarui secara otomatis
+- saat Anda menjalankan Mail Merge semua bidang diperbarui secara otomatis
 
 ### Perbarui Bidang secara Terprogram
 
@@ -37,7 +37,7 @@ Contoh kode berikut menunjukkan cara memperbarui semua bidang sebelum merender d
 
 ### Pembaruan Bidang Otomatis selama Mail Merge
 
-Saat Anda menjalankan mail merge, semua bidang dalam dokumen akan diperbarui secara otomatis. Ini karena mail merge adalah kasus pembaruan bidang. Program menemukan bidang mail merge dan perlu memperbarui hasilnya, yang melibatkan pengambilan nilai dari sumber data dan memasukkannya ke dalam bidang. Logikanya tentu saja lebih rumit, misalnya ketika akhir wilayah document / mail merge tercapai tetapi masih ada data lebih lanjut yang akan digabungkan, maka wilayah tersebut perlu diduplikasi dan kumpulan bidang baru diperbarui.
+Saat Anda menjalankan mail merge, semua bidang dalam dokumen akan diperbarui secara otomatis. Ini karena Mail Merge adalah kasus pembaruan bidang. Program menemukan bidang Mail Merge dan perlu memperbarui hasilnya, yang melibatkan pengambilan nilai dari sumber data dan memasukkannya ke dalam bidang. Logikanya tentu saja lebih rumit, misalnya ketika akhir wilayah document / Mail Merge tercapai tetapi masih ada data lebih lanjut yang akan digabungkan, maka wilayah tersebut perlu diduplikasi dan kumpulan bidang baru diperbarui.
 
 ## Perbarui properti LastSavedTime sebelum menyimpan
 

@@ -64,7 +64,7 @@ builder.writeln("This text will be Strikethrough")
 
 builder.document.save(docs_base.artifacts_dir + "WorkingWithMarkdown.strikethrough_text_example.md"){{< /highlight >}} |  |
 
-Používáme charakterový styl se jménem, který začíná slovem <span notrans="<span notrans=" `InlineCode`"=""></span>,? následuje volitelná tečka `(.)` a řada odplat ```(`)``` pro `InlineCode` bonus. Je-li chybět několik backticks, pak jeden backtick bude použit ve výchozím nastavení.
+Používáme charakterový styl se jménem, který začíná slovem `InlineCode`,? následuje volitelná tečka `(.)` a řada odplat ```(`)``` pro `InlineCode` bonus. Je-li chybět několik backticks, pak jeden backtick bude použit ve výchozím nastavení.
 
 |  Markdown funkce |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |

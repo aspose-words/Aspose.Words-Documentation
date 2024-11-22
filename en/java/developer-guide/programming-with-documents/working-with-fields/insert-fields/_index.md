@@ -105,7 +105,7 @@ The following code example shows how to add the `MERGE` field using DOM to a par
 
 ### Inserting Mail Merge `ADDRESSBLOCK` field into a Document using DOM
 
-The `ADDRESSBLOCK` field is used to insert a mail merge address block in a Word document. `ADDRESSBLOCK` field in Word document can be represented by the [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) class. You can use **FieldAddressBlock** class to perform the following operations:
+The `ADDRESSBLOCK` field is used to insert a Mail Merge address block in a Word document. `ADDRESSBLOCK` field in Word document can be represented by the [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) class. You can use **FieldAddressBlock** class to perform the following operations:
 
 - specify whether to include the name of the country/region in the field
 - specify whether to format the address according to the country/region of the recipient as defined by POST*CODE (Universal Postal Union 2006)
@@ -147,7 +147,7 @@ The `ASK` field is used to prompt the user for text to assign to a Bookmark in W
 
 - specify the name of the bookmark
 - specify default user response (initial value contained in the prompt window)
-- specify whether the user response should be received once per a mail merge operation
+- specify whether the user response should be received once per a Mail Merge operation
 - specify the prompt text (the title of the prompt window)
 
 {{% alert color="primary" %}}

@@ -109,15 +109,15 @@ Anda dapat menggunakan Aspose.Words sebagai solusi pelaporannya sendiri. Rancang
 
 |  Fitur | Python via .NET |
 |  :-  |  :-  |
-| Gunakan semua bidang Microsoft Word mail merge standar dalam laporan Anda termasuk `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. | {{< emoticons/tick >}} |
-| Jalankan mail merge untuk dokumen yang berisi bidang dan rumus `IF` yang paling rumit dan bertumpuk sekalipun. | {{< emoticons/tick >}} |
+| Gunakan semua bidang Microsoft Word Mail Merge standar dalam laporan Anda termasuk `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. | {{< emoticons/tick >}} |
+| Jalankan Mail Merge untuk dokumen yang berisi bidang dan rumus `IF` yang paling rumit dan bertumpuk sekalipun. | {{< emoticons/tick >}} |
 | Isi dan kembangkan tabel atau fragmen secara dinamis dalam dokumen dari sumber data Anda menggunakan wilayah mail merge. | {{< emoticons/cross >}} |
 | Buat laporan dengan mudah yang berisi data detail master (induk-anak) seperti Order/OrderDetails. | {{< emoticons/cross >}} |
 | Isi dokumen dengan data dari sumber data .NET apa pun seperti DataSet, DataTable, DataView, DataReader, atau ADO Recordset. | {{< emoticons/cross >}} |
 | Isi dokumen dari sumber data apa pun seperti kueri LINQ, file XML, atau objek bisnis dengan mengimplementasikan antarmuka [IMailMergeDataSource](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/imailmergedatasource/). | {{< emoticons/cross >}} |
 | Ambil kendali yang tepat, seperti pemformatan angka, atas cara data Anda digabungkan menggunakan peristiwa. | {{< emoticons/cross >}} |
 | Sisipkan gambar selama mail merge. | {{< emoticons/tick >}} |
-| Membuat atau memodifikasi sumber data Microsoft Word mail merge untuk dokumen secara terprogram. Pertahankan pengaturan mail merge dan sumber data. | {{< emoticons/tick >}} |
+| Membuat atau memodifikasi sumber data Microsoft Word Mail Merge untuk dokumen secara terprogram. Pertahankan pengaturan Mail Merge dan sumber data. | {{< emoticons/tick >}} |
 | Ambil nama bidang mail merge. | {{< emoticons/tick >}} |
 
 ## Fitur Pelaporan

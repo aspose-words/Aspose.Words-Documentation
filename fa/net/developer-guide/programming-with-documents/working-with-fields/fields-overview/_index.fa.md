@@ -174,9 +174,9 @@ Aspose.Words از تمام سوئیچ‌های قالب‌بندی تاریخ و
 
 ### فیلدهای Mail Merge
 
-Aspose.Words هیچ محدودیتی برای پیچیدگی فیلدهای mail merge در اسناد شما اعمال نمی کند و از فیلدهای `IF` و فرمول تودرتو پشتیبانی می کند و حتی می تواند نام فیلد ادغام را با استفاده از یک فرمول محاسبه کند.
+Aspose.Words هیچ محدودیتی برای پیچیدگی فیلدهای Mail Merge در اسناد شما اعمال نمی کند و از فیلدهای `IF` و فرمول تودرتو پشتیبانی می کند و حتی می تواند نام فیلد ادغام را با استفاده از یک فرمول محاسبه کند.
 
-چند نمونه از فیلدهای mail merge که Aspose.Words پشتیبانی می کند:
+چند نمونه از فیلدهای Mail Merge که Aspose.Words پشتیبانی می کند:
 
 - سوئیچ های میدان Mail merge:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -223,6 +223,6 @@ Aspose.Words هیچ محدودیتی برای پیچیدگی فیلدهای mail
 
 کلاس [Document](https://reference.aspose.com/words/net/aspose.words/document/) یک ویژگی [FieldOptions](https://reference.aspose.com/words/net/aspose.words/document/fieldoptions/) را ارائه می دهد که حاوی اعضایی است که می توانند برای کنترل نحوه به روز رسانی فیلدها در سند استفاده شوند.
 
-مثال کد زیر نشان می دهد که چگونه می توان فرهنگ مورد استفاده برای قالب بندی تاریخ در طول به روز رسانی فیلد و mail merge را از کجا انتخاب کرد:
+مثال کد زیر نشان می دهد که چگونه می توان فرهنگ مورد استفاده برای قالب بندی تاریخ در طول به روز رسانی فیلد و Mail Merge را از کجا انتخاب کرد:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-ChangeFieldUpdateCultureSource-ChangeFieldUpdateCultureSource.cs" >}}

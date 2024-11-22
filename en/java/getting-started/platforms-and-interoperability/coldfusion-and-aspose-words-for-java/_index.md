@@ -41,7 +41,7 @@ This is a simple application that creates an empty document, inserts some conten
 
 ## Simple Mail Merge
 
-Aspose.Words provides a reporting generation facility similar to Microsoft Word’s mail merge. Here is a code example to perform a simple mail merge using Aspose.Words.
+Aspose.Words provides a reporting generation facility similar to Microsoft Word’s mail merge. Here is a code example to perform a simple Mail Merge using Aspose.Words.
 
 **ColdFusion**
 
@@ -49,7 +49,7 @@ Aspose.Words provides a reporting generation facility similar to Microsoft Word�
 <html>
 <head><title>Simple Mail Merge</title></head>
 <body>
-    <b>This example shows how to execute simple mail merge using Aspose.Words</b>
+    <b>This example shows how to execute simple Mail Merge using Aspose.Words</b>
     <cfset doc=CreateObject("java", "com.aspose.words.Document").init("C:\Temp\in.doc")>
     <cfset names=["FullName", "Company", "City"]>
     <cfset values=["Alexey Noskov", "Aspose", "Auckland"]>
@@ -170,7 +170,7 @@ public class RelationSet
 
 {{% alert color="primary" %}}
 
-Next we write the `ColdFusion` code to execute mail merge and save the document to disk. 
+Next we write the `ColdFusion` code to execute Mail Merge and save the document to disk. 
 
 {{% /alert %}}
 
@@ -180,7 +180,7 @@ Next we write the `ColdFusion` code to execute mail merge and save the document 
 <html>
 <head><title>Mail Merge with Regions</title></head>
 <body>
-    <b>This example shows how to execute mail merge with regions using Aspose.Words</b>
+    <b>This example shows how to execute Mail Merge with regions using Aspose.Words</b>
     <cfset doc=CreateObject("java", "com.aspose.words.Document").init("C:\Temp\in.doc")>
     <cfset myQueryResult=CreateObject("java", "RelationSet").init()>
     <cfset myResultSet=myQueryResult.execQuery()>

@@ -43,7 +43,7 @@ timestamp: 2024-10-21-11-17-44
 |  **Strikethrough**<br/>`~Strikethrough text~` |  `Font.StrikeThrough = true`  |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Strikethrough.java" >}}  |  |
 
-ما از یک سبک شخصیتی با یک نام استفاده می کنیم که از کلمه شروع می شود. <span notrans="<span notrans=" `InlineCode`"=""></span>"> پس از آن یک گزینه اختیاری `(.)` و تعدادی از backticks ```(`)``` برای `InlineCode` ویژگی اگر تعدادی از backticks از دست رفته باشد، یک backtick به طور پیش فرض مورد استفاده قرار می گیرد.
+ما از یک سبک شخصیتی با یک نام استفاده می کنیم که از کلمه شروع می شود. `InlineCode`> پس از آن یک گزینه اختیاری `(.)` و تعدادی از backticks ```(`)``` برای `InlineCode` ویژگی اگر تعدادی از backticks از دست رفته باشد، یک backtick به طور پیش فرض مورد استفاده قرار می گیرد.
 
 |  Markdown ویژگی ویژگی |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |
@@ -68,9 +68,9 @@ timestamp: 2024-10-21-11-17-44
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **HorizontalRule**<br/>`-----` |  این یک پاراگراف ساده با شکل افقی متناظر است:<br/>`DocumentBuilder.InsertHorizontalRule()` |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-HorizontalRule.java" >}}  |                                                                |
-|  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`, جایی که (1 = N <= 9)<br/>این به سبک داخلی ترجمه می شود و باید دقیقاً از الگوی مشخص شده باشد (هیچ پسوند یا پیشوند مجاز نیست).<br/>در غیر این صورت، فقط یک پاراگراف منظم با سبک متناظر خواهد بود |
+|  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = "Heading N"`, جایی که (1 = N <= 9)<br/>این به سبک داخلی ترجمه می شود و باید دقیقاً از الگوی مشخص شده باشد (هیچ پسوند یا پیشوند مجاز نیست).<br/>در غیر این صورت، فقط یک پاراگراف منظم با سبک متناظر خواهد بود |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Heading.java" >}}  |                                                                |
-|  **Setext Heading**<br/>`===` (اگر سطح 1)<br/>`---` (اگر سطح 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, بر اساس `“Heading N”` سبک<br/>اگر (N >= 2)، `“Heading 2”` استفاده می شود، در غیر این صورت `“Heading 1”`...<br/>هر گونه suffix مجاز است اما Aspose.Words واردکنندگان از اعداد به ترتیب "1" و "2" استفاده می کنند |
+|  **Setext Heading**<br/>`===` (اگر سطح 1)<br/>`---` (اگر سطح 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, بر اساس 'Heading N' سبک<br/>اگر (N >= 2)، 'Heading 2' استفاده می شود، در غیر این صورت 'Heading 1'...<br/>هر گونه suffix مجاز است اما Aspose.Words واردکنندگان از اعداد به ترتیب "1" و "2" استفاده می کنند |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-SetextHeading.java" >}}  |                                                                |
 |   **Indented Code**                                             |  `ParagraphFormat.StyleName = “IndentedCode[some suffix]”`     |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-IndentedCode.java" >}}  |                                                                |

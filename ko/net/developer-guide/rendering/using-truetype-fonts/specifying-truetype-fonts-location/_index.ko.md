@@ -57,7 +57,7 @@ Windows와 비 Windows OS의 글꼴 메트릭이 다르기 때문에 Aspose.Word
 
 #### Aspose.Words가 Linux에서 트루타입 글꼴을 찾는 위치
 
-다양한 Linux 배포판은 글꼴을 다른 폴더에 저장할 수 있습니다. Aspose.Words는 여러 위치에서 글꼴을 찾습니다. 기본적으로 Aspose.Words는 다음 위치 모두에서 글꼴을 찾습니다. * /usr/share/fonts* /usr/local/share/fonts* /usr/X11R6/lib/X11/fonts이 기본 동작은 대부분의 Linux 배포판에서 작동합니다. 하지만 항상 작동한다고 보장할 수는 없습니다. 이 경우 true 유형 글꼴의 위치를 명시적으로 지정해야 할 수도 있습니다. 이렇게 하려면 Linux 배포판에서 트루타입 글꼴이 설치된 위치를 알아야 합니다.
+다양한 Linux 배포판은 글꼴을 다른 폴더에 저장할 수 있습니다. Aspose.Words는 여러 위치에서 글꼴을 찾습니다. 기본적으로 Aspose.Words는 다음 위치 모두에서 글꼴을 찾습니다. `/usr/share/fonts` `/usr/local/share/fonts` `/usr/X11R6/lib/X11/fonts`이 기본 동작은 대부분의 Linux 배포판에서 작동합니다. 하지만 항상 작동한다고 보장할 수는 없습니다. 이 경우 true 유형 글꼴의 위치를 명시적으로 지정해야 할 수도 있습니다. 이렇게 하려면 Linux 배포판에서 트루타입 글꼴이 설치된 위치를 알아야 합니다.
 
 #### Aspose.Words가 Mac OS X에서 트루타입 글꼴을 찾는 위치
 

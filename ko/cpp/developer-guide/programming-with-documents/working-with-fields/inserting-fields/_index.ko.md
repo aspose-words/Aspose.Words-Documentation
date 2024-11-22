@@ -94,7 +94,7 @@ timestamp: 2024-01-27-14-07-04
 
 ### 삽입 Mail Merge 사용하여 문서에 주소 블록 필드 DOM
 
-그 `ADDRESSBLOCK` 필드를 삽입하는 데 사용됩니다 mail merge 단어 문서의 주소 블록. `ADDRESSBLOCK` 워드 문서의 필드는 [FieldAddressBlock](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldaddressblock/) 수업 당신은 사용할 수 있습니다 **FieldAddressBlock** 다음 작업을 수행하는 클래스:
+그 `ADDRESSBLOCK` 필드를 삽입하는 데 사용됩니다 Mail Merge 단어 문서의 주소 블록. `ADDRESSBLOCK` 워드 문서의 필드는 [FieldAddressBlock](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldaddressblock/) 수업 당신은 사용할 수 있습니다 **FieldAddressBlock** 다음 작업을 수행하는 클래스:
 
 - 필드에 국가/지역 이름을 포함할지 여부를 지정합니다
 - 에 의해 정의된 받는 사람의 국가/지역에 따라 주소 서식을 지정할지 여부를 지정합니다 POST*CODE (유니버설 우체 연합 2006)
@@ -148,7 +148,7 @@ timestamp: 2024-01-27-14-07-04
 
 - 책갈피 이름 지정
 - 기본 사용자 응답 지정(프롬프트 창에 포함된 초기 값)
-- 사용자 응답을 한 번에 한 번 수신할지 여부를 지정합니다. mail merge 운영
+- 사용자 응답을 한 번에 한 번 수신할지 여부를 지정합니다. Mail Merge 운영
 - 프롬프트 텍스트(프롬프트 창의 제목)지정
 
 {{% alert color="primary" %}}

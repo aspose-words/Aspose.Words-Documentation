@@ -122,16 +122,16 @@ Vous pouvez utiliser Aspose.Words en tant que solution de rapport. Concevoir vos
 
 |  Fonctionnalité |
 |  :-  |
-| Utiliser toutes les normes Microsoft Word mail merge champs dans vos rapports, y compris `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, Très bien. |
-| Exécuter mail merge pour les documents qui contiennent même les plus complexes et imbriqués `IF` les champs et les formules. |
-| Populez et développez dynamiquement des tables ou des fragments dans le document à partir de votre source de données en utilisant mail merge régions. |
+| Utiliser toutes les normes Microsoft Word Mail Merge champs dans vos rapports, y compris `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, Très bien. |
+| Exécuter Mail Merge pour les documents qui contiennent même les plus complexes et imbriqués `IF` les champs et les formules. |
+| Populez et développez dynamiquement des tables ou des fragments dans le document à partir de votre source de données en utilisant Mail Merge régions. |
 | Générez facilement des rapports qui contiennent des données master-detail (parent-enfant) telles que Order/OrderDetails. |
 | Populer des documents avec des données de n'importe quelle Java source de données qui implémente `ResultSet` interface. |
 | Populez des documents à partir de n'importe quelle source de données comme un fichier XML ou des objets d'affaires en implémentant la **IMailMergeDataSource** interface. |
 | Prenez un contrôle précis, comme le formatage des numéros, sur la façon dont vos données sont fusionnées en utilisant des événements. |
 | Insérer des images pendant un mail merge. |
-| Créer ou modifier une Microsoft Word mail merge source de données pour un document. Préserver mail merge paramètres et sources de données. |
-| Récupérer mail merge noms de domaine. |
+| Créer ou modifier une Microsoft Word Mail Merge source de données pour un document. Préserver Mail Merge paramètres et sources de données. |
+| Récupérer Mail Merge noms de domaine. |
 
 ## Caractéristiques des rapports
 

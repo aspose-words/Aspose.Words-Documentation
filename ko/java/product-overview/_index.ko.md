@@ -66,7 +66,7 @@ Aspose.Words 제품정보 Java 특징은 4개의 주요 지역으로 분할될 �
 
 Aspose.Words 제품정보 Java 모든 것 Java 개발 환경 및 배포 플랫폼. 제품 정보 API 다양한 운영 체제의 응용 프로그램을 개발할 수 있습니다. Windows, Linux, 맥 OS, Android, 다양한 플랫폼
 
-단순히 넣어, 당신의 플랫폼이 표준을 실행할 수 있는지 <span notrans="<span notrans=" Java"=""></span>· 그것은 달릴 수 있습니다 Aspose.Words 제품정보 Java· 신청이 가능한 경우 Java <span notrans="<span notrans=" API"=""></span>· 당신은 전화에 문제가 없습니다 Aspose.Words 제품정보 Java API 당신의 신청에서.
+단순히 넣어, 당신의 플랫폼이 표준을 실행할 수 있는지 Java· 그것은 달릴 수 있습니다 Aspose.Words 제품정보 Java· 신청이 가능한 경우 Java API· 당신은 전화에 문제가 없습니다 Aspose.Words 제품정보 Java API 당신의 신청에서.
 
 현재 우리의 기본은 JDK1.7과 더 새로운 것입니다. 그러나 우리는 여전히 JDK1.6을 지원합니다.
 
@@ -92,7 +92,7 @@ Aspose.Words 한 번에 문서에 한 번만 하나의 스레드 작업으로 �
 
 ### Minimal 학습 곡선
 
-150 개 이상의 공공 클래스와 침입이 있지만 <span notrans="<span notrans=" Aspose.Words"=""></span>· 학습 곡선은 최소이므로 Aspose.Words API 다음 목표를 염두에두고 신중하게 설계되었습니다:
+150 개 이상의 공공 클래스와 침입이 있지만 Aspose.Words· 학습 곡선은 최소이므로 Aspose.Words API 다음 목표를 염두에두고 신중하게 설계되었습니다:
 
 * 다른 잘 알려진 최고의 관행 API같은 s Microsoft Word 회사연혁
 * Borrow 모범 사례 Java Framework 설계 가이드라인

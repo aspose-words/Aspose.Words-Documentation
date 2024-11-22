@@ -121,7 +121,7 @@ Ano, máš. Proto při kopírování písem mějte na paměti, že většina pí
 
 {{% alert color="primary" %}}
 
-Podrobnější informace o mail merge v [Mail Merge a využití prostředků](/words/java/mail-merge-and-reporting/) sekce dokumentace.
+Podrobnější informace o Mail Merge v [Mail Merge a využití prostředků](/words/java/mail-merge-and-reporting/) sekce dokumentace.
 
 {{% /alert %}}
 
@@ -136,7 +136,7 @@ Původní název pole sloučení zůstává stejný, aniž by byly nahrazeny po�
 
 **Q: Proč výstup vnořeného sloučení nezobrazuje data z dětské tabulky pro první položku v základní tabulce, ale zobrazí všechny položky pro poslední položku v základní tabulce, a to ani ty, které s ní nejsou ve skutečnosti spojeny?**
 
-To proto, že regiony sloučení v šabloně nejsou správně vytvořeny, což může všechny hnízdit mail merge regiony, které přestanou vůbec nic vystavovat. The [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) otevírací značka a [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) zavírací značka musí odpovídat a musí být ve stejné řadě nebo buňce. Pokud například začnete hnízdit regiony sloučení v buňce tabulky, musíte oblast sloučení ukončit ve stejném řádku jako první buňka.
+To proto, že regiony sloučení v šabloně nejsou správně vytvořeny, což může všechny hnízdit Mail Merge regiony, které přestanou vůbec nic vystavovat. The [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) otevírací značka a [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) zavírací značka musí odpovídat a musí být ve stejné řadě nebo buňce. Pokud například začnete hnízdit regiony sloučení v buňce tabulky, musíte oblast sloučení ukončit ve stejném řádku jako první buňka.
 
 ------
 

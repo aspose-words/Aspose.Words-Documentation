@@ -50,7 +50,7 @@ Het volgende voorbeeld van code laat zien hoe inhoud van een document in een and
 
 ### Document invoegen tijdens Mail Merge Werking {#insert-a-document-during-mail-merge-operation}
 
-U kunt een document invoegen in een merge veld tijdens een mail merge operatie. Bijvoorbeeld, a mail merge template kan een merge-veld bevatten zoals [Samenvatting]. Maar in het uiteindelijke document moet je de inhoud van een ander extern document invoegen in dit merge veld. Om dat te bereiken, moet u een begeleider voor de merge event.
+U kunt een document invoegen in een merge veld tijdens een Mail Merge operatie. Bijvoorbeeld, a Mail Merge template kan een merge-veld bevatten zoals [Samenvatting]. Maar in het uiteindelijke document moet je de inhoud van een ander extern document invoegen in dit merge veld. Om dat te bereiken, moet u een begeleider voor de merge event.
 
 Het volgende voorbeeld van code laat zien hoe je een handler aanmaakt voor de fuserende gebeurtenis om het later in het invoegproces te gebruiken:
 

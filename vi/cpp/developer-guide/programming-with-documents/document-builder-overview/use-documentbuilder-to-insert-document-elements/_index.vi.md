@@ -156,7 +156,7 @@ OLE gói là một cách di sản và "không có giấy tờ" để lưu trữ 
 
 ## Chèn HTML
 
-Bạn có thể dễ dàng chèn một chuỗi HTML có chứa một đoạn HTML hoặc toàn bộ tài liệu HTML vào Tài liệu Word. Chỉ cần chuyển chuỗi này sang phương thức `DocumentBuilder->InsertHtml`. Một trong những triển khai hữu ích của phương thức là lưu trữ chuỗi HTML trong cơ sở dữ liệu và chèn nó vào tài liệu trong mail merge để thêm nội dung được định dạng thay vì xây dựng nó bằng các phương pháp khác nhau của trình tạo tài liệu. Ví dụ dưới đây cho thấy chèn HTML vào tài liệu bằng DocumentBuilder.
+Bạn có thể dễ dàng chèn một chuỗi HTML có chứa một đoạn HTML hoặc toàn bộ tài liệu HTML vào Tài liệu Word. Chỉ cần chuyển chuỗi này sang phương thức `DocumentBuilder->InsertHtml`. Một trong những triển khai hữu ích của phương thức là lưu trữ chuỗi HTML trong cơ sở dữ liệu và chèn nó vào tài liệu trong Mail Merge để thêm nội dung được định dạng thay vì xây dựng nó bằng các phương pháp khác nhau của trình tạo tài liệu. Ví dụ dưới đây cho thấy chèn HTML vào tài liệu bằng DocumentBuilder.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertHtml.cpp" >}}
 

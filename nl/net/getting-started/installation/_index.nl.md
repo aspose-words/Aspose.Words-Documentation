@@ -56,7 +56,7 @@ U moet ingelogd zijn om het installatieprogramma te downloaden. Als u nog niet g
 
 Installeren Aspose.Words voor .NET, volg deze stappen:
 
-1. Downloaden `Aspose.Words_`{LatestVersion}.msi van de [sectie downloads](https://releases.aspose.com/words/)
+1. Downloaden `Aspose.Words_{LatestVersion}.msi` van de [sectie downloads](https://releases.aspose.com/words/)
 2. Doble-klik op het gedownloade bestand, waardoor het starten van de setup wizard, volg de instructies setup wizard<br/>
       <img src="/words/net/installation/aspose-words-setup-1.png" alt="aspose-words-setup-1" style="width:500px"/>
 3. Wanneer de installatieassistent de installatie heeft voltooid, zullen de benodigde bestanden beschikbaar zijn in de map op het opgegeven mappad<br/>

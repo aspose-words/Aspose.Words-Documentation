@@ -113,7 +113,7 @@ Aspose.Words를 사용하면 결과 PDF 문서에 글꼴이 포함되는 방식�
 
 [embed_full_fonts](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/embed_full_fonts/) 속성을 사용하면 Aspose.Words가 출력 PDF 문서에 글꼴을 포함하는 방법을 지정할 수 있습니다.
 
-- 출력 PDF 문서에 전체 글꼴을 포함하려면 [embed_full_fonts](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/embed_full_fonts/)를 *True*로 설정하세요
+- 출력 PDF 문서에 전체 글꼴을 포함하려면 [embed_full_fonts](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/embed_full_fonts/)를 *True* 로 설정하세요
 - PDF로 저장할 때 글꼴을 하위 집합으로 설정하려면 [embed_full_fonts](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/embed_full_fonts/)를 *False*로 설정하세요
 
 다음 예에서는 출력 PDF 문서에 전체 글꼴을 포함하는 방법을 보여줍니다

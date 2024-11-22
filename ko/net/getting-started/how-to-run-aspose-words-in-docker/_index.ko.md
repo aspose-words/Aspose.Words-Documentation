@@ -33,7 +33,7 @@ Hello World 프로그램을 만들려면 다음 단계를 따르세요
 ![net-console-application](https://lh5.googleusercontent.com/PArWoC8_leOnhtaF-5BMb3b4jHwI3G03WoyMK3bXZpsQKN50YzvEQBwoRniyCWKIcdR0EZGuwn3S8Z0ZK6FQ4cjMSWgH3CwSqReW4bMt-3OjZjrdt9yuWbkMdhyNjwwaaYPC5Ylr)<br>
 1. NuGet에서 최신 Aspose.Words 버전을 설치합니다. SkiaSharp는 Aspose.Words의 종속성으로 설치됩니다.<br>
 ![skiasharp-dependency](https://lh3.googleusercontent.com/zWpvB5TLahC_OpJrHDML2131Vj_VK1vryTZBd_C3ZeOBdoUOc2vF_axEvwu9tytaL1maJv3qA2KoyP5fn7ae4_3cL23sXyoLoVysjgu8XEp6l0B2w5hgR9teh95_9mFd9X-4DGNN)<br>
-1. 애플리케이션이 Linux에서 실행되므로 적절한 기본 Linux 자산을 설치해야 합니다. Debian 기본 이미지로 시작하고 `SkiaSharp.NativeAssets`.Linux를 설치합니다.
+1. 애플리케이션이 Linux에서 실행되므로 적절한 기본 Linux 자산을 설치해야 합니다. Debian 기본 이미지로 시작하고 `SkiaSharp.NativeAssets.Linux`를 설치합니다.
 1. 필요한 모든 종속성이 추가되면 "Hello World!"를 생성하는 간단한 프로그램을 작성합니다. 문서를 작성하고 지원되는 모든 저장 형식으로 저장합니다.<br>
 
 {{< gist "aspose-words-gists" "47e15ad749897be465deebc2ff3e76dd" "aspose-words-docker.cs" >}}

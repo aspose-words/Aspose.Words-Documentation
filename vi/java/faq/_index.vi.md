@@ -121,7 +121,7 @@ Vâng, bạn cũng vậy. Vậy khi sao chép phông chữ thì hãy nhớ rằn
 
 {{% alert color="primary" %}}
 
-Bạn có thể tìm thêm thông tin chi tiết về mail merge trong phần tài liệu của [Mail Merge and Reporting](/words/java/mail-merge-and-reporting/).
+Bạn có thể tìm thêm thông tin chi tiết về Mail Merge trong phần tài liệu của [Mail Merge and Reporting](/words/java/mail-merge-and-reporting/).
 
 {{% /alert %}}
 
@@ -136,7 +136,7 @@ Tên gốc của trường hợp hợp nhất vẫn giống như vậy mà khôn
 
 **Q:  Tại sao đầu ra của việc hợp nhất lồng nhau lại không hiển thị dữ liệu từ bảng con cho mục nhập đầu tiên trong bảng cha nhưng lại hiển thị tất cả các mặt hàng cho mục nhập cuối cùng trong bảng cha, ngay cả những thứ chưa thực sự liên kết với nó?**
 
-Đây là vì vùng hợp nhất trong mẫu không được hình thành chính xác, điều này có thể khiến tất cả các vùng lồng nhau mail merge dừng hiển thị bất cứ thứ gì cả. Tag mở [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) và tag đóng [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) phải giống nhau và ở cùng một hàng hoặc ô. Ví dụ như khi bạn bắt đầu lồng ghép vùng kết hợp trong một ô của bảng thì bạn phải kết thúc vùng kết hợp ở cùng hàng với ô đầu tiên.
+Đây là vì vùng hợp nhất trong mẫu không được hình thành chính xác, điều này có thể khiến tất cả các vùng lồng nhau Mail Merge dừng hiển thị bất cứ thứ gì cả. Tag mở [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) và tag đóng [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) phải giống nhau và ở cùng một hàng hoặc ô. Ví dụ như khi bạn bắt đầu lồng ghép vùng kết hợp trong một ô của bảng thì bạn phải kết thúc vùng kết hợp ở cùng hàng với ô đầu tiên.
 
 ------
 

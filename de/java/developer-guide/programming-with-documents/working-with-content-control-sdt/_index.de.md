@@ -10,7 +10,7 @@ url: /de/java/working-with-content-control-sdt/
 timestamp: 2024-01-31-14-23-37
 ---
 
-In Microsoft Word, Sie können ein Formular erstellen, indem Sie mit einer Vorlage beginnen und Inhaltskontrollen hinzufügen, einschließlich Checkboxen, Textfelder, Datumswähler und Dropdown-Listen. In <span notrans="<span notrans=" Aspose.Words"=""></span>,"> ein strukturiertes Dokument Tag oder Inhaltskontrolle aus jedem in Aspose.Words wird als StructuredDocumentTag-Knoten importiert. Strukturierte Dokument-Tags (SDT oder Content Control) ermöglichen die Einbettung von kundendefinierten Semantiken sowie deren Verhalten und Aussehen in ein Dokument.
+In Microsoft Word, Sie können ein Formular erstellen, indem Sie mit einer Vorlage beginnen und Inhaltskontrollen hinzufügen, einschließlich Checkboxen, Textfelder, Datumswähler und Dropdown-Listen. In Aspose.Words ein strukturiertes Dokument Tag oder Inhaltskontrolle aus jedem in Aspose.Words wird als StructuredDocumentTag-Knoten importiert. Strukturierte Dokument-Tags (SDT oder Content Control) ermöglichen die Einbettung von kundendefinierten Semantiken sowie deren Verhalten und Aussehen in ein Dokument.
 
 Strukturiertes Dokument Tag kann in einem Dokument an folgenden Orten auftreten:
 

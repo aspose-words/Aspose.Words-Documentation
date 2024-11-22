@@ -33,12 +33,12 @@ Om het Hello World programma te maken, volg onderstaande stappen:
 ![net-console-application](https://lh5.googleusercontent.com/PArWoC8_leOnhtaF-5BMb3b4jHwI3G03WoyMK3bXZpsQKN50YzvEQBwoRniyCWKIcdR0EZGuwn3S8Z0ZK6FQ4cjMSWgH3CwSqReW4bMt-3OjZjrdt9yuWbkMdhyNjwwaaYPC5Ylr)<br>
 1. Laatste installeren Aspose.Words versie van NuGet. Skia Sharp zal worden geïnstalleerd als een afhankelijkheid van Aspose.Words.<br/>
 ![skiasharp-dependency](https://lh3.googleusercontent.com/zWpvB5TLahC_OpJrHDML2131Vj_VK1vryTZBd_C3ZeOBdoUOc2vF_axEvwu9tytaL1maJv3qA2KoyP5fn7ae4_3cL23sXyoLoVysjgu8XEp6l0B2w5hgR9teh95_9mFd9X-4DGNN)<br>
-1. Aangezien de toepassing zal worden uitgevoerd op <span notrans="<span notrans=" Linux"=""></span>,"> de geschikte inheemse Linux activa moeten worden geïnstalleerd. Begin met de Debian basisafbeelding en installatie `SkiaSharp.NativeAssets`.Linux.
+1. Aangezien de toepassing zal worden uitgevoerd op Linux de geschikte inheemse Linux activa moeten worden geïnstalleerd. Begin met de Debian basisafbeelding en installatie `SkiaSharp.NativeAssets.Linux`.
 1. Als alle vereiste afhankelijkheden worden toegevoegd, schrijf dan een eenvoudig programma dat een "Hallo World!" document maakt en het opslaat in alle ondersteunde opslagformaten:<br/>
 
 {{< gist "aspose-words-gists" "47e15ad749897be465deebc2ff3e76dd" "aspose-words-docker.cs" >}}
 
-Merk op dat de map "TestOut" is opgegeven als een uitvoermap voor het opslaan van uitvoerdocumenten. Bij het uitvoeren van de toepassing in <span notrans="<span notrans=" Docker"=""></span>,"> een map op de host machine zal worden gekoppeld aan deze map in de container. Dit zal u in staat stellen om gemakkelijk de uitvoer gegenereerd door Aspose.Words in de Docker container.
+Merk op dat de map "TestOut" is opgegeven als een uitvoermap voor het opslaan van uitvoerdocumenten. Bij het uitvoeren van de toepassing in Docker een map op de host machine zal worden gekoppeld aan deze map in de container. Dit zal u in staat stellen om gemakkelijk de uitvoer gegenereerd door Aspose.Words in de Docker container.
 
 ### A configureren Dockerfile
 

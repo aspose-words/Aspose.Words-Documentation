@@ -34,7 +34,7 @@ Trong tài liệu mẫu này, văn bản được định dạng với kiểu đ
 
 ### Mã
 
-Việc triển khai truy vấn dựa trên kiểu khá đơn giản trong mô hình đối tượng tài liệu Aspose.Words, vì nó chỉ đơn giản sử dụng các công cụ đã có sẵn. Hai phương thức lớp được triển khai cho giải pháp này:# **ParagraphsByStyleName** – phương thức này lấy một mảng các đoạn đó trong tài liệu có tên kiểu cụ thể.# **RunsByStyleName** – phương thức này lấy một mảng các lần chạy trong tài liệu có tên kiểu cụ thể. Cả hai phương thức này đều rất giống nhau, sự khác biệt duy nhất là các loại nút và biểu diễn thông tin kiểu trong đoạn văn và chạy các nút. Đây là một triển khai của ParagraphsByStyleName. Ví dụ dưới đây tìm tất cả các đoạn văn được định dạng theo kiểu được chỉ định.
+Việc triển khai truy vấn dựa trên kiểu khá đơn giản trong mô hình đối tượng tài liệu Aspose.Words, vì nó chỉ đơn giản sử dụng các công cụ đã có sẵn. Hai phương thức lớp được triển khai cho giải pháp này: **ParagraphsByStyleName** – phương thức này lấy một mảng các đoạn đó trong tài liệu có tên kiểu cụ thể. **RunsByStyleName** – phương thức này lấy một mảng các lần chạy trong tài liệu có tên kiểu cụ thể. Cả hai phương thức này đều rất giống nhau, sự khác biệt duy nhất là các loại nút và biểu diễn thông tin kiểu trong đoạn văn và chạy các nút. Đây là một triển khai của ParagraphsByStyleName. Ví dụ dưới đây tìm tất cả các đoạn văn được định dạng theo kiểu được chỉ định.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Styles-ExtractContentBasedOnStyles-ParagraphsByStyleName.cpp" >}}
 

@@ -33,7 +33,7 @@ Um das Hello World-Programm zu erstellen, führen Sie die folgenden Schritte aus
 ![net-console-application](https://lh5.googleusercontent.com/PArWoC8_leOnhtaF-5BMb3b4jHwI3G03WoyMK3bXZpsQKN50YzvEQBwoRniyCWKIcdR0EZGuwn3S8Z0ZK6FQ4cjMSWgH3CwSqReW4bMt-3OjZjrdt9yuWbkMdhyNjwwaaYPC5Ylr)<br>
 1. Installieren Sie die neueste Aspose.Words-Version von NuGet. SkiaSharp wird als Abhängigkeit von Aspose.Words installiert.<br>
 ![skiasharp-dependency](https://lh3.googleusercontent.com/zWpvB5TLahC_OpJrHDML2131Vj_VK1vryTZBd_C3ZeOBdoUOc2vF_axEvwu9tytaL1maJv3qA2KoyP5fn7ae4_3cL23sXyoLoVysjgu8XEp6l0B2w5hgR9teh95_9mFd9X-4DGNN)<br>
-1. Da die Anwendung auf Linux ausgeführt wird, müssen die entsprechenden nativen Linux-Assets installiert werden. Beginnen Sie mit dem Debian-Basisimage und installieren Sie `SkiaSharp.NativeAssets`.Linux.
+1. Da die Anwendung auf Linux ausgeführt wird, müssen die entsprechenden nativen Linux-Assets installiert werden. Beginnen Sie mit dem Debian-Basisimage und installieren Sie `SkiaSharp.NativeAssets.Linux`.
 1. Wenn alle erforderlichen Abhängigkeiten hinzugefügt wurden, schreiben Sie ein einfaches Programm, das eine "Hello World!"-Datei erstellt. Dokument und speichert es in allen unterstützten Speicherformaten:<br>
 
 {{< gist "aspose-words-gists" "47e15ad749897be465deebc2ff3e76dd" "aspose-words-docker.cs" >}}

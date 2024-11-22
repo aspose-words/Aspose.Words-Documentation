@@ -14,7 +14,7 @@ Převod dokumentů z jednoho formátu do druhého je vlajkový prvek Aspose.Word
 
 ## Převést dokument na XLSX
 
-Převod dokumentu na XLSX je poměrně složitý proces. Pro uložení dokumentu do formátu XLSX pomocí <span notrans="<span notrans=" Aspose.Words"=""></span>, použijte [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) třída a nová `Xlsx` prvek [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) výčtu. Jak bylo uvedeno výše, dokument můžete uložit v jakémkoli formátu zatížení podporovaném Aspose.Words na XLSX.
+Převod dokumentu na XLSX je poměrně složitý proces. Pro uložení dokumentu do formátu XLSX pomocí Aspose.Words, použijte [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) třída a nová `Xlsx` prvek [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) výčtu. Jak bylo uvedeno výše, dokument můžete uložit v jakémkoli formátu zatížení podporovaném Aspose.Words na XLSX.
 
 Následující příklad kódu ukazuje, jak uložit PDF do XLSX:
 

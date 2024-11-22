@@ -61,7 +61,7 @@ Das folgende Codebeispiel zeigt, wie man komplett neu baut `TOC` Felder im Dokum
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertATableOfContentsField-UpdateTableOfContents.java" >}}
 
-Der erste Aufruf [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) wird bauen <span notrans="<span notrans=" `TOC`"=""></span>,"> alle Texteinträge werden bevölkert und `TOC` erscheint fast vollständig. Das einzige, was fehlt, sind die Seitennummern, die jetzt mit "?" angezeigt werden.
+Der erste Aufruf [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) wird bauen `TOC` alle Texteinträge werden bevölkert und `TOC` erscheint fast vollständig. Das einzige, was fehlt, sind die Seitennummern, die jetzt mit "?" angezeigt werden.
 
 Der zweite Aufruf [Document.updatePageLayout()](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout) wird das Layout des Dokuments im Speicher erstellen. Dies muss getan werden, um die Seitennummern der Einträge zu sammeln. Die aus diesem Aufruf berechneten richtigen Seitenzahlen werden dann in den TOC eingefügt.
 
@@ -125,7 +125,7 @@ Ist hier ein Schalter nicht aufgeführt, dann ist er aktuell nicht unterstützt.
 
 <p>![table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-6.png)</p>
 
-<p><br/><br/>Die `TC` Felder selbst können auch {several, `multiple`, a few, `many`, numerous} Schalter eingestellt. Das sind:</p>
+<p><br/><br/>Die `TC` Felder selbst können auch `{several, multiple, a few, many, numerous}` Schalter eingestellt. Das sind:</p>
 
 <p>- \F – Erklärt oben. *</p>
 

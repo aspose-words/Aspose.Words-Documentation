@@ -46,7 +46,7 @@ O exemplo de código a seguir mostra como inserir conteúdo de um documento em o
 
 ### Inserir um documento durante a operação Mail Merge {#insert-a-document-during-mail-merge-operation}
 
-É possível inserir um documento em um campo de mesclagem durante uma operação mail merge. Por exemplo, um modelo mail merge pode conter um campo de mesclagem, como [resumo]. Mas no documento final, é necessário inserir o conteúdo obtido de outro documento externo neste campo de mesclagem. Para conseguir isso, você precisará criar um manipulador para o evento de mesclagem.
+É possível inserir um documento em um campo de mesclagem durante uma operação mail merge. Por exemplo, um modelo Mail Merge pode conter um campo de mesclagem, como [resumo]. Mas no documento final, é necessário inserir o conteúdo obtido de outro documento externo neste campo de mesclagem. Para conseguir isso, você precisará criar um manipulador para o evento de mesclagem.
 
 O exemplo de código a seguir mostra como criar um manipulador para o evento de mesclagem para usá-lo posteriormente no processo de inserção:
 

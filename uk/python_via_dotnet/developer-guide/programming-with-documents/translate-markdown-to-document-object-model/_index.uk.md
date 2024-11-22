@@ -64,7 +64,7 @@ builder.writeln("This text will be Strikethrough")
 
 builder.document.save(docs_base.artifacts_dir + "WorkingWithMarkdown.strikethrough_text_example.md"){{< /highlight >}} |  |
 
-Ми використовуємо стиль персонажа з назвою, яка починається з слова <span notrans="<span notrans=" `InlineCode`"=""></span>, > далі за бажанням `(.)` і ряд бектики ```(`)``` для `InlineCode` функція. Якщо пропущено ряд спандексів, то один задняк буде використовуватися за замовчуванням.
+Ми використовуємо стиль персонажа з назвою, яка починається з слова `InlineCode`, > далі за бажанням `(.)` і ряд бектики ```(`)``` для `InlineCode` функція. Якщо пропущено ряд спандексів, то один задняк буде використовуватися за замовчуванням.
 
 |  Markdown Головна |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |

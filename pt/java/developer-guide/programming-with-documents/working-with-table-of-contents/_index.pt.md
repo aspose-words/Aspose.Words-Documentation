@@ -61,7 +61,7 @@ O seguinte exemplo de código mostra como reconstruir completamente `TOC` campos
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertATableOfContentsField-UpdateTableOfContents.java" >}}
 
-A primeira chamada para [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) vai construir o <span notrans="<span notrans=" `TOC`"=""></span>, todas as entradas de texto são povoadas e `TOC` parece quase completo. A única coisa que falta é os números de página que por agora são exibidos com "?".
+A primeira chamada para [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) vai construir o `TOC`, todas as entradas de texto são povoadas e `TOC` parece quase completo. A única coisa que falta é os números de página que por agora são exibidos com "?".
 
 A segunda chamada para [Document.updatePageLayout()](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout) irá construir o layout do documento em memória. Isso precisa ser feito para coletar os números de página das entradas. Os números de página corretos calculados a partir desta chamada são então inseridos no TOC.
 
@@ -125,7 +125,7 @@ Se um interruptor não está listado aqui, então ele não é suportado atualmen
 
 <p>![table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-6.png)</p>
 
-<p><br/><br/>O `TC` campos também podem ter {several, `multiple`, a few, `many`, numerous} interruptores definidos. Estes são:</p>
+<p><br/><br/>O `TC` campos também podem ter `{several, multiple, a few, many, numerous}` interruptores definidos. Estes são:</p>
 
 <p>- \F – Explicado acima. *</p>
 

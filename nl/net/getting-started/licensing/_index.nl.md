@@ -61,13 +61,13 @@ Na de aankoop van een licentie, moet u zorgvuldig de informatie op pagina [Besch
 Licentie kan vanaf verschillende locaties worden toegepast:
 
 * Expliciet pad
-* De map met de *Aspose.Words.dll* bestand
-* De map met de aanroep *Aspose.Words.dll*
-* De map met de entry assembly (uw *.exe*)
-* Een embedded resource in de assemblage heet *Aspose.Words.dll*
+* De map met de `Aspose.Words.dll` bestand
+* De map met de aanroep `Aspose.Words.dll`
+* De map met de entry assembly (uw `.exe`)
+* Een embedded resource in de assemblage heet `Aspose.Words.dll`
 * Als een Metered License een nieuw licentiemechanisme
 
-Wanneer u verwijst *Aspose.Words.dll* in de applicatie wordt de bibliotheek gekopieerd naar uw uitvoermap (tenzij *Copy Local* in de eigenschappen voor dat item is ingesteld op false). Vaak is de gemakkelijkste manier om een licentie in te stellen is om het licentiebestand in dezelfde map te plaatsen als *Aspose.Words.dll* en geef alleen de bestandsnaam op zonder het pad.
+Wanneer u verwijst `Aspose.Words.dll` in de applicatie wordt de bibliotheek gekopieerd naar uw uitvoermap (tenzij *Copy Local* in de eigenschappen voor dat item is ingesteld op false). Vaak is de gemakkelijkste manier om een licentie in te stellen is om het licentiebestand in dezelfde map te plaatsen als `Aspose.Words.dll` en geef alleen de bestandsnaam op zonder het pad.
 
 {{% alert color="primary" %}}
 

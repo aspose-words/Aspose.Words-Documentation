@@ -50,7 +50,7 @@ Aspose.Words 内部でページレイアウト機能を実装し、PDFなどの�
 
 ![non_geometric_properties_aspose-words-java](/words/java/converting-to-fixed-page-format/converting-to-fixed-page-format-2.png)
 
-インスタグラム <span notrans="<span notrans=" Aspose.Words"=""></span>????? ユーザーは、新しいページレイアウトを作成するか、既存のページを更新するかをリクエストできます。 これらの両方は、 [UpdatePageLayout](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout\(\)) によって提供される方法 [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) クラス。 ページレイアウトが存在しない場合、その必要性(例えば、ドキュメントが固定ページ形式にエクスポートされる場合)があります。 Aspose.Words このメソッドを自動的に呼び出します。 ただし、既にページレイアウトが存在している場合は、 Aspose.Words 更新に必要なリソースを消費しないようにするために、既存のリソースを使用します。 この場合、ユーザーは電話をかける必要があります。 `UpdatePageLayout` メソッドは、ページレイアウトがドキュメントモデルで最新の状態にあるようにするためです。
+インスタグラム Aspose.Words????? ユーザーは、新しいページレイアウトを作成するか、既存のページを更新するかをリクエストできます。 これらの両方は、 [UpdatePageLayout](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout\(\)) によって提供される方法 [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) クラス。 ページレイアウトが存在しない場合、その必要性(例えば、ドキュメントが固定ページ形式にエクスポートされる場合)があります。 Aspose.Words このメソッドを自動的に呼び出します。 ただし、既にページレイアウトが存在している場合は、 Aspose.Words 更新に必要なリソースを消費しないようにするために、既存のリソースを使用します。 この場合、ユーザーは電話をかける必要があります。 `UpdatePageLayout` メソッドは、ページレイアウトがドキュメントモデルで最新の状態にあるようにするためです。
 
 ### 動的構造
 

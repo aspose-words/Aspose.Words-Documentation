@@ -174,9 +174,9 @@ Aspose.Words поддържа всички дата и час форматира
 
 ### Mail Merge Полета
 
-Aspose.Words не налага ограничение на сложността на mail merge полета във вашите документи и поддържа гнездене `IF` и формули полета и дори може да се изчисли име сливане на полето с помощта на формула.
+Aspose.Words не налага ограничение на сложността на Mail Merge полета във вашите документи и поддържа гнездене `IF` и формули полета и дори може да се изчисли име сливане на полето с помощта на формула.
 
-Някои примери за mail merge полета, които Aspose.Words поддържа:
+Някои примери за Mail Merge полета, които Aspose.Words поддържа:
 
 - Mail merge превключватели на полета:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -223,6 +223,6 @@ Aspose.Words не налага ограничение на сложността 
 
 На [Document](https://reference.aspose.com/words/net/aspose.words/document/) Класът осигурява [FieldOptions](https://reference.aspose.com/words/net/aspose.words/document/fieldoptions/) собственост, която съдържа членове, които могат да бъдат използвани за контрол как полетата се актуализират в документа.
 
-Следният пример за код показва как да се уточни къде културата, използвана за форматиране на дата по време на актуализацията на полето и mail merge е избран от:
+Следният пример за код показва как да се уточни къде културата, използвана за форматиране на дата по време на актуализацията на полето и Mail Merge е избран от:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-ChangeFieldUpdateCultureSource-ChangeFieldUpdateCultureSource.cs" >}}

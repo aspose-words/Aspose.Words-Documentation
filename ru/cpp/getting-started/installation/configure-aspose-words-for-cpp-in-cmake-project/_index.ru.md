@@ -37,7 +37,7 @@ int main()
 
 1. [Загрузите последнюю версию Aspose.Words для C++ пакет](https://releases.aspose.com/words/cpp/)
 
-2. Скопируйте папки Aspose.Words.Cpp и `CodePorting.Native`.Cs2Cpp_api_*.*, в которых у вас есть CMakeLists.txt
+2. Скопируйте папки Aspose.Words.Cpp и `CodePorting.Native.Cs2Cpp_api_*.*`, в которых у вас есть CMakeLists.txt
 
 3. Добавьте следующие строки в свой CMakeLists.txt:
 	{{< highlight cpp >}}

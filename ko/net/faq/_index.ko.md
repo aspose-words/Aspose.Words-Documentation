@@ -144,7 +144,7 @@ Aspose.Words 설치 방법에 대한 자세한 내용은 [설치](/words/ko/net/
 
 **Q: 중첩 병합의 출력이 상위 테이블의 첫 번째 항목에 대해 하위 테이블의 데이터를 표시하지 않고 상위 테이블의 마지막 항목에 대한 모든 항목(실제로 연결되지 않은 항목 포함)을 표시하는 이유는 무엇입니까?**
 
-이는 템플릿의 병합 영역이 올바르게 형성되지 않았기 때문에 중첩된 모든 mail merge 영역이 전혀 표시되지 않을 수 있기 때문입니다. [StartTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starttable/) 여는 태그와 [EndTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endtable/) 닫는 태그는 일치해야 하며 동일한 행 또는 셀에 있어야 합니다. 예를 들어, 표의 셀에서 병합 영역 중첩을 시작하는 경우 첫 번째 셀과 동일한 행에서 병합 영역을 종료해야 합니다.
+이는 템플릿의 병합 영역이 올바르게 형성되지 않았기 때문에 중첩된 모든 Mail Merge 영역이 전혀 표시되지 않을 수 있기 때문입니다. [StartTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starttable/) 여는 태그와 [EndTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endtable/) 닫는 태그는 일치해야 하며 동일한 행 또는 셀에 있어야 합니다. 예를 들어, 표의 셀에서 병합 영역 중첩을 시작하는 경우 첫 번째 셀과 동일한 행에서 병합 영역을 종료해야 합니다.
 
 ------
 

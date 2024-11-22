@@ -41,12 +41,12 @@ timestamp: 2024-10-21-11-17-44
 |  **Italic**<br /> `*italic text*` |  `Font.Italic = true`  |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}}  |  |
 |  **Strikethrough**<br /> `~Strikethrough text~` |  `Font.StrikeThrough = true`  |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
 builder.Font.Strikethrough = true;
-builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
+builder.Writeln("This text will be Strikethrough"); {{< /highlight >}} |  |
 
 نحن نستخدم نمط أحرف باسم يبدأ من كلمة `InlineCode`، متبوعًا بنقطة اختيارية `(.)` وعدد من علامات التحديد الخلفية ```(`)``` لميزة `InlineCode`. إذا تم تفويت عدد من العلامات الخلفية، فسيتم استخدام علامة خلفية واحدة بشكل افتراضي.
 
@@ -73,10 +73,10 @@ builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **HorizontalRule**<br /> `-----` |  هذه فقرة بسيطة ذات شكل HorizontalRule المطابق:<br /> `DocumentBuilder.InsertHorizontalRule()` |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-HorizontalRule.cs" >}}  |                                                                |
-|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`، حيث (1&lt;= N &lt;= 9).<br /> تتم ترجمة هذا إلى نمط مدمج ويجب أن يكون بالضبط من النمط المحدد (لا يُسمح باللاحقات أو البادئات).<br /> وإلا فستكون مجرد فقرة عادية ذات نمط مناسب |
+|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = "Heading N"`، حيث (1&le; N &le; 9).<br /> تتم ترجمة هذا إلى نمط مدمج ويجب أن يكون بالضبط من النمط المحدد (لا يُسمح باللاحقات أو البادئات).<br /> وإلا فستكون مجرد فقرة عادية ذات نمط مناسب |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}}  |                                                                |
-|  **Setext Heading**<br /> `===` (إذا كان مستوى العنوان 1)،<br /> `---` (إذا كان مستوى العنوان 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`، استنادًا إلى أسلوب `“Heading N”`.<br /> إذا كان (N &gt;= 2)، فسيتم استخدام `“Heading 2”`، وإلا `“Heading 1”`.<br /> يُسمح بأي لاحقة، لكن مستورد Aspose.Words يستخدم الأرقام "1" و"2" على التوالي |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  **Setext Heading**<br /> `===` (إذا كان مستوى العنوان 1)،<br /> `---` (إذا كان مستوى العنوان 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`، استنادًا إلى أسلوب 'Heading N'.<br /> إذا كان (N &ge; 2)، فسيتم استخدام 'Heading 2'، وإلا 'Heading 1'.<br /> يُسمح بأي لاحقة، لكن مستورد Aspose.Words يستخدم الأرقام "1" و"2" على التوالي |
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 builder.ParagraphFormat.StyleName = "Heading 1";
@@ -103,7 +103,7 @@ builder.ParagraphFormat.Style = setexHeading2;
 builder.Document.Styles["SetextHeading2"].BaseStyleName = "Heading 3";
 
 // Setex heading level will be reset to 2 if the base paragraph has a Heading level greater than 2.
-builder.Writeln("Setext Heading level 2");{{< /highlight >}} |
+builder.Writeln("Setext Heading level 2"); {{< /highlight >}} |
 |   **Indented Code**                                             |  `ParagraphFormat.StyleName = “IndentedCode[some suffix]”`     |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-IndentedCode.cs" >}}  |                                                                |
 |  **Fenced Code**<br /> {{< highlight csharp >}}``` c#
@@ -120,7 +120,7 @@ else
 |  ميزة Markdown |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **Quote**<br /> `> quote,`<br /> `>> nested quote` |  `ParagraphFormat.StyleName = “Quote[some suffix]”`<br /> اللاحقة في اسم النمط اختيارية، لكن المستورد Aspose.Words يستخدم الأرقام المرتبة 1، 2، 3، ..... في حالة الاقتباسات المتداخلة.<br /> يتم تعريف التداخل عبر الأنماط الموروثة |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // By default a document stores blockquote style for the first level.
@@ -131,7 +131,7 @@ builder.Writeln("Blockquote");
 Style quoteLevel2 = builder.Document.Styles.Add(StyleType.Paragraph, "Quote1");
 builder.ParagraphFormat.Style = quoteLevel2;
 builder.Document.Styles["Quote1"].BaseStyleName = "Quote";
-builder.Writeln("1. Nested blockquote");{{< /highlight >}} |
+builder.Writeln("1. Nested blockquote"); {{< /highlight >}} |
 |  **BulletedList**<br /> `- Item 1`<br /> `- Item 2`<br /> `   - Item 2a`<br /> `   - Item 2b` |  يتم تمثيل القوائم ذات التعداد النقطي باستخدام ترقيم الفقرات:<br /> `ListFormat.ApplyBulletDefault()`<br /> يمكن أن يكون هناك 3 أنواع من القوائم ذات التعداد النقطي. وهي تختلف فقط في تنسيق الترقيم من المستوى الأول. وهي: `‘-’` أو `‘+’` أو `‘*’` على التوالي |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BulletedList.cs" >}}  |                                                                |
 |  **OrderedList**<br /> `1. Item 1`<br /> `2. Item 2`<br /> `1) Item 2a`<br /> `2) Item 2b` |  يتم تمثيل القوائم المرتبة باستخدام ترقيم الفقرات:<br /> `ListFormat.ApplyNumberDefault()`<br /> يمكن أن تكون هناك علامتان لتنسيق الأرقام: '.' و ')'. العلامة الافتراضية هي "." |
@@ -148,7 +148,7 @@ builder.Writeln("Item 2");
 builder.ListFormat.ListIndent();
 
 builder.Writeln("Item 2a");
-builder.Writeln("Item 2b");{{< /highlight >}} |                                                                |
+builder.Writeln("Item 2b"); {{< /highlight >}} |                                                                |
 
 ### الجداول
 
@@ -157,7 +157,7 @@ builder.Writeln("Item 2b");{{< /highlight >}} |                                 
 |  ميزة Markdown |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  `Table`<br /> `أ | ب`<br />`-|-`<br />`c | د` |  فئات [Table](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/) و[Row](https://reference.aspose.com/words/ar/net/aspose.words.tables/row/) و[Cell](https://reference.aspose.com/words/ar/net/aspose.words.tables/cell/) |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Add the first row.
@@ -170,7 +170,7 @@ builder.Writeln("b");
 builder.InsertCell();
 builder.Writeln("c");
 builder.InsertCell();
-builder.Writeln("d");{{< /highlight >}} |                                                                |
+builder.Writeln("d"); {{< /highlight >}} |                                                                |
 
 ## أنظر أيضا
 

@@ -174,9 +174,9 @@ Aspose.Words prend en charge tous les commutateurs de formatage de date et d'heu
 
 ### Champs Mail Merge
 
-Aspose.Words n'impose aucune limite à la complexité des champs mail merge dans vos documents et prend en charge les champs `IF` et de formule imbriqués et peut même calculer le nom du champ de fusion à l'aide d'une formule.
+Aspose.Words n'impose aucune limite à la complexité des champs Mail Merge dans vos documents et prend en charge les champs `IF` et de formule imbriqués et peut même calculer le nom du champ de fusion à l'aide d'une formule.
 
-Quelques exemples de champs mail merge pris en charge par Aspose.Words:
+Quelques exemples de champs Mail Merge pris en charge par Aspose.Words:
 
 - Commutateurs de champ Mail merge:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`

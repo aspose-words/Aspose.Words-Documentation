@@ -32,7 +32,7 @@ Voor meer informatie over PDF/A, zie het volgende artikel, "Learn Features of Co
 
 Het is ook mogelijk om vulbare formulieren uit een Microsoft Word document naar uitvoer PDF, dat vulbare formulieren heeft in plaats van een platte tekst. Gebruik de [PreserveFormFields](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/preserveformfields/) eigenschap om een document op te slaan als PDF met vulbare formulieren.
 
-Merk op dat in tegenstelling tot <span notrans="<span notrans=" Microsoft Word"=""></span>,"> het PDF-formaat heeft een beperkt aantal opties voor bewerkbare formulieren, zoals tekstvak, combobox en selectievakje. Microsoft Word heeft meer soorten formulieren, bijvoorbeeld kalender datum picker. Over het algemeen is het niet mogelijk om volledig na te bootsen Microsoft Word gedrag in PDF. Daarom, in sommige complexe gevallen, PDF-uitvoer kan verschillen van wat je ziet in Microsoft Word.
+Merk op dat in tegenstelling tot Microsoft Word,"> het PDF-formaat heeft een beperkt aantal opties voor bewerkbare formulieren, zoals tekstvak, combobox en selectievakje. Microsoft Word heeft meer soorten formulieren, bijvoorbeeld kalender datum picker. Over het algemeen is het niet mogelijk om volledig na te bootsen Microsoft Word gedrag in PDF. Daarom, in sommige complexe gevallen, PDF-uitvoer kan verschillen van wat je ziet in Microsoft Word.
 
 Het onderstaande codevoorbeeld laat zien hoe je een document als PDF kunt opslaan met vulbare formulieren met gespecificeerde Jpeg compressie en kwaliteit:
 

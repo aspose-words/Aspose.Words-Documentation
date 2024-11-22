@@ -153,7 +153,7 @@ DocumentBuilder.insertTextInput 문서에 textbox를 삽입합니다. 다음 코
 
 ## HTML 삽입
 
-HTML 파편 또는 전체 HTML 문서를 Word 문서에 포함 HTML 문자열을 쉽게 삽입 할 수 있습니다. DocumentBuilder에 이 문자열을 전달합니다. 기타 제품 Html 방법. 방법의 유용한 구현 중 하나는 데이터베이스에 HTML 문자열을 저장하고 문서에 삽입하는 것입니다 mail merge 문서 제작자의 다양한 방법을 사용하여 건물 대신 형식화 된 콘텐츠를 얻을 수 있습니다. 다음 코드 예제는 DocumentBuilder를 사용하여 HTML을 삽입합니다.
+HTML 파편 또는 전체 HTML 문서를 Word 문서에 포함 HTML 문자열을 쉽게 삽입 할 수 있습니다. DocumentBuilder에 이 문자열을 전달합니다. 기타 제품 Html 방법. 방법의 유용한 구현 중 하나는 데이터베이스에 HTML 문자열을 저장하고 문서에 삽입하는 것입니다 Mail Merge 문서 제작자의 다양한 방법을 사용하여 건물 대신 형식화 된 콘텐츠를 얻을 수 있습니다. 다음 코드 예제는 DocumentBuilder를 사용하여 HTML을 삽입합니다.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHtml-DocumentBuilderInsertHtml.java" >}}
 

@@ -204,7 +204,7 @@ Aspose.Words ให้คุณสมบัติสองอย่าง `Parag
 
 ### ย้ายไปยัง `Merge` ช่องข้อมูล
 
-บางครั้งคุณอาจต้องแสดง "งานประจํา" mail merge ใช้ `DocumentBuilder` หรือเติมสนามในวิธีพิเศษ mail merge คนดูแลงาน นั่นคือตอนที่ [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) อาจจะมีประโยชน์ วิธีการยอมรับชื่อของสนามรวม มันย้ายเคอร์เซอร์ไปยังตําแหน่งที่อยู่เหนือสนามรวมที่ระบุไว้ และทําการรวมสนามออก ตัวอย่างรหัสต่อไปนี้ จะแสดงวิธีย้ายเคอร์เซอร์ไปยังตําแหน่ง ที่อยู่นอกเหนือสนามรวมที่ระบุ
+บางครั้งคุณอาจต้องแสดง "งานประจํา" Mail Merge ใช้ `DocumentBuilder` หรือเติมสนามในวิธีพิเศษ Mail Merge คนดูแลงาน นั่นคือตอนที่ [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) อาจจะมีประโยชน์ วิธีการยอมรับชื่อของสนามรวม มันย้ายเคอร์เซอร์ไปยังตําแหน่งที่อยู่เหนือสนามรวมที่ระบุไว้ และทําการรวมสนามออก ตัวอย่างรหัสต่อไปนี้ จะแสดงวิธีย้ายเคอร์เซอร์ไปยังตําแหน่ง ที่อยู่นอกเหนือสนามรวมที่ระบุ
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToMergeField-DocumentBuilderMoveToMergeField.java" >}}
 

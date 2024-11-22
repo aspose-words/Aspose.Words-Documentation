@@ -121,7 +121,7 @@ Aspose.Words برای Java پشتیبانی از اکثر فرمت های سند
 
 {{% alert color="primary" %}}
 
-شما می توانید اطلاعات دقیق تر در مورد mail merge در [Mail Merge گزارش](/words/java/mail-merge-and-reporting/) بخش مستندات
+شما می توانید اطلاعات دقیق تر در مورد Mail Merge در [Mail Merge گزارش](/words/java/mail-merge-and-reporting/) بخش مستندات
 
 {{% /alert %}}
 
@@ -136,7 +136,7 @@ Aspose.Words برای Java پشتیبانی از اکثر فرمت های سند
 
 **Q: چرا خروجی ادغام لانه داده ها را از جدول کودک برای اولین ورود در جدول والدین نشان نمی دهد، اما تمام موارد را برای آخرین ورود در جدول والدین، حتی مواردی که در واقع با آن مرتبط نیستند، نمایش می دهد؟**
 
-این به این دلیل است که مناطق ادغام شده در قالب به درستی شکل نمی گیرند، که می تواند همه آنها را به صورت لانه دار ایجاد کند. mail merge مناطقی که همه چیز را نشان می دهند The The The The The The [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) برچسب باز و [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) برچسب بسته بندی باید مطابقت داشته باشد و در همان ردیف یا سلول باشد. به عنوان مثال، اگر شما شروع به کاشت مناطق در یک سلول از یک میز، شما باید به منطقه ادغام در همان ردیف به عنوان اولین سلول پایان دهید.
+این به این دلیل است که مناطق ادغام شده در قالب به درستی شکل نمی گیرند، که می تواند همه آنها را به صورت لانه دار ایجاد کند. Mail Merge مناطقی که همه چیز را نشان می دهند The The The The The The [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) برچسب باز و [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) برچسب بسته بندی باید مطابقت داشته باشد و در همان ردیف یا سلول باشد. به عنوان مثال، اگر شما شروع به کاشت مناطق در یک سلول از یک میز، شما باید به منطقه ادغام در همان ردیف به عنوان اولین سلول پایان دهید.
 
 ------
 
