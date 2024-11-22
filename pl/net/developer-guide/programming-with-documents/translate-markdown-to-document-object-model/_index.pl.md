@@ -46,7 +46,7 @@ DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
 builder.Font.Strikethrough = true;
-builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
+builder.Writeln("This text will be Strikethrough"); {{< /highlight >}} |  |
 
 Używamy stylu znakowego o nazwie rozpoczynającej się od słowa `InlineCode`, po którym następuje opcjonalna kropka `(.)` i pewna liczba tylnych znaków ```(`)``` dla funkcji `InlineCode`. Jeśli pominiesz kilka coknięć, domyślnie zostanie użyty jeden backtick.
 
@@ -103,7 +103,7 @@ builder.ParagraphFormat.Style = setexHeading2;
 builder.Document.Styles["SetextHeading2"].BaseStyleName = "Heading 3";
 
 // Setex heading level will be reset to 2 if the base paragraph has a Heading level greater than 2.
-builder.Writeln("Setext Heading level 2");{{< /highlight >}} |
+builder.Writeln("Setext Heading level 2"); {{< /highlight >}} |
 |   **Indented Code**                                             |  `ParagraphFormat.StyleName = “IndentedCode[some suffix]”`     |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-IndentedCode.cs" >}}  |                                                                |
 |  **Fenced Code**<br /> {{< highlight csharp >}}``` c#
@@ -131,7 +131,7 @@ builder.Writeln("Blockquote");
 Style quoteLevel2 = builder.Document.Styles.Add(StyleType.Paragraph, "Quote1");
 builder.ParagraphFormat.Style = quoteLevel2;
 builder.Document.Styles["Quote1"].BaseStyleName = "Quote";
-builder.Writeln("1. Nested blockquote");{{< /highlight >}} |
+builder.Writeln("1. Nested blockquote"); {{< /highlight >}} |
 |  **BulletedList**<br /> `- Item 1`<br /> `- Item 2`<br /> `   - Item 2a`<br /> `   - Item 2b` |  Listy punktowane są reprezentowane przy użyciu numeracji akapitów:<br /> `ListFormat.ApplyBulletDefault()`<br /> Istnieją 3 typy list punktowanych. Różnią się one jedynie formatem numeracji na pierwszym poziomie. Są to odpowiednio: `‘-’`, `‘+’` lub `‘*’` |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BulletedList.cs" >}}  |                                                                |
 |  **OrderedList**<br /> `1. Item 1`<br /> `2. Item 2`<br /> `1) Item 2a`<br /> `2) Item 2b` |  Uporządkowane listy są reprezentowane za pomocą numeracji akapitów:<br /> `ListFormat.ApplyNumberDefault()`<br /> Mogą występować 2 znaczniki formatu liczb: "." I ')'. Domyślnym znacznikiem jest "." |
@@ -148,7 +148,7 @@ builder.Writeln("Item 2");
 builder.ListFormat.ListIndent();
 
 builder.Writeln("Item 2a");
-builder.Writeln("Item 2b");{{< /highlight >}} |                                                                |
+builder.Writeln("Item 2b"); {{< /highlight >}} |                                                                |
 
 ### Stoły
 
@@ -170,7 +170,7 @@ builder.Writeln("b");
 builder.InsertCell();
 builder.Writeln("c");
 builder.InsertCell();
-builder.Writeln("d");{{< /highlight >}} |                                                                |
+builder.Writeln("d"); {{< /highlight >}} |                                                                |
 
 ## Zobacz też
 

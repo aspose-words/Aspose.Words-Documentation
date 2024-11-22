@@ -46,7 +46,7 @@ DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
 builder.Font.Strikethrough = true;
-builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
+builder.Writeln("This text will be Strikethrough"); {{< /highlight >}} |  |
 
 Usamos um estilo de caractere com um nome que começa com a palavra `InlineCode`, seguido por um ponto opcional `(.)` e um número de crases ```(`)``` para o recurso `InlineCode`. Se vários crases forem perdidos, um crase será usado por padrão.
 
@@ -103,7 +103,7 @@ builder.ParagraphFormat.Style = setexHeading2;
 builder.Document.Styles["SetextHeading2"].BaseStyleName = "Heading 3";
 
 // Setex heading level will be reset to 2 if the base paragraph has a Heading level greater than 2.
-builder.Writeln("Setext Heading level 2");{{< /highlight >}} |
+builder.Writeln("Setext Heading level 2"); {{< /highlight >}} |
 |   **Indented Code**                                             |  `ParagraphFormat.StyleName = “IndentedCode[some suffix]”`     |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-IndentedCode.cs" >}}  |                                                                |
 |  **Fenced Code**<br /> {{< highlight csharp >}}``` c#
@@ -131,7 +131,7 @@ builder.Writeln("Blockquote");
 Style quoteLevel2 = builder.Document.Styles.Add(StyleType.Paragraph, "Quote1");
 builder.ParagraphFormat.Style = quoteLevel2;
 builder.Document.Styles["Quote1"].BaseStyleName = "Quote";
-builder.Writeln("1. Nested blockquote");{{< /highlight >}} |
+builder.Writeln("1. Nested blockquote"); {{< /highlight >}} |
 |  **BulletedList**<br /> `- Item 1`<br /> `- Item 2`<br /> `   - Item 2a`<br /> `   - Item 2b` |  As listas com marcadores são representadas usando numeração de parágrafos:<br /> `ListFormat.ApplyBulletDefault()`<br /> Pode haver 3 tipos de listas com marcadores. Eles são diferenciados apenas em um formato de numeração de primeiro nível. São eles: `‘-’`, `‘+’` ou `‘*’` respectivamente |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BulletedList.cs" >}}  |                                                                |
 |  **OrderedList**<br /> `1. Item 1`<br /> `2. Item 2`<br /> `1) Item 2a`<br /> `2) Item 2b` |  As listas ordenadas são representadas usando numeração de parágrafo:<br /> `ListFormat.ApplyNumberDefault()`<br /> Pode haver 2 marcadores de formato de número: '.' e ')'. O marcador padrão é '.' |
@@ -148,7 +148,7 @@ builder.Writeln("Item 2");
 builder.ListFormat.ListIndent();
 
 builder.Writeln("Item 2a");
-builder.Writeln("Item 2b");{{< /highlight >}} |                                                                |
+builder.Writeln("Item 2b"); {{< /highlight >}} |                                                                |
 
 ### Tabelas
 
@@ -170,7 +170,7 @@ builder.Writeln("b");
 builder.InsertCell();
 builder.Writeln("c");
 builder.InsertCell();
-builder.Writeln("d");{{< /highlight >}} |                                                                |
+builder.Writeln("d"); {{< /highlight >}} |                                                                |
 
 ## Veja também
 

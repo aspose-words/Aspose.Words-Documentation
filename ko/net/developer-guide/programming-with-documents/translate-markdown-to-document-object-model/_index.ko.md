@@ -46,7 +46,7 @@ DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
 builder.Font.Strikethrough = true;
-builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
+builder.Writeln("This text will be Strikethrough"); {{< /highlight >}} |  |
 
 우리는 `InlineCode`라는 단어로 시작하는 이름과 `InlineCode` 기능을 위한 선택적인 도트 `(.)` 및 다수의 백틱 ```(`)```이 뒤에 오는 문자 스타일을 사용합니다. 여러 개의 백틱이 누락된 경우 기본적으로 하나의 백틱이 사용됩니다.
 
@@ -103,7 +103,7 @@ builder.ParagraphFormat.Style = setexHeading2;
 builder.Document.Styles["SetextHeading2"].BaseStyleName = "Heading 3";
 
 // Setex heading level will be reset to 2 if the base paragraph has a Heading level greater than 2.
-builder.Writeln("Setext Heading level 2");{{< /highlight >}} |
+builder.Writeln("Setext Heading level 2"); {{< /highlight >}} |
 |   **Indented Code**                                             |  `ParagraphFormat.StyleName = “IndentedCode[some suffix]”`     |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-IndentedCode.cs" >}}  |                                                                |
 |  **Fenced Code**<br /> {{< highlight csharp >}}``` c#
@@ -131,7 +131,7 @@ builder.Writeln("Blockquote");
 Style quoteLevel2 = builder.Document.Styles.Add(StyleType.Paragraph, "Quote1");
 builder.ParagraphFormat.Style = quoteLevel2;
 builder.Document.Styles["Quote1"].BaseStyleName = "Quote";
-builder.Writeln("1. Nested blockquote");{{< /highlight >}} |
+builder.Writeln("1. Nested blockquote"); {{< /highlight >}} |
 |  **BulletedList**<br /> `- Item 1`<br /> `- Item 2`<br /> `   - Item 2a`<br /> `   - Item 2b` |  글머리 기호 목록은 단락 번호 매기기를 사용하여 표시됩니다.<br /> `ListFormat.ApplyBulletDefault()`<br /> 글머리 기호 목록에는 3가지 유형이 있을 수 있습니다. 첫 번째 수준의 번호 매기기 형식만 다릅니다. 이는 각각 `‘-’`, `‘+’` 또는 `‘*’`입니다 |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BulletedList.cs" >}}  |                                                                |
 |  **OrderedList**<br /> `1. Item 1`<br /> `2. Item 2`<br /> `1) Item 2a`<br /> `2) Item 2b` |  순서가 지정된 목록은 단락 번호 매기기를 사용하여 표시됩니다.<br /> `ListFormat.ApplyNumberDefault()`<br /> 2개의 숫자 형식 표시자가 있을 수 있습니다: '.' 그리고 ')'. 기본 마커는 '.'입니다 |
@@ -148,7 +148,7 @@ builder.Writeln("Item 2");
 builder.ListFormat.ListIndent();
 
 builder.Writeln("Item 2a");
-builder.Writeln("Item 2b");{{< /highlight >}} |                                                                |
+builder.Writeln("Item 2b"); {{< /highlight >}} |                                                                |
 
 ### 테이블
 
@@ -170,7 +170,7 @@ builder.Writeln("b");
 builder.InsertCell();
 builder.Writeln("c");
 builder.InsertCell();
-builder.Writeln("d");{{< /highlight >}} |                                                                |
+builder.Writeln("d"); {{< /highlight >}} |                                                                |
 
 ## 또한보십시오
 

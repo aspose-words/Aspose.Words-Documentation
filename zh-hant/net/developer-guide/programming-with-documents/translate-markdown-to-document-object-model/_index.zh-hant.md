@@ -46,7 +46,7 @@ DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
 builder.Font.Strikethrough = true;
-builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
+builder.Writeln("This text will be Strikethrough"); {{< /highlight >}} |  |
 
 我們使用一個以字元 `InlineCode` 開始，並接著可選點 `(.)` 和任意數量的反引號 ```(`)``` 來命名之字元風格，用於 `InlineCode` 特徵。 如果遺漏了幾個反引號，則一個反引號將默認使用。
 
@@ -103,7 +103,7 @@ builder.ParagraphFormat.Style = setexHeading2;
 builder.Document.Styles["SetextHeading2"].BaseStyleName = "Heading 3";
 
 // Setex heading level will be reset to 2 if the base paragraph has a Heading level greater than 2.
-builder.Writeln("Setext Heading level 2");{{< /highlight >}} |
+builder.Writeln("Setext Heading level 2"); {{< /highlight >}} |
 | **Indented Code** | `ParagraphFormat.StyleName = “IndentedCode[some suffix]”` |
 | {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-IndentedCode.cs" >}} |  |
 | **Fenced Code** <br /> {{< highlight csharp >}}``` c#
@@ -131,7 +131,7 @@ builder.Writeln("Blockquote");
 Style quoteLevel2 = builder.Document.Styles.Add(StyleType.Paragraph, "Quote1");
 builder.ParagraphFormat.Style = quoteLevel2;
 builder.Document.Styles["Quote1"].BaseStyleName = "Quote";
-builder.Writeln("1. Nested blockquote");{{< /highlight >}} |
+builder.Writeln("1. Nested blockquote"); {{< /highlight >}} |
 | **BulletedList** <br /> `- Item 1` <br /> `- Item 2` <br /> `   - Item 2a` <br /> `   - Item 2b` | 無序清單是以段落計數的方式來表示：<br /> `ListFormat.ApplyBulletDefault()`<br /> 無序清單有 3 種类型。 他們只是在第一層的數字格式上有所不同。 這些是：`‘-’`、`‘+’` 或 `‘*’`。 |
 | {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BulletedList.cs" >}} |  |
 | **OrderedList** <br /> `1. Item 1` <br /> `2. Item 2` <br /> `1) Item 2a` <br /> `2) Item 2b` | 有序清單是使用段落計數來表示：<br />`ListFormat.ApplyNumberDefault()`<br />可有 2 個數字格式記號：`.` 和 `)'。 預設的標記是. |
@@ -148,7 +148,7 @@ builder.Writeln("Item 2");
 builder.ListFormat.ListIndent();
 
 builder.Writeln("Item 2a");
-builder.Writeln("Item 2b");{{< /highlight >}} |  |
+builder.Writeln("Item 2b"); {{< /highlight >}} |  |
 
 ### 表
 
@@ -170,7 +170,7 @@ builder.Writeln("b");
 builder.InsertCell();
 builder.Writeln("c");
 builder.InsertCell();
-builder.Writeln("d");{{< /highlight >}} |  |
+builder.Writeln("d"); {{< /highlight >}} |  |
 
 ## 另見：
 

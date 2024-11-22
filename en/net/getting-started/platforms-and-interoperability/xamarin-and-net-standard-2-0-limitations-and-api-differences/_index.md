@@ -19,7 +19,7 @@ Limitations of .NET Standard 2.0, Xamarin.Android, Xamarin.iOS, And `Xamarin.Mac
 1. **Document.Print** method is not available in .NET Standard 2.0, Xamarin.Android, Xamarin.iOS and `Xamarin.Mac` API.
 1. Saving to user browser is not provided, i.e. **Document.Save(HttpResponse,string,ContentDescription,SaveOptions)** overload is not available.
 1. Because of lack of Windows fonts in target OS (Android, MacOS, Linux etc), fonts used in documents are substituted with available fonts, this might lead into inaccurate document layout, when render document to fixed page formats (like Images, PDF, XPS etc.)
-1. If Aspose.Words for .NET Standard is intended to be used in Linux environment, an additional NuGet package should be referenced to make it work correctly with graphics: `SkiaSharp.NativeAssets`.Linux for Ubuntu (it also should work on most Debian-based Linux distributions) or `Goelze.SkiaSharp`.NativeAssets.AlpineLinux for Alpine Linux.
+1. If Aspose.Words for .NET Standard is intended to be used in Linux environment, an additional NuGet package should be referenced to make it work correctly with graphics: `SkiaSharp.NativeAssets.Linux` for Ubuntu (it also should work on most Debian-based Linux distributions) or `Goelze.SkiaSharp`.NativeAssets.AlpineLinux for Alpine Linux.
 
 ## Public API Differences
 

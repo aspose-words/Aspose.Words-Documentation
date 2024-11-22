@@ -46,7 +46,7 @@ DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
 builder.Font.Strikethrough = true;
-builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
+builder.Writeln("This text will be Strikethrough"); {{< /highlight >}} |  |
 
 Chúng tôi sử dụng kiểu ký tự có tên bắt đầu từ từ `InlineCode`, theo sau là dấu chấm `(.)` tùy chọn và một số dấu kiểm ngược ```(`)``` cho tính năng `InlineCode`. Nếu thiếu một số dấu tích ngược thì mặc định một dấu tích ngược sẽ được sử dụng.
 
@@ -103,7 +103,7 @@ builder.ParagraphFormat.Style = setexHeading2;
 builder.Document.Styles["SetextHeading2"].BaseStyleName = "Heading 3";
 
 // Setex heading level will be reset to 2 if the base paragraph has a Heading level greater than 2.
-builder.Writeln("Setext Heading level 2");{{< /highlight >}} |
+builder.Writeln("Setext Heading level 2"); {{< /highlight >}} |
 |   **Indented Code**                                             |  `ParagraphFormat.StyleName = “IndentedCode[some suffix]”`     |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-IndentedCode.cs" >}}  |                                                                |
 |  **Fenced Code**<br /> {{< highlight csharp >}}``` c#
@@ -131,7 +131,7 @@ builder.Writeln("Blockquote");
 Style quoteLevel2 = builder.Document.Styles.Add(StyleType.Paragraph, "Quote1");
 builder.ParagraphFormat.Style = quoteLevel2;
 builder.Document.Styles["Quote1"].BaseStyleName = "Quote";
-builder.Writeln("1. Nested blockquote");{{< /highlight >}} |
+builder.Writeln("1. Nested blockquote"); {{< /highlight >}} |
 |  **BulletedList**<br /> `- Item 1`<br /> `- Item 2`<br /> `   - Item 2a`<br /> `   - Item 2b` |  Danh sách có dấu đầu dòng được thể hiện bằng cách đánh số đoạn văn:<br /> `ListFormat.ApplyBulletDefault()`<br /> Có thể có 3 loại danh sách có dấu đầu dòng. Chúng chỉ khác nhau ở định dạng đánh số ở cấp độ đầu tiên. Đó là: `‘-’`, `‘+’` hoặc `‘*’` tương ứng |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BulletedList.cs" >}}  |                                                                |
 |  **OrderedList**<br /> `1. Item 1`<br /> `2. Item 2`<br /> `1) Item 2a`<br /> `2) Item 2b` |  Danh sách có thứ tự được thể hiện bằng cách đánh số đoạn văn:<br /> `ListFormat.ApplyNumberDefault()`<br /> Có thể có 2 dấu định dạng số: '.' Và ')'. Điểm đánh dấu mặc định là '.' |
@@ -148,7 +148,7 @@ builder.Writeln("Item 2");
 builder.ListFormat.ListIndent();
 
 builder.Writeln("Item 2a");
-builder.Writeln("Item 2b");{{< /highlight >}} |                                                                |
+builder.Writeln("Item 2b"); {{< /highlight >}} |                                                                |
 
 ### Những cái bàn
 
@@ -170,7 +170,7 @@ builder.Writeln("b");
 builder.InsertCell();
 builder.Writeln("c");
 builder.InsertCell();
-builder.Writeln("d");{{< /highlight >}} |                                                                |
+builder.Writeln("d"); {{< /highlight >}} |                                                                |
 
 ## Xem thêm
 

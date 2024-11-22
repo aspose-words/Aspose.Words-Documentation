@@ -33,7 +33,7 @@ timestamp: 2024-08-19-11-05-36
 ![net-console-application](https://lh5.googleusercontent.com/PArWoC8_leOnhtaF-5BMb3b4jHwI3G03WoyMK3bXZpsQKN50YzvEQBwoRniyCWKIcdR0EZGuwn3S8Z0ZK6FQ4cjMSWgH3CwSqReW4bMt-3OjZjrdt9yuWbkMdhyNjwwaaYPC5Ylr)<br>
 1. ติดตั้ง Aspose.Words เวอร์ชันล่าสุดจาก NuGet SkiaSharp จะได้รับการติดตั้งโดยขึ้นอยู่กับ Aspose.Words<br>
 ![skiasharp-dependency](https://lh3.googleusercontent.com/zWpvB5TLahC_OpJrHDML2131Vj_VK1vryTZBd_C3ZeOBdoUOc2vF_axEvwu9tytaL1maJv3qA2KoyP5fn7ae4_3cL23sXyoLoVysjgu8XEp6l0B2w5hgR9teh95_9mFd9X-4DGNN)<br>
-1. เนื่องจากแอปพลิเคชันจะทำงานบน Linux จึงต้องติดตั้งเนื้อหา Linux ดั้งเดิมที่เหมาะสม เริ่มต้นด้วยอิมเมจฐาน Debian และติดตั้ง `SkiaSharp.NativeAssets`.Linux
+1. เนื่องจากแอปพลิเคชันจะทำงานบน Linux จึงต้องติดตั้งเนื้อหา Linux ดั้งเดิมที่เหมาะสม เริ่มต้นด้วยอิมเมจฐาน Debian และติดตั้ง `SkiaSharp.NativeAssets.Linux`
 1. เมื่อเพิ่มการขึ้นต่อกันที่จำเป็นทั้งหมดแล้ว ให้เขียนโปรแกรมง่ายๆ ที่สร้าง "Hello World!" เอกสารและบันทึกในรูปแบบบันทึกที่รองรับทั้งหมด:<br>
 
 {{< gist "aspose-words-gists" "47e15ad749897be465deebc2ff3e76dd" "aspose-words-docker.cs" >}}

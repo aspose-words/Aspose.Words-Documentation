@@ -28,7 +28,7 @@ The Aspose.Words [Document](https://reference.aspose.com/words/net/aspose.words/
 
 Правильный способ печати документов в соответствии с Microsoft Использование неуправляемого XpsPrint API. Это API Доступен на Windows 7, Windows Server 2008 год R2, и так далее Windows Vista Обновление платформы для Windows Vista установлен.
 
-С тех пор Aspose.Words Легко конвертировать любой документ в <p notrans="<p notrans=" XPS"=""></p>"> Вам нужно только написать код, который проходит XPS документом к `XpsPrint` API. Единственная проблема заключается в том, что `XpsPrint` API Она неуправляема и требует некоторого знания технологии Platform Invoke.
+С тех пор Aspose.Words Легко конвертировать любой документ в XPS Вам нужно только написать код, который проходит XPS документом к `XpsPrint` API. Единственная проблема заключается в том, что `XpsPrint` API Она неуправляема и требует некоторого знания технологии Platform Invoke.
 
 Чтобы распечатать документ, Aspose.Words обеспечивает **XpsPrintHelper** Класс содержит простой метод печати, где нужно просто указать следующие параметры (подробнее см. в статье). [Печать документов через XPS API](/words/net/missing-features-in-openxml/)):
 

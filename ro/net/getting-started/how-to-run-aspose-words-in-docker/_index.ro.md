@@ -33,7 +33,7 @@ Pentru a crea programul 'Hello World', urmați pașii de mai jos:
 ![net-console-application](https://lh5.googleusercontent.com/PArWoC8_leOnhtaF-5BMb3b4jHwI3G03WoyMK3bXZpsQKN50YzvEQBwoRniyCWKIcdR0EZGuwn3S8Z0ZK6FQ4cjMSWgH3CwSqReW4bMt-3OjZjrdt9yuWbkMdhyNjwwaaYPC5Ylr)<br>
 1. Instalați cea mai recentă versiune Aspose.Words de la NuGet. SkiaSharp va fi instalat ca o dependență de Aspose.Words.<br>
 ![skiasharp-dependency](https://lh3.googleusercontent.com/zWpvB5TLahC_OpJrHDML2131Vj_VK1vryTZBd_C3ZeOBdoUOc2vF_axEvwu9tytaL1maJv3qA2KoyP5fn7ae4_3cL23sXyoLoVysjgu8XEp6l0B2w5hgR9teh95_9mFd9X-4DGNN)<br>
-1. Deoarece aplicația va rula pe Linux, trebuie instalate activele native corespunzătoare Linux. Începe cu Debian imaginea de bază și instalează `SkiaSharp.NativeAssets`.Linux.
+1. Deoarece aplicația va rula pe Linux, trebuie instalate activele native corespunzătoare Linux. Începe cu Debian imaginea de bază și instalează `SkiaSharp.NativeAssets.Linux`.
 1. Când toate dependențele necesare sunt adăugate, scrieți un program simplu care creează un document "Hello World!" și îl salvează în toate formatele de salvare acceptate:<br>
 
 {{< gist "aspose-words-gists" "47e15ad749897be465deebc2ff3e76dd" "aspose-words-docker.cs" >}}
