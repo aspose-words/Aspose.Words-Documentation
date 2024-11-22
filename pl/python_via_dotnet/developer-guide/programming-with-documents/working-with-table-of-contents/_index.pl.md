@@ -108,7 +108,7 @@ Domyślnie powyższe przełączniki są uwzględniane podczas wstawiania domyśl
 
 <p>- *\L – Określa, na którym poziomie w modelu `TOC` pojawi się to pole TC. Model `TOC`, który korzysta z tego samego przełącznika, będzie uwzględniał to pole TC tylko wtedy, gdy będzie się ono mieścić w określonym zakresie.*</p>
 
-<p>- _\N – Numeracja stron dla tego wpisu `TOC` nie jest wyświetlana. Przykładowy kod wstawiania pól TC można znaleźć w następnej sekcji.</p> |
+<p>- `_\N` – Numeracja stron dla tego wpisu `TOC` nie jest wyświetlana. Przykładowy kod wstawiania pól TC można znaleźć w następnej sekcji.</p> |
 
 ### Przełączniki związane z wyglądem
 

@@ -114,7 +114,7 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 
 <p>- *\L – Define em qual nível do `TOC` este campo TC aparecerá. Um `TOC` que utilize esta mesma opção só incluirá este campo TC se estiver dentro do intervalo especificado.*</p>
 
-<p>- _\N – A numeração de páginas para esta entrada `TOC` não é exibida. Um exemplo de código de como inserir campos TC pode ser encontrado na próxima seção.</p> |
+<p>- `_\N` – A numeração de páginas para esta entrada `TOC` não é exibida. Um exemplo de código de como inserir campos TC pode ser encontrado na próxima seção.</p> |
 
 ### Switches relacionados à aparência
 

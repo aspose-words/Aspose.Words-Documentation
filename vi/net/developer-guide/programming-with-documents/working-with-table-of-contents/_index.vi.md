@@ -114,7 +114,7 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 
 <p>- *\L – Xác định cấp độ nào trong `TOC` mà trường TC này sẽ xuất hiện. Một `TOC` sử dụng cùng một công tắc này sẽ chỉ bao gồm trường TC này nếu nó nằm trong phạm vi được chỉ định.*</p>
 
-<p>- _\N – Việc đánh số trang cho mục nhập `TOC` này không được hiển thị. Bạn có thể tìm thấy mã mẫu về cách chèn trường TC trong phần tiếp theo.</p> |
+<p>- `_\N` – Việc đánh số trang cho mục nhập `TOC` này không được hiển thị. Bạn có thể tìm thấy mã mẫu về cách chèn trường TC trong phần tiếp theo.</p> |
 
 ### Công tắc liên quan đến ngoại hình
 

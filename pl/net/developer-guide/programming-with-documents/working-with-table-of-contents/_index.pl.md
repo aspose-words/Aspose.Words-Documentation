@@ -114,7 +114,7 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 
 <p>- *\L – Określa, na którym poziomie w `TOC` pojawi się to pole TC. `TOC`, który używa tego samego przełącznika, będzie zawierać to pole TC tylko wtedy, gdy będzie się ono mieścić w określonym zakresie.*</p>
 
-<p>- _\N – Numeracja stron dla tego wpisu `TOC` nie jest wyświetlana. Przykładowy kod wstawiania pól TC można znaleźć w następnej sekcji.</p> |
+<p>- `_\N` – Numeracja stron dla tego wpisu `TOC` nie jest wyświetlana. Przykładowy kod wstawiania pól TC można znaleźć w następnej sekcji.</p> |
 
 ### Przełączniki związane z wyglądem
 

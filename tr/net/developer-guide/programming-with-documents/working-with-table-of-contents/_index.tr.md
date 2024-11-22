@@ -114,7 +114,7 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 
 <p>- *\L – Bu TC alanının `TOC`'de hangi seviyede görüneceğini tanımlar. Aynı anahtarı kullanan bir `TOC`, bu TC alanını yalnızca belirtilen aralık dahilindeyse içerecektir.*</p>
 
-<p>- _\N – Bu `TOC` girişinin sayfa numaralandırması görüntülenmez. TC alanlarının nasıl ekleneceğine ilişkin örnek kod sonraki bölümde bulunabilir.</p> |
+<p>- `_\N` – Bu `TOC` girişinin sayfa numaralandırması görüntülenmez. TC alanlarının nasıl ekleneceğine ilişkin örnek kod sonraki bölümde bulunabilir.</p> |
 
 ### Görünümle İlgili Anahtarlar
 

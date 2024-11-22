@@ -114,7 +114,7 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 
 <p>- *\L – Menentukan level di `TOC` mana bidang TC ini akan muncul. `TOC` yang menggunakan saklar yang sama hanya akan menyertakan bidang TC ini jika berada dalam rentang yang ditentukan.*</p>
 
-<p>- _\N – Penomoran halaman untuk entri `TOC` ini tidak ditampilkan. Contoh kode cara menyisipkan kolom TC dapat ditemukan di bagian berikutnya.</p> |
+<p>- `_\N` – Penomoran halaman untuk entri `TOC` ini tidak ditampilkan. Contoh kode cara menyisipkan kolom TC dapat ditemukan di bagian berikutnya.</p> |
 
 ### Sakelar Terkait Penampilan
 

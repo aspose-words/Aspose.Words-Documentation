@@ -114,7 +114,7 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 
 <p>- *\L – Définit à quel niveau du `TOC` ce champ TC apparaîtra. Un `TOC` qui utilise ce même commutateur n'inclura ce champ TC que s'il se trouve dans la plage spécifiée.*</p>
 
-<p>- _\N – La numérotation des pages de cette entrée `TOC` n'est pas affichée. Un exemple de code sur la façon d'insérer des champs TC peut être trouvé dans la section suivante.</p> |
+<p>- `_\N` – La numérotation des pages de cette entrée `TOC` n'est pas affichée. Un exemple de code sur la façon d'insérer des champs TC peut être trouvé dans la section suivante.</p> |
 
 ### Commutateurs liés à l’apparence
 

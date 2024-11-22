@@ -131,7 +131,7 @@ Si un interruptor no está listado aquí, entonces actualmente no está soportad
 
 <p>- \L - Define qué nivel en el `TOC` este campo TC aparecerá en. A `TOC` que utiliza este mismo interruptor sólo incluirá este campo TC si está dentro del rango especificado.</p>
 
-<p>- _\N – La pagina numeración para esto `TOC` no se muestra la entrada. Código de muestra de cómo insertar campos TC se puede encontrar en la siguiente sección.</p>
+<p>- `_\N` – La pagina numeración para esto `TOC` no se muestra la entrada. Código de muestra de cómo insertar campos TC se puede encontrar en la siguiente sección.</p>
  |
 
 ### Apariencia Cambios relacionados
