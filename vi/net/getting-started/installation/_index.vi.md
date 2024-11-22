@@ -56,7 +56,7 @@ Bạn phải đăng nhập để tải xuống trình cài đặt. Nếu bạn c
 
 Để cài đặt Aspose.Words cho .NET, hãy làm theo các bước sau:
 
-1. Tải xuống `Aspose.Words_`{LatestVersion}.msi từ [phần tải xuống](https://releases.aspose.com/words/)
+1. Tải xuống `Aspose.Words_{LatestVersion}.msi` từ [phần tải xuống](https://releases.aspose.com/words/)
 2. Nhấp đúp vào tệp đã tải xuống, từ đó khởi động trình hướng dẫn thiết lập, làm theo hướng dẫn của trình hướng dẫn thiết lập<br>
    <img src="/words/net/installation/aspose-words-setup-1.png" alt="giả định-words-setup-1" style="width:500px"/>
 3. Khi trình hướng dẫn thiết lập hoàn tất quá trình cài đặt, các tệp được yêu cầu sẽ có sẵn trong thư mục tại đường dẫn thư mục được cung cấp<br>

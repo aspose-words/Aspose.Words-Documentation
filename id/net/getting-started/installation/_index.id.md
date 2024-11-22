@@ -56,7 +56,7 @@ Anda harus masuk untuk mengunduh penginstal. Jika Anda belum mendaftar, Anda dap
 
 Untuk Menginstal Aspose.Words untuk .NET, ikuti langkah-langkah berikut:
 
-1. Unduh `Aspose.Words_`{LatestVersion}.msi dari [bagian unduhan](https://releases.aspose.com/words/)
+1. Unduh `Aspose.Words_{LatestVersion}.msi` dari [bagian unduhan](https://releases.aspose.com/words/)
 2. Klik dua kali file yang diunduh, sehingga memulai wizard pengaturan, ikuti instruksi wizard pengaturan<br>
    <img src="/words/net/installation/aspose-words-setup-1.png" alt="asumsi-kata-setup-1" style="width:500px"/>
 3. Ketika wizard pengaturan menyelesaikan instalasi, file yang diperlukan akan tersedia di folder di jalur folder yang disediakan<br>

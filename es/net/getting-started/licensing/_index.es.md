@@ -61,13 +61,13 @@ Después de comprar una licencia, debe leer atentamente la información en la p�
 Las licencias se pueden solicitar desde varias ubicaciones:
 
 * Ruta explícita
-* La carpeta que contiene el archivo *Aspose.Words.dll*.
-* La carpeta que contiene el ensamblado que llamó *Aspose.Words.dll*
-* La carpeta que contiene el ensamblaje de entrada (tu *.exe*)
-* Un recurso incrustado en el ensamblado se llama *Aspose.Words.dll*.
+* La carpeta que contiene el archivo `Aspose.Words.dll`.
+* La carpeta que contiene el ensamblado que llamó `Aspose.Words.dll`
+* La carpeta que contiene el ensamblaje de entrada (tu `.exe`)
+* Un recurso incrustado en el ensamblado se llama `Aspose.Words.dll`.
 * Como licencia medida: un nuevo mecanismo de concesión de licencias
 
-Cuando hace referencia a *Aspose.Words.dll* en la aplicación, la biblioteca se copia en su directorio de salida (a menos que *Copiar local* en las propiedades de esa entrada esté establecido en falso). A menudo, la forma más sencilla de configurar una licencia es colocar el archivo de licencia en la misma carpeta que *Aspose.Words.dll* y especificar sólo el nombre del archivo sin la ruta.
+Cuando hace referencia a `Aspose.Words.dll` en la aplicación, la biblioteca se copia en su directorio de salida (a menos que *Copiar local* en las propiedades de esa entrada esté establecido en falso). A menudo, la forma más sencilla de configurar una licencia es colocar el archivo de licencia en la misma carpeta que `Aspose.Words.dll` y especificar sólo el nombre del archivo sin la ruta.
 
 {{% alert color="primary" %}}
 

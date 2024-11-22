@@ -61,13 +61,13 @@ Após adquirir uma licença, você precisa ler atentamente as informações na p
 As licenças podem ser aplicadas em vários locais:
 
 * Caminho explícito
-* A pasta que contém o arquivo *Aspose.Words.dll*
-* A pasta que contém o assembly que chamou *Aspose.Words.dll*
-* A pasta que contém o assembly de entrada (seu *.exe*)
-* Um recurso incorporado no assembly é chamado *Aspose.Words.dll*
+* A pasta que contém o arquivo `Aspose.Words.dll`
+* A pasta que contém o assembly que chamou `Aspose.Words.dll`
+* A pasta que contém o assembly de entrada (seu `.exe`)
+* Um recurso incorporado no assembly é chamado `Aspose.Words.dll`
 * Como Licença Medida – um novo mecanismo de licenciamento
 
-Quando você faz referência a *Aspose.Words.dll* no aplicativo, a biblioteca é copiada para seu diretório de saída (a menos que *Copy Local* nas propriedades dessa entrada esteja definido como false). Freqüentemente, a maneira mais fácil de definir uma licença é colocar o arquivo de licença na mesma pasta do *Aspose.Words.dll* e especificar apenas o nome do arquivo sem o caminho.
+Quando você faz referência a `Aspose.Words.dll` no aplicativo, a biblioteca é copiada para seu diretório de saída (a menos que *Copy Local* nas propriedades dessa entrada esteja definido como false). Freqüentemente, a maneira mais fácil de definir uma licença é colocar o arquivo de licença na mesma pasta do `Aspose.Words.dll` e especificar apenas o nome do arquivo sem o caminho.
 
 {{% alert color="primary" %}}
 

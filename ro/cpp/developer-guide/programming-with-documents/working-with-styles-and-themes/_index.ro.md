@@ -34,7 +34,7 @@ Pentru a ilustra cât de ușor gestionează Aspose.Words preluarea conținutului
 
 ### Codul
 
-Implementarea unei interogări bazate pe stil este destul de simplă în modelul obiectului document Aspose.Words, deoarece folosește pur și simplu instrumente care sunt deja în vigoare. Pentru această soluție sunt implementate două metode de clasă: # **ParagraphsByStyleName** - această metodă preia o serie de paragrafe din document care au un nume de stil specific.# **RunsByStyleName** - această metodă preia o matrice a acelor rulări din document care au un nume de stil specific. Ambele metode sunt foarte similare, singurele diferențe fiind tipurile de noduri și reprezentarea informațiilor de stil în cadrul nodurilor paragraf și run. Iată o implementare a ParagraphsByStyleName. Exemplul de mai jos găsiți toate paragrafele formatate cu stilul specificat.
+Implementarea unei interogări bazate pe stil este destul de simplă în modelul obiectului document Aspose.Words, deoarece folosește pur și simplu instrumente care sunt deja în vigoare. Pentru această soluție sunt implementate două metode de clasă: **ParagraphsByStyleName** - această metodă preia o serie de paragrafe din document care au un nume de stil specific. **RunsByStyleName** - această metodă preia o matrice a acelor rulări din document care au un nume de stil specific. Ambele metode sunt foarte similare, singurele diferențe fiind tipurile de noduri și reprezentarea informațiilor de stil în cadrul nodurilor paragraf și run. Iată o implementare a ParagraphsByStyleName. Exemplul de mai jos găsiți toate paragrafele formatate cu stilul specificat.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Styles-ExtractContentBasedOnStyles-ParagraphsByStyleName.cpp" >}}
 

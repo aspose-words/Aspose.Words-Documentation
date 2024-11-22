@@ -125,7 +125,7 @@ Aspose.Words 允许您完全更新一个 `TOC` 只有几行代码。 用于插�
 
 <p>![table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-6.png)</p>
 
-<p><br/><br/>那个 `TC` 字段本身也可以有 {several, `multiple`, a few, `many`, numerous} 开关设定 。 它们是:</p>
+<p><br/><br/>那个 `TC` 字段本身也可以有 `{several, multiple, a few, many, numerous}` 开关设定 。 它们是:</p>
 
 <p>- 上面已经解释过了 * 《大会正式记录,第五十八届会议,补编第5号》(A/C.6/61/Rev.1)。</p>
 

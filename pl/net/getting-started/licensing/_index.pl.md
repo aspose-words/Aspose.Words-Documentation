@@ -61,13 +61,13 @@ Po zakupie licencji należy dokładnie zapoznać się z informacjami na stronie 
 Licencje można stosować z różnych lokalizacji:
 
 * Jawna ścieżka
-* Folder zawierający plik *Aspose.Words.dll*
-* Folder zawierający zestaw o nazwie *Aspose.Words.dll*
-* Folder zawierający zestaw wpisów (twój *.exe*)
-* Zasób osadzony w zestawie nazywa się *Aspose.Words.dll*
+* Folder zawierający plik `Aspose.Words.dll`
+* Folder zawierający zestaw o nazwie `Aspose.Words.dll`
+* Folder zawierający zestaw wpisów (twój `.exe`)
+* Zasób osadzony w zestawie nazywa się `Aspose.Words.dll`
 * Jako licencja licznikowa – nowy mechanizm licencjonowania
 
-Kiedy w aplikacji odwołujesz się do *Aspose.Words.dll*, biblioteka jest kopiowana do katalogu wyjściowego (chyba że opcja *Kopiuj lokalnie* we właściwościach tego wpisu jest ustawiona na false). Często najłatwiejszym sposobem ustawienia licencji jest umieszczenie pliku licencji w tym samym folderze co *Aspose.Words.dll* i podanie samej nazwy pliku bez ścieżki.
+Kiedy w aplikacji odwołujesz się do `Aspose.Words.dll`, biblioteka jest kopiowana do katalogu wyjściowego (chyba że opcja *Kopiuj lokalnie* we właściwościach tego wpisu jest ustawiona na false). Często najłatwiejszym sposobem ustawienia licencji jest umieszczenie pliku licencji w tym samym folderze co `Aspose.Words.dll` i podanie samej nazwy pliku bez ścieżki.
 
 {{% alert color="primary" %}}
 

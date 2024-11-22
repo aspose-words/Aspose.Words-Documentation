@@ -108,7 +108,7 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 
 <p>![todo:image_alt_text](/words/net/working-with-table-of-contents/working-with-table-of-contents-5.png)</p>
 
-<p>`TC` 字段本身也可以设置 {several, `multiple`, a few, `many`, numerous} 开关。这些都是：</p>
+<p>`TC` 字段本身也可以设置 `{several, multiple, a few, many, numerous}` 开关。这些都是：</p>
 
 <p>- *\F – 如上所述。*</p>
 

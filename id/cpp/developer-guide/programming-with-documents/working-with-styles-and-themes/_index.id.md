@@ -34,7 +34,7 @@ Dalam contoh dokumen ini, teks yang diformat dengan gaya paragraf ' Heading 1' a
 
 ### Kodenya
 
-Implementasi kueri berbasis gaya cukup sederhana dalam model objek dokumen Aspose.Words, karena hanya menggunakan alat yang sudah ada. Dua metode kelas diimplementasikan untuk solusi ini:# **ParagraphsByStyleName** - Metode ini mengambil larik paragraf tersebut dalam dokumen yang memiliki nama gaya tertentu.# **RunsByStyleName** - Metode ini mengambil larik yang dijalankan dalam dokumen yang memiliki nama gaya tertentu. Kedua metode ini sangat mirip, satu-satunya perbedaan adalah tipe node dan representasi informasi gaya di dalam node paragraph dan run. Berikut adalah implementasi dari ParagraphsByStyleName. Contoh di bawah ini menemukan semua paragraf yang diformat dengan gaya yang ditentukan.
+Implementasi kueri berbasis gaya cukup sederhana dalam model objek dokumen Aspose.Words, karena hanya menggunakan alat yang sudah ada. Dua metode kelas diimplementasikan untuk solusi ini: **ParagraphsByStyleName** - Metode ini mengambil larik paragraf tersebut dalam dokumen yang memiliki nama gaya tertentu. **RunsByStyleName** - Metode ini mengambil larik yang dijalankan dalam dokumen yang memiliki nama gaya tertentu. Kedua metode ini sangat mirip, satu-satunya perbedaan adalah tipe node dan representasi informasi gaya di dalam node paragraph dan run. Berikut adalah implementasi dari ParagraphsByStyleName. Contoh di bawah ini menemukan semua paragraf yang diformat dengan gaya yang ditentukan.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Styles-ExtractContentBasedOnStyles-ParagraphsByStyleName.cpp" >}}
 

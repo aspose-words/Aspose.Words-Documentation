@@ -37,7 +37,7 @@ timestamp: 2024-10-24-11-44-28
 
 ### The Code
 
-在 Aspose.Words 文檔物件模型中，以样式为基础的查询实现相当简单，因为它只使用已经到位的工具。为这个解决方案实施了两个类方法：# **ParagraphsByStyleName** – 此方法获取文档中具有特定样式名称的段落数组；# **RunsByStyleName** – 此方法获取文档中具有特定样式名称的行数组。这两个方法非常相似，唯一的区别是节点类型和样式信息在段落和行节点中的表示。以下是 ParagraphsByStyleName 的实现：以下示例找到所有以指定样式格式化的段落。
+在 Aspose.Words 文檔物件模型中，以样式为基础的查询实现相当简单，因为它只使用已经到位的工具。为这个解决方案实施了两个类方法：**ParagraphsByStyleName** – 此方法获取文档中具有特定样式名称的段落数组；**RunsByStyleName** – 此方法获取文档中具有特定样式名称的行数组。这两个方法非常相似，唯一的区别是节点类型和样式信息在段落和行节点中的表示。以下是 ParagraphsByStyleName 的实现：以下示例找到所有以指定样式格式化的段落。
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Styles-ExtractContentBasedOnStyles-ParagraphsByStyleName.cs" >}}
 

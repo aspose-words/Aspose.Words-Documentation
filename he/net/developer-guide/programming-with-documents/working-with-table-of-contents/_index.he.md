@@ -109,7 +109,7 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 
 <p>![todo:image_alt_text](/words/net/working-with-table-of-contents/working-with-table-of-contents-5.png)</p>
 
-<p>The The The `TC` גם לשדות עצמם יש {several, `multiple`, a few, `many`, numerous} מתגים להגדיר. אלה הם:</p>
+<p>The The The `TC` גם לשדות עצמם יש `{several, multiple, a few, many, numerous}` מתגים להגדיר. אלה הם:</p>
 
 <p>*\F – הסבר למעלה. *</p>
 

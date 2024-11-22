@@ -56,7 +56,7 @@ NuGet هي أسهل طريقة لتنزيل وتثبيت ملفات [Aspose.Word
 
 لتثبيت Aspose.Words لـ .NET، اتبع الخطوات التالية:
 
-1. قم بتنزيل `Aspose.Words_`{LatestVersion}.msi من ملف [قسم التنزيلات](https://releases.aspose.com/words/)
+1. قم بتنزيل `Aspose.Words_{LatestVersion}.msi` من ملف [قسم التنزيلات](https://releases.aspose.com/words/)
 2. انقر نقرًا مزدوجًا فوق الملف الذي تم تنزيله، ومن ثم ابدأ تشغيل معالج الإعداد، واتبع تعليمات معالج الإعداد<br>
    <img src="/words/net/installation/aspose-words-setup-1.png" alt="Aspose-كلمات-الإعداد-1" style="width:500px"/>
 3. عندما يكمل معالج الإعداد عملية التثبيت، ستكون الملفات المطلوبة متاحة في المجلد الموجود في مسار المجلد المقدم<br>

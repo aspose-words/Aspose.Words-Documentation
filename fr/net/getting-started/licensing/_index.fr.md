@@ -61,13 +61,13 @@ Après avoir acheté une licence, vous devez lire attentivement les informations
 Les licences peuvent être appliquées à partir de différents endroits:
 
 * Chemin explicite
-* Le dossier contenant le fichier *Aspose.Words.dll*
-* Le dossier contenant l'assembly qui a appelé *Aspose.Words.dll*
-* Le dossier contenant l'entrée assembly (votre *.exe*)
-* Une ressource intégrée dans l'assembly est appelée *Aspose.Words.dll*
+* Le dossier contenant le fichier `Aspose.Words.dll`
+* Le dossier contenant l'assembly qui a appelé `Aspose.Words.dll`
+* Le dossier contenant l'entrée assembly (votre `.exe`)
+* Une ressource intégrée dans l'assembly est appelée `Aspose.Words.dll`
 * En tant que licence mesurée – un nouveau mécanisme de licence
 
-Lorsque vous référencez *Aspose.Words.dll* dans l'application, la bibliothèque est copiée dans votre répertoire de sortie (sauf si *Copier local* dans les propriétés de cette entrée est défini sur false). Souvent, le moyen le plus simple de définir une licence consiste à placer le fichier de licence dans le même dossier que *Aspose.Words.dll* et à spécifier uniquement le nom du fichier sans le chemin.
+Lorsque vous référencez `Aspose.Words.dll` dans l'application, la bibliothèque est copiée dans votre répertoire de sortie (sauf si *Copier local* dans les propriétés de cette entrée est défini sur false). Souvent, le moyen le plus simple de définir une licence consiste à placer le fichier de licence dans le même dossier que `Aspose.Words.dll` et à spécifier uniquement le nom du fichier sans le chemin.
 
 {{% alert color="primary" %}}
 

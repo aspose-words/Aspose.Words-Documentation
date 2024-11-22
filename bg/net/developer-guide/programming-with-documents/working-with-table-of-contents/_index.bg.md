@@ -109,7 +109,7 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 
 <p>![todo:image_alt_text](/words/net/working-with-table-of-contents/working-with-table-of-contents-5.png)</p>
 
-<p>На `TC` Самите полета също могат да имат {several, `multiple`, a few, `many`, numerous} превключвателите са настроени. Това са:</p>
+<p>На `TC` Самите полета също могат да имат `{several, multiple, a few, many, numerous}` превключвателите са настроени. Това са:</p>
 
 <p>- По-горе е обяснено. *</p>
 

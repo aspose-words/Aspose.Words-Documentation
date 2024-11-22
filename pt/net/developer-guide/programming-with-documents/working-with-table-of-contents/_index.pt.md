@@ -108,7 +108,7 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 
 <p>![todo:image_alt_text](/words/net/working-with-table-of-contents/working-with-table-of-contents-5.png)</p>
 
-<p>Os próprios campos `TC` também podem ter opções {several, `multiple`, a few, `many`, numerous} definidas. Estes são:</p>
+<p>Os próprios campos `TC` também podem ter opções `{several, multiple, a few, many, numerous}` definidas. Estes são:</p>
 
 <p>- *\F – Explicado acima.*</p>
 

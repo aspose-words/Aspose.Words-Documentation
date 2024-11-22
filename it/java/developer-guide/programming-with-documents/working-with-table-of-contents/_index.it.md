@@ -125,7 +125,7 @@ Se un interruttore non è elencato qui, è attualmente non supportato. Tutti gli
 
 <p>![table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-6.png)</p>
 
-<p><br/><br/>The `TC` campi possono anche avere {several, `multiple`, a few, `many`, numerous} set di interruttori. Questi sono:</p>
+<p><br/><br/>The `TC` campi possono anche avere `{several, multiple, a few, many, numerous}` set di interruttori. Questi sono:</p>
 
 <p>- \F – Spiegato sopra. #</p>
 

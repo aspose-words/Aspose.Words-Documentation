@@ -56,7 +56,7 @@ Aspose.Words for .NET 可以通过直接从 [下载部分](https://releases.aspo
 
 要安装 Aspose.Words for .NET，请按照下列步骤操作：
 
-1. 从 [下载部分](https://releases.aspose.com/words/) 下载 `Aspose.Words_`{LatestVersion}.msi
+1. 从 [下载部分](https://releases.aspose.com/words/) 下载 `Aspose.Words_{LatestVersion}.msi`
 2. 双击下载的文件，启动安装向导，按照安装向导的说明进行操作<br>
    <img src="/words/net/installation/aspose-words-setup-1.png" alt="aspose-单词-setup-1" style="width:500px"/>
 3. 当安装向导完成安装时，所需的文件将在提供的文件夹路径的文件夹中可用<br>

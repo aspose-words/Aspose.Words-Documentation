@@ -108,7 +108,7 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 
 <p>![todo:image_alt_text](/words/net/working-with-table-of-contents/working-with-table-of-contents-5.png)</p>
 
-<p>ช่อง `TC` เองก็สามารถตั้งค่าสวิตช์ได้ {several, `multiple`, a few, `many`, numerous} ชุดเช่นกัน เหล่านี้คือ:</p>
+<p>ช่อง `TC` เองก็สามารถตั้งค่าสวิตช์ได้ `{several, multiple, a few, many, numerous}` ชุดเช่นกัน เหล่านี้คือ:</p>
 
 <p>- *\F – อธิบายไว้ข้างต้น*</p>
 

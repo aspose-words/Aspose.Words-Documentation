@@ -109,7 +109,7 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 
 <p>![todo:image_alt_text](/words/net/working-with-table-of-contents/working-with-table-of-contents-5.png)</p>
 
-<p>Про нас `TC` полів також можуть мати {several, `multiple`, a few, `many`, numerous} комплект вимикачів. Це:</p>
+<p>Про нас `TC` полів також можуть мати `{several, multiple, a few, many, numerous}` комплект вимикачів. Це:</p>
 
 <p>- *\F - Передбачено вище. Ім'я *</p>
 

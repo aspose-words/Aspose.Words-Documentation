@@ -61,13 +61,13 @@ Dopo aver acquistato una licenza, è necessario leggere attentamente le informaz
 Le licenze possono essere applicate da varie località:
 
 * Percorso esplicito
-* La cartella contenente il file *Aspose.Words.dll*
-* La cartella contenente l'assembly chiamato *Aspose.Words.dll*
-* La cartella contenente l'assembly della voce (il tuo *.exe*)
-* Una risorsa incorporata nell'assembly è denominata *Aspose.Words.dll*
+* La cartella contenente il file `Aspose.Words.dll`
+* La cartella contenente l'assembly chiamato `Aspose.Words.dll`
+* La cartella contenente l'assembly della voce (il tuo `.exe`)
+* Una risorsa incorporata nell'assembly è denominata `Aspose.Words.dll`
 * Come licenza misurata: un nuovo meccanismo di licenza
 
-Quando si fa riferimento a *Aspose.Words.dll* nell'applicazione, la libreria viene copiata nella directory di output (a meno che *Copia locale* nelle proprietà per quella voce non sia impostato su false). Spesso il modo più semplice per impostare una licenza è posizionare il file di licenza nella stessa cartella di *Aspose.Words.dll* e specificare solo il nome del file senza il percorso.
+Quando si fa riferimento a `Aspose.Words.dll` nell'applicazione, la libreria viene copiata nella directory di output (a meno che *Copia locale* nelle proprietà per quella voce non sia impostato su false). Spesso il modo più semplice per impostare una licenza è posizionare il file di licenza nella stessa cartella di `Aspose.Words.dll` e specificare solo il nome del file senza il percorso.
 
 {{% alert color="primary" %}}
 

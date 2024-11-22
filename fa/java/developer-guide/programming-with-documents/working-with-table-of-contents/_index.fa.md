@@ -125,7 +125,7 @@ Aspose.Words اجازه می دهد تا شما به طور کامل به روز
 
 <p>![table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-6.png)</p>
 
-<p><br/><br/>The The The The The The `TC` خودشان هم می توانند {several, `multiple`, a few, `many`, numerous} سوئیچ های تنظیم شده اینها عبارتند از:</p>
+<p><br/><br/>The The The The The The `TC` خودشان هم می توانند `{several, multiple, a few, many, numerous}` سوئیچ های تنظیم شده اینها عبارتند از:</p>
 
 <p>\F - توضیح داده شده در بالا. *</p>
 

@@ -37,7 +37,7 @@ Aspose.Words가 스타일을 기반으로 콘텐츠 검색을 얼마나 쉽게 �
 
 ### 코드
 
-스타일 기반 쿼리의 구현은 이미 존재하는 도구를 사용하기 때문에 Aspose.Words 문서 개체 모델에서 매우 간단합니다. 이 솔루션에는 두 가지 클래스 메서드가 구현됩니다.# **ParagraphsByStyleName** – 이 메서드는 해당 단락의 배열을 검색합니다. 특정 스타일 이름을 가진 문서.# **RunsByStyleName** – 이 방법은 특정 스타일 이름을 가진 문서에서 실행되는 배열을 검색합니다. 이 두 방법 모두 매우 유사하며 유일한 차이점은 노드 유형과 스타일 표현입니다. 단락 내의 정보 및 노드를 실행합니다. 여기에 ParagraphsByStyleName의 구현이 있습니다. 아래 예에서는 지정된 스타일로 서식이 지정된 모든 단락을 찾습니다.
+스타일 기반 쿼리의 구현은 이미 존재하는 도구를 사용하기 때문에 Aspose.Words 문서 개체 모델에서 매우 간단합니다. 이 솔루션에는 두 가지 클래스 메서드가 구현됩니다.**ParagraphsByStyleName** – 이 메서드는 해당 단락의 배열을 검색합니다. 특정 스타일 이름을 가진 문서. **RunsByStyleName** – 이 방법은 특정 스타일 이름을 가진 문서에서 실행되는 배열을 검색합니다. 이 두 방법 모두 매우 유사하며 유일한 차이점은 노드 유형과 스타일 표현입니다. 단락 내의 정보 및 노드를 실행합니다. 여기에 ParagraphsByStyleName의 구현이 있습니다. 아래 예에서는 지정된 스타일로 서식이 지정된 모든 단락을 찾습니다.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Styles-ExtractContentBasedOnStyles-ParagraphsByStyleName.cs" >}}
 

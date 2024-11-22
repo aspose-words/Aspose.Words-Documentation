@@ -61,13 +61,13 @@ Setelah membeli lisensi, Anda perlu membaca informasi di halaman [Melindungi Lis
 Lisensi dapat diterapkan dari berbagai lokasi:
 
 * Jalur eksplisit
-* Folder yang berisi file *Aspose.Words.dll*
-* Folder yang berisi perakitan yang disebut *Aspose.Words.dll*
-* Folder yang berisi rakitan entri (*.exe* Anda)
-* Sumber daya yang tertanam dalam rakitan disebut *Aspose.Words.dll*
+* Folder yang berisi file `Aspose.Words.dll`
+* Folder yang berisi perakitan yang disebut `Aspose.Words.dll`
+* Folder yang berisi rakitan entri (`.exe` Anda)
+* Sumber daya yang tertanam dalam rakitan disebut `Aspose.Words.dll`
 * Sebagai Lisensi Bermeter – mekanisme perizinan baru
 
-Saat Anda mereferensikan *Aspose.Words.dll* dalam aplikasi, pustaka akan disalin ke direktori keluaran Anda (kecuali *Salin Lokal* di properti entri tersebut disetel ke false). Seringkali cara termudah untuk menetapkan lisensi adalah dengan menempatkan file lisensi di folder yang sama dengan *Aspose.Words.dll* dan hanya menentukan nama file tanpa jalurnya.
+Saat Anda mereferensikan `Aspose.Words.dll` dalam aplikasi, pustaka akan disalin ke direktori keluaran Anda (kecuali *Salin Lokal* di properti entri tersebut disetel ke false). Seringkali cara termudah untuk menetapkan lisensi adalah dengan menempatkan file lisensi di folder yang sama dengan `Aspose.Words.dll` dan hanya menentukan nama file tanpa jalurnya.
 
 {{% alert color="primary" %}}
 

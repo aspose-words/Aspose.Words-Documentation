@@ -61,13 +61,13 @@ Aspose.Words 是一款令人难以置信的软件，开发人员可以在购买�
 可以从不同地点申请许可证：
 
 * 显式路径
-* 包含 *Aspose.Words.dll* 文件的文件夹
-* 包含名为 *Aspose.Words.dll* 的程序集的文件夹
-* 包含条目程序集的文件夹（您的 *.exe*）
-* 程序集中的嵌入资源称为 *Aspose.Words.dll*
+* 包含 `Aspose.Words.dll` 文件的文件夹
+* 包含名为 `Aspose.Words.dll` 的程序集的文件夹
+* 包含条目程序集的文件夹（您的 `.exe`）
+* 程序集中的嵌入资源称为 `Aspose.Words.dll`
 * 作为计量许可证 – 一种新的许可机制
 
-当您在应用程序中引用 *Aspose.Words.dll* 时，该库将被复制到您的输出目录（除非该条目属性中的 *Copy Local* 设置为 false）。通常，设置许可证的最简单方法是将许可证文件放置在与 *Aspose.Words.dll* 相同的文件夹中，并仅指定文件名而不指定路径。
+当您在应用程序中引用 `Aspose.Words.dll` 时，该库将被复制到您的输出目录（除非该条目属性中的 *Copy Local* 设置为 false）。通常，设置许可证的最简单方法是将许可证文件放置在与 `Aspose.Words.dll` 相同的文件夹中，并仅指定文件名而不指定路径。
 
 {{% alert color="primary" %}}
 

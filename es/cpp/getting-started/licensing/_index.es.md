@@ -60,12 +60,12 @@ Después de comprar una licencia, debe leer detenidamente la información en pá
 Las licencias se pueden aplicar desde varias ubicaciones:
 
 * Ruta explícita
-* La carpeta que contiene el archivo `Aspose.Words_` \*.dll
-* La carpeta que contiene el ensamblado que llamó a `Aspose.Words_`\*.dll
-* La carpeta que contiene el conjunto de entrada (su *.exe*)
-* Un recurso incrustado en el ensamblado se llama `Aspose.Words_`\*.dll
+* La carpeta que contiene el archivo `Aspose.Words_\*.dll`
+* La carpeta que contiene el ensamblado que llamó a `Aspose.Words_\*.dll`
+* La carpeta que contiene el conjunto de entrada (su `.exe`)
+* Un recurso incrustado en el ensamblado se llama `Aspose.Words_\*.dll`
 
-A menudo, la forma más sencilla de establecer una licencia es colocar el archivo de licencia en la misma carpeta que `Aspose.Words_` \*.dll y especificar solo el nombre del archivo sin la ruta.
+A menudo, la forma más sencilla de establecer una licencia es colocar el archivo de licencia en la misma carpeta que `Aspose.Words_\*.dll` y especificar solo el nombre del archivo sin la ruta.
 
 {{% alert color="primary" %}}
 

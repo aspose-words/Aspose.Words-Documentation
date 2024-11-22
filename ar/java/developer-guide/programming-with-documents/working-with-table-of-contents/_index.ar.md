@@ -125,7 +125,7 @@ Aspose.Words يسمح لك بتحديث كامل `TOC` مع بعض خطوط ال
 
 <p>![table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-6.png)</p>
 
-<p><br/><br/>The `TC` الحقول نفسها يمكن أن تكون {several, `multiple`, a few, `many`, numerous} مفاتيح ثابتة وهي:</p>
+<p><br/><br/>The `TC` الحقول نفسها يمكن أن تكون `{several, multiple, a few, many, numerous}` مفاتيح ثابتة وهي:</p>
 
 <p>-إف. ♪</p>
 

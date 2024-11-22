@@ -37,7 +37,7 @@ V tomto vzorkovacím dokumentu je text formátovaný podle odst. 1 písm. a) a o
 
 ### Kód
 
-Implementace stylového dotazu je poměrně jednoduchá v Aspose.Words model objektu dokumentu, protože prostě používá nástroje, které jsou již na místě. Pro toto řešení jsou implementovány dvě třídní metody:# **ParagraphsByStyleName** - Co? Tato metoda získává pole těchto odstavců v dokumentu, které mají specifický název stylu. # **RunsByStyleName** - Co? Tato metoda získává řadu těch, které běží v dokumentu, který má specifický název stylu. Obě tyto metody jsou velmi podobné, jedinými rozdíly jsou typy uzlů a zastoupení stylových informací v odstavci a spustit uzly. Zde je provádění odstavců ByStyleName: Níže najdete všechny odstavce formátované zadaným stylem.
+Implementace stylového dotazu je poměrně jednoduchá v Aspose.Words model objektu dokumentu, protože prostě používá nástroje, které jsou již na místě. Pro toto řešení jsou implementovány dvě třídní metody: **ParagraphsByStyleName** - Co? Tato metoda získává pole těchto odstavců v dokumentu, které mají specifický název stylu. **RunsByStyleName** - Co? Tato metoda získává řadu těch, které běží v dokumentu, který má specifický název stylu. Obě tyto metody jsou velmi podobné, jedinými rozdíly jsou typy uzlů a zastoupení stylových informací v odstavci a spustit uzly. Zde je provádění odstavců ByStyleName: Níže najdete všechny odstavce formátované zadaným stylem.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Styles-ExtractContentBasedOnStyles-ParagraphsByStyleName.cs" >}}
 

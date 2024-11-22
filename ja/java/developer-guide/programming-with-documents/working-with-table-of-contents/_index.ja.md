@@ -125,7 +125,7 @@ Aspose.Words あなたは完全に更新することができます `TOC` コー
 
 <p>![table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-6.png)</p>
 
-<p><br/><br/>ザ・オブ・ザ・ `TC` フィールド自身も持っている {several, `multiple`, a few, `many`, numerous} スイッチセット。 これらは:</p>
+<p><br/><br/>ザ・オブ・ザ・ `TC` フィールド自身も持っている `{several, multiple, a few, many, numerous}` スイッチセット。 これらは:</p>
 
 <p>- \F - 上記の説明。 * 必須</p>
 

@@ -108,7 +108,7 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 
 <p>![todo:image_alt_text](/words/net/working-with-table-of-contents/working-with-table-of-contents-5.png)</p>
 
-<p>`TC` フィールド自体にも {several, `multiple`, a few, `many`, numerous} スイッチを設定することができます。これらは：</p>
+<p>`TC` フィールド自体にも `{several, multiple, a few, many, numerous}` スイッチを設定することができます。これらは：</p>
 
 <p>- *\F – 上で説明しました。*</p>
 

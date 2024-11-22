@@ -109,7 +109,7 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 
 <p>![todo:image_alt_text](/words/net/working-with-table-of-contents/working-with-table-of-contents-5.png)</p>
 
-<p>• `TC` pole sama o sobě mohou mít {several, `multiple`, a few, `many`, numerous} přepínače nastaveny. Jedná se o:</p>
+<p>• `TC` pole sama o sobě mohou mít `{several, multiple, a few, many, numerous}` přepínače nastaveny. Jedná se o:</p>
 
 <p>- Vysvětlováno výše. *</p>
 

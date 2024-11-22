@@ -109,7 +109,7 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 
 <p>![todo:image_alt_text](/words/net/working-with-table-of-contents/working-with-table-of-contents-5.png)</p>
 
-<p>The `TC` Сами поля могут иметь {several, `multiple`, a few, `many`, numerous} Переключатели установлены. Это:</p>
+<p>The `TC` Сами поля могут иметь `{several, multiple, a few, many, numerous}` Переключатели установлены. Это:</p>
 
 <p>*F - описано выше. *</p>
 

@@ -125,7 +125,7 @@ Pokud zde není uveden spínač, není v současné době podporován. Všechny 
 
 <p>![table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-6.png)</p>
 
-<p><br/><br/>The `TC` Pole sama o sobě mohou mít {several, `multiple`, a few, `many`, numerous} přepínače nastaveny. Jedná se o:</p>
+<p><br/><br/>The `TC` Pole sama o sobě mohou mít `{several, multiple, a few, many, numerous}` přepínače nastaveny. Jedná se o:</p>
 
 <p>- Vysvětlováno výše. *</p>
 

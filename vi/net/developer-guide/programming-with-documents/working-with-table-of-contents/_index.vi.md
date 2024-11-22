@@ -108,7 +108,7 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 
 <p>![todo:image_alt_text](/words/net/working-with-table-of-contents/working-with-table-of-contents-5.png)</p>
 
-<p>Bản thân các trường `TC` cũng có thể được đặt công tắc {several, `multiple`, a few, `many`, numerous}. Đó là:</p>
+<p>Bản thân các trường `TC` cũng có thể được đặt công tắc `{several, multiple, a few, many, numerous}`. Đó là:</p>
 
 <p>- *\F – Đã giải thích ở trên.*</p>
 

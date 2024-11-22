@@ -61,13 +61,13 @@ Po zakoupení licence si musíte pečlivě přečíst informace na stránce [Och
 Licence lze uplatnit z různých míst:
 
 * Explicitní cesta
-* Složka obsahující *Aspose.Words.dll* soubor
-* Složka obsahující sestavu, která volala *Aspose.Words.dll*
-* Složka obsahující vstupní sestavu (vaše *.exe*)
-* Vložený zdroj v sestavě se nazývá *Aspose.Words.dll*
+* Složka obsahující `Aspose.Words.dll` soubor
+* Složka obsahující sestavu, která volala `Aspose.Words.dll`
+* Složka obsahující vstupní sestavu (vaše `.exe`)
+* Vložený zdroj v sestavě se nazývá `Aspose.Words.dll`
 * Jako měřená licence, nový licenční mechanismus
 
-Když mluvíte *Aspose.Words.dll* v aplikaci je knihovna zkopírována do výstupního adresáře (pokud *Copy Local* ve vlastnostech pro tuto položku není nastavena na false). Často nejjednodušší způsob, jak nastavit licenci, je umístit licenční soubor do stejné složky jako *Aspose.Words.dll* a zadejte pouze název souboru bez cesty.
+Když mluvíte `Aspose.Words.dll` v aplikaci je knihovna zkopírována do výstupního adresáře (pokud *Copy Local* ve vlastnostech pro tuto položku není nastavena na false). Často nejjednodušší způsob, jak nastavit licenci, je umístit licenční soubor do stejné složky jako `Aspose.Words.dll` a zadejte pouze název souboru bez cesty.
 
 {{% alert color="primary" %}}
 
