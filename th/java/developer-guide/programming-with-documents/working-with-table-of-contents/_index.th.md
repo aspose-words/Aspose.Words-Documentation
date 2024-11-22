@@ -61,7 +61,7 @@ Aspose.Words ให้คุณได้ปรับปรุง `TOC` ด้ว
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertATableOfContentsField-UpdateTableOfContents.java" >}}
 
-การเรียกครั้งแรก [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) จะสร้าง <span notrans="<span notrans=" `TOC`"=""></span>'"> รายการข้อความทั้งหมดมีคนอยู่ และ `TOC` ดูเหมือนเกือบเสร็จสมบูรณ์แล้ว สิ่งเดียวที่ขาดไป คือหมายเลขหน้าสําหรับตอนนี้คือ "?".
+การเรียกครั้งแรก [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) จะสร้าง `TOC`'"> รายการข้อความทั้งหมดมีคนอยู่ และ `TOC` ดูเหมือนเกือบเสร็จสมบูรณ์แล้ว สิ่งเดียวที่ขาดไป คือหมายเลขหน้าสําหรับตอนนี้คือ "?".
 
 การเรียกครั้งที่สอง [Document.updatePageLayout()](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout) จะสร้างแผนผังของเอกสารในหน่วยความจํา นี่ต้องเสร็จสิ้นในการรวบรวมหมายเลขหน้าของรายการ ตัว เลข หน้า ที่ ถูก ต้อง ซึ่ง คํานวณ จาก การ เรียก นี้ จะ ถูก แทรก เข้า ไป ใน TOC.
 

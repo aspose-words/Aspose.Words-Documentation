@@ -41,7 +41,7 @@ Kami menggunakan format [Font](https://reference.aspose.com/words/net/aspose.wor
 |  **Italic**<br /> `*italic text*` |  `Font.Italic = true`  |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}}  |  |
 |  **Strikethrough**<br /> `~Strikethrough text~` |  `Font.StrikeThrough = true`  |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
@@ -76,7 +76,7 @@ Tabel di bawah menunjukkan contoh penggunaan blok Markdown Leaf di Aspose.Words:
 |  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`, dimana (1&lt;= N &lt;= 9).<br /> Ini diterjemahkan ke dalam gaya bawaan dan harus sesuai dengan pola yang ditentukan (tidak ada sufiks atau awalan yang diperbolehkan).<br /> Jika tidak, itu hanya akan menjadi paragraf biasa dengan gaya yang sesuai |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}}  |                                                                |
 |  **Setext Heading**<br /> `===` (jika Pos level 1),<br /> `---` (jika Heading level 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, berdasarkan gaya `“Heading N”`.<br /> Jika (N &gt;= 2), maka `“Heading 2”` akan digunakan, jika tidak `“Heading 1”`.<br /> Sufiks apa pun diperbolehkan, tetapi pengimpor Aspose.Words menggunakan angka "1" dan "2" masing-masing |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 builder.ParagraphFormat.StyleName = "Heading 1";
@@ -120,7 +120,7 @@ Tabel di bawah menunjukkan contoh penggunaan Markdown Complex Containers di Aspo
 |  fitur Markdown |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **Quote**<br /> `> quote,`<br /> `>> nested quote` |  `ParagraphFormat.StyleName = “Quote[some suffix]”`<br /> Akhiran pada nama gaya bersifat opsional, namun importir Aspose.Words menggunakan nomor urut 1, 2, 3,…. dalam kasus kutipan bersarang.<br /> Penyarangannya ditentukan melalui gaya yang diwariskan |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // By default a document stores blockquote style for the first level.
@@ -157,7 +157,7 @@ Aspose.Words juga memungkinkan untuk menerjemahkan tabel ke DOM, seperti yang di
 |  fitur Markdown |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  `Table`<br /> `a|b`<br />`-|-`<br />`c|d` |  Kelas [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) dan [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Add the first row.

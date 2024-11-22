@@ -174,7 +174,7 @@ Aspose.Words unterstützt alle Datums- und Uhrzeitformatierungsschalter, die in 
 
 ### Mail Merge Felder
 
-Aspose.Words schränkt die Komplexität von mail merge -Feldern in Ihren Dokumenten nicht ein, unterstützt verschachtelte `IF` - und Formelfelder und kann sogar den Namen des Seriendruckfelds mithilfe einer Formel berechnen.
+Aspose.Words schränkt die Komplexität von Mail Merge -Feldern in Ihren Dokumenten nicht ein, unterstützt verschachtelte `IF` - und Formelfelder und kann sogar den Namen des Seriendruckfelds mithilfe einer Formel berechnen.
 
 Einige Beispiele für mail merge-Felder, die Aspose.Words unterstützt:
 
@@ -223,6 +223,6 @@ Andererseits formatiert Microsoft Word jedes einzelne Feld basierend auf der Spr
 
 Die [Document](https://reference.aspose.com/words/cpp/class/aspose.words.document) -Klasse stellt eine [FieldOptions](https://reference.aspose.com/words/cpp/aspose.words/document/get_fieldoptions/) -Eigenschaft bereit, die Elemente enthält, mit denen gesteuert werden kann, wie Felder im Dokument aktualisiert werden.
 
-Das folgende Codebeispiel zeigt, wie angegeben wird, wo die Kultur für die Datumsformatierung während der Feldaktualisierung und mail merge ausgewählt wird:
+Das folgende Codebeispiel zeigt, wie angegeben wird, wo die Kultur für die Datumsformatierung während der Feldaktualisierung und Mail Merge ausgewählt wird:
 
 EXAMPLE

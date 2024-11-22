@@ -33,12 +33,12 @@ Microservices, בשילוב עם מיכליזציה מאפשר לשלב בקלו
 ![net-console-application](https://lh5.googleusercontent.com/PArWoC8_leOnhtaF-5BMb3b4jHwI3G03WoyMK3bXZpsQKN50YzvEQBwoRniyCWKIcdR0EZGuwn3S8Z0ZK6FQ4cjMSWgH3CwSqReW4bMt-3OjZjrdt9yuWbkMdhyNjwwaaYPC5Ylr)<br>
 1.1 1. התקן את האחרון Aspose.Words גרסה NuGet. סקי שארפ יותקן כתלויות Aspose.Words.<br/>
 ![skiasharp-dependency](https://lh3.googleusercontent.com/zWpvB5TLahC_OpJrHDML2131Vj_VK1vryTZBd_C3ZeOBdoUOc2vF_axEvwu9tytaL1maJv3qA2KoyP5fn7ae4_3cL23sXyoLoVysjgu8XEp6l0B2w5hgR9teh95_9mFd9X-4DGNN)<br>
-1.1 1. מאז היישום יופעל <span notrans="<span notrans=" Linux"=""></span>" הילידים המתאימים Linux יש להתקין נכסים. התחל עם Debian תמונת בסיס והתקנה `SkiaSharp.NativeAssets`.Linux.
+1.1 1. מאז היישום יופעל Linux הילידים המתאימים Linux יש להתקין נכסים. התחל עם Debian תמונת בסיס והתקנה `SkiaSharp.NativeAssets`.Linux.
 1.1 1. כאשר כל התלויים הנדרשים מתווספים, כתבו תוכנית פשוטה שיוצרת מסמך "Hello World" ומצילים אותו בכל הפורמטים הנתמכות:<br/>
 
 {{< gist "aspose-words-gists" "47e15ad749897be465deebc2ff3e76dd" "aspose-words-docker.cs" >}}
 
-שימו לב כי התיקיה "TestOut" מוגדרת כתיקייה פלטה לשמירת מסמכי פלט. בעת הפעלת היישום ב <span notrans="<span notrans=" Docker"=""></span>" תיקיה על המכונה המארחת תוצב לתיקיה זו במיכל. זה יאפשר לך לראות בקלות את הפלט שנוצר על ידי Aspose.Words בתוך Docker מיכל
+שימו לב כי התיקיה "TestOut" מוגדרת כתיקייה פלטה לשמירת מסמכי פלט. בעת הפעלת היישום ב Docker תיקיה על המכונה המארחת תוצב לתיקיה זו במיכל. זה יאפשר לך לראות בקלות את הפלט שנוצר על ידי Aspose.Words בתוך Docker מיכל
 
 ### לתפוס a a Dockerfile
 

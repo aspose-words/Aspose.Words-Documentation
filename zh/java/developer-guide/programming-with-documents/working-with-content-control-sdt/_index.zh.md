@@ -10,7 +10,7 @@ url: /zh/java/working-with-content-control-sdt/
 timestamp: 2024-01-31-14-23-37
 ---
 
-内 Microsoft Word, 您可以从模板开始创建窗体,并添加内容控件,包括复选框、文本框、摘取日期和下拉列表。 内 <span notrans="<span notrans=" Aspose.Words"=""></span>",> a 结构化文档标签或任何装入的文档的内容控制 Aspose.Words 以结构文件标签节点导入。 结构化的文档标记(SDT或内容控制)可以将客户定义的语义及其行为和外观嵌入到文档中.
+内 Microsoft Word, 您可以从模板开始创建窗体,并添加内容控件,包括复选框、文本框、摘取日期和下拉列表。 内 Aspose.Words a 结构化文档标签或任何装入的文档的内容控制 Aspose.Words 以结构文件标签节点导入。 结构化的文档标记(SDT或内容控制)可以将客户定义的语义及其行为和外观嵌入到文档中.
 
 结构文件 标记可以在以下位置的文档中发生:
 

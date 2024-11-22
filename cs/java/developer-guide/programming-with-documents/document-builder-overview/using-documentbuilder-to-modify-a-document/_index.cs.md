@@ -204,7 +204,7 @@ Vložení nového textu tímto způsobem nenahrazuje stávající text záložky
 
 ### Přesun do `Merge` Pole
 
-Někdy budete muset provést "ruční" mail merge podání `DocumentBuilder` nebo vyplnit pole sloučení zvláštním způsobem uvnitř mail merge Správce akcí. Tehdy [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) Mohlo by to být užitečné. Metoda přijímá název pole sloučení. Přesune kurzor do polohy těsně za zadaným polem sloučení a odstraní pole sloučení. Následující příklad kódu ukazuje, jak přesunout kurzor do polohy těsně za zadaným polem sloučení.
+Někdy budete muset provést "ruční" Mail Merge podání `DocumentBuilder` nebo vyplnit pole sloučení zvláštním způsobem uvnitř Mail Merge Správce akcí. Tehdy [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) Mohlo by to být užitečné. Metoda přijímá název pole sloučení. Přesune kurzor do polohy těsně za zadaným polem sloučení a odstraní pole sloučení. Následující příklad kódu ukazuje, jak přesunout kurzor do polohy těsně za zadaným polem sloučení.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToMergeField-DocumentBuilderMoveToMergeField.java" >}}
 

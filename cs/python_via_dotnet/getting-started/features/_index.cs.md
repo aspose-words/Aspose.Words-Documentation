@@ -109,16 +109,16 @@ Můžete použít Aspose.Words jako vlastní reportingové řešení. Navrhněte
 
 |  Funkce | Python via .NET |
 |  :-  |  :-  |
-| Použít všechny normy Microsoft Word mail merge pole ve vašich zprávách včetně `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, Greetingline. | {{< emoticons/tick >}} |
-| Provést mail merge pro dokumenty, které obsahují i nejsložitější a hnízděné `IF` Pole a vzorce. | {{< emoticons/tick >}} |
-| Populovat a dynamicky růst tabulky nebo fragmenty v dokumentu ze svého zdroje dat pomocí mail merge regiony. | {{< emoticons/cross >}} |
+| Použít všechny normy Microsoft Word Mail Merge pole ve vašich zprávách včetně `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, Greetingline. | {{< emoticons/tick >}} |
+| Provést Mail Merge pro dokumenty, které obsahují i nejsložitější a hnízděné `IF` Pole a vzorce. | {{< emoticons/tick >}} |
+| Populovat a dynamicky růst tabulky nebo fragmenty v dokumentu ze svého zdroje dat pomocí Mail Merge regiony. | {{< emoticons/cross >}} |
 | Snadno generovat zprávy, které obsahují mistr-detail (rodič-dítě) údaje, jako je řád / OrderDetails. | {{< emoticons/cross >}} |
 | Populovat dokumenty s daty z jakékoli .NET zdroj dat jako DataSet, DataTable, DataView, DataReader nebo ADO Recordset. | {{< emoticons/cross >}} |
 | Populovat dokumenty z jakéhokoli zdroje dat, jako je dotaz LINQ, XML soubor nebo obchodní objekty zavedením [IMailMergeDataSource](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/imailmergedatasource/) rozhraní. | {{< emoticons/cross >}} |
 | Převezměte přesnou kontrolu, například formátování čísel, nad tím, jak jsou vaše data sloučena pomocí událostí. | {{< emoticons/cross >}} |
 | Vložit obrázky během mail merge. | {{< emoticons/tick >}} |
-| Programově vytvořit nebo upravit a Microsoft Word mail merge zdroj dat pro dokument. Zachovat mail merge nastavení a zdroje dat. | {{< emoticons/tick >}} |
-| Návrat mail merge jména polí. | {{< emoticons/tick >}} |
+| Programově vytvořit nebo upravit a Microsoft Word Mail Merge zdroj dat pro dokument. Zachovat Mail Merge nastavení a zdroje dat. | {{< emoticons/tick >}} |
+| Návrat Mail Merge jména polí. | {{< emoticons/tick >}} |
 
 ## Funkce hlášení
 

@@ -204,7 +204,7 @@ Inserir novo texto desta forma não substitui o texto existente do marcador. Not
 
 ### Mudar para um `Merge` Campo
 
-Às vezes você pode precisar executar um "manual" mail merge usando `DocumentBuilder` ou preencher um campo de mesclagem de uma forma especial dentro de um mail merge manipulador de eventos. É quando [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) Pode ser útil. O método aceita o nome do campo de mesclagem. Ele move o cursor para uma posição logo além do campo de mesclagem especificado e remove o campo de mesclagem. O exemplo de código a seguir mostra como mover o cursor para uma posição além do campo de mesclagem especificado.
+Às vezes você pode precisar executar um "manual" Mail Merge usando `DocumentBuilder` ou preencher um campo de mesclagem de uma forma especial dentro de um Mail Merge manipulador de eventos. É quando [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) Pode ser útil. O método aceita o nome do campo de mesclagem. Ele move o cursor para uma posição logo além do campo de mesclagem especificado e remove o campo de mesclagem. O exemplo de código a seguir mostra como mover o cursor para uma posição além do campo de mesclagem especificado.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToMergeField-DocumentBuilderMoveToMergeField.java" >}}
 

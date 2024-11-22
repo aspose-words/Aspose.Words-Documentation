@@ -153,7 +153,7 @@ Les clients peuvent spécifier Localiser au niveau du terrain maintenant et peut
 
 ## Insérer HTML
 
-Vous pouvez facilement insérer une chaîne HTML qui contient un fragment HTML ou un document HTML entier dans le document Word. Passez cette chaîne au DocumentBuilder. insérer Méthode Html. Une des implémentations utiles de la méthode est de stocker une chaîne HTML dans une base de données et de l'insérer dans le document pendant mail merge pour obtenir le contenu formaté ajouté au lieu de le construire en utilisant différentes méthodes du constructeur de documents. L'exemple de code suivant montre les insertions HTML dans un document en utilisant DocumentBuilder.
+Vous pouvez facilement insérer une chaîne HTML qui contient un fragment HTML ou un document HTML entier dans le document Word. Passez cette chaîne au DocumentBuilder. insérer Méthode Html. Une des implémentations utiles de la méthode est de stocker une chaîne HTML dans une base de données et de l'insérer dans le document pendant Mail Merge pour obtenir le contenu formaté ajouté au lieu de le construire en utilisant différentes méthodes du constructeur de documents. L'exemple de code suivant montre les insertions HTML dans un document en utilisant DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHtml-DocumentBuilderInsertHtml.java" >}}
 

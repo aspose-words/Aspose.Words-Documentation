@@ -36,7 +36,7 @@ The [FontSourceBase](https://reference.aspose.com/words/java/com.aspose.words/fo
 
 في معظم الحالات Windows ولا يواجه المستعملون مشاكل كبيرة مع المخطّطات المفقودة أو المخططات غير الصحيحة. عادة Aspose.Words ويمر بوثيقة، وعندما يصادف حلقة وصل، يجلب بنجاح البيانات الفوتوغرافية من ملف النظام.
 
-على <span notrans="<span notrans=" Windows"=""></span>" Aspose.Words أولاً يأخذ كل العناوين المتاحة من%windir%\Fonts ملف هذا المكان سينجح بالنسبة لك معظم الوقت أنت تحدد ملفاتك فقط إذا أردت ذلك Aspose.Words ويبحث أيضا عن أرقام إضافية مسجلة في HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts مفتاح التسجيل وبالإضافة إلى ذلك، Windows (10) تمكّن من تركيب اللوحات للمستعمل الحالي. الصمامات توضع في %userprofile%\AppData\Local\Microsoft\Windows\Fonts folder and also specified in the HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Fonts السجل، حيثما Aspose.Words سوف تبحث عن هذه العواطف.
+على Windows Aspose.Words أولاً يأخذ كل العناوين المتاحة من%windir%\Fonts ملف هذا المكان سينجح بالنسبة لك معظم الوقت أنت تحدد ملفاتك فقط إذا أردت ذلك Aspose.Words ويبحث أيضا عن أرقام إضافية مسجلة في HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts مفتاح التسجيل وبالإضافة إلى ذلك، Windows (10) تمكّن من تركيب اللوحات للمستعمل الحالي. الصمامات توضع في %userprofile%\AppData\Local\Microsoft\Windows\Fonts folder and also specified in the HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Fonts السجل، حيثما Aspose.Words سوف تبحث عن هذه العواطف.
 
 إذا كانت الوثيقة تحتوي على ملصقات Aspose.Words ويمكن قراءة البيانات المكتوبة ذات الصلة من الوثيقة واستخدامها لوضع مخطط الوثيقة. ويمكن أن تتضمن الوثائق أيضاً وصلات باللافتات التي لا توجد في مجلدات النظام، وفي هذه الحالة تأتي السيناريوهات التالية إلى العمل:
 
@@ -51,7 +51,7 @@ Aspose.Words سيبحثون عن الملصقات في مجلدات النظام
 
 #### أين Aspose.Words يبدو أن (ترايب فونت) على Linux
 
-مختلفة Linux والتوزيع قد يخزن اللوحات في ملفات مختلفة. Aspose.Words يبحث عن ملصقات في عدة مواقع بالخطأ Aspose.Words يتطلع إلى العواطف في جميع المواقع التالية: * /usr/share/fonts*/usr/local/share/fonts* /usr/X11R6/lib/X11/fonts* هذا السلوك الافتراضي سيعمل لصالح معظم الناس Linux التوزيعات، ولكن ليس مضموناً للعمل طوال الوقت، في هذه الحالة قد تحتاج إلى تحديد موقع true من النوع الذي يكتب بشكل صريح لتفعل هذا، عليك أن تعرف أين تُركّب (ترو تايب) على Linux التوزيع
+مختلفة Linux والتوزيع قد يخزن اللوحات في ملفات مختلفة. Aspose.Words يبحث عن ملصقات في عدة مواقع بالخطأ Aspose.Words يتطلع إلى العواطف في جميع المواقع التالية: `/usr/share/fonts`/usr/local/share/fonts* `/usr/X11R6/lib/X11/fonts`* هذا السلوك الافتراضي سيعمل لصالح معظم الناس Linux التوزيعات، ولكن ليس مضموناً للعمل طوال الوقت، في هذه الحالة قد تحتاج إلى تحديد موقع true من النوع الذي يكتب بشكل صريح لتفعل هذا، عليك أن تعرف أين تُركّب (ترو تايب) على Linux التوزيع
 
 #### أين Aspose.Words يبدو أن (ترو تايب فونت) على (ماك أوكس)
 

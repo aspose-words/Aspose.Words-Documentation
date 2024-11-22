@@ -41,7 +41,7 @@ Noi folosim [Font](https://reference.aspose.com/words/net/aspose.words/font/) fo
 | **Italic**<br /> `*italic text*` | `Font.Italic = true` |
 | {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}} |  |
 | **Strikethrough**<br />`~Strikethrough text~` | `Font.StrikeThrough = true` |
-| {{< highlight csharp >}}// Use a document builder to add content to the document.
+| {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
@@ -76,7 +76,7 @@ Tabelul de mai jos prezintă exemple de utilizare a Markdown blocuri Leaf în As
 | **ATX Heading**<br /> `# H1, ## H2, ### H3…` | `ParagraphFormat.StyleName = “Heading N”`, unde (1<= N <=9). <br /> Acest lucru este tradus într-un stil încorporat și ar trebui să fie exact modelul specificat (nu se permit suffixe sau prefixe). <br /> Altfel, va fi doar un paragraf obișnuit cu un stil corespunzător. |
 | {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}} |  |
 | **Setext Heading** <br /> `===` (dacă nivel de antet 1), <br /> `---` (dacă nivel de antet 2) | `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, bazat pe `“Heading N”` stil.<br />Dacă (N >= 2), atunci `“Heading 2”` va fi utilizat, altfel `“Heading 1”`.<br />Orice sufix este permis, dar importatorul Aspose.Words folosește numerele "1" și "2" respectiv. |
-| {{< highlight csharp >}}// Use a document builder to add content to the document.
+| {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 builder.ParagraphFormat.StyleName = "Heading 1";
@@ -120,7 +120,7 @@ Tabelul de mai jos prezintă exemple de utilizare a Markdown Complex Containers 
 | Markdown caracteristică | Aspose.Words |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Quote**<br /> `> quote,` <br /> `>> nested quote` | `ParagraphFormat.StyleName = “Quote[some suffix]”` <br /> Sufixul din numele stilului este opțional, dar Aspose.Words importatorul folosește numerele ordonate 1, 2, 3, ... în cazul citatelor închise.<br /> Închiderea se definește prin stilurile moștenite. |
-| {{< highlight csharp >}}// Use a document builder to add content to the document.
+| {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // By default a document stores blockquote style for the first level.
@@ -157,7 +157,7 @@ builder.Writeln("Item 2b");{{< /highlight >}} |  |
 | Markdown caracteristică | Aspose.Words |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | `Table` <br /> `a|b`<br />`-|-`<br />`c|d` | [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) şi [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) clase. |
-| {{< highlight csharp >}}// Use a document builder to add content to the document.
+| {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Add the first row.

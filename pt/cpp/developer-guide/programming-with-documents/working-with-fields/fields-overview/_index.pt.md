@@ -174,9 +174,9 @@ Aspose.Words suporta todas as opções de formatação de data e hora disponíve
 
 ### Mail Merge campos
 
-Aspose.Words não impõe limites à complexidade de mail merge campos nos seus documentos e suporta `IF` aninhados e campos de fórmula e pode até calcular o nome do campo de mesclagem usando uma fórmula.
+Aspose.Words não impõe limites à complexidade de Mail Merge campos nos seus documentos e suporta `IF` aninhados e campos de fórmula e pode até calcular o nome do campo de mesclagem usando uma fórmula.
 
-Alguns exemplos de mail merge campos que Aspose.Words suporta:
+Alguns exemplos de Mail Merge campos que Aspose.Words suporta:
 
 - Mail merge Interruptores de campo:
 `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -223,6 +223,6 @@ Por outro lado, Microsoft Word Formata cada campo individual com base no idioma 
 
 A classe [Document](https://reference.aspose.com/words/cpp/class/aspose.words.document) fornece uma propriedade [FieldOptions](https://reference.aspose.com/words/cpp/aspose.words/document/get_fieldoptions/) que contém membros que podem ser usados para controlar como os campos são atualizados no documento.
 
-O exemplo de código a seguir mostra como especificar onde a cultura usada para formatação de data durante a atualização do campo e mail merge é escolhida:
+O exemplo de código a seguir mostra como especificar onde a cultura usada para formatação de data durante a atualização do campo e Mail Merge é escolhida:
 
 EXAMPLE

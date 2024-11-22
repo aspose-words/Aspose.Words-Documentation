@@ -174,9 +174,9 @@ Aspose.Words supports all date and time formatting switches available in Microso
 
 ### Mail Merge Fields
 
-Aspose.Words imposes no limit on the complexity of mail merge fields in your documents and supports nested `IF` and formula fields and can even calculate the merge field’s name using a formula.
+Aspose.Words imposes no limit on the complexity of Mail Merge fields in your documents and supports nested `IF` and formula fields and can even calculate the merge field’s name using a formula.
 
-Some examples of mail merge fields that Aspose.Words supports:
+Some examples of Mail Merge fields that Aspose.Words supports:
 
 - Mail merge field switches:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -223,6 +223,6 @@ On the other hand, Microsoft Word formats each individual field based off the la
 
 The [Document](https://reference.aspose.com/words/cpp/class/aspose.words.document) class provides a [FieldOptions](https://reference.aspose.com/words/cpp/aspose.words/document/get_fieldoptions/) property which contains members which can be used to control how fields are updated within the document.
 
-The following code example shows how to specify where the culture used for date formatting during field update and mail merge is chosen from:
+The following code example shows how to specify where the culture used for date formatting during field update and Mail Merge is chosen from:
 
 EXAMPLE

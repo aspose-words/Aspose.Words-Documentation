@@ -16,7 +16,7 @@ timestamp: 2024-09-25-11-08-55
 
 - [Зареждане, спестяване и преобразуване](/words/bg/python-net/loading-saving-and-converting/) год. предоставя информация за различни начини за зареждане или запазване на документи и специфични за формат функции, полезни за конвертиране на документ от един формат в друг.
 - [Внасяне](/words/bg/python-net/rendering/). .. .. .. .. ..
-- [Mail Merge и докладване](/words/python-net/mail-merge-and-reporting/) год. mail merge полета.
+- [Mail Merge и докладване](/words/python-net/mail-merge-and-reporting/) год. Mail Merge полета.
 - [LINQ Докладващ двигател](/words/python-net/linq-reporting-engine/) год.
 - [Програмиране с документи](/words/bg/python-net/programming-with-documents/). .. .. .. .. ..
 

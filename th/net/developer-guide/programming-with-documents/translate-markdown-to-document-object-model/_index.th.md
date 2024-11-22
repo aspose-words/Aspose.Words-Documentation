@@ -41,7 +41,7 @@ timestamp: 2024-10-21-11-17-44
 |  **Italic**<br /> `*italic text*` |  `Font.Italic = true`  |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}}  |  |
 |  **Strikethrough**<br /> `~Strikethrough text~` |  `Font.StrikeThrough = true`  |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
@@ -76,7 +76,7 @@ builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
 |  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”` โดยที่ (1&lt;= N &lt;= 9)<br /> ข้อมูลนี้ได้รับการแปลเป็นรูปแบบบิวท์อินและควรเป็นรูปแบบที่ระบุทุกประการ (ไม่อนุญาตให้ใช้ส่วนต่อท้ายหรือคำนำหน้า)<br /> มิฉะนั้นจะเป็นเพียงย่อหน้าธรรมดาที่มีสไตล์สอดคล้องกัน |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}}  |                                                                |
 |  **Setext Heading**<br /> `===` (ถ้าระดับหัวเรื่อง 1)<br /> `---` (หากส่วนหัวระดับ 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”` ตามรูปแบบ `“Heading N”`<br /> ถ้า (N &gt;= 2) จะใช้ `“Heading 2”` มิฉะนั้นจะใช้ `“Heading 1”`<br /> อนุญาตให้ใช้ส่วนต่อท้ายใดก็ได้ แต่ผู้นำเข้า Aspose.Words ใช้ตัวเลข "1" และ "2" ตามลำดับ |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 builder.ParagraphFormat.StyleName = "Heading 1";
@@ -120,7 +120,7 @@ else
 |  คุณสมบัติ Markdown |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **Quote**<br /> `> quote,`<br /> `>> nested quote` |  `ParagraphFormat.StyleName = “Quote[some suffix]”`<br /> ส่วนต่อท้ายในชื่อลักษณะเป็นทางเลือก แต่ตัวนำเข้า Aspose.Words ใช้หมายเลขลำดับ 1, 2, 3, …. ในกรณีที่มีเครื่องหมายคำพูดซ้อนกัน<br /> การซ้อนถูกกำหนดผ่านสไตล์ที่สืบทอดมา |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // By default a document stores blockquote style for the first level.
@@ -157,7 +157,7 @@ Aspose.Words ยังอนุญาตให้แปลตารางเป�
 |  คุณสมบัติ Markdown |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  `Table`<br /> `ก | b`<br />`-|-`<br />`c | ด` |  คลาส [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) และ [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Add the first row.

@@ -191,9 +191,9 @@ Aspose.Words mendukung semua sakelar pemformatan tanggal dan waktu yang tersedia
 
 #### Bidang Mail Merge
 
-Aspose.Words tidak memberikan batasan pada kompleksitas bidang mail merge di dokumen Anda dan mendukung `IF` bertingkat dan bidang rumus dan bahkan dapat menghitung nama bidang gabungan menggunakan rumus.
+Aspose.Words tidak memberikan batasan pada kompleksitas bidang Mail Merge di dokumen Anda dan mendukung `IF` bertingkat dan bidang rumus dan bahkan dapat menghitung nama bidang gabungan menggunakan rumus.
 
-Beberapa contoh kolom mail merge yang didukung Aspose.Words:
+Beberapa contoh kolom Mail Merge yang didukung Aspose.Words:
 
 - Sakelar bidang Mail merge:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -237,7 +237,7 @@ Menggunakan budaya saat ini untuk memformat bidang memungkinkan sistem mengontro
 
 Di sisi lain, Microsoft Word memformat setiap bidang berdasarkan bahasa teks yang ditemukan di bidang tersebut (khususnya, proses dari kode bidang). Terkadang selama pembaruan bidang, hal ini mungkin merupakan perilaku yang diinginkan, misalnya jika Anda memiliki dokumen global yang berisi konten yang terdiri dari berbagai bahasa dan ingin setiap bidang mengikuti lokal yang digunakan dari teks. Aspose.Words juga mendukung fungsi ini.
 
-Kelas [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) menyediakan properti [field_options](https://reference.aspose.com/words/python-net/aspose.words/document/field_options/) yang berisi anggota yang dapat digunakan untuk mengontrol bagaimana bidang diperbarui dalam dokumen. Contoh di bawah ini menunjukkan cara menentukan budaya mana yang digunakan untuk pemformatan tanggal selama pembaruan bidang dan mail merge dipilih.
+Kelas [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) menyediakan properti [field_options](https://reference.aspose.com/words/python-net/aspose.words/document/field_options/) yang berisi anggota yang dapat digunakan untuk mengontrol bagaimana bidang diperbarui dalam dokumen. Contoh di bawah ini menunjukkan cara menentukan budaya mana yang digunakan untuk pemformatan tanggal selama pembaruan bidang dan Mail Merge dipilih.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-ChangeFieldUpdateCultureSource.py" >}}
 

@@ -191,9 +191,9 @@ Aspose.Words ondersteun alle datum en tyd formatering skakelaars beskikbaar in M
 
 #### Mail Merge Velde
 
-Aspose.Words stel geen beperking op die kompleksiteit van mail merge velde in jou dokumente en ondersteun geneste `IF` en formule velde en kan selfs bereken die samesmelting veld se naam met behulp van'n formule.
+Aspose.Words stel geen beperking op die kompleksiteit van Mail Merge velde in jou dokumente en ondersteun geneste `IF` en formule velde en kan selfs bereken die samesmelting veld se naam met behulp van'n formule.
 
-'n paar voorbeelde van mail merge velde wat Aspose.Words ondersteun:
+'n paar voorbeelde van Mail Merge velde wat Aspose.Words ondersteun:
 
 - Mail merge veldskakelaars:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -237,7 +237,7 @@ Die gebruik van die huidige kultuur om velde te formateer, laat'n stelsel toe om
 
 Aan die ander kant, Microsoft Word formateer elke individuele veld gebaseer op die taal van die teks wat in die veld gevind word (spesifiek, die loop van die veldkode). Soms tydens veldopdatering kan dit die gewenste gedrag wees, byvoorbeeld as jy geglobaliseerde dokumente het wat inhoud bevat wat uit baie verskillende tale bestaan en wil hê dat elke veld die ligging wat uit die teks gebruik word, moet eer. Aspose.Words ondersteun ook hierdie funksie.
 
-Die [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) klas bied'n [field_options](https://reference.aspose.com/words/python-net/aspose.words/document/field_options/) eienskap wat lede bevat wat gebruik kan word om te beheer hoe velde is opgedateer binne die dokument. Hieronder voorbeeld toon hoe om te spesifiseer waar die kultuur wat gebruik word vir datum formatering tydens veld update en mail merge is gekies uit.
+Die [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) klas bied'n [field_options](https://reference.aspose.com/words/python-net/aspose.words/document/field_options/) eienskap wat lede bevat wat gebruik kan word om te beheer hoe velde is opgedateer binne die dokument. Hieronder voorbeeld toon hoe om te spesifiseer waar die kultuur wat gebruik word vir datum formatering tydens veld update en Mail Merge is gekies uit.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-ChangeFieldUpdateCultureSource.py" >}}
 

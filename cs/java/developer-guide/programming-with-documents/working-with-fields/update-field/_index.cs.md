@@ -19,7 +19,7 @@ Při načtení dokumentu, Aspose.Words napodobuje chování Microsoft Word s mo�
 - když otevřete/zachráníte dokument, pole zůstanou neporušená
 - můžete explicitně aktualizovat všechna pole v dokumentu, např. obnovit `TOC` když potřebujete
 - při tisku/předložení do PDF nebo XPS jsou aktualizována pole týkající se počtu stran v hlavičkách/nozích
-- při popravě mail merge všechna pole jsou automaticky aktualizována
+- při popravě Mail Merge všechna pole jsou automaticky aktualizována
 
 ### Aktualizovat pole programově
 
@@ -37,11 +37,11 @@ Následující příklad ukazuje, jak aktualizovat všechna pole před vydáním
 
 ### Automatická aktualizace pole během Mail Merge
 
-Když provedete <span notrans="<span notrans=" mail merge"=""></span>, všechna pole v dokumentu budou automaticky aktualizována. To proto, že mail merge je případ aktualizace pole. Program potká mail merge pole a potřebuje aktualizovat svůj výsledek, který zahrnuje uchopení hodnoty ze zdroje dat a její vložení do pole. Logika je samozřejmě složitější, například když končí dokument/mail merge region je dosažen, ale stále existují další údaje, které je třeba sloučit, pak je třeba region duplikovat a aktualizovat nový soubor polí.
+Když provedete mail merge, všechna pole v dokumentu budou automaticky aktualizována. To proto, že Mail Merge je případ aktualizace pole. Program potká Mail Merge pole a potřebuje aktualizovat svůj výsledek, který zahrnuje uchopení hodnoty ze zdroje dat a její vložení do pole. Logika je samozřejmě složitější, například když končí dokument/mail merge region je dosažen, ale stále existují další údaje, které je třeba sloučit, pak je třeba region duplikovat a aktualizovat nový soubor polí.
 
 ## Aktualizovat pole s špinavým atributem
 
-W:dirty je atribut úrovně pole, který obnoví pouze pole, které určíte při otevření dokumentu. Říká MS Word pouze obnovit toto pole, až bude dokument otevřen. Můžete použít vlastnost LoadOptions.setUpdateDirtyFields() k určení, zda má pole aktualizovat s špinavým atributem. Je-li hodnota LoadOptions.setUpdateDirtyFields() nastavena na <span notrans="<span notrans=" *true*"=""></span>, všechna pole s *true* hodnota pro `Field.IsDirty` nebo `FieldChar.IsDirty` vlastnost je aktualizována při zatížení dokumentu
+W:dirty je atribut úrovně pole, který obnoví pouze pole, které určíte při otevření dokumentu. Říká MS Word pouze obnovit toto pole, až bude dokument otevřen. Můžete použít vlastnost LoadOptions.setUpdateDirtyFields() k určení, zda má pole aktualizovat s špinavým atributem. Je-li hodnota LoadOptions.setUpdateDirtyFields() nastavena na *true* všechna pole s *true* hodnota pro `Field.IsDirty` nebo `FieldChar.IsDirty` vlastnost je aktualizována při zatížení dokumentu
 
 Následující příklad kódu ukazuje, jak aktualizovat pole se špinavým atributem:
 

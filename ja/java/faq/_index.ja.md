@@ -121,7 +121,7 @@ Aspose.Words お問い合わせ Java DOC、DOCX、HTMLなどの一般的な文�
 
 {{% alert color="primary" %}}
 
-詳細については、こちらをご覧ください mail merge お問い合わせ [Mail Merge そして報告](/words/java/mail-merge-and-reporting/) ドキュメントセクション。
+詳細については、こちらをご覧ください Mail Merge お問い合わせ [Mail Merge そして報告](/words/java/mail-merge-and-reporting/) ドキュメントセクション。
 
 {{% /alert %}}
 
@@ -136,7 +136,7 @@ Aspose.Words お問い合わせ Java DOC、DOCX、HTMLなどの一般的な文�
 
 **Q: なぜ、ネストされたマージの出力は、親テーブルの最初のエントリの子テーブルからデータを表示しないが、親テーブルの最後のエントリのすべての項目を表示し、実際にリンクされていないものであっても、?**
 
-これは、テンプレート内のマージ領域が正しく形成されていないため、すべてのネストを作ることができるからです。 mail merge あらゆる場所での展示を中止する地域。 ザ・オブ・ザ・ [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) タグとタグを開く [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) 最後のタグは一致し、同じ行またはセルにある必要があります。 たとえば、テーブルのセルにマージ領域をネスティングを開始すると、最初のセルと同じ行にマージ領域を終了する必要があります。
+これは、テンプレート内のマージ領域が正しく形成されていないため、すべてのネストを作ることができるからです。 Mail Merge あらゆる場所での展示を中止する地域。 ザ・オブ・ザ・ [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) タグとタグを開く [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) 最後のタグは一致し、同じ行またはセルにある必要があります。 たとえば、テーブルのセルにマージ領域をネスティングを開始すると、最初のセルと同じ行にマージ領域を終了する必要があります。
 
 ------
 

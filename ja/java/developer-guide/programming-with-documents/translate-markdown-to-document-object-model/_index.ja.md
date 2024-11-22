@@ -43,7 +43,7 @@ timestamp: 2024-10-21-11-17-44
 |  **Strikethrough**<br/>`~Strikethrough text~` |  `Font.StrikeThrough = true`  |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Strikethrough.java" >}}  |  |
 
-単語から始まる名前でキャラクタースタイルを使う <span notrans="<span notrans=" `InlineCode`"=""></span>????? 続いてオプションのドット `(.)` バックティクスの数 ```(`)``` お問い合わせ `InlineCode` 機能。 バックティックの数が欠落した場合は、デフォルトでバックティックが使用されます。
+単語から始まる名前でキャラクタースタイルを使う `InlineCode`????? 続いてオプションのドット `(.)` バックティクスの数 ```(`)``` お問い合わせ `InlineCode` 機能。 バックティックの数が欠落した場合は、デフォルトでバックティックが使用されます。
 
 |  Markdown 特徴: |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |

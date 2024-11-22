@@ -50,7 +50,7 @@ Aspose.Words 페이지 레이아웃 기능을 내부적으로 구현하여 PDF�
 
 ![non_geometric_properties_aspose-words-java](/words/java/converting-to-fixed-page-format/converting-to-fixed-page-format-2.png)
 
-내 계정 <span notrans="<span notrans=" Aspose.Words"=""></span>· 사용자는 새 페이지 레이아웃을 구축하거나 기존의 것을 업데이트할 것인지 요청할 수 있습니다. 이 둘 다에 의해 수행될 수 있습니다 [UpdatePageLayout](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout\(\)) 방법에 의해 제공 [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) 수업. 페이지 레이아웃이 존재하지 않는 경우에, 그러나 그것을 위해 필요 (예를 들면, 문서가 고정 페이지 형식으로 수출될 때), Aspose.Words 자동으로이 방법을 호출합니다. 그러나 페이지 레이아웃이 이미 존재한다면, Aspose.Words 자원을 수정하기 위해 기존의 것을 사용합니다. 이 경우 사용자는 호출해야합니다. `UpdatePageLayout` 방법, 페이지 레이아웃이 문서 모델로 날짜까지 보장하기 위해.
+내 계정 Aspose.Words· 사용자는 새 페이지 레이아웃을 구축하거나 기존의 것을 업데이트할 것인지 요청할 수 있습니다. 이 둘 다에 의해 수행될 수 있습니다 [UpdatePageLayout](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout\(\)) 방법에 의해 제공 [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) 수업. 페이지 레이아웃이 존재하지 않는 경우에, 그러나 그것을 위해 필요 (예를 들면, 문서가 고정 페이지 형식으로 수출될 때), Aspose.Words 자동으로이 방법을 호출합니다. 그러나 페이지 레이아웃이 이미 존재한다면, Aspose.Words 자원을 수정하기 위해 기존의 것을 사용합니다. 이 경우 사용자는 호출해야합니다. `UpdatePageLayout` 방법, 페이지 레이아웃이 문서 모델로 날짜까지 보장하기 위해.
 
 ### 동적 구조
 

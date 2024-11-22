@@ -64,7 +64,7 @@ builder.writeln("This text will be Strikethrough")
 
 builder.document.save(docs_base.artifacts_dir + "WorkingWithMarkdown.strikethrough_text_example.md"){{< /highlight >}} |  |
 
-Използваме стил на героя с име, което започва от думата <span notrans="<span notrans=" `InlineCode`"=""></span>,"> последвано от незадължителна точка `(.)` и редица подпори ```(`)``` за `InlineCode` функция. Ако се пропусне определен брой backticks, тогава един backtick ще се използва по подразбиране.
+Използваме стил на героя с име, което започва от думата `InlineCode` последвано от незадължителна точка `(.)` и редица подпори ```(`)``` за `InlineCode` функция. Ако се пропусне определен брой backticks, тогава един backtick ще се използва по подразбиране.
 
 |  Markdown функция |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |

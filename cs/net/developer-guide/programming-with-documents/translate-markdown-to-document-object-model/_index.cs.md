@@ -41,14 +41,14 @@ Používáme [Font](https://reference.aspose.com/words/net/aspose.words/font/) f
 |  **Italic**<br/>`*italic text*` |  `Font.Italic = true`  |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}}  |  |
 |  **Strikethrough**<br/>`~Strikethrough text~` |  `Font.StrikeThrough = true`  |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
 builder.Font.Strikethrough = true;
 builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
 
-Používáme charakterový styl se jménem, který začíná slovem <span notrans="<span notrans=" `InlineCode`"=""></span>,? následuje volitelná tečka `(.)` a řada odplat ```(`)``` pro `InlineCode` bonus. Je-li chybět několik backticks, pak jeden backtick bude použit ve výchozím nastavení.
+Používáme charakterový styl se jménem, který začíná slovem `InlineCode`,? následuje volitelná tečka `(.)` a řada odplat ```(`)``` pro `InlineCode` bonus. Je-li chybět několik backticks, pak jeden backtick bude použit ve výchozím nastavení.
 
 |  Markdown funkce |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |
@@ -76,7 +76,7 @@ Níže uvedená tabulka uvádí příklady použití Markdown Listové bloky v A
 |  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`, kde (1 <= N ≤ 9).<br/>To je přeloženo do vestavěného stylu a mělo by být přesně zadaného vzoru (nejsou povoleny žádné přípony nebo předpony).<br/>Jinak to bude jen pravidelný odstavec s odpovídajícím stylem |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}}  |                                                                |
 |  **Setext Heading**<br/>`===` (pokud úroveň čísla 1),<br/>`---` (jestliže číslo 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, na základě `“Heading N”` Styl.<br/>Pokud: `“Heading 2”` bude použito jinak `“Heading 1”`.<br/>Každá přípona je povolena, ale Aspose.Words dovozce používá čísla КАКА a КАКА |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 builder.ParagraphFormat.StyleName = "Heading 1";
@@ -120,7 +120,7 @@ Níže uvedená tabulka uvádí příklady použití Markdown Komplexní kontejn
 |  Markdown funkce |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **Quote**<br/>`> quote,`<br/>`>> nested quote` |  `ParagraphFormat.StyleName = “Quote[some suffix]”`<br/>Přípona ve stylu je volitelná, ale Aspose.Words dovozce používá objednaná čísla 1, 2, 3, .... v případě hnízdě kotací.<br/>Hnízdo je definováno prostřednictvím dědičných stylů |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // By default a document stores blockquote style for the first level.
@@ -157,7 +157,7 @@ Aspose.Words také umožňuje přeložit tabulky do DOM, jak je uvedeno níže:
 |  Markdown funkce |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  `Table`<br/>a|b`<br />`-|-`<br />`c|d - Co? |  [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) a [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) třídy |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Add the first row.

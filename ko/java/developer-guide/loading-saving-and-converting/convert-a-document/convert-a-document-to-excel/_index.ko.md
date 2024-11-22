@@ -14,7 +14,7 @@ timestamp: 2024-01-31-14-23-37
 
 ## 문서를 XLSX로 변환
 
-XLSX에 문서를 변환하는 것은 오히려 복잡한 과정입니다. 문서를 XLSX 형식으로 저장 <span notrans="<span notrans=" Aspose.Words"=""></span>· 이용안내 [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) 클래스와 새로운 `Xlsx` 이름 * [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) 관련 기사 위에서 언급했듯이, 지원되는 모든 부하 형식으로 문서를 저장할 수 있습니다. Aspose.Words XLSX에.
+XLSX에 문서를 변환하는 것은 오히려 복잡한 과정입니다. 문서를 XLSX 형식으로 저장 Aspose.Words· 이용안내 [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) 클래스와 새로운 `Xlsx` 이름 * [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) 관련 기사 위에서 언급했듯이, 지원되는 모든 부하 형식으로 문서를 저장할 수 있습니다. Aspose.Words XLSX에.
 
 다음 코드 예제는 PDF를 XLSX로 저장하는 방법을 보여줍니다:
 

@@ -14,7 +14,7 @@ Konwersja dokumentów z jednego formatu do innego jest flagową cechą Aspose.Wo
 
 ## Konwertuj dokument do XLSX
 
-Konwersja dokumentu na XLSX jest raczej skomplikowanym procesem. Aby zapisać dokument do formatu XLSX za pomocą <span notrans="<span notrans=" Aspose.Words"=""></span>", > stosować [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) klasa i nowy `Xlsx` element [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) wyliczenie. Jak wspomniano powyżej, można zapisać dokument w dowolnym formacie obciążenia obsługiwanym przez Aspose.Words do XLSX.
+Konwersja dokumentu na XLSX jest raczej skomplikowanym procesem. Aby zapisać dokument do formatu XLSX za pomocą Aspose.Words, > stosować [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) klasa i nowy `Xlsx` element [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) wyliczenie. Jak wspomniano powyżej, można zapisać dokument w dowolnym formacie obciążenia obsługiwanym przez Aspose.Words do XLSX.
 
 Poniższy przykład kodu pokazuje jak zapisać PDF do XLSX:
 

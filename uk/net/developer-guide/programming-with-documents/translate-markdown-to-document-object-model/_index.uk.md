@@ -41,14 +41,14 @@ timestamp: 2024-10-21-11-17-44
 |  **Italic**<br/>`*italic text*` |  `Font.Italic = true`  |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}}  |  |
 |  **Strikethrough**<br/>`~Strikethrough text~` |  `Font.StrikeThrough = true`  |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
 builder.Font.Strikethrough = true;
 builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
 
-Ми використовуємо стиль персонажа з назвою, яка починається з слова <span notrans="<span notrans=" `InlineCode`"=""></span>, > далі за бажанням `(.)` і ряд бектики ```(`)``` для `InlineCode` функція. Якщо пропущено ряд спандексів, то один задняк буде використовуватися за замовчуванням.
+Ми використовуємо стиль персонажа з назвою, яка починається з слова `InlineCode`, > далі за бажанням `(.)` і ряд бектики ```(`)``` для `InlineCode` функція. Якщо пропущено ряд спандексів, то один задняк буде використовуватися за замовчуванням.
 
 |  Markdown Головна |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |
@@ -76,7 +76,7 @@ builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
 |  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`, де (1<= N <=9).<br/>Це перекладається в вбудований стиль і має бути саме з зазначеного шаблону (не суфікси або префікси допускаються).<br/>В іншому випадку це буде просто звичайний абзац з відповідним стилем |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}}  |                                                                |
 |  **Setext Heading**<br/>`===` (якщо рівень заголовка 1),<br/>`---` (якщо рівень заголовка 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, на основі `“Heading N”` стиль.<br/>Якщо (N >= 2), то `“Heading 2”` буде використовуватися, інакше `“Heading 1”`й<br/>Допускається будь-який suffix, але Aspose.Words імпортер використовує номери "1" та "2" відповідно |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 builder.ParagraphFormat.StyleName = "Heading 1";
@@ -120,7 +120,7 @@ else
 |  Markdown Головна |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **Quote**<br/>`> quote,`<br/>`>> nested quote` |  `ParagraphFormat.StyleName = “Quote[some suffix]”`<br/>Суфікс в назві стилю необов'язково, але Aspose.Words імпортер використовує замовлені номери 1, 2, 3, .... в разі необрізних котирування.<br/>Ведуться ведучі стилі |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // By default a document stores blockquote style for the first level.
@@ -157,7 +157,7 @@ Aspose.Words також дозволяє перевести таблиці в DO
 |  Markdown Головна |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  `Table`<br/>й | б`<br />`до | -до`<br />`з | й й |  [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) і [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) класи |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Add the first row.

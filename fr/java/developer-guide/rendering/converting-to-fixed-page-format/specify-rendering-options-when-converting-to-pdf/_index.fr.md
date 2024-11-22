@@ -32,7 +32,7 @@ Pour en savoir plus sur le PDF/A, consultez l'article suivant, "Apprendre les ca
 
 Il est également possible d'exporter des formulaires à remplir Microsoft Word document dans la sortie PDF, qui a des formulaires à remplir au lieu d'un texte simple. Utiliser [PreserveFormFields](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getPreserveFormFields) propriété pour enregistrer un document en format PDF avec des formulaires à remplir.
 
-À noter que, contrairement à <span notrans="<span notrans=" Microsoft Word"=""></span>""> le format PDF a un nombre limité d'options pour les formulaires modifiables, comme la boîte à texte, la boîte à combo et la case à cocher. Microsoft Word a plus de types de formulaires, par exemple, sélection de date de calendrier. En général, il n'est pas possible d'imiter complètement Microsoft Word comportement en PDF. Par conséquent, dans certains cas complexes, la sortie PDF peut différer de ce que vous voyez dans Microsoft Word.
+À noter que, contrairement à Microsoft Word""> le format PDF a un nombre limité d'options pour les formulaires modifiables, comme la boîte à texte, la boîte à combo et la case à cocher. Microsoft Word a plus de types de formulaires, par exemple, sélection de date de calendrier. En général, il n'est pas possible d'imiter complètement Microsoft Word comportement en PDF. Par conséquent, dans certains cas complexes, la sortie PDF peut différer de ce que vous voyez dans Microsoft Word.
 
 L'exemple de code ci-dessous montre comment sauvegarder un document en format PDF avec des formulaires remplissables avec compression Jpeg spécifiée et qualité:
 

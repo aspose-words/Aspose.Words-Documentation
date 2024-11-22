@@ -36,7 +36,7 @@ As instâncias por documento são necessárias apenas se for necessário usar fo
 
 Na maioria dos casos, Windows os usuários não enfrentam problemas significativos com fontes perdidas ou layouts incorretos. Normalmente, Aspose.Words passa por um documento, e quando ele encontra o link de uma fonte, ele fetches com sucesso os dados de fonte da pasta do sistema.
 
-Em <span notrans="<span notrans=" Windows"=""></span>, Aspose.Words primeiro leva todas as fontes disponíveis do _%windir%\Fonts pasta. Esta configuração vai funcionar para você na maioria das vezes. Você só especificar suas próprias pastas de fontes se você precisar. Aspose.Words também procura fontes adicionais registradas no HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts chave de registro. Além disso, Windows 10 permite a instalação de fontes para o usuário atual. Fontes são colocadas no %userprofile%\AppData\Local\Microsoft\Windows\Fonts pasta e também especificado no HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Fonts registro, onde Aspose.Words vai procurar estas fontes.
+Em Windows, Aspose.Words primeiro leva todas as fontes disponíveis do _%windir%\Fonts pasta. Esta configuração vai funcionar para você na maioria das vezes. Você só especificar suas próprias pastas de fontes se você precisar. Aspose.Words também procura fontes adicionais registradas no HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts chave de registro. Além disso, Windows 10 permite a instalação de fontes para o usuário atual. Fontes são colocadas no %userprofile%\AppData\Local\Microsoft\Windows\Fonts pasta e também especificado no HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Fonts registro, onde Aspose.Words vai procurar estas fontes.
 
 Se um documento contém fontes incorporadas, Aspose.Words pode ler dados de fonte relevantes do documento e usá-lo para criar o layout do documento. Os documentos também podem conter links para fontes que não estão nas pastas do sistema, caso em que os seguintes cenários vêm trabalhar:
 
@@ -51,7 +51,7 @@ Desde as métricas de fonte Windows e não...Windows OS são diferentes, Aspose.
 
 #### Onde? Aspose.Words Procura fontes TrueType em Linux
 
-Diferente Linux distribuições podem armazenar fontes em diferentes pastas. Aspose.Words procura fontes em vários locais. Por padrão, Aspose.Words procura as fontes em todos os seguintes locais: * /usr/share/fonts* /usr/local/share/fonts* /usr/X11R6/lib/X11/fonts Este comportamento padrão funcionará para a maioria Linux distribuições, mas não é garantido para trabalhar o tempo todo, nesse caso você pode precisar especificar a localização de true digite fontes explicitamente. Para fazer isso, você precisa saber onde fontes TrueType são instaladas em seu Linux distribuição.
+Diferente Linux distribuições podem armazenar fontes em diferentes pastas. Aspose.Words procura fontes em vários locais. Por padrão, Aspose.Words procura as fontes em todos os seguintes locais: `/usr/share/fonts` `/usr/local/share/fonts` `/usr/X11R6/lib/X11/fonts` Este comportamento padrão funcionará para a maioria Linux distribuições, mas não é garantido para trabalhar o tempo todo, nesse caso você pode precisar especificar a localização de true digite fontes explicitamente. Para fazer isso, você precisa saber onde fontes TrueType são instaladas em seu Linux distribuição.
 
 #### Onde? Aspose.Words Procura fontes TrueType no Mac OS X
 

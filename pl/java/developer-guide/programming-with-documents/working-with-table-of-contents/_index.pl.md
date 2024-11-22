@@ -61,7 +61,7 @@ Poniższy przykład kodu pokazuje, jak całkowicie odbudować `TOC` pola w dokum
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertATableOfContentsField-UpdateTableOfContents.java" >}}
 
-Pierwsze wezwanie do [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) będzie budować <span notrans="<span notrans=" `TOC`"=""></span>", > wszystkie wpisy tekstowe są zaludnione i `TOC` wydaje się prawie kompletny. Brakuje tylko numerów stron, które na razie są wyświetlane z "?".
+Pierwsze wezwanie do [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) będzie budować `TOC`", > wszystkie wpisy tekstowe są zaludnione i `TOC` wydaje się prawie kompletny. Brakuje tylko numerów stron, które na razie są wyświetlane z "?".
 
 Drugie wezwanie do [Document.updatePageLayout()](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout) będzie budować układ dokumentu w pamięci. Należy to zrobić, aby zebrać numery stron wpisów. Prawidłowe numery stron obliczone na podstawie tego wezwania są następnie wstawiane do TOC.
 

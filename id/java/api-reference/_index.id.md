@@ -10,7 +10,7 @@ url: /id/java/api-reference/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words Sitemap Java adalah perpustakaan kelas yang memungkinkan aplikasi Anda untuk melakukan berbagai macam tugas pemrosesan dokumen. Sitemap Aspose.Words Anda dapat menghasilkan, memodifikasi, mengonversi, membuat, dan mencetak dokumen tanpa memanfaatkan <span notrans="<span notrans=" Microsoft Word"=""></span>Sitemap Sitemap Microsoft Word tidak diperlukan untuk digunakan Aspose.WordsSitemap
+Aspose.Words Sitemap Java adalah perpustakaan kelas yang memungkinkan aplikasi Anda untuk melakukan berbagai macam tugas pemrosesan dokumen. Sitemap Aspose.Words Anda dapat menghasilkan, memodifikasi, mengonversi, membuat, dan mencetak dokumen tanpa memanfaatkan Microsoft WordSitemap Sitemap Microsoft Word tidak diperlukan untuk digunakan Aspose.WordsSitemap
 
 Aspose.Words Sitemap Java ditulis sepenuhnya JavaSitemap
 

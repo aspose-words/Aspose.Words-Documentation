@@ -61,7 +61,7 @@ Aspose.Words あなたは完全に更新することができます `TOC` コー
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertATableOfContentsField-UpdateTableOfContents.java" >}}
 
-最初の呼び出し [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) ビルドする <span notrans="<span notrans=" `TOC`"=""></span>????? すべてのテキストエントリがポップアップし、 `TOC` ほとんど完了です。 行方不明のは「?」で表示されているページ番号です。
+最初の呼び出し [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) ビルドする `TOC`????? すべてのテキストエントリがポップアップし、 `TOC` ほとんど完了です。 行方不明のは「?」で表示されているページ番号です。
 
 第二の呼び出し [Document.updatePageLayout()](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout) メモリ内のドキュメントのレイアウトをビルドします。 エントリーのページ番号を収集するために行う必要があります。 この呼び出しから計算された正しいページ番号は、TOCに差し込みます。
 

@@ -174,9 +174,9 @@ Aspose.Words ondersteunt alle datum en tijd formattering switches beschikbaar in
 
 ### Mail Merge Velden
 
-Aspose.Words legt geen beperking op aan de complexiteit van mail merge velden in uw documenten en ondersteunt geneste `IF` en formule velden en kan zelfs berekenen de merge veld
+Aspose.Words legt geen beperking op aan de complexiteit van Mail Merge velden in uw documenten en ondersteunt geneste `IF` en formule velden en kan zelfs berekenen de merge veld
 
-Enkele voorbeelden van mail merge velden die Aspose.Words ondersteunt:
+Enkele voorbeelden van Mail Merge velden die Aspose.Words ondersteunt:
 
 - Mail merge veldschakelaars:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -223,6 +223,6 @@ Aan de andere kant, Microsoft Word formatteert elk individueel veld op basis van
 
 De [Document](https://reference.aspose.com/words/net/aspose.words/document/) klasse geeft a [FieldOptions](https://reference.aspose.com/words/net/aspose.words/document/fieldoptions/) eigenschap die leden bevat die kunnen worden gebruikt om te controleren hoe velden worden bijgewerkt in het document.
 
-Het volgende voorbeeld van code toont hoe te specificeren waar de cultuur gebruikt voor datumopmaak tijdens veldupdate en mail merge wordt gekozen uit:
+Het volgende voorbeeld van code toont hoe te specificeren waar de cultuur gebruikt voor datumopmaak tijdens veldupdate en Mail Merge wordt gekozen uit:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-ChangeFieldUpdateCultureSource-ChangeFieldUpdateCultureSource.cs" >}}

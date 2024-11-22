@@ -92,16 +92,16 @@ Bạn có thể dùng Aspose.Words như một giải pháp báo cáo trên cơ s
 
 | Tính năng | Aspose.Words cho Java | Aspose.Words cho Android qua Java |
 | :- | :- | :- |
-| Sử dụng tất cả các trường tiêu chuẩn Microsoft Word mail merge trong các báo cáo của bạn bao gồm `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE.. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Chạy mail merge đối với các tài liệu chứa ngay cả những trường và công thức phức tạp nhất và lồng nhau `IF`. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Sử dụng tất cả các trường tiêu chuẩn Microsoft Word Mail Merge trong các báo cáo của bạn bao gồm `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE.. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Chạy Mail Merge đối với các tài liệu chứa ngay cả những trường và công thức phức tạp nhất và lồng nhau `IF`. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Tạo thông tin và tăng trưởng bảng hoặc phân đoạn trong tài liệu từ nguồn dữ liệu của bạn sử dụng các vùng mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Tạo ra báo cáo dễ dàng chứa dữ liệu chủ đề-chi tiết (cha-con) như Đơn đặt hàng/Chi tiết đơn đặt hàng. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Lấp đầy các tài liệu với dữ liệu từ bất kỳ Java nguồn dữ liệu nào thực hiện giao diện `ResultSet`. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Lấp đầy tài liệu từ bất kỳ nguồn dữ liệu nào như một tập tin XML hoặc các đối tượng kinh doanh bằng cách thực hiện giao diện **IMailMergeDataSource**. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Lấy quyền kiểm soát chính xác, chẳng hạn như định dạng số, trên cách dữ liệu của bạn được kết hợp thông qua sự kiện. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Chèn hình ảnh trong " mail merge ". | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Tạo hoặc sửa đổi một Microsoft Word nguồn dữ liệu mail merge cho một tài liệu lập trình. Lưu giữ mail merge cài đặt và nguồn dữ liệu. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Lấy lại mail merge tên trường. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Chèn hình ảnh trong " Mail Merge ". | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Tạo hoặc sửa đổi một Microsoft Word nguồn dữ liệu Mail Merge cho một tài liệu lập trình. Lưu giữ Mail Merge cài đặt và nguồn dữ liệu. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Lấy lại Mail Merge tên trường. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
 ### Tính năng Báo cáo
 

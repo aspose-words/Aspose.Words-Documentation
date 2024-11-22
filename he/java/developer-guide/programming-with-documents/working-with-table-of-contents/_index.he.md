@@ -61,7 +61,7 @@ Aspose.Words מאפשר לך לעדכן לחלוטין `TOC` עם רק כמה ש
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertATableOfContentsField-UpdateTableOfContents.java" >}}
 
-הקריאה הראשונה [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) נבנה את <span notrans="<span notrans=" `TOC`"=""></span>" כל הודעות הטקסט מאוכלסות וה `TOC` נראה כמעט שלם. הדבר היחיד שחסר לו הוא מספרי העמוד שכרגע מוצגים ב"?
+הקריאה הראשונה [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) נבנה את `TOC`" כל הודעות הטקסט מאוכלסות וה `TOC` נראה כמעט שלם. הדבר היחיד שחסר לו הוא מספרי העמוד שכרגע מוצגים ב"?
 
 הקריאה השניה [Document.updatePageLayout()](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout) נבנה את הפריסה של המסמך בזיכרון. זה צריך להיעשות כדי לאסוף את מספרי העמוד של הערכים. מספרי העמוד הנכון המחושבים מהקריאה זו מוכנסים ל- TOC.
 

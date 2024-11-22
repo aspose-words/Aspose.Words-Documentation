@@ -204,7 +204,7 @@ Aspose.Words מספק שני נכסים `ParagraphFormat.SnapToGrid` ו `Font.Sn
 
 ### לעבור אל A `Merge` שדה
 
-לפעמים צריך לבצע "אדם" mail merge שימוש באמצעות `DocumentBuilder` או למלא שדה מיזוג באופן מיוחד בתוך שדה mail merge מטפלת באירוע זה מתי [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) יכול להיות שימושי. השיטה מקבלת את השם של שדה המיזוג. הוא מעביר את הcursor למצב ממש מעבר לשדה המיזוג שצוין ומסיר את שדה המיזוג. הדוגמה הקודית הבאה מראה כיצד להעביר את הcursor למצב ממש מעבר לשדה המיזוג שצוין.
+לפעמים צריך לבצע "אדם" Mail Merge שימוש באמצעות `DocumentBuilder` או למלא שדה מיזוג באופן מיוחד בתוך שדה Mail Merge מטפלת באירוע זה מתי [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) יכול להיות שימושי. השיטה מקבלת את השם של שדה המיזוג. הוא מעביר את הcursor למצב ממש מעבר לשדה המיזוג שצוין ומסיר את שדה המיזוג. הדוגמה הקודית הבאה מראה כיצד להעביר את הcursor למצב ממש מעבר לשדה המיזוג שצוין.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToMergeField-DocumentBuilderMoveToMergeField.java" >}}
 

@@ -16,7 +16,7 @@ Dit deel beschrijft de belangrijkste klassen van de Aspose.Words DOM en hun rela
 
 ## Aanmaken `Document` Objectenboom {#create-a-document-objects-tree}
 
-Wanneer een document wordt gelezen in de Aspose.Words <span notrans="<span notrans=" DOM"=""></span>,"> dan wordt er een objectboom gebouwd en hebben verschillende soorten elementen van het brondocument hun eigen DOM boomobjecten met verschillende eigenschappen.
+Wanneer een document wordt gelezen in de Aspose.Words DOM dan wordt er een objectboom gebouwd en hebben verschillende soorten elementen van het brondocument hun eigen DOM boomobjecten met verschillende eigenschappen.
 
 ### Documentnodesboom bouwen {#build-document-nodes-tree}
 

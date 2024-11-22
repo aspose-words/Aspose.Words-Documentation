@@ -204,7 +204,7 @@ Einfügen eines neuen Textes auf diese Weise ersetzt nicht den vorhandenen Text 
 
 ### Zu einem `Merge` Feld
 
-Manchmal muss man ein "manuell" ausführen mail merge Verwendung `DocumentBuilder` oder füllen Sie ein Zusammenführungsfeld in einer besonderen Weise in einem mail merge Event-Handler. Das ist, wenn [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) könnte nützlich sein. Die Methode akzeptiert den Namen des Zusammenführungsfeldes. Es bewegt den Cursor in eine Position, die kurz über das angegebene Mergerfeld hinausgeht und das Mergerfeld entfernt. Das folgende Codebeispiel zeigt, wie man den Cursor in eine Position über das angegebene Merge-Feld bewegt.
+Manchmal muss man ein "manuell" ausführen Mail Merge Verwendung `DocumentBuilder` oder füllen Sie ein Zusammenführungsfeld in einer besonderen Weise in einem Mail Merge Event-Handler. Das ist, wenn [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) könnte nützlich sein. Die Methode akzeptiert den Namen des Zusammenführungsfeldes. Es bewegt den Cursor in eine Position, die kurz über das angegebene Mergerfeld hinausgeht und das Mergerfeld entfernt. Das folgende Codebeispiel zeigt, wie man den Cursor in eine Position über das angegebene Merge-Feld bewegt.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToMergeField-DocumentBuilderMoveToMergeField.java" >}}
 

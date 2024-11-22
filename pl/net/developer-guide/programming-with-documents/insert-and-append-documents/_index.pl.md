@@ -50,7 +50,7 @@ Poniższy przykład kodu pokazuje, jak wstawić treść jednego dokumentu do dru
 
 ### Włóż dokument podczas operacji Mail Merge {#insert-a-document-during-mail-merge-operation}
 
-Możesz wstawić dokument do pola scalania podczas operacji mail merge. Na przykład szablon mail merge może zawierać pole scalania, takie jak [Podsumowanie]. Ale w dokumencie końcowym musisz wstawić treść uzyskaną z innego dokumentu zewnętrznego do tego pola scalania. Aby to osiągnąć, musisz utworzyć procedurę obsługi zdarzenia scalania.
+Możesz wstawić dokument do pola scalania podczas operacji mail merge. Na przykład szablon Mail Merge może zawierać pole scalania, takie jak [Podsumowanie]. Ale w dokumencie końcowym musisz wstawić treść uzyskaną z innego dokumentu zewnętrznego do tego pola scalania. Aby to osiągnąć, musisz utworzyć procedurę obsługi zdarzenia scalania.
 
 Poniższy przykład kodu pokazuje, jak utworzyć procedurę obsługi zdarzenia scalania, aby użyć jej później w procesie wstawiania:
 

@@ -20,7 +20,7 @@ When a document is loaded, Aspose.Words mimics the behavior of Microsoft Word wi
 - when you open/save a document the fields remain intact
 - you can explicitly update all fields in a document, for example, rebuild `TOC`, when you need to
 - when you print/render to PDF or XPS the fields related to page-numbering in headers/footers are updated
-- when you execute mail merge all fields are updated automatically
+- when you execute Mail Merge all fields are updated automatically
 
 ### Update Fields Programmatically
 
@@ -44,7 +44,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ### Automatic Field Update During Mail Merge
 
-When you execute a mail merge, all fields in the document will be automatically updated. This is because the mail merge is a case of a field update. The program encounters a mail merge field and needs to update its result, which involves grabbing the value from the data source and inserting it into the field. The logic is of course more complicated, for example, when the end of the document/mail merge region is reached but there is still further data to be merged, then the region needs to be duplicated and the new set of fields updated.
+When you execute a mail merge, all fields in the document will be automatically updated. This is because the Mail Merge is a case of a field update. The program encounters a Mail Merge field and needs to update its result, which involves grabbing the value from the data source and inserting it into the field. The logic is of course more complicated, for example, when the end of the document/mail merge region is reached but there is still further data to be merged, then the region needs to be duplicated and the new set of fields updated.
 
 ## Update Fields Having Dirty Attribute
 

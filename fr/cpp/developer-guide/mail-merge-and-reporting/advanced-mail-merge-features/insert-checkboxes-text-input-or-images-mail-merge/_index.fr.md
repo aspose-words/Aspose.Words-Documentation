@@ -19,7 +19,7 @@ La puissante fonctionnalité Aspose.Words vous permet d'étendre le processus ma
 
 ## Insérer Checkboxes et la saisie de texte pendant Mail Merge
 
-Parfois, il est nécessaire d'effectuer une opération mail merge pour que non pas du texte soit substitué dans le champ de fusion, mais une case à cocher ou un champ de saisie de texte. Même si ce n'est pas le scénario le plus courant, c'est très pratique pour certaines tâches.
+Parfois, il est nécessaire d'effectuer une opération Mail Merge pour que non pas du texte soit substitué dans le champ de fusion, mais une case à cocher ou un champ de saisie de texte. Même si ce n'est pas le scénario le plus courant, c'est très pratique pour certaines tâches.
 
 La capture d'écran suivante d'un document Word montre un modèle avec des champs de fusion:
 
@@ -43,11 +43,11 @@ L'exemple de code suivant montre comment insérer des cases à cocher et des cha
 
 ## Insérer des images pendant Mail Merge
 
-Lorsque vous effectuez une opération mail merge, vous pouvez insérer des images de la base de données dans le document à l'aide de champs spéciaux image mail merge. Le champ image mail merge est un champ de fusion nommé Image: MyFieldName.
+Lorsque vous effectuez une opération mail merge, vous pouvez insérer des images de la base de données dans le document à l'aide de champs spéciaux image mail merge. Le champ image Mail Merge est un champ de fusion nommé Image: MyFieldName.
 
 ### Insérer des images à partir d'une base de données
 
-Lors d'un mail merge, lorsqu'un champ image mail merge est rencontré dans un document, l'événement [FieldMergingCallback](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/get_fieldmergingcallback/) est déclenché. Vous pouvez répondre à cet événement pour renvoyer un nom de fichier, un flux ou un objet image au moteur mail merge afin qu'il puisse être inséré dans le document.
+Lors d'un mail merge, lorsqu'un champ image Mail Merge est rencontré dans un document, l'événement [FieldMergingCallback](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/get_fieldmergingcallback/) est déclenché. Vous pouvez répondre à cet événement pour renvoyer un nom de fichier, un flux ou un objet image au moteur Mail Merge afin qu'il puisse être inséré dans le document.
 
 L'exemple de code suivant montre comment insérer des images stockées dans un champ de base de données BLOB dans un rapport:
 

@@ -94,7 +94,7 @@ Anda dapat mengunduh file contoh contoh ini dari [Aspose.Words GitHub](https://g
 
 ### Menyisipkan kolom Blok Alamat Mail Mergeke dalam Dokumen menggunakan DOM
 
-Bidang `ADDRESSBLOCK` digunakan untuk menyisipkan blok alamat mail merge dalam dokumen Word. bidang `ADDRESSBLOCK` dalam dokumen Word dapat diwakili oleh kelas [FieldAddressBlock](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldaddressblock/). Anda dapat menggunakan kelas **FieldAddressBlock** untuk melakukan operasi berikut:
+Bidang `ADDRESSBLOCK` digunakan untuk menyisipkan blok alamat Mail Merge dalam dokumen Word. bidang `ADDRESSBLOCK` dalam dokumen Word dapat diwakili oleh kelas [FieldAddressBlock](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldaddressblock/). Anda dapat menggunakan kelas **FieldAddressBlock** untuk melakukan operasi berikut:
 
 - tentukan apakah akan mencantumkan nama negara / wilayah di bidang tersebut
 - tentukan apakah akan memformat alamat sesuai dengan negara / wilayah penerima seperti yang didefinisikan oleh POST*CODE (Universal Postal Union 2006)

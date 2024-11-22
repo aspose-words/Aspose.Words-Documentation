@@ -41,7 +41,7 @@ Bei der Übersetzung von **Bold**-, *Italic*- oder ~~Durchgestrichenen~~-Inline-
 |  **Italic**<br /> `*italic text*` |  `Font.Italic = true`  |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}}  |  |
 |  **Strikethrough**<br /> `~Strikethrough text~` |  `Font.StrikeThrough = true`  |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
@@ -76,7 +76,7 @@ Die folgende Tabelle zeigt Beispiele für die Verwendung von Markdown-Leaf-Blöc
 |  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`, wobei (1&lt;= N &lt;= 9).<br /> Dies wird in einen integrierten Stil übersetzt und sollte genau dem angegebenen Muster entsprechen (es sind keine Suffixe oder Präfixe zulässig).<br /> Andernfalls handelt es sich nur um einen normalen Absatz mit einem entsprechenden Stil |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}}  |                                                                |
 |  **Setext Heading**<br /> `===` (wenn Überschriftenebene 1),<br /> `---` (wenn Überschriftenebene 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, basierend auf dem `“Heading N”`-Stil.<br /> Wenn (N &gt;= 2), wird `“Heading 2”` verwendet, andernfalls `“Heading 1”`.<br /> Jedes Suffix ist zulässig, aber der Aspose.Words-Importer verwendet die Zahlen "1" bzw. "2" |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 builder.ParagraphFormat.StyleName = "Heading 1";
@@ -120,7 +120,7 @@ Die folgende Tabelle zeigt Beispiele für die Verwendung komplexer Markdown-Cont
 |  Markdown-Funktion |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **Quote**<br /> `> quote,`<br /> `>> nested quote` |  `ParagraphFormat.StyleName = “Quote[some suffix]”`<br /> Das Suffix im Stilnamen ist optional, aber der Aspose.Words-Importer verwendet die geordneten Nummern 1, 2, 3, …. bei verschachtelten Anführungszeichen.<br /> Die Verschachtelung wird über die geerbten Stile definiert |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // By default a document stores blockquote style for the first level.
@@ -157,7 +157,7 @@ Aspose.Words ermöglicht auch die Übersetzung von Tabellen in DOM, wie unten ge
 |  Markdown-Funktion |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  `Table`<br /> `a|b`<br />`-|-`<br />`c|d` |  [Table](https://reference.aspose.com/words/de/net/aspose.words.tables/table/)-, [Row](https://reference.aspose.com/words/de/net/aspose.words.tables/row/)- und [Cell](https://reference.aspose.com/words/de/net/aspose.words.tables/cell/)-Klassen |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Add the first row.

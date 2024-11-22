@@ -26,7 +26,7 @@ Das folgende Codebeispiel zeigt, wie Sie eine benutzerdefinierte Formatierung f�
 
 ## So bewerten Sie den `IF`-Zustand
 
-Wenn Sie die `IF`-Bedingung nach mail merge auswerten möchten, können Sie die [EvaluateCondition](https://reference.aspose.com/words/de/net/aspose.words.fields/fieldif/evaluatecondition/)-Methode verwenden, die sofort das Ergebnis der Ausdrucksauswertung zurückgibt.
+Wenn Sie die `IF`-Bedingung nach Mail Merge auswerten möchten, können Sie die [EvaluateCondition](https://reference.aspose.com/words/de/net/aspose.words.fields/fieldif/evaluatecondition/)-Methode verwenden, die sofort das Ergebnis der Ausdrucksauswertung zurückgibt.
 
 Das folgende Codebeispiel zeigt, wie diese Methode verwendet wird:
 

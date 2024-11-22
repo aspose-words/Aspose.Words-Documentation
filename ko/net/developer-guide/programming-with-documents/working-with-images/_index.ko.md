@@ -71,7 +71,7 @@ Aspose.Words를 사용하면 사용자는 매우 유연한 방식으로 이미�
 
 ## 이미지 {#lock-aspect-ratio-of-image}의 종횡비 잠금
 
-기하학적 모양의 종횡비는 다양한 치수의 크기 비율입니다. [AspectRatioLocked](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/aspectratiolocked/)를 사용하여 이미지의 가로 세로 비율을 잠글 수 있습니다. 모양의 종횡비 기본값은 [ShapeType](https://reference.aspose.com/words/net/aspose.words.drawing/shapetype/)에 따라 다릅니다. `ShapeType.Image`의 경우 *true*이고 다른 모양 유형의 경우 *false*입니다.
+기하학적 모양의 종횡비는 다양한 치수의 크기 비율입니다. [AspectRatioLocked](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/aspectratiolocked/)를 사용하여 이미지의 가로 세로 비율을 잠글 수 있습니다. 모양의 종횡비 기본값은 [ShapeType](https://reference.aspose.com/words/net/aspose.words.drawing/shapetype/)에 따라 다릅니다. `ShapeType.Image`의 경우 *true* 이고 다른 모양 유형의 경우 *false*입니다.
 
 다음 코드 예제에서는 종횡비 작업 방법을 보여줍니다
 

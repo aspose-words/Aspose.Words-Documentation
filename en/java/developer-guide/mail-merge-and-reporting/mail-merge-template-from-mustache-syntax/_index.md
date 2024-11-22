@@ -5,7 +5,7 @@ articleTitle: Mail Merge Template from Mustache Syntax
 linktitle: Mail Merge Template from Mustache Syntax
 type: docs
 description: "Create templates with Mustache syntax. Mustache syntax is the only option to use with templates that do not contain fields (HTML or TXT). With Word templates, you have two options: fields or Mustache syntax using Java."
-keywords: "mail merge template mustache syntax java, mail merge java, mustache syntax java"
+keywords: "mail merge template mustache syntax java, Mail Merge java, mustache syntax java"
 weight: 40
 url: /java/mail-merge-template-from-mustache-syntax/
 timestamp: 2024-01-27-14-07-04
@@ -15,9 +15,9 @@ Aspose.Words allows you to create templates with mustache syntax in addition to 
 
 The Mustache syntax is the only option to use with templates that do not contain fields, such as HTML and TXT templates. With Word templates, you have two options either to use fields or Mustache syntax.
 
-The Mustache syntax supports *foreach* tag, which is an alternative for using mail merge with regions. So the benefit is that you can use mustache syntax if for some reason you are not able or simply you do not want to use merge fields and merge regions.
+The Mustache syntax supports *foreach* tag, which is an alternative for using Mail Merge with regions. So the benefit is that you can use mustache syntax if for some reason you are not able or simply you do not want to use merge fields and merge regions.
 
-You can also combine mail merge fields with some additional fields using the *foreach* tag as shown in the picture below.
+You can also combine Mail Merge fields with some additional fields using the *foreach* tag as shown in the picture below.
 
 <img src="mustache-syntax.png" alt="mustache_syntax_aspose_words_java" style="width:800px"/>
 
@@ -31,7 +31,7 @@ Let's suppose that you need to send the same email to 50 recipients to personali
 >
 > I hereby...
 
-The question here: how you can create 50 emails from 1 single Mustache template? To answer that, you need to perform a mail merge with regions to fill the curly braces for placeholders in the template with actual data and generate an output document.
+The question here: how you can create 50 emails from 1 single Mustache template? To answer that, you need to perform a Mail Merge with regions to fill the curly braces for placeholders in the template with actual data and generate an output document.
 
 <img src="mustache-template.png" alt="mustache_template_aspose_words_java" style="width:650px"/>
 
@@ -43,13 +43,13 @@ As you notice from the example above, in Mustache you need to use curly braces f
 
 ## Work with Mustache Syntax
 
-Mustache is represented as a logic-less order as it lacks any specific control flow statements such as *for* loops and *if* and *else* conditions. But you can use the section tags processing lists and lambdas to achieve conditional evaluation and looping. So to include the Mustache syntax within the mail merge operation, you will need to use the [UseNonMergeFields](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getUseNonMergeFields) property and set its value to *True*.
+Mustache is represented as a logic-less order as it lacks any specific control flow statements such as *for* loops and *if* and *else* conditions. But you can use the section tags processing lists and lambdas to achieve conditional evaluation and looping. So to include the Mustache syntax within the Mail Merge operation, you will need to use the [UseNonMergeFields](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getUseNonMergeFields) property and set its value to *True*.
 
 The following code example shows how to replace the Mustache tags with specific data:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeUsingMustacheTemplateSyntax-MustacheSyntaxUsingDataTable.java" >}}
 
-You can notice the difference between the document before executing the mail merge with regions along with applying the **UseNonMergeFields** property:
+You can notice the difference between the document before executing the Mail Merge with regions along with applying the **UseNonMergeFields** property:
 
 <img src="mustache-syntax-1.png" alt="mustache_syntax_aspose_words_java" style="width:400px"/>
 
@@ -59,13 +59,13 @@ A section begins with a pound and ends with a slash. That is, `{{#foreach list}}
 
 {{% /alert %}}
 
-And after applying the mail merge with regions:
+And after applying the Mail Merge with regions:
 
 <img src="mustache-syntax-2.png" alt="mustache_syntax_result_aspose_words_java" style="width:300px"/>
 
 ## Use `IF` Fields to Make a Mail Merge Intelligent
 
-Aspose.Words allows you to use mail merge fields and Mustache tags with the `IF` statement. The `IF` fields can be used in any mail merge document to suppress undesired spaces and commas if a field is blank.
+Aspose.Words allows you to use Mail Merge fields and Mustache tags with the `IF` statement. The `IF` fields can be used in any Mail Merge document to suppress undesired spaces and commas if a field is blank.
 
 The `IF` field formula is shown below:
 
@@ -79,7 +79,7 @@ For example, you can use `IF` fields if you need to insert “his”, “her”,
 
 **{ IF “{{ GENDER }}” = “MALE” “true text” “false text” }**
 
-The following code example shows how to perform a mail merge operation with Mustache tags and `IF` fields:
+The following code example shows how to perform a Mail Merge operation with Mustache tags and `IF` fields:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeUsingMustacheTemplateSyntax-UseOfIfElseMustacheSyntax.java" >}}
 

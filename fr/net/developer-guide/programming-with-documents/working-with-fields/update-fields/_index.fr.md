@@ -43,7 +43,7 @@ Vous pouvez télécharger le fichier exemple de cet exemple à partir de [Aspose
 
 ### Mise à jour automatique des champs pendant Mail Merge
 
-Lorsque vous exécutez un mail merge, tous les champs du document seront automatiquement mis à jour. En effet, le mail merge est un cas de mise à jour de champ. Le programme rencontre un champ mail merge et doit mettre à jour son résultat, ce qui implique de récupérer la valeur de la source de données et de l'insérer dans le champ. La logique est bien sûr plus compliquée, par exemple, lorsque la fin de la région du document/mail merge est atteinte mais qu'il reste encore des données à fusionner, la région doit alors être dupliquée et le nouvel ensemble de champs mis à jour.
+Lorsque vous exécutez un mail merge, tous les champs du document seront automatiquement mis à jour. En effet, le Mail Merge est un cas de mise à jour de champ. Le programme rencontre un champ Mail Merge et doit mettre à jour son résultat, ce qui implique de récupérer la valeur de la source de données et de l'insérer dans le champ. La logique est bien sûr plus compliquée, par exemple, lorsque la fin de la région du document/mail merge est atteinte mais qu'il reste encore des données à fusionner, la région doit alors être dupliquée et le nouvel ensemble de champs mis à jour.
 
 ## Mettre à jour les champs ayant un attribut sale
 

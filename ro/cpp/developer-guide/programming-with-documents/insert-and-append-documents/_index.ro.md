@@ -46,7 +46,7 @@ Următorul exemplu de cod arată modul în care introduceți conținutul unui do
 
 ### Introduceți un Document în timpul operației Mail Merge {#insert-a-document-during-mail-merge-operation}
 
-Puteți insera un document într-un câmp de îmbinare în timpul unei operații mail merge. De exemplu, un șablon mail merge poate conține un câmp de îmbinare, cum ar fi [rezumat]. Dar în documentul final, trebuie să inserați conținut obținut dintr-un alt document extern în acest câmp de îmbinare. Pentru a realiza acest lucru, va trebui să creați un handler pentru evenimentul de îmbinare.
+Puteți insera un document într-un câmp de îmbinare în timpul unei operații mail merge. De exemplu, un șablon Mail Merge poate conține un câmp de îmbinare, cum ar fi [rezumat]. Dar în documentul final, trebuie să inserați conținut obținut dintr-un alt document extern în acest câmp de îmbinare. Pentru a realiza acest lucru, va trebui să creați un handler pentru evenimentul de îmbinare.
 
 Următorul exemplu de cod arată cum să creați un handler pentru evenimentul de fuziune pentru a-l utiliza mai târziu în procesul de inserare:
 

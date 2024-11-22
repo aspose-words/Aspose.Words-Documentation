@@ -12,9 +12,9 @@ timestamp: 2024-01-27-14-07-04
 
 With Aspose.Words for SharePoint, you can fill documents with data from external data sources such as databases, SharePoint lists or XML data files. You can save the result in any [supported document format](/words/sharepoint/multiple-format-support/). We call this feature *reporting* and the final document, filled with data, a *report*.
 
-Reporting is built on top of [Aspose.Words' mail merge feature](). However, Aspose.Words is a class library and you can use it only programmatically. Aspose.Words for SharePoint provides a user interface for making reports from templates stored in a SharePoint document library. You can specify saving format and location through the interface, as well as report parameters.
+Reporting is built on top of [Aspose.Words' Mail Merge feature](). However, Aspose.Words is a class library and you can use it only programmatically. Aspose.Words for SharePoint provides a user interface for making reports from templates stored in a SharePoint document library. You can specify saving format and location through the interface, as well as report parameters.
 
-A [report template](/words/sharepoint/report-template-and-merge-fields/) is a Microsoft Word file with placeholders defining where to insert data from the report data source. Regular Microsoft Word mail merge fields serve as placeholders. However, Aspose.Words does much more than the standard Microsoft Word mail merge. You can:
+A [report template](/words/sharepoint/report-template-and-merge-fields/) is a Microsoft Word file with placeholders defining where to insert data from the report data source. Regular Microsoft Word Mail Merge fields serve as placeholders. However, Aspose.Words does much more than the standard Microsoft Word mail merge. You can:
 
 - [Define template regions to repeat for each data record in a data source](/words/sharepoint/merge-regions/).
 - [Use nested regions to reflect parent-child relations in the data](/words/sharepoint/nested-regions/).

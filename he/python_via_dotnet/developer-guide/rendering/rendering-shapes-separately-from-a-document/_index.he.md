@@ -39,7 +39,7 @@ In In In Aspose.Words, קבוצות אלה של צורות מיוצגות על �
 
 {{% alert color="primary" %}}
 
-מתי להפוך <span notrans="<span notrans=" [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/)"=""></span>" זה חייב להיות חלק מההיררכיה של המסמך. אם [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) אינו חלק מעץ המסמכים, אזי הפלט המתקבל יהיה ריק לאחר שהוא מעורר השראה. [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/) שיטות.
+מתי להפוך [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) זה חייב להיות חלק מההיררכיה של המסמך. אם [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) אינו חלק מעץ המסמכים, אזי הפלט המתקבל יהיה ריק לאחר שהוא מעורר השראה. [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/) שיטות.
 
 {{% /alert %}}
 

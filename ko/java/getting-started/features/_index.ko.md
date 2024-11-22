@@ -122,16 +122,16 @@ Aspose.Words 모든 문서 요소의 형식화 속성에 대한 상세한 progra
 
 |  제품 정보 |
 |  :-  |
-| 모든 표준 사용 Microsoft Word mail merge 여러분의 보고서에 `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, 연락처 |
-| 지원하다 mail merge 가장 복잡하고 배열 된 문서 `IF` 분야 및 공식. |
-| 데이터 소스에서 문서의 테이블 또는 조각을 Populate 및 동적 성장 mail merge 지역. |
+| 모든 표준 사용 Microsoft Word Mail Merge 여러분의 보고서에 `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, 연락처 |
+| 지원하다 Mail Merge 가장 복잡하고 배열 된 문서 `IF` 분야 및 공식. |
+| 데이터 소스에서 문서의 테이블 또는 조각을 Populate 및 동적 성장 Mail Merge 지역. |
 | order/OrderDetails와 같은 master-detail(parent-child) 데이터를 포함하는 보고서를 쉽게 생성합니다. |
 | 모든 데이터와 문서 작성 Java 데이터 소스 구현 `ResultSet` 인터페이스. |
 | XML 파일 또는 비즈니스 객체와 같은 모든 데이터 소스에서 문서를 전달하여 구현 **IMailMergeDataSource** 인터페이스. |
 | 데이터가 이벤트를 사용하여 병합하는 방법에 대한 수 형식과 같은 정확한 제어를 가져 가라. |
 | 이미지 삽입 mail merge· |
-| Programmatically 생성 또는 수정 Microsoft Word mail merge 문서의 데이터 소스. 호텔 정보 mail merge 설정 및 데이터 소스. |
-| 지원하다 mail merge 이름. |
+| Programmatically 생성 또는 수정 Microsoft Word Mail Merge 문서의 데이터 소스. 호텔 정보 Mail Merge 설정 및 데이터 소스. |
+| 지원하다 Mail Merge 이름. |
 
 ## 연락처
 

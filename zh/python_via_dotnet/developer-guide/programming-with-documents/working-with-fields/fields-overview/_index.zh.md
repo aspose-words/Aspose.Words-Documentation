@@ -191,9 +191,9 @@ Aspose.Words 支持 Microsoft Word 中提供的所有日期和时间格式开关
 
 #### Mail Merge 字段
 
-Aspose.Words 对文档中 mail merge 字段的复杂性没有限制，支持嵌套 `IF` 和公式字段，甚至可以使用公式计算合并字段的名称。
+Aspose.Words 对文档中 Mail Merge 字段的复杂性没有限制，支持嵌套 `IF` 和公式字段，甚至可以使用公式计算合并字段的名称。
 
-Aspose.Words 支持的 mail merge 字段的一些示例：
+Aspose.Words 支持的 Mail Merge 字段的一些示例：
 
 - Mail merge 现场开关：
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -237,7 +237,7 @@ Aspose.Words计算字段结果时，经常需要将字符串解析为数字或�
 
 另一方面，Microsoft Word 根据字段中找到的文本语言（特别是字段代码中的运行）来格式化每个单独的字段。有时，在字段更新期间，这可能是所需的行为，例如，如果您有包含由多种不同语言组成的内容的全球化文档，并且希望每个字段遵循文本中使用的区域设置。 Aspose.Words 也支持此功能。
 
-[Document](https://reference.aspose.com/words/python-net/aspose.words/document/) 类提供了一个 [field_options](https://reference.aspose.com/words/python-net/aspose.words/document/field_options/) 属性，其中包含可用于控制文档中字段更新方式的成员。下面的示例展示了如何指定在字段更新期间用于日期格式设置的区域性以及选择 mail merge 的位置。
+[Document](https://reference.aspose.com/words/python-net/aspose.words/document/) 类提供了一个 [field_options](https://reference.aspose.com/words/python-net/aspose.words/document/field_options/) 属性，其中包含可用于控制文档中字段更新方式的成员。下面的示例展示了如何指定在字段更新期间用于日期格式设置的区域性以及选择 Mail Merge 的位置。
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-ChangeFieldUpdateCultureSource.py" >}}
 

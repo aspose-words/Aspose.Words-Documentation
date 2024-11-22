@@ -14,7 +14,7 @@ Aspose.Words provides two solutions for automatic filling template documents wit
 
 ## Mail Merge Features
 
-As well as the most of Aspose.Words features, Mail Merge mimics the Microsoft Word feature with the same name. Therefore, a typical mail merge template consists of common document content, merge fields to be replaced with data, and fields of other types supported by Microsoft Word defining additional logic for building a result document. For example, a mail merge template for order could look as follows.
+As well as the most of Aspose.Words features, Mail Merge mimics the Microsoft Word feature with the same name. Therefore, a typical Mail Merge template consists of common document content, merge fields to be replaced with data, and fields of other types supported by Microsoft Word defining additional logic for building a result document. For example, a Mail Merge template for order could look as follows.
 
 <img src="mail-merge-features.jpg" alt="mail-merge-features-aspose-words-java" style="width:850px"/>
 
@@ -27,7 +27,7 @@ Key features provided by Mail Merge are as follows:
 - Inclusion of document parts depending on conditions
 - Built-in support for objects mimicking `ADO.NET` in Java as data sources (any custom data source can be supported by implementing the [IMailMergeDataSource](https://reference.aspose.com/words/java/com.aspose.words/imailmergedatasource/) interface)
 
-Overall, Mail Merge is a good way to go if you are never going to use features beyond the scope of Mail Merge, or you have to deal with Microsoft Word mail merge templates. However, being tied with and limited by Microsoft Word behavior, Mail Merge cannot be easily extended to cover every specific scenario, and this is where LINQ Reporting Engine stands out.
+Overall, Mail Merge is a good way to go if you are never going to use features beyond the scope of Mail Merge, or you have to deal with Microsoft Word Mail Merge templates. However, being tied with and limited by Microsoft Word behavior, Mail Merge cannot be easily extended to cover every specific scenario, and this is where LINQ Reporting Engine stands out.
 
 ## LINQ Reporting Engine Features
 

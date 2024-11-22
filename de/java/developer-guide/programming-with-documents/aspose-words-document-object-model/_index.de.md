@@ -16,7 +16,7 @@ Dieser Abschnitt beschreibt die Hauptklassen der Aspose.Words DOM und ihre Bezie
 
 ## Dokument erstellen Objekt Baum {#create-a-document-objects-tree}
 
-Wenn ein Dokument in die Aspose.Words <span notrans="<span notrans=" DOM"=""></span>,"> dann wird ein Objektbaum gebaut und verschiedene Arten von Elementen des Quelldokuments haben ihre eigenen DOM Baumobjekte mit verschiedenen Eigenschaften.
+Wenn ein Dokument in die Aspose.Words DOM dann wird ein Objektbaum gebaut und verschiedene Arten von Elementen des Quelldokuments haben ihre eigenen DOM Baumobjekte mit verschiedenen Eigenschaften.
 
 ### Dokument Nodes Tree erstellen {#build-document-nodes-tree}
 

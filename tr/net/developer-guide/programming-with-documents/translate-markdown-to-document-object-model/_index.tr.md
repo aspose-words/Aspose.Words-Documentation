@@ -41,7 +41,7 @@ Madde işaretli ve sıralı listeler Markdown'te de kapsayıcı bloklardır. Yuv
 |  **Italic**<br /> `*italic text*` |  `Font.Italic = true`  |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}}  |  |
 |  **Strikethrough**<br /> `~Strikethrough text~` |  `Font.StrikeThrough = true`  |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
@@ -76,7 +76,7 @@ Aşağıdaki tablo Aspose.Words'de Markdown Yaprak bloklarının kullanımına i
 |  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`, burada (1&lt;= N &lt;= 9).<br /> Bu, yerleşik bir stile dönüştürülür ve tam olarak belirtilen modelde olmalıdır (hiçbir sonek veya öneklere izin verilmez).<br /> Aksi takdirde, karşılık gelen stile sahip sıradan bir paragraf olacaktır |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}}  |                                                                |
 |  **Setext Heading**<br /> `===` (Başlık düzeyi 1 ise),<br /> `---` (Başlık düzeyi 2 ise) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, `“Heading N”` stilini temel alır.<br /> (N &gt;= 2) ise `“Heading 2”` kullanılacaktır, aksi takdirde `“Heading 1”` kullanılacaktır.<br /> Herhangi bir son eke izin verilir, ancak Aspose.Words içe aktarıcısı sırasıyla "1" ve "2" rakamlarını kullanır |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 builder.ParagraphFormat.StyleName = "Heading 1";
@@ -120,7 +120,7 @@ Aşağıdaki tablo Aspose.Words'de Markdown Karmaşık Kapsayıcıların kullan�
 |  Markdown özelliği |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **Quote**<br /> `> quote,`<br /> `>> nested quote` |  `ParagraphFormat.StyleName = “Quote[some suffix]”`<br /> Stil adındaki son ek isteğe bağlıdır, ancak Aspose.Words içe aktarıcısı 1, 2, 3, … sıralı sayıları kullanır. iç içe geçmiş tırnaklar durumunda.<br /> Yuvalama, devralınan stillerle tanımlanır |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // By default a document stores blockquote style for the first level.
@@ -157,7 +157,7 @@ Aspose.Words ayrıca aşağıda gösterildiği gibi tabloların DOM'ye çevrilme
 |  Markdown özelliği |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  `Table`<br /> 'bir | b`<br />`-|-`<br />`c|d' |  [Table](https://reference.aspose.com/words/tr/net/aspose.words.tables/table/), [Row](https://reference.aspose.com/words/tr/net/aspose.words.tables/row/) ve [Cell](https://reference.aspose.com/words/tr/net/aspose.words.tables/cell/) sınıfları |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Add the first row.

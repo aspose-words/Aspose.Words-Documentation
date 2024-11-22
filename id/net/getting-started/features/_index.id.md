@@ -114,15 +114,15 @@ Anda dapat menggunakan Aspose.Words sebagai solusi pelaporannya sendiri. Rancang
 
 |  Fitur | .NET | .NET Standard 2.0 | Xamarin.Android | Xamarin.iOS | Xamarin.Mac |
 |  :-  |  :-  |  :-  |  :-  |  :-  |  :-  |
-| Gunakan semua bidang Microsoft Word mail merge standar dalam laporan Anda termasuk `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Jalankan mail merge untuk dokumen yang berisi bidang dan rumus `IF` yang paling rumit dan bertumpuk sekalipun. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Gunakan semua bidang Microsoft Word Mail Merge standar dalam laporan Anda termasuk `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Jalankan Mail Merge untuk dokumen yang berisi bidang dan rumus `IF` yang paling rumit dan bertumpuk sekalipun. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Isi dan kembangkan tabel atau fragmen secara dinamis dalam dokumen dari sumber data Anda menggunakan wilayah mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Buat laporan dengan mudah yang berisi data detail master (induk-anak) seperti Order/OrderDetails. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Isi dokumen dengan data dari sumber data .NET apa pun seperti DataSet, DataTable, DataView, DataReader, atau ADO Recordset. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Isi dokumen dari sumber data apa pun seperti kueri LINQ, file XML, atau objek bisnis dengan mengimplementasikan antarmuka **IMailMergeDataSource**. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Ambil kendali yang tepat, seperti pemformatan angka, atas cara data Anda digabungkan menggunakan peristiwa. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Sisipkan gambar selama mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Membuat atau memodifikasi sumber data Microsoft Word mail merge untuk dokumen secara terprogram. Pertahankan pengaturan mail merge dan sumber data. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Membuat atau memodifikasi sumber data Microsoft Word Mail Merge untuk dokumen secara terprogram. Pertahankan pengaturan Mail Merge dan sumber data. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Ambil nama bidang mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
 ## Fitur Pelaporan

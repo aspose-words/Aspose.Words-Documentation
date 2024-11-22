@@ -156,7 +156,7 @@ OLE pakket is'n erfenis en "ongedokumenteerde" manier om ingebedde voorwerp te s
 
 ## Voeg by HTML
 
-Jy kan maklik'n HTML string wat'n HTML fragment of hele HTML dokument bevat in die Word-dokument invoeg. Slaag net hierdie string na die `DocumentBuilder->InsertHtml` metode. Een van die nuttige implementasies van die metode is om'n HTML string in'n databasis te stoor en dit in die dokument in te voeg tydens mail merge om die geformateerde inhoud by te voeg in plaas daarvan om dit te bou met behulp van verskillende metodes van die dokumentbouer. Hieronder voorbeeld toon insetsels HTML in'n dokument met behulp van DocumentBuilder.
+Jy kan maklik'n HTML string wat'n HTML fragment of hele HTML dokument bevat in die Word-dokument invoeg. Slaag net hierdie string na die `DocumentBuilder->InsertHtml` metode. Een van die nuttige implementasies van die metode is om'n HTML string in'n databasis te stoor en dit in die dokument in te voeg tydens Mail Merge om die geformateerde inhoud by te voeg in plaas daarvan om dit te bou met behulp van verskillende metodes van die dokumentbouer. Hieronder voorbeeld toon insetsels HTML in'n dokument met behulp van DocumentBuilder.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertHtml.cpp" >}}
 

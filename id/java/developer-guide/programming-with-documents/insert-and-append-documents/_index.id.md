@@ -50,7 +50,7 @@ Contoh kode berikut menunjukkan bagaimana memasukkan konten satu dokumen ke yang
 
 ### Masukkan Dokumen Selama Mail Merge Sitemap {#insert-a-document-during-mail-merge-operation}
 
-Anda dapat memasukkan dokumen ke dalam bidang gabungan selama mail merge operasi. Misalnya, contoh mail merge template dapat mengandung lapangan gabungan seperti [Summary]. Tetapi dalam dokumen akhir, Anda perlu memasukkan konten yang diperoleh dari dokumen eksternal lain ke dalam bidang merge ini. Untuk mencapai itu, Anda harus membuat handler untuk acara merge.
+Anda dapat memasukkan dokumen ke dalam bidang gabungan selama Mail Merge operasi. Misalnya, contoh Mail Merge template dapat mengandung lapangan gabungan seperti [Summary]. Tetapi dalam dokumen akhir, Anda perlu memasukkan konten yang diperoleh dari dokumen eksternal lain ke dalam bidang merge ini. Untuk mencapai itu, Anda harus membuat handler untuk acara merge.
 
 Contoh kode berikut menunjukkan cara membuat handler untuk acara merging untuk menggunakannya nanti dalam proses penyisipan:
 

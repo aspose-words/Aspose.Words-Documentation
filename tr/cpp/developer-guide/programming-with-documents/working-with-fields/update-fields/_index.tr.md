@@ -19,7 +19,7 @@ Bir belge yüklendiğinde, Aspose.Words davranışını taklit eder Microsoft Wo
 - bir belgeyi açtığınızda / kaydettiğinizde alanlar bozulmadan kalır
 - bir belgedeki tüm alanları açıkça güncelleştirebilirsiniz, örneğin, gerektiğinde `TOC`'ı yeniden oluşturabilirsiniz
 - PDF veya XPS konumuna getirdiğinizde, üstbilgi / altbilgilerdeki sayfa numaralandırmasıyla ilgili alanlar güncellenir
-- mail merge çalıştırdığınızda tüm alanlar otomatik olarak güncellenir
+- Mail Merge çalıştırdığınızda tüm alanlar otomatik olarak güncellenir
 
 ### Alanları Programlı Olarak Güncelle
 
@@ -37,7 +37,7 @@ Aşağıdaki kod örneği, bir belgeyi oluşturmadan önce tüm alanların nası
 
 ### Mail Merge Sırasında Otomatik Alan Güncellemesi
 
-Bir mail merge çalıştırdığınızda, belgedeki tüm alanlar otomatik olarak güncellenir. Bunun nedeni, mail merge bir alan güncellemesi durumudur. Program bir mail merge alanıyla karşılaşır ve değerini veri kaynağından alıp alana eklemeyi içeren sonucunu güncellemesi gerekir. Mantık elbette daha karmaşıktır, örneğin, belgenin / mail merge bölgesinin sonuna ulaşıldığında, ancak birleştirilecek daha fazla veri olduğunda, bölgenin çoğaltılması ve yeni alan kümesinin güncellenmesi gerekir.
+Bir Mail Merge çalıştırdığınızda, belgedeki tüm alanlar otomatik olarak güncellenir. Bunun nedeni, Mail Merge bir alan güncellemesi durumudur. Program bir Mail Merge alanıyla karşılaşır ve değerini veri kaynağından alıp alana eklemeyi içeren sonucunu güncellemesi gerekir. Mantık elbette daha karmaşıktır, örneğin, belgenin / Mail Merge bölgesinin sonuna ulaşıldığında, ancak birleştirilecek daha fazla veri olduğunda, bölgenin çoğaltılması ve yeni alan kümesinin güncellenmesi gerekir.
 
 ## Kaydetmeden Önce LastSavedTime Özelliğini Güncelleyin
 

@@ -43,7 +43,7 @@ Používáme [Font](https://reference.aspose.com/words/java/com.aspose.words/fon
 |  **Strikethrough**<br/>`~Strikethrough text~` |  `Font.StrikeThrough = true`  |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Strikethrough.java" >}}  |  |
 
-Používáme styl postavy se jménem, který začíná od slova <span notrans="<span notrans=" `InlineCode`"=""></span>, následuje volitelná tečka `(.)` a řada odplat ```(`)``` pro `InlineCode` bonus. Pokud se vynechá řada backticks, pak jeden backtick bude použit ve výchozím nastavení.
+Používáme styl postavy se jménem, který začíná od slova `InlineCode`, následuje volitelná tečka `(.)` a řada odplat ```(`)``` pro `InlineCode` bonus. Pokud se vynechá řada backticks, pak jeden backtick bude použit ve výchozím nastavení.
 
 |  Markdown funkce |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |

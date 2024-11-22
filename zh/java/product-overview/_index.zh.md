@@ -66,7 +66,7 @@ Aspose.Words (单位:千美元) Java 特征可以分为四个主要领域.
 
 Aspose.Words (单位:千美元) Java 覆盖所有 Java 开发环境和部署平台。 我们 API 可用于开发广泛的操作系统的应用程序,例如: Windows, Linux, 麦克OS, Android, 和各种平台。
 
-简单地说,如果你的平台能运行标准 <span notrans="<span notrans=" Java"=""></span>",> 它可以运行 Aspose.Words (单位:千美元) Java。 。 。 。 如果您的应用程序可以调用标准 Java <span notrans="<span notrans=" API"=""></span>",> 你没有问题可以打电话 Aspose.Words (单位:千美元) Java API 从您的申请。
+简单地说,如果你的平台能运行标准 Java 它可以运行 Aspose.Words (单位:千美元) Java。 。 。 。 如果您的应用程序可以调用标准 Java API 你没有问题可以打电话 Aspose.Words (单位:千美元) Java API 从您的申请。
 
 目前我们的基线是JDK1.7和较新的. 但我们仍然支持JDK1.6.
 
@@ -92,7 +92,7 @@ Aspose.Words 只要一次只有一个线程在文档上工作,多线程就安全
 
 ### 最小学习曲线
 
-虽然有150多个公共课程和点数 <span notrans="<span notrans=" Aspose.Words"=""></span>",> 学习曲线最小,因为 Aspose.Words API 精心设计的目标如下:
+虽然有150多个公共课程和点数 Aspose.Words 学习曲线最小,因为 Aspose.Words API 精心设计的目标如下:
 
 * 借用其他众所周知的最佳做法 API例如, Microsoft Word 自动化
 * 借用贸发会议的最佳做法。 Java 框架设计准则

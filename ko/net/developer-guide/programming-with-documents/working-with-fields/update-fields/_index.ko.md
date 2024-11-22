@@ -43,11 +43,11 @@ timestamp: 2024-01-27-14-07-04
 
 ### Mail Merge 중 자동 필드 업데이트
 
-mail merge를 실행하면 문서의 모든 필드가 자동으로 업데이트됩니다. mail merge는 현장 업데이트의 경우이기 때문입니다. 프로그램은 mail merge 필드를 발견하고 결과를 업데이트해야 하며, 여기에는 데이터 소스에서 값을 가져와 필드에 삽입하는 작업이 포함됩니다. 물론 논리는 더 복잡합니다. 예를 들어 문서/mail merge 영역의 끝에 도달했지만 아직 병합할 추가 데이터가 있는 경우 해당 영역을 복제하고 새 필드 세트를 업데이트해야 합니다.
+mail merge를 실행하면 문서의 모든 필드가 자동으로 업데이트됩니다. mail merge는 현장 업데이트의 경우이기 때문입니다. 프로그램은 Mail Merge 필드를 발견하고 결과를 업데이트해야 하며, 여기에는 데이터 소스에서 값을 가져와 필드에 삽입하는 작업이 포함됩니다. 물론 논리는 더 복잡합니다. 예를 들어 문서/mail merge 영역의 끝에 도달했지만 아직 병합할 추가 데이터가 있는 경우 해당 영역을 복제하고 새 필드 세트를 업데이트해야 합니다.
 
 ## 더티 속성이 있는 필드 업데이트
 
-w:dirty는 문서를 열 때 지정한 필드만 새로 고치는 필드 수준 속성입니다. 다음에 문서를 열 때 이 필드만 새로 고치도록 MS Word에 지시합니다. [UpdateDirtyFields](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/updatedirtyfields/) 속성을 사용하여 더티 속성으로 필드를 업데이트할지 여부를 지정할 수 있습니다. **UpdateDirtyFields** 값을 *true*로 설정하면 문서 로드 시 [Field.IsDirty](https://reference.aspose.com/words/net/aspose.words.fields/field/isdirty/) 또는 [FieldChar.IsDirty](https://reference.aspose.com/words/net/aspose.words.fields/fieldchar/isdirty/) 속성에 대한 *true* 값이 있는 모든 필드가 업데이트됩니다.
+w:dirty는 문서를 열 때 지정한 필드만 새로 고치는 필드 수준 속성입니다. 다음에 문서를 열 때 이 필드만 새로 고치도록 MS Word에 지시합니다. [UpdateDirtyFields](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/updatedirtyfields/) 속성을 사용하여 더티 속성으로 필드를 업데이트할지 여부를 지정할 수 있습니다. **UpdateDirtyFields** 값을 *true* 로 설정하면 문서 로드 시 [Field.IsDirty](https://reference.aspose.com/words/net/aspose.words.fields/field/isdirty/) 또는 [FieldChar.IsDirty](https://reference.aspose.com/words/net/aspose.words.fields/fieldchar/isdirty/) 속성에 대한 *true* 값이 있는 모든 필드가 업데이트됩니다.
 
 다음 코드 예시에서는 dirty 속성이 있는 필드를 업데이트하는 방법을 보여줍니다
 

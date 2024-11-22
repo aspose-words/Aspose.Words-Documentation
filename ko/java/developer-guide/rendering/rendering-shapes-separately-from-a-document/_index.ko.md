@@ -40,7 +40,7 @@ DOCX 형식은 도표 또는 도표와 같은 이미지의 특별한 유형을 �
 
 {{% alert color="primary" %}}
 
-렌더링 할 때 <span notrans="<span notrans=" **Shape**"=""></span>· 문서 hierarchy의 일부가 있어야합니다. 이름 * **Shape** 문서 트리의 일부가 아니라 렌더링 된 출력은 invoking 후에 공백이 될 것입니다. **ShapeRenderer** 방법.
+렌더링 할 때 **Shape**· 문서 hierarchy의 일부가 있어야합니다. 이름 * **Shape** 문서 트리의 일부가 아니라 렌더링 된 출력은 invoking 후에 공백이 될 것입니다. **ShapeRenderer** 방법.
 
 {{% /alert %}}
 

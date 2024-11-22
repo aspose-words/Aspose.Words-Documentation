@@ -94,7 +94,7 @@ Puteți descărca fișierul eșantion al acestui exemplu din [Aspose.Words GitHu
 
 ### Inserarea câmpului de blocare a adresei Mail Merge într-un Document folosind DOM
 
-Câmpul `ADDRESSBLOCK` este folosit pentru a insera un bloc de adrese mail merge într-un document Word. `ADDRESSBLOCK` câmpul din documentul Word poate fi reprezentat de clasa [FieldAddressBlock](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldaddressblock/). Puteți utiliza clasa **FieldAddressBlock** pentru a efectua următoarele operații:
+Câmpul `ADDRESSBLOCK` este folosit pentru a insera un bloc de adrese Mail Merge într-un document Word. `ADDRESSBLOCK` câmpul din documentul Word poate fi reprezentat de clasa [FieldAddressBlock](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldaddressblock/). Puteți utiliza clasa **FieldAddressBlock** pentru a efectua următoarele operații:
 
 - specificați dacă să includeți numele țării/regiunii în câmp
 - specificați dacă să formatați adresa în funcție de țara / regiunea destinatarului, astfel cum este definită de POST * CODE (Uniunea Poștală Universală 2006)

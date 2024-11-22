@@ -41,7 +41,7 @@ timestamp: 2024-10-21-11-17-44
 |  **Italic**<br /> `*italic text*` |  `Font.Italic = true`  |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}}  |  |
 |  **Strikethrough**<br /> `~Strikethrough text~` |  `Font.StrikeThrough = true`  |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
@@ -76,7 +76,7 @@ builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
 |  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`، حيث (1&lt;= N &lt;= 9).<br /> تتم ترجمة هذا إلى نمط مدمج ويجب أن يكون بالضبط من النمط المحدد (لا يُسمح باللاحقات أو البادئات).<br /> وإلا فستكون مجرد فقرة عادية ذات نمط مناسب |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}}  |                                                                |
 |  **Setext Heading**<br /> `===` (إذا كان مستوى العنوان 1)،<br /> `---` (إذا كان مستوى العنوان 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`، استنادًا إلى أسلوب `“Heading N”`.<br /> إذا كان (N &gt;= 2)، فسيتم استخدام `“Heading 2”`، وإلا `“Heading 1”`.<br /> يُسمح بأي لاحقة، لكن مستورد Aspose.Words يستخدم الأرقام "1" و"2" على التوالي |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 builder.ParagraphFormat.StyleName = "Heading 1";
@@ -120,7 +120,7 @@ else
 |  ميزة Markdown |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **Quote**<br /> `> quote,`<br /> `>> nested quote` |  `ParagraphFormat.StyleName = “Quote[some suffix]”`<br /> اللاحقة في اسم النمط اختيارية، لكن المستورد Aspose.Words يستخدم الأرقام المرتبة 1، 2، 3، ..... في حالة الاقتباسات المتداخلة.<br /> يتم تعريف التداخل عبر الأنماط الموروثة |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // By default a document stores blockquote style for the first level.
@@ -157,7 +157,7 @@ builder.Writeln("Item 2b");{{< /highlight >}} |                                 
 |  ميزة Markdown |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  `Table`<br /> `أ | ب`<br />`-|-`<br />`c | د` |  فئات [Table](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/) و[Row](https://reference.aspose.com/words/ar/net/aspose.words.tables/row/) و[Cell](https://reference.aspose.com/words/ar/net/aspose.words.tables/cell/) |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Add the first row.

@@ -174,9 +174,9 @@ Aspose.Words תומך בכל מתגי התאריך והשעה הזמינים Mic
 
 ### Mail Merge שדות שדות שדות
 
-Aspose.Words אין הגבלה על המורכבות של mail merge שדות במסמכים שלך ותומכת קינון `IF` שדות פורמולה ויכולים אפילו לחשב את שם שדה המיזוג באמצעות נוסחה.
+Aspose.Words אין הגבלה על המורכבות של Mail Merge שדות במסמכים שלך ותומכת קינון `IF` שדות פורמולה ויכולים אפילו לחשב את שם שדה המיזוג באמצעות נוסחה.
 
-כמה דוגמאות mail merge שדות Aspose.Words תמיכה:
+כמה דוגמאות Mail Merge שדות Aspose.Words תמיכה:
 
 - - Mail merge מתגי שדה:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -223,6 +223,6 @@ Aspose.Words אין הגבלה על המורכבות של mail merge שדות ב
 
 The The The [Document](https://reference.aspose.com/words/net/aspose.words/document/) הכיתה מספקת [FieldOptions](https://reference.aspose.com/words/net/aspose.words/document/fieldoptions/) רכוש המכיל חברים אשר ניתן להשתמש כדי לשלוט כיצד שדות מעודכנים בתוך המסמך.
 
-הדוגמה הבאה של הקוד מראה כיצד לציין היכן התרבות המשמשת לפורמט תאריך במהלך עדכון שדה ועדכונים. mail merge נבחר מ:
+הדוגמה הבאה של הקוד מראה כיצד לציין היכן התרבות המשמשת לפורמט תאריך במהלך עדכון שדה ועדכונים. Mail Merge נבחר מ:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-ChangeFieldUpdateCultureSource-ChangeFieldUpdateCultureSource.cs" >}}

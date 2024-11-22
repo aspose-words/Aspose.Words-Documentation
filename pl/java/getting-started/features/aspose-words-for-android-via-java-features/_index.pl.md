@@ -92,16 +92,16 @@ Możesz użyć Aspose.Words jako samodzielne rozwiązanie sprawozdawcze. Zaproje
 
 |  Cecha | Aspose.Words zamiast Java | Aspose.Words zamiast Android przez Java |
 |  :-  |  :-  |  :-  |
-| Użyj wszystkich standardów Microsoft Word mail merge pola w raportach, w tym `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINA. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Wykonaj mail merge dla dokumentów, które zawierają nawet najbardziej złożone i zagnieżdżone `IF` pola i wzory. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Dynamicznie wyhodować tabele lub fragmenty dokumentu ze źródła danych mail merge regionów. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Użyj wszystkich standardów Microsoft Word Mail Merge pola w raportach, w tym `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINA. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Wykonaj Mail Merge dla dokumentów, które zawierają nawet najbardziej złożone i zagnieżdżone `IF` pola i wzory. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Dynamicznie wyhodować tabele lub fragmenty dokumentu ze źródła danych Mail Merge regionów. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Łatwo generować raporty zawierające dane master- detal (parent- child), takie jak Order / OrderSzczegóły. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Populacja dokumentów z danymi z dowolnego Java źródło danych, które wdraża `ResultSet` interfejs. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Populacja dokumentów z dowolnego źródła danych, takich jak plik XML lub obiekty biznesowe poprzez wdrożenie **IMailMergeDataSource** interfejs. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Przejmij precyzyjną kontrolę, taką jak formatowanie liczb, nad tym, w jaki sposób dane są łączone za pomocą zdarzeń. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Wstaw obrazy podczas mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Programatycznie tworzyć lub modyfikować Microsoft Word mail merge źródło danych dla dokumentu. Zachowaj mail merge ustawienia i źródła danych. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Pobieranie mail merge nazwy pól. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Programatycznie tworzyć lub modyfikować Microsoft Word Mail Merge źródło danych dla dokumentu. Zachowaj Mail Merge ustawienia i źródła danych. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Pobieranie Mail Merge nazwy pól. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
 ### Funkcje sprawozdawczości
 

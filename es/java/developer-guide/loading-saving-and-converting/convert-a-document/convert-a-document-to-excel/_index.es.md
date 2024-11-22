@@ -14,7 +14,7 @@ Convertir documentos de un formato a otro es la característica insignia de Aspo
 
 ## Convertir un documento en XLSX
 
-Convertir un documento en XLSX es un proceso bastante complicado. Para guardar su documento en formato XLSX utilizando <span notrans="<span notrans=" Aspose.Words"=""></span>," utilizar el [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) clase y la nueva `Xlsx` elemento en el [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) enumeración. Como se mencionó anteriormente, puede guardar el documento en cualquier formato de carga soportado por Aspose.Words a XLSX.
+Convertir un documento en XLSX es un proceso bastante complicado. Para guardar su documento en formato XLSX utilizando Aspose.Words," utilizar el [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) clase y la nueva `Xlsx` elemento en el [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) enumeración. Como se mencionó anteriormente, puede guardar el documento en cualquier formato de carga soportado por Aspose.Words a XLSX.
 
 El siguiente ejemplo de código muestra cómo guardar PDF a XLSX:
 

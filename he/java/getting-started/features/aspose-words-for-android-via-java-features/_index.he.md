@@ -92,16 +92,16 @@ Aspose.Words מספק גישה תוכניתית מפורטת לתבנית תכו
 
 |  תכונות | Aspose.Words עבור Java | Aspose.Words עבור Android באמצעות Java |
 |  :-  |  :-  |  :-  |
-| השתמש בכל הסטנדרט Microsoft Word mail merge שדות בדוחות שלך כולל `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, טיול. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| הוצאה להורג mail merge עבור מסמכים המכילים אפילו את המורכב ביותר ומוכר `IF` שדות ונוסחאות | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| פופלוט ולהגדיל דינמי טבלאות או קטעים במסמך ממקור הנתונים שלך mail merge אזורים. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| השתמש בכל הסטנדרט Microsoft Word Mail Merge שדות בדוחות שלך כולל `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, טיול. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| הוצאה להורג Mail Merge עבור מסמכים המכילים אפילו את המורכב ביותר ומוכר `IF` שדות ונוסחאות | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| פופלוט ולהגדיל דינמי טבלאות או קטעים במסמך ממקור הנתונים שלך Mail Merge אזורים. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | בקלות ליצור דוחות המכילים נתונים של Master-detail (סבא-ילד) כגון הזמנה / הזמנות. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | מסמכים עם נתונים מכל Java מקור הנתונים המיישם את `ResultSet` ממשק. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | מסמכים בולטים מכל מקור נתונים כגון קובץ XML או אובייקטים עסקיים על ידי יישום **IMailMergeDataSource** ממשק. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | קח שליטה מדויקת, כגון עיצוב מספר, על איך הנתונים שלך ממוזגים באמצעות אירועים. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | הכניסו תמונות במהלך mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| ליצור או לשנות Microsoft Word mail merge מקור נתונים עבור מסמך. שמירה mail merge הגדרות ומקורות נתונים | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Retrieve mail merge שמות שדה | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| ליצור או לשנות Microsoft Word Mail Merge מקור נתונים עבור מסמך. שמירה Mail Merge הגדרות ומקורות נתונים | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Retrieve Mail Merge שמות שדה | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
 ### דוחות
 

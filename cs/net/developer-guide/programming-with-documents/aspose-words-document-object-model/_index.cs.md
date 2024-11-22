@@ -16,7 +16,7 @@ Tento oddíl popisuje hlavní třídy Aspose.Words DOM a jejich vztahy. Použit�
 
 ## Vytvořit a `Document` Strom objektu {#create-a-document-objects-tree}
 
-Při čtení dokumentu do Aspose.Words <span notrans="<span notrans=" DOM"=""></span>,? pak je postaven strom objektů a různé typy prvků zdrojového dokumentu mají vlastní DOM objekty stromu s různými vlastnostmi.
+Při čtení dokumentu do Aspose.Words DOM,? pak je postaven strom objektů a různé typy prvků zdrojového dokumentu mají vlastní DOM objekty stromu s různými vlastnostmi.
 
 ### Vytvořit uzel dokumentu strom {#build-document-nodes-tree}
 

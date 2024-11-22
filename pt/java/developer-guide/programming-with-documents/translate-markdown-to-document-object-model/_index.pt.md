@@ -43,7 +43,7 @@ Nós usamos [Font](https://reference.aspose.com/words/java/com.aspose.words/font
 |  **Strikethrough**<br/>`~Strikethrough text~` |  `Font.StrikeThrough = true`  |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Strikethrough.java" >}}  |  |
 
-Usamos um estilo de personagem com um nome que começa a partir da palavra <span notrans="<span notrans=" `InlineCode`"=""></span>, seguido por um ponto opcional `(.)` e um número de backticks ```(`)``` para o `InlineCode` recurso. Se um número de backticks for perdido, então um backtick será usado por padrão.
+Usamos um estilo de personagem com um nome que começa a partir da palavra `InlineCode`, seguido por um ponto opcional `(.)` e um número de backticks ```(`)``` para o `InlineCode` recurso. Se um número de backticks for perdido, então um backtick será usado por padrão.
 
 |  Markdown recurso |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |

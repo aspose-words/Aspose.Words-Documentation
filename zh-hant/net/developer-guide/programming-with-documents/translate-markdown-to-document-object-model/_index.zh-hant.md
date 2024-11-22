@@ -41,7 +41,7 @@ timestamp: 2024-10-21-11-17-44
 | **Italic**<br /> `*italic text*` | `Font.Italic = true` |
 | {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}} |  |
 | **Strikethrough**<br />`~Strikethrough text~` | `Font.StrikeThrough = true` |
-| {{< highlight csharp >}}// Use a document builder to add content to the document.
+| {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
@@ -76,7 +76,7 @@ builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
 | **ATX Heading**<br />`# H1, ## H2, ### H3…` | `ParagraphFormat.StyleName = “Heading N”`，其中 1 <= N <= 9。<br />這被翻譯成內建样式，且應完全符合指定模式（不允許有後綴或前綴）。<br />否則，它只是一個普通段落，具有相應的样式。 |
 | {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}} |  |
 | **Setext Heading**<br />`===`（若為第1級標題），<br />`---`（若為第2級標題） | `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`，以 `“Heading N”` 樣式為基礎。<br />若 (N >= 2)，則使用 `“Heading 2”`，否則使用 `“Heading 1”`。<br />允許任何尾數，但 Aspose.Words 進口器分別使用數字"1"和"2"。 |
-| {{< highlight csharp >}}// Use a document builder to add content to the document.
+| {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 builder.ParagraphFormat.StyleName = "Heading 1";
@@ -120,7 +120,7 @@ else
 | Markdown功能 | Aspose.Words |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Quote**<br /> `> quote,`<br /> `>> nested quote` | `ParagraphFormat.StyleName = “Quote[some suffix]”`<br />在風格名稱中使用的後綴是可選的，Aspose.Words匯入器使用嵌套引號中的有序數字（1、2、3...）。<br />嵌套定義透過遺傳風格來定義。 |
-| {{< highlight csharp >}}// Use a document builder to add content to the document.
+| {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // By default a document stores blockquote style for the first level.
@@ -157,7 +157,7 @@ Aspose.Words 也讓您將表格翻譯成 DOM，如下所示：
 | Markdown 功能 | Aspose.Words |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | `Table`<br />`a|b`<br />`-|-`<br />`c|d' | [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/)、[Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) 和 [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) 課程。 |
-| {{< highlight csharp >}}// Use a document builder to add content to the document.
+| {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Add the first row.

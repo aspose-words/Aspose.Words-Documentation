@@ -19,7 +19,7 @@ Wanneer een document wordt geladen, Aspose.Words bootst het gedrag na van Micros
 - als u een document opent/opslaat blijven de velden intact
 - u kunt expliciet alle velden in een document bijwerken, bijvoorbeeld, herbouwen `TOC` wanneer u
 - wanneer u naar PDF of XPS de velden met betrekking tot paginanummering in headers/voeters worden bijgewerkt
-- wanneer u uit te voeren mail merge alle velden worden automatisch bijgewerkt
+- wanneer u uit te voeren Mail Merge alle velden worden automatisch bijgewerkt
 
 ### Velden programmatisch bijwerken
 
@@ -37,11 +37,11 @@ Het volgende voorbeeld laat zien hoe je alle velden kunt bijwerken voordat je ee
 
 ### Automatisch veld bijwerken tijdens Mail Merge
 
-Wanneer u een <span notrans="<span notrans=" mail merge"=""></span>,"> alle velden in het document worden automatisch bijgewerkt. Dit is omdat de mail merge is een geval van een veldupdate. Het programma ontmoet een mail merge veld en moet het resultaat te updaten, dat houdt in het grijpen van de waarde van de gegevensbron en invoegen in het veld. De logica is natuurlijk ingewikkelder, bijvoorbeeld wanneer het einde van het document/mail merge regio wordt bereikt, maar er moeten nog meer gegevens worden samengevoegd, dan moet de regio worden gedupliceerd en moet de nieuwe reeks velden worden bijgewerkt.
+Wanneer u een Mail Merge alle velden in het document worden automatisch bijgewerkt. Dit is omdat de Mail Merge is een geval van een veldupdate. Het programma ontmoet een Mail Merge veld en moet het resultaat te updaten, dat houdt in het grijpen van de waarde van de gegevensbron en invoegen in het veld. De logica is natuurlijk ingewikkelder, bijvoorbeeld wanneer het einde van het document/mail merge regio wordt bereikt, maar er moeten nog meer gegevens worden samengevoegd, dan moet de regio worden gedupliceerd en moet de nieuwe reeks velden worden bijgewerkt.
 
 ## Velden bijwerken met vieze eigenschap
 
-De w:dirty is een veld-level attribuut dat alleen het veld zal vernieuwen dat u aangeeft wanneer het document wordt geopend. Het vertelt MS Word alleen dit veld te vernieuwen de volgende keer dat het document wordt geopend. U kunt de eigenschap LoadOptions.setUpdateDirtyFields() gebruiken om aan te geven of de velden met het vuile attribuut moeten worden bijgewerkt. Wanneer de waarde van LoadOptions.setUpdateDirtyFields() ingesteld is op <span notrans="<span notrans=" *true*"=""></span>,"> alle velden met *true* waarde voor `Field.IsDirty` of `FieldChar.IsDirty` eigenschap worden bijgewerkt op document laden
+De w:dirty is een veld-level attribuut dat alleen het veld zal vernieuwen dat u aangeeft wanneer het document wordt geopend. Het vertelt MS Word alleen dit veld te vernieuwen de volgende keer dat het document wordt geopend. U kunt de eigenschap LoadOptions.setUpdateDirtyFields() gebruiken om aan te geven of de velden met het vuile attribuut moeten worden bijgewerkt. Wanneer de waarde van LoadOptions.setUpdateDirtyFields() ingesteld is op *true* alle velden met *true* waarde voor `Field.IsDirty` of `FieldChar.IsDirty` eigenschap worden bijgewerkt op document laden
 
 Het volgende voorbeeld van code laat zien hoe velden met het vuile attribuut kunnen worden bijgewerkt:
 

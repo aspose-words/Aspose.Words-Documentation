@@ -10,7 +10,7 @@ url: /th/java/api-reference/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words สําหรับ Java เป็นไลบรารีสําหรับคลาสที่ช่วยให้โปรแกรมของคุณ สามารถทําการประมวลผลเอกสารได้เป็นอย่างดี ด้วย Aspose.Words คุณสามารถสร้าง, แก้ไข, แปลง, แปล, และพิมพ์เอกสารได้โดยไม่ต้องแก้ไข <span notrans="<span notrans=" Microsoft Word"=""></span>'"> นั่นคือ Microsoft Word ไม่จําเป็นในการใช้ Aspose.Words.
+Aspose.Words สําหรับ Java เป็นไลบรารีสําหรับคลาสที่ช่วยให้โปรแกรมของคุณ สามารถทําการประมวลผลเอกสารได้เป็นอย่างดี ด้วย Aspose.Words คุณสามารถสร้าง, แก้ไข, แปลง, แปล, และพิมพ์เอกสารได้โดยไม่ต้องแก้ไข Microsoft Word'"> นั่นคือ Microsoft Word ไม่จําเป็นในการใช้ Aspose.Words.
 
 Aspose.Words สําหรับ Java เขียนลงไปหมด Java
 

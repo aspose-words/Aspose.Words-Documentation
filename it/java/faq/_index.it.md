@@ -121,7 +121,7 @@ Si', invece. Pertanto, quando si copiano i font, tenere presente che la maggior 
 
 {{% alert color="primary" %}}
 
-Potete trovare informazioni più dettagliate su mail merge nel [Mail Merge e Relazione](/words/java/mail-merge-and-reporting/) sezione documentazione.
+Potete trovare informazioni più dettagliate su Mail Merge nel [Mail Merge e Relazione](/words/java/mail-merge-and-reporting/) sezione documentazione.
 
 {{% /alert %}}
 
@@ -136,7 +136,7 @@ Il nome originale del campo di fusione rimane lo stesso senza essere sostituito 
 
 **Q: Perché l'output della fusione nidificata non visualizza i dati dalla tabella dei bambini per la prima entrata nella tabella dei genitori, ma visualizza tutti gli elementi per l'ultima voce nella tabella dei genitori, anche quelli che non sono effettivamente collegati ad esso?**
 
-Questo perché le regioni di fusione nel modello non sono correttamente formate, che possono fare tutti nidificati mail merge regioni per smettere di mostrare nulla. The [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) tag di apertura e [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) il tag di chiusura deve corrispondere ed essere nella stessa riga o cella. Per esempio, se si inizia a nidificare regioni di fusione in una cella di un tavolo, è necessario porre fine alla regione di fusione nella stessa riga della prima cella.
+Questo perché le regioni di fusione nel modello non sono correttamente formate, che possono fare tutti nidificati Mail Merge regioni per smettere di mostrare nulla. The [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) tag di apertura e [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) il tag di chiusura deve corrispondere ed essere nella stessa riga o cella. Per esempio, se si inizia a nidificare regioni di fusione in una cella di un tavolo, è necessario porre fine alla regione di fusione nella stessa riga della prima cella.
 
 ------
 

@@ -37,7 +37,7 @@ El siguiente ejemplo de código muestra cómo actualizar todos los campos antes 
 
 ### Actualización Automática De Campos Durante Mail Merge
 
-Cuando ejecute un mail merge, todos los campos del documento se actualizarán automáticamente. Esto se debe a que mail merge es un caso de actualización de campo. El programa encuentra un campo mail merge y necesita actualizar su resultado, lo que implica tomar el valor de la fuente de datos e insertarlo en el campo. La lógica es, por supuesto, más complicada, por ejemplo, cuando se llega al final de la región del documento/mail merge pero aún quedan más datos por fusionar, entonces es necesario duplicar la región y actualizar el nuevo conjunto de campos.
+Cuando ejecute un mail merge, todos los campos del documento se actualizarán automáticamente. Esto se debe a que Mail Merge es un caso de actualización de campo. El programa encuentra un campo Mail Merge y necesita actualizar su resultado, lo que implica tomar el valor de la fuente de datos e insertarlo en el campo. La lógica es, por supuesto, más complicada, por ejemplo, cuando se llega al final de la región del documento/mail merge pero aún quedan más datos por fusionar, entonces es necesario duplicar la región y actualizar el nuevo conjunto de campos.
 
 ## Actualice la Propiedad LastSavedTime Antes de Guardar
 

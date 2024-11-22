@@ -40,7 +40,7 @@ Die oben beschriebenen Formtypen liefern ein spezielles Verfahren, um die Formen
 
 {{% alert color="primary" %}}
 
-Beim Rendern eines <span notrans="<span notrans=" **Shape**"=""></span>,"> Es muss Teil der Dokumentenhierarchie sein. Wenn **Shape** ist kein Teil des Dokumentbaums, dann wird die ausgegebene Ausgabe nach dem Aufruf leer sein **ShapeRenderer** Methoden.
+Beim Rendern eines **Shape** Es muss Teil der Dokumentenhierarchie sein. Wenn **Shape** ist kein Teil des Dokumentbaums, dann wird die ausgegebene Ausgabe nach dem Aufruf leer sein **ShapeRenderer** Methoden.
 
 {{% /alert %}}
 

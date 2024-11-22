@@ -57,7 +57,7 @@ Da die Schriftartenmetriken von Windows- und Nicht-Windows-Betriebssystemen unte
 
 #### Wo Aspose.Words in Linux nach TrueType-Schriftarten sucht
 
-Verschiedene Linux-Distributionen können Schriftarten in unterschiedlichen Ordnern speichern. Aspose.Words sucht an mehreren Stellen nach Schriftarten. Standardmäßig sucht Aspose.Words an allen folgenden Speicherorten nach Schriftarten: * /usr/share/fonts* /usr/local/share/fonts* /usr/X11R6/lib/X11/fontsDieses Standardverhalten funktioniert für die meisten Linux-Distributionen, es ist jedoch nicht garantiert, dass es jederzeit funktioniert. In diesem Fall müssen Sie möglicherweise den Speicherort der true-Schriftarten explizit angeben. Dazu müssen Sie wissen, wo TrueType-Schriftarten in Ihrer Linux-Distribution installiert sind.
+Verschiedene Linux-Distributionen können Schriftarten in unterschiedlichen Ordnern speichern. Aspose.Words sucht an mehreren Stellen nach Schriftarten. Standardmäßig sucht Aspose.Words an allen folgenden Speicherorten nach Schriftarten: `/usr/share/fonts` `/usr/local/share/fonts` `/usr/X11R6/lib/X11/fonts`Dieses Standardverhalten funktioniert für die meisten Linux-Distributionen, es ist jedoch nicht garantiert, dass es jederzeit funktioniert. In diesem Fall müssen Sie möglicherweise den Speicherort der true-Schriftarten explizit angeben. Dazu müssen Sie wissen, wo TrueType-Schriftarten in Ihrer Linux-Distribution installiert sind.
 
 #### Wo Aspose.Words unter Mac OS X nach TrueType-Schriftarten sucht
 

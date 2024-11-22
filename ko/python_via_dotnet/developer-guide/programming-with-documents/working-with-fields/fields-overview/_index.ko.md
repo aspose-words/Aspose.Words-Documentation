@@ -191,9 +191,9 @@ Aspose.Words는 Microsoft Word에서 사용할 수 있는 모든 날짜 및 시�
 
 #### Mail Merge 필드
 
-Aspose.Words는 문서의 mail merge 필드 복잡성에 제한을 두지 않으며 중첩된 `IF` 및 수식 필드를 지원하며 수식을 사용하여 병합 필드의 이름을 계산할 수도 있습니다.
+Aspose.Words는 문서의 Mail Merge 필드 복잡성에 제한을 두지 않으며 중첩된 `IF` 및 수식 필드를 지원하며 수식을 사용하여 병합 필드의 이름을 계산할 수도 있습니다.
 
-Aspose.Words가 지원하는 mail merge 필드의 몇 가지 예는 다음과 같습니다
+Aspose.Words가 지원하는 Mail Merge 필드의 몇 가지 예는 다음과 같습니다
 
 - Mail merge 필드 스위치:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -237,7 +237,7 @@ Aspose.Words가 필드 결과를 계산할 때 문자열을 숫자 또는 날짜
 
 반면 Microsoft Word는 필드에 있는 텍스트의 언어(특히 필드 코드에서 실행)를 기반으로 각 개별 필드의 형식을 지정합니다. 때로는 필드 업데이트 중에 이것이 바람직한 동작일 수 있습니다. 예를 들어 다양한 언어로 구성된 콘텐츠가 포함된 세계화된 문서가 있고 각 필드가 텍스트에서 사용된 로케일을 따르도록 하려는 경우입니다. Aspose.Words도 이 기능을 지원합니다.
 
-[Document](https://reference.aspose.com/words/python-net/aspose.words/document/) 클래스는 문서 내에서 필드가 업데이트되는 방식을 제어하는 데 사용할 수 있는 멤버가 포함된 [field_options](https://reference.aspose.com/words/python-net/aspose.words/document/field_options/) 속성을 제공합니다. 아래 예에서는 필드 업데이트 및 mail merge 중 날짜 형식 지정에 사용되는 문화권이 선택되는 위치를 지정하는 방법을 보여줍니다.
+[Document](https://reference.aspose.com/words/python-net/aspose.words/document/) 클래스는 문서 내에서 필드가 업데이트되는 방식을 제어하는 데 사용할 수 있는 멤버가 포함된 [field_options](https://reference.aspose.com/words/python-net/aspose.words/document/field_options/) 속성을 제공합니다. 아래 예에서는 필드 업데이트 및 Mail Merge 중 날짜 형식 지정에 사용되는 문화권이 선택되는 위치를 지정하는 방법을 보여줍니다.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-ChangeFieldUpdateCultureSource.py" >}}
 

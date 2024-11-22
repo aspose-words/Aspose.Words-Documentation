@@ -14,7 +14,7 @@ La conversione di documenti da un formato all'altro è la caratteristica di punt
 
 ## Convertire un documento in XLSX
 
-La conversione di un documento in XLSX è un processo piuttosto complicato. Per salvare il documento in formato XLSX utilizzando <span notrans="<span notrans=" Aspose.Words"=""></span>> utilizzare [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) classe e il nuovo `Xlsx` elemento nel [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) enumerazione. Come accennato in precedenza, è possibile salvare il documento in qualsiasi formato di carico supportato da Aspose.Words a XLSX.
+La conversione di un documento in XLSX è un processo piuttosto complicato. Per salvare il documento in formato XLSX utilizzando Aspose.Words> utilizzare [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) classe e il nuovo `Xlsx` elemento nel [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) enumerazione. Come accennato in precedenza, è possibile salvare il documento in qualsiasi formato di carico supportato da Aspose.Words a XLSX.
 
 Il seguente esempio di codice mostra come salvare PDF a XLSX:
 

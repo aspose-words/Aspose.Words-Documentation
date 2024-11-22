@@ -86,7 +86,7 @@ Word 文書の `MERGEFIELD` フィールドは、[FieldMergeField](https://refer
 
 ### DOM を使用したドキュメントへの Mail Merge `ADDRESSBLOCK` フィールドの挿入
 
-`ADDRESSBLOCK` フィールドは、Word 文書に mail merge アドレス ブロックを挿入するために使用されます。 Word 文書の `ADDRESSBLOCK` フィールドは [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) クラスで表現できます。 [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) クラスを使用して、次の操作を実行できます。
+`ADDRESSBLOCK` フィールドは、Word 文書に Mail Merge アドレス ブロックを挿入するために使用されます。 Word 文書の `ADDRESSBLOCK` フィールドは [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) クラスで表現できます。 [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) クラスを使用して、次の操作を実行できます。
 
 - フィールドに国/地域の名前を含めるかどうかを指定します
 - POST*CODE (万国郵便連合 2006) で定義されている受信者の国/地域に従って住所をフォーマットするかどうかを指定します。
@@ -116,7 +116,7 @@ Word 文書の `MERGEFIELD` フィールドは、[FieldMergeField](https://refer
 
 - ブックマークの名前を指定します
 - デフォルトのユーザー応答を指定します (プロンプト ウィンドウに含まれる初期値)
-- mail merge 操作ごとにユーザー応答を 1 回受信するかどうかを指定します
+- Mail Merge 操作ごとにユーザー応答を 1 回受信するかどうかを指定します
 - プロンプトテキスト (プロンプトウィンドウのタイトル) を指定します。
 
 次のコード例は、DOM を使用してドキュメント内の段落に `ASK` フィールドを追加する方法を示しています。

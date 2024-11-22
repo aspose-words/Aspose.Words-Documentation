@@ -10,7 +10,7 @@ url: /it/python-net/working-with-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
-La classe [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) è centrale in Aspose.Words. Rappresenta un documento e fornisce varie proprietà e metodi del documento, come il salvataggio o la protezione del documento. Utilizzi la classe [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) come punto di partenza per qualsiasi cosa tu voglia eseguire con Aspose.Words: creare un nuovo documento da zero, aprire un modello per un mail merge o ottenere parti diverse da un documento.
+La classe [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) è centrale in Aspose.Words. Rappresenta un documento e fornisce varie proprietà e metodi del documento, come il salvataggio o la protezione del documento. Utilizzi la classe [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) come punto di partenza per qualsiasi cosa tu voglia eseguire con Aspose.Words: creare un nuovo documento da zero, aprire un modello per un Mail Merge o ottenere parti diverse da un documento.
 
 L'oggetto [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) contiene tutto il contenuto, la formattazione, gli stili, le proprietà integrate e personalizzate e l'oggetto [MailMerge](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmerge/) utilizzato per un mail merge. [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) consente di recuperare testo, segnalibri e campi modulo per l'intero documento o sezioni separate.
 

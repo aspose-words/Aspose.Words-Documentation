@@ -32,7 +32,7 @@ Více informací o PDF/A naleznete v následujícím článku "Získané vlastno
 
 Je také možné exportovat vyplněné formuláře z Microsoft Word dokument do výstupu PDF, který má místo prostého textu vyplněné formuláře. Použijte [PreserveFormFields](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getPreserveFormFields) vlastnost uložit dokument jako PDF s plnejmi formuláři.
 
-Všimněte si, že na rozdíl od <span notrans="<span notrans=" Microsoft Word"=""></span>, formát PDF má omezený počet možností pro editovatelné formuláře, jako je textbox, combo box a checkbox. Microsoft Word má více typů formulářů, například kalendáře sběrač dat. Obecně není možné plně napodobovat Microsoft Word chování v PDF. Proto, v některých složitých případech, PDF výstup může lišit od toho, co vidíte v Microsoft Word.
+Všimněte si, že na rozdíl od Microsoft Word, formát PDF má omezený počet možností pro editovatelné formuláře, jako je textbox, combo box a checkbox. Microsoft Word má více typů formulářů, například kalendáře sběrač dat. Obecně není možné plně napodobovat Microsoft Word chování v PDF. Proto, v některých složitých případech, PDF výstup může lišit od toho, co vidíte v Microsoft Word.
 
 Níže uvedený příklad kódu ukazuje, jak uložit dokument jako PDF s plnejmi formuláři s zadaným Jpeg komprese a kvalita:
 

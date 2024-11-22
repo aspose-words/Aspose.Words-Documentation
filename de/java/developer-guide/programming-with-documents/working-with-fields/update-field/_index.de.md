@@ -19,7 +19,7 @@ Wenn ein Dokument geladen wird, Aspose.Words das Verhalten von Microsoft Word mi
 - wenn Sie ein Dokument öffnen/speichern, bleiben die Felder intakt
 - Sie können z.B. alle Felder in einem Dokument explizit aktualisieren `TOC` wenn Sie brauchen
 - wenn Sie auf PDF oder XPS die Felder im Zusammenhang mit der Seitenanzahl in Headern/Fußern werden aktualisiert
-- wenn Sie ausführen mail merge alle Felder automatisch aktualisiert
+- wenn Sie ausführen Mail Merge alle Felder automatisch aktualisiert
 
 ### Programmatisch aktualisieren
 
@@ -37,11 +37,11 @@ Das folgende Beispiel zeigt, wie Sie alle Felder aktualisieren, bevor Sie ein Do
 
 ### Automatische Feldaktualisierung während Mail Merge
 
-Wenn Sie eine <span notrans="<span notrans=" mail merge"=""></span>,"> alle Felder im Dokument werden automatisch aktualisiert. Das ist, weil mail merge ist ein Fall eines Feldupdates. Das Programm begegnet einem mail merge Feld und muss sein Ergebnis aktualisieren, was beinhaltet, den Wert von der Datenquelle zu erfassen und in das Feld einzufügen. Die Logik ist natürlich komplizierter, beispielsweise wenn das Ende des Dokuments/mail merge Es wird eine Region erreicht, aber es gibt noch weitere Daten zu verschmelzen, dann muss die Region vervielfältigt und der neue Feldsatz aktualisiert werden.
+Wenn Sie eine Mail Merge alle Felder im Dokument werden automatisch aktualisiert. Das ist, weil Mail Merge ist ein Fall eines Feldupdates. Das Programm begegnet einem Mail Merge Feld und muss sein Ergebnis aktualisieren, was beinhaltet, den Wert von der Datenquelle zu erfassen und in das Feld einzufügen. Die Logik ist natürlich komplizierter, beispielsweise wenn das Ende des Dokuments/mail merge Es wird eine Region erreicht, aber es gibt noch weitere Daten zu verschmelzen, dann muss die Region vervielfältigt und der neue Feldsatz aktualisiert werden.
 
 ## Update Felder mit Dirty Attribut
 
-Das w:dirty ist ein Feld-Level-Attribut, das nur das Feld, das Sie angeben, wenn das Dokument geöffnet ist, aktualisieren wird. Es sagt MS Word, nur dieses Feld zu aktualisieren, wenn das Dokument geöffnet wird. Sie können die Eigenschaft LoadOptions.setUpdateDirtyFields() verwenden, um anzugeben, ob Sie die Felder mit dem schmutzigen Attribut aktualisieren. Wenn der Wert von LoadOptions.setUpdateDirtyFields() eingestellt wird <span notrans="<span notrans=" *true*"=""></span>,"> alle Felder mit *true* Wert für `Field.IsDirty` oder `FieldChar.IsDirty` die Eigenschaft wird auf der Beleglast aktualisiert
+Das w:dirty ist ein Feld-Level-Attribut, das nur das Feld, das Sie angeben, wenn das Dokument geöffnet ist, aktualisieren wird. Es sagt MS Word, nur dieses Feld zu aktualisieren, wenn das Dokument geöffnet wird. Sie können die Eigenschaft LoadOptions.setUpdateDirtyFields() verwenden, um anzugeben, ob Sie die Felder mit dem schmutzigen Attribut aktualisieren. Wenn der Wert von LoadOptions.setUpdateDirtyFields() eingestellt wird *true* alle Felder mit *true* Wert für `Field.IsDirty` oder `FieldChar.IsDirty` die Eigenschaft wird auf der Beleglast aktualisiert
 
 Das folgende Codebeispiel zeigt, wie Felder mit dem schmutzigen Attribut aktualisiert werden können:
 

@@ -50,7 +50,7 @@ Il seguente esempio di codice mostra come inserire il contenuto di un documento 
 
 ### Inserisci un documento durante Mail Merge Operazione {#insert-a-document-during-mail-merge-operation}
 
-È possibile inserire un documento in un campo di fusione durante un mail merge operazione. Per esempio, un mail merge modello può contenere un campo di fusione come [Summary]. Ma nel documento finale, è necessario inserire il contenuto ottenuto da un altro documento esterno in questo campo di fusione. Per raggiungere questo obiettivo, è necessario creare un gestore per l'evento di fusione.
+È possibile inserire un documento in un campo di fusione durante un Mail Merge operazione. Per esempio, un Mail Merge modello può contenere un campo di fusione come [Summary]. Ma nel documento finale, è necessario inserire il contenuto ottenuto da un altro documento esterno in questo campo di fusione. Per raggiungere questo obiettivo, è necessario creare un gestore per l'evento di fusione.
 
 Il seguente esempio di codice mostra come creare un handler per l'evento di fusione per utilizzarlo successivamente nel processo di inserimento:
 

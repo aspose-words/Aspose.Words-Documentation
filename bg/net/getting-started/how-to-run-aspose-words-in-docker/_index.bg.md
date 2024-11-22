@@ -33,12 +33,12 @@ timestamp: 2024-08-19-11-05-36
 ![net-console-application](https://lh5.googleusercontent.com/PArWoC8_leOnhtaF-5BMb3b4jHwI3G03WoyMK3bXZpsQKN50YzvEQBwoRniyCWKIcdR0EZGuwn3S8Z0ZK6FQ4cjMSWgH3CwSqReW4bMt-3OjZjrdt9yuWbkMdhyNjwwaaYPC5Ylr)<br>
 1. Инсталиране на последната Aspose.Words версия от NuGet. Скиа Sharp ще бъде инсталиран като зависимост от Aspose.Words.<br/>
 ![skiasharp-dependency](https://lh3.googleusercontent.com/zWpvB5TLahC_OpJrHDML2131Vj_VK1vryTZBd_C3ZeOBdoUOc2vF_axEvwu9tytaL1maJv3qA2KoyP5fn7ae4_3cL23sXyoLoVysjgu8XEp6l0B2w5hgR9teh95_9mFd9X-4DGNN)<br>
-1. Тъй като заявлението ще бъде изпълнено <span notrans="<span notrans=" Linux"=""></span>,"> подходящите местни Linux активите трябва да бъдат инсталирани. Започнете с Debian основен образ и монтаж `SkiaSharp.NativeAssets`.Linux.
+1. Тъй като заявлението ще бъде изпълнено Linux подходящите местни Linux активите трябва да бъдат инсталирани. Започнете с Debian основен образ и монтаж `SkiaSharp.NativeAssets`.Linux.
 1. Когато се добавят всички необходими зависимости, напишете една проста програма, която създава голо World! това се записва във всички поддържани формати:<br/>
 
 {{< gist "aspose-words-gists" "47e15ad749897be465deebc2ff3e76dd" "aspose-words-docker.cs" >}}
 
-Имайте предвид, че по-долу е посочено като папка за изход за запазване на изходни документи. При изпълнение на заявлението в <span notrans="<span notrans=" Docker"=""></span>,"> папка на хост машината ще бъде монтирана на тази папка в контейнера. Това ще ви позволи лесно да видите изхода, генериран от Aspose.Words в Docker контейнер.
+Имайте предвид, че по-долу е посочено като папка за изход за запазване на изходни документи. При изпълнение на заявлението в Docker папка на хост машината ще бъде монтирана на тази папка в контейнера. Това ще ви позволи лесно да видите изхода, генериран от Aspose.Words в Docker контейнер.
 
 ### Настройване на a Dockerfile
 

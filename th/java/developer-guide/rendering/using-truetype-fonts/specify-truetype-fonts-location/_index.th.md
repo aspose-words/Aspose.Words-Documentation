@@ -36,7 +36,7 @@ timestamp: 2024-10-24-11-44-28
 
 ส่วนใหญ่แล้ว Windows ผู้ใช้ไม่ต้องเผชิญกับปัญหาที่สําคัญกับรูปแบบตัวอักษรที่พลาด หรือผังแป้นพิมพ์ไม่ถูกต้อง ปกติแล้ว Aspose.Words ผ่านเอกสารและเมื่อมันพบที่อยู่เชื่อมโยงของแบบอักษร มันจะดึงข้อมูลแบบอักษรจากโฟลเดอร์ของระบบได้สําเร็จ
 
-เปิด <span notrans="<span notrans=" Windows"=""></span>'"> Aspose.Words อย่างแรก เอาแบบอักษรทั้งหมดที่มีมาจาก_%windir%\Fonts โฟลเดอร์ การ จัด เตรียม นี้ จะ ใช้ ได้ ผล กับ คุณ เป็น ส่วน ใหญ่. คุณกําหนดเฉพาะโฟลเดอร์แบบอักษรของคุณเอง หากคุณต้องการ Aspose.Words ค้นหาแบบอักษรเพิ่มเติมที่ลงทะเบียนไว้ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts กุญแจสํารอง นอกจากนั้น Windows 10 เปิดให้ใช้การติดตั้งแบบอักษรสําหรับผู้ใช้ปัจจุบันได้ แบบอักษรจะถูกวางลงใน %userprofile%\AppData\Local\Microsoft\Windows\Fonts โฟลเดอร์และระบุไว้ใน HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Fonts ลงทะเบียนที่ Aspose.Words จะมองหาตัวอักษรเหล่านี้
+เปิด Windows'"> Aspose.Words อย่างแรก เอาแบบอักษรทั้งหมดที่มีมาจาก_%windir%\Fonts โฟลเดอร์ การ จัด เตรียม นี้ จะ ใช้ ได้ ผล กับ คุณ เป็น ส่วน ใหญ่. คุณกําหนดเฉพาะโฟลเดอร์แบบอักษรของคุณเอง หากคุณต้องการ Aspose.Words ค้นหาแบบอักษรเพิ่มเติมที่ลงทะเบียนไว้ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts กุญแจสํารอง นอกจากนั้น Windows 10 เปิดให้ใช้การติดตั้งแบบอักษรสําหรับผู้ใช้ปัจจุบันได้ แบบอักษรจะถูกวางลงใน %userprofile%\AppData\Local\Microsoft\Windows\Fonts โฟลเดอร์และระบุไว้ใน HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Fonts ลงทะเบียนที่ Aspose.Words จะมองหาตัวอักษรเหล่านี้
 
 หากเอกสารบรรจุแบบอักษรที่ฝังอยู่ Aspose.Words สามารถอ่านข้อมูลแบบอักษรที่เกี่ยวข้องจากเอกสาร และใช้มันในการสร้างผังเอกสาร เอกสารอาจมีส่วนเชื่อมโยงไปยังแบบอักษรที่ไม่ได้อยู่ในโฟลเดอร์ของระบบ ซึ่งในกรณีต่อไปนี้จะทํางาน
 

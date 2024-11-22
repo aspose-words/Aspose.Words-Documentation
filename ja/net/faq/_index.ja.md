@@ -144,7 +144,7 @@ mail merge の詳細については、[Mail Merge とレポート](/words/net/ma
 
 **Q: ネストされたマージの出力では、親テーブルの最初のエントリの子テーブルのデータが表示されず、親テーブルの最後のエントリのすべての項目が、実際にリンクされていない項目も含めて表示されるのはなぜですか?**
 
-これは、テンプレート内のマージ リージョンが正しく形成されていないため、ネストされたすべての mail merge リージョンがまったく表示されなくなる可能性があります。 [StartTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starttable/) 開始タグと [EndTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endtable/) 終了タグは一致し、同じ行またはセルに存在する必要があります。たとえば、テーブルのセルでマージ領域のネストを開始する場合は、最初のセルと同じ行でマージ領域を終了する必要があります。
+これは、テンプレート内のマージ リージョンが正しく形成されていないため、ネストされたすべての Mail Merge リージョンがまったく表示されなくなる可能性があります。 [StartTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starttable/) 開始タグと [EndTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endtable/) 終了タグは一致し、同じ行またはセルに存在する必要があります。たとえば、テーブルのセルでマージ領域のネストを開始する場合は、最初のセルと同じ行でマージ領域を終了する必要があります。
 
 ------
 
@@ -157,7 +157,7 @@ mail merge の詳細については、[Mail Merge とレポート](/words/net/ma
 
 ------
 
-**Q: ネストされた mail merge の実行中に例外「System.ArgumentException: すべての値に対応する親値があるわけではないため、この制約を有効にできません」が発生するのはなぜですか?**
+**Q: ネストされた Mail Merge の実行中に例外「System.ArgumentException: すべての値に対応する親値があるわけではないため、この制約を有効にできません」が発生するのはなぜですか?**
 
 これは、すべての親レコードに子レコードがあるわけではないため、データ ソースが次の基準に一致しないために発生します。 *親テーブルのすべての行は、プライマリおよびレコードに基づいて、子テーブルの行と 1 対 1 の関係を持つ必要があります。外部キー*。
 

@@ -16,7 +16,7 @@ Daha fazlasını öğrenmek için Aspose.Words özelliklerini seçebilirsiniz Ja
 
 - [Loading, Saving and Converting](/words/java/loading-saving-and-converting/) – bir belgeyi farklı yükleme veya kaydetme yöntemleri ve bir formattan diğerine dönüştürmek için yararlı olan biçim spesifik özellikleri hakkında bilgi sağlar.
 - [Rendering](/words/java/rendering/) – akış sayfası biçiminde bir belgeden sayfalama gösterimi nasıl alınır konusunda bilgi sağlar.
-- [Mail Merge and Reporting](/words/java/mail-merge-and-reporting/) – raporlar, kataloglar, envanterler ve faturalar gibi belgeleri şablonlarla oluşturma hakkında bilgi sağlar, mail merge alan içerir.
+- [Mail Merge and Reporting](/words/java/mail-merge-and-reporting/) – raporlar, kataloglar, envanterler ve faturalar gibi belgeleri şablonlarla oluşturma hakkında bilgi sağlar, Mail Merge alan içerir.
 - [LINQ Reporting Engine](/words/java/linq-reporting-engine/) – genişletilmiş bir raporlama özellikleri seti kullanılarak bina raporları oluşturma hakkında bilgi sağlar.
 - [Printing a Document Programmatically or Using Dialogs](/words/java/print-a-document-programmatically-or-using-dialogs/) – çeşitli yollarla bir belgeyi yazdırma hakkında bilgi verir ve yazdırma işlemini sizin özel mantığınızı uygulamak için ince ayar yapar.
 - [Programming with Documents](/words/java/programming-with-documents/) – belgenin içeriğini ve görünümünü değiştirmek dahil olmak üzere programlı olarak oluşturma, değiştirme ve yönetme hakkında bilgi sağlar.

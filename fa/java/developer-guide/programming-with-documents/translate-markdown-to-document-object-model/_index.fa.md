@@ -43,7 +43,7 @@ timestamp: 2024-10-21-11-17-44
 |  **Strikethrough**<br/>`~Strikethrough text~` |  `Font.StrikeThrough = true`  |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Strikethrough.java" >}}  |  |
 
-ما از یک سبک شخصیتی با یک نام استفاده می کنیم که از کلمه شروع می شود. <span notrans="<span notrans=" `InlineCode`"=""></span>"> پس از آن یک گزینه اختیاری `(.)` و تعدادی از backticks ```(`)``` برای `InlineCode` ویژگی اگر تعدادی از backticks از دست رفته باشد، یک backtick به طور پیش فرض مورد استفاده قرار می گیرد.
+ما از یک سبک شخصیتی با یک نام استفاده می کنیم که از کلمه شروع می شود. `InlineCode`> پس از آن یک گزینه اختیاری `(.)` و تعدادی از backticks ```(`)``` برای `InlineCode` ویژگی اگر تعدادی از backticks از دست رفته باشد، یک backtick به طور پیش فرض مورد استفاده قرار می گیرد.
 
 |  Markdown ویژگی ویژگی |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |

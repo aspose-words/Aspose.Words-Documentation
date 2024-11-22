@@ -122,16 +122,16 @@ U kunt Aspose.Words als een eigen rapportageoplossing. Ontwerp uw rapporten in M
 
 |  Functie |
 |  :-  |
-| Alle standaard gebruiken Microsoft Word mail merge velden in uw rapporten inclusief `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, Groeten. |
-| Uitvoeren mail merge voor documenten die zelfs de meest complexe en geneste bevatten `IF` velden en formules. |
-| Populeer en groei dynamisch tabellen of fragmenten in het document met behulp van uw gegevensbron mail merge regio's. |
+| Alle standaard gebruiken Microsoft Word Mail Merge velden in uw rapporten inclusief `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, Groeten. |
+| Uitvoeren Mail Merge voor documenten die zelfs de meest complexe en geneste bevatten `IF` velden en formules. |
+| Populeer en groei dynamisch tabellen of fragmenten in het document met behulp van uw gegevensbron Mail Merge regio's. |
 | Gemakkelijk rapporten genereren die master-detail gegevens bevatten zoals Order/OrderDetails. |
 | Documenten met gegevens van alle Java gegevensbron die de `ResultSet` interface. |
 | Populeer documenten van een gegevensbron, zoals een XML-bestand of zakelijke objecten door het implementeren van de **IMailMergeDataSource** interface. |
 | Neem nauwkeurige controle, zoals nummeropmaak, over hoe uw gegevens worden samengevoegd met behulp van gebeurtenissen. |
 | Afbeeldingen invoegen tijdens een mail merge. |
-| Programmatisch een Microsoft Word mail merge gegevensbron voor een document. Behoud mail merge instellingen en gegevensbronnen. |
-| Ophalen mail merge veldnamen. |
+| Programmatisch een Microsoft Word Mail Merge gegevensbron voor een document. Behoud Mail Merge instellingen en gegevensbronnen. |
+| Ophalen Mail Merge veldnamen. |
 
 ## Rapportagefuncties
 

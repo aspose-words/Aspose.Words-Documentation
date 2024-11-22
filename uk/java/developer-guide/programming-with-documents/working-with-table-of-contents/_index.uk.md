@@ -61,7 +61,7 @@ Aspose.Words дозволяє повністю оновлювати оновле
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertATableOfContentsField-UpdateTableOfContents.java" >}}
 
-Перший виклик [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) побудувати <span notrans="<span notrans=" `TOC`"=""></span>, > всі текстові записи заселені і `TOC` з'являється практично повністю. Єдине, що не вистачає сторінок, які зараз відображаються з "?".
+Перший виклик [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) побудувати `TOC`, > всі текстові записи заселені і `TOC` з'являється практично повністю. Єдине, що не вистачає сторінок, які зараз відображаються з "?".
 
 Другий виклик [Document.updatePageLayout()](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout) побудувати макет документа в пам'яті. Для збирання номерів сторінок. Виправте номери сторінок, розраховані з цього виклику, потім вставляються в TOC.
 

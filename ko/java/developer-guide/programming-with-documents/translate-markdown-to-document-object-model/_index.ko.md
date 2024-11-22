@@ -43,7 +43,7 @@ Bulleted 및 주문 목록은 컨테이너 블록입니다. Markdown 한국어 �
 |  **Strikethrough**<br/>`~Strikethrough text~` |  `Font.StrikeThrough = true`  |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Strikethrough.java" >}}  |  |
 
-우리는 단어에서 시작하는 이름으로 문자 스타일을 사용합니다. <span notrans="<span notrans=" `InlineCode`"=""></span>· 선택된 점에 의해 뒤로 `(.)` 백틱스의 수 ```(`)``` 제품정보 `InlineCode` 이름 * backticks의 수가 놓인 경우, 한 backtick은 기본적으로 사용됩니다.
+우리는 단어에서 시작하는 이름으로 문자 스타일을 사용합니다. `InlineCode`· 선택된 점에 의해 뒤로 `(.)` 백틱스의 수 ```(`)``` 제품정보 `InlineCode` 이름 * backticks의 수가 놓인 경우, 한 backtick은 기본적으로 사용됩니다.
 
 |  Markdown 제품 정보 |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |

@@ -121,7 +121,7 @@ Ya, kamu melakukannya. Oleh karena itu, ketika menyalin font, perlu diingat bahw
 
 {{% alert color="primary" %}}
 
-Anda dapat menemukan informasi lebih rinci tentang mail merge Sitemap [Mail Merge Login](/words/java/mail-merge-and-reporting/) database
+Anda dapat menemukan informasi lebih rinci tentang Mail Merge Sitemap [Mail Merge Login](/words/java/mail-merge-and-reporting/) database
 
 {{% /alert %}}
 
@@ -136,7 +136,7 @@ Nama asli dari bidang gabungan tetap sama tanpa diganti oleh data yang diperluka
 
 **Q: Mengapa output merging bersarang tidak menampilkan data dari tabel anak untuk masuk pertama di meja induk tetapi menampilkan semua item untuk entri terakhir di meja induk, bahkan salah satu yang tidak benar-benar terkait dengannya?**
 
-Ini karena daerah penggabungan dalam template tidak terbentuk dengan benar, yang dapat membuat semua bersarang mail merge daerah untuk berhenti menampilkan apa pun sama sekali. Login [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) tag pembuka dan [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) tag penutup harus cocok dan berada di baris atau sel yang sama. Misalnya, jika Anda mulai nesting menggabungkan daerah dalam sel meja, Anda harus mengakhiri wilayah merge di baris yang sama dengan sel pertama.
+Ini karena daerah penggabungan dalam template tidak terbentuk dengan benar, yang dapat membuat semua bersarang Mail Merge daerah untuk berhenti menampilkan apa pun sama sekali. Login [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) tag pembuka dan [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) tag penutup harus cocok dan berada di baris atau sel yang sama. Misalnya, jika Anda mulai nesting menggabungkan daerah dalam sel meja, Anda harus mengakhiri wilayah merge di baris yang sama dengan sel pertama.
 
 ------
 

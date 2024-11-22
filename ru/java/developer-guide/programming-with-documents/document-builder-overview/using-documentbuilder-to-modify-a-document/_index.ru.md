@@ -204,7 +204,7 @@ Aspose.Words Обеспечивает два свойства `ParagraphFormat.S
 
 ### Переезд в А `Merge` поле
 
-Иногда вам может понадобиться выполнить "руководство". mail merge использовать `DocumentBuilder` или заполнить поле слияния особым образом внутри mail merge организатор событий. Это когда [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) Это может быть полезно. Метод принимает название поля слияния. Он перемещает курсор в положение непосредственно за пределы указанного поля слияния и удаляет поле слияния. Следующий пример кода показывает, как перемещать курсор в положение непосредственно за пределами указанного поля слияния.
+Иногда вам может понадобиться выполнить "руководство". Mail Merge использовать `DocumentBuilder` или заполнить поле слияния особым образом внутри Mail Merge организатор событий. Это когда [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) Это может быть полезно. Метод принимает название поля слияния. Он перемещает курсор в положение непосредственно за пределы указанного поля слияния и удаляет поле слияния. Следующий пример кода показывает, как перемещать курсор в положение непосредственно за пределами указанного поля слияния.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToMergeField-DocumentBuilderMoveToMergeField.java" >}}
 

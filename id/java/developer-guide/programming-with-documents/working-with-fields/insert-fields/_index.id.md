@@ -104,7 +104,7 @@ Contoh kode berikut menunjukkan cara menambahkan `MERGE` kolom menggunakan DOM u
 
 ### Login Mail Merge `ADDRESSBLOCK` ke dalam dokumen menggunakan DOM
 
-Login `ADDRESSBLOCK` lapangan digunakan untuk memasukkan mail merge alamat blok dalam dokumen Word. `ADDRESSBLOCK` bidang dokumen Word dapat diwakili oleh Meme it [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) Sitemap Anda dapat menggunakan **FieldAddressBlock** kelas untuk melakukan operasi berikut:
+Login `ADDRESSBLOCK` lapangan digunakan untuk memasukkan Mail Merge alamat blok dalam dokumen Word. `ADDRESSBLOCK` bidang dokumen Word dapat diwakili oleh Meme it [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) Sitemap Anda dapat menggunakan **FieldAddressBlock** kelas untuk melakukan operasi berikut:
 
 - menentukan apakah untuk memasukkan nama negara/region di lapangan
 - menentukan apakah untuk memformat alamat sesuai dengan negara/region penerima sebagaimana ditentukan oleh POST * CODE (Universal Postal Union 2006)
@@ -146,7 +146,7 @@ Login `ASK` lapangan digunakan untuk meminta pengguna teks untuk menetapkan Book
 
 - menentukan nama bookmark
 - tentukan respons pengguna default (nilai awal yang terkandung di jendela prompt)
-- tentukan apakah respons pengguna harus diterima sekali per mail merge Sitemap
+- tentukan apakah respons pengguna harus diterima sekali per Mail Merge Sitemap
 - tentukan teks prompt ( judul jendela prompt)
 
 {{% alert color="primary" %}}

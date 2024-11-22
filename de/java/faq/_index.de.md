@@ -121,7 +121,7 @@ Ja. Beachten Sie daher beim Kopieren von Schriften, dass die meisten Schriftarte
 
 {{% alert color="primary" %}}
 
-Weitere Informationen finden Sie hier mail merge in der [Mail Merge und Reporting](/words/java/mail-merge-and-reporting/) Abteilung Dokumentation.
+Weitere Informationen finden Sie hier Mail Merge in der [Mail Merge und Reporting](/words/java/mail-merge-and-reporting/) Abteilung Dokumentation.
 
 {{% /alert %}}
 
@@ -136,7 +136,7 @@ Der ursprüngliche Name des Zusammenführungsfeldes bleibt gleich, ohne durch di
 
 **Q: Warum zeigt die Ausgabe der verschachtelten Verschmelzung nicht Daten aus der Kindertabelle für den ersten Eintrag in der Elterntabelle, sondern zeigt alle Elemente für den letzten Eintrag in der Elterntabelle, auch diejenigen, die nicht tatsächlich mit ihr verbunden sind?**
 
-Dies liegt daran, dass die Zusammenführungsbereiche in der Vorlage nicht richtig ausgebildet sind, was alles verschachtelt machen kann mail merge Regionen, um überhaupt nichts zu zeigen. Die [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) öffnen tag und die [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) Schließen Tag muss übereinstimmen und in der gleichen Zeile oder Zelle sein. Wenn Sie z.B. beginnen, zusammenführende Regionen in einer Zelle einer Tabelle zu verschachteln, müssen Sie den Zusammenschlussbereich in der gleichen Zeile wie die erste Zelle beenden.
+Dies liegt daran, dass die Zusammenführungsbereiche in der Vorlage nicht richtig ausgebildet sind, was alles verschachtelt machen kann Mail Merge Regionen, um überhaupt nichts zu zeigen. Die [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) öffnen tag und die [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) Schließen Tag muss übereinstimmen und in der gleichen Zeile oder Zelle sein. Wenn Sie z.B. beginnen, zusammenführende Regionen in einer Zelle einer Tabelle zu verschachteln, müssen Sie den Zusammenschlussbereich in der gleichen Zeile wie die erste Zelle beenden.
 
 ------
 

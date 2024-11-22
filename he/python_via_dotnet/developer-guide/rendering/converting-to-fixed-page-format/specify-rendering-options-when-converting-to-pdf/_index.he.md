@@ -32,7 +32,7 @@ Aspose.Words מנוע הפריסה מחק את הדרך Microsoft Wordמנוע �
 
 ניתן גם לייצא טפסים מלאים מ Microsoft Word מסמך לפלט PDF, שיש לו טפסים מלאים במקום טקסט רגיל. השתמש [preserve_form_fields](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/preserve_form_fields/) נכס כדי לשמור מסמך PDF עם טפסים מלאים.
 
-שים לב כי בניגוד <span notrans="<span notrans=" Microsoft Word"=""></span>" לפורמט PDF יש מספר מוגבל של אפשרויות לצורות ניתנות לעריכה, כגון תיבת טקסט, תיבת קומבווקס ו- Checkbox. Microsoft Word יש יותר סוגים של טפסים, למשל, לוח השנה. באופן כללי, לא ניתן לחקות באופן מלא Microsoft Word התנהגות ב- PDF לכן, במקרים מורכבים, תפוקה של PDF עשויה להיות שונה ממה שאתה רואה. Microsoft Word.
+שים לב כי בניגוד Microsoft Word" לפורמט PDF יש מספר מוגבל של אפשרויות לצורות ניתנות לעריכה, כגון תיבת טקסט, תיבת קומבווקס ו- Checkbox. Microsoft Word יש יותר סוגים של טפסים, למשל, לוח השנה. באופן כללי, לא ניתן לחקות באופן מלא Microsoft Word התנהגות ב- PDF לכן, במקרים מורכבים, תפוקה של PDF עשויה להיות שונה ממה שאתה רואה. Microsoft Word.
 
 דוגמה קוד להלן מראה כיצד לשמור מסמך PDF עם טפסים מלאים עם דחיסה Jpeg מוגדרת ואיכות:
 

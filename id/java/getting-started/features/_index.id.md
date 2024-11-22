@@ -122,16 +122,16 @@ Anda dapat menggunakan Aspose.Words sebagai solusi pelaporan sendiri. Desain lap
 
 |  Sitemap |
 |  :-  |
-| Gunakan semua standar Microsoft Word mail merge kolom dalam laporan Anda termasuk `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, Login |
-| Login mail merge untuk dokumen yang mengandung bahkan yang paling kompleks dan bersarang `IF` kolom dan formula. |
-| Populasi dan secara dinamis menumbuhkan tabel atau fragmen dalam dokumen dari sumber data Anda mail merge Login |
+| Gunakan semua standar Microsoft Word Mail Merge kolom dalam laporan Anda termasuk `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, Login |
+| Login Mail Merge untuk dokumen yang mengandung bahkan yang paling kompleks dan bersarang `IF` kolom dan formula. |
+| Populasi dan secara dinamis menumbuhkan tabel atau fragmen dalam dokumen dari sumber data Anda Mail Merge Login |
 | Mudah menghasilkan laporan yang berisi data master-detail (orang tua) seperti Order/OrderDetails. |
 | Dokumen Populasi dengan data dari setiap Java sumber data yang mengimplementasikan `ResultSet` Login |
 | Dokumen Populasi dari sumber data apa pun seperti file XML atau objek bisnis dengan menerapkan **IMailMergeDataSource** Login |
 | Ambil kontrol yang tepat, seperti format nomor, atas bagaimana data Anda digabungkan menggunakan acara. |
 | Masukkan gambar selama mail mergeSitemap |
-| Programmatically membuat atau memodifikasi Microsoft Word mail merge sumber data untuk dokumen. Login mail merge pengaturan dan sumber data. |
-| Sitemap mail merge nama lapangan. |
+| Programmatically membuat atau memodifikasi Microsoft Word Mail Merge sumber data untuk dokumen. Login Mail Merge pengaturan dan sumber data. |
+| Sitemap Mail Merge nama lapangan. |
 
 ## Fitur Pelaporan
 

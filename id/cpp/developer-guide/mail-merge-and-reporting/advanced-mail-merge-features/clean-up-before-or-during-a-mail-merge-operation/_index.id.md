@@ -4,14 +4,14 @@ second_title: Aspose.Words untuk C++
 articleTitle: Bersihkan Sebelum atau Selama Operasi Mail Merge
 linktitle: Bersihkan Sebelum atau Selama Operasi Mail Merge
 type: docs
-description: "Terapkan opsi pembersihan dan penghapusan yang berbeda seperti menghapus bidang gabungan sebelum melakukan operasi mail merge atau menghapus wilayah yang tidak digunakan selama operasi mail merge."
-keywords: "cleanup options mail merge c#"
+description: "Terapkan opsi pembersihan dan penghapusan yang berbeda seperti menghapus bidang gabungan sebelum melakukan operasi Mail Merge atau menghapus wilayah yang tidak digunakan selama operasi mail merge."
+keywords: "cleanup options Mail Merge c#"
 weight: 10
 url: /id/cpp/clean-up-before-or-during-mail-merge/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words memungkinkan Anda menerapkan opsi pembersihan dan penghapusan yang berbeda seperti menghapus bidang gabungan sebelum melakukan operasi mail merge atau menghapus wilayah yang tidak digunakan selama operasi mail merge. Bagian ini akan menjelaskan cara menghapus bidang yang digabungkan dan cara menyiapkan opsi penghapusan.
+Aspose.Words memungkinkan Anda menerapkan opsi pembersihan dan penghapusan yang berbeda seperti menghapus bidang gabungan sebelum melakukan operasi Mail Merge atau menghapus wilayah yang tidak digunakan selama operasi mail merge. Bagian ini akan menjelaskan cara menghapus bidang yang digabungkan dan cara menyiapkan opsi penghapusan.
 
 ## Hapus Bidang Gabungan
 
@@ -23,7 +23,7 @@ Contoh kode berikut menunjukkan cara menghapus semua bidang gabungan dari templa
 
 ## Siapkan Opsi `Removing`
 
-Aspose.Words memungkinkan Anda menghapus bidang, wilayah, dan paragraf yang tidak digabungkan dari templat selama operasi mail merge menggunakan opsi penghapusan.
+Aspose.Words memungkinkan Anda menghapus bidang, wilayah, dan paragraf yang tidak digabungkan dari templat selama operasi Mail Merge menggunakan opsi penghapusan.
 
 Gunakan properti **CleanupOptions** bersama dengan enumerasi [MailMergeCleanupOptions](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmergecleanupoptions/) untuk mengatur opsi penghapusan. Tentukan item mana yang ingin Anda hapus dengan memilih opsi berikut (Anda dapat menggabungkan lebih dari satu):
 
@@ -47,9 +47,9 @@ Jika Anda menggabungkan data menggunakan sumber data terpisah, maka opsi penghap
 
 ### Hapus Paragraf Kosong
 
-Paragraf yang hanya menyertakan bidang gabungan akan kosong saat proses mail merge menghapus semua bidang penggabungannya sebagai tidak digabungkan. Paragraf kosong tersebut dapat menambah ruang yang tidak diinginkan dan mengubah tampilan laporan yang dihasilkan. Anda mungkin menghadapi dua situasi dengan paragraf selama operasi mail merge:
+Paragraf yang hanya menyertakan bidang gabungan akan kosong saat proses Mail Merge menghapus semua bidang penggabungannya sebagai tidak digabungkan. Paragraf kosong tersebut dapat menambah ruang yang tidak diinginkan dan mengubah tampilan laporan yang dihasilkan. Anda mungkin menghadapi dua situasi dengan paragraf selama operasi mail merge:
 
-1. Bidang mail merge akan digabungkan dengan data kosong.
+1. Bidang Mail Merge akan digabungkan dengan data kosong.
 2. Bidang penggabungan tidak digunakan dan akan dihapus.
 
 Dalam kedua situasi tersebut, opsi **RemoveEmptyParagraphs** akan secara otomatis menghapus paragraf kosong dari dokumen. Selain itu, ini akan menghapus bidang gabungan `TableStart` dan TableEnd jika sisa paragraf kosong.
@@ -66,7 +66,7 @@ Anda dapat mengunduh file contoh contoh ini dari [Aspose.Words GitHub](https://g
 
 ### Hapus Bidang yang Tidak Digunakan
 
-Aspose.Words memungkinkan Anda menghapus bidang mail merge yang tidak digunakan dengan menetapkan tanda **RemoveUnusedFields** ke **CleanupOptions**. Opsi ini akan menghapus bidang gabungan yang tidak memiliki data terkait di sumber data.
+Aspose.Words memungkinkan Anda menghapus bidang Mail Merge yang tidak digunakan dengan menetapkan tanda **RemoveUnusedFields** ke **CleanupOptions**. Opsi ini akan menghapus bidang gabungan yang tidak memiliki data terkait di sumber data.
 
 Contoh kode berikut menunjukkan cara menghapus bidang gabungan yang tidak digunakan dari dokumen secara otomatis selama operasi mail merge:
 
@@ -86,6 +86,6 @@ Contoh kode berikut menunjukkan cara menghapus bidang yang berisi bidang gabunga
 
 Aspose.Words memungkinkan Anda menghapus baris tabel kosong dengan menetapkan tanda **RemoveEmptyTableRows** ke **CleanupOptions**. Opsi ini akan menghapus baris tabel yang berisi bidang gabungan kosong.
 
-Contoh kode berikut menunjukkan cara menghapus baris tabel kosong yang berisi wilayah mail merge dari dokumen:
+Contoh kode berikut menunjukkan cara menghapus baris tabel kosong yang berisi wilayah Mail Merge dari dokumen:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Mail-Merge-MailMergeCleanUp-RemoveEmptyTableRows.cpp" >}}

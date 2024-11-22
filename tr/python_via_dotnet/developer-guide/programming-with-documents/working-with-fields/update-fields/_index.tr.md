@@ -43,7 +43,7 @@ Bu örneğin örnek dosyasını [Aspose.Words GitHub](https://github.com/aspose-
 
 ### Mail Merge Sırasında Otomatik Alan Güncellemesi
 
-Bir mail merge çalıştırdığınızda belgedeki tüm alanlar otomatik olarak güncellenecektir. Bunun nedeni mail merge'in bir alan güncellemesi durumu olmasıdır. Program bir mail merge alanıyla karşılaşır ve sonucunu güncellemesi gerekir; bu, veri kaynağından değerin alınıp alana eklenmesini içerir. Mantık elbette daha karmaşıktır; örneğin, belgenin/mail merge bölgesinin sonuna gelindiğinde ancak birleştirilecek daha fazla veri olduğunda, bölgenin kopyalanması ve yeni alan kümesinin güncellenmesi gerekir.
+Bir Mail Merge çalıştırdığınızda belgedeki tüm alanlar otomatik olarak güncellenecektir. Bunun nedeni mail merge'in bir alan güncellemesi durumu olmasıdır. Program bir Mail Merge alanıyla karşılaşır ve sonucunu güncellemesi gerekir; bu, veri kaynağından değerin alınıp alana eklenmesini içerir. Mantık elbette daha karmaşıktır; örneğin, belgenin/mail merge bölgesinin sonuna gelindiğinde ancak birleştirilecek daha fazla veri olduğunda, bölgenin kopyalanması ve yeni alan kümesinin güncellenmesi gerekir.
 
 ## Kirli Niteliğe Sahip Alanları Güncelle
 

@@ -174,9 +174,9 @@ Aspose.Words prend en charge tous les commutateurs de formatage de date et d'heu
 
 ### Mail Merge Champs
 
-Aspose.Words n'impose aucune limite à la complexité des champs mail merge dans vos documents et prend en charge les champs imbriqués `IF` et de formule et peut même calculer le nom du champ de fusion à l'aide d'une formule.
+Aspose.Words n'impose aucune limite à la complexité des champs Mail Merge dans vos documents et prend en charge les champs imbriqués `IF` et de formule et peut même calculer le nom du champ de fusion à l'aide d'une formule.
 
-Quelques exemples de champs mail merge pris en charge par Aspose.Words:
+Quelques exemples de champs Mail Merge pris en charge par Aspose.Words:
 
 - Mail merge commutateurs de champ:
 `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -223,6 +223,6 @@ D'autre part, Microsoft Word formate chaque champ individuel en fonction de la l
 
 La classe [Document](https://reference.aspose.com/words/cpp/class/aspose.words.document) fournit une propriété [FieldOptions](https://reference.aspose.com/words/cpp/aspose.words/document/get_fieldoptions/) qui contient des membres qui peuvent être utilisés pour contrôler la façon dont les champs sont mis à jour dans le document.
 
-L'exemple de code suivant montre comment spécifier où la culture utilisée pour le formatage de la date lors de la mise à jour du champ et mail merge est choisie:
+L'exemple de code suivant montre comment spécifier où la culture utilisée pour le formatage de la date lors de la mise à jour du champ et Mail Merge est choisie:
 
 EXEMPLE

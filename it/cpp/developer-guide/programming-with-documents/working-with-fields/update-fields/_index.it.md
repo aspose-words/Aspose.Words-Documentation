@@ -19,7 +19,7 @@ Quando un documento viene caricato, Aspose.Words imita il comportamento di Micro
 - quando si apre / salva un documento i campi rimangono intatti
 - è possibile aggiornare esplicitamente tutti i campi in un documento, ad esempio, ricostruire `TOC`, quando è necessario
 - quando si esegue il rendering su PDF o XPS, i campi relativi alla numerazione delle pagine nelle intestazioni/piè di pagina vengono aggiornati
-- quando si esegue mail merge tutti i campi vengono aggiornati automaticamente
+- quando si esegue Mail Merge tutti i campi vengono aggiornati automaticamente
 
 ### Aggiorna i campi a livello di codice
 
@@ -37,7 +37,7 @@ L'esempio di codice seguente mostra come aggiornare tutti i campi prima di esegu
 
 ### Aggiornamento automatico del campo durante Mail Merge
 
-Quando si esegue un mail merge, tutti i campi del documento verranno aggiornati automaticamente. Questo perché mail merge è un caso di aggiornamento del campo. Il programma incontra un campo mail merge e deve aggiornare il suo risultato, il che comporta l'acquisizione del valore dall'origine dati e l'inserimento nel campo. La logica è ovviamente più complicata, ad esempio, quando viene raggiunta la fine della regione document/mail merge ma ci sono ancora altri dati da unire, quindi la regione deve essere duplicata e il nuovo set di campi aggiornato.
+Quando si esegue un mail merge, tutti i campi del documento verranno aggiornati automaticamente. Questo perché Mail Merge è un caso di aggiornamento del campo. Il programma incontra un campo Mail Merge e deve aggiornare il suo risultato, il che comporta l'acquisizione del valore dall'origine dati e l'inserimento nel campo. La logica è ovviamente più complicata, ad esempio, quando viene raggiunta la fine della regione document/mail merge ma ci sono ancora altri dati da unire, quindi la regione deve essere duplicata e il nuovo set di campi aggiornato.
 
 ## Aggiorna LastSavedTime Proprietà prima di salvare
 

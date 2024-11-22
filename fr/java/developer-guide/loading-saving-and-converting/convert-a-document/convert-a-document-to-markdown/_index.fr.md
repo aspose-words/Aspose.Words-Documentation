@@ -19,7 +19,7 @@ Maintenant la fonctionnalité pour travailler avec le Markdown Le format est act
 
 ## Convertir un document en Markdown
 
-Pour convertir un document en <span notrans="<span notrans=" Markdown"=""></span>""> vous avez juste besoin de charger un document dans n'importe quel format pris en charge ou de créer un nouveau programme. Ensuite, vous devez enregistrer le document à Markdown modèle.
+Pour convertir un document en Markdown"> vous avez juste besoin de charger un document dans n'importe quel format pris en charge ou de créer un nouveau programme. Ensuite, vous devez enregistrer le document à Markdown modèle.
 
 L'exemple de code suivant montre comment convertir DOCX en Markdown:
 
@@ -59,5 +59,5 @@ Le résultat de cet exemple de code est montré ci-dessous.
 
 Il y a plusieurs nuances et cas intéressants, ayant appris avec qui vous pouvez travailler Markdown fichiers plus flexible et pratique. Par exemple, il y a la capacité d'utiliser:
 
-* SetextHeating qui vous permet de créer des rubriques multi-lignes dans <span notrans="<span notrans=" Markdown"=""></span>""> tandis que les rubriques Markdown ne peut être qu'une seule ligne. SetextHeating est basé sur un style "Heading N", et son niveau ne peut être que 1 ou 2. Si N dans "Heading N" est supérieur ou égal à 2, alors le Setext Heading correspondant est basé sur "Heading 2", sinon sur "Heading 1".
+* SetextHeating qui vous permet de créer des rubriques multi-lignes dans Markdown"> tandis que les rubriques Markdown ne peut être qu'une seule ligne. SetextHeating est basé sur un style "Heading N", et son niveau ne peut être que 1 ou 2. Si N dans "Heading N" est supérieur ou égal à 2, alors le Setext Heading correspondant est basé sur "Heading 2", sinon sur "Heading 1".
 * Différents marqueurs pour le premier niveau de listes par puce ("-", "+" ou "*", le marqueur par défaut est ".") et différents types de numérotation pour les listes ordonnées ("." ou ")", le marqueur par défaut est ".").

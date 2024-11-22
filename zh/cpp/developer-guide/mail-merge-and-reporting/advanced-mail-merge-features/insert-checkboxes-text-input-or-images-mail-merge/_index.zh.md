@@ -10,16 +10,16 @@ url: /zh/cpp/insert-checkboxes-text-input-or-images-mail-merge/
 timestamp: 2024-01-27-14-07-04
 ---
 
-合并引擎将文档作为输入，查找 `MERGEFIELD` 中的字段，并将其替换为从数据源获取的数据。 通常，纯文本和 HTML 被插入，但 Aspose.Words 用户还可以生成一个文档，用于处理更不寻常的情况 mail merge 菲尔兹。
+合并引擎将文档作为输入，查找 `MERGEFIELD` 中的字段，并将其替换为从数据源获取的数据。 通常，纯文本和 HTML 被插入，但 Aspose.Words 用户还可以生成一个文档，用于处理更不寻常的情况 Mail Merge 菲尔兹。
 
-强大 Aspose.Words 功能允许您扩展 mail merge 过程:
+强大 Aspose.Words 功能允许您扩展 Mail Merge 过程:
 
 - 在文档中插入复选框和文本输入表单字段 mail merge
 - 从任何自定义存储（文件）插入图像, BLOB 领域等。)
 
 ## 插入 Checkboxes和文本输入期间 Mail Merge
 
-有时有必要执行一个 mail merge 操作，以便在合并字段中代替的不是文本，而是复选框或文本输入字段。 尽管这不是最常见的情况，但它对于某些任务来说非常方便。
+有时有必要执行一个 Mail Merge 操作，以便在合并字段中代替的不是文本，而是复选框或文本输入字段。 尽管这不是最常见的情况，但它对于某些任务来说非常方便。
 
 Word文档的以下屏幕截图显示了具有合并字段的模板:
 
@@ -43,11 +43,11 @@ Word文档的以下屏幕截图显示了具有合并字段的模板:
 
 ## 期间插入图像 Mail Merge
 
-当执行 mail merge 操作，您可以使用特殊图像将数据库中的图像插入到文档中 mail merge 菲尔兹。 图像 mail merge field是一个名为Image的合并字段:MyFieldName.
+当执行 Mail Merge 操作，您可以使用特殊图像将数据库中的图像插入到文档中 Mail Merge 菲尔兹。 图像 Mail Merge field是一个名为Image的合并字段:MyFieldName.
 
 ### 从数据库中插入图像
 
-在一个 mail merge，当图像 mail merge 字段在文档中遇到， [FieldMergingCallback](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/get_fieldmergingcallback/) 事件被触发。 您可以响应此事件以将文件名、流或图像对象返回到 mail merge 引擎，以便它可以插入到文档中。
+在一个 mail merge，当图像 Mail Merge 字段在文档中遇到， [FieldMergingCallback](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/get_fieldmergingcallback/) 事件被触发。 您可以响应此事件以将文件名、流或图像对象返回到 Mail Merge 引擎，以便它可以插入到文档中。
 
 下面的代码示例演示如何插入存储在数据库中的图像 BLOB 字段到报告中:
 

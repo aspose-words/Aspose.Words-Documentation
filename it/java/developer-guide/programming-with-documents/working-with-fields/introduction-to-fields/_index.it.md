@@ -37,7 +37,7 @@ Ecco una visione di come un campo è memorizzato in Aspose.Words utilizzando l'e
 
 ## Campi in Aspose.Words Document Object Model (DOM)
 
-Quando un documento viene caricato <span notrans="<span notrans=" Aspose.Words"=""></span>> i campi del documento sono caricati nel Aspose.Words Document Object Model come insieme di componenti separati (nodi). Un unico campo è caricato come una raccolta **FieldStart**, **FieldSeparator** e **FieldEnd** nodi insieme al contenuto tra questi nodi. Se un campo non ha un risultato di campo allora non ci sarà **FieldSeparator** Nodo. Tutti questi nodi sono sempre in linea (come bambini di [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) o [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/).
+Quando un documento viene caricato Aspose.Words> i campi del documento sono caricati nel Aspose.Words Document Object Model come insieme di componenti separati (nodi). Un unico campo è caricato come una raccolta **FieldStart**, **FieldSeparator** e **FieldEnd** nodi insieme al contenuto tra questi nodi. Se un campo non ha un risultato di campo allora non ci sarà **FieldSeparator** Nodo. Tutti questi nodi sono sempre in linea (come bambini di [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) o [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/).
 
 In Aspose.Words ciascuno dei **FieldXXX** nodi deriva da [FieldChar](https://reference.aspose.com/words/java/com.aspose.words/fieldchar/). Questa classe fornisce una proprietà per controllare il tipo di campo rappresentato dal nodo specificato attraverso il [FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) proprieta'. Per esempio `FieldType.FieldMergeField` rappresenta un campo di fusione nel documento.
 
@@ -174,9 +174,9 @@ Aspose.Words supporta tutti gli switch di formattazione della data e dell'ora di
 
 ### Mail Merge Campi
 
-Aspose.Words non impone alcun limite alla complessità di mail merge campi nei tuoi documenti e supporti nidificato `IF` e campi di formula e può anche calcolare il nome del campo di fusione utilizzando una formula.
+Aspose.Words non impone alcun limite alla complessità di Mail Merge campi nei tuoi documenti e supporti nidificato `IF` e campi di formula e può anche calcolare il nome del campo di fusione utilizzando una formula.
 
-Alcuni esempi di mail merge campi Aspose.Words supporti:
+Alcuni esempi di Mail Merge campi Aspose.Words supporti:
 
 - No. Mail merge interruttori di campo:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -223,6 +223,6 @@ D'altra parte, Microsoft Word formatta ogni singolo campo in base alla lingua de
 
 The [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) classe fornisce un [FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/document/#getFieldOptions) proprietà che contiene membri che possono essere utilizzati per controllare come i campi sono aggiornati all'interno del documento.
 
-Il seguente esempio di codice mostra come specificare dove la cultura utilizzata per la formattazione della data durante l'aggiornamento del campo e mail merge è scelto da:
+Il seguente esempio di codice mostra come specificare dove la cultura utilizzata per la formattazione della data durante l'aggiornamento del campo e Mail Merge è scelto da:
 
 ESEMPIO

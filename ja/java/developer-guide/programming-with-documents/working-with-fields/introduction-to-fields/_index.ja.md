@@ -37,7 +37,7 @@ Aspose.Words サーバ側処理用に設計されたクラスライブラリで�
 
 ## フィールド Aspose.Words Document Object Model ( )DOM)
 
-ドキュメントが読み込まれるとき <span notrans="<span notrans=" Aspose.Words"=""></span>????? ドキュメントのフィールドが読み込まれる Aspose.Words Document Object Model 別のコンポーネント(ノード)のセットとして。 単一のフィールドはコレクションとして読み込まれます **FieldStart**, **FieldSeparator** そして、 **FieldEnd** ノードは、これらのノード間でのコンテンツとともに表示されます。 フィールドがフィールド結果を持っていない場合、フィールドがフィールド結果を持っていない場合、 **FieldSeparator** ノード。 これらのすべてのノードは、常にインライン(子供として) [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) または [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/)お問い合わせ
+ドキュメントが読み込まれるとき Aspose.Words????? ドキュメントのフィールドが読み込まれる Aspose.Words Document Object Model 別のコンポーネント(ノード)のセットとして。 単一のフィールドはコレクションとして読み込まれます **FieldStart**, **FieldSeparator** そして、 **FieldEnd** ノードは、これらのノード間でのコンテンツとともに表示されます。 フィールドがフィールド結果を持っていない場合、フィールドがフィールド結果を持っていない場合、 **FieldSeparator** ノード。 これらのすべてのノードは、常にインライン(子供として) [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) または [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/)お問い合わせ
 
 インスタグラム Aspose.Words それぞれの **FieldXXX** ノードの由来 [FieldChar](https://reference.aspose.com/words/java/com.aspose.words/fieldchar/)お問い合わせ このクラスは、指定されたノードで表すフィールドの型をチェックするプロパティを提供します。 [FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) プロパティ. 例えば `FieldType.FieldMergeField` ドキュメントのマージフィールドを表します。
 
@@ -174,9 +174,9 @@ Aspose.Words すべての日付および時間のフォーマット スイッチ
 
 ### Mail Merge フィールド
 
-Aspose.Words 複雑性に限界を及ぼさない mail merge ドキュメント内のフィールドとネストをサポート `IF` フォームフィールドと、マージフィールドの名前を式で計算することもできます。
+Aspose.Words 複雑性に限界を及ぼさない Mail Merge ドキュメント内のフィールドとネストをサポート `IF` フォームフィールドと、マージフィールドの名前を式で計算することもできます。
 
-いくつかの例 mail merge フィールド Aspose.Words サポート:
+いくつかの例 Mail Merge フィールド Aspose.Words サポート:
 
 - - - Mail merge フィールド スイッチ:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -223,6 +223,6 @@ EXAMPLE(パブリックラッパー currentThreadSettings.getLocale() と setLoc
 
 ザ・オブ・ザ・ [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) クラスは [FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/document/#getFieldOptions) 文書内のフィールドの更新を制御するために使用できるメンバーを含むプロパティ。
 
-次のコードの例では、フィールドの更新時に日付の書式に使用する文化の指定方法を示します。 mail merge から選ぶ:
+次のコードの例では、フィールドの更新時に日付の書式に使用する文化の指定方法を示します。 Mail Merge から選ぶ:
 
 アクセサリー

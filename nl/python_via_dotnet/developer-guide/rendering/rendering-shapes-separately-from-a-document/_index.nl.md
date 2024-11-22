@@ -39,7 +39,7 @@ De hierboven beschreven vormen bieden een speciale methode om de vormen door de 
 
 {{% alert color="primary" %}}
 
-Wanneer een <span notrans="<span notrans=" [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/)"=""></span>,"> het moet deel uitmaken van de documenthiërarchie. Indien de [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) is geen deel van de documentboom dan zal de weergegeven uitvoer leeg zijn na aanroepen [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/) methoden.
+Wanneer een [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) het moet deel uitmaken van de documenthiërarchie. Indien de [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) is geen deel van de documentboom dan zal de weergegeven uitvoer leeg zijn na aanroepen [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/) methoden.
 
 {{% /alert %}}
 

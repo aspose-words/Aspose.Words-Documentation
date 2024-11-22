@@ -43,7 +43,7 @@ timestamp: 2024-10-21-11-17-44
 |  **Strikethrough**<br/>`~Strikethrough text~` |  `Font.StrikeThrough = true`  |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Strikethrough.java" >}}  |  |
 
-Ми використовуємо стиль персонажа з назвою, яка починається з слова <span notrans="<span notrans=" `InlineCode`"=""></span>, > далі за бажанням `(.)` і ряд задніх ```(`)``` для `InlineCode` функція. Якщо пропущено ряд спинок, то один задняк буде використовуватися за замовчуванням.
+Ми використовуємо стиль персонажа з назвою, яка починається з слова `InlineCode`, > далі за бажанням `(.)` і ряд задніх ```(`)``` для `InlineCode` функція. Якщо пропущено ряд спинок, то один задняк буде використовуватися за замовчуванням.
 
 |  Markdown Головна |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |

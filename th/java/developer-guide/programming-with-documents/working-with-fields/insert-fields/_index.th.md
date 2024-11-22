@@ -104,7 +104,7 @@ timestamp: 2024-01-27-14-07-04
 
 ### แทรก Mail Merge `ADDRESSBLOCK` ค้นหาในเอกสารโดยใช้ DOM
 
-เดอะ `ADDRESSBLOCK` ช่องข้อมูลที่ใช้แทรก mail merge ที่อยู่บล็อกในเอกสารคํา `ADDRESSBLOCK` ช่องข้อมูลในเอกสารคํา [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) ชั้นเรียน. คุณสามารถใช้ **FieldAddressBlock** ห้องเรียนที่จะดําเนินการต่อไปนี้:
+เดอะ `ADDRESSBLOCK` ช่องข้อมูลที่ใช้แทรก Mail Merge ที่อยู่บล็อกในเอกสารคํา `ADDRESSBLOCK` ช่องข้อมูลในเอกสารคํา [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) ชั้นเรียน. คุณสามารถใช้ **FieldAddressBlock** ห้องเรียนที่จะดําเนินการต่อไปนี้:
 
 - ลบทั้งเธรด
 - ระบุว่าจะฟอร์แมตที่อยู่ต่าง ๆ ตามชื่อประเทศ/ regression ของผู้รับที่ถูกกําหนดโดย POSTs*CDE (Universal Post 2006) หรือไม่
@@ -146,7 +146,7 @@ timestamp: 2024-01-27-14-07-04
 
 - ระบุชื่อของที่คั่นหน้า
 - ระบุการตอบสนองปริยายของผู้ใช้ (ค่าในหน้าต่างที่เรียกใช้)
-- ลบทั้งเธรด mail merge ปฏิบัติการ
+- ลบทั้งเธรด Mail Merge ปฏิบัติการ
 - ระบุข้อความพร้อม (หัวเรื่องหน้าต่างที่เรียกทํางาน)
 
 {{% alert color="primary" %}}

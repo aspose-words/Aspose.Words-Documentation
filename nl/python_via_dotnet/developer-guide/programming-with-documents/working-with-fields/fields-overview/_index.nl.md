@@ -96,7 +96,7 @@ Een veld in verwijderen Microsoft Word:
 
 ## Velden in Aspose.Words
 
-Wanneer een document geladen wordt <span notrans="<span notrans=" Aspose.Words"=""></span>,"> de velden van het document worden geladen in de Aspose.Words Document Object Model als een reeks afzonderlijke componenten (nodes). Een enkel veld wordt geladen als een verzameling van [FieldStart](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldstart/), [FieldSeparator](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldseparator/) en [FieldEnd](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldend/) knooppunten samen met de inhoud tussen deze knooppunten. Als een veld geen veldresultaat heeft dan zal er geen [FieldSeparator](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldseparator/) Node. Al deze knooppunten zijn altijd inline (als kinderen van [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/) of [SmartTag](https://reference.aspose.com/words/python-net/aspose.words.markup/smarttag/).
+Wanneer een document geladen wordt Aspose.Words de velden van het document worden geladen in de Aspose.Words Document Object Model als een reeks afzonderlijke componenten (nodes). Een enkel veld wordt geladen als een verzameling van [FieldStart](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldstart/), [FieldSeparator](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldseparator/) en [FieldEnd](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldend/) knooppunten samen met de inhoud tussen deze knooppunten. Als een veld geen veldresultaat heeft dan zal er geen [FieldSeparator](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldseparator/) Node. Al deze knooppunten zijn altijd inline (als kinderen van [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/) of [SmartTag](https://reference.aspose.com/words/python-net/aspose.words.markup/smarttag/).
 
 De inhoud van de veldcode wordt opgeslagen als [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) nodes tussen de [FieldStart](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldstart/) en [FieldSeparator](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldseparator/). Het veld resultaat wordt opgeslagen tussen de [FieldSeparator](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldseparator/) en [FieldEnd](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldend/) knooppunten en kunnen bestaan uit verschillende soorten inhoud. Normaal gesproken bevat het veldresultaat alleen tekst die bestaat uit [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) knooppunten, maar het is mogelijk voor de [FieldEnd](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldend/) knooppunt te worden geplaatst in een volledig andere paragraaf, en dus het maken van het veld resultaat bestaat uit blok niveau knooppunten zoals [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/) en [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/) Knooppunten ook.
 
@@ -191,9 +191,9 @@ Aspose.Words ondersteunt alle datum en tijd formattering switches beschikbaar in
 
 #### Mail Merge Velden
 
-Aspose.Words legt geen beperking op aan de complexiteit van mail merge velden in uw documenten en ondersteunt geneste `IF` en formule velden en kan zelfs berekenen de merge veld
+Aspose.Words legt geen beperking op aan de complexiteit van Mail Merge velden in uw documenten en ondersteunt geneste `IF` en formule velden en kan zelfs berekenen de merge veld
 
-Enkele voorbeelden van mail merge velden die Aspose.Words ondersteunt:
+Enkele voorbeelden van Mail Merge velden die Aspose.Words ondersteunt:
 
 - Mail merge veldschakelaars:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -237,7 +237,7 @@ Het gebruik van de huidige cultuur om velden te formatteren stelt een systeem in
 
 Aan de andere kant, Microsoft Word formatteert elk individueel veld op basis van de taal van de tekst in het veld (in het bijzonder, de runs van de veldcode). Soms tijdens het bijwerken van het veld kan dit het gewenste gedrag zijn, bijvoorbeeld als je documenten hebt geglobaliseerd die inhoud bevatten bestaande uit vele verschillende talen en wil dat elke velden om de locale gebruikt uit de tekst te eren. Aspose.Words ondersteunt ook deze functionaliteit.
 
-De [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) klasse geeft a [field_options](https://reference.aspose.com/words/python-net/aspose.words/document/field_options/) eigenschap die leden bevat die kunnen worden gebruikt om te controleren hoe velden worden bijgewerkt in het document. Hieronder laat u zien hoe u kunt aangeven waar de cultuur gebruikt voor datumopmaak tijdens veldupdate en mail merge is gekozen uit.
+De [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) klasse geeft a [field_options](https://reference.aspose.com/words/python-net/aspose.words/document/field_options/) eigenschap die leden bevat die kunnen worden gebruikt om te controleren hoe velden worden bijgewerkt in het document. Hieronder laat u zien hoe u kunt aangeven waar de cultuur gebruikt voor datumopmaak tijdens veldupdate en Mail Merge is gekozen uit.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-ChangeFieldUpdateCultureSource.py" >}}
 

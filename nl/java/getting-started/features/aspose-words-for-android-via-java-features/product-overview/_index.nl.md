@@ -41,7 +41,7 @@ Aspose.Words voor Android via Java is multithread veilig zolang slechts één dr
 
 ### Minimale leercurve
 
-Hoewel er meer dan 150 openbare klassen en opsommingen in Aspose.Words voor Android via <span notrans="<span notrans=" Java"=""></span>,"> de leercurve is minimaal omdat de Aspose.Words voor Android via Java API zorgvuldig is ontworpen met de volgende doelen in het achterhoofd:
+Hoewel er meer dan 150 openbare klassen en opsommingen in Aspose.Words voor Android via Java de leercurve is minimaal omdat de Aspose.Words voor Android via Java API zorgvuldig is ontworpen met de volgende doelen in het achterhoofd:
 
 - Lenen beste praktijken van andere bekende APIs Microsoft Word Automatisering.
 - Lenen van beste praktijken van de industrie aanvaard Java en Android ontwerprichtsnoeren.

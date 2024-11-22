@@ -43,7 +43,7 @@ Anda dapat mengunduh file contoh contoh ini dari [Aspose.Words GitHub](https://g
 
 ### Pembaruan Bidang Otomatis Selama Mail Merge
 
-Saat Anda menjalankan mail merge, semua kolom dalam dokumen akan diperbarui secara otomatis. Hal ini karena mail merge merupakan kasus pembaruan lapangan. Program ini menemukan bidang mail merge dan perlu memperbarui hasilnya, yang melibatkan pengambilan nilai dari sumber data dan memasukkannya ke dalam bidang. Logikanya tentu saja lebih rumit, misalnya ketika akhir wilayah dokumen/mail merge telah tercapai tetapi masih ada data lebih lanjut yang harus digabungkan, maka wilayah tersebut perlu diduplikasi dan kumpulan kolom baru diperbarui.
+Saat Anda menjalankan mail merge, semua kolom dalam dokumen akan diperbarui secara otomatis. Hal ini karena Mail Merge merupakan kasus pembaruan lapangan. Program ini menemukan bidang Mail Merge dan perlu memperbarui hasilnya, yang melibatkan pengambilan nilai dari sumber data dan memasukkannya ke dalam bidang. Logikanya tentu saja lebih rumit, misalnya ketika akhir wilayah dokumen/mail merge telah tercapai tetapi masih ada data lebih lanjut yang harus digabungkan, maka wilayah tersebut perlu diduplikasi dan kumpulan kolom baru diperbarui.
 
 ## Perbarui Bidang yang Memiliki Atribut Kotor
 

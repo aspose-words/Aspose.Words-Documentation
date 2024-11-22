@@ -50,7 +50,7 @@ Ví dụ về mã sau đây cho thấy cách chèn nội dung của một tài l
 
 ### Chèn tài liệu trong quá trình thao tác Mail Merge {#insert-a-document-during-mail-merge-operation}
 
-Bạn có thể chèn tài liệu vào trường hợp nhất trong thao tác mail merge. Ví dụ: mẫu mail merge có thể chứa trường hợp nhất, chẳng hạn như [Tóm tắt]. Nhưng trong tài liệu cuối cùng, bạn cần chèn nội dung thu được từ một tài liệu bên ngoài khác vào trường hợp nhất này. Để đạt được điều đó, bạn sẽ cần tạo một trình xử lý cho sự kiện hợp nhất.
+Bạn có thể chèn tài liệu vào trường hợp nhất trong thao tác mail merge. Ví dụ: mẫu Mail Merge có thể chứa trường hợp nhất, chẳng hạn như [Tóm tắt]. Nhưng trong tài liệu cuối cùng, bạn cần chèn nội dung thu được từ một tài liệu bên ngoài khác vào trường hợp nhất này. Để đạt được điều đó, bạn sẽ cần tạo một trình xử lý cho sự kiện hợp nhất.
 
 Ví dụ về mã sau đây cho thấy cách tạo trình xử lý cho sự kiện hợp nhất để sử dụng nó sau này trong quá trình chèn:
 

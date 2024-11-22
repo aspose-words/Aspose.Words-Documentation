@@ -121,7 +121,7 @@ Ba da, ai. Prin urmare, atunci când copiați fonturi, rețineți că majoritate
 
 {{% alert color="primary" %}}
 
-Puteți găsi informații mai detaliate despre mail merge în [Mail Merge și raportare](/words/java/mail-merge-and-reporting/) secțiunea Documentație.
+Puteți găsi informații mai detaliate despre Mail Merge în [Mail Merge și raportare](/words/java/mail-merge-and-reporting/) secțiunea Documentație.
 
 {{% /alert %}}
 
@@ -136,7 +136,7 @@ Numele original al câmpului de îmbinare rămâne același fără a fi înlocui
 
 **Î: De ce ieșirea fuziunii imbricate nu afișează date din tabelul copil pentru prima intrare din tabelul părinte, ci afișează toate elementele pentru ultima intrare din tabelul părinte, chiar și cele care nu sunt de fapt legate de acesta?**
 
-Acest lucru se datorează faptului că regiunile de îmbinare din șablon nu sunt formate corect, ceea ce poate face ca toate regiunile imbricate mail merge să nu mai afișeze nimic. Eticheta de deschidere [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) și eticheta de închidere [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) trebuie să se potrivească și să fie în același rând sau celulă. De exemplu, dacă începeți cuibărirea regiunilor de îmbinare într-o celulă a unui tabel, trebuie să terminați regiunea de îmbinare în același rând cu prima celulă.
+Acest lucru se datorează faptului că regiunile de îmbinare din șablon nu sunt formate corect, ceea ce poate face ca toate regiunile imbricate Mail Merge să nu mai afișeze nimic. Eticheta de deschidere [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) și eticheta de închidere [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) trebuie să se potrivească și să fie în același rând sau celulă. De exemplu, dacă începeți cuibărirea regiunilor de îmbinare într-o celulă a unui tabel, trebuie să terminați regiunea de îmbinare în același rând cu prima celulă.
 
 ------
 

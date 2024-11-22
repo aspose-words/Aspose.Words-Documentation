@@ -16,7 +16,7 @@ The The The Aspose.Words Document Object Model ()DOM) הוא ייצוג פנימ
 
 ## ליצור `Document` אובייקטים עץ {#create-a-document-objects-tree}
 
-כאשר מסמך קורא לתוך Aspose.Words <span notrans="<span notrans=" DOM"=""></span>" לאחר מכן עץ אובייקט בנוי וסוגים שונים של אלמנטים של המסמך המקור יש משלהם. DOM חפצי עץ עם תכונות שונות.
+כאשר מסמך קורא לתוך Aspose.Words DOM לאחר מכן עץ אובייקט בנוי וסוגים שונים של אלמנטים של המסמך המקור יש משלהם. DOM חפצי עץ עם תכונות שונות.
 
 ### בניית עץ Nodes {#build-document-nodes-tree}
 

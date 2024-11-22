@@ -87,7 +87,7 @@ Aşağıdaki kod örneği, DOM kullanarak `MERGE` alanının bir belgedeki parag
 
 ### Mail Merge `ADDRESSBLOCK` alanını DOM kullanarak bir Belgeye ekleme
 
-`ADDRESSBLOCK` alanı, Word belgesine mail merge adres bloğu eklemek için kullanılır. Word belgesindeki `ADDRESSBLOCK` alanı [FieldAddressBlock](https://reference.aspose.com/words/tr/net/aspose.words.fields/fieldaddressblock/) sınıfıyla temsil edilebilir. Aşağıdaki işlemleri gerçekleştirmek için **FieldAddressBlock** sınıfını kullanabilirsiniz:
+`ADDRESSBLOCK` alanı, Word belgesine Mail Merge adres bloğu eklemek için kullanılır. Word belgesindeki `ADDRESSBLOCK` alanı [FieldAddressBlock](https://reference.aspose.com/words/tr/net/aspose.words.fields/fieldaddressblock/) sınıfıyla temsil edilebilir. Aşağıdaki işlemleri gerçekleştirmek için **FieldAddressBlock** sınıfını kullanabilirsiniz:
 
 - alana ülke/bölge adının dahil edilip edilmeyeceğini belirtin
 - adresin POST*CODE (Universal Postal Union 2006) tarafından tanımlandığı şekilde alıcının ülkesine/bölgesine göre biçimlendirilip biçimlendirilmeyeceğini belirtin
@@ -129,7 +129,7 @@ Aşağıdaki kod örneği, DOM kullanarak `ADVANCE` Alanının bir belgedeki par
 
 - yer iminin adını belirtin
 - varsayılan kullanıcı yanıtını belirtin (istem penceresinde bulunan başlangıç değeri)
-- mail merge işlemi başına kullanıcı yanıtının bir kez alınması gerekip gerekmediğini belirtin
+- Mail Merge işlemi başına kullanıcı yanıtının bir kez alınması gerekip gerekmediğini belirtin
 - bilgi istemi metnini belirtin (bilgi istemi penceresinin başlığı)
 
 {{% alert color="primary" %}}

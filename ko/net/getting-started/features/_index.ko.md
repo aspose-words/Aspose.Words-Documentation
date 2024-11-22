@@ -114,16 +114,16 @@ Aspose.Words를 자체적으로 보고 솔루션으로 사용할 수 있습니�
 
 |  특징 | .NET | .NET Standard 2.0 | Xamarin.Android | Xamarin.iOS | Xamarin.맥 |
 |  :-  |  :-  |  :-  |  :-  |  :-  |  :-  |
-| `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE을 포함한 모든 표준 Microsoft Word mail merge 필드를 보고서에 사용하세요. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE을 포함한 모든 표준 Microsoft Word Mail Merge 필드를 보고서에 사용하세요. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | 가장 복잡하고 중첩된 `IF` 필드와 수식이 포함된 문서에 대해 mail merge를 실행하세요. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| mail merge 영역을 사용하여 데이터 소스에서 문서의 테이블이나 조각을 채우고 동적으로 확장합니다. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Mail Merge 영역을 사용하여 데이터 소스에서 문서의 테이블이나 조각을 채우고 동적으로 확장합니다. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Order/OrderDetails와 같은 마스터-세부 사항(상위-하위) 데이터가 포함된 보고서를 쉽게 생성할 수 있습니다. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | DataSet, DataTable, DataView, DataReader 또는 ADO Recordset과 같은 .NET 데이터 소스의 데이터로 문서를 채웁니다. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | **IMailMergeDataSource** 인터페이스를 구현하여 LINQ 쿼리, XML 파일 또는 비즈니스 개체와 같은 모든 데이터 소스에서 문서를 채웁니다. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | 이벤트를 사용하여 데이터가 병합되는 방식을 숫자 형식과 같이 정밀하게 제어하세요. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| mail merge 중에 이미지를 삽입합니다. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| 문서의 Microsoft Word mail merge 데이터 소스를 프로그래밍 방식으로 생성하거나 수정합니다. mail merge 설정 및 데이터 소스를 보존합니다. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| mail merge 필드 이름을 검색합니다. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Mail Merge 중에 이미지를 삽입합니다. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| 문서의 Microsoft Word Mail Merge 데이터 소스를 프로그래밍 방식으로 생성하거나 수정합니다. Mail Merge 설정 및 데이터 소스를 보존합니다. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Mail Merge 필드 이름을 검색합니다. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
 ## 보고 기능
 

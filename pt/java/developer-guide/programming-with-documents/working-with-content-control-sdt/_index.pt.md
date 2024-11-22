@@ -10,7 +10,7 @@ url: /pt/java/working-with-content-control-sdt/
 timestamp: 2024-01-31-14-23-37
 ---
 
-Em Microsoft Word, você pode criar um formulário iniciando com um modelo e adicionando controles de conteúdo, incluindo caixas de seleção, caixas de texto, data pickers e listas suspensas. Em <span notrans="<span notrans=" Aspose.Words"=""></span>, um documento estruturado Tag ou controle de conteúdo de qualquer documento carregado em Aspose.Words é importado como um nó StructuredDocumentTag. As tags de documentos estruturadas (SDT ou controle de conteúdo) permitem incorporar semântica definida pelo cliente, bem como seu comportamento e aparência em um documento.
+Em Microsoft Word, você pode criar um formulário iniciando com um modelo e adicionando controles de conteúdo, incluindo caixas de seleção, caixas de texto, data pickers e listas suspensas. Em Aspose.Words, um documento estruturado Tag ou controle de conteúdo de qualquer documento carregado em Aspose.Words é importado como um nó StructuredDocumentTag. As tags de documentos estruturadas (SDT ou controle de conteúdo) permitem incorporar semântica definida pelo cliente, bem como seu comportamento e aparência em um documento.
 
 Documento estruturado Tag pode ocorrer em um documento nos seguintes lugares:
 

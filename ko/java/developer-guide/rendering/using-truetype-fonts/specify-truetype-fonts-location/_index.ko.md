@@ -36,7 +36,7 @@ Per-document 인스턴스는 다른 문서의 다른 글꼴 소스를 사용하�
 
 대부분의 경우, Windows 사용자는 놓은 글꼴 또는 잘못된 레이아웃과 중요한 문제를 직면하지 않습니다. 일반적으로, Aspose.Words 문서를 통해 이동하고 글꼴의 링크를 만날 때, 시스템 폴더에서 글꼴 데이터를 성공적으로 fetches.
 
-에 의해 <span notrans="<span notrans=" Windows"=""></span>· Aspose.Words 첫번째는 모두에서 사용할 수 있는 글꼴을 가지고 갑니다 _%windir%\Fonts 폴더. 이 설정은 대부분의 시간 동안 작동합니다. 필요한 경우 자체 글꼴 폴더만 지정합니다. Aspose.Words 또한 추가 글꼴을 찾습니다 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts 등록 키. 또한, Windows 10는 현재 사용자를 위한 글꼴의 임명을 가능하게 합니다. 본문 바로가기 %userprofile%\AppData\Local\Microsoft\Windows\Fonts 폴더도 지정 HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Fonts 레지스트리, 어디에 Aspose.Words 이 글꼴을 찾습니다.
+에 의해 Windows· Aspose.Words 첫번째는 모두에서 사용할 수 있는 글꼴을 가지고 갑니다 _%windir%\Fonts 폴더. 이 설정은 대부분의 시간 동안 작동합니다. 필요한 경우 자체 글꼴 폴더만 지정합니다. Aspose.Words 또한 추가 글꼴을 찾습니다 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts 등록 키. 또한, Windows 10는 현재 사용자를 위한 글꼴의 임명을 가능하게 합니다. 본문 바로가기 %userprofile%\AppData\Local\Microsoft\Windows\Fonts 폴더도 지정 HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Fonts 레지스트리, 어디에 Aspose.Words 이 글꼴을 찾습니다.
 
 문서가 임베디드 글꼴을 포함하면, Aspose.Words 문서의 관련 글꼴 데이터를 읽고 문서의 레이아웃을 만들 수 있습니다. 문서는 시스템 폴더에 있지 않은 글꼴에 대한 링크도 포함 할 수 있습니다, 다음 시나리오가 작동에 올 경우:
 
@@ -51,7 +51,7 @@ Aspose.Words 시스템 글꼴 폴더에 글꼴을 찾습니다. 이 폴더의 �
 
 #### 이름 * Aspose.Words TrueType 글꼴을 찾습니다. Linux
 
-기타 Linux 배포는 다른 폴더에 글꼴을 저장할 수 있습니다. Aspose.Words 몇몇 위치에 있는 글꼴을 찾습니다. 기본적으로, Aspose.Words 뒤에 오는 위치 전부에 있는 글꼴을 찾습니다: * /usr/share/fonts* /usr/local/share/fonts* /usr/X11R6/lib/X11/fonts 이 기본 동작은 대부분의 작업 Linux 배포, 하지만 그것은 보장 되지 않습니다 모든 시간, 어느 경우 당신이의 위치를 지정할 필요가 있는 경우 true 명시적으로 글꼴을 입력합니다. 이렇게하려면 TrueType 글꼴이 설치된 곳을 알아야 합니다. Linux 관련 상품
+기타 Linux 배포는 다른 폴더에 글꼴을 저장할 수 있습니다. Aspose.Words 몇몇 위치에 있는 글꼴을 찾습니다. 기본적으로, Aspose.Words 뒤에 오는 위치 전부에 있는 글꼴을 찾습니다: `/usr/share/fonts` `/usr/local/share/fonts` `/usr/X11R6/lib/X11/fonts` 이 기본 동작은 대부분의 작업 Linux 배포, 하지만 그것은 보장 되지 않습니다 모든 시간, 어느 경우 당신이의 위치를 지정할 필요가 있는 경우 true 명시적으로 글꼴을 입력합니다. 이렇게하려면 TrueType 글꼴이 설치된 곳을 알아야 합니다. Linux 관련 상품
 
 #### 이름 * Aspose.Words Mac OS X에서 TrueType 글꼴을 찾습니다
 

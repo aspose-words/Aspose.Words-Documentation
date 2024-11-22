@@ -14,7 +14,7 @@ Convertendo documentos de um formato para outro é o recurso emblemático de Asp
 
 ## Converter um documento para XLSX
 
-Converter um documento para XLSX é um processo bastante complicado. Para salvar seu documento no formato XLSX usando <span notrans="<span notrans=" Aspose.Words"=""></span>, usar o [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) classe e o novo `Xlsx` elemento no [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) enumeração. Como mencionado acima, você pode salvar o documento em qualquer formato de carga suportado por Aspose.Words para XLSX.
+Converter um documento para XLSX é um processo bastante complicado. Para salvar seu documento no formato XLSX usando Aspose.Words, usar o [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) classe e o novo `Xlsx` elemento no [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) enumeração. Como mencionado acima, você pode salvar o documento em qualquer formato de carga suportado por Aspose.Words para XLSX.
 
 O exemplo a seguir mostra como salvar PDF para XLSX:
 

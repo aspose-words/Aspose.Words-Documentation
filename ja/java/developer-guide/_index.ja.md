@@ -16,7 +16,7 @@ timestamp: 2024-09-25-11-08-55
 
 - - - [ローディング、保存および変換](/words/ja/java/loading-saving-and-converting/) - 文書を1つの形式から別の形式に変換するのに便利な文書やフォーマット固有の機能を読み、保存するさまざまな方法に関する情報を提供します。
 - - - [レンダリング](/words/ja/java/rendering/) - フローレイアウトページ形式で文書からページをパジネーションした表現を取得する方法に関する情報を提供します。
-- - - [Mail Merge そして報告](/words/java/mail-merge-and-reporting/) – テンプレートから、レポート、カタログ、在庫、請求書などのドキュメントを生成する情報を提供します。 mail merge フィールド。
+- - - [Mail Merge そして報告](/words/java/mail-merge-and-reporting/) – テンプレートから、レポート、カタログ、在庫、請求書などのドキュメントを生成する情報を提供します。 Mail Merge フィールド。
 - - - [リンク レポートエンジン](/words/java/linq-reporting-engine/) – レポート機能の拡張セットを使用して、レポートの構築に関する情報を提供します。
 - - - [ドキュメント 外部 ライブラリ](/words/ja/java/print-a-document-programmatically-or-using-dialogs/) – ドキュメントをさまざまな方法で印刷する方法に関する情報を提供し、印刷操作を微調整してカスタムロジックを実行します。
 - - - [ドキュメントのプログラミング](/words/ja/java/programming-with-documents/) – コンテンツと視覚的な外観の変更を含む文書を作成、変更、および管理する方法に関する情報を提供します。

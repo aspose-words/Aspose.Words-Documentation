@@ -41,7 +41,7 @@ Word 문서와 달리 Markdown는 [Aspose.Words Document Object Model (DOM)](/wo
 |  **Italic**<br /> `*italic text*` |  `Font.Italic = true`  |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}}  |  |
 |  **Strikethrough**<br /> `~Strikethrough text~` |  `Font.StrikeThrough = true`  |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
@@ -76,7 +76,7 @@ builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
 |  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`, 여기서 (1&lt;= N &lt;= 9).<br /> 이는 내장 스타일로 변환되며 정확히 지정된 패턴이어야 합니다(접미사 또는 접두사는 허용되지 않음).<br /> 그렇지 않으면 해당 스타일이 있는 일반 단락일 뿐입니다 |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}}  |                                                                |
 |  **Setext Heading**<br /> `===`(제목 수준 1인 경우),<br /> `---`(제목 수준 2인 경우) |  `“Heading N”` 스타일을 기반으로 하는 `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`.<br /> (N &gt;= 2)이면 `“Heading 2”`이 사용되고, 그렇지 않으면 `“Heading 1”`가 사용됩니다.<br /> 모든 접미사가 허용되지만 Aspose.Words 가져오기 도구는 숫자 "1"과 "2"를 각각 사용합니다 |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 builder.ParagraphFormat.StyleName = "Heading 1";
@@ -120,7 +120,7 @@ else
 |  Markdown 기능 |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **Quote**<br /> `> quote,`<br /> `>> nested quote` |  `ParagraphFormat.StyleName = “Quote[some suffix]”`<br /> 스타일 이름의 접미사는 선택 사항이지만 Aspose.Words 가져오기에서는 1, 2, 3, …의 순서 번호를 사용합니다. 중첩된 따옴표의 경우.<br /> 중첩은 상속된 스타일을 통해 정의됩니다 |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // By default a document stores blockquote style for the first level.
@@ -157,7 +157,7 @@ Aspose.Words를 사용하면 아래와 같이 테이블을 DOM로 변환할 수�
 |  Markdown 기능 |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  `Table`<br /> `a|b`<br />`-|-`<br />`c | 디` |  [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) 및 [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) 클래스 |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Add the first row.

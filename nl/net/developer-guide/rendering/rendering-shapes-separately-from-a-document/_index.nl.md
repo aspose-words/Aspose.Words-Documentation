@@ -40,7 +40,7 @@ De hierboven beschreven vormen bieden een speciale methode om de vormen door de 
 
 {{% alert color="primary" %}}
 
-Wanneer een <span notrans="<span notrans=" **Shape**"=""></span>,"> het moet deel uitmaken van de documenthiërarchie. Indien de **Shape** is geen deel van de documentboom dan zal de weergegeven uitvoer leeg zijn na aanroepen **ShapeRenderer** methoden.
+Wanneer een **Shape** het moet deel uitmaken van de documenthiërarchie. Indien de **Shape** is geen deel van de documentboom dan zal de weergegeven uitvoer leeg zijn na aanroepen **ShapeRenderer** methoden.
 
 {{% /alert %}}
 

@@ -41,7 +41,7 @@ Aspose.Words お問い合わせ Android お問い合わせ Java 複数のスレ�
 
 ### 最小限学習曲線
 
-150以上のパブリッククラスとアンモレーションがありますが、 Aspose.Words お問い合わせ Android お問い合わせ <span notrans="<span notrans=" Java"=""></span>????? 学習曲線は最小限です。 Aspose.Words お問い合わせ Android お問い合わせ Java API 次の目標を念頭に置いて設計されている:
+150以上のパブリッククラスとアンモレーションがありますが、 Aspose.Words お問い合わせ Android お問い合わせ Java????? 学習曲線は最小限です。 Aspose.Words お問い合わせ Android お問い合わせ Java API 次の目標を念頭に置いて設計されている:
 
 - 他のよく知られているからベストプラクティスを借りる APIなど Microsoft Word オートメーション
 - 受け入れられる企業からのベストプラクティスを借りる Java そして、 Android デザインガイドライン。

@@ -87,7 +87,7 @@ timestamp: 2024-01-27-14-07-04
 
 ### درج فیلد Mail Merge `ADDRESSBLOCK` در یک سند با استفاده از DOM
 
-فیلد `ADDRESSBLOCK` برای درج بلوک آدرس mail merge در سند Word استفاده می شود. فیلد `ADDRESSBLOCK` در سند Word را می توان با کلاس [FieldAddressBlock](https://reference.aspose.com/words/net/aspose.words.fields/fieldaddressblock/) نشان داد. می توانید از کلاس **FieldAddressBlock** برای انجام عملیات زیر استفاده کنید:
+فیلد `ADDRESSBLOCK` برای درج بلوک آدرس Mail Merge در سند Word استفاده می شود. فیلد `ADDRESSBLOCK` در سند Word را می توان با کلاس [FieldAddressBlock](https://reference.aspose.com/words/net/aspose.words.fields/fieldaddressblock/) نشان داد. می توانید از کلاس **FieldAddressBlock** برای انجام عملیات زیر استفاده کنید:
 
 - مشخص کنید که آیا نام کشور/منطقه در فیلد لحاظ شود یا خیر
 - مشخص کنید که آیا آدرس را بر اساس کشور/منطقه گیرنده که توسط POST*CODE تعریف شده است (اتحادیه پست جهانی 2006) قالب بندی شود یا خیر
@@ -129,7 +129,7 @@ timestamp: 2024-01-27-14-07-04
 
 - نام نشانک را مشخص کنید
 - پاسخ پیش فرض کاربر را مشخص کنید (مقدار اولیه موجود در پنجره درخواست)
-- مشخص کنید که آیا پاسخ کاربر باید یک بار در هر عملیات mail merge دریافت شود یا خیر
+- مشخص کنید که آیا پاسخ کاربر باید یک بار در هر عملیات Mail Merge دریافت شود یا خیر
 - متن درخواست را مشخص کنید (عنوان پنجره درخواست)
 
 {{% alert color="primary" %}}

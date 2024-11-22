@@ -26,7 +26,7 @@ Die volgende kode voorbeeld toon hoe om persoonlike formatering vir die veld res
 
 ## Hoe om `IF` toestand te evalueer
 
-As jy `IF` toestand na mail merge wil evalueer, kan jy die [EvaluateCondition](https://reference.aspose.com/words/net/aspose.words.fields/fieldif/evaluatecondition/) metode gebruik wat onmiddellik die resultaat van die uitdrukking evaluering teruggee.
+As jy `IF` toestand na Mail Merge wil evalueer, kan jy die [EvaluateCondition](https://reference.aspose.com/words/net/aspose.words.fields/fieldif/evaluatecondition/) metode gebruik wat onmiddellik die resultaat van die uitdrukking evaluering teruggee.
 
 Die volgende kode voorbeeld toon hoe om hierdie metode te gebruik:
 

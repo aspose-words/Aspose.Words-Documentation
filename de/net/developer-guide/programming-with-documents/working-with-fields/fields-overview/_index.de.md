@@ -223,6 +223,6 @@ Andererseits formatiert Microsoft Word jedes einzelne Feld basierend auf der Spr
 
 Die [Document](https://reference.aspose.com/words/de/net/aspose.words/document/)-Klasse stellt eine [FieldOptions](https://reference.aspose.com/words/de/net/aspose.words/document/fieldoptions/)-Eigenschaft bereit, die Mitglieder enthält, mit denen gesteuert werden kann, wie Felder im Dokument aktualisiert werden.
 
-Das folgende Codebeispiel zeigt, wie Sie angeben, wo die für die Datumsformatierung während der Feldaktualisierung und mail merge verwendete Kultur ausgewählt wird:
+Das folgende Codebeispiel zeigt, wie Sie angeben, wo die für die Datumsformatierung während der Feldaktualisierung und Mail Merge verwendete Kultur ausgewählt wird:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-ChangeFieldUpdateCultureSource-ChangeFieldUpdateCultureSource.cs" >}}

@@ -41,14 +41,14 @@ We gebruiken [Font](https://reference.aspose.com/words/net/aspose.words/font/) f
 |  **Italic**<br/>`*italic text*` |  `Font.Italic = true`  |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}}  |  |
 |  **Strikethrough**<br/>`~Strikethrough text~` |  `Font.StrikeThrough = true`  |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
 builder.Font.Strikethrough = true;
 builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
 
-We gebruiken een karakterstijl met een naam die begint vanaf het woord <span notrans="<span notrans=" `InlineCode`"=""></span>,"> gevolgd door een optionele stip `(.)` en een aantal backticks ```(`)``` voor de `InlineCode` feature. Als een aantal backticks wordt gemist, wordt standaard één backtick gebruikt.
+We gebruiken een karakterstijl met een naam die begint vanaf het woord `InlineCode` gevolgd door een optionele stip `(.)` en een aantal backticks ```(`)``` voor de `InlineCode` feature. Als een aantal backticks wordt gemist, wordt standaard één backtick gebruikt.
 
 |  Markdown functie |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |
@@ -76,7 +76,7 @@ De tabel hieronder toont voorbeelden van gebruik Markdown Bladblokken in Aspose.
 |  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`, waarbij (1< = N <= 9).<br/>Dit wordt vertaald in een ingebouwde stijl en moet precies van het opgegeven patroon zijn (er zijn geen achtervoegsels of voorvoegsels toegestaan).<br/>Anders wordt het gewoon een gewone paragraaf met een overeenkomstige stijl |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}}  |                                                                |
 |  **Setext Heading**<br/>`===` (voor rubriek 1),<br/>`---` (als rubriek 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, gebaseerd op `“Heading N”` stijl.<br/>Indien (N >= 2), dan `“Heading 2”` zal worden gebruikt, anders `“Heading 1”`.<br/>Elk achtervoegsel is toegestaan, maar Aspose.Words De importeur gebruikt respectievelijk de nummers |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 builder.ParagraphFormat.StyleName = "Heading 1";
@@ -120,7 +120,7 @@ De tabel hieronder toont voorbeelden van gebruik Markdown Complexe containers in
 |  Markdown functie |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **Quote**<br/>`> quote,`<br/>`>> nested quote` |  `ParagraphFormat.StyleName = “Quote[some suffix]”`<br/>Het achtervoegsel in stijlnaam is optioneel, maar Aspose.Words importeur gebruikt de bestelde nummers 1, 2, 3, .... in het geval van geneste citaten.<br/>Het nest wordt gedefinieerd via de geërfde stijlen |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // By default a document stores blockquote style for the first level.
@@ -157,7 +157,7 @@ Aspose.Words ook kunt vertalen tabellen in DOM, zoals hieronder aangegeven:
 |  Markdown functie |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  `Table`<br/> | b`<br />`-|-`<br />`c|d Wat? |  [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) en [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) lessen |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Add the first row.

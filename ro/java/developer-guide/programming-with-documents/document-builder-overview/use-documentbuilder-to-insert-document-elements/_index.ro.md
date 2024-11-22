@@ -153,7 +153,7 @@ Clienții pot specifica acum Locale la nivel de câmp și pot obține un control
 
 ## Inserarea HTML
 
-Puteți introduce cu ușurință un șir HTML care conține un fragment HTML sau un document întreg HTML în documentul Word. Doar treceți acest șir la DocumentBuilder.insertHtml metodă. Una dintre implementările utile ale metodei este stocarea unui șir HTML într-o bază de date și inserarea acestuia în document în timpul mail merge pentru a adăuga conținutul formatat în loc să-l construiască folosind diferite metode ale constructorului de documente. Următorul exemplu de cod prezintă inserturi HTML într-un document folosind DocumentBuilder.
+Puteți introduce cu ușurință un șir HTML care conține un fragment HTML sau un document întreg HTML în documentul Word. Doar treceți acest șir la DocumentBuilder.insertHtml metodă. Una dintre implementările utile ale metodei este stocarea unui șir HTML într-o bază de date și inserarea acestuia în document în timpul Mail Merge pentru a adăuga conținutul formatat în loc să-l construiască folosind diferite metode ale constructorului de documente. Următorul exemplu de cod prezintă inserturi HTML într-un document folosind DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHtml-DocumentBuilderInsertHtml.java" >}}
 

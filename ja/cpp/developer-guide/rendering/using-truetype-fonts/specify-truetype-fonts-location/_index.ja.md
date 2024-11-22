@@ -57,7 +57,7 @@ WindowsとWindows以外のOSのフォントメトリックは異なるため、A
 
 #### ここでAspose.WordsはLinuxのTrueTypeフォントを探します
 
-Linuxディストリビューションが異なれば、フォントを異なるフォルダに格納することがあります。 Aspose.Words複数の場所でフォントを探します。 デフォルトでは、Aspose.Wordsは以下のすべての場所でフォントを探します。*/usr/share/fonts*/usr/local/share/fonts*/usr/X11R6/lib/X11/fontsThisデフォルトの動作はほとんどのLinuxディストリビューションで これを行うには、TrueTypeフォントがLinuxディストリビューションのどこにインストールされているかを知る必要があります。
+Linuxディストリビューションが異なれば、フォントを異なるフォルダに格納することがあります。 Aspose.Words複数の場所でフォントを探します。 デフォルトでは、Aspose.Wordsは以下のすべての場所でフォントを探します。`/usr/share/fonts` `/usr/local/share/fonts` `/usr/X11R6/lib/X11/fonts`. Thisデフォルトの動作はほとんどのLinuxディストリビューションで これを行うには、TrueTypeフォントがLinuxディストリビューションのどこにインストールされているかを知る必要があります。
 
 #### Mac OS XでAspose.WordsがTrueTypeフォントを探す場所
 

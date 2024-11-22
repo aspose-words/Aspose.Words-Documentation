@@ -19,7 +19,7 @@ Cuando se carga un documento, Aspose.Words imita el comportamiento de Microsoft 
 - cuando abres/guardas un documento, los campos permanecen intactos
 - puede actualizar explícitamente todos los campos de un documento (por ejemplo, reconstruir TOC) cuando lo necesite
 - cuando imprime/renderiza en PDF o XPS, los campos relacionados con la numeración de páginas en encabezados/pies de página se actualizan
-- cuando ejecuta mail merge todos los campos se actualizan automáticamente
+- cuando ejecuta Mail Merge todos los campos se actualizan automáticamente
 
 ### Actualizar campos mediante programación
 
@@ -43,7 +43,7 @@ Puede descargar el archivo de muestra de este ejemplo desde [Aspose.Words GitHub
 
 ### Actualización automática de campo durante Mail Merge
 
-Cuando ejecuta un mail merge, todos los campos del documento se actualizarán automáticamente. Esto se debe a que el mail merge es un caso de actualización de campo. El programa encuentra un campo mail merge y necesita actualizar su resultado, lo que implica tomar el valor de la fuente de datos e insertarlo en el campo. Por supuesto, la lógica es más complicada, por ejemplo, cuando se llega al final del documento/región mail merge pero todavía hay más datos por fusionar, entonces es necesario duplicar la región y actualizar el nuevo conjunto de campos.
+Cuando ejecuta un mail merge, todos los campos del documento se actualizarán automáticamente. Esto se debe a que el Mail Merge es un caso de actualización de campo. El programa encuentra un campo Mail Merge y necesita actualizar su resultado, lo que implica tomar el valor de la fuente de datos e insertarlo en el campo. Por supuesto, la lógica es más complicada, por ejemplo, cuando se llega al final del documento/región Mail Merge pero todavía hay más datos por fusionar, entonces es necesario duplicar la región y actualizar el nuevo conjunto de campos.
 
 ## Actualizar campos que tienen atributos sucios
 

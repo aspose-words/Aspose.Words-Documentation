@@ -41,7 +41,7 @@ Ons gebruik [Font](https://reference.aspose.com/words/net/aspose.words/font/) fo
 | **Italic**<br />`*italic text*` | `Font.Italic = true` |
 | {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}} |  |
 | **Strikethrough**<br />`~Strikethrough text~` | `Font.StrikeThrough = true` |
-| {{< highlight csharp >}}// Use a document builder to add content to the document.
+| {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
@@ -76,7 +76,7 @@ Die tabel hieronder toon voorbeelde van die gebruik van Markdown Blaarblokke in 
 | **ATX Heading**<br />`# H1, ## H2, ### H3…` | `ParagraphFormat.StyleName = "Heading N"`, waar (1<= N <= 9).<br />Dit word in'n ingeboude styl vertaal en moet presies van die gespesifiseerde patroon wees (geen agtervoegsels of voorvoegsels word toegelaat nie).<br />Andersins sal dit net'n gewone paragraaf met'n ooreenstemmende styl wees. |
 | {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}} |  |
 | **Setext Heading**<br />`===` (if Heading level 1),<br />`---` (if Heading level 2) | `ParagraphFormat.StyleName = "SetextHeading[some suffix]"`, gebaseer op `"Heading N"` styl.<br />As (n >= 2), dan sal `"Heading 2"` gebruik word, anders sal `"Heading 1"`.<br />Enige agtervoegsel word toegelaat, maar Aspose.Words invoerder gebruik getalle "1" en "2" onderskeidelik. |
-| {{< highlight csharp >}}// Use a document builder to add content to the document.
+| {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 builder.ParagraphFormat.StyleName = "Heading 1";
@@ -120,7 +120,7 @@ Die tabel hieronder toon voorbeelde van die gebruik van Markdown Komplekse Houer
 | Markdown kenmerk | Aspose.Words |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Quote**<br />`> quote,`<br />`>> nested quote` | `ParagraphFormat.StyleName = "Quote[some suffix]"`<br />die agtervoegsel in styl naam is opsioneel, maar Aspose.Words invoerder gebruik die geordende getalle 1, 2, 3, .... in die geval van geneste aanhalings.<br />Die nes word gedefinieer deur die oorgeërfde style. |
-| {{< highlight csharp >}}// Use a document builder to add content to the document.
+| {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // By default a document stores blockquote style for the first level.
@@ -157,7 +157,7 @@ Aspose.Words laat ook toe om tabelle te vertaal in DOM, soos hieronder getoon:
 | Markdown kenmerk | Aspose.Words |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | `Table`<br />`a|b`<br />`-|-`<br />`c|d` | [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) en [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) klasse. |
-| {{< highlight csharp >}}// Use a document builder to add content to the document.
+| {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Add the first row.

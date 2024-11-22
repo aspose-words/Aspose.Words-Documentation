@@ -129,7 +129,7 @@ Word文档中的`MERGEFIELD`字段可以用[FieldMergeField](https://reference.a
 
 - 指定书签的名称
 - 指定默认用户响应（提示窗口中包含的初始值）
-- 指定每个 mail merge 操作是否应接收一次用户响应
+- 指定每个 Mail Merge 操作是否应接收一次用户响应
 - 指定提示文本（提示窗口的标题）
 
 {{% alert color="primary" %}}

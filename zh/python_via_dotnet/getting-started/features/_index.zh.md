@@ -109,16 +109,16 @@ Aspose.Words 提供对所有文档元素的格式属性的详细编程访问。
 
 |  特征 | Python via .NET |
 |  :-  |  :-  |
-| 在报告中使用所有标准 Microsoft Word mail merge 字段，包括 `MERGEFIELD`、`NEXT`、`NEXTIF`、`ADDRESSBLOCK`、GREETINGLINE。 | {{< emoticons/tick >}} |
+| 在报告中使用所有标准 Microsoft Word Mail Merge 字段，包括 `MERGEFIELD`、`NEXT`、`NEXTIF`、`ADDRESSBLOCK`、GREETINGLINE。 | {{< emoticons/tick >}} |
 | 对包含最复杂和嵌套的 `IF` 字段和公式的文档执行 mail merge。 | {{< emoticons/tick >}} |
-| 使用 mail merge 区域从数据源填充并动态增长文档中的表或片段。 | {{< emoticons/cross >}} |
+| 使用 Mail Merge 区域从数据源填充并动态增长文档中的表或片段。 | {{< emoticons/cross >}} |
 | 轻松生成包含主从（父子）数据（例如订单/订单详细信息）的报告。 | {{< emoticons/cross >}} |
 | 使用来自任何 .NET 数据源（例如 DataSet、DataTable、DataView、DataReader 或 ADO Recordset）的数据填充文档。 | {{< emoticons/cross >}} |
 | 通过实现 [IMailMergeDataSource](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/imailmergedatasource/) 接口，从任何数据源（例如 LINQ 查询、XML 文件或业务对象）填充文档。 | {{< emoticons/cross >}} |
 | 使用事件对数据合并方式进行精确控制，例如数字格式。 | {{< emoticons/cross >}} |
-| 在 mail merge 期间插入图像。 | {{< emoticons/tick >}} |
-| 以编程方式创建或修改文档的 Microsoft Word mail merge 数据源。保留 mail merge 设置和数据源。 | {{< emoticons/tick >}} |
-| 检索 mail merge 字段名称。 | {{< emoticons/tick >}} |
+| 在 Mail Merge 期间插入图像。 | {{< emoticons/tick >}} |
+| 以编程方式创建或修改文档的 Microsoft Word Mail Merge 数据源。保留 Mail Merge 设置和数据源。 | {{< emoticons/tick >}} |
+| 检索 Mail Merge 字段名称。 | {{< emoticons/tick >}} |
 
 ## 报告功能
 

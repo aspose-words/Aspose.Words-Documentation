@@ -14,7 +14,7 @@ timestamp: 2024-01-31-14-23-37
 
 ## 将文档转换为 XLSX
 
-将文档转换为 XLSX 是一个相当复杂的过程. 要将文档保存到 XLSX 格式 <span notrans="<span notrans=" Aspose.Words"=""></span>",> 使用 [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) 类和新 `Xlsx` 图标 [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) 计数. 如上所述,您可以将文档保存在支持的任何负载格式中 Aspose.Words 呼叫XLSX,请回答
+将文档转换为 XLSX 是一个相当复杂的过程. 要将文档保存到 XLSX 格式 Aspose.Words 使用 [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) 类和新 `Xlsx` 图标 [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) 计数. 如上所述,您可以将文档保存在支持的任何负载格式中 Aspose.Words 呼叫XLSX,请回答
 
 以下代码示例显示如何将 PDF 保存到 XLSX:
 

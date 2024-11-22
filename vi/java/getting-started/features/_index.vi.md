@@ -122,16 +122,16 @@ Bạn có thể sử dụng Aspose.Words như là một giải pháp báo cáo t
 
 | Tính năng |
 | :- |
-| Sử dụng tất cả các trường tiêu chuẩn Microsoft Word mail merge trong báo cáo của bạn bao gồm `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. |
-| Thực thi mail merge cho các tài liệu chứa ngay cả những trường và công thức `IF` phức tạp và lồng nhau nhất. |
-| Điền vào và tăng trưởng động các bảng hoặc đoạn trong tài liệu từ nguồn dữ liệu của bạn sử dụng mail merge khu vực. |
+| Sử dụng tất cả các trường tiêu chuẩn Microsoft Word Mail Merge trong báo cáo của bạn bao gồm `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. |
+| Thực thi Mail Merge cho các tài liệu chứa ngay cả những trường và công thức `IF` phức tạp và lồng nhau nhất. |
+| Điền vào và tăng trưởng động các bảng hoặc đoạn trong tài liệu từ nguồn dữ liệu của bạn sử dụng Mail Merge khu vực. |
 | Tạo báo cáo dễ dàng chứa dữ liệu bậc thầy - chi tiết (cha mẹ - con) như đơn hàng / chi tiết đơn hàng. |
 | Lấp đầy tài liệu bằng dữ liệu từ bất kỳ nguồn Java nào thực hiện giao diện `ResultSet`. |
 | Lấp đầy tài liệu từ bất kỳ nguồn dữ liệu nào như một tập tin XML hoặc đối tượng kinh doanh bằng cách thực hiện **IMailMergeDataSource** giao diện. |
 | Lấy quyền kiểm soát chính xác, chẳng hạn như định dạng số, về cách dữ liệu của bạn được hợp nhất sử dụng các sự kiện. |
 | Điền hình ảnh trong một mail merge. |
-| Tạo hoặc thay đổi một nguồn dữ liệu Microsoft Word mail merge cho tài liệu. Bảo tồn mail merge thiết lập và nguồn dữ liệu. |
-| Lấy lại mail merge tên trường. |
+| Tạo hoặc thay đổi một nguồn dữ liệu Microsoft Word Mail Merge cho tài liệu. Bảo tồn Mail Merge thiết lập và nguồn dữ liệu. |
+| Lấy lại Mail Merge tên trường. |
 
 ## Tính năng báo cáo
 

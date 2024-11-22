@@ -43,7 +43,7 @@ timestamp: 2024-10-21-11-17-44
 |  **Strikethrough**<br/>`~Strikethrough text~` |  `Font.StrikeThrough = true`  |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Strikethrough.java" >}}  |  |
 
-We use a mode play with a name that start from the word We use language we use a languages with a names from the word <span notrans="<span notrans=" `InlineCode`"=""></span>'"> ตามด้วยจุดทางเลือก `(.)` และเป็นกลุ่มชนจํานวนน้อย ```(`)``` สําหรับ `InlineCode` โดดเด่น หากไม่มีการใช้งานแบ็คติกอยู่จํานวนหนึ่ง จะเป็นการโดยปริยายแทน
+We use a mode play with a name that start from the word We use language we use a languages with a names from the word `InlineCode`'"> ตามด้วยจุดทางเลือก `(.)` และเป็นกลุ่มชนจํานวนน้อย ```(`)``` สําหรับ `InlineCode` โดดเด่น หากไม่มีการใช้งานแบ็คติกอยู่จํานวนหนึ่ง จะเป็นการโดยปริยายแทน
 
 |  Markdown คุณสมบัติ |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |

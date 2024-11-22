@@ -41,7 +41,7 @@ timestamp: 2024-10-21-11-17-44
 |  **Italic**<br /> `*italic text*` |  `Font.Italic = true`  |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}}  |  |
 |  **Strikethrough**<br /> `~Strikethrough text~` |  `Font.StrikeThrough = true`  |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
@@ -76,7 +76,7 @@ builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
 |  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`، جایی که (1&lt;= N &lt;= 9).<br /> این به یک سبک داخلی ترجمه شده است و باید دقیقاً از الگوی مشخص شده باشد (هیچ پسوند یا پیشوند مجاز نیست).<br /> در غیر این صورت، فقط یک پاراگراف معمولی با سبک مربوطه خواهد بود |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}}  |                                                                |
 |  **Setext Heading**<br /> `===` (اگر عنوان سطح 1)،<br /> `---` (اگر عنوان سطح 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`، بر اساس سبک `“Heading N”`.<br /> اگر (N &gt;= 2)، از `“Heading 2”` استفاده می شود، در غیر این صورت `“Heading 1”`.<br /> هر پسوندی مجاز است، اما واردکننده Aspose.Words به ترتیب از اعداد "1" و "2" استفاده می کند |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 builder.ParagraphFormat.StyleName = "Heading 1";
@@ -120,7 +120,7 @@ else
 |  ویژگی Markdown |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **Quote**<br /> `> quote,`<br /> `>> nested quote` |  `ParagraphFormat.StyleName = “Quote[some suffix]”`<br /> پسوند در نام سبک اختیاری است، اما واردکننده Aspose.Words از اعداد مرتب شده 1، 2، 3، ... استفاده می کند. در صورت نقل قول های تو در تو<br /> تودرتو از طریق سبک های ارثی تعریف می شود |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // By default a document stores blockquote style for the first level.
@@ -157,7 +157,7 @@ Aspose.Words همچنین اجازه می دهد تا جداول را به DOM �
 |  ویژگی Markdown |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  `Table`<br /> "الف | b`<br />`-|-`<br />`c|d` |  کلاس های [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/)، [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) و [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Add the first row.

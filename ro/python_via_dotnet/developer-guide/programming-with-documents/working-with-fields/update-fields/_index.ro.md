@@ -19,7 +19,7 @@ Când un document este încărcat, Aspose.Words imită comportamentul Microsoft 
 - când deschideți/salvați un document, câmpurile rămân intacte
 - puteți actualiza în mod explicit toate câmpurile dintr-un document (de exemplu, reconstrui TOC) atunci când trebuie să
 - când imprimați / randați în PDF sau XPS câmpurile legate de numerotarea paginilor în anteturi / subsoluri sunt actualizate
-- când executați mail merge toate câmpurile sunt actualizate automat
+- când executați Mail Merge toate câmpurile sunt actualizate automat
 
 ### Actualizați Câmpurile Programatic
 
@@ -43,7 +43,7 @@ Puteți descărca fișierul eșantion al acestui exemplu din [Aspose.Words GitHu
 
 ### Actualizare Automată A Câmpului În Timpul Mail Merge
 
-Când executați un mail merge, toate câmpurile din document vor fi actualizate automat. Acest lucru se datorează faptului că mail merge este un caz de actualizare a câmpului. Programul întâlnește un câmp mail merge și trebuie să-și actualizeze rezultatul, ceea ce implică preluarea valorii din sursa de date și introducerea acesteia în câmp. Logica este, desigur, mai complicată, de exemplu, atunci când se ajunge la sfârșitul regiunii document/mail merge, dar mai sunt încă date de îmbinat, atunci Regiunea trebuie duplicată și Noul set de câmpuri actualizat.
+Când executați un mail merge, toate câmpurile din document vor fi actualizate automat. Acest lucru se datorează faptului că Mail Merge este un caz de actualizare a câmpului. Programul întâlnește un câmp Mail Merge și trebuie să-și actualizeze rezultatul, ceea ce implică preluarea valorii din sursa de date și introducerea acesteia în câmp. Logica este, desigur, mai complicată, de exemplu, atunci când se ajunge la sfârșitul regiunii document/mail merge, dar mai sunt încă date de îmbinat, atunci Regiunea trebuie duplicată și Noul set de câmpuri actualizat.
 
 ## Actualizați Câmpurile Cu Atribut Murdar
 

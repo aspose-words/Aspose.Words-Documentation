@@ -53,7 +53,7 @@ Následující příklad kódu ukazuje, jak kompletně obnovit `TOC` pole v doku
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertTOC-UpdateFields.cs" >}}
 
-První výzva **UpdateFields** bude stavět <span notrans="<span notrans=" `TOC`"=""></span>,? všechny textové záznamy jsou obsazeny a `TOC` Vypadá to skoro kompletní. Jediné, co chybí, jsou čísla stránek, které jsou nyní zobrazeny s?? Druhý hovor **UpdatePageLayout** vytvoří uspořádání dokumentu v paměti. To je třeba udělat pro shromažďování čísel stránek položek. Správná čísla stránek vypočtená z tohoto hovoru se pak vkládají do TOC.
+První výzva **UpdateFields** bude stavět `TOC`,? všechny textové záznamy jsou obsazeny a `TOC` Vypadá to skoro kompletní. Jediné, co chybí, jsou čísla stránek, které jsou nyní zobrazeny s?? Druhý hovor **UpdatePageLayout** vytvoří uspořádání dokumentu v paměti. To je třeba udělat pro shromažďování čísel stránek položek. Správná čísla stránek vypočtená z tohoto hovoru se pak vkládají do TOC.
 
 ## Použít přepínače k ovládání obsahu Chování
 

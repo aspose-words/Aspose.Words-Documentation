@@ -43,7 +43,7 @@ Kami menggunakan [Font](https://reference.aspose.com/words/java/com.aspose.words
 |  **Strikethrough**<br/>`~Strikethrough text~` |  `Font.StrikeThrough = true`  |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Strikethrough.java" >}}  |  |
 
-Kami menggunakan gaya karakter dengan nama yang dimulai dari kata <span notrans="<span notrans=" `InlineCode`"=""></span>Sitemap diikuti oleh titik opsional `(.)` dan sejumlah backticks ```(`)``` Sitemap `InlineCode` Sitemap Jika sejumlah backticks terjawab, maka satu backtick akan digunakan secara default.
+Kami menggunakan gaya karakter dengan nama yang dimulai dari kata `InlineCode`Sitemap diikuti oleh titik opsional `(.)` dan sejumlah backticks ```(`)``` Sitemap `InlineCode` Sitemap Jika sejumlah backticks terjawab, maka satu backtick akan digunakan secara default.
 
 |  Markdown Sitemap |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |

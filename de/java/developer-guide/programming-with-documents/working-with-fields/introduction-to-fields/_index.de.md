@@ -37,7 +37,7 @@ Hier eine Ansicht, wie ein Feld in Aspose.Words unter Verwendung des Beispiels "
 
 ## Felder in Aspose.Words Document Object Model (DOM)
 
-Wenn ein Dokument geladen wird <span notrans="<span notrans=" Aspose.Words"=""></span>,"> die Felder des Dokuments in die Aspose.Words Document Object Model als Set von separaten Komponenten (Nodes). Ein einzelnes Feld wird als Sammlung geladen **FieldStart**, **FieldSeparator** und **FieldEnd** Knoten zusammen mit dem Inhalt zwischen diesen Knoten. Wenn ein Feld kein Feldergebnis hat, dann gibt es keine **FieldSeparator** Knoten. Alle diese Knoten finden sich immer inline (als Kinder von [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) oder [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/).
+Wenn ein Dokument geladen wird Aspose.Words die Felder des Dokuments in die Aspose.Words Document Object Model als Set von separaten Komponenten (Nodes). Ein einzelnes Feld wird als Sammlung geladen **FieldStart**, **FieldSeparator** und **FieldEnd** Knoten zusammen mit dem Inhalt zwischen diesen Knoten. Wenn ein Feld kein Feldergebnis hat, dann gibt es keine **FieldSeparator** Knoten. Alle diese Knoten finden sich immer inline (als Kinder von [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) oder [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/).
 
 In Aspose.Words jeder der **FieldXXX** Nodes ergibt sich aus [FieldChar](https://reference.aspose.com/words/java/com.aspose.words/fieldchar/). Diese Klasse bietet eine Eigenschaft, um die Art des Feldes, das durch den angegebenen Knoten durch die [FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) Eigentum. Zum Beispiel `FieldType.FieldMergeField` stellt ein Zusammenführungsfeld im Dokument dar.
 
@@ -174,9 +174,9 @@ Aspose.Words unterstützt alle verfügbaren Datums- und Zeitformatierungsschalte
 
 ### Mail Merge Felder
 
-Aspose.Words die Komplexität der mail merge Felder in Ihren Dokumenten und Supports geschachtelt `IF` und Formelfelder und kann sogar den Namen des Zusammenschlussfelds mit einer Formel berechnen.
+Aspose.Words die Komplexität der Mail Merge Felder in Ihren Dokumenten und Supports geschachtelt `IF` und Formelfelder und kann sogar den Namen des Zusammenschlussfelds mit einer Formel berechnen.
 
-Einige Beispiele mail merge Felder, die Aspose.Words unterstützt:
+Einige Beispiele Mail Merge Felder, die Aspose.Words unterstützt:
 
 - Ja. Mail merge Feldschalter:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -223,6 +223,6 @@ Auf der anderen Seite, Microsoft Word formatiert jedes einzelne Feld basierend a
 
 Die [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) Klasse bietet [FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/document/#getFieldOptions) eine Eigenschaft, die Mitglieder enthält, die verwendet werden können, um zu kontrollieren, wie Felder innerhalb des Dokuments aktualisiert werden.
 
-Das folgende Codebeispiel zeigt, wie die für die Datumsformatierung verwendete Kultur während des Feldupdates angegeben wird und mail merge wird gewählt aus:
+Das folgende Codebeispiel zeigt, wie die für die Datumsformatierung verwendete Kultur während des Feldupdates angegeben wird und Mail Merge wird gewählt aus:
 
 Beispiel

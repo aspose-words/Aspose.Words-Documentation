@@ -19,7 +19,7 @@ Jetzt die Funktionalität für die Arbeit mit dem Markdown Format wird aktiv ent
 
 ## Dokument umrechnen Markdown
 
-Um ein Dokument zu konvertieren <span notrans="<span notrans=" Markdown"=""></span>,"> Sie müssen nur ein Dokument in jedem unterstützten Format laden oder ein neues Programm erstellen. Dann müssen Sie das Dokument speichern, Markdown Format.
+Um ein Dokument zu konvertieren Markdown Sie müssen nur ein Dokument in jedem unterstützten Format laden oder ein neues Programm erstellen. Dann müssen Sie das Dokument speichern, Markdown Format.
 
 Das folgende Codebeispiel zeigt, wie man DOCX in Markdown:
 
@@ -59,5 +59,5 @@ Das Ergebnis dieses Codebeispiels ist unten dargestellt.
 
 Es gibt mehrere Nuancen und interessante Fälle, haben gelernt, mit denen Sie arbeiten können Markdown Dateien flexibler und bequemer. Zum Beispiel gibt es die Möglichkeit zu verwenden:
 
-* SetextHeading, mit dem Sie Multi-Line-Überschriften in <span notrans="<span notrans=" Markdown"=""></span>,"> während reguläre Rubriken in Markdown kann nur einzeilig sein. SetextHeading basiert auf einem "Heading N"-Stil, und seine Ebene kann nur 1 oder 2 sein. Ist N in "Heading N" größer oder gleich 2, so basiert das entsprechende Setext-Heading auf "Heading 2", ansonsten auf "Heading 1".
+* SetextHeading, mit dem Sie Multi-Line-Überschriften in Markdown während reguläre Rubriken in Markdown kann nur einzeilig sein. SetextHeading basiert auf einem "Heading N"-Stil, und seine Ebene kann nur 1 oder 2 sein. Ist N in "Heading N" größer oder gleich 2, so basiert das entsprechende Setext-Heading auf "Heading 2", ansonsten auf "Heading 1".
 * Unterschiedliche Marker für die erste Ebene der geschossenen Listen ("-", "+" oder "*", der Standardmarker ist "-".) und verschiedene Arten der Nummerierung für geordnete Listen ("." oder "), der Standardmarker ist ".

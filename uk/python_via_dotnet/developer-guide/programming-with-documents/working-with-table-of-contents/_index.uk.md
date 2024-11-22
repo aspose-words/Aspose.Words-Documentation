@@ -51,7 +51,7 @@ Aspose.Words дозволяє повністю оновлювати оновле
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-add_content_using_document_builder-UpdateFields.py" >}}
 
-Перший дзвінок [Document.update_fields](https://reference.aspose.com/words/python-net/aspose.words/document/update_fields/) побудувати <span notrans="<span notrans=" `TOC`"=""></span>, > всі текстові записи заселені і `TOC` з'являється практично повністю. Єдине, що не вистачає сторінок, які зараз відображаються з "?". Другий виклик [Document.update_page_layout](https://reference.aspose.com/words/python-net/aspose.words/document/update_page_layout/) побудувати макет документа в пам'яті. Для збирання номерів сторінок. Виправте номери сторінок, розраховані з цього виклику, потім вставляються в TOC.
+Перший дзвінок [Document.update_fields](https://reference.aspose.com/words/python-net/aspose.words/document/update_fields/) побудувати `TOC`, > всі текстові записи заселені і `TOC` з'являється практично повністю. Єдине, що не вистачає сторінок, які зараз відображаються з "?". Другий виклик [Document.update_page_layout](https://reference.aspose.com/words/python-net/aspose.words/document/update_page_layout/) побудувати макет документа в пам'яті. Для збирання номерів сторінок. Виправте номери сторінок, розраховані з цього виклику, потім вставляються в TOC.
 
 ## Використовуйте перемикачі для управління поведінкою змісту.
 

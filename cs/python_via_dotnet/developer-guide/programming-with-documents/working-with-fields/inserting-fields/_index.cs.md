@@ -86,7 +86,7 @@ Následující příklad kódu ukazuje, jak přidat a `Merge` Použití pole DOM
 
 ### Vkládání Mail Merge `ADDRESSBLOCK` pole do dokumentu pomocí DOM
 
-• `ADDRESSBLOCK` a mail merge blok adres v dokumentu Word. `ADDRESSBLOCK` pole v dokumentu Word může být reprezentováno [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) třída. Můžete použít [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) třída provádět tyto operace:
+• `ADDRESSBLOCK` a Mail Merge blok adres v dokumentu Word. `ADDRESSBLOCK` pole v dokumentu Word může být reprezentováno [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) třída. Můžete použít [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) třída provádět tyto operace:
 
 - uveďte, zda má být název země/regionu zařazen do pole
 - uveďte, zda má být adresa zformátována podle země/regionu příjemce podle definice POST*CODE (Universal Post Union 2006)
@@ -116,7 +116,7 @@ Následující příklad kódu ukazuje, jak přidat `ADVANCE` Použití pole DOM
 
 - uveďte název záložky
 - zadat výchozí uživatelskou odpověď (počáteční hodnota obsažená v okně nápovědy)
-- určí, zda má být odpověď uživatele obdržena jednou za mail merge provoz
+- určí, zda má být odpověď uživatele obdržena jednou za Mail Merge provoz
 - zadat rychlý text (název rychlého okna)
 
 Následující příklad kódu ukazuje, jak přidat `ASK` Použití pole DOM k odstavci v dokumentu:

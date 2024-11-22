@@ -86,7 +86,7 @@ timestamp: 2024-09-25-11-08-55
 
 ### Вмъкване Mail Merge `ADDRESSBLOCK` поле в документ, използващ DOM
 
-На `ADDRESSBLOCK` поле се използва за вмъкване на mail merge адресен блок в Word документ. `ADDRESSBLOCK` полето в документа на Word може да бъде представено от [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) Клас. Можеш да използваш [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) клас за извършване на следните операции:
+На `ADDRESSBLOCK` поле се използва за вмъкване на Mail Merge адресен блок в Word документ. `ADDRESSBLOCK` полето в документа на Word може да бъде представено от [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) Клас. Можеш да използваш [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) клас за извършване на следните операции:
 
 - посочва дали да се включи наименованието на страната/региона в областта
 - да се уточни дали да се форматира адресът в съответствие с държавата/региона на получателя, определен от POST*CODE (Универсален пощенски съюз 2006)
@@ -116,7 +116,7 @@ timestamp: 2024-09-25-11-08-55
 
 - посочете името на отметките
 - посочете отговора на потребителя по подразбиране (първоначална стойност, съдържаща се в бързия прозорец)
-- посочете дали потребителският отговор трябва да се получава веднъж на седмица mail merge операция
+- посочете дали потребителският отговор трябва да се получава веднъж на седмица Mail Merge операция
 - да се посочи бърз текст (титуляр на бърз прозорец)
 
 Следният пример с код показва как да добавите `ASK` Използване на поле DOM на параграф в документ:

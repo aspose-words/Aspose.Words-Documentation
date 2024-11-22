@@ -4,19 +4,19 @@ second_title: Aspose.Words pentru Java
 articleTitle: Cum se aplică logica personalizată Regiunilor Nemergate
 linktitle: Cum se aplică logica personalizată Regiunilor Nemergate
 type: docs
-description: "Aplicați logica personalizată regiunilor nemergate în timpul unei operații mail merge folosind Java."
+description: "Aplicați logica personalizată regiunilor nemergate în timpul unei operații Mail Merge folosind Java."
 weight: 70
 url: /ro/java/how-to-apply-custom-logic-to-unmerged-regions/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Există unele situații în care eliminarea completă a regiunilor nemergate din document în timpul mail merge nu este dorită sau rezultă în documentul care pare incomplet. Acest lucru poate apărea atunci când absența datelor de intrare ar trebui să fie afișată utilizatorului sub forma unui mesaj în loc ca regiunea să fie complet eliminată.
+Există unele situații în care eliminarea completă a regiunilor nemergate din document în timpul Mail Merge nu este dorită sau rezultă în documentul care pare incomplet. Acest lucru poate apărea atunci când absența datelor de intrare ar trebui să fie afișată utilizatorului sub forma unui mesaj în loc ca regiunea să fie complet eliminată.
 
 Există, de asemenea, momente în care eliminarea regiunii neutilizate în sine nu este suficientă, de exemplu, dacă regiunea este precedată de un titlu sau dacă regiunea este conținută într-un tabel. Dacă această regiune este neutilizată, atunci titlul și tabelul vor rămâne în continuare după ce regiunea este eliminată, care va părea deplasată în document.
 
 Acest articol oferă o soluție pentru a defini manual modul în care sunt gestionate regiunile neutilizate din document. Codul de bază pentru această funcționalitate este furnizat și poate fi reutilizat cu ușurință într-un alt proiect.
 
-Logica care trebuie aplicată fiecărei regiuni este definită în interiorul unei clase care implementează interfața [IFieldMergingCallback](https://reference.aspose.com/words/java/com.aspose.words/ifieldmergingcallback/). În același mod, un handler mail merge poate fi configurat pentru a controla modul în care fiecare câmp este fuzionat, acest handler poate fi configurat pentru a efectua acțiuni pe fiecare câmp într-o regiune neutilizată sau pe regiune în ansamblu. În cadrul acestui handler, puteți seta codul pentru a schimba textul unei regiuni, pentru a elimina noduri sau rânduri și celule goale etc.
+Logica care trebuie aplicată fiecărei regiuni este definită în interiorul unei clase care implementează interfața [IFieldMergingCallback](https://reference.aspose.com/words/java/com.aspose.words/ifieldmergingcallback/). În același mod, un handler Mail Merge poate fi configurat pentru a controla modul în care fiecare câmp este fuzionat, acest handler poate fi configurat pentru a efectua acțiuni pe fiecare câmp într-o regiune neutilizată sau pe regiune în ansamblu. În cadrul acestui handler, puteți seta codul pentru a schimba textul unei regiuni, pentru a elimina noduri sau rânduri și celule goale etc.
 
 În acest eșantion, vom folosi documentul afișat mai jos. Conține regiuni imbricate și o regiune conținută într-un tabel.
 
@@ -40,19 +40,19 @@ Tehnica furnizată în acest articol demonstrează modul de aplicare a logicii p
 
 Pentru a aplica manual logica fiecărei regiuni neutilizate din document, profităm de caracteristicile deja disponibile în Aspose.Words.
 
-Motorul mail merge oferă o proprietate pentru a elimina regiunile neutilizate prin steagul **MailMergeCleanupOptions.RemoveUnusedRegions**. Acest lucru poate fi dezactivat astfel încât astfel de regiuni să fie lăsate neatinse în timpul unui mail merge. Acest lucru ne permite să lăsăm regiunile nemergate din document și să le gestionăm manual noi înșine.
+Motorul Mail Merge oferă o proprietate pentru a elimina regiunile neutilizate prin steagul **MailMergeCleanupOptions.RemoveUnusedRegions**. Acest lucru poate fi dezactivat astfel încât astfel de regiuni să fie lăsate neatinse în timpul unui mail merge. Acest lucru ne permite să lăsăm regiunile nemergate din document și să le gestionăm manual noi înșine.
 
-Putem profita apoi de proprietatea **MailMerge.FieldMergingCallback** ca mijloc de a aplica propria noastră logică personalizată acestor regiuni nemergate în timpul mail merge prin utilizarea unei clase de manipulare care implementează interfața **IFieldMergingCallback**.
+Putem profita apoi de proprietatea **MailMerge.FieldMergingCallback** ca mijloc de a aplica propria noastră logică personalizată acestor regiuni nemergate în timpul Mail Merge prin utilizarea unei clase de manipulare care implementează interfața **IFieldMergingCallback**.
 
 Acest cod din clasa handler este singura clasă pe care va trebui să o modificați pentru a controla logica aplicată regiunilor nemergate. Celălalt cod din acest eșantion poate fi reutilizat fără modificări în niciun proiect.
 
 Acest proiect de probă demonstrează această tehnică. Aceasta implică următorii pași:
 
-1. Executați mail merge pe document folosind sursa de date. Steagul **MailMergeCleanupOptions.RemoveUnusedRegions** este dezactivat deocamdată vrem ca regiunile să rămână astfel încât să le putem gestiona manual. Orice regiuni fără date vor fi lăsate nemergate în document.
+1. Executați Mail Merge pe document folosind sursa de date. Steagul **MailMergeCleanupOptions.RemoveUnusedRegions** este dezactivat deocamdată vrem ca regiunile să rămână astfel încât să le putem gestiona manual. Orice regiuni fără date vor fi lăsate nemergate în document.
 1. Apelați metoda **ExecuteCustomLogicOnEmptyRegions**. Această metodă este furnizată în acest eșantion. Efectuează acțiuni care permit apelarea manipulatorului specificat pentru fiecare regiune nemergată. Această metodă este reutilizabilă și poate fi copiată nealterată în orice proiect care o necesită (împreună cu orice metode dependente).Această metodă execută următorii pași:
    1. Setează manipulatorul specificat de utilizator la proprietatea **MailMerge.FieldMergingCallback**.
    1. Apelează metoda **CreateDataSourceFromDocumentRegions** care acceptă numele regiunilor **Document** și **ArrayList** ale utilizatorului care conțin. Această metodă va crea o sursă de date fictivă care conține tabele pentru fiecare regiune nemergată din document.
-   1. Execută mail merge pe document folosind sursa de date fictivă. Când mail merge este executat cu această sursă de date, permite apelarea manipulatorului specificat de utilizator pentru fiecare regiune unmerge și logica personalizată aplicată
+   1. Execută Mail Merge pe document folosind sursa de date fictivă. Când Mail Merge este executat cu această sursă de date, permite apelarea manipulatorului specificat de utilizator pentru fiecare regiune unmerge și logica personalizată aplicată
 
 **Codul**
 
@@ -92,7 +92,7 @@ Codul de mai jos demonstrează modul în care funcționează acest sistem. Docum
 
 **Exemplu**
 
-Arată cum să se ocupe de regiuni unmerged după mail merge cu cod definit de utilizator.
+Arată cum să se ocupe de regiuni unmerged după Mail Merge cu cod definit de utilizator.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-ApplyCustomLogicToEmptyRegions-HandleUnmergedRegionsAfterMailMerge.java" >}}
 

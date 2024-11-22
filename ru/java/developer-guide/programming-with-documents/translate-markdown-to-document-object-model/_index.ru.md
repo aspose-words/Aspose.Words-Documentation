@@ -43,7 +43,7 @@ timestamp: 2024-10-21-11-17-44
 |  **Strikethrough**<br/>`~Strikethrough text~` |  `Font.StrikeThrough = true`  |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Strikethrough.java" >}}  |  |
 
-Мы используем стиль персонажа с именем, начинающимся от слова. <span notrans="<span notrans=" `InlineCode`"=""></span>"> с последующей факультативной точкой `(.)` и ряд задних ходов ```(`)``` для `InlineCode` особенность. Если пропущено несколько бэктиков, то по умолчанию будет использоваться один бэктик.
+Мы используем стиль персонажа с именем, начинающимся от слова. `InlineCode`> с последующей факультативной точкой `(.)` и ряд задних ходов ```(`)``` для `InlineCode` особенность. Если пропущено несколько бэктиков, то по умолчанию будет использоваться один бэктик.
 
 |  Markdown особенность |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |

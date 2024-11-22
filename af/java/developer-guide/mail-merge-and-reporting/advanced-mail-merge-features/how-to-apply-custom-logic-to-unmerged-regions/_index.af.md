@@ -4,19 +4,19 @@ second_title: Aspose.Words vir Java
 articleTitle: Hoe Om Persoonlike Logika Toe Te Pas Op Ongemengde Streke
 linktitle: Hoe Om Persoonlike Logika Toe Te Pas Op Ongemengde Streke
 type: docs
-description: "Pas persoonlike logika toe op ongemengde streke tydens'n mail merge operasie met behulp van Java."
+description: "Pas persoonlike logika toe op ongemengde streke tydens'n Mail Merge operasie met behulp van Java."
 weight: 70
 url: /af/java/how-to-apply-custom-logic-to-unmerged-regions/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Daar is'n paar situasies waar die volledige verwydering van ongemengde streke uit die dokument gedurende mail merge nie gewens word nie of die dokument onvolledig lyk. Dit kan voorkom wanneer die afwesigheid van insette data moet vertoon word aan die gebruiker in die vorm van'n boodskap in plaas van die streek heeltemal verwyder.
+Daar is'n paar situasies waar die volledige verwydering van ongemengde streke uit die dokument gedurende Mail Merge nie gewens word nie of die dokument onvolledig lyk. Dit kan voorkom wanneer die afwesigheid van insette data moet vertoon word aan die gebruiker in die vorm van'n boodskap in plaas van die streek heeltemal verwyder.
 
 Daar is ook tye wanneer die verwydering van die ongebruikte streek op sigself nie genoeg is nie, byvoorbeeld as die streek voorafgegaan word deur'n titel of die streek in'n tabel vervat is. As hierdie streek ongebruik is, sal die titel en tabel steeds bly nadat die streek verwyder is, wat nie op sy plek in die dokument sal lyk nie.
 
 Hierdie artikel bied'n oplossing om handmatig te definieer hoe ongebruikte streke in die dokument hanteer word. Die basis kode vir hierdie funksie word verskaf en kan maklik hergebruik word in'n ander projek.
 
-Die logika wat toegepas moet word op elke streek is gedefinieer binne'n klas wat die [IFieldMergingCallback](https://reference.aspose.com/words/java/com.aspose.words/ifieldmergingcallback/) koppelvlak implementeer. Op dieselfde manier kan'n mail merge handelaar ingestel word om te beheer hoe elke veld saamgesmelt word, hierdie handelaar kan ingestel word om aksies op elke veld in'n ongebruikte streek of op die streek as geheel uit te voer. Binne hierdie hanteerder kan u die kode instel om die teks van'n streek te verander, nodusse of leë rye en selle te verwyder, ens.
+Die logika wat toegepas moet word op elke streek is gedefinieer binne'n klas wat die [IFieldMergingCallback](https://reference.aspose.com/words/java/com.aspose.words/ifieldmergingcallback/) koppelvlak implementeer. Op dieselfde manier kan'n Mail Merge handelaar ingestel word om te beheer hoe elke veld saamgesmelt word, hierdie handelaar kan ingestel word om aksies op elke veld in'n ongebruikte streek of op die streek as geheel uit te voer. Binne hierdie hanteerder kan u die kode instel om die teks van'n streek te verander, nodusse of leë rye en selle te verwyder, ens.
 
 In hierdie voorbeeld sal ons die dokument hieronder gebruik. Dit bevat geneste streke en'n streek wat in'n tabel vervat is.
 
@@ -28,7 +28,7 @@ Die databron bevat twee rekords vir die **StoreDetails** streek, maar het doelbe
 
 ![merged-regions-aspose-words-java](how-to-apply-custom-logic-to-unmerged-regions-2.png)
 
-Soos op die prent aangedui, kan jy sien dat die **ContactDetails** streek vir die tweede rekord en **Suppliers** streke outomaties deur die mail merge enjin verwyder is omdat hulle geen data het nie. Daar is egter'n paar kwessies wat hierdie uitset dokument onvolledig laat lyk:
+Soos op die prent aangedui, kan jy sien dat die **ContactDetails** streek vir die tweede rekord en **Suppliers** streke outomaties deur die Mail Merge enjin verwyder is omdat hulle geen data het nie. Daar is egter'n paar kwessies wat hierdie uitset dokument onvolledig laat lyk:
 
 - Die **ContactDetails** streek laat nog'n paragraaf met die teks "Kontakbesonderhede".
 - In dieselfde geval is daar geen aanduiding dat daar geen telefoonnommers is nie, net'n leë spasie wat tot verwarring kan lei.
@@ -40,19 +40,19 @@ Die tegniek wat in hierdie artikel verskaf word, demonstreer hoe om persoonlike 
 
 Om logika handmatig toe te pas op elke ongebruikte streek in die dokument maak ons gebruik van funksies wat reeds beskikbaar is in Aspose.Words.
 
-Die mail merge enjin bied'n eienskap om ongebruikte streke te verwyder deur die **MailMergeCleanupOptions.RemoveUnusedRegions** vlag. Dit kan gedeaktiveer word sodat sulke streke onaangeraak gelaat word tydens'n mail merge. Dit laat ons toe om die ongemengde streke in die dokument te verlaat en dit self handmatig te hanteer.
+Die Mail Merge enjin bied'n eienskap om ongebruikte streke te verwyder deur die **MailMergeCleanupOptions.RemoveUnusedRegions** vlag. Dit kan gedeaktiveer word sodat sulke streke onaangeraak gelaat word tydens'n mail merge. Dit laat ons toe om die ongemengde streke in die dokument te verlaat en dit self handmatig te hanteer.
 
-Ons kan dan voordeel trek uit die **MailMerge.FieldMergingCallback** eienskap as'n middel om ons eie persoonlike logika toe te pas op hierdie ongemengde streke tydens mail merge deur die gebruik van'n handelaar klas implementering van die **IFieldMergingCallback** koppelvlak.
+Ons kan dan voordeel trek uit die **MailMerge.FieldMergingCallback** eienskap as'n middel om ons eie persoonlike logika toe te pas op hierdie ongemengde streke tydens Mail Merge deur die gebruik van'n handelaar klas implementering van die **IFieldMergingCallback** koppelvlak.
 
 Hierdie kode binne die handelaar klas is die enigste klas wat jy sal nodig hê om te verander ten einde die logika toegepas op unmigged streke te beheer. Die ander kode in hierdie voorbeeld kan hergebruik word sonder verandering in enige projek.
 
 Hierdie voorbeeldprojek demonstreer hierdie tegniek. Dit behels die volgende stappe:
 
-1. Voer mail merge uit op die dokument deur u databron te gebruik. Die **MailMergeCleanupOptions.RemoveUnusedRegions** vlag is gedeaktiveer vir nou wil ons hê die streke moet bly sodat ons hulle handmatig kan hanteer. Enige streke sonder data sal nie in die dokument saamgevoeg word nie.
+1. Voer Mail Merge uit op die dokument deur u databron te gebruik. Die **MailMergeCleanupOptions.RemoveUnusedRegions** vlag is gedeaktiveer vir nou wil ons hê die streke moet bly sodat ons hulle handmatig kan hanteer. Enige streke sonder data sal nie in die dokument saamgevoeg word nie.
 1. Noem die **ExecuteCustomLogicOnEmptyRegions** metode. Hierdie metode word in hierdie steekproef verskaf. Dit voer aksies uit wat die gespesifiseerde handelaar toelaat om vir elke nie-geïntegreerde streek geroep te word. Hierdie metode is herbruikbaar en kan onveranderd gekopieer word na enige projek wat dit vereis (saam met enige afhanklike metodes).Hierdie metode voer die volgende stappe:
    1. Stel die hanteerder wat deur die gebruiker gespesifiseer word op die **MailMerge.FieldMergingCallback** eienskap.
    1. Roep die **CreateDataSourceFromDocumentRegions** metode wat die gebruiker se **Document** en **ArrayList** bevat streke name aanvaar. Hierdie metode sal'n dummy data bron met tabelle vir elke nie-samesmelting streek in die dokument te skep.
-   1. Voer mail merge op die dokument uit met behulp van die dummy databron. Wanneer mail merge uitgevoer word met hierdie data bron dit laat die gebruiker-gespesifiseerde handelaar genoem word vir elke unmerge streek en die persoonlike logika toegepas
+   1. Voer Mail Merge op die dokument uit met behulp van die dummy databron. Wanneer Mail Merge uitgevoer word met hierdie data bron dit laat die gebruiker-gespesifiseerde handelaar genoem word vir elke unmerge streek en die persoonlike logika toegepas
 
 **Die Kode**
 
@@ -92,7 +92,7 @@ Die kode hieronder toon hoe hierdie stelsel werk. Die dokument wat aan die begin
 
 **Voorbeeld**
 
-Wys hoe om te hanteer unmerged streke na mail merge met gebruiker-gedefinieerde kode.
+Wys hoe om te hanteer unmerged streke na Mail Merge met gebruiker-gedefinieerde kode.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-ApplyCustomLogicToEmptyRegions-HandleUnmergedRegionsAfterMailMerge.java" >}}
 
@@ -118,7 +118,7 @@ Die kode wat die ouer tabel verwyder kan ook gemaak word om te hardloop op elke 
 
 Ons kan verskillende kode in die handelaar invoeg om te beheer hoe ongemengde streke hanteer word. Die gebruik van die kode hieronder in die handelaar sal die teks in die eerste paragraaf van die streek verander na'n nuttige boodskap terwyl enige daaropvolgende paragrawe in die streek verwyder word. Hierdie ander paragrawe word verwyder omdat hulle in die streek sou bly nadat ons boodskap saamgevoeg is.
 
-Die vervanging teks is saamgesmelt in die eerste veld deur die instelling van die gespesifiseerde teks in die **FieldMergingArgs.Text** eiendom. Die teks van hierdie eienskap word saamgesmelt in die veld deur die mail merge enjin.
+Die vervanging teks is saamgesmelt in die eerste veld deur die instelling van die gespesifiseerde teks in die **FieldMergingArgs.Text** eiendom. Die teks van hierdie eienskap word saamgesmelt in die veld deur die Mail Merge enjin.
 
 Die kode pas dit toe vir slegs die eerste veld in die streek deur die **FieldMergingArgs.FieldValue** eienskap te kontroleer. Die veld waarde van die eerste veld in die streek is gemerk met "FirstField". Dit maak hierdie tipe logika makliker om te implementeer oor baie streke as geen ekstra kode is nodig.
 
@@ -154,6 +154,6 @@ Wys hoe om slegs die `ContactDetails` streek te spesifiseer wat hanteer moet wor
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-ApplyCustomLogicToEmptyRegions-HandleTheContactDetailsRegion.java" >}}
 
-Die oproep van hierdie oorlading met die gespesifiseerde ArrayList sal die databron skep wat slegs data rye vir die gespesifiseerde streke bevat. Ander streke as die `ContactDetails` streek sal nie hanteer word nie en sal outomaties verwyder word deur die mail merge enjin in plaas daarvan. Die resultaat van die bogenoemde oproep met behulp van die kode in ons oorspronklike hanteerder word hieronder getoon.
+Die oproep van hierdie oorlading met die gespesifiseerde ArrayList sal die databron skep wat slegs data rye vir die gespesifiseerde streke bevat. Ander streke as die `ContactDetails` streek sal nie hanteer word nie en sal outomaties verwyder word deur die Mail Merge enjin in plaas daarvan. Die resultaat van die bogenoemde oproep met behulp van die kode in ons oorspronklike hanteerder word hieronder getoon.
 
 ![apply-custom-logic-to-unmerged-regions-aspose-words-java-5](how-to-apply-custom-logic-to-unmerged-regions-6.png)

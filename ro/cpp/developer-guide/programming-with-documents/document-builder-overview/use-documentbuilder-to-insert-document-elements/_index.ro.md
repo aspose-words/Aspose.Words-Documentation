@@ -156,7 +156,7 @@ OLE pachetul este o modalitate moștenită și "nedocumentată" de a stoca obiec
 
 ## Inserarea HTML
 
-Puteți introduce cu ușurință un șir HTML care conține un fragment HTML sau un document întreg HTML în documentul Word. Doar treceți acest șir la metoda `DocumentBuilder->InsertHtml`. Una dintre implementările utile ale metodei este stocarea unui șir HTML într-o bază de date și inserarea acestuia în document în timpul mail merge pentru a adăuga conținutul formatat în loc să-l construiască folosind diferite metode ale constructorului de documente. Exemplul de mai jos prezintă inserturi HTML într-un document folosind DocumentBuilder.
+Puteți introduce cu ușurință un șir HTML care conține un fragment HTML sau un document întreg HTML în documentul Word. Doar treceți acest șir la metoda `DocumentBuilder->InsertHtml`. Una dintre implementările utile ale metodei este stocarea unui șir HTML într-o bază de date și inserarea acestuia în document în timpul Mail Merge pentru a adăuga conținutul formatat în loc să-l construiască folosind diferite metode ale constructorului de documente. Exemplul de mai jos prezintă inserturi HTML într-un document folosind DocumentBuilder.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertHtml.cpp" >}}
 

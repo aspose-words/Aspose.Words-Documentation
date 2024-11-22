@@ -32,7 +32,7 @@ Para obtener más información sobre PDF/A, consulte el siguiente artículo, "Ap
 
 También es posible exportar formas rellenables de un Microsoft Word documento en PDF de salida, que tiene formas rellenables en lugar de un texto llano. Usar el [PreserveFormFields](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getPreserveFormFields) propiedad para guardar un documento como PDF con formularios rellenables.
 
-Note que en contraste con <span notrans="<span notrans=" Microsoft Word"=""></span>," el formato PDF tiene un número limitado de opciones para formularios editables, como la caja de texto, el cuadro combinado y la casilla de verificación. Microsoft Word tiene más tipos de formas, por ejemplo, el selector de fecha calendario. Generalmente, no es posible imitar completamente Microsoft Word comportamiento en PDF. Por lo tanto, en algunos casos complejos, la salida PDF puede diferir de lo que usted ve en Microsoft Word.
+Note que en contraste con Microsoft Word," el formato PDF tiene un número limitado de opciones para formularios editables, como la caja de texto, el cuadro combinado y la casilla de verificación. Microsoft Word tiene más tipos de formas, por ejemplo, el selector de fecha calendario. Generalmente, no es posible imitar completamente Microsoft Word comportamiento en PDF. Por lo tanto, en algunos casos complejos, la salida PDF puede diferir de lo que usted ve en Microsoft Word.
 
 El ejemplo de código a continuación muestra cómo guardar un documento como PDF con formularios rellenables con compresión y calidad Jpeg especificados:
 

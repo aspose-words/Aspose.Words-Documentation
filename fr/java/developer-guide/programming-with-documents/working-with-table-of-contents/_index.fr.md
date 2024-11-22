@@ -61,7 +61,7 @@ L'exemple de code suivant montre comment reconstruire complètement `TOC` champs
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertATableOfContentsField-UpdateTableOfContents.java" >}}
 
-Le premier appel à [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) va construire la <span notrans="<span notrans=" `TOC`"=""></span>""> toutes les entrées de texte sont peuplées et `TOC` semble presque complet. La seule chose manquante est les numéros de page qui pour l'instant sont affichés avec l'option?
+Le premier appel à [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) va construire la `TOC`""> toutes les entrées de texte sont peuplées et `TOC` semble presque complet. La seule chose manquante est les numéros de page qui pour l'instant sont affichés avec l'option?
 
 Le deuxième appel à [Document.updatePageLayout()](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout) va construire la mise en page du document en mémoire. Cela doit être fait pour recueillir les numéros de page des entrées. Les bons numéros de page calculés à partir de cet appel sont ensuite insérés dans le TOC.
 

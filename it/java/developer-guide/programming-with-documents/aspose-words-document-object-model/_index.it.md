@@ -16,7 +16,7 @@ Questa sezione descrive le classi principali della Aspose.Words DOM e le loro re
 
 ## Crea un documento Albero di oggetti {#create-a-document-objects-tree}
 
-Quando un documento viene letto nel Aspose.Words <span notrans="<span notrans=" DOM"=""></span>> poi un albero oggetto è costruito e diversi tipi di elementi del documento sorgente hanno il loro DOM oggetti albero con varie proprietà.
+Quando un documento viene letto nel Aspose.Words DOM> poi un albero oggetto è costruito e diversi tipi di elementi del documento sorgente hanno il loro DOM oggetti albero con varie proprietà.
 
 ### Costruisci l'albero dei nodi del documento {#build-document-nodes-tree}
 

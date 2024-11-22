@@ -57,7 +57,7 @@ Aspose.Words 将在系统字体文件夹中查找字体。通过 [GetSystemFontF
 
 #### Aspose.Words 在 Linux 上查找 TrueType 字体的位置
 
-不同的 Linux 发行版可能将字体存储在不同的文件夹中。 Aspose.Words 在多个位置查找字体。默认情况下，Aspose.Words 在以下所有位置查找字体： * /usr/share/fonts* /usr/local/share/fonts* /usr/X11R6/lib/X11/fonts此默认行为适用于大多数 Linux 发行版，但不能保证始终有效，在这种情况下，您可能需要显式指定 true 类型字体的位置。为此，您需要知道 TrueType 字体安装在 Linux 发行版上的位置。
+不同的 Linux 发行版可能将字体存储在不同的文件夹中。 Aspose.Words 在多个位置查找字体。默认情况下，Aspose.Words 在以下所有位置查找字体： `/usr/share/fonts` `/usr/local/share/fonts` `/usr/X11R6/lib/X11/fonts`此默认行为适用于大多数 Linux 发行版，但不能保证始终有效，在这种情况下，您可能需要显式指定 true 类型字体的位置。为此，您需要知道 TrueType 字体安装在 Linux 发行版上的位置。
 
 #### Aspose.Words 在 Mac OS X 上查找 TrueType 字体的位置
 

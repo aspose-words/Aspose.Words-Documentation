@@ -43,7 +43,7 @@ timestamp: 2024-10-21-11-17-44
 |  **Strikethrough**<br/>`~Strikethrough text~` |  `Font.StrikeThrough = true`  |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Strikethrough.java" >}}  |  |
 
-我们使用一个字符风格,名字从词开始 <span notrans="<span notrans=" `InlineCode`"=""></span>",> 然后是可选点 `(.)` 和一些反键 ```(`)``` 联 合 国 `InlineCode` 特性。 如果缺少一些回击,则默认会使用一个回击.
+我们使用一个字符风格,名字从词开始 `InlineCode`,> 然后是可选点 `(.)` 和一些反键 ```(`)``` 联 合 国 `InlineCode` 特性。 如果缺少一些回击,则默认会使用一个回击.
 
 |  Markdown 特性 |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |

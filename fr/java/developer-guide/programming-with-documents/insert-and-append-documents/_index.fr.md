@@ -50,7 +50,7 @@ L'exemple de code suivant montre comment insérer le contenu d'un document dans 
 
 ### Insérer un document pendant Mail Merge Fonctionnement {#insert-a-document-during-mail-merge-operation}
 
-Vous pouvez insérer un document dans un champ de fusion pendant un mail merge opération. Par exemple, mail merge modèle peut contenir un champ de fusion comme [Résumé]. Mais dans le document final, vous devez insérer le contenu obtenu d'un autre document externe dans ce champ de fusion. Pour y parvenir, vous devrez créer un gestionnaire pour l'événement de fusion.
+Vous pouvez insérer un document dans un champ de fusion pendant un Mail Merge opération. Par exemple, Mail Merge modèle peut contenir un champ de fusion comme [Résumé]. Mais dans le document final, vous devez insérer le contenu obtenu d'un autre document externe dans ce champ de fusion. Pour y parvenir, vous devrez créer un gestionnaire pour l'événement de fusion.
 
 L'exemple de code suivant montre comment créer un gestionnaire pour l'événement de fusion pour l'utiliser plus tard dans le processus d'insertion:
 

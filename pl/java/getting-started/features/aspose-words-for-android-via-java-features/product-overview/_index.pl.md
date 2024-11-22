@@ -41,7 +41,7 @@ Aspose.Words zamiast Android przez Java jest wielonitkowy bezpieczny tak długo,
 
 ### Minimalna krzywa uczenia się
 
-Chociaż istnieje ponad 150 klas publicznych i notowań w Aspose.Words zamiast Android przez <span notrans="<span notrans=" Java"=""></span>", > krzywa uczenia się jest minimalna, ponieważ Aspose.Words zamiast Android przez Java API został starannie zaprojektowany z myślą o następujących celach:
+Chociaż istnieje ponad 150 klas publicznych i notowań w Aspose.Words zamiast Android przez Java, > krzywa uczenia się jest minimalna, ponieważ Aspose.Words zamiast Android przez Java API został starannie zaprojektowany z myślą o następujących celach:
 
 - Pożycz najlepsze praktyki z innych dobrze znanych APIdo Microsoft Word Automatyzacja.
 - Pożycz najlepsze praktyki z branży akceptowane Java oraz Android wytyczne projektowe.

@@ -43,7 +43,7 @@ timestamp: 2024-10-21-11-17-44
 |  **Strikethrough**<br/>`~Strikethrough text~` |  `Font.StrikeThrough = true`  |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Strikethrough.java" >}}  |  |
 
-نستخدم أسلوب الشخصية مع اسم يبدأ من الكلمة <span notrans="<span notrans=" `InlineCode`"=""></span>" يليها نقطة اختيارية `(.)` وعدد من العصي ```(`)``` من أجل `InlineCode` سمة إذا تغيب عدد من العصي، ثمّ واحد ظهري سيُستخدم من قِبل التقصير.
+نستخدم أسلوب الشخصية مع اسم يبدأ من الكلمة `InlineCode` يليها نقطة اختيارية `(.)` وعدد من العصي ```(`)``` من أجل `InlineCode` سمة إذا تغيب عدد من العصي، ثمّ واحد ظهري سيُستخدم من قِبل التقصير.
 
 |  Markdown خاصية |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |

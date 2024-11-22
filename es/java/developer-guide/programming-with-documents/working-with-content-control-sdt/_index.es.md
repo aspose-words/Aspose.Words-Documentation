@@ -10,7 +10,7 @@ url: /es/java/working-with-content-control-sdt/
 timestamp: 2024-01-31-14-23-37
 ---
 
-In Microsoft Word, puede crear un formulario comenzando con una plantilla y agregando controles de contenido, incluyendo casillas de verificación, cajas de texto, selectores de fechas y listas desplegables. In <span notrans="<span notrans=" Aspose.Words"=""></span>," a Etiqueta de documento estructurada o control de contenido de cualquier documento cargado en Aspose.Words se importa como un nodo EstructuradoDocumentTag. Las etiquetas de documentos estructuradas (SDT o control de contenido) permiten incorporar la semántica definida por el cliente, así como su comportamiento y apariencia en un documento.
+In Microsoft Word, puede crear un formulario comenzando con una plantilla y agregando controles de contenido, incluyendo casillas de verificación, cajas de texto, selectores de fechas y listas desplegables. In Aspose.Words," a Etiqueta de documento estructurada o control de contenido de cualquier documento cargado en Aspose.Words se importa como un nodo EstructuradoDocumentTag. Las etiquetas de documentos estructuradas (SDT o control de contenido) permiten incorporar la semántica definida por el cliente, así como su comportamiento y apariencia en un documento.
 
 Documento estructurado La etiqueta puede ocurrir en un documento en los siguientes lugares:
 

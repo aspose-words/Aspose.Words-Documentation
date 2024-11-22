@@ -19,7 +19,7 @@ Ahora la funcionalidad para trabajar con la Markdown formato se está desarrolla
 
 ## Convertir un documento en Markdown
 
-Para convertir un documento a <span notrans="<span notrans=" Markdown"=""></span>," sólo tiene que cargar un documento en cualquier formato compatible o crear uno nuevo programáticamente. Entonces usted necesita guardar el documento para Markdown formato.
+Para convertir un documento a Markdown," sólo tiene que cargar un documento en cualquier formato compatible o crear uno nuevo programáticamente. Entonces usted necesita guardar el documento para Markdown formato.
 
 El siguiente ejemplo de código muestra cómo convertir DOCX a Markdown:
 
@@ -59,5 +59,5 @@ El resultado de este ejemplo de código se muestra a continuación.
 
 Hay varios matones y casos interesantes, habiendo aprendido con los que puedes trabajar Markdown archivos más flexible y convenientemente. Por ejemplo, existe la capacidad de utilizar:
 
-* SetextHeading que permite crear encabezados multilíneas en <span notrans="<span notrans=" Markdown"=""></span>," mientras que las partidas ordinarias entran Markdown sólo puede ser una sola línea. SetextHeading se basa en un estilo "Heading N", y su nivel sólo puede ser 1 o 2. Si N en "Heading N" es mayor o igual a 2, entonces el correspondiente SetextHeading se basa en "Heading 2", de lo contrario en "Heading 1".
+* SetextHeading que permite crear encabezados multilíneas en Markdown," mientras que las partidas ordinarias entran Markdown sólo puede ser una sola línea. SetextHeading se basa en un estilo "Heading N", y su nivel sólo puede ser 1 o 2. Si N en "Heading N" es mayor o igual a 2, entonces el correspondiente SetextHeading se basa en "Heading 2", de lo contrario en "Heading 1".
 * Diferentes marcadores para el primer nivel de listas de balas ("-", "+" o "*", el marcador predeterminado es "-") y diferentes tipos de numeración para listas ordenadas ("." o ")", el marcador predeterminado es ".

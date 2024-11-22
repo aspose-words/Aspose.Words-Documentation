@@ -61,7 +61,7 @@ Následující příklad kódu ukazuje, jak kompletně obnovit `TOC` pole v doku
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertATableOfContentsField-UpdateTableOfContents.java" >}}
 
-První hovor [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) bude stavět <span notrans="<span notrans=" `TOC`"=""></span>, všechny textové záznamy jsou obsazeny a `TOC` Vypadá to skoro kompletní. Jediné, co chybí, jsou čísla stránek, které jsou nyní zobrazeny s??
+První hovor [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) bude stavět `TOC`, všechny textové záznamy jsou obsazeny a `TOC` Vypadá to skoro kompletní. Jediné, co chybí, jsou čísla stránek, které jsou nyní zobrazeny s??
 
 Druhý hovor [Document.updatePageLayout()](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout) vytvoří uspořádání dokumentu v paměti. To je třeba udělat pro shromažďování čísel stránek záznamů. Správná čísla stránky vypočtená z tohoto hovoru se pak vloží do TOC.
 

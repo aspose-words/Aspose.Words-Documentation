@@ -104,7 +104,7 @@ The The The The The The `IF` زمینه می تواند برای ارزیابی 
 
 ### Inserting Mail Merge `ADDRESSBLOCK` زمینه در یک سند با استفاده از DOM
 
-The The The The The The `ADDRESSBLOCK` استفاده می شود برای قرار دادن یک mail merge بلوک آدرس در یک سند Word `ADDRESSBLOCK` فیلد در سند Word می تواند توسط [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) کلاس می توانید استفاده کنید **FieldAddressBlock** کلاس برای انجام عملیات زیر:
+The The The The The The `ADDRESSBLOCK` استفاده می شود برای قرار دادن یک Mail Merge بلوک آدرس در یک سند Word `ADDRESSBLOCK` فیلد در سند Word می تواند توسط [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) کلاس می توانید استفاده کنید **FieldAddressBlock** کلاس برای انجام عملیات زیر:
 
 - مشخص کنید که آیا نام کشور / منطقه را در این زمینه قرار دهید
 - مشخص کنید که آیا آدرس را با توجه به کشور / منطقه دریافت کننده به عنوان تعریف شده توسط *CODE (Universal post Union 2006)
@@ -146,7 +146,7 @@ The The The The The The `ASK` زمینه برای بارگذاری کاربر ب
 
 - نام نشانه را مشخص کنید
 - تعیین پاسخ کاربر پیش فرض (ارزش ذاتی موجود در پنجره فوری)
-- مشخص کنید که آیا پاسخ کاربر باید یک بار در هر یک دریافت شود mail merge عملیات
+- مشخص کنید که آیا پاسخ کاربر باید یک بار در هر یک دریافت شود Mail Merge عملیات
 - – متن سریع (عنوان پنجره سریع) را مشخص کنید
 
 {{% alert color="primary" %}}

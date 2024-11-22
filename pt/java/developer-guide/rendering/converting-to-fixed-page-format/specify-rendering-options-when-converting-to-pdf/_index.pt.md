@@ -32,7 +32,7 @@ Para obter mais informações sobre PDF/A, consulte o próximo artigo, "Learn Fe
 
 Também é possível exportar formas de preenchimento de uma Microsoft Word documento em PDF de saída, que tem formulários filáveis em vez de um texto simples. Use o [PreserveFormFields](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getPreserveFormFields) propriedade para salvar um documento como PDF com formulários filáveis.
 
-Note que em contraste com <span notrans="<span notrans=" Microsoft Word"=""></span>, o formato PDF tem um número limitado de opções para formulários editáveis, como caixa de texto, caixa de combinação e caixa de seleção. Microsoft Word tem mais tipos de formulários, por exemplo, o selecionador de data de calendário. Geralmente, não é possível imitar totalmente Microsoft Word comportamento em PDF. Portanto, em alguns casos complexos, a saída PDF pode diferir do que você vê em Microsoft Word.
+Note que em contraste com Microsoft Word, o formato PDF tem um número limitado de opções para formulários editáveis, como caixa de texto, caixa de combinação e caixa de seleção. Microsoft Word tem mais tipos de formulários, por exemplo, o selecionador de data de calendário. Geralmente, não é possível imitar totalmente Microsoft Word comportamento em PDF. Portanto, em alguns casos complexos, a saída PDF pode diferir do que você vê em Microsoft Word.
 
 O exemplo de código abaixo mostra como salvar um documento como PDF com formulários filáveis com compressão e qualidade Jpeg especificada:
 

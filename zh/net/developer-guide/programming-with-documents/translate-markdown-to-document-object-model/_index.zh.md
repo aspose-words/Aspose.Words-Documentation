@@ -41,7 +41,7 @@ timestamp: 2024-10-21-11-17-44
 |  **Italic**<br /> `*italic text*` |  `Font.Italic = true`  |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}}  |  |
 |  **Strikethrough**<br /> `~Strikethrough text~` |  `Font.StrikeThrough = true`  |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
@@ -76,7 +76,7 @@ builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
 |  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`，其中 (1&lt;=N&lt;=9)。<br />这将被转换为内置样式，并且应该完全符合指定的模式（不允许使用后缀或前缀）。<br />否则，它只是一个具有相应样式的常规段落。 |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}}  |                                                                |
 |  **Setext Heading**<br /> `===`（如果标题级别为 1），<br /> `---`（如果标题级别为 2） |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`，基于`“Heading N”`风格。<br />如果 (N &gt;= 2)，则将使用 `“Heading 2”`，否则使用 `“Heading 1”`。<br />允许任何后缀，但 Aspose.Words 导入器分别使用数字"1"和"2"。 |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 builder.ParagraphFormat.StyleName = "Heading 1";
@@ -120,7 +120,7 @@ else
 |  Markdown 功能 |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **Quote**<br /> `> quote,`<br /> `>> nested quote` |  `ParagraphFormat.StyleName = “Quote[some suffix]”`<br />样式名称中的后缀是可选的，但 Aspose.Words 导入器使用有序数字 1、2、3、...。如果是嵌套引号。<br />嵌套是通过继承的样式定义的。 |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // By default a document stores blockquote style for the first level.
@@ -157,7 +157,7 @@ Aspose.Words还允许将表格翻译成DOM，如下所示：
 |  Markdown 功能 |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  `Table`<br /> `一个 | b`<br />`-|-`<br />`c|d` |  [Table](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/)、[Row](https://reference.aspose.com/words/zh/net/aspose.words.tables/row/) 和 [Cell](https://reference.aspose.com/words/zh/net/aspose.words.tables/cell/) 类。 |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Add the first row.

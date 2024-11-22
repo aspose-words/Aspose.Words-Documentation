@@ -156,7 +156,7 @@ OLE paket, OLE işleyicisi bilinmiyorsa gömülü nesneyi depolamanın eski ve "
 
 ## Ekleme HTML
 
-Word belgesine HTML parçası veya tamamı HTML belgesi içeren bir HTML dizesini kolayca ekleyebilirsiniz. Bu dizeyi `DocumentBuilder->InsertHtml` yöntemine iletmeniz yeterlidir. Yöntemin yararlı uygulamalarından biri, bir HTML dizesini bir veritabanında depolamak ve mail merge sırasında belgeye eklemek, belge oluşturucunun çeşitli yöntemlerini kullanarak oluşturmak yerine biçimlendirilmiş içeriği eklemektir. Aşağıdaki örnekte, DocumentBuilder kullanarak bir belgeye HTML ekler gösterilmektedir.
+Word belgesine HTML parçası veya tamamı HTML belgesi içeren bir HTML dizesini kolayca ekleyebilirsiniz. Bu dizeyi `DocumentBuilder->InsertHtml` yöntemine iletmeniz yeterlidir. Yöntemin yararlı uygulamalarından biri, bir HTML dizesini bir veritabanında depolamak ve Mail Merge sırasında belgeye eklemek, belge oluşturucunun çeşitli yöntemlerini kullanarak oluşturmak yerine biçimlendirilmiş içeriği eklemektir. Aşağıdaki örnekte, DocumentBuilder kullanarak bir belgeye HTML ekler gösterilmektedir.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertHtml.cpp" >}}
 

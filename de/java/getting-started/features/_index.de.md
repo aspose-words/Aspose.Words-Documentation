@@ -122,16 +122,16 @@ Sie können verwenden Aspose.Words als Berichtslösung allein. Entwerfen Sie Ihr
 
 |  Merkmal |
 |  :-  |
-| Alle Standard verwenden Microsoft Word mail merge Felder in Ihren Berichten einschließlich `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. |
-| Durchführung mail merge für Dokumente, die auch die komplexesten und geschachtelt enthalten `IF` Felder und Formeln. |
-| Populieren und dynamisch wachsen Tabellen oder Fragmente im Dokument aus Ihrer Datenquelle mit mail merge Regionen. |
+| Alle Standard verwenden Microsoft Word Mail Merge Felder in Ihren Berichten einschließlich `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. |
+| Durchführung Mail Merge für Dokumente, die auch die komplexesten und geschachtelt enthalten `IF` Felder und Formeln. |
+| Populieren und dynamisch wachsen Tabellen oder Fragmente im Dokument aus Ihrer Datenquelle mit Mail Merge Regionen. |
 | Generieren Sie einfach Berichte, die Stammdaten (Parent-Kind) wie Order/OrderDetails enthalten. |
 | Dokumente mit Daten von jeder Java Datenquelle, die die `ResultSet` Schnittstelle. |
 | Populieren von Dokumenten aus jeder Datenquelle wie einer XML-Datei oder Geschäftsobjekten durch die Implementierung der **IMailMergeDataSource** Schnittstelle. |
 | Nehmen Sie präzise Kontrolle, wie die Zahlenformatierung, über die Zusammenführung Ihrer Daten mit Veranstaltungen. |
 | Bilder während eines mail merge. |
-| Programmmäßig ein Microsoft Word mail merge Datenquelle für ein Dokument. Vorbehalt mail merge Einstellungen und Datenquellen. |
-| Abruf mail merge Feldnamen. |
+| Programmmäßig ein Microsoft Word Mail Merge Datenquelle für ein Dokument. Vorbehalt Mail Merge Einstellungen und Datenquellen. |
+| Abruf Mail Merge Feldnamen. |
 
 ## Reporting-Funktionen
 

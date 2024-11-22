@@ -156,7 +156,7 @@ OLE 패키지는 다음과 같은 경우 포함 된 객체를 저장하는 레�
 
 ## 삽입 HTML
 
-당신은 쉽게 삽입 할 수 있습니다 HTML 다음을 포함하는 문자열 HTML 조각 또는 전체 HTML 단어 문서로 문서. 그냥 이 문자열을 `DocumentBuilder->InsertHtml` 방법 이 방법의 유용한 구현 중 하나는 HTML 데이터베이스의 문자열과 문서에 삽입하는 동안 mail merge 문서 작성기의 다양한 방법을 사용하여 작성하는 대신 포맷 된 콘텐츠를 추가 할 수 있습니다. 아래 예는 삽입을 보여줍니다 HTML 문서를 사용하여 DocumentBuilder.
+당신은 쉽게 삽입 할 수 있습니다 HTML 다음을 포함하는 문자열 HTML 조각 또는 전체 HTML 단어 문서로 문서. 그냥 이 문자열을 `DocumentBuilder->InsertHtml` 방법 이 방법의 유용한 구현 중 하나는 HTML 데이터베이스의 문자열과 문서에 삽입하는 동안 Mail Merge 문서 작성기의 다양한 방법을 사용하여 작성하는 대신 포맷 된 콘텐츠를 추가 할 수 있습니다. 아래 예는 삽입을 보여줍니다 HTML 문서를 사용하여 DocumentBuilder.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertHtml.cpp" >}}
 

@@ -37,7 +37,7 @@ A 필드는 다음과 같습니다
 
 ## 제품정보 Aspose.Words Document Object Model (주)DOM·
 
-문서가 로드될 때 <span notrans="<span notrans=" Aspose.Words"=""></span>· 문서의 필드가 로드됩니다. Aspose.Words Document Object Model 별도의 구성 요소 (nodes)의 집합으로. 단일 필드는 컬렉션으로로드됩니다. **FieldStart**, **FieldSeparator** · **FieldEnd** 이 노드의 내용과 함께 노드. 필드가 필드가 없다면 그 결과가 없을 것 **FieldSeparator** 노드. 이 노드의 모든 것은 항상 인라인으로 발견됩니다 (아이들처럼) [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) 또는 [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/)·
+문서가 로드될 때 Aspose.Words· 문서의 필드가 로드됩니다. Aspose.Words Document Object Model 별도의 구성 요소 (nodes)의 집합으로. 단일 필드는 컬렉션으로로드됩니다. **FieldStart**, **FieldSeparator** · **FieldEnd** 이 노드의 내용과 함께 노드. 필드가 필드가 없다면 그 결과가 없을 것 **FieldSeparator** 노드. 이 노드의 모든 것은 항상 인라인으로 발견됩니다 (아이들처럼) [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) 또는 [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/)·
 
 내 계정 Aspose.Words 각각 **FieldXXX** 노드 derives에서 [FieldChar](https://reference.aspose.com/words/java/com.aspose.words/fieldchar/)· 이 클래스는 지정된 노드에 의해 나타내는 필드의 유형을 확인하는 속성을 제공합니다. [FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) 호텔 위치 예를 들어 `FieldType.FieldMergeField` 문서에 병합 필드를 나타냅니다.
 
@@ -174,9 +174,9 @@ Aspose.Words 모든 날짜 및 시간 형식 전환을 지원 Microsoft Word, �
 
 ### Mail Merge 제품정보
 
-Aspose.Words 복잡성에 제한이 없습니다. mail merge 문서의 필드와 배열 지원 `IF` 그리고 수식 필드를 계산할 수도 있습니다.
+Aspose.Words 복잡성에 제한이 없습니다. Mail Merge 문서의 필드와 배열 지원 `IF` 그리고 수식 필드를 계산할 수도 있습니다.
 
-몇 가지 예 mail merge 분야의 Aspose.Words 지원:
+몇 가지 예 Mail Merge 분야의 Aspose.Words 지원:
 
 - - - Mail merge 공급 능력:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -223,6 +223,6 @@ EXAMPLE (Public wrapper CurrentThreadSettings.getLocale() 및 setLocale() 대신
 
 더 보기 [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) 클래스는 [FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/document/#getFieldOptions) 문서 내에서 필드를 업데이트하는 방법을 제어하는 데 사용할 수있는 구성원이 포함되어 있습니다.
 
-다음 코드 예제는 필드 업데이트 중 날짜 형식에 사용되는 문화를 지정하는 방법을 보여줍니다. mail merge 에서 선택:
+다음 코드 예제는 필드 업데이트 중 날짜 형식에 사용되는 문화를 지정하는 방법을 보여줍니다. Mail Merge 에서 선택:
 
 계정 만들기

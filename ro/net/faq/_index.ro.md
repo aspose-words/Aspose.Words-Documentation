@@ -129,7 +129,7 @@ Da, tu o faci. Prin urmare, când copiaţi fonturi, ţineţi minte că majoritat
 
 {{% alert color="primary" %}}
 
-Puteți găsi mai multe informații detaliate despre mail merge în secțiunea de documentație [Mail Merge and Reporting](/words/net/mail-merge-and-reporting/).
+Puteți găsi mai multe informații detaliate despre Mail Merge în secțiunea de documentație [Mail Merge and Reporting](/words/net/mail-merge-and-reporting/).
 
 {{% /alert %}}
 
@@ -144,7 +144,7 @@ Numele câmpului de fuziune rămâne același fără a fi înlocuit de datele ne
 
 **Î: De ce ieșirea din fuziunea încastrată nu afișează datele din tabelul copil pentru prima intrare în tabelul părinte, dar afișează toate articolele pentru ultima intrare în tabelul părinte, chiar și cele care nu sunt legate de acesta?**
 
-Aceasta se datorează faptului că regiunile de fuziune din șablon nu sunt formate corect, ceea ce poate face ca toate regiunile încorporate mail merge să înceteze să afișeze orice deloc. Eticheta de deschidere [StartTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starttable/) și eticheta de închidere [EndTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endtable/) trebuie să corespundă și să fie în același rând sau celulă. De exemplu, dacă începi să încorporezi regiuni de fuziune într-o celulă dintr-o tabelă, trebuie să termini regiunea de fuziune în aceeași rând ca prima celulă.
+Aceasta se datorează faptului că regiunile de fuziune din șablon nu sunt formate corect, ceea ce poate face ca toate regiunile încorporate Mail Merge să înceteze să afișeze orice deloc. Eticheta de deschidere [StartTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starttable/) și eticheta de închidere [EndTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endtable/) trebuie să corespundă și să fie în același rând sau celulă. De exemplu, dacă începi să încorporezi regiuni de fuziune într-o celulă dintr-o tabelă, trebuie să termini regiunea de fuziune în aceeași rând ca prima celulă.
 
 ------
 
@@ -157,7 +157,7 @@ Acesta este din cauza relației dintre tabelele părinte și copil nu sunt stabi
 
 ------
 
-**De ce este o excepție: "System.ArgumentException: Această restricție nu poate fi activată deoarece nu toate valorile au valori părinte corespunzătoare" în timp ce se execută mail merge încastrate?**
+**De ce este o excepție: "System.ArgumentException: Această restricție nu poate fi activată deoarece nu toate valorile au valori părinte corespunzătoare" în timp ce se execută Mail Merge încastrate?**
 
 Asta se întâmplă pentru că nu fiecare înregistrare părinte are o înregistrare copil, deci sursa ta de date nu corespunde criteriilor următoare: *fiecare rând din tabelul părinte ar trebui să aibă o relație unu-la-unu cu rândurile din tabelul copil pe baza cheilor primare și străine*.
 

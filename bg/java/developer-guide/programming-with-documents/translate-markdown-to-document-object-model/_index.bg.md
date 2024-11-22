@@ -43,7 +43,7 @@ timestamp: 2024-10-21-11-17-44
 |  **Strikethrough**<br/>`~Strikethrough text~` |  `Font.StrikeThrough = true`  |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Strikethrough.java" >}}  |  |
 
-Използваме стил на героя с име, което започва от думата <span notrans="<span notrans=" `InlineCode`"=""></span>,"> последвано от незадължителна точка `(.)` и редица подпори ```(`)``` за `InlineCode` функция. Ако се пропусне редица backticks, тогава един backtick ще се използва по подразбиране.
+Използваме стил на героя с име, което започва от думата `InlineCode` последвано от незадължителна точка `(.)` и редица подпори ```(`)``` за `InlineCode` функция. Ако се пропусне редица backticks, тогава един backtick ще се използва по подразбиране.
 
 |  Markdown функция |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |

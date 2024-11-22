@@ -41,7 +41,7 @@ Chúng tôi sử dụng định dạng [Font](https://reference.aspose.com/words
 |  **Italic**<br /> `*italic text*` |  `Font.Italic = true`  |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}}  |  |
 |  **Strikethrough**<br /> `~Strikethrough text~` |  `Font.StrikeThrough = true`  |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
@@ -76,7 +76,7 @@ Bảng bên dưới hiển thị các ví dụ về cách sử dụng khối Lá
 |  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`, trong đó (1&lt;= N &lt;= 9).<br /> Điều này được dịch sang kiểu có sẵn và phải chính xác theo mẫu đã chỉ định (không cho phép hậu tố hoặc tiền tố).<br /> Nếu không, nó sẽ chỉ là một đoạn văn thông thường có kiểu dáng tương ứng |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}}  |                                                                |
 |  **Setext Heading**<br /> `===` (nếu là Heading cấp 1),<br /> `---` (nếu Tiêu đề cấp 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, dựa trên phong cách `“Heading N”`.<br /> Nếu (N &gt;= 2) thì `“Heading 2”` sẽ được sử dụng, nếu không thì `“Heading 1”`.<br /> Cho phép bất kỳ hậu tố nào, nhưng trình nhập Aspose.Words sử dụng các số "1" và "2" tương ứng |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 builder.ParagraphFormat.StyleName = "Heading 1";
@@ -120,7 +120,7 @@ Bảng bên dưới hiển thị các ví dụ về cách sử dụng Bộ chứ
 |  tính năng Markdown |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **Quote**<br /> `> quote,`<br /> `>> nested quote` |  `ParagraphFormat.StyleName = “Quote[some suffix]”`<br /> Hậu tố trong tên kiểu là tùy chọn, nhưng trình nhập Aspose.Words sử dụng các số thứ tự 1, 2, 3, …. trong trường hợp dấu ngoặc kép lồng nhau.<br /> Việc lồng nhau được xác định thông qua các kiểu kế thừa |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // By default a document stores blockquote style for the first level.
@@ -157,7 +157,7 @@ Aspose.Words cũng cho phép dịch bảng sang DOM, như hình dưới đây:
 |  tính năng Markdown |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  `Table`<br /> `một | b`<br />`-|-`<br />`c|d` |  Các lớp [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) và [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Add the first row.

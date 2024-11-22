@@ -204,7 +204,7 @@ Builder's cursor가 현재 위치 할 수 있습니다. 더 보기 [DocumentBuil
 
 ### 오시는 길 `Merge` 제품정보
 
-때로는 "manual"을 수행해야합니다. mail merge 이름 * `DocumentBuilder` 또는 특별한 방법으로 병합 필드를 채우십시오. mail merge 이벤트 핸들러. 그것은 때 [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) 유용할 수 있었습니다. 방법은 병합 필드의 이름을 받아들입니다. 지정된 병합 필드를 넘어 위치로 커서를 이동하고 병합 필드를 제거합니다. 다음 코드 예제는 지정된 병합 필드를 넘어 위치에 커서를 이동하는 방법을 보여줍니다.
+때로는 "manual"을 수행해야합니다. Mail Merge 이름 * `DocumentBuilder` 또는 특별한 방법으로 병합 필드를 채우십시오. Mail Merge 이벤트 핸들러. 그것은 때 [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) 유용할 수 있었습니다. 방법은 병합 필드의 이름을 받아들입니다. 지정된 병합 필드를 넘어 위치로 커서를 이동하고 병합 필드를 제거합니다. 다음 코드 예제는 지정된 병합 필드를 넘어 위치에 커서를 이동하는 방법을 보여줍니다.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToMergeField-DocumentBuilderMoveToMergeField.java" >}}
 

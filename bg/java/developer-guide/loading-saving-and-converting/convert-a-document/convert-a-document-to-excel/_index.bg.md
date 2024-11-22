@@ -14,7 +14,7 @@ timestamp: 2024-01-31-14-23-37
 
 ## Конвертиране на документ към XLSX
 
-Конвертиране на документ към XLSX е доста сложен процес. За да запазите документа си във формат XLSX, като използвате <span notrans="<span notrans=" Aspose.Words"=""></span>,"> да използвате [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) класа и новото `Xlsx` елемент в [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) Изброяване. Както бе споменато по-горе, можете да запазите документа във всеки поддържан от Aspose.Words към XLX.
+Конвертиране на документ към XLSX е доста сложен процес. За да запазите документа си във формат XLSX, като използвате Aspose.Words да използвате [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) класа и новото `Xlsx` елемент в [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) Изброяване. Както бе споменато по-горе, можете да запазите документа във всеки поддържан от Aspose.Words към XLX.
 
 Следният пример с код показва как да запишете PDF на XLSX:
 

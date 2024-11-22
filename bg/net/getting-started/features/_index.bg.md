@@ -114,16 +114,16 @@ Aspose.Words осигурява подробен програмен достъп
 
 |  Характеристики | .NET | .NET Standard 2.0 | Xamarin.Android | Xamarin.iOS | Xamarin. Mac |
 |  :-  |  :-  |  :-  |  :-  |  :-  |  :-  |
-| Използване на всички стандарти Microsoft Word mail merge полета в докладите, включително `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, - Благодаря. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Изпълнение mail merge за документи, които съдържат дори най-сложните и гнездящи `IF` полета и формули. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Популиране и динамично отглеждане на таблици или фрагменти в документа от вашия източник на данни, като се използва mail merge региони. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Използване на всички стандарти Microsoft Word Mail Merge полета в докладите, включително `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, - Благодаря. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Изпълнение Mail Merge за документи, които съдържат дори най-сложните и гнездящи `IF` полета и формули. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Популиране и динамично отглеждане на таблици или фрагменти в документа от вашия източник на данни, като се използва Mail Merge региони. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Лесно генерирайте доклади, които съдържат данни за капитана-детайл (родител-дете) като поръчка/OrderDetails. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Популиране на документи с данни от всякакви .NET източник на данни като DataSet, DataTable, DataView, DataReader или ADO Recordsset. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Популиране на документи от всеки източник на данни като LINQ заявка, XML файл или бизнес обекти чрез прилагане на **IMailMergeDataSource** интерфейс. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Вземете прецизен контрол, като форматиране на брой, върху начина, по който вашите данни се сливат чрез събития. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Вмъкване на изображения по време на mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Програматично създаване или промяна на Microsoft Word mail merge източник на данни за документ. Запазване mail merge настройки и източници на данни. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Извличане mail merge полеви имена. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Програматично създаване или промяна на Microsoft Word Mail Merge източник на данни за документ. Запазване Mail Merge настройки и източници на данни. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Извличане Mail Merge полеви имена. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
 ## Характеристики за докладване
 

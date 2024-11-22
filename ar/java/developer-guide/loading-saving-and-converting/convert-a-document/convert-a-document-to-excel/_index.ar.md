@@ -14,7 +14,7 @@ timestamp: 2024-01-31-14-23-37
 
 ## Convert a Document to XLSX
 
-تحويل وثيقة إلى XLSX عملية معقدة إلى حد ما. لتحتفظ بوثيقتك على شكل "إكس إل إس إكس" <span notrans="<span notrans=" Aspose.Words"=""></span>" استخدام [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) الصف الجديد `Xlsx` العنصر في [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) العد كما ذُكر أعلاه، يمكنكم أن تُنقذوا الوثيقة في أي شكل من أشكال الحمولة تدعمه Aspose.Words إلى XLSX.
+تحويل وثيقة إلى XLSX عملية معقدة إلى حد ما. لتحتفظ بوثيقتك على شكل "إكس إل إس إكس" Aspose.Words استخدام [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) الصف الجديد `Xlsx` العنصر في [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) العد كما ذُكر أعلاه، يمكنكم أن تُنقذوا الوثيقة في أي شكل من أشكال الحمولة تدعمه Aspose.Words إلى XLSX.
 
 The following code example shows how to save PDF to XLSX:
 

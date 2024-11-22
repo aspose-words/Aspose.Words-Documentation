@@ -52,7 +52,7 @@ Como as métricas de fonte do sistema operacional Windows e não-Windows são di
 
 #### Onde Aspose.Words procura fontes TrueType em Linux
 
-Diferentes distribuições Linux podem armazenar fontes em pastas diferentes. O Aspose.Words procura fontes em vários locais. Por padrão, o Aspose.Words procura as fontes em todos os seguintes locais: */usr/share/fonts* */usr/local/share/fonts* */usr/X11R6/lib/X11/fonts*. Esse comportamento padrão funcionará para a maioria das distribuições Linux, mas não é garantido que funcione o tempo todo; nesse caso, talvez seja necessário especificar explicitamente o local das fontes do tipo true. Para fazer isso, você precisa saber onde as fontes TrueType estão instaladas em sua distribuição Linux.
+Diferentes distribuições Linux podem armazenar fontes em pastas diferentes. O Aspose.Words procura fontes em vários locais. Por padrão, o Aspose.Words procura as fontes em todos os seguintes locais: `/usr/share/fonts` `/usr/local/share/fonts` `/usr/X11R6/lib/X11/fonts`. Esse comportamento padrão funcionará para a maioria das distribuições Linux, mas não é garantido que funcione o tempo todo; nesse caso, talvez seja necessário especificar explicitamente o local das fontes do tipo true. Para fazer isso, você precisa saber onde as fontes TrueType estão instaladas em sua distribuição Linux.
 
 #### Onde Aspose.Words procura fontes TrueType no Mac OS X
 

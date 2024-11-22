@@ -121,7 +121,7 @@ Oui. Par conséquent, lors de la copie des polices, n'oubliez pas que la plupart
 
 {{% alert color="primary" %}}
 
-Vous trouverez des informations plus détaillées sur mail merge dans le [Mail Merge et rapports](/words/java/mail-merge-and-reporting/) de la documentation.
+Vous trouverez des informations plus détaillées sur Mail Merge dans le [Mail Merge et rapports](/words/java/mail-merge-and-reporting/) de la documentation.
 
 {{% /alert %}}
 
@@ -136,7 +136,7 @@ Le nom original du champ fusion reste le même sans être remplacé par les donn
 
 **Q: Pourquoi la sortie de fusion imbriquée n'affiche-t-elle pas les données de la table enfant pour la première entrée dans la table parent, mais affiche-t-elle tous les éléments de la dernière entrée dans la table parent, même ceux qui ne sont pas réellement liés à celle-ci?**
 
-Ceci est dû au fait que les régions de fusion dans le modèle ne sont pas correctement formées, ce qui peut rendre toutes imbriquées mail merge les régions pour arrêter d'afficher quoi que ce soit. Les [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) la balise d'ouverture et la [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) L'étiquette de fermeture doit correspondre et être dans la même rangée ou cellule. Par exemple, si vous commencez à nicher des régions de fusion dans une cellule d'une table, vous devez terminer la région de fusion dans la même rangée que la première cellule.
+Ceci est dû au fait que les régions de fusion dans le modèle ne sont pas correctement formées, ce qui peut rendre toutes imbriquées Mail Merge les régions pour arrêter d'afficher quoi que ce soit. Les [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) la balise d'ouverture et la [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) L'étiquette de fermeture doit correspondre et être dans la même rangée ou cellule. Par exemple, si vous commencez à nicher des régions de fusion dans une cellule d'une table, vous devez terminer la région de fusion dans la même rangée que la première cellule.
 
 ------
 

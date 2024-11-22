@@ -37,7 +37,7 @@ Voici une vue de la façon dont un champ est stocké dans Aspose.Words en utilis
 
 ## Champs Aspose.Words Document Object Model (DOM)
 
-Lorsqu'un document est chargé dans <span notrans="<span notrans=" Aspose.Words"=""></span>""> les champs du document sont chargés dans le Aspose.Words Document Object Model comme un ensemble de composants séparés (noeuds). Un seul champ est chargé comme une collection de **FieldStart**, **FieldSeparator** et **FieldEnd** noeuds avec le contenu entre ces noeuds. Si un champ n'a pas de résultat de champ, il y aura **FieldSeparator** noeud. Tous ces noeuds sont toujours trouvés en ligne (comme les enfants de [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) ou [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/).
+Lorsqu'un document est chargé dans Aspose.Words"> les champs du document sont chargés dans le Aspose.Words Document Object Model comme un ensemble de composants séparés (noeuds). Un seul champ est chargé comme une collection de **FieldStart**, **FieldSeparator** et **FieldEnd** noeuds avec le contenu entre ces noeuds. Si un champ n'a pas de résultat de champ, il y aura **FieldSeparator** noeud. Tous ces noeuds sont toujours trouvés en ligne (comme les enfants de [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) ou [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/).
 
 En Aspose.Words chacune des **FieldXXX** les noeuds proviennent [FieldChar](https://reference.aspose.com/words/java/com.aspose.words/fieldchar/). Cette classe fournit une propriété pour vérifier le type de champ représenté par le noeud spécifié à travers le [FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) propriété. Par exemple `FieldType.FieldMergeField` représente un champ de fusion dans le document.
 
@@ -174,9 +174,9 @@ Aspose.Words prend en charge tous les commutateurs de formatage de date et d'heu
 
 ### Mail Merge Champs
 
-Aspose.Words n'impose aucune limite à la complexité mail merge champs dans vos documents et supports imbriqués `IF` et les champs de formule et peut même calculer le nom de champ fusion en utilisant une formule.
+Aspose.Words n'impose aucune limite à la complexité Mail Merge champs dans vos documents et supports imbriqués `IF` et les champs de formule et peut même calculer le nom de champ fusion en utilisant une formule.
 
-Quelques exemples mail merge champs qui Aspose.Words soutient:
+Quelques exemples Mail Merge champs qui Aspose.Words soutient:
 
 - Oui. Mail merge interrupteurs de champ & #160;:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -223,6 +223,6 @@ D'autre part, Microsoft Word formate chaque champ individuel en fonction de la l
 
 Les [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) classe fournit une [FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/document/#getFieldOptions) propriété qui contient des membres qui peuvent être utilisés pour contrôler comment les champs sont mis à jour dans le document.
 
-L'exemple de code suivant montre comment spécifier où la culture utilisée pour le formatage des dates pendant la mise à jour sur le terrain et mail merge est choisi parmi:
+L'exemple de code suivant montre comment spécifier où la culture utilisée pour le formatage des dates pendant la mise à jour sur le terrain et Mail Merge est choisi parmi:
 
 EXEMPLE

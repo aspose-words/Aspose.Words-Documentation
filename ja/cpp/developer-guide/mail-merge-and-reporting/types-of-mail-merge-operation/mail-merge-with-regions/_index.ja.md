@@ -5,7 +5,7 @@ articleTitle: Mail Merge地域を指定します
 linktitle: Mail Merge地域を指定します
 type: docs
 description: "テンプレートに異なる領域を作成して、データを入力するだけの特別な領域を作成します。 ドキュメントを動的に成長させるために、繰り返しデータを含むテーブル、行を挿入する場合は、領域でmail mergeを使用します。"
-keywords: "how to execute mail merge c++"
+keywords: "how to execute Mail Merge c++"
 weight: 20
 url: /ja/cpp/mail-merge-with-regions/
 timestamp: 2024-09-24-14-35-44

@@ -191,9 +191,9 @@ Aspose.Words, Microsoft Word'de bulunan tüm tarih ve saat biçimlendirme anahta
 
 #### Mail Merge Alanları
 
-Aspose.Words, belgelerinizdeki mail merge alanlarının karmaşıklığına herhangi bir sınırlama getirmez ve iç içe `IF` ve formül alanlarını destekler ve hatta bir formül kullanarak birleştirme alanının adını hesaplayabilir.
+Aspose.Words, belgelerinizdeki Mail Merge alanlarının karmaşıklığına herhangi bir sınırlama getirmez ve iç içe `IF` ve formül alanlarını destekler ve hatta bir formül kullanarak birleştirme alanının adını hesaplayabilir.
 
-Aspose.Words'nin desteklediği mail merge alanlarına bazı örnekler:
+Aspose.Words'nin desteklediği Mail Merge alanlarına bazı örnekler:
 
 - Mail merge alan anahtarları:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`

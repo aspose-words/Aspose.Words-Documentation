@@ -39,7 +39,7 @@ Aspose.Words забезпечує функціональність для вил
 
 {{% alert color="primary" %}}
 
-При рендерингу <span notrans="<span notrans=" [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/)"=""></span>, > вона повинна бути частиною ієрархії документа. Якщо [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) не є частиною дерева документа, після того, як рендеринг буде порожнім після виклику [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/) методи.
+При рендерингу [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/), > вона повинна бути частиною ієрархії документа. Якщо [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) не є частиною дерева документа, після того, як рендеринг буде порожнім після виклику [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/) методи.
 
 {{% /alert %}}
 

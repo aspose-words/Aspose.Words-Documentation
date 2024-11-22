@@ -40,7 +40,7 @@ Výše popsané typy tvarů poskytují speciální metodu, jak tvary vykreslit [
 
 {{% alert color="primary" %}}
 
-Při zobrazování <span notrans="<span notrans=" **Shape**"=""></span>, musí být součástí hierarchie dokumentů. Pokud **Shape** není součástí stromu dokumentu, pak bude vykreslený výstup prázdný po vyvolání **ShapeRenderer** metody.
+Při zobrazování **Shape**, musí být součástí hierarchie dokumentů. Pokud **Shape** není součástí stromu dokumentu, pak bude vykreslený výstup prázdný po vyvolání **ShapeRenderer** metody.
 
 {{% /alert %}}
 

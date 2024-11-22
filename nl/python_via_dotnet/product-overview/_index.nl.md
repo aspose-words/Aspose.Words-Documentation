@@ -78,7 +78,7 @@ Aspose.Words is multithread veilig zolang slechts één draad aan een document t
 
 ### Minimale leercurve
 
-Hoewel er meer dan 150 openbare klassen en opsommingen in <span notrans="<span notrans=" Aspose.Words"=""></span>,"> de leercurve is minimaal omdat de Aspose.Words API zorgvuldig is ontworpen met de volgende doelstellingen in het achterhoofd:
+Hoewel er meer dan 150 openbare klassen en opsommingen in Aspose.Words de leercurve is minimaal omdat de Aspose.Words API zorgvuldig is ontworpen met de volgende doelstellingen in het achterhoofd:
 
 - Lenen van beste praktijken van andere bekende APIs Microsoft Word Automatisering
 - Zorg voor een evenwicht tussen gebruiksgemak en gedetailleerde manipulatie van documenten

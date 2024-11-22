@@ -121,7 +121,7 @@ Sim, tens. Portanto, ao copiar fontes, tenha em mente que a maioria das fontes e
 
 {{% alert color="primary" %}}
 
-Você pode encontrar informações mais detalhadas sobre mail merge no [Mail Merge e Relatórios](/words/java/mail-merge-and-reporting/) seção de documentação.
+Você pode encontrar informações mais detalhadas sobre Mail Merge no [Mail Merge e Relatórios](/words/java/mail-merge-and-reporting/) seção de documentação.
 
 {{% /alert %}}
 
@@ -136,7 +136,7 @@ O nome original do campo de mesclagem permanece o mesmo sem ser substituído pel
 
 **Q: Por que a saída da fusão aninhada não exibe dados da tabela da criança para a primeira entrada na tabela pai, mas exibe todos os itens para a última entrada na tabela pai, mesmo aqueles que não estão realmente ligados a ela?**
 
-Isso porque as regiões de mesclagem no modelo não são corretamente formadas, o que pode fazer todos aninhados mail merge regiões para parar de exibir qualquer coisa. O [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) tag de abertura e a [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) tag de fechamento deve corresponder e estar na mesma linha ou célula. Por exemplo, se você começar a aninhar regiões de mesclagem em uma célula de uma tabela, você deve terminar a região de mesclagem na mesma linha que a primeira célula.
+Isso porque as regiões de mesclagem no modelo não são corretamente formadas, o que pode fazer todos aninhados Mail Merge regiões para parar de exibir qualquer coisa. O [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) tag de abertura e a [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) tag de fechamento deve corresponder e estar na mesma linha ou célula. Por exemplo, se você começar a aninhar regiões de mesclagem em uma célula de uma tabela, você deve terminar a região de mesclagem na mesma linha que a primeira célula.
 
 ------
 

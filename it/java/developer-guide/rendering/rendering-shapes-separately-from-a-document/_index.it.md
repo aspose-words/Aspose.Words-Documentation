@@ -40,7 +40,7 @@ I tipi di forma sopra descritti forniscono un metodo speciale per rendere le for
 
 {{% alert color="primary" %}}
 
-Quando si rende un <span notrans="<span notrans=" **Shape**"=""></span>> deve essere parte della gerarchia dei documenti. Se **Shape** non è una parte dell'albero del documento quindi l'output reso sarà vuoto dopo aver invocato **ShapeRenderer** metodi.
+Quando si rende un **Shape**> deve essere parte della gerarchia dei documenti. Se **Shape** non è una parte dell'albero del documento quindi l'output reso sarà vuoto dopo aver invocato **ShapeRenderer** metodi.
 
 {{% /alert %}}
 

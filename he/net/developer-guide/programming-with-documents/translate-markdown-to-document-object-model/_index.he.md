@@ -41,14 +41,14 @@ timestamp: 2024-10-21-11-17-44
 |  **Italic**<br/>`*italic text*` |  `Font.Italic = true`  |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}}  |  |
 |  **Strikethrough**<br/>`~Strikethrough text~` |  `Font.StrikeThrough = true`  |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
 builder.Font.Strikethrough = true;
 builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
 
-אנו משתמשים בסגנון אופי עם שם שמתחיל מהמילה <span notrans="<span notrans=" `InlineCode`"=""></span>" עקבו אחרי אופציונלי `(.)` מספר חזרות ```(`)``` עבור `InlineCode` תכונה. אם מספר חזרות מפספס, אז טיפול אחד ישמש כברירת מחדל.
+אנו משתמשים בסגנון אופי עם שם שמתחיל מהמילה `InlineCode` עקבו אחרי אופציונלי `(.)` מספר חזרות ```(`)``` עבור `InlineCode` תכונה. אם מספר חזרות מפספס, אז טיפול אחד ישמש כברירת מחדל.
 
 |  Markdown תכונה |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |
@@ -76,7 +76,7 @@ builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
 |  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`, שם (1=N <= 9).<br/>זה מתורגם לסגנון מובנה צריך להיות בדיוק של התבנית המפורטת (לא suffixes או prefixes מותר).<br/>אחרת, זה יהיה רק סעיף רגיל עם סגנון מתאים |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}}  |                                                                |
 |  **Setext Heading**<br/>`===` (אם רמת ראש 1)<br/>`---` (אם רמת ראש 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, מבוסס `“Heading N”` סגנון.<br/>אם (==) `“Heading 2”` ישמש, אחרת `“Heading 1”`.<br/>כל suffix מותר, אבל Aspose.Words יבוא משתמש במספרים "1" ו-"2" בהתאמה |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 builder.ParagraphFormat.StyleName = "Heading 1";
@@ -120,7 +120,7 @@ else
 |  Markdown תכונה |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **Quote**<br/>`> quote,`<br/>`>> nested quote` |  `ParagraphFormat.StyleName = “Quote[some suffix]”`<br/>suffix בשם סגנון הוא אופציונלי, אבל Aspose.Words יבוא משתמש במספרים המוזמנים 1, 2, 3, במקרה של ציטוטים מזוינים.<br/>הקן מוגדר באמצעות סגנונות תורשתיים |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // By default a document stores blockquote style for the first level.
@@ -157,7 +157,7 @@ Aspose.Words מאפשר לתרגם טבלאות DOM, כפי שמוצג להלן:
 |  Markdown תכונה |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  `Table`<br/>"a|B`<br />`- - | - -`<br />`c|d " |  [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) ו [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) שיעורים |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Add the first row.

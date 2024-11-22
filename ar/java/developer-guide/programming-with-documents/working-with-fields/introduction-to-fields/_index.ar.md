@@ -37,7 +37,7 @@ Aspose.Words هي مكتبة صنف مصممة لتجهيز جانب الخاد�
 
 ## الحقول في Aspose.Words Document Object Model )أ(DOM)
 
-عندما يتم تحميل الوثيقة <span notrans="<span notrans=" Aspose.Words"=""></span>" تُحمَّل في ميادين الوثيقة Aspose.Words Document Object Model كمجموعة من المكونات المنفصلة (المواضيع). حقل واحد محمول كمجموعة **FieldStart**, **FieldSeparator** و **FieldEnd** يَعْرفُ إلى جانب المضمونِ في بين هذه العقداتِ. إذا لم يكن للميدان نتيجة ميدانية فلن يكون هناك **FieldSeparator** موكب All of these nodes are always found inline (as children of [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) أو [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/).
+عندما يتم تحميل الوثيقة Aspose.Words تُحمَّل في ميادين الوثيقة Aspose.Words Document Object Model كمجموعة من المكونات المنفصلة (المواضيع). حقل واحد محمول كمجموعة **FieldStart**, **FieldSeparator** و **FieldEnd** يَعْرفُ إلى جانب المضمونِ في بين هذه العقداتِ. إذا لم يكن للميدان نتيجة ميدانية فلن يكون هناك **FieldSeparator** موكب All of these nodes are always found inline (as children of [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) أو [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/).
 
 In Aspose.Words كل من **FieldXXX** النوايا مستمدة من [FieldChar](https://reference.aspose.com/words/java/com.aspose.words/fieldchar/). توفر هذه الفئة ممتلكات للتحقق من نوع الحقل الذي يمثله العقد المحدد من خلال [FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) ملكية على سبيل المثال `FieldType.FieldMergeField` يمثل مجالاً كبيراً في الوثيقة
 
@@ -174,9 +174,9 @@ Aspose.Words دعم جميع المفاتيح المتاحة في شكل موا�
 
 ### Mail Merge الحقول
 
-Aspose.Words لا يفرض أي حد لتعقيد mail merge الحقول في وثائقك ودعمها `IF` بل يمكن أن يحسب اسم الميدان المدمج باستخدام صيغة.
+Aspose.Words لا يفرض أي حد لتعقيد Mail Merge الحقول في وثائقك ودعمها `IF` بل يمكن أن يحسب اسم الميدان المدمج باستخدام صيغة.
 
-بعض الأمثلة mail merge الحقول Aspose.Words الدعم:
+بعض الأمثلة Mail Merge الحقول Aspose.Words الدعم:
 
 - Mail merge التحولات الميدانية:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -223,6 +223,6 @@ Aspose.Words لا يفرض أي حد لتعقيد mail merge الحقول في �
 
 The [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) الدرجة توفر [FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/document/#getFieldOptions) الممتلكات التي تحتوي على أعضاء يمكن استخدامها لمراقبة كيفية تحديث الحقول في الوثيقة.
 
-ويبيّن المثال الرمزي التالي كيفية تحديد المكان الذي استخدمت فيه الثقافة لتكوينها في تاريخ آخر المستجدات الميدانية mail merge يُختار من:
+ويبيّن المثال الرمزي التالي كيفية تحديد المكان الذي استخدمت فيه الثقافة لتكوينها في تاريخ آخر المستجدات الميدانية Mail Merge يُختار من:
 
 النفقات

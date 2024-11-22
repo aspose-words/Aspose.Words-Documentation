@@ -104,7 +104,7 @@ Poniższy przykład kodu pokazuje jak dodać `MERGE` użycie pola DOM do ustępu
 
 ### Wprowadzanie Mail Merge `ADDRESSBLOCK` pole w dokumencie DOM
 
-W `ADDRESSBLOCK` pole jest używane do wprowadzenia mail merge blok adresu w dokumencie Word. `ADDRESSBLOCK` pole w dokumencie Word może być reprezentowane przez [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) Klasa. Możesz użyć **FieldAddressBlock** klasa do wykonywania następujących operacji:
+W `ADDRESSBLOCK` pole jest używane do wprowadzenia Mail Merge blok adresu w dokumencie Word. `ADDRESSBLOCK` pole w dokumencie Word może być reprezentowane przez [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) Klasa. Możesz użyć **FieldAddressBlock** klasa do wykonywania następujących operacji:
 
 - określić, czy włączyć nazwę kraju / regionu do pola
 - określić, czy należy formatować adres w zależności od kraju / regionu odbiorcy w rozumieniu POST * CODE (Universal Postal Union 2006)
@@ -146,7 +146,7 @@ W `ASK` pole służy do wywołania przez użytkownika tekstu przypisania do zak�
 
 - podać nazwę zakładki
 - określenie domyślnej odpowiedzi użytkownika (wartość początkowa zawarta w oknie "prompt")
-- określić, czy odpowiedź użytkownika powinna być odbierana raz na mail merge działanie
+- określić, czy odpowiedź użytkownika powinna być odbierana raz na Mail Merge działanie
 - określić tekst (tytuł okna)
 
 {{% alert color="primary" %}}

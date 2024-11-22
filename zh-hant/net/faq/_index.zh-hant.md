@@ -129,7 +129,7 @@ Aspose.Words for .NET支援大多數流行的文件格式，例如 DOC、DOCX、
 
 {{% alert color="primary" %}}
 
-您可以在 [Mail Merge and Reporting](/words/net/mail-merge-and-reporting/) 文檔部分找到有關 mail merge 的詳細資訊。
+您可以在 [Mail Merge and Reporting](/words/net/mail-merge-and-reporting/) 文檔部分找到有關 Mail Merge 的詳細資訊。
 
 {{% /alert %}}
 
@@ -144,7 +144,7 @@ Aspose.Words for .NET支援大多數流行的文件格式，例如 DOC、DOCX、
 
 **Q:為什麼嵌套結合的輸出會從子表中省略母表第一筆資料，但卻顯示母表最後一筆資料的所有項目，即使這些項目並非與它相連結？**
 
-這是因為模板中併合區域沒有正確形成，這可以讓所有嵌套的 mail merge 區域完全停止顯示。 [StartTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starttable/)開頭標籤和[EndTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endtable/)結尾標籤必須匹配且在同一個欄或細胞中。 例如，如果您在表格的一單元格中開始嵌套合併區域，您必須在相同的行中結束合併區域，就像第一單元格一樣。
+這是因為模板中併合區域沒有正確形成，這可以讓所有嵌套的 Mail Merge 區域完全停止顯示。 [StartTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starttable/)開頭標籤和[EndTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endtable/)結尾標籤必須匹配且在同一個欄或細胞中。 例如，如果您在表格的一單元格中開始嵌套合併區域，您必須在相同的行中結束合併區域，就像第一單元格一樣。
 
 ------
 
@@ -157,7 +157,7 @@ Aspose.Words for .NET支援大多數流行的文件格式，例如 DOC、DOCX、
 
 ------
 
-**Q:為什麼會出現『System.ArgumentException:此限制無法啟用，因為所有值都沒有對應的父值』的例外狀況，當執行嵌套的 mail merge 時？**
+**Q:為什麼會出現『System.ArgumentException:此限制無法啟用，因為所有值都沒有對應的父值』的例外狀況，當執行嵌套的 Mail Merge 時？**
 
 這發生在不是每個父紀錄都有子紀錄所以您的資料源不符合下列條件：*每個資料列在父表中應該與子表中的資料列一對一關係，根據主要鍵和外鍵*。
 

@@ -174,9 +174,9 @@ Aspose.Words acceptă toate comutatoarele de formatare a datei și orei disponib
 
 ### Mail Merge câmpuri
 
-Aspose.Words nu impune nicio limită complexității câmpurilor mail merge din documentele dvs. și acceptă câmpurile imbricate `IF` și formula și poate chiar calcula numele câmpului de îmbinare folosind o formulă.
+Aspose.Words nu impune nicio limită complexității câmpurilor Mail Merge din documentele dvs. și acceptă câmpurile imbricate `IF` și formula și poate chiar calcula numele câmpului de îmbinare folosind o formulă.
 
-Câteva exemple de câmpuri mail merge pe care Aspose.Words le acceptă:
+Câteva exemple de câmpuri Mail Merge pe care Aspose.Words le acceptă:
 
 - Mail merge comutatoare de câmp:
 `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`

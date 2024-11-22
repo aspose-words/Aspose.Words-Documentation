@@ -5,7 +5,7 @@ articleTitle: Bereinigen vor oder während einer Mail Merge-Operation
 linktitle: Bereinigen vor oder während einer Mail Merge-Operation
 type: docs
 description: "Wenden Sie verschiedene Bereinigungs- und Entfernungsoptionen an, z. B. das Löschen von Seriendruckfeldern, bevor Sie einen mail merge-Vorgang ausführen, oder das Entfernen nicht verwendeter Bereiche während eines mail merge-Vorgangs."
-keywords: "cleanup options mail merge c#"
+keywords: "cleanup options Mail Merge c#"
 weight: 10
 url: /de/cpp/clean-up-before-or-during-mail-merge/
 timestamp: 2024-01-27-14-07-04
@@ -41,15 +41,15 @@ Sie können ein Seriendruckfeld unter einer der folgenden Bedingungen als nicht 
 
 {{% alert color="primary" %}}
 
-Wenn Sie Daten mit separaten Datenquellen zusammenführen, werden diese Entfernungsoptionen nur mit dem letzten Aufruf der mail merge execute Methode aktiviert.
+Wenn Sie Daten mit separaten Datenquellen zusammenführen, werden diese Entfernungsoptionen nur mit dem letzten Aufruf der Mail Merge execute Methode aktiviert.
 
 {{% /alert %}}
 
 ### Leere Absätze entfernen
 
-Ein Absatz, der nur Seriendruckfelder enthält, ist leer, wenn der mail merge-Prozess alle seine Seriendruckfelder als nicht zusammengeführt entfernt. Diese leeren Absätze können unerwünschten Platz hinzufügen und das Aussehen des generierten Berichts ändern. Während einer mail merge -Operation können zwei Situationen mit Absätzen auftreten:
+Ein Absatz, der nur Seriendruckfelder enthält, ist leer, wenn der mail merge-Prozess alle seine Seriendruckfelder als nicht zusammengeführt entfernt. Diese leeren Absätze können unerwünschten Platz hinzufügen und das Aussehen des generierten Berichts ändern. Während einer Mail Merge -Operation können zwei Situationen mit Absätzen auftreten:
 
-1. Das Feld mail merge wird mit leeren Daten zusammengeführt.
+1. Das Feld Mail Merge wird mit leeren Daten zusammengeführt.
 2. Das Seriendruckfeld wird nicht verwendet und entfernt.
 
 In beiden Fällen entfernt die Option **RemoveEmptyParagraphs** automatisch leere Absätze aus dem Dokument. Außerdem werden die Seriendruckfelder `TableStart` und TableEnd entfernt, wenn der Rest des Absatzes leer ist.

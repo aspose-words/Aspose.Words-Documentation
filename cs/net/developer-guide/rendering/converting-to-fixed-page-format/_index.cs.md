@@ -50,7 +50,7 @@ Dispozice stránky počítá, kde se objeví text a jaký obsah bude za ním př
 
 ![converting-to-fixed-page-format_2](/words/net/converting-to-fixed-page-format/converting-to-fixed-page-format-2.png)
 
-In <span notrans="<span notrans=" Aspose.Words"=""></span>,? uživatel může požádat o vytvoření nového rozvržení stránky, nebo aktualizovat existující. Obojí může být provedeno [UpdatePageLayout](https://reference.aspose.com/words/net/aspose.words/document/updatepagelayout/) metoda podle [Document](https://reference.aspose.com/words/net/aspose.words/document/) třída. Pokud návrh stránky neexistuje, ale je třeba (například při vývozu dokumentu do pevného formátu), Aspose.Words automaticky volá tuto metodu. Pokud však již existuje rozložení stránky, Aspose.Words použije stávající, aby se zabránilo spotřebě zdrojů nezbytných k jeho aktualizaci. V tomto případě musí uživatel zavolat `UpdatePageLayout` metoda, aby bylo zajištěno, že rozložení stránky je aktuální s modelem dokumentu.
+In Aspose.Words,? uživatel může požádat o vytvoření nového rozvržení stránky, nebo aktualizovat existující. Obojí může být provedeno [UpdatePageLayout](https://reference.aspose.com/words/net/aspose.words/document/updatepagelayout/) metoda podle [Document](https://reference.aspose.com/words/net/aspose.words/document/) třída. Pokud návrh stránky neexistuje, ale je třeba (například při vývozu dokumentu do pevného formátu), Aspose.Words automaticky volá tuto metodu. Pokud však již existuje rozložení stránky, Aspose.Words použije stávající, aby se zabránilo spotřebě zdrojů nezbytných k jeho aktualizaci. V tomto případě musí uživatel zavolat `UpdatePageLayout` metoda, aby bylo zajištěno, že rozložení stránky je aktuální s modelem dokumentu.
 
 ### Dynamická struktura
 

@@ -28,7 +28,7 @@ De Aspose.Words [Document](https://reference.aspose.com/words/net/aspose.words/d
 
 De juiste manier om documenten af te drukken volgens Microsoft is door het gebruik van de onbeheerde XpsPrint API. Dit API is beschikbaar op Windows 7, Windows Server 2008 R2, en op Windows Vista verstrekte de Platform Update voor Windows Vista is geïnstalleerd.
 
-Sinds Aspose.Words kan gemakkelijk een document converteren naar <span notrans="<span notrans=" XPS"=""></span>,"> u hoeft alleen de code die een XPS document aan de `XpsPrint` API. Het enige probleem is dat de `XpsPrint` API is niet beheerd en vereist enige kennis van de Platform Invoce technologie.
+Sinds Aspose.Words kan gemakkelijk een document converteren naar XPS u hoeft alleen de code die een XPS document aan de `XpsPrint` API. Het enige probleem is dat de `XpsPrint` API is niet beheerd en vereist enige kennis van de Platform Invoce technologie.
 
 Om een document af te drukken, Aspose.Words levert een **XpsPrintHelper** klasse bevat een eenvoudige afdrukmethode, waarbij u alleen de volgende parameters hoeft op te geven (zie meer details in het artikel [Document afdrukken via XPS API](/words/net/missing-features-in-openxml/)):
 

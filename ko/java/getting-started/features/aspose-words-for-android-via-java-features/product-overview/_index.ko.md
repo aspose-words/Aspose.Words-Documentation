@@ -41,7 +41,7 @@ Aspose.Words 제품정보 Android 이름 * Java 한 번에 문서에 한 번만 
 
 ### Minimal 학습 곡선
 
-150 개 이상의 공공 클래스와 침입이 있지만 Aspose.Words 제품정보 Android 이름 * <span notrans="<span notrans=" Java"=""></span>· 학습 곡선은 최소이므로 Aspose.Words 제품정보 Android 이름 * Java API 다음 목표를 염두에두고 신중하게 설계되었습니다:
+150 개 이상의 공공 클래스와 침입이 있지만 Aspose.Words 제품정보 Android 이름 * Java· 학습 곡선은 최소이므로 Aspose.Words 제품정보 Android 이름 * Java API 다음 목표를 염두에두고 신중하게 설계되었습니다:
 
 - 다른 잘 알려진 최고의 관행 API같은 s Microsoft Word 자동화.
 - 업계 최고의 관행 Java · Android 디자인 가이드.

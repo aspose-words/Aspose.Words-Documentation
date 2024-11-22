@@ -51,7 +51,7 @@ Tasarım ölçümleri Windows ve non-Windows OS farklı olduğundan, Aspose.Word
 
 #### Where Aspose.Words Looks for TrueType Fonts on Linux
 
-Farklı Linux dağıtımlar yazı tiplerini farklı klasörlerde saklayabilir. Aspose.Words birkaç yerde yazı tipleri arar. Varsayılan olarak Aspose.Words, tüm aşağıdaki konumlarda yazı tiplerini arar: * /usr/share/fonts* /usr/local/share/fonts* /usr/X11R6/lib/X11/fontsBu varsayılan davranış çoğu Linux dağıtımı için çalışacaktır, ancak bu durumda true tipi yazı tiplerinin konumunu açıkça belirtmeniz gerekir. Bunu yapmak için, Linux dağıtımda TrueType yazı tiplerinin nerede kurulduğunu bilmeniz gerekir.
+Farklı Linux dağıtımlar yazı tiplerini farklı klasörlerde saklayabilir. Aspose.Words birkaç yerde yazı tipleri arar. Varsayılan olarak Aspose.Words, tüm aşağıdaki konumlarda yazı tiplerini arar: `/usr/share/fonts` `/usr/local/share/fonts` `/usr/X11R6/lib/X11/fonts`Bu varsayılan davranış çoğu Linux dağıtımı için çalışacaktır, ancak bu durumda true tipi yazı tiplerinin konumunu açıkça belirtmeniz gerekir. Bunu yapmak için, Linux dağıtımda TrueType yazı tiplerinin nerede kurulduğunu bilmeniz gerekir.
 
 #### Mac OS X'de Where Aspose.Words Looks for TrueType Fonts
 

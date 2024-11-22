@@ -61,7 +61,7 @@ Aspose.Words يسمح لك بتحديث كامل `TOC` مع بعض خطوط ال
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertATableOfContentsField-UpdateTableOfContents.java" >}}
 
-النداء الأول [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) سيبني <span notrans="<span notrans=" `TOC`"=""></span>" جميع النصوص مأهولة بالسكان `TOC` يبدو مكتملاً والشيء الوحيد المفقود هو أرقام الصفحات التي تظهر الآن ب " ؟ ".
+النداء الأول [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) سيبني `TOC`" جميع النصوص مأهولة بالسكان `TOC` يبدو مكتملاً والشيء الوحيد المفقود هو أرقام الصفحات التي تظهر الآن ب " ؟ ".
 
 النداء الثاني [Document.updatePageLayout()](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout) سيبني تصميم الوثيقة في الذاكرة. وينبغي القيام بذلك لجمع عدد الصفحات من القيد. The correct page numbers calculated from this call are then inserted into the TOC.
 

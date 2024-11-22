@@ -121,7 +121,7 @@ Sí. Por lo tanto, al copiar fuentes, tenga en cuenta que la mayoría de las fue
 
 {{% alert color="primary" %}}
 
-Usted puede encontrar información más detallada sobre mail merge en el [Mail Merge and Reporting](/words/java/mail-merge-and-reporting/) Sección de documentación.
+Usted puede encontrar información más detallada sobre Mail Merge en el [Mail Merge and Reporting](/words/java/mail-merge-and-reporting/) Sección de documentación.
 
 {{% /alert %}}
 
@@ -136,7 +136,7 @@ El nombre original del campo de fusión se mantiene igual sin ser reemplazado po
 
 **Q: ¿Por qué la salida de la fusión anidada no muestra datos de la tabla infantil para la primera entrada en la tabla de padres, sino que muestra todos los elementos para la última entrada en la tabla de padres, incluso aquellos que no están realmente vinculados a ella?**
 
-Esto se debe a que las regiones de fusión de la plantilla no están correctamente formadas, que pueden hacer todos anidados mail merge regiones para dejar de mostrar nada. El [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) la etiqueta de apertura y el [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) cerrar la etiqueta debe coincidir y estar en la misma fila o celda. Por ejemplo, si empiezas a anidar regiones de fusión en una celda de una mesa, debes terminar la región de fusión en la misma fila que la primera célula.
+Esto se debe a que las regiones de fusión de la plantilla no están correctamente formadas, que pueden hacer todos anidados Mail Merge regiones para dejar de mostrar nada. El [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) la etiqueta de apertura y el [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) cerrar la etiqueta debe coincidir y estar en la misma fila o celda. Por ejemplo, si empiezas a anidar regiones de fusión en una celda de una mesa, debes terminar la región de fusión en la misma fila que la primera célula.
 
 ------
 

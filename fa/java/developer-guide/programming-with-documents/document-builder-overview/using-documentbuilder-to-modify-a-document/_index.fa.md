@@ -204,7 +204,7 @@ Aspose.Words دو ویژگی را فراهم می کند `ParagraphFormat.SnapTo
 
 ### حرکت به یک `Merge` Field Field
 
-گاهی اوقات شما ممکن است نیاز به انجام یک "مدیریتی" داشته باشید. mail merge استفاده از `DocumentBuilder` یا یک فیلد ادغام شده را در یک راه خاص در داخل یک mail merge داور رویداد این زمانی است که [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) می تواند مفید باشد. این روش نام میدان ادغام را می پذیرد. این حرکت را به یک موقعیت فقط فراتر از زمینه ادغام مشخص و حذف میدان ادغام. مثال کد زیر نشان می دهد که چگونه نما را به یک موقعیت فقط فراتر از زمینه ادغام مشخص شده حرکت دهید.
+گاهی اوقات شما ممکن است نیاز به انجام یک "مدیریتی" داشته باشید. Mail Merge استفاده از `DocumentBuilder` یا یک فیلد ادغام شده را در یک راه خاص در داخل یک Mail Merge داور رویداد این زمانی است که [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) می تواند مفید باشد. این روش نام میدان ادغام را می پذیرد. این حرکت را به یک موقعیت فقط فراتر از زمینه ادغام مشخص و حذف میدان ادغام. مثال کد زیر نشان می دهد که چگونه نما را به یک موقعیت فقط فراتر از زمینه ادغام مشخص شده حرکت دهید.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToMergeField-DocumentBuilderMoveToMergeField.java" >}}
 

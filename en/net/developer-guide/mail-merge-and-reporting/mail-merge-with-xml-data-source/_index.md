@@ -4,16 +4,16 @@ second_title: Aspose.Words for .NET
 articleTitle: Mail Merge with XML Data Source
 linktitle: Mail Merge with XML Data Source
 type: docs
-description: "Use a variety of data sources when performing a mail merge operation, including an XML file using C#. The main advantage of using XML is the ability to define a hierarchy directly in the document."
+description: "Use a variety of data sources when performing a Mail Merge operation, including an XML file using C#. The main advantage of using XML is the ability to define a hierarchy directly in the document."
 keywords: "mail merge xml data source c#"
 weight: 30
 url: /net/mail-merge-with-xml-data-source/
 timestamp: 2024-07-11-08-07-06
 ---
 
-You can use a variety of data sources when performing a mail merge operation, including an XML file. The main advantage of using XML is the ability to define a hierarchy right in the document and then simply pass it to Aspose.Words.
+You can use a variety of data sources when performing a Mail Merge operation, including an XML file. The main advantage of using XML is the ability to define a hierarchy right in the document and then simply pass it to Aspose.Words.
 
-This article will describe how to read data from an XML file rather than directly from a database and include XML as the data source to perform a mail merge operation.
+This article will describe how to read data from an XML file rather than directly from a database and include XML as the data source to perform a Mail Merge operation.
 
 ## Advantages of XML As a Data Source
 
@@ -25,9 +25,9 @@ Since XML stores data in plain text format, the storage is platform-independent.
 
 ## Filling a Merge Template with Data from XML using DataSet
 
-XML is the universal standard for data interchange, and Microsoft Word document formats are the most popular formats for mail merge templates. Therefore, the ability to run a mail merge from an XML file to a Word template document has become a common requirement.
+XML is the universal standard for data interchange, and Microsoft Word document formats are the most popular formats for Mail Merge templates. Therefore, the ability to run a Mail Merge from an XML file to a Word template document has become a common requirement.
 
-Microsoft Word does not provide a direct method to work with XML data as a data source for a mail merge operation, while Aspose.Words allows you to perform a mail merge operation with data from an XML data source. Note that the structure of the XML document can also be varied and the data will still be read correctly. This allows different types of XML documents to be merged easily.
+Microsoft Word does not provide a direct method to work with XML data as a data source for a Mail Merge operation, while Aspose.Words allows you to perform a Mail Merge operation with data from an XML data source. Note that the structure of the XML document can also be varied and the data will still be read correctly. This allows different types of XML documents to be merged easily.
 
 Use the `ReadXML` method to read the XML schema and data into the `DataSet` object. This object is then used as a data source for a mail merge.
 
@@ -59,10 +59,10 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 {{% /alert %}}
 
-You can notice the difference between the template before executing the mail merge operation:
+You can notice the difference between the template before executing the Mail Merge operation:
 
 <img src="fill-merge-template-from-xml-using-dataset-1.png" alt="fill_merge_template_from_xml_using_dataset" style="width:250px"/>
 
-And after executing the mail merge operation:
+And after executing the Mail Merge operation:
 
 <img src="fill-merge-template-from-xml-using-dataset-2.png" alt="fill_merge_template_from_xml" style="width:285px"/>

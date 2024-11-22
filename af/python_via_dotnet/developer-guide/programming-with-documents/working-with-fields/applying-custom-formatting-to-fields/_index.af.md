@@ -16,7 +16,7 @@ Om meer opsies te leer, sien die volledige lys van eienskappe vir elke veld tipe
 
 ## Hoe om `IF` toestand te evalueer
 
-As jy `IF` toestand na mail merge wil evalueer, kan jy die [EvaluateCondition](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldif/evaluate_condition/) metode gebruik wat onmiddellik die resultaat van die uitdrukking evaluering teruggee.
+As jy `IF` toestand na Mail Merge wil evalueer, kan jy die [EvaluateCondition](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldif/evaluate_condition/) metode gebruik wat onmiddellik die resultaat van die uitdrukking evaluering teruggee.
 
 Die volgende kode voorbeeld toon hoe om hierdie metode te gebruik:
 

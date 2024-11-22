@@ -94,7 +94,7 @@ timestamp: 2024-01-27-14-07-04
 
 ### Вставка поля адресного блока Mail Merge в документ с использованием DOM
 
-Поле `ADDRESSBLOCK` используется для вставки адресного блока mail merge в документ Word. Поле `ADDRESSBLOCK` в документе Word может быть представлено классом [FieldAddressBlock](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldaddressblock/). Класс **FieldAddressBlock** можно использовать для выполнения следующих операций:
+Поле `ADDRESSBLOCK` используется для вставки адресного блока Mail Merge в документ Word. Поле `ADDRESSBLOCK` в документе Word может быть представлено классом [FieldAddressBlock](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldaddressblock/). Класс **FieldAddressBlock** можно использовать для выполнения следующих операций:
 
 - укажите, следует ли указывать название страны/региона в этом поле
 - укажите, следует ли форматировать адрес в соответствии со страной/регионом получателя, указанным в почтовом индексе* (Всемирный почтовый союз, 2006)

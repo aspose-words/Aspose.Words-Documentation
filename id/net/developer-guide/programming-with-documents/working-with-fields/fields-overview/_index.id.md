@@ -174,9 +174,9 @@ Aspose.Words mendukung semua sakelar pemformatan tanggal dan waktu yang tersedia
 
 ### Bidang Mail Merge
 
-Aspose.Words tidak memberikan batasan pada kompleksitas bidang mail merge di dokumen Anda dan mendukung `IF` bertingkat dan bidang rumus dan bahkan dapat menghitung nama bidang gabungan menggunakan rumus.
+Aspose.Words tidak memberikan batasan pada kompleksitas bidang Mail Merge di dokumen Anda dan mendukung `IF` bertingkat dan bidang rumus dan bahkan dapat menghitung nama bidang gabungan menggunakan rumus.
 
-Beberapa contoh kolom mail merge yang didukung Aspose.Words:
+Beberapa contoh kolom Mail Merge yang didukung Aspose.Words:
 
 - Sakelar bidang Mail merge:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -223,6 +223,6 @@ Di sisi lain, Microsoft Word memformat setiap bidang berdasarkan bahasa teks yan
 
 Kelas [Document](https://reference.aspose.com/words/net/aspose.words/document/) menyediakan properti [FieldOptions](https://reference.aspose.com/words/net/aspose.words/document/fieldoptions/) yang berisi anggota yang dapat digunakan untuk mengontrol bagaimana bidang diperbarui dalam dokumen.
 
-Contoh kode berikut menunjukkan cara menentukan dari mana budaya yang digunakan untuk pemformatan tanggal selama pembaruan bidang dan mail merge dipilih:
+Contoh kode berikut menunjukkan cara menentukan dari mana budaya yang digunakan untuk pemformatan tanggal selama pembaruan bidang dan Mail Merge dipilih:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-ChangeFieldUpdateCultureSource-ChangeFieldUpdateCultureSource.cs" >}}

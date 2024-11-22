@@ -19,7 +19,7 @@ Když je dokument naložen, Aspose.Words napodobuje chování Microsoft Word s m
 - když otevřete/zachráníte dokument, pole zůstanou neporušená
 - můžete explicitně aktualizovat všechna pole v dokumentu (např. obnovit TOC), když potřebujete
 - při tisku/předložení do PDF nebo XPS jsou aktualizována pole týkající se počtu stránek v hlavičkách/nozích
-- při popravě mail merge všechna pole jsou automaticky aktualizována
+- při popravě Mail Merge všechna pole jsou automaticky aktualizována
 
 ### Aktualizovat pole programově
 
@@ -43,11 +43,11 @@ Soubor vzorku tohoto příkladu si můžete stáhnout z [Aspose.Words GitHub](ht
 
 ### Automatická aktualizace pole v průběhu Mail Merge
 
-Když provedete <span notrans="<span notrans=" mail merge"=""></span>,? všechna pole v dokumentu budou automaticky aktualizována. To proto, že mail merge je případ aktualizace pole. Program potká mail merge pole a potřebuje aktualizovat svůj výsledek, který zahrnuje uchopení hodnoty ze zdroje dat a její vložení do pole. Logika je samozřejmě složitější, například když končí dokument/mail merge Oblast je dosažena, ale ještě existují další údaje, které je třeba sloučit, pak je třeba region duplikovat a aktualizovat nový soubor polí.
+Když provedete mail merge,? všechna pole v dokumentu budou automaticky aktualizována. To proto, že Mail Merge je případ aktualizace pole. Program potká Mail Merge pole a potřebuje aktualizovat svůj výsledek, který zahrnuje uchopení hodnoty ze zdroje dat a její vložení do pole. Logika je samozřejmě složitější, například když končí dokument/mail merge Oblast je dosažena, ale ještě existují další údaje, které je třeba sloučit, pak je třeba region duplikovat a aktualizovat nový soubor polí.
 
 ## Aktualizovat pole mající špinavý atribut
 
-W:dirty je atribut úrovně pole, který obnoví pouze pole, které určíte při otevření dokumentu. Říká MS Word pouze obnovit toto pole, až se dokument otevře příště. Můžete použít [update_dirty_fields](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/update_dirty_fields/) vlastnost určit, zda aktualizovat pole se špinavým atributem. Pokud hodnota **update_dirty_fields** je nastavena na <span notrans="<span notrans=" `True`"=""></span>,? všechna pole `True` hodnota [Field.is_dirty](https://reference.aspose.com/words/python-net/aspose.words.fields/field/is_dirty/) nebo [FieldChar.is_dirty](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldchar/is_dirty/) vlastnost je aktualizována při zatížení dokumentu.
+W:dirty je atribut úrovně pole, který obnoví pouze pole, které určíte při otevření dokumentu. Říká MS Word pouze obnovit toto pole, až se dokument otevře příště. Můžete použít [update_dirty_fields](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/update_dirty_fields/) vlastnost určit, zda aktualizovat pole se špinavým atributem. Pokud hodnota **update_dirty_fields** je nastavena na `True`,? všechna pole `True` hodnota [Field.is_dirty](https://reference.aspose.com/words/python-net/aspose.words.fields/field/is_dirty/) nebo [FieldChar.is_dirty](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldchar/is_dirty/) vlastnost je aktualizována při zatížení dokumentu.
 
 Následující příklad kódu ukazuje, jak aktualizovat pole se špinavým atributem:
 

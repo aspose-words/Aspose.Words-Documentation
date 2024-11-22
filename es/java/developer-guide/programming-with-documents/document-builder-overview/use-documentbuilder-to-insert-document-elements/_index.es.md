@@ -153,7 +153,7 @@ Los clientes pueden especificar Locale a nivel de campo ahora y puede lograr un 
 
 ## Insertar HTML
 
-Puede insertar fácilmente una cadena HTML que contenga un fragmento HTML o documento HTML completo en el documento de Word. Pasa esta cuerda al DocumentBuilder. insertar Método Html. Una de las implementaciones útiles del método es almacenar una cadena HTML en una base de datos e insertarla en el documento durante mail merge para obtener el contenido formateado añadido en lugar de construirlo utilizando varios métodos del constructor de documentos. El siguiente ejemplo de código muestra insertar HTML en un documento usando DocumentBuilder.
+Puede insertar fácilmente una cadena HTML que contenga un fragmento HTML o documento HTML completo en el documento de Word. Pasa esta cuerda al DocumentBuilder. insertar Método Html. Una de las implementaciones útiles del método es almacenar una cadena HTML en una base de datos e insertarla en el documento durante Mail Merge para obtener el contenido formateado añadido en lugar de construirlo utilizando varios métodos del constructor de documentos. El siguiente ejemplo de código muestra insertar HTML en un documento usando DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHtml-DocumentBuilderInsertHtml.java" >}}
 

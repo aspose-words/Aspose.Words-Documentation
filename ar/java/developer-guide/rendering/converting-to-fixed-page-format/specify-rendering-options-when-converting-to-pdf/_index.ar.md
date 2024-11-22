@@ -32,7 +32,7 @@ Aspose.Words محرك التصميم يحد من الطريق Microsoft Wordيع
 
 ومن الممكن أيضا تصدير استمارات يمكن ملؤها من Microsoft Word (أ) وثيقة في الناتج PDF، التي لها نماذج قابلة للملأ بدلاً من نص واضح. استخدام [PreserveFormFields](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getPreserveFormFields) (ب) الممتلكات التي تُوفّر مستنداً في شكل PDF بأشكال يمكن ملؤها.
 
-Note that in contrast to <span notrans="<span notrans=" Microsoft Word"=""></span>" The PDF format has a limited number of options for editable forms, such as textbox, combo box, and checkbox. Microsoft Word وله أشكال أكثر من ذلك، على سبيل المثال، مختار تاريخ التقويم. وعموماً، ليس من الممكن التقيُّد الكامل Microsoft Word السلوك في PDF. ولذلك، في بعض الحالات المعقدة، قد يختلف ناتج قوات الدفاع الشعبي عما تراه في Microsoft Word.
+Note that in contrast to Microsoft Word" The PDF format has a limited number of options for editable forms, such as textbox, combo box, and checkbox. Microsoft Word وله أشكال أكثر من ذلك، على سبيل المثال، مختار تاريخ التقويم. وعموماً، ليس من الممكن التقيُّد الكامل Microsoft Word السلوك في PDF. ولذلك، في بعض الحالات المعقدة، قد يختلف ناتج قوات الدفاع الشعبي عما تراه في Microsoft Word.
 
 ويبيّن المثال الرمزي الوارد أدناه كيفية إنقاذ وثيقة من قبيل PDF بأشكال يمكن ملؤها بضغط ونوعية محددين من طراز Jpeg:
 

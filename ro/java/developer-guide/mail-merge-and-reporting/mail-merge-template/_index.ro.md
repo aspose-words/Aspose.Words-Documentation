@@ -4,26 +4,26 @@ second_title: Aspose.Words pentru Java
 articleTitle: Mail Merge șablon
 linktitle: Mail Merge șablon
 type: docs
-description: "Creați un șablon mail merge pentru a defini conținutul fix în documentele de ieșire, apoi generați documente de îmbinare folosind câmpurile de îmbinare din Java."
-keywords: "create mail merge template Java, Mail Merge Java"
+description: "Creați un șablon Mail Merge pentru a defini conținutul fix în documentele de ieșire, apoi generați documente de îmbinare folosind câmpurile de îmbinare din Java."
+keywords: "create Mail Merge template Java, Mail Merge Java"
 weight: 10
 url: /ro/java/mail-merge-template/
 timestamp: 2024-01-31-14-23-37
 ---
 
-Este obișnuit să se utilizeze un șablon de îmbinare ca document de bază pentru o operație mail merge fie dacă este un simplu mail merge sau mail merge cu regiuni. Mail merge cu regiuni este mai puternic și mai popular decât simplul mail merge. Un simplu mail merge este considerat ca un caz particular al mail merge cu regiuni în care regiunea este întregul document. Totul este explicat în articolul următor " tipuri de operații Mail Merge" mai detaliat.
+Este obișnuit să se utilizeze un șablon de îmbinare ca document de bază pentru o operație Mail Merge fie dacă este un simplu Mail Merge sau Mail Merge cu regiuni. Mail merge cu regiuni este mai puternic și mai popular decât simplul mail merge. Un simplu Mail Merge este considerat ca un caz particular al Mail Merge cu regiuni în care regiunea este întregul document. Totul este explicat în articolul următor " tipuri de operații Mail Merge" mai detaliat.
 
-Șablonul asigură că textul din documentul îmbinat de ieșire este formatat corect, iar operația mail merge garantează că textul din sursa de date este introdus corect în șablonul de îmbinare.
+Șablonul asigură că textul din documentul îmbinat de ieșire este formatat corect, iar operația Mail Merge garantează că textul din sursa de date este introdus corect în șablonul de îmbinare.
 
-Aspose.Words oferă posibilitatea de a crea un șablon mail merge pentru a defini conținut fix și apoi pentru a genera documente de îmbinare folosind câmpurile de îmbinare. Astfel, șablonul de îmbinare va avea textul necesar, care este același în toate documentele de ieșire, și câmpurile de îmbinare pentru a completa conținutul în schimbare. Ca rezultat, informațiile din sursa de date specificată vor fi adăugate la șablonul de îmbinare prin aceste câmpuri în timpul generării documentului îmbinat.
+Aspose.Words oferă posibilitatea de a crea un șablon Mail Merge pentru a defini conținut fix și apoi pentru a genera documente de îmbinare folosind câmpurile de îmbinare. Astfel, șablonul de îmbinare va avea textul necesar, care este același în toate documentele de ieșire, și câmpurile de îmbinare pentru a completa conținutul în schimbare. Ca rezultat, informațiile din sursa de date specificată vor fi adăugate la șablonul de îmbinare prin aceste câmpuri în timpul generării documentului îmbinat.
 
 ## Ce este un șablon Mail Merge
 
-Un șablon mail merge este un document personalizat care conține datele fixe și câmpurile îmbinate unde doriți să fie textul variabil. Un șablon de îmbinare poate fi în orice format care acceptă câmpuri, de exemplu, DOC, DOCX, DOT, DOTX, RTF. În plus, puteți utiliza și șablonul mustache Care este explicat în articolul "Mustache sintaxa șablonului" mai detaliat.
+Un șablon Mail Merge este un document personalizat care conține datele fixe și câmpurile îmbinate unde doriți să fie textul variabil. Un șablon de îmbinare poate fi în orice format care acceptă câmpuri, de exemplu, DOC, DOCX, DOT, DOTX, RTF. În plus, puteți utiliza și șablonul mustache Care este explicat în articolul "Mustache sintaxa șablonului" mai detaliat.
 
-Puteți crea un șablon de îmbinare pentru a fi un model pentru documente noi și ar trebui să includă textul principal care trebuie să fie același pentru fiecare versiune a documentului îmbinat. Adăugarea câmpurilor de îmbinare în interiorul șablonului va reprezenta datele de personalizare, cum ar fi numele sau adresele care sunt preluate dintr-o sursă de date. O operație mail merge va insera automat datele de personalizare din sursa de date în documentul șablon de îmbinare.
+Puteți crea un șablon de îmbinare pentru a fi un model pentru documente noi și ar trebui să includă textul principal care trebuie să fie același pentru fiecare versiune a documentului îmbinat. Adăugarea câmpurilor de îmbinare în interiorul șablonului va reprezenta datele de personalizare, cum ar fi numele sau adresele care sunt preluate dintr-o sursă de date. O operație Mail Merge va insera automat datele de personalizare din sursa de date în documentul șablon de îmbinare.
 
-În plus, puteți adăuga o regiune mail merge în șablonul dvs. introducând două câmpuri mail merge pentru a marca începutul și sfârșitul regiunii de e-mail. Următorul articol" tipuri de operații Mail Merge " explică acest lucru mai detaliat.
+În plus, puteți adăuga o regiune Mail Merge în șablonul dvs. introducând două câmpuri Mail Merge pentru a marca începutul și sfârșitul regiunii de e-mail. Următorul articol" tipuri de operații Mail Merge " explică acest lucru mai detaliat.
 
 ## Creați un șablon Mail Merge
 
