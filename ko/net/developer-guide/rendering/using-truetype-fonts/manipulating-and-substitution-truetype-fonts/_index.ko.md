@@ -59,7 +59,7 @@ Aspose.Words는 문서에서 처음으로 글꼴을 발견하면 각 글꼴 소�
 1. Aspose.Words가 이름이 정확히 일치하고 이 글꼴에 대해 정의된 [AltName](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/altname/) 속성이 있는 필수 글꼴을 찾을 수 없는 경우 Aspose.Words는 글꼴 정보를 지정하는 [FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/) 클래스에서 **AltName**로 정의된 글꼴을 찾습니다.
 1. Aspose.Words가 정의된 글꼴을 찾을 수 없고 **AltName**도 정의되지 않은 경우 아래 설명된 대로 글꼴 대체 규칙이 하나씩 적용됩니다(적절한 대체 글꼴이 발견되면 글꼴 대체 프로세스가 중지되고 다음 단계는 실행되지 않습니다):
    1. 먼저 Aspose.Words는 대체를 얻기 위해 글꼴 이름을 처리하려고 시도합니다. 특히 "-" 및 "," 구분 기호가 있는 접미사를 제거하려고 시도합니다.<br>
-      이 대체 규칙이 적용되면 "'&lt;OriginalFont&gt;' 글꼴을 찾을 수 없습니다. 대신 '&lt;SubstitutionFont&gt;' 글꼴을 사용합니다. 이유: 글꼴 이름 대체." 경고가 나타납니다.<br>
+      이 대체 규칙이 적용되면 "'<OriginalFont>' 글꼴을 찾을 수 없습니다. 대신 '<SubstitutionFont>' 글꼴을 사용합니다. 이유: 글꼴 이름 대체." 경고가 나타납니다.<br>
             {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-SetFontsFoldersSystemAndCustomFolder-GetSubstitutionWithoutSuffixes.cs" >}}
    1. 그런 다음 Aspose.Words는 **FontConfig** 유틸리티를 사용하여 OS 글꼴 설정을 적용하려고 시도합니다(사용 가능한 경우). 이 비 Windows 기능은 FontConfig 호환 OS와 함께 사용해야 합니다. 거의 모든 Unix 기반 OS에는 시스템 전체의 글꼴 구성, 사용자 정의 및 응용 프로그램에 대한 액세스를 제공하도록 설계된 `FontConfig` 라이브러리가 이미 있습니다. 그렇지 않으면 이 라이브러리를 사용자가 쉽게 설치할 수 있습니다.
       Aspose.Words는 자체 목적에 맞게 데이터를 쿼리하고 FontConfig 결과를 해석하는 방법을 알고 있습니다. 기본적으로 `FontConfig` 유틸리티는 비활성화되어 있습니다. 다음과 같이 활성화할 수 있습니다.<br>

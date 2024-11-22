@@ -73,9 +73,9 @@ builder.Writeln("This text will be Strikethrough"); {{< /highlight >}} |  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **HorizontalRule**<br /> `-----` |  これは、対応する horizontalRule 形状を備えた単純な段落です。<br /> `DocumentBuilder.InsertHorizontalRule()` |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-HorizontalRule.cs" >}}  |                                                                |
-|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`、ここで (1&lt;= N &lt;= 9)。<br />これは組み込みスタイルに変換され、指定されたパターンと正確に一致する必要があります (接尾辞や接頭辞は許可されません)。<br />それ以外の場合は、対応するスタイルを持つ単なる通常の段落になります。 |
+|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = "Heading N"`、ここで (1&le; N &le; 9)。<br />これは組み込みスタイルに変換され、指定されたパターンと正確に一致する必要があります (接尾辞や接頭辞は許可されません)。<br />それ以外の場合は、対応するスタイルを持つ単なる通常の段落になります。 |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}}  |                                                                |
-|  **Setext Heading**<br /> `===` (見出しレベル 1 の場合)、<br /> `---` (見出しレベル 2 の場合) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`、`“Heading N”` スタイルに基づく。<br /> (N &gt;= 2) の場合は `“Heading 2”` が使用され、それ以外の場合は `“Heading 1”` が使用されます。<br />任意のサフィックスを使用できますが、Aspose.Words インポーターはそれぞれ番号「1」と「2」を使用します。 |
+|  **Setext Heading**<br /> `===` (見出しレベル 1 の場合)、<br /> `---` (見出しレベル 2 の場合) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`、'Heading N' スタイルに基づく。<br /> (N &ge; 2) の場合は 'Heading 2' が使用され、それ以外の場合は 'Heading 1' が使用されます。<br />任意のサフィックスを使用できますが、Aspose.Words インポーターはそれぞれ番号「1」と「2」を使用します。 |
 |  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 

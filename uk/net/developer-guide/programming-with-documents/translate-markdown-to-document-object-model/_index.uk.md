@@ -73,9 +73,9 @@ builder.Writeln("This text will be Strikethrough"); {{< /highlight >}} |  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **HorizontalRule**<br/>`-----` |  Це простий абзац з відповідною формою HorizontalRule:<br/>`DocumentBuilder.InsertHorizontalRule()` |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-HorizontalRule.cs" >}}  |                                                                |
-|  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`, де (1<= N <=9).<br/>Це перекладається в вбудований стиль і має бути саме з зазначеного шаблону (не суфікси або префікси допускаються).<br/>В іншому випадку це буде просто звичайний абзац з відповідним стилем |
+|  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = "Heading N"`, де (1<= N <=9).<br/>Це перекладається в вбудований стиль і має бути саме з зазначеного шаблону (не суфікси або префікси допускаються).<br/>В іншому випадку це буде просто звичайний абзац з відповідним стилем |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}}  |                                                                |
-|  **Setext Heading**<br/>`===` (якщо рівень заголовка 1),<br/>`---` (якщо рівень заголовка 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, на основі `“Heading N”` стиль.<br/>Якщо (N >= 2), то `“Heading 2”` буде використовуватися, інакше `“Heading 1”`й<br/>Допускається будь-який suffix, але Aspose.Words імпортер використовує номери "1" та "2" відповідно |
+|  **Setext Heading**<br/>`===` (якщо рівень заголовка 1),<br/>`---` (якщо рівень заголовка 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, на основі 'Heading N' стиль.<br/>Якщо (N >= 2), то 'Heading 2' буде використовуватися, інакше 'Heading 1'й<br/>Допускається будь-який suffix, але Aspose.Words імпортер використовує номери "1" та "2" відповідно |
 |  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 

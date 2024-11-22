@@ -68,9 +68,9 @@ timestamp: 2024-10-21-11-17-44
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **HorizontalRule**<br/>`-----` |  这是一个简单的段落,具有相应的水平规则形状:<br/>`DocumentBuilder.InsertHorizontalRule()` |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-HorizontalRule.java" >}}  |                                                                |
-|  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`, 地点(1<=N<=9).<br/>这被翻译为内置样式,应该与指定的模式完全一致(不允许后缀或前缀).<br/>否则,它将只是具有相应风格的普通段落 |
+|  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = "Heading N"`, 地点(1<=N<=9).<br/>这被翻译为内置样式,应该与指定的模式完全一致(不允许后缀或前缀).<br/>否则,它将只是具有相应风格的普通段落 |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Heading.java" >}}  |                                                                |
-|  **Setext Heading**<br/>`===` (如果标题1),<br/>`---` (如果标题2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, 基于 `“Heading N”` 样式。<br/>如果(N >= 2),则 `“Heading 2”` 将被使用,否则 `“Heading 1”`。 。 。 。<br/>任何后缀都是允许的 但是 Aspose.Words 进口商分别使用"1"号和"2"号。 |
+|  **Setext Heading**<br/>`===` (如果标题1),<br/>`---` (如果标题2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, 基于 'Heading N' 样式。<br/>如果(N >= 2),则 'Heading 2' 将被使用,否则 'Heading 1'。 。 。 。<br/>任何后缀都是允许的 但是 Aspose.Words 进口商分别使用"1"号和"2"号。 |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-SetextHeading.java" >}}  |                                                                |
 |   **Indented Code**                                             |  `ParagraphFormat.StyleName = “IndentedCode[some suffix]”`     |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-IndentedCode.java" >}}  |                                                                |

@@ -73,9 +73,9 @@ builder.Writeln("This text will be Strikethrough"); {{< /highlight >}} |  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **HorizontalRule**<br /> `-----` |  다음은 해당 수평 규칙 모양이 있는 간단한 단락입니다.<br /> `DocumentBuilder.InsertHorizontalRule()` |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-HorizontalRule.cs" >}}  |                                                                |
-|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`, 여기서 (1&lt;= N &lt;= 9).<br /> 이는 내장 스타일로 변환되며 정확히 지정된 패턴이어야 합니다(접미사 또는 접두사는 허용되지 않음).<br /> 그렇지 않으면 해당 스타일이 있는 일반 단락일 뿐입니다 |
+|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = "Heading N"`, 여기서 (1&le; N &le; 9).<br /> 이는 내장 스타일로 변환되며 정확히 지정된 패턴이어야 합니다(접미사 또는 접두사는 허용되지 않음).<br /> 그렇지 않으면 해당 스타일이 있는 일반 단락일 뿐입니다 |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}}  |                                                                |
-|  **Setext Heading**<br /> `===`(제목 수준 1인 경우),<br /> `---`(제목 수준 2인 경우) |  `“Heading N”` 스타일을 기반으로 하는 `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`.<br /> (N &gt;= 2)이면 `“Heading 2”`이 사용되고, 그렇지 않으면 `“Heading 1”`가 사용됩니다.<br /> 모든 접미사가 허용되지만 Aspose.Words 가져오기 도구는 숫자 "1"과 "2"를 각각 사용합니다 |
+|  **Setext Heading**<br /> `===`(제목 수준 1인 경우),<br /> `---`(제목 수준 2인 경우) |  'Heading N' 스타일을 기반으로 하는 `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`.<br /> (N &ge; 2)이면 'Heading 2'이 사용되고, 그렇지 않으면 'Heading 1'가 사용됩니다.<br /> 모든 접미사가 허용되지만 Aspose.Words 가져오기 도구는 숫자 "1"과 "2"를 각각 사용합니다 |
 |  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 

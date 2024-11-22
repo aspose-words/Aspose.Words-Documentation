@@ -73,9 +73,9 @@ builder.Writeln("This text will be Strikethrough"); {{< /highlight >}} |  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **HorizontalRule**<br/>`-----` |  Это простой абзац с соответствующей формой горизонтального правила:<br/>`DocumentBuilder.InsertHorizontalRule()` |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-HorizontalRule.cs" >}}  |                                                                |
-|  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`, где (1<= N <= 9).<br/>Это переводится во встроенный стиль и должно быть именно указанного шаблона (никаких суффиксов или префиксов не допускается).<br/>В противном случае это будет обычный абзац с соответствующим стилем |
+|  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = "Heading N"`, где (1<= N <= 9).<br/>Это переводится во встроенный стиль и должно быть именно указанного шаблона (никаких суффиксов или префиксов не допускается).<br/>В противном случае это будет обычный абзац с соответствующим стилем |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}}  |                                                                |
-|  **Setext Heading**<br/>`===` (если уровень 1),<br/>`---` (если уровень 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, основанный на `“Heading N”` стиль.<br/>Если (N > 2), то `“Heading 2”` будет использоваться, в противном случае `“Heading 1”`.<br/>Допускается любой суффикс, но Aspose.Words Импортер использует цифры "1" и "2" соответственно |
+|  **Setext Heading**<br/>`===` (если уровень 1),<br/>`---` (если уровень 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, основанный на 'Heading N' стиль.<br/>Если (N > 2), то 'Heading 2' будет использоваться, в противном случае 'Heading 1'.<br/>Допускается любой суффикс, но Aspose.Words Импортер использует цифры "1" и "2" соответственно |
 |  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 

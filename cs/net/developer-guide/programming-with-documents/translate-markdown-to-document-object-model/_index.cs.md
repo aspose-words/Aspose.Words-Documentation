@@ -73,9 +73,9 @@ Níže uvedená tabulka uvádí příklady použití Markdown Listové bloky v A
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **HorizontalRule**<br/>`-----` |  Jedná se o jednoduchý odstavec s odpovídajícím tvarem horizontálního pravidla:<br/>`DocumentBuilder.InsertHorizontalRule()` |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-HorizontalRule.cs" >}}  |                                                                |
-|  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`, kde (1 <= N ≤ 9).<br/>To je přeloženo do vestavěného stylu a mělo by být přesně zadaného vzoru (nejsou povoleny žádné přípony nebo předpony).<br/>Jinak to bude jen pravidelný odstavec s odpovídajícím stylem |
+|  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = "Heading N"`, kde (1 <= N ≤ 9).<br/>To je přeloženo do vestavěného stylu a mělo by být přesně zadaného vzoru (nejsou povoleny žádné přípony nebo předpony).<br/>Jinak to bude jen pravidelný odstavec s odpovídajícím stylem |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}}  |                                                                |
-|  **Setext Heading**<br/>`===` (pokud úroveň čísla 1),<br/>`---` (jestliže číslo 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, na základě `“Heading N”` Styl.<br/>Pokud: `“Heading 2”` bude použito jinak `“Heading 1”`.<br/>Každá přípona je povolena, ale Aspose.Words dovozce používá čísla КАКА a КАКА |
+|  **Setext Heading**<br/>`===` (pokud úroveň čísla 1),<br/>`---` (jestliže číslo 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, na základě 'Heading N' Styl.<br/>Pokud: 'Heading 2' bude použito jinak 'Heading 1'.<br/>Každá přípona je povolena, ale Aspose.Words dovozce používá čísla КАКА a КАКА |
 |  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 

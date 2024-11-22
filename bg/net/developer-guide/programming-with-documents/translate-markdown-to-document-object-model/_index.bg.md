@@ -73,9 +73,9 @@ builder.Writeln("This text will be Strikethrough"); {{< /highlight >}} |  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **HorizontalRule**<br/>`-----` |  Това е прост параграф със съответстваща хоризонтална форма на правило:<br/>`DocumentBuilder.InsertHorizontalRule()` |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-HorizontalRule.cs" >}}  |                                                                |
-|  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`, където (1 <= N <= 9).<br/>Това се превежда в вграден стил и трябва да бъде точно на посочения модел (не се допускат наставки или префикси).<br/>В противен случай това ще бъде просто обикновен параграф със съответния стил |
+|  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = "Heading N"`, където (1 <= N <= 9).<br/>Това се превежда в вграден стил и трябва да бъде точно на посочения модел (не се допускат наставки или префикси).<br/>В противен случай това ще бъде просто обикновен параграф със съответния стил |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}}  |                                                                |
-|  **Setext Heading**<br/>`===` (ако е посочено ниво 1),<br/>`---` (ако е посочено ниво 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, въз основа на `“Heading N”` стил.<br/>Ако (N >= 2) тогава `“Heading 2”` ще се използва, в противен случай `“Heading 1”`.<br/>Всяка наставка е позволена, но Aspose.Words Вносителят използва номера съответно .... .. .. ..  |
+|  **Setext Heading**<br/>`===` (ако е посочено ниво 1),<br/>`---` (ако е посочено ниво 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, въз основа на 'Heading N' стил.<br/>Ако (N >= 2) тогава 'Heading 2' ще се използва, в противен случай 'Heading 1'.<br/>Всяка наставка е позволена, но Aspose.Words Вносителят използва номера съответно .... .. .. ..  |
 |  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 

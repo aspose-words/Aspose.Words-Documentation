@@ -73,9 +73,9 @@ Bảng bên dưới hiển thị các ví dụ về cách sử dụng khối Lá
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **HorizontalRule**<br /> `-----` |  Đây là một đoạn văn đơn giản có hình dạng Quy tắc ngang tương ứng:<br /> `DocumentBuilder.InsertHorizontalRule()` |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-HorizontalRule.cs" >}}  |                                                                |
-|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`, trong đó (1&lt;= N &lt;= 9).<br /> Điều này được dịch sang kiểu có sẵn và phải chính xác theo mẫu đã chỉ định (không cho phép hậu tố hoặc tiền tố).<br /> Nếu không, nó sẽ chỉ là một đoạn văn thông thường có kiểu dáng tương ứng |
+|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = "Heading N"`, trong đó (1&le; N &le; 9).<br /> Điều này được dịch sang kiểu có sẵn và phải chính xác theo mẫu đã chỉ định (không cho phép hậu tố hoặc tiền tố).<br /> Nếu không, nó sẽ chỉ là một đoạn văn thông thường có kiểu dáng tương ứng |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}}  |                                                                |
-|  **Setext Heading**<br /> `===` (nếu là Heading cấp 1),<br /> `---` (nếu Tiêu đề cấp 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, dựa trên phong cách `“Heading N”`.<br /> Nếu (N &gt;= 2) thì `“Heading 2”` sẽ được sử dụng, nếu không thì `“Heading 1”`.<br /> Cho phép bất kỳ hậu tố nào, nhưng trình nhập Aspose.Words sử dụng các số "1" và "2" tương ứng |
+|  **Setext Heading**<br /> `===` (nếu là Heading cấp 1),<br /> `---` (nếu Tiêu đề cấp 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, dựa trên phong cách 'Heading N'.<br /> Nếu (N &ge; 2) thì 'Heading 2' sẽ được sử dụng, nếu không thì 'Heading 1'.<br /> Cho phép bất kỳ hậu tố nào, nhưng trình nhập Aspose.Words sử dụng các số "1" và "2" tương ứng |
 |  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 

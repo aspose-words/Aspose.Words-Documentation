@@ -73,9 +73,9 @@ builder.Writeln("This text will be Strikethrough"); {{< /highlight >}} |  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **HorizontalRule**<br /> `-----` |  این یک پاراگراف ساده با شکل HorizontalRule مربوطه است:<br /> `DocumentBuilder.InsertHorizontalRule()` |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-HorizontalRule.cs" >}}  |                                                                |
-|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`، جایی که (1&lt;= N &lt;= 9).<br /> این به یک سبک داخلی ترجمه شده است و باید دقیقاً از الگوی مشخص شده باشد (هیچ پسوند یا پیشوند مجاز نیست).<br /> در غیر این صورت، فقط یک پاراگراف معمولی با سبک مربوطه خواهد بود |
+|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = "Heading N"`، جایی که (1&le; N &le; 9).<br /> این به یک سبک داخلی ترجمه شده است و باید دقیقاً از الگوی مشخص شده باشد (هیچ پسوند یا پیشوند مجاز نیست).<br /> در غیر این صورت، فقط یک پاراگراف معمولی با سبک مربوطه خواهد بود |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}}  |                                                                |
-|  **Setext Heading**<br /> `===` (اگر عنوان سطح 1)،<br /> `---` (اگر عنوان سطح 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`، بر اساس سبک `“Heading N”`.<br /> اگر (N &gt;= 2)، از `“Heading 2”` استفاده می شود، در غیر این صورت `“Heading 1”`.<br /> هر پسوندی مجاز است، اما واردکننده Aspose.Words به ترتیب از اعداد "1" و "2" استفاده می کند |
+|  **Setext Heading**<br /> `===` (اگر عنوان سطح 1)،<br /> `---` (اگر عنوان سطح 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`، بر اساس سبک 'Heading N'.<br /> اگر (N &ge; 2)، از 'Heading 2' استفاده می شود، در غیر این صورت 'Heading 1'.<br /> هر پسوندی مجاز است، اما واردکننده Aspose.Words به ترتیب از اعداد "1" و "2" استفاده می کند |
 |  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 

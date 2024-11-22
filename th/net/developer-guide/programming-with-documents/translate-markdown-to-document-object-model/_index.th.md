@@ -73,9 +73,9 @@ builder.Writeln("This text will be Strikethrough"); {{< /highlight >}} |  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **HorizontalRule**<br /> `-----` |  นี่คือย่อหน้าธรรมดาที่มีรูปร่างตามแนวนอน:<br /> `DocumentBuilder.InsertHorizontalRule()` |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-HorizontalRule.cs" >}}  |                                                                |
-|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”` โดยที่ (1&lt;= N &lt;= 9)<br /> ข้อมูลนี้ได้รับการแปลเป็นรูปแบบบิวท์อินและควรเป็นรูปแบบที่ระบุทุกประการ (ไม่อนุญาตให้ใช้ส่วนต่อท้ายหรือคำนำหน้า)<br /> มิฉะนั้นจะเป็นเพียงย่อหน้าธรรมดาที่มีสไตล์สอดคล้องกัน |
+|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = "Heading N"` โดยที่ (1&le; N &le; 9)<br /> ข้อมูลนี้ได้รับการแปลเป็นรูปแบบบิวท์อินและควรเป็นรูปแบบที่ระบุทุกประการ (ไม่อนุญาตให้ใช้ส่วนต่อท้ายหรือคำนำหน้า)<br /> มิฉะนั้นจะเป็นเพียงย่อหน้าธรรมดาที่มีสไตล์สอดคล้องกัน |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}}  |                                                                |
-|  **Setext Heading**<br /> `===` (ถ้าระดับหัวเรื่อง 1)<br /> `---` (หากส่วนหัวระดับ 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”` ตามรูปแบบ `“Heading N”`<br /> ถ้า (N &gt;= 2) จะใช้ `“Heading 2”` มิฉะนั้นจะใช้ `“Heading 1”`<br /> อนุญาตให้ใช้ส่วนต่อท้ายใดก็ได้ แต่ผู้นำเข้า Aspose.Words ใช้ตัวเลข "1" และ "2" ตามลำดับ |
+|  **Setext Heading**<br /> `===` (ถ้าระดับหัวเรื่อง 1)<br /> `---` (หากส่วนหัวระดับ 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”` ตามรูปแบบ 'Heading N'<br /> ถ้า (N &ge; 2) จะใช้ 'Heading 2' มิฉะนั้นจะใช้ 'Heading 1'<br /> อนุญาตให้ใช้ส่วนต่อท้ายใดก็ได้ แต่ผู้นำเข้า Aspose.Words ใช้ตัวเลข "1" และ "2" ตามลำดับ |
 |  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 

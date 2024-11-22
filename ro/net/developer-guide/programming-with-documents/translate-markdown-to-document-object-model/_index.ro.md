@@ -73,9 +73,9 @@ Tabelul de mai jos prezintă exemple de utilizare a Markdown blocuri Leaf în As
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **HorizontalRule**<br /> `-----` | Aceasta este un paragraf simplu cu o formă HorizontalRule corespunzătoare:<br /> `DocumentBuilder.InsertHorizontalRule()` |
 | {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-HorizontalRule.cs" >}} |  |
-| **ATX Heading**<br /> `# H1, ## H2, ### H3…` | `ParagraphFormat.StyleName = “Heading N”`, unde (1<= N <=9). <br /> Acest lucru este tradus într-un stil încorporat și ar trebui să fie exact modelul specificat (nu se permit suffixe sau prefixe). <br /> Altfel, va fi doar un paragraf obișnuit cu un stil corespunzător. |
+| **ATX Heading**<br /> `# H1, ## H2, ### H3…` | `ParagraphFormat.StyleName = "Heading N"`, unde (1<= N <=9). <br /> Acest lucru este tradus într-un stil încorporat și ar trebui să fie exact modelul specificat (nu se permit suffixe sau prefixe). <br /> Altfel, va fi doar un paragraf obișnuit cu un stil corespunzător. |
 | {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}} |  |
-| **Setext Heading** <br /> `===` (dacă nivel de antet 1), <br /> `---` (dacă nivel de antet 2) | `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, bazat pe `“Heading N”` stil.<br />Dacă (N >= 2), atunci `“Heading 2”` va fi utilizat, altfel `“Heading 1”`.<br />Orice sufix este permis, dar importatorul Aspose.Words folosește numerele "1" și "2" respectiv. |
+| **Setext Heading** <br /> `===` (dacă nivel de antet 1), <br /> `---` (dacă nivel de antet 2) | `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, bazat pe 'Heading N' stil.<br />Dacă (N >= 2), atunci 'Heading 2' va fi utilizat, altfel 'Heading 1'.<br />Orice sufix este permis, dar importatorul Aspose.Words folosește numerele "1" și "2" respectiv. |
 | {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 

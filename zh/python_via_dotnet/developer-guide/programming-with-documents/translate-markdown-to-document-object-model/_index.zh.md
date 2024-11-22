@@ -125,9 +125,9 @@ builder.document.save(docs_base.artifacts_dir + "WorkingWithMarkdown.image_examp
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **HorizontalRule**<br /> `-----` |  这是一个简单的段落，具有相应的 HorizontalRule 形状：<br /> [DocumentBuilder.insert_horizontal_rule()](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_horizontal_rule/) |
 |   {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_markdown-HorizontalRule.py" >}}  |                                                                |
-|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.style_name = "Heading N"`，其中 (1&lt;=N&lt;=9)。<br />这将被转换为内置样式，并且应该完全符合指定的模式（不允许使用后缀或前缀）。<br />否则，它只是一个具有相应样式的常规段落。 |
+|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.style_name = "Heading N"`，其中 (1&le;N&le;9)。<br />这将被转换为内置样式，并且应该完全符合指定的模式（不允许使用后缀或前缀）。<br />否则，它只是一个具有相应样式的常规段落。 |
 |   {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_markdown-Headings.py" >}}  |                                                                |
-|  **Setext Heading**<br /> `===`（如果标题级别为 1），<br /> `---`（如果标题级别为 2） |  `ParagraphFormat.style_name = "SetextHeading[some suffix]"`，基于`"Heading N"`风格。<br />如果 (N &gt;= 2)，则将使用 `"Heading 2"`，否则使用 `"Heading 1"`。<br />允许任何后缀，但 Aspose.Words 导入器分别使用数字"1"和"2"。 |
+|  **Setext Heading**<br /> `===`（如果标题级别为 1），<br /> `---`（如果标题级别为 2） |  `ParagraphFormat.style_name = "SetextHeading[some suffix]"`，基于`"Heading N"`风格。<br />如果 (N &ge; 2)，则将使用 `"Heading 2"`，否则使用 `"Heading 1"`。<br />允许任何后缀，但 Aspose.Words 导入器分别使用数字"1"和"2"。 |
 |  {{< highlight python >}}# Use a document builder to add content to the document.
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)

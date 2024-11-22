@@ -125,9 +125,9 @@ builder.document.save(docs_base.artifacts_dir + "WorkingWithMarkdown.image_examp
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **HorizontalRule**<br /> `-----` |  นี่คือย่อหน้าธรรมดาที่มีรูปร่างตามแนวนอน:<br /> [DocumentBuilder.insert_horizontal_rule()](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_horizontal_rule/) |
 |   {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_markdown-HorizontalRule.py" >}}  |                                                                |
-|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.style_name = "Heading N"` โดยที่ (1&lt;= N &lt;= 9)<br /> ข้อมูลนี้ได้รับการแปลเป็นรูปแบบบิวท์อินและควรเป็นรูปแบบที่ระบุทุกประการ (ไม่อนุญาตให้ใช้ส่วนต่อท้ายหรือคำนำหน้า)<br /> มิฉะนั้นจะเป็นเพียงย่อหน้าธรรมดาที่มีสไตล์สอดคล้องกัน |
+|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.style_name = "Heading N"` โดยที่ (1&le; N &le; 9)<br /> ข้อมูลนี้ได้รับการแปลเป็นรูปแบบบิวท์อินและควรเป็นรูปแบบที่ระบุทุกประการ (ไม่อนุญาตให้ใช้ส่วนต่อท้ายหรือคำนำหน้า)<br /> มิฉะนั้นจะเป็นเพียงย่อหน้าธรรมดาที่มีสไตล์สอดคล้องกัน |
 |   {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_markdown-Headings.py" >}}  |                                                                |
-|  **Setext Heading**<br /> `===` (ถ้าระดับหัวเรื่อง 1)<br /> `---` (หากส่วนหัวระดับ 2) |  `ParagraphFormat.style_name = "SetextHeading[some suffix]"` ตามรูปแบบ `"Heading N"`<br /> ถ้า (N &gt;= 2) จะใช้ `"Heading 2"` มิฉะนั้นจะใช้ `"Heading 1"`<br /> อนุญาตให้ใช้ส่วนต่อท้ายใดก็ได้ แต่ผู้นำเข้า Aspose.Words ใช้ตัวเลข "1" และ "2" ตามลำดับ |
+|  **Setext Heading**<br /> `===` (ถ้าระดับหัวเรื่อง 1)<br /> `---` (หากส่วนหัวระดับ 2) |  `ParagraphFormat.style_name = "SetextHeading[some suffix]"` ตามรูปแบบ `"Heading N"`<br /> ถ้า (N &ge; 2) จะใช้ `"Heading 2"` มิฉะนั้นจะใช้ `"Heading 1"`<br /> อนุญาตให้ใช้ส่วนต่อท้ายใดก็ได้ แต่ผู้นำเข้า Aspose.Words ใช้ตัวเลข "1" และ "2" ตามลำดับ |
 |  {{< highlight python >}}# Use a document builder to add content to the document.
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)

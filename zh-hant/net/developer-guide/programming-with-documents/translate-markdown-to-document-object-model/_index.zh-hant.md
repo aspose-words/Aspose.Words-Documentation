@@ -73,9 +73,9 @@ builder.Writeln("This text will be Strikethrough"); {{< /highlight >}} |  |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **HorizontalRule**<br />`-----` | 這是個簡單的段落，其對應的HorizontalRule形狀：<br /> `DocumentBuilder.InsertHorizontalRule()` |
 | {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-HorizontalRule.cs" >}} |  |
-| **ATX Heading**<br />`# H1, ## H2, ### H3…` | `ParagraphFormat.StyleName = “Heading N”`，其中 1 <= N <= 9。<br />這被翻譯成內建样式，且應完全符合指定模式（不允許有後綴或前綴）。<br />否則，它只是一個普通段落，具有相應的样式。 |
+| **ATX Heading**<br />`# H1, ## H2, ### H3…` | `ParagraphFormat.StyleName = "Heading N"`，其中 1 <= N <= 9。<br />這被翻譯成內建样式，且應完全符合指定模式（不允許有後綴或前綴）。<br />否則，它只是一個普通段落，具有相應的样式。 |
 | {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}} |  |
-| **Setext Heading**<br />`===`（若為第1級標題），<br />`---`（若為第2級標題） | `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`，以 `“Heading N”` 樣式為基礎。<br />若 (N >= 2)，則使用 `“Heading 2”`，否則使用 `“Heading 1”`。<br />允許任何尾數，但 Aspose.Words 進口器分別使用數字"1"和"2"。 |
+| **Setext Heading**<br />`===`（若為第1級標題），<br />`---`（若為第2級標題） | `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`，以 'Heading N' 樣式為基礎。<br />若 (N >= 2)，則使用 'Heading 2'，否則使用 'Heading 1'。<br />允許任何尾數，但 Aspose.Words 進口器分別使用數字"1"和"2"。 |
 | {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 

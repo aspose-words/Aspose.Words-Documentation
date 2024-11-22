@@ -73,9 +73,9 @@ builder.Writeln("This text will be Strikethrough"); {{< /highlight >}} |  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **HorizontalRule**<br/>`-----` |  זהו פסקה פשוטה עם צורת HorizontalRule המקבילה:<br/>`DocumentBuilder.InsertHorizontalRule()` |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-HorizontalRule.cs" >}}  |                                                                |
-|  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`, שם (1=N <= 9).<br/>זה מתורגם לסגנון מובנה צריך להיות בדיוק של התבנית המפורטת (לא suffixes או prefixes מותר).<br/>אחרת, זה יהיה רק סעיף רגיל עם סגנון מתאים |
+|  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = "Heading N"`, שם (1=N <= 9).<br/>זה מתורגם לסגנון מובנה צריך להיות בדיוק של התבנית המפורטת (לא suffixes או prefixes מותר).<br/>אחרת, זה יהיה רק סעיף רגיל עם סגנון מתאים |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}}  |                                                                |
-|  **Setext Heading**<br/>`===` (אם רמת ראש 1)<br/>`---` (אם רמת ראש 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, מבוסס `“Heading N”` סגנון.<br/>אם (==) `“Heading 2”` ישמש, אחרת `“Heading 1”`.<br/>כל suffix מותר, אבל Aspose.Words יבוא משתמש במספרים "1" ו-"2" בהתאמה |
+|  **Setext Heading**<br/>`===` (אם רמת ראש 1)<br/>`---` (אם רמת ראש 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, מבוסס 'Heading N' סגנון.<br/>אם (==) 'Heading 2' ישמש, אחרת 'Heading 1'.<br/>כל suffix מותר, אבל Aspose.Words יבוא משתמש במספרים "1" ו-"2" בהתאמה |
 |  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
