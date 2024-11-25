@@ -1,43 +1,43 @@
----
-title: Hyperlinksと連携 Java
-second_title: Aspose.Words お問い合わせ Java
+﻿---
+title: Java内のハイパーリンクの操作
+second_title: Aspose.WordsのためのJava
 articleTitle: ハイパーリンクの追加または変更
 linktitle: ハイパーリンクの追加または変更
-description: "ドキュメントにハイパーリンクを追加する方法 Javaお問い合わせ"
+description: "Javaを使用して文書にハイパーリンクを追加する方法。"
 type: docs
 weight: 50
 url: /ja/java/working-with-hyperlinks/
 timestamp: 2024-01-27-14-07-04
 ---
 
-ハイパーリンク Microsoft Word ドキュメントは `HYPERLINK` フィールド。 インスタグラム Aspose.Words, ハイパーリンクの実装 [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/) クラス。
+Microsoft Word文書内のハイパーリンクは`HYPERLINK`フィールドです。 Aspose.Wordsでは、ハイパーリンクは[FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/)クラスを介して実装されます。
 
-## ハイパーリンクをインサートする
+## ハイパーリンクを挿入する
 
-利用する [InsertHyperlink](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertHyperlink-java.lang.String-java.lang.String-boolean) 文書にハイパーリンクを差し込む方法。 この方法は3つの変数を受け入れます:
+ドキュメントにハイパーリンクを挿入するには、[InsertHyperlink](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertHyperlink-java.lang.String-java.lang.String-boolean)メソッドを使用します。 このメソッドは、次の3つのパラメーターを受け入れます:
 
-1。 ドキュメントに表示されるリンクのテキスト
-2。 リンク先(文書内のブックマークのURLまたは名前)
-3。 Boolean パラメーター true もし `URL` ドキュメント内のブックマークの名前です。
+1. ドキュメントに表示されるリンクのテキスト
+2. リンク先(URLまたは文書内のブックマークの名前)
+3. `URL`がドキュメント内のブックマークの名前である場合にtrueにする必要があるBooleanパラメータ
 
-ザ・オブ・ザ・ **InsertHyperlink** メソッドは URL の先頭と末尾に apostrophes を常に追加します。
+**InsertHyperlink**メソッドは、常にURLの先頭と末尾にアポストロフィを追加します。
 
 {{% alert color="primary" %}}
 
-ハイパーリンク表示テキストのフォントフォーマットを明示的に指定する必要があることに注意してください。 `Font` プロパティ.
+`Font`プロパティを使用して、ハイパーリンク表示テキストのフォント書式を明示的に指定する必要があることに注意してください。
 
 {{% /alert %}}
 
-次のコードの例では、ハイパーリンクをドキュメントに書き込む方法を示します。 [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/):::
+次のコード例は、[DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)を使用してドキュメントにハイパーリンクを挿入する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHyperlink-DocumentBuilderInsertHyperlink.java" >}}
 
 ## ハイパーリンクの置換または変更
 
-ハイパーリンク Microsoft Word ドキュメントはフィールドです。 先に述べたように、Word文書のフィールドは、フィールドスタート、フィールドコード、フィールドセパレータ、フィールド結果、フィールドエンドを含む複数のノードで構成される複雑な構造です。 フィールドはネストされ、豊富なコンテンツと複数の段落やセクションを文書に含めることができます。
+Microsoft Word文書内のハイパーリンクはフィールドです。 前述したように、Word文書のフィールドは、フィールドの開始、フィールドコード、フィールドの区切り文字、フィールドの結果、フィールドの終了を含む複数のノードで構成される複雑な構造です。 フィールドは入れ子にすることができ、リッチコンテンツを含み、ドキュメント内の複数の段落またはセクションにまたがることができます。
 
-ハイパーリンクを交換または変更するには、文書内のハイパーリンクを見つけて、テキスト、URL、または両方を置き換える必要があります。
+ハイパーリンクを置き換えたり変更したりするには、文書内のハイパーリンクを見つけて、テキストURLsまたはその両方を置き換える必要があります。
 
-次のコードの例では、Word文書内のすべてのハイパーリンクを見つける方法と変更方法を示します。 `URL` 名前を表示して下さい:
+次のコード例は、Word文書内のすべてのハイパーリンクを検索し、それらの`URL`と表示名を変更する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Hyperlink-ReplaceHyperlinks-ReplaceHyperlinks.java" >}}

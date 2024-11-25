@@ -1,209 +1,209 @@
----
-title: インサートフィールド Java
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: インサートフィールド
-linktitle: インサートフィールド
-description: "フィールドをドキュメントに差し込むさまざまな方法 Javaお問い合わせ"
+﻿---
+title: Javaにフィールドを挿入する
+second_title: Aspose.WordsのためのJava
+articleTitle: フィールドの挿入
+linktitle: フィールドの挿入
+description: "Javaを使用して文書にフィールドを挿入するさまざまな方法。"
 type: docs
 weight: 20
 url: /ja/java/insert-fields/
 timestamp: 2024-01-27-14-07-04
 ---
 
-フィールドをドキュメントにインサートする方法はいくつかあります。
+文書にフィールドを挿入するには、いくつかの方法があります:
 
-- 使用 [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)
-- 使用 [FieldBuilder](https://reference.aspose.com/words/java/com.aspose.words/fieldbuilder/)
-- 使用 [Aspose.Words Document Object Model (DOM)](/words/ja/java/aspose-words-document-object-model/)
+- [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)を使用する
+- [FieldBuilder](https://reference.aspose.com/words/java/com.aspose.words/fieldbuilder/)を使用する
+- を使用して [Aspose.Wordsドキュメントオブジェクトモデル(DOM)](/words/java/aspose-words-document-object-model/)
 
-この記事では、これらのオプションを使用して、特定のフィールドをインサートする方法を詳細に分析します。
+この記事では、それぞれの方法をより詳細に見て、これらのオプションを使用して特定のフィールドを挿入する方法を分析します。
 
-## DocumentBuilder を使用してフィールドを文書化
+## DocumentBuilderを使用した文書へのフィールドの挿入
 
-インスタグラム Aspose.Words お問い合わせ [InsertField](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertField(int,boolean)) メソッドは新しいフィールドをドキュメントに差し込むために使用されます。 最初のパラメータは、フィールドの完全なフィールドコードを差し込みます。 2番目のパラメータはオプションで、フィールドのフィールド結果が手動で設定できます。 これが供給されていない場合、フィールドは自動的に更新されます。 このパラメータに null または empty を渡して、フィールドを空のフィールド値で入力できます。 特定のフィールドコードの構文がわからない場合は、フィールドをフィールドに作成します。 Microsoft Word フィールドコードを最初に表示し、フィールドコードを表示するように切り替えます。
+Aspose.Wordsでは、[InsertField](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertField(int,boolean))メソッドは文書に新しいフィールドを挿入するために使用されます。 最初のパラメータは、挿入するフィールドの完全なフィールドコードを受け入れます。 2番目のパラメータはオプションで、フィールドのフィールド結果を手動で設定できます。 これが指定されていない場合、フィールドは自動的に更新されます。 空のフィールド値を持つフィールドを挿入するには、このパラメータにnullまたはemptyを渡すことができます。 特定のフィールドコードの構文がわからない場合は、まずMicrosoft Wordにフィールドを作成し、そのフィールドコードを表示するように切り替えます。
 
 {{% alert color="primary" %}}
 
-フィールドコードにスペースを含むパラメータがある場合、スピーチマーク内で囲まなければなりません。 それ以外の場合は両方のフィールド Microsoft Word そして、 Aspose.Words パラメータがtuncatedであると同時に扱われるので期待どおりに動作しないかもしれません。
+フィールドコードにスペースを含むパラメータがある場合は、音声マークで囲む必要があります。 そうしないと、Microsoft WordとAspose.Wordsの両方のフィールドが期待どおりに機能しない可能性があり、パラメータは両方によって切り捨てられたものとして扱われます。
 
 {{% /alert %}}
 
-次のコードの例では、マージフィールドをドキュメントにインサートする方法を示します。 **DocumentBuilder**:::
+次のコード例は、**DocumentBuilder**を使用して差し込み項目を文書に挿入する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-InsertField.java" >}}
 
-他のフィールドにネストされたフィールドをインサートするために同じ技術を使用します。
+同じ手法を使用して、他のフィールド内にネストされたフィールドを挿入します。
 
-次のコード例では、別のフィールド内でネストされたフィールドを別のフィールドに挿す方法を示します。 **DocumentBuilder**:::
+次のコード例は、**DocumentBuilder**を使用して別のフィールド内にネストされたフィールドを挿入する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertNestedFields-InsertNestedFields.java" >}}
 
-### フィールドレベルにロケールを指定する
+### フィールドレベルでのロケールの指定
 
-言語識別子は、国や地域における言語の標準的な国際数値の略語です。 と Aspose.Words, フィールドレベルの Locale を指定できます。 [LocaleId](https://reference.aspose.com/words/java/com.aspose.words/field/#getLocaleId) フィールドの locale ID を取得またはセットするプロパティ。
+言語識別子は、国または地理的地域の言語の標準的な国際的な数値省略形です。 Aspose.Wordsを使用すると、フィールドのロケールIDを取得または設定する[LocaleId](https://reference.aspose.com/words/java/com.aspose.words/field/#getLocaleId)プロパティを使用して、フィールドレベルでロケールを指定できます。
 
-次のコードの例では、このオプションを使用する方法を示します。
+次のコード例は、このオプションを使用する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-SpecifylocaleAtFieldlevel-SpecifylocaleAtFieldlevel.java" >}}
 
-### インサート 未入力/空のフィールド
+### 型指定されていない/空のフィールドを挿入する
 
-untyped/empty フィールドをインサートしたい場合 (){}) いいね Microsoft Word 許可して下さい、使用することができます [InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean) メソッドとメソッド [FieldType.FieldNone](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) パラメータ。 フィールドをWord文書に入力するには、「Ctrl + F9」キーコンビネーションを押します。
+Microsoft Wordが許可するように型なし/空のフィールド（{}）を挿入する場合は、[InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean)メソッドを[FieldType.FieldNone](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/)パラメータで使用できます。 Word文書にフィールドを挿入するには、"Ctrl+F9"キーの組み合わせを押すことができます。
 
-次のコードの例では、空のフィールドをドキュメントに差し込む方法を示します。
+次のコード例は、空のフィールドをドキュメントに挿入する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertFieldNone-InsertFieldNone.java" >}}
 
-### インサート `COMPARE` フィールド
+### `COMPARE`フィールドを挿入
 
-ザ・オブ・ザ・ `COMPARE` フィールドは2つの値を比較し、比較がない場合の数値1を返します。 true 比較がない場合、または0 falseお問い合わせ
+`COMPARE`フィールドは2つの値を比較し、比較がtrueの場合は数値1を返し、比較がfalseの場合は0を返します。
 
-次のコードの例では、追加する方法を示します。 `COMPARE` DocumentBuilder を使用したフィールド:
+次のコード例は、DocumentBuilderを使用して`COMPARE`フィールドを追加する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldCompare.java" >}}
 
-### インサート `IF` フィールド
+### `IF`フィールドを挿入
 
-ザ・オブ・ザ・ `IF` フィールドは、条件付きで引数を評価するために使用できます。
+`IF`フィールドは、引数を条件付きで評価するために使用できます。
 
-次のコードの例では、追加する方法を示します。 `IF` DocumentBuilder を使用したフィールド:
+次のコード例は、DocumentBuilderを使用して`IF`フィールドを追加する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldIf.java" >}}
 
-## フィールドビルダーを使用して文書にフィールドをインサートする
+## FieldBuilderを使用した文書へのフィールドの挿入
 
-フィールドをインサートする代替方法 Aspose.Words です。 [FieldBuilder](https://reference.aspose.com/words/java/com.aspose.words/fieldbuilder/) クラス。 フィールド スイッチと引数の値をテキスト、ノード、またはネストされたフィールドとして指定するインフルエント インターフェイスを提供します。
+Aspose.Wordsにフィールドを挿入する別の方法は[FieldBuilder](https://reference.aspose.com/words/java/com.aspose.words/fieldbuilder/)クラスです。 フィールドスイッチと引数値をテキスト、ノード、またはネストされたフィールドとして指定するための流暢なインターフェイスを提供します。
 
-次のコードの例では、フィールドをドキュメントに書き込む方法を示します。 **FieldBuilder**:::
+次のコード例は、**FieldBuilder**を使用してドキュメントにフィールドを挿入する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-FieldBuilder.java" >}}
 
-## インサートフィールドの使用 DOM
+## DOMを使用したフィールドの挿入
 
-また、さまざまなフィールドの入力も可能です。 [Aspose.Words Document Object Model (DOM)](/words/ja/java/aspose-words-document-object-model/)お問い合わせ このセクションでは、いくつかの例を見てみましょう。
+次を使用して、さまざまなタイプのフィールドを挿入することもできます [Aspose.Wordsドキュメントオブジェクトモデル(DOM)](/words/java/aspose-words-document-object-model/). このセクションでは、いくつかの例を見ていきます。
 
-### インサートマージ ドキュメントへのフィールド DOM
+### DOMを使用した文書への差し込み項目の挿入
 
-`MERGEFIELD` Word文書のフィールドは、 [FieldMergeField](https://reference.aspose.com/words/java/com.aspose.words/fieldmergefield/) クラス。 使える **FieldMergeField** 次の操作を実行するクラス:
+`MERGEFIELD` field in Word document can be represented by the [FieldMergeField](https://reference.aspose.com/words/java/com.aspose.words/fieldmergefield/) class. You can use **FieldMergeField** class to perform the following operations:
 
-- merge フィールドの名前を指定します
-- merge フィールドの書式を指定する
-- フィールドセパレータとマージフィールドのフィールド終了の間のテキストを指定します
-- フィールドが空白でないとマージフィールドの後に入力するテキストを指定します
-- フィールドが空白でないとマージフィールドの前に入力するテキストを指定します
+- 差し込み項目の名前を指定します
+- 差し込み項目の書式設定を指定します
+- 差し込み項目のフィールド区切り文字とフィールドの末尾の間にあるテキストを指定します
+- フィールドが空白でない場合は、差し込み項目の後に挿入するテキストを指定します
+- フィールドが空白でない場合は、差し込み項目の前に挿入するテキストを指定します
 
 {{% alert color="primary" %}}
 
-詳しくは、 [FieldMergeField](https://reference.aspose.com/words/java/com.aspose.words/fieldmergefield/) レッスン APIお問い合わせ
+詳細については、[FieldMergeField](https://reference.aspose.com/words/java/com.aspose.words/fieldmergefield/)クラスAPIを参照してください。
 
 {{% /alert %}}
 
-次のコードの例では、追加する方法を示します。 `MERGE` フィールド使用 DOM 文書の段落に:
+次のコード例は、文書内の段落にDOMを使用して`MERGE`フィールドを追加する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertMergeFieldUsingDOM-InsertMergeFieldUsingDOM.java" >}}
 
-### インサート Mail Merge `ADDRESSBLOCK` ドキュメントへのフィールド DOM
+### DOMを使用して文書にMail Merge`ADDRESSBLOCK`フィールドを挿入する
 
-ザ・オブ・ザ・ `ADDRESSBLOCK` フィールドをインサートするために使用されます Mail Merge ワード文書のアドレスブロック。 `ADDRESSBLOCK` Word文書のフィールドは、 [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) クラス。 使える **FieldAddressBlock** 次の操作を実行するクラス:
+`ADDRESSBLOCK`フィールドは、Word文書にMail Mergeアドレスブロックを挿入するために使用されます。 Word文書の`ADDRESSBLOCK`フィールドは、[FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/)クラスで表すことができます。 **FieldAddressBlock**クラスを使用して、次の操作を実行できます:
 
-- フィールドに国/地域の名前を含めるかどうかを指定する
-- POST*CODE(Universal Postal Union 2006)で定義された受取人の国/地域に応じてアドレスをフォーマットするかどうかを指定します。
-- 除外国/地域名を指定する
+- フィールドに国/地域の名前を含めるかどうかを指定します
+- POST*CODE(Universal Postal Union2006)で定義されているように、受取人の国/地域に応じて住所を書式設定するかどうかを指定します
+- 除外された国/地域名を指定します
 - 名前とアドレスの形式を指定します
-- アドレスをフォーマットするために使用される言語 ID を指定します
+- アドレスの書式設定に使用する言語IDを指定します
 
 {{% alert color="primary" %}}
 
-詳しくは、 [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) レッスン APIお問い合わせ
+詳細については、[FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/)クラスAPIを参照してください。
 
 {{% /alert %}}
 
-次のコードの例では、追加する方法を示します。 Mail Merge `ADDRESSBLOCK` フィールド使用 DOM 文書の段落に:
+次のコード例は、文書内の段落にDOMを使用してMail Merge`ADDRESSBLOCK`フィールドを追加する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertMailMergeAddressBlockFieldUsingDOM-InsertMailMergeAddressBlockFieldUsingDOM.java" >}}
 
-### インサート `ADVANCE` DocumentBuilder を使用せずにドキュメントにフィールド
+### DocumentBuilderを使用せずに文書に`ADVANCE`フィールドを挿入する
 
-ザ・オブ・ザ・ `ADVANCE` フィールドは、行の後に続くテキストを左、右、上、下へオフセットするために使用されます。 `ADVANCE` Word文書のフィールドは、 [FieldAdvance](https://reference.aspose.com/words/java/com.aspose.words/fieldadvance/) クラス。 使うことができます。 **FieldAdvance** 次の操作を実行するクラス:
+`ADVANCE`フィールドは、行内の後続のテキストを左、右、上、または下にオフセットするために使用されます。 Word文書の`ADVANCE`フィールドは、[FieldAdvance](https://reference.aspose.com/words/java/com.aspose.words/fieldadvance/)クラスで表すことができます。 **FieldAdvance**クラスを使用して、次の操作を実行できます:
 
-- フィールドに続くテキストがページ上部の端から縦に動かされるべきポイントの数を指定します
-- フィールドに続くテキストが列、フレーム、またはテキストボックスの左端から水平に移動されるべきポイントの数を指定します
-- フィールドに続くテキストが左、右、上、下に移動すべき点数を指定します。
+- フィールドの後に続くテキストをページの上端から垂直方向に移動するポイントの数を指定します
+- フィールドに続くテキストを、列、フレーム、またはテキストボックスの左端から水平方向に移動するポイントの数を指定します
+- フィールドの後に続くテキストを左、右、上、または下に移動するポイントの数を指定します
 
 {{% alert color="primary" %}}
 
-詳しくは、 [FieldAdvance](https://reference.aspose.com/words/java/com.aspose.words/fieldadvance/) レッスン APIお問い合わせ
+詳細については、[FieldAdvance](https://reference.aspose.com/words/java/com.aspose.words/fieldadvance/)クラスAPIを参照してください。
 
 {{% /alert %}}
 
-次のコードの例では、追加する方法を示します。 `ADVANCE` フィールド使用 DOM 文書の段落に:
+次のコード例は、文書内の段落にDOMを使用して`ADVANCE`フィールドを追加する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldAdvance.java" >}}
 
-### インサート `ASK` DocumentBuilder を使用せずにドキュメントにフィールド
+### DocumentBuilderを使用せずに文書に`ASK`フィールドを挿入する
 
-ザ・オブ・ザ・ `ASK` フィールドは、Word文書のブックマークに割り当てるテキストのユーザを促すために使用されます。 `ASK` Word文書のフィールドは、 [FieldAsk](https://reference.aspose.com/words/java/com.aspose.words/fieldask/) クラス。 使える **FieldAsk** 次の操作を実行するクラス:
+`ASK`フィールドは、Word文書のブックマークに割り当てるテキストの入力をユーザーに求めるために使用されます。 Word文書の`ASK`フィールドは、[FieldAsk](https://reference.aspose.com/words/java/com.aspose.words/fieldask/)クラスで表すことができます。 **FieldAsk**クラスを使用して、次の操作を実行できます:
 
 - ブックマークの名前を指定します
-- デフォルトユーザ応答(プロンプトウィンドウに含まれている初期値)を指定する
-- ユーザ応答が1回受信されるかどうかを指定します Mail Merge オペレーション
-- プロンプトテキスト(プロンプトウィンドウのタイトル)を指定する
+- デフォルトのユーザー応答（プロンプトウィンドウに含まれる初期値）を指定します。
+- Mail Merge操作ごとにユーザー応答を1回受信するかどうかを指定します
+- プロンプトテキスト（プロンプトウィンドウのタイトル）を指定します。
 
 {{% alert color="primary" %}}
 
-詳しくは、 [FieldAsk](https://reference.aspose.com/words/java/com.aspose.words/fieldask/) レッスン APIお問い合わせ
+詳細については、[FieldAsk](https://reference.aspose.com/words/java/com.aspose.words/fieldask/)クラスAPIを参照してください。
 
 {{% /alert %}}
 
-次のコードの例では、追加する方法を示します。 `ASK` フィールド使用 DOM 文書の段落に:
+次のコード例は、文書内の段落にDOMを使用して`ASK`フィールドを追加する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldAsk.java" >}}
 
-### インサート `AUTHOR` DocumentBuilder を使用せずにドキュメントにフィールド
+### DocumentBuilderを使用せずに文書に`AUTHOR`フィールドを挿入する
 
-ザ・オブ・ザ・ `AUTHOR` フィールドは、ドキュメントの作者の名前を から指定するために使用されます。 `Document` プロパティ。 `AUTHOR` Word文書のフィールドは、 [FieldAuthor](https://reference.aspose.com/words/java/com.aspose.words/fieldauthor/) クラス。 使える **FieldAuthor** 次の操作を実行するクラス:
+`AUTHOR`フィールドは、`Document`プロパティからドキュメントの作成者の名前を指定するために使用されます。 Word文書の`AUTHOR`フィールドは、[FieldAuthor](https://reference.aspose.com/words/java/com.aspose.words/fieldauthor/)クラスで表すことができます。 **FieldAuthor**クラスを使用して、次の操作を実行できます:
 
-- 文書の作者の名前を指定する
+- 文書作成者の名前を指定します
 
 {{% alert color="primary" %}}
 
-詳しくは、 [FieldAuthor](https://reference.aspose.com/words/java/com.aspose.words/fieldauthor/) レッスン APIお問い合わせ
+詳細については、[FieldAuthor](https://reference.aspose.com/words/java/com.aspose.words/fieldauthor/)クラスAPIを参照してください。
 
 {{% /alert %}}
 
-次のコードの例では、追加する方法を示します。 `AUTHOR` フィールド使用 DOM 文書の段落に:
+次のコード例は、文書内の段落にDOMを使用して`AUTHOR`フィールドを追加する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertAuthorField-InsertAuthorField.java" >}}
 
-### インサート `INCLUDETEXT` DocumentBuilder を使用せずにドキュメントにフィールド
+### DocumentBuilderを使用せずに文書に`INCLUDETEXT`フィールドを挿入する
 
-ザ・オブ・ザ・ `INCLUDETEXT` フィールドはフィールドコードに含まれる文書に含まれるテキストとグラフィックをインサートします。 ドキュメント全体またはブックマークで参照するドキュメントの一部を入力できます。 ワード文書のこのフィールドはINCLUDETEXTで表されます。 使える [FieldIncludeText](https://reference.aspose.com/words/java/com.aspose.words/fieldincludetext/) 次の操作を実行するクラス:
+`INCLUDETEXT`フィールドは、フィールドコードで指定された文書に含まれるテキストとグラフィックスを挿入します。 ドキュメント全体またはブックマークで参照されるドキュメントの一部を挿入できます。 Word文書のこのフィールドはINCLUDETEXTで表されます。 [FieldIncludeText](https://reference.aspose.com/words/java/com.aspose.words/fieldincludetext/)クラスを使用して、次の操作を実行できます:
 
-- 含まれている文書のブックマークの名前を指定します
-- ドキュメントの場所を指定する
+- 含まれる文書のブックマーク名を指定します
+- 文書の場所を指定します
 
 {{% alert color="primary" %}}
 
-詳しくは、 [FieldIncludeText](https://reference.aspose.com/words/java/com.aspose.words/fieldincludetext/) レッスン APIお問い合わせ
+詳細については、[FieldIncludeText](https://reference.aspose.com/words/java/com.aspose.words/fieldincludetext/)クラスAPIを参照してください。
 
 {{% /alert %}}
 
-次のコードの例では、追加する方法を示します。 `INCLUDETEXT` フィールド使用 DOM 文書の段落に:
+次のコード例は、文書内の段落にDOMを使用して`INCLUDETEXT`フィールドを追加する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldIncludeText.java" >}}
 
-### インサート `TOA` DocumentBuilder を使用せずにドキュメントにフィールド
+### DocumentBuilderを使用せずに文書に`TOA`フィールドを挿入する
 
-ザ・オブ・ザ・ `TOA` (*Authorities* の可) フィールドビルドと権限の表をインサートします。 ザ・オブ・ザ・ `TOA` フィールドは、マークされたエントリを収集します `TA` (*権限エントリー*の可) Microsoft オフィスワードは、 `TOA` フィールドをクリックすると、*Authorities*のInsert Tableをクリックします。 **著者の表** グループ **References** タブ。 閲覧するとき `TOA` ドキュメントのフィールド、構文はこのようになります。
+`TOA`(*Table of Authorities*)フィールドは、権限のテーブルを構築して挿入します。 `TOA`フィールドは、`TA`(*Table of Authorities Entry*)フィールドでマークされたエントリを収集します。 MicrosoftOffice Wordでは、**References**タブの**Table of Authorities**グループで*Insert Table of Authorities*をクリックすると`TOA`フィールドが挿入されます。 ドキュメントの`TOA`フィールドを表示すると、構文は次のようになります:
 
 { `TOA` [Switches ] }
 
 {{% alert color="primary" %}}
 
-詳しくは、 [FieldToa](https://reference.aspose.com/words/java/com.aspose.words/fieldtoa/) レッスン APIお問い合わせ
+詳細については、[FieldToa](https://reference.aspose.com/words/java/com.aspose.words/fieldtoa/)クラスAPIを参照してください。
 
 {{% /alert %}}
 
-次のコードの例では、追加する方法を示します。 `TOA` フィールド使用 DOM 文書の段落に。
+次のコード例は、文書内の段落にDOMを使用して`TOA`フィールドを追加する方法を示しています。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertTOAField-InsertTOAField.java" >}}

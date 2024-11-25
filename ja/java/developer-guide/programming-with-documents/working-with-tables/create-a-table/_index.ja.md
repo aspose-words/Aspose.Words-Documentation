@@ -1,139 +1,139 @@
----
-title: テーブルを作成する方法 Java
-second_title: Aspose.Words お問い合わせ Java
+﻿---
+title: Javaでテーブルを作成する方法
+second_title: Aspose.WordsのためのJava
 articleTitle: テーブルを作成する
 linktitle: テーブルを作成する
-description: "ドキュメント内のテーブルを作成するさまざまな方法 Javaお問い合わせ"
+description: "Javaを使用して文書内にテーブルを作成するさまざまな方法。"
 type: docs
 weight: 20
 url: /ja/java/create-a-table/
 timestamp: 2024-10-21-11-17-44
 ---
 
-Aspose.Words ユーザーは、スクラッチから文書にテーブルを作成したり、さまざまな方法を提供したりすることができます。 この記事では、各メソッドを使用して文書にフォーマットされたテーブルを追加する方法、および記事の最後に各メソッドの比較について詳しく説明します。
+Aspose.Wordsを使用すると、ユーザーは文書内にテーブルを最初から作成でき、そのためのいくつかの異なる方法が提供されます。 この記事では、各メソッドを使用して書式設定されたテーブルをドキュメントに追加する方法の詳細と、記事の最後にある各メソッドの比較について
 
 ## デフォルトのテーブルスタイル
 
-新しく作成されたテーブルは、使用しているものと同様のデフォルト値が与えられます。 Microsoft Word:::
+新しく作成されたテーブルには、Microsoft Wordで使用されているものと同様のデフォルト値が与えられます:
 
-| テーブルプロパティ | デフォルトで Aspose.Words |
-|  :-  |  :-  |
-| `Border Style` |  `Single`  |
+| テーブルプロパティ | Aspose.Wordsのデフォルト |
+| :- | :- |
+| `Border Style` | `Single` |
 | `Border Width` | `1/2 pt` |
-| ボーダー色 |  `Black`  |
+| 境界線の色 | `Black` |
 | `Left and Right Padding` | `5.4 pts` |
 | `AutoFit Mode` | `AutoFit to Window` |
-| `Allow AutoFit` |  `True`  |
+| `Allow AutoFit` | `True` |
 {{% alert color="primary" %}}
 
-表は、タイトに位置付けられているか、ページ上のどこに置くことができるかを浮かぶとインラインにすることができます。 デフォルトでは、 Aspose.Words 常にインラインテーブルを作成します。
+テーブルは、しっかりと配置されている場合はインラインに、ページ上の任意の場所に配置できる場合はフローティングにすることができます。 既定では、Aspose.Wordsは常にインラインテーブルを作成します。
 
 {{% /alert %}}
 
-## DocumentBuilder でテーブルを作成する
+## DocumentBuilderでテーブルを作成する
 
-インスタグラム Aspose.Words, ユーザーは、ドキュメントでテーブルを作成できます。 [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)お問い合わせ テーブルを作成するための基本的なアルゴリズムは次のとおりです。
+Aspose.Wordsでは、ユーザーは[DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)を使用して文書内にテーブルを作成できます。 テーブルを作成するための基本的なアルゴリズムは次のとおりです:
 
-1。 のテーブルをと開けて下さい [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable)
-2。 セルをテーブルに追加する [InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell) - これは自動的に新しい行を開始します
-3。 オプションで、 [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCellFormat) セルのフォーマットを指定するプロパティ
-4。 セルコンテンツを適切な状態で入力 **DocumentBuilder** などの方法 [Writeln](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#writeln), [InsertImage](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertImage-byte), その他
-5。 繰り返しステップ 2-4 行が完了するまで
-6。 電話番号 [EndRow](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow) 現在の行を終了するには
-7。 オプションで、 [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getRowFormat) 行のフォーマットを指定するプロパティ
-8。 繰り返しステップ 2-7 テーブルが完了するまで
-9月9日 電話番号 [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) テーブルを造ることを終えるため
+1. テーブルを[StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable)で開始します
+2. [InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell)を使用してテーブルにセルを追加する–これにより、新しい行が自動的に開始されます
+3. 必要に応じて、[CellFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCellFormat)プロパティを使用してセルの書式を指定します
+4. [Writeln](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#writeln)、[InsertImage](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertImage-byte)などの適切な**DocumentBuilder**メソッドを使用してセルの内容を挿入します
+5. 行が完了するまで、手順2～4を繰り返します
+6. 現在の行を終了するには[EndRow](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow)を呼び出します
+7. 必要に応じて、[RowFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getRowFormat)プロパティを使用して行の書式を指定します
+8. テーブルが完了するまで、手順2～7を繰り返します
+9. テーブルの構築を完了するには[EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable)を呼び出します
 
 {{% alert color="primary" %}}
 
-重要な細部:
+重要な詳細:
 
-- - - [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) セル内で呼び出すこともできます。この場合、セル内のネストテーブルの作成が開始されます。
-- 呼び出し後 [InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell), 新しいセルが作成され、他のメソッドを使用して追加するコンテンツも作成されます。 [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) 現在のセルにクラスを追加します。 同じ行に新しいセルを作成するには、呼び出します **InsertCell** お問い合わせ
-- 場合 **InsertCell** 直後に呼び出される [EndRow](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow) 行の最後に、テーブルは新しい行を続行します。
-- ザ・ [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) 呼び出し後、テーブルを終了するメソッドは一度だけ呼び出されるべきです **EndRow**お問い合わせ お問い合わせ **EndTable** カーソルを現在のセルからテーブル直後に位置に移動します。
+- [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable)はセル内で呼び出すこともでき、その場合、セル内でネストされたテーブルの作成を開始します。
+- [InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell)を呼び出した後、新しいセルが作成され、[DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)クラスの他のメソッドを使用して追加したコンテンツが現在のセルに追加されます。 同じ行に新しいセルを作成するには、**InsertCell**を再度呼び出します。
+- [EndRow](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow)と行の終わりの直後に**InsertCell**が呼び出された場合、テーブルは新しい行で続行されます。
+- テーブルを終了する[EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable)メソッドは、**EndRow**を呼び出した後に一度だけ呼び出す必要があります。 **EndTable**を呼び出すと、カーソルが現在のセルからテーブルの直後の位置に移動します。
 
 {{% /alert %}}
 
-表を作成するプロセスは、次の画像で明確に見ることができます。
+テーブルを作成するプロセスは、次の図ではっきりと見ることができます:
 
 ![creating-table-process](/words/java/create-a-table/creating-table-process.jpg)
 
-次のコードの例では、単純なテーブルを作成する方法を示します。 **DocumentBuilder** デフォルトフォーマット:
+次のコード例は、既定の書式設定で**DocumentBuilder**を使用して単純なテーブルを作成する方法を示しています:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "create-simple-table.java" >}}
 
-次のコードの例では、DocumentBuilder を使用して整形テーブルを作成する方法を示します。
+次のコード例は、DocumentBuilderを使用して書式設定されたテーブルを作成する方法を示しています:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "formatted-table.java" >}}
 
-次のコードの例では、DocumentBuilder を使用してネストされたテーブルをインサートする方法を示します。
+次のコード例は、DocumentBuilderを使用して入れ子になったテーブルを挿入する方法を示しています:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "nested-table.java" >}}
 
-## 表を作成 DOM ( )Document Object Model)
+## DOMを使用してテーブルを作成する(ドキュメントオブジェクトモデル)
 
-テーブルを直接入れることができます。 DOM 新規追加 [Table](https://reference.aspose.com/words/java/com.aspose.words/table/) 特定の位置にあるノード。
+特定の位置に新しい[Table](https://reference.aspose.com/words/java/com.aspose.words/table/)ノードを追加することで、テーブルをDOMに直接挿入できます。
 
-テーブルノード作成直後にテーブル自体が完全に空になるので、まだ行やセルは含まないことに注意してください。 行とセルをテーブルに差し込むには、適切な行を追加します。 [Row](https://reference.aspose.com/words/java/com.aspose.words/run/) そして、 [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/) 子ノードへ DOMお問い合わせ
+テーブルノードの作成直後に、テーブル自体は完全に空になります。つまり、まだ行とセルが含まれていないことに注意してください。 テーブルに行とセルを挿入するには、適切な[Row](https://reference.aspose.com/words/java/com.aspose.words/run/)と[Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/)の子ノードをDOMに追加します。
 
 {{% alert color="primary" %}}
 
-テーブルを作成するこの方法は、使用時に同じテーブルのデフォルトを使用します。 **DocumentBuilder**お問い合わせ
+テーブルを作成するこの方法では、**DocumentBuilder**を使用する場合と同じテーブルのデフォルトが使用されます。
 
 {{% /alert %}}
 
-次のコードの例では、適切な子ノードをドキュメントツリーに追加することで、新しいテーブルをゼロから作成する方法を示します。
+次のコード例は、適切な子ノードをドキュメントツリーに追加して、新しいテーブルを最初から作成する方法を示しています:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "insert-table-directly.java" >}}
 
 ## HTMLからテーブルを作成する
 
-Aspose.Words HTML ソースからコンテンツをドキュメントに挿すサポート [InsertHtml](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertHtml-java.lang.String) メソッド。 入力は完全なHTMLページか部分的なスニペットである場合もあります。
+Aspose.Wordsは、[InsertHtml](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertHtml-java.lang.String)メソッドを使用して、HTMLソースからドキュメントにコンテンツを挿入することをサポートします。 入力は、完全なHTMLページまたは部分的なスニペットにすることができます。
 
-これを使う **InsertHtml** メソッドは、テーブルタグでテーブルをドキュメントに差し込むことができます。 `<table>`, `<tr>`, `<td>`お問い合わせ
+この**InsertHtml**メソッドを使用すると、ユーザーは次のようなテーブルタグを介して文書にテーブルを挿入できます`<table>`, `<tr>`, `<td>`.
 
-次のコードの例では、HTMLタグを含む文字列からテーブルを文書に書き込む方法を示します。
+次のコード例は、HTMLタグを含む文字列からドキュメントにテーブルを挿入する方法を示しています:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "insert-table-from-html.java" >}}
 
-## 既存のテーブルのコピーをインサート
+## 既存のテーブルのコピーを挿入する
 
-ドキュメントの既存のテーブルに基づいてテーブルを作成する必要がある場合は、多くの場合あります。 すべての書式を保持しながらテーブルを複製する最も簡単な方法は、テーブルノードのクローンを作成することです。 [deepClone](https://reference.aspose.com/words/java/com.aspose.words/node/#deepClone-boolean) メソッド。
+ドキュメント内の既存のテーブルに基づいてテーブルを作成する必要がある場合がよくあります。 すべての書式設定を保持しながらテーブルを複製する最も簡単な方法は、[deepClone](https://reference.aspose.com/words/java/com.aspose.words/node/#deepClone-boolean)メソッドを使用してテーブルノードを複製することです。
 
-既存の行やセルのコピーをテーブルに追加するために同じ技術を使うことができます。
+同じ手法を使用して、既存の行またはセルのコピーをテーブルに追加できます。
 
-次のコードの例では、ノードコンストラクタを使用してテーブルを複製する方法を示します。
+次のコード例は、ノードコンストラクターを使用してテーブルを複製する方法を示しています:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "clone-complete-table.java" >}}
 
 {{% alert color="primary" %}}
 
-この例のサンプルファイルをダウンロードできます。 [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx)お問い合わせ
+この例のサンプルファイルは、次の場所からダウンロードできます [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx).
 
 {{% /alert %}}
 
-次のコードの例では、テーブルの最後の行をクローンし、テーブルに追加する方法を示します。
+次のコード例は、テーブルの最後の行を複製してテーブルに追加する方法を示しています:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "clone-last-row.java" >}}
 
 {{% alert color="primary" %}}
 
-この例のサンプルファイルをダウンロードできます。 [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx)お問い合わせ
+この例のサンプルファイルは、次の場所からダウンロードできます [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx).
 
 {{% /alert %}}
 
-データソースから各レコードで動的に成長するドキュメントでテーブルを作成したい場合は、上記の方法はお勧めしません。 代わりに、目的の出力は使用することによってより容易に達成されます Mail merge 地域とともに。 このテクニックについてもっと学ぶことができます [Mail Merge 地域別](/words/java/types-of-mail-merge-operations/) セクション。
+データソースからの各レコードで動的に成長するドキュメント内のテーブルを作成する場合は、上記の方法はお勧めしません。 代わりに、領域でMail mergeを使用すると、目的の出力がより簡単に達成されます。 この技術についての詳細を学ぶことができます [地域を持つMail Merge](/words/java/types-of-mail-merge-operations/) セクション。
 
 ## テーブルを作成する方法を比較する
 
-Aspose.Words ドキュメントに新しいテーブルを作成するいくつかの方法を提供します。 各方法には独自の利点と欠点があります。そのため、その選択は特定の状況に依存します。
+Aspose.Wordsは、文書内に新しいテーブルを作成するためのいくつかのメソッドを提供します。 各方法には独自の長所と短所があるため、使用する選択は特定の状況に依存することがよくあります。
 
-テーブルを作成する方法を見て、その長所と短所を比較してみましょう。
+テーブルを作成するこれらの方法を詳しく見て、その長所と短所を比較してみましょう:
 
-|  メソッド | メリット |  欠点 |
-|  :-  |  :-  |  :-  |
-| ヴィクトリア `DocumentBuilder` | テーブルなどの文書コンテンツをインサートするための標準的な方法 | 時には、同じビルダーインスタンスで複数のテーブルを同時に作成するのは困難です |
-| ヴィクトリア DOM |  ノードを直接作成し、インサートする、周囲のコードに適しています。 DOM 使わずに **DocumentBuilder** | ほとんどの操作を実行する前に、テーブルは「空」を作成します。 [EnsureMinimum](https://reference.aspose.com/words/java/com.aspose.words/table/#ensureMinimum) 欠落した子ノードを作成する |
-| HTMLから | のようなタグを使用してHTMLソースから新しいテーブルを作成できます `<table>`, `<tr>`, `<td>` | できる限り Microsoft Word 表形式は HTML に適用できます |
-| 既存のテーブルをクローニング | すべての行とセルのフォーマットを保持しながら、既存のテーブルのコピーを作成できます | 適切な子ノードは、テーブルが使用可能になる前に削除する必要があります |
+| メソッド | 利点 | デメリット |
+| :- | :- | :- |
+| 経由`DocumentBuilder` | テーブルやその他のドキュメントコンテンツを挿入するための標準的な方法 | 同じビルダーインスタンスで同時に多くの種類のテーブルを作成するのが難しい場合があります |
+| 経由DOM | **DocumentBuilder**を使用せずにノードを直接DOMに作成して挿入する周囲のコードに適しています | ほとんどの操作を実行する前に、[EnsureMinimum](https://reference.aspose.com/words/java/com.aspose.words/table/#ensureMinimum)を呼び出して不足している子ノードを作成する必要があります |
+| からHTML | 次のようなタグを使用してHTMLソースから新しいテーブルを作成できます`<table>`, `<tr>`, `<td>` | すべての可能なMicrosoft Wordテーブル形式をHTMLに適用できるわけではありません |
+| 既存のテーブルのクローン作成 | すべての行とセルの書式設定を保持しながら、既存のテーブルのコピーを作成できます | テーブルを使用する準備が整う前に、適切な子ノードを削除する必要があります |

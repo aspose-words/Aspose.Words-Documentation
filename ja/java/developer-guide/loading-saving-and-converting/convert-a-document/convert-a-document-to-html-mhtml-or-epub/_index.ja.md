@@ -1,93 +1,93 @@
----
-title: ドキュメントをHTML、MHTML、EPUBに変換する
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: ドキュメントをHTML、MHTML、EPUBに変換する
-linktitle: ドキュメントをHTML、MHTML、EPUBに変換する
-description: "使用条件 Aspose.Words お問い合わせ Java 文書をWordまたは他のサポートされているフォーマットからHTML、MHTML、またはEPUBに変換する。"
+﻿---
+title: ドキュメントをHTML、MHTML、またはEPUBに変換します
+second_title: Aspose.WordsのためのJava
+articleTitle: ドキュメントをHTML、MHTML、またはEPUBに変換します
+linktitle: ドキュメントをHTML、MHTML、またはEPUBに変換します
+description: "文書をWordまたはその他のサポートされている形式からHTML、MHTML、またはEPUBに変換するには、JavaにAspose.Wordsを使用します。"
 type: docs
 weight: 20
 url: /ja/java/convert-a-document-to-html-mhtml-or-epub/
 timestamp: 2024-10-21-08-52-03
 ---
 
-HTML と MHTML のフローレイアウトのフォーマットのドキュメントも非常に人気があり、任意の web プラットフォームで使用できます。 そのため、ドキュメントを HTML や MHTML に変換することは重要な機能です。 Aspose.Wordsお問い合わせ
+HTMLおよびMHTMLフローレイアウト形式の文書も非常に一般的であり、任意のwebプラットフォームで使用できます。 そのため、文書をHTMLとMHTMLに変換することはAspose.Wordsの重要な機能です。
 
-EPUB(「電子出版」の略)は、電子書籍の配布に一般的に使用されるHTMLベースのフォーマットです。 このフォーマットは完全にサポートされています Aspose.Words ほとんどの読書装置と互換性がある電子書籍を輸出するため。
+EPUB("Electronic Publication"の略)は、電子書籍の配布に一般的に使用されるHTMLベースのフォーマットです。 この形式は、ほとんどの読書デバイスと互換性のある電子書籍をエクスポートするためにAspose.Wordsで完全にサポートされています。
 
-## ドキュメントを変換する
+## 文書を変換する
 
-HTML、MHTML、EPUBへの簡単な変換のために、 [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.lang.String-int) 方法積み過ぎは使用されます。 ドキュメントをファイルに保存したり、ストリームや明示的に出力文書保存形式を設定したり、ファイル名拡張子から定義したりすることができます。
+HTML、MHTML、またはEPUBへの単純な変換には、[Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.lang.String-int)メソッドオーバーロードのいずれかが使用されます。 ドキュメントをファイルまたはストリームに保存し、出力ドキュメントの保存形式を明示的に設定したり、ファイル名拡張子から定義したりできます。
 
-次の例では、保存形式を指定してDOCXをHTMLに変換する方法を示します。
+次の例は、保存形式を指定してDOCXをHTMLに変換する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToHTML-ConvertDocxToHtml.java" >}}
 
-ドキュメントをMHTMLまたはEPUBに変換するには、 `SaveFormat.MHTML` または `SaveFormat.EPUB` それぞれ。
+文書をMHTMLまたはEPUBに変換するには、それぞれ`SaveFormat.MHTML`または`SaveFormat.EPUB`を使用します。
 
-## 往復情報でドキュメントを変換
+## 往復情報を含む文書を変換する
 
-HTMLフォーマットは多くのサポートをしていません Microsoft Word 機能と、可能な限り元のに近いドキュメントモデルを復元する必要がある場合は、HTMLファイル内の追加情報を保存する必要があります。 そのような情報は「往復情報」とも呼ばれます。 この目的のために、 Aspose.Words HTML、MHTML、EPUBへの保存時に往復情報をエクスポートする機能を提供します。 [ExportRoundtripInformation](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getExportRoundtripInformation) 宿泊施設 往復情報を保存することで、リストされたフォーマットの読み込み中にタブ、コメント、ヘッダー、フッターなどのドキュメントプロパティを復元できます。 **Document** オブジェクト。
+HTML形式は多くのMicrosoft Word機能をサポートしておらず、可能な限り元のものに近いドキュメントモデルを復元する必要がある場合は、HTMLファイル内に追加情報を保存する必要があります。 このような情報は、"往復情報"とも呼ばれます。 この目的のために、Aspose.Wordsは、[ExportRoundtripInformation](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getExportRoundtripInformation)プロパティを使用してHTML、MHTML、またはEPUBに保存するときにラウンドトリップ情報をエクスポートする機能を提供します。 往復情報を保存すると、リストされた書式の文書を**Document**オブジェクトにロードする際に、タブ、コメント、ヘッダー、フッターなどの文書のプロパティを復元で
 
-デフォルト値は **true** HTML と HTML **false** MHTMLとEPUBの場合:
+デフォルト値はHTMLの場合は**true**、MHTMLとEPUBの場合は**false**です:
 
-- いつ **true**, 往復情報は - aw - *対応するHTML要素のCSSプロパティとしてエクスポートされます
-- いつ **false**, 生成されたファイルに出力される往復情報がない
+- **true**の場合、ラウンドトリップ情報は、対応するHTML要素の-aw-*CSSプロパティとしてエクスポートされます
+- **false**の場合、生成されたファイルに出力されるラウンドトリップ情報はありません
 
-次のコードの例では、DOCX から HTML にドキュメントを変換する際に、往復情報をエクスポートする方法を示します。
+次のコード例は、ドキュメントをDOCXからHTMLに変換するときに往復情報をエクスポートする方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToHTML-ConvertDocumentToHtmlWithRoundtrip.java" >}}
 
 {{% alert color="primary" %}}
 
-この例のテンプレートファイルをダウンロードできます。 [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Rendering.docx) です。
+この例のテンプレートファイルは、次の場所からダウンロードできます [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Rendering.docx).
 
 {{% /alert %}}
 
-## HTMLへの変換時に保存オプションを指定する
+## HTMLに変換するときに保存オプションを指定します
 
-Aspose.Words デフォルトまたはカスタム保存オプションを使用してWord文書をHTMLに変換できます。 カスタム保存オプションの例を以下に示します。
+Aspose.Words既定またはカスタム保存オプションを使用してWord文書をHTMLに変換できます。 以下では、カスタム保存オプションの例をいくつか説明します。
 
 ### リソースを保存するためのフォルダを指定します
 
-使用方法 Aspose.Words ドキュメントがHTMLに変換されると、画像、フォント、および外部CSSなどのすべてのリソースが保存される物理的なフォルダを指定できます。 デフォルトでは、これは空の文字列です。
+Aspose.Wordsを使用すると、文書がHTMLに変換されたときに画像、フォント、外部CSSなどのすべてのリソースが保存される物理フォルダを指定できます。 デフォルトでは、これは空の文字列です。
 
-指定する [ResourceFolder](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getResourceFolder) プロパティは、すべてのリソースが書かれるべきフォルダを設定する最も簡単な方法です。 個々の特性を、例えば使用してもいいです [FontsFolder](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getFontsFolder) フォントを指定されたフォルダに保存し、 [ImagesFolder](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getImagesFolder) 指定したフォルダに画像を保存します。 相対パスを指定すると、 **FontsFolder** そして、 **ImagesFolder** コードアセンブリが配置されているフォルダを参照してください。 **ResourceFolder** そして、 [CssStyleSheetFileName](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getCssStyleSheetFileName) HTML ドキュメントが配置されている出力フォルダを参照してください。
+[ResourceFolder](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getResourceFolder)プロパティを指定することは、すべてのリソースを書き込むフォルダを設定する最も簡単な方法です。 フォントを指定したフォルダに保存する[FontsFolder](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getFontsFolder)や画像を指定したフォルダに保存する[ImagesFolder](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getImagesFolder)など、個々のプロパティを使用できます。 相対パスが指定されている場合、**FontsFolder**と**ImagesFolder**はコードアセンブリが配置されているフォルダーを参照し、**ResourceFolder**と[CssStyleSheetFileName](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getCssStyleSheetFileName)はHTMLドキュメントが配置されている出力フォル
 
-この例では、 **ResourceFolder** 相対パスを指定します。 このパスは、HTML文書が保存される出力フォルダを指します。 の値は、 **ResourceFolderAlias** プロパティは、すべてのリソースの URL を作成するために使用されます。
+この例では、**ResourceFolder**は相対パスを指定します。 このパスは、HTMLドキュメントが保存されている出力フォルダーを参照します。 **ResourceFolderAlias**プロパティの値は、すべてのリソースに対してURLsを作成するために使用されます。
 
-次のコードの例では、これらのプロパティで動作する方法を示します。
+次のコード例は、これらのプロパティを操作する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToHTML-ExportResourcesUsingHtmlSaveOptions.java" >}}
 
-使い方 [ResourceFolderAlias](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getResourceFolderAlias) プロパティは、HTML文書に書かれているすべてのリソースのURIを構築するために使用されるフォルダの名前を指定することもできます。 これは、すべてのリソースファイルに対して URI が生成される方法を指定する最も簡単な方法です。 画像とフォントを別々に指定できます。 [ImagesFolderAlias](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getImagesFolderAlias) そして、 [FontsFolderAlias](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getFontsFolderAlias) それぞれプロパティ。
+[ResourceFolderAlias](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getResourceFolderAlias)プロパティを使用して、HTML文書に書き込まれたすべてのリソースのURIsを構築するために使用されるフォルダの名前を指定することもできます。 これは、すべてのリソースファイルに対してURIsを生成する方法を指定する最も簡単な方法です。 [ImagesFolderAlias](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getImagesFolderAlias)プロパティと[FontsFolderAlias](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getFontsFolderAlias)プロパティを使用して、画像とフォントに同じ情報を個別に指定することができます。
 
-ただし、CSSには個別のプロパティはありません。 行動の行動 **FontsFolder**, **FontsFolderAlias**, **ImagesFolder**, **ImagesFolderAlias** そして、 **CssStyleSheetFileName** プロパティは変更されません。 注意: **CssStyleSheetFileName** プロパティはフォルダー名とファイル名を指定するために使われます。
+ただし、CSSには個々のプロパティはありません。 の動作**FontsFolder**, **FontsFolderAlias**, **ImagesFolder**, **ImagesFolderAlias** および**CssStyleSheetFileName**プロパティは変更されません。 **CssStyleSheetFileName**プロパティは、フォルダ名とファイル名の両方を指定するために使用されることに注意してください。
 
-- - - **ResourceFolder** 指定したフォルダよりも優先度が低い **FontsFolder**, **ImagesFolder**, そして、 **CssStyleSheetFileName**お問い合わせ 指定されたフォルダが **ResourceFolder** 存在しない、自動的に作成されます。
-- - - **ResourceFolderAlias** 優先度が低い **FontsFolderAlias** そして、 **ImagesFolderAlias**お問い合わせ お問い合わせ **ResourceFolderAlias** は空です。 **ResourceFolder** リソースの URI を作成するためにプロパティが使用されます。 お問い合わせ **ResourceFolderAlias** "" (dot) に設定されると、リソース URI はパスを指定せずにファイル名のみを含む。
+- **ResourceFolder**は、**FontsFolder**、**ImagesFolder**、**CssStyleSheetFileName**で指定されたフォルダよりも優先度が低くなります。 **ResourceFolder**で指定したフォルダが存在しない場合は、自動的に作成されます。
+- **ResourceFolderAlias**の優先度は**FontsFolderAlias**や**ImagesFolderAlias**よりも低くなります。 **ResourceFolderAlias**が空の場合、**ResourceFolder**プロパティの値はリソースURIsを作成するために使用されます。 **ResourceFolderAlias**が"."(ドット)に設定されている場合、リソースURIsにはパスを指定せずにファイル名のみが含まれます。
 
-### エクスポートベース64 エンコードフォントリソース
+### Base64エンコーディングフォントリソースのエクスポート
 
-Aspose.Words フォントリソースがBase64エンコーディングでHTMLに埋め込まれるべきかどうかを指定する機能を提供します。 これを実行するには、 [ExportFontsAsBase64](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getExportFontsAsBase64) プロパティ – これは、拡張機能です [ExportFontResources](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getExportFontResources) プロパティ. デフォルトでは、その値は **false**, フォントは別のファイルに書かれています。 しかし、このオプションが設定されている場合 **true**, フォントはBase64エンコーディングのドキュメントのCSSに埋め込まれます。 ザ・オブ・ザ・ **輸出FontsAsBase64** プロパティは HTML 形式にのみ影響し、EPUB や MHTML には影響しません。
+Aspose.Wordsは、Base64エンコーディングのHTMLにフォントリソースを埋め込むかどうかを指定する機能を提供します。 これを実行するには、[ExportFontsAsBase64](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getExportFontsAsBase64)プロパティを使用します–これは[ExportFontResources](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getExportFontResources)プロパティの拡張です。 デフォルトでは、その値は**false**であり、フォントは別々のファイルに書き込まれます。 ただし、このオプションを**true**に設定すると、フォントはBase64エンコーディングでドキュメントのCSSに埋め込まれます。 **ExportFontsAsBase64**プロパティはHTML形式にのみ影響し、EPUBとMHTMLには影響しません。
 
-次のコードの例では、Base64 エンコードされたフォントをHTMLにエクスポートする方法を示します。
+Base64でエンコードされたフォントをHTMLにエクスポートする方法を次のコード例に示します:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToHTML-ExportFontsAsBase64.java" >}}
 
-## EPUBへの変換時に保存オプションを指定する
+## EPUBに変換するときに保存オプションを指定します
 
-Aspose.Words デフォルトまたはカスタム保存オプションを使用して、Word文書をEPUB形式に変換できます。 インスタンスを渡すことでオプションの数を指定できます。 [HtmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/) お問い合わせ [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.lang.String-com.aspose.words.SaveOptions) メソッド。
+Aspose.Words既定またはカスタム保存オプションを使用してWord文書をEPUB形式に変換できます。 [HtmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/)のインスタンスを[Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.lang.String-com.aspose.words.SaveOptions)メソッドに渡すことで、いくつかのオプションを指定できます。
 
-次のコードの例では、Word文書をEPUBに変換し、いくつかのカスタム保存オプションを指定する方法を示します。
+次のコード例は、いくつかのカスタム保存オプションを指定してWord文書をEPUBに変換する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToHTML-ConvertDocumentToEPUB.java" >}}
 
 {{% alert color="primary" %}}
 
-この例のテンプレートファイルをダウンロードできます。 [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/resources/com/aspose/words/examples/loading_saving/ExportResourcesUsingHtmlSaveOptions/Document.EpubConversion.doc)お問い合わせ
+この例のテンプレートファイルは、次の場所からダウンロードできます [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/resources/com/aspose/words/examples/loading_saving/ExportResourcesUsingHtmlSaveOptions/Document.EpubConversion.doc).
 
 {{% /alert %}}
 
-## お問い合わせ
+## また見て下さい
 
-- [HTMLの投稿](/words/java/custom-styles-used-for-proper-aspose-words-html-roundtrip/)
+- [HTMLに保存するときに往復情報をエクスポートする方法](/words/java/custom-styles-used-for-proper-aspose-words-html-roundtrip/)

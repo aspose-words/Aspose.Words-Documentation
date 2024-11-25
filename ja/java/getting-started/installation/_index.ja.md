@@ -1,24 +1,24 @@
----
-title: 導入事例
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: 導入事例
-linktitle: 導入事例
-description: "インストール Aspose.Words お問い合わせ Java から Maven リポジトリ。 定義する Aspose.Words お問い合わせ Java pom.xml の依存性"
+﻿---
+title: インストール
+second_title: Aspose.WordsのためのJava
+articleTitle: インストール
+linktitle: インストール
+description: "MavenリポジトリからJavaのAspose.Wordsをインストールします。 あなたのpom.xmlのJava依存関係のAspose.Wordsを定義します"
 type: docs
 weight: 10
 url: /ja/java/installation/
 timestamp: 2024-01-27-14-07-04
 ---
 
-あなたの機械が会うことを確かめて下さい [システム要件](/words/ja/java/system-requirements/) はじめに。
+あなたの機械が会うことを確かめて下さい [システム要件](/words/java/system-requirements/) 始める前に。
 
-この記事では、インストール方法について説明します Aspose.Words お問い合わせ Java パソコンで
+この記事では、コンピュータにAspose.WordsforJavaをインストールする方法について説明します。
 
-## インストール Aspose.Words お問い合わせ Java から Maven リポジトリ {#install-aspose-words-for-java-from-maven-repository}
+## Mavenリポジトリ {#install-aspose-words-for-java-from-maven-repository}からJavaのAspose.Wordsをインストールします
 
-Aspose はすべてのホストをホストします Java APIログイン [Maven リポジトリ](https://releases.aspose.com/words/java/)お問い合わせ 使いやすい Aspose.Words お問い合わせ Java API 直接あなたの Maven シンプルな構成を持つプロジェクト:
+AsposeはすべてのJavaAPIsをホストします [Mavenリポジトリ](https://releases.aspose.com/words/java/). 簡単な構成でMavenプロジェクトでJavaAPIにAspose.Wordsを直接使用することができます:
 
-1。 まず、Aspose を指定する必要があります。 Maven リポジトリの構成/ロケーション Maven 以下に示すようにpom.xml:
+1. まず、以下に示すように、Mavenpom.xmlにAsposeMavenリポジトリの設定/場所を指定する必要があります:
 	{{< highlight html >}}
 	<repositories>
 		<repository>
@@ -28,7 +28,7 @@ Aspose はすべてのホストをホストします Java APIログイン [Maven
 		</repository>
 	</repositories>
 	{{< /highlight >}}
-2。 それから、定義して下さい Aspose.Words お問い合わせ Java API pom.xml の依存関係は以下の通りです。
+2. 次に、pom.xmlのJavaAPI依存関係のAspose.Wordsを次のように定義します:
 	{{< highlight html >}}
 	<dependencies>
 		<dependency>
@@ -45,8 +45,8 @@ Aspose はすべてのホストをホストします Java APIログイン [Maven
 		</dependency>
 	</dependencies>
 	{{< /highlight >}}
-3。 おめでとうございます! あなたは成功した定義しています Aspose.Words お問い合わせ Java あなたの依存関係 Maven プロジェクト
+3. おめでとうございます！ MavenプロジェクトでJava依存関係のAspose.Wordsを正常に定義しました。
 
-## お問い合わせ
+## また見て下さい
 
-* [ダウンロード Aspose.Words から Maven](https://releases.aspose.com/words/java/)
+* [アスポーズWordsをMavenからダウンロード](https://releases.aspose.com/words/java/)

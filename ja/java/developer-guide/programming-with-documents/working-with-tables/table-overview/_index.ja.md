@@ -1,69 +1,69 @@
----
-title: テーブルの概要
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: テーブルの概要
-linktitle: テーブルの概要
-description: "セル、行、列などのテーブルとコンポーネントを操作 Aspose.Words お問い合わせ Javaお問い合わせ テーブルでの作業方法 Javaお問い合わせ"
+﻿---
+title: 表の概要
+second_title: Aspose.WordsのためのJava
+articleTitle: 表の概要
+linktitle: 表の概要
+description: "テーブルと、JavaのAspose.Wordsのセル、行、列などのコンポーネントを操作します。 Javaのテーブルを操作する方法。"
 type: docs
 weight: 10
 url: /ja/java/table-overview/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words PDF、HTML、さまざまな形式の文書のサーバー側処理用に設計されたクラスライブラリです。 Microsoft Word フォーマットと他 – 次の方法でテーブルをサポート:
+Aspose.Wordsは、さまざまな形式(PDF、HTML、さまざまなMicrosoft Word形式など)のドキュメントをサーバー側で処理するために設計されたクラスライブラリで、次の方法でテーブルをサポー:
 
-* 文書内の表は、オープン/セーブおよび変換中に保存されます。
-*テーブル、コンテンツ、およびそのフォーマットを編集し、テーブルをサポートする形式でファイルに変更をエクスポートすることができます。
+* ドキュメント内のテーブルは、開いたり保存したり、変換したりするときに保持されます
+* テーブル、コンテンツ、およびその書式設定を編集し、変更をテーブルをサポートする形式でファイルにエクスポートすることができます
 
-この記事では、テーブルの構造、セル、行、および列のサポートについて詳しく説明します。 Aspose.Words, そのようなテーブルで作業する詳細。
+この記事では、Aspose.Wordsでサポートされているテーブル構造、セル、行、列、およびそのようなテーブルの操作の詳細について詳しく説明します。
 
-## テーブルの構造
+## テーブル構造
 
-既に述べたように、テーブルはそのような要素から構成されます **Cell**, **Row** そして、 **Column**お問い合わせ これらは、文書の形式に関係なく、一般的にすべてのテーブルに共通する概念です。
+すでに述べたように、テーブルは**Cell**、**Row**、**Column**などの要素で構成されています。 これらは、ドキュメント形式に関係なく、一般的にすべてのテーブルに共通する概念です。
 
-これはテーブルの一般的な例です。 Microsoft Word ドキュメント:
+これはMicrosoft Word文書にあるテーブルの一般的な例です:
 
 ![tables-overview-aspose-words-java-1](/words/java/table-overview/tables-overview-1.png)
 
 ### テーブルノード
 
-読み込まれた文書からテーブル Aspose.Words として輸入されます **テーブルノード**お問い合わせ 表は、次の子として見つけることができます。
+Aspose.Wordsにロードされたドキュメントのテーブルは**Table node**としてインポートされます。 テーブルは次の子として見つけることができます:
 
-- メインテキスト
+- 本文
 - コメントや脚注などのインラインストーリー
-- 別のテーブル内でテーブルがネストされるときの細胞
+- テーブルが別のテーブル内にネストされている場合のセル
 
 {{% alert color="primary" %}}
 
-表は他の表の内側に任意の深さにネストすることができます。
+テーブルは、他のテーブルの中に任意の深さまでネストすることができます。
 
 {{% /alert %}}
 
-### テーブルコンテンツ
+### テーブルの内容
 
-テーブルノードには、実際のコンテンツが含まれていません。代わりに、コンテンツを構成する他のノードのコンテナです。
+テーブルノードには実際のコンテンツは含まれていません–代わりに、コンテンツを構成する他のそのようなノードのコンテナです:
 
-- - - **Table** 多く含まれている **Row** ノード。 表は、すべての通常のノード要素を提供し、文書内のテーブルを自由に移動、変更、削除することができます。
-- - - **Row** 単一のテーブル行を表し、多くの **Cell** ノード。 その他、 **Row** 高さやアライメントなど、行の表示方法を定義する要素を提供します。
-- - - **Cell** 何が含まれているか true テーブルに表示されている内容で、 **Paragraph** 他のブロックレベルノード。 さらに、セルはネストされたテーブルを含むことができます。
+- **Table**には多くの**Row**ノードが含まれています。 テーブルには通常のすべてのノード要素が用意されているため、ドキュメント内のテーブルを自由に移動、変更、削除できます。
+- **Row**は単一のテーブル行を表し、多くの**Cell**ノードが含まれています。 さらに、**Row**には、高さや配置など、行の表示方法を定義する要素が用意されています。
+- **Cell**は、テーブルに表示される真のコンテンツを含み、**Paragraph**と他のブロックレベルノードで構成されています。 さらに、セルには入れ子になったテーブルを含めることができます。
 
 ![tables-overview-aspose-words-java-2](/words/java/table-overview/tables-overview-2.png)
 
 {{% alert color="primary" %}}
 
-ドキュメント内のテーブルノードの構造をドキュメントで確認できます。 **DocumentExplorer**お問い合わせ
+ドキュメント内のテーブルノードの構造は、**DocumentExplorer**を使用して確認できます。
 
 {{% /alert %}}
 
-### 表の後の空のパラグラフ
+### テーブルの後の空の段落
 
-上記の画像は、ドキュメントには複数の行の表が含まれていることを示しています。これは、2つのセルで構成されます。 2つのセルのそれぞれには、セルのフォーマットされたテキストのコンテナである段落が含まれています。
+上の図は、文書に複数の行のテーブルが含まれていることを示しており、これは2つのセルで構成されています。 2つのセルのそれぞれには、セルの書式設定されたテキストのコンテナである段落が含まれています。
 
-また、文書内の2つの連続テーブルを分離することは、テーブルの後に少なくとも1つの空の段落を必要とすることに注意する価値もあります。 このような段落がなければ、連続したテーブルが1つにまとめられます。 この動作は両方とも同じです Microsoft Word そして、 Aspose.Wordsお問い合わせ
+また、文書内の2つの連続したテーブルを分離するには、テーブルの後に少なくとも1つの空の段落が必要であることにも注意してください。 このような段落がなければ、連続したテーブルは1つに結合されます。 この動作はMicrosoft WordとAspose.Wordsの両方で同じです。
 
-Aspose.Words 表に関連したクラスがいくつかあります。 [Tables](https://reference.aspose.com/words/java/com.aspose.words/table/), [Rows](https://reference.aspose.com/words/java/com.aspose.words/row/), [Cells](https://reference.aspose.com/words/java/com.aspose.words/cell/), その他。
+Aspose.Wordsには、テーブルに関連するいくつかのクラスがあります– [Tables](https://reference.aspose.com/words/java/com.aspose.words/table/), [Rows](https://reference.aspose.com/words/java/com.aspose.words/row/), [Cells](https://reference.aspose.com/words/java/com.aspose.words/cell/), と他の人。
 
-## お問い合わせ
+## また見て下さい
 
-* [Aspose.Words Document Object Model (DOM)](/words/ja/java/aspose-words-document-object-model/)
-* [ドキュメント内のノードの論理レベル](/words/ja/java/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Wordsドキュメントオブジェクトモデル(DOM)](/words/java/aspose-words-document-object-model/)
+* [ドキュメント内のノードの論理レベル](/words/java/logical-levels-of-nodes-in-a-document/)

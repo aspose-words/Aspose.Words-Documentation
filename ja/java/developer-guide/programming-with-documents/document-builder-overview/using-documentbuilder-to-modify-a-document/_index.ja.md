@@ -1,219 +1,219 @@
----
-title: 使用方法 `DocumentBuilder` ドキュメントを修正する
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: 使用方法 `DocumentBuilder` ドキュメントを修正する
-linktitle: 使用方法 `DocumentBuilder` ドキュメントを修正する
+﻿---
+title: `DocumentBuilder`を使用して文書を変更する
+second_title: Aspose.WordsのためのJava
+articleTitle: `DocumentBuilder`を使用して文書を変更する
+linktitle: `DocumentBuilder`を使用して文書を変更する
 type: docs
-description: "ドキュメントビルダーを使用して文書を簡単に変更できます Javaお問い合わせ"
+description: "ドキュメントビルダーを使用して、Javaで文書を簡単に変更できます。"
 weight: 20
 url: /ja/java/using-documentbuilder-to-modify-a-document/
 timestamp: 2024-10-21-11-17-44
 ---
 
-## フォーマットの指定
+## 書式の指定
 
-### フォントのフォーマット
+### フォントの書式設定
 
-現在のフォントフォーマットは、 `Font` 返されたオブジェクト `DocumentBuilder.Font` プロパティ. ザ・オブ・ザ・ `Font` クラスには、さまざまなフォントのプロパティが含まれています。 Microsoft Wordお問い合わせ
+現在のフォントの書式は、`DocumentBuilder.Font`プロパティによって返される`Font`オブジェクトで表されます。 `Font`クラスには、Microsoft Wordで可能なさまざまなフォントプロパティが含まれています。
 
 | ![font-formatting-aspose-words-java](/words/java/using-documentbuilder-to-modify-a-document/documentbuilder-to-modify-document-1.png) |
-|  :-  |
-次のコードの例では、フォントのフォーマットを設定する方法を示します。
+| :- |
+次のコード例は、フォントの書式設定を設定する方法を示しています。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderSetFontFormatting-DocumentBuilderSetFontFormatting.java" >}}
 
 
-### セルのフォーマット
+### セルの書式設定
 
-セルのフォーマットは、テーブルのビルド時に使用されます。 これは、 `CellFormat` 返されたオブジェクト `DocumentBuilder.CellFormat` 宿泊施設 CellFormat は、幅や垂直方向のアライメントなど、さまざまなテーブルのセルプロパティをカプセル化します。
+セルの書式設定は、テーブルの構築中に使用されます。 これは、`DocumentBuilder.CellFormat`プロパティによって返される`CellFormat`オブジェクトによって表されます。 CellFormat幅や垂直方向の配置など、さまざまなテーブルセルプロパティをカプセル化します。
 
 | ![cell-formatting-aspose-words-java](/words/java/using-documentbuilder-to-modify-a-document/documentbuilder-to-modify-document-2.png) |
-|  :-  |
-次のコードの例では、単一の整形セルを含むテーブルを作成する方法を示します。
+| :- |
+次のコード例は、単一の書式設定されたセルを含むテーブルを作成する方法を示しています。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderSetTableCellFormatting-DocumentBuilderSetTableCellFormatting.java" >}}
 
-### 列のフォーマット
+### 行の書式設定
 
-現在の行のフォーマットは、 `RowFormat` 返されたオブジェクト `DocumentBuilder.RowFormat` プロパティ. オブジェクトは、すべてのテーブル行のフォーマットに関する情報をカプセル化します。
+現在の行の書式設定は、`DocumentBuilder.RowFormat`プロパティによって返される`RowFormat`オブジェクトによって決定されます。 このオブジェクトは、すべての表の行の書式設定に関する情報をカプセル化します。
 
 | ![row-formatting-aspose-words-java](/words/java/using-documentbuilder-to-modify-a-document/documentbuilder-to-modify-document-3.png) |
-|  :-  |
-お問い合わせlow code たとえば、単一セルを含むテーブルを作成し、行のフォーマットを適用する方法を示します。
+| :- |
+Below codeの例は、単一のセルを含むテーブルを作成し、行の書式設定を適用する方法を示しています。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderSetTableRowFormatting-DocumentBuilderSetTableRowFormatting.java" >}}
 
-### リストのフォーマット
+### リストの書式設定
 
-Aspose.Words リストのフォーマットを適用することでリストを簡単に作成できます。 ドキュメントビルダーは、 `DocumentBuilder.ListFormat` を返すプロパティ `ListFormat` オブジェクト。 このオブジェクトは、リストを開始して終了し、インデントを増加/減少させるいくつかの方法を持っています。
+Aspose.Wordsリストの書式設定を適用することで、リストを簡単に作成できます。 DocumentBuilderは`ListFormat`オブジェクトを返す`DocumentBuilder.ListFormat`プロパティを提供します。 このオブジェクトには、リストの開始と終了、およびインデントの増減を行ういくつかのメソッドがあります。
 
 | ![list-fformatting-aspose-words-java](/words/java/using-documentbuilder-to-modify-a-document/documentbuilder-to-modify-document-4.png) |
-|  :-  |
-リストには2種類あります。 Microsoft Word: 箇条書きと番号
+| :- |
+Microsoft Wordには、箇条書きと番号付きの2つの一般的なタイプのリストがあります。
 
-- 箇条書きリストを開始するには、呼び出し [ListFormat.applyBulletDefault](https://reference.aspose.com/words/java/com.aspose.words/listformat/#applyBulletDefault) お問い合わせ
-- 番号付きリストを開始するには、呼び出し [ListFormat.applyNumberDefault](https://reference.aspose.com/words/java/com.aspose.words/listformat/#applyNumberDefault) お問い合わせ
+- 箇条書きリストを開始するには、[ListFormat.applyBulletDefault](https://reference.aspose.com/words/java/com.aspose.words/listformat/#applyBulletDefault)を呼び出します。
+- 番号付きリストを開始するには、[ListFormat.applyNumberDefault](https://reference.aspose.com/words/java/com.aspose.words/listformat/#applyNumberDefault)を呼び出します。
 
-現在の段落に箇条書きまたは番号と書式が追加され、使用したすべての段落が追加されます。 **DocumentBuilder** まで [ListFormat.removeNumbers](https://reference.aspose.com/words/java/com.aspose.words/listformat/#removeNumbers) 箇条書きのフォーマットを停止するために呼び出されます。
+箇条書きまたは番号と書式設定が現在の段落に追加され、[ListFormat.removeNumbers](https://reference.aspose.com/words/java/com.aspose.words/listformat/#removeNumbers)まで**DocumentBuilder**を使用して作成されたすべての段落が呼び出されて箇条書きリストの書式設定
 
-ワード文書では、リストは9レベルまで構成できます。 各レベルのリストのフォーマットは、弾丸や数字が使用されるか、左インデント、弾丸とテキストの間隔などを指定します。
+Word文書では、リストは最大9つのレベルで構成されています。 各レベルのリストの書式設定は、使用される箇条書きまたは番号、左インデント、箇条書きとテキストの間のスペースなどを指定します。
 
-- - - 現在の段落の一覧レベルを1つのレベルに引き上げるために、呼び出し [ListFormat.listIndent](https://reference.aspose.com/words/java/com.aspose.words/listformat/#listIndent)お問い合わせ
-- - - 現在の段落の一覧レベルを1レベルに下げるには、呼び出し [ListFormat.listOutdent](https://reference.aspose.com/words/java/com.aspose.words/listformat/#listOutdent)お問い合わせ
+- 現在の段落のリストレベルを1レベル上げるには、[ListFormat.listIndent](https://reference.aspose.com/words/java/com.aspose.words/listformat/#listIndent)を呼び出します。
+- 現在の段落のリストレベルを1レベル下げるには、[ListFormat.listOutdent](https://reference.aspose.com/words/java/com.aspose.words/listformat/#listOutdent)を呼び出します。
 
-メソッドはリストレベルを変更し、新しいレベルの書式プロパティを適用します。
+これらのメソッドは、リストレベルを変更し、新しいレベルの書式設定プロパティを適用します。
 
 {{% alert color="primary" %}}
 
-また、 [ListFormat.listLevelNumber](https://reference.aspose.com/words/java/com.aspose.words/listformat/#setListLevelNumber-int) 段落のリストレベルを取得または設定するプロパティ。 リストレベルは 0 から 8 までです。
+また、[ListFormat.listLevelNumber](https://reference.aspose.com/words/java/com.aspose.words/listformat/#setListLevelNumber-int)プロパティを使用して、段落のリストレベルを取得または設定することもできます。 リストレベルには0から8の番号が付けられています。
 
 {{% /alert %}}
 
-以下のコードの例では、マルチレベルリストを作成する方法を示します。
+次のコード例は、マルチレベルリストを作成する方法を示しています。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderSetMultilevelListFormatting-DocumentBuilderSetMultilevelListFormatting.java" >}}
 
-### ページ設定とセクションフォーマット
+### ページの設定とセクションの書式設定
 
-ページのセットアップとセクションプロパティがカプセル化されます `PageSetup` 返されたオブジェクト `DocumentBuilder.PageSetup` 宿泊施設 オブジェクトは、プロパティとしてセクション(左マージン、ボトムマージン、用紙サイズなど)のすべてのページ設定属性を含みます。
+ページ設定とセクションプロパティは`DocumentBuilder.PageSetup`プロパティによって返される`PageSetup`オブジェクトにカプセル化されます。 このオブジェクトには、セクションのすべてのページ設定属性(左余白、下余白、用紙サイズなど)がプロパティとして含まれます。
 
 | ![section-formatting-aspose-words-java](/words/java/using-documentbuilder-to-modify-a-document/documentbuilder-to-modify-document-5.png) |
-|  :-  |
-次のコードの例では、現在のセクションのページサイズとオリエンテーションなどのプロパティを設定する方法を示します。
+| :- |
+次のコード例は、現在のセクションのページサイズや向きなどのプロパティを設定する方法を示しています。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderSetPageSetupAndSectionFormatting-DocumentBuilderSetPageSetupAndSectionFormatting.java" >}}
 
 ### スタイルの適用
 
-Font や ParagraphFormat サポートスタイルなどのフォーマットオブジェクト。 単一の組み込みまたはユーザー定義のスタイルは、 `Style` スタイルの名前、ベーススタイル、フォント、段落フォーマットなどの対応するスタイルプロパティを含むオブジェクト。
+フォントやParagraphFormatのような一部の書式設定オブジェクトはスタイルをサポートしています。 単一の組み込みまたはユーザー定義のスタイルは、名前、基本スタイル、フォント、スタイルの段落書式などの対応するスタイルプロパティを含む`Style`オブジ
 
-さらに、 **Style** オブジェクトは、 [Style.getStyleIdentifier](https://reference.aspose.com/words/java/com.aspose.words/style/#getStyleIdentifier) locale 独立したスタイル ID を返すプロパティ **Style.StyleIdentifier** 列挙値。 点は、組み込みスタイルの名前が組み込まれていることです。 Microsoft Word 異なる言語のためにローカライズされます。 スタイル識別子を使用して、ドキュメント言語に関係なく正しいスタイルを見つけることができます。 列挙値が対応する Microsoft Word ノーマル、見出し1、見出し2等のような作り付け様式。 すべてのユーザー定義のスタイルが割り当てられます **スタイル識別子。 ユーザー価値**お問い合わせ
+さらに、**Style**オブジェクトは、**Style.StyleIdentifier**列挙値によって表されるロケールに依存しないスタイル識別子を返す[Style.getStyleIdentifier](https://reference.aspose.com/words/java/com.aspose.words/style/#getStyleIdentifier)プロパティを提供します。 重要なのは、Microsoft Wordの組み込みスタイルの名前が異なる言語にローカライズされていることです。 スタイル識別子を使用すると、文書の言語に関係なく正しいスタイルを見つけることができます。 列挙値は、Normal、Heading 1、Heading 2などのMicrosoft Word組み込みスタイルに対応しています。 すべてのユーザー定義スタイルには**StyleIdentifier.User value**が割り当てられます。
 
 | ![apply-style-aspose-words-java](/words/java/using-documentbuilder-to-modify-a-document/documentbuilder-to-modify-document-6.png) |
-|  :-  |
-次のコードの例では、段落スタイルを適用する方法を示します。
+| :- |
+次のコード例は、段落スタイルを適用する方法を示しています。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-DocumentBuilderApplyParagraphStyle.java" >}}
 
-### ボーダーとシェーディング
+### 境界線とシェーディング
 
-BordersはBorderCollectionによって表されます。 これは、インデックスまたはボーダータイプによってアクセスされるボーダーオブジェクトのコレクションです。 ボーダータイプは、 `BorderType` パンフレット 列挙のいくつかの値が複数または1つの文書要素にのみ適用されます。 例えば、 `BorderType.Bottom` 段落またはテーブルセルに適用される `BorderType.DiagonalDown` 対角線をテーブルセルのみで指定します。
+境界線はBorderCollectionで表されます。 これは、インデックスまたは境界線の種類によってアクセスされるBorderオブジェクトのコレクションです。 境界線の型は`BorderType`列挙体で表されます。 列挙体の一部の値は、複数または1つのドキュメント要素にのみ適用できます。 たとえば、`BorderType.Bottom`は段落または表のセルに適用できますが、`BorderType.DiagonalDown`は表のセル内の対角線の境界線のみを指定します。
 
-境界コレクションと各境界線は、色、線スタイル、線幅、テキストからの距離、オプションの影のような類似の属性を持っています。 同じ名前のプロパティで表されます。 プロパティの値を組み合わせることで、異なる境界タイプを実現できます。 その他、両方 **BorderCollection** そして、 **Border** オブジェクトを使用すると、これらの値をデフォルトにリセットできます。 [Border.clearFormatting](https://reference.aspose.com/words/java/com.aspose.words/border/#clearFormatting) メソッド。 境界プロパティがデフォルト値にリセットされる場合、境界は見えないことに注意してください。
+Borderコレクションとそれぞれの境界線の両方には、色、線のスタイル、線の幅、テキストからの距離、オプションの影などの同様の属性があります。 それらは同じ名前のプロパティによって表されます。 プロパティ値を組み合わせることで、さまざまな境界線の種類を実現できます。 さらに、**BorderCollection**オブジェクトと**Border**オブジェクトの両方で、[Border.clearFormatting](https://reference.aspose.com/words/java/com.aspose.words/border/#clearFormatting)メソッドを呼び出すことでこれらの値を既定値にリセットできます。 境界線のプロパティがデフォルト値にリセットされると、境界線は非表示になります。
 
 | ![set-borders-shading-aspose-words-java](/words/java/using-documentbuilder-to-modify-a-document/documentbuilder-to-modify-document-7.png) |
-|  :-  |
-ザ・オブ・ザ・ [Shading](https://reference.aspose.com/words/java/com.aspose.words/shading/) クラスには、ドキュメント要素のシェーディング属性が含まれています。 目的のシェーディングテクスチャと要素の背景と背景に適用される色を設定できます。
+| :- |
+[Shading](https://reference.aspose.com/words/java/com.aspose.words/shading/)クラスには、文書要素のシェーディング属性が含まれています。 必要なシェーディングテクスチャと、要素の背景と前景に適用される色を設定できます。
 
-シェーディングテクスチャは、 [テクスチャインデックス](https://www.aspose.com/api/java/words/com.aspose.words/constants/TextureIndex) 様々なパターンのアプリケーションを様々なパターンに適用できる列挙値 **Shading** オブジェクト。 例えば、ドキュメント要素の背景色を設定するには、 [テクスチャインデックス。テクスチャソリッド](https://www.aspose.com/api/java/words/com.aspose.words/constants/TextureIndex) 値を設定し、フォアグラウンドシェーディングカラーを適切に設定します。
+シェーディングテクスチャは、次のように設定されています [TextureIndex](https://www.aspose.com/api/java/words/com.aspose.words/constants/TextureIndex) **Shading**オブジェクトへのさまざまなパターンの適用を可能にする列挙値。 たとえば、ドキュメント要素の背景色を設定するには、次のようにします [TextureIndex.TextureSolid](https://www.aspose.com/api/java/words/com.aspose.words/constants/TextureIndex) 値を設定し、必要に応じて前景の陰影の色を設定します。
 
 | ![borders-and-shading-aspose-words-java](/words/java/using-documentbuilder-to-modify-a-document/documentbuilder-to-modify-document-8.png) |
-|  :-  |
-下の例では、境界線と段落にシェーディングを適用する方法を示します。
+| :- |
+次の例は、段落に境界線と陰影を適用する方法を示しています。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-DocumentBuilderApplyBordersAndShadingToParagraph.java" >}}
 
 ### グリッドにスナップ
 
-Aspose.Words 2つのプロパティ `ParagraphFormat.SnapToGrid` そして、 `Font.SnapToGrid` 段落プロパティをグリッドにスナップして設定します。
+Aspose.Wordsは、段落プロパティスナップをグリッドに取得および設定するための二つのプロパティ`ParagraphFormat.SnapToGrid`と`Font.SnapToGrid`を提供します。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-SetSnapToGrid.java" >}}
 
-### カーソル移動
+### カーソルの移動
 
 ### 現在のカーソル位置の検出
 
-ビルダーのカーソルが現在位置している場所をいつでも取得できます。 ザ・オブ・ザ・ [DocumentBuilder.getCurrentNode](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCurrentNode) プロパティは、現在このビルダーで選択したノードを返します。 ノードは段落の直接子です。 どんなインサート操作でも、 `DocumentBuilder` 前にインサートします `DocumentBuilder.CurrentNode`お問い合わせ 現在の段落が空かカーソルが段落の直前に置かれるとき、 `DocumentBuilder.CurrentNode` null を返します。
+Builderのカーソルが現在位置している場所はいつでも取得できます。 [DocumentBuilder.getCurrentNode](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCurrentNode)プロパティは、このビルダーで現在選択されているノードを返します。 ノードは段落の直接の子です。 `DocumentBuilder`を使用して実行する挿入操作は、`DocumentBuilder.CurrentNode`の前に挿入されます。 現在の段落が空の場合、またはカーソルが段落の終わりの直前に配置されている場合、`DocumentBuilder.CurrentNode`はnullを返します。
 
-また、ご利用いただくこともできます。 [DocumentBuilder.getCurrentParagraph](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCurrentParagraph) プロパティ, これは、現在この中で選択した段落を取得します **DocumentBuilder**お問い合わせ お問い合わせlow code 例えば、ドキュメントビルダーで現在のノードにアクセスする方法を示します。
+また、この**DocumentBuilder**で現在選択されている段落を取得する[DocumentBuilder.getCurrentParagraph](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCurrentParagraph)プロパティを使用することもできます。 Below codeの例は、ドキュメントビルダーで現在のノードにアクセスする方法を示しています。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderCursorPosition-DocumentBuilderCursorPosition.java" >}}
 
-### 任意のノード(パラグラフとその子供)に移動
+### 任意のノード（段落とその子）への移動
 
-ドキュメントオブジェクトノードがある場合、段落または段落の直接子である場合は、このノードにビルダーのカーソルを指すことができます。 利用する [DocumentBuilder.moveTo](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveTo-com.aspose.words.Node) これを実行する方法。
-次のコードの例では、カーソル位置を指定されたノードに移動する方法を示します。
+段落または段落の直接の子であるドキュメントオブジェクトノードがある場合は、ビルダーのカーソルをこのノードにポイントできます。 これを実行するには[DocumentBuilder.moveTo](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveTo-com.aspose.words.Node)メソッドを使用します。
+次のコード例は、カーソル位置を指定したノードに移動する方法を示しています。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToNode-DocumentBuilderMoveToNode.java" >}}
 
-### ドキュメントの開始/終了に移動
+### ドキュメントの開始/終了への移動
 
-ドキュメントの先頭に移動する必要がある場合は、電話 [DocumentBuilder.moveToDocumentStart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToDocumentStart)お問い合わせ ドキュメントの末尾に移動する必要がある場合は、 [DocumentBuilder.moveToDocumentEnd](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToDocumentEnd)お問い合わせ
+文書の先頭に移動する必要がある場合は、[DocumentBuilder.moveToDocumentStart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToDocumentStart)を呼び出します。 文書の最後に移動する必要がある場合は、[DocumentBuilder.moveToDocumentEnd](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToDocumentEnd)を呼び出します。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToDocumentStartEnd-DocumentBuilderMoveToDocumentStartEnd.java" >}}
 
-### セクションに移動
+### セクションへの移動
 
-複数のセクションを含むドキュメントを扱う場合、目的のセクションに移動できます。 [DocumentBuilder.moveToSection](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToSection-int)お問い合わせ このメソッドは、指定されたセクションの先頭にカーソルを移動し、必要なセクションのインデックスを受け取ります。 セクションのインデックスが 0 よりも大きい場合、最初のセクションである 0 でドキュメントの先頭からインデックスを指定します。 セクションのインデックスが 0 未満の場合、 -1 が最後のセクションであるドキュメントの末尾からインデックスを指定します。 お問い合わせlow code たとえば、カーソル位置を指定したセクションに移動する方法を示します。 この例のテンプレートファイルをダウンロードできます。 [詳しくはこちら](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx)お問い合わせ
+複数のセクションを含むドキュメントを操作している場合は、[DocumentBuilder.moveToSection](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToSection-int)を使用して目的のセクションに移動できます。 このメソッドは、指定されたセクションの先頭にカーソルを移動し、必要なセクションのインデックスを受け入れます。 セクションインデックスが0以上の場合、0が最初のセクションであるドキュメントの先頭からのインデックスを指定します。 セクションインデックスが0より小さい場合は、ドキュメントの末尾からのインデックスを指定し、最後のセクションを-1とします。 Below codeの例は、指定されたセクションにカーソル位置を移動する方法を示しています。 この例のテンプレートファイルは、次の場所からダウンロードできます [ここに](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToSection-DocumentBuilderMoveToSection.java" >}}
 
-### ヘッダー/フッターに移動
+### ヘッダー/フッターへの移動
 
-いくつかのデータをヘッダまたはフッターに置く必要がある場合は、まず最初に使用して移動する必要があります [DocumentBuilder.moveToHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToHeaderFooter-int)お問い合わせ メソッドは、ヘッダーまたはフッターの型をカーソルが移動する場所に識別する HeaderFooterType 列挙値を受け取ります。
+ヘッダーまたはフッターにデータを配置する必要がある場合は、最初に[DocumentBuilder.moveToHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToHeaderFooter-int)を使用してそこに移動する必要があります。このメソッドは、カーソルを移動するヘッダーまたはフッターのタイプを識別するHeaderFooterType列挙値を受け入れます。
 
-最初のページごとに異なるヘッダーやフッターを作成したい場合は、設定する必要があります [PageSetup.getDifferentFirstPageHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getDifferentFirstPageHeaderFooter) プロパティ **true**お問い合わせ ヘッダーやフッターを、偶数とオッズページが異なるように作成したい場合、設定する必要があります。 [PageSetup.getOddAndEvenPagesHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getOddAndEvenPagesHeaderFooter) お問い合わせ **true**お問い合わせ
+最初のページで異なるヘッダーとフッターを作成する場合は、[PageSetup.getDifferentFirstPageHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getDifferentFirstPageHeaderFooter)プロパティを**true**に設定する必要があります。 偶数ページと奇数ページで異なるヘッダーとフッターを作成する場合は、[PageSetup.getOddAndEvenPagesHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getOddAndEvenPagesHeaderFooter)を**true**に設定する必要があります。
 
-メインストーリーに戻る必要がある場合、[DocumentBuilder.moveToSection](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToSection-int) ヘッダーまたはフッターから外に移動します。 以下は、DocumentBuilder を使用してドキュメントでヘッダーとフッターを作成します。
+メインストーリーに戻る必要がある場合は、[DocumentBuilder.moveToSection](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToSection-int)を使用してヘッダーまたはフッターから移動します。 以下の例では、DocumentBuilderを使用してドキュメント内にヘッダーとフッターを作成します。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderHeadersAndFooters-DocumentBuilderHeaderAndFooters.java" >}}
 
-### パラグラフへの移動
+### 段落への移動
 
-使用条件[DocumentBuilder.moveToParagraph](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToParagraph-int-int) カーソルを現在のセクションで目的の段落に移動します。 このメソッドに2つのパラメーターを渡します。: 段落インデックス (段落のインデックス) と CharacterIndex (段落の中の文字のインデックス).
+現在のセクションの目的の段落にカーソルを移動するには、[DocumentBuilder.moveToParagraph](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToParagraph-int-int)を使用します。 このメソッドには、paragraphIndex(移動先の段落のインデックス)とcharacterIndex(段落内の文字のインデックス)の二つのパラメータを渡す必要があります。
 
-現在のセクションの現在のストーリーの中でナビゲーションを実行します。 つまり、カーソルを最初のセクションのプライマリヘッダに移動すると、そのセクションのヘッダ内の段落のインデックスを指定します。
+ナビゲーションは、現在のセクションの現在のストーリー内で実行されます。 つまり、カーソルを最初のセクションのプライマリヘッダーに移動した場合、paragraphIndexはそのセクションのそのヘッダー内の段落のインデックスを指定します。
 
-nodeIndex が 0 よりも大きい場合、セクションの先頭から最初の段落である 0 のインデックスを指定します。 段落Index が 0 未満の場合、-1 が最後の段落であるセクションの端からインデックスを指定します。 文字のインデックスは、現在、段落の先頭または-1に移動して、段落の最後に移動するために0として指定することができます。 次のコードの例では、指定された段落にカーソル位置を移動する方法を示します。 この例のテンプレートファイルをダウンロードできます [詳しくはこちら](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx)お問い合わせ
+ParagraphIndexが0以上の場合、セクションの先頭からのインデックスを指定し、0が最初の段落になります。 paragraphIndexが0より小さい場合は、セクションの最後からのインデックスを指定し、-1が最後の段落になります。 現在、文字インデックスは、段落の先頭に移動する場合は0、段落の末尾に移動する場合は-1としてのみ指定できます。 次のコード例は、カーソル位置を指定した段落に移動する方法を示しています。 この例のテンプレートファイルは、次の場所からダウンロードできます [ここに](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToParagraph-DocumentBuilderMoveToParagraph.java" >}}
 
 ### テーブルセルへの移動
 
-使用条件 [DocumentBuilder.moveToCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToCell-int-int-int-int) 現在のセクションでカーソルをテーブルセルに移動する必要がある場合。 この方法は4つの変数を受け入れます:
+現在のセクションのテーブルセルにカーソルを移動する必要がある場合は[DocumentBuilder.moveToCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToCell-int-int-int-int)を使用します。 このメソッドは、次の4つのパラメータを受け入れます:
 
-- tableIndex - に移動するテーブルのインデックス。
-- rowIndex - テーブル内の行のインデックス。
-- columnIndex - テーブル内の列のインデックス。
-- CharacterIndex - セル内の文字のインデックス。
+- tableIndex-移動先のテーブルのインデックス。
+- rowIndex-テーブル内の行のインデックス。
+- columnIndex-テーブル内の列のインデックス。
+- characterIndex-セル内の文字のインデックス。
 
-現在のセクションの現在のストーリーの中でナビゲーションを実行します。
+ナビゲーションは、現在のセクションの現在のストーリー内で実行されます。
 
-インデックスパラメータの場合、インデックスが 0 よりも大きい場合、最初の要素である 0 の先頭からインデックスを指定します。 インデックスが 0 未満の場合、 -1 の末尾から最後の要素であるインデックスを指定します。
+Indexパラメーターでは、インデックスが0以上の場合、最初の要素が0である最初からインデックスを指定します。 インデックスが0より小さい場合は、最後の要素である-1で末尾からのインデックスを指定します。
 
-また、acterIndex は、現在 0 を指定して、セルの先頭に移動するか、-1 がセルの末尾に移動できることに注意してください。 次のコードの例では、指定されたテーブルセルにカーソル位置を移動する方法を示します。 この例のテンプレートファイルをダウンロードできます [詳しくはこちら](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx)お問い合わせ
+また、characterIndexは現在、セルの先頭に移動するには0、セルの末尾に移動するには-1しか指定できないことに注意してください。 次のコード例は、指定されたテーブルセルにカーソル位置を移動する方法を示しています。 この例のテンプレートファイルは、次の場所からダウンロードできます [ここに](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToTableCell-DocumentBuilderMoveToTableCell.java" >}}
 
-### ブックマークに移動
+### ブックマークへの移動
 
-ブックマークは、新しい要素を投入するドキュメントの特定の場所をマークするために頻繁に使用されます。 ブックマークに移動するには、 [DocumentBuilder.moveToBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToBookmark-java.lang.String)お問い合わせ この方法は2つの積み過ぎを持っています。 一番シンプルなものは、カーソルが移動するブックマークの名前は何も受け付けません。 次のコードの例では、カーソル位置をブックマークに移動する方法を示します。
+ブックマークは、新しい要素が挿入される文書内の特定の場所をマークするために頻繁に使用されます。 ブックマークに移動するには、[DocumentBuilder.moveToBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToBookmark-java.lang.String)を使用します。 このメソッドには2つのオーバーロードがあります。 最も単純なものは、カーソルが移動されるブックマークの名前だけを受け入れます。 次のコード例は、カーソル位置をブックマークに移動する方法を示しています。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToBookmark-DocumentBuilderMoveToBookmark.java" >}}
 
-このオーバーロードは、指定された名前でブックマークの開始直後にカーソルを位置に移動します。 別の積み過ぎ [DocumentBuilder.moveToBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToBookmark-java.lang.String-boolean-boolean) カーソルをブックマークに移動し、精度を高めます。 2つの追加のボオランパラメータを受け入れる:
+このオーバーロードは、指定された名前のブックマークの開始直後の位置にカーソルを移動します。 別のオーバーロード[DocumentBuilder.moveToBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToBookmark-java.lang.String-boolean-boolean)は、カーソルをより高い精度でブックマークに移動します。 2つの追加のブールパラメータを受け入れます:
 
-- isStart は、カーソルを先頭に移動するか、ブックマークの末尾に移動するかを決定します。
-- isAfter は、ブックマークの開始または終了位置の後にカーソルを移動するか、ブックマークの開始または終了位置の前にカーソルを移動するかを決定します。
+- isStartカーソルをブックマークの先頭に移動するか末尾に移動するかを指定します。
+- isAfterカーソルをブックマークの開始位置または終了位置の後に移動するか、ブックマークの開始位置または終了位置の前に移動するかを決定します。
 
-次のコードの例では、ブックマーク終了直後にカーソル位置を移動する方法を示します。
+次のコード例は、ブックマークの終了直後にカーソル位置を移動する方法を示しています。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToBookmarkEnd-DocumentBuilderMoveToBookmarkEnd.java" >}}
 
-この方法で新しいテキストをインサートすることは、ブックマークの既存のテキストを置き換えません。 ドキュメントのブックマークはフィールドのフォームに割り当てられます。 このようなブックマークに移動し、テキストをフォームフィールドコードに差し込みます。 フォームフィールドを無効化しませんが、フィールドコードの一部になるため、インサートされたテキストは表示されません。
+この方法で新しいテキストを挿入しても、ブックマークの既存のテキストは置き換えられません。 ドキュメント内のブックマークの中には、フォームフィールドに割り当てられているものがあります。 そのようなブックマークに移動してテキストを挿入すると、テキストがフォームフィールドコードに挿入されます。 これによりフォームフィールドが無効になることはありませんが、挿入されたテキストはフィールドコードの一部になるため表示されません。
 
-### 移動する `Merge` フィールド
+### `Merge`フィールドへの移動
 
-「マニュアル」を実行する必要がある場合があります。 Mail Merge 使用方法 `DocumentBuilder` または内部の特別な方法でマージフィールドを埋める Mail Merge イベントハンドラ。 それはいつ [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) 便利かもしれません。 メソッドはマージフィールドの名前を指定します。 カーソルを指定したマージフィールドを超えて位置に移動し、マージフィールドを削除します。 次のコードの例では、指定したマージフィールドを超えてカーソルを位置に移動する方法を示します。
+場合によっては、`DocumentBuilder`を使用して"手動"Mail Mergeを実行したり、Mail Mergeイベントハンドラー内で特別な方法で差し込み項目を入力したりする必要がある場合があります。 それは[DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String)が有用である可能性があるときです。 このメソッドは、差し込み項目の名前を受け入れます。 カーソルを指定した差し込み項目のすぐ外側の位置に移動し、差し込み項目を削除します。 次のコード例は、指定した差し込み項目のすぐ外側の位置にカーソルを移動する方法を示しています。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToMergeField-DocumentBuilderMoveToMergeField.java" >}}
 
-## 測定ユニット間の変換方法
+## 測定単位間で変換する方法
 
-提供されているオブジェクトプロパティのほとんど Aspose.Words API いくつかの測定値(幅/高さ、マージン、様々な距離)をポイント(1インチ等分72点)で受け入れます。 時々これは便利ではないので、そこにあります `ConvertUtil` さまざまな測定単位間で変換するヘルパー関数を提供するクラス。 インチからポイント、ポイント、ピクセル、ポイント、ポイント、ポイントをピクセル単位に変換できます。 ピクセルがポイントやその逆に変換されると、96 dpi(ドット/インチ)の解像度または指定されたdpi解像度で実行できます。
+いくつかの測定値（幅/高さ、余白、さまざまな距離）を表すAspose.WordsAPIで提供されるオブジェクトプロパティのほとんどは、ポイント単位の値を受け入れます（1イ これは便利ではない場合があるため、さまざまな測定単位間で変換するヘルパー関数を提供する`ConvertUtil`クラスがあります。 これにより、インチをポイントに、ポイントをインチに、ピクセルをポイントに、ポイントをピクセルに変換できます。 ピクセルをポイントに変換したり、その逆に変換したりする場合は、96dpi(dots per inch)解像度または指定されたdpi解像度で実行できます。
 
-**ConvertUtil** たとえば、異なるページプロパティを設定する際には、ポイントよりも多くの通常の測定単位であるため、非常に便利です。 次の例では、ページプロパティをインチに設定する方法を示します。
+**ConvertUtil**
 
-次のコードの例では、ページプロパティをインチで指定する方法を示します。
+次のコード例は、ページプロパティをインチで指定する方法を示しています。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ConvertBetweenMeasurementUnits-ConvertBetweenMeasurementUnits.java" >}}

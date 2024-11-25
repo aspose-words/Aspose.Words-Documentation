@@ -1,214 +1,214 @@
----
-title: 使用条件 `DocumentBuilder` 文書要素をインサートする
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: 使用条件 `DocumentBuilder` 文書要素をインサートする
-linktitle: 使用条件 `DocumentBuilder` 文書要素をインサートする
+﻿---
+title: `DocumentBuilder`を使用して文書要素を挿入します
+second_title: Aspose.WordsのためのJava
+articleTitle: `DocumentBuilder`を使用して文書要素を挿入します
+linktitle: `DocumentBuilder`を使用して文書要素を挿入します
 type: docs
-description: "ドキュメントビルダーを使用してドキュメント要素をインサートする Javaお問い合わせ"
+description: "Javaにドキュメントビルダーを使用してドキュメント要素を挿入します。"
 weight: 10
 url: /ja/java/use-documentbuilder-to-insert-document-elements/
 timestamp: 2024-01-27-14-07-04
 ---
 
-ザ・オブ・ザ・ [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) 文書の変更に使用されます。 この記事では、複数のタスクを実行する方法について説明します。
+[DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)は文書を変更するために使用されます。 この記事では、いくつかのタスクを実行する方法について説明します。
 
-## テキストの文字列をインサートする
+## テキストの文字列を挿入する
 
-テキストの文字列をドキュメントに差し込む必要があるだけに渡す [DocumentBuilder.write](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#write(java.lang.String))メソッド。 テキストフォーマットは、 `Font` 宿泊施設 このオブジェクトには、異なるフォント属性(フォント名、フォントサイズ、色など)が含まれています。 重要なフォント属性も、 [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) 直接アクセスできるようにするプロパティ。 Boolean プロパティー [Font.getBold](https://reference.aspose.com/words/java/com.aspose.words/font/#getBold), [Font.getItalic](https://reference.aspose.com/words/java/com.aspose.words/font/#getItalic), そして、 [Font.getUnderline](https://reference.aspose.com/words/java/com.aspose.words/font/#getUnderline)お問い合わせ
+ドキュメントに挿入する必要があるテキストの文字列を[DocumentBuilder.write](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#write(java.lang.String))メソッドに渡すだけです。 テキストの書式設定は`Font`プロパティによって決まります。 このオブジェクトには、さまざまなフォント属性(フォント名、フォントサイズ、色など)が含まれています。 いくつかの重要なフォント属性は、直接アクセスできるように[DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)プロパティでも表されます。 これらはブール値のプロパティ[Font.getBold](https://reference.aspose.com/words/java/com.aspose.words/font/#getBold)、[Font.getItalic](https://reference.aspose.com/words/java/com.aspose.words/font/#getItalic)、および[Font.getUnderline](https://reference.aspose.com/words/java/com.aspose.words/font/#getUnderline)です。
 
 {{% alert color="primary" %}}
 
-設定した文字の書式は、ドキュメントの現在の位置から入力したすべてのテキストに適用されます。
+設定した文字書式は、ドキュメント内の現在の位置から挿入されたすべてのテキストに適用されます。
 
 {{% /alert %}}
 
-次のコード例 DocumentBuilder を使用して整形テキストをインサートします。
+次のコード例では、DocumentBuilderを使用して書式設定されたテキストを挿入します。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WriteAndFont-WriteAndFont.java" >}}
 
-## パラグラフをインサートする
+## 段落の挿入
 
-DocumentBuilder.writeln は、テキストの文字列をドキュメントにも差し込みますが、また、段落の休憩を追加します。 現行のフォントフォーマットは、DocumentBuilder で指定します。 お問い合わせ フォントプロパティと現在の段落のフォーマットは、DocumentBuilder.getParagraphFormatプロパティで決定されます。
+DocumentBuilder.writelnは、文書にもテキストの文字列を挿入しますが、さらに段落区切りを追加します。 現在のフォントの書式設定もDocumentBuilderで指定されます。getFontプロパティと現在の段落の書式はDocumentBuilderによって決まります。getParagraphFormatプロパティ。
 
-以下のコードの例では、段落を文書に差し込む方法を示します。
+次のコード例は、文書に段落を挿入する方法を示しています。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-DocumentBuilderInsertParagraph.java" >}}
 
-## テーブルをインサートする
+## テーブルの挿入
 
-基本的なアルゴリズムでテーブルを作成する `DocumentBuilder` 簡単です:
+`DocumentBuilder`を使用してテーブルを作成する基本的なアルゴリズムは簡単です:
 
-1。 利用するテーブルの起動 [DocumentBuilder.startTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable)お問い合わせ
-1。 セルをインサートする [DocumentBuilder.insertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell)お問い合わせ 新しい行が自動的に始まります。 必要であれば、 [DocumentBuilder.getCellFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCellFormat) セルのフォーマットを指定するプロパティ。
-1。 インサートセルのコンテンツを使用して `DocumentBuilder` メソッド。
-1。 行が完了するまで、ステップ2と3を繰り返します。
-1。 電話番号 [DocumentBuilder.endRow](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow) 現在の行を終了します。 必要に応じて、使用 [DocumentBuilder.RowFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getRowFormat) 行のフォーマットを指定するプロパティ。
-1。 繰り返しステップ2 - 5はテーブルが完成するまで。
-1。 電話番号 [DocumentBuilder.endTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) テーブル造りを終える。 適切な DocumentBuilder テーブル作成方法は以下のとおりです。
+1. [DocumentBuilder.startTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable)を使用してテーブルを開始します。
+1. [DocumentBuilder.insertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell)を使用してセルを挿入します。 これにより、新しい行が自動的に開始されます。 必要に応じて、[DocumentBuilder.getCellFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCellFormat)プロパティを使用してセルの書式を指定します。
+1. `DocumentBuilder`メソッドを使用してセルの内容を挿入します。
+1. 行が完了するまで、手順2と3を繰り返します。
+1. 現在の行を終了するには[DocumentBuilder.endRow](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow)を呼び出します。 必要に応じて、[DocumentBuilder.RowFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getRowFormat)プロパティを使用して行の書式を指定します。
+1. テーブルが完了するまで、手順2〜5を繰り返します。
+1. テーブルの構築を終了するには[DocumentBuilder.endTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable)を呼び出します。 適切なDocumentBuilderテーブルの作成方法については、以下で説明します。
 
-### テーブルを始める
+### テーブルの開始
 
-DocumentBuilder.start の呼び出し テーブルはテーブルを建てる最初のステップです。 セル内でも呼び出せます。この場合、ネストされたテーブルが始まります。 次のメソッドは DocumentBuilder.insertCell です。
+DocumentBuilderを呼び出します。startTableは、テーブルを構築する最初のステップです。 セル内で呼び出すこともでき、この場合はネストされたテーブルを開始します。 次に呼び出すメソッドはDocumentBuilderです。insertCell.
 
-### セルをインサートする
+### セルの挿入
 
-DocumentBuilder を呼び出した後。 インサート セル、新しいセルが作成され、他のメソッドを使用して追加するコンテンツ `DocumentBuilder` 現在のセルにクラスを追加します。 同じ行で新しいセルを開始するには、DocumentBuilder を呼び出します。 インサート 再びセル。 DocumentBuilder.getCell を使う セルのフォーマットを指定するプロパティをフォーマットします。 を返します。 [getCellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/) テーブルセルのすべての書式を表すオブジェクト。
+DocumentBuilderを呼び出した後。insertCellの場合、新しいセルが作成され、`DocumentBuilder`クラスの他のメソッドを使用して追加したコンテンツが現在のセルに追加されます。 同じ行の新しいセルを開始するには、DocumentBuilderを呼び出します。insertCell再び。 DocumentBuilderを使用します。getCellFormatセルの書式設定を指定するプロパティ。 テーブルセルのすべての書式設定を表す[getCellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/)オブジェクトを返します。
 
-### 行末
+### 行を終了する
 
-コールドキュメントビルダー.end 現在の行を終了する行。 DocumentBuilder を呼び出す場合。 インサート その直後には、テーブルが新しい行に続いています。 利用する `DocumentBuilder.RowFormat` 行のフォーマットを指定するプロパティ。 を返します。 [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/rowformat/) テーブル行のすべての書式を表すオブジェクト。
+DocumentBuilderを呼び出します。endRow現在の行を終了します。 あなたがDocumentBuilderを呼び出す場合。insertCellその直後に、テーブルは新しい行で続行されます。 行の書式設定を指定するには、`DocumentBuilder.RowFormat`プロパティを使用します。 テーブル行のすべての書式設定を表す[RowFormat](https://reference.aspose.com/words/java/com.aspose.words/rowformat/)オブジェクトを返します。
 
-### テーブルを終わらせる
+### テーブルの終了
 
-コールドキュメントビルダー.end 現在のテーブルを終了するテーブル。 このメソッドは、DocumentBuilder の直後にのみ呼び出されるべきです。 endRow が呼び出されました。 呼ばれるとき、DocumentBuilder.end 表は、現在のセルからカーソルをテーブルの直後に位置に移動します。 次の例では、2列と2列を含む整形テーブルを作成する方法を説明します。
+DocumentBuilderを呼び出します。endTable現在のテーブルを終了します。 このメソッドはDocumentBuilderの後に一度だけ呼び出す必要があります。endRowが呼び出されました。 呼び出されたとき、DocumentBuilder。endTableカーソルを現在のセルからテーブルの直後の位置に移動します。 次の例は、2つの行と2つの列を含む書式設定されたテーブルを作成する方法を示しています。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderBuildTable-DocumentBuilderBuildTable.java" >}}
 
-## ブレイクをインサートする
+## 休憩を挿入する
 
-新しい行、段落、列、セクション、またはページを明示的に開始したい場合は、DocumentBuilder を呼び出す。 インサートブレイク。 このメソッドに渡すと、表されるブレークの型を差し込む必要があります。 `BreakType` パンフレット
-次のコードの例では、ページをドキュメントに分割する方法を示します。
+新しい行、段落、列、セクション、またはページを明示的に開始する場合は、DocumentBuilderを呼び出します。insertBreak. このメソッドに、`BreakType`列挙体で表される挿入する必要のあるブレークの型を渡します。
+次のコード例は、文書に改ページを挿入する方法を示しています。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertBreak-DocumentBuilderInsertBreak.java" >}}
 
-## 画像をインサートする
+## 画像の挿入
 
-DocumentBuilder は複数のオーバーロードを提供 [DocumentBuilder.insertImage](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertImage-byte) インラインやフローティングイメージを差し込むことができます。 EMF や WMF のメタファイルの場合、メタファイル形式のドキュメントに挿します。 PNG形式で保存されます。 ドキュメントビルダー.insert Imageメソッドは、異なるソースから画像を使うことができます。
+DocumentBuilder は、インライン イメージまたはフローティング イメージを挿入できる [DocumentBuilder.insertImage](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertImage-byte) メソッドのオーバーロードをいくつか提供します。イメージが EMF または WMF メタファイルの場合、メタファイル形式でドキュメントに挿入されます。その他のすべてのイメージは PNG 形式で保存されます。DocumentBuilder.insertImage メソッドでは、さまざまなソースからのイメージを使用できます。
 
-- ファイルまたは `URL` 文字列パラメータを渡すことで
-- 通過してストリームから `Stream` パラメータ
-- Image パラメータを渡すことでイメージオブジェクトから
-- バイト配列からバイト配列パラメーターを渡す
-- - - その他
+- 文字列パラメータを渡すことにより、ファイルまたは`URL`から
+- `Stream`パラメータを渡してストリームから
+- Imageパラメータを渡してImageオブジェクトから
+- バイト配列パラメータを渡すことにより、バイト配列から
+- その他
 
-ドキュメントビルダーのそれぞれ。 インサート 画像メソッドは、次のオプションで画像を差し込むことを可能にする、さらにオーバーロードがあります。
+DocumentBuilderのそれぞれについて。insertImageメソッドでは、次のオプションを使用して画像を挿入できるようにするさらにオーバーロードがあります:
 
 - 特定の位置でインラインまたはフローティング
-- パーセンテージスケールまたはカスタムサイズ
+- パーセントのスケールか注文のサイズ
 
-さらに、DocumentBuilder.insert(文書ビルダー) Imageメソッドは、 [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) 作成したオブジェクトは、形状のプロパティをさらに変更できるようにインサートします。
+さらに、DocumentBuilder。insertImageメソッドは、シェイプのプロパティをさらに変更できるように、作成され挿入された[Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/)オブジェクトを返します。
 
-### インライン画像をインサートする
+### インラインイメージの挿入
 
-DocumentBuilder に画像を含むファイルを表す単一の文字列を渡します。 インサート 画像をインライングラフィックとして文書に差し込むイメージ。 以下のコードの例では、カーソル位置のインラインイメージをドキュメントに差し込む方法を示します。
+イメージを含むファイルを表す単一の文字列をDocumentBuilderに渡します。insertImage画像をインライングラフィックとしてドキュメントに挿入します。 次のコード例は、カーソル位置にインラインイメージをドキュメントに挿入する方法を示しています。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertInlineImage-DocumentBuilderInsertInlineImage.java" >}}
 
-### フローティング(絶対位置決め)画像のインサート
+### フローティング(絶対配置)イメージの挿入
 
-この例では、ファイルからフローティングイメージを差し込みます。 `URL` 指定された位置とサイズで。
+この例では、指定された位置とサイズのファイルまたは`URL`から浮動イメージを挿入します。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertFloatingImage-DocumentBuilderInsertFloatingImage.java" >}}
 
-## ブックマークの表示
+## ブックマークの挿入
 
-ブックマークをドキュメントに差し込むには、次の操作を行います。
+ドキュメントにブックマークを挿入するには、次の操作を行います:
 
-1。 電話番号 [DocumentBuilder.startBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startBookmark-java.lang.String) ブックマークの所望の名前を渡します。
-1。 ブックマークテキストを入力 `DocumentBuilder` メソッド。
-1。 電話番号 [DocumentBuilder.endBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endBookmark-java.lang.String) DocumentBuilder.startBookmark で使用した名前と同じ名前を渡します。
+1. [DocumentBuilder.startBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startBookmark-java.lang.String)を呼び出して、ブックマークの目的の名前を渡します。
+1. `DocumentBuilder`メソッドを使用してブックマークテキストを挿入します。
+1. [DocumentBuilder.endBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endBookmark-java.lang.String)を呼び出して、DocumentBuilderで使用したのと同じ名前を渡します。startBookmark.
 
-ブックマークは、任意の範囲をオーバーラップし、スパンすることができます。 有効なブックマークを作成するには、DocumentBuilder.startBookmark と DocumentBuilder.endBookmark を同じブックマーク名で呼び出す必要があります。
+ブックマークは、任意の範囲に重複してまたがることができます。 有効なブックマークを作成するには、両方DocumentBuilderを呼び出す必要があります。startBookmarkとDocumentBuilder。同じブックマーク名を持つendBookmark。
 
-文書が保存されると、重複した名前を持つ著名なブックマークやブックマークが無視されます。
+不適切に形成されたブックマークまたは重複した名前のブックマークは、文書を保存するときに無視されます。
 
-以下のコードの例では、ドキュメントビルダーを使用してブックマークをドキュメントに差し込む方法を示します。
+次のコード例は、ドキュメントビルダーを使用してドキュメントにブックマークを挿入する方法を示しています。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertBookmark-DocumentBuilderInsertBookmark.java" >}}
 
-## フィールドをインサートする
+## フィールドの挿入
 
-フィールド Microsoft Word フィールドコードとフィールド結果で構成される文書。 フィールドコードは式のように、フィールド結果は式が生成する値です。 フィールドコードには、特定のアクションを実行する追加の指示であるフィールドスイッチも含まれている場合があります。 フィールドコードの表示とドキュメントの結果を切り替えることができます。 Microsoft Word キーボードショートカットAlt+F9を使用します。 フィールドコードはカーリーブレースの間に表示されます( { } ).使用 [DocumentBuilder.insertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean) ドキュメント内のフィールドを作成する フィールドタイプ、フィールドコード、フィールド値を指定する必要があります。 特定のフィールドコードの構文がわからない場合は、フィールドをフィールドに作成します。 Microsoft Word フィールドコードを最初に表示し、フィールドコードを表示するように切り替えます。
-次のコードの例では、ドキュメントビルダーを使用してマージフィールドをドキュメントに差し込みます。
+Microsoft Word文書内のフィールドは、フィールドコードとフィールド結果で構成されます。 フィールドコードは数式のようなもので、フィールドの結果は数式が生成する値です。 フィールドコードには、特定のアクションを実行するための追加の命令であるフィールドスイッチも含まれている場合があります。 キーボードショートカットAlt+F9を使用して、Microsoft Wordのドキュメント内のフィールドコードと結果の表示を切り替えることができます。 フィールドコードは中括弧(`{ }`)の間に表示されます。ドキュメント内にフィールドを作成するには[DocumentBuilder.insertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean)を使用します。 フィールドタイプ、フィールドコード、およびフィールド値を指定する必要があります。 特定のフィールドコードの構文がわからない場合は、まずMicrosoft Wordにフィールドを作成し、そのフィールドコードを表示するように切り替えます。
+次のコード例では、DocumentBuilderを使用して差し込み項目をドキュメントに挿入します。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertField-DocumentBuilderInsertField.java" >}}
 
-## インサート `Form` フィールド
+## `Form`フィールドの挿入
 
-フォームフィールドは、ユーザーが「インタラクション」できるWordフィールドの特定のケースです。 フォームフィールド Microsoft Word テキストボックス、コンボボックス、チェックボックスが含まれます。 DocumentBuilder は、各フォームフィールドをドキュメントに入力するための特別なメソッドを提供しています。 [DocumentBuilder.insertTextInput](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertTextInput-java.lang.String-int-java.lang.String-java.lang.String-int) , [DocumentBuilder.insertCheckBox](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCheckBox-java.lang.String-boolean-boolean-int), そして、 [DocumentBuilder.insertComboBox](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertComboBox-java.lang.String-java.lang.String---int)お問い合わせ フォームフィールドの名前を指定すると、ブックマークが同じ名前で自動的に作成されます。
+フォームフィールドは、ユーザーとの"対話"を可能にする単語フィールドの特定のケースです。 Microsoft Wordのフォームフィールドには、textbox、Combobox、checkboxが含まれます。DocumentBuilderは、[DocumentBuilder.insertTextInput](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertTextInput-java.lang.String-int-java.lang.String-java.lang.String-int)、[DocumentBuilder.insertCheckBox](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCheckBox-java.lang.String-boolean-boolean-int)、[DocumentBuilder.insertComboBox](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertComboBox-java.lang.String-java.lang.String---int)の各タイプのフォームフィールドをドキュメントに挿入するための特別なメソッドを提供します。 フォームフィールドに名前を指定すると、同じ名前のブックマークが自動的に作成されることに注意してください。
 
-### テキスト入力をインサートする
+### テキスト入力の挿入
 
-DocumentBuilder.insertTextInput は、テキストボックスをドキュメントに追加します。 次のコードの例では、テキスト入力フォームフィールドをドキュメントに入力する方法を示します。
+DocumentBuilder.insertTextInputテキストボックスを文書に挿入します。 次のコード例は、テキスト入力フォームフィールドをドキュメントに挿入する方法を示しています。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertTextInputFormField-DocumentBuilderInsertTextInputFormField.java" >}}
 
-### インサート `CheckBox`
+### `CheckBox`の挿入
 
-コール・ドキュメントBuilder.insert チェックボックスをドキュメントに差し込む 以下のコードの例では、チェックボックスフォームフィールドをドキュメントに差し込む方法を示します。
+DocumentBuilderを呼び出します。insertCheckBox文書にcheckboxを挿入します。 次のコード例は、checkboxフォームフィールドをドキュメントに挿入する方法を示しています。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertCheckBoxFormField-DocumentBuilderInsertCheckBoxFormField.java" >}}
 
-### コンボボックスをインサートする
+### コンボボックスの挿入
 
-コール・ドキュメントBuilder.insertComboBox コンボボックスをドキュメントに差し込む。 以下のコード例では、コンボボックスフォームフィールドをドキュメントに差し込む方法を示します。
+DocumentBuilderを呼び出します。insertComboBoxコンボボックスをドキュメントに挿入します。 コンボボックスフォームフィールドをドキュメントに挿入する方法を次のコード例に示します。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertComboBoxFormField-DocumentBuilderInsertComboBoxFormField.java" >}}
 
-## フィールドレベルでのローカライズ
+## フィールドレベルでのロケールの挿入
 
-顧客の指定 フィールドレベルでローカル化し、より優れた制御を実現します。 ローカル Ids は DocumentBuilder 内の各フィールドに関連付けることができます。 以下の例では、このオプションの使用方法について説明します。
+顧客は今、フィールドレベルでロケールを指定することができ、より良い制御を達成することができます。 ロケールIdはDocumentBuilder内の各フィールドに関連付けることができます。 以下の例は、このオプションを使用する方法を示しています。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-SpecifylocaleAtFieldlevel-SpecifylocaleAtFieldlevel.java" >}}
 
-## インサート HTML
+## HTMLの挿入
 
-HTML フラグメントや全 HTML ドキュメントを含む HTML 文字列をWord ドキュメントに簡単に差し込むことができます。 この文字列を DocumentBuilder に渡します。 インサート Htmlメソッド。 メソッドの有用な実装の1つは、データベースに HTML 文字列を格納し、その間に文書にそれを差し込むことです。 Mail Merge ドキュメントビルダーのさまざまなメソッドを使用してビルドするのではなく、フォーマットされたコンテンツを付加します。 次のコードの例では、ドキュメントビルダーを使用してHTMLをドキュメントにインサートします。
+HTMLフラグメントまたはHTML文書全体を含むHTML文字列をWord文書に簡単に挿入できます。 この文字列をDocumentBuilderに渡すだけです。insertHtmlメソッド。 このメソッドの便利な実装の一つは、HTML文字列をデータベースに格納し、Mail Merge中にドキュメントに挿入して、ドキュメントビルダのさまざまなメソッドを 次のコード例は、DocumentBuilderを使用して文書にHTMLを挿入することを示しています。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHtml-DocumentBuilderInsertHtml.java" >}}
 
-## ハイパーリンクをインサートする
+## ハイパーリンクの挿入
 
-DocumentBuilder.insertHyperlink を使用して、ハイパーリンクをドキュメントに差し込みます。 このメソッドは、ドキュメント、リンク先(文書内のブックマークのURLまたは名前)に表示するリンクのテキスト、およびブール値のパラメーターを3つのパラメーターで受け入れます。 true もし `URL` ドキュメント内のブックマークの名前です。 DocumentBuilder.insertHyperlink 内部で DocumentBuilder.insertField を呼び出す。 メソッドは URL の先頭と末尾に apostrophes を常に追加します。 ハイパーリンク表示テキストのフォントフォーマットを明示的に指定する必要があることに注意してください。 `Font` 宿泊施設 以下のコードの例では、DocumentBuilder を使用して文書にハイパーリンクを差し込みます。
+DocumentBuilderを使用します。insertHyperlink文書にハイパーリンクを挿入します。 このメソッドは、ドキュメント内に表示されるリンクのテキスト、リンク先(URLまたはドキュメント内のブックマークの名前)、および`URL`がドキュメント内のブックマークの名前である場合にtrueにする必要があるブールパラメータの三つのパラメータを受け入れます。DocumentBuilder.insertHyperlinkは内部的にDocumentBuilderを呼び出します。insertField. このメソッドは常にURLの先頭と末尾にアポストロフィを追加します。 `Font`プロパティを使用して、ハイパーリンク表示テキストのフォント書式を明示的に指定する必要があることに注意してください。 次のコード例では、DocumentBuilderを使用してドキュメントにハイパーリンクを挿入します。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHyperlink-DocumentBuilderInsertHyperlink.java" >}}
 
-## コンテンツの表をインサートする
+## 目次の挿入
 
-インサートできます `TOC` (内容の表)は、現在の位置の文書に、呼び出して [DocumentBuilder.insertTableOfContents](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertTableOfContents-java.lang.String) メソッド。 DocumentBuilder.insertTableOfContentsメソッドは、 `TOC` ドキュメントにフィールドします。 コンテンツの表を作成し、ページ番号に従って表示するためには、両方 **Document.UpdateFields**フィールドのインサートの後にメソッドを呼び出す必要があります。 以下のコードの例では、コンテンツフィールドの表を文書に書き込む方法を示します。
+[DocumentBuilder.insertTableOfContents](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertTableOfContents-java.lang.String) メソッドを呼び出すと、ドキュメントの現在の位置に `TOC` (目次) フィールドを挿入できます。DocumentBuilder.insertTableOfContents メソッドは、ドキュメントに `TOC` フィールドのみを挿入します。目次を構築し、ページ番号に従って表示するには、フィールドの挿入後に両方の **Document.UpdateFields** メソッドを呼び出す必要があります。次のコード例は、ドキュメントに目次フィールドを挿入する方法を示しています。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertTableOfContents-DocumentBuilderInsertTableOfContents.java" >}}
 
-## Ole オブジェクトをインサートする
+## Oleオブジェクトの挿入
 
-Ole オブジェクト呼び出しが必要な場合 [DocumentBuilder.insertOleObjectAsIcon](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertOleObjectAsIcon-java.lang.String-boolean-java.lang.String-java.lang.String)お問い合わせ
+Oleオブジェクトが必要な場合は[DocumentBuilder.insertOleObjectAsIcon](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertOleObjectAsIcon-java.lang.String-boolean-java.lang.String-java.lang.String)を呼び出します。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertOleObject-DocumentBuilderInsertOleObject.java" >}}
 
-## Ole オブジェクトをインサートするときにファイル名と拡張子を設定する
+## Oleオブジェクトを挿入するときにファイル名と拡張子を設定する
 
-OLEパッケージは、OLEハンドラが不明な場合、埋め込まれたオブジェクトを格納するレガシーで「unocumented」方法です。 早割 Windows などのバージョン Windows 3.1、95、98 は Packager を持っていた。 任意のタイプのデータを文書に埋め込むために使用できるアプリケーションを実行します。 今、このアプリケーションは除外されます Windows しかし、MS Word やその他のアプリケーションは、OLE ハンドラが不足しているか不明な場合は、データを埋め込むためにそれを使用しています。 OlePackage クラスでは、OLE Package プロパティーにアクセスすることができます。 以下のコードの例では、 OLE Package のファイル名、拡張子、表示名を設定する方法を示します。
+OLEパッケージは、OLEハンドラーが不明な場合に埋め込まれたオブジェクトを格納するためのレガシーで"文書化されていない"方法です。 Windows 3.1、95、98などの初期のWindowsバージョンには、任意のタイプのデータを文書に埋め込むために使用できるPackager.exeアプリケーションがありました。 現在、このアプリケーションはWindowsから除外されていますが、MSWordや他のアプリケーションは、OLEハンドラーが欠落しているか不明な場合にデータを埋め込むた OlePackageクラスはOLE Packageプロパティへのアクセスを許可します。次のコード例は、OLE Packageのファイル名、拡張子、表示名を設定する方法を示しています。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertElements-InsertOleObjectwithOlePackage.java" >}}
 
-## OLE オブジェクトの未加工データにアクセスする
+## OLEオブジェクトの生データへのアクセスを取得する
 
-次のコードの例では、OLEを取得する方法を示します オブジェクトの未加工データを使用して `OleFormat.GetRawData`() メソッド
+次のコード例は、`OleFormat.GetRawData`()メソッドを使用してOLEオブジェクトの生データを取得する方法を示しています。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertElements-GetAccessToOLEObjectRawData.java" >}}
 
-## インサート横 ドキュメントへのルール
+## 水平ルールを文書に挿入する
 
-次のコード例では、水平ルールの形状をドキュメントに書き込む方法を示します。 `DocumentBuilder.InsertHorizontalRule` メソッド。
+次のコード例は、`DocumentBuilder.InsertHorizontalRule`メソッドを使用して水平ルール形状をドキュメントに挿入する方法を示しています。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHorizontalRule-DocumentBuilderInsertHorizontalRule.java" >}}
 
-## 形状を扱う
+## 図形の操作
 
-### インラインとフリーフローティング形状のインサート
+### インラインおよびフリーフローティング図形の挿入
 
-指定したタイプとサイズとフリーフローティング形状のインライン形状を指定した位置、サイズ、テキストラップタイプをドキュメントに貼り付けることができます。 `DocumentBuilder.InsertShape` メソッド。 ザ・オブ・ザ・ `DocumentBuilder.InsertShape` DML形状をドキュメントモデルに差し込むことができます。 ドキュメントは DML 形状をサポートする形式で保存されなければなりません。そうしないと、ドキュメント保存中に VML 形状に変換されます。 以下のコードの例では、これらの型を文書に差し込む方法を示します。
+`DocumentBuilder.InsertShape` メソッドを使用して、タイプとサイズが指定されたインライン シェイプと、位置、サイズ、テキスト ラップ タイプが指定されたフリー フローティング シェイプをドキュメントに挿入できます。`DocumentBuilder.InsertShape` メソッドを使用すると、ドキュメント モデルに DML シェイプを挿入できます。ドキュメントは、DML シェイプをサポートする形式で保存する必要があります。そうでない場合、ドキュメントの保存時に、このようなノードは VML シェイプに変換されます。次のコード例は、これらのタイプのシェイプをドキュメントに挿入する方法を示しています。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-InsertShapeUsingDocumentBuilder.java" >}}
 
-### スニップコーナー長方形を作成する
+### スニップ角の長方形を作成します。
 
-スニップコーナー長方形を作成できます。 Aspose.Wordsお問い合わせ 形状タイプは、シングルコーナースナイピング、トップコーナースナイピング、斜めコーナースナイピング、トップコーナーワンラウンド OneSnipped、SingleCornerRounded、TopCornersRounded、およびDiagonalCornersRounded。 DML形状は、 `DocumentBuilder.InsertShape` これらの形状タイプでの方法。 これらのタイプはVML形状を作成するために使用できません。 「Shape」クラスのパブリックコンストラクタを使用して形状を作成する試みは、「NotSupportedException」例外を上げます。 以下のコードの例では、これらの型を文書に差し込む方法を示します。
+Aspose.Wordsを使用してスニップ角の長方形を作成できます。 形のタイプは次のとおりですSingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped, TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, とDiagonalCornersRounded。 DML図形は、これらの図形タイプで`DocumentBuilder.InsertShape`メソッドを使用して作成されます。 これらの型を使用してVML図形を作成することはできません。 "Shape"クラスのパブリックコンストラクタを使用して図形を作成しようとすると、"NotSupportedException"例外が発生します。 次のコード例は、これらの種類の図形をドキュメントに挿入する方法を示しています。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-AddCornersSnipped.java" >}}
 
-### 形状として数学XMLで形状をインポート DOM
+### 数学XMLを持つ図形を図形としてDOMにインポートします
 
-使える `LoadOptions.ConvertShapeToOfficeMath` EquationXML を Office Math オブジェクトに変換するプロパティ。 このプロパティのデフォルト値は、MS Word の動作に対応します。例えば、式XML の形状は、Office の数学オブジェクトに変換されません。
+`LoadOptions.ConvertShapeToOfficeMath` プロパティを使用して、EquationXML を含む図形を Office Math オブジェクトに変換できます。このプロパティの既定値は、MS Word の動作に対応しています。つまり、数式 XML を含む図形は Office Math オブジェクトに変換されません。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifyLoadOptions-ConvertShapeToOfficeMath.java" >}}

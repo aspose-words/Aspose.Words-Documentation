@@ -1,41 +1,41 @@
----
-title: TrueType フォントの操作と置換
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: TrueType フォントの操作と置換
-linktitle: TrueType フォントの操作と置換
-description: "Aspose.Words お問い合わせ Java 正しい TrueType フォントを結果のドキュメントに埋め込むことで、適切なフォントの置換を正確に表示したり検索したり、フォントのフォールバック機構を使うことができます。"
+﻿---
+title: TrueTypeフォントの操作と置換
+second_title: Aspose.WordsのためのJava
+articleTitle: TrueTypeフォントの操作と置換
+linktitle: TrueTypeフォントの操作と置換
+description: "Aspose.WordsforJavaは、結果のドキュメントに正しいTrueTypeフォントを埋め込むことで、正確に表示されるようにしたり、適切なフォントの置換を検索したり、フォントフォールバックメカニズムを使用したりすることができます。"
 type: docs
 weight: 10
 url: /ja/java/manipulate-and-substitute-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---
 
-Aspose.Words True が必要です 文書を固定ページ形式にレンダリングするなど、さまざまなタスクのフォントを入力します。 XPSお問い合わせ いつか Aspose.Words ドキュメントをレンダリングし、TrueType フォントの埋め込みとサブセットの埋め込みを結果文書に実行する必要があります。これは、一般的な PDF や XPS フォーマット。 これにより、ドキュメントがビューアと同じものになるようにします。 さらに、 XPS 指定は文書に常に埋め込まれる壷を要求します。
+Aspose.Words では、ドキュメントを固定ページ形式 (PDF や XPS など) にレンダリングするなど、さまざまなタスクに TrueType フォントが必要です。Aspose.Words がドキュメントをレンダリングする場合、結果のドキュメントに TrueType フォントの埋め込みとサブセット埋め込みを実行する必要があります。これは、一般的な PDF や XPS 形式を含むドキュメント生成時の通常の方法です。これにより、どの閲覧者に対してもドキュメントが同じように見えるようになります。さらに、XPS 仕様では、フォントを常にドキュメントに埋め込む必要があります。
 
-保障する Aspose.Words 文字を正確に測定し、関連するフォントを埋め込むと、次の条件を満たす必要があります。
+Aspose.Wordsが文字を正確に測定し、関連するフォントを正常に埋め込むには、次の条件を満たす必要があります:
 
-1。 Aspose.Words システム上の TrueType フォントファイルを見つけてアクセスできるようにする必要があります。
-1。 TrueType フォントは十分ある必要があります。 Aspose.Words, 文書で使用されているものと同じフォントファミリー名で好ましい。
+1. Aspose.Wordsはシステム上のTrueTypeフォントファイルを見つけてアクセスできるはずです。
+1. Aspose.Wordsに利用可能な十分なTrueTypeフォントがなければならず、好ましくは文書で使用されているものと同じフォントファミリ名を持つ必要があります。
 
-ドキュメントのフォントは、家族の名前、スタイル、サイズ、色などのエンティティティを表しています。 `TrueType` フォント(物理フォント)の実体。 Aspose.Words 文書内のフォントを処理の段階にある物理的なフォントに解決します。 これは、特定のタスクを可能にし、ほとんどの一般的にレイアウト構造中にテキストサイズを計算し、固定ページフォーマットに埋め込む/サブセットを計算するタスク。 HTMLをロードしたり、いくつかのフローフォーマットにサブセットしたりしながら、フォントの解決や置換などの他のあまり人気のあるタスクの数が、同様に有効になっています。
+ドキュメント内のフォントは、`TrueType`フォント(物理フォント)エンティティとは異なるファミリ名、スタイル、サイズ、色などのエンティティを表します。 Aspose.Wordsは、処理のある段階で文書内のフォントを物理フォントに解決します。 これにより、特定のタスク、最も一般的にはレイアウト構築中にテキストサイズを計算し、固定ページ形式に埋め込む/サブセットするタスクが可能に 同様に、HTMLの読み込み中のフォントの解決や置換、一部のフロー形式への埋め込み/サブセット化など、あまり一般的ではない多くのタスクが有効にな
 
-## フォント操作とパフォーマンスの問題
+## フォントの操作とパフォーマンスの問題
 
-すべての利用可能なフォント操作機構が含まれている [FontSettings](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/) クラス。 このクラスは、以下のとおり、定義されたフォントソース内のフォントの取得、フォント置換プロセスの実行を担当しています。
+使用可能なフォント操作メカニズムはすべて[FontSettings](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/)クラスに含まれています。 このクラスは、以下で説明するように、定義されたフォントソース内のフォントの取得と、フォント置換プロセスを担当します。
 
-フォントは複数のステップで区切られます。
+フォントはいくつかのステップで解析されます:
 
-1。 フォントの情報を入手し、利用可能なすべてのフォントから解決します。
-1。 解決されたフォントをパースして利用できる glyphs とメトリック(水平および垂直)。
-1。 組み込みとサブセットのための解決されたフォントをパースします。
+1. 利用可能なすべてのフォントから解決し、フォントの情報を取得します。
+1. 解決されたフォントを解析して、利用可能なグリフとメトリック（水平および垂直）を取得します。
+1. 埋め込みとサブセットのために解決されたフォントを解析します。
 
-いつか Aspose.Words フォントは、フォントのフルネーム、家族名、バージョン、スタイル、フォントの各フォントソースにあるフォントファイルから、基本的なフォント情報を取得しようとします。 すべてのフォントが取得されると、 Aspose.Words これらの詳細を使用して、要求されたフォントの必要なフォントデータまたは適切な置換を見つける。
+Aspose.Wordsは、文書内で初めてフォントを検出すると、各フォントソースにあるフォントファイルから、フォントのフルネーム、ファミリ名、バージョン、スタイルなどの基本的なフォント情報を取得しようとします。 すべてのフォントが取得された後、Aspose.Wordsはこれらの詳細を使用して、必要なフォントデータまたは要求されたフォントの適切な置換を検索します。
 
-上記の手順は時間がかかりますので、起動時にアプリケーションのパフォーマンスに悪影響を及ぼす可能性があります。 しかし、各インスタンスの **FontSettings** その後の文書の処理時間を減らすことができる独自のキャッシュを持っています。 例えば、インスタンスのインスタンスを共有できます。 **FontSettings** 異なる文書間のクラスは、文書の読み込みを高速化することができます。 次の例では、この例を示します。
+上記の手順は時間がかかるため、最初の起動時のアプリケーションのパフォーマンスに悪影響を与える可能性があります。 ただし、**FontSettings**の各インスタンスには独自のキャッシュがあり、後続のドキュメントの処理時間を短縮することができます。 たとえば、異なるドキュメント間で**FontSettings**クラスのインスタンスを共有することができ、ドキュメントの読み込みを高速化できます。 次の例は、これを示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSettings-FontSettingsWithLoadOptions.java" >}}
 
-場合の場合 **FontSettings** 明示的に定義されていない、 Aspose.Words デフォルトを使用する **FontSettings** インスタンス。 このインスタンスはドキュメント間で自動的に共有され、次のように抽出できます。
+**FontSettings**が明示的に定義されていない場合、Aspose.Wordsはデフォルトの**FontSettings**インスタンスを使用します。 このインスタンスは、ドキュメント間でも自動的に共有され、次のように抽出できます:
 
 **Java**
 
@@ -43,34 +43,34 @@ Aspose.Words True が必要です 文書を固定ページ形式にレンダリ�
 FontSettings fontSettings = FontSettings.getDefaultInstance();
 {{< /highlight >}}
 
-すべての処理文書が同じフォント設定を必要とすることを確信している場合は、デフォルトを設定して利用することをお勧めします。 **FontSettings** インスタンス。 すべての文書に同じフォントソースを使用する必要があるとします。 この場合、デフォルトインスタンスを以下のように変更できます。
+すべての処理文書が同じフォント設定を必要とすることが確実な場合は、デフォルトの**FontSettings**インスタンスを設定して利用することをお勧めします。 すべてのドキュメントに同じフォントソースを使用する必要があるとします。 この場合、次のようにデフォルトのインスタンスを修正できます:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSettings-FontSettingsFontSource.java" >}}
 
 {{% alert color="primary" %}}
 
-カスタム **FontSettings** デフォルトインスタンスよりも優先度が高い。
+カスタム**FontSettings**の優先度は既定のインスタンスよりも高くなります。
 
 {{% /alert %}}
 
 ## フォントの可用性と置換
 
-ドキュメント内のテキストは、Arial、Times New Roman、Verdana、など、さまざまなフォントでフォーマットできます。 いつか Aspose.Words ドキュメントをレンダリングし、ドキュメントで指定されたフォントを選択しようとします。
+文書内のテキストは、Arial、Times New Roman、Verdanaなどのさまざまなフォントで書式設定できます。 Aspose.Wordsがドキュメントをレンダリングするとき、ドキュメントで指定されているフォントを選択しようとします。
 
-ただし、正確なフォントが見つからない場合や、 Aspose.Words 代わりに同様のフォントを置換する必要があります。 Aspose.Words 次のプロセスに従ってフォントを選択します。
+ただし、正確なフォントが見つからず、代わりにAspose.Wordsが同様のフォントに置き換える必要がある状況があります。 Aspose.Wordsは、次のプロセスに従ってフォントを選択します:
 
-1。 Aspose.Words 利用可能なフォントソースの中のフォントを正確にフォント名で見つけようとします。
-1。 Aspose.Words 元の文書に埋め込まれたフォントの中で必要なフォントを見つけようとします。 DOCXなどのドキュメントフォーマットには、埋め込まれたフォントが含まれている場合があります。
-1。 お問い合わせ Aspose.Words 必須のフォントを正式な名前の一致で見つけることができません。 [AltName](https://reference.aspose.com/words/java/com.aspose.words/fontinfo/#getAltName) このフォントで定義されたプロパティ Aspose.Words で定義されたフォントを見つけます **AltName** から [FontInfo](https://reference.aspose.com/words/java/com.aspose.words/fontinfo/) フォント情報を指定するクラス。
-1。 お問い合わせ Aspose.Words 定義されたフォントを見つけることができません。 **AltName** フォント置換ルールも定義されていないので、以下に示すように、フォント置換ルールは1対1で適用されます(適切な置換が見つかった場合、フォント置換プロセスは停止し、次のステップは実行されません)。
-   1。 Aspose.Words 使用すると、OS フォントの設定を適用しようとします。 `FontConfig` ユーティリティ。 この非Windows 機能は FontConfig 互換 OS で使用する必要があります。 ほとんどすべてのUnixベースのOSは既に持っています `FontConfig` システム全体のフォント構成、カスタマイズ、およびアプリケーションへのアクセスを提供するように設計されていますライブラリ。 それ以外の場合、このライブラリはユーザが簡単にインストールできます。<br/>
-      Aspose.Words データを照会し、FontConfig 結果を独自の目的のために解釈する方法を知っています。 デフォルトでは、 `FontConfig` ユーティリティは無効です。 次のように有効にすることができます。<br/>
-      **Java**<br/>
+1. Aspose.Wordsは、正確なフォント名を持つ利用可能なフォントソースの中からフォントを見つけようとします。
+1. Aspose.Wordsは、元の文書に埋め込まれたフォントの中から必要なフォントを見つけようとします。 DOCXなどの一部の文書形式には、埋め込みフォントを含めることができます。
+1. Aspose.Wordsが正確な名前が一致する必要なフォントを見つけることができず、このフォントに対して[AltName](https://reference.aspose.com/words/java/com.aspose.words/fontinfo/#getAltName)プロパティが定義されている場合、Aspose.Wordsは[FontInfo](https://reference.aspose.com/words/java/com.aspose.words/fontinfo/)クラスから**AltName**で定義されたフォントを検索します。
+1. Aspose.Wordsが定義されたフォントを見つけることができず、**AltName**も定義されていない場合、以下で説明するように、フォント置換ルールが1つずつ適用されます(適切な置換が見つかった場合、フォント置換プロセスは停止し、次のステップは実行されません)。:
+   1. Aspose.Wordsは`FontConfig`ユーティリティを使用してOSフォント設定が利用可能な場合は適用を試みます。 この非Windows機能は、FontConfig互換のOSで使用する必要があります。 ほとんどすべてのUnixベースのOSには、システム全体のフォント構成、カスタマイズ、アプリケーションへのアクセスを提供するように設計された`FontConfig`ライ それ以外の場合は、このライブラリをユーザーが簡単にインストールできます。<br>
+      Aspose.Wordsは、データをクエリし、FontConfigの結果を独自の目的で解釈する方法を知っています。 デフォルトでは、`FontConfig`ユーティリティは無効になっています。 次のようにして有効にできます:<br>
+**Java**
       {{< highlight csharp >}}
       fontSettings.getSubstitutionSettings().getFontConfigSubstitution()().setEnabled(true);
       {{< /highlight >}}
-   1. 次のステップは単純ですが、信じられないほど強力なメカニズムです [TableSubstitutionRule](https://reference.aspose.com/words/java/com.aspose.words/tablesubstitutionrule/)お問い合わせ デフォルトでは、この機能はどのOSでも有効で、利用できます。 Aspose.Words 異なるOSの基本的な置換ルールを定義するXMLテーブルを使用します。 テーブル置換ルールによると、置換フォント名のリストが使用されます。<br/>
-      **XML**<br/>
+   1. 次のステップは、[TableSubstitutionRule](https://reference.aspose.com/words/java/com.aspose.words/tablesubstitutionrule/)と呼ばれる単純ですが、非常に強力なメカニズムです。 デフォルトでは、この機能は有効であり、任意のOSで使用できます。 Aspose.Wordsは、異なるOSの基本的な置換規則を定義するXMLテーブルを使用します。 テーブル置換ルールに従って、代替フォント名のリストが使用されます。<br>
+**XML**
       {{< highlight html >}}
       <TableSubstitutionSettings xmlns="Aspose.Words"> 
 	<SubstitutesTable> 
@@ -79,73 +79,73 @@ FontSettings fontSettings = FontSettings.getDefaultInstance();
 	</SubstitutesTable> 
       </TableSubstitutionSettings>
       {{< /highlight >}}
-      OriginalFont - 置換するフォント、SubstituteFonts - 置換の variant のリスト、コンマで区切る。 最初の利用可能なフォントは、置換に使用されます。<br/>
-      このルールの主な機能は、次の例に示すように、独自の置換テーブルをロードする機能です。<br/>
-      **Java**<br/>
+      OriginalFont-置換されるフォント、SubstituteFonts-コンマで区切られた置換バリアントのリスト。 最初に使用可能なフォントが置換に使用されます。<br>
+      このルールの主な機能は、次の例に示すように、独自の置換テーブルをロードする機能です:<br>
+**Java**
       {{< highlight csharp >}}
       fontSettings.getSubstitutionSettings().getTableSubstitution().load("Table.xml");
       {{< /highlight >}}
-      jar から既存のテーブルを基礎にするか、次の方法でプログラム的に保存することができます。<br/>
-      **Java**<br/>
+      既存のテーブルをjarから基本として取得するか、次の方法でプログラムで保存することができます:<br>
+**Java**
       {{< highlight csharp >}}
       fontSettings.getSubstitutionSettings().getTableSubstitution().save("MyTable.xml");
       {{< /highlight >}}
-      このメカニズムの柔軟性にもかかわらず、以下に示すように、それを無効にする方がよい場合があります。<br/>
-      **Java**<br/>
+      このメカニズムの柔軟性にもかかわらず、以下に示すように、それを無効にする方が良い場合があります:<br>
+**Java**
       {{< highlight csharp >}}
       fontSettings.getSubstitutionSettings().getTableSubstitution().setEnabled(false);
       {{< /highlight >}}
-   1。 **FontInfo** テーブル置換ルールがフォントが見つからない場合は置換ルールが適用されます。 この仕組みはデフォルトで有効になっています。 Aspose.Words 特定の文書に含まれるフォント情報に応じて最適なフォントを見つけます。 この情報は、ここから入手できます。 **FontInfo** 以下に示すようにクラス:<br/>
-      **Java**<br/>
+   1. テーブル置換ルールがフォントを見つけることができない場合、**FontInfo**置換ルールが適用されます。 このメカニズムはデフォルトで有効になっています。 Aspose.Wordsは、特定の文書に含まれているフォント情報に従って、最も適したフォントを検索します。 この情報は、以下に示すように**FontInfo**クラスから取得できます:<br>
+**Java**
       {{< highlight csharp >}}
       FontInfoCollection fontInfos = doc.getFontInfos();
       {{< /highlight >}}
-      不満足な結果の場合、ユーザーがこの機能のワークフローを妨げることはできません。<br/>
-      **Java**<br/>
+      ユーザーは、不十分な結果が発生した場合に無効にすることを決定しない限り、この機能のワークフローに干渉することはできません:<br>
+**Java**
       {{< highlight csharp >}}
       fontSettings.getSubstitutionSettings().getFontInfoSubstitution().setEnabled(false);
       {{< /highlight >}}
-      お問い合わせ **FontInfo** 行方不明フォントでは利用できません。
-   1。 **DefaultFont** 置換ルールは、場合において適用されます。 `FontInfo` 置換も失敗しました。 このルールはデフォルトで有効になっています。 この規則に従って、 Aspose.Words で指定されたデフォルトフォントを使用する試み [DefaultFontName](https://reference.aspose.com/words/java/com.aspose.words/defaultfontsubstitutionrule/#getDefaultFontName) 宿泊施設 ユーザーが独自のデフォルトフォントを選択していない場合は、「Times New Roman」はデフォルトフォントとして使用されます。 以下に示すように、この規則は無効にすることができます。<br/>
-      **Java**<br/>
+      不足しているフォントで**FontInfo**を使用できない場合、プロセスは停止します。
+   1. **DefaultFont**置換ルールは、`FontInfo`置換も失敗した場合に適用されます。 このルールもデフォルトで有効になっています。 この規則に従って、Aspose.Wordsは[DefaultFontName](https://reference.aspose.com/words/java/com.aspose.words/defaultfontsubstitutionrule/#getDefaultFontName)プロパティで指定された既定のフォントを使用しようとします。 ユーザーが独自のデフォルトフォントを選択していない場合は、「Times New Roman」がデフォルトフォントとして使用されます。 このルールは、以下に示すように無効にすることができます:<br>
+**Java**
       {{< highlight csharp >}}
       fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().setEnabled(false);
       {{< /highlight >}}
-      現在のデフォルトフォントを確認するには、次のようにします。<br/>
-      **Java**<br/>
+      現在の既定のフォントを確認するには、次を使用します:<br>
+**Java**
       {{< highlight csharp >}}
       fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().getDefaultFontName();
       {{< /highlight >}}
-      独自の交換オプションを設定するには、以下を適用します。<br/>
-      **Java**<br/>
+      独自の代替オプションを設定するには、次の手順を適用します:<br>
+**Java**
       {{< highlight csharp >}}
       fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().setDefaultFontName("Arial");
       {{< /highlight >}}
-1。 お問い合わせ Aspose.Words フォント置換を実行できません。利用可能なフォントソースから最初の利用可能なフォントを取得しようとします。
-1。 最後に、 Aspose.Words 利用可能なフォントソースの中で任意のフォントを見つけることができません, それは埋め込まれている無料のファンウッドフォントを使用して文書をレンダリングします Aspose.Words アセンブリ。
+1. Aspose.Wordsがフォント置換を実行できない場合は、使用可能なフォントソースから最初に使用可能なフォントを取得しようとします。
+1. 最後に、Aspose.Wordsが利用可能なフォントソースの中からフォントを見つけることができない場合は、Aspose.Wordsアセンブリに埋め込まれている無料のFanwoodフォントを使
 
 {{% alert color="primary" %}}
 
-お問い合わせ **FontInfo** *FontInfoの置換ルール*は、常にフォントを解決し、デフォルトのフォントルールをオーバーライドします。 デフォルトのフォントルールを使用する場合は、*FontInfo 置換ルール* を無効にする必要があります。 *FontConfig 置換ルール* は、ほとんどの場合フォントを解決し、他のすべてのルールを上書きすることに注意してください。
+**FontInfo**が使用可能な場合、*FontInfo substitution rule*は常にフォントを解決し、デフォルトのフォントルールを上書きします。 デフォルトのフォントルールを使用する場合は、*FontInfo substitution rule*を無効にする必要があります。 ほとんどの場合、*FontConfig substitution rule*はフォントを解決し、他のすべてのルールを上書きすることに注意してください。
 
 {{% /alert %}}
 
-## 認識する方法 フォントが置換されたこと
+## フォントが置き換えられたことを認識する方法
 
-時々、文書のレイアウトが変更された理由や、フォントが期待どおりに見えない理由がわからない場合があります。 このような場合、フォント置換警告メッセージは、 [IWarningCallback](https://reference.aspose.com/words/java/com.aspose.words/iwarningcallback/) インターフェイスは救助に来ます。 彼らは持っています [FontSubstitution](https://reference.aspose.com/words/java/com.aspose.words/warningtype/#FONT-SUBSTITUTION) 警告タイプと標準の説明テキスト形式、「フォント」<originalfont>' が見つかりませんでした。 ' を使う<substitutionfont>' フォントではなく。 理由: <reason>"、次の理由で:</reason></substitutionfont></originalfont>
+ドキュメントのレイアウトが変更された理由や、一部のフォントが期待どおりに表示されない理由が不明な場合があります。 このような場合、[IWarningCallback](https://reference.aspose.com/words/java/com.aspose.words/iwarningcallback/)インターフェイスによって実装されたフォント置換警告メッセージが救助に来ます。 これらには[FontSubstitution](https://reference.aspose.com/words/java/com.aspose.words/warningtype/#FONT-SUBSTITUTION)警告タイプと標準の説明テキスト形式"Font'<OriginalFont>'has not been found."があります。 代わりに'<SubstitutionFont>'フォントを使用します。 理由:<Reason>"、次の理由があります:
 
-- "ドキュメントからの代替名" - 置換による [AltName](https://reference.aspose.com/words/java/com.aspose.words/Fontinfo#AltName)
-- "fontconfig 置換" - フォントコンフィグルールによる置換
-- "テーブル置換" - テーブルルールによる置換
-- 「フォント情報置換」 - フォント情報ルールによる置換
-- "デフォルトフォント置換" - デフォルトフォントルールによる置換
-- "最初の利用可能なフォント" - 最初の利用可能なフォントを持つ置換
+- "文書からの代替名"-[AltName](https://reference.aspose.com/words/java/com.aspose.words/Fontinfo#AltName)による置換の場合
+- "fontconfig substitution"–フォント設定ルールによる置換の場合
+- "テーブル置換"-テーブルルールによる置換の場合
+- "font info substitution"-フォント情報ルールによる置換の場合
+- "default font substitution"-デフォルトのフォントルールによる置換の場合
+- "最初に利用可能なフォント"-最初に利用可能なフォントで置換するための
 
-## フォントフォールバックXMLから設定
+## XMLからのフォントFallBack設定
 
-使用される2つの異なるメカニズムがあります Aspose.Words - フォント置換とフォントフォールバック。 フォント置換は、上記のセクションで説明したように、ドキュメントで指定されたフォントがフォントソースの中に見つからない場合に使用されます。 フォントが解決したときにフォントフォールバック機構が使用されますが、特定の文字は含まません。 この場合、 Aspose.Words 文字のフォールバックフォントの1つを使用しようとします。
+Aspose.Wordsには、フォント置換とフォントフォールバックという二つの異なるメカニズムが使用されています。 フォント置換は、上記のセクションで説明したように、文書で指定されたフォントがフォントソース間で見つからなかった場合に使用されます。 フォントフォールバックメカニズムは、フォントが解決されたときに使用されますが、特定の文字が含まれていません。 この場合、Aspose.Wordsはその文字にフォールバックフォントのいずれかを使用しようとします。
 
-そこにあります [BuildAutomatic](https://reference.aspose.com/words/java/com.aspose.words/fontfallbacksettings/#buildAutomatic) 利用可能なフォントをスキャンすることにより、フォールバック設定を自動的に作成する方法。 このメソッドは非近似フォールバック設定を生成する可能性があるため、フォントフォールバックの挙動を制御できます。 [FontFallbackSettings](https://reference.aspose.com/words/java/com.aspose.words/fontfallbacksettings/) クラス。 このクラスでは、フォントフォールバック機構の設定を指定します。 インスタンスを取得する **FontFallbackSettings** 次のようにクラス:
+利用可能なフォントをスキャンしてフォールバック設定を自動的に構築する[BuildAutomatic](https://reference.aspose.com/words/java/com.aspose.words/fontfallbacksettings/#buildAutomatic)メソッドがあります。 このメソッドは最適ではないフォールバック設定を生成する可能性があるため、[FontFallbackSettings](https://reference.aspose.com/words/java/com.aspose.words/fontfallbacksettings/)クラスのプロパティを使用してフォントフォールバックの動作を制 このクラスは、フォントフォールバックメカニズムの設定を指定します。 次のように**FontFallbackSettings**クラスのインスタンスを取得できます:
 
 **Java**
 
@@ -153,7 +153,7 @@ FontSettings fontSettings = FontSettings.getDefaultInstance();
 FontFallbackSettings settings = fontSettings.getFallbackSettings();
 {{< /highlight >}}
 
-*Table置換ルール*と同様に、この機構はXMLテーブルを使用して構成します。 これらのXMLテーブルは、次のメソッドで読み、保存することができます。
+*Table substitution rule*と同様に、このメカニズムは構成にXMLテーブルを使用します。 これらのXMLテーブルは、次の方法でロードおよび保存できます:
 
 **Java**
 
@@ -162,9 +162,9 @@ fontSettings.getFallbackSettings().load("MyNewFallbackTable.xml");
 fontSettings.getFallbackSettings().save("Current_FallbackTable.xml");
 {{< /highlight >}}
 
-ザ・オブ・ザ・ Aspose.Words リリースには2つのテーブルが含まれています。 *MsOfficeFallbackSetting.xml* そして、 *NotoFallbackSetting.xml*お問い合わせ
+Aspose.Wordsリリースには、*MsOfficeFallbackSetting.xml*と*NotoFallbackSetting.xml*の二つのテーブルが含まれています。
 
-ザ・オブ・ザ・ *MsOfficeFallbackSetting* テーブルは、さまざまな文字の置換戦略を定義します。これは、 Microsoft Wordお問い合わせ したがって、戦略は、インストールが必要です Microsoft オフィスフォント。 *MsOfficeFallbackSetting* 次の方法を使用して活動化させることができます。
+*MsOfficeFallbackSetting*テーブルは、Microsoft Wordで使用される戦略と同様の文字範囲の置換戦略を定義します。 したがって、この戦略ではMicrosoftOfficeフォントのインストールが必要です。 *MsOfficeFallbackSetting*は、次の方法を使用してアクティブにすることができます:
 
 **.Java**
 
@@ -172,7 +172,7 @@ fontSettings.getFallbackSettings().save("Current_FallbackTable.xml");
 fontSettings.getFallbackSettings().loadMsOfficeFallbackSettings();
 {{< /highlight >}}
 
-ザ・オブ・ザ・ *NotoFallbackSetting* テーブルは特に使用のために作成されます Google Noto フォント(詳細は参照) Google Noto 次のセクションでフォント設定を有効化することができます。
+*NotoFallbackSetting*テーブルは、特にGoogle Notoフォントで使用するために作成されます(次のセクションのGoogle Notoフォント設定の詳細を参照)。:
 
 **Java**
 
@@ -180,11 +180,11 @@ fontSettings.getFallbackSettings().loadMsOfficeFallbackSettings();
 fontSettings.getFallbackSettings().loadNotoFallbackSettings();
 {{< /highlight >}}
 
-次のコードの例では、XMLファイルからフォントフォールバック設定をロードする方法を示します。
+次のコード例は、XMLファイルからフォントフォールバック設定を読み込む方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-SetFontSettings-SetFontFallbackSettings.java" >}}
 
-上記のコード例では、次のXMLファイルが使用されます。
+上記のコード例では、次のXMLファイルが使用されています:
 
 {{< highlight html >}}
 <FontFallbackSettings xmlns="Aspose.Words">
@@ -205,35 +205,35 @@ fontSettings.getFallbackSettings().loadNotoFallbackSettings();
 </FontFallbackSettings>
 {{< /highlight >}}
 
-## 事前定義されたフォントフォールバック設定 Google Noto フォント
+## Google Notoフォントの定義済みフォントFallBack設定
 
-Aspose.Words あらかじめ定義されたフォントフォールバック設定を提供 Google Noto フォント。 これらは、SIL Open Font License でライセンスされている無料のフォントです。 Google Noto フォント ザ・オブ・ザ・ **FontFallbackSettings** クラスは [LoadNotoFallbackSettings](https://reference.aspose.com/words/java/com.aspose.words/fontfallbacksettings/#loadNotoFallbackSettings) メソッド。 定義済みのフォールバック設定をロードします。 Google Noto 以下のコード例に示すようにフォント:
+Aspose.Wordsは、Google Notoフォントの事前定義されたフォントフォールバック設定を提供します。 これらはSILOpen Font Licenseの下でライセンスされたフリーフォントで、Google NotoFontsからダウンロードできます。 **FontFallbackSettings**クラスは[LoadNotoFallbackSettings](https://reference.aspose.com/words/java/com.aspose.words/fontfallbacksettings/#loadNotoFallbackSettings)メソッドを提供します。 以下のコード例に示すように、Google Notoフォントを使用する事前定義済みのフォールバック設定が読み込まれます:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-SetFontSettings-setPredefinedFontFallbackSettings.java" >}}
 
 {{% alert color="primary" %}}
 
-サンズスタイルノトフォントのみ、通常の重量で定義済みの設定で使用されます。
+定義済みの設定では、通常の重みを持つSansスタイルのNotoフォントのみが使用されます。
 
 {{% /alert %}}
 
-## アクセス Aspose.Words フォントを探す
+## Aspose.Wordsがフォントを探す場所
 
-Aspose.Words ファイルシステムに TrueType フォントを自動的に検索しようとします。 通常、デフォルトの動作に依存することができます Aspose.Words 見つけるために `TrueType` フォントですが、TrueType フォントを含む独自のフォルダーを指定する必要があります。 ザ・オブ・ザ・ [真のフォント](/words/ja/java/specify-truetype-fonts-location/) トピックは、方法と場所を説明します Aspose.Words フォントだけでなく、独自のフォントの場所を指定する方法を探します。
+Aspose.Wordsはファイルシステム上のTrueTypeフォントを自動的に検索しようとします。 通常、Aspose.Wordsのデフォルトの動作に依存して`TrueType`フォントを見つけることができますが、TrueTypeフォントを含む独自のフォルダを指定する必要がある場合があり ザ- [TrueTypeフォントの場所を指定します](/words/java/specify-truetype-fonts-location/) このトピックでは、Aspose.Wordsがフォントを検索する方法と場所、および独自のフォントの場所を指定する方法について説明します。
 
-## フォントフォーマットの処理の違い Aspose.Words そして、 Microsoft Word
+## Aspose.WordsとMicrosoft Wordのフォント形式の処理の違い
 
-フォントフォーマットの処理に若干の違いがあります Aspose.Words そして、 Microsoft Word 以下の表に示すように:
+次の表に示すように、Aspose.WordsとMicrosoft Wordのフォント形式の処理にはいくつかの違いがあります:
 
 |  | Microsoft Word | Aspose.Words |
-|  :-  |  :-  |  :-  |
-| TrueType フォントと OpenType フォントを TrueType のアウトラインで指定 | サポート | サポート |
-| PostScript のアウトラインを持つ OpenType フォント | ほとんどのシナリオに対応 PDFなどの固定ページフォーマットに埋め込む XPS 対応していません。 テキストはビットマップ画像に置き換えられます。 | 固定ページフォーマットへの埋め込みを含むほとんどのシナリオに対応しました。 |
-| OpenTypeフォントのバリエーション | 名前付きインスタンスのみがサポートされています。 継続的なバリエーションはサポートされていません。 | デフォルトインスタンスのみのサポート 名前付きインスタンスと継続的なバリエーションはサポートされていません。 |
-| Type1 フォント | サポート Windows 2013年以前のバージョンとMacOSバージョン。 サポートが終了 Windows 2013年から始まるバージョン。 | サポートされていません。 |
+| :- | :- | :- |
+| TrueTypeフォントとOpenTypeフォントとTrueTypeアウトライン | サポートされています。 | サポートされています。 |
+| OpenTypeフォントとPostScriptアウトライン | ほとんどのシナリオでサポートされています。 PDFやXPSなどの固定ページ形式への埋め込みはサポートされていません。 テキストはビットマップイメージに置き換えられます。 | 固定ページ形式への埋め込みなど、ほとんどのシナリオでサポートされています。 |
+| OpenTypeフォントのバリエーション | 名前付きインスタンスのみがサポートされます。 連続バリエーションはサポートされていません。 | 既定のインスタンスのみでサポートされます。 名前付きインスタンスと連続バリエーションはサポートされていません。 |
+| Type1フォント | 2013年以前のWindowsバージョンとMacOS バージョンでサポートされています。 2013年以降のWindowsバージョンではサポートが中止されました。 | サポートされていません。 |
 
-## お問い合わせ
+## また見て下さい
 
-- - - [Google Noto フォント](https://fonts.google.com/noto) 無料フォントをダウンロードする
+- [Google Notoフォント](https://fonts.google.com/noto) フリーフォントをダウンロードするには
 
 
