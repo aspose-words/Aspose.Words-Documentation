@@ -1,67 +1,67 @@
----
-title: Работа с VBA Macros в Python
+﻿---
+title: Работа с макросами VBA в Python
 second_title: Aspose.Words для Python via .NET
-articleTitle: Работа с VBA Macros
-linktitle: Работа с VBA Macros
-description: "Создавать, читать, писать, клонировать и управлять макросами VBA в документе с помощью Python."
+articleTitle: Работа с макросами VBA
+linktitle: Работа с макросами VBA
+description: "Создавайте, считывайте, записывайте, клонируйте макросы VBA в документе и управляйте ими с помощью Python."
 type: docs
 weight: 410
 url: /ru/python-net/working-with-vba-macros/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Visual Basic Приложения (VBA) для Microsoft Word Это простой, но мощный язык программирования, который можно использовать для расширения функциональности. Aspose.Words API Предоставляет три класса для доступа к исходному коду проекта VBA:
+Visual Basic для приложений (VBA) для Microsoft Word - это простой, но мощный язык программирования, который можно использовать для расширения функциональности. Aspose.Words API предоставляет три класса для получения доступа к исходному коду проекта VBA:
 
-- [VBAProject](https://reference.aspose.com/words/python-net/aspose.words.vba/vbaproject/) Класс обеспечивает доступ к информации о проекте VBA
-- [VBAModuleCollection](https://reference.aspose.com/words/python-net/aspose.words.vba/vbamodulecollection/) Класс возвращает коллекцию модулей проекта VBA
-- [VbaModule](https://reference.aspose.com/words/python-net/aspose.words.vba/vbamodule/) Класс обеспечивает доступ к модулю проекта VBA
-- [VbaModuleType](https://reference.aspose.com/words/python-net/aspose.words.vba/vbamoduletype/) Перечисление определяет типы модели в проекте VBA. Модуль может представлять собой процедурный модуль, модуль документа, модуль класса или дизайнерский модуль
+- Класс [VBAProject](https://reference.aspose.com/words/python-net/aspose.words.vba/vbaproject/) предоставляет доступ к информации о проекте VBA
+- Класс [VBAModuleCollection](https://reference.aspose.com/words/python-net/aspose.words.vba/vbamodulecollection/) возвращает коллекцию модулей проекта VBA
+- Класс [VbaModule](https://reference.aspose.com/words/python-net/aspose.words.vba/vbamodule/) предоставляет доступ к модулю проекта VBA
+- Перечисление [VbaModuleType](https://reference.aspose.com/words/python-net/aspose.words.vba/vbamoduletype/) определяет типы модели в проекте VBA. Модуль может быть процедурным модулем, модулем документа, модулем класса или модулем конструктора
 
-## Создание проекта VBA
+## Создайте проект VBA
 
-Aspose.Words API обеспечивает [vba_project](https://reference.aspose.com/words/python-net/aspose.words/document/vba_project/) собственность получить или установить [VbaProject](https://reference.aspose.com/words/python-net/aspose.words.vba/vbaproject/) в документе.
+Aspose.Words API предоставляет свойство [vba_project](https://reference.aspose.com/words/python-net/aspose.words/document/vba_project/) для получения или установки [VbaProject](https://reference.aspose.com/words/python-net/aspose.words.vba/vbaproject/) в документе.
 
-Следующий пример кода показывает, как создать VBA-проект и VBA-модуль вместе с основными свойствами. [name](https://reference.aspose.com/words/python-net/aspose.words.vba/vbamodule/name/) и [type](https://reference.aspose.com/words/python-net/aspose.words.vba/vbamodule/type/):
+В следующем примере кода показано, как создать проект VBA и модуль VBA вместе с базовыми свойствами, например, [name](https://reference.aspose.com/words/python-net/aspose.words.vba/vbamodule/name/) и [type](https://reference.aspose.com/words/python-net/aspose.words.vba/vbamodule/type/).:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_vba_macros-CreateVbaProject.py" >}}
 
-## Читать Макрос
+## Чтение макросов
 
-Aspose.Words Также предоставляет пользователям возможность чтения макросов VBA.
+Aspose.Words также предоставляет пользователям возможность читать VBA макросы.
 
-Следующий пример кода показывает, как читать VBA Macros из документа:
+В следующем примере кода показано, как считывать макросы VBA из документа:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_vba_macros-ReadVbaMacros.py" >}}
 
-## Написать или изменить Macros
+## Запись или изменение макросов
 
-Использовать Aspose.Words, Пользователи могут изменять макросы VBA.
+Используя Aspose.Words, пользователи могут изменять макросы VBA.
 
-Следующий пример кода показывает, как модифицировать VBA Macros. [source_code](https://reference.aspose.com/words/python-net/aspose.words.vba/vbamodule/source_code/) имущество:
+В следующем примере кода показано, как изменить макросы VBA, используя свойство [source_code](https://reference.aspose.com/words/python-net/aspose.words.vba/vbamodule/source_code/):
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_vba_macros-ModifyVbaMacros.py" >}}
 
-## Клон VBA Проект
+## Клонировать проект VBA
 
-С Aspose.Words Также возможно клонирование проектов VBA.
+С помощью Aspose.Words также можно клонировать проекты VBA.
 
-Следующий пример кода показывает, как клонировать проект VBA с помощью [clone](https://reference.aspose.com/words/python-net/aspose.words.vba/vbaproject/clone/) Имущество, которое создает копию существующего проекта:
+В следующем примере кода показано, как клонировать проект VBA, используя свойство [clone](https://reference.aspose.com/words/python-net/aspose.words.vba/vbaproject/clone/), которое создает копию существующего проекта:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_vba_macros-CloneVbaProject.py" >}}
 
-## Клон VBA Модуль
+## Клонировать модуль VBA
 
-При необходимости можно клонировать модули VBA.
+При необходимости вы также можете клонировать модули VBA.
 
-Следующий пример кода показывает, как клонировать модуль VBA с помощью [clone](https://reference.aspose.com/words/python-net/aspose.words.vba/vbamodule/clone/) Имущество, которое создает копию существующего проекта:
+В следующем примере кода показано, как клонировать модуль VBA, используя свойство [clone](https://reference.aspose.com/words/python-net/aspose.words.vba/vbamodule/clone/), которое создает копию существующего проекта:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_vba_macros-CloneVbaModule.py" >}}
 
-## Работа с рекомендациями проекта VBA
+## Работайте с VBA ссылками на проект
 
-Aspose.Words API обеспечивает [VbaReferenceCollection](https://reference.aspose.com/words/python-net/aspose.words.vba/vbareferencecollection/) класс для работы с VBA Project References, представляющий коллекцию ссылок на проекты VBA.
+Aspose.Words API предоставляет [VbaReferenceCollection](https://reference.aspose.com/words/python-net/aspose.words.vba/vbareferencecollection/) класс для работы с VBA ссылками на проекты, представляющими коллекцию VBA ссылок на проекты.
 
-Следующий пример кода показывает, как удалить некоторые ссылки из коллекции ссылок из проекта VBA:
+В следующем примере кода показано, как удалить некоторые ссылки из коллекции ссылок из проекта VBA:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_vba_macros-RemoveReferenceFromCollectionOfReferences.py" >}}
 

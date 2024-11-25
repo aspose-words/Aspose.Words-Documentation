@@ -1,86 +1,86 @@
----
+﻿---
 title: Работа со стилями и темами
 second_title: Aspose.Words для Python via .NET
 articleTitle: Работа со стилями и темами
 linktitle: Работа со стилями и темами
-description: "Доступ и управление стилями и темами в документе с использованием Python."
+description: "Доступ к стилям и темам документа и управление ими осуществляется с помощью Python."
 type: docs
 weight: 110
 url: /ru/python-net/working-with-styles-and-themes/
 timestamp: 2024-01-27-14-07-04
 ---
 
-The [StyleCollection](https://reference.aspose.com/words/python-net/aspose.words/stylecollection/) Класс используется для управления встроенными и применения пользовательских настроек к стилям.
+Класс [StyleCollection](https://reference.aspose.com/words/python-net/aspose.words/stylecollection/) используется для управления встроенными и применения пользовательских настроек к стилям.
 
 ## Доступ к стилям
 
-Вы можете получить набор стилей, определенных в документе, используя [Document.styles](https://reference.aspose.com/words/python-net/aspose.words/documentbase/styles/) собственность. Эта коллекция содержит как встроенные, так и пользовательские стили в документе. Определенный стиль может быть получен по его имени / алии, идентификатору стиля или индексу. Следующий пример кода показывает, как получить доступ к набору стилей, определенных в документе.
+Вы можете получить коллекцию стилей, определенных в документе, используя свойство [Document.styles](https://reference.aspose.com/words/python-net/aspose.words/documentbase/styles/). Эта коллекция содержит как встроенные, так и пользовательские стили в документе. Конкретный стиль может быть получен по его имени/псевдониму, идентификатору стиля или индексу. В следующем примере кода показано, как получить доступ к коллекции стилей, определенных в документе.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_styles_and_themes-AccessStyles.py" >}}
 
 ## Как извлечь контент на основе стилей
 
-На простом уровне извлечение контента на основе стилей из документа Word может быть полезным для идентификации, перечисления и подсчета абзацев и прогонов текста, отформатированного в определенном стиле. Например, вам может потребоваться определить конкретные виды контента в документе, такие как примеры, заголовки, ссылки, ключевые слова, имена фигур и тематические исследования.
+На простом уровне извлечение содержимого на основе стилей из документа Word может быть полезно для идентификации, составления списка и подсчета абзацев и фрагментов текста, отформатированных в определенном стиле. Например, вам может потребоваться определить определенные виды содержимого в документе, такие как примеры, заголовки, ссылки, ключевые слова, названия рисунков и тематические исследования.
 
-Чтобы сделать это еще на несколько шагов, можно также использовать структуру документа, определяемую используемыми стилями, для переназначения документа для другого вывода, такого как HTML. Именно так строится документация Aspose, ставя Aspose.Words На тест. Инструмент, построенный с использованием Aspose.Words берет исходные документы Word и разделяет их на темы на определенных уровнях заголовков. XML-файл создается с использованием Aspose.Words Используется для построения дерева навигации, которое можно увидеть слева. А потом Aspose.Words Преобразует каждую тему в HTML.
+Если сделать еще несколько шагов вперед, то это также можно использовать для улучшения структуры документа, определяемой используемыми стилями, чтобы переназначить документ для другого вывода, например HTML. Фактически, именно так создается документация Aspose, что позволяет протестировать Aspose.Words. Инструмент, созданный с использованием Aspose.Words, использует исходные документы Word и разбивает их на темы с определенными уровнями заголовков. С помощью Aspose.Words создается файл XML, который используется для построения дерева навигации, которое вы можете видеть слева. А затем Aspose.Words преобразует каждую тему в HTML.
 
-Решение для извлечения текста, отформатированного с определенными стилями в документе Word, обычно экономично и просто. Aspose.Words.
+Решение для извлечения текста, отформатированного с использованием определенных стилей, из документа Word, как правило, экономично и просто с помощью Aspose.Words.
 
 ### Решение
 
-Чтобы показать, как легко Aspose.Words обрабатывает извлечение контента на основе стилей, давайте рассмотрим пример. В этом примере мы собираемся извлечь текст, отформатированный с определенным стилем абзаца и стилем символа из образца документа Word. На высоком уровне это будет включать:
-- Открытие документа Word с использованием [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) класс.
-- Получение сборников всех абзацев и всех строк в документе.
-- Выбор только необходимых абзацев и прогонов. В частности, мы получим текст, отформатированный в стиле абзаца "Глава 1" и стиле персонажа "Интенсивный акцент" из этого образца документа Word.
+Чтобы проиллюстрировать, как легко Aspose.Words обрабатывает поиск содержимого на основе стилей, давайте рассмотрим пример. В этом примере мы собираемся извлечь текст, отформатированный с использованием определенного стиля абзаца и стиля символов, из образца документа Word. На высоком уровне это потребует:
+- Открываем документ Word с помощью класса [Document](https://reference.aspose.com/words/python-net/aspose.words/document/).
+- Получение коллекций всех абзацев и всех прогонов в документе.
+- Выбираем только нужные абзацы и запускаем. В частности, мы извлекаем текст, отформатированный в стиле абзаца "Heading 1" и в стиле символов "Интенсивный акцент", из этого примера документа Word.
 
-![working-with-styles-and-themes-aspose-words-net](/words/python-net/working-with-styles-and-themes/working-with-styles-and-themes-1.png)
+![working-with-styles-and-themes-aspose-words-net](working-with-styles-and-themes-1.png)
 
 
-В этом примере документа текст, отформатированный в стиле абзаца заголовка 1, представляет собой "Insert Tab", "Quick Styles" и "Theme", а текст, отформатированный в стиле символов "Intense emphasis", представляет собой несколько экземпляров синего, курсивного, смелого текста, такого как "галереи" и "общий вид".
+В этом примере документа текст, отформатированный в стиле абзаца "Heading 1", содержит "Вставка вкладки", "Быстрые стили" и "Тема", а текст, отформатированный в стиле символов "Интенсивный акцент", - это несколько вариантов текста, выделенного синим, курсивом, жирным шрифтом, например ‘галереи’ и ‘общий вид’.
 
-### Кодекс
+### Код
 
-Реализация стилистического запроса довольно проста в Aspose.Words Модель объекта документа, так как она просто использует инструменты, которые уже существуют. Для этого решения реализованы два класса методов:
-- **Источник:_by_style_name** - Этот метод извлекает массив из тех пунктов в документе, которые имеют определенное название стиля.
-- **Runs_by_style_name** - Этот метод извлекает множество тех заданий в документе, которые имеют определенное название стиля. Оба эти метода очень похожи, единственными отличиями являются типы узлов и представление информации о стиле в абзаце и узлах запуска. Вот вам реализация `paragraphs_by_style_name`: Ниже приведены примеры всех абзацев, отформатированных в указанном стиле.
+Реализация запроса, основанного на стиле, в объектной модели документа Aspose.Words довольно проста, поскольку она просто использует уже имеющиеся инструменты. Для этого решения реализованы два метода класса:
+- **paragraphs_by_style_name** – Этот метод извлекает массив тех абзацев в документе, которые имеют определенное название стиля.
+- **runs_by_style_name** – Этот метод извлекает массив тех прогонов в документе, которые имеют определенное название стиля. Оба эти метода очень похожи, единственными различиями являются типы узлов и представление информации о стиле в узлах абзаца и прогона. Вот реализация `paragraphs_by_style_name`: В приведенном ниже примере найдите все абзацы, отформатированные в соответствии с указанным стилем.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-extract_content-ParagraphsByStyleName.py" >}}
 
 {{% alert color="primary" %}}
 
-Эта реализация также использует [Document.get_child_nodes](https://reference.aspose.com/words/python-net/aspose.words/compositenode/get_child_nodes/) Методика [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) класс, который возвращает совокупность всех узлов с указанным типом, которая в данном случае во всех пунктах.
+В этой реализации также используется метод [Document.get_child_nodes](https://reference.aspose.com/words/python-net/aspose.words/compositenode/get_child_nodes/) класса [Document](https://reference.aspose.com/words/python-net/aspose.words/document/), который возвращает коллекцию всех узлов с указанным типом, который в данном случае содержится во всех абзацах.
 
-Отметим, что второй параметр [Document.get_child_nodes](https://reference.aspose.com/words/python-net/aspose.words/compositenode/get_child_nodes/) метод устанавливается `True`. Это заставляет [Document.get_child_nodes](https://reference.aspose.com/words/python-net/aspose.words/compositenode/get_child_nodes/) метод рекурсивного выбора из всех узлов ребенка, а не выбора только ближайших детей.
+Обратите внимание, что второму параметру метода [Document.get_child_nodes](https://reference.aspose.com/words/python-net/aspose.words/compositenode/get_child_nodes/) присвоено значение `True`. Это заставляет метод [Document.get_child_nodes](https://reference.aspose.com/words/python-net/aspose.words/compositenode/get_child_nodes/) рекурсивно выбирать из всех дочерних узлов, а не выбирать только непосредственные дочерние узлы.
 
 {{% /alert %}}
 
-Также стоит отметить, что сбор абзацев не создает непосредственных накладных расходов, потому что абзацы загружаются в эту коллекцию только при доступе к элементам в них. Затем все, что вам нужно сделать, это пройтись по коллекции, используя стандартный для каждого оператора и добавить абзацы, которые имеют указанный стиль, к массиву paragraphs_with_style. The `Paragraph` Название стиля можно найти в [Style.name](https://reference.aspose.com/words/python-net/aspose.words/style/name/) имуществом, [Paragraph.paragraph_format](https://reference.aspose.com/words/python-net/aspose.words/paragraph/paragraph_format/) объект. Осуществление **Runs_by_style_name** Это почти то же самое, хотя мы используем [NodeType.RUN](https://reference.aspose.com/words/python-net/aspose.words/nodetype/#run) для извлечения запущенных узлов. The [Font.style](https://reference.aspose.com/words/python-net/aspose.words/font/style/) свойство а [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) объект используется для доступа к информации о стиле в [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) Узлы. Ниже приведен пример всех прогонов, отформатированных с указанным стилем.
+Также стоит отметить, что коллекция paragraphs не создает немедленных накладных расходов, поскольку абзацы загружаются в эту коллекцию только тогда, когда вы получаете доступ к элементам в них. Затем все, что вам нужно сделать, это просмотреть коллекцию, используя стандартный оператор foreach, и добавить абзацы, имеющие указанный стиль, в массив paragraphs_with_style. Название стиля `Paragraph` можно найти в свойстве [Style.name](https://reference.aspose.com/words/python-net/aspose.words/style/name/) объекта [Paragraph.paragraph_format](https://reference.aspose.com/words/python-net/aspose.words/paragraph/paragraph_format/). Реализация **runs_by_style_name** почти такая же, хотя очевидно, что мы используем [NodeType.RUN](https://reference.aspose.com/words/python-net/aspose.words/nodetype/#run) для извлечения узлов запуска. Свойство [Font.style](https://reference.aspose.com/words/python-net/aspose.words/font/style/) объекта [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) используется для доступа к информации о стиле в узлах [Run](https://reference.aspose.com/words/python-net/aspose.words/run/). В приведенном ниже примере найдите все прогоны, отформатированные в соответствии с указанным стилем.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-extract_content-RunsByStyleName.py" >}}
 
 
-Когда оба запроса реализованы, все, что вам нужно сделать, это передать объект документа и указать названия стилей контента, который вы хотите получить: Ниже приведен пример выполнения запросов и отображения результатов. Вы можете скачать файл шаблона этого примера из [здесь](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Styles.docx).
+Когда оба запроса будут реализованы, все, что вам нужно сделать, это передать объект document и указать названия стилей содержимого, которое вы хотите получить: в приведенном ниже примере выполняйте запросы и отображайте результаты. Вы можете загрузить файл шаблона для этого примера с [здесь](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Styles.docx).
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-extract_content-ExtractContentBasedOnStyles.py" >}}
 
 ### Конечный результат
 
-Когда все будет сделано, запуск образца будет отображать следующий вывод:
+Когда все будет сделано, при запуске примера отобразится следующий результат:
 
-![styles-and-themes-aspose-words-net](/words/python-net/working-with-styles-and-themes/working-with-styles-and-themes-2.png)
+![styles-and-themes-aspose-words-net](working-with-styles-and-themes-2.png)
 
 
-Как видите, это очень простой пример, показывающий количество и текст собранных абзацев и запускается в образце документа Word.
+Как вы можете видеть, это очень простой пример, показывающий количество и текст собранных абзацев и прогонов в образце документа Word.
 
-## Все стили из шаблона
+## Скопируйте все стили из шаблона
 
-Бывают случаи, когда хочется скопировать все стили из одного документа в другой. Вы можете использовать [Document.copy_styles_from_template](https://reference.aspose.com/words/python-net/aspose.words/document/copy_styles_from_template/) метод копирования стилей из указанного шаблона в документ. Когда стили копируются из шаблона в документ, аналогичные стили в документе переопределяются, чтобы соответствовать описаниям стилей в шаблоне. Уникальные стили из шаблона копируются в документ. Уникальные стили в документе остаются нетронутыми. бытьlow code Пример показывает, как копировать стили из одного документа в другой.
+Бывают случаи, когда требуется скопировать все стили из одного документа в другой. Вы можете использовать метод [Document.copy_styles_from_template](https://reference.aspose.com/words/python-net/aspose.words/document/copy_styles_from_template/) для копирования стилей из указанного шаблона в документ. При копировании стилей из шаблона в документ стили с одинаковыми именами в документе переопределяются в соответствии с описаниями стилей в шаблоне. Уникальные стили из шаблона копируются в документ. Уникальные стили в документе остаются неизменными. В примереlow code показано, как копировать стили из одного документа в другой.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_styles_and_themes-CopyStyles.py" >}}
 
-## Как манипулировать Тематические свойства
+## Как управлять свойствами темы
 
-Мы добавили основные API в Aspose.Words Доступ к свойствам темы документа. На данный момент это API Включает следующие общественные объекты:
+Мы добавили базовый параметр API в параметр Aspose.Words для доступа к свойствам темы документа. На данный момент этот параметр API включает следующие общедоступные объекты:
 
 - [Theme](https://reference.aspose.com/words/python-net/aspose.words.themes/theme/)
 - [ThemeFonts](https://reference.aspose.com/words/python-net/aspose.words.themes/themefonts/)
@@ -90,6 +90,6 @@ The [StyleCollection](https://reference.aspose.com/words/python-net/aspose.words
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_styles_and_themes-GetThemeProperties.py" >}}
 
-И вот как вы можете установить свойства темы:
+И вот как вы можете настроить свойства темы:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_styles_and_themes-SetThemeProperties.py" >}}

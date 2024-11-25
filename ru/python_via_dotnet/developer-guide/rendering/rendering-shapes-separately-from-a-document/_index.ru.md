@@ -1,55 +1,55 @@
----
-title: Формы отдельно от документа
+﻿---
+title: Фигуры отдельно от документа
 second_title: Aspose.Words для Python via .NET
-articleTitle: Оформление форм Отдельно от документа
-linktitle: Оформление форм Отдельно от документа
-description: "Извлекать различные графические объекты, такие как изображения, текстовый ящик, содержащий абзацы, или формы стрелок, при обработке документа, и экспортировать их во внешнее местоположение с помощью Python."
+articleTitle: Визуализация фигур отдельно от документа
+linktitle: Визуализация фигур отдельно от документа
+description: "Извлекайте различные графические объекты, такие как изображения, текстовое поле, содержащее абзацы, или фигуры со стрелками, при обработке документа и экспортируйте их во внешнее расположение с помощью Python."
 type: docs
 weight: 40
 url: /ru/python-net/rendering-shapes-separately-from-a-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
-При обработке документов общей задачей является извлечение всех изображений, найденных в документе, и экспорт их во внешнее место. Эта задача становится простой с Aspose.Words API, который уже обеспечивает функциональность для извлечения и сохранения данных изображения. Тем не менее, иногда вы можете аналогично извлечь другие типы графического контента, которые представлены другим типом объекта рисования, например, текстовый ящик, содержащий абзацы, формы стрелок и небольшое изображение. Не существует простого способа отображения этого объекта, поскольку он представляет собой комбинацию отдельных элементов контента. Вы также можете столкнуться с случаем, когда содержимое было сгруппировано в объект, который выглядит как одно изображение.
+При обработке документов обычной задачей является извлечение всех изображений, найденных в документе, и экспорт их во внешнее хранилище. Эта задача упрощается с помощью функции Aspose.Words API, которая уже предоставляет функциональные возможности для извлечения и сохранения данных изображений. Однако иногда может потребоваться аналогичным образом извлечь графический контент других типов, представленный другим типом графического объекта, например, текстовое поле, содержащее абзацы, фигуры со стрелками и небольшое изображение. Простого способа визуализации этого объекта не существует, поскольку он представляет собой комбинацию отдельных элементов контента. Вы также можете столкнуться со случаем, когда содержимое было сгруппировано в объект, который выглядит как единое изображение.
 
-Aspose.Words Предоставляет функциональность для извлечения этого типа контента таким же образом, как вы можете извлечь простое изображение из формы. В этой статье описывается, как использовать эту функциональность для отображения форм независимо от документа.
+Aspose.Words предоставляет функциональные возможности для извлечения этого типа содержимого таким же образом, как вы можете извлечь простое изображение из фигуры в качестве визуализируемого содержимого. В этой статье описывается, как использовать эту функциональность для визуализации фигур независимо от документа.
 
-## Типы форм в Aspose.Words
+## Типы фигур в Aspose.Words
 
-Все содержимое в слое чертежа документа представлено [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) или [GroupShape](https://reference.aspose.com/words/python-net/aspose.words.drawing/groupshape/) Узел в узле Aspose.Words Модуль объекта документаDOM). Таким контентом могут быть текстовые поля, изображения, автоформы, объекты OLE и т.д. Некоторые поля также импортируются в качестве форм, например `INCLUDEPICTURE` поле.
+Все содержимое слоя рисования документа представлено узлом [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) или [GroupShape](https://reference.aspose.com/words/python-net/aspose.words.drawing/groupshape/) в модуле объектов документа Aspose.Words (DOM). Таким содержимым могут быть текстовые поля, изображения, объекты AutoShapes, OLE и т.д. Некоторые поля также импортируются в виде фигур, например, поле `INCLUDEPICTURE`.
 
-Простое изображение представлено a [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) узел [ShapeType.IMAGE](https://reference.aspose.com/words/python-net/aspose.words.drawing/shadowtype/#image). Этот узел формы не имеет дочерних узлов, но данные изображения, содержащиеся в этом узле формы, могут быть доступны через [Shape.image_data](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/image_data/) собственность. С другой стороны, форма также может состоять из многих детских узлов. Например, форма текстового ящика, которая представлена [ShapeType.TEXT_BOX](https://reference.aspose.com/words/python-net/aspose.words.drawing/shadowtype/#text_box) свойство, может состоять из множества узлов, таких как [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/) и [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/). Большинство форм могут включать [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/) и [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/) Узлы блочного уровня. Это те же узлы, что и в основном теле. Формы всегда являются частями какого-либо абзаца, либо включены непосредственно в строку, либо прикреплены к [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/), но "плавающий" в любом месте страницы документа.
+Простое изображение представлено узлом [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) из [ShapeType.IMAGE](https://reference.aspose.com/words/python-net/aspose.words.drawing/shadowtype/#image). Этот узел формы не имеет дочерних узлов, но к данным изображения, содержащимся в этом узле формы, можно получить доступ с помощью свойства [Shape.image_data](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/image_data/). С другой стороны, фигура также может состоять из множества дочерних узлов. Например, форма текстового поля, которая представлена свойством [ShapeType.TEXT_BOX](https://reference.aspose.com/words/python-net/aspose.words.drawing/shadowtype/#text_box), может состоять из множества узлов, таких как [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/) и [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/). Большинство форм могут включать узлы [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/) и [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/) на уровне блоков. Это те же узлы, что и в основной части документа. Фигуры всегда являются частями какого-либо абзаца, либо включенными непосредственно в текст, либо привязанными к [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/), но "плавающими" в любом месте страницы документа.
 
-![rendering-shapes-separately-from-a-document_1](/words/python-net/rendering-shapes-separately-from-a-document/rendering-shapes-separately-from-a-document-1.png)
+![rendering-shapes-separately-from-a-document_1](rendering-shapes-separately-from-a-document-1.png)
 
-Документ также может содержать формы, которые сгруппированы вместе. Groupможно включить в Microsoft Word путем выбора нескольких объектов и щелчка "Group" в меню правого клика.
+Документ также может содержать фигуры, которые сгруппированы вместе. Группировку можно включить в Microsoft Word, выбрав несколько объектов и нажав "Сгруппировать" в контекстном меню.
 
-![rendering-shapes-separately-from-a-document_2](/words/python-net/rendering-shapes-separately-from-a-document/rendering-shapes-separately-from-a-document-2.png)
+![rendering-shapes-separately-from-a-document_2](rendering-shapes-separately-from-a-document-2.png)
 
-В Aspose.Words, Эти группы форм представлены [GroupShape](https://reference.aspose.com/words/python-net/aspose.words.drawing/groupshape/) Узел. Они также могут быть использованы таким же образом, чтобы визуализировать всю группу.
+В Aspose.Words эти группы фигур представлены узлом [GroupShape](https://reference.aspose.com/words/python-net/aspose.words.drawing/groupshape/). Они также могут быть вызваны таким же образом, чтобы преобразовать всю группу в изображение.
 
-![rendering-shapes-separately-from-a-document_3](/words/python-net/rendering-shapes-separately-from-a-document/rendering-shapes-separately-from-a-document-3.png)
+![rendering-shapes-separately-from-a-document_3](rendering-shapes-separately-from-a-document-3.png)
 
-Формат DOCX может содержать специальные типы изображений, такие как диаграммы или диаграммы. Эти формы также представлены через [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) узел Aspose.Words, Это также обеспечивает аналогичный метод для визуализации их в виде изображений. По замыслу, форма не может содержать другую форму в детстве, если только эта форма не является изображением.[ShapeType.IMAGE](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapetype/#image)). Например, Microsoft Word Не позволяет вставить текстовый ящик в другой текстовый ящик.
+Формат DOCX может содержать специальные типы изображений, такие как диаграммы. Эти фигуры также представлены с помощью узла [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) в Aspose.Words, который также предоставляет аналогичный метод для их отображения в виде изображений. По замыслу, фигура не может содержать другую фигуру в качестве дочерней, если только эта фигура не является изображением ([ShapeType.IMAGE](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapetype/#image)). Например, Microsoft Word не позволяет вставлять текстовое поле в другое текстовое поле.
 
-Типы формы, описанные выше, обеспечивают специальный метод для рендеринга форм через [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/) класс. Примером этого является [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/) Класс извлекается для [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) или [GroupShape](https://reference.aspose.com/words/python-net/aspose.words.drawing/groupshape/) через [get_shape_renderer](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/get_shape_renderer/) методом или путем прохождения [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) Для строителя этого [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/) класс. Этот класс обеспечивает доступ к членам, что позволяет придать форму следующим элементам:
+Типы фигур, описанные выше, предоставляют специальный метод для визуализации фигур с помощью класса [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/). Экземпляр класса [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/) извлекается для [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) или [GroupShape](https://reference.aspose.com/words/python-net/aspose.words.drawing/groupshape/) с помощью метода [get_shape_renderer](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/get_shape_renderer/) или путем передачи [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) конструктору класса [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/). Этот класс предоставляет доступ к элементам, которые позволяют отображать форму следующим образом:
 
 - Файл на диске
-- Поток
+- Течение
 
 {{% alert color="primary" %}}
 
-При оформлении [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) Это должно быть частью иерархии документов. Если [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) не является частью дерева документов, тогда отданный результат будет пустым после вызова [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/) методы.
+При отображении [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) он должен быть частью иерархии документов. Если [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) не является частью дерева документов, то после вызова методов [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/) отображаемый результат будет пустым.
 
 {{% /alert %}}
 
-## Отображение в File или Stream
+## Рендеринг в файл или поток
 
-The [save](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/save/) Способ обеспечивает перегрузки, которые отображают форму непосредственно в файл или поток. Обе перегрузки принимают пример [ImageSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/) класс, что позволяет определить варианты рендеринга формы. Это работает так же, как и [Document.save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) метод. Несмотря на то, что этот параметр необходим, вы можете передать нулевое значение, указав, что нет пользовательских опций.
+Метод [save](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/save/) предоставляет перегрузки, которые отображают фигуру непосредственно в файл или поток. Обе перегрузки поддерживают экземпляр класса [ImageSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/), который позволяет определять параметры для отображения фигуры. Это работает так же, как и метод [Document.save](https://reference.aspose.com/words/python-net/aspose.words/document/save/). Несмотря на то, что этот параметр является обязательным, вы можете передать нулевое значение, указав, что пользовательских параметров нет.
 
-Форма может быть экспортирована в любом формате изображения, указанном в [SaveFormat](https://reference.aspose.com/words/python-net/aspose.words/saveformat/) перечисление. Например, изображение может быть визуализировано как растровое изображение, такое как JPEG, путем указания [SaveFormat.JPEG](https://reference.aspose.com/words/python-net/aspose.words/saveformat/#jpeg) перечисление, или как векторное изображение, такое как ЭМП, путем указания [SaveFormat.EMF](https://reference.aspose.com/words/python-net/aspose.words/saveformat/#emf).
+Фигура может быть экспортирована в любом графическом формате, указанном в перечислении [SaveFormat](https://reference.aspose.com/words/python-net/aspose.words/saveformat/). Например, изображение можно отобразить как растровое, например, JPEG, указав перечисление [SaveFormat.JPEG](https://reference.aspose.com/words/python-net/aspose.words/saveformat/#jpeg), или как векторное, например, EMF, указав [SaveFormat.EMF](https://reference.aspose.com/words/python-net/aspose.words/saveformat/#emf).
 
-Приведенный ниже пример кода иллюстрирует отображение формы изображения ЭМП отдельно от документа и сохранение на диск:
+Приведенный ниже пример кода иллюстрирует рендеринг фигуры в виде изображения EMF отдельно от документа и сохранение на диск:
 
 {{< highlight python >}}
 r = shape.get_shape_renderer()
@@ -62,7 +62,7 @@ imageOptions.scale = 1.5
 r.save(docs_base.artifacts_dir + "TestFile.RenderToDisk_out.emf", imageOptions)
 {{< /highlight >}}
 
-Приведенный ниже пример кода иллюстрирует преобразование формы в изображение JPEG отдельно от документа и сохранение в потоке:
+Приведенный ниже пример кода иллюстрирует рендеринг фигуры в виде изображения JPEG отдельно от документа и сохранение в потоке:
 
 {{< highlight python >}}
 r = shape.get_shape_renderer()
@@ -85,22 +85,22 @@ r.save(stream, imageOptions)
 stream.close()
 {{< /highlight >}}
 
-The [ImageSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/) Класс позволяет указать множество опций, которые контролируют, как визуализируется изображение. Описанная выше функциональность может быть применена таким же образом к [GroupShape](https://reference.aspose.com/words/python-net/aspose.words.drawing/groupshape/) и [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) Узлы.
+Класс [ImageSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/) позволяет задать множество параметров, управляющих отображением изображения. Функциональность, описанная выше, может быть применена таким же образом к узлам [GroupShape](https://reference.aspose.com/words/python-net/aspose.words.drawing/groupshape/) и [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/).
 
-## Изображение в форме
+## Рендеринг изображения фигуры
 
-The [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) Класс представляет объекты в слое рисунка, такие как AutoShape, текстовое поле, свободная форма, объект OLE, управление ActiveX или изображение. Используя [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) Вы можете создавать или изменять формы в Microsoft Word Документ. Важным свойством формы является ее [shape_type](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/shape_type/). Формы разных типов могут иметь разные возможности в документе Word. Например, только изображения и формы OLE могут иметь изображения внутри них, в то время как большинство форм могут иметь только текст.
+Класс [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) представляет объекты на уровне рисования, такие как AutoShape, текстовое поле, произвольная форма, объект OLE, элемент управления ActiveX или изображение. Используя класс [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/), вы можете создавать или изменять фигуры в документе Microsoft Word. Важным свойством фигуры является ее значение [shape_type](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/shape_type/). Фигуры разных типов могут иметь разные возможности в документе Word. Например, только фигуры image и OLE могут содержать изображения внутри себя, в то время как большинство фигур могут содержать только текст.
 
-В следующем примере показано, как визуализировать изображение формы на изображение JPEG отдельно от документа и сохранить его на диске:
+В следующем примере показано, как преобразовать изображение фигуры в изображение JPEG отдельно от документа и сохранить его на диске:
 
 {{< highlight python >}}
 # Save the rendered image to disk.
 shape.get_shape_renderer().save(docs_base.artifacts_dir + "TestFile.RenderShapeImage.jpeg", None)
 {{< /highlight >}}
 
-## Восстановление размера формы
+## Получение размера фигуры
 
-The [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/) Класс также предоставляет функциональность для извлечения размера формы в пикселях через [get_size_in_pixels](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/get_size_in_pixels/) метод. Этот метод принимает два поплавковых (единых) параметра – масштаб и DPI, которые используются при расчете размера формы при рендеринге формы. Метод возвращает **Size** объект, который содержит ширину и высоту расчетного размера. Это полезно, когда необходимо заранее знать размер отрисованной формы. The [size_in_points](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/size_in_points/) свойство возвращает размер формы, измеренный в точках. Результатом является **SizeF** Объект, содержащий ширину и высоту. Также вы можете использовать [bounds_in_points](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/bounds_in_points/) свойство получать реальные границы формы.
+Класс [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/) также предоставляет функциональные возможности для получения размера фигуры в пикселях с помощью метода [get_size_in_pixels](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/get_size_in_pixels/). Этот метод принимает два плавающих (одиночных) параметра – масштаб и DPI, которые используются при расчете размера фигуры при ее визуализации. Метод возвращает объект **Size**, который содержит ширину и высоту вычисленного размера. Это полезно, когда требуется заранее знать размер отображаемой фигуры. Свойство [size_in_points](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/size_in_points/) возвращает размер фигуры, измеренный в точках. В результате получится объект **SizeF**, содержащий значения ширины и высоты. Также вы можете использовать свойство [bounds_in_points](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/bounds_in_points/) для получения фактических границ фигуры.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_shapes-GetActualShapeBoundsPoints.py" >}}
 
