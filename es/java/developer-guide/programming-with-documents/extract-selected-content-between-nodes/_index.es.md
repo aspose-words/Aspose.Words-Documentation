@@ -1,10 +1,10 @@
----
-title: Extracto Contenido seleccionado entre nodos Java
-second_title: Aspose.Words para Java
-articleTitle: Extracto Contenido entre los nodos en un documento
-linktitle: Extract Content Between Nodes
+﻿---
+title: Extraer Contenido Seleccionado Entre Nodos en Java
+second_title: Aspose.Words por Java
+articleTitle: Extraer Contenido entre Nodos en un Documento
+linktitle: Extraer Contenido Entre Nodos
 type: docs
-description: "Extracting document content in different using Java."
+description: "Extraer el contenido del documento de forma diferente usando Java."
 weight: 140
 url: /es/java/extract-selected-content-between-nodes/
 timestamp: 2024-01-27-14-07-04
@@ -12,84 +12,84 @@ timestamp: 2024-01-27-14-07-04
 
 Al trabajar con documentos, es importante poder extraer fácilmente contenido de un rango específico dentro de un documento. Sin embargo, el contenido puede consistir en elementos complejos como párrafos, tablas, imágenes, etc.
 
-Independientemente de qué contenido debe extraerse, el método para extraer ese contenido siempre se determinará mediante el cual se seleccionan los nodos para extraer contenido entre ellos. Estos pueden ser cuerpos de texto completos o simples secuencias de texto.
+Independientemente del contenido que deba extraerse, el método para extraer ese contenido siempre estará determinado por los nodos seleccionados para extraer contenido entre ellos. Estos pueden ser cuerpos de texto completos o ejecuciones de texto simples.
 
-Hay muchas situaciones posibles y por lo tanto muchos tipos diferentes de nodos a considerar al extraer contenido. Por ejemplo, es posible que desee extraer contenido entre:
+Hay muchas situaciones posibles y, por lo tanto, muchos tipos de nodos diferentes a considerar al extraer contenido. Por ejemplo, es posible que desee extraer contenido entre:
 
 - Dos párrafos específicos
-- Corrientes específicas de texto
-- Campos de varios tipos, como campos de fusión
-- Start and end ranges of a bookmark or comment
-- Diversos textos contenidos en secciones separadas
+- Secuencias específicas de texto
+- Campos de varios tipos, como campos de combinación
+- Rangos de inicio y finalización de un marcador o comentario
+- Varios cuerpos de texto contenidos en secciones separadas
 
-En algunas situaciones, es posible que incluso necesite combinar diferentes tipos de nodos, como la extracción de contenido entre un párrafo y un campo, o entre una carrera y un marcador.
+En algunas situaciones, es posible que incluso necesite combinar diferentes tipos de nodos, como extraer contenido entre un párrafo y un campo, o entre una ejecución y un marcador.
 
 Este artículo proporciona la implementación del código para extraer texto entre diferentes nodos, así como ejemplos de escenarios comunes.
 
 {{% alert color="primary" %}}
 
-Estos ejemplos son sólo algunas demostraciones de las muchas posibilidades. Planeamos que la funcionalidad de extracción de texto sea parte del público API en el futuro, y ningún código adicional será requerido. Mientras tanto, siéntete libre de publicar tus solicitudes con respecto a esta funcionalidad en [Aspose.Words foro](https://forum.aspose.com/c/words/8).
+Estos ejemplos son solo algunas demostraciones de las muchas posibilidades. Planeamos que la funcionalidad de extracción de texto sea parte del public API en el futuro, y no se requerirá código adicional. Mientras tanto, no dude en publicar sus solicitudes con respecto a esta funcionalidad en el [Aspose.Words foro](https://forum.aspose.com/c/words/8).
 
 {{% /alert %}}
 
-## Por qué Extraer contenido
+## Por Qué Extraer Contenido
 
-A menudo el objetivo de extraer el contenido es duplicar o guardarlo por separado en un nuevo documento. Por ejemplo, puede extraer contenido y:
+A menudo, el objetivo de extraer el contenido es duplicarlo o guardarlo por separado en un nuevo documento. Por ejemplo, puede extraer contenido y:
 
-- Copiarlo en un documento separado
+- Cópielo en un documento separado
 - Convertir una parte específica de un documento en PDF o imagen
 - Duplicar el contenido del documento muchas veces
-- Trabajar con contenido extraído separado del resto del documento
+- Trabaje con contenido extraído separado del resto del documento
 
-Esto se puede lograr fácilmente utilizando Aspose.Words y la aplicación del código a continuación.
+Esto se puede lograr fácilmente usando Aspose.Words y la implementación del código a continuación.
 
-## Extracción de contenido Algoritm
+## Algoritmo de Extracción de Contenido
 
-El código en esta sección aborda todas las situaciones posibles descritas anteriormente con un método generalizado y reutilizable. El esquema general de esta técnica implica:
+El código de esta sección aborda todas las situaciones posibles descritas anteriormente con un método generalizado y reutilizable. El esquema general de esta técnica involucra:
 
-1. Reunir los nodos que dictan el área de contenido que será extraída de su documento. Recuperar estos nodos es manejado por el usuario en su código, basado en lo que quieren ser extraídos.
-1. Pasando estos nodos a **ExtractContent** método proporcionado a continuación. También debe pasar un parámetro booleano que indica si estos nodos, actuando como marcadores, deben ser incluidos en la extracción o no.
-1. Recuperar una lista de contenido clonado (nodos copiados) especificado para ser extraído. Puede utilizar esta lista de nodos de cualquier manera aplicable, por ejemplo, creando un nuevo documento que contenga únicamente el contenido seleccionado.
+1. Recopilando los nodos que dictan el área de contenido que se extraerá de su documento. La recuperación de estos nodos es manejada por el usuario en su código, en función de lo que desea extraer.
+1. Pasando estos nodos al método **ExtractContent** proporcionado a continuación. También debe pasar un parámetro booleano que indique si estos nodos, que actúan como marcadores, deben incluirse en la extracción o no.
+1. Recuperando una lista de contenido clonado (nodos copiados) especificados para ser extraídos. Puede utilizar esta lista de nodos de cualquier forma aplicable, por ejemplo, creando un nuevo documento que contenga solo el contenido seleccionado.
 
 ## Cómo Extraer Contenido
 
-Trabajaremos con el documento que figura a continuación en este artículo. Como puede ver, contiene una variedad de contenidos. Además, el documento contiene una segunda sección que comienza en mitad de la primera página. Un marcador y comentario también están presentes en el documento, pero no son visibles en la imagen de abajo.
+Trabajaremos con el documento a continuación en este artículo. Como puede ver, contiene una variedad de contenido. También tenga en cuenta que el documento contiene una segunda sección que comienza en el medio de la primera página. Un marcador y un comentario también están presentes en el documento, pero no son visibles en la captura de pantalla a continuación.
 
 ![extract-content-aspose-words-java](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-1.png)
 
-Para extraer el contenido de su documento necesita llamar al `ExtractContent` método a continuación y pasar los parámetros apropiados.
+Para extraer el contenido de su documento, debe llamar al método `ExtractContent` a continuación y pasar los parámetros apropiados.
 
-La base subyacente de este método consiste en encontrar nodos de nivel de bloque (párrafos y tablas) y clonarlos para crear copias idénticas. Si los nodos marcadores aprobados son de nivel bloque, entonces el método es capaz de copiar simplemente el contenido en ese nivel y añadirlo al array.
+La base subyacente de este método implica encontrar nodos a nivel de bloque (párrafos y tablas) y clonarlos para crear copias idénticas. Si los nodos marcadores pasados son de nivel de bloque, entonces el método puede simplemente copiar el contenido en ese nivel y agregarlo a la matriz.
 
-Sin embargo, si los nodos marcadores son inline (un niño de un párrafo) entonces la situación se vuelve más compleja, ya que es necesario dividir el párrafo en el nodo inline, ya sea una carrera, campos marcados etc. El contenido en los nodos padres clonados no presentes entre los marcadores es eliminado. Este proceso se utiliza para garantizar que los nodos en línea sigan conservando el formato del párrafo padre.
+Sin embargo, si los nodos marcadores están en línea (un elemento secundario de un párrafo), la situación se vuelve más compleja, ya que es necesario dividir el párrafo en el nodo en línea, ya sea una ejecución, campos de marcadores, etc. Se elimina el contenido de los nodos primarios clonados que no está presente entre los marcadores. Este proceso se utiliza para garantizar que los nodos en línea conserven el formato del párrafo principal.
 
-El método también ejecutará cheques en los nodos pasados como parámetros y arroja una excepción si el nodo es inválido. Los parámetros a pasar a este método son:
+El método también ejecutará comprobaciones en los nodos pasados como parámetros y lanzará una excepción si alguno de los nodos no es válido. Los parámetros que se pasarán a este método son:
 
-1. **StartNode** y **EndNode**. Los dos primeros parámetros son los nodos que definen dónde se iniciará la extracción del contenido y terminará respectivamente. Estos nodos pueden ser ambos niveles de bloque ([Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) , [Table](https://reference.aspose.com/words/java/com.aspose.words/table/) ) o nivel de línea (por ejemplo [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) , [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/) , [BookmarkStart](https://reference.aspose.com/words/java/com.aspose.words/bookmarkstart/) etc.):
-   1. Para pasar un campo debe pasar el correspondiente **FieldStart** objeto.
-   1. Para pasar marcadores, los **BookmarkStart** y [BookmarkEnd](https://reference.aspose.com/words/java/com.aspose.words/bookmarkend/) los nodos deben ser aprobados.
-   1. Para transmitir comentarios, [CommentRangeStart](https://reference.aspose.com/words/java/com.aspose.words/commentrangestart/) y [CommentRangeEnd](https://reference.aspose.com/words/java/com.aspose.words/commentrangeend/) los nodos deben usarse.
-1. **IsInclusive**. Define si los marcadores están incluidos en la extracción o no. Si esta opción se establece false y el mismo nodo o nodos consecutivos se pasan, entonces una lista vacía será devuelta:
+1. **StartNode** y **EndNode**. Los dos primeros parámetros son los nodos que definen dónde debe comenzar y finalizar la extracción del contenido, respectivamente. Estos nodos pueden ser tanto de nivel de bloque ([Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), [Table](https://reference.aspose.com/words/java/com.aspose.words/table/)) como de nivel en línea (por ejemplo [Run](https://reference.aspose.com/words/java/com.aspose.words/run/), [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/), [BookmarkStart](https://reference.aspose.com/words/java/com.aspose.words/bookmarkstart/) etc.):
+   1. Para pasar un campo, debe pasar el objeto **FieldStart** correspondiente.
+   1. Para pasar marcadores, se deben pasar los nodos **BookmarkStart** y [BookmarkEnd](https://reference.aspose.com/words/java/com.aspose.words/bookmarkend/).
+   1. Para pasar comentarios, se deben usar los nodos [CommentRangeStart](https://reference.aspose.com/words/java/com.aspose.words/commentrangestart/) y [CommentRangeEnd](https://reference.aspose.com/words/java/com.aspose.words/commentrangeend/).
+1. **IsInclusive**. Define si los marcadores están incluidos en la extracción o no. Si esta opción se establece en false y se pasan el mismo nodo o nodos consecutivos, se devolverá una lista vacía:
 
-      1. Si **FieldStart** nodo se pasa entonces esta opción define si todo el campo debe ser incluido o excluido.
-      1. Si **BookmarkStart** o **BookmarkEnd** nodo se pasa, esta opción define si el marcador está incluido o simplemente el contenido entre el rango de marcadores.
-      1. Si **CommentRangeStart** o **CommentRangeEnd** nodo se pasa, esta opción define si el comentario en sí mismo debe ser incluido o simplemente el contenido en el rango de comentarios.
+      1. Si se pasa un nodo **FieldStart**, esta opción define si se debe incluir o excluir todo el campo.
+      1. Si se pasa un nodo **BookmarkStart** o **BookmarkEnd**, esta opción define si se incluye el marcador o solo el contenido entre el rango de marcadores.
+      1. Si se pasa un nodo **CommentRangeStart** o **CommentRangeEnd**, esta opción define si se debe incluir el comentario en sí o solo el contenido en el rango de comentarios.
 
-La aplicación de la Convención **ExtractContent** método que puedes encontrar [Aquí](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/DocsExamples/Java/src/main/java/DocsExamples/Programming_with_documents/Contents_management/ExtractContentHelper.java). Este método se referirá en los escenarios de este artículo.
+La implementación del método **ExtractContent** puede encontrar [aquí](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/DocsExamples/Java/src/main/java/DocsExamples/Programming_with_documents/Contents_management/ExtractContentHelper.java). Este método se mencionará en los escenarios de este artículo.
 
-También definiremos un método personalizado para generar fácilmente un documento de nodos extraídos. Este método se utiliza en muchos de los escenarios siguientes y simplemente crea un nuevo documento e importa el contenido extraído en él.
+También definiremos un método personalizado para generar fácilmente un documento a partir de nodos extraídos. Este método se usa en muchos de los escenarios a continuación y simplemente crea un nuevo documento e importa el contenido extraído en él.
 
 El siguiente ejemplo de código muestra cómo tomar una lista de nodos e insertarlos en un nuevo documento:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "generate-document.java" >}}
 
-## Extract Content Between Paragraphs
+## Extraer Contenido Entre Párrafos
 
-Esto demuestra cómo utilizar el método anterior para extraer contenido entre párrafos específicos. En este caso, queremos extraer el cuerpo de la carta que se encuentra en la primera mitad del documento. Podemos decir que esto es entre los párrafos 7 y 11o.
+Esto demuestra cómo usar el método anterior para extraer contenido entre párrafos específicos. En este caso, queremos extraer el cuerpo de la carta que se encuentra en la primera mitad del documento. Podemos decir que esto está entre los párrafos 7 y 11.
 
-El siguiente código cumple esta tarea. Los párrafos apropiados se extraen utilizando [getChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getChild-int-int-boolean) método sobre el documento y pasar los índices especificados. Pasamos estos nodos a la **ExtractContent** método y estado que estos deben ser incluidos en la extracción. Este método devolverá el contenido copiado entre estos nodos que luego se insertan en un nuevo documento.
+El código a continuación cumple esta tarea. Los párrafos apropiados se extraen utilizando el método [getChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getChild-int-int-boolean) en el documento y pasando los índices especificados. Luego pasamos estos nodos al método **ExtractContent** y establecemos que se incluirán en la extracción. Este método devolverá el contenido copiado entre estos nodos que luego se insertarán en un nuevo documento.
 
-El siguiente ejemplo de código muestra cómo extraer el contenido entre párrafos específicos usando el `ExtractContent` método anterior:
+El siguiente ejemplo de código muestra cómo extraer el contenido entre párrafos específicos utilizando el método `ExtractContent` anterior:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-between-paragraphs.java" >}}
 
@@ -103,11 +103,11 @@ El documento de salida contiene los dos párrafos que se extrajeron.
 
 ![extract-content-result-aspose-words-java](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-2.png)
 
-## Extracto Contenido entre diferentes tipos de nodos
+## Extraer Contenido Entre Diferentes Tipos de Nodos
 
-Podemos extraer contenido entre cualquier combinación de nodos de nivel de bloque o inline. En este escenario a continuación extraeremos el contenido entre el primer párrafo y el cuadro en la segunda sección de manera inclusiva. Conseguimos los nodos marcadores llamando [getFirstParagraph](https://reference.aspose.com/words/java/com.aspose.words/body/#getFirstParagraph) y [getChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getChild-int-int-boolean) método en la segunda sección del documento para recuperar el **Paragraph** y **Table** nodos. Para una ligera variación, vamos a duplicar el contenido e insertarlo debajo del original.
+Podemos extraer contenido entre cualquier combinación de nodos a nivel de bloque o en línea. En este escenario a continuación, extraeremos el contenido entre el primer párrafo y la tabla en la segunda sección inclusive. Obtenemos los nodos marcadores llamando al método [getFirstParagraph](https://reference.aspose.com/words/java/com.aspose.words/body/#getFirstParagraph) y [getChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getChild-int-int-boolean) en la segunda sección del documento para recuperar los nodos **Paragraph** y **Table** apropiados. Para una ligera variación, dupliquemos el contenido e insértelo debajo del original.
 
-El siguiente ejemplo de código muestra cómo extraer el contenido entre un párrafo y una tabla usando el **ExtractContent** método:
+El siguiente ejemplo de código muestra cómo extraer el contenido entre un párrafo y una tabla utilizando el método **ExtractContent**:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-between-block-level-nodes.java" >}}
 
@@ -117,19 +117,19 @@ Puede descargar el archivo de muestra de este ejemplo desde [Aspose.Words GitHub
 
 {{% /alert %}}
 
-El contenido entre el párrafo y el cuadro se ha duplicado a continuación es el resultado.
+El contenido entre el párrafo y la tabla se ha duplicado a continuación es el resultado.
 
 ![extract-content-between-paragraphs-aspose-words-java](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-3.png)
 
-## Extract Content Between Paragraphs Basado en Estilo
+## Extraer Contenido entre Párrafos Según el Estilo
 
-Es posible que necesite extraer el contenido entre párrafos del mismo o diferente estilo, como entre párrafos marcados con estilos de encabezado.
+Es posible que deba extraer el contenido entre párrafos del mismo estilo o de un estilo diferente, como entre párrafos marcados con estilos de encabezado.
 
-El siguiente código muestra cómo lograrlo. Es un ejemplo simple que extraerá el contenido entre la primera instancia de los estilos "Heading 1" y "Header 3" sin extraer los títulos también. Para ello fijamos el último parámetro false, que especifica que los nodos marcadores no deben ser incluidos.
+El siguiente código muestra cómo lograr esto. Es un ejemplo simple que extraerá el contenido entre la primera instancia de los estilos" Heading 1 "y" Encabezado 3 " sin extraer también los encabezados. Para hacer esto, establecemos el último parámetro en false, que especifica que los nodos marcadores no deben incluirse.
 
-En una aplicación adecuada, esto debe ejecutarse en un bucle para extraer contenido entre todos los párrafos de estos estilos del documento. El contenido extraído se copia en un nuevo documento.
+En una implementación adecuada, esto debe ejecutarse en un bucle para extraer contenido entre todos los párrafos de estos estilos del documento. El contenido extraído se copia en un nuevo documento.
 
-El siguiente ejemplo de código muestra cómo extraer contenido entre párrafos con estilos específicos usando el **ExtractContent** método:
+El siguiente ejemplo de código muestra cómo extraer contenido entre párrafos con estilos específicos utilizando el método **ExtractContent**:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-between-paragraph-styles.java" >}}
 
@@ -141,15 +141,15 @@ Puede descargar el archivo de muestra de este ejemplo desde [Aspose.Words GitHub
 
 {{% /alert %}}
 
-A continuación se presenta el resultado de la operación anterior.
+A continuación se muestra el resultado de la operación anterior.
 
 ![extract-content-between-paragraph-style-aspose-words-java](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-4.png)
 
-## Extract Content Between Specific Runs
+## Extraer Contenido Entre Ejecuciones Específicas
 
-Puede extraer contenido entre los nodos en línea como un **Run** también. **Runs** de diferentes párrafos se pueden pasar como marcadores. El siguiente código muestra cómo extraer texto específico entre el mismo **Paragraph** Nodo.
+También puede extraer contenido entre nodos en línea, como a **Run**. **Runs** de diferentes párrafos se pueden pasar como marcadores. El siguiente código muestra cómo extraer texto específico entre el mismo nodo **Paragraph**.
 
-El siguiente ejemplo de código muestra cómo extraer contenido entre líneas específicas del mismo párrafo utilizando el **ExtractContent** método:
+El siguiente ejemplo de código muestra cómo extraer contenido entre ejecuciones específicas del mismo párrafo utilizando el método **ExtractContent**:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-between-runs.java" >}}
 
@@ -159,17 +159,17 @@ Puede descargar el archivo de muestra de este ejemplo desde [Aspose.Words GitHub
 
 {{% /alert %}}
 
-El texto extraído se muestra en la consola
+El texto extraído se muestra en la consola.
 
 ![extract-content-between-runs-aspose-words-java](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-5.png)
 
-## Extracto Contenido usando un Campo
+## Extraer contenido mediante un Campo
 
-Para usar un campo como marcador, el `FieldStart` Nodo debe ser aprobado. El último parámetro al `ExtractContent` método definirá si el campo entero debe ser incluido o no. Extraigamos el contenido entre el campo de fusión "FullName" y un párrafo en el documento. Usamos el [moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField(java.lang.String)) método de [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) clase. Esto devolverá el **FieldStart** el nodo del nombre del campo de fusión pasó a él.
+Para usar un campo como marcador, se debe pasar el nodo `FieldStart`. El último parámetro del método `ExtractContent` definirá si se debe incluir o no todo el campo. Extraigamos el contenido entre el campo de combinación" FullName " y un párrafo del documento. Usamos el método [moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField(java.lang.String)) de la clase [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/). Esto devolverá el nodo **FieldStart** del nombre del campo de combinación que se le pasó.
 
-En nuestro caso vamos a establecer el último parámetro pasado al **ExtractContent** método a false para excluir el campo de la extracción. Presentaremos el contenido extraído a PDF.
+En nuestro caso, establezcamos el último parámetro pasado al método **ExtractContent** en falso para excluir el campo de la extracción. Renderizaremos el contenido extraído a PDF.
 
-El siguiente ejemplo de código muestra cómo extraer contenido entre un campo específico y un párrafo en el documento utilizando el **ExtractContent** método:
+El siguiente ejemplo de código muestra cómo extraer contenido entre un campo y un párrafo específicos en el documento utilizando el método **ExtractContent**:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-using-field.java" >}}
 
@@ -179,21 +179,21 @@ Puede descargar el archivo de muestra de este ejemplo desde [Aspose.Words GitHub
 
 {{% /alert %}}
 
-El contenido extraído entre el campo y el párrafo, sin el campo y los nodos marcadores del párrafo entregados a PDF.
+El contenido extraído entre el campo y el párrafo, sin los nodos marcadores de campo y párrafo representados en PDF.
 
 ![extract-content-using-field-aspose-words-java](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-6.png)
 
-## Extracto Contenido de un marcador
+## Extraer Contenido de un Marcador
 
-En un documento, el contenido que se define dentro de un marcador es encapsulado por el `BookmarkStart` y BookmarkEnd nodos. El contenido encontrado entre estos dos nodos compone el marcador. Usted puede pasar cualquiera de estos nodos como cualquier marcador, incluso de diferentes marcadores, siempre y cuando el marcador de inicio aparezca antes del marcador final del documento.
+En un documento, el contenido definido dentro de un marcador está encapsulado por los nodos `BookmarkStart` y BookmarkEnd. El contenido que se encuentra entre estos dos nodos forma el marcador. Puede pasar cualquiera de estos nodos como cualquier marcador, incluso los de marcadores diferentes, siempre que el marcador inicial aparezca antes del marcador final en el documento.
 
-En nuestro documento de muestra, tenemos un marcador, llamado "Bookmark1". El contenido de este marcador se destaca en nuestro documento:
+En nuestro documento de muestra, tenemos un marcador, llamado "Marcador1". El contenido de este marcador es contenido resaltado en nuestro documento:
 
 ![extract-content-from-bookmark-aspose-words-java-1](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-7.png)
 
-Extraeremos este contenido en un nuevo documento usando el código siguiente. El **IsInclusive** La opción del parámetro muestra cómo retener o descartar el marcador.
+Extraeremos este contenido en un nuevo documento usando el código a continuación. La opción de parámetro **IsInclusive** muestra cómo conservar o descartar el marcador.
 
-El siguiente ejemplo de código muestra cómo extraer el contenido referenciado a un marcador usando el **ExtractContent** método:
+El siguiente ejemplo de código muestra cómo extraer el contenido al que se hace referencia en un marcador mediante el método **ExtractContent**:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-between-bookmark.java" >}}
 
@@ -203,27 +203,27 @@ Puede descargar el archivo de muestra de este ejemplo desde [Aspose.Words GitHub
 
 {{% /alert %}}
 
-La salida extraída con el `IsInclusive` parámetro set to true. La copia también conservará el marcador.
+La salida extraída con el parámetro `IsInclusive` establecido en verdadero. La copia también conservará el marcador.
 
 ![extract-content-from-bookmark-aspose-words-java-2](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-8.png)
 
-La salida extraída con el **IsInclusive** parámetro set to false. La copia contiene el contenido pero sin el marcador.
+La salida extraída con el parámetro **IsInclusive** establecido en falso. La copia contiene el contenido pero sin el marcador.
 
 ![extract-content-from-bookmark-aspose-words-java-3](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-9.png)
 
-## Extraer contenido de un comentario
+## Extraer Contenido de un comentario
 
-Un comentario está compuesto por los nodos de comentarioRangeStart, CommentRangeEnd y Comment. Todos estos nodos son inline. Los dos primeros nodos encapsulan el contenido del documento que se hace referencia por el comentario, como se ve en la imagen siguiente.
+Un comentario está formado por los nodos CommentRangeStart, CommentRangeEnd y Comentario. Todos estos nodos están en línea. Los dos primeros nodos encapsulan el contenido en el documento al que hace referencia el comentario, como se ve en la captura de pantalla a continuación.
 
-El **Comment** nodo mismo es un [InlineStory](https://reference.aspose.com/words/java/com.aspose.words/inlinestory/) que puede contener párrafos y carreras. Representa el mensaje del comentario como se ve como una burbuja de comentarios en el panel de revisión. Como este nodo es inline y un descendiente de un cuerpo también puede extraer el contenido de dentro de este mensaje también.
+El nodo **Comment** en sí mismo es un [InlineStory](https://reference.aspose.com/words/java/com.aspose.words/inlinestory/) que puede contener párrafos y ejecuciones. Representa el mensaje del comentario visto como una burbuja de comentarios en el panel de revisión. Como este nodo está en línea y es descendiente de un cuerpo, también puede extraer el contenido de este mensaje.
 
-En nuestro documento tenemos un comentario. Vamos a mostrarlo mostrando marcado en la pestaña Revisión:
+En nuestro documento tenemos un comentario. Mostrémoslo mostrando el marcado en la pestaña Revisar:
 
 ![extract-content-from-comment-aspose-words-java-1](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-10.png)
 
-El comentario encapsula el epígrafe, primer párrafo y el cuadro en la segunda sección. Extraigamos este comentario en un nuevo documento. El **IsInclusive** la opción dicta si el comentario mismo se mantiene o descarta.
+El comentario encapsula el encabezado, el primer párrafo y la tabla en la segunda sección. Extraigamos este comentario en un nuevo documento. La opción **IsInclusive** determina si el comentario en sí se mantiene o se descarta.
 
-El siguiente ejemplo de código muestra cómo hacer esto es abajo:
+El siguiente ejemplo de código muestra cómo hacer esto a continuación:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-between-comment-range.java" >}}
 
@@ -233,72 +233,72 @@ Puede descargar el archivo de muestra de este ejemplo desde [Aspose.Words GitHub
 
 {{% /alert %}}
 
-Primero la salida extraída con el `IsInclusive` parámetro set to true. La copia también contiene el comentario.
+En primer lugar, la salida extraída con el parámetro `IsInclusive` establecido en verdadero. La copia también contendrá el comentario.
 
 ![extract-content-from-comment-aspose-words-java-2](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-11.png)
 
-Segundo, la salida extraída con **isInclusive** establecido false. La copia contiene el contenido pero sin el comentario.
+En segundo lugar, la salida extraída con **isInclusive** establecido en falso. La copia contiene el contenido pero sin el comentario.
 
 ![extract-content-from-comment-aspose-words-java-12](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-12.png)
 
-## Extracto Contenido utilizando DocumentVisitor
+## Extraer contenido usando DocumentVisitor
 
-Aspose.Words se puede utilizar no sólo para crear Microsoft Word documentos construyéndolos dinámicamente o fusionando plantillas con datos, pero también para analizar documentos con el fin de extraer elementos de documentos separados como encabezados, pies, párrafos, tablas, imágenes y otros. Otra tarea posible es encontrar todo el texto de formato o estilo específico.
+Aspose.Words se puede utilizar no solo para crear documentos Microsoft Word construyéndolos dinámicamente o fusionando plantillas con datos, sino también para analizar documentos con el fin de extraer elementos separados del documento, como encabezados, pies de página, párrafos, tablas, imágenes y otros. Otra tarea posible es encontrar todo el texto de formato o estilo específico.
 
-Usar el [DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/) clase para implementar este escenario de uso. Esta clase corresponde al famoso patrón de diseño de visitantes. Con [DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/), puede definir y ejecutar operaciones personalizadas que requieren enumeración sobre el árbol de documentos.
+Utilice la clase [DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/) para implementar este escenario de uso. Esta clase corresponde al conocido patrón de diseño de visitantes. Con [DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/), puede definir y ejecutar operaciones personalizadas que requieran enumeración en el árbol de documentos.
 
-[DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/) proporciona un conjunto de **VisitXXX** métodos que se invocan cuando se encuentra un elemento de documento particular (nodo). Por ejemplo, [VisitParagraphStart](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/#visitParagraphStart-com.aspose.words.Paragraph) se llama cuando se encuentra el comienzo de un párrafo de texto y [VisitParagraphEnd](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/#visitParagraphEnd-com.aspose.words.Paragraph) se llama cuando se encuentra el final de un párrafo de texto. Cada uno **DocumentVisitor.VisitXXX** método acepta el objeto correspondiente que encuentra para que pueda utilizarlo según sea necesario (por ejemplo, recuperar el formato), por ejemplo, ambos [VisitParagraphStart](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/#visitParagraphStart-com.aspose.words.Paragraph) y [VisitParagraphEnd](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/#visitParagraphEnd-com.aspose.words.Paragraph) aceptar un [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) objeto.
+[DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/) proporciona un conjunto de **VisitXXX** métodos que se invocan cuando se encuentra un elemento de documento (nodo) en particular. Por ejemplo, se llama a [VisitParagraphStart](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/#visitParagraphStart-com.aspose.words.Paragraph) cuando se encuentra el principio de un párrafo de texto y se llama a [VisitParagraphEnd](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/#visitParagraphEnd-com.aspose.words.Paragraph) cuando se encuentra el final de un párrafo de texto. Cada método **DocumentVisitor.VisitXXX** acepta el objeto correspondiente que encuentra para que pueda usarlo según sea necesario (digamos recuperar el formato), por ejemplo, tanto [VisitParagraphStart](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/#visitParagraphStart-com.aspose.words.Paragraph) como [VisitParagraphEnd](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/#visitParagraphEnd-com.aspose.words.Paragraph) aceptan un objeto [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/).
 
-Cada uno **DocumentVisitor.VisitXXX** método devuelve un **VisitorAction** valor que controla la enumeración de los nodos. Usted puede solicitar o continuar la enumeración, saltar el nodo actual (pero continuar la enumeración), o detener la enumeración de los nodos.
+Cada método **DocumentVisitor.VisitXXX** devuelve un valor **VisitorAction** que controla la enumeración de nodos. Puede solicitar continuar la enumeración, omitir el nodo actual (pero continuar con la enumeración) o detener la enumeración de nodos.
 
-Estos son los pasos que debe seguir para determinar y extraer programáticamente varias partes de un documento:
+Estos son los pasos que debe seguir para determinar y extraer mediante programación varias partes de un documento:
 
-- Crear una clase derivada de [DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/).
-- Anular y proporcionar implementaciones para algunas o todas las **DocumentVisitor.VisitXXX** métodos para realizar algunas operaciones personalizadas.
-- Llama [Node.accept](https://reference.aspose.com/words/java/com.aspose.words/node/#accept-com.aspose.words.DocumentVisitor) en el nodo desde donde desea comenzar la enumeración. Por ejemplo, si desea enumerar todo el documento, utilice [accept(DocumentVisitor)](https://reference.aspose.com/words/java/com.aspose.words/document/#accept-com.aspose.words.DocumentVisitor).
+- Crea una clase derivada de [DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/).
+- Anule y proporcione implementaciones para algunos o todos los métodos **DocumentVisitor.VisitXXX** para realizar algunas operaciones personalizadas.
+- Llame a [Node.accept](https://reference.aspose.com/words/java/com.aspose.words/node/#accept-com.aspose.words.DocumentVisitor) en el nodo desde donde desea iniciar la enumeración. Por ejemplo, si desea enumerar todo el documento, use [accept(DocumentVisitor)](https://reference.aspose.com/words/java/com.aspose.words/document/#accept-com.aspose.words.DocumentVisitor).
 
-[DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/) proporciona implementaciones predeterminadas para todos los **DocumentVisitor.VisitXXX** métodos. Esto hace que sea más fácil crear nuevos visitantes de documentos ya que sólo los métodos necesarios para el visitante en particular deben ser anulados. No es necesario anular todos los métodos de visita.
+[DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/) proporciona implementaciones predeterminadas para todos los **DocumentVisitor.VisitXXX** métodos. Esto facilita la creación de nuevos visitantes de documentos, ya que solo se deben anular los métodos necesarios para el visitante en particular. No es necesario anular todos los métodos de visitante.
 
-El siguiente ejemplo muestra cómo utilizar el patrón del visitante para agregar nuevas operaciones a la Aspose.Words modelo de objeto. En este caso, creamos un simple convertidor de documento en un formato de texto:
+El siguiente ejemplo muestra cómo usar el patrón de visitante para agregar nuevas operaciones al modelo de objetos Aspose.Words. En este caso, creamos un convertidor de documentos simple a un formato de texto:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-using-document-visitor.java" >}}
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "convert-doc-to-txt.java" >}}
 
-## Texto Extracto Sólo
+## Extraer Solo Texto
 
-Las formas de recuperar el texto del documento son:
+Las formas de recuperar texto del documento son:
 
-- Uso [Document.save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.io.OutputStream-com.aspose.words.SaveOptions) con [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) para guardar como texto plano en un archivo o flujo
-- Uso [Node.toString](https://reference.aspose.com/words/java/com.aspose.words/node/#toString-com.aspose.words.SaveOptions) y pasar el `SaveFormat.Text` Parámetro. Internamente, esto invoca guardar como texto en un flujo de memoria y devuelve la cadena resultante
-- Uso [Node.getText](https://reference.aspose.com/words/java/com.aspose.words/node/#getText) para recuperar texto con todos Microsoft Word caracteres de control incluyendo códigos de campo
-- Implementar una costumbre [DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/) para realizar extracción personalizada
+- Use [Document.save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.io.OutputStream-com.aspose.words.SaveOptions) con [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) para guardar como texto sin formato en un archivo o secuencia
+- Use [Node.toString](https://reference.aspose.com/words/java/com.aspose.words/node/#toString-com.aspose.words.SaveOptions) y pase el parámetro `SaveFormat.Text`. Internamente, esto invoca guardar como texto en una secuencia de memoria y devuelve la cadena resultante
+- Utilice [Node.getText](https://reference.aspose.com/words/java/com.aspose.words/node/#getText) para recuperar texto con todos los caracteres de control Microsoft Word, incluidos los códigos de campo
+- Implemente un [DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/) personalizado para realizar una extracción personalizada
 
-### Uso `Node.GetText` y `Node.ToString`
+### Usando `Node.GetText` y `Node.ToString`
 
-A El documento de Word puede contener caracteres de control que designan elementos especiales como el campo, el final de la célula, el final de la sección, etc. La lista completa de posibles caracteres de control de Word se define en la **ControlChar** clase. El [GetText](https://reference.aspose.com/words/java/com.aspose.words/node/#getText) método devuelve texto con todos los caracteres de control presentes en el nodo.
+Un documento de Word puede contener caracteres de control que designen elementos especiales como campo, final de celda, final de sección, etc. La lista completa de posibles caracteres de control de palabras se define en la clase **ControlChar**. El método [GetText](https://reference.aspose.com/words/java/com.aspose.words/node/#getText) devuelve texto con todos los caracteres de carácter de control presentes en el nodo.
 
-Llamar a ToString devuelve la representación de texto simple del documento sólo sin caracteres de control. Para más información sobre la exportación como texto llano **Using SaveFormat.Text**.
+Llamar a ToString devuelve la representación de texto sin formato del documento solo sin caracteres de control. Para obtener más información sobre cómo exportar como texto sin formato, consulte **Using SaveFormat.Text**.
 
-El siguiente ejemplo de código muestra la diferencia entre llamar al **GetText** y [ToString](https://reference.aspose.com/words/java/com.aspose.words/node/#toString) métodos en un nodo:
+El siguiente ejemplo de código muestra la diferencia entre llamar a los métodos **GetText** y [ToString](https://reference.aspose.com/words/java/com.aspose.words/node/#toString) en un nodo:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "simple-extract-text.java" >}}
 
-### Uso `SaveFormat.Text`
+### Usando `SaveFormat.Text`
 
-Este ejemplo guarda el documento como sigue:
+Este ejemplo guarda el documento de la siguiente manera:
 
-- Filtrar caracteres de campo y códigos de campo, forma, nota de pie de página, nota final y referencias de comentarios
-- Sustituye el fin del párrafo [ControlChar.Cr](https://reference.aspose.com/words/java/com.aspose.words/controlchar/) personajes [ControlChar.CrLf](https://reference.aspose.com/words/java/com.aspose.words/controlchar/) combinaciones
-- Usa la codificación UTF8
+- Filtra los caracteres de campo y los códigos de campo, la forma, la nota al pie, la nota al final y las referencias de comentarios
+- Reemplaza los caracteres [ControlChar.Cr](https://reference.aspose.com/words/java/com.aspose.words/controlchar/) del final del párrafo con [ControlChar.CrLf](https://reference.aspose.com/words/java/com.aspose.words/controlchar/) combinaciones
+- Utiliza codificación UTF8
 
 El siguiente ejemplo de código muestra cómo guardar un documento en formato TXT:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "docx-to-txt.java" >}}
 
-## Extract Images from Shapes
+## Extraer Imágenes de Formas
 
-Es posible que necesite extraer imágenes de documentos para realizar algunas tareas. Aspose.Words te permite hacer esto también.
+Es posible que deba extraer imágenes de documentos para realizar algunas tareas. Aspose.Words también te permite hacer esto.
 
 El siguiente ejemplo de código muestra cómo extraer imágenes de un documento:
 

@@ -83,7 +83,7 @@ timestamp: 2024-01-27-14-07-04
 ## Aspose.WordsのAndroidviaJava追加要件
 
 従量制ライセンス機能を使用し、http/ftpプロトコルによるドキュメントや画像をロードするには、ユーザーはアプリケーションに次の権限を追加する必要が
-*&lt;uses-permission android:name="android.permission.INTERNET" /&gt;*
+`<uses-permission android:name="android.permission.INTERNET" />`
 
 ## パブリックAPIの例
 

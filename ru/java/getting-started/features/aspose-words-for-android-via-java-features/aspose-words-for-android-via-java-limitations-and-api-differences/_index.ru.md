@@ -83,7 +83,7 @@ timestamp: 2024-01-27-14-07-04
 ## Aspose.Words для Android через Java дополнительные требования
 
 Чтобы использовать функцию дозированного лицензирования и загружать документы или изображения по протоколам http/ftp, пользователи должны добавить в свои приложения следующие разрешения
-*&lt;uses-permission android:name="android.permission.INTERNET" /&gt;*
+`<uses-permission android:name="android.permission.INTERNET" />`
 
 ## Общедоступные API Примеры
 

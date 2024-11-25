@@ -1,65 +1,65 @@
----
-title: Especifique las opciones de diseño en Java
-second_title: Aspose.Words para Java
-articleTitle: Especifique las opciones de diseño
-linktitle: Especifique las opciones de diseño
-description: "Crear documentos de salida con diferentes diseños, dependiendo de los parámetros especificados en el Documento utilizando Java."
+﻿---
+title: Especificar opciones de diseño en Java
+second_title: Aspose.Words por Java
+articleTitle: Especificar Opciones de Diseño
+linktitle: Especificar Opciones de Diseño
+description: "Cree documentos de salida con varios diseños, según los parámetros especificados en el documento utilizando Java."
 type: docs
 weight: 10
 url: /es/java/specify-layout-options/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words le permite crear documentos de salida con varios diseños, dependiendo de los parámetros especificados en los [LayoutOptions](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/) propiedad de la **Document**. Esta propiedad se parece a algunos de los Microsoft Word Opciones de menú de interfaz de usuario descritas en este artículo.
+Aspose.Words le permite crear documentos de salida con varios diseños, según los parámetros especificados en la propiedad [LayoutOptions](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/) de **Document**. Esta propiedad se asemeja a algunas de las opciones de menú de la interfaz de usuario Microsoft Word descritas en este artículo.
 
-Para una lista completa de parámetros como [ContinuousSectionPageNumberingRestart](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/#getContinuousSectionPageNumberingRestart) para calcular los números de página en una sección continua que reinicia la numeración de página, o [IgnorePrinterMetrics](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/#getIgnorePrinterMetrics) para ignorar la opción de compatibilidad "Use métricas de impresora para establecer documento", ver la [LayoutOptions](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/) página de clase.
+Para obtener una lista completa de parámetros, como [ContinuousSectionPageNumberingRestart](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/#getContinuousSectionPageNumberingRestart) para calcular los números de página en una sección continua que reinicia la numeración de páginas, o [IgnorePrinterMetrics](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/#getIgnorePrinterMetrics) para ignorar la opción de compatibilidad "Usar métricas de impresora para diseñar documentos", consulte la página de la clase [LayoutOptions](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/).
 
-## Marcos de formato
+## Marcas de Formato
 
-Aspose.Words permite gestionar las marcas de formato utilizando las siguientes propiedades:
+Aspose.Words permite administrar las marcas de formato utilizando las siguientes propiedades:
 
-- [ShowHiddenText](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/#getShowHiddenText) – a `Boolean` valor, que especifica si el texto oculto se hace.
-- [ShowParagraphMarks](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/#getShowParagraphMarks) – a `Boolean` valor, que especifica si los caracteres del párrafo marca se emiten.
+- [ShowHiddenText](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/#getShowHiddenText) - un valor `Boolean`, que especifica si se representa el texto oculto.
+- [ShowParagraphMarks](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/#getShowParagraphMarks): un valor `Boolean`, que especifica si se representan los caracteres de marca de párrafo.
 
-La página que figura en el ejemplo que figura a continuación contiene tres párrafos. El segundo está escondido. Un usuario puede cambiar el **ShowHiddenText** opción para mostrar este texto oculto en la página. Además, cada párrafo tiene una marca de párrafo al final. La marca del párrafo generalmente no es visible a menos que **ShowParagraphMarks** la propiedad está lista para rendirla.
+La página representada en el siguiente ejemplo contiene tres párrafos. El segundo está oculto. Un usuario puede cambiar la opción **ShowHiddenText** para mostrar este texto oculto en la página. Además, cada párrafo tiene una marca de párrafo al final. La marca de párrafo generalmente no es visible a menos que la propiedad **ShowParagraphMarks** esté configurada para representarla.
 
 ![formatting_marks_example_aspose_words_java](/words/java/specify-layout-options/specify-layout-options-1.png)
 
-In Microsoft Word, estos parámetros se establecen utilizando el cuadro de diálogo "File → Opciones → Mostrar" como sigue:
+En Microsoft Word, estos parámetros se establecen utilizando el cuadro de diálogo" Archivo → Opciones → Mostrar " de la siguiente manera:
 
 ![formatting_marks_ms_word_aspose_words_java](/words/java/specify-layout-options/specify-layout-options-3.png)
 
-## Comentarios y revisiones
+## Comentarios y Revisiones
 
-Con Aspose.Words, puede hacer comentarios de documentos que se verán iguales Microsoft Word. Para especificar si se formulan comentarios, utilice el [ShowComments](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/) propiedad.
+Con Aspose.Words, puede representar comentarios de documentos que tendrán el mismo aspecto que en Microsoft Word. Para especificar si se representan los comentarios, utilice la propiedad [ShowComments](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/).
 
-In Microsoft Word, este parámetro se establece utilizando el cuadro de diálogo "Opciones de Cambios de Comercio" como se muestra a continuación:
+En Microsoft Word, este parámetro se establece mediante el cuadro de diálogo "Opciones de seguimiento de cambios", como se muestra a continuación:
 
 ![comments_and_revisions_ms_word_aspose_words_java](/words/java/specify-layout-options/specify-layout-options-4.png)
 
-También, Aspose.Words le permite mostrar revisiones en un documento. Usar el [RevisionOptions](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/#getRevisionOptions) propiedad de la **LayoutOptions** clase para definir si se muestran las revisiones del documento. Para controlar su apariencia (revisión resaltando color, revisión barra color, etc). [RevisonOptions](https://reference.aspose.com/words/java/com.aspose.words/revisionoptions/) clase.
+Además, Aspose.Words le permite mostrar revisiones en un documento. Utilice la propiedad [RevisionOptions](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/#getRevisionOptions) de la clase **LayoutOptions** para definir si se muestran las revisiones del documento. Para controlar su apariencia (color de resaltado de revisión, color de la barra de revisión, etc.), use la clase [RevisonOptions](https://reference.aspose.com/words/java/com.aspose.words/revisionoptions/).
 
-También puede tener revisiones mostradas como comentarios al contenido. Para ello, utilice el [CommentDisplayMode](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/#getCommentDisplayMode) propiedad y [ShowInBalloons](https://reference.aspose.com/words/java/com.aspose.words/commentdisplaymode/) valor.
+También puede hacer que las revisiones se muestren como comentarios al contenido. Para este propósito, use la propiedad [CommentDisplayMode](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/#getCommentDisplayMode) y el valor [ShowInBalloons](https://reference.aspose.com/words/java/com.aspose.words/commentdisplaymode/).
 
-El siguiente ejemplo de código muestra cómo personalizar la pantalla de revisiones:
+El siguiente ejemplo de código muestra cómo personalizar la visualización de revisiones:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-TrackChanges-SetShowInBalloons.java" >}}
 
-La imagen siguiente muestra cómo Aspose.Words formula observaciones y borra las revisiones:
+La siguiente imagen muestra cómo Aspose.Words representa los comentarios y las revisiones de eliminación:
 
 <img src="/words/java/specify-layout-options/specify-layout-options-2.png" alt="comments_and_revisions_example_aspose_words_java" style="width:800px"/>
 
-## Text Shaper for Advanced Typography Rendering
+## Modelador de Texto para Renderizado Tipográfico Avanzado
 
-El [TextShaperFactory](https://reference.aspose.com/words/java/com.aspose.words/itextshaperfactory/) propiedad le permite configurar la funcionalidad de configuración de texto, así como la `OpenType` características de soporte.
+La propiedad [TextShaperFactory](https://reference.aspose.com/words/java/com.aspose.words/itextshaperfactory/) le permite establecer la funcionalidad de modelado de texto, así como la compatibilidad con las funciones `OpenType`.
 
-Use la configuración de texto para el procesamiento de documentos en los siguientes casos principales:
+Utilice el modelado de texto para el procesamiento de documentos en los siguientes casos principales:
 
-- Un documento utiliza Kerning, Numeral Shaping, Numeral Forms o Ligatures.
-- Un documento utiliza Scripts Complejos, como árabe, jemer, tailandés, etc.
+- Un documento utiliza Interletraje, Forma Numérica, Formas Numéricas o Ligaduras.
+- Un documento utiliza Escrituras Complejas, como árabe, Jemer, tailandés,etc.
 
 {{% alert color="primary" %}}
 
-La configuración de texto sólo se habilitará al exportar un documento a PDF o XPS.
+El modelado de texto se habilitará solo al exportar un documento a PDF o XPS.
 
 {{% /alert %}}
