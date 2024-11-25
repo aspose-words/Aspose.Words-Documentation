@@ -1,24 +1,24 @@
----
+﻿---
 title: Установка
 second_title: Aspose.Words для Java
 articleTitle: Установка
 linktitle: Установка
-description: "Устанавливать Aspose.Words для Java из Maven хранилище. Определить Aspose.Words для Java Зависимость от pom.xml"
+description: "Установите Aspose.Words для Java из репозитория Maven. Определите зависимость Aspose.Words для Java в вашем pom.xml"
 type: docs
 weight: 10
 url: /ru/java/installation/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Убедитесь, что ваша машина соответствует [Системные требования](/words/ru/java/system-requirements/) Прежде чем начать.
+Перед началом работы убедитесь, что ваш компьютер соответствует требованиям к системе [системные требования](/words/java/system-requirements/).
 
-В этой статье объясняется, как установить Aspose.Words для Java на вашем компьютере.
+В этой статье объясняется, как установить Aspose.Words для Java на ваш компьютер.
 
-## Устанавливать Aspose.Words для Java из Maven Репозиторий {#install-aspose-words-for-java-from-maven-repository}
+## Установить Aspose.Words для Java из Maven репозитория {#install-aspose-words-for-java-from-maven-repository}
 
-Взять хостов всех Java APIв [Maven хранилище](https://releases.aspose.com/words/java/). Вы можете легко использовать Aspose.Words для Java API непосредственно в вашей Maven Проекты с простыми конфигурациями:
+Aspose размещает все Java APIs в [Maven репозитории](https://releases.aspose.com/words/java/). Вы можете легко использовать Aspose.Words для Java API непосредственно в своих Maven проектах с помощью простых конфигураций:
 
-1. Во-первых, вам нужно указать назначение Maven Конфигурация/местоположение хранилища в вашем Maven pom.xml, как показано ниже:
+1. Во-первых, вам нужно указать конфигурацию/местоположение хранилища Aspose Maven в вашем Maven pom.xml, как показано ниже:
 	{{< highlight html >}}
 	<repositories>
 		<repository>
@@ -28,7 +28,7 @@ timestamp: 2024-01-27-14-07-04
 		</repository>
 	</repositories>
 	{{< /highlight >}}
-2. Затем определите Aspose.Words для Java API Зависимость от pom.xml:
+2. Затем определите зависимость Aspose.Words для Java API в вашем pom.xml следующим образом:
 	{{< highlight html >}}
 	<dependencies>
 		<dependency>
@@ -45,7 +45,7 @@ timestamp: 2024-01-27-14-07-04
 		</dependency>
 	</dependencies>
 	{{< /highlight >}}
-3. Поздравляю! Вы успешно определили Aspose.Words для Java Зависимость от вашего Maven Проект.
+3. Поздравляю! Вы успешно определили зависимость Aspose.Words для Java в вашем проекте Maven.
 
 ## Смотрите также
 

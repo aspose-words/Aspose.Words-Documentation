@@ -1,77 +1,77 @@
----
+﻿---
 title: Работа с полями формы в Java
 second_title: Aspose.Words для Java
-articleTitle: Работа с полями форм
-linktitle: Работа с полями форм
-description: "Понимание особенностей полей форм, работа с полями форм с использованием Java."
+articleTitle: Работа с полями формы
+linktitle: Работа с полями формы
+description: "Понимание особенностей полей формы, работа с полями формы с помощью Java."
 type: docs
 weight: 380
 url: /ru/java/working-with-form-fields/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Документ, содержащий заполненные бланки (поля), называется формой. Например, можно создать регистрационную форму в Microsoft Word использует выпадающие списки, из которых пользователи могут выбирать записи. The `Form` Поле - это место, где хранится определенный тип данных, таких как имя или адрес. Форма поля в Microsoft Word Включает в себя текстовый ввод, комбокс и чекбокс.
+Документ, содержащий заполняемые поля, называется формой. Например, в Microsoft Word можно создать регистрационную форму, в которой используются раскрывающиеся списки, из которых пользователи могут выбирать записи. Поле `Form` - это место, где хранятся данные определенного типа, такие как имя или адрес. Поля формы в Microsoft Word включают ввод текста, combobox и checkbox.
 
-Вы можете использовать поля формы в вашем проекте, чтобы "общаться" с вашими пользователями. Например, вы создаете документ, содержание которого защищено, но редактируются только поля форм. Пользователи могут ввести данные в поля формы и представить документ. Ваше приложение, которое использует Aspose.Words Он может извлекать данные из полей форм и обрабатывать их.
+Вы можете использовать поля формы в своем проекте для "общения" с пользователями. Например, вы создаете документ, содержимое которого защищено, но доступны для редактирования только поля формы. Пользователи могут вводить данные в поля формы и отправлять документ. Ваше приложение, использующее Aspose.Words, может извлекать данные из полей формы и обрабатывать их.
 
-Размещение полей формы в документе с помощью кода легко. [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) Имеет специальные способы их вставки, по одному для каждого типа поля формы. Каждый из методов принимает параметр строки, представляющий имя поля формы. Название может быть пустой строкой. Если, однако, вы указываете имя поля формы, закладка автоматически создается с тем же именем.
+Поместить поля формы в документ с помощью кода несложно. [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) для их вставки есть специальные методы, по одному для каждого типа поля формы. Каждый из методов принимает строковый параметр, представляющий имя поля формы. Имя может быть пустой строкой. Однако, если вы укажете имя для поля формы, то автоматически будет создана закладка с таким же именем.
 
-## Вставить поля формы
+## Вставка полей формы
 
-Поля форм представляют собой особый случай полей Word, который позволяет "взаимодействовать" с пользователем. Форма поля в Microsoft Word К ним относятся текстовый ящик, комбо-бокс и чекбокс.
+Поля формы являются частным случаем полей Word, которые позволяют "взаимодействовать" с пользователем. Поля формы в Microsoft Word включают текстовое поле, поле со списком и checkbox.
 
-**DocumentBuilder** Предоставляет специальные методы включения каждого вида поля формы в документ: [insertTextInput](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCheckBox-java.lang.String-boolean-boolean-int), [insertCheckBox](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCheckBox-java.lang.String-boolean-boolean-int) или [insertComboBox](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCheckBox-java.lang.String-boolean-int).
+**DocumentBuilder**
 
-Следующий пример кода показывает, как вставить поле формы комбобокса в документ:
+В следующем примере кода показано, как вставить поле формы combobox в документ:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertFormFields-InsertFormFields.java" >}}
 
-### Вставить текстовый вход
+### Вставьте текстовый ввод
 
-Используйте **вставить Текстовый вход** Способ вставки текстового ящика в документ.
+Используйте метод **insertTextInput**, чтобы вставить текстовое поле в документ.
 
-Следующий пример кода показывает, как вставить поле формы ввода текста в документ:
+В следующем примере кода показано, как вставить поле формы ввода текста в документ:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertTextInputFormField-DocumentBuilderInsertTextInputFormField.java" >}}
 
-### Вставьте галочку
+### Установите флажок
 
-Звони. **Вставить Checkbox** Вставить чекбокс в документ.
+Вызовите **insertCheckBox**, чтобы вставить checkbox в документ.
 
-Следующий пример кода показывает, как вставить поле формы флажка в документ:
+В следующем примере кода показано, как вставить поле формы checkbox в документ:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertCheckBoxFormField-DocumentBuilderInsertCheckBoxFormField.java" >}}
 
-### Вставить коробку Combo
+### Вставьте поле со списком
 
-Звони. **вставитьComboBox** Вставить в документ комбобокс.
+Вызовите **insertComboBox**, чтобы вставить combobox в документ.
 
-Следующий пример кода показывает, как вставить поле формы Combobox в документ:
+В следующем примере кода показано, как вставить поле формы Combobox в документ:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertComboBoxFormField-DocumentBuilderInsertComboBoxFormField.java" >}}
 
-## Получить поля формы
+## Получение полей формы
 
-Коллекция полей форм представлена [FormFieldCollection](https://reference.aspose.com/words/java/com.aspose.words/formfieldcollection/) класс, который можно восстановить с помощью [Range.getFormFields](https://reference.aspose.com/words/java/com.aspose.words/range/#getFormFields) собственность. Это означает, что вы можете получить поля формы, содержащиеся в любом узле документа, включая сам документ.
+Набор полей формы представлен классом [FormFieldCollection](https://reference.aspose.com/words/java/com.aspose.words/formfieldcollection/), который можно получить с помощью свойства [Range.getFormFields](https://reference.aspose.com/words/java/com.aspose.words/range/#getFormFields). Это означает, что вы можете получить поля формы, содержащиеся в любом узле документа, включая сам документ.
 
-Следующий пример кода показывает, как получить набор полей формы:
+В следующем примере кода показано, как получить набор полей формы:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FormFieldsGetFormFieldsCollection-FormFieldsGetFormFieldsCollection.java" >}}
 
 {{% alert color="primary" %}}
 
-Вы можете скачать образец файла следующих примеров из [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Form%20fields.docx).
+Вы можете скачать примерный файл со следующими примерами по адресу [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Form%20fields.docx).
 
 {{% /alert %}}
 
-Вы можете получить определенное поле формы по его индексу или названию.
+Вы можете найти конкретное поле формы по его индексу или названию.
 
-Следующий пример кода показывает, как получить доступ к полям форм:
+В следующем примере кода показано, как получить доступ к полям формы:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FormFieldsGetByName-FormFieldsGetByName.java" >}}
 
-The **FormField** Свойства позволяют работать с именем поля формы, типом и результатом.
+Свойства **FormField** позволяют вам работать с именем, типом и результатом поля формы.
 
-Следующий пример кода показывает, как работать с именем поля формы, типом и результатом:
+В следующем примере кода показано, как работать с именем, типом и результатом поля формы:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FormFieldsWorkWithProperties-FormFieldsWorkWithProperties.java" >}}

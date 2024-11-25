@@ -1,4 +1,4 @@
----
+﻿---
 title: Android через Java Поддерживаемые платформы
 second_title: Aspose.Words для Java
 articleTitle: Aspose.Words для Android через Java Поддерживаемые платформы
@@ -10,10 +10,10 @@ url: /ru/java/aspose-words-for-android-via-java-supported-platforms/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words для Android через Java полностью написана в Javaзависит только от стандарта Java библиотек и может быть использован в любой Java приложения на любой платформе, поддерживаемой Java. Aspose.Words для Android через Java предоставляется в виде загрузки ZIP и содержит следующее:
+Aspose.Words для Android через Java полностью написано на Java, зависит только от стандартных библиотек Java и может использоваться в любом приложении Java на любой платформе, поддерживаемой Java. Aspose.Words для Android через Java предоставляется в виде ZIP загрузки и содержит следующее:
 
-- Aspose.Words для Android через Java Библиотека банки.
-- Примерные проекты.
+- Aspose.Words для Android через Java jar-библиотеку.
+- Примеры проектов.
 - Aspose.Words Документация в формате HTML.
 
 

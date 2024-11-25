@@ -1,57 +1,57 @@
----
-title: Работа с VBA Macros в Java
+﻿---
+title: Работа с макросами VBA в Java
 second_title: Aspose.Words для Java
-articleTitle: Работа с VBA Macros
-linktitle: Работа с VBA Macros
-description: "Работа с документами проектов VBA с использованием Java."
+articleTitle: Работа с макросами VBA
+linktitle: Работа с макросами VBA
+description: "Работа с проектами документа VBA с использованием Java."
 type: docs
 weight: 410
 url: /ru/java/working-with-vba-macros/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Visual Basic Приложения (VBA) для Microsoft Word Это простой, но мощный язык программирования, который можно использовать для расширения функциональности. Aspose.Words API Предоставляет три класса для доступа к исходному коду проекта VBA:
+Visual Basic для приложений (VBA) для Microsoft Word - это простой, но мощный язык программирования, который можно использовать для расширения функциональности. Aspose.Words API предоставляет три класса для получения доступа к исходному коду проекта VBA:
 
-- [VBAProject](https://reference.aspose.com/words/java/com.aspose.words/vbaproject/) Класс обеспечивает доступ к информации проекта VBA
-- [VBAModulesCollection](https://reference.aspose.com/words/java/com.aspose.words/vbamodulecollection/) Класс возвращает коллекцию модулей проекта VBA
-- [VbaModule](https://reference.aspose.com/words/java/com.aspose.words/vbamodule/) Класс обеспечивает доступ к модулю проекта VBA
+- Класс [VBAProject](https://reference.aspose.com/words/java/com.aspose.words/vbaproject/) предоставляет доступ к информации о проекте VBA
+- Класс [VBAModulesCollection](https://reference.aspose.com/words/java/com.aspose.words/vbamodulecollection/) возвращает коллекцию модулей проекта VBA
+- Класс [VbaModule](https://reference.aspose.com/words/java/com.aspose.words/vbamodule/) предоставляет доступ к модулю проекта VBA
 
-## Создание проекта VBA
+## Создайте проект VBA
 
-Aspose.Words API обеспечивает [VbaProject](https://reference.aspose.com/words/java/com.aspose.words/document/#getVbaProject) Недвижимость для получения или установки VbaProject в документе.
+Aspose.Words API предоставляет свойство [VbaProject](https://reference.aspose.com/words/java/com.aspose.words/document/#getVbaProject) для получения или установки VbaProject в документе.
 
-Следующий пример кода показывает, как создать VBA-проект и VBA-модуль вместе с основными свойствами. Название и тип:
+В следующем примере кода показано, как создать проект VBA и модуль VBA вместе с основными свойствами, например, именем и типом:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithVbaMacros-CreateVbaProject.java" >}}
 
-## Читать Макрос
+## Чтение макросов
 
-Aspose.Words Также предоставляет пользователям возможность чтения макросов VBA.
+Aspose.Words также предоставляет пользователям возможность читать VBA макросы.
 
-Следующий пример кода показывает, как читать VBA Macros из документа:
+В следующем примере кода показано, как считывать макросы VBA из документа:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithVbaMacros-ReadVbaMacros.java" >}}
 
-## Модифицировать Macros
+## Изменять макросы
 
-Использовать Aspose.Words, Пользователи могут изменять макросы VBA.
+Используя Aspose.Words, пользователи могут изменять макросы VBA.
 
-Следующий пример кода показывает, как модифицировать VBA Macros. [SourceCode](https://reference.aspose.com/words/java/com.aspose.words/vbamodule/#getSourceCode) имущество:
+В следующем примере кода показано, как изменить макросы VBA, используя свойство [SourceCode](https://reference.aspose.com/words/java/com.aspose.words/vbamodule/#getSourceCode):
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithVbaMacros-ModifyVbaMacros.java" >}}
 
-## Клон VBA Проект
+## Клонировать проект VBA
 
-С Aspose.Words Также возможно клонирование проектов VBA.
+С помощью Aspose.Words также можно клонировать проекты VBA.
 
-Следующий пример кода показывает, как клонировать проект VBA с помощью [Clone](https://reference.aspose.com/words/java/com.aspose.words/vbaproject/#deepClone) Имущество, создающее копию существующего проекта:
+В следующем примере кода показано, как клонировать проект VBA, используя свойство [Clone](https://reference.aspose.com/words/java/com.aspose.words/vbaproject/#deepClone), которое создает копию существующего проекта:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithVbaMacros-CloneVbaProject.java" >}}
 
-## Клон VBA модуль
+## Клонировать модуль VBA
 
-При необходимости можно клонировать модули VBA.
+При необходимости вы также можете клонировать модули VBA.
 
-Следующий пример кода показывает, как клонировать модуль VBA с помощью [Clone](https://reference.aspose.com/words/java/com.aspose.words/vbaproject/#deepClone) Имущество, создающее копию существующего проекта
+В следующем примере кода показано, как клонировать модуль VBA, используя свойство [Clone](https://reference.aspose.com/words/java/com.aspose.words/vbaproject/#deepClone), которое создает копию существующего проекта.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithVbaMacros-CloneVbaModule.java" >}}

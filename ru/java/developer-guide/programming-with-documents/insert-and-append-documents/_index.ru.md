@@ -1,125 +1,125 @@
----
-title: Включить и добавить документы в Java
+﻿---
+title: Вставлять и добавлять документы в Java
 second_title: Aspose.Words для Java
-articleTitle: Включить и добавить документы
-linktitle: Включить и добавить документы
-description: "Объедините документы в один: вставьте или добавьте документ в новый или существующий, используя поиск и замену, объединение поля, закладки или просто в конце документа. Java."
+articleTitle: Вставка и добавление документов
+linktitle: Вставка и добавление документов
+description: "Объединяйте документы в один: вставляйте или добавляйте документ в новый или существующий с помощью функции поиска и замены, поля объединения, закладки или просто в конце документа с помощью Java."
 type: docs
 weight: 80
 url: /ru/java/insert-and-append-documents/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Иногда требуется объединить несколько документов в один. Вы можете сделать это вручную или использовать Aspose.Words Вставить или добавить функцию.
+Иногда требуется объединить несколько документов в один. Вы можете сделать это вручную или воспользоваться функцией вставки или добавления Aspose.Words.
 
-Операция вставки позволяет вставить содержимое ранее созданных документов в новый или существующий.
+Операция вставки позволяет вставлять содержимое ранее созданных документов в новый или существующий.
 
-В свою очередь, функция приложения позволяет добавлять документ только в конце другого документа.
+В свою очередь, функция добавления позволяет добавлять документ только в конце другого документа.
 
-Эта статья объясняет, как вставить или добавить документ к другому по-разному и описывает общие свойства, которые вы можете применить при вставке или добавлении документов.
+В этой статье объясняется, как вставлять или присоединять один документ к другому различными способами, а также описываются общие свойства, которые можно применять при вставке или добавлении документов.
 
-## Включить документ
+## Вставка документа
 
-Как упоминалось выше, в Aspose.Words документ представлен как дерево узлов, а операция вставки одного документа в другой заключается в копировании узлов от первого дерева документов ко второму.
+Как упоминалось выше, в Aspose.Words документ представлен в виде дерева узлов, и операция вставки одного документа в другой заключается в копировании узлов из первого дерева документов во второе.
 
-Вы можете вставлять документы в различных местах по-разному. Например, вы можете вставить документ через операцию замены, поле слияния во время операции слияния или через закладку.
+Вы можете вставлять документы в различные места различными способами. Например, вы можете вставить документ с помощью операции замены, поля объединения во время операции объединения или с помощью закладки.
 
-Вы также можете использовать [InsertDocument](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocument-com.aspose.words.Document-int) или [InsertDocumentInline](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocumentInline-com.aspose.words.Document-int-com.aspose.words.ImportFormatOptions) метод, аналогичный вставке документа в Microsoft Word, Вставить весь документ в текущую позицию курсора без предварительного импорта.
+Вы также можете использовать метод [InsertDocument](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocument-com.aspose.words.Document-int) или [InsertDocumentInline](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocumentInline-com.aspose.words.Document-int-com.aspose.words.ImportFormatOptions), который аналогичен вставке документа в Microsoft Word, чтобы вставить весь документ в текущее положение курсора без предварительного импорта.
 
-Следующий пример кода показывает, как вставить документ, используя **InsertDocument** метод:
+В следующем примере кода показано, как вставить документ с помощью метода **InsertDocument**:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-with-builder.java" >}}
 
-Следующий пример кода показывает, как вставить документ, используя **InsertDocumentInline** метод:
+В следующем примере кода показано, как вставить документ с помощью метода **InsertDocumentInline**:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-inline-with-builder.java" >}}
 
-Следующие подразделы описывают варианты, в течение которых вы можете вставить один документ в другой.
+В следующих подразделах описаны параметры, с помощью которых вы можете вставлять один документ в другой.
 
-### Вставьте документ во время поиска и замены операции {#insert-a-document-during-find-and-replace-operation}
+### Вставьте документ во время операции поиска и замены {#insert-a-document-during-find-and-replace-operation}
 
-Вы можете вставлять документы при выполнении операций поиска и замены. Например, документ может содержать пункты с текстом [Введение] и [Заключение]. Но в итоговом документе нужно заменить эти абзацы содержанием, полученным из другого внешнего документа. Для этого вам нужно будет создать обработчик для замены события.
+Вы можете вставлять документы во время выполнения операций поиска и замены. Например, документ может содержать абзацы с текстом [INTRODUCTION] и [CONCLUSION]. Но в конечном документе вам необходимо заменить эти абзацы содержимым, полученным из другого внешнего документа. Чтобы добиться этого, вам нужно будет создать обработчик для события replace.
 
-Следующий пример кода показывает, как создать обработчик для замены события, чтобы использовать его позже в процессе вставки:
+В следующем примере кода показано, как создать обработчик для события замены, чтобы использовать его позже в процессе вставки:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-at-replace-handler.java" >}}
 
-Следующий пример кода показывает, как вставить содержимое одного документа в другой во время операции поиска и замены:
+В следующем примере кода показано, как вставить содержимое одного документа в другой во время операции поиска и замены:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-at-replace.java" >}}
 
-### Вставить документ во время Mail Merge Операция {#insert-a-document-during-mail-merge-operation}
+### Вставка документа во время операции Mail Merge {#insert-a-document-during-mail-merge-operation}
 
-Вы можете вставить документ в поле слияния во время Mail Merge Операция. Например, a Mail Merge Шаблон может содержать поле слияния, такое как [Summary]. Но в итоговый документ нужно вставить в это поле слияния контент, полученный из другого внешнего документа. Чтобы достичь этого, вам нужно будет создать обработчик для события слияния.
+Вы можете вставить документ в поле для объединения во время операции Mail Merge. Например, шаблон Mail Merge может содержать поле для объединения, такое как [Сводка]. Но в конечном документе вам нужно вставить содержимое, полученное из другого внешнего документа, в это поле для объединения. Чтобы добиться этого, вам нужно будет создать обработчик для события слияния.
 
-Следующий пример кода показывает, как создать обработчик для события слияния, чтобы использовать его позже в процессе вставки:
+В следующем примере кода показано, как создать обработчик для события слияния, чтобы использовать его позже в процессе вставки:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-at-mail-merge-handler.java" >}}
 
-Следующий пример кода показывает, как вставить документ в поле слияния с помощью созданного обработчика:
+В следующем примере кода показано, как вставить документ в поле слияния с помощью созданного обработчика:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-at-mail-merge.java" >}}
 
-### Вставить документ в Bookmark
+### Вставьте документ в закладку
 
-Вы можете импортировать текстовый файл в документ и вставлять его сразу после закладки, которую вы определили в документе. Для этого создайте пункт с закладками, где вы хотите, чтобы документ был вставлен.
+Вы можете импортировать текстовый файл в документ и вставить его сразу после закладки, которую вы определили в документе. Для этого создайте абзац с закладкой, в который вы хотите вставить документ.
 
-Следующий пример кодирования показывает, как вставить содержимое одного документа в закладку в другом документе:
+В следующем примере кодирования показано, как вставить содержимое одного документа в закладку в другом документе:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-at-bookmark.java" >}}
 
 {{% alert color="primary" %}}
 
-Обратите внимание, что закладка не должна включать несколько абзацев или текста, которые вы хотите, чтобы они отображались в конечном итоговом документе.
+Обратите внимание, что закладка не должна содержать несколько абзацев или текста, которые вы хотите, чтобы они появились в вашем окончательном итоговом документе.
 
 {{% /alert %}}
 
-## Добавить документ
+## Добавление документа
 
-У вас может быть случай использования, когда вам нужно включить дополнительные страницы из документа в конец существующего документа. Для этого нужно просто позвонить в [AppendDocument](https://reference.aspose.com/words/java/com.aspose.words/document/#appendDocument-com.aspose.words.Document-int) Способ добавления документа в конец другого документа.
+Возможно, у вас есть вариант использования, когда вам нужно добавить дополнительные страницы из документа в конец существующего документа. Для этого вам просто нужно вызвать метод [AppendDocument](https://reference.aspose.com/words/java/com.aspose.words/document/#appendDocument-com.aspose.words.Document-int), чтобы добавить документ в конец другого документа.
 
 {{% alert color="primary" %}}
 
-Обратите внимание, что [AppendChild](https://reference.aspose.com/words/java/com.aspose.words/document/#appendChild-com.aspose.words.Node) Это метод уровня узла в документе. Например, можно создать абзац, задать свойства форматирования, а затем приложить его в детстве к телу с помощью **AppendChild** метод.
+Обратите внимание, что [AppendChild](https://reference.aspose.com/words/java/com.aspose.words/document/#appendChild-com.aspose.words.Node) - это метод на уровне узла в документе. Например, вы можете создать абзац, задать свойства форматирования, а затем добавить его как дочерний элемент в текст, используя метод **AppendChild**.
 
 {{% /alert %}}
 
-Следующий пример кода показывает, как добавить документ к концу другого документа:
+В следующем примере кода показано, как добавить документ в конец другого документа:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "keep-source-formatting.java" >}}
 
-## Импорт и вставка узлов вручную {#import-and-insert-nodes-manually}
+## Импортируйте и вставляйте узлы вручную {#import-and-insert-nodes-manually}
 
-Aspose.Words позволяет автоматически вставлять и добавлять документы без каких-либо предварительных требований к импорту. Однако, если вам нужно вставить или добавить конкретный узел вашего документа, например, раздел или абзац, то сначала вам нужно импортировать этот узел вручную.
+Aspose.Words позволяет автоматически вставлять и дополнять документы без каких-либо предварительных требований к импорту. Однако, если вам нужно вставить или дополнить определенный узел вашего документа, например раздел или абзац, сначала вам нужно импортировать этот узел вручную.
 
-Когда вам нужно вставить или добавить один раздел или абзац к другому, вам, по сути, нужно импортировать узлы первого дерева узла документа во второй, используя [ImportNode](https://reference.aspose.com/words/java/com.aspose.words/document/#importNode-com.aspose.words.Node-boolean) метод. После импорта ваших узлов, вы должны использовать [InsertAfter](https://reference.aspose.com/words/java/com.aspose.words/document/#insertBefore-com.aspose.words.Node-com.aspose.words.Node) Способ вставки нового узла после/до опорного узла. Это позволяет настроить процесс вставки, импортируя узлы из документа и вставляя его в заданные позиции.
+Когда вам нужно вставить или дополнить один раздел или абзац другим, вам, по сути, необходимо импортировать узлы первого дерева узлов документа во второе, используя метод [ImportNode](https://reference.aspose.com/words/java/com.aspose.words/document/#importNode-com.aspose.words.Node-boolean). После импорта узлов вам необходимо использовать метод [InsertAfter](https://reference.aspose.com/words/java/com.aspose.words/document/#insertBefore-com.aspose.words.Node-com.aspose.words.Node), чтобы вставить новый узел после/перед ссылочным узлом. Это позволяет настроить процесс вставки, импортируя узлы из документа и вставляя их в заданные позиции.
 
-Вы также можете использовать [AppendChild](https://reference.aspose.com/words/java/com.aspose.words/document/#appendChild-com.aspose.words.Node) способ добавления нового указанного узла в конец списка дочерних узлов, например, если вы хотите добавить контент на уровне абзаца вместо уровня раздела.
+Вы также можете использовать метод [AppendChild](https://reference.aspose.com/words/java/com.aspose.words/document/#appendChild-com.aspose.words.Node), чтобы добавить новый указанный узел в конец списка дочерних узлов, например, если вы хотите добавить содержимое на уровне абзаца, а не на уровне раздела.
 
-Следующий пример кода показывает, как вручную импортировать узлы и вставлять их после конкретного узла с помощью **InsertAfter** метод:
+В следующем примере кода показано, как вручную импортировать узлы и вставлять их после определенного узла, используя метод **InsertAfter**:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-as-nodes.java" >}}
 
 {{% alert color="primary" %}}
 
-Импорт создает новый узел, который является копией исходного узла и подходит для вставки в документ назначения.
+При импорте создается новый узел, который является копией исходного узла и подходит для вставки в целевой документ.
 
 {{% /alert %}}
 
-Контент импортируется в раздел документа назначения по разделам, что означает, что настройки, такие как настройка страницы и заголовки или нижние колонтитулы, сохраняются во время импорта. Также полезно отметить, что вы можете определить параметры форматирования при вставке или добавлении документа, чтобы указать, как два документа соединены вместе.
+Содержимое импортируется в целевой документ по разделам, что означает, что при импорте сохраняются такие параметры, как настройка страницы и верхние и нижние колонтитулы. Также полезно отметить, что вы можете задать параметры форматирования при вставке или добавлении документа, чтобы указать, как два документа будут объединены.
 
-## Общие свойства для включения и добавления документов {#common-properties-for-insert-and-append-documents}
+## Общие свойства для вставки и добавления документов {#common-properties-for-insert-and-append-documents}
 
-Оба [InsertDocument](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocument-com.aspose.words.Document-int) и [AppendDocument](https://reference.aspose.com/words/java/com.aspose.words/document/#appendDocument-com.aspose.words.Document-int) Методы принимают [ImportFormatMode](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/) и [ImportFormatOptions](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/) в качестве входных параметров. The **ImportFormatMode** позволяет контролировать процесс объединения форматирования документов при импорте контента из одного документа в другой путем выбора различных режимов форматирования, таких как: [UseDestinationStyles](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/#USE-DESTINATION-STYLES), [KeepSourceFormatting](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/#KEEP-SOURCE-FORMATTING), и [KeepDifferentStyles](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/#KEEP-DIFFERENT-STYLES). The **ImportFormatOptions** позволяет выбрать различные варианты импорта, такие как: [IgnoreHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getIgnoreHeaderFooter), [IgnoreTextBoxes](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getIgnoreTextBoxes), [KeepSourceNumbering](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getKeepSourceNumbering), [MergePastedLists](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getMergePastedLists), и [SmartStyleBehavior](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getSmartStyleBehavior).
+Оба метода [InsertDocument](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocument-com.aspose.words.Document-int) и [AppendDocument](https://reference.aspose.com/words/java/com.aspose.words/document/#appendDocument-com.aspose.words.Document-int) принимают [ImportFormatMode](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/) и [ImportFormatOptions](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/) в качестве входных параметров. Функция **ImportFormatMode** позволяет управлять объединением форматирования документов при импорте содержимого из одного документа в другой, выбирая различные режимы форматирования, такие как [UseDestinationStyles](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/#USE-DESTINATION-STYLES), [KeepSourceFormatting](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/#KEEP-SOURCE-FORMATTING) и [KeepDifferentStyles](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/#KEEP-DIFFERENT-STYLES). Параметр **ImportFormatOptions** позволяет выбрать различные параметры импорта, такие как [IgnoreHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getIgnoreHeaderFooter), [IgnoreTextBoxes](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getIgnoreTextBoxes), [KeepSourceNumbering](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getKeepSourceNumbering), [MergePastedLists](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getMergePastedLists), и [SmartStyleBehavior](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getSmartStyleBehavior).
 
-Aspose.Words позволяет настроить визуализацию полученного документа, когда два документа добавляются вместе в операцию вставки или добавления, используя [Section](https://reference.aspose.com/words/java/com.aspose.words/section/) и [PageSetup](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/) свойств. The **PageSetup** свойство содержит все атрибуты раздела, такие как [SectionStart](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getSectionStart), [RestartPageNumbering](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getRestartPageNumbering), [PageStartingNumber](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getPageStartingNumber), [Orientation](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getOrientation), и другие. Наиболее распространенным вариантом использования является установка **SectionStart** свойство определять, появится ли добавленный контент на той же странице или разделится на новый.
+Aspose.Words позволяет настроить визуализацию результирующего документа при объединении двух документов в операции вставки или добавления с помощью свойств [Section](https://reference.aspose.com/words/java/com.aspose.words/section/) и [PageSetup](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/). Свойство **PageSetup** содержит все атрибуты раздела, такие как [SectionStart](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getSectionStart), [RestartPageNumbering](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getRestartPageNumbering), [PageStartingNumber](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getPageStartingNumber), [Orientation](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getOrientation), и другие. Наиболее распространенным вариантом использования является установка свойства **SectionStart**, определяющего, будет ли добавленный контент отображаться на той же странице или будет разделен на новую.
 
 {{% alert color="primary" %}}
 
-Обратите внимание, что **Section** и **PageSetup** Свойства не контролируют, как два документа вставлены/приложены вместе. Они позволяют только изменить внешний вид итогового документа.
+Обратите внимание, что свойства **Section** и **PageSetup** не управляют тем, как два документа вставляются/добавляются друг к другу. Они позволяют только изменить внешний вид результирующего документа.
 
 {{% /alert %}}
 
-Следующий пример кода показывает, как добавить один документ к другому, сохраняя при этом контент от разделения на две страницы:
+В следующем примере кода показано, как добавить один документ в другой, не разделяя содержимое на две страницы:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "different-page-setup.java" >}}

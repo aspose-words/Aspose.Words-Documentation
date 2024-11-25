@@ -1,9 +1,9 @@
----
+﻿---
 title: Работа с диапазонами в Java
 second_title: Aspose.Words для Java
 articleTitle: Работа с диапазонами
 linktitle: Работа с диапазонами
-description: "Введение в Range Feature in Aspose.Words для Java."
+description: "Введение в функцию диапазона в Aspose.Words для Java."
 type: docs
 weight: 130
 url: /ru/java/working-with-ranges/
@@ -12,40 +12,40 @@ timestamp: 2024-01-27-14-07-04
 
 {{% alert color="primary" %}}
 
-В Aspose.Words, Диапазон - это "плоское окно" в древовидную модель документа.
+В Aspose.Words диапазон представляет собой "плоское окно" в древовидной модели документа.
 
 {{% /alert %}}
 
-Если вы работали с Microsoft Word Автоматизация, вы, вероятно, знаете, что одним из основных инструментов для изучения и изменения содержания документа является `Range` объект. Диапазон похож на "окно" в содержание и форматирование документа.
+Если вы работали с системой автоматизации Microsoft Word, то, вероятно, знаете, что одним из основных инструментов для изучения и изменения содержимого документа является объект `Range`.Диапазон - это своего рода "окно" в содержимое и форматирование документа.
 
-Aspose.Words также имеет [Range](https://reference.aspose.com/words/java/com.aspose.words/range/) класс, и он предназначен для того, чтобы выглядеть и действовать аналогично **Range** в Microsoft Word. Хотя **Range** не может охватывать произвольную часть документа и не имеет **Start** и **End**, Вы можете получить доступ к диапазону, охватываемому любым узлом документа, включая [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) себя. Другими словами, каждый узел имеет свой диапазон. The **Range** Объект позволяет получать доступ и изменять текст, закладки и поля формы в пределах диапазона.
+Aspose.Words также имеет класс [Range](https://reference.aspose.com/words/java/com.aspose.words/range/) и спроектирован так, чтобы выглядеть и действовать аналогично **Range** в Microsoft Word. Хотя **Range** не может охватывать произвольную часть документа и не содержит **Start** и **End**, вы можете получить доступ к диапазону, охватываемому любым узлом документа, включая сам [Document](https://reference.aspose.com/words/java/com.aspose.words/document/). Другими словами, каждый узел имеет свой собственный диапазон. Объект **Range** позволяет вам получать доступ к тексту, закладкам и полям формы в пределах диапазона и изменять их.
 
-## Восстановление простого текста
+## Извлечение обычного текста
 
-Используйте [Text](https://reference.aspose.com/words/java/com.aspose.words/range/#getText) свойство извлекать простой, неформатированный текст диапазона.
+Используйте свойство [Text](https://reference.aspose.com/words/java/com.aspose.words/range/#getText), чтобы получить обычный неформатированный текст диапазона.
 
-Следующий пример кода показывает, как получить простой, неформатированный текст диапазона:
+В следующем примере кода показано, как получить простой неформатированный текст из диапазона:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Ranges-RangesGetText-RangesGetText.java" >}}
 
 {{% alert color="primary" %}}
 
-Вы можете скачать образец файла этого примера из [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
+Вы можете скачать примерный файл этого примера с сайта [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
 
 {{% /alert %}}
 
 ## Удалить текст
 
-The `Range` Класс позволяет удалять все символы диапазона путем вызова [delete](https://reference.aspose.com/words/java/com.aspose.words/range/#delete).
+Класс `Range` позволяет удалять все символы из диапазона, вызывая [delete](https://reference.aspose.com/words/java/com.aspose.words/range/#delete).
 
-Следующий пример кода показывает, как удалить все символы диапазона:
+В следующем примере кода показано, как удалить все символы из диапазона:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Ranges-RangesDeleteText-RangesDeleteText.java" >}}
 
 {{% alert color="primary" %}}
 
-Вы можете скачать образец файла этого примера из [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
+Вы можете скачать примерный файл этого примера с сайта [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
 
 {{% /alert %}}
 
-## 
+

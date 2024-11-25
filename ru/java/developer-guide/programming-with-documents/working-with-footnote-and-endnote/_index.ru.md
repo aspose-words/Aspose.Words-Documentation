@@ -1,39 +1,39 @@
----
-title: Работа с Footnote и Endnote в Java
+﻿---
+title: Работа со сноской и завершением в Java
 second_title: Aspose.Words для Java
-articleTitle: Работа с Footnote и Endnote
-linktitle: Работа с Footnote и Endnote
-description: "Как манипулировать сносками и энднотами с помощью Java."
+articleTitle: Работа со сносками и заключением
+linktitle: Работа со сносками и заключением
+description: "Как манипулировать сносками и концевыми примечаниями, используя Java."
 type: docs
 weight: 160
 url: /ru/java/working-with-footnote-and-endnote/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words Также предусмотрены некоторые классы, методы и свойства для работы со сносками и энднотами.
+Aspose.Words также предоставляет некоторые классы, методы и свойства для работы со сносками и концевыми примечаниями.
 
-## Включить Endnote и Set Numbering Options
+## Вставьте сноску в конце и задайте параметры нумерации
 
-Если вы хотите вставить сноску или примечание в документ Word, пожалуйста, используйте [InsertFootnote](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertFootnote-int-java.lang.String) метод. Этот метод вставляет сноску или сноску в документ.
+Если вы хотите вставить сноску или концевое примечание в документ Word, пожалуйста, используйте метод [InsertFootnote](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertFootnote-int-java.lang.String). Этот метод позволяет вставить сноску или концевое примечание в документ.
 
-[EndnoteOptions](https://reference.aspose.com/words/java/com.aspose.words/endnoteoptions/) и [FootnoteOptions](https://reference.aspose.com/words/java/com.aspose.words/footnoteoptions/) Классы представляют собой варианты нумерации для сноски и сноски.
+Классы [EndnoteOptions](https://reference.aspose.com/words/java/com.aspose.words/endnoteoptions/) и [FootnoteOptions](https://reference.aspose.com/words/java/com.aspose.words/footnoteoptions/) представляют варианты нумерации для сноски и концевой сноски.
 
-Следующий пример кода показывает, как вставить примечание в документ и установить его параметры нумерации:
+В следующем примере кода показано, как вставить концевую сноску в документ и задать параметры ее нумерации:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithFootnote-SetEndnoteOptions.java" >}}
 
-## Установить количество колонок сносок
+## Установите количество столбцов макета сносок
 
-Вы можете установить количество колонок макета сноски, используя [Columns](https://reference.aspose.com/words/java/com.aspose.words/footnoteoptions/#getColumns) собственность. Если это свойство имеет значение 0, область сносок отформатирована рядом столбцов на основе количества столбцов на отображаемой странице.
+Вы можете задать количество столбцов разметки сносок, используя свойство [Columns](https://reference.aspose.com/words/java/com.aspose.words/footnoteoptions/#getColumns). Если это свойство имеет значение 0, область сносок будет отформатирована с количеством столбцов, основанным на количестве столбцов на отображаемой странице.
 
-Следующий пример кода показывает, как установить количество столбцов для макета сноски:
+В следующем примере кода показано, как задать количество столбцов для оформления сносок:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithFootnote-SetFootNoteColumns.java" >}}
 
-## Установите позицию сноски и конечного примечания
+## Установите положение сноски и EndNote
 
-Положение сноски может быть в нижней части каждой страницы или под текстом на каждой странице. Положение примечания может быть в конце раздела или в конце документа.
+Сноска может располагаться внизу каждой страницы или под текстом на каждой странице. Сноска может располагаться в конце раздела или в конце документа.
 
-Следующий пример кода показывает, как установить положение сноски и сноски:
+В следующем примере кода показано, как задать положение сноски и концевой сноски:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithFootnote-SetFootnoteAndEndNotePosition.java" >}}
