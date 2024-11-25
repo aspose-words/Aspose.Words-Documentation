@@ -1,65 +1,65 @@
----
-title: تحديد خيارات الشباب في Java
-second_title: Aspose.Words for Java
-articleTitle: تحديد الخيارات المتاحة
-linktitle: تحديد الخيارات المتاحة
-description: "وضع وثائق للنواتج مع مخططات مختلفة، حسب البارامترات المحددة في الوثيقة باستخدام Java."
+﻿---
+title: حدد خيارات التخطيط في Java
+second_title: Aspose.Words ل Java
+articleTitle: تحديد خيارات التخطيط
+linktitle: تحديد خيارات التخطيط
+description: "إنشاء مستندات الإخراج مع تخطيطات مختلفة، اعتمادا على المعلمات المحددة في المستند باستخدام Java."
 type: docs
 weight: 10
 url: /ar/java/specify-layout-options/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words يُمكّنُك أَنْ تَخْلقَ وثائقَ النواتجَ مَع مختلف المخططاتِ، إعتماداً على البارامتراتِ المحددة في [LayoutOptions](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/) ممتلكات **Document**. هذه الملكية تشبه بعض Microsoft Word خيارات قائمة الوصلات البينية للمستعملين الموصوفة في هذه المادة.
+Aspose.Words تمكنك من إنشاء مستندات الإخراج مع تخطيطات مختلفة، اعتمادا على المعلمات المحددة في [LayoutOptions](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/) خاصية **Document**. تشبه هذه الخاصية بعض خيارات قائمة واجهة المستخدم Microsoft Word الموضحة في هذه المقالة.
 
-لقائمة كاملة من البارامترات مثل [ContinuousSectionPageNumberingRestart](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/#getContinuousSectionPageNumberingRestart) لحساب عدد الصفحات في قسم مستمر يعيد ترقيم الصفحات، أو [IgnorePrinterMetrics](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/#getIgnorePrinterMetrics) لتجاهل "استخدام مقاييس الطابعات لوضع الوثيقة" [LayoutOptions](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/) صفحة الصف
+للحصول على قائمة كاملة بالمعلمات مثل [ContinuousSectionPageNumberingRestart](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/#getContinuousSectionPageNumberingRestart) لحساب أرقام الصفحات في قسم مستمر يعيد تشغيل ترقيم الصفحات، أو [IgnorePrinterMetrics](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/#getIgnorePrinterMetrics) لتجاهل خيار التوافق "استخدام مقاييس الطابعة لوضع المستند"، راجع صفحة فئة [LayoutOptions](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/).
 
-## صياغة العلامات
+## علامات التنسيق
 
-Aspose.Words يسمح بإدارة علامات التكوين باستخدام الخواص التالية:
+Aspose.Words يسمح لإدارة علامات التنسيق باستخدام الخصائص التالية:
 
-- [ShowHiddenText](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/#getShowHiddenText) - أ `Boolean` القيمة التي تحدد ما إذا كان النص الخفي قد صدر.
-- [ShowParagraphMarks](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/#getShowParagraphMarks) - أ `Boolean` القيمة، التي تحدد ما إذا كانت الفقرة ذات طابع علامة.
+- [ShowHiddenText](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/#getShowHiddenText) - قيمة `Boolean`، والتي تحدد ما إذا كان النص المخفي قد تم عرضه.
+- [ShowParagraphMarks](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/#getShowParagraphMarks) - قيمة `Boolean`، والتي تحدد ما إذا كان يتم عرض أحرف علامة الفقرة.
 
-وتتضمن الصفحة المبينة في المثال أدناه ثلاث فقرات. الثاني مخبأ يمكن للمستعمل أن يغير **ShowHiddenText** خيار عرض هذا النص الخفي على الصفحة كما أن لكل فقرة علامة في النهاية. عادة ما تكون علامة الفقرة غير واضحة ما لم تكن **ShowParagraphMarks** العقارات مُصممة لإرسالها
+تحتوي الصفحة الموضحة في المثال أدناه على ثلاث فقرات. والثاني مخفي. يمكن للمستخدم تغيير الخيار **ShowHiddenText** لعرض هذا النص المخفي على الصفحة. أيضا، كل فقرة لها علامة فقرة في النهاية. عادة ما تكون علامة الفقرة غير مرئية ما لم يتم تعيين خاصية **ShowParagraphMarks** لعرضها.
 
 ![formatting_marks_example_aspose_words_java](/words/java/specify-layout-options/specify-layout-options-1.png)
 
-In Microsoft Word, هذه البارامترات مُحدّدة باستخدام صندوق "الخيارات الملفوفة" على النحو التالي:
+في Microsoft Word، يتم تعيين هذه المعلمات باستخدام مربع الحوار "ملف Options خيارات Display عرض" على النحو التالي:
 
 ![formatting_marks_ms_word_aspose_words_java](/words/java/specify-layout-options/specify-layout-options-3.png)
 
 ## التعليقات والتنقيحات
 
-مع Aspose.Words, يمكنك أن تقدم تعليقات الوثائق التي ستبدو كما هي Microsoft Word. To specify whether comments are rendered, use the [ShowComments](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/) ملكية
+باستخدام Aspose.Words، يمكنك عرض تعليقات المستندات التي ستبدو كما هي في Microsoft Word. لتحديد ما إذا كان يتم تقديم التعليقات، استخدم الخاصية [ShowComments](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/).
 
-In Microsoft Word, هذه البارامترات مُحدّدة باستخدام صندوق "تغيّرات المسار" للجوال، كما هو مبيّن أدناه:
+في Microsoft Word، يتم تعيين هذه المعلمة باستخدام مربع الحوار "تتبع خيارات التغييرات"، كما هو موضح أدناه:
 
 ![comments_and_revisions_ms_word_aspose_words_java](/words/java/specify-layout-options/specify-layout-options-4.png)
 
-أيضاً Aspose.Words يسمح لك بعرض التنقيحات في وثيقة. استخدام [RevisionOptions](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/#getRevisionOptions) ممتلكات **LayoutOptions** درجة لتحديد ما إذا كانت تنقيحات الوثيقة معروضة. To control their appearance (revision highlighting color, revision bar color, etc.), use the [RevisonOptions](https://reference.aspose.com/words/java/com.aspose.words/revisionoptions/) الصف
+أيضا، Aspose.Words يسمح لك بعرض المراجعات في مستند. استخدم خاصية [RevisionOptions](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/#getRevisionOptions) من فئة **LayoutOptions** لتحديد ما إذا كان يتم عرض مراجعات المستند. للتحكم في مظهرها (لون تمييز المراجعة، لون شريط المراجعة، إلخ.)، استخدم فئة [RevisonOptions](https://reference.aspose.com/words/java/com.aspose.words/revisionoptions/).
 
-ويمكنك أيضاً أن تُظهر التنقيحات كتعليقات على المحتوى. لهذا الغرض، استخدم [CommentDisplayMode](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/#getCommentDisplayMode) الممتلكات والممتلكات [ShowInBalloons](https://reference.aspose.com/words/java/com.aspose.words/commentdisplaymode/) قيمة
+يمكنك أيضا عرض المراجعات كتعليقات على المحتوى. لهذا الغرض، استخدم خاصية [CommentDisplayMode](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/#getCommentDisplayMode) وقيمة [ShowInBalloons](https://reference.aspose.com/words/java/com.aspose.words/commentdisplaymode/).
 
-ويبين المثال الرمزي التالي كيفية تكييف التنقيحات على النحو التالي:
+يوضح مثال التعليمات البرمجية التالية كيفية تخصيص عرض المراجعات:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-TrackChanges-SetShowInBalloons.java" >}}
 
-الصورة الواردة أدناه تبين كيف Aspose.Words يبدي تعليقات ويحذف التنقيحات التالية:
+توضح الصورة أدناه كيفية عرض Aspose.Words للتعليقات ومراجعات الحذف:
 
 <img src="/words/java/specify-layout-options/specify-layout-options-2.png" alt="comments_and_revisions_example_aspose_words_java" style="width:800px"/>
 
-## نص " Shaper for Advanced Typography Render "
+## المشكل النص لتقديم الطباعة المتقدمة
 
-The [TextShaperFactory](https://reference.aspose.com/words/java/com.aspose.words/itextshaperfactory/) الملكية تمكنك من وضع النص الذي يُشكّل وظيفية، وكذلك `OpenType` الدعم
+تمكنك خاصية [TextShaperFactory](https://reference.aspose.com/words/java/com.aspose.words/itextshaperfactory/) من تعيين وظيفة تشكيل النص، بالإضافة إلى دعم ميزات `OpenType`.
 
-(ب) استخدام النص في تشكيل تجهيز الوثائق في الحالات الرئيسية التالية:
+استخدم تشكيل النص لمعالجة المستندات في الحالات الرئيسية التالية:
 
-- تستخدم الوثيقة Kerning, Numeral Shaping, Numeral Forms, or Ligatures.
-- تُستخدم هذه الوثيقة ملحقات معقدة مثل العربية والخمير والتايلندية وما إلى ذلك.
+- يستخدم المستند تقنين الأحرف أو تشكيل الأرقام أو الأشكال الرقمية أو الأحرف المركبة.
+- يستخدم المستند نصوصا معقدة، مثل العربية والخمير والتايلاندية وما إلى ذلك.
 
 {{% alert color="primary" %}}
 
-لن يُسمح بتشكيل النصوص إلا عند تصدير وثيقة إلى قوات الدفاع الشعبي أو XPS.
+سيتم تمكين تشكيل النص فقط عند تصدير مستند إلى PDF أو XPS.
 
 {{% /alert %}}

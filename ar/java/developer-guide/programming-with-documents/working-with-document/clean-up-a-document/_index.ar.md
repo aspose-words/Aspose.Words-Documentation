@@ -1,35 +1,35 @@
----
-title: نظف وثيقة Java
-second_title: Aspose.Words for Java
-articleTitle: نظف وثيقة
-linktitle: نظف وثيقة
-description: "إزالة المعلومات غير المستخدمة أو المزدوجة لخفض حجم النواتج والوقت اللازم لتجهيزها. إزالة الأساليب غير المستخدمة، والأساليب غير المستخدمة، والأساليب المزدوجة، أو القوائم غير المستخدمة Java."
+﻿---
+title: تنظيف مستند في Java
+second_title: Aspose.Words ل Java
+articleTitle: تنظيف وثيقة
+linktitle: تنظيف وثيقة
+description: "قم بإزالة المعلومات غير المستخدمة أو المكررة لتقليل حجم الإخراج ووقت المعالجة. قم بإزالة الأنماط غير المستخدمة أو الأنماط المضمنة غير المستخدمة أو الأنماط المكررة أو القوائم غير المستخدمة باستخدام Java."
 type: docs
 weight: 30
 url: /ar/java/clean-up-a-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
-وفي بعض الأحيان قد تحتاج إلى إزالة معلومات غير مستخدمة أو مكررة لخفض حجم وثيقة النواتج والوقت اللازم لتجهيزها.
+في بعض الأحيان قد تحتاج إلى إزالة المعلومات غير المستخدمة أو المكررة لتقليل حجم مستند الإخراج ووقت المعالجة.
 
-في حين يمكنك العثور على البيانات غير المستخدمة وإزالتها، مثل الأساليب أو القوائم، أو تكرار المعلومات يدويا، سيكون من الأنسب كثيرا القيام بذلك باستخدام المعالم والقدرات التي توفرها Aspose.Words.
+بينما يمكنك العثور على البيانات غير المستخدمة وإزالتها، مثل الأنماط أو القوائم، أو تكرار المعلومات يدويا، سيكون من الأنسب القيام بذلك باستخدام الميزات والإمكانيات التي توفرها Aspose.Words.
 
-The [CleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/cleanupoptions/) الفصل يسمح لك بتحديد خيارات لتنظيف الوثائق لإزالة أساليب مزدوجة أو مجرد أساليب غير مستخدمة أو قوائم من الوثيقة، يمكنك استخدام [Cleanup](https://reference.aspose.com/words/java/com.aspose.words/document/#cleanup) طريقة
+تتيح لك فئة [CleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/cleanupoptions/) تحديد خيارات لتنظيف المستندات. لإزالة الأنماط المكررة أو الأنماط أو القوائم غير المستخدمة فقط من المستند، يمكنك استخدام طريقة [Cleanup](https://reference.aspose.com/words/java/com.aspose.words/document/#cleanup).
 
-## نقل المعلومات غير المستخدمة من وثيقة
+## إزالة المعلومات غير المستخدمة من مستند
 
-يمكنك استخدام [UnusedStyles](https://reference.aspose.com/words/java/com.aspose.words/cleanupoptions/#getUnusedStyles) و [UnusedBuiltinStyles](https://reference.aspose.com/words/java/com.aspose.words/cleanupoptions/#getUnusedBuiltinStyles) خصائص لكشف و إزالة النمط التي تُعتبر "غير مستعملة"
+يمكنك استخدام خصائص [UnusedStyles](https://reference.aspose.com/words/java/com.aspose.words/cleanupoptions/#getUnusedStyles) و [UnusedBuiltinStyles](https://reference.aspose.com/words/java/com.aspose.words/cleanupoptions/#getUnusedBuiltinStyles) لاكتشاف وإزالة الأنماط التي تم تمييزها على أنها"غير مستخدمة".
 
-يمكنك استخدام [UnusedLists](https://reference.aspose.com/words/java/com.aspose.words/cleanupoptions/#getUnusedLists) ملكية لكشف وحذف القوائم وقائمة التعاريف التي تُعرف بأنها غير مستخدمة
+يمكنك استخدام خاصية [UnusedLists](https://reference.aspose.com/words/java/com.aspose.words/cleanupoptions/#getUnusedLists) لاكتشاف وإزالة القوائم وتعريفات القوائم التي تم تمييزها على أنها"غير مستخدمة".
 
-The following code example shows how to remove only unused fashions from a document:
+يوضح مثال التعليمات البرمجية التالية كيفية إزالة الأنماط غير المستخدمة فقط من مستند:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithStyle-CleansUnusedStylesandLists.java" >}}
 
-## نقل المعلومات المزدوجة من الوثيقة
+## إزالة المعلومات المكررة من مستند
 
-يمكنك أيضا استخدام [DuplicateStyle](https://reference.aspose.com/words/java/com.aspose.words/cleanupoptions/#getDuplicateStyle) الممتلكات لاستبدال جميع الأساليب المكررة بالأسلوب الأصلي وسحب نسختين من وثيقة.
+يمكنك أيضا استخدام الخاصية [DuplicateStyle](https://reference.aspose.com/words/java/com.aspose.words/cleanupoptions/#getDuplicateStyle) لاستبدال جميع الأنماط المكررة بالنمط الأصلي وإزالة التكرارات من المستند.
 
-ويبين المثال الرمزي التالي كيفية إزالة الأساليب المزدوجة من الوثيقة:
+يوضح مثال التعليمات البرمجية التالية كيفية إزالة الأنماط المكررة من مستند:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithStyle-CleanupDuplicateStyle.java" >}}

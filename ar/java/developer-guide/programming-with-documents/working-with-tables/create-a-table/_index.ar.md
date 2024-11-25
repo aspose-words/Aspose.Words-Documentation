@@ -1,139 +1,139 @@
----
-title: كيفية إنشاء طاولة Java
-second_title: Aspose.Words for Java
-articleTitle: إنشاء الجدول
-linktitle: إنشاء الجدول
-description: "طرق مختلفة لوضع جداول في وثيقتكم باستخدام Java."
+﻿---
+title: كيفية إنشاء جدول في Java
+second_title: Aspose.Words ل Java
+articleTitle: إنشاء جدول
+linktitle: إنشاء جدول
+description: "طرق مختلفة لإنشاء الجداول في المستند باستخدام Java."
 type: docs
 weight: 20
 url: /ar/java/create-a-table/
 timestamp: 2024-10-21-11-17-44
 ---
 
-Aspose.Words ويسمح للمستعملين بوضع جداول في وثيقة من الصفر، ويوفرون عدة أساليب مختلفة للقيام بذلك. وتعرض هذه المادة تفاصيل عن كيفية إضافة جداول مصاغة إلى وثيقتكم باستخدام كل طريقة، وكذلك مقارنة لكل طريقة في نهاية المادة.
+Aspose.Words يسمح للمستخدمين بإنشاء جداول في مستند من البداية ويوفر عدة طرق مختلفة للقيام بذلك. تقدم هذه المقالة تفاصيل حول كيفية إضافة جداول منسقة إلى المستند باستخدام كل طريقة، بالإضافة إلى مقارنة بين كل طريقة في نهاية المقالة.
 
-## الجدول الافتراضي
+## أنماط الجدول الافتراضي
 
-ويُعطى الجدول الجديد قيما غير مقصودة مماثلة لتلك المستخدمة في Microsoft Word:
+يتم إعطاء الجدول الذي تم إنشاؤه حديثا قيما افتراضية مماثلة لتلك المستخدمة في Microsoft Word:
 
-| الجدول - الممتلكات | العجز في Aspose.Words |
-|  :-  |  :-  |
-| `Border Style` |  `Single`  |
+| خاصية الجدول | الافتراضي في Aspose.Words |
+| :- | :- |
+| `Border Style` | `Single` |
 | `Border Width` | `1/2 pt` |
-| عقيد الحدود |  `Black`  |
+| لون الحدود | `Black` |
 | `Left and Right Padding` | `5.4 pts` |
 | `AutoFit Mode` | `AutoFit to Window` |
-| `Allow AutoFit` |  `True`  |
+| `Allow AutoFit` | `True` |
 {{% alert color="primary" %}}
 
-ويمكن أن يكون الجدول مطروحا إذا كان موقعه ضيقا، أو يطفو إذا أمكن وضعه في أي مكان على الصفحة. بالخطأ Aspose.Words دائماً ما يخلق الطاولات
+يمكن أن يكون الجدول مضمنا إذا تم وضعه بإحكام، أو عائما إذا كان يمكن وضعه في أي مكان على الصفحة. بشكل افتراضي، يقوم Aspose.Words دائما بإنشاء جداول مضمنة.
 
 {{% /alert %}}
 
-## وضع جدول مع الوثيقة
+## إنشاء جدول مع DocumentBuilder
 
-In Aspose.Words, يمكن للمستعملين وضع جدول في وثيقة تستخدم فيه [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/). وفيما يلي الخوارزمية الأساسية لإنشاء جدول:
+في Aspose.Words، يمكن للمستخدمين إنشاء جدول في مستند باستخدام [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/). الخوارزمية الأساسية لإنشاء جدول هي كما يلي:
 
-1 شغل الطاولة [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable)
-2. إضافة زنزانة إلى الطاولة باستخدام [InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell) -هذا يبدأ تلقائياً صفاً جديداً
-3 اختياريا، استخدام [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCellFormat) الممتلكات لتحديد شكل الخلايا
-4 يدرج محتوى الخلية باستخدام ما هو مناسب **DocumentBuilder** أساليب من قبيل [Writeln](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#writeln), [InsertImage](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertImage-byte), and others
-5 اكرر الخط 2-4 حتى يكتمل الصف
-6 اتصل [EndRow](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow) لإنهاء الصف الحالي
-7. اختياريا، استخدام [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getRowFormat) الممتلكات لتحديد شكل الصف
-8 اكرر الخط 2-7 حتى يكتمل الجدول
-9. اتصل [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) لإنهاء بناء الطاولة
+1. ابدأ الجدول بـ [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable)
+2. أضف خلية إلى الجدول باستخدام [InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell) - يبدأ هذا تلقائيا صفا جديدا
+3. اختياريا، استخدم خاصية [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCellFormat) لتحديد تنسيق الخلية
+4. أدخل محتوى الخلية باستخدام طرق **DocumentBuilder** المناسبة مثل [Writeln](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#writeln) و [InsertImage](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertImage-byte) وغيرها
+5. كرر الخطوات من 2 إلى 4 حتى يكتمل الصف
+6. اتصل [EndRow](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow) لإنهاء الصف الحالي
+7. اختياريا، استخدم الخاصية [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getRowFormat) لتحديد تنسيق الصف
+8. كرر الخطوات من 2 إلى 7 حتى يكتمل الجدول
+9. اتصل [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) لإنهاء بناء الجدول
 
 {{% alert color="primary" %}}
 
-تفاصيل هامة:
+تفاصيل مهمة:
 
-- [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) ويمكن أيضاً أن يُدعى داخل زنزانة، وفي هذه الحالة يبدأ إنشاء منضدة محجوبة داخل الزنزانة.
-- بعد الاتصال [InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell), تم إنشاء خلية جديدة وأي محتوى تضيفه باستخدام أساليب أخرى [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) سيضاف الفصل إلى الزنزانة الحالية لخلق خلية جديدة على نفس الصف، الاتصال **InsertCell** مرة أخرى
-- إذا **InsertCell** يُدعى فوراً بعد [EndRow](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow) ونهاية الصف ستستمر الطاولة على صف جديد
-- [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) لا ينبغي أن تُسمَى طريقة إنهاء الجدول إلا مرة واحدة بعد الاتصال **EndRow**. نداء **EndTable** ينقل الشعار من الزنزانة الحالية إلى الموقع مباشرة بعد الطاولة.
+- يمكن أيضا استدعاء [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) داخل خلية، وفي هذه الحالة يبدأ إنشاء جدول متداخل داخل الخلية.
+- بعد استدعاء [InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell)، يتم إنشاء خلية جديدة، وسيتم إضافة أي محتوى تضيفه باستخدام طرق أخرى لفئة [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) إلى الخلية الحالية. لإنشاء خلية جديدة في نفس الصف، اتصل **InsertCell** مرة أخرى.
+- إذا تم استدعاء **InsertCell** مباشرة بعد [EndRow](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow) ونهاية الصف، فسيستمر الجدول في صف جديد.
+- يجب استدعاء طريقة [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) لإنهاء الجدول مرة واحدة فقط بعد استدعاء **EndRow**. استدعاء **EndTable** يحرك المؤشر من الخلية الحالية إلى الموضع مباشرة بعد الجدول.
 
 {{% /alert %}}
 
-ويمكن الاطلاع بوضوح على عملية وضع جدول في الصورة التالية:
+يمكن رؤية عملية إنشاء جدول بوضوح في الصورة التالية:
 
 ![creating-table-process](/words/java/create-a-table/creating-table-process.jpg)
 
-ويبين المثال الرمزي التالي كيفية إنشاء طاولة بسيطة باستخدام **DocumentBuilder** مع الشكل الافتراضي:
+يوضح مثال التعليمات البرمجية التالية كيفية إنشاء جدول بسيط باستخدام **DocumentBuilder** مع التنسيق الافتراضي:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "create-simple-table.java" >}}
 
-ويبيّن المثال الرمزي التالي كيفية وضع جدول نموذجي باستخدام الوثيقة:
+يوضح مثال التعليمات البرمجية التالية كيفية إنشاء جدول منسق باستخدام DocumentBuilder:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "formatted-table.java" >}}
 
-ويبيّن المثال الرمزي التالي كيفية إدراج طاولة محجوزة تستخدم الوثيقة:
+يوضح مثال التعليمات البرمجية التالية كيفية إدراج جدول متداخل باستخدام DocumentBuilder:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "nested-table.java" >}}
 
-## Create a Table via DOM )أ(Document Object Model)
+## إنشاء جدول عبر DOM (نموذج كائن المستند)
 
-يمكنك إدخال الطاولات مباشرة إلى DOM بإضافة جديد [Table](https://reference.aspose.com/words/java/com.aspose.words/table/) موكب في موقف محدد
+يمكنك إدراج الجداول مباشرة في DOM عن طريق إضافة عقدة [Table](https://reference.aspose.com/words/java/com.aspose.words/table/) جديدة في موضع معين.
 
-ويرجى الانتباه إلى أن الجدول نفسه سيكون فارغاً تماماً بعد إنشاء عقد المائدة، أي أنه لا يتضمن بعد الصفوف والخلايا. إدراج الصفوف والخلايا في جدول، إضافة ما هو مناسب [Row](https://reference.aspose.com/words/java/com.aspose.words/run/) و [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/) ندوات الطفل إلى DOM.
+يرجى ملاحظة أنه بعد إنشاء عقدة الجدول مباشرة، سيكون الجدول نفسه فارغا تماما، أي أنه لا يحتوي بعد على صفوف وخلايا. لإدراج صفوف وخلايا في جدول، أضف العقد الفرعية [Row](https://reference.aspose.com/words/java/com.aspose.words/run/) و [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/) المناسبة إلى DOM.
 
 {{% alert color="primary" %}}
 
-وتستخدم هذه الطريقة لوضع جدول نفس التخلف عن الجدول عند استخدامه **DocumentBuilder**.
+تستخدم هذه الطريقة لإنشاء جدول نفس إعدادات الجدول الافتراضية عند استخدام **DocumentBuilder**.
 
 {{% /alert %}}
 
-The following code example shows how to build a new table fromخام by added the appropriate child nodes to the document tree:
+يوضح مثال التعليمات البرمجية التالية كيفية إنشاء جدول جديد من البداية بإضافة العقد الفرعية المناسبة إلى شجرة المستند:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "insert-table-directly.java" >}}
 
-## Create a Table from HTML
+## إنشاء جدول من HTML
 
-Aspose.Words دعم إدراج المحتوى في وثيقة من مصدر HTML باستخدام [InsertHtml](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertHtml-java.lang.String) طريقة يمكن للمدخلات أن تكون صفحة كاملة لـ (HTML) أو مجرد قنبلة جزئية
+Aspose.Words يدعم إدراج المحتوى في مستند من مصدر HTML باستخدام طريقة [InsertHtml](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertHtml-java.lang.String). يمكن أن يكون الإدخال صفحة HTML كاملة أو مجرد مقتطف جزئي.
 
-استخدام هذا **InsertHtml** يمكن للمستعملين أن يدرجوا جداول في الوثيقة عن طريق بطاقات طاولة مثل `<table>`, `<tr>`, `<td>`.
+باستخدام طريقة **InsertHtml** هذه، يمكن للمستخدمين إدراج جداول في المستند عبر علامات الجدول مثل `<table>`, `<tr>`, `<td>`.
 
-The following code example shows how to insert a table into a document from a string containing HTML tags:
+يوضح مثال التعليمات البرمجية التالية كيفية إدراج جدول في مستند من سلسلة تحتوي على علامات HTML:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "insert-table-from-html.java" >}}
 
-## يدرج نسخة من الجدول الحالي
+## أدخل نسخة من جدول موجود
 
-وغالبا ما تكون هناك أوقات تحتاج فيها إلى وضع جدول يستند إلى جدول قائم بالفعل في وثيقة. أسهل طريقة لتكرار الجدول مع الاحتفاظ بجميع أشكاله هي استنساخ عقد الجدول باستخدام [deepClone](https://reference.aspose.com/words/java/com.aspose.words/node/#deepClone-boolean) طريقة
+غالبا ما تكون هناك أوقات تحتاج فيها إلى إنشاء جدول استنادا إلى جدول موجود بالفعل في مستند. أسهل طريقة لتكرار جدول مع الاحتفاظ بجميع التنسيقات هي استنساخ عقدة الجدول باستخدام طريقة [deepClone](https://reference.aspose.com/words/java/com.aspose.words/node/#deepClone-boolean).
 
-ويمكن استخدام نفس الأسلوب لإضافة نسخ من صف قائم أو خلية إلى طاولة.
+يمكن استخدام نفس الأسلوب لإضافة نسخ من صف أو خلية موجودة إلى جدول.
 
-ويبين المثال الرمزي التالي كيفية تكرار جدول باستخدام مصممي العقد:
+يوضح مثال الكود التالي كيفية تكرار جدول باستخدام منشئي العقدة:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "clone-complete-table.java" >}}
 
 {{% alert color="primary" %}}
 
-يمكنك تحميل ملف العينة من هذا المثال [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx).
+يمكنك تنزيل نموذج ملف هذا المثال من [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx).
 
 {{% /alert %}}
 
-The following code example shows how to clone the last row of a table and append it to the table:
+يوضح مثال الكود التالي كيفية استنساخ الصف الأخير من الجدول وإلحاقه بالجدول:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "clone-last-row.java" >}}
 
 {{% alert color="primary" %}}
 
-يمكنك تحميل ملف العينة من هذا المثال [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx).
+يمكنك تنزيل نموذج ملف هذا المثال من [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx).
 
 {{% /alert %}}
 
-إذا كنت تنظر إلى وضع جداول في وثيقة تنمو ديناميكية مع كل سجل من مصدر بياناتك، ثم الطريقة المذكورة أعلاه لا تُنصَح. وبدلا من ذلك، يتحقق الناتج المنشود بسهولة أكبر باستخدامه Mail merge مع المناطق يمكنك معرفة المزيد عن هذه التقنية في [Mail Merge الأقاليم](/words/java/types-of-mail-merge-operations/) القسم
+إذا كنت تبحث في إنشاء جداول في مستند ينمو ديناميكيا مع كل سجل من مصدر البيانات الخاص بك، فلا ينصح بالطريقة المذكورة أعلاه. بدلا من ذلك، يتم تحقيق الإخراج المطلوب بسهولة أكبر باستخدام Mail merge مع المناطق. يمكنك معرفة المزيد عن هذه التقنية في [Mail Merge مع المناطق](/words/java/types-of-mail-merge-operations/) القسم.
 
-## Compare Ways to Create a Table
+## قارن طرق إنشاء جدول
 
-Aspose.Words توفر عدة طرق لوضع جداول جديدة في وثيقة ما. ولكل طريقة مزاياها ومساوئها الخاصة، وبالتالي فإن اختيار استخدامها كثيرا ما يتوقف على الحالة المحددة.
+Aspose.Words يوفر عدة طرق لإنشاء جداول جديدة في مستند. كل طريقة لها مزاياها وعيوبها، لذلك يعتمد اختيار استخدامها غالبا على الموقف المحدد.
 
-دعونا نلقي نظرة عن قرب على هذه الطرق لخلق الطاولات ومقارنة المحترفين والمحتالين:
+دعونا نلقي نظرة فاحصة على هذه الطرق لإنشاء الجداول ومقارنة مزاياها وعيوبها:
 
-|  المنهجية | المزايا |  أوجه القصور |
-|  :-  |  :-  |  :-  |
-| Via `DocumentBuilder` | الطريقة الموحدة لإدراج الجداول ومحتويات الوثائق الأخرى | في بعض الأحيان من الصعب خلق العديد من أنواع الجداول في نفس الوقت مع نفس حالة البناء |
-| Via DOM |  أفضل من الشفرة المحيطة التي تخلق وتضيف عقدة مباشرة إلى DOM بدون استخدام **DocumentBuilder** | الطاولة مصممة "مفرغة" قبل القيام بمعظم العمليات يجب أن تتصل [EnsureMinimum](https://reference.aspose.com/words/java/com.aspose.words/table/#ensureMinimum) لخلق أي أطفال مفقودين |
-| من HTML | يمكن أن يخلق طاولة جديدة من مصدر HTML باستخدام بطاقات مثل `<table>`, `<tr>`, `<td>` | ليس كل شيء ممكن Microsoft Word يمكن تطبيق صيغ الجداول على نظام HTML |
-| استنساخ طاولة قائمة | يمكنك أن تخلق نسخة من طاولة قائمة بينما تحافظ على جميع الصفات و تشكيل الخلايا | ويجب إزالة عقد الأطفال المناسب قبل أن تكون الطاولة جاهزة للاستخدام |
+| الطريقة | المزايا | العيوب |
+| :- | :- | :- |
+| عبر `DocumentBuilder` | الطريقة القياسية لإدراج الجداول ومحتويات المستندات الأخرى | من الصعب في بعض الأحيان إنشاء العديد من أنواع الجداول في نفس الوقت مع نفس مثيل البناء |
+| عبر DOM | يتناسب بشكل أفضل مع الكود المحيط الذي ينشئ ويدرج العقد مباشرة في DOM دون استخدام **DocumentBuilder** | يتم إنشاء الجدول "فارغ": قبل تنفيذ معظم العمليات، يجب استدعاء [EnsureMinimum](https://reference.aspose.com/words/java/com.aspose.words/table/#ensureMinimum) لإنشاء أي عقد فرعية مفقودة |
+| من HTML | يمكن إنشاء جدول جديد من HTML المصدر باستخدام علامات مثل `<table>`, `<tr>`, `<td>` | لا يمكن تطبيق جميع تنسيقات الجدول Microsoft Word الممكنة على HTML |
+| استنساخ جدول موجود | يمكنك إنشاء نسخة من جدول موجود مع الاحتفاظ بجميع تنسيق الصف والخلية | يجب إزالة العقد الفرعية المناسبة قبل أن يصبح الجدول جاهزا للاستخدام |

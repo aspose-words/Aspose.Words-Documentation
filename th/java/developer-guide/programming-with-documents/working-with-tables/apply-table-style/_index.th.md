@@ -1,75 +1,75 @@
----
-title: ทํางานร่วมกับรูปแบบตารางใน Java
-second_title: Aspose.Words สําหรับ Java
-articleTitle: ปรับใช้รูปแบบตาราง
-linktitle: ปรับใช้รูปแบบตาราง
-description: "การฟอร์แมตตารางขั้นสูง Java. สร้างรูปแบบตารางโดยใช้ Java. แนะนําการฟอร์แมตตารางขั้นสูง, รูปแบบตารางที่ใช้ Java."
+﻿---
+title: การทำงานกับรูปแบบตารางในJava
+second_title: Aspose.WordsสำหรับJava
+articleTitle: ใช้รูปแบบตาราง
+linktitle: ใช้รูปแบบตาราง
+description: "การจัดรูปแบบตารางขั้นสูงJava. สร้างสไตล์ตารางโดยใช้Java รู้เบื้องต้นเกี่ยวกับการจัดรูปแบบตารางขั้นสูงรูปแบบตารางโดยใช้Java."
 type: docs
 weight: 80
 url: /th/java/working-with-tablestyle/
 timestamp: 2024-01-27-14-07-04
 ---
 
-สไตล์ตารางนิยามชุดของการฟอร์แมต ที่สามารถนําไปใช้กับตารางได้อย่างง่ายดาย รูป แบบ ต่าง ๆ เช่น พรม, การ ประดับ, การ จัด ระเบียบ, และ การ เรียง ตัว อักษร สามารถ วาง ไว้ ใน แบบ ตาราง และ นํา มา ใช้ กับ ตาราง มาก มาย เพื่อ ให้ ดู เหมือน เสมอ ต้น เสมอ ปลาย.
+ลักษณะตารางกำหนดชุดของการจัดรูปแบบที่สามารถนำไปใช้กับตาราง การจัดรูปแบบเช่นเส้นขอบแรเงาการจัดตำแหน่งและแบบอักษรสามารถตั้งค่าในลักษณะต.
 
-Aspose.Words รองรับการใช้รูปแบบตารางและคุณสมบัติในการอ่านของรูปแบบตาราง รูปแบบตารางถูกเก็บรักษาระหว่างการโหลดและการบันทึกในรูปแบบต่อไปนี้:
+Aspose.Wordsสนับสนุนการใช้รูปแบบตารางกับตารางและยังอ่านคุณสมบัติของรูปแบบตารางใดๆ รูปแบบตารางจะถูกเก็บรักษาไว้ในระหว่างการโหลดและการบันทึกในรูปแบบต่อไปนี้:
 
-- ใช้รูปแบบตารางในรูปแบบ DCX และ WordML เมื่อมีการโหลดและบันทึกในรูปแบบเหล่านี้
-- ใช้รูปแบบตารางไว้เมื่อมีการโหลดและบันทึกในรูปแบบ DOC (แต่ไม่ใช่รูปแบบอื่น)
-- เมื่อมีการส่งออกไปยังรูปแบบอื่น ๆ, การแปลหรือการพิมพ์ รูปแบบตารางจะถูกขยายออกไปเป็นการฟอร์แมตโดยตรงในตาราง ดังนั้นการฟอร์แมตทั้งหมดจะถูกเก็บรักษาไว้
+- รูปแบบตารางในDOCXและWordMLจะถูกเก็บรักษาไว้เมื่อโหลดและบันทึกรูปแบบเหล่านี้
+- รูปแบบตารางจะถูกเก็บรักษาไว้เมื่อโหลดและบันทึกในรูปแบบDOC(แต่ไม่รวมรูปแบบอื่นๆ)
+- เมื่อส่งออกไปยังรูปแบบอื่นๆการแสดงผลหรือการพิมพ์รูปแบบตารางจะขยายไปสู่การจัดรูป
 
-## สร้างรูปแบบตาราง
+## สร้างสไตล์ตาราง
 
-ผู้ใช้สามารถสร้างรูปแบบใหม่ และเพิ่มเข้าไปในชุดสะสมสไตล์ได้ เดอะ [Add](https://reference.aspose.com/words/java/com.aspose.words/stylecollection/) วิธีการต่าง ๆ ถูกใช้ในการสร้างรูปแบบตารางแบบใหม่
+ผู้ใช้สามารถสร้างสไตล์ใหม่และเพิ่มลงในคอลเล็กชันสไตล์ วิธีการ[Add](https://reference.aspose.com/words/java/com.aspose.words/stylecollection/)ถูกใช้เพื่อสร้างสไตล์ตารางใหม่.
 
-ตัวอย่างโค้ดต่อไปนี้ จะแสดงวิธีสร้างผู้ใช้คนใหม่ที่นิยามรูปแบบตาราง:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการสร้างลักษณะตารางที่ผู้ใช้กำหนดใหม่:
 
 {{< gist "aspose-words-gists" "f1d06175603c48e6dabf5a2eea01207c" "create-table-style.java" >}}
 
-## คัดลอกรูปแบบตารางที่มีอยู่
+## คัดลอกสไตล์ตารางที่มีอยู่
 
-หากจําเป็น คุณสามารถคัดลอกรูปแบบตารางที่มีอยู่ในเอกสารบางอย่าง ไปเป็นรูปแบบสะสมของคุณโดยใช้ `AddCopy` วิธี
+หากจำเป็น คุณสามารถคัดลอกรูปแบบตารางที่มีอยู่แล้วในเอกสารบางฉบับลงในคอลเล็กชันรูปแบบของคุณโดยใช้เมธอด `AddCopy`.
 
-เป็น สิ่ง สําคัญ ที่ จะ ทราบ ว่า เมื่อ ลอก แบบ แบบ นี้ ก็ มี การ เลียน แบบ แบบ แบบ ที่ เกี่ยว ข้อง กัน ด้วย.
+สิ่งสำคัญคือต้องทราบว่าด้วยการคัดลอกนี้ลักษณะที่เชื่อมโยงจะถูกคัดลอกด้วย.
 
-ตัวอย่างรหัสต่อไปนี้แสดงถึงวิธีการนําเข้ารูปแบบจากเอกสารหนึ่งไปยังเอกสารอื่น ๆ:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการนำเข้าสไตล์จากเอกสารหนึ่งไปยังเอกสารอื่น:
 
 {{< gist "aspose-words-gists" "f1d06175603c48e6dabf5a2eea01207c" "copy-style-different-document.java" >}}
 
-## ปรับใช้รูปแบบตารางที่มีอยู่
+## ใช้รูปแบบตารางที่มีอยู่
 
-Aspose.Words ให้ [TableStyle](https://reference.aspose.com/words/java/com.aspose.words/tablestyle/) สืบทอดมาจาก [Style](https://reference.aspose.com/words/java/com.aspose.words/style/) ชั้นเรียน. **TableStyle** อนุญาตให้ผู้ใช้ใช้ตัวเลือกต่าง ๆ เช่น การแรเงา, การปะแผ่น, ระยะเยื้อง [CellSpacing](https://reference.aspose.com/words/java/com.aspose.words/tablestyle/#getCellSpacing) ถึง [Font](https://reference.aspose.com/words/java/com.aspose.words/tablestyle/#getFont), ฯลฯ
+Aspose.Wordsให้[TableStyle](https://reference.aspose.com/words/java/com.aspose.words/tablestyle/)สืบทอดมาจากชั้นเรียน[Style](https://reference.aspose.com/words/java/com.aspose.words/style/) **TableStyle**ช่วยให้ผู้ใช้สามารถใช้ตัวเลือกสไตล์ที่แตกต่างกันเช่นการแรเงา,ช่องว่าง,เยื้อง,[CellSpacing](https://reference.aspose.com/words/java/com.aspose.words/tablestyle/#getCellSpacing)และ[Font](https://reference.aspose.com/words/java/com.aspose.words/tablestyle/#getFont)ฯลฯ.
 
-นอกจากนั้น Aspose.Words ให้ [StyleCollection](https://reference.aspose.com/words/java/com.aspose.words/stylecollection/) ชั้นและคุณสมบัติไม่กี่ของ `Table` คลาสที่จะกําหนดรูปแบบตารางที่เราจะใช้: [Style](https://reference.aspose.com/words/java/com.aspose.words/table/#getStyle), [StyleIdentifier](https://reference.aspose.com/words/java/com.aspose.words/table/#setStyleIdentifier-int), [StyleName](https://reference.aspose.com/words/java/com.aspose.words/table/#getStyleName), ถึง [StyleOptions](https://reference.aspose.com/words/java/com.aspose.words/table/#setStyleOptions-int).
+นอกจากนี้Aspose.Wordsให้[StyleCollection](https://reference.aspose.com/words/java/com.aspose.words/stylecollection/)ชั้นและคุณสมบัติไม่กี่ของ`Table`ชั้นที่จะระบุรูปแบบตารางที่เราจะทำงานร่วมกับ: [Style](https://reference.aspose.com/words/java/com.aspose.words/table/#getStyle), [StyleIdentifier](https://reference.aspose.com/words/java/com.aspose.words/table/#setStyleIdentifier-int), [StyleName](https://reference.aspose.com/words/java/com.aspose.words/table/#getStyleName), และ[StyleOptions](https://reference.aspose.com/words/java/com.aspose.words/table/#setStyleOptions-int).
 
-Aspose.Words ยังให้ [ConditionalStyle](https://reference.aspose.com/words/java/com.aspose.words/conditionalstyle/) ชั้นที่เป็นตัวแทนของรูปแบบพิเศษประยุกต์พื้นที่บางส่วนของตารางที่มีการจัดรูปแบบตารางและ [ConditionalStyleCollection](https://reference.aspose.com/words/java/com.aspose.words/conditionalstylecollection/) นั่นแสดงถึงการสะสม **ConditionalStyle** วัตถุ คลังภาพนี้บรรจุชุดของรายการที่จะใช้แทนแต่ละรายการ [ConditionalStyleType](https://reference.aspose.com/words/java/com.aspose.words/conditionalstyletype/) ชนิดของการดูดซึม เดอะ **ConditionalStyleType** การบวกกําหนดพื้นที่ตารางที่เป็นไปได้ทั้งหมด ว่าการฟอร์แมตตามเงื่อนไขใด อาจนิยามในรูปแบบตารางได้
+Aspose.Words ยังให้คลาส [ConditionalStyle](https://reference.aspose.com/words/java/com.aspose.words/conditionalstyle/) ที่แสดงการจัดรูปแบบพิเศษที่นำไปใช้กับพื้นที่บางส่วนของตารางที่มีรูปแบบตารางที่กำหนดไว้ และคลาส [ConditionalStyleCollection](https://reference.aspose.com/words/java/com.aspose.words/conditionalstylecollection/) ที่แสดงชุดของอ็อบเจ็กต์ **ConditionalStyle** คอลเลกชันนี้ประกอบด้วยชุดรายการถาวรที่แสดงรายการหนึ่งรายการสำหรับแต่ละค่าของประเภทการแจงนับ [ConditionalStyleType](https://reference.aspose.com/words/java/com.aspose.words/conditionalstyletype/) การแจงนับ **ConditionalStyleType** กำหนดพื้นที่ตารางที่เป็นไปได้ทั้งหมดซึ่งอาจกำหนดการจัดรูปแบบตามเงื่อนไขในรูปแบบตาราง.
 
-ในกรณีนี้ การฟอร์แมตตามเงื่อนไขสามารถนิยามได้ สําหรับพื้นที่ตารางทั้งหมดที่เป็นไปได้ ที่ถูกนิยามไว้ภายใต้ประเภทอุปทานแบบเงื่อนไข
+ในกรณีนี้ สามารถกำหนดการจัดรูปแบบตามเงื่อนไขสำหรับพื้นที่ตารางที่เป็นไปได้ทั้งหมดที่กำหนดไว้ภายใต้ชนิดการแจงนับ ConditionalStyleType ได้.
 
-ตัวอย่างรหัสต่อไปนี้แสดงถึงวิธีนิยามรูปแบบเงื่อนไขสําหรับแถวหัวของตาราง:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการกำหนดรูปแบบตามเงื่อนไขสำหรับแถวส่วนหัวของตาราง:
 
 {{< gist "aspose-words-gists" "f1d06175603c48e6dabf5a2eea01207c" "define-conditional-formatting.java" >}}
 
-คุณยังสามารถเลือกส่วนของตารางที่จะใช้รูปแบบได้ เช่น คอลัมน์แรก คอลัมน์สุดท้าย แถวที่เรียงแถว มันอยู่ในรายการ [TableStyleOptions](https://reference.aspose.com/words/java/com.aspose.words/tablestyleoptions/) และถูกนํามาใช้ผ่านทาง [StyleOptions](https://reference.aspose.com/words/java/com.aspose.words/table/#getStyleOptions) ทรัพย์สิน เดอะ **TableStyleOptions** การ หอม จัด ทํา ให้ มี การ ผสม ผสาน คุณลักษณะ เหล่า นี้ กัน อย่าง แยบยล.
+นอกจากนี้คุณยังสามารถเลือกส่วนตารางที่จะใช้ลักษณะเช่นคอลัมน์แรกคอลัมน์สุดท้ายแถว นการแจงนับ[TableStyleOptions](https://reference.aspose.com/words/java/com.aspose.words/tablestyleoptions/)และถูกนำไปใช้ผ่านคุณสมบัติ[StyleOptions](https://reference.aspose.com/words/java/com.aspose.words/table/#getStyleOptions) นับ**TableStyleOptions**อนุญาตให้รวมกันบิตของคุณลักษณะเหล่านี้.
 
-ตัวอย่างรหัสต่อไปนี้ จะแสดงวิธีสร้างตารางใหม่ ด้วยรูปแบบตารางที่ใช้:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการสร้างตารางใหม่ที่มีลักษณะตารางที่ใช้:
 
 {{< gist "aspose-words-gists" "f1d06175603c48e6dabf5a2eea01207c" "build-table-with-style.java" >}}
 
-ภาพ ข้าง ล่าง แสดง ให้ เห็น ภาพ ของ **Table Styles** ใน Microsoft Word และคุณสมบัติที่ตรงกันใน Aspose.Words.
+รูปภาพด้านล่างแสดงตัวแทนของ**Table Styles**ในMicrosoft Wordและคุณสมบัติที่สอดคล้องกันในAspose.Words.
 
 ![table-style-aspose-words-java](/words/java/working-with-tablestyle/working-with-table-styles-1.png)
 
-## เลือกรูปแบบจากรูปแบบตาราง แล้วปรับใช้เป็นรูปแบบโดยตรง
+## ใช้การจัดรูปแบบจากรูปแบบตารางและใช้มันเป็นรูปแบบโดยตรง
 
-Aspose.Words ยังให้ [ExpandTableStylesToDirectFormatting](https://reference.aspose.com/words/java/com.aspose.words/document/#expandTableStylesToDirectFormatting) วิธี การ ประกอบ แบบ ที่ พบ บน แบบ ตาราง และ ขยาย ไป ตาม แถว และ เซลล์ ต่าง ๆ ของ ตาราง ใน การ ฟอร์แมต โดย ตรง. ลองทําการรวมรูปแบบตารางและรูปแบบเซลล์
+Aspose.Wordsนอกจากนี้ยังมีวิธีการ[ExpandTableStylesToDirectFormatting](https://reference.aspose.com/words/java/com.aspose.words/document/#expandTableStylesToDirectFormatting)ในการจัดรูปแบบที่พบในสไตล์ตารางและขยายไปยังแถวและเซลล์ของตารางเป็นการจัดรูปแบบโดยตรง ลองรวมการจัดรูปแบบกับรูปแบบตารางและรูปแบบเซลล์.
 
 {{% alert color="primary" %}}
 
-วิธีการนี้จะไม่ใช้แทนรูปแบบอื่น ๆ ที่ได้ปรับใช้มายังตารางแล้วผ่านทางแถวหรือรูปแบบของเซลล์
+วิธีนี้จะไม่แทนที่การจัดรูปแบบอื่นๆที่นำไปใช้กับตารางผ่านรูปแบบแถวหรือเซลล์.
 
 {{% /alert %}}
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีการขยายรูปแบบจากรูปแบบไปยังแถวตารางและเซลล์เป็นรูปแบบโดยตรง:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการขยายการจัดรูปแบบจากลักษณะไปยังตารางแถวและเซล:
 
 {{< gist "aspose-words-gists" "f1d06175603c48e6dabf5a2eea01207c" "expand-formatting-on-cells-and-row-from-style.java" >}}

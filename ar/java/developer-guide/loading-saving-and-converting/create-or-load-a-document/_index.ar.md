@@ -1,58 +1,58 @@
----
-title: إنشاء أو وضع وثيقة Java
-second_title: Aspose.Words for Java
-articleTitle: (أ)
-linktitle: (أ)
+﻿---
+title: إنشاء أو تحميل مستند في Java
+second_title: Aspose.Words ل Java
+articleTitle: إنشاء مستند أو تحميله
+linktitle: إنشاء مستند أو تحميله
 type: docs
 weight: 10
 url: /ar/java/create-or-load-a-document/
-description: "Aspose.Words يُمكّنُك أَنْ تَخْلقَ a مستند فارغ أَو تحميله مِنْ a ملف أَو تيار باستخدام Java."
+description: "Aspose.Words تمكنك من إنشاء مستند فارغ أو تحميله من ملف أو دفق باستخدام Java."
 timestamp: 2024-01-27-14-07-04
 ---
 
-تقريباً أي مهمة تريد أن تؤديها Aspose.Words يتضمن تحميل وثيقة. The `Document` الطبقة تمثل وثيقة محملة بالذاكرة الوثيقة لديها العديد من البنايات المزدحمة التي تسمح لك بصنع وثيقة فارغة أو تحميلها من ملف أو تيار. ويمكن تحميل الوثيقة في أي شكل من أشكال الحمولة تدعمه Aspose.Words. وللاطلاع على قائمة جميع أشكال الحمولة المدعومة، انظر [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) العد
+تتضمن أي مهمة تريد تنفيذها باستخدام Aspose.Words تقريبا تحميل مستند. تمثل فئة `Document` مستندا تم تحميله في الذاكرة. يحتوي المستند على العديد من المنشئات المحملة بشكل زائد مما يسمح لك بإنشاء مستند فارغ أو تحميله من ملف أو دفق. يمكن تحميل المستند بأي تنسيق تحميل مدعوم بـ Aspose.Words. للحصول على قائمة بجميع تنسيقات التحميل المدعومة، راجع [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) تعداد.
 
-## إنشاء وثيقة جديدة {#create-a-new-document}
+## إنشاء مستند جديد {#create-a-new-document}
 
-سنتصل [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) بنّاء بدون معايير لخلق وثيقة فارغة جديدة إذا كنت تريد أن تولد وثيقة برنامجية، أبسط طريقة هي استخدام [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder) درجة لإضافة محتويات الوثائق
+سوف نسمي المنشئ [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) بدون معلمات لإنشاء مستند فارغ جديد. إذا كنت تريد إنشاء مستند برمجيا، فإن أبسط طريقة هي استخدام فئة [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder) لإضافة محتويات المستند.
 
-ويبيّن المثال الرمزي التالي كيفية وضع وثيقة باستخدام مبني الوثائق:
+يوضح مثال التعليمات البرمجية التالية كيفية إنشاء مستند باستخدام منشئ المستند:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-CreateDocument-CreateDocument.java" >}}
 
 {{% alert color="primary" %}}
 
-ملاحظة القيم الافتراضية:
+لاحظ القيم الافتراضية:
 
-- تحتوي الوثيقة الفارغة على جزء واحد مع بارامترات غير مقصودة، فقرة واحدة فارغة، وبعض أساليب الوثائق. وفي الواقع، فإن هذه الوثيقة هي نفسها نتيجة إنشاء " وثيقة جديدة " في Microsoft Word.
-- حجم ورقة الوثيقة [PaperSize](https://reference.aspose.com/words/java/com.aspose.words/papersize/).**Letter**.
+- يحتوي المستند الفارغ على قسم واحد به معلمات افتراضية، وفقرة فارغة واحدة، وبعض أنماط المستندات. في الواقع هذا المستند هو نفسه نتيجة إنشاء "مستند جديد" في Microsoft Word.
+- حجم ورق المستند هو [PaperSize](https://reference.aspose.com/words/java/com.aspose.words/papersize/).**Letter**.
 
 {{% /alert %}}
 
-## عنوان الوثيقة
+## تحميل مستند
 
-تحميل وثيقة قائمة في أي من الوثائق [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) صيغ أو نقل اسم الملف أو التدفق إلى أحد مبنيي الوثائق ويحدد شكل الوثيقة المحملة تلقائياً بتمديدها.
+لتحميل مستند موجود بأي من تنسيقات [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/)، قم بتمرير اسم الملف أو الدفق إلى أحد منشئي المستندات. يتم تحديد تنسيق المستند الذي تم تحميله تلقائيا من خلال امتداده.
 
-### لويد من ملف {#load-from-a-file}
+### تحميل من ملف {#load-from-a-file}
 
-مرر اسم ملف كخط لمبنى الوثائق لفتح وثيقة قائمة من ملف.
+قم بتمرير اسم ملف كسلسلة إلى منشئ المستند لفتح مستند موجود من ملف.
 
-The following code example shows how to open a document from a file:
+يوضح مثال التعليمات البرمجية التالية كيفية فتح مستند من ملف:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-OpenDocument-OpenFromFile.java" >}}
 
-يمكنك تحميل ملف النموذج من هذا المثال [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
+يمكنك تنزيل ملف القالب لهذا المثال من [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
 
-### لويد من سترام {#load-from-a-stream}
+### تحميل من تيار {#load-from-a-stream}
 
-وبغية فتح وثيقة من مجرى ما، لا يمكن إلا أن تجتاز مسارا يحتوي على الوثيقة في مبنى الوثائق.
+لفتح مستند من دفق، ما عليك سوى تمرير كائن دفق يحتوي على المستند إلى منشئ المستند.
 
-The following code example shows how to open a document from a stream:
+يوضح مثال التعليمات البرمجية التالية كيفية فتح مستند من دفق:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-OpenDocument-OpenFromStream.java" >}}
 
 {{% alert color="primary" %}}
 
-يمكنك تحميل ملف النموذج من هذا المثال [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
+يمكنك تنزيل ملف القالب لهذا المثال من [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
 
 {{% /alert %}}

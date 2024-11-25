@@ -1,74 +1,74 @@
----
-title: 책갈피 작업 Java
-second_title: Aspose.Words 제품정보 Java
-articleTitle: 즐겨찾기 작업
-linktitle: 즐겨찾기 작업
-description: "책갈피 개념과 책갈피는 어떻게 당신의 프로그램에 사용될 수 있는가? Java·"
+﻿---
+title: Java의 책갈피 작업
+second_title: Aspose.WordsJava
+articleTitle: 북마크 작업
+linktitle: 북마크 작업
+description: "책갈피 개념 및Java을 사용하여 프로그램에서 책갈피를 사용할 수 있는 방법을 이해합니다."
 type: docs
 weight: 180
 url: /ko/java/working-with-bookmarks/
 timestamp: 2024-01-27-14-07-04
 ---
 
-즐겨찾기에 추가 Microsoft Word 이름과 미래 참조를 식별하는 위치 또는 파편을 문서화합니다. 예를 들어, 나중에 수정하려는 텍스트를 식별 할 수 있습니다. 문서를 통해 스크롤하는 대신 텍스트를 찾습니다. 즐겨찾기 대화 상자를 사용하여 이동할 수 있습니다.
+책갈피는Microsoft Word문서에서 이름을 지정하고 나중에 참조할 수 있도록 식별하는 위치 또는 조각을 식별합니다. 예를 들어 책갈피를 사용하여 나중에 수정할 텍스트를 식별할 수 있습니다. 문서를 스크롤하여 텍스트를 찾는 대신 책갈피 대화 상자를 사용하여 해당 텍스트로 이동할 수 있습니다.
 
-이름 * Aspose.Words, 당신은보고 또는 문서에 책갈피를 사용할 수 있습니다. 일부 데이터를 책갈피로 삽입하거나 내용에 특별한 형식을 적용 할 수 있습니다. 문서의 특정 위치에서 텍스트를 검색 할 책갈피도 사용할 수 있습니다.
+Aspose.Words을 사용하면 보고서 또는 문서의 책갈피를 사용하여 일부 데이터를 책갈피에 삽입하거나 콘텐츠에 특수 서식을 적용할 수 있습니다. 책갈피를 사용하여 문서의 특정 위치에서 텍스트를 검색할 수도 있습니다.
 
-사용 책갈피로 수행 할 수있는 작업 Aspose.Words 당신이 사용 할 수있는 것과 동일 Microsoft Word· 새 책갈피, 삭제, 책갈피로 이동하거나 책갈피 이름을 설정할 수 있습니다.
+Aspose.Words을 사용하여 책갈피를 사용하여 수행할 수 있는 작업은Microsoft Word을 사용하여 수행할 수 있는 작업과 동일합니다. 새 책갈피를 삽입,삭제,책갈피로 이동,책갈피 이름 가져 오기 또는 설정,가져 오기 또는 그 안에 동봉 된 텍스트를 설정할 수 있습니다.
 
-## 책갈피
+## 책갈피 삽입
 
-제품 정보 [startBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startBookmark-java.lang.String) · [endBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endBookmark-java.lang.String) 시작과 끝을 표시하여 책갈피를 만듭니다. 같은 책갈피 이름을 두 방법 모두 통과하는 것을 잊지 마십시오. 문서의 책갈피와 범위에 걸쳐 할 수 있습니다. 잘못된 모양 책갈피 또는 중복 이름과 책갈피는 문서가 저장될 때 무시될 것입니다.
+[startBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startBookmark-java.lang.String)및[endBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endBookmark-java.lang.String)을 사용하여 각각 시작과 끝을 표시하여 책갈피를 만듭니다. 두 가지 방법 모두에 동일한 북마크 이름을 전달하는 것을 잊지 마십시오. 문서의 책갈피는 겹쳐서 모든 범위에 걸쳐 있을 수 있습니다. 잘못 형성된 책갈피 또는 중복 이름을 가진 책갈피는 문서를 저장할 때 무시됩니다.
 
 {{% alert color="primary" %}}
 
-책갈피에 있는 모든 백색 공간은 underscores로 대체되었습니다. 이 제한은 MS Word 형식의 책갈피부터 DOCX 또는 DOC와 같은 MS Word 형식까지 흰색 공간을 가질 수 없습니다. 그러나 PDF는 그런 책갈피를 허용합니다. 이제 PDF에서 bookmarks를 사용해야하는 경우, XPS 또는 SWF 개요, 당신은 흰색 공간을 사용할 수 있습니다.
+북마크의 모든 공백은 밑줄로 대체되었습니다. 이 제한은DOCX또는DOC과 같은MS단어 형식의 책갈피에는 공백이 있을 수 없기 때문에MS단어 형식에서 비롯되었습니다. 그러나PDF는 이러한 북마크를 허용합니다. 이제PDF,XPS또는SWF윤곽선에서 북마크를 사용해야하는 경우 공백과 함께 사용할 수 있습니다.
 
 {{% /alert %}}
 
-다음 코드 예제는 새로운 책갈피를 만드는 방법을 보여줍니다:
+다음 코드 예제에서는 새 책갈피를 만드는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-bookmarks-CreateBookmark-CreateBookmark.java" >}}
 
-## 즐겨찾기
+## 책갈피 얻기
 
-때로는 책갈피 또는 기타 목적으로 책갈피 수집을 얻기 위해서는 필요합니다. 사용 방법 **Node.getRange에 대해** 모든 문서 노드에 노출된 속성 **Range** 이 노드에 포함된 문서의 일부를 나타내는 객체. 이 개체를 사용하여 검색 **BookmarkCollection** 그리고 그런 다음 컬렉션 인덱스를 사용하여 특정 책갈피를 얻습니다.
+때로는 책갈피를 통해 또는 다른 목적으로 반복하기 위해 책갈피 컬렉션을 얻을 필요가 있습니다. 이 노드에 포함된 문서 부분을 나타내는**Range**개체를 반환하는 모든 문서 노드에서 노출된**Node.getRange**속성을 사용합니다. 이 개체를 사용하여**BookmarkCollection**을 검색한 다음 컬렉션 인덱서를 사용하여 특정 책갈피를 가져옵니다.
 
 {{% alert color="primary" %}}
 
-다음 예제의 샘플 파일을 다운로드 할 수 있습니다. [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Bookmarks.docx)·
+다음 예제의 샘플 파일은 다음에서 다운로드할 수 있습니다 [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Bookmarks.docx).
 
 {{% /alert %}}
 
-다음 코드 예제는 책갈피 컬렉션에서 책갈피를 얻는 방법을 보여줍니다
+다음 코드 예제에서는 책갈피 컬렉션에서 책갈피를 가져오는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-bookmarks-AccessBookmarks-AccessBookmarks.java" >}}
 
-다음 코드 예제는 책갈피 이름과 텍스트를 얻는 방법을 보여줍니다:
+다음 코드 예제에서는 책갈피 이름 및 텍스트를 가져오거나 설정하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-bookmarks-BookmarkNameAndText-BookmarkNameAndText.java" >}}
 
-다음 코드 예제는 테이블을 책갈피하는 방법을 보여줍니다:
+다음 코드 예제에서는 테이블 책갈피를 지정하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-bookmarks-BookmarkTable-BookmarkTable.java" >}}
 
-문서에 이미 존재하는 이름에 책갈피의 이름을 변경하면 오류가 생성되지 않으며 첫 번째 책갈피는 문서를 저장할 때 저장됩니다.
+책갈피 이름을 문서에 이미 있는 이름으로 변경하면 오류가 발생하지 않으며 문서를 저장할 때 첫 번째 책갈피만 저장됩니다.
 
-문서의 일부 책갈피는 양식 필드에 할당됩니다. 그런 책갈피로 이동하고 텍스트를 삽입하고 텍스트를 양식 필드 코드로 삽입합니다. 이 양식 필드를 유효하지 않지만 삽입 된 텍스트는 필드 코드의 일부이기 때문에 볼 수 없습니다.
+문서의 일부 책갈피는 양식 필드에 할당됩니다. 이러한 책갈피로 이동하고 거기에 텍스트를 삽입하면 텍스트가 양식 필드 코드에 삽입됩니다. 이렇게 하면 양식 필드가 무효화되지는 않지만 삽입된 텍스트는 필드 코드의 일부가 되므로 표시되지 않습니다.
 
-다음 코드 예제는 책갈피 테이블의 열에 액세스하는 방법을 보여줍니다:
+다음 코드 예제에서는 책갈피된 테이블의 열에 액세스하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-bookmarks-BookmarkTable-BookmarkTableColumns.java" >}}
 
-## 즐겨찾기로 이동
+## 책갈피로 이동
 
-풍부한 콘텐츠를 삽입 할 필요가 있다면 (단어 텍스트가 아닙니다) 책갈피로 사용해야합니다. [moveToBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToBookmark-java.lang.String) 책갈피에 커서를 이동하고 다음 사용 **DocumentBuilder** 컨텐츠를 삽입하는 방법 및 속성.
+서식 있는 콘텐츠(일반 텍스트 뿐 아니라)를 책갈피에 삽입해야 하는 경우[moveToBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToBookmark-java.lang.String)을 사용하여 커서를 책갈피로 이동한 다음**DocumentBuilder**메서드와 속성을 사용하여 콘텐츠를 삽입해야 합니다.
 
-## Hide 즐겨찾기
+## 북마크 콘텐츠 숨기기 표시
 
-전체 책갈피 (*를 포함하여 bookmarked content*)는 True 부분 안에 캡슐화될 수 있습니다 `IF` 본문 바로가기 Aspose.Words· 그런 방법으로 할 수 있습니다. `IF` 필드는 표현 (*Left of operator*)의 배열 된 Merge 필드를 포함하고 Merge Field의 값에 따라 `IF` 필드는 Word 문서의 책갈피의 내용을 보여줍니다.
+전체 책갈피(*including the bookmarked content*)는Aspose.Words를 사용하여`IF`필드의 실제 부분 내에 캡슐화 할 수 있습니다. `IF`필드에는 식(*Left of Operator*)에 중첩된 병합 필드가 포함될 수 있으며 병합 필드의 값에 따라`IF`필드는 워드 문서에서 책갈피의 내용을 표시하거나 숨깁니다.
 
-다음 코드 예제는 표시 / 숨기기 북마크를 보여줍니다.
+다음 코드 예제에서는 책갈피를 표시/숨기는 방법을 보여 줍니다.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-bookmarks-ShowHideBookmarks-ShowHideBookmarks_call.java" >}}
 

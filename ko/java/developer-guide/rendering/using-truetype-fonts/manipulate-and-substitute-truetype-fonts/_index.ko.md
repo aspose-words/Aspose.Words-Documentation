@@ -1,41 +1,41 @@
----
-title: TrueType 글꼴을 대체하고
-second_title: Aspose.Words 제품정보 Java
-articleTitle: TrueType 글꼴을 대체하고
-linktitle: TrueType 글꼴을 대체하고
-description: "Aspose.Words 제품정보 Java 정확한 TrueType 글꼴을 결과 문서에 삽입하여 정확하게 표시하거나 적절한 글꼴 교체를 검색하거나 글꼴 fallback 메커니즘을 사용합니다."
+﻿---
+title: TrueType글꼴 조작 및 대체
+second_title: Aspose.WordsJava
+articleTitle: TrueType글꼴 조작 및 대체
+linktitle: TrueType글꼴 조작 및 대체
+description: "Aspose.Words의 경우Java는 올바른TrueType글꼴을 결과 문서에 포함시켜 정확하게 표시되도록 하거나 적절한 글꼴 대체를 검색하거나 글꼴 대체 메커니즘을 사용할 수 있습니다."
 type: docs
 weight: 10
 url: /ko/java/manipulate-and-substitute-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---
 
-Aspose.Words 견적 요청 다양한 작업에 대한 글꼴을 입력하여 문서를 고정 페이지 형식으로 렌더링, 예를 들어, PDF 또는 XPS· 시간: Aspose.Words 문서 렌더링, 임베디드 글꼴의 embedding 및 subset embedding 수행을 수행해야, 원본 PDF 또는 XPS 파일 형식 이 문서는 어떤 뷰어와 동일하게 나타납니다. 또한, XPS 사양은 항상 문서에 내장 될 글꼴을 요구합니다.
+Aspose.Words에는PDF또는XPS과 같은 고정 페이지 형식으로 문서를 렌더링하는 등 다양한 작업에TrueType글꼴이 필요합니다. Aspose.Words이 문서를 렌더링할 때,결과 문서에TrueType글꼴의 임베딩 및 하위 집합 임베딩을 수행해야 합니다.이는 인기있는PDF또는XPS형식을 포함하여 문서 생성 중에 일반적인 관행입니다. 이렇게 하면 문서가 모든 뷰어에게 동일하게 표시됩니다. 또한,XPS사양은 글꼴이 항상 문서에 포함되어야 한다고 요구합니다.
 
-제품 정보 Aspose.Words 문자를 정확하게 측정하고 성공적으로 관련 글꼴을 포함, 다음 조건은 충족해야:
+Aspose.Words문자를 정확하게 측정하고 관련 글꼴을 성공적으로 포함하려면 다음 조건을 충족해야 합니다:
 
-1. 명세 Aspose.Words 시스템에 TrueType 글꼴 파일을 찾을 수 있어야 합니다.
-1. 명세 가능한 TrueType 글꼴이 있어야합니다. Aspose.Words, 문서에 사용되는 것과 같은 글꼴 가족 이름과 마찬가지로.
+1. Aspose.Words시스템에서TrueType글꼴 파일을 찾아 액세스할 수 있어야 합니다.
+1. Aspose.Words에 사용할 수 있는TrueType글꼴이 충분해야 하며,가급적이면 문서에 사용된 글꼴과 동일한 글꼴 이름을 사용해야 합니다.
 
-문서의 글꼴은 가족 이름, 스타일, 크기, 색상과 같은 단체를 나타냅니다. `TrueType` 글꼴 (물자 글꼴) 법인. Aspose.Words 문서의 글꼴을 처리의 일부 단계에서 물리적 글꼴로 해결합니다. 이 작업을 수행 할 수 있습니다, 일반적으로 배치 건설 중 텍스트 크기를 계산하는 작업 및 고정 페이지 형식으로 embedding/subsetting. HTML을 로딩하거나 몇 가지 플로우 형식에 따라 HTML 또는 embedding/subsetting을 로딩하는 동안 글꼴 해결 및 대체와 같은 다른 덜 인기있는 작업의 수는 마찬가지로 활성화됩니다.
+문서의 글꼴은`TrueType`글꼴(실제 글꼴)엔터티와 다른 가족 이름,스타일,크기,색상과 같은 엔터티를 나타냅니다. Aspose.Words처리 중 일부 단계에서 문서의 글꼴을 실제 글꼴로 확인합니다. 이것은 특정 작업을 가능하게 합니다.일반적으로 레이아웃 구성과 고정 페이지 형식으로 임베딩/하위 설정 중에 텍스트 크기를 계산하는 작업입니다. HTML로드 중 글꼴 해결 및 대체 또는 일부 흐름 형식에 포함/하위 설정과 같은 덜 인기있는 여러 작업도 마찬가지로 활성화됩니다.
 
-## Font Manipulation 및 성능 문제
+## 글꼴 조작 및 성능 문제
 
-모든 글꼴 조작 메커니즘이 포함되어 있습니다 [FontSettings](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/) 수업. 이 클래스는 정의 된 글꼴 소스뿐만 아니라 글꼴 대체 프로세스를 위해 정의 된 글꼴 소스 내에서 태칭 글꼴을 담당합니다.
+사용 가능한 모든 글꼴 조작 메커니즘은[FontSettings](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/)클래스에 포함되어 있습니다. 이 클래스는 정의 된 글꼴 소스 내에서 글꼴을 가져 오기뿐만 아니라 아래에 설명 된대로 글꼴 대체 프로세스에 대한 책임이 있습니다.
 
-글꼴은 몇 단계로 나뉩니다
+글꼴은 여러 단계로 구문 분석됩니다:
 
-1. 명세 글꼴에 대한 정보를 얻기, 모든 사용 가능한 글꼴에서 해결.
-1. 명세 해결된 글꼴을 파서 사용할 수 있습니다. glyphs 및 메트릭 (horizontal 및 수직).
-1. 명세 embedding 및 subsetting을 위한 해결된 글꼴을 파.
+1. 사용 가능한 모든 글꼴에서 해결,글꼴에 대한 정보를 얻기.
+1. 해결 된 글꼴을 구문 분석하여 사용 가능한 글리프 및 메트릭(가로 및 세로)을 가져옵니다.
+1. 포함 및 하위 설정을 위해 해결 된 글꼴을 구문 분석합니다.
 
-시간: Aspose.Words 처음으로 문서의 글꼴을 만날 때, 각 글꼴 소스에 위치한 글꼴 파일에서 글꼴 전체 이름, 가족 이름, 버전, 스타일과 같은 기본 글꼴 정보를 얻기 위해 시도. 모든 글꼴이 retrieved 후, Aspose.Words 이 세부 사항을 사용하여 필요한 글꼴 데이터 또는 요청 된 글꼴에 적합한 교체를 찾으십시오.
+Aspose.Words이 문서에서 처음으로 글꼴을 발견하면 각 글꼴 소스에 있는 글꼴 파일에서 글꼴 전체 이름,가족 이름,버전,스타일과 같은 기본 글꼴 정보를 얻으려고 시도합니다. 모든 글꼴이 검색된 후Aspose.Words은 이러한 세부 정보를 사용하여 필요한 글꼴 데이터 또는 요청된 글꼴의 적절한 대체를 찾습니다.
 
-위에서 설명한 절차는 시간이 많이 걸리기 때문에 첫 번째 발사에서 애플리케이션 성능에 부정적인 영향을 줄 수 있습니다. 그러나, 각 인스턴스의 **FontSettings** 그 자체 캐시를 가지고, 그 후속 문서의 처리 시간을 줄일 수. 예를 들어, 인스턴스를 공유할 수 있습니다. **FontSettings** 다른 문서 사이에 클래스, 당신은 문서를 로딩 할 수 있습니다. 다음 예제는 다음과 같습니다
+위에서 설명한 절차는 시간이 많이 걸리기 때문에 처음 시작할 때 응용 프로그램 성능에 부정적인 영향을 줄 수 있습니다. 그러나**FontSettings**의 각 인스턴스에는 자체 캐시가 있으므로 후속 문서의 처리 시간을 줄일 수 있습니다. 예를 들어,서로 다른 문서 간에**FontSettings**클래스의 인스턴스를 공유할 수 있으므로 문서 로드 속도를 높일 수 있습니다. 다음 예제에서는 이를 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSettings-FontSettingsWithLoadOptions.java" >}}
 
-때에 **FontSettings** 정의되지 않습니다. Aspose.Words 기본 설정 **FontSettings** 예. 이 인스턴스는 문서 중 자동으로 공유되며 다음과 같이 추출할 수 있습니다
+**FontSettings**이 명시적으로 정의되지 않은 경우Aspose.Words은 기본**FontSettings**인스턴스를 사용합니다. 이 인스턴스는 문서 간에 자동으로 공유되며 다음과 같이 추출할 수 있습니다:
 
 **Java**
 
@@ -43,34 +43,34 @@ Aspose.Words 견적 요청 다양한 작업에 대한 글꼴을 입력하여 문
 FontSettings fontSettings = FontSettings.getDefaultInstance();
 {{< /highlight >}}
 
-모든 처리 문서가 동일한 글꼴 설정이 필요하면 설정 및 기본 활용에 좋습니다. **FontSettings** 예. 모든 문서에 동일한 글꼴 소스를 사용해야합니다. 이 경우, 다음과 같이 기본 인스턴스를 수정할 수 있습니다
+모든 처리 문서에 동일한 글꼴 설정이 필요한 경우 기본**FontSettings**인스턴스를 설정하고 사용하는 것이 좋습니다. 모든 문서에 대해 동일한 글꼴 소스를 사용해야 한다고 가정합니다. 이 경우 다음과 같이 기본 인스턴스를 수정할 수 있습니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSettings-FontSettingsFontSource.java" >}}
 
 {{% alert color="primary" %}}
 
-사용자 정의 **FontSettings** 기본 인스턴스보다 높은 우선 순위가 있습니다.
+사용자 지정**FontSettings**은 기본 인스턴스보다 우선 순위가 높습니다.
 
 {{% /alert %}}
 
 ## 글꼴 가용성 및 대체
 
-문서의 텍스트는 Arial, Times New Roman, Verdana 등과 같은 다양한 글꼴로 포맷 할 수 있습니다. 시간: Aspose.Words 문서 렌더링, 문서에 지정된 글꼴을 선택하려고합니다.
+문서의 텍스트는 굴림,타임즈 뉴 로만,베르다나 등과 같은 다양한 글꼴로 서식을 지정할 수 있습니다. Aspose.Words이 문서를 렌더링하면 문서에 지정된 글꼴을 선택하려고 합니다.
 
-그러나 정확한 글꼴이 발견 될 수 없을 때 상황이 있습니다. Aspose.Words 대신 유사한 글꼴을 대체해야합니다. Aspose.Words 다음 프로세스에 따라 글꼴을 선택합니다
+그러나 정확한 글꼴을 찾을 수 없으며Aspose.Words대신 유사한 글꼴로 대체해야 하는 상황이 있습니다. Aspose.Words다음 프로세스에 따라 글꼴을 선택합니다:
 
-1. 명세 Aspose.Words 정확한 글꼴 이름과 함께 사용 가능한 글꼴 소스 중 글꼴을 찾을 수 있습니다.
-1. 명세 Aspose.Words 원본 문서에 내장된 글꼴 중 필수 글꼴을 찾을 수 있습니다. DOCX와 같은 일부 문서 형식은 내장 된 글꼴을 포함 할 수 있습니다.
-1. 명세 이름 * Aspose.Words 정확한 이름 일치와 필수 글꼴을 찾을 수 없습니다, 그리고 [AltName](https://reference.aspose.com/words/java/com.aspose.words/fontinfo/#getAltName) 이 폰트에 정의 된 속성, 다음 Aspose.Words 정의된 글꼴을 찾을 것이다 **AltName** 으로 [FontInfo](https://reference.aspose.com/words/java/com.aspose.words/fontinfo/) 글꼴 정보를 지정하는 클래스.
-1. 명세 이름 * Aspose.Words 정의된 글꼴을 찾을 수 없습니다. **AltName** 또한 정의되지 않습니다. 글꼴 대변 규칙은 아래에 설명 된 것과 같이 하나씩 적용됩니다 (특히 교체가 발견되면, 글꼴 대변 과정 정지 및 다음 단계는 실행되지 않습니다)
-   1. 명세 Aspose.Words OS 폰트 설정을 적용하려고합니다. 사용 가능한 경우 `FontConfig` 관련 기사 이 비-Windows 기능은 FontConfig 호환 OS와 함께 사용되어야 합니다. 거의 모든 유닉스 기반 OS 이미 `FontConfig` System-wide 글꼴 구성, 사용자 정의 및 응용 프로그램에 대한 액세스를 제공하기 위해 설계된 라이브러리. 그렇지 않으면이 라이브러리는 사용자가 쉽게 설치할 수 있습니다.<br/>
-      Aspose.Words 데이터를 쿼리하고 자체 목적으로 FontConfig 결과를 해석하는 방법을 알고 있습니다. 기본적으로, `FontConfig` 유틸리티가 비활성화됩니다. 다음과 같이 사용할 수 있습니다:<br/>
-      **Java**<br/>
+1. Aspose.Words정확한 글꼴 이름을 가진 사용 가능한 글꼴 소스 중에서 글꼴을 찾으려고 합니다.
+1. Aspose.Words원본 문서에 포함된 글꼴 중에서 필요한 글꼴을 찾습니다. DOCX과 같은 일부 문서 형식에는 포함된 글꼴이 포함될 수 있습니다.
+1. Aspose.Words가 정확한 이름과 일치하는 필수 글꼴과 이 글꼴에 대해 정의된[AltName](https://reference.aspose.com/words/java/com.aspose.words/fontinfo/#getAltName)속성을 찾을 수 없는 경우Aspose.Words는 글꼴 정보를 지정하는[FontInfo](https://reference.aspose.com/words/java/com.aspose.words/fontinfo/)클래스에서**AltName**로 정의된 글꼴을 찾습니다.
+1. Aspose.Words이 정의된 글꼴을 찾을 수 없고**AltName**도 정의되지 않은 경우 아래에 설명된 대로 글꼴 대체 규칙이 하나씩 적용됩니다(적절한 대체가 발견되면 글꼴 대체 프로세스가 중지되고 다음 단계가 실행되지 않음).:
+   1. Aspose.Words은`FontConfig`유틸리티를 사용하여OS글꼴 설정을 사용할 수 있는 경우 적용하려고 시도합니다. 이 비Windows기능은FontConfig호환OS와 함께 사용해야 합니다. 거의 모든 유닉스 기반OS는 이미 시스템 전체의 글꼴 구성,사용자 정의 및 응용 프로그램에 대한 액세스를 제공하도록 설계된`FontConfig`라이브러리를 가지고 있습니다. 그렇지 않으면 사용자가 이 라이브러리를 쉽게 설치할 수 있습니다.<br>
+      Aspose.Words은 데이터를 쿼리하고FontConfig결과를 자체 목적으로 해석하는 방법을 알고 있습니다. 기본적으로`FontConfig`유틸리티는 비활성화되어 있습니다. 다음과 같이 활성화 할 수 있습니다:<br>
+**Java**
       {{< highlight csharp >}}
       fontSettings.getSubstitutionSettings().getFontConfigSubstitution()().setEnabled(true);
       {{< /highlight >}}
-   1. 다음 단계는 단순하지만 믿을 수없는 강력한 메커니즘 [TableSubstitutionRule](https://reference.aspose.com/words/java/com.aspose.words/tablesubstitutionrule/)· 기본적으로, 이 기능은 모든 OS에 사용할 수 있습니다. Aspose.Words XML 테이블을 사용하여 다른 OS의 기본 대용 규칙을 정의합니다. Table substitution 규칙에 따르면, 대체 폰트 이름의 목록은 사용됩니다.<br/>
-      **XML**<br/>
+   1. 다음 단계는 간단하지만 믿을 수 없을 정도로 강력한 메커니즘인[TableSubstitutionRule](https://reference.aspose.com/words/java/com.aspose.words/tablesubstitutionrule/)입니다. 기본적으로 이 기능은 활성화되어 있으며OS에 사용할 수 있습니다. Aspose.Words은 다른OS에 대한 기본 대체 규칙을 정의하는XML테이블을 사용합니다. 테이블 대체 규칙에 따라 대체 글꼴 이름 목록이 사용됩니다.<br>
+**XML**
       {{< highlight html >}}
       <TableSubstitutionSettings xmlns="Aspose.Words"> 
 	<SubstitutesTable> 
@@ -79,73 +79,73 @@ FontSettings fontSettings = FontSettings.getDefaultInstance();
 	</SubstitutesTable> 
       </TableSubstitutionSettings>
       {{< /highlight >}}
-      OriginalFont - 대체 될 글꼴, SubstituteFonts - comma에 의해 분리 된 하위 헌법 변형 목록. 첫번째 유효한 글꼴은 보충을 위해 사용됩니다.<br/>
-      이 규칙의 주요 특징은 다음과 같은 예에서 보이는 것처럼 자신의 헌법 테이블을로드 할 수있는 능력입니다.<br/>
-      **Java**<br/>
+      OriginalFont-대체 할 글꼴,SubstituteFonts-쉼표로 구분 된 대체 변형 목록. 사용 가능한 첫 번째 글꼴은 교체에 사용됩니다.<br>
+      이 규칙의 주요 기능은 다음 예제와 같이 자체 대체 테이블을 로드하는 기능입니다:<br>
+**Java**
       {{< highlight csharp >}}
       fontSettings.getSubstitutionSettings().getTableSubstitution().load("Table.xml");
       {{< /highlight >}}
-      당신은 항아리에서 기존 테이블을 기반으로하거나 다음 방법으로 프로그래밍 할 수 있습니다:<br/>
-      **Java**<br/>
+      항아리에서 기존 테이블을 기본으로 사용하거나 다음과 같은 방법으로 프로그래밍 방식으로 저장할 수 있습니다:<br>
+**Java**
       {{< highlight csharp >}}
       fontSettings.getSubstitutionSettings().getTableSubstitution().save("MyTable.xml");
       {{< /highlight >}}
-      이 메커니즘의 유연성에도 불구하고, 아래에 표시된 것처럼 더 나은 경우 일부 케이스가 있습니다.<br/>
-      **Java**<br/>
+      이 메커니즘의 유연성에도 불구하고 아래 그림과 같이 비활성화하는 것이 더 나은 경우가 있습니다:<br>
+**Java**
       {{< highlight csharp >}}
       fontSettings.getSubstitutionSettings().getTableSubstitution().setEnabled(false);
       {{< /highlight >}}
-   1. 더 **FontInfo** 대용법은 테이블 대용법이 글꼴을 찾을 수 없는 경우에 적용될 것입니다. 이 메커니즘은 기본적으로 활성화됩니다. Aspose.Words 특정 문서에 포함된 글꼴 정보에 따라 가장 적합한 글꼴을 찾습니다. 이 정보는 구할 수 있습니다. **FontInfo** 아래와 같이 클래스:<br/>
-      **Java**<br/>
+   1. 테이블 대체 규칙이 글꼴을 찾을 수 없는 경우**FontInfo**대체 규칙이 적용됩니다. 이 메커니즘은 기본적으로 활성화되어 있습니다. Aspose.Words특정 문서에 포함된 글꼴 정보에 따라 가장 적합한 글꼴을 찾습니다. 이 정보는 아래와 같이**FontInfo**클래스에서 얻을 수 있습니다:<br>
+**Java**
       {{< highlight csharp >}}
       FontInfoCollection fontInfos = doc.getFontInfos();
       {{< /highlight >}}
-      사용자는 이 기능의 작업 흐름에 방해 할 수 없습니다. 그들은 불면증 결과의 경우 비활성화하기로 결정하면:<br/>
-      **Java**<br/>
+      사용자가 만족스럽지 못한 결과가 발생할 경우 이 기능을 사용하지 않도록 설정하지 않으면 이 기능의 워크플로를 방해할 수 없습니다:<br>
+**Java**
       {{< highlight csharp >}}
       fontSettings.getSubstitutionSettings().getFontInfoSubstitution().setEnabled(false);
       {{< /highlight >}}
-      이름 * **FontInfo** 누락된 글꼴을 사용할 수 없습니다, 그 후 프로세스가 중지됩니다.
-   1. 명세 **DefaultFont** 헌법 규칙은 경우에 적용될 것입니다 `FontInfo` 헌법도 실패했습니다. 이 규칙은 기본적으로 활성화됩니다. 이 규칙에 따르면, Aspose.Words 지정된 기본 글꼴을 사용하려고합니다. [DefaultFontName](https://reference.aspose.com/words/java/com.aspose.words/defaultfontsubstitutionrule/#getDefaultFontName) 호텔 위치 사용자가 자신의 기본 글꼴을 선택하지 않은 경우, "Times New Roman"은 기본 글꼴로 사용됩니다. 이 규칙은 다음과 같이 볼 수 있습니다:<br/>
-      **Java**<br/>
+      누락된 글꼴에**FontInfo**을 사용할 수 없는 경우 프로세스가 중지됩니다.
+   1. **DefaultFont**대체 규칙은`FontInfo`대체도 실패한 경우에 적용됩니다. 이 규칙은 기본적으로 활성화되어 있습니다. 이 규칙에 따라Aspose.Words는[DefaultFontName](https://reference.aspose.com/words/java/com.aspose.words/defaultfontsubstitutionrule/#getDefaultFontName)속성에 지정된 기본 글꼴을 사용하려고 합니다. 사용자가 자신의 기본 글꼴을 선택하지 않은 경우"타임즈 뉴 로만"이 기본 글꼴로 사용됩니다. 이 규칙은 아래와 같이 비활성화 할 수 있습니다:<br>
+**Java**
       {{< highlight csharp >}}
       fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().setEnabled(false);
       {{< /highlight >}}
-      현재 기본 글꼴을 확인하려면:<br/>
-      **Java**<br/>
+      현재 기본 글꼴을 확인하려면 다음을 사용합니다:<br>
+**Java**
       {{< highlight csharp >}}
       fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().getDefaultFontName();
       {{< /highlight >}}
-      자신의 교체 옵션을 설정하려면:<br/>
-      **Java**<br/>
+      자체 교체 옵션을 설정하려면 다음을 적용하십시오:<br>
+**Java**
       {{< highlight csharp >}}
       fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().setDefaultFontName("Arial");
       {{< /highlight >}}
-1. 명세 이름 * Aspose.Words 폰트 대체를 수행 할 수 없습니다, 사용 가능한 글꼴 소스에서 첫 번째 사용 가능한 글꼴을 얻을 것이다.
-1. 명세 마지막으로, if Aspose.Words 가능한 글꼴 소스 중 어떤 글꼴을 찾을 수 없습니다, 그것은 무료 Fanwood 글꼴을 사용하여 문서를 렌더링 Aspose.Words 집합.
+1. Aspose.Words이 글꼴 대체를 수행할 수 없는 경우 사용 가능한 글꼴 소스에서 사용 가능한 첫 번째 글꼴을 가져오려고 합니다.
+1. 마지막으로Aspose.Words에서 사용 가능한 글꼴 소스 중에서 글꼴을 찾을 수 없는 경우Aspose.Words어셈블리에 포함된 사용 가능한 팬우드 글꼴을 사용하여 문서를 렌더링합니다.
 
 {{% alert color="primary" %}}
 
-이름 * **FontInfo** *FontInfo 대변 규칙*는 항상 글꼴을 해결하고 기본 글꼴 규칙을 무시합니다. 기본 글꼴 규칙을 사용하려면 *FontInfo 대문자 규칙 *를 비활성화해야합니다. *FontConfig 대변 규칙 *가 대부분의 경우 글꼴을 해결하고 다른 모든 규칙을 무시합니다.
+**FontInfo**를 사용할 수 있는 경우*FontInfo substitution rule*는 항상 글꼴을 해결하고 기본 글꼴 규칙을 재정의합니다. 기본 글꼴 규칙을 사용하려면*FontInfo substitution rule*을 사용하지 않도록 설정해야 합니다. *FontConfig substitution rule*은 대부분의 경우 글꼴을 해결하므로 다른 모든 규칙을 재정의합니다.
 
 {{% /alert %}}
 
-## 인정하는 방법 그 폰은 대체되었다
+## 글꼴이 대체 된 것을 인식하는 방법
 
-때로는 문서 레이아웃이 변경되었는지, 또는 왜 일부 글꼴이 예상되지 않습니다. 이러한 경우, 글꼴 대변 경고 메시지가 구현 [IWarningCallback](https://reference.aspose.com/words/java/com.aspose.words/iwarningcallback/) 공용영역은 구조에 옵니다. 그들은 있다 [FontSubstitution](https://reference.aspose.com/words/java/com.aspose.words/warningtype/#FONT-SUBSTITUTION) 경고 유형과 표준 설명 텍스트 형식, "Font '<originalfont>'이 발견되지 않았습니다. '사용'<substitutionfont>대신 글꼴. 이유: <reason>", 다음과 같은 이유:</reason></substitutionfont></originalfont>
+때로는 문서 레이아웃이 변경된 이유 또는 일부 글꼴이 예상대로 보이지 않는 이유가 불분명 할 수 있습니다. 이러한 경우[IWarningCallback](https://reference.aspose.com/words/java/com.aspose.words/iwarningcallback/)인터페이스에 의해 구현 된 글꼴 대체 경고 메시지가 구출됩니다. [FontSubstitution](https://reference.aspose.com/words/java/com.aspose.words/warningtype/#FONT-SUBSTITUTION)경고 유형과 표준 설명 텍스트 형식인"글꼴'<OriginalFont>'을 찾을 수 없습니다. 대신'<SubstitutionFont>'글꼴을 사용합니다. 이유:<Reason>",다음과 같은 이유:
 
-- "문서의 대체 이름" - 헌법에 대한 [AltName](https://reference.aspose.com/words/java/com.aspose.words/Fontinfo#AltName)
-- "fontconfig substitution" - 글꼴 구성 규칙에 의한 대변의 경우
-- "table substitution" - 테이블 규칙에 의해 대용
-- "font info substitution" - 폰트 정보 규칙에 의해 헌법에 대한
-- "default font substitution" - 기본 폰트 규칙에 의한 대용
-- "first available font" - 첫 번째 사용 가능한 글꼴로 대체하기위한
+- "문서의 대체 이름"-[AltName](https://reference.aspose.com/words/java/com.aspose.words/Fontinfo#AltName)으로 대체
+- "글꼴 구성 대체"-글꼴 구성 규칙에 의한 대체
+- "테이블 대체"-테이블 규칙에 의한 대체
+- "글꼴 정보 대체"–글꼴 정보 규칙에 의한 대체
+- "기본 글꼴 대체–-기본 글꼴 규칙에 의한 대체
+- "사용 가능한 첫 번째 글꼴"–사용 가능한 첫 번째 글꼴로 대체
 
-## XML에서 글꼴 FallBack 설정
+## 글꼴FallBackXML에서 설정
 
-안으로 사용되는 2개의 다른 기계장치가 있습니다 Aspose.Words - 글꼴 대체 및 글꼴 fallback. 문서에 지정된 글꼴이 위의 섹션에 설명 된대로 글꼴 소스 중 찾을 수 없을 때 글꼴 하위 헌법이 사용됩니다. 글꼴 fallback 메커니즘은 글꼴이 해결 될 때 사용되지만 특정 문자가 포함되지 않습니다. 이 경우, Aspose.Words 문자의 fallback 글꼴 중 하나를 사용하려고합니다.
+Aspose.Words에는 글꼴 대체 및 글꼴 대체라는 두 가지 메커니즘이 사용됩니다. 글꼴 대체는 문서에 지정된 글꼴이 위의 섹션에서 설명한 것처럼 글꼴 소스에서 찾을 수 없을 때 사용됩니다. 글꼴 대체 메커니즘은 글꼴이 확인될 때 사용되지만 특정 문자를 포함하지 않습니다. 이 경우Aspose.Words은 문자에 대한 대체 글꼴 중 하나를 사용하려고 합니다.
 
-있음 [BuildAutomatic](https://reference.aspose.com/words/java/com.aspose.words/fontfallbacksettings/#buildAutomatic) 스캔 가능한 글꼴로 fallback 설정을 자동으로 구축하는 방법. 이 방법은 비-optimal fallback 설정을 생성 할 수 있으므로, 속성을 사용하여 글꼴 fallback 동작을 제어 할 수 있습니다. [FontFallbackSettings](https://reference.aspose.com/words/java/com.aspose.words/fontfallbacksettings/) 수업. 이 클래스는 글꼴 fallback 메커니즘의 설정을 지정합니다. 인스턴스를 얻을 수 있습니다. **FontFallbackSettings** 다음과 같이 종류:
+사용 가능한 글꼴을 스캔하여 대체 설정을 자동으로 빌드하는[BuildAutomatic](https://reference.aspose.com/words/java/com.aspose.words/fontfallbacksettings/#buildAutomatic)메서드가 있습니다. 이 메서드는 최적이 아닌 대체 설정을 생성할 수 있으므로[FontFallbackSettings](https://reference.aspose.com/words/java/com.aspose.words/fontfallbacksettings/)클래스의 속성을 사용하여 글꼴 대체 동작을 제어할 수 있습니다. 이 클래스는 글꼴 대체 메커니즘의 설정을 지정합니다. 다음과 같이**FontFallbackSettings**클래스의 인스턴스를 얻을 수 있습니다:
 
 **Java**
 
@@ -153,7 +153,7 @@ FontSettings fontSettings = FontSettings.getDefaultInstance();
 FontFallbackSettings settings = fontSettings.getFallbackSettings();
 {{< /highlight >}}
 
-*Table substitution rule*에 유사하게, 이 기계장치는 윤곽을 위한 XML 테이블을 이용합니다. 이 XML 테이블은 다음과 같은 방법으로로드되고 저장 될 수 있습니다
+*Table substitution rule*과 마찬가지로 이 메커니즘은XML테이블을 구성에 사용합니다. 이러한XML테이블은 다음과 같은 방법으로 로드 및 저장할 수 있습니다:
 
 **Java**
 
@@ -162,9 +162,9 @@ fontSettings.getFallbackSettings().load("MyNewFallbackTable.xml");
 fontSettings.getFallbackSettings().save("Current_FallbackTable.xml");
 {{< /highlight >}}
 
-더 보기 Aspose.Words 방출은 2개의 테이블을 포함합니다: *MsOfficeFallbackSetting.xml* · *NotoFallbackSetting.xml*·
+Aspose.Words릴리스에는*MsOfficeFallbackSetting.xml*및*NotoFallbackSetting.xml*의 두 테이블이 포함됩니다.
 
-더 보기 *MsOfficeFallbackSetting* 테이블은 문자의 범위에 대한 교체 전략을 정의합니다. Microsoft Word· 따라서 전략은 설치가 필요합니다. Microsoft 사무실 글꼴. *MsOfficeFallbackSetting* 다음 방법을 사용하여 활성화 할 수 있습니다:
+*MsOfficeFallbackSetting*테이블은Microsoft Word에서 사용하는 전략과 유사한 문자 범위에 대한 대체 전략을 정의합니다. 따라서 이 전략은Microsoft사무실 글꼴을 설치해야 합니다. *MsOfficeFallbackSetting*은 다음 방법을 사용하여 활성화할 수 있습니다:
 
 **.Java**
 
@@ -172,7 +172,7 @@ fontSettings.getFallbackSettings().save("Current_FallbackTable.xml");
 fontSettings.getFallbackSettings().loadMsOfficeFallbackSettings();
 {{< /highlight >}}
 
-더 보기 *NotoFallbackSetting* 테이블은 특히 사용을위한 Google Noto 글꼴 (더 자세히 보기) Google Noto 다음 섹션에서 글꼴 설정) 다음과 같이 활성화 할 수 있습니다:
+*NotoFallbackSetting*테이블은Google Noto글꼴과 함께 사용하기 위해 특별히 만들어졌으며(다음 섹션의Google Noto글꼴 설정에 대한 자세한 내용 참조)다음과 같이 사용할 수 있습니다:
 
 **Java**
 
@@ -180,11 +180,11 @@ fontSettings.getFallbackSettings().loadMsOfficeFallbackSettings();
 fontSettings.getFallbackSettings().loadNotoFallbackSettings();
 {{< /highlight >}}
 
-다음 코드 예제는 XML 파일에서 글꼴 fallback 설정을로드하는 방법을 보여줍니다
+다음 코드 예제에서는XML파일에서 글꼴 대체 설정을 로드하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-SetFontSettings-SetFontFallbackSettings.java" >}}
 
-위의 코드 예에서 다음 XML 파일이 사용됩니다
+위의 코드 예제에서는 다음XML파일이 사용됩니다:
 
 {{< highlight html >}}
 <FontFallbackSettings xmlns="Aspose.Words">
@@ -205,35 +205,35 @@ fontSettings.getFallbackSettings().loadNotoFallbackSettings();
 </FontFallbackSettings>
 {{< /highlight >}}
 
-## Predefined 글꼴 FallBack 설정 Google Noto 이름 *
+## Google Noto글꼴에 대한 미리 정의된 글꼴FallBack설정
 
-Aspose.Words 사전 정의된 글꼴 fallback 설정 제공 Google Noto 글꼴. 이 무료 글꼴은 SIL Open Font License에 따라 사용되며 다운로드 할 수 있습니다. Google Noto 이름 * 더 보기 **FontFallbackSettings** 클래스는 [LoadNotoFallbackSettings](https://reference.aspose.com/words/java/com.aspose.words/fontfallbacksettings/#loadNotoFallbackSettings) 방법. 그것은 predefined fallback 설정, 사용 Google Noto 아래 코드 예시로 글꼴:
+Aspose.WordsGoogle Noto글꼴에 대해 미리 정의된 글꼴 대체 설정을 제공합니다. 이들은Google Noto글꼴에서 다운로드 할 수있는SIL오픈 글꼴 라이센스에 따라 라이센스가 부여 된 무료 글꼴입니다. **FontFallbackSettings**클래스는[LoadNotoFallbackSettings](https://reference.aspose.com/words/java/com.aspose.words/fontfallbacksettings/#loadNotoFallbackSettings)메서드를 제공합니다. 아래 코드 예제와 같이Google Noto글꼴을 사용하는 미리 정의된 대체 설정을 로드합니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-SetFontSettings-setPredefinedFontFallbackSettings.java" >}}
 
 {{% alert color="primary" %}}
 
-Sans 스타일 Noto 글꼴만 일반 무게로 사전 정의 된 설정에서 사용됩니다.
+일반 무게 만 산세 스타일 노토 글꼴은 미리 정의 된 설정에서 사용됩니다.
 
 {{% /alert %}}
 
-## 이름 * Aspose.Words 본문 바로가기
+## 여기서Aspose.Words은 글꼴을 찾습니다
 
-Aspose.Words 파일 시스템에 TrueType 글꼴을 자동으로 찾을 수 있습니다. 일반적으로 기본 동작에 의존할 수 있습니다. Aspose.Words 자주 묻는 질문 `TrueType` 글꼴, 그러나 때로는 TrueType 글꼴을 포함하는 자신의 폴더를 지정해야합니다. 더 보기 [진정한 본문 바로가기](/words/ko/java/specify-truetype-fonts-location/) 주제는 방법 및 방법 Aspose.Words 글꼴을 찾고, 또한 자신의 글꼴 위치를 지정하는 방법.
+Aspose.Words파일 시스템에서TrueType글꼴을 자동으로 찾으려고 시도합니다. 일반적으로Aspose.Words의 기본 동작에 의존하여`TrueType`글꼴을 찾을 수 있지만 때로는TrueType글꼴이 포함 된 자신의 폴더를 지정해야합니다. 그 [TrueType글꼴 위치 지정](/words/java/specify-truetype-fonts-location/) 항목에서는Aspose.Words에서 글꼴을 찾는 방법과 위치를 설명하고 자신의 글꼴 위치를 지정하는 방법을 설명합니다.
 
-## 글꼴 형식의 처리의 차이 Aspose.Words · Microsoft Word
+## Aspose.Words및Microsoft Word의 글꼴 형식 처리의 차이점
 
-글꼴 형식의 처리에 약간의 차이가 있습니다. Aspose.Words · Microsoft Word 아래 표에서 보이는 것과 같이:
+아래 표와 같이Aspose.Words및Microsoft Word의 글꼴 형식 처리에는 약간의 차이가 있습니다:
 
 |  | Microsoft Word | Aspose.Words |
-|  :-  |  :-  |  :-  |
-| TrueType 글꼴 및 OpenType 글꼴과 TrueType 개요 | 지원되는. | 지원되는. |
-| PostScript outlines와 OpenType 글꼴 | 대부분의 시나리오에 대한 지원. PDF와 같은 고정 페이지 형식에 삽입 XPS 지원되지 않습니다. 텍스트는 비트 맵 이미지로 대체됩니다. | 고정 페이지 형식에 embedding을 포함하여 대부분의 시나리오에 지원. |
-| OpenType 글꼴 변동 | 인스턴스만 지원됩니다. 지원되지 않는 지속적인 변화. | 기본 인스턴스에서만 지원됩니다. Named 인스턴스 및 연속 변형은 지원되지 않습니다. |
-| Type1 폰트 | 지원하다 Windows 이전 버전 2013 및 MacOS 버전. 지원은 떨어졌습니다 Windows 2013년부터 시작된 버전. | 지원되지 않음 |
+| :- | :- | :- |
+| TrueType글꼴 및TrueType윤곽선이 있는OpenType글꼴 | 지원. | 지원. |
+| OpenTypePostScript윤곽선이 있는 글꼴 | 대부분의 시나리오에서 지원됩니다. PDF및XPS과 같은 고정 페이지 형식으로 임베딩은 지원되지 않습니다. 텍스트가 비트맵 이미지로 바뀝니다. | 고정 페이지 형식으로 임베딩을 포함하여 대부분의 시나리오에서 지원됩니다. |
+| OpenType글꼴 변형 | 명명된 인스턴스만 지원됩니다. 연속 변형은 지원되지 않습니다. | 유일한 기본 인스턴스에 대해 지원됩니다. 명명된 인스턴스 및 연속 변형은 지원되지 않습니다. |
+| 유형 1 글꼴 | 2013 년 이전Windows버전과MacOS 버전에서 지원됩니다. 2013 년부터 시작되는Windows버전에서는 지원이 중단됩니다. | 지원되지 않습니다. |
 
-## 더 보기
+## 또한 참조
 
-- - - [Google Noto 이름 *](https://fonts.google.com/noto) 무료 글꼴을 다운로드
+- [Google Noto글꼴](https://fonts.google.com/noto) 무료 글꼴을 다운로드하려면
 
 

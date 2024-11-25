@@ -1,329 +1,329 @@
----
-title: การฟอร์แมตตารางใน Java
-second_title: Aspose.Words สําหรับ Java
-articleTitle: ปรับใช้รูปแบบตาราง
-linktitle: ปรับใช้รูปแบบตาราง
-description: "รูปแบบตารางในรายละเอียด ใช้ Java เพื่อฟอร์แมตทุกส่วนของตาราง"
+﻿---
+title: การจัดรูปแบบตารางในJava
+second_title: Aspose.WordsสำหรับJava
+articleTitle: ใช้การจัดรูปแบบตาราง
+linktitle: ใช้การจัดรูปแบบตาราง
+description: "การจัดรูปแบบตารางในรายละเอียด ใช้Javaเพื่อจัดรูปแบบทุกส่วนของตาราง."
 type: docs
 weight: 70
 url: /th/java/applying-formatting/
 timestamp: 2024-01-27-14-07-04
 ---
 
-แต่ละองค์ประกอบของตารางสามารถใช้ได้ ด้วยรูปแบบที่แตกต่างกัน ตัวอย่างเช่น การฟอร์แมตตารางจะถูกนําไปใช้กับทั้งตาราง การฟอร์แมตแถวเฉพาะแถว การฟอร์แมตเซลล์เท่านั้น
+องค์ประกอบของตารางแต่ละคนสามารถนำไปใช้กับการจัดรูปแบบที่แตกต่างกัน ตัวอย่างเช่นการจัดรูปแบบตารางจะถูกนำไปใช้กับตารางทั้งหมดการจัดรูปแบบแถวกับแถ.
 
-Aspose.Words ให้ที่อุดมไปด้วย API เพื่อรับและปรับใช้รูปแบบตาราง คุณสามารถใช้ [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/rowformat/), ถึง [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/) โหนดที่จะตั้งค่ารูปแบบ
+Aspose.Wordsให้รวยAPIเพื่อดึงและนำไปใช้การจัดรูปแบบกับตาราง คุณสามารถใช้โหนด[Table](https://reference.aspose.com/words/java/com.aspose.words/table/),[RowFormat](https://reference.aspose.com/words/java/com.aspose.words/rowformat/)และ[CellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/)เพื่อตั้งค่าการจัดรูปแบบ.
 
-ใน บทความ นี้ เรา จะ พิจารณา วิธี การ ปรับ ปรุง ให้ เหมาะ กับ ปม ต่าง ๆ ใน โต๊ะ และ การ ตกแต่ง ตาราง Aspose.Words สนับสนุน
+ในบทความนี้เราจะพูดถึงวิธีใช้การจัดรูปแบบกับโหนดตารางที่แตกต่างกันและการตั้งค่าการจัดรูปแบบตารางAspose.Wordsสนับสนุน.
 
-## ปรับใช้รูปแบบกับโหนดต่าง ๆ
+## ใช้การจัดรูปแบบกับโหนดที่แตกต่างกัน
 
-ในส่วนนี้ เราจะพิจารณาเรื่องการตกแต่งแบบตารางต่างๆ
+ในส่วนนี้เราจะดูที่การใช้การจัดรูปแบบไปยังโหนดตารางต่างๆ.
 
-### การฟอร์แมตระดับของตาราง
+### การจัดรูปแบบระดับตาราง
 
-ในการปรับใช้รูปแบบกับตาราง คุณสามารถใช้คุณสมบัติต่าง ๆ ที่ใช้ได้บนรูปแบบที่สัมพันธ์กัน **Table** โหนดโดยใช้ [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/), ถึง [TableCollection](https://reference.aspose.com/words/java/com.aspose.words/tablecollection/) ชั้นเรียน
+หากต้องการจัดรูปแบบตาราง คุณสามารถใช้คุณสมบัติที่มีอยู่บนโหนด **Table** ที่สอดคล้องกันโดยใช้คลาส [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/) และ [TableCollection](https://reference.aspose.com/words/java/com.aspose.words/tablecollection/).
 
 {{% alert color="primary" %}}
 
-โปรด สังเกต ว่า ตาราง ต้อง มี อย่าง น้อย หนึ่ง แถว ก่อน จะ ใช้ คุณสมบัติ ของ โต๊ะ ได้. นี่หมายความว่าเมื่อสร้างโต๊ะกับ [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/), การฟอร์แมตนี้ต้องทําภายหลังการเรียกครั้งแรก [InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell()หรือหลังจากแถวแรกถูกเพิ่มเข้าไปในโต๊ะ หรือตอนที่โหนกถูกแทรกเข้าไป DOM.
+โปรดทราบว่าตารางต้องมีอย่างน้อยหนึ่งแถวก่อนที่จะสามารถใช้คุณสมบัติของตาราง ซึ่งหมายความว่าเมื่อสร้างตารางที่มี[DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)การจัดรูปแบบนี้จะต้องทำหลังจากการเรียกครั้งแรกที่[InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell())หรือหลังจากเพิ่มแถวแรกลงในตารางหรือเมื่อโหนดถูกแทรกลงในDOMโดยตรง.
 
 {{% /alert %}}
 
-ภาพ ข้าง ล่าง แสดง ให้ เห็น ภาพ ของ **Table** คุณสมบัติการฟอร์แมตใน Microsoft Word และคุณสมบัติที่ตรงกันใน Aspose.Words.
+รูปภาพด้านล่างแสดงคุณลักษณะการจัดรูปแบบ**Table**ในMicrosoft Wordและคุณสมบัติที่สอดคล้องกันในAspose.Words.
 
 ![apply-formatting-to-table-level-aspose-words-java](/words/java/applying-formatting/applying-formatting-to-table-row-and-cell-1.png)
 
 ![apply-formatting-to-table-level-aspose-words-java](/words/java/applying-formatting/applying-formatting-to-table-row-and-cell-2.png)
 
-ตัว อย่าง รหัส ต่อ ไป นี้ แสดง ให้ เห็น วิธี ใช้ ขอบ รอบ โต๊ะ:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการใช้เส้นขอบเค้าร่างกับตาราง:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "apply-outline-border.java" >}}
 
-ตัวอย่างโค้ดต่อไปนี้ จะแสดงวิธีการสร้างตารางที่มีกรอบทั้งหมดเปิดใช้ (กราฟ):
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการสร้างตารางที่มีเส้นขอบทั้งหมดที่เปิดใช้งาน(ตาราง):
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "build-table-with-borders.java" >}}
 
-### การฟอร์แมตระดับแถว
+### การจัดรูปแบบระดับแถว
 
-รูปแบบแถว- * สามารถควบคุมได้โดยใช้ [Row](https://reference.aspose.com/words/java/com.aspose.words/row/), [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/rowformat/), ถึง [RowCollection](https://reference.aspose.com/words/java/com.aspose.words/rowcollection/) ชั้นเรียน
+ระดับแถว**การจัดรูปแบบสามารถควบคุมได้โดยใช้[Row](https://reference.aspose.com/words/java/com.aspose.words/row/),[RowFormat](https://reference.aspose.com/words/java/com.aspose.words/rowformat/)และ[RowCollection](https://reference.aspose.com/words/java/com.aspose.words/rowcollection/)คลาส.
 
 {{% alert color="primary" %}}
 
-สังเกตว่า **Row** สามารถเป็นเพียงปมเด็กของ **Table**. ในเวลาเดียวกัน ต้องมีอย่างน้อยหนึ่งคน **Cell** ใน **Row** เพื่อให้การฟอร์แมตนี้ใช้ได้
+โปรดทราบว่า**Row**สามารถเป็นโหนดลูกของ**Table**เท่านั้น ในเวลาเดียวกันต้องมีอย่างน้อยหนึ่ง**Cell**ใน**Row**เพื่อให้สามารถใช้การจัดรูปแบบได้.
 
 {{% /alert %}}
 
-ภาพ ข้าง ล่าง แสดง ให้ เห็น ภาพ ของ **Row** คุณสมบัติการฟอร์แมตใน Microsoft Word และคุณสมบัติที่ตรงกันใน Aspose.Words.
+รูปภาพด้านล่างแสดงคุณลักษณะการจัดรูปแบบ**Row**ในMicrosoft Wordและคุณสมบัติที่สอดคล้องกันในAspose.Words.
 
 ![apply-formatting-to-row-level-aspose-words-java](/words/java/applying-formatting/applying-formatting-to-table-row-and-cell-3.png)
 
-ตัวอย่างโค้ดต่อไปนี้แสดงถึงวิธีแก้ไขแถวของตาราง:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการปรับเปลี่ยนการจัดรูปแบบแถวตาราง:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "modify-row-formatting.java" >}}
 
-### การฟอร์แมตระดับเซลล์
+### การจัดรูปแบบระดับเซลล์
 
-การฟอร์แมตระดับเซลล์ถูกควบคุมโดย [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/), [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/), ถึง [CellCollection](https://reference.aspose.com/words/java/com.aspose.words/cellcollection/) ชั้นเรียน
+การจัดรูปแบบระดับเซลล์จะถูกควบคุมโดย[Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/),[CellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/)และ[CellCollection](https://reference.aspose.com/words/java/com.aspose.words/cellcollection/)คลาส.
 
 {{% alert color="primary" %}}
 
-สังเกตว่า **Cell** สามารถเป็นเพียงปมเด็กของ **Row**. ในเวลาเดียวกัน ต้องมีอย่างน้อยหนึ่งคน [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) ใน **Cell** เพื่อให้การฟอร์แมตนี้ใช้ได้
+โปรดทราบว่า**Cell**สามารถเป็นโหนดลูกของ**Row**เท่านั้น ในเวลาเดียวกันต้องมีอย่างน้อยหนึ่ง[Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/)ใน**Cell**เพื่อให้สามารถใช้การจัดรูปแบบได้.
 
-นอกจาก **Paragraph**, คุณใส่ **Table** เป็น **Cell**.
+นอกเหนือจาก**Paragraph**คุณยังสามารถแทรก**Table**ลงใน**Cell**.
 
 {{% /alert %}}
 
-ภาพ ข้าง ล่าง แสดง ให้ เห็น ภาพ ของ **Cell** คุณสมบัติการฟอร์แมตใน Microsoft Word และคุณสมบัติที่ตรงกันใน Aspose.Words.
+รูปภาพด้านล่างแสดงคุณลักษณะการจัดรูปแบบ**Cell**ในMicrosoft Wordและคุณสมบัติที่สอดคล้องกันในAspose.Words.
 
 ![apply-formatting-to-cell-level-aspose-words-java](/words/java/applying-formatting/applying-formatting-to-table-row-and-cell-4.png)
 
 ![apply-auto-formatting-to-row-level-aspose-words-java](/words/java/applying-formatting/applying-formatting-to-table-row-and-cell-5.png)
 
-ตัว อย่าง รหัส ต่อ ไป นี้ แสดง ให้ เห็น วิธี ปรับ ปรุง รูป แบบ ของ เซลล์ ตาราง:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการปรับเปลี่ยนการจัดรูปแบบของเซลล์ตาราง:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "modify-cell-formatting.java" >}}
 
-ตัวอย่างโค้ดต่อไปนี้ จะแสดงวิธีตั้งค่าจํานวนของช่องว่าง (ในจุด) เพื่อเพิ่มค่าบน/ขวา/ล่างของเนื้อหาเซลล์:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการตั้งค่าจำนวนของพื้นที่(ในจุด)เพื่อเพิ่มไปทางซ้าย/บน/ขวา/ล่างข:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "cell-padding.java" >}}
 
-## กําหนดค่าตําแหน่งตําแหน่ง
+## ระบุความสูงแถว
 
-วิธีที่ง่ายที่สุดในการตั้งค่าความสูงแถวคือการใช้ **DocumentBuilder**. ใช้ สิ่ง ที่ เหมาะ สม **RowFormat** คุณสมบัติ, คุณสามารถตั้งค่าความสูงปริยาย หรือใช้ความสูงอื่นของแต่ละแถวในตารางได้
+วิธีที่ง่ายที่สุดในการตั้งค่าความสูงของแถวคือใช้**DocumentBuilder** การใช้คุณสมบัติที่เหมาะสม**RowFormat**คุณสามารถตั้งค่าความสูงเริ่มต้นหรือใช้ความสูงที่แตกต่างกัน.
 
-ใน Aspose.Words, ความสูงแถวของตารางถูกควบคุมโดย:
+ในAspose.Wordsความสูงของแถวตารางจะถูกควบคุมโดย:
 
-- สมบัติความสูงแถว - [Height](https://reference.aspose.com/words/java/com.aspose.words/row/format#Height)
-- สมบัติกฎความสูงสําหรับแถวที่กําหนด - [HeightRule](https://reference.aspose.com/words/java/com.aspose.words/row/format#HeightRule)
+- คุณสมบัติความสูงของแถว-[Height](https://reference.aspose.com/words/java/com.aspose.words/row/format#Height)
+- คุณสมบัติกฎความสูงของแถวที่กำหนด-[HeightRule](https://reference.aspose.com/words/java/com.aspose.words/row/format#HeightRule)
 
-ใน ขณะ เดียว กัน ความ สูง ของ แต่ ละ แถว ก็ อาจ ต่าง กัน ซึ่ง ทํา ให้ คุณ ควบคุม ตาราง ได้ อย่าง กว้าง ขวาง.
+ในเวลาเดียวกันความสูงที่แตกต่างกันสามารถตั้งค่าสำหรับแต่ละแถว-นี้ช่วยให้คุณสามารถ.
 
 {{% alert color="primary" %}}
 
-ตัวเลือกสําหรับระบุความสูงของออบเจกต์ สามารถตั้งค่าได้โดยใช้ [HeightRule](https://reference.aspose.com/words/java/com.aspose.words/heightrule/) สนาม
+ตัวเลือกกฎสำหรับการระบุความสูงของวัตถุสามารถตั้งค่าโดยใช้ฟิลด์[HeightRule](https://reference.aspose.com/words/java/com.aspose.words/heightrule/).
 
 {{% /alert %}}
 
-ตัวอย่างรหัสต่อไปนี้แสดงถึงวิธีสร้างตารางที่มีเซลล์เดียวและรูปแบบแถว:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการสร้างตารางที่ประกอบด้วยเซลล์เดียวและใช้การจัดรูปแ:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "apply-row-formatting.java" >}}
 
-## กําหนดตารางและความกว้างเซลล์
+## ระบุความกว้างของตารางและเซลล์
 
-โต๊ะใน Microsoft Word เอกสาร ต่าง ๆ มี หลาย วิธี ที่ จะ ทํา การ ปรับ ปรุง ตาราง และ เซลล์ แต่ ละ เซลล์. คุณสมบัติเหล่านี้ทําให้ควบคุมรูปร่างและพฤติกรรมของโต๊ะได้มาก ดังนั้น Aspose.Words รองรับพฤติกรรมของตารางเช่น Microsoft Word.
+ตารางในเอกสารMicrosoft Wordมีหลายวิธีในการปรับขนาดตารางและแต่ละเซลล์ คุณสมบัติเหล่านี้อนุญาตให้ควบคุมลักษณะและพฤติกรรมของตารางดังนั้นAspose.Wordsสนับสนุนพฤติกรรมของตารางเช่นเดียวกับในMicrosoft Word.
 
-เป็น สิ่ง สําคัญ ที่ จะ รู้ ว่า ธาตุ ต่าง ๆ ใน ตาราง มี คุณสมบัติ ต่าง ๆ กัน ซึ่ง อาจ มี ผล กระทบ ต่อ ความ กว้าง ของ ตาราง โดย รวม รวม รวม รวม ทั้ง เซลล์ แต่ ละ เซลล์ นั้น มี การ คํานวณ ว่า:
+มันเป็นสิ่งสำคัญที่จะรู้ว่าองค์ประกอบของตารางมีคุณสมบัติที่แตกต่างกันหลายอย่างที่มีผลต่อวิธีการคำนวณความกว้างของตารางโดยรวมเช่นเดียวกับแต่ละเซลล์มีการคำนวณ:
 
 - ความกว้างที่ต้องการบนโต๊ะ
-- ความกว้างที่ต้องการกับเซลล์แต่ละเซลล์
-- อนุญาตให้ออโตไฟต์อยู่บนโต๊ะ
+- ความกว้างที่ต้องการในแต่ละเซลล์
+- การอนุญาตให้พอดีอัตโนมัติบนโต๊ะ
 
-บทความ นี้ ให้ ราย ละเอียด เกี่ยว กับ วิธี คํานวณ ความ กว้าง ของ ตาราง และ วิธี ควบคุม ความ กว้าง ของ ตาราง. นี่คือ
-เป็น ประโยชน์ เป็น พิเศษ ที่ จะ ทราบ ใน กรณี ดัง กล่าว ว่า การ วาง ผัง โต๊ะ ไม่ ได้ ปรากฏ ขึ้น อย่าง ที่ คาด หมาย ไว้.
+บทความนี้อธิบายวิธีการทำงานของคุณสมบัติการคำนวณความกว้างของตารางต่างๆและวิธี นี่มัน
+ประโยชน์อย่างยิ่งที่จะรู้ว่าในกรณีดังกล่าวที่รูปแบบตารางไม่ปรากฏตามที่คาดไว้.
 
 {{% alert color="primary" %}}
 
-ใน กรณี ส่วน ใหญ่ เซลล์ ที่ ชอบ มาก กว่า ความ กว้าง ของ ตาราง. ความกว้างของเซลล์ที่ชื่นชอบมีมากกว่าในเรียงตามการตั้งค่ารูปแบบ DOCX เช่นเดียวกับ Aspose.Words นางแบบ
+ในกรณีส่วนใหญ่แนะนำให้ใช้เซลล์ที่ต้องการมากกว่าความกว้างของตาราง ความกว้างของเซลล์ที่ต้องการจะสอดคล้องกับข้อกำหนดรูปแบบDOCXรวมทั้งรุ่นAspose.Wordsมากขึ้น.
 
-ค่าความกว้างเซลล์เป็นค่าที่คํานวณสําหรับรูปแบบ DCX ความกว้างของเซลล์จริง สามารถขึ้นอยู่กับหลายอย่าง ตัว อย่าง เช่น การ เปลี่ยน ขอบ หน้า หรือ ความ กว้าง ของ ตาราง ที่ ชอบ มาก อาจ ส่ง ผล ต่อ ความ กว้าง ของ เซลล์.
+ความกว้างของเซลล์เป็นค่าที่คำนวณได้สำหรับรูปแบบDOCX ความกว้างของเซลล์จริงอาจขึ้นอยู่กับหลายสิ่ง ตัวอย่างเช่นการเปลี่ยนระยะขอบหน้าหรือความกว้างตารางที่ต้องการจะมีผลต่อความกว้.
 
-ความกว้างเซลล์ที่ชอบเป็นสมบัติเซลล์ที่เก็บไว้ในเอกสาร มันไม่ได้ขึ้นอยู่กับอะไร และไม่เปลี่ยนแปลงเมื่อคุณเปลี่ยนตารางหรือคุณสมบัติอื่น ๆ ของเซลล์
+ความกว้างของเซลล์ที่ต้องการคือคุณสมบัติของเซลล์ที่เก็บไว้ในเอกสาร มันไม่ได้ขึ้นอยู่กับอะไรและไม่เปลี่ยนแปลงเมื่อคุณเปลี่ยนตารางหรือคุณสมบัติอื่นๆของเซลล์.
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-คุณสมบัติ และ วิธี การ ทุก อย่าง ที่ พรรณนา ใน บทความ นี้ เกี่ยว ข้อง กับ วิธี ที่ โต๊ะ ทํา งาน Microsoft Word. ดังนั้นในกรณีส่วนใหญ่ ถ้าคุณกําลังสร้างตารางของคุณ โปรแกรม แต่กําลังพบว่ามันยากที่จะสร้างตารางที่ต้องการ Microsoft Word ก่อน แล้ว ค่อย เลียน แบบ ค่า การ ฟอร์แมต ใน โปรแกรม ของ คุณ.
+คุณสมบัติและวิธีการทั้งหมดที่อธิบายไว้ในบทความนี้เกี่ยวข้องกับวิธีการทำงานของตารางMicrosoft Word ดังนั้นในกรณีส่วนใหญ่,ถ้าคุณกำลังสร้างตารางของคุณเป็นโปรแกรมแต่กำลังพบว่ามันยากที่จะสร้างตารางที่ต้องการ,คุณสามารถลองมองเห็นการสร้างมันในMicrosoft Wordก่อนแล้วก็คัดลอกค่าการจัดรูปแบบลงในโปรแกรมประยุกต์ของคุณ.
 
 {{% /alert %}}
 
-### วิธี ใช้ เครื่อง มือ ที่ เหมาะ สม
+### วิธีการใช้ความกว้างที่ต้องการ
 
-ความกว้างที่ต้องการของตารางหรือแต่ละเซลล์ ถูกนิยามผ่านทางคุณสมบัติความกว้างที่ชื่นชอบ ซึ่งเป็นขนาดที่ธาตุพยายามที่จะพอดี นั่นคือ ความกว้างที่ควรใช้แทนทั้งตาราง หรือกับแต่ละเซลล์ ในบางกรณีอาจไม่สามารถใส่ความกว้าง ได้พอดี, แต่ความกว้างจริงจะใกล้กับค่านี้ส่วนใหญ่
+ความกว้างที่ต้องการของตารางหรือแต่ละเซลล์ถูกกำหนดผ่านคุณสมบัติความกว้างที่ต้อง ความกว้างที่ต้องการสามารถระบุได้สำหรับตารางทั้งหมดหรือสำหรับแต่ละเซลล์ ในบางสถานการณ์มันอาจจะไม่สามารถที่จะพอดีกับความกว้างนี้ตรงแต่ความกว้างที่แท้จริ.
 
-ชนิดของความกว้างที่ควรใช้ ถูกตั้งค่าโดยใช้วิธีการต่าง ๆ [PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/) คลาส:
+ชนิดความกว้างและค่าที่ต้องการที่เหมาะสมจะถูกตั้งค่าโดยใช้วิธีการของคลาสของ[PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/):
 
-- [Auto](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#AUTO) ช่องข้อมูลสําหรับระบุค่าอัตโนมัติหรือ "ไม่มีส่วนความกว้างที่ควรใช้มากกว่า"
-- [FromPercent](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#fromPercent-double) วิธีระบุความกว้างเปอร์เซ็นต์
-- [FromPoints](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#fromPoints-double) ใช้กําหนดความกว้างของจุด
+- ฟิลด์[Auto](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#AUTO)เพื่อระบุอัตโนมัติหรือ"ไม่มีความกว้างที่ต้องการ"
+- วิธีการ[FromPercent](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#fromPercent-double)เพื่อระบุเปอร์เซ็นต์ความกว้าง
+- วิธีการ[FromPoints](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#fromPoints-double)เพื่อระบุความกว้างของจุด
 
-ภาพด้านล่างนี้แสดงสัญลักษณ์ของค่าความกว้าง * โดยมีหน่วยเป็นที่ตั้ง* ใน Microsoft Word และคุณสมบัติที่ตรงกันใน Aspose.Words.
+รูปภาพด้านล่างแสดงตัวแทนของ*preferred width setting features*ในMicrosoft Wordและคุณสมบัติที่สอดคล้องกันในAspose.Words.
 
 ![formatting-table-properties-aspose-words-java](/words/java/applying-formatting/applying-formatting-8.png)
 
-ตัว อย่าง ของ วิธี ใช้ ทาง เลือก เหล่า นี้ กับ ตาราง จริง ใน เอกสาร สามารถ เห็น ได้ ใน ภาพ ข้าง ล่าง.
+ตัวอย่างของวิธีใช้ตัวเลือกเหล่านี้กับตารางจริงในเอกสารสามารถเห็นได้ในภาพด้านล่า.
 
 ![table-applied-options-java](/words/java/applying-formatting/applying-formatting-9.png)
 
 {{% alert color="primary" %}}
 
-ก่อนที่คุณจะใช้ความกว้างที่มากกว่าในตาราง คุณต้องแน่ใจว่าตารางมีอย่างน้อยหนึ่งแถว. นี่เพราะตารางการตกแต่งใน Microsoft Word เอกสารหรือเอกสารที่สร้างใน Aspose.Words จะ เก็บ ไว้ ใน แถว ของ โต๊ะ.
+ก่อนที่คุณจะสามารถใช้ความกว้างที่ต้องการในตารางคุณต้องแน่ใจว่าตารางมีอย่างน้อยห การฟอร์แมตตารางในเอกสารMicrosoft Wordหรือในเอกสารที่สร้างในAspose.Wordsจะถูกเก็บไว้ในแถวของตาราง.
 
 {{% /alert %}}
 
-#### กําหนดตารางที่ควรใช้หรือความกว้างเซลล์
+#### ระบุตารางที่ต้องการหรือความกว้างของเซลล์
 
-ใน Aspose.Words, ตารางและความกว้างเซลล์ถูกตั้งค่าโดยใช้ [Table.PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/table/#getPreferredWidth) ทรัพย์สินและ [CellFormat.PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getPreferredWidth) คุณสมบัติ พร้อมตัวเลือกใน [PreferredWidthType](https://reference.aspose.com/words/java/com.aspose.words/preferredwidthtype/) การเผาผลาญ:
+ในAspose.Wordsจะมีการตั้งค่าความกว้างของตารางและเซลล์โดยใช้คุณสมบัติ[Table.PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/table/#getPreferredWidth)และคุณสมบัติ[CellFormat.PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getPreferredWidth)พร้อมด้วยตัวเลือกในการแจงนับ[PreferredWidthType](https://reference.aspose.com/words/java/com.aspose.words/preferredwidthtype/):
 
-- **Auto**, ซึ่งเทียบเท่ากับไม่มีชุดความกว้างมากกว่า
-- **Percent**, ซึ่งพอดีกับธาตุที่สัมพันธ์กับพื้นที่ที่มีอยู่ในหน้าต่างหรือขนาดกล่องหน้าต่าง และทําการคํานวณค่าอีกครั้งเมื่อมีการเปลี่ยนแปลงความกว้างที่มีอยู่
-- **Points**, ซึ่งตรงกับองค์ประกอบของความกว้างที่ระบุในจุด
+- **Auto**ซึ่งเทียบเท่ากับชุดความกว้างที่ต้องการ
+- **Percent**ซึ่งเหมาะกับองค์ประกอบเมื่อเทียบกับพื้นที่ว่างในหน้าต่างหรือขนาดคอนเทนเนอร์และคำนวณค่าใหม่เมื่อความกว้างที่มีอยู่มีการเปลี่ยนแปลง
+- **Points**ซึ่งสอดคล้องกับองค์ประกอบของความกว้างที่ระบุในจุด
 
 {{% alert color="primary" %}}
 
-โดยปริยายแล้ว ตารางสามารถอธิบายได้ว่า จับคู่กับ 100% ของพื้นที่ที่มีในหน้านี้ ในกรณีนี้ ตารางจะพยายามที่จะใช้พื้นที่ระหว่างขอบหน้าซ้ายและขวา
+โดยค่าเริ่มต้นตารางสามารถอธิบายว่ามีการติดตั้ง 100%ของพื้นที่ว่างบนเพจ ในกรณีนี้หมายความว่าตารางจะพยายามใช้ช่องว่างระหว่างขอบด้านซ้ายและขวา.
 
 {{% /alert %}}
 
-ใช้ [Table.PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/table/#getPreferredWidth) คุณสมบัติ จะ ปรับ ความ กว้าง ตาม ที่ ชอบ เมื่อ เทียบ กับ ภาชนะ: หน้า, คอลัมน์ ข้อ, หรือ ช่อง ตาราง ข้าง นอก หาก เป็น ตาราง ที่ วาง ไว้.
+การใช้คุณสมบัติ[Table.PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/table/#getPreferredWidth)จะปรับความกว้างที่ต้องการเมื่อเทียบกับคอนเทนเนอร์ได้แก่เพจคอลัมน์ข้.
 
-ตัวอย่างรหัสต่อไปนี้ จะแสดงวิธีตั้งค่าตารางอัตโนมัติเป็น 50% ของความกว้างหน้า:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการตั้งค่าตารางให้พอดีกับอัตโนมัติ 50%ของความกว้างของหน้า:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "auto-fit-page-width.java" >}}
 
-ใช้ [CellFormat.PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getPreferredWidth) คุณสมบัติบนเซลล์ที่กําหนดจะปรับความกว้างที่ชื่นชอบ
+การใช้คุณสมบัติ[CellFormat.PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getPreferredWidth)บนเซลล์ที่กำหนดจะปรับความกว้างที่ต้องการ.
 
-ตัวอย่างรหัสต่อไปนี้ จะแสดงวิธีตั้งค่าความกว้างต่าง ๆ ที่ต้องการ:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการตั้งค่าการตั้งค่าความกว้างที่ต้องการที่แตกต่างกัน:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "preferred-width-settings.java" >}}
 
-#### ค้นหาชนิดและค่าชนิดที่ควรใช้
+#### ค้นหาประเภทความกว้างและค่าที่ต้องการ
 
-คุณสามารถใช้ [Type](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#getType) ถึง [Value](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#getValue) คุณสมบัติที่จะใช้ค้นหารายละเอียดของตารางหรือเซลล์ที่ต้องการ
+คุณสามารถใช้คุณสมบัติ[Type](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#getType)และ[Value](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#getValue)เพื่อค้นหารายละเอียดความกว้างที่ต้องการของตารางหรือเซลล์ที่ต้องการ.
 
-ตัวอย่างโค้ดต่อไปนี้ จะแสดงวิธีดึงข้อมูลชนิดของเซลล์ตาราง:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการดึงชนิดความกว้างที่ต้องการของเซลล์ตาราง:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "retrieve-preferred-width-type.java" >}}
 
-### วิธี ตั้ง อัตโนมัติ
+### วิธีการตั้งค่าพอดีอัตโนมัติ
 
-เดอะ [AllowAutoFit](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowAutoFit) ทรัพย์สินทําให้เซลล์ในตารางเติบโตและหดตัวตามหลักเกณฑ์ที่เลือก ยกตัวอย่างเช่น คุณสามารถใช้ **ปรับอัตโนมัติไปยังหน้าต่าง** ตัวเลือกการจับคู่ตารางกับความกว้างของหน้าและ **ปรับอัตโนมัติไปยังเนื้อหา** ตัวเลือกที่ทําให้แต่ละเซลล์เติบโต หรือหดตัวตามเนื้อหา
+คุณสมบัติ[AllowAutoFit](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowAutoFit)ช่วยให้เซลล์ในตารางเติบโตและหดตัวตามเกณฑ์ที่เลือก ตัวอย่างเช่นคุณสามารถใช้ตัวเลือก**AutoFit to Window**เพื่อให้พอดีกับตารางความกว้างของหน้าและตัวเลือก**AutoFit to Content**เพื่ออนุญาตให้แต่ละเซลล์เติบโตหรือหดตัวตามเนื้อหา.
 
 {{% alert color="primary" %}}
 
-นอกจากนี้, **AllowAutoFit** คุณสมบัติสามารถใช้ร่วมกับความกว้างเซลล์ที่ต้องการได้ เพื่อสร้างเซลล์ที่พอดีกับเนื้อหาโดยอัตโนมัติ แต่ยังมีความกว้างเริ่มต้นอีกด้วย ถ้าจําเป็น ความกว้างเซลล์ก็สามารถเติบโตได้
+นอกจากนี้คุณสมบัติ**AllowAutoFit**สามารถใช้ร่วมกับความกว้างของเซลล์ที่ต้องการเพื่อจัดรูปแบบเซลล์ที่ ถ้าจำเป็นความกว้างของเซลล์สามารถเติบโตผ่านความกว้างนี้ได้.
 
 {{% /alert %}}
 
-โดยปริยายแล้ว Aspose.Words แทรกตารางใหม่โดยใช้ **ปรับอัตโนมัติไปยังหน้าต่าง**. ตารางจะถูกปรับขนาดตามความกว้างของหน้ากระดาษที่มี ในการปรับขนาดตาราง คุณสามารถเรียกว่า [AutoFit](https://reference.aspose.com/words/java/com.aspose.words/table/#autoFit-int) วิธี วิธีการนี้ยอมรับ [AutoFitBehavior](https://reference.aspose.com/words/java/com.aspose.words/autofitbehavior/) การเพิ่มข้อมูล ระบุชนิดของออโตไฟท์ ที่นําไปใช้กับตาราง
+โดยค่าเริ่มต้นAspose.Wordsแทรกตารางใหม่โดยใช้**AutoFit to Window** ตารางจะมีขนาดตามความกว้างของหน้าเว็บที่มีอยู่ เมื่อต้องการปรับขนาดตารางคุณสามารถเรียกวิธีการ[AutoFit](https://reference.aspose.com/words/java/com.aspose.words/table/#autoFit-int) วิธีนี้ยอมรับการแจงนับ[AutoFitBehavior](https://reference.aspose.com/words/java/com.aspose.words/autofitbehavior/)ที่ระบุประเภทของการปรับพอดีอัตโนมัติถูกนำไปใช้กับตาราง.
 
-มันสําคัญที่ต้องรู้ว่าวิธีการออโตไฟต์ จริงๆ แล้วเป็นทางลัดที่ใช้คุณสมบัติที่แตกต่างกัน ไปที่โต๊ะในเวลาเดียวกัน นี่คือคุณสมบัติที่ให้ตาราง พฤติกรรมที่สังเกตได้ เราจะหารือเกี่ยวกับคุณสมบัติเหล่านี้ สําหรับแต่ละตัวเลือกอัตโนมัติ
+มันเป็นสิ่งสำคัญที่จะรู้ว่าวิธีการพอดีอัตโนมัติเป็นจริงทางลัดที่ใช้คุณสมบัติที่แตกต่างกับตาร เหล่านี้เป็นคุณสมบัติที่จริงให้ตารางลักษณะการทำงานที่สังเกต เราจะหารือเกี่ยวกับคุณสมบัติเหล่านี้สำหรับแต่ละตัวเลือกพอดีอัตโนมัติ.
 
-ตัว อย่าง รหัส ต่อ ไป นี้ แสดง ให้ เห็น วิธี ตั้ง ตาราง ที่ จะ หด ตัว หรือ ขยาย เซลล์ แต่ ละ เซลล์ ตาม เนื้อหา:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการตั้งค่าตารางให้หดตัวหรือเติบโตแต่ละเซลล์ตามเนื้อหา:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "allow-auto-fit.java" >}}
 
-เราจะใช้ตารางต่อไปนี้ในการใช้การตั้งค่าต่าง ๆ ที่พอดีอัตโนมัติเป็นการสาธิต
+เราจะใช้ตารางต่อไปนี้เพื่อใช้การตั้งค่าพอดีอัตโนมัติต่างๆเป็นการสาธิต.
 
 <img src="/words/java/applying-formatting/how-to-apply-different-autofit-settings-to-a-table-1.png" alt="apply-different-autofit-settings-to-a-table-aspose-words-java" style="width:500px"/>
 
-#### ปรับหน้าต่างอัตโนมัติ
+#### AutoFitตารางไปยังหน้าต่าง
 
-เมื่อมีการปรับใช้อัตโนมัติกับหน้าต่างกับตาราง การปฏิบัติการต่อไปนี้จะถูกดําเนินการอยู่เบื้องหลังภาพ:
+เมื่อปรับอัตโนมัติไปยังหน้าต่างถูกนำไปใช้กับตาราง,การดำเนินการต่อไปนี้จะดำเนินการจริงอยู่เบื้องหลัง:
 
-1 เดอะ **Table.AllowAutoFit** มีการปรับปรุงให้ปรับขนาดคอลัมน์โดยอัตโนมัติ เพื่อให้พอดีกับเนื้อหาที่มีอยู่ โดยใช้ **Table.PreferredWidth** ค่าของ 100%
-2 **CellFormat.PreferredWidth** จะถูกลบออกจากเซลล์ตารางทั้งหมด
-      {{% alert color="primary" %}}
-   สังเกตว่านี่ต่างจาก Microsoft Word พฤติกรรม เมื่อแต่ละเซลล์ตั้งค่าความกว้างที่ต้องการ ให้เหมาะสมตามขนาดและเนื้อหาในปัจจุบัน Aspose.Words ไม่ได้ปรับความกว้างที่โปรดเพื่อให้มันได้รับการล้าง
-      {{% /alert %}}
-3 ความกว้างคอลัมน์จะถูกคํานวณสําหรับเนื้อหาของตารางปัจจุบัน - ผลที่ได้คือตารางที่ครอบคลุมความกว้างทั้งหมดที่มีอยู่
-4 ความกว้างของคอลัมน์ในตารางจะถูกเปลี่ยนแปลงโดยอัตโนมัติ เมื่อผู้ใช้ทําการแก้ไขข้อความ
+1. คุณสมบัติ**Table.AllowAutoFit**ถูกเปิดใช้งานเพื่อปรับขนาดคอลัมน์โดยอัตโนมัติเพื่อให้พอดีกับเนื้อหาที่มีอยู่โดยใช้ค่า**Table.PreferredWidth**100%
+2. **CellFormat.PreferredWidth**จะถูกลบออกจากเซลล์ทั้งหมดของตาราง
+   {{% alert color="primary" %}}
+   โปรดทราบว่าสิ่งนี้แตกต่างจากพฤติกรรมMicrosoft Wordเล็กน้อยซึ่งความกว้างที่ต้องการของแต่ละเซลล์ถูกตั้งค่าเป็นค่าที่เหมาะสมตามขนาดและเนื้อหาปัจจุบัน Aspose.Wordsไม่ได้ปรับปรุงความกว้างที่ต้องการเพื่อให้พวกเขาเพียงแค่ได้รับการล้างแทน.
+   {{% /alert %}}
+3. ความกว้างของคอลัมน์จะถูกคำนวณใหม่สำหรับเนื้อหาของตารางปัจจุบัน–ผลลัพธ์ที่ได้คือตาร
+4. ความกว้างของคอลัมน์ในตารางจะเปลี่ยนแปลงโดยอัตโนมัติเมื่อผู้ใช้แก้ไขข้อความ
 
-ตัวอย่างรหัสต่อไปนี้ จะแสดงวิธีปรับตารางไปยังความกว้างหน้า:
+ตัวอย่างโค้ดต่อไปนี้แสดงวิธีการปรับตารางให้เข้ากับความกว้างของเพจโดยอัตโนมัติ:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "auto-fit-table-to-page-width.java" >}}
 
-ตัว อย่าง ของ วิธี ใช้ ทาง เลือก เหล่า นี้ กับ ตาราง ข้าง บน จะ เห็น ได้ ใน ภาพ ข้าง ล่าง.
+ตัวอย่างของวิธีการใช้ตัวเลือกเหล่านี้กับตารางข้างต้นสามารถเห็นได้ในภาพด้านล่าง.
 
 <img src="/words/java/applying-formatting/how-to-apply-different-autofit-settings-to-a-table-2.png" alt="autofit-table-aspose-words-java" style="width:500px"/>
 
-#### ตารางการพิมพ์อัตโนมัติไปยังเนื้อหา
+#### AutoFitตารางเนื้อหา
 
-เมื่อ ตาราง ถูก ปรับ ให้ เข้า กับ เนื้อหา โดย ตรง จริง ๆ แล้ว ขั้น ตอน ต่อ ไป นี้ จะ ทํา หลัง ฉาก
+เมื่อตารางถูกติดตั้งโดยอัตโนมัติเนื้อหา,ขั้นตอนต่อไปนี้จะดำเนินการจริงเบื้องหลัง:
 
-1 เดอะ **Table.AllowAutoFit** เปิดให้ปรับขนาดเซลล์แต่ละตัวโดยอัตโนมัติ
+1. คุณสมบัติ**Table.AllowAutoFit**ถูกเปิดใช้งานเพื่อปรับขนาดแต่ละเซลล์ตามเนื้อหาโดยอัตโนมัติ
 
-2 ลบความกว้างของตารางที่ควรใช้ออกจาก **Table.PreferredWidth**, **CellFormat.PreferredWidth** ลบสําหรับแต่ละเซลล์ของตาราง
-      {{% alert color="primary" %}}
+2. ความกว้างตารางที่ต้องการจะถูกลบออกจาก**Table.PreferredWidth**,**CellFormat.PreferredWidth**จะถูกลบออกสำหรับแต่ละเซลล์ตาราง
+   {{% alert color="primary" %}}
 
-   หมายเหตุว่า ตัวเลือกอัตโนมัตินี้ จะทําการลบความกว้างที่ควรใช้จากเซลล์ เช่นเดียวกับใน Microsoft Word. หากคุณต้องการคงขนาดคอลัมน์และเพิ่มหรือลดคอลัมน์ให้พอดีกับเนื้อหา คุณควรตั้งค่าขนาด **Table.AllowAutoFit** คุณสมบัติไปยัง **True** แทนที่จะใช้ปุ่มพิมพ์ลัดอัตโนมัติ{{% /alert %}}
+   โปรดทราบว่าตัวเลือกการติดตั้งอัตโนมัตินี้จะลบความกว้างที่ต้องการออกจากเซลล์เช่นเดียวกับในMicrosoft Word หากคุณต้องการเก็บขนาดคอลัมน์ไว้และเพิ่มหรือลดขนาดคอลัมน์ให้พอดีกับเนื้อหาคุณควรตั้งคุณสมบัติ**Table.AllowAutoFit**เป็น**True**ด้วยตัวเองแทนที่จะใช้ทางลัดที่ปรับให้พอดีกับเนื้อหา{{% /alert %}}
 
-3 ความกว้างคอลัมน์จะถูกคํานวณใหม่สําหรับเนื้อหาของตารางปัจจุบัน - ผลที่ออกมาคือตารางที่ความกว้างคอลัมน์ และความกว้างของตารางทั้งหมด ถูกปรับขนาดให้พอดีกับเนื้อหาที่ผู้ใช้ทําการแก้ไขข้อความโดยอัตโนมัติ
+3. ความกว้างของคอลัมน์จะถูกคำนวณใหม่สำหรับเนื้อหาของตารางปัจจุบัน–ผลลัพธ์สุดท้ายคือต
 
-ตัวอย่างโค้ดต่อไปนี้ จะแสดงวิธีปรับโต๊ะให้เข้ากับเนื้อหาของตาราง:
+ตัวอย่างโค้ดต่อไปนี้แสดงวิธีการปรับตารางโดยอัตโนมัติกับเนื้อหา:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "auto-fit-table-to-contents.java" >}}
 
-ตัว อย่าง ของ วิธี ใช้ ทาง เลือก เหล่า นี้ กับ ตาราง ข้าง บน จะ เห็น ได้ ใน ภาพ ข้าง ล่าง.
+ตัวอย่างของวิธีการใช้ตัวเลือกเหล่านี้กับตารางข้างต้นสามารถเห็นได้ในภาพด้านล่าง.
 
 <img src="/words/java/applying-formatting/how-to-apply-different-autofit-settings-to-a-table-3.png" alt="resize-column-autofit-settings-aspose-words-java" style="width:500px"/>
 
-#### ปิดการใช้แฟลชอัตโนมัติในตาราง และใช้ความกว้างของคอลัมน์ความกว้างคงที่
+#### ปิดการใช้งานAutoFitในตารางและใช้ความกว้างของคอลัมน์คงที่
 
-หากโต๊ะไม่มีความกว้างอัตโนมัติ และใช้ความกว้างของคอลัมน์คงที่แทน จะมีการดําเนินการตามขั้นตอนต่อไปนี้:
+ถ้าตารางมีการปิดใช้งานการติดตั้งอัตโนมัติและความกว้างคอลัมน์คงที่ถูกใช้แทนขั้นตอนต่:
 
-1 **Table.AllowAutoFit** คุณสมบัติถูกปิดการใช้งาน ดังนั้น คอลัมน์จะไม่ขยายหรือหดเก็บเข้ากับเนื้อหา
-2 ความกว้างของทั้งตารางจะถูกลบออกจาก **Table.PreferredWidth**, **CellFormat.PreferredWidth** จะถูกลบออกจากเซลล์ตารางทั้งหมด
-3 ผลสุดท้ายคือตารางที่ความกว้างคอลัมน์กําหนดโดย [CellFormat.Width](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getWidth) คุณสมบัติ และไม่มีการปรับขนาดคอลัมน์โดยอัตโนมัติเมื่อ ผู้ใช้ป้อนข้อความ หรือเมื่อมีการปรับขนาดหน้า
+1. **Table.AllowAutoFit**คุณสมบัติถูกปิดใช้งานดังนั้นคอลัมน์จะไม่เติบโตหรือหดตัวลงในเนื้อหา
+2. ความกว้างที่ต้องการของตารางทั้งหมดจะถูกลบออกจาก**Table.PreferredWidth**,**CellFormat.PreferredWidth**จะถูกลบออกจากเซลล์ตารางทั้งหมด
+3. ผลลัพธ์สุดท้ายคือตารางที่มีความกว้างของคอลัมน์จะถูกกำหนดโดยคุณสมบัติ[CellFormat.Width](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getWidth)และคอลัมน์ที่ไ
 
 {{% alert color="primary" %}}
 
-หมายเหตุว่า หากไม่มีการระบุความกว้างสําหรับ **CellFormat.Width**, ใช้ค่าปริยายของหนึ่งนิ้ว (72 จุด)
+โปรดทราบว่าหากไม่มีการระบุความกว้างสำหรับ**CellFormat.Width**ค่าเริ่มต้นของหนึ่งนิ้ว(72 จุด)จะถูกใช้.
 
 {{% /alert %}}
 
-ตัวอย่างโค้ดต่อไปนี้ จะแสดงวิธีปิดการใช้งานอัตโนมัติ และเปิดใช้ความกว้างคงที่สําหรับตารางที่ระบุ:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการปิดใช้งานการติดตั้งอัตโนมัติและเปิดใช้งานความกว้างคงที่สำหรับตารางที่ระบุ:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "auto-fit-table-to-fixed-column-widths.java" >}}
 
-ตัว อย่าง ของ วิธี ใช้ ทาง เลือก เหล่า นี้ กับ ตาราง ข้าง บน จะ เห็น ได้ ใน ภาพ ข้าง ล่าง.
+ตัวอย่างของวิธีการใช้ตัวเลือกเหล่านี้กับตารางข้างต้นสามารถเห็นได้ในภาพด้านล่าง.
 
 <img src="/words/java/applying-formatting/how-to-apply-different-autofit-settings-to-a-table-4.png" alt="disable-autofit-settings-to-a-table-aspose-words-java" style="width:500px"/>
 
-### ลําดับของการประมวลผลก่อน
+### ลำดับความสำคัญเมื่อคำนวณความกว้างของเซลล์
 
-Aspose.Words อนุญาตให้ผู้ใช้กําหนดความกว้างของตารางหรือเซลล์ผ่านวัตถุหลาย ๆ อัน รวมถึง [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/) - มัน [Width](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getWidth) อย่าง ไร ก็ ตาม ทรัพย์ สิน ส่วน ใหญ่ ยัง คง ถูก ทิ้ง ไว้ จาก รุ่น ก่อน ๆ แต่ ก็ ยัง เป็น ประโยชน์ สําหรับ การ กําหนด ความ กว้าง ของ เซลล์.
+Aspose.Wordsอนุญาตให้ผู้ใช้กำหนดความกว้างของตารางหรือเซลล์ผ่านหลายออบเจกต์รวมถึง[CellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/)–คุณสมบัติ[Width](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getWidth)ส่วนใหญ่จะเหลือจากเวอร์ชันก่อนหน้าแต่ก็ยังมีประโยชน์สำหรับการลดความกว้างของเซลล์.
 
-มันสําคัญที่ต้องรู้ว่า **CellFormat.Width** ทรัพย์สินทํางานแตกต่างกัน ขึ้นอยู่กับคุณสมบัติความกว้างอื่น ๆ ที่มีอยู่แล้วในตาราง
+สิ่งสำคัญคือต้องรู้ว่าคุณสมบัติ**CellFormat.Width**ทำงานแตกต่างกันขึ้นอยู่กับคุณสมบัติความกว้างอื่นที่มีอยู่ในต.
 
-Aspose.Words ใช้ลําดับการคํานวณความกว้างเซลล์ต่อไปนี้:
+Aspose.Wordsใช้ลำดับต่อไปนี้สำหรับการคำนวณความกว้างของเซลล์:
 
-|  ลําดับ |  คุณสมบัติ |  คําอธิบาย |
-|  -----  |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
-|  1      |  [AllowAutoFit](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowAutoFit) กําหนดไว้แล้ว |  ถ้า **AutoFit** เปิดใช้:<br/>- ตารางอาจจะเติบโตผ่านความกว้างที่ชื่นชอบเพื่อรองรับเนื้อหา - มักจะไม่หดภายใต้ความกว้างที่โปรด<br/>- การเปลี่ยนแปลงใด ๆ **CellFormat.Width** ค่าจะถูกละทิ้ง และเซลล์จะเข้ากับเนื้อหาของมันแทน |
-|  2      |  [PreferredWidthType](https://reference.aspose.com/words/java/com.aspose.words/preferredwidthtype/) ด้วยคุณค่าของ **Points** หรือ **Percent** |  **CellFormat.Width** ถูกละทิ้ง |
-|  3      |  [PreferredWidthType](https://reference.aspose.com/words/java/com.aspose.words/preferredwidthtype/) ด้วยคุณค่าของ **Auto** |  ค่าจาก **CellFormat.Width** จะคัดลอกและกลายเป็นความกว้างที่ชอบของเซลล์ (ในจุด) |
+| สั่งซื้อ | ทรัพย์สิน | การบรรจุ |
+| ----- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+|  | [AllowAutoFit](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowAutoFit)ถูกกำหนด | ถ้า**AutoFit**ถูกเปิดใช้งาน:<br>-ตารางอาจเติบโตที่ผ่านมาความกว้างที่ต้องการเพื่อรองรับเนื้อหา-มันมักจะไม่หดตัวต่ำกว่<br>-การเปลี่ยนแปลงค่า**CellFormat.Width**จะถูกละเว้นและเซลล์จะพอดีกับเนื้อหาแทน |
+|  | [PreferredWidthType](https://reference.aspose.com/words/java/com.aspose.words/preferredwidthtype/)มีค่า**Points**หรือ**Percent** | **CellFormat.Width**ถูกละเว้น |
+|  | [PreferredWidthType](https://reference.aspose.com/words/java/com.aspose.words/preferredwidthtype/)มีค่า**Auto** | ค่าจาก**CellFormat.Width**ถูกคัดลอกและกลายเป็นความกว้างที่ต้องการของเซลล์(ในจุด) |
 
 {{% alert color="primary" %}}
 
-การเปลี่ยนแปลงใด ๆ ในคุณสมบัติความกว้าง ไม่ได้ปรับปรุงในความกว้างที่ควรใช้ และต้องปรับใช้กับความกว้างที่ควรใช้แทน
+การเปลี่ยนแปลงใดๆของคุณสมบัติความกว้างจะไม่ได้รับการปรับปรุงในความกว้างที่ต้อง.
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-ขณะที่กําลังสร้างการจัดวางตารางคงที่ ให้ระบุความกว้างของเซลล์ ไม่สามารถบันทึกเซลล์แบบ DOC ได้ รูปแบบเอกสารอื่น ๆ นอกเหนือจาก DOC เช่น DOCX อนุญาตให้บันทึกเซลล์ได้โดยไม่ต้องปรับความกว้างในผังตารางคงที่
+ขณะสร้างเค้าโครงตารางแบบคงที่ให้ระบุความกว้างของเซลล์ ไม่สามารถบันทึกเซลล์ที่ไม่มีความกว้างไว้ในรูปแบบDOC รูปแบบเอกสารอื่นที่ไม่ใช่DOCเช่นDOCXอนุญาตโดยหลักการแล้วการบันทึกเซลล์โดยไม่มีความกว้างในเค้าโครงตารางคงที่.
 
 {{% /alert %}}
 
-## อนุญาตให้เว้นช่องว่างระหว่างเซลล์
+## อนุญาตให้ระยะห่างระหว่างเซลล์
 
-คุณสามารถหาหรือตั้งค่าช่องว่างเพิ่มเติมใด ๆ ระหว่างเซลล์ตารางที่คล้ายกับตัวเลือก "ช่องว่าง' ใน Microsoft Word. นี้สามารถทําโดยใช้ [AllowCellSpacing](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowCellSpacing) ทรัพย์สิน
+คุณสามารถรับหรือตั้งค่าช่องว่างเพิ่มเติมระหว่างเซลล์ตารางที่คล้ายกับตัวเลือก"ระยะห่างของเซลล์"ในMicrosoft Word นี้สามารถทำได้โดยใช้คุณสมบัติ[AllowCellSpacing](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowCellSpacing).
 
-ตัว อย่าง ของ วิธี ใช้ ทาง เลือก เหล่า นี้ กับ ตาราง จริง ใน เอกสาร สามารถ เห็น ได้ ใน ภาพ ข้าง ล่าง.
+ตัวอย่างของวิธีใช้ตัวเลือกเหล่านี้กับตารางจริงในเอกสารสามารถเห็นได้ในภาพด้านล่า.
 
 <img src="/words/java/applying-formatting/applying-formatting-10.png" alt="formatting-spacing-between-cells-aspose-words-java" style="width:500px"/>
 
-ตัว อย่าง รหัส ต่อ ไป นี้ แสดง ให้ เห็น วิธี ตั้ง ช่องว่าง ระหว่าง เซลล์:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการตั้งระยะห่างระหว่างเซลล์:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "allow-cell-spacing.java" >}}
 
-## ปรับใช้กรอบและสี
+## ใช้เส้นขอบและการแรเงา
 
-กรอบและเงาสามารถใช้กับทั้งตารางโดยใช้ [Table.SetBorder](https://reference.aspose.com/words/java/com.aspose.words/table/#setBorder-int-int-double-java.awt.Color-boolean), [Table.SetBorders](https://reference.aspose.com/words/java/com.aspose.words/table/#setBorders-int-double-java.awt.Color) ถึง [Table.SetShading](https://reference.aspose.com/words/java/com.aspose.words/table/#setShading-int-java.awt.Color-java.awt.Color), หรือเฉพาะเซลล์เฉพาะที่ใช้ [CellFormat.Borders](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getBorders) ถึง [CellFormat.Shading](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getShading). นอกจากนี้ ชายแดนแถวยังสามารถตั้งได้โดยใช้ [RowFormat.Borders](https://reference.aspose.com/words/java/com.aspose.words/rowformat/#getBorders), ไม่ อาจ นํา มา ใช้ ได้ ใน วิธี นี้.
+เส้นขอบและการแรเงาสามารถนำไปใช้กับตารางทั้งหมดโดยใช้[Table.SetBorder](https://reference.aspose.com/words/java/com.aspose.words/table/#setBorder-int-int-double-java.awt.Color-boolean),[Table.SetBorders](https://reference.aspose.com/words/java/com.aspose.words/table/#setBorders-int-double-java.awt.Color)และ[Table.SetShading](https://reference.aspose.com/words/java/com.aspose.words/table/#setShading-int-java.awt.Color-java.awt.Color)หรือเฉพาะกับเซลล์ที่เฉพาะเจาะจงโดยใช้[CellFormat.Borders](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getBorders)และ[CellFormat.Shading](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getShading) นอกจากนี้เส้นขอบแถวสามารถตั้งค่าได้โดยใช้[RowFormat.Borders](https://reference.aspose.com/words/java/com.aspose.words/rowformat/#getBorders)แต่ไม่สามารถใช้การแรเงาด้วยวิธีนี้ได้.
 
-ภาพด้านล่างนี้แสดงกรอบและเงาใน Microsoft Word และคุณสมบัติที่ตรงกันใน Aspose.Words.
+รูปภาพด้านล่างแสดงการตั้งค่าเส้นขอบและเงาในMicrosoft Wordและคุณสมบัติที่สอดคล้องกันในAspose.Words.
 
 ![apply-borders-shading-aspose-words-java-1](/words/java/applying-formatting/applying-formatting-to-table-row-and-cell-6.png)
 
@@ -331,6 +331,6 @@ Aspose.Words ใช้ลําดับการคํานวณความ�
 ![apply-borders-shading-aspose-words-java-2](/words/java/applying-formatting/applying-formatting-to-table-row-and-cell-7.png)
 
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีการฟอร์แมตตารางและเซลล์ที่มีกรอบที่แตกต่างกันและเงา
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการจัดรูปแบบตารางและเซลล์ที่มีเส้นขอบที่แตกต่างกันและ:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "format-table-and-cell-with-different-borders.java" >}}

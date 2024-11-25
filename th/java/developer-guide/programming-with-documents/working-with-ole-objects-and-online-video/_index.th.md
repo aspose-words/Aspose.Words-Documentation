@@ -1,75 +1,75 @@
----
-title: ทํางานกับวัตถุโอเล
-second_title: Aspose.Words สําหรับ Java
-articleTitle: ทํางานกับวัตถุโอเล
-linktitle: ทํางานกับวัตถุโอเล
-description: "สร้างและแก้ไขการฝังตัว OLE ในเอกสารของคุณโดยใช้ Java."
+﻿---
+title: การทำงานกับวัตถุOle
+second_title: Aspose.WordsสำหรับJava
+articleTitle: การทำงานกับวัตถุOle
+linktitle: การทำงานกับวัตถุOle
+description: "สร้างและแก้ไขOLEฝังในเอกสารของคุณโดยใช้Java."
 type: docs
 weight: 360
 url: /th/java/working-with-ole-objects/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Oble ย่อมาจาก "Object Linking and Arching" นี่เป็นเทคโนโลยีที่ผู้ใช้สามารถทํางานกับเอกสารที่มี "objects" ถูกสร้างหรือแก้ไขโดยโปรแกรมส่วนที่สาม นั่นคือ OLE อนุญาตให้โปรแกรมส่งออก "objects" เหล่านี้ไปยังโปรแกรมอื่น ๆ เพื่อทําการแก้ไข และนําเข้ากลับมาพร้อมกับเนื้อหาเพิ่มเติมบางส่วน
+OLEหมายถึง"การเชื่อมโยงวัตถุและการฝัง" นี่คือเทคโนโลยีที่ผู้ใช้สามารถทำงานร่วมกับเอกสารที่มี"วัตถุ"ที่สร้างขึ้นหรือแก้ไขโดยโปรแก นั่นคือOLEอนุญาตให้แอปเอ็กซ์ปอร์ต"ออบเจกต์"เหล่านี้ไปยังแอปพลิเคชันอื่นเพื่อแก้ไขจากนั้นนำเขากลับมาพร้อมกับเนื้อหาเพิ่มเติมบางอย่าง.
 
-ใน บทความ นี้ เรา จะ คุย กัน เรื่อง การ สอด ของ โอ แอลเล เข้า ไป ใน เอกสาร.
+ในบทความนี้เราจะพูดถึงการแทรกวัตถุOLEและการตั้งค่าคุณสมบัติลงในเอกสาร.
 
-## แทรกวัตถุ
+## แทรกOleวัตถุ
 
-ถ้าคุณต้องการวัตถุโอแอล เรียก [InsertOleObject](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertOleObject-java.io.InputStream-java.lang.String-boolean-java.io.InputStream) วิธีการและส่งมัน **ProgId** ตัวแปรอื่น ๆ ชัดเจน
+ถ้าคุณต้องการOLEวัตถุ,เรียกวิธีการ[InsertOleObject](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertOleObject-java.io.InputStream-java.lang.String-boolean-java.io.InputStream)และผ่านมัน**ProgId**อย่างชัดเจนกับพารามิเตอร์อื่นๆ.
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีการใส่ OLE วัตถุไปยังเอกสาร:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแทรกOLEวัตถุลงในเอกสาร:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertOleObject-DocumentBuilderInsertOleObject.java" >}}
 
-### ตั้งชื่อแฟ้มและส่วนขยายเมื่อแทรกวัตถุ
+### ตั้งชื่อไฟล์และนามสกุลเมื่อใส่วัตถุOLE
 
-แพกเกจ OLE เป็นมรดก และ "ไม่ต้องเก็บเอกสาร" เป็นวิธีจัดเก็บวัตถุที่ฝังอยู่ หากไม่รู้จักตัวจัดการ OLE
+OLEแพคเกจเป็นแบบดั้งเดิมและ"ไม่มีเอกสาร"วิธีการจัดเก็บวัตถุที่ฝังตัวถ้าไม่ทราบตัวจัดการOLE.
 
-เร็ว Windows รุ่นต่าง ๆ เช่น Windows 3.1, 95, และ 98 มีแพคเกจ โปรแกรมตัวอย่างที่จะใช้ฝังข้อมูลทั้งหมดลงในเอกสารได้ โปรแกรมนี้ถูกแยกออกจาก Windowsแต่ Microsoft Word และโปรแกรมอื่น ๆ ยังคงใช้มันเพื่อฝังข้อมูล หากตัวจัดการ OLE หายไปหรือไม่รู้จัก เดอะ `OlePackage` คลาสอนุญาตให้ผู้ใช้เข้าถึงคุณสมบัติแพกเกจ OLE
+รุ่นต้นWindowsเช่นWindows 3.1,95,และ 98 มีแอ็พพลิเคชันPackager.exeที่สามารถใช้เพื่อฝังข้อมูลประเภทใดก็ได้ลงในเอกสาร ตอนนี้แอปพลิเคชันนี้ถูกยกเว้นจากWindowsแต่Microsoft Wordและแอปพลิเคชันอื่นๆยังคงใช้เพื่อฝังข้อมูลหากตัวจัดการOLEหายไปหรือไม่ทราบ คลาส`OlePackage`อนุญาตให้ผู้ใช้เข้าถึงคุณสมบัติOLE Package.
 
-ตัวอย่างรหัสต่อไปนี้ จะแสดงวิธีตั้งค่าชื่อแฟ้ม, ส่วนขยาย, และแสดงชื่อของแพกเกจ OLE:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการตั้งค่าชื่อไฟล์ส่วนขยายและชื่อที่แสดงสำหรับOLE Package:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertElements-InsertOleObjectwithOlePackage.java" >}}
 
-### รับข้อมูล OLLL
+### เข้าถึงข้อมูลดิบของวัตถุOLE
 
-ผู้ใช้สามารถเข้าถึงข้อมูลของออบเจ็กต์ได้ โดยใช้คุณสมบัติต่าง ๆ และวิธีการต่าง ๆ ของ `OleFormat` ชั้นเรียน. ตัวอย่างเช่น มันเป็นไปได้ที่จะ `OLE` ออบเจกต์ข้อมูลดิบ หรือพาธและชื่อของแฟ้มต้นทางสําหรับสิ่งเชื่อมโยงของ OLE
+ผู้ใช้สามารถเข้าถึงOLEข้อมูลวัตถุโดยใช้คุณสมบัติต่างๆและวิธีการของ`OleFormat`คลาส มูลดิบของวัตถุ`OLE`หรือพาธและชื่อของไฟล์ต้นฉบับสำหรับออบเจกต์OLEที่เชื่อมโยง.
 
-ตัว อย่าง รหัส ต่อ ไป นี้ แสดง ให้ เห็น วิธี หา โอเล วัตถุข้อมูลดิบโดยใช้ [GetRawData](https://reference.aspose.com/words/java/com.aspose.words/oleformat/#getRawData) วิธีการ:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการรับOLEวัตถุข้อมูลดิบโดยใช้วิธีการ[GetRawData](https://reference.aspose.com/words/java/com.aspose.words/oleformat/#getRawData):
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertElements-GetAccessToOLEObjectRawData.java" >}}
 
-### แทรก วัตถุเป็นไอคอน
+### แทรกOLEวัตถุเป็นไอคอน
 
-นอก จาก นี้ อาจ ใส่ วัตถุ โอพอล ลง ใน เอกสาร เป็น รูป ปั้น ได้ ด้วย.
+วัตถุOLEยังสามารถแทรกลงในเอกสารเป็นรูปภาพ.
 
-ตัว อย่าง รหัส ต่อ ไป นี้ แสดง ให้ เห็น วิธี ที่ จะ สอด วัตถุ โอเล เป็น รูป ภาพ. เพื่อจุดประสงค์นี้ **DocumentBuilder** ห้องเรียนเปิดเผย [InsertOleObjectAsIcon](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertOleObjectAsIcon-java.io.InputStream-java.lang.String-java.lang.String-java.lang.String) วิธี
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแทรกOLEวัตถุเป็นไอคอน เพื่อจุดประสงค์นี้ชั้นเรียน**DocumentBuilder**เปิดเผยวิธีการ[InsertOleObjectAsIcon](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertOleObjectAsIcon-java.io.InputStream-java.lang.String-java.lang.String-java.lang.String).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-InsertOLEObjectAsIcon.java" >}}
 
-ตัวอย่างรหัสต่อไปนี้ จะแสดงวิธีการแทรกวัตถุ OLE ที่ฝังตัวเป็นไอคอนจากลําธารเข้าไปในเอกสาร:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแทรกวัตถุที่ฝังตัวOLEเป็นไอคอนจากสตรีมลงในเอกสาร:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-InsertOLEObjectAsIconUsingStream.java" >}}
 
 ## แทรกวิดีโอออนไลน์
 
-วิดีโอออนไลน์สามารถใส่ลงในเอกสารคําจาก * "insert" > "Onlineวิดีโอ" *แท็บ คุณสามารถแทรกวิดีโอออนไลน์ไปยังเอกสารในตําแหน่งปัจจุบันได้ โดยการเรียก [InsertOnlineVideo](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertOnlineVideo-java.lang.String-double-double) วิธีการ:
+วิดีโอออนไลน์สามารถแทรกลงในเอกสารคำจากแท็บ*"Insert" > "Online Video"* คุณสามารถแทรกวิดีโอออนไลน์ลงในเอกสารที่ตำแหน่งปัจจุบันโดยการเรียกวิธีการ[InsertOnlineVideo](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertOnlineVideo-java.lang.String-double-double):
 
-เดอะ [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) ชั้น เรียน แนะ นํา ให้ ใช้ วิธี นี้ มาก เกิน ไป ถึง สี่ วิธี. คนแรกทํางานกับทรัพยากรวิดีโอที่ได้รับความนิยมมากที่สุด และเอา `URL` ของวิดีโอเป็นพารามิเตอร์ ตัวอย่างเช่น การโอเวอร์โหลดครั้งแรก รองรับการแทรกวิดีโอออนไลน์แบบง่ายๆ จาก [YouTube](https://www.youtube.com/) ถึง [วีเมโอะ](https://vimeo.com/) ทรัพยากร
+คลาส[DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)แนะนำสี่เกินพิกัดของวิธีนี้ คนแรกทำงานร่วมกับทรัพยากรวิดีโอที่นิยมมากที่สุดและใช้`URL`ของวิดีโอเป็นพารามิเตอร์ ตัวอย่างเช่นโอเวอร์โหลดครั้งแรกที่สนับสนุนการแทรกง่ายของวิดีโอออนไลน์จาก [YouTube](https://www.youtube.com/) และ [วีมิโอ](https://vimeo.com/) รือไม่.
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีการใส่วิดีโอออนไลน์จาก *Vimeo* ไปยังเอกสาร:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแทรกวิดีโอออนไลน์จาก*Vimeo*ลงในเอกสาร:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Video-InsertOnlineVideo-InsertOnlineVideo.java" >}}
 
-การโอเวอร์โหลดครั้งที่ 2 ใช้ทรัพยากรวิดีโออื่น ๆ ทั้งหมด และใช้รหัส HTML ที่ฝังอยู่ในเป็นพารามิเตอร์ รหัส HTML สําหรับการคลายแฟ้มวิดีโอ อาจจะแตกต่างกันไป ขึ้นอยู่กับผู้ให้บริการ โปรดติดต่อผู้จัดทํารายละเอียด
+โอเวอร์โหลดที่สองทำงานร่วมกับทรัพยากรวิดีโออื่นๆทั้งหมดและใช้รหัสที่ฝังHTMLเป็นพารามิเต รหัสHTMLสำหรับการฝังวิดีโออาจแตกต่างกันไปขึ้นอยู่กับผู้ให้บริการดังนั้นโปรดติดต่อผู้ให้บริการที่เกี่ยวข้องเพื่อขอรายละเอียด.
 
 {{% alert color="primary" %}}
 
-โปรดสังเกตว่า เอกสารนี้จะถูกปรับแต่งให้เหมาะกับ MSS Word 2013 โดยอัตโนมัติ เพื่อแสดงวิดีโอ
+โปรดทราบว่าเอกสารจะถูกเพิ่มประสิทธิภาพโดยอัตโนมัติสำหรับMSคำ 2013 เพื่อแสดงวิดีโอ.
 
 {{% /alert %}}
 
-ตัวอย่างรหัสต่อไปนี้ จะแสดงวิธีการใส่วิดีโอออนไลน์เข้าไปในเอกสารโดยใช้รหัส HTML เช่น:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแทรกวิดีโอออนไลน์ลงในเอกสารโดยใช้รหัสHTMLดังกล่าว:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Video-InsertOnlineVideo-InsertOnlineVideoWithEmbedHtml.java" >}}

@@ -1,70 +1,70 @@
----
-title: Compare Documents in Java
-second_title: Aspose.Words for Java
-articleTitle: Compare Documents
-linktitle: Compare Documents
+﻿---
+title: قارن المستندات في Java
+second_title: Aspose.Words ل Java
+articleTitle: قارن المستندات
+linktitle: قارن المستندات
 type: docs
-description: "Compare two documents in any supported formats and shows content changes. يمكنك تطبيق خيارات متطورة عند مقارنة استخدام Java."
+description: "مقارنة وثيقتين في أي صيغ معتمدة ويظهر التغييرات المحتوى. يمكنك تطبيق خيارات متقدمة عند المقارنة باستخدام Java."
 weight: 60
 url: /ar/java/compare-documents/
 timestamp: 2024-01-27-14-07-04
 ---
 
-ومقارنة الوثائق عملية تحدد التغييرات بين وثيقتين وتتضمن التغييرات كتنقيحات. وتقارن هذه العملية أي وثيقتين، بما في ذلك نسخ من وثيقة واحدة محددة، ثم تظهر التغييرات بين الوثيقتين على أنها تنقيحات في الوثيقة الأولى.
+مقارنة المستندات هي عملية تحدد التغييرات بين وثيقتين وتحتوي على التغييرات كمراجعات. تقارن هذه العملية أي وثيقتين، بما في ذلك إصدارات مستند واحد محدد، ثم سيتم عرض التغييرات بين كلتا الوثيقتين كمراجعات في المستند الأول.
 
-وتتحقق طريقة المقارنة بمقارنة الكلمات على مستوى الشخصية أو على مستوى الكلمات. وإذا تضمنت كلمة تغييراً واحداً على الأقل، ونتيجة لذلك، سيظهر الفرق كتغيير للكلمة بأكملها، وليس كشخصية. وعملية المقارنة هذه مهمة عادية في الصناعات القانونية والمالية.
+يتم تحقيق طريقة المقارنة من خلال مقارنة الكلمات على مستوى الحرف أو على مستوى الكلمة. إذا كانت الكلمة تحتوي على تغيير حرف واحد على الأقل، في النتيجة، سيتم عرض الفرق كتغيير للكلمة بأكملها، وليس حرفا. عملية المقارنة هذه هي مهمة معتادة في الصناعات القانونية والمالية.
 
-بدلا من البحث اليدوي عن الاختلافات بين الوثائق أو بين نسخ مختلفة منها، يمكنك استخدام Aspose.Words من أجل مقارنة الوثائق وإدخال تغييرات على المحتوى في الشكل، والرأس/القدم، والجداول، والأكثر.
+بدلا من البحث يدويا عن الاختلافات بين المستندات أو بين الإصدارات المختلفة منها، يمكنك استخدام Aspose.Words لمقارنة المستندات والحصول على تغييرات المحتوى في التنسيق والرأس/التذييل والجداول والمزيد.
 
-وتوضح هذه المادة كيفية مقارنة الوثائق وكيفية تحديد خصائص مقارنة متطورة.
-
-{{% alert color="primary" %}}
-
-**حاول على الإنترنت**
-
-يمكنك مقارنة وثيقتين عبر الإنترنت باستخدام [مقارنة الوثائق على الإنترنت](https://products.aspose.app/words/comparison) أداة.
-
-Note that the comparison method, described below, is used in this tool to ensure getting equal results. لذا ستحصل على نفس النتائج حتى باستخدام أداة المقارنة على الإنترنت أو باستخدام طريقة المقارنة في Aspose.Words.
-
-{{% /alert %}}
-
-## القيود وصيغ الملفات المدعومة {#limitations-and-supported-file-formats}
-
-وتعد مقارنة الوثائق سمة معقدة للغاية. وهناك أجزاء مختلفة من مزيج المحتوى تحتاج إلى تحليل للاعتراف بجميع الاختلافات. سبب هذا التعقيد هو Aspose.Words تهدف إلى الحصول على نفس نتائج المقارنة مثل Microsoft Word خوارزمية المقارنة
-
-والتقييد العام لوثيقتين يجري مقارنتهما هو أنه يجب ألا يكون لديهما تنقيحات قبل وصف طريقة المقارنة نظرا لوجود هذا التقييد Microsoft Word.
+تشرح هذه المقالة كيفية مقارنة المستندات وكيفية تحديد خصائص المقارنة المتقدمة.
 
 {{% alert color="primary" %}}
 
-ملاحظة أنه يمكنك مقارنة أي وثيقتين داخل [الوثائق الداعمة](/words/ar/java/supported-document-formats/). في الأساس، يمكنك مقارنة أجسام الوثائق وحتى يمكنك خلق هذه الأشياء من الصفر دون وجود أي شكل محدد.
+**جرب عبر الإنترنت**
+
+يمكنك مقارنة وثيقتين عبر الإنترنت باستخدام [مقارنة المستندات عبر الإنترنت](https://products.aspose.app/words/comparison) أداة.
+
+لاحظ أن طريقة المقارنة الموضحة أدناه تستخدم في هذه الأداة لضمان الحصول على نتائج متساوية. لذلك ستحصل على نفس النتائج حتى باستخدام أداة المقارنة عبر الإنترنت أو باستخدام طريقة المقارنة في Aspose.Words.
 
 {{% /alert %}}
 
-## Compare Two Documents {#compare-two-documents}
+## القيود وتنسيقات الملفات المدعومة {#limitations-and-supported-file-formats}
 
-عندما تقارن الوثائق، تظهر اختلافات الوثيقة الأخيرة من الأول كتنقيحات للأول. عندما تُعدّلُ a وثيقة، كُلّ edit سَيكونُ عِنْدَهُ تنقيحُه الخاصُ بعد تشغيل طريقةِ المقارنةِ.
+تعد مقارنة المستندات ميزة معقدة للغاية. هناك أجزاء متنوعة من تركيبة المحتوى تحتاج إلى تحليل للتعرف على جميع الاختلافات. سبب هذا التعقيد هو أن Aspose.Words يهدف إلى الحصول على نفس نتائج المقارنة مثل خوارزمية المقارنة Microsoft Word.
 
-Aspose.Words يُمكِنُك أَنْ تُحدّدَ إختلافاتَ الوثائقِ باستخدام [Compare](https://reference.aspose.com/words/java/com.aspose.words/document/#compare-com.aspose.words.Document-java.lang.String-java.util.Date) الطريقة - وهذا مماثل للطريقة Microsoft Word وتقارن الوثيقة السمة. وهو يسمح لكم بفحص الوثائق أو النسخ الوثائقية لإيجاد خلافات وتغييرات، بما في ذلك إجراء تعديلات في شكلها مثل التغييرات الشكلية، والتغييرات في المباعدة، وإضافة الكلمات والفقرات.
+القيد العام لوثيقتين تتم مقارنتهما هو أنه يجب ألا يكون لديهم مراجعات قبل استدعاء طريقة المقارنة لأن هذا القيد موجود في Microsoft Word.
 
-ونتيجة للمقارنة، يمكن تحديد الوثائق على أنها متساوية أو غير متساوية. وتعني وثائق مصطلح " المساواة " أن طريقة المقارنة لا يمكن أن تمثل تغييرات كتنقيحات. وهذا يعني أن نص الوثائق وصيغة النصوص هما نفس النص. ولكن يمكن أن تكون هناك اختلافات أخرى بين الوثائق. على سبيل المثال، Microsoft Word يدعم فقط تنقيحات الشكل للأساليب، ولا يمكنك أن تمثل الإدراج/التنويع. لذا الوثائق يمكن أن يكون لها مجموعة مختلفة من الأساليب، **Compare** ولا تزال الطريقة لا تنتج أي تنقيحات.
+{{% alert color="primary" %}}
 
-ويبين المثال الرمزي التالي كيفية التحقق إذا كانت وثيقتان متساويتان أو لا:
+لاحظ أنه يمكنك مقارنة أي وثيقتين داخل [تنسيقات الملفات المدعومة](/words/java/supported-document-formats/). في الأساس، يمكنك مقارنة كائنات المستند وحتى يمكنك إنشاء هذه الكائنات من البداية دون وجود أي تنسيق محدد.
+
+{{% /alert %}}
+
+## قارن وثيقتين {#compare-two-documents}
+
+عند مقارنة المستندات، تظهر الاختلافات في المستند الأخير من السابق كتنقيحات على السابق. عند تعديل مستند، سيكون لكل تعديل مراجعة خاصة به بعد تشغيل طريقة المقارنة.
+
+Aspose.Words يسمح لك بتحديد اختلافات المستندات باستخدام طريقة [Compare](https://reference.aspose.com/words/java/com.aspose.words/document/#compare-com.aspose.words.Document-java.lang.String-java.util.Date) - وهذا مشابه لميزة مقارنة المستندات Microsoft Word. يسمح لك بالتحقق من المستندات أو إصدارات المستندات للعثور على الاختلافات والتغييرات، بما في ذلك تعديلات التنسيق مثل تغييرات الخط وتغييرات التباعد وإضافة الكلمات والفقرات.
+
+نتيجة للمقارنة، يمكن تحديد المستندات على أنها متساوية أو غير متساوية. يعني مصطلح المستندات "المتساوية" أن طريقة المقارنة غير قادرة على تمثيل التغييرات كتنقيحات. هذا يعني أن كل من نص المستند وتنسيق النص متماثلان. ولكن يمكن أن تكون هناك اختلافات أخرى بين المستندات. على سبيل المثال، يدعم Microsoft Word تنقيحات التنسيق للأنماط فقط، ولا يمكنك تمثيل إدراج/حذف النمط. لذلك يمكن أن تحتوي المستندات على مجموعة مختلفة من الأنماط، ولا تزال طريقة **Compare** لا تنتج أي مراجعات.
+
+يوضح مثال الكود التالي كيفية التحقق مما إذا كانت وثيقتان متساويتان أم لا:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-CompareTwoWordDocuments-wordDocumentsAreEqual.java" >}}
 
-The following code example shows how to simply apply the `Compare` طريقة لوثيقتين:
+يوضح مثال الكود التالي كيفية تطبيق طريقة `Compare` ببساطة على وثيقتين:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-CompareTwoWordDocuments-caseWhenDocumentHasRevisions.java" >}}
 
-## تحديد خيارات المقارنات المسبقة {#specify-advanced-comparing-properties}
+## حدد خيارات المقارنة المتقدمة {#specify-advanced-comparing-properties}
 
-هناك العديد من الممتلكات المختلفة [CompareOptions](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/) الصف الذي يمكنك تطبيقه عندما تريد مقارنة الوثائق
+هناك العديد من الخصائص المختلفة لفئة [CompareOptions](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/) التي يمكنك تطبيقها عندما تريد مقارنة المستندات.
 
-على سبيل المثال، Aspose.Words يسمح لك بتجاهل التغييرات التي أجريت خلال عملية مقارنة لأنواع معينة من الأشياء في الوثيقة الأصلية. يمكنك اختيار الممتلكات المناسبة من نوع الجسم، مثل [IgnoreHeadersAndFooters](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/#getIgnoreHeadersAndFooters), [IgnoreFormatting](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/#getIgnoreFormatting), [IgnoreComments](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/#getIgnoreComments), والآخرون بوضعهم علىtrue".
+على سبيل المثال، Aspose.Words يسمح لك بتجاهل التغييرات التي تم إجراؤها أثناء عملية المقارنة لأنواع معينة من الكائنات داخل المستند الأصلي. يمكنك تحديد الخاصية المناسبة لنوع الكائن، مثل [IgnoreHeadersAndFooters](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/#getIgnoreHeadersAndFooters), [IgnoreFormatting](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/#getIgnoreFormatting), [IgnoreComments](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/#getIgnoreComments), وغيرها من خلال وضع لهم "صحيح".
 
-وبالإضافة إلى ذلك، Aspose.Words يوفر [Granularity](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/#getGranularity) الممتلكات التي يمكن أن تحدد بها ما إذا كان ينبغي تتبع التغييرات حسب الشخصية أو بالكلمة.
+بالإضافة إلى ذلك، يوفر Aspose.Words خاصية [Granularity](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/#getGranularity) التي يمكنك من خلالها تحديد ما إذا كنت تريد تتبع التغييرات حسب الحرف أو الكلمة.
 
-والملكية المشتركة الأخرى هي خيار تظهر فيه الوثيقة تغيرات في المقارنة. وعلى سبيل المثال، " صندوق الحوار الخاص بالوثائق الأساسية " في Microsoft Word وله الخيار " التغيرات العرضية في " - وهذا يؤثر أيضا على نتائج المقارنة. Aspose.Words يوفر [Target](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/#getTarget) ممتلكات تخدم هذا الغرض
+خاصية مشتركة أخرى هي الاختيار في أي مستند لإظهار تغييرات المقارنة. على سبيل المثال، يحتوي" مربع حوار مقارنة المستندات "في Microsoft Word على خيار" إظهار التغييرات في " – وهذا يؤثر أيضا على نتائج المقارنة. Aspose.Words يوفر [Target](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/#getTarget) الخاصية التي تخدم هذا الغرض.
 
-ويبين المثال الرمزي التالي كيفية تحديد الخصائص المتطورة للمقارنة:
+يوضح مثال التعليمات البرمجية التالية كيفية تعيين خصائص المقارنة المتقدمة:
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-CompareTwoWordDocuments-AdvancedComparingProperties.java" >}}

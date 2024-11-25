@@ -1,150 +1,150 @@
----
-title: Finden und Ersetzen in Java
+﻿---
+title: Suchen und Ersetzen in Java
 second_title: Aspose.Words für Java
-articleTitle: Finden und ersetzen
-linktitle: Finden und ersetzen
+articleTitle: Suchen und Ersetzen
+linktitle: Suchen und Ersetzen
 type: docs
-description: "Finden Sie einen String oder ein regelmäßiges Ausdrucksmuster in Ihrem Dokument und ersetzen Sie ihn durch den gewünschten Text Java."
+description: "Suchen Sie eine Zeichenfolge oder ein Muster für reguläre Ausdrücke in Ihrem Dokument und ersetzen Sie es mit Java durch den gewünschten Text."
 weight: 100
 url: /de/java/find-and-replace/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Sie können leicht in Ihrem Dokument mit einer Tastatur und Maus navigieren, aber wenn Sie viele Seiten haben, um durchzublättern, wird es eine Weile dauern, um einen bestimmten Text in einem langen Dokument zu finden. Es wird zeitaufwendiger, wenn Sie bestimmte Zeichen oder Wörter ersetzen möchten, die Sie in Ihrem Dokument verwendet haben. Mit der Funktionalität "Find and remove" können Sie eine Zeichenfolge in einem Dokument finden und durch eine andere Zeichenfolge ersetzen.
+Sie können einfach mit Tastatur und Maus in Ihrem Dokument navigieren, aber wenn Sie viele Seiten zum Scrollen haben, dauert es eine Weile, bis Sie bestimmten Text in einem langen Dokument finden. Es wird zeitaufwändiger, wenn Sie bestimmte Zeichen oder Wörter ersetzen möchten, die Sie in Ihrem Dokument verwendet haben. Die Funktion "Suchen und Ersetzen" ermöglicht es Ihnen, eine Zeichenfolge in einem Dokument zu finden und durch eine andere Zeichenfolge zu ersetzen.
 
-Aspose.Words ermöglicht es Ihnen, einen bestimmten String oder ein regelmäßiges Ausdrucksmuster in Ihrem Dokument zu finden und durch eine Alternative zu ersetzen, ohne zu installieren und zusätzliche Anwendungen wie Microsoft Word. Dies beschleunigt viele Eingabe- und Formatierungsaufgaben, die Sie möglicherweise Stunden der Arbeit sparen.
+Aspose.Words ermöglicht es Ihnen, eine bestimmte Zeichenfolge oder ein Muster für reguläre Ausdrücke in Ihrem Dokument zu finden und durch eine Alternative zu ersetzen, ohne zusätzliche Anwendungen wie Microsoft Word zu installieren und zu verwenden. Dies beschleunigt viele Tipp- und Formatierungsaufgaben und spart Ihnen möglicherweise Stunden Arbeit.
 
-Dieser Artikel erklärt, wie man String-Ersatz und regelmäßige Ausdrücke mit Unterstützung von Metacharakterern anwendet.
+In diesem Artikel wird erläutert, wie Sie Zeichenfolgenersetzung und reguläre Ausdrücke mit Unterstützung von Metazeichen anwenden.
 
-## Möglichkeiten zum Finden und Ersetzen {#ways-to-find-and-replace}
+## Möglichkeiten zum Suchen und Ersetzen von {#ways-to-find-and-replace}
 
-Aspose.Words bietet zwei Möglichkeiten, die Suche anzuwenden und den Betrieb durch folgendes zu ersetzen:
+Aspose.Words bietet zwei Möglichkeiten, die Operation Suchen und Ersetzen anzuwenden, indem Sie Folgendes verwenden:
 
-ANHANG *Einfacher String-Ersatz* – um einen bestimmten String mit einem anderen zu finden und zu ersetzen, müssen Sie einen Suchstring (alphanumerische Zeichen) angeben, der nach allen Vorkommnissen durch einen anderen vorgegebenen Ersatzstring ersetzt wird. Beide Strings dürfen keine Symbole enthalten. Berücksichtigen Sie, dass String-Vergleich fallempfindlich sein kann, oder Sie können sich nicht buchstabieren oder mehrere ähnliche Schreibweisen haben.
-2. *Regulare Ausdrücke* – um einen regulären Ausdruck anzugeben, um die genauen String-Matches zu finden und entsprechend Ihrem regulären Ausdruck zu ersetzen. Beachten Sie, dass ein Wort als aus nur alphanumerischen Zeichen gebildet wird. Wenn ein Ersatz ausgeführt wird, mit nur ganzen Wörtern übereinstimmend und die Eingabekette zufällig Symbole enthalten, dann werden keine Phrasen gefunden.
+1. *Simple string replacement* - Um eine bestimmte Zeichenfolge zu finden und durch eine andere zu ersetzen, müssen Sie eine Suchzeichenfolge (alphanumerische Zeichen) angeben, die bei allen Vorkommen durch eine andere angegebene Ersatzzeichenfolge ersetzt wird. Beide Zeichenfolgen dürfen keine Symbole enthalten. Berücksichtigen Sie, dass beim Zeichenfolgenvergleich zwischen Groß- und Kleinschreibung unterschieden werden kann oder dass Sie sich bei der Rechtschreibung nicht sicher sind oder mehrere ähnliche Schreibweisen haben.
+2. *Regular expressions* - um einen regulären Ausdruck anzugeben, um die genauen Übereinstimmungen der Zeichenfolge zu finden und sie gemäß Ihrem regulären Ausdruck zu ersetzen. Beachten Sie, dass ein Wort so definiert ist, dass es nur aus alphanumerischen Zeichen besteht. Wenn eine Ersetzung ausgeführt wird, bei der nur ganze Wörter übereinstimmen und die Eingabezeichenfolge zufällig Symbole enthält, werden keine Phrasen gefunden.
 
-Auch können Sie spezielle Metacharacter mit einfachem String-Ersatz und regelmäßigen Ausdrücken verwenden, um Pausen innerhalb des Such- und Ersatzbetriebs anzugeben.
+Sie können auch spezielle Metazeichen mit einfacher Zeichenfolgenersetzung und regulären Ausdrücken verwenden, um Unterbrechungen innerhalb der Such- und Ersetzungsoperation anzugeben.
 
-Aspose.Words die Suche und den Austausch der Funktionalität durch [IReplacingCallBack](https://reference.aspose.com/words/java/com.aspose.words/ireplacingcallback/). Sie können mit vielen Optionen während der Suche arbeiten und den Prozess ersetzen [FindReplaceOptions](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/) Klasse.
+Aspose.Words zeigt die Funktion zum Suchen und Ersetzen mit [IReplacingCallBack](https://reference.aspose.com/words/java/com.aspose.words/ireplacingcallback/) an. Sie können während des Such- und Ersetzungsprozesses mit der Klasse [FindReplaceOptions](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/) mit vielen Optionen arbeiten.
 
-### Text mit einfacher String-Ersatz finden und ersetzen {#find-and-replace-text-using-simple-string-replacement}
+### Suchen und Ersetzen von Text mit der einfachen Zeichenfolgenersetzung {#find-and-replace-text-using-simple-string-replacement}
 
-Sie können eine der [Replace](https://reference.aspose.com/words/java/com.aspose.words/range/#replace-java.lang.String-java.lang.String) Methoden, um einen bestimmten String zu finden oder zu ersetzen und die Anzahl der gemachten Ersatze zurückzugeben. In diesem Fall können Sie einen zu ersetzenden String angeben, einen String, der alle seine Vorkommnisse ersetzt, ob der Austausch case-sensitive ist und ob nur eigenständige Wörter betroffen sind.
+Sie können eine der [Replace](https://reference.aspose.com/words/java/com.aspose.words/range/#replace-java.lang.String-java.lang.String) -Methoden verwenden, um eine bestimmte Zeichenfolge zu suchen oder zu ersetzen und die Anzahl der vorgenommenen Ersetzungen zurückzugeben. In diesem Fall können Sie eine zu ersetzende Zeichenfolge angeben, eine Zeichenfolge, die alle Vorkommen ersetzt, ob bei der Ersetzung zwischen Groß- und Kleinschreibung unterschieden wird und ob nur eigenständige Wörter betroffen sind.
 
-Das folgende Codebeispiel zeigt, wie man den String "_CustomerName_" findet und durch den String *"James Bond"* ersetzt:
+Das folgende Codebeispiel zeigt, wie Sie die Zeichenfolge "_CustomerName_" finden und durch die Zeichenfolge *"James Bond"* ersetzen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-FindAndReplace-SimpleStringReplacement.java" >}}
 
-Sie können den Unterschied zwischen dem Dokument bemerken, bevor Sie einen einfachen String-Ersatz anwenden:
+Sie können den Unterschied zwischen dem Dokument feststellen, bevor Sie eine einfache Zeichenfolgenersetzung anwenden:
 
 <img src="/words/java/find-and-replace/before-simple-string-replacement.png" alt="before-simple-string-replacement-aspose-words-java" style="width:600px"/>
 
-Und nach dem einfachen String-Ersatz:
+Und nach dem Anwenden eines einfachen String-Ersetzens:
 
 <img src="/words/java/find-and-replace/after-simple-string-replacement.png" alt="after-simple-string-replacement-aspose-words-java" style="width:600px"/>
 
-### Text mit regelmäßigen Ausdrücken finden und ersetzen {#find-and-replace-text-using-regular-expressions}
+### Suchen und Ersetzen von Text mit regulären Ausdrücken {#find-and-replace-text-using-regular-expressions}
 
-Ein regelmäßiger Ausdruck (regex) ist ein Muster, das eine bestimmte Textfolge beschreibt. Angenommen, Sie wollen alle doppelten Vorkommnisse eines Wortes durch ein einziges Wort-Ereignis ersetzen. Dann können Sie den folgenden regulären Ausdruck anwenden, um das Doppelwortmuster anzugeben: `([a-zA-Z]+) \1`.
+Ein regulärer Ausdruck (Regex) ist ein Muster, das eine bestimmte Textfolge beschreibt. Angenommen, Sie möchten alle doppelten Vorkommen eines Wortes durch ein einzelnes Vorkommen ersetzen. Dann können Sie den folgenden regulären Ausdruck anwenden, um das Doppelwortmuster anzugeben: `([a-zA-Z]+) \1`.
 
-Verwenden Sie den anderen [Replace](https://reference.aspose.com/words/java/com.aspose.words/range/#replace-java.util.regex.Pattern-java.lang.String) Verfahren zum Suchen und Ersetzen bestimmter Zeichenkombinationen durch Einstellen der `Regex` Parameter als reguläres Expressionsmuster, um Matches zu finden.
+Verwenden Sie die andere [Replace](https://reference.aspose.com/words/java/com.aspose.words/range/#replace-java.util.regex.Pattern-java.lang.String)-Methode, um bestimmte Zeichenkombinationen zu suchen und zu ersetzen, indem Sie den Parameter `Regex` als Muster für reguläre Ausdrücke festlegen, um Übereinstimmungen zu finden.
 
-Das folgende Codebeispiel zeigt, wie man Strings ersetzt, die mit einem vorgegebenen Ersatzstring einem regulären Expressionsmuster entsprechen:
+Das folgende Codebeispiel zeigt, wie Zeichenfolgen, die einem regulären Ausdrucksmuster entsprechen, durch eine angegebene Ersetzungszeichenfolge ersetzt werden:
 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-FindAndReplace-UsingRegularExpression.java" >}}
 
 
-Sie können den Unterschied zwischen dem Dokument bemerken, bevor Sie String-Ersatz mit regelmäßigen Ausdrücken anwenden:
+Sie können den Unterschied zwischen dem Dokument feststellen, bevor Sie die Zeichenfolgenersetzung durch reguläre Ausdrücke anwenden:
 
 <img src="/words/java/find-and-replace/before-replacement-with-regular-expressions.png" alt="before-replacement-with-regular-expressions-aspose-words-java" style="width:600px"/>
 
-Und nach der Anwendung von String-Ersatz mit regelmäßigen Ausdrücken:
+Und nach dem Anwenden der Zeichenfolgenersetzung durch reguläre Ausdrücke:
 
 <img src="/words/java/find-and-replace/after-replacement-with-regular-expressions.png" alt="after-replacement-with-regular-expressions-aspose-words-java" style="width:600px"/>
 
-### String mithilfe von Metacharactern suchen und ersetzen {#find-and-replace-text-using-metacharacters}
+### Suchen und Ersetzen von Zeichenfolgen mit Metazeichen {#find-and-replace-text-using-metacharacters}
 
-Sie können Metazeichen in der Suchkette oder der Ersatz-String verwenden, wenn ein bestimmter Text oder Satz aus mehreren Absätzen, Abschnitten oder Seiten besteht. Einige der Metacharacter enthalten **&p** für einen Absatzbruch, **&b** für einen Schnittbruch, **&m** für eine Seitenumbruch und **&l** für einen Line Break.
+Sie können Metazeichen in der Suchzeichenfolge oder der Ersetzungszeichenfolge verwenden, wenn ein bestimmter Text oder Ausdruck aus mehreren Absätzen, Abschnitten oder Seiten besteht. Einige der Metazeichen enthalten **&p** für einen Absatzumbruch, **&b** für einen Abschnittsumbruch, **&m** für einen Seitenumbruch und **&l** für einen Zeilenumbruch.
 
 {{% alert color="primary" %}}
 
-Beachten Sie, dass der Metacharakter **&&** gleich **&**. Zum Beispiel, wenn Sie den Text für **&p** das ist keine Absatzpause, dann können Sie **&&p**.
+Beachten Sie, dass das Metazeichen **&&** gleich **&** ist. Wenn Sie beispielsweise den Text für **&p** suchen müssen, der kein Absatzumbruch ist, können Sie **&&p** verwenden.
 
 {{% /alert %}}
 
-Das folgende Codebeispiel zeigt, wie Text mit Absatz und Seitenbruch ersetzt werden kann:
+Das folgende Codebeispiel zeigt, wie Text durch Absatz- und Seitenumbrüche ersetzt wird:
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-FindAndReplace-ReplaceTextContaingMetaCharacters.java" >}}
 
-## String finden und ersetzen in Header/Footer eines Dokumentes {#find-and-replace-string-in-header-or-footer-of-a-document}
+## Zeichenfolge in Kopf- / Fußzeile eines Dokuments suchen und ersetzen {#find-and-replace-string-in-header-or-footer-of-a-document}
 
-Sie können Text im Header/Fußer-Bereich eines Word-Dokuments unter Verwendung des [HeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/headerfooter/) Klasse.
+Sie können Text im Kopf- / Fußzeilenbereich eines Word-Dokuments mit der Klasse [HeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/headerfooter/) suchen und ersetzen.
 
-Das folgende Codebeispiel zeigt, wie der Text des Header-Abschnitts in Ihrem Dokument ersetzt werden kann:
+Das folgende Codebeispiel zeigt, wie Sie den Text des Kopfzeilenabschnitts in Ihrem Dokument ersetzen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-FindAndReplace-ReplaceTextInHeader.java" >}}
 
 
-Sie können den Unterschied zwischen dem Dokument bemerken, bevor Sie Header string Ersatz anwenden:
+Sie können den Unterschied zwischen dem Dokument feststellen, bevor Sie die Ersetzung der Kopfzeilenzeichenfolge anwenden:
 
 <img src="/words/java/find-and-replace/before-applying-header-string-replacement.png" alt="before-applying-header-string-replacement-aspose-words-java" style="width:600px"/>
 
-Und nach dem Anwenden von Header String Ersatz:
+Und nach dem Anwenden des Ersetzens der Header-Zeichenfolge:
 
 <img src="/words/java/find-and-replace/after-applying-header-string-replacement.png" alt="after-applying-header-string-replacement-aspose-words-java" style="width:600px"/>
 
-Das Codebeispiel, um den Text des Footer-Abschnitts in Ihrem Dokument zu ersetzen, ist dem vorherigen Header-Code-Beispiel sehr ähnlich. Alles, was Sie tun müssen, ist die folgenden zwei Linien zu ersetzen:
+Das Codebeispiel zum Ersetzen des Textes des Fußzeilenabschnitts in Ihrem Dokument ist dem vorherigen Codebeispiel für die Kopfzeile sehr ähnlich. Alles was Sie tun müssen, ist die folgenden zwei Zeilen zu ersetzen:
 
 {{< highlight java >}}
 HeaderFooter header = headersFooters.get(HeaderFooterType.HEADER_PRIMARY);
 header.getRange().replace("Aspose.Words", "Remove", options);
 {{< /highlight >}}
 
-Mit folgenden Eigenschaften:
+Mit den folgenden:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-FindAndReplace-ReplaceTextInFooter.java" >}}
 
 
-Sie können den Unterschied zwischen dem Dokument bemerken, bevor Sie Footer string Ersatz anwenden:
+Sie können den Unterschied zwischen dem Dokument feststellen, bevor Sie das Ersetzen der Fußzeilenzeichenfolge anwenden:
 
 <img src="/words/java/find-and-replace/before-applying-footer-string-replacement.png" alt="before-applying-footer-string-replacement-aspose-words-java" style="width:600px"/>
 
-Und nach dem Anwenden von Fußzeilen-Ersatz:
+Und nach dem Anwenden des Ersetzens der Fußzeilenzeichenfolge:
 
 <img src="/words/java/find-and-replace/after-applying-footer-string-replacement.png" alt="after-applying-footer-string-replacement-aspose-words-java" style="width:600px"/>
 
-## Ignorieren von Text während des Suchens und Ersetzens {#ignore-text-during-find-and-replace}
+## Text beim Suchen und Ersetzen ignorieren {#ignore-text-during-find-and-replace}
 
-Bei der Anwendung des Such- und Ersatzvorgangs können Sie bestimmte Textsegmente ignorieren. So können bestimmte Teile des Textes von der Suche ausgeschlossen werden, und der Fund und der Ersatz können nur auf die übrigen Teile angewendet werden.
+Beim Anwenden der Operation Suchen und Ersetzen können Sie bestimmte Textsegmente ignorieren. So können bestimmte Teile des Textes von der Suche ausgeschlossen werden, und das Suchen und Ersetzen kann nur auf die verbleibenden Teile angewendet werden.
 
-Aspose.Words bietet viele finden und ersetzen Eigenschaften für ignorieren Text wie [IgnoreDeleted](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreDeleted), [IgnoreFieldCodes](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreFieldCodes), [IgnoreFields](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreFields), [IgnoreFootnotes](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreFootnotes), und [IgnoreInserted](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreInserted).
+Aspose.Words bietet viele Such- und Ersetzungseigenschaften zum Ignorieren von Text, z. B.: [IgnoreDeleted](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreDeleted), [IgnoreFieldCodes](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreFieldCodes), [IgnoreFields](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreFields), [IgnoreFootnotes](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreFootnotes), und [IgnoreInserted](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreInserted).
 
-Das folgende Codebeispiel zeigt, wie Text innerhalb von Revisionen löschen ignoriert werden kann:
+Das folgende Codebeispiel zeigt, wie Text in Löschrevisionen ignoriert wird:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-IgnoreText-IgnoreTextInsideDeleteRevisions.java" >}}
 
-## Passen Sie die Funktion Suchen und Ersetzen an {#customize-find-and-replace-operation}
+## Anpassen der Such- und Ersetzungsoperation {#customize-find-and-replace-operation}
 
-Aspose.Words viele verschiedene [properties](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/) Text zu finden und zu ersetzen, z. B. das spezifische Format anzuwenden, [ApplyFont](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getApplyFont) und [ApplyParagraphFormats](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getApplyParagraphFormat) Eigenschaften, Substitutionen in Ersatzmustern mit [UseSubstitutions](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getUseSubstitutions) Eigentum und andere.
+Aspose.Words bietet viele verschiedene [properties](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/) zum Suchen und Ersetzen von Text, z. B. das Anwenden eines bestimmten Formats mit [ApplyFont](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getApplyFont) - und [ApplyParagraphFormats](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getApplyParagraphFormat) -Eigenschaften, das Verwenden von Ersetzungen in Ersetzungsmustern mit [UseSubstitutions](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getUseSubstitutions) -Eigenschaften und andere.
 
-Das folgende Codebeispiel zeigt, wie Sie ein bestimmtes Wort in Ihrem Dokument hervorheben können:
+Das folgende Codebeispiel zeigt, wie Sie ein bestimmtes Wort in Ihrem Dokument hervorheben:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-FindAndReplace-CustomizeFindAndReplaceOperation.java" >}}
 
 
-Aspose.Words Sie können die [IReplacingCallback](https://reference.aspose.com/words/java/com.aspose.words/ireplacingcallback/) eine Schnittstelle zum Erstellen und Aufruf einer benutzerdefinierten Methode während eines Austauschvorgangs. Sie können einige Anwendungsfälle haben, in denen Sie die Suche anpassen und die Operation ersetzen müssen, z.B. den durch einen regelmäßigen Ausdruck mit HTML-Tags angegebenen Text ersetzen, so dass Sie grundsätzlich durch das Einfügen von HTML ersetzt werden.
+Aspose.Words ermöglicht die Verwendung der [IReplacingCallback](https://reference.aspose.com/words/java/com.aspose.words/ireplacingcallback/)-Schnittstelle zum Erstellen und Aufrufen einer benutzerdefinierten Methode während einer Ersetzungsoperation. Möglicherweise haben Sie einige Anwendungsfälle, in denen Sie die Such- und Ersetzungsoperation anpassen müssen, z. B. das Ersetzen von Text, der durch einen regulären Ausdruck mit HTML -Tags angegeben wurde. Im Grunde werden Sie replace durch Einfügen von HTML anwenden.
 
-Wenn Sie einen String mit einem HTML-Tag ersetzen müssen, wenden Sie das **IReplacingCallback** Schnittstelle zum Anpassen des Such- und Ersatzvorgangs, so dass das Match zu Beginn eines Laufs mit dem Match-Knoten Ihres Dokuments beginnt. Lassen Sie uns einige Beispiele für die Verwendung **IReplacingCallback**.
+Wenn Sie eine Zeichenfolge durch ein HTML-Tag ersetzen müssen, wenden Sie die **IReplacingCallback**-Schnittstelle an, um die Such- und Ersetzungsoperation so anzupassen, dass die Übereinstimmung zu Beginn eines Laufs mit dem Übereinstimmungsknoten Ihres Dokuments beginnt. Lassen Sie uns einige Beispiele für die Verwendung von **IReplacingCallback** geben.
 
-Das folgende Codebeispiel zeigt, wie man Text mit HTML ersetzt:
+Das folgende Codebeispiel zeigt, wie der durch HTML angegebene Text ersetzt wird:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-FindAndReplace-ReplaceWithHtml.java" >}}
 
 
-Das folgende Codebeispiel zeigt, wie man positive Zahlen mit grüner Farbe und negative Zahlen mit roter Farbe hervorhebt:
+Das folgende Codebeispiel zeigt, wie positive Zahlen mit grüner Farbe und negative Zahlen mit roter Farbe hervorgehoben werden:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-FindAndReplace-NumberHighlightCallback.java" >}}
 
-Das folgende Codebeispiel zeigt, wie man eine Zeilennummer zu jeder Zeile vorgibt:
+Das folgende Codebeispiel zeigt, wie jeder Zeile eine Zeilennummer vorangestellt wird:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-FindAndReplace-TestLineCounter.java" >}}

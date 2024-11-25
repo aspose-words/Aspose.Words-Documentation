@@ -1,68 +1,68 @@
----
-title: Abra um documento somente leitura em Java
+﻿---
+title: Abrir um documento somente leitura em Java
 second_title: Aspose.Words para Java
-articleTitle: Abra um documento somente leitura
-linktitle: Abra um documento somente leitura
-description: "Faça seu documento somente leitura para que o conteúdo possa ser copiado ou lido, mas não modificado usando Java."
+articleTitle: Abrir um documento apenas leitura
+linktitle: Abrir um documento apenas leitura
+description: "Torne seu documento somente leitura para que o conteúdo possa ser copiado ou lido, mas não modificado usando Java."
 type: docs
 weight: 10
 url: /pt/java/open-a-document-read-only/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Às vezes, você pode ter um documento que precisa de uma revisão, mas você não quer que os revisores modifiquem aleatoriamente seu conteúdo. Aspose.Words permite que você faça a permissão do seu documento somente leitura para que o conteúdo possa ser copiado ou lido, mas não modificado. Isso impedirá que o conteúdo seja removido ou adicionado ao seu documento.
+Às vezes, você pode ter um documento que precisa de uma revisão, mas não deseja que os revisores modifiquem aleatoriamente seu conteúdo. Aspose.Words permite que você faça a permissão do seu documento somente leitura para que o conteúdo possa ser copiado ou lido, mas não modificado. Isso impedirá que o conteúdo seja removido ou adicionado ao seu documento.
 
 {{% alert color="primary" %}}
 
-Aplicar a opção somente leitura ao seu documento não impede que alguém crie uma nova cópia e salve-a com outro nome.
+Aplicar a opção somente leitura ao seu documento não impede que alguém crie uma nova cópia dele e salve-o com outro nome.
 
 {{% /alert %}}
 
-Este artigo explica como fazer um documento somente leitura.
+Este artigo explica como tornar um documento só de leitura.
 
-## Faça um documento somente leitura
+## Tornar um documento só de leitura
 
-Aspose.Words tem a classe pública [WriteProtection](https://reference.aspose.com/words/java/com.aspose.words/writeprotection/) que especifica configurações de proteção de gravação para um documento. Você não cria instâncias desta classe diretamente.
+Aspose.Words tem a classe pública [WriteProtection](https://reference.aspose.com/words/java/com.aspose.words/writeprotection/) que especifica as configurações de proteção contra gravação para um documento. Você não cria instâncias dessa classe diretamente.
 
-Escrever proteção mostra se o autor recomendou abrir um documento como somente leitura e/ou exigir uma senha para modificar o documento.
+A proteção contra gravação mostra se o autor recomendou a abertura de um documento como somente leitura e/ou a necessidade de uma senha para modificar o documento.
 
-Aspose.Words permite que você faça um documento somente leitura para restringir a edição usando o [ReadOnlyRecommended](https://reference.aspose.com/words/java/com.aspose.words/writeprotection/#getReadOnlyRecommended) propriedade e [SetPassword](https://reference.aspose.com/words/java/com.aspose.words/writeprotection/#setPassword-java.lang.String) método.
+Aspose.Words permite que você faça um documento somente leitura para restringir a edição usando a propriedade [ReadOnlyRecommended](https://reference.aspose.com/words/java/com.aspose.words/writeprotection/#getReadOnlyRecommended) e o método [SetPassword](https://reference.aspose.com/words/java/com.aspose.words/writeprotection/#setPassword-java.lang.String).
 
 {{% alert color="primary" %}}
 
-Em Microsoft Word, você pode criar um documento somente leitura de uma forma semelhante usando ambos:
+Em Microsoft Word, você pode criar um documento somente leitura de maneira semelhante usando ambos:
 
-* "Sempre aberto somente leitura" (File → Info → Proteger Documento)
-* "Senha para modificar" (Salvar como → Ferramentas → Opções Gerais → Senha)
+* "Always Open Read-Only" (Ficheiro (Ficheiro)
+* "Senha para modificar" (Salvar como → Ferramentas → Opções gerais → Senha)
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-Os usuários também podem restringir a edição de documentos selecionando [ProtectionType](https://reference.aspose.com/words/java/com.aspose.words/protectiontype/) como **ReadOnly**, mas este é outro recurso que fornece recursos de proteção mais avançados. Há tal função em Microsoft Word, respectivamente, é implementado em Aspose.Words.
+Os usuários também podem restringir a edição de documentos selecionando [ProtectionType](https://reference.aspose.com/words/java/com.aspose.words/protectiontype/) como **ReadOnly**, mas esse é outro recurso que fornece recursos de proteção mais avançados. Existe tal função em Microsoft Word, respectivamente, é implementada em Aspose.Words.
 
-**ProtectionType** será descrito em detalhes em um dos seguintes artigos – "Restrição de Edição de Documentos".
+**ProtectionType**
 
 {{% /alert %}}
 
-O **ReadOnlyRecommended** propriedade é protegido por senha, então se você não definir uma senha antes de aplicar o **ReadOnlyRecommended** propriedade, então outros usuários podem simplesmente abrir o documento como se não estivesse protegido. Você acessa as configurações de proteção de documentos e define uma senha de proteção de gravação via **SetPassword** método.
+A propriedade **ReadOnlyRecommended** é protegida por senha, portanto, se você não definir uma senha antes de aplicar a propriedade **ReadOnlyRecommended**, outros usuários podem simplesmente abrir o documento como se estivesse desprotegido. Pode aceder às definições de protecção de documentos e definir uma palavra-passe de protecção contra gravação através do método **SetPassword**.
 
 {{% alert color="primary" %}}
 
-Note que a senha que está sendo definida é apenas uma propriedade em um documento que pode ser removido se as propriedades do documento forem acessadas. Assim, tal senha não é uma garantia da segurança do documento.
+Observe que a senha que está sendo definida é apenas uma propriedade em um documento que pode ser removida se as propriedades do documento forem acessadas. Por conseguinte, essa palavra-passe não constitui uma garantia da segurança do documento.
 
 {{% /alert %}}
 
-Se você precisar verificar se um documento tem uma senha de proteção de gravação que o restringe da edição, você pode usar o [IsWriteProtected](https://reference.aspose.com/words/java/com.aspose.words/writeprotection/#isWriteProtected) propriedade.
+Se você precisar verificar se um documento tem uma senha de proteção contra gravação que o restringe de edição, você pode usar a propriedade [IsWriteProtected](https://reference.aspose.com/words/java/com.aspose.words/writeprotection/#isWriteProtected).
 
-O exemplo de código a seguir mostra como fazer um documento somente leitura:
+O exemplo de código a seguir mostra como tornar um documento somente leitura:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ProtectDocument-ReadOnlyProtection.java" >}}
 
-## Remover Restrição somente leitura
+## Remover A Restrição Somente Leitura
 
-Se você não quiser que um usuário abra seu documento como somente leitura, você pode simplesmente definir o **ReadOnlyRecommened** propriedade para *false* ou selecionar **ProtectionType** como **NoProtection**.
+Se você não quiser que um usuário abra seu documento como somente leitura, basta definir a propriedade **ReadOnlyRecommened** como *false* ou selecionar **ProtectionType** como **NoProtection**.
 
-O exemplo a seguir mostra como remover o acesso somente leitura para um documento:
+O exemplo de código a seguir mostra como remover o acesso somente leitura para um documento:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ProtectDocument-RemoveReadOnlyRestriction.java" >}}

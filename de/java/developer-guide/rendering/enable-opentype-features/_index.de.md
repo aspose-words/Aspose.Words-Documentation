@@ -1,9 +1,9 @@
----
-title: OpenTyp Features aktivieren in Java
+﻿---
+title: OpenType-Funktionen in Java aktivieren
 second_title: Aspose.Words für Java
-articleTitle: OpenTyp Features aktivieren
-linktitle: OpenTyp Features aktivieren
-description: "Erweiterte Typografie-Funktionen in Aspose.Words für Java."
+articleTitle: OpenType-Funktionen aktivieren
+linktitle: OpenType-Funktionen aktivieren
+description: "Erweiterte Typografiefunktionen in Aspose.Words für Java."
 type: docs
 weight: 25
 url: /de/java/enable-opentype-features/
@@ -12,18 +12,18 @@ timestamp: 2024-01-27-14-07-04
 
 
 
-OpenType ist ein Schriftformat, das im Vergleich zu PostScript und TrueType eine bessere Unterstützung für internationale Sprachen und Schreibsysteme bietet. Die Layout-Features von OpenType sind häufig als OpenType-Features bekannt. Aspose.Words.Shaping.HarfBuzz Paket bietet Unterstützung für OpenType-Funktionen in Aspose.Words Verwendung von `HarfBuzz` Textformmaschine.
+OpenType ist ein Schriftformat, das eingeführt wurde, um internationale Sprachen und Schriftsysteme im Vergleich zu PostScript und TrueType besser zu unterstützen. Die Layout-Features von OpenType werden allgemein als OpenType-Features bezeichnet. Aspose.Words.Gestaltung.Das HarfBuzz-Paket bietet Unterstützung für OpenType -Funktionen in Aspose.Words mithilfe der `HarfBuzz`-Textformungs-Engine.
 
-Aspose.Words ist in der Lage, Textformerobjekte extern zu verwenden. Ein Textformer stellt eine Schrift dar und berechnet die Formgebungsinformationen für einen Text. Ein Dokument bezieht sich typischerweise auf mehrere Schriftarten, so dass eine Textformerfabrik erforderlich ist. Dieses Paket enthält eine Implementierung einer Textformerfabrik, die von Aspose.Words.Layout.LayoutOptionen.TextShaperFactory Eigenschaft.
+Aspose.Words kann extern bereitgestellte Textformer-Objekte verwenden. Ein Text Shaper repräsentiert eine Schriftart und berechnet Shaping-Informationen für einen Text. Ein Dokument bezieht sich normalerweise auf mehrere Schriftarten, daher ist eine Textformerfabrik erforderlich. Dieses Paket enthält eine Implementierung einer Textformerfabrik, die von Aspose.Words verwendet wird.Layout.LayoutOptions.TextShaperFactory Eigenschaft.
 
 {{% alert color="primary" %}}
 
-Textformung wird nur beim Export in PDF oder XPS Formate.
+Die Textformung wird nur beim Export in die Formate PDF oder XPS durchgeführt.
 
 {{% /alert %}}
 
-In einer typischen Anwendung wird eine einzelne Instanz einer Textformerfabrik unter allen Dokumenteninstanzen geteilt. Wenn ein Textformer erstellt wird, wird eine Schriftdatei aufgerufen. Das Parsing einer Schriftdatei ist eine teure Operation, so dass das Caching empfohlen wird. Aspose.Words Umsetzungen BasicTextShare Cache-Klasse, die Textformer-Fabrik-Implementierung und Cache Textformer Instanzen von der verpackten Fabrik zurückgegeben.
+In einer typischen Anwendung wird eine einzelne Instanz einer Text Shaper Factory von allen Dokumentinstanzen gemeinsam genutzt. Immer wenn ein Textformer erstellt wird, wird auf eine Schriftartdatei zugegriffen. Das Parsen einer Schriftartdatei ist ein teurer Vorgang, daher wird das Zwischenspeichern empfohlen. Aspose.Words implementiert die BasicTextShaperCache -Klasse, die die Implementierung der Text Shaper Factory umschließt und von der umschlossenen Factory zurückgegebene Text Shaper-Instanzen zwischenspeichert.
 
-Das folgende Codebeispiel zeigt Ihnen, wie Sie die Unterstützung von OpenType Features aktivieren können.
+Das folgende Codebeispiel zeigt Ihnen, wie Sie die Unterstützung von OpenType-Funktionen aktivieren.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-OpenTypeFeatures-OpenTypeFeatures.java" >}}

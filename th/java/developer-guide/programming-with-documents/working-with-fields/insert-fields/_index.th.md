@@ -1,209 +1,209 @@
----
-title: แทรกช่องข้อมูล Java
-second_title: Aspose.Words สําหรับ Java
-articleTitle: แทรกช่องข้อมูล
-linktitle: แทรกช่องข้อมูล
-description: "วิธีการต่าง ๆ ในการใส่ช่องข้อมูลลงในเอกสารของคุณโดยใช้ Java."
+﻿---
+title: แทรกฟิลด์ในJava
+second_title: Aspose.WordsสำหรับJava
+articleTitle: แทรกฟิลด์
+linktitle: แทรกฟิลด์
+description: "วิธีการแทรกฟิลด์ลงในเอกสารของคุณด้วยJava."
 type: docs
 weight: 20
 url: /th/java/insert-fields/
 timestamp: 2024-01-27-14-07-04
 ---
 
-มีวิธีต่าง ๆ หลายวิธีที่จะแทรกช่องในเอกสาร:
+มีหลายวิธีในการแทรกฟิลด์ลงในเอกสาร:
 
-- ใช้ [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)
-- ใช้ [FieldBuilder](https://reference.aspose.com/words/java/com.aspose.words/fieldbuilder/)
-- ใช้ [Aspose.Words Document Object Model (DOM)](/words/th/java/aspose-words-document-object-model/)
+- ใช้[DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)
+- ใช้[FieldBuilder](https://reference.aspose.com/words/java/com.aspose.words/fieldbuilder/)
+- ใช้ [Aspose.Wordsรูปแบบวัตถุเอกสาร(DOM)](/words/java/aspose-words-document-object-model/)
 
-ใน บทความ นี้ เรา จะ พิจารณา แต่ ละ วิธี ใน ราย ละเอียด มาก ขึ้น และ วิเคราะห์ วิธี ที่ จะ ใส่ ช่อง ว่าง บาง อย่าง โดย ใช้ ทาง เลือก เหล่า นี้.
+ในบทความนี้เราจะดูที่แต่ละวิธีในรายละเอียดมากขึ้นและวิเคราะห์วิธีการแทรกเขตข้อมูลบางอย่างโดยใช้ตัวเลือกเหล่านี้.
 
-## แทรกช่องข้อมูลไปยังเอกสารโดยใช้ตัวสร้างเอกสาร
+## การใส่ฟิลด์ลงในเอกสารโดยใช้DocumentBuilder
 
-ใน Aspose.Words คือ [InsertField](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertField(int,boolean)มีการใช้วิธีการใส่ช่องข้อมูลใหม่เข้าไปในเอกสาร พารามิเตอร์แรกยอมรับรหัสเต็มรูปแบบของสนามที่จะใส่ พารามิเตอร์ที่สอง จะเลือก และปล่อยให้ผลลัพธ์ของสนาม ถูกตั้งด้วยตนเอง หากยังไม่ได้จัดให้แล้ว สนามจะถูกอัปเดตโดยอัตโนมัติ คุณสามารถส่งต่อว่างหรือว่างไปยังพารามิเตอร์นี้ได้ เพื่อแทรกช่องใด ๆ ด้วยค่าที่ว่าง หากคุณไม่แน่ใจว่าเกี่ยวกับรหัสสนามเฉพาะ สร้างสนามใน Microsoft Word ก่อนและสลับกันดูรหัสสนาม
+ในAspose.Wordsวิธี[InsertField](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertField(int,boolean))จะใช้ในการแทรกฟิลด์ใหม่ลงในเอกสาร พารามิเตอร์แรกยอมรับรหัสฟิลด์เต็มของฟิลด์ที่จะแทรก พารามิเตอร์ที่สองเป็นตัวเลือกและอนุญาตให้ฟิลด์ผลลัพธ์ของฟิลด์ที่จะตั้งค่าด้วยตนเอง อัพเดตโดยอัตโนมัติ คุณสามารถส่งผ่านโมฆะหรือว่างไปยังพารามิเตอร์นี้เพื่อแทรกฟิลด์ที่มีค่าฟิลด์ว่าง หากคุณไม่แน่ใจเกี่ยวกับไวยากรณ์รหัสฟิลด์เฉพาะ,สร้างฟิลด์ในMicrosoft Wordก่อนและสลับเพื่อดูรหัสฟิลด์.
 
 {{% alert color="primary" %}}
 
-ถ้ารหัสสนามของคุณมีพารามิเตอร์บรรจุพื้นที่ แล้วมันต้องปิดภายในเครื่องหมายคําพูด มิฉะนั้นสนามในทั้งสอง Microsoft Word ถึง Aspose.Words อาจ ไม่ ได้ เป็น ไป ตาม ที่ คาด หมาย ไว้ เช่น เดียว กับ การ ทํา ให้ พารามิเตอร์ ถูก ตัด ขาด.
+ถ้าโค้ดเขตข้อมูลของคุณมีพารามิเตอร์ที่มีช่องว่างแล้วมันจะต้องอยู่ภายในเครื่องหมายคำพู มิฉะนั้นฟิลด์ทั้งในMicrosoft WordและAspose.Wordsอาจไม่ทำงานตามที่คาดไว้เนื่องจากพารามิเตอร์ถูกปฏิบัติโดยทั้งสอ.
 
 {{% /alert %}}
 
-ตัวอย่างโค้ดต่อไปนี้ จะแสดงวิธีการแทรกช่องรวมเข้าไปในเอกสารโดยใช้ **DocumentBuilder**
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแทรกฟิลด์ผสานลงในเอกสารโดยใช้**DocumentBuilder**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-InsertField.java" >}}
 
-มี การ ใช้ เทคนิค เดียว กัน นี้ เพื่อ สอด ร่อง ใน ทุ่ง นา อื่น ๆ.
+เทคนิคเดียวกันจะใช้เพื่อแทรกฟิลด์ที่ซ้อนกันภายในฟิลด์อื่น.
 
-ตัวอย่างโค้ดต่อไปนี้แสดงวิธีการแทรกสนามในสาขาอื่นโดยใช้ **DocumentBuilder**
+ตัวอย่างรหัสต่อไปนี้สาธิตวิธีการแทรกฟิลด์ที่ซ้อนกันภายในฟิลด์อื่นโดยใช้**DocumentBuilder**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertNestedFields-InsertNestedFields.java" >}}
 
-### ระบุภาษาท้องถิ่นที่ระดับสนาม
+### ระบุโลแคลที่ระดับฟิลด์
 
-ตัวระบุภาษาเป็นตัวเลขสากลมาตรฐาน ที่ย่อมาจากภาษาในประเทศหรือภูมิภาคทางภูมิศาสตร์ ด้วย Aspose.Words, คุณสามารถกําหนดภาษาท้องถิ่นที่ระดับสนามโดยใช้ [LocaleId](https://reference.aspose.com/words/java/com.aspose.words/field/#getLocaleId) ทรัพย์สินที่ได้รับหรือตั้งค่า ID ของท้องที่
+ตัวระบุภาษาเป็นตัวย่อตัวเลขสากลมาตรฐานสำหรับภาษาในประเทศหรือภูมิภาคทางภูมิศ ด้วยAspose.Wordsคุณสามารถระบุโลแคลที่ระดับฟิลด์โดยใช้คุณสมบัติ[LocaleId](https://reference.aspose.com/words/java/com.aspose.words/field/#getLocaleId)ซึ่งได้รับหรือตั้งค่าโลแคลของฟิลด์ID.
 
-ตัวอย่างโค้ดต่อไปนี้ แสดงวิธีการใช้ตัวเลือกนี้:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีใช้ตัวเลือกนี้:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-SpecifylocaleAtFieldlevel-SpecifylocaleAtFieldlevel.java" >}}
 
-### แทรกช่องข้อมูลที่ยังไม่ได้พิมพ์
+### แทรกเขตข้อมูลที่ไม่ได้พิมพ์/ว่างเปล่า
 
-หากคุณต้องการใส่ช่องข้อมูลที่ยังไม่ได้พิมพ์/ ว่าง (ไม่เติม){}) เหมือนกับ Microsoft Word อนุญาต คุณสามารถใช้ [InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean) วิธีที่มี [FieldType.FieldNone](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) พารามิเตอร์ เพื่อแทรกช่องในเอกสารคํา คุณสามารถกด "Ctrl + F9" รวมกัน
+หากคุณต้องการแทรกฟิลด์ที่ไม่ได้พิมพ์/ว่างเปล่า({})เช่นเดียวกับMicrosoft Wordอนุญาต,คุณสามารถใช้วิธีการ[InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean)กับ[FieldType.FieldNone](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/)พารามิเตอร์. เมื่อต้องการแทรกฟิลด์ลงในเอกสารคำคุณสามารถกดปุ่ม"ควบคุมการ+F9".
 
-ตัวอย่างรหัสต่อไปนี้ จะแสดงวิธีแทรกช่องว่างเข้าไปในเอกสาร:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแทรกฟิลด์ว่างลงในเอกสาร:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertFieldNone-InsertFieldNone.java" >}}
 
-### แทรก `COMPARE` ช่องข้อมูล
+### แทรกฟิลด์`COMPARE`
 
-เดอะ `COMPARE` ช่องข้อมูล จะเปรียบเทียบค่าสองค่า แล้วคืนค่าเป็นตัวเลข 1 หากค่าเปรียบเทียบเป็น true หรือ 0 ถ้าเปรียบเทียบ false.
+ฟิลด์`COMPARE`เปรียบเทียบค่าสองค่าและส่งคืนค่าตัวเลข 1 ถ้าการเปรียบเทียบเป็นจริงหรือ 0 ถ้าการเปรียบเทียบเป็นเท็จ.
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีเพิ่ม `COMPARE` ตัวสร้างเอกสาร:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีเพิ่มฟิลด์`COMPARE`โดยใช้DocumentBuilder:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldCompare.java" >}}
 
-### แทรก `IF` ช่องข้อมูล
+### แทรกฟิลด์`IF`
 
-เดอะ `IF` ช่องข้อมูลสามารถใช้ประเมินค่าการโต้แย้งได้ตามเงื่อนไข
+ฟิลด์`IF`สามารถใช้เพื่อประเมินอาร์กิวเมนต์ตามเงื่อนไข.
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีเพิ่ม `IF` ตัวสร้างเอกสาร:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีเพิ่มฟิลด์`IF`โดยใช้DocumentBuilder:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldIf.java" >}}
 
-## แทรกช่องข้อมูลไปยังเอกสารโดยใช้ตัวสร้างช่องข้อมูล
+## การใส่ฟิลด์ลงในเอกสารโดยใช้FieldBuilder
 
-วิธีอื่นที่จะแทรกสนามใน Aspose.Words คือ [FieldBuilder](https://reference.aspose.com/words/java/com.aspose.words/fieldbuilder/) ชั้นเรียน. มันให้ส่วนติดต่อที่คล่อง เพื่อระบุการสลับช่อง และค่าอาร์กิวเมนต์เป็นข้อความ, โหนด หรือแม้กระทั่งการวางผังสนาม
+ทางเลือกในการแทรกฟิลด์ในAspose.Wordsคือ[FieldBuilder](https://reference.aspose.com/words/java/com.aspose.words/fieldbuilder/)คลาส จะมีอินเตอร์เฟซที่คล่องแคล่วในการระบุสวิทช์ฟิลด์และค่าอาร์กิวเมนต์เป็นข้อความโหนดห.
 
-ตัวอย่างโค้ดต่อไปนี้ จะแสดงวิธีแทรกช่องในเอกสารโดยใช้ **FieldBuilder**
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแทรกฟิลด์ลงในเอกสารโดยใช้**FieldBuilder**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-FieldBuilder.java" >}}
 
-## แทรกช่องข้อมูลโดยใช้ DOM
+## การใส่ฟิลด์โดยใช้DOM
 
-คุณยังสามารถแทรกชนิดของช่องข้อมูลได้โดยใช้ [Aspose.Words Document Object Model (DOM)](/words/th/java/aspose-words-document-object-model/). ในส่วนนี้ เราจะมาดูตัวอย่างกัน
+นอกจากนี้คุณยังสามารถแทรกประเภทต่างๆของเขตข้อมูลโดยใช้ [Aspose.Wordsรูปแบบวัตถุเอกสาร(DOM)](/words/java/aspose-words-document-object-model/). ในส่วนนี้เราจะดูตัวอย่างบางส่วน.
 
-### แทรกการผนวกรวม ช่องข้อมูลเป็นเอกสารโดยใช้ DOM
+### การแทรกฟิลด์ผสานลงในเอกสารโดยใช้DOM
 
-`MERGEFIELD` ช่องข้อมูลในเอกสารคํา [FieldMergeField](https://reference.aspose.com/words/java/com.aspose.words/fieldmergefield/) ชั้นเรียน. คุณสามารถใช้ **FieldMergeField** ห้องเรียนที่จะดําเนินการต่อไปนี้:
+`MERGEFIELD` field in Word document can be represented by the [FieldMergeField](https://reference.aspose.com/words/java/com.aspose.words/fieldmergefield/) class. You can use **FieldMergeField** class to perform the following operations:
 
-- ลบทั้งเธรด
-- แสดงการฟอร์แมตของสนามรวม
-- กําหนดข้อความที่อยู่ระหว่างตัวแบ่งสนามกับส่วนท้ายของสนามรวม
-- ใช้กําหนดข้อความที่จะแทรกหลังจากทําการรวมช่องข้อมูลแล้ว หากช่องข้อมูลยังไม่ว่าง
-- ลบทั้งเธรด
+- ระบุชื่อของฟิลด์ผสาน
+- ระบุการจัดรูปแบบของฟิลด์ผสาน
+- ระบุข้อความที่อยู่ระหว่างตัวคั่นฟิลด์และฟิลด์สิ้นสุดของฟิลด์ผสาน
+- ระบุข้อความที่จะแทรกหลังจากฟิลด์ผสานถ้าฟิลด์ไม่ว่างเปล่า
+- ระบุข้อความที่จะแทรกก่อนฟิลด์ผสานถ้าฟิลด์ไม่ว่าง
 
 {{% alert color="primary" %}}
 
-สําหรับรายละเอียดเพิ่มเติม ดู [FieldMergeField](https://reference.aspose.com/words/java/com.aspose.words/fieldmergefield/) ชั้น API.
+สำหรับรายละเอียดเพิ่มเติมโปรดดูที่[FieldMergeField](https://reference.aspose.com/words/java/com.aspose.words/fieldmergefield/)ชั้นAPI.
 
 {{% /alert %}}
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีการเพิ่ม `MERGE` ใช้ช่องข้อมูล DOM ย่อหน้าในเอกสาร:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการเพิ่มฟิลด์`MERGE`โดยใช้DOMไปยังย่อหน้าในเอกสาร:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertMergeFieldUsingDOM-InsertMergeFieldUsingDOM.java" >}}
 
-### แทรก Mail Merge `ADDRESSBLOCK` ค้นหาในเอกสารโดยใช้ DOM
+### การแทรกฟิลด์Mail Merge`ADDRESSBLOCK`ลงในเอกสารโดยใช้DOM
 
-เดอะ `ADDRESSBLOCK` ช่องข้อมูลที่ใช้แทรก Mail Merge ที่อยู่บล็อกในเอกสารคํา `ADDRESSBLOCK` ช่องข้อมูลในเอกสารคํา [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) ชั้นเรียน. คุณสามารถใช้ **FieldAddressBlock** ห้องเรียนที่จะดําเนินการต่อไปนี้:
+ฟิลด์`ADDRESSBLOCK`ถูกใช้เพื่อแทรกบล็อกที่อยู่Mail Mergeในเอกสารคำ `ADDRESSBLOCK`ฟิลด์ในเอกสารคำสามารถแสดงโดย[FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/)ชั้น คุณสามารถใช้**FieldAddressBlock**คลาสในการดำเนินการดังต่อไปนี้:
 
-- ลบทั้งเธรด
-- ระบุว่าจะฟอร์แมตที่อยู่ต่าง ๆ ตามชื่อประเทศ/ regression ของผู้รับที่ถูกกําหนดโดย POSTs*CDE (Universal Post 2006) หรือไม่
-- ระบุชื่อประเทศ/ ชื่อ region
-- ลบทั้งเธรด
-- ระบุหมายเลขภาษาที่ใช้เป็นรูปแบบที่อยู่
+- ระบุว่าจะใส่ชื่อของประเทศ/ภูมิภาคในฟิลด์หรือไม่
+- ระบุว่าจะจัดรูปแบบที่อยู่ตามประเทศ/ภูมิภาคของผู้รับตามที่กำหนดโดยPOST*CODE(สหภาพไปรษณีย์สากล 2006)
+- ระบุชื่อประเทศ/ภูมิภาคที่ยกเว้น
+- ระบุชื่อและรูปแบบที่อยู่
+- ระบุภาษาIDที่ใช้ในการจัดรูปแบบที่อยู่
 
 {{% alert color="primary" %}}
 
-สําหรับรายละเอียดเพิ่มเติม ดู [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) ชั้น API.
+สำหรับรายละเอียดเพิ่มเติมโปรดดูที่[FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/)ชั้นAPI.
 
 {{% /alert %}}
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีการเพิ่ม Mail Merge `ADDRESSBLOCK` ช่องข้อมูลโดยใช้ DOM ย่อหน้าในเอกสาร:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการเพิ่มฟิลด์Mail Merge`ADDRESSBLOCK`โดยใช้DOMไปยังย่อหน้าในเอกสาร:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertMailMergeAddressBlockFieldUsingDOM-InsertMailMergeAddressBlockFieldUsingDOM.java" >}}
 
-### แทรก `ADVANCE` ค้นหาในเอกสารโดยไม่ต้องใช้ตัวสร้างเอกสาร
+### การแทรกฟิลด์`ADVANCE`ลงในเอกสารโดยไม่ใช้DocumentBuilder
 
-เดอะ `ADVANCE` ช่องข้อมูลจะถูกใช้ในการปรับค่าข้อความที่ตามมาภายในบรรทัดด้านซ้ายขวาขึ้นหรือลง `ADVANCE` ช่องข้อมูลในเอกสารคํา [FieldAdvance](https://reference.aspose.com/words/java/com.aspose.words/fieldadvance/) ชั้นเรียน. คุณสามารถใช้ **FieldAdvance** คลาสที่จะดําเนินการต่อไปนี้:
+ฟิลด์`ADVANCE`ใช้เพื่อชดเชยข้อความที่ตามมาภายในบรรทัดไปทางซ้ายขวาขึ้นหรือลง `ADVANCE`ฟิลด์ในเอกสารคำสามารถแสดงโดย[FieldAdvance](https://reference.aspose.com/words/java/com.aspose.words/fieldadvance/)ชั้น คุณสามารถใช้ชั้นเรียน**FieldAdvance**เพื่อดำเนินการดังต่อไปนี้:
 
-- ลบทั้งเธรด
-- ลบทั้งเธรด
-- ใช้กําหนดจํานวนของจุดต่าง ๆ ที่ข้อความต่อไปนี้จะถูกย้ายไปทางซ้าย, ขวา, ขึ้นหรือลง
+- ระบุจำนวนจุดที่ควรย้ายข้อความตามฟิลด์ในแนวตั้งจากขอบด้านบนของหน้า
+- ระบุจำนวนจุดที่ควรย้ายข้อความตามฟิลด์ในแนวนอนจากขอบด้านซ้ายของคอลัมน์เฟรมหรื
+- ระบุจำนวนจุดที่ข้อความตามฟิลด์ควรย้ายไปทางซ้ายขวาขึ้นหรือลง
 
 {{% alert color="primary" %}}
 
-สําหรับรายละเอียดเพิ่มเติม ดู [FieldAdvance](https://reference.aspose.com/words/java/com.aspose.words/fieldadvance/) ชั้น API.
+สำหรับรายละเอียดเพิ่มเติมโปรดดูที่[FieldAdvance](https://reference.aspose.com/words/java/com.aspose.words/fieldadvance/)ชั้นAPI.
 
 {{% /alert %}}
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีการเพิ่ม `ADVANCE` ช่องข้อมูลโดยใช้ DOM ย่อหน้าในเอกสาร:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการเพิ่มฟิลด์`ADVANCE`โดยใช้DOMไปยังย่อหน้าในเอกสาร:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldAdvance.java" >}}
 
-### แทรก `ASK` ค้นหาในเอกสารโดยไม่ต้องใช้ตัวสร้างเอกสาร
+### การแทรกฟิลด์`ASK`ลงในเอกสารโดยไม่ใช้DocumentBuilder
 
-เดอะ `ASK` มีการใช้ช่องข้อมูลเพื่อแจ้งให้ผู้ใช้ใช้สําหรับข้อความที่จะกําหนดไปยังที่คั่นหน้าในเอกสารคํา `ASK` ช่องข้อมูลในเอกสารคํา [FieldAsk](https://reference.aspose.com/words/java/com.aspose.words/fieldask/) ชั้นเรียน. คุณสามารถใช้ **FieldAsk** คลาสที่จะดําเนินการต่อไปนี้:
+ฟิลด์`ASK`ถูกใช้เพื่อแจ้งให้ผู้ใช้สามารถกำหนดข้อความไปยังที่คั่นหน้าในเอกสารคำ `ASK`ฟิลด์ในเอกสารคำสามารถแสดงโดย[FieldAsk](https://reference.aspose.com/words/java/com.aspose.words/fieldask/)ชั้น คุณสามารถใช้ชั้นเรียน**FieldAsk**เพื่อดำเนินการดังต่อไปนี้:
 
-- ระบุชื่อของที่คั่นหน้า
-- ระบุการตอบสนองปริยายของผู้ใช้ (ค่าในหน้าต่างที่เรียกใช้)
-- ลบทั้งเธรด Mail Merge ปฏิบัติการ
-- ระบุข้อความพร้อม (หัวเรื่องหน้าต่างที่เรียกทํางาน)
+- ระบุชื่อของบุ๊กมาร์ก
+- ระบุการตอบสนองของผู้ใช้ดีฟอลต์(ค่าเริ่มต้นที่มีอยู่ในหน้าต่างพร้อมท์)
+- ระบุว่าควรได้รับคำตอบของผู้ใช้หนึ่งครั้งต่อการดำเนินการMail Merge
+- ระบุข้อความพร้อมท์(ชื่อของหน้าต่างพร้อมท์)
 
 {{% alert color="primary" %}}
 
-สําหรับรายละเอียดเพิ่มเติม ดู [FieldAsk](https://reference.aspose.com/words/java/com.aspose.words/fieldask/) ชั้น API.
+สำหรับรายละเอียดเพิ่มเติมโปรดดูที่[FieldAsk](https://reference.aspose.com/words/java/com.aspose.words/fieldask/)ชั้นAPI.
 
 {{% /alert %}}
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีการเพิ่ม `ASK` ช่องข้อมูลโดยใช้ DOM ย่อหน้าในเอกสาร:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการเพิ่มฟิลด์`ASK`โดยใช้DOMไปยังย่อหน้าในเอกสาร:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldAsk.java" >}}
 
-### แทรก `AUTHOR` ค้นหาในเอกสารโดยไม่ต้องใช้ตัวสร้างเอกสาร
+### การแทรกฟิลด์`AUTHOR`ลงในเอกสารโดยไม่ใช้DocumentBuilder
 
-เดอะ `AUTHOR` ใช้กําหนดชื่อผู้เขียนเอกสารจาก `Document` คุณสมบัติ `AUTHOR` ช่องข้อมูลในเอกสารคํา [FieldAuthor](https://reference.aspose.com/words/java/com.aspose.words/fieldauthor/) ชั้นเรียน. คุณสามารถใช้ **FieldAuthor** คลาสที่จะดําเนินการต่อไปนี้:
+ฟิลด์`AUTHOR`ใช้เพื่อระบุชื่อของผู้เขียนของเอกสารจากคุณสมบัติ`Document` `AUTHOR`ฟิลด์ในเอกสารคำสามารถแสดงโดย[FieldAuthor](https://reference.aspose.com/words/java/com.aspose.words/fieldauthor/)ชั้น คุณสามารถใช้ชั้นเรียน**FieldAuthor**เพื่อดำเนินการดังต่อไปนี้:
 
 - ระบุชื่อผู้เขียนเอกสาร
 
 {{% alert color="primary" %}}
 
-สําหรับรายละเอียดเพิ่มเติม ดู [FieldAuthor](https://reference.aspose.com/words/java/com.aspose.words/fieldauthor/) ชั้น API.
+สำหรับรายละเอียดเพิ่มเติมโปรดดูที่[FieldAuthor](https://reference.aspose.com/words/java/com.aspose.words/fieldauthor/)ชั้นAPI.
 
 {{% /alert %}}
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีการเพิ่ม `AUTHOR` ช่องข้อมูลโดยใช้ DOM ย่อหน้าในเอกสาร:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการเพิ่มฟิลด์`AUTHOR`โดยใช้DOMไปยังย่อหน้าในเอกสาร:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertAuthorField-InsertAuthorField.java" >}}
 
-### แทรก `INCLUDETEXT` ค้นหาในเอกสารโดยไม่ต้องใช้ตัวสร้างเอกสาร
+### การแทรกฟิลด์`INCLUDETEXT`ลงในเอกสารโดยไม่ใช้DocumentBuilder
 
-เดอะ `INCLUDETEXT` ช่องข้อมูลต่าง ๆ จะแทรกข้อความและกราฟฟิกที่อยู่ในเอกสารที่ชื่อในรหัสช่อง คุณสามารถแทรกเอกสารทั้งหมดหรือส่วนของเอกสาร ที่ถูกอ้างถึงได้โดยที่คั่นหน้า ทุ่ง นา นี้ ใน เอกสาร พระ คํา มี การ แสดง ภาพ ล่วง หน้า. คุณสามารถใช้ [FieldIncludeText](https://reference.aspose.com/words/java/com.aspose.words/fieldincludetext/) คลาสที่จะดําเนินการต่อไปนี้:
+ฟิลด์`INCLUDETEXT`แทรกข้อความและกราฟิกที่มีอยู่ในเอกสารที่มีชื่อในรหัสฟิลด์ คุณสามารถแทรกเอกสารทั้งหมดหรือบางส่วนของเอกสารที่อ้างถึงโดยบุ๊กมาร์ก ฟิลด์นี้ในเอกสารคำแสดงด้วยINCLUDETEXT คุณสามารถใช้ชั้นเรียน[FieldIncludeText](https://reference.aspose.com/words/java/com.aspose.words/fieldincludetext/)เพื่อดำเนินการดังต่อไปนี้:
 
-- ระบุชื่อที่คั่นหน้าของเอกสารรวม
-- ระบุตําแหน่งของเอกสาร
+- ระบุชื่อของบุ๊กมาร์กของเอกสารที่รวมอยู่
+- ระบุตำแหน่งของเอกสาร
 
 {{% alert color="primary" %}}
 
-สําหรับรายละเอียดเพิ่มเติม ดู [FieldIncludeText](https://reference.aspose.com/words/java/com.aspose.words/fieldincludetext/) ชั้น API.
+สำหรับรายละเอียดเพิ่มเติมโปรดดูที่[FieldIncludeText](https://reference.aspose.com/words/java/com.aspose.words/fieldincludetext/)ชั้นAPI.
 
 {{% /alert %}}
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีการเพิ่ม `INCLUDETEXT` ใช้ช่องข้อมูล DOM ย่อหน้าในเอกสาร:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการเพิ่มฟิลด์`INCLUDETEXT`โดยใช้DOMไปยังย่อหน้าในเอกสาร:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldIncludeText.java" >}}
 
-### แทรก `TOA` ค้นหาในเอกสารโดยไม่ต้องใช้ตัวสร้างเอกสาร
+### การแทรกฟิลด์`TOA`ลงในเอกสารโดยไม่ใช้DocumentBuilder
 
-เดอะ `TOA` ฟิลด์สร้างและใส่ตารางของเจ้าหน้าที่ เดอะ `TOA` เก็บรายการต่าง ๆ ที่ระบุ `TA` ทุ่งหญ้า Microsoft คําในสํานักงานแทรก `TOA` ช่องข้อมูลเมื่อคุณคลิก # ตารางข้อมูลของเจ้าหน้าที่* ใน **ตารางของผู้มีอํานาจ** กลุ่มใน **References** แท็บ เมื่อคุณมอง `TOA` ในเอกสารของคุณ ไวยากรณ์เป็นแบบนี้
+ฟิลด์`TOA`(*Table of Authorities*)สร้างและแทรกตารางของเจ้าหน้าที่ ฟิลด์`TOA`รวบรวมรายการที่ทำเครื่องหมายด้วยฟิลด์`TA`(*Table of Authorities Entry*) Microsoftคำสำนักงานแทรกฟิลด์`TOA`เมื่อคุณคลิก*Insert Table of Authorities*ในกลุ่ม**Table of Authorities**บนแท็บ**References** เมื่อคุณดูฟิลด์`TOA`ในเอกสารของคุณไวยากรณ์มีลักษณะเช่นนี้:
 
 { `TOA` [Switches ] }
 
 {{% alert color="primary" %}}
 
-สําหรับรายละเอียดเพิ่มเติม ดู [FieldToa](https://reference.aspose.com/words/java/com.aspose.words/fieldtoa/) ชั้น API.
+สำหรับรายละเอียดเพิ่มเติมโปรดดูที่[FieldToa](https://reference.aspose.com/words/java/com.aspose.words/fieldtoa/)ชั้นAPI.
 
 {{% /alert %}}
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีการเพิ่ม `TOA` ใช้ช่องข้อมูล DOM วรรคในเอกสาร
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการเพิ่มฟิลด์`TOA`โดยใช้DOMไปยังย่อหน้าในเอกสาร.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertTOAField-InsertTOAField.java" >}}

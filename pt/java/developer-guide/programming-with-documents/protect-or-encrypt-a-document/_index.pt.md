@@ -1,44 +1,44 @@
----
-title: Proteger ou Criptografar um documento em Java
+﻿---
+title: Proteger ou encriptar um documento em Java
 second_title: Aspose.Words para Java
-articleTitle: Proteger ou Criptografar um Documento
-linktitle: Proteger ou Criptografar um Documento
-description: "Criptografar um documento, restringir a edição, usar assinaturas digitais para proteção de documentos. Aspose.Words suporta a maioria Opções de proteção do Word usando Java."
+articleTitle: Proteger ou encriptar um documento
+linktitle: Proteger ou encriptar um documento
+description: "Criptografar um documento, restringir a edição, usar assinaturas digitais para proteção de documentos. Aspose.Words suporta a maioria das opções de proteção de palavras usando Java."
 type: docs
 weight: 50
 url: /pt/java/protect-or-encrypt-a-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
-A principal razão para proteger ou criptografar um documento é aplicar mais controle sobre quem pode acessar o documento ou quem pode editá-lo. Aplicando proteção aos seus documentos, você evita riscos comuns, como copiar ou modificar documentos sem permissão, bem como vazamento de dados.
+A principal razão para proteger ou criptografar um documento é aplicar mais controle sobre quem pode acessar o documento ou quem pode editá-lo. Ao aplicar proteção aos seus documentos, evita riscos comuns, como copiar ou modificar documentos sem autorização, bem como fugas de dados.
 
-Alguns dos formatos mais populares ao trabalhar com documentos são Microsoft Word formatos ou formatos que podem ser exportados do Word. É por isso que muitos usuários estão interessados nas mesmas opções de proteção de documentos que Microsoft Word fornece. Apesar da complexidade dessas opções, Aspose.Words suporta a maioria deles, por isso torna uma excelente solução para trabalhar com documentos.
+Alguns dos formatos mais populares quando se trabalha com documentos são os formatos Microsoft Word ou formatos que podem ser exportados do Word. É por isso que muitos usuários estão interessados nas mesmas opções de proteção de documentos que Microsoft Word oferece. Apesar da complexidade destas opções, Aspose.Words suporta a maioria delas, pelo que a torna uma excelente solução para trabalhar com documentos.
 
-Este artigo descreve quais opções Aspose.Words fornece proteção de documentos e como essas opções são apresentadas no familiar Microsoft Word interface de usuário. Nos artigos infantis da seção atual, você pode aprender mais sobre as funções de proteção listadas com todas as propriedades e métodos necessários.
+Este artigo descreve quais opções Aspose.Words fornecem proteção de documentos e como essas opções são apresentadas na interface de usuário familiar Microsoft Word. Nos artigos filho da secção actual, pode aprender mais sobre as funções de protecção listadas com todas as propriedades e métodos necessários.
 
-## Opções de proteção de documentos
+## Opções De Protecção De Documentos
 
-Aspose.Words Atualmente fornece os recursos do documento listados na tabela abaixo. Você pode encontrar os detalhes sobre cada um dos recursos no artigo da criança correspondente na seção atual.
+Aspose.Words fornece actualmente as características do documento enumeradas na tabela abaixo. Pode encontrar os detalhes sobre cada uma das características no artigo filho correspondente na secção actual.
 
-|  Aspose.Words recurso de proteção |  Artigo de criança correspondente |  MS correspondente Característica do Word |
-|  -------------------------------  |  ------------------------------  |  ------------------------------------------------------------  |
-|  Apenas leitura |  "Abrir um documento somente leitura" |  Sempre aberto somente leitura (File → Info → Proteger Documento)<br/>Característica alternativa: "Senha para modificar" (Salvar como → Ferramentas → Opções Gerais → Senha) |
-|  Criptografar um documento |  "Encrypt a Document" |  Criptografar com senha (File → Info → Proteger Documento)<br/>Característica alternativa: "Senha para abrir" (Salvar como → Ferramentas → Opções Gerais → Senha) |
-|  Restringir a edição |  "Restrict Document Editing" |  Restrict Editing (File – Info – Protect Document)<br/>Característica alternativa: "Restrict Editing" (Review → Protect → Restrict Editing) |
-|  Assinaturas digitais |  "Trabalhar com assinaturas digitais" |  Adicionar uma assinatura digital (File → Info → Proteger Documento) |
+| Aspose.Words função de protecção | Artigo filho correspondente | Correspondente MS palavra característica |
+| ------------------------------- | ------------------------------ | ------------------------------------------------------------ |
+| Somente Leitura | "Abrir um documento apenas leitura" | Sempre Aberto Apenas Para Leitura (Ficheiro 9 Info 3 Proteger Documento)<br />Recurso alternativo: "Password to modify" (Salvar como "Ferramentas" Opções Gerais "senha") |
+| Criptografar um documento | "Encriptar um documento" | Encriptar com palavra-passe (ficheiro (ficheiro)<br />Recurso alternativo: "senha para abrir" (Salvar como ferramentas de ferramentas de Opções Gerais de Opções Gerais de senha) |
+| Restringir A Edição | "Restringir Edição De Documentos" | Restringir A Edição (Documento File – Info – Protect)<br />Alternativa de recurso: "Restringir a Edição" (Revisão → Proteger → restrição de Edição) |
+| Assinaturas Digitais | "Trabalhar com assinaturas digitais" | Adicionar uma assinatura Digital (ficheiro [ficheiro]] |
 
 {{% alert color="primary" %}}
 
-Note que Aspose.Words não suporta ambos Microsoft Word características "Mark como Final" e "Restrict Access".
+Observe que Aspose.Words não suporta os recursos Microsoft Word" Marcar como Final "e"restringir acesso".
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-Note que os nomes exatos de recursos e os caminhos para eles em Microsoft Word pode diferir dependendo da versão, tentamos fornecer aos usuários os dados mais recentes.
+Observe que os nomes exatos dos recursos e os caminhos para eles em Microsoft Word podem diferir dependendo da versão, tentamos fornecer aos usuários os dados mais recentes.
 
 {{% /alert %}}
 
-## Ver também
+## Ver Também
 
-* Experimente o nosso [Lugar de origem: China](https://products.aspose.app/words/unlock)
+* Experimente o nosso [Desbloqueio gratuito de documentos em linha](https://products.aspose.app/words/unlock)

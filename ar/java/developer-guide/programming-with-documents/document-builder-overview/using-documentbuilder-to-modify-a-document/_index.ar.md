@@ -1,219 +1,219 @@
----
-title: استخدام `DocumentBuilder` to Modify a Document
-second_title: Aspose.Words for Java
-articleTitle: استخدام `DocumentBuilder` to Modify a Document
-linktitle: استخدام `DocumentBuilder` to Modify a Document
+﻿---
+title: استخدام `DocumentBuilder` لتعديل مستند
+second_title: Aspose.Words ل Java
+articleTitle: استخدام `DocumentBuilder` لتعديل مستند
+linktitle: استخدام `DocumentBuilder` لتعديل مستند
 type: docs
-description: "استخدام مبني الوثائق لتعديل الوثيقة بسهولة في Java."
+description: "استخدم منشئ المستندات لتعديل مستند بسهولة في Java."
 weight: 20
 url: /ar/java/using-documentbuilder-to-modify-a-document/
 timestamp: 2024-10-21-11-17-44
 ---
 
-## الكشف عن الشكل
+## تحديد التنسيق
 
-### Font Formatting
+### تنسيق الخط
 
-الشكل البياني الحالي يمثله `Font` الجسم الذي أعاده `DocumentBuilder.Font` ملكية The `Font` الطبقة تحتوي على مجموعة واسعة من الخواص الفونتية Microsoft Word.
+يتم تمثيل تنسيق الخط الحالي بواسطة `Font` كائن تم إرجاعه بواسطة `DocumentBuilder.Font` خاصية. تحتوي فئة `Font` على مجموعة متنوعة من خصائص الخط الممكنة في Microsoft Word.
 
 | ![font-formatting-aspose-words-java](/words/java/using-documentbuilder-to-modify-a-document/documentbuilder-to-modify-document-1.png) |
-|  :-  |
-والمثال الرمزي التالي يبين كيفية وضع الشكل الخطي.
+| :- |
+يوضح مثال التعليمات البرمجية التالية كيفية تعيين تنسيق الخط.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderSetFontFormatting-DocumentBuilderSetFontFormatting.java" >}}
 
 
-### تركيب الخلايا
+### تنسيق الخلية
 
-وتستخدم تركيب الخلايا أثناء بناء طاولة. ويمثله محام `CellFormat` الجسم الذي أعاده `DocumentBuilder.CellFormat` ملكية الخلايا تلخص مختلف خصائص الخلايا المنضدية مثل المستعارات أو التواؤم الرأسي.
+يتم استخدام تنسيق الخلية أثناء بناء الجدول. يتم تمثيله بواسطة `CellFormat` كائن تم إرجاعه بواسطة `DocumentBuilder.CellFormat` خاصية. CellFormat بتغليف مختلف خصائص خلية الجدول مثل العرض أو المحاذاة الرأسية.
 
 | ![cell-formatting-aspose-words-java](/words/java/using-documentbuilder-to-modify-a-document/documentbuilder-to-modify-document-2.png) |
-|  :-  |
-The following code example shows how to create a table that contains a single formatted cell.
+| :- |
+يوضح مثال التعليمات البرمجية التالية كيفية إنشاء جدول يحتوي على خلية منسقة واحدة.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderSetTableCellFormatting-DocumentBuilderSetTableCellFormatting.java" >}}
 
-### Row Formatting
+### تنسيق الصف
 
-يُحدَّد شكل الصف الحالي من خلال `RowFormat` الجسم الذي يعيده `DocumentBuilder.RowFormat` ملكية الجسم يلخص المعلومات عن جميع صيغ الجدول
+يتم تحديد تنسيق الصف الحالي بواسطة كائن `RowFormat` يتم إرجاعه بواسطة خاصية `DocumentBuilder.RowFormat`. الكائن بتغليف معلومات حول كافة تنسيق صف الجدول.
 
 | ![row-formatting-aspose-words-java](/words/java/using-documentbuilder-to-modify-a-document/documentbuilder-to-modify-document-3.png) |
-|  :-  |
-سيكونlow code وعلى سبيل المثال، يبيّن كيفية وضع جدول يحتوي على خلية واحدة ويطبق شكل الصف.
+| :- |
+يوضح مثال كنlow code كيفية إنشاء جدول يحتوي على خلية واحدة وتطبيق تنسيق الصف.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderSetTableRowFormatting-DocumentBuilderSetTableRowFormatting.java" >}}
 
-### القائمة
+### تنسيق القائمة
 
-Aspose.Words ويسمح بسهولة وضع القوائم عن طريق تطبيق صيغة القائمة. الوثائق تقدم `DocumentBuilder.ListFormat` الممتلكات التي تعود `ListFormat` هدف ولهذه الغاية عدة طرق لبدء ووضع حد للقائمة وزيادة/تخفيض الحوادث.
+Aspose.Words يسمح بإنشاء القوائم بسهولة من خلال تطبيق تنسيق القائمة. DocumentBuilder يوفر خاصية `DocumentBuilder.ListFormat` التي ترجع كائن `ListFormat`. يحتوي هذا الكائن على عدة طرق لبدء وإنهاء قائمة وزيادة / تقليل المسافة البادئة.
 
 | ![list-fformatting-aspose-words-java](/words/java/using-documentbuilder-to-modify-a-document/documentbuilder-to-modify-document-4.png) |
-|  :-  |
-هناك نوعان عامان من القوائم Microsoft Wordطلق ناري ومرقم
+| :- |
+هناك نوعان عامان من القوائم في Microsoft Word: نقطية ومرقمة.
 
--للبدء بقائمة مُطلقة [ListFormat.applyBulletDefault](https://reference.aspose.com/words/java/com.aspose.words/listformat/#applyBulletDefault).
--للبدأ بقائمة مرقمة [ListFormat.applyNumberDefault](https://reference.aspose.com/words/java/com.aspose.words/listformat/#applyNumberDefault).
+- لبدء قائمة نقطية، اتصل [ListFormat.applyBulletDefault](https://reference.aspose.com/words/java/com.aspose.words/listformat/#applyBulletDefault).
+- لبدء قائمة مرقمة، اتصل [ListFormat.applyNumberDefault](https://reference.aspose.com/words/java/com.aspose.words/listformat/#applyNumberDefault).
 
-تضاف الرصاصة أو العدد والشكل إلى الفقرة الحالية وجميع الفقرات الأخرى المنشأة باستخدام **DocumentBuilder** حتى [ListFormat.removeNumbers](https://reference.aspose.com/words/java/com.aspose.words/listformat/#removeNumbers) يُدعى لإيقاف وضع قائمة مُطلقة.
+تتم إضافة التعداد النقطي أو الرقم والتنسيق إلى الفقرة الحالية وجميع الفقرات الأخرى التي تم إنشاؤها باستخدام **DocumentBuilder** حتى [ListFormat.removeNumbers](https://reference.aspose.com/words/java/com.aspose.words/listformat/#removeNumbers) يتم استدعاؤه لإيقاف تنسيق القائمة النقطية.
 
-وفي وثائق الكلمات، يمكن أن تتألف القوائم من ما يصل إلى تسعة مستويات. ويحدد شكل القائمة لكل مستوى ما يُستخدم من الرصاص أو الرقم، والثغرة اليسرى، والحيز بين الرصاصة والنص وما إلى ذلك.
+في مستندات ورد، قد تتكون القوائم من تسعة مستويات. يحدد تنسيق القائمة لكل مستوى الرمز النقطي أو الرقم المستخدم، والمسافة البادئة اليسرى، والمسافة بين الرمز النقطي والنص وما إلى ذلك.
 
-- زيادة مستوى قائمة الفقرة الحالية بمستوى واحد، [ListFormat.listIndent](https://reference.aspose.com/words/java/com.aspose.words/listformat/#listIndent).
-- خفض مستوى قائمة الفقرة الحالية بمستوى واحد، [ListFormat.listOutdent](https://reference.aspose.com/words/java/com.aspose.words/listformat/#listOutdent).
+- لزيادة مستوى قائمة الفقرة الحالية بمستوى واحد، اتصل [ListFormat.listIndent](https://reference.aspose.com/words/java/com.aspose.words/listformat/#listIndent).
+- لتقليل مستوى قائمة الفقرة الحالية بمستوى واحد، اتصل [ListFormat.listOutdent](https://reference.aspose.com/words/java/com.aspose.words/listformat/#listOutdent).
 
-وتُغيّر الأساليب مستوى القائمة وتطبق خصائص الشكل في المستوى الجديد.
+تقوم الطرق بتغيير مستوى القائمة وتطبيق خصائص التنسيق للمستوى الجديد.
 
 {{% alert color="primary" %}}
 
-يمكنك أيضا استخدام [ListFormat.listLevelNumber](https://reference.aspose.com/words/java/com.aspose.words/listformat/#setListLevelNumber-int) ممتلكات للحصول على مستوى القائمة أو تحديده لهذه الفقرة. ويبلغ عدد مستويات القائمة صفر إلى 8.
+يمكنك أيضا استخدام خاصية [ListFormat.listLevelNumber](https://reference.aspose.com/words/java/com.aspose.words/listformat/#setListLevelNumber-int) للحصول على مستوى القائمة للفقرة أو تعيينه. يتم ترقيم مستويات القائمة من 0 إلى 8.
 
 {{% /alert %}}
 
-ويبين المثال الرمزي التالي كيفية وضع قائمة متعددة المستويات.
+يوضح مثال الكود التالي كيفية إنشاء قائمة متعددة المستويات.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderSetMultilevelListFormatting-DocumentBuilderSetMultilevelListFormatting.java" >}}
 
-### تشكيل وقسم الصياغة
+### إعداد الصفحة وتنسيق القسم
 
-مجمّعة وممتلكات الأقسام `PageSetup` الجسم الذي يعيده `DocumentBuilder.PageSetup` ملكية ويشتمل الجسم على جميع صفات الصفحات المجهزة في قسم (الحافة الطفيفة، والهامش السفلي، والحجم الورقي، وما إلى ذلك) بوصفها خصائص.
+يتم تغليف خصائص إعداد الصفحة والقسم في الكائن `PageSetup` الذي يتم إرجاعه بواسطة الخاصية `DocumentBuilder.PageSetup`. يحتوي الكائن على جميع سمات إعداد الصفحة للقسم (الهامش الأيسر والهامش السفلي وحجم الورق وما إلى ذلك) كخصائص.
 
 | ![section-formatting-aspose-words-java](/words/java/using-documentbuilder-to-modify-a-document/documentbuilder-to-modify-document-5.png) |
-|  :-  |
-ويبيّن المثال الرمزي التالي كيفية تحديد خصائص من قبيل حجم الصفحات وتوجيهها للقسم الحالي.
+| :- |
+يوضح مثال الكود التالي كيفية تعيين خصائص مثل حجم الصفحة واتجاهها للقسم الحالي.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderSetPageSetupAndSectionFormatting-DocumentBuilderSetPageSetupAndSectionFormatting.java" >}}
 
-### تطبيق نموذج
+### تطبيق نمط
 
-بعض الأشياء المشكله مثل أسلوب الدعم A single built-in or user-defined method is represented by a `Style` الجسم الذي يحتوي على خصائص النمط المناظرة مثل الاسم، وأسلوب القاعدة، ونسخة وصيغة الفقرة من الأسلوب، وهكذا.
+بعض كائنات التنسيق مثل الخط أو ParagraphFormat أنماط الدعم. يتم تمثيل نمط واحد مدمج أو معرف من قبل المستخدم بواسطة كائن `Style` يحتوي على خصائص النمط المقابلة مثل الاسم والنمط الأساسي والخط وتنسيق الفقرة للنمط وما إلى ذلك.
 
-(أ) **Style** الجسم ينص على [Style.getStyleIdentifier](https://reference.aspose.com/words/java/com.aspose.words/style/#getStyleIdentifier) الممتلكات التي تُعيد مُحدِّد للأسلوب المحلي المعتمد **Style.StyleIdentifier** قيمة العد المغزى هو أن اسماء الموضة في Microsoft Word تُحَوَّل لمختلف اللغات. وباستخدام جهاز تحديد هويّة، يمكنك إيجاد الأسلوب الصحيح بغض النظر عن لغة الوثيقة. قيم التعداد متطابقة مع Microsoft Word أساليب مبنية كالعادة، العنوان 1، العنوان 2 وما إلى ذلك تم تعيين جميع الأساليب المحددة للمستعملين **مُحدّد هوية. قيمة المستعملين**.
+علاوة على ذلك، يوفر كائن **Style** خاصية [Style.getStyleIdentifier](https://reference.aspose.com/words/java/com.aspose.words/style/#getStyleIdentifier) التي ترجع معرف نمط مستقل عن اللغة يمثله قيمة تعداد **Style.StyleIdentifier**. النقطة المهمة هي أن أسماء الأنماط المضمنة في Microsoft Word مترجمة للغات مختلفة. باستخدام معرف النمط، يمكنك العثور على النمط الصحيح بغض النظر عن لغة المستند. تتوافق قيم التعداد مع Microsoft Word الأنماط المضمنة مثل عادي، Heading 1، Heading 2 إلخ. يتم تعيين كافة الأنماط المعرفة من قبل المستخدم **StyleIdentifier.User value**.
 
 | ![apply-style-aspose-words-java](/words/java/using-documentbuilder-to-modify-a-document/documentbuilder-to-modify-document-6.png) |
-|  :-  |
-ويبين المثال الرمزي التالي كيفية تطبيق أسلوب الفقرة.
+| :- |
+يوضح مثال التعليمات البرمجية التالية كيفية تطبيق نمط فقرة.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-DocumentBuilderApplyParagraphStyle.java" >}}
 
-### الحدود والتقاسم
+### الحدود والتظليل
 
-وتُمثل الحدود في مجلس الحدود. وهذه مجموعة من الأجسام الحدودية التي يتم الوصول إليها حسب الرقم القياسي أو حسب نوع الحدود. يُمثّل نوع الحدود `BorderType` العد وتنطبق بعض قيم التعداد على عدد من عناصر الوثيقة أو على عنصر واحد فقط. على سبيل المثال، `BorderType.Bottom` ينطبق على فقرة أو زنزانة طاولة في حين `BorderType.DiagonalDown` يحدد الحدود التشخيصية في خلية طاولة فقط
+يتم تمثيل الحدود بواسطة BorderCollection. هذه مجموعة من كائنات الحدود التي يتم الوصول إليها بواسطة الفهرس أو حسب نوع الحدود. يتم تمثيل نوع الحدود بواسطة `BorderType` تعداد. بعض قيم التعداد قابلة للتطبيق على عدة أو عنصر مستند واحد فقط. على سبيل المثال، `BorderType.Bottom` ينطبق على فقرة أو خلية جدول بينما `BorderType.DiagonalDown` يحدد الحد القطري في خلية جدول فقط.
 
-ولكل من مجموعة الحدود وكل حدود منفصلة خصائص مماثلة مثل اللون، وأسلوب الخط، واتباع خط، وبعد عن النص، والظل الاختياري. وهي ممثَّلة بممتلكات ذات الاسم. يمكنك تحقيق أنواع مختلفة من الحدود عن طريق الجمع بين قيم الملكية بالإضافة إلى ذلك، كلاهما **BorderCollection** و **Border** الأشياء تسمح لك بإعادة هذه القيم إلى التقصير عن طريق الاتصال [Border.clearFormatting](https://reference.aspose.com/words/java/com.aspose.words/border/#clearFormatting) طريقة ويلاحظ أنه عندما تعاد ملكية الحدود إلى القيم الافتراضية، فإن الحدود غير مرئية.
+تحتوي كل من مجموعة الحدود وكل حد منفصل على سمات متشابهة مثل اللون ونمط الخط وعرض الخط والمسافة من النص والظل الاختياري. يتم تمثيلهم بخصائص تحمل نفس الاسم. يمكنك تحقيق أنواع حدود مختلفة من خلال الجمع بين قيم الخصائص. بالإضافة إلى ذلك، يسمح لك كل من **BorderCollection** و **Border** بإعادة تعيين هذه القيم إلى الوضع الافتراضي عن طريق استدعاء طريقة [Border.clearFormatting](https://reference.aspose.com/words/java/com.aspose.words/border/#clearFormatting). لاحظ أنه عند إعادة تعيين خصائص الحدود إلى القيم الافتراضية، يكون الحد غير مرئي.
 
 | ![set-borders-shading-aspose-words-java](/words/java/using-documentbuilder-to-modify-a-document/documentbuilder-to-modify-document-7.png) |
-|  :-  |
-The [Shading](https://reference.aspose.com/words/java/com.aspose.words/shading/) ويتضمن الفصل سمات مظلة لعناصر الوثائق. يمكنك وضع النسيج المظلي المرغوب والألوان التي تُطبق على خلفية العنصر
+| :- |
+تحتوي فئة [Shading](https://reference.aspose.com/words/java/com.aspose.words/shading/) على سمات تظليل لعناصر المستند. يمكنك تعيين نسيج التظليل المطلوب والألوان التي يتم تطبيقها على الخلفية ومقدمة العنصر.
 
-النسيج المظل مع [النص](https://www.aspose.com/api/java/words/com.aspose.words/constants/TextureIndex) قيمة التعداد التي تسمح بتطبيق أنماط مختلفة على **Shading** هدف For example, to set a background color for a document element, use the [TextureIndex.TextureSolid](https://www.aspose.com/api/java/words/com.aspose.words/constants/TextureIndex) القيمة ووضع لون المظلة الأمامية حسب الاقتضاء
+يتم تعيين نسيج التظليل مع [TextureIndex](https://www.aspose.com/api/java/words/com.aspose.words/constants/TextureIndex) قيمة التعداد التي تسمح بتطبيق أنماط مختلفة على **Shading** كائن. على سبيل المثال، لتعيين لون خلفية لعنصر مستند، استخدم [TextureIndex.TextureSolid](https://www.aspose.com/api/java/words/com.aspose.words/constants/TextureIndex) قيمة وتعيين لون التظليل الأمامي حسب الاقتضاء.
 
 | ![borders-and-shading-aspose-words-java](/words/java/using-documentbuilder-to-modify-a-document/documentbuilder-to-modify-document-8.png) |
-|  :-  |
-ويبين المثال الوارد أدناه كيفية تطبيق الحدود والظل على فقرة.
+| :- |
+يوضح المثال أدناه كيفية تطبيق الحدود والتظليل على فقرة.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-DocumentBuilderApplyBordersAndShadingToParagraph.java" >}}
 
-### Snap to Grid
+### التقط إلى الشبكة
 
-Aspose.Words توفير عقارين `ParagraphFormat.SnapToGrid` و `Font.SnapToGrid` للحصول على وضبط العقارات المفقودة للشبكة
+Aspose.Words يوفر خاصيتين `ParagraphFormat.SnapToGrid` و `Font.SnapToGrid` للحصول على خاصية الفقرة وتعيينها إلى الشبكة.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-SetSnapToGrid.java" >}}
 
-### ننتقل إلى كورسور
+### تحريك المؤشر
 
-### Detecting the Current Cursor Position
+### الكشف عن موضع المؤشر الحالي
 
-يمكنك الحصول على مكان معالج البناين في أي وقت The [DocumentBuilder.getCurrentNode](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCurrentNode) وتعيد الممتلكات العقد الذي يتم اختياره حاليا في هذا المبنى. العقد هو طفل مباشر للفقرة. أي عمليات تقوم بها `DocumentBuilder` يدرج قبل `DocumentBuilder.CurrentNode`. عندما تكون الفقرة الحالية فارغة أو يوضع الشعار قبل نهاية الفقرة مباشرة، `DocumentBuilder.CurrentNode` العودة لاغية
+يمكنك الحصول على مكان وضع مؤشر المنشئ حاليا في أي وقت. تقوم الخاصية [DocumentBuilder.getCurrentNode](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCurrentNode) بإرجاع العقدة المحددة حاليا في أداة البناء هذه. العقدة هي طفل مباشر من فقرة. سيتم إدراج أي عمليات إدراج تقوم بها باستخدام `DocumentBuilder` قبل `DocumentBuilder.CurrentNode`. عندما تكون الفقرة الحالية فارغة أو يتم وضع المؤشر قبل نهاية الفقرة مباشرة، `DocumentBuilder.CurrentNode` ترجع فارغة.
 
-أيضا، يمكنك استخدام [DocumentBuilder.getCurrentParagraph](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCurrentParagraph) الممتلكات، التي تحصل على الفقرة التي يجري اختيارها حاليا في هذا الصدد **DocumentBuilder**. سيكونlow code وعلى سبيل المثال، يبيّن كيفية الوصول إلى العقد الحالي في مبني الوثائق.
+أيضا، يمكنك استخدام الخاصية [DocumentBuilder.getCurrentParagraph](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCurrentParagraph)، والتي تحصل على الفقرة المحددة حاليا في هذا **DocumentBuilder**. يوضح مثال كنlow code كيفية الوصول إلى العقدة الحالية في منشئ المستندات.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderCursorPosition-DocumentBuilderCursorPosition.java" >}}
 
-### الانتقال إلى أي نود (براغرافات وأطفالها)
+### الانتقال إلى أي عقدة (الفقرات وأطفالهم)
 
-إذا كان لديك وثيقة العقد، وهذا هو فقرة أو طفل مباشر من فقرة، يمكنك أن تشير فضيحة البنّاء إلى هذا العقد. استخدام [DocumentBuilder.moveTo](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveTo-com.aspose.words.Node) طريقة لفعل هذا
-ويبيّن المثال الرمزي التالي كيفية نقل موقف الضمائر إلى عقد محدد.
+إذا كانت لديك عقدة كائن مستند، وهي فقرة أو تابعة مباشرة لفقرة، فيمكنك توجيه مؤشر المنشئ إلى هذه العقدة. استخدم طريقة [DocumentBuilder.moveTo](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveTo-com.aspose.words.Node) لتنفيذ ذلك.
+يوضح مثال التعليمات البرمجية التالية كيفية نقل موضع المؤشر إلى عقدة محددة.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToNode-DocumentBuilderMoveToNode.java" >}}
 
-### الانتقال إلى الوثيقة
+### الانتقال إلى المستند بداية / نهاية
 
-إذا كنت بحاجة إلى الانتقال إلى بداية الوثيقة، الاتصال [DocumentBuilder.moveToDocumentStart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToDocumentStart). إذا كنت بحاجة إلى الانتقال إلى نهاية الوثيقة، الاتصال [DocumentBuilder.moveToDocumentEnd](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToDocumentEnd).
+إذا كنت بحاجة إلى الانتقال إلى بداية المستند، فاتصل [DocumentBuilder.moveToDocumentStart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToDocumentStart). إذا كنت بحاجة إلى الانتقال إلى نهاية المستند، فاتصل [DocumentBuilder.moveToDocumentEnd](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToDocumentEnd).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToDocumentStartEnd-DocumentBuilderMoveToDocumentStartEnd.java" >}}
 
 ### الانتقال إلى قسم
 
-إذا كنت تعمل مع وثيقة تحتوي على أجزاء متعددة، يمكنك الانتقال إلى القسم المنشود باستخدام [DocumentBuilder.moveToSection](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToSection-int). وتنتقل هذه الطريقة إلى بداية قسم محدد وتقبل الرقم القياسي للقسم المطلوب. وعندما يكون الرقم القياسي للفرع أكبر من الرقم القياسي أو يساوي صفرا، فإنه يحدد مؤشرا من بداية الوثيقة مع عدم كونه القسم الأول. وعندما يكون الرقم القياسي للقسم أقل من صفر، فإنه يحدد الرقم القياسي من نهاية الوثيقة مع - 1 باعتباره الجزء الأخير. سيكونlow code وعلى سبيل المثال، يبيّن كيفية نقل موقف الضمائر إلى القسم المحدد. يمكنك تحميل ملف النموذج من هذا المثال [هنا](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
+إذا كنت تعمل مع مستند يحتوي على أقسام متعددة، فيمكنك الانتقال إلى القسم المطلوب باستخدام [DocumentBuilder.moveToSection](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToSection-int). تنقل هذه الطريقة المؤشر إلى بداية قسم محدد وتقبل فهرس القسم المطلوب. عندما يكون فهرس القسم أكبر من أو يساوي 0، فإنه يحدد فهرسا من بداية المستند مع كون 0 هو القسم الأول. عندما يكون فهرس القسم أقل من 0، فإنه يحدد فهرسا من نهاية المستند مع -1 كونه القسم الأخير. يوضح مثال كنlow code كيفية نقل موضع المؤشر إلى القسم المحدد. يمكنك تنزيل ملف القالب لهذا المثال من [هنا](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToSection-DocumentBuilderMoveToSection.java" >}}
 
-### الانتقال إلى رئيس/مهر
+### الانتقال إلى رأس / تذييل الصفحة
 
-عندما تحتاج إلى وضع بعض البيانات في رأس أو قدم، يجب أن تتحرك هناك أولا باستخدام [DocumentBuilder.moveToHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToHeaderFooter-int). The method accepts a HeaderFooterType enumeration value that identifies the type of header or footer to where the cursor should be moved.
+عندما تحتاج إلى وضع بعض البيانات في رأس أو تذييل، يجب عليك الانتقال إلى هناك أولا باستخدام [DocumentBuilder.moveToHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToHeaderFooter-int).تقبل الطريقة قيمة تعداد HeaderFooterType تحدد نوع الرأس أو التذييل إلى حيث يجب نقل المؤشر.
 
-إذا كنت تريد أن تخلق الرأس والأقدام مختلفة للصفحة الأولى، عليك أن تضع [PageSetup.getDifferentFirstPageHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getDifferentFirstPageHeaderFooter) الممتلكات إلى **true**. إذا كنت تريد أن تخلق الرعاة والأقدام مختلفة للصفحات المتساوية والغريبة [PageSetup.getOddAndEvenPagesHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getOddAndEvenPagesHeaderFooter) إلى **true**.
+إذا كنت ترغب في إنشاء رؤوس وتذييلات مختلفة للصفحة الأولى، فستحتاج إلى تعيين الخاصية [PageSetup.getDifferentFirstPageHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getDifferentFirstPageHeaderFooter) إلى **true**. إذا كنت ترغب في إنشاء رؤوس وتذييلات مختلفة للصفحات الزوجية والفردية، فأنت بحاجة إلى تعيين [PageSetup.getOddAndEvenPagesHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getOddAndEvenPagesHeaderFooter) إلى **true**.
 
-إذا كنت بحاجة إلى العودة إلى القصة الرئيسية، استخدام[DocumentBuilder.moveToSection](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToSection-int) للانتقال من الرأس أو القدم ويخلق المثال التالي رؤساء وأقدام في وثيقة تستخدم الوثيقة.
+إذا كنت بحاجة إلى العودة إلى القصة الرئيسية، فاستخدم[DocumentBuilder.moveToSection](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToSection-int) للخروج من الرأس أو التذييل. المثال أدناه يخلق الرؤوس والتذييلات في مستند باستخدام DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderHeadersAndFooters-DocumentBuilderHeaderAndFooters.java" >}}
 
 ### الانتقال إلى فقرة
 
-الاستخدام[DocumentBuilder.moveToParagraph](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToParagraph-int-int) نقل الشعار إلى فقرة مرغوبة في الفرع الحالي. وينبغي أن تجتازوا بارامترتين لهذه الطريقة: الفقرة " إندكس " (مؤشر الفقرة للانتقال إلى) ورقم " إندكس " (مؤشر الطابع الوارد في الفقرة).
+استخدم[DocumentBuilder.moveToParagraph](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToParagraph-int-int) لتحريك المؤشر إلى الفقرة المطلوبة في القسم الحالي. يجب عليك تمرير معلمتين إلى هذه الطريقة: paragraphIndex (فهرس الفقرة للانتقال إليها) و characterIndex (فهرس الحرف داخل الفقرة).
 
-وتُجرى الملاحة داخل القصة الحالية للقسم الحالي. ذلك، إذا حرّكتَ الكاسرَ إلى الرئيسِ الرئيسيِ للقسمِ الأولِ، ثمّ الفقرةِ Index تُحدّدُ فهرسَ الفقرةِ داخل ذلك رئيسِ ذلك القسمِ.
+يتم تنفيذ التنقل داخل القصة الحالية للقسم الحالي. بمعنى، إذا قمت بنقل المؤشر إلى الرأس الأساسي للقسم الأول، فإن paragraphIndex يحدد فهرس الفقرة داخل هذا الرأس من هذا القسم.
 
-وعندما تكون الفقرة " إندكس " أكبر من أو تساوي صفراً، فإنها تحدد مؤشراً من بداية الباب، مع كون الفقرة الأولى صفراً. وعندما تكون الفقرة " إندكس " أقل من صفر، فإنها تحدد رقما قياسيا من نهاية الفرع، مع - 1 باعتباره الفقرة الأخيرة. ولا يمكن حالياً تحديد الرقم القياسي للطابع إلا على أنه صفر للانتقال إلى بداية الفقرة أو - 1 للانتقال إلى نهاية الفقرة. ويبيّن المثال الرمزي التالي كيفية نقل موقف الضمائر إلى الفقرة المحددة. يمكنك تحميل ملف النموذج من هذا المثال [هنا](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
+عندما يكون paragraphIndex أكبر من أو يساوي 0، فإنه يحدد فهرسا من بداية القسم بحيث يكون 0 هو الفقرة الأولى. عندما يكون paragraphIndex أقل من 0، فإنه يحدد فهرسا من نهاية القسم مع -1 هو الفقرة الأخيرة. لا يمكن حاليا تحديد فهرس الأحرف إلا على أنه 0 للانتقال إلى بداية الفقرة أو -1 للانتقال إلى نهاية الفقرة. يوضح مثال التعليمات البرمجية التالية كيفية نقل موضع المؤشر إلى الفقرة المحددة. يمكنك تنزيل ملف القالب لهذا المثال من [هنا](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToParagraph-DocumentBuilderMoveToParagraph.java" >}}
 
 ### الانتقال إلى خلية الجدول
 
-الاستخدام [DocumentBuilder.moveToCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToCell-int-int-int-int) إذا كنت بحاجة لنقل الكاسر إلى خلية طاولة في القسم الحالي تقبل هذه الطريقة أربعة بارامترات:
+استخدم [DocumentBuilder.moveToCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToCell-int-int-int-int) إذا كنت بحاجة إلى تحريك المؤشر إلى خلية جدول في القسم الحالي. تقبل هذه الطريقة أربع معلمات:
 
--المائدة - فهرس الطاولة للانتقال
-- فهرس الصف على الطاولة
-- العمود - فهرس العمود في الجدول.
--الشخصية (إندكس) فهرس الشخصية داخل الزنزانة
+- tableIndex - فهرس الجدول للانتقال إلى.
+- rowIndex - فهرس الصف في الجدول.
+- columnIndex - فهرس العمود في الجدول.
+- characterIndex - فهرس الحرف داخل الخلية.
 
-وتجرى الملاحة داخل القصة الحالية للقسم الحالي.
+يتم تنفيذ التنقل داخل القصة الحالية للقسم الحالي.
 
-وفيما يتعلق بارامترات الرقم القياسي، فإنه عندما يكون المؤشر أكبر من الرقم القياسي أو يساوي صفرا، يحدد الرقم القياسي من البداية مع كون صفر العنصر الأول. وعندما يكون الرقم القياسي أقل من صفر، يحدد الرقم القياسي من النهاية - 1 بوصفه العنصر الأخير.
+بالنسبة لمعلمات الفهرس، عندما يكون الفهرس أكبر من أو يساوي 0، فإنه يحدد فهرسا من البداية مع كون 0 هو العنصر الأول. عندما يكون الفهرس أقل من 0، فإنه يحدد فهرسا من النهاية مع -1 كونه العنصر الأخير.
 
-Also, note that characterIndex currently can only specify 0 to move to the beginning of the cell or -1 to move to the end of the cell. The following code example shows how to move a cursor position to the specified table cell. يمكنك تحميل ملف النموذج من هذا المثال [هنا](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx).
+لاحظ أيضا أن characterIndex حاليا يمكن تحديد 0 فقط للانتقال إلى بداية الخلية أو -1 للانتقال إلى نهاية الخلية. يوضح مثال الكود التالي كيفية نقل موضع المؤشر إلى خلية الجدول المحددة. يمكنك تنزيل ملف القالب لهذا المثال من [هنا](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToTableCell-DocumentBuilderMoveToTableCell.java" >}}
 
-### الانتقال إلى علامة الكتاب
+### الانتقال إلى إشارة مرجعية
 
-وتُستخدم العلامات الكتابية في كثير من الأحيان لتحديد أماكن معينة في الوثيقة التي تُدرج فيها عناصر جديدة. للانتقال إلى علامة الكتاب، استخدام [DocumentBuilder.moveToBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToBookmark-java.lang.String). هذه الطريقة بها حمولة زائدة أبسط شخص لا يقبل شيء سوى اسم العلامة الكتابية المثال الرمزي التالي يُظهر كيف يُحرّكُ موقعاً كسوراً إلى علامة كتاب.
+تستخدم الإشارات المرجعية بشكل متكرر لتمييز أماكن معينة في المستند حيث سيتم إدراج عناصر جديدة. للانتقال إلى إشارة مرجعية، استخدم [DocumentBuilder.moveToBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToBookmark-java.lang.String). هذه الطريقة لها حمولتان زائدتان. أبسط واحد لا يقبل سوى اسم الإشارة المرجعية حيث سيتم نقل المؤشر. يوضح مثال الكود التالي كيفية نقل موضع المؤشر إلى إشارة مرجعية.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToBookmark-DocumentBuilderMoveToBookmark.java" >}}
 
-هذه الحمولة الزائدة تُنقل الشعار إلى موقع بعد بداية علامة الكتاب بالاسم المحدد تحميل إضافي آخر [DocumentBuilder.moveToBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToBookmark-java.lang.String-boolean-boolean) يُحرّكُ الشعار إلى a علامة كتاب بدقّة أكبر. وهي تقبل بارامترين إضافيين هما:
+يقوم هذا التحميل الزائد بتحريك المؤشر إلى موضع بعد بدء الإشارة المرجعية بالاسم المحدد مباشرة. تحميل زائد آخر [DocumentBuilder.moveToBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToBookmark-java.lang.String-boolean-boolean) يحرك المؤشر إلى إشارة مرجعية بدقة أكبر. يقبل معلمتين منطقيتين إضافيتين:
 
--هل (ستارت) يقرر ما إذا كان سينقل الستار إلى البداية أو إلى نهاية العلامة الكتابية
--هل يقرر (آفتر) ما إذا كان سينقل الـ (كلورس) إلى مكانه بعد أن تبدأ علامة الكتاب أو تنتهي، أو أن يحرك الـ (كاسور) ليكون قبل أن تبدأ علامة الكتاب أو تنتهي
+- isStart يحدد ما إذا كان سيتم تحريك المؤشر إلى بداية الإشارة المرجعية أو نهايتها.
+- isAfter يحدد ما إذا كان لتحريك المؤشر ليكون بعد بداية المرجعية أو نهاية الموقف، أو لتحريك المؤشر ليكون قبل بداية المرجعية أو نهاية الموقف.
 
-المثال الرمزي التالي يُظهر كيف يُحرّكُ موقفاً مُسَاعِداً إلى بعد نهاية الكتاب
+يوضح مثال الكود التالي كيفية نقل موضع المؤشر إلى ما بعد نهاية الإشارة المرجعية مباشرة.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToBookmarkEnd-DocumentBuilderMoveToBookmarkEnd.java" >}}
 
-ولا يحل نص جديد بهذه الطريقة محل النص الحالي للعلامة الكتابية. Note that some bookmarks in the document are assigned to form fields. والانتقال إلى هذه العلامة الكتابية وإدراج النص فيها يُدرج النص في شكل مدونة ميدانية. وعلى الرغم من أن هذا لن يبطل مجال الشكل، فإن النص المضاف لن يكون مرئيا لأنه يصبح جزءا من القانون الميداني.
+لا يحل إدراج نص جديد بهذه الطريقة محل النص الحالي للإشارة المرجعية. لاحظ أنه يتم تعيين بعض الإشارات المرجعية في المستند إلى حقول النموذج. الانتقال إلى مثل هذه الإشارة المرجعية وإدراج النص هناك إدراج النص في رمز حقل النموذج. على الرغم من أن هذا لن يبطل حقل النموذج، إلا أن النص المدرج لن يكون مرئيا لأنه يصبح جزءا من رمز الحقل.
 
-### الانتقال إلى `Merge` الميدان
+### الانتقال إلى حقل `Merge`
 
-في بعض الأحيان قد تحتاج إلى أداء "معتاد" Mail Merge استخدام `DocumentBuilder` أو ملئ حقل الدمج بطريقة خاصة داخل Mail Merge معالج الحدث ذلك عندما [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) قد يكون مفيداً الطريقة تقبل اسم الحقل المدمج ينتقل الستار إلى مكان ما بعد الحقل المدمج المحدد ويزيل الحقل المدمج ويوضح المثال الرمزي التالي كيفية نقل الضمائر إلى موقع يتجاوز مجال الدمج المحدد.
+في بعض الأحيان قد تحتاج إلى إجراء "يدوي" Mail Merge باستخدام `DocumentBuilder` أو ملء حقل دمج بطريقة خاصة داخل معالج أحداث Mail Merge. هذا هو الوقت [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) يمكن أن تكون مفيدة. تقبل الطريقة اسم حقل الدمج. يقوم بتحريك المؤشر إلى موضع يتجاوز حقل الدمج المحدد ويزيل حقل الدمج. يوضح مثال الكود التالي كيفية تحريك المؤشر إلى موضع يتجاوز حقل الدمج المحدد.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToMergeField-DocumentBuilderMoveToMergeField.java" >}}
 
-## كيفية تجنب ما بين وحدات القياس
+## كيفية التحويل بين وحدات القياس
 
-معظم ممتلكات الجسم المنصوص عليها في Aspose.Words API وهذا يمثل بعض القياسات (الرصاص/الطول، والهامش، والمسافات المختلفة) التي تقبل القيم في نقاط (بوصة واحدة تساوي 72 نقطة). أحياناً هذا ليس ملائماً لذا هناك `ConvertUtil` درجة توفر وظائف المساعدين للتحول بين مختلف وحدات القياس. ويسمح بتحويل بوصات إلى نقاط، ويشير إلى بوصات، وإلى بيكسلز إلى نقاط، ويشير إلى بيكسلز. وعندما تُحوَّل البيكسلزات إلى نقاط والعكس بالعكس، يمكن أن تُنفَّذ بـ 96 قراراً (في كل بوصة) أو بقرار صادر في الوثيقة المحددة.
+معظم خصائص الكائن المقدمة في Aspose.Words API التي تمثل بعض القياسات (العرض/الارتفاع والهوامش والمسافات المختلفة) تقبل القيم بالنقاط (1 بوصة تساوي 72 نقطة). في بعض الأحيان هذا ليس مناسبا لذلك هناك فئة `ConvertUtil` التي توفر وظائف المساعد لتحويل بين وحدات القياس المختلفة. يسمح بتحويل البوصات إلى نقاط، والنقاط إلى البوصات، والبكسل إلى النقاط، والنقاط إلى البكسل. عندما يتم تحويل وحدات البكسل إلى نقاط والعكس صحيح، يمكن إجراؤها بدقة 96 نقطة في البوصة (نقطة في البوصة) أو بدقة نقطة في البوصة المحددة.
 
-**ConvertUtil** وهو مفيد جداً عند تحديد خصائص مختلفة للصفحات لأن الشطرنج مثلاً هي وحدات قياس أكثر اعتيادية من النقاط. ويبين المثال التالي كيفية وضع خصائص الصفحات في بوصات.
+**ConvertUtil**
 
-The following code example shows how to specify page properties inches.
+يوضح مثال التعليمات البرمجية التالية كيفية تحديد خصائص الصفحة بالبوصة.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ConvertBetweenMeasurementUnits-ConvertBetweenMeasurementUnits.java" >}}

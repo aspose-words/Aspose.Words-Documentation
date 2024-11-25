@@ -1,81 +1,81 @@
----
-title: Trabalhando com Seções em Java
+﻿---
+title: Trabalhar com secções em Java
 second_title: Aspose.Words para Java
-articleTitle: Trabalhando com Seções
-linktitle: Trabalhando com Seções
-description: "Compreender conceitos de seção de documentos e práticas de manipulação usando Java. Inserir seção em um documento Java. Remover seção Java. Copiar seções entre Documentos."
+articleTitle: Trabalhar com secções
+linktitle: Trabalhar com secções
+description: "Compreender os conceitos da secção de documentos e as práticas de manipulação utilizando Java. Inserir Secção num documento Java. Remover a secção Java. Copiar secções entre documentos."
 type: docs
 weight: 120
 url: /pt/java/working-with-sections/
 timestamp: 2024-01-31-14-23-37
 ---
 
-Às vezes você quer um documento que não tenha a mesma formatação em todas as páginas. Por exemplo, você pode precisar modificar formatos de número de página, ter diferentes tamanhos e orientação de página, ou ter a primeira página de documento como uma página de capa sem qualquer numeração. Você pode conseguir isso com seções.
+Às vezes, você deseja um documento que não tenha a mesma formatação em todas as páginas. Por exemplo, pode ser necessário modificar os formatos de número de Página, ter um tamanho e orientação de página diferentes ou ter a primeira página do documento como Página de rosto sem qualquer numeração. Pode conseguir isso com secções.
 
-As seções são nós de nível que controlam cabeçalhos e rodapés, orientação, colunas, margens, formatação de números de página e outros.
+As seções são nós de nível que controlam cabeçalhos e rodapés, orientação, colunas, margens, formatação de número de página e outros.
 
-Aspose.Words permite gerenciar seções, dividir um documento em seções e fazer alterações de formatação que se aplicam apenas a uma seção específica. Aspose.Words armazena informações sobre formatação de seção, como cabeçalhos e rodapés, configuração de página e configurações de coluna no intervalo de seção.
+Aspose.Words permite gerir secções, dividir um documento em secções e efectuar alterações de formatação que se aplicam apenas a uma secção específica. Aspose.Words armazena informações sobre a formatação de secções, tais como cabeçalhos e rodapés, configuração de páginas e definições de colunas na quebra de secções.
 
-Este artigo explica como trabalhar com seções e quebras de seção.
+Este artigo explica como trabalhar com secções e quebras de secções.
 
-## Que seção e quebra de seção é
+## Qual seção e quebra de seção é
 
-Seções de documentos são representadas por [Section](https://reference.aspose.com/words/java/com.aspose.words/section/) e [SectionCollection](https://reference.aspose.com/words/java/com.aspose.words/sectioncollection/) aulas. Objetos de seção são crianças imediatas do [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) nó e pode ser acessado através do [Sections](https://reference.aspose.com/words/java/com.aspose.words/document/#getSections) propriedade. Você pode gerenciar esses nós usando alguns métodos como [Remove](https://reference.aspose.com/words/java/com.aspose.words/nodecollection/#remove-com.aspose.words.Node), [Add](https://reference.aspose.com/words/java/com.aspose.words/nodecollection/#add-com.aspose.words.Node), [IndexOf](https://reference.aspose.com/words/java/com.aspose.words/nodecollection/#indexOf-com.aspose.words.Node), e outros.
+As secções do documento são representadas pelas classes [Section](https://reference.aspose.com/words/java/com.aspose.words/section/) e [SectionCollection](https://reference.aspose.com/words/java/com.aspose.words/sectioncollection/). Os objectos Section são filhos imediatos do nó [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) e podem ser acedidos através da propriedade [Sections](https://reference.aspose.com/words/java/com.aspose.words/document/#getSections). Você pode gerenciar esses nós usando alguns métodos, como [Remove](https://reference.aspose.com/words/java/com.aspose.words/nodecollection/#remove-com.aspose.words.Node), [Add](https://reference.aspose.com/words/java/com.aspose.words/nodecollection/#add-com.aspose.words.Node), [IndexOf](https://reference.aspose.com/words/java/com.aspose.words/nodecollection/#indexOf-com.aspose.words.Node), e outros.
 
-A quebra de seção é uma opção que divide páginas de documentos em seções com layouts personalizáveis.
+Section break é uma opção que divide as páginas do documento em seções com layouts personalizáveis.
 
-## Tipos de uma quebra de seção
+## Tipos de quebra de secção
 
-Aspose.Words permite dividir e formatar documentos usando diferentes intervalos de seção do [BreakType](https://reference.aspose.com/words/java/com.aspose.words/breaktype/) enumeração:
+Aspose.Words permite dividir e formatar documentos utilizando diferentes quebras de secção da enumeração [BreakType](https://reference.aspose.com/words/java/com.aspose.words/breaktype/):
 
-- SeçãoBreakContinuado
-- SecçãoBreak NewColumn
-- SeçãoBreakNewPage
-- SeçãoBreakEvenPage
-- SeçãoBreakOddPage
+- SectionBreakContinuous
+- SectionBreakNewColumn
+- SectionBreakNewPage
+- SectionBreakEvenPage
+- SectionBreakOddPage
 
-Você também pode usar o [SectionStart](https://reference.aspose.com/words/java/com.aspose.words/sectionstart/) enumeração para escolher um tipo de ruptura que se aplica apenas para a primeira seção, como NewColumn, NewPage, EvenPage e OddPage.
+Você também pode usar a enumeração [SectionStart](https://reference.aspose.com/words/java/com.aspose.words/sectionstart/) para escolher um tipo de quebra que se aplica apenas à primeira seção, como NewColumn, NewPage, EvenPage, e OddPage.
 
-## Gerenciar uma Seção
+## Gerir uma secção
 
-Uma vez que uma seção é um nó composto normal, toda a manipulação do nó API pode ser usado para manipular seções: adicionar, remover e outras operações em seções. Você pode ler mais sobre nós no artigo [Aspose.Words Document Object Model (DOM)](/words/pt/java/aspose-words-document-object-model/).
+Como uma seção é um nó composto normal, toda a manipulação do nó API pode ser usada para manipular seções: para adicionar, remover e outras operações em seções. Você pode ler mais sobre nós no artigo [Aspose.Words Modelo De Objecto Do Documento (DOM)](/words/java/aspose-words-document-object-model/).
 
-Por outro lado, você também pode usar o `DocumentBuilder` API para trabalhar com seções. Neste artigo, vamos focar nesta maneira particular de trabalhar com seções.
+Por outro lado, você também pode usar o `DocumentBuilder` API para trabalhar com seções. Neste artigo, vamos nos concentrar nesta maneira particular de trabalhar com seções.
 
-## Inserir ou remover uma quebra de seção
+## Inserir ou remover uma quebra de secção
 
-Aspose.Words permite inserir uma quebra de seção em texto usando o [InsertBreak](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertBreak-int) método.
+Aspose.Words permite inserir uma quebra de secção no texto utilizando o método [InsertBreak](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertBreak-int).
 
-O exemplo de código a seguir mostra como inserir uma seção quebrar em um documento:
+O exemplo de código a seguir mostra como inserir uma quebra de seção em um documento:
 
 {{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "insert-section-breaks.java" >}}
 
-Use o [Remove](https://reference.aspose.com/words/java/com.aspose.words/node/#remove) método para excluir uma quebra de seção. Se você não precisa remover uma quebra de seção específica e, em vez disso, excluir o conteúdo dessa seção, você pode usar o [ClearContent](https://reference.aspose.com/words/java/com.aspose.words/section/#clearContent) método.
+Use o método [Remove](https://reference.aspose.com/words/java/com.aspose.words/node/#remove) para excluir uma quebra de seção. Se você não precisar remover uma quebra de seção específica e, em vez disso, excluir o conteúdo dessa seção, poderá usar o método [ClearContent](https://reference.aspose.com/words/java/com.aspose.words/section/#clearContent).
 
-O exemplo de código a seguir mostra como remover seções quebra:
+O exemplo de código a seguir mostra como remover quebras de seções:
 
 {{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "remove-section-breaks.java" >}}
 
 {{% alert color="primary" %}}
 
-Note que um intervalo de seção tem informações sobre a seção que vai antes dele, não a seção que vai atrás dele. Então, se você remover uma quebra de seção, o texto antes do intervalo removido obterá as propriedades da quebra de seção seguindo-o. Isso pode fazer com que todo o documento se torne paisagem, ou cabeçalhos e rodapés para mudar ou desaparecer completamente.
+Observe que uma quebra de seção contém informações sobre a seção que vai antes dela, não a seção que vai depois dela. Portanto, se você remover uma quebra de seção, o texto antes da quebra removida obterá as propriedades da quebra de seção seguinte. Isso pode fazer com que todo o documento se torne paisagem, ou os cabeçalhos e rodapés mudem ou desapareçam totalmente.
 
 {{% /alert %}}
 
-## Mover uma seção
+## Mover uma secção
 
-Se você quiser mover uma seção de uma posição para outra em seu documento, você precisa obter o índice dessa seção. Aspose.Words permite que você obtenha uma posição de seção de uma [SectionCollection](https://reference.aspose.com/words/java/com.aspose.words/sectioncollection/). Você pode usar o [Sections](https://reference.aspose.com/words/java/com.aspose.words/document/#getSections) propriedade para obter todas as seções em seu documento. Mas se você quiser obter apenas a primeira seção, você pode usar o [FirstSection](https://reference.aspose.com/words/java/com.aspose.words/document/#getFirstSection) propriedade.
+Se você deseja mover uma seção de uma posição para outra em seu documento, você precisa obter o índice dessa seção. Aspose.Words permite obter uma posição de secção a partir de um [SectionCollection](https://reference.aspose.com/words/java/com.aspose.words/sectioncollection/). Você pode usar a propriedade [Sections](https://reference.aspose.com/words/java/com.aspose.words/document/#getSections) para obter todas as seções em seu documento. Mas se você deseja obter apenas a primeira seção, pode usar a propriedade [FirstSection](https://reference.aspose.com/words/java/com.aspose.words/document/#getFirstSection).
 
-O exemplo de código a seguir mostra como acessar a primeira seção e iterar através das crianças de um nó composto:
+O exemplo de código a seguir mostra como acessar a primeira seção e iterar por meio dos filhos de um nó composto:
 
 {{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "section-child-nodes.java" >}}
 
-## Especificar um Layout de Seção
+## Especificar uma disposição de secção
 
-Às vezes você quer que seu documento fique melhor, fazendo layouts criativos para diferentes seções de documentos. Se você quiser especificar o tipo da grade de seção atual, você pode escolher um modo de layout de seção usando o [SectionLayoutMode](https://reference.aspose.com/words/java/com.aspose.words/sectionlayoutmode/) enumeração:
+Às vezes, você deseja que seu documento tenha uma aparência melhor, criando layouts criativos para diferentes seções do documento. Se você quiser especificar o tipo da grade de seção atual, poderá escolher um modo de layout de seção Usando a enumeração [SectionLayoutMode](https://reference.aspose.com/words/java/com.aspose.words/sectionlayoutmode/):
 
 - Defeito
-- Grid
+- Grelha
 - LineGrid
 - SnapToChars
 
@@ -85,64 +85,64 @@ O exemplo de código a seguir mostra como limitar o número de linhas que cada p
 
 ## Editar uma secção
 
-Quando você adiciona uma nova seção ao seu documento, não haverá nenhum corpo ou parágrafo que você possa editar. Aspose.Words permite que você garanta que uma seção contém um corpo com pelo menos um parágrafo usando o [EnsureMinimum](https://reference.aspose.com/words/java/com.aspose.words/section/#ensureMinimum) método – ele adicionará automaticamente um nó Body (ou HeaderFooter) ao documento e, em seguida, adicionará um Parágrafo a ele.
+Quando você adiciona uma nova seção ao seu documento, não haverá corpo ou parágrafo que você possa editar. Aspose.Words permite que você garanta que uma seção contém um corpo com pelo menos um parágrafo usando o método [EnsureMinimum](https://reference.aspose.com/words/java/com.aspose.words/section/#ensureMinimum) – ele adicionará automaticamente um nó Body (ou HeaderFooter) ao documento e, em seguida, adicionará um parágrafo a ele.
 
-O exemplo de código a seguir mostra como preparar um novo nó de seção usando **EnsureMinimum**:
+O exemplo de código a seguir mostra como preparar um novo nó de seção Usando **EnsureMinimum**:
 
 {{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "ensure-minimum.java" >}}
 
-### Anexar ou Prependir conteúdo
+### Acrescentar ou preceder o conteúdo
 
-Se você quiser desenhar alguma forma ou adicionar texto ou imagem no início / fim de uma seção, você pode usar o [AppendContent](https://reference.aspose.com/words/java/com.aspose.words/section/#appendContent-com.aspose.words.Section) e [PrependContent](https://reference.aspose.com/words/java/com.aspose.words/section/#prependContent-com.aspose.words.Section) métodos de [Section](https://reference.aspose.com/words/java/com.aspose.words/section/) classe.
+Se quiser desenhar alguma forma ou adicionar texto ou imagem no início/fim de uma secção, pode utilizar os métodos [AppendContent](https://reference.aspose.com/words/java/com.aspose.words/section/#appendContent-com.aspose.words.Section) e [PrependContent](https://reference.aspose.com/words/java/com.aspose.words/section/#prependContent-com.aspose.words.Section) da classe [Section](https://reference.aspose.com/words/java/com.aspose.words/section/).
 
-O exemplo de código a seguir mostra como anexar conteúdo de uma seção existente:
+O exemplo de código a seguir mostra como anexar o conteúdo de uma seção existente:
 
 {{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "append-section-content.java" >}}
 
-### Clone a Section
+### Clonar uma secção
 
-Aspose.Words permite duplicar uma seção criando uma cópia completa dele usando o [deepClone](https://reference.aspose.com/words/java/com.aspose.words/section/#deepClone) método.
+Aspose.Words permite duplicar uma secção criando uma cópia completa da mesma utilizando o método [deepClone](https://reference.aspose.com/words/java/com.aspose.words/section/#deepClone).
 
-O exemplo de código a seguir mostra como clonar a primeira seção em seu documento:
+O exemplo de código a seguir mostra como clonar a primeira seção do documento:
 
 {{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "clone-section.java" >}}
 
-### Copiar Seções entre Documentos
+### Copiar secções entre documentos
 
-Em alguns casos, você pode ter grandes documentos com muitas seções e deseja copiar o conteúdo de uma seção de um documento para outro.
+Em alguns casos, você pode ter documentos grandes com muitas seções e deseja copiar o conteúdo de uma seção de um documento para outro.
 
-Aspose.Words permite copiar seções entre documentos usando o [ImportNode](https://reference.aspose.com/words/java/com.aspose.words/documentbase/#importNode-com.aspose.words.Node-boolean) método.
+Aspose.Words permite copiar secções entre documentos utilizando o método [ImportNode](https://reference.aspose.com/words/java/com.aspose.words/documentbase/#importNode-com.aspose.words.Node-boolean).
 
-O exemplo a seguir mostra como copiar seções entre documentos:
+O exemplo de código a seguir mostra como copiar seções entre documentos:
 
 {{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "copy-section.java" >}}
 
-### Trabalho com cabeçalho de seção e rodapé
+### Trabalhar com cabeçalho e Rodapé da secção
 
 As regras básicas para exibir um cabeçalho ou rodapé para cada seção são bastante simples:
 
-1. Se a seção não tem seus próprios cabeçalhos/pés de um determinado tipo, então é tomado da seção anterior.
-2. O tipo de cabeçalho / rodapé exibido na página é controlado pelas configurações de seção "Different First Page" e "Different Odd & Even pages" – se eles estão desativados, então os próprios títulos da seção são ignorados.
+1. Se a seção não tiver seus próprios cabeçalhos/rodapés de um determinado tipo, ela será retirada da seção anterior.
+2. O tipo de cabeçalho/rodapé exibido na página é controlado pelas configurações da seção" primeira página diferente "e" páginas ímpares e pares diferentes " – se estiverem desativadas, os próprios títulos da seção serão ignorados.
 
-O exemplo a seguir mostra como criar 2 seções com cabeçalhos diferentes:
+O exemplo de código a seguir mostra como criar 2 seções com cabeçalhos diferentes:
 
 {{< gist "aspose-words-gists" "58431f54e34e5597f8cbaf97481d5321" "link-to-previous-header-footer.java" >}}
 
-Se você quiser remover o texto de cabeçalhos e rodapés sem remover [HeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/headerfooter/) objetos em seu documento, você pode usar o [ClearHeadersFooters](https://reference.aspose.com/words/java/com.aspose.words/section/#clearHeadersFooters) método. Além disso, você pode usar o [DeleteHeaderFooterShapes](https://reference.aspose.com/words/java/com.aspose.words/section/#deleteHeaderFooterShapes) método para remover todas as formas de cabeçalhos e rodapés em seu documento.
+Se pretender remover o texto dos cabeçalhos e rodapés sem remover objectos [HeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/headerfooter/) no documento, pode utilizar o método [ClearHeadersFooters](https://reference.aspose.com/words/java/com.aspose.words/section/#clearHeadersFooters). Além disso, você pode usar o método [DeleteHeaderFooterShapes](https://reference.aspose.com/words/java/com.aspose.words/section/#deleteHeaderFooterShapes) para remover todas as formas dos cabeçalhos e rodapés do documento.
 
-O exemplo a seguir mostra como limpar o conteúdo de todos os cabeçalhos e rodapés em uma seção:
+O exemplo de código a seguir mostra como limpar o conteúdo de todos os cabeçalhos e rodapés em uma seção:
 
 {{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "delete-header-footer-content.java" >}}
 
-O seguinte exemplo de código como remover todas as formas de todos os cabeçalhos rodapé em uma seção:
+O exemplo de código a seguir como remover todas as formas de todos os cabeçalhos rodapés em uma seção:
 
 {{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "delete-header-footer-shapes.java" >}}
 
-## Personalize as propriedades da página em uma seção
+## Personalizar as propriedades da Página numa secção
 
-Antes de imprimir uma página ou um documento, você pode querer personalizar e modificar o tamanho e o layout de uma única página ou todo o documento. Com a configuração da página, você pode alterar as configurações de páginas de documentos, como margens, orientação e tamanho para imprimir páginas diferentes ou páginas ímpares.
+Antes de imprimir uma página ou um documento, pode querer personalizar e modificar o tamanho e a disposição de uma única página ou de todo o documento. Com a configuração da página, pode alterar as definições das páginas do documento, tais como margens, orientação e tamanho, para imprimir diferentes primeiras páginas ou páginas ímpares.
 
-Aspose.Words permite personalizar as propriedades de página e seção usando o [PageSetup](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/) classe.
+Aspose.Words permite personalizar as propriedades da página e da secção utilizando a classe [PageSetup](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/).
 
 O exemplo de código a seguir mostra como definir propriedades como tamanho da página e orientação para a seção atual:
 
@@ -152,7 +152,7 @@ O exemplo de código a seguir mostra como modificar as propriedades da página e
 
 {{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "modify-page-setup-in-all-sections.java" >}}
 
-## Ver também
+## Ver Também
 
-- [Níveis Lógicos de Nós em um Documento](/words/pt/java/logical-levels-of-nodes-in-a-document/)
-- [Inserir documentos](/words/pt/java/insert-and-append-documents/)
+- [* * * * * * * * * * *](/words/java/logical-levels-of-nodes-in-a-document/)
+- [Inserir e anexar documentos](/words/java/insert-and-append-documents/)

@@ -1,93 +1,93 @@
----
-title: 차트 작업 Java
-second_title: Aspose.Words 제품정보 Java
+﻿---
+title: Java의 차트 작업
+second_title: Aspose.WordsJava
 articleTitle: 차트 작업
 linktitle: 차트 작업
-description: "차트 기능 소개, 차트 생성 및 조작 방법 Java·"
+description: "차트 기능 소개,Java을 사용하여 차트를 만들고 조작하는 방법."
 type: docs
 weight: 310
 url: /ko/java/working-with-charts/
 timestamp: 2024-01-27-14-07-04
 ---
 
-새로운 [insertChart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertChart-int-double-double) 메소드가 추가되었습니다. [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) 수업. 그래서, 간단한 열 차트를 문서로 삽입하는 방법을 볼 수 있습니다. **기타 제품 팟캐스트** 방법.
+새로운[insertChart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertChart-int-double-double)메서드가[DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)클래스에 추가되었습니다. 자,**insertChart**방법을 사용하여 간단한 세로 막대형 차트를 문서에 삽입하는 방법을 살펴 보겠습니다.
 
 
-## Scratch에서 차트를 삽입하는 방법 Aspose.Words
+## Aspose.Words을 사용하여 처음부터 차트를 삽입하는 방법
 
-이 섹션에서는 차트를 문서에 삽입하는 방법을 배울 것입니다.
+이 섹션에서는 문서에 차트를 삽입하는 방법을 배웁니다.
 
-###  삽입 란 도표
+###  세로 막대형 차트 삽입
 
-다음 코드 예제는 열 차트를 삽입하는 방법을 보여줍니다:
+다음 코드 예제에서는 세로 막대형 차트를 삽입하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertColumnChart1.java" >}}
 
-코드는 다음과 같은 결과를 생성합니다:
+이 코드는 다음과 같은 결과를 생성합니다:
 
 ![column-chart-aspose-words-java-1](/words/java/working-with-charts/working-with-charts-7.png)
 
-시리즈에는 4개의 다른 하중이 있습니다 모든 차트 유형에 대한 데이터 소스의 모든 가능한 변형을 커버하는 방법을 추가:
+시리즈 추가 방법에는 네 가지 오버로드가 있으며,이 오버로드는 모든 차트 유형에 대해 가능한 모든 데이터 원본 변형을 포함하도록 노출되었습니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertColumnChart2.java" >}}
 
-코드는 다음과 같은 결과를 생성합니다:
+이 코드는 다음과 같은 결과를 생성합니다:
 
 ![column-chart-aspose-words-java-2](/words/java/working-with-charts/working-with-charts-8.png)
 
-### 삽입 Scatter 팟캐스트
+### 분산형 차트 삽입
 
-다음 코드 예제는 scatter 차트를 삽입하는 방법을 보여줍니다:
+다음 코드 예제에서는 분산형 차트를 삽입하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertScatterChart.java" >}}
 
-코드는 다음과 같은 결과를 생성합니다:
+이 코드는 다음과 같은 결과를 생성합니다:
 
 ![scutter-chart-aspose-words-java](/words/java/working-with-charts/working-with-charts-9.png)
 
-### 연락처 팟캐스트
+### 영역 차트 삽입
 
-다음 코드 예제는 지역 차트를 삽입하는 방법을 보여줍니다:
+다음 코드 예제에서는 영역 차트를 삽입하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertAreaChart.java" >}}
 
-코드는 다음과 같은 결과를 생성합니다:
+이 코드는 다음과 같은 결과를 생성합니다:
 
 ![area-chart-aspose-words-java](/words/java/working-with-charts/working-with-charts-10.png)
 
-### 버블 차트
+### 버블 차트 삽입
 
-뒤에 오는 부호 예는 거품 도표를 삽입하는 방법을 보여줍니다:
+다음 코드 예제에서는 거품형 차트를 삽입하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertBubbleChart.java" >}}
 
-코드는 다음과 같은 결과를 생성합니다:
+이 코드는 다음과 같은 결과를 생성합니다:
 
 ![bubble-chart-aspose-words-java](/words/java/working-with-charts/working-with-charts-11.png)
 
-## 차트 작업 `Shape.Chart` 기타
+## `Shape.Chart`개체를 통해 차트 작업
 
-차트가 삽입되어 데이터로 채워지면 외관을 변경할 수 있습니다. [Shape.Chart](https://reference.aspose.com/words/java/com.aspose.words/shape/#getChart) 재산은 대중을 통해서 유효한 모든 도표 관련 선택권을 포함합니다 API·
+차트가 삽입되고 데이터로 채워지면 모양을 변경할 수 있습니다. [Shape.Chart](https://reference.aspose.com/words/java/com.aspose.words/shape/#getChart)속성에는 공용API을 통해 사용할 수 있는 모든 차트 관련 옵션이 포함되어 있습니다.
 
-예를 들어, 변경하자 차트 제목 또는 전설적인 행동:
+예를 들어 차트 제목 또는 범례 동작을 변경해 보겠습니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartAppearance-changeChartAppearanceUsingShapeChartObject.java" >}}
 
-코드는 다음과 같은 결과를 생성합니다
+코드는 다음 결과를 생성합니다:
 
 ![line-chart-aspose-words-java-1](/words/java/working-with-charts/working-with-charts-1.png)
 
-## ChartSeriesCollection의 작업 방법
+## 차트ChartSeriesCollection작업 방법
 
-자주 묻는 질문 [ChartSeries](https://reference.aspose.com/words/java/com.aspose.words/chartseries/) 회사 소개 모든 차트 시리즈는 사용할 수 있습니다. [chart.getSeries()](https://reference.aspose.com/words/java/com.aspose.words/chart/#getSeries) 수집, 이는 **Iterable**::
+[ChartSeries](https://reference.aspose.com/words/java/com.aspose.words/chartseries/)컬렉션을 살펴 보겠습니다. 모든 차트 계열은[chart.getSeries()](https://reference.aspose.com/words/java/com.aspose.words/chart/#getSeries)컬렉션(**Iterable**)을 통해 사용할 수 있습니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkWithChartSeriesCollectionOfChart-WorkWithChartSeriesCollectionOfChart.java" >}}
 
-당신은 하나에 의해 시리즈를 제거하거나 그들 전부를 명확하게 하고 필요로 하는 경우에 새로운 것을 추가할 수 있습니다. 새로 삽입된 차트에는 이 컬렉션에 추가된 기본 시리즈가 있습니다. 자주 묻는 질문 **chart.getSeries().clear()** 방법.
+당신은 하나 시리즈 하나를 제거하거나 그들 모두를 취소뿐만 아니라 필요한 경우 새 하나를 추가 할 수 있습니다. 새로 삽입된 차트에는 일부 기본 계열이 이 컬렉션에 추가되었습니다. 이를 제거하려면**chart.getSeries().clear()**메서드를 호출해야 합니다.
 
-## 단일 ChartSeries 클래스 작업
+## 단일ChartSeries클래스로 작업
 
-여기에 특정 시리즈와 작업하는 방법.
+다음은 특정 시리즈를 사용하는 방법입니다.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartAppearance-workingWithSingleChartSeries.java" >}}
 
@@ -95,15 +95,15 @@ timestamp: 2024-01-27-14-07-04
 
 ![line-chart-aspose-words-java-2](/words/java/working-with-charts/working-with-charts-2.png)
 
-모든 단일 [ChartSeries](https://reference.aspose.com/words/java/com.aspose.words/chartseries/) 기본값 [ChartDataPoint](https://reference.aspose.com/words/java/com.aspose.words/chartdatapoint/) 옵션은 다음 코드를 사용하여 변경하십시오
+모든 단일[ChartSeries](https://reference.aspose.com/words/java/com.aspose.words/chartseries/)에는 기본[ChartDataPoint](https://reference.aspose.com/words/java/com.aspose.words/chartdatapoint/)옵션이 있으므로 다음 코드를 사용하여 변경해 보십시오:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartAppearance-changeDefaultChartDataPointOptions.java" >}}
 
 ![line-chart-aspose-words-java3](/words/java/working-with-charts/working-with-charts-3.png)
 
-## Single ChartDataPoint를 사용하는 방법 `ChartSeries`
+## `ChartSeries`의 단일ChartDataPoint으로 작업하는 방법
 
-사용 방법 [ChartDataPoint](https://reference.aspose.com/words/java/com.aspose.words/chartdatapoint/) 차트 시리즈의 단일 데이터 포인트의 포맷을 사용자 정의 할 수 있습니다:
+[ChartDataPoint](https://reference.aspose.com/words/java/com.aspose.words/chartdatapoint/)을 사용하면 차트 계열의 단일 데이터 요소의 서식을 사용자 지정할 수 있습니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkWithSingleChartDataPointOfAChartSeries-WorkWithSingleChartDataPointOfAChartSeries.java" >}}
 
@@ -111,9 +111,9 @@ timestamp: 2024-01-27-14-07-04
 
 ![line-chart-aspose-words-java-4](/words/java/working-with-charts/working-with-charts-4.png)
 
-## 단일 ChartSeries의 ChartDataLabel 작업 방법
+## 단일ChartSeries의ChartDataLabel로 작업하는 방법
 
-사용 방법 [ChartDataLabel](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/) show/hide LegendKey, CategoryName, SeriesName과 같은 차트 시리즈의 단일 데이터 라벨의 형식을 지정할 수 있습니다. 가치 등:
+[ChartDataLabel](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/)을 사용하면 표시/숨기기와 같이 차트 계열의 단일 데이터 레이블의 서식을 지정할 수 있습니다LegendKey, CategoryName, SeriesName, 가치 등:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkWithChartDataLabelOfASingleChartSeries-WorkWithChartDataLabelOfASingleChartSeries.java" >}}
 
@@ -121,9 +121,9 @@ timestamp: 2024-01-27-14-07-04
 
 ![bar-chart-aspose-words-java](/words/java/working-with-charts/working-with-charts-5.png)
 
-## ChartDataLabels에 대한 기본 옵션을 정의하는 방법 ChartSeries
+## ChartSeries의ChartDataLabels에 대한 기본 옵션을 정의하는 방법
 
-더 보기 [ChartDataLabelCollection](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabelcollection/) class는 기본 옵션을 설정할 수 있는 속성을 정의합니다. **ChartDataLabels** 차트 **Series**· 이 속성에는 setShowCategoryName, setShowBubbleSize, setShowPercentage, setShowSeriesName, setShow 가치 등:
+[ChartDataLabelCollection](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabelcollection/)클래스는 차트**Series**의**ChartDataLabels**에 대한 기본 옵션을 설정하는 데 사용할 수 있는 속성을 정의합니다. 이러한 속성에는setShowCategoryName, setShowBubbleSize, setShowPercentage, setShowSeriesName, setShowValue 기타:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-DefaultOptionsForDataLabels-DefaultOptionsForDataLabels.java" >}}
 
@@ -131,75 +131,75 @@ timestamp: 2024-01-27-14-07-04
 
 ![pie-chart-aspose-words-java](/words/java/working-with-charts/working-with-charts-6.png)
 
-## 차트 데이터 라벨의 수를 포맷하는 방법
+## 차트 데이터 레이블 수를 포맷하는 방법
 
-사용 방법 [NumberFormat](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/#getNumberFormat) 속성, 당신은 차트의 단일 데이터 라벨의 번호 포맷을 지정할 수 있습니다.
+[NumberFormat](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/#getNumberFormat)속성을 사용하여 차트의 단일 데이터 레이블의 숫자 서식을 지정할 수 있습니다.
 
-다음 코드 예제는 데이터 라벨의 수를 포맷하는 방법을 보여줍니다:
+다음 코드 예제에서는 데이터 레이블의 번호를 포맷하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartNumberFormat-ChartNumberFormat.java" >}}
 
-## 차트 축 속성 설정 방법
+## 차트 축 속성을 설정하는 방법
 
-차트 축, 스케일링, 디스플레이 단위로 작업하려면, 사용하시기 바랍니다 [ChartAxis](https://reference.aspose.com/words/java/com.aspose.words/chartaxis/), [AxisDisplayUnit](https://reference.aspose.com/words/java/com.aspose.words/axisdisplayunit/), · [AxisScaling](https://reference.aspose.com/words/java/com.aspose.words/axisscaling/) 수업.
+값 축에 대한 차트 축,크기 조정 및 표시 단위로 작업하려면[ChartAxis](https://reference.aspose.com/words/java/com.aspose.words/chartaxis/),[AxisDisplayUnit](https://reference.aspose.com/words/java/com.aspose.words/axisdisplayunit/)및[AxisScaling](https://reference.aspose.com/words/java/com.aspose.words/axisscaling/)클래스를 사용하십시오.
 
-다음 코드 예제는 X 및 Y 축 속성을 정의하는 방법을 보여줍니다:
+다음 코드 예제에서는 속성을 정의하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-DefineXYAxisProperties.java" >}}
 
-### 설정 방법 Date축선의 시간 가치
+### 축의DateTime값을 설정하는 방법
 
-다음 코드 예제는 날짜 / 시간 값을 축 속성에 설정하는 방법을 보여줍니다:
+다음 코드 예제에서는 날짜/시간 값을 축 속성으로 설정하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-SetDateTimeValuesToAxis.java" >}}
 
-### 축의 번호 값을 형식하는 방법
+### 축의 숫자 값을 포맷하는 방법
 
-다음 코드 예제는 값 축의 번호 형식을 변경하는 방법을 보여줍니다:
+다음 코드 예제에서는 값 축에서 숫자 형식을 변경하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-SetNumberFormatForAxis.java" >}}
 
-### 축의 경계를 설정하는 방법
+### 축 경계를 설정하는 방법
 
-더 보기 `AxisBound` 클래스는 최소 또는 최대 축 값의 경계를 나타냅니다. 경계는 숫자, 날짜 시간 또는 특별한 "자동"값으로 지정될 수 있습니다.
+`AxisBound`클래스는 축 값의 최소 또는 최대 경계를 나타냅니다. 바인딩은 숫자,날짜-시간 또는 특수"자동"값으로 지정할 수 있습니다.
 
-다음 코드 예제는 축의 경계를 설정하는 방법을 보여줍니다:
+다음 코드 예제에서는 축의 경계를 설정하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-SetboundsOfAxis.java" >}}
 
-### 라벨 사이 간격 단위 설정 방법
+### 레이블 사이의 간격 단위를 설정하는 방법
 
-다음과 같은 코드 예제는 샤프트에 라벨 사이의 간격 단위를 설정하는 방법을 보여줍니다
+다음 코드 예제에서는 축의 레이블 간 간격 단위를 설정하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-SetIntervalUnitBetweenLabelsOnAxis.java" >}}
 
-### 차트 축을 숨기기 방법
+### 차트 축을 숨기는 방법
 
-차트 축을 표시하거나 숨기려면 간단히 이 값을 설정하여 달성 할 수 있습니다. `ChartAxis.Hidden` 호텔 위치
+차트 축을 표시하거나 숨기려면`ChartAxis.Hidden`속성 값을 설정하면 됩니다.
 
-다음 코드 예제는 차트의 Y 축을 숨기는 방법을 보여줍니다:
+다음 코드 예제에서는 차트의 축을 숨기는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-HideChartAxis.java" >}}
 
-### Align Chart 라벨의 방법
+### 차트 레이블을 정렬하는 방법
 
-멀티 라인 라벨에 대한 텍스트 정렬을 설정하려면 간단히 이 값을 설정하여 달성 할 수 있습니다. [setTickLabelAlignment()](https://reference.aspose.com/words/java/com.aspose.words/chartaxis/#setTickLabelAlignment-int) 호텔 위치
+여러 줄 레이블에 대한 텍스트 정렬을 설정하려면[setTickLabelAlignment()](https://reference.aspose.com/words/java/com.aspose.words/chartaxis/#setTickLabelAlignment-int)속성 값을 설정하면 됩니다.
 
-다음 코드 예제는 라벨 정렬을 진드하는 방법을 보여줍니다:
+다음 코드 예제에서는 레이블 정렬을 선택하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-TickMultiLineLabelAlignment.java" >}}
 
 {{% alert color="primary" %}}
 
-Microsoft Word 관련 기사 기본으로 중심의 Chart Label.
+Microsoft Word차트 레이블을 기본적으로 가운데에 맞춥니다.
 
 {{% /alert %}}
 
-## 필 및 스트로크 포맷 설정 방법
+## 채우기 및 획 서식을 설정하는 방법
 
-채우고 치기 체재는 도표 시리즈, 자료 점 및 감적기를 위해 놓일 수 있습니다. 이렇게하려면 속성을 사용해야합니다. `ChartFormat` ChartSeries, ChartDataPoint 및 ChartMarker 클래스의 유형뿐만 아니라 ForeColor, BackColor, Visible 및 Transparency와 같은 일부 속성에 대한 별칭 `Stroke` 수업.
+차트 계열,데이터 요소 및 마커에 대해 채우기 및 획 서식을 설정할 수 있습니다. 이렇게 하려면ChartSeries,ChartDataPoint및ChartMarker클래스의`ChartFormat`형식의 속성과ForeColor,BackColor,표시 및`Stroke`클래스의 투명도와 같은 일부 속성의 별칭을 사용해야 합니다.
 
-다음 코드 예제는 시리즈 색상을 설정하는 방법을 보여줍니다:
+다음 코드 예제에서는 계열 색상을 설정하는 방법을 보여 줍니다:
 
 {{< highlight csharp >}}
 Document doc = new Document();
@@ -229,7 +229,7 @@ series3.Format.Fill.ForeColor = Color.Blue;
 doc.Save("ColumnColor.docx");
 {{< /highlight >}}
 
-다음 코드 예제는 라인 색상과 무게를 설정하는 방법을 보여줍니다:
+다음 코드 예제에서는 선 색상 및 가중치를 설정하는 방법을 보여 줍니다:
 
 {{< highlight csharp >}}
 Document doc = new Document();

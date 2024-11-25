@@ -1,71 +1,71 @@
----
+﻿---
 title: کار با پاراگراف ها در Java
 second_title: Aspose.Words برای Java
-articleTitle: کار با پاراگراف
-linktitle: کار با پاراگراف
-description: "روش های دستکاری گره Paragraph با استفاده از Java..."
+articleTitle: کار با پاراگراف ها
+linktitle: کار با پاراگراف ها
+description: "شیوه های دستکاری گره پاراگراف با استفاده از Java."
 type: docs
 weight: 210
 url: /fa/java/working-with-paragraphs/
 timestamp: 2024-01-27-14-07-04
 ---
 
-یک پاراگراف مجموعه ای از شخصیت های ترکیب شده در یک بلوک منطقی و پایان دادن به یک شخصیت خاص است - یک شکستن پاراگراف *. In In In Aspose.Words, یک پاراگراف توسط [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) کلاس
+یک پاراگراف مجموعه ای از کاراکترها است که در یک بلوک منطقی ترکیب شده و با یک کاراکتر خاص به پایان می رسد – a *paragraph break*. در Aspose.Words، یک پاراگراف توسط کلاس [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) نشان داده می شود.
 
-## قرار دادن یک پاراگراف
+## درج یک پاراگراف
 
-برای قرار دادن یک پاراگراف جدید به سند، در واقع شما باید یک کاراکتر شکستن پاراگراف را وارد آن کنید. [DocumentBuilder.Writeln](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#writeln) نه تنها یک رشته متن را به سند وارد می کند، بلکه یک پاراگراف را نیز اضافه می کند.
+برای قرار دادن یک پاراگراف جدید در سند، در واقع، شما باید یک کاراکتر شکستن پاراگراف را در آن قرار دهید. [DocumentBuilder.Writeln](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#writeln) نه تنها یک رشته متن را در سند قرار می دهد، بلکه یک پاراگراف را نیز اضافه می کند.
 
-قالب بندی فونت فعلی نیز توسط [Font](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getFont) مالکیت و قالب بندی فعلی پاراگراف توسط [ParagraphFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getParagraphFormat) مالکیت در بخش بعدی، ما به جزئیات بیشتری در مورد قالب بندی پاراگراف خواهیم پرداخت.
+قالب بندی فونت فعلی نیز توسط ویژگی [Font](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getFont) مشخص شده است و قالب بندی پاراگراف فعلی توسط ویژگی [ParagraphFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getParagraphFormat) تعیین می شود. در بخش بعدی، ما به جزئیات بیشتری در مورد قالب بندی پاراگراف خواهیم پرداخت.
 
-مثال کد زیر نشان می دهد که چگونه یک پاراگراف را به یک سند وارد کنید:
+مثال کد زیر نشان می دهد که چگونه یک پاراگراف را در یک سند وارد کنید:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-DocumentBuilderInsertParagraph.java" >}}
 
 
-## فرمت Paragraph
+## پاراگراف فرمت
 
-قالب بندی پاراگراف فعلی توسط [ParagraphFormat](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/) چیزی که توسط [ParagraphFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getParagraphFormat) مالکیت این شی شامل ویژگی های مختلف قالب بندی پاراگراف در دسترس است. Microsoft Word... شما به راحتی می توانید قالب بندی یک پاراگراف را به حالت پیش فرض خود تنظیم کنید - سبک عادی، چپ گرا، بدون بی تحرکی، هیچ فاصله، هیچ مرز، بدون سایه - با تماس با تماس با [ClearFormatting](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/#clearFormatting)...
+قالب بندی پاراگراف فعلی توسط شیء [ParagraphFormat](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/) که توسط ویژگی [ParagraphFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getParagraphFormat) بازگردانده می شود، نشان داده می شود. این شی ویژگی های مختلف قالب بندی پاراگراف موجود در Microsoft Word را در بر می گیرد. شما می توانید به راحتی قالب بندی یک پاراگراف را به حالت پیش فرض آن تنظیم کنید – سبک عادی، چپ تراز، بدون تورفتگی، بدون فاصله، بدون مرز، بدون سایه-با فراخوانی [ClearFormatting](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/#clearFormatting).
 
-مثال کد زیر نشان می دهد که چگونه قالب بندی پاراگراف را تنظیم کنیم:
+مثال کد زیر نشان می دهد که چگونه قالب بندی پاراگراف را تنظیم کنید:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-DocumentBuilderSetParagraphFormatting.java" >}}
 
-## گزینه Paragraph Style
+## سبک پاراگراف را اعمال کنید
 
-برخی از اشیاء قالب بندی مانند فونت یا سبک های پشتیبانی Paragraph Format. یک سبک واحد ساخته شده در یا تعریف شده توسط یک کاربر نشان داده می شود [Style](https://reference.aspose.com/words/java/com.aspose.words/style/) شی که شامل خواص سبک مربوطه مانند نام، سبک پایه، فونت و قالب بندی پاراگراف از سبک و غیره است.
+برخی از اشیاء قالب بندی مانند فونت یا سبک های پشتیبانی ParagraphFormat. یک سبک داخلی یا تعریف شده توسط کاربر توسط یک شیء [Style](https://reference.aspose.com/words/java/com.aspose.words/style/) نشان داده می شود که شامل ویژگی های سبک مربوطه مانند نام، سبک پایه، فونت و قالب بندی پاراگراف سبک و غیره است.
 
-علاوه بر این، **Style** جسم فراهم می کند [StyleIdentifier](https://reference.aspose.com/words/java/com.aspose.words/style/#getStyleIdentifier) اموالی که یک شناسه سبک مستقل محلی را که توسط یک شناسه سبک مستقل نمایندگی می شود، بازگرداند. **StyleIdentifier** افزایش ارزش نکته این است که نام سبک های داخلی در Microsoft Word برای زبان های مختلف محلی هستند. با استفاده از یک شناسه سبک، شما می توانید سبک صحیح را بدون در نظر گرفتن زبان سند پیدا کنید. ارزش های enumeration مربوط به Microsoft Word سبک های داخلی مانند *Normal*, * ارتقاء 1 *، * هل دادن 2 *، و غیره تمام سبک های تعریف شده توسط کاربر اختصاص داده شده است **StyleIdentifier ارزش کاربر**...
+علاوه بر این، یک شی **Style** ویژگی [StyleIdentifier](https://reference.aspose.com/words/java/com.aspose.words/style/#getStyleIdentifier) را فراهم می کند که یک شناسه سبک مستقل از محلی را که با یک مقدار **StyleIdentifier** شمارش نشان داده شده است، باز می گرداند. نکته این است که نام سبک های داخلی در Microsoft Word برای زبان های مختلف محلی شده است. با استفاده از یک شناسه سبک، می توانید سبک صحیح را صرف نظر از زبان سند پیدا کنید. مقادیر شمارش با سبک های داخلی Microsoft Word مانند *Normal*, *Heading 1*, *Heading 2*, و غیره تمام سبک های تعریف شده توسط کاربر به **StyleIdentifier.User value** اختصاص داده شده است.
 
-مثال کد زیر نشان می دهد که چگونه یک سبک پاراگراف را اعمال کنید:
+مثال کد زیر نشان می دهد که چگونه یک سبک پاراگراف را اعمال کنیم:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-DocumentBuilderApplyParagraphStyle.java" >}}
 
-## گزینه Insert Style را برای قرار دادن سبک های مختلف Paragraph
+## برای قرار دادن سبک های مختلف پاراگراف، جداکننده سبک را وارد کنید
 
-جداکننده سبک را می توان به انتهای یک پاراگراف با استفاده از Ctrl + Alt + Enter keyboard Shortcut به MS Word اضافه کرد. این ویژگی اجازه می دهد تا برای دو سبک مختلف پاراگراف استفاده شده در یک پاراگراف چاپی منطقی. اگر می خواهید از ابتدای یک عنوان خاص در یک جدول از محتواها ظاهر شود، اما نمی خواهید کل عنوان در جدول محتواها باشد، می توانید از این ویژگی استفاده کنید.
+جداکننده سبک را می توان با استفاده از میانبر صفحه کلید Ctrl + Alt + Enter به MS Word به پایان یک پاراگراف اضافه کرد. این ویژگی اجازه می دهد تا دو سبک پاراگراف مختلف در یک پاراگراف چاپی منطقی استفاده شود. اگر می خواهید متنی از ابتدای یک عنوان خاص در یک جدول محتویات ظاهر شود اما نمی خواهید کل عنوان در جدول محتویات باشد، می توانید از این ویژگی استفاده کنید.
 
-مثال کد زیر نشان می دهد که چگونه یک جداکننده سبک را به جای سبک های مختلف پاراگراف وارد کنید:
+مثال کد زیر نشان می دهد که چگونه یک جدا کننده سبک را برای جای دادن سبک های مختلف پاراگراف قرار دهید:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-ParagraphInsertStyleSeparator.java" >}}
 
 
-## درخواست مرز و سایه به یک پاراگراف
+## مرزها و سایه ها را روی یک پاراگراف اعمال کنید
 
-مرز در Aspose.Words نمایندگی توسط [BorderCollection](https://reference.aspose.com/words/java/com.aspose.words/bordercollection/) کلاس - این مجموعه ای از [Border](https://reference.aspose.com/words/java/com.aspose.words/border/) اشیایی که توسط شاخص یا نوع مرزی قابل دسترسی هستند. The The The The The The `Border` نوع نشان داده شده توسط [BorderType](https://reference.aspose.com/words/java/com.aspose.words/bordertype/) تکرار برخی از ارزش های آن برای چندین یا تنها یک عنصر سند قابل اجرا هستند. برای مثال، **BorderType.Bottom** قابل اجرا برای یک بند یا سلول جدول در حالی که **BorderType.DiagonalDown** مرز قطر را فقط در یک سلول جدول مشخص می کند.
+مرزها در Aspose.Words توسط کلاس [BorderCollection](https://reference.aspose.com/words/java/com.aspose.words/bordercollection/) نشان داده می شوند – این مجموعه ای از اشیاء [Border](https://reference.aspose.com/words/java/com.aspose.words/border/) است که توسط شاخص یا نوع مرز قابل دسترسی است. نوع `Border` با شمارش [BorderType](https://reference.aspose.com/words/java/com.aspose.words/bordertype/) نشان داده می شود. برخی از مقادیر شمارش برای چندین یا تنها یک عنصر سند قابل استفاده است. به عنوان مثال، **BorderType.Bottom** برای یک پاراگراف یا سلول جدول قابل استفاده است در حالی که **BorderType.DiagonalDown** مرز مورب را فقط در یک سلول جدول مشخص می کند.
 
-هر دو مجموعه مرزی و هر مرز جداگانه دارای ویژگی های مشابه مانند رنگ، سبک خط، عرض خط، فاصله از متن و سایه اختیاری هستند. آنها توسط خواص همان نام نمایندگی می شوند. شما می توانید با ترکیب ارزش های ملک به انواع مختلف مرزی دست یابید. علاوه بر این، هر دو **BorderCollection** و **Border** اشیا به شما اجازه می دهد تا این ارزش ها را به طور پیش فرض با تماس با [ClearFormatting](https://reference.aspose.com/words/java/com.aspose.words/border/#clearFormatting) روش
+هر دو مجموعه مرزی و هر مرز جداگانه دارای ویژگی های مشابهی مانند رنگ، سبک خط، عرض خط، فاصله از متن و سایه اختیاری هستند. آنها با ویژگی های یک نام نشان داده می شوند. شما می توانید با ترکیب ارزش ملک به انواع مختلف مرز دست یابید. علاوه بر این، هر دو شی **BorderCollection** و **Border** به شما اجازه می دهند که این مقادیر را با فراخوانی روش [ClearFormatting](https://reference.aspose.com/words/java/com.aspose.words/border/#clearFormatting) به حالت پیش فرض تنظیم کنید.
 
 {{% alert color="primary" %}}
 
-توجه داشته باشید که هنگامی که املاک مرزی برای مقادیر پیش فرض تنظیم می شوند، مرز نامرئی است.
+توجه داشته باشید که وقتی ویژگی های مرزی به مقادیر پیش فرض تنظیم می شوند، مرز نامرئی است.
 
 {{% /alert %}}
 
-Aspose.Words همچنین دارای [Shading](https://reference.aspose.com/words/java/com.aspose.words/shading/) کلاس شامل ویژگی های سایه دار برای عناصر سند است. شما می توانید بافت سایه مورد نظر و رنگ هایی که در پس زمینه و پیش زمینه عنصر اعمال می شود را تنظیم کنید.
+Aspose.Words همچنین دارای کلاس [Shading](https://reference.aspose.com/words/java/com.aspose.words/shading/) است که شامل ویژگی های سایه گذاری برای عناصر سند است. شما می توانید بافت سایه مورد نظر و رنگ هایی که به پس زمینه و پیش زمینه عنصر اعمال می شود را تنظیم کنید.
 
-بافت سایه دار با بافت [TextureIndex](https://reference.aspose.com/words/java/com.aspose.words/textureindex/) افزایش ارزش که اجازه می دهد تا استفاده از الگوهای مختلف به **Shading** جسم به عنوان مثال، برای تنظیم یک رنگ پس زمینه برای یک عنصر سند، استفاده از آن `TextureIndex.TextureSolid` ارزش و تنظیم رنگ سایه به عنوان مناسب. مثال کد داده شده در زیر نشان می دهد که چگونه مرزها و سایه را به یک پاراگراف اعمال کنید.
+بافت سایه با مقدار [TextureIndex](https://reference.aspose.com/words/java/com.aspose.words/textureindex/) شمارش تنظیم شده است که اجازه می دهد تا الگوهای مختلف را به شیء **Shading** اعمال کند. به عنوان مثال، برای تنظیم رنگ پس زمینه برای یک عنصر سند، از مقدار `TextureIndex.TextureSolid` استفاده کنید و رنگ سایه پیش زمینه را به عنوان مناسب تنظیم کنید. مثال کد زیر نشان می دهد که چگونه مرزها و سایه ها را به یک پاراگراف اعمال کنید.
 
-مثال کد زیر نشان می دهد که چگونه مرزها و سایه را به یک پاراگراف اعمال کنیم:
+مثال کد زیر نشان می دهد که چگونه مرزها و سایه ها را به یک پاراگراف اعمال کنید:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-DocumentBuilderApplyBordersAndShadingToParagraph.java" >}}

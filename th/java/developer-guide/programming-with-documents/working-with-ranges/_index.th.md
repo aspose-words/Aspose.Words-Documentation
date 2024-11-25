@@ -1,9 +1,9 @@
----
-title: ทํางานกับเรนจ์ใน Java
-second_title: Aspose.Words สําหรับ Java
-articleTitle: ทํางานกับช่วง
-linktitle: ทํางานกับช่วง
-description: "แนะนําคุณสมบัติของช่วงใน Aspose.Words สําหรับ Java."
+﻿---
+title: การทำงานกับช่วงในJava
+second_title: Aspose.WordsสำหรับJava
+articleTitle: การทำงานกับช่วง
+linktitle: การทำงานกับช่วง
+description: "รู้เบื้องต้นเกี่ยวกับคุณลักษณะช่วงในAspose.WordsสำหรับJava."
 type: docs
 weight: 130
 url: /th/java/working-with-ranges/
@@ -12,40 +12,40 @@ timestamp: 2024-01-27-14-07-04
 
 {{% alert color="primary" %}}
 
-ใน Aspose.Words, ช่วงเป็น "หน้าต่างขยาย" เป็นแบบฉบับของเอกสารที่คล้ายต้นไม้
+ในAspose.Wordsช่วงคือ"หน้าต่างแบน"เป็นแบบจำลองเหมือนต้นไม้ของเอกสาร.
 
 {{% /alert %}}
 
-ถ้าคุณได้ทํางานกับ Microsoft Word การปรับอัตโนมัติ คุณอาจจะรู้ว่าหนึ่งในเครื่องมือหลักของการตรวจสอบและแก้ไขเนื้อหาเอกสาร `Range` วัตถุ เรนจ์เป็นเหมือน "วินโดว์" ในเอกสารเนื้อหาและรูปแบบ
+หากคุณเคยทำงานกับ Microsoft Word Automation คุณคงจะทราบดีอยู่แล้วว่าเครื่องมือหลักอย่างหนึ่งที่ใช้ตรวจสอบและปรับเปลี่ยนเนื้อหาเอกสารคืออ็อบเจ็กต์ `Range` Range เปรียบเสมือน "หน้าต่าง" ที่เข้าถึงเนื้อหาและการจัดรูปแบบของเอกสาร.
 
-Aspose.Words นอกจากนี้ยังมี [Range](https://reference.aspose.com/words/java/com.aspose.words/range/) ห้องเรียนออกแบบมาเพื่อดูและกระทําเช่นเดียวกันกับ **Range** ใน Microsoft Word. ถึงแม้ว่า **Range** ไม่สามารถครอบคลุมส่วนใด ๆ ของเอกสาร และไม่มี **Start** ถึง **End**, คุณสามารถเข้าถึงช่วงที่ครอบคลุมด้วยโหนดใด ๆ ของเอกสาร รวมถึง [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) ตัวมัน พูด อีก นัย หนึ่ง ปม แต่ ละ อัน มี ขอบ เขต ของ มัน เอง. เดอะ **Range** ออบเจกต์อนุญาตให้คุณเข้าและแก้ไขข้อความ, คั่นหน้า และสร้างสาขาภายในช่วงได้
+Aspose.Wordsนอกจากนี้ยังมี[Range](https://reference.aspose.com/words/java/com.aspose.words/range/)ชั้นและมันถูกออกแบบมาให้ดูและทำหน้าที่คล้ายกับ**Range**ในMicrosoft Word แม้ว่า**Range**จะไม่สามารถครอบคลุมส่วนใดส่วนหนึ่งของเอกสารได้โดยพลการและไม่มี**Start**และ**End**แต่คุณสามารถเข้าถึงช่วงที่ครอบคลุมโดยโหนดเอกสารใดๆรวมถึง[Document](https://reference.aspose.com/words/java/com.aspose.words/document/)ตัวเองได้ ในคำอื่นๆแต่ละโหนดมีช่วงของตัวเอง วัตถุ**Range**ช่วยให้คุณสามารถเข้าถึงและปรับเปลี่ยนข้อความที่คั่นหน้าและเขตข้อมูลแบบฟอร์มภ.
 
-## กําลังรับข้อความธรรมดา
+## กำลังดึงข้อความธรรมดา
 
-ใช้ [Text](https://reference.aspose.com/words/java/com.aspose.words/range/#getText) คุณสมบัติที่จะดึงข้อมูลข้อความธรรมดาที่ยังไม่ได้แปลงมา
+ใช้คุณสมบัติ[Text](https://reference.aspose.com/words/java/com.aspose.words/range/#getText)เพื่อดึงข้อความธรรมดาที่ยังไม่ได้ฟอร์แมตของช่วง.
 
-ตัวอย่างรหัสต่อไปนี้ จะแสดงวิธีหาข้อความธรรมดาที่ยังไม่ได้แปลงเป็นช่วง:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการรับข้อความธรรมดาที่ยังไม่ได้จัดรูปแบบของช่วง:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Ranges-RangesGetText-RangesGetText.java" >}}
 
 {{% alert color="primary" %}}
 
-คุณสามารถดาวน์โหลดแฟ้มตัวอย่างของตัวอย่างนี้ได้ [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
+คุณสามารถดาวน์โหลดไฟล์ตัวอย่างของตัวอย่างนี้ได้จาก [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
 
 {{% /alert %}}
 
 ## ลบข้อความ
 
-เดอะ `Range` คลาสอนุญาตให้ทําการลบอักขระทั้งหมดของช่วงที่เรียก [delete](https://reference.aspose.com/words/java/com.aspose.words/range/#delete).
+คลาส`Range`อนุญาตให้ลบอักขระทั้งหมดของช่วงโดยเรียก[delete](https://reference.aspose.com/words/java/com.aspose.words/range/#delete).
 
-ตัวอย่างรหัสต่อไปนี้ จะแสดงวิธีการลบอักขระทั้งหมดของช่วง:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการลบอักขระทั้งหมดของช่วง:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Ranges-RangesDeleteText-RangesDeleteText.java" >}}
 
 {{% alert color="primary" %}}
 
-คุณสามารถดาวน์โหลดแฟ้มตัวอย่างของตัวอย่างนี้ได้ [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
+คุณสามารถดาวน์โหลดไฟล์ตัวอย่างของตัวอย่างนี้ได้จาก [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
 
 {{% /alert %}}
 
-## 
+

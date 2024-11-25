@@ -1,72 +1,72 @@
----
-title: بناء الوثائق لمحة عامة Java
-second_title: Aspose.Words for Java
-articleTitle: استعراض عام لبناء الوثائق
-linktitle: استعراض عام لبناء الوثائق
+﻿---
+title: نظرة عامة على منشئ المستندات في Java
+second_title: Aspose.Words ل Java
+articleTitle: نظرة عامة على منشئ المستندات
+linktitle: نظرة عامة على منشئ المستندات
 type: docs
-description: "وتسمح الوثيقة لكم ببناء وثائق دينامية من الصفر أو إضافة عناصر جديدة إلى العناصر القائمة. تُوفِّر الوثيقة طرائق لإدراج النص، وصناديق التفتيش، والجداول، والصور، وعناصر المحتوى الأخرى في النص Java."
+description: "DocumentBuilder يسمح لك بإنشاء مستندات ديناميكية من البداية أو إضافة عناصر جديدة إلى العناصر الموجودة. DocumentBuilder يوفر طرق لإدراج النص ،checkbox وفاق، والجداول، والصور، وعناصر المحتوى الأخرى في Java."
 weight: 30
 url: /ar/java/document-builder-overview/
 timestamp: 2024-01-27-14-07-04
 ---
 
-[DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) هو الطبقة القوية التي ترتبط مع [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) ويمكّنك من بناء وثائق دينامية من الصفر أو إضافة عناصر جديدة إلى واحدة قائمة.
+[DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) هي فئة قوية ترتبط بـ [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) وتمكنك من إنشاء مستندات ديناميكية من البداية أو إضافة عناصر جديدة إلى عنصر موجود.
 
-**DocumentBuilder** (ب) توفر أساليب لإدراج النص، وصناديق التفتيش، والأشياء الأولية، والفقرات، والقوائم، والجداول، والصور، وعناصر المحتوى الأخرى. إنه يسمح لك بتحديد صور أو فقرات أو شكل أجزاء، والقيام بعمليات أخرى.
+**DocumentBuilder**
 
-## بناء الوثائق أو Aspose.Words DOM
+## منشئ المستندات أو Aspose.Words DOM
 
-**DocumentBuilder** تكمل الفصول والأساليب المتاحة في Aspose.Words Document Object Model )أ(DOM() تبسيط مهام بناء الوثائق الأكثر شيوعا. هذا هو، يمكنك خلق وتعديل محتوى الوثائق من خلال Aspose.Words DOMالذي يتطلب فهماً جيداً لهيكل الأشجار، وإستعمال "الوثيقة" The `DocumentBuilder` هو "مسلسل" للمجمع **Document** الهيكل الذي يُمكِنُك أَنْ تُدخلَ بسرعة وسهولة المحتوىَ والشكلَ.
+**DocumentBuilder**
 
-العمليات التي يمكن الاضطلاع بها **DocumentBuilder** ويمكن أيضاً استخدام فصول Aspose.Words DOM مباشرة غير أنه باستخدام Aspose.Words DOM عادة ما تتطلب الطبقات أكثر من مجرد استخدام **DocumentBuilder**.
+العمليات الممكنة مع **DocumentBuilder** ممكنة أيضا عند استخدام فئات Aspose.Words DOM مباشرة. ومع ذلك، باستخدام Aspose.Words DOM عادة ما تتطلب الفئات مباشرة أسطر من التعليمات البرمجية أكثر من استخدام **DocumentBuilder**.
 
-## الوثيقة الملاحة
+## التنقل في المستندات
 
-تستند الملاحة المستندية إلى مفهوم الشعار الافتراضي، الذي يمكن أن تنتقل معه إلى موقع آخر في الوثيقة باستخدام مختلف **DocumentBuilder.MoveToXXX** أساليب من قبيل [MoveToDocumentStart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToDocumentStart) و [MoveToField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToField-com.aspose.words.Field-boolean). ويشير هذا الشعار الافتراضي إلى المكان الذي سيدرج فيه النص عند تسمية الأساليب [Write](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#write-java.lang.String), [Writeln](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#writeln), [InsertBreak](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertBreak-int), والآخرون انظر المقالة التالية "التطهير مع كورسور" لتعلم المزيد عن الضمادات الافتراضية
+يعتمد التنقل في المستند على مفهوم المؤشر الظاهري، والذي يمكنك من خلاله الانتقال إلى موقع آخر في المستند باستخدام طرق **DocumentBuilder.MoveToXXX** مختلفة مثل [MoveToDocumentStart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToDocumentStart) و [MoveToField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToField-com.aspose.words.Field-boolean). يشير هذا المؤشر الظاهري إلى مكان إدراج النص عند استدعاء الطرق [Write](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#write-java.lang.String), [Writeln](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#writeln), [InsertBreak](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertBreak-int), وغيرها. راجع المقالة التالية" التنقل باستخدام المؤشر " لمعرفة المزيد حول المؤشر الظاهري.
 
-ويوضح المثال الرمزي التالي كيف ينتقل إلى علامة كتاب:
+يوضح مثال الكود التالي كيفية الانتقال إلى إشارة مرجعية:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToBookmarkEnd-DocumentBuilderMoveToBookmarkEnd.java" >}}
 
-## بناء الوثائق وتحديثها
+## بناء الوثائق وتعديلها
 
-Aspose.Words API يوفر عدة فصول مسؤولة عن تشكيل مختلف عناصر الوثيقة. ويلخص كل فصل من هذه الفصول خصائص شكلية تتصل بعنصر وثائقي محدد، مثل النص، الفقرة، الفرع، وغيرها. على سبيل المثال، [Font](https://reference.aspose.com/words/java/com.aspose.words/font/) الصنف يمثّل خصائص شكل الشخصية [ParagraphFormat](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/) ويمثّل الفصل في شكل فقرات خصائص، وما إلى ذلك. تُعاد أهداف هذه الصفوف حسب المقابل **DocumentBuilder** الخواص، التي لها نفس الأسماء مثل الفصول. لذلك، يمكنك الوصول إليها ووضع الشكل المرغوب فيه أثناء إعداد الوثيقة.
+Aspose.Words API يوفر العديد من الفئات المسؤولة عن تنسيق العناصر المختلفة للمستند. تقوم كل فئة بتغليف خصائص التنسيق المتعلقة بعنصر مستند معين، مثل النص والفقرة والقسم وغيرها. على سبيل المثال، تمثل فئة [Font](https://reference.aspose.com/words/java/com.aspose.words/font/) خصائص تنسيق الأحرف، وتمثل فئة [ParagraphFormat](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/) خصائص تنسيق الفقرة، وهكذا. يتم إرجاع كائنات هذه الفئات بواسطة خصائص **DocumentBuilder** المقابلة، والتي لها نفس أسماء الفئات. لذلك، يمكنك الوصول إليها وتعيين التنسيق المطلوب أثناء إنشاء المستند.
 
-يمكنك أيضاً أن تُدرج النص، صندوق الشيكات، الجسم الأوّل، الصور، العلامات الكتابية، الحقول، والعناصر الوثائقية الأخرى في موقع الشعار باستخدام `Write` طريقة أو أي من **DocumentBuilder.InsertXXX** الأساليب، مثل [InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean), [InsertHtml](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertHtml-java.lang.String), وطرق مماثلة
+يمكنك أيضا إدراج نص، checkbox، كائن أولي، صور، إشارات مرجعية، حقول نموذج، وعناصر مستند أخرى في موضع المؤشر باستخدام طريقة `Write` أو أي من طرق **DocumentBuilder.InsertXXX**، مثل [InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean)، [InsertHtml](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertHtml-java.lang.String)، وطرق مماثلة.
 
-دعونا نرى كيف نصنع وثيقة بسيطة باستخدام **DocumentBuilder**.
+دعونا نرى كيفية إنشاء مستند بسيط باستخدام **DocumentBuilder**.
 
-### وضع وثيقة باستخدام الوثيقة
+### إنشاء مستند باستخدام DocumentBuilder
 
-للبدء، تحتاج لخلق **DocumentBuilder** وربطه مع **Document** هدف تخلقين حالة جديدة **DocumentBuilder** عن طريق الاتصال بتشييده وإرساله إلى **Document** شيء لإرتباطه بالبني
+للبدء، تحتاج إلى إنشاء **DocumentBuilder** وربطه بكائن **Document**. يمكنك إنشاء مثيل جديد من **DocumentBuilder** عن طريق استدعاء المنشئ الخاص به وتمريره إلى كائن **Document** للتعلق بالباني.
 
-إدخال نص، تمرر سلسلة النصوص التي تحتاج إلى إدراجها في الوثيقة **Write** طريقة
+لإدراج نص، مرر سلسلة النص التي تحتاج إلى إدراجها في المستند إلى طريقة **Write**.
 
-ويبين المثال الرمزي التالي كيفية وضع وثيقة بسيطة باستخدام مبني الوثائق.
+يوضح مثال الكود التالي كيفية إنشاء مستند بسيط باستخدام أداة إنشاء المستندات.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-quickstart-HelloWorld-CreateNewDocument.java" >}}
 
-### نشر الوثيقة
+### حدد تنسيق المستند
 
-The [Font](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getFont) وتُعرّف الممتلكات شكل النصوص. ويحتوي هذا الجسم على خصائص مختلفة (الاسم العنيف، وحجم الفونت، واللون، وما إلى ذلك). Some important font attributes are also represented by **DocumentBuilder** العقارات للسماح لك بالدخول مباشرة هذه هي [Font.Bold](https://reference.aspose.com/words/java/com.aspose.words/font/#getBold), [Font.Italic](https://reference.aspose.com/words/java/com.aspose.words/font/#getItalic), و [Font.Underline](https://reference.aspose.com/words/java/com.aspose.words/font/#getUnderline) ممتلكات بوليان
+تحدد الخاصية [Font](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getFont) تنسيق النص. يحتوي هذا الكائن على سمات خط مختلفة (اسم الخط وحجم الخط واللون وما إلى ذلك). يتم تمثيل بعض سمات الخط المهمة أيضا بخصائص **DocumentBuilder** للسماح لك بالوصول إليها مباشرة. هذه هي الخصائص المنطقية [Font.Bold](https://reference.aspose.com/words/java/com.aspose.words/font/#getBold) و [Font.Italic](https://reference.aspose.com/words/java/com.aspose.words/font/#getItalic) و [Font.Underline](https://reference.aspose.com/words/java/com.aspose.words/font/#getUnderline).
 
-ويبيّن المثال الرمزي التالي كيفية إدخال نص شكلي باستخدام **DocumentBuilder**:
+يوضح مثال الكود التالي كيفية إدراج نص منسق باستخدام **DocumentBuilder**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-DocumentBuilderInsertParagraph.java" >}}
 
 {{% alert color="primary" %}}
 
-- [Font](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getFont) ويحدد الشكل الذي سيطبق على جميع النصوص الواردة من الموقع الحالي في الوثيقة فصاعدا.
-- [ParagraphFormat](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/) ويحدد صيغة الفقرة للصيغة الحالية وجميع الفقرات التي ستدرج.
-- [PageSetup](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/) يحدد الصفحات وخصائص الأقسام للقسم الحالي والجزء بأكمله الذي سيدرج.
-- [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCellFormat) و [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getRowFormat) (ب) تحديد خصائص الشكل التي ستطبق على خلايا الجداول والعدود من الموقع الحالي في الوثيقة فصاعداً.
+- [Font](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getFont) يحدد تنسيق الحرف الذي سيتم تطبيقه على كل النص المدرج من الموضع الحالي في المستند فصاعدا.
+- [ParagraphFormat](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/) يحدد تنسيق الفقرة الحالية وجميع الفقرات المراد إدراجها.
+- [PageSetup](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/) يحدد خصائص الصفحة والقسم للقسم الحالي والقسم بأكمله الذي سيتم إدراجه.
+- [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCellFormat) و [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getRowFormat) حدد خصائص التنسيق التي سيتم تطبيقها على خلايا الجدول والصفوف من الموضع الحالي في المستند فصاعدا.
 
-في هذه الحالة، "مباشرة" يعني الموقع، الفقرة، القسم، الخلية، أو الصف الذي يكون فيه الشعار.
+في هذه الحالة، تعني كلمة "تيار" الموضع أو الفقرة أو القسم أو الخلية أو الصف الذي يوجد فيه المؤشر.
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-ملاحظة: **Font**, **ParagraphFormat**, و **PageSetup** تُحدّثُ الممتلكاتُ متى تَتّصلُ إلى a موقع مختلف في الوثيقةِ لتَعْبرُ خواصَ الشكلِ هذا الموقعِ.
+لاحظ أنه يتم تحديث الخصائص **Font** و **ParagraphFormat** و **PageSetup** كلما انتقلت إلى موقع مختلف في المستند لتعكس خصائص التنسيق لهذا الموقع.
 
 {{% /alert %}}

@@ -1,74 +1,74 @@
----
+﻿---
 title: Arbeiten mit Lesezeichen in Java
 second_title: Aspose.Words für Java
 articleTitle: Arbeiten mit Lesezeichen
 linktitle: Arbeiten mit Lesezeichen
-description: "Verständnis von Bookmark-Konzepten und wie Lesezeichen in Ihrem Programm verwendet werden können Java."
+description: "Lesezeichenkonzepte verstehen und wie Lesezeichen in Ihrem Programm mit Java verwendet werden können."
 type: docs
 weight: 180
 url: /de/java/working-with-bookmarks/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Lesezeichen in einem Microsoft Word dokumentieren Sie die Orte oder Fragmente, die Sie für zukünftige Referenzen benennen und identifizieren. Zum Beispiel können Sie ein Lesezeichen verwenden, um Text zu identifizieren, den Sie später ändern möchten. Anstatt durch das Dokument zu scrollen, um den Text zu finden, können Sie es mit dem Bookmark Dialogfeld.
+Lesezeichen identifizieren in einem Microsoft Word-Dokument die Orte oder Fragmente, die Sie benennen und für zukünftige Referenzzwecke identifizieren. Sie können beispielsweise ein Lesezeichen verwenden, um Text zu identifizieren, den Sie später überarbeiten möchten. Anstatt durch das Dokument zu scrollen, um den Text zu finden, können Sie ihn über das Dialogfeld Lesezeichen aufrufen.
 
-Mit Aspose.Words, Sie können Lesezeichen in Berichten oder Dokumenten verwenden, um einige Daten in das Lesezeichen einzufügen oder spezielle Formatierung auf seinen Inhalt anzuwenden. Sie können auch Lesezeichen verwenden, um Text von einem bestimmten Ort in Ihrem Dokument abzurufen.
+Mit Aspose.Words können Sie Lesezeichen in Berichten oder Dokumenten verwenden, um einige Daten in das Lesezeichen einzufügen oder dessen Inhalt speziell zu formatieren. Sie können auch Lesezeichen verwenden, um Text von einer bestimmten Stelle in Ihrem Dokument abzurufen.
 
-Die Aktionen, die mit Lesezeichen durchführbar sind Aspose.Words sind die gleichen wie die, die Sie mit Microsoft Word. Sie können ein neues Lesezeichen einfügen, löschen, zu einem Lesezeichen bewegen, einen Lesezeichennamen erhalten oder eingeben, Text darin einfügen.
+Die Aktionen, die mit Lesezeichen mit Aspose.Words ausgeführt werden können, sind die gleichen wie die, die Sie mit Microsoft Word ausführen können. Sie können ein neues Lesezeichen einfügen, löschen, zu einem Lesezeichen verschieben, einen Lesezeichennamen abrufen oder festlegen, darin eingeschlossenen Text abrufen oder festlegen.
 
-## Ein Bookmark einfügen
+## Lesezeichen einfügen
 
-Verwendung [startBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startBookmark-java.lang.String) und [endBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endBookmark-java.lang.String) ein Lesezeichen zu erstellen, indem es seinen Anfang bzw. Ende markiert. Vergessen Sie nicht, den gleichen Lesezeichennamen an beide Methoden zu übergeben. Lesezeichen in einem Dokument können sich überschneiden und alle Bereiche überspannen. Schlecht geformte Lesezeichen oder Lesezeichen mit doppelten Namen werden ignoriert, wenn das Dokument gespeichert wird.
+Verwenden Sie [startBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startBookmark-java.lang.String) und [endBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endBookmark-java.lang.String), um ein Lesezeichen zu erstellen, indem Sie dessen Anfang bzw. Ende markieren. Vergessen Sie nicht, beiden Methoden denselben Lesezeichennamen zu übergeben. Lesezeichen in einem Dokument können sich überlappen und einen beliebigen Bereich umfassen. Schlecht geformte Lesezeichen oder Lesezeichen mit doppelten Namen werden beim Speichern des Dokuments ignoriert.
 
 {{% alert color="primary" %}}
 
-Alle weißen Räume in den Lesezeichen wurden durch Unterstriche ersetzt. Diese Einschränkung kam aus MS Word-Formaten, da Bookmarks in MS Word-Formate, wie DOCX oder DOC, keine weißen Leerzeichen haben können. PDF erlaubt jedoch solche Lesezeichen. Also, wenn Sie Bookmarks in PDF verwenden müssen, XPS oder SWF Umrisse, können Sie sie mit weißen Räumen verwenden.
+Alle Leerzeichen in den Lesezeichen wurden durch Unterstriche ersetzt. Diese Einschränkung ergab sich aus MS -Wortformaten, da Lesezeichen in MS -Wortformaten wie DOCX oder DOC keine Leerzeichen enthalten dürfen. PDF erlaubt jedoch solche Lesezeichen. Wenn Sie also Lesezeichen in PDF-, XPS - oder SWF -Konturen verwenden müssen, können Sie sie mit Leerzeichen verwenden.
 
 {{% /alert %}}
 
-Das folgende Codebeispiel zeigt, wie man ein neues Bookmark erstellt:
+Das folgende Codebeispiel zeigt, wie Sie ein neues Lesezeichen erstellen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-bookmarks-CreateBookmark-CreateBookmark.java" >}}
 
 ## Lesezeichen erhalten
 
-Manchmal ist es notwendig, eine Lesezeichensammlung durch Lesezeichen oder für andere Zwecke zu erhalten. Verwenden Sie die **Node.getRange** eine Eigenschaft, die von einem beliebigen Dokument-Knoten belichtet wird, **Range** ein Objekt, das den in diesem Knoten enthaltenen Teil des Dokuments darstellt. Verwenden Sie dieses Objekt, um ein **BookmarkCollection** und dann verwenden Sie den Sammlungsindexer, um ein bestimmtes Lesezeichen zu erhalten.
+Manchmal ist es notwendig, eine Lesezeichensammlung zu erhalten, um Lesezeichen zu durchlaufen oder für andere Zwecke. Verwenden Sie die Eigenschaft **Node.getRange**, die von einem beliebigen Dokumentknoten bereitgestellt wird, der ein **Range**-Objekt zurückgibt, das den in diesem Knoten enthaltenen Teil des Dokuments darstellt. Verwenden Sie dieses Objekt, um eine **BookmarkCollection** abzurufen, und verwenden Sie dann den Sammlungsindexer, um ein bestimmtes Lesezeichen abzurufen.
 
 {{% alert color="primary" %}}
 
-Sie können die Beispieldatei der folgenden Beispiele herunterladen [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Bookmarks.docx).
+Sie können die Beispieldatei der folgenden Beispiele herunterladen von [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Bookmarks.docx).
 
 {{% /alert %}}
 
-Das folgende Codebeispiel zeigt, wie man Lesezeichen aus einer Lesezeichensammlung erhält:
+Das folgende Codebeispiel zeigt, wie Lesezeichen aus einer Lesezeichensammlung abgerufen werden:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-bookmarks-AccessBookmarks-AccessBookmarks.java" >}}
 
-Das folgende Codebeispiel zeigt, wie man einen Bookmark-Namen und Text erhält oder eingibt:
+Das folgende Codebeispiel zeigt, wie Sie einen Lesezeichennamen und -text abrufen oder festlegen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-bookmarks-BookmarkNameAndText-BookmarkNameAndText.java" >}}
 
-Das folgende Codebeispiel zeigt, wie man eine Tabelle markiert:
+Das folgende Codebeispiel zeigt, wie Sie eine Tabelle mit einem Lesezeichen versehen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-bookmarks-BookmarkTable-BookmarkTable.java" >}}
 
-Wenn Sie den Namen eines Lesezeichens auf einen Namen ändern, der bereits im Dokument existiert, wird kein Fehler generiert und nur das erste Lesezeichen wird gespeichert, wenn Sie das Dokument speichern.
+Wenn Sie den Namen eines Lesezeichens in einen Namen ändern, der bereits im Dokument vorhanden ist, wird beim Speichern des Dokuments kein Fehler generiert und nur das erste Lesezeichen gespeichert.
 
-Beachten Sie, dass einige Lesezeichen im Dokument den Formularfeldern zugeordnet sind. Mit einem solchen Lesezeichen und dem Einfügen von Text wird der Text in den Formularfeldcode eingefügt. Obwohl dies das Formularfeld nicht invalidiert, wird der eingefügte Text nicht sichtbar, weil er Teil des Feldcodes wird.
+Beachten Sie, dass einige Lesezeichen im Dokument Formularfeldern zugewiesen sind. Wenn Sie zu einem solchen Lesezeichen wechseln und dort Text einfügen, wird der Text in den Formularfeldcode eingefügt. Obwohl dies das Formularfeld nicht ungültig macht, ist der eingefügte Text nicht sichtbar, da er Teil des Feldcodes wird.
 
-Das folgende Codebeispiel zeigt, wie man auf Spalten der Lesetabelle zugreift:
+Das folgende Codebeispiel zeigt, wie auf Spalten der mit Lesezeichen versehenen Tabelle zugegriffen wird:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-bookmarks-BookmarkTable-BookmarkTableColumns.java" >}}
 
-## Umzug in ein Lesezeichen
+## Zu einem Lesezeichen verschieben
 
-Wenn Sie reiche Inhalte (nicht nur Klartext) in ein Lesezeichen einfügen müssen, sollten Sie [moveToBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToBookmark-java.lang.String) den Cursor zum Lesezeichen zu bewegen und dann zu verwenden **DocumentBuilder** Methoden und Eigenschaften zum Einfügen von Inhalten.
+Wenn Sie umfangreichen Inhalt (nicht nur einfachen Text) in ein Lesezeichen einfügen müssen, sollten Sie den Cursor mit [moveToBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToBookmark-java.lang.String) auf das Lesezeichen bewegen und dann mit **DocumentBuilder** Methoden und Eigenschaften Inhalte einfügen.
 
-## Bookmark Inhalt anzeigen
+## Lesezeichen-Inhalt anzeigen ausblenden
 
-Das gesamte Lesezeichen (* einschließlich der Leseinhalte*) kann innerhalb des Wahren Teils des `IF` Feld mit Aspose.Words. Es kann so sein, dass `IF` Feld enthält ein geschachteltes Merge Field im Ausdruck (*Link des Operators*) und je nach Wert des Merge Field, `IF` Feld zeigt oder versteckt den Inhalt von Bookmark in Word Document.
+Das gesamte Lesezeichen (*including the bookmarked content*) kann mit Aspose.Words in den wahren Teil des Felds `IF` gekapselt werden. Es kann so sein, dass das Feld `IF` ein verschachteltes Seriendruckfeld im Ausdruck (*Left of Operator*) enthält und abhängig vom Wert des Seriendruckfelds das Feld `IF` den Inhalt des Lesezeichens im Word-Dokument ein- oder ausblendet.
 
-Das folgende Codebeispiel zeigt, wie man Bookmarks anzeigen/ verstecken kann.
+Das folgende Codebeispiel zeigt, wie Lesezeichen ein- / ausgeblendet werden.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-bookmarks-ShowHideBookmarks-ShowHideBookmarks_call.java" >}}
 

@@ -1,38 +1,38 @@
----
-title: วิธี เพิ่ม Group แปลงเป็นเอกสารคํา
-second_title: Aspose.Words สําหรับ Java
-articleTitle: ทํางานกับ Group รูปทรงในเอกสารคํา
-linktitle: ทํางานกับ Group รูปทรงในเอกสารคํา
-description: "Groupการแยกและเลิกจัดกลุ่มโดยใช้ Java."
+﻿---
+title: วิธีการเพิ่มGroup Shapeลงในเอกสารคำ
+second_title: Aspose.WordsสำหรับJava
+articleTitle: การทำงานกับGroup Shapesในเอกสารคำ
+linktitle: การทำงานกับGroup Shapesในเอกสารคำ
+description: "การจัดกลุ่มและยกเลิกการจัดกลุ่มรูปร่างโดยใช้Java."
 type: docs
 weight: 290
 url: /th/java/how-to-add-group-shape-into-a-word-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
-บางครั้งคุณต้องเพิ่ม group shape ลงในเอกสารคํา ช่าง... group shape ประกอบไปด้วยหลายรูปร่าง
+บางครั้งคุณต้องเพิ่มgroup shapeลงในเอกสารคำ เช่นgroup shapeประกอบด้วยหลายรูปร่าง
 
-ใน Microsoft Word, คุณสามารถเพิ่ม group shape ใช้ Group คําสั่ง/ กระดุม รูป ทรง แต่ ละ อย่าง ใน กลุ่ม อาจ ย้าย ได้.
+ในMicrosoft Wordคุณสามารถเพิ่มgroup shapeได้อย่างรวดเร็วโดยใช้ปุ่มคำสั่ง/กลุ่ม รูปร่างของแต่ละบุคคลในกลุ่มสามารถเคลื่อนย้ายแยกต่างหาก.
 
-ใน Aspose.Words มันง่ายมากที่จะบวก group shape ใช้ [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) ชั้นเรียน. **Shape** ถูกสร้างขึ้นแยกโดยใช้ [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) แล้วเพิ่มเข้าไป [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) วัตถุที่ใช้ [AppendChild](https://reference.aspose.com/words/java/com.aspose.words/groupshape/#appendChild-com.aspose.words.Node) วิธี
+ในAspose.Wordsมันเป็นเรื่องง่ายมากที่จะเพิ่มgroup shapeโดยใช้[GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/)ชั้น. **Shape**ถูกสร้างขึ้นแยกต่างหากโดยใช้ชั้นเรียน[Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/)แล้วเพิ่มใน[GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/)วัตถุโดยใช้วิธีการ[AppendChild](https://reference.aspose.com/words/java/com.aspose.words/groupshape/#appendChild-com.aspose.words.Node).
 
-ข้างล่างคือบางส่วน `Shape` ชนิดที่รองรับ Aspose.Words. สําหรับรายการที่สมบูรณ์ โปรดเยี่ยมชม [ShapeType](https://reference.aspose.com/words/java/com.aspose.words/shapetype/)
+ด้านล่างนี้คือ`Shape`ชนิดที่รองรับในAspose.Words สำหรับรายการที่สมบูรณ์กรุณาเยี่ยมชม[ShapeType](https://reference.aspose.com/words/java/com.aspose.words/shapetype/):
 
-- สี่เหลี่ยม
-- สี่เหลี่ยมกลม
-- สี่เหลี่ยมกลม
+- สี่เหลี่ยมผืนผ้า
+- RoundRectangle
+- RoundRectangle
 - วงรี
 - เพชร
--สามเหลี่ยม
-- สี่เหลี่ยมด้านขวา
-- แนวนอน
-- แทร็คเซอยด์
--เฮกกอน
-- หมึก
+- สามเหลี่ยม
+- RightTriangle
+- สี่เหลี่ยมด้านขนาน
+- สี่เหลี่ยมคางหมู
+- หกเหลี่ยม
+- แปดเหลี่ยม
 
-**Example**
+**งคุณ**
 
-*โฆษณา* group shape ลงในเอกสารคํา *
+*Add a group shape into a Word document.*
 
 
 {{< highlight csharp >}}

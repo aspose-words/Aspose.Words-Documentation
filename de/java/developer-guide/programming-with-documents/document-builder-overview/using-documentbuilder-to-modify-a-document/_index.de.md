@@ -1,219 +1,219 @@
----
-title: Verwendung `DocumentBuilder` um ein Dokument zu ändern
+﻿---
+title: `DocumentBuilder` zum Ändern eines Dokuments verwenden
 second_title: Aspose.Words für Java
-articleTitle: Verwendung `DocumentBuilder` um ein Dokument zu ändern
-linktitle: Verwendung `DocumentBuilder` um ein Dokument zu ändern
+articleTitle: `DocumentBuilder` zum Ändern eines Dokuments verwenden
+linktitle: `DocumentBuilder` zum Ändern eines Dokuments verwenden
 type: docs
-description: "Verwenden Sie den Dokumentenbauer, um ein Dokument einfach in Java."
+description: "Verwenden Sie den Dokumentgenerator, um ein Dokument einfach in Java zu ändern."
 weight: 20
 url: /de/java/using-documentbuilder-to-modify-a-document/
 timestamp: 2024-10-21-11-17-44
 ---
 
-## Angabe der Formatierung
+## Formatierung festlegen
 
 ### Schriftformatierung
 
-Aktuelle Schriftformatierung wird durch eine `Font` zurückgegebenes Objekt `DocumentBuilder.Font` Eigentum. Die `Font` Klasse enthält eine Vielzahl von Schrifteigenschaften möglich in Microsoft Word.
+Die aktuelle Schriftformatierung wird durch ein `Font`-Objekt dargestellt, das von der Eigenschaft `DocumentBuilder.Font` zurückgegeben wird. Die `Font` -Klasse enthält eine Vielzahl von Schrifteigenschaften, die in Microsoft Word möglich sind.
 
 | ![font-formatting-aspose-words-java](/words/java/using-documentbuilder-to-modify-a-document/documentbuilder-to-modify-document-1.png) |
-|  :-  |
-Das folgende Codebeispiel zeigt, wie die Schriftformatierung eingestellt werden soll.
+| :- |
+Das folgende Codebeispiel zeigt, wie die Schriftformatierung festgelegt wird.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderSetFontFormatting-DocumentBuilderSetFontFormatting.java" >}}
 
 
 ### Zellformatierung
 
-Die Zellformatierung wird beim Aufbau einer Tabelle verwendet. Es wird durch eine `CellFormat` zurückgegebenes Objekt `DocumentBuilder.CellFormat` Eigentum. CellFormat kapselt verschiedene Tabellenzelleneigenschaften wie Breite oder vertikale Ausrichtung.
+Die Zellenformatierung wird beim Erstellen einer Tabelle verwendet. Es wird durch ein `CellFormat` -Objekt dargestellt, das von der Eigenschaft `DocumentBuilder.CellFormat` zurückgegeben wird. CellFormat kapselt verschiedene Tabellenzelleneigenschaften wie Breite oder vertikale Ausrichtung ein.
 
 | ![cell-formatting-aspose-words-java](/words/java/using-documentbuilder-to-modify-a-document/documentbuilder-to-modify-document-2.png) |
-|  :-  |
-Das folgende Codebeispiel zeigt, wie man eine Tabelle erstellt, die eine einzelne formatierte Zelle enthält.
+| :- |
+Das folgende Codebeispiel zeigt, wie Sie eine Tabelle erstellen, die eine einzelne formatierte Zelle enthält.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderSetTableCellFormatting-DocumentBuilderSetTableCellFormatting.java" >}}
 
-### Row Formatierung
+### Zeilenformatierung
 
-Die aktuelle Zeilenformatierung wird durch eine `RowFormat` Objekt, das von der `DocumentBuilder.RowFormat` Eigentum. Das Objekt kapselt Informationen über alle Tabellenzeilenformatierungen.
+Die aktuelle Zeilenformatierung wird durch ein `RowFormat`-Objekt bestimmt, das von der Eigenschaft `DocumentBuilder.RowFormat` zurückgegeben wird. Das Objekt kapselt Informationen zu allen Tabellenzeilenformatierungen ein.
 
 | ![row-formatting-aspose-words-java](/words/java/using-documentbuilder-to-modify-a-document/documentbuilder-to-modify-document-3.png) |
-|  :-  |
-Dielow code Ein Beispiel zeigt, wie man eine Tabelle erstellt, die eine einzelne Zelle enthält und Zeilenformatierung anwendet.
+| :- |
+Das Beispiel below code zeigt, wie Sie eine Tabelle erstellen, die eine einzelne Zelle enthält, und Zeilenformatierungen anwenden.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderSetTableRowFormatting-DocumentBuilderSetTableRowFormatting.java" >}}
 
-### Liste Formatierung
+### Listenformatierung
 
-Aspose.Words ermöglicht die einfache Erstellung von Listen durch Anwendung von Listenformatierung. DocumentBuilder bietet `DocumentBuilder.ListFormat` Eigentum, das eine `ListFormat` Objekt. Dieses Objekt hat mehrere Methoden, um eine Liste zu starten und zu beenden und den Gedankenstrich zu erhöhen/ zu verkleinern.
+Aspose.Words ermöglicht die einfache Erstellung von Listen durch Anwenden von Listenformatierungen. DocumentBuilder stellt die `DocumentBuilder.ListFormat`-Eigenschaft bereit, die ein `ListFormat`-Objekt zurückgibt. Dieses Objekt verfügt über mehrere Methoden, um eine Liste zu beginnen und zu beenden und den Einzug zu vergrößern / verkleinern.
 
 | ![list-fformatting-aspose-words-java](/words/java/using-documentbuilder-to-modify-a-document/documentbuilder-to-modify-document-4.png) |
-|  :-  |
-Es gibt zwei allgemeine Arten von Listen in Microsoft Word: geschossen und nummeriert.
+| :- |
+Es gibt zwei allgemeine Arten von Listen in Microsoft Word: Aufzählungszeichen und nummerierte Listen.
 
-- Um eine Liste zu starten, rufen Sie an [ListFormat.applyBulletDefault](https://reference.aspose.com/words/java/com.aspose.words/listformat/#applyBulletDefault).
-- Um eine nummerierte Liste zu starten, rufen Sie an [ListFormat.applyNumberDefault](https://reference.aspose.com/words/java/com.aspose.words/listformat/#applyNumberDefault).
+- Um eine Aufzählung zu beginnen, rufen Sie [ListFormat.applyBulletDefault](https://reference.aspose.com/words/java/com.aspose.words/listformat/#applyBulletDefault) auf.
+- Um eine nummerierte Liste zu starten, rufen Sie [ListFormat.applyNumberDefault](https://reference.aspose.com/words/java/com.aspose.words/listformat/#applyNumberDefault) auf.
 
-Die Kugel oder Nummer und Formatierung werden dem aktuellen Absatz und allen weiteren Absätzen hinzugefügt, die mit **DocumentBuilder** bis [ListFormat.removeNumbers](https://reference.aspose.com/words/java/com.aspose.words/listformat/#removeNumbers) wird aufgerufen, um die geschossene Listenformatierung zu stoppen.
+Nummer und Formatierung werden dem aktuellen Absatz und allen weiteren mit **DocumentBuilder** erstellten Absätzen hinzugefügt, bis [ListFormat.removeNumbers](https://reference.aspose.com/words/java/com.aspose.words/listformat/#removeNumbers) aufgerufen wird, um die Formatierung von Aufzählungslisten zu stoppen.
 
-In Word-Dokumenten können Listen aus bis zu neun Ebenen bestehen. Listenformatierung für jede Ebene gibt an, welche Kugel oder Nummer verwendet wird, linker Einschnitt, Raum zwischen der Kugel und Text usw.
+In Word-Dokumenten können Listen aus bis zu neun Ebenen bestehen. Listenformatierung für jede Ebene gibt an, welche Aufzählungszeichen oder Zahlen verwendet werden, linker Einzug, Abstand zwischen Aufzählungszeichen und Text usw.
 
-- Ja. Um die Listenebene des aktuellen Absatzes um eine Ebene zu erhöhen, rufen Sie an [ListFormat.listIndent](https://reference.aspose.com/words/java/com.aspose.words/listformat/#listIndent).
-- Ja. Um die Listenebene des aktuellen Absatzes um eine Ebene zu verringern, rufen Sie an [ListFormat.listOutdent](https://reference.aspose.com/words/java/com.aspose.words/listformat/#listOutdent).
+- Um die Listenebene des aktuellen Absatzes um eine Ebene zu erhöhen, rufen Sie [ListFormat.listIndent](https://reference.aspose.com/words/java/com.aspose.words/listformat/#listIndent) auf.
+- Um die Listenebene des aktuellen Absatzes um eine Ebene zu verringern, rufen Sie [ListFormat.listOutdent](https://reference.aspose.com/words/java/com.aspose.words/listformat/#listOutdent) auf.
 
 Die Methoden ändern die Listenebene und wenden die Formatierungseigenschaften der neuen Ebene an.
 
 {{% alert color="primary" %}}
 
-Sie können auch die [ListFormat.listLevelNumber](https://reference.aspose.com/words/java/com.aspose.words/listformat/#setListLevelNumber-int) Eigentum, um die Liste Ebene für den Absatz zu erhalten oder einzustellen. Die Listenwerte sind mit 0 bis 8 bezeichnet.
+Sie können auch die Eigenschaft [ListFormat.listLevelNumber](https://reference.aspose.com/words/java/com.aspose.words/listformat/#setListLevelNumber-int) verwenden, um die Listenebene für den Absatz abzurufen oder festzulegen. Die Listenebenen sind von 0 bis 8 nummeriert.
 
 {{% /alert %}}
 
-Das folgende Codebeispiel zeigt, wie man eine Multilevel-Liste erstellt.
+Das folgende Codebeispiel zeigt, wie eine Liste mit mehreren Ebenen erstellt wird.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderSetMultilevelListFormatting-DocumentBuilderSetMultilevelListFormatting.java" >}}
 
-### Page Setup und Sektion Formatierung
+### Seiteneinrichtung und Abschnittsformatierung
 
-Seitenaufbau und Profileigenschaften werden in der `PageSetup` Objekt, das von der `DocumentBuilder.PageSetup` Eigentum. Das Objekt enthält alle Seiten-Setup-Attribute eines Abschnitts (linker Rand, unterer Rand, Papiergröße und so weiter) als Eigenschaften.
+Seiteneinrichtungs- und Abschnittseigenschaften sind im `PageSetup`-Objekt gekapselt, das von der `DocumentBuilder.PageSetup`-Eigenschaft zurückgegeben wird. Das Objekt enthält alle Seiteneinrichtungsattribute eines Abschnitts (linker Rand, unterer Rand, Papierformat usw.) als Eigenschaften.
 
 | ![section-formatting-aspose-words-java](/words/java/using-documentbuilder-to-modify-a-document/documentbuilder-to-modify-document-5.png) |
-|  :-  |
-Das folgende Codebeispiel zeigt, wie solche Eigenschaften wie Seitengröße und Orientierung für den aktuellen Abschnitt eingestellt werden.
+| :- |
+Das folgende Codebeispiel zeigt, wie Eigenschaften wie Seitengröße und Ausrichtung für den aktuellen Abschnitt festgelegt werden.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderSetPageSetupAndSectionFormatting-DocumentBuilderSetPageSetupAndSectionFormatting.java" >}}
 
-### Einen Stil anwenden
+### Anwenden eines Stils
 
-Einige Formatierungsobjekte wie Font oder ParagraphFormat unterstützen Stile. Ein einzelner, eingebauter oder benutzerdefinierter Stil wird durch eine `Style` Objekt, das die entsprechenden Stileigenschaften wie Name, Basisstil, Schriftart und Absatzformatierung des Stils enthält, und so weiter.
+Einige Formatierungsobjekte wie Schriftart oder ParagraphFormat unterstützen Stile. Ein einzelner integrierter oder benutzerdefinierter Stil wird durch ein `Style`-Objekt dargestellt, das die entsprechenden Stileigenschaften wie Name, Basisstil, Schriftart und Absatzformatierung des Stils usw. enthält.
 
-Ferner ist a **Style** Objekt liefert [Style.getStyleIdentifier](https://reference.aspose.com/words/java/com.aspose.words/style/#getStyleIdentifier) Eigenschaft, die eine lokal-unabhängige Stilkennung zurückgibt, die durch eine **Style.StyleIdentifier** Aufzählungswert. Der Punkt ist, dass die Namen der integrierten Stile in Microsoft Word werden für verschiedene Sprachen lokalisiert. Mit einer Stilkennung finden Sie unabhängig von der Dokumentsprache den richtigen Stil. Die Aufzählungswerte entsprechen der Microsoft Word Eingebaute Stile wie Normal, Heading 1, Heading 2 etc. Alle benutzerdefinierten Stile werden der **StyleIdentifier. Benutzerwert**.
+Darüber hinaus stellt ein **Style**-Objekt die [Style.getStyleIdentifier](https://reference.aspose.com/words/java/com.aspose.words/style/#getStyleIdentifier)-Eigenschaft bereit, die eine gebietsschemaunabhängige Stilkennung zurückgibt, die durch einen **Style.StyleIdentifier**-Aufzählungswert dargestellt wird. Der Punkt ist, dass die Namen der integrierten Stile in Microsoft Word für verschiedene Sprachen lokalisiert sind. Mithilfe einer Stilkennung können Sie unabhängig von der Dokumentsprache den richtigen Stil finden. Die Aufzählungswerte entsprechen den integrierten Microsoft Word -Stilen wie Normal, Heading 1, Heading 2 usw. Allen benutzerdefinierten Stilen wird die **StyleIdentifier.User value** zugewiesen.
 
 | ![apply-style-aspose-words-java](/words/java/using-documentbuilder-to-modify-a-document/documentbuilder-to-modify-document-6.png) |
-|  :-  |
-Das folgende Codebeispiel zeigt, wie man einen Absatzstil anwendet.
+| :- |
+Das folgende Codebeispiel zeigt, wie Sie ein Absatzformat anwenden.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-DocumentBuilderApplyParagraphStyle.java" >}}
 
-### Grenzen und Schattierung
+### Ränder und Schattierungen
 
-Die Grenzen sind durch die BorderCollection vertreten. Dies ist eine Sammlung von Border-Objekten, die durch Index oder per Grenzart zugegriffen werden. Der Bordtyp wird durch die `BorderType` Aufzählung. Einige Werte der Aufzählung gelten für mehrere oder nur ein Dokumentelement. Zum Beispiel `BorderType.Bottom` für einen Absatz oder eine Tabellenzelle gilt, während `BorderType.DiagonalDown` gibt nur die Diagonalgrenze in einer Tischzelle an.
+Grenzen werden durch BorderCollection dargestellt. Dies ist eine Sammlung von Rahmenobjekten, auf die nach Index oder Rahmentyp zugegriffen wird. Der Rahmentyp wird durch die `BorderType`-Aufzählung dargestellt. Einige Werte der Aufzählung sind auf mehrere oder nur ein Dokumentelement anwendbar. Beispielsweise gilt `BorderType.Bottom` für eine Absatz- oder Tabellenzelle, während `BorderType.DiagonalDown` nur den diagonalen Rand in einer Tabellenzelle angibt.
 
-Sowohl die Grenzkollektion als auch jede einzelne Grenze haben ähnliche Attribute wie Farbe, Linienstil, Linienbreite, Abstand vom Text und optionaler Schatten. Sie sind durch Eigenschaften des gleichen Namens dargestellt. Sie können verschiedene Grenztypen erreichen, indem Sie Eigenschaftswerte kombinieren. Zusätzlich, beide **BorderCollection** und **Border** Objekte erlauben es Ihnen, diese Werte standardmäßig durch Aufruf der [Border.clearFormatting](https://reference.aspose.com/words/java/com.aspose.words/border/#clearFormatting) Methode. Beachten Sie, dass bei Rücksetzen der Grenzeigenschaften auf Standardwerte die Grenze unsichtbar ist.
+Sowohl die Rahmensammlung als auch jeder einzelne Rahmen haben ähnliche Attribute wie Farbe, Linienstil, Linienbreite, Abstand zum Text und optionaler Schatten. Sie werden durch gleichnamige Eigenschaften dargestellt. Sie können verschiedene Rahmentypen erzielen, indem Sie Eigenschaftswerte kombinieren. Darüber hinaus können Sie mit **BorderCollection** - und **Border** -Objekten diese Werte durch Aufrufen der [Border.clearFormatting](https://reference.aspose.com/words/java/com.aspose.words/border/#clearFormatting)-Methode auf die Standardwerte zurücksetzen. Beachten Sie, dass der Rahmen unsichtbar ist, wenn die Rahmeneigenschaften auf die Standardwerte zurückgesetzt werden.
 
 | ![set-borders-shading-aspose-words-java](/words/java/using-documentbuilder-to-modify-a-document/documentbuilder-to-modify-document-7.png) |
-|  :-  |
-Die [Shading](https://reference.aspose.com/words/java/com.aspose.words/shading/) Klasse enthält Shading-Attribute für Dokumentelemente. Sie können die gewünschte Schattierung Textur und die Farben festlegen, die auf den Hintergrund und den Vordergrund des Elements aufgebracht werden.
+| :- |
+Die Klasse [Shading](https://reference.aspose.com/words/java/com.aspose.words/shading/) enthält Schattierungsattribute für Dokumentelemente. Sie können die gewünschte Schattierungstextur und die Farben einstellen, die auf den Hintergrund und den Vordergrund des Elements angewendet werden.
 
-Die Schattierung Textur wird mit einer [TextureIndex](https://www.aspose.com/api/java/words/com.aspose.words/constants/TextureIndex) Aufzählungswert, der die Anwendung verschiedener Muster auf die **Shading** Objekt. Zum Beispiel, um eine Hintergrundfarbe für ein Dokumentelement, verwenden Sie die [TextureIndex.TextureSolid](https://www.aspose.com/api/java/words/com.aspose.words/constants/TextureIndex) Wert und die Vordergrund-Schattierungsfarbe entsprechend einstellen.
+Die Schattierungstextur wird mit einem gesetzt [TextureIndex](https://www.aspose.com/api/java/words/com.aspose.words/constants/TextureIndex) Aufzählungswert, der die Anwendung verschiedener Muster auf das **Shading**-Objekt ermöglicht. Um beispielsweise eine Hintergrundfarbe für ein Dokumentelement festzulegen, verwenden Sie die [TextureIndex.TextureSolid](https://www.aspose.com/api/java/words/com.aspose.words/constants/TextureIndex) wert und legen Sie die Vordergrundschattierungsfarbe entsprechend fest.
 
 | ![borders-and-shading-aspose-words-java](/words/java/using-documentbuilder-to-modify-a-document/documentbuilder-to-modify-document-8.png) |
-|  :-  |
-Das nachfolgende Beispiel zeigt, wie man Grenzen anwendet und auf einen Absatz schattiert.
+| :- |
+Das folgende Beispiel zeigt, wie Rahmen und Schattierungen auf einen Absatz angewendet werden.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-DocumentBuilderApplyBordersAndShadingToParagraph.java" >}}
 
-### Snap to Grid
+### Am Raster ausrichten
 
-Aspose.Words bietet zwei Eigenschaften `ParagraphFormat.SnapToGrid` und `Font.SnapToGrid` zu erhalten und setzen Absatz Immobilien Snap auf Gitter
+Aspose.Words stellt zwei Eigenschaften `ParagraphFormat.SnapToGrid` und `Font.SnapToGrid` bereit, um die Absatzeigenschaft am Raster auszurichten und festzulegen.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-SetSnapToGrid.java" >}}
 
-### Den Cursor bewegen
+### Bewegen des Cursors
 
-### Erfassung der aktuellen Cursorposition
+### Erkennen der aktuellen Cursorposition
 
-Sie können erhalten, wo der Cursor des Builders derzeit jederzeit positioniert ist. Die [DocumentBuilder.getCurrentNode](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCurrentNode) Eigenschaft gibt den Knoten zurück, der derzeit in diesem Builder ausgewählt wird. Der Knoten ist ein direktes Kind eines Absatzes. Alle Einsatzvorgänge, die Sie ausführen `DocumentBuilder` wird vor der `DocumentBuilder.CurrentNode`. Wenn der aktuelle Absatz leer ist oder der Cursor kurz vor dem Ende des Absatzes positioniert ist, `DocumentBuilder.CurrentNode` gibt null zurück.
+Sie können jederzeit abrufen, wo sich der Cursor des Builders derzeit befindet. Die Eigenschaft [DocumentBuilder.getCurrentNode](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCurrentNode) gibt den Knoten zurück, der derzeit in diesem Builder ausgewählt ist. Der Knoten ist ein direktes Kind eines Absatzes. Alle Einfügevorgänge, die Sie mit `DocumentBuilder` ausführen, werden vor `DocumentBuilder.CurrentNode` eingefügt. Wenn der aktuelle Absatz leer ist oder sich der Cursor kurz vor dem Ende des Absatzes befindet, gibt `DocumentBuilder.CurrentNode` null zurück.
 
-Auch können Sie die [DocumentBuilder.getCurrentParagraph](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCurrentParagraph) Eigenschaft, die den Absatz erhält, der derzeit in diesem **DocumentBuilder**. Dielow code Ein Beispiel zeigt, wie man auf den aktuellen Knoten in einem Dokumentbauer zugreifen kann.
+Sie können auch die Eigenschaft [DocumentBuilder.getCurrentParagraph](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCurrentParagraph) verwenden, die den aktuell in diesem **DocumentBuilder** ausgewählten Absatz abruft. Das Beispiel below code zeigt, wie Sie in einem Dokumentgenerator auf den aktuellen Knoten zugreifen.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderCursorPosition-DocumentBuilderCursorPosition.java" >}}
 
-### Umzug zu jeder Node (Paragraphen und ihre Kinder)
+### Verschieben zu einem beliebigen Knoten (Absätze und ihre untergeordneten Elemente)
 
-Wenn Sie einen Dokumentobjekt-Knoten haben, der ein Absatz oder ein direktes Kind eines Absatzes ist, können Sie den Cursor des Builders auf diesen Knoten hinweisen. Verwenden Sie die [DocumentBuilder.moveTo](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveTo-com.aspose.words.Node) Verfahren zur Durchführung.
-Das folgende Codebeispiel zeigt, wie man eine Cursorposition zu einem bestimmten Knoten bewegt.
+Wenn Sie einen Dokumentobjektknoten haben, der ein Absatz oder ein direktes untergeordnetes Element eines Absatzes ist, können Sie den Cursor des Builders auf diesen Knoten zeigen. Verwenden Sie dazu die Methode [DocumentBuilder.moveTo](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveTo-com.aspose.words.Node).
+Das folgende Codebeispiel zeigt, wie eine Cursorposition zu einem angegebenen Knoten verschoben wird.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToNode-DocumentBuilderMoveToNode.java" >}}
 
-### Wechsel zum Dokument Start/End
+### Zum Dokumentanfang/-ende wechseln
 
-Wenn Sie zum Anfang des Dokuments wechseln müssen, rufen Sie an [DocumentBuilder.moveToDocumentStart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToDocumentStart). Wenn Sie zum Ende des Dokuments bewegen müssen, rufen Sie an [DocumentBuilder.moveToDocumentEnd](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToDocumentEnd).
+Wenn Sie zum Anfang des Dokuments wechseln müssen, rufen Sie [DocumentBuilder.moveToDocumentStart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToDocumentStart) auf. Wenn Sie zum Ende des Dokuments wechseln müssen, rufen Sie [DocumentBuilder.moveToDocumentEnd](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToDocumentEnd) auf.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToDocumentStartEnd-DocumentBuilderMoveToDocumentStartEnd.java" >}}
 
-### Wechseln zu einem Abschnitt
+### Umzug in einen Abschnitt
 
-Wenn Sie mit einem Dokument arbeiten, das mehrere Abschnitte enthält, können Sie in einen gewünschten Abschnitt mit [DocumentBuilder.moveToSection](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToSection-int). Dieses Verfahren bewegt den Cursor zu Beginn eines bestimmten Abschnitts und akzeptiert den Index des erforderlichen Abschnitts. Wenn der Abschnittsindex größer oder gleich 0 ist, gibt er einen Index vom Anfang des Dokuments an, wobei 0 der erste Abschnitt ist. Wenn der Abschnittsindex kleiner als 0 ist, gibt er einen Index vom Ende des Dokuments an, wobei -1 der letzte Abschnitt ist. Dielow code Ein Beispiel zeigt, wie man eine Cursorposition in den angegebenen Abschnitt bewegt. Sie können die Vorlagendatei dieses Beispiels herunterladen [Hier](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
+Wenn Sie mit einem Dokument arbeiten, das mehrere Abschnitte enthält, können Sie mit [DocumentBuilder.moveToSection](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToSection-int) zu einem gewünschten Abschnitt wechseln. Diese Methode bewegt den Cursor an den Anfang eines angegebenen Abschnitts und akzeptiert den Index des erforderlichen Abschnitts. Wenn der Abschnittsindex größer oder gleich 0 ist, gibt er einen Index vom Anfang des Dokuments an, wobei 0 der erste Abschnitt ist. Wenn der Abschnittsindex kleiner als 0 ist, gibt er einen Index vom Ende des Dokuments an, wobei -1 der letzte Abschnitt ist. Das Beispiel below code zeigt, wie eine Cursorposition an den angegebenen Abschnitt verschoben wird. Sie können die Vorlagendatei dieses Beispiels herunterladen von [hier](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToSection-DocumentBuilderMoveToSection.java" >}}
 
-### Umzug zu einem Header/Footer
+### Zu einer Kopf-/Fußzeile wechseln
 
-Wenn Sie einige Daten in einen Header oder Footer platzieren müssen, sollten Sie es zuerst mit [DocumentBuilder.moveToHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToHeaderFooter-int). Das Verfahren nimmt einen Aufzählungswert von HeaderFooterType an, der die Art des Headers oder Footers angibt, zu dem der Cursor bewegt werden soll.
+Wenn Sie einige Daten in eine Kopf- oder Fußzeile einfügen müssen, sollten Sie zuerst mit [DocumentBuilder.moveToHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToHeaderFooter-int) dorthin verschieben.Die Methode akzeptiert einen HeaderFooterType -Aufzählungswert, der den Typ der Kopf- oder Fußzeile angibt, an die der Cursor verschoben werden soll.
 
-Wenn Sie Header und Footer erstellen möchten, die für die erste Seite unterschiedlich sind, müssen Sie die [PageSetup.getDifferentFirstPageHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getDifferentFirstPageHeaderFooter) Eigentum an **true**. Wenn Sie Header und Footer erstellen möchten, die für gerade und seltsame Seiten unterschiedlich sind, müssen Sie festlegen [PageSetup.getOddAndEvenPagesHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getOddAndEvenPagesHeaderFooter) bis **true**.
+Wenn Sie Kopf- und Fußzeilen erstellen möchten, die für die erste Seite unterschiedlich sind, müssen Sie die Eigenschaft [PageSetup.getDifferentFirstPageHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getDifferentFirstPageHeaderFooter) auf **true** setzen. Wenn Sie Kopf- und Fußzeilen erstellen möchten, die für gerade und ungerade Seiten unterschiedlich sind, müssen Sie [PageSetup.getOddAndEvenPagesHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getOddAndEvenPagesHeaderFooter) auf **true** setzen.
 
-Wenn Sie zurück zur Hauptgeschichte, verwenden[DocumentBuilder.moveToSection](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToSection-int) aus dem Kopf oder Fuß zu ziehen. Im folgenden Beispiel erstellen Kopfzeilen und Fußzeilen in einem Dokument mit DocumentBuilder.
+Wenn Sie zur Hauptstory zurückkehren müssen, verwenden Sie [DocumentBuilder.moveToSection](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToSection-int), um die Kopf- oder Fußzeile zu verlassen. Das folgende Beispiel erstellt Kopf- und Fußzeilen in einem Dokument mit DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderHeadersAndFooters-DocumentBuilderHeaderAndFooters.java" >}}
 
-### Zu einem Absatz bewegen
+### Zu einem Absatz wechseln
 
-Verwendung[DocumentBuilder.moveToParagraph](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToParagraph-int-int) den Cursor auf einen gewünschten Absatz im aktuellen Abschnitt zu verschieben. Sie sollten zwei Parameter an diese Methode übergeben: ParagraphIndex (der Index des Absatzes zu bewegen) und ZeichenIndex (der Index des Zeichens innerhalb des Absatzes).
+Verwenden Sie[DocumentBuilder.moveToParagraph](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToParagraph-int-int), um den Cursor auf einen gewünschten Absatz im aktuellen Abschnitt zu bewegen. Sie sollten dieser Methode zwei Parameter übergeben: paragraphIndex (der Index des Absatzes, zu dem verschoben werden soll) und characterIndex (der Index des Zeichens innerhalb des Absatzes).
 
-Die Navigation erfolgt innerhalb der aktuellen Geschichte des aktuellen Abschnitts. Das heißt, wenn Sie den Cursor auf den primären Header des ersten Abschnitts verschoben haben, dann gibt ParagraphIndex den Index des Absatzes innerhalb des Headers dieses Abschnitts an.
+Die Navigation erfolgt innerhalb der aktuellen Story des aktuellen Abschnitts. Das heißt, wenn Sie den Cursor auf die primäre Kopfzeile des ersten Abschnitts bewegt haben, gibt paragraphIndex den Index des Absatzes in dieser Kopfzeile dieses Abschnitts an.
 
-Wenn ParagraphIndex größer oder gleich 0 ist, gibt er einen Index ab Anfang des Abschnitts an, wobei 0 der erste Absatz ist. Wenn ParagraphIndex weniger als 0 ist, gibt es einen Index vom Ende des Abschnitts an, wobei -1 der letzte Absatz ist. Der Zeichenindex kann derzeit nur mit 0 angegeben werden, um zum Anfang des Absatzes oder -1 zu gelangen, um zum Ende des Absatzes zu gelangen. Das folgende Codebeispiel zeigt, wie man eine Cursorposition in den angegebenen Absatz bewegt. Sie können die Vorlagendatei dieses Beispiels herunterladen [Hier](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
+Wenn paragraphIndex größer oder gleich 0 ist, gibt es einen Index vom Anfang des Abschnitts an, wobei 0 der erste Absatz ist. Wenn paragraphIndex kleiner als 0 ist, gibt es einen Index vom Ende des Abschnitts an, wobei -1 der letzte Absatz ist. Der Zeichenindex kann derzeit nur als 0 angegeben werden, um zum Anfang des Absatzes zu gelangen, oder als -1, um zum Ende des Absatzes zu gelangen. Das folgende Codebeispiel zeigt, wie eine Cursorposition auf den angegebenen Absatz verschoben wird. Sie können die Vorlagendatei dieses Beispiels herunterladen von [hier](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToParagraph-DocumentBuilderMoveToParagraph.java" >}}
 
-### Wechseln zu einer Tischzelle
+### In eine Tabellenzelle wechseln
 
-Verwendung [DocumentBuilder.moveToCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToCell-int-int-int-int) wenn Sie den Cursor in eine Tabellenzelle im aktuellen Abschnitt verschieben müssen. Diese Methode akzeptiert vier Parameter:
+Verwenden Sie [DocumentBuilder.moveToCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToCell-int-int-int-int), wenn Sie den Cursor auf eine Tabellenzelle im aktuellen Abschnitt bewegen müssen. Diese Methode akzeptiert vier Parameter:
 
-- tableIndex - der Index der Tabelle zu bewegen.
-- ZeileIndex - der Index der Zeile in der Tabelle.
-- SpalteIndex - der Index der Spalte in der Tabelle.
-- charakterIndex - der Index des Zeichens innerhalb der Zelle.
+- tableIndex - der Index der Tabelle, zu der verschoben werden soll.
+- rowIndex - der Index der Zeile in der Tabelle.
+- columnIndex - der Index der Spalte in der Tabelle.
+- characterIndex - der Index des Zeichens in der Zelle.
 
-Die Navigation erfolgt innerhalb der aktuellen Geschichte des aktuellen Abschnitts.
+Die Navigation erfolgt innerhalb der aktuellen Story des aktuellen Abschnitts.
 
-Für die Indexparameter, wenn der Index größer oder gleich 0 ist, gibt er von Anfang an einen Index an, wobei 0 das erste Element ist. Wenn der Index kleiner als 0 ist, gibt er einen Index vom Ende an, wobei -1 das letzte Element ist.
+Wenn der Index für die Indexparameter größer oder gleich 0 ist, wird ein Index von Anfang an angegeben, wobei 0 das erste Element ist. Wenn der Index kleiner als 0 ist, gibt er einen Index vom Ende an, wobei -1 das letzte Element ist.
 
-Beachten Sie auch, dass ZeichenIndex derzeit nur 0 angeben kann, um zum Anfang der Zelle zu bewegen oder -1 zum Ende der Zelle zu bewegen. Das folgende Codebeispiel zeigt, wie man eine Cursorposition in die angegebene Tabellenzelle bewegt. Sie können die Vorlagendatei dieses Beispiels herunterladen [Hier](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx).
+Beachten Sie auch, dass characterIndex derzeit nur 0 angeben kann, um zum Anfang der Zelle zu gelangen, oder -1, um zum Ende der Zelle zu gelangen. Das folgende Codebeispiel zeigt, wie eine Cursorposition in die angegebene Tabellenzelle verschoben wird. Sie können die Vorlagendatei dieses Beispiels herunterladen von [hier](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToTableCell-DocumentBuilderMoveToTableCell.java" >}}
 
-### Umzug zu einem Lesezeichen
+### Zu einem Lesezeichen wechseln
 
-Lesezeichen werden häufig verwendet, um bestimmte Stellen in dem Dokument zu markieren, wo neue Elemente eingefügt werden sollen. Um zu einem Lesezeichen zu wechseln, verwenden [DocumentBuilder.moveToBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToBookmark-java.lang.String). Dieses Verfahren hat zwei Überlastungen. Der einfachste akzeptiert nichts als den Namen des Lesezeichens, wo der Cursor bewegt werden soll. Das folgende Codebeispiel zeigt, wie man eine Cursorposition zu einem Lesezeichen bewegt.
+Lesezeichen werden häufig verwendet, um bestimmte Stellen im Dokument zu markieren, an denen neue Elemente eingefügt werden sollen. Um zu einem Lesezeichen zu wechseln, verwenden Sie [DocumentBuilder.moveToBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToBookmark-java.lang.String). Diese Methode hat zwei Überladungen. Der einfachste akzeptiert nichts als den Namen des Lesezeichens, wohin der Cursor bewegt werden soll. Das folgende Codebeispiel zeigt, wie eine Cursorposition auf ein Lesezeichen verschoben wird.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToBookmark-DocumentBuilderMoveToBookmark.java" >}}
 
-Diese Überlastung bewegt den Cursor auf eine Position kurz nach dem Start des Lesezeichens mit dem angegebenen Namen. Eine weitere Überlastung [DocumentBuilder.moveToBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToBookmark-java.lang.String-boolean-boolean) bewegt den Cursor zu einem Lesezeichen mit größerer Präzision. Es akzeptiert zwei zusätzliche boolesche Parameter:
+Diese Überladung bewegt den Cursor an eine Position direkt nach dem Start des Lesezeichens mit dem angegebenen Namen. Eine weitere Überladung [DocumentBuilder.moveToBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToBookmark-java.lang.String-boolean-boolean) bewegt den Cursor genauer zu einem Lesezeichen. Es akzeptiert zwei zusätzliche boolesche Parameter:
 
-- isStart bestimmt, ob der Cursor zum Anfang oder zum Ende des Lesezeichens bewegt wird.
-- isAfter bestimmt, ob der Cursor nach der Start- oder Endposition des Lesezeichens bewegt wird oder den Cursor vor der Start- oder Endposition des Lesezeichens bewegt wird.
+- isStart legt fest, ob der Cursor an den Anfang oder an das Ende des Lesezeichens verschoben werden soll.
+- isAfter legt fest, ob der Cursor nach der Start- oder Endposition des Lesezeichens oder vor die Start- oder Endposition des Lesezeichens verschoben werden soll.
 
-Das folgende Codebeispiel zeigt, wie man eine Cursorposition kurz nach dem Lesezeichenende bewegt.
+Das folgende Codebeispiel zeigt, wie Sie eine Cursorposition direkt nach dem Ende des Lesezeichens verschieben.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToBookmarkEnd-DocumentBuilderMoveToBookmarkEnd.java" >}}
 
-Einfügen eines neuen Textes auf diese Weise ersetzt nicht den vorhandenen Text des Lesezeichens. Beachten Sie, dass einige Lesezeichen im Dokument den Formularfeldern zugeordnet sind. Mit einem solchen Lesezeichen und dem Einfügen von Text wird der Text in den Formularfeldcode eingefügt. Obwohl dies das Formularfeld nicht invalidiert, wird der eingefügte Text nicht sichtbar, weil er Teil des Feldcodes wird.
+Das Einfügen von neuem Text auf diese Weise ersetzt nicht den vorhandenen Text des Lesezeichens. Beachten Sie, dass einige Lesezeichen im Dokument Formularfeldern zugewiesen sind. Wenn Sie zu einem solchen Lesezeichen wechseln und dort Text einfügen, wird der Text in den Formularfeldcode eingefügt. Obwohl dies das Formularfeld nicht ungültig macht, ist der eingefügte Text nicht sichtbar, da er Teil des Feldcodes wird.
 
-### Zu einem `Merge` Feld
+### Zu einem `Merge`-Feld wechseln
 
-Manchmal muss man ein "manuell" ausführen Mail Merge Verwendung `DocumentBuilder` oder füllen Sie ein Zusammenführungsfeld in einer besonderen Weise in einem Mail Merge Event-Handler. Das ist, wenn [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) könnte nützlich sein. Die Methode akzeptiert den Namen des Zusammenführungsfeldes. Es bewegt den Cursor in eine Position, die kurz über das angegebene Mergerfeld hinausgeht und das Mergerfeld entfernt. Das folgende Codebeispiel zeigt, wie man den Cursor in eine Position über das angegebene Merge-Feld bewegt.
+Manchmal müssen Sie möglicherweise ein "manuelles" Mail Merge mit `DocumentBuilder` ausführen oder ein Seriendruckfeld auf spezielle Weise in einem Mail Merge -Ereignishandler ausfüllen. Dann könnte [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) nützlich sein. Die Methode akzeptiert den Namen des Seriendruckfelds. Es bewegt den Cursor an eine Position direkt hinter dem angegebenen Seriendruckfeld und entfernt das Seriendruckfeld. Das folgende Codebeispiel zeigt, wie Sie den Cursor an eine Position direkt hinter dem angegebenen Seriendruckfeld bewegen.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToMergeField-DocumentBuilderMoveToMergeField.java" >}}
 
-## Umrechnen zwischen Messeinheiten
+## So konvertieren Sie zwischen Maßeinheiten
 
-Die meisten der in der Aspose.Words API die einige Messungen darstellt (Breite/Höhe, Margen und verschiedene Entfernungen) akzeptieren Werte in Punkten (1 Zoll entspricht 72 Punkten). Manchmal ist das nicht bequem, so dass es `ConvertUtil` Klasse, die Hilfefunktionen bietet, um zwischen verschiedenen Messeinheiten umzuwandeln. Es ermöglicht die Umwandlung von Inches zu Punkten, Punkten zu Inches, Pixel zu Punkten und Punkten zu Pixeln. Wenn Pixel in Punkte umgewandelt werden und umgekehrt, kann es bei 96 dpi (Punkte pro Zoll) Auflösungen oder bei der angegebenen dpi Auflösung durchgeführt werden.
+Die meisten Objekteigenschaften in Aspose.Words API, die einige Maße (Breite / Höhe, Ränder und verschiedene Abstände) darstellen, akzeptieren Werte in Punkten (1 Zoll entspricht 72 Punkten). Manchmal ist dies nicht praktisch, daher gibt es die Klasse `ConvertUtil`, die Hilfsfunktionen zum Konvertieren zwischen verschiedenen Maßeinheiten bereitstellt. Es ermöglicht die Konvertierung von Zoll in Punkte, Punkten in Zoll, Pixeln in Punkte und Punkten in Pixel. Wenn Pixel in Punkte konvertiert werden und umgekehrt, kann dies mit einer Auflösung von 96 dpi (Punkte pro Zoll) oder mit der angegebenen dpi-Auflösung durchgeführt werden.
 
-**ConvertUtil** ist sehr nützlich bei der Einstellung unterschiedlicher Seiteneigenschaften, da z.B. Inches häufiger als Punkte Messeinheiten sind. Das folgende Beispiel zeigt, wie man die Seiteneigenschaften in Zoll einrichten kann.
+**ConvertUtil**
 
-Das folgende Codebeispiel zeigt, wie man Seiteneigenschaften in Zoll angibt.
+Das folgende Codebeispiel zeigt, wie Seiteneigenschaften in Zoll angegeben werden.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ConvertBetweenMeasurementUnits-ConvertBetweenMeasurementUnits.java" >}}

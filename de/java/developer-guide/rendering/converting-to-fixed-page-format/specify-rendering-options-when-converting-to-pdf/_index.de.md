@@ -1,74 +1,74 @@
----
-title: Geben Sie Rendering-Optionen bei der Konvertierung in PDF an
+﻿---
+title: Geben Sie die Renderoptionen beim Konvertieren in PDF an
 second_title: Aspose.Words für Java
-articleTitle: Geben Sie Rendering-Optionen bei der Konvertierung in PDF an
-linktitle: Geben Sie Rendering-Optionen bei der Konvertierung in PDF an
-description: "Konvertieren Sie ein Dokument in PDF mit erweiterten Optionen. Verwenden Sie PdfSaveOptionen, um das Ergebnis des Speicherns eines Dokuments in das PDF-Format zu ändern. Java."
+articleTitle: Geben Sie die Renderoptionen beim Konvertieren in PDF an
+linktitle: Geben Sie die Renderoptionen beim Konvertieren in PDF an
+description: "Konvertieren Sie ein Dokument mit erweiterten Optionen in PDF. Verwenden Sie PdfSaveOptions, um das Ergebnis des Speicherns eines Dokuments mit Java in das PDF-Format zu ändern."
 type: docs
 weight: 20
 url: /de/java/specify-rendering-options-when-converting-to-pdf/
 timestamp: 2024-10-21-11-17-44
 ---
 
-Das PDF-Format ist ein festes Format, das bei Benutzern sehr beliebt ist und von verschiedenen Anwendungen weit unterstützt wird, weil ein PDF-Dokument auf jedem Gerät gleich aussieht. Daher ist die Umwandlung in PDF ein wichtiges Merkmal von Aspose.Words.
+Das PDF -Format ist ein Festseitenformat, das bei Benutzern sehr beliebt ist und von verschiedenen Anwendungen weitgehend unterstützt wird, da ein PDF -Dokument auf jedem Gerät gleich aussieht. Aus diesem Grund ist die Konvertierung in PDF ein wichtiges Merkmal von Aspose.Words.
 
-PDF ist ein komplexes Format. Es sind mehrere Berechnungsstufen erforderlich, um ein Dokument in PDF umzuwandeln, einschließlich der Layoutberechnung. Da diese Stufen komplexe Berechnungen umfassen, sind sie zeitaufwendig. Auch das PDF-Format ist von selbst ziemlich komplex. Es hat eine bestimmte Dateistruktur, Grafikmodell und Schrifteinbettung. Darüber hinaus verfügt es über eine komplexe Ausgabefunktionalität, wie Dokumentstruktur-Tags, Verschlüsselung, digitale Signaturen und editierbare Formulare.
+PDF ist ein komplexes Format. Bei der Konvertierung eines Dokuments in PDF sind mehrere Berechnungsschritte erforderlich, einschließlich der Layoutberechnung. Da diese Phasen komplexe Berechnungen beinhalten, sind sie zeitaufwändig. Außerdem ist das PDF -Format an sich ziemlich komplex. Es hat eine spezifische Dateistruktur, ein Grafikmodell und eine Schrifteinbettung. Darüber hinaus bietet es einige komplexe Ausgabefunktionen wie Dokumentstruktur-Tags, Verschlüsselung, digitale Signaturen und bearbeitbare Formulare.
 
-Aspose.Words Layout-Engine imitiert die Art der Microsoft Word’s Seite Layout-Engine funktioniert. Daher Aspose.Words macht PDF-Ausgabe-Dokumente so nah wie möglich, was Sie sehen können Microsoft Word. Manchmal ist es notwendig, zusätzliche Optionen anzugeben, die das Ergebnis des Speicherns eines Dokuments in das PDF-Format beeinflussen können. Diese Optionen können durch die Verwendung der [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) Klasse, die die Eigenschaften enthält, die bestimmen, wie die PDF-Ausgabe angezeigt wird.
+Aspose.Words Layout-Engine imitiert die Funktionsweise der Seitenlayout-Engine von Microsoft Word. Daher lässt Aspose.Words PDF Ausgabedokumente so nah wie möglich an dem aussehen, was Sie in Microsoft Word sehen können. Manchmal ist es notwendig, zusätzliche Optionen anzugeben, die sich auf das Ergebnis des Speicherns eines Dokuments im PDF -Format auswirken können. Diese Optionen können durch die Verwendung der Klasse [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) angegeben werden, die die Eigenschaften enthält, die bestimmen, wie die Ausgabe von PDF angezeigt wird.
 
-Einige Beispiele der Verwendung **PdfSaveOptions** sind im Folgenden vorgesehen.
+Nachfolgend finden Sie einige Beispiele für die Verwendung von **PdfSaveOptions**.
 
 {{% alert color="primary" %}}
 
-Derzeit können Sie PDF 1.7, PDF 2.0, PDF/A-1a, PDF/A-1b, PDF/A-2a, PDF/A-2u und PDF/UA-1 Formate speichern. Verwenden Sie die [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) Aufzählung, um die Einhaltung der PDF-Standards zu bestimmen. Beachten Sie, dass mit dem PDF/A-Format eine Ausgabedateigröße größer ist als eine reguläre PDF-Dateigröße.
+Derzeit können Sie speichern in PDF 1.7, PDF 2.0, PDF/A-1a, PDF/A-1b, PDF/A-2a, PDF/A-2u, und PDF/UA-1 -Formate. Verwenden Sie die [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)-Aufzählung, um die Konformitätsstufe für PDF-Standards festzulegen. Beachten Sie, dass beim Format PDF/A eine Ausgabedateigröße größer ist als eine normale PDF-Dateigröße.
 
-[PdfCompliance.PdfA1a](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/#PDF-17) und [PdfCompliance.PdfA1b](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/#PDF-17) sind als veraltet gekennzeichnet.
+[PdfCompliance.PdfA1a](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/#PDF-17) und [PdfCompliance.PdfA1b](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/#PDF-17) sind als veraltet markiert.
 
-Weitere Informationen zu PDF/A finden Sie im nächsten Artikel "Learn Features of Conversion to PDF/A".
+Weitere Informationen zu PDF/A finden Sie im nächsten Artikel "Lernen Sie die Funktionen der Konvertierung in PDF/A kennen".
 
 {{% /alert %}}
 
-## PDF erstellen Dokument mit füllbaren Formularen
+## Erstellen eines PDF -Dokuments mit ausfüllbaren Formularen
 
-Es ist auch möglich, aus einer Microsoft Word Dokument in Ausgabe PDF, das füllbare Formulare anstelle eines Klartextes hat. Verwenden Sie die [PreserveFormFields](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getPreserveFormFields) Eigenschaft, ein Dokument als PDF mit ausfüllbaren Formularen zu speichern.
+Es ist auch möglich, ausfüllbare Formulare aus einem Microsoft Word -Dokument in die Ausgabe PDF zu exportieren, die ausfüllbare Formulare anstelle eines einfachen Textes enthält. Verwenden Sie die Eigenschaft [PreserveFormFields](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getPreserveFormFields), um ein Dokument als PDF mit ausfüllbaren Formularen zu speichern.
 
-Beachten Sie, dass im Gegensatz zu Microsoft Word,"> das PDF-Format hat eine begrenzte Anzahl von Optionen für editierbare Formulare, wie Textbox, Kombibox und Checkbox. Microsoft Word hat mehr Arten von Formularen, zum Beispiel Kalender Datum Picker. Im Allgemeinen ist es nicht möglich, vollständig nachzuahmen Microsoft Word Verhalten in PDF. Daher kann in einigen komplexen Fällen die PDF-Ausgabe von dem, was Sie in Microsoft Word.
+Beachten Sie, dass das Format PDF im Gegensatz zu Microsoft Word eine begrenzte Anzahl von Optionen für bearbeitbare Formulare enthält, z. B. Textfeld, Kombinationsfeld und checkbox. Microsoft Word hat mehr Arten von Formularen, z. B. Kalender-Datumsauswahl. Im Allgemeinen ist es nicht möglich, das Verhalten von Microsoft Word in PDF vollständig nachzuahmen. Daher kann die Ausgabe von PDF in einigen komplexen Fällen von dem abweichen, was Sie in Microsoft Word sehen.
 
-Das nachfolgende Codebeispiel zeigt, wie man ein Dokument als PDF mit füllbaren Formularen mit spezifizierter Jpeg Kompression und Qualität speichert:
+Das folgende Codebeispiel zeigt, wie Sie ein Dokument als PDF mit ausfüllbaren Formularen mit der angegebenen JPEG-Komprimierung und -qualität speichern:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-PdfImageCompression.java" >}}
 
-## Exportieren von Dokumentenstruktur und benutzerdefinierten Eigenschaften
+## Dokumentstruktur und benutzerdefinierte Eigenschaften exportieren
 
-Die [ExportDocumentStructure](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getExportDocumentStructure) Eigenschaft ermöglicht es Ihnen, Dokumentstruktur auf PDF-Ausgabe zu exportieren.
+Mit der Eigenschaft [ExportDocumentStructure](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getExportDocumentStructure) können Sie die Dokumentstruktur in die Ausgabe PDF exportieren.
 
-PDF logische Struktureinrichtungen bieten einen Mechanismus, um Informationen über die Dokumenteninhaltsstruktur in eine PDF-Datei aufzunehmen. Aspose.Words erhält Informationen über die Struktur von Microsoft Word Dokumente wie Absätze, Listen, Tabellen, Fußnoten/Endnoten usw.
+PDF-Funktionen für logische Strukturen bieten einen Mechanismus zum Einbinden von Informationen in Bezug auf die Dokumentinhaltsstruktur in eine PDF-Datei. Aspose.Words behält Informationen über die Struktur aus einem Microsoft Word-Dokument bei, z. B. Absätze, Listen, Tabellen, Fußnoten/Endnoten usw.
 
-Das folgende Beispiel zeigt, wie man ein Dokument im PDF-Format speichert und die Dokumentenstruktur bewahrt:
+Das folgende Beispiel zeigt, wie Sie ein Dokument im Format PDF speichern und dabei die Dokumentstruktur beibehalten:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-ExportDocumentStructure.java" >}}
 
-Aspose.Words Sie können die benutzerdefinierten Eigenschaften des Dokuments auch auf PDF exportieren, was durch das folgende Beispiel gezeigt wird:
+Mit Aspose.Words können Sie auch benutzerdefinierte Dokumenteigenschaften nach PDF exportieren, was im folgenden Beispiel veranschaulicht wird:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-CustomPropertiesExport.java" >}}
 
-## Ausführen von Bookmarks und Headings in Output PDF
+## Exportieren von Konturen aus Lesezeichen und Überschriften in der Ausgabe PDF
 
-Wenn Sie Bookmarks als Umrisse in Ausgabe PDF exportieren möchten, können Sie die [DefaultBookmarksOutlineLevel](https://reference.aspose.com/words/java/com.aspose.words/outlineoptions/#getDefaultBookmarksOutlineLevel) Eigentum. Diese Eigenschaft gibt die Standardebene in der Dokumentenumriss, bei der Microsoft Word Bookmarks werden angezeigt. Wenn das Dokument Lesezeichen im Kopf/Fuß des Dokuments enthält, können Sie die [HeaderFooterBookmarksExportMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getHeaderFooterBookmarksExportMode) Eigentum an [First](https://reference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode/#FIRST) oder [All](https://reference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode/#ALL) um anzugeben, wie sie im Output PDF exportiert werden. Die Lesezeichen in Kopf- und Fußzeilen werden nicht exportiert, wenn der Wert **HeaderFooterBookmarksExportMode** ist [None](https://reference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode/#NONE).
+Wenn Sie Lesezeichen als Umrisse in Ausgabe PDF exportieren möchten, können Sie die Eigenschaft [DefaultBookmarksOutlineLevel](https://reference.aspose.com/words/java/com.aspose.words/outlineoptions/#getDefaultBookmarksOutlineLevel) verwenden. Diese Eigenschaft gibt die Standardebene in der Dokumentgliederung an, auf der Microsoft Word Lesezeichen angezeigt werden. Wenn das Dokument Lesezeichen in der Kopf-/Fußzeile des Dokuments enthält, können Sie die Eigenschaft [HeaderFooterBookmarksExportMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getHeaderFooterBookmarksExportMode) auf [First](https://reference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode/#FIRST) oder [All](https://reference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode/#ALL) setzen, um anzugeben, wie sie in Ausgabe PDF exportiert werden. Die Lesezeichen in Kopf-/Fußzeilen werden nicht exportiert, wenn der Wert von **HeaderFooterBookmarksExportMode** [None](https://reference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode/#NONE) ist.
 
-Das folgende Codebeispiel zeigt, wie man Lesezeichen aus dem ersten Header/Fuß eines Abschnitts exportiert:
+Das folgende Codebeispiel zeigt, wie Lesezeichen aus der ersten Kopf- / Fußzeile eines Abschnitts exportiert werden:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-ExportHeaderFooterBookmarks.java" >}}
 
-Die Ausgabe PDF dieses Beispiels ist unten dargestellt:
+Die Ausgabe PDF dieses Beispiels wird unten gezeigt:
 
 ![rendering-options-when-converting-to-pdf-aspose-words-java-1](/words/java/specify-rendering-options-when-converting-to-pdf/specify-rendering-options-when-converting-to-pdf-1.png)
 
-Wann **HeaderFooterBookmarksExportMode** wird eingestellt [First](https://reference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode/#FIRST) und das Dokument hat gleichmäßige und ungerade Kopf- und Fußzeilen oder einen anderen Header/Fußstock, Bookmarks werden für die ersten einzigartigen Kopf- und Fußzeilen in einem Abschnitt exportiert.
+Wenn **HeaderFooterBookmarksExportMode** auf [First](https://reference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode/#FIRST) gesetzt ist und das Dokument gerade und ungerade Kopf-/Fußzeilen oder eine andere Kopf-/Fußzeile der ersten Seite enthält, werden Lesezeichen für die ersten eindeutigen Kopf-/Fußzeilen in einem Abschnitt exportiert.
 
-Sie können auch Überschriften in der Ausgabe PDF exportieren, mit der [HeadingsOutlineLevels](https://reference.aspose.com/words/java/com.aspose.words/outlineoptions/#getHeadingsOutlineLevels) Eigentum. Diese Eigenschaft gibt an, wie viele Überschriften in den Dokumentenumriss aufgenommen werden.
+Sie können auch Überschriften in der Ausgabe PDF mit der Eigenschaft [HeadingsOutlineLevels](https://reference.aspose.com/words/java/com.aspose.words/outlineoptions/#getHeadingsOutlineLevels) exportieren. Diese Eigenschaft gibt an, wie viele Ebenen von Überschriften in der Dokumentgliederung enthalten sind.
 
-Das nachstehende Codebeispiel zeigt, wie man Rubriken mit drei Ebenen exportiert:
+Das folgende Codebeispiel zeigt, wie Überschriften mit drei Ebenen exportiert werden:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-SaveToPdfWithOutline.java" >}}
 
@@ -78,109 +78,106 @@ Die Ausgabe PDF dieses Beispiels ist unten dargestellt:
 
 {{% alert color="primary" %}}
 
-Ein Lesezeichen oder eine Überschriftnavigation kann in verschiedenen PDF-Betrachtern unterschiedliche Erscheinungen haben. Darüber hinaus sind in einigen Anwendungen Lesezeichen und Überschriften-Navigation in UI nicht verfügbar.
+Eine Lesezeichen- oder Überschriftennavigation kann in verschiedenen PDF-Viewern unterschiedlich dargestellt werden. Darüber hinaus sind in einigen Anwendungen Lesezeichen und Überschriftennavigation in UI nicht verfügbar.
 
 {{% /alert %}}
 
-## Downsampling Bilder zur Reduzierung der Dokumentengröße
+## Downsampling von Bildern, um die Dokumentgröße zu reduzieren
 
-Aspose.Words bietet die Möglichkeit, Bilder herunterzutasten, um die Ausgabe PDF-Größe zu reduzieren, mit der [DownsampleOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getDownsampleOptions) Eigentum. Downsampling wird standardmäßig in der [DownsampleImages](https://reference.aspose.com/words/java/com.aspose.words/downsampleoptions/#getDownsampleImages) Eigentum.
+Aspose.Words bietet die Möglichkeit, Bilder zu verkleinern, um die Ausgabegröße PDF mithilfe der Eigenschaft [DownsampleOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getDownsampleOptions) zu verringern. Downsampling ist standardmäßig in der Eigenschaft [DownsampleImages](https://reference.aspose.com/words/java/com.aspose.words/downsampleoptions/#getDownsampleImages) aktiviert.
 
-Beachten Sie, dass es auch möglich ist, eine bestimmte Entschließung in der [Resolution](https://reference.aspose.com/words/java/com.aspose.words/downsampleoptions/#getResolution) Eigentum oder eine Auflösungsschwelle in der [ResolutionThreshold](https://reference.aspose.com/words/java/com.aspose.words/downsampleoptions/#getResolutionThreshold) Eigentum. Im zweiten Fall, wenn die Bildauflösung kleiner als der Schwellwert ist, gilt Downsampling nicht.
+Beachten Sie, dass es auch möglich ist, eine bestimmte Auflösung in der Eigenschaft [Resolution](https://reference.aspose.com/words/java/com.aspose.words/downsampleoptions/#getResolution) oder einen Auflösungsschwellenwert in der Eigenschaft [ResolutionThreshold](https://reference.aspose.com/words/java/com.aspose.words/downsampleoptions/#getResolutionThreshold) festzulegen. Im zweiten Fall, wenn die Bildauflösung kleiner als der Schwellenwert ist, wird das Downsampling nicht angewendet.
 
-Das folgende Codebeispiel zeigt, wie die Auflösung von Bildern in einem Ausgabe-PDF-Dokument geändert werden kann:
+Das folgende Codebeispiel zeigt, wie Sie die Auflösung von Bildern in einem PDF -Ausgabedokument ändern:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-DownsamplingImages.java" >}}
 
-Die Auflösung wird nach der realen Bildgröße auf der Seite berechnet.
+Die Auflösung wird entsprechend der tatsächlichen Bildgröße auf der Seite berechnet.
 
-## Einbetten von Fonts in Adobe PDF Format
+## Einbetten von Schriftarten im Adobe PDF -Format
 
-Aspose.Words Sie können auch kontrollieren, wie Schriftarten in die resultierenden PDF-Dokumente eingebettet sind. Fonts müssen in ein beliebiges Adobe PDF-Dokument eingebettet werden, um sicherzustellen, dass das Dokument auf jedem Rechner korrekt wiedergegeben werden kann (siehe weitere Details zur Schriftwiedergabe im Abschnitt [Passwort vergessen?](/words/de/java/using-truetype-fonts/)) Standardmäßig, Aspose.Words eine Untermenge von Schriften, die im Dokument verwendet werden, in das generierte PDF einbettet. In diesem Fall nur die glyphs (Zeichen) im Dokument verwendet werden in PDF gespeichert.
+Mit Aspose.Words können Sie auch steuern, wie Schriftarten in die resultierenden PDF-Dokumente eingebettet werden. Schriftarten müssen in jedes Adobe PDF-Dokument eingebettet sein, um sicherzustellen, dass das Dokument auf jedem Computer korrekt gerendert werden kann (weitere Informationen zum Rendern von Schriftarten finden Sie im Abschnitt [TrueType Schriftarten verwenden](/words/java/using-truetype-fonts/)). Standardmäßig bettet Aspose.Words eine Teilmenge der im Dokument verwendeten Schriftarten in das generierte PDF ein. In diesem Fall werden nur die im Dokument verwendeten Glyphen (Zeichen) in PDF gespeichert.
 
-### Wann Volle Schriftarten zu verwenden und wann zu Subset
+### Wann vollständige Schriftarten und wann Teilmengen verwendet werden sollten
 
-Es gibt eine Möglichkeit, eine Option für Aspose.Words um ganze Schriften einzubetten. Weitere Einzelheiten sowie einige Vorteile und Nachteile jeder Einstellung sind in der nachfolgenden Tabelle beschrieben.
+Es gibt eine Möglichkeit, eine Option für Aspose.Words anzugeben, um vollständige Schriftarten einzubetten. Weitere Details sowie einige Vor- und Nachteile jeder Einstellung sind in der folgenden Tabelle beschrieben.
 
-| Schriftarten-Modus einbetten |  Vorteile | Nachteile |
-|  :-  |  :-  |  :-  |
-|  `Full`  | Nützlich, wenn Sie das resultierende PDF später bearbeiten möchten, indem Sie den Text hinzufügen oder ändern. Alle Schriftarten sind enthalten, daher alle glyphs vorhanden sind. | Da einige Schriftarten groß sind (mehrere Megabytes), kann die Einbettung ohne Untereinstellung zu großen Ausgabedateien führen. |
-|  `Subset`  | Subsetting ist nützlich, wenn Sie die Ausgabedateigröße kleiner halten möchten. | <p>Der Benutzer kann den Text nicht vollständig hinzufügen oder bearbeiten, indem er die subsetted Schriftart im Ausgabe-PDF-Dokument verwendet. Das ist, weil nicht alles glyphs der Schrift sind vorhanden.</p>
+| Modus Schriftarten einbetten | Vorteil | Nachteil |
+| :- | :- | :- |
+| `Full` | Nützlich, wenn Sie die resultierende PDF später bearbeiten möchten, indem Sie den Text hinzufügen oder ändern. Alle Schriftarten sind enthalten, daher sind alle Glyphen vorhanden. | Da einige Schriftarten groß sind (mehrere Megabyte), kann das Einbetten ohne Teilmenge zu großen Ausgabedateien führen. |
+| `Subset` | Teilmengen sind nützlich, wenn Sie die Größe der Ausgabedatei kleiner halten möchten. | <p>Der Benutzer kann den Text mit der untergeordneten Schriftart im Ausgabedokument PDF nicht vollständig hinzufügen oder bearbeiten. Dies liegt daran, dass nicht alle Glyphen der Schriftart vorhanden sind.</p><p>Wenn mehrere PDFs mit untergeordneten Schriftarten gespeichert und zusammengesetzt werden, enthält das kombinierte PDF-Dokument möglicherweise eine Schriftart, die viele unnötige Teilmengen enthält.</p> |
 
-<p>Werden mehrere PDFs mit subsetierten Schriftarten gespeichert und zusammengebaut, so kann das kombinierte PDF-Dokument eine Schrift mit vielen unnötigen Teilmengen aufweisen.</p>
- |
+### Vollständige Schriftarten in PDF einbetten
 
-### Volle Schriften in PDF einbetten
+Mit der Eigenschaft [EmbedFullFonts](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getEmbedFullFonts) können Sie angeben, wie Aspose.Words Schriftarten in ein PDF Ausgabedokument einbettet.
 
-Die [EmbedFullFonts](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getEmbedFullFonts) Sie können festlegen, wie Aspose.Words schriftarten in ein Ausgabe-PDF-Dokument einbettet.
+- Um vollständige Schriftarten in das Ausgabedokument PDF einzubetten, setzen Sie **EmbedFullFonts** auf true
+- Um Schriftarten beim Speichern in PDF zu unterteilen, setzen Sie **EmbedFullFonts** auf false
 
-- Ja. Um vollständige Schriftarten in das Ausgabe-PDF-Dokument einzubetten, set **EmbedFullFonts** bis true
-- Ja. Um Schriftarten beim Speichern auf PDF zu unterbinden, setzen **EmbedFullFonts** bis false
-
-Das folgende Beispiel zeigt, wie man vollständige Schriftarten im Ausgabe-PDF-Dokument einbettet:
+Das folgende Beispiel zeigt, wie vollständige Schriftarten in das Ausgabedokument PDF eingebettet werden:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-EmbeddedFontsInPDF-EmbeddAllFonts.java" >}}
 
-Das folgende Beispiel zeigt, wie man Aspose.Words zu Subset-Schriften in der Ausgabe PDF:
+Das folgende Beispiel zeigt, wie Sie Aspose.Words festlegen, um Schriftarten in der Ausgabe PDF zu unterteilen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-EmbeddedFontsInPDF-EmbeddSubsetFonts.java" >}}
 
 {{% alert color="primary" %}}
 
-Sie können die Template-Datei für diese Beispiele herunterladen [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
+Sie können die Vorlagendatei für diese Beispiele herunterladen von [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
 
 {{% /alert %}}
 
-## So steuern Sie die Einbettung von Core Fonts und Windows Standard Schriftarten
+## So steuern Sie das Einbetten von Kernschriftarten und Windows -Standardschriftarten
 
-Core Schriftarten und Windows Standard-Schriften sind die "Standard"-Schriftsätze, die üblicherweise auf der Zielmaschine vorhanden sind oder vom Dokumentleser bereitgestellt werden, daher müssen sie nicht in die Ausgabe PDF eingebettet werden. Durch die Nichteinbettung dieser Schriften können Sie die Größe der ausgestellten PDF-Dokumente verringern und dennoch die Portabilität beibehalten.
+Kernschriftarten und Windows -Standardschriftarten sind die "Standard" -Schriftarten, die normalerweise auf dem Zielcomputer vorhanden sind oder vom Dokumentenleser bereitgestellt werden. Daher müssen sie nicht in die Ausgabe PDF eingebettet werden. Wenn Sie diese Schriftarten nicht einbetten, können Sie die Größe gerenderter PDF-Dokumente verringern und dennoch die Portabilität beibehalten.
 
-Aspose.Words bietet Optionen zur Auswahl, wie Schriftarten in PDF exportiert werden. Sie können entweder Kern- und Standard-Schriften in die Ausgabe PDF einbetten oder die Einbettung überspringen und stattdessen Standard Core PDF-Schriften oder System-Schriften auf der Zielmaschine verwenden. Die Verwendung einer dieser Optionen führt in der Regel zu einer signifikanten Dateigrößenreduktion für PDF-Dokumente, die von Aspose.Words.
+Aspose.Words bietet Optionen zum Auswählen, wie Schriftarten nach PDF exportiert werden. Sie können entweder Kern- und Standardschriftarten in die Ausgabe PDF einbetten oder das Einbetten überspringen und stattdessen Standard-Kernschriftarten PDF oder Systemschriftarten auf dem Zielcomputer verwenden. Die Verwendung einer dieser Optionen führt normalerweise zu einer erheblichen Reduzierung der Dateigröße für PDF-Dokumente, die von Aspose.Words generiert wurden.
 
-- Da diese Optionen sich gegenseitig ausschließen, sollten Sie nur eine zu einer Zeit wählen.
-- Beim Speichern mit PDF/A-1 müssen alle verwendeten Schriftarten mit dem PDF-Dokument eingebettet werden. Wenn Sie mit dieser Compliance speichern, [UseCoreFonts](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getUseCoreFonts) Eigentum muss eingestellt werden false und [FontEmbeddingMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getFontEmbeddingMode) Eigentum muss eingestellt werden [EmbedAll](https://reference.aspose.com/words/java/com.aspose.words/pdffontembeddingmode#EMBED_ALL)[.](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/usecorefonts/)
+- Da sich diese Optionen gegenseitig ausschließen, sollten Sie jeweils nur eine auswählen.
+- Beim Speichern mit PDF/A-1-Konformität müssen alle verwendeten Schriftarten mit dem PDF-Dokument eingebettet werden. Beim Speichern mit dieser Übereinstimmung muss die Eigenschaft [UseCoreFonts](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getUseCoreFonts) auf false und die Eigenschaft [FontEmbeddingMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getFontEmbeddingMode) auf [EmbedAll](https://reference.aspose.com/words/java/com.aspose.words/pdffontembeddingmode#EMBED_ALL)[.](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/usecorefonts/) gesetzt werden
 
-### Einbettung Core Fonts
+### Einbetten von Kernschriften
 
-Die Option zum Einbetten von Core-Schriften kann aktiviert oder deaktiviert werden, indem die [UseCoreFonts](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getUseCoreFonts) Eigentum. Wenn es eingestellt ist true, Die folgenden beliebtesten Schriftarten "True Type" (Base 14 Schriftarten) sind nicht im Ausgabe-PDF-Dokument eingebettet:
+Die Option zum Einbetten von Kernschriften kann mithilfe der Eigenschaft [UseCoreFonts](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getUseCoreFonts) aktiviert oder deaktiviert werden. Wenn es auf true gesetzt ist, werden die folgenden beliebtesten "True Type" -Schriftarten (Basis-14-Schriftarten) nicht in das Ausgabedokument PDF eingebettet:
 
 - `Arial`
 - `Times New Roman`
 - `Courier New`
 - `Symbol`
 
-Diese Schriften werden durch die entsprechenden Core Type 1 Schriften ersetzt, die beim Öffnen des PDF von einem Lesegerät bereitgestellt werden.
+Diese Schriftarten werden durch die entsprechenden Core Type 1-Schriftarten ersetzt, die beim Öffnen der PDF von einem Lesegerät bereitgestellt werden.
 
-Das nachfolgende Beispiel zeigt, wie Aspose.Words um die Einbettung von Kernfonts zu vermeiden und den Leser mit PDF ersetzen zu lassen Typ 1 Schriftarten:
+Das folgende Beispiel zeigt, wie Sie Aspose.Words festlegen, um das Einbetten von Kernschriftarten zu vermeiden, und den Leser diese durch PDF Typ-1-Schriftarten ersetzen lassen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-EmbeddedFontsInPDF-AvoidEmbeddingCoreFonts.java" >}}
 
 {{% alert color="primary" %}}
 
-Sie können die Template-Datei für dieses Beispiel herunterladen [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
+Sie können die Vorlagendatei für dieses Beispiel herunterladen von [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
 
 {{% /alert %}}
 
-Da PDF-Viewer auf jeder unterstützten Plattform Kernfonts bereitstellen, ist diese Option auch dann sinnvoll, wenn eine größere Dokumentportabilität erforderlich ist. Jedoch können Kern-Fonts anders aussehen als System-Fonts.
+Da PDF-Viewer Kernschriftarten auf jeder unterstützten Plattform bereitstellen, ist diese Option auch nützlich, wenn eine größere Dokumentenportabilität erforderlich ist. Kernschriftarten können jedoch anders aussehen als Systemschriftarten.
 
 {{% alert color="primary" %}}
 
-Diese Einstellung funktioniert nur für ANSI (Windows-1252) Kodierung Text. Das Schreiben eines Nicht-ANSI-Textes an PDF erfordert immer die entsprechenden Schriftarten, die eingebunden werden sollen.
+Diese Einstellung funktioniert nur für ANSI (Windows-1252) kodierenden Text. Wenn Sie einen Nicht-ANSI -Text in PDF schreiben, müssen immer die entsprechenden Schriftarten eingebettet werden.
 
 {{% /alert %}}
 
-### Embedding System Fonts
+### Einbettung von Systemschriften
 
-Diese Option kann aktiviert oder deaktiviert werden, indem die [FontEmbeddingMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getFontEmbeddingMode) Eigentum. Wenn diese Eigenschaft eingestellt wird [EmbedNonstandard](https://reference.aspose.com/words/java/com.aspose.words/pdffontembeddingmode/#EMBED-NONSTANDARD), die "Arial" und "Zeiten Neu Roman" true Schriftarten werden nicht in ein PDF-Dokument eingebettet. In diesem Fall setzt der Client-Viewer auf die Schriften, die auf dem Client-Betriebssystem installiert sind. Wenn **FontEmbeddingMode** Eigentum wird eingestellt [EmbedNone](https://reference.aspose.com/words/java/com.aspose.words/pdffontembeddingmode/#EMBED-NONE), Aspose.Words keine Schriften einbetten.
+Diese Option kann mit der Eigenschaft [FontEmbeddingMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getFontEmbeddingMode) aktiviert oder deaktiviert werden. Wenn diese Eigenschaft auf [EmbedNonstandard](https://reference.aspose.com/words/java/com.aspose.words/pdffontembeddingmode/#EMBED-NONSTANDARD) gesetzt ist, werden die True Type-Schriftarten "Arial" und "Times New Roman" nicht in ein PDF-Dokument eingebettet. In diesem Fall verlässt sich der Client-Viewer auf die Schriftarten, die auf dem Client-Betriebssystem installiert sind. Wenn die Eigenschaft **FontEmbeddingMode** auf [EmbedNone](https://reference.aspose.com/words/java/com.aspose.words/pdffontembeddingmode/#EMBED-NONE) gesetzt ist, betten Aspose.Words keine Schriftarten ein.
 
-Das folgende Beispiel zeigt, wie man Aspose.Words die Einbettung von Arial und Times New Roman Schriften in ein PDF-Dokument zu überspringen:
+Das folgende Beispiel zeigt, wie Sie Aspose.Words festlegen, um das Einbetten von Arial- und Times New Roman-Schriftarten in ein PDF -Dokument zu überspringen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-EmbeddedFontsInPDF-SetFontEmbeddingMode.java" >}}
 
-Dieser Modus ist am nützlichsten, wenn Sie Ihre Dokumente auf derselben Plattform anzeigen möchten und das genaue Erscheinungsbild der Schriftarten im Ausgabe-PDF beibehalten möchten.
+Dieser Modus ist am nützlichsten, wenn Sie Ihre Dokumente auf derselben Plattform anzeigen möchten, wobei das genaue Erscheinungsbild der Schriftarten in der Ausgabe PDF erhalten bleibt.
 
 {{% alert color="primary" %}}
 
-Diese Einstellung funktioniert nur für ANSI (Windows-1252) Kodierung Text. Das Schreiben eines Nicht-ANSI-Textes an PDF erfordert die Einbindung der entsprechenden Schriftart.
+Diese Einstellung funktioniert nur für ANSI (Windows-1252) kodierenden Text. Wenn Sie einen Nicht-ANSI -Text in PDF schreiben, muss die entsprechende Schriftart eingebettet sein.
 
 {{% /alert %}}

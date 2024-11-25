@@ -1,126 +1,126 @@
----
-title: نشر الوثيقة في Java
-second_title: Aspose.Words for Java
-articleTitle: نشر الوثيقة
-linktitle: نشر الوثيقة
-description: "Aspose.Words for Java يزودكم بطريقة كفؤة لتقسيم وثيقة واحدة إلى وثائق متعددة عناوين أو أقسام، وكذلك صفحات أو نطاقات الصفحات."
+﻿---
+title: تقسيم مستند في Java
+second_title: Aspose.Words ل Java
+articleTitle: تقسيم مستند
+linktitle: تقسيم مستند
+description: "Aspose.Words إلى عن على Java يوفر لك طريقة فعالة لتقسيم مستند واحد إلى مستندات متعددة حسب العناوين أو الأقسام، بالإضافة إلى الصفحات أو نطاقات الصفحات."
 type: docs
 weight: 90
 url: /ar/java/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
-*Splitting* " أو " نشر وثيقة* هو عملية كسر وثيقة كبيرة في عدد أكبر من الملفات الأصغر. هناك أسباب مختلفة لتقسيم ملف على سبيل المثال، تحتاج فقط بعض الصفحات من وثيقة محددة وليس كامل واحد. أو لأسباب تتعلق بالخصوصية، تريد أن تشارك فقط بعض أجزاء وثيقة مع الآخرين. ومع سمة الانقسام، يمكنك الحصول على الأجزاء المطلوبة من الوثيقة فقط واتخاذ الإجراءات اللازمة معها، على سبيل المثال، للوقوف أو الادخار أو الارسال.
+*Splitting* أو *split a document* هي عملية تقسيم مستند كبير إلى عدد أكبر من الملفات الأصغر. هناك أسباب مختلفة لتقسيم الملف. على سبيل المثال، تحتاج فقط إلى بعض الصفحات من مستند معين وليس المستند بأكمله. أو لأسباب تتعلق بالخصوصية، فأنت تريد مشاركة بعض أجزاء المستند فقط مع أجزاء أخرى. باستخدام ميزة التقسيم، يمكنك الحصول على الأجزاء المطلوبة فقط من المستند والقيام بالإجراءات اللازمة معها، على سبيل المثال، للترميز أو الحفظ أو الإرسال.
 
-Aspose.Words يزودكم بطريقة فعالة لتقسيم وثيقة واحدة إلى وثائق متعددة عناوين أو أقسام. يمكنك أيضاً تقسيم الوثيقة حسب الصفحات أو حسب نطاق الصفحات ويرد في هذه المادة وصف لخياري التقسيم.
+Aspose.Words يوفر لك طريقة فعالة لتقسيم مستند واحد إلى مستندات متعددة حسب العناوين أو الأقسام. يمكنك أيضا تقسيم مستند حسب الصفحات أو حسب نطاقات الصفحات. سيتم وصف كلا خياري التقسيم في هذه المقالة.
 
-لتقسيم الوثيقة إلى ملفات أصغر Aspose.Words, يجب أن تتبع هذه الخطوات:
+لتقسيم مستند إلى ملفات أصغر باستخدام Aspose.Words، تحتاج إلى اتباع الخطوات التالية:
 
-1 وضع الوثيقة في أي شكل من أشكال الدعم.
-1 انشر الوثيقة
-1 وفر وثائق النواتج
+1. قم بتحميل المستند بأي تنسيق مدعوم.
+1. تقسيم المستند.
+1. احفظ مستندات الإخراج.
 
-بعد أن تقسم وثيقة، ستتمكن من فتح جميع وثائق النواتج التي ستبدأ بالصفحات المطلوبة، والنص، وما إلى ذلك.
-
-{{% alert color="primary" %}}
-
-**حاول على الإنترنت**
-
-يمكنك أن تجرب هذه الوظيفة معنا [قسم الوثائق الإلكترونية المجانية](https://products.aspose.app/words/splitter).
-
-{{% /alert %}}
-
-## Split a Document Using Different Criteria {#split-a-document-using-different-criteria}
-
-Aspose.Words يسمح لك بتقسيم وثائق EPUB أو HTML إلى فصول وفقا لمعايير مختلفة. وفي هذه العملية، يتم الحفاظ على أسلوب ومخطط وثيقة المصدر بالنسبة لوثائق النواتج.
-
-يمكنك تحديد المعايير باستخدام [DocumentSplitCriteria](https://reference.aspose.com/words/java/com.aspose.words/documentsplitcriteria/) العد حتى تتمكن من تقسيم الوثيقة إلى فصول باستخدام أحد المعايير التالية أو الجمع بين أكثر من معيار واحد معا:
-
--تحت الفقرة
-- استراحة القسم
-- استراحة العمود
-- استراحة
-
-عندما ينقذ الناتج إلى HTML، Aspose.Words وفر كل فصل على حدة كملف مستقل لشبكة HTML. As a result, the document will be divided into multiple HTML files. عندما ينقذ الناتج إلى EPUB، Aspose.Words إنقاذ النتيجة في ملف واحد من طراز EPUB بغض النظر عن `DocumentSplitCriteria` القيمة التي استخدمتها وبالتالي، فإن استخدام معايير الوثائق المستنسخة لوثائق المكتب لا يؤثر إلا على ظهور محتواها في تطبيقات القارئ: سيقسم المحتوى إلى فصول ولن تظهر الوثيقة باستمرار.
+بعد تقسيم مستند، ستتمكن من فتح جميع مستندات الإخراج التي ستبدأ بالصفحات والنصوص المطلوبة وما إلى ذلك.
 
 {{% alert color="primary" %}}
 
-لا يمكنك تقسيم وثيقة باستخدام [DocumentSplitCriteria](https://reference.aspose.com/words/java/com.aspose.words/documentsplitcriteria/) الممتلكات عند الادخار في شكل MHTML.
+**جرب عبر الإنترنت**
+
+يمكنك تجربة هذه الوظيفة من خلال [مقسم مستندات مجاني عبر الإنترنت](https://products.aspose.app/words/splitter).
 
 {{% /alert %}}
 
-وفي هذا الفرع، لا ننظر إلا في بعض المعايير المحتملة للانقسام.
+## تقسيم مستند باستخدام معايير مختلفة {#split-a-document-using-different-criteria}
 
-### Split a Document by Headings {#split-a-document-by-headings}
+Aspose.Words يسمح لك بتقسيم EPUB أو HTML المستندات إلى فصول وفقا لمعايير مختلفة. في هذه العملية، يتم الاحتفاظ بنمط وتخطيط المستند المصدر لمستندات الإخراج.
 
-أن تقسم الوثيقة إلى فصول حسب العناوين، وأن تستخدم **HeadingParagraph** قيمة **DocumentSplitCriteria** ملكية
+يمكنك تحديد المعايير باستخدام [DocumentSplitCriteria](https://reference.aspose.com/words/java/com.aspose.words/documentsplitcriteria/) التعداد. لذا يمكنك تقسيم المستند إلى فصول باستخدام أحد المعايير التالية أو دمج أكثر من معيار معا:
 
-إذا كنت بحاجة إلى تقسيم وثيقة بمستوى محدد من فقرات العناوين، مثل العناوين 1 و 2 و 3، استخدم أيضا [DocumentSplitHeadingLevel](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getDocumentSplitHeadingLevel) ملكية وسينقسم الناتج إلى فقرات مصممة بمستوى العنوان المحدد.
+- العنوان الفقرة,
+- استراحة القسم,
+- كسر العمود,
+- فاصل الصفحات.
 
-ويبين المثال الرمزي التالي كيفية تقسيم الوثيقة إلى أجزاء أصغر عن طريق العنوان:
+عند حفظ الإخراج إلى HTML، Aspose.Words احفظ كل فصل على حدة كملف HTML منفصل. نتيجة لذلك، سيتم تقسيم المستند إلى ملفات HTML متعددة. عند حفظ الإخراج إلى EPUB، Aspose.Words احفظ النتيجة في ملف EPUB واحد بغض النظر عن القيمة `DocumentSplitCriteria` التي استخدمتها. لذلك، فإن استخدام DocumentSplitCriteria للمستندات EPUB يؤثر فقط على مظهر محتواها في تطبيقات القارئ: سيتم تقسيم المحتوى إلى فصول ولن يظهر المستند بعد الآن بشكل مستمر.
+
+{{% alert color="primary" %}}
+
+لا يمكنك تقسيم مستند باستخدام الخاصية [DocumentSplitCriteria](https://reference.aspose.com/words/java/com.aspose.words/documentsplitcriteria/) عند الحفظ إلى تنسيق MHTML.
+
+{{% /alert %}}
+
+في هذا القسم، نعتبر فقط بعض معايير الانقسام المحتملة.
+
+### تقسيم مستند حسب العناوين {#split-a-document-by-headings}
+
+لتقسيم مستند إلى فصول حسب العناوين، استخدم قيمة **HeadingParagraph** لخاصية **DocumentSplitCriteria**.
+
+إذا كنت بحاجة إلى تقسيم مستند إلى مستوى معين من فقرات العناوين، مثل العناوين 1 و 2 و 3، فاستخدم أيضا خاصية [DocumentSplitHeadingLevel](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getDocumentSplitHeadingLevel). سيتم تقسيم الإخراج على فقرات منسقة بمستوى العنوان المحدد.
+
+يوضح مثال التعليمات البرمجية التالية كيفية تقسيم مستند إلى أجزاء أصغر حسب العنوان:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToHTML-SplitDocumentByHeadingsHTML.java" >}}
 
-يرجى ملاحظة أنه بالنسبة لهذه المعايير، Aspose.Words فقط يدعم الادخار في شكل HTML عندما يقسم.
+يرجى ملاحظة أنه بالنسبة لهذه المعايير، فإن Aspose.Words يدعم فقط الحفظ إلى HTML تنسيق عند التقسيم.
 
-وعندما تُوفّر الوثيقة إلى EPUB، لا تقسم إلى عدة ملفات، ولن يكون هناك سوى ملف واحد للنواتج.
+عند الحفظ إلى EPUB، لا يتم تقسيم المستند إلى عدة ملفات، وسيكون هناك ملف إخراج واحد فقط.
 
-### نشر وثيقة من قبل الأقسام {#split-a-document-by-sections}
+### تقسيم مستند حسب الأقسام {#split-a-document-by-sections}
 
-Aspose.Words أيضاً يُمكّنُك أَنْ تَستعملَ إستراحةَ القسمِ لتَقسيم الوثائقِ وإنقاذهم إلى HTML. لهذا الغرض، استخدام **SectionBreak** كما **DocumentSplitCriteria**:
+يمكنك Aspose.Words أيضا من استخدام فواصل الأقسام لتقسيم المستندات وحفظها في HTML. لهذا الغرض، استخدم **SectionBreak** كـ **DocumentSplitCriteria**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToHTML-SplitDocumentBySectionsHTML.java" >}}
 
-هناك طريقة أخرى لتقسيم وثيقة المصدر إلى وثائق ناتج متعددة ويمكنك اختيار أي شكل ناتج مدعوم من خلال Aspose.Words.
+هناك طريقة أخرى لتقسيم المستند المصدر إلى مستندات إخراج متعددة، ويمكنك اختيار أي تنسيق إخراج مدعوم بـ Aspose.Words.
 
-ويبيّن المثال الرمزي التالي كيفية تقسيم الوثيقة إلى أجزاء أصغر حجماً حسب أبوابها (دون استخدامها) `DocumentSplitCriteria` الممتلكات:
+يوضح مثال الكود التالي كيفية تقسيم مستند إلى أجزاء أصغر حسب فواصل الأقسام (بدون استخدام خاصية `DocumentSplitCriteria`):
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-SplitDocument-SplitDocumentBySections.java" >}}
 
-## توزيع الصفحات {#splitting-by-pages}
+## تقسيم الصفحات {#splitting-by-pages}
 
-ويمكنكم أيضاً تقسيم صفحة الوثائق حسب الصفحة، حسب نطاق الصفحات، أو البدء بأرقام الصفحات المحددة. وفي هذه الحالة [ExtractPages](https://reference.aspose.com/words/java/com.aspose.words/document/#extractPages-int-int) الطريقة يمكنها القيام بالعمل
+يمكنك أيضا تقسيم صفحة المستند حسب الصفحة أو نطاقات الصفحات أو البدء بأرقام الصفحات المحددة. في مثل هذه الحالة، يمكن لطريقة [ExtractPages](https://reference.aspose.com/words/java/com.aspose.words/document/#extractPages-int-int) القيام بالمهمة.
 
-يصف هذا الفرع عدة حالات استخدام لوثائق التقسيم بالصفحة باستخدام [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) الصف و الصف **ExtractPages** طريقة
+يصف هذا القسم عدة حالات استخدام لقسمة المستندات على مقسم إلى صفحات باستخدام فئة [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) وطريقة **ExtractPages**.
 
 {{% alert color="primary" %}}
 
-يمكنك استخدام أي [الوثائق الداعمة](/words/ar/java/supported-document-formats/).
+يمكنك استخدام أي [تنسيق الإخراج بدعم من Aspose.Words](/words/java/supported-document-formats/).
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-نظراً للكثير من المعاني التي تظهر بينما تقلل عدد الصفحات، تطابق كامل مع Microsoft Word التخطيط مهمة معقدة ولذلك، ورهنا بتعقد الوثيقة، قد تكون هناك اختلافات طفيفة في مخطط الوثيقة الناتج عن الوثيقة الأصلية.
+نظرا للعديد من الفروق الدقيقة التي تظهر أثناء تقليل عدد الصفحات، فإن المطابقة الكاملة مع تخطيط Microsoft Word مهمة معقدة للغاية. لذلك، بناء على تعقيد المستند، قد تكون هناك اختلافات طفيفة في تخطيط المستند الناتج عن المستند الأصلي.
 
 {{% /alert %}}
 
-### نشر الوثيقة الصفحة {#split-a-document-page-by-page}
+### تقسيم صفحة المستند حسب الصفحة {#split-a-document-page-by-page}
 
-Aspose.Words يُمكّنُك أَنْ تَقْسمَ a صفحة متعددة الصفحاتِ بالصفحةِ.
+Aspose.Words تمكنك من تقسيم صفحة وثيقة متعددة الصفحات حسب الصفحة.
 
-ويبين المثال الرمزي التالي كيفية تقسيم الوثيقة وإنقاذ كل صفحة كوثيقة منفصلة:
+يوضح مثال التعليمات البرمجية التالية كيفية تقسيم مستند وحفظ كل صفحة كمستند منفصل:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-SplitDocument-SplitDocumentPageByPage.java" >}}
 
-### Split a Document by Page Ranges {#split-a-document-by-page-ranges}
+### تقسيم مستند حسب نطاقات الصفحات {#split-a-document-by-page-ranges}
 
-Aspose.Words ويتيح تقسيم وثيقة متعددة الصفحات حسب نطاق الصفحات. يمكنك أن تقسم ملفاً واحداً إلى ملفات متعددة بمجالات عدة أو تختار فقط نطاق واحد وتحتفظ فقط بهذا الجزء من وثيقة المصدر ملاحظة أنه يمكنك اختيار نطاق الصفحات وفقاً لعدد الصفحات الأقصى والدنيا من الوثيقة
+Aspose.Words يسمح بتقسيم مستند متعدد الصفحات حسب نطاقات الصفحات. يمكنك تقسيم ملف واحد إلى ملفات متعددة بنطاقات صفحات مختلفة أو ما عليك سوى تحديد نطاق واحد وحفظ هذا الجزء فقط من المستند المصدر. لاحظ أنه يمكنك اختيار نطاق الصفحات وفقا لرقم الصفحة الأقصى والأدنى للمستند.
 
-ويبيّن المثال الرمزي التالي كيفية تقسيم الوثيقة إلى أجزاء أصغر حجماً حسب عدد الصفحات مع مؤشرات بداية ونهاية محددة:
+يوضح مثال التعليمات البرمجية التالي كيفية تقسيم مستند إلى أجزاء أصغر حسب نطاق الصفحات مع فهارس بداية ونهاية محددة:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-SplitDocument-SplitDocumentByPageRange.java" >}}
 
-## خيار الرد على الوثيقة {#callback-option-for-saving-a-document}
+## خيار رد الاتصال لحفظ مستند {#callback-option-for-saving-a-document}
 
-يمكنك استخدام [DocumentPartSavingCallback](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getDocumentPartSavingCallback) مراقبة الممتلكات Aspose.Words يوفّر أجزاء من الوثائق عندما تصدر هذه الوثيقة في شكل HTML. هذه الملكية تسمح لك بإعادة تسمية ملفات النواتج أو حتى إعادة توجيهها إلى مجاري العرف
+يمكنك استخدام الخاصية [DocumentPartSavingCallback](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getDocumentPartSavingCallback) للتحكم في كيفية حفظ Aspose.Words لأجزاء المستند عند تصدير هذا المستند إلى تنسيق HTML. تتيح لك هذه الخاصية إعادة تسمية ملفات الإخراج أو حتى إعادة توجيهها إلى تدفقات مخصصة.
 
-ويُرجى ملاحظة أن هذا الاسترجاع ليس مفيداً عندما يُنقذ المكتب لأن جميع أجزاء النواتج يجب أن تُحفظ في حاوية واحدة - ملف " آب ". لذا، إعادة توجيه التيار غير مدعومة، وتأثير إعادة التسميات غير مرئي لأن الملفات تُعاد تسميتها داخل الحاوية.
+يرجى ملاحظة أن رد الاتصال هذا ليس مفيدا عند الحفظ إلى EPUB لأنه يجب حفظ جميع أجزاء الإخراج في حاوية واحدة – ال .ملف النشر الإلكتروني. لذلك، لا يتم دعم إعادة توجيه الدفق، وتأثير إعادة التسمية غير مرئي حيث تتم إعادة تسمية الملفات داخل الحاوية.
 
-## دمج وثيقة سبليت مع وثيقة أخرى {#merge-the-split-document-with-another-file}
+## دمج المستند المقسم مع مستند آخر {#merge-the-split-document-with-another-file}
 
-Aspose.Words ويمكِّنكم من دمج الوثيقة المجزأة مع وثيقة أخرى لتشكيل وثيقة جديدة. يمكن تسمية هذا بدمج الوثائق
+Aspose.Words تمكنك من دمج مستند تقسيم الإخراج مع مستند آخر لتشكيل مستند جديد. يمكن أن يسمى هذا دمج المستندات.
 
-ويبين المثال الرمزي التالي كيفية دمج وثيقة منقسمة مع وثيقة أخرى:
+يوضح مثال الكود التالي كيفية دمج مستند مقسم مع مستند آخر:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-SplitDocument-MergeDocuments.java" >}}

@@ -1,139 +1,139 @@
----
-title: Wie man eine Tabelle in Java
+﻿---
+title: So erstellen Sie eine Tabelle in Java
 second_title: Aspose.Words für Java
-articleTitle: Eine Tabelle erstellen
-linktitle: Eine Tabelle erstellen
-description: "Verschiedene Möglichkeiten, Tabellen in Ihrem Dokument zu erstellen Java."
+articleTitle: Erstellen Sie eine Tabelle
+linktitle: Erstellen Sie eine Tabelle
+description: "Verschiedene Möglichkeiten zum Erstellen von Tabellen in Ihrem Dokument mit Java."
 type: docs
 weight: 20
 url: /de/java/create-a-table/
 timestamp: 2024-10-21-11-17-44
 ---
 
-Aspose.Words ermöglicht es Benutzern, Tabellen in einem Dokument von Grund auf zu erstellen und bietet mehrere verschiedene Methoden dafür. Dieser Artikel enthält Details, wie Sie formatierte Tabellen mit jeder Methode zu Ihrem Dokument hinzufügen, sowie einen Vergleich jeder Methode am Ende des Artikels.
+Aspose.Words ermöglicht es Benutzern, Tabellen in einem Dokument von Grund auf neu zu erstellen, und bietet dafür verschiedene Methoden. Dieser Artikel enthält Details zum Hinzufügen formatierter Tabellen zu Ihrem Dokument mit jeder Methode sowie einen Vergleich der einzelnen Methoden am Ende des Artikels.
 
-## Standard Tisch Stile
+## Standardtabellen-Stile
 
-Die neu erstellte Tabelle enthält Standardwerte, die den in Microsoft Word:
+Die neu erstellte Tabelle erhält Standardwerte ähnlich denen in Microsoft Word:
 
-| Tabelle Immobilien | Standard Aspose.Words |
-|  :-  |  :-  |
-| `Border Style` |  `Single`  |
+| Tabelleneigenschaften | Vorgabe in Aspose.Words |
+| :- | :- |
+| `Border Style` | `Single` |
 | `Border Width` | `1/2 pt` |
-| Grenzfarbe |  `Black`  |
+| Rahmenfarbe | `Black` |
 | `Left and Right Padding` | `5.4 pts` |
 | `AutoFit Mode` | `AutoFit to Window` |
-| `Allow AutoFit` |  `True`  |
+| `Allow AutoFit` | `True` |
 {{% alert color="primary" %}}
 
-Eine Tabelle kann inline sein, wenn sie fest positioniert ist, oder schwimmen, wenn sie irgendwo auf der Seite positioniert werden kann. Standardmäßig, Aspose.Words erstellt immer Inline-Tabellen.
+Eine Tabelle kann inline sein, wenn sie eng positioniert ist, oder schwebend, wenn sie an einer beliebigen Stelle auf der Seite positioniert werden kann. Standardmäßig erstellt Aspose.Words immer Inline-Tabellen.
 
 {{% /alert %}}
 
 ## Erstellen Sie eine Tabelle mit DocumentBuilder
 
-In Aspose.Words, Benutzer können eine Tabelle in einem Dokument mit dem [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/). Der Grundalgorithmus zur Erstellung einer Tabelle ist wie folgt:
+In Aspose.Words können Benutzer mit [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) eine Tabelle in einem Dokument erstellen. Der grundlegende Algorithmus zum Erstellen einer Tabelle lautet wie folgt:
 
-ANHANG Starten Sie die Tabelle mit [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable)
-2. Hinzufügen einer Zelle zur Tabelle mit [InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell) – dies startet automatisch eine neue Zeile
-3. Optional verwenden Sie die [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCellFormat) Eigenschaft zur Angabe der Zellformatierung
-4. Fügen Sie den Zellinhalt mit der entsprechenden **DocumentBuilder** Methoden wie [Writeln](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#writeln), [InsertImage](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertImage-byte), und andere
+1. Beginnen Sie die Tabelle mit [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable)
+2. Fügen Sie der Tabelle mit [InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell) eine Zelle hinzu – dies beginnt automatisch eine neue Zeile
+3. Verwenden Sie optional die Eigenschaft [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCellFormat), um die Zellenformatierung anzugeben
+4. Fügen Sie den Zellinhalt mit den entsprechenden **DocumentBuilder**-Methoden wie [Writeln](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#writeln), [InsertImage](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertImage-byte) und anderen ein
 5. Wiederholen Sie die Schritte 2-4, bis die Zeile vollständig ist
-6. Anruf [EndRow](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow) um die aktuelle Zeile zu beenden
-7. Optional verwenden Sie die [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getRowFormat) Eigenschaft zur Angabe der Zeilenformatierung
+6. Rufen Sie [EndRow](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow) auf, um die aktuelle Zeile zu beenden
+7. Verwenden Sie optional die Eigenschaft [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getRowFormat), um die Zeilenformatierung anzugeben
 8. Wiederholen Sie die Schritte 2-7, bis die Tabelle vollständig ist
-9. Anruf [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) um den Tisch zu fertigen
+9. Rufen Sie [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) auf, um den Aufbau der Tabelle abzuschließen
 
 {{% alert color="primary" %}}
 
 Wichtige Details:
 
-- Ja. [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) kann auch innerhalb einer Zelle aufgerufen werden, wobei sie die Erstellung eines geschachtelten Tisches innerhalb der Zelle beginnt.
-- Nach dem Anruf [InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell), eine neue Zelle erstellt wird, und alle Inhalte, die Sie mit anderen Methoden der [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) die Klasse wird der aktuellen Zelle hinzugefügt. Um eine neue Zelle in derselben Zeile zu erstellen, rufen Sie an **InsertCell** wieder.
-- Wenn **InsertCell** wird sofort nachgeschaltet [EndRow](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow) und das Ende einer Reihe, wird die Tabelle auf einer neuen Reihe fortsetzen.
-- Die [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) Verfahren zum Ende der Tabelle sollte nur einmal nach dem Aufruf aufgerufen werden **EndRow**. Anruf **EndTable** bewegt den Cursor von der aktuellen Zelle in die Position unmittelbar nach der Tabelle.
+- [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) kann auch innerhalb einer Zelle aufgerufen werden.In diesem Fall wird die Erstellung einer verschachtelten Tabelle innerhalb der Zelle gestartet.
+- Nach dem Aufruf von [InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell) wird eine neue Zelle erstellt, und alle Inhalte, die Sie mit anderen Methoden der Klasse [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) hinzufügen, werden der aktuellen Zelle hinzugefügt. Um eine neue Zelle in derselben Zeile zu erstellen, rufen Sie **InsertCell** erneut auf.
+- Wenn **InsertCell** unmittelbar nach [EndRow](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow) und dem Ende einer Zeile aufgerufen wird, wird die Tabelle in einer neuen Zeile fortgesetzt.
+- Die [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) -Methode zum Beenden der Tabelle sollte nach dem Aufruf von **EndRow** nur einmal aufgerufen werden. Der Aufruf von **EndTable** bewegt den Cursor von der aktuellen Zelle an die Position unmittelbar nach der Tabelle.
 
 {{% /alert %}}
 
-Der Prozess der Erstellung einer Tabelle ist im folgenden Bild deutlich zu erkennen:
+Der Vorgang zum Erstellen einer Tabelle ist im folgenden Bild deutlich zu sehen:
 
 ![creating-table-process](/words/java/create-a-table/creating-table-process.jpg)
 
-Das folgende Codebeispiel zeigt, wie eine einfache Tabelle mit **DocumentBuilder** mit Standardformatierung:
+Das folgende Codebeispiel zeigt, wie Sie eine einfache Tabelle mit **DocumentBuilder** mit Standardformatierung erstellen:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "create-simple-table.java" >}}
 
-Das folgende Codebeispiel zeigt, wie eine formatierte Tabelle mit DocumentBuilder erstellt werden kann:
+Das folgende Codebeispiel zeigt, wie Sie eine formatierte Tabelle mit DocumentBuilder erstellen:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "formatted-table.java" >}}
 
-Das folgende Codebeispiel zeigt, wie eine geschachtelte Tabelle mit DocumentBuilder eingefügt werden kann:
+Das folgende Codebeispiel zeigt, wie Sie eine verschachtelte Tabelle mit DocumentBuilder einfügen:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "nested-table.java" >}}
 
-## Eine Tabelle erstellen DOM (Document Object Model)
+## Erstellen Sie eine Tabelle über DOM (Document Object Model)
 
-Sie können Tabellen direkt in die DOM durch Hinzufügen eines neuen [Table](https://reference.aspose.com/words/java/com.aspose.words/table/) Knoten an einer bestimmten Position.
+Sie können Tabellen direkt in DOM einfügen, indem Sie an einer bestimmten Position einen neuen [Table](https://reference.aspose.com/words/java/com.aspose.words/table/) -Knoten hinzufügen.
 
-Bitte beachten Sie, dass unmittelbar nach der Erstellung des Tabellenknotens die Tabelle selbst vollständig leer ist, d.h. sie enthält noch keine Zeilen und Zellen. Um Zeilen und Zellen in eine Tabelle einzufügen, fügen Sie die entsprechende [Row](https://reference.aspose.com/words/java/com.aspose.words/run/) und [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/) Kinderknoten zu den DOM.
+Bitte beachten Sie, dass die Tabelle selbst unmittelbar nach der Erstellung des Tabellenknotens vollständig leer ist, dh noch keine Zeilen und Zellen enthält. Um Zeilen und Zellen in eine Tabelle einzufügen, fügen Sie die entsprechenden untergeordneten Knoten [Row](https://reference.aspose.com/words/java/com.aspose.words/run/) und [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/) zu DOM hinzu.
 
 {{% alert color="primary" %}}
 
-Diese Methode der Erstellung einer Tabelle verwendet die gleichen Tabelleneinstellungen wie bei der Verwendung der **DocumentBuilder**.
+Diese Methode zum Erstellen einer Tabelle verwendet dieselben Tabellenstandardwerte wie bei Verwendung von **DocumentBuilder**.
 
 {{% /alert %}}
 
-Das folgende Codebeispiel zeigt, wie eine neue Tabelle von Grund auf erstellt werden kann, indem die entsprechenden Child-Nodes in den Dokumentenbaum eingefügt werden:
+Das folgende Codebeispiel zeigt, wie Sie eine neue Tabelle von Grund auf neu erstellen, indem Sie der Dokumentstruktur die entsprechenden untergeordneten Knoten hinzufügen:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "insert-table-directly.java" >}}
 
-## Eine Tabelle aus HTML erstellen
+## Erstellen Sie eine Tabelle aus HTML
 
-Aspose.Words unterstützt das Einfügen von Inhalten in ein Dokument aus einer HTML-Quelle mithilfe der [InsertHtml](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertHtml-java.lang.String) Methode. Die Eingabe kann eine volle HTML-Seite oder nur ein Teil-Snippet sein.
+Aspose.Words unterstützt das Einfügen von Inhalten aus einer HTML-Quelle in ein Dokument mit der [InsertHtml](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertHtml-java.lang.String)-Methode. Die Eingabe kann eine vollständige HTML -Seite oder nur ein Teil-Snippet sein.
 
-Verwenden Sie diese **InsertHtml** Verfahren, Benutzer können Tabellen in das Dokument über Tabellen-Tags wie `<table>`, `<tr>`, `<td>`.
+Mit dieser **InsertHtml** -Methode können Benutzer Tabellen über Tabellen-Tags wie Folgt in das Dokument einfügen `<table>`, `<tr>`, `<td>`.
 
-Das folgende Codebeispiel zeigt, wie eine Tabelle in ein Dokument aus einem String mit HTML-Tags eingefügt werden kann:
+Das folgende Codebeispiel zeigt, wie Sie eine Tabelle aus einer Zeichenfolge mit HTML -Tags in ein Dokument einfügen:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "insert-table-from-html.java" >}}
 
-## Fügen Sie ein Exemplar einer vorhandenen Tabelle ein
+## Einfügen einer Kopie einer vorhandenen Tabelle
 
-Es gibt oft Zeiten, in denen Sie eine Tabelle basierend auf einer bereits vorhandenen Tabelle in einem Dokument erstellen müssen. Der einfachste Weg, eine Tabelle unter Beibehaltung aller Formatierung zu duplizieren ist, den Tabellenknoten mit dem [deepClone](https://reference.aspose.com/words/java/com.aspose.words/node/#deepClone-boolean) Methode.
+Es kommt häufig vor, dass Sie eine Tabelle basierend auf einer bereits vorhandenen Tabelle in einem Dokument erstellen müssen. Die einfachste Möglichkeit, eine Tabelle unter Beibehaltung der gesamten Formatierung zu duplizieren, besteht darin, den Tabellenknoten mit der Methode [deepClone](https://reference.aspose.com/words/java/com.aspose.words/node/#deepClone-boolean) zu klonen.
 
-Die gleiche Technik kann verwendet werden, um Kopien einer vorhandenen Zeile oder Zelle zu einer Tabelle hinzuzufügen.
+Dieselbe Technik kann verwendet werden, um Kopien einer vorhandenen Zeile oder Zelle zu einer Tabelle hinzuzufügen.
 
-Das folgende Codebeispiel zeigt, wie man eine Tabelle mit Knotenkonstruktoren dupliziert:
+Das folgende Codebeispiel zeigt, wie Sie eine Tabelle mit Knotenkonstruktoren duplizieren:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "clone-complete-table.java" >}}
 
 {{% alert color="primary" %}}
 
-Sie können die Beispieldatei dieses Beispiels herunterladen [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx).
+Sie können die Beispieldatei dieses Beispiels herunterladen von [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx).
 
 {{% /alert %}}
 
-Das folgende Codebeispiel zeigt, wie man die letzte Zeile einer Tabelle klont und an die Tabelle angibt:
+Das folgende Codebeispiel zeigt, wie Sie die letzte Zeile einer Tabelle klonen und an die Tabelle anhängen:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "clone-last-row.java" >}}
 
 {{% alert color="primary" %}}
 
-Sie können die Beispieldatei dieses Beispiels herunterladen [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx).
+Sie können die Beispieldatei dieses Beispiels herunterladen von [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx).
 
 {{% /alert %}}
 
-Wenn Sie die Erstellung von Tabellen in einem Dokument betrachten, die dynamisch mit jedem Datensatz aus Ihrer Datenquelle wachsen, wird die obige Methode nicht empfohlen. Vielmehr wird die gewünschte Leistung durch die Verwendung leichter erreicht Mail merge mit Regionen. Sie können mehr über diese Technik in der [Mail Merge mit den Regionen](/words/java/types-of-mail-merge-operations/) Abschnitt.
+Wenn Sie Tabellen in einem Dokument erstellen möchten, die mit jedem Datensatz aus Ihrer Datenquelle dynamisch wachsen, wird die obige Methode nicht empfohlen. Stattdessen wird die gewünschte Ausgabe leichter erreicht, wenn Mail merge mit Regionen verwendet wird. Mehr über diese Technik erfahren Sie in der [Mail Merge mit Regionen](/words/java/types-of-mail-merge-operations/) Abschnitt.
 
-## Vergleichen Sie Wege, eine Tabelle zu erstellen
+## Möglichkeiten zum Erstellen einer Tabelle vergleichen
 
-Aspose.Words bietet mehrere Methoden, um neue Tabellen in einem Dokument zu erstellen. Jedes Verfahren hat eigene Vor- und Nachteile, deren Wahl oft von der konkreten Situation abhängt.
+Aspose.Words bietet verschiedene Methoden zum Erstellen neuer Tabellen in einem Dokument. Jede Methode hat ihre eigenen Vor- und Nachteile, daher hängt die Wahl der zu verwendenden Methode häufig von der spezifischen Situation ab.
 
-Lassen Sie uns einen genaueren Blick auf diese Weise der Erstellung von Tabellen und vergleichen ihre Vor- und Nachteile:
+Schauen wir uns diese Möglichkeiten zum Erstellen von Tabellen genauer an und vergleichen ihre Vor- und Nachteile:
 
-|  Methode | Vorteile |  Nachteile |
-|  :-  |  :-  |  :-  |
-| Via `DocumentBuilder` | Das Standardverfahren zum Einfügen von Tabellen und anderen Dokumenteninhalten | Manchmal schwierig, viele Arten von Tischen gleichzeitig mit der gleichen Builder-Instanz zu schaffen |
-| Via DOM |  Passt besser mit Umgebungscode, der Knoten direkt in den DOM ohne Verwendung von **DocumentBuilder** | Die Tabelle wird "leer" erstellt: Bevor Sie die meisten Operationen durchführen, müssen Sie anrufen [EnsureMinimum](https://reference.aspose.com/words/java/com.aspose.words/table/#ensureMinimum) um fehlende Kinderknoten zu erstellen |
-| Von HTML | Kann eine neue Tabelle aus HTML-Quelle mit Tags wie erstellen `<table>`, `<tr>`, `<td>` | Nicht alle möglich Microsoft Word Tabellenformate können auf HTML angewendet werden |
-| Schließung einer bestehenden Tabelle | Sie können eine Kopie einer vorhandenen Tabelle erstellen, während Sie alle Zeilen- und Zellformatierung beibehalten | Die entsprechenden Kinderknoten müssen entfernt werden, bevor die Tabelle gebrauchsfertig ist |
+| Methode | Vorteil | Nachteil |
+| :- | :- | :- |
+| Über `DocumentBuilder` | Die Standardmethode zum Einfügen von Tabellen und anderen Dokumentinhalten | Manchmal ist es schwierig, viele verschiedene Tabellen gleichzeitig mit derselben Builder-Instanz zu erstellen |
+| Über DOM | Passt besser in den umgebenden Code, der Knoten direkt in DOM erstellt und einfügt, ohne **DocumentBuilder** zu verwenden | Die Tabelle wird "leer" erstellt: Bevor Sie die meisten Operationen ausführen, müssen Sie [EnsureMinimum](https://reference.aspose.com/words/java/com.aspose.words/table/#ensureMinimum) aufrufen, um fehlende untergeordnete Knoten zu erstellen |
+| Von HTML | Kann eine neue Tabelle aus HTML Quelle mit Tags wie erstellen `<table>`, `<tr>`, `<td>` | Nicht alle möglichen Microsoft Word-Tabellenformate können auf HTML angewendet werden |
+| Klonen einer vorhandenen Tabelle | Sie können eine Kopie einer vorhandenen Tabelle erstellen, während alle Zeilen- und Zellenformatierungen beibehalten werden | Die entsprechenden untergeordneten Knoten müssen entfernt werden, bevor die Tabelle verwendet werden kann |

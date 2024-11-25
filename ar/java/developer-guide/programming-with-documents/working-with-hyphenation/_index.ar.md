@@ -1,92 +1,92 @@
----
-title: العمل مع الهيفين Java
-second_title: Aspose.Words for Java
-articleTitle: العمل مع الهيفينة
-linktitle: العمل مع الهيفينة
-description: "استخدام التسخين من أجل ترتيب نص أكثر اتفاقا. It provides advanced algorithms to work with hyphenation dictionaries, uses OpenOffice dictionaries using Java."
+﻿---
+title: العمل مع الواصلة في Java
+second_title: Aspose.Words ل Java
+articleTitle: العمل مع الواصلة
+linktitle: العمل مع الواصلة
+description: "استخدم الواصلة لترتيب نص أكثر إحكاما. يوفر خوارزميات متقدمة للعمل مع قواميس الواصلة، ويستخدم OpenOffice قواميس باستخدام Java."
 type: docs
 weight: 220
 url: /ar/java/working-with-hyphenation/
 timestamp: 2024-01-27-14-07-04
 ---
 
-وفي بعض الأحيان، من الضروري استخدام التسخين من أجل ترتيب نص أكثر اتفاقا في وثيقة ما. وفي الوقت نفسه، من المهم أن نفهم أن مواصفات استئصال الكلمات قد تختلف عن كل لغة.
+في بعض الأحيان يكون من الضروري استخدام الواصلة لترتيب أكثر إحكاما للنص في المستند. في الوقت نفسه، من المهم أن نفهم أن تفاصيل واصلة الكلمات قد تختلف لكل لغة.
 
-At the present time, hyphenation is not used as often as it used to be, especially in English texts. ومع ذلك، فإن استخدام هذه السمة يمكن أن يكون له أثر خطير على وثائق المستعملين - فالهيفينة تؤثر على التصميم، ونتيجة لذلك، ظهر ملفات النواتج، على سبيل المثال، في شكل PDF.
+في الوقت الحالي، لا يتم استخدام الواصلة كما كانت من قبل، خاصة في النصوص الإنجليزية. ومع ذلك، يمكن أن يكون لاستخدام هذه الميزة تأثير خطير على مستندات المستخدم – تؤثر الواصلة على التخطيط، ونتيجة لذلك، ظهور ملفات الإخراج، على سبيل المثال، بتنسيق PDF.
 
-وللتقسيم الصحيح للكلمات، تُستخدم قواميس هيفينة خاصة بكل لغة. Aspose.Words تستخدم خوارزميات متطورة للعمل مع مثل هذه القاموس وتسمح لك للحصول على نفس الهيفينة كما في Microsoft Word.
+للتقسيم الصحيح للكلمات، يتم استخدام قواميس الواصلة الخاصة باللغة. Aspose.Words يستخدم خوارزميات متقدمة للعمل مع هذه القواميس ويسمح لك بالحصول على نفس الواصلة كما في Microsoft Word.
 
-## الدراسات الاستقصائية
+## قواميس الواصلة
 
-وبما أن اللغات المختلفة تستخدم قواعد وقواعد مختلفة لتسخين الكلمات، فإن الحل الأمثل للهواء الصحيح هو استخدام القاموس الخاصة. Aspose.Words يستعمل قواميس المكاتب المفتوحة
+نظرا لأن اللغات المختلفة تستخدم قواعد وقواعد مختلفة لواصلة الكلمات، فإن الحل الأمثل للواصلة الصحيحة هو استخدام قواميس خاصة. Aspose.Words يستخدم OpenOffice القواميس.
 
-لفحص التعويذة، يستعمل المكتب المفتوح [Hunspell المكتبة](https://hunspell.github.io/), وهو تعميم خوارزمية التنس. ويسمح هذا الخوارزمي بالهواء التلقائي غير المعياري باستخدام أنماط منافسة من التهوية المعيارية والعرفية. Hunspell الاستخدامات [Hyphen](https://github.com/hunspell/hyphen) للهواء
+للتدقيق الإملائي ،OpenOffice يستخدم [Hunspell مكتبة](https://hunspell.github.io/)، وهو تعميم لخوارزمية الواصلة في تكس. تسمح هذه الخوارزمية بواصلة تلقائية غير قياسية باستخدام أنماط الواصلة القياسية والمخصصة المتنافسة. Hunspell يستخدم [واصلة](https://github.com/hunspell/hyphen) للواصلة.
 
 {{% alert color="primary" %}}
 
-يمكن أخذ القاموس من [LibreOffice القاموس GitHub](https://github.com/LibreOffice/dictionaries). على سبيل المثال، [في الولايات المتحدة](https://github.com/LibreOffice/dictionaries/blob/master/en/hyph_en_US.dic).
+يمكن أخذ قواميس الواصلة من [LibreOffice قواميس GitHub](https://github.com/LibreOffice/dictionaries). على سبيل المثال, [إن-US قاموس الواصلة](https://github.com/LibreOffice/dictionaries/blob/master/en/hyph_en_US.dic).
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-As Microsoft Word (ب) استخدامات للقاموس غير القائمين بالمكتب المفتوح من أجل أداء التهوية، وقد تختلف هيف بعض الكلمات التي يحددها القاموس المفتوح عن Microsoft Word التهوية ولهذا السبب، يتعين علينا أحيانا أن نبلغ العملاء بإضافة الأنماط اللازمة لقاموسهم من أجل إصلاح التصفح لبعض الكلمات.
+نظرا لأن Microsoft Word يستخدم قواميس أخرى غير OpenOffice قواميس لأداء الواصلة، فقد تختلف الواصلة لبعض الكلمات المحددة بواسطة OpenOffice قواميس عن Microsoft Word الواصلة. لهذا السبب، يتعين علينا أحيانا أن ننصح العملاء بإضافة الأنماط اللازمة إلى قواميسهم من أجل إصلاح الواصلة لكلمات معينة.
 
 {{% /alert %}}
 
-## Hyphenation Algorithm
+## خوارزمية الواصلة
 
-Aspose.Words التنفيذ [خوارزمية تكس](https://github.com/hunspell/hyphen/blob/master/README.hyphen) ويمكنها إعادة استخدام قواميس التهوية المفتوحة
+Aspose.Words تنفذ [خوارزمية الواصلة تكس](https://github.com/hunspell/hyphen/blob/master/README.hyphen) ويمكن إعادة استخدام OpenOffice قواميس الواصلة.
 
-السمات التالية: Aspose.Words وينبغي مراعاة الخوارزميات:
+يجب مراعاة الميزات التالية لخوارزميات Aspose.Words:
 
-*? Hyphenation distance parameters (LEFTHYPHENMIN, rightHYPHENMIN, COMPOUNDLEFTHYPHENMIN، COMتُتجاهل POUNDRIGHTHYPHENMIN) المحددة في القاموس الهجيني. Aspose.Words ويستخدم مجموعته الخاصة من بارامترات المسافات حسب طريقة توافق الوثائق.
-* ♪ خوارزمية التهوية في Aspose.Words الدعم [الهيدروجين المركب](https://github.com/hunspell/hyphen/blob/master/README.compound). ومع ذلك، Aspose.Words يقسم تسلسلات الشخصية التي تحتوي على شخصيات أبجدية مختلطة وغير أبجدية إلى أجزاء أبجدية فقط (كلمات) ويصفها كل على حدة.
-  ملاحظة Microsoft Word ويتوقف منطق تهوية الكلمات المركبة على طريقة توافق الوثائق.
-* ♪ خوارزمية التهوية في Aspose.Words لا تنفذ [هجينة غير عادية](https://github.com/hunspell/hyphen/blob/master/doc/tb87nemeth.pdf). ويجري تجاهل الأنماط غير القياسية.
+* معلمات مسافة الواصلة(LEFTHYPHENMIN, RIGHTHYPHENMIN, COMPOUNDLEFTHYPHENMIN, COMPOUNDRIGHTHYPHENMIN) يتم تجاهل المحدد في قاموس الواصلة. Aspose.Words يستخدم مجموعته الخاصة من معلمات المسافة اعتمادا على وضع توافق المستند.
+* خوارزمية الواصلة في Aspose.Words يدعم [الواصلة المركبة](https://github.com/hunspell/hyphen/blob/master/README.compound). ومع ذلك، Aspose.Words يقسم تسلسلات الأحرف التي تحتوي على أحرف أبجدية مختلطة وغير أبجدية إلى أجزاء أبجدية فقط (كلمات) ويحددها بشكل منفصل.
+  لاحظ أن منطق Microsoft Word لواصلة الكلمات المركبة يعتمد على وضع توافق المستند.
+* خوارزمية الواصلة في Aspose.Words لا تنفذ [الواصلة غير القياسية](https://github.com/hunspell/hyphen/blob/master/doc/tb87nemeth.pdf). يتم تجاهل الأنماط غير القياسية.
 
-## مواصفات الترددات
+## تحميل قواميس الواصلة
 
-لاستعمال سمة الهيفينات، أول تسجيل لقاموس هيفينات. The following code example shows how to load hyphenation dictionaries for the specified languages from a file:
+لاستخدام ميزة الواصلة، قم أولا بتسجيل قاموس الواصلة.يوضح مثال الكود التالي كيفية تحميل قواميس الواصلة للغات المحددة من ملف:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-HyphenateWords-LoadHyphenationDictionaryFromFile.java" >}}
 
 {{% alert color="primary" %}}
 
-يمكنك تحميل ملف النموذج من هذا المثال [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
+يمكنك تنزيل ملف القالب لهذا المثال من [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
 
 {{% /alert %}}
 
-The following code example shows how to load hyphenation dictionaries for the specified language from a stream:
+يوضح مثال الكود التالي كيفية تحميل قواميس الواصلة للغة المحددة من دفق:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-HyphenateWords-LoadHyphenationDictionaryFromStream.java" >}}
 
 {{% alert color="primary" %}}
 
-يمكنك تحميل ملف النموذج من هذا المثال [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
+يمكنك تنزيل ملف القالب لهذا المثال من [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
 
 {{% /alert %}}
 
-وكبديل عن القاموس التي سبق تسجيلها، لا يمكن تسجيل سوى قواميس الهيفينات المطلوبة " بطلب ". لتحقيق ذلك، تنفيذ [IHyphenationCallback](https://reference.aspose.com/words/java/com.aspose.words/ihyphenationcallback/) الواجهة البينية وإستعمال التردد الثابت [Callback](https://reference.aspose.com/words/java/com.aspose.words/hyphenation/#getCallback).
+كبديل لقواميس الواصلة المسجلة مسبقا، من الممكن تسجيل قواميس الواصلة المطلوبة فقط "حسب الطلب". لتحقيق ذلك، قم بتنفيذ واجهة [IHyphenationCallback](https://reference.aspose.com/words/java/com.aspose.words/ihyphenationcallback/) واستخدم رد الاتصال الثابت [Callback](https://reference.aspose.com/words/java/com.aspose.words/hyphenation/#getCallback).
 
-ويبين المثال الرمزي التالي كيفية تنفيذ **IHyphenationCallback** واجهة:
+يوضح مثال التعليمات البرمجية التالية كيفية تنفيذ واجهة **IHyphenationCallback**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-HyphenateWords-HyphenationCallback.java" >}}
 
-## أثر الهيفينة على العيون
+## تأثير الواصلة على التخطيط
 
-عند اقتحام النص للخطوط Aspose.Words يفحص كل كلمة ما إذا كانت تناسب تماماً الخط الحالي إذا كانت كلمة أخرى طويلة جدا لتناسب في نهاية الخط، عن طريق التقصير Aspose.Words ينتقل إلى بداية السطر التالي بدلاً من التهوية
+عند تقسيم النص إلى أسطر، يتحقق Aspose.Words من كل كلمة ما إذا كانت تتناسب تماما مع السطر الحالي. إذا كانت كلمة أخرى طويلة جدا بحيث لا يمكن احتواؤها في نهاية السطر، بشكل افتراضي Aspose.Words ينقلها إلى بداية السطر التالي بدلا من توصيلها بالواصلة.
 
-ومع ذلك، يمكن استخدام سمة الهيفينة في Aspose.Words إدراج hyphens في الكلمات لإزالة الثغرات في النص المبرّر أو للحفاظ على طول خطي حتى في الأعمدة الضيقة. ومن الواضح أن ذلك يمكن أن يؤثر على عدد الصفحات وبالتالي على عدد الصفحات. وبعبارة أخرى، فإن استخدام وظيفة التهوية يؤثر على تصميم الوثيقة.
+ومع ذلك، يمكن استخدام ميزة الواصلة في Aspose.Words لإدراج واصلات في الكلمات لإزالة الفجوات في النص المبرر أو للحفاظ على طول سطر متساو في أعمدة ضيقة. من الواضح أن هذا يمكن أن يؤثر على عدد الأسطر وبالتالي على عدد الصفحات. بمعنى آخر، يؤثر استخدام وظيفة الواصلة على تخطيط المستند.
 
-## Hyphenation and Justification (HJ)
+## الواصلة والتبرير (ح & ي)
 
-Microsoft Word وله منطق معقد لاختيار نقطة انفصال إذا كان النص مبررا وممكنا من التهوية. باختصار Microsoft Word قد يفضّل أن يتقلص أو يمتدّ المساحات لتجنّب التهوية على الأرجح أن هذا المنطق يقوم على [مقال نوث](https://www.eprg.org/G53DOC/pdfs/knuth-plass-breaking.pdf).
+Microsoft Word له منطق معقد لاختيار نقطة توقف إذا كان النص مبررا وتم تمكين الواصلة. باختصار، قد يفضل Microsoft Word تقليص المسافات أو تمديدها لتجنب واصلة الخط. على الأرجح يعتمد هذا المنطق على [مقال كانوث](https://www.eprg.org/G53DOC/pdfs/knuth-plass-breaking.pdf).
 
-Aspose.Words ينفذ خوارزمياته الخاصة التي تعطي نفس النتيجة Microsoft Word ويقدم خطا مماثلا في وثيقة الناتج.
+Aspose.Words تنفذ خوارزمية ح & ي الخاصة التي تعطي نفس النتيجة Microsoft Word ويوفر كسر خط متطابقة في وثيقة الإخراج.
 
-## انظر أيضا
+## أنظر أيضا
 
-* [Hyphen - hyphenation library](https://github.com/hunspell/hyphen/blob/master/README)
-* [هجينة غير عادية](https://github.com/hunspell/hyphen/blob/master/README.nonstandard)
-* [hyphenation of Automatic non-standard in Open Office](https://github.com/hunspell/hyphen/blob/master/doc/tb87nemeth.pdf)
+* [واصلة-مكتبة الواصلة](https://github.com/hunspell/hyphen/blob/master/README)
+* [الواصلة غير القياسية](https://github.com/hunspell/hyphen/blob/master/README.nonstandard)
+* [الواصلة التلقائية غير القياسية في المكتب المفتوح](https://github.com/hunspell/hyphen/blob/master/doc/tb87nemeth.pdf)

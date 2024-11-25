@@ -1,76 +1,76 @@
----
-title: الخيارات وتقديم الوثائق
-second_title: Aspose.Words for Java
-articleTitle: العمل مع خيارات الوثائق وإثباتها
-linktitle: العمل مع خيارات الوثائق وإثباتها
-description: "مراقبة ظهور وثائق الكلمات مع مراعاة الفرق بين مختلف الوثائق Microsoft Word نسخ باستخدام Java."
+﻿---
+title: خيارات ومظهر مستندات ورد
+second_title: Aspose.Words ل Java
+articleTitle: العمل مع خيارات ومظهر وثائق كلمة
+linktitle: العمل مع خيارات ومظهر وثائق كلمة
+description: "السيطرة على مظهر وثائق وورد مع الأخذ بعين الاعتبار الفرق بين مختلف Microsoft Word الإصدارات باستخدام Java."
 type: docs
 weight: 40
 url: /ar/java/work-with-word-document-options-and-appearance/
 timestamp: 2024-01-27-14-07-04
 ---
 
-في بعض الأحيان قد تحتاج إلى تغيير مظهر وثيقة، على سبيل المثال، تحديد الأفضليات اللغوية أو عدد الخطوط لكل صفحة.Aspose.Words ويتيح القدرة على التحكم في كيفية عرض الوثيقة، فضلا عن بعض الخيارات الإضافية. وتصف هذه المادة هذه الإمكانيات.
+قد تحتاج أحيانا إلى تغيير مظهر المستند، على سبيل المثال، تعيين تفضيلات اللغة أو عدد الأسطر في كل صفحة.Aspose.Words يوفر القدرة على التحكم في كيفية عرض المستند، بالإضافة إلى بعض الخيارات الإضافية. توضح هذه المقالة هذه الاحتمالات.
 
-## مجموعة خيارات عرض الوثيقة
+## تعيين خيارات عرض المستند
 
-يمكنك التحكم كيف سيتم عرض الوثيقة Microsoft Word استخدام [ViewOptions](https://reference.aspose.com/words/java/com.aspose.words/viewoptions/) الصف على سبيل المثال، يمكنك وضع وثيقة قيمة الحدوث باستخدام [ZoomPercent](https://reference.aspose.com/words/java/com.aspose.words/viewoptions/#getZoomPercent) الممتلكات أو طريقة النظر باستخدام [ViewType](https://reference.aspose.com/words/java/com.aspose.words/viewoptions/#getViewType) ملكية
+يمكنك التحكم في كيفية عرض مستند في Microsoft Word باستخدام فئة [ViewOptions](https://reference.aspose.com/words/java/com.aspose.words/viewoptions/). على سبيل المثال، يمكنك تعيين قيمة تكبير المستند باستخدام خاصية [ZoomPercent](https://reference.aspose.com/words/java/com.aspose.words/viewoptions/#getZoomPercent)، أو وضع العرض باستخدام خاصية [ViewType](https://reference.aspose.com/words/java/com.aspose.words/viewoptions/#getViewType).
 
-ويبين المثال الرمزي التالي كيفية ضمان عرض الوثيقة بنسبة 50 في المائة عند فتحها Microsoft Word:
+يوضح مثال الكود التالي كيفية التأكد من عرض مستند بنسبة 50 ٪ عند فتحه في Microsoft Word:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-SetViewOptions-SetViewOptions.java" >}}
 
 {{% alert color="primary" %}}
 
-يمكنك تحميل ملف النموذج لهذا المثال من [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/resources/Document/TestFile.doc).
+يمكنك تنزيل ملف القالب لهذا المثال من [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/resources/Document/TestFile.doc).
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-Microsoft Word 2013 لا يكتب أي عامل من عوامل زوم إلى وثيقة، ولم يعد يحدد الحدوث الافتراضي من القيمة المكتوبة على الوثيقة، بل يبدو أنه يستخدم عامل زوم آخر وثيقة مفتوحة.
+Microsoft Word 2013 لا يكتب أي عامل تكبير إلى مستند ولم يعد يحدد التكبير الافتراضي من القيمة المكتوبة إلى المستند، بدلا من ذلك، يبدو أنه يستخدم عامل التكبير لآخر مستند مفتوح.
 
 {{% /alert %}}
 
-## الخيارات المتاحة
+## تعيين خيارات عرض الصفحة
 
-إذا كنت تريد تحديد عدد الشخصيات لكل خط، استخدام [CharactersPerLine](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getCharactersPerLine) ملكية يمكنك أيضا تحديد عدد الخطوط لكل صفحة لوثيقة الكلمات [LinesPerPage](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getLinesPerPage) الممتلكات للحصول على أو تحديد عدد الخطوط لكل صفحة في شبكة الوثائق.
+إذا كنت تريد تعيين عدد الأحرف في كل سطر، فاستخدم الخاصية [CharactersPerLine](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getCharactersPerLine). يمكنك أيضا تعيين عدد الأسطر لكل صفحة لمستند ورد-استخدم خاصية [LinesPerPage](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getLinesPerPage) للحصول على أو تعيين عدد الأسطر لكل صفحة في شبكة المستند.
 
 {{% alert color="primary" %}}
 
-In Microsoft Word, يمكنك أن تضع نفس البارامترات باستخدام "حكاية الخزنة" في صندوق "منشأة الطعام"
+في Microsoft Word، يمكنك تعيين نفس المعلمات باستخدام علامة التبويب" شبكة المستندات "في مربع الحوار" إعداد الصفحة " فقط عند تثبيت دعم اللغة الآسيوية.
 
 {{% /alert %}}
 
-ويبين المثال الرمزي التالي كيفية تحديد عدد الشخصيات لكل خط وعدد الخطوط لكل صفحة Microsoft Word الوثيقة:
+يوضح مثال الكود التالي كيفية تعيين عدد الأحرف في كل سطر وعدد الأسطر في كل صفحة لمستند Microsoft Word:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentPageSetup-DocumentPageSetup.java" >}}
 
-## تحديد الأفضليات اللغوية
+## تعيين تفضيلات اللغة
 
-عرض وثيقة في Microsoft Word يعتمد على اللغات التي تُحدَّد باعتبارها تقصيراً لهذه الوثيقة. إذا لم تُحدّد أيّ لغة في التخلف Microsoft Word يأخذ معلومات من صندوق "الأفضليات اللغوية للمكتب" الذي، على سبيل المثال، يمكن العثور عليه تحت "الخيارات التقريبية" Microsoft Word 2019
+يعتمد عرض مستند في Microsoft Word على اللغات التي تم تعيينها كإعدادات افتراضية لهذا المستند. إذا لم يتم تعيين أي لغات في الإعدادات الافتراضية، Microsoft Word يأخذ معلومات من مربع الحوار" تعيين تفضيلات لغة المكتب "، والذي، على سبيل المثال، يمكن العثور عليه ضمن" ملف Options خيارات Language لغة " في Microsoft Word 2019.
 
-مع Aspose.Words, يمكنك أيضاً وضع أفضليات لغوية باستخدام [LanguagePreferences](https://reference.aspose.com/words/java/com.aspose.words/languagepreferences/) صف وإذ تلاحظ أيضا أنه من الضروري، من أجل العرض الصحيح لوثيقتكم، أن تحدد ما يلي: Microsoft Word الصيغة التي ينبغي أن تتطابق بها عملية تحميل الوثائق - يمكن القيام بذلك باستخدام [MswVersion](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getMswVersion) ملكية
+باستخدام Aspose.Words، يمكنك أيضا إعداد تفضيلات اللغة باستخدام فئة [LanguagePreferences](https://reference.aspose.com/words/java/com.aspose.words/languagepreferences/). لاحظ أيضا أنه من أجل العرض الصحيح للمستند الخاص بك، من الضروري تعيين الإصدار Microsoft Word الذي يجب أن تتطابق معه عملية تحميل المستند – يمكن القيام بذلك باستخدام خاصية [MswVersion](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getMswVersion).
 
 {{% alert color="primary" %}}
 
-إذا كان Aspose.Words لا تبدو الوثيقة المولدة كما كان متوقعاً **LanguagePreferences** و **MswVersion** القيم وتعديلها إذا لزم الأمر لمطابقة الإطارات الخاصة بك Microsoft Word نسخة.
+إذا كان المستند الذي تم إنشاؤه Aspose.Words لا يبدو كما هو متوقع، فتحقق من قيمتي **LanguagePreferences** و **MswVersion** واضبطهما إذا لزم الأمر لمطابقة إعدادات الإصدار Microsoft Word.
 
 {{% /alert %}}
 
-ويبين المثال الرمزي التالي كيفية إضافة اليابانيين إلى لغات التحرير:
+يوضح مثال الكود التالي كيفية إضافة اللغة اليابانية إلى لغات التحرير:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SetupLanguagePreferences-AddJapaneseAsEditinglanguages.java" >}}
 
-The following code example shows how to set Russian as the default editing language:
+يوضح مثال الكود التالي كيفية تعيين اللغة الروسية كلغة تحرير افتراضية:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SetupLanguagePreferences-SetRussianAsDefaultEditingLanguage.java" >}}
 
-## الاستفادة المثلى من وثيقة خاصة كلمة
+## تحسين مستند لإصدار كلمة معينة
 
-The [OptimizeFor](https://reference.aspose.com/words/java/com.aspose.words/compatibilityoptions/#optimizeFor-int) الطريقة التي تتيح تحقيق المحتوى الأمثل للوثائق، وكذلك التقصير Aspose.Words السلوك في صيغة معينة Microsoft Word. يمكنك استخدام هذه الطريقة لمنع Microsoft Word من عرض شريط " نمط القابلية للتداول " عند تحميل الوثائق. ملاحظة قد تحتاج أيضا إلى وضع `Compliance` الممتلكات إلى Iso29500_2008_Transitional or higher.
+تسمح طريقة [OptimizeFor](https://reference.aspose.com/words/java/com.aspose.words/compatibilityoptions/#optimizeFor-int) بتحسين محتوى المستند، بالإضافة إلى السلوك الافتراضي Aspose.Words لإصدار معين من Microsoft Word. يمكنك استخدام هذه الطريقة لمنع Microsoft Word من عرض شريط "وضع التوافق" عند تحميل المستند. لاحظ أنك قد تحتاج أيضا إلى تعيين الخاصية `Compliance` إلى Iso29500_2008_Transitional أو أعلى.
 
-ويبين المثال الرمزي التالي كيفية تحقيق الحد الأمثل من محتوى الوثائق Microsoft Word 2016:
+يوضح مثال الكود التالي كيفية تحسين محتوى المستند لـ Microsoft Word 2016:
 
 {{< highlight csharp >}}
 Document doc = new Document(dataDir + "Document.docx");

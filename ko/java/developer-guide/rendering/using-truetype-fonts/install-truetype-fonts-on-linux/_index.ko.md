@@ -1,47 +1,47 @@
----
-title: True 설치 본문 바로가기 Linux 내 계정 Java
-second_title: Aspose.Words 제품정보 Java
-articleTitle: True 설치 본문 바로가기 Linux
-linktitle: True 설치 본문 바로가기 Linux
-description: "Aspose.Words 제품정보 Java 작성된 문서를 렌더링할 수 있습니다. Microsoft Word 에 의해 Linux 제일 정확도를 가진 기계."
+﻿---
+title: Java의Linux에TrueType글꼴 설치
+second_title: Aspose.WordsJava
+articleTitle: Linux에TrueType글꼴 설치
+linktitle: Linux에TrueType글꼴 설치
+description: "Aspose.WordsJava의 경우Linux컴퓨터에서Microsoft Word을 사용하여 만든 문서를 가장 정확하게 렌더링할 수 있습니다."
 type: docs
 weight: 20
 url: /ko/java/install-truetype-fonts-on-linux/
 timestamp: 2024-01-27-14-07-04
 ---
 
-자주, 당신은 Aspose.Words DOC 또는 DOCX 문서를 PDF 형식으로 변환합니다. 이 작업을 수행해야하는 경우 Linux 기계,이 주제는 당신이 보장하는 방법을 배울 것을 도울 것입니다 Aspose.Words 최고의 정확도로 문서를 렌더링합니다.
+대부분의 경우Aspose.Words을 사용하여DOC또는DOCX문서를PDF형식으로 변환합니다. Linux컴퓨터에서 이 작업을 수행해야 하는 경우 이 항목에서는Aspose.Words이 문서를 가장 정확하게 렌더링하는지 확인하는 방법을 배우는 데 도움이 됩니다.
 
-가장 자주, DOC 및 DOCX 문서, 변환해야 생성 된 Microsoft Word, 에 의해 Windows 또는 Mac OS 운영 체제. 따라서 DOC 및 DOCX 문서에서 사용되는 대부분의 글꼴은 "Windows fonts" 또는 "Office fonts"는 글꼴로 설치 Microsoft Windows 또는 Microsoft 사무실. 이 폰트에는 Arial, Calibri, Cambria, Century Gothic, Courier New, Garamond, Tahoma, Verdana, Wingdings 및 기타 많은 것들이 포함됩니다.
+가장 자주,변환해야 하는DOC및DOCX문서는Windows또는Mac OS 운영 체제에서Microsoft Word을 사용하여 만들어졌습니다. 따라서DOC및DOCX문서에 사용되는 대부분의 글꼴은Microsoft Windows또는Microsoft오피스와 함께 설치된 글꼴인"Windows글꼴"또는"사무실 글꼴"입니다. 이 글꼴에는 아리알,칼리브리,캄브리아,센추리 고딕,쿠리어 뉴,가라몬드,타호마,베르다나,윙딩스 등이 포함됩니다.
 
-문제는 `TrueType` 위에 나열된 글꼴은 기본적으로 설치되지 않습니다. Linux 관련 상품 Cambria 폰트로 포맷 된 전형적인 DOCX 문서를 가지고 가서 PDF 형식으로 변환하려고 Linux· Aspose.Words Cambria가 사용할 수 없기 때문에 다른 글꼴을 사용합니다. 결과적으로 PDF 문서는 원본 DOCX 문서와 비교하여 다를 수 있습니다. 문서가 변환되도록 Aspose.Words 원본에 가능한 한 가까이 표시, 당신은 설치해야합니다 "Windows 글꼴"당신의 Linux 시스템.
+문제는 위에 나열된`TrueType`글꼴이Linux배포판에 기본적으로 설치되지 않는다는 것입니다. 캄브리아 글꼴로 서식이 지정된 일반적인DOCX문서를Linux에서PDF형식으로 변환하려고 하면Aspose.Words은 캄브리아를 사용할 수 없기 때문에 다른 글꼴을 사용합니다. 따라서PDF문서는 원래DOCX문서와 비교하여 다르게 보일 것입니다. Aspose.Words으로 변환된 문서가 원본에 최대한 가깝게 표시되도록 하려면Linux시스템에"Windows글꼴"을 설치해야 합니다.
 
-TrueType 글꼴을 얻는 두 가지 주요 방법이 있습니다. Linux 체계:
+Linux시스템에서TrueType글꼴을 얻는 두 가지 주요 방법이 있습니다:
 
-- 복사 .TTF 및. TTC 파일 Windows 당신의 기계에 Linux 기계 기계
-- 설치 `TrueType` 글꼴 패키지 등 *msttcorefonts*
+- 알았어요TTF그리고.TTCWindows컴퓨터에서Linux컴퓨터로 파일
+- `TrueType`글꼴 패키지(예:*msttcorefonts*)설치
 
-## 본문 바로가기 Windows 기계 기계
+## Windows컴퓨터에서 글꼴 복사
 
-TrueType 글꼴을 얻는 쉽고 빠른 방법 Linux 체계는 사본에 입니다. TTF와. TTC 파일에서 `C:\Windows\Fonts` 로그인 Windows 기계에 일부 디렉토리에 Linux 기계. 이 글꼴을 설치하거나 등록할 필요가 없습니다. Linux 어떤 방법으로; 당신은 단지 글꼴의 위치를 지정해야합니다 [FontSettings](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/) 수업료 Aspose.Words·
+Linux시스템에서TrueType글꼴을 얻는 쉽고 빠른 방법은 복사하는 것입니다.TTF그리고.TTCWindows컴퓨터의`C:\Windows\Fonts`디렉터리에서Linux컴퓨터의 일부 디렉터리로 파일. 당신은 설치하거나 어떤 식 으로든Linux에 이러한 글꼴을 등록 할 필요가 없습니다;당신은 단지Aspose.Words에서[FontSettings](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/)클래스를 사용하여 글꼴의 위치를 지정해야합니다.
 
 {{% alert color="primary" %}}
 
-폰트 라이센싱이 필요한지 확인하고, 모든 MS 글꼴을 설치하기 전에 EULA를 신중하게 읽으십시오. Linux 운영 체계.
+글꼴 라이선스가 필요한지 확인하고Linux운영 체제에MS글꼴을 설치하기 전에EULA을 주의 깊게 읽으십시오.
 
 {{% /alert %}}
 
-## 설치하기 `TrueType` 본문 바로가기
+## `TrueType`글꼴 패키지 설치
 
-다수 있습니다 Linux 패키지, 포함 Microsoft TrueType 글꼴, 다운로드 및 설치 할 수 있습니다. Linux 기계. 정확한 단계는 각종에 다를지도 모릅니다 Linux 관련 상품
+Linux패키지에는MicrosoftTrueType글꼴이 포함되어 있으며Linux컴퓨터에 다운로드하여 설치할 수 있습니다. 정확한 단계는 다양한Linux분포에서 다를 수 있습니다.
 
-- 에 Ubuntu, Synaptic Package Manager를 사용하여 *ttf-mscorefonts-installer* 패키지를 찾아 설치하십시오.
-- openSUSE에서 Yast2 → Software Management를 사용하여 찾아 설치 *fetchmsttfonts* 패키지.
-- Liberation 글꼴은 OFL의 밑에, 표준에 대안으로 허가했습니다 Windows 글꼴: Arial, Times New Roman 및 Courier New.
-- 기타에 적합한 글꼴 패키지 Linux 배포, 인터넷에서 사용 가능한 문서 검색.
+- Ubuntu에서 시냅틱 패키지 관리자를 사용하여*ttf-mscorefonts-installer*패키지를 찾아 설치합니다.
+- OpenSUSE에서*fetchmsttfonts*패키지를 찾아 설치합니다.
+- 굴림,타임즈 새로운 로마,택배 새로운:표준Windows글꼴에 대한 대안으로,OFL에서 라이센스 해방 글꼴을 사용합니다.
+- 다른Linux배포판에 적합한 글꼴 패키지의 경우 인터넷에서 사용 가능한 문서를 검색하십시오.
 
-포장을 설치한 후에, Aspose.Words 시스템에 폴더에 이러한 글꼴을 찾을 수 있으며 문서 작업시 사용.
+패키지를 설치한 후Aspose.Words은 시스템의 폴더에서 이러한 글꼴을 찾아 문서 작업을 할 때 사용합니다.
 
-## 더 보기
+## 또한 참조
 
-- - - [연락처](https://github.com/liberationfonts) 표준에 대한 대안 Windows 사이트맵
+- [해방 글꼴](https://github.com/liberationfonts) 표준Windows글꼴의 대안으로

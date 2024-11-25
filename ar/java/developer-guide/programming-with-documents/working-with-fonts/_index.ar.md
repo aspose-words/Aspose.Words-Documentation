@@ -1,39 +1,39 @@
----
-title: العمل مع الفوانتس في Java
-second_title: Aspose.Words for Java
-articleTitle: العمل مع الفوانتس
-linktitle: العمل مع الفوانتس
-description: "الصيغ الفوتوغرافية بالتفاصيل باستخدام Java."
+﻿---
+title: العمل مع الخطوط في Java
+second_title: Aspose.Words ل Java
+articleTitle: العمل مع الخطوط
+linktitle: العمل مع الخطوط
+description: "تنسيق الخط في التفاصيل باستخدام Java."
 type: docs
 weight: 230
 url: /ar/java/working-with-fonts/
 timestamp: 2024-01-27-14-07-04
 ---
 
-الخط هو مجموعة من الشخصيات ذات حجم و لون و تصميم Aspose.Words يُمكِنُك أَنْ تَعْملَ مَع النواةِ مِنْ بَعْدَة فصول مُتَصَلَة، بما في ذلك [Font](https://reference.aspose.com/words/java/com.aspose.words/font/) الصف
+الخط عبارة عن مجموعة من الأحرف ذات حجم ولون وتصميم معين. Aspose.Words يسمح لك بالعمل مع الخطوط باستخدام فئات مختلفة متعلقة بالخط، بما في ذلك فئة [Font](https://reference.aspose.com/words/java/com.aspose.words/font/).
 
-## Font Formatting
+## تنسيق الخط
 
-الشكل البياني الحالي يمثله **Font** الجسم الذي أعاده [Font](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getFont) ملكية The **Font** الطبقة تحتوي على مجموعة واسعة من الخواص الفونتية Microsoft Word.
+يتم تمثيل تنسيق الخط الحالي بواسطة **Font** كائن تم إرجاعه بواسطة [Font](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getFont) خاصية. تحتوي فئة **Font** على مجموعة متنوعة من خصائص الخط الممكنة في Microsoft Word.
 
-The following code example shows how to set font formatting:
+يوضح مثال التعليمات البرمجية التالية كيفية تعيين تنسيق الخط:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithDocumentBuilder-SetFontFormatting.java" >}}
 
-وتتاح أيضا الممتلكات المالية الآن لللافتات لتحديد شكل النصوص. فهو يعطي القدرة على التغيير، على سبيل المثال، لون الأرض أو الشفافية في ملء النص.
+تتوفر أيضا خصائص التعبئة الآن للخطوط لتعيين تنسيق تعبئة النص. يعطي القدرة على تغيير، على سبيل المثال، لون المقدمة أو شفافية ملء النص.
 
-## الحصول على خط فونت Spacing
+## الحصول على تباعد خط الخط
 
-والمباعدة بين الخطين المتتاليين للنص هي المسافات العمودية بين خطي الأساس. وهكذا، فإن المباعدة بين الخطين تشمل المساحة الفارغة بين الخطوط وطول الشخصية نفسها.
+تباعد الأسطر للخط هو المسافة الرأسية بين خطوط الأساس لسطرين متتاليين من النص. وبالتالي، يتضمن تباعد الأسطر المساحة الفارغة بين الأسطر جنبا إلى جنب مع ارتفاع الحرف نفسه.
 
-The [LineSpacing](https://reference.aspose.com/words/java/com.aspose.words/font/#getLineSpacing) أُدخلت الممتلكات في **Font** درجة الحصول على هذه القيمة على النحو المبين في المثال الوارد أدناه:
+تم تقديم خاصية [LineSpacing](https://reference.aspose.com/words/java/com.aspose.words/font/#getLineSpacing) في فئة **Font** للحصول على هذه القيمة كما هو موضح في المثال الموضح أدناه:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-GetFontLineSpacing-GetFontLineSpacing.java" >}}
 
-## Font EmphasisMark
+## الخط EmphasisMark
 
-The **Font** الطبقة [EmphasisMark](https://reference.aspose.com/words/java/com.aspose.words/font/#getEmphasisMark) الممتلكات للحصول على أو تحديد قيم القيد الخاصة بشركة إيمسيس مارك التي ستطبق في الشكل.
+توفر فئة **Font** خاصية [EmphasisMark](https://reference.aspose.com/words/java/com.aspose.words/font/#getEmphasisMark) للحصول على أو تعيين EmphasisMark قيم التعداد ليتم تطبيقها في التنسيق.
 
-The following code example shows how to set the **EphasisMark** الممتلكات:
+يوضح مثال التعليمات البرمجية التالية كيفية تعيين الخاصية **EphasisMark**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithDocumentBuilder-SetFontEmphasisMark.java" >}}

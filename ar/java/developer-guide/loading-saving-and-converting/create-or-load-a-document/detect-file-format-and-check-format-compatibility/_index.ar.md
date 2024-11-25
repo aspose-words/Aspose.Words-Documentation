@@ -1,68 +1,68 @@
----
-title: الشكل النهائي
-second_title: Aspose.Words for Java
-articleTitle: Detect File Format and check Format Comp
-linktitle: Detect File Format and check Format Comp
-description: "الحصول على معلومات عن شكل الوثيقة قبل فتحها لتجنب استثناء إذا لم تكن متأكداً ما هو المحتوى الفعلي للملف الذي يستخدمه Java."
+﻿---
+title: كشف تنسيق الملف
+second_title: Aspose.Words ل Java
+articleTitle: كشف تنسيق الملف والتحقق من توافق التنسيق
+linktitle: كشف تنسيق الملف والتحقق من توافق التنسيق
+description: "احصل على معلومات حول تنسيق المستند قبل فتحه لتجنب استثناء إذا لم تكن متأكدا من المحتوى الفعلي للملف الذي يستخدمه Java."
 type: docs
 weight: 20
 url: /ar/java/detect-file-format-and-check-format-compatibility/
 timestamp: 2024-10-21-11-17-44
 ---
 
-وفي بعض الأحيان، من الضروري تحديد شكل وثيقة قبل فتحها لأن تمديد الملف لا يضمن ملاءمة محتويات الملف. فعلى سبيل المثال، من المعروف أن تقارير كريستال كثيرا ما تُنتج وثائق في شكل فرقة العمل المعنية بالتنفيذ في مجال مكافحة الإرهاب، ولكنها تعطيها تمديدا للدوائر.
+في بعض الأحيان يكون من الضروري تحديد تنسيق المستند قبل الفتح لأن امتداد الملف لا يضمن أن محتويات الملف مناسبة. على سبيل المثال، فمن المعروف أن تقارير كريستال في كثير من الأحيان مخرجات الوثائق في RTF شكل, ولكن يعطيها .ملحق الوثيقة.
 
-Aspose.Words يوفر القدرة على الحصول على معلومات عن نوع الملف من أجل تجنب الاستثناء إذا كنت غير متأكد من المحتوى الفعلي للملف.
+Aspose.Words يوفر القدرة على الحصول على معلومات حول نوع الملف لتجنب استثناء إذا لم تكن متأكدا من المحتوى الفعلي للملف.
 
-## Detect File Format without an exceptionion
+## كشف تنسيق الملف دون استثناء
 
-عندما تتعاملين مع وثائق متعددة في أشكال مختلفة من الملفات، قد تحتاجي إلى فصل تلك الملفات التي يمكن تجهيزها Aspose.Words من أولئك الذين لا يستطيعون قد ترغبون أيضاً في معرفة سبب عدم إمكانية تجهيز بعض الوثائق
+عندما تتعامل مع مستندات متعددة بتنسيقات ملفات مختلفة، فقد تحتاج إلى فصل تلك الملفات التي يمكن معالجتها بواسطة Aspose.Words عن تلك التي لا يمكنها ذلك. قد ترغب أيضا في معرفة سبب عدم إمكانية معالجة بعض المستندات.
 
-إذا حاولت تحميل ملف في [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) الجسم Aspose.Words لا يمكن أن يعترف بشكل الملف أو أن الشكل غير مدعم، Aspose.Words سيضع استثناءً يمكنك الإمساك بتلك الاستثناءات وتحليلها، لكن Aspose.Words يوفر أيضا [DetectFileFormat](https://reference.aspose.com/words/java/com.aspose.words/fileformatutil/#detectFileFormat-java.lang.String) الطريقة التي تسمح لنا بتحديد شكل الملف بسرعة دون تحميل وثيقة مع استثناءات محتملة. هذه الطريقة تعود [FileFormatInfo](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/) الجسم الذي يحتوي على المعلومات المكتشفة عن نوع الملف
+إذا حاولت تحميل ملف في كائن [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) و Aspose.Words لا يمكن التعرف على تنسيق الملف أو التنسيق غير مدعوم، Aspose.Words سوف يلقي استثناء. يمكنك التقاط هذه الاستثناءات وتحليلها، ولكن Aspose.Words يوفر أيضا طريقة [DetectFileFormat](https://reference.aspose.com/words/java/com.aspose.words/fileformatutil/#detectFileFormat-java.lang.String) التي تسمح لنا بتحديد تنسيق الملف بسرعة دون تحميل مستند مع استثناءات محتملة. تقوم هذه الطريقة بإرجاع كائن [FileFormatInfo](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/) يحتوي على المعلومات المكتشفة حول نوع الملف.
 
 {{% alert color="primary" %}}
 
-Detect File ولا تدقق الصيغة إلا في شكل الملف ولكنها لا تصادق على شكل الملف. ولا يوجد ضمان بأن يُفتح الملف بنجاح، حتى وإن كان **DetectFileFormat** يعود إلى أنه أحد الأشكال المدعومة. هذا بسبب **DetectFileFormat** ولا تُقرأ الطريقة إلا بيانات جزئية عن شكل الملفات، كافية للتحقق من شكل الملف، ولكنها غير كافية للتحقق الكامل.
+DetectFileFormat يتحقق فقط من تنسيق الملف ولكنه لا يتحقق من صحة تنسيق الملف. ليس هناك ما يضمن أنه سيتم فتح الملف بنجاح، حتى إذا كان **DetectFileFormat** يعود إلى أنه أحد التنسيقات المدعومة. هذا بسبب **DetectFileFormat** طريقة يقرأ البيانات تنسيق ملف جزئي فقط، كافية للتحقق من تنسيق الملف، ولكن ليس بما فيه الكفاية للتحقق من صحة كاملة.
 
 {{% /alert %}}
 
-## فحص الملفات
+## تحقق من توافق تنسيق الملفات
 
-ويمكننا أن نتحقق من التوافق الشكلي لجميع الملفات في الملف المختار ونصنفها حسب الشكل إلى الملفات الفرعية المقابلة.
+يمكننا التحقق من توافق التنسيق لجميع الملفات في المجلد المحدد وفرزها حسب التنسيق في مجلدات فرعية مقابلة.
 
-بما أننا نتعامل مع المحتويات في الملف أول شيء علينا فعله هو الحصول على مجموعة من الملفات في هذا الملف **GetFiles** طريقة `Directory` الفئة (من) `System.IO` مكان الاسم.
+نظرا لأننا نتعامل مع محتويات في مجلد، فإن أول شيء يتعين علينا القيام به هو الحصول على مجموعة من جميع الملفات الموجودة في هذا المجلد باستخدام طريقة **GetFiles** لفئة `Directory` (من مساحة الاسم `System.IO`).
 
-ويبين المثال الرمزي التالي كيفية الحصول على قائمة بجميع الملفات في الملف:
+يوضح مثال التعليمات البرمجية التالية كيفية الحصول على قائمة بجميع الملفات الموجودة في المجلد:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-CheckFormatCompatibility-GetListOfFilesInFolder.java" >}}
 
-عندما يتم جمع جميع الملفات، ينجز بقية العمل **DetectFileFormat** الطريقة التي تفحص شكل الملف
+عندما يتم جمع جميع الملفات، يتم تنفيذ بقية العمل بواسطة طريقة **DetectFileFormat**، والتي تتحقق من تنسيق الملف.
 
-The following code example shows how to iterate over the collected list of files, check the format of each file, and moves each file to the appropriate folder:
+يوضح مثال التعليمات البرمجية التالية كيفية التكرار عبر قائمة الملفات المجمعة، والتحقق من تنسيق كل ملف، ونقل كل ملف إلى المجلد المناسب:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-CheckFormatCompatibility-CheckFormatCompatibility.java" >}}
 
-يتم نقل الملفات إلى ملفات فرعية مناسبة باستخدام `Move` طريقة `File` من نفس الصف `System.IO` مكان الاسم
+يتم نقل الملفات إلى المجلدات الفرعية المناسبة باستخدام طريقة `Move` من فئة `File`، من نفس مساحة الاسم `System.IO`.
 
-The following files are used in the example above. اسم الملف على اليسار ووصفه على اليمين:
+يتم استخدام الملفات التالية في المثال أعلاه. اسم الملف على اليسار ووصفه على اليمين:
 
-| Group of Files | الوثيقة | النوع |
-|  :-  |  :-  |  :-  |
-| صيغ الملفات المدعومة | ملف الاختبار (دوك) | Microsoft Word 95/6.0 أو Microsoft Word 97 - وثيقة عام 2003. |
-|  | ملف الاختبار )الباب( | Microsoft Word 95/6.0 أو Microsoft Word 97 - نموذج عام 2003. |
-|  | ملف الاختبار (الدوك) | المكتب المفتوح باب العضوية م. م. |
-|  | ملف الاختبار (المكتب) | المكتب المفتوح باب العضوية م. م. |
-|  | ملف الاختبار (دوتكس) | المكتب المفتوح باب العضوية نموذج ML. |
-|  | ملف الاختبار (Dotm).dotm | المكتب المفتوح باب العضوية نموذج ML مع الثدييات. |
-|  | ملف الاختبار (XML) | -وثيقة (فلاتوبك ) |
-|  | ملف الاختبار (RTF) | وثيقة نسيج فورمات |
-|  | ملف الاختبار (WordML) | Microsoft Word تجهيز الكلمات ML document. |
-|  | Test File (HTML).html | HTML document. |
-|  | ملف الاختبار (MHTML).mhtml | MHTML (Web archive) document. |
-|  | ملف الاختبار (Odt).odt | نص الوثائق المفتوحة (كاتب المكتب). |
-|  | ملف الاختبار (Ott) | نموذج وثيقة الإفتتاح |
-|  | ملف الاختبار (DocPreWord60).doc | Microsoft Word 2.0 وثيقة. |
-| الوثائق المشفرة | ملف الاختبار (Enc).doc | المشفرة Microsoft Word 95/6.0 أو Microsoft Word 97 - وثيقة عام 2003. |
-|  | ملف الاختبار (Enc).docx | المكتب المشفر ML document. |
-| صيغ الملفات غير المدعومة | ملف الاختبار (JPG). jpg | ملف صورة (جي بي جي) |
+| مجموعة من الملفات | وثيقة الإدخال | النوع |
+| :- | :- | :- |
+| تنسيقات الملفات المدعومة | Test File (Doc).doc | Microsoft Word 95/6.0 أو Microsoft Word 97-2003 وثيقة. |
+|  | Test File (Dot).dot | Microsoft Word 95/6.0 أو Microsoft Word 97-2003 قالب. |
+|  | Test File (Docx).docx | مكتب مفتوح XML WordprocessingML وثيقة بدون وحدات الماكرو. |
+|  | Test File (Docm).docm | مكتب مفتوح XML WordprocessingML وثيقة مع وحدات الماكرو. |
+|  | Test File (Dotx).dotx | مكتب مفتوح XML WordprocessingML قالب. |
+|  | Test File (Dotm).dotm | مكتب مفتوح XML WordprocessingML قالب مع وحدات الماكرو. |
+|  | Test File (XML).xml | FlatOPC OOXML وثيقة. |
+|  | Test File (RTF).rtf | وثيقة تنسيق النص المنسق. |
+|  | Test File (WordML).xml | Microsoft Word 2003 WordprocessingML وثيقة. |
+|  | Test File (HTML).html | HTML وثيقة. |
+|  | Test File (MHTML).mhtml | MHTML (أرشيف الويب) وثيقة. |
+|  | Test File (Odt).odt | OpenDocument نص (OpenOffice كاتب). |
+|  | Test File (Ott).ott | OpenDocument قالب المستند. |
+|  | Test File (DocPreWord60).doc | Microsoft Word 2.0 وثيقة. |
+| المستندات المشفرة | Test File (Enc).doc | مشفرة Microsoft Word 95/6.0 أو Microsoft Word 97 – 2003 وثيقة. |
+|  | Test File (Enc).docx | مكتب مشفر مفتوح XML WordprocessingML وثيقة. |
+| تنسيقات الملفات غير المدعومة | Test File (JPG).jpg | JPEG ملف الصورة. |
 

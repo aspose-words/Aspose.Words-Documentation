@@ -1,9 +1,9 @@
----
+﻿---
 title: Android über Java Produktübersicht
 second_title: Aspose.Words für Java
 articleTitle: Produktübersicht
 linktitle: Produktübersicht
-description: "Aspose.Words für Android über Java ein `Java` Klassenbibliothek, die Android Entwickler, um eine große Auswahl an Dokumentenverarbeitungsaufgaben durchzuführen."
+description: "Aspose.Words für Android via Java ist eine `Java` Klassenbibliothek, mit der Android Entwickler eine Vielzahl von Dokumentenverarbeitungsaufgaben ausführen können."
 type: docs
 weight: 10
 url: /de/java/android-product-overview/
@@ -14,43 +14,43 @@ timestamp: 2024-01-27-14-07-04
 
 **Willkommen bei Aspose.Words für Android über Java!**
 
-Aspose.Words für Android über Java ein `Java` Klassenbibliothek, die Android Entwickler, um eine große Auswahl an Dokumentenverarbeitungsaufgaben durchzuführen. Aspose.Words für Android über Java unterstützt DOC, DOCX, RTF, HTML, OpenDocument, PDF, XPS, EPUB und andere Formate. mit Aspose.Words für Android über Java Sie können Dokumente generieren, modifizieren, konvertieren, rendern und drucken. Verwendung Aspose.Words für Android über Java in Ihrem Projekt gibt Ihnen die Vorteile eines reichen Feature-Set, Plattformunabhängigkeit, Leistung und Skalierbarkeit mit einer minimalen Lernkurve.
+Aspose.Words für Android via Java ist eine `Java` Klassenbibliothek, mit der Android Entwickler eine Vielzahl von Dokumentenverarbeitungsaufgaben ausführen können. Aspose.Words für Android über Java unterstützt DOC, DOCX, RTF, HTML, OpenDocument, PDF, XPS, EPUB und andere Formate. Mit Aspose.Words für Android über Java können Sie Dokumente generieren, ändern, konvertieren, rendern und drucken. Die Verwendung von Aspose.Words für Android über Java in Ihrem Projekt bietet Ihnen die Vorteile eines umfangreichen Funktionsumfangs, Plattformunabhängigkeit, Leistung und Skalierbarkeit bei minimaler Lernkurve.
 
 {{% /alert %}}
 
-## Produktbeschreibung
+## Beschreibung
 
-### Rich Set von Funktionen
+### Umfangreiche Funktionen
 
-Aspose.Words für Android über Java Merkmale können in vier Hauptbereiche unterteilt werden:
+Aspose.Words für Android über Java Features können in vier Hauptbereiche unterteilt werden:
 
-- Ja. **Conversions**. Hochwertige Konvertierungen in und aus DOC, OOXML, RTF, WordprocessingML, HTML, MHTML, TXT und OpenDocument Formaten.
-- Ja. **Document Object Model**. Programmierter Zugriff durch einen reichen API zu allen Dokument-Elementen und Formatierung ermöglicht es, Dokumentinhalte zu erstellen, zu modifizieren, zu extrahieren, zu kopieren, zu teilen, zu verbinden und zu ersetzen.
-- Ja. **Rendering**. ganze Dokumente oder Seiten in PDF umrechnen, XPS oder SWF. Auch Dokumentseiten in TIFF-, PNG- oder BMP-Bilder umwandeln, Seiten drucken oder auf eine `Canvas` Objekt. Alle mit hoher Treue - genau wie Microsoft Word® hätte es getan.
-- Ja. **Reporting**. Erstellen von Dokumenten oder Berichten von Grund auf oder durch Ausfüllen von Vorlagen mit Daten aus Datenquellen oder Geschäftsobjekten.
+- **Conversions**. Hochwertige Konvertierungen von und nach DOC, OOXML, RTF, WordprocessingML, HTML, MHTML, TXT und OpenDocument Formate.
+- **Document Object Model**. Der programmgesteuerte Zugriff über ein reichhaltiges API auf alle Dokumentelemente und Formatierungen ermöglicht das Erstellen, Ändern, Extrahieren, Kopieren, Teilen, Verbinden und Ersetzen von Dokumentinhalten.
+- **Rendering**. Konvertieren Sie ganze Dokumente oder Seiten in PDF, XPS oder SWF. Konvertieren Sie Dokumentseiten auch in TIFF -, PNG - oder BMP -Bilder, drucken oder rendern Sie Seiten in ein `Canvas` -Objekt. Alles mit hoher Wiedergabetreue - genau wie Microsoft Word® es getan hätte.
+- **Reporting**. Generieren Sie Dokumente oder Berichte von Grund auf neu oder indem Sie Vorlagen mit Daten aus Datenquellen oder Geschäftsobjekten füllen.
 
-### Plattform Unabhängigkeit
+### Plattformunabhängigkeit
 
-Aspose.Words für Android über Java kann überall verwendet werden, wo Android Runtime-Umgebung ist installiert. Aspose.Words für Android über Java ist verfügbar für Java SE 5, 6 und 7 Android Systeme laufen Android OS 2.0 oder höher. Das bedeutet fast alles Android Entwickler können verwenden Aspose.Words für Android über Java um ihre Anwendungen zu bereichern.
+Aspose.Words für Android über Java kann überall dort verwendet werden, wo die Android Laufzeitumgebung installiert ist. Aspose.Words für Android via Java ist für Java SE 5, 6 und 7 verfügbar und läuft auf Android-Systemen mit Android OS 2.0 oder höher. Dies bedeutet, dass fast alle Android -Entwickler Aspose.Words für Android über Java verwenden können, um ihre Anwendungen anzureichern.
 
 ### Leistung und Skalierbarkeit
 
-Aspose.Words für Android über Java ein einziges JAR Archiv, das mit jeder Android Anwendung durch einfaches Kopieren auf das Gerät und Hinzufügen zum Build-Pfad. Sie müssen sich nicht um andere Dienstleistungen oder Module kümmern. Sie können buchstäblich Tausende von Dokumenten in Minuten mit Aspose.Words für Android über Java und das beinhaltet das Öffnen eines Dokuments, das Ändern von Inhalten und Formatieren oder das Populieren mit Daten und das Speichern.
+Aspose.Words für Android über Java ist ein einzelnes JAR-Archiv, das mit jeder Android-Anwendung bereitgestellt werden kann, indem es einfach auf das Gerät kopiert und dem Erstellungspfad hinzugefügt wird. Sie müssen sich um keine anderen Dienste oder Module kümmern. Sie können buchstäblich Tausende von Dokumenten in Minuten mit Aspose.Words für Android über Java generieren. Dazu müssen Sie ein Dokument öffnen, Inhalt und Formatierung ändern oder es mit Daten füllen und speichern.
 
-Aspose.Words für Android über Java ist multithread sicher, solange nur ein Thread auf einem Dokument zu einem Zeitpunkt funktioniert. Es ist ein typisches Szenario, dass ein Thread an einem Dokument arbeitet. Verschiedene Threads können sicher auf verschiedenen Dokumenten gleichzeitig arbeiten.
+Aspose.Words für Android über Java ist Multithread-sicher, solange jeweils nur ein Thread an einem Dokument arbeitet. Es ist ein typisches Szenario, wenn ein Thread an einem Dokument arbeitet. Verschiedene Threads können sicher gleichzeitig an verschiedenen Dokumenten arbeiten.
 
 ### Minimale Lernkurve
 
-Obwohl es über 150 öffentliche Klassen und Aufzählungen in Aspose.Words für Android über Java die Lernkurve ist minimal, weil Aspose.Words für Android über Java API wurde sorgfältig mit folgenden Zielen entworfen:
+Obwohl es in Aspose.Words für Android über Java über 150 öffentliche Klassen und Aufzählungen gibt, ist die Lernkurve minimal, da Aspose.Words für Android über Java API sorgfältig unter Berücksichtigung der folgenden Ziele entworfen wurde:
 
-- Borrow Best Practices von anderen bekannten APIs wie Microsoft Word Automatisierung.
-- Best Practices der Branche akzeptiert Java und Android Entwurfsrichtlinien.
-- Geben Sie eine Balance der einfachen Verwendung vs detaillierte Dokumentelement Manipulation.
+- Leihen Sie sich Best Practices von anderen bekannten APIs aus, z. B. Microsoft Word Automatisierung.
+- Leihen Sie sich Best Practices aus den branchenweit akzeptierten Java - und Android -Designrichtlinien aus.
+- Bieten Sie ein ausgewogenes Verhältnis zwischen einfacher Verwendung und detaillierter Bearbeitung von Dokumentelementen.
 
-Gleichzeitig, Aspose.Words für Android über Java ist ganz anders als Microsoft Word Objektmodell darin, dass es das Dokument als Baum von Objekten darstellt mehr wie ein XML DOM Baum. Wenn Sie mit einem XML gearbeitet haben DOM Bibliothek finden Sie es einfach zu verstehen und mit Aspose.Words für Android über Java.
+Gleichzeitig unterscheidet sich Aspose.Words für Android über Java erheblich vom Microsoft Word -Objektmodell, da es das Dokument als einen Baum von Objekten darstellt, der eher einem XML DOM -Baum ähnelt. Wenn Sie mit einer XML DOM Bibliothek gearbeitet haben, werden Sie feststellen, dass es leicht zu verstehen ist und mit Aspose.Words für Android über Java zu arbeiten.
 
-## Systemanforderungen
+## Systemanforderung
 
-Aspose.Words für Android über Java ist Plattform unabhängig und kann auf jeder Plattform verwendet werden, wo Android Runtime-Umgebung ist installiert und läuft weiter Android Systeme laufen Android OS 2.0 oder höher. Zur Zeit wurde das Bauteil mit:
+Aspose.Words für Android via Java ist plattformunabhängig und kann auf jeder Plattform verwendet werden, auf der Android Laufzeitumgebung installiert ist und auf Android Systemen mit Android OS 2.0 oder höher ausgeführt wird. Derzeit wurde die Komponente mit getestet:
 
-- Ja. Android 4.2 bis 17
+- Android 4.2 bis 17

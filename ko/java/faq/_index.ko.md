@@ -1,185 +1,185 @@
----
-title: 제품 정보
-second_title: Aspose.Words 제품정보 Java
-articleTitle: 제품 정보
-linktitle: 제품 정보
+﻿---
+title: FAQ
+second_title: Aspose.WordsJava
+articleTitle: FAQ
+linktitle: FAQ
 type: docs
-description: "Aspose.Words 제품정보 Java 자주 묻는 질문 답변 일반적인 질문이나 특정 주제에 대한 문제를 신속하게 해결하기 위해이 페이지를 알아보기."
+description: "Aspose.WordsJava의 경우 가장 자주 묻는 질문에 답합니다. 이 페이지를 통해 일반적인 질문이나 특정 주제에 대한 문제를 신속하게 해결할 수 있습니다."
 weight: 75
 url: /ko/java/faq/
 timestamp: 2024-01-31-14-23-37
 ---
 
-이 페이지는 자주 묻는 질문에 대한 답변을 포함합니다. 현재 페이지를 배우십시오 - 아마도 이것은 신속하게 문제를 해결할 수 있습니다.
+이 페이지에는 가장 자주 묻는 질문에 대한 답변이 포함되어 있습니다. 현재 페이지를 배우십시오-아마도 이것은 당신이 당신의 문제를 빨리 해결할 수있게 해줄 것입니다.
 
-질문에 대한 답변을 찾을 수없는 경우 지원 포럼에 요청할 수 있습니다. 자주 묻는 질문이나 문제를 제대로 보고하는 방법에 대한 정보 [기술 지원](/words/ko/java/technical-support/) 사이트 맵
-
-{{% alert color="primary" %}}
-
-자주 묻는 질문은 귀하의 편의를 위해 주제에 의해 그룹화됩니다.
-
-{{% /alert %}}
-
-## 주요사업
-
-**Q: 이름 * Aspose.Words·**
-
-Aspose.Words 제품정보 Java 다양한 문서 처리 작업을 수행 할 수있는 클래스 라이브러리입니다. 이름 * Aspose.Words 제품정보 Java, 제3자 애플리케이션 없이 생성, 수정, 변환, 렌더링 및 인쇄 문서를 생성할 수 있습니다.
-
-세부사항은 우리의 문서에서 찾아낼 수 있습니다.
-
-------
-
-**Q: 그것은 무엇을 의미합니까 "Aspose.Words 제3자 애플리케이션이 필요합니까?**
-
-Aspose.Words 제품정보 Java 타사 응용 프로그램 또는 추가 소프트웨어 패키지를 설치할 필요가 없습니다. 다운로드 및 설치 Aspose.Words 로그인 [설치하기](/words/ko/java/installation/) 기사 및 시작.
-
-------
-
-**Q: 어떤 플랫폼 Aspose.Words 지원?**
-
-Aspose.Words 제품정보 Java 가장 인기 있는 개발 환경과 배포 플랫폼을 다룹니다. 이름 * API 다양한 운영 체제의 응용 프로그램을 개발할 수 있습니다. Windows, Linux, Mac OS 및 다양한 플랫폼.
-
-자세한 내용은 [제품 개요](/words/ko/java/product-overview/) 페이지 및 [플랫폼 및 Interop제품정보](/words/java/platforms-and-interoperability/) 이름 *
-
-------
-
-**Q: 문서 형식은 Aspose.Words 지원?**
-
-Aspose.Words 제품정보 Java DOC, DOCX, HTML과 같은 가장 인기있는 문서 형식을 지원합니다. Markdown, PDF, XML 및 기타.
-
-지원되는 형식의 전체 목록을 볼 수 있습니다. [지원된 문서 체재](/words/ko/java/supported-document-formats/) 사이트 맵
-
-------
-
-**Q: 어떻게 시도할 수 있습니까? Aspose.Words 무료?**
-
-이 두 가지 방법으로 수행 할 수 있습니다 - 재판 버전 또는 30 일 임시 라이센스를 사용하여. 시험판은 구매한 것과 동일하, 가득 차있는 제품 기능을 제공하고 그러나 문서의 정상에 evaluative watermark를 적재하고 저장하고 제한할 때 문서의 최고에 100개의 단락을 추가합니다. 임시 라이센스를 사용하면 테스트 할 수 있습니다. Aspose.Words 30 일 동안 시험 제한없이.
-
-이름 * [라이센스 및 구독](/words/ko/java/licensing/) 더 많은 정보를 원하시면
+당신이 당신의 질문에 대한 답을 찾을 수없는 경우,당신은 지원 포럼에 요청할 수 있습니다. 질문이나 문제를 올바르게 보고하는 방법에 대한 자세한 내용은 다음을 참조하십시오 [기술 지원](/words/java/technical-support/) 페이지
 
 {{% alert color="primary" %}}
 
-당신은 또한 대중의 일부를 시도 할 수 있습니다 Aspose.Words 을 통해 기능 [Aspose.Words 무료 온라인 앱 다운로드](https://products.aspose.app/words)·
+자주 묻는 질문은 사용자의 편의를 위해 주제별로 그룹화됩니다.
+
+{{% /alert %}}
+
+## 일반
+
+**질문:Aspose.Words이란 무엇입니까?**
+
+Java의Aspose.Words은 응용 프로그램에서 다양한 문서 처리 작업을 수행할 수 있는 클래스 라이브러리입니다. Java에 대해Aspose.Words을 사용하면 타사 응용 프로그램 없이 문서를 생성,수정,변환,렌더링 및 인쇄할 수 있습니다.
+
+자세한 내용은 설명서에서 찾을 수 있습니다.
+
+------
+
+**질문:"Aspose.Words타사 응용 프로그램이 필요하지 않습니다"는 무엇을 의미합니까?**
+
+Aspose.WordsJava에 대해 타사 응용 프로그램이나 추가 소프트웨어 패키지를 설치할 필요가 없습니다. 그냥 다운로드 및 설치Aspose.Words에 설명 된대로 [설치](/words/java/installation/) 기사 및 시작.
+
+------
+
+**질문:Aspose.Words은 어떤 플랫폼을 지원합니까?**
+
+Aspose.WordsJava의 경우 대부분의 인기 있는 개발 환경 및 배포 플랫폼을 다룹니다. API는Windows,Linux,Mac OS와 같은 광범위한 운영 체제 및 다양한 플랫폼에 대한 응용 프로그램을 개발하는 데 사용할 수 있습니다.
+
+자세한 내용은 [제품 개요](/words/java/product-overview/) 페이지 및 [플랫폼 및Interop가능성](/words/java/platforms-and-interoperability/) 부문
+
+------
+
+**질문:Aspose.Words은 어떤 문서 형식을 지원합니까?**
+
+Aspose.WordsJava의 경우 다음과 같은 대부분의 인기 있는 문서 형식을 지원합니다DOC, DOCX, HTML, Markdown, PDF, XML, 그리고 다른 사람들도
+
+당신은에서 지원되는 형식의 전체 목록을 볼 수 있습니다 [지원되는 문서 형식](/words/java/supported-document-formats/) 페이지
+
+------
+
+**큐:어떻게Aspose.Words무료로 시도 할 수 있습니까?**
+
+평가판 또는 30 일 임시 라이센스를 사용하여 두 가지 방법으로이 작업을 수행 할 수 있습니다. 평가판 버전은 구입 한 것과 동일,그것은 전체 제품 기능을 제공하지만로드 및 저장하고 몇 백 단락에 최대 문서 크기를 제한 할 때 문서의 상단에 평가 워터 마크를 추가합니다. 임시 라이센스는 30 일 동안 시험 제한없이Aspose.Words을 테스트 할 수 있습니다.
+
+참조 [라이선스 및 구독](/words/java/licensing/) 자세한 내용은 페이지.
+
+{{% alert color="primary" %}}
+
+당신은 또한 통해 가장 인기있는Aspose.Words기능 중 일부를 시도 할 수 있습니다 [Aspose.Words무료 온라인 앱](https://products.aspose.app/words).
 
 {{% /alert %}}
 
 ------
 
-**Q: 어떻게 살 수 있습니까? Aspose.Words·**
+**질문:Aspose.Words을 어떻게 살 수 있습니까?**
 
-구매하기 Aspose.Words 라이센스, 당신은에 갈 필요가 [구매하기](https://purchase.aspose.com/buy) 페이지 선택 "Aspose.Words"제품 및 라이센스의 유형은 당신을 적응시킵니다. 그런 다음 카트에 라이센스를 추가하고 쇼핑 카트 지침을 따르십시오.
+Aspose.Words라이센스를 구입하려면,당신은에 갈 필요가 [구매](https://purchase.aspose.com/buy) 페이지에서"Aspose.Words"제품과 자신에게 맞는 라이선스 유형을 선택합니다. 그런 다음 장바구니에 라이센스를 추가하고 쇼핑 카트 지침을 따르십시오.
 
-구매 후, 라이선스에 대한 적용 [구매 허가](/words/java/licensing/#purchased-license) 이름 *
+구입 후,에 설명 된대로 라이센스를 신청 [구입 한 라이센스](/words/java/licensing/#purchased-license) 부문
 
-설치 방법 Aspose.Words 읽을 수 있습니다 [설치하기](/words/ko/java/installation/) 사이트 맵
+Aspose.Words을 설치하는 방법에 대한 자세한 내용은 다음에서 읽을 수 있습니다 [설치](/words/java/installation/) 페이지
 
 ------
 
-**Q: 어떻게 지원할 수 있습니까?**
+**큐:나는 어떻게 지원을 얻을 수 있습니까?**
 
-무료 기술 지원 포럼을 사용하십시오. 제대로 문제를 보고하는 방법에 대한 자세한 내용은 포럼에 연락하기 전에 수행해야 할 사항, 참조 [기술 지원](/words/ko/java/technical-support/) 사이트 맵
+무료 기술 지원 포럼을 사용하십시오. 문제를 제대로 보고하는 방법과 포럼에 연락하기 전에 해야 할 일에 대한 자세한 내용은 [기술 지원](/words/java/technical-support/) 페이지
 
 ## 문서 렌더링
 
 {{% alert color="primary" %}}
 
-렌더링에 대한 자세한 정보를 찾을 수 있습니다. [이름 *](/words/ko/java/rendering/) 문서 영역.
+렌더링에 대한 자세한 정보는 다음에서 찾을 수 있습니다 [렌더링](/words/java/rendering/) 문서 섹션.
 
 {{% /alert %}}
 
-**Q: 왜 원본과 다른 출력 문서의 레이아웃과 글꼴은?**
+**질문:출력 문서의 레이아웃과 글꼴이 원본과 다른 이유는 무엇입니까?**
 
-글꼴은 사용할 수 없습니다, 또는 글꼴 형식은 지원됩니다 Microsoft Word 지원되지 않음 Aspose.Words· Aspose.Words 수행하기 [TrueType 파일로 변환](/words/ko/java/manipulate-and-substitute-truetype-fonts/)·
+글꼴을 사용할 수 없거나 글꼴 형식은Microsoft Word에서 지원되지만Aspose.Words에서는 지원되지 않습니다. Aspose.Words가 수행합니다. [글꼴 대체](/words/java/manipulate-and-substitute-truetype-fonts/).
 
-글꼴이 누락된 경우 확인하려면:
+글꼴이 없는지 확인하려면:
 
-- 에 Aspose.Words Font substitution 경고를 사용 (자세한 내용은 " Font Was replaced"섹션을 인식하는 방법) [TrueType 파일로 변환](/words/ko/java/manipulate-and-substitute-truetype-fonts/) 기사).
-- 에 Microsoft Word "Font Substitution" 대화 상자 (File → Options → Advanced → Font Substitution)를 엽니다.
-
-------
-
-**Q: 왜 비에 글꼴 fallback 일하지 않습니다.Windows 플랫폼과 유니코드 문자는 .notdef로 대체됩니다. glyph·**
-
-우리는 종종 볼 수 있습니다 `.notdef` glyph 일부 Unicode 문자 대신. 이것은 보통 상자 또는 질문입니다 glyph·
-
-이 때문에 Microsoft Office fallback 설정은 기본적으로 선택되며, Microsoft 사무실 글꼴은 사용할 수 없습니다. 사용자는 설치해야 합니다. Microsoft Office 글꼴 또는 변경 fallback 설정.
+- Aspose.Words에서 글꼴 대체 경고를 사용합니다(자세한 내용은"글꼴이 대체되었음을 인식하는 방법"섹션을 참조하십시오 [TrueType글꼴 조작 및 대체](/words/java/manipulate-and-substitute-truetype-fonts/) 기사).
+- Microsoft Word에서"글꼴 대체"대화 상자를 엽니 다.(파일 옵션,고급 글꼴 대체).
 
 ------
 
-**Q: 왜 태국이나 히브리어와 같은 복잡한 스크립트 텍스트가, 어떤 이유로 inaccurately 표시 될 수 있습니다. diacritics 또는 inaccurate ligatures에 대한 잘못된 위치와 같은?**
+**질문:Windows이 아닌 플랫폼에서 글꼴 대체 기능이 작동하지 않는 이유와 유니코드 문자가Windows이 아닌 플랫폼에서 작동하지 않는 이유와 유니코드 문자가Windows이 아닌 플랫폼에서 작동하지 않는 이유와 유니코드 문자가Windows이 아닌 플랫폼에서 작동하지 않는 이유아니데프 글리프?**
 
-일부 복잡한 스크립트 글꼴은 고급 전기 기능을 사용하여 올바르게 표시 할 수 있습니다. 고급 전기는 비활성화 Aspose.Words 기본적으로. 사용자는 Advanced Typography를 활성화해야 합니다. [TextShaperFactory](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/#getTextShaperFactory)·
+유니 코드 문자 대신`.notdef`글리프를 자주 볼 수 있습니다. 이것은 일반적으로 상자 또는 질문 글리프입니다.
+
+Microsoft사무실 대체 설정이 기본적으로 선택되어 있고Microsoft사무실 글꼴을 사용할 수 없기 때문입니다. 사용자는Microsoft사무실 글꼴을 설치하거나 대체 설정을 변경해야합니다.
 
 ------
 
-**Q: 글꼴에 대한 라이센스 파일이 필요합니까?**
+**질문:발음 구별 부호 또는 부정확 한 합자에 대한 잘못된 위치와 같은 이유로 태국어 또는 히브리어와 같은 복잡한 스크립트 텍스트가 부정확하게 표시되는 이유는 무엇입니까?**
 
-견적 요청 따라서 글꼴을 복사 할 때, 대부분의 글꼴이 저작권이 있다는 것을 염두에두고. 글꼴 라이센스를 찾아 다른 기계로 자유롭게 전송 할 수 있는지 확인합니다.
+일부 복잡한 스크립트 글꼴은 고급 타이포그래피 기능을 올바르게 표시하기 위해 처리해야합니다. 고급 타이포그래피는 기본적으로Aspose.Words에서 비활성화되어 있습니다. 사용자는[TextShaperFactory](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/#getTextShaperFactory)로 고급 타이포그래피를 활성화해야 합니다.
 
-## 이름 * Mail Merge
+------
+
+**큐:내가 사용하는 글꼴에 대한 라이센스 파일이 필요합니까?**
+
+네,그렇습니다. 따라서 글꼴을 복사 할 때 대부분의 글꼴은 저작권이 있음을 명심하십시오. 글꼴 라이센스를 미리 찾아 다른 컴퓨터로 자유롭게 전송할 수 있는지 확인하십시오.
+
+## 중첩Mail Merge
 
 {{% alert color="primary" %}}
 
-더 자세한 정보를 찾을 수 있습니다. Mail Merge 내 계정 [Mail Merge 및 보고](/words/java/mail-merge-and-reporting/) 문서 영역.
+Mail Merge에 대한 더 자세한 정보는 [Mail Merge및 보고](/words/java/mail-merge-and-reporting/) 문서 섹션.
 
 {{% /alert %}}
 
-**Q: 왜 생성 된 출력에 병합 된 필드가 없습니까?**
+**질문:생성된 출력에 병합된 필드가 없는 이유는 무엇입니까?**
 
-병합 필드의 원래 이름은 데이터 소스에서 필요한 데이터를 대체하지 않고 동일하게 유지, 다음:
+병합 필드의 원래 이름은 데이터 원본의 필수 데이터로 대체되지 않고 동일하게 유지됩니다.:
 
-- 데이터가 테이블에 제대로 로드되고 있는지 확인하십시오. [TableName](https://reference.aspose.com/words/java/com.aspose.words/imailmergedatasource/#getTableName) 모든 필수 기본 키와 관계로 올바르게.
-- 병합 필드가 제대로 된 것을 확인. 사용 방법 [GetFieldNames](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getFieldNames) 모든 병합 필드 이름을 얻는 방법은 템플릿의 병합 필드의 이름을 데이터 소스에서 일치시킵니다.
-
-------
-
-**Q: 부모 테이블의 첫 번째 항목에 대한 어린이 테이블에서 데이터를 표시하지 않는 둥지를 merging의 출력은 왜 부모 테이블에 마지막 항목에 대한 모든 항목을 표시, 실제로 그것에 연결되지 않는 하나?**
-
-이것은 템플릿의 병합 영역이 올바르게 형성되지 않기 때문에 모든 둥지를 만들 수 있습니다. Mail Merge 모든 것에 아무것도 표시하는 지구. 더 보기 [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) 오프닝 꼬리표 및 [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) 태그를 닫고 같은 행이나 셀에 있어야합니다. 예를 들어, 테이블의 셀에 병합 영역을 시작하면 첫 번째 셀과 동일한 행에 병합 영역을 끝해야합니다.
+- 데이터가 테이블에 올바로 로드되고 있는지 확인하십시오:필요한 모든 기본 키와 관계를 사용하여[TableName](https://reference.aspose.com/words/java/com.aspose.words/imailmergedatasource/#getTableName)을 올바르게 설정합니다.
+- 병합 필드의 이름이 올바르게 지정되었는지 확인합니다. [GetFieldNames](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getFieldNames)메서드를 사용하여 모든 병합 필드 이름을 가져오고 템플릿의 병합 필드 이름이 데이터 원본의 이름과 일치하는지 확인합니다.
 
 ------
 
-**Q: 왜 부모 테이블 디스플레이에서 각 항목은 아이 테이블에 모든 항목을 표시하고, 실제로 그것에 연결되지 않는 것?**
+**질문:중첩 병합의 출력이 부모 테이블의 첫 번째 항목에 대한 자식 테이블의 데이터를 표시하지 않고 부모 테이블의 마지막 항목에 대한 모든 항목을 표시하는 이유는 무엇입니까?**
 
-이것은 부모와 아이 테이블 사이의 관계가 설정되지 않았기 때문에 또는 그들은 잘못 설정. 그것은 필요한:
-
-- 데이터 무결성 보장 **DataSet** 그리고 사용 **DataRelation** 관련 데이터 테이블 사이의 부모의 관계를 나타내는 개체.
-- "동의 데이터 관계 설정 방법 Mail Merge 기사에서 지역" [이름 * Mail Merge 지역과](/words/java/nested-mail-merge-with-regions/)·
+이는 템플릿의 병합 영역이 올바르게 형성되지 않아 중첩 된Mail Merge영역이 모두 표시되지 않도록 할 수 있기 때문입니다. [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable)열기 태그와[EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable)닫기 태그는 일치하고 동일한 행 또는 셀에 있어야 합니다. 예를 들어 테이블의 셀에서 병합 영역 중첩을 시작하는 경우 첫 번째 셀과 같은 행에서 병합 영역을 종료해야 합니다.
 
 ------
 
-**Q: 왜 예외입니다: "시스템. 모델 번호: 이 제약은 모든 값이 해당 모호값이 없을 때 사용할 수 없습니다. mail merge·**
+**질문:부모 테이블의 각 항목은 자식 테이블의 모든 항목(실제로 연결되지 않은 항목)을 표시하는 이유는 무엇입니까?**
 
-이 모든 부모 기록이 아이 기록이 없기 때문에 귀하의 데이터 소스는 다음 표준과 일치하지 않습니다. * 부모 테이블의 모든 행은 1 차 및 외국 키 *를 기반으로 어린이 테이블의 행과 하나의 관계를해야합니다.
+부모 테이블과 자식 테이블 간의 관계가 설정되지 않았거나 잘못 설정되었기 때문입니다. 그것은 필요:
 
-당신이 창조할 때 외국 열쇠 constraints를 Disable **DataRelation**·
+- **DataSet**내에서 데이터 무결성을 확인하고**DataRelation**개체를 사용하여 관련 데이터 테이블 간의 부모-자식 관계를 나타냅니다.
+- 문서의"중첩Mail Merge에 데이터 관계를 설정하는 방법"섹션을 확인하십시오. [중첩Mail Merge영역](/words/java/nested-mail-merge-with-regions/).
 
-## 문서 작성
+------
+
+**질문:왜 예외입니다:"시스템.ArgumentException:중첩mail merge을 실행하는 동안 모든 값에 해당 부모 값이 있는 것은 아니므로 이 제약 조건을 사용할 수 없습니다.**
+
+모든 부모 레코드에 자식 레코드가 있는 것은 아니므로 데이터 원본이 다음 기준과 일치하지 않습니다.*every row in the parent table should have a one-to-one relationship with the rows of the child table based on the primary and foreign keys*.
+
+**DataRelation**을 만들 때 외래 키 제약 조건을 사용하지 않도록 설정합니다.
+
+## 문서 추가 또는 삽입
 
 {{% alert color="primary" %}}
 
-문서 프로그래밍에 대한 자세한 정보를 찾을 수 있습니다. [문서와 프로그래밍](/words/ko/java/programming-with-documents/) 문서 영역.
+문서 프로그래밍에 대한 자세한 정보는 다음에서 찾을 수 있습니다 [문서 프로그래밍](/words/java/programming-with-documents/) 문서 섹션.
 
 {{% /alert %}}
 
-**Q: 왜 문서에 추가된 내용이 동일한 페이지에 나타납니다?**
+**질문:문서에 첨부된 콘텐츠가 동일한 페이지에 표시되지 않는 이유는 무엇입니까?**
 
-append result는 차이점 때문에 별도의 페이지에 나타납니다. [PageSetup](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/) 문서가 함께 부과되는 섹션에 대한 설정. 동일한 것 **PageSetup** 문서가 함께 부과되는 섹션에 대한 설정.
+문서가 함께 첨부되는 섹션에 대한[PageSetup](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/)설정의 차이로 인해 추가 결과가 별도의 페이지에 나타납니다. 문서가 함께 추가되는 섹션에 대해 동일한**PageSetup**설정을 만듭니다.
 
 ## 문서 변환
 
 {{% alert color="primary" %}}
 
-문서 변환에 대한 자세한 정보를 찾을 수 있습니다. [문서 변환](/words/ko/java/convert-a-document/) 문서 영역.
+문서 변환에 대한 자세한 정보는 다음에서 찾을 수 있습니다 [문서 변환](/words/java/convert-a-document/) 문서 섹션.
 
 {{% /alert %}}
 
-**Q: DOCX를 PDF로 변환하는 방법?**
+**질문:DOCX을PDF로 변환하는 방법은 무엇입니까?**
 
-그것은 매우 쉽고, 그냥 모델을 문서를로드하고 지원되는 형식으로 저장.
+그것은 단지 모델에 문서를로드하고 지원되는 형식으로 저장뿐만 아니라 매우 쉽습니다.
 
-다음 코드 예제는 PDF로 DOCX 파일을 변환하는 과정을 보여줍니다
+다음 코드 예제에서는DOCX파일을PDF로 변환하는 프로세스를 보여 줍니다:
 
 {{< highlight java >}}
 // Open the source DOCX document.
@@ -189,19 +189,19 @@ Document doc = new Document(dataDir + "Input.docx");
 doc.save(dataDir + "output.pdf", SaveFormat.Pdf);
 {{< /highlight >}}
 
-## 문서에 제출
+## 문서로 조작
 
 {{% alert color="primary" %}}
 
-문서 프로그래밍에 대한 자세한 정보를 찾을 수 있습니다. [문서와 프로그래밍](/words/ko/java/programming-with-documents/) 문서 영역.
+문서 프로그래밍에 대한 자세한 정보는 다음에서 찾을 수 있습니다 [문서 프로그래밍](/words/java/programming-with-documents/) 문서 섹션.
 
 {{% /alert %}}
 
-**Q: 문서 페이지를 분할하는 방법?**
+**큐:페이지별로 문서 페이지를 분할하는 방법?**
 
-Aspose.Words 페이지별로 멀티 페이지 문서 페이지를 분할할 수 있습니다.
+Aspose.Words여러 페이지 문서 페이지를 페이지별로 분할할 수 있습니다.
 
-다음 코드 예제는 문서를 분할하고 각 페이지를 별도의 문서로 저장하는 방법을 보여줍니다
+다음 코드 예제에서는 문서를 분할하고 각 페이지를 별도의 문서로 저장하는 방법을 보여 줍니다:
 
 {{< highlight java >}}
 Document doc = new Document(dataDir + "TestFile (Split).docx");
@@ -218,11 +218,11 @@ for (int page = 0; page <= pageCount; page++)
 
 ------
 
-**Q: 암호화 된 방법** **문서?**
+**질문:암호화 된 것을 여는 방법**
 
-암호없이 암호화 된 문서를 열 수 있습니다. 예외로 이어야합니다.
+암호 없이 암호화된 문서를 열려고 시도할 수 있습니다.
 
-다음 코드 예제는 암호로 암호화 된 문서를 열 수있는 방법을 보여줍니다:
+다음 코드 예제에서는 암호로 암호화된 문서를 여는 방법을 보여 줍니다:
 
 {{< highlight java >}}
 // Create a document.
@@ -251,6 +251,6 @@ catch (Exception e)
 
 ------
 
-**Q: 문서 인쇄 방법?**
+**큐:문서를 인쇄하는 방법?**
 
-상세한 대답을 위해, 기사를 배우십시오 [사용자 정의](/words/ko/java/print-a-document-programmatically-or-using-dialogs/)·
+자세한 답변을 보려면 기사를 배우십시오 [프로그래밍 방식으로 문서 인쇄 또는 대화 상자 사용](/words/java/print-a-document-programmatically-or-using-dialogs/).

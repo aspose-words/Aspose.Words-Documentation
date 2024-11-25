@@ -1,61 +1,61 @@
----
+﻿---
 title: Como executar os exemplos
 second_title: Aspose.Words para Java
 articleTitle: Como executar os exemplos
 linktitle: Como executar os exemplos
 type: docs
-description: "Baixar Aspose.Words para Java exemplos de nosso GitHub repositório e aprender como executá-los para se familiarizar com o Aspose.Words possibilidades e características."
+description: "Baixe Aspose.Words para obter exemplos Java do nosso repositório GitHub e aprenda como executá-los para se familiarizar mais com as possibilidades e recursos Aspose.Words."
 weight: 130
 url: /pt/java/how-to-run-the-examples/
 timestamp: 2024-01-27-14-07-04
 ---
 
-## Baixar a partir de GitHub
+## Baixar em GitHub
 
 Todos os exemplos de Aspose.Words para Java estão hospedados em [Github](https://github.com/aspose-words/Aspose.Words-for-Java). Você pode clonar o repositório usando seu cliente Github favorito ou baixar o arquivo ZIP de [aqui](https://github.com/aspose-words/Aspose.Words-for-Java/archive/master.zip).
 
-Extraia o conteúdo do arquivo ZIP para qualquer pasta no seu computador. Todos os exemplos estão localizados no **Examples** pasta.
+Extraia o conteúdo do ficheiro ZIP para qualquer pasta do seu computador. Todos os exemplos estão localizados na pasta **Examples**.
 
 ![how-to-run-examples-aspose-words-java-1](/words/java/how-to-run-the-examples/how-to-run-examples-aspose-words-java-1.png)
 
-O projeto utiliza Maven sistema de construção. Qualquer IDE moderno pode facilmente abrir ou importar o projeto e suas dependências. Abaixo mostramos como usar IDEs populares para construir e executar os exemplos.
+O projeto usa Maven Sistema de compilação. Qualquer IDE moderno pode facilmente abrir ou importar o projeto e suas dependências. Abaixo, mostramos como usar popular IDEs para construir e executar os exemplos.
 
 ## IntelliJ IDEA
 
-Clique no botão **File** menu e escolha **Open**. Procurar na pasta do projeto e selecione a **pom.xml** ficheiro.
+Clique no menu **File** e escolha **Open**. Navegue até a pasta do projeto e selecione o arquivo **pom.xml**.
 
 ![how-to-run-examples-aspose-words-java-2](/words/java/how-to-run-the-examples/how-to-run-examples-aspose-words-java-2.png)
 
-Ele vai abrir o projeto e baixar as dependências automaticamente. Na guia Projeto, procure os exemplos em **src/main/java** pasta. Para executar um exemplo, basta clicar com o botão direito no arquivo e escolher "Run ..", o exemplo será executado e a saída será mostrada na janela de saída do console construída.
+Ele abrirá o projeto e baixará as dependências automaticamente. Na guia Projeto, procure os exemplos na pasta **src/main/java**. Para executar um exemplo, basta clicar com o botão direito do mouse no arquivo e escolher "Executar ..", o exemplo será executado e a saída será mostrada na janela de saída do console integrada.
 
 ![how-to-run-examples-aspose-words-java-3](/words/java/how-to-run-the-examples/how-to-run-examples-aspose-words-java-3.png)
 
 ## Eclipse
 
-Clique em **File** menu e escolha **Import**. Selecione **Maven** - Existente Maven Projetos.
+Clique no menu **File** e escolha **Import**. Selecione **Maven** - Projetos Existentes Maven.
 
 ![how-to-run-examples-aspose-words-java-4](/words/java/how-to-run-the-examples/how-to-run-examples-aspose-words-java-4.png)
 
-Procurar na pasta que você clonado ou baixado GitHub e selecione **pom.xml** ficheiro.
+Navegue até a pasta que você clonou ou baixou de GitHub e selecione **pom.xml** arquivo.
 
 ![how-to-run-examples-aspose-words-java-5](/words/java/how-to-run-the-examples/how-to-run-examples-aspose-words-java-5.png)
 
-Ele vai abrir o projeto e baixar as dependências automaticamente. A partir da guia Package Explorer, procure os exemplos em **src/main/java** pasta. Para executar um exemplo, basta clicar com o botão direito no arquivo e escolher **Run As** - Não. **Java Application**, o exemplo será executado e a saída será mostrada na janela de saída do console construída.
+Ele abrirá o projeto e baixará as dependências automaticamente. Na guia Package Explorer, procure os exemplos na pasta **src/main/java**. Para executar um exemplo, basta clicar com o botão direito do mouse no arquivo e escolher **Run As** - **Java Application**, o exemplo será executado e a saída será mostrada na janela de saída do console integrada.
 
 ![how-to-run-examples-aspose-words-java-6](/words/java/how-to-run-the-examples/how-to-run-examples-aspose-words-java-6.png)
 
 ## NetBeans
 
-Clique no botão **File** menu e escolha **Open Project**. Procurar na pasta que você clonado ou baixado GitHub. O ícone de **Examples** pasta irá mostrar que é um Maven projeto. Selecione Exemplos e abra-os.
+Clique no menu **File** e escolha **Open Project**. Navegue até a pasta que você clonou ou baixou de GitHub. O ícone da pasta **Examples** mostrará que é um projeto Maven. Selecione exemplos e abra-o.
 
 ![how-to-run-examples-aspose-words-java-7](/words/java/how-to-run-the-examples/how-to-run-examples-aspose-words-java-7.png)
 
-Ele vai abrir o projeto e baixar as dependências automaticamente. A partir da guia Projetos, procure os exemplos em **pacotes fonte**. Para executar um exemplo, basta clicar com o botão direito no arquivo e escolher **Run File**, o exemplo será executado e a saída será mostrada na janela de saída do console construída.
+Ele abrirá o projeto e baixará as dependências automaticamente. Na guia Projetos, procure os exemplos em **source packages**. Para executar um exemplo, basta clicar com o botão direito do mouse no arquivo e escolher **Run File**, o exemplo será executado e a saída será mostrada na janela de saída do console integrada.
 
 ![how-to-run-examples-aspose-words-java-8](/words/java/how-to-run-the-examples/how-to-run-examples-aspose-words-java-8.png)
 
 ## Contribuir
 
-Se você gosta de adicionar ou melhorar um exemplo, encorajamos você a contribuir para o projeto. Todos os exemplos e projetos de exibição neste repositório são de código aberto e podem ser usados livremente em suas próprias aplicações.
+Se quiser acrescentar ou melhorar um exemplo, encorajamo-lo a contribuir para o projecto. Todos os exemplos e projetos de demonstração neste repositório são de código aberto e podem ser usados livremente em suas próprias aplicações.
 
-Para contribuir, você pode falsificar o repositório, editar o código-fonte e criar uma solicitação de pull. Vamos rever as alterações e incluí-las no repositório, se for encontrado útil.
+Para contribuir, você pode bifurcar o repositório, editar o código-fonte e criar uma pull request. Vamos rever as alterações e incluí-las no repositório, se for considerado útil.

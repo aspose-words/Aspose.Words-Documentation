@@ -1,17 +1,17 @@
----
-title: Trabalhar com Documento em Java
+﻿---
+title: Trabalhando com documento em Java
 second_title: Aspose.Words para Java
-articleTitle: Trabalhar com Documento
-linktitle: Trabalhar com Documento
+articleTitle: Trabalhar com documento
+linktitle: Trabalhar com documento
 type: docs
-description: "O `Document` classe fornece várias propriedades e métodos de documentos. Você usa o `Document` classe como o ponto de partida para o que você quer executar com Aspose.Words para Java. O `Document` objeto pode ser salvo em um arquivo ou fluxo e também enviado para um navegador."
+description: "A classe `Document` fornece várias propriedades e métodos de Documento. Você usa a classe `Document` como ponto de partida para o que você deseja executar com Aspose.Words para Java. O objeto `Document` pode ser salvo em um arquivo ou fluxo e também enviado para um navegador."
 weight: 40
 url: /pt/java/working-with-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
-O [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) classe é central em Aspose.Words. Representa um documento e fornece várias propriedades e métodos de documentos, como salvar ou proteger o documento. Você usa o **Document** classe como o ponto de partida para o que você quer executar com Aspose.Words: criar um novo documento do zero, abrir um modelo para um mail merge, ou obter diferentes partes de um documento.
+A classe [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) é central em Aspose.Words. Ele representa um documento e fornece várias propriedades e métodos do documento, como salvar ou proteger o documento. Você usa a classe **Document** como ponto de partida para o que deseja executar com Aspose.Words: Crie um novo documento do zero, abra um modelo para um mail merge ou obtenha partes diferentes de um documento.
 
-O **Document** objeto contém todo o conteúdo e formatação, estilos, propriedades incorporadas e personalizadas, e o [MailMerge](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/) objeto que é usado para um mail merge. **Document** permite recuperar texto, marcadores e campos de formulário para todo o documento ou seções separadas.
+O objeto **Document** contém todo o conteúdo e formatação, Estilos, propriedades internas e personalizadas e o objeto [MailMerge](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/) que é usado para um mail merge. **Document** permite recuperar texto, marcadores e campos de formulário para todo o documento ou secções separadas.
 
-**Document** contém uma coleção da [Section](https://reference.aspose.com/words/java/com.aspose.words/section/) objetos que permitem obter uma seção específica ou realizar algumas manipulações, como copiar ou mover seções. O **Document** objeto pode ser salvo a qualquer momento para um arquivo ou fluxo e também enviado para um navegador cliente.
+**Documento**

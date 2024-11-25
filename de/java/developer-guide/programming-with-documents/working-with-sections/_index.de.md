@@ -1,158 +1,158 @@
----
+﻿---
 title: Arbeiten mit Abschnitten in Java
 second_title: Aspose.Words für Java
-articleTitle: Arbeiten mit Sektionen
-linktitle: Arbeiten mit Sektionen
-description: "Verständnis von Dokumentenabschnittskonzepten und Manipulationspraktiken mit Java. Abschnitt in ein Dokument einfügen Java. Entfernen Sie den Abschnitt Java. Kopieren Sie Abschnitte zwischen Dokumenten."
+articleTitle: Arbeiten mit Abschnitten
+linktitle: Arbeiten mit Abschnitten
+description: "Verständnis von Dokumentabschnittskonzepten und Manipulationspraktiken mit Java. Fügt einen Abschnitt in ein Dokument Java ein. Abschnitt Java entfernen. Kopieren Sie Abschnitte zwischen Dokumenten."
 type: docs
 weight: 120
 url: /de/java/working-with-sections/
 timestamp: 2024-01-31-14-23-37
 ---
 
-Manchmal wollen Sie ein Dokument, das nicht die gleiche Formatierung auf allen Seiten hat. Zum Beispiel müssen Sie Seitennummernformate ändern, unterschiedliche Seitengröße und Orientierung haben oder die erste Dokumentseite als Titelseite ohne Nummerierung haben. Das können Sie mit Abschnitten erreichen.
+Manchmal möchten Sie ein Dokument, das nicht auf allen Seiten die gleiche Formatierung aufweist. Beispielsweise müssen Sie möglicherweise Seitenzahlenformate ändern, eine andere Seitengröße und -ausrichtung haben oder die erste Dokumentseite als Deckblatt ohne Nummerierung verwenden. Das können Sie mit Abschnitten erreichen.
 
-Sektionen sind Level-Knoten, die Header und Footer steuern, Orientierung, Spalten, Margen, Seitennummernformatierung und andere.
+Abschnitte sind Ebenenknoten, die Kopf- und Fußzeilen, Ausrichtung, Spalten, Ränder, Formatierung von Seitenzahlen und andere steuern.
 
-Aspose.Words ermöglicht es Ihnen, Abschnitte zu verwalten, ein Dokument in Abschnitte zu teilen und Formatierungsänderungen vorzunehmen, die nur für einen bestimmten Abschnitt gelten. Aspose.Words speichert Informationen über Abschnittsformatierungen wie Kopfzeilen und Fußzeilen, Seitenaufstellung und Spalteneinstellungen im Abschnittsbruch.
+Mit Aspose.Words können Sie Abschnitte verwalten, ein Dokument in Abschnitte unterteilen und Formatierungsänderungen vornehmen, die nur für einen bestimmten Abschnitt gelten. Aspose.Words speichert Informationen zur Abschnittsformatierung wie Kopf- und Fußzeilen, Seiteneinrichtung und Spalteneinstellungen im Abschnittsumbruch.
 
-Dieser Artikel erklärt, wie man mit Abschnitten und Abschnittsbrüchen arbeitet.
+In diesem Artikel wird erläutert, wie Sie mit Abschnitten und Abschnittsumbrüchen arbeiten.
 
-## Was Abschnitt und Abschnittsbruch ist
+## Was Abschnitt und Abschnittsumbruch ist
 
-Die Dokumente werden von der [Section](https://reference.aspose.com/words/java/com.aspose.words/section/) und [SectionCollection](https://reference.aspose.com/words/java/com.aspose.words/sectioncollection/) Klassen. Abschnittsobjekte sind unmittelbare Kinder der [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) und über den [Sections](https://reference.aspose.com/words/java/com.aspose.words/document/#getSections) Eigentum. Sie können diese Knoten verwalten, indem Sie einige Methoden wie [Remove](https://reference.aspose.com/words/java/com.aspose.words/nodecollection/#remove-com.aspose.words.Node), [Add](https://reference.aspose.com/words/java/com.aspose.words/nodecollection/#add-com.aspose.words.Node), [IndexOf](https://reference.aspose.com/words/java/com.aspose.words/nodecollection/#indexOf-com.aspose.words.Node), und andere.
+Dokumentabschnitte werden durch die Klassen [Section](https://reference.aspose.com/words/java/com.aspose.words/section/) und [SectionCollection](https://reference.aspose.com/words/java/com.aspose.words/sectioncollection/) dargestellt. Abschnittsobjekte sind unmittelbare untergeordnete Elemente des Knotens [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) und können über die Eigenschaft [Sections](https://reference.aspose.com/words/java/com.aspose.words/document/#getSections) aufgerufen werden. Sie können diese Knoten mit einigen Methoden verwalten, z [Remove](https://reference.aspose.com/words/java/com.aspose.words/nodecollection/#remove-com.aspose.words.Node), [Add](https://reference.aspose.com/words/java/com.aspose.words/nodecollection/#add-com.aspose.words.Node), [IndexOf](https://reference.aspose.com/words/java/com.aspose.words/nodecollection/#indexOf-com.aspose.words.Node), und andere.
 
-Abschnittsbruch ist eine Option, die Dokumentseiten in Abschnitte mit anpassbaren Layouts teilt.
+Abschnittsumbruch ist eine Option, die Dokumentseiten in Abschnitte mit anpassbaren Layouts unterteilt.
 
-## Arten eines Abschnitts Bruch
+## Arten eines Abschnittsumbruchs
 
-Aspose.Words ermöglicht es Ihnen, Dokumente zu spalten und zu formatieren, indem verschiedene Abschnittsunterbrechungen der [BreakType](https://reference.aspose.com/words/java/com.aspose.words/breaktype/) Aufzählung:
+Aspose.Words ermöglicht es Ihnen, Dokumente mit verschiedenen Abschnittsumbrüchen der [BreakType](https://reference.aspose.com/words/java/com.aspose.words/breaktype/)-Aufzählung zu teilen und zu formatieren:
 
-- AbschnittBreakContinuous
-- SektionBreakNewColumn
-- SektionBreakNewPage
-- AbschnittBreakEvenPage
-- AbschnittBreakOddPage
+- SectionBreakContinuous
+- SectionBreakNewColumn
+- SectionBreakNewPage
+- SectionBreakEvenPage
+- SectionBreakOddPage
 
-Sie können auch die [SectionStart](https://reference.aspose.com/words/java/com.aspose.words/sectionstart/) Aufzählung, um einen Bruchtyp zu wählen, der nur für den ersten Abschnitt wie NewColumn, NewPage, EvenPage und OddPage gilt.
+Sie können auch die [SectionStart](https://reference.aspose.com/words/java/com.aspose.words/sectionstart/)-Aufzählung verwenden, um einen Umbruchstyp auszuwählen, der nur für den ersten Abschnitt gilt, z. B.: NewColumn, NewPage, EvenPage, und OddPage.
 
-## Verwalten einer Sektion
+## Verwalten eines Abschnitts
 
-Da ein Abschnitt ein normaler Kompositknoten ist, ist die gesamte Knotenmanipulation API kann verwendet werden, um Abschnitte zu manipulieren: zu ergänzen, zu entfernen und andere Operationen auf Abschnitten. Sie können mehr über Knoten im Artikel lesen [Aspose.Words Document Object Model (DOM)](/words/de/java/aspose-words-document-object-model/).
+Da ein Abschnitt ein normaler zusammengesetzter Knoten ist, kann die gesamte Knotenmanipulation API zum Manipulieren von Abschnitten verwendet werden: zum Hinzufügen, Entfernen und anderen Operationen an Abschnitten. Sie können mehr über Knoten im Artikel lesen [Aspose.Words Dokumentenobjektmodell (DOM)](/words/java/aspose-words-document-object-model/).
 
-Auf der anderen Seite können Sie auch die `DocumentBuilder` API mit Abschnitten zu arbeiten. In diesem Artikel werden wir uns auf diese besondere Art der Arbeit mit Sektionen konzentrieren.
+Andererseits können Sie auch `DocumentBuilder` API verwenden, um mit Abschnitten zu arbeiten. In diesem Artikel werden wir uns auf diese spezielle Art der Arbeit mit Abschnitten konzentrieren.
 
-## Einfügen oder Entfernen eines Abschnitts
+## Einfügen oder Entfernen eines Abschnittsumbruchs
 
-Aspose.Words ermöglicht es Ihnen, einen Schnitt in Text einzufügen [InsertBreak](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertBreak-int) Methode.
+Mit Aspose.Words können Sie mit der [InsertBreak](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertBreak-int)-Methode einen Abschnittsumbruch in Text einfügen.
 
-Das folgende Codebeispiel zeigt, wie ein Schnittbruch in ein Dokument eingefügt werden kann:
+Das folgende Codebeispiel zeigt, wie Sie einen Abschnittsumbruch in ein Dokument einfügen:
 
 {{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "insert-section-breaks.java" >}}
 
-Verwenden Sie die [Remove](https://reference.aspose.com/words/java/com.aspose.words/node/#remove) Verfahren zum Löschen eines Abschnittsbruchs. Wenn Sie keinen bestimmten Abschnittsbruch entfernen müssen und stattdessen den Inhalt dieses Abschnitts löschen müssen, können Sie den [ClearContent](https://reference.aspose.com/words/java/com.aspose.words/section/#clearContent) Methode.
+Verwenden Sie die Methode [Remove](https://reference.aspose.com/words/java/com.aspose.words/node/#remove), um einen Abschnittsumbruch zu löschen. Wenn Sie einen bestimmten Abschnittsumbruch nicht entfernen und stattdessen den Inhalt dieses Abschnitts löschen müssen, können Sie die Methode [ClearContent](https://reference.aspose.com/words/java/com.aspose.words/section/#clearContent) verwenden.
 
-Das folgende Codebeispiel zeigt, wie Abschnitte bricht:
+Das folgende Codebeispiel zeigt, wie Abschnittsumbrüche entfernt werden:
 
 {{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "remove-section-breaks.java" >}}
 
 {{% alert color="primary" %}}
 
-Beachten Sie, dass ein Abschnittsbruch Informationen über den Abschnitt hat, der vor ihm geht, nicht den Abschnitt, der danach geht. Wenn Sie also einen Abschnittsbruch entfernen, erhält der Text vor dem entfernten Bruch die Eigenschaften des Abschnittsbruchs darauf. Dies kann dazu führen, dass das gesamte Dokument Landschaft wird, oder Kopf- und Fußzeilen ändern oder vollständig verschwinden.
+Beachten Sie, dass ein Abschnittsumbruch Informationen über den Abschnitt enthält, der davor steht, nicht über den Abschnitt, der danach folgt. Wenn Sie also einen Abschnittsumbruch entfernen, erhält der Text vor dem entfernten Umbruch die Eigenschaften des darauf folgenden Abschnittsumbruchs. Dies kann dazu führen, dass das gesamte Dokument im Querformat angezeigt wird oder Kopf- und Fußzeilen sich ändern oder vollständig verschwinden.
 
 {{% /alert %}}
 
-## Abschnitt verschieben
+## Einen Abschnitt verschieben
 
-Wenn Sie einen Abschnitt von einer Position in eine andere in Ihrem Dokument verschieben möchten, müssen Sie den Index dieses Abschnitts erhalten. Aspose.Words ermöglicht es Ihnen, eine Sektionsposition von einer [SectionCollection](https://reference.aspose.com/words/java/com.aspose.words/sectioncollection/). Sie können die [Sections](https://reference.aspose.com/words/java/com.aspose.words/document/#getSections) Eigentum, um alle Abschnitte in Ihrem Dokument zu erhalten. Aber wenn Sie nur den ersten Abschnitt erhalten möchten, können Sie die [FirstSection](https://reference.aspose.com/words/java/com.aspose.words/document/#getFirstSection) Eigentum.
+Wenn Sie einen Abschnitt in Ihrem Dokument von einer Position an eine andere verschieben möchten, müssen Sie den Index dieses Abschnitts abrufen. Aspose.Words ermöglicht es Ihnen, eine Schnittposition von a [SectionCollection](https://reference.aspose.com/words/java/com.aspose.words/sectioncollection/) zu erhalten. Sie können die Eigenschaft [Sections](https://reference.aspose.com/words/java/com.aspose.words/document/#getSections) verwenden, um alle Abschnitte in Ihrem Dokument abzurufen. Wenn Sie jedoch nur den ersten Abschnitt erhalten möchten, können Sie die Eigenschaft [FirstSection](https://reference.aspose.com/words/java/com.aspose.words/document/#getFirstSection) verwenden.
 
-Das folgende Codebeispiel zeigt, wie man auf den ersten Abschnitt zugreift und durch die Kinder eines Verbundknotens iteriert:
+Das folgende Codebeispiel zeigt, wie auf den ersten Abschnitt zugegriffen und die untergeordneten Elemente eines zusammengesetzten Knotens durchlaufen werden:
 
 {{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "section-child-nodes.java" >}}
 
-## Ein Abschnittslayout angeben
+## Angeben eines Abschnittslayouts
 
-Manchmal möchten Sie, dass Ihr Dokument besser aussieht, indem Sie kreative Layouts für verschiedene Dokumentabschnitte erstellen. Wenn Sie den Typ des aktuellen Abschnittsrasters angeben möchten, können Sie einen Abschnittslayout-Modus mit dem [SectionLayoutMode](https://reference.aspose.com/words/java/com.aspose.words/sectionlayoutmode/) Aufzählung:
+Manchmal möchten Sie, dass Ihr Dokument besser aussieht, indem Sie kreative Layouts für verschiedene Dokumentabschnitte erstellen. Wenn Sie den Typ des aktuellen Schnittrasters angeben möchten, können Sie einen Schnittlayoutmodus mit der [SectionLayoutMode](https://reference.aspose.com/words/java/com.aspose.words/sectionlayoutmode/)-Aufzählung auswählen:
 
 - Standard
 - Grid
 - LineGrid
 - SnapToChars
 
-Das folgende Codebeispiel zeigt, wie die Anzahl der Zeilen begrenzt werden kann, die jede Seite haben kann:
+Das folgende Codebeispiel zeigt, wie Sie die Anzahl der Zeilen begrenzen, die jede Seite haben darf:
 
 {{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "line-grid-section-layout-mode.java" >}}
 
-## Abschnitt bearbeiten
+## Einen Abschnitt bearbeiten
 
-Wenn Sie einen neuen Abschnitt zu Ihrem Dokument hinzufügen, gibt es keinen Körper oder Absatz, den Sie bearbeiten können. Aspose.Words Sie können sicherstellen, dass ein Abschnitt einen Körper mit mindestens einem Absatz mit der [EnsureMinimum](https://reference.aspose.com/words/java/com.aspose.words/section/#ensureMinimum) Methode – es wird automatisch einen Body (oder HeaderFooter)-Knoten zum Dokument hinzufügen und dann einen Absatz dazu hinzufügen.
+Wenn Sie Ihrem Dokument einen neuen Abschnitt hinzufügen, gibt es keinen Text oder Absatz, den Sie bearbeiten können. Mit Aspose.Words können Sie mit der [EnsureMinimum](https://reference.aspose.com/words/java/com.aspose.words/section/#ensureMinimum) –Methode sicherstellen, dass ein Abschnitt einen Text mit mindestens einem Absatz enthält - es wird automatisch ein Textknoten (oder HeaderFooter) zum Dokument hinzugefügt und dann ein Absatz hinzugefügt.
 
-Das folgende Codebeispiel zeigt, wie man einen neuen Abschnittsknoten mit **EnsureMinimum**:
+Das folgende Codebeispiel zeigt, wie Sie einen neuen Abschnittsknoten mit **EnsureMinimum** vorbereiten:
 
 {{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "ensure-minimum.java" >}}
 
-### Inhalt anhängen oder ausgeben
+### Inhalt anhängen oder voranstellen
 
-Wenn Sie am Anfang/Ende eines Abschnitts eine Form zeichnen oder Text oder Bild hinzufügen möchten, können Sie die [AppendContent](https://reference.aspose.com/words/java/com.aspose.words/section/#appendContent-com.aspose.words.Section) und [PrependContent](https://reference.aspose.com/words/java/com.aspose.words/section/#prependContent-com.aspose.words.Section) Methoden der [Section](https://reference.aspose.com/words/java/com.aspose.words/section/) Klasse.
+Wenn Sie am Anfang / Ende eines Abschnitts eine Form zeichnen oder Text oder Bild hinzufügen möchten, können Sie die Methoden [AppendContent](https://reference.aspose.com/words/java/com.aspose.words/section/#appendContent-com.aspose.words.Section) und [PrependContent](https://reference.aspose.com/words/java/com.aspose.words/section/#prependContent-com.aspose.words.Section) der Klasse [Section](https://reference.aspose.com/words/java/com.aspose.words/section/) verwenden.
 
-Das folgende Codebeispiel zeigt, wie Inhalte eines vorhandenen Abschnitts angehängt werden können:
+Das folgende Codebeispiel zeigt, wie Sie den Inhalt eines vorhandenen Abschnitts anhängen:
 
 {{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "append-section-content.java" >}}
 
-### Ein Abschnitt einfügen
+### Einen Abschnitt klonen
 
-Aspose.Words ermöglicht es Ihnen, einen Abschnitt zu duplizieren, indem Sie eine vollständige Kopie davon mithilfe der [deepClone](https://reference.aspose.com/words/java/com.aspose.words/section/#deepClone) Methode.
+Mit Aspose.Words können Sie einen Abschnitt duplizieren, indem Sie mit der Methode [deepClone](https://reference.aspose.com/words/java/com.aspose.words/section/#deepClone) eine vollständige Kopie davon erstellen.
 
-Das folgende Codebeispiel zeigt, wie man den ersten Abschnitt in Ihrem Dokument klont:
+Das folgende Codebeispiel zeigt, wie Sie den ersten Abschnitt in Ihrem Dokument klonen:
 
 {{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "clone-section.java" >}}
 
 ### Abschnitte zwischen Dokumenten kopieren
 
-In einigen Fällen können Sie große Dokumente mit vielen Abschnitten haben und möchten den Inhalt eines Abschnitts von einem Dokument in ein anderes kopieren.
+In einigen Fällen haben Sie möglicherweise große Dokumente mit vielen Abschnitten und möchten den Inhalt eines Abschnitts von einem Dokument in ein anderes kopieren.
 
-Aspose.Words ermöglicht es Ihnen, Abschnitte zwischen Dokumenten zu kopieren [ImportNode](https://reference.aspose.com/words/java/com.aspose.words/documentbase/#importNode-com.aspose.words.Node-boolean) Methode.
+Aspose.Words ermöglicht das Kopieren von Abschnitten zwischen Dokumenten mit der [ImportNode](https://reference.aspose.com/words/java/com.aspose.words/documentbase/#importNode-com.aspose.words.Node-boolean)-Methode.
 
-Das folgende Codebeispiel zeigt, wie Abschnitte zwischen Dokumenten kopiert werden können:
+Das folgende Codebeispiel zeigt, wie Abschnitte zwischen Dokumenten kopiert werden:
 
 {{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "copy-section.java" >}}
 
-### Arbeit mit Sektion Header und Footer
+### Mit Kopf- und Fußzeile des Abschnitts arbeiten
 
-Die Grundregeln für die Darstellung eines Headers oder Footer für jeden Abschnitt sind ganz einfach:
+Die Grundregeln für die Anzeige einer Kopf- oder Fußzeile für jeden Abschnitt sind recht einfach:
 
-ANHANG Hat der Abschnitt keine eigenen Kopf-/Fußgänger bestimmter Art, so wird er aus dem vorherigen Abschnitt entnommen.
-2. Die Art des auf der Seite angezeigten Headers/Fußers wird durch die "Different First Page" und die "Different Odd & Even Seiten"-Sektionseinstellungen gesteuert – wenn sie deaktiviert sind, werden die eigenen Titel des Abschnitts ignoriert.
+1. Wenn der Abschnitt keine eigenen Kopf- / Fußzeilen eines bestimmten Typs enthält, wird er aus dem vorherigen Abschnitt übernommen.
+2. Die Art der Kopf– / Fußzeile, die auf der Seite angezeigt wird, wird durch die Abschnittseinstellungen "Andere erste Seite" und "Verschiedene ungerade und gerade Seiten" gesteuert - wenn sie deaktiviert sind, werden die eigenen Titel des Abschnitts ignoriert.
 
-Das folgende Codebeispiel zeigt, wie man 2 Abschnitte mit verschiedenen Headern erstellt:
+Das folgende Codebeispiel zeigt, wie Sie 2 Abschnitte mit unterschiedlichen Überschriften erstellen:
 
 {{< gist "aspose-words-gists" "58431f54e34e5597f8cbaf97481d5321" "link-to-previous-header-footer.java" >}}
 
-Wenn Sie den Text von Kopfzeilen und Fußzeilen entfernen möchten, ohne zu entfernen [HeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/headerfooter/) Objekte in Ihrem Dokument, können Sie die [ClearHeadersFooters](https://reference.aspose.com/words/java/com.aspose.words/section/#clearHeadersFooters) Methode. Darüber hinaus können Sie die [DeleteHeaderFooterShapes](https://reference.aspose.com/words/java/com.aspose.words/section/#deleteHeaderFooterShapes) Methode, um alle Formen von Kopf- und Fußzeilen in Ihrem Dokument zu entfernen.
+Wenn Sie den Text von Kopf- und Fußzeilen entfernen möchten, ohne [HeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/headerfooter/) -Objekte in Ihrem Dokument zu entfernen, können Sie die [ClearHeadersFooters](https://reference.aspose.com/words/java/com.aspose.words/section/#clearHeadersFooters) -Methode verwenden. Darüber hinaus können Sie die [DeleteHeaderFooterShapes](https://reference.aspose.com/words/java/com.aspose.words/section/#deleteHeaderFooterShapes) -Methode verwenden, um alle Formen aus Kopf- und Fußzeilen in Ihrem Dokument zu entfernen.
 
-Das folgende Codebeispiel zeigt, wie der Inhalt aller Kopf- und Fußzeilen in einem Abschnitt geklärt werden kann:
+Das folgende Codebeispiel zeigt, wie der Inhalt aller Kopf- und Fußzeilen in einem Abschnitt gelöscht wird:
 
 {{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "delete-header-footer-content.java" >}}
 
-Das folgende Codebeispiel, wie man alle Formen von allen Kopfschuhen in einem Abschnitt entfernt:
+Das folgende Codebeispiel zeigt, wie Sie alle Formen aus allen Kopfzeilen und Fußzeilen in einem Abschnitt entfernen:
 
 {{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "delete-header-footer-shapes.java" >}}
 
 ## Seiteneigenschaften in einem Abschnitt anpassen
 
-Vor dem Drucken einer Seite oder eines Dokuments können Sie die Größe und das Layout einer einzelnen Seite oder des gesamten Dokuments anpassen und ändern möchten. Mit dem Seitenaufbau können Sie die Einstellungen von Dokumentseiten wie Margen, Orientierung und Größe zum Drucken von verschiedenen ersten Seiten oder ungeraden Seiten ändern.
+Bevor Sie eine Seite oder ein Dokument drucken, möchten Sie möglicherweise die Größe und das Layout einer einzelnen Seite oder des gesamten Dokuments anpassen und ändern. Mit der Seiteneinrichtung können Sie die Einstellungen von Dokumentseiten wie Ränder, Ausrichtung und Größe ändern, um verschiedene erste Seiten oder ungerade Seiten zu drucken.
 
-Aspose.Words ermöglicht die Anpassung von Seiten- und Schnitteigenschaften durch die [PageSetup](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/) Klasse.
+Mit Aspose.Words können Sie Seiten- und Abschnittseigenschaften mithilfe der Klasse [PageSetup](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/) anpassen.
 
-Das folgende Codebeispiel zeigt, wie man solche Eigenschaften wie Seitengröße und Orientierung für den aktuellen Abschnitt einstellt:
+Das folgende Codebeispiel zeigt, wie Eigenschaften wie Seitengröße und Ausrichtung für den aktuellen Abschnitt festgelegt werden:
 
 {{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "page-setup-and-section-formatting.java" >}}
 
-Das folgende Codebeispiel zeigt, wie man die Seiteneigenschaften in allen Abschnitten verändert:
+Das folgende Codebeispiel zeigt, wie Sie die Seiteneigenschaften in allen Abschnitten ändern:
 
 {{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "modify-page-setup-in-all-sections.java" >}}
 
 ## Siehe auch
 
-- [Logische Ebenen von Nodes in einem Dokument](/words/de/java/logical-levels-of-nodes-in-a-document/)
-- [Dokumente einfügen und anfügen](/words/de/java/insert-and-append-documents/)
+- [Logische Ebenen von Knoten in einem Dokument](/words/java/logical-levels-of-nodes-in-a-document/)
+- [Dokumente einfügen und anhängen](/words/java/insert-and-append-documents/)

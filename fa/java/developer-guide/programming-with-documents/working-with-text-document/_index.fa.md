@@ -1,80 +1,80 @@
----
-title: کار با Text Document Java
+﻿---
+title: کار با سند متنی در Java
 second_title: Aspose.Words برای Java
-articleTitle: کار با Text Document
-linktitle: کار با Text Document
-description: "پیشرفته TXT پردازش اسناد، لیست ها، BiDi، headers / Footer، با استفاده از Java..."
+articleTitle: کار با سند متنی
+linktitle: کار با سند متنی
+description: "پیشرفته TXT پردازش اسناد، لیست ها، BiDi، سرصفحه ها/پای صفحه، با استفاده از Java."
 type: docs
 weight: 430
 url: /fa/java/working-with-text-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
-در این مقاله، ما یاد خواهیم گرفت که چه گزینه هایی می تواند برای کار با یک سند متنی از طریق یک سند متنی مفید باشد. Aspose.Words... لطفا توجه داشته باشید که این یک لیست کامل از گزینه های موجود نیست، بلکه تنها یک نمونه از کار با برخی از آنها است.
+در این مقاله، ما یاد خواهیم گرفت که چه گزینه هایی می تواند برای کار با یک سند متنی از طریق Aspose.Words مفید باشد. لطفا توجه داشته باشید که این لیست کامل گزینه های موجود نیست، بلکه فقط نمونه ای از کار با برخی از آنها است.
 
-## اضافه کردن Bi-Directional مارک ها
+## علامت های دو طرفه اضافه کنید
 
-می توانید از آن استفاده کنید [AddBidiMarks](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/#getAddBidiMarks) اموال برای مشخص کردن اینکه آیا به اضافه کردن علامت های دو جهت قبل از هر BiDi در هنگام صادرات در فرمت متن ساده اجرا می شود. Aspose.Words کاراکتر یونیکد را قبل از هر دو جهت در متن وارد کنید. این گزینه با گزینه "اضافه کردن علامت دو طرفه" در گفتگو تبدیل فایل MS Word مطابقت دارد، زمانی که شما به یک فرمت متن ساده صادرات می کنید. توجه داشته باشید که تنها در صورتی به نظر می رسد که هر یک از زبان های ویرایش عربی یا عبری در MS Word اضافه شوند.
+شما می توانید از ویژگی [AddBidiMarks](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/#getAddBidiMarks) برای مشخص کردن اینکه آیا قبل از هر BiDi اجرا در هنگام صادرات در قالب متن ساده، علامت های دو طرفه اضافه کنید، استفاده کنید. Aspose.Words کاراکتر یونیکد را وارد می کند'RIGHT-TO-LEFT MARK' (U+200F) قبل از هر اجرا دو طرفه در متن. این گزینه با گزینه "Add bi-directional marks" در دایالوگ تبدیل فایل ورد MS هنگام صادرات به یک فرمت متن ساده مطابقت دارد. توجه داشته باشید که این در دیالوگ تنها در صورتی ظاهر می شود که هر یک از زبان های ویرایش عربی یا عبری در کلمه MS اضافه شود.
 
-مثال کد زیر نشان می دهد که چگونه از `TxtSaveOptions.AddBidiMarks` مالکیت ارزش پیش فرض این ملک، *true*:
+مثال کد زیر نشان می دهد که چگونه از ویژگی `TxtSaveOptions.AddBidiMarks` استفاده کنید. مقدار پیش فرض این ویژگی *true*است:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-AddBidiMarks.java" >}}
 
-## شناسایی آیتم های لیست در هنگام بارگذاری TXT
+## تشخیص آیتم های لیست در هنگام بارگذاری TXT
 
-Aspose.Words می تواند لیست یک فایل متنی را به عنوان شماره لیست یا متن ساده در مدل سند خود وارد کند. The The The The The The [DetectNumberingWithWhitespaces](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/#getDetectNumberingWithWhitespaces) ملک اجازه می دهد تا مشخص کند که چگونه موارد لیست شماره زمانی که یک سند از فرمت متن ساده وارد می شود، شناسایی می شوند:
+Aspose.Words می تواند آیتم لیست یک فایل متنی را به عنوان شماره لیست یا متن ساده در مدل شیء سند خود وارد کند. ویژگی [DetectNumberingWithWhitespaces](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/#getDetectNumberingWithWhitespaces) اجازه می دهد تا مشخص کند که چگونه آیتم های لیست شماره گذاری شده زمانی که یک سند از قالب متن ساده وارد می شود، شناسایی می شوند:
 
-* اگر این گزینه برای *true*, فضاهای سفید نیز به عنوان لیست محدود کنندگان استفاده می شود: الگوریتم تشخیص لیست برای شماره بندی سبک عربی (1.1.2) از هر دو فضای سفید و نمادهای dot (").
-* اگر این گزینه برای *false*, الگوریتم تشخیص لیست پاراگراف های لیست را تشخیص می دهد، زمانی که اعداد لیست با دو نقطه، براکت راست یا نمادهای گلوله (مانند ")، "،"، "-" یا "o") به پایان می رسد.
+* اگر این گزینه به *true* تنظیم شود، از فضاهای سفید به عنوان محدوده شماره لیست نیز استفاده می شود: الگوریتم تشخیص لیست برای شماره گذاری سبک عربی (1., 1.1.2.) از هر دو علامت whitespaces و dot (".") استفاده می کند.
+* اگر این گزینه به *false* تنظیم شود، الگوریتم تشخیص لیست پاراگراف های لیست را تشخیص می دهد، زمانی که اعداد لیست با علامت های نقطه ای، براکت راست یا گلوله (مانند "•", "*", "-" یا "o").
 
-مثال کد زیر نشان می دهد که چگونه از این ملک استفاده کنید:
+مثال کد زیر نشان می دهد که چگونه از این ویژگی استفاده کنید:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-DetectNumberingWithWhitespaces.java" >}}
 
-## مدیریت فضاهای هدایت و مسیریابی در هنگام بارگذاری TXT
+## دستگیره فضاهای پیشرو و عقب در هنگام بارگیری TXT
 
-شما می توانید راه مدیریت فضاهای پیشرو و ردیابی در هنگام بارگیری فایل های TXT را کنترل کنید. فضاهای پیشرو را می توان تمیز، حفظ و یا تبدیل به فضاهای بی تحرک و پیگیری می توان تعمیر و نگهداری کرد.
+شما می توانید روش مدیریت فضاهای پیشرو و عقب را در هنگام بارگذاری فایل های TXT کنترل کنید. فضاهای پیشرو را می توان برش داد، حفظ کرد یا به شکاف تبدیل کرد و فضاهای عقب را می توان برش داد یا حفظ کرد.
 
-مثال کد داده شده در زیر نشان می دهد که چگونه فضاهای پیشرو را در هنگام واردات فایل TXT برش دهید:
+مثال کد زیر نشان می دهد که چگونه فضاهای پیشرو و عقب را در هنگام وارد کردن فایل TXT کوتاه کنید:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-HandleSpacesOptions.java" >}}
 
-## مستند Detect Text Direction
+## تشخیص جهت متن سند
 
-Aspose.Words فراهم می کند [DocumentDirection](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/#getDocumentDirection) مالکیت در [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) کلاس برای تشخیص جهت متن (RTL / LTR) در سند. این ملک تنظیم یا دریافت دستورالعمل های متن سند ارائه شده در [DocumentDirection](https://reference.aspose.com/words/java/com.aspose.words/documentdirection/) تکرار ارزش پیش فرض به سمت راست گذاشته می شود.
+Aspose.Words ویژگی [DocumentDirection](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/#getDocumentDirection) را در[TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) کلاس برای تشخیص جهت متن (RTL / LTR) در سند فراهم می کند. این ویژگی دستورالعمل های متن سند را که در [DocumentDirection](https://reference.aspose.com/words/java/com.aspose.words/documentdirection/) شمارش ارائه شده است، تنظیم یا دریافت می کند. مقدار پیش فرض از چپ به راست است.
 
-مثال کد زیر نشان می دهد که چگونه جهت متن سند را هنگام واردات فایل TXT تشخیص دهید:
+مثال کد زیر نشان می دهد که چگونه جهت متن سند را هنگام وارد کردن فایل TXT تشخیص دهیم:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-DocumentTextDirection.java" >}}
 
-## مدیر صادرات و Footer in Output TXT File
+## صادرات هدر و فوتر در خروجی TXT فایل
 
-اگر می خواهید هدر و پا را در سند TXT خروجی صادر کنید، می توانید از آن استفاده کنید. [ExportHeadersFootersMode](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/#getExportHeadersFootersMode) مالکیت این ملک مشخص می کند که چگونه سر و پا به فرمت متن ساده صادر می شود.
+اگر می خواهید header و footer را در سند خروجی TXT صادر کنید، می توانید از ویژگی [ExportHeadersFootersMode](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/#getExportHeadersFootersMode) استفاده کنید. این ویژگی مشخص می کند که چگونه سرصفحه ها و پای صفحه ها به فرمت متن ساده صادر می شوند.
 
-مثال کد زیر نشان می دهد که چگونه هدرها و عابران را به فرمت متن ساده صادر کنیم:
+مثال کد زیر نشان می دهد که چگونه سر و پای صفحه را به فرمت متن ساده صادر کنیم:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-ExportHeadersFootersMode.java" >}}
 
-## ثبت نام در خروجی TXT
+## لیست صادرات تورفتگی در خروجی TXT
 
-Aspose.Words معرفی [TxtListIndentation](https://reference.aspose.com/words/java/com.aspose.words/txtlistindentation/) کلاس که اجازه می دهد تا مشخص کنید که چگونه سطح لیست در هنگام صادرات به یک فرمت متن ساده، بی نظیر است. در حالی که با [TxtSaveOption](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/), The the the [ListIndentation](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/#getListIndentation) اموال برای مشخص کردن شخصیت برای سطوح ثبت نام و شمارش مشخص می کند که چه تعداد کاراکتر برای استفاده به عنوان indentation در هر سطح لیست استفاده می شود.
+Aspose.Words کلاس [TxtListIndentation](https://reference.aspose.com/words/java/com.aspose.words/txtlistindentation/) را معرفی کرد که اجازه می دهد مشخص شود که چگونه سطوح لیست در هنگام صادرات به یک فرمت متن ساده وارد می شوند. در حین کار با [TxtSaveOption](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/)، ویژگی [ListIndentation](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/#getListIndentation) برای مشخص کردن کاراکتر مورد استفاده برای وارد کردن سطوح لیست و شمارش مشخص کردن تعداد کاراکترهای مورد استفاده به عنوان وارد کردن در هر سطح لیست ارائه شده است.
 
-ارزش پیش فرض برای مالکیت شخصیت "0" است که نشان می دهد هیچ مدرکی وجود ندارد. برای شمارش اموال، ارزش پیش فرض 0 است که به معنی عدم تحرک است.
+مقدار پیش فرض برای ویژگی کاراکتر '\0' است که نشان می دهد هیچ شکاف وجود ندارد. برای ویژگی count، مقدار پیش فرض 0 است که به این معنی است که هیچ تورفتگی وجود ندارد.
 
-### استفاده از Tab Character
+### با استفاده از کاراکتر تب
 
-مثال کد زیر نشان می دهد که چگونه سطح لیست را با استفاده از کاراکترهای برگه ای صادر کنیم:
+مثال کد زیر نشان می دهد که چگونه سطوح لیست را با استفاده از کاراکترهای تب صادر کنیم:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-useTabCharacterPerLevelForListIndentation.java" >}}
 
-### استفاده از ویژگی های فضایی
+### استفاده از کاراکتر فضایی
 
-مثال کد زیر نشان می دهد که چگونه سطح لیست را با استفاده از کاراکترهای فضایی صادر کنیم:
+مثال کد زیر نشان می دهد که چگونه سطوح لیست را با استفاده از کاراکترهای فضایی صادر کنیم:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-useSpaceCharacterPerLevelForListIndentation.java" >}}
 
-### استفاده از Indentation
+### با استفاده از تورفتگی پیش فرض
 
-مثال کد زیر نشان می دهد که چگونه سطح لیست را با استفاده از عدم تحرک پیش فرض صادر کنیم:
+مثال کد زیر نشان می دهد که چگونه سطوح لیست را با استفاده از تورفتگی پیش فرض صادر کنیم:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-defaultLevelForListIndentation.java" >}}

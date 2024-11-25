@@ -1,100 +1,100 @@
----
-title: العمل مع الإطارات والموضوعات
-second_title: Aspose.Words for Java
-articleTitle: العمل مع الإطارات والموضوعات
-linktitle: العمل مع الإطارات والموضوعات
-description: "المعزَّز Microsoft Word الملامح الشكلية، العمل بالطرائق والمواضيع باستخدام Java."
+﻿---
+title: العمل مع الأنماط والمواضيع
+second_title: Aspose.Words ل Java
+articleTitle: العمل مع الأنماط والمواضيع
+linktitle: العمل مع الأنماط والمواضيع
+description: "ميزات التنسيق المحسنة Microsoft Word، والعمل مع الأنماط والسمات باستخدام Java."
 type: docs
 weight: 110
 url: /ar/java/working-with-styles-and-themes/
 timestamp: 2024-01-27-14-07-04
 ---
 
-The [StyleCollection](https://reference.aspose.com/words/java/com.aspose.words/stylecollection/) ويُستخدم الفصل في إدارة عمليات البناء وتطبيق البيئات المحددة للمستعملين على الأساليب.
+يتم استخدام فئة [StyleCollection](https://reference.aspose.com/words/java/com.aspose.words/stylecollection/) لإدارة الإعدادات المضمنة وتطبيق الإعدادات المعرفة من قبل المستخدم على الأنماط.
 
-## How to Extract Content Based on Styles
+## كيفية استخراج المحتوى بناء على الأنماط
 
-وعلى مستوى بسيط، يمكن أن يكون استرجاع المحتوى استناداً إلى أساليب من وثيقة الكلمات مفيداً في تحديد وقائمة وإحصاء الفقرات وسير النصوص التي تصاغ بأسلوب محدد. فعلى سبيل المثال، قد تحتاجون إلى تحديد أنواع معينة من المحتوى في الوثيقة، مثل الأمثلة والألقاب والمراجع والكلمات الرئيسية وأسماء الأرقام ودراسات الحالات الإفرادية.
+على مستوى بسيط، واسترجاع المحتوى على أساس أنماط من وثيقة كلمة يمكن أن تكون مفيدة لتحديد وقائمة وعدد الفقرات ويدير النص تنسيق مع نمط معين. على سبيل المثال، قد تحتاج إلى تحديد أنواع معينة من المحتوى في المستند، مثل الأمثلة والعناوين والمراجع والكلمات الرئيسية وأسماء الأشكال ودراسات الحالة.
 
-ومن أجل اتخاذ هذه الخطوات، يمكن أيضاً استخدام ذلك لتعزيز هيكل الوثيقة، الذي تحدده الأساليب التي تستخدمها، لإعادة استخدام الوثيقة من أجل ناتج آخر، مثل HTML. هذه هي الطريقة التي يتم بها بناء وثائق افترض، وضع Aspose.Words إلى الإختبار أداة بُنيت باستخدام Aspose.Words يأخذ المصدر الوثائق ويقسمها إلى مواضيع على مستويات معينة. يتم إنتاج ملف XML باستخدام Aspose.Words التي تستخدم لبناء شجرة الملاحة يمكنك رؤيتها على اليسار ثم Aspose.Words يحول كل موضوع إلى HTML. والحل المتمثل في استرجاع النص المشكل بأساليب محددة في وثيقة كلمة هو عادة حل اقتصادي ومباشر باستخدامه Aspose.Words.
+لاتخاذ هذا بضع خطوات أخرى، يمكن أيضا استخدام هذا للاستفادة من بنية المستند، المحددة بواسطة الأنماط التي يستخدمها، لإعادة الغرض من المستند لإخراج آخر، مثل HTML. هذا هو في الواقع كيف يتم بناء وثائق أسبوس، ووضع Aspose.Words على المحك. أداة بنيت باستخدام Aspose.Words يأخذ وثائق كلمة المصدر وتقسيمها إلى مواضيع في مستويات عنوان معينة. يتم إنتاج ملف XML باستخدام Aspose.Words والذي يستخدم لبناء شجرة التنقل التي يمكنك رؤيتها على اليسار. ثم Aspose.Words يحول كل موضوع إلى HTML. عادة ما يكون حل استرداد النص المنسق بأنماط محددة في مستند ورد اقتصاديا ومباشرا باستخدام Aspose.Words.
 
-توضيح مدى سهولة Aspose.Words ويعالج استرجاع المحتوى على أساس الأساليب، ولينظر إلى مثال على ذلك. وفي هذا المثال، سنسترجع نصا مصاغا بأسلوب فقرات محددة وبأسلوب شخصي من عينة من وثائق الكلمات.
+لتوضيح مدى سهولة معالجة Aspose.Words لاسترجاع المحتوى بناء على الأنماط، دعنا نلقي نظرة على مثال. في هذا المثال، سنقوم باسترداد نص منسق بنمط فقرة معين ونمط حرف من نموذج مستند ورد.
 
-وعلى مستوى عال، سيشمل ذلك ما يلي:
+على مستوى عال، سيشمل هذا:
 
-1 افتتاح وثيقة كلمة باستخدام [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) الصف
-1 الحصول على مجموعات من جميع الفقرات وجميعها يجري في الوثيقة.
-1 ولا يُختار سوى الفقرات والسير المطلوبة.
+1. فتح مستند ورد باستخدام فئة [Document](https://reference.aspose.com/words/java/com.aspose.words/document/).
+1. الحصول على مجموعات من جميع الفقرات وجميع يعمل في الوثيقة.
+1. تحديد الفقرات والأشواط المطلوبة فقط.
 
-وعلى وجه التحديد، سوف نسترجع نصا مصاغا بأسلوب " الفقرة ١ " وأسلوب " التركيز الانكليزي " من هذه العينة " وورد "
+على وجه التحديد، سنقوم استرداد النص المنسق مع' Heading 1 'نمط الفقرة و' التركيز الشديد ' نمط الحرف من هذا المستند كلمة عينة.
 
 ![working-with-styles-aspose-words-java-1](/words/java/working-with-styles-and-themes/working-with-styles-1.png)
 
-In this sample document, the text formatted with the ‘Heading 1’ paragraph fashion is ‘Insert Tab’, ‘Quick Styles’ and ‘Theme’, and the text formatted with the ‘Intense emphasis’ character fashion is the several instances of blue, italicized, bold text such as ‘galleries’ and ‘overall look’.
+في هذه الوثيقة عينة، النص المنسق مع' Heading 1 'نمط الفقرة هو ' إدراج علامة التبويب'، 'أنماط سريعة' و 'موضوع'، والنص المنسق مع' التركيز الشديد 'نمط الحرف هو عدة حالات من الأزرق، مائل، النص الغامق مثل' المعارض 'و'نظرة شاملة'.
 
-The implementation of a fashion-based query is quite simple in the Aspose.Words نموذج الجسم المستندي، لأنه ببساطة يستخدم أدوات موجودة بالفعل. ونُفِّذت طريقتان من طرق الفصول لهذا الحل:
+يعد تنفيذ الاستعلام المستند إلى النمط أمرا بسيطا للغاية في نموذج كائن المستند Aspose.Words، لأنه يستخدم ببساطة الأدوات الموجودة بالفعل. يتم تنفيذ طريقتين من الفئة لهذا الحل:
 
-1 **ParagraphsByStyleName** - وتسترجع هذه الطريقة مجموعة من الفقرات الواردة في الوثيقة التي لها اسم نمطي محدد.
-1 **RunsByStyleName** - وتسترجع هذه الطريقة مجموعة من هذه العمليات في الوثيقة التي لها اسم نمطي محدد.
+1. **ParagraphsByStyleName** - تسترد هذه الطريقة مصفوفة من تلك الفقرات في المستند لها اسم نمط معين.
+1. **RunsByStyleName** - تقوم هذه الطريقة باسترداد مصفوفة من عمليات التشغيل هذه في المستند التي لها اسم نمط معين.
 
-وهذه الأساليب متشابهة جدا، والاختلافات الوحيدة هي أنواع العقيدة، وتمثيل المعلومات المتعلقة بالأسلوب في الفقرة، والارتباط بها. وهنا يتم تنفيذ الفقرات على غرار الفقرات الواردة في النموذج الرمزي الوارد أدناه لإيجاد جميع الفقرات المصاغة بأسلوب محدد.
+كلتا الطريقتين متشابهتان للغاية، والاختلافات الوحيدة هي أنواع العقدة وتمثيل معلومات النمط داخل الفقرة وعقد التشغيل. في ما يلي تنفيذ ParagraphsByStyleName الموضح في مثال الكود الموضح أدناه للعثور على جميع الفقرات المنسقة بالنمط المحدد.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-styles-ExtractContentBasedOnStyles-paragraphsByStyleName.java" >}}
 
-This implementation also uses the [Document.getChildNodes()](https://reference.aspose.com/words/java/com.aspose.words/document/#getChildNodes) طريقة `Document` صنف، الذي يُعيدُ a مجموعة مِنْ كُلّ ندوات الأطفالِ الفوريةِ.
+يستخدم هذا التنفيذ أيضا طريقة [Document.getChildNodes()](https://reference.aspose.com/words/java/com.aspose.words/document/#getChildNodes) من فئة `Document`، والتي ترجع مجموعة من جميع العقد الفرعية الفورية.
 
-وتجدر الإشارة أيضا إلى أن مجموعة الفقرات لا تخلق نفقات عامة فورية لأن الفقرات محمولة في هذه المجموعة فقط عندما تصلون إلى المواد فيها. إذن، كل ما عليك فعله هو أن تذهب من خلال عملية التحصيل، مستخدماً مشغل المعلمات القياسية، وتضيف فقرات ذات أسلوب محدد إلى الفقرات صفيفة The `Paragraph` يمكن العثور على اسم الموضة في [Style.getName()](https://reference.aspose.com/words/java/com.aspose.words/style/#getName) ممتلكات [Paragraph.getParagraphFormat()](https://reference.aspose.com/words/java/com.aspose.words/style/#getParagraphFormat) هدف
+تجدر الإشارة أيضا إلى أن مجموعة الفقرات لا تنشئ عبئا فوريا لأن الفقرات يتم تحميلها في هذه المجموعة فقط عند الوصول إلى العناصر الموجودة فيها.ثم، كل ما عليك القيام به هو الذهاب من خلال جمع، وذلك باستخدام معيار لكل عامل وإضافة الفقرات التي لها النمط المحدد إلى paragraphsWithStyle مجموعة. يمكن العثور على اسم النمط `Paragraph` في خاصية [Style.getName()](https://reference.aspose.com/words/java/com.aspose.words/style/#getName) للكائن [Paragraph.getParagraphFormat()](https://reference.aspose.com/words/java/com.aspose.words/style/#getParagraphFormat).
 
-إن تنفيذ نظام " رانسبي ستيل نام " هو نفسه تقريبا، وإن كان من الواضح أننا نستخدمه `NodeType.Run` لاسترجاع الأنهار The [Font.getStyle()](https://reference.aspose.com/words/java/com.aspose.words/font/#getStyle) ممتلكات [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) يُستخدم الجسم في الحصول على معلومات عن النمط في **Run** المشنقة
+تنفيذ RunsByStyleName هو نفسه تقريبا، على الرغم من أننا من الواضح أننا نستخدم `NodeType.Run` لاسترداد عقد التشغيل. يتم استخدام خاصية [Font.getStyle()](https://reference.aspose.com/words/java/com.aspose.words/font/#getStyle) لكائن [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) للوصول إلى معلومات النمط في العقد **Run**.
 
-The following code example finds all runs formatted with the specified fashion.
+يجد مثال التعليمات البرمجية التالي جميع عمليات التشغيل المنسقة بالنمط المحدد.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-styles-ExtractContentBasedOnStyles-runsByStyleName.java" >}}
 
 {{% alert color="primary" %}}
 
-عندما يتم تنفيذ كل من الاستفسارات، كل ما عليك القيام به هو تمرير الجسم الوثائقي وتحديد الأسماء النمطية للمحتوى الذي تريد استرجاعه:
+عند تنفيذ كلا الاستعلامين، كل ما عليك فعله هو تمرير كائن مستند وتحديد أسماء أنماط المحتوى الذي تريد استرداده:
 
 {{% /alert %}}
 
-The following code example run queries and display results.
+المثال التعليمات البرمجية التالية تشغيل الاستعلامات وعرض النتائج.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-styles-ExtractContentBasedOnStyles-ExtractContentBasedOnStyles.java" >}}
 
-وعندما يتم كل شيء، سيظهر تشغيل العينة الناتج التالي:
+عندما يتم كل شيء، سيؤدي تشغيل العينة إلى عرض الإخراج التالي:
 
 ![working-with-styles-aspose-words-java-2](/words/java/working-with-styles-and-themes/working-with-styles-2.png)
 
-وكما ترون، فإن هذا مثال بسيط جدا، يبين عدد ونص الفقرات التي تم جمعها ويسير في العينة " وورد ".
+كما ترون، وهذا هو مثال بسيط جدا، والتي تبين عدد ونص الفقرات التي تم جمعها ويعمل في وثيقة كلمة عينة.
 
-## Insert Style Separator to Put Different Paragraph Styles
+## إدراج نمط فاصل لوضع أنماط الفقرة المختلفة
 
-ويمكن إضافة فصل عن الأسلوب إلى نهاية فقرة تستخدم طريق " Ctrl + Alt + Enter Keyboard Shortcut into MS Word ". وتتيح هذه السمة استخدام أسلوبين مختلفين في فقرة مطبوعة منطقية واحدة. إذا كنت تريد بعض النص من بداية عنوان معين أن يظهر في جدول المحتويات ولكن لا تريد العنوان بأكمله في جدول المحتويات، يمكنك استخدام هذه السمة
+يمكن إضافة فاصل النمط إلى نهاية الفقرة باستخدام كترل + ألت + أدخل اختصار لوحة المفاتيح في MS كلمة. تسمح هذه الميزة لنمطين مختلفين للفقرة المستخدمة في فقرة مطبوعة منطقية واحدة. إذا كنت تريد ظهور بعض النصوص من بداية عنوان معين في جدول المحتويات ولكنك لا تريد العنوان بأكمله في جدول المحتويات، فيمكنك استخدام هذه الميزة.
 
-ويبيّن المثال الرمزي التالي كيف يُدرَج مُناظر نمطي لوضع أساليب مختلفة في الفقرات
+يوضح مثال التعليمات البرمجية التالية كيفية إدراج فاصل نمط لوضع أنماط فقرة مختلفة.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-ParagraphInsertStyleSeparator.java" >}}
 
-## نسخ جميع صفائح من النموذج
+## انسخ جميع الأنماط من القالب
 
-هناك حالات عندما تريد أن تنسخ كل الأساليب من وثيقة إلى أخرى يمكنك استخدام `Document.CopyStylesFromTemplate` طريقة لنسخ النماذج من النموذج المحدد إلى الوثيقة. وعندما تُنسخ الأنماط من نموذج إلى وثيقة، تُعاد تعريف الأساليب المشابهة في الوثيقة بحيث تتطابق مع وصفات النمط في النموذج. النمط الوحيد من النموذج ينسخ إلى الوثيقة. ولا تزال الأساليب الوحيدة في الوثيقة سليمة
+هناك حالات تريد فيها نسخ جميع الأنماط من مستند إلى آخر. يمكنك استخدام طريقة `Document.CopyStylesFromTemplate` لنسخ الأنماط من القالب المحدد إلى مستند. عندما يتم نسخ الأنماط من قالب إلى مستند، يتم إعادة تعريف الأنماط المسماة في المستند لتتناسب مع أوصاف الأنماط في القالب. يتم نسخ الأنماط الفريدة من القالب إلى المستند. تظل الأنماط الفريدة في المستند سليمة.
 
-ويوضح المثال الرمزي التالي كيف ينسخ أساليب من وثيقة إلى أخرى.
+يوضح مثال التعليمات البرمجية التالية كيفية نسخ الأنماط من مستند إلى آخر.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithStyle-CopyStylesFromDocument.java" >}}
 
-## كيفية التلاعب Theme Properties
+## كيفية التعامل مع خصائص الموضوع
 
-لقد أضفنا الأساسي API في Aspose.Words الاطلاع على الخصائص المواضيعية للوثائق. الآن، هذا API تشمل الأغراض العامة التالية:
+واضاف لدينا الأساسية API في Aspose.Words للوصول إلى خصائص موضوع الوثيقة. في الوقت الحالي، يتضمن هذا API الكائنات العامة التالية:
 
 - الموضوع
 - ThemeFonts
 - ThemeColors
 
-هنا كيف يمكنك الحصول على خواص الموضوع:
+هنا هو كيف يمكنك الحصول على خصائص الموضوع:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Theme-GetThemeProperties-GetThemeProperties.java" >}}
 
-وها هي الطريقة التي يمكنك بها تحديد خصائص الموضوع:
+وهنا هو كيف يمكنك تعيين خصائص الموضوع:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Theme-SetThemeProperties-SetThemeProperties.java" >}}

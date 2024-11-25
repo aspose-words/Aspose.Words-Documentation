@@ -1,9 +1,9 @@
----
+﻿---
 title: Dateiformate und Konvertierungen
 second_title: Aspose.Words für Java
 articleTitle: Dateiformate und Konvertierungen
 linktitle: Dateiformate und Konvertierungen
-description: "Konvertieren Sie Dokumente von jeder unterstützten Last, um Format mit nur zwei Zeilen zu speichern Java Code. Es bietet qualitativ hochwertige Umwandlungen mit Java."
+description: "Konvertieren Sie Dokumente aus jedem unterstützten Lade- in Speicherformat mit nur zwei Zeilen Java -Code. Es bietet qualitativ hochwertige Konvertierungen mit Java."
 type: docs
 weight: 40
 url: /de/java/file-formats-and-conversions/
@@ -12,54 +12,54 @@ timestamp: 2024-01-31-14-23-37
 
 {{% alert color="primary" %}}
 
-**Online testen**
+**Online ausprobieren**
 
-Sie können die Conversion-Funktionalität ausprobieren, indem Sie unsere [Online Konverter](https://products.aspose.app/words/conversion) Werkzeug.
+Sie können die Konvertierungsfunktion ausprobieren, indem Sie unsere verwenden [Kostenloser Online Konverter](https://products.aspose.app/words/conversion) Werkzeug.
 
 {{% /alert %}}
 
-Die Fähigkeit, verschiedene Dokumentenformate mit hoher Präzision schnell und zuverlässig zu konvertieren, ist Aspose.Words's Flaggschiff Feature. Dies ist oft ein guter Grund zu wählen Aspose.Words für Java.
+Die Fähigkeit, verschiedene Dokumentenformate schnell und zuverlässig mit hoher Präzision zu konvertieren, ist das Flaggschiff von Aspose.Words. Dies ist oft ein guter Grund, Aspose.Words für Java zu wählen.
 
-Mit Aspose.Words Sie können Dokumente aus jedem unterstützten Lastformat in jedes unterstützte Speicherformat mit nur zwei Zeilen Code konvertieren:
+Mit Aspose.Words können Sie Dokumente mit nur zwei Codezeilen von jedem unterstützten Ladeformat in jedes unterstützte Speicherformat konvertieren:
 
-ANHANG Laden Sie ein Dokument aus einer Datei oder einem Stream
-2. Speichern Sie es in jedem unterstützten Format
+1. Laden eines Dokuments aus einer Datei oder einem Stream
+2. Speichern Sie es in einem beliebigen unterstützten Format
 
-Das folgende Codebeispiel zeigt, wie man ein Dokument umwandelt:
+Das folgende Codebeispiel zeigt, wie Sie ein Dokument konvertieren:
 
 {{< gist "aspose-words-gists" "b237846932dfcde42358bd0c887661a5" "docx-to-pdf.java" >}}
 
-Für weitere Details zum Laden, Umwandeln und Speichern von Dokumenten siehe [Laden, Sparen und Umrechnen](/words/de/java/loading-saving-and-converting/) Abschnitt.
+Weitere Informationen zum Laden, Konvertieren und Speichern von Dokumenten finden Sie in der [Laden, Speichern und Konvertieren](/words/java/loading-saving-and-converting/) Abschnitt.
 
-## Hohe Sicherheit
+## Hohe Wiedergabetreue
 
-Eines der Hauptziele Aspose.Words ist es, eine hohe Treuekonvertierung zwischen Dokumentenformaten bereitzustellen. Wir verwenden das Wort "hohe Treue", um Konvertierungen zu beschreiben, bei denen das Ausgabedokument alle Inhalte und Formatierungen des Originals behält.
+Eines der Hauptziele von Aspose.Words ist die Bereitstellung einer hochauflösenden Konvertierung zwischen Dokumentformaten. Wir verwenden das Wort "High-Fidelity", um Konvertierungen zu beschreiben, bei denen das Ausgabedokument den gesamten Inhalt und die Formatierung des Originals beibehält.
 
-Moderne Textverarbeitung Dokumentformate sind komplex und beinhalten Hunderte von Funktionen. Manchmal, wenn ein Anbieter behauptet, dass ihre Lösung ein bestimmtes Dokumentformat unterstützt – es bedeutet, dass nur die grundlegenden Merkmale des Formats unterstützt werden. Zum Beispiel Microsoft Word Dokumente haben erweiterte Funktionen wie Fußnoten, Textfelder, Autoformen, OLE-Objekte, Felder und erweiterte Formatierungsattribute. Viele dieser Elemente werden oft in Dokumentenverarbeitungsbibliotheken ignoriert, aber nicht in Aspose.Words.
+Moderne Textverarbeitungsdokumentformate sind komplex und enthalten Hunderte von Funktionen. Manchmal, wenn ein Anbieter behauptet, dass seine Lösung ein bestimmtes Dokumentenformat unterstützt, bedeutet dies, dass nur die grundlegenden Funktionen des Formats unterstützt werden. Microsoft Word-Dokumente verfügen beispielsweise über erweiterte Funktionen wie Fußnoten, Textfelder, automatische Formen, OLE-Objekte, Felder und erweiterte Formatierungsattribute. Viele dieser Elemente werden in Dokumentverarbeitungsbibliotheken häufig ignoriert, nicht jedoch in Aspose.Words.
 
-### Größere Ausdehnung der Formatunterstützung
+### Größere Formatunterstützung
 
-Der unbestreitbare Vorteil Aspose.Words ist das große Maß an Unterstützung für die meisten der bekannten Formate. Es ist schwer oder unmöglich, das gleiche Niveau der Unterstützung für viele wichtige Funktionen anderswo zu finden.
+Der unbestreitbare Vorteil von Aspose.Words ist die umfassende Unterstützung der meisten bekannten Formate. Es ist schwierig oder unmöglich, anderswo das gleiche Maß an Unterstützung für viele wichtige Funktionen zu finden.
 
-Beim Kauf einer Lösung, die ein bestimmtes Format unterstützt, erfahren Sie, auf welcher Ebene die Merkmale dieses Formats unterstützt werden. Um zu testen, erstellen Sie eine komplexe Datei und führen Sie sie durch die vorgeschlagene Lösung. Sie werden oft feststellen, dass viele Dokumentelemente und Formatierung verloren gehen. Zum Beispiel leiden für das DOC-Format Formen, Textfelder, Felder, Spalten, OLE-Objekte, Überarbeitungen, Rechts-Link-Texte in der Regel.
+Informieren Sie sich beim Kauf einer Lösung, die ein bestimmtes Format unterstützt, auf welcher Ebene die Funktionen dieses Formats unterstützt werden. Erstellen Sie zum Testen eine komplexe Datei und führen Sie sie durch die vorgeschlagene Lösung. Sie werden oft feststellen, dass viele Dokumentelemente und Formatierungen verloren gehen. Beispielsweise leiden für das Format DOC normalerweise Formen, Textfelder, Felder, Spalten, OLE -Objekte, Revisionen und Text von rechts nach links.
 
-Aspose.Words Document Object Model (DOM) wurde mit Microsoft Word Dokumentformate im Sinn. Daher ist unsere Unterstützung für diese Formate, wie DOC, DOCX, RTF oder WordprocessingML, beispiellos. Die Umwandlung in jede Richtung zwischen diesen Formaten ist hochtreu.
+Das Aspose.Words -Dokumentobjektmodell (DOM) wurde unter Berücksichtigung der Microsoft Word -Dokumentformate entwickelt. Daher ist unsere Unterstützung für diese Formate, wie z DOC, DOCX, RTF, oder WordprocessingML, ist beispiellos. Die Konvertierung in jede Richtung zwischen diesen Formaten erfolgt mit hoher Wiedergabetreue.
 
-Wenn Sie ein komplexes Dokument ausführen Aspose.Words, genießen Sie die unübertroffene Vollständigkeit der Format-Implementierung.
+Wenn Sie ein komplexes Dokument über Aspose.Words ausführen, genießen Sie die unübertroffene Vollständigkeit der Formatimplementierung.
 
-### Umrechnungsbeispiele zwischen beliebten Formaten
+### Konvertierungsbeispiele zwischen gängigen Formaten
 
-Im Folgenden sind Beispiele für Konvertierungen zwischen einigen beliebten Formaten. Sie können bewerten, wie genau Aspose.Words mit der Aufgabe umgehen.
+Nachfolgend finden Sie Beispiele für Konvertierungen zwischen einigen gängigen Formaten. Sie können bewerten, wie genau Aspose.Words die Aufgabe bewältigt.
 
 ---
 
-*DOC zu RTF – Hochsicherheitskonvertierung: *
+*DOC to RTF – high-fidelity conversion:*
 
 <img src="/words/java/file-formats-and-conversions/high-quality-conversions-1.png" alt="doc-to-rtf-aspose-words-java-1" style="width:500px; vertical-align: top"/> <img src="/words/java/file-formats-and-conversions/high-quality-conversions-2.png" alt="doc-to-rtf-aspose-words-java-2" style="width:500px; vertical-align: top"/>
 
 ---
 
-*DOC in PDF – Hochsicherheitskonvertierung: *
+*DOC to PDF – high-fidelity conversion:*
 
 <img src="/words/java/file-formats-and-conversions/high-quality-conversions-1.png" alt="doc-to-pdf-aspose-words-java-1" style="width:500px; vertical-align: top"/> <img src="/words/java/file-formats-and-conversions/high-quality-conversions-3.png" alt="doc-to-pdf-aspose-words-java-2" style="width:500px; vertical-align: top"/>
 
@@ -67,45 +67,45 @@ Im Folgenden sind Beispiele für Konvertierungen zwischen einigen beliebten Form
 
 ---
 
-*DOC zu ODT – hochtreue Umwandlung: *
+*DOC to ODT – high-fidelity conversion:*
 
 <img src="/words/java/file-formats-and-conversions/high-quality-conversions-1.png" alt="doc-to-odt-aspose-words-java-1" style="width:500px; vertical-align: top"/> <img src="/words/java/file-formats-and-conversions/high-quality-conversions-4.png" alt="doc-to-odt-aspose-words-java-2" style="width:500px; vertical-align: top"/>
 
 ---
 
-*DOC bis XPS – Umrechnung der hohen Treue: *
+*DOC to XPS – high-fidelity conversion:*
 
 <img src="/words/java/file-formats-and-conversions/xml-paper-specification-xps-2.png" alt="doc-to-xps-aspose-words-java-1" style="width:500px; vertical-align: top"/> <img src="/words/java/file-formats-and-conversions/xml-paper-specification-xps-3.png" alt="doc-to-xps-aspose-words-java-2" style="width:500px; vertical-align: top"/>
 
 ---
 
-*DOC zu JPEG – Hochsicherheitskonvertierung: *
+*DOC to JPEG – high-fidelity conversion:*
 
 <img src="/words/java/file-formats-and-conversions/image-formats-tiff-png-bmp-emf-jpeg-gif-9.png" alt="doc-to-jpg-aspose-words-java-1" style="width:1000px; vertical-align: top"/>
 
 ---
 
-*RTF zu TXT – Hochsicherheitskonvertierung: *
+*RTF to TXT – high-fidelity conversion:*
 
 <img src="/words/java/file-formats-and-conversions/plain-text-txt-2.png" alt="rtf-to-txt-aspose-words-java-1" style="width:500px; vertical-align: top"/> <img src="/words/java/file-formats-and-conversions/plain-text-txt-3.png" alt="rtf-to-txt-aspose-words-java-2" style="width:500px; vertical-align: top"/>
 
 ---
 
-Obwohl alle Konverter in Aspose.Words sind groß, manchmal werden Sie nicht in der Lage, das gleiche Aussehen für Dokumente in verschiedenen Formaten zu erhalten.
+Obwohl alle Konverter in Aspose.Words großartig sind, können Sie manchmal nicht das gleiche Erscheinungsbild für Dokumente in verschiedenen Formaten erzielen.
 
 {{% alert color="primary" %}}
 
-Beachten Sie, dass in solchen Situationen Aspose.Words hat die Konvertierung mit "high-fidelity" gekennzeichnet und das Ausgabedokument wird die gleiche sein, wie nach der Umwandlung über Microsoft Word.
+Beachten Sie, dass in solchen Situationen Aspose.Words die Konvertierung als "High-Fidelity" markiert ist und das Ausgabedokument dasselbe ist wie nach der Konvertierung über Microsoft Word.
 
 {{% /alert %}}
 
-Zum Beispiel gibt es keine einfache Ein-zu-Ein-Kombination zwischen allen Funktionen von HTML und Microsoft Word Dokumente. Es gibt keine Header/Fußer, Abschnitte, Felder und Tabs in HTML. Umgekehrt können nicht alle CSS-Attribute und -Regeln auf eine Microsoft Word Dokument.
+Beispielsweise gibt es keine einfache Eins-zu-Eins-Übereinstimmung zwischen allen Merkmalen von HTML - und Microsoft Word -Dokumenten. Es gibt keine Kopf- /Fußzeilen, Abschnitte, Felder und Registerkarten in HTML. Umgekehrt können nicht alle CSS Attribute und Regeln einem Microsoft Word Dokument zugeordnet werden.
 
-Unten ist ein Beispiel für Konvertierungen von DOC zu HTML.
+Unten sehen Sie ein Beispiel für Konvertierungen von DOC nach HTML.
 
 ---
 
-DOC zu HTML – High-Fidelity-Konvertierung:
+DOC bis HTML - High-Fidelity-Konvertierung:
 
 <img src="/words/java/file-formats-and-conversions/high-quality-conversions-1.png" alt="doc-to-html-aspose-words-java-1" style="width:500px; vertical-align: top"/> <img src="/words/java/file-formats-and-conversions/high-quality-conversions-5.png" alt="doc-to-html-aspose-words-java-2" style="width:500px; vertical-align: top"/>
 
@@ -115,10 +115,10 @@ DOC zu HTML – High-Fidelity-Konvertierung:
 
 ## Hohe Skalierbarkeit
 
-Skalierbare serverseitige Szenarien verwenden Aspose.Words vor allem aufgrund seines einfachen und sauberen Designs – Aspose.Words unterstützt Multithreading. [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) Objekte sind unabhängig voneinander, und solange nur ein Faden ein Dokument zu einem Zeitpunkt ändern kann (eine typische Anforderung für jede Sammelklasse), können mehrere Threads jede Anzahl von Dokumenten gleichzeitig bearbeiten.
+Skalierbare serverseitige Szenarien verwenden Aspose.Words hauptsächlich wegen seines einfachen und sauberen Designs – Aspose.Words unterstützt Multithreading. [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) -Objekte sind unabhängig voneinander, und solange jeweils nur ein Thread ein Dokument ändern kann (eine typische Anforderung für jede Sammlungsklasse), können mehrere Threads eine beliebige Anzahl von Dokumenten gleichzeitig verarbeiten.
 
-## Hohe Leistung
+## Hochleistungs
 
-Aspose.Words zeigt hohe Leistung beim Laden und Speichern von Dokumenten. Bei der Prüfung wurde eine DOC-Datei über 5Mb in der Größe in weniger als 1 Sekunde geladen und dann in weniger als 1 Sekunde auf einer P4 3GHz-Maschine gespeichert. Kleinere Dateien können mit tausenden pro Minute Geschwindigkeiten verarbeitet werden.
+Aspose.Words zeigt eine hohe Leistung beim Laden und Speichern von Dokumenten. Beim Testen wurde eine DOC -Datei mit einer Größe von über 5Mb in weniger als 1 Sekunde geladen und dann in weniger als 1 Sekunde auf einem P4 3GHz -Computer gespeichert. Kleinere Dateien können mit Geschwindigkeiten von Tausenden pro Minute verarbeitet werden.
 
-Bei mehreren Gelegenheiten haben unsere Kunden uns mitgeteilt, dass sie die Geschwindigkeit der Aspose.Words. Sie traten über die Codezeile, die ein riesiges Dokument in den Debugger geladen wurde, und es war so augenblicklich, dass sie nicht glauben konnten, dass die Datei in die **Document** Objekt.
+Mehrfach haben uns unsere Kunden berichtet, dass sie die Geschwindigkeit von Aspose.Words nicht glauben konnten. Sie traten über die Codezeile, die ein riesiges Dokument in den Debugger lud, und es geschah so augenblicklich, dass sie nicht glauben konnten, dass die Datei in das **Document** -Objekt geladen wurde.

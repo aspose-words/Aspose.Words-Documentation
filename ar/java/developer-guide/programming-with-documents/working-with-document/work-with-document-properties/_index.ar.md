@@ -1,81 +1,81 @@
----
-title: العمل مع هيئات الوثائق Java
-second_title: Aspose.Words for Java
-articleTitle: العمل مع هيئات الوثائق
-linktitle: العمل مع هيئات الوثائق
-description: "Aspose.Words for Java يتيح تخزين بعض المعلومات المفيدة عن وثيقتك، مثل API العدد أو الصلاحية Date, In built-in or custom document properties."
+﻿---
+title: العمل مع خصائص المستند في Java
+second_title: Aspose.Words ل Java
+articleTitle: العمل مع خصائص المستند
+linktitle: العمل مع خصائص المستند
+description: "Aspose.Words إلى عن على Java يسمح بتخزين بعض المعلومات المفيدة حول المستند الخاص بك، مثل API ورقم الإصدار أو التاريخ المصرح به، في خصائص المستند المضمنة أو المخصصة."
 type: docs
 weight: 10
 url: /ar/java/work-with-document-properties/
 timestamp: 2024-01-31-14-23-37
 ---
 
-خصائص الوثائق تسمح بتخزين بعض المعلومات المفيدة عن وثيقتك ويمكن تقسيم هذه الممتلكات إلى مجموعتين:
+تسمح خصائص المستند بتخزين بعض المعلومات المفيدة حول المستند. يمكن تقسيم هذه الخصائص إلى مجموعتين:
 
-* نظام أو مبني يتضمن قيما مثل عنوان الوثائق واسم المؤلف وإحصاءات الوثائق وغيرها.
-* ♪ (ب) تعريف المستخدم أو العرف، شريطة أن يكون زوجاً لقيمة الاسم حيث يمكن للمستعمل أن يحدد الاسم والقيمة معاً.
+* نظام أو مدمج يحتوي على قيم مثل عنوان المستند واسم المؤلف وإحصائيات المستند وغيرها.
+* المعرفة من قبل المستخدم أو العرف، كما قدمت أزواج اسم القيمة حيث يمكن للمستخدم تحديد كل من الاسم والقيمة.
 
-من المفيد معرفة هذه المعلومات API ورقم الإصدار مكتوب مباشرة على وثائق النواتج. فعلى سبيل المثال، عند تحويل وثيقة إلى قوات الدفاع الشعبي، Aspose.Words يملأ حقل "التطبيق" مع "Aspose.Words"و حقل "منتج من قوات الدفاع الشعبيهAspose.Words for Java YY.M.N *YY.M.N* هو نسخة Aspose.Words مستعمل للتحول لمزيد من التفاصيل، انظر [اسم المولد أو المنتج المدرج في وثائق النواتج](/words/ar/java/generator-or-producer-name-included-in-output-documents/).
+من المفيد معرفة أن المعلومات حول API ورقم الإصدار مكتوبة مباشرة إلى مستندات الإخراج. على سبيل المثال، عند تحويل مستند إلى PDF، يملأ Aspose.Words حقل "التطبيق" بـ "Aspose.Words"، وحقل "PDF المنتج" بـ "Aspose.Words لـ Java YY.م. ن "، حيث *YY.M.N* هي نسخة Aspose.Words المستخدمة للتحويل. لمزيد من التفاصيل، انظر [اسم المولد أو المنتج المضمن في مستندات الإخراج](/words/java/generator-or-producer-name-included-in-output-documents/).
 
 {{% alert color="primary" %}}
 
-ملاحظة: **لا يمكن أن يكون** Aspose.Words تغيير أو إزالة هذه المعلومات من وثائق النواتج.
+لاحظ أنك **cannot direct** Aspose.Words لتغيير أو إزالة هذه المعلومات من مستندات الإخراج.
 
 {{% /alert %}}
 
-## Access Document Properties
+## الوصول إلى خصائص المستند
 
-الوصول إلى ممتلكات الوثائق Aspose.Words الاستخدام:
+للوصول إلى خصائص المستند في Aspose.Words استخدم:
 
-* ♪ [BuiltInDocumentProperties](https://reference.aspose.com/words/java/com.aspose.words/document/#getBuiltInDocumentProperties) للحصول على ممتلكات مبنية
+* [BuiltInDocumentProperties](https://reference.aspose.com/words/java/com.aspose.words/document/#getBuiltInDocumentProperties) للحصول على خصائص مدمجة.
 
-* ♪ [CustomDocumentProperties](https://reference.aspose.com/words/java/com.aspose.words/document/#getCustomDocumentProperties) للحصول على الممتلكات العرفية
+* [CustomDocumentProperties](https://reference.aspose.com/words/java/com.aspose.words/document/#getCustomDocumentProperties) للحصول على خصائص مخصصة.
 
-**BuiltInDocumentProperties** و **CustomDocumentProperties** هي مجموعات [DocumentProperty](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/) أشياء ويمكن الحصول على هذه الأشياء من خلال ممتلكات الفهرس بالاسم أو بالرقم القياسي.
+**BuiltInDocumentProperties**
 
-**BuiltInDocumentProperties** وبالإضافة إلى ذلك، تتيح إمكانية الحصول على ممتلكات الوثائق من خلال مجموعة من الممتلكات المُدخلة التي تعيد القيم من النوع المناسب. **CustomDocumentProperties** يمكنك أن تضيف أو تزيل ممتلكات الوثائق من وثيقة
+**BuiltInDocumentProperties**
 
-The [DocumentProperty](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/) الصف يسمح لك بالحصول على الاسم، القيمة، ونوع ملكية الوثائق. [Value]https://reference.aspose.com/words/java/com.aspose.words/documentproperty#Value) returns an object, but there is a set of methods allowing you to get the property value converted to a specific type. وبعد ذلك، لم يحدث أي تغيير {0} على سبيل المثال {1}[البعثة]](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/#toString) و **DocumentProperty.**[ToInt](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/#toInt), للحصول على قيمة النوع المناسب.
+تتيح لك فئة [DocumentProperty](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/) الحصول على اسم وقيمة ونوع خاصية المستند. [القيمة]https://reference.aspose.com/words/java/com.aspose.words/documentproperty#Value) إرجاع كائن، ولكن هناك مجموعة من الأساليب التي تسمح لك للحصول على قيمة الخاصية تحويلها إلى نوع معين. بعد التعرف على نوع الخاصية، يمكنك استخدام إحدى طرق **DocumentProperty.ToXXX**، مثل **DocumentProperty.**[ToString](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/#toString) و **DocumentProperty.**[ToInt](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/#toInt)، للحصول على قيمة النوع المناسب.
 
-ويبيّن المثال الرمزي التالي كيف يُعدّد جميع الممتلكات المبنيّة والعادية في وثيقة:
+يوضح مثال التعليمات البرمجية التالية كيفية تعداد كافة الخصائص المضمنة والمخصصة في مستند:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocProperties-EnumerateProperties.java" >}}
 
 {{% alert color="primary" %}}
 
-يمكنك تحميل ملف النموذج من هذا المثال [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Properties.docx).
+يمكنك تنزيل ملف القالب لهذا المثال من [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Properties.docx).
 
 {{% /alert %}}
 
-In Microsoft Word, ويمكنكم الوصول إلى ممتلكات الوثائق باستخدام قائمة " الملفات ".
+في Microsoft Word، يمكنك الوصول إلى خصائص المستند باستخدام قائمة "ملف Properties خصائص".
 
 <img src="/words/java/work-with-document-properties/work-with-document-properties-1.png" alt="work-with-document-properties-aspose-words-java.png" style="width:400px"/>
 
-## Add or Remove Document Properties
+## إضافة أو إزالة خصائص المستند
 
-لا يمكنك أن تضيف أو تزيل ممتلكات مستندية مبنية باستخدام Aspose.Words. يمكنك فقط تغيير أو تحديث قيمهم
+لا يمكنك إضافة أو إزالة خصائص المستند المضمنة باستخدام Aspose.Words. يمكنك فقط تغيير أو تحديث قيمها.
 
-إضافة خصائص الوثائق الجمركية Aspose.Words, استخدام [Add](https://reference.aspose.com/words/java/com.aspose.words/customdocumentproperties/#add-java.lang.String-boolean) طريقة، إصدار اسم الملكية الجديد وقيمة النوع المناسب. The method returns the newly created **DocumentProperty** هدف
+لإضافة خصائص وثيقة مخصصة مع Aspose.Words، استخدم طريقة [Add](https://reference.aspose.com/words/java/com.aspose.words/customdocumentproperties/#add-java.lang.String-boolean)، وتمرير اسم الخاصية الجديدة وقيمة النوع المناسب. تقوم الطريقة بإرجاع الكائن **DocumentProperty** الذي تم إنشاؤه حديثا.
 
-لإزالة الممتلكات الجمركية، استخدام [Remove](https://reference.aspose.com/words/java/com.aspose.words/customdocumentproperties/#remove-java.lang.String) طريقة، تمرير اسم الملكية لإزالة، أو [RemoveAt](https://reference.aspose.com/words/java/com.aspose.words/customdocumentproperties/#removeAt-int) طريقة لإزالة الممتلكات حسب الرقم القياسي. يمكنك أيضا إزالة جميع الممتلكات باستخدام [Clear](https://reference.aspose.com/words/java/com.aspose.words/customdocumentproperties/#clear) طريقة
+لإزالة الخصائص المخصصة، استخدم طريقة [Remove](https://reference.aspose.com/words/java/com.aspose.words/customdocumentproperties/#remove-java.lang.String)، مرورا باسم الخاصية المراد إزالتها، أو طريقة [RemoveAt](https://reference.aspose.com/words/java/com.aspose.words/customdocumentproperties/#removeAt-int) لإزالة الخاصية حسب الفهرس. يمكنك أيضا إزالة جميع الخصائص باستخدام طريقة [Clear](https://reference.aspose.com/words/java/com.aspose.words/customdocumentproperties/#clear).
 
-ويتحقق المثال الرمزي التالي مما إذا كانت هناك ممتلكات عرفية تحمل اسم معين في وثيقة ما، ويضيف عدداً قليلاً من خصائص الوثائق العرفية:
+يتحقق مثال الكود التالي مما إذا كانت خاصية مخصصة باسم معين موجودة في مستند ويضيف بعض خصائص المستند المخصصة الأخرى:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocProperties-CustomAdd.java" >}}
 
 {{% alert color="primary" %}}
 
-يمكنك تحميل ملف النموذج من هذا المثال [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Properties.docx).
+يمكنك تنزيل ملف القالب لهذا المثال من [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Properties.docx).
 
 {{% /alert %}}
 
-ويبيّن المثال الرمزي التالي كيفية إزالة الممتلكات المستندية الجمركية:
+يوضح مثال التعليمات البرمجية التالية كيفية إزالة خاصية مستند مخصص:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocProperties-CustomRemove.java" >}}
 
-## Update Built-In Document Properties
+## تحديث خصائص المستند المضمنة
 
-Aspose.Words لا يستكمل تلقائياً خصائص الوثائق، كما هو الحال Microsoft Word مع بعض الممتلكات، ولكنها توفر طريقة لتحديث بعض الخصائص الإحصائية المستندية المدمجة. اتصل [UpdateWordCount](https://reference.aspose.com/words/java/com.aspose.words/document/#updateWordCount) طريقة إعادة حساب وتحديث الممتلكات التالية:
+لا يقوم Aspose.Words بتحديث خصائص المستند تلقائيا، كما يفعل Microsoft Word مع بعض الخصائص، ولكنه يوفر طريقة لتحديث بعض خصائص المستند المضمنة الإحصائية. استدعاء طريقة [UpdateWordCount](https://reference.aspose.com/words/java/com.aspose.words/document/#updateWordCount) لإعادة حساب وتحديث الخصائص التالية:
 
 * [Characters](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties#Characters)
 * [CharactersWithSpaces](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties#CharactersWithSpaces)
@@ -83,34 +83,34 @@ Aspose.Words لا يستكمل تلقائياً خصائص الوثائق، كم
 * [Paragraphs](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties#Paragraphs)
 * [Lines](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties#Lines)
 
-## Create a New Custom Property Linked to Content
+## إنشاء خاصية مخصصة جديدة مرتبطة بالمحتوى
 
-Aspose.Words يوفر [AddLinkToContent](https://reference.aspose.com/words/java/com.aspose.words/customdocumentproperties/#addLinkToContent-java.lang.String-java.lang.String) طريقة لإنشاء مستندات عرفية جديدة ترتبط بالمحتوى. وتعيد هذه الممتلكات الممتلكات الممتلكات المنشأة حديثاً أو لاغية إذا كانت [LinkSource](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/#isLinkToContent) غير صحيح
+Aspose.Words يوفر طريقة [AddLinkToContent](https://reference.aspose.com/words/java/com.aspose.words/customdocumentproperties/#addLinkToContent-java.lang.String-java.lang.String) لإنشاء خاصية مستند مخصص جديدة مرتبطة بالمحتوى. تقوم هذه الخاصية بإرجاع كائن الخاصية الذي تم إنشاؤه حديثا أو لاغية إذا كان [LinkSource](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/#isLinkToContent) غير صالح.
 
-The following code example shows how to configure a link to a custom property:
+يوضح مثال التعليمات البرمجية التالية كيفية تكوين ارتباط إلى خاصية مخصصة:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocProperties-ConfiguringLinkToContent.java" >}}
 
-## الحصول على الوثائق المتغيرة
+## احصل على متغيرات المستند
 
-يمكنك الحصول على مجموعة من متغيرات الوثائق باستخدام [Variables](https://reference.aspose.com/words/java/com.aspose.words/document/#getVariables) ملكية والأسماء والقيم المتغيرة هي الخيوط.
+يمكنك الحصول على مجموعة من متغيرات المستند باستخدام خاصية [Variables](https://reference.aspose.com/words/java/com.aspose.words/document/#getVariables). أسماء المتغيرات والقيم هي سلاسل.
 
-ويبين المثال الرمزي التالي كيفية تعداد متغيرات الوثائق:
+يوضح مثال الكود التالي كيفية تعداد متغيرات المستند:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-GetDocumentVariables-GetDocumentVariables.java" >}}
 
 {{% alert color="primary" %}}
 
-يمكنك تحميل ملف النموذج من هذا المثال [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Properties.docx).
+يمكنك تنزيل ملف القالب لهذا المثال من [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Properties.docx).
 
 {{% /alert %}}
 
-## نقل المعلومات الشخصية من الوثيقة
+## إزالة المعلومات الشخصية من المستند
 
-إذا كنت تريد أن تتقاسم وثيقة مع أشخاص آخرين، قد ترغب في إزالة المعلومات الشخصية مثل اسم المؤلف والشركة. لفعل هذا [RemovePersonalInformation](https://reference.aspose.com/words/java/com.aspose.words/document/#getRemovePersonalInformation) الممتلكات التي وضعت العلم Microsoft Word وسيزيل جميع معلومات المستخدمين من التعليقات والتنقيحات وممتلكات الوثائق عند توفير الوثيقة.
+إذا كنت ترغب في مشاركة مستند ورد مع أشخاص آخرين، فقد ترغب في إزالة المعلومات الشخصية مثل اسم المؤلف والشركة. للقيام بذلك، استخدم خاصية [RemovePersonalInformation](https://reference.aspose.com/words/java/com.aspose.words/document/#getRemovePersonalInformation) لتعيين العلامة التي تشير إلى أن Microsoft Word ستزيل جميع معلومات المستخدم من التعليقات والمراجعات وخصائص المستند عند حفظ المستند.
 
 {{% alert color="primary" %}}
 
-تحديد هذا الخيار لا يزيل فعلاً المعلومات الشخصية في الوقت الذي يجهز فيه وثيقة Aspose.Words ويؤثر فقط Microsoft Word سلوك
+لا يؤدي تعيين هذا الخيار فعليا إلى إزالة المعلومات الشخصية أثناء معالجة مستند في Aspose.Words ويؤثر فقط على سلوك Microsoft Word.
 
 {{% /alert %}}

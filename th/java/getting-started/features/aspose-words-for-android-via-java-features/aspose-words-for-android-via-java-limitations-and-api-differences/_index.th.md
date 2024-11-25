@@ -1,91 +1,91 @@
----
-title: Android ผ่าน Java ความแตกต่าง
+﻿---
+title: Androidผ่านJavaความแตกต่าง
 second_title: Aspose.Words
-articleTitle: Aspose.Words สําหรับ Android ผ่าน Java จํากัด API ความแตกต่าง
-linktitle: Aspose.Words สําหรับ Android ผ่าน Java จํากัด API ความแตกต่าง
-description: "Aspose.Words สําหรับ Android ผ่าน Java คุณสมบัติและ API ความแตกต่างเมื่อเทียบกับปกติ Aspose.Words สําหรับ Java รุ่น"
+articleTitle: Aspose.WordsสำหรับAndroidผ่านทางJavaข้อจำกัดและAPIความแตกต่าง
+linktitle: Aspose.WordsสำหรับAndroidผ่านทางJavaข้อจำกัดและAPIความแตกต่าง
+description: "Aspose.WordsสำหรับAndroidผ่านทางJavaคุณสมบัติและAPIความแตกต่างเมื่อเทียบกับปกติAspose.WordsสำหรับJavaรุ่น."
 type: docs
 weight: 50
 url: /th/java/aspose-words-for-android-via-java-limitations-and-api-differences/
 timestamp: 2024-01-27-14-07-04
 ---
 
-## ข้อจํากัดของ Aspose.Words สําหรับ Android ผ่าน Java API เทียบกับ Aspose.Words สําหรับ Java API
+## ข้อจำกัดของAspose.WordsสำหรับAndroidผ่านทางJavaAPIเมื่อเทียบกับAspose.WordsสำหรับJavaAPI
 
-1 * Document. print * methods ไม่ว่าง
-1 บันทึกใน **TIFF** ถึง **BMP** ยังไม่รองรับรูปแบบแฟ้ม *SaveFormat.TIFF* ถึง *SaveFormat.BMP* มีในสาธารณะ Aspose.Words สําหรับ Android ผ่าน Java API, แต่ *UnsupportedOperationException* จะถูกโยนเมื่อใช้รูปแบบการบันทึกเหล่านี้
-1 การอ่าน **TIFF** ยังไม่รองรับรูปภาพ
-1 เซ็น **ODT** ยังไม่รองรับเอกสาร
-1 ไม่รองรับบาร์โค้ด
-1 ไม่รองรับการไล่ระดับเส้นโค้ง
-1 ไม่รองรับการพิมพ์
+1. *Document.print *ไม่สามารถใช้วิธีการได้.
+1. ไม่สนับสนุนการบันทึกใน**TIFF**และ**BMP**แม้ว่า*SaveFormat.TIFF*และ*SaveFormat.BMP*จะมีให้บริการในที่สาธารณะAspose.WordsสำหรับAndroidผ่านJavaAPIแต่*UnsupportedOperationException*จะถูกโยนเมื่อใช้รูปแบบการบันทึกเหล่านี้.
+1. ไม่สนับสนุนการอ่าน**TIFF**ภาพ.
+1. ยังไม่รองรับการเซ็นชื่อ**ODT**เอกสาร.
+1. บาร์โค้ดไม่ได้รับการสนับสนุน.
+1. ไม่สนับสนุนการไล่ระดับสีตามเส้นโค้ง
+1. ไม่สนับสนุนการพิมพ์
 
-## สาธารณะ API ความแตกต่าง
+## ความแตกต่างAPIสาธารณะ
 
-- แอนดรอยด์ กราฟฟิค บิตแมพถูกใช้แทนจาวา.awt. image. beffered รูปภาพ
-- แอนดรอยด์ กราฟฟิค Canvas ใช้แทน Java.awat. image.graphics2D;
-- แอนดรอยด์ กราฟฟิค รูปหลายเหลี่ยม F ใช้แทนจาวา awt.geom.Rectangle2D. ทศนิยม;
-- แอนดรอยด์ กราฟฟิค F ใช้แทน Java.awt.geom. Point2D. ทศนิยม;
-- แอนดรอยด์ กราฟฟิค Reet ใช้แทน Java.awt สี่เหลี่ยม;
-- แอนดรอยด์ กราฟฟิค จุดถูกใช้แทนจาวา จุด
+- แอนดรอยด์งคุณบิตแมปถูกนำมาใช้แทนจาวาโอ้วภาพ.BufferedImage;
+- แอนดรอยด์งคุณใช้ผ้าใบแทนจาวาโอ้วภาพ.กราฟิก2มิติ;
+- แอนดรอยด์งคุณใช้แทนจาวาโอ้วกีออมสี่เหลี่ยมผืนผ้า 2 มิติลอย;
+- แอนดรอยด์งคุณช้แทนจาวาโอ้วกีออมจุด 2 มิติลอย;
+- แอนดรอยด์งคุณใช้แทนจาวาโอ้วสี่เหลี่ยมผืนผ้า;
+- แอนดรอยด์งคุณจุดที่ใช้แทนจาวาโอ้วประเด็น.
 
-ดูที่สาธารณะต่อไปนี้ API วิธีการ:
+ดูวิธีสาธารณะต่อไปนี้API:
 
-1 Com.asposite. words.Document builder:
-   1. แทรกตัวพิมพ์เล็ก- ใหญ่
-   1. แทรก Image( ไบต์, สองเท่า, สองเท่า)
-   1. แทรก Image( bitmap, int, left, int, int, left, ดับเบิล, สองเท่า, สองเท่า, Int)
-   1. แทรกตัวพิมพ์เล็ก- ใหญ่
-   1. แทรก OLLObject (inputSteam, สตริง, บูเลียน, บิตแมพ)
-   1. แทรก OLLObject( sturing, hulean, Holean, Bitmap)
-   1. แทรก OLLObject( sting, สตริง, บูเลียน, บูเลน, บิตแมพ)
-1 Com.asposite. words.IBarcodeGenerator:
-   1. บิตแมพได้รับบาร์โค้ด รูปภาพ
-   1. บิตแมพได้รับบาร์โค้ดเก่า รูปภาพ
-1 com.asposite. words.Imagedata:
-   1. ตั้งค่าโครงการ
-   1.บิตแมพที่จะนําเข้า
-1 com.asposite. words.Imagefailed MerningArgs:
-   1. บิตแมพ( ข้อความ)
-   1. ตั้งค่าโครงการ
-1. com.aspost. words.Document:
-   1. แอนดรอยด์. กราฟิก. พ.ศ. F แปล TOScale (in, Canvas, Fload, Fload, Ploop, Pload) โยนยกเว้น
-   1. ลอยแปลง TOSize (in, Canvas, ลอย, ลอย, ลอย, ลอย, ลอย) โยนยกเว้น
-1 Com.aspostive. words. สืบค้นเมื่อ:
-   1. แอนดรอยด์. กราฟิก. RetF ได้รับ Rectanguage () จะโยนยกเว้น
-1 com.asposite. words. NodeRenderBase:
-   1. แอนดรอยด์. graphic. pointF. getsize inPoints ()
-   1. แอนดรอยด์. กราฟิก. RetF ได้รับ Opague Bounds In Points ()
-   1. Public Android.graphic.PointF. get Size InPixels (float, flope)
-   1. แอนดรอยด์. กราฟิก. Retriet รับ Bounds InPixels (float, float)
-   1. แอนดรอยด์. กราฟิก. Rect getopaque Bounds InPixels (float, float)
-   1. แอนดรอยด์. กราฟิก. พ.ศ. F แปล Toscale( Canvas, Fload, Pload, Fload, Follow)
-   1. ลอยแปลง TOSize (canvas, ลอย, ลอย, ลอย, ลอย)
-1 Com.asposite. words.pageinfo:
-   1. แอนดรอยด์. กราฟิก. PointF. รับข้อมูลอินฟิเชลส์ (float, float)
-   1. แอนดรอยด์. graphic. pointF. getsize inPoints ()
-1. com. access. คํา. รูปร่าง ฐาน:
-   1. แอนดรอยด์. กราฟิก. การปรับค่า RetF ด้วย Effects (android.graphics.RectF)
-   1. แอนดรอยด์. กราฟิก. RetF ได้รับ Bounds ()
-   1. แอนดรอยด์. กราฟิก. RetF ได้ค่า Bounds InPoints
-   1. แอนดรอยด์. กราฟิก. RetF ได้รับ Bounds with effects () แล้ว
-   1. แอนดรอยด์. กราฟิก. ได้รับค่าที่ตั้งไว้
-   1. แอนดรอยด์. graphic. pointF. get cordSize ()
-   1. แอนดรอยด์. graphic. pointF. getsize inPoints ()
-   1. แอนดรอยด์. graphic. PointF. ท้องถิ่น To Part (android.graphics.PointF)
-   1. เซตบูลส์ (androids.graphics.RectF)
-   1. เซต Coridorigin(android.graphics.Point)
-   1. เซต CroordSize (android.graphics.PointF)
-1 Com.aspostive. words.Thumb graphing graphations:
-   1. แอนดรอยด์. graphic. pointF. get Thumbulseize ()
-   1. เซต Thumb valuesize (android. graphics.PointF)
+1. คอมแอสโปสคำพูดDocumentBuilder:
+   1. insertImage(บิทแมป)
+   1. insertImage(บิทแมป,คู่,คู่)
+   1. insertImage(บิทแมป,อินท์,คู่,อินท์,คู่,สอง,สอง,สอง,สอง,)
+   1. insertOleImage(บิทแมป)
+   1. insertOleObject(InputStream,สตริง,บูลีน,บิทแมป)
+   1. insertOleObject(สตริงบูลีนบูลีนบิทแมป)
+   1. insertOleObject(สตริง,สตริง,บูลีน,บูลีน,บิทแมป)
+1. คอมแอสโปสคำพูดIBarcodeGenerator:
+   1. บิทแมปgetBarcodeImage(BarcodeParameters)
+   1. บิทแมปgetOldBarcodeImage(BarcodeParameters)
+1. คอมแอสโปสคำพูดImageData:
+   1. setImage(บิทแมป)
+   1. บิทแมปtoImage()
+1. คอมแอสโปสคำพูดImageFieldMergingArgs:
+   1. บิทแมปgetImage()
+   1. setImage(บิทแมป)
+1. คอมแอสโปสคำพูดเอกสาร:
+   1. แอนดรอยด์งคุณพอยท์เอฟrenderToScale(อินเตอร์,ผ้าใบ,ลอย,ลอย,ลอย)พ่นข้อยกเว้น
+   1. ลอยrenderToSize(ค่าเริ่มต้น,ผ้าใบ,ลอย,ลอย,ลอย,ลอย)พ่นข้อยกเว้น
+1. คอมแอสโปสคำพูดLayoutEnumerator:
+   1. แอนดรอยด์งคุณแก้ไขgetRectangle()ข้อยกเว้น
+1. คอมแอสโปสคำพูดNodeRendererBase:
+   1. แอนดรอยด์งคุณพอยท์เอฟgetSizeInPoints()
+   1. แอนดรอยด์งคุณการแก้ไขgetOpaqueBoundsInPoints()
+   1. หุ่นยนต์สาธารณะงคุณพอยต์getSizeInPixels(ลอย,ลอย)
+   1. แอนดรอยด์งคุณแก้ไขgetBoundsInPixels(ลอย,ลอย)
+   1. แอนดรอยด์งคุณแก้ไขgetOpaqueBoundsInPixels(ลอย,ลอย)
+   1. แอนดรอยด์งคุณพอยท์เอฟrenderToScale(ผ้าใบ,ลอย,ลอย,ลอย)
+   1. ลอยrenderToSize(ผ้าใบ,ลอย,ลอย,ลอย,ลอย)
+1. คอมแอสโปสคำพูดPageInfo:
+   1. แอนดรอยด์งคุณพอยต์getSizeInPixels(ลอย,ลอย)
+   1. แอนดรอยด์งคุณพอยท์เอฟgetSizeInPoints()
+1. คอมแอสโปสคำพูดShapeBase:
+   1. แอนดรอยด์งคุณแก้ไขadjustWithEffects(แอนดรอยด์.งคุณ)
+   1. แอนดรอยด์งคุณการแก้ไขgetBounds()
+   1. แอนดรอยด์งคุณการแก้ไขgetBoundsInPoints()
+   1. แอนดรอยด์งคุณการแก้ไขgetBoundsWithEffects()
+   1. แอนดรอยด์งคุณจุดgetCoordOrigin()
+   1. แอนดรอยด์งคุณพอยท์เอฟgetCoordSize()
+   1. แอนดรอยด์งคุณพอยท์เอฟgetSizeInPoints()
+   1. แอนดรอยด์งคุณพอยต์localToParent(แอนดรอยด์.งคุณพอยต์)
+   1. setBounds(แอนดรอยด์.งคุณ)
+   1. setCoordOrigin(แอนดรอยด์.งคุณจุด)
+   1. setCoordSize(แอนดรอยด์.งคุณพอยต์)
+1. คอมแอสโปสคำพูดThumbnailGeneratingOptions:
+   1. แอนดรอยด์งคุณพอยท์เอฟgetThumbnailSize()
+   1. setThumbnailSize(แอนดรอยด์.งคุณพอยต์)
 
-## Aspose.Words สําหรับ Android ผ่าน Java สิ่งที่ต้องการเพิ่มเติม
+## Aspose.WordsสำหรับAndroidผ่านทางJavaข้อกำหนดเพิ่มเติม
 
-ในการใช้คุณสมบัติการเณรแบบเมตร และการโหลดเอกสารหรือภาพโดย http/ftp โพรโทคอล ควรเพิ่มสิทธิ์ในการเรียกโปรแกรมของพวกเขาก่อน
-* <uses-perputation android: name="android. perternet"*
+เพื่อที่จะใช้คุณลักษณะการออกใบอนุญาตมิเตอร์และโหลดเอกสารหรือภาพโดยโปรโตคอล
+`<uses-permission android:name="android.permission.INTERNET" />`
 
-## สาธารณะ API ตัวอย่าง
+## สาธารณะAPIตัวอย่าง
 
 {{< highlight csharp >}}
 public void testPublicAPI1() throws Exception

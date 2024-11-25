@@ -1,38 +1,38 @@
----
-title: How to Add Group نشارك في وثيقة كلمة
-second_title: Aspose.Words for Java
-articleTitle: العمل مع Group Shapes in Word Documents
-linktitle: العمل مع Group Shapes in Word Documents
-description: "Grouping and ungrouping shapes using Java."
+﻿---
+title: كيفية إضافة Group Shape إلى مستند ورد
+second_title: Aspose.Words ل Java
+articleTitle: العمل مع Group Shapes في مستندات ورد
+linktitle: العمل مع Group Shapes في مستندات ورد
+description: "تجميع وفك تجميع الأشكال باستخدام Java."
 type: docs
 weight: 290
 url: /ar/java/how-to-add-group-shape-into-a-word-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
-أحياناً عليك أن تضيف group shape في وثيقة كلمة من هذا القبيل group shape تتألف من أشكال متعددة
+في بعض الأحيان تحتاج إلى إضافة group shape إلى مستند ورد. يتكون هذا group shape من أشكال متعددة.
 
-In Microsoft Word, يمكنك أن تضيف بسرعة group shape استخدام Group القيادة/البوتون ويمكن نقل الأشكال الفردية في المجموعة بصورة منفصلة.
+في Microsoft Word، يمكنك إضافة group shape بسرعة باستخدام أمر/زر المجموعة. يمكن نقل الأشكال الفردية في المجموعة بشكل منفصل.
 
-In Aspose.Words من السهل جداً إضافة group shape استخدام [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) الصف **Shape** يُنشأ بشكل منفصل باستخدام [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) ثم أضيف [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) استخدام الجسم [AppendChild](https://reference.aspose.com/words/java/com.aspose.words/groupshape/#appendChild-com.aspose.words.Node) طريقة
+في Aspose.Words من السهل جدا إضافة group shape باستخدام [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) فئة. يتم إنشاء **Shape** بشكل منفصل باستخدام فئة [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) ثم يتم إضافتها في [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) كائن باستخدام طريقة [AppendChild](https://reference.aspose.com/words/java/com.aspose.words/groupshape/#appendChild-com.aspose.words.Node).
 
-بعض من `Shape` الأنواع المدعومة Aspose.Words. للقائمة الكاملة، يرجى زيارة [ShapeType](https://reference.aspose.com/words/java/com.aspose.words/shapetype/):
+فيما يلي بعض أنواع `Shape` المدعومة في Aspose.Words. للحصول على قائمة كاملة، يرجى زيارة [ShapeType](https://reference.aspose.com/words/java/com.aspose.words/shapetype/):
 
-- Rectangle
--دور ريكتنغ
--دور ريكتنغ
-- إلليبسي
+- مستطيل
+- RoundRectangle
+- RoundRectangle
+- القطع الناقص
 - الماس
 - المثلث
-- يمين -
-- الموازية
-- Trapezoid
-- Hexagon
-- أوكتاغون
+- RightTriangle
+- متوازي الاضلاع
+- شبه منحرف
+- مسدس
+- المثمن
 
-**Example**
+**مثال**
 
-* group shape في وثيقة كلمة ♪
+*Add a group shape into a Word document.*
 
 
 {{< highlight csharp >}}
