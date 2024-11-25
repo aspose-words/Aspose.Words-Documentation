@@ -1,47 +1,47 @@
----
-title: Installer Vrai Saisissez les polices sur Linux en Java
+﻿---
+title: Installer TrueType Polices sur Linux dans Java
 second_title: Aspose.Words pour Java
-articleTitle: Installer Vrai Saisissez les polices sur Linux
-linktitle: Installer Vrai Saisissez les polices sur Linux
-description: "Aspose.Words pour Java permet de rendre un document créé en utilisant Microsoft Word sur une Linux machine avec la meilleure précision."
+articleTitle: Installer TrueType Polices sur Linux
+linktitle: Installer TrueType Polices sur Linux
+description: "Aspose.Words pour Java permet de rendre un document créé à l'aide de Microsoft Word sur une machine Linux avec la meilleure précision."
 type: docs
 weight: 20
 url: /fr/java/install-truetype-fonts-on-linux/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Le plus souvent, vous utiliserez Aspose.Words pour convertir les documents DOC ou DOCX en format PDF. Si vous devez le faire sur un Linux machine, ce sujet vous aidera à apprendre comment assurer Aspose.Words rend vos documents avec la meilleure précision.
+Le plus souvent, vous utiliserez Aspose.Words pour convertir des documents DOC ou DOCX au format PDF. Si vous devez le faire sur une machine Linux, cette rubrique vous aidera à apprendre à vous assurer que Aspose.Words rend vos documents avec la meilleure précision.
 
-Le plus souvent, les documents DOC et DOCX, qui doivent être convertis, ont été créés en utilisant Microsoft Word, sur une Windows ou système d'exploitation Mac OS. Par conséquent, la plupart des polices utilisées dans les documents DOC et DOCX sont "Windows polices" ou "Doises Office", qui sont les polices installées avec Microsoft Windows ou Microsoft Bureau. Ces polices comprennent Arial, Calibri, Cambria, Century Gothic, Courier New, Garamond, Tahoma, Verdana, Wingdings et bien d'autres.
+Le plus souvent, les documents DOC et DOCX, qui doivent être convertis, ont été créés à l'aide de Microsoft Word, sur un système d'exploitation Windows ou Mac OS. Par conséquent, la plupart des polices utilisées dans les documents DOC et DOCX sont des "policesWindows" ou des "polices Office", c'est-à-dire les polices installées avec Microsoft Windows ou Microsoft Office. Ces polices incluent Arial, Calibri, Cambria, Century Gothic, Courier New, Garamond, Tahoma, Verdana, Wingdings et bien d'autres.
 
-Le problème, c'est que `TrueType` Les polices énumérées ci-dessus ne sont pas installées par défaut sur Linux distributions. Si vous prenez un document DOCX typique qui est formaté avec la police Cambria et essayez de le convertir en format PDF sur Linux, Aspose.Words utilisera une police différente car Cambria n'est pas disponible. Par conséquent, le document PDF sera différent par rapport au document DOCX original. Pour s'assurer que les documents convertis Aspose.Words apparaître le plus près possible de l'original, vous devez installer "Windows polices" sur votre Linux système.
+Le problème est que les polices `TrueType` listées ci-dessus ne sont pas installées par défaut sur les distributions Linux. Si vous prenez un document DOCX typique formaté avec la police Cambria et essayez de le convertir au format PDF sur Linux, Aspose.Words utilisera une police différente car Cambria n'est pas disponible. Par conséquent, le document PDF aura un aspect différent par rapport au document DOCX d'origine. Pour vous assurer que les documents convertis par Aspose.Words apparaissent aussi proches que possible de l'original, vous devez installer "Windows polices" sur votre système Linux.
 
-Il existe deux façons principales d'obtenir les polices TrueType sur un Linux système:
+Il existe deux manières principales d'obtenir des polices TrueType sur un système Linux:
 
-- Copier .TTF et. Fichiers TTC d'un Windows machine sur votre Linux machine
-- Installer un `TrueType` paquet de polices, comme *msttcorefonts*
+- Copie .TTF et .TTC fichiers d'une Windows machine sur votre Linux machine
+- Installez un package de polices `TrueType`, tel que *msttcorefonts*
 
-## Copie des polices d'un Windows Machine
+## Copie de polices à partir d'une machine Windows
 
-Un moyen simple et rapide d'obtenir les polices TrueType sur une Linux système est de copier. TTF et. Fichiers TTC du `C:\Windows\Fonts` répertoire sur un Windows machine à certains répertoires sur votre Linux machine. Vous n'avez pas à installer ou enregistrer ces polices sur Linux de quelque manière que ce soit; vous devez simplement spécifier l'emplacement des polices en utilisant la [FontSettings](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/) dans la catégorie Aspose.Words.
+Un moyen simple et rapide d'obtenir TrueType polices sur un système Linux est de copier .TTF et .TTC fichiers du répertoire `C:\Windows\Fonts` sur une machine Windows vers un répertoire sur votre machine Linux. Vous n'avez en aucun cas besoin d'installer ou d'enregistrer ces polices sur Linux; il vous suffit de spécifier l'emplacement des polices en utilisant la classe [FontSettings](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/) dans Aspose.Words.
 
 {{% alert color="primary" %}}
 
-Vérifier si la licence de police est nécessaire et lire attentivement l'EULA avant d'installer MS Fonts sur n'importe quel Linux système d'exploitation.
+Vérifiez si une licence de police est requise et lisez attentivement le EULA avant d'installer les polices MS sur n'importe quel système d'exploitation Linux.
 
 {{% /alert %}}
 
-## Installer un `TrueType` Paquet Polices
+## Installer un package de polices `TrueType`
 
-Il y a un certain nombre de Linux colis contenant Microsoft Polices TrueType, que vous pouvez télécharger et installer sur votre Linux machine. Les étapes exactes peuvent être différentes sur divers Linux distributions.
+Il existe un certain nombre de packages Linux, contenant des polices Microsoft TrueType, que vous pouvez télécharger et installer sur votre machine Linux. Les étapes exactes peuvent être différentes sur différentes distributions Linux.
 
-- À Ubuntu, Utilisez Synaptic Package Manager pour trouver et installer le paquet *ttf-mscorefonts-installer*.
-- Sur openSUSE, utilisez Yast2 → Gestion de logiciels pour trouver et installer le *fetchmsttfonts* colis.
-- Utiliser les polices de libération sous licence OFL, comme alternative à la norme Windows polices: Arial, Times New Roman et Courrier New.
-- Pour les paquets de polices adaptés à d'autres Linux distributions, recherche la documentation disponible sur Internet.
+- Sur Ubuntu, utilisez le gestionnaire de packages Synaptic pour rechercher et installer le package *ttf-mscorefonts-installer*.
+- Sur openSUSE, utilisez Yast2 → Gestion des logiciels pour rechercher et installer le package *fetchmsttfonts*.
+- Utilisez les polices Liberation sous licence OFL, comme alternative aux polices Windows standard: Arial, Times New Roman et Courier New.
+- Pour les paquets de polices adaptés à d'autres distributions Linux, recherchez la documentation disponible sur Internet.
 
-Après l'installation du paquet, Aspose.Words retrouvera ces polices dans les dossiers de votre système et les utilisera lorsque vous travaillerez avec des documents.
+Après l'installation du package, Aspose.Words trouvera ces polices dans les dossiers de votre système et les utilisera lors de l'utilisation de documents.
 
-## Voir aussi
+## Voir Aussi
 
-- Oui. [Polices de libération](https://github.com/liberationfonts) comme alternative à la norme Windows polices
+- [Politiques de Libération](https://github.com/liberationfonts) comme alternative aux polices Windows standard

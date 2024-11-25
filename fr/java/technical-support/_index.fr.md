@@ -1,35 +1,35 @@
----
-title: Appui technique
+﻿---
+title: Soutien Technique
 second_title: Aspose.Words pour Java
-articleTitle: Appui technique
-linktitle: Appui technique
+articleTitle: Soutien Technique
+linktitle: Soutien Technique
 type: docs
-description: "Aspose.Words pour Java fournit un support technique gratuit à tous les utilisateurs. Veuillez signaler votre question, votre numéro ou votre demande de fonctionnalités en utilisant le forum d'assistance gratuite Aspose."
+description: "Aspose.Words pour Java fournit un support technique gratuit disponible pour tous les utilisateurs. Veuillez signaler votre question, problème ou demande de fonctionnalité à l'aide du Forum d'assistance gratuit Aspose."
 weight: 80
 url: /fr/java/technical-support/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose fournit un support technique illimité et gratuit pour tous ses produits. Le soutien est disponible pour tous les utilisateurs, y compris l'évaluation. La principale voie de soutien est [Pose-toi. Forums](https://forum.aspose.com/c/words/8).
+Aspose fournit un support technique gratuit illimité pour tous ses produits. Le support est disponible pour tous les utilisateurs, y compris l'évaluation. La principale voie de soutien est [Aspose.Forums](https://forum.aspose.com/c/words/8).
 
 {{% alert color="primary" %}}
 
-Veuillez noter que Aspose ne fournit pas de soutien technique par téléphone. Le support téléphonique est uniquement disponible pour les questions de vente et d'achat.
+Veuillez noter qu'Aspose ne fournit pas d'assistance technique par téléphone. L'assistance téléphonique n'est disponible que pour les questions de vente et d'achat.
 
 {{% /alert %}}
 
-## Proposer un forum de soutien gratuit
+## Forum de Support Gratuit Aspose
 
-Si vous avez besoin d'aide Aspose.Words, examiner les points suivants:
+Si vous avez besoin d'aide avec Aspose.Words, considérez ce qui suit:
 
-* Assurez-vous que vous utilisez la dernière Aspose.Words version avant de signaler un problème. Voir [Aspose.Words pour Java Téléchargements](https://releases.aspose.com/words/java/) pour en savoir plus sur la dernière version.
-* Jetez un oeil à travers les forums, cette documentation, API Reference avant de signaler un problème – votre question a peut-être déjà été répondue.
-* Postez votre question au [Aspose.Words Forum](https://forum.aspose.com/c/words/8), et il sera répondu dans quelques heures. Les questions sont répondues directement par Aspose.Words l'équipe de développement.
-* Lorsque vous attendez une réponse sur les forums, veuillez tenir compte des différences de fuseau horaire.
+* Assurez-vous d'utiliser la dernière version Aspose.Words avant de signaler un problème. Voir [Aspose.Words pour Java Téléchargements](https://releases.aspose.com/words/java/) pour connaître la dernière version.
+* Jetez un œil aux forums, à cette documentation et au API Reference avant de signaler un problème – peut-être que votre question a déjà reçu une réponse.
+* Posez votre question au [Aspose.Words Sur le forum](https://forum.aspose.com/c/words/8), et il sera répondu dans quelques heures. Les questions sont répondues directement par l'équipe de développement Aspose.Words.
+* Lorsque vous attendez une réponse sur les forums, veuillez prendre en compte les différences de fuseau horaire.
 
-## Signaler une question ou une demande de caractéristiques
+## Signaler un Problème ou une Demande de fonctionnalité
 
-Lors de l'affichage de votre numéro, question, ou la demande de fonctionnalités avec Aspose.Words, suivre ces étapes simples pour s'assurer qu'il est résolu de la manière la plus efficace:
+Lorsque vous publiez votre problème, question ou demande de fonctionnalité avec Aspose.Words, suivez ces étapes simples pour vous assurer qu'il est résolu de la manière la plus efficace:
 
-* Inclure le document original et éventuellement l'extrait de code qui cause le problème. Si vous avez besoin de joindre plusieurs fichiers, ziplez-les dans un. Il est sécuritaire de joindre vos documents à `Aspose.Forums` car seuls vous et les développeurs Aspose aurez accès aux fichiers joints.
-* Essayez de rapporter un numéro par fil. Si vous avez un autre problème, une autre question ou une autre demande de fonctionnalité, veuillez le signaler dans un thread séparé.
+* Incluez le document original et éventuellement l'extrait de code à l'origine du problème. Si vous devez joindre plusieurs fichiers, compressez-les en un seul. Il est prudent de joindre vos documents à `Aspose.Forums` car seuls vous et les développeurs Aspose aurez accès aux fichiers joints.
+* Essayez de signaler un problème par thread. Si vous avez un autre problème, question ou demande de fonctionnalité, veuillez le signaler dans un fil séparé.
